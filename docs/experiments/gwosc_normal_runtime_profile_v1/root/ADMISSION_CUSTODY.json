@@ -1,0 +1,41 @@
+{
+  "card": {
+    "bytes": 3005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/NORMAL_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/NORMAL_ADMISSION.json",
+    "sha256": "0ed8d1b8d49eabe1fc0caa1683ecc4f07768b62e35781c99e016bfc7b0dc7c94",
+    "state": [
+      16777244,
+      408347,
+      33188,
+      1,
+      3005,
+      1790774113816886689,
+      1790774113816886689
+    ],
+    "symlink_chain": []
+  },
+  "genuine_operation_count": 1,
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e",
+  "source_pre": {
+    "bytes": 294853,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/SOURCE_PRE.json",
+    "sha256": "d1d3e5c7da67c8d1a51a55d89281ef28ef256f6b116e3a6ec12ee4f50d8f09ee"
+  },
+  "source_review": {
+    "bytes": 3042,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/PROFILE_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/PROFILE_SOURCE_ADJUDICATION.json",
+    "sha256": "7520c3bf339ea3133308378c0fe05ea5cfd644ae05cd8d8021960f7faf4c9275",
+    "state": [
+      16777244,
+      408346,
+      33188,
+      1,
+      3042,
+      1790774113811823706,
+      1790774113811823706
+    ],
+    "symlink_chain": []
+  }
+}

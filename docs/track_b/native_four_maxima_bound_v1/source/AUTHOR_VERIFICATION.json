@@ -1,0 +1,280 @@
+{
+  "schema": "ri205-author-verification-v1",
+  "status": "AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+    "bytes": 2862,
+    "sha256": "eb3dac590579291b819c8e9216553dc23bd1d8528883b5e800de5d24e3be4ae6"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+    "bytes": 2333,
+    "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2"
+  },
+  "scalar_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+    "bytes": 1133,
+    "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+  },
+  "source_references": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json",
+    "bytes": 26710,
+    "sha256": "a488f9a22449d6f2649279045e3d843b2d3634add225720473ad4df2b8374f80"
+  },
+  "final6_not_yet_run_at_author_creation": true,
+  "final6_actual_receipt_to_be_reported_externally": true,
+  "scope": {
+    "complete_four_maxima_class_bound_proved": true,
+    "retained_cap_denominator_variant_proved": true,
+    "finite_four_maxima_terminal_support_lemma_proved": true,
+    "complete_extra_old_maxima_correction_bound_proved": true,
+    "global_M6_bound_proved": false,
+    "actual_W_or_both_margins_or_H30_decided": false,
+    "five_and_six_maxima_settled": false,
+    "manual_analytic_work_only": true,
+    "inherited_finite_facts_not_freshly_verified": true,
+    "printed_numerical_M5_used": false,
+    "new_scientific_body_vector_or_certificate_read": false,
+    "automated_proof_arithmetic_graph_LP_or_subject_execution": false,
+    "full_coefficient_vector_or_actual_scale_instantiated": false,
+    "repository_Git_predecessor_fixture_runtime_or_card_changes": false,
+    "new_agents_or_threads": false,
+    "ret_paused": true
+  },
+  "manual_checks": [
+    "Independently reconstructed all nonempty deletion subsets. One, two, three, four omitted caps give four singles, six doubles, four triples and one all-four sector. Full base ideals retained.",
+    "Checked that full q_I(R+I) occurs in the size-four denominator of double sectors and uses only the all-ideal floor. Every retained-cap triple-denominator entry is proper.",
+    "Reproved retained-cap denominator variant; did not assume three omitted precursors cover retained cap i. Nonempty A leaves at most one old vertex, covered by an omitted precursor. Empty A checked for R chain and antichain.",
+    "For antichain R with empty selected A and no full omitted precursor, two distinct singleton precursors give actual deletion potentials4e^2. Their ratio to selected singleton probability(2/5)e is40e^3>4epsilon; two proper1/8 factors and third epsilon give the stated epsilon^2/16 product.",
+    "Proved the six-terminal Ferrers support argument using maximal induced Ferrers suborders, not false heredity. Four Ferrers maxima require at least10 cells. An omitted original maximum gives a raising restoration, and marked ordinary diamond connects it to every proper role.",
+    "Used accepted everywhere-neutral active canonical support only to set the canonical coefficient to zero at proved slots. Preserved positive theta and all other canonical terms.",
+    "Reconstructed extra old-maxima corrections by X nonempty and every V subset cap triple. Checked signs and parent sizes for |X|1 and2, including empty-parent1 and full smaller slots.",
+    "Derived size-three floor1/110 from every seed shape and both fork/edge record cases, including full complements; size-one floor1/3 also includes full.",
+    "Used original coverage to show each old vertex can be uncovered in at most one cap triple; at most two occurrences total. Product correction <=(3*110^3)^2*(27*110)=243*110^7.",
+    "Checked exact cancellation of four caps-only triple products: pair multiplicity2, singleton multiplicity3, B multiplicity4. The remaining summand is theta^4 Gamma B^3 product(pair q)/product(single q)^2.",
+    "Complete B row gives sum B^3<=1; theta<2^-30 and243*110^15<2^113 give C4<1/128. No actual M5/theta evaluated.",
+    "Rechecked native antichain witness and stronger manual arithmetic243/1024>1/5,11^5=161051>160000, thus M5>5.12b>5b and unchanged T>465b.",
+    "Checked6*76000=456000,76000^2=5776000000 and64*that=369664000000, giving U6<369664456005<370b<465b<T.",
+    "Read both written manuscripts fully at303f86 exit0; no source revision after this manual proof/readback phase. Handoff read fully47e475 exit0."
+  ],
+  "current_literal_source_reads": [
+    {
+      "receipt": "51a673",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI205_NATIVE_ASSIGNMENT.json",
+          "bytes": 2862,
+          "sha256": "eb3dac590579291b819c8e9216553dc23bd1d8528883b5e800de5d24e3be4ae6"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+          "bytes": 2333,
+          "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2"
+        }
+      ],
+      "scope": "Full exact-pinned assignment and accepted predecessor decision; re-read ab95e5 exit0.",
+      "complete": true
+    },
+    {
+      "receipt": "824cd9",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+          "bytes": 16243,
+          "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+          "symlinks": []
+        }
+      ],
+      "scope": "Complete fixed seed, potential, RI41 scalar theorem statements; no linked scientific certificate opened.",
+      "complete": true
+    },
+    {
+      "receipt": "183657",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "bytes": 17102,
+          "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+          "symlinks": []
+        }
+      ],
+      "scope": "Complete accepted analytic canonical completion. The printed numerical M5 was visible but never selected as an operand. No linked body/vector opened.",
+      "complete": true
+    },
+    {
+      "receipt": "9429de",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/THREE_MAXIMA.md",
+          "bytes": 11125,
+          "sha256": "10008e3ccbe7a596daf811e75d0812c7b27aac805e93dbfdb9dcce8cc76f5c60"
+        }
+      ],
+      "scope": "Complete accepted predecessor theorem.",
+      "complete": true
+    },
+    {
+      "receipt": "84c33b",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/DENOMINATOR_LEMMA.md",
+          "bytes": 10284,
+          "sha256": "d466e1c13cf99583b2ea7ef269938993b46fdafec02ad6311a3fc4150124720c"
+        }
+      ],
+      "scope": "Complete accepted covering-precursor lemma; not transplanted to retained caps.",
+      "complete": true
+    },
+    {
+      "receipt": "c41476",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_PROOF_REVIEW.md",
+          "bytes": 4450,
+          "sha256": "c49c81a232d6ecde6e80b5a6d3f27773648e59214b69e77af820a1e5abe54f96"
+        }
+      ],
+      "scope": "Complete root independent proof review.",
+      "complete": true
+    },
+    {
+      "receipt": "a6c590",
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+          "bytes": 12913,
+          "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+        }
+      ],
+      "scope": "Complete accepted RI201 native M5 witness and target relation.",
+      "complete": true
+    }
+  ],
+  "writing_skill": {
+    "name": "pages:write-page",
+    "use": "Established local Markdown research handoff; no Page or cloud artifact. Skill used to separate result, named assumptions, complete proof and open classes.",
+    "complete_skill_reads": [
+      "6b7e11 exit0",
+      "c8d46f exit0"
+    ],
+    "complete_quality_reads": [
+      "bd9b1b exit0",
+      "8165fb exit0"
+    ],
+    "announcement_made": true,
+    "rendered_page_preview_claimed": false
+  },
+  "manuscript_phases": [
+    {
+      "phase": "only written proof phase",
+      "receipt": {
+        "chunk_id": "303f86",
+        "exit_code": 0,
+        "output_truncated": false
+      },
+      "payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+          "bytes": 13642,
+          "sha256": "a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+          "bytes": 11610,
+          "sha256": "4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798"
+        }
+      ],
+      "review": "Full human-facing proof readback; no automatic scientific calculation."
+    }
+  ],
+  "provenance": {
+    "direct_sources": 15,
+    "direct_bytes": 543096,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_complete_namespace": 6,
+    "fresh423_or_previous_source_collections_replay": false,
+    "construction_receipt": {
+      "chunk_id": "10a32e",
+      "exit_code": 0
+    }
+  },
+  "current_diagnostics": [
+    {
+      "receipt": "6a0e9a",
+      "exit_code": 0,
+      "type": "truncated-read-only-workspace-status-display",
+      "description": "Initial workspace recovery inspected pwd, git status --short and narrow path search. The status listing was truncated. No proof-source read or exhaustive namespace decision relied on it, no repository/index edits followed, and exact reservation/source checks were separate and complete."
+    }
+  ],
+  "current_failed_commands_or_patches": [],
+  "checker_script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6\",eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b);\nconst sameRef=(a,b)=>eq(Object.keys(a).sort(),Object.keys(b).sort())&&Object.keys(a).every(k=>eq(a[k],b[k]));\nconst cache=new Map();\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'declared identity fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'link fields');\n return r;\n}\nconst currentFour=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md\",\"bytes\":13642,\"sha256\":\"a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md\",\"bytes\":11610,\"sha256\":\"4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.md\",\"bytes\":2482,\"sha256\":\"72d9c189c4c66d7d9f195ecf51aa0bc92b55627f449e5cc449abe385695614c9\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json\",\"bytes\":26710,\"sha256\":\"a488f9a22449d6f2649279045e3d843b2d3634add225720473ad4df2b8374f80\"}];currentFour.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri205-compact-accepted-source-references-v1','schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===15&&S.direct_scope.files===15,'direct15');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===543096&&S.direct_scope.bytes===543096,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort()),'code-unit source order');\nfor(const r of S.direct_sources){\n need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'access class');pin(r.identity);\n}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected reference');pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.scalar_clarification,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity])selected(i);\nfor(const g of S.current_literal_reads)for(const i of g.files)selected(i);\nconst assignment=JSON.parse(pin(S.assignment).body),decision=JSON.parse(pin(S.accepted_predecessor).body),clarification=JSON.parse(pin(S.scalar_clarification).body),prior=JSON.parse(pin(S.predecessor_handoff).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI203_INDEPENDENT_ADJUDICATION'&&sameRef(assignment.predecessor,S.accepted_predecessor),'assignment');\nfor(const k of ['handoff','proof','lemma','metadata','root_review'])selected(decision[k]);\nneed(sameRef(decision.handoff,S.predecessor_handoff)&&decision.actual_W_decided===false&&decision.status==='ACCEPT_COMPLETE_THREE_MAXIMA_CLASS_CONDITIONAL_THEOREM','predecessor');\nselected(clarification.source);\nneed(clarification.status==='NAMED_ACCEPTED_FINITE_SCALAR_ALLOWED_AS_INHERITED_PREMISE'&&clarification.new_vector_or_certificate_read===false&&clarification.new_execution_authority===false,'clarification scope');\nconst previousNames=fs.readdirSync(P).sort();\nneed(eq(previousNames,S.predecessor_namespace)&&eq(previousNames,prior.namespace)&&prior.payloads.length===5,'predecessor namespace6');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),previousNames),'prior coverage');\nconst previousRefs=JSON.parse(pin(S.predecessor_references).body),inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'423 by reference');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,previousRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'unchanged15 boundaries');\nneed(S.inherited_manifest_by_reference.fresh423_or_previous26_or_previous18_replay===false&&S.inherited_manifest_by_reference.inherited_boundaries_not_new_read_authority===true&&S.inherited_manifest_by_reference.RI197_literal_certificate_exception_used_for_new_read===false&&S.inherited_manifest_by_reference.RI164_operational_boundary_remains_unexpanded===true,'historical scope');\nselected(S.predecessor_author_support.identity);\nneed(S.predecessor_author_support.access==='opaque-historical-support'&&S.predecessor_author_support.typed_reference_expansion===false,'author support boundary');\nneed(S.scope.complete_four_maxima_class_bound_proved===true&&S.scope.retained_cap_denominator_variant_proved===true&&S.scope.finite_four_maxima_terminal_support_lemma_proved===true&&S.scope.complete_extra_old_maxima_correction_bound_proved===true,'author scope labels');\nneed(S.scope.global_M6_bound_proved===false&&S.scope.actual_W_or_both_margins_or_H30_decided===false&&S.scope.five_and_six_maxima_settled===false&&S.scope.printed_numerical_M5_used===false&&S.scope.new_scientific_body_vector_or_certificate_read===false&&S.scope.automated_proof_arithmetic_graph_LP_or_subject_execution===false&&S.scope.ret_paused===true,'declared proof scope');\nneed(eq(S.executable_obligations,previousRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged obligations');\nconst stage=process.argv[1]||'preseal4';need(['preseal4','final6'].includes(stage),'stage');\nconst final=['AUTHOR_VERIFICATION.json','FOUR_MAXIMA.md','FOUR_OMISSION_LEMMA.md','HANDOFF.json','HANDOFF.md','SOURCE_REFERENCES.json'];\nconst expected=stage==='final6'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['FOUR_MAXIMA.md','FOUR_OMISSION_LEMMA.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'text hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(final.includes(m[1]),'declared final Markdown target');\n}\nif(stage==='final6'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===5&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);selected(h.assignment);selected(h.accepted_predecessor);selected(h.scalar_clarification);\n need(h.manual_analysis_only===true&&h.complete_four_maxima_class_bound_proved===true&&h.global_M6_bound_proved===false&&h.actual_W_decided===false&&h.five_and_six_maxima_settled===false&&h.new_scientific_body_or_vector_read===false&&h.printed_numerical_M5_used===false&&h.automated_proof_arithmetic_or_subject_execution===false&&h.qualification_credit===false&&h.repository_or_Git_written===false&&h.ret_paused===true,'final scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===4&&a.final6_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n need(eq(a.executable_obligations,S.executable_obligations)&&eq(h.executable_obligations,S.executable_obligations),'final obligations');\n}\nconst all=[...cache.values()].map(simple);need(all.length===15+expected.length,'fresh scope count');all.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),previousNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri205-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:15,direct_bytes:543096,inherited423_manifest_by_reference:true,fresh_inherited423_or_previous_source_collections_replay:false,inherited_boundary_objects_preserved:15,explicit_selected_reference_checks:references,predecessor_namespace:6,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,declared_local_Markdown_targets:stage==='final6'?'all-present':'future-seal-targets-declared-final-presence-pending',scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+  "checker_limits": "File identities, explicit administrative references, namespace completeness, exact preserved boundary objects, scope labels and text hygiene only. Checking proof-status flags is not checking mathematics. No proof arithmetic, graph/LP/subject execution or scientific-body decoding.",
+  "preseal": {
+    "receipt": {
+      "chunk_id": "0a19b6",
+      "exit_code": 0,
+      "output_truncated": false
+    },
+    "actual_result": {
+      "schema": "ri205-compact-administrative-check-v1",
+      "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+      "stage": "preseal4",
+      "direct_sources": 15,
+      "direct_bytes": 543096,
+      "inherited423_manifest_by_reference": true,
+      "fresh_inherited423_or_previous_source_collections_replay": false,
+      "inherited_boundary_objects_preserved": 15,
+      "explicit_selected_reference_checks": 26,
+      "predecessor_namespace": 6,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 19,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+          "bytes": 13642,
+          "sha256": "a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+          "bytes": 11610,
+          "sha256": "4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.md",
+          "bytes": 2482,
+          "sha256": "72d9c189c4c66d7d9f195ecf51aa0bc92b55627f449e5cc449abe385695614c9"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/SOURCE_REFERENCES.json",
+          "bytes": 26710,
+          "sha256": "a488f9a22449d6f2649279045e3d843b2d3634add225720473ad4df2b8374f80"
+        }
+      ],
+      "declared_local_Markdown_targets": "future-seal-targets-declared-final-presence-pending",
+      "scientific_body_read_or_proof_arithmetic": false,
+      "subject_execution": false
+    }
+  },
+  "inherited_history": "Complete sealed RI203 author history retained opaquely. RI201 and all older failed/recovered administrative checks, errata and manuscript phases remain in the exact reference chain. Embedded old phase hashes are not refreshed as current expectations.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Submit only the full four-maxima conditional theorem. Root owns independent acceptance, Git/publication and successors. Five/six maxima, global M6, actual W and H30 remain open; RET paused."
+}

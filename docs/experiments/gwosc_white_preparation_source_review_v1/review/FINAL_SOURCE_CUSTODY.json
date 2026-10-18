@@ -1,0 +1,138 @@
+{
+  "all_10_unchanged": true,
+  "new_runtime_observed": false,
+  "schema": "ri133-final-opaque-source-custody-v1",
+  "source_packet": [
+    {
+      "actual": {
+        "bytes": 3692,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/AUTHORING_RECORD.md",
+        "sha256": "136bb06fc5f10ac6de8d6e7d2f1a260c4de17f0f64334c2f3f04733593b60c1a"
+      },
+      "expected": {
+        "bytes": 3692,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/AUTHORING_RECORD.md",
+        "sha256": "136bb06fc5f10ac6de8d6e7d2f1a260c4de17f0f64334c2f3f04733593b60c1a"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 5582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DECLARED_CASES.md",
+        "sha256": "088052cc88053ef1fc83b84f8ac93f3f68eade47379cb5939bb6c270a1670499"
+      },
+      "expected": {
+        "bytes": 5582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DECLARED_CASES.md",
+        "sha256": "088052cc88053ef1fc83b84f8ac93f3f68eade47379cb5939bb6c270a1670499"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 68635,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DEPENDENCIES.source-only.json",
+        "sha256": "955ef288677fb407ae5d23e6009ffe48cc3af8111724435951a69f0ffc04b5e3"
+      },
+      "expected": {
+        "bytes": 68635,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/DEPENDENCIES.source-only.json",
+        "sha256": "955ef288677fb407ae5d23e6009ffe48cc3af8111724435951a69f0ffc04b5e3"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 2144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.md",
+        "sha256": "f70898f25edf5947f6ffabf14a644192f793d8f39d54e0d57cae28f9a601a701"
+      },
+      "expected": {
+        "bytes": 2144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.md",
+        "sha256": "f70898f25edf5947f6ffabf14a644192f793d8f39d54e0d57cae28f9a601a701"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/PROTOCOL.md",
+        "sha256": "cfb29d2671d45fc9e52147ab579125527336e79954333c4fadb816b4d2283830"
+      },
+      "expected": {
+        "bytes": 15910,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/PROTOCOL.md",
+        "sha256": "cfb29d2671d45fc9e52147ab579125527336e79954333c4fadb816b4d2283830"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 3380,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_CORRESPONDENCE.json",
+        "sha256": "76b5f3cc7e6214da7acb0bb536bdc973fa171848c359401a733aa68bfb825d42"
+      },
+      "expected": {
+        "bytes": 3380,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_CORRESPONDENCE.json",
+        "sha256": "76b5f3cc7e6214da7acb0bb536bdc973fa171848c359401a733aa68bfb825d42"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 68594,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_METADATA_CHECK.json",
+        "sha256": "6ad13c5e2ea4f3d92711da711fdf7d86c58a44175c36042acc40d2b467182d9d"
+      },
+      "expected": {
+        "bytes": 68594,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/SOURCE_METADATA_CHECK.json",
+        "sha256": "6ad13c5e2ea4f3d92711da711fdf7d86c58a44175c36042acc40d2b467182d9d"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 43601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py",
+        "sha256": "a3fdbf1c8e0c78974366d50caf53ec7acfbb91616c6ad684fa95aebeedcf2098"
+      },
+      "expected": {
+        "bytes": 43601,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py",
+        "sha256": "a3fdbf1c8e0c78974366d50caf53ec7acfbb91616c6ad684fa95aebeedcf2098"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 17471,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py",
+        "sha256": "80474eadb9af39345bb8c3440980041876c19e16020bdb05ff959a00723450be"
+      },
+      "expected": {
+        "bytes": 17471,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py",
+        "sha256": "80474eadb9af39345bb8c3440980041876c19e16020bdb05ff959a00723450be"
+      },
+      "unchanged": true
+    },
+    {
+      "actual": {
+        "bytes": 5719,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+        "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+      },
+      "expected": {
+        "bytes": 5719,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+        "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+      },
+      "unchanged": true
+    }
+  ],
+  "targets_executed": false
+}

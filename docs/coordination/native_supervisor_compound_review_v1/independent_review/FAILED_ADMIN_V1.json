@@ -1,0 +1,9 @@
+{
+  "schema": "ri180-preserved-administrative-failure-v1",
+  "tool_chunk": "ff585f",
+  "exit_code": 1,
+  "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata.py",
+  "traceback": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata.py\", line 105, in <module>\n    need('complete6file unified delta',no_dates(expected)==no_dates((S/'SOURCE_DIFF.patch').read_text()))\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata.py\", line 18, in need\n    if condition is not True:raise ValueError(label)\nValueError: complete6file unified delta\n",
+  "diagnosis": "Text-equivalent edits can have different valid unified-diff hunk alignment in system diff versus Python difflib; comparison of generated patch strings is overrestrictive. Preserve V1 unchanged and independently reconstruct both complete source sides from every authenticated declared hunk in V2.",
+  "subject_execution": false
+}

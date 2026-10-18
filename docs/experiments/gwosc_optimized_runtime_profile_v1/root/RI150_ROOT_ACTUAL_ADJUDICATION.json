@@ -1,0 +1,122 @@
+{
+  "accepted_baseline": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "accepted_normal": {
+    "bytes": 1662,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/NORMAL_ACCEPTANCE.json",
+    "sha256": "516e64fbf2f432d3f65872dc2ceb7ebd3a21f88303139f5598946494d9ec68af"
+  },
+  "actual": {
+    "baseline_snapshots_byte_equal": true,
+    "counts": {
+      "changed_cache_descriptors": 30,
+      "combined_reviewed_samples": 225,
+      "opaque_dependencies": 442,
+      "optimized_absent_cache_fields": 2,
+      "optimized_descriptor_coordinates": 213,
+      "optimized_main_identity": 1,
+      "optimized_modules": 71,
+      "optimized_operation_samples": 104,
+      "optimized_runtime_bindings": 111,
+      "optimized_sentinels": 99,
+      "retained_normal_samples": 121,
+      "runtime_files": 9923,
+      "source_objects": 547,
+      "whole_report_diagnostic_differences": 32
+    },
+    "exit_code": 0,
+    "independent_check": "5d796f exit0",
+    "independent_seal": "e035fc exit0",
+    "initial_chunk": "ed392e",
+    "session": 91856,
+    "terminal_chunk": "8b8828"
+  },
+  "actual_data_admission": false,
+  "both_mode_relation": {
+    "bytes": 85969,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/BOTH_MODE_RELATION.json",
+    "sha256": "0f7fc92fbf883a3820f4456102db86b9bfb46e6cad0419a3969b05c1fc838b4b"
+  },
+  "full32_qualified": false,
+  "genuine_call_details": {
+    "bytes": 491,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_CALL_DETAILS.json",
+    "sha256": "5a925fe5c942702a878c577161d699acdd519e0deea1e594ec4dac5f316cf3a7"
+  },
+  "genuine_outer": {
+    "bytes": 1456,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_OUTER.json",
+    "sha256": "37ab3cd6162ecd5583da2faa93ca332f8bbab197ac0d37839bf8b87e83cebc28"
+  },
+  "genuine_tool": {
+    "bytes": 1149,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "26d2fb69783d8ae28830f763346603883fcef1ee59c97de7d75d54edaa9a595a"
+  },
+  "guards_executed": false,
+  "independent_reconstruction": {
+    "bytes": 77699,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/RECONSTRUCTED_PROFILE_CHECK.json",
+    "sha256": "4752c15d10fbe2967e3042f63765db47ac138331cc578935b3616bebca9f1625"
+  },
+  "independent_review": {
+    "bytes": 6593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+    "sha256": "fab678fdf26173fdd952e2e3aab9fce54fee092d298c8f756c5120cb99d0719f"
+  },
+  "independent_verdict": {
+    "bytes": 5794,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/VERDICT.json",
+    "sha256": "41473416e93fe8797a6de423fbe504719fd09286ce9475fbcde70a8ca03b136a"
+  },
+  "limits": [
+    "Root genuine-tool origin is external; recorded local JSON cannot authenticate itself.",
+    "Vendor/bootstrap/Apple loader/shared cache and stable host/supplier remain trusted; no full import trace or source/cache/frozen-code equivalence.",
+    "Child RSS/gap/output evidence is sampled; parent PID is not child authentication; no-descendant premise and no hard aggregate quota.",
+    "Runtime/vendor were reviewed through complete saved genuine observations, not freshly recaptured by this reviewer."
+  ],
+  "next_guard_admission_created": false,
+  "preserved_adaptation_failure": {
+    "bytes": 630,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ADAPTATION_FAILURE_01.json",
+    "sha256": "1ee9c4c3194ba044a1d67b73014996ff186bc9f5881fcaabebaffb3631ca2524"
+  },
+  "resource_interpretation": {
+    "claimed_benchmark": false,
+    "peak_is_sampled_not_continuous": true,
+    "profile_elapsed_seconds": 0.041350083000000204,
+    "profile_final_gap_seconds": 0.0352078330000003,
+    "profile_samples": 1,
+    "unchanged_thresholds": true
+  },
+  "ret_paused": true,
+  "root_actual_check": {
+    "bytes": 1578,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/ROOT_PROFILE_CHECK.json",
+    "sha256": "68faf9d8572932322430de30bb04cc1576f74c8f2e0dbd862c8116c53f64d6b2"
+  },
+  "root_check_tool": {
+    "bytes": 542,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/ROOT_CHECK_TOOL.json",
+    "sha256": "864d0fcc676f28cfa9af216a7ef77c6653d0cda5c6a97d4f393eea8381608812"
+  },
+  "root_read_scope": {
+    "bytes": 1398,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/ROOT_REVIEW_READ.json",
+    "sha256": "d37bf29e10d3da7745253a2619f863c84f4c799ef3f667b1dcb88eb796a2e168"
+  },
+  "schema": "ri150-root-optimized-both-mode-adjudication-v1",
+  "scientific_qualification": false,
+  "status": "ACCEPT_GENUINE_OPTIMIZED_AND_BOTH_MODE_PROFILES",
+  "timing": {
+    "child_timers_include_startup_and_authentication": true,
+    "complete_write_and_return_covered_by_genuine_outer": true,
+    "outer_fields": 8,
+    "parent_completion_fields": 17,
+    "parent_preownership_authentication_outside_internal_timer": true,
+    "parent_saved_elapsed_after_namespace_before_final_complete_write": true
+  }
+}

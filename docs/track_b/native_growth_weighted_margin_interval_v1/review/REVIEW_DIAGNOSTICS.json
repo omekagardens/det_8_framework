@@ -1,0 +1,20 @@
+{
+  "author_diagnostics_preserved": {
+    "bytes": 16863,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/AUTHOR_CHECKS.json",
+    "sha256": "c536c922c9edd9f7f280b15abb2f3e343cefea26cf537afa845b2077555274c6"
+  },
+  "author_negative_search": "870045 exit1 with empty output was an expected missing-path finding before provenance repair; retained author history only.",
+  "display_incidents": [
+    {
+      "affected": "DEPENDENCY_NOTES.md",
+      "chunk_id": "f12255",
+      "kind": "truncated_combined_display",
+      "recovery": "Entire document reread; clipped passage not credited as complete.",
+      "recovery_chunk_id": "d3b54b"
+    }
+  ],
+  "reviewer_failed_commands": [],
+  "schema": "ri145-independent-review-diagnostics-v1",
+  "subject_execution": false
+}

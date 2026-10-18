@@ -1,0 +1,45 @@
+{
+  "F01_source_resolved": true,
+  "F02_source_resolved": true,
+  "check_source": {
+    "bytes": 6696,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/check_review.py",
+    "sha256": "62935529e966bce530f8df4ff6d70d63496776bece882e17b869b9c683237657"
+  },
+  "controls_executed": 0,
+  "current_caller_qualification": false,
+  "current_runtime_observed": false,
+  "execution_admitted": false,
+  "independent_handoff": {
+    "bytes": 2187,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/HANDOFF.json",
+    "sha256": "bd035e6017edf7c15b6c2f33e4519d8a43c66da00a9dd862fb50bb1a6dfd5d8e"
+  },
+  "predecessor_RI133_remains_rejected": true,
+  "ret_paused": true,
+  "root_reconciliation": {
+    "bytes": 180337,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "2a7e95e669c6c2f9b9d120a12d43b6e2c6c2cd706726dcc394db8d04840c6139"
+  },
+  "root_review": {
+    "bytes": 6572,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/ROOT_SOURCE_REVIEW.md",
+    "sha256": "d7540ffdad3ad46098238bbe7a7e390771df1c73e4cb967e153d59794658d0d5"
+  },
+  "root_second_complete_review_claimed": false,
+  "schema": "ri135-root-source-adjudication-v1",
+  "scientific_result_claimed": false,
+  "source_accepted": true,
+  "source_handoff": {
+    "bytes": 5902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+    "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+  },
+  "status": "ACCEPT_BOUNDED_UNEXECUTED_F01_F02_REPAIR",
+  "successor": {
+    "bytes": 759,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/SUCCESSOR_RESERVATIONS.json",
+    "sha256": "e8ac524f6c3daca70619f6f0b655722fd53eb569f69c6c3ea9374299304c30ca"
+  }
+}

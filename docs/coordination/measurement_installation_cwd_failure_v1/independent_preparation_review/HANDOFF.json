@@ -1,0 +1,63 @@
+{
+  "actual_check_chunk": "15d838",
+  "actual_check_exit": 0,
+  "admission_or_E_mutation": false,
+  "files": [
+    {
+      "bytes": 7001,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/ACTUAL_REVIEW_RECEIPTS.json",
+      "sha256": "d293d1d3cd5c98efd483070b4205c41f846dcc30a018f40738fe3d1121904afa"
+    },
+    {
+      "bytes": 378,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK.log",
+      "sha256": "46cdc824b8efdfc46a1614d209bef5a8e8a7f42789db70f91e9705718afe45fc"
+    },
+    {
+      "bytes": 1649822,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/CHECK_RESULT.json",
+      "sha256": "8d1f58e84d21b4679491c0419b914763464381d27cba4684807730e39216e0a9"
+    },
+    {
+      "bytes": 8716,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/INDEPENDENT_REVIEW.md",
+      "sha256": "58bdca1c057d0b6edf24a8a990ec9a0d2b1da6d275ff74f2c9322f291cb010ce"
+    },
+    {
+      "bytes": 3145,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/VERDICT.json",
+      "sha256": "17e99eb365137237f6e483edbc9c15fe2f116e12b0dd4a3328b544dabd537892"
+    },
+    {
+      "bytes": 17779,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/check_preparation.py",
+      "sha256": "714439e977a0e67920250ef0f0606c3e1ada239007daf2cba81cd706028e0de2"
+    }
+  ],
+  "namespace": [
+    "ACTUAL_REVIEW_RECEIPTS.json",
+    "CHECK.log",
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_preparation.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "narrative": {
+    "bytes": 8716,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/INDEPENDENT_REVIEW.md",
+    "sha256": "58bdca1c057d0b6edf24a8a990ec9a0d2b1da6d275ff74f2c9322f291cb010ce"
+  },
+  "repo_git": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt",
+  "schema": "ri219-independent-preparation-review-handoff-v1",
+  "scientific_decode": false,
+  "status": "SEALED_INDEPENDENT_CONCRETE_PREPARATION_REVIEW",
+  "subject_or_vendor_execution": false,
+  "verdict": {
+    "bytes": 3145,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/VERDICT.json",
+    "sha256": "17e99eb365137237f6e483edbc9c15fe2f116e12b0dd4a3328b544dabd537892"
+  }
+}

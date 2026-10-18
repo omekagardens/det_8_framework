@@ -1,0 +1,189 @@
+{
+  "schema": "ri122-independent-saved-math-review-v1",
+  "status": "ACCEPT_REPORTED_BRANCH_INTERPRETATION_AND_SHORT_THEOREM_PENDING_FULL_AUDIT_AND_CUSTODY",
+  "reviewer": "/root/ri122_independent_saved_math",
+  "date": "2026-09-26",
+  "independence": {
+    "reduction_author": false,
+    "producer_author": false,
+    "auditor_author": false,
+    "caller_author": false,
+    "root_short_check_author": false,
+    "prior_scientific_contribution": "None to the reviewed RI117/RI120 reduction or RI122 saved coefficient result."
+  },
+  "review_document": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INDEPENDENT_SAVED_MATH_REVIEW.md",
+    "bytes": 16454,
+    "sha256": "0f1688e8ad3575b918c3d75f0cb6df8c38dbff76b91a8c4aed4166c03336ca65"
+  },
+  "complete_saved_certificate_read": true,
+  "saved_sections": 19,
+  "lossless_display": {
+    "definition_count": 607,
+    "all_definitions_read": true,
+    "expanded_decoded_object_exactly_equal": true,
+    "canonical_original_bytes_roundtrip": true,
+    "coverage_chunks": [
+      "1ed8a2",
+      "dca47a (90-168 only; truncated later)",
+      "311552",
+      "b6c5c4",
+      "f2a758",
+      "31427a",
+      "66f92b",
+      "002126"
+    ]
+  },
+  "target_source_read_scope": {
+    "complete_executable_review_claimed": false,
+    "producer_ranges": [
+      "304-619",
+      "1117-1245"
+    ],
+    "auditor_ranges": [
+      "475-643",
+      "813-1009"
+    ],
+    "full_contracts_read": true,
+    "relevant_full_reduction_and_connected_lemma_read": true,
+    "relevant_full_RI120_analytic_notes_read": true,
+    "root_short_check_and_metadata_helper_read_completely": true,
+    "root_short_report_read_completely": true,
+    "main_interpretation_read_completely": true
+  },
+  "checks": {
+    "exact_witness_pin_matches": true,
+    "actual_four_target_contract_copies_equal_originals": true,
+    "all_Q2_saved_odd_even_patterns_match": true,
+    "all_V_saved_odd_even_patterns_match": true,
+    "root_report_saved_gcd_radius_scalar_labels_and_V_fields_match": true,
+    "all_saved_fixture_expected_fields_match": true,
+    "short_positivity_theorem_manually_verified": true,
+    "restricted_support_contradiction_manually_verified": true,
+    "scientific_arithmetic_recomputed": false,
+    "complete_held_row_derivation_recomputed": false,
+    "custody_self_adjudicated": false,
+    "full_saved_arithmetic_audit_complete": false
+  },
+  "counts": {
+    "held_rows": 40,
+    "probability_slots": 224,
+    "V_contrasts": 7,
+    "Q2_contrasts": 15,
+    "root_fixtures": 16,
+    "family_fixtures": 10,
+    "decision_fixtures": 6,
+    "reported_refusal_pairs": 166
+  },
+  "blocking_interpretive_findings": [],
+  "conditional_conclusion": "If saved coefficient reconstruction and genuine execution custody are accepted, both connected profiles are nonconstant at unchanged actual rho; RI102 strict J2/J3 disjunction then excludes every positive correction on the fixed28-child support at epsilon=1/4. Other-parent individual feasibility was not evaluated and cannot restore an inconsistent necessary subsystem.",
+  "claim_limits": {
+    "actual_scale_selected": false,
+    "new_native_rows": false,
+    "new_repair_assigned": false,
+    "all_positive_extensions_rejected": false,
+    "all_size_law_proved": false,
+    "complete_QM_derived": false,
+    "native_geometry_gravity_proved": false,
+    "ontology_proved": false,
+    "physical_result": false,
+    "programme_complete": false
+  },
+  "preserved_incidents": [
+    "Truncated aggregate output was not credited for unread portions; certificate definitions169-180, complete connected lemma, and complete F2 note were explicitly reread.",
+    "A V-object JSON-string comparison initially differed by object-key order only; direct comparison of all seven record/delta fields passed."
+  ],
+  "source_and_evidence_identities": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+      "bytes": 233035,
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+      "bytes": 63729,
+      "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+      "bytes": 11664,
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+      "bytes": 4346,
+      "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/review_quadratic.py",
+      "bytes": 3576,
+      "sha256": "3766fe9332506f28e2d308ce1fe042dd48c4b7b6d6cc310389089e6cdf087c4e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "bytes": 3144,
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+      "bytes": 7418,
+      "sha256": "9afb628549befc1bb25e64c9d370fa890e340a2216fd47b7d6c528e7ac90e6f9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INDEPENDENT_SAVED_MATH_REVIEW.md",
+      "bytes": 16454,
+      "sha256": "0f1688e8ad3575b918c3d75f0cb6df8c38dbff76b91a8c4aed4166c03336ca65"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INTERPRETATION.md",
+      "bytes": 11087,
+      "sha256": "d2fe0a49be13038d1855604bd935f1d4f284ddde124c9d8b6f67477d0deb493a"
+    }
+  ],
+  "remaining_owner_obligations": [
+    "Independent actual witness custody adjudication.",
+    "Genuine separately admitted normal/optimized replays.",
+    "Independent complete saved-certificate arithmetic audit and custody.",
+    "Final mathematical adjudication before assigning any next candidate."
+  ]
+}

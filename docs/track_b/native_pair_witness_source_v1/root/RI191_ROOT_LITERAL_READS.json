@@ -1,0 +1,56 @@
+{
+  "note": {
+    "bytes": 4432,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_LITERAL_REVIEW.md",
+    "sha256": "26689929d7abeba3fabaf672e80afa6fd7032d87647ecfecebaacde52e97c133"
+  },
+  "reads": [
+    "8963b7",
+    "2c0a24",
+    "ebac26",
+    "7ccc25",
+    "3a442f",
+    "9c1b87"
+  ],
+  "refs": [
+    {
+      "bytes": 8115,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+      "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+    },
+    {
+      "bytes": 20354,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/pair_witness.py",
+      "sha256": "26aaa5138f6ebd1f9791e9c6ea66225376f81931ec8235de4ee399a5e6514357"
+    },
+    {
+      "bytes": 15024,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/CONTRACT.md",
+      "sha256": "8d9d8e483df41cc50a80590719e787576ca61728a274f6aefe722447915526ac"
+    },
+    {
+      "bytes": 23841,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/NEGATIVE_CASES.md",
+      "sha256": "4cfebccd39adf994612a31c5926479ae5bcb51db0ba5bbb419e89fd77d3d93c2"
+    },
+    {
+      "bytes": 19961,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/DEPENDENCY_NOTES.md",
+      "sha256": "8d1e134de7cc300eb260f1be2dd0d8b3f242497b0a2f7eebfd773c611f75e90d"
+    },
+    {
+      "bytes": 13219,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/check.py",
+      "sha256": "f33a2345608867138f1036da6a020beb6608e3f58fc3032ceb1d3c3d5c9f90c5"
+    },
+    {
+      "bytes": 4796,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_PROOF_REVIEW.md",
+      "sha256": "39e71e42be19cf68c62138374a8601b0820b8553d6dc9ea3d31f5d7003e924dd"
+    }
+  ],
+  "ret_paused": true,
+  "scientific_body_decoded": false,
+  "status": "LITERAL_REVIEW_NO_BLOCKER_FINAL_ADJUDICATION_PENDING",
+  "subject_executed": false
+}

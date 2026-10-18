@@ -1,0 +1,23 @@
+{
+  "author_final": {
+    "chunk_id": "e50853",
+    "exit_code": 0,
+    "reported_by_author": true
+  },
+  "automatic_proof_arithmetic": false,
+  "independent_nonauthor_reads": [
+    "e008ff exit0",
+    "1f582a exit0",
+    "7545b9 exit0",
+    "faa1d6 exit0"
+  ],
+  "root_adjudication": "88af6f exit0",
+  "root_metadata": "b1acd2 exit0",
+  "root_reads": [
+    "2ea24c exit0",
+    "58437a exit0",
+    "ff3c00 exit0"
+  ],
+  "schema": "ri204-native-actual-receipts-v1",
+  "scientific_execution": false
+}

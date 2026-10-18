@@ -1,0 +1,144 @@
+{
+  "author": "/root/archive_repro_review",
+  "authoring_writes": [
+    {
+      "chunk_id": "959687",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "681a94",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "d5470e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "50c40c",
+      "exit_code": 0
+    }
+  ],
+  "authorship": "Author of this proposal and prior RI244/RI130/RI141 sources; separate nonauthor/root review remains required.",
+  "diagnostics": [
+    {
+      "chunk_id": "02e746",
+      "exit_code": 1,
+      "recovery": "31f7dc exit0 diagnosis; distinct retained build_source.py eb2652 exit0",
+      "retained": {
+        "bytes": 725,
+        "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHORING_FAILURE_02e746.json",
+        "sha256": "6a4f2ca3c1ce966aac1c6c674d065108cac6f0e8ad78cdbd9cd80212de07429c"
+      },
+      "scope": "source-text builder indentation marker mismatch before source files existed"
+    },
+    {
+      "chunk_id": "5f33d6",
+      "command": "rg -n \"perl|alarm|shell_command|cmd\" <R249>/GENUINE_PRE_MODE_TOOL.json /private/tmp/ri249-predispatch.py",
+      "exit_code": 2,
+      "recovery": "bec351 exit0 read correct full GENUINE_OPERATION_TOOLS.json via pinned ROOT_PRE_MODE_OUTCOME_CHECK.genuine_tools",
+      "scope": "read-only mistaken administrative filename; no mutations",
+      "stderr": "rg: /Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_PRE_MODE_TOOL.json: No such file or directory (os error 2)"
+    },
+    {
+      "exit_codes": [
+        0,
+        0
+      ],
+      "receipts": [
+        "bbce83",
+        "2d691b"
+      ],
+      "recovery": "2bc2ee recovered current front block; 961e46 recovered exact relevant adapter span; full source and accepted recipe already separately read",
+      "scope": "functions aggregate display truncation"
+    }
+  ],
+  "no_D_O_E_or_repository_mutation": true,
+  "no_admission_dispatch_or_preparation": true,
+  "no_proposed_source_import_compile_AST_probe_run": true,
+  "no_scientific_or_installed_freeze_body_decode": true,
+  "no_vendor_or_E_fresh_inventory": true,
+  "schema": "ri249-mode-card-author-tool-record-v1",
+  "source_and_metadata_reads": [
+    {
+      "chunk_id": "da84e8",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "bbce83",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3b37a2",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2bc2ee",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c194a0",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ac4a63",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "66c719",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1f5e9e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "5acef8",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "827fd7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2d691b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "961e46",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9bde7c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "bec351",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "50c40c",
+      "exit_code": 0
+    }
+  ],
+  "successful_administrative_check": {
+    "chunk_id": "881570",
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-mode-card-preparation-proposal-y170alnf/check_source_metadata.py",
+    "exit_code": 0,
+    "output": {
+      "opaque_distinct_files": 626,
+      "readback_predicates": 1,
+      "report": {
+        "bytes": 157957,
+        "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_CHECK.json",
+        "sha256": "b3ff3cd128257710c44c24d11b87892fb3e1b987ea5967abe67bd6964af3b479"
+      },
+      "saved_predicates": 24742
+    }
+  },
+  "successful_text_builder": {
+    "chunk_id": "eb2652",
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-mode-card-preparation-proposal-y170alnf/build_source.py",
+    "entire_source_reverse_exact": true,
+    "exit_code": 0
+  }
+}

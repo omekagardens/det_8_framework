@@ -1,0 +1,58 @@
+{
+  "check_stdout": {
+    "bytes": 607712,
+    "cases_executed": 0,
+    "checks": 7255,
+    "identities": 139,
+    "sha256": "7d3d5a145fc489738981fe52c941a8f7fd4f04ae424098dc1368f7ded1a6d6e5",
+    "status": "EXACT_SOURCE_CORRESPONDENCE_NOT_RUNTIME_QUALIFICATION"
+  },
+  "exact_check_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/check_metadata.py",
+  "failed_commands": [],
+  "records": [
+    {
+      "chunk_id": "0e369c",
+      "description": "Authenticated and read exact assignment; confirmed empty exclusive reservation",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "081874",
+      "description": "Authenticated exact28/27 subject seal; read full contract, response,35-family plan, schemas and author record",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a81777",
+      "description": "Read complete source diff",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0e1bd1",
+      "description": "Read complete added checker logic and surrounding compound branches, worker process/pipe/selector source and unchanged stop_pipe",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "bacbf6",
+      "description": "Read administrative metadata inventories, full actual tool records, prospective invocation and complete author checker source",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b8bb7c",
+      "description": "Created and ran independent administrative checker only;7255 predicates/139 identities passed",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f25cde",
+      "description": "Read complete root repair assignment and predecessor decision",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2b4228",
+      "description": "Wrote complete independent narrative",
+      "exit_code": 0
+    }
+  ],
+  "schema": "ri184-genuine-administrative-outcomes-v1",
+  "scope": "Actual conversation tool-result references, not fabricated operational cards. Final sealing and read-only verification receipts are returned separately to root.",
+  "subject_vendor_control_executed": false,
+  "truncated_displays": []
+}

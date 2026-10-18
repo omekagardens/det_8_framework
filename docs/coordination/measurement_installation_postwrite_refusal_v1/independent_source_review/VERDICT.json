@@ -1,0 +1,66 @@
+{
+  "actual_installation": false,
+  "administrative_checker": {
+    "bytes": 15296,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/check_metadata.py",
+    "sha256": "66e4b71b51160dcae93de2d6ff5d827ea2d6f06a20a6025d131a94b50bace68f"
+  },
+  "administrative_predicates": 22097,
+  "administrative_result": {
+    "bytes": 533257,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/CHECK_RESULT.json",
+    "sha256": "d4567f59196f56c98e884074cc38b7c4cf78b5cc930f445640f7bf89d7812a4a"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "base_inputs": 806,
+  "blocking_findings": [],
+  "distinct_inputs": 896,
+  "exact_child_cwd": "literal(D/'monitor')",
+  "functional_changes": 1,
+  "historical_role_rows": 810,
+  "limits_bytes_clocks_eight_tails_unchanged": true,
+  "observed_identities": 912,
+  "operational_authority": false,
+  "original_source_rows_retained": 857,
+  "outer_cwd": "D",
+  "prior_review_miss_disclosed": true,
+  "prior_source_authorship_disclosed": true,
+  "prospective_source_rows": 904,
+  "qualification_credit": 0,
+  "remaining": [
+    "Root adjudication of exact sealed source",
+    "Fresh complete source/supplier/host/E preflight and concrete two-cwd bootstrap/dispatch review",
+    "Separate root exact one-attempt admission",
+    "Actual complete monitored outcome and independent installation custody review",
+    "Separate later normal-mode and scientific qualification prerequisites"
+  ],
+  "repair_inputs": 90,
+  "ret_paused": true,
+  "review": {
+    "bytes": 11946,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/INDEPENDENT_REVIEW.md",
+    "sha256": "fcc49b3a6d5f9b092da089d628271546af7ecf27e32894feb9512ca17d6c26b1"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_pending": true,
+  "schema": "ri222-independent-source-verdict-v1",
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 9023,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+    "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+  },
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "status": "RECOMMEND_ACCEPT_EXACT_CWD_REPAIR_SOURCE_ONLY",
+  "tool_receipts": {
+    "bytes": 3965,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/TOOL_RECEIPTS.json",
+    "sha256": "c2ff143eca7befc8109c5c1aac387a94c0c69e8d6f025ace71cd535c7997f69e"
+  },
+  "whole_installer_inverse_projection": true,
+  "whole_postchecker_inverse_projection": true
+}

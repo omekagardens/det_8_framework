@@ -1,0 +1,52 @@
+{
+  "action": "freeze",
+  "bootstrap_preflight": {
+    "bytes": 3813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "07c34546ff13eb218570e0e3f5467ae3e3305dc7d1b9148cce6f928981c5fb54"
+  },
+  "bounds": {
+    "file_bytes": 67108864,
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "genuine_outer_required": true,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_",
+  "qualification": {
+    "bytes": 4041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json",
+    "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+  },
+  "request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "schema": "ri156-root-adapter-admission-v1",
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "source_review": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "status": "AUTHORIZE_ONE_BOUNDED_METADATA_ACTION"
+}

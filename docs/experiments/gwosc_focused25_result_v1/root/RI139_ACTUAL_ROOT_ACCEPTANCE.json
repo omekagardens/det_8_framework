@@ -1,0 +1,73 @@
+{
+  "all_namespaces_and_final_exclusions_checked": true,
+  "counts": {
+    "expected_refusals": 23,
+    "passed": 25,
+    "positives": 2,
+    "total": 25
+  },
+  "current_scientific_runtime_qualified": false,
+  "dispatch": {
+    "bytes": 4841,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_DISPATCH.json",
+    "sha256": "59f3a78aca3323ed35831f1b8972ec7a123bddbc687100c7562090addff8c775"
+  },
+  "future_execution_admitted": false,
+  "genuine_final": {
+    "bytes": 125,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/GENUINE_TOOL_FINAL.json",
+    "sha256": "406721f3455fcb00148456c9a25009c1725e0c526f6725c65dfdc1e278b9a6b0"
+  },
+  "genuine_initial": {
+    "bytes": 1094,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/GENUINE_TOOL_INITIAL.json",
+    "sha256": "b0a0199b51eadc528c1d222ea2d4f1c6d65d8c2c0e24f05e9e2bdf194d9d04fb"
+  },
+  "independent_review": {
+    "bytes": 4074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/HANDOFF.json",
+    "sha256": "f39896ff1b8d634397f817f7905bc32b0da6049e1f5db8fe199f8027b0933d46"
+  },
+  "monitor": {
+    "elapsed_seconds": 1.1177080419999998,
+    "final_gap_seconds": 3.4124999999995964e-05,
+    "maximum_gap_seconds": 0.038787374999999846,
+    "peak_sampled_rss_kib": 65952,
+    "samples": 30
+  },
+  "physical_calibration_or_native_forward_map_established": false,
+  "previous_RI137_rejected": true,
+  "production_bootstrap_prerequisite": "RI135 prepare.py uses /usr/bin/python3 for real driver/snapshot commands; focused25 F01 processes are doubles. Narrow versioned route repair and fresh source review/root admission before actual capture.",
+  "reconciliation": {
+    "bytes": 31405,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ACTUAL_REVIEW_RECONCILIATION.json",
+    "sha256": "c035c2210f9181b80d0ab81a15a8ace6d2cb69e44fb87f2c78c849c69276a579"
+  },
+  "remaining_order": [
+    "production bootstrap repair/review",
+    "current capture and baseline acceptance",
+    "normal profile and acceptance",
+    "optimized profile and both-mode review",
+    "separately admitted65 guards",
+    "WHITE scientific qualification",
+    "conventional public GWOSC reproduction"
+  ],
+  "report": {
+    "bytes": 112221,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/REPORT.json",
+    "sha256": "4710b3e8c6f52b35a6e134d29bf827c745494222e688a863788df9ca949abeaf"
+  },
+  "ret_paused": true,
+  "root_actual_reconciliation": {
+    "bytes": 55727,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_ACTUAL_RECONCILIATION.json",
+    "sha256": "a0479e89d21869ab5c0514825e4762320f2d4578d47d137fe7d1dac2aed9ff0e"
+  },
+  "schema": "ri139-root-focused25-actual-acceptance-v1",
+  "source_adjudication": {
+    "bytes": 1355,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ROOT_ADJUDICATION.json",
+    "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+  },
+  "status": "ACCEPT_SINGLE_FOCUSED25_OUTCOME_UNDER_RETAINED_PREMISES"
+}

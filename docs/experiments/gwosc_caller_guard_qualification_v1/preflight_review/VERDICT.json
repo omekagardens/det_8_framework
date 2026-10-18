@@ -1,0 +1,53 @@
+{
+  "actual_checker_exit_code": 0,
+  "blocking_findings": [],
+  "declared_guard_cases": 65,
+  "earlier_authorship": [
+    "RI125 primary WHITE/qualifier",
+    "RI131 source"
+  ],
+  "fresh_check": {
+    "bytes": 589045,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/OPAQUE_PREFLIGHT_CHECK.json",
+    "sha256": "99240696d1ecc33e3da9cc52602dae85d09096c51b538ce650733cac9beb2270"
+  },
+  "fresh_complete_source_lines": 2820,
+  "guards_executed": 0,
+  "narrative": {
+    "bytes": 19318,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+    "sha256": "f5bcf91a94c4670f3a4efe1842cf630ba700b07dc585436764796e5c0edd2465"
+  },
+  "not_claimed": [
+    "Target/subject/helper execution by this review",
+    "Current runtime recapture or admission",
+    "W01-W15 scientific or179 scientific controls",
+    "RI131 or full32 application qualification",
+    "Actual data/calibration/native/physical result"
+  ],
+  "required_after_actual_run": [
+    "Independent complete65-case first-error/counter/substitution/tail evidence review, not pass-label acceptance",
+    "All raw real ps attempts/sample arithmetic/owned-child reap and exact limits",
+    "Complete fixture/operation namespace including intentional links and final two exclusions",
+    "Fresh full PRE/POST runtime/source/supplier/card custody, including separate guard-card rehash after completion",
+    "Root-origin genuine outer completion and independently adjudicated outcome"
+  ],
+  "required_before_actual_run": [
+    "Root adjudication of exact reviewed source and this recommendation",
+    "Fresh authentic direct-vendor/host/exact-environment preflight and independent complete current source/runtime prerequisites",
+    "Distinct canonical17-field parent and9-field guard cards with literal fixed packet and65 ordered IDs",
+    "Accepted baseline and exact RI150 both-profile decision; same environment root",
+    "Fresh absent output and fixed180s/524288KiB/25ms/100ms/50ms bounds plus actual960s genuine outer deadline"
+  ],
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri152-independent-guard-preflight-verdict-v1",
+  "source_review_reuse": [
+    "RI130 complete caller review",
+    "RI141 complete preparation review",
+    "RI148 normal saved-profile review",
+    "RI150 optimized and both-mode saved-profile review"
+  ],
+  "status": "SOURCE_READY_FOR_ROOT_SEPARATE_BOUNDED_GUARD_ADMISSION",
+  "target_nonauthor": true
+}

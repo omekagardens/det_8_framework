@@ -1,0 +1,89 @@
+{
+  "administrative": {
+    "additions": 29,
+    "allowlisted_admin_bodies": 88,
+    "bytes": 16345304,
+    "current_typed_refs": 48,
+    "dependencies": 252,
+    "fresh_identities": 264,
+    "historical_extended_identities": 17,
+    "historical_typed_refs": 1981,
+    "inherited": 223,
+    "predicates": 18296,
+    "source_pairs": 4,
+    "subject_files": 11,
+    "subject_payloads": 10
+  },
+  "blocking_source_findings": [],
+  "cases_executed": 0,
+  "conditional_consequence": "An independently accepted authenticated universal grid result, with unchanged accepted law/core ordering, rejects only the retained sufficient envelope. A correct GRID_FAIL removes that shortcut; refusal supplies neither. No actual antecedent established.",
+  "fixtures_created": 0,
+  "fresh_coverage": {
+    "auditor_all_lines": 521,
+    "current_markdown_documents": 5,
+    "every_declared_result_field_type_sensitive": true,
+    "fixed_runtime_input_roles": 6,
+    "independent_Fraction_vs_gcd_implementations_reviewed": true,
+    "producer_all_lines": 374,
+    "qualification_families": {
+      "P": 12,
+      "Q": 35,
+      "R": 16
+    },
+    "scientific_code_executed": false
+  },
+  "independence": "Nonauthor of RI159. Earlier WHITE validator/caller/bootstrap authorship and prior native/source review including RI157 and RI158 disclosed. Inherited RI157 acceptance is not a newly executed proof or self-authored current source acceptance.",
+  "pass_count_claimed": false,
+  "preserved": [
+    "other8 connected parents",
+    "five Di",
+    "shared T1",
+    "strict endpoints",
+    "all ideal occurrences/marked multiplicity",
+    "P2/P3",
+    "numerical Y=1/4",
+    "31/139/20/42",
+    "calibration/native forward map/physical claims"
+  ],
+  "qualification_prerequisites": [
+    {
+      "id": "QP01",
+      "requirement": "Review and admit an actual bounded harness/caller; pin source/interpreter; preserve exclusive captures and genuine completion/partial stdout/stderr; no protected original or production pin mutation."
+    },
+    {
+      "id": "QP02",
+      "requirement": "Expand all declared Q/R/P families with independent full expected outputs and exact isolated per-implementation first refusal semantics; preserve109-index coverage and normal/optimized scope."
+    },
+    {
+      "id": "QP03",
+      "requirement": "Concretely test close-only, primary-plus-close, primary-plus-postcheck/all-later-attempt, no-result-baseline, short-write/flush and failed diagnostic persistence paths. Current case labels alone do not qualify them."
+    },
+    {
+      "id": "QP04",
+      "requirement": "After qualification and independent outcomes review, separately admit the actual fixed-certificate producer/auditor run with full result/receipt/current-source and genuine caller custody."
+    }
+  ],
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_GRID_AUDIT_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_required": true,
+  "schema": "ri159-independent-grid-source-verdict-v1",
+  "scope": {
+    "RET_paused": true,
+    "W_C2_C3_H30_decided": false,
+    "actual_capacity_decided": false,
+    "actual_grid_result": null,
+    "actual_q_v_budget_proved": false,
+    "global_M6_or_actual_rho_identified": false,
+    "new_agents": false,
+    "operational_admission": false,
+    "repo_Git_index_changed": false,
+    "runtime_card_freeze_created": false,
+    "scientific_certificate_decoded": false,
+    "source_qualification_accepted": false
+  },
+  "subject": {
+    "bytes": 8831,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+    "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+  }
+}

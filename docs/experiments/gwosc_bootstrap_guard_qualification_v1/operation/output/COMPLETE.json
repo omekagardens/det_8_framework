@@ -1,0 +1,280 @@
+{
+  "admission": {
+    "bytes": 3786,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json",
+    "sha256": "1f497cc7085c77ffa07d6b3f05bf6173c4a49ebff71de6d213080e215329986d"
+  },
+  "artifacts": {
+    "administrative_checks": {
+      "bytes": 862,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ADMINISTRATIVE_CHECKS.json",
+      "sha256": "b2235136dc02144e92b0bebe8c90988c9a007082bb3d2e3db9a2069d4f0aee3f"
+    },
+    "attempt": {
+      "bytes": 2419,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ATTEMPT.json",
+      "sha256": "d65b41853523f4aea2d3a32e153193febc7a4ee7f2eb859d4e34d40ba7f81652"
+    }
+  },
+  "checks": {
+    "card": "PASS",
+    "controls": {
+      "complete_administrative_envelopes_checked": true,
+      "controls": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07_path",
+        "B07_resolved_path",
+        "B07_symlink_chain",
+        "B07_bytes",
+        "B07_sha256",
+        "B07_state",
+        "B08",
+        "B09",
+        "B10"
+      ],
+      "count": 15,
+      "namespace": {
+        "bytes": 4478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/NAMESPACE.json",
+        "sha256": "827fa0d5479b46343f99da1cca38ad5cf9830477026cbea82c5c3ff815404991"
+      },
+      "report": {
+        "bytes": 162784,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/REPORT.json",
+        "sha256": "230f968c82ebd099d7cd0f5e88ff654b78ff7801f11eb343c02f0616fc273dc0"
+      },
+      "scientific_evaluation": false
+    },
+    "dependency": "PASS",
+    "namespace": {
+      "bytes": 6306,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/NAMESPACE.json",
+      "sha256": "550a9a761ce4ef1db73c18b300ed6e9b128fea62f2e4e3664d038f9ba354a80d"
+    },
+    "source": "PASS"
+  },
+  "child": {
+    "child_exit_code": 0,
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+      "--admission",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+      "--output",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+    ],
+    "elapsed_seconds": 0.382986917,
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "final_sample_gap_passed": true,
+    "final_sample_to_reap_gap_seconds": 0.02544154200000004,
+    "first_error": null,
+    "monitor_attempts": [
+      {
+        "elapsed_seconds": 0.00628516699999998,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "  1728\n"
+      },
+      {
+        "elapsed_seconds": 0.044627541999999965,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 16528\n"
+      },
+      {
+        "elapsed_seconds": 0.08359029200000001,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 18208\n"
+      },
+      {
+        "elapsed_seconds": 0.126960833,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 21280\n"
+      },
+      {
+        "elapsed_seconds": 0.16577529200000002,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 33792\n"
+      },
+      {
+        "elapsed_seconds": 0.205102542,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 35744\n"
+      },
+      {
+        "elapsed_seconds": 0.243695542,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 36736\n"
+      },
+      {
+        "elapsed_seconds": 0.28113608300000004,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 37104\n"
+      },
+      {
+        "elapsed_seconds": 0.319773125,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 45168\n"
+      },
+      {
+        "elapsed_seconds": 0.35754537499999994,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 46896\n"
+      }
+    ],
+    "passed": true,
+    "peak_sampled_rss_kib": 46896,
+    "samples": [
+      {
+        "elapsed_seconds": 0.00628516699999998,
+        "gap_seconds": 0.00628516699999998,
+        "rss_kib": 1728
+      },
+      {
+        "elapsed_seconds": 0.044627541999999965,
+        "gap_seconds": 0.038342374999999984,
+        "rss_kib": 16528
+      },
+      {
+        "elapsed_seconds": 0.08359029200000001,
+        "gap_seconds": 0.038962750000000046,
+        "rss_kib": 18208
+      },
+      {
+        "elapsed_seconds": 0.126960833,
+        "gap_seconds": 0.043370540999999985,
+        "rss_kib": 21280
+      },
+      {
+        "elapsed_seconds": 0.16577529200000002,
+        "gap_seconds": 0.03881445900000002,
+        "rss_kib": 33792
+      },
+      {
+        "elapsed_seconds": 0.205102542,
+        "gap_seconds": 0.03932724999999998,
+        "rss_kib": 35744
+      },
+      {
+        "elapsed_seconds": 0.243695542,
+        "gap_seconds": 0.03859299999999999,
+        "rss_kib": 36736
+      },
+      {
+        "elapsed_seconds": 0.28113608300000004,
+        "gap_seconds": 0.03744054100000005,
+        "rss_kib": 37104
+      },
+      {
+        "elapsed_seconds": 0.319773125,
+        "gap_seconds": 0.038637041999999955,
+        "rss_kib": 45168
+      },
+      {
+        "elapsed_seconds": 0.35754537499999994,
+        "gap_seconds": 0.03777224999999995,
+        "rss_kib": 46896
+      }
+    ],
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stop_reason": null,
+    "tail_errors": [],
+    "wall_seconds": 180
+  },
+  "child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+  ],
+  "elapsed_seconds": 0.503560459,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "external_premises": {
+    "apple_loader_and_cache_external": true,
+    "genuine_bootstrap_host_preflight_external": true,
+    "genuine_tool_completion_external": true,
+    "sampled_child_only_not_parent_or_group_quota": true,
+    "saved_parent_pid_not_authenticated_child_identity": true,
+    "stable_supplier_host_and_no_descendants": true
+  },
+  "first_error": null,
+  "genuine_tool_completion_created": false,
+  "independent_tail_errors": [],
+  "launcher_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/launch_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json"
+  ],
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "ret_paused": true,
+  "ri130_65_guards_executed": false,
+  "runtime_qualification": false,
+  "schema": "ri144-bootstrap-launcher-completion-v1",
+  "scientific_execution": false,
+  "status": "CAPTURED_FOR_ROOT_REVIEW"
+}

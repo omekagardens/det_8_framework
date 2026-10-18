@@ -1,0 +1,73 @@
+{
+  "RET_paused": true,
+  "accepted_conditional_results": [
+    "Actual RI63 strict size-five mixture gives entire C5 row independence from sigma; all16profiles/15Q2contrasts remain required.",
+    "Every H5 stem role has restoration t=c5/36, including neutral root role through complete C4 marked diamond to raising hook-parent role.",
+    "Exact E2,C2,V simplifications hold on retained positive prefix; they do not determine the remaining contrasts."
+  ],
+  "accepted_source_scope": {
+    "Q2_contrasts": 15,
+    "V_contrasts": 7,
+    "allzero_branch": "f2 constant; null gcd/root/count",
+    "audit_payloads": 18,
+    "audit_protected_objects_including_descriptor": 19,
+    "certificate_sections": 19,
+    "decision_fixtures_declared": 6,
+    "family_fixtures_declared": 10,
+    "held_rows": 40,
+    "independent_auditor": "integer-pair/sparse/direct-power plus12T3/14T2ideal sums",
+    "probability_slots": 224,
+    "producer": "Fraction/dense/Horner",
+    "producer_refusals_declared": 166,
+    "restricted_rejection_condition": "f2 and f3 both proved nonconstant only",
+    "root_fixtures_declared": 16,
+    "surviving_root_branch": "f2 undetermined at fixed actualrho"
+  },
+  "active_execution_admission": false,
+  "actual_sensitivity_decided": false,
+  "blocking_findings": [],
+  "date": "2026-09-26",
+  "fixed_28_child_repair_rejected": false,
+  "full_positive_repair_proved": false,
+  "handoff": {
+    "bytes": 10116,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/HANDOFF.json",
+    "sha256": "05bfbba056a7eee610ec69c6d1f40dc1db9e0dfa5415974a502992777f9b8e27"
+  },
+  "independent_complete_source_review": {
+    "bytes": 26360,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-independent-owner-source-qbk3z5e4/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+    "sha256": "b5dfacd3cc4b8c38c63506fb997cab961f715b1773a16c14ccd6904731511eef"
+  },
+  "independent_review_read_completely": "437dd4",
+  "next_native_action": "RI122 smallest concrete retained-supervision caller with explicit changed-target qualification applicability and genuine sequential witness/replay/audit custody; root actual admission follows independent complete caller review.",
+  "parallel_measurement": "RI121 caller/applicability source preparation continues; complete current pure-Python stdlib/runtime closure is required, inherited inventory alone insufficient for its new admission. No retrospective RI116 failure inferred.",
+  "programme_complete": false,
+  "remaining": [
+    "Actual f2/f3 decision on unchanged held domain.",
+    "Fresh changed-target qualification and current runtime capture; all limits retained.",
+    "D1 compatibility/positivity and remaining parents if fixed support survives.",
+    "All-size/native geometry/gravity and physical measurement map remain open."
+  ],
+  "root_manual_proof_review": {
+    "bytes": 3320,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_MANUAL_PROOF_REVIEW.json",
+    "sha256": "9bbab67b6b61f31030f284fbb697b0f52a8324d95636199b6b7aa7b5e0146994"
+  },
+  "runtime_fit_measured": false,
+  "schema": "ri120-root-connected-sensitivity-source-adjudication-v1",
+  "scientific_operand_decoding_performed": false,
+  "source_identity_check": {
+    "bytes": 23990,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/SOURCE_AND_PREMISE_CHECK.json",
+    "sha256": "efac96f8e25f94abd4a45dd43e12991d3ebf5ac3ce0275f8cf355463cfe984c5"
+  },
+  "source_qualification_executed": false,
+  "source_review_limits": [
+    "Complete independent read of both executables; root independently reviewed all analytic notes, contracts/reviews and targeted critical implementation sections, not a claimed second full executable read.",
+    "All original source files stay byte-identical; failed-output diagnostic repair and sharpened late-fold control are documented.",
+    "Fresh opaque pins are not runtime custody or historical mathematical replay. RI109/RI111 adjudications remain external exact-pinned historical inputs bound by accepted predecessor protocol. Source publication is not a standalone execution bundle."
+  ],
+  "status": "ACCEPT_CONDITIONAL_PREFIX_IDENTITIES_AND_COMPLETE_SENSITIVITY_SOURCE_ONLY",
+  "target_import_parse_compile_probe_run": false
+}

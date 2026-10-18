@@ -1,0 +1,28 @@
+{
+  "accepted_historical_claim": "The separately checked monic quadratic has g(1)>0 and gprime(1)<0, and 0<R<1; hence g is positive on the full admissible interval. This supplements rather than replaces full reconstruction.",
+  "assignment": {
+    "bytes": 2716,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_NATIVE_ASSIGNMENT.json",
+    "sha256": "8b5eeab6148a05a94e4a1598e7e8d13c89220f1c2306cf7ce76433f5715a099b"
+  },
+  "historical_final_decision": {
+    "bytes": 15477,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+    "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+  },
+  "requirements": [
+    "Reconcile unchanged baseline, normalization and q=k*g with positive k using already selected literal accepted texts; do not infer that mapping from a filename or a provisional narrative alone.",
+    "Clearly separate use of historically certified derivative sign from any independent analytic theorem based solely on general canonical bounds.",
+    "No new sign computation, actual scale evaluation or scientific execution. Historical gprime(1)<0 is an accepted finite result, not a newly proved source-only claim.",
+    "Seal complete new theorem for independent root review. Current permission does not adjudicate the new derivative or endpoint conclusion."
+  ],
+  "ret_paused": true,
+  "root_literal_read": {
+    "exit_code": 0,
+    "receipt": "002247",
+    "whole_final_adjudication_read": true
+  },
+  "schema": "ri175-root-historical-premise-reading-scope-v1",
+  "scope": "For RI175 only, literally read and cite this final accepted decision as a historical fixed-prefix mathematical premise, distinguishing it from provisional interpretation text and from current proof. Retain existing opaque classification and explicitly disclose this bounded literal-read exception; no recursive operational traversal or expanded runtime authority. No scientific certificate/vector decode or coefficient extraction.",
+  "status": "ALLOW_NARROW_LITERAL_ACCEPTED_MATHEMATICAL_PREMISE"
+}

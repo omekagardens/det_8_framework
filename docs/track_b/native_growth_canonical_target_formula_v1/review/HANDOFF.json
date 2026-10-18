@@ -1,0 +1,176 @@
+{
+  "accepted_manual_scope": [
+    "Complete two b, four d, two h components, all roles/mark invariants and staircase third-pair loops; symmetric P individual ideals counted twice, U staircase ideal once.",
+    "Fixed prefix J7=41p, J9=f_i, J11=g_iu, square relation and actual C4 full root compression justified; all nine P and eight U proper potentials and full complements retained.",
+    "All-Q and all-P tightness are canonical only. C5/U stay inequalities. Complete Ferrers-terminal incidence excludes outside-row interference; preserving full actual weighted row contributions lifts every displayed feasible sector point into original primary face.",
+    "Exact unequal-g interval and equal-g polygon; target lower bound attained for positive/zero/equality and f>2L cases using only positive divisors and inherited nonemptiness.",
+    "Literal minimum relation order EQ<EP<EU<EC5 and precursor masks15<17<19 place both a before every other block coordinate; complete original-vector feasible exchange proves actual canonical identity.",
+    "N_i=(35/1476)sigma_i and q substitution exact; negative root-one contribution uses upper k bound. Actual branch, root ordering and quantitative correlated q/v/joint budget remain open; strict restoration unchanged."
+  ],
+  "accepted_predecessor": {
+    "bytes": 4893,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/RI149_ROOT_ADJUDICATION.json",
+    "sha256": "21438657f66c4fac98a9055303c83fd715b62bb559eeb9cfe2e4a3db11b3745d"
+  },
+  "actual_administrative_checks": [
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/check_metadata.py",
+      "counts": {
+        "additions": 21,
+        "bytes": 4347537,
+        "current_refs": 66,
+        "dependencies": 150,
+        "fresh_identity_rechecks": 160,
+        "historical_namespaces": 11,
+        "historical_refs": 734,
+        "manuscript_absolute_reference_occurrences": 7,
+        "retained": 129,
+        "source_pairs": 4,
+        "subject_namespace": 10
+      },
+      "exit_code": 0,
+      "result": {
+        "bytes": 102744,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/METADATA_CHECK.json",
+        "sha256": "fbd8520ad5b032ac3ed7c124a56b087722c6d743f0f05d55d42e912f86417f1f"
+      },
+      "tool_chunk": "279d68"
+    },
+    {
+      "exit_code": 0,
+      "result": {
+        "bytes": 4624,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/FINAL_PIN_CHECK.json",
+        "sha256": "1943e4b4046819355ee60214dabc5b3f11c1f070572f7a6c6eb070ccf5a739e0"
+      },
+      "scope": "All150 original full dependency states and10 current subject pins freshly rechecked; five review payloads pinned before finalcheck/handoff.",
+      "tool_chunk": "8a9db4"
+    }
+  ],
+  "assignment": {
+    "bytes": 2805,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/NATIVE_SUCCESSOR_RESERVATION.json",
+    "sha256": "f691b1292dabada78832529551a36edebe005d634960a5e4c03076ec026f8fc4"
+  },
+  "compact_publication_subset": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_FACE_REVIEW.json",
+    "INDEPENDENT_FACE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "diagnostics": {
+    "aggregate_read_clipping_retained": true,
+    "author_absence_and_clipping_diagnostics_preserved": true,
+    "clipped_material_reread_completely": true,
+    "reviewer_failed_administrative_commands": 0
+  },
+  "external_only_review_diagnostics": [],
+  "immutable_after_seal": true,
+  "independence": {
+    "O01_separately_root_accepted_inherited_premise": true,
+    "author_of_current_packet": false,
+    "author_peer_reviews_counted_as_independent": false,
+    "authored_prior_review_observation_O01": true,
+    "current_new_incidence_algebra_order_and_substitution_independently_reviewed": true,
+    "unrelated_WHITE_authorship_disclosed": true
+  },
+  "namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_FACE_REVIEW.json",
+    "INDEPENDENT_FACE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "no_successor_assigned": true,
+  "payloads": [
+    {
+      "bytes": 4624,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/FINAL_PIN_CHECK.json",
+      "sha256": "1943e4b4046819355ee60214dabc5b3f11c1f070572f7a6c6eb070ccf5a739e0"
+    },
+    {
+      "bytes": 6618,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.json",
+      "sha256": "a36763480722d54de0baf264046d8ee7f1f14ad4f7416b30122a4a56b4c936b5"
+    },
+    {
+      "bytes": 25608,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.md",
+      "sha256": "515bdea1510e41846b2fcbaae6697f120c613d2971fe180c6b1fcfa2d5135e32"
+    },
+    {
+      "bytes": 102744,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/METADATA_CHECK.json",
+      "sha256": "fbd8520ad5b032ac3ed7c124a56b087722c6d743f0f05d55d42e912f86417f1f"
+    },
+    {
+      "bytes": 3906,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/REVIEW_DIAGNOSTICS.json",
+      "sha256": "80a2aca52ec2e3cc7b30b3eb83717a5534ef1b3d42d27238eb8543d87b34a959"
+    },
+    {
+      "bytes": 8327,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/check_metadata.py",
+      "sha256": "afe7804d5aaae11b1111b3ce26c3c47d57ff7ec3a5a08149efc42c42b554c242"
+    }
+  ],
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining": {
+    "actual_W_C2_C3_signs_decided": false,
+    "actual_prefix_branch_evaluated": false,
+    "actual_rho_membership_proved": false,
+    "actual_root_coefficient_ordering_decided": false,
+    "adequate_q_floor": "For adequate b>0, prove (35/1476)(sigma0*k0(x)-sigma1*k1(x)) >= b*D3-T_core(x) on same correlated actual-containing [0,Z].",
+    "adequate_separate_v_D3_floor_required": true,
+    "alternative_exact_cleared_endpoint_proofs_possible": true,
+    "both_joint_endpoint_budgets_required": true,
+    "full_H30_decided": false
+  },
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q",
+  "root_owns_adjudication_admission_repository_and_Git": true,
+  "schema": "ri151-independent-face-review-handoff-v1",
+  "scope": {
+    "actual_numerical_coefficient_probability_history_maximum_scale_H_z_evaluation": false,
+    "global_graph_enumeration": false,
+    "manual_analytic_review": true,
+    "metadata_identity_check": true,
+    "operational_acceptance": false,
+    "physical_claim": false,
+    "predecessor_mutation": false,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "status": "SEALED_NONAUTHOR_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject_handoff": {
+    "bytes": 6054,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.json",
+    "sha256": "8b41c6467b47de9bb30b310a2f8cf6b3020a01bafcfa317d8276f6f77811eee6"
+  },
+  "verdict": "ACCEPT_EXACT_CANONICAL_TARGET_FORMULA_WITH_FIXED_PREFIX_BUDGET_GAP"
+}

@@ -1,0 +1,29 @@
+{
+  "E_modified": false,
+  "admission_created": false,
+  "assignment": {
+    "bytes": 2782,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+    "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+  },
+  "new_source_lines": {
+    "check_installation.py": 141,
+    "install_freeze.py": 237
+  },
+  "predecessor_namespace": 15,
+  "predecessor_payloads_verified": 14,
+  "proposal_import_compile_AST_probe_execute": false,
+  "repair_provenance": {
+    "bytes": 6471,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/REPAIR_PROVENANCE.json",
+    "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+  },
+  "runtime_observation": false,
+  "schema": "ri213-administrative-repair-build-v1",
+  "scientific_body_decode": false,
+  "unchanged_base_input_manifest": {
+    "bytes": 677925,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/INPUT_PINS.json",
+    "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+  }
+}

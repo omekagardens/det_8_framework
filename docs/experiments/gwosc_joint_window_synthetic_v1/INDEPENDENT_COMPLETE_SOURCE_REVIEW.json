@@ -1,0 +1,431 @@
+{
+  "blocking_findings": [],
+  "complete_read_scope": [
+    "primary.py",
+    "validator.py",
+    "qualify.py",
+    "CONTRACT.md",
+    "IMPLEMENTATION.md",
+    "VALIDATOR_NOTES.md",
+    "SOURCE_REVIEW.md",
+    "PREPARATION_RECORD.md",
+    "PREDECESSOR_PINS.json",
+    "SOURCE_PINS.json",
+    "HANDOFF.json"
+  ],
+  "date_utc": "2026-09-26",
+  "fresh_predecessor_document_and_inventory_metadata_pins": [
+    {
+      "bytes": 15602,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+      "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+    },
+    {
+      "bytes": 4320,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+      "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e"
+    },
+    {
+      "bytes": 14774,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+    },
+    {
+      "bytes": 5591,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+      "sha256": "ee2e450555a8be85e8a34c09b43540fc60fa52f4de03e983a59ea0f57efaf878"
+    },
+    {
+      "bytes": 18905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/HANDOFF.json",
+      "sha256": "ba03485a0bdf843dee98d50daca1665c31dcc64ea9267c0f76a882e7959b2451"
+    },
+    {
+      "bytes": 12456,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+      "sha256": "c8ca2150a9fc789c65375e1f857871eee30a016d6f0eca651999f790d5af1cf2"
+    },
+    {
+      "bytes": 1216343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/RUNTIME_INVENTORY.json",
+      "sha256": "8b0329a83a1208b21dfb4771d2dd078aae6cb54a1741b7f20b4a4695c06e245c"
+    }
+  ],
+  "independence": "Reviewer authored none of primary.py, validator.py, qualify.py, their contract or the packet source review. Reviewer previously independently reviewed the RI118 mathematical design. Validator independent-authorship history is disclosed by its author and is consistent with the source structure; the recorded parent PSD resource-guard edit is retained as an authorship exception.",
+  "interface_resource_and_control_review": {
+    "PSD_findings": "Named production guards are complete symmetric2x2 PSD checks including singular matrices. They are used on supplied Q02/Q03 covariances before equality checks and exercised through the same public API by G01-G03. G03 is a resource refusal of a mathematically PSD rank-one matrix, not a false non-PSD classification.",
+    "all_control_paths_reviewed_not_executed": true,
+    "all_field_comparisons_traced": true,
+    "arithmetic_limits": {
+      "decimal_component_digits": 2467,
+      "parsed_integer_component_bits": 8192,
+      "reduced_rational_bits": 8192,
+      "scientific_and_qualification_body_bytes": 2097152
+    },
+    "assert_only_acceptance_gates": false,
+    "bound_dimensions_precede_calibration_eta_and_full_bound_equality": true,
+    "closed_scientific_root_case_model_and_bound_schemas": true,
+    "exact_first_refusal_source_paths": [
+      {
+        "expected_code": "SCHEMA",
+        "id": "M01",
+        "manual_trace": "Closed root lacks limitations before any science."
+      },
+      {
+        "expected_code": "PHASE",
+        "id": "M02",
+        "manual_trace": "Exact phase mismatch precedes other fields."
+      },
+      {
+        "expected_code": "RESULT",
+        "id": "M03",
+        "manual_trace": "Status mismatch follows schema/phase."
+      },
+      {
+        "expected_code": "SCOPE",
+        "id": "M04",
+        "manual_trace": "Method physical claim is false in both fixed references."
+      },
+      {
+        "expected_code": "INVENTORY",
+        "id": "M05",
+        "manual_trace": "Complete ordered case IDs are checked before shapes."
+      },
+      {
+        "expected_code": "SHARED_INDEX",
+        "id": "M06",
+        "manual_trace": "The later window selector at row0/column2 must be1; zero changes it."
+      },
+      {
+        "expected_code": "CROP",
+        "id": "M07",
+        "manual_trace": "First-T row2/column2 is1; zero changes it."
+      },
+      {
+        "expected_code": "OPERATOR",
+        "id": "M08",
+        "manual_trace": "The first output-map coefficient is1, not0."
+      },
+      {
+        "expected_code": "MODEL",
+        "id": "M09",
+        "manual_trace": "Raw factor first entry is1; model mismatch precedes output comparison."
+      },
+      {
+        "expected_code": "PSD",
+        "id": "M10",
+        "manual_trace": "Symmetric [[2,3],[3,2]] has negative determinant and reaches the production PSD guard."
+      },
+      {
+        "expected_code": "COVARIANCE_MODEL",
+        "id": "M11",
+        "manual_trace": "Diagonal2 matrix is PSD but violates Q02 shared-white stacked covariance."
+      },
+      {
+        "expected_code": "COVARIANCE_MODEL",
+        "id": "M12",
+        "manual_trace": "Q09 directed cross block is asymmetric; its transpose changes complete entries."
+      },
+      {
+        "expected_code": "MEAN_TERM",
+        "id": "M13",
+        "manual_trace": "Q07 nonzero mean dispersion is checked before energies."
+      },
+      {
+        "expected_code": "ENERGY",
+        "id": "M14",
+        "manual_trace": "Q02 expected V is3/2, not3."
+      },
+      {
+        "expected_code": "ENERGY",
+        "id": "M15",
+        "manual_trace": "Q02 direct centered energy is nonzero."
+      },
+      {
+        "expected_code": "EXACT",
+        "id": "M16",
+        "manual_trace": "A bool in a rational-string leaf fails the global type pass."
+      },
+      {
+        "expected_code": "EXACT",
+        "id": "M17",
+        "manual_trace": "2/2 parses rationally but is not a reduced canonical string."
+      },
+      {
+        "expected_code": "EXACT",
+        "id": "M18",
+        "manual_trace": "Finite float at a rational leaf is not a string."
+      },
+      {
+        "expected_code": "ENUMERATION",
+        "id": "M19",
+        "manual_trace": "Plain63 passes type checking but differs from the exact support64."
+      },
+      {
+        "expected_code": "DIMENSION",
+        "id": "M20",
+        "manual_trace": "Bool sign count fails the structural-int guard."
+      },
+      {
+        "expected_code": "CALIBRATION",
+        "id": "M21",
+        "manual_trace": "Plain boolean true reaches the required false cancellation-claim guard."
+      },
+      {
+        "expected_code": "BOUND",
+        "id": "M22",
+        "manual_trace": "Canonical negative eta is refused before bound equality."
+      },
+      {
+        "expected_code": "BOUND",
+        "id": "M23",
+        "manual_trace": "Covariance bound0 differs from exact1."
+      },
+      {
+        "expected_code": "BOUND",
+        "id": "M24",
+        "manual_trace": "Calibration bound2 differs from exact3."
+      },
+      {
+        "expected_code": "DIMENSION",
+        "id": "M25",
+        "manual_trace": "Standalone output_dimension8 differs from fixed1 before full bound comparison."
+      },
+      {
+        "expected_code": "SCHEMA",
+        "id": "M26",
+        "manual_trace": "Missing raw_mean violates exact case keys in global shape pass."
+      },
+      {
+        "expected_code": "DIMENSION",
+        "id": "M27",
+        "manual_trace": "Q09 stacked covariance is4x4; deleting column3 makes its first row incomplete."
+      },
+      {
+        "expected_code": "DIMENSION",
+        "id": "M28",
+        "manual_trace": "Selector bool fails the plain integer type pass."
+      },
+      {
+        "expected_code": "RESOURCE",
+        "id": "M29",
+        "manual_trace": "2468-digit scalar component exceeds2467 before regex or integer conversion."
+      },
+      {
+        "expected_code": "EXACT",
+        "id": "M30",
+        "manual_trace": "Model kind requires plain string even though it is nonnumeric."
+      },
+      {
+        "expected_code": "INVENTORY",
+        "id": "M31",
+        "manual_trace": "Missing Q01 fails ordered group identity."
+      },
+      {
+        "expected_code": "COVARIANCE_MODEL",
+        "id": "M32",
+        "manual_trace": "Q09 centered off-diagonal3/4 is changed to0."
+      },
+      {
+        "expected_code": "RESOURCE",
+        "id": "M33",
+        "manual_trace": "2468 nonnumeric x characters exceed component length before grammar matching."
+      },
+      {
+        "expected_code": "CANONICAL",
+        "id": "P01",
+        "manual_trace": "Duplicate keys are rejected in object-pairs parsing."
+      },
+      {
+        "expected_code": "CANONICAL",
+        "id": "P02",
+        "manual_trace": "NaN is rejected by parse_constant."
+      },
+      {
+        "expected_code": "CANONICAL",
+        "id": "P03",
+        "manual_trace": "Whole-body canonical equality requires the terminal newline."
+      },
+      {
+        "expected_code": "RESOURCE",
+        "id": "P04",
+        "manual_trace": "2MiB+1 bytes are rejected before JSON parsing."
+      },
+      {
+        "expected_code": "CANONICAL",
+        "id": "P05",
+        "manual_trace": "A text string fails exact bytes requirement."
+      },
+      {
+        "expected_code": "PSD",
+        "id": "G01",
+        "manual_trace": "Nonsymmetry short-circuits determinant arithmetic."
+      },
+      {
+        "expected_code": "PSD",
+        "id": "G02",
+        "manual_trace": "Negative diagonal short-circuits determinant arithmetic."
+      },
+      {
+        "expected_code": "RESOURCE",
+        "id": "G03",
+        "manual_trace": "Each2^4096 entry fits8192 bits, but its product2^8192 has8193 bits; both implementations bound individual products before cancellation."
+      }
+    ],
+    "finite_controls_exhaust_all_invalid_inputs_claimed": false,
+    "first_refusal_inventory_count": 41,
+    "fixed_dimensions_precede_case_PSD_and_field_values": true,
+    "global_shape_and_exact_leaf_pass_before_case_value_comparison": true,
+    "parser_findings": "All three body parsers require exact bytes, bounded body size, duplicate-free finite JSON and identical sorted ASCII indent2 serialization with terminal newline. Rational syntax/reduction and bool exclusions belong to complete comparisons rather than silent parser normalization.",
+    "resource_findings": "Both rational parsers bound whole text and decimal components before grammar and integer conversion, check parsed component bits and canonical reduced Fraction strings. Arithmetic helpers bound reduced rational results; the PSD guards bound each product before its difference. The documentation correctly does not claim bounded transient allocations or a hard OS memory cap.",
+    "strict_bool_versus_integer_separation": true
+  },
+  "mathematical_source_review": [
+    {
+      "details": "Nine fixed cases, three Q12 records and twelve groups match RI118. M4/T3/stride2, windows at most3, output dimension at most2 and raw/latent dimensions at most8 are literal. The case sign support is64+16+256+64+256+64+64+64+64=912; three scalar-factor supports add2+4+2=8. These are source cardinalities, not executed counts.",
+      "item": "Closed literal domain",
+      "verdict": "PASS"
+    },
+    {
+      "details": "The primary iterates product((-1,1),repeat=latent), forms one shared raw vector scale*(mu+F*epsilon), applies A to each first-T crop, and accumulates all raw/output/mean first and second moments. It checks pointwise U=V+mean energy, counts the entire fixed support, subtracts deterministic centered-mean outer products from centered second moments, and requires direct averaged V to equal covariance contribution plus mean dispersion. Divisor n is preserved.",
+      "item": "Primary complete enumeration",
+      "verdict": "PASS"
+    },
+    {
+      "details": "The Q06 row-sum and same-sign zero-mean output comparisons occur inside its full sign loop before the count increments. Both Q08 cases compare against signed scale times the same-sign baseline output, preserving the sign rather than merely checking second moments. Their fixed means are zero; scale acts on the complete nominal input, not the output operator.",
+      "item": "Per-sign Q06 and Q08 obligations",
+      "verdict": "PASS"
+    },
+    {
+      "details": "Validator uses its own literal selectors, matrices, fixed factors and mean map. It constructs RR^T, full projected factors and all covariances, explicit Pi-centering, Frobenius covariance contribution, deterministic mean dispersion, and the distinct expected_U-minus-mean-energy route. No primary import/call or full sign cube appears. All matrices, means, energies, model fields, selectors, maps and cardinalities are reconstructed entrywise.",
+      "item": "Independent moment reconstruction",
+      "verdict": "PASS"
+    },
+    {
+      "details": "Q02 raw white and Q03 periodic models retain identical full I4 window marginals but different coherent cross terms. Q05 nonadjacent covariance is zero. Q09 full stacked covariance and both directed blocks retain C=[[-1,0],[-1,0]] and C^T. Its centered average is[[3/2,3/4],[3/4,1]], trace5/2. M12 actually changes the asymmetric block, and M32 changes a nonzero off-diagonal. The scalar trace is not the acceptance criterion.",
+      "item": "Complete directed covariance",
+      "verdict": "PASS"
+    },
+    {
+      "details": "Q07 output mean(-4,-12,-20) gives dispersion128/3, covariance contribution16/9, V400/9, U566/3 and mean-output energy1298/9. Common nominal constant cancellation uses the actual zero-sum operator. Arbitrary means or calibrated constants are not assumed cancelled.",
+      "item": "Means and scaling",
+      "verdict": "PASS"
+    },
+    {
+      "details": "These are explicitly one-output n2 factors. Calibrated constant output is-1. The primary enumerates scalar factors to obtain covariance contributions1 and2 and calibration contributions1 and4. The validator uses PiD=D and independent matrix traces/Frobenius norms. Bounds1 and3 are attained. The equal-factor premise used to avoid an irrational norm product is checked explicitly. No general calibrated physical model is inferred.",
+      "item": "Standalone Q12 bounds",
+      "verdict": "PASS"
+    },
+    {
+      "details": "Manual source algebra agrees with all nine contract triples (V,U,mean energy): (3/2,2,1/2),(2,2,0),(16/9,2,2/9),(3/2,2,1/2),(400/9,566/3,1298/9),(3/2,2,1/2),(6,8,2),(5/2,4,3/2),(0,0,0). This reviewer generated no machine scientific output or qualification fixture.",
+      "item": "Prospective scalar oracle table",
+      "verdict": "PASS"
+    },
+    {
+      "details": "The fixed toy moment calculations support the declared synthetic identities. They do not implement or qualify a general actual-coefficient shifted-product engine, an empirical covariance estimator or physical model. Actual RI73 integration remains a later separately reviewed step.",
+      "item": "Finite qualification scope",
+      "verdict": "PASS"
+    }
+  ],
+  "qualification_and_saved_report_review": {
+    "complete_report": "The closed report retains the complete scientific result, baseline objects, every expected/actual refusal record, ordered coverage, counts and literal limitations. run() serializes/parses the whole canonical report and calls audit() before returning.",
+    "fresh_reference": "run() obtains its own complete primary enumeration, preserves canonical bytes, parses a separate scientific record, and requires both full baseline success objects. No supplied scientific report supplies its own reference.",
+    "mutations": "Each of33 full-report controls changes a fresh deep copy and must differ from the original. Only the exact declared error class with the exact code passes; unexpected exceptions or success fail qualification. Both full comparators are called. Input/reference canonical snapshots surround both calls.",
+    "normal_optimized_equality": "There are no mode-dependent scientific branches, timestamps or provenance in the report, and no assert-only checks. Byte equality remains a requirement for later actual serial runs, not an established result.",
+    "parser_and_PSD_controls": "Five immutable byte/string parser cases and three PSD arguments follow the fixed order. PSD argument identity is checked before/after the pair; the reviewed PSD functions do not mutate. Final scientific/reference checks follow all controls.",
+    "saved_audit": "audit() compares the entire report with the fixed complete expected structure and caller-owned fresh primary reference, then invokes both full scientific checks, including fresh independent moment reconstruction. It explicitly returns historical_controls_reexecuted=false. These saved records alone cannot witness prior control execution; genuine captured run() custody must do so."
+  },
+  "remaining_scientific_limits": [
+    "Synthetic arithmetic qualification remains unexecuted.",
+    "No detector covariance adequacy, stationarity, Gaussianity, likelihood, p-value, significance or physical eta/calibration envelope follows.",
+    "Previously inspected public data remain development/calibration material, not protected validation.",
+    "No native forward map or geometry/gravity correspondence follows; RET remains paused."
+  ],
+  "reproducibility_and_admission_prerequisites": [
+    "Root must independently adjudicate this exact scientific source and contract before preparation advances to actual admission.",
+    "Prepare a concrete minimal captured-source caller and review actual capture/load/parse behavior and exact applicability of retained supervision; this packet contains no new caller and confers no admission.",
+    "Freshly establish the chosen interpreter and its actual symlink chain, full transitive standard-library/runtime closure, all captured source bytes and required provenance before and after. The RI116 runtime inventory hash is a historical candidate metadata reference; its members were not refreshed by this review.",
+    "Retain the fixed180 active-child seconds,524288KiB sampled sole-child RSS,0.025-second target polling,0.1-second maximum successful and final-to-reap gap, and0.05-second ps timeout. Entire enumeration,41 controls per implementation and full saved audit belong inside the active budget. Actual fit has not been measured.",
+    "Normal -I -B and optimized -I -B -O executions must be serial, in separate fresh roots, with separate actual root decisions and preserved genuine launch/reap/exit, resource samples, failure/partial evidence, complete source/runtime/input postchecks and independently checked full outputs. Do not transfer an unrelated qualification claim to changed code.",
+    "The concrete worker must actually call run(), retain full canonical qualification output and independent validator evidence, and ensure any replay/audit reference is freshly caller-owned rather than taken from the retained report.",
+    "The scientific executable closure is primary.py,validator.py,qualify.py plus actual standard-library/runtime dependencies. There are no external scientific inputs. HDF5, empirical PSD/result bodies, RI73 coefficient capture and native scientific operands remain outside this synthetic phase."
+  ],
+  "review_operations": {
+    "active_execution_card_created": false,
+    "actual_runtime_fit_or_member_custody_verified": false,
+    "new_observed_native_or_coefficient_calculation": false,
+    "new_scientific_JSON_output_generated": false,
+    "opaque_file_identity_checks": true,
+    "primary_or_validator_fixture_run": false,
+    "repository_index_git_mutations": false,
+    "sign_enumeration": false,
+    "target_import_compile_AST_probe_execution": false,
+    "text_and_manual_mathematical_source_review": true
+  },
+  "runtime_member_closure_freshly_checked": false,
+  "schema": "ri119-independent-complete-source-contract-review-v1",
+  "source_authorship_and_preserved_repairs": {
+    "other_repairs": "Primary component length ordering, M33 and G03 declarations, and Q06/Q08 pointwise guards are present in the exact final pinned source. They were reviewed as text, never described as passed executed regressions.",
+    "parent_guard_edit": "The single validator PSD expression was changed by the parent to bound both products before cancellation. This exception is explicitly retained in notes and preparation record; it does not erase the independently authored scientific formula route.",
+    "validator_scientific_independence": "Separately authored from contract/design; distinct moment-factor algebra is independently visible in the source. This review relies on the disclosed authorship history rather than inventing a stronger historical claim."
+  },
+  "stable_source_and_metadata_pins": [
+    {
+      "bytes": 3753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+      "sha256": "57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64"
+    },
+    {
+      "bytes": 3683,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+      "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 17291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+    },
+    {
+      "bytes": 7499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+      "sha256": "76f5e84c4ab00aa7c31d9a822e45fdf505323ef80e6423fc718499abdd249ac3"
+    },
+    {
+      "bytes": 6697,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+      "sha256": "f147ae3b8633225bd1d8c06ca995439c538e6db2caf428843fe0abab6eccfc27"
+    },
+    {
+      "bytes": 11143,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+      "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+    },
+    {
+      "bytes": 3135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+      "sha256": "2106d0d180dd3c2372c7ce0b1d56c56c7ec009faec3e7b0ba8a83faf9d8cbc2c"
+    },
+    {
+      "bytes": 2998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+      "sha256": "efb1fb2e20b0793ef2111d6a0fc9df9fbf0f2eaebc9b78675064d13af3eb78b2"
+    }
+  ],
+  "status": "PASS_SOURCE_ONLY_PENDING_CONCRETE_CALLER_REVIEW_AND_ADMISSION",
+  "verdict": "The exact RI119 scientific source and contract are suitable for root source-only acceptance. No blocker found in the mathematical implementation, complete comparison paths, fixed41-control inventory or stated resource discipline. Actual caller applicability, concrete custody/admission, serial qualification and remote publication remain root responsibilities; this verdict self-admits none."
+}

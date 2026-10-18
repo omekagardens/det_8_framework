@@ -1,0 +1,31 @@
+{
+  "RET_paused": true,
+  "accepted_inputs": {
+    "bytes": 2744,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_ROOT_INPUT_ADJUDICATION.json",
+    "sha256": "2731edec8f87afa381e11cd5a91168fdd5eb5a27f21667d7e834f81994aebd37"
+  },
+  "owner": "root coordinator",
+  "pre_mode_admission_issued": false,
+  "request": {
+    "bytes": 1013,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/PRE_MODE_REQUEST.json",
+    "sha256": "6aeb27d703ec8487b22d61fea4f992fe54ff4cd87b335fbfbd1675d89d0ce001"
+  },
+  "requirements": [
+    "Preserve exact two-file RI241 input namespace; use this separate operation reservation for fresh admission and operation outputs.",
+    "Fresh current source, supplier, host and whole E49/9 with48/124/30 roles; preserve all567 RI160 dependencies and accepted106 inert-control source semantics.",
+    "Prepare and independently check the exact12-field pre_mode admission and unchanged bounded monitoring/outer command before dispatch.",
+    "Run unchanged pre_mode once only after that admission; retain genuine initial and terminal tools, all output/failure tails. Independently review complete nine-field result before distinct mode_card candidate generation.",
+    "No source repair or capture/profile/guard rerun is indicated. No mode-card insertion or scientific run is authorized by this reservation."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea",
+  "runtime": {
+    "bytes": 2653,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+    "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+  },
+  "schema": "ri244-current-normal-premode-reservation-v1",
+  "scientific_execution_authorized": false,
+  "status": "ROOT_OPERATION_PREPARATION_SELECTED_AFTER_INDEPENDENT_INPUT_REVIEW"
+}

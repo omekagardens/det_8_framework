@@ -1,0 +1,95 @@
+{
+  "schema": "ri151-canonical-q-equality-analytic-result-v1",
+  "status": "AUTHOR_DERIVED_EXACT_CANONICAL_TARGET_FORMULA_PENDING_NONAUTHOR_REVIEW",
+  "scientific_execution": false,
+  "new_results": [
+    "Complete intrinsic b_i components for terminal (4,1,1), including symmetric-parent two-ideal multiplicities.",
+    "Complete d_iu components for terminal (4,2) and required staircase h_i closure.",
+    "All marked canonical Q and P equalities reduce the complete neutral Ferrers-parent block to exact intervals or polygons.",
+    "Feasible variations of this block lift to the actual global primary optimal face with every outside coordinate fixed.",
+    "Literal minimum-key ordering proves both target a_i precede every other coordinate in the block.",
+    "Actual canonical a_i=[L_i-f_i/2-min(g_i0,g_i1)]_+/(L_i*c_i), L_i=41*p_i.",
+    "Actual singleton corrections N_i=(35/1476)*sigma_i, sigma_i=[L_i-f_i/2-min(g_i0,g_i1)]_+/c_i.",
+    "Exact q=T_core+(35/1476)*(sigma_0*k_0-sigma_1*k_1), eliminating unresolved parent-five boundary coordinates."
+  ],
+  "incidence": {
+    "b_per_root": {
+      "components": 1,
+      "local_nodes": 6,
+      "canonical_rows": 26,
+      "raw_rows": 112,
+      "individual_target_occurrences": 160,
+      "directed_raw_diamonds": 192
+    },
+    "d_per_root_and_atom": {
+      "components": 1,
+      "local_nodes": 4,
+      "canonical_rows": 16,
+      "raw_rows": 72,
+      "individual_target_occurrences": 72,
+      "directed_raw_diamonds": 96
+    },
+    "h_per_root": {
+      "components": 1,
+      "local_nodes": 5,
+      "canonical_rows": 26,
+      "raw_rows": 128,
+      "individual_target_occurrences": 128,
+      "directed_raw_diamonds": 256
+    },
+    "complete_block": {
+      "canonical_rows": 116,
+      "raw_rows": 416,
+      "neutral_individual_proper_occurrences": 1024
+    }
+  },
+  "canonical_target_eliminated_symbolically": true,
+  "actual_positive_part_branch_evaluated": false,
+  "actual_root_coefficient_ordering_decided": false,
+  "adequate_weighted_comparison_proved": false,
+  "actual_rho_in_delta0_proved": false,
+  "actual_W_C2_C3_signs_decided": false,
+  "full_H30_decided": false,
+  "remaining": [
+    "Prove an adequate fixed-prefix comparison of sigma_0*k_0-sigma_1*k_1 over the same correlated [0,Z].",
+    "Prove a sufficient separate actual v/D3 floor and both RI147 joint endpoint budgets, or establish exact cleared endpoint polynomials directly.",
+    "Later original canonical coordinates remain fixed by the original full-vector tie-break; their values are not evaluated or replaced."
+  ],
+  "boundary_conditions": [
+    "O01 is a separate reviewer deduction accepted by the RI149 root, not retroactively a claim in its sealed author proof.",
+    "Q and P tightness is canonical boundary tightness, not zero strict-mixed full probability.",
+    "All full records, individual ideal occurrences, fixed history weights and original component order are retained.",
+    "The closed-block exchange fixes canonical raising coordinates at zero; arbitrary primary optima are not assumed to have that property.",
+    "Equal-g, unequal-g, zero-target, threshold equality and f>2L cases are covered without dividing by contrasts."
+  ],
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_T1_recovery": true,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_analytic_proof": true,
+    "actual_numerical_coefficient_probability_history_maximum_scale_H_z_evaluation": false,
+    "scientific_body_decode": false,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "physical_QM_geometry_gravity_claim": false
+  },
+  "stop": "Seal for nonauthor review and root adjudication. No successor assigned."
+}

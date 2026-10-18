@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Complete nine-proper-ideal companion row with all four component families and32whole records",
+    "Actual5/9/7history multiplicities imply L_i=0<T_i",
+    "Positive kappa implies complete tight companion capacity and positive primary dual mass",
+    "Structural roots kappa=(8590,17,i),tau=(8604,17,i); original ranks still unknown"
+  ],
+  "actual_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "handoff": {
+    "bytes": 16711,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/HANDOFF.json",
+    "sha256": "05d9cc76d28e67e3d6c58b5775427e6d0bcd9bcb49195fd75164478a63186a9a"
+  },
+  "independent_review": {
+    "bytes": 14436,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_INDEPENDENT_REVIEW.txt",
+    "sha256": "045ad7fecc017e591feb1748f1d860d1ef78e6abb80b01df1eb69187b6d180ec"
+  },
+  "premises": [
+    "fixed prescribed finite law",
+    "accepted positive lower probabilities",
+    "complete original primary and sequential lexicographic optimizer",
+    "all13equations10coordinates and complete recovery",
+    "all15inherited boundaries and423manifest by reference"
+  ],
+  "root_check": {
+    "bytes": 61970,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_METADATA_CHECK.json",
+    "sha256": "082118457ca7e9773c791a55515f6f95b6d7316ef86213406941b6068ae7a907"
+  },
+  "root_complete_review_read": "e48501",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_COMPANION_WEIGHTED_EXCHANGE_DUAL_NECESSITY_AND_STRUCTURAL_KEYS_ONLY",
+  "unresolved": [
+    "actual kappa gap",
+    "actual canonical C_b",
+    "original798rank binding",
+    "sparse-value schema"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "RET_paused": true,
+  "active_caller_card": false,
+  "actual_data_admission": false,
+  "authorship_boundary": "Nonauthor RI130 reviewer authored copied primary/qualifier; retains separate different-author component reviews. Root adjudicates and independently checks stated integration scope.",
+  "blocking_findings": [],
+  "declared_controls": 65,
+  "executed_controls": 0,
+  "historical_files": 124,
+  "independent_review": {
+    "bytes": 22530,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "da5cea63cc5a073d6d0348eb8eafb4fa635e29a495bbfc93bb5b2752a2c40d47"
+  },
+  "independent_review_handoff": {
+    "bytes": 2597,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/HANDOFF.json",
+    "sha256": "4092f5be60516217cebcf9c7a906184895635908977d5501d061d2cc16e36df4"
+  },
+  "metadata": {
+    "bytes": 146958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "dbee230dea1e1fa4716b4a95c6178a33781d234e2e7237915bbc878cec577b28"
+  },
+  "next_step": "RI133 minimal current runtime/sidecar/profile and bounded nonscientific guard orchestration source; independent review before actual preparation.",
+  "original_copy_pairs": 30,
+  "root_review": {
+    "bytes": 3809,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/ROOT_SOURCE_REVIEW.md",
+    "sha256": "26ffdb88f369514499706a9684ba12e18b1b972dca67b4b521818ab942b2ac5b"
+  },
+  "runtime_admission": false,
+  "schema": "ri130-root-unexecuted-source-adjudication-v1",
+  "scientific_body_decode": false,
+  "scientific_qualification": false,
+  "source_artifacts": 47,
+  "source_handoff": {
+    "bytes": 26684,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+    "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+  },
+  "source_total_files": 48,
+  "status": "ACCEPT_EXACT_UNEXECUTED_WHITE_CALLER_SOURCE",
+  "target_execution": false
+}

@@ -1,0 +1,109 @@
+{
+  "actual_checks": "ADMIN_CHECK.json",
+  "actual_commands": "COMMAND_OUTCOMES.json",
+  "cases": 92,
+  "compact_publication_subset": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FAILED_ADMIN_V1.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "seal_review.py"
+  ],
+  "complete_review": "INDEPENDENT_REVIEW.md",
+  "decision": "REQUIRE_NARROW_F04_R_REPAIR_BEFORE_QUALIFICATION_ADMISSION",
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "external_only_diagnostics": [],
+  "final_identity_check": "FINAL_IDENTITY_CHECK.json",
+  "findings": [
+    "F04-R"
+  ],
+  "immutable_after_seal": true,
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FAILED_ADMIN_V1.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "seal_review.py"
+  ],
+  "new_agents": false,
+  "payloads": [
+    {
+      "bytes": 534125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/ADMIN_CHECK.json",
+      "sha256": "0f7a30d60bd2776c9ae7341b289a060a6802f51313957096949760f51450ef2c"
+    },
+    {
+      "bytes": 3385,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/COMMAND_OUTCOMES.json",
+      "sha256": "3bc6e09807cfa40623d6c7c100e24d27c5d5dd601834e8ebd924b6d21018c33c"
+    },
+    {
+      "bytes": 1154,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/FAILED_ADMIN_V1.json",
+      "sha256": "b7ac00df5497e192a726694b08bbc6c8af622c4d8af7636ca2d796d7f6f31ebf"
+    },
+    {
+      "bytes": 43218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/FINAL_IDENTITY_CHECK.json",
+      "sha256": "b8b0aebc46d09cd6bd2c705379713506b25666de2ac021ed6092b3a6504ec34b"
+    },
+    {
+      "bytes": 15952,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/INDEPENDENT_REVIEW.md",
+      "sha256": "15c2ed17bd90b072b860c453358342954e22790816cc423a9f2f6ef79635bc64"
+    },
+    {
+      "bytes": 2942,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/VERDICT.json",
+      "sha256": "6382eef91faf1d61655c8af8c60c9d957e4ed526ebbe86842a942e9c9b10bf3e"
+    },
+    {
+      "bytes": 8993,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata.py",
+      "sha256": "273cab3bbebf7d46ba221f7b18c9c741edaf9a8b189b0a40672d861925424087"
+    },
+    {
+      "bytes": 10454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/check_metadata_v2.py",
+      "sha256": "3370ea70c47ad2f5187386b7bcda5023dcf40dc4ff2f42df80dc329755e2a6e3"
+    },
+    {
+      "bytes": 8604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/seal_review.py",
+      "sha256": "b7ca6671d6b19062d2ad99ea7df385221b7c79e7299ca385e1c29a6e40417031"
+    }
+  ],
+  "preserved_failed_attempt": [
+    "check_metadata.py",
+    "FAILED_ADMIN_V1.json"
+  ],
+  "prospective_mutation_families": 26,
+  "recipes": 34,
+  "repository_git_mutation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt",
+  "ret_paused": true,
+  "root_owns_disposition_repairs_admission_publication": true,
+  "runtime_cards_or_admission": false,
+  "schema": "ri180-independent-review-handoff-v1",
+  "scientific_decode": false,
+  "source_only": true,
+  "subject": {
+    "bytes": 14679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+    "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e"
+  },
+  "subject_import_compile_AST_probe_execution": false,
+  "successful_checker": "check_metadata_v2.py",
+  "verdict": "VERDICT.json"
+}

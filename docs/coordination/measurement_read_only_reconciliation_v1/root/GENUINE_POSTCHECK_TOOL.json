@@ -1,0 +1,16 @@
+{
+  "arguments": {
+    "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py --outer /Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json --report /Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_POSTCHECK.json",
+    "justification": "Run the accepted administrative saved-evidence checker against the actual one-run reconciliation and genuine receipts; write only its exclusive postcheck report.",
+    "max_output_tokens": 3000,
+    "sandbox_permissions": "require_escalated",
+    "yield_time_ms": 1000
+  },
+  "initial": {
+    "chunk_id": "cfb84c",
+    "exit_code": 0,
+    "original_token_count": 81,
+    "output": "{\"report\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_POSTCHECK.json\", \"bytes\": 49112, \"sha256\": \"d22b9113eebd85fc447c631275fd05df032dc418ae870093afd53a3aacb1b45b\"}, \"checks\": 161124, \"status\": \"PASS_READ_ONLY_RECONCILIATION_PENDING_ROOT_ACCEPTANCE\"}\n",
+    "wall_time_seconds": 0.899940833
+  }
+}

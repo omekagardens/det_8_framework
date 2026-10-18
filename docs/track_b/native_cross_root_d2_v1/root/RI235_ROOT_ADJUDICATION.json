@@ -1,0 +1,52 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Actual canonical N0<1/200,N1<1/800 with all minima/ties/zero positive parts",
+    "Complete T4-T7 proper sums and strict positive contrasts f5/f6, forcing U5=U6=0",
+    "Disjoint f4/f7 zero branches: at most one of U4,U7 remains free",
+    "Allocation-free C_hat<-1/12000; exact actual canonical contribution lambda*Xi retained",
+    "Three-branch necessary D2 system with all zero coefficients and complete original system/recovery"
+  ],
+  "all_five_disconnected_eight_connected_ten_coordinates_retained": true,
+  "all_size_or_physical_claim": false,
+  "genuine_author_final": {
+    "bytes": 31406,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_AUTHOR_FINAL_RECEIPT.json",
+    "sha256": "282399d81fd5dd539a7c90c7c7404399085e52967cc2a98500796f684b4a676e"
+  },
+  "independent_receipts": {
+    "bytes": 1704,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_INDEPENDENT_RECEIPTS.json",
+    "sha256": "9125b1c919791fe3c3c9f505992a4c4481c9e2307e09f37aa9967ad5661b876f"
+  },
+  "independent_review": {
+    "bytes": 12079,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_INDEPENDENT_REVIEW.txt",
+    "sha256": "275a10ea4c42282bac497ab1884b5d911d49cdf0f96fcc65eb882eb6296426c5"
+  },
+  "qualification_credit": 0,
+  "root_manual_review": {
+    "bytes": 6183,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_ROOT_REVIEW.md",
+    "sha256": "d41b15558b0b208e68adb64c879433c1a69ea9e02e2ab58362ac611e93dda823"
+  },
+  "root_metadata": {
+    "bytes": 40228,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_ROOT_METADATA_CHECK.json",
+    "sha256": "e87bdb86acf29bd41e57d5af979daf0147d2a1ad6e72440a65785e881ae2cee4"
+  },
+  "schema": "ri237-root-ri235-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_CONNECTED_SIGNS_AND_D2_ALLOCATION_SEPARATION",
+  "subject": {
+    "bytes": 6599,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/HANDOFF.json",
+    "sha256": "7ca4112510e3de1a3f2d6186e0ebe1dcb1ef74ff22f019098abd93f2462f3394"
+  },
+  "unresolved": [
+    "Actual d versus d4/d7",
+    "Actual canonical Xi and complete C_b sign",
+    "Full normalized witness or actual signed inconsistency",
+    "Rank, improvement, optimality, maximal amplitude"
+  ]
+}

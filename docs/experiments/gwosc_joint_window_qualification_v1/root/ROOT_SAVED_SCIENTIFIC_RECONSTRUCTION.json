@@ -1,0 +1,92 @@
+{
+  "actual_controls_reexecuted": false,
+  "bounds_full_fields_compared": true,
+  "cases": [
+    {
+      "U": "2",
+      "V": "3/2",
+      "case": "Q02_white_two",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "1/2"
+    },
+    {
+      "U": "2",
+      "V": "2",
+      "case": "Q03_periodic_two",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "0"
+    },
+    {
+      "U": "2",
+      "V": "16/9",
+      "case": "Q05_white_three",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "2/9"
+    },
+    {
+      "U": "2",
+      "V": "3/2",
+      "case": "Q06_constant_mean",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "1/2"
+    },
+    {
+      "U": "566/3",
+      "V": "400/9",
+      "case": "Q07_quadratic_mean",
+      "entire_fields": 20,
+      "mean_dispersion": "128/3",
+      "mean_output_energy": "1298/9"
+    },
+    {
+      "U": "2",
+      "V": "3/2",
+      "case": "Q08_scale_minus_one",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "1/2"
+    },
+    {
+      "U": "8",
+      "V": "6",
+      "case": "Q08_scale_two",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "2"
+    },
+    {
+      "U": "4",
+      "V": "5/2",
+      "case": "Q09_oriented_matrix",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "3/2"
+    },
+    {
+      "U": "0",
+      "V": "0",
+      "case": "Q10_zero_map",
+      "entire_fields": 20,
+      "mean_dispersion": "0",
+      "mean_output_energy": "0"
+    }
+  ],
+  "claim": "Exact finite synthetic arithmetic only; no empirical/calibration/native/physical claim.",
+  "pointwise_control_execution": "Separate captured normal worker and genuine custody; saved algebra alone does not witness execution.",
+  "rational_route": "Independent fixed-model linear moment algebra, no expected matrix from saved report and no target imports or sign enumeration.",
+  "review_source": {
+    "bytes": 6498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/review_saved_science.py",
+    "sha256": "7afcbc25cf9a5c1bdd574096270de63248adeff477837a71d780e1fd65000daf"
+  },
+  "saved_report": {
+    "bytes": 81253,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/RESULT.json",
+    "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+  },
+  "status": "ALL_9_CASES_AND_3_BOUNDS_MATCH_IN_FULL"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "ri152-root-actual-tool-receipts-v1",
+  "command": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/GUARDS_ADMISSION.json",
+  "arguments": {
+    "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/GUARDS_ADMISSION.json",
+    "login": false,
+    "max_output_tokens": 1200,
+    "yield_time_ms": 1000
+  },
+  "initial": {
+    "chunk_id": "318cda",
+    "wall_time_seconds": 1.00360725,
+    "session_id": 56357,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "terminal_arguments": {
+    "session_id": 56357,
+    "chars": "",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 1200
+  },
+  "terminal": {
+    "chunk_id": "2afc57",
+    "wall_time_seconds": 2.085414084,
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "cwd_resolution": {
+    "argument_omitted": true,
+    "default_cwd": "/Volumes/AI_DATA/development/det_8_framework-ret"
+  },
+  "retry_count": 0
+}

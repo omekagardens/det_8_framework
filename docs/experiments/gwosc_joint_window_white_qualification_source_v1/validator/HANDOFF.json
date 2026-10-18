@@ -1,0 +1,97 @@
+{
+  "activity": {
+    "active_admission_or_runtime_created": false,
+    "actual_scientific_arithmetic": false,
+    "actual_scientific_body_decode": false,
+    "opaque_source_metadata_checks": true,
+    "plain_source_text_checks": true,
+    "repository_index_git_mutation": false,
+    "target_import_compile_ast_probe": false,
+    "target_or_fixture_execution": false
+  },
+  "authorship": {
+    "independent_validator_author": true,
+    "primary_source_nonauthor": true,
+    "prior_primary_source_reviewer": true,
+    "self_authored_nonauthor_review": false
+  },
+  "completed_source": [
+    "Independent reduced integer-pair parser/arithmetic and complete directed WHITE reconstruction.",
+    "Exact fixed W01-W15 raw canonical operand, full-row/strip/Gram linkage and complete typed result interfaces.",
+    "Independent eight-row bracket-stack framing, vector and historical acceptance linkage, full saved-WHITE field comparison.",
+    "Independent declared179 control counterparts in agreed source order, complete refusal and failure-tail envelopes.",
+    "Prospective separately admitted actual-validation interface with root-bound immutable request/candidate selection, exclusive report and independent final custody."
+  ],
+  "controls": {
+    "declared_total": 179,
+    "executed": 0,
+    "failure_tails": 3,
+    "isolated_refusals": 176,
+    "kernel": 38,
+    "order": "WK01-WK38, WC01-WC26, WG01-WG92, WC27-WC46, WT01-WT03",
+    "wrapper_and_tail": 141
+  },
+  "files": [
+    {
+      "bytes": 56593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    },
+    {
+      "bytes": 17909,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+    },
+    {
+      "bytes": 14060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+    },
+    {
+      "bytes": 3957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+    },
+    {
+      "bytes": 3762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+      "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+    },
+    {
+      "bytes": 8848,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+      "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+    },
+    {
+      "bytes": 4804,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+      "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+    }
+  ],
+  "immutable_after_handoff": true,
+  "pending": [
+    "Different nonauthor full source review and root adjudication.",
+    "Additional validator-specific actual binding/candidate/postwrite mutation source and complete caller qualification before actual validation admission.",
+    "Separate white generator/qualifier interface reconciliation and actual admitted fabricated qualification with complete primary/independent comparison.",
+    "Actual source/history/runtime custody, resource supervision and primary completion acceptance before separately authorized saved-WHITE validation.",
+    "Periodic/Q256/join/nuisance source, validators and complete32-case application qualification."
+  ],
+  "physical_claim": false,
+  "primary_predecessor": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "root_source_only_authorization": {
+    "bytes": 2174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+    "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+  },
+  "schema": "ri125-independent-white-validator-source-handoff-v1",
+  "source_acceptance_claimed": false,
+  "status": "UNEXECUTED_INDEPENDENT_WHITE_VALIDATOR_SOURCE_READY_FOR_NONAUTHOR_REVIEW"
+}

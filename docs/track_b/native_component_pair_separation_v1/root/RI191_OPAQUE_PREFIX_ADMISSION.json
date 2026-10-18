@@ -1,0 +1,38 @@
+{
+  "authority_sources": [
+    {
+      "bytes": 17102,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+    },
+    {
+      "bytes": 16243,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+    }
+  ],
+  "identity": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+    "state": [
+      16777244,
+      373218,
+      33188,
+      1,
+      2845,
+      1790219166674919262,
+      1790219166674919262
+    ],
+    "symlink_chain": []
+  },
+  "identity_matches_committed_head": "811feac875e461b5779bff2142a09d053616f2d8",
+  "not_a_magnitude_witness": true,
+  "ret_paused": true,
+  "schema": "ri191-root-bounded-opaque-prefix-admission-v1",
+  "scientific_execution": false,
+  "scope": "QR may make bounded opaque whole-file identity observations of this exact original certificate for source-only input binding, checking this accepted bytes/SHA pair and complete original path identity. Do not decode JSON, inspect coefficient values, instantiate selected tables, read other scientific files, compile/import/AST/probe/run subjects or new verifier, create fixtures/runtime/cards or alter Git. One narrowly selected opaque source is added; all prior restrictions remain.",
+  "selection_authority": "RI63 COMPLETION lines45-54 explicitly binds this original RI41 prefix by SHA256; RI41 NORMALIZATION lines218-246 declares its original complete109-root/default/override semantics. Literal source observation 4dd985 exit0.",
+  "status": "ADMIT_OPAQUE_WHOLE_IDENTITY_ONLY"
+}

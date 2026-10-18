@@ -1,0 +1,36 @@
+{
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 1393,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI178_ROOT_ADJUDICATION.json",
+    "sha256": "e36ee76395a16adf5128aa76f7da91643294f8e7220dbdc5f725f6d82ef824a2"
+  },
+  "prior_cap_proof": {
+    "bytes": 12849,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+    "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+  },
+  "prior_scale_proof": {
+    "bytes": 13744,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+    "sha256": "2cdaa5fa384f81a5b253a28f26c088ee6a3dd83e4fe7e60dde56f1a5b6aa7577"
+  },
+  "rationale": "RI178 removes the slope premise and makes the remaining formal-domain test exact. RI147 exhausted its five retained parents; RI157 proved their F terms inactive. The still-unresolved globalM6 may give a smaller actual rho. A new complete parent family addresses actual-scale containment without repeating the closed finite-layer-only contrast comparison.",
+  "requirements": [
+    "Verify the17-ideal count and every maximal-deletion numerator/denominator, including empty and whole-stem ideals and distinct cap subsets. Do not merge marked ideals or assume cap-record independence without proof. All64 marked parent records must be covered through proved symmetry/transport or explicit complete classification, with no global enumeration or new scientific extraction.",
+    "Reconcile which smaller-parent law entries the new potential needs and which accepted analytic identities apply. You may read and pin additional accepted analytic construction texts needed for these deletion formulas; do not expand into scientific bodies or operational references. Preserve full canonical corrections whenever neutral components can contribute.",
+    "Compare the complete sum with existing E0/E1 using correlated native inequalities. If a uniform improvement or actual negative-sign containment cannot be proved, give the exact new complete-row formula and a substantive proved bound plus the specific unavailable correlation/input that blocks improvement. A renamed maximum or the generic M6>=U(P,r) observation alone is insufficient.",
+    "For any proved cap Z<=R containing rho, use RI178/RI175 to test I(Z)<=0 as the sufficient full smaller-domain criterion. Keep the actual scales fixed and do not infer a value of globalM6, an attaining parent, endpoint sign, actual W/C2/C3 or H30 from the candidate alone.",
+    "No restarting RI36 or completed four-birth extension packets; this concerns an additional six-parent proper-potential bound inside the unchanged accepted law. No repetition of RI172 independent coefficient examples as actual-law counterexamples.",
+    "Source-only in this new reservation: no target/vendor/helper import, compile, AST, probe, run, scientific JSON/vector/coefficient decode, numeric engine, runtime capture, fixtures, operational cards, new agents or repository/index/Git writes. Authenticated administrative metadata checks only; existing collaborators may work in this reservation within these limits.",
+    "Seal complete manuscripts, exact provenance deltas, actual check outcomes and diagnostic history for root independent review. Retain P2/P3,Y=1/4,31/139/20/42,sharedT1,other eight parents,fiveDi and all strict endpoints. RET remains paused; measurement and RI180 supervisor review are separately owned."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9",
+  "schema": "ri181-native-analytic-assignment-v1",
+  "source": {
+    "bytes": 6870,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.json",
+    "sha256": "8053eaa6d0102e818e4a336e5c63c827015ac7f6b68b188135be80612b8813ba"
+  },
+  "task": "Derive the complete same-law proper-potential sum for the six-parent P=C2 ordinal-sum A4, retaining all marked records and all17 proper ideals, and determine whether this genuinely improves the global-M6 lower bound beyond max(E0,E1). Use any justified improvement to sharpen the actual-containing cap and the accepted single-endpoint weighted test. This is a new native-parent candidate, not a promise of an improvement."
+}

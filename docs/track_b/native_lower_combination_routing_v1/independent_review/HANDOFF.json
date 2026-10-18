@@ -1,0 +1,114 @@
+{
+  "schema": "ri228-independent-native-review-handoff-v1",
+  "status": "RECOMMEND_ACCEPT_CONDITIONAL_LOWER_COMBINATION_ROUTING_AND_BOUNDS_FULL_NATIVE_WITNESS_OPEN",
+  "reviewer": "/root/qr_opportunities",
+  "authorship_independent": true,
+  "subject_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x",
+  "subject_payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/AUTHOR_VERIFICATION.json",
+      "bytes": 45720,
+      "sha256": "53b82383c4a23afe24da52516eb58c7d4145d22f2f34336e166ac2599218ea51"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/COMPONENT_ROUTING.md",
+      "bytes": 10962,
+      "sha256": "37e9ffd24470d9462c68d8380b8b43a34210d42e2f290c369a0bf951a014c99c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.json",
+      "bytes": 22030,
+      "sha256": "729d870ad76830416c9b8aad50e0a3381150c4f9467fb1986538eb35f6fcb011"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.md",
+      "bytes": 2266,
+      "sha256": "bb0f400e993e4d122cf8e464518362aff8c162078da4053c0f7ff8a0d11456a7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/LOWER_COMBINATIONS.md",
+      "bytes": 15343,
+      "sha256": "2f35ae897762bcbaa8e9e0ac54e78658000aec6c596b0692611bdaa39092fa33"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/SOURCE_REFERENCES.json",
+      "bytes": 61082,
+      "sha256": "27d9af78ce0b2498d2677a0b1c1e3ee49b4bcdaf21f9fa512231001e5fe9bf9d"
+    }
+  ],
+  "namespace": [
+    "HANDOFF.json",
+    "METADATA_REPLAY.json",
+    "READ_RECEIPTS.json",
+    "REVIEW.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/REVIEW.md",
+      "bytes": 12069,
+      "sha256": "da5028a916312882ddd272f61689ca3fec783e682e25324f81ec36ec16e0e4d9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/METADATA_REPLAY.json",
+      "bytes": 2988,
+      "sha256": "7ed3649dd5fd01993de6657f56ae790d64840a4aedfb6d3d917126790ccd9dde"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri228-independent-native-review-7qHN0X/READ_RECEIPTS.json",
+      "bytes": 4613,
+      "sha256": "ba66bd83bb28b8b08e539882e87d23f79c0accd9957eb3a2478c30ee2ce2f381"
+    }
+  ],
+  "blocking_findings": [],
+  "accepted_scope": [
+    "Manual beta=theta alpha proof including neutral singleton marked diamond.",
+    "Complete size-four minimum-key/potential routing without resolving coordinate values.",
+    "Complete exceptional two-parent marked incidence and native objective sign.",
+    "Canonical feasibility bounds and exact lower substitutions retaining all normalized rows."
+  ],
+  "unresolved": [
+    "Newly named lambda values and canonical kappa allocations.",
+    "Full normalized lifting witness or finite signed inconsistency identity.",
+    "Improvement, optimality and maximal amplitude."
+  ],
+  "own_actual_replay": {
+    "chunk_id": "3b624d",
+    "exit_code": 0,
+    "whole_identities": 35,
+    "selected_references": 45,
+    "direct_sources": 29,
+    "direct_bytes": 757795,
+    "current_namespace": 6,
+    "predecessor_namespace": 6,
+    "boundaries": 15
+  },
+  "own_supplement": {
+    "chunk_id": "851522",
+    "exit_code": 0,
+    "scope": "Integer-preserving exact administrative boundary/admission comparison"
+  },
+  "author_final_attributed": {
+    "chunk_id": "0ec87e",
+    "exit_code": 0,
+    "origin": "Parent relayed author message; not this reviewer execution"
+  },
+  "root_replay_attributed": {
+    "chunk_id": "eb38e7",
+    "exit_code": 0,
+    "origin": "Parent report; not this reviewer execution"
+  },
+  "diagnostics": {
+    "own_failed_commands": 0,
+    "own_clipped_display_recovered": true,
+    "recovery_chunk": "322cc4",
+    "author_clipped_display_preserved": true
+  },
+  "execution_scope": "Only previously read metadata-only retained checker replay and a separate administrative comparison. No mathematical automation or scientific source execution.",
+  "scientific_body_decode": false,
+  "subject_execution": false,
+  "new_admission_issued": false,
+  "successor_assigned": false,
+  "qualification_credit": 0,
+  "writes": "Only four files in this fresh exclusive external review reservation.",
+  "root_owns_adjudication_publication_and_successor": true
+}

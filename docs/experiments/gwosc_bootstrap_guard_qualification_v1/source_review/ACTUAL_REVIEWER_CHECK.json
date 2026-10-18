@@ -1,0 +1,32 @@
+{
+  "actual_tool_chunk": "1b1cb5",
+  "author_diagnostics_preserved_as_author_evidence": {
+    "bytes": 2126,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHOR_DIAGNOSTICS.json",
+    "sha256": "aff491cfa0ca342b2d7796f7bd8d555260007efe8cdf0971e48c1156aaa82435"
+  },
+  "authority_boundary": "Actual reviewer tool observation transcribed from the conversation, not self-authenticating subject or control completion.",
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/check_metadata.py"
+  ],
+  "current_runtime_observation": false,
+  "exit_code": 0,
+  "recipes_controls_or_fixtures_evaluated": false,
+  "result": {
+    "bytes": 134963,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/OPAQUE_TEXT_CHECK.json",
+    "sha256": "120bfdeecf465558561734a81267c7ce12296d696b9e4f447923a471d976736f"
+  },
+  "reviewer_failed_attempts": [],
+  "schema": "ri144-reviewer-actual-administrative-check-v1",
+  "source": {
+    "bytes": 11698,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/check_metadata.py",
+    "sha256": "030aa9eb6fc81675c114476c29d70a52297c50f839da786c982a0f078c470cfb"
+  },
+  "subject_helper_import_compile_AST_probe_run": false,
+  "wall_time_seconds": 1.3372505829999999
+}

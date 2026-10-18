@@ -1,0 +1,186 @@
+{
+  "schema": "ri172-author-checks-v1",
+  "status": "AUTHOR_SIDE_MANUAL_PROOF_AND_ADMINISTRATIVE_RECORD_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "task": "Complete finite-layer nonimplication via all eight B components, under RI172 root assignment",
+  "manual_result": {
+    "comparison_class": "Same size<=3 prefix and size4 global ratio components; every alpha>=1/8, every full complement>=beta, every total height mass<19/40, all marked rows/ratios/locality/equivariance/labeled ideal multiplicities.",
+    "proof": "Common diagonal b*=1-max(U0,U1)-beta; original feasibility proves its coefficient floor and |U1-U0|<3L/82 proves strict height feasibility. Affine global B-component path preserves the complete declared finite layer.",
+    "numerator": "Original accepted v>0 with negative secants and d7>0 forces D_minus>0. This starting-point sensitivity premise is not asserted along the altered path.",
+    "violation": "D_minus is fixed while d(t)=td; t=min(1/2,D_minus/(426d)) gives a strict violation. The ratio is unbounded as positive t tends to0.",
+    "global_coverage": "All8 B components,16 complete marked C4 rows,32 raw equal-precursor loops; all other global coefficients and occurrences unchanged.",
+    "not_claimed": [
+      "Counterexample to the unchanged actual109-vector",
+      "Preservation of exact attained minima/maxima or an unverified coefficient lattice",
+      "Preservation of higher RI63/115–122/canonical/global-scale/H30 constraints",
+      "New numerical qualification or execution admission",
+      "Physical quantum/geometry/gravity result"
+    ]
+  },
+  "main_reads": [
+    {
+      "chunk": "886445",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete RI172 assignment and RI168 adjudication; verified new reservation initially empty"
+    },
+    {
+      "chunk": "11cc3d",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete RI168_ROOT_PROOF_REVIEW.md"
+    },
+    {
+      "chunk": "9713b5",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete RI157 CORRELATED_CONTRAST_BOUND.md; original sensitivity/sign proof"
+    },
+    {
+      "chunk": "027175",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete RI147 COMPONENT_CONTRASTS.md; original complete factorization"
+    },
+    {
+      "chunk": "ac35b1",
+      "exit_code": 0,
+      "scope": "Inspected only pinned current administrative schema/boundary fields before adapting checker"
+    },
+    {
+      "chunk": "8b8279",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete FULL_LAYER_PATH.md; independently checked endpoint/global preservation proof"
+    },
+    {
+      "chunk": "c06f02",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete DEPENDENCY_NOTES.md"
+    },
+    {
+      "chunk": "89e93f",
+      "exit_code": 0,
+      "scope": "Authenticated/read complete final NONIMPLICATION.md and HANDOFF.md"
+    }
+  ],
+  "author_team_review": {
+    "agent": "Existing ri132_audit_controls",
+    "complete_read": "a650a9 exit0; FULL_LAYER_PATH and NONIMPLICATION",
+    "checks": [
+      "Exact comparison class and strict/weak endpoints",
+      "All eight global B coordinates and complete row/diamond multiplicities",
+      "No changed non-C4 occurrence",
+      "Starting-point-only sensitivity implication",
+      "Positive t witness and arbitrary finite M corollary",
+      "Unchanged K with C(t) adjusted through full normalization",
+      "No actual-vector or higher-law counterexample promotion"
+    ],
+    "finding": "No mathematical or scope correction required",
+    "source_pin_receipts": [
+      "545599 exit0",
+      "0cfcae exit0"
+    ],
+    "independent_root_acceptance": false
+  },
+  "provenance_coauthor": {
+    "final_check": "a2e6f5 exit0",
+    "source_paths": 276,
+    "selected_bytes": 17408176,
+    "inherited_rows": 264,
+    "predecessor_namespace": 8,
+    "administrative_bodies": 98,
+    "governance_boundaries": 1,
+    "historical_references": 2741,
+    "current_references": 123,
+    "historical_state_noncomparisons": 17,
+    "byte_equal_pairs": 4,
+    "uncached_rechecks": 276,
+    "notes_pin": "082f55 exit0",
+    "notes_complete_readback": "963461 exit0"
+  },
+  "retained_diagnostics": [
+    {
+      "owner": "metadata coauthor",
+      "chunk": "bb288a",
+      "exit_code": 1,
+      "issue": "After successful authenticated assignment/decision reads, guessed ROOT_PROOF_REVIEW.md basename did not exist.",
+      "resolution": "Used exact typed RI168_ROOT_PROOF_REVIEW.md and RI168_ROOT_METADATA_CHECK.json paths from adjudication; corrected0d4540 exit0. No source mutation."
+    },
+    {
+      "owner": "path author",
+      "tool": "apply_patch",
+      "issue": "Initial add-file patch rejected before applying because one documentation line lacked a leading plus.",
+      "resolution": "Corrected patch accepted; final file fully read and pinned. No partial edit or scientific execution."
+    }
+  ],
+  "main_command_failures_or_truncated_displays_in_this_assignment": [],
+  "preseal": {
+    "chunk": "010a72",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri172-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 276,
+      "selected_bytes": 17408176,
+      "inherited": 264,
+      "administrative_full_bodies": 98,
+      "governance_only_boundaries": 1,
+      "historical_author_check_phase_opaque": true,
+      "predecessor_author_support_opaque": true,
+      "historical_typed_references": 2741,
+      "current_typed_references": 123,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        8
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 4,
+      "final_fresh_identity_rechecks": 282,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/DEPENDENCY_NOTES.md",
+          "bytes": 15289,
+          "sha256": "76cc092ba4dc7a2eeacd68182a8250b3c1ca115dcf37e9f0eade6e8b3f88ae68"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/FULL_LAYER_PATH.md",
+          "bytes": 12522,
+          "sha256": "c8ce397db88061594aa1db98d5348c99941f76105e26a4a7f3e2716578fc5087"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/HANDOFF.md",
+          "bytes": 2825,
+          "sha256": "bfadcc311fbc6451f8d4f50826d8e33889d8a1ca1e2102fa3463bb5d6a5c9185"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/NONIMPLICATION.md",
+          "bytes": 14084,
+          "sha256": "5075c9672eccb6b63a94a94c172503b8cd0642273101fb4c73cf47849943a0bd"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/SOURCE_DEPENDENCIES.json",
+          "bytes": 251680,
+          "sha256": "f717afae902b128903210a6ab9637a10dd23a5e2003f272ea302506ed3b217d4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/SOURCE_IDENTITIES.json",
+          "bytes": 52126,
+          "sha256": "1d3a4761ef0a25f52e7448377b2d212e578488ffc5a1c1ccc9a0bcf07a775925"
+        }
+      ],
+      "mathematical_formula_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    }
+  },
+  "administrative_checker": {
+    "language": "Standalone Node using built-in fs/path/crypto only",
+    "invocation": "node -e <literal_script> preseal6; after immutable handoff, node -e <literal_script> final8",
+    "source": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq',P='/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:251680,sha256:'f717afae902b128903210a6ab9637a10dd23a5e2003f272ea302506ed3b217d4'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:52126,sha256:'1d3a4761ef0a25f52e7448377b2d212e578488ffc5a1c1ccc9a0bcf07a775925'});\npin({\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/DEPENDENCY_NOTES.md\",\"bytes\":15289,\"sha256\":\"76cc092ba4dc7a2eeacd68182a8250b3c1ca115dcf37e9f0eade6e8b3f88ae68\"});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===276&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===17408176,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===264,'old264');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nneed(eq(D.governance_stopping_boundary,old.governance_stopping_boundary),'inherited boundary');\nfor(const k of ['premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations'])need(eq(S[k],oldS[k]),'inherited S '+k);\nconst prior=JSON.parse(read(P+'/HANDOFF.json').body),priorNames=fs.readdirSync(P).sort();\nneed(priorNames.length===8&&eq(priorNames,[...prior.namespace].sort())&&eq(priorNames,[...prior.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'predecessor namespace');prior.payloads.forEach(pin);\nneed(eq(D.historical_phase_record_boundary,old.historical_phase_record_boundary)&&eq(D.historical_phase_record_boundary,S.governance.RI166_phase_record_boundary),'inherited phase boundary');\nconst phase=M.get(D.historical_phase_record_boundary.path);need(phase.classification==='opaque-historical-acceptance-or-source-support'&&D.historical_phase_record_boundary.typed_reference_expansion===false,'phase routing');\nconst support=M.get(P+'/AUTHOR_CHECKS.json');need(support.classification==='opaque-historical-acceptance-or-source-support'&&D.predecessor_author_support_boundary.path===support.path&&D.predecessor_author_support_boundary.typed_reference_expansion===false&&eq(D.predecessor_author_support_boundary,S.governance.RI168_author_support_boundary),'new author support boundary');\nlet refs=0,extended=0,states=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','reference closure '+x.path);pin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;}Object.values(x).forEach(scan)}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_stopping_boundary),'governance rule');\nlet admin=0,boundary=0;\nfor(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body))}else if(r.classification==='selected-administrative-governance-boundary'){boundary++;need(r.path===governance,'exact governance boundary')}\nneed(admin===98&&boundary===1&&refs===2741&&extended===17&&states===17,'historical reference counts');\nrefs=0;scan(S);need(refs===123,'current S references');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');\nconst final=['FULL_LAYER_PATH.md','NONIMPLICATION.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['FULL_LAYER_PATH.md','NONIMPLICATION.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.complete_finite_layer_nonimplication_proved===true&&h.fixed_actual_law_counterexample_claimed===false&&h.higher_layer_preservation_claimed===false&&h.actual_109_vector_read===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');need(eq(fs.readdirSync(P).sort(),priorNames),'end predecessor namespace');\nconsole.log(JSON.stringify({schema:'ri172-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:276,selected_bytes:17408176,inherited:264,administrative_full_bodies:98,governance_only_boundaries:1,historical_author_check_phase_opaque:true,predecessor_author_support_opaque:true,historical_typed_references:2741,current_typed_references:123,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[8],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n",
+    "scientific_or_symbolic_math_evaluation": false
+  },
+  "seal_convention": "Records the actual successful six-payload preseal phase. HANDOFF.json binds those six files and these checks; final eight-file replay is performed after sealing and its receipt returned to root without mutating hashed payloads.",
+  "scientific_or_target_execution": false,
+  "scientific_json_decoding": false,
+  "actual_109_vector_read": false,
+  "new_agents_created": false,
+  "repository_index_or_git_mutation": false,
+  "ret_paused": true
+}

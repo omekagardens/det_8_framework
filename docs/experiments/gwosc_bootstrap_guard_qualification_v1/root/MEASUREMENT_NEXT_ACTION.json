@@ -1,0 +1,19 @@
+{
+  "next": "Fresh supplier/source/host preflight, exact new17field capture admission, genuine RI141 parent/PRE/POST; full independent actual baseline review",
+  "operational_admission_created": false,
+  "owner": "root coordinator",
+  "predecessor": {
+    "bytes": 3715,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI144_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "37ec9c8cfafe8136a99ab6bddc435467c059c05e402b8923c66f49f8e51a2d48"
+  },
+  "prepared_interface": {
+    "bytes": 1994,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/CAPTURE_PREPARATION.json",
+    "sha256": "6dbb878d93373687180a96ea710162941c02882bb1dda2774e72a8cdefc9a6c2"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s",
+  "schema": "ri146-root-current-capture-next-action-v1",
+  "scientific_or_profile_admission": false,
+  "status": "ACTIVE_ROOT_PREPARATION_AFTER_ACTUAL15_ACCEPTANCE"
+}

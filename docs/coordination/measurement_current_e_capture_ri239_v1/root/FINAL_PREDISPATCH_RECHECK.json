@@ -1,0 +1,17 @@
+{
+  "E_unchanged": true,
+  "capture_output_absent": true,
+  "issued_controls": {
+    "bytes": 2539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/ISSUED_CAPTURE_CONTROLS.json",
+    "sha256": "55931e912d4818081b1db3050c10341121d42a7b6442dbe60886d5514adb43ea"
+  },
+  "repository_unchanged": true,
+  "scientific_execution": false,
+  "status": "PASS_CURRENT_CONTROLS_ALL2811_IDENTITIES_AND_E",
+  "supplement": {
+    "bytes": 2295,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/BASELINE_AUTHENTICATION_SUPPLEMENT.json",
+    "sha256": "09f96983b389ae1bb0a514b12ddb98840fd83e80e0518537e498e36e61eef1a4"
+  }
+}

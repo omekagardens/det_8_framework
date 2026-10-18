@@ -1,0 +1,20 @@
+{
+  "RET_paused": true,
+  "assignment": {
+    "bytes": 4135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI254_ASSIGNMENT.md",
+    "sha256": "2a09617174682f27c53dc7b856ca516a380bf07cfaf70791bd8c0ecb748b838a"
+  },
+  "closed_RI250_literal_authority": true,
+  "new_literal_authority": false,
+  "predecessor": {
+    "bytes": 2337,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/RI252_ROOT_ADJUDICATION.json",
+    "sha256": "e95d13a2f2aec722857745a8c59bbcdbab40fcbeec5c432ae707520873dfc621"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko",
+  "schema": "ri254-complete-compensation-assignment-v1",
+  "scientific_execution": false,
+  "status": "ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

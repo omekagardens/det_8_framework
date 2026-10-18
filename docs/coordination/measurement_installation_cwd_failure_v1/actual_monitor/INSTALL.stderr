@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py", line 237, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py", line 114, in main
+    need(Path.cwd()==D and literal(OUT)==OUT and literal(W)==W,'fixed operation paths')
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py", line 24, in need
+    if not ok:raise ValueError('RI209: '+msg)
+ValueError: RI209: fixed operation paths

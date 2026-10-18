@@ -1,0 +1,235 @@
+{
+  "schema": "ri129-native-sign-caller-source-handoff-v1",
+  "status": "SOURCE_ONLY_READY_FOR_FRESH_COMPLETE_NONAUTHOR_REVIEW",
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0",
+  "prepared_local_date": "2026-09-26",
+  "sealed_local_date": "2026-09-29",
+  "timezone": "Pacific/Honolulu",
+  "interruption": "Resumed the same preserved source reservation after a usage-limit interruption; no duplicate packet or successor assignment.",
+  "owner_thread_id": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "files": [
+    {
+      "name": "AUDIT_CALLER_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "bytes": 10788,
+      "sha256": "177a73c780c99c489ac3b3fac3e1f3a974218b9fe3904ac5351827b85bf0c5b9"
+    },
+    {
+      "name": "AUDIT_CALLER_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 44763,
+      "sha256": "a286bd5bc63cab4e0ad7bd24cdea5ac83e665c1c8a89adcc64ffd836f057c7a2"
+    },
+    {
+      "name": "AUTHOR_METADATA_CHECK.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "bytes": 6386,
+      "sha256": "2fe662e72507cbd342e66663cc3a4d5a621aa5c16fd14d361df57ebc77c36cc9"
+    },
+    {
+      "name": "CALLER_CONTRACT.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "bytes": 24196,
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6"
+    },
+    {
+      "name": "DEPENDENCY_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "bytes": 6135,
+      "sha256": "f229ae82ae3ea2a79dfe85a7c3a104617d92effd08b64fdeb710a9c625557d57"
+    },
+    {
+      "name": "HANDOFF.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "bytes": 7233,
+      "sha256": "085be026fcffcddc39b9775fb9037a06a0cae89155053049cf16ea8b123ab7a0"
+    },
+    {
+      "name": "NATIVE_SOURCE_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "bytes": 14421,
+      "sha256": "d48d5fa27d7e3f33b3620137f6c4af2daa2c7fae99e0ebdf1c7bc0a9f41f1b5d"
+    },
+    {
+      "name": "SOURCE_DEPENDENCIES.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "bytes": 583262,
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+    },
+    {
+      "name": "SUPERVISE_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 31725,
+      "sha256": "8a0d2fa476b4a148c4e14536b5c5dc99d602194e14b7c6f671f34a0e3e0c3927"
+    },
+    {
+      "name": "TARGET_APPLICABILITY.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "bytes": 28109,
+      "sha256": "1bdc6d46ff6890dfa687fe03b26423607760b12aa305e6873c7a774f2077006f"
+    },
+    {
+      "name": "launch_audit.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "bytes": 103287,
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5"
+    },
+    {
+      "name": "supervise.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "bytes": 88890,
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650"
+    }
+  ],
+  "source_contract": "CALLER_CONTRACT.md",
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+    "bytes": 3230,
+    "sha256": "324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1"
+  },
+  "accepted_predecessor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+    "bytes": 1835,
+    "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf"
+  },
+  "target_sources": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "bytes": 27288,
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "bytes": 41355,
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7"
+    }
+  ],
+  "source_interface": {
+    "original_copy_pairs": 9,
+    "pinned_target_input_roles": [
+      "ri88",
+      "ri88_root",
+      "ri122_root",
+      "ri124_root",
+      "ri127_root"
+    ],
+    "certificate_sections": 14,
+    "replay_summary_fields": 9,
+    "independent_audit_report_fields": 17,
+    "auditor_protected_objects": 8,
+    "auditor_argv_has_descriptor": false,
+    "candidate_copies": 3,
+    "audit_candidate_copy_is_target_operand": false,
+    "stage_order": [
+      "witness",
+      "normal",
+      "optimized",
+      "audit"
+    ],
+    "full_read_only_preflight_before_attempt": true,
+    "in_attempt_fresh_revalidation_retained": true,
+    "current_root_admission_external_to_own_freeze": true,
+    "preflight_first_refusal_has_finally_postchecks": false,
+    "early_failure_custody": "Genuine outer refusal preserved and independently reconciled by root; no invented attempt receipt or retry permission.",
+    "dependency_entries": 299,
+    "dependency_pin": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "bytes": 583262,
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+      "symlinks": []
+    },
+    "history_runtime_preserved_at_original_paths": true,
+    "caller_declarations": {
+      "native": 52,
+      "audit": 69,
+      "executed": false
+    }
+  },
+  "target_qualification_obligations": {
+    "producer_sign_fixtures": 15,
+    "producer_internal_decision_cases": 4,
+    "producer_intended_first_refusals": 71,
+    "auditor_independently_rebuilt_sign_fixtures": 15,
+    "auditor_own_intended_first_refusals": 16,
+    "auditor_declared_producer_controls": 71,
+    "auditor_executes_producer_controls": false,
+    "old_target_qualification_transferred": false,
+    "any_current_qualification_executed": false,
+    "four_decision_cases_are_separate_saved_array": false
+  },
+  "limits": {
+    "active_child_wall_seconds": 120,
+    "sampled_owned_group_rss_bytes": 536870912,
+    "individual_scientific_body_bytes": 8388608,
+    "auxiliary_metadata_bytes": 67108864,
+    "source_counter_precision": "Guarded arithmetic and routed comparisons, not all direct equality/zero tests or interpreter work."
+  },
+  "review": {
+    "authors": [
+      "/root",
+      "/root/ri124_coefficient_scope",
+      "/root/ri122_actual_audit_bindings",
+      "/root/ri124_support_author"
+    ],
+    "resumed_bounded_author_integration": "/root/ri129_handoff_sanity",
+    "independent_complete_source_review_performed": false,
+    "metadata_dependency_mismatches": [],
+    "retained_literal_text_checks": [
+      {
+        "file": "supervise.py",
+        "label": "runtime_helpers",
+        "identical": true
+      },
+      {
+        "file": "supervise.py",
+        "label": "identity_io_snapshot",
+        "identical": true
+      },
+      {
+        "file": "supervise.py",
+        "label": "Attempt_monitor_signal_cleanup",
+        "identical": true
+      },
+      {
+        "file": "supervise.py",
+        "label": "run_and_main_except_new_preflight_call",
+        "identical": true
+      },
+      {
+        "file": "launch_audit.py",
+        "label": "Attempt_monitor_cleanup_run_main_except_new_preflight_call",
+        "identical": true
+      }
+    ],
+    "scope": "Author full-source/delta/contract integration and opaque identity checks only; no numerical or execution qualification.",
+    "known_limits": [
+      "Fresh full nonauthor source review remains required.",
+      "Actual changed-caller qualification, externally authenticated current runtime/configuration, exclusive copies and genuine stage admissions are future root obligations.",
+      "Preflight refuses at its first error without finally snapshots; root owns early-failure custody.",
+      "The six source-card identities are not a source admission already issued.",
+      "Containing-rectangle native both-positive output would require discrepancy review under accepted negative-seed reasoning."
+    ]
+  },
+  "scope": {
+    "scientific_sources_modified": false,
+    "source_or_helper_import_compile_ast_probe_run": false,
+    "scientific_body_json_decoded": false,
+    "scientific_fixture_evaluation": false,
+    "H_z_reconstruction": false,
+    "q6_q7_law_or_actual_scales_global_maxima_evaluated": false,
+    "K4_K5_or_support_change": false,
+    "active_cards_inputs_copies_descriptor_runtime_inventory_freeze_admission_attempt_created": false,
+    "repository_index_git_write": false,
+    "source_acceptance_issued": false,
+    "execution_authorized": false,
+    "actual_signs_decided": false,
+    "full_H30_feasibility": false,
+    "resource_fit_demonstrated": false,
+    "physical_claim": false,
+    "programme_complete": false,
+    "ret_paused": true,
+    "measurement_lane_untouched_and_separate": true
+  },
+  "next_boundary": "Fresh complete nonauthor review and owner adjudication of this exact sealed packet. Stop; no numerical invocation or new scientific target authorized."
+}

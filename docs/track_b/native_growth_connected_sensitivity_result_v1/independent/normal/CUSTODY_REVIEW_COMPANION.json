@@ -1,0 +1,87 @@
+{
+  "actual_checks": {
+    "accepted_witness_unchanged": true,
+    "all_candidate_whole_bytes_equal_to_witness": true,
+    "all_four_identity_maps_equal": true,
+    "all_four_namespace_maps_equal": true,
+    "closed_reference_occurrences": 3794,
+    "complete_roles": 3743,
+    "external_pre_post_observed_fields_equal": true,
+    "live_samples": 11,
+    "max_census_duration_seconds": 0.020947625002008863,
+    "max_intercensus_start_gap_seconds": 0.07518329199956497,
+    "raw_censuses": 12,
+    "raw_ps_rows": 10068,
+    "sampled_peak_rss_bytes": 62455808,
+    "unique_bytes": 175121409,
+    "unique_paths": 3725
+  },
+  "blocking_findings": [],
+  "boundaries": {
+    "exact_receipt_child_end_reconstructed": false,
+    "execution_authorized": false,
+    "native_arithmetic_recomputed": false,
+    "native_mathematics_accepted": false,
+    "native_scientific_stdout_decoded": false,
+    "outer_history": "Trusted root transcription of actual initial 6f73b4 / session 73787 and final bc77ab / exit 0; not personally witnessed original calls.",
+    "programme_complete": false,
+    "receipt_time": "The exact later receipt monotonic assignment is not independently logged; verified ordering after raw terminal event and within the unchanged 120-second deadline.",
+    "sampling": "50 ms is the requested loop sleep, not a start-to-start upper bound. RSS is sampled process-group accounting, not an OS hard cap. No measurement-lane timing threshold imported.",
+    "scientific": "Custody only; no claim that saved stdout proves mathematical results, no admission for optimized or audit.",
+    "target_or_caller_invoked_by_review": false
+  },
+  "closed_review": {
+    "bytes": 7781,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/NORMAL_INDEPENDENT_COMPLETE_REVIEW.json",
+    "sha256": "e7055b3a1ba9316e0891129d33e338cb4d010506e92452e3caeccb5d25c61f30"
+  },
+  "evidence": [
+    {
+      "bytes": 19831,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/CUSTODY_INPUT_CHECK.py",
+      "sha256": "1bc9cc585154b851388f393ed3ef52fee6a41a1e3fa00f4c40a316f7fa3112d2"
+    },
+    {
+      "bytes": 2826041,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/CUSTODY_INPUT_RESULT.json",
+      "sha256": "dbc1dee2844ebf3f5136f5c17b1c799d85322831d16e4c289a8ead4b578234a7"
+    },
+    {
+      "bytes": 14631,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/MONITOR_CHECK.py",
+      "sha256": "f7e5c852011144a673aae8c61ce88c287130ea6b7bb4dacff1920910d7ae9c58"
+    },
+    {
+      "bytes": 9237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/MONITOR_ADAPTATION.diff",
+      "sha256": "5493340a5056567a46d172bc6b3e506c089d82c1a984a05627f954e082d51a9c"
+    },
+    {
+      "bytes": 972022,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/MONITOR_RESULT.json",
+      "sha256": "c05ea5402932722ceb08ab1cda431e97a500f087c312a3da0e4de22a24c75ad0"
+    },
+    {
+      "bytes": 7183,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-normal-custody-review-weDFoUOO/MONITOR_REPORT.md",
+      "sha256": "fb06aa584e8622c0da7044ab0ed3d146155be3bd675ca52dc973eeac5004407c"
+    },
+    {
+      "bytes": 1029,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/NORMAL_GENUINE_TOOL_CHAIN.json",
+      "sha256": "e25f14e4c614e1783694c74a19ab452625595172f6333026f14535c365e6b599"
+    },
+    {
+      "bytes": 5895,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_COMPLETE_REVIEW.json",
+      "sha256": "875745954b5069251bc99f733a37c5e78d9acf365188f6ddc3cbeb8b6d92bd08"
+    }
+  ],
+  "review_coverage": {
+    "current_root_orchestration": "Actual witness root custody, normal authorization, addendum and candidate custody read; full administrative native_serial.py read without import or execution. No source/card was issued by this review.",
+    "input_checker": "Independently authored metadata checker using retained reviewed identity and external observation routines; actual exit 0 in tool e8abed. All normal-specific predecessor/order/cards and reference conditions checked.",
+    "raw_monitor": "Distinct reviewer actual checker exit 0 in tool 16a4c5. Full original witness checker was previously read; complete normal adaptation and report read in tool 888672. Normal-specific argv, outer assignment order, mode, paths and actual tool-chain fields replace witness fields; parsing and monitor semantics unchanged."
+  },
+  "schema": "ri122-independent-normal-custody-companion-v1",
+  "status": "COMPLETE_METADATA_CUSTODY_REVIEW_PASS"
+}

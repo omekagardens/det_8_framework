@@ -1,0 +1,112 @@
+{
+  "RET_paused": true,
+  "actual_data_admitted": false,
+  "authorship": {
+    "RI135": false,
+    "RI139": false,
+    "RI141": false,
+    "earlier_authorship_outside_target": [
+      "RI125 primary and qualifier",
+      "RI131 finite actual-validator guard source"
+    ]
+  },
+  "blocking_findings": [],
+  "changed_verification": {
+    "B07_variants": 6,
+    "categories": 10,
+    "executable_new_harness": false,
+    "executed": 0,
+    "expanded_expectations": 15,
+    "expected_refusals": 14,
+    "positive_expectations": 1
+  },
+  "complete_review": {
+    "bytes": 19709,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c9eb8d0f7fb4bb2312ac3c861968bbce0dfc8bcbfba028cf7bbb744afaa370d2"
+  },
+  "current_runtime_observed": false,
+  "current_runtime_qualified": false,
+  "execution_admitted": false,
+  "fixtures_or_controls_executed": false,
+  "independent_check": {
+    "bytes": 167968,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+    "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+  },
+  "next_legitimate_step": "Root source adjudication and chosen changed-guard evidence; then fresh authentic external bootstrap/source/environment/host preflight, new closed admission and genuine single current capture. No operation is admitted here.",
+  "nonblocking_scope_observations": [
+    "Captured helper load precedes supplier self-check; external pre-startup source/supplier/host authentication remains mandatory, not internally established.",
+    "Fixed historical selection is exact including filesystem state. Freshness and tool origin of the root preflight remain external requirements.",
+    "Candidate historical guard precedes walk_members, after named earlier metadata observers; no claim that it precedes every filesystem read.",
+    "B01-B10 are a prospective design, not executed controls; exact future mutation operands and observer boundaries remain to be frozen if root chooses controls.",
+    "Whole-source correspondence supports limited old-double applicability, not new source-version execution or real environment propagation.",
+    "Resource feasibility, bootstrap cache/loader and current installed runtime remain unobserved by this source review."
+  ],
+  "old_focused25": {
+    "F01": 14,
+    "F02": 11,
+    "accepted_prior_target_only": true,
+    "new_target_execution_credit": false,
+    "positive": 2,
+    "real_snapshot_coverage": false,
+    "refusal": 23
+  },
+  "physical_claim": false,
+  "read_coverage": {
+    "additions": 189,
+    "all_admin_records_checked": true,
+    "all_packet_files": 15,
+    "fault_harness_lines": 297,
+    "four_historical_namespace_sizes": [
+      12,
+      8,
+      7,
+      8
+    ],
+    "full_delta_contract_design_author_record_and_handoffs": true,
+    "historical_roles": 124,
+    "inherited": 253,
+    "opaque_bytes": 25947539,
+    "opaque_dependencies": 442,
+    "original_copy_pairs": 30,
+    "prepare_lines": 682,
+    "protocol_lines": 139,
+    "retained_operation_files": 89,
+    "runtime_lines": 410
+  },
+  "remaining_order": [
+    "actual capture and independent baseline acceptance",
+    "normal profile and acceptance",
+    "optimized profile and both-mode acceptance",
+    "separate65 nonscientific guards",
+    "separate WHITE scientific qualification and RI131/full32 work"
+  ],
+  "repo_index_git_actions": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_diagnostics": {
+    "bytes": 3428,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "5533a219d028803f0d7d66077201f96a6b732b6d7f3d054672a32d8146c3455b"
+  },
+  "root_retains_adjudication": true,
+  "schema": "ri141-independent-unexecuted-source-review-v1",
+  "scientific_body_decode": false,
+  "source_correspondence": {
+    "added_function": 1,
+    "bounds_and_65_ID_expression_identical": true,
+    "changed_existing_functions": 2,
+    "complete_diff_identical": true,
+    "four_command_sites": 4,
+    "unchanged_definition_spans": 43,
+    "whole_fault_harness_identical": true
+  },
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "status": "PASS_EXACT_UNEXECUTED_SOURCE_FOR_ROOT_ADJUDICATION",
+  "target_import_compile_AST_probe_run": false,
+  "target_syntax_validated": false
+}

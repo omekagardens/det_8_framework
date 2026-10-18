@@ -1,0 +1,61 @@
+{
+  "failed_calls": [],
+  "genuine_tool_receipt_origin": "These records transcribe the actual tool results observed by this author in this task; hashes bind saved bytes, not independent tool-origin authority.",
+  "operations": [
+    {
+      "chunk_id": "993580",
+      "exit_code": 0,
+      "kind": "complete selecting records and literal RI141 source read"
+    },
+    {
+      "chunk_id": "56866f",
+      "exit_code": 0,
+      "kind": "historical card/source/schema reads"
+    },
+    {
+      "chunk_id": "e324b8",
+      "exit_code": 0,
+      "kind": "historical source adoption/preflight and collector boundaries"
+    },
+    {
+      "chunk_id": "b5ee55",
+      "exit_code": 0,
+      "kind": "exclusive proposal subdirectory creation"
+    },
+    {
+      "chunk_id": "a8830b",
+      "exit_code": 0,
+      "kind": "write four inactive metadata proposals from authenticated selected administrative records"
+    },
+    {
+      "chunk_id": "223f9d",
+      "exit_code": 0,
+      "kind": "write protocol and correct an authoring phrase before checks/seal"
+    },
+    {
+      "chunk_id": "372799",
+      "exit_code": 0,
+      "kind": "write own administrative checker; literal cwd token read"
+    },
+    {
+      "chunk_id": "2cc0c8",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/check_proposal.py",
+      "exit_code": 0,
+      "kind": "actual own administrative check",
+      "report": {
+        "bytes": 2080694,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CHECK_RESULT.json",
+        "sha256": "d5e4cfd8fbc4d06c204c0c6531e1ac9f1fe03484723f32e2863056b35871c6f0"
+      },
+      "result": {
+        "distinct_files": 992,
+        "report_predicates": 27302,
+        "report_readback_predicate_after_saved_report": 1,
+        "status": "PASS_SOURCE_RECIPE_METADATA_ONLY"
+      }
+    }
+  ],
+  "root_source_scope": "No subject, collector, monitor, vendor, adapter, target or proposed operational command executed. Only own source/evidence metadata check executed under Homebrew Python.",
+  "schema": "ri236-author-actual-administrative-tools-v1",
+  "subject_retries": 0
+}

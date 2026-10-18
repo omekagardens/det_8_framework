@@ -1,0 +1,131 @@
+{
+  "schema": "ri252-independent-metadata-check-v1",
+  "status": "PASS",
+  "scope": "Metadata identities, stable no-follow custody, administrative JSON declarations and retained boundary equality only; no proof arithmetic or subject execution.",
+  "current_namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SIGMA_EXCHANGE.md",
+    "SIGMA_KEYS_AND_WEIGHTS.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "predecessor_namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "BINDING_GAP.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "MANUAL_CONSEQUENCE.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "direct_sources": 123,
+  "direct_bytes": 2517253,
+  "whole_identities": 129,
+  "stable_second_pass": true,
+  "inherited_direct_sources_retained": 113,
+  "preserved_boundaries": 15,
+  "inherited_manifest_by_reference": 423,
+  "boundary_sha256": "23e67914762367df15095b3b7d16a169a8dc2ebe081a7e8bea3fd0efa3094bc2",
+  "current_pins": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.json",
+      "bytes": 18040,
+      "sha256": "df2a49e18c75ad3746fd6a7c2d941cf8910232b83eca2bc5b082eeafbcd719d7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_EXCHANGE.md",
+      "bytes": 11237,
+      "sha256": "0410170844a14589f935f3c056bbbe2fe79ddf4bc9984793a62394568f706f64"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_KEYS_AND_WEIGHTS.md",
+      "bytes": 8429,
+      "sha256": "6841d372ae43d92439b0405b9db6c670c78943bb570e91c748a28c915485fce7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SOURCE_REFERENCES.json",
+      "bytes": 106101,
+      "sha256": "8402f099d5269d2dce3e1036019288845869d9712e03f67ea47f9a0c7c5db73f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/AUTHOR_VERIFICATION.json",
+      "bytes": 32092,
+      "sha256": "290d661b4f57ecbf6d134fd5fb2d4a30ff37a235716f304e006c84c1d3d7067e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.md",
+      "bytes": 1800,
+      "sha256": "ab4b112e1dee6ee2a9cef596531c10a9ae877345c8231083c823c8bdf0bd0c8d"
+    }
+  ],
+  "current_custody": {
+    "AUTHOR_VERIFICATION.json": {
+      "st_dev": 16777244,
+      "st_ino": 430042,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 32092,
+      "st_mtime_ns": 1790875298492480727,
+      "st_ctime_ns": 1790875298492480727
+    },
+    "HANDOFF.json": {
+      "st_dev": 16777244,
+      "st_ino": 430043,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 18040,
+      "st_mtime_ns": 1790875327529787968,
+      "st_ctime_ns": 1790875327529787968
+    },
+    "HANDOFF.md": {
+      "st_dev": 16777244,
+      "st_ino": 430035,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 1800,
+      "st_mtime_ns": 1790875049836777572,
+      "st_ctime_ns": 1790875049836777572
+    },
+    "SIGMA_EXCHANGE.md": {
+      "st_dev": 16777244,
+      "st_ino": 430003,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 11237,
+      "st_mtime_ns": 1790874918436726272,
+      "st_ctime_ns": 1790874918436726272
+    },
+    "SIGMA_KEYS_AND_WEIGHTS.md": {
+      "st_dev": 16777244,
+      "st_ino": 430034,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 8429,
+      "st_mtime_ns": 1790875120100552832,
+      "st_ctime_ns": 1790875120100552832
+    },
+    "SOURCE_REFERENCES.json": {
+      "st_dev": 16777244,
+      "st_ino": 430041,
+      "st_mode": 33188,
+      "st_nlink": 1,
+      "st_size": 106101,
+      "st_mtime_ns": 1790875167420976603,
+      "st_ctime_ns": 1790875167420976603
+    }
+  },
+  "RI250_literal_authority_closed": true,
+  "original_scientific_body_read": false,
+  "original_scientific_body_hash": false,
+  "scientific_JSON_decoded": false,
+  "scientific_arithmetic": false,
+  "subject_execution": false,
+  "author_checker_replayed": false,
+  "repository_or_git_changes": false,
+  "author_diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 1,
+    "rejected_patches": 0,
+    "clipped_displays": 0
+  }
+}

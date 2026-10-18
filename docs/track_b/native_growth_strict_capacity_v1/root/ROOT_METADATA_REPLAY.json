@@ -1,0 +1,73 @@
+{
+  "administrative_predicates": 6944,
+  "all_report_fields_equal_except_schema": true,
+  "checker_not_mathematical_proof": true,
+  "counts": {
+    "added": 22,
+    "administrative_bodies": 65,
+    "author_namespace": 10,
+    "author_payloads": 9,
+    "current_typed_refs": 79,
+    "dependencies": 193,
+    "dependency_bytes": 5432055,
+    "fresh_identity_rechecks": 204,
+    "historical_extended_identity_occurrences": 17,
+    "historical_typed_refs": 1294,
+    "inherited": 171,
+    "literal_manuscript_references": 6,
+    "reviewer_predicates": 6944,
+    "source_pairs": 4
+  },
+  "fresh_whole_identity_rechecks": 204,
+  "full_diagnostics_external_only": true,
+  "independent_actual_tools": [
+    {
+      "chunk": "bf2a4f",
+      "exit_code": 0,
+      "role": "administrative check"
+    },
+    {
+      "chunk": "235f50",
+      "exit_code": 0,
+      "role": "seal check"
+    }
+  ],
+  "independent_checker": {
+    "bytes": 10998,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+    "sha256": "c506b2dae3291e1535ea71fba2b15e0891a9e30ba0d3b64336bc0c92c1d7135a"
+  },
+  "independent_full_diagnostic": {
+    "bytes": 1980257,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+    "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea"
+  },
+  "review": {
+    "bytes": 5091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/HANDOFF.json",
+    "sha256": "3d312d6fdec735e52e3b7027314a4196cb4aa2ec648337f7381487b2f64a957a"
+  },
+  "review_preseal_identities_rechecked": 8,
+  "root_actual_tool": {
+    "chunk": "9f7a8b",
+    "exit_code": 0
+  },
+  "root_checker": {
+    "bytes": 11039,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/check_native.py",
+    "sha256": "323fe6335562446e0379b1f384e792f50eb909e6179a5508be6b063afd8344cc"
+  },
+  "root_full_diagnostic": {
+    "bytes": 1980268,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/METADATA_CHECK.json",
+    "sha256": "520541febdcce3cb9999b5fb8843f91d3538046e9f89e19bfda8640892c76372"
+  },
+  "schema": "ri155-root-metadata-replay-summary-v1",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "status": "PASS_ADMINISTRATIVE_ONLY"
+}

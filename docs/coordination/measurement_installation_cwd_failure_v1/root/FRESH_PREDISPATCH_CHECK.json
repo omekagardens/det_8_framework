@@ -1,0 +1,43 @@
+{
+  "E_directories": 9,
+  "E_files": 48,
+  "absences": 2,
+  "fresh_genuine_host": {
+    "bytes": 1562,
+    "path": "/private/tmp/ri221_host_predispatch.json",
+    "sha256": "ca0ca214d8eecf232865c6dc16a1ec959b57936a59b3ef9b684e0abdbac97ea3"
+  },
+  "genuine_preparation_origin": [
+    "7f1c8b",
+    "633d20"
+  ],
+  "independent_preparation_review": {
+    "bytes": 2672,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/HANDOFF.json",
+    "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+  },
+  "namespace": 195,
+  "preflight": {
+    "bytes": 2004,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_PREFLIGHT.json",
+    "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+  },
+  "proposal": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+    "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+  },
+  "root_bootstrap_literal_read": "8be259",
+  "schema": "ri221-fresh-predispatch-check-v1",
+  "source_and_monitor_execution": false,
+  "sources": 857,
+  "startup_premises": [
+    "Exact selected direct isolated vendor and whole unchanged monitor as independently reviewed.",
+    "Stable host, Apple loader/cache and source/pyc applicability remain explicit external premises; sampled sole-child RSS is not continuous process-group accounting."
+  ],
+  "status": "PASS_BEFORE_ONE_ADMISSION",
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810,
+  "whole_identity_state_and_membership_checked": true
+}

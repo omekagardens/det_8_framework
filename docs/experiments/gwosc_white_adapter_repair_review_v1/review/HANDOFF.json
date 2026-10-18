@@ -1,0 +1,158 @@
+{
+  "RET_remains_paused": true,
+  "actual_administrative_run": {
+    "counts": {
+      "additional": 18,
+      "controls_defined": 55,
+      "controls_executed": 0,
+      "copies": 48,
+      "dependencies": 481,
+      "fresh_identity_rechecks": 508,
+      "helpers": 11,
+      "history": 124,
+      "inherited": 463,
+      "new_modules": 6,
+      "predicates": 4621,
+      "retained_modules": 5,
+      "stage_roles": 17,
+      "subject_namespace": 26,
+      "subject_payloads": 25,
+      "target_pairs": 30
+    },
+    "exit_code": 0,
+    "tool_chunk": "dd4ebc"
+  },
+  "actual_monitor_runtime_source_qualification": false,
+  "all_eleven_modules_read_completely": true,
+  "assignment": {
+    "bytes": 2104,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "41eb1a8d6e870d4b934569c194cc9c0be964a2cbbd41e3db94e837e899072782"
+  },
+  "compact_public_review_subset": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "CHECK_V2.stderr",
+    "CHECK_V2.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "seal_review.py"
+  ],
+  "controls_defined": 55,
+  "controls_executed": 0,
+  "decision": "REQUIRE_F01_F02_CUSTODY_REPAIRS_BEFORE_QUALIFICATION_ADMISSION",
+  "external_diagnostic_policy": "Both complete predicate/identity reports remain immutable and exactly pinned in this seal; compact publication may use their exact external references instead of duplicating repeated full identity dumps.",
+  "external_only_diagnostics": [
+    "METADATA_CHECK.json",
+    "METADATA_CHECK_V2.json"
+  ],
+  "findings": [
+    "F01 authenticated source baseline drift window",
+    "F02 final owned-output and saved-mode-root observations not reconciled to verified identities"
+  ],
+  "namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "CHECK_V2.stderr",
+    "CHECK_V2.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "METADATA_CHECK_V2.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "seal_review.py"
+  ],
+  "new_modules_independently_reviewed": 6,
+  "payloads": [
+    {
+      "bytes": 7249,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/ACTUAL_CHECKS.json",
+      "sha256": "13a9ad05062860a968344b20583b00a241239428111a69b25d8e2db51e74b781"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK.stdout",
+      "sha256": "03129659ce0f93c1a084d8a6c77e9f453104bef36f7652b0e1709927771b4deb"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/CHECK_V2.stdout",
+      "sha256": "ade6fe97e12f8bbd370afae68e00fc353027073f4bb4737b93c7cf66adf333fd"
+    },
+    {
+      "bytes": 7782,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/FINAL_PIN_CHECK.json",
+      "sha256": "03cbb56c81d608ed95f1bee7ed0e690ae25ee3be93c824a2e4239bfd226ed360"
+    },
+    {
+      "bytes": 26127,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "3f979b156c4d07f8dbd658637dd916c1a6ff8084612609c46a6d6937a92c6e8a"
+    },
+    {
+      "bytes": 1013454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/METADATA_CHECK.json",
+      "sha256": "d7711dc205c5a0ca57cc0c16ced34d586cd7ca645ed2754224fc6af6bbed7c93"
+    },
+    {
+      "bytes": 1013367,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/METADATA_CHECK_V2.json",
+      "sha256": "ed73966fe2152c3a8ff8ad993955056a71d81a768333297f039eb66af363d0a7"
+    },
+    {
+      "bytes": 6378,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/VERDICT.json",
+      "sha256": "4b0a51b3cab7962c8ffc8847143a3957b4f6c89381b976cabed61a6309c958cc"
+    },
+    {
+      "bytes": 11370,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata.py",
+      "sha256": "d79ff7dc918b1f4a1aec460e540218e2717a396c57faae92a45c9942d0d09b42"
+    },
+    {
+      "bytes": 11250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/check_metadata_v2.py",
+      "sha256": "ef9eb610f31a49b596075a1707e021766d6b5da7d520662e5d1fc74737fcc767"
+    },
+    {
+      "bytes": 4972,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/seal_review.py",
+      "sha256": "fe4eff3bd2e8ddfa5c1a36f2e9426f621c891afee8c5f4316e6ceb45205d34c8"
+    }
+  ],
+  "prior_authorship_disclosed": true,
+  "retained_diagnostics": "One failed filename read, original superseded administrative checker and outputs, both author failed-read records; see ACTUAL_CHECKS.json. No subject/control execution.",
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_claimed": false,
+  "root_owns_adjudication_execution_Git": true,
+  "schema": "ri156-independent-adapter-review-handoff-v1",
+  "scientific_arithmetic_or_physical_acceptance": false,
+  "status": "SEALED_COMPLETE_NONAUTHOR_NEW_SOURCE_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject": {
+    "bytes": 11804,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/HANDOFF.json",
+    "sha256": "4414cf5440061b1a2bf143b74a81315e31bb9213da46e76d508c4106d757d4c3"
+  },
+  "successor_assigned": false,
+  "terminal_completion_not_self_authenticated": true,
+  "unchanged_retained_modules_inherited": 5
+}

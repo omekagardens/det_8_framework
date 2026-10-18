@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py", line 147, in <module>
+    prehost=load(R/'GENUINE_PRE_HOST.json');posthost=load(R/'GENUINE_POST_HOST.json',{'path':str(R/'GENUINE_POST_HOST.json'),'bytes':1506,'sha256':'712cb72dbe3c27ec41ffe48ce7bf6c102714eb7a12e38e6e8736c84380aeb585'})
+                                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py", line 68, in load
+    need(canon(v)==b,'canonical administrative JSON '+str(p));loaded[str(p)]=v;return v
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/ri249-independent-premode-review-bx4wv_fu/check_saved.py", line 14, in need
+    if not v:raise ValueError(label)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: canonical administrative JSON /Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_POST_HOST.json

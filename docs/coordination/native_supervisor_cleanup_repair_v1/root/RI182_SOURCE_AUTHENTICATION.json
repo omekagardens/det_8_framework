@@ -1,0 +1,484 @@
+{
+  "identities": [
+    {
+      "bytes": 76651,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_CHECK.json",
+      "sha256": "b1d70ae487afb2a22a714e37b25e13d8c472389021e4fb1b3a538dbb01199e17",
+      "state": [
+        16777244,
+        419937,
+        33188,
+        1,
+        76651,
+        1790808843706283314,
+        1790808843706283314
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3106,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_TOOL_RECORDS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ADMIN_TOOL_RECORDS.json",
+      "sha256": "267082803aaec6ba60eccdc816d698405ded46d5f27e2e8b980725efa2be73ff",
+      "state": [
+        16777244,
+        419943,
+        33188,
+        1,
+        3106,
+        1790808928388319904,
+        1790808928388319904
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 27954,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHENTICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHENTICATION.json",
+      "sha256": "abf863ca0c48abc1f07dd88ddfbf06c9cc8ef502cb0c078eb25ac03f2b175e5f",
+      "state": [
+        16777244,
+        419534,
+        33188,
+        1,
+        27954,
+        1790808514793662389,
+        1790808514793662389
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1799,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHOR_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/AUTHOR_RECORD.md",
+      "sha256": "44cb10b9dad77e94f15cde3b9c5ddec5e4017f90db0b4f7432724692e93dbf81",
+      "state": [
+        16777244,
+        419924,
+        33188,
+        1,
+        1799,
+        1790808764420939406,
+        1790808764420939406
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 65870,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595",
+      "state": [
+        16777244,
+        419532,
+        33188,
+        1,
+        65870,
+        1790808514792957091,
+        1790808514792957091
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23202,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_OBLIGATIONS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_OBLIGATIONS.json",
+      "sha256": "01f23aca8dfcf4ee1d3dc76ab4b82ff971e814608350054f9f88de85af70e701",
+      "state": [
+        16777244,
+        419533,
+        33188,
+        1,
+        23202,
+        1790808514793263969,
+        1790808514793263969
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 28111,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/DEPENDENCY_BINDINGS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/DEPENDENCY_BINDINGS.json",
+      "sha256": "0f0cbefc5f3a2cfa3ea0f55686e2499c97c3935cd6533034fd3d670db2533b23",
+      "state": [
+        16777244,
+        419936,
+        33188,
+        1,
+        28111,
+        1790808843705878310,
+        1790808843705878310
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 29396,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/FINAL_IDENTITY_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/FINAL_IDENTITY_CHECK.json",
+      "sha256": "ca206ae4257bd55bca571bc9d59bdc55fbaab49669604b7ca4bc1fb0e4ee2212",
+      "state": [
+        16777244,
+        419944,
+        33188,
+        1,
+        29396,
+        1790808928393947247,
+        1790808928393947247
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3541,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/INVOCATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/INVOCATION.md",
+      "sha256": "8eebb1e7fd583e12ec865e012656124c7aafda926141fa844a226801b52949dd",
+      "state": [
+        16777244,
+        419857,
+        33188,
+        1,
+        3541,
+        1790808676040998763,
+        1790808676040998763
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ORACLE_REJECTION_PLAN.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/ORACLE_REJECTION_PLAN.md",
+      "sha256": "0d1f2257d93df523a9e0337b8733800004739e38c524831597f7e7aefbd89c72",
+      "state": [
+        16777244,
+        419856,
+        33188,
+        1,
+        11478,
+        1790808676040742594,
+        1790808676040742594
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 28701,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/PUBLICATION_SUBSET.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/PUBLICATION_SUBSET.json",
+      "sha256": "d584e16d1235b1f79ea5d1589865fc9b269685407a05bbc294bfa590077d1463",
+      "state": [
+        16777244,
+        419945,
+        33188,
+        1,
+        28701,
+        1790808928394301375,
+        1790808928394301375
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REPAIR_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REPAIR_CONTRACT.md",
+      "sha256": "a7006eb9ce0bd8d2ba4062cab9381923761e448717f6113eb4d9e0dc36543e6a",
+      "state": [
+        16777244,
+        419923,
+        33188,
+        1,
+        6693,
+        1790808764418443509,
+        1790808764418443509
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2137,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REVIEW_RESPONSE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/REVIEW_RESPONSE.md",
+      "sha256": "97c9bdb404317c32dc38256c615ec8cb9b19b0440bf2f5b22696b6479da02415",
+      "state": [
+        16777244,
+        419858,
+        33188,
+        1,
+        2137,
+        1790808676041515768,
+        1790808676041515768
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SCHEMAS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SCHEMAS.md",
+      "sha256": "6993c60db904b9f70c2a6386f3d394abe64e9ba89bf5067d0addf17935b9c7d8",
+      "state": [
+        16777244,
+        419925,
+        33188,
+        1,
+        3467,
+        1790808764423915975,
+        1790808764424026851
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_CORRESPONDENCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_CORRESPONDENCE.json",
+      "sha256": "8c9fd516cd47e5116b63aeb7b8162f308561f21d475140c4e18ebc501d51e874",
+      "state": [
+        16777244,
+        419934,
+        33188,
+        1,
+        9603,
+        1790808843701701814,
+        1790808843701701814
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7363,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_DIFF.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_DIFF.patch",
+      "sha256": "84803cd6b7720bdae0c5e67acc838f60d6fb21c732ac0f73ceb1526b74cb5c1e",
+      "state": [
+        16777244,
+        419933,
+        33188,
+        1,
+        7363,
+        1790808843700440344,
+        1790808843700440344
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1891,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_PINS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SOURCE_PINS.json",
+      "sha256": "e085e9d886463cb5c0472c6750e9445b921b52a3196980ccc1f577805c676d56",
+      "state": [
+        16777244,
+        419935,
+        33188,
+        1,
+        1891,
+        1790808843705228012,
+        1790808843705228012
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2161,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/authenticate.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/authenticate.mjs",
+      "sha256": "93ee28340c7dd01a89296ca55d943a30ccc5c7cdb82dbd6938ff56a82477c7a4",
+      "state": [
+        16777244,
+        419526,
+        33188,
+        1,
+        2161,
+        1790808514720704230,
+        1790808514720704230
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26370,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413",
+      "state": [
+        16777244,
+        419529,
+        33188,
+        1,
+        26370,
+        1790808514792424794,
+        1790808514792424794
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7671,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_admin.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_admin.mjs",
+      "sha256": "1911792a237625b7d49fb3d401a20879f457bd0f944514b956442fcb3750eaa6",
+      "state": [
+        16777244,
+        419932,
+        33188,
+        1,
+        7671,
+        1790808843602170957,
+        1790808843602170957
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 73541,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+      "sha256": "953fa2119f962d19eb981d15a1246962d3c7ec511a3273b82c9f931b408d61ff",
+      "state": [
+        16777244,
+        419531,
+        33188,
+        1,
+        73541,
+        1790808583422737287,
+        1790808583422737287
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5168,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149",
+      "state": [
+        16777244,
+        419530,
+        33188,
+        1,
+        5168,
+        1790808514792622088,
+        1790808514792622088
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7665,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/protocol.py",
+      "sha256": "be3ac0d873d0b4b267b45716f58ffd4d1338e947684ed95f628214a1d7b22f29",
+      "state": [
+        16777244,
+        419527,
+        33188,
+        1,
+        7665,
+        1790808583422386867,
+        1790808583422386867
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6127,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8",
+      "state": [
+        16777244,
+        419528,
+        33188,
+        1,
+        6127,
+        1790808514792278293,
+        1790808514792278293
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5638,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/repair_source.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/repair_source.mjs",
+      "sha256": "a887a7303817794ae22dda89bd41061ad55c2dda9eb5e129d262681e53f48c96",
+      "state": [
+        16777244,
+        419854,
+        33188,
+        1,
+        5638,
+        1790808583360444599,
+        1790808583360444599
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6538,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/seal_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/seal_metadata.mjs",
+      "sha256": "7e1b6d7746d51310c26cd7a12a94b6351af0260faa1ca7bbd64417ad335ed28c",
+      "state": [
+        16777244,
+        419942,
+        33188,
+        1,
+        6538,
+        1790808928322729604,
+        1790808928322729604
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8974,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/write_documents.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/write_documents.mjs",
+      "sha256": "1ed133b37ac3430c033235e07362df3043d581af7b11e886a0a9775806b53098",
+      "state": [
+        16777244,
+        419855,
+        33188,
+        1,
+        8974,
+        1790808675979482374,
+        1790808675979482374
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13764,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+      "sha256": "55f33b57bb11d1633b8410c64574cebccfa17846397fb6aacc27fe4a23d6bd26",
+      "state": [
+        16777244,
+        419946,
+        33188,
+        1,
+        13764,
+        1790808928396159183,
+        1790808928396159183
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "ADMIN_TOOL_RECORDS.json",
+    "AUTHENTICATION.json",
+    "AUTHOR_RECORD.md",
+    "CASE_MANIFEST.json",
+    "CASE_OBLIGATIONS.json",
+    "DEPENDENCY_BINDINGS.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INVOCATION.md",
+    "ORACLE_REJECTION_PLAN.md",
+    "PUBLICATION_SUBSET.json",
+    "REPAIR_CONTRACT.md",
+    "REVIEW_RESPONSE.md",
+    "SCHEMAS.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "authenticate.mjs",
+    "case_worker.py",
+    "check_admin.mjs",
+    "check_saved.py",
+    "inert_payload.py",
+    "protocol.py",
+    "qualify_supervisor.py",
+    "repair_source.mjs",
+    "seal_metadata.mjs",
+    "write_documents.mjs"
+  ],
+  "scientific_decode": false,
+  "subject_execution": false
+}

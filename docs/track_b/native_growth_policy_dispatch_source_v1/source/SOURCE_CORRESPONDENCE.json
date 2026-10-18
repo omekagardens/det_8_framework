@@ -1,0 +1,237 @@
+{
+  "schema": "ri136-author-dispatcher-source-correspondence-v1",
+  "status": "LITERAL_TEXT_CORRESPONDENCE_ONLY_NOT_EXECUTED_QUALIFICATION",
+  "method": "Read full old/new UTF-8 text. Locate literal top-level def markers; hash each function through next top-level def/class/main marker. Apply all saved unified-diff hunks to full old text and require complete new-byte equality. No Python parsing/AST, import, compilation or evaluation.",
+  "old_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+    "bytes": 14025,
+    "sha256": "758c82dc6e07026e4fb5bcb4f7368b0d04a0d5203710420d26237fdd3e54b996"
+  },
+  "new_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+    "bytes": 23248,
+    "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+  },
+  "complete_delta": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_DELTA.patch",
+    "bytes": 29850,
+    "sha256": "e1daeb1355cc9e14700bef00a7747f3c73de844784a628fba06ac2733ca57bbc"
+  },
+  "whole_saved_delta_reconstructs_new_source": true,
+  "exact_stdlib_import_block_retained": true,
+  "functions": [
+    {
+      "name": "require",
+      "old": {
+        "start_line": 44,
+        "bytes": 88,
+        "sha256": "6225f970b90d2abd9a3713c4955f2a067a6b53e3022123719c6e28bae67455a7"
+      },
+      "new": {
+        "start_line": 58,
+        "bytes": 88,
+        "sha256": "6225f970b90d2abd9a3713c4955f2a067a6b53e3022123719c6e28bae67455a7"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "canonical",
+      "old": {
+        "start_line": 49,
+        "bytes": 111,
+        "sha256": "c601a3561ffb2424099768795ab21c52bdd4031c7e2295935da5a1c764e78e06"
+      },
+      "new": {
+        "start_line": 63,
+        "bytes": 111,
+        "sha256": "c601a3561ffb2424099768795ab21c52bdd4031c7e2295935da5a1c764e78e06"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "exact",
+      "old": {
+        "start_line": 53,
+        "bytes": 120,
+        "sha256": "487e38cfc48e277d50d01f0c720ad2b7d318f30bcfd4c412a5498b934372f5d9"
+      },
+      "new": {
+        "start_line": 67,
+        "bytes": 120,
+        "sha256": "487e38cfc48e277d50d01f0c720ad2b7d318f30bcfd4c412a5498b934372f5d9"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "digest_text",
+      "old": {
+        "start_line": 57,
+        "bytes": 125,
+        "sha256": "b12dc98566f895b7c6deaa701e288ef410ad96f45c148eb0d58c77142f961cd8"
+      },
+      "new": {
+        "start_line": 71,
+        "bytes": 125,
+        "sha256": "b12dc98566f895b7c6deaa701e288ef410ad96f45c148eb0d58c77142f961cd8"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "literal_path",
+      "old": null,
+      "new": {
+        "start_line": 75,
+        "bytes": 214,
+        "sha256": "b0685a62937bd7d0c016ecfe068042b872176834f19bcbf3ca4ad4df187d140c"
+      },
+      "classification": "NEW_FUNCTION"
+    },
+    {
+      "name": "validate_identity",
+      "old": null,
+      "new": {
+        "start_line": 81,
+        "bytes": 344,
+        "sha256": "80f01ddc314d002c649c48e567c24f42aa9793e0b96037d9a997019f3460a112"
+      },
+      "classification": "NEW_FUNCTION"
+    },
+    {
+      "name": "read_stable",
+      "old": {
+        "start_line": 61,
+        "bytes": 1275,
+        "sha256": "d2f8a4c612aa2be266727f25ea19672fc22eeb9eec3d95bb4121f9c0b7df8b91"
+      },
+      "new": {
+        "start_line": 88,
+        "bytes": 1275,
+        "sha256": "d2f8a4c612aa2be266727f25ea19672fc22eeb9eec3d95bb4121f9c0b7df8b91"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "read_json",
+      "old": {
+        "start_line": 89,
+        "bytes": 735,
+        "sha256": "6f00ed9638bca26e2b1281eeff0f901dedd607f27f453917007e0cdf22b66b3b"
+      },
+      "new": {
+        "start_line": 116,
+        "bytes": 732,
+        "sha256": "cdbc294c8130a0bf5f7ddce26a4cc3cb616c43a9609193e63e8a774e1ca99fe9"
+      },
+      "classification": "ADAPTED_FUNCTION"
+    },
+    {
+      "name": "register",
+      "old": null,
+      "new": {
+        "start_line": 134,
+        "bytes": 275,
+        "sha256": "3f95af93484bbca855d6d088085a790ad494177009e4ee485266ba664f3367c3"
+      },
+      "classification": "NEW_FUNCTION"
+    },
+    {
+      "name": "load_exact_module",
+      "old": {
+        "start_line": 107,
+        "bytes": 711,
+        "sha256": "3e921168b97e5139e283559d1ac981fe88e304f3f5b7e6f7cafb64643f8c3e50"
+      },
+      "new": {
+        "start_line": 142,
+        "bytes": 495,
+        "sha256": "2f3144c37e5e6c205330af2ffe329e66d02ab099d2e9aed682574436d6256da3"
+      },
+      "classification": "ADAPTED_FUNCTION"
+    },
+    {
+      "name": "postchecks",
+      "old": {
+        "start_line": 124,
+        "bytes": 511,
+        "sha256": "c24ed43f809a003892a1a467c34e6ac11fb45a043b72250d1c4fbd6740ab9c91"
+      },
+      "new": {
+        "start_line": 154,
+        "bytes": 511,
+        "sha256": "c24ed43f809a003892a1a467c34e6ac11fb45a043b72250d1c4fbd6740ab9c91"
+      },
+      "classification": "EXACT_RETAINED_TEXT"
+    },
+    {
+      "name": "interrupted",
+      "old": {
+        "start_line": 137,
+        "bytes": 105,
+        "sha256": "ed516c060ed81dac3f6f565fad8b7ac5b680e8e16dafff39e213a20a972c328d"
+      },
+      "new": {
+        "start_line": 167,
+        "bytes": 215,
+        "sha256": "ebe5b73881c243c5ff031db8b7c927ad2a7ff70ac6100635595c2a527040bba9"
+      },
+      "classification": "ADAPTED_FUNCTION"
+    },
+    {
+      "name": "validate_manifest",
+      "old": null,
+      "new": {
+        "start_line": 173,
+        "bytes": 2732,
+        "sha256": "c08c9a3af6898cbee4a875b4dff4e1d48092138c4c2061ea15b9500f9e004b8c"
+      },
+      "classification": "NEW_FUNCTION"
+    },
+    {
+      "name": "validate_observation",
+      "old": null,
+      "new": {
+        "start_line": 212,
+        "bytes": 1136,
+        "sha256": "613e86be3acad9b48e88ebb922ead8f8842b690054f53947f23745c8c56a741d"
+      },
+      "classification": "NEW_FUNCTION"
+    },
+    {
+      "name": "execute_one",
+      "old": {
+        "start_line": 141,
+        "bytes": 8087,
+        "sha256": "ff838ef36703f30d87cd833dad16d12f3e0e43b38996055341da180ad7a78d71"
+      },
+      "new": {
+        "start_line": 229,
+        "bytes": 12049,
+        "sha256": "39771b8f914264520a2fc5620750e2fb15c4095564ad790a89e0a8da2b1d1113"
+      },
+      "classification": "ADAPTED_FUNCTION"
+    },
+    {
+      "name": "main",
+      "old": {
+        "start_line": 252,
+        "bytes": 346,
+        "sha256": "97d2cceae5b4df03bbd6c72fc7f73218cd875101f19c3b06e29738798bc05085"
+      },
+      "new": {
+        "start_line": 382,
+        "bytes": 367,
+        "sha256": "3805fe8e50de5e87a19f8a66de786032aa7128aa63394984ec2dcb8ff26d6786"
+      },
+      "classification": "ADAPTED_FUNCTION"
+    }
+  ],
+  "prior_functions_removed": [],
+  "literal_manifest_pin": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+    "bytes": 23216,
+    "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+  },
+  "all_new_authentication_and_dispatch_code_requires_fresh_review": true,
+  "old_caller_or_control_source_modified": false,
+  "source_or_control_execution": false
+}

@@ -1,0 +1,93 @@
+{
+  "actual_command_outcomes": "COMMAND_OUTCOMES.json",
+  "administrative_checker": "check_admin.py",
+  "administrative_checks": "ADMIN_CHECK.json",
+  "administrative_seal_source": "seal_review.py",
+  "compact_publication_subset": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_admin.py",
+    "seal_review.py"
+  ],
+  "complete_review": "INDEPENDENT_REVIEW.md",
+  "executed_case_count": 0,
+  "external_only_diagnostics": [],
+  "final_identity_check": "FINAL_IDENTITY_CHECK.json",
+  "findings": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05"
+  ],
+  "fixtures_created": false,
+  "immutable_after_seal": true,
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_admin.py",
+    "seal_review.py"
+  ],
+  "operational_cards_created": false,
+  "payloads": [
+    {
+      "bytes": 269609,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/ADMIN_CHECK.json",
+      "sha256": "14ef68bdea792a4b5a17161c381d632d49cbbcf9d73e2807a03e887fa9281da5"
+    },
+    {
+      "bytes": 5050,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/COMMAND_OUTCOMES.json",
+      "sha256": "48e65d1059f5955ef97f3347b3ede98af06a053ada2e80d7a6b571165a2cf4a0"
+    },
+    {
+      "bytes": 25599,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/FINAL_IDENTITY_CHECK.json",
+      "sha256": "4522e8cd5e22a064674821d8094f284a282667bf42ba0121926f9e0882db6327"
+    },
+    {
+      "bytes": 18233,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/INDEPENDENT_REVIEW.md",
+      "sha256": "fa9bf391530bc9c5a184517b55d21da9c7a192ebca27e09a20eb69ef44bf6af7"
+    },
+    {
+      "bytes": 3726,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/VERDICT.json",
+      "sha256": "1e7dd70e39b8a559624b599ba1831cc177a0c01c8d4a748614efb041ea10fd03"
+    },
+    {
+      "bytes": 7548,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/check_admin.py",
+      "sha256": "95ff2ccef7148a74a15be8e54a02b229907d49bb055053d1a58cf5ad7e4b15e2"
+    },
+    {
+      "bytes": 10488,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/seal_review.py",
+      "sha256": "d6270034abb2abfc9f74b3d02a919a3a40030060da94e6ce7b30f92e5e6ff87b"
+    }
+  ],
+  "repository_or_git_mutated": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu",
+  "ret_paused": true,
+  "root_owns_adjudication_repairs_admission_publication": true,
+  "runtime_observed": false,
+  "schema": "ri171-independent-source-review-handoff-v1",
+  "scientific_body_decoded": false,
+  "source_only": true,
+  "structured_verdict": "VERDICT.json",
+  "subject": {
+    "bytes": 14569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+    "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078"
+  },
+  "target_import_compile_AST_probe_execution": false,
+  "verdict": "REQUIRE_SOURCE_REPAIRS_BEFORE_QUALIFICATION_ADMISSION"
+}

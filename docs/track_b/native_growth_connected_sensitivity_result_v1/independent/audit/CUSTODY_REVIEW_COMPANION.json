@@ -1,0 +1,100 @@
+{
+  "actual_checks": {
+    "all_candidate_whole_bytes_equal_to_witness": true,
+    "all_four_identity_maps_equal": true,
+    "all_four_namespace_maps_equal": true,
+    "all_three_accepted_producers_unchanged": true,
+    "audit_report_bytes": 257875,
+    "audit_report_equals_stdout_in_all_bytes": true,
+    "closed_reference_occurrences": 3930,
+    "complete_roles": 3774,
+    "descriptor_exact_reconstruction": true,
+    "descriptor_payloads": 18,
+    "event_count": 5,
+    "external_pre_post_observed_fields_equal": true,
+    "live_samples": 2,
+    "max_census_duration_seconds": 0.0204006659987499,
+    "max_intercensus_start_gap_seconds": 0.0760312909987988,
+    "normal_optimized_summary_whole_bytes_equal": true,
+    "raw_censuses": 3,
+    "raw_ps_rows": 2498,
+    "sampled_peak_rss_bytes": 36061184,
+    "total_descriptor_domain_distinct_physical_objects": 19,
+    "unique_bytes": 196534125,
+    "unique_paths": 3755
+  },
+  "blocking_findings": [],
+  "boundaries": {
+    "exact_receipt_child_end_reconstructed": false,
+    "execution_authorized": false,
+    "native_arithmetic_recomputed": false,
+    "native_mathematics_accepted": false,
+    "outer_history": "Trusted root transcription of actual initial c8aa72 / session 24037 and final 402c12 / exit 0; not personally witnessed original calls.",
+    "programme_complete": false,
+    "receipt_time": "Raw final terminal 0.17174591600269196 s; later receipt 0.17192962500121212 s is a separate unlogged monotonic assignment, checked only for source-consistent ordering/deadline.",
+    "sampling": "50 ms is the requested live-loop sleep, not a start-to-start ceiling. RSS is sampled owned-group accounting, not an OS hard cap.",
+    "scientific": "Custody and opaque equality only. Root complete saved-arithmetic comparison was not decoded or adjudicated by this reviewer. No mathematical/physical acceptance, transferred changed-target qualification or qualification of unexecuted caller control declarations.",
+    "scientific_report_or_stdout_decoded": false,
+    "target_or_caller_invoked_by_review": false
+  },
+  "closed_review": {
+    "bytes": 8805,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/AUDIT_INDEPENDENT_COMPLETE_REVIEW.json",
+    "sha256": "7f04786825dc71a7f8ae16c4219adcf80174571446c6a99aa44aaebbcbc2b64d"
+  },
+  "evidence": [
+    {
+      "bytes": 24896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/CUSTODY_INPUT_CHECK.py",
+      "sha256": "f4076b8b82abeb9e5a628584ced073a847e3a7c7b64308e3c8d5a0fe5619ecaa"
+    },
+    {
+      "bytes": 35224,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/INPUT_ADAPTATION.diff",
+      "sha256": "305a2ea88e3f8720e072848ef38c81906cdf430e7e255023f444184ca1791673"
+    },
+    {
+      "bytes": 2850584,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/CUSTODY_INPUT_RESULT.json",
+      "sha256": "41b56c8f12265c680102972cb63f91a41e59f409c1f127969a6893473da8a8a2"
+    },
+    {
+      "bytes": 18595,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/MONITOR_CHECK.py",
+      "sha256": "52c09150452af81ecf6902dd29f1cc04cd0592b2b068c583f09ea3a93c6f1d02"
+    },
+    {
+      "bytes": 14307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/MONITOR_ADAPTATION.diff",
+      "sha256": "7ebbc8a132e280e8b2cda48873028195371c37a6e7606292ba459e79f4c5b4c3"
+    },
+    {
+      "bytes": 264416,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/MONITOR_RESULT.json",
+      "sha256": "e351971694558d25b3b8bdc02dbb729c77fca697ee86ab0da5046f1938bae211"
+    },
+    {
+      "bytes": 5096,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-custody-review-AlPHYM1A/MONITOR_REPORT.md",
+      "sha256": "ef98eda77221a3ec587a26e7f6251d489bdb79cd347c1f5304ffe0b0408d7972"
+    },
+    {
+      "bytes": 1028,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/AUDIT_GENUINE_TOOL_CHAIN.json",
+      "sha256": "fe07d0132e73a988fc39a72703a5dc44a5e4f40f2555b25cfad70d7553f110b6"
+    },
+    {
+      "bytes": 6281,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+      "sha256": "a47c6cdf1ad772cd2a090d0b83f8ead2ac7b781f0636006d9a348c3690da446c"
+    }
+  ],
+  "review_coverage": {
+    "input_checker": "Independently authored audit-specific order, prior acceptance, descriptor/physical-identity, binding and schema checks using retained reviewed metadata functions and unchanged runtime comparison block. Actual system /usr/bin/python3 -I -B administrative run dcae15 exit 0; no prior failure. Exact difference from optimized checker preserved.",
+    "monitor": "Distinct administrative reconstruction f0bff4 exit 0. Full current adaptation and report read in 23238d against previously reviewed optimized checker. Four retained source blocks textually identical; full race-aware per-census event grammar and all limits retained.",
+    "predecessor_coverage": "Exact witness/normal/optimized prior review result pins independently authenticated, all their current protected identities and outputs freshly compared, all actual accepted root custody refs and flags checked. Existing arithmetic-free custody evidence retained without recreating scientific results.",
+    "source_applicability": "Complete launch_audit.py previously read and unchanged byte pin reaffirmed. Audit input order and preparation/freeze/descriptor/custody guard sections reread in 1b20df, 2df4a2 and 2b85b4. Actual root audit review/cards, optimized root custody and descriptor/binding fully read in b9bf04 and a177a8."
+  },
+  "schema": "ri122-independent-audit-custody-companion-v1",
+  "status": "COMPLETE_METADATA_CUSTODY_REVIEW_PASS"
+}

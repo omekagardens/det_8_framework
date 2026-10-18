@@ -1,0 +1,32 @@
+{
+  "outcomes": [
+    {
+      "exit_code": 0,
+      "scope": "RI181 independent metadata replay, 345 final identities",
+      "tool": "64195f"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI184 seal authentication and fresh 139 original identities, all seven stat fields match",
+      "tool": "a5e48f"
+    },
+    {
+      "exit_code": 0,
+      "scope": "genuine capture preflight and admission",
+      "tool": "372306"
+    },
+    {
+      "exit_code": 0,
+      "scope": "post capture source/E/vendor observation exact equality",
+      "tool": "88d4ba"
+    },
+    {
+      "exit_code": 0,
+      "scope": "saved actual capture check, full runtime identities and monitor arithmetic",
+      "tool": "cfc8e2"
+    }
+  ],
+  "ret_paused": true,
+  "schema": "ri183-root-actual-checks-v1",
+  "scope": "Tool outcomes retained from current coordinator transcript; not scientific execution. Raw genuine capture outcomes are separately retained."
+}

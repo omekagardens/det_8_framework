@@ -1,0 +1,42 @@
+{
+  "initial_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+    "login": false,
+    "max_output_tokens": 4000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+    "yield_time_ms": 1000
+  },
+  "initial_result": {
+    "chunk_id": "8081b8",
+    "original_token_count": 0,
+    "output": "",
+    "session_id": 81601,
+    "wall_time_seconds": 1.001650041
+  },
+  "intermediate_calls": [],
+  "schema": "ri224-genuine-refused-installation-transcript-v1",
+  "status": "ACTUAL_FAILED_INSTALLATION_RETAIN_ALL_PARTIALS",
+  "success": false,
+  "terminal_arguments": {
+    "chars": "",
+    "max_output_tokens": 4000,
+    "session_id": 81601,
+    "yield_time_ms": 1000
+  },
+  "terminal_result": {
+    "chunk_id": "17185d",
+    "exit_code": 1,
+    "original_token_count": 270,
+    "output": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py\", line 18, in <module>\n    module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor'), 'INSTALL', 180, expected_environment)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py\", line 403, in child_run\n    need(record['passed'], 'bounded child refused: '+label)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py\", line 44, in need\n    raise ValueError(message)\nValueError: bounded child refused: INSTALL\n",
+    "wall_time_seconds": 1.95e-05
+  },
+  "transport_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+    "justification": "Perform the single separately admitted administrative installation: copy the accepted 26,214-byte freeze candidate into the exact E/AUTHORIZED_FREEZE.json path under the unchanged reviewed monitor and limits. No scientific mode or retries.",
+    "login": false,
+    "max_output_tokens": 4000,
+    "sandbox_permissions": "require_escalated",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+    "yield_time_ms": 1000
+  }
+}

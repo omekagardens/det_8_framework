@@ -1,0 +1,11 @@
+{
+  "action": "adapters",
+  "admission": {
+    "bytes": 2114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADMIT_ADAPTERS.json",
+    "sha256": "ac86cac1f9973266d84b2a1ad1b9a34e9655d897153dc264d6b0805f437389cd"
+  },
+  "no_retry": true,
+  "schema": "ri156-exclusive-metadata-attempt-v1",
+  "scientific_execution": false
+}

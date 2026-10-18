@@ -1,0 +1,141 @@
+{
+  "schema": "ri235-native-cross-root-d2-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_AUTHOR_RESULT_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "coordinator_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI235_NATIVE_ASSIGNMENT.json",
+    "bytes": 3624,
+    "sha256": "1811c64ddd857f65ccc94b75307c8c90998f87fc3b2813a0b57993640fd10c1c"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI233_ROOT_ADJUDICATION.json",
+    "bytes": 2441,
+    "sha256": "60850b7a7669585910c7f0a8231ea771f7d3abb4fec88e2de25f0ad94c011424"
+  },
+  "independent_predecessor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/HANDOFF.json",
+    "bytes": 8092,
+    "sha256": "698cec591f4570f3499355f501dbe961e53d26c2c51b0008053ddbbd60b9f7f7"
+  },
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/AUTHOR_VERIFICATION.json",
+      "bytes": 43784,
+      "sha256": "fce4caa6e4f2d36887fd3d254886ad1bfebd458d3df44f10f2db38fa4c09841c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/CONNECTED_CONTRASTS.md",
+      "bytes": 11022,
+      "sha256": "7e15a61e94d7d224a688987dfdc064098bda58e4861e2a34d24e75e433eb79ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/D2_OBSTRUCTION.md",
+      "bytes": 10510,
+      "sha256": "2af67ff423a5526e21beef2a66a6a02c8be6414df2afdc2d1afd315759d793f9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/HANDOFF.md",
+      "bytes": 1807,
+      "sha256": "2a411e983a45df95ba1483e5a56d60d894e5b94a2f1827b1ab9fb57fd0cd88c4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri235-native-cross-root-d2-3vvw5uow/SOURCE_REFERENCES.json",
+      "bytes": 79006,
+      "sha256": "9ba1af9217d7be73d598cd9fdce8e639b3819d708cc1e3a7e87d995c2b0bf97e"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "CONNECTED_CONTRASTS.md",
+    "D2_OBSTRUCTION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "new_actual_law_results": [
+    "Actual C5 canonical bounds N0<1/200,N1<1/800 from admitted prefix floor and canonical formula.",
+    "Complete T4-T7 ideal-sum formulas with full root transport.",
+    "Strict actual Delta f5> s*rho*theta*3/4000 and Delta f6> s*rho*(1-rho)*theta/1600.",
+    "Delta f4=0 requires positive d; Delta f7=0 requires negative d; their zero branches cannot coexist.",
+    "Allocation-free D2 weighted b-squared contrast is strictly below -1/12000.",
+    "Exact remaining actual canonical offset and three D2 branches preserve the full system."
+  ],
+  "mathematical_status": "Conditional on the unchanged accepted finite-law premises; author proof only, pending fresh nonauthor review. Two connected strict signs and an allocation-free D2 strict sign are proved; the full normalized problem is not decided.",
+  "exact_remaining_gap": [
+    "Actual d versus the disjoint d4/d7 zero conditions.",
+    "Actual full D2 canonical offset comparison; no sign of C_b is asserted.",
+    "Full ten-coordinate normalized witness or finite signed inconsistency at actual coefficients.",
+    "Improvement,optimality and maximal amplitude."
+  ],
+  "full_normalized_witness": false,
+  "actual_signed_inconsistency": false,
+  "actual_rank_claim": false,
+  "canonical_kappa_values_resolved": false,
+  "relaxed_allocation_countermodel": false,
+  "improvement_or_optimality_claim": false,
+  "maximal_amplitude_claim": false,
+  "all_ten_original_coordinates_retained": true,
+  "all_five_disconnected_equations_retained": true,
+  "all_eight_connected_equations_retained": true,
+  "complete_reference_recovery_retained": true,
+  "all_zero_contrast_branches_retained": true,
+  "actual_canonical_terms_retained": true,
+  "j9_j10_not_blanket_prerequisites": true,
+  "original_strict_endpoints_retained": true,
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_read": false,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "original_RI41_exception_renewed": false,
+    "new_amplitude": false,
+    "H_or_z_reconstructed": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "successor_assigned": false,
+    "qualification_credit": 0
+  },
+  "qualification_credit": 0,
+  "successor_assigned": false,
+  "RET_paused": true,
+  "root_owns_independent_review_publication_and_successor": true,
+  "diagnostics": {
+    "failed_shell_commands": 1,
+    "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 2,
+    "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+    "predecessor_diagnostics_preserved": true
+  },
+  "actual_checks_so_far": [
+    {
+      "kind": "metadata-only preseal",
+      "chunk_id": "dffdb9",
+      "exit_code": 0,
+      "direct_sources": 51,
+      "direct_bytes": 1127159,
+      "whole_identities": 55,
+      "preserved_boundaries": 15
+    }
+  ],
+  "complete_author_proof_reads": [
+    {
+      "chunk_id": "10bd38",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "622370",
+      "exit_code": 0
+    }
+  ],
+  "finalization": "Final six-file metadata pass must be a genuine tool call after this file is saved. Final HANDOFF hash and the pass receipt are reported externally to avoid a self-reference. No final success is predicted here.",
+  "stopping_rule": "Seal this bounded packet and return for independent coordinator review. Root owns publication and successor selection; no self-assigned next obligation."
+}
+

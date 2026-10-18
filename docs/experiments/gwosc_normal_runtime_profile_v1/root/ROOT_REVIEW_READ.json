@@ -1,0 +1,28 @@
+{
+  "actual_root_checks": {
+    "exit_code": 0,
+    "initial": "9a9938",
+    "session": 3969,
+    "terminal": "5255a6"
+  },
+  "narrative": {
+    "bytes": 20917,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/INDEPENDENT_NORMAL_REVIEW.md",
+    "sha256": "be45bdee554c6b585cda2d7a267d3b11c6f1b2df1962701d846b2d10cf98f322"
+  },
+  "profile_semantics": {
+    "decimal_fallback_observed": true,
+    "descriptor_fields": 213,
+    "modules": 71,
+    "normal_flags": true,
+    "ordered_dyld_attempts": 10
+  },
+  "remaining": [
+    "Independent reviewer seal and root final adjudication pending",
+    "Later optimized descriptors may differ; only prescribed profile relation/ordereddyld/hashnames equality applies",
+    "No scientific or actual-data credit"
+  ],
+  "ret_paused": true,
+  "root_scope": "Read complete independent narrative before seal. Root independently checked every source/baseline state and runtime file/selection, byte equality of complete snapshots to baseline, all121 monitor samples/reaps, full output tree and real tool provenance. Root also read all nonmodule normal-profile fields and full10-route error; independent reviewer reconstructs all213 descriptor fields and whole CHECKS from complete saved metadata. No claim that root independently repeated the entire1490-line source review.",
+  "schema": "ri148-root-actual-review-reading-v1"
+}

@@ -1,0 +1,252 @@
+{
+  "schema": "ri157-author-checks-v1",
+  "status": "AUTHOR_CHECKED_NOT_INDEPENDENT_ACCEPTANCE",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77",
+  "scope": "Manual analytic proof and literal source reads; bounded administrative provenance, namespace, byte/hash and source-counterpart checks only.",
+  "preseal_check": {
+    "command": "node <<'RI157_ADMIN'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77', P='/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup', V='/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:201161,sha256:'368790622693cc600168c363a83a8a1bdd2831f21e49bbe1fb27aef1be812c79'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:33170,sha256:'41ce90f61723ae09c915b424d8a92b3a605d59ce1a99be7fe1905ea25f672180'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===223,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===193,'old193');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===77&&refs===1616&&extended===17,'admin refs');refs=0;scan(S);need(refs===89,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"ANALYTIC_RESULT.json\",\"AUTHOR_CHECKS.json\",\"CANONICAL_CAP_BOUND.md\",\"CORRELATED_CAPACITY_SYNTHESIS.md\",\"CORRELATED_CONTRAST_BOUND.md\",\"DEPENDENCY_NOTES.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\"];\nconst stage=process.env.RI157_STAGE||'preseal8',expected=stage==='final10'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['CORRELATED_CAPACITY_SYNTHESIS.md','CANONICAL_CAP_BOUND.md','CORRELATED_CONTRAST_BOUND.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final10'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===9,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri157-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:223,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:193,administrative_bodies:77,historical_typed_refs:1616,premise_refs:89,extended_historical_identity_occurrences:17,historical_state_compared_to_current:false,predecessor_namespaces:[10,10],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nRI157_ADMIN",
+    "command_chunk": "a7e617",
+    "exit_code": 0,
+    "receipt": {
+      "schema": "ri157-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal8",
+      "dependencies": 223,
+      "selected_bytes": 9791698,
+      "inherited": 193,
+      "administrative_bodies": 77,
+      "historical_typed_refs": 1616,
+      "premise_refs": 89,
+      "extended_historical_identity_occurrences": 17,
+      "historical_state_compared_to_current": false,
+      "predecessor_namespaces": [
+        10,
+        10
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 6,
+      "final_fresh_identity_rechecks": 231,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/ANALYTIC_RESULT.json",
+          "bytes": 4924,
+          "sha256": "c5ef9e86cd37ad5943c71239774bc1e08a5d057fff02e101a8933e561152fb20"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+          "bytes": 12849,
+          "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CAPACITY_SYNTHESIS.md",
+          "bytes": 11966,
+          "sha256": "25646b02bd021a8de23b89d8841621c70bbcecf97fe59164ac63d620b9cea7dd"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+          "bytes": 13521,
+          "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/DEPENDENCY_NOTES.md",
+          "bytes": 15485,
+          "sha256": "01b6a54d3b55533e7f1ee3b979fdf0c07991bec18ac88c6f44defe6a4c83018f"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.md",
+          "bytes": 3282,
+          "sha256": "57f38195d6b6f6b2f1f0e90f93c880b97ce507947d050412cf22779bbe0265fb"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_DEPENDENCIES.json",
+          "bytes": 201161,
+          "sha256": "368790622693cc600168c363a83a8a1bdd2831f21e49bbe1fb27aef1be812c79"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_IDENTITIES.json",
+          "bytes": 33170,
+          "sha256": "41ce90f61723ae09c915b424d8a92b3a605d59ce1a99be7fe1905ea25f672180"
+        }
+      ],
+      "scientific_execution": false
+    }
+  },
+  "final_seal_check_policy": "After AUTHOR_CHECKS.json and HANDOFF.json exist, rerun the same inline command with RI157_STAGE=final10. That later result is not preclaimed by this file and will be reported with the sealed handoff; no mutation is needed to retroactively insert it.",
+  "main_reads": [
+    {
+      "chunks": [
+        "42c45e",
+        "46cda3"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete RI157 assignment, RI155 root adjudication and manual review; complete independent verdict and handoff."
+    },
+    {
+      "chunks": [
+        "5ec6c6",
+        "cdca1c"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete RI155 independent proof narrative in two successive ranges."
+    },
+    {
+      "chunks": [
+        "4d3cdc",
+        "5f9f04"
+      ],
+      "exit_code": 0,
+      "coverage": "All three complete RI155 source manuscripts. The combined display clipped the middle of CAPACITY_STRUCTURE.md; the subsequent range read recovered that span before writing.",
+      "display_truncation_recovered": true
+    },
+    {
+      "chunks": [
+        "53a42a"
+      ],
+      "exit_code": 0,
+      "coverage": "Fresh RI151 canonical synthesis source span 1-165; inherited full literal source reads remain documented in predecessors."
+    },
+    {
+      "chunks": [
+        "a1d014"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete root RI157 grid-premise clarification; no global grid theorem admitted."
+    },
+    {
+      "chunks": [
+        "1f467e",
+        "da5c47",
+        "b1302a"
+      ],
+      "exit_code": 0,
+      "coverage": "RI36 literal-source search followed by complete EXTENSION.md in two successive ranges, including its historical diagnostics."
+    },
+    {
+      "chunks": [
+        "893a48"
+      ],
+      "exit_code": 0,
+      "coverage": "RI41 NORMALIZATION.md lines 1-105, linking its unchanged RI36 construction and scale."
+    },
+    {
+      "chunks": [
+        "0729b2",
+        "07d02f"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete current contrast proof and final changed spans; no finding."
+    },
+    {
+      "chunks": [
+        "0fa94d",
+        "a2f41f"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete current cap proof followed by its final peer-read closing additions; no finding. Full HANDOFF.md also read in a2f41f."
+    },
+    {
+      "chunks": [
+        "3611a8"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete final DEPENDENCY_NOTES.md."
+    },
+    {
+      "chunks": [
+        "c3de91",
+        "23cffe"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete current synthesis in successive ranges; complete ANALYTIC_RESULT.json and fresh full assignment reread."
+    }
+  ],
+  "coauthor_checks": [
+    {
+      "author": "/root/ri132_native_controls",
+      "authority": "Coauthor-reported, not independent review",
+      "own_full_reads": [
+        "8a0d29",
+        "27a158"
+      ],
+      "main_synthesis_full_read": "6e4a5d",
+      "contrast_full_read": "085907",
+      "contrast_final_changes": "9f14dc",
+      "own_final_closing_read": "e6a2b8",
+      "reported_exit_code": 0,
+      "findings": [],
+      "frozen_file": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+        "bytes": 12849,
+        "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+      },
+      "diagnostic": "A combined historical CAPACITY_COMPARISON display clipped its middle; lines115-220 recovered before writing."
+    },
+    {
+      "author": "/root/ri132_audit_controls",
+      "authority": "Coauthor-reported, not independent review",
+      "cap_full_read": "3ed6a3",
+      "main_synthesis_full_read": true,
+      "reported_exit_code": 0,
+      "findings": [],
+      "frozen_file": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+        "bytes": 13521,
+        "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524"
+      },
+      "diagnostic": "One historical synthesis display clipped; recovered in two ranges before writing. Final fraction and strict-rejection chain were integrated before freeze."
+    },
+    {
+      "author": "/root/ri132_evidence_contract",
+      "authority": "Administrative coauthor report, not proof acceptance",
+      "preliminary_221_checks": [
+        "58ee79",
+        "ec11c7"
+      ],
+      "addition_pins": "874f70",
+      "final_223_check": "4f0d50",
+      "final_notes_read": "1aa52c",
+      "reported_exit_code": 0,
+      "findings": [],
+      "final_counts": {
+        "dependencies": 223,
+        "selected_bytes": 9791698,
+        "inherited_rows_unchanged_except_role": 193,
+        "administrative_bodies": 77,
+        "historical_typed_refs": 1616,
+        "current_typed_refs": 89,
+        "extended_historical_identity_occurrences": 17,
+        "source_counterparts": 4
+      },
+      "diagnostic": "An in-memory metadata display clipped; focused recovery and full final checks completed. Preliminary221 counts are not presented as final223 checks."
+    }
+  ],
+  "administrative_boundaries": {
+    "proof_acceptance": false,
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "selected_coefficient_probability_maximum_scale_evaluation": false,
+    "manual_arithmetic_on_uniform_theorem_bounds": true,
+    "source_helper_import_compile_AST_probe_run": false,
+    "engine_or_global_enumeration": false,
+    "historical_state_compared_to_current": false,
+    "zero_byte_historical_stderr_retained": true,
+    "large_historical_diagnostics_opaque": true,
+    "inherited_rows_changed_only_in_role_number": true,
+    "repository_index_Git_or_predecessor_write": false,
+    "new_subagent_spawning": false
+  },
+  "diagnostics": {
+    "failed_main_commands": [],
+    "failed_coauthor_commands_reported": [],
+    "display_recovery": "Main combined predecessor display and two coauthor historical displays were recovered as above; no unseen span is claimed read solely from a truncated display.",
+    "inherited_failures": "Historical failures remain in unchanged dependency records. They were not rerun or represented as current checks. The root grid clarification's recorded failed glob read belongs to that historical root diagnostic.",
+    "excluded_inferences": [
+      "No seed-root order inferred from declaration values.",
+      "No inverse-theta q-floor revival.",
+      "No global final-witness grid inferred from discovery-rounding prose."
+    ],
+    "grid_inquiry": "The possible grid route prompted the explicit root clarification. Its missing complete final-witness audit is not authorized or executed; grid remains conditional only."
+  },
+  "claims": "Actual retained cap branch Z=R and sharper contrast bounds proved by author manuscripts; actual capacity sign, adequate q/v budget, W/C2/C3 and H30 remain unresolved.",
+  "stop": "Seal for fresh nonauthor review and coordinator adjudication; no successor assigned."
+}

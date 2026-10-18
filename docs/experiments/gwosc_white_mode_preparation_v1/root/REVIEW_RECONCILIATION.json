@@ -1,0 +1,577 @@
+{
+  "current_rechecks": 478,
+  "original_namespace_entries": 52,
+  "proposed_root_absent": true,
+  "review_handoff": {
+    "bytes": 7390,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/HANDOFF.json",
+    "sha256": "bd4a2b15b0bc4007d1f33c57dea513107c0d16264820c3f1ec8ea3ce203094d8"
+  },
+  "review_namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "CHECK_V2.stderr",
+    "CHECK_V2.stdout",
+    "FINAL_INPUT_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "check_metadata_v2.py",
+    "final_input_check.py"
+  ],
+  "review_payloads": [
+    {
+      "bytes": 5051,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/ACTUAL_CHECKS.json",
+      "sha256": "74e6692adc1503cda15b914147ba99f69d63f7ad7f7c8dc10270fd9bf53ac475"
+    },
+    {
+      "bytes": 852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "sha256": "0c33a6b815c59179240e5d0bda820e17c02f04570af108a2b3aa523ffde02c48"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "sha256": "6980ee631cfa18af12a5f0f81373a3eb161f6f9fde27c1cc987f348a225e1c56"
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa"
+    },
+    {
+      "bytes": 17896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1"
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571"
+    },
+    {
+      "bytes": 3515,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/VERDICT.json",
+      "sha256": "703364ef4b86cb6883adf3f0b94b319e920652197151c1ed63c888ee30f56603"
+    },
+    {
+      "bytes": 16291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "sha256": "8055708ac035e9999bd18c478bcf38692c89db8f717f003b832a6f469c45fb9a"
+    },
+    {
+      "bytes": 16383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "sha256": "ef6dee4a31109f6fd4742584ab3d7d9bdf2adc4d621cffdbb0ba7cf7f5b54c78"
+    },
+    {
+      "bytes": 2167,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "sha256": "0ec9794a6dfb2f5d3d2a8b076910a455e2fd778abd15937af95b6751bac356ec"
+    }
+  ],
+  "review_predicates": 6304,
+  "review_refs": [
+    {
+      "bytes": 5051,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/ACTUAL_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/ACTUAL_CHECKS.json",
+      "sha256": "74e6692adc1503cda15b914147ba99f69d63f7ad7f7c8dc10270fd9bf53ac475",
+      "state": [
+        16777244,
+        411762,
+        33188,
+        1,
+        5051,
+        1790781553672061532,
+        1790781553672061532
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "sha256": "0c33a6b815c59179240e5d0bda820e17c02f04570af108a2b3aa523ffde02c48",
+      "state": [
+        16777244,
+        411724,
+        33188,
+        1,
+        852,
+        1790781226415360865,
+        1790781226415360865
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        411723,
+        33188,
+        1,
+        0,
+        1790781226311757597,
+        1790781226311788429
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        411727,
+        33188,
+        1,
+        0,
+        1790781256755422866,
+        1790781256755441157
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "sha256": "6980ee631cfa18af12a5f0f81373a3eb161f6f9fde27c1cc987f348a225e1c56",
+      "state": [
+        16777244,
+        411726,
+        33188,
+        1,
+        376,
+        1790781256946316859,
+        1790781256946316859
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa",
+      "state": [
+        16777244,
+        411758,
+        33188,
+        1,
+        10012,
+        1790781351190448058,
+        1790781351190448058
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1",
+      "state": [
+        16777244,
+        411759,
+        33188,
+        1,
+        17896,
+        1790781553627832830,
+        1790781553627832830
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571",
+      "state": [
+        16777244,
+        411728,
+        33188,
+        1,
+        1096784,
+        1790781256942668463,
+        1790781256942668463
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3515,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/VERDICT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/VERDICT.json",
+      "sha256": "703364ef4b86cb6883adf3f0b94b319e920652197151c1ed63c888ee30f56603",
+      "state": [
+        16777244,
+        411761,
+        33188,
+        1,
+        3515,
+        1790781553670740200,
+        1790781553670740200
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "sha256": "8055708ac035e9999bd18c478bcf38692c89db8f717f003b832a6f469c45fb9a",
+      "state": [
+        16777244,
+        411722,
+        33188,
+        1,
+        16291,
+        1790781226311340652,
+        1790781226311340652
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "sha256": "ef6dee4a31109f6fd4742584ab3d7d9bdf2adc4d621cffdbb0ba7cf7f5b54c78",
+      "state": [
+        16777244,
+        411725,
+        33188,
+        1,
+        16383,
+        1790781256752086301,
+        1790781256752086301
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2167,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "sha256": "0ec9794a6dfb2f5d3d2a8b076910a455e2fd778abd15937af95b6751bac356ec",
+      "state": [
+        16777244,
+        411757,
+        33188,
+        1,
+        2167,
+        1790781351072212147,
+        1790781351072212147
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7336,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+      "sha256": "48aa2c11468fab405a1e15793916c42e38ee4562a6212d71987149076c8814d6",
+      "state": [
+        16777244,
+        411708,
+        33188,
+        1,
+        7336,
+        1790780774237065383,
+        1790780774237065383
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571",
+      "state": [
+        16777244,
+        411728,
+        33188,
+        1,
+        1096784,
+        1790781256942668463,
+        1790781256942668463
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa",
+      "state": [
+        16777244,
+        411758,
+        33188,
+        1,
+        10012,
+        1790781351190448058,
+        1790781351190448058
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa",
+      "state": [
+        16777244,
+        411758,
+        33188,
+        1,
+        10012,
+        1790781351190448058,
+        1790781351190448058
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571",
+      "state": [
+        16777244,
+        411728,
+        33188,
+        1,
+        1096784,
+        1790781256942668463,
+        1790781256942668463
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1",
+      "state": [
+        16777244,
+        411759,
+        33188,
+        1,
+        17896,
+        1790781553627832830,
+        1790781553627832830
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7336,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+      "sha256": "48aa2c11468fab405a1e15793916c42e38ee4562a6212d71987149076c8814d6",
+      "state": [
+        16777244,
+        411708,
+        33188,
+        1,
+        7336,
+        1790780774237065383,
+        1790780774237065383
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+      "sha256": "8055708ac035e9999bd18c478bcf38692c89db8f717f003b832a6f469c45fb9a",
+      "state": [
+        16777244,
+        411722,
+        33188,
+        1,
+        16291,
+        1790781226311340652,
+        1790781226311340652
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "sha256": "0c33a6b815c59179240e5d0bda820e17c02f04570af108a2b3aa523ffde02c48",
+      "state": [
+        16777244,
+        411724,
+        33188,
+        1,
+        852,
+        1790781226415360865,
+        1790781226415360865
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        411723,
+        33188,
+        1,
+        0,
+        1790781226311757597,
+        1790781226311788429
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571",
+      "state": [
+        16777244,
+        411728,
+        33188,
+        1,
+        1096784,
+        1790781256942668463,
+        1790781256942668463
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+      "sha256": "ef6dee4a31109f6fd4742584ab3d7d9bdf2adc4d621cffdbb0ba7cf7f5b54c78",
+      "state": [
+        16777244,
+        411725,
+        33188,
+        1,
+        16383,
+        1790781256752086301,
+        1790781256752086301
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        411727,
+        33188,
+        1,
+        0,
+        1790781256755422866,
+        1790781256755441157
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+      "sha256": "6980ee631cfa18af12a5f0f81373a3eb161f6f9fde27c1cc987f348a225e1c56",
+      "state": [
+        16777244,
+        411726,
+        33188,
+        1,
+        376,
+        1790781256946316859,
+        1790781256946316859
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+      "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa",
+      "state": [
+        16777244,
+        411758,
+        33188,
+        1,
+        10012,
+        1790781351190448058,
+        1790781351190448058
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2167,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "sha256": "0ec9794a6dfb2f5d3d2a8b076910a455e2fd778abd15937af95b6751bac356ec",
+      "state": [
+        16777244,
+        411757,
+        33188,
+        1,
+        2167,
+        1790781351072212147,
+        1790781351072212147
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7",
+      "state": [
+        16777244,
+        397322,
+        33188,
+        1,
+        3144,
+        1790474160342448860,
+        1790474160342459985
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1096784,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+      "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571",
+      "state": [
+        16777244,
+        411728,
+        33188,
+        1,
+        1096784,
+        1790781256942668463,
+        1790781256942668463
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "review_typed_ref_occurrences": 30,
+  "root_predicates": 4055,
+  "schema": "ri154-root-independent-review-reconciliation-v1",
+  "scientific_body_decode": false,
+  "status": "PASS",
+  "subject_execution": false,
+  "whole_observed_identity_set_equal": true
+}

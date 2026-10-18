@@ -1,0 +1,17 @@
+{
+  "card": {
+    "bytes": 2208,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+    "sha256": "d498ccd200b054e8759a37c1cdf0d6014c3e49982e3e944697682266ecf30798"
+  },
+  "current_e": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "decision": {
+    "bytes": 3116,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+    "sha256": "368bd95a91b70df4d55b6e45193aa8d7b9592a2af82d9ef6e5e3f23fe1692e94"
+  },
+  "guard_or_scientific_admission": false,
+  "normal_card_unchanged": true,
+  "status": "PASS_CLOSED_TEN_FIELD_BOTH_PROFILE_CARD",
+  "subject_execution": false
+}

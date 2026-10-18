@@ -1,0 +1,15 @@
+{
+  "confirmation": [
+    "9ccf29 exit0",
+    "a3ed8c exit0"
+  ],
+  "correction": "Include explicit root directory in inventory; keep exact nine-directory and 48-file thresholds. No source, acceptance criterion, or subject changed.",
+  "failure": {
+    "chunk_id": "f080a4",
+    "exit_code": 1,
+    "reason": "Reviewer directory inventory excluded the root, unlike the accepted nine-directory convention; actual E has unchanged 48 files and eight descendants plus root."
+  },
+  "issued_before_failure": false,
+  "schema": "ri202-administrative-diagnostic-v1",
+  "subject_execution": false
+}

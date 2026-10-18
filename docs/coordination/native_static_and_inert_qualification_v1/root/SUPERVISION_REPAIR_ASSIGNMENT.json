@@ -1,0 +1,31 @@
+{
+  "allowed": "Source-only implementation and administrative text/hash checks via /opt/homebrew/bin/python3 or Node. No /usr/bin/python3 or selected-vendor startup, target import/compile/AST/run, ps observation, fixture creation, active cards or Git.",
+  "deliverables": [
+    "Small sealed successor source, exact diff fromRI165 and concrete updated finite checks",
+    "Actual metadata/provenance record with immutable predecessor/review pins"
+  ],
+  "independent_review": {
+    "bytes": 6190,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/HANDOFF.json",
+    "sha256": "ba2e200bd976fa9ab6d7c4dd30bd7d3fdd581d1af82764abdc0b8a7012d57a51"
+  },
+  "next": "Separate independent source review, root disposition, then separately admitted supervisor-only checks; no actual native operation in this repair.",
+  "predecessor": {
+    "bytes": 4673,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI165_ROOT_ADJUDICATION.json",
+    "sha256": "f5bdb4bd7f25a02472e7c6ed63a17b372179ff8a815e1e284b77defa6cdd2174"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz",
+  "schema": "ri167-root-supervisor-repair-assignment-v1",
+  "scope": [
+    "Fix F01 ordinary per-stream failures in caller and ps capture: preserve earliest error, acquire/track handles independently of registration, disable failing pump safely and continue healthy sibling drain while termination proceeds inside original caps/deadlines. Include partial writes and independent unregister/close failures.",
+    "Fix F02 observer/journal-failure fallback: after owned-child kill attempt, independently poll/reap and retain real exit code within original deadline; keep group/unknown-descendant cleanup unverified. Hard abort remains separate, with no new wait budget.",
+    "Extend existing S04/S05/S10/S13 focused variants for these cases; retain13group catalogue and unchanged native five sources/request/env/315second/8MiB bounds. No new harness architecture.",
+    "Preserve original author startup deviation and failed diagnostics; do not erase old seals or relabel startup as qualification."
+  ],
+  "subject": {
+    "bytes": 8490,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/HANDOFF.json",
+    "sha256": "5ea6624c7aa52e72ab1810a9446f720f849d9b2ebff5bfee338efe313ec4a6da"
+  }
+}

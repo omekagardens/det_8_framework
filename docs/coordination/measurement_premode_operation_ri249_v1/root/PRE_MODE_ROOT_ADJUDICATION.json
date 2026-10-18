@@ -1,0 +1,88 @@
+{
+  "RET_paused": true,
+  "adapter_completion_fields": 14,
+  "adapter_tails": 7,
+  "claims": [
+    "one completed metadata pre_mode outcome only"
+  ],
+  "durable_full_independent_observations": {
+    "bytes": 1763510,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_INDEPENDENT_OBSERVATIONS.json",
+    "sha256": "57c366fdd99b7f80056b51973c3e3670109243022f1c01081e7d32b7aaea9bcf"
+  },
+  "frozen_E_directories": 9,
+  "frozen_E_files": 49,
+  "genuine_tools": {
+    "bytes": 3806,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_OPERATION_TOOLS.json",
+    "sha256": "3f1d159344dc18dd669f4b2b91dc83b403314fdb55cbb207ea692426180f5965"
+  },
+  "immutable_inputs": 2854,
+  "independent_check": {
+    "bytes": 2486,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_INDEPENDENT_CHECK.json",
+    "sha256": "4b06231c35ea93625b5c5791f31c60ebee37e5a09cb482532ecc8939359de773"
+  },
+  "independent_handoff": {
+    "bytes": 3940,
+    "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/HANDOFF.json",
+    "sha256": "af6cb3533dac11e7d16dc9d18a21a0c3cc9d11fa8414fc29cd46c6f3a668308f"
+  },
+  "independent_review": {
+    "bytes": 13478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PRE_MODE_INDEPENDENT_REVIEW.md",
+    "sha256": "0a3c3f0126d1f5498423ab4253d70ceb4bdb930f1d18e86dc6fa8d2c9c443024"
+  },
+  "mode_card_created": false,
+  "monitor_completion_fields": 16,
+  "next_action": "Prepare fresh normal mode_card request/bootstrap/admission under retained bounds; independently review resulting external candidate before separate E installation and scientific admission",
+  "next_recipe": {
+    "bytes": 14685,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/NEXT_MODE_CARD_RECIPE.md",
+    "sha256": "28f0e0a5c66d793374c25bb99ec038888d4f240adb8b5e0a479e1e2d54d1a4dc"
+  },
+  "qualification_credit": 0,
+  "raw_attempts": 42,
+  "remaining_premises": [
+    "genuine tool origin",
+    "sampled child observations with parent pid recorded",
+    "stable host/supplier/no descendants",
+    "Apple loader/shared-cache/startup scope",
+    "finite sequential custody rather than atomic snapshot"
+  ],
+  "result": {
+    "bytes": 1085,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+    "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544"
+  },
+  "reviewer_failure_preserved": {
+    "diagnostics": {
+      "bytes": 2117,
+      "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/DIAGNOSTICS.json",
+      "sha256": "52f3297c780abca350f7c6d5ede9642253d3f203c2c2c9649239c48df3b310c3"
+    },
+    "exit_code": 1,
+    "initial": "fa456f",
+    "terminal": "1a7e25"
+  },
+  "root_check": {
+    "bytes": 6302,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ROOT_PRE_MODE_OUTCOME_CHECK.json",
+    "sha256": "240fce77c2e1736c33d835ce1793030fdadef95a4cc8814e2d279531f53ac9b3"
+  },
+  "root_complete_read": "11e182",
+  "root_custody": {
+    "bytes": 1759691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/POSTFLIGHT.json",
+    "sha256": "79d2662a53da46dcb68f83df25e01563726f4942838b30bc023711a3cb742acc"
+  },
+  "samples": 42,
+  "schema": "ri249-root-premode-adjudication-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 1652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/PREDISPATCH_SOURCE_REVIEW.json",
+    "sha256": "8f6035238c6a921a529ebee52561d555c76d7e1bbc2bf93d38a8e26a5e4c4a15"
+  },
+  "status": "ACCEPT_ONE_NORMAL_PRE_MODE_METADATA_OPERATION_ONLY"
+}

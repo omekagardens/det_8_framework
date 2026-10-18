@@ -1,0 +1,144 @@
+{
+  "identities": [
+    {
+      "bytes": 25121,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/AUTHOR_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/AUTHOR_CHECKS.json",
+      "sha256": "6e3947a5b8cf63b83eddaa96379a79196561c7951766660343bd74cc32abb85f",
+      "state": [
+        16777244,
+        419938,
+        33188,
+        1,
+        25121,
+        1790808855504878836,
+        1790808855504878836
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 15772,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/DEPENDENCY_NOTES.md",
+      "sha256": "6d4aaafe62b4c8830881abbf00a47937e0c7be1474d11256ee1e90efb50a8b1e",
+      "state": [
+        16777244,
+        419863,
+        33188,
+        1,
+        15772,
+        1790808700631692154,
+        1790808700631692154
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10446,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_BOUND.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_BOUND.md",
+      "sha256": "cba65c44df0843863335a372059ec9edde75c0a70699f1765a2465963ba7419b",
+      "state": [
+        16777244,
+        419516,
+        33188,
+        1,
+        10446,
+        1790808337785298282,
+        1790808337785298282
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 15416,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_CLASSIFICATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_CLASSIFICATION.md",
+      "sha256": "b0e74ec87d93e20766559923fa1b481610475924ccc39483d67ea6fce0fc0618",
+      "state": [
+        16777244,
+        419535,
+        33188,
+        1,
+        15416,
+        1790808527927399182,
+        1790808527927399182
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.md",
+      "sha256": "23e88365e343f69f3868894da1033aca1abcf054318b436bb7c068fe8167b0e0",
+      "state": [
+        16777244,
+        419524,
+        33188,
+        1,
+        3218,
+        1790808446482015153,
+        1790808446482015153
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 310358,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_DEPENDENCIES.json",
+      "sha256": "fce5a6bc4b090aa4936cf9d4e11468f9b377242190c592eef3b916d4838fffee",
+      "state": [
+        16777244,
+        419519,
+        33188,
+        1,
+        310358,
+        1790808396515888304,
+        1790808396515888304
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 90873,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_IDENTITIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_IDENTITIES.json",
+      "sha256": "6d1db5dbb62773086835e1be6e88890db8b1ef632b85cf0dc11de40190733151",
+      "state": [
+        16777244,
+        419525,
+        33188,
+        1,
+        90873,
+        1790808461841692250,
+        1790808461841692250
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7444,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.json",
+      "sha256": "2255b730df5f8a1104c88c7d8960b90b152a88eb2e092b1152a94bf281a07da7",
+      "state": [
+        16777244,
+        419941,
+        33188,
+        1,
+        7444,
+        1790808913326053415,
+        1790808913326053415
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "FOUR_CAP_BOUND.md",
+    "FOUR_CAP_CLASSIFICATION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "scientific_decode": false,
+  "subject_execution": false
+}

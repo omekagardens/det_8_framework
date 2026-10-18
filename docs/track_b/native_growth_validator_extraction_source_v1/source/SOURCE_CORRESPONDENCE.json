@@ -1,0 +1,213 @@
+{
+  "schema": "ri134-author-whole-source-correspondence-v1",
+  "status": "EXACT_TEXT_CORRESPONDENCE_ONLY_NOT_EXECUTED_QUALIFICATION",
+  "method": "Read literal UTF-8 source; compare moved statements after explicitly recorded common-indent and one-line docstring differences; replace only the four literal call sites with old blocks, remove only the four exact new function spans, restore only E/dependency count+hash/opening docstring; require entire bytes equal RI129. No Python parsing, import, compilation, AST, probing or target/helper execution.",
+  "callers": [
+    {
+      "caller": "native",
+      "old_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+        "bytes": 88890,
+        "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650"
+      },
+      "new_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+        "bytes": 89283,
+        "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d"
+      },
+      "four_moved_blocks": [
+        {
+          "function": "validate_dependency_payload",
+          "old_block": {
+            "start_line": 374,
+            "end_line": 402,
+            "bytes": 1934,
+            "sha256": "a599831e5efc49bbed7605a2cf94dafd1667f4444d075961a97bd243e7477ecf"
+          },
+          "new_function": {
+            "start_line": 359,
+            "end_line": 391,
+            "bytes": 1995,
+            "sha256": "a445e7c75be19cb75512c65986959f70af72f6ba17b28844f9feac421b92a351"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": null,
+          "dependency_return_entries_added": true,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "entries = validate_dependency_payload(value)",
+          "production_call_line": 407
+        },
+        {
+          "function": "validate_source_decision_payload",
+          "old_block": {
+            "start_line": 779,
+            "end_line": 793,
+            "bytes": 1158,
+            "sha256": "6ba09d447d54d01928ac0960ef727439701472624d75960e2b068e52a27c209e"
+          },
+          "new_function": {
+            "start_line": 766,
+            "end_line": 783,
+            "bytes": 1215,
+            "sha256": "e884c01ecade4b7b3f9b14e552a61c3692098e4058d007280585cc05dda2cf02"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": null,
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_source_decision_payload(decision, index)",
+          "production_call_line": 813
+        },
+        {
+          "function": "validate_source_review_payload",
+          "old_block": {
+            "start_line": 795,
+            "end_line": 802,
+            "bytes": 583,
+            "sha256": "6bb7f6f365433b62eea8f0907089bb6ba5f54024e9d1e3f587b921318b18003e"
+          },
+          "new_function": {
+            "start_line": 784,
+            "end_line": 794,
+            "bytes": 636,
+            "sha256": "2ce04e559b3e8c249870e9a6b0fe7bca31401207313369f464f6031ec6031791"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": null,
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_source_review_payload(review, index)",
+          "production_call_line": 815
+        },
+        {
+          "function": "validate_current_target_checks",
+          "old_block": {
+            "start_line": 1019,
+            "end_line": 1027,
+            "bytes": 677,
+            "sha256": "1b99440132ad84fd2f66b56698059ae0f7fa60a9ed73796d780294c176f03feb"
+          },
+          "new_function": {
+            "start_line": 875,
+            "end_line": 886,
+            "bytes": 687,
+            "sha256": "3ac643806ad78d479cf7f6705749c15cac29ead359dc3abdbd51288b4ae78ca1"
+          },
+          "common_indent_removed_from_old": 4,
+          "one_line_docstring_excluded": null,
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_current_target_checks(review)",
+          "production_call_line": 1044
+        }
+      ],
+      "whole_caller_exact_after_reinlining_and_reverting_only_E_dependency_pin_opening_docstring": true,
+      "projected_old_sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "policy_or_target_execution": false
+    },
+    {
+      "caller": "audit",
+      "old_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+        "bytes": 103287,
+        "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5"
+      },
+      "new_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/launch_audit.py",
+        "bytes": 103969,
+        "sha256": "74f3ef59520a7d8d360a280bcf5d5389d0e3f6c456e8f02178fbc773c4e5d60b"
+      },
+      "four_moved_blocks": [
+        {
+          "function": "validate_dependency_payload",
+          "old_block": {
+            "start_line": 565,
+            "end_line": 593,
+            "bytes": 1934,
+            "sha256": "a599831e5efc49bbed7605a2cf94dafd1667f4444d075961a97bd243e7477ecf"
+          },
+          "new_function": {
+            "start_line": 550,
+            "end_line": 583,
+            "bytes": 2070,
+            "sha256": "2d8790c6e68395fddfbf149972b5ed98de3917f4137e0b5dbae8bc1d2a8300d6"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": "    \"\"\"Pure extracted payload policy; this grants no file authenticity.\"\"\"",
+          "dependency_return_entries_added": true,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "entries = validate_dependency_payload(value)",
+          "production_call_line": 599
+        },
+        {
+          "function": "validate_source_decision_payload",
+          "old_block": {
+            "start_line": 900,
+            "end_line": 912,
+            "bytes": 1072,
+            "sha256": "156ca6c4a01252977c14918fdd30c92eb402802a2cc7b74804f7309b3e7163ac"
+          },
+          "new_function": {
+            "start_line": 879,
+            "end_line": 895,
+            "bytes": 1212,
+            "sha256": "d407cde9422ef77b2461e9a8e13fee9670d10aa95e9d5046d1700a4649638953"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": "    \"\"\"Pure current-source policy over already constructed identities.\"\"\"",
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_source_decision_payload(decision, sources, known)",
+          "production_call_line": 933
+        },
+        {
+          "function": "validate_source_review_payload",
+          "old_block": {
+            "start_line": 914,
+            "end_line": 919,
+            "bytes": 460,
+            "sha256": "909292849382827349da122e10818293893aa5513a64a69df35040f2e7f730ed"
+          },
+          "new_function": {
+            "start_line": 896,
+            "end_line": 905,
+            "bytes": 592,
+            "sha256": "27d9f259345abbf4bc123666574dec59aca68687ce947e1370a829640e096207"
+          },
+          "common_indent_removed_from_old": 0,
+          "one_line_docstring_excluded": "    \"\"\"Pure independent-review policy, not independent review provenance.\"\"\"",
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_source_review_payload(review, sources)",
+          "production_call_line": 935
+        },
+        {
+          "function": "validate_current_target_checks",
+          "old_block": {
+            "start_line": 1245,
+            "end_line": 1253,
+            "bytes": 710,
+            "sha256": "5a513728cad65a6144de68b1c3b1dbb586f4f3dab60d746a92e6510c666d3486"
+          },
+          "new_function": {
+            "start_line": 1151,
+            "end_line": 1163,
+            "bytes": 761,
+            "sha256": "31334e425b7ae92c93963cab21843631d726a5e3e0856179b33c4fe1f1825f00"
+          },
+          "common_indent_removed_from_old": 8,
+          "one_line_docstring_excluded": "    \"\"\"Pure exact typed check policy; does not establish actual execution.\"\"\"",
+          "dependency_return_entries_added": false,
+          "exact_policy_body_after_declared_adjustments": true,
+          "production_call": "validate_current_target_checks(value)",
+          "production_call_line": 1274
+        }
+      ],
+      "whole_caller_exact_after_reinlining_and_reverting_only_E_dependency_pin_opening_docstring": true,
+      "projected_old_sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5",
+      "policy_or_target_execution": false
+    }
+  ],
+  "scientific_execution": false,
+  "complete_changed_caller_qualification": false
+}

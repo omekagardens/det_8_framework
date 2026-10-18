@@ -1,0 +1,84 @@
+{
+  "actual_command_predecessor": {
+    "bytes": 3806,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_OPERATION_TOOLS.json",
+    "sha256": "3f1d159344dc18dd669f4b2b91dc83b403314fdb55cbb207ea692426180f5965"
+  },
+  "bootstrap_source": {
+    "bytes": 2450,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_BOOTSTRAP.proposal.txt",
+    "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+  },
+  "operation_arguments_if_separately_admitted": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf",
+    "yield_time_ms": 1000
+  },
+  "operation_bounds": {
+    "file_bytes": 67108864,
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "operation_child_cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/monitor",
+  "operation_environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "operational_authorization": false,
+  "outer_alarm_seconds": 960,
+  "preparation_command_arguments": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-B",
+    "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py",
+    "--root-decision",
+    "<ACTUAL_ROOT_PREPARATION_DECISION_PATH>",
+    "--root-decision-sha256",
+    "<ACTUAL_ROOT_PREPARATION_DECISION_SHA256>"
+  ],
+  "preparation_command_is_template_not_invocation": true,
+  "preparation_source": {
+    "bytes": 25955,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/prepare_unissued.py",
+    "sha256": "1beed61c95006f21e9e37ae7bb88b08688155240bfc245c2c8113afd70acb198"
+  },
+  "prepared_request_filepin": null,
+  "prospective_admission_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/ADMIT_MODE_CARD.json",
+  "prospective_bootstrap_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_BOOTSTRAP.proposal.py",
+  "prospective_operation_output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri249-mode-card-y170alnf",
+  "prospective_preparation_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf",
+  "prospective_request_path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-normal-mode-card-preparation-y170alnf/MODE_CARD_REQUEST.json",
+  "request_source": {
+    "bytes": 530,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/MODE_CARD_REQUEST.proposal.json",
+    "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+  },
+  "root_preparation_decision_schema": "ri249-root-unissued-mode-card-preparation-decision-v1",
+  "root_steps": [
+    "Independent/root exact source acceptance",
+    "Root reserves literal empty D and leaves O absent",
+    "Genuine fresh host and preparation-only closed8 decision",
+    "One separately admitted administrative preparation",
+    "Nonauthor/root complete actual nine-file preparation review and full output file states",
+    "Fresh complete source/supplier/host/E/previous operation custody",
+    "Separate closed12 adapter admission and literal dispatch",
+    "One separately admitted metadata mode_card operation",
+    "Independent/root full actual candidate and custody review",
+    "Separate E installation and later dispatch_spec/scientific admission, outside this packet"
+  ],
+  "schema": "ri249-mode-card-root-recipes-source-only-v1",
+  "status": "UNEXECUTED_UNISSUED_SOURCE_RECIPE"
+}

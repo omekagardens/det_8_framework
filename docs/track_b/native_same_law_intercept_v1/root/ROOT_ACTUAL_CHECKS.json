@@ -1,0 +1,18 @@
+{
+  "schema": "ri177-actual-root-checks-v1",
+  "checks": [
+    {"description": "Fresh whole repository entry and sealed RI175 eight-file authentication", "initial_receipt": "85c69c", "session_id": 59458, "receipt": "9d7c8f", "exit_code": 0},
+    {"description": "Independent full finite provenance replay:313 dependencies,300 inherited rows,3634 historical/157 current typed references,321 fresh end identities", "receipt": "130757", "exit_code": 0},
+    {"description": "Root independent adjudication and next assignment after acceptance", "receipt": "b7b886", "exit_code": 0}
+  ],
+  "diagnostics": [
+    {"description": "Combined status/log/AGENTS lookup exited1 because no AGENTS.md matched; status and HEAD returned normally", "receipt": "4176a1", "exit_code": 1},
+    {"description": "Combined historical and author-record display clipped; relevant complete recoveries were920a94,c6d561,d1fa00,0f2cdc. No clipped display is credited as a full read."}
+  ],
+  "author_final_receipt": "ac9392 (reported by author; current root replay is130757)",
+  "new_scientific_execution": false,
+  "mathematical_formula_execution": false,
+  "historical_finite_sign_used": true,
+  "historical_sign_recomputed": false,
+  "ret_paused": true
+}

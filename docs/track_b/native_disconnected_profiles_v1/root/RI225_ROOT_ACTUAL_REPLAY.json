@@ -1,0 +1,22 @@
+{
+  "actual_tool_chunk": "ab53f6",
+  "argument": "final6",
+  "author_reported_check": "8e9441 exit0",
+  "direct_bytes": 710419,
+  "direct_sources": 25,
+  "exact_six_file_namespaces": 2,
+  "exit_code": 0,
+  "inherited423_replayed": false,
+  "inherited_boundaries": 15,
+  "mathematical_proof_check": false,
+  "record_type": "Root summary of genuine observed result; not reconstructed raw stdout",
+  "retained_source": {
+    "bytes": 17057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/ri225_metadata_checker.js",
+    "sha256": "a708e9ef2818490ea9dfaf3523af74008c03af58783217b6ef7b0a4ae364bb4f"
+  },
+  "schema": "root-observed-tool-result-summary-v1",
+  "scientific_execution": false,
+  "selected_references": 40,
+  "whole_identities": 31
+}

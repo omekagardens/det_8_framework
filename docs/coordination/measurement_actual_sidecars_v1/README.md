@@ -1,0 +1,13 @@
+# Actual whole-field administrative sidecars
+
+The single root-admitted RI160 sidecars action completed under the unchanged RI141 monitor: exec a1ff1f, session18218, terminal e214c5 exit0. It exported the five complete fields from the accepted normal PRE, preserving both profiles and their complete actual evidence. observed_dyld_routes contains the preobserved domain; the original ten actual attempts/errors remain bound through profile evidence.
+
+Root check 1a2efb passed. Independent review 0ef7af passed 19,307 predicates, including all five byte-for-byte field equalities, eight output files with COMPLETE, four monitor files, twelve tails, thirteen module/source states, 567 adapter dependencies, E's unchanged 48 files/nine directories, 668 current source identities and 810 retained historical role rows. The fresh Apple administration closure contains 1,810 files/48,024,515 bytes, 195 namespace rows, two absences and four tools. Historical observation alone was not credited as current custody.
+
+The child took 2.115778542 seconds, with 59 genuine memory samples, peak210480 KiB, maximum sampling gap0.038721375 seconds and final reap gap0.035131917 seconds. All original 180-second/524288-KiB/25-ms-target/100-ms-gap/50-ms-ps/64-MiB-stream and 960-second outer limits remain. Streams/errors are empty. Exact terminal input arguments are retained in a separate supplement without changing the original receipt.
+
+Source-authorship disclosure: the independent RI200 reviewer authored earlier RI156/158/160 repairs. This new preparation/outcome review inherits root's prior source acceptance and actual106 qualification; it does not requalify those sources. All reviewer diagnostics and the preexecution controls-only-field checker correction are recorded. No subject retry occurred.
+
+Only this administrative export is accepted. It is not a runtime recapture, source/cache equivalence proof, hard process-group memory quota, freeze, mode admission, WHITE qualification, calibrated reproduction or native physical result. Fixed supplier/cache/Apple-host/loader/no-descendants/read-window premises remain. RI198 next requires the exact current source decision and separately supervised candidate caller/guards/runtime adapters, independent review, then the candidate freeze. Fresh per-mode custody and normal acceptance must precede optimized execution. Public GWOSC reproduction and the native forward map remain separate; RET remains paused.
+
+PUBLICATION_MANIFEST authenticates exact copies. DEPENDENCY_MAP retains authoritative original paths and committed equivalents. The archive includes actual sidecar bytes and receipts but not a complete installed runtime, and does not authorize relocated execution.

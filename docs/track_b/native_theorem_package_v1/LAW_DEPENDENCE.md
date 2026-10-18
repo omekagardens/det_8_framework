@@ -1,0 +1,249 @@
+# Law dependence: structural identities versus prescribed choices
+
+18 October 2026. Bounded initial result accompanying THEOREM_PACKAGE.md.
+
+## 1. Question and answer
+
+Which conclusions follow from the declared record-marked growth principles, and which depend on the selected seed, normalization and canonical objective?
+
+The principles do not uniquely select the admitted law. A concrete one-parameter alternative finite prefix is proved below. At parent size four, taking its parameter to be \(1/2\) changes the fixed-law full-slot ratio \(c_1/c_0=359/360\) while preserving strict positivity, record locality, marked equivariance and every diamond contained in that prefix.
+
+This is a change of law, not a coordinate renormalization. It does not refute the existing fixed-law theorems. It shows why their numerical coefficients and cross-sector comparisons must not be promoted to consequences of the model principles alone.
+
+The alternative is deliberately a **finite-prefix construction**. Keeping the old later layers unchanged is not part of the result. In particular a uniform proper-only scaling at every layer, with full complements filled independently, is not proved covariant and generally fails a mixed full/proper diamond.
+
+## 2. Premises and exact prefix boundary
+
+Use the conditional model of THEOREM_PACKAGE.md §1: every ideal has positive probability; full normalization; strict precursor-record locality; whole-unmarked-parent access; transported marked equivariance; fair immutable newborn bits; and complete incomparable-birth diamonds acting on the entire arbitrary complex PSD payload by \(q_1q_2/4\).
+
+Fix any admissible law prefix through parent size \(n\ge1\). “Through parent size \(n\)” means its transitions from sizes \(0,\ldots,n\), hence through \(n+1\) births. Its largest internal diamond has base size \(n-1\), two intermediate parents of size \(n\), and terminal size \(n+1\).
+
+Choose a single constant \(0<t\le1\), the same for every parent, marking and proper ideal at size \(n\). Define
+
+\[
+ q^{(t)}(P,r,S)=
+ \begin{cases}
+ q(P,r,S),&|P|<n,\\
+ t\,q(P,r,S),&|P|=n,\ S\subsetneq P,\\
+ (1-t)+t\,q(P,r,P),&|P|=n,\ S=P .
+ \end{cases}                                             \tag{L1}
+\]
+
+No probability at parent size \(n+1\) or above is specified by (L1). Their old values are not held fixed.
+
+### Proposition 1: complete finite-prefix admissibility
+
+For every admitted prefix and every \(0<t\le1\), (L1) is an admitted prefix through the same parent size.
+
+**Proof.**
+
+For each changed complete row,
+
+\[
+ \sum_{S\subsetneq P}tq(P,r,S)+(1-t)+tq(P,r,P)=1.
+\]
+
+Every proper term is strictly positive; the full complement is positive as a convex combination of one and the old positive full probability. There is more than one eligible ideal for nonempty \(P\), so each probability is also less than one. The two newborn branches remain \(q^{(t)}/2\).
+
+A common record-independent scalar preserves every proper locality restriction and equivariance. The full complement is permitted to depend on all marks and is equivariant by its complete row sum.
+
+All diamonds based below size \(n-1\) are unchanged. For a diamond with base \(C\) of size \(n-1\), let its independent precursors be \(S,T\subseteq C\). Its second precursor is \(T\) in \(C+x_S\), or \(S\) in \(C+y_T\). Each is necessarily **proper in its intermediate parent**, because it excludes the other newborn. Thus both route products acquire exactly one factor \(t\):
+
+\[
+ q(C,S)\,tq(C+x_S,T)
+     =q(C,T)\,tq(C+y_T,S).
+ \tag{L2}
+\]
+
+This includes \(S=C\) or \(T=C\), and \(S=T\). A full *first* birth at the old base \(C\) is unchanged because \(|C|=n-1\); its corresponding second precursor is proper at size \(n\) and is scaled like every other second precursor. All old and newborn marks and the common \(1/4\) payload factor remain. Hence every diamond contained in the prefix is preserved. ∎
+
+No exclusion of full-first-birth diamonds is used. The result depends instead on the exact location of the changed last layer.
+
+### Why extending the same scaling rule beyond the boundary is not justified
+
+Suppose an original admissible continuation at parent size \(n+1\) is available. Consider a diamond based at a changed parent \(P\) of size \(n\), with first precursors \(P\) and a proper ideal \(S\). Let
+
+\[
+ a=q(P,P),\ b=q(P,S),\
+ c=q(P+x_P,S),\ d=q(P+y_S,P),\qquad ac=bd .
+\]
+
+If the old size-\(n+1\) rows were left unchanged, the new route products would be
+
+\[
+ [(1-t)+ta]c\quad\text{and}\quad tb\,d=tac .
+\]
+
+Their difference is \((1-t)c>0\) for \(0<t<1\). Thus that attempted extension fails. If one also applied a common proper-only scaling \(t'\) at size \(n+1\), both second factors would be scaled, leaving difference \(t'(1-t)c>0\). Uniform proper-only scaling across layers does not fix the problem.
+
+This explicit mixed-diamond calculation is the reason (L1) is only a prefix transformation. It is not a loophole in the diamond definition.
+
+Conditional on the admitted ratio-potential extension theorem, the changed valid prefix has some positive continuation: its new potentials must be computed from the changed prefix and its new component scales chosen consistently. Such a continuation is not the old law with unchanged coefficients, and is not an already verified continuation with any preferred geometric or optimization property.
+
+## 3. A concrete admitted alternative and a non-invariant ratio
+
+Apply (L1) at parent size four to the fixed admitted prefix and take \(t=1/2\). All rows at smaller sizes, including the seed, are unchanged. All proper parent-four component scales are halved in the existing potential normalization. This is an exact alternative prescription; it needs no new coefficient search.
+
+At the four-chain, the original held values are
+
+\[
+ B_\varnothing=B_{\rm root}=1/352,\quad
+ c_0=81/1100,\quad c_1=3231/44000,\quad c_1/c_0=359/360 .
+\]
+
+The alternative has
+
+\[
+ B^{(1/2)}_\varnothing=B^{(1/2)}_{\rm root}=1/704,
+\]
+\[
+ c^{(1/2)}_0=(1+c_0)/2=1181/2200,\qquad
+ c^{(1/2)}_1=(1+c_1)/2=47231/88000,
+\]
+\[
+ \frac{c^{(1/2)}_1}{c^{(1/2)}_0}
+       =\frac{47231}{47240}\ne\frac{359}{360}.             \tag{L3}
+\]
+
+Indeed \(47231/47240=1-9/47240\), whereas \(359/360=1-1/360\); their deficits differ because \(9\cdot360=3240\ne47240\).
+
+This alternative belongs to the same conditional model through parent four. It is not asserted to preserve the optional half-height target for which the original parent-four witness was selected. Failure of that additional performance target, if it occurs, would not be failure of the model's positivity/locality/diamond principles.
+
+### Bounded conclusion
+
+The numerical ratio \(359/360\), and therefore the specific coefficients \(360,359,1\) in the fixed-law residual test
+
+\[
+ \mu_1=\mu_0\quad\Longleftrightarrow\quad360R_1-359R_0=1,
+\]
+
+are not forced by the declared model principles and the unchanged smaller seed alone. They use the prescribed parent-four law.
+
+This does **not** establish that the new law has a different signed-kernel dimension, excludes the old endpoint by a different mechanism, or changes the actual \(\mu\) branch. Its parent-five optimization, canonical active support, \(\theta,\mu\), later potentials and harmonic direction have not been derived. No original formula requiring those quantities is transplanted.
+
+If a new law separately satisfies a corresponding saturation relation
+\(\sigma_i=(1-R_i)/c_i\) and has a common positive \(\mu/\sigma\) factor, then its equality test is
+
+\[
+ c_0(1-R_1)=c_1(1-R_0).
+ \tag{L4}
+\]
+
+The form is elementary algebra under those explicit hypotheses. Their satisfaction for the changed canonical instance is not assumed.
+
+## 4. Optional law choices are not coordinate gauges
+
+### Potential gauge: no probability changes
+
+For a ratio component \(\mathcal C\), replace a positive potential by
+\(u'_{\mathcal C}=\lambda_{\mathcal C}u_{\mathcal C}\), with
+\(\lambda_{\mathcal C}>0\), and replace its scale by
+\(\alpha'_{\mathcal C}=\alpha_{\mathcal C}/\lambda_{\mathcal C}\).
+Every product \(u'\alpha'=u\alpha\), full complement and path probability is unchanged.
+
+This is a representation change, not a new law. A “common scale” prescription depends on the potential convention: unequal component gauges turn a common coefficient into unequal coefficients. A specified gauge must therefore precede comparisons of common-scale families.
+
+### Harmonic normalization: distinguish a paired change from a new amplitude
+
+For \(h_7=1+\epsilon Z\), the paired substitution
+\(Z'=kZ,\epsilon'=\epsilon/k\), with \(k>0\), leaves \(h_7\) unchanged. The convention \(z_1=1\) fixes this freedom.
+
+Changing \(\epsilon\) alone while retaining the normalized \(z\) changes \(h_7\) and the law. The sufficiently-small-amplitude theorem and the \(1/4\) rejection are not different coordinate readings of one endpoint.
+
+### Natural versus historical coordinates
+
+The natural identities
+\(\delta x=\epsilon\delta y\),
+\(W_j=e_j\delta y_{J_j}\), and
+\(\delta\alpha(H)=s\epsilon\delta y_H/\prod h_7(H-v)\)
+are exact representation maps at the fixed baseline and amplitude.
+
+The historical \(u/\Gamma\) dictionary is not fully source-bound. Treating it as a gauge without first specifying its child classes, scaling and possible mixing would conceal a missing premise. The package retains the gap rather than defining it away.
+
+### Genuine choices
+
+The seed values, the parent-four witness, the expected-Ferrers-defect objective, whole-history weighting, canonical lexicographic ordering, the strict mixing schedule, the common half-scale continuation, the normalized harmonic direction and the requested amplitude are prescriptions beyond the basic conditional model.
+
+Some satisfy additional design goals. That does not make those goals consequences of the diamond identities or of DET primitives. The model itself also contains chosen assumptions—fair bits, scalar-passive payload maps, and one committed birth per bookkeeping step—not yet derived from bare DET.
+
+## 5. What remains structural under a changed law?
+
+The ratio graph at a fixed layer is built from order/precursor/mark presentations and complete diamonds. With strict positivity and the same eligibility/locality conventions, changing positive numerical coefficients does not change which terminal presentations or compulsory marks occur. Positivity matters: admitting zero branches could invalidate cancellations and change the relevant family.
+
+Consequently the following are structural:
+
+- The shared-child meaning of a record-blind \(x_H\), and the affine system \(Ax=h_7\).
+- The distinction between forward ideal multiplicities and backward deletion counts.
+- Exhaustive carrier types for a specified terminal and their marked connectivity.
+- Complete-row capacity formulas using the *new* probabilities and potentials.
+- The telescoping harmonic argument and the empty-birth lift theorem when their explicit baseline/support/harmonic premises hold.
+
+The natural numerical matrix \(A\), a selected harmonic vector \(z\), the signs of its coefficient contrasts, the canonical objective coefficients, and the minimizing active set can change.
+
+For example, at the concrete parent-four alternative,
+
+\[
+ p_i^{(t)}=tp_i,\quad g_{ij}^{(t)}=tg_{ij},\quad
+ h_*^{(t)}=th_*,\quad v_i^{(t)}=v_i,
+\]
+
+because \(p,g,h_*\) are proper parent-four probabilities while \(v\) is a parent-three probability. The two-maximum potentials for the neutral staircase carriers therefore become
+
+\[
+ e_{im}^{(t)}=t^2(p_i/v_i)g_{im},\qquad
+ w_{ijm}^{(t)}=t^2g_{ij}g_{im}/v_i .
+ \tag{L5}
+\]
+
+These identities describe lower-law potentials, not the new canonical allocation. If \(\xi_i^{(t)}\) denotes the new staircase component coefficient, its corresponding direct loads obey
+\(Y_i^{(t)}=(p_i^{(t)}\bar g_i^{(t)}/v_i)\xi_i^{(t)}\) and
+\(Z_i^{(t)}=((\bar g_i^{(t)})^2/v_i)\xi_i^{(t)}\).
+Thus the algebraic coupling
+\(\bar g_i^{(t)}Y_i^{(t)}=p_i^{(t)}Z_i^{(t)}\) survives for those component loads.
+
+This does not prove that all other canonical carrier terms vanish for the changed instance. The original finite everywhere-neutral active-support result must be reproved before reducing its entire capacities to the same small subsystem.
+
+## 6. Claim-by-claim classification
+
+“Principle-forced” below means forced by the *declared conditional model*, not proved from DET's original ontology.
+
+| Claim | Classification | Dependence / boundary |
+| --- | --- | --- |
+| Two newborn \(1/2\) factors give a full \(1/4\) diamond map | Forced identity within the fair scalar-passive model | Fairness and scalar passivity are themselves admitted assumptions |
+| Component ratios constant along complete ratio edges | Forced identity with positivity | Does not select component amplitudes |
+| Positive last-layer scaling (L1) | Theorem for an explicit family of admissible prefixes | Later layers must be rebuilt; cross-layer naive scaling fails |
+| Numerical \(c_1/c_0=359/360\) | Example-specific | Counterexample (L3) within the same prefix model |
+| Canonical carrier aliases for fixed terminal shapes | Structural theorem under complete eligibility/locality | No claim about their numerical coefficients or positivity at a boundary |
+| Small-amplitude empty-birth lift | Theorem under explicit support and harmonic hypotheses | Does not supply those hypotheses for a newly chosen law |
+| One-/two-dimensional natural kernel | Fixed-law theorem using stated coefficient lemmas | Not a universal property of all positive growth laws |
+| 30/33/38 rejection at \(1/4\) | Fixed-law, fixed-support, fixed-amplitude theorem | Depends on \(z_2,e_2\), contrasts and prescribed restorations |
+| Four marked prefix roles have equal value \(4693/17600\) | Example-specific equality | Distinct components; numerical equality is not mark erasure |
+| Every active canonical component at parent five is neutral | Admitted finite instance result | Not forced for every prefix, objective, primary optimum or later layer |
+| Strict mixing restores all branches | Theorem for a boundary-feasible vector and positive interior mixture | Choice of mixture schedule is optional |
+| Primary minimizer versus lexicographic minimizer | Definition plus finite optimization theorem | Primary optimum can be nonunique; ordering selects one |
+| Scalar canonical saturation under complete carrier slack | Conditional optimization theorem | Must retain all competitor loads and objective contributions |
+| \(\bar g_iY_i=p_iZ_i\) | Structural component/load identity | Numerical loads remain selector-dependent |
+| Sublinear defect / manifoldlike growth | Unproved candidate asymptotic claims | Finite low-drift or exact inverses do not establish them |
+| Informative QM / physical geometry / gravity | Not established | No borrowed input may be claimed as its own derivation |
+
+## 7. What a change invalidates, and the remaining questions
+
+Changing an earlier layer changes later maximal-deletion products, complete row maxima, history weights, objective coefficients and canonical solutions. It can also change which sign or zero-contrast branch a later theorem occupies. Old numerical coefficients, canonical-support facts and endpoint certificates must not be reused without a new proof.
+
+The existing theorems remain valid for their unchanged instance. The concrete alternative demonstrates nonuniqueness at the declared principle level without claiming a superior performance law or opening a search over alternatives.
+
+The remaining questions have bounded roles:
+
+1. The original \(\mu\) comparison is needed only for a claim selecting the actual dimension, rather than the already complete branch-conditional classification.
+2. A law-comparison claim using specified contrast or support lemmas for a changed prefix must reprove those lemmas for that prefix.
+3. Calling an optional normalization, objective or canonical ordering DET-forced requires an independent law-selection principle.
+
+This result includes no coefficient sweep, new canonical allocation, xi allocation, optimization, enlarged support, uniform-coverage or noncollapse theorem, or geometry extension. It is a bounded law-dependence result accompanying the conditional theorem package, not a new theorem about the actual canonical branch or a completed historical-coordinate reconciliation.
+
+The metric-as-record interpretation remains unvalidated, the previously retired gravity proposal is not rehabilitated, and no production readiness or missing validation evidence is supplied. Separate software and empirical projects are outside this analysis; their prior status is unchanged. The broader kinematic horizon is not a claim. No physical time, informative quantum dynamics, mass/gravity derivation or empirical discriminator follows.
+
+## 8. Provenance and verification scope
+
+This manual argument uses the model/ratio statements, fixed prefix values and carrier proofs summarized in §§1, 4, 8 and 9 of THEOREM_PACKAGE.md and the supporting proofs named there. Their exact source identities are recorded separately. No scientific certificate was parsed, no historical checker replayed, and no numerical alternative table computed.
+
+Proposition 1 is a new symbolic finite-prefix proof. The mixed full/proper diamond is explicitly included as a boundary check and as a counterexample to the overbroad cross-layer variant. Equations (L3)–(L5) are manual consequences of the displayed definitions, not executed arithmetic. The fresh administrative checks concern bytes and receipts only; inherited custody limitations remain preserved.

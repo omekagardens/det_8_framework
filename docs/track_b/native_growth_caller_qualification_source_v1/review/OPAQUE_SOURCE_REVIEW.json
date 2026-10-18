@@ -1,0 +1,3201 @@
+{
+  "administrative_manifest_counts": [
+    {
+      "entries": 2988,
+      "name": "runtime",
+      "pin": {
+        "bytes": 2862854,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+        "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920"
+      }
+    },
+    {
+      "entries": 699,
+      "name": "history",
+      "pin": {
+        "bytes": 2170307,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+        "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+      }
+    },
+    {
+      "entries": 299,
+      "name": "dependencies",
+      "pin": {
+        "bytes": 583262,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+        "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+      }
+    }
+  ],
+  "all_transitive_runtime_files_currently_observed": false,
+  "checks": [
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "passed": true
+    },
+    {
+      "check": "10 handoff-bound files plus self11",
+      "passed": true
+    },
+    {
+      "check": "exact11 sealed namespace",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "40 unique predecessor pins",
+      "passed": true
+    },
+    {
+      "check": "exact predecessor namespace /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0",
+      "passed": true
+    },
+    {
+      "check": "exact predecessor namespace /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "exact opaque identity /Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-unbound-manifest', 'runtime_prepare', 'preparation', 'runtime metadata pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-changed-manifest', 'runtime_prepare', 'runtime', 'runtime metadata bytes differ before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-membership-change', 'run', 'prerequisite', 'directory names, kinds or link targets changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-absence-invalid', 'run', 'prerequisite', 'declared absent import alternative now exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-host-drift', 'run', 'prerequisite', 'uname, system version or visible system location differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-file-changed', 'runtime_file_prerequisites', 'prerequisite', 'one captured runtime file changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('runtime-late-namespace-change', 'run', 'runtime_namespace_change', 'namespace or host changes after launch'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('unbound-dependency-pin', 'dependency_prepare', 'preparation', 'static source dependency pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-dependency-manifest', 'dependency_prepare', 'dependency', 'static source dependency metadata bytes changed before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('dependency-order-or-duplicate', 'dependency_prepare', 'dependency', 'static dependency path order or role is not closed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('dependency-link-or-alias', 'dependency_prepare', 'dependency', 'static dependency identity is linked or resolved elsewhere'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-source-dependency', 'source_prerequisites', 'prerequisite', 'one complete static source/evidence identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('unbound-history-pin', 'preparation_ready', 'preparation', 'None history pin before Attempt'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-history-manifest', 'preparation_ready', 'history', 'opaque manifest digest changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-historical-file', 'source_prerequisites', 'prerequisite', 'one complete historical identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('history-order-or-duplicate', 'preparation_ready', 'history', 'unsorted or duplicate protected path'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('history-zero-byte-log-valid', 'validate_identity', None, 'zero-byte regular historical log remains allowed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('missing-root-source-card', 'observed', 'identity', 'fixed current source decision unavailable'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('missing-independent-review', 'observed', 'identity', 'fixed complete source review unavailable'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-source-card-scope', 'source_prerequisites', 'prerequisite', 'source card claims execution or inherited target qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-source-card-extra-field', 'source_prerequisites', 'prerequisite', 'extra root source card field'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('transient-current-admission-body', 'read_metadata', 'identity', 'parsed current freeze/auth bytes differ from observed pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('transient-saved-witness-body', 'read_metadata', 'identity', 'parsed addendum/witness receipt bytes differ from observed pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-scientific-copy', 'source_prerequisites', 'identity', 'fixed source/input byte or size pin changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-runtime-bytes', 'runtime_file_prerequisites', 'prerequisite', 'interpreter or monitor captured identity differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('changed-runtime-links', 'runtime_file_prerequisites', 'prerequisite', 'literal interpreter symlink traversal differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-applicability-mode', 'applicability', 'prerequisite', 'stage applicability for another mode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-applicability-argv-env-limits', 'applicability', 'prerequisite', 'fixed command or envelope differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('old-target-qualification-credit', 'completed_mode', 'prerequisite', 'completed review lacks current15/4/71 actual checks or credits old qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('missing-prerequisite-before-attempt', 'pre_attempt_prerequisites', 'identity', 'missing current card/input/prior custody refuses before exclusive Attempt allocation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('future-card-not-completed', 'completed_mode', 'prerequisite', 'prior root custody is not completed and accepted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('receipt-flag-only', 'completed_mode', 'prerequisite', 'receipt success without genuine completed outer zero exit'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('outer-boolean-zero', 'completed_mode', 'prerequisite', 'outer exit_code false instead of integer zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('outer-unfinished-session', 'completed_mode', 'prerequisite', 'outer result retains session_id'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('outer-invocation-reconstruction', 'completed_mode', 'prerequisite', 'actual invocation differs from admitted literal'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-completed-output-reference', 'bind', 'prerequisite', 'completed review references wrong current bytes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('supplemental-reference-outside-closure', 'current', 'identity', 'metadata narrative references unclosed path'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('prior-snapshot-role-set', 'completed_mode', 'prerequisite', 'receipt has extra or omitted input role'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('freeze-input-order', 'validate_freeze', 'configuration', 'ordered input array permuted or extended'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('premature-normal', 'observed', 'identity', 'missing completed witness card/evidence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('premature-optimized', 'observed', 'identity', 'missing completed normal card/evidence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('partial-candidate', 'candidate_prerequisite', 'identity', 'candidate differs in any byte from complete witness'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('candidate-math-promotion', 'candidate_prerequisite', 'prerequisite', 'candidate custody asserts scientific acceptance'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-summary-whole-bytes', 'completed_mode', 'identity', 'optimized and normal complete summaries differ'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('witness-existing-candidate', 'run', 'witness_certificate', 'any of the three candidate paths already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('attempt-output-reuse', 'Attempt.__init__', 'FileExistsError', 'exclusive attempt directory already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('wrong-outer-cwd-env-flags', 'run', 'configuration', 'outer cwd/environment/isolated flags or argv changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('late-input-change', 'run', 'input_change', 'input identities change after admitted child'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('inherited-monitor-failure', 'monitor', 'monitor', 'missing/malformed/nonzero/timed-out required census'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('inherited-wall-limit', 'run', 'wall_limit', 'child exceeds the fixed 120-second deadline'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('inherited-rss-limit', 'run', 'rss_limit', 'sampled owned group exceeds 512 MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py:    ('inherited-signal', 'stop_signal', 'signal', 'catchable interruption invalidates success'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-unbound-manifest', 'runtime_prepare', 'preparation', 'runtime metadata pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-changed-manifest', 'runtime_prepare', 'runtime', 'runtime metadata bytes differ before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-membership-change', 'run', 'prerequisite', 'directory names, kinds or link targets changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-absence-invalid', 'run', 'prerequisite', 'declared absent import alternative now exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-host-drift', 'run', 'prerequisite', 'uname, system version or visible system location differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-file-changed', 'runtime_file_prerequisites', 'prerequisite', 'one captured runtime file changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('runtime-late-namespace-change', 'run', 'runtime_namespace_change', 'namespace or host changes after launch'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('unbound-dependency-pin', 'dependency_prepare', 'preparation', 'static source dependency pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-dependency-manifest', 'dependency_prepare', 'dependency', 'static source dependency metadata bytes changed before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('dependency-order-or-duplicate', 'dependency_prepare', 'dependency', 'static dependency path order or role is not closed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('dependency-link-or-alias', 'dependency_prepare', 'dependency', 'static dependency identity is linked or resolved elsewhere'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-source-dependency', 'source_prerequisites', 'prerequisite', 'one complete static source/evidence identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('unbound-history-pin', 'preparation_ready', 'preparation', 'None history pin before Attempt'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-history-manifest', 'preparation_ready', 'history', 'opaque manifest digest changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-historical-file', 'source_prerequisites', 'prerequisite', 'one complete historical identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('history-order-or-duplicate', 'preparation_ready', 'history', 'unsorted or duplicate protected path'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('history-zero-byte-log-valid', 'validate_identity', None, 'zero-byte regular historical log remains allowed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('missing-root-source-card', 'observed', 'identity', 'fixed current source decision unavailable'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('missing-independent-review', 'observed', 'identity', 'fixed complete source review unavailable'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-source-card-scope', 'source_prerequisites', 'prerequisite', 'source card claims execution or inherited target qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-source-card-extra-field', 'source_prerequisites', 'prerequisite', 'extra root source card field'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('transient-current-admission-body', 'read_metadata', 'identity', 'parsed current freeze/auth bytes differ from observed pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('transient-saved-witness-body', 'read_metadata', 'identity', 'parsed addendum/witness receipt bytes differ from observed pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-scientific-copy', 'source_prerequisites', 'identity', 'fixed source/input byte or size pin changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-runtime-bytes', 'runtime_file_prerequisites', 'prerequisite', 'interpreter or monitor captured identity differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('changed-runtime-links', 'runtime_file_prerequisites', 'prerequisite', 'literal interpreter symlink traversal differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-applicability-mode', 'applicability', 'prerequisite', 'stage applicability for another mode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-applicability-argv-env-limits', 'applicability', 'prerequisite', 'fixed command or envelope differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('old-target-qualification-credit', 'completed_mode', 'prerequisite', 'completed review lacks current15/4/71 actual checks or credits old qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('missing-prerequisite-before-attempt', 'pre_attempt_prerequisites', 'identity', 'missing current card/input/prior custody refuses before exclusive Attempt allocation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('future-card-not-completed', 'completed_mode', 'prerequisite', 'prior root custody is not completed and accepted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('receipt-flag-only', 'completed_mode', 'prerequisite', 'receipt success without genuine completed outer zero exit'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('outer-boolean-zero', 'completed_mode', 'prerequisite', 'outer exit_code false instead of integer zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('outer-unfinished-session', 'completed_mode', 'prerequisite', 'outer result retains session_id'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('outer-invocation-reconstruction', 'completed_mode', 'prerequisite', 'actual invocation differs from admitted literal'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-completed-output-reference', 'bind', 'prerequisite', 'completed review references wrong current bytes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('supplemental-reference-outside-closure', 'current', 'identity', 'metadata narrative references unclosed path'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('prior-snapshot-role-set', 'completed_mode', 'prerequisite', 'receipt has extra or omitted input role'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('freeze-input-order', 'validate_freeze', 'configuration', 'ordered input array permuted or extended'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('premature-normal', 'observed', 'identity', 'missing completed witness card/evidence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('premature-optimized', 'observed', 'identity', 'missing completed normal card/evidence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('partial-candidate', 'candidate_prerequisite', 'identity', 'candidate differs in any byte from complete witness'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('candidate-math-promotion', 'candidate_prerequisite', 'prerequisite', 'candidate custody asserts scientific acceptance'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-summary-whole-bytes', 'completed_mode', 'identity', 'optimized and normal complete summaries differ'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('witness-existing-candidate', 'run', 'witness_certificate', 'any of the three candidate paths already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('attempt-output-reuse', 'Attempt.__init__', 'FileExistsError', 'exclusive attempt directory already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('wrong-outer-cwd-env-flags', 'run', 'configuration', 'outer cwd/environment/isolated flags or argv changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('late-input-change', 'run', 'input_change', 'input identities change after admitted child'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('inherited-monitor-failure', 'monitor', 'monitor', 'missing/malformed/nonzero/timed-out required census'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('inherited-wall-limit', 'run', 'wall_limit', 'child exceeds the fixed 120-second deadline'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('inherited-rss-limit', 'run', 'rss_limit', 'sampled owned group exceeds 512 MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py:    ('inherited-signal', 'stop_signal', 'signal', 'catchable interruption invalidates success'),",
+      "passed": true
+    },
+    {
+      "check": "complete literal declaration block equality native",
+      "passed": true
+    },
+    {
+      "check": "declaration count native",
+      "passed": true
+    },
+    {
+      "check": "complete disjoint classification native",
+      "passed": true
+    },
+    {
+      "check": "classification counts native",
+      "passed": true
+    },
+    {
+      "check": "exact ordered case source labels native",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-unbound-manifest', 'runtime_prepare', 'preparation', 'runtime metadata pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-changed-manifest', 'runtime_prepare', 'runtime', 'runtime metadata bytes differ before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-membership-change', 'run', 'identity', 'directory names, kinds or link targets changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-absence-invalid', 'run', 'identity', 'declared absent import alternative now exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-host-drift', 'run', 'identity', 'uname, system version or visible system location differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-file-changed', 'runtime_file_prerequisites', 'identity', 'one captured runtime file changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-late-namespace-change', 'run', 'runtime_namespace_change', 'namespace or host changes after launch'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('unbound-dependency-pin', 'dependency_prepare', 'preparation', 'source dependency manifest pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('changed-dependency-manifest', 'dependency_prepare', 'dependency', 'source dependency metadata bytes changed before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('dependency-order-or-duplicate', 'dependency_prepare', 'dependency', 'source dependency order or role is not closed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('dependency-link-or-alias', 'dependency_prepare', 'dependency', 'source dependency identity is linked or resolved elsewhere'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('changed-source-dependency', 'verify_source_cards', 'identity', 'one complete static source/evidence identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('old-target-qualification-credit', 'validate_mode_custodies', 'prerequisite', 'completed review lacks current15/4/71 checks or credits old qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('pre-attempt-missing-or-invalid-prerequisite', 'pre_attempt_prerequisites', 'varies-by-failed-prerequisite', 'current freeze/auth or full fixed prerequisite fails before allocation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('unbound-history', 'preparation_ready', 'preparation', 'history pin is None or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('changed-history', 'preparation_ready', 'identity', 'manifest bytes no longer match literal pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('missing-binding', 'preparation_ready', 'FileNotFoundError', 'future actual binding does not exist'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-extra-key', 'preparation_ready', 'preparation', 'actual binding has an extra field'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-null-identity', 'positive_identity', 'configuration', 'future identity is null'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-zero-size', 'positive_identity', 'preparation', 'future actual identity has zero size'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-zero-digest', 'positive_identity', 'preparation', 'future actual identity has zero digest'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-arbitrary-path', 'positive_identity', 'configuration', 'a fixed future path is substituted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-missing-mode', 'preparation_ready', 'preparation', 'one actual custody is omitted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('binding-changed-after-cache', 'validate_authorization', 'identity', 'binding changes before freeze validation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('missing-custody', 'preparation_ready', 'FileNotFoundError', 'required genuine completed custody absent'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('history-order', 'preparation_ready', 'configuration', 'protected roles or paths reordered'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('history-duplicate', 'preparation_ready', 'configuration', 'protected literal path repeated'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('history-zero-log-valid', 'validate_identity', None, 'empty historical stderr remains permitted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('changed-protected-file', 'verify_source_cards', 'identity', 'one historical full identity changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('changed-copy', 'verify_source_cards', 'identity', 'one exact scientific source/input copy changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('source-decision-extra-field', 'verify_source_cards', 'prerequisite', 'root source decision contains extra key'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('source-decision-promotion', 'verify_source_cards', 'prerequisite', 'source decision grants execution or target qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('source-review-incomplete', 'verify_source_cards', 'prerequisite', 'independent source review has blockers'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('stage-wrong-mode', 'verify_applicability', 'prerequisite', 'applicability names another mode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('stage-wrong-argv', 'verify_applicability', 'identity', 'applicability changes literal child argv'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('stage-wrong-env-limits', 'verify_applicability', 'identity', 'applicability changes environment or envelope'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('freeze-input-order', 'validate_freeze', 'configuration', 'frozen array differs in order or length'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('freeze-raw-body-mismatch', 'metadata', 'identity', 'parsed freeze bytes differ from snapshot identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('authorization-raw-body-mismatch', 'metadata', 'identity', 'parsed authorization bytes differ from snapshot identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('runtime-link-change', 'validate_freeze', 'identity', 'runtime literal symlink or bytes differs from freeze'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('missing-explicit-auth', 'validate_authorization', 'authorization', 'root authorization is not exact positive admission'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('target-path-alias', 'validate_authorization', 'identity', 'one of eight fixed target paths is substituted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('target-physical-alias', 'validate_authorization', 'identity', 'any two of eight target objects share device/inode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('target-symlink', 'validate_authorization', 'identity', 'a target file or ancestor is a symlink'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('target-oversize', 'validate_authorization', 'identity', 'one target object exceeds eight MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('target-certificate-binding', 'validate_authorization', 'authorization', 'native saved certificate differs from actual binding'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('serial-receipt-only', 'validate_mode_custodies', 'prerequisite', 'receipt claims success without root custody'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('serial-omitted-prior', 'validate_mode_custodies', 'identity', 'optimized omits genuine normal acceptance'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-false-zero', 'validate_producer_receipts', 'prerequisite', 'child exit false replaces integer zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-role-trailer', 'validate_producer_receipts', 'configuration', 'native input array has trailing non-dict'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-before-after-change', 'validate_producer_receipts', 'identity', 'retained native snapshots differ from current'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-empty-live-samples', 'validate_producer_receipts', 'prerequisite', 'no positive live sample exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-no-terminal-absence', 'validate_producer_receipts', 'prerequisite', 'last census retains owned processes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('native-candidate-during-witness', 'validate_producer_receipts', 'identity', 'witness did not preserve candidate absence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('candidate-partial', 'validate_mode_custodies', 'identity', 'one saved candidate differs in any byte'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('saved-summary-difference', 'validate_mode_custodies', 'identity', 'normal and optimized complete bytes differ'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('outer-wrong-literal-invocation', 'validate_mode_custodies', 'identity', 'actual command differs from pre-admission'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('outer-false-zero', 'validate_mode_custodies', 'prerequisite', 'false replaces genuine integer outer exit zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('outer-unfinished-session', 'validate_mode_custodies', 'prerequisite', 'outer completion still has a session id'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('outer-receipt-mismatch', 'validate_mode_custodies', 'identity', 'actual outer message binds a different receipt'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('review-missing-output', 'validate_mode_custodies', 'identity', 'completed review omits one of six outputs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('metadata-unclosed-reference', 'bind_refs', 'identity', 'decoded metadata names an unclosed identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('attempt-reuse', 'Attempt.__init__', 'FileExistsError', 'exclusive audit-01 already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('wrong-launch-environment', 'run', 'configuration', 'outer flags, argv, cwd or exact environment differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('monitor-failure', 'monitor', 'monitor', 'required census is malformed, nonzero or timed out'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('wall-limit', 'run', 'wall_limit', 'owned child reaches 120-second bound'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('rss-limit', 'run', 'rss_limit', 'sampled owned group exceeds 512 MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('late-input-change', 'run', 'input_change', 'post-admission input byte or link identity changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py:    ('late-signal', 'run', 'signal', 'catchable interruption invalidates apparent completion'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-unbound-manifest', 'runtime_prepare', 'preparation', 'runtime metadata pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-changed-manifest', 'runtime_prepare', 'runtime', 'runtime metadata bytes differ before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-membership-change', 'run', 'identity', 'directory names, kinds or link targets changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-absence-invalid', 'run', 'identity', 'declared absent import alternative now exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-host-drift', 'run', 'identity', 'uname, system version or visible system location differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-file-changed', 'runtime_file_prerequisites', 'identity', 'one captured runtime file changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-late-namespace-change', 'run', 'runtime_namespace_change', 'namespace or host changes after launch'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('unbound-dependency-pin', 'dependency_prepare', 'preparation', 'source dependency manifest pin is missing or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('changed-dependency-manifest', 'dependency_prepare', 'dependency', 'source dependency metadata bytes changed before parsing'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('dependency-order-or-duplicate', 'dependency_prepare', 'dependency', 'source dependency order or role is not closed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('dependency-link-or-alias', 'dependency_prepare', 'dependency', 'source dependency identity is linked or resolved elsewhere'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('changed-source-dependency', 'verify_source_cards', 'identity', 'one complete static source/evidence identity changed'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('old-target-qualification-credit', 'validate_mode_custodies', 'prerequisite', 'completed review lacks current15/4/71 checks or credits old qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('pre-attempt-missing-or-invalid-prerequisite', 'pre_attempt_prerequisites', 'varies-by-failed-prerequisite', 'current freeze/auth or full fixed prerequisite fails before allocation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('unbound-history', 'preparation_ready', 'preparation', 'history pin is None or placeholder'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('changed-history', 'preparation_ready', 'identity', 'manifest bytes no longer match literal pin'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('missing-binding', 'preparation_ready', 'FileNotFoundError', 'future actual binding does not exist'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-extra-key', 'preparation_ready', 'preparation', 'actual binding has an extra field'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-null-identity', 'positive_identity', 'configuration', 'future identity is null'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-zero-size', 'positive_identity', 'preparation', 'future actual identity has zero size'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-zero-digest', 'positive_identity', 'preparation', 'future actual identity has zero digest'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-arbitrary-path', 'positive_identity', 'configuration', 'a fixed future path is substituted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-missing-mode', 'preparation_ready', 'preparation', 'one actual custody is omitted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('binding-changed-after-cache', 'validate_authorization', 'identity', 'binding changes before freeze validation'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('missing-custody', 'preparation_ready', 'FileNotFoundError', 'required genuine completed custody absent'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('history-order', 'preparation_ready', 'configuration', 'protected roles or paths reordered'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('history-duplicate', 'preparation_ready', 'configuration', 'protected literal path repeated'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('history-zero-log-valid', 'validate_identity', None, 'empty historical stderr remains permitted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('changed-protected-file', 'verify_source_cards', 'identity', 'one historical full identity changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('changed-copy', 'verify_source_cards', 'identity', 'one exact scientific source/input copy changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('source-decision-extra-field', 'verify_source_cards', 'prerequisite', 'root source decision contains extra key'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('source-decision-promotion', 'verify_source_cards', 'prerequisite', 'source decision grants execution or target qualification'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('source-review-incomplete', 'verify_source_cards', 'prerequisite', 'independent source review has blockers'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('stage-wrong-mode', 'verify_applicability', 'prerequisite', 'applicability names another mode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('stage-wrong-argv', 'verify_applicability', 'identity', 'applicability changes literal child argv'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('stage-wrong-env-limits', 'verify_applicability', 'identity', 'applicability changes environment or envelope'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('freeze-input-order', 'validate_freeze', 'configuration', 'frozen array differs in order or length'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('freeze-raw-body-mismatch', 'metadata', 'identity', 'parsed freeze bytes differ from snapshot identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('authorization-raw-body-mismatch', 'metadata', 'identity', 'parsed authorization bytes differ from snapshot identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('runtime-link-change', 'validate_freeze', 'identity', 'runtime literal symlink or bytes differs from freeze'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('missing-explicit-auth', 'validate_authorization', 'authorization', 'root authorization is not exact positive admission'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('target-path-alias', 'validate_authorization', 'identity', 'one of eight fixed target paths is substituted'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('target-physical-alias', 'validate_authorization', 'identity', 'any two of eight target objects share device/inode'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('target-symlink', 'validate_authorization', 'identity', 'a target file or ancestor is a symlink'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('target-oversize', 'validate_authorization', 'identity', 'one target object exceeds eight MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('target-certificate-binding', 'validate_authorization', 'authorization', 'native saved certificate differs from actual binding'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('serial-receipt-only', 'validate_mode_custodies', 'prerequisite', 'receipt claims success without root custody'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('serial-omitted-prior', 'validate_mode_custodies', 'identity', 'optimized omits genuine normal acceptance'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-false-zero', 'validate_producer_receipts', 'prerequisite', 'child exit false replaces integer zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-role-trailer', 'validate_producer_receipts', 'configuration', 'native input array has trailing non-dict'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-before-after-change', 'validate_producer_receipts', 'identity', 'retained native snapshots differ from current'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-empty-live-samples', 'validate_producer_receipts', 'prerequisite', 'no positive live sample exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-no-terminal-absence', 'validate_producer_receipts', 'prerequisite', 'last census retains owned processes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('native-candidate-during-witness', 'validate_producer_receipts', 'identity', 'witness did not preserve candidate absence'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('candidate-partial', 'validate_mode_custodies', 'identity', 'one saved candidate differs in any byte'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('saved-summary-difference', 'validate_mode_custodies', 'identity', 'normal and optimized complete bytes differ'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('outer-wrong-literal-invocation', 'validate_mode_custodies', 'identity', 'actual command differs from pre-admission'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('outer-false-zero', 'validate_mode_custodies', 'prerequisite', 'false replaces genuine integer outer exit zero'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('outer-unfinished-session', 'validate_mode_custodies', 'prerequisite', 'outer completion still has a session id'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('outer-receipt-mismatch', 'validate_mode_custodies', 'identity', 'actual outer message binds a different receipt'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('review-missing-output', 'validate_mode_custodies', 'identity', 'completed review omits one of six outputs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('metadata-unclosed-reference', 'bind_refs', 'identity', 'decoded metadata names an unclosed identity'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('attempt-reuse', 'Attempt.__init__', 'FileExistsError', 'exclusive audit-01 already exists'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('wrong-launch-environment', 'run', 'configuration', 'outer flags, argv, cwd or exact environment differs'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('monitor-failure', 'monitor', 'monitor', 'required census is malformed, nonzero or timed out'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('wall-limit', 'run', 'wall_limit', 'owned child reaches 120-second bound'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('rss-limit', 'run', 'rss_limit', 'sampled owned group exceeds 512 MiB'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('late-input-change', 'run', 'input_change', 'post-admission input byte or link identity changes'),",
+      "passed": true
+    },
+    {
+      "check": "literal declaration format /Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py:    ('late-signal', 'run', 'signal', 'catchable interruption invalidates apparent completion'),",
+      "passed": true
+    },
+    {
+      "check": "complete literal declaration block equality audit",
+      "passed": true
+    },
+    {
+      "check": "declaration count audit",
+      "passed": true
+    },
+    {
+      "check": "complete disjoint classification audit",
+      "passed": true
+    },
+    {
+      "check": "classification counts audit",
+      "passed": true
+    },
+    {
+      "check": "exact ordered case source labels audit",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function runtime_prepare",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function runtime_file_prerequisites",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function metadata",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function validate_freeze",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function monitor",
+      "passed": true
+    },
+    {
+      "check": "retained whole audit function terminate_owned",
+      "passed": true
+    },
+    {
+      "check": "entry verifier fixed administrative count runtime",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "passed": true
+    },
+    {
+      "check": "entry verifier fixed administrative count history",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "passed": true
+    },
+    {
+      "check": "entry verifier fixed administrative count dependencies",
+      "passed": true
+    },
+    {
+      "check": "regular nonsymlink /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "passed": true
+    },
+    {
+      "check": "complete1530 source lines",
+      "passed": true
+    }
+  ],
+  "declaration_coverage": [
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "runtime metadata pin is missing or placeholder",
+        "function": "runtime_prepare",
+        "name": "runtime-unbound-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "runtime",
+        "condition": "runtime metadata bytes differ before parsing",
+        "function": "runtime_prepare",
+        "name": "runtime-changed-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "directory names, kinds or link targets changed",
+        "function": "run",
+        "name": "runtime-membership-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "declared absent import alternative now exists",
+        "function": "run",
+        "name": "runtime-absence-invalid"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "uname, system version or visible system location differs",
+        "function": "run",
+        "name": "runtime-host-drift"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "one captured runtime file changed",
+        "function": "runtime_file_prerequisites",
+        "name": "runtime-file-changed"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "runtime_namespace_change",
+        "condition": "namespace or host changes after launch",
+        "function": "run",
+        "name": "runtime-late-namespace-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "static source dependency pin is missing or placeholder",
+        "function": "dependency_prepare",
+        "name": "unbound-dependency-pin"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "static source dependency metadata bytes changed before parsing",
+        "function": "dependency_prepare",
+        "name": "changed-dependency-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "static dependency path order or role is not closed",
+        "function": "dependency_prepare",
+        "name": "dependency-order-or-duplicate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "static dependency identity is linked or resolved elsewhere",
+        "function": "dependency_prepare",
+        "name": "dependency-link-or-alias"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "one complete static source/evidence identity changed",
+        "function": "source_prerequisites",
+        "name": "changed-source-dependency"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "None history pin before Attempt",
+        "function": "preparation_ready",
+        "name": "unbound-history-pin"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "history",
+        "condition": "opaque manifest digest changed",
+        "function": "preparation_ready",
+        "name": "changed-history-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "one complete historical identity changed",
+        "function": "source_prerequisites",
+        "name": "changed-historical-file"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "history",
+        "condition": "unsorted or duplicate protected path",
+        "function": "preparation_ready",
+        "name": "history-order-or-duplicate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": null,
+        "condition": "zero-byte regular historical log remains allowed",
+        "function": "validate_identity",
+        "name": "history-zero-byte-log-valid"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "fixed current source decision unavailable",
+        "function": "observed",
+        "name": "missing-root-source-card"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "fixed complete source review unavailable",
+        "function": "observed",
+        "name": "missing-independent-review"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "source card claims execution or inherited target qualification",
+        "function": "source_prerequisites",
+        "name": "wrong-source-card-scope"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "extra root source card field",
+        "function": "source_prerequisites",
+        "name": "wrong-source-card-extra-field"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed current freeze/auth bytes differ from observed pin",
+        "function": "read_metadata",
+        "name": "transient-current-admission-body"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed addendum/witness receipt bytes differ from observed pin",
+        "function": "read_metadata",
+        "name": "transient-saved-witness-body"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "fixed source/input byte or size pin changed",
+        "function": "source_prerequisites",
+        "name": "changed-scientific-copy"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "interpreter or monitor captured identity differs",
+        "function": "runtime_file_prerequisites",
+        "name": "changed-runtime-bytes"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "literal interpreter symlink traversal differs",
+        "function": "runtime_file_prerequisites",
+        "name": "changed-runtime-links"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "stage applicability for another mode",
+        "function": "applicability",
+        "name": "wrong-applicability-mode"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "fixed command or envelope differs",
+        "function": "applicability",
+        "name": "wrong-applicability-argv-env-limits"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "completed review lacks current15/4/71 actual checks or credits old qualification",
+        "function": "completed_mode",
+        "name": "old-target-qualification-credit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "whole_entry_specification",
+      "declaration": {
+        "code": "identity",
+        "condition": "missing current card/input/prior custody refuses before exclusive Attempt allocation",
+        "function": "pre_attempt_prerequisites",
+        "name": "missing-prerequisite-before-attempt"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "prior root custody is not completed and accepted",
+        "function": "completed_mode",
+        "name": "future-card-not-completed"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "receipt success without genuine completed outer zero exit",
+        "function": "completed_mode",
+        "name": "receipt-flag-only"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "outer exit_code false instead of integer zero",
+        "function": "completed_mode",
+        "name": "outer-boolean-zero"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "outer result retains session_id",
+        "function": "completed_mode",
+        "name": "outer-unfinished-session"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "actual invocation differs from admitted literal",
+        "function": "completed_mode",
+        "name": "outer-invocation-reconstruction"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "completed review references wrong current bytes",
+        "function": "bind",
+        "name": "wrong-completed-output-reference"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "metadata narrative references unclosed path",
+        "function": "current",
+        "name": "supplemental-reference-outside-closure"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "receipt has extra or omitted input role",
+        "function": "completed_mode",
+        "name": "prior-snapshot-role-set"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "configuration",
+        "condition": "ordered input array permuted or extended",
+        "function": "validate_freeze",
+        "name": "freeze-input-order"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "missing completed witness card/evidence",
+        "function": "observed",
+        "name": "premature-normal"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "missing completed normal card/evidence",
+        "function": "observed",
+        "name": "premature-optimized"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "candidate differs in any byte from complete witness",
+        "function": "candidate_prerequisite",
+        "name": "partial-candidate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "candidate custody asserts scientific acceptance",
+        "function": "candidate_prerequisite",
+        "name": "candidate-math-promotion"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "optimized and normal complete summaries differ",
+        "function": "completed_mode",
+        "name": "wrong-summary-whole-bytes"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "witness_certificate",
+        "condition": "any of the three candidate paths already exists",
+        "function": "run",
+        "name": "witness-existing-candidate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "FileExistsError",
+        "condition": "exclusive attempt directory already exists",
+        "function": "Attempt.__init__",
+        "name": "attempt-output-reuse"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "outer cwd/environment/isolated flags or argv changed",
+        "function": "run",
+        "name": "wrong-outer-cwd-env-flags"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "input_change",
+        "condition": "input identities change after admitted child",
+        "function": "run",
+        "name": "late-input-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "monitor",
+        "condition": "missing/malformed/nonzero/timed-out required census",
+        "function": "monitor",
+        "name": "inherited-monitor-failure"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "wall_limit",
+        "condition": "child exceeds the fixed 120-second deadline",
+        "function": "run",
+        "name": "inherited-wall-limit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "rss_limit",
+        "condition": "sampled owned group exceeds 512 MiB",
+        "function": "run",
+        "name": "inherited-rss-limit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "native",
+      "classification": "retained",
+      "declaration": {
+        "code": "signal",
+        "condition": "catchable interruption invalidates success",
+        "function": "stop_signal",
+        "name": "inherited-signal"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "preparation",
+        "condition": "runtime metadata pin is missing or placeholder",
+        "function": "runtime_prepare",
+        "name": "runtime-unbound-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "runtime",
+        "condition": "runtime metadata bytes differ before parsing",
+        "function": "runtime_prepare",
+        "name": "runtime-changed-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "directory names, kinds or link targets changed",
+        "function": "run",
+        "name": "runtime-membership-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "declared absent import alternative now exists",
+        "function": "run",
+        "name": "runtime-absence-invalid"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "uname, system version or visible system location differs",
+        "function": "run",
+        "name": "runtime-host-drift"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "one captured runtime file changed",
+        "function": "runtime_file_prerequisites",
+        "name": "runtime-file-changed"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "runtime_namespace_change",
+        "condition": "namespace or host changes after launch",
+        "function": "run",
+        "name": "runtime-late-namespace-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "source dependency manifest pin is missing or placeholder",
+        "function": "dependency_prepare",
+        "name": "unbound-dependency-pin"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency metadata bytes changed before parsing",
+        "function": "dependency_prepare",
+        "name": "changed-dependency-manifest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency order or role is not closed",
+        "function": "dependency_prepare",
+        "name": "dependency-order-or-duplicate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency identity is linked or resolved elsewhere",
+        "function": "dependency_prepare",
+        "name": "dependency-link-or-alias"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one complete static source/evidence identity changed",
+        "function": "verify_source_cards",
+        "name": "changed-source-dependency"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "completed review lacks current15/4/71 checks or credits old qualification",
+        "function": "validate_mode_custodies",
+        "name": "old-target-qualification-credit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "varies-by-failed-prerequisite",
+        "condition": "current freeze/auth or full fixed prerequisite fails before allocation",
+        "function": "pre_attempt_prerequisites",
+        "name": "pre-attempt-missing-or-invalid-prerequisite"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "history pin is None or placeholder",
+        "function": "preparation_ready",
+        "name": "unbound-history"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "manifest bytes no longer match literal pin",
+        "function": "preparation_ready",
+        "name": "changed-history"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "whole_entry_specification",
+      "declaration": {
+        "code": "FileNotFoundError",
+        "condition": "future actual binding does not exist",
+        "function": "preparation_ready",
+        "name": "missing-binding"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "actual binding has an extra field",
+        "function": "preparation_ready",
+        "name": "binding-extra-key"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "configuration",
+        "condition": "future identity is null",
+        "function": "positive_identity",
+        "name": "binding-null-identity"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "preparation",
+        "condition": "future actual identity has zero size",
+        "function": "positive_identity",
+        "name": "binding-zero-size"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "preparation",
+        "condition": "future actual identity has zero digest",
+        "function": "positive_identity",
+        "name": "binding-zero-digest"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "configuration",
+        "condition": "a fixed future path is substituted",
+        "function": "positive_identity",
+        "name": "binding-arbitrary-path"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "preparation",
+        "condition": "one actual custody is omitted",
+        "function": "preparation_ready",
+        "name": "binding-missing-mode"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "binding changes before freeze validation",
+        "function": "validate_authorization",
+        "name": "binding-changed-after-cache"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "FileNotFoundError",
+        "condition": "required genuine completed custody absent",
+        "function": "preparation_ready",
+        "name": "missing-custody"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "protected roles or paths reordered",
+        "function": "preparation_ready",
+        "name": "history-order"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "protected literal path repeated",
+        "function": "preparation_ready",
+        "name": "history-duplicate"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": null,
+        "condition": "empty historical stderr remains permitted",
+        "function": "validate_identity",
+        "name": "history-zero-log-valid"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one historical full identity changes",
+        "function": "verify_source_cards",
+        "name": "changed-protected-file"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one exact scientific source/input copy changes",
+        "function": "verify_source_cards",
+        "name": "changed-copy"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "root source decision contains extra key",
+        "function": "verify_source_cards",
+        "name": "source-decision-extra-field"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "source decision grants execution or target qualification",
+        "function": "verify_source_cards",
+        "name": "source-decision-promotion"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "independent source review has blockers",
+        "function": "verify_source_cards",
+        "name": "source-review-incomplete"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "applicability names another mode",
+        "function": "verify_applicability",
+        "name": "stage-wrong-mode"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "applicability changes literal child argv",
+        "function": "verify_applicability",
+        "name": "stage-wrong-argv"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "applicability changes environment or envelope",
+        "function": "verify_applicability",
+        "name": "stage-wrong-env-limits"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "frozen array differs in order or length",
+        "function": "validate_freeze",
+        "name": "freeze-input-order"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed freeze bytes differ from snapshot identity",
+        "function": "metadata",
+        "name": "freeze-raw-body-mismatch"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed authorization bytes differ from snapshot identity",
+        "function": "metadata",
+        "name": "authorization-raw-body-mismatch"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "identity",
+        "condition": "runtime literal symlink or bytes differs from freeze",
+        "function": "validate_freeze",
+        "name": "runtime-link-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "authorization",
+        "condition": "root authorization is not exact positive admission",
+        "function": "validate_authorization",
+        "name": "missing-explicit-auth"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one of eight fixed target paths is substituted",
+        "function": "validate_authorization",
+        "name": "target-path-alias"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "any two of eight target objects share device/inode",
+        "function": "validate_authorization",
+        "name": "target-physical-alias"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "a target file or ancestor is a symlink",
+        "function": "validate_authorization",
+        "name": "target-symlink"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one target object exceeds eight MiB",
+        "function": "validate_authorization",
+        "name": "target-oversize"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "authorization",
+        "condition": "native saved certificate differs from actual binding",
+        "function": "validate_authorization",
+        "name": "target-certificate-binding"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "receipt claims success without root custody",
+        "function": "validate_mode_custodies",
+        "name": "serial-receipt-only"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "optimized omits genuine normal acceptance",
+        "function": "validate_mode_custodies",
+        "name": "serial-omitted-prior"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "child exit false replaces integer zero",
+        "function": "validate_producer_receipts",
+        "name": "native-false-zero"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "native input array has trailing non-dict",
+        "function": "validate_producer_receipts",
+        "name": "native-role-trailer"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "retained native snapshots differ from current",
+        "function": "validate_producer_receipts",
+        "name": "native-before-after-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "no positive live sample exists",
+        "function": "validate_producer_receipts",
+        "name": "native-empty-live-samples"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "last census retains owned processes",
+        "function": "validate_producer_receipts",
+        "name": "native-no-terminal-absence"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "witness did not preserve candidate absence",
+        "function": "validate_producer_receipts",
+        "name": "native-candidate-during-witness"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "one saved candidate differs in any byte",
+        "function": "validate_mode_custodies",
+        "name": "candidate-partial"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "normal and optimized complete bytes differ",
+        "function": "validate_mode_custodies",
+        "name": "saved-summary-difference"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "actual command differs from pre-admission",
+        "function": "validate_mode_custodies",
+        "name": "outer-wrong-literal-invocation"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "false replaces genuine integer outer exit zero",
+        "function": "validate_mode_custodies",
+        "name": "outer-false-zero"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "outer completion still has a session id",
+        "function": "validate_mode_custodies",
+        "name": "outer-unfinished-session"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "actual outer message binds a different receipt",
+        "function": "validate_mode_custodies",
+        "name": "outer-receipt-mismatch"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "identity",
+        "condition": "completed review omits one of six outputs",
+        "function": "validate_mode_custodies",
+        "name": "review-missing-output"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "direct",
+      "declaration": {
+        "code": "identity",
+        "condition": "decoded metadata names an unclosed identity",
+        "function": "bind_refs",
+        "name": "metadata-unclosed-reference"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "FileExistsError",
+        "condition": "exclusive audit-01 already exists",
+        "function": "Attempt.__init__",
+        "name": "attempt-reuse"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "blocked",
+      "declaration": {
+        "code": "configuration",
+        "condition": "outer flags, argv, cwd or exact environment differs",
+        "function": "run",
+        "name": "wrong-launch-environment"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "monitor",
+        "condition": "required census is malformed, nonzero or timed out",
+        "function": "monitor",
+        "name": "monitor-failure"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "wall_limit",
+        "condition": "owned child reaches 120-second bound",
+        "function": "run",
+        "name": "wall-limit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "rss_limit",
+        "condition": "sampled owned group exceeds 512 MiB",
+        "function": "run",
+        "name": "rss-limit"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "input_change",
+        "condition": "post-admission input byte or link identity changes",
+        "function": "run",
+        "name": "late-input-change"
+      },
+      "executed": false
+    },
+    {
+      "caller": "audit",
+      "classification": "retained",
+      "declaration": {
+        "code": "signal",
+        "condition": "catchable interruption invalidates apparent completion",
+        "function": "run",
+        "name": "late-signal"
+      },
+      "executed": false
+    }
+  ],
+  "namespace_counts": {
+    "RI129_review": 9,
+    "RI129_source": 13,
+    "RI132": 11
+  },
+  "predecessors": [
+    {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+    },
+    {
+      "bytes": 10879,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "sha256": "66b163bfb90bee45539a188abe16b59367ebad946c41b32b81e1b1a4677ab0f4"
+    },
+    {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920"
+    },
+    {
+      "bytes": 1828149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+    },
+    {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db"
+    },
+    {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4"
+    },
+    {
+      "bytes": 15477,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+    },
+    {
+      "bytes": 3645,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c"
+    },
+    {
+      "bytes": 4071,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77"
+    },
+    {
+      "bytes": 13789,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "sha256": "89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6"
+    },
+    {
+      "bytes": 9005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26"
+    },
+    {
+      "bytes": 41355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7"
+    },
+    {
+      "bytes": 27288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38"
+    },
+    {
+      "bytes": 1835,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf"
+    },
+    {
+      "bytes": 3230,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "sha256": "324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1"
+    },
+    {
+      "bytes": 18478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "sha256": "2d69442db44cea379812c5b4907818b05e0c7008ab6d65061cc84a0a7bc65c04"
+    },
+    {
+      "bytes": 4840,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "sha256": "18ad39bcde08b83e6b1fff843e02469eb4c3005e3e8d58a301a509778cb4936d"
+    },
+    {
+      "bytes": 3082,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "sha256": "6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0"
+    },
+    {
+      "bytes": 6670,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "d0e81254694db9c145c3760b08e86f02a8e2a1edadccfe10776842e4455710de"
+    },
+    {
+      "bytes": 16214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "19d74caf5807a4d781bfac97959c2f791d9c181914496e0504145a321132f7eb"
+    },
+    {
+      "bytes": 31528781,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "sha256": "966b139f5c9d9df317d19175d6a364ff3e5e134d5481bd41b77ab324101e2e06"
+    },
+    {
+      "bytes": 15980,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "sha256": "d63b685eb8b447af13e729204a48b9835557c1406a25a778b1d370bfe5e60088"
+    },
+    {
+      "bytes": 7437,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "sha256": "2c62a5254b0dde169dcbb3ff9925e67b9ae581077e0584b668260232ef3278cb"
+    },
+    {
+      "bytes": 4782,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "sha256": "ac66cd1dadea7815f0f036229ddfd0b3087890a5b05e3d87b997839135034db7"
+    },
+    {
+      "bytes": 10788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "sha256": "177a73c780c99c489ac3b3fac3e1f3a974218b9fe3904ac5351827b85bf0c5b9"
+    },
+    {
+      "bytes": 44763,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "sha256": "a286bd5bc63cab4e0ad7bd24cdea5ac83e665c1c8a89adcc64ffd836f057c7a2"
+    },
+    {
+      "bytes": 6386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "sha256": "2fe662e72507cbd342e66663cc3a4d5a621aa5c16fd14d361df57ebc77c36cc9"
+    },
+    {
+      "bytes": 24196,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6"
+    },
+    {
+      "bytes": 6135,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "sha256": "f229ae82ae3ea2a79dfe85a7c3a104617d92effd08b64fdeb710a9c625557d57"
+    },
+    {
+      "bytes": 10184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+    },
+    {
+      "bytes": 7233,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "sha256": "085be026fcffcddc39b9775fb9037a06a0cae89155053049cf16ea8b123ab7a0"
+    },
+    {
+      "bytes": 14421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "sha256": "d48d5fa27d7e3f33b3620137f6c4af2daa2c7fae99e0ebdf1c7bc0a9f41f1b5d"
+    },
+    {
+      "bytes": 583262,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+    },
+    {
+      "bytes": 31725,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "sha256": "8a0d2fa476b4a148c4e14536b5c5dc99d602194e14b7c6f671f34a0e3e0c3927"
+    },
+    {
+      "bytes": 28109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "sha256": "1bdc6d46ff6890dfa687fe03b26423607760b12aa305e6873c7a774f2077006f"
+    },
+    {
+      "bytes": 103287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5"
+    },
+    {
+      "bytes": 88890,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650"
+    },
+    {
+      "bytes": 6126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "sha256": "4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266"
+    },
+    {
+      "bytes": 83987,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "sha256": "e43e9db507714de09a0cc6bdf1d55566f061cda39843615615b21068b58c541b"
+    },
+    {
+      "bytes": 2783,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6"
+    }
+  ],
+  "prerequisite_dependent_cases_manual_review": {
+    "audit": [
+      "audit-no-argument-argv",
+      "audit-target-path-argument",
+      "audit-target-symlink-argument",
+      "audit-target-oversize-argument"
+    ],
+    "native": [
+      "N05-runtime-file-identity",
+      "N06-runtime-link-identity",
+      "N07-historical-identity",
+      "N08-source-dependency-identity",
+      "N12-freeze-role-order"
+    ]
+  },
+  "qualification": false,
+  "retained_audit_functions": [
+    {
+      "bytes_without_trailing_whitespace": 7255,
+      "function": "runtime_prepare",
+      "sha256": "966d28b03588e079c720a7e7b1c5306abd9e129863da26389216485316c64bd6"
+    },
+    {
+      "bytes_without_trailing_whitespace": 349,
+      "function": "runtime_file_prerequisites",
+      "sha256": "042af53ab55e0e86620324b82922cda3149b69ff1a64c2804820f90f34bb6a98"
+    },
+    {
+      "bytes_without_trailing_whitespace": 1112,
+      "function": "metadata",
+      "sha256": "0ff3e696a87a8fcde2a686c2763ad446af1d8a770446b3162da9aadefa94258b"
+    },
+    {
+      "bytes_without_trailing_whitespace": 3142,
+      "function": "validate_freeze",
+      "sha256": "e16363d1c6c5f37de040243677cca4de1b28ab56536145d0fc4e70c61926082d"
+    },
+    {
+      "bytes_without_trailing_whitespace": 3296,
+      "function": "monitor",
+      "sha256": "0f6663365aad3768d33e098a3b7301e9553abcc1a5ef0fea8056b63b9779c0b8"
+    },
+    {
+      "bytes_without_trailing_whitespace": 962,
+      "function": "terminate_owned",
+      "sha256": "10b57f5a1a1020e3c61d871e2a57c961bc95f4d71621ae418c329b29e1c33379"
+    }
+  ],
+  "schema": "ri132-independent-opaque-source-review-v1",
+  "scientific_body_decode": false,
+  "sealed_artifacts": [
+    {
+      "bytes": 12730,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/AUDIT_COVERAGE.md",
+      "sha256": "42705805336c98a9f48f757eeffe466d267e3ed52bc8d599b52411d917fae11e"
+    },
+    {
+      "bytes": 28190,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/EVIDENCE_CONTRACT.md",
+      "sha256": "db823a7a1515b823f2196a8409b8368cedd0ce20fbe370ac2bbefaa3fc50e763"
+    },
+    {
+      "bytes": 5992,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.md",
+      "sha256": "b387317784b4f41c89b7e7f4e0c68e9128bcd03cca74664ca302767a6768fe5a"
+    },
+    {
+      "bytes": 10044,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/NATIVE_COVERAGE.md",
+      "sha256": "80dde578e0c3320fafc1fc42cdc3b3c709896bdf7627105ba5caf5ce3600163f"
+    },
+    {
+      "bytes": 6678,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/REFACTOR_DESIGN.md",
+      "sha256": "07149e1b1b8d62895a30854de279bb290cebb1fbcb73ac2255a6295b2782df42"
+    },
+    {
+      "bytes": 13141,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/SOURCE_IDENTITIES.json",
+      "sha256": "81944b87ee986ea7a1e53e15f7af2f12d2d6f2322d022644c632f7842ea84329"
+    },
+    {
+      "bytes": 39050,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/audit_controls.py",
+      "sha256": "f7729e31a7060d307e9c517cb35209b64f87f38c59236fe203e1705fa1003694"
+    },
+    {
+      "bytes": 24869,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/entry_evidence.py",
+      "sha256": "55743a8b234bc48d643abca134fd1e50bbe1aad12350c47048530f8ef5dd01f2"
+    },
+    {
+      "bytes": 32809,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/native_controls.py",
+      "sha256": "3b2c89c646638edc1a4d6334ca92ac5f6fe9a02e23f17c582a32161c167ef0c4"
+    },
+    {
+      "bytes": 14025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/qualify_callers.py",
+      "sha256": "758c82dc6e07026e4fb5bcb4f7368b0d04a0d5203710420d26237fdd3e54b996"
+    }
+  ],
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "source_line_counts": {
+    "audit_controls.py": 428,
+    "entry_evidence.py": 416,
+    "native_controls.py": 416,
+    "qualify_callers.py": 270
+  },
+  "status": "PASS_OPAQUE_IDENTITIES_AND_LITERAL_TEXT",
+  "target_import_compile_ast_probe_execute": false
+}

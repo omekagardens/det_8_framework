@@ -1,0 +1,32 @@
+{
+  "complete_outcome_rows_read": [
+    "9cef4c cases1-26",
+    "a0b296 cases27-65"
+  ],
+  "complete_source_read": [
+    "guard_controls.source-only.py all480 lines across45860a,2242ae,8e7b13",
+    "RI141 prepare.py guard_card/guard_check/run/finalization488-682 in766282",
+    "Root full check_guard_custody.py in96bbdc plus GUARDS empty stdout693cdd"
+  ],
+  "manual_evidence_checks": [
+    "Twelve failures report exact early/late source2 counters, parent3 vs worker2 retained helpers, runtime/profile/loaded2 late, zero science/child, and retained independent tail failure for late_postcheck",
+    "All8 opaque captures precede loading; changed fifth copy stops before any loader. Buffer-drift and occupied namespace have no loader/science",
+    "Ten monitor cases match fixed source stop reasons, fakePID424242 ownership, partial timeout preservation and successful initial/final gap distinction. These are deterministic doubles, not real monitor benchmarks",
+    "Seven runtime cases distinguish lexists dangling absence, omitted loader, modified declaration, changed path and missing config. Positive scan count3 uses inert bytes and substituted domain",
+    "Eight static cases really read fixed declarations/all30pairs/all11names and use in-memory manifests; seven refusals cannot create an active production card",
+    "Nine acceptance cases explicitly substitute opaqueIO/static layer. Eleven positive references; early source/caller refs0, guardsAbsent2, runtimeVariants4. All other scientific/runtime truth remains a premise",
+    "Six mode cases use actual parser and retained isolated metadata. Mutated stdout deliberately mismatches saved reference; success-shaped normal history remains fabricated",
+    "Nine relation cases compare full metadata-stage envelope/file trees; direct control-message/tail mutations are in-memory and not saved as scientific outputs. No numerical reconstruction function called",
+    "Genuine operation initial318cda/session56357 and terminal2afc57exit0 have empty outputs; command binds unchanged parent and exact cards. Direct vendorPOST809cd4 equalsPRE",
+    "Root custody check a0d360exit0 independently verifies599 source objects, both cards/rootdecision,9923 runtime files, full1406 operation entries and148 actual raw monitor samples. Semantic reconstruction of whole fixtures delegated to separate nonauthor reviewer"
+  ],
+  "ret_paused": true,
+  "retained_limits": [
+    "Exact180s child,524288KiB sampled sole-childRSS,25ms requested polling,100ms max gap,50msps timeout",
+    "900s parent soft deadline excludes finalCOMPLETE write; genuine960s outer covers return",
+    "Stable supplier/kernel/Appleloader/cache and genuine tool-origin premises",
+    "Nonscientific test seams only; no WHITE15/two179/full32/actualGWOSC/calibration/nativephysics credit"
+  ],
+  "schema": "ri152-root-manual-guard-review-v1",
+  "status": "SUPPORTS_BOUNDED_GUARDS_PENDING_COMPLETE_INDEPENDENT_ACTUAL_REVIEW"
+}

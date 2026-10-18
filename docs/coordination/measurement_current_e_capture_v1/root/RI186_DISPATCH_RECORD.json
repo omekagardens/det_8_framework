@@ -1,0 +1,8 @@
+{
+  "actual_tool": "collaboration.followup_task",
+  "new_agent_spawned": false,
+  "owner": "/root/archive_repro_review",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu",
+  "result": "returned successfully; existing worker resumed",
+  "schema": "ri186-genuine-dispatch-record-v1"
+}

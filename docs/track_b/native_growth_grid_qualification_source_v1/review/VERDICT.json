@@ -1,0 +1,99 @@
+{
+  "RET": "paused",
+  "actual": {
+    "actual_grid_result": null,
+    "fixtures_created": 0,
+    "runtime_or_card_or_admission": false,
+    "source_control_execution": 0
+  },
+  "administrative_result": {
+    "administrative_bodies": 98,
+    "current_typed_references": 49,
+    "dependencies": 280,
+    "final_fresh_identities": 292,
+    "historical_typed_references": 2335,
+    "inherited_rows": 252,
+    "predicates": 21368,
+    "selected_bytes": 24169856
+  },
+  "assignment": {
+    "bytes": 2626,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "6e4182b5463b207f8b7d5974e78889ff7caa531210906441466828d691464843"
+  },
+  "blocking_source_findings": [],
+  "caller_validation_scope": "Parent checks complete pinned suite catalogue/records, exact63families and specific109sweeps; external independent outcomes review still verifies full counts and variants, not a second oracle inside caller.",
+  "fresh_coverage": {
+    "accepted_subject_parser_reader_postcheck_main_paths_traced": true,
+    "all63_Q_R_P_families_traced": true,
+    "caller_lines": 909,
+    "entire_sources_and_four_Markdown_documents_read": true,
+    "every_caller_terminal_branch_considered": true,
+    "fault_cases_lines": 591,
+    "qualify_grid_lines": 666
+  },
+  "independence": {
+    "author_of_current_three_sources_or_RI159_subjects": false,
+    "inherited_material_not_new_self_acceptance": true,
+    "prior_native_reviewer": true,
+    "prior_separate_WHITE_validator_caller_bootstrap_author": true
+  },
+  "measurement": "separate",
+  "planned_counts": {
+    "caller_records_per_mode": 4,
+    "families": 63,
+    "fault_records_per_mode": 75,
+    "q05_indices_per_implementation": 109,
+    "q_records_per_mode": 474,
+    "q_variants": 237,
+    "r07_records": 545,
+    "r08_records": 436,
+    "r13_dictionary_locations": 120,
+    "r13_extras": 120,
+    "r13_removals": 814,
+    "r_records_per_mode": 1994,
+    "source_inspected_not_executed": true,
+    "total_per_mode": 2547,
+    "total_two_modes": 5094
+  },
+  "preserved_obligations": [
+    "P2/P3",
+    "numerical Y=1/4",
+    "seed/amplitude/support/witness",
+    "shared T1",
+    "other8 connected parents",
+    "five Di",
+    "strict endpoints and ideal multiplicities",
+    "31/139/20/42",
+    "actual grid/capacity/adequate q-v/W/C2/C3/H30/global M6-rho open",
+    "physical/native geometry/gravity claims open"
+  ],
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_GRID_QUALIFICATION_SOURCE_WITH_EXECUTION_PREREQUISITES",
+  "required_prerequisites": [
+    {
+      "id": "QE01",
+      "requirement": "Root exact-source adjudication and separate genuine interpreter/transitive runtime/bootstrap/request/external-supervision admission."
+    },
+    {
+      "id": "QE02",
+      "requirement": "Actually run and independently review all2547 records per genuine normal/optimized mode with full variant counts, expected outcomes, captures, partial/failure receipts, resource and process-group/reap evidence. No skipped case or family-only substitute."
+    },
+    {
+      "id": "QE03",
+      "requirement": "Retain finite custody, address-space-not-RSS, sampled terminal group and hard-abort/kernel limitations; missing or nonzero external completion never accepted from a prior PASS-looking file."
+    },
+    {
+      "id": "QP04",
+      "requirement": "Only after independent synthetic qualification acceptance, separately admit unchanged actual fixed-certificate producer/saved-auditor operation."
+    }
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "root_owns_disposition_admission_successors_publication": true,
+  "schema": "ri161-independent-qualification-source-verdict-v1",
+  "source_recommendation_only": true,
+  "subject": {
+    "bytes": 9989,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.json",
+    "sha256": "32a5bab9518259f379f1893e56a45f7eec28dab682995b29ce6cc9ae697b9760"
+  }
+}

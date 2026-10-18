@@ -1,0 +1,346 @@
+{
+  "schema": "ri159-source-preparation-author-checks-v1",
+  "status": "MANUALLY_REVIEWED_SOURCE_NOT_EXECUTED_OR_INDEPENDENTLY_ACCEPTED",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n",
+  "preseal_check": {
+    "command": "node <<'RI159_ADMIN'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', P='/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77', V='/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:226943,sha256:'4a2c99fd38dc892b638b6c6c2e66ae667a42c8e268b04db2d8d8c71eb0c954e0'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:18266,sha256:'43b1ea86a6c78e6f05af4868e1a763100cae34fa26a4c751c9da3c2a1720782c'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===252,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===223,'old223');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===88&&refs===1981&&extended===17,'admin refs');refs=0;scan(S);need(refs===48,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"grid_check.py\",\"grid_audit.py\",\"CONTRACT.md\",\"QUALIFICATION_CASES.md\",\"CONSEQUENCE_LEDGER.md\",\"DEPENDENCY_NOTES.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\",\"AUTHOR_CHECKS.json\",\"HANDOFF.md\",\"HANDOFF.json\"].sort();\nneed(eq(Object.keys(S.runtime_inputs).sort(),[\"certificate\",\"original_source\",\"original_manuscript\",\"assignment\",\"accepted_predecessor\",\"accepted_manual_review\"].sort()),\"runtime role set\");Object.values(S.runtime_inputs).forEach(pin);\nconst stage=process.env.RI159_STAGE||'preseal9',expected=stage==='final11'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['CONTRACT.md','QUALIFICATION_CASES.md','CONSEQUENCE_LEDGER.md','HANDOFF.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final11'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===10,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri159-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:252,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:223,administrative_bodies:88,historical_typed_refs:1981,premise_refs:48,extended_historical_identity_occurrences:17,historical_state_compared_to_current:false,predecessor_namespaces:[10,10],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nRI159_ADMIN",
+    "command_chunk": "4333cf",
+    "exit_code": 0,
+    "receipt": {
+      "schema": "ri159-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal9",
+      "dependencies": 252,
+      "selected_bytes": 16345304,
+      "inherited": 223,
+      "administrative_bodies": 88,
+      "historical_typed_refs": 1981,
+      "premise_refs": 48,
+      "extended_historical_identity_occurrences": 17,
+      "historical_state_compared_to_current": false,
+      "predecessor_namespaces": [
+        10,
+        10
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 0,
+      "final_fresh_identity_rechecks": 261,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONSEQUENCE_LEDGER.md",
+          "bytes": 4006,
+          "sha256": "ac7208f08b0da649a373c12eac2329d73fb8d8394fccbb0eb3f7dfff672cc787"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONTRACT.md",
+          "bytes": 12488,
+          "sha256": "36ba8fc9eb32a4070675c1743b69a4db026ee5739407436a5a5039edaab0e39f"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/DEPENDENCY_NOTES.md",
+          "bytes": 13832,
+          "sha256": "7cee7de44a07360314a88223268fdfceacc44cd4430e752d4323fe383a517742"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.md",
+          "bytes": 3507,
+          "sha256": "33ba117fc97f7fbebe40fcbc5eb72cd21e0e8812ef7b1db346fed896153d767d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/QUALIFICATION_CASES.md",
+          "bytes": 12739,
+          "sha256": "f310f60f62e868c9ca56f1b92d366961a12d990005d12d65f84e0d7bb89104fb"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_DEPENDENCIES.json",
+          "bytes": 226943,
+          "sha256": "4a2c99fd38dc892b638b6c6c2e66ae667a42c8e268b04db2d8d8c71eb0c954e0"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_IDENTITIES.json",
+          "bytes": 18266,
+          "sha256": "43b1ea86a6c78e6f05af4868e1a763100cae34fa26a4c751c9da3c2a1720782c"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+          "bytes": 22760,
+          "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+          "bytes": 16091,
+          "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+        }
+      ],
+      "scientific_execution": false
+    }
+  },
+  "final_seal_check_policy": "After AUTHOR_CHECKS.json and HANDOFF.json exist, rerun this exact inline administrative command with RI159_STAGE=final11. That future receipt is not preclaimed here; report it with the sealed handoff.",
+  "main_reads": [
+    {
+      "chunks": [
+        "f7c5a7"
+      ],
+      "exit_code": 0,
+      "coverage": "Authenticated assignment and accepted predecessor disposition against supplied byte counts and SHA256, then read both completely."
+    },
+    {
+      "chunks": [
+        "5c5b75",
+        "0873f8"
+      ],
+      "exit_code": 0,
+      "coverage": "Entire original RI41 check.py read as literal text; never imported, compiled, parsed as AST or run."
+    },
+    {
+      "chunks": [
+        "0873f8",
+        "dbc1d5"
+      ],
+      "exit_code": 0,
+      "coverage": "Entire RI41 NORMALIZATION.md, complete root manual review and independent verdict/handoff read as text or allowed administrative provenance. Discovery rounding not promoted to grid proof."
+    },
+    {
+      "chunks": [
+        "0beb37"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete RI157 independent proof review including original law linkage, conditional grid argument and prior diagnostics."
+    },
+    {
+      "chunks": [
+        "cbc121",
+        "030abd",
+        "30e479"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete initial producer and auditor source read in bounded literal ranges. Found missing normalized-path and ancestor-symlink checks; sent repair requests to both authors."
+    },
+    {
+      "chunks": [
+        "b995b2"
+      ],
+      "exit_code": 0,
+      "coverage": "Entire revised producer operational block read, including path validation, O_NONBLOCK, primary/close errors, all final checks and exact output count."
+    },
+    {
+      "chunks": [
+        "4015bf",
+        "c52e0f"
+      ],
+      "exit_code": 0,
+      "coverage": "Entire revised auditor operational block and changed exception declaration read; independent reconstruction and recursive type-sensitive comparison were already fully read. No remaining concrete finding."
+    },
+    {
+      "chunks": [
+        "30e479",
+        "dfee2d"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete dependency note plus clarified author-versus-root selection approval wording."
+    },
+    {
+      "chunks": [
+        "c52e0f",
+        "869d4f"
+      ],
+      "exit_code": 0,
+      "coverage": "Complete contract, consequence ledger, inert qualification cases and handoff read back. Final contract change added only a paragraph break after already-read refusal-bound wording."
+    }
+  ],
+  "source_review_findings": [
+    {
+      "id": "S01",
+      "finding": "Initial producer and auditor checked leaf O_NOFOLLOW but did not fully reject symlink ancestors or nonnormalized paths.",
+      "resolution": "Both sources now validate all bounded path components and realpath equality and bind named path to file descriptor states before/after reads. Auditor also compares within-read ancestor snapshots.",
+      "status": "REPAIRED_BY_SOURCE_INSPECTION_NOT_TESTED"
+    },
+    {
+      "id": "S02",
+      "finding": "Closing a descriptor could replace a primary read refusal.",
+      "resolution": "Both sources preserve primary and close errors. Later postcheck failures cannot turn a refusal into success.",
+      "status": "REPAIRED_BY_SOURCE_INSPECTION_NOT_TESTED"
+    },
+    {
+      "id": "S03",
+      "finding": "Initial auditor skipped postchecks when ordinary scientific comparison failed; output count handling and named-FIFO race handling needed explicit safeguards.",
+      "resolution": "Both sources attempt fixed final checks after ordinary analysis refusal; auditor also rechecks the saved result. O_NONBLOCK protects the open-before-fstat FIFO window. Both validate output count and flush. Partial output/hard-abort limits are explicit.",
+      "status": "REPAIRED_BY_SOURCE_INSPECTION_NOT_TESTED"
+    },
+    {
+      "id": "S04",
+      "finding": "Metadata note attributed author-side dependency-selection approval to the coordinator.",
+      "resolution": "Changed to main source author; root independent adjudication remains pending.",
+      "status": "WORDING_REPAIRED"
+    },
+    {
+      "id": "S05",
+      "finding": "Qualification boundary descriptions needed to distinguish JSON depth acceptance from later semantic validity, and import-side effects from interpreter bytecode writes.",
+      "resolution": "Inert cases now state separate parser/semantic outcomes and require bytecode writes disabled for later no-write qualification.",
+      "status": "SPECIFICATION_CLARIFIED"
+    }
+  ],
+  "coauthor_checks": [
+    {
+      "author": "/root/ri132_native_controls",
+      "role": "Producer author and later auditor source peer; not independent reviewer",
+      "initial_authority_pins": [
+        "1c8d4b",
+        "89ad44"
+      ],
+      "full_assignment_reads": [
+        "295c8a"
+      ],
+      "original_source_pins": [
+        "dab75e",
+        "2cdc88"
+      ],
+      "complete_original_source_reads": [
+        "d93783",
+        "3ce7c9"
+      ],
+      "complete_original_manuscript_reads": [
+        "c1afdd",
+        "c2d15a"
+      ],
+      "root_manual_and_grid_clarification": "e6daf0",
+      "own_full_source_reads": [
+        "9c84f5",
+        "e446e3"
+      ],
+      "own_final_repair_read": "04f3fd",
+      "complete_auditor_peer_reads": [
+        "f21a5f",
+        "61db6b"
+      ],
+      "auditor_repair_reads": [
+        "3d8fff",
+        "e95c46"
+      ],
+      "contract_and_ledger_reads": [
+        "9f5ce0",
+        "fc5662",
+        "1a959e"
+      ],
+      "handoff_read": "c411b3",
+      "qualification_P10_update": "2cff65",
+      "reported_exit_code": 0,
+      "failed_commands_reported": [],
+      "truncated_outputs_reported": [],
+      "remaining_findings": [],
+      "final_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+        "bytes": 16091,
+        "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+      }
+    },
+    {
+      "author": "/root/ri132_audit_controls",
+      "role": "Independent implementation author and later producer source peer; not fresh nonauthor acceptance",
+      "independent_implementation": "Did not read or import producer implementation before drafting scientific decoder/reconstruction; uses integer Euclidean gcd rather than producer Fraction implementation.",
+      "own_repair_read": "226df7",
+      "own_final_full_reads": [
+        "7b8bc5",
+        "954766"
+      ],
+      "producer_full_peer_reads": [
+        "86eb43",
+        "c6036a"
+      ],
+      "producer_repair_read": "5a7c0c",
+      "complete_contract_documents_read": "dfa789",
+      "closing_contract_read": "181c3c",
+      "qualification_P10_update": "a555f6",
+      "handoff_read": "295478",
+      "reported_exit_code": 0,
+      "failed_commands_reported": [],
+      "truncated_outputs_reported": [],
+      "remaining_findings": [],
+      "final_source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+        "bytes": 22760,
+        "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+      }
+    },
+    {
+      "author": "/root/ri132_evidence_contract",
+      "role": "Administrative provenance coauthor, not source/scientific acceptance",
+      "authority_check": "98a4a4",
+      "full_source_review_root_reads": [
+        "6de804",
+        "f8611b",
+        "03ac5e",
+        "b28638",
+        "737333"
+      ],
+      "selected_closure_check": "bc0a41",
+      "current_metadata_recheck": "3698fd",
+      "full_dependency_note_read": "0cbfac",
+      "reported_exit_code": 0,
+      "failed_commands_reported": [],
+      "truncated_outputs_reported": [],
+      "final_counts": {
+        "dependencies": 252,
+        "selected_bytes": 16345304,
+        "inherited_whole_rows_unchanged_except_role": 223,
+        "administrative_bodies": 88,
+        "historical_typed_references": 1981,
+        "current_typed_references": 48,
+        "extended_historical_states_not_compared": 17,
+        "source_pairs": 4
+      },
+      "note": "3698fd observed only the two current metadata JSON files, not a final11 namespace. The later wording-only note repair was explicitly reread and re-pinned; D/S remained unchanged."
+    }
+  ],
+  "qualification": {
+    "status": "INERT_SPECIFICATIONS_ONLY",
+    "case_ids": [
+      "Q01-Q35",
+      "R01-R16",
+      "P01-P12"
+    ],
+    "includes_parameterized_109_index_families": true,
+    "fixtures_created": 0,
+    "cases_executed": 0,
+    "target_or_control_imports": 0,
+    "target_or_control_compilations": 0,
+    "AST_or_probe_or_run": false,
+    "pass_count_claimed": false,
+    "future_harness_or_runtime_card_created": false
+  },
+  "scientific_scope": {
+    "certificate_body_decoded": false,
+    "actual_coefficient_grid_evaluated": false,
+    "actual_grid_result": null,
+    "actual_capacity_sign_decided": false,
+    "actual_W_C2_C3_H30_decided": false,
+    "adequate_q_v_budget_proved": false,
+    "global_M6_or_actual_rho_identified": false,
+    "root_order_reconstructed": false,
+    "new_growth_enumeration": false,
+    "original_source_executed": false,
+    "scientific_engine_used": false,
+    "physical_claim": false
+  },
+  "administrative_boundaries": {
+    "source_preparation_only": true,
+    "opaque_certificate_hash_allowed": true,
+    "both_scientific_bodies_opaque": true,
+    "only_allowlisted_historical_admin_JSON_decoded": true,
+    "large_historical_diagnostics_opaque": true,
+    "historical_state_compared_to_current": false,
+    "zero_byte_historical_stderr_retained": true,
+    "no_new_agents_spawned": true,
+    "existing_coauthors_reused": true,
+    "repository_index_Git_or_predecessor_write": false,
+    "runtime_inventory_card_freeze_or_admission_created": false
+  },
+  "diagnostics": {
+    "failed_main_commands": [],
+    "truncated_main_outputs": [],
+    "inherited_failures": "Historical failures and display recoveries remain in the immutable dependency closure. They were not rerun or represented as present operations.",
+    "source_inspection_not_execution": "Manual cross-reading found and repaired concrete source issues. It neither compiles the source nor establishes future runtime success.",
+    "no_render_claim": "Markdown content was read back; no rendered-layout verification is claimed."
+  },
+  "stop": "Source seal for fresh independent review and root adjudication. Qualification and actual audit require separate authority; return boundary does not pause the wider programme."
+}

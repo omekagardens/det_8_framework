@@ -1,0 +1,52 @@
+{
+  "H30_obstruction_accepted": false,
+  "accepted_results": [
+    "All15 T2 and all7 T3 compensation minors vanish analytically; the T2 scale-free minors are polynomial identities. Full even/odd record patterns follow from actual-mixture identities, accepted polynomial coefficient relations, complete inherited contrast patterns and positive power injectivity.",
+    "Complete proper/full record transport, sigma roles, both128-mark cubes, intrinsic stem labeling, relabelings and newborn-resolved scalar maps are retained; no selected-pair shortcut.",
+    "Native beta2,beta3,Gamma2,Gamma3 are strictly positive, with nonzero/full pivot signs inherited from specific accepted evidence; every general zero/constant branch remains explicit.",
+    "Each strict local interval is max(-4,-4/beta_j)<t_j<(z_j+4e_j)/Gamma_j and, using |z_j|<=1 and f_j0>1/2, is nonempty iff C_j=z_j+4(e_j+Gamma_j)>0. Actual C2/C3 signs remain undecided.",
+    "P2 and P3 exactly clear the positive denominators q(rho) and (1-rho)*DeltaV. Degrees at most5/3 and affine s are symbolic bounds. Existing8 complete rows/44 slots suffice only after full inherited pattern acceptance; fixed seed and actual scales remain separate.",
+    "The formal small-rho limit excludes blanket positive margins over the entire current outer box for a seed-negative index. It neither locates actual scales nor certifies admissibility of any trial point.",
+    "The full remaining iff retains one shared T1 correction, all other8 connected parents and all5 Di equations/strict bounds. No simultaneous feasible tuple or new H30 obstruction is supplied."
+  ],
+  "actual_C_signs_decided": false,
+  "actual_connected_local_feasibility_accepted": false,
+  "author_handoff": {
+    "bytes": 7625,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+    "sha256": "af806b93b3306c7e68fe8584250b709faaea4012f9bd28a2ac8f1fd05446bc80"
+  },
+  "blocking_findings": [],
+  "execution_admitted": false,
+  "independent_metadata_scope": "43 reference occurrences across34 paths, all matched; root also reverified entire40-row metadata-reference inventory (8 packet +32 declared historical source occurrences), not scientific rows.",
+  "independent_review": {
+    "bytes": 2136,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/HANDOFF.json",
+    "sha256": "45672e1a3f525aec4bcd779f375059ad7b8be5e6d374d61e8d61d9f220346cbe"
+  },
+  "next_assignment": "RI128: rigorous actual-sign bounds first; otherwise minimal exact saved-input sign-checker/reconstruction source, authenticated existing subset and fixed seed, actual-scale-containing domain mandatory.",
+  "physical_or_all_size_claim": false,
+  "positive_H30_accepted": false,
+  "programme_complete": false,
+  "published_premises": {
+    "bytes": 18524,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/PUBLISHED_PREMISE_MAP.json",
+    "sha256": "94ae43aa32044a2349f380b98448ed9256690d43d83ec7983cf3ebb4f11d609e"
+  },
+  "remaining_open": [
+    "Actual baseline signs C2,C3 or equivalent rigorous containing-domain bounds.",
+    "Actual connected local positive feasibility or obstruction.",
+    "Full simultaneous shared-parent H30 feasibility.",
+    "Any later disconnected coefficients or analytic elimination."
+  ],
+  "required_fixes": [],
+  "ret_paused": true,
+  "review_method": "Complete independent hand algebra, textual premise and finite case/transport review by root and named nonauthor. Executed checks are opaque whole-file identities only; no scientific arithmetic, target/fixture run or proof assistant.",
+  "root_manual_review": {
+    "bytes": 2539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_MANUAL_REVIEW.json",
+    "sha256": "c079025f94fcb84e6f34f732a592c29cd6b03fde6cc45c8bca2360079c1d846c"
+  },
+  "schema": "ri127-root-final-proof-adjudication-v1",
+  "status": "ACCEPT_COMPLETE_CONNECTED_CANCELLATION_AND_CONDITIONAL_STRICT_LOCAL_REDUCTION"
+}

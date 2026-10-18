@@ -1,5 +1,8 @@
 """
-DET → Newtonian Gravity Correspondence Verification
+RETIRED / QUARANTINED — historical Newtonian correspondence calculation.
+
+This module calibrates a withdrawn κ-source model to Newtonian formulas. Its
+agreement is imposed by that calibration and is not evidence for DET gravity.
 
 Verifies that DET gravity reduces to Newtonian gravity in the
 appropriate limit and matches known observables.
@@ -13,6 +16,10 @@ Checks:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

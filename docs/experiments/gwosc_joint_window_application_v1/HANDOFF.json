@@ -1,0 +1,74 @@
+{
+  "active_runtime_inventory_or_admission": false,
+  "actual_operator_coefficients_evaluated": false,
+  "actual_permissions_created": false,
+  "author_independence": "The proposer previously reviewed predecessors; this new proposal requires independent proof review and root adjudication.",
+  "checks_performed": [
+    "Manual symbolic proof check described in AUTHORING_REVIEW.md.",
+    "Integer dimension/accounting checks only.",
+    "Opaque full source/premise hashing, including complete RI73 capture.",
+    "Selected retained result schema/key/count inspection, not new numerical calculation."
+  ],
+  "empirical_processing_or_fetch": false,
+  "files": [
+    {
+      "bytes": 31586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+    },
+    {
+      "bytes": 20218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+      "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+    },
+    {
+      "bytes": 5140,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/AUTHORING_REVIEW.md",
+      "sha256": "8f40d4bc430cd0e0a51dafcc9961965b42bcaae465c8bd72873222b90b4639a8"
+    },
+    {
+      "bytes": 1801,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DIMENSION_ACCOUNTING.json",
+      "sha256": "42549a72a9cb0869949d1b67da919ecb249fbe63ddf68cc9c6aa62ee77409882"
+    }
+  ],
+  "history_preserved": [
+    "RI110 original failed caller evidence.",
+    "RI108 numerical applicability is distinct from RI114 interface qualification.",
+    "RI121 original F01 evidence, repaired guards and actual two-mode qualification.",
+    "RET pause remains limited to RET."
+  ],
+  "independent_review_focus": [
+    "Actual support/endpoints, directed cross-block orientation and all centering multiplicities.",
+    "Loewner sandwich, entrywise interval propagation and proposed sufficient eps usefulness gate.",
+    "Periodic completion law, Fourier parity/pair weights, PSD convention and raw-versus-intersected interval handling.",
+    "Independent integer-pair/oracle reconstruction, resource accounting and complete future qualification scope.",
+    "No implication that finite synthetic qualification establishes physical covariance, calibration, protected validation or native predictions."
+  ],
+  "new_results_are_symbolic_only": [
+    "Directed adjacent white block C=U H^T uses only 8 by 2769 head/tail long-operator strips outside short support.",
+    "Xi_unit=(n-1)/n Omega-(n-1)/n^2(C+C^T); full eight-coordinate matrices retained for n=7 and n=6.",
+    "Shared periodic completion gives centered zero-mean expectation 4pq/n^2 times the odd-mode marginal trace, with fixed factors 48/49 and 1.",
+    "RI96 source PSD records are necessary operands because RI100 mode result contains only scenario source identities.",
+    "Physical covariance error, mean and calibration terms remain unavailable premises; no fitted noise amplitude or empirical significance is produced."
+  ],
+  "next_concrete_step_after_acceptance": "Prepare a source-only packet with exact white-strip and saved-mode consumers, deterministic join, independent full-field validator and fixed fabricated qualifier. Root reviews source/applicability before any actual qualification; independently admitted real-input stages follow only after full qualification acceptance.",
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+  "premise_record_count": 45,
+  "proposed_outputs": [
+    "WHITE_COUPLING.json",
+    "PERIODIC_COMPLETION.json",
+    "APPLICATION_COMPARISON.json"
+  ],
+  "remaining_prerequisites": [
+    "Independent design review and root acceptance.",
+    "Frozen executable contracts, complete source review, changed-caller applicability and meaningful guards.",
+    "Genuine finite qualification and independent full-field reconstruction in serial normal then separately admitted optimized mode.",
+    "Fresh complete input/source/runtime/host custody and unchanged resource constraints for each real-input stage.",
+    "Physical joint law, mean bounds, covariance-model discrepancy, calibration and native forward map remain open."
+  ],
+  "repository_or_git_mutation": false,
+  "schema": "ri123-application-design-handoff-v1",
+  "scientific_target_execution": false,
+  "status": "source_only_design_ready_for_independent_review"
+}

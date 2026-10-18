@@ -1,0 +1,136 @@
+{
+  "RET": "paused",
+  "actual_admin_counts": {
+    "absent_prospective_paths": 8,
+    "current_fixed_files": 6,
+    "invocation_lines": 17,
+    "predicates": 3224,
+    "source_dependencies": 567,
+    "source_review_bytes": 33796686,
+    "source_review_objects": 623,
+    "unchanged_literal_monitor_helpers": 8,
+    "unique_opaque_observations": 642
+  },
+  "actual_administrative_tool": {
+    "chunk_id": "5b8398",
+    "exit_code": 0
+  },
+  "actual_tool_result": {
+    "bytes": 1321,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/ADMIN_TOOL_RESULT.json",
+    "sha256": "ae1ae5701bfe704c02e8513db98c93d08db440b1900e39f37b7edaeba2532dac"
+  },
+  "administrative_check": {
+    "bytes": 1050142,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+    "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+  },
+  "assignment": {
+    "bytes": 1693,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "7d1aecb0b5a7d94adabac54a6f7f4f5178027da4a60a7574ab5a5ee841661415"
+  },
+  "blocking_source_findings": [],
+  "controls_defined": 106,
+  "controls_executed": 0,
+  "diagnostics": {
+    "bytes": 4091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "40e2f61b2fe6c435313d10b8ec398b8ddc565380bc53feaeb895e671c28c1dbc"
+  },
+  "files": [
+    {
+      "bytes": 1321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/ADMIN_TOOL_RESULT.json",
+      "sha256": "ae1ae5701bfe704c02e8513db98c93d08db440b1900e39f37b7edaeba2532dac"
+    },
+    {
+      "bytes": 2972,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/FINAL_SEAL_CHECK.json",
+      "sha256": "a33ad78f0d946d4b25431279b4b81537266a09ea8688a9df3b6289089036f5d6"
+    },
+    {
+      "bytes": 13211,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "af8f6772e4ba423a48f561d7eec733fc0d541c1d663d43a3693a337ee2df7634"
+    },
+    {
+      "bytes": 1050142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+      "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+    },
+    {
+      "bytes": 929,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/PUBLICATION_SUBSET.json",
+      "sha256": "3390dee43bfa87e94867f1bbedbc1d4ee34f87104a6098a611bc27c0a6930425"
+    },
+    {
+      "bytes": 4091,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "40e2f61b2fe6c435313d10b8ec398b8ddc565380bc53feaeb895e671c28c1dbc"
+    },
+    {
+      "bytes": 4488,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/VERDICT.json",
+      "sha256": "f444e08d3395439d9937d9ccc96e4b6dc8b5ce3e2d20ec21b7e2cbbf268f7920"
+    },
+    {
+      "bytes": 14709,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/check_preflight.py",
+      "sha256": "69b2aa5dcf9f83403960396bee5dd53e688fad24d31f48220cec11396c0e36fc"
+    },
+    {
+      "bytes": 11773,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/seal_review.py",
+      "sha256": "e13514fbe0951ab6ea8d474f7fba780588f913cfd7001fe2ccfc0312cf6fe7be"
+    }
+  ],
+  "final_check": {
+    "bytes": 2972,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/FINAL_SEAL_CHECK.json",
+    "sha256": "a33ad78f0d946d4b25431279b4b81537266a09ea8688a9df3b6289089036f5d6"
+  },
+  "namespace": [
+    "ADMIN_TOOL_RESULT.json",
+    "FINAL_SEAL_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "PUBLICATION_SUBSET.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "VERDICT.json",
+    "check_preflight.py",
+    "seal_review.py"
+  ],
+  "next_root_action": "Root freshly checks complete selected vendor/framework/suppliers, host/loader/cache applicability and exact sources; exclusively prepares the stated root/env/monitor paths and request; writes the genuinely rooted preflight and separate12-field admission; then performs one bounded command, preserves actual tool/monitor/adapter/partial evidence and independently reviews all106 results and external postchecks.",
+  "no_operational_admission": true,
+  "no_subject_execution": true,
+  "prior_authorship_disclosed": "Nonauthor of RI162 and RI156/158/160 subjects. Historical WHITE validator/caller/bootstrap including RI141 authored by reviewer; accepted monitor semantics inherited from separate nonauthor/root decisions, not independently self-accepted here.",
+  "publication_subset": {
+    "bytes": 929,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/PUBLICATION_SUBSET.json",
+    "sha256": "3390dee43bfa87e94867f1bbedbc1d4ee34f87104a6098a611bc27c0a6930425"
+  },
+  "recommendation": "ACCEPT_EXACT_PREFLIGHT_PROPOSAL_FOR_ROOT_GENUINE_PREFLIGHT_AND_SEPARATE_INERT106_ADMISSION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw",
+  "review": {
+    "bytes": 13211,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "af8f6772e4ba423a48f561d7eec733fc0d541c1d663d43a3693a337ee2df7634"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri162-independent-preflight-review-handoff-v1",
+  "seal_tool_result": "Actual subsequent tool result is separately delivered to root; this handoff does not invent its identity.",
+  "sealed_immutable": true,
+  "status": "SEALED_INDEPENDENT_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject": {
+    "bytes": 8931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/HANDOFF.json",
+    "sha256": "97b16e9424e415dc03d3ff654785ea3bfb691964dbfa7c4c1e1a26db3e1207bf"
+  },
+  "verdict": {
+    "bytes": 4488,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/VERDICT.json",
+    "sha256": "f444e08d3395439d9937d9ccc96e4b6dc8b5ce3e2d20ec21b7e2cbbf268f7920"
+  }
+}

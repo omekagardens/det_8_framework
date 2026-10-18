@@ -1,0 +1,307 @@
+{
+  "schema": "ri166-author-checks-v1",
+  "status": "PRESEAL_ADMINISTRATIVE_MATCH_MANUAL_PROOF_SUBMITTED_NOT_INDEPENDENT_ACCEPTANCE",
+  "current_preseal": {
+    "command": "node - preseal6 <<'RI166_CHECK'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq',P='/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77',V='/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:228353,sha256:'be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:40504,sha256:'28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:16754,sha256:'24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===252&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===16343257,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===223,'old223');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations'])need(eq(S[k],oldS[k]),'inherited S '+k);\nconst predecessorNamespaces=[];\nfor(const dir of [P,V]){const h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();need(names.length===10&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'predecessor namespace');h.payloads.forEach(pin);predecessorNamespaces.push({path:dir,names})}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','reference closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan)}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_governance_role),'governance rule');\nlet admin=0,boundary=0;\nfor(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body))}else if(r.classification==='selected-administrative-governance-boundary'){boundary++;need(r.path===governance,'exact governance boundary')}\nneed(admin===88&&boundary===1&&refs===1977&&extended===17,'historical reference counts');\nrefs=0;scan(S);need(refs===105,'current S references');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');\nconst final=['CONTRAST_COUPLING.md','REDUCED_SYSTEM.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[2]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['CONTRAST_COUPLING.md','REDUCED_SYSTEM.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.full_native_reverse_bound_decided===false&&h.full_native_counterexample_claimed===false&&h.actual_109_vector_read===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const d of predecessorNamespaces)need(eq(fs.readdirSync(d.path).sort(),d.names),'end predecessor namespace');\nconsole.log(JSON.stringify({schema:'ri166-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:252,selected_bytes:16343257,inherited:223,administrative_full_bodies:88,governance_only_boundaries:1,historical_typed_references:1977,current_typed_references:105,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[10,10],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_or_counterexample_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n\nRI166_CHECK",
+    "receipt": {
+      "chunk_id": "88b815",
+      "wall_time_seconds": 0.003375958,
+      "exit_code": 0,
+      "original_token_count": 548,
+      "output": "{\n  \"schema\": \"ri166-author-administrative-check-v1\",\n  \"status\": \"MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE\",\n  \"stage\": \"preseal6\",\n  \"dependencies\": 252,\n  \"selected_bytes\": 16343257,\n  \"inherited\": 223,\n  \"administrative_full_bodies\": 88,\n  \"governance_only_boundaries\": 1,\n  \"historical_typed_references\": 1977,\n  \"current_typed_references\": 105,\n  \"historical_extended_state_noncomparisons\": 17,\n  \"separate_byte_equal_pairs\": 4,\n  \"predecessor_namespace_counts\": [\n    10,\n    10\n  ],\n  \"current_namespace\": 6,\n  \"literal_manuscript_reference_occurrences\": 17,\n  \"final_fresh_identity_rechecks\": 258,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md\",\n      \"bytes\": 11920,\n      \"sha256\": \"cfb1c64f3e9d8caa28427cf9a6acb993d85d52bec5e4d7f8458c4da43273fd51\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md\",\n      \"bytes\": 16754,\n      \"sha256\": \"24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md\",\n      \"bytes\": 2610,\n      \"sha256\": \"4d271fee887b0e2b28a76ae480f8d7d9ae0d0b88dc3c1286316557a074274965\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md\",\n      \"bytes\": 15927,\n      \"sha256\": \"0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 228353,\n      \"sha256\": \"be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json\",\n      \"bytes\": 40504,\n      \"sha256\": \"28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e\"\n    }\n  ],\n  \"mathematical_formula_or_counterexample_evaluated_by_script\": false,\n  \"scientific_or_target_execution\": false\n}\n"
+    },
+    "outcome": {
+      "schema": "ri166-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 252,
+      "selected_bytes": 16343257,
+      "inherited": 223,
+      "administrative_full_bodies": 88,
+      "governance_only_boundaries": 1,
+      "historical_typed_references": 1977,
+      "current_typed_references": 105,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        10,
+        10
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 17,
+      "final_fresh_identity_rechecks": 258,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md",
+          "bytes": 11920,
+          "sha256": "cfb1c64f3e9d8caa28427cf9a6acb993d85d52bec5e4d7f8458c4da43273fd51"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md",
+          "bytes": 16754,
+          "sha256": "24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md",
+          "bytes": 2610,
+          "sha256": "4d271fee887b0e2b28a76ae480f8d7d9ae0d0b88dc3c1286316557a074274965"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+          "bytes": 15927,
+          "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json",
+          "bytes": 228353,
+          "sha256": "be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json",
+          "bytes": 40504,
+          "sha256": "28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e"
+        }
+      ],
+      "mathematical_formula_or_counterexample_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    }
+  },
+  "prior_preseal": {
+    "command": "node - preseal6 <<'RI166_CHECK'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq',P='/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77',V='/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:228353,sha256:'be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:40504,sha256:'28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:16754,sha256:'24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===252&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===16343257,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===223,'old223');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations'])need(eq(S[k],oldS[k]),'inherited S '+k);\nconst predecessorNamespaces=[];\nfor(const dir of [P,V]){const h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();need(names.length===10&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'predecessor namespace');h.payloads.forEach(pin);predecessorNamespaces.push({path:dir,names})}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','reference closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan)}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_governance_role),'governance rule');\nlet admin=0,boundary=0;\nfor(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body))}else if(r.classification==='selected-administrative-governance-boundary'){boundary++;need(r.path===governance,'exact governance boundary')}\nneed(admin===88&&boundary===1&&refs===1977&&extended===17,'historical reference counts');\nrefs=0;scan(S);need(refs===105,'current S references');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');\nconst final=['CONTRAST_COUPLING.md','REDUCED_SYSTEM.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[2]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['CONTRAST_COUPLING.md','REDUCED_SYSTEM.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.full_native_reverse_bound_decided===false&&h.full_native_counterexample_claimed===false&&h.actual_109_vector_read===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const d of predecessorNamespaces)need(eq(fs.readdirSync(d.path).sort(),d.names),'end predecessor namespace');\nconsole.log(JSON.stringify({schema:'ri166-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:252,selected_bytes:16343257,inherited:223,administrative_full_bodies:88,governance_only_boundaries:1,historical_typed_references:1977,current_typed_references:105,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[10,10],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_or_counterexample_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n\nRI166_CHECK",
+    "receipt": {
+      "chunk_id": "f987a2",
+      "wall_time_seconds": 0.002392416,
+      "exit_code": 0,
+      "original_token_count": 548,
+      "output": "{\n  \"schema\": \"ri166-author-administrative-check-v1\",\n  \"status\": \"MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE\",\n  \"stage\": \"preseal6\",\n  \"dependencies\": 252,\n  \"selected_bytes\": 16343257,\n  \"inherited\": 223,\n  \"administrative_full_bodies\": 88,\n  \"governance_only_boundaries\": 1,\n  \"historical_typed_references\": 1977,\n  \"current_typed_references\": 105,\n  \"historical_extended_state_noncomparisons\": 17,\n  \"separate_byte_equal_pairs\": 4,\n  \"predecessor_namespace_counts\": [\n    10,\n    10\n  ],\n  \"current_namespace\": 6,\n  \"literal_manuscript_reference_occurrences\": 17,\n  \"final_fresh_identity_rechecks\": 258,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md\",\n      \"bytes\": 11896,\n      \"sha256\": \"3cb94baffc074a11e603243ff29ac0d3b8ab0802cf775d5fa5eb46dac8161d78\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md\",\n      \"bytes\": 16754,\n      \"sha256\": \"24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md\",\n      \"bytes\": 2600,\n      \"sha256\": \"abc58557bc1e0c8967bee91720c6f0b1be89631670a3029e7921888dfe87b6b4\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md\",\n      \"bytes\": 15927,\n      \"sha256\": \"0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 228353,\n      \"sha256\": \"be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json\",\n      \"bytes\": 40504,\n      \"sha256\": \"28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e\"\n    }\n  ],\n  \"mathematical_formula_or_counterexample_evaluated_by_script\": false,\n  \"scientific_or_target_execution\": false\n}\n"
+    },
+    "outcome": {
+      "schema": "ri166-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 252,
+      "selected_bytes": 16343257,
+      "inherited": 223,
+      "administrative_full_bodies": 88,
+      "governance_only_boundaries": 1,
+      "historical_typed_references": 1977,
+      "current_typed_references": 105,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        10,
+        10
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 17,
+      "final_fresh_identity_rechecks": 258,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md",
+          "bytes": 11896,
+          "sha256": "3cb94baffc074a11e603243ff29ac0d3b8ab0802cf775d5fa5eb46dac8161d78"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md",
+          "bytes": 16754,
+          "sha256": "24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md",
+          "bytes": 2600,
+          "sha256": "abc58557bc1e0c8967bee91720c6f0b1be89631670a3029e7921888dfe87b6b4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+          "bytes": 15927,
+          "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json",
+          "bytes": 228353,
+          "sha256": "be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json",
+          "bytes": 40504,
+          "sha256": "28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e"
+        }
+      ],
+      "mathematical_formula_or_counterexample_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    },
+    "subsequent_change": "Editorial scope clarification in main manuscript/handoff: no scientific JSON decoding (historical opaque ancestry byte hashing is disclosed separately), rather than ambiguous no scientific JSON read. No formula changed."
+  },
+  "display_recovery": {
+    "kind": "functions combined display truncated despite complete underlying shell captures; recovered RI157 contrast/synthesis by6078c4/dc9fea/bf5c47; source-identities decoded administratively for selected branches, no claim of complete literal S read",
+    "underlying_chunks": [
+      "dcdd9d",
+      "56468f"
+    ]
+  },
+  "main_read_records": [
+    {
+      "chunk": "53fc87",
+      "exit_code": 0,
+      "scope": "Full authenticated RI166 assignment and RI164 governance disposition"
+    },
+    {
+      "chunk": "688d64",
+      "exit_code": 0,
+      "scope": "Full authenticated RI157 analytic adjudication"
+    },
+    {
+      "chunk": "88c9f8",
+      "exit_code": 0,
+      "scope": "Full authenticated RI157 source HANDOFF"
+    },
+    {
+      "chunk": "dcdd9d",
+      "exit_code": 0,
+      "scope": "Whole-pinned RI157 three-manuscript reads; combined functions display later clipped"
+    },
+    {
+      "chunk": "6078c4",
+      "exit_code": 0,
+      "scope": "RI157 contrast lines1-360 recovery"
+    },
+    {
+      "chunk": "dc9fea",
+      "exit_code": 0,
+      "scope": "RI157 contrast tail through EOF recovery"
+    },
+    {
+      "chunk": "bf5c47",
+      "exit_code": 0,
+      "scope": "RI157 complete synthesis recovery"
+    },
+    {
+      "chunk": "2421c2",
+      "exit_code": 0,
+      "scope": "Full authenticated RI41 NORMALIZATION.md"
+    },
+    {
+      "chunk": "d69f51",
+      "exit_code": 0,
+      "scope": "Full authenticated RI63 COMPLETION.md"
+    },
+    {
+      "chunk": "44bbdc",
+      "exit_code": 0,
+      "scope": "Full authenticated RI147 COMPONENT_CONTRASTS.md"
+    },
+    {
+      "chunk": "60a08f",
+      "exit_code": 0,
+      "scope": "Full authenticated RI36 EXTENSION.md"
+    },
+    {
+      "chunk": "8ecdd2",
+      "exit_code": 0,
+      "scope": "Full authenticated RI157 root manual"
+    },
+    {
+      "chunk": "85b2d5",
+      "exit_code": 0,
+      "scope": "Current dependency notes lines1-300"
+    },
+    {
+      "chunk": "bb3479",
+      "exit_code": 0,
+      "scope": "Current dependency notes tail through EOF"
+    },
+    {
+      "chunk": "0a358f",
+      "exit_code": 0,
+      "scope": "Reduced-system manuscript lines1-330"
+    },
+    {
+      "chunk": "2ac09c",
+      "exit_code": 0,
+      "scope": "Reduced-system manuscript tail through EOF"
+    },
+    {
+      "chunk": "e65832",
+      "exit_code": 0,
+      "scope": "Full main manuscript readback before editorial scope clarification"
+    },
+    {
+      "chunk": "df25c7",
+      "exit_code": 0,
+      "scope": "Full authenticated RI155 CAPACITY_STRUCTURE.md to check E/V profile"
+    },
+    {
+      "chunk": "1471c0",
+      "exit_code": 0,
+      "scope": "Final reduced-system E/V citation readback"
+    },
+    {
+      "chunk": "f8c283",
+      "exit_code": 0,
+      "scope": "Final reduced-system source/cross-review additions readback"
+    }
+  ],
+  "manual_checks": {
+    "method": "Literal source review and hand algebra; no scientific/numerical/symbolic evaluator.",
+    "checks": [
+      "Complete row subtraction d=x+y+c1-c0 and positive-part identityD-=d+D++c0-c1, with all signs and zero cases retained.",
+      "max(0,x,y,x+y) identity and three halfspaces; e=1/44,a=41/44 implies factor213*41=8733.",
+      "Pairwise terminal distinction by cover-branch depth0/1/2 and preservation of intrinsic root record along every proper-slot ratio presentation; no independence inside full-law constraints inferred.",
+      "Rational row complements359/1500 and143/600+epsilon;Dminus1/1000,d7epsilon,Dplus0; both defect forms787/10^6 for epsilon1/10^6.",
+      "All enumerated reduced probability/coefficient/full-complement bounds, complete Q/T/K/j/V/E expressions, strict secant bounds and v/theta>1498/10^6 uniformly over allowed theta.",
+      "Omitted complete-component/all-row/global-M5/canonical/fixed-vector constraints explicitly excluded; local counterexample not mislabeled a full-law one."
+    ],
+    "full_native_reverse_bound_proved": false,
+    "full_native_reverse_bound_refuted": false,
+    "actual_capacity_verdict": false
+  },
+  "coauthor_reviews": {
+    "mathematical": {
+      "author": "/root/ri132_audit_controls",
+      "main_manuscript_full_read_chunk": "1a63d9",
+      "status": "No concrete mathematical or scope finding; author-peer only.",
+      "main_change_after_peer_read": "Footer wording clarified scientific JSON decoding versus disclosed opaque ancestry hashing; formulas unchanged.",
+      "reduced_system_final_pin": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+        "bytes": 15927,
+        "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02"
+      },
+      "reduced_system_final_readback": "fb87d4",
+      "reduced_system_final_pin_chunks": [
+        "a1c6e0",
+        "4a588f"
+      ],
+      "retained_display_recovery": "One combined historical manuscript display clipped; full1f5cf1/25a5a9/000439 recovery before writing.",
+      "main_full_reduced_system_read_and_changed_span_checks": true
+    },
+    "metadata": {
+      "author": "/root/ri132_evidence_contract",
+      "D_S_check": "e0f467",
+      "exit_code": 0,
+      "notes_full_readback": "0b60c4",
+      "notes_pin": "094d87",
+      "reported_failures": 0,
+      "reported_truncations": 0
+    }
+  },
+  "current_failures": {
+    "shell_command_failures": 0,
+    "administrative_check_failures": 0,
+    "main_display_truncations": 1,
+    "coauthor_display_truncations": 1,
+    "inherited_failures_preserved": "Immutable predecessor packet bytes, not relabeled as current successful executions."
+  },
+  "scope": {
+    "historical_scientific_ancestry_whole_bytes_hashed_opaquely": true,
+    "actual_109_vector_opened": false,
+    "scientific_json_decoded": false,
+    "mathematics_evaluated_by_administrative_script": false,
+    "source_or_target_executed": false,
+    "new_agents_spawned": false,
+    "source_or_repository_or_index_or_git_written": false,
+    "operational_request_or_admission_created": false,
+    "RET": "paused",
+    "measurement_and_RI165": "separate"
+  },
+  "final_check_boundary": "Final8 fresh check is performed only after HANDOFF exists; its genuine completion and seal identity are sent to root separately. This file does not preclaim it."
+}

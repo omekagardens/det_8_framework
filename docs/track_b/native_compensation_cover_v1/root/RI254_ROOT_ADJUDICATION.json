@@ -1,0 +1,44 @@
+{
+  "RET_paused": true,
+  "actual_cover_minimum_evaluated": false,
+  "actual_kappa_gap_resolved": false,
+  "actual_support_evaluated": false,
+  "canonical_Cb_resolved": false,
+  "closed_original_literal_exceptions": true,
+  "complete_local_family": true,
+  "full_normalized_witness": false,
+  "full_system_and_recovery_retained": true,
+  "genuine_final": {
+    "bytes": 13857,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/RI254_GENUINE_FINAL.json",
+    "sha256": "19d73b7b6243ae4c05bfafdc72502295912aea155207e51889b0518e00f85fc9"
+  },
+  "global_optimality": false,
+  "independent_review": {
+    "bytes": 4303,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/HANDOFF.json",
+    "sha256": "c715c51b80c78175ea60409efce646f65f62d79d4435fa6575d4a082c0bbd57b"
+  },
+  "inherited_manifest_by_reference": 423,
+  "manual_review": {
+    "bytes": 5257,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/RI254_ROOT_REVIEW.md",
+    "sha256": "afd33094ba2c6e11a0ef30afe6bc42839e4949c27548d575f94785a1c29e10ec"
+  },
+  "metadata_check": {
+    "bytes": 79860,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/RI254_ROOT_METADATA_CHECK.json",
+    "sha256": "91e28f59feef27535bb4c77ed51e3108cdebf106258b89c82047ffe692d5ee98"
+  },
+  "preserved_boundaries": 15,
+  "qualification_credit": 0,
+  "schema": "ri255-native-compensation-root-adjudication-v1",
+  "scientific_execution": false,
+  "signed_inconsistency": false,
+  "status": "ACCEPT_COMPLETE_SUPPORTED_COMPENSATION_CRITERION_AND_FINITE_REDUCTION",
+  "subject": {
+    "bytes": 19285,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri254-native-compensation-cover-dxjpomko/HANDOFF.json",
+    "sha256": "5d56bac5238e9d8f1fa82fc912bc2ec1be66811ebb7af6f420504a898be88693"
+  }
+}

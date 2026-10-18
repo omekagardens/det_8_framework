@@ -1,0 +1,23 @@
+{
+  "actual_arguments": {
+    "chars": "",
+    "max_output_tokens": 2000,
+    "session_id": 57986,
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "942d82",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 9.5e-06
+  },
+  "initial_chunk": "7f6855",
+  "original_genuine_record": {
+    "bytes": 1669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/GENUINE_TOOL.json",
+    "sha256": "fb10035280fe128ec9085be73e81b11e0731e46624b7cf4ba63609594f0203eb"
+  },
+  "schema": "ri204-genuine-terminal-arguments-supplement-v1",
+  "tool": "write_stdin"
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "ri225-independent-native-review-handoff-v1",
+  "status": "RECOMMEND_ACCEPT_CONDITIONAL_PROFILE_REDUCTION_NATIVE_BRANCH_OPEN",
+  "reviewer": "/root/qr_opportunities",
+  "subject_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl",
+  "subject_payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/AUTHOR_VERIFICATION.json",
+      "bytes": 40198,
+      "sha256": "5e1f791480d11474c0c1ea14e12668b3c911e6ddd29720995f316f39815457e2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/DISCONNECTED_PROFILES.md",
+      "bytes": 15209,
+      "sha256": "588eba196bb27baa6ee967d0dbe2b25d0c0645b186dd3dc7e9ddee913467b522"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.json",
+      "bytes": 19078,
+      "sha256": "1dfd6442280f3e5ed92c49db204784bf7aabc488b3461c69a1e8aed313c58ff5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.md",
+      "bytes": 2367,
+      "sha256": "6c99d78708325504260efbd38c19091e0e9d03758311a5ed68f0b40dfc3a0546"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/LOWER_PROFILE_GAP.md",
+      "bytes": 13841,
+      "sha256": "5284896ef15b7f5233821762308f6c0e718c80fd30075f73ab6ee8d5a9e4829e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/SOURCE_REFERENCES.json",
+      "bytes": 56014,
+      "sha256": "296a758cd67b7d3b70a3e2937c8b874b6c6b1336afcc44300415a496529e8d2f"
+    }
+  ],
+  "review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-independent-native-review-BqGvKj/REVIEW.md",
+    "bytes": 9999,
+    "sha256": "117b174caf98e0538da0f808f349b581629f53ebf470f92a2052f2a2c411cce1"
+  },
+  "actual_receipts": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-independent-native-review-BqGvKj/READ_RECEIPTS.json",
+    "bytes": 5781,
+    "sha256": "87fabbad217cae657b78c054c528c8bff267aed9b9a5645a629c61a6b2a8e5f8"
+  },
+  "namespace": [
+    "HANDOFF.json",
+    "READ_RECEIPTS.json",
+    "REVIEW.md"
+  ],
+  "mathematical_review": "Independent manual review of complete new derivations under inherited literal analytic premises. No blocker found.",
+  "limitations": [
+    "No actual mobility witness or inconsistency identity is supplied.",
+    "No root adjudication or publication authority.",
+    "No scientific computation, scientific-body parsing or subject execution.",
+    "No executable qualification credit or physical promotion.",
+    "No RI41/RI63 hinted body was opened."
+  ],
+  "own_metadata_receipt": {
+    "chunk_id": "7bc1cd",
+    "exit_code": 0,
+    "whole_file_identities": 31,
+    "direct_sources": 25,
+    "direct_bytes": 710419,
+    "boundary_objects": 15,
+    "current_namespace": 6,
+    "predecessor_namespace": 6
+  },
+  "author_final_attribution": {
+    "chunk_id": "8e9441",
+    "exit_code": 0,
+    "whole_file_identities": 31,
+    "explicit_selected_references": 40,
+    "direct_sources": 25,
+    "direct_bytes": 710419,
+    "current_namespace": 6,
+    "predecessor_namespace": 6,
+    "boundaries": 15
+  },
+  "author_final_not_reviewer_replay": true,
+  "files_written_only": "Three new evidence files in this exclusive reservation.",
+  "proposed_next_question": "Derive actual exceptional and empty-ratio combinations from specifically admitted same-law construction, then decide the fixed N16-N17 system by a complete normalized witness or inconsistency identity. No successor is assigned."
+}

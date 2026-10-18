@@ -1,0 +1,106 @@
+{
+  "diagnostic_preserved": [
+    "a00bbe inspection only; wrong fixed argv index selected vendor string; ad29d5 corrected lookup, no subject mutation",
+    "3bfbf7 entire terminal output identical despite visual escaping"
+  ],
+  "failures": [],
+  "receipts": [
+    {
+      "chunk_id": "5b096b",
+      "exit_code": 0,
+      "scope": "authenticate root records, reserve exclusive review directory and inspect actual metadata"
+    },
+    {
+      "chunk_id": "d95b91",
+      "exit_code": 0,
+      "scope": "read entire authenticated administrative helper source"
+    },
+    {
+      "chunk_id": "30ee3a",
+      "exit_code": 0,
+      "scope": "read complete proposal, host records and structured custody"
+    },
+    {
+      "chunk_id": "a00bbe",
+      "exit_code": 0,
+      "scope": "read-only command-display inspection used wrong fixed argv index; false display comparison only"
+    },
+    {
+      "chunk_id": "ad29d5",
+      "exit_code": 0,
+      "scope": "corrected dynamic -e lookup; exact literal Perl program confirmed"
+    },
+    {
+      "chunk_id": "407cc0",
+      "exit_code": 0,
+      "scope": "read-only search for missing terminal-argument record"
+    },
+    {
+      "chunk_id": "b3261e",
+      "exit_code": 0,
+      "scope": "author independent administrative checker; no invocation"
+    },
+    {
+      "chunk_id": "c671ec",
+      "exit_code": 0,
+      "scope": "read complete independent checker source"
+    },
+    {
+      "chunk_id": "3f01ae",
+      "exit_code": 0,
+      "scope": "remove dead reviewer source branches before first run"
+    },
+    {
+      "chunk_id": "d93b90",
+      "exit_code": 0,
+      "scope": "run check_preparation.py under /opt/homebrew/bin/python3 -I -B"
+    },
+    {
+      "chunk_id": "498d47",
+      "exit_code": 0,
+      "scope": "read complete additive session receipt"
+    },
+    {
+      "chunk_id": "3bfbf7",
+      "exit_code": 0,
+      "scope": "authenticate additive pin and compare complete terminal result"
+    },
+    {
+      "chunk_id": "9ca2c3",
+      "exit_code": 0,
+      "scope": "write independent additive session checker source"
+    },
+    {
+      "chunk_id": "dbf108",
+      "exit_code": 0,
+      "scope": "run check_session.py under /opt/homebrew/bin/python3 -I -B"
+    }
+  ],
+  "replay_commands": [
+    {
+      "checks": 7544,
+      "chunk_id": "d93b90",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/check_preparation.py",
+      "exit_code": 0,
+      "result": {
+        "bytes": 2639095,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/CHECK_RESULT.json",
+        "sha256": "72fc8a1717b0ce5b501d5080a83efa22979f3b58db37b8fd36e5c5bed2eb4440"
+      },
+      "whole_files": 2842
+    },
+    {
+      "checks": 19,
+      "chunk_id": "dbf108",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/check_session.py",
+      "exit_code": 0,
+      "result": {
+        "bytes": 1780,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/SESSION_CHECK_RESULT.json",
+        "sha256": "8a95cf628fb6fbd8674c882d96483cea34278de056a845c9ac58ae19ec476267"
+      }
+    }
+  ],
+  "schema": "ri230-independent-tool-receipts-v1",
+  "source_execution": false
+}

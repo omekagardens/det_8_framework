@@ -1,0 +1,83 @@
+{
+  "Git_operations": false,
+  "RET_paused": true,
+  "adaptation": "Root output pointer and historical P0 refs; exact actual-preparation acceptance pin/status; fresh predispatch result schema/path, timestamp and source pin. Core custody/namespace/candidate/bootstrap/env/command/limits checks unchanged.",
+  "additional_independent_check": "All nine accepted output identities including complete seven-field states compared unchanged in b502f5. Literal root pointer correct; no ADMIT_RECONCILE or DISPATCH then present.",
+  "admission_issued": false,
+  "inputs": [
+    {
+      "bytes": 11012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/check_predispatch.py",
+      "sha256": "2b972c0b74e510ae43760ec818265549e0502fc7233adbdb72f6183b6d7399db"
+    },
+    {
+      "bytes": 10578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/check_concrete_preparation.py",
+      "sha256": "c6bb8822649c574341c797ca7ee1f3b16d648a180b81d8f29505b2fdbce94cf7"
+    },
+    {
+      "bytes": 8585,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ACTUAL_PREPARATION_ACCEPTANCE.json",
+      "sha256": "28d04703c3ce81c952c1ba34a2b2c4cd5021a4411c76fa0fd5871722a1a26fd8"
+    },
+    {
+      "bytes": 19871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/PROTOCOL.md",
+      "sha256": "ed24ffce4a1070b5b89f4d85bc287997fcfca95bb641f8b047905e93f25c2f26"
+    },
+    {
+      "bytes": 29958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+      "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+    },
+    {
+      "bytes": 25970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+      "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+    }
+  ],
+  "receipts": [
+    {
+      "chunk_id": "98584f",
+      "exit_code": 0,
+      "scope": "authenticate/read full driver and acceptance; create reservation"
+    },
+    {
+      "chunk_id": "839d0c",
+      "exit_code": 1,
+      "scope": "diff exact historical/current sources; expected nonzero because differences exist, not a checker failure"
+    },
+    {
+      "chunk_id": "10ff41",
+      "exit_code": 0,
+      "scope": "read complete protocol"
+    },
+    {
+      "chunk_id": "5cb042",
+      "exit_code": 0,
+      "scope": "read complete174-line postchecker"
+    },
+    {
+      "chunk_id": "b502f5",
+      "exit_code": 0,
+      "scope": "whole source pins/current nine full output identity comparison and no-card check"
+    }
+  ],
+  "recommendation": "NO_BLOCKER_FOR_ROOT_SEPARATE_AUTHORIZATION",
+  "reconciliation_outcome_reviewed": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb",
+  "retained_boundaries": [
+    "Original installation is refused with retained partial, never retroactively successful",
+    "Future reconciliation is E-read-only; complete current58-entry tree, old904 identities/ninebindings and new971 source closure required",
+    "Exact outer D cwd and monitor-child D/monitor cwd preserved",
+    "Eight independent tails and first/later clock/error retention preserved",
+    "180s/524288KiB sampled child RSS/25ms polling/100ms gaps/50ms ps/64MiB files and960s external boundary unchanged",
+    "Actual genuine command/poll/terminal, full monitor samples, supplier/host/currentE and nonauthor saved outcome review remain required",
+    "No mode admission, science/full32/physical claim or RET work"
+  ],
+  "reviewer_authorship": "Nonauthor of RI226/RI229 proposals. Earlier unrelated WHITE/caller/bootstrap authorship disclosed; accepted source semantics inherited, actual root outcomes independently reviewed.",
+  "schema": "ri234-independent-predispatch-source-review-v1",
+  "scientific_body_decoded": false,
+  "source_review": "Complete predispatch driver, full exact predecessor diff, entire protocol and174-line saved-evidence postchecker read. The unchanged reconciler is authenticated as an accepted source dependency; not newly executed.",
+  "subjects_executed": false
+}

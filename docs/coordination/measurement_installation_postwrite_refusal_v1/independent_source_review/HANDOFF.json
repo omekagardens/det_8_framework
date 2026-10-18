@@ -1,0 +1,103 @@
+{
+  "blocking_findings": [],
+  "compact_publication_subset": [
+    "CHECK_RESULT.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_metadata.py"
+  ],
+  "current_failed_administrative_checks": [],
+  "display_recoveries": [
+    "ce5e43",
+    "7844eb",
+    "f5b2af"
+  ],
+  "exact_cwd_contract_reconstructed": true,
+  "exact_subject_namespace": 16,
+  "files": [
+    {
+      "bytes": 533257,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/CHECK_RESULT.json",
+      "sha256": "d4567f59196f56c98e884074cc38b7c4cf78b5cc930f445640f7bf89d7812a4a"
+    },
+    {
+      "bytes": 11946,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/INDEPENDENT_REVIEW.md",
+      "sha256": "fcc49b3a6d5f9b092da089d628271546af7ecf27e32894feb9512ca17d6c26b1"
+    },
+    {
+      "bytes": 3965,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/TOOL_RECEIPTS.json",
+      "sha256": "c2ff143eca7befc8109c5c1aac387a94c0c69e8d6f025ace71cd535c7997f69e"
+    },
+    {
+      "bytes": 2886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/VERDICT.json",
+      "sha256": "826ea3bd7d2143cc4e902c3326230fcc0378e8cdfeb5c5d8ddad61602a3f33db"
+    },
+    {
+      "bytes": 15296,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/check_metadata.py",
+      "sha256": "66e4b71b51160dcae93de2d6ff5d827ea2d6f06a20a6025d131a94b50bace68f"
+    }
+  ],
+  "independent_check_tool": {
+    "chunk_id": "43a0c4",
+    "exit_code": 0,
+    "opaque_identities": 912,
+    "predicates": 22097
+  },
+  "inherited_authorship_disclosed": true,
+  "namespace": [
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_metadata.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "old_failure_and_E_preserved": true,
+  "old_review_miss_disclosed": true,
+  "operational_admission": false,
+  "qualification_credit": 0,
+  "remaining": "Fresh root source adjudication, concrete preparation/bootstrap/dispatch review and separate admission before any new actual attempt. Actual installation and later scientific acceptance remain separate.",
+  "repo_git_work": false,
+  "report_construction_tool": {
+    "chunk_id": "af7d5f",
+    "exit_code": 0
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym",
+  "ret_paused": true,
+  "review": {
+    "bytes": 11946,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/INDEPENDENT_REVIEW.md",
+    "sha256": "fcc49b3a6d5f9b092da089d628271546af7ecf27e32894feb9512ca17d6c26b1"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_pending": true,
+  "runtime_capture": false,
+  "schema": "ri222-independent-review-handoff-v1",
+  "scientific_decode": false,
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "status": "SEALED_RECOMMEND_SOURCE_ONLY_ACCEPTANCE",
+  "subject": {
+    "bytes": 9023,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+    "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+  },
+  "subject_execution": false,
+  "subject_payloads": 15,
+  "unchanged_byte_JSON_clock_tail_limit_semantics": true,
+  "verdict": {
+    "bytes": 2886,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-independent-cwd-review-15d9v2ym/VERDICT.json",
+    "sha256": "826ea3bd7d2143cc4e902c3326230fcc0378e8cdfeb5c5d8ddad61602a3f33db"
+  },
+  "whole_source_projection": true
+}

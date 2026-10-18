@@ -1,0 +1,76 @@
+{
+  "controls_executed": 0,
+  "execution_admitted": false,
+  "findings": [
+    {
+      "executed": false,
+      "id": "F01",
+      "lines": [
+        126,
+        210,
+        211,
+        255,
+        256,
+        460,
+        462,
+        929
+      ],
+      "paths": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py"
+      ],
+      "required_repair": "Safe state before exclusive open; defer ordinary raising signals until acquired FD and phase ownership are registered; retain original error and independently perform close/full after checks once owned. Preserve hard-abort limits and genuine preownership refusal.",
+      "severity": "blocking",
+      "title": "Exclusive phase marker ownership gap on ordinary failure"
+    },
+    {
+      "executed": false,
+      "id": "F02",
+      "lines": [
+        219,
+        227,
+        266,
+        273,
+        277,
+        298,
+        314,
+        319,
+        325,
+        424,
+        684
+      ],
+      "paths": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py"
+      ],
+      "required_repair": "Retain the original I/O or overflow cause before independent close_pipe operations; preserve cleanup as later errors without duplicate primary relabeling; keep EOF-only close failures distinct.",
+      "severity": "blocking",
+      "title": "Pipe cleanup errors can replace an earlier read/write/overflow cause"
+    }
+  ],
+  "independent_review": {
+    "bytes": 7951,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/HANDOFF.json",
+    "sha256": "3729b27090a01824b6e1c743bf495e6b4416a69ffc4344567e44e867c7a2cc2b"
+  },
+  "native_scientific_question": "Actual C2/C3 signs and simultaneous shared H30 feasibility remain blocked on source repair, qualification and genuine execution admission.",
+  "next_item": "RI140",
+  "original_packet_preserved": true,
+  "ret_paused": true,
+  "root_reconciliation": {
+    "bytes": 252362,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_RECONCILIATION.json",
+    "sha256": "d840a4eaeaecab73bff6dbe3e703df62bca0c5aea48af5238f4e0a4f11395302"
+  },
+  "root_review": {
+    "bytes": 3647,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_SOURCE_REVIEW.md",
+    "sha256": "8cc95fb2ac2e40d8a9ab451d6adf36cff54005cae1568b6eb2bba19b4313e086"
+  },
+  "schema": "ri138-root-source-adjudication-v1",
+  "source": {
+    "bytes": 5173,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
+    "sha256": "6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0"
+  },
+  "source_accepted_for_execution": false,
+  "status": "REQUIRE_F01_F02_IMMUTABLE_SOURCE_REPAIR"
+}

@@ -1,0 +1,42 @@
+{
+  "RET_paused": true,
+  "constraints": [
+    "Write only the fresh worker_proposal reservation; no Git/repository/old source or custody changes.",
+    "No preparation, vendor, monitor, reconciler, checker, scientific runtime or E inventory execution. Metadata-only source identity and administrative source text review remain allowed.",
+    "Preserve full current retained post-tree, original refusal, all 904 original sources and the closed 971 prospective source domain including whole concrete bootstrap and new source decision. No E write.",
+    "Retain exact direct normal -I -B selected vendor, 10-field environment, child cwd D/monitor, outer cwd D, all original limits and monitor source.",
+    "Prepare for root genuine integer-preserving host/tool observations; do not invent receipts, future source/admission identities or authority. Bootstrap must be complete text independently reviewable before loading any monitor.",
+    "Fresh source/control/supplier/host/E preparation remains root-owned and later separately admitted. Root source acceptance is not operational acceptance or qualification.",
+    "Seal complete source/protocol/exact reference graph and actual metadata checks. Report source failures and remaining premises; preserve diagnostics."
+  ],
+  "independent_source_review": {
+    "bytes": 4924,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/HANDOFF.json",
+    "sha256": "d676800276fd0f2834009b5ee9f32fe8ad77d8890a4ee3353c22d08076043a85"
+  },
+  "mode_admission": false,
+  "owner": "/root/ri116_complete_caller_review",
+  "preparation_execution": false,
+  "qualification_credit": 0,
+  "question": "Design an unexecuted root preparation writer and exact RECONCILE_BOOTSTRAP.py for accepted RI226 read-only reconciliation, followed by independent review before any preparation.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal",
+  "schema": "ri229-source-only-preparation-design-assignment-v1",
+  "scientific_execution": false,
+  "source_decision": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "source_packet": {
+    "bytes": 9657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/HANDOFF.json",
+    "sha256": "bead93928f1f1af37379f4d8add4c5e254b31633fa8d00acb274a2739d237fdc"
+  },
+  "status": "ASSIGNED_AFTER_RI226_INDEPENDENT_SOURCE_ACCEPTANCE",
+  "target_future_root_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b"
+}

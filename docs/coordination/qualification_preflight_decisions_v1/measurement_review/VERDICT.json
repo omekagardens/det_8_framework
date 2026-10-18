@@ -1,0 +1,86 @@
+{
+  "RET": "paused",
+  "active_runtime_card_freeze_admission_E_or_fixture_created": false,
+  "actual_admin_check": {
+    "bytes": 1050142,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/METADATA_CHECK.json",
+    "sha256": "78c4aa7d92e2353c44a2c1c3e054dea0c41ccf8a096d64aab652ac051481ce6a"
+  },
+  "actual_tool": {
+    "chunk_id": "5b8398",
+    "exit_code": 0
+  },
+  "adoptable_concrete_command_proposal": true,
+  "assignment": {
+    "bytes": 1693,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "7d1aecb0b5a7d94adabac54a6f7f4f5178027da4a60a7574ab5a5ee841661415"
+  },
+  "blocking_source_findings": [],
+  "bounds_unchanged": {
+    "child_wall_seconds": 180,
+    "file_bytes": 67108864,
+    "max_initial_interior_final_gap_seconds": 0.1,
+    "outer_alarm_seconds": 960,
+    "ps_timeout_seconds": 0.05,
+    "sampled_child_rss_kib": 524288,
+    "target_poll_seconds": 0.025
+  },
+  "controls": {
+    "defined": 106,
+    "executed": 0
+  },
+  "finite_checks": {
+    "absent_prospective_paths": 8,
+    "current_fixed_files": 6,
+    "invocation_lines": 17,
+    "predicates": 3224,
+    "source_dependencies": 567,
+    "source_review_bytes": 33796686,
+    "source_review_objects": 623,
+    "unchanged_literal_monitor_helpers": 8,
+    "unique_opaque_observations": 642
+  },
+  "fixed_current_binding_drift": false,
+  "independence": "Nonauthor of RI162 and RI156/158/160 subjects. Historical WHITE validator/caller/bootstrap including RI141 authored by reviewer; accepted monitor semantics inherited from separate nonauthor/root decisions, not independently self-accepted here.",
+  "later_separate": [
+    "R01 path applicability",
+    "new E unchanged RI141 capture/baseline/profiles",
+    "WHITE normal-before-optimized and complete saved arithmetic",
+    "RI131 actual-validator mutation campaign",
+    "actual15/full32/public-data/physical interpretation"
+  ],
+  "limitations": [
+    "Sampled child only, not parent/group or continuous RSS quota.",
+    "Outer death/stall does not certify cleanup; no-descendants/stable-supplier and external host/loader/cache premises retained.",
+    "Six fixed observations and OS facts are not whole supplier preflight, runtime profile or selected vendor execution.",
+    "Inert controls contain explicit observer/authority substitutes and cannot establish authentic scientific/runtime/credential outcomes."
+  ],
+  "narrative": {
+    "bytes": 13211,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "af8f6772e4ba423a48f561d7eec733fc0d541c1d663d43a3693a337ee2df7634"
+  },
+  "new_agents": 0,
+  "next_root_action": "Root freshly checks complete selected vendor/framework/suppliers, host/loader/cache applicability and exact sources; exclusively prepares the stated root/env/monitor paths and request; writes the genuinely rooted preflight and separate12-field admission; then performs one bounded command, preserves actual tool/monitor/adapter/partial evidence and independently reviews all106 results and external postchecks.",
+  "operational_admission": false,
+  "operationally_ready_without_external_preflight": false,
+  "remaining_immediate_prerequisites": [
+    "Root adoption, fresh complete supplier/framework/host/environment/source/card preflight and explicit stable loader/cache/no-descendants premises",
+    "Exclusive actual setup, real current preflight FilePin and separately recorded admission/dispatch",
+    "One actual bounded invocation and actual initial/pending/terminal tool records with independently reviewed streams,ps attempts,samples,reap and partials",
+    "Independent full106 outcomes and complete source/card/supplier/environment/namespace postchecks, even after failure"
+  ],
+  "repository_or_Git": false,
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri162-independent-preflight-verdict-v1",
+  "scientific_decode": false,
+  "source_repair_required": false,
+  "status": "ACCEPT_EXACT_PREFLIGHT_PROPOSAL_FOR_ROOT_GENUINE_PREFLIGHT_AND_SEPARATE_INERT106_ADMISSION",
+  "subject": {
+    "bytes": 8931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/HANDOFF.json",
+    "sha256": "97b16e9424e415dc03d3ff654785ea3bfb691964dbfa7c4c1e1a26db3e1207bf"
+  },
+  "subject_import_compile_AST_probe_run": false
+}

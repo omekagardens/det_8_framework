@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BH-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/README.md": {
+      "bytes": 11904,
+      "sha256": "e4d2de5928536322a7a36c0950d405a822d62823625bc1fd692c897d2a355a41"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/RESULTS.md": {
+      "bytes": 12779,
+      "sha256": "0109ef5417139fd78d5e7f906dd7e0a700712081115404cc479570991172bb9b"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/protocol.json": {
+      "bytes": 4043,
+      "sha256": "0944940c7da1f7e15e9d103695cc023964d602cf750056154346b01b35a98256"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/results.json": {
+      "bytes": 1971938,
+      "sha256": "1f4aab687899437ffd56ff7e9565256714062a7bdb85c0b45e641bc50c9f9a56"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/source-freeze.json": {
+      "bytes": 2337,
+      "sha256": "1b0db4a54362ac689bb52a14af78d3191db20b922b39469eba05d1054a2a979c"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/README.md": {
+      "bytes": 10796,
+      "sha256": "1eccd0856bdb9456e2a0c9db57ae5ee06fb5158baeb87537cd9869fc8a9af64f"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/protocol.json": {
+      "bytes": 9493,
+      "sha256": "6a9cbe4751e80e6f4783efe0ad06c0e6d0b5bb3d2127aee8ca038176b19cb4c8"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/quantum.py": {
+      "bytes": 44871,
+      "sha256": "2fd4eacd5625f460647345c460c3046289406eba788e8f89f09c2a5526716919"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/reference.py": {
+      "bytes": 33756,
+      "sha256": "98c7dfdc5be5517f9358e6755838f333a9e690d9fb1fba2be2992cc5e707c2ca"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/study.py": {
+      "bytes": 17243,
+      "sha256": "1ba01f67f2517b5623c40d59df62f912a0bf2f85cbd84a37cba3806090664d6b"
+    },
+    "docs/validation/qr-05bh-global-admission-refinement-2026-09-08/test_qr05bh.py": {
+      "bytes": 82841,
+      "sha256": "774db22591113b62b6acd71fe223b61c6afd382b48116f955c83f64b57cbda8a"
+    }
+  }
+}

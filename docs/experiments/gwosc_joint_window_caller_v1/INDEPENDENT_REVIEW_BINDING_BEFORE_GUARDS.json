@@ -1,0 +1,19 @@
+{
+  "independent_closure": {
+    "bytes": 25960,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-repaired-caller-c52tvvhd/INDEPENDENT_FRESH_OPAQUE_CLOSURE.json",
+    "sha256": "94d9d89be64426d44500c2c91b465d9a97a8ec6d39350e0f4f92989e3cfba715"
+  },
+  "independent_review": {
+    "bytes": 17235,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-repaired-caller-c52tvvhd/INDEPENDENT_REPAIRED_CALLER_SOURCE_REVIEW.json",
+    "sha256": "85010607fc5f668e483783a009029222fd17f7433b3ac6534d9806f3a7c59f95"
+  },
+  "production_admission": false,
+  "source_acceptance": {
+    "bytes": 5892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+  },
+  "status": "FINAL_INDEPENDENT_SOURCE_REVIEW_RECEIVED_READ_AND_BOUND_BEFORE_ANY_GUARD_EXECUTION"
+}

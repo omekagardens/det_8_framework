@@ -1,0 +1,36 @@
+{
+  "RET_paused": true,
+  "actual_outcome": {
+    "bytes": 3634,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+  },
+  "finding": "Installer assumes parent directory link count remains fixed when one regular file is created. Actual exact-membership transition changed link count23to24 with unchanged device/inode/mode. E_and_frozen and final_E refused; identical postchecker premise also needs review.",
+  "no_mode_admission": true,
+  "no_retry": true,
+  "partial": "Complete accepted26214-byte candidate exists as single-link E/AUTHORIZED_FREEZE.json; retained as unaccepted postwrite partial, never deleted or overwritten. Original48 files/nine directories otherwise unchanged.",
+  "postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "preparation_acceptance": {
+    "bytes": 1582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/CONCRETE_PREPARATION_ACCEPTANCE.json",
+    "sha256": "04321b72843e59bf8d54fa6490451ab70fa63d6a34f39e74b3720c70c19335c7"
+  },
+  "qualification_credit": 0,
+  "schema": "ri224-root-postwrite-readiness-supersession-v1",
+  "source_acceptance": {
+    "bytes": 2307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+    "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+  },
+  "status": "OPERATIONAL_READINESS_SUPERSEDED_AFTER_ACTUAL_POSTWRITE_REFUSAL",
+  "valid_prior_repairs_preserved": [
+    "cwd guard",
+    "direct raw-byte equality",
+    "clock failure handling",
+    "all eight tails and original bounds"
+  ]
+}

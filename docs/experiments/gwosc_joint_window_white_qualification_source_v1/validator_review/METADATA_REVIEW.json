@@ -1,0 +1,165 @@
+{
+  "activity": {
+    "active_runtime_or_admission": false,
+    "actual_scientific_body_decode": false,
+    "fixture_generation_or_evaluation": false,
+    "repository_index_git_mutation": false,
+    "source_import_compile_ast_probe": false
+  },
+  "handoff": {
+    "bytes": 4821,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+    "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+  },
+  "imports_by_text": {
+    "validator_controls.py": [
+      "import copy",
+      "import io",
+      "import os",
+      "from pathlib import Path",
+      "import white_validator as V"
+    ],
+    "white_validator.py": [
+      "import hashlib",
+      "import json",
+      "import math",
+      "import os",
+      "from pathlib import Path",
+      "import re",
+      "import stat"
+    ]
+  },
+  "interface_manifest_only": {
+    "bytes": 21310,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+    "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+  },
+  "normative_inventory_checks": {
+    "92_gate_loop_and_three_tail_controls_manually_traced": true,
+    "all_15_fixed_case_ids_match": true,
+    "all_38_kernel_first_code_message_pairs_match": true,
+    "all_46_wrapper_first_code_message_pairs_match": true,
+    "all_92_historical_gate_names_and_order_match": true
+  },
+  "not_an_execution_or_arithmetic_check": true,
+  "packet_files": [
+    {
+      "bytes": 56593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+    },
+    {
+      "bytes": 17909,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+    },
+    {
+      "bytes": 14060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+    },
+    {
+      "bytes": 3957,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+    },
+    {
+      "bytes": 3762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+      "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+    },
+    {
+      "bytes": 8848,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+      "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+    },
+    {
+      "bytes": 4804,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+      "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+    }
+  ],
+  "predecessor_reference_records": [
+    {
+      "bytes": 5379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+      "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+    },
+    {
+      "bytes": 2174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+      "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+    },
+    {
+      "bytes": 1529,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/HANDOFF.json",
+      "sha256": "8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf"
+    },
+    {
+      "bytes": 12011,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+      "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+    },
+    {
+      "bytes": 26409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CONTRACT.md",
+      "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+    },
+    {
+      "bytes": 8758,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/FABRICATED_INTERFACES.md",
+      "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+    },
+    {
+      "bytes": 4802,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/KERNEL_REFUSALS.md",
+      "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+    },
+    {
+      "bytes": 3880,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREDECESSOR_PINS.json",
+      "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+    },
+    {
+      "bytes": 7366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREPARATION_RECORD.md",
+      "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+    },
+    {
+      "bytes": 97989,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_DIFF.patch",
+      "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+    },
+    {
+      "bytes": 10113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_METADATA_CHECK.json",
+      "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+    },
+    {
+      "bytes": 7426,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/WHITE_REFUSALS.md",
+      "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+    },
+    {
+      "bytes": 15910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_controls.py",
+      "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 32343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_path.py",
+      "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+    }
+  ],
+  "schema": "ri125-white-validator-independent-metadata-review-v1",
+  "source_line_counts": {
+    "validator_controls.py": 261,
+    "white_validator.py": 1050
+  },
+  "status": "ALL_OPAQUE_AND_LITERAL_METADATA_CHECKS_PASSED"
+}

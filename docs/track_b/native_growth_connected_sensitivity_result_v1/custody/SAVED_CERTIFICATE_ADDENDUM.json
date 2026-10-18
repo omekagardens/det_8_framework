@@ -1,0 +1,12 @@
+{
+  "authorized_modes": [
+    "normal",
+    "optimized"
+  ],
+  "certificate_sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+  "checker_sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+  "schema": "ri84-saved-certificate-addendum-v1",
+  "supervisor_sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+  "witness_freeze_payload_sha256": "ccdae00948240eb3477652874763d6770457f94df4d9a813bca62ff85d5050bc",
+  "witness_receipt_sha256": "2789a16a1b835d603a0cc2b255c2efaf43bfb500202478f90fb155e369ba7e03"
+}

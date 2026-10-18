@@ -1,0 +1,52 @@
+{
+  "RET": "paused",
+  "W_C2_C3_H30_decided": false,
+  "accepted": [
+    "F_i<35743/12100<71/24<E_i",
+    "retained Mcap=max(E0,E1); Z=R",
+    "0<v<1147/9092160",
+    "pass requires lambda<1147/15370080<1/13000 and Dminus>213d7"
+  ],
+  "actual_capacity_decided": false,
+  "adequate_q_v_budget_proved": false,
+  "global_M6_or_actual_rho_identified": false,
+  "grid_premise_accepted": false,
+  "independent_review": {
+    "bytes": 5929,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/HANDOFF.json",
+    "sha256": "daccfac1950db64177f5ad6d4fbb2a30fe329ae88efc6bd4b01fe6f9786a36f1"
+  },
+  "independent_verdict": {
+    "bytes": 3700,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/VERDICT.json",
+    "sha256": "9722fab91c20b8653435b74e2665bc8b5e92cb093506b192361df4f74f7ef5b9"
+  },
+  "measurement": "RI158 source/output repairs sealed and assigned fresh independent source/control review;84 controls defined,0 executed",
+  "metadata_replay": {
+    "bytes": 1658,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_METADATA_REPLAY.json",
+    "sha256": "dcef7aa329d38c750421dc127d1cb0afe8057cc30f22e27eecdb26024b1c9f10"
+  },
+  "next_native_question": "Exact whole-final-witness grid premise; source and qualification preparation before bounded actual audit",
+  "physical_claim": false,
+  "preliminary_review": {
+    "bytes": 3407,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_PRELIMINARY_REVIEW.md",
+    "sha256": "de26186f0bb11d95cecd3e297fbb19cbcaff80e07d758b5b6ab4b08d177d2bca"
+  },
+  "repairs_required": [],
+  "root_review": {
+    "bytes": 4362,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_MANUAL_REVIEW.md",
+    "sha256": "3040fadd824a82b8aee1c51338719ff79da7a3eb0d1c56ce9c1816588dba2b05"
+  },
+  "schema": "ri157-root-proof-adjudication-v1",
+  "scientific_body_decode": false,
+  "source": {
+    "bytes": 10114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.json",
+    "sha256": "968e3c853ce107aceff080126b8ca22f8ba846bbba914ff0b13a32360c660b8c"
+  },
+  "status": "ACCEPT_ACTUAL_CANONICAL_CAP_AND_SIGNED_CONTRAST_BOUNDS_WITH_CAPACITY_GAP",
+  "target_or_control_execution": false
+}

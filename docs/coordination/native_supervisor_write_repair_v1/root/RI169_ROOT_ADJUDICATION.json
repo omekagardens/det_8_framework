@@ -1,0 +1,28 @@
+{
+  "F03": "closed at source level",
+  "RET": "paused",
+  "actual_admission": false,
+  "actual_metadata_check": {
+    "bytes": 26668,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI169_INDEPENDENT_METADATA_CHECK.json",
+    "sha256": "9d28b58f1ab69bccd25e3c6da6dafde88da0609a575280a03f9249e729416557"
+  },
+  "actual_supervisor_checks": 0,
+  "native_cases_executed": 0,
+  "review": {
+    "bytes": 5371,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI169_ROOT_SOURCE_REVIEW.md",
+    "sha256": "710cafb9d46102b4b74eb677baf5ee0e88f851bc0f97100721dc1ab74dac00d7"
+  },
+  "schema": "ri169-root-source-adjudication-v1",
+  "status": "ACCEPT_NARROW_SOURCE_REPAIR_REQUIRES_ACTUAL_QUALIFICATION",
+  "subject": {
+    "bytes": 8729,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/HANDOFF.json",
+    "sha256": "68514ab733813e3de96ffcc0cfc536b7366530018dfea68af47e287630c6523e"
+  },
+  "tool": {
+    "chunk": "fc6179",
+    "exit_code": 0
+  }
+}

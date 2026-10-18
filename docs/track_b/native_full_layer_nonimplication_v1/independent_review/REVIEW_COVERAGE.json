@@ -1,0 +1,172 @@
+{
+  "all_276_historical_bodies_manually_read": false,
+  "author_record_not_fresh_verifier_truth": true,
+  "current_admin_manifests": "Complete parsed finite administrative objects and typed reference check; no scientific decode.",
+  "limitations_retained": true,
+  "manual_algebra_only": true,
+  "manual_reads": [
+    {
+      "coverage": "complete source/admin text read",
+      "executed": false,
+      "identity": {
+        "bytes": 12522,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/FULL_LAYER_PATH.md",
+        "sha256": "c8ce397db88061594aa1db98d5348c99941f76105e26a4a7f3e2716578fc5087"
+      }
+    },
+    {
+      "coverage": "complete source/admin text read",
+      "executed": false,
+      "identity": {
+        "bytes": 14084,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/NONIMPLICATION.md",
+        "sha256": "5075c9672eccb6b63a94a94c172503b8cd0642273101fb4c73cf47849943a0bd"
+      }
+    },
+    {
+      "coverage": "complete source/admin text read",
+      "executed": false,
+      "identity": {
+        "bytes": 15289,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/DEPENDENCY_NOTES.md",
+        "sha256": "76cc092ba4dc7a2eeacd68182a8250b3c1ca115dcf37e9f0eade6e8b3f88ae68"
+      }
+    },
+    {
+      "coverage": "complete source/admin text read",
+      "executed": false,
+      "identity": {
+        "bytes": 2825,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/HANDOFF.md",
+        "sha256": "bfadcc311fbc6451f8d4f50826d8e33889d8a1ca1e2102fa3463bb5d6a5c9185"
+      }
+    },
+    {
+      "coverage": "complete source/admin text read",
+      "executed": false,
+      "identity": {
+        "bytes": 17077,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/AUTHOR_CHECKS.json",
+        "sha256": "1b02a3cc228536cf9427903f7fae5b47b41aa45c054f83acec5aa36620ad4d8d"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 25166,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/INCIDENCE.md",
+        "sha256": "e74357b08a2dd13a364b3c0a460f9fbc8be6766b2e2cb80b60971c23a9d3e6b7"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 13509,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/COUPLED_BOUND.md",
+        "sha256": "3dc4a0408d34c17a639828d5cef49560fc02c9b4de26df17aa183c0b52e645f0"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 6255,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI168_ROOT_PROOF_REVIEW.md",
+        "sha256": "58a5cc66e1c9f78329c6dce7378667e05896a5820399272a3b4ac45bbdfabf54"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 16243,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+        "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 13521,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+        "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524"
+      }
+    },
+    {
+      "coverage": "complete",
+      "executed": false,
+      "identity": {
+        "bytes": 15418,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RECORD_TRANSPORT.md",
+        "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e"
+      }
+    },
+    {
+      "coverage": "section4 equations5-7, original exact factorization",
+      "executed": false,
+      "identity": {
+        "bytes": 19001,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+        "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+      }
+    },
+    {
+      "coverage": "sections1-2 and5-7; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 16141,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ENDPOINT_REDUCTION.md",
+        "sha256": "9b548f8a0cc912682c85f73f5a5f49a58d8a63d9daacbbb7156ffb1a65976a0d"
+      }
+    },
+    {
+      "coverage": "weighted contrast and scope; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 13488,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/CANONICAL_EQUALITY_SYNTHESIS.md",
+        "sha256": "662341234fb4187fdaa5f3fc57049803b481340af1ef5b870bfa77002f2ab3d2"
+      }
+    },
+    {
+      "coverage": "sections2-6; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 17046,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/COUPLED_EQUALITY_REDUCTION.md",
+        "sha256": "fcef241134507f3e21187a905871aa9853dabd0d95eca8cd6f9d335535d1bf04"
+      }
+    },
+    {
+      "coverage": "joint-budget and exact polynomial passages; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 13670,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+        "sha256": "3671a7415d6f9f36a77e704439e3560172cfb6240d43a0a97bc546537cdfd7c8"
+      }
+    },
+    {
+      "coverage": "lines1-234; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 13744,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+        "sha256": "2cdaa5fa384f81a5b253a28f26c088ee6a3dd83e4fe7e60dde56f1a5b6aa7577"
+      }
+    },
+    {
+      "coverage": "grid boundary and remaining scope; recommendation only",
+      "executed": false,
+      "identity": {
+        "bytes": 11966,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CAPACITY_SYNTHESIS.md",
+        "sha256": "25646b02bd021a8de23b89d8841621c70bbcecf97fe59164ac63d620b9cea7dd"
+      }
+    }
+  ],
+  "schema": "ri172-independent-source-coverage-v1"
+}

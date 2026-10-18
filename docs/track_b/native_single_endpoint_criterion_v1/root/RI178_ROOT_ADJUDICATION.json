@@ -1,0 +1,33 @@
+{
+  "actual_W_C2_C3_H30_decided": false,
+  "actual_check_exit_code": 0,
+  "actual_check_receipt": "ce3f6f",
+  "actual_metadata_check": {
+    "bytes": 188776,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI178_ROOT_METADATA_CHECK.json",
+    "sha256": "8fe99dac3175c6b3ea256c80a3290c546d609a193de415caa3e822249774fd55"
+  },
+  "endpoint_comparison_decided": false,
+  "historical_finite_sign_used": true,
+  "historical_sign_recomputed": false,
+  "independent_review": {
+    "bytes": 6628,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI178_ROOT_PROOF_REVIEW.md",
+    "sha256": "151b2db315f7ccdcb50deaaa811970620b95fc3a50f370d9bca4c76e76173239"
+  },
+  "pointwise_domination_accepted": true,
+  "programme_complete": false,
+  "reference_complements_increasing": true,
+  "ret_paused": true,
+  "schema": "ri178-root-mathematical-adjudication-v1",
+  "scientific_execution": false,
+  "single_endpoint_iff_accepted": true,
+  "slope_regime_premise_required": false,
+  "source": {
+    "bytes": 6870,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/HANDOFF.json",
+    "sha256": "8053eaa6d0102e818e4a336e5c63c827015ac7f6b68b188135be80612b8813ba"
+  },
+  "status": "ACCEPT_SINGLE_ENDPOINT_IFF_WITHOUT_SLOPE_REGIME",
+  "upper_boundary_increasing": true
+}

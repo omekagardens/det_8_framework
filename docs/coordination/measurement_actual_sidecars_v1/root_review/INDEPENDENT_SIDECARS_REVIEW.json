@@ -1,0 +1,84 @@
+{
+  "actual_check": {
+    "chunk_id": "0ef7af",
+    "exit_code": 0,
+    "predicates": 19307
+  },
+  "all_59_raw_ps_attempts_match_59_samples": true,
+  "all_five_sidecars_equal_whole_accepted_normal_PRE_fields": true,
+  "boundaries": [
+    "sampled owned-child RSS, not process-group or continuous hard memory quota",
+    "fixed supplier/cache/Apple-host/loader and read-window stability assumptions remain",
+    "no fresh runtime capture or cache/source-equivalence proof",
+    "no freeze, mode card, WHITE result, public GWOSC reproduction or physical claim",
+    "RET remains paused"
+  ],
+  "domains": {
+    "E_directories": 9,
+    "E_files": 48,
+    "absences": 2,
+    "adapter_dependencies": 567,
+    "current_sources": 668,
+    "independent_tails": 12,
+    "monitor_files": 4,
+    "namespace_rows": 195,
+    "operation_files": 8,
+    "prior_role_rows": 810,
+    "sidecars": 5,
+    "source_before_and_tail_bindings": 13,
+    "tools": 4,
+    "vendor_bytes": 48024515,
+    "vendor_files": 1810
+  },
+  "external_COMPLETE_and_complete_saved_post_trees_match": true,
+  "genuine_execution": {
+    "exit_code": 0,
+    "initial": "a1ff1f",
+    "matches_exact_dispatch": true,
+    "session": 18218,
+    "terminal": "e214c5"
+  },
+  "new_qualification_credit": 0,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_diagnostics_preserved": [
+    {
+      "chunk_id": "bfbc30",
+      "corrected_chunk": "9599eb",
+      "corrected_exit": 0,
+      "corrected_remainder_predicates": 516,
+      "exit_code": 1,
+      "reason": "Preflight reviewer used .length on an object after source/runtime checks."
+    },
+    {
+      "chunk_id": "19f0c6",
+      "exit_code": 1,
+      "reason": "Full postchecker read succeeded; same call later listed supplement before creation. Correction suggested before root execution: require controls-only fields absent."
+    },
+    {
+      "chunk_id": "b8cd46",
+      "corrected_chunk": "0ef7af",
+      "exit_code": 1,
+      "reason": "Reviewer generic FilePin predicate incorrectly required vendor supplier nlink1. Corrected to exact accepted full vendor identity; owned output single-link requirement retained."
+    }
+  ],
+  "runtime": {
+    "elapsed_seconds": 2.115778542,
+    "final_reap_gap_seconds": 0.03513191700000018,
+    "maximum_sample_gap_seconds": 0.03872137499999995,
+    "peak_sampled_rss_kib": 210480,
+    "stderr_bytes": 0,
+    "stdout_bytes": 0
+  },
+  "schema": "ri200-independent-sidecars-result-review-v1",
+  "scientific_execution": false,
+  "source_authorship_disclosure": "Reviewer authored RI156/158/160 repairs. New RI200 preparation, command/cards and actual export reviewed independently; accepted RI160 source semantics and actual106 evidence inherited, not requalified.",
+  "status": "PASS_ADMINISTRATIVE_EXPORT_ONLY",
+  "supplement_review": {
+    "additional_current": 9,
+    "chunk_id": "063ecd",
+    "covered_before_supplement": 585,
+    "exit_code": 0,
+    "historical_states_not_credited_as_current": true,
+    "prior_distinct": 594
+  }
+}

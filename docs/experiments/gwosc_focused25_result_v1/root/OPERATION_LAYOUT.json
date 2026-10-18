@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "execution_admitted": false,
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh",
+  "selected_interpreter_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "setup_only": true
+}

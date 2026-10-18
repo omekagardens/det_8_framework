@@ -1,0 +1,48 @@
+{
+  "F01_source_resolution": true,
+  "F02_source_resolution": true,
+  "all25_controls_reviewed_unexecuted": true,
+  "author_source_modified": false,
+  "blocking_findings": [],
+  "files": [
+    {
+      "bytes": 3134,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "efdcc14b05bcc44a407735e8d38e6b4a10eb85127097104a379760f915e20ed8"
+    },
+    {
+      "bytes": 4253,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "30f0c31c15d4d5bdd1ffd3fd682d2faaf56415382b0ea47fe9782363372b49b0"
+    },
+    {
+      "bytes": 21584,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "b87b7a3ca66c899e0b90f0a3240e6bbf1aecde42716e9a16293610efb7132675"
+    },
+    {
+      "bytes": 112858,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/OPAQUE_TEXT_CHECK.json",
+      "sha256": "06e2c585b5d0fea8915d1861d36c446dbe38a9af3cc2ae6289e6b86e946c45f1"
+    },
+    {
+      "bytes": 8896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb/check_metadata.py",
+      "sha256": "fb0f22deeaf1ff4fa67dc58ee8f768b5c87e3448bde0d183645372d74f304e12"
+    }
+  ],
+  "repository_or_git_operation": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_required": true,
+  "schema": "ri135-independent-repair-review-handoff-v1",
+  "scientific_body_decode_or_execution": false,
+  "self_hash_excluded": true,
+  "source_handoff": {
+    "bytes": 5902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+    "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+  },
+  "source_qualification_or_runtime_admission": false,
+  "status": "SEALED_COMPLETE_REVIEW_FOR_ROOT_ADJUDICATION",
+  "verdict": "PASS_BOUNDED_UNEXECUTED_SOURCE_ONLY"
+}

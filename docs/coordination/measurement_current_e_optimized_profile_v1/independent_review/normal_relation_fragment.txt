@@ -1,0 +1,47 @@
+ # Closed normal predecessor, its actual outputs/receipts and complete two-mode relation.
+ normal=load(card['normal_acceptance']['path'])
+ keys(normal,('schema','status','stage','sources','packet','environment_root','completions','genuine_outer','independent_review','scientific_execution'),'closed normal-stage acceptance')
+ equal([normal['schema'],normal['status'],normal['stage'],normal['scientific_execution']],['ri133-root-preparation-stage-review-v1','ACCEPT_NONSCIENTIFIC_PREPARATION_EVIDENCE','normal',False],'normal independently accepted scope')
+ for k in ('sources','packet','environment_root'):equal(normal[k],card[k],'normal same exact bindings')
+ equal(list(normal['completions']),['profile_normal'],'normal closed completion domain');equal(list(normal['genuine_outer']),['profile_normal'],'normal closed outer domain')
+ verify(normal['independent_review']);verify(normal['completions']['profile_normal']);verify(normal['genuine_outer']['profile_normal'])
+ equal(normal['completions']['profile_normal'],ref(N/'COMPLETE.json'),'literal accepted normal completion')
+ nc=load(N/'COMPLETE.json');na=load(nc['admission']['path']);no=load(normal['genuine_outer']['profile_normal']['path'])
+ keys(nc,complete,'normal complete closed result keys')
+ equal([nc['phase'],nc['status'],nc['first_error'],nc['independent_tail_errors']],['profile_normal','CAPTURED_FOR_INDEPENDENT_REVIEW',None,[]],'normal complete actual outcome')
+ for k in ('scientific_targets_executed','actual_data_admitted','full32_qualified','runtime_acceptance_created','genuine_outer_created'):require(nc[k] is False,'normal retained scope '+k)
+ require(nc['ret_paused'] is True and 0<nc['elapsed_seconds']<900,'normal retained pause/wall')
+ equal(nc['environment'],env,'normal environment');equal(nc['sources'],card['sources'],'normal sources');equal(nc['admission'],ref(RR/'ADMIT_PROFILE_NORMAL.json'),'normal exact admission')
+ equal(nc['command'],[vendor,'-I','-B',str(S/'prepare.py'),'--admission',str(RR/'ADMIT_PROFILE_NORMAL.json')],'normal parent command')
+ equal(na['baseline_acceptance'],card['baseline_acceptance'],'normal same independently accepted baseline');equal([na[k] for k in ('normal_acceptance','profiles_acceptance','guard_admission')],[None]*3,'normal predecessor phase ordering')
+ equal(na['bounds'],card['bounds'],'normal same unchanged limits');equal(na['environment_root'],str(E),'normal current E')
+ equal(load(N/'ATTEMPT.json'),{'schema':'ri133-preparation-attempt-v1','phase':'profile_normal','sources':card['sources'],'admission':nc['admission'],'environment':env,'scientific_execution':False},'whole normal parent attempt')
+ equal(nc['artifacts'],{k:ref(N/n) for k,n in artifacts.items()},'whole normal artifact role/pin domain')
+ nns=load(N/'NAMESPACE.json');equal([nns['schema'],nns['root'],nns['excluded_not_yet_written']],['ri133-retained-namespace-v1',str(N),['NAMESPACE.json','COMPLETE.json']],'normal exact namespace declarations')
+ normal_tree=tree(N,True);equal(normal_tree,sorted(nns['entries']+[{'relative':n,'kind':'file',**pure(identity(N/n))} for n in ('NAMESPACE.json','COMPLETE.json')],key=lambda x:x['relative']),'entire normal final namespace')
+ equal([r['relative'] for r in normal_tree],[r['relative'] for r in finaltree],'both-mode exact16 output-name domains')
+ NR=B/'ri188-root-endpoint-profile-review-1jg_i948';nids=load(NR/'OPERATION_FINAL_IDENTITIES.json')
+ equal(nids['entries'],normal_tree,'normal inherited final namespace');equal(len(nids['identities']),16,'normal all16 identities')
+ for r in nids['identities']:verify(r,True)
+ equal(no,{'schema':'ri133-root-genuine-outer-v1','status':'ACTUAL_TOOL_COMPLETION','command':nc['command'],'environment':env,'exit_code':0,'completion':ref(N/'COMPLETE.json'),'raw_tool_receipt':ref(NR/'GENUINE_PROFILE_NORMAL_COMPLETE.json'),'external_timeout_seconds':960},'entire normal actual outer')
+ ni=load(NR/'GENUINE_PROFILE_NORMAL_INITIAL.json');nt=load(NR/'GENUINE_PROFILE_NORMAL_COMPLETE.json');nd=load(NR/'PROFILE_NORMAL_DISPATCH.json')
+ equal([ni['chunk_id'],ni['session_id'],ni['output']],['2b5d3e',63779,''],'normal original initial');equal([nt['chunk_id'],nt['exit_code'],nt['output']],['9aba56',0,''],'normal original terminal')
+ equal(nd['outer_argv'],expected_argv[:-6]+nc['command'],'normal unchanged genuine dispatch');equal(shlex.split(nd['exec_command']['cmd']),nd['outer_argv'],'normal shell tokenization');equal(nd['admission'],nc['admission'],'normal dispatch admission');equal(nd['environment'],env,'normal dispatch env');require(nd['single_attempt'] is True,'normal single attempt')
+ equal(pure(identity(NR/'RI190_ROOT_ADJUDICATION.json')),{'bytes':2745,'sha256':'de11a7189504ff777f3145c8566d4e10ae0cb455d5eba2bc9aead327661fc576'},'normal root disposition anchor')
+ equal(layout['accepted_normal'],card['normal_acceptance'],'genuine preflight normal predecessor')
+ require((N/'PRE.stdout').read_bytes()==(N/'POST.stdout').read_bytes()==(C/'PRE.stdout').read_bytes(),'complete both-mode pre/post baseline equality')
+ nchecks=load(N/'CHECKS.json');keys(nchecks,('profile','post_metadata','source_and_admission_postcheck'),'normal closed checks');equal([nchecks['post_metadata'],nchecks['source_and_admission_postcheck']],['PASS','PASS'],'normal retained base check outputs')
+ # These are all differences in the entire actual reports, not arbitrary ignored fields.
+ transformed=json.loads(canonical(normal_profile));deltas=[]
+ for k in ('profile_before','profile_after'):
+  equal(transformed[k]['optimize'],0,'normal actual optimize');transformed[k]['optimize']=1;deltas.append({'field':k+'/optimize','normal':0,'optimized':1})
+ for name,row in sorted(transformed['modules'].items()):
+  cache=row['cached']
+  if cache is not None:
+   require(type(cache) is str and cache.endswith('.cpython-311.pyc'),'normal cache-tag form')
+   new=cache[:-4]+'.opt-1.pyc';row['cached']=new;deltas.append({'field':'modules/'+name+'/cached','normal':cache,'optimized':new})
+ equal(profile,transformed,'complete actual report relation including all module/cache metadata')
+ equal(len(deltas),32,'only two flag plus30 cache-path differences')
+ equal(ordered,normal_ordered,'complete ordered dyld attempts both modes');equal(reconstructed['hash_algorithm_names'],normal_reconstruction['hash_algorithm_names'],'complete both-mode hash names')
+ relation={'status':'COMPLETE_BOTH_MODE_REPORT_RELATION_RECONSTRUCTED','normal_report':ref(N/'PROFILE.stdout'),'optimized_report':ref(C/'PROFILE.stdout'),'exact_changes':deltas,'all_other_fields_type_equal':True,'each_full_descriptor_result_independently_reconstructed':True,'normal_envelope_separately_preserved':True,'optimized_envelope_separately_preserved':True,'cache_body_equivalence_or_instruction_trace_claim':False}
+ save('BOTH_MODE_RELATION.json',relation)

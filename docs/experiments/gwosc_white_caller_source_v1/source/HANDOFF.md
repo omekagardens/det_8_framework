@@ -1,0 +1,11 @@
+# RI130 sealed source handoff
+
+**UNEXECUTED. Fresh nonauthor source review and root adjudication required.** This packet prepares the concrete fabricated WHITE-only caller; it does not admit or execute it.
+
+Read `HANDOFF.json` and verify every bound file, then `PROTOCOL.md`, `MODE_CUSTODY_CONTRACT.md` and `AUTHORING_RECORD.md`. Review all new caller/worker/guard/evidence source plus retained support applicability. Inspect the exact30-file target dependency closure and124-file opaque historical closure and their original/copy pins. The 17 stage roles are not the whole runtime/caller/history closure.
+
+The prospective target is the sealed qualifier's single explicit fabricated-only `run_white_qualification` call. Its complete15 cases/W09 assembly, both179 literal control reports, independent fresh saved reconstruction,57 artifacts,74 source/artifact checks,3 control trees and full namespace remain mandatory. The new nonscientific caller harness declares65 cases and has not run. Normal-before-optimized and all previous resource limits remain fixed. The full mode relation preserves every scientific field, maps only two literal symlink target strings and derived tree/report hashes, and requires independent complete enclosing receipt review.
+
+The source author's disclosed RI125 validator authorship is not independent review of that validator or this new caller. Reviewers should focus on bootstrap trust/authentication premises, entire helper/source/runtime closure and all loaded modules, independent tails/partial ownership, genuine entry/load witnessing, all65 guard first failures and substitutions, complete saved-field checks, exact mode mapping, outer receipt/namespace coverage, unchanged monitor applicability and required fresh external runtime evidence. No target/helper execution or actual data decode is authorized by this handoff.
+
+After the independent source review, root decides whether the caller may advance to separately admitted guard/runtime preparation. A fresh current root sidecar/profile driver still needs review for this target; genuine monitored normal and optimized execution, independent full saved/custody review and actual feasibility remain pending. RI131's actual-validator mutation campaign is separate. Full32 application completion and physical/native claims are not established. RET remains paused.

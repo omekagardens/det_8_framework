@@ -1,0 +1,42 @@
+{
+  "actual_checks": [
+    {
+      "chunk_id": "ce266b",
+      "exit_code": 0,
+      "scope": "Whole repository entry inventory and exact author10/nine seal"
+    },
+    {
+      "chunk_id": "647ce5",
+      "exit_code": 0,
+      "scope": "All108 dependencies,86 retained rows,309+53 references,four source counterparts,full fresh identity recheck"
+    },
+    {
+      "chunk_id": "1f94cd",
+      "exit_code": 0,
+      "scope": "All independent review payloads and native dependencies verified before root adjudication and RI149 assignment"
+    }
+  ],
+  "custody": "Tool origin belongs to the actual coordinator/reviewer conversations; this JSON is a retained account, not a self-authenticating origin proof.",
+  "independent_reported_checks": [
+    {
+      "chunk_id": "b5dc04",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "844e7b",
+      "exit_code": 0
+    }
+  ],
+  "qr_dispatch": {
+    "accepted": true,
+    "scope": {
+      "bytes": 2443,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/NATIVE_SUCCESSOR_RESERVATION.json",
+      "sha256": "a142be0bdd2fc3e17df3611ed8836ef152103fa9895ba760fab795bcedca87fb"
+    },
+    "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "tool": "send_message_to_thread"
+  },
+  "schema": "ri147-root-administrative-tool-evidence-v1",
+  "scientific_execution": false
+}

@@ -1,0 +1,254 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/adapter.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py
+@@ -193,10 +193,17 @@
+         if a['action']=='sidecars':allowed.update(name+'.json' for name in ('runtime_inventory','selection','optional_namespaces','observed_dyld_routes','host_scope'))
+         if a['action']=='verify_mode':allowed.add('MODE_REVIEW.json')
+         if a['action']=='controls':allowed.update(('inert-fixtures','integration-fixtures'))
++        # Retain structural errors without suppressing other comparisons that
++        # this already-completed final scan can supply. Original first-error
++        # ordering remains member checks, produced pins, then fixture trees.
++        member_mismatches=[]
+         for row in tree:
+             name=row['relative'];within=a['action']=='controls' and (name.startswith('inert-fixtures/') or name.startswith('integration-fixtures/'))
+-            I.need(within or name in allowed,'unexpected metadata output '+name)
+-            if not within:I.same(row['kind'],'directory' if name in ('.','inert-fixtures','integration-fixtures') else 'file','output member type')
++            try:
++                I.need(within or name in allowed,'unexpected metadata output '+name)
++                if not within:I.same(row['kind'],'directory' if name in ('.','inert-fixtures','integration-fixtures') else 'file','output member type')
++            except BaseException as exc:member_mismatches.append({'name':name,'type':type(exc).__name__,'message':str(exc)[:2048]})
++        observations['namespace_member_mismatches']=member_mismatches
+         by={row['relative']:row for row in tree}
+         # Always reconcile every successfully captured output, including when
+         # the action subsequently failed. Missing partial outputs have no invented
+@@ -206,7 +213,35 @@
+             try:I.same(by.get(name),{'relative':name,'kind':'file',**{k:pin[k] for k in ('bytes','sha256')}},'final namespace produced pin '+name)
+             except BaseException as exc:mismatches.append({'name':name,'type':type(exc).__name__,'message':str(exc)[:2048]})
+         observations['namespace_output_mismatches']=mismatches
+-        if mismatches:raise ValueError(mismatches[0]['message'])
++        fixture_mismatches=[]
++        if a['action']=='controls':
++            expected_trees=value.get('fixture_trees') if type(value) is dict else None
++            final_trees={};comparisons={}
++            observations['namespace_fixture_trees']=final_trees
++            observations['namespace_fixture_comparisons']=comparisons
++            for name in ('inert-fixtures','integration-fixtures'):
++                # Same tree observation; change only its literal prefix/root
++                # label. Preserve the entire ordered row and every other field.
++                actual=[dict(row,relative='.' if row['relative']==name else row['relative'][len(name)+1:])
++                        for row in tree if row['relative']==name or row['relative'].startswith(name+'/')]
++                final_trees[name]=actual
++                expected=expected_trees.get(name) if type(expected_trees) is dict else None
++                available=type(expected) is list and len(expected)>0 and expected[0]=={'relative':'.','kind':'directory'}
++                comparisons[name]={'expected_available':available,'compared':False,'matched':None}
++                try:
++                    if available:
++                        comparisons[name]['compared']=True
++                        comparisons[name]['matched']=I.canonical(actual)==I.canonical(expected)
++                        I.same(actual,expected,'final namespace control fixture tree '+name)
++                    elif first is None:
++                        I.need(False,'complete captured control fixture expectation '+name)
++                    # After a primary failure, an absent/incomplete expectation
++                    # is explicitly unavailable. The observed partial remains;
++                    # it cannot become invented equality or erase that failure.
++                except BaseException as exc:fixture_mismatches.append({'name':name,'type':type(exc).__name__,'message':str(exc)[:2048]})
++        observations['namespace_fixture_mismatches']=fixture_mismatches
++        all_mismatches=member_mismatches+mismatches+fixture_mismatches
++        if all_mismatches:raise ValueError(all_mismatches[0]['message'])
+         if first is None:
+             names=set(by);I.need({'ATTEMPT.json','RESULT.json'}<=names,'complete metadata success outputs')
+             if a['action']=='sidecars':I.need(allowed<=names,'all five sidecar outputs')
+--- /Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/integration_controls.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/integration_controls.py
+@@ -11,7 +11,26 @@
+ OUTPUT_IDS=('O01_attempt_drift','O02_result_drift','O03_sidecars_unchanged','O04_inventory_drift','O05_selection_drift','O06_optional_drift','O07_dyld_drift','O08_host_drift','O09_mode_review_unchanged','O10_mode_review_drift','O11_partial_sidecars','O12_simultaneous_failures','O13_namespace_only_drift','O14_failure_before_action_output','O15_final_write_collision')
+ FIXTURE_IDS=('C01_fixture_trees_unchanged','C02_fixture_tree_drift')
+ MODE_IDS=('M01_unchanged','M02_final_root_drift','M03_primary_and_final_drift','M04_post_and_final_drift','M05_unverified_post')
+-CONTROL_IDS=SOURCE_IDS+OUTPUT_IDS+FIXTURE_IDS+MODE_IDS
++FINAL_SINGLE_CASES={
++    'L02_inert_bytes':('inert-fixtures','bytes'),
++    'L03_inert_add':('inert-fixtures','add'),
++    'L04_inert_delete':('inert-fixtures','delete'),
++    'L05_inert_missing_root':('inert-fixtures','missing_root'),
++    'L06_inert_file_type':('inert-fixtures','file_type'),
++    'L07_inert_link':('inert-fixtures','link'),
++    'L08_inert_root_file':('inert-fixtures','root_file'),
++    'L09_inert_root_link':('inert-fixtures','root_link'),
++    'L10_integration_bytes':('integration-fixtures','bytes'),
++    'L11_integration_add':('integration-fixtures','add'),
++    'L12_integration_delete':('integration-fixtures','delete'),
++    'L13_integration_missing_root':('integration-fixtures','missing_root'),
++    'L14_integration_file_type':('integration-fixtures','file_type'),
++    'L15_integration_link':('integration-fixtures','link'),
++    'L16_integration_root_file':('integration-fixtures','root_file'),
++    'L17_integration_root_link':('integration-fixtures','root_link'),
++}
++FINAL_FIXTURE_IDS=('L01_both_unchanged', 'L02_inert_bytes', 'L03_inert_add', 'L04_inert_delete', 'L05_inert_missing_root', 'L06_inert_file_type', 'L07_inert_link', 'L08_inert_root_file', 'L09_inert_root_link', 'L10_integration_bytes', 'L11_integration_add', 'L12_integration_delete', 'L13_integration_missing_root', 'L14_integration_file_type', 'L15_integration_link', 'L16_integration_root_file', 'L17_integration_root_link', 'L18_primary_both', 'L19_ordinary_both', 'L20_primary_ordinary_both', 'L21_partial_no_expectations', 'L22_success_without_expectations')
++CONTROL_IDS=SOURCE_IDS+OUTPUT_IDS+FIXTURE_IDS+MODE_IDS+FINAL_FIXTURE_IDS
+ SIDECARS=('runtime_inventory','selection','optional_namespaces','observed_dyld_routes','host_scope')
+ 
+ 
+@@ -221,14 +240,14 @@
+ 
+ def run_controls(directory,mods,adapter):
+     I=mods['custody_io'];root=Path(directory);need(root.is_absolute() and root.resolve()==root and not root.exists(),'exclusive inert integration root');root.mkdir()
+-    (root/'INERT_ONLY.txt').write_text('RI158 unqualified integration fixtures. No source authentication, runtime or science execution.\n')
++    (root/'INERT_ONLY.txt').write_text('RI160 unqualified integration fixtures. No source authentication, runtime or science execution.\n')
+     rows=[]
+     for identifier in CONTROL_IDS:
+         try:
+-            evidence=mode_case(identifier,root/identifier,mods) if identifier in MODE_IDS else integration_case(identifier,root/identifier,mods,adapter)
++            evidence=final_fixture_case(identifier,root/identifier,mods,adapter) if identifier in FINAL_FIXTURE_IDS else mode_case(identifier,root/identifier,mods) if identifier in MODE_IDS else integration_case(identifier,root/identifier,mods,adapter)
+             rows.append({'id':identifier,'passed':True,'evidence':evidence,'error':None})
+         except BaseException as exc:rows.append({'id':identifier,'passed':False,'evidence':None,'error':{'type':type(exc).__name__,'message':str(exc)[:2048]}})
+-    return {'schema':'ri158-inert-custody-integration-controls-v1','order':list(CONTROL_IDS),'controls':rows,
++    return {'schema':'ri160-inert-custody-integration-controls-v1','order':list(CONTROL_IDS),'controls':rows,
+       'counts':{'total':len(rows),'passed':sum(x['passed'] for x in rows),'failed':sum(not x['passed'] for x in rows)},
+       'status':'ALL_DECLARED_PASSED' if all(x['passed'] for x in rows) else 'FAILED_RETAIN_ALL_FIXTURES','fixture_tree':I.tree(root),
+       'actual_authentication_or_runtime_credit':False,'scientific_execution':False}
+@@ -240,8 +259,144 @@
+     old=mods['inert_controls'].run_controls(out/'inert-fixtures',mods,here)
+     new=run_controls(out/'integration-fixtures',mods,adapter)
+     order=list(mods['inert_controls'].CONTROL_IDS)+list(CONTROL_IDS);rows=old['controls']+new['controls']
+-    return {'schema':'ri158-combined-inert-adapter-controls-v1','order':order,'controls':rows,
++    return {'schema':'ri160-combined-inert-adapter-controls-v1','order':order,'controls':rows,
+       'counts':{'total':len(rows),'passed':sum(x['passed'] for x in rows),'failed':sum(not x['passed'] for x in rows)},
+       'status':'ALL_DECLARED_PASSED' if all(x['passed'] for x in rows) else 'FAILED_RETAIN_ALL_FIXTURES',
+-      'groups':{'retained55':old,'new29':new},'fixture_trees':{'inert-fixtures':old['fixture_tree'],'integration-fixtures':new['fixture_tree']},
++      'groups':{'retained55':old,'integration51':new},'fixture_trees':{'inert-fixtures':old['fixture_tree'],'integration-fixtures':new['fixture_tree']},
+       'scientific_execution':False,'runtime_or_tool_evidence_genuine':False,'actual_admission_coverage':False,'arithmetic_or_15_case_credit':False,'full32_credit':False,'ri131_credit':False}
++
++
++def final_fixture_case(identifier,root,mods,adapter):
++    """RI160: real post-authentication runner, inert credentials/action only.
++    Mutation occurs on the final whole-tree entry, after successful individual
++    output/fixture tails. No scientific or accepted historical body is present.
++    """
++    I=mods['custody_io'];root.mkdir();(root/'INERT_ONLY.txt').write_text('RI160 private authentication/action substitutes. No authority or science.\n')
++    def save(name,value):return I.write(root/name,value)
++    module=save('inert-module.json',{'inert_source':'module'});main=save('inert-adapter.json',{'inert_source':'adapter'})
++    declaration=save('inert-manifest.json',{'inert_source':'manifest'});dependency=save('inert-dependency.json',{'inert_dependency':True})
++    request=save('inert-request.json',{'inert_request':True});admission=save('inert-boundary.json',{'INERT_AUTHENTICATION_SUBSTITUTE':True})
++    out=root/'owned-output';a={'output':str(out),'action':'controls','source_manifest':declaration,'request':request}
++    manifest={'modules':{'inert_module':module},'adapter':main,'dependencies':[dependency]}
++    labels={module['path']:'inert_module',main['path']:'adapter',declaration['path']:'manifest'}
++    roles=('inert-fixtures','integration-fixtures');trace=[];mutations=[];expected={};late_tree=None
++    primary=identifier in ('L18_primary_both','L20_primary_ordinary_both','L21_partial_no_expectations')
++    partial=identifier=='L21_partial_no_expectations';missing=identifier=='L22_success_without_expectations'
++    ordinary=identifier in ('L19_ordinary_both','L20_primary_ordinary_both')
++    changes={}
++    if identifier in FINAL_SINGLE_CASES:
++        role,kind=FINAL_SINGLE_CASES[identifier];changes[role]=kind
++    elif identifier in ('L18_primary_both','L19_ordinary_both','L20_primary_ordinary_both'):
++        changes={'inert-fixtures':'bytes','integration-fixtures':'link'}
++    original_body=b'INERT fixture alpha\n';changed_body=b'INERT fixture beta\n';added_body=b'INERT new member\n';root_body=b'INERT root replacement\n'
++    base_rows=[{'relative':'.','kind':'directory'},
++               {'relative':'alpha.txt','kind':'file',**I.identity(original_body)},
++               {'relative':'link','kind':'symlink','target':'alpha.txt'},
++               {'relative':'nested','kind':'directory'}]
++    def changed_rows(role):
++        rows=copy.deepcopy(base_rows);kind=changes.get(role)
++        if kind=='bytes':rows[1]={'relative':'alpha.txt','kind':'file',**I.identity(changed_body)}
++        elif kind=='add':rows.append({'relative':'extra.txt','kind':'file',**I.identity(added_body)})
++        elif kind=='delete':rows=[r for r in rows if r['relative']!='alpha.txt']
++        elif kind=='missing_root':rows=[]
++        elif kind=='file_type':rows[1]={'relative':'alpha.txt','kind':'directory'}
++        elif kind=='link':rows[2]={'relative':'link','kind':'symlink','target':'nested'}
++        elif kind=='root_file':rows=[{'relative':'.','kind':'file',**I.identity(root_body)}]
++        elif kind=='root_link':rows=[{'relative':'.','kind':'symlink','target':'INERT_missing_target'}]
++        return sorted(rows,key=lambda r:r['relative'])
++    def mutate(role,kind):
++        d=out/role;kept=root/('retained-before-late-'+role+'-'+kind)
++        if kind=='bytes':(d/'alpha.txt').write_bytes(changed_body)
++        elif kind=='add':(d/'extra.txt').write_bytes(added_body)
++        elif kind=='delete':(d/'alpha.txt').rename(kept)
++        elif kind=='missing_root':d.rename(kept)
++        elif kind=='file_type':(d/'alpha.txt').rename(kept);(d/'alpha.txt').mkdir()
++        elif kind=='link':(d/'link').rename(kept);(d/'link').symlink_to('nested')
++        elif kind=='root_file':d.rename(kept);d.write_bytes(root_body)
++        elif kind=='root_link':d.rename(kept);d.symlink_to('INERT_missing_target')
++        else:raise AssertionError('unknown literal RI160 mutation')
++        mutations.append({'root':role,'kind':kind,'timing':'final_whole_tree_entry_after_individual_tails'})
++    proxy=SimpleNamespace(**{name:getattr(I,name) for name in dir(I) if not name.startswith('__')})
++    def observe(path,*args,**kwargs):
++        trace.append('observe:'+labels.get(str(path),Path(path).name));return I.observe(path,*args,**kwargs)
++    def ref(path,*args,**kwargs):trace.append('ref:'+Path(path).name);return I.ref(path,*args,**kwargs)
++    def body(row,*args,**kwargs):trace.append('body:'+Path(row['path']).name);return I.body(row,*args,**kwargs)
++    def write(path,value):trace.append('write:'+Path(path).name);return I.write(path,value)
++    def tree(path):
++        nonlocal late_tree
++        trace.append('tree:'+Path(path).name)
++        if Path(path)==out:
++            need(late_tree is None,'one final whole-tree observation')
++            if not (partial or missing):
++                exact(trace[-3:],['tree:inert-fixtures','tree:integration-fixtures','tree:owned-output'],'mutation follows both individual fixture observers',I)
++            for role in roles:
++                if role in changes:mutate(role,changes[role])
++            if ordinary:
++                (out/'RESULT.json').write_bytes(b'INERT late ordinary output\n')
++                mutations.append({'root':'RESULT.json','kind':'bytes','timing':'final_whole_tree_entry_after_individual_tails'})
++            late_tree=I.tree(path);return late_tree
++        return I.tree(path)
++    proxy.observe=observe;proxy.ref=ref;proxy.body=body;proxy.write=write;proxy.tree=tree
++    def action(name,q,directory,supplied,capture):
++        trace.append('action:'+name)
++        for role in roles:
++            d=directory/role;d.mkdir();(d/'alpha.txt').write_bytes(original_body);(d/'nested').mkdir();(d/'link').symlink_to('alpha.txt')
++            expected[role]=I.tree(d);exact(expected[role],base_rows,'full independent fixed inert fixture rows '+role,I)
++        if partial:raise ValueError('INERT primary fixture action failure')
++        result={'status':'ALL_DECLARED_PASSED','INERT_CONTROLS_ACTION':True}
++        if not missing:result['fixture_trees']=copy.deepcopy(expected)
++        if primary:result['first_error']={'type':'ValueError','message':'INERT primary fixture action failure'}
++        return result
++    code=adapter.run_authenticated(admission['path'],a,manifest,{'custody_io':proxy},{},admission,action)
++    report=I.read(I.ref(out/'COMPLETE.json'));obs=report['tail_observations'];tails=report['independent_tails']
++    expected_trace=['observe:inert_module','observe:adapter','observe:manifest','ref:inert-boundary.json','ref:inert-boundary.json','write:ATTEMPT.json','action:controls']
++    produced=['ATTEMPT.json']
++    if not partial:expected_trace+=['write:RESULT.json'];produced+=['RESULT.json']
++    expected_trace+=['observe:inert_module','observe:adapter','observe:manifest','body:inert-boundary.json','body:inert-request.json','ref:inert-dependency.json']
++    expected_trace+=['ref:'+name for name in produced]
++    if not (partial or missing):expected_trace+=['tree:inert-fixtures','tree:integration-fixtures']
++    expected_trace+=['tree:owned-output','write:COMPLETE.json']
++    exact(trace,expected_trace,'complete real runner trace and single final scan',I)
++    expected_tails=['sources','admission','request','dependencies']+['output:'+name for name in produced]
++    if not (partial or missing):expected_tails+=['fixture:'+name for name in roles]
++    expected_tails+=['namespace'];exact(sorted(tails),sorted(expected_tails),'complete actual independent tail set',I)
++    for name in expected_tails:
++        if name!='namespace':exact(tails[name]['error'],None,'every earlier eligible tail succeeded '+name,I)
++    if not (partial or missing):
++        for role in roles:
++            exact(tails['fixture:'+role]['value'],base_rows,'earlier whole fixture tail equality '+role,I)
++            exact(obs['fixture_trees'][role],base_rows,'earlier captured observation retained '+role,I)
++    else:need('fixture_trees' not in obs,'no invented earlier fixture-tail observations')
++    exact(obs['namespace'],late_tree,'receipt retains exact final whole scan',I)
++    wanted_members=[];wanted_fixture_errors=[];wanted_output_errors=[]
++    for role in roles:
++        rows=changed_rows(role);exact(obs['namespace_fixture_trees'][role],rows,'all final normalized rows and fields '+role,I)
++        # Independent full-tree projection also verifies raw prefixed membership;
++        # only the role prefix/root changes, no recorded field is discarded.
++        prefix_rows=[dict(row,relative=role if row['relative']=='.' else role+'/'+row['relative']) for row in rows]
++        exact([r for r in late_tree if r['relative']==role or r['relative'].startswith(role+'/')],prefix_rows,'complete raw prefixed rows '+role,I)
++        availability=not (partial or missing)
++        exact(obs['namespace_fixture_comparisons'][role],{'expected_available':availability,'compared':availability,'matched':(role not in changes) if availability else None},'explicit comparison eligibility '+role,I)
++        if changes.get(role) in ('root_file','root_link'):
++            wanted_members.append({'name':role,'type':'ValueError','message':'RI156_IO: output member type'})
++        if role in changes or missing:
++            label='complete captured control fixture expectation ' if missing else 'final namespace control fixture tree '
++            wanted_fixture_errors.append({'name':role,'type':'ValueError','message':'RI156_IO: '+label+role})
++    if ordinary:wanted_output_errors=[{'name':'RESULT.json','type':'ValueError','message':'RI156_IO: final namespace produced pin RESULT.json'}]
++    exact(obs['namespace_member_mismatches'],sorted(wanted_members,key=lambda r:r['name']),'all structural mismatch records',I)
++    exact(obs['namespace_output_mismatches'],wanted_output_errors,'ordinary mismatch does not suppress fixtures',I)
++    exact(obs['namespace_fixture_mismatches'],wanted_fixture_errors,'both fixture mismatches retained in fixed root order',I)
++    late_errors=sorted(wanted_members,key=lambda r:r['name'])+wanted_output_errors+wanted_fixture_errors
++    late_error={k:late_errors[0][k] for k in ('type','message')} if late_errors else None
++    exact(tails['namespace']['error'],late_error,'exact first final-namespace refusal',I)
++    expected_first={'type':'ValueError','message':'INERT primary fixture action failure'} if primary else late_error
++    exact(report['first_error'],expected_first,'primary versus independent late failure order',I)
++    exact(code,1 if expected_first else 0,'actual integrated return code',I)
++    exact(report['status'],'REFUSED_RETAIN_ALL_PARTIALS' if expected_first else 'COMPLETED_PENDING_INDEPENDENT_ROOT_REVIEW','actual integrated completion scope',I)
++    exact(sorted(report['produced_output_pins']),produced,'only completed ordinary expectations',I)
++    if partial:need(not (out/'RESULT.json').exists(),'earlier failure has no invented result')
++    if late_error is None:exact(tails['namespace']['value'],late_tree,'successful namespace tail retains all partial records',I)
++    else:need(tails['namespace']['value'] is None and obs['namespace']==late_tree,'late refusal preserves complete observed tree separately')
++    return {'report':report,'trace':trace,'mutations':mutations,'expected_fixed_rows':base_rows,'final_scan':late_tree,'complete_case_tree':I.tree(root),
++      'authentication_and_action_substituted':True,'actual_runner_and_final_comparison_used':True,'authentic_whole_entry_credit':False,
++      'current_runtime_or_science_credit':False,'individual_tails_succeeded_before_late_mutation':not (partial or missing)}

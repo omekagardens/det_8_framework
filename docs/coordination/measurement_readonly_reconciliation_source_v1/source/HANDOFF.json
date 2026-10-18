@@ -1,0 +1,200 @@
+{
+  "RET_paused": true,
+  "actual_admin_check": {
+    "bytes": 585802,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "dddae983c995cfc6b8d52d8e9650319755136303de0864c92e621b9c281ad55f"
+  },
+  "actual_admin_tool_receipts": {
+    "bytes": 3388,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "f506164d55c72d77481c927667e5d9cc44dfe49b8494db14fafef6578679a1c5"
+  },
+  "assignment": {
+    "bytes": 3315,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+    "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "checker": {
+    "bytes": 29958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+    "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+  },
+  "checker_same_author_disclosed": true,
+  "correspondence": {
+    "bytes": 3563,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/CORRESPONDENCE.json",
+    "sha256": "2c61ce7b8fde469c28dca957bbc4fd5cad1037952c8a8a46f1e19ca1ba7282e3"
+  },
+  "current_E_root_all_fields_required_unchanged": true,
+  "current_runtime_or_E_inventory_created": false,
+  "diagnostics": [
+    "Original RI222 failed complete/outer and all inherited failure records are immutable declared dependencies.",
+    "Administrative oversized-read output truncation retained as a diagnostic; no failed subject retry.",
+    "One extra report-read pin check explains printed4065 versus serialized4064; no threshold or outcome discrepancy."
+  ],
+  "exact_historical_directory_link_transition": [
+    23,
+    24
+  ],
+  "files": [
+    {
+      "bytes": 3388,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "f506164d55c72d77481c927667e5d9cc44dfe49b8494db14fafef6578679a1c5"
+    },
+    {
+      "bytes": 585802,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "dddae983c995cfc6b8d52d8e9650319755136303de0864c92e621b9c281ad55f"
+    },
+    {
+      "bytes": 2192,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "d8eb7d42a06f356b2e13cbca4724fd8ea64359ff9f44b46082b11a9a37ebafbf"
+    },
+    {
+      "bytes": 1475,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/BUILD_METADATA.json",
+      "sha256": "dc49f2d9273ceed7158e49811750c9e84d7cf614f2a0ef80b4a50fa2f8e4c7cd"
+    },
+    {
+      "bytes": 31950,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/CHECKER_DIFF.patch",
+      "sha256": "42e86c2facab03104ecd213455b15c2066915cc7e6e9bcb111f646b62e37a5f0"
+    },
+    {
+      "bytes": 3563,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/CORRESPONDENCE.json",
+      "sha256": "2c61ce7b8fde469c28dca957bbc4fd5cad1037952c8a8a46f1e19ca1ba7282e3"
+    },
+    {
+      "bytes": 3458,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "b9bf44536cc3f40af8262fab7bab36f06f0df496e28a5101cf52a3be3b1281c9"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 19871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/PROTOCOL.md",
+      "sha256": "ed24ffce4a1070b5b89f4d85bc287997fcfca95bb641f8b047905e93f25c2f26"
+    },
+    {
+      "bytes": 25118,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/RECONCILER_DIFF.patch",
+      "sha256": "1d5340391a9a1beab2b410a71aa89056346b886dc0105beb9674e356f8f7da4e"
+    },
+    {
+      "bytes": 82537,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "ad7253f46b76dc4c5e72fa32ac0beabbe834606133dd4a46b26a516606dd41f3"
+    },
+    {
+      "bytes": 1412,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+      "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+    },
+    {
+      "bytes": 9666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/admin_check.py",
+      "sha256": "4e287faadbae177fa641b6c2e021ccce5a2cb6ebdd2a213dcf5d5ac4a733110c"
+    },
+    {
+      "bytes": 13508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/build_checker.py",
+      "sha256": "54df9b5b202fa5ddb1aa91c2767891aeb82e26b80a9affcae8e7d3ad0ad67422"
+    },
+    {
+      "bytes": 16927,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/build_proposal.py",
+      "sha256": "b19a29d688cf1e57feb8cbd3dc5785d88283228cad0b28ce9b70daea1bc4d3b1"
+    },
+    {
+      "bytes": 29958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+      "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+    },
+    {
+      "bytes": 1762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/finalize_sources.py",
+      "sha256": "d3284ef59fabfe08971c998e361585ff7ac312ffdb8456cad0261aecb4b04d6e"
+    },
+    {
+      "bytes": 25970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+      "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+    }
+  ],
+  "final_administrative_receipt_includes_extra_report_pin_check": 4065,
+  "fixtures_admissions_or_cards_created": false,
+  "installed_candidate_or_scientific_body_decoded": false,
+  "limits_unchanged": true,
+  "namespace": [
+    "ACTUAL_ADMIN_RECEIPTS.json",
+    "ADMIN_CHECK.json",
+    "AUTHORING_RECORD.json",
+    "BUILD_METADATA.json",
+    "CHECKER_DIFF.patch",
+    "CORRESPONDENCE.json",
+    "FINDING_RESPONSE.md",
+    "INPUT_PINS.json",
+    "PROTOCOL.md",
+    "RECONCILER_DIFF.patch",
+    "REPAIR_PROVENANCE.json",
+    "SOURCE_PINS.json",
+    "admin_check.py",
+    "build_checker.py",
+    "build_proposal.py",
+    "check_reconciliation.py",
+    "finalize_sources.py",
+    "reconcile_freeze.py",
+    "HANDOFF.json"
+  ],
+  "new_E_write_possible_by_design": false,
+  "no_automatic_source_or_operational_acceptance": true,
+  "opaque_files_checked": 968,
+  "original_complete_source_paths_preserved": 904,
+  "original_failure_preserved": true,
+  "original_failure_remains_refused": true,
+  "payload_count": 18,
+  "prior_historical_roles_preserved": 810,
+  "prospective_current_source_bindings": 971,
+  "protocol": {
+    "bytes": 19871,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/PROTOCOL.md",
+    "sha256": "ed24ffce4a1070b5b89f4d85bc287997fcfca95bb641f8b047905e93f25c2f26"
+  },
+  "reconciler": {
+    "bytes": 25970,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+    "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+  },
+  "repository_or_Git_changes": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal",
+  "root_required_next": [
+    "Fresh nonauthor and root source review of the complete two programs and protocol.",
+    "Actual new failure-aware source decision, fresh complete host/source/supplier/E preflight and concrete unchanged-monitor bootstrap review.",
+    "Separate one-operation read-only recovery admission and genuine monitored execution; no E retry or overwrite.",
+    "Complete independent saved recovery/custody review and root acceptance before any mode preparation."
+  ],
+  "schema": "ri226-read-only-recovery-source-handoff-v1",
+  "scientific_qualification_credit": 0,
+  "source_administrative_predicates": 4064,
+  "source_inputs": 963,
+  "source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "status": "SEALED_SOURCE_ONLY_AWAITING_NONAUTHOR_AND_ROOT_REVIEW",
+  "subject_import_compile_AST_probe_execution": false,
+  "whole_source_read_lines": {
+    "check_reconciliation.py": 174,
+    "reconcile_freeze.py": 256
+  }
+}

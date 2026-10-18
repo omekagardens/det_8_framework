@@ -1,0 +1,157 @@
+{
+  "schema": "ri212-native-individual-margin-reduction-handoff-v1",
+  "status": "NATIVE_SLACK_AND_EXACT_SEED_ELIMINATION_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+    "bytes": 8385,
+    "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI210_ROOT_ADJUDICATION.json",
+    "bytes": 3286,
+    "sha256": "07aec9151652caaa554190396434bfc548b04bd75b9f69b48f01686cc2eab402"
+  },
+  "additional_literal_admissions": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+      "bytes": 2860,
+      "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+      "bytes": 3334,
+      "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INDIVIDUAL_MARGINS.md",
+    "SEED_COMPARISON.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/AUTHOR_VERIFICATION.json",
+      "bytes": 27047,
+      "sha256": "33c009dd5ffe986cffca0fd9cdaa7c6045af038d04a0478d2a9072b070152aae"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.md",
+      "bytes": 2284,
+      "sha256": "a6b39c43095fe421dea473b208287f72176b3e19fb133d5576cd74af3a7eb866"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md",
+      "bytes": 10491,
+      "sha256": "d439506955230146330a97bcb5b53f9ddacac7b49c9f77c050be99670fdf4ec3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+      "bytes": 9139,
+      "sha256": "4e8e16be62b6fdd3e8f73853eb8718a37b9d231fe7641237a83eaccb55c9359d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SOURCE_REFERENCES.json",
+      "bytes": 37375,
+      "sha256": "975da85231fd8ba740056c8ad51a43026974790b3f7bd975eec8a5cb1bc560fe"
+    }
+  ],
+  "new_theorems": [
+    "B3>1+delta at the unchanged actual pair, delta=4000000000/926000000001; B2>0.",
+    "Both strict original margins iff1-B3<h<B2; [-delta,0] is a sufficient closed seed strip, not a selected seed.",
+    "The two original marked P1 harmonic equations give K*h=A, K=c0*j1-j0*c1, A=c0(lambda*j0+j1-j0).",
+    "Complete lower rows imply0<K_i<44 and|Delta j|<44theta<1/1000, hence A>59c0/12000>0.",
+    "The existing original harmonic seed implies K!=0; h=A/K exactly, without numerical reconstruction.",
+    "If K>0, C3>0 and remaining iff K*B2>A; if K<0, C2>0 and remaining iff(-K)*(B3-1)>A. Equalities fail original strict margins."
+  ],
+  "exact_remaining_condition": "K=c0*j1-j0*c1 is nonzero but its native sign is not proved here. If K>0, both original strict margins pass iff K*B2>A; if K<0, both pass iff(-K)*(B3-1)>A. The other margin is strictly positive in each respective branch. Equalities fail.",
+  "sufficient_comparisons_not_asserted": [
+    "K<0 and(-K)*delta>=A implies both strict margins; equality still strict.",
+    "For h<0, M6<=(T+h/2)/(1-h) implies C3>0 even at equality; equivalently8lambda*j0*(-K)>=v*(1+2M6)*(A-K) when K<0."
+  ],
+  "proof_steps": [
+    "Normalize the exact original C2/C3 formulas without dropping their empty/core terms, giving(3m/r)C2=B2-h and(3j/r)C3=B3-1+h.",
+    "Use the accepted same-law global bound and actual correlated pair to prove B3>1+4000000000/926000000001 independently of B2.",
+    "Use both original marked P1 harmonic identities from the first additional admitted text; manually collect K*h=A.",
+    "Use complete C4/C3 sums and both H5 one-cap terms in the second additionally admitted text to prove0<K_i<44 and|Delta j|<44theta<1/1000.",
+    "Combine native theta bound and admitted lambda>3/500,j0>71/72 to obtain A>59c0/12000. Existing original seed excludes K=0.",
+    "Eliminate h exactly and separate the two signed strict comparisons; preserve original P2/P3,Y=1/4,canonical corrections and all joint continuation obligations."
+  ],
+  "inherited_not_freshly_reproved": [
+    "RI210 complete same-law M6<463e9<T withT>465e9 and actual weightedW>0.",
+    "Native theta<2^-38; actual rho ands correlation and original positive denominators.",
+    "Complete original seed, record transport, local interval equivalence, all nonzero coordinates and|z_i|<=1 withamplitude1/4.",
+    "Exact admitted fixed-prefix formulas and canonical q/N_i definitions, including zero and tied branches."
+  ],
+  "scope": {
+    "manual_analysis_only": true,
+    "strict_B3_native_slack_proved": true,
+    "exact_seed_split_criterion_proved": true,
+    "two_original_marked_rows_eliminated_symbolically": true,
+    "individual_native_signs_decided": false,
+    "both_individual_margins_or_H30_decided": false,
+    "physical_correspondence_proved": false,
+    "scientific_body_vector_or_certificate_read": false,
+    "automated_proof_arithmetic_graph_LP_or_subject_execution": false,
+    "numerical_H_or_z_reconstruction": false,
+    "actual_M6_or_scales_evaluated": false,
+    "repository_or_Git_written": false,
+    "qualification_credit": 0,
+    "ret_paused": true,
+    "positive_seed_numerator_proved": true,
+    "zero_determinant_branch_excluded_using_existing_seed": true,
+    "seed_split_eliminated_symbolically": true,
+    "native_determinant_sign_decided": false,
+    "both_native_margin_signs_decided": false
+  },
+  "remaining": "Actual sign of K=c0*j1-j0*c1 and its corresponding single strict inequality; no independent h input is required after symbolic elimination. Shared T1, other8connected parents, all5Di and H30 remain.",
+  "provenance_scope": {
+    "direct_sources": 24,
+    "direct_bytes": 693919,
+    "inherited423_by_reference": true,
+    "inherited_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "inherited_boundary_objects_preserved": 15,
+    "original_named_analytic_texts": 6,
+    "additional_narrow_analytic_texts": 2,
+    "predecessor_complete_namespace": 6,
+    "no_descendant_or_scientific_expansion": true
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "6ceada",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 28,
+      "explicit_selected_reference_checks": 42
+    },
+    "author_record": {
+      "chunk_id": "b72ab4",
+      "exit_code": 0
+    },
+    "rejected_patch_attempts": 1,
+    "failed_shell_commands": 0,
+    "current_diagnostics": "One apply_patch request rejected before writes because Delete+Add targeted the same file; corrected to one Update after current-text read. One incidental clipped coordinator-turn display was not used as a proof source. Complete final proof readback and initial/intermediate/final pins retained.",
+    "independent_proof_acceptance": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final_check_policy": "Run retained checker in final6 mode now that this seal exists. Report actual receipt and this file's identity externally; no internal self-hash or claim of a future check.",
+  "stopping_rule": "Stop at sealed manual handoff for root independent adjudication. Root owns publication, index/Git and successors. No subject execution or RET continuation."
+}

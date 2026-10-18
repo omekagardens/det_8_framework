@@ -1,0 +1,49 @@
+{
+  "RET": "paused",
+  "actual_check": {
+    "chunk_id": "4a4dfc",
+    "exit_code": 0
+  },
+  "actual_controls_executed": 0,
+  "actual_grid_result": null,
+  "confirmed_gaps": [
+    {
+      "id": "RT01",
+      "requirement": "A genuine root-admitted external supervisor with a separate timer, bounded retained outer streams and demonstrated owned-process completion/cleanup. Selected gtimeout path is absent. No install or substitute is authorized by this packet.",
+      "status": "MISSING"
+    },
+    {
+      "id": "RT02",
+      "requirement": "Current static native dependency mapping and closure of reachable non-system suppliers, plus explicit root acceptance of Darwin kernel/Apple loader/shared-cache premises. Framework byte snapshots do not prove transitive runtime provenance.",
+      "status": "UNESTABLISHED"
+    },
+    {
+      "id": "RT03",
+      "requirement": "Fresh one-shot root bootstrap/request/host admission and actual execution custody. Documentary strings, historical vendor observations and unchanged file hashes are not that admission.",
+      "status": "ROOT_ACTION"
+    },
+    {
+      "id": "RT04",
+      "requirement": "Actual Python -I/-S/-B/-O flags and installed/read-back RLIMIT_AS512MiB,CPU110s,core0. No capability probe is permitted here; unsupported-limit refusal must remain a failed attempt without threshold relaxation.",
+      "status": "UNTESTED_UNTIL_ADMITTED_ATTEMPT"
+    }
+  ],
+  "finite_checks": {
+    "bytes": 1443183,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_METADATA_CHECK.json",
+    "sha256": "e9400ffb11b976fe80070a87fe5d4fe3e2feb86adb3fea9beeb868ee3bb9a757"
+  },
+  "operational_admission": false,
+  "root_manual": {
+    "bytes": 5619,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/ROOT_MANUAL_REVIEW.md",
+    "sha256": "f9473b54fad61aac2b4ecd74006a0198bfcf6a5dd4596dd0e59747a650aea0d4"
+  },
+  "schema": "ri163-root-preflight-adjudication-v1",
+  "status": "ACCEPT_EXACT_PREPARATION_WITH_CONFIRMED_DISPATCH_GAPS",
+  "subject": {
+    "bytes": 13272,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.json",
+    "sha256": "ea9df2610f7969b626608866e10f78e597ea00d75e74f539148d86b970e18347"
+  }
+}

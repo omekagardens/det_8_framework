@@ -1,0 +1,42 @@
+{
+  "active_acceptance_or_admission_created": false,
+  "actual_checks": {
+    "bytes": 4928,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CHECK_SUMMARY.json",
+    "sha256": "f95d62cd1c99bfc250fce415a56169a5f8754205d7d7e1e877d7301c0c26b9c0"
+  },
+  "actual_commands": {
+    "bytes": 3848,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/ACTUAL_REVIEWER_COMMANDS.json",
+    "sha256": "e4e2387a61a8594288d2524924c6a4c8b457658835f7d5a6b412b47e447d9291"
+  },
+  "authorship_disclosure": "No RI135/139/141/146 subject authorship. Earlier RI125 primary/qualifier and RI131 authorship outside target; prior independent source/actual review continuity disclosed.",
+  "blocking_findings": [],
+  "candidate_runtime_qualified": false,
+  "complete_findings": {
+    "bytes": 18478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/INDEPENDENT_CAPTURE_REVIEW.md",
+    "sha256": "ede39c96fb67e43ed4a1bbbb9c1162227606ee326b8f676aaaf79b16709fbfee"
+  },
+  "final_custody": {
+    "bytes": 3552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FINAL_INPUT_CUSTODY.json",
+    "sha256": "b886334aba7943178b023d5421ed4288562449b9eeab9ff6d2592d295063668b"
+  },
+  "material_scope_distinctions": [
+    "Historical runtime whole object equals actual fresh capture. Historical selection differs solely in4609 device numbers; no other selection fields differ. Current fullPREPOST and root fresh saved selection records agree.",
+    "Owned-child elapsed includes startup/authentication. Parent preownership authentication lies outside its internal timer and inside genuine outer deadline.",
+    "Metadata capture only; no candidate-runtime execution/profile, guards, science/calibration or actual-data admission.",
+    "Genuine tool-origin linkage, vendor/Apple loader/cache/stable-host and sampled-child/non-group-limit premises remain external."
+  ],
+  "next_prerequisite": "Root baseline adjudication then separately admitted normal profile with current full pre/post matching, original30-second profile bound and genuine independent review; normal accepted before optimized and separate65 admission.",
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2",
+  "repository_index_git_mutations": false,
+  "ret_paused": true,
+  "reviewer_subject_execution": false,
+  "schema": "ri146-independent-actual-capture-verdict-v1",
+  "scientific_credit": false,
+  "source_author_independent": true,
+  "source_or_admission_changed": false,
+  "status": "ACCEPT_BOUNDED_CURRENT_METADATA_CAPTURE"
+}

@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 19871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/PROTOCOL.md",
+      "sha256": "ed24ffce4a1070b5b89f4d85bc287997fcfca95bb641f8b047905e93f25c2f26"
+    },
+    {
+      "bytes": 82537,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "ad7253f46b76dc4c5e72fa32ac0beabbe834606133dd4a46b26a516606dd41f3"
+    },
+    {
+      "bytes": 29958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+      "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+    },
+    {
+      "bytes": 25970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+      "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+    }
+  ],
+  "schema": "ri226-proposal-source-pins-v1",
+  "status": "SOURCE_ONLY_NOT_ADMISSION"
+}

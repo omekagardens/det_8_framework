@@ -1,0 +1,41 @@
+{
+  "completions": {
+    "capture": {
+      "bytes": 3473,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/COMPLETE.json",
+      "sha256": "9bc931543cfc4dd7d888205ca7592a8f0fc4b387741f5252b61f9adecf002004"
+    }
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment",
+  "genuine_outer": {
+    "capture": {
+      "bytes": 1448,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_OUTER.json",
+      "sha256": "1f846701e52bfb22b2f0b1891d56780737867a99e447c2f8274729790a5df0b1"
+    }
+  },
+  "independent_review": {
+    "bytes": 6372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FINAL_HANDOFF.json",
+    "sha256": "74af846af4c7dd7869da1813f1cec7be521962db13418a960e8ff9b9e24d25ad"
+  },
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "schema": "ri133-root-preparation-stage-review-v1",
+  "scientific_execution": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "stage": "baseline",
+  "status": "ACCEPT_NONSCIENTIFIC_PREPARATION_EVIDENCE"
+}

@@ -1,0 +1,78 @@
+{
+  "actual_data_admitted": false,
+  "admission": {
+    "bytes": 1116,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/FABRICATED_CONTROL_METADATA.json",
+    "sha256": "840314f5b702488b1c23e63215db4be21d50698ba767ccdf126a5cfedcb754cc"
+  },
+  "artifacts": {
+    "POST": {
+      "bytes": 254,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/POST.stdout",
+      "sha256": "405f0241d5ca0ab9cf1d3b174129ed1bde181a43d75647b08a32e5fe07a66cd1"
+    },
+    "POST_completion": {
+      "bytes": 51,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/POST.COMPLETION.json",
+      "sha256": "676ad82ca33ffbd141e5c4f07c5e525c57a4b61ff6d735546c8b430d5972e0ca"
+    },
+    "checks": {
+      "bytes": 101,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/CHECKS.json",
+      "sha256": "b3bf8c85c0fcdb06b1ce3ab5837502f36b1cd9fee3b878b9787481ce5aba2fb3"
+    },
+    "namespace": {
+      "bytes": 809,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/owned-output/NAMESPACE.json",
+      "sha256": "920fda9d8b8e4cee17c37517a481ab9a160d3c533d63ce9c74e4aa3b800ffe80"
+    }
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/FABRICATED_CONTROL_METADATA.json"
+  ],
+  "elapsed_seconds": 0.002762125000000004,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_initial_source_read/ENVIRONMENT_DOUBLE/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "first_error": {
+    "message": "CONTROL_INITIAL_SOURCE_READ",
+    "type": "ValueError"
+  },
+  "full32_qualified": false,
+  "genuine_outer_created": false,
+  "independent_tail_errors": [],
+  "phase": "capture",
+  "ret_paused": true,
+  "runtime_acceptance_created": false,
+  "schema": "ri133-preparation-completion-v1",
+  "scientific_targets_executed": false,
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 76036,
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    "prepare.py": {
+      "bytes": 44082,
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18607,
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  },
+  "status": "REFUSED_RETAIN_ALL_PARTIALS"
+}

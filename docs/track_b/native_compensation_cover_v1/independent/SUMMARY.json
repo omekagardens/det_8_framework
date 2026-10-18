@@ -1,0 +1,60 @@
+{
+  "actual_admin_check": {
+    "chunk_id": "703dcc",
+    "complete_evidence": {
+      "bytes": 445690,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/CHECK.json",
+      "sha256": "1cec7a78d09752207b5a552dd96f35ec29966fa9233ca0e487e69003ddd444e1"
+    },
+    "domain": {
+      "direct_bytes": 2719249,
+      "direct_sources": 133,
+      "inherited_direct": 123,
+      "manifest_entries_unexpanded": 423,
+      "new_direct": 10,
+      "packet": 6,
+      "preserved_boundaries": 15,
+      "whole_identities": 139
+    },
+    "exit_code": 0,
+    "report_readback": true,
+    "saved_predicates": 2865
+  },
+  "blocking_findings": [],
+  "canonical_support_tight_set_s_values_M_gap_Cb_evaluated": false,
+  "closed_scope": {
+    "boundary_descendants_followed": false,
+    "manual_math_is_separate": true,
+    "mathematical_engine": false,
+    "scientific_body_read_or_hash": false,
+    "scientific_json_decoded": false,
+    "subject_executed": false
+  },
+  "genuine_author_records": {
+    "bytes": 26053,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/GENUINE_AUTHOR_CHECKS.json",
+    "sha256": "35976b7aee2227ff03aa2c43dfdbbba6c632332eeda3d655f6ca653afba6ee7b"
+  },
+  "manual_results": [
+    "Complete finite-step and supported compensation criterion retained in original closed canonical problem",
+    "Q eight and P_nu five extensions; full history weights and prices15/14,3/7,bar_s independently checked by hand",
+    "Attained full supported covering minimum, exact primary and lex tie criterion",
+    "Exact block elimination, all domains/endpoints and at most five threshold candidates",
+    "Exact zero-sigma classification and necessary at-least-three-tight-or-zero-xi canonical support obstruction",
+    "All-four-tight cost<=1 exactly iff sigma available and all four s equal"
+  ],
+  "new_qualification_credit": 0,
+  "proof_review": {
+    "bytes": 17701,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/REVIEW.md",
+    "sha256": "e111f5148c0d264e9a790393f596490fe8fad30b60233fcf6fa8b40ad43fecd4"
+  },
+  "root_adjudication_still_required": true,
+  "schema": "ri254-independent-review-summary-v1",
+  "sealing_only_failure": {
+    "bytes": 987,
+    "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SEAL_DIAGNOSTIC.json",
+    "sha256": "266ca5ed8b58decdc9105f1e443a5bd82cc45061a6d32be30f92fd3ea880ad26"
+  },
+  "verdict": "RECOMMEND_SCOPED_ANALYTIC_ACCEPTANCE"
+}

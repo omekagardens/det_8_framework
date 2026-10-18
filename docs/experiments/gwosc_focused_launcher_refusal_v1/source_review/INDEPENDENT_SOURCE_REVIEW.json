@@ -1,0 +1,140 @@
+{
+  "active_cards_freezes_admissions_attempts": false,
+  "actual_checks": {
+    "additions": 23,
+    "checker": {
+      "bytes": 8176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/check_metadata.py",
+      "sha256": "2b3d3fd8b7f8ae8d13c22fdd943302420d2e460d55203998598a998dad4a665b"
+    },
+    "declared_protected_roots": 378,
+    "dependency_files": 276,
+    "exit_code": 0,
+    "literal_controls": 25,
+    "metadata_evidence": {
+      "bytes": 218204,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OPAQUE_TEXT_CHECK.json",
+      "sha256": "96499d62e4481cf3b928d0d9331d60c6e56a3f419a36c42118a25563f457ca86"
+    },
+    "opaque_bytes": 16850995,
+    "selected_root_support_files": 5,
+    "source_namespace_files": 6,
+    "tool_chunk_id": "26134a",
+    "unchanged_predecessor_files": 253,
+    "whole_predecessor_namespaces": {
+      "review": 6,
+      "source": 12
+    }
+  },
+  "blocking_findings": [],
+  "control_scope": {
+    "F01": 14,
+    "F02": 11,
+    "RET_paused": true,
+    "RI131_covered": false,
+    "executed": 0,
+    "positive": 2,
+    "refusal": 23,
+    "runtime_profiles_or65": false,
+    "scientific_white_or_full32": false
+  },
+  "current_runtime_observed": false,
+  "execution_authorized": false,
+  "findings": {
+    "admissions": "Exact14-field root launcher card and unchanged7-field controls card; authority/bootstrap/genuine command external; fresh disjoint operation paths and exact actual environment.",
+    "capture_load": "Exact complete authenticated module capture precedes non-main source load and output ownership; one unchanged monitor call, no production entry or globals patch in wrapper.",
+    "controls": "Exact25 header/order/count/scope; all valid-header envelopes independently attempted; F01 exact counters/first errors/tails/partials and full saved completion equality; F02 complete historical-derived metadata mutations/ordered reads/counters; complete retained namespaces.",
+    "failure_tails": "All safe state before ownership; first-owned operations protected; five independent tail groups; fail-fast inside group disclosed; final wrapper write escape preserves first/tails/final error.",
+    "inherited_incomplete_monitor_receipt": "Failed monitor completion write can leave earlier inner state unrecoverable; wrapper preserves actual escaping exception and fails; no complete inner-record reconstruction or successful custody claimed.",
+    "monitor_limits": "180s/524288KiB/25ms/100ms/50ms retained; sampled child only; explicit no-descendant, parent-PID, supplier/cache/host premises."
+  },
+  "full_review": {
+    "bytes": 18447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "5d0304139589ebb8e74de0065e0838c8e95a3ee3ac66c94b88b98ca1df5615f2"
+  },
+  "new_launcher_layer_required": false,
+  "outer_deadline_comment": {
+    "bytes": 3626,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/OUTER_DEADLINE_SOURCE_COMMENT.md",
+    "sha256": "d1092507aadf2ae097dc684356de6257bba3ca8382e6197748cf06bb8ffdcf3f"
+  },
+  "outer_deadline_disposition": "Proposed env/perl alarm+exec is a narrow parent deadline under authentic suppliers and unblocked terminating SIGALRM; does not establish group cleanup or pre-Perl timing. No execution or added generic wrapper.",
+  "prior_authorship_disclosed": [
+    "RI125 primary/qualifier",
+    "RI131 guard source"
+  ],
+  "read_coverage": {
+    "all25_source_cases_traced": true,
+    "all276_dependencies_systematically_checked": true,
+    "complete_focused_control_lines": 297,
+    "complete_launcher_lines": 373,
+    "complete_protocol_authoring_handoff_metadata": true,
+    "retained_prepare_fresh_line_spans": [
+      [
+        1,
+        140
+      ],
+      [
+        298,
+        381
+      ],
+      [
+        526,
+        659
+      ]
+    ],
+    "retained_runtime_metadata_fresh_line_span": [
+      302,
+      388
+    ],
+    "whole_predecessor_review_retained": true
+  },
+  "remaining_prerequisites": [
+    "Root adjudication of this exact source.",
+    "Genuine applicable external bootstrap/host/source authentication and admitted two-card literal command/environment/path selection.",
+    "Actual960s outer custody plus surviving owned-child cleanup on timeout; unchanged180s child monitor.",
+    "One actual25 control execution and complete monitor/capture/report/namespace/source/card/environment/tool-origin review before acceptance."
+  ],
+  "resource_feasibility_established": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri137-complete-independent-launcher-source-review-v1",
+  "scientific_body_decode": false,
+  "source_files": [
+    {
+      "bytes": 3766,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/AUTHORING_RECORD.md",
+      "sha256": "515e425be16c8a93166aef11ac928a0c02c7a3ec1c5e2c429f5725169ca0ec94"
+    },
+    {
+      "bytes": 108736,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/DEPENDENCIES.source-only.json",
+      "sha256": "f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0"
+    },
+    {
+      "bytes": 72693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/METADATA_CHECK.json",
+      "sha256": "c4c0790ae2888da80fe1906594d46780d3d296ee11bc0d2258739711f5f874cc"
+    },
+    {
+      "bytes": 16188,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/PROTOCOL.md",
+      "sha256": "a971abfe879b613692eb96cd35d5865f1bcb1677a48299c0a7bbb6c325c3a8e3"
+    },
+    {
+      "bytes": 25158,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py",
+      "sha256": "8a9313355f20f8c4b15e3b7b855303d893c892116174a6dc583fd609156ea0c9"
+    }
+  ],
+  "source_handoff": {
+    "bytes": 4642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+    "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+  },
+  "source_repair_required": false,
+  "source_repository_or_git_modifications": false,
+  "status": "PASS_BOUNDED_UNEXECUTED_LAUNCHER_SOURCE",
+  "subject_authorship": false,
+  "target_helper_import_compile_AST_probe_run": false
+}

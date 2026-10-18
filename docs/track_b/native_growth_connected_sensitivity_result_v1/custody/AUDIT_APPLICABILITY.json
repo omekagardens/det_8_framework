@@ -1,0 +1,102 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "5501",
+    "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81"
+  ],
+  "changed_target_qualification_inherited": false,
+  "changed_validators_reviewed": true,
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+  "environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin",
+    "TZ": "UTC",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "execution_authorized": false,
+  "history_manifest": {
+    "bytes": 2170307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+    "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+    "symlinks": []
+  },
+  "independent_review": {
+    "bytes": 25647,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98",
+    "symlinks": []
+  },
+  "interpreter": {
+    "bytes": 52640,
+    "path": "/opt/homebrew/bin/python3",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "sha256": "b7e73dc9ef199f3046efd77d870fed331832ece0c3b33192595cdd4a81f8ef86",
+    "symlinks": [
+      {
+        "path": "/opt/homebrew/bin/python3",
+        "target": "../Cellar/python@3.14/3.14.0_1/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/bin/python3",
+        "target": "../Frameworks/Python.framework/Versions/3.14/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "target": "python3.14"
+      }
+    ]
+  },
+  "limits": {
+    "ps_timeout_ms": 250,
+    "rss_bytes": 536870912,
+    "sample_interval_ms": 50,
+    "wall_seconds": 120
+  },
+  "mode": "audit",
+  "monitor": {
+    "bytes": 170816,
+    "path": "/bin/ps",
+    "resolved_path": "/bin/ps",
+    "sha256": "472992c470606d28f577590decfecd7f4a20f832fd92c671bebc6d44790b5d02",
+    "symlinks": []
+  },
+  "retained_engine_only": true,
+  "ri120_source_adjudication": {
+    "bytes": 4346,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+    "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5",
+    "symlinks": []
+  },
+  "schema": "ri122-stage-applicability-v1",
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "ACCEPT_PRECISE_FIXED_STAGE_APPLICABILITY_ONLY",
+  "supervisor": {
+    "bytes": 98660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+    "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+    "symlinks": []
+  },
+  "target": {
+    "bytes": 63729,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+    "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+    "symlinks": []
+  }
+}

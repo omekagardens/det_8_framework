@@ -1,0 +1,38 @@
+{
+  "caller_source_acceptance": {
+    "bytes": 5892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+  },
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "-O",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "optimized"
+  ],
+  "freeze": {
+    "bytes": 11310,
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "launcher_command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "-O",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "optimized"
+  ],
+  "mode": "optimized",
+  "normal_acceptance": {
+    "bytes": 2886,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+    "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+  },
+  "phase": "fabricated_joint_window_qualification",
+  "schema": "ri121-root-mode-admission-v1",
+  "status": "AUTHORIZED_SINGLE_SYNTHETIC_MODE"
+}

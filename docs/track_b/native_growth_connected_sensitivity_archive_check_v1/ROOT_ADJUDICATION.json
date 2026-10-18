@@ -1,0 +1,40 @@
+{
+  "archived_code_executed": false,
+  "external_runtime_or_custody_readjudicated": false,
+  "independent_checks": "Python3.9.6;13 CLI cases and10 direct saved-object/parser cases; final genuine independent tool ecf2fe exit0. Exact118 distinct permitted opened paths.",
+  "independent_review": {
+    "bytes": 2889,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/HANDOFF.json",
+    "sha256": "e5a3bd96e56e5272bab7b3d894a1f6e82bd4b74f57dd4b698bb2de652bd8aaa1"
+  },
+  "new_scientific_execution_authorized": false,
+  "physical_claim": false,
+  "programme_complete": false,
+  "published_base_comparison": {
+    "bytes": 396,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-archive-repro-jpk4dype/PUBLISHED_BASE_COMPARISON.json",
+    "sha256": "3498c57a35f94213d55a52f14462137dcaa828b085d923abe87d51fb48b9c095"
+  },
+  "review_incidents": "Initial reviewer open-event multiplicity assumption failed; final harness records duplicate event counts while requiring the same exact118-path set. Original failure/logs retained. Root changed ancestry slice to tuple for explicit Python3.9 compatibility before final tests.",
+  "root_actual_checks": "Tool2051c7: /usr/bin/python3 -B and -O -B both exited0 and reported all117 files and complete19-section agreement.",
+  "schema": "ri126-root-portable-archive-adjudication-v1",
+  "scientific_arithmetic_rerun": false,
+  "source_files": [
+    {
+      "bytes": 8426,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+      "sha256": "0fa494d92cf77a4403315fb383cb64e946d125349e97e26a779283368c10237c"
+    },
+    {
+      "bytes": 20316,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/MANIFEST.json",
+      "sha256": "d3ece15e443eb76a6d99af700470e47b4adb40cdbb690ff219f3393f72f827fc"
+    },
+    {
+      "bytes": 1830,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_archive_check_v1/README.md",
+      "sha256": "96f7156e38056a451f0b99076307a6cebb971a5d7d9fac22176cc71d8e8a0771"
+    }
+  ],
+  "status": "ACCEPT_PUBLISHED_BYTE_INTEGRITY_AND_SAVED_AGREEMENT_UTILITY_ONLY"
+}

@@ -1,0 +1,44 @@
+{
+  "accepted_findings": [
+    "F01 post-ownership initialization lies outside independent failure tails",
+    "F02 candidate interpreter binding lacks authentic historical comparison"
+  ],
+  "check_source": {
+    "bytes": 4700,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-root-repair-adjudication-ga2aepq7/check_review.py",
+    "sha256": "f0feda5482cddb36a3324eedd966aaf0801f5200a1825ac3d93e6ecbb50b928a"
+  },
+  "current_interpreter_drift_observed": false,
+  "execution_admitted": false,
+  "independent_handoff": {
+    "bytes": 3228,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6/HANDOFF.json",
+    "sha256": "b4b567c416e4879d1a4e67a9400a3641a1e7b7924454d82dcacade88fc7a8178"
+  },
+  "ret_paused": true,
+  "root_complete_second_source_review_claimed": false,
+  "root_reconciliation": {
+    "bytes": 148070,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-root-repair-adjudication-ga2aepq7/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "f8ea5156bbaed212fa895be18c6c3259b220a4b580b29e39d3182f396b76039b"
+  },
+  "root_review": {
+    "bytes": 5311,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-root-repair-adjudication-ga2aepq7/ROOT_SOURCE_REVIEW.md",
+    "sha256": "ae96391d55af838bbd560104ab258da35ed609bb4b92dea8f3e911ff11b29ae7"
+  },
+  "schema": "ri133-root-source-adjudication-v1",
+  "source_accepted_for_preparation": false,
+  "source_and_review_preserved": true,
+  "source_handoff": {
+    "bytes": 5719,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+    "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+  },
+  "status": "REQUIRE_F01_F02_REPAIR_BEFORE_PREPARATION_ADMISSION",
+  "successor": {
+    "bytes": 813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-root-repair-adjudication-ga2aepq7/SUCCESSOR_RESERVATIONS.json",
+    "sha256": "ce2831fc7a3679ab7b998bab58269ee19837d9ca422fd91bb5463ec045e0d2f7"
+  }
+}

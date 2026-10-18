@@ -1,0 +1,71 @@
+{
+  "RET_paused": true,
+  "complete_outcome": {
+    "exit_code": 0,
+    "receipt": "9bd2b6",
+    "result": {
+      "bytes": 6302,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ROOT_PRE_MODE_OUTCOME_CHECK.json",
+      "sha256": "240fce77c2e1736c33d835ce1793030fdadef95a4cc8814e2d279531f53ac9b3"
+    },
+    "source": {
+      "bytes": 8149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/outcome_check.py",
+      "sha256": "cf0cffa75eeb2301d9a6cff301abc4e8800cbc83c27961cf269ade27b597e7af"
+    }
+  },
+  "extra_display_diagnostic": {
+    "administrative_projection_outer_truncated": true,
+    "exit_code": 0,
+    "receipt": "ef4c9e",
+    "recovered_by": "9bd2b6 full saved-object reconstruction with complete compact result",
+    "subject_failure": false
+  },
+  "native_assignment_dispatch": {
+    "assignment": {
+      "bytes": 1069,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.json",
+      "sha256": "a2b07704a147a8766659a3a3f403882ecfcb39d9d29fed7e990b1837f336e473"
+    },
+    "success": true,
+    "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "tool": "send_message_to_thread"
+  },
+  "native_root": {
+    "exit_code": 0,
+    "receipt": "b92a2a",
+    "result": {
+      "bytes": 61970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_METADATA_CHECK.json",
+      "sha256": "082118457ca7e9773c791a55515f6f95b6d7316ef86213406941b6068ae7a907"
+    },
+    "source": {
+      "bytes": 8376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/native_review.py",
+      "sha256": "72f98678d262b84a124e56594b708e930401973ff5e04bd42963bbc217e3247e"
+    }
+  },
+  "operation_tools": {
+    "bytes": 3806,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_OPERATION_TOOLS.json",
+    "sha256": "3f1d159344dc18dd669f4b2b91dc83b403314fdb55cbb207ea692426180f5965"
+  },
+  "postflight_tools": {
+    "bytes": 1122,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_POSTFLIGHT_TOOLS.json",
+    "sha256": "253d4166a67ab0a4700841d13f4b84ddbe1e32ff314f5aeb7b7578cb9943f3f9"
+  },
+  "prior_diagnostics": {
+    "bytes": 720,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/ORCHESTRATION_DIAGNOSTICS.json",
+    "sha256": "e7559e09278cd593c198bda5f56e6841f3b26c89d8ff91f059baa0b529687506"
+  },
+  "qualification_credit": 0,
+  "schema": "ri249-check-provenance-v1",
+  "scientific_execution": false,
+  "source_approval": {
+    "exit_code": 0,
+    "receipt": "5f5fa2",
+    "source_read": "8ff0de"
+  }
+}

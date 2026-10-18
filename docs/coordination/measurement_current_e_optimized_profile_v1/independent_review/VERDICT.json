@@ -1,0 +1,54 @@
+{
+  "acceptance_card_created": false,
+  "administrative_result": {
+    "bytes": 24568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/ADMIN_CHECK.json",
+    "sha256": "9c201c504105f74da1db46ab8d1f2578c5caa43a4458dc82fcba46c0117badfd"
+  },
+  "assignment": {
+    "bytes": 5739,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_REVIEW_ASSIGNMENT.json",
+    "sha256": "4d8b4c7157c5a2102c2279212eb60de1c9e843fdb860c1306ed1f25e80040428"
+  },
+  "blocking_findings": [],
+  "both_mode_relation": {
+    "bytes": 12549,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/BOTH_MODE_RELATION.json",
+    "sha256": "f8f6fa0fc77fc26f023d48c84ddd5d47eff16018c9037919d5b0821b30695c38"
+  },
+  "genuine_optimized_terminal": {
+    "chunk_id": "e3f394",
+    "exit_code": 0,
+    "scope": "root-supplied genuine external record"
+  },
+  "independent_administrative_terminal": {
+    "chunk_id": "5098a1",
+    "exit_code": 0
+  },
+  "opaque_identities": {
+    "bytes": 7931828,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/IDENTITIES.json",
+    "sha256": "abd6562abd9ed02fdf25cabedbef25d7ccb37872df384805eb9de4909dfe41ea"
+  },
+  "prior_source_authorship_disclosed": true,
+  "ret_paused": true,
+  "retained_premises": [
+    "Genuine root/tool origin, stable host/supplier and previously independently accepted source semantics.",
+    "Parent-PID-only receipts, sampled child RSS and no descendants; no hard quota, instruction trace or continuous freeze.",
+    "Both complete reports and mode-specific cache identities retained; no bytecode/body equivalence claim.",
+    "Root-owned both-mode profiles card remains separate.",
+    "Separate nonauthor R01 path-sensitive and eight-premise runtime-applicability review; only genuinely needed smallest extra control, no blanket65 rerun."
+  ],
+  "review": {
+    "bytes": 14374,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/INDEPENDENT_REVIEW.md",
+    "sha256": "b05d5d3bf8e089e2fb493b4d8d2a688f573d9e2529a69822118b4aafccd9e515"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_subject_execution": false,
+  "schema": "ri193-independent-optimized-both-mode-verdict-v1",
+  "scientific_body_decode": false,
+  "scientific_credit": false,
+  "source_semantics": "Inherited prior independent approval; not new source self-review",
+  "status": "ACCEPT_CURRENT_E_OPTIMIZED_AND_BOTH_MODE_PROFILE_EVIDENCE"
+}

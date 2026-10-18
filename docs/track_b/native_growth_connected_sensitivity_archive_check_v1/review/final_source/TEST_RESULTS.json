@@ -1,0 +1,432 @@
+{
+  "cli_cases": [
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py"
+      ],
+      "name": "relocated_default",
+      "parsed_result": {
+        "archived_code_executed": false,
+        "base_commit": "3027dc6813b95cc57e8637c6598a6b07325074f0",
+        "complete_canonical_certificate_bytes": 233035,
+        "complete_certificate_sections": 19,
+        "execution_custody_readjudicated": false,
+        "external_provenance_paths_traversed": false,
+        "files_checked": 117,
+        "independent_arithmetic_rerun": false,
+        "new_scientific_or_physical_claim": false,
+        "normal_optimized_equal": true,
+        "saved_decisions_equal": true,
+        "status": "PUBLISHED_ARCHIVE_INTEGRITY_AND_SAVED_AGREEMENT_PASS"
+      },
+      "returncode": 0,
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_default/stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_default/stdout.log",
+        "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "relocated_explicit",
+      "parsed_result": {
+        "archived_code_executed": false,
+        "base_commit": "3027dc6813b95cc57e8637c6598a6b07325074f0",
+        "complete_canonical_certificate_bytes": 233035,
+        "complete_certificate_sections": 19,
+        "execution_custody_readjudicated": false,
+        "external_provenance_paths_traversed": false,
+        "files_checked": 117,
+        "independent_arithmetic_rerun": false,
+        "new_scientific_or_physical_claim": false,
+        "normal_optimized_equal": true,
+        "saved_decisions_equal": true,
+        "status": "PUBLISHED_ARCHIVE_INTEGRITY_AND_SAVED_AGREEMENT_PASS"
+      },
+      "returncode": 0,
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_explicit/stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_explicit/stdout.log",
+        "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "-O",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "relocated_optimized",
+      "parsed_result": {
+        "archived_code_executed": false,
+        "base_commit": "3027dc6813b95cc57e8637c6598a6b07325074f0",
+        "complete_canonical_certificate_bytes": 233035,
+        "complete_certificate_sections": 19,
+        "execution_custody_readjudicated": false,
+        "external_provenance_paths_traversed": false,
+        "files_checked": 117,
+        "independent_arithmetic_rerun": false,
+        "new_scientific_or_physical_claim": false,
+        "normal_optimized_equal": true,
+        "saved_decisions_equal": true,
+        "status": "PUBLISHED_ARCHIVE_INTEGRITY_AND_SAVED_AGREEMENT_PASS"
+      },
+      "returncode": 0,
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_optimized/stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_optimized/stdout.log",
+        "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "changed_same_length",
+      "parsed_result": {
+        "error": "content digest differs: NORMAL_SUMMARY.json",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 75,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/stderr.log",
+        "sha256": "1bcca28672d4836ecd288d5730d22c795ee446d87eb57f7f005c5517cf992e6d"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "changed_length",
+      "parsed_result": {
+        "error": "file size differs: /Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1/NORMAL_SUMMARY.json",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 238,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/stderr.log",
+        "sha256": "2cc6d8c03b7fdf5203aeb44df254948eb0657bbcacda69e99ba4986496308209"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "missing_artifact",
+      "parsed_result": {
+        "error": "missing or unexpected archive files",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 67,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/stderr.log",
+        "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "extra_artifact",
+      "parsed_result": {
+        "error": "missing or unexpected archive files",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 67,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/stderr.log",
+        "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "symlink_artifact",
+      "parsed_result": {
+        "error": "nonregular archive member: /Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1/NORMAL_SUMMARY.json",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 246,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/stderr.log",
+        "sha256": "3021aa34cf8a355160dadc3de78be5219fb335365a714157343f27299c29779e"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "symlink_directory",
+      "parsed_result": {
+        "error": "symlink directory in archive",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 60,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/stderr.log",
+        "sha256": "498583b53b7bfde8ead75ea8f27b27a391cdf2038c461262365c467ad2a70d37"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/LINK"
+      ],
+      "name": "symlink_archive_root",
+      "parsed_result": {
+        "error": "archive must be a regular directory",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 67,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/stderr.log",
+        "sha256": "6d5608f8192873a485f7594c1895dc4f8fe51a804c60aca5f59bdd723bade8ac"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "fifo_artifact",
+      "parsed_result": {
+        "error": "nonregular archive member: /Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1/NORMAL_SUMMARY.json",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 246,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/stderr.log",
+        "sha256": "3021aa34cf8a355160dadc3de78be5219fb335365a714157343f27299c29779e"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "manifest_tamper",
+      "parsed_result": {
+        "error": "pinned manifest differs",
+        "status": "FAIL"
+      },
+      "returncode": 1,
+      "stderr": {
+        "bytes": 55,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/stderr.log",
+        "sha256": "21edd778940acee60868cb8984f73797d7beffe90b822906156a5b94c375fc35"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_archive_check_v1/verify_archive.py",
+        "--archive",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1"
+      ],
+      "name": "restored_archive",
+      "parsed_result": {
+        "archived_code_executed": false,
+        "base_commit": "3027dc6813b95cc57e8637c6598a6b07325074f0",
+        "complete_canonical_certificate_bytes": 233035,
+        "complete_certificate_sections": 19,
+        "execution_custody_readjudicated": false,
+        "external_provenance_paths_traversed": false,
+        "files_checked": 117,
+        "independent_arithmetic_rerun": false,
+        "new_scientific_or_physical_claim": false,
+        "normal_optimized_equal": true,
+        "saved_decisions_equal": true,
+        "status": "PUBLISHED_ARCHIVE_INTEGRITY_AND_SAVED_AGREEMENT_PASS"
+      },
+      "returncode": 0,
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/restored_archive/stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/restored_archive/stdout.log",
+        "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+      }
+    }
+  ],
+  "open_trace": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/OPEN_TRACE.json",
+  "python": "3.9.6 (default, Oct 17 2025, 17:15:53) \n[Clang 17.0.0 (clang-1700.4.4.1)]",
+  "saved_object_cases": [
+    {
+      "error": "complete audit reconstruction differs",
+      "exception": "InvalidArchive",
+      "name": "nested_audit_mismatch",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "complete audit reconstruction differs",
+      "exception": "InvalidArchive",
+      "name": "nested_bool_integer_confusion",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "complete audit reconstruction differs",
+      "exception": "InvalidArchive",
+      "name": "extra_nested_audit_key",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "duplicate JSON key: x",
+      "exception": "InvalidArchive",
+      "name": "duplicate_json_keys",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "nonfinite JSON constant: NaN",
+      "exception": "InvalidArchive",
+      "name": "nonfinite_json_constant",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "Out of range float values are not JSON compliant",
+      "exception": "ValueError",
+      "name": "nonfinite_exponent_canonical",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "certificate not canonical",
+      "exception": "InvalidArchive",
+      "name": "noncanonical_certificate",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "normal and optimized summaries differ",
+      "exception": "InvalidArchive",
+      "name": "summary_byte_difference",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "error": "root claim boundary differs",
+      "exception": "InvalidArchive",
+      "name": "root_claim_bool_integer_confusion",
+      "status": "EXPECTED_REFUSAL"
+    },
+    {
+      "name": "nested_type_and_array_order",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Only NEW metadata verifier imported/executed; archived code never executed; no scientific arithmetic rerun, external custody authentication, or provenance traversal.",
+  "status": "ALL_INDEPENDENT_ARCHIVE_TESTS_PASS"
+}

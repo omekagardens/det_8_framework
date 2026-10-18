@@ -1,0 +1,395 @@
+{
+  "schema": "ri161-grid-qualification-source-identities-v1",
+  "status": "SOURCE_ONLY_QUALIFICATION_PREPARATION_BINDINGS_NOT_ADMISSION",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 5161,
+    "sha256": "fdf0db538d12322f15179cc1bc8b3f0ffd3f1634baee39f8d4a63f04a63b5d8d"
+  },
+  "governance": {
+    "accepted_predecessor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/RI159_ROOT_ADJUDICATION.json",
+      "bytes": 3815,
+      "sha256": "f79a3b087a009a17088d695866b1f7998f48992b539bb74d8657dc7721b67bce"
+    },
+    "root_manual_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/ROOT_MANUAL_REVIEW.md",
+      "bytes": 4621,
+      "sha256": "4705b3bf91f574bd458a6a2199527104ffeac9c4cac383df5c91f84483b72501"
+    },
+    "root_metadata_replay": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/ROOT_METADATA_REPLAY.json",
+      "bytes": 1506,
+      "sha256": "d11a91050515cccb2c7bc106b925f7371310746aaccec2e520883ac6e2b1941e"
+    },
+    "root_preliminary_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/NATIVE_PRELIMINARY_REVIEW.md",
+      "bytes": 3374,
+      "sha256": "3d2ec56df3b4988bf28e8df597cd0bdb6224beb78f489e20db1194b078eb9045"
+    },
+    "source_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+      "bytes": 8831,
+      "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+    },
+    "independent_review_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/HANDOFF.json",
+      "bytes": 6943,
+      "sha256": "4f25fd23d0c772e86c16335b74b34670a15245c56c765d1a0947fd81401949f5"
+    },
+    "independent_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/VERDICT.json",
+      "bytes": 3722,
+      "sha256": "4253900d26c35151cf106817f7745844dce3eb33add885d2894333921cd940ee"
+    },
+    "independent_review_note": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 22521,
+      "sha256": "699833110af16422786a758677266fa86735d879fe004ee1278b105c4ee2ca35"
+    },
+    "independent_review_assignment": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/NATIVE_REVIEW_ASSIGNMENT.json",
+      "bytes": 2541,
+      "sha256": "44f7bf8548e07a47702c25ffd9e0fa0f10c5e89e4a67db80a00754f49eb20786"
+    },
+    "grid_premise_scope_clarification": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI157_GRID_PREMISE_CLARIFICATION.json",
+      "bytes": 1475,
+      "sha256": "717df9065eebea27673919656c84b821a9ccd8dff3c322209e8961715a893dc8"
+    }
+  },
+  "subject_sources": {
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+      "bytes": 16091,
+      "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+    },
+    "auditor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+      "bytes": 22760,
+      "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+    }
+  },
+  "accepted_ri159_source": {
+    "contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONTRACT.md",
+      "bytes": 12488,
+      "sha256": "36ba8fc9eb32a4070675c1743b69a4db026ee5739407436a5a5039edaab0e39f"
+    },
+    "qualification_families": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/QUALIFICATION_CASES.md",
+      "bytes": 12739,
+      "sha256": "f310f60f62e868c9ca56f1b92d366961a12d990005d12d65f84e0d7bb89104fb"
+    },
+    "consequence_ledger": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONSEQUENCE_LEDGER.md",
+      "bytes": 4006,
+      "sha256": "ac7208f08b0da649a373c12eac2329d73fb8d8394fccbb0eb3f7dfff672cc787"
+    },
+    "premise_inventory": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_IDENTITIES.json",
+      "bytes": 18266,
+      "sha256": "43b1ea86a6c78e6f05af4868e1a763100cae34fa26a4c751c9da3c2a1720782c"
+    },
+    "dependency_inventory": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_DEPENDENCIES.json",
+      "bytes": 226943,
+      "sha256": "4a2c99fd38dc892b638b6c6c2e66ae667a42c8e268b04db2d8d8c71eb0c954e0"
+    },
+    "status": "ACCEPT_EXACT_UNEXECUTED_GRID_AUDIT_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+    "blocking_source_findings": [],
+    "qualification_acceptance_inherited": false,
+    "cases_executed_inherited": 0,
+    "fixtures_created_inherited": 0,
+    "actual_grid_result_inherited": null,
+    "original_subject_bytes_must_remain_unchanged": true
+  },
+  "qualification_scope": {
+    "preparation_targets": [
+      "QP01",
+      "QP02",
+      "QP03"
+    ],
+    "retained_separate_actual_input_gate": "QP04",
+    "families": {
+      "Q": 35,
+      "R": 16,
+      "P": 12,
+      "total": 63
+    },
+    "family_labels_are_executed_cases": false,
+    "full_109_index_sweeps_required": true,
+    "normal_and_optimized_modes_required": true,
+    "independent_complete_expected_outputs_required": true,
+    "producer_auditor_agreement_is_oracle": false,
+    "exact_isolated_per_implementation_first_refusals_required": true,
+    "compound_primary_close_postcheck_and_all_later_attempts_required": true,
+    "no_result_baseline_short_write_flush_and_diagnostic_persistence_cases_required": true,
+    "synthetic_input_substitution_may_authenticate_original_witness": false,
+    "source_review_may_replace_execution_qualification": false,
+    "current_cases_executed": 0,
+    "current_fixtures_created": 0,
+    "current_source_or_caller_import_compile_AST_probe_run": false,
+    "current_interpreter_discovery_or_runtime_inventory": false,
+    "current_admission_created": false
+  },
+  "actual_input_roles_qp04_only": {
+    "certificate": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+      "bytes": 2845,
+      "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+    },
+    "original_source": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/check.py",
+      "bytes": 13219,
+      "sha256": "f33a2345608867138f1036da6a020beb6608e3f58fc3032ceb1d3c3d5c9f90c5"
+    },
+    "original_manuscript": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "bytes": 16243,
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+    },
+    "assignment": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+      "bytes": 4916,
+      "sha256": "782b057624a35094093558e52e40a78d3a61b3ff1cbb61d2c3dd675171b1911e"
+    },
+    "accepted_predecessor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+      "bytes": 2404,
+      "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950"
+    },
+    "accepted_manual_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_MANUAL_REVIEW.md",
+      "bytes": 4362,
+      "sha256": "3040fadd824a82b8aee1c51338719ff79da7a3eb0d1c56ce9c1816588dba2b05"
+    }
+  },
+  "actual_input_scope": {
+    "roles_count": 6,
+    "historical_fixed_input_bindings_only": true,
+    "actual_input_gate": "QP04",
+    "current_actual_certificate_body_read_authorized": false,
+    "current_runtime_binding_or_custody_established": false,
+    "actual_subject_production_run_authorized": false,
+    "future_QP04_requires_separate_root_admission_after_qualified_outcomes_review": true,
+    "shape_check_is_independent_actual_root_order_reconstruction": false
+  },
+  "qualification_prerequisites": {
+    "QP01": "Review and admit bounded harness/caller with exact source/interpreter bindings, exclusive captures and genuine completion/partial-output disposition.",
+    "QP02": "Expand every Q/R/P family with independent complete expected outputs, exact isolated refusal semantics, full109 sweeps and normal/optimized scope.",
+    "QP03": "Concretely qualify close-only, primary-plus-close, primary-plus-postcheck/all-later attempts, no-result-baseline, short-write/flush and diagnostic-persistence failures.",
+    "QP04": "After qualification and independent outcomes review, separately admit actual fixed-certificate producer/auditor execution."
+  },
+  "accepted_scientific_boundary": {
+    "grid_premise_accepted": false,
+    "actual_grid_result": null,
+    "actual_capacity_comparison_decided": false,
+    "actual_adequate_joint_q_v_budget_proved": false,
+    "W_C2_C3_H30_decided": false,
+    "global_M6_or_actual_rho_identified": false,
+    "conditional_grid_implication": "An independently accepted authenticated universal grid result with unchanged accepted law/core ordering rejects only the retained sufficient envelope.",
+    "grid_fail_decides_capacity_or_W_H30": false,
+    "refusal_is_scientific_grid_failure": false,
+    "physical_or_native_geometry_gravity_claim": false
+  },
+  "premise_texts": {
+    "weighted_margin_and_correlated_scale": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/ANALYTIC_BOUNDS.md",
+      "bytes": 16981,
+      "sha256": "5e0b524a6205fa67318360fcad83dc1965a3efd5e517106833707ccede6c34e5"
+    },
+    "input_formula_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+      "bytes": 17929,
+      "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118"
+    },
+    "compensation_system": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "bytes": 10435,
+      "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+    },
+    "local_positivity": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY.md",
+      "bytes": 18246,
+      "sha256": "b109973d0178652caf8769e3b1730fae0a354d25f14251af13afbcffc7ceafb6"
+    },
+    "record_transport": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RECORD_TRANSPORT.md",
+      "bytes": 15418,
+      "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e"
+    },
+    "fixed_sign_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/DECISION_CONTRACT.md",
+      "bytes": 8225,
+      "sha256": "8e6f4a85e91211493c88a4aa270b3e49b77eec699da05944e3fe3d270f4fb225"
+    },
+    "prefix_relations": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+    },
+    "f2_relations": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+    },
+    "f3_relations": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+    },
+    "strict_mixture": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "bytes": 17102,
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+    },
+    "fixed_amplitude": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "bytes": 17366,
+      "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba"
+    },
+    "half_scale_construction": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md",
+      "bytes": 22701,
+      "sha256": "65c779a8e189adf9a6d5033310b9d1d7521b5051bd371a5112ef3273f3273675"
+    },
+    "record_blind_C3_normalization": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "bytes": 16243,
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+    },
+    "connected_constraint_profiles": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+    },
+    "four_vertex_component_definitions": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "bytes": 28127,
+      "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+    },
+    "size_three_proper_slot_bound": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_v1/EXTENSION.md",
+      "bytes": 18800,
+      "sha256": "61423e355f508021f05cd941e5a0dbed62661c76ba750766583fd4b8c619e716"
+    }
+  },
+  "source_text_counterparts": {
+    "relation": "WHOLE_BYTE_EQUALITY_ONLY_DISTINCT_LITERAL_PATHS",
+    "published": {
+      "prefix_relations": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+        "bytes": 7886,
+        "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+      },
+      "f2_relations": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+        "bytes": 10742,
+        "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+      },
+      "f3_relations": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+        "bytes": 8244,
+        "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+      },
+      "connected_constraint_profiles": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "bytes": 11893,
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+      }
+    }
+  },
+  "immutable_numerical_certificate": {
+    "producer": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "bytes": 27288,
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38"
+    },
+    "saved_auditor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "bytes": 41355,
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7"
+    },
+    "implementation_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "bytes": 9005,
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26"
+    },
+    "qualification_design": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/QUALIFICATION.md",
+      "bytes": 4229,
+      "sha256": "29ff0d399543b268fe69ac4da523eb04d7afd1f182e40fb72e44c6601eb35057"
+    },
+    "fixed_targets": [
+      "P2",
+      "P3"
+    ],
+    "fixed_domain": "0 < rho <= min(R,1/4), 0 < s <= 1/4; optional B14 is not a certificate-domain replacement",
+    "numerical_retry_or_retune_authorized": false
+  },
+  "unchanged_obligations": {
+    "focused_attempts": 31,
+    "F01": 23,
+    "F02": 8,
+    "policy_cases": 139,
+    "native_policy_cases": 77,
+    "audit_policy_cases": 62,
+    "native_deeper_rows": 20,
+    "audit_deeper_rows": 42,
+    "focused_attempts_executed_by_this_packet": 0,
+    "policy_cases_executed_by_this_packet": 0
+  },
+  "excluded_historical_inferences": {
+    "withdrawn_numeric_seed_order_is_premise": false,
+    "withdrawn_inverse_theta_eta_argument_is_premise": false,
+    "discovery_rounding_is_complete_final_witness_grid_proof": false,
+    "prior_failures_and_truncations_preserved": true,
+    "author_peer_checking_is_independent_acceptance": false
+  },
+  "dependency_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_DEPENDENCIES.json",
+    "bytes": 251800,
+    "sha256": "2283a700a1ab974bea1ec71138ccaae56d0af3049262bf91bca94386edbe1853"
+  },
+  "identity_interpretation": {
+    "manifest_identity_fields": [
+      "path",
+      "resolved_path",
+      "bytes",
+      "sha256",
+      "symlinks"
+    ],
+    "historical_extended_identity_compatible_fields": [
+      "path",
+      "resolved_path",
+      "bytes",
+      "sha256",
+      "symlink_chain"
+    ],
+    "historical_state_arrays_preserved_in_immutable_root_bytes": true,
+    "historical_state_arrays_compared_to_current_stat": false,
+    "fresh_read_window_stability_checked_separately": true
+  },
+  "scope": {
+    "source_preparation_only": true,
+    "execution_admitted": false,
+    "scientific_certificate_or_operand_body_decoded": false,
+    "coefficient_probability_or_scale_evaluation": false,
+    "subject_control_or_caller_import_compile_AST_probe_run": false,
+    "scientific_engine_or_global_enumeration": false,
+    "current_interpreter_discovery_runtime_inventory_card_freeze_or_admission": false,
+    "fixtures_created_or_executed": false,
+    "metadata_establishes_grid_qualification_or_new_scientific_conclusion": false,
+    "original_witness_production_pins_and_historical_sources_unchanged": true,
+    "transitive_historical_runtime_closure_claimed": false,
+    "current_code_and_docs_bound_by_final_handoff_not_historical_dependencies": true,
+    "ret_paused": true,
+    "measurement_separate": true,
+    "repository_index_Git_or_predecessor_write": false,
+    "historical_state_observations_not_claimed_as_current_state": true,
+    "large_administrative_diagnostics_opaque_no_recursive_expansion": true,
+    "root_repository_or_measurement_packets_selected": false,
+    "root_owns_fresh_review_adjudication_and_execution_admission": true
+  }
+}

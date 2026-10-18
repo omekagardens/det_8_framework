@@ -1,0 +1,52 @@
+{
+  "accepted_capture": {
+    "bytes": 4412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI146_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "5357b3ce425db7c3b2ad34a3b7644158656f461c4d3bf9e190c6cfbf28611d84"
+  },
+  "admitted_scope": "One unchanged RI141 parent, PRE/POST metadata children and one 30-second normal installed-runtime profile. No optimized profile, guards, scientific target or actual data.",
+  "baseline_acceptance": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "fresh_source_check": {
+    "bytes": 294853,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/SOURCE_PRE.json",
+    "sha256": "d1d3e5c7da67c8d1a51a55d89281ef28ef256f6b116e3a6ec12ee4f50d8f09ee"
+  },
+  "fresh_vendor_pre": {
+    "bytes": 1690927,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/BOOTSTRAP_PRE.json",
+    "sha256": "ce5973f9db27786aff2c32d64bb5b74ccb5de59513b370cbbe53a139f4be8f9f"
+  },
+  "genuine_vendor_pre": {
+    "bytes": 1766,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/BOOTSTRAP_PRE_TOOL.json",
+    "sha256": "c9bc94d776fa3943b8893afac5df666960bc6f57c36791d9f6e308b9d4c18b8b"
+  },
+  "independent_source_review": {
+    "bytes": 5103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/HANDOFF.json",
+    "sha256": "fb2ccb6ea23abd009db852c56fa2ac6e33f1c0b54a5b1db9324722e05ca214fb"
+  },
+  "prior_root_source_decision": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "residual_premises": [
+    "Trusted stable supplier, cache-selection and host; no full import trace",
+    "Sampled child RSS/output/gap limits; genuine parent alarm is not a process-tree quota",
+    "Independent complete actual review before normal acceptance; any failed admission and partial output retained"
+  ],
+  "ret_paused": true,
+  "schema": "ri148-root-normal-profile-source-adjudication-v1",
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "source_review_scope": "Previously accepted unchanged full preparation and profile-observer source. Root reread exact authentication, predecessor acceptance, normal profile validation and production ordering. Same candidate runtime baseline and environment. Fresh PRE must equal accepted complete baseline before profile child.",
+  "status": "ACCEPT_UNCHANGED_SOURCE_FOR_ONE_NORMAL_PROFILE"
+}

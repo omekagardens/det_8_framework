@@ -1,0 +1,57 @@
+{
+  "schema": "ri134-author-static-dependency-check-v1",
+  "status": "OPAQUE_IDENTITY_AND_ADMINISTRATIVE_PRESERVATION_ONLY",
+  "manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_DEPENDENCIES.json",
+    "bytes": 624320,
+    "sha256": "80fb2a5a5f5a318208c9c6389bb7b59646ca18002b32bec01c632d33904cea9a"
+  },
+  "inherited_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+    "bytes": 583262,
+    "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+  },
+  "inherited_entries_unchanged_except_role_renumbering": 299,
+  "additional_predecessor_entries": 44,
+  "total_opaque_identities_matched": 343,
+  "old_protocol_schema_status_scope_unchanged": true,
+  "complete_predecessor_namespaces": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0",
+      "complete_file_count": 13
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10",
+      "complete_file_count": 9
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I",
+      "complete_file_count": 11
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3",
+      "complete_file_count": 6
+    }
+  ],
+  "access_policy_counts": {
+    "metadata-identities-only-no-scientific-body-decoding": 145,
+    "opaque-bytes-only": 198
+  },
+  "scientific_bodies_decoded": false,
+  "current_runtime_inventory": false,
+  "source_or_helper_evaluation": false,
+  "qualification_claimed": false,
+  "administrative_reference_check": {
+    "administrative_bodies": 145,
+    "typed_reference_occurrences": 115670,
+    "reference_boundary_counts": {
+      "dependency": 3394,
+      "history": 16738,
+      "runtime": 95538
+    },
+    "unclosed": 0,
+    "mismatched": 0,
+    "runtime_and_history_boundaries_are_expected_metadata_only": true,
+    "scientific_bodies_decoded": false
+  }
+}

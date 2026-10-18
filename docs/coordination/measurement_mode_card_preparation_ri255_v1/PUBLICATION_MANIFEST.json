@@ -1,0 +1,170 @@
+{
+  "exact_copies": 26,
+  "lossless_encoded_copies": 4,
+  "parent": "0070fb23c42e53536f6eeff0b1f47b5b56c4f1cf",
+  "payload": [
+    {
+      "bytes": 1465449,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "f3fad84ab74fb0bb1d24d32665676851816bbe6d28a65524a6441958aebe3221"
+    },
+    {
+      "bytes": 2666,
+      "path": "README.md",
+      "sha256": "9fbbac50f657c8f00eee649b0070590795fbef0345ce13cc17230effbb7cd446"
+    },
+    {
+      "bytes": 12574,
+      "path": "independent/CHECK.json",
+      "sha256": "a17d6717d838f338d63f5882e3752e1754a2c797002d2bb6c04d466641cf4f6c"
+    },
+    {
+      "bytes": 218949,
+      "path": "independent/FRESH_INPUTS.json.gz",
+      "sha256": "7b59df963188bd6c9e9ebb8c21d79f862c764f2ec3b4aa36d29750c31d1dc973"
+    },
+    {
+      "bytes": 4046,
+      "path": "independent/HANDOFF.json",
+      "sha256": "24a5d4a0acbc49746e71259aa4454d7ca477a19e44876ab8baf7c5c7263afff3"
+    },
+    {
+      "bytes": 2241,
+      "path": "independent/PUBLICATION_SUBSET.json",
+      "sha256": "52cc1306fdabf7730565da06e72d5b352003e236c17e0c467ed790b0f612443b"
+    },
+    {
+      "bytes": 17230,
+      "path": "independent/REVIEW.md",
+      "sha256": "6a0a0e9c5917c482d0b15fba8cf61ca61db20c23f9ff96492b657e6482305afe"
+    },
+    {
+      "bytes": 2037,
+      "path": "independent/ROOT_RECORD_BINDINGS.json",
+      "sha256": "120baf8b341ea8bbfa658600117472b4589e2a689e2b0ad727790bf16fa421e4"
+    },
+    {
+      "bytes": 2268,
+      "path": "independent/SUMMARY.json",
+      "sha256": "61ae4b9d5ec1fafa30273199130d4d4811cb39d30aff5f445d1b0e6f09f54408"
+    },
+    {
+      "bytes": 3742,
+      "path": "independent/TOOL_RECEIPTS.json",
+      "sha256": "3a7c054b4748b341db01b1dfa2bfa3846115800cd82be714db203bad7726c70b"
+    },
+    {
+      "bytes": 22007,
+      "path": "independent/check_saved.attempt1.py",
+      "sha256": "86f1b1f8fe2981f014fd381444406d3a5bd1b6eb04271bd0d2673a4bf1ecba49"
+    },
+    {
+      "bytes": 22167,
+      "path": "independent/check_saved.py",
+      "sha256": "ebfe730147a9ae4a703cf60ed9e6ba44f275ed411b0c42fc8814d0374b4ea044"
+    },
+    {
+      "bytes": 3105,
+      "path": "prepared/ADMISSION_CANDIDATE.json",
+      "sha256": "dcab635d988f46d240484edb47d514697f755d430991f40180c43eaf8e1ca014"
+    },
+    {
+      "bytes": 4527,
+      "path": "prepared/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "f266e927c376c6202598140a38bb563422c36d6986462a068e31e146ea8f484c"
+    },
+    {
+      "bytes": 238237,
+      "path": "prepared/CUSTODY_BEFORE.json.gz",
+      "sha256": "91e96271d2f5b1305c5148de1290cf0b9ad76cc4d27b25a661e633a856d704bf"
+    },
+    {
+      "bytes": 43288,
+      "path": "prepared/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+    },
+    {
+      "bytes": 2450,
+      "path": "prepared/MODE_CARD_BOOTSTRAP.proposal.py",
+      "sha256": "f5ccc9336ea6ae6c1a73d7a7370c7b981bb858a54992f470374ecf99f0489720"
+    },
+    {
+      "bytes": 530,
+      "path": "prepared/MODE_CARD_REQUEST.json",
+      "sha256": "0ff48797216ca57b070e63ff2e3081add9421e77947c9864d9599155a4eae091"
+    },
+    {
+      "bytes": 583,
+      "path": "prepared/PREPARATION_ATTEMPT.json",
+      "sha256": "1dd3991f4b5969d18f88b78ebeb814a03dacf77755dfa5a1611f0a86805f9291"
+    },
+    {
+      "bytes": 376275,
+      "path": "prepared/PREPARATION_COMPLETE.json.gz",
+      "sha256": "6e5913d39dd9ab85c04ff5510057603d8637b3d1c9dbb43ec1c7b3c47aba4009"
+    },
+    {
+      "bytes": 146920,
+      "path": "prepared/SUPPLIER_BEFORE.json.gz",
+      "sha256": "0885821d77d5df63f4dc74e6fff38c1c0944647b37dc1b1ec36223d20ed792a5"
+    },
+    {
+      "bytes": 1504,
+      "path": "root/GENUINE_PREPARATION_HOST.json",
+      "sha256": "240e1444dbd1737d4af754007e5e5b1e663b700a353a054dec328951bd40cb51"
+    },
+    {
+      "bytes": 438,
+      "path": "root/GENUINE_PREPARATION_TERMINAL_ARGUMENTS.json",
+      "sha256": "ca6b6c4e2aad47ca4b2d3f782db8786faf325a0ba34c8cc9e265ea53e7416194"
+    },
+    {
+      "bytes": 1184,
+      "path": "root/GENUINE_PREPARATION_TOOLS.json",
+      "sha256": "7da6b5e80b2388f5dfa137f9f5dc43596b7a22d3e345f33fd2111f0c0768c79b"
+    },
+    {
+      "bytes": 8351,
+      "path": "root/MEASUREMENT_PREPARATION_PLAN.md",
+      "sha256": "be828e9c04761deac075bffd97428fcc9cdad8f4163e93af2bcc8c490cedff57"
+    },
+    {
+      "bytes": 2477,
+      "path": "root/NEXT_MODE_CARD_ACTION.json",
+      "sha256": "e35bb853f8ecf8aa1792717d124066722a6e14df32e6fb4d6640ac75309a55b9"
+    },
+    {
+      "bytes": 1038,
+      "path": "root/PREPARATION_DECISION.json",
+      "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+    },
+    {
+      "bytes": 2657,
+      "path": "root/PREPARATION_ROOT_ADJUDICATION.json",
+      "sha256": "6d5fd1c63999e5b45e0eac9c1bd52dfac796b40d382d557bb5e4400c2473c8f2"
+    },
+    {
+      "bytes": 2418,
+      "path": "root/PREPARATION_ROOT_LINEAGE.json",
+      "sha256": "3a333f279e7343d92c5f5ad383bed8478c342a0dce3b02baf14fe4bcc357c0d8"
+    },
+    {
+      "bytes": 3661,
+      "path": "root/PREPARATION_ROOT_REVIEW.md",
+      "sha256": "8bda0b9f4794cebb5512dc61e5fbfab2159d1ead11c3ce311b27b0a836c0f5f2"
+    },
+    {
+      "bytes": 15117,
+      "path": "root/ROOT_PREPARATION_CHECK.json",
+      "sha256": "74063038dc1e89a275f6cdde858a42f2bf1280d02b6ae7a2a71aa089064df2b9"
+    },
+    {
+      "bytes": 12060,
+      "path": "root/preparation_review.py",
+      "sha256": "92ab54e9c5206da51e3908a28b1cfd0e36848cb81a6ed55de5ff0b71341f19c7"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": false
+}

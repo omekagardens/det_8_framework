@@ -1,0 +1,510 @@
+{
+  "admission": {
+    "bytes": 3632,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/launcher.json",
+    "sha256": "d6062a3501a7f0e3708a9b17f218feb346dfdc322c778f2607eec4a0b232c24e"
+  },
+  "artifacts": {
+    "administrative_checks": {
+      "bytes": 1245,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/ADMINISTRATIVE_CHECKS.json",
+      "sha256": "6a666c4fa31b56e3b76a4c6c4b99f04b4c7ddd4afe54fdbe63de2c590e1813f9"
+    },
+    "attempt": {
+      "bytes": 2358,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/ATTEMPT.json",
+      "sha256": "1121951209077ff7f417e6b315d7f183426ff0c19be661d132edcf5ba4682805"
+    }
+  },
+  "checks": {
+    "card": "PASS",
+    "controls": {
+      "complete_administrative_envelopes_checked": true,
+      "controls": [
+        "F01_positive",
+        "F01_pre_admission_read",
+        "F01_occupied",
+        "F01_mkdir",
+        "F01_post_admission_read",
+        "F01_initial_source_read",
+        "F01_attempt_open",
+        "F01_attempt_partial",
+        "F01_secondary_post",
+        "F01_secondary_source",
+        "F01_secondary_namespace",
+        "F01_secondary_checks",
+        "F01_three_secondary",
+        "F01_final_partial",
+        "F02_positive",
+        "F02_named_path",
+        "F02_resolved_path",
+        "F02_link_literal",
+        "F02_link_order",
+        "F02_link_omitted",
+        "F02_target_bytes",
+        "F02_target_sha",
+        "F02_provenance_missing",
+        "F02_snapshot_alias",
+        "F02_snapshot_target"
+      ],
+      "count": 25,
+      "namespace": {
+        "bytes": 20608,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/NAMESPACE.json",
+        "sha256": "82c6f0d91a8b3227d8b652166cbcc29acd5bc67c90f75b7903b4336a68dbba3f"
+      },
+      "report": {
+        "bytes": 112221,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/REPORT.json",
+        "sha256": "4710b3e8c6f52b35a6e134d29bf827c745494222e688a863788df9ca949abeaf"
+      },
+      "scientific_evaluation": false
+    },
+    "dependency": "PASS",
+    "namespace": {
+      "bytes": 23263,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/NAMESPACE.json",
+      "sha256": "2ceac6aa9852f63894ceb5ded0e60e8a6002e4df5d2ad30a6c7d0b179fe25cc4"
+    },
+    "source": "PASS"
+  },
+  "child": {
+    "child_exit_code": 0,
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+      "--admission",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+      "--output",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls"
+    ],
+    "elapsed_seconds": 1.1177080419999998,
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "final_sample_gap_passed": true,
+    "final_sample_to_reap_gap_seconds": 3.4124999999995964e-05,
+    "first_error": null,
+    "monitor_attempts": [
+      {
+        "elapsed_seconds": 0.005717750000000021,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "  1168\n"
+      },
+      {
+        "elapsed_seconds": 0.04404504199999998,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 16928\n"
+      },
+      {
+        "elapsed_seconds": 0.08226787499999999,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 18144\n"
+      },
+      {
+        "elapsed_seconds": 0.12027695900000002,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 20448\n"
+      },
+      {
+        "elapsed_seconds": 0.15842991699999998,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 22880\n"
+      },
+      {
+        "elapsed_seconds": 0.19637537500000002,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 25872\n"
+      },
+      {
+        "elapsed_seconds": 0.234199292,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 27168\n"
+      },
+      {
+        "elapsed_seconds": 0.272131625,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 28352\n"
+      },
+      {
+        "elapsed_seconds": 0.310531334,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 29024\n"
+      },
+      {
+        "elapsed_seconds": 0.34863429199999996,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 29472\n"
+      },
+      {
+        "elapsed_seconds": 0.386762209,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 29968\n"
+      },
+      {
+        "elapsed_seconds": 0.42483866699999995,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 44384\n"
+      },
+      {
+        "elapsed_seconds": 0.463098459,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 54560\n"
+      },
+      {
+        "elapsed_seconds": 0.501720125,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 64592\n"
+      },
+      {
+        "elapsed_seconds": 0.540377042,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 56128\n"
+      },
+      {
+        "elapsed_seconds": 0.578928625,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59616\n"
+      },
+      {
+        "elapsed_seconds": 0.617281125,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 61024\n"
+      },
+      {
+        "elapsed_seconds": 0.655692667,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59632\n"
+      },
+      {
+        "elapsed_seconds": 0.69401225,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 64448\n"
+      },
+      {
+        "elapsed_seconds": 0.732321042,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 55888\n"
+      },
+      {
+        "elapsed_seconds": 0.7708920419999999,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59520\n"
+      },
+      {
+        "elapsed_seconds": 0.809145959,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 61888\n"
+      },
+      {
+        "elapsed_seconds": 0.8478165839999999,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 57264\n"
+      },
+      {
+        "elapsed_seconds": 0.88638425,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 65952\n"
+      },
+      {
+        "elapsed_seconds": 0.9250133749999999,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59872\n"
+      },
+      {
+        "elapsed_seconds": 0.9632340840000001,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59920\n"
+      },
+      {
+        "elapsed_seconds": 1.0020214589999998,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 64032\n"
+      },
+      {
+        "elapsed_seconds": 1.0405369590000002,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 57936\n"
+      },
+      {
+        "elapsed_seconds": 1.079205,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": " 59824\n"
+      },
+      {
+        "elapsed_seconds": 1.1176739169999999,
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "     0\n"
+      }
+    ],
+    "passed": true,
+    "peak_sampled_rss_kib": 65952,
+    "samples": [
+      {
+        "elapsed_seconds": 0.005717750000000021,
+        "gap_seconds": 0.005717750000000021,
+        "rss_kib": 1168
+      },
+      {
+        "elapsed_seconds": 0.04404504199999998,
+        "gap_seconds": 0.03832729199999996,
+        "rss_kib": 16928
+      },
+      {
+        "elapsed_seconds": 0.08226787499999999,
+        "gap_seconds": 0.03822283300000001,
+        "rss_kib": 18144
+      },
+      {
+        "elapsed_seconds": 0.12027695900000002,
+        "gap_seconds": 0.038009084000000026,
+        "rss_kib": 20448
+      },
+      {
+        "elapsed_seconds": 0.15842991699999998,
+        "gap_seconds": 0.03815295799999996,
+        "rss_kib": 22880
+      },
+      {
+        "elapsed_seconds": 0.19637537500000002,
+        "gap_seconds": 0.03794545800000004,
+        "rss_kib": 25872
+      },
+      {
+        "elapsed_seconds": 0.234199292,
+        "gap_seconds": 0.037823916999999985,
+        "rss_kib": 27168
+      },
+      {
+        "elapsed_seconds": 0.272131625,
+        "gap_seconds": 0.037932332999999985,
+        "rss_kib": 28352
+      },
+      {
+        "elapsed_seconds": 0.310531334,
+        "gap_seconds": 0.038399709000000004,
+        "rss_kib": 29024
+      },
+      {
+        "elapsed_seconds": 0.34863429199999996,
+        "gap_seconds": 0.038102957999999965,
+        "rss_kib": 29472
+      },
+      {
+        "elapsed_seconds": 0.386762209,
+        "gap_seconds": 0.03812791700000007,
+        "rss_kib": 29968
+      },
+      {
+        "elapsed_seconds": 0.42483866699999995,
+        "gap_seconds": 0.038076457999999924,
+        "rss_kib": 44384
+      },
+      {
+        "elapsed_seconds": 0.463098459,
+        "gap_seconds": 0.03825979200000007,
+        "rss_kib": 54560
+      },
+      {
+        "elapsed_seconds": 0.501720125,
+        "gap_seconds": 0.03862166599999994,
+        "rss_kib": 64592
+      },
+      {
+        "elapsed_seconds": 0.540377042,
+        "gap_seconds": 0.03865691700000007,
+        "rss_kib": 56128
+      },
+      {
+        "elapsed_seconds": 0.578928625,
+        "gap_seconds": 0.038551582999999945,
+        "rss_kib": 59616
+      },
+      {
+        "elapsed_seconds": 0.617281125,
+        "gap_seconds": 0.03835250000000001,
+        "rss_kib": 61024
+      },
+      {
+        "elapsed_seconds": 0.655692667,
+        "gap_seconds": 0.038411541999999965,
+        "rss_kib": 59632
+      },
+      {
+        "elapsed_seconds": 0.69401225,
+        "gap_seconds": 0.038319583000000046,
+        "rss_kib": 64448
+      },
+      {
+        "elapsed_seconds": 0.732321042,
+        "gap_seconds": 0.038308792000000036,
+        "rss_kib": 55888
+      },
+      {
+        "elapsed_seconds": 0.7708920419999999,
+        "gap_seconds": 0.03857099999999991,
+        "rss_kib": 59520
+      },
+      {
+        "elapsed_seconds": 0.809145959,
+        "gap_seconds": 0.038253917000000026,
+        "rss_kib": 61888
+      },
+      {
+        "elapsed_seconds": 0.8478165839999999,
+        "gap_seconds": 0.03867062499999996,
+        "rss_kib": 57264
+      },
+      {
+        "elapsed_seconds": 0.88638425,
+        "gap_seconds": 0.038567666000000056,
+        "rss_kib": 65952
+      },
+      {
+        "elapsed_seconds": 0.9250133749999999,
+        "gap_seconds": 0.03862912499999993,
+        "rss_kib": 59872
+      },
+      {
+        "elapsed_seconds": 0.9632340840000001,
+        "gap_seconds": 0.038220709000000186,
+        "rss_kib": 59920
+      },
+      {
+        "elapsed_seconds": 1.0020214589999998,
+        "gap_seconds": 0.038787374999999846,
+        "rss_kib": 64032
+      },
+      {
+        "elapsed_seconds": 1.0405369590000002,
+        "gap_seconds": 0.03851550000000015,
+        "rss_kib": 57936
+      },
+      {
+        "elapsed_seconds": 1.079205,
+        "gap_seconds": 0.038668040999999986,
+        "rss_kib": 59824
+      },
+      {
+        "elapsed_seconds": 1.1176739169999999,
+        "gap_seconds": 0.03846891699999988,
+        "rss_kib": 0
+      }
+    ],
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/FOCUSED25.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/FOCUSED25.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stop_reason": null,
+    "tail_errors": [],
+    "wall_seconds": 180
+  },
+  "child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls"
+  ],
+  "elapsed_seconds": 1.2385645,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "external_premises": {
+    "apple_loader_and_cache_external": true,
+    "genuine_bootstrap_host_preflight_external": true,
+    "genuine_tool_completion_external": true,
+    "sampled_child_only_not_parent_or_group_quota": true,
+    "saved_parent_pid_not_authenticated_child_identity": true,
+    "stable_supplier_host_and_no_descendants": true
+  },
+  "first_error": null,
+  "genuine_tool_completion_created": false,
+  "independent_tail_errors": [],
+  "launcher_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/launcher.json"
+  ],
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "ret_paused": true,
+  "ri130_65_guards_executed": false,
+  "runtime_qualification": false,
+  "schema": "ri139-focused-launcher-completion-v1",
+  "scientific_execution": false,
+  "status": "CAPTURED_FOR_ROOT_REVIEW"
+}

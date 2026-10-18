@@ -1,0 +1,122 @@
+{
+  "future_isolated_control_bounds": {
+    "child_seconds": 180,
+    "file_and_each_stream_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "initial_interior_final_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "sampled_child_rss_kib": 524288
+  },
+  "inherited_actual25": {
+    "F01": 14,
+    "F02": 11,
+    "actual_accepted_total": 25,
+    "changed_source_controls_executed": 0,
+    "meaning": "Byte-identical F01 run and F02 guard/snapshot functions and focused harness preserve structural applicability under their explicit doubles. New globals/paths/dependency set and real authentication/bootstrap code need fresh review and actual capture; no automatic source-version execution credit.",
+    "original_subjects_only": true,
+    "positive_expectations": 2,
+    "real_snapshot_coverage": false,
+    "refusal_expectations": 23
+  },
+  "isolated_cases": [
+    {
+      "condition": "All authenticated historical selection, closed genuine preflight binding, current bytes/state and actual descriptor agree.",
+      "expected_first_outcome": "return complete binding",
+      "id": "B01",
+      "reachability_and_boundary": "No field removed; use fixed historical row and explicit test-observer doubles only for an isolated control. Genuine applicability still requires real capture."
+    },
+    {
+      "condition": "Remove only bootstrap_selection_provenance from opaque_files.",
+      "expected_first_outcome": "ValueError: bootstrap selection provenance absent from closure",
+      "id": "B02",
+      "reachability_and_boundary": "No provenance read or current executable observation should occur."
+    },
+    {
+      "condition": "Keep path regular/canonical and alter only retained provenance bytes against its declared FilePin.",
+      "expected_first_outcome": "ValueError: metadata reference drift",
+      "id": "B03",
+      "reachability_and_boundary": "Only a private control copy may be altered; never modify the sealed RI139 declaration. Earlier path/type failures receive no credit."
+    },
+    {
+      "condition": "Authentically pin a private provenance-control copy with its selected binding changed while dependencies selected binding stays the original.",
+      "expected_first_outcome": "ValueError: accepted direct bootstrap selection provenance",
+      "id": "B04",
+      "reachability_and_boundary": "Explicit fabricated provenance only; valid read/pin/canonical framing first. No actual authority transferred to this copy."
+    },
+    {
+      "condition": "Remove exactly one key from an otherwise correct preflight selected_interpreter_binding.",
+      "expected_first_outcome": "ValueError: closed selected interpreter binding",
+      "id": "B05",
+      "reachability_and_boundary": "Historical provenance authentication must succeed first; no current executable observation."
+    },
+    {
+      "condition": "Add exactly one extra key to the otherwise correct selected_interpreter_binding.",
+      "expected_first_outcome": "ValueError: closed selected interpreter binding",
+      "id": "B06",
+      "reachability_and_boundary": "Same predecessor gates as B05."
+    },
+    {
+      "condition": "Change one selected-binding value while retaining all six keys: named alias, resolved route, link list, bytes, SHA, or one state integer.",
+      "expected_first_outcome": "ValueError: genuine preflight selected interpreter identity",
+      "id": "B07",
+      "reachability_and_boundary": "Each single mutation is isolated. The fixed historical binding remains untouched; source/binding hash failures at earlier gates do not count as this comparison."
+    },
+    {
+      "condition": "Supply byte observation mismatch with correct provenance and preflight.",
+      "expected_first_outcome": "ValueError: opaque evidence reference drift",
+      "id": "B08",
+      "reachability_and_boundary": "Only an explicitly substituted observer may simulate this; do not alter vendor files. Reached byte observation must be recorded."
+    },
+    {
+      "condition": "Supply matching byte observation then one differing lstat state component.",
+      "expected_first_outcome": "ValueError: selected interpreter state drift",
+      "id": "B09",
+      "reachability_and_boundary": "Explicit lstat double; all preceding gates succeeded. A changed declared preflight state would fail B07 earlier and cannot count."
+    },
+    {
+      "condition": "Supply matching provenance, preflight, bytes and state; change only observed sys.executable descriptor.",
+      "expected_first_outcome": "ValueError: direct interpreter descriptor",
+      "id": "B10",
+      "reachability_and_boundary": "Explicit descriptor double with every earlier observation counted. No actual interpreter substitution or scientific entry."
+    }
+  ],
+  "mandatory_real_capture_evidence": [
+    "Fresh root-authenticated direct supplier/framework/host/environment preflight and exact new source admission; historical preflight is not fresh evidence.",
+    "One actual capture parent through the selected direct interpreter and both actual PRE/POST children through the same literal command entry.",
+    "Genuine parent and child complete ten-field environment checks; no CPATH/LIBRARY_PATH/MANPATH/SDKROOT relaxation, stripping or inherited extra keys.",
+    "Real sampled monitor records under180s/512MiB/25ms/100ms/50ms for both snapshots; complete real command and attempt/completion reconciliation.",
+    "Complete candidate3.11 historical guard before runtime walk, current source/runtime/selection/native/absence/dyld/host snapshots and strict full PRE/POST equality.",
+    "Complete failed or successful owned tails, source/admission custody, namespace and final exclusions; full external bootstrap POST and genuine terminal acceptance by a nonauthor/root."
+  ],
+  "no_current_runtime_capture": true,
+  "no_scientific_decode": true,
+  "other_limits_unchanged": {
+    "capture_row_bytes": 8388608,
+    "integer_bits": 262144,
+    "scientific_file_bytes": 67108864,
+    "scientific_rss_kib": 524288,
+    "scientific_seconds": 180
+  },
+  "required_saved_isolated_evidence": [
+    "Exact new source pins and root control authority, genuine command/tool completion and original bounded monitor evidence.",
+    "Complete fabricated operands, complete expected/observed first error or returned binding, every source/metadata/current-observer call in order and substitution flags.",
+    "Prove every preceding gate succeeded and every prohibited later observer did not run; preserve primary and independent errors plus every partial, with no overwrite or retry.",
+    "Never count an earlier authentication refusal as a downstream guard test. Fixed literal-route and helper-constant checks also receive complete source review; no altered immutable provenance is silently accepted as real."
+  ],
+  "ret_paused": true,
+  "schema": "ri141-unexecuted-bootstrap-verification-design-v1",
+  "scope": "These are a finite change-specific review/verification design, not an executable new harness, prescribed rerun of focused25, added preparation phase or claimed qualification. Root chooses any separately admitted isolated controls after fresh review; no generic launcher is introduced.",
+  "single_value_variants_B07": [
+    "path",
+    "resolved_path",
+    "symlink_chain",
+    "bytes",
+    "sha256",
+    "state"
+  ],
+  "status": "PROSPECTIVE_ONLY_NO_ADMISSION_OR_EXECUTION"
+}

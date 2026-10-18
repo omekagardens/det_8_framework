@@ -1,0 +1,100 @@
+{
+  "schema": "ri252-independent-review-handoff-v1",
+  "status": "SEALED_NONAUTHOR_RECOMMEND_ACCEPT_BOUNDED_RESULT_ROOT_ADJUDICATION_REQUIRED",
+  "reviewer": "/root/qr_opportunities",
+  "reservation": "/private/tmp/ri252-independent-review-3hctgndx",
+  "subject_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.json",
+    "bytes": 18040,
+    "sha256": "df2a49e18c75ad3746fd6a7c2d941cf8910232b83eca2bc5b082eeafbcd719d7"
+  },
+  "files": [
+    {
+      "path": "/private/tmp/ri252-independent-review-3hctgndx/INDEPENDENT_REVIEW.md",
+      "bytes": 16927,
+      "sha256": "425cd5969745399a21a9b1132b177e38a10437491ff68b00b1b763f0ce98dec0"
+    },
+    {
+      "path": "/private/tmp/ri252-independent-review-3hctgndx/METADATA_CHECK.json",
+      "bytes": 4303,
+      "sha256": "8fda76f9b48e49b65623e479742c30c8143c5bcd583d90244ce39079f6b80353"
+    },
+    {
+      "path": "/private/tmp/ri252-independent-review-3hctgndx/AUTHOR_COMPACT_RECEIPTS.json",
+      "bytes": 5361,
+      "sha256": "62adab1e40a1448634d1b06dd397d74b7894ba69ada0b48d94b34b554c617f97"
+    }
+  ],
+  "namespace": [
+    "AUTHOR_COMPACT_RECEIPTS.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "METADATA_CHECK.json"
+  ],
+  "recommendation": "Accept exact sigma-ray feasibility/descent iff, key order, strict canonical tight-mean obstruction and manually derived history weights. No canonical allocation, kappa gap, C_b decision or full-system witness is accepted.",
+  "blocking_findings": [],
+  "actual_receipts": {
+    "metadata": {
+      "chunk_id": "aad014",
+      "exit_code": 0,
+      "whole_identities": 129,
+      "direct_sources": 123,
+      "direct_bytes": 2517253,
+      "preserved_boundaries": 15,
+      "stable_second_pass": true
+    },
+    "complete_proofs": [
+      {
+        "chunk_id": "faf7e8",
+        "exit_code": 0
+      },
+      {
+        "chunk_id": "f57689",
+        "exit_code": 0
+      }
+    ],
+    "complete_author_verification": {
+      "chunk_id": "03fdf8",
+      "exit_code": 0
+    },
+    "report_save": {
+      "chunk_id": "ea0864",
+      "exit_code": 0,
+      "exact_readback": true
+    },
+    "retrieved_receipt_save": {
+      "chunk_id": "5bd23a",
+      "exit_code": 0,
+      "exact_readback": true
+    }
+  },
+  "genuine_retrieved_author_final": {
+    "turn_id": "01a0f871-06ae-74e1-abbd-12e6fe4b787c",
+    "item_id": "exec-50017421-2ecb-4974-aeca-93510478b31d",
+    "status": "completed",
+    "exit_code": 0,
+    "output_truncated": false,
+    "reviewer_replay": false
+  },
+  "limits": {
+    "manual_math_only": true,
+    "author_metadata_checker_replayed": false,
+    "scientific_body_read": false,
+    "scientific_body_hash": false,
+    "scientific_JSON_decoded": false,
+    "mathematical_engine": false,
+    "subject_execution": false,
+    "repository_changes": false,
+    "git_operations": false,
+    "original_literal_authority_renewed": false,
+    "successor_assigned": false,
+    "qualification_credit": 0
+  },
+  "reviewer_diagnostics": {
+    "failed_shell_commands": 0,
+    "rejected_writes": 0,
+    "clipped_outer_retrieval_projections": 1,
+    "recovery": "Both compact genuine author metadata outputs redisplayed completely; complete local proofs and author verification read separately.",
+    "author_orchestration_failure": "One failure declared and preserved; raw failure not exposed in retrieved items."
+  }
+}

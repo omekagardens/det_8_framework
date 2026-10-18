@@ -1,0 +1,15 @@
+{
+  "receipt": {
+    "chunk_id": "a7bf42",
+    "exit_code": 0
+  },
+  "review": {
+    "bytes": 12079,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI235_INDEPENDENT_REVIEW.txt",
+    "sha256": "275a10ea4c42282bac497ab1884b5d911d49cdf0f96fcc65eb882eb6296426c5"
+  },
+  "reviewer": "/root/qr_opportunities",
+  "reviewer_file_writes": false,
+  "schema": "ri237-root-preserved-review-fidelity-v1",
+  "statement": "Reviewer completely reread the root-preserved text and confirmed all BEGIN..END contents and qualifications; only terminal newlines appended."
+}

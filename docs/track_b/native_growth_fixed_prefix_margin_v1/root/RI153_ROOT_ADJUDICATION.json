@@ -1,0 +1,359 @@
+{
+  "accepted_results": [
+    "J3 actual raising-terminal component identity",
+    "Complete hook compensation and square remainder parallelograms",
+    "Strict normalization/kernel inequalities",
+    "Conditional exact kernel-ratio monotonic direction",
+    "Valid signed floors with aggregate dominance",
+    "Exact two-endpoint equivalence for every nonnegative singleton floor",
+    "Exact strict-capacity and adequate threshold resolution of both old sufficient budgets",
+    "Exact full-q endpoint/vertex remaining relation"
+  ],
+  "clarifications": [
+    {
+      "accepted_scope": "Kbox and hence maximum Kcorr dominate the old bound, strictly if either sigma is positive; all three are valid uniform floors.",
+      "id": "N01",
+      "location": "ANALYTIC_RESULT.json new_results[4]; WEIGHTED_PREFIX_COMPARISON.md144-164; FIXED_PREFIX_MARGIN_SYNTHESIS.md110-122",
+      "not_accepted": "An additional claim that each individual ratio anchor itself must dominate the old bound.",
+      "required_repair": false,
+      "severity": "NONBLOCKING_SUMMARY_SCOPE_CLARIFICATION",
+      "wording": "Three all-sign correlated singleton floors dominate the old bound"
+    }
+  ],
+  "conditional_implication": "A genuine pass implies W<=0 on actual-containing domain, excludes simultaneous strict C2/C3 positivity and obstructs this fixed H30 candidate; no pass shown. Failure of sufficient test does not decide W.",
+  "excluded_inference": {
+    "FS1_greater_than_FS0_accepted": false,
+    "exact_diagnostic_retained": true,
+    "new_actual_seed_comparison_performed_by_reviewer": false,
+    "source": "AUTHOR_CHECKS.json diagnostics[0]",
+    "theorem_branch_order_sign_credit": false
+  },
+  "fresh_seal_identities": [
+    {
+      "bytes": 6422,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+      "sha256": "4058c2a9545211d2e845661a86516a69b94d15833c3ebbccb9657dc8de61beb7",
+      "state": [
+        16777244,
+        410906,
+        33188,
+        1,
+        6422,
+        1790779210561354816,
+        1790779210561354816
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3122,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+      "sha256": "1d93314e11c0cfa932c3e0ebd6327b042bc5f6eeefedf227f1efbb9b45860445",
+      "state": [
+        16777244,
+        410903,
+        33188,
+        1,
+        3122,
+        1790779107478764728,
+        1790779107478764728
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13645,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+      "sha256": "be78e062ec642b63ef05eb76e2d894127a2182eb1f1881bb8852be57bd285abd",
+      "state": [
+        16777244,
+        410905,
+        33188,
+        1,
+        13645,
+        1790779174953061418,
+        1790779174953061418
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10054,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+      "sha256": "b58183a7babae28342dadc5d23a023ec9aade17cbbaebafb62febed884114e1c",
+      "state": [
+        16777244,
+        410886,
+        33188,
+        1,
+        10054,
+        1790778727010778104,
+        1790778727010778104
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13670,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "sha256": "3671a7415d6f9f36a77e704439e3560172cfb6240d43a0a97bc546537cdfd7c8",
+      "state": [
+        16777244,
+        410896,
+        33188,
+        1,
+        13670,
+        1790779006302500084,
+        1790779006302500084
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2905,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+      "sha256": "4e66b9e665ff480ca568440783f1e1b075746d858c485aed46ebbbaa86a45d74",
+      "state": [
+        16777244,
+        410904,
+        33188,
+        1,
+        2905,
+        1790779107479157190,
+        1790779107479157190
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 15472,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+      "sha256": "2880e8bb604b054a30101015b9b471a4bd714703816ed1bb65b9746041e19b08",
+      "state": [
+        16777244,
+        410897,
+        33188,
+        1,
+        15472,
+        1790779023397309960,
+        1790779023397309960
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 154597,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+      "sha256": "8289ef9fc22a290924584d0ad0447b1e37b1cb2a0cb5d9ae7b921e368cc612ab",
+      "state": [
+        16777244,
+        410883,
+        33188,
+        1,
+        154597,
+        1790778587727197609,
+        1790778587727197609
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23951,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+      "sha256": "d75764fa333400acef5b1c151b4ee0f44780a4ba31c380f63d8f486d3a4a8268",
+      "state": [
+        16777244,
+        410884,
+        33188,
+        1,
+        23951,
+        1790778620046810230,
+        1790778620046810230
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11750,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+      "sha256": "a9ebc8a952ad2cbab2b958a439c4b4b113190805a557f32488df9edf6999339a",
+      "state": [
+        16777244,
+        410895,
+        33188,
+        1,
+        11750,
+        1790778865743146627,
+        1790778865743146627
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8463,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/HANDOFF.json",
+      "sha256": "1b4546dcab2214e93869eeb236f3da4898dcb5ce767e8eb96f08d671fb267588",
+      "state": [
+        16777244,
+        411436,
+        33188,
+        1,
+        8463,
+        1790779812144430707,
+        1790779812144430707
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9811,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+      "sha256": "3044d3e90b4fd95b77d167619a9926994e2071832ae7a30e92ac0d4a8086eb6b",
+      "state": [
+        16777244,
+        411435,
+        33188,
+        1,
+        9811,
+        1790779782662739700,
+        1790779782662739700
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.json",
+      "sha256": "52338567901d53a8494d2c00ce1d9018ef8326a488ff5df42a448fc0f87e2d3f",
+      "state": [
+        16777244,
+        411375,
+        33188,
+        1,
+        8310,
+        1790779738384102673,
+        1790779738384102673
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 25663,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.md",
+      "sha256": "2eb52cf2f0198af636b114926b37ebd97e0d2f12bfa1510cfdf7a48516522c2c",
+      "state": [
+        16777244,
+        410981,
+        33188,
+        1,
+        25663,
+        1790779655140165460,
+        1790779655140165460
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 116330,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "sha256": "5c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b",
+      "state": [
+        16777244,
+        410942,
+        33188,
+        1,
+        116330,
+        1790779428443612277,
+        1790779428443612277
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4537,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/REVIEW_DIAGNOSTICS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/REVIEW_DIAGNOSTICS.json",
+      "sha256": "17d9ff8e2a11952bbf1a53a2512333ec765fcdb84b30bf0622934e6e2eaf2313",
+      "state": [
+        16777244,
+        411376,
+        33188,
+        1,
+        4537,
+        1790779738426881126,
+        1790779738426881126
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 8351,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "sha256": "463fbd99e436bc2a113972d218331383a37d8f85e6968a7213e801e1ff2d2251",
+      "state": [
+        16777244,
+        410941,
+        33188,
+        1,
+        8351,
+        1790779424039508146,
+        1790779424039508146
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "independent_review": {
+    "bytes": 8463,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/HANDOFF.json",
+    "sha256": "1b4546dcab2214e93869eeb236f3da4898dcb5ce767e8eb96f08d671fb267588"
+  },
+  "manual_review": {
+    "bytes": 5207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/ROOT_MANUAL_REVIEW.md",
+    "sha256": "89f6c2e5a9797b3a4767e3d0573f75bdf924cf54ad3134341acde35b0cdd07f7"
+  },
+  "physical_claim": false,
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining": {
+    "actual_W_C2_C3_signs_decided": false,
+    "actual_adequate_q_v_joint_budget_proved": false,
+    "actual_capacity_signs_proved": false,
+    "actual_positive_part_branch_decided": false,
+    "actual_rho_in_earlier_small_x_interval_proved": false,
+    "actual_root_order_decided": false,
+    "full_H30_decided": false,
+    "precise_relation": "At same correlated actual prefix, prove YE<1 and v>B max(1,(1-Yu3)/(1-YE)), then q(0)>=Qreq, q(Z)>=Qreq and, when -2q2Z<q1<0,4q2(q0-Qreq)-q1^2>=0; or prove inherited direct cleared W endpoint inequalities."
+  },
+  "ret_paused": true,
+  "root_check": {
+    "bytes": 116325,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/METADATA_CHECK.json",
+    "sha256": "c398f6fb86f9d8d658242d5802c0a61e887fdb1c800bf0e1c70e35e7898e23f5"
+  },
+  "root_check_tool": "58ede7 exit0",
+  "schema": "ri153-root-proof-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_EXACT_PREFIX_IDENTITIES_AND_CONDITIONAL_JOINT_BUDGET_REDUCTION",
+  "subject": {
+    "bytes": 6422,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+    "sha256": "4058c2a9545211d2e845661a86516a69b94d15833c3ebbccb9657dc8de61beb7"
+  }
+}

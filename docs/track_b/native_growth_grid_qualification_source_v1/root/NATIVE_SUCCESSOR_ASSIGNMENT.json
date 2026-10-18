@@ -1,0 +1,48 @@
+{
+  "RET": "paused",
+  "actual_cases_executed": 0,
+  "allowed_now": [
+    "Literal source and administrative metadata reading.",
+    "Separate bounded administrative identity scripts and read-only OS metadata observations of the explicitly fixed candidate/host/supplier/supervision files; no invocation of candidate Python or subjects.",
+    "Preparation files only in the exclusive reservation."
+  ],
+  "contract": {
+    "bytes": 12543,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/CONTRACT.md",
+    "sha256": "ba1f8876bc11847261240948c0c9eabfb4c6cdbded0c9571c6f6a50031185bd4"
+  },
+  "deliverables": [
+    "Authenticate the exact current source/review and root decision. Preserve all three RI161 executables and both RI159 subjects without edits; do not add a launcher or replace the harness.",
+    "Use the fixed direct vendor candidate /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9. Observe bounded read-only metadata of this file, its explicitly selected framework/stdlib/native suppliers, host version and selected external supervision primitives. List every selected path and observation policy before any expanded supplier scan; use existing recorded fixed supplier selections if suitable. Historical observations do not become current custody. Do not scan environment secrets.",
+    "Provide a concrete exact request proposal for all six fields, five source roles and one interpreter, separately pinned command/environment and exclusive proposed evidence output. Identify genuine root external bootstrap/runtime acceptance and a bounded outer supervision command. Retain -I -S -B and separate -O child, 300-second caller,120-second child/2-second cleanup,512 MiB address space/110 CPU/core-zero and8 MiB limits. Explain host capability uncertainty honestly; a later unsupported-limit refusal is a failed attempt, not permission to weaken limits.",
+    "Prepare the smallest ready-to-use admission evidence and missing-action list. Distinguish finite byte/state snapshots from transitive runtime trust, actual flags, continuous custody, kernel/hard-abort completion and genuine external tool evidence. Documentary trust strings alone are insufficient.",
+    "Keep source-counted2547per-mode/5094total and exact variant obligations. The next root action is separately admitted actual synthetic qualification followed by fresh outcomes review, not more source architecture. QP04 actual certificate audit stays later and separate.",
+    "Seal preparation with exact namespace/payload pins, actual read-only commands/returns and any missing prerequisite or failure. Preserve partial diagnostics."
+  ],
+  "forbidden": [
+    "No subject/control/caller/interpreter import,compile,AST,probe or execution; no fixtures,actual request/admission,freeze or output namespace.",
+    "No scientific certificate decoding,actual grid,law/capacity/public-data computation,protected-file changes or weakened thresholds.",
+    "No new agents,recursive launcher framework,repo/index/Git. Root owns admission,dispatch,independent adjudication and publication."
+  ],
+  "measurement_separate": true,
+  "objective": "Prepare the exact one-shot normal/optimized synthetic qualification invocation, genuine current fixed-host/runtime prerequisites and concrete remaining root admission actions for the accepted unchanged RI161 caller.",
+  "owner": "Quantum Relativity task 01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor_adjudication": {
+    "bytes": 2883,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/RI161_ROOT_ADJUDICATION.json",
+    "sha256": "a6fad90e2b969eee48ce6de4ae005741a2f63529c6d504b82f79c0e38e8e9678"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v",
+  "review": {
+    "bytes": 8260,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/HANDOFF.json",
+    "sha256": "a4c99c567890adeee2b429c8947dc095d8fe4098588141a4c9954c4d59d3a65c"
+  },
+  "schema": "ri163-native-qualification-preflight-assignment-v1",
+  "source": {
+    "bytes": 9989,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.json",
+    "sha256": "32a5bab9518259f379f1893e56a45f7eec28dab682995b29ce6cc9ae697b9760"
+  },
+  "status": "ASSIGNED_AFTER_RI161_ROOT_SOURCE_ADJUDICATION"
+}

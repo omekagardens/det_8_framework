@@ -1,0 +1,18 @@
+{
+  "complete_seven_field_state_and_links_equal": true,
+  "identities": {
+    "bytes": 7903442,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/IDENTITIES.json",
+    "sha256": "741b59694c67d0a2532dd4c83fdace253d8409775cf883c879a3411050f551da"
+  },
+  "review": {
+    "bytes": 4900,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/HANDOFF.json",
+    "sha256": "7dd04adab9201a230baba1cff3dbd3a040dd6e92b441e7354d80e734c10c2c83"
+  },
+  "schema": "ri186-root-fresh-capture-review-check-v1",
+  "source_and_namespace_review": "Complete reviewer checker and prose read; reconciled with prior independent root monitor/custody replay.",
+  "status": "PASS",
+  "subject_execution": false,
+  "whole_identities_rehashed": 12429
+}

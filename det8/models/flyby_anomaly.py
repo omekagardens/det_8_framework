@@ -1,5 +1,8 @@
 """
-DET κ-Gravity Flyby Anomaly Model
+RETIRED / QUARANTINED — historical flyby-anomaly κ-gravity model.
+
+The attribution below depends on the withdrawn force law and is not an active
+claim about flyby observations.
 
 Models the Earth flyby anomaly using DET κ-gravity:
   - Earth has κ_earth (calibrated to match Newtonian gravity).
@@ -35,6 +38,10 @@ Known flyby anomalies (approximate):
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

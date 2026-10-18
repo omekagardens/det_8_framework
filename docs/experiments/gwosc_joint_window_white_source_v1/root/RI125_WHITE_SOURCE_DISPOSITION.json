@@ -1,0 +1,38 @@
+{
+  "actual_scientific_decode": false,
+  "blocking_findings": [],
+  "complete_application_accepted": false,
+  "execution_admitted": false,
+  "findings": [
+    "No blocking defect found in the bounded white path; literal historical pins/gates, complete eight-row and footer consumption, vector/Gram linkage, own Shift, strict original/new thresholds, exclusive output and independent failure tails are retained.",
+    "F01-F04 are repaired as source/recipe specifications, not executed qualification.",
+    "The independent reviewer covered the entire twelve-file source packet and exact text delta; root does not claim to have re-read every dependency or executed target code."
+  ],
+  "independent_review": {
+    "bytes": 1529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/HANDOFF.json",
+    "sha256": "8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf"
+  },
+  "pending": [
+    "Different-author full-field white validator.",
+    "Complete executable white-case generator and primary WK01-WK37 controls; every independent counterpart and fresh comparison.",
+    "Periodic/join/nuisance implementation and remaining cases before full application qualification.",
+    "Independent source review, complete caller/history/runtime custody, actual fabricated qualification and separate actual-data admission."
+  ],
+  "qualification_accepted": false,
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "root_read_scope": [
+    "Complete independent prose/JSON/handoff review.",
+    "Complete 622-line white_path.py, white_controls.py and all32 CASES.md recipes.",
+    "Complete sealed source handoff; all twelve source and four review artifact identities rechecked."
+  ],
+  "schema": "ri125-root-white-source-disposition-v1",
+  "source": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "source_publication_deferred": true,
+  "status": "ACCEPT_BOUNDED_UNEXECUTED_WHITE_SOURCE_FOR_NEXT_IMPLEMENTATION_STAGE_ONLY"
+}

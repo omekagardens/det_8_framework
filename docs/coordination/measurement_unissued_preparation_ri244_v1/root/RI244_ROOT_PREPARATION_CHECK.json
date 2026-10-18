@@ -1,0 +1,196 @@
+{
+  "E_directories": 9,
+  "E_files": 49,
+  "E_unchanged": true,
+  "all_tails_pass": true,
+  "complete": {
+    "bytes": 3376486,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PREPARATION_COMPLETE.json",
+    "sha256": "a75ca2efb43139609f6e18c7dcb1b558174098a304692298bc681fbae628606e"
+  },
+  "complete_atomic_snapshot_claim": false,
+  "decision": {
+    "bytes": 1007,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_DECISION.json",
+    "sha256": "94e8beecfbb0c19fe206b4e45c22692649aaa4992ec352daf6483b22817f702c"
+  },
+  "directories": [
+    {
+      "entries": [],
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/tmp",
+      "state": [
+        16777244,
+        429095,
+        16832,
+        2,
+        64,
+        1790856372781781540,
+        1790856372781814957
+      ]
+    },
+    {
+      "entries": [],
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor",
+      "state": [
+        16777244,
+        429096,
+        16832,
+        2,
+        64,
+        1790856372781851541,
+        1790856372781867833
+      ]
+    }
+  ],
+  "exact_bootstrap_bytes": true,
+  "exact_candidate_fields": 12,
+  "genuine_tools": {
+    "bytes": 1151,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_GENUINE_PREPARATION_TOOLS.json",
+    "sha256": "856c6fbbea46943f0f2ad5668573d65e4a1b59c77978f0e16537a0fe4e319a17"
+  },
+  "independent_tails": 6,
+  "literal_regular_final_outputs": true,
+  "operational_authorization": false,
+  "outputs": [
+    {
+      "bytes": 3057,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/ADMISSION_CANDIDATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/ADMISSION_CANDIDATE.json",
+      "sha256": "d9b57491c3802dedab86d093a7dd53743cfd41e42e94f0788d7c703708a7310f",
+      "state": [
+        16777244,
+        429103,
+        33188,
+        1,
+        3057,
+        1790856372810812768,
+        1790856372810812768
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/BOOTSTRAP_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "a3efc299a652c877b35323b489ab534e18c88968ebe5367e57eaae218ea3caa2",
+      "state": [
+        16777244,
+        429101,
+        33188,
+        1,
+        4508,
+        1790856372809727290,
+        1790856372809727290
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1854337,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/CUSTODY_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/CUSTODY_BEFORE.json",
+      "sha256": "2197997aeb18cdc44f72e517732ecdf9f462ed3645d5470de03814bbd97bb1b6",
+      "state": [
+        16777244,
+        429098,
+        33188,
+        1,
+        1854337,
+        1790856372798385087,
+        1790856372798385087
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/E_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/E_BEFORE.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4",
+      "state": [
+        16777244,
+        429100,
+        33188,
+        1,
+        43288,
+        1790856372809135863,
+        1790856372809135863
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 568,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PREPARATION_ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PREPARATION_ATTEMPT.json",
+      "sha256": "505127ae5e596a6d0dc313a5d896e3822e98c1438f3a9693feb330a90d96694e",
+      "state": [
+        16777244,
+        429097,
+        33188,
+        1,
+        568,
+        1790856372781996627,
+        1790856372781996627
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3376486,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PREPARATION_COMPLETE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PREPARATION_COMPLETE.json",
+      "sha256": "a75ca2efb43139609f6e18c7dcb1b558174098a304692298bc681fbae628606e",
+      "state": [
+        16777244,
+        429104,
+        33188,
+        1,
+        3376486,
+        1790856373660341350,
+        1790856373660341350
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PRE_MODE_BOOTSTRAP.proposal.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/PRE_MODE_BOOTSTRAP.proposal.py",
+      "sha256": "b4a85e59bd1c137da2ff44e3281c900d0da9a49f07d64de1d5e44a06eaae77e2",
+      "state": [
+        16777244,
+        429102,
+        33188,
+        1,
+        2418,
+        1790856372810327467,
+        1790856372810327467
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/SUPPLIER_BEFORE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/SUPPLIER_BEFORE.json",
+      "sha256": "124f58a24bc020b6d98f5173bdc6779e3238a6db6993a14543ca58a47fb73ea4",
+      "state": [
+        16777244,
+        429099,
+        33188,
+        1,
+        1260491,
+        1790856372806210894,
+        1790856372806210894
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "schema": "ri247-root-unissued-preparation-check-v1",
+  "scientific_execution": false,
+  "sole_child_monitor_executed": false,
+  "status": "PASS_COMPLETE_PREPARATION_CUSTODY_ONLY",
+  "supplier_absent": 2,
+  "supplier_bytes": 48024515,
+  "supplier_files": 1810,
+  "supplier_namespace": 195,
+  "supplier_tools": 4,
+  "whole_input_identities": 2854,
+  "writer_and_admin_binding_unchanged": true
+}

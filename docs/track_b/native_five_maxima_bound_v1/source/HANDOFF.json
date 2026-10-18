@@ -1,0 +1,130 @@
+{
+  "schema": "ri208-native-five-maxima-handoff-v1",
+  "status": "COMPLETE_FIVE_MAXIMA_CLASS_THEOREM_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_NATIVE_ASSIGNMENT.json",
+    "bytes": 2757,
+    "sha256": "718f13dc72c67b5c8b0999ad13ea76ebc2cc623decff775086681465fb2d04ea"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI205_ROOT_ADJUDICATION.json",
+    "bytes": 2407,
+    "sha256": "ad87953b8f9479e2c29de71f3a5864e7828b59c21bda04f094ef6de06f3f08b9"
+  },
+  "scalar_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+    "bytes": 1133,
+    "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "FIVE_MAXIMA.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "HIGH_OMISSION_LEMMA.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/AUTHOR_VERIFICATION.json",
+      "bytes": 24409,
+      "sha256": "7b2933fe5e1468a31c5155a0b3548cb1612a31d714f741629f1ec0c8622bcc0b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/FIVE_MAXIMA.md",
+      "bytes": 12287,
+      "sha256": "3543f2435b6fc7e44e49bfcc41a9bcdbaa4d72081dbcc3f3f40bb29c2a31f265"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/HANDOFF.md",
+      "bytes": 2326,
+      "sha256": "39903a6c00704c785c1541667351ec32c7b57c1a42fdc48c8b078c6464d9f81c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/HIGH_OMISSION_LEMMA.md",
+      "bytes": 10887,
+      "sha256": "d0a268d1799b8583e1b62db83b48b6a11da98f07a199cc42ca0b5533b730c10c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/SOURCE_REFERENCES.json",
+      "bytes": 26121,
+      "sha256": "83102015f0868a80a40d7f6fc862e66af87ad0da232ccad15ff91a5b0c81f3af"
+    }
+  ],
+  "theorem": "Every actual marked six-parent with exactly five maxima satisfies U6<5+10K+80K^2+11/256<462080760006<463000000000<465000000000<T, K=681472/9, on the named unchanged finite-prefix premises.",
+  "selected_ideal_lemma": "For retained pair I and S=A union I satisfying every retained precursor, the three omitted-cap four-parent probabilities have product >=q_I(S)*epsilon^2/8. Both retained caps are selected; original coverage supplies a cap covering the sole old event outside S if needed.",
+  "higher_sector_lemmas": "Each C4_i<=theta^4*3*110^11<2^-73<1/128, and C5<=2*theta^5*3^8*110^24<1/256. Every extra old maximum is kept; each relevant product has at most one such correction by original or selected-ideal coverage.",
+  "proof_steps": [
+    "Entire class parameterized by R={x}, five empty/full precursor ideals covering R, all marks and labeled proper ideals. Exact omission partition5-L plus ten C2, ten C3, five C4 and one C5.",
+    "Every C2<K using all-ideal q4 floor, including full denominators; complete strict subrow sums retain all actual canonical terms.",
+    "Selected-pair lemma proved directly, not by an all-ideal coverage claim. Sole omitted maximum gives q4>=q_base/8 for one factor, yielding each C3<8K^2.",
+    "Check terminal maxima before each use of the accepted zero-boundary support lemma: C4 numerator preserves three unselected caps plus newborn, C5 numerator preserves four plus newborn. Actual theta restoration remains.",
+    "C4 extra-old factor has8 subsets and bound3*110^3; at most one triple has uncovered x. Exact multiplicities yield theta^4 Gamma b^3 product(p_pair)/product(p_single)^2. Complete b subrow normalization gives C4 bound.",
+    "C5 extra-old factor has16 subsets, including empty-parent1, with bound3^4*110^4 and at most one exceptional quadruple. Triple/pair/single/B multiplicities2/3/4/-5 give exact cancellation and C5 bound over both A ideals.",
+    "From native M5>5e9 derive theta<2^-38 by hand, leaving target T>465e9 unchanged. Powers give total higher sectors<11/256. Final hand total<463e9."
+  ],
+  "inherited_premises_not_fresh_verification": [
+    "RI41 all-four-parent ideal floor9/681472 including full; proper-slot scalar minimum1/8 is not used for full q4.",
+    "RI205 accepted all-ideal q1>=1/3 and q3>=1/110 from literal seed including all marks/full complements.",
+    "RI205 accepted finite support lemma: proper parent-five birth with at least four terminal maxima has zero canonical boundary coefficient, retaining theta*u5; inherited RI63 active-neutral support and marked diamonds.",
+    "Unchanged fixed canonical mixture, strict positive complete rows, locality/equivariance, all original marks, theta=1/[72(1+M5)].",
+    "Accepted same native M5 witness gives M5>5e9 and unchanged T>465e9. Printed numeric M5 and actual theta unused."
+  ],
+  "manual_analysis_only": true,
+  "complete_five_maxima_class_bound_proved": true,
+  "global_M6_bound_proved": false,
+  "actual_W_decided": false,
+  "both_individual_margins_or_H30_proved": false,
+  "six_maxima_settled": false,
+  "concrete_violating_parent_proved": false,
+  "printed_numerical_M5_used": false,
+  "new_scientific_body_or_vector_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "remaining": "Six-maxima class and the global M6 comparison remain open. Actual W, both margins, H30 and physical correspondence are not decided. No successor is proposed or started.",
+  "provenance_scope": {
+    "direct_sources": 14,
+    "direct_bytes": 537440,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh423_or_previous_source_collections_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_complete_namespace": 6
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "500385",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 18,
+      "explicit_selected_reference_checks": 25
+    },
+    "author_record": {
+      "chunk_id": "3ac264",
+      "exit_code": 0
+    },
+    "failed_current_commands_or_patches": 1,
+    "current_diagnostics": "Nonexistent publication-path lookup69985a exit2, corrected by actual inventory/read; unrelated background thread display clipping; two successful wording corrections before final proof readback. Complete author record preserves all phases and diagnostics.",
+    "all_historical_diagnostics_preserved_by_reference": true
+  },
+  "final_check_policy": "Run retained administrative checker in final6 mode after this file exists. Report actual receipt and handoff identity externally. This file claims neither a future check nor an internal self-hash.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Stop for root independent review and separately owned publication. No new class, scientific execution, fixture/runtime/card, new agent/thread or RET continuation."
+}

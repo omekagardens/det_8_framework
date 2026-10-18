@@ -1,0 +1,47 @@
+{
+  "actual_preparation_only": true,
+  "authority_issued": false,
+  "checks": 19,
+  "inputs": [
+    {
+      "bytes": 3113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_TOOL.json",
+      "sha256": "afe45fc3982de98e7bde448fe9be75974d273da2f91eee3e6bbb1b64e27a97d1"
+    },
+    {
+      "bytes": 2336,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_SESSION_LINKAGE.json",
+      "sha256": "f1c4420c94c34acae7cc947b6a7bf9b98f1639f06900ace2544d45767f1bec0e"
+    },
+    {
+      "bytes": 2639095,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/CHECK_RESULT.json",
+      "sha256": "72fc8a1717b0ce5b501d5080a83efa22979f3b58db37b8fd36e5c5bed2eb4440"
+    }
+  ],
+  "labels": [
+    "exact pin GENUINE_PREPARATION_TOOL.json",
+    "exact pin GENUINE_PREPARATION_SESSION_LINKAGE.json",
+    "closed additive schema",
+    "schema",
+    "original whole pin",
+    "unchanged record declaration",
+    "initial-session linkage",
+    "actual session",
+    "no intervening calls",
+    "closed terminal call",
+    "actual terminal tool",
+    "entire genuine terminal arguments",
+    "entire terminal result including unchanged raw output",
+    "genuine exit chain",
+    "genuine root provenance disclosure",
+    "original complete custody replay retained",
+    "pending scope addressed separately",
+    "same actual preparation reviewed",
+    "no outcome promotion"
+  ],
+  "reconciliation_executed": false,
+  "schema": "ri230-independent-session-check-v1",
+  "status": "PASS_COMPLETE_GENUINE_PREPARATION_LINKAGE",
+  "tool_origin_remains_genuine_root_receipt_premise": true
+}

@@ -1,0 +1,48 @@
+{
+  "actual_data_admitted": false,
+  "actual_scientific_decode": false,
+  "different_nonauthor_validator_review_required": true,
+  "files": [
+    {
+      "bytes": 14609,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c80ba1e67b12a55a3f087a821215f80f9f3d5715b399761b970821b99870c94d"
+    },
+    {
+      "bytes": 3854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "db4caa8492695d17b8b1d8bb077cce632fceeb9707b1f32e679b703f5948d964"
+    },
+    {
+      "bytes": 12244,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/SOURCE_PIN_AND_TEXT_CHECK.json",
+      "sha256": "20ffe71f2aaeab18abfed71aed17eb0a8c4680323b2f1b04d4fe759e53b7b671"
+    },
+    {
+      "bytes": 3278,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualifier-independent-review-qmRAU0M6/FIXED_SOURCE_LITERAL_CHECK.json",
+      "sha256": "96a40b55ef05d18990af2e4e0fc1ef5e6510b75d125c366559e719b1f795af33"
+    }
+  ],
+  "immutable_after_handoff": true,
+  "physical_claim": false,
+  "programme_complete": false,
+  "qualification_claimed": false,
+  "repository_git_mutation": false,
+  "resource_feasibility_demonstrated": false,
+  "ret_paused": true,
+  "reviewed_handoff": {
+    "bytes": 4492,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/HANDOFF.json",
+    "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+  },
+  "reviewer_authored_separate_validator": true,
+  "reviewer_is_nonauthor_of_primary_and_qualifier": true,
+  "root_adjudication_required": true,
+  "runtime_or_active_cards_created": false,
+  "schema": "ri125-white-qualifier-independent-review-handoff-v1",
+  "self_review_or_acceptance_of_validator": false,
+  "status": "SEALED_BOUNDED_SOURCE_REVIEW_NO_CONCRETE_PRIMARY_QUALIFIER_BLOCKER",
+  "target_or_fixture_execution": false,
+  "validator_dependency_consistency_only": true
+}

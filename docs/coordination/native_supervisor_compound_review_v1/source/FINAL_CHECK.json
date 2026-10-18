@@ -1,0 +1,364 @@
+{
+  "schema": "ri176-final-identity-check-v1",
+  "passed": true,
+  "checked_references": 71,
+  "identities": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI176_REPAIR_ASSIGNMENT.json",
+      "bytes": 3533,
+      "sha256": "7e62d36bf245d92b2f30c30342d089d548fad5c44bee8915daa0ca76973b6c08"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI171_ROOT_ADJUDICATION.json",
+      "bytes": 4168,
+      "sha256": "8117dd0bd676348efeb48583a1382068d8ba6bcf63580b68d444ad295d67e7dc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/HANDOFF.json",
+      "bytes": 3595,
+      "sha256": "7691441c118298449b0fbfb8c9bd0123d481e642e2640398420561be7d239ee5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+      "bytes": 14569,
+      "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/INDEPENDENT_REVIEW.md",
+      "bytes": 18233,
+      "sha256": "fa9bf391530bc9c5a184517b55d21da9c7a192ebca27e09a20eb69ef44bf6af7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/ADMIN_TOOL_RECORDS.json",
+      "bytes": 3853,
+      "sha256": "416bdd203a2e73b0910abd8506f7dd570e04f94394ed9a43b7f9145de79d358a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHENTICATION.json",
+      "bytes": 6078,
+      "sha256": "c34453cbc1e0d87fbd83c7af1888be904513c625a53ff1c4ca392cc5c42424fd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_ADDITIONS.json",
+      "bytes": 1122,
+      "sha256": "b979caed402043cd26234477f0a93738afac90efe1babcf29df89c02edf9ef74"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.before-observer-oracle.json",
+      "bytes": 4331,
+      "sha256": "d86546980510ee354b8530deaac7aa5c6d1e9a6023e5deddfab764d691e02562"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_METADATA_CHECK.json",
+      "bytes": 4331,
+      "sha256": "013d0731a35785578208f7b4342722d58c3fa08f241e2d6cd4941f7019a11f47"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/AUTHOR_RECORD.md",
+      "bytes": 4688,
+      "sha256": "e4091819b4af811849b55647c5a07c8bce2e7cd5286c770069e0e788503b2124"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/CASE_MANIFEST.json",
+      "bytes": 65870,
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.before-observer-oracle.json",
+      "bytes": 5250,
+      "sha256": "02fda9ff32c5bc65b3ef3ee006b301690db8a61e8543d8b3bda1e5b5cb15f107"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/COVERAGE.json",
+      "bytes": 5250,
+      "sha256": "02fda9ff32c5bc65b3ef3ee006b301690db8a61e8543d8b3bda1e5b5cb15f107"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.before-observer-oracle.json",
+      "bytes": 8790,
+      "sha256": "a09add22045e723587cfa4b618d95c124f5fdd5f2ccd3164c4ea0e9dc6a86a4e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/DEPENDENCY_BINDINGS.json",
+      "bytes": 8790,
+      "sha256": "bb04047e0c30677da4d52668d507afee9bfbb8582996b4be28a7681ed6835409"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FAILED_ADMIN_TOOL.json",
+      "bytes": 1681,
+      "sha256": "bfdb0bc862331c6dbd085b9e459ec83b1e948b8b9bdb5b4b07b6799a1b6d374b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/FINAL_CHECK.json",
+      "bytes": 10086,
+      "sha256": "e49543f07517d389646019e69e8e1d9a7cd3c3b0ddec4e3ef2517de5b7398426"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/INVOCATION.md",
+      "bytes": 2997,
+      "sha256": "2526c0581456ed4ad16e7a736d57ef5d78632d71fd3dc0b8724b13477e1b74d2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PROTOCOL.md",
+      "bytes": 9725,
+      "sha256": "3d141f62052b254036cc405eafb38579c8e7f14414112146925938e9c6a97051"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/PUBLICATION_SUBSET.json",
+      "bytes": 1586,
+      "sha256": "96d63881b4fa0a8a864a1780d36a48a82ccfd162b7d1eb1317237a9d4d92f015"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SCHEMAS.md",
+      "bytes": 6781,
+      "sha256": "46c5e02a08a40bf64ddae3d41dd61532d83799d54f8b3c12ab6413d51634c6ae"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.before-observer-oracle.json",
+      "bytes": 1902,
+      "sha256": "86428ac1bdd6dbb6e9e6037fc41bcc5fe36ef0a7cd1e357ae1f9df8a887bf6a1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/SOURCE_PINS.json",
+      "bytes": 1902,
+      "sha256": "f3b330a285a9fbb60173bf670d656b0040ae9d7c14f62b9e50493fc85e260f0e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/case_worker.py",
+      "bytes": 25490,
+      "sha256": "493c453041aabd0f0c24fc609283b9b52f012e2837142cb98ebd0ed998797e3f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_metadata.mjs",
+      "bytes": 7674,
+      "sha256": "39ca78b2f4bac13e7d1a91d94698a1c3147362a7705c8937307a919ea2d9043b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.before-observer-oracle.py",
+      "bytes": 34569,
+      "sha256": "109d6c9195f8aec9522fd2ee228a3fad9fedac19765a142fe374067a619a0901"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.py",
+      "bytes": 35555,
+      "sha256": "6e9743a21a5c7ee23a11e0bd43b3de67d8b5c7aecf654248ed9e2260768a8ef0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/inert_payload.py",
+      "bytes": 5043,
+      "sha256": "d9698a0e46b8c1355bbc313f80e3d3f3ab28a0bb14486fc61e3e305fb35aa37e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.first.mjs",
+      "bytes": 6460,
+      "sha256": "845e094d5d5d3e6194781ca4c04ad03569e393dd7cf3baf2287fef9bc702c534"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs",
+      "bytes": 6471,
+      "sha256": "21522f56c7c22c0c28b6fdcfba5a4a93f2ad3cb7dcd0f7496a6195c8521f1d93"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/protocol.py",
+      "bytes": 7666,
+      "sha256": "802cafa8aa8c3d9050e16dc183ee737277d991e1da359cc9e1a62e72e3f81260"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/seal_metadata.mjs",
+      "bytes": 6686,
+      "sha256": "28693d28b8d642a48cbae6a1ab04ddc9915160973f70517356fadae1ad8595dd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/ADMIN_CHECK.json",
+      "bytes": 269609,
+      "sha256": "14ef68bdea792a4b5a17161c381d632d49cbbcf9d73e2807a03e887fa9281da5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/COMMAND_OUTCOMES.json",
+      "bytes": 5050,
+      "sha256": "48e65d1059f5955ef97f3347b3ede98af06a053ada2e80d7a6b571165a2cf4a0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/FINAL_IDENTITY_CHECK.json",
+      "bytes": 25599,
+      "sha256": "4522e8cd5e22a064674821d8094f284a282667bf42ba0121926f9e0882db6327"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/VERDICT.json",
+      "bytes": 3726,
+      "sha256": "1e7dd70e39b8a559624b599ba1831cc177a0c01c8d4a748614efb041ea10fd03"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/check_admin.py",
+      "bytes": 7548,
+      "sha256": "95ff2ccef7148a74a15be8e54a02b229907d49bb055053d1a58cf5ad7e4b15e2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/seal_review.py",
+      "bytes": 10488,
+      "sha256": "d6270034abb2abfc9f74b3d02a919a3a40030060da94e6ce7b30f92e5e6ff87b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI171_SUPERVISOR_QUALIFICATION_ASSIGNMENT.json",
+      "bytes": 2251,
+      "sha256": "022920bd238bf262570246467a738e2b52451b74686f011d659eb5512d692e7c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI169_ROOT_ADJUDICATION.json",
+      "bytes": 1087,
+      "sha256": "f5247462bb582f4fcc67461d5b4ec5d7c8379f271e1d89c20e8f98e1ffc1a87f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/HANDOFF.json",
+      "bytes": 8729,
+      "sha256": "68514ab733813e3de96ffcc0cfc536b7366530018dfea68af47e287630c6523e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/ADMIN_TOOL_RECORDS.json",
+      "bytes": 2293,
+      "sha256": "50b8fa4e343071359e56e4e3bf9c4a01e55cdad0b4e62c521c36e4303999904d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/ASSIGNMENT_AUTHENTICATION.json",
+      "bytes": 5855,
+      "sha256": "f873351adc507f1132681307034e6a5ad353875256710679266412ea775a39d9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/AUTHOR_RECORD.md",
+      "bytes": 2486,
+      "sha256": "f4e311b84cf668621609e8d8ee5abff4c82004043d86a3c478c8502eed1ff685"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/COMMAND_PROPOSAL.json",
+      "bytes": 5947,
+      "sha256": "8f7afa7067606b42e0374f089420937f4e4bb250857398ebf61d56c7c62d1236"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/DEPENDENCY_BINDINGS.json",
+      "bytes": 7553,
+      "sha256": "bca19f2b239c7da798ff7ee13ba77a6f2d60a59e564e3236fd8c3204ca5c5f6d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FAILED_ADMIN_TOOL.json",
+      "bytes": 1579,
+      "sha256": "4ccda83de63478d5f1e56ad22f4db60a3d9f96c0853b87243d0e23292dee469d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FINAL_CHECK.json",
+      "bytes": 5682,
+      "sha256": "f818a056a9b8c16f4bd091b564b4b1f019488e90294b4fa5f3c942b4156e4210"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/FOCUSED_VARIANTS.json",
+      "bytes": 17575,
+      "sha256": "d684c1b3ee8b9f586de3583557a65b3c924fe895214a16859644ba93b6317fc4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/METADATA_CHECK.json",
+      "bytes": 1001,
+      "sha256": "ad8f9948c87cc2d1d9a6059f06cf1b5bdb0dfee4316570ac52dce0f77b72a4cd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/PUBLICATION_SUBSET.json",
+      "bytes": 990,
+      "sha256": "4bad314b83b94a1bc30c4c8f90607bcde02c5a00536cdef3a6d0394818881ab2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/REPAIR_CONTRACT.md",
+      "bytes": 6165,
+      "sha256": "e761221c00ee74228922da2f3c1ddefd7ee1368f6b63cad27b4fa1bc763a8d47"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SOURCE_CORRESPONDENCE.json",
+      "bytes": 4372,
+      "sha256": "50942d2edae68198c291f1291599b403de6ef64a39e7903fde074ba1b28f9de7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SOURCE_DIFF.patch",
+      "bytes": 1384,
+      "sha256": "91570f5b35ccdeeda676aa608884fec07475a62e6083893a7c2038872f02af07"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/SUPERVISOR_CHECKS.md",
+      "bytes": 6745,
+      "sha256": "011169b3a50bb47903a8578fa692dd2d4204ff2b0cc71cda02f8c44c256a6f23"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/WRITE_READ_VARIANTS.json",
+      "bytes": 11669,
+      "sha256": "885ccd92a2db93baddf5ed8a5bea21c8582278fbf36879b70013e53d16af6bfa"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/author_repair.mjs",
+      "bytes": 11153,
+      "sha256": "6a9a1980aa4182a775d9c239a3c93fffbd865e97e70276a269d5d4355718fa0a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/finish_metadata.mjs",
+      "bytes": 3814,
+      "sha256": "63cf5247f28e49a3d9bd8897c4bc4430c826270700884781a9c09da58a57bada"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/seal_metadata.mjs",
+      "bytes": 6192,
+      "sha256": "208e9434ee89c93945fe8edff2cc524003ade0083063c2a283528d1e605ac8b1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI169_ROOT_SOURCE_REVIEW.md",
+      "bytes": 5371,
+      "sha256": "710cafb9d46102b4b74eb677baf5ee0e88f851bc0f97100721dc1ab74dac00d7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI169_INDEPENDENT_METADATA_CHECK.json",
+      "bytes": 26668,
+      "sha256": "9d28b58f1ab69bccd25e3c6da6dafde88da0609a575280a03f9249e729416557"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/protocol.py",
+      "bytes": 7666,
+      "sha256": "29b61f1f000f3b90fdc05516a1d8ea039c9ed8545315cd361f409d0b3303f00b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/qualify_supervisor.py",
+      "bytes": 6127,
+      "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/case_worker.py",
+      "bytes": 26370,
+      "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/inert_payload.py",
+      "bytes": 5168,
+      "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py",
+      "bytes": 69350,
+      "sha256": "aa434123dd342304ffb4447af8826d694da347404ca384ad0c97b67ffadc1f53"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_MANIFEST.json",
+      "bytes": 65870,
+      "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+      "bytes": 26321,
+      "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+    }
+  ],
+  "current_runtime_observed": false,
+  "subject_or_fixture_executed": false
+}

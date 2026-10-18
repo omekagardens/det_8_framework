@@ -1,0 +1,239 @@
+{
+  "schema": "qr05bt-protocol-v1",
+  "quota": 65536,
+  "grid_denominator": 256,
+  "alpha": [
+    1,
+    20
+  ],
+  "tail_allocations": [
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      80
+    ]
+  ],
+  "regions": {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "I1": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "I2": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "geometries": [
+    {
+      "id": "flat",
+      "eta": 0,
+      "scale": 1
+    },
+    {
+      "id": "conformal",
+      "eta": 1,
+      "scale": 1
+    },
+    {
+      "id": "flat_x4",
+      "eta": 0,
+      "scale": 4
+    },
+    {
+      "id": "conformal_x4",
+      "eta": 1,
+      "scale": 4
+    }
+  ],
+  "density_bounds": [
+    {
+      "id": "uniform",
+      "upper": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "half",
+      "upper": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "one",
+      "upper": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "two",
+      "upper": [
+        2,
+        1
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "flat_0",
+      "eta": 0,
+      "delta": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "flat_1",
+      "eta": 0,
+      "delta": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "flat_interior",
+      "eta": 0,
+      "delta": [
+        16,
+        11
+      ]
+    },
+    {
+      "id": "conformal_0",
+      "eta": 1,
+      "delta": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "conformal_1",
+      "eta": 1,
+      "delta": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "conformal_interior",
+      "eta": 1,
+      "delta": [
+        45,
+        158
+      ]
+    }
+  ],
+  "boxes": {
+    "fixtures": [
+      "flat_interior",
+      "conformal_interior"
+    ],
+    "bound": "two",
+    "kinds": [
+      "half_square",
+      "touch_square",
+      "contact_rectangle"
+    ]
+  },
+  "rational_control": {
+    "quota": 40,
+    "grid_denominator": 8,
+    "radius": [
+      1,
+      4
+    ],
+    "distance": [
+      3,
+      4
+    ]
+  },
+  "baseline": {
+    "schema": "qr05bt-br-baseline-v1",
+    "quota": 4,
+    "grid_denominator": 256,
+    "alpha": [
+      1,
+      20
+    ],
+    "sha256": "9bf4751ee7a044a7ec5a0d413d71bf0c83713f94cbcce07ef3503962dee24e6c"
+  },
+  "coverage": {
+    "geometries": 4,
+    "fixtures": 6,
+    "distances": 24,
+    "classes": 4,
+    "plans": 28,
+    "scale_pairs": 2,
+    "baseline_intervals": 5,
+    "baseline_comparisons": 28,
+    "boxes": 6,
+    "rational_controls": 1,
+    "obstructions": 1
+  },
+  "limits": {
+    "source_bytes": 262144,
+    "artifact_bytes": 16777216,
+    "analysis_seconds": 30,
+    "suite_seconds": 120,
+    "alternate_reference_runs": 1
+  }
+}

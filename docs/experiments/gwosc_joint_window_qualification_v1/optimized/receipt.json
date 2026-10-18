@@ -1,0 +1,2640 @@
+{
+  "acceptance_after": {
+    "boundary": "RI119 source and current caller/runtime acceptance; qualification must execute now.",
+    "evidence": {
+      "caller_source_acceptance": {
+        "bytes": 5892,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+        "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+      },
+      "runtime_acceptance": {
+        "bytes": 8067,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+        "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+      },
+      "scientific_source_acceptance": {
+        "bytes": 4979,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+        "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+      }
+    },
+    "history": [
+      {
+        "bytes": 3753,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+        "sha256": "57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64"
+      },
+      {
+        "bytes": 3683,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+        "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+      },
+      {
+        "bytes": 17291,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+        "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+      },
+      {
+        "bytes": 7499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+        "sha256": "76f5e84c4ab00aa7c31d9a822e45fdf505323ef80e6423fc718499abdd249ac3"
+      },
+      {
+        "bytes": 11143,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+        "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+      },
+      {
+        "bytes": 3135,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+        "sha256": "2106d0d180dd3c2372c7ce0b1d56c56c7ec009faec3e7b0ba8a83faf9d8cbc2c"
+      },
+      {
+        "bytes": 6697,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+        "sha256": "f147ae3b8633225bd1d8c06ca995439c538e6db2caf428843fe0abab6eccfc27"
+      },
+      {
+        "bytes": 2998,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+        "sha256": "efb1fb2e20b0793ef2111d6a0fc9df9fbf0f2eaebc9b78675064d13af3eb78b2"
+      },
+      {
+        "bytes": 4979,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+        "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+      },
+      {
+        "bytes": 1078,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/RI121_ASSIGNMENT.json",
+        "sha256": "7f23eca71b461b2fc33d34a5e14b4f48ebf3653e406f85794709226c2513bf99"
+      },
+      {
+        "bytes": 11887,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+        "sha256": "1876da28c636aba2a554deb69b48d566258577f65e3b40018f458de7c243c272"
+      },
+      {
+        "bytes": 23996,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+        "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054"
+      },
+      {
+        "bytes": 15602,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+        "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+      },
+      {
+        "bytes": 4320,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+        "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e"
+      },
+      {
+        "bytes": 14774,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+        "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+      },
+      {
+        "bytes": 5591,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+        "sha256": "ee2e450555a8be85e8a34c09b43540fc60fa52f4de03e983a59ea0f57efaf878"
+      },
+      {
+        "bytes": 81723,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/launch.py",
+        "sha256": "82cc4407417288f599ebbc8dc7da51c0f4d22af60a92a07701f0bbdee15ea29d"
+      },
+      {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      {
+        "bytes": 11243,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/worker.py",
+        "sha256": "32e4939430816a9d8fb6579451eb64d79d346afba39bd3e4d808f7238c9c2e29"
+      },
+      {
+        "bytes": 12456,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+        "sha256": "c8ca2150a9fc789c65375e1f857871eee30a016d6f0eca651999f790d5af1cf2"
+      },
+      {
+        "bytes": 7384,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/APPLICABILITY.source-only.md",
+        "sha256": "6b7f9f28393ddbadf40815d568c5dee370c4a22aa7123d4f8dfa7b7a1dc0a6a8"
+      },
+      {
+        "bytes": 7070,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+        "sha256": "caccbee7db26f04232c9654391f79df596b93d89a43df6f9c9f70ce77e51aea8"
+      },
+      {
+        "bytes": 52422,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/launch.py",
+        "sha256": "bdb1eaa09dae805cd5d9911060888354ee560f3ce1afe2402e2e2b54c356c4b0"
+      },
+      {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      {
+        "bytes": 8079,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/worker.py",
+        "sha256": "96c997cade528ca0f964cb17f71fbd0b742290dc7c1af2edac06b81695174816"
+      },
+      {
+        "bytes": 555,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_GENUINE_OUTER.json",
+        "sha256": "8180192923313efbbfa006a20773f96834e0e8899199cb755cec32957b845d17"
+      },
+      {
+        "bytes": 559,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/OPTIMIZED_GENUINE_OUTER.json",
+        "sha256": "f4cf847bca55e7e0ca05d5cbfa290b9e9e298846ba18a72ba4fc7d3b9ed61a0b"
+      },
+      {
+        "bytes": 586576,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/receipt.json",
+        "sha256": "978be07f347529797797dd29a0606b6e861d0167a7aab2521beb724ec04649c0"
+      },
+      {
+        "bytes": 587810,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/receipt.json",
+        "sha256": "86fc5dd3c92e58d72257f913954c25a231284d09bd7caa28d63014b33023ccfc"
+      },
+      {
+        "bytes": 566161,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/runtime.json",
+        "sha256": "c6bed9cf5ed1029d8c7f4f829ad8dd5afea8fb8930489a3d70b9a1c729080378"
+      },
+      {
+        "bytes": 566644,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/runtime.json",
+        "sha256": "c72025cb05e82ea8b3ac6f68bcaa23f25e5dffea11f2500d86bdfd2a6c1ddae5"
+      },
+      {
+        "bytes": 4561,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/CUSTODY.json",
+        "sha256": "f51661abd4573d8434301fbd50cd62f8f2c7eb340e06b5bbba23ba1f5f2195f5"
+      },
+      {
+        "bytes": 4567,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/CUSTODY.json",
+        "sha256": "66295d0455df931f451eef3b2365e862fa09b1cab9f4ac0a759a417c6d6cffbe"
+      },
+      {
+        "bytes": 1410,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_NORMAL.json",
+        "sha256": "3a50552b9ee28a52146ded2f11e507f35b2da57750dff89cec4877ee0d850345"
+      },
+      {
+        "bytes": 1665,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_OPTIMIZED.json",
+        "sha256": "926adf8561e3b0ceb00e84b1a7ac6800ea72cc69b1aa8b5a22dece5bbc096895"
+      },
+      {
+        "bytes": 171603,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/AUTHORIZED_FREEZE.json",
+        "sha256": "bcec40caf6a75f8211cad9bb3e956f46adff95e47899bdaef9e7b0d6f2456956"
+      },
+      {
+        "bytes": 5543,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_CALLER_SOURCE_ADJUDICATION.json",
+        "sha256": "528ae29e3ad0323bc7bd935fb27b63223ef29b6960cd707b21752e4194f18a8b"
+      },
+      {
+        "bytes": 3114,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_ROOT_REVIEW.json",
+        "sha256": "af626d5cfd7bd7bd416ad5d679fd99f85d8e4db5691bf3f957729bd8fc0064bc"
+      },
+      {
+        "bytes": 12496,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-independent-two-mode-rego4cfj/INDEPENDENT_FINAL_TWO_MODE_QUALIFICATION_REVIEW.json",
+        "sha256": "d111d1b49314b24f4af559c2c8116e25d864142ea058af5c4e5b7f6fd808698c"
+      },
+      {
+        "bytes": 5090,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SUPERVISION_PROVENANCE.source-only.json",
+        "sha256": "ead8759a62a71502d614d201393ee4af01a0374a5ecb4a1fb1618c6359ac394d"
+      },
+      {
+        "bytes": 5303,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+        "sha256": "f226f4def9bc6ac617a7d1f3193198d68b3238cf4330d5789036023353f4ab81"
+      },
+      {
+        "bytes": 8146,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+        "sha256": "d22601fcfba8f433ae199e5d994ec254b55f6603af564ce9204de01a2a5299b6"
+      },
+      {
+        "bytes": 12744,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+        "sha256": "0cdf31bdcc1ac21d7d590d3748824cc3445f22fcfab5f892b53e3895fa86c6e0"
+      },
+      {
+        "bytes": 25136,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+        "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+      },
+      {
+        "bytes": 5028,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+        "sha256": "63a54d518e8a5c370cb70a92e96768eee548e530157c8110f5fd5534bbb61186"
+      },
+      {
+        "bytes": 4478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+        "sha256": "55e0172aee8588bf927f7d1ca295526a15c781fdc01507dbf8179664ba3990fb"
+      },
+      {
+        "bytes": 3923,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+        "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+      },
+      {
+        "bytes": 2603,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+        "sha256": "d575e6643e1cb44940218480be40d77e48a0b1ec4206e6af120365206270226b"
+      }
+    ],
+    "history_closure": {
+      "bytes": 11357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+      "sha256": "4bda0fd8246a4ea0315d65402f7976f5bbf74f2b35847edf6e94a629ec5d84b7"
+    },
+    "inputs": [],
+    "source_count": 3
+  },
+  "acceptance_before": {
+    "boundary": "RI119 source and current caller/runtime acceptance; qualification must execute now.",
+    "evidence": {
+      "caller_source_acceptance": {
+        "bytes": 5892,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+        "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+      },
+      "runtime_acceptance": {
+        "bytes": 8067,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+        "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+      },
+      "scientific_source_acceptance": {
+        "bytes": 4979,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+        "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+      }
+    },
+    "history": [
+      {
+        "bytes": 3753,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/HANDOFF.json",
+        "sha256": "57abc3e84de290214d7e9b6b761ecad8694bf8041a8c2f8b3d77878106ed6a64"
+      },
+      {
+        "bytes": 3683,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+        "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+      },
+      {
+        "bytes": 17291,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/CONTRACT.md",
+        "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+      },
+      {
+        "bytes": 7499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/IMPLEMENTATION.md",
+        "sha256": "76f5e84c4ab00aa7c31d9a822e45fdf505323ef80e6423fc718499abdd249ac3"
+      },
+      {
+        "bytes": 11143,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+        "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+      },
+      {
+        "bytes": 3135,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREPARATION_RECORD.md",
+        "sha256": "2106d0d180dd3c2372c7ce0b1d56c56c7ec009faec3e7b0ba8a83faf9d8cbc2c"
+      },
+      {
+        "bytes": 6697,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/VALIDATOR_NOTES.md",
+        "sha256": "f147ae3b8633225bd1d8c06ca995439c538e6db2caf428843fe0abab6eccfc27"
+      },
+      {
+        "bytes": 2998,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/PREDECESSOR_PINS.json",
+        "sha256": "efb1fb2e20b0793ef2111d6a0fc9df9fbf0f2eaebc9b78675064d13af3eb78b2"
+      },
+      {
+        "bytes": 4979,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+        "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+      },
+      {
+        "bytes": 1078,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/RI121_ASSIGNMENT.json",
+        "sha256": "7f23eca71b461b2fc33d34a5e14b4f48ebf3653e406f85794709226c2513bf99"
+      },
+      {
+        "bytes": 11887,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/SOURCE_AND_SCIENTIFIC_DEPENDENCY_CHECK.json",
+        "sha256": "1876da28c636aba2a554deb69b48d566258577f65e3b40018f458de7c243c272"
+      },
+      {
+        "bytes": 23996,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-independent-complete-source-IpsOUShQ/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+        "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054"
+      },
+      {
+        "bytes": 15602,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+        "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4"
+      },
+      {
+        "bytes": 4320,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+        "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e"
+      },
+      {
+        "bytes": 14774,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+        "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f"
+      },
+      {
+        "bytes": 5591,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/REVIEW.md",
+        "sha256": "ee2e450555a8be85e8a34c09b43540fc60fa52f4de03e983a59ea0f57efaf878"
+      },
+      {
+        "bytes": 81723,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/launch.py",
+        "sha256": "82cc4407417288f599ebbc8dc7da51c0f4d22af60a92a07701f0bbdee15ea29d"
+      },
+      {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      {
+        "bytes": 11243,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/worker.py",
+        "sha256": "32e4939430816a9d8fb6579451eb64d79d346afba39bd3e4d808f7238c9c2e29"
+      },
+      {
+        "bytes": 12456,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/EXECUTION_CONTRACT.source-only.md",
+        "sha256": "c8ca2150a9fc789c65375e1f857871eee30a016d6f0eca651999f790d5af1cf2"
+      },
+      {
+        "bytes": 7384,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/APPLICABILITY.source-only.md",
+        "sha256": "6b7f9f28393ddbadf40815d568c5dee370c4a22aa7123d4f8dfa7b7a1dc0a6a8"
+      },
+      {
+        "bytes": 7070,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+        "sha256": "caccbee7db26f04232c9654391f79df596b93d89a43df6f9c9f70ce77e51aea8"
+      },
+      {
+        "bytes": 52422,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/launch.py",
+        "sha256": "bdb1eaa09dae805cd5d9911060888354ee560f3ce1afe2402e2e2b54c356c4b0"
+      },
+      {
+        "bytes": 5171,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/control.py",
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      },
+      {
+        "bytes": 8079,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/worker.py",
+        "sha256": "96c997cade528ca0f964cb17f71fbd0b742290dc7c1af2edac06b81695174816"
+      },
+      {
+        "bytes": 555,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_GENUINE_OUTER.json",
+        "sha256": "8180192923313efbbfa006a20773f96834e0e8899199cb755cec32957b845d17"
+      },
+      {
+        "bytes": 559,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/OPTIMIZED_GENUINE_OUTER.json",
+        "sha256": "f4cf847bca55e7e0ca05d5cbfa290b9e9e298846ba18a72ba4fc7d3b9ed61a0b"
+      },
+      {
+        "bytes": 586576,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/receipt.json",
+        "sha256": "978be07f347529797797dd29a0606b6e861d0167a7aab2521beb724ec04649c0"
+      },
+      {
+        "bytes": 587810,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/receipt.json",
+        "sha256": "86fc5dd3c92e58d72257f913954c25a231284d09bd7caa28d63014b33023ccfc"
+      },
+      {
+        "bytes": 566161,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/runtime.json",
+        "sha256": "c6bed9cf5ed1029d8c7f4f829ad8dd5afea8fb8930489a3d70b9a1c729080378"
+      },
+      {
+        "bytes": 566644,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/runtime.json",
+        "sha256": "c72025cb05e82ea8b3ac6f68bcaa23f25e5dffea11f2500d86bdfd2a6c1ddae5"
+      },
+      {
+        "bytes": 4561,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/CUSTODY.json",
+        "sha256": "f51661abd4573d8434301fbd50cd62f8f2c7eb340e06b5bbba23ba1f5f2195f5"
+      },
+      {
+        "bytes": 4567,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/CUSTODY.json",
+        "sha256": "66295d0455df931f451eef3b2365e862fa09b1cab9f4ac0a759a417c6d6cffbe"
+      },
+      {
+        "bytes": 1410,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_NORMAL.json",
+        "sha256": "3a50552b9ee28a52146ded2f11e507f35b2da57750dff89cec4877ee0d850345"
+      },
+      {
+        "bytes": 1665,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_OPTIMIZED.json",
+        "sha256": "926adf8561e3b0ceb00e84b1a7ac6800ea72cc69b1aa8b5a22dece5bbc096895"
+      },
+      {
+        "bytes": 171603,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/AUTHORIZED_FREEZE.json",
+        "sha256": "bcec40caf6a75f8211cad9bb3e956f46adff95e47899bdaef9e7b0d6f2456956"
+      },
+      {
+        "bytes": 5543,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_CALLER_SOURCE_ADJUDICATION.json",
+        "sha256": "528ae29e3ad0323bc7bd935fb27b63223ef29b6960cd707b21752e4194f18a8b"
+      },
+      {
+        "bytes": 3114,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_ROOT_REVIEW.json",
+        "sha256": "af626d5cfd7bd7bd416ad5d679fd99f85d8e4db5691bf3f957729bd8fc0064bc"
+      },
+      {
+        "bytes": 12496,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-independent-two-mode-rego4cfj/INDEPENDENT_FINAL_TWO_MODE_QUALIFICATION_REVIEW.json",
+        "sha256": "d111d1b49314b24f4af559c2c8116e25d864142ea058af5c4e5b7f6fd808698c"
+      },
+      {
+        "bytes": 5090,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SUPERVISION_PROVENANCE.source-only.json",
+        "sha256": "ead8759a62a71502d614d201393ee4af01a0374a5ecb4a1fb1618c6359ac394d"
+      },
+      {
+        "bytes": 5303,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+        "sha256": "f226f4def9bc6ac617a7d1f3193198d68b3238cf4330d5789036023353f4ab81"
+      },
+      {
+        "bytes": 8146,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+        "sha256": "d22601fcfba8f433ae199e5d994ec254b55f6603af564ce9204de01a2a5299b6"
+      },
+      {
+        "bytes": 12744,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+        "sha256": "0cdf31bdcc1ac21d7d590d3748824cc3445f22fcfab5f892b53e3895fa86c6e0"
+      },
+      {
+        "bytes": 25136,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+        "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+      },
+      {
+        "bytes": 5028,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+        "sha256": "63a54d518e8a5c370cb70a92e96768eee548e530157c8110f5fd5534bbb61186"
+      },
+      {
+        "bytes": 4478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+        "sha256": "55e0172aee8588bf927f7d1ca295526a15c781fdc01507dbf8179664ba3990fb"
+      },
+      {
+        "bytes": 3923,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+        "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+      },
+      {
+        "bytes": 2603,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+        "sha256": "d575e6643e1cb44940218480be40d77e48a0b1ec4206e6af120365206270226b"
+      }
+    ],
+    "history_closure": {
+      "bytes": 11357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+      "sha256": "4bda0fd8246a4ea0315d65402f7976f5bbf74f2b35847edf6e94a629ec5d84b7"
+    },
+    "inputs": [],
+    "source_count": 3
+  },
+  "child_elapsed_seconds": 3.127368416000536,
+  "child_exit_code": 0,
+  "command": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "-I",
+    "-B",
+    "-O",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/AUTHORIZED_FREEZE.json",
+    "optimized"
+  ],
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 2.50409975706134e-05,
+  "freeze": {
+    "bytes": 11310,
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "limits": {
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "loaded_modules_after": {
+    "__main__": {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    "_blake2": {
+      "bytes": 71658,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+      "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+    },
+    "_collections_abc": {
+      "bytes": 30193,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+      "sha256": "ec646ef7e27aae261adef3c57b9d18822c6526b3e9562dabb9f3cb4e6803066c"
+    },
+    "_distutils_hack": {
+      "bytes": 6299,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+      "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+    },
+    "_frozen_importlib": {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    "_frozen_importlib_external": {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    "_hashlib": {
+      "bytes": 98432,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+      "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+    },
+    "_json": {
+      "bytes": 73384,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+      "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+    },
+    "_posixsubprocess": {
+      "bytes": 54307,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so",
+      "sha256": "7235f558ad9020206ccf1bf4298493a9f5801ba6b4c866f074facc1227721733"
+    },
+    "_sitebuiltins": {
+      "bytes": 3128,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+      "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+    },
+    "_weakrefset": {
+      "bytes": 5893,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+      "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+    },
+    "abc": {
+      "bytes": 6538,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+      "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+    },
+    "codecs": {
+      "bytes": 37150,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+      "sha256": "f16a81d14e7f73931ecf9f9f2e17c10bc0ca29bbe38b0243f6919b70882fcfea"
+    },
+    "collections": {
+      "bytes": 52018,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+      "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+    },
+    "collections.abc": {
+      "bytes": 119,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+      "sha256": "9cb4208f99128a0489b6c8e6c61637617dd7d4250c59e065491957eda084dd10"
+    },
+    "contextlib": {
+      "bytes": 27076,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+      "sha256": "a907c5d2151782ac1253dc9eade52fd834a1db43f52cc2b5094dcc4b359de18e"
+    },
+    "copyreg": {
+      "bytes": 7677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+      "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+    },
+    "encodings": {
+      "bytes": 5884,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+      "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+    },
+    "encodings.aliases": {
+      "bytes": 15677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+      "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+    },
+    "encodings.ascii": {
+      "bytes": 1248,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+      "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+    },
+    "encodings.utf_8": {
+      "bytes": 1005,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+      "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+    },
+    "enum": {
+      "bytes": 78979,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+      "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+    },
+    "fcntl": {
+      "bytes": 52456,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so",
+      "sha256": "ddae443efc04a1cdb034f35d6c94945f98a4dec5cfd3bf8825f3175c03fcd8f6"
+    },
+    "fnmatch": {
+      "bytes": 5999,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+      "sha256": "6683da36e47af523f3f41e18ad244d837783e19e98911cc0b7415dea81494ebc"
+    },
+    "functools": {
+      "bytes": 38413,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+      "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+    },
+    "genericpath": {
+      "bytes": 4975,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+      "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+    },
+    "hashlib": {
+      "bytes": 11765,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+      "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+    },
+    "importlib": {
+      "bytes": 6089,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+      "sha256": "49ad4fdc8139026f7f3773e3f50f09207ff6bd8e92a2c382545525235448e525"
+    },
+    "importlib._abc": {
+      "bytes": 1852,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+      "sha256": "e24fa90513d1fd6e10df30dc28044dfcad857b88161c79de10f7109c18227e8d"
+    },
+    "importlib._bootstrap": {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    "importlib._bootstrap_external": {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    "importlib.util": {
+      "bytes": 11487,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+      "sha256": "de645b9f6d595f5e415d117f4d04ce77f144ce5ad2a6477659a9b5547d54b9dd"
+    },
+    "io": {
+      "bytes": 4240,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+      "sha256": "0bb3f9ba75c78b4ad69dedcfb0b360b4503188cf17a632579a70d398bd9ca0e4"
+    },
+    "ipaddress": {
+      "bytes": 75002,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+      "sha256": "c4a22d96741ef70d49120cd31f942a35094e666021af9b663446bd68dacdb9bd"
+    },
+    "json": {
+      "bytes": 14020,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+      "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+    },
+    "json.decoder": {
+      "bytes": 12473,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+      "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+    },
+    "json.encoder": {
+      "bytes": 16080,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+      "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+    },
+    "json.scanner": {
+      "bytes": 2425,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+      "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+    },
+    "keyword": {
+      "bytes": 1061,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+      "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+    },
+    "locale": {
+      "bytes": 78998,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+      "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+    },
+    "math": {
+      "bytes": 93719,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+      "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+    },
+    "ntpath": {
+      "bytes": 30222,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+      "sha256": "030fdd768135c4de3b4c56ca0f13d2f4801ccbcde4144382334cf75a477dd0de"
+    },
+    "operator": {
+      "bytes": 10965,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+      "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+    },
+    "os": {
+      "bytes": 39504,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+      "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+    },
+    "os.path": {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    "pathlib": {
+      "bytes": 48566,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+      "sha256": "3b21ac188fd9ac20bacc8ccd976fabd5d8ccf5000f8e157d3dfff005b228fb3d"
+    },
+    "posixpath": {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    "re": {
+      "bytes": 15889,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+      "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+    },
+    "re._casefix": {
+      "bytes": 5446,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+      "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+    },
+    "re._compiler": {
+      "bytes": 26013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+      "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+    },
+    "re._constants": {
+      "bytes": 5930,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+      "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+    },
+    "re._parser": {
+      "bytes": 42197,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+      "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+    },
+    "reprlib": {
+      "bytes": 5437,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+      "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+    },
+    "ri121_runtime_support": {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    "select": {
+      "bytes": 74121,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/select.cpython-311-darwin.so",
+      "sha256": "8b658757c7432149746062e96a3324e3f5bd99e8489b06b75e4af119c3d26b2c"
+    },
+    "selectors": {
+      "bytes": 19671,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+      "sha256": "1eeb102373e18c96311203f30c516e785bd8642275aa0bd66e43a284c9692385"
+    },
+    "signal": {
+      "bytes": 2438,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+      "sha256": "6ae9e49fe09b607bc161fc80067de9763aa48f523567a34992f00be06057f00a"
+    },
+    "site": {
+      "bytes": 22648,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+      "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+    },
+    "sitecustomize": {
+      "bytes": 3426,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+      "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+    },
+    "stat": {
+      "bytes": 5485,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+      "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+    },
+    "subprocess": {
+      "bytes": 88448,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+      "sha256": "2ff641d58f8696496e8718538cd96cd7afcd503ae271fb23da22422b3aee9fc7"
+    },
+    "threading": {
+      "bytes": 57988,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+      "sha256": "2c4c1db159e1178896eca324082ae98d627c8d7017d0c7135b832f4fb3117210"
+    },
+    "types": {
+      "bytes": 10067,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+      "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+    },
+    "urllib": {
+      "bytes": 0,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "urllib.parse": {
+      "bytes": 44075,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+      "sha256": "0e67e2f5a301d0b573698e75a4e2d37c843b48cfe0e29fef894eda90d2189c27"
+    },
+    "warnings": {
+      "bytes": 21025,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+      "sha256": "3c36ff80a66718e3fc8449f06730e9d7bcef87d1e7f91b626b42ca4d1f30eab0"
+    },
+    "zipimport": {
+      "bytes": 30897,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+      "sha256": "e84b98dd13d3a8ae3ff2094ef2889dcead41d754f0531686f0b70b8d225676cc"
+    }
+  },
+  "loaded_modules_before": {
+    "__main__": {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    "_blake2": {
+      "bytes": 71658,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_blake2.cpython-311-darwin.so",
+      "sha256": "82ef0ba9e7dc409483696efbca376d333ab486f9d8551055db94216a0978d811"
+    },
+    "_collections_abc": {
+      "bytes": 30193,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_collections_abc.py",
+      "sha256": "ec646ef7e27aae261adef3c57b9d18822c6526b3e9562dabb9f3cb4e6803066c"
+    },
+    "_distutils_hack": {
+      "bytes": 6299,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+      "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+    },
+    "_frozen_importlib": {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    "_frozen_importlib_external": {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    "_hashlib": {
+      "bytes": 98432,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_hashlib.cpython-311-darwin.so",
+      "sha256": "751646919aab440190d8e49d0e36a9b92f856a8d44b4e761f617dabaad1488ea"
+    },
+    "_json": {
+      "bytes": 73384,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_json.cpython-311-darwin.so",
+      "sha256": "f24a3dee312dd3b0f50e568c2c95a578b742bde3611eccacc1b6214d9ae94db1"
+    },
+    "_posixsubprocess": {
+      "bytes": 54307,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/_posixsubprocess.cpython-311-darwin.so",
+      "sha256": "7235f558ad9020206ccf1bf4298493a9f5801ba6b4c866f074facc1227721733"
+    },
+    "_sitebuiltins": {
+      "bytes": 3128,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_sitebuiltins.py",
+      "sha256": "b9388bc1d6d12ed6be12da420ab1feca40f99c0e33ec315d92b1e01cb69b25bc"
+    },
+    "_weakrefset": {
+      "bytes": 5893,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+      "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+    },
+    "abc": {
+      "bytes": 6538,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/abc.py",
+      "sha256": "e558702a95cdce3febd289da021715d2b92bc43995b8a1bc58dfa1c3d8010287"
+    },
+    "codecs": {
+      "bytes": 37150,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/codecs.py",
+      "sha256": "f16a81d14e7f73931ecf9f9f2e17c10bc0ca29bbe38b0243f6919b70882fcfea"
+    },
+    "collections": {
+      "bytes": 52018,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+      "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+    },
+    "collections.abc": {
+      "bytes": 119,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+      "sha256": "9cb4208f99128a0489b6c8e6c61637617dd7d4250c59e065491957eda084dd10"
+    },
+    "contextlib": {
+      "bytes": 27076,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+      "sha256": "a907c5d2151782ac1253dc9eade52fd834a1db43f52cc2b5094dcc4b359de18e"
+    },
+    "copyreg": {
+      "bytes": 7677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+      "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+    },
+    "encodings": {
+      "bytes": 5884,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+      "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+    },
+    "encodings.aliases": {
+      "bytes": 15677,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+      "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+    },
+    "encodings.ascii": {
+      "bytes": 1248,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+      "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+    },
+    "encodings.utf_8": {
+      "bytes": 1005,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+      "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+    },
+    "enum": {
+      "bytes": 78979,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+      "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+    },
+    "fcntl": {
+      "bytes": 52456,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/fcntl.cpython-311-darwin.so",
+      "sha256": "ddae443efc04a1cdb034f35d6c94945f98a4dec5cfd3bf8825f3175c03fcd8f6"
+    },
+    "fnmatch": {
+      "bytes": 5999,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+      "sha256": "6683da36e47af523f3f41e18ad244d837783e19e98911cc0b7415dea81494ebc"
+    },
+    "functools": {
+      "bytes": 38413,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+      "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+    },
+    "genericpath": {
+      "bytes": 4975,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+      "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+    },
+    "hashlib": {
+      "bytes": 11765,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+      "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+    },
+    "importlib": {
+      "bytes": 6089,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+      "sha256": "49ad4fdc8139026f7f3773e3f50f09207ff6bd8e92a2c382545525235448e525"
+    },
+    "importlib._abc": {
+      "bytes": 1852,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+      "sha256": "e24fa90513d1fd6e10df30dc28044dfcad857b88161c79de10f7109c18227e8d"
+    },
+    "importlib._bootstrap": {
+      "bytes": 48223,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+      "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+    },
+    "importlib._bootstrap_external": {
+      "bytes": 68856,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+      "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+    },
+    "importlib.util": {
+      "bytes": 11487,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+      "sha256": "de645b9f6d595f5e415d117f4d04ce77f144ce5ad2a6477659a9b5547d54b9dd"
+    },
+    "io": {
+      "bytes": 4240,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/io.py",
+      "sha256": "0bb3f9ba75c78b4ad69dedcfb0b360b4503188cf17a632579a70d398bd9ca0e4"
+    },
+    "ipaddress": {
+      "bytes": 75002,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+      "sha256": "c4a22d96741ef70d49120cd31f942a35094e666021af9b663446bd68dacdb9bd"
+    },
+    "json": {
+      "bytes": 14020,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+      "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+    },
+    "json.decoder": {
+      "bytes": 12473,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+      "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+    },
+    "json.encoder": {
+      "bytes": 16080,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+      "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+    },
+    "json.scanner": {
+      "bytes": 2425,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+      "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+    },
+    "keyword": {
+      "bytes": 1061,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/keyword.py",
+      "sha256": "afbe73afb68d32fa998e5ff3d081090deec457152470f5331cc2bd430a0e9d2a"
+    },
+    "locale": {
+      "bytes": 78998,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+      "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+    },
+    "math": {
+      "bytes": 93719,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/math.cpython-311-darwin.so",
+      "sha256": "5dbbb0dd5e6e82508ea57b2d790928a63aea41b31b447404fe480af5d5c2fbe2"
+    },
+    "ntpath": {
+      "bytes": 30222,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+      "sha256": "030fdd768135c4de3b4c56ca0f13d2f4801ccbcde4144382334cf75a477dd0de"
+    },
+    "operator": {
+      "bytes": 10965,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+      "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+    },
+    "os": {
+      "bytes": 39504,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+      "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+    },
+    "os.path": {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    "pathlib": {
+      "bytes": 48566,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+      "sha256": "3b21ac188fd9ac20bacc8ccd976fabd5d8ccf5000f8e157d3dfff005b228fb3d"
+    },
+    "posixpath": {
+      "bytes": 17013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+      "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+    },
+    "re": {
+      "bytes": 15889,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+      "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+    },
+    "re._casefix": {
+      "bytes": 5446,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_casefix.py",
+      "sha256": "41572ac50cf96b04496e676d8a6708898bb8e752e06dad34ed4c50c5d8f1fe40"
+    },
+    "re._compiler": {
+      "bytes": 26013,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+      "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+    },
+    "re._constants": {
+      "bytes": 5930,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+      "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+    },
+    "re._parser": {
+      "bytes": 42197,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+      "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+    },
+    "reprlib": {
+      "bytes": 5437,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/reprlib.py",
+      "sha256": "264433cc232332db871666b3bb6e4c2cb97b092cb8d5056a45ec2e53daea2b1c"
+    },
+    "ri121_runtime_support": {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    "select": {
+      "bytes": 74121,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload/select.cpython-311-darwin.so",
+      "sha256": "8b658757c7432149746062e96a3324e3f5bd99e8489b06b75e4af119c3d26b2c"
+    },
+    "selectors": {
+      "bytes": 19671,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+      "sha256": "1eeb102373e18c96311203f30c516e785bd8642275aa0bd66e43a284c9692385"
+    },
+    "signal": {
+      "bytes": 2438,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+      "sha256": "6ae9e49fe09b607bc161fc80067de9763aa48f523567a34992f00be06057f00a"
+    },
+    "site": {
+      "bytes": 22648,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+      "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+    },
+    "sitecustomize": {
+      "bytes": 3426,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+      "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+    },
+    "stat": {
+      "bytes": 5485,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+      "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+    },
+    "subprocess": {
+      "bytes": 88448,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+      "sha256": "2ff641d58f8696496e8718538cd96cd7afcd503ae271fb23da22422b3aee9fc7"
+    },
+    "threading": {
+      "bytes": 57988,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+      "sha256": "2c4c1db159e1178896eca324082ae98d627c8d7017d0c7135b832f4fb3117210"
+    },
+    "types": {
+      "bytes": 10067,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+      "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+    },
+    "urllib": {
+      "bytes": 0,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "urllib.parse": {
+      "bytes": 44075,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+      "sha256": "0e67e2f5a301d0b573698e75a4e2d37c843b48cfe0e29fef894eda90d2189c27"
+    },
+    "warnings": {
+      "bytes": 21025,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+      "sha256": "3c36ff80a66718e3fc8449f06730e9d7bcef87d1e7f91b626b42ca4d1f30eab0"
+    },
+    "zipimport": {
+      "bytes": 30897,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipimport.py",
+      "sha256": "e84b98dd13d3a8ae3ff2094ef2889dcead41d754f0531686f0b70b8d225676cc"
+    }
+  },
+  "mode": "optimized",
+  "mode_admission_after": {
+    "normal_acceptance": {
+      "bytes": 2886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+      "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+    },
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_OPTIMIZED.json",
+    "pin": {
+      "bytes": 1655,
+      "sha256": "ddbad863d5f5d43a90b18f0aa88b9a84f6ae8c17728bd2d38ae91d16bc78524a"
+    }
+  },
+  "mode_admission_before": {
+    "normal_acceptance": {
+      "bytes": 2886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+      "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+    },
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_OPTIMIZED.json",
+    "pin": {
+      "bytes": 1655,
+      "sha256": "ddbad863d5f5d43a90b18f0aa88b9a84f6ae8c17728bd2d38ae91d16bc78524a"
+    }
+  },
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.004735958002129337,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "  1344\n"
+    },
+    {
+      "elapsed_seconds": 0.03778454100029194,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 22160\n"
+    },
+    {
+      "elapsed_seconds": 0.0707488750012999,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 39776\n"
+    },
+    {
+      "elapsed_seconds": 0.1010059159998491,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 40912\n"
+    },
+    {
+      "elapsed_seconds": 0.13400241600174922,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 40912\n"
+    },
+    {
+      "elapsed_seconds": 0.1652803329998278,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 40912\n"
+    },
+    {
+      "elapsed_seconds": 0.1939303330000257,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 41280\n"
+    },
+    {
+      "elapsed_seconds": 0.22703866600204492,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 43488\n"
+    },
+    {
+      "elapsed_seconds": 0.2601864160023979,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 43840\n"
+    },
+    {
+      "elapsed_seconds": 0.29323591600041254,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44144\n"
+    },
+    {
+      "elapsed_seconds": 0.3264467080007307,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44432\n"
+    },
+    {
+      "elapsed_seconds": 0.35952666600132943,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 45744\n"
+    },
+    {
+      "elapsed_seconds": 0.3928563750014291,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46016\n"
+    },
+    {
+      "elapsed_seconds": 0.42598029100190615,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46272\n"
+    },
+    {
+      "elapsed_seconds": 0.4584000409995497,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46432\n"
+    },
+    {
+      "elapsed_seconds": 0.49146045800080174,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46640\n"
+    },
+    {
+      "elapsed_seconds": 0.5247117500002787,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46912\n"
+    },
+    {
+      "elapsed_seconds": 0.5545677080008318,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47152\n"
+    },
+    {
+      "elapsed_seconds": 0.5876827909996791,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47424\n"
+    },
+    {
+      "elapsed_seconds": 0.6207879579997098,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47744\n"
+    },
+    {
+      "elapsed_seconds": 0.6512968330025615,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 48016\n"
+    },
+    {
+      "elapsed_seconds": 0.6846435410006961,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 52864\n"
+    },
+    {
+      "elapsed_seconds": 0.7160026250021474,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44704\n"
+    },
+    {
+      "elapsed_seconds": 0.7473800830011896,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.7804435830003058,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.8135909580014413,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.8470468330015137,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.8801331659997231,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.9182332500022312,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.9509893750000629,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 0.9844152500008931,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.0172571660004905,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.050533166002424,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.0835215000006428,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.1148263750001206,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.1481200410016754,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.1817239580013847,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.2112584580027033,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.2442052080004942,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44224\n"
+    },
+    {
+      "elapsed_seconds": 1.2769807500008028,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.310128541001177,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.343243875002372,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.3761711660008586,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.4090651660008007,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.4424571660019865,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.4753062910021981,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.5082450410009187,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.541189083000063,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.5741539580012613,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.6072615410012077,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.639287541001977,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.6690374999998312,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.7018559999996796,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.7316715830020257,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.76427591600077,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.7973903750025784,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.8302328749996377,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.8603903750008612,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.893283290999534,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.9262939159998496,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.9576630000010482,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 1.9905823330009298,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 2.0233331250019546,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44240\n"
+    },
+    {
+      "elapsed_seconds": 2.0562451250007143,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.088995875001274,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.1219621660020493,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.1550289160004468,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.188187583000399,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.220857958000124,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.253610750001826,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.2865120410024247,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.3195424160003313,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.3519875410020177,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.3809500000024855,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.4089929159999883,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.4422416660017916,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 44256\n"
+    },
+    {
+      "elapsed_seconds": 2.4755760000007285,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 45072\n"
+    },
+    {
+      "elapsed_seconds": 2.508698749999894,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 45168\n"
+    },
+    {
+      "elapsed_seconds": 2.539215625001816,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 45744\n"
+    },
+    {
+      "elapsed_seconds": 2.5720989580004243,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46352\n"
+    },
+    {
+      "elapsed_seconds": 2.605277124999702,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46656\n"
+    },
+    {
+      "elapsed_seconds": 2.6385542080024607,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46976\n"
+    },
+    {
+      "elapsed_seconds": 2.6718277910003962,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47248\n"
+    },
+    {
+      "elapsed_seconds": 2.705198499999824,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47504\n"
+    },
+    {
+      "elapsed_seconds": 2.734748082999431,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47744\n"
+    },
+    {
+      "elapsed_seconds": 2.767898291000165,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 47952\n"
+    },
+    {
+      "elapsed_seconds": 2.8011390829997254,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 48176\n"
+    },
+    {
+      "elapsed_seconds": 2.834432416002528,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 48368\n"
+    },
+    {
+      "elapsed_seconds": 2.8675265000019863,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 48544\n"
+    },
+    {
+      "elapsed_seconds": 2.9005741250002757,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 48800\n"
+    },
+    {
+      "elapsed_seconds": 2.929084208000859,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49040\n"
+    },
+    {
+      "elapsed_seconds": 2.962038041001506,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49312\n"
+    },
+    {
+      "elapsed_seconds": 2.99517679100245,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49584\n"
+    },
+    {
+      "elapsed_seconds": 3.0282509999997274,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49872\n"
+    },
+    {
+      "elapsed_seconds": 3.061324500002229,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 52624\n"
+    },
+    {
+      "elapsed_seconds": 3.094666250002774,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49536\n"
+    },
+    {
+      "elapsed_seconds": 3.1273433750029653,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "     0\n"
+    }
+  ],
+  "monitor_scope": "one reviewed RI121 synthetic worker; sampled RSS, not a hard OS cap",
+  "outputs": {
+    "custody": {
+      "bytes": 1416,
+      "sha256": "be42f7e9c5a4f7f60d2664e49f5aff8ae2e34c9c2debe266137a95655decf63b"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 81253,
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+    },
+    "worker_receipt": {
+      "bytes": 81027,
+      "sha256": "dd1a20594afa746e3579a623788d6128cf401f3bcdb5f9cd0cc69e5bfdbbed7f"
+    }
+  },
+  "peak_sampled_rss_kib": 52864,
+  "phase": "fabricated_joint_window_qualification",
+  "prerequisites_passed": true,
+  "process_after": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 1,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "process_before": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 1,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "runtime_after": {
+    "interpreter": {
+      "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+      "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+      "symlink_chain": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "target": "python3.11"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+          "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+        },
+        {
+          "path": "/opt/homebrew/opt/python@3.11",
+          "target": "../Cellar/python@3.11/3.11.6_1"
+        },
+        {
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+          "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+        }
+      ],
+      "target": {
+        "bytes": 52640,
+        "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+      }
+    },
+    "inventory_pin": {
+      "bytes": 2806092,
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    "runtime_files_count": 9923,
+    "runtime_files_identity": {
+      "bytes": 2700083,
+      "sha256": "72407b914f61e8b275cb42118b6f787a1c0848e3a5748a81135016e56c1c7182"
+    }
+  },
+  "runtime_before": {
+    "interpreter": {
+      "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+      "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+      "symlink_chain": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+          "target": "python3.11"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+          "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+        },
+        {
+          "path": "/opt/homebrew/opt/python@3.11",
+          "target": "../Cellar/python@3.11/3.11.6_1"
+        },
+        {
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+          "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+        }
+      ],
+      "target": {
+        "bytes": 52640,
+        "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+      }
+    },
+    "inventory_pin": {
+      "bytes": 2806092,
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    "runtime_files_count": 9923,
+    "runtime_files_identity": {
+      "bytes": 2700083,
+      "sha256": "72407b914f61e8b275cb42118b6f787a1c0848e3a5748a81135016e56c1c7182"
+    }
+  },
+  "runtime_helper_state": "captured",
+  "runtime_postcheck_state": "complete",
+  "samples": [
+    {
+      "elapsed_seconds": 0.004735958002129337,
+      "gap_seconds": 0.004735958002129337,
+      "rss_kib": 1344
+    },
+    {
+      "elapsed_seconds": 0.03778454100029194,
+      "gap_seconds": 0.0330485829981626,
+      "rss_kib": 22160
+    },
+    {
+      "elapsed_seconds": 0.0707488750012999,
+      "gap_seconds": 0.032964334001007956,
+      "rss_kib": 39776
+    },
+    {
+      "elapsed_seconds": 0.1010059159998491,
+      "gap_seconds": 0.0302570409985492,
+      "rss_kib": 40912
+    },
+    {
+      "elapsed_seconds": 0.13400241600174922,
+      "gap_seconds": 0.03299650000190013,
+      "rss_kib": 40912
+    },
+    {
+      "elapsed_seconds": 0.1652803329998278,
+      "gap_seconds": 0.03127791699807858,
+      "rss_kib": 40912
+    },
+    {
+      "elapsed_seconds": 0.1939303330000257,
+      "gap_seconds": 0.028650000000197906,
+      "rss_kib": 41280
+    },
+    {
+      "elapsed_seconds": 0.22703866600204492,
+      "gap_seconds": 0.03310833300201921,
+      "rss_kib": 43488
+    },
+    {
+      "elapsed_seconds": 0.2601864160023979,
+      "gap_seconds": 0.03314775000035297,
+      "rss_kib": 43840
+    },
+    {
+      "elapsed_seconds": 0.29323591600041254,
+      "gap_seconds": 0.03304949999801465,
+      "rss_kib": 44144
+    },
+    {
+      "elapsed_seconds": 0.3264467080007307,
+      "gap_seconds": 0.03321079200031818,
+      "rss_kib": 44432
+    },
+    {
+      "elapsed_seconds": 0.35952666600132943,
+      "gap_seconds": 0.03307995800059871,
+      "rss_kib": 45744
+    },
+    {
+      "elapsed_seconds": 0.3928563750014291,
+      "gap_seconds": 0.03332970900009968,
+      "rss_kib": 46016
+    },
+    {
+      "elapsed_seconds": 0.42598029100190615,
+      "gap_seconds": 0.03312391600047704,
+      "rss_kib": 46272
+    },
+    {
+      "elapsed_seconds": 0.4584000409995497,
+      "gap_seconds": 0.03241974999764352,
+      "rss_kib": 46432
+    },
+    {
+      "elapsed_seconds": 0.49146045800080174,
+      "gap_seconds": 0.03306041700125206,
+      "rss_kib": 46640
+    },
+    {
+      "elapsed_seconds": 0.5247117500002787,
+      "gap_seconds": 0.03325129199947696,
+      "rss_kib": 46912
+    },
+    {
+      "elapsed_seconds": 0.5545677080008318,
+      "gap_seconds": 0.029855958000553073,
+      "rss_kib": 47152
+    },
+    {
+      "elapsed_seconds": 0.5876827909996791,
+      "gap_seconds": 0.033115082998847356,
+      "rss_kib": 47424
+    },
+    {
+      "elapsed_seconds": 0.6207879579997098,
+      "gap_seconds": 0.03310516700003063,
+      "rss_kib": 47744
+    },
+    {
+      "elapsed_seconds": 0.6512968330025615,
+      "gap_seconds": 0.03050887500285171,
+      "rss_kib": 48016
+    },
+    {
+      "elapsed_seconds": 0.6846435410006961,
+      "gap_seconds": 0.03334670799813466,
+      "rss_kib": 52864
+    },
+    {
+      "elapsed_seconds": 0.7160026250021474,
+      "gap_seconds": 0.031359084001451265,
+      "rss_kib": 44704
+    },
+    {
+      "elapsed_seconds": 0.7473800830011896,
+      "gap_seconds": 0.031377457999042235,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.7804435830003058,
+      "gap_seconds": 0.033063499999116175,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.8135909580014413,
+      "gap_seconds": 0.033147375001135515,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.8470468330015137,
+      "gap_seconds": 0.03345587500007241,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.8801331659997231,
+      "gap_seconds": 0.0330863329982094,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.9182332500022312,
+      "gap_seconds": 0.03810008400250808,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.9509893750000629,
+      "gap_seconds": 0.03275612499783165,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 0.9844152500008931,
+      "gap_seconds": 0.033425875000830274,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.0172571660004905,
+      "gap_seconds": 0.032841915999597404,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.050533166002424,
+      "gap_seconds": 0.033276000001933426,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.0835215000006428,
+      "gap_seconds": 0.03298833399821888,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.1148263750001206,
+      "gap_seconds": 0.03130487499947776,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.1481200410016754,
+      "gap_seconds": 0.03329366600155481,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.1817239580013847,
+      "gap_seconds": 0.03360391699970933,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.2112584580027033,
+      "gap_seconds": 0.02953450000131852,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.2442052080004942,
+      "gap_seconds": 0.0329467499977909,
+      "rss_kib": 44224
+    },
+    {
+      "elapsed_seconds": 1.2769807500008028,
+      "gap_seconds": 0.03277554200030863,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.310128541001177,
+      "gap_seconds": 0.03314779100037413,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.343243875002372,
+      "gap_seconds": 0.03311533400119515,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.3761711660008586,
+      "gap_seconds": 0.03292729099848657,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.4090651660008007,
+      "gap_seconds": 0.032893999999942025,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.4424571660019865,
+      "gap_seconds": 0.033392000001185806,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.4753062910021981,
+      "gap_seconds": 0.03284912500021164,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.5082450410009187,
+      "gap_seconds": 0.032938749998720596,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.541189083000063,
+      "gap_seconds": 0.03294404199914425,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.5741539580012613,
+      "gap_seconds": 0.03296487500119838,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.6072615410012077,
+      "gap_seconds": 0.03310758299994632,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.639287541001977,
+      "gap_seconds": 0.03202600000076927,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.6690374999998312,
+      "gap_seconds": 0.029749958997854264,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.7018559999996796,
+      "gap_seconds": 0.03281849999984843,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.7316715830020257,
+      "gap_seconds": 0.029815583002346102,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.76427591600077,
+      "gap_seconds": 0.03260433299874421,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.7973903750025784,
+      "gap_seconds": 0.03311445900180843,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.8302328749996377,
+      "gap_seconds": 0.03284249999705935,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.8603903750008612,
+      "gap_seconds": 0.030157500001223525,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.893283290999534,
+      "gap_seconds": 0.032892915998672834,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.9262939159998496,
+      "gap_seconds": 0.033010625000315486,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.9576630000010482,
+      "gap_seconds": 0.031369084001198644,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 1.9905823330009298,
+      "gap_seconds": 0.03291933299988159,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 2.0233331250019546,
+      "gap_seconds": 0.03275079200102482,
+      "rss_kib": 44240
+    },
+    {
+      "elapsed_seconds": 2.0562451250007143,
+      "gap_seconds": 0.03291199999875971,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.088995875001274,
+      "gap_seconds": 0.03275075000055949,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.1219621660020493,
+      "gap_seconds": 0.03296629100077553,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.1550289160004468,
+      "gap_seconds": 0.03306674999839743,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.188187583000399,
+      "gap_seconds": 0.0331586669999524,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.220857958000124,
+      "gap_seconds": 0.03267037499972503,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.253610750001826,
+      "gap_seconds": 0.03275279200170189,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.2865120410024247,
+      "gap_seconds": 0.032901291000598576,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.3195424160003313,
+      "gap_seconds": 0.03303037499790662,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.3519875410020177,
+      "gap_seconds": 0.03244512500168639,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.3809500000024855,
+      "gap_seconds": 0.02896245900046779,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.4089929159999883,
+      "gap_seconds": 0.02804291599750286,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.4422416660017916,
+      "gap_seconds": 0.03324875000180327,
+      "rss_kib": 44256
+    },
+    {
+      "elapsed_seconds": 2.4755760000007285,
+      "gap_seconds": 0.03333433399893693,
+      "rss_kib": 45072
+    },
+    {
+      "elapsed_seconds": 2.508698749999894,
+      "gap_seconds": 0.033122749999165535,
+      "rss_kib": 45168
+    },
+    {
+      "elapsed_seconds": 2.539215625001816,
+      "gap_seconds": 0.030516875001922017,
+      "rss_kib": 45744
+    },
+    {
+      "elapsed_seconds": 2.5720989580004243,
+      "gap_seconds": 0.03288333299860824,
+      "rss_kib": 46352
+    },
+    {
+      "elapsed_seconds": 2.605277124999702,
+      "gap_seconds": 0.03317816699927789,
+      "rss_kib": 46656
+    },
+    {
+      "elapsed_seconds": 2.6385542080024607,
+      "gap_seconds": 0.033277083002758445,
+      "rss_kib": 46976
+    },
+    {
+      "elapsed_seconds": 2.6718277910003962,
+      "gap_seconds": 0.03327358299793559,
+      "rss_kib": 47248
+    },
+    {
+      "elapsed_seconds": 2.705198499999824,
+      "gap_seconds": 0.033370708999427734,
+      "rss_kib": 47504
+    },
+    {
+      "elapsed_seconds": 2.734748082999431,
+      "gap_seconds": 0.029549582999607082,
+      "rss_kib": 47744
+    },
+    {
+      "elapsed_seconds": 2.767898291000165,
+      "gap_seconds": 0.03315020800073398,
+      "rss_kib": 47952
+    },
+    {
+      "elapsed_seconds": 2.8011390829997254,
+      "gap_seconds": 0.033240791999560315,
+      "rss_kib": 48176
+    },
+    {
+      "elapsed_seconds": 2.834432416002528,
+      "gap_seconds": 0.03329333300280268,
+      "rss_kib": 48368
+    },
+    {
+      "elapsed_seconds": 2.8675265000019863,
+      "gap_seconds": 0.033094083999458235,
+      "rss_kib": 48544
+    },
+    {
+      "elapsed_seconds": 2.9005741250002757,
+      "gap_seconds": 0.03304762499828939,
+      "rss_kib": 48800
+    },
+    {
+      "elapsed_seconds": 2.929084208000859,
+      "gap_seconds": 0.02851008300058311,
+      "rss_kib": 49040
+    },
+    {
+      "elapsed_seconds": 2.962038041001506,
+      "gap_seconds": 0.03295383300064714,
+      "rss_kib": 49312
+    },
+    {
+      "elapsed_seconds": 2.99517679100245,
+      "gap_seconds": 0.03313875000094413,
+      "rss_kib": 49584
+    },
+    {
+      "elapsed_seconds": 3.0282509999997274,
+      "gap_seconds": 0.03307420899727731,
+      "rss_kib": 49872
+    },
+    {
+      "elapsed_seconds": 3.061324500002229,
+      "gap_seconds": 0.03307350000250153,
+      "rss_kib": 52624
+    },
+    {
+      "elapsed_seconds": 3.094666250002774,
+      "gap_seconds": 0.03334175000054529,
+      "rss_kib": 49536
+    },
+    {
+      "elapsed_seconds": 3.1273433750029653,
+      "gap_seconds": 0.032677125000191154,
+      "rss_kib": 0
+    }
+  ],
+  "schema": "ri121-synthetic-supervisor-receipt-v1",
+  "source_after": [
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    {
+      "bytes": 10189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+      "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+    }
+  ],
+  "source_before": [
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 8184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    {
+      "bytes": 31898,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+    },
+    {
+      "bytes": 10189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+      "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+    }
+  ],
+  "stop_reason": null,
+  "success": true,
+  "verified_custody": {
+    "captured_sources": {
+      "primary.py": {
+        "bytes": 20346,
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "qualify.py": {
+        "bytes": 14435,
+        "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+      },
+      "validator.py": {
+        "bytes": 23321,
+        "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+      }
+    },
+    "custody_pin": {
+      "bytes": 1416,
+      "sha256": "be42f7e9c5a4f7f60d2664e49f5aff8ae2e34c9c2debe266137a95655decf63b"
+    },
+    "full_validator_passed": true,
+    "genuine_run_completed": true,
+    "report_pin": {
+      "bytes": 81253,
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+    },
+    "saved_result_validation": {
+      "historical_controls_reexecuted": false,
+      "scientific_independent_reconstruction": true,
+      "status": "all_saved_fields_match"
+    },
+    "scientific_validation": {
+      "bounds": 3,
+      "cases": 9,
+      "groups": 12,
+      "status": "all_fields_independently_match"
+    }
+  }
+}

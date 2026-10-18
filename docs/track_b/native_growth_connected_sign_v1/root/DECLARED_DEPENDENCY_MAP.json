@@ -1,0 +1,377 @@
+{
+  "base": "c48fda40525178933609b329e14c92c4d1406132",
+  "group": "native",
+  "records": [
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/ROOT_ADJUDICATION.json"
+      ],
+      "external_only": false,
+      "role": "RI127 accepted root decision",
+      "source": {
+        "bytes": 4071,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+        "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/review/INDEPENDENT_PROOF_REVIEW.md"
+      ],
+      "external_only": false,
+      "role": "RI127 independent complete review",
+      "source": {
+        "bytes": 20005,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.md",
+        "sha256": "acbf782f2a331e130750a4a1dac4f7912406b72c4e3a246ffdabeb76da267774"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/review/INDEPENDENT_PROOF_REVIEW.json"
+      ],
+      "external_only": false,
+      "role": "RI127 independent machine review",
+      "source": {
+        "bytes": 7398,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.json",
+        "sha256": "b2d801cdef9436b392fcfd02838e88527d310c7f16f7c70d85bc3048b342d914"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/review/HANDOFF.json"
+      ],
+      "external_only": false,
+      "role": "RI127 independent handoff",
+      "source": {
+        "bytes": 2136,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/HANDOFF.json",
+        "sha256": "45672e1a3f525aec4bcd779f375059ad7b8be5e6d374d61e8d61d9f220346cbe"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/HANDOFF.json"
+      ],
+      "external_only": false,
+      "role": "Immutable RI127 author packet",
+      "source": {
+        "bytes": 7625,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+        "sha256": "af806b93b3306c7e68fe8584250b709faaea4012f9bd28a2ac8f1fd05446bc80"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_contrast_compensation_v1/ROOT_ADJUDICATION.json"
+      ],
+      "external_only": false,
+      "role": "Accepted RI124 full conditional H30 system",
+      "source": {
+        "bytes": 3645,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+        "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/ROOT_ADJUDICATION.json"
+      ],
+      "external_only": false,
+      "role": "Accepted complete RI122 pattern/sign evidence",
+      "source": {
+        "bytes": 15477,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+        "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+      }
+    },
+    {
+      "bundle_paths": [
+        "historical/RI88_ROOT_RESULT_ADJUDICATION.json"
+      ],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [],
+      "external_only": false,
+      "role": "Explicit accepted seed result",
+      "source": {
+        "bytes": 2783,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+        "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/premises/ri88.json",
+        "docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json"
+      ],
+      "external_only": false,
+      "role": "Existing scientific held object",
+      "source": {
+        "bytes": 1828149,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/executed_source/check.py",
+        "docs/track_b/native_growth_connected_sensitivity_v1/check.py"
+      ],
+      "external_only": false,
+      "role": "RI120 producer source framing/formulas",
+      "source": {
+        "bytes": 66669,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+        "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/executed_source/audit_saved_certificate.py",
+        "docs/track_b/native_growth_connected_sensitivity_v1/audit_saved_certificate.py"
+      ],
+      "external_only": false,
+      "role": "RI120 old audit framing reference",
+      "source": {
+        "bytes": 63729,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+        "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_four_vertex_cap_check_v1/check.py"
+      ],
+      "external_only": false,
+      "role": "RI88 seed/input schema producer source",
+      "source": {
+        "bytes": 66081,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/check.py",
+        "sha256": "93eb721e933d90ba922b62f8a6844b64529d2acee1ae3bb3e15c81c4de153568"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md"
+      ],
+      "external_only": false,
+      "role": "RI38 actual half-scale construction",
+      "source": {
+        "bytes": 22701,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md",
+        "sha256": "65c779a8e189adf9a6d5033310b9d1d7521b5051bd371a5112ef3273f3273675"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md"
+      ],
+      "external_only": false,
+      "role": "RI85 actual baseline and support",
+      "source": {
+        "bytes": 28127,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+        "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md"
+      ],
+      "external_only": false,
+      "role": "RI102 actual size-six/seven normalization premises",
+      "source": {
+        "bytes": 17366,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+        "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/DECISION_CONTRACT.md"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: DECISION_CONTRACT.md",
+      "source": {
+        "bytes": 8225,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/DECISION_CONTRACT.md",
+        "sha256": "8e6f4a85e91211493c88a4aa270b3e49b77eec699da05944e3fe3d270f4fb225"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/HANDOFF.md"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: HANDOFF.md",
+      "source": {
+        "bytes": 3785,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.md",
+        "sha256": "8f15e54aa2c4dbeff3b4d424350c4cfd328294efe65e7983811eda9365b79148"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/LOCAL_POSITIVITY.md"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: LOCAL_POSITIVITY.md",
+      "source": {
+        "bytes": 18246,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY.md",
+        "sha256": "b109973d0178652caf8769e3b1730fae0a354d25f14251af13afbcffc7ceafb6"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+      "source": {
+        "bytes": 4295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+        "sha256": "2d85f15648d011e9bddcbe99f6fa6a206d3393267359bde499f1674eef396ca7"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/RECORD_TRANSPORT.md"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: RECORD_TRANSPORT.md",
+      "source": {
+        "bytes": 15418,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RECORD_TRANSPORT.md",
+        "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/RESULT.md"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: RESULT.md",
+      "source": {
+        "bytes": 10435,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+        "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_compensation_v1/SOURCES.json"
+      ],
+      "external_only": false,
+      "role": "Immutable accepted RI127 author source: SOURCES.json",
+      "source": {
+        "bytes": 10212,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+        "sha256": "127eeaed4c3b19e5e939e7c43150de0751a91cdc97295729b18947cd8f510ed5"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md"
+      ],
+      "external_only": false,
+      "role": "RI103 optional unused upper-bound observation",
+      "source": {
+        "bytes": 20198,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+        "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/premises/ri117_connected.md",
+        "docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md"
+      ],
+      "external_only": false,
+      "role": "RI117 complete connected profile formulas",
+      "source": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md"
+      ],
+      "external_only": false,
+      "role": "RI115 accepted polynomial premise",
+      "source": {
+        "bytes": 6498,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+        "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01"
+      }
+    },
+    {
+      "bundle_paths": [],
+      "declared_by": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "existing_git_paths": [
+        "docs/track_b/native_growth_connected_sensitivity_result_v1/executed_source/check.py",
+        "docs/track_b/native_growth_connected_sensitivity_v1/check.py"
+      ],
+      "external_only": false,
+      "role": "RI120 published producer inspected by main",
+      "source": {
+        "bytes": 66669,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/check.py",
+        "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f"
+      }
+    }
+  ],
+  "schema": "reviewed-source-declared-dependency-map-v1",
+  "scope": "Declared source/premise references only; not complete runtime closure or an execution admission."
+}

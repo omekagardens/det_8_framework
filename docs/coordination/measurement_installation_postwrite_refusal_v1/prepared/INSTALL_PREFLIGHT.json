@@ -1,0 +1,47 @@
+{
+  "E_before": {
+    "bytes": 42464,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json",
+    "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "host_tool_receipts": {
+    "bytes": 724,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json",
+    "sha256": "c0aec9d2f264b7cc3cd47bd0674b53d10e0c4217a3a00bf63655a7d7b671eb76"
+  },
+  "monitor_bootstrap": {
+    "bytes": 2413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+    "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853"
+  },
+  "schema": "ri209-root-installation-preflight-v1",
+  "scientific_execution": false,
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "sources": {
+    "bytes": 492355,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+    "sha256": "6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c"
+  },
+  "status": "FRESH_EXACT_INSTALLATION_PREFLIGHT",
+  "supplier": {
+    "bytes": 1260486,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+    "sha256": "be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225"
+  }
+}

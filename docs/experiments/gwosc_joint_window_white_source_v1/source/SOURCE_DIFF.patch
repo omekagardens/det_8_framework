@@ -1,0 +1,1623 @@
+--- sealed-predecessor/white_path.py
++++ white-successor/white_path.py
+@@ -0,0 +1,622 @@
++"""RI125 bounded white application source. UNEXECUTED, NOT SELF-ADMITTING.
++
++The prospective caller must authenticate this source before importing it, bind
++the request pin externally, and adjudicate its complete runtime/history custody.
++The local checks authenticate operands and enforce the frozen interface; a JSON
++card is not evidence that root permission or actual execution occurred.
++"""
++from pathlib import Path
++import hashlib
++import json
++import os
++import re
++import stat
++import white_kernel as W
++
++LIMIT = 64 * 1024 * 1024
++ROW_LIMIT = 8 * 1024 * 1024
++N, L, T, STRIDE = 2769, 4096, 10961, 8192
++ROWS = list(W.ROWS)
++SOURCE_ROLES = ('design', 'contract', 'primary', 'white_kernel', 'validator',
++                'qualifier', 'cases', 'kernel_refusals', 'white_refusals',
++                'fabricated_interfaces')
++INPUT_ROLES = ('capture', 'ri73_result', 'ri73_source', 'ri73_reconciliation',
++               'ri73_final_review', 'ri73_audit_freeze')
++RUNTIME_ROLES = ('fingerprint', 'inventory', 'interpreter')
++FIXED = {
++    'capture': {'bytes': 51891508, 'sha256': 'fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba'},
++    'ri73_result': {'bytes': 11180937, 'sha256': '3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe'},
++    'ri73_source': {'bytes': 68018, 'sha256': '574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887'},
++    'ri73_reconciliation': {'bytes': 2098, 'sha256': '5263ab139542d6591af03300ded7f2d7c9fba5fd3585347b4f7b4bfb7605f232'},
++    'ri73_final_review': {'bytes': 5479, 'sha256': 'c4ac724cbde99d98b3b95f51fcf030a9ac00e48fd7aafa8998356e0f3a9eea1e'},
++    'ri73_audit_freeze': {'bytes': 31442, 'sha256': 'a10dd521e72e6cecbc55a5c35720a4d6755daebc9f1d07ecd5553af220402581'},
++}
++DESIGN = {'bytes': 31586, 'sha256': '4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b'}
++DESIGN_ACCEPTANCE = {'bytes': 2948, 'sha256': '2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a'}
++# These literal source-derived names are historical evidence, not rerun controls.
++RI73_GATES = (
++    'fixture:fir', 'fixture:cancellation', 'fixture:singleton',
++    'fixture:offdiagonal_small', 'fixture:offdiagonal_large', 'fixture:failed_gate',
++    'fixture:midpoint', 'fixture:rank_ambiguity', 'fixture:singular', 'fixture:output_law',
++    'refusal:float_endpoint', 'refusal:bool_endpoint', 'refusal:nonfinite_endpoint',
++    'refusal:reversed_interval', 'refusal:negative_radius', 'refusal:matrix_rows',
++    'refusal:bool_dimension', 'refusal:bool_row_dimension', 'refusal:matrix_columns',
++    'refusal:ragged_box', 'refusal:asymmetric_gram', 'refusal:asymmetric_error',
++    'refusal:negative_error', 'refusal:negative_pivot', 'refusal:wrong_ldl',
++    'refusal:wrong_inverse', 'refusal:wrong_delta', 'refusal:wrong_gamma',
++    'refusal:incorrect_rank', 'refusal:bool_rank', 'refusal:wrong_mp1',
++    'refusal:wrong_mp2', 'refusal:wrong_mp3', 'refusal:off_support',
++    'refusal:negative_rho', 'refusal:rho_at_one', 'refusal:negative_output_error',
++    'refusal:unqualified_cdf', 'refusal:cdf_series_domain', 'refusal:negative_cdf_argument',
++    'refusal:estimated_covariance', 'refusal:colored_covariance',
++    'refusal:fraction_numerator_cap', 'refusal:fraction_denominator_cap',
++    'refusal:operation_result_cap', 'refusal:hex_length', 'refusal:hex_plus',
++    'refusal:hex_negative_zero', 'refusal:hex_leading_zero',
++    'refusal:hex_denominator_zero', 'refusal:hex_unreduced', 'refusal:work_cap',
++    'refusal:work_bool', 'refusal:output_cap', 'refusal:duplicate_json',
++    'refusal:nonfinite_json', 'refusal:overflow_json', 'refusal:changed_snapshot',
++    'refusal:bool_pin', 'refusal:changed_runtime', 'refusal:changed_runtime_build',
++    'refusal:failed_receipt', 'refusal:incomplete_receipt',
++    'refusal:changed_receipt_engine', 'refusal:changed_arithmetic',
++    'refusal:wrong_padding', 'refusal:bool_padding',
++    'refusal:changed_manifest_coefficient', 'refusal:changed_manifest_stage_order',
++    'refusal:changed_manifest_padding', 'refusal:missing_rows', 'refusal:wrong_rows',
++    'refusal:wrong_snapshot_shape', 'refusal:missing_expected_summaries',
++    'integration:reconstruction', 'integration:gram', 'integration:mathematical',
++    'integration:accuracy', 'integration:cross', 'probe:zero', 'probe:constant',
++    'probe:0', 'probe:1', 'probe:27', 'probe:805', 'probe:1384', 'probe:2741',
++    'probe:2767', 'probe:2768', 'integration:law', 'integration:final_custody',
++    'completion:custody',
++)
++WHITE_GATES = ('admission:phase', 'admission:inputs', 'admission:source',
++               'operator:gram', 'operator:capture', 'operator:rows',
++               'shift:direct', 'shift:polarization', 'response:7', 'trace:7',
++               'structural:7', 'accuracy:7', 'response:6', 'trace:6',
++               'structural:6', 'accuracy:6', 'completion:stable')
++LIMITATIONS = [
++    'Conditional conventional moments of fixed operators and explicitly postulated joint laws only.',
++    'Numerical enclosure and usefulness bounds are not statistical or physical model error.',
++    'All four public development/calibration scenarios remain unchanged and are not protected validation.',
++    'Shared-white amplitude and population mean are unresolved; sample centering does not establish zero population mean.',
++    'Exact periodic repetition is a hypothetical completion, not established detector noise.',
++    'Nominal V2/C02, blank Yunits, clear L1 NO_CW_HW_INJ, possible injection effects and below-10-Hz calibration remain unresolved.',
++    'No significance, fitted model, calibrated measurement, native forward map or geometry/gravity result is established; RET remains paused.',
++]
++
++
++def need(ok, code, message):
++    W.need(ok, code, message)
++
++
++def closed(value, names, code='SCHEMA'):
++    need(type(value) is dict and all(type(k) is str for k in value)
++         and set(value) == set(names), code, 'closed object keys')
++
++
++def same(a, b):
++    if type(a) is not type(b):
++        return False
++    if type(a) is dict:
++        return a.keys() == b.keys() and all(same(a[k], b[k]) for k in a)
++    if type(a) is list:
++        return len(a) == len(b) and all(same(x, y) for x, y in zip(a, b))
++    return a == b
++
++
++def equal(a, b, code, message):
++    need(same(a, b), code, message)
++
++
++def pin(value):
++    closed(value, ('bytes', 'sha256'), 'INPUT')
++    need(type(value['bytes']) is int and 0 < value['bytes'] <= LIMIT,
++         'INPUT', 'positive bounded pin length')
++    need(type(value['sha256']) is str
++         and re.fullmatch('[0-9a-f]{64}', value['sha256']) is not None,
++         'INPUT', 'lowercase sha256')
++
++
++def identity(body):
++    need(type(body) is bytes and len(body) <= LIMIT, 'RESOURCE', 'bounded immutable body')
++    return {'bytes': len(body), 'sha256': hashlib.sha256(body).hexdigest()}
++
++
++def json_chunks(value, *, compact=False):
++    encoder = json.JSONEncoder(sort_keys=True, ensure_ascii=True, allow_nan=False,
++                               **({'separators': (',', ':')} if compact else {'indent': 2}))
++    count = 0
++    for text in encoder.iterencode(value):
++        block = text.encode('ascii')
++        count += len(block)
++        need(count <= LIMIT, 'RESOURCE', 'serialized byte ceiling')
++        yield block
++    if not compact:
++        need(count + 1 <= LIMIT, 'RESOURCE', 'terminal newline ceiling')
++        yield b'\n'
++
++
++def serial(value, *, compact=False):
++    return b''.join(json_chunks(value, compact=compact))
++
++
++def json_pin(value, *, compact=False):
++    h, count = hashlib.sha256(), 0
++    for block in json_chunks(value, compact=compact):
++        h.update(block)
++        count += len(block)
++    return {'bytes': count, 'sha256': h.hexdigest()}
++
++
++def parse(body):
++    need(type(body) is bytes and len(body) <= LIMIT, 'RESOURCE', 'JSON byte ceiling')
++    def pairs(items):
++        out = {}
++        for key, value in items:
++            need(key not in out, 'SCHEMA', 'duplicate JSON key')
++            out[key] = value
++        return out
++    def bad(_):
++        raise W.ApplicationError('EXACT', 'decimal or nonfinite JSON token')
++    def integer(text):
++        need(len(text) <= 65537, 'RESOURCE', 'JSON integer text ceiling')
++        return W.integer(int(text))
++    try:
++        return json.loads(body, object_pairs_hook=pairs, parse_float=bad,
++                          parse_constant=bad, parse_int=integer)
++    except (UnicodeError, json.JSONDecodeError, RecursionError) as exc:
++        raise W.ApplicationError('SCHEMA', 'invalid bounded JSON') from exc
++
++
++def state(s):
++    return (s.st_dev, s.st_ino, s.st_size, s.st_mtime_ns, s.st_ctime_ns,
++            s.st_mode, s.st_nlink)
++
++
++def literal_path(value):
++    need(type(value) is str, 'INPUT', 'path string')
++    p = Path(value)
++    need(p.is_absolute() and str(p) == value and p == p.resolve(),
++         'INPUT', 'literal absolute nonsymlink path')
++    return p
++
++
++def file_ref(value):
++    closed(value, ('path', 'pin'), 'INPUT')
++    pin(value['pin'])
++    return literal_path(value['path'])
++
++
++def read_bound(record, *, keep=False, before=None):
++    p = file_ref(record)
++    initial = p.lstat()
++    need(stat.S_ISREG(initial.st_mode) and initial.st_nlink == 1,
++         'INPUT', 'regular single-link source or input')
++    need(0 < initial.st_size <= LIMIT, 'RESOURCE', 'file byte ceiling')
++    if before is not None:
++        need(state(initial) == before, 'CUSTODY', 'path state changed')
++    h, count, pieces = hashlib.sha256(), 0, []
++    fd = os.open(str(p), os.O_RDONLY | os.O_NOFOLLOW)
++    with os.fdopen(fd, 'rb') as stream:
++        need(state(os.fstat(stream.fileno())) == state(initial), 'CUSTODY', 'opened file differs')
++        while True:
++            block = stream.read(65536)
++            if not block:
++                break
++            count += len(block)
++            need(count <= LIMIT, 'RESOURCE', 'stream byte ceiling')
++            h.update(block)
++            if keep:
++                pieces.append(block)
++        need(state(os.fstat(stream.fileno())) == state(initial), 'CUSTODY', 'descriptor changed')
++    need(state(p.lstat()) == state(initial), 'CUSTODY', 'closed path changed')
++    equal({'bytes': count, 'sha256': h.hexdigest()}, record['pin'], 'INPUT', 'whole body pin')
++    need(count == initial.st_size, 'CUSTODY', 'complete file length')
++    return (b''.join(pieces) if keep else None), state(initial)
++
++
++class Ledger:
++    """Register every valid reference before opening any; finish each independently."""
++    def __init__(self):
++        self.entries = []
++
++    def register(self, role, record):
++        file_ref(record)
++        self.entries.append([role, record, None])
++
++    def read_all(self):
++        for row in self.entries:
++            _, row[2] = read_bound(row[1])
++
++    def finish(self):
++        out = []
++        for role, record, before in self.entries:
++            try:
++                observed, current = read_bound(record, before=before)
++                need(before is not None, 'CUSTODY', 'initial custody incomplete')
++                out.append({'role': role, 'pin': record['pin'], 'unchanged': True, 'error': None})
++            except Exception as exc:
++                out.append({'role': role, 'pin': None, 'unchanged': False,
++                            'error': (type(exc).__name__ + ': ' + str(exc))[:1024]})
++        return out
++
++
++class RowReader:
++    def __init__(self, stream):
++        self.stream, self.buffer, self.pos = stream, b'', 0
++        self.digest, self.count = hashlib.sha256(), 0
++
++    def refill(self):
++        self.buffer, self.pos = self.stream.read(65536), 0
++        self.digest.update(self.buffer)
++        self.count += len(self.buffer)
++        need(self.count <= LIMIT, 'RESOURCE', 'capture byte ceiling')
++
++    def take(self, count):
++        answer = bytearray()
++        while len(answer) < count:
++            if self.pos == len(self.buffer):
++                self.refill()
++                need(bool(self.buffer), 'ROW', 'truncated capture')
++            size = min(count - len(answer), len(self.buffer) - self.pos)
++            answer.extend(self.buffer[self.pos:self.pos + size])
++            self.pos += size
++        return bytes(answer)
++
++    def row(self):
++        need(self.take(1) == b'{', 'ROW', 'row start')
++        chunks, count, depth, string, escape = [b'{'], 1, 1, False, False
++        while depth:
++            if self.pos == len(self.buffer):
++                self.refill()
++                need(bool(self.buffer), 'ROW', 'truncated row')
++            start = self.pos
++            while self.pos < len(self.buffer):
++                c = self.buffer[self.pos]
++                self.pos += 1
++                if string:
++                    if escape:
++                        escape = False
++                    elif c == 92:
++                        escape = True
++                    elif c == 34:
++                        string = False
++                elif c == 34:
++                    string = True
++                elif c == 123:
++                    depth += 1
++                elif c == 125:
++                    depth -= 1
++                    if depth == 0:
++                        break
++            part = self.buffer[start:self.pos]
++            count += len(part)
++            need(count <= ROW_LIMIT, 'RESOURCE', 'capture row byte ceiling')
++            chunks.append(part)
++        return b''.join(chunks)
++
++    def eof(self):
++        if self.pos != len(self.buffer):
++            return False
++        self.refill()
++        return not self.buffer
++
++
++def array_identity(values, label, domain):
++    value = {'schema': 'ri73-exact-array-v1', 'label': label,
++             'domain': domain, 'values': values}
++    return {'schema': value['schema'], 'label': label, 'domain': domain,
++            **json_pin(value, compact=True)}
++
++
++def capture_rows(record, *, fabricated=False):
++    """Full eight-row stream, not a selected-strip parser. Explicit final exhaustion."""
++    need(type(fabricated) is bool, 'PHASE', 'explicit capture phase')
++    if fabricated:
++        need(not same(record.get('pin'), FIXED['capture']), 'PHASE', 'actual capture forbidden in fabrication')
++    _, before = read_bound(record)
++    p = file_ref(record)
++    schema = ('ri125-fabricated-capture-v1' if fabricated
++              else 'ri73-reconstructed-intervals-v1')
++    header = (b'{"dimensions":' + serial({'N': N, 'L': L, 'T': T}, compact=True)
++              + b',"row_order":' + serial(ROWS, compact=True) + b',"rows":[')
++    with os.fdopen(os.open(str(p), os.O_RDONLY | os.O_NOFOLLOW), 'rb') as stream:
++        need(state(os.fstat(stream.fileno())) == before, 'CUSTODY', 'capture descriptor initial')
++        reader = RowReader(stream)
++        equal(reader.take(len(header)), header, 'ROW', 'literal capture header')
++        for index, label in enumerate(ROWS):
++            if index:
++                equal(reader.take(1), b',', 'ROW', 'row separator')
++            body = reader.row()
++            row = parse(body)
++            equal(serial(row, compact=True), body, 'CANONICAL', 'compact row encoding')
++            closed(row, ('row', 'short', 'long'), 'ROW')
++            equal(row['row'], label, 'ROW', 'fixed row order')
++            head, tail, sums = [], [], {}
++            for name, count in (('short', N), ('long', T)):
++                values = W.sequence(row[name], count)
++                low = high = W.F(0)
++                for coordinate, box in enumerate(values):
++                    a, b = W.uninterval(box)
++                    low, high = W.add(low, a), W.add(high, b)
++                    if name == 'long' and coordinate < N:
++                        head.append(box)
++                    if name == 'long' and coordinate >= STRIDE:
++                        tail.append(box)
++                sums[name] = (low, high)
++            row_sum = (W.sub(sums['long'][0], sums['short'][1]),
++                       W.sub(sums['long'][1], sums['short'][0]))
++            need(row_sum[0] <= 0 <= row_sum[1], 'ROW', 'constant sum enclosure')
++            vectors = {'row': label,
++                       'short': array_identity(row['short'], 'short', {'length': N, 'row': label}),
++                       'long': array_identity(row['long'], 'long', {'length': T, 'row': label, 'seed': L + label})}
++            result = {'strip': {'row': label, 'head': head, 'tail': tail},
++                      'vectors': vectors,
++                      'row_identity': {'row': label, 'source_row_pin': identity(body),
++                          'short_count': N, 'long_count': T,
++                          'head_pin': json_pin(head), 'tail_pin': json_pin(tail),
++                          'a_row_sum_interval': W.interval(*row_sum), 'contains_zero': True}}
++            del row, values, box, body, head, tail, sums
++            yield result
++            del result
++        footer = b'],"schema":' + serial(schema, compact=True) + b'}'
++        equal(reader.take(len(footer)), footer, 'ROW', 'capture footer and ninth-row exhaustion')
++        need(reader.eof(), 'ROW', 'trailing capture bytes')
++        equal({'bytes': reader.count, 'sha256': reader.digest.hexdigest()}, record['pin'],
++              'INPUT', 'complete consumed capture pin')
++        need(state(os.fstat(stream.fileno())) == before, 'CUSTODY', 'capture descriptor final')
++    read_bound(record, before=before)
++
++
++def ri73_operand(report):
++    closed(report, ('schema_version', 'mode', 'status', 'full_integration_qualified',
++        'source_identity', 'dependencies', 'runtime', 'inherited_arithmetic_contract',
++        'resource_contract', 'model', 'dimensions', 'rows', 'sample_spacing',
++        'gate_inventory', 'gate_counts', 'gates', 'deterministic_fixture_admission_passed',
++        'sampling_performed', 'admitted_coefficient_design_requested',
++        'reconstructed_rows_admitted', 'exact_scalar_encoding', 'scope'), 'RI73')
++    for key, expected in {
++        'schema_version': 'ri73-unit-white-operator-covariance-v1',
++        'mode': 'fixed_operator_covariance', 'status': 'fixed_operator_covariance_passed',
++        'full_integration_qualified': True, 'source_identity': FIXED['ri73_source'],
++        'dimensions': {'N': N, 'L': L, 'T': T}, 'rows': ROWS,
++        'sample_spacing': W.scalar(W.F(1, 4096)),
++        'model': {'kind': 'known_synthetic_unit_white', 'mean': 'zero', 'covariance': 'I_T',
++                  'input_dimension': T, 'output_dimension': 8},
++        'gate_inventory': list(RI73_GATES), 'gate_counts': {'total': 92, 'passed': 92, 'failed': 0},
++        'deterministic_fixture_admission_passed': True, 'sampling_performed': False,
++        'admitted_coefficient_design_requested': True, 'reconstructed_rows_admitted': True,
++    }.items():
++        equal(report[key], expected, 'RI73', 'full inherited header ' + key)
++    details = {}
++    for name, gate in zip(RI73_GATES, W.sequence(report['gates'], 92)):
++        closed(gate, ('id', 'passed', 'detail'), 'RI73')
++        equal(gate['id'], name, 'RI73', 'literal 92-gate order')
++        need(gate['passed'] is True and type(gate['detail']) is dict,
++             'RI73', 'all inherited gates passed with details')
++        details[name] = gate['detail']
++    reconstruction = details['integration:reconstruction']
++    closed(reconstruction, ('adjoints_reconstructed', 'summaries_reconciled', 'row_state_identity',
++        'row_summaries', 'vector_identities', 'A_identity', 'P_identity', 'Q_identity',
++        'constant_row_sum_intervals', 'coefficient_arrays_stored_in_result'), 'RI73')
++    equal(reconstruction['adjoints_reconstructed'], 16, 'RI73', 'all reconstructed adjoints')
++    equal(reconstruction['summaries_reconciled'], 8, 'RI73', 'all row summaries')
++    equal(reconstruction['coefficient_arrays_stored_in_result'], False, 'RI73', 'external complete capture')
++    W.sequence(reconstruction['vector_identities'], 8)
++    W.sequence(reconstruction['constant_row_sum_intervals'], 8)
++    detail = details['integration:gram']
++    closed(detail, ('certificate', 'M_identity', 'R_identity'), 'RI73')
++    certificate = detail['certificate']
++    closed(certificate, ('mathematical_gate', 'accuracy_gate', 'rho_limit', 'G', 'H', 'delta',
++        'eta2', 'ldl', 'inverse', 'left_inverse_product', 'right_inverse_product',
++        'gamma', 'rho', 'status', 'rank', 'inverse_error_norm_bound',
++        'inverse_lower', 'inverse_upper'), 'RI73')
++    for key, value in (('status', 'certified'), ('rank', 8), ('mathematical_gate', True),
++                       ('accuracy_gate', True), ('rho_limit', W.scalar(W.F(1, 10**12)))):
++        equal(certificate[key], value, 'RI73', 'accepted inherited certificate ' + key)
++    for name, limit_key, limit in (('mathematical', 'strict_limit', W.F(1)),
++                                   ('accuracy', 'inclusive_limit', W.F(1, 10**12))):
++        equal(details['integration:' + name], {'status': 'certified',
++            'acceptance': {'passed': True}, 'rho': certificate['rho'],
++            limit_key: W.scalar(limit)}, 'RI73', 'inherited acceptance details')
++    gram = {key: certificate[key] for key in W.GRAM_KEYS}
++    W.inherited_gram(gram, 8)
++    return gram, json_pin(detail), reconstruction
++
++
++def assemble_white(record, gram, reconstruction, *, fabricated=False):
++    strips, identities = [], []
++    iterator = capture_rows(record, fabricated=fabricated)
++    try:
++        for i, label in enumerate(ROWS):
++            try:
++                item = next(iterator)
++            except StopIteration as exc:
++                raise W.ApplicationError('ROW', 'missing full row') from exc
++            equal(item['strip']['row'], label, 'ROW', 'assembly row order')
++            if not fabricated:
++                bind_row(item, reconstruction, i)
++            strips.append(item['strip'])
++            identities.append(item['row_identity'])
++        marker = object()
++        need(next(iterator, marker) is marker, 'ROW', 'extra ninth row')
++    finally:
++        iterator.close()
++    # A saved Shift is never accepted as an operand here.
++    shift = W.derive_shift(strips, length=T, stride=STRIDE)
++    responses = [W.derive_response(gram, shift, n=n) for n in (7, 6)]
++    return identities, shift, responses
++
++
++def bind_row(item, reconstruction, index):
++    equal(item['vectors'], reconstruction['vector_identities'][index],
++          'BINDING', 'capture vector identity tied to accepted RI73 result')
++    equal(item['row_identity']['a_row_sum_interval'],
++          reconstruction['constant_row_sum_intervals'][index],
++          'BINDING', 'complete row sum tied to accepted RI73 result')
++
++
++def checks(responses):
++    accuracy = {'accuracy:' + str(row['n']): row['usefulness_state'] == 'usefulness_passed'
++                for row in responses}
++    rows = [{'id': name, 'passed': accuracy.get(name, True)} for name in WHITE_GATES]
++    passed = sum(item['passed'] for item in rows)
++    return {'inventory': list(WHITE_GATES),
++            'counts': {'total': len(rows), 'passed': passed, 'failed': len(rows) - passed},
++            'results': rows}
++
++
++def request_check(request):
++    closed(request, ('schema', 'phase', 'inputs', 'sources', 'design_acceptance',
++                     'qualification', 'custody', 'runtime', 'admission', 'output'))
++    equal(request['phase'], 'fixed_saved_application', 'PHASE', 'actual phase before body decoding')
++    equal(request['schema'], 'ri125-white-request-v1', 'SCHEMA', 'white request schema')
++    closed(request['inputs'], INPUT_ROLES, 'INPUT')
++    closed(request['sources'], SOURCE_ROLES, 'SOURCE')
++    closed(request['runtime'], RUNTIME_ROLES, 'SOURCE')
++    for name in INPUT_ROLES:
++        file_ref(request['inputs'][name])
++        equal(request['inputs'][name]['pin'], FIXED[name], 'INPUT', 'fixed historical pin ' + name)
++    for name in SOURCE_ROLES:
++        file_ref(request['sources'][name])
++    equal(request['sources']['design']['pin'], DESIGN, 'SOURCE', 'accepted RI123 design')
++    for name in ('design_acceptance', 'qualification', 'custody', 'admission'):
++        file_ref(request[name])
++    equal(request['design_acceptance']['pin'], DESIGN_ACCEPTANCE, 'SOURCE', 'RI123 root acceptance')
++    for name in RUNTIME_ROLES:
++        file_ref(request['runtime'][name])
++    equal(str(Path(__file__).resolve()), request['sources']['primary']['path'], 'SOURCE', 'loaded primary path')
++    equal(str(Path(W.__file__).resolve()), request['sources']['white_kernel']['path'], 'SOURCE', 'loaded kernel path')
++    output = literal_path(request['output'])
++    need(output.parent.is_dir() and not os.path.lexists(output), 'OUTPUT', 'exclusive absent output')
++    refs = [('input:' + name, request['inputs'][name]) for name in INPUT_ROLES]
++    refs += [('source:' + name, request['sources'][name]) for name in SOURCE_ROLES]
++    refs += [(name, request[name]) for name in ('design_acceptance', 'qualification', 'custody', 'admission')]
++    refs += [('runtime:' + name, request['runtime'][name]) for name in RUNTIME_ROLES]
++    need(len({r['path'] for _, r in refs}) == len(refs), 'INPUT', 'distinct required file paths')
++    need(request['output'] not in {r['path'] for _, r in refs}, 'OUTPUT', 'output/input alias')
++    return refs
++
++
++def admission_check(card, request):
++    # Root/caller must authenticate this exact card and its approval out of band.
++    equal(card, {'schema': 'ri125-white-admission-v1', 'phase': 'fixed_saved_application',
++        'status': 'ROOT_ADMITS_ONE_WHITE_RUN',
++        'inputs': {k: v['pin'] for k, v in request['inputs'].items()},
++        'sources': {k: v['pin'] for k, v in request['sources'].items()},
++        'design_acceptance': request['design_acceptance']['pin'],
++        'qualification': request['qualification']['pin'], 'custody': request['custody']['pin'],
++        'runtime': {k: v['pin'] for k, v in request['runtime'].items()},
++        'output': request['output'], 'limits': {'seconds': 180, 'sampled_rss_kib': 524288,
++            'poll_ms': 25, 'max_gap_ms': 100, 'ps_timeout_ms': 50},
++        'history_and_runtime_adjudicated_by_root': True, 'protected_validation': False,
++        'physical_covariance_accepted': False, 'ret_paused': True}, 'ADMISSION', 'exact root-bound card')
++
++
++def actual_result(request, gram, detail_pin, identities, shift, responses):
++    return {'schema': 'ri125-white-coupling-v1', 'phase': 'fixed_saved_application',
++        'status': ('enclosure_and_usefulness_passed' if all(x['usefulness_state'] == 'usefulness_passed'
++                   for x in responses) else 'enclosure_valid_accuracy_failed'),
++        'method': {'model': 'shared_raw_white_unit_response',
++            'dimensions': {'r': 8, 'N': N, 'L': L, 'T': T, 'M': 16384, 'd': STRIDE,
++                           'raw_samples': 131072, 'fs': 4096},
++            'rows': ROWS, 'n_order': [7, 6], 'crop': 'first_T', 'integer_bit_limit': W.BITS,
++            'precision_limit': W.scalar(W.F(1, 10**12)), 'centering': 'divisor_n_shared_samples'},
++        'provenance': {'sources': {k: v['pin'] for k, v in request['sources'].items()},
++            'inputs': [{'role': k, 'pin': request['inputs'][k]['pin']} for k in INPUT_ROLES],
++            'acceptance': {'design': request['design_acceptance']['pin'],
++                'qualification': request['qualification']['pin'], 'custody': request['custody']['pin'],
++                'dependencies': [{'role': k, 'pin': request['inputs'][k]['pin']}
++                    for k in ('ri73_reconciliation', 'ri73_final_review', 'ri73_audit_freeze')]
++                    + [{'role': 'one_run_admission', 'pin': request['admission']['pin']}]},
++            'runtime': {k: v['pin'] for k, v in request['runtime'].items()}},
++        'operator': {'capture': request['inputs']['capture']['pin'],
++            'ri73_result': request['inputs']['ri73_result']['pin'], 'ri73_gram_detail': detail_pin,
++            'shape': [8, T], 'row_identities': identities, 'gram': gram,
++            'inherited_gate_inventory': list(RI73_GATES), 'inherited_gates_all_passed': True},
++        'shift': shift, 'white_responses': responses, 'checks': checks(responses),
++        'limitations': list(LIMITATIONS)}
++
++
++def write_exclusive(path, result):
++    p = literal_path(path)
++    before = state(p.parent.lstat())
++    need(p.parent.is_dir() and not os.path.lexists(p), 'OUTPUT', 'output absent before exclusive open')
++    fd = os.open(str(p), os.O_WRONLY | os.O_CREAT | os.O_EXCL | os.O_NOFOLLOW, 0o600)
++    h, size = hashlib.sha256(), 0
++    with os.fdopen(fd, 'wb') as stream:
++        for block in json_chunks(result):
++            need(stream.write(block) == len(block), 'OUTPUT', 'complete output write')
++            h.update(block)
++            size += len(block)
++        stream.flush()
++        os.fsync(stream.fileno())
++        final = state(os.fstat(stream.fileno()))
++    need(state(p.lstat()) == final, 'CUSTODY', 'output descriptor/path binding')
++    parent = p.parent.lstat()
++    need((parent.st_dev, parent.st_ino) == before[:2], 'CUSTODY', 'output parent identity')
++    result_pin = {'bytes': size, 'sha256': h.hexdigest()}
++    read_bound({'path': path, 'pin': result_pin}, before=final)
++    return result_pin
++
++
++def run_white(request_body, expected_request_pin):
++    """One caller-admitted attempt. Returns success or refusal plus all postchecks.
++
++    On a later failure an exclusively created output remains unaccepted evidence;
++    it is neither removed nor overwritten. Caller must reject success artifacts
++    when this envelope is refused, incomplete or fails its own final custody.
++    """
++    ledger, first, result, output_pin = Ledger(), None, None, None
++    try:
++        pin(expected_request_pin)
++        equal(identity(request_body), expected_request_pin, 'INPUT', 'externally frozen request bytes')
++        request = parse(request_body)
++        references = request_check(request)
++        for role, record in references:
++            ledger.register(role, record)
++        ledger.read_all()
++        body, _ = read_bound(request['admission'], keep=True)
++        admission_check(parse(body), request)
++        del body
++        # Every whole source/input body pin was checked before scientific decode.
++        body, _ = read_bound(request['inputs']['ri73_result'], keep=True)
++        report = parse(body)
++        gram, detail_pin, reconstruction = ri73_operand(report)
++        del body, report
++        identities, shift, responses = assemble_white(request['inputs']['capture'], gram, reconstruction)
++        del reconstruction
++        result = actual_result(request, gram, detail_pin, identities, shift, responses)
++        output_pin = write_exclusive(request['output'], result)
++        ledger.register('output', {'path': request['output'], 'pin': output_pin})
++        _, ledger.entries[-1][2] = read_bound(ledger.entries[-1][1])
++    except Exception as exc:
++        first = exc
++    return finish_attempt(first, result, output_pin, ledger.finish())
++
++
++def finish_attempt(first, result, output_pin, postchecks):
++    """Shared actual tail; pure record logic is separately controllable."""
++    if first is None and not all(row['unchanged'] for row in postchecks):
++        first = W.ApplicationError('CUSTODY', 'one or more final source/input postchecks failed')
++    if first is not None:
++        refusal = {'schema': 'ri125-application-refusal-v1', 'status': 'REFUSED',
++            'phase': 'fixed_saved_application', 'stage': 'white',
++            'code': first.code if isinstance(first, W.ApplicationError) else 'FAILURE',
++            'message': (type(first).__name__ + ': ' + str(first))[:1024],
++            'scientific_disposition_emitted': False, 'postchecks': postchecks}
++        return {'result': None, 'output_pin': output_pin, 'refusal': refusal, 'postchecks': postchecks}
++    return {'result': result, 'output_pin': output_pin, 'refusal': None, 'postchecks': postchecks}
++
++
++def fabricated_white(capture, gram, *, case_id, context):
++    """Separate fabricated-only assembly. Never calls request or actual entry."""
++    equal(context, 'RI125_FABRICATED_ONLY_NOT_HISTORICAL', 'PHASE', 'fabricated context')
++    need(type(case_id) is str and case_id in ('W09_production_boundary_sparse',
++         'J01_four_rows_exact', 'J02_precision_inconclusive'), 'DOMAIN', 'fixed fabricated assembly case')
++    W.inherited_gram(gram, 8)
++    identities, shift, responses = assemble_white(capture, gram, None, fabricated=True)
++    return {'schema': 'ri125-fabricated-white-assembly-v1', 'phase': 'fabricated_qualification',
++            'case_id': case_id, 'context': context, 'capture': capture['pin'],
++            'gram': gram, 'row_identities': identities, 'shift': shift,
++            'white_responses': responses, 'historical_acceptance': None,
++            'physical_claim': False}
+--- sealed-predecessor/white_controls.py
++++ white-successor/white_controls.py
+@@ -0,0 +1,272 @@
++"""RI125 PRIMARY white controls, source only; never an independent validator.
++
++No import-time I/O or automatic execution. A future qualified caller supplies a
++new absent external directory. Every file here is a conspicuous fabricated
++control artifact. No actual result/capture/PSD is opened or admitted. Metadata
++guard candidates deliberately stop before any scientific historical detail.
++"""
++from pathlib import Path
++import copy
++import os
++import white_path as P
++
++W = P.W
++CONTEXT = 'RI125_FABRICATED_ONLY_NOT_HISTORICAL'
++
++
++def simple_gram():
++    return W.encode({'G': [[W.F(2)]], 'H': [[W.F(0)]], 'delta': W.F(0),
++        'inverse': [[W.F(1, 2)]], 'gamma': W.F(1, 2), 'rho': W.F(0)})
++
++
++def structural_mutation():
++    # Exactly WK38: earlier checks pass, final structural trace intersection fails.
++    shift = W.encode({'orientation': 'earlier_tail_times_later_head_transpose',
++        'center': [[W.F(3)]], 'error': [[W.F(0)]], 'direct': [[(W.F(3), W.F(3))]],
++        'midpoint_polarization': [[W.F(3)]], 'trace_center': W.F(3), 'trace_error': W.F(0)})
++    return W.derive_response(simple_gram(), shift, n=2)
++
++
++def rejected_header_scaffold():
++    """Metadata-only malformed candidate. Cannot pass reconstruction/Gram checks.
++
++    Never serialized as a historical body or passed through run_white. The
++    future qualifier mutates exactly one header/gate and verifies that earlier
++    first refusal, so the deliberately empty reconstruction is never decoded.
++    """
++    return {'schema_version': 'ri73-unit-white-operator-covariance-v1',
++        'mode': 'fixed_operator_covariance', 'status': 'fixed_operator_covariance_passed',
++        'full_integration_qualified': True, 'source_identity': dict(P.FIXED['ri73_source']),
++        'dependencies': {}, 'runtime': {}, 'inherited_arithmetic_contract': {},
++        'resource_contract': {}, 'model': {'kind': 'known_synthetic_unit_white',
++            'mean': 'zero', 'covariance': 'I_T', 'input_dimension': P.T, 'output_dimension': 8},
++        'dimensions': {'N': P.N, 'L': P.L, 'T': P.T}, 'rows': list(P.ROWS),
++        'sample_spacing': W.scalar(W.F(1, 4096)), 'gate_inventory': list(P.RI73_GATES),
++        'gate_counts': {'total': 92, 'passed': 92, 'failed': 0},
++        'gates': [{'id': x, 'passed': True, 'detail': {}} for x in P.RI73_GATES],
++        'deterministic_fixture_admission_passed': True, 'sampling_performed': False,
++        'admitted_coefficient_design_requested': True, 'reconstructed_rows_admitted': True,
++        'exact_scalar_encoding': 'MALFORMED_CONTROL_ONLY', 'scope': {'context': CONTEXT}}
++
++
++def metadata_request_scaffold(directory):
++    """Unadmitted metadata shape, no admission artifact and no actual input read."""
++    def reference(role, value=None):
++        return {'path': str(directory / ('unused-' + role)),
++                'pin': dict(value or {'bytes': 1, 'sha256': '0' * 64})}
++    request = {'schema': 'ri125-white-request-v1', 'phase': 'fixed_saved_application',
++        'inputs': {name: reference(name, P.FIXED[name]) for name in P.INPUT_ROLES},
++        'sources': {name: reference(name, P.DESIGN if name == 'design' else None)
++                    for name in P.SOURCE_ROLES},
++        'design_acceptance': reference('design-acceptance', P.DESIGN_ACCEPTANCE),
++        'qualification': reference('qualification'), 'custody': reference('custody'),
++        'runtime': {name: reference(name) for name in P.RUNTIME_ROLES},
++        'admission': reference('admission'), 'output': str(directory / 'unused-output.json')}
++    request['sources']['primary']['path'] = str(Path(P.__file__).resolve())
++    request['sources']['white_kernel']['path'] = str(Path(W.__file__).resolve())
++    return request
++
++
++def row_record(label):
++    zero = [['0', '1'], ['0', '1']]
++    return {'row': label, 'short': [copy.deepcopy(zero) for _ in range(P.N)],
++            'long': [copy.deepcopy(zero) for _ in range(P.T)]}
++
++
++def capture_bytes(rows, *, schema='ri125-fabricated-capture-v1'):
++    return P.serial({'dimensions': {'N': P.N, 'L': P.L, 'T': P.T},
++        'row_order': list(P.ROWS), 'rows': rows, 'schema': schema}, compact=True)
++
++
++def controls(directory):
++    """Construct future isolated calls in literal order; do not call them here."""
++    tasks = []
++    def case(name, code, message, action):
++        tasks.append((name, code, message, action))
++    def file(name, body):
++        p = directory / (name + '.fabricated')
++        with p.open('xb') as stream:
++            W.need(stream.write(body) == len(body), 'OUTPUT', 'complete fixture write')
++        return {'path': str(p), 'pin': P.identity(body)}
++    def request_change(action):
++        request = metadata_request_scaffold(directory)
++        action(request)
++        return P.request_check(request)
++    def header_change(action):
++        value = rejected_header_scaffold()
++        action(value)
++        return P.ri73_operand(value)
++    def capture_call(name, transform, *, complete=False):
++        rows = [row_record(x) for x in (P.ROWS if complete else [0])]
++        body = transform(rows)
++        record = file(name, body)
++        return list(P.capture_rows(record, fabricated=True))
++    case('WK38', 'STRUCTURAL', 'trace structural interval intersection', structural_mutation)
++    case('WC01', 'PHASE', 'actual phase before body decoding',
++         lambda: request_change(lambda x: x.update(phase='fabricated_qualification')))
++    case('WC02', 'SCHEMA', 'closed object keys', lambda: P.request_check({}))
++    case('WC03', 'INPUT', 'externally frozen request bytes',
++         lambda: P.run_white(b'{}', {'bytes': 3, 'sha256': '0' * 64}))
++    # WC03 tests the returned refusal envelope, rather than an exception.
++    case('WC04', 'INPUT', 'fixed historical pin capture',
++         lambda: request_change(lambda x: x['inputs']['capture']['pin'].update(sha256='0' * 64)))
++    case('WC05', 'SOURCE', 'closed object keys',
++         lambda: request_change(lambda x: x['sources'].pop('validator')))
++    case('WC06', 'SOURCE', 'loaded primary path',
++         lambda: request_change(lambda x: x['sources']['primary'].update(path=str(directory / 'not-primary.py'))))
++    case('WC07', 'SOURCE', 'loaded kernel path',
++         lambda: request_change(lambda x: x['sources']['white_kernel'].update(path=str(directory / 'not-kernel.py'))))
++    case('WC08', 'ADMISSION', 'exact root-bound card',
++         lambda: P.admission_check({}, metadata_request_scaffold(directory)))
++    case('WC09', 'INPUT', 'positive bounded pin length',
++         lambda: P.pin({'bytes': True, 'sha256': '0' * 64}))
++    case('WC10', 'INPUT', 'lowercase sha256',
++         lambda: P.pin({'bytes': 1, 'sha256': 'A' * 64}))
++    case('WC11', 'INPUT', 'literal absolute nonsymlink path', lambda: P.literal_path('relative'))
++    case('WC12', 'SCHEMA', 'duplicate JSON key', lambda: P.parse(b'{"v":1,"v":2}'))
++    case('WC13', 'EXACT', 'decimal or nonfinite JSON token', lambda: P.parse(b'{"v":0.5}'))
++    case('WC14', 'EXACT', 'decimal or nonfinite JSON token', lambda: P.parse(b'{"v":NaN}'))
++    case('WC15', 'SCHEMA', 'invalid bounded JSON', lambda: P.parse(b'{'))
++    case('WC16', 'RESOURCE', 'JSON integer text ceiling',
++         lambda: P.parse(b'{"v":' + b'9' * 65538 + b'}'))
++    def wrong_file_pin():
++        record = file('WC17', b'a')
++        record['pin'] = P.identity(b'b')
++        return P.read_bound(record)
++    case('WC17', 'INPUT', 'whole body pin', wrong_file_pin)
++    def changed_state():
++        record = file('WC18', b'a')
++        before = P.state(Path(record['path']).lstat())
++        Path(record['path']).write_bytes(b'bb')
++        return P.read_bound(record, before=before)
++    case('WC18', 'CUSTODY', 'path state changed', changed_state)
++    def symlink():
++        record = file('WC19-seed', b'a')
++        path = directory / 'WC19-link.fabricated'
++        path.symlink_to(record['path'])
++        return P.read_bound({'path': str(path), 'pin': record['pin']})
++    case('WC19', 'INPUT', 'literal absolute nonsymlink path', symlink)
++    def hardlink():
++        record = file('WC20-seed', b'a')
++        path = directory / 'WC20-link.fabricated'
++        os.link(record['path'], path)
++        return P.read_bound({'path': str(path), 'pin': record['pin']})
++    case('WC20', 'INPUT', 'regular single-link source or input', hardlink)
++    case('WC21', 'RI73', 'full inherited header mode',
++         lambda: header_change(lambda x: x.update(mode='fixtures_only')))
++    case('WC22', 'RI73', 'full inherited header source_identity',
++         lambda: header_change(lambda x: x.update(source_identity={'bytes': 1, 'sha256': '0' * 64})))
++    case('WC23', 'RI73', 'full inherited header gate_inventory',
++         lambda: header_change(lambda x: x['gate_inventory'].reverse()))
++    case('WC24', 'RI73', 'full inherited header gate_counts',
++         lambda: header_change(lambda x: x['gate_counts'].update(passed=91)))
++    case('WC25', 'SHAPE', 'exact list length', lambda: header_change(lambda x: x['gates'].pop()))
++    case('WC26', 'RI73', 'literal 92-gate order',
++         lambda: header_change(lambda x: x['gates'][0].update(id='fixture:wrong')))
++    # Every historical gate bit is individually required, in the frozen order.
++    for index, name in enumerate(P.RI73_GATES):
++        case('WG%02d' % (index + 1), 'RI73', 'all inherited gates passed with details',
++             lambda index=index: header_change(lambda x: x['gates'][index].update(passed=False)))
++    case('WC27', 'PHASE', 'actual capture forbidden in fabrication',
++         lambda: list(P.capture_rows({'path': str(directory / 'never-opened'),
++                                     'pin': dict(P.FIXED['capture'])}, fabricated=True)))
++    case('WC28', 'ROW', 'literal capture header',
++         lambda: capture_call('WC28', lambda rows: capture_bytes(rows).replace(b'"N":2769', b'"N":2768', 1)))
++    case('WC29', 'ROW', 'fixed row order',
++         lambda: capture_call('WC29', lambda rows: capture_bytes([{**rows[0], 'row': True}])))
++    case('WC30', 'ROW', 'closed object keys',
++         lambda: capture_call('WC30', lambda rows: capture_bytes([{**rows[0], 'extra': None}])))
++    case('WC31', 'SHAPE', 'exact list length',
++         lambda: capture_call('WC31', lambda rows: capture_bytes([{**rows[0], 'short': []}])))
++    case('WC32', 'CANONICAL', 'compact row encoding',
++         lambda: capture_call('WC32', lambda rows: capture_bytes(rows).replace(b'"row":0', b'"row": 0', 1)))
++    case('WC33', 'SCHEMA', 'duplicate JSON key',
++         lambda: capture_call('WC33', lambda rows: capture_bytes(rows).replace(b'"row":0', b'"row":0,"row":0', 1)))
++    def invalid_interval(rows):
++        rows[0]['long'][0] = [['1', '1'], ['0', '1']]
++        return capture_bytes(rows)
++    case('WC34', 'INTERVAL', 'ordered endpoints', lambda: capture_call('WC34', invalid_interval))
++    def invalid_scalar(rows):
++        rows[0]['long'][0][0] = ['00', '1']
++        return capture_bytes(rows)
++    case('WC35', 'EXACT', 'canonical signed hex', lambda: capture_call('WC35', invalid_scalar))
++    case('WC36', 'ROW', 'row separator', lambda: capture_call('WC36', capture_bytes))
++    case('WC37', 'ROW', 'capture footer and ninth-row exhaustion',
++         lambda: capture_call('WC37', lambda rows: capture_bytes(rows + [row_record(0)]), complete=True))
++    case('WC38', 'ROW', 'trailing capture bytes',
++         lambda: capture_call('WC38', lambda rows: capture_bytes(rows) + b'\n', complete=True))
++    case('WC39', 'ROW', 'capture footer and ninth-row exhaustion',
++         lambda: capture_call('WC39', lambda rows: capture_bytes(rows, schema='ri125-fabricated-capture-v0'), complete=True))
++    def row_cap():
++        import io
++        return P.RowReader(io.BytesIO(b'{"x":"' + b'x' * P.ROW_LIMIT)).row()
++    case('WC40', 'RESOURCE', 'capture row byte ceiling', row_cap)
++    case('WC41', 'BINDING', 'capture vector identity tied to accepted RI73 result',
++         lambda: P.bind_row({'vectors': {'control': 1}, 'row_identity': {'a_row_sum_interval': []}},
++                           {'vector_identities': [{'control': 2}], 'constant_row_sum_intervals': [[]]}, 0))
++    case('WC42', 'BINDING', 'complete row sum tied to accepted RI73 result',
++         lambda: P.bind_row({'vectors': {}, 'row_identity': {'a_row_sum_interval': [0]}},
++                           {'vector_identities': [{}], 'constant_row_sum_intervals': [[1]]}, 0))
++    def existing_output():
++        record = file('WC43', b'preserve-me')
++        return P.write_exclusive(record['path'], {'context': CONTEXT})
++    case('WC43', 'OUTPUT', 'output absent before exclusive open', existing_output)
++    case('WC44', 'RESOURCE', 'serialized byte ceiling',
++         lambda: list(P.json_chunks({'oversize': 'x' * P.LIMIT})))
++    case('WC45', 'PHASE', 'fabricated context',
++         lambda: P.fabricated_white({}, {}, case_id='W09_production_boundary_sparse', context='actual'))
++    case('WC46', 'DOMAIN', 'fixed fabricated assembly case',
++         lambda: P.fabricated_white({}, {}, case_id='invented', context=CONTEXT))
++    return tasks, file
++
++
++def run_controls(directory):
++    """Future PRIMARY-only control execution; no independent-result claim."""
++    root = P.literal_path(directory)
++    W.need(root.parent.is_dir() and not os.path.lexists(root), 'OUTPUT', 'new control directory')
++    root.mkdir(mode=0o700)
++    tasks, file = controls(root)
++    results = []
++    for name, code, message, action in tasks:
++        observed_code, observed_message = None, None
++        try:
++            value = action()
++            if name == 'WC03' and type(value) is dict and type(value.get('refusal')) is dict:
++                observed_code = value['refusal']['code']
++                # run_white preserves exception class and its code in the message.
++                observed_message = value['refusal']['message'].split(': ', 2)[-1]
++        except W.ApplicationError as exc:
++            observed_code = exc.code
++            observed_message = str(exc).split(': ', 1)[-1]
++        except Exception as exc:
++            observed_code = type(exc).__name__
++            observed_message = str(exc)[:1024]
++        results.append({'id': name, 'expected_code': code, 'expected_message': message,
++                        'observed_code': observed_code, 'observed_message': observed_message,
++                        'passed': observed_code == code and observed_message == message})
++    # Three positive tail controls exercise the exact actual tail functions.
++    a, b = file('WT01-a', b'a'), file('WT01-b', b'b')
++    ledger = P.Ledger()
++    ledger.register('first', a)
++    ledger.register('second', b)
++    ledger.read_all()
++    Path(a['path']).write_bytes(b'changed')
++    postchecks = ledger.finish()
++    results.append({'id': 'WT01', 'passed': len(postchecks) == 2
++                    and postchecks[0]['unchanged'] is False
++                    and postchecks[1]['unchanged'] is True, 'postchecks': postchecks})
++    refused = P.finish_attempt(W.ApplicationError('EXACT', 'first-error'), None, None, postchecks)
++    results.append({'id': 'WT02', 'passed': refused['refusal']['code'] == 'EXACT'
++                    and refused['result'] is None and refused['postchecks'] == postchecks,
++                    'refusal': refused['refusal']})
++    late = P.finish_attempt(None, {'context': CONTEXT}, None, postchecks)
++    results.append({'id': 'WT03', 'passed': late['refusal']['code'] == 'CUSTODY'
++                    and late['result'] is None and late['postchecks'] == postchecks,
++                    'refusal': late['refusal']})
++    return {'schema': 'ri125-primary-white-controls-v1', 'phase': 'fabricated_qualification',
++            'context': CONTEXT, 'actual_scientific_input_opened': False,
++            'independent_validator_run': False, 'controls': results,
++            'counts': {'total': len(results), 'passed': sum(x['passed'] for x in results),
++                       'failed': sum(not x['passed'] for x in results)},
++            'status': 'all_declared_controls_passed' if all(x['passed'] for x in results)
++                      else 'control_failure'}
+--- sealed-predecessor/CONTRACT.md
++++ white-successor/CONTRACT.md
+@@ -1,4 +1,4 @@
+-# RI125 exact joint-window application: source contract, revision 1
++# RI125 exact joint-window application: source contract, revision 2
+ 
+ 27 September 2026 UTC. Source preparation only. The implementation packet is
+ incomplete until every item in PREPARATION_RECORD.md is finished and independently
+@@ -47,7 +47,8 @@
+ functions with real bodies. No test writes a fake historical acceptance.
+ 
+ `Provenance` has keys sources,inputs,acceptance,runtime. sources is exactly
+-{design:Pin,contract:Pin,primary:Pin,white_kernel:Pin,validator:Pin,qualifier:Pin}; inputs is an
++{design:Pin,contract:Pin,primary:Pin,white_kernel:Pin,validator:Pin,qualifier:Pin,
++cases:Pin,kernel_refusals:Pin,white_refusals:Pin,fabricated_interfaces:Pin}; inputs is an
+ ordered list of {role:literal,pin:Pin}; acceptance is
+ {design:Pin,qualification:MaybePin,custody:MaybePin,dependencies:list of
+ {role:literal,pin:Pin}}; runtime is {fingerprint:Pin,inventory:Pin,interpreter:Pin}.
+@@ -55,8 +56,10 @@
+ dependencies. Actual provenance needs genuine root-approved references and
+ full external original/copy/source/runtime/history custody. Fixed actual body
+ pins are checked in source before parsing. A Pin alone is not execution truth.
+-The final implementation's stable source pins are bound only after completion;
+-this partial packet does not have a permissible actual entry path.
++The final implementation's stable source pins are bound only after completion.
++The new white entry source is present, but no permissible actual admission is
++supplied: complete separately authored validator, qualifier and caller remain
++required. No actual entry is called during preparation.
+ 
+ ## 2. White kernel and result
+ 
+@@ -129,8 +132,9 @@
+ both descriptor/path before/after identities and hash the complete consumed body.
+ Maximum capture 64 MiB, each row 8 MiB. Only the two strips survive each row;
+ actual head/tail equal long rows because they are outside short support. No
+-actual capture is parsed during preparation. These wrappers are not supplied
+-by `white_kernel.py` and are unfinished in this source-progress checkpoint.
++actual capture is parsed during preparation. These wrappers are supplied by
++the new unexecuted `white_path.py`, not by `white_kernel.py`. Their independent
++source review and fabricated qualification remain pending.
+ 
+ ## 3. Periodic result
+ 
+@@ -273,8 +277,124 @@
+ 6. Nominal V2/C02, blank Yunits, clear L1 NO_CW_HW_INJ, possible injection effects and below-10-Hz calibration remain unresolved.
+ 7. No significance, fitted model, calibrated measurement, native forward map or geometry/gravity result is established; RET remains paused.
+ 
+-Actual fixed predecessor pins, complete field extraction, all 92 literal RI73
+-ids, the full independently authored validator, complete qualifier and actual
+-input/refusal serialization wrappers are still required source before this
+-packet can be adjudicated complete. Their absence is recorded openly, not
+-filled with placeholders or delegated to an unreviewed runtime importer.
++Actual fixed predecessor pins, full inherited header/Gram extraction, all 92
++literal RI73 ids, bounded complete capture decoding and white assembly/refusal
++wrappers are now source-defined. They are unexecuted. The independent validator,
++full qualifier, periodic and join executables, and root-reviewed caller/source/
++runtime/history admission remain required before complete packet acceptance.
++
++## 7. White wrapper boundary and exact request (new, unexecuted)
++
++`FileRef` is exactly {path:absolute literal resolved nonsymlink path, pin:Pin}.
++Every file must be regular, single-link, nonempty and <=64 MiB. The prospective
++interpreter FileRef is its resolved regular executable, not a symlink spelling;
++the root caller separately binds the selected executable and its normal/-O
++invocation. The accepted host-platform and installed-source/cache premises,
++complete runtime namespace/selection custody, source capture/load/parse and
++outer watchdog still belong to that caller. This wrapper is not a runtime
++inventory or approval service. No interpreter is launched by this source.
++
++`WhiteRequest` has exactly {schema:"ri125-white-request-v1",
++phase:"fixed_saved_application",inputs,sources,design_acceptance:FileRef,
++qualification:FileRef,custody:FileRef,runtime,admission:FileRef,output:absolute
++literal absent path}. inputs has exactly these FileRef keys in provenance order:
++capture,ri73_result,ri73_source,ri73_reconciliation,ri73_final_review,
++ri73_audit_freeze. Their six literal whole-body pins are fixed in white_path.py.
++The reconciliation and complete independent review bind the actual snapshot to
++the full accepted report and arithmetic audit. The exact pinned audit freeze
++retains their original receipts/source closure. These three metadata bodies are
++verified as opaque originals; their authority is the already accepted historical
++review, not new source-only re-adjudication or numeric parsing of a display rho.
++
++sources is the ten-role FileRef map from section 1. `primary` is white_path.py;
++`white_kernel` is the preserved kernel. `white_refusals` is the executable
++white_controls.py (its complete literal control inventory is also documented in
++WHITE_REFUSALS.md, which is bound through the source-contract manifest used by
++the caller). `cases` is CASES.md and `fabricated_interfaces` is its companion.
++The future complete qualifier binds every remaining protocol/text manifest,
++including WHITE_REFUSALS.md and KERNEL_REFUSALS.md, in its full root-owned source
++closure. `kernel_refusals` names KERNEL_REFUSALS.md. No primary source imports
++the independent validator or qualifier; their complete reviewed bodies and
++actual accepted qualification are mandatory input bindings.
++
++runtime has exactly fingerprint,inventory,interpreter FileRefs. The complete
++inventory bytes and associated installed closure are adjudicated by root,
++not traversed by this application. `custody` is a genuine new root adjudication
++binding this exact application/source/qualification/history/runtime; it is not
++an old numeric result relabeled as current permission. The root-owned caller
++must check its semantic authority and source/input selection before import.
++The wrapper independently hashes every required file both before numeric decode
++and on exit. A correctly formatted dictionary alone does not constitute root
++authorization, source approval, qualification, transitive-history coverage,
++runtime applicability, or genuine execution.
++
++`WhiteAdmission` exactly matches white_path.admission_check's literal object:
++schema:"ri125-white-admission-v1",phase:"fixed_saved_application",
++status:"ROOT_ADMITS_ONE_WHITE_RUN",inputs:the six Pin map,sources:the ten Pin map,
++design_acceptance:Pin,qualification:Pin,custody:Pin,runtime:three Pin map,
++output:same literal path,limits:{seconds:180,sampled_rss_kib:524288,poll_ms:25,
++max_gap_ms:100,ps_timeout_ms:50},history_and_runtime_adjudicated_by_root:true,
++protected_validation:false,physical_covariance_accepted:false,ret_paused:true.
++This packet supplies its **schema only**, no card/template with active values.
++The request is pinned externally by the caller after the admission is fixed,
++avoiding a circular request/admission hash. Function
++`run_white(request_body:bytes,expected_request_pin:Pin)` checks that external
++pin before request parsing, rejects any nonactual phase before operand body
++decoding, validates all fixed pins and source paths, and then hashes every
++required full file. Only after exact admission binding does it parse RI73.
++
++The loaded primary/kernel paths must match the source references. Matching
++path/file bytes does not itself establish already-loaded-code equivalence:
++the accepted prospective capture/load/parse caller supplies that prerequisite.
++No dynamic source import, own-source execution, alternate science module or
++fallback loader is provided here.
++
++`ri73_operand` checks every full-result top-level key, fixed mode/status,
++source identity, row/dimension/model/sample-spacing and admission flags; all
++92 exact gate ids/order/true flags; complete integration reconstruction
++metadata; exact accepted Gram certificate keys; mathematical/accuracy detail
++records; and all tiny Gram consistency checks. The full accepted report pin
++authenticates other historical details; no fixture or Gaussian CDF is rerun.
++For every captured row, the wrapper independently recomputes the complete
++short/long array identity using the historical compact encoding and compares
++it to that report's `vector_identities`. It decodes all 109840 intervals,
++preserves every endpoint, compares the complete row-sum interval, and only
++retains head/tail strips after the row. The parser explicitly consumes the
++eighth row, expected footer and end of file, rejects a ninth row, and checks
++the entire consumed body plus descriptor/path states. Head/tail have 2769
++entries each and are outside short support. Gram parentage is inherited through
++the accepted full report/capture/audit chain; it is not reconstructed or assumed
++from arbitrary same-shaped matrices. Shift is always newly derived in the same
++call and no saved Shift input is accepted by the wrapper.
++
++The output is exclusive, bounded canonical JSON; file and directory identity
++are checked after closing and the output is again checked with all required
++input/source references at exit. Every registered postcheck is attempted
++independently, even when an earlier read/computation/write/postcheck failed.
++The first substantive exception is retained. Any later failure invalidates
++scientific success, without deleting or overwriting a retained partial output.
++The caller must reject any file from a refused/incomplete attempt.
++
++Return envelope is exactly {result:WHITE_COUPLING object|null,
++output_pin:Pin|null,refusal:Refusal|null,postchecks:list of Postcheck}. On
++success refusal=null; on refusal result=null. A nonnull output_pin on refusal
++describes a retained **unaccepted** file, not a scientific disposition.
++Refusal scientific_disposition_emitted=false means no accepted scientific
++disposition, even if a later postcheck invalidated an already written file.
++The caller must preserve this envelope, raw stdout/stderr, partial artifacts
++and genuine final completion and perform its own final custody before accepting
++the result. No automatic retry, reprecision, threshold change or cleanup exists.
++
++## 8. Coverage repairs and remaining work
++
++F01–F04 are addressed as source specifications in CASES.md revision 2,
++KERNEL_REFUSALS.md WK38, FABRICATED_INTERFACES.md and white_controls.py.
++They are **not executed coverage**. The new white-control source is primary
++qualification infrastructure only; it is not an independently authored oracle.
++The independent author must implement full-field reconstruction and its own
++controls without importing primary arithmetic/parser/expected dictionaries.
++The unchanged rho gate and new eps gate have different semantics; negative
++periodic lower endpoints are retained. All periodic/join/mean-error executable
++interfaces above remain expressly unimplemented subsequent work. No source,
++qualification, actual covariance contraction or physical result is accepted by
++this source checkpoint.
+--- sealed-predecessor/CASES.md
++++ white-successor/CASES.md
+@@ -12,7 +12,9 @@
+ define fixture construction only and are independently checked. No inversion
+ of an actual operator occurs. All-zero A uses only the shift primitive.
+ 
+-The literal case order is the W01–W10, P01–P09, N01–N05, J01–J02 order below.
++Revision 2 adds W11–W15 and P10. The literal case order is W01–W15,
++P01–P10, N01–N05, J01–J02 (32 cases). All remain unexecuted recipes.
++FABRICATED_INTERFACES.md fixes their distinct typed operand/result interfaces.
+ 
+ ## White cases
+ 
+@@ -49,7 +51,46 @@
+   accuracy_failed. These explicitly fabricated bound pairs exercise the
+   inclusive sufficient gate; they are not claimed derived actual Gram data.
+ 
+-## Periodic cases
++### Required additional white recipes (F01 and F04)
++
++- **W11_asymmetric_rational_radii**: shift only, r=2,T=3,d=2. Row 0
++  head=[1/3,2/3], tail=[-3/7,-1/7]; row 1 head=[-2/5,1/5],
++  tail=[2/11,2/11]. Each strip contains one interval. The reference must
++  independently enumerate the four products for each directed entry and
++  separately compute its midpoint and all three absolute error terms. In
++  particular E[0,1] and E[1,0] are both nonzero and unequal. All four directed
++  K/E/direct/polarization entries and both traces are compared; no Gram is
++  supplied and no off-diagonal error may be replaced by zero.
++- **W12_sparse_lifted_denominators**: shift only, actual eight row labels and
++  (T,d)=(10961,8192). All head/tail coordinates are [0,0] except these literal
++  entries (indices below are local strip indices, not raw sample indices):
++  row 0 head[0]=[1/3,2/3], head[2768]=[-1/5,-1/5],
++  tail[0]=[-3/7,-1/7], tail[2768]=[2/11,3/11];
++  row 1 head[0]=[-2/5,1/5], head[2768]=[1/13,2/17],
++  tail[0]=[2/11,2/11], tail[2768]=[-1/19,1/23];
++  row 2 head[1]=[1/13,1/13], tail[1]=[-1/17,1/19].
++  Rows 3–7 are zero. This fixture has mixed zero/nonzero radii, unequal
++  endpoint denominators and unequal denominators between coordinates, rows
++  and head/tail. The independent reference uses reduced integer pairs and
++  per-coordinate endpoint products directly, never the primary's row lifts.
++  It reconstructs all 64 entries and both traces, including zero entries.
++- **W13_full_response_below**, **W14_full_response_equal** and
++  **W15_full_response_above** use q=10^-12-10^-24, q=10^-12 and
++  q=10^-12+10^-24 respectively. Eight complete exact fabricated rows have
++  A[i,3000+2i]=1, A[i,3001+2i]=-1, all other coordinates zero; short rows
++  are zero. Hence G=2I, inverse=I/2, gamma=1/2 and both complete strips
++  are zero. Declare the valid deliberately loose bound H=hI with
++  h=12q/(7+6q), delta=h, rho=h/2. It encloses the exact Omega=G; it is
++  explicitly not a radius-derived RI73 certificate. For the complete n=7
++  response, K=E=0, center=(12/7)I, error=(6h/7)I,
++  ell=(72/49)*(1-h/2), delta_response=6h/7, eps=q.
++  The inherited rho remains below 10^-12 in all three cases. The new
++  usefulness states are passed, passed, accuracy_failed. Preserve every
++  response field including both trace routes and structural interval.
++  These are full response operands, not edits to eps or a returned state.
++  W10's standalone predicate cases are retained independently.
++
++## Periodic recipes
+ 
+ All tiny periodic cases have M=4,d=2,one output and exact orthonormal DFT
+ convention. A latent vector has independent equiprobable signs unless a stated
+@@ -78,12 +119,30 @@
+   Exact odd error=3/16,even error=3/8,total center=5,error=9/16;
+   h center=1,periodic interval=[29/16,35/16],naive=[23/16,41/16].
+   This deliberately declared mode-term fixture is not presented as a Q256
+-  transformation; the Q256 reconstruction path is covered by P01–P07/P09.
++  transformation; Q256 reconstruction is separately specified by P01–P07,
++  P09 and the nonzero-width/alpha P10.
+ - **P09_production_zero_spectra**: actual eight row labels, M=16384 and four
+   scenario ids. Every row Q256 rectangle and alpha is zero; every original
+   PSD bin is binary64 +0.0. Generate all 65544 rectangles, 8192 mode records,
+   32772 PSD bins and exact original array identities; all contributions zero.
+   Preserve all rows/bins/phase labels; fabricate no RI96/RI100 acceptance pin.
++- **P10_nonzero_q256_width_alpha**: explicitly fabricated component-error
++  reconstruction primitive with M=4, n=2, p=q=1 and lambda_1=lambda_2=1.
++  Encode endpoints as exact integers times 2^256: k=1 real=[1/4,3/4],
++  imaginary=[-1/8,3/8], alpha=1/4; k=2 real=[-1/2,1/2], imaginary=[0,0],
++  alpha=1/8. Interior pair weight is 2; Nyquist weight is 1 and only its
++  real component is active. This is a component-enclosure algebra fixture,
++  not a claimed DFT reconstruction of an actual captured row.
++  The independent author must recompute each component's center, tau error
++  and alpha error from raw endpoint integers, then every even/odd aggregate
++  with the direct centered weight. The stated odd center is 17/32,
++  odd tau error 7/8, odd alpha error 11/8, total odd error 9/4;
++  even center=0, even tau error=1/4, even alpha error=9/64.
++  The primary centered interval is [-55/32,89/32], so its negative lower
++  endpoint is mandatory and must not be zero-clipped. Include the complete
++  raw marginal, raw cross, naive difference and containment/width fields.
++  This newly specified path closes P08's intentional bypass of rectangle
++  reconstruction; P08 remains a separate aggregation-only case.
+ 
+ ## Mean and calibration boundary cases
+ 
+@@ -122,7 +181,7 @@
+   Only conditional_comparison_precision_inconclusive is valid; no missing
+   dependency or inconsistent edited output is accepted.
+ 
+-The implementation must retain all 26 case operands and outputs, with complete
++The implementation must retain all 32 case operands and outputs, with complete
+ typed primary/independent equality. Tiny enumerations and endpoint products are
+ future qualifier code, not actions performed to write this file. The production
+ sized recipes test framing/exhaustion with fabricated entries only. No case
+--- sealed-predecessor/KERNEL_REFUSALS.md
++++ white-successor/KERNEL_REFUSALS.md
+@@ -1,6 +1,6 @@
+ # RI125 primary white kernel first-refusal inventory — unexecuted
+ 
+-This freezes the 37 concrete isolated controls for the implemented pure white
++This revision freezes 38 concrete isolated controls for the implemented pure white
+ kernel only. It is **not** the complete packet's future qualifier inventory.
+ Wrapper/parser/custody, periodic, join and independently authored validator
+ controls remain source work; no missing branch is claimed covered here.
+@@ -50,6 +50,7 @@
+ | WK35 | div(F(1),F(0)) | ZERO_DIVISOR |
+ | WK36 | mul(F(2^262143),F(4)): legal operands, oversized completed result | RESOURCE |
+ | WK37 | Gram G=[[-2]],inverse=[[-1/2]],H=0,delta=rho=0,gamma=1/2: inverse identities hold but positive LDL fails | GRAM |
++| WK38 | Keep W01's valid Gram; replace Shift.center, midpoint_polarization and trace_center by 3, direct by [3,3], and retain E=trace_error=0. Call derive_response(...,n=2). All earlier checks pass, but its trace -1/2 misses structural [1/2,3/2]. This intentionally inconsistent operator pairing is refused; it is not an admitted physical operand. | STRUCTURAL |
+ 
+ Here S(q) denotes the stipulated reduced hexadecimal encoding of exact rational
+ q, and F denotes a future exact Fraction construction, not an executed call.
+@@ -65,4 +66,7 @@
+ comparison paths; PSD/source identities, parity and endpoint conventions;
+ complete historical M-key projection and nuisance statuses; exclusive outputs,
+ unchanged full source/input postchecks, and resource/failure tails. Those are
+-explicitly unfinished and cannot be replaced by these 37 source-defined names.
++explicitly unfinished and cannot be replaced by these 38 source-defined names.
++WHITE_REFUSALS.md and white_controls.py now supply the bounded white-wrapper
++controls. WK38 is also a concrete call in that source; the future separate
++validator must execute its own corresponding mutation independently.
+--- sealed-predecessor/FABRICATED_INTERFACES.md
++++ white-successor/FABRICATED_INTERFACES.md
+@@ -0,0 +1,133 @@
++# RI125 fabricated interfaces, revision 1 — source only
++
++These interfaces are separate from actual WhiteOperator, PeriodicScenario,
++APPLICATION_COMPARISON, RI73 results and historical acceptance. Nothing here
++has been generated or executed. Literal case identifiers and order are CASES.md
++revision 2. All objects have exactly the listed keys; all Int/S/I/Gram/Shift/
++WhiteResponse types and bounded canonical JSON follow CONTRACT.md. Context is
++always `RI125_FABRICATED_ONLY_NOT_HISTORICAL`, phase is always
++`fabricated_qualification`, historical_acceptance is always null and
++physical_claim is always false. These four fields are present in every result.
++No fabricated function calls the actual `run_white` entry point or supplies an
++accepted-looking fake historical receipt. Refused malformed interface candidates
++are explicit control inputs, not acceptance artifacts.
++
++## White primitives and complete assembly
++
++`WhiteFixture` is {schema:"ri125-fabricated-white-operands-v1",context,
++case_id,domain:{r:Int,T:Int,d:Int},strips:StripRows,gram:Gram|null,
++n_order:list of allowed n,full_rows:list|null}. `full_rows`, when present, is
++exactly eight {row:fixed label,short:Vec(I,2769),long:Vec(I,10961)} records.
++It is present for W09,W13–W15,J01,J02, absent (null) otherwise.
++W01–W05 use one response with their stated n; W06–W08/W11/W12 are shift-only
++(gram=null,n_order=[]); W09/J01/J02 have n_order=[7,6]; W13–W15 use [7].
++W10 instead uses the distinct BoundFixture below. The full rows and strips
++must be independently reconciled for the complete-row cases. A deliberately
++loose Gram error matrix is labeled in the literal case recipe; it is never
++claimed to come from an inherited actual row-radius calculation.
++
++`WhiteFixtureResult` has keys schema:"ri125-fabricated-white-primitive-v1",
++phase,context,case_id,domain,gram,shift,responses,historical_acceptance,
++physical_claim. Domain/gram are exact copies of the validated operand; responses
++is the complete ordered list of WhiteResponse, empty for shift-only cases.
++No production provenance, accepted input pin or passed RI73 gate is fabricated.
++The eventual qualifier constructs this envelope around the pure kernel calls;
++the separate validator derives every field with its own parser/arithmetic.
++
++`BoundFixture` is {schema:"ri125-fabricated-bound-operands-v1",context,
++case_id:"W10_usefulness_boundaries",pairs:Vec({delta:S,ell:S},4)}.
++`BoundResult` has keys schema:"ri125-fabricated-bound-result-v1",phase,context,
++case_id,results:Vec({delta:S,ell:S,eps:S,usefulness_state:literal},4),
++historical_acceptance,physical_claim.
++
++Full capture framing is the production compact dimensions/row_order/rows
++encoding, but has schema **ri125-fabricated-capture-v1** at the footer. The
++fixed actual capture pin is forbidden before any row decoding in this route.
++`fabricated_white(capture:FileRef,gram:Gram,case_id,context)` is implemented
++only for W09/J01/J02 and returns the exact `FabricatedAssembly` object:
++{schema:"ri125-fabricated-white-assembly-v1",phase,case_id,context,capture:Pin,
++gram:Gram,row_identities:Vec(RowIdentity,8),shift:Shift,
++white_responses:[WhiteResponse(7),WhiteResponse(6)],historical_acceptance,
++physical_claim}. This is not a production WHITE_COUPLING result and contains
++no source/runtime acceptance. Source helper `assemble_white(...,fabricated=True)`
++uses the full framing/count/endpoint/resource checks but cannot authenticate
++Gram parentage; the independent fabricated qualifier owns that derivation.
++
++## Periodic primitives (executable implementation still pending)
++
++`PeriodicFixture` is {schema:"ri125-fabricated-periodic-operands-v1",context,
++case_id,M:4|16384,rows:list of Int,n:Int,p:Int,q:Int,
++kind:"rectangles"|"terms",lambda:list of S,dc:list|null,
++rectangles:list|null,terms:list|null}.
++n is exactly the case recipe value, including 2 and 3 in tiny cases. There are
++M/2 modes in increasing k=1..M/2 order and all recorded row labels are retained.
++Rectangles mode uses records {k:Int,rows:list of
++{row:Int,real:Vec(Int,2),imaginary:Vec(Int,2),alpha:S}}. Integer endpoints are
++Q256 fixed-point endpoints. `dc` has exactly the same row records without k;
++all its real/imaginary endpoints and alpha are zero in these fixed recipes.
++It is retained separately and is not one of the M/2 contributing modes. Terms
++is null. In terms mode (P08 only), dc and rectangles
++are null and terms is the full ordered list {k:Int,center:S,error_tau:S,
++error_alpha:S}. lambda has exactly M/2 entries and is retained even where a
++center is zero. P09 produces four independent scenario fixtures with fixed
++scenario order. Its 8 DC plus 8*8192 non-DC rectangles retain the stated 65544
++complete row/mode records. For each tiny rectangle case and all four P09 cases,
++the complete PSD fixture is separately retained as {schema:
++"ri125-fabricated-psd-v1",context,case_id,scenario_id:string|null,fs:4096,
++M:4|16384,dtype:"<f8",shape:[M/2+1],bins:Vec(canonical float.hex,M/2+1),
++raw_array_pin:Pin}. The pin covers all little-endian binary64 bins including
++DC and Nyquist. Tiny scenario_id=null; P09 uses its exact four ids. These
++fixture bins are explicitly prescribed in CASES.md, never fetched or fitted.
++P10 uses the same unit-eigenvalue PSD as P01. P08 is terms-only and has no
++claimed reconstructed PSD fixture. The source-only white successor does not
++implement these future spectral writers or parse any actual PSD.
++
++`ComponentTerm` is {midpoint:S,radius:S,center:S,error_tau:S,error_alpha:S,
++active:bool}. For Nyquist imaginary, active=false and **all five scalars are
++zero**, regardless of the saved zero rectangle; no imaginary alpha contribution
++is silently included. `ModeTerm` is {k:Int,pair_weight:1|2,lambda:S,rows:list of
++{row:Int,real:ComponentTerm,imaginary:ComponentTerm},center:S,error_tau:S,
++error_alpha:S,error:S}. For P08, rows=[] explicitly records its component bypass.
++
++`PeriodicFixtureResult` has keys schema:"ri125-fabricated-periodic-result-v1",
++phase,context,case_id,M,rows,n,p,q,dc:the complete operand dc record or null,
++mode_terms:list of ModeTerm,even:Parity,
++odd:Parity,total:{center:S,error_tau:S,error_alpha:S,error:S},raw_marginal:I,
++raw_cross:I,factor:S,centered:I,naive_difference:I,
++checks:{full_sums_match:true,primary_within_naive:true,width_bound:true},
++historical_acceptance,physical_claim. Its full mode/row fields are reconstructed
++independently; nothing imports primary expected dictionaries. It has no actual
++source_identity, retained_final_trace or claimed physical adequacy. P09 wraps
++four such results in {schema:"ri125-fabricated-four-periodic-v1",phase,context,
++case_id,scenario_order:fixed list,scenarios:Vec({id:fixed,result:PeriodicFixtureResult},4),
++historical_acceptance,physical_claim}. Primary negative endpoints are retained.
++
++## Nuisance and join primitives (executable implementation still pending)
++
++`NuisanceResult` is {schema:"ri125-fabricated-nuisance-result-v1",phase,context,
++case_id,kind:"constant_mean"|"nonconstant_mean"|"calibration_constant"|
++"covariance_error"|"calibration_error",output_means:list of S,
++population_mean_energy:S|null,covariance_energy:S|null,total_energy:S|null,
++model:S|null,truth:S|null,absolute_difference:S|null,bound:S|null,
++historical_acceptance,physical_claim}. N01 has output_means=[0,0],
++population_mean_energy=0,covariance_energy=total_energy=3/2, other optional
++fields null. N02 has [-4,-12,-20],128/3,16/9,400/9 respectively. N03 has
++output_means=[-1], with all optional fields null. N04/N05 have output_means=[];
++the three energies are null, model/truth/difference/bound are the literal
++CASE values (1,2,1,1 and 1,4,3,3). These are exact primitive results, not
++nominal strain measurements. Future sign enumeration retains every sign result
++in separate typed fixture artifacts and checks those exact aggregates.
++
++`FabricatedJoinOperands` is {schema:"ri125-fabricated-join-operands-v1",context,
++case_id,white:FabricatedAssembly,periodic:FabricatedFourPeriodic,
++historical:list of {id,starts,n,rows,energy:{U:I,M:I,V:I},trace:{id,interval:I,
++source_identity:Pin,model:"fabricated_comparison_only",units:"fabricated_units"}}}.
++The pins refer only to explicit fabricated bodies. `FabricatedJoinResult` is
++{schema:"ri125-fabricated-join-result-v1",phase,context,case_id,
++status:"conditional_comparison_complete"|"conditional_comparison_precision_inconclusive",
++scenarios:list of {id,starts,n,rows,historical:the complete input record,
++unit_white:{kappa:I,usefulness_state:literal,sigma2:null,b_mu:null},
++periodic_stress:{interval:I,label:"fabricated_hypothetical_completion"}},
++nuisance_premises:the unchanged CONTRACT nuisance object,
++historical_acceptance,physical_claim}. This separate join never uses phase
++fixed_saved_application. Its production counterpart's strict guards remain.
+--- sealed-predecessor/WHITE_REFUSALS.md
++++ white-successor/WHITE_REFUSALS.md
+@@ -0,0 +1,102 @@
++# RI125 bounded primary white controls — unexecuted source inventory
++
++Executable source: white_controls.py. This is primary test infrastructure,
++not an independent validator or an executed report. Its entry is
++`run_controls(directory)` with a new absent literal external directory supplied
++by a separately admitted caller. It creates only explicit fabricated control
++files, retains changes/partial output as evidence and performs no actual input
++read. This source has never been imported, compiled, probed or run.
++
++The exact order is WK38; WC01–WC26; WG01–WG92; WC27–WC46; WT01–WT03.
++There are **142 declared controls**: 139 isolated first-refusal checks and
++three positive failure-tail checks. This is not the complete 32-case application
++qualifier, nor a new runtime/caller campaign. Prior WK01–WK37 remain stipulated
++kernel controls requiring the eventual complete primary/independent qualifier.
++Each first-refusal checks both exact code and exact message, so a later refusal
++with the same broad code cannot accidentally qualify the intended guard.
++
++| Id | Concrete isolated operation in source | Required first code/message |
++|---|---|---|
++| WK38 | Full W01 Gram with self-consistent mutated Shift K=3,E=0,pol=3,direct=[3,3],trace=3,n=2 | STRUCTURAL / trace structural interval intersection |
++| WC01 | Only actual request phase changed to fabricated | PHASE / actual phase before body decoding |
++| WC02 | Empty request | SCHEMA / closed object keys |
++| WC03 | `run_white(b'{}',wrong whole-request pin)` | returned INPUT / externally frozen request bytes |
++| WC04 | Change literal capture digest in metadata-only request | INPUT / fixed historical pin capture |
++| WC05 | Omit validator source role | SOURCE / closed object keys |
++| WC06 | Wrong loaded primary path | SOURCE / loaded primary path |
++| WC07 | Wrong loaded kernel path | SOURCE / loaded kernel path |
++| WC08 | Empty admission candidate | ADMISSION / exact root-bound card |
++| WC09 | Pin byte count is bool | INPUT / positive bounded pin length |
++| WC10 | Uppercase digest | INPUT / lowercase sha256 |
++| WC11 | Relative path | INPUT / literal absolute nonsymlink path |
++| WC12 | Duplicate JSON key | SCHEMA / duplicate JSON key |
++| WC13 | Decimal-number token | EXACT / decimal or nonfinite JSON token |
++| WC14 | NaN token | EXACT / decimal or nonfinite JSON token |
++| WC15 | Incomplete JSON | SCHEMA / invalid bounded JSON |
++| WC16 | Integer token of 65538 digits | RESOURCE / JSON integer text ceiling |
++| WC17 | Owned one-byte file against wrong digest | INPUT / whole body pin |
++| WC18 | Owned file changed after initial state | CUSTODY / path state changed |
++| WC19 | Owned symlink instead of literal regular path | INPUT / literal absolute nonsymlink path |
++| WC20 | Owned file with a second hard link | INPUT / regular single-link source or input |
++| WC21 | Historical metadata mode fixtures_only | RI73 / full inherited header mode |
++| WC22 | Historical metadata wrong source identity | RI73 / full inherited header source_identity |
++| WC23 | Reverse literal gate inventory | RI73 / full inherited header gate_inventory |
++| WC24 | Metadata passed count 91 | RI73 / full inherited header gate_counts |
++| WC25 | Remove last gate record | SHAPE / exact list length |
++| WC26 | Replace first gate id | RI73 / literal 92-gate order |
++| WG01–WG92 | For each exact historical id in RI73_GATES order, change only its passed flag to false | RI73 / all inherited gates passed with details |
++| WC27 | Attempt actual capture pin through fabricated route; nonexistent path | PHASE / actual capture forbidden in fabrication, before file access |
++| WC28 | Fabricated capture header N=2768 | ROW / literal capture header |
++| WC29 | First row label True | ROW / fixed row order |
++| WC30 | Extra row key | ROW / closed object keys |
++| WC31 | Empty short array | SHAPE / exact list length |
++| WC32 | Extra whitespace in row serialization | CANONICAL / compact row encoding |
++| WC33 | Duplicate row key | SCHEMA / duplicate JSON key |
++| WC34 | Reversed first long interval | INTERVAL / ordered endpoints |
++| WC35 | Leading-zero scalar | EXACT / canonical signed hex |
++| WC36 | Only one complete row | ROW / row separator |
++| WC37 | Ninth complete row after eight | ROW / capture footer and ninth-row exhaustion |
++| WC38 | Trailing newline after exact compact capture | ROW / trailing capture bytes |
++| WC39 | Same-length wrong footer schema v0 | ROW / capture footer and ninth-row exhaustion |
++| WC40 | Unclosed row exceeding 8 MiB | RESOURCE / capture row byte ceiling |
++| WC41 | Deliberately different metadata vector identities at bind_row | BINDING / capture vector identity tied to accepted RI73 result |
++| WC42 | Vector metadata equal but row-sum metadata differs | BINDING / complete row sum tied to accepted RI73 result |
++| WC43 | Existing owned output | OUTPUT / output absent before exclusive open |
++| WC44 | Serialized object exceeds 64 MiB | RESOURCE / serialized byte ceiling |
++| WC45 | Wrong fabricated context | PHASE / fabricated context |
++| WC46 | Invented fabricated case id | DOMAIN / fixed fabricated assembly case |
++
++The historical metadata scaffold contains no coefficients, no numeric Gram and
++no complete reconstruction. It cannot be accepted as a historical report, is
++never serialized as one, and is never supplied to run_white. Its conspicuous
++MALFORMED_CONTROL_ONLY markers distinguish guard-unit inputs from evidence.
++Every WG mutation must hit its own gate check **before** the intentionally
++empty reconstruction fails. Request scaffolds likewise contain unused paths
++and are never written as active requests/admissions. Only WC03 calls the actual
++entry, and its wrong external request pin refuses before request parsing.
++
++WT01 registers two owned inputs, reads both, changes only the first, and calls
++the same Ledger.finish used by the actual wrapper: the first result must fail
++and the second must still pass. WT02 passes those results with an earlier EXACT
++error through the actual finish_attempt function and requires that first code
++to survive. WT03 supplies apparent success and the same failed postcheck list;
++the same actual tail must null the result and report CUSTODY. The complete
++postcheck/refusal records are retained. They do not manufacture scientific
++acceptance or run numerical fixtures.
++
++The control result schema is exactly {schema:"ri125-primary-white-controls-v1",
++phase:"fabricated_qualification",context:literal,
++actual_scientific_input_opened:false,independent_validator_run:false,
++controls:ordered records,counts:{total,passed,failed},status:literal}.
++First-refusal records have id,expected_code,expected_message,observed_code,
++observed_message,passed. WT01 has id,passed,postchecks; WT02/WT03 have
++id,passed,refusal. Status is all_declared_controls_passed iff every record
++passed; otherwise control_failure. This module returns the complete result to
++its future caller; it does not write an acceptance card or overwrite a report.
++
++The independently authored validator must have its own header/parser/operand/
++arithmetic comparisons and corresponding controls. These primary calls cannot
++stand in for that independent execution. Full fabricated cases, positive source
++and input admission, actual complete runtime/closure/watchdog/outer completion,
++periodic and join paths, and fresh saved-result comparisons remain additional
++obligations. No control is evidence of actual captured coefficient evaluation.
+--- sealed-predecessor/PREPARATION_RECORD.md
++++ white-successor/PREPARATION_RECORD.md
+@@ -1,72 +1,112 @@
+-# RI125 bounded source-progress checkpoint
++# RI125 bounded white-path source successor
+ 
+-This packet is **incomplete, unexecuted and not independently accepted**.
+-It creates no actual-input entry permission, qualification result, runtime,
+-active card, scientific result or publication. Root requested a bounded stable
+-checkpoint instead of a rushed large implementation. Files are immutable after
+-this handoff; completion must start from an explicitly reserved successor copy.
++Status: **unexecuted source completion for independent review**, not source
++acceptance, qualification or a result. The original source-progress directory
++`ri125-joint-window-application-source-fsra3wcw` is preserved unchanged. Root's
++RI125_REVIEW_DISPOSITION authorizes this bounded successor and no execution.
+ 
+-Completed source work:
++## Work completed as source
+ 
+-- CONTRACT.md fixes reduced-hex types, closed nested shapes for the three
+-  application outputs, kernel interfaces, provenance boundaries, literal
+-  historical H and M field mapping, status/error distinctions, stage sequencing,
+-  and the inherited numerical/runtime limits. It explicitly lists the still
+-  missing binding and executable parts. It is not a complete executable contract.
+-- CASES.md defines 26 exact fabricated operand recipes, including directed Q09,
+-  first/last production overlap boundaries, zero primitives, the inclusive new
+-  usefulness boundary, odd/even/Nyquist/DC periodic cases, full production-shaped
+-  zero spectra, nonconstant mean and calibration examples, and a valid deliberately
+-  loose artificial Gram bound giving an inconclusive join. No fixture was built.
+-- KERNEL_REFUSALS.md freezes 37 exact first-refusal controls for the implemented
+-  white kernel. All full-wrapper/periodic/join/validator controls remain missing.
+-- white_kernel.py implements primary pure exact strip contraction using checked
+-  denominator lifting, all directed midpoint/error entries, all direct endpoint
+-  boxes, polarization, tiny Gram/inverse/LDL consistency checks, full responses,
+-  both trace routes, structural bounds and separate new usefulness states.
+-  It has no file parser, actual entry function, target imports or import-time I/O.
++1. Read the entire independent source and mathematical reviews and root
++   disposition. The reviewed white_kernel.py is copied byte-for-byte; no
++   arithmetic or threshold changed there.
++2. F01: W11 is a two-row asymmetric rational-radius strip; W12 is a
++   sparse production-shaped mixed-radius/unequal-denominator strip. Both require
++   complete directed fields and an independently authored endpoint/product-error
++   oracle. These are recipes, not evaluated results.
++3. F02: P10 fixes active real/imaginary uncertain rectangles, nonzero alpha,
++   real-only Nyquist and a mandatory negative centered lower endpoint. Its
++   literal formulas and tiny stated fractions were checked manually while
++   writing; no fixture or numerical program was evaluated. Periodic executable
++   implementation is still pending.
++4. F03: WK38 gives a self-consistent mutated Shift with all earlier checks
++   satisfied but a disjoint structural response interval. white_controls.py
++   contains the exact future primary call. No call was executed.
++5. F04: W13–W15 are complete eight-row/Gram/strip/n=7 response recipes
++   below, at and above eps=10^-12 while inherited rho<10^-12. Their deliberately
++   loose Gram error is correctly labeled, not represented as RI73's error.
++6. FABRICATED_INTERFACES.md freezes distinct white/bound/periodic/nuisance/join
++   operand/result schemas. Actual phases/headers stay strict. The complete
++   case inventory is now 32; the kernel first-refusal inventory is now 38.
++7. white_path.py implements the actual white request/body/source/accepted-history
++   binding, full inherited RI73 header and 92-gate checks, Gram extraction,
++   bounded full eight-row streaming, all 109840 interval decodes, authentic
++   short/long vector/constant-sum linkage, own-derived Shift, both n=7/n=6
++   responses, exact status/check/limitation assembly, exclusive bounded output
++   and final independent source/input/output postchecks. No saved Shift or
++   arbitrary same-shaped unbound Gram enters the actual wrapper.
++8. The separate fabricated capture route forbids the exact actual capture pin
++   before opening, uses its own footer/schema and emits no historical
++   acceptance. Its full-row linkage to a fabricated Gram must be established
++   independently by the later qualifier; that is not an actual admission.
++9. white_controls.py contains 142 declared primary-only controls: WK38, WC01–46,
++   all 92 individual inherited-gate failures, and three failure-tail checks.
++   They are source, not actual control reports. No independent validator is
++   authored or claimed here.
+ 
+-Not implemented; this is the exact remaining source inventory:
++## Source-reading and metadata checks actually performed
+ 
+-1. Fixed complete RI73 result admission and full literal 92-gate inventory,
+-   source/capture/acceptance binding, complete bounded streaming capture reader,
+-   short/long constant-sum and row-identity checks, exclusive output and all
+-   before/after source/input custody wrappers. Assemble WHITE_COUPLING from
+-   independently bound inherited G/H and all eight exhausted rows.
+-2. Complete RI96/RI100 actual-body admission, canonical PSD decoding and source
+-   record identity, mode ordering/exhaustion, periodic parity aggregation,
+-   full historical raw-sum equality and output assembler. No FFT or PSD update.
+-3. Complete RI116 admission and literal M/U/V/trace mapping, genuine accepted
+-   dependency admission and four-row deterministic join, including exact statuses
+-   and unresolved nuisance fields. No raw observation reprocessing.
+-4. A **separately authored** full-field validator, independent rational/parser
+-   implementation, white endpoint/error-product route and Q256 integer-pair mode
+-   reconstruction. The current author must not label another self-authored
+-   implementation independent. All four available agent slots were occupied
+-   when this bounded work began; root will assign this separately after review.
+-5. Entire fabricated qualifier and case generators, actual primary/validator
+-   invocation for every control, complete fixture/result artifacts, full saved
+-   report comparator against a fresh reference, complete concrete refusal
+-   inventories for all unfinished wrappers/stages. Current controls are source
+-   definitions only, not successful executions.
+-6. Complete stable source pins, source reuse/deltas, full source/contract review,
+-   and any caller/applicability/interface work separately assigned by root.
+-   The current packet provides no caller and invents no active source pins.
++The new wrapper/control text was reviewed manually, including the complete
++failure tail. The framing, vector-identity convention, header/certificate keys
++and all 92 gate names were derived from the retained RI73 source and the
++retained RI116 consumer source. Historical RI73 final reconciliation and final
++independent review were read as metadata; the audit-input-freeze metadata was
++consulted for its accepted report/capture linkage. This inherits their accepted
++mathematical/custody findings rather than rerunning their audit.
+ 
+-The author read the complete RI123 nonauthor mathematical review and root design
+-acceptance. Relevant predecessor source routines were read as text to establish
+-capture and scalar conventions, actual periodic operands and the historical
+-M field. No target was imported, parsed as an AST, compiled, probed or run.
+-No actual capture JSON or PSD values were parsed or contracted. No fabricated
+-arithmetic, sign enumeration, qualification or performance check was executed.
+-Only source text and metadata pins were written under this fresh directory.
+-No repository, Git/index, active runtime, prior evidence or protected-data
+-operation occurred. RET alone remains paused; native work stays with root/QR.
++A separate metadata-only script textually compared the new literal 92-id tuple
++to the original source's ten fixtures, 64 refusal names and 18 integration/
++completion names. The lists agree exactly. It counted the 47 literal WK/WC
++calls, the fixed 92 WG declarations and three WT declarations (142). This is
++text/metadata checking, not Python parsing/AST, target import, compilation,
++execution or fixture evaluation. Full source and dependency hash verification
++is retained in SOURCE_METADATA_CHECK.json.
+ 
+-Author source inspection is not independent review. The lifted midpoint product
+-denominator is 4*dU*dH. Polarization first expresses both midpoint numerators over
+-2*lcm(dU,dH), giving difference-of-squares denominator 16*lcm(dU,dH)^2.
+-All three error products are retained with the midpoint denominator. The new
+-relative response gate uses the accepted positive Gram bound, and does not
+-erase valid intervals when eps is too large. These are manually checked source
+-identities, not claims that this uncompiled source has executed successfully.
++No capture, RI73 scientific result, PSD or actual coefficient body was decoded.
++Their complete fixed identities may be checked by opaque hashing only. No
++native coefficient work, target operation, fabricated fixture generation,
++application run, active card, runtime inventory, probe, source acceptance,
++repository change, staging, commit or push occurred in this worker task.
++One documentation patch failed to match its intended text and made no change;
++the corrected source-only patch was then applied. There was no numerical
++failure, rerun or abandoned scientific output.
++
++## Explicit prerequisites and remaining implementation
++
++- Independent complete review of this successor, including F01–F04 recipe
++  algebra, full parser/header/first-refusal ordering and custody semantics.
++- A **different author** must build the full-field white validator using its
++  own parser and integer-pair/endpoint arithmetic. It must not import the
++  primary parser/kernel/control code or primary computed expected dictionaries.
++- The complete 32-case generator/qualifier, all original WK01–37 calls,
++  independent counterparts and fresh saved-report comparator remain to be
++  implemented. The primary white-control source is not that full qualifier.
++- The periodic component/Q256/PSD/mode/parity source path and deterministic
++  four-row historical-M join remain executable source work, as do their
++  separately authored validator paths and full refusal inventories. Their
++  result/fixture schemas and recipe repairs are specified, not executed.
++- Complete source closure and root-reviewed capture/load/parse, runtime,
++  historical custody, actual qualification, source admission and separate
++  normal-before-optimized/application caller are still required. The request
++  and card schemas alone are not approval. No populated card is in this packet.
++- The application wrapper only rehashes the fixed historical final review,
++  reconciliation and audit-freeze bodies and links their accepted scientific
++  report/capture. Root must adjudicate full transitive history and the actual
++  runtime/source/input/qualification selection before importing/calling it.
++  Loaded-file path checks do not establish source/bytecode equivalence.
++- 180s active numerical execution, sampled 524288KiB, 25ms polling, 100ms gap,
++  50ms ps timeout, 64MiB input/output, 8MiB row and 262144-bit completed integer
++  caps are unchanged and **not yet demonstrated feasible** for this new path.
++  Failure requires reporting it, not expanding the limits, precision or domain.
++- The old rho gate and new eps gate remain separate. A valid response above
++  the new eps threshold is retained as accuracy_failed. Negative periodic
++  endpoints are kept. Full physical covariance, population mean, calibration,
++  release/selection/protected-validation and native-forward-map prerequisites
++  remain unresolved. This work establishes no physical geometry/gravity result;
++  RET stays paused.
++
++The next review can accept or reject this bounded source successor without
++treating the broader application as complete. The smallest justified next
++implementation after its review is a separately authored full-field white
++validator alongside periodic/join source completion in separately reserved
++files. No actual operand campaign is justified by this handoff alone.

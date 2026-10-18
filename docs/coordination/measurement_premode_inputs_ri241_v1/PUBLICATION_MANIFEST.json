@@ -1,0 +1,65 @@
+{
+  "exact_copies": 9,
+  "lossless_encoded_copies": 0,
+  "parent": "651911e278cb9b538328b3eb5fd460cf81f59490",
+  "payload": [
+    {
+      "bytes": 286699,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "d1f1618727b7eda70d089b417dbc6c320c0afe4285d8b248a38a4ebe3fb67680"
+    },
+    {
+      "bytes": 2299,
+      "path": "README.md",
+      "sha256": "8cfea8ffeb68aa58a0d893e2f2285b6a91bb3db448ecda0d0ec17d30d07efc7c"
+    },
+    {
+      "bytes": 2653,
+      "path": "inputs/ACTUAL_RUNTIME_NORMAL.json",
+      "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+    },
+    {
+      "bytes": 1013,
+      "path": "inputs/PRE_MODE_REQUEST.json",
+      "sha256": "6aeb27d703ec8487b22d61fea4f992fe54ff4cd87b335fbfbd1675d89d0ce001"
+    },
+    {
+      "bytes": 7573,
+      "path": "root/RI241_CANDIDATE_REVIEW.md",
+      "sha256": "26281da31c243dd70b7690982b69f4f5e13a648893be32a501d227f846175915"
+    },
+    {
+      "bytes": 6004,
+      "path": "root/RI241_FIELD_MAP_REVIEW.md",
+      "sha256": "4fb2ddb920e4565b0e35286479054974ddf6188152573e61eac0ca5f86a59389"
+    },
+    {
+      "bytes": 1835,
+      "path": "root/RI241_REVIEW_FIDELITY.json",
+      "sha256": "3f9e131d8ac608b0799ac484fc9f976e9c677488464700200436962eff8d6587"
+    },
+    {
+      "bytes": 2744,
+      "path": "root/RI241_ROOT_INPUT_ADJUDICATION.json",
+      "sha256": "2731edec8f87afa381e11cd5a91168fdd5eb5a27f21667d7e834f81994aebd37"
+    },
+    {
+      "bytes": 8237,
+      "path": "root/RI241_UNISSUED_ASSEMBLY.json",
+      "sha256": "8646ddeff279c7cae52355f77844683576cfabe007716ce4cd278a7fb3204a87"
+    },
+    {
+      "bytes": 1970,
+      "path": "root/RI244_MEASUREMENT_NEXT_STEP.json",
+      "sha256": "05cdc20f9c59c9778085cba144f284b8cd7dac9358314aa179a45bbd3dacaafd"
+    },
+    {
+      "bytes": 6853,
+      "path": "root/assemble_ri241.py",
+      "sha256": "e9e793fd623f77095ae18cdaec0e8af59dbc97def830008e46d388d9a6bc06c0"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

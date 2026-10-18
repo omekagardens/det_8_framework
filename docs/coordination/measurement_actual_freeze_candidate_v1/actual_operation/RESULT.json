@@ -1,0 +1,518 @@
+{
+  "claim": "Fixed fabricated WHITE qualification only; full32 application, actual data and physical claims remain unqualified; RET paused.",
+  "context": "RI125_FABRICATED_ONLY_NOT_HISTORICAL",
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "evidence": {
+    "caller": {
+      "bytes": 18366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/CALLER_ACCEPTANCE.json",
+      "sha256": "26ab721900bdd781a53fc728ea3d4a4eb5cf2769f00b2fb05d0a7aa8236847c0"
+    },
+    "guards": {
+      "bytes": 3921,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/GUARDS_ACCEPTANCE.json",
+      "sha256": "fb7ed6e74f801a18224c706bb8203db4cfe2ca48ed57f6793e6b431d9c945997"
+    },
+    "integration": {
+      "bytes": 3908,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI125_INTEGRATED_SOURCE_ADJUDICATION.json",
+      "sha256": "459885e5dc514ceb9e4c62d4810464e07d29515cf0e59744d9f12b1c1cfe6cda"
+    },
+    "runtime": {
+      "bytes": 22342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+    }
+  },
+  "expected_runtime": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 0,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "helpers": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/control.py",
+      "pin": {
+        "bytes": 5171,
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runtime_support.py",
+      "pin": {
+        "bytes": 8184,
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/caller_contract.py",
+      "pin": {
+        "bytes": 18749,
+        "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/evidence.py",
+      "pin": {
+        "bytes": 22152,
+        "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/monitor.py",
+      "pin": {
+        "bytes": 3644,
+        "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+      "pin": {
+        "bytes": 9021,
+        "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+      "pin": {
+        "bytes": 14159,
+        "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/profile_observe.source-only.py",
+      "pin": {
+        "bytes": 2696,
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/guard_controls.source-only.py",
+      "pin": {
+        "bytes": 38688,
+        "sha256": "e11e53400374068a9036b24e1a50bf8505fc910ae279a8742f24af17dfba8f72"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/TARGET_CLOSURE.source-only.json",
+      "pin": {
+        "bytes": 10760,
+        "sha256": "69d927acb494c05ee45326b8e02159c99a583b7ee2533c947a1762b550b1ed83"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/HISTORY_CLOSURE.source-only.json",
+      "pin": {
+        "bytes": 29806,
+        "sha256": "f78ca32b9de47f5390d20c4de44a87aa462b871ba1b51b3bc1329e08c8c6aafa"
+      }
+    }
+  ],
+  "inputs": [],
+  "interpreter": {
+    "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "symlink_chain": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "target": "python3.11"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+        "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+      },
+      {
+        "path": "/opt/homebrew/opt/python@3.11",
+        "target": "../Cellar/python@3.11/3.11.6_1"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+        "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+      }
+    ],
+    "target": {
+      "bytes": 52640,
+      "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+    }
+  },
+  "limits": {
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "mode_admissions": {
+    "normal": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_NORMAL.json",
+    "optimized": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_OPTIMIZED.json"
+  },
+  "phase": "fabricated_white_qualification",
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "runs": {
+    "normal": {
+      "claim": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/ATTEMPT.json",
+      "command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "normal"
+      ],
+      "custody": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/CUSTODY.json",
+      "launcher_command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "normal"
+      ],
+      "receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/SUPERVISOR.json",
+      "stage": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/white-stage",
+      "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/stderr",
+      "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/CALLER_ENVELOPE.json",
+      "worker_receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/normal/WORKER.json"
+    },
+    "optimized": {
+      "claim": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/ATTEMPT.json",
+      "command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/worker.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "optimized"
+      ],
+      "custody": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/CUSTODY.json",
+      "launcher_command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/launch.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+        "optimized"
+      ],
+      "receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/SUPERVISOR.json",
+      "stage": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/white-stage",
+      "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/stderr",
+      "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/CALLER_ENVELOPE.json",
+      "worker_receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/runs/optimized/WORKER.json"
+    }
+  },
+  "runtime_inventory": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/runtime_inventory.json",
+    "pin": {
+      "bytes": 2806092,
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    }
+  },
+  "schema": "ri130-white-fabricated-freeze-v1",
+  "sources": [
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CASES.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CASES.md",
+      "pin": {
+        "bytes": 12011,
+        "sha256": "fbcabc6b49f5ffb741688293a0dab894e7dc3b2fd761c6f123fbdcacf2ee3eef"
+      },
+      "relative": "science/primary/CASES.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/CONTRACT.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/CONTRACT.md",
+      "pin": {
+        "bytes": 26409,
+        "sha256": "abd8aeb6e74a46194bb38f9abc8c02e6be5bcff83318f8df1d27334fa317f2bd"
+      },
+      "relative": "science/primary/CONTRACT.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/FABRICATED_INTERFACES.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/FABRICATED_INTERFACES.md",
+      "pin": {
+        "bytes": 8758,
+        "sha256": "2e1db0380e13791448c957453a823c1d2d20874b8af80dc01ddb8c09b4927f4e"
+      },
+      "relative": "science/primary/FABRICATED_INTERFACES.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/KERNEL_REFUSALS.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/KERNEL_REFUSALS.md",
+      "pin": {
+        "bytes": 4802,
+        "sha256": "85651a0ead42ec2edf18bfdd049efd49c20cb09fb25bc2be1e4ba561b9b9f208"
+      },
+      "relative": "science/primary/KERNEL_REFUSALS.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREDECESSOR_PINS.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREDECESSOR_PINS.json",
+      "pin": {
+        "bytes": 3880,
+        "sha256": "e1d0d5557056a536d2505d7e304ec7185b325a29ac0dd267f91b3f7a7aa0b70b"
+      },
+      "relative": "science/primary/PREDECESSOR_PINS.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/PREPARATION_RECORD.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/PREPARATION_RECORD.md",
+      "pin": {
+        "bytes": 7366,
+        "sha256": "f58a58c7935f4cb27651c893bb358eb8ece45f58b70d71fa120465761de7e733"
+      },
+      "relative": "science/primary/PREPARATION_RECORD.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_DIFF.patch",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_DIFF.patch",
+      "pin": {
+        "bytes": 97989,
+        "sha256": "edd788940663882972092dc62706f80c81df5e14d76aa90c34dff8cf1158a9e1"
+      },
+      "relative": "science/primary/SOURCE_DIFF.patch"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/SOURCE_METADATA_CHECK.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/SOURCE_METADATA_CHECK.json",
+      "pin": {
+        "bytes": 10113,
+        "sha256": "3e713faa6a85e32d856640e7e509bc56e3cc479cc31323465e5e461ca6582cf9"
+      },
+      "relative": "science/primary/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/WHITE_REFUSALS.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/WHITE_REFUSALS.md",
+      "pin": {
+        "bytes": 7426,
+        "sha256": "dbc6a3a400b22973379c632cea3924413e36bd441df9ff0e21c2f7507918f0bb"
+      },
+      "relative": "science/primary/WHITE_REFUSALS.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_controls.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_controls.py",
+      "pin": {
+        "bytes": 15910,
+        "sha256": "5055fb4aec16563680b2941d445da8273e99799d8fbf567fb7affe368f28e6a2"
+      },
+      "relative": "science/primary/white_controls.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_kernel.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_kernel.py",
+      "pin": {
+        "bytes": 12790,
+        "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+      },
+      "relative": "science/primary/white_kernel.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/white_path.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/white_path.py",
+      "pin": {
+        "bytes": 32343,
+        "sha256": "32a084c003ecb0bb290ea3f85c3b4bcde4061e5cf62aa7b0b9f3ead19470618b"
+      },
+      "relative": "science/primary/white_path.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/primary/HANDOFF.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+      "pin": {
+        "bytes": 5379,
+        "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+      },
+      "relative": "science/primary/HANDOFF.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/white_validator.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/white_validator.py",
+      "pin": {
+        "bytes": 56593,
+        "sha256": "59df09a5f2aac01034df3202fc27ae2500239564a8714fa4c616600e19e66def"
+      },
+      "relative": "science/validator/white_validator.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/validator_controls.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/validator_controls.py",
+      "pin": {
+        "bytes": 17909,
+        "sha256": "9a400bd03a2c456b2b3603354dab55f5c46be5155d1af7fc5788b7702e9aa7aa"
+      },
+      "relative": "science/validator/validator_controls.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PROTOCOL.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PROTOCOL.md",
+      "pin": {
+        "bytes": 14060,
+        "sha256": "caefb53c7c2ac5e7898ffcea03cd5bdf5a29768fa4db9fd723fb9cc1d305a990"
+      },
+      "relative": "science/validator/PROTOCOL.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/AUTHORING_RECORD.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/AUTHORING_RECORD.md",
+      "pin": {
+        "bytes": 3957,
+        "sha256": "2b05819cb897597e24a3145ec6397d4694d7efaef08fa22b9490b9c844fd45d5"
+      },
+      "relative": "science/validator/AUTHORING_RECORD.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/PREDECESSOR_PINS.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/PREDECESSOR_PINS.json",
+      "pin": {
+        "bytes": 3762,
+        "sha256": "c72f2bf137201bf1cfb7436f81e31469d30f963d81d47eee2a4b66ffaed702b7"
+      },
+      "relative": "science/validator/PREDECESSOR_PINS.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/SOURCE_METADATA_CHECK.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/SOURCE_METADATA_CHECK.json",
+      "pin": {
+        "bytes": 8848,
+        "sha256": "c266c73d1941977097aa490ac0cf833773e3ed065afccddd2f06b0dbd2aa190d"
+      },
+      "relative": "science/validator/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.md",
+      "pin": {
+        "bytes": 4804,
+        "sha256": "58dc35194f6c1ce93fa702c94f787d50cb8285f9c30122320911508c14939559"
+      },
+      "relative": "science/validator/HANDOFF.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/validator/HANDOFF.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+      "pin": {
+        "bytes": 4821,
+        "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+      },
+      "relative": "science/validator/HANDOFF.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/CONTROL_EXPECTATIONS.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+      "pin": {
+        "bytes": 21310,
+        "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+      },
+      "relative": "science/qualifier/CONTROL_EXPECTATIONS.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREDECESSOR_PINS.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREDECESSOR_PINS.json",
+      "pin": {
+        "bytes": 4193,
+        "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+      },
+      "relative": "science/qualifier/PREDECESSOR_PINS.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/PREPARATION_RECORD.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREPARATION_RECORD.md",
+      "pin": {
+        "bytes": 7575,
+        "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+      },
+      "relative": "science/qualifier/PREPARATION_RECORD.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/SOURCE_METADATA_CHECK.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/SOURCE_METADATA_CHECK.json",
+      "pin": {
+        "bytes": 3295,
+        "sha256": "494ce307f2db47433c9ea1dbceacd3787b7cbfc432e133a055af866c797510e8"
+      },
+      "relative": "science/qualifier/SOURCE_METADATA_CHECK.json"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/STAGE_CONTRACT.md",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/STAGE_CONTRACT.md",
+      "pin": {
+        "bytes": 20505,
+        "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+      },
+      "relative": "science/qualifier/STAGE_CONTRACT.md"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/kernel_controls.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/kernel_controls.py",
+      "pin": {
+        "bytes": 6834,
+        "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+      },
+      "relative": "science/qualifier/kernel_controls.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/qualify_white_only.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/qualify_white_only.py",
+      "pin": {
+        "bytes": 27375,
+        "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+      },
+      "relative": "science/qualifier/qualify_white_only.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/white_fixtures.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/white_fixtures.py",
+      "pin": {
+        "bytes": 15878,
+        "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+      },
+      "relative": "science/qualifier/white_fixtures.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/science/qualifier/HANDOFF.json",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/HANDOFF.json",
+      "pin": {
+        "bytes": 4492,
+        "sha256": "6de68fbbce2b7ee29d5c48af8aca175907f5ff1b370f2f8aae77c545d8fc2ff8"
+      },
+      "relative": "science/qualifier/HANDOFF.json"
+    }
+  ],
+  "status": "ROOT_AUTHORIZED_WHITE_FABRICATED_ONLY"
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "ri197-manual-original-pair-proof-handoff-v1",
+  "status": "SEALED_MANUAL_PROOF_PENDING_INDEPENDENT_ROOT_ADJUDICATION",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_",
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "PAIR_PROOF.md",
+    "ROOT_OVERRIDE_AUDIT.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/AUTHOR_VERIFICATION.json",
+      "bytes": 46682,
+      "sha256": "7585a0edff26841e38d5a267abe19ad848cdda1cb41eae6beab06c5bdc7e4b65"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/DEPENDENCY_NOTES.md",
+      "bytes": 9370,
+      "sha256": "cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.md",
+      "bytes": 2130,
+      "sha256": "4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+      "bytes": 7251,
+      "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+      "bytes": 7520,
+      "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json",
+      "bytes": 155921,
+      "sha256": "4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93"
+    }
+  ],
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_NATIVE_ASSIGNMENT.json",
+    "bytes": 1940,
+    "sha256": "9b0ff62f04cf5a73f41337520ade9c58786278937b3b3c96fb81fed43bcc043a"
+  },
+  "manual_body_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_MANUAL_BODY_ADMISSION.json",
+    "bytes": 5377,
+    "sha256": "e2a640f0d37b23133560ec45dc5a20d8338dcc7922fec751600515074b6c3abc"
+  },
+  "accepted_source_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI191_ROOT_ADJUDICATION.json",
+    "bytes": 4041,
+    "sha256": "61e4bdfb40d0fbc40ad081c5da438b8571ef6d9abf0ef6cda28259d206d138be"
+  },
+  "original_certificate": {
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "bytes": 2845,
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+  },
+  "result": "The unchanged prescribed pair is at zero-based indices101/102 with explicit overrides197/200 and983/1000. Handwritten subtraction gives epsilon=1/500>epsilon_star and>1/10000. Under inherited RI189/187 finite premises, formal v>B6 is excluded and v<B6 follows strictly.",
+  "proof_basis": "Complete bound literal certificate reading, all109-root/index/mask/order and all62-override/default audit, original loader semantics, handwritten positive-denominator arithmetic, inherited original finite reconstruction and RI189 pair-routing/conditional theorem.",
+  "handwritten_result": {
+    "first_key": "(2254,7,0)",
+    "first_index": "101",
+    "first_origin": "override",
+    "first_value": "197/200",
+    "second_key": "(2254,7,1)",
+    "second_index": "102",
+    "second_origin": "override",
+    "second_value": "983/1000",
+    "epsilon": "1/500",
+    "delta": "41/22000",
+    "epsilon_star": "44*1147*3875/(41*126280*508644)",
+    "comparison": "strictly above exact and simple sufficient thresholds",
+    "cross_product_witness": "B-500*A=2535712387120>0, A=195563500, B=2633494137120",
+    "equality_handling": "At epsilon_star, D_-<U retains the strict inequality needed for inherited v<B6."
+  },
+  "manual_proof_only": true,
+  "one_certificate_literal_read": true,
+  "automatic_scientific_JSON_parsing": false,
+  "automated_proof_arithmetic": false,
+  "verifier_or_scientific_execution": false,
+  "full_resolved_vector_instantiated": false,
+  "qualification_credit": false,
+  "actual_W_C2_C3_H30_claimed": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "scope": "Manual proof only. No original graph/feasibility rerun, actual-W or actual-endpoint result, other-parent conclusion, executable-parser compatibility, runtime/control success, geometry, gravity, empirical or ontology promotion.",
+  "remaining_premises": [
+    "Accepted original finite complete-root reconstruction and prescribed original-byte/loader semantics.",
+    "RI189 canonical pair routing and conditional exclusion theorem.",
+    "RI187/RI157 inherited strict finite enclosures and reverse-premise inequality.",
+    "All original canonical q/N terms, complete marked occurrences, other parents and H30 remain untouched."
+  ],
+  "uncredited_executable_routes": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "scope": "Remain required when the respective executable routes are used; manual proof neither uses nor qualifies those routes."
+  },
+  "actual_author_observations": {
+    "authority_read": {
+      "chunk_id": "ac409d",
+      "exit_code": 0
+    },
+    "certificate_complete_literal_before_after": {
+      "chunk_id": "882888",
+      "exit_code": 0,
+      "untruncated": true,
+      "matching_identity": true
+    },
+    "complete_final_manuscript_read_and_later_certificate_pin": {
+      "chunk_id": "688764",
+      "exit_code": 0,
+      "untruncated": true
+    },
+    "candidate4": {
+      "chunk_id": "252ad5",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "fresh_rechecks": 427
+    },
+    "preseal6": {
+      "chunk_id": "1c97b6",
+      "exit_code": 0,
+      "current_namespace": 6,
+      "fresh_rechecks": 429
+    },
+    "author_identity": {
+      "chunk_id": "aa4515",
+      "exit_code": 0
+    },
+    "final8_receipt_inside_its_own_seal": false
+  },
+  "provenance": {
+    "selected_paths": 423,
+    "selected_bytes": 24174119,
+    "inherited_rows_preserved": 389,
+    "inherited_boundary_objects_preserved": 12,
+    "whole_old_SOURCE_IDENTITIES_preserved": true,
+    "historical_typed_references": 7566,
+    "current_typed_references": 244,
+    "historical_extended_state_noncomparisons": 19,
+    "current_extended_state_noncomparisons": 1,
+    "historical_predecessor_namespaces": [
+      9,
+      18
+    ],
+    "current_namespace": 8,
+    "historical_opaque_boundaries_and_failed_recovered_observations_preserved": true,
+    "manual_admission_does_not_rewrite_old_opaque_permission": true
+  },
+  "reproduce": "AUTHOR_VERIFICATION contains the bounded inline final administrative script. Read it and run only stage final8 for identity/provenance reproduction. It does not verify the handwritten arithmetic, parse scientific JSON, run the verifier or replay historical scientific work. Actual final check receipt is delivered separately.",
+  "stop": "Packet immutable after seal. Root independently adjudicates it and owns publication/Git and successor assignment. No duplicate proof, execution, operational card or scope extension is assigned here."
+}

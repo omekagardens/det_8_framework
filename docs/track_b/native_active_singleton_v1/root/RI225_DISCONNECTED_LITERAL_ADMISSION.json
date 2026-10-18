@@ -1,0 +1,45 @@
+{
+  "RET_paused": true,
+  "allowed": "Literal analytic text reading and opaque whole-file identity only; preserve conditional premises and all records.",
+  "assignment": {
+    "bytes": 18423,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI225_NATIVE_ASSIGNMENT.json",
+    "sha256": "8d1aa74e27cc7420b7c3f0b7af08b176be23449bf14493c6fa040ae1b265f7db"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_match": {
+    "access_policy": "text-reading-and-opaque-identity-no-execution",
+    "classification": "analytic-source-text-or-review",
+    "identity": {
+      "bytes": 20656,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+    "reference_provenance": [
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+    ],
+    "role": "dep_0001"
+  },
+  "qualification_credit": 0,
+  "reason": "Exact existing analytic source for disconnected complete normalization/deletion identities and lower-profile notation needed by N16-N17. Request follows substantive current symbolic derivation, not broad numerical acquisition.",
+  "reference": {
+    "bytes": 20656,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+    "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl",
+  "root_identity_check": "71c22b exit0 plus exact helper fullidentity at issue",
+  "schema": "ri225-exact-analytic-literal-admission-v1",
+  "scientific_body_admission": false,
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

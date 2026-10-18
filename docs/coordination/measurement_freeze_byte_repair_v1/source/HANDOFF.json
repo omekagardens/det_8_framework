@@ -1,0 +1,186 @@
+{
+  "E_modified": false,
+  "JSON_comparator_unchanged": true,
+  "RET_paused": true,
+  "actual_admin": {
+    "build_chunk": "710180",
+    "check_chunk": "87f168",
+    "current_failures": [],
+    "exit_code": 0,
+    "predicates": 5332
+  },
+  "actual_receipts": {
+    "bytes": 3566,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "f7895eb7e06f8def8fb1d632e69e5a321bf174fc080d1d01f9d91e3f2d9bff81"
+  },
+  "administrative_result": {
+    "bytes": 2628,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+  },
+  "assignment": {
+    "bytes": 2827,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI218_BYTE_REPAIR_ASSIGNMENT.json",
+    "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "base_input_pins": 806,
+  "clock_completion_fields": 14,
+  "clock_completion_schema": "ri213-installation-completion-v1",
+  "complete_clock_and_eight_tail_spans_unchanged": true,
+  "distinct_opaque_inputs": 849,
+  "exact_comparison_repairs": 2,
+  "files": [
+    {
+      "bytes": 3566,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "f7895eb7e06f8def8fb1d632e69e5a321bf174fc080d1d01f9d91e3f2d9bff81"
+    },
+    {
+      "bytes": 2628,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+    },
+    {
+      "bytes": 2818,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "7950fb101cd93b7b407a71a15720290f5daadd6715bfb467f92a4d92fdfe6859"
+    },
+    {
+      "bytes": 2037,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/BUILD_METADATA.json",
+      "sha256": "d16c31a053b8f942fdb6582d149a99722a6016dec9cdaa474c1a67a67a2a0723"
+    },
+    {
+      "bytes": 3615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "be99a325db99c1d5e2da70c98d6ccfa36cd9932285d6e5f4292993c49931e229"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 27883,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/PROTOCOL.md",
+      "sha256": "0c9a43bc57a57852c7e86e0784acfffef69a0b733b6667ab861f41c103d7ee6e"
+    },
+    {
+      "bytes": 13250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "10ae3a2ad92ff6e753ef18a118ef6ea0829ed7880aa637660e543c63ebeb601e"
+    },
+    {
+      "bytes": 22076,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "777285ee8a83862d822ced8ce54bab169d363e3bd7b7d88a6c52958c8feb2afa"
+    },
+    {
+      "bytes": 1368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+      "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+    },
+    {
+      "bytes": 9261,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/admin_check.py",
+      "sha256": "465b4d163f8340168e8407e53141545c76b15ddacfc2650795756612fba0b601"
+    },
+    {
+      "bytes": 12995,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/build_repair.py",
+      "sha256": "13137b03c68884aaf353d8deb26061479c9056b1309e4c7ad2536877e93a7495"
+    },
+    {
+      "bytes": 22819,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+      "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+    },
+    {
+      "bytes": 19877,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+      "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+    }
+  ],
+  "finding_response": {
+    "bytes": 3615,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/FINDING_RESPONSE.md",
+    "sha256": "be99a325db99c1d5e2da70c98d6ccfa36cd9932285d6e5f4292993c49931e229"
+  },
+  "fixture_execution": false,
+  "independent_acceptance": false,
+  "namespace": [
+    "ACTUAL_ADMIN_RECEIPTS.json",
+    "ADMIN_CHECK.json",
+    "AUTHORING_RECORD.json",
+    "BUILD_METADATA.json",
+    "FINDING_RESPONSE.md",
+    "HANDOFF.json",
+    "INPUT_PINS.json",
+    "PROTOCOL.md",
+    "REPAIR_PROVENANCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "admin_check.py",
+    "build_repair.py",
+    "check_installation.py",
+    "install_freeze.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "operational_objects_created": false,
+  "original_seals_and_partials_unchanged": true,
+  "postchecker_only_paths_and_provenance": true,
+  "predecessor": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+    "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+  },
+  "preserved_historical_roles": 810,
+  "prior_root_preparation_failure": {
+    "chunk_id": "cb9b00",
+    "exit_code": 1,
+    "installer_executed": false,
+    "record": {
+      "bytes": 3723,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PREPARATION_FAILURE_PARTIALS.json",
+      "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+    }
+  },
+  "prospective_source_rows": 857,
+  "qualification_credit": 0,
+  "remaining_prerequisites": [
+    "Fresh nonauthor/root source review",
+    "Fresh independently inspected concrete root preparation with its direct byte comparison corrected",
+    "Separate real admission, monitored installation and independent complete result/custody review",
+    "All unchanged mode/runtime/saved-arithmetic and measurement qualification boundaries"
+  ],
+  "repair_provenance": {
+    "bytes": 13250,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/REPAIR_PROVENANCE.json",
+    "sha256": "10ae3a2ad92ff6e753ef18a118ef6ea0829ed7880aa637660e543c63ebeb601e"
+  },
+  "repair_rows": 43,
+  "repo_git_actions": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal",
+  "runtime_observation": false,
+  "schema": "ri218-byte-repair-source-handoff-v1",
+  "scientific_body_decode": false,
+  "source_execution": false,
+  "source_lines": {
+    "check_installation.py": 141,
+    "install_freeze.py": 237
+  },
+  "source_manifest": {
+    "bytes": 1368,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+    "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+  },
+  "source_supersession": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "status": "SEALED_SOURCE_ONLY_FOR_FRESH_NONAUTHOR_REVIEW",
+  "whole_source_reverse_projection": true
+}

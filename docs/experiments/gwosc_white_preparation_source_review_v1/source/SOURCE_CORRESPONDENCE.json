@@ -1,0 +1,68 @@
+{
+  "adapted_blocks": [
+    {
+      "changes": "Explicit per-file/member caps, no-follow/literal regular files, source dependencies, exact historical-byte bridge, complete old optional namespace comparison and before/after host/source/route checks.",
+      "new": "runtime_metadata.py corresponding functions",
+      "old": "RI121 collect_metadata_candidate observe_file/binding/walk_members/absent_observations/directory_namespaces"
+    },
+    {
+      "changes": "Fixed old output locations replaced by separately authenticated cards/fresh outputs; complete same inventory/selection/namespaces/interpreter/absence/source/history/host checked. Saved full evidence namespaces now closed explicitly.",
+      "new": "runtime_metadata.snapshot and source_observation; prepare.verify_saved_namespace",
+      "old": "RI121 root check_runtime_metadata.py"
+    },
+    {
+      "changes": "Same observer bytes, flags/env and separate30s profile bound; complete actual dyld message parsed, every route preobserved, full output/postcheck custody, genuine ordered root reviews mandatory.",
+      "new": "prepare.child_run/profile_check/dyld_attempts/acceptance",
+      "old": "RI121 run_profile_probe.py and review_profiles.py"
+    },
+    {
+      "changes": "Preparation wall bound is explicit30or180; same512MiB/25ms/100msgap/50msps initial/interior/final semantics, owned session kill/wait. Added sampled output cap and retained own child attempt/completion. This adapted source needs new review.",
+      "new": "prepare.child_run",
+      "old": "RI130 monitor.supervise/reap_owned"
+    },
+    {
+      "changes": "Same exact mapping and root/tmp parameter; driver also checks its actual environment.",
+      "new": "prepare.environment",
+      "old": "RI130 caller_contract.environment"
+    },
+    {
+      "changes": "No changes or copies. Exact dependency pins, separate authorization, independently captured output.",
+      "new": "External exact original entries only",
+      "old": "RI130 profile_observe.source-only.py and guard_controls.source-only.py"
+    }
+  ],
+  "authorship": "Author adaptation, not independent source review; all new sources UNEXECUTED.",
+  "exact_text_blocks": [
+    {
+      "bytes": 1866,
+      "equal": true,
+      "name": "runtime domain constants",
+      "new": {
+        "line": 16,
+        "marker": "BASE = ",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py"
+      },
+      "old": {
+        "line": 16,
+        "marker": "BASE = ",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/collect_metadata_candidate.py"
+      }
+    },
+    {
+      "equal": true,
+      "name": "65 guard literal ID expression",
+      "new": {
+        "line": 27,
+        "marker": "GUARD_IDS = ",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py"
+      },
+      "old": {
+        "line": 44,
+        "marker": "GUARD_IDS = ",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/caller_contract.py"
+      }
+    }
+  ],
+  "method": "Plain source text reads, substring equality and opaque hashes only; no Python parse/import/compile/AST/probe/execution.",
+  "schema": "ri133-textual-source-correspondence-v1"
+}

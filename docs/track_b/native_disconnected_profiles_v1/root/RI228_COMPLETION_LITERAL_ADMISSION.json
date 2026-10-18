@@ -1,0 +1,60 @@
+{
+  "RET_paused": true,
+  "allowed": "Literal analytic text and opaque identity only; no referenced descendants, executable/source bodies or certificates.",
+  "assignment": {
+    "bytes": 18770,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI228_NATIVE_ASSIGNMENT.json",
+    "sha256": "d23cf53fea14c7451a2d20067213cd2411c3f5c99e218465278e67e0372dbfd8"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_match": {
+    "access_policy": "text-reading-and-opaque-identity-no-execution",
+    "classification": "analytic-source-text-or-review",
+    "identity": {
+      "bytes": 17102,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+    "reference_provenance": [
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json"
+    ],
+    "role": "dep_0412"
+  },
+  "qualification_credit": 0,
+  "reason": "Named unresolved lower-law combinations in accepted RI225. Admission does not assert that the text supplies the missing witness.",
+  "reference": {
+    "bytes": 17102,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+    "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x",
+  "root_identity": {
+    "bytes": 17102,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+    "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+    "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+    "state": [
+      16777244,
+      375356,
+      33188,
+      1,
+      17102,
+      1790238943865834871,
+      1790238943865834871
+    ],
+    "symlink_chain": []
+  },
+  "schema": "ri228-exact-analytic-literal-admission-v1",
+  "scientific_body_admission": false,
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

@@ -1,0 +1,36 @@
+{
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/NORMAL_ADMISSION.json"
+  ],
+  "completion": {
+    "bytes": 4002,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/COMPLETE.json",
+    "sha256": "95a085e9edc4752e1ec9b767d5eb598361805874839c6681de7e4243d3ab0284"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "exit_code": 0,
+  "external_timeout_seconds": 960,
+  "raw_tool_receipt": {
+    "bytes": 1563,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "faaea76e5c0d4cc3ced0ef054d52512c0a6ba06bc63394c1e9e704d439f14eaa"
+  },
+  "schema": "ri133-root-genuine-outer-v1",
+  "status": "ACTUAL_TOOL_COMPLETION"
+}

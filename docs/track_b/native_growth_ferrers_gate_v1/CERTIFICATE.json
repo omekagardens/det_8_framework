@@ -1,0 +1,140 @@
+{
+  "schema": "ri52-ferrers-primal-v1",
+  "parent_size": 5,
+  "fixed_prefix_parameter_json_sha256": "465c5de48c69527fc59e8df1f494fd8cea33f8aec243f59b9b2820bd5b1c07a7",
+  "ri41_certificate_source_sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+  "prefix_counts": {
+    "canonical_probability_keys": 585,
+    "fixed_rows_through_four": 707,
+    "fixed_slots_through_four": 6065,
+    "lower_raw_ratios": 436,
+    "all_zero": 238,
+    "components": 109,
+    "edges": 7616,
+    "equal": 1280,
+    "loops": 1536,
+    "maximum_height_drift": "14082809/29648025",
+    "minimum_full": "33901019/474368400",
+    "minimum_slot": "9/681472",
+    "nodes": 305,
+    "parents": 40,
+    "proper": 5072,
+    "rows": 640
+  },
+  "target_counts": {
+    "all_zero": 12,
+    "components": 10,
+    "equal_precursors": 0,
+    "full_ferrers_rows": 64,
+    "loops": 64,
+    "marked_child_completions": 256,
+    "marked_parent_rows": 128,
+    "marked_row_classes": 116,
+    "nodes": 56,
+    "other_proper_slots": 672,
+    "parent_types": 4,
+    "ratios_by_shape": {
+      "42": 128,
+      "51": 128,
+      "321": 384,
+      "411": 128
+    },
+    "raw_ratios": 768,
+    "target_proper_slots": 288
+  },
+  "canonical_components": {
+    "roots": [
+      [
+        8606,
+        15,
+        0
+      ],
+      [
+        8606,
+        15,
+        1
+      ],
+      [
+        8606,
+        17,
+        0
+      ],
+      [
+        8606,
+        17,
+        1
+      ],
+      [
+        8606,
+        19,
+        0
+      ],
+      [
+        8606,
+        19,
+        1
+      ],
+      [
+        8606,
+        19,
+        2
+      ],
+      [
+        8606,
+        19,
+        3
+      ],
+      [
+        8734,
+        7,
+        0
+      ],
+      [
+        8734,
+        7,
+        1
+      ]
+    ],
+    "roots_sha256": "b460e8c6a659513f824a619c62ec9d1dfa5c6c847b69c3c7af13325b96948581"
+  },
+  "target_matrix_sha256": "bd5bcb1fe255e1018c13c9b3a71764516ecde06693c066dc27a8e73913bcfe04",
+  "default_alpha": "0",
+  "overrides": {
+    "0": "43010/3321",
+    "1": "1773200/132471",
+    "2": "176/41",
+    "3": "176/41"
+  },
+  "analytic_target_masses": {
+    "5": {
+      "0": {
+        "51": "1955/53136"
+      },
+      "1": {
+        "51": "10075/264942"
+      }
+    },
+    "32": {
+      "0": {},
+      "1": {}
+    },
+    "41": {
+      "0": {
+        "51": "391/410",
+        "411": "19/410"
+      },
+      "1": {
+        "51": "403/410",
+        "411": "7/410"
+      }
+    },
+    "311": {
+      "0": {
+        "411": "1"
+      },
+      "1": {
+        "411": "1"
+      }
+    }
+  }
+}

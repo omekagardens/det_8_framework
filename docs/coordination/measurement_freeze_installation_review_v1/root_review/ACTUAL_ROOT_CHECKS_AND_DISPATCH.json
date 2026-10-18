@@ -1,0 +1,42 @@
+{
+  "QR_dispatch": {
+    "admission": {
+      "bytes": 3334,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+      "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+    },
+    "outcome": "Tool returned matching threadId and isError=false",
+    "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "tool": "mcp__codex_app__send_message_to_thread"
+  },
+  "corrected_record_construction": {
+    "exit_code": 0,
+    "initial_chunk": "474612",
+    "session_id": 71277,
+    "terminal_chunk": "1f6d8a"
+  },
+  "failed_record_construction": {
+    "diagnostic": {
+      "bytes": 704,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/ROOT_ADMIN_DIAGNOSTIC.json",
+      "sha256": "52b46b5649116fd2bbb337a191ab9501c5534a943beba5e3fcb64973e5b0c727"
+    },
+    "exit_code": 1,
+    "initial_chunk": "97d0c0",
+    "session_id": 42671,
+    "terminal_chunk": "6cc5a8"
+  },
+  "operational_admission": false,
+  "repair_dispatch": {
+    "assignment": {
+      "bytes": 2782,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+      "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+    },
+    "outcome": "Delivered successfully; active worker",
+    "target": "/root/ri116_complete_caller_review",
+    "tool": "collaboration.followup_task"
+  },
+  "schema": "ri214-root-receipts-v1",
+  "subject_execution": false
+}

@@ -1,0 +1,35 @@
+{
+  "actual_inert_qualification": {
+    "bytes": 9283,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI162_OUTCOME_ROOT_ADJUDICATION.json",
+    "sha256": "092095afb037f4bbbe96632aec107cd163e87eee8ce7df1dc06f396053808e26"
+  },
+  "copy_capture_or_profile_admission": false,
+  "correction": "Adapter closed field count is12, not prose13; listed names and code agree. Immutable author text retained.",
+  "current_runtime_observation": false,
+  "independent_metadata": {
+    "bytes": 357841,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_ROOT_METADATA_CHECK.json",
+    "sha256": "2030370004029b8a4e314593d2540ae90b3a435633d6fa05f87098ea5b36123d"
+  },
+  "manual_review": {
+    "bytes": 3909,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_ROOT_SOURCE_REVIEW.md",
+    "sha256": "cf0bc631207e587d46d977a07c8b0e1c5551c40348f1e963269568d4b2b89369"
+  },
+  "next_action": "Issue the precise consumer qualification from the accepted genuine106-control outcome; then fresh root copy-only preflight/admission before unchanged exact48 copy. Independently accept the copy before separate current-E capture.",
+  "replay": {
+    "bytes": 3506,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/ri170-metadata-replay/METADATA_CHECK.json",
+    "sha256": "a58f3d124799e325284a93a01e896c2fb4bbd67773ff75ba05f86164ee845879"
+  },
+  "schema": "ri170-root-source-preflight-review-v1",
+  "scientific_credit": false,
+  "source": {
+    "bytes": 8755,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/SOURCE_ONLY_HANDOFF.json",
+    "sha256": "8d3cfce3b18ac346a0dab3449de3eee686c5965957e4188933604dd392d66fce"
+  },
+  "status": "ACCEPT_SOURCE_PROPOSAL_WITH_EXPLICIT_FIELD_COUNT_CORRECTION",
+  "subject_execution": false
+}

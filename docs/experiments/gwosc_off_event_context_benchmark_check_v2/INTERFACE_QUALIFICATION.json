@@ -1,0 +1,471 @@
+{
+  "counts": {
+    "helper_calls": 22,
+    "implementations": 2,
+    "positive": 2,
+    "refusals": 20
+  },
+  "inventory": [
+    "primary:H00:accepted_header_contract",
+    "primary:H01:legacy_status",
+    "primary:H02:unknown_status",
+    "primary:H03:fabricated_prior_phase",
+    "primary:H04:receiving_phase_substitution",
+    "primary:H05:older_predecessor_schema",
+    "primary:H06:missing_status",
+    "primary:H07:missing_phase",
+    "primary:H08:missing_schema",
+    "primary:H09:nonstring_status",
+    "primary:H10:nonmapping_header",
+    "validator:H00:accepted_header_contract",
+    "validator:H01:legacy_status",
+    "validator:H02:unknown_status",
+    "validator:H03:fabricated_prior_phase",
+    "validator:H04:receiving_phase_substitution",
+    "validator:H05:older_predecessor_schema",
+    "validator:H06:missing_status",
+    "validator:H07:missing_phase",
+    "validator:H08:missing_schema",
+    "validator:H09:nonstring_status",
+    "validator:H10:nonmapping_header"
+  ],
+  "limitations": [
+    "Every test is fabricated source-known header metadata, not an observed result body or numerical input.",
+    "Recognizing the fixed RI100 header does not establish whole-body identity, scenario validity, provenance, execution custody or arithmetic.",
+    "No observed adapter, HDF5 extraction, coefficient capture, interval contraction or scientific fixture is executed by this qualifier.",
+    "This report qualifies only the two production header helpers; historical RI108 qualification and the failed RI110 attempt remain distinct evidence.",
+    "A passing interface report does not admit a new observed attempt or establish physical calibration, protected validation, noise covariance, a native forward map or geometry/gravity; RET remains paused."
+  ],
+  "phase": "fabricated_interface_qualification",
+  "results": [
+    {
+      "actual": {
+        "code": null,
+        "error_class": null,
+        "outcome": "header_only_pass"
+      },
+      "expected": {
+        "code": null,
+        "outcome": "header_only_pass"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H00:accepted_header_contract",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "TRACE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "TRACE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H01:legacy_status",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_gates_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "TRACE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "TRACE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H02:unknown_status",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "success_unchecked"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "PHASE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "PHASE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H03:fabricated_prior_phase",
+      "implementation": "primary",
+      "input": {
+        "phase": "fabricated_qualification",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "PHASE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "PHASE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H04:receiving_phase_substitution",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_observed_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H05:older_predecessor_schema",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri93-frequency-band-proxy-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "TRACE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "TRACE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H06:missing_status",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "PHASE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "PHASE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H07:missing_phase",
+      "implementation": "primary",
+      "input": {
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H08:missing_schema",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "TRACE",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "TRACE",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H09:nonstring_status",
+      "implementation": "primary",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": true
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ContextError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "check_ri100_header",
+      "id": "primary:H10:nonmapping_header",
+      "implementation": "primary",
+      "input": null,
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": null,
+        "error_class": null,
+        "outcome": "header_only_pass"
+      },
+      "expected": {
+        "code": null,
+        "outcome": "header_only_pass"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H00:accepted_header_contract",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H01:legacy_status",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_gates_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H02:unknown_status",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "success_unchecked"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H03:fabricated_prior_phase",
+      "implementation": "validator",
+      "input": {
+        "phase": "fabricated_qualification",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H04:receiving_phase_substitution",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_observed_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H05:older_predecessor_schema",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri93-frequency-band-proxy-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H06:missing_status",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H07:missing_phase",
+      "implementation": "validator",
+      "input": {
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H08:missing_schema",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "status": "all_declared_checks_passed"
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H09:nonstring_status",
+      "implementation": "validator",
+      "input": {
+        "phase": "fixed_saved_application",
+        "schema": "ri98-mode-weighted-trace-v1",
+        "status": true
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "code": "INPUT",
+        "error_class": "ValidationError",
+        "outcome": "refusal"
+      },
+      "expected": {
+        "code": "INPUT",
+        "outcome": "refusal"
+      },
+      "helper": "verify_ri100_header",
+      "id": "validator:H10:nonmapping_header",
+      "implementation": "validator",
+      "input": null,
+      "passed": true
+    }
+  ],
+  "schema": "ri113-fabricated-interface-qualification-v1",
+  "scope": "fixed_RI100_header_contract_only_no_observed_or_scientific_execution",
+  "status": "all_header_contract_checks_passed"
+}

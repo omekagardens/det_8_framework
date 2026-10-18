@@ -1,0 +1,34 @@
+{
+  "authentic_interpreter_pin_in_handoff": true,
+  "current_runtime_observed": false,
+  "current_source_pins": [
+    {
+      "bytes": 43601,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py",
+      "sha256": "a3fdbf1c8e0c78974366d50caf53ec7acfbb91616c6ad684fa95aebeedcf2098"
+    },
+    {
+      "bytes": 17471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py",
+      "sha256": "80474eadb9af39345bb8c3440980041876c19e16020bdb05ff959a00723450be"
+    }
+  ],
+  "historical_checker": {
+    "bytes": 6475,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+    "sha256": "919766190e3b2ba0a300b1d23eb301c1f21000812ab7df396f4edee295c2b587"
+  },
+  "historical_handoff": {
+    "bytes": 4302,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+    "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+  },
+  "historical_interpreter": {
+    "bytes": 1057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+    "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+  },
+  "historical_interpreter_in_228_dependencies": false,
+  "schema": "ri133-independent-findings-metadata-v1",
+  "scientific_body_decode": false
+}

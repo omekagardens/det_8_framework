@@ -1,0 +1,156 @@
+{
+  "schema": "ri151-author-checks-v1",
+  "status": "AUTHOR_ONLY_NOT_INDEPENDENT_ACCEPTANCE",
+  "manual_review": {
+    "main_complete_current_manuscripts": [
+      "CANONICAL_EQUALITY_SYNTHESIS.md",
+      "COUPLED_EQUALITY_REDUCTION.md",
+      "NEUTRAL_COMPONENT_INCIDENCE.md"
+    ],
+    "main_fresh_literal_reads": [
+      "Complete selecting assignment, root decision and manual review; complete RI149 independent narrative and structured review.",
+      "Complete RI149 CANONICAL_REDUCTION_SYNTHESIS.md in chunk94bdb5.",
+      "Complete RI147 COMPONENT_CONTRASTS.md in ae5339 and RI127 RECORD_TRANSPORT.md in e9edc4.",
+      "RI63 check.py selected literal layout/node, fixed-prefix row, deletion potential, component ordering, critical and full primary/lexicographic definitions; fresh compact replacements in03a91b and50878d.",
+      "RI63 COMPLETION.md25-46,66-93; RI147 ACTUAL_SCALE_BOUND.md227-321 and SCALE_MEMBERSHIP_SYNTHESIS.md134-186.",
+      "Current DEPENDENCY_NOTES.md and SOURCE_IDENTITIES.json read completely in9354ce; dependency list decoded only as administrative identities by the bounded checker."
+    ],
+    "checks": [
+      "Complete neutral-terminal maximal-deletion roles, transported inside records, symmetric-parent automorphisms and repeated individual ideals.",
+      "Lower-prefix stage-four component equalities J7=41p, J9=f_i, J11=g_iu and square selected-chain relation.",
+      "Canonical Q/P tightness versus C5/U inequalities, including complete proper-slot defect classification and true full complements.",
+      "Closed global primary-face lift with fixed actual history weights and every outside coordinate fixed.",
+      "Exact equal-g polygon and unequal-g interval, zero cases, f>2L attainment and positive denominators.",
+      "Minimum-layout topological-label lemma, all four fixed parent comparisons, component precursor masks and unchanged original full-vector lexicographic order.",
+      "Closed symbolic canonical target formula and weighted N/q substitution; negative sigma1 factor uses upper bound.",
+      "Actual numerical branch, root coefficient ordering, q/v magnitude, both joint budgets and full H30 not inferred."
+    ],
+    "main_current_read_receipts": {
+      "coupled": "bb2218 exit0, complete",
+      "incidence": "2d2986 exit0, complete before only two disclosed wording refinements",
+      "synthesis": "main authored and manually cross-checked; both author peers complete read with no substantive findings"
+    }
+  },
+  "author_peers": [
+    {
+      "agent": "/root/ri132_audit_controls",
+      "role": "Algebra coauthor and manual integration cross-check, not independent reviewer",
+      "report": "Full main synthesis read; no concrete repair found; checked original-order argument, all-case attainment, objective-preserving lift and35/1476 weighted factor."
+    },
+    {
+      "agent": "/root/ri132_native_controls",
+      "role": "Incidence coauthor and manual integration cross-check, not independent reviewer",
+      "report": "Complete incidence note read back; full main synthesis checked with no concrete issue in the minimum-layout lemma, component order, closed global face lift, all-case target formula and weighted substitution. Final native wording narrowed no-enumeration to no-global-enumeration and explicitly kept RET paused."
+    },
+    {
+      "agent": "/root/ri132_evidence_contract",
+      "role": "Administrative provenance coauthor, not independent reviewer",
+      "report": "69c9a5 and a3fa88 exit0:150 dependencies,45 administrative bodies,734 historical and66 current typed references,129 preserved predecessor rows,4 whole-byte source pairs."
+    }
+  ],
+  "diagnostics": [
+    {
+      "tool_chunk": "bce6bd",
+      "exit_code": 1,
+      "kind": "READ_ONLY_ABSENCE",
+      "description": "Initial pwd and bounded rg search found no AGENTS.md or RI151 filename in the requested roots; no write or scientific execution."
+    },
+    {
+      "tool_chunk": "58d0b8",
+      "exit_code": 1,
+      "kind": "READ_ONLY_ABSENCE",
+      "description": "Remaining explicit ancestor/evidence AGENTS.md paths were absent; no write or scientific execution."
+    },
+    {
+      "tool_chunk": "aad405",
+      "exit_code": 0,
+      "kind": "AGGREGATE_TOOL_OUTPUT_CLIPPED",
+      "description": "Batched source/legacy-proof tool output exceeded aggregate orchestration output budget; not counted as a complete read. Needed source definitions and full synthesis were reread in bounded03a91b,94bdb5,50878d outputs. No scientific command ran."
+    },
+    {
+      "kind": "PRESEAL_EDITORIAL_REFINEMENT",
+      "description": "Incidence author changed opening 'No graph enumeration' to 'No global graph enumeration' for manual fixed-shape count precision and made RET-paused scope explicit. No substantive proof change or postseal repair."
+    }
+  ],
+  "scope": {
+    "manual_analytic_proof": true,
+    "administrative_opaque_identity_checks": true,
+    "scientific_body_decode": false,
+    "actual_numerical_coefficient_probability_history_maximum_scale_H_z_evaluation": false,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "runtime_controller_card_admission": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "ret_paused": true,
+    "measurement_separate": true
+  },
+  "postseal_rule": "Final HANDOFF.json pins this author record and all nine payloads. A later finite final10 check freshly reopens every cached identity; it is a separate receipt, not silently folded into the preseal report or independent proof acceptance.",
+  "administrative_check": {
+    "command": "node <<'NODE'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h', P='/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v', V='/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path&&eq(a.symlinks,i.symlinks),'fullpin');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:136111,sha256:'beb9357310be6b4157fc64c99552f67a2854540e954f7a9bcced7188b3adba17'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:21666,sha256:'f03f588103a9f4c2ec0c6183b75221a72187aa9c7fead7068c07fc9293b99b26'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===150,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===129,'old129');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===45&&refs===734,'admin refs');refs=0;scan(S);need(refs===66,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=['ANALYTIC_RESULT.json','AUTHOR_CHECKS.json','CANONICAL_EQUALITY_SYNTHESIS.md','COUPLED_EQUALITY_REDUCTION.md','DEPENDENCY_NOTES.md','HANDOFF.json','HANDOFF.md','NEUTRAL_COMPONENT_INCIDENCE.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json'];\nconst stage=process.env.RI151_STAGE||'preseal8',expected=stage==='final10'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['CANONICAL_EQUALITY_SYNTHESIS.md','COUPLED_EQUALITY_REDUCTION.md','NEUTRAL_COMPONENT_INCIDENCE.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final10'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===9,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri151-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:150,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:129,administrative_bodies:45,historical_typed_refs:734,premise_refs:66,predecessor_namespaces:[10,7],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nNODE",
+    "tool_chunk": "0f9e96",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri151-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal8",
+      "dependencies": 150,
+      "selected_bytes": 4347537,
+      "inherited": 129,
+      "administrative_bodies": 45,
+      "historical_typed_refs": 734,
+      "premise_refs": 66,
+      "predecessor_namespaces": [
+        10,
+        7
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 7,
+      "final_fresh_identity_rechecks": 158,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/ANALYTIC_RESULT.json",
+          "bytes": 4157,
+          "sha256": "51e491188f4e545199e3bd677c9521d1eb2a7acb5786e128b5a10e48acda8bb3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/CANONICAL_EQUALITY_SYNTHESIS.md",
+          "bytes": 13488,
+          "sha256": "662341234fb4187fdaa5f3fc57049803b481340af1ef5b870bfa77002f2ab3d2"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/COUPLED_EQUALITY_REDUCTION.md",
+          "bytes": 17046,
+          "sha256": "fcef241134507f3e21187a905871aa9853dabd0d95eca8cd6f9d335535d1bf04"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/DEPENDENCY_NOTES.md",
+          "bytes": 9885,
+          "sha256": "590c38a0cbe1b193669f8ca8dacf63478d5ee0e2e8504f03ccc25728b808a719"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.md",
+          "bytes": 2862,
+          "sha256": "85274eb013973eb424110489de9cb39fd2393c09bf7b19b3770613ed97e76c37"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+          "bytes": 22869,
+          "sha256": "dccd56286e012010fd4775eff5b1bb355312e4af12975e73bb8361bb85873495"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_DEPENDENCIES.json",
+          "bytes": 136111,
+          "sha256": "beb9357310be6b4157fc64c99552f67a2854540e954f7a9bcced7188b3adba17"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_IDENTITIES.json",
+          "bytes": 21666,
+          "sha256": "f03f588103a9f4c2ec0c6183b75221a72187aa9c7fead7068c07fc9293b99b26"
+        }
+      ],
+      "scientific_execution": false
+    }
+  }
+}

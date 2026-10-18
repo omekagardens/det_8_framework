@@ -1,0 +1,11 @@
+{
+  "schema": "ri180-dispatch-record-v1",
+  "agent": "/root/archive_repro_review",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_REVIEW_ASSIGNMENT.json",
+    "bytes": 1542,
+    "sha256": "771e2a9c09769e05118388218dda11cb60e75f5a5c564c7022824ed7759a5568"
+  },
+  "actual_followup_tool_result": "success; empty response",
+  "reviewer_acknowledgment": "Assignment and RI176 handoff authenticated; exclusive empty reservation confirmed. Reviewing full changed source and obligations as nonauthor without execution."
+}

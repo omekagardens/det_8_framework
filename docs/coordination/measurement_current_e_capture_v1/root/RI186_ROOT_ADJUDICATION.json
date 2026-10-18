@@ -1,0 +1,37 @@
+{
+  "actual_terminal": "5c0651 exit0",
+  "fresh_root_check": {
+    "bytes": 834,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI186_ROOT_FRESH_CHECK.json",
+    "sha256": "62e4ec4c8c33afc68520aaa10cfe9ad90c472c8ff027d5d3370dd2cca5a5e0b0"
+  },
+  "guard_sequence_clarification": "The sealed reviewer closing prose mentions a later 65-guard stage. It does not authorize or require a blanket new65 rerun. The accepted RI170 R01 path-applicability contract governs: nonauthor path-sensitive review decides whether a smallest genuinely required extra control exists. Preserve the sealed review unchanged.",
+  "next": "Separately admitted genuine current-E normal profile, independent review, then separately admitted optimized profile; R01/WHITE/GWOSC/native-forward-map gates remain separate.",
+  "premises": [
+    "Stable host/tool/vendor and Apple kernel/loader/shared-cache suppliers.",
+    "Saved pid_owner is parent PID, not authenticated child identity; sampled child RSS and accepted no-descendants premise, not hard group quota.",
+    "Finite read-window stability is not continuous freeze; source/pyc equivalence and complete dynamic imports are not established."
+  ],
+  "prior_root_check": {
+    "bytes": 1240,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/ROOT_CAPTURE_CHECK.json",
+    "sha256": "ed82e1f639d68ee98de594f1b8e1967a571d82d3ffdbbe65bf829e1593d7c7f5"
+  },
+  "profile_or_guard_executed": false,
+  "ret_paused": true,
+  "review": {
+    "bytes": 13402,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/INDEPENDENT_REVIEW.md",
+    "sha256": "bb711ee4ada7421d8e1f1487b118f289f5c322872ff145b26d3362f7007b579a"
+  },
+  "review_actual_check": "7c9995 exit0; final01925d and seal0891fd exit0",
+  "schema": "ri186-root-current-e-baseline-adjudication-v1",
+  "scientific_credit": false,
+  "scope": "Actual metadata capture only; genuine root tool origin and independent saved observations. Accepted source semantics inherited; reviewer prior bootstrap authorship disclosed.",
+  "status": "ACCEPT_EXACT_CURRENT_E_METADATA_BASELINE",
+  "verdict": {
+    "bytes": 2512,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/VERDICT.json",
+    "sha256": "3ef0351fbef0c06dd90537ea7e4a104b89c9c8fc28624e132260983c74edc2df"
+  }
+}

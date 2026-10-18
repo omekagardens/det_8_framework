@@ -1,0 +1,130 @@
+{
+  "actual_checks": {
+    "accepted_witness_and_normal_unchanged": true,
+    "all_candidate_whole_bytes_equal_to_witness": true,
+    "all_four_identity_maps_equal": true,
+    "all_four_namespace_maps_equal": true,
+    "closed_reference_occurrences": 3844,
+    "complete_roles": 3757,
+    "event_count": 15,
+    "external_pre_post_observed_fields_equal": true,
+    "live_samples": 11,
+    "max_census_duration_seconds": 0.02018441700056428,
+    "max_intercensus_start_gap_seconds": 0.07551375000184635,
+    "normal_optimized_summary_whole_bytes_equal": true,
+    "raw_censuses": 12,
+    "raw_ps_rows": 9995,
+    "sampled_peak_rss_bytes": 62799872,
+    "summary_bytes": 996,
+    "unique_bytes": 185804592,
+    "unique_paths": 3739
+  },
+  "blocking_findings": [],
+  "boundaries": {
+    "exact_receipt_child_end_reconstructed": false,
+    "execution_authorized": false,
+    "native_arithmetic_recomputed": false,
+    "native_mathematics_accepted": false,
+    "native_scientific_stdout_decoded": false,
+    "outer_history": "Trusted root transcription of actual initial 7e854f / session 12358 and final aa3053 / exit 0; not personally witnessed original calls.",
+    "programme_complete": false,
+    "receipt_time": "Raw final terminal 0.7880856670017238 s; later receipt 0.7882866670006479 s is a separate unlogged monotonic assignment, checked only for source-consistent order/deadline.",
+    "sampling": "50 ms is the requested live-loop sleep, not a start-to-start ceiling. RSS is sampled owned-group accounting, not an OS hard cap. The documented exit-race confirmation census skips the live sleep.",
+    "scientific": "Custody and opaque equality only; no mathematics acceptance, no transferred changed-target qualification or qualification of unexecuted caller control declarations, no audit admission.",
+    "target_or_caller_invoked_by_review": false
+  },
+  "closed_review": {
+    "bytes": 8242,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/OPTIMIZED_INDEPENDENT_COMPLETE_REVIEW.json",
+    "sha256": "3c0df21c90d42eeaea7a82e6387b07877c613d33d045a03b4303dba3cdcd37f6"
+  },
+  "evidence": [
+    {
+      "bytes": 22544,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/CUSTODY_INPUT_CHECK.py",
+      "sha256": "6700913d2bc185a2c6e95af0262bdfb018b4e1c50d2c36c074853a5c9b85f5f9"
+    },
+    {
+      "bytes": 25188,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/INPUT_ADAPTATION.diff",
+      "sha256": "2be862e379652444f5312e6a6fd2401dbbe41f1a7fefd8a0474a192d1f9179de"
+    },
+    {
+      "bytes": 2836003,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/CUSTODY_INPUT_RESULT.json",
+      "sha256": "b7a0b7e620daead8e43fda7a42cbfe1d6fe3442ed6ae65bc76a35e20cf6fdc1b"
+    },
+    {
+      "bytes": 2000,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/INPUT_TEXT_REVIEW_NOTE.json",
+      "sha256": "09bbd1fc677bedb272f06011d4cac3eb9139fab72475a7859e6027caee00d09c"
+    },
+    {
+      "bytes": 22550,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/CUSTODY_INPUT_CHECK.before_text_review.py",
+      "sha256": "76b85b72c5fb375bec879474e72187e00c32b3fd81cce0c21bbeaa8e6f61ae98"
+    },
+    {
+      "bytes": 26256,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/INPUT_ADAPTATION.initial.diff",
+      "sha256": "731d53b2e9562a1d577d1ee6d9c5ce0bb6cb96cfd5631cac741dae01c5353188"
+    },
+    {
+      "bytes": 16439,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_CHECK.py",
+      "sha256": "aaab9053bf87f5e266c249691d5e695607fd13edabca39a7e6e2bea48625b655"
+    },
+    {
+      "bytes": 15133,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_ADAPTATION.diff",
+      "sha256": "dc5b9675fca9ec4dade600f43383ec390d35c66087b8b40dc70e9dfaec3f01e6"
+    },
+    {
+      "bytes": 965392,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_RESULT.json",
+      "sha256": "deb9c129ff2b0da9dea7c01c6d09517fe32147aacca7adfc10d1813d93a555b4"
+    },
+    {
+      "bytes": 8138,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_REPORT.md",
+      "sha256": "384d80b609be14960d9819d6653e22defdbe23ca52077712c06ca66e057a0244"
+    },
+    {
+      "bytes": 14699,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_INITIAL_CHECK.py",
+      "sha256": "9b8447364197fb02e843f20ea969b3c43d307cf47664217fca9371604ffa38ea"
+    },
+    {
+      "bytes": 9194,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_INITIAL_ADAPTATION.diff",
+      "sha256": "51be2810b2e6c77a0639c1c289bc373389438f5a0ae197f388ec667e3227d365"
+    },
+    {
+      "bytes": 948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_PREPARATION_FAILURE.json",
+      "sha256": "c3291394ff3d698eda7c5a2ec3bf33fef5331106f00c15ea5bfe08bc3ab88d22"
+    },
+    {
+      "bytes": 8769,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-optimized-custody-review-4pGLugop/MONITOR_EVENT_GRAMMAR_CORRECTION.diff",
+      "sha256": "94a13c105c3855654a67fac649be80d52bebc9d2f4f0025998e6b4ebe0995b80"
+    },
+    {
+      "bytes": 1038,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/OPTIMIZED_GENUINE_TOOL_CHAIN.json",
+      "sha256": "1734f42a7bfa6ab89f5abb8b107883d9e2f5fa2318ce474aa59580a587a6b929"
+    },
+    {
+      "bytes": 5973,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_COMPLETE_REVIEW.json",
+      "sha256": "bd9e112b05ed9483af78fdf9bb906278b406567c597c9b7bcb59740a668652d3"
+    }
+  ],
+  "review_coverage": {
+    "input_checker": "Complete prior normal checker read in 88fc16 and full optimized adaptation in edfb61. Two overbroad text substitutions corrected before checker execution; draft/history preserved. Actual administrative checker tool 68211e exit 0. Added fourteen normal predecessor roles and exact acceptance/output pins, child-only -O, immutable candidate/addendum binding, actual normal/optimized whole-byte equality; unchanged metadata functions.",
+    "monitor": "Distinct reviewer corrected administrative checker tool 93c4e7 exit 0. Full adaptation read in 70673e, full report in 0c445b; retained supervise.py monitor and loop reread in 799ed8. Initial review-only failure 5ed6bc and exact source/diffs preserved. Permitted intermediate terminal poll now checked by complete per-census event grammar, not discarded.",
+    "root_artifacts": "Complete actual normal root custody, optimized root complete review, authorization, root admission and applicability read in e05df9. Complete order independently extended from prior manual order then compared with declared catalogue; all current identities refreshed."
+  },
+  "schema": "ri122-independent-optimized-custody-companion-v1",
+  "status": "COMPLETE_METADATA_CUSTODY_REVIEW_PASS"
+}

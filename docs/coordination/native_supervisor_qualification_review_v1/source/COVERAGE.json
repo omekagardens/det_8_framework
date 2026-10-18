@@ -1,0 +1,205 @@
+{
+  "schema": "ri171-source-coverage-map-v1",
+  "groups": [
+    {
+      "group": "S01",
+      "cases": [
+        "S01.healthy"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S02",
+      "cases": [
+        "S02.timer"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S03",
+      "cases": [
+        "S03.nonzero",
+        "S03.stderr"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S04",
+      "cases": [
+        "S04.stdout.exact",
+        "S04.stdout.excess",
+        "S04.stderr.exact",
+        "S04.stderr.excess",
+        "S04.dual.excess",
+        "S04.stdout.read",
+        "S04.stdout.write",
+        "S04.stdout.partial_write",
+        "S04.stdout.short_write",
+        "S04.stderr.read",
+        "S04.stderr.write",
+        "S04.stderr.partial_write",
+        "S04.stderr.short_write",
+        "S04.stdout.write_would_block.zero_progress",
+        "S04.stdout.write_would_block.after_prefix",
+        "S04.stdout.read_would_block.transient",
+        "S04.stderr.write_would_block.zero_progress",
+        "S04.stderr.write_would_block.after_prefix",
+        "S04.stderr.read_would_block.transient"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S05",
+      "cases": [
+        "S05.observer.real",
+        "S05.observer.duplicate",
+        "S05.observer.malformed",
+        "S05.observer.nonascii",
+        "S05.observer.empty",
+        "S05.observer.nonzero",
+        "S05.observer.stderr",
+        "S05.observer.overflow",
+        "S05.observer.timeout",
+        "S05.caller.stdout.registration",
+        "S05.caller.stderr.registration",
+        "S05.ps.stdout.registration",
+        "S05.ps.stderr.registration",
+        "S05.ps.stdout.read",
+        "S05.ps.stderr.read",
+        "S05.fallback.alive",
+        "S05.fallback.already_exited"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S06",
+      "cases": [
+        "S06.observed_descendant"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S07",
+      "cases": [
+        "S07.fast_reparent"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S08",
+      "cases": [
+        "S08.birth",
+        "S08.pgid",
+        "S08.unverified_member",
+        "S08.safe_second",
+        "S08.signal_birth",
+        "S08.signal_pgid"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S09",
+      "cases": [
+        "S09.real_cutoffs",
+        "S09.real_expiry"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S10",
+      "cases": [
+        "S10.stdout.fsync",
+        "S10.stdout.close",
+        "S10.stdout.replacement",
+        "S10.stdout.drift",
+        "S10.stderr.fsync",
+        "S10.stderr.close",
+        "S10.stderr.replacement",
+        "S10.stderr.drift",
+        "S10.processes.fsync",
+        "S10.processes.close",
+        "S10.processes.replacement",
+        "S10.processes.drift",
+        "S10.stdout.descriptor",
+        "S10.stdout.size",
+        "S10.stderr.descriptor",
+        "S10.stderr.size",
+        "S10.processes.descriptor",
+        "S10.processes.size",
+        "S10.caller.stdout.unregister_close",
+        "S10.caller.stderr.unregister_close",
+        "S10.ps.stdout.unregister_close",
+        "S10.ps.stderr.unregister_close",
+        "S10.journal.alive",
+        "S10.journal.already_exited"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S11",
+      "cases": [
+        "S11.preexists",
+        "S11.partial",
+        "S11.fsync",
+        "S11.base_sync",
+        "S11.post_receipt"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S12",
+      "cases": [
+        "S12.ownership",
+        "S12.drain",
+        "S12.finalization"
+      ],
+      "actual_outcomes": 0
+    },
+    {
+      "group": "S13",
+      "cases": [
+        "S13.journal_cap",
+        "S13.descendant_cap",
+        "S13.ps_max",
+        "S13.late_observer",
+        "S13.observer.kill_failure",
+        "S13.observer.nonreap",
+        "S13.journal.kill_failure",
+        "S13.journal.nonreap",
+        "S13.poll_unavailable",
+        "S13.deadline_exhausted"
+      ],
+      "actual_outcomes": 0
+    }
+  ],
+  "total_cases": 92,
+  "inherited_recipe_count": 34,
+  "group_case_count": 58,
+  "entry_counts": {
+    "whole": 69,
+    "observer": 16,
+    "direct": 7
+  },
+  "bound_subject": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "anchors": {
+    "subject_supervise": 338,
+    "subject_observer": 154,
+    "subject_discover": 288,
+    "subject_signal": 312,
+    "worker_whole_entry": 452,
+    "worker_original_observer": 448,
+    "worker_direct": 399,
+    "independent_saved_interpretation": 28
+  },
+  "limitations": [
+    "Anchors and counts are source correspondence, not executed coverage",
+    "Only genuine whole-case calls count as whole-interface evidence",
+    "Direct/observer/doubled cases retain declared limited scope",
+    "Saved checker is same-author but separately implemented; fresh nonauthor source review remains required",
+    "All92 actual cases and current runtime/tool/recovery qualification pending"
+  ]
+}

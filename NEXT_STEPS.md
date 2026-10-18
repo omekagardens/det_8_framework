@@ -1,78 +1,111 @@
 # DET v8.0 — Next Steps
 
-**Date:** August 27, 2026
-**Test suite:** 751/752 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
-**Status:** Record-Kernel Physics and the RET research program are integrated. The software is internally consistent; empirical validation, independent replication, and several analytic/continuum results remain open. DET is governed as a **lens (instrument)**: the falsifiable quantity is productivity, tracked in the [Novelty Ledger](NOVELTY_LEDGER.md), and the first push — the D_κ decoherence functional — is formalized.
+**Current published roadmap: 18 October 2026.** Close small, independently
+complete deliverables with explicit premises and acceptance criteria. Keep
+conditional mathematics, finite computation, conventional measurement,
+production qualification and physical prediction separate.
 
----
+The [theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md)
+and [law-dependence result](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
+are the current public mathematical entry points. The
+[implementation plan](REVIEW_IMPLEMENTATION_PLAN.md) begins with the current
+summary and preserves older coordination entries below it. The
+[original independent review](<indep ndent_review.md>) remains the starting
+assessment, with its original evidence limits.
 
-## Completed in the integrated tree
+## Deliverables and completion criteria
 
-- Record-Kernel Physics modules T1–T7, T2a, T6b, the T6 residual, and the complex-structure study are implemented as finite or computed results with their stated caveats.
-- Gravity modification is retired under Option B. Standard GR and standard dark matter remain the physical baseline.
-- The κ-Π clock anomaly is the sole active Track A prediction. It remains gated on F9 and an independent κ measurement.
-- Falsification governance, observable anchoring, applied-physics ingest, and the F9/proxy ladder are implemented.
-- The general Relational Experimental Calculus (RET) supports hierarchical inference, correlated and nonlinear observations, explicit open models, question-conditioned scheduling, immutable evidence provenance, and RG1/RG2 gates.
-- Governed RET adapters cover Exodus apparatus accounting, neutron lifetime, bounded Riemann/Collatz searches, and bounded Navier–Stokes numerical studies.
-- The combined runner covers 692 checks across the upstream, RET research, and Novelty Ledger/D_κ suites.
+| Deliverable | Published position | Next bounded output and completion criterion |
+| --- | --- | --- |
+| **1. Reader-facing theorem package** | The admitted law and support, positive small-amplitude extension, branch-conditional kernel classification and 30/33/38 fixed-amplitude exclusions are consolidated. | Keep one coherent package with exact dependencies. Resolve historical/natural coordinates only when the original definitions support the map; otherwise retain the explicit gap. A standalone finite-certificate replay is a separate reproducibility deliverable. |
+| **2. Law dependence** | An admissible alternative finite prefix changes an example-specific ratio; the mixed-diamond calculation rejects a naive cross-layer extension. Structural identities and optional prescriptions are separated. | Choose a declared family and establish which seed, normalization and support conclusions survive. Finish with a theorem, counterexample or precise unresolved premise; another coefficient reduction is not the automatic successor. |
+| **3. Portable scientific replay** | Prospective replay of the selected public GWOSC data is being prepared. Scientific execution remains pending in this published snapshot. | Declare a fresh environment and provenance, reproduce one bounded conventional calculation and independently check its arithmetic. Preserve failed historical custody and use only controls needed for this calculation on its critical path. |
+| **4. Native physical prediction** | No native forward map to a measured observable has been established. | Connect one mathematical result to an explicit prediction and observation channel, including units, operational preparation, uncertainty, comparison baseline and a falsifying outcome. Additional physical assumptions must be stated. |
+| **5. Application benchmark** | Useful inference and signal-processing ingredients exist; measured application advantage remains to be demonstrated. | Freeze one diagnostic or signal-processing task with declared baselines, measurement and computational costs, failure rates and held-out evaluation. Report the result whether positive or negative. Application success supplies no physical-theory validation. |
 
-## Active next work
+The physics and application deliverables are separate projects with separate
+success criteria. Full production-system qualification is also separate from a
+portable scientific replay; a prospective run cannot reconstruct missing
+historical identity or release closed production routes.
 
-**Lens surface:** ontology (chosen) · instrument (RET + Novelty Ledger +
-DG-WARRANT) · physical yield (clock gated · D_κ target · τ_rec discriminator) ·
-engine validation (sandbox). The D_κ push is formalized
-(`det8/models/dkappa_decoherence.py`): I₃ = κ·r, anchored by the three-slit
-bound |I₃| < ε ⇒ κ < ε/r.
+## Native mathematics: preserve the proved scope
 
-### 1. Empirical κ/clock program
+The positive theorem extends the admitted harmonic construction through one
+additional birth layer at sufficiently small amplitude. The `1/4` exclusions
+concern three specified supports under the fixed-law coefficient premises; they
+do not contradict that positive theorem or imply a support-independent no-go.
 
-1. Execute F9 on raw recovery records \(R(t)\) across temperature, without assuming a κ calibration.
-2. Establish operational plateau anchors and an independent κ preparation/measurement protocol.
-3. Only after those gates pass, run the common-mode atomic-clock universality test.
-4. Treat a null result as a constraint on the product λ_P·Δκ, not as a standalone λ_P measurement.
+The signed kernel has dimension one when the two actual canonical coefficients
+are unequal and two when they are equal. Which branch the prescribed selector
+occupies remains unresolved. That comparison is needed to select the actual
+dimension, but not to retain the complete conditional classification or the
+fixed-amplitude exclusions.
 
-The former torsion-balance, SPARC, cluster, BAO, and κ-gravity programs are historical audit material, not active DET predictions.
+Keep bounded coefficient work subordinate to a named deliverable. A new law
+changes later potentials, row maxima, history weights and canonical solutions.
+Do not reuse the old signs, active support or endpoint certificates without
+proving their applicability. Coordinate rescaling must also be distinguished
+from changing a law or changing the requested perturbation amplitude.
 
-### 2. RET experimental and observational work
+The larger foundations questions remain: physical selection of the operational
+domain and law, informative quantum dynamics, manifoldlike emergence, and a
+native observation map. More finite checks do not by themselves close these
+questions. The arbitrary PSD payload in the current growth model remains
+scalar-passive.
 
-- **Exodus:** replace surrogate geometry with measured apparatus dimensions, terminal capacitances, leakage paths, lead routing, and force/charge calibration data. Test conventional endpoint models before opening any history or Earth-fixed channel.
-- **Neutron lifetime:** perform the selected absolute proton-detection audit and add a historically fresh, covariance-documented record before novelty escalation.
-- **Riemann:** use independent interval-certified or equivalent validation before making any claim beyond finite critical-line computations.
-- **Collatz:** preserve the locked higher bands until a candidate passes the frozen calibration and score gates; bounded verification must not be described as a universal proof.
-- **Navier–Stokes:** complete a genuine spatial-and-temporal convergence rectangle and obtain historically fresh replication. Current results remain bounded numerical evidence, not singularity, regularity, or proof claims.
+## Measurement and evidence boundaries
 
-### 3. Open mathematical work
+The prospective replay should have a fixed dataset, calculation, output and
+independent arithmetic comparison. State its numerical tolerances before the
+run and keep failures, partial captures and failed admissions visible. A
+successful conventional GWOSC calculation establishes evidence for that
+calculation in its new environment; it is not a DET-specific gravity test.
 
-- Born-rule uniqueness from DET axioms rather than amplitude correspondence. **Partially addressed:** the squared-magnitude form P = |c|² is now shown unique among power rules by conservation under symmetric basis splits (`born_rule_uniqueness.py`), and tied to grade-2 / the three-slit null. Linear root composition and unitary (vs orthogonal) basis change remain open.
-- Distributional scheduler independence over all admissible linear extensions.
-- Global joint-kernel consistency, analytic no-signalling, and covariance.
-- Why there is exactly one phase form Ω and why the relevant dynamics are reversible. **Addressed (shape arguments):** one causal order ⟹ one Ω ⟹ ℂ; reversibility = unbiased navigation of the open possibility structure (`u1_emergence.py`). The constructive U(1)-from-discrete-±1 derivation remains open.
-- Manifoldlike emergence, embedding uniqueness, and continuum spacetime convergence.
-- Redundant-record stability for the preferred-basis account.
+Historical qualification, runtime and custody requirements remain where they
+belong. Do not silently relax them, rewrite failed records or describe new
+provenance as recovered historical provenance. Production qualification and
+protected validation require their own evidence and acceptance decisions.
 
-### 4. Repository and reproducibility maintenance
+## Paused and gated work
 
-- Keep generated bytecode, downloaded datasets, calibration snapshots, virtual environments, and local credentials untracked.
-- Rotate/revoke the IBM Quantum credential referenced by the historical removal commit if it has not already been rotated. Removing a credential in a later commit does not remove it from Git history.
-- Coordinate any history rewrite separately; do not rewrite shared `main` without explicit collaborator agreement.
-- Record future consumed evidence with immutable manifests and preserve all preregistered holdouts.
+- **RET research remains paused.** Existing tools, adapters, tests and historical
+  results remain available; their presence is not an instruction to restart
+  Exodus, neutron-lifetime, Riemann/Collatz or Navier–Stokes studies.
+- **Gravity remains Option B:** unchanged GR is the physical baseline. The
+  metric-as-record proposal remains Status M and the retired gravity
+  modification is not reinstated.
+- **The documented κ-Π clock proposal remains gated** on F9 and an independent
+  κ preparation/measurement protocol. A clock null would constrain the stated
+  product of parameters, not independently measure each factor.
+- **Protected inputs and holdouts stay protected.** Preserve the locked Collatz
+  higher bands, experimental prerequisites, source freezes and custody records.
+- **Research follows the current account-usage guard.** The current authorized
+  stop is 10% remaining; a research pause does not authorize further research
+  through a test runner. Separately authorized repository maintenance has its
+  own scoped checks.
 
----
+Older application proposals and broader mathematical questions remain in their
+[study documents](README.md#earlier-studies-and-tools), [model card](MODEL_CARD.md)
+and [historical roadmap](ROADMAP.md). They are not all active assignments.
 
-## Primary references
+## Repository integration and reproducibility
 
-| Document | Content |
-|---|---|
-| `MODEL_CARD.md` | Primary framework, claim status, RET research summary, and coverage caveats |
-| `GOVERNANCE.md` | Claim register, anti-smuggling rules, decision gates, and RG governance |
-| `FALSIFICATION_LEDGER.md` | Active and retired falsifiers and their status |
-| `NOVELTY_LEDGER.md` | The lens's productivity register and DG-WARRANT gate |
-| `docs/observable_anchoring.md` | Observable/formalism/ontology separation |
-| `docs/record_kernel_physics.md` | Record-Kernel Physics theorem program |
-| `docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md` | General RET methodology |
-| `docs/RELATIONAL_RESIDUAL_DISCOVERY.md` | Evidence families, provenance, and RG2 discovery |
-| `docs/NAVIER_STOKES_NEAR_SINGULARITY.md` | Bounded numerical protocol and current limits |
+Use the [branch workflow](docs/BRANCH_WORKFLOW.md) to integrate reviewed public
+`ret` checkpoints into `main` regularly, with a current landing-page summary,
+scoped validation and verified remote state. Do not wait for an entire research
+programme to finish before integrating a complete reviewed deliverable.
 
-```bash
-python3 run_tests.py   # 751/752 passing
-```
+Preserve unrelated edits and private evidence. Published summaries must identify
+which results are actually included; later local findings should not be presented
+as packaged, reproducible public results. Keep generated bytecode, downloaded
+datasets, environments and credentials out of routine commits.
+
+The [research-check registry](docs/RESEARCH_CHECKS.md) documents explicit finite
+witness suites and their limits. `python3 run_tests.py` includes research and
+numerical studies and is not a routine merge gate. Record what was actually
+checked for each integration instead of carrying forward an old pass count.
+
+The historical credential-removal reminder also remains: rotate/revoke the IBM
+Quantum credential if that has not already been completed. Removing it in a
+later commit does not remove it from history; any shared-history rewrite requires
+separate coordination.

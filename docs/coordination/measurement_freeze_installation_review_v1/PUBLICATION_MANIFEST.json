@@ -1,0 +1,84 @@
+{
+  "exact_copies": 13,
+  "parent": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+  "payload": [
+    {
+      "bytes": 20026,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "18a5e6c7c47ac6cc660d3a15e74cd65da143209bfd8c7fab34f6fbe6f6f74e9d"
+    },
+    {
+      "bytes": 1248,
+      "path": "README.md",
+      "sha256": "b56e1122359e34158de248d91304305e2307d87765f59a32b7630fd5f04a89cb"
+    },
+    {
+      "bytes": 2860,
+      "path": "native_sources/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+      "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+    },
+    {
+      "bytes": 2224,
+      "path": "prior_checkpoint/VERIFIED_REMOTE_CHECKPOINT.json",
+      "sha256": "51380cef5c1e583d43365aed9fc8e9945e1a73abd2489c61432d69902ddd39ae"
+    },
+    {
+      "bytes": 1584,
+      "path": "root_review/ACTUAL_ROOT_CHECKS_AND_DISPATCH.json",
+      "sha256": "56dfb3936e8c8b59e786a5597322de47b4b7f7b475c257f4e3f10516613470b0"
+    },
+    {
+      "bytes": 29123,
+      "path": "root_review/MEASUREMENT_BOUNDARY.json",
+      "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+    },
+    {
+      "bytes": 3892,
+      "path": "root_review/RI209_NONAUTHOR_REVIEW.json",
+      "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+    },
+    {
+      "bytes": 2690,
+      "path": "root_review/RI209_ROOT_SOURCE_DECISION.json",
+      "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+    },
+    {
+      "bytes": 3334,
+      "path": "root_review/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+      "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+    },
+    {
+      "bytes": 2782,
+      "path": "root_review/RI213_REPAIR_ASSIGNMENT.json",
+      "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+    },
+    {
+      "bytes": 704,
+      "path": "root_review/ROOT_ADMIN_DIAGNOSTIC.json",
+      "sha256": "52b46b5649116fd2bbb337a191ab9501c5534a943beba5e3fcb64973e5b0c727"
+    },
+    {
+      "bytes": 3144,
+      "path": "root_review/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 5766,
+      "path": "root_review/publish_followthrough.py",
+      "sha256": "09cfe58aa925dfeafb44d2a526717040f26a400cb79004756aa7bbd9815a2885"
+    },
+    {
+      "bytes": 9770,
+      "path": "root_review/record_followthrough.failed-6cc5a8.py",
+      "sha256": "e6b5cee23051d0f71bd1881c6145a536f68bec40176d237f4d2cc7eec3dab660"
+    },
+    {
+      "bytes": 10422,
+      "path": "root_review/record_followthrough.py",
+      "sha256": "7eb42e5eb758ae22bb0a3309104643d5acde455badbaa9dbbc9b2072b0fc4349"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

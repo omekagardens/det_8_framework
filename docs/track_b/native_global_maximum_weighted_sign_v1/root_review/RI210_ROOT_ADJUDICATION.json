@@ -1,0 +1,65 @@
+{
+  "RET_paused": true,
+  "actual_W_decided": true,
+  "actual_W_positive": true,
+  "author_final_reported_not_root_execution": {
+    "chunk_id": "9ff130",
+    "exit_code": 0
+  },
+  "automatic_proof_arithmetic": false,
+  "both_individual_margins_or_H30_decided": false,
+  "global_M6_bound_proved": true,
+  "global_proof": {
+    "bytes": 9242,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/GLOBAL_W.md",
+    "sha256": "fe165ff5434728bce491422e49eb5fa65a23488467299ee7604470f0ac513336"
+  },
+  "handoff": {
+    "bytes": 8112,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/HANDOFF.json",
+    "sha256": "8165876b68c88fc432c099d0493b2db48e087aa52c0ca6d7f761020bb33c1570"
+  },
+  "independent_review": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI210_NONAUTHOR_REVIEW.json",
+    "sha256": "13a84dc34d51475533b9ebfb88ff743df811b2ab8146762b80eef566e4f878f5"
+  },
+  "metadata": {
+    "bytes": 18808,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI210_ROOT_METADATA_CHECK.json",
+    "sha256": "7aac7a7ead097c9c5c36752897a654856a248180a0ad1bfdf1e0be736fb9bcdf"
+  },
+  "physical_correspondence_proved": false,
+  "premises": [
+    "RI185 accepted complete antichain classification:63proper A6 ideal occurrences,64records,31-term A5 complements and exact reduced six-row table.",
+    "RI185 all-mark restoration-only proper A5 theorem derived by marked diamonds and accepted RI63 active-neutral support, including selected sizes3/4.",
+    "Literal singleton and A3 seed; fixed positive complete four-parent probabilities, including actual full entries; empty-parent1.",
+    "Accepted native M5>5e9, theta=1/[72(1+M5)]<2^-38, unchanged target T=4lambda*j0/v-1/2>465e9.",
+    "Accepted same-law complete one-through-five-maxima theorems; earlier proof/decision pairs exactly bound.",
+    "RI199 exact weighted identity, positive coefficients and q/core/final terms, actual pair domain, U30>0 and1-U30/d>2/3. Its strict target implication includes equality."
+  ],
+  "proof": {
+    "bytes": 9187,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/SIX_MAXIMA.md",
+    "sha256": "eefd70006317801a0bcd662d31177430c1c8a86c3967fd9e69e8860f7a7a5d9b"
+  },
+  "qualification_credit": false,
+  "root_check": {
+    "chunk_id": "e759ae",
+    "exit_code": 0
+  },
+  "root_review": {
+    "bytes": 6577,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI210_ROOT_PROOF_REVIEW.md",
+    "sha256": "4543465c3cdafa3145211c3f1184288eaeb80c0e0bbc2c471587732b3494902e"
+  },
+  "schema": "ri211-root-ri210-adjudication-v1",
+  "scientific_body_decoded": false,
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_SIX_MAXIMA_GLOBAL_BOUND_AND_STRICT_WEIGHTED_W",
+  "theorems": [
+    "Every marked six-antichain has U6<2^36+7=68719476743<69000000000.",
+    "Exhaustive finite same-law domain has M6<463000000000<465000000000<T=4lambda*j0/v-1/2.",
+    "The original weighted quantity satisfies W(rho,s)>0 at the actual correlated pair; the RI199 sufficient implication remains strict even at M6=T."
+  ]
+}

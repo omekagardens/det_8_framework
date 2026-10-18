@@ -1,0 +1,24 @@
+{
+  "boundary_exception_must_remain_publicly_disclosed": true,
+  "external_only": [
+    {
+      "bytes": 184052,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/METADATA_CHECK.json",
+      "sha256": "c700e5c0bba58e18f370cb8d34b9565aaac27694b3648cc340a8211e09092241"
+    }
+  ],
+  "publish_names": [
+    "ADMIN_TOOL_RESULT.json",
+    "FINAL_SEAL_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "PUBLICATION_SUBSET.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "reason": "Compact review/finding/checker/tool-result publication;341 finite opaque rows remain in184052-byte external diagnostic referenced exactly. No historical source/runtime tree recopied.",
+  "schema": "ri165-independent-compact-publication-v1",
+  "source_and_provenance_recopy": false
+}

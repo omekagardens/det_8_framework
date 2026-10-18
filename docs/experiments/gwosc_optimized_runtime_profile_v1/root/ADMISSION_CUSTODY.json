@@ -1,0 +1,41 @@
+{
+  "card": {
+    "bytes": 3240,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/OPTIMIZED_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/OPTIMIZED_ADMISSION.json",
+    "sha256": "827adcbd982b4417fd17e680c529e8f20354420ef4f210487a4776acb9b781dd",
+    "state": [
+      16777244,
+      408865,
+      33188,
+      1,
+      3240,
+      1790775789069287718,
+      1790775789069287718
+    ],
+    "symlink_chain": []
+  },
+  "genuine_operation_count": 1,
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba",
+  "source_pre": {
+    "bytes": 319410,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/SOURCE_PRE.json",
+    "sha256": "df2c12c985a651ed13b4297737bb3c92c9dcb65f81386d5796580c542d804058"
+  },
+  "source_review": {
+    "bytes": 3661,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILE_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILE_SOURCE_ADJUDICATION.json",
+    "sha256": "4bd13269417fa03335ce7a47941d0b01939093fc91e5d495ec72288c2605e499",
+    "state": [
+      16777244,
+      408864,
+      33188,
+      1,
+      3661,
+      1790775789064323946,
+      1790775789064323946
+    ],
+    "symlink_chain": []
+  }
+}

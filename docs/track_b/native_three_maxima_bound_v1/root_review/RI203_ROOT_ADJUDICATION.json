@@ -1,0 +1,63 @@
+{
+  "actual_W_decided": false,
+  "author_final": {
+    "chunk_id": "e50853",
+    "exit_code": 0,
+    "reported_by_author": true
+  },
+  "both_margins_or_H30": false,
+  "global_M6_bound": false,
+  "handoff": {
+    "bytes": 6708,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/HANDOFF.json",
+    "sha256": "bba9a2e36c9bfff8b456c8d1f4d0fac5b189ba6008a173251f891cea608cda9c"
+  },
+  "independent_review": {
+    "agent": "/root/qr_opportunities",
+    "all_exit_zero": true,
+    "read_receipts": [
+      "e008ff",
+      "1f582a",
+      "7545b9",
+      "faa1d6"
+    ],
+    "verdict": "ACCEPT_ON_NAMED_INHERITED_PREMISES"
+  },
+  "lemma": {
+    "bytes": 10284,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/DENOMINATOR_LEMMA.md",
+    "sha256": "d466e1c13cf99583b2ea7ef269938993b46fdafec02ad6311a3fc4150124720c"
+  },
+  "metadata": {
+    "bytes": 11484,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_METADATA_CHECK.json",
+    "sha256": "91f2ee952dee6d09d6241e56937af3bbf1caa848f1d5a348636da870f2d15688"
+  },
+  "new_finite_verification": false,
+  "new_qualification_credit": 0,
+  "premises": [
+    "unchanged seed and marked maximal-deletion potential",
+    "RI41 all-ideal floor and proper-slot coefficient minimum",
+    "fixed complete canonical mixture and marked diamonds",
+    "RI201 native M5 witness and RI199 target relation"
+  ],
+  "proof": {
+    "bytes": 11125,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri203-native-three-maxima-p1oxdw_6/THREE_MAXIMA.md",
+    "sha256": "10008e3ccbe7a596daf811e75d0812c7b27aac805e93dbfdb9dcce8cc76f5c60"
+  },
+  "ret_paused": true,
+  "root_check": {
+    "chunk_id": "b1acd2",
+    "exit_code": 0
+  },
+  "root_review": {
+    "bytes": 4450,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_PROOF_REVIEW.md",
+    "sha256": "c49c81a232d6ecde6e80b5a6d3f27773648e59214b69e77af820a1e5abe54f96"
+  },
+  "schema": "ri204-root-ri203-adjudication-v1",
+  "scientific_body_read_or_execution": false,
+  "status": "ACCEPT_COMPLETE_THREE_MAXIMA_CLASS_CONDITIONAL_THEOREM",
+  "theorem": "Every actual marked six-parent with exactly three maxima has U6<3+3K+16K^2<92416228003<93000000000<T."
+}

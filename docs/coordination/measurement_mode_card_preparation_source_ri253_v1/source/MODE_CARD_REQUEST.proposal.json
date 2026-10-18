@@ -1,0 +1,14 @@
+{
+  "freeze": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "mode": "normal",
+  "normal_acceptance": null,
+  "pre": {
+    "bytes": 1085,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+    "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544"
+  }
+}

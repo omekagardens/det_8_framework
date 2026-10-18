@@ -1,0 +1,17 @@
+{
+  "exact_tool_origin": "The chunk/result is the actual metadata tool call in this author session; the serialized descriptor is not self-authentication.",
+  "method": "Read complete DEPENDENCIES.json.complete_read_files; for each permitted regular source/evidence path, rehash whole bytes and compare its full FilePin; no installed env path permitted. No target import or runtime observation.",
+  "result": {
+    "bytes": 433,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/FINAL_INPUT_CHECK.json",
+    "sha256": "8264919c1fd29c7bf7ae9fcc0a8fd19acbba0fa9d5cbca92e8238598209ffdb1"
+  },
+  "retained_log": false,
+  "schema": "ri154-final-administrative-read-check-receipt-v1",
+  "tool_result": {
+    "chunk_id": "e77f0a",
+    "exit_code": 0,
+    "output_summary": "PASS; all463 declared fixed input FilePins unchanged.",
+    "wall_time_seconds": 8.292e-06
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "actual_reads": [
+    "118b4d exit0",
+    "7b0917 exit0",
+    "0e6e2d exit0"
+  ],
+  "authenticated_source_records": 13,
+  "checker_source": "Full corrected inline checker retained in ebf69e tool transcript; no temporary file.",
+  "complete_fields": 14,
+  "host_provenance": "Reviewer freshly checked uname; sw_vers is the root authenticated before/after observation, not a new reviewer invocation.",
+  "main_review": {
+    "bytes": 2756,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/INDEPENDENT_ACTUAL_FREEZE_REVIEW.json",
+    "sha256": "14d2d9dd707b820cd03f5d65e2c96fac9a15e382c3a09e16bb04c34f90d0350e"
+  },
+  "ret_paused": true,
+  "reviewed_monitor": {
+    "bytes": 7139,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/monitor/FREEZE.COMPLETION.json",
+    "sha256": "38ba191d918bcafc98bf74d5cb58086a39d37dad7ba12fb603a8b887da245978"
+  },
+  "reviewed_post_custody": {
+    "bytes": 59730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/POST_CUSTODY.json",
+    "sha256": "890d1b2d99c0f03dfad6d2f9d3e76770794d95ead6913dc691464ca9673da0f4"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_installation_still_requires_reviewed_installer": true,
+  "saved_parent_pid_is_not_child_identity": true,
+  "schema": "ri206-independent-actual-review-supplement-v1",
+  "scientific_execution": false
+}

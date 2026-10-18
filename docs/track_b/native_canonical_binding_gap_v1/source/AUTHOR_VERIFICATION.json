@@ -1,0 +1,363 @@
+{
+  "schema": "ri250-author-verification-v1",
+  "status": "AUTHOR_SELF_REVIEW_COMPLETE_PENDING_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "independent_acceptance": false,
+  "scientific_execution": false,
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/BINDING_GAP.md",
+      "bytes": 5088,
+      "sha256": "0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/HANDOFF.md",
+      "bytes": 1322,
+      "sha256": "fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/MANUAL_CONSEQUENCE.md",
+      "bytes": 3076,
+      "sha256": "d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/SOURCE_REFERENCES.json",
+      "bytes": 101723,
+      "sha256": "65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199"
+    }
+  ],
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.json",
+    "bytes": 1069,
+    "sha256": "a2b07704a147a8766659a3a3f403882ecfcb39d9d29fed7e990b1837f336e473"
+  },
+  "assignment_text": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.md",
+    "bytes": 1729,
+    "sha256": "aeb5155fcad888e264290a12880e6da37e43e869b436b4e4e3a5cdb58127f9e3"
+  },
+  "literal_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_TWO_ROLE_LITERAL_ADMISSION.json",
+    "bytes": 3007,
+    "sha256": "444266879ba9afbbfd31cfdab7e03d1be4a596d4a316e14f2502ca97e3e58fdd"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_ADJUDICATION.json",
+    "bytes": 1818,
+    "sha256": "fd1fd10bcec11ca9860941de7b37343b4f2fbd06f4714eb64ffac8d8e2a8b945"
+  },
+  "manual_result": "GAP-INDEX_WITH_ADDITIONAL_UNCLOSED_GAP-SCHEMA",
+  "manual_checks": [
+    {
+      "item": "Custody",
+      "finding": "Exact original whole length and SHA256 matched before/after the one complete display; normalized no-symlink regular path, O_NOFOLLOW and stable seven-field states retained. This authenticates the literal, not its scientific role binding."
+    },
+    {
+      "item": "Index binding",
+      "finding": "Complete manual literal inspection found roots represented only by a digest in problem_hashes; no original root list or associations binding (8590,17,0/1) to original indices among 798. No index inferred or reconstructed."
+    },
+    {
+      "item": "Canonical selector",
+      "finding": "Original primary plus complete sequential selector retained. Separate alternative_primary_alpha is not substituted. A label or sparse indexed primal alone does not resolve structural ranks."
+    },
+    {
+      "item": "Sparse rule",
+      "finding": "Literal schema name does not explicitly define omitted primal entries as zero. No rank-dependent absence or zero inference made. GAP-INDEX stops first; sparse convention separately remains unclosed."
+    },
+    {
+      "item": "Values",
+      "finding": "No canonical role strings transcribed, no extra numerical entries used, no scientific JSON parse or vector instantiated."
+    },
+    {
+      "item": "Comparison",
+      "finding": "The sufficient kappa0-kappa1<=1/70 comparison is unperformed, not false. Actual C_b and normalized existence remain undecided."
+    },
+    {
+      "item": "Inheritance",
+      "finding": "Accepted RI248 companion, weighted exchange, primary dual obstruction and structural keys unchanged. All ten unknowns, thirteen equations, complete recovery, canonical offsets, record/ideal/newborn/endpoint premises and all 15 boundary objects retained."
+    },
+    {
+      "item": "Stopping rule",
+      "finding": "No alternate source, original-body reread, source-copy, reconstruction, extra admission, executor, measurement/RET, repository/Git/index or successor. Independent root review required."
+    }
+  ],
+  "actual_receipts": [
+    {
+      "chunk_id": "9a4e18",
+      "exit_code": 0,
+      "original_token_count": 1637,
+      "complete_display": true,
+      "description": "Complete current adjudication, assignment and separate literal admission."
+    },
+    {
+      "chunk_id": "2bcde2",
+      "exit_code": 0,
+      "original_token_count": 4179,
+      "complete_display": true,
+      "description": "Complete assignment text, predecessor independent review and empty reservation."
+    },
+    {
+      "chunk_id": "1148f5",
+      "exit_code": 0,
+      "original_token_count": 2497,
+      "complete_display": true,
+      "description": "Complete writing skill."
+    },
+    {
+      "chunk_id": "a20975",
+      "exit_code": 0,
+      "original_token_count": 1559,
+      "complete_display": true,
+      "description": "Complete writing-quality guidance."
+    },
+    {
+      "chunk_id": "ffd6a7",
+      "exit_code": 0,
+      "original_token_count": 5204,
+      "complete_display": true,
+      "body_copy_retained": false,
+      "description": "One complete bounded original literal display under RI250 admission, opaque whole-byte custody before and after, no scientific JSON decode."
+    },
+    {
+      "chunk_id": "81fc4e",
+      "exit_code": 0,
+      "original_token_count": 2527,
+      "complete_display": true,
+      "description": "Complete current gap, consequence and Markdown handoff."
+    }
+  ],
+  "literal_custody": {
+    "original_identity": {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+      "bytes": 19805,
+      "sha256": "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+    },
+    "actual_display_count": 1,
+    "receipt": {
+      "chunk_id": "ffd6a7",
+      "exit_code": 0,
+      "original_token_count": 5204,
+      "complete_display": true,
+      "body_copy_retained": false,
+      "description": "One complete bounded original literal display under RI250 admission, opaque whole-byte custody before and after, no scientific JSON decode."
+    },
+    "state_before_and_after": {
+      "dev": "16777244",
+      "ino": "375505",
+      "mode": "33188",
+      "nlink": "1",
+      "size": "19805",
+      "mtimeNs": "1790237992403739551",
+      "ctimeNs": "1790237992403739551"
+    },
+    "administrative_custody_script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst admission=JSON.parse(readExact({\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_TWO_ROLE_LITERAL_ADMISSION.json\",\"bytes\":3007,\"sha256\":\"444266879ba9afbbfd31cfdab7e03d1be4a596d4a316e14f2502ca97e3e58fdd\"}).body.toString('utf8'));\nneed(admission.schema==='ri250-bounded-original-canonical-literal-admission-v1'&&admission.status==='AUTHORIZE_BOUNDED_MANUAL_LITERAL_BINDING_ONLY','authority');\nconst i=admission.expected_original;\nconst before=fs.lstatSync(i.path,{bigint:true});\nconst one=readExact(i);\nconsole.log('BEGIN RI250 ADMITTED ORIGINAL LITERAL');\nconsole.log(JSON.stringify({identity:simple(one),state_before:Object.fromEntries(fields.map(k=>[k,before[k].toString()])),scientific_JSON_decoded:false}));\nprocess.stdout.write(one.body.toString('utf8'));\nconsole.log('\\nEND RI250 ADMITTED ORIGINAL LITERAL');\nconst two=readExact(i),after=fs.lstatSync(i.path,{bigint:true});\nneed(fields.every(k=>before[k]===after[k]),'whole display custody');\nneed(one.body.equals(two.body),'whole display bytes');\nconsole.log(JSON.stringify({identity:simple(two),state_after:Object.fromEntries(fields.map(k=>[k,after[k].toString()])),complete_literal_display:true,scientific_JSON_decoded:false,scientific_arithmetic:false,body_copy_written:false}));\n",
+    "no_original_body_copy_in_packet": true,
+    "scientific_JSON_decoded": false,
+    "scientific_arithmetic": false,
+    "role_strings_transcribed": []
+  },
+  "current_scope": {
+    "manual_mathematical_reasoning": true,
+    "automatic_scientific_arithmetic": false,
+    "scientific_body_literal_display": true,
+    "scientific_body_opaque_hash": true,
+    "scientific_JSON_decoded": false,
+    "new_coordinate_read": false,
+    "role_values_acquired": false,
+    "incidental_values_used": false,
+    "full_vector_instantiated": false,
+    "H_or_z_reconstructed": false,
+    "new_amplitude": false,
+    "subject_execution": false,
+    "measurement_access": false,
+    "RET_access": false,
+    "repository_changes": false,
+    "git_or_index_operations": false,
+    "source_admission_issued": false,
+    "successor_assigned": false,
+    "old_literal_exceptions_renewed": false,
+    "qualification_credit": 0
+  },
+  "preserved_boundary_keys": [
+    "inherited_manifest_by_reference",
+    "inherited_original_six_admissions",
+    "inherited_additional_admissions",
+    "inherited_RI189_analytic_admission",
+    "inherited_shared_affine_admission",
+    "inherited_RI223_literal_admissions",
+    "inherited_RI225_disconnected_admission",
+    "inherited_RI228_construction_admissions",
+    "accepted_four_root_witness",
+    "predecessor_literal_exception_boundary",
+    "inherited_RI216_native_premises_by_reference",
+    "predecessor_lower_law_metadata_boundary",
+    "historical_diagnostics_preserved",
+    "executable_obligations",
+    "historical_RI231_literal_exception"
+  ],
+  "preserved_boundaries_reference": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri248-native-canonical-companion-of3isoc8/SOURCE_REFERENCES.json",
+    "bytes": 99722,
+    "sha256": "1bc0fba80e48fcbaac60ff37ce2684c20e048ea4887d56c8a5d60b3c259d7198"
+  },
+  "inherited_manifest_sources_by_reference": 423,
+  "preseal": {
+    "receipt": {
+      "chunk_id": "cf86ba",
+      "wall_time_seconds": 0.000007291,
+      "exit_code": 0,
+      "original_token_count": 494,
+      "output": "{\"schema\":\"ri250-metadata-check-result-v1\",\"mode\":\"preseal\",\"exit_intent\":0,\"scope\":\"Administrative identities, namespaces, unchanged boundaries and declarations only. No original scientific body opened by this check; no proof or value computation.\",\"direct_sources\":113,\"direct_bytes\":2340491,\"whole_identities\":117,\"preserved_boundaries\":15,\"inherited_manifest_sources_by_reference\":423,\"separate_literal_receipt\":\"ffd6a7\",\"separate_literal_identity\":{\"path\":\"/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json\",\"bytes\":19805,\"sha256\":\"f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b\"},\"original_scientific_body_opened_by_this_check\":false,\"scientific_JSON_decoded\":false,\"scientific_arithmetic\":false,\"canonical_role_strings_transcribed\":0,\"sufficient_gap_test_performed\":false,\"current_namespace\":[\"BINDING_GAP.md\",\"HANDOFF.md\",\"MANUAL_CONSEQUENCE.md\",\"SOURCE_REFERENCES.json\"],\"predecessor_namespace\":[\"AUTHOR_VERIFICATION.json\",\"CANONICAL_BINDING.md\",\"COMPANION_ROW.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"SOURCE_REFERENCES.json\"],\"current_identities\":[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/BINDING_GAP.md\",\"bytes\":5088,\"sha256\":\"0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/HANDOFF.md\",\"bytes\":1322,\"sha256\":\"fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/MANUAL_CONSEQUENCE.md\",\"bytes\":3076,\"sha256\":\"d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/SOURCE_REFERENCES.json\",\"bytes\":101723,\"sha256\":\"65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199\"}]}\n"
+    },
+    "result": {
+      "schema": "ri250-metadata-check-result-v1",
+      "mode": "preseal",
+      "exit_intent": 0,
+      "scope": "Administrative identities, namespaces, unchanged boundaries and declarations only. No original scientific body opened by this check; no proof or value computation.",
+      "direct_sources": 113,
+      "direct_bytes": 2340491,
+      "whole_identities": 117,
+      "preserved_boundaries": 15,
+      "inherited_manifest_sources_by_reference": 423,
+      "separate_literal_receipt": "ffd6a7",
+      "separate_literal_identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json",
+        "bytes": 19805,
+        "sha256": "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+      },
+      "original_scientific_body_opened_by_this_check": false,
+      "scientific_JSON_decoded": false,
+      "scientific_arithmetic": false,
+      "canonical_role_strings_transcribed": 0,
+      "sufficient_gap_test_performed": false,
+      "current_namespace": [
+        "BINDING_GAP.md",
+        "HANDOFF.md",
+        "MANUAL_CONSEQUENCE.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "predecessor_namespace": [
+        "AUTHOR_VERIFICATION.json",
+        "CANONICAL_BINDING.md",
+        "COMPANION_ROW.md",
+        "HANDOFF.json",
+        "HANDOFF.md",
+        "SOURCE_REFERENCES.json"
+      ],
+      "current_identities": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/BINDING_GAP.md",
+          "bytes": 5088,
+          "sha256": "0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/HANDOFF.md",
+          "bytes": 1322,
+          "sha256": "fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/MANUAL_CONSEQUENCE.md",
+          "bytes": 3076,
+          "sha256": "d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63/SOURCE_REFERENCES.json",
+          "bytes": 101723,
+          "sha256": "65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199"
+        }
+      ]
+    }
+  },
+  "administrative_checker": {
+    "source": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst mode=process.argv[1]||'preseal';\nneed(['preseal','final6'].includes(mode),'mode');\nconst dir=\"/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63\";\nconst names4=['BINDING_GAP.md','MANUAL_CONSEQUENCE.md','HANDOFF.md','SOURCE_REFERENCES.json'].sort();\nconst names6=[...names4,'AUTHOR_VERIFICATION.json','HANDOFF.json'].sort();\nconst expected=mode==='preseal'?names4:names6;\nconst canon=x=>Array.isArray(x)?x.map(canon):(x&&typeof x==='object'?Object.fromEntries(Object.keys(x).sort().map(k=>[k,canon(x[k])])):x);\nconst eq=(a,b)=>JSON.stringify(canon(a))===JSON.stringify(canon(b));\nconst same=(a,b)=>['path','bytes','sha256'].every(k=>a[k]===b[k]);\nneed(fs.lstatSync(dir).isDirectory()&&!fs.lstatSync(dir).isSymbolicLink(),'reservation');\nneed(eq(fs.readdirSync(dir).sort(),expected),'namespace');\nconst reads=new Map();\nfunction pinned(i){\n need(!i.path.endsWith('/CERTIFICATE.json')&&!i.path.endsWith('/check.py'),'no original body or executor');\n const r=readExact(i),old=reads.get(r.path);\n if(old)need(same(old,r),'repeated identity');\n reads.set(r.path,simple(r));return r;\n}\nconst current=names4.map(n=>pinned({path:p.join(dir,n)}));\nconst S=JSON.parse(current.find(r=>p.basename(r.path)==='SOURCE_REFERENCES.json').body.toString('utf8'));\nneed(S.schema==='ri250-admitted-source-references-v1'&&S.status==='SOURCE_ONLY_AUTHOR_GAP_PACKET_FOR_INDEPENDENT_REVIEW','source schema/status');\nconst ass=JSON.parse(pinned(S.assignment).body.toString('utf8'));\nneed(ass.schema==='ri250-canonical-two-role-assignment-v1'&&ass.status==='ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION','assignment');\nneed(ass.reservation===dir&&ass.thread==='01a074c4-4b09-76a3-8cb2-0caf116f6b9c','owner');\nneed(same(ass.assignment,S.assignment_text)&&same(ass.admission,S.literal_admission)&&same(ass.predecessor,S.accepted_predecessor),'authority links');\npinned(S.assignment_text);\nconst dec=JSON.parse(pinned(S.accepted_predecessor).body.toString('utf8'));\nneed(dec.status==='ACCEPT_COMPLETE_COMPANION_WEIGHTED_EXCHANGE_DUAL_NECESSITY_AND_STRUCTURAL_KEYS_ONLY','adjudication');\nconst adm=JSON.parse(pinned(S.literal_admission).body.toString('utf8'));\nneed(adm.schema==='ri250-bounded-original-canonical-literal-admission-v1'&&adm.status==='AUTHORIZE_BOUNDED_MANUAL_LITERAL_BINDING_ONLY','literal admission');\nneed(adm.other_literal_exceptions_closed===true&&adm.scientific_execution===false,'admission boundaries');\nconst P=JSON.parse(pinned(S.predecessor_references).body.toString('utf8'));\nneed(S.preserved_boundary_keys.length===15&&eq(S.preserved_boundary_keys,P.preserved_boundary_keys),'boundary keys');\nfor(const k of S.preserved_boundary_keys)need(eq(S.preserved_boundaries[k],P.preserved_boundaries[k]),'boundary '+k);\nconst paths=S.direct_sources.map(r=>r.identity.path);\nneed(paths.length===113&&new Set(paths).size===paths.length,'direct count/unique');\nfor(const row of S.direct_sources){\n need(['accepted-analytic-text','administrative-reference','opaque-historical-support'].includes(row.access),'access class');\n pinned(row.identity);\n}\nfor(const row of P.direct_sources)need(S.direct_sources.some(x=>same(x.identity,row.identity)),'inherited direct source');\nconst prev=JSON.parse(pinned(S.predecessor_handoff).body.toString('utf8'));\nneed(prev.schema==='ri248-native-canonical-companion-handoff-v1','predecessor schema');\nfor(const i of prev.files)pinned(i);\nconst prevNames=fs.readdirSync(p.dirname(S.predecessor_handoff.path)).sort();\nneed(eq(prevNames,['AUTHOR_VERIFICATION.json','CANONICAL_BINDING.md','COMPANION_ROW.md','HANDOFF.json','HANDOFF.md','SOURCE_REFERENCES.json'].sort()),'predecessor exact namespace');\nconst lit=S.current_literal_exception;\nneed(same(lit.admission,S.literal_admission)&&same(lit.original_identity,adm.expected_original),'separate literal identity');\nneed(!paths.includes(lit.original_identity.path),'original not in direct sources');\nneed(lit.permitted_display_count===1&&lit.actual_display_count===1&&lit.untruncated===true&&lit.whole_custody_before_after===true,'literal declaration');\nneed(lit.receipt.chunk_id==='ffd6a7'&&lit.receipt.exit_code===0&&lit.receipt.complete_display===true,'actual literal receipt reference');\nneed(lit.original_index_binding===false&&lit.sparse_absence_zero_rule_bound===false&&lit.canonical_role_strings_transcribed.length===0,'binding stop');\nneed(lit.final_status==='STOPPED_GAP_INDEX_WITH_ADDITIONAL_GAP_SCHEMA'&&lit.extra_coefficients_used===false&&lit.scientific_JSON_decoded===false&&lit.scientific_arithmetic===false&&lit.body_copy_written===false,'literal limits');\nneed(S.closed_prior_literal_exceptions_by_reference.all_older_exceptions_remain_closed===true,'old closed');\nneed(S.current_scope.scientific_body_literal_display===true&&S.current_scope.scientific_body_opaque_hash===true,'current admitted display recorded');\nfor(const k of ['automatic_scientific_arithmetic','scientific_JSON_decoded','new_coordinate_read','role_values_acquired','incidental_values_used','full_vector_instantiated','H_or_z_reconstructed','new_amplitude','subject_execution','measurement_access','RET_access','repository_changes','git_or_index_operations','source_admission_issued','successor_assigned','old_literal_exceptions_renewed'])need(S.current_scope[k]===false,'current scope '+k);\nneed(S.current_scope.qualification_credit===0,'credit');\nfor(const k of ['failed_shell_commands','failed_orchestration_attempts','rejected_patches','clipped_displays'])need(S.diagnostics[k]===0,'current diagnostics');\nneed(eq(S.diagnostics.predecessor_diagnostics,P.diagnostics),'inherited diagnostics');\nif(mode==='final6'){\n const H=JSON.parse(pinned({path:p.join(dir,'HANDOFF.json')}).body.toString('utf8'));\n need(H.schema==='ri250-native-canonical-literals-handoff-v1'&&H.status==='SEALED_BINDING_GAP_PENDING_INDEPENDENT_REVIEW','handoff');\n need(H.reservation===dir&&H.files.length===5&&eq(H.namespace,names6),'handoff payloads');\n for(const i of H.files)pinned(i);\n const ai=H.files.find(i=>p.basename(i.path)==='AUTHOR_VERIFICATION.json');need(ai,'author pin');\n const A=JSON.parse(pinned(ai).body.toString('utf8'));\n need(A.schema==='ri250-author-verification-v1'&&A.independent_acceptance===false&&A.scientific_execution===false,'author scope');\n need(eq(A.payloads,current.map(simple)),'author four pins');\n need(eq(A.diagnostics,S.diagnostics)&&eq(H.diagnostics,S.diagnostics),'consistent diagnostics');\n for(const i of current.map(simple))need(H.files.some(j=>same(i,j)),'current payload pin');\n need(H.result==='GAP-INDEX_WITH_ADDITIONAL_UNCLOSED_GAP-SCHEMA'&&H.role_values_acquired===false&&H.sufficient_gap_test_performed===false,'gap result');\n for(const k of ['actual_full_normalized_witness','actual_signed_inconsistency','canonical_Cb_resolved','actual_kappa_gap_resolved','successor_assigned'])need(H[k]===false,'result limit '+k);\n for(const k of ['complete_original_recovery_retained','accepted_full_system_iff_retained','inherited_zero_hook_branch_retained'])need(H[k]===true,'retention '+k);\n need(H.qualification_credit===0,'handoff credit');\n}\nfor(const i of reads.values())readExact(i);\nconsole.log(JSON.stringify({\nschema:'ri250-metadata-check-result-v1',mode,exit_intent:0,\nscope:'Administrative identities, namespaces, unchanged boundaries and declarations only. No original scientific body opened by this check; no proof or value computation.',\ndirect_sources:S.direct_sources.length,direct_bytes:S.direct_sources.reduce((n,x)=>n+x.identity.bytes,0),whole_identities:reads.size,\npreserved_boundaries:S.preserved_boundary_keys.length,\ninherited_manifest_sources_by_reference:S.preserved_boundaries.inherited_manifest_by_reference.selected_paths,\nseparate_literal_receipt:lit.receipt.chunk_id,\nseparate_literal_identity:lit.original_identity,\noriginal_scientific_body_opened_by_this_check:false,scientific_JSON_decoded:false,scientific_arithmetic:false,\ncanonical_role_strings_transcribed:0,sufficient_gap_test_performed:false,\ncurrent_namespace:expected,predecessor_namespace:prevNames,\ncurrent_identities:[...reads.values()].filter(x=>p.dirname(x.path)===dir)\n}));\n",
+    "scope": "Read-only administrative/analytic identities and metadata. Explicitly denies original CERTIFICATE.json/check.py; no original-body reread and no scientific computation.",
+    "final_check": "A genuine final6 check follows HANDOFF.json creation. No successful future receipt is claimed here."
+  },
+  "diagnostics": {
+    "failed_shell_commands": 0,
+    "failed_orchestration_attempts": 0,
+    "rejected_patches": 0,
+    "clipped_displays": 0,
+    "predecessor_diagnostics_preserved": true,
+    "predecessor_diagnostics": {
+      "failed_shell_commands": 0,
+      "failed_orchestration_attempts": 0,
+      "rejected_patches": 0,
+      "clipped_displays": 0,
+      "predecessor_diagnostics_preserved": true,
+      "predecessor_diagnostics": {
+        "failed_shell_commands": 2,
+        "failed_orchestration_attempts": 0,
+        "rejected_patches": 0,
+        "clipped_displays": 0,
+        "predecessor_diagnostics_preserved": true,
+        "predecessor_diagnostics": {
+          "failed_shell_commands": 0,
+          "failed_orchestration_attempts": 1,
+          "rejected_patches": 1,
+          "clipped_displays": 0,
+          "repair_detail": "One formatting-only apply_patch call was rejected before changes because it contained multiple file operations for the same path. The orchestration surfaced that same rejection. Reissued with one operation per file and multiple hunks; success. No scientific data read, changed premise or partial write resulted.",
+          "predecessor_diagnostics_preserved": true,
+          "predecessor_diagnostics": {
+            "failed_shell_commands": 0,
+            "failed_orchestration_attempts": 0,
+            "rejected_patches": 0,
+            "clipped_displays": 1,
+            "clipped_detail": "7343f8 combined analytic display clipped inside COMPONENT_ROUTING. Complete COMPONENT_ROUTING recovered in a466a8 exit0; complete ENDPOINT_CERTIFICATE and COUPLED_CONTRAST reread in bf74ca exit0. No clipped display is credited as a complete source read.",
+            "predecessor_diagnostics_preserved": true,
+            "predecessor_diagnostics": {
+              "failed_shell_commands": 0,
+              "failed_orchestration_attempts": 1,
+              "orchestration_detail": "An initial in-memory source-list selection used row.path instead of row.identity.path and threw TypeError before any shell command or filesystem access. Corrected selection completed in 3881c4 exit0. No source was read or changed by the failed attempt.",
+              "rejected_patches": 0,
+              "clipped_displays": 0,
+              "predecessor_diagnostics_preserved": true,
+              "predecessor_diagnostics": {
+                "failed_shell_commands": 1,
+                "failed_shell_detail": "4f3d0e: initial read-only AGENTS.md filename inventory across workspace and evidence paths returned no matches, exit1; pwd succeeded. No source body was displayed by that inventory and no Git/index or write occurred.",
+                "failed_orchestration_attempts": 0,
+                "rejected_patches": 0,
+                "clipped_displays": 2,
+                "clipped_recovery": "f71fd3 combined display clipped; complete RESULT and DESIGN recovered d6840c, ROOT_TRANSPORT recovered1e0960. a388f0 combined display clipped inside CONNECTED_CONSTRAINTS_LEMMA; whole file recovered af358e. No clipped passage supplies complete-read credit.",
+                "predecessor_diagnostics_preserved": true
+              }
+            }
+          }
+        },
+        "predecessor_retrieval_observation": {
+          "source": {
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI243_ROOT_REVIEW.md",
+            "bytes": 3743,
+            "sha256": "9ae154fde977d3952bce93827be7b23e078bdd7cb6cc56c7a84374cf5860039b"
+          },
+          "observation": "Root retrieved the original RI243 final6 as completed exit0, but its API output was truncated. That retrieved partial output is not represented as a complete receipt. Fresh independent checks corroborated current metadata. This does not rewrite original author diagnostics or imply current RI246 literal clipping."
+        },
+        "failed_shell_detail": "Preseal b8b4ed exited1 because JSON.stringify compared the source identity object's property insertion order instead of path/bytes/SHA256 fields; corrected to fieldwise identity comparison. Final6 9fd682 exited1 because the same serialization-order issue affected current diagnostics: an in-place source-reference patch placed failed_shell_detail earlier than the in-memory object later serialized into author/handoff. Both compared values were unchanged. Corrected diagnostics comparison to recursive key-order-independent administrative equality and resealed the current author packet. No scientific JSON parse, arithmetic engine, coefficient change or source repair occurred."
+      },
+      "predecessor_retrieval_observation": {
+        "source": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI246_INDEPENDENT_REVIEW.txt",
+          "bytes": 13914,
+          "sha256": "a63b92a07098e4b14fe4a681a1cea72df4cf1d63c35084d31f619105c8d39d10"
+        },
+        "observation": "RI246 original final6 retrieval was API-truncated; original literal and failure outputs were complete. Fresh independent/root checks corroborated current metadata. This remains distinct from current RI248 complete displays and does not rewrite inherited author diagnostics."
+      }
+    },
+    "predecessor_retrieval_observation": {
+      "source": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_INDEPENDENT_REVIEW.txt",
+        "bytes": 14436,
+        "sha256": "045ad7fecc017e591feb1748f1d860d1ef78e6abb80b01df1eb69187b6d180ec"
+      },
+      "observation": "Root-independent retrieval of RI248 final proof display was API-truncated at 20000 characters. Original author complete proof display remains distinct; independent full local reads recovered proof content. Genuine compact preseal and final6 receipts were retrieved completely. No current RI250 display was clipped."
+    }
+  },
+  "skill_use": {
+    "skill": "pages:write-page",
+    "skill_read": "1148f5",
+    "quality_read": "a20975",
+    "impact": "Kept authenticated custody, absent binding evidence and unchanged mathematical consequences separate in the established external Markdown research packet. No cloud Page."
+  },
+  "stopping_rule": "Stop at the two-role binding gap. No alternate source, reconstruction, original literal reread, new admission, successor, repository/Git/index/publication or runtime work. Root owns independent adjudication."
+}

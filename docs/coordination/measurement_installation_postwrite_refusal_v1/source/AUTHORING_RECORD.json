@@ -1,0 +1,66 @@
+{
+  "E_modified": false,
+  "RET_paused": true,
+  "acknowledged_miss": "Installer required outer D although unchanged monitor sets child cwd to out=D/monitor; author/root/nonauthor interface review had missed the mismatch.",
+  "assignment": {
+    "bytes": 2264,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+    "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "base_inputs": 806,
+  "current_runtime_observation": false,
+  "distinct_opaque_inputs": 896,
+  "fixture_execution": false,
+  "functional_edits": 1,
+  "new_agents": false,
+  "old_seals_and_failures_preserved": true,
+  "operational_objects_created": false,
+  "other_executable_edits": [
+    "Fresh D/W/O paths",
+    "Exact complete REPAIR constant"
+  ],
+  "postchecker_semantics_unchanged": true,
+  "prior_authorship": [
+    "RI125 primary/qualifier",
+    "RI131 guard source",
+    "RI156/158/160 adapter",
+    "RI204/206/209/213/218 installation/preparation source",
+    "RI217/219 administrative preparation drafts"
+  ],
+  "prior_source_domain_retained": 857,
+  "prospective_source_count": 904,
+  "qualification_credit": 0,
+  "remaining": [
+    "Fresh nonauthor and root review of exact source",
+    "Fresh concrete root preparation whose bootstrap obeys the checked two-cwd interface",
+    "Separate root admission with genuine host/monitor/tool evidence",
+    "Actual complete outcome and independent custody review before installation acceptance",
+    "All unchanged scientific mode/arithmetic/measurement prerequisites"
+  ],
+  "repair_rows": 90,
+  "repo_git_actions": false,
+  "role": "Author, not independent reviewer",
+  "schema": "ri222-authoring-record-v1",
+  "scientific_decode": false,
+  "source_execution": false,
+  "source_supersession": {
+    "bytes": 1478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+  },
+  "static_contract": {
+    "bytes": 3053,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+    "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+  },
+  "unchanged": [
+    "RI141 whole monitor",
+    "Outer tool cwd D",
+    "Direct byte equality",
+    "Canonical JSON equality",
+    "Clock repair and fourteen-field RI213 completion",
+    "Eight independent tails",
+    "All limits and genuine-origin requirements"
+  ]
+}

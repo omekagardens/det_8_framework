@@ -1,0 +1,78 @@
+{
+  "E_directories": 9,
+  "E_files": 48,
+  "admission_issued": false,
+  "blocking_findings": [],
+  "check_result": {
+    "bytes": 1679409,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/CHECK_RESULT.json",
+    "sha256": "70d9f41980a44dd76f0a7345dce90de0dfb96a59bf5dfce8ef0e951dd89b1182"
+  },
+  "checker": {
+    "bytes": 21823,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/check_preparation.py",
+    "sha256": "761ef810927db721ce432fc5499b337112a7a4c209793b5e0899ad748b50ce84"
+  },
+  "custody": {
+    "bytes": 16080,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+    "sha256": "b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52"
+  },
+  "empty_control_directories": 2,
+  "genuine_preparation": {
+    "bytes": 3008,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_TOOL.json",
+    "sha256": "f6beeef17d2e2fa6e3ed4be42eb0deb199798f2b0833829e6d46d8118c52bbe4"
+  },
+  "genuine_tool_origin_and_supplier_startup_external": true,
+  "identity_count": 2751,
+  "installation_dispatched": false,
+  "isolated_no_bytecode_condition_met": true,
+  "original_failures_and_seals_preserved": true,
+  "outer_D_child_D_monitor_relation": true,
+  "predicate_count": 58415,
+  "preparation_outputs": 9,
+  "preparation_source_acceptance": {
+    "bytes": 1815,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREPARATION_SOURCE_ACCEPTANCE.json",
+    "sha256": "dbe2730a6252593e48482921ab92f5b41993b56c40060ef0bf3973be540c2bf6"
+  },
+  "prior_authorship_and_review_miss_disclosed": true,
+  "proposal": {
+    "bytes": 4509,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+    "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+  },
+  "qualification_credit": 0,
+  "receipts": {
+    "bytes": 2791,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/TOOL_RECEIPTS.json",
+    "sha256": "0d69b13d7d895b46875d6862150d66963e4eb6080b766f7ceae769a269d357f2"
+  },
+  "ret_paused": true,
+  "review": {
+    "bytes": 10532,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/INDEPENDENT_REVIEW.md",
+    "sha256": "7388cd5ce2d0ef7134c7a79bcc1f003d2fede65a787797f2e82eac049d5ed106"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_pending": true,
+  "schema": "ri224-independent-concrete-preparation-verdict-v1",
+  "scientific_decode": false,
+  "source_acceptance": {
+    "bytes": 2307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+    "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+  },
+  "source_count": 904,
+  "status": "RECOMMEND_ACCEPT_PREPARATION_PENDING_ROOT_FRESH_PREDISPATCH_AND_SEPARATE_ADMISSION",
+  "subject_executed_by_reviewer": false,
+  "subject_root": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+  "supplier_absences": 2,
+  "supplier_namespace": 195,
+  "tools": 4,
+  "vendor_bytes": 48024515,
+  "vendor_files": 1810,
+  "whole_closed_preflight_proposal_custody_reconstructed": true,
+  "whole_concrete_bootstrap_reconstructed": true
+}

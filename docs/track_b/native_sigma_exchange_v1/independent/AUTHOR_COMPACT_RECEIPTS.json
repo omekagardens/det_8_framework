@@ -1,0 +1,34 @@
+{
+  "schema": "ri252-independent-retrieved-author-receipts-v1",
+  "retrieval": "codex_app.read_thread; exact commandExecution output items from completed turn",
+  "turnId": "01a0f871-06ae-74e1-abbd-12e6fe4b787c",
+  "receipts": [
+    {
+      "id": "exec-f4fb9eb0-9c74-42a9-99a5-a9b9c67f71ff",
+      "status": "completed",
+      "exitCode": 0,
+      "cwd": "/Volumes/AI_DATA/development/det_8_framework-ret",
+      "output": {
+        "text": "{\"schema\":\"ri252-metadata-check-result-v1\",\"mode\":\"preseal\",\"exit_intent\":0,\"scope\":\"Administrative identity/namespace/boundary and declaration comparison only; no original scientific body or mathematical verification.\",\"direct_sources\":123,\"direct_bytes\":2517253,\"whole_identities\":127,\"preserved_boundaries\":15,\"inherited_manifest_sources_by_reference\":423,\"original_scientific_body_read\":false,\"original_scientific_body_hash\":false,\"scientific_JSON_decoded\":false,\"scientific_arithmetic\":false,\"scientific_execution\":false,\"RI250_literal_authority_closed\":true,\"current_diagnostics\":{\"failed_shell_commands\":0,\"failed_orchestration_attempts\":1,\"rejected_patches\":0,\"clipped_displays\":0},\"current_namespace\":[\"HANDOFF.md\",\"SIGMA_EXCHANGE.md\",\"SIGMA_KEYS_AND_WEIGHTS.md\",\"SOURCE_REFERENCES.json\"],\"predecessor_namespace\":[\"AUTHOR_VERIFICATION.json\",\"BINDING_GAP.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"MANUAL_CONSEQUENCE.md\",\"SOURCE_REFERENCES.json\"],\"current_identities\":[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.md\",\"bytes\":1800,\"sha256\":\"ab4b112e1dee6ee2a9cef596531c10a9ae877345c8231083c823c8bdf0bd0c8d\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_EXCHANGE.md\",\"bytes\":11237,\"sha256\":\"0410170844a14589f935f3c056bbbe2fe79ddf4bc9984793a62394568f706f64\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_KEYS_AND_WEIGHTS.md\",\"bytes\":8429,\"sha256\":\"6841d372ae43d92439b0405b9db6c670c78943bb570e91c748a28c915485fce7\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SOURCE_REFERENCES.json\",\"bytes\":106101,\"sha256\":\"8402f099d5269d2dce3e1036019288845869d9712e03f67ea47f9a0c7c5db73f\"}]}\n",
+        "truncated": false
+      }
+    },
+    {
+      "id": "exec-50017421-2ecb-4974-aeca-93510478b31d",
+      "status": "completed",
+      "exitCode": 0,
+      "cwd": "/Volumes/AI_DATA/development/det_8_framework-ret",
+      "output": {
+        "text": "{\"schema\":\"ri252-metadata-check-result-v1\",\"mode\":\"final6\",\"exit_intent\":0,\"scope\":\"Administrative identity/namespace/boundary and declaration comparison only; no original scientific body or mathematical verification.\",\"direct_sources\":123,\"direct_bytes\":2517253,\"whole_identities\":129,\"preserved_boundaries\":15,\"inherited_manifest_sources_by_reference\":423,\"original_scientific_body_read\":false,\"original_scientific_body_hash\":false,\"scientific_JSON_decoded\":false,\"scientific_arithmetic\":false,\"scientific_execution\":false,\"RI250_literal_authority_closed\":true,\"current_diagnostics\":{\"failed_shell_commands\":0,\"failed_orchestration_attempts\":1,\"rejected_patches\":0,\"clipped_displays\":0},\"current_namespace\":[\"AUTHOR_VERIFICATION.json\",\"HANDOFF.json\",\"HANDOFF.md\",\"SIGMA_EXCHANGE.md\",\"SIGMA_KEYS_AND_WEIGHTS.md\",\"SOURCE_REFERENCES.json\"],\"predecessor_namespace\":[\"AUTHOR_VERIFICATION.json\",\"BINDING_GAP.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"MANUAL_CONSEQUENCE.md\",\"SOURCE_REFERENCES.json\"],\"current_identities\":[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.md\",\"bytes\":1800,\"sha256\":\"ab4b112e1dee6ee2a9cef596531c10a9ae877345c8231083c823c8bdf0bd0c8d\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_EXCHANGE.md\",\"bytes\":11237,\"sha256\":\"0410170844a14589f935f3c056bbbe2fe79ddf4bc9984793a62394568f706f64\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SIGMA_KEYS_AND_WEIGHTS.md\",\"bytes\":8429,\"sha256\":\"6841d372ae43d92439b0405b9db6c670c78943bb570e91c748a28c915485fce7\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/SOURCE_REFERENCES.json\",\"bytes\":106101,\"sha256\":\"8402f099d5269d2dce3e1036019288845869d9712e03f67ea47f9a0c7c5db73f\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/HANDOFF.json\",\"bytes\":18040,\"sha256\":\"df2a49e18c75ad3746fd6a7c2d941cf8910232b83eca2bc5b082eeafbcd719d7\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri252-native-sigma-exchange-dz_u_bc2/AUTHOR_VERIFICATION.json\",\"bytes\":32092,\"sha256\":\"290d661b4f57ecbf6d134fd5fb2d4a30ff37a235716f304e006c84c1d3d7067e\"}]}\n",
+        "truncated": false
+      }
+    }
+  ],
+  "limits": {
+    "author_execution_not_reviewer_replay": true,
+    "proof_check_not_implied_by_metadata": true,
+    "one_reviewer_overbroad_outer_projection_clipped": true,
+    "compact_receipts_redisplayed_completely": true,
+    "declared_orchestration_failure_not_independently_visible_in_retrieved_items": true
+  }
+}

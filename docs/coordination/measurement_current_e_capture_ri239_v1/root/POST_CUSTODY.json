@@ -1,0 +1,178 @@
+{
+  "E_unchanged": true,
+  "collector_started_by_this_script": false,
+  "controls": {
+    "ADMIT_CAPTURE.json": {
+      "bytes": 2769,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+      "sha256": "239363b59038b8ab3205433a55efa22854ce1caef6f3ffa9cc55aa8cad877b20",
+      "state": [
+        16777244,
+        428162,
+        33188,
+        1,
+        2769,
+        1790847443614557433,
+        1790847443614557433
+      ],
+      "symlink_chain": []
+    },
+    "CAPTURE_PREFLIGHT.json": {
+      "bytes": 3037,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+      "sha256": "1988fd1bf07b7aa184198b5f0f10017d170338e8cc4de426e95afc3a8b640554",
+      "state": [
+        16777244,
+        428160,
+        33188,
+        1,
+        3037,
+        1790847443602352554,
+        1790847443602352554
+      ],
+      "symlink_chain": []
+    },
+    "ROOT_CAPTURE_SOURCE_ADOPTION.json": {
+      "bytes": 2947,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+      "sha256": "160ea883c0f4560aea75a724fd70daa17e0e7ba30ae1328fd24b5edfc50a9ba0",
+      "state": [
+        16777244,
+        428161,
+        33188,
+        1,
+        2947,
+        1790847443613907680,
+        1790847443613907680
+      ],
+      "symlink_chain": []
+    }
+  },
+  "counts": {
+    "E_directories": 9,
+    "E_files": 49,
+    "absences": 2,
+    "comparisons": 7249,
+    "copy_pairs": 48,
+    "history": 124,
+    "namespaces": 195,
+    "sources": 986,
+    "targets": 30,
+    "tools": 4,
+    "vendor": 1810,
+    "vendor_bytes": 48024515,
+    "whole_identities": 2811
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+  },
+  "historical_E": {
+    "bytes": 43288,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/E_BEFORE.json",
+    "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+  },
+  "historical_supplier": {
+    "bytes": 1260495,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/POST_SUPPLIER.json",
+    "sha256": "12b94290564deaca58b4feb861105010f68954adea64c14a408f1e3f978f9147"
+  },
+  "host": {
+    "system_version": {
+      "bytes": 603,
+      "path": "/System/Library/CoreServices/SystemVersion.plist",
+      "sha256": "cbf534776ca9200252e5637787e5d4fc26cf527fb354c19bcbac9688341c7a58"
+    },
+    "uname": [
+      "Darwin",
+      "allan.local",
+      "25.5.0",
+      "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+      "arm64"
+    ]
+  },
+  "observed_at_unix_ns": 1790848184864747000,
+  "observer": {
+    "bytes": 7099,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/observe_custody.py",
+    "sha256": "1d0d30ce77873c85ef74ed4d58ffab3f88890387d6a3c16c14b883cb4f37dfcf"
+  },
+  "phase": "POST",
+  "refs": {
+    "E": {
+      "bytes": 43288,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_E.json",
+      "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+    },
+    "host": {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_POST_HOST.json",
+      "sha256": "23c0f226fedc510e006c135bbbd7cb1fe893570246e74a9f8a4e419295791a99"
+    },
+    "role_custody": {
+      "bytes": 1829711,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_ROLE_CUSTODY.json",
+      "sha256": "d3e081cc7fdeb36a0dfe12c5832e452e32f60631f79e90add757c3cc581191a3"
+    },
+    "sources": {
+      "bytes": 536365,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SOURCES.json",
+      "sha256": "f2dfa8e2f5d47b667113a33aa00b4aba11b7910a6b3e76162fb8036acafd65d6"
+    },
+    "supplier": {
+      "bytes": 1260493,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER.json",
+      "sha256": "5e80a004af34b3877ee00eb6cd81bd73f2f34732164fae71a6c8f0dda8c719ee"
+    }
+  },
+  "repository_unchanged": true,
+  "schema": "ri239-fresh-capture-custody-v1",
+  "scientific_execution": false,
+  "selected_interpreter_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "source_roles": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "PASS_FRESH_POST_CUSTODY"
+}

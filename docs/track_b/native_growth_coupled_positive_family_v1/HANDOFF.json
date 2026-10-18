@@ -1,0 +1,124 @@
+{
+  "schema": "ri117-external-conditional-analytic-handoff-v1",
+  "date": "2026-09-26",
+  "status": "INDEPENDENTLY_REVIEWED_REDUCED_FAMILY_FOR_OWNER_ADJUDICATION",
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ",
+  "main_artifact": "ANALYTIC_REDUCTION.md",
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+    "bytes": 6678,
+    "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+    "status": "ACCEPT_EXACT_ZERO_MINOR_RESULT_WITH_FEASIBILITY_OPEN"
+  },
+  "preserved": {
+    "baseline": "unchanged actual B",
+    "seed": "unchanged accepted eleven-class z",
+    "amplitude": "1/4",
+    "child_classes": 28,
+    "incoming_parents": 16,
+    "record_domain": "complete original record cubes with only proved transports",
+    "multiplicities": "every supported individual ideal retained",
+    "actual_scales": "fixed, not selected or evaluated"
+  },
+  "proved_conditionally": [
+    "Positive beta and Gamma and exact free-lambda T1 interval with all eight core-slot bounds.",
+    "Complete D1 shared-variable equations and exhaustive zero-safe affine/rank classification.",
+    "Every positive repair requires f2 constant OR f3 constant; both nonconstant rejects the support.",
+    "Bothconstant branch has an explicit positive witness for exactly T1,T2,T3,D1.",
+    "Exactlyone-nonconstant branch is equivalent to seven ratio compatibility equations and strict affine bounds with full recovery.",
+    "All twelve remaining parent equations retained with the same shared child variables.",
+    "Complete symbolic connected full profiles and disconnected D1 quartic complement from individual-ideal partitions."
+  ],
+  "not_decided": [
+    "Actual f2/f3 constancy branch.",
+    "Actual D1 ratio/affine branch and positivity feasibility in the surviving case.",
+    "Simultaneous feasibility of all sixteen parents.",
+    "Complete fixed 28-child positive repair."
+  ],
+  "named_unevaluated_domains": {
+    "connected_complete": "existing RI88 forty complete held rows, 224 slots",
+    "connected_sufficient_pair": "eight complete held rows, 44 slots, sufficient only if both required contrasts are proved nonzero at actual rho",
+    "D1_additional_closure": "K4=C3 disjoint A1: four complete rows/eight slots each; K5=C4 disjoint A1: eight complete rows/ten slots each; twelve rows/112 slots total",
+    "minimality": "only relative to stated closure and proved maximal-bit invariances, not global information minimality",
+    "execution_authorized": false
+  },
+  "independent_review": {
+    "main_manuscript_reviewers": 2,
+    "blocking_findings": 0,
+    "T1_and_D1": "independently cross-reviewed by connected-constraints contributor",
+    "connected_lemma": "independently reviewed by T1 contributor",
+    "authorship_overlap_disclosed": true,
+    "proof_assistant_verified": false,
+    "owner_acceptance_asserted": false
+  },
+  "operations": {
+    "source_reading": true,
+    "manual_symbolic_proof": true,
+    "opaque_metadata_hashing": true,
+    "native_numerical_evaluation": false,
+    "target_execution_or_import": false,
+    "solver_fixture_replay": false,
+    "H_z_arithmetic": false,
+    "new_q6_q7_table": false,
+    "actual_scale_selection": false,
+    "repository_or_index_edit": false,
+    "commit_or_push": false,
+    "active_freeze_or_admission": false,
+    "new_lettered_gate": false
+  },
+  "preparation_incidents": [
+    "52c5db: failed read at incorrect RI103 external path containing harmless empty true substitution; replaced by discovered published source; no target execution or mutation.",
+    "f5f37b: D1 contributor read-only glob search failed before target execution; replaced with explicit-path search."
+  ],
+  "boundaries": {
+    "full_QM_derivation": false,
+    "all_size_growth_claim": false,
+    "native_geometry_gravity_or_empirical_claim": false,
+    "ret_paused": true,
+    "measurement_lane_modified": false,
+    "programme_complete": false,
+    "worker_assignment": "ends on stable handoff; owner retains adjudication, publication and any later execution authorization"
+  },
+  "artifacts": [
+    {
+      "file": "ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194"
+    },
+    {
+      "file": "T1_LEMMA_REVIEW.md",
+      "bytes": 9777,
+      "sha256": "1769f8afacc65dff5262cf539a747fa447c8a1c8aad1a651aaa9bb24a8eb2b2e"
+    },
+    {
+      "file": "CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+    },
+    {
+      "file": "D1_CATALOGUE_LEMMA.md",
+      "bytes": 11691,
+      "sha256": "89aa520ad0d24407254d588f0de814bf5a674228270dcfdb75d8b8f6af3da1cc"
+    },
+    {
+      "file": "CROSS_REVIEW.md",
+      "bytes": 8580,
+      "sha256": "25cadfadff7551216d729d48764dc2483c7c674af00b6e1e235451e238ac3981"
+    },
+    {
+      "file": "INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 13097,
+      "sha256": "3696ed41ecb1aa3ab83edbb9bff415a5015eebc106f04dd4bb0069bef68efac4"
+    },
+    {
+      "file": "SOURCE_PROVENANCE.md",
+      "bytes": 5810,
+      "sha256": "5e42389486dd10ded2969568bde9d8d70a1ee2375232fc13bc910c31e6d65cbb"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 3312,
+      "sha256": "269cb34494d9e33b0d604f301421c8a3370bf73ae826f9fddea61088f434b261"
+    }
+  ]
+}

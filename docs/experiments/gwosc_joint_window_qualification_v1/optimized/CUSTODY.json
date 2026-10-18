@@ -1,0 +1,43 @@
+{
+  "captured_sources": {
+    "primary.py": {
+      "bytes": 20346,
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    "qualify.py": {
+      "bytes": 14435,
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+    },
+    "validator.py": {
+      "bytes": 23321,
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+    }
+  },
+  "claim": "Fixed synthetic joint-window arithmetic qualification only; no empirical or physical validation.",
+  "freeze": {
+    "bytes": 11310,
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "full_validator_passed": true,
+  "genuine_run_completed": true,
+  "inputs": [],
+  "mode": "optimized",
+  "phase": "fabricated_joint_window_qualification",
+  "report": {
+    "bytes": 81253,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/RESULT.json",
+    "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+  },
+  "saved_result_validation": {
+    "historical_controls_reexecuted": false,
+    "scientific_independent_reconstruction": true,
+    "status": "all_saved_fields_match"
+  },
+  "schema": "ri121-synthetic-custody-v1",
+  "scientific_validation": {
+    "bounds": 3,
+    "cases": 9,
+    "groups": 12,
+    "status": "all_fields_independently_match"
+  }
+}

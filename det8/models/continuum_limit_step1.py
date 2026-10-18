@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Step 1: Measure Convergence
+RETIRED / QUARANTINED — superseded Π-weighted measure experiment.
+
+Coordinates, sampling geometry, and Π weights are supplied by the generator;
+the calculation is not evidence that DET produces continuum volume.
 
 Proves (numerically) that the Π-weighted empirical measure converges
 weakly to the volume measure of the target manifold.
@@ -19,6 +22,10 @@ Expected scaling: W₁ ~ O(N^{-1/2}) in 1+1 dimensions.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

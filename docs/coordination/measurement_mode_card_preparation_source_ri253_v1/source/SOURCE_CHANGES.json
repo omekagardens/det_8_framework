@@ -1,0 +1,146 @@
+{
+  "changes": [
+    {
+      "after": "UNEXECUTED RI249 mode-card administrative preparation proposal",
+      "before": "UNEXECUTED RI244 administrative preparation proposal",
+      "occurrences": 1
+    },
+    {
+      "after": "D = B/'ri249-normal-mode-card-preparation-y170alnf'",
+      "before": "D = B/'ri244-current-normal-premode-2kfsmiea'",
+      "occurrences": 1
+    },
+    {
+      "after": "O = B/'ri156-operation-ri249-mode-card-y170alnf'",
+      "before": "O = B/'ri156-operation-ri244-premode-2kfsmiea'",
+      "occurrences": 1
+    },
+    {
+      "after": "ADMIT_MODE_CARD.json",
+      "before": "ADMIT_PRE_MODE.json",
+      "occurrences": 3
+    },
+    {
+      "after": "No ADMIT_MODE_CARD,",
+      "before": "No ADMIT_PRE_MODE,",
+      "occurrences": 1
+    },
+    {
+      "after": "MODE_CARD_BOOTSTRAP",
+      "before": "PRE_MODE_BOOTSTRAP",
+      "occurrences": 3
+    },
+    {
+      "after": "RI249_MODE_CARD_PREPARATION:",
+      "before": "RI244_PREPARATION:",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-root-unissued-mode-card-preparation-decision-v1",
+      "before": "ri244-root-unissued-preparation-decision-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249_mode_card_administrative_metadata_only",
+      "before": "ri244_administrative_metadata_only",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-unissued-mode-card-preparation-attempt-v1",
+      "before": "ri244-unissued-preparation-attempt-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-complete-mode-card-preparation-custody-v1",
+      "before": "ri244-complete-preparation-custody-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-root-unissued-mode-card-preflight-v1",
+      "before": "ri244-root-unissued-premode-preflight-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "# UNISSUED RI249 mode-card bootstrap proposal.",
+      "before": "# UNISSUED RI244 bootstrap proposal.",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249_whole_unchanged_ri141_mode_card_monitor",
+      "before": "ri244_whole_unchanged_ri141_premode_monitor",
+      "occurrences": 1
+    },
+    {
+      "after": "\"'MODE_CARD', 180, expected_environment)\"",
+      "before": "\"'PRE_MODE', 180, expected_environment)\"",
+      "occurrences": 1
+    },
+    {
+      "after": "'action':'mode_card'",
+      "before": "'action':'pre_mode'",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-wrapped-unissued-mode-card-admission-v1",
+      "before": "ri244-wrapped-unissued-admission-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "ri249-unissued-mode-card-preparation-completion-v1",
+      "before": "ri244-unissued-preparation-completion-v1",
+      "occurrences": 1
+    },
+    {
+      "after": "'BOOTSTRAP_PREFLIGHT.json','MODE_CARD_REQUEST.json','MODE_CARD_BOOTSTRAP.proposal.py'",
+      "before": "'BOOTSTRAP_PREFLIGHT.json','MODE_CARD_BOOTSTRAP.proposal.py'",
+      "occurrences": 1
+    },
+    {
+      "after": "str(W/'REFERENCES.json'),'bytes':6775",
+      "before": "str(W/'REFERENCES.json'),'bytes':4500",
+      "occurrences": 1
+    },
+    {
+      "after": "15745efc9d6fc4b50fdefc8877fa2d3dd976c3f26e86b57ff3cea25a38d97e1d",
+      "before": "e1043bed3183088b4718a6dbfd3ea563b93d8875075fb60a148f71294b3c0b70",
+      "occurrences": 1
+    },
+    {
+      "after": "    # The earlier action is accepted externally; never substitute a pass label\n    # for the whole pinned pre result, prior custody, original outputs or sources.\n    pre_review=read(refs['pre_mode_acceptance']);keep_refs(pre_review)\n    same([pre_review['status'],pre_review['scientific_execution'],pre_review['mode_card_created'],\n          pre_review['qualification_credit'],pre_review['RET_paused']],\n         ['ACCEPT_ONE_NORMAL_PRE_MODE_METADATA_OPERATION_ONLY',False,False,0,True],'accepted metadata predecessor only')\n    same([pre_review['result'],pre_review['root_custody'],pre_review['root_check']],\n         [refs['pre_result'],refs['pre_mode_postflight'],refs['pre_mode_root_check']],'exact predecessor bindings')\n    pre_result=read(refs['pre_result']);keep_refs(pre_result)\n    same(pre_result,{'schema':'ri130-root-pre-mode-runtime-custody-v1','mode':'normal',\n         'freeze':runtime['freeze'],'runtime_acceptance':runtime['runtime_acceptance'],\n         'selection_unchanged':True,'optional_namespaces_unchanged':True,'host_identity_unchanged':True,\n         'observed_dyld_routes':runtime['observed_dyld_routes'],'metadata_record':refs['runtime']},'whole accepted pre result9')\n    previous=read(refs['pre_mode_postflight']);keep_refs(previous)\n    same([previous['schema'],previous['phase'],previous['status'],previous['immutable_preparation_input_rows'],\n          previous['E_files'],previous['E_directories'],previous['E_unchanged'],previous['subject_executed_by_this_script']],\n         ['ri249-whole-premode-custody-v1','postflight','PASS_METADATA_CUSTODY',2854,49,9,True,False],'whole accepted previous custody domain')\n    need(len(previous['input_identities'])==2883,'all previous operation custody identities')\n    for row in previous['input_identities']:fresh(row)\n    prior_check=read(refs['pre_mode_root_check']);keep_refs(prior_check)\n    same(prior_check['full_result'],pre_result,'complete actual pre reconstruction')\n    same([prior_check['status'],prior_check['scientific_execution'],prior_check['mode_card_created']],\n         ['PASS_COMPLETE_METADATA_OPERATION_RECONSTRUCTION',False,False],'root predecessor scope')\n    need(len(prior_check['output_identities'])==3 and len(prior_check['monitor_identities'])==4,'prior output/monitor domains')\n    for row in prior_check['output_identities']+prior_check['monitor_identities']:fresh(row)\n    prior_output=Path(refs['pre_result']['path']).parent\n    prior_monitor=Path(prior_check['monitor_identities'][0]['path']).parent\n    prior_D=prior_monitor.parent\n    same(str(prior_output),str(B/'ri156-operation-ri244-premode-2kfsmiea'),'exact completed prior output')\n    same(str(prior_D),str(B/'ri244-current-normal-premode-2kfsmiea'),'exact completed prior preparation')\n    mode_request={'freeze':request['freeze'],'mode':'normal','pre':refs['pre_result'],'normal_acceptance':None}\n    sealed_request=next(row for row in handoff['files'] if row['path']==str(W/'MODE_CARD_REQUEST.proposal.json'))\n    need(canonical(mode_request)==initial_body(sealed_request['path'],sealed_request['sha256']),'whole sealed request4 source')\n    oldroles=read(refs['old_roles']);need(len(oldroles['observed_identities'])==2811,'all retained custody identities')",
+      "before": "    oldroles=read(refs['old_roles']);need(len(oldroles['observed_identities'])==2811,'all retained custody identities')",
+      "occurrences": 1
+    },
+    {
+      "after": "             ['ACTUAL_RUNTIME_NORMAL.json','PRE_MODE_REQUEST.json'],'preserved RI241 namespace')\n        same(sorted(p.name for p in prior_output.iterdir()),['ATTEMPT.json','COMPLETE.json','RESULT.json'],'prior pre-mode output namespace')\n        same(sorted(p.name for p in prior_monitor.iterdir()),\n             ['PRE_MODE.ATTEMPT.json','PRE_MODE.COMPLETION.json','PRE_MODE.stderr','PRE_MODE.stdout'],'prior monitor namespace')\n        same(sorted(p.name for p in prior_D.iterdir()),previous['D_namespace'],'whole prior preparation namespace')\n        same(sorted(p.name for p in (prior_D/'tmp').iterdir()),[],'prior operation tmp empty')",
+      "before": "             ['ACTUAL_RUNTIME_NORMAL.json','PRE_MODE_REQUEST.json'],'preserved RI241 namespace')",
+      "occurrences": 1
+    },
+    {
+      "after": "        vendor=emit('SUPPLIER_BEFORE.json',before_supplier);e_ref=emit('E_BEFORE.json',before_E)\n        request_ref=emit('MODE_CARD_REQUEST.json',mode_request)",
+      "before": "        vendor=emit('SUPPLIER_BEFORE.json',before_supplier);e_ref=emit('E_BEFORE.json',before_E)",
+      "occurrences": 1
+    },
+    {
+      "after": "'input_acceptance':refs['pre_mode_acceptance']",
+      "before": "'input_acceptance':refs['input_review']",
+      "occurrences": 1
+    },
+    {
+      "after": "'request':request_ref",
+      "before": "'request':refs['request']",
+      "occurrences": 1
+    },
+    {
+      "after": "'root_input_acceptance':refs['pre_mode_acceptance']",
+      "before": "'root_input_acceptance':refs['input_review']",
+      "occurrences": 1
+    }
+  ],
+  "predecessor": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+  },
+  "schema": "ri249-mode-card-source-changes-v1",
+  "whole_reverse_exact": true
+}

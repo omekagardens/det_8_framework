@@ -1,0 +1,18 @@
+{
+  "schema": "ri171-author-source-refinement-record-v1",
+  "initial_manifest_cases": 84,
+  "added_group_cases": [
+    "S08.signal_birth",
+    "S08.signal_pgid",
+    "S10.stdout.descriptor",
+    "S10.stdout.size",
+    "S10.stderr.descriptor",
+    "S10.stderr.size",
+    "S10.processes.descriptor",
+    "S10.processes.size"
+  ],
+  "final_manifest_cases": 92,
+  "reason": "Complete both discover and signal identity predicates and distinguish descriptor replacement and size drift from pathname/content mutations. Missing-caller real full-loop behavior correctly expects the unchanged315-second hard cutoff. No target/fixture was executed.",
+  "current_generator_note": "prepare_metadata.mjs produced initial84-case manifest; later literal administrative refinement is recorded here. It is not an executable target or replay claim.",
+  "followup_correction": "S07 is not forced to315 seconds: real observer/journal failure, including journal cap, can end the known-empty cleanup loop. Exact initial refusal and actual ordinary failed receipt or hard escape are required. No source-path prediction is an observed outcome."
+}

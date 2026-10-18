@@ -1,0 +1,29 @@
+{
+  "N01": "15 grouped unchanged spans contain17 actual unchanged functions; all bytes unchanged",
+  "RI137_attempt_remains_rejected": true,
+  "controls_executed": 0,
+  "execution_admitted": false,
+  "independent_review": {
+    "bytes": 4113,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/HANDOFF.json",
+    "sha256": "83103b433a7caa1763c2bea9a2565bede26b35a60da1383d8674b661ae37b613"
+  },
+  "reconciliation": {
+    "bytes": 189789,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_SOURCE_RECONCILIATION.json",
+    "sha256": "a3e6d9189a1d17879121c8d2d27bc7cc66d4f2c395925f3d99cf265340dfd525"
+  },
+  "root_review": {
+    "bytes": 2489,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/ROOT_SOURCE_REVIEW.md",
+    "sha256": "a928ff69187174cb80e4b93da2efbb5dd1cd1067bc7e56b6673a03a1a9887c9e"
+  },
+  "schema": "ri139-root-source-adjudication-v1",
+  "source": {
+    "bytes": 7035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+    "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+  },
+  "source_accepted": true,
+  "status": "ACCEPT_NARROW_UNEXECUTED_DIRECT_BOOTSTRAP_REPAIR"
+}

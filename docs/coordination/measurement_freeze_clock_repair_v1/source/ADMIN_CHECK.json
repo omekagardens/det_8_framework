@@ -1,0 +1,32 @@
+{
+  "E_modified": false,
+  "admission_created": false,
+  "base_input_pins": 806,
+  "checks": 3634,
+  "clock_or_fixture_evaluation": false,
+  "copies": 48,
+  "distinct_opaque_pins": 825,
+  "eight_tail_block_byte_identical": true,
+  "history": 124,
+  "old_and_new_operation_absence_checked": true,
+  "original_namespace_files": 15,
+  "preserved_roles": 810,
+  "repair_provenance_pins": 19,
+  "runtime_or_host_observation": false,
+  "schema": "ri213-author-administrative-correspondence-v1",
+  "scientific_decode": false,
+  "source_import_compile_AST_probe_execute": false,
+  "source_lines": {
+    "check_installation.py": 141,
+    "install_freeze.py": 237
+  },
+  "source_manifest": {
+    "bytes": 1372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+    "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+  },
+  "status": "PASS_OPAQUE_PINS_AND_COMPLETE_REVERSE_PROJECTION_ONLY",
+  "target_originals": 30,
+  "whole_installer_reverse_projection": true,
+  "whole_postchecker_reverse_projection": true
+}

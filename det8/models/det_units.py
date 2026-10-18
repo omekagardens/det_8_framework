@@ -26,7 +26,7 @@ from __future__ import annotations
 
 import math
 
-from det8.models.gravity_v2 import G_NEWTON, response_field
+from det8.models.reference_constants import NEWTONIAN_G_SI
 
 
 # ── Dimensional analysis ────────────────────────────────────────────────────
@@ -60,22 +60,24 @@ def dimensional_analysis() -> dict:
 
 
 def natural_units() -> dict:
-    """The DET-native reference scales (all dimensionless + empirical anchors)."""
+    """Active dimensionless quantities plus explicitly borrowed SI anchors."""
     return {
         "reference_participation": "Π = 1 at κ=0, σ=η=1, F=H=0, v=0",
         "kappa_range": "[0, 1]",
-        "chi": "(κ − κ_eq)/κ_earth",
-        "beta_eff": "α/κ_earth — the single observable gravity combination",
         "dimensional_anchors": {
-            "G": f"{G_NEWTON:.5e} m³·kg⁻¹·s⁻² (empirical)",
+            "G": f"{NEWTONIAN_G_SI:.5e} m³·kg⁻¹·s⁻² (external empirical input)",
             "c": "2.99792458e8 m/s (empirical, borrowed)",
         },
         "note": (
-            "The clock anomaly Δν/ν and gravity shift ΔG/G are dimensionless "
-            "ratios and are anchor-free. A 'seconds per event' calibration is "
-            "needed only for absolute proper-time rates, which no DET "
-            "prediction currently requires."
+            "The conditional clock and proxy outputs are dimensionless ratios. "
+            "A 'seconds per event' calibration is needed for absolute proper-time "
+            "rates. No active DET gravity channel is defined here."
         ),
+        "legacy_gravity": {
+            "chi": "(κ − κ_eq)/κ_earth",
+            "beta_eff": "α/κ_earth",
+            "status": "RETIRED algebra only",
+        },
     }
 
 
@@ -100,12 +102,12 @@ def lambda_p_from_clock_shift(frac_shift: float, kappa: float = 0.5) -> float:
 
 
 def gravity_shift_from_alpha(alpha: float, chi: float) -> float:
-    """ΔG/G = α·χ — forward (DET → SI observed ratio)."""
+    """Historical algebra ΔG/G = α·χ; no active physical mapping."""
     return alpha * chi
 
 
 def alpha_from_gravity_shift(frac_g: float, chi: float) -> float:
-    """α = (ΔG/G) / χ — inverse (SI observed ratio → DET coupling)."""
+    """Invert historical α·χ algebra; no active physical inference."""
     if chi == 0.0:
         raise ValueError("chi must be nonzero to infer alpha")
     return frac_g / chi

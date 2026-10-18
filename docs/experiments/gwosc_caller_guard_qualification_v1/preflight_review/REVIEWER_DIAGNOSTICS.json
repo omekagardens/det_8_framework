@@ -1,0 +1,71 @@
+{
+  "actual_checker": {
+    "checks": 3314,
+    "execution_line": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stderr",
+    "exit_code": 0,
+    "reads": 466,
+    "script": {
+      "bytes": 8552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/check_metadata.py",
+      "sha256": "96c686d5f5815a68b0d839e8e31674d2e4effe165599067ed0bf7fb185de5119"
+    },
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stdout",
+      "sha256": "0cf893e74f38a0fbb7e41df866e18fd4a379a6cfeccfaf4ce2080d2f95fdfa95"
+    },
+    "tool_chunk": "8beee0"
+  },
+  "failed_administrative_checker_runs": 0,
+  "failed_subject_operations": 0,
+  "fresh_complete_source_read_tools": [
+    "bf31cb",
+    "d15d18",
+    "5dfdc5",
+    "742ac3",
+    "2e9094",
+    "5973c0",
+    "76c9aa",
+    "bc1d13",
+    "d1c898",
+    "bbf051",
+    "e9b9df",
+    "b71e3e",
+    "ba6a6d"
+  ],
+  "other_read_output_limits": [
+    {
+      "issue": "Combined protocol/review output clipped by aggregate budget",
+      "resolution": "Previously clipped protocol tail and root narrative separately reread in ba6a6d.",
+      "tool_chunk": "5a09ed"
+    },
+    {
+      "issue": "Administrative metadata shape listing printed full history row list and output clipped",
+      "resolution": "No closure validation relied on displayed truncation; full124 opaque rows later verified by own checker.",
+      "tool_chunk": "2489c7"
+    }
+  ],
+  "read_only_command_failures": [
+    {
+      "error": "cat: /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PREPARATION_PROTOCOL.md: No such file or directory",
+      "exit_code": 1,
+      "operation": "sed source reads followed by cat guessed PREPARATION_PROTOCOL.md",
+      "resolution": "Discovered actual PROTOCOL.md; complete actual protocol read in 5a09ed with truncated segment recovered in ba6a6d. No target operation.",
+      "tool_chunk": "bbf051"
+    },
+    {
+      "error": "cat: /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/GUARD_QUALIFICATION_CONTRACT.md: No such file or directory",
+      "exit_code": 1,
+      "operation": "sed source lines405-502 followed by cat guessed GUARD_QUALIFICATION_CONTRACT.md",
+      "resolution": "Actual RI130 PROTOCOL.md read completely in74f913; no target operation.",
+      "tool_chunk": "e9b9df"
+    }
+  ],
+  "schema": "ri152-reviewer-administrative-diagnostics-v1",
+  "source_execution": false
+}

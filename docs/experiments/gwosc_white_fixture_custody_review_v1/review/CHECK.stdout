@@ -1,0 +1,2 @@
+{"additions": 44, "changed_modules": 2, "controls": {"executed": 0, "new": 29, "old": 55, "total": 84}, "dependencies": 525, "final_fresh_identity_count": 553, "inherited": 481, "new_modules": 1, "predicates": 3888, "selected_dependency_bytes": 30301774, "status": "PASS_ADMINISTRATIVE_IDENTITY_AND_TEXT_NOT_SOURCE_ACCEPTANCE", "unchanged_modules": 9}
+{"bytes": 759737, "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/METADATA_CHECK.json", "sha256": "5597fa2d49190d53a909ae3fb1a6264afd00a408e813e2ee5118b078acd13d93"}

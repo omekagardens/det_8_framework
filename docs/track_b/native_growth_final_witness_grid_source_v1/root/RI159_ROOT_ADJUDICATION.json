@@ -1,0 +1,83 @@
+{
+  "RET": "paused",
+  "actual_grid_result": null,
+  "blocking_source_findings": [],
+  "cases_executed": 0,
+  "conditional_consequence": "An independently accepted authenticated universal grid result, with unchanged accepted law/core ordering, rejects only the retained sufficient envelope. A correct GRID_FAIL removes that shortcut; refusal supplies neither. No actual antecedent established.",
+  "date": "2026-09-30",
+  "fixtures_created": 0,
+  "independent_verdict": {
+    "bytes": 3722,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/VERDICT.json",
+    "sha256": "4253900d26c35151cf106817f7745844dce3eb33add885d2894333921cd940ee"
+  },
+  "prior_root_manual": {
+    "bytes": 3374,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/NATIVE_PRELIMINARY_REVIEW.md",
+    "sha256": "3d2ec56df3b4988bf28e8df597cd0bdb6224beb78f489e20db1194b078eb9045"
+  },
+  "qualification_families": 63,
+  "qualification_prerequisites": [
+    {
+      "id": "QP01",
+      "requirement": "Review and admit an actual bounded harness/caller; pin source/interpreter; preserve exclusive captures and genuine completion/partial stdout/stderr; no protected original or production pin mutation."
+    },
+    {
+      "id": "QP02",
+      "requirement": "Expand all declared Q/R/P families with independent full expected outputs and exact isolated per-implementation first refusal semantics; preserve109-index coverage and normal/optimized scope."
+    },
+    {
+      "id": "QP03",
+      "requirement": "Concretely test close-only, primary-plus-close, primary-plus-postcheck/all-later-attempt, no-result-baseline, short-write/flush and failed diagnostic persistence paths. Current case labels alone do not qualify them."
+    },
+    {
+      "id": "QP04",
+      "requirement": "After qualification and independent outcomes review, separately admit the actual fixed-certificate producer/auditor run with full result/receipt/current-source and genuine caller custody."
+    }
+  ],
+  "retained_open": [
+    "other8 connected parents",
+    "five Di",
+    "shared T1",
+    "strict endpoints",
+    "all ideal occurrences/marked multiplicity",
+    "P2/P3",
+    "numerical Y=1/4",
+    "31/139/20/42",
+    "calibration/native forward map/physical claims",
+    "actual grid",
+    "actual capacity and adequate q/v",
+    "W/C2/C3/H30",
+    "global M6 and actual rho",
+    "calibration/native forward map/physical claims"
+  ],
+  "review": {
+    "bytes": 6943,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/HANDOFF.json",
+    "sha256": "4f25fd23d0c772e86c16335b74b34670a15245c56c765d1a0947fd81401949f5"
+  },
+  "root_manual": {
+    "bytes": 4621,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/ROOT_MANUAL_REVIEW.md",
+    "sha256": "4705b3bf91f574bd458a6a2199527104ffeac9c4cac383df5c91f84483b72501"
+  },
+  "root_replay": {
+    "bytes": 1506,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/ROOT_METADATA_REPLAY.json",
+    "sha256": "d11a91050515cccb2c7bc106b925f7371310746aaccec2e520883ac6e2b1941e"
+  },
+  "root_replay_validation": {
+    "command_chunk": "fa805d",
+    "exit_code": 0
+  },
+  "runtime_inventory_freeze_admission": false,
+  "schema": "ri159-root-source-adjudication-v1",
+  "scientific_body_decode": false,
+  "source_control_import_compile_AST_probe_run": false,
+  "status": "ACCEPT_EXACT_UNEXECUTED_GRID_AUDIT_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "subject": {
+    "bytes": 8831,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+    "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+  }
+}

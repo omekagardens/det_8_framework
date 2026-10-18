@@ -1,0 +1,467 @@
+{
+  "schema": "ri138-author-static-checks-v1",
+  "status": "AUTHOR_CHECKS_ONLY_NO_EXECUTION",
+  "local_date": "2026-09-30",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "checks": {
+    "all_396_dependencies": {
+      "schema": "ri138-author-dependency-text-check-v1",
+      "kind": "author_check_not_independent_review",
+      "passed": true,
+      "dependency_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
+        "bytes": 673928,
+        "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2"
+      },
+      "subject_manifest": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
+        "bytes": 23755,
+        "sha256": "ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465"
+      },
+      "old_count": 373,
+      "new_count": 396,
+      "added_count": 23,
+      "inherited_entries_identical_except_role": true,
+      "all_dependency_identities_match": true,
+      "checked_identity_array_sha256": "cde1229852afac43532a8bb6d4fbe853e339e071098bf2ba04120de1eb991d26",
+      "access_policies": {
+        "metadata-identities-only-no-scientific-body-decoding": 167,
+        "opaque-bytes-only": 229
+      },
+      "new_admin_body_count": 0,
+      "new_typed_references": 0,
+      "subject_typed_references": 16,
+      "subjects_equal_predecessor": true,
+      "namespaces": [
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7",
+          "files": [
+            "AUTHOR_METADATA_CHECK.json",
+            "DEPENDENCY_NOTES.md",
+            "DISPATCHER_DELTA.patch",
+            "DISPATCHER_REFUSALS.json",
+            "DISPATCHER_SOURCE_NOTES.md",
+            "HANDOFF.json",
+            "HANDOFF.md",
+            "LAUNCH_COLLECTION_CONTRACT.md",
+            "SOURCE_CORRESPONDENCE.json",
+            "SOURCE_DEPENDENCIES.json",
+            "SOURCE_IDENTITIES.json",
+            "qualify_policies.py"
+          ],
+          "handoff_keys": [
+            "schema",
+            "status",
+            "execution_authorized",
+            "scientific_execution",
+            "local_date",
+            "timezone",
+            "directory",
+            "source_author_thread",
+            "coordinator_owner_thread",
+            "selecting_adjudication",
+            "predecessor_source_handoff",
+            "predecessor_independent_review_handoff",
+            "dispatcher",
+            "subject_manifest",
+            "dependency_manifest",
+            "scope",
+            "inventories",
+            "authentication",
+            "implementation_limits",
+            "actual_author_checks",
+            "external_implementation_not_supplied",
+            "next_boundary",
+            "scientific_boundary",
+            "prohibited_activity_performed",
+            "authors",
+            "author_checks_are_not_fresh_nonauthor_acceptance",
+            "files_bound_excluding_self",
+            "exact_sealed_namespace_files",
+            "files",
+            "self_hash_excluded",
+            "stop"
+          ]
+        },
+        {
+          "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z",
+          "files": [
+            "FINAL_PIN_CHECK.json",
+            "HANDOFF.json",
+            "INDEPENDENT_SOURCE_REVIEW.json",
+            "INDEPENDENT_SOURCE_REVIEW.md",
+            "OPAQUE_TEXT_REVIEW.json",
+            "check_metadata.py"
+          ],
+          "handoff_keys": [
+            "actual_metadata_evidence",
+            "blocking_findings",
+            "complete_review",
+            "directory",
+            "exact_review_namespace_files",
+            "files",
+            "files_bound_excluding_self",
+            "remaining_boundary",
+            "reviewer",
+            "root_adjudication_required",
+            "schema",
+            "self_hash_excluded",
+            "source_handoff",
+            "source_or_repository_changes",
+            "status",
+            "structured_review",
+            "subject_execution_or_admission"
+          ]
+        }
+      ],
+      "additions": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/FINAL_PIN_CHECK.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/HANDOFF.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/OPAQUE_TEXT_REVIEW.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/check_metadata.py",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/AUTHOR_METADATA_CHECK.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DEPENDENCY_NOTES.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_DELTA.patch",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_REFUSALS.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_SOURCE_NOTES.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/LAUNCH_COLLECTION_CONTRACT.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_CORRESPONDENCE.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_DEPENDENCIES.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/RI136_ROOT_ADJUDICATION.json",
+          "access_policy": "metadata-identities-only-no-scientific-body-decoding"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/ROOT_REVIEW_RECONCILIATION.json",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/ROOT_SOURCE_REVIEW.md",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/SUCCESSOR_RESERVATIONS.json",
+          "access_policy": "opaque-bytes-only"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/check_review.py",
+          "access_policy": "opaque-bytes-only"
+        }
+      ],
+      "no_subject_execution": true,
+      "no_runtime_referent_observation": true
+    },
+    "incremental_administrative_closure": {
+      "corrects_prior_admin_filter": true,
+      "administrative_bodies": 11,
+      "typed_references": 1699,
+      "rows": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/FINAL_PIN_CHECK.json",
+          "typed_references": 36
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/HANDOFF.json",
+          "typed_references": 9
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/INDEPENDENT_SOURCE_REVIEW.json",
+          "typed_references": 21
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/OPAQUE_TEXT_REVIEW.json",
+          "typed_references": 1214
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/AUTHOR_METADATA_CHECK.json",
+          "typed_references": 3
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/DISPATCHER_REFUSALS.json",
+          "typed_references": 0
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+          "typed_references": 19
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_CORRESPONDENCE.json",
+          "typed_references": 4
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_DEPENDENCIES.json",
+          "typed_references": 373
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+          "typed_references": 14
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/RI136_ROOT_ADJUDICATION.json",
+          "typed_references": 6
+        }
+      ],
+      "namespaces": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7",
+          "exact_members": 12,
+          "payload_pins_match": true
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z",
+          "exact_members": 6,
+          "payload_pins_match": true
+        }
+      ]
+    }
+  },
+  "actual_tool_completions": [
+    {
+      "chunk_id": "42f9da",
+      "exit_code": 0,
+      "scope": "opaque identities, preservation, subjects; first administrative filter returned zero and was corrected"
+    },
+    {
+      "chunk_id": "ccb3f0",
+      "exit_code": 0,
+      "scope": "corrected incremental administrative filter and complete namespace checks"
+    },
+    {
+      "chunk_id": "339d0d",
+      "exit_code": 0,
+      "scope": "final source/document pins, line counts, finite literal call-site checks; whole-module loading separately checked below"
+    },
+    {
+      "chunk_id": "a2aaf6",
+      "exit_code": 0,
+      "scope": "actual complete load_module literal text pattern checks"
+    }
+  ],
+  "limitations": {
+    "inherited_administrative_bodies_not_retraversed": 156,
+    "current_runtime_referents_observed": false,
+    "protected_scientific_bodies_decoded": false,
+    "subject_import_compile_ast_probe_or_execution": false,
+    "syntax_validity_demonstrated": false,
+    "execution_authorized": false,
+    "independent_acceptance": false,
+    "repository_or_git_operations": false
+  },
+  "current_packet_before_author_report": {
+    "schema": "ri138-final-author-literal-inventory-v1",
+    "files": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/CUSTODY_SOURCE_NOTES.md",
+        "bytes": 15127,
+        "sha256": "26d783bf5a222f3ac93a8c5b86fccdc6a574279e7e30c2872932d4aab2b0e376",
+        "lines": 221
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
+        "bytes": 9639,
+        "sha256": "dacd4443ade07837d52ea407c33d86d705094b7356ed1f80757a2804774d58c3",
+        "lines": 169
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
+        "bytes": 3702,
+        "sha256": "0145c4f2d5a682ae8f51b04509999aabeb0661d8acc233227adede86b488d6b4",
+        "lines": 64
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/LAUNCHER_SOURCE_NOTES.md",
+        "bytes": 14420,
+        "sha256": "b6ead5e9c0c54ea97cd7b40941fcf327c030f8ac2ecb2a4a7acab7b1bd2cc512",
+        "lines": 230
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/PROCESS_SOURCE_NOTES.md",
+        "bytes": 14602,
+        "sha256": "179138fc5fdd7e9ee2ec4370c702405b0db43cad340fef564468dd54a792c60b",
+        "lines": 228
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
+        "bytes": 2658,
+        "sha256": "43b67b0134ca393e9fe8ab31a2f721bc232e74df08833c95391296d0b5fb6f9d",
+        "lines": 28
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
+        "bytes": 11369,
+        "sha256": "52b1888a51f68f1e80b3d31d147d8f0032d115e497dd5521655cc45c2f8ccbf9",
+        "lines": 185
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_CORRESPONDENCE.json",
+        "bytes": 15330,
+        "sha256": "5d33f8b40fd7cb2d55f3080082373b6d30ad737eacfbd459dc941a4c20d468eb",
+        "lines": 536
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
+        "bytes": 673928,
+        "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2",
+        "lines": 8377
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
+        "bytes": 23755,
+        "sha256": "ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465",
+        "lines": 871
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142",
+        "lines": 617
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+        "bytes": 57622,
+        "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9",
+        "lines": 982
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+        "bytes": 38953,
+        "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62",
+        "lines": 765
+      }
+    ],
+    "checks": {
+      "one_parent_run_child_call": true,
+      "process_two_popen_sites": true,
+      "no_census_run_or_communicate": true,
+      "no_process_SIGALRM_reference": true,
+      "no_process_BaseException_catch": true,
+      "custody_Exception_only_observation_catches": true
+    },
+    "source_executed": false,
+    "no_operational_artifacts": true
+  },
+  "loader_literal_check": {
+    "method": "literal source substring check only, not execution or AST",
+    "checks": {
+      "load_module_authenticates_whole_raw_before_compile": true,
+      "load_module_compiles_same_raw": true,
+      "load_module_returns_whole_module": true
+    }
+  },
+  "source_correspondence": {
+    "ri134_native": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+      "bytes": 89283,
+      "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d"
+    },
+    "ri136_dispatcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "bytes": 23248,
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    },
+    "custody": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+      "bytes": 33143,
+      "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+    },
+    "owned_process": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+      "bytes": 38953,
+      "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62"
+    },
+    "launcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+      "bytes": 57622,
+      "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9"
+    }
+  },
+  "author_reviews": {
+    "main": "Read all three modules and revised integration spans, complete component notes, selecting root evidence and predecessor interfaces; authored root contract and review obligations.",
+    "custody_peer": "Read revised process watchdog and launcher authority/namespace boundaries; no execution.",
+    "process_peer": "Read final original-pin, independent six-file attempts, shared budget and exact dispatcher postcheck order; no remaining reported blocker.",
+    "independence": "All are source authors or author peers, not independent acceptance.",
+    "repairs_before_seal": [
+      "Bound process error-memory detail and stop repeated failing cleanup loops",
+      "Preserve parent hard watchdog and bypass persistence during hard abort",
+      "Retain old frozen spec after extension failure",
+      "Attempt all custody objects after sink-open failure",
+      "Retain original process writer pins and independently observe all six paths",
+      "Reconstruct exact ordered dispatcher postchecks and family boundary",
+      "Recheck whole source namespace",
+      "Share one final60 budget and reject late closes/flushes"
+    ]
+  },
+  "counts": {
+    "new_python_lines": 2364,
+    "dependency_files": 396,
+    "inherited_dependencies": 373,
+    "added_dependencies": 23,
+    "new_administrative_bodies": 11,
+    "new_typed_references": 1699,
+    "subject_manifest_typed_references": 16,
+    "base_custody_rows": 4374,
+    "direct_native_cases": 77,
+    "direct_audit_cases": 62,
+    "controls_executed": 0
+  }
+}

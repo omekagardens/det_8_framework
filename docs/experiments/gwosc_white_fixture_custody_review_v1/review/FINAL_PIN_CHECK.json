@@ -1,0 +1,96 @@
+{
+  "all_553_selection_states_unchanged": true,
+  "assignment": {
+    "bytes": 2109,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "2f7a97b527a88d7a2dd16e69c7b01dde2e3a3e2f81c57fea4424e80765491206"
+  },
+  "complete_fresh_identity_rechecks": 553,
+  "controls_executed": 0,
+  "dependency_count": 525,
+  "payloads": 26,
+  "review_preseal_files": [
+    {
+      "bytes": 5208,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/ACTUAL_CHECKS.json",
+      "sha256": "61a9be46fc61058127a9fcc5193f2a3e36fc9051002194b0c2ad3fa71bd4f857"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/CHECK.stdout",
+      "sha256": "2afd7a6d98e8e77d7133e327599c60578ed85821616fd50e4fa0f7a2602de3f7"
+    },
+    {
+      "bytes": 20478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "8ee66a049bff66e42edffc1923e73fe3c4beecfd5807de33b580c169b818c3cb"
+    },
+    {
+      "bytes": 759737,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/METADATA_CHECK.json",
+      "sha256": "5597fa2d49190d53a909ae3fb1a6264afd00a408e813e2ee5118b078acd13d93"
+    },
+    {
+      "bytes": 5817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/VERDICT.json",
+      "sha256": "b31b92db8a571db1bb3de68d2c730e7d691680a49ad6a97d0a60089a022a67fb"
+    },
+    {
+      "bytes": 10696,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/check_metadata.py",
+      "sha256": "ffbad734b32b86120eb94e332bc65d5dfe19e314a8f4c6a2a79aeb417e2b19e5"
+    },
+    {
+      "bytes": 5779,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/seal_review.py",
+      "sha256": "57d1212a661ee856e8acd6dd866d2dabca3199662e8771e9c57792b2370c515a"
+    }
+  ],
+  "review_verdict": "REQUIRE_F02_FIXTURE_NAMESPACE_RECONCILIATION_BEFORE_QUALIFICATION",
+  "root_adjudication_required": true,
+  "runtime_observed": false,
+  "schema": "ri158-independent-source-review-final-pins-v1",
+  "scientific_decode": false,
+  "source_files": 27,
+  "status": "COMPLETE_OPAQUE_SOURCE_EVIDENCE_RECHECK_NOT_QUALIFICATION",
+  "subject": {
+    "bytes": 12934,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-white-custody-repair-68cdvzn6/HANDOFF.json",
+    "sha256": "69638eb05897dc2e72c4a29f84d27593dff5e83b98e102c1efccc67f9ded4fa2"
+  },
+  "subject_import_compile_AST_probe_run": false,
+  "subject_namespace": [
+    "ACTUAL_ADMINISTRATIVE_TOOLS.json",
+    "ADMINISTRATIVE_CHECK.json",
+    "AUTHORING_RECORD.md",
+    "CONTROL_INVENTORY.json",
+    "DEPENDENCIES.json",
+    "FINAL_SOURCE_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INTEGRATION_CONTROL_CONTRACT.md",
+    "PUBLICATION_SUBSET.json",
+    "README.md",
+    "REPAIR_CONTRACT.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_SET.json",
+    "adapter.py",
+    "bindings.py",
+    "check_administrative.py",
+    "custody_io.py",
+    "inert_controls.py",
+    "integration_controls.py",
+    "mode_verify.py",
+    "monitor_checks.py",
+    "retained_contract.py",
+    "retained_control.py",
+    "retained_guards.py",
+    "retained_stage.py",
+    "retained_supervisor.py"
+  ]
+}

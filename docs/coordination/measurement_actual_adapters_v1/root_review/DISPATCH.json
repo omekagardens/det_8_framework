@@ -1,0 +1,53 @@
+{
+  "actual_execution_not_yet_started": true,
+  "admission": {
+    "bytes": 2114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADMIT_ADAPTERS.json",
+    "sha256": "ac86cac1f9973266d84b2a1ad1b9a34e9655d897153dc264d6b0805f437389cd"
+  },
+  "bootstrap": {
+    "bytes": 2395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_BOOTSTRAP.py",
+    "sha256": "dcf864f40ab8b084ba388e445a14a1d0d025e2179cf40a8cabeafea6d8a68e45"
+  },
+  "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9",
+  "login": false,
+  "monitor_source": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "PATH=/usr/bin:/bin",
+    "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/tmp",
+    "TZ=UTC",
+    "VECLIB_MAXIMUM_THREADS=1",
+    "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+    "/usr/bin/perl",
+    "-e",
+    "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_BOOTSTRAP.py"
+  ],
+  "preflight": {
+    "bytes": 3815,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "9a5701ceaff6757a244694f649b93a345b72ffd2338b0a9d69104c9831178787"
+  },
+  "request": {
+    "bytes": 3021,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+  },
+  "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_BOOTSTRAP.py",
+  "single_attempt": true
+}

@@ -1,0 +1,102 @@
+{
+  "accepted_review_handoff": {
+    "bytes": 1529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/HANDOFF.json",
+    "sha256": "8ce87fa9e3bf333b804e8edd27d4c8ec3502f1c77aa517fbc2cf50e0979761bf"
+  },
+  "blocking_findings": [],
+  "complete_application_accepted": false,
+  "complete_transitive_execution_closure": false,
+  "current_source_handoff": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "direct_reference_categories": {
+    "bundled_historical_receipts": 3,
+    "bundled_predecessor_review_disposition": 5,
+    "existing_repository": 5,
+    "external_capture": 1
+  },
+  "evidence": [
+    {
+      "bytes": 8528,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/PUBLICATION_CLOSURE_REVIEW.md",
+      "sha256": "8e8d3e8fc3ca6c287fd43b806ddb7e76874e1d19ac39475a382f404914df57ac"
+    },
+    {
+      "bytes": 35932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/METADATA_CHECK.json",
+      "sha256": "65dfa3387af9012b29cc44ad4ca57c38b24798665522414a011981d50e11ecb8"
+    },
+    {
+      "bytes": 13995,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/PREDECESSOR_CONTEXT_CHECK.json",
+      "sha256": "71a93c9b20c6b7f57ca157ef9f7b66f7272b84e9ace70aba6584521dfa9a9ddb"
+    },
+    {
+      "bytes": 5471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/check_closure_metadata.py",
+      "sha256": "eab18d59806b9fc605a1f77bd1d849966dd7887f967e9b70b45746fac4d90649"
+    },
+    {
+      "bytes": 2084,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-publication-closure-xjTxsfe6/check_predecessor_context.py",
+      "sha256": "663e121540a1eb06a9090e3f240b51199be12a3bdfc3c08c2b7dd81e89bacecf"
+    }
+  ],
+  "execution_authorized": false,
+  "external_capture": {
+    "bytes": 51891508,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal/INTERVALS.json",
+    "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba"
+  },
+  "fresh_full_arithmetic_source_review_claimed": false,
+  "local_import_edges": [
+    [
+      "white_controls.py",
+      "white_path.py"
+    ],
+    [
+      "white_path.py",
+      "white_kernel.py"
+    ]
+  ],
+  "opaque_identity_check": {
+    "all_match": true,
+    "roles": 50,
+    "unique_paths": 43
+  },
+  "predecessor_context_copy_check": {
+    "all_match": true,
+    "records": 14
+  },
+  "proposed_copy_count_excluding_new_root_publication_artifacts": 35,
+  "prospective_repository_copies_verified": false,
+  "publication_conditions": [
+    "Preserve all exact source/review/predecessor/disposition and three historical-receipt bytes.",
+    "Root final copy verification and relative path identity map, including predecessor context refs.",
+    "Explicitly identify external capture and missing transitive execution closure; repository-only actual replay is unavailable.",
+    "Exclude active/unreviewed validator, qualifier, orchestrator, runtime and admission artifacts.",
+    "New overview explains later publication without altering historical source_publication_deferred field."
+  ],
+  "qualification_accepted": false,
+  "relies_on_accepted_full_predecessor_review": true,
+  "repository_index_git_mutation": false,
+  "ret_paused": true,
+  "root_disposition": {
+    "bytes": 2174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+    "sha256": "90c66df22b5ff16b578f38a4aba811638ec9f10f2b6089f898227691aa8219db"
+  },
+  "schema": "ri125-white-independent-publication-closure-review-v1",
+  "scientific_decode": false,
+  "source_packet_counts": {
+    "independent": 5,
+    "predecessor": 7,
+    "predecessor_review": 5,
+    "source": 13
+  },
+  "status": "PASS_BOUNDED_SOURCE_ONLY_PUBLICATION_CLOSURE",
+  "target_import_compile_ast_probe_or_execution": false
+}

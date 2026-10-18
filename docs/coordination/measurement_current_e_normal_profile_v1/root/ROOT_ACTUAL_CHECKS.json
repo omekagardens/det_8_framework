@@ -1,0 +1,47 @@
+{
+  "diagnostics": [
+    {
+      "chunk_id": "63199a",
+      "detail": "Combined display of root checker, complete metadata and PROFILE.stdout was clipped in aggregate. Complete root checker reread6539da; full profile metadata independently decoded and all fields reconciled by check_normal_profile.py with genuine terminal520109. No missing display is treated as a complete manual read; no subject retry or output overwrite.",
+      "kind": "display_truncation"
+    }
+  ],
+  "native_decision": {
+    "chunk_id": "0ab100",
+    "exit_code": 0
+  },
+  "native_metadata": {
+    "chunk_id": "b66219",
+    "exit_code": 0
+  },
+  "normal_post_custody": {
+    "exit_code": 0,
+    "initial": "e7999b",
+    "session": 71748,
+    "terminal": "014e33"
+  },
+  "normal_preflight": {
+    "exit_code": 0,
+    "initial": "1a580c",
+    "session": 57302,
+    "terminal": "13056e"
+  },
+  "normal_profile_subject_execution": true,
+  "profile_dispatch_read": {
+    "chunk_id": "74ef0f",
+    "exit_code": 0
+  },
+  "profile_outer": {
+    "exit_code": 0,
+    "initial": "2b5d3e",
+    "session": 63779,
+    "terminal": "9aba56"
+  },
+  "saved_profile_check": {
+    "exit_code": 0,
+    "initial": "e516e8",
+    "session": 61775,
+    "terminal": "520109"
+  },
+  "scientific_formula_execution": false
+}

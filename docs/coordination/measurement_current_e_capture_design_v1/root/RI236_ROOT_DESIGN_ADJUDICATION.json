@@ -1,0 +1,47 @@
+{
+  "RET_paused": true,
+  "capture_executed": false,
+  "independent_check": {
+    "chunk_id": "19592e",
+    "exit_code": 0,
+    "fixed_files": 997,
+    "predicates": 32286
+  },
+  "independent_review": {
+    "bytes": 4174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI236_INDEPENDENT_REVIEW.md",
+    "sha256": "1e12da7b1f5bad07536cdb90bedf04f9e2bec73b93fad787cab458e293a68101"
+  },
+  "mode_card_issued": false,
+  "next_action": "In existing RI236 root directory obtain fresh supplier/host/source/E observations, adopt unchanged RI141 for this one capture, issue exact17-field admission only after all predicates, dispatch unchanged parent once, retain genuine complete outcome and independently review whole baseline and E custody. No source review loop or new wrapper is needed.",
+  "operational_admission_issued": false,
+  "qualification_credit": 0,
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_prior_authorship": "Earlier RI130/RI141 authored; current RI236 proposal not authored. Independent new recipe/custody review inherits separately accepted original source semantics.",
+  "root_findings": [
+    "Exact unchanged capture contract,complete failure tails and actual-command recipe retained",
+    "Both whole snapshots must equal accepted normal PRE externally; collector equality alone insufficient",
+    "Separate full frozen E49/9 and48/124/30 custody required; original packet capture not substituted",
+    "Current supplier preflight required before startup and complete after observation",
+    "Concrete stable-field vendor projection must be reviewed before pre_mode if raw timestamps differ; preserve raw originals and genuine provenance",
+    "No source repair or profile/guard campaign indicated"
+  ],
+  "root_metadata": {
+    "bytes": 575607,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI236_ROOT_METADATA_CHECK.json",
+    "sha256": "31a29f1ce5b334ce05cc4d448f04fd0798824fc96c15c4942265d4f5666a171e"
+  },
+  "root_reads": [
+    "736903 protocol full,recipe middle clipped",
+    "1e49ab complete contract/handoff",
+    "3bc3e7 complete recipe/correspondence/actual admin tool record"
+  ],
+  "schema": "ri237-root-ri236-design-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONCRETE_UNISSUED_CAPTURE_DESIGN_FOR_FRESH_ROOT_PREPARATION",
+  "subject": {
+    "bytes": 5801,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/HANDOFF.json",
+    "sha256": "43a6c5eddc662f3aa220cceb8e6c8467744e1e1e8731e240e7e5a4dc393cca1b"
+  }
+}

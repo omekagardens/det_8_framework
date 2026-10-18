@@ -1,0 +1,82 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/guard_controls.source-only.py",
+    "--packet",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_ADMISSION.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_RESULT.json",
+    "--scope",
+    "failure-tails"
+  ],
+  "harness": {
+    "bytes": 13237,
+    "sha256": "e2200395568a8f634f2c37c3b8c76226ba6111e616f5878e17b4973a2a106fe2"
+  },
+  "helpers": {
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "launch.py": {
+      "bytes": 30158,
+      "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+    },
+    "runtime_support.py": {
+      "bytes": 6560,
+      "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+    },
+    "worker.py": {
+      "bytes": 8995,
+      "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+    }
+  },
+  "interpreter": {
+    "bytes": 52640,
+    "path": "/opt/homebrew/bin/python3",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "sha256": "b7e73dc9ef199f3046efd77d870fed331832ece0c3b33192595cdd4a81f8ef86",
+    "state": [
+      16777230,
+      164279807,
+      33261,
+      1,
+      52640,
+      1761680117240555558,
+      1761680117240640475
+    ],
+    "symlink_chain": [
+      {
+        "path": "/opt/homebrew/bin/python3",
+        "target": "../Cellar/python@3.14/3.14.0_1/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/bin/python3",
+        "target": "../Frameworks/Python.framework/Versions/3.14/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "target": "python3.14"
+      }
+    ]
+  },
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+  "production_or_scientific_permission": false,
+  "root_current_source_acceptance": {
+    "bytes": 5892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+  },
+  "scope": "failure-tails",
+  "scope_note": "Actual helper main/finally under reviewed substituted prerequisites/runtime and isolated fixture domain. No candidate3.11 invocation/science import. Expected original ordering counterexample is distinct from repaired regression pass; retain both genuine completions and all fixture receipts.",
+  "source_template": {
+    "bytes": 9192,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/MANIFEST.source-only-template.json",
+    "sha256": "d3bda4baf5663b3d39cbc8bb7b6f633ad4aa2574587428b441330454bd1b3e72"
+  },
+  "status": "AUTHORIZE_NONSCIENTIFIC_RI121_GUARD_CONTROLS_ONLY"
+}

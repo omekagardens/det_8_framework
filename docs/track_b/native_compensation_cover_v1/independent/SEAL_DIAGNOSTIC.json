@@ -1,0 +1,13 @@
+{
+  "actual_tool": {
+    "chunk_id": "59fd40",
+    "exit_code": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"<stdin>\", line 14, in <module>\n  File \"<stdin>\", line 6, in pin\nAssertionError\n"
+  },
+  "correction": "Replace full stat_result equality with exact dev,ino,mode,nlink,size,mtime_ns,ctime_ns tuple equality. Retain existing proof/admin artifacts.",
+  "failed_attempt_phase": "Before SUMMARY/HANDOFF emission; namespace inspected separately.",
+  "failed_source_expression": "b=p.read_bytes(); assert p.lstat()==s",
+  "finding": "The sealing-only reader incorrectly compared full stat_result, including access time, across its own read. The substantive successful checker compares dev/inode/mode/nlink/size/mtime_ns/ctime_ns and authenticated complete bytes. Sealing uses that same intended metadata domain and separately preserves exact hash. No source repair or subject rerun.",
+  "qualification_credit": 0,
+  "schema": "ri254-review-seal-diagnostic-v1"
+}

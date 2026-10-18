@@ -1,0 +1,24 @@
+{
+  "RET": "paused",
+  "controls_executed": 0,
+  "owner": "/root/archive_repro_review",
+  "predecessor": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri162-independent-preflight-review-i6j707uw",
+  "schema": "ri162-independent-preflight-review-assignment-v1",
+  "scope": [
+    "Independently trace the complete concrete proposal,exact17-line Python argument,unchanged child_run and helper spans,environment/Perl960 outer,request/card bindings and parent/child supplier/host prerequisites.",
+    "Authenticate exact13-file namespace/12payloads,source closure and actual fresh facts with genuine tools; finite fresh opaque fixed-file metadata may be reobserved read-only.",
+    "Determine concrete readiness or specific blockers for root one-shot actual106 inert qualification. No new source architecture or recursive gate; later E/science prerequisites are separate.",
+    "No invocation of target/vendor/monitor/collector/controls; no import/compile/AST/probe; no fixtures,active cards,freezes,admissions,E,repo/Git or new agents.",
+    "Read complete stated failure/partial/capture obligations; flag unsupported claims. Seal exact findings with actual checks and dependency pins."
+  ],
+  "subject": {
+    "bytes": 8931,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/HANDOFF.json",
+    "sha256": "97b16e9424e415dc03d3ff654785ea3bfb691964dbfa7c4c1e1a26db3e1207bf"
+  }
+}

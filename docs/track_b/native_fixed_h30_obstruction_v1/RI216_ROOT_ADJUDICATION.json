@@ -1,0 +1,45 @@
+{
+  "RET_paused": true,
+  "conclusions": [
+    "K>1/5500>0",
+    "q(rho)>theta*D/176 with accepted D=9/1000",
+    "(3m0/r)*C2(rho,s)<-47/12000<0",
+    "C3(rho,s)>0",
+    "Necessary T2 interval empty: fixed original H30 candidate has no strictly positive solution."
+  ],
+  "independent_review": {
+    "bytes": 2350,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_NONAUTHOR_REVIEW.json",
+    "sha256": "f2e95e495a79fea925243c3f12c3ac21c53b5c9708f96aad9279f0664e13583e"
+  },
+  "manual_review": {
+    "bytes": 4361,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_ROOT_PROOF_REVIEW.md",
+    "sha256": "b93d6a6630e6322da83418a124ef075cd5a4ddb30c302b741075bdf2f2ca6678"
+  },
+  "other_parent_systems_individually_solved": false,
+  "qualification_credit": 0,
+  "remaining_premises": [
+    "Accepted original finite seed and harmonic identities, complete canonical law and record/ideal multiplicities.",
+    "Inherited e=q(1)>0,t=-qprime(1)>0,a=q2>0 finite sign premises.",
+    "Accepted native scale bounds, all-ideal floor and strict interval equivalence."
+  ],
+  "root_metadata": {
+    "bytes": 5444,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_ROOT_METADATA_REPLAY.json",
+    "sha256": "79c61d4e250ac084a0b2fb788bd7ffa14da860fcd865fc6d741edfae46980334"
+  },
+  "root_metadata_actual": {
+    "chunk_id": "4e431b",
+    "exit_code": 0
+  },
+  "schema": "ri216-root-fixed-h30-obstruction-adjudication-v1",
+  "scientific_execution": false,
+  "scope": "Fixed lower law, original normalized seed and amplitude1/4; not all continuations, a general DET theorem or physical result.",
+  "status": "ACCEPT_RI216_CONDITIONAL_FIXED_H30_OBSTRUCTION",
+  "subject": {
+    "bytes": 11652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/HANDOFF.json",
+    "sha256": "9c9a57dfa8c880574fe3a80d7d5fe995b2b40a0824186bfe1e5c43caebc917e0"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "admission_field_recipe": {
+    "baseline_acceptance": {
+      "literal": null
+    },
+    "bootstrap": {
+      "fresh_observation_equals_historical": {
+        "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "symlink_chain": [],
+        "target": {
+          "bytes": 102352,
+          "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+        }
+      }
+    },
+    "bootstrap_host_preflight": {
+      "current_observation_required": true,
+      "fresh_root_FilePin": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+      "selected_interpreter_binding_exact_historical": {
+        "bytes": 102352,
+        "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+        "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+        "state": [
+          16777232,
+          172336345,
+          33261,
+          1,
+          102352,
+          1762508227000000000,
+          1763521990665808991
+        ],
+        "symlink_chain": []
+      }
+    },
+    "bounds": {
+      "literal": {
+        "driver_soft_seconds": 900,
+        "file_bytes": 67108864,
+        "genuine_outer_timeout_seconds": 960,
+        "guard_seconds": 180,
+        "maximum_sample_gap_seconds": 0.1,
+        "profile_seconds": 30,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "snapshot_seconds": 180,
+        "target_poll_seconds": 0.025
+      }
+    },
+    "environment_root": {
+      "literal": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15"
+    },
+    "genuine_outer_required": {
+      "literal": true
+    },
+    "guard_admission": {
+      "literal": null
+    },
+    "host": {
+      "fresh_observation_equals_historical": {
+        "system_version": {
+          "bytes": 603,
+          "path": "/System/Library/CoreServices/SystemVersion.plist",
+          "sha256": "cbf534776ca9200252e5637787e5d4fc26cf527fb354c19bcbac9688341c7a58"
+        },
+        "uname": [
+          "Darwin",
+          "allan.local",
+          "25.5.0",
+          "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+          "arm64"
+        ]
+      }
+    },
+    "normal_acceptance": {
+      "literal": null
+    },
+    "output": {
+      "literal": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s"
+    },
+    "packet": {
+      "literal": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg"
+    },
+    "phase": {
+      "literal": "capture"
+    },
+    "profiles_acceptance": {
+      "literal": null
+    },
+    "schema": {
+      "literal": "ri141-root-preparation-admission-v1"
+    },
+    "source_review": {
+      "fresh_root_FilePin": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+      "must_adopt": {
+        "bytes": 3799,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+        "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+      },
+      "must_bind_new_frozen_acceptance": {
+        "bytes": 3826,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FROZEN_CUSTODY_ACCEPTANCE.json",
+        "sha256": "16b743e2ccbdcc512aa1981a33a6f3e400c76edfbdd3bde615385057e8026fae"
+      },
+      "must_preserve": {
+        "bytes": 1838,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+        "sha256": "a80838225302a4e0862053887601c293c9c747fac4062d0931b6c4b28f4a0345"
+      }
+    },
+    "sources": {
+      "literal": {
+        "DEPENDENCIES.source-only.json": {
+          "bytes": 127567,
+          "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+        },
+        "prepare.py": {
+          "bytes": 45721,
+          "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+        },
+        "runtime_metadata.py": {
+          "bytes": 18728,
+          "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+        }
+      }
+    },
+    "status": {
+      "literal": "AUTHORIZE_ONE_NONSCIENTIFIC_PREPARATION"
+    }
+  },
+  "bounds": {
+    "driver_soft_seconds": 900,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "guard_seconds": 180,
+    "maximum_sample_gap_seconds": 0.1,
+    "profile_seconds": 30,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "snapshot_seconds": 180,
+    "target_poll_seconds": 0.025
+  },
+  "cwd": {
+    "PRE_POST_children": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s",
+    "child_rule": "Unchanged child_run Popen(cwd=out); this phase creates no D/monitor directory.",
+    "outer": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s",
+    "parent_inherits_outer": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "four_null_predecessors": [
+    "baseline_acceptance",
+    "normal_acceptance",
+    "profiles_acceptance",
+    "guard_admission"
+  ],
+  "fresh_inputs_required": [
+    "Root adoption and separate one-operation admission",
+    "Fresh selected direct vendor binding/state, whole supplier/tools/namespaces/absences and genuine host",
+    "Fresh exact environment and all source/history/packet closure",
+    "Fresh whole frozen E tree and all48/124/30 roles",
+    "Output nonexistence and literal disjoint control/output paths",
+    "Genuine initial/terminal tool arguments/results and independent outcome review"
+  ],
+  "frozen_acceptance": {
+    "bytes": 3826,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FROZEN_CUSTODY_ACCEPTANCE.json",
+    "sha256": "16b743e2ccbdcc512aa1981a33a6f3e400c76edfbdd3bde615385057e8026fae"
+  },
+  "future_card_field_count": 17,
+  "no_candidate_interpreter_startup": true,
+  "no_profile_or_guard_rerun": true,
+  "no_science": true,
+  "operationally_usable": false,
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "MKL_NUM_THREADS=1",
+    "NUMEXPR_NUM_THREADS=1",
+    "OMP_NUM_THREADS=1",
+    "OPENBLAS_NUM_THREADS=1",
+    "PATH=/usr/bin:/bin",
+    "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ=UTC",
+    "VECLIB_MAXIMUM_THREADS=1",
+    "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+    "/usr/bin/perl",
+    "-e",
+    "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json"
+  ],
+  "parent_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json"
+  ],
+  "parent_source": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "paths": {
+    "capture_output": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s",
+    "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+    "future_admission": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+    "future_preflight": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+    "future_root_source_adoption": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ROOT_CAPTURE_SOURCE_ADOPTION.json",
+    "proposal_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal",
+    "root_control_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s"
+  },
+  "proposed_exec_command_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json",
+    "login": false,
+    "max_output_tokens": 4000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s",
+    "yield_time_ms": 1000
+  },
+  "prospective_poll_arguments": {
+    "chars": "",
+    "max_output_tokens": 4000,
+    "session_id": "ACTUAL_INITIAL_SESSION_ONLY",
+    "yield_time_ms": 1000
+  },
+  "root_next_action": "Read and independently accept this recipe; retain fresh preflight observations outside E; issue one separate 17-field capture admission only after all checks; invoke this exact unchanged parent once. This proposal issues no admission.",
+  "schema": "ri236-unissued-capture-recipe-v1",
+  "selection": {
+    "bytes": 2296,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/RI236_MEASUREMENT_NEXT_STEP.json",
+    "sha256": "e6b03445523a38038fc3144bd978856b59528f3b94b9410d5b7a222010023933"
+  },
+  "snapshot_child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "--snapshot",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/ADMIT_CAPTURE.json"
+  ],
+  "source_roles": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "PROPOSAL_ONLY_NOT_A_CAPTURE_ADMISSION"
+}

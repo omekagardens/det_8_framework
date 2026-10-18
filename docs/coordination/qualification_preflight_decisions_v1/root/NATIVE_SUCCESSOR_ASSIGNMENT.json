@@ -1,0 +1,36 @@
+{
+  "RET": "paused",
+  "allowed": [
+    "Authenticate and literally read selected preparation/accepted sources and administrative provenance.",
+    "First write exact tool/root selection policy. Execute read-only /usr/bin/otool inspection (-L/-l/architecture headers), /usr/bin/file, /usr/bin/codesign display/verification, /usr/bin/xcrun --find otool if the fixed Apple shim selects a concrete Xcode tool, /usr/bin/sw_vers and uname. Pin tools and resolved tool identities, retain actual args/status/captures. Do not execute Python or any subject.",
+    "Read whole bytes/state and Mach-O headers of exact selected interpreter, framework binary and native extensions from the already selected fixed framework namespace; follow only explicit discovered native load/rpath edges. Resolve @loader_path/@executable_path/@rpath with recorded ordered candidates. Pin every reachable non-system supplier and selected symlink target; no arbitrary user-directory search.",
+    "Use finite bounds: at most256 native objects,depth32,64MiB each file,1GiB total hashed bytes,2MiB output per inspection,15s per read-only tool,300s aggregate tool time. Fail with retained evidence on bounds/missing/ambiguous resolution; do not silently truncate."
+  ],
+  "deliverables": [
+    "State actual architecture roots and overapproximation versus actually imported modules; static load mapping is not a runtime profile. Record missing/weak/lazy/system edges separately.",
+    "Produce complete finite graph and exact non-system supplier identities plus current file/namespace facts. Explicitly identify Apple kernel/loader/shared-cache premises that root must accept; do not infer system trust from path alone or call arbitrary third-party libraries system.",
+    "Cover selected direct Python/framework and relevant extension-module roots. An overapproximation across installed native extensions is acceptable if labeled and finite; unrelated unresolved edges must not be silently credited as actual reachability or irrelevant.",
+    "Explain applicability to the separate measurement vendor preflight without accepting that operation. Do not write another launcher/framework.",
+    "Seal exact artifacts with actual checks/failures and a concrete root closure disposition. Root owns operational admission and later actual outcomes."
+  ],
+  "forbidden": [
+    "No candidate/vendor/target/control imports,AST,compile,probe or execution; no scientific bodies or fixtures.",
+    "No runtime admission,request,freeze,output run namespace,source edits,installations,new agents or Git.",
+    "RI165 external supervision is separately assigned; avoid duplicating it."
+  ],
+  "objective": "Resolve RT02 with a concrete bounded static Mach-O dependency map and exact non-system supplier closure for the selected direct Xcode Python and accepted qualification sources; no target execution.",
+  "owner": "Quantum Relativity task 01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 2324,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/RI163_ROOT_ADJUDICATION.json",
+    "sha256": "746b96126bcd2d0d74514d635d97f6b45072547a9d2a77bc0d61cf4780f8a340"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri164-native-supplier-closure-ddcuy7rz",
+  "schema": "ri164-static-native-supplier-closure-assignment-v1",
+  "source": {
+    "bytes": 13272,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v/HANDOFF.json",
+    "sha256": "ea9df2610f7969b626608866e10f78e597ea00d75e74f539148d86b970e18347"
+  },
+  "status": "ASSIGNED_AFTER_RI163_ROOT_ADJUDICATION"
+}

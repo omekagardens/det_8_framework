@@ -1,0 +1,16 @@
+{
+  "actual_result": {
+    "chunk_id": "3f179d",
+    "exit_code": 0,
+    "original_token_count": 573,
+    "output": "{\n  \"schema\": \"ri220-compact-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE\",\n  \"stage\": \"final6\",\n  \"direct_sources\": 21,\n  \"direct_bytes\": 652815,\n  \"inherited423_manifest_by_reference\": true,\n  \"fresh_inherited423_or_previous_source_collection_replay\": false,\n  \"inherited_boundary_objects_preserved\": 15,\n  \"inherited_analytic_admissions\": \"six plus two plus two by reference unchanged\",\n  \"new_analytic_matches\": 1,\n  \"old_scientific_body_exception_not_reused\": true,\n  \"scientific_body_read_or_JSON_parsed\": false,\n  \"explicit_selected_reference_checks\": 31,\n  \"predecessor_namespace\": 6,\n  \"current_namespace\": 6,\n  \"whole_identity_fresh_rechecks\": 27,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md\",\n      \"bytes\": 8742,\n      \"sha256\": \"ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AUTHOR_VERIFICATION.json\",\n      \"bytes\": 34081,\n      \"sha256\": \"f0947540578925c57c8b0d00c0f684d29c4f8de34f6685b51b007c80f74151cf\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.json\",\n      \"bytes\": 11970,\n      \"sha256\": \"9c68c302451c79729605e1d036b6825a13bf21a4f458f033ae1badd5f78c9d86\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.md\",\n      \"bytes\": 2288,\n      \"sha256\": \"bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md\",\n      \"bytes\": 11045,\n      \"sha256\": \"10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SOURCE_REFERENCES.json\",\n      \"bytes\": 41660,\n      \"sha256\": \"ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6\"\n    }\n  ],\n  \"declared_local_Markdown_targets\": \"all-present\",\n  \"automated_proof_arithmetic\": false,\n  \"subject_execution\": false\n}\n",
+    "wall_time_seconds": 8.417e-06
+  },
+  "arguments": {
+    "cmd": "node -e \"$(cat /private/tmp/ri220_root_metadata.js)\" final6",
+    "max_output_tokens": 3800
+  },
+  "reviewed_checker_source": "/private/tmp/ri220_root_metadata.js",
+  "schema": "ri220-root-metadata-replay-v1",
+  "scope": "Only administrative identity/reference checking; no automatic mathematical proof."
+}

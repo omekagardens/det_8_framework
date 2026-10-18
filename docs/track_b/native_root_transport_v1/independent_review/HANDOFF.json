@@ -1,0 +1,171 @@
+{
+  "RET_paused": true,
+  "active_measurement_reservation_accessed": false,
+  "actual_canonical_allocations_unresolved": true,
+  "actual_checks": [
+    {
+      "chunk_id": "78ec10",
+      "direct_bytes": 846757,
+      "direct_sources": 33,
+      "exit_code": 0,
+      "result": {
+        "bytes": 2454,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/AUTHOR_REPLAY.json",
+        "sha256": "1f097a4176691d22a2c40e8657a9f56d9b91cc85c90d855567dc7f938813a637"
+      },
+      "scope": "Complete reviewed retained final6 metadata checker only",
+      "selected_references": 46,
+      "whole_identities": 39
+    },
+    {
+      "chunk_id": "55e0e3",
+      "exit_code": 0,
+      "predicates": 1335,
+      "result": {
+        "bytes": 16344,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/CHECK_RESULT.json",
+        "sha256": "a3f8bbf00485e7fd30f4987524df591ef633da67c4e466f058218d3913a55597"
+      },
+      "scope": "Separately expressed metadata-only checker",
+      "whole_identities": 39
+    }
+  ],
+  "all_payloads_publishable": true,
+  "author_diagnostics_preserved_in": "READ_RECEIPTS.json",
+  "author_final_provenance": "Root relayed retrieved original full final6 output, original author chunk a7e4b2; distinct from this reviewer own78ec10 replay.",
+  "author_of_subject": false,
+  "automatic_mathematical_arithmetic": false,
+  "blocking_findings": [],
+  "earlier_native_review_authorship_disclosed": true,
+  "external_only_payloads": [],
+  "files": [
+    {
+      "bytes": 2454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/AUTHOR_REPLAY.json",
+      "sha256": "1f097a4176691d22a2c40e8657a9f56d9b91cc85c90d855567dc7f938813a637"
+    },
+    {
+      "bytes": 16344,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/CHECK_RESULT.json",
+      "sha256": "a3f8bbf00485e7fd30f4987524df591ef633da67c4e466f058218d3913a55597"
+    },
+    {
+      "bytes": 1498,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/FINALIZATION_DIAGNOSTIC.json",
+      "sha256": "5523dec25ae1aeb9070b1e65f3a272b40eeb6df674dfcf0cd6598a01d1dc22d3"
+    },
+    {
+      "bytes": 13587,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+      "sha256": "77589094bc0745bcb3ada6b7840b38c60ca33b2b0dfd669a55ed4f7c50c7df91"
+    },
+    {
+      "bytes": 14693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INPUT_REFERENCES.json",
+      "sha256": "1c8ad27c7d005615f8977192950497bd0ec9e8925a7d8510d144e9375d1f4831"
+    },
+    {
+      "bytes": 4765,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/READ_RECEIPTS.json",
+      "sha256": "1f3d6ff60f83eba0c7cfb8886edf303647bcb4e811d864560e6bf621049acb21"
+    },
+    {
+      "bytes": 2161,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/VERDICT.json",
+      "sha256": "8f5a2f4dad6293d576fcf3b112d44b1be6c2408c4577a22871d46a0546d77ea8"
+    },
+    {
+      "bytes": 19719,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/author_metadata_checker.js",
+      "sha256": "87e4cfbae00b806ffc81af72f729fb648ab97777ebfba669df4806c0143012bf"
+    },
+    {
+      "bytes": 8110,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/check_metadata.py",
+      "sha256": "7c53f495f3ce6c9f7d412ef8311a6b4bd04a7d1c5c72c9646f5110ef1e3b0875"
+    }
+  ],
+  "finalization": "Written after complete proof review, both genuine metadata passes, explicit diagnostic preservation and unchanged final subject pins. Handoff hash is reported by the finalization tool, not embedded.",
+  "full_normalized_witness_absent": true,
+  "mathematical_reasoning": "Manual proof and admitted analytic-source review only; metadata counters are not proof arithmetic.",
+  "namespace": [
+    "AUTHOR_REPLAY.json",
+    "CHECK_RESULT.json",
+    "FINALIZATION_DIAGNOSTIC.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "INPUT_REFERENCES.json",
+    "READ_RECEIPTS.json",
+    "VERDICT.json",
+    "author_metadata_checker.js",
+    "check_metadata.py"
+  ],
+  "narrative": {
+    "bytes": 13587,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+    "sha256": "77589094bc0745bcb3ada6b7840b38c60ca33b2b0dfd669a55ed4f7c50c7df91"
+  },
+  "next_question_suggestion": "Prioritize the conditional D2 obstruction using actual j4-j7 connected contrasts and the actual g2-weighted b-squared difference; preserve every zero branch and full R11-R13 if that route does not settle the law. Root alone assigns.",
+  "original_scientific_body_read": false,
+  "own_diagnostics": {
+    "clipped_display": "Inherited rg46b288; relevant passages recovered by8323fe and99b279",
+    "failed_commands": 1,
+    "failed_finalization": "725086 exit1 before HANDOFF; retained FINALIZATION_DIAGNOSTIC.json",
+    "new_proofs_and_checker_untruncated": true
+  },
+  "qualification_credit": 0,
+  "recommendation": "ACCEPT_CONDITIONAL_ACTUAL_ROOT_TRANSPORT_AND_EXACT_TWO_SECTOR_REDUCTION",
+  "remaining_actual_cross_root_problem_open": true,
+  "repository_or_Git_written": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1",
+  "reviewer": "/root/qr_opportunities",
+  "root_owns_adjudication_publication_and_successor": true,
+  "same_root_identity_not_feasibility_or_rank": true,
+  "schema": "ri233-independent-root-transport-review-handoff-v1",
+  "scientific_JSON_decoded": false,
+  "status": "SEALED_INDEPENDENT_CONDITIONAL_PROOF_REVIEW",
+  "subject": {
+    "bytes": 18397,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+    "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+  },
+  "subject_execution": false,
+  "subject_payloads": [
+    {
+      "bytes": 39812,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/AUTHOR_VERIFICATION.json",
+      "sha256": "829c58f7fc8781290d4f86a6818a0c8bca9e8b631c2c9714335035fd0f5430e5"
+    },
+    {
+      "bytes": 18397,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+      "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+    },
+    {
+      "bytes": 2099,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.md",
+      "sha256": "4a8ab82be95fdb00f0e450f9168a04da468b4b48a7d29de598f020d54a5ec115"
+    },
+    {
+      "bytes": 8137,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/OFFSET_ELIMINATION.md",
+      "sha256": "cfd7c78c78fd39f9abef2873cae50fd8b903251da52ef3d1eafd99dca95b8efc"
+    },
+    {
+      "bytes": 14353,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/ROOT_TRANSPORT.md",
+      "sha256": "587b4033d350c6022b5a5ffcd990e2d1a8f5a073f02249d1c18e5bab75812440"
+    },
+    {
+      "bytes": 67263,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/SOURCE_REFERENCES.json",
+      "sha256": "836331259f615b9003f4d56d5d6eb34de5deb4037b2d155473ff1ea13b4d6a01"
+    }
+  ],
+  "successor_assigned": false,
+  "verdict": {
+    "bytes": 2161,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/VERDICT.json",
+    "sha256": "8f5a2f4dad6293d576fcf3b112d44b1be6c2408c4577a22871d46a0546d77ea8"
+  }
+}

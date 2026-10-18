@@ -1,0 +1,69 @@
+{
+  "RET_paused": true,
+  "all_tails_pass": true,
+  "complete_tails": 6,
+  "empty_directories": 2,
+  "genuine_tools": {
+    "bytes": 1151,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_GENUINE_PREPARATION_TOOLS.json",
+    "sha256": "856c6fbbea46943f0f2ad5668573d65e4a1b59c77978f0e16537a0fe4e319a17"
+  },
+  "independent_check": {
+    "bytes": 7394,
+    "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/CHECK.json",
+    "sha256": "6e7cc977069d8284b27db18827fcc6d043af82c52b769d6eee62f49b7f1f056e"
+  },
+  "independent_handoff": {
+    "bytes": 4888,
+    "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/HANDOFF.json",
+    "sha256": "dc63d2c79678444d242ee8a0d26c6dcc39a52959d87a26dbb89cb02e52e1aa23"
+  },
+  "independent_identities": 2868,
+  "independent_predicates": 392636,
+  "independent_review": {
+    "bytes": 14260,
+    "path": "/private/tmp/ri244-independent-preparation-outcome-1jqvs3cx/REVIEW.md",
+    "sha256": "80ceafb210ed7937de6f1781c454e85fd1fa56a24c69f452be633910df861c52"
+  },
+  "invocation_context": {
+    "bytes": 1006,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_INVOCATION_CONTEXT.json",
+    "sha256": "b0ace1fc83948b62c965600eae414523d49209b15d9e1e6042062c68e68f0e8b"
+  },
+  "next_recipe": {
+    "bytes": 4066,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_NEXT_PREMODE_RECIPE_V2.md",
+    "sha256": "0d9a2fc82806072f5d3b67f346c91bba842aa9f9eac2b03c4f309c3175a0ff1a"
+  },
+  "operational_authorization": false,
+  "outputs": 8,
+  "pre_mode_executed": false,
+  "preflight_fields": 15,
+  "recipe_sequence_correction": {
+    "bytes": 770,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_RECIPE_SEQUENCE_CORRECTION.json",
+    "sha256": "46c82a82a8df3dcfcbbdad4e37a32c8e1ad0943792de66f822e8c8822b0ae848"
+  },
+  "requires_fresh_predispatch_and_separate_12_field_admission": true,
+  "retained_report_typo": "Independent REVIEW.md says16 preflight fields; actual source/object/CHECK agree15. Root f27761 confirms exact whole keyset. Report retained byte-for-byte; count typo grants no acceptance to a different schema.",
+  "reviewer_failure_preserved": "852e07/session48454 to0d2c1f exit1: output-order comparison; corrected eacac0/session68297 to c7f63c exit0 compares complete unique rows bypath only. Full diff independently confirmed.",
+  "root_check": {
+    "bytes": 6647,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_ROOT_PREPARATION_CHECK.json",
+    "sha256": "0f65554fce43c28e57bc55953f2644a4c01a68245e49cf82e5aee3d4637302c5"
+  },
+  "root_full_review_reads": [
+    "0b4f10",
+    "fe07fa",
+    "acc8b1"
+  ],
+  "schema": "ri247-root-preparation-outcome-adjudication-v1",
+  "scientific_qualification": false,
+  "source_acceptance": {
+    "bytes": 2097,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_SOURCE_ADJUDICATION.json",
+    "sha256": "66eb0e5a33d7e8079ebc6d7a8f0b5190f809d83a21a3428ed11d64e7a2a7dde0"
+  },
+  "status": "ACCEPT_UNISSUED_PREPARATION_ONLY",
+  "whole_input_identities": 2854
+}

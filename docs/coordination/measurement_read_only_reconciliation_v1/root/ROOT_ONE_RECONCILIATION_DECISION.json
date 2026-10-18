@@ -1,0 +1,162 @@
+{
+  "E_read_only": true,
+  "RET_paused": true,
+  "accepted_preparation": {
+    "bytes": 8585,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ACTUAL_PREPARATION_ACCEPTANCE.json",
+    "sha256": "28d04703c3ce81c952c1ba34a2b2c4cd5021a4411c76fa0fd5871722a1a26fd8"
+  },
+  "administrative_interpreter": {
+    "bytes": 52640,
+    "path": "/opt/homebrew/bin/python3",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+    "sha256": "b7e73dc9ef199f3046efd77d870fed331832ece0c3b33192595cdd4a81f8ef86",
+    "state": [
+      16777232,
+      164279807,
+      33261,
+      1,
+      52640,
+      1761680117240555558,
+      1761680117240640475
+    ],
+    "symlink_chain": [
+      {
+        "path": "/opt/homebrew/bin/python3",
+        "target": "../Cellar/python@3.14/3.14.0_1/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/bin/python3",
+        "target": "../Frameworks/Python.framework/Versions/3.14/bin/python3"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.0_1/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "target": "python3.14"
+      }
+    ]
+  },
+  "admission_fields": {
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "genuine_outer_required": true,
+    "limits": {
+      "file_bytes": 67108864,
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "output": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b",
+    "preflight": {
+      "bytes": 2076,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_PREFLIGHT.json",
+      "sha256": "dc26c52ef762f36697c339d881643f4aa1b0ae309d21f0e12bc1c56e64907376"
+    },
+    "schema": "ri226-root-read-only-reconciliation-admission-v1",
+    "source_manifest": {
+      "bytes": 1412,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+      "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+    },
+    "source_review": {
+      "bytes": 2289,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+      "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+    },
+    "status": "AUTHORIZE_ONE_READ_ONLY_RECONCILIATION"
+  },
+  "dispatch_fields_without_admission": {
+    "actual_execution_not_yet_started": true,
+    "bootstrap": {
+      "bytes": 2454,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py",
+      "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba"
+    },
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b",
+    "external_timeout_seconds": 960,
+    "login": false,
+    "monitor_source": {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "outer_argv": [
+      "/usr/bin/env",
+      "-i",
+      "LC_ALL=C",
+      "MKL_NUM_THREADS=1",
+      "NUMEXPR_NUM_THREADS=1",
+      "OMP_NUM_THREADS=1",
+      "OPENBLAS_NUM_THREADS=1",
+      "PATH=/usr/bin:/bin",
+      "TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/tmp",
+      "TZ=UTC",
+      "VECLIB_MAXIMUM_THREADS=1",
+      "__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0",
+      "/usr/bin/perl",
+      "-e",
+      "$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;",
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py"
+    ],
+    "shell_command": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILE_BOOTSTRAP.py",
+    "single_attempt": true
+  },
+  "fresh_current_custody": {
+    "bytes": 6610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FRESH_PREDISPATCH_CHECK.json",
+    "sha256": "8b87fe6e1df34404a5cb138c106fed7d2e7b87c59132c49a17e432c2a125cbb7"
+  },
+  "genuine_current_host": {
+    "bytes": 1504,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_PREDISPATCH_HOST.json",
+    "sha256": "4dc65421904298b970cdf19152a4af750f5f6d0885782168b923c4ddaccaabb6"
+  },
+  "independent_postreview_required": true,
+  "independent_predispatch_review": {
+    "bytes": 1134,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/PREDISPATCH_PEER_CLEARANCE.json",
+    "sha256": "b1ed761c84384517afc42ad47bdd9fb73677bcdf89b3ce7de18561f4653cb1c1"
+  },
+  "issuer": {
+    "bytes": 3693,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/issue_controls.py",
+    "sha256": "32bcd7eeaef94b74d8bb51ba8f2550c4d36ae65a65f89e929f2f4902dcb29800"
+  },
+  "mode_admission": false,
+  "one_attempt_no_retry": true,
+  "original_failure_remains_refused": true,
+  "original_limits_unchanged": true,
+  "premises": [
+    "Stable host and declared supplier selections during observed intervals",
+    "Apple loader/cache/kernel and prior runtime applicability remain explicit conditional premises",
+    "No descendants; sampled sole-child RSS is not continuous whole-process-group accounting",
+    "Historical preparation records are immutable; this decision uses fresh current identity and genuine host rechecks"
+  ],
+  "proposal": {
+    "bytes": 4283,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/RECONCILIATION_PROPOSAL.json",
+    "sha256": "cc1099ec42c1b2fb876348f8a4cec5acd6d3832edbae4eeff66207ea1a237f07"
+  },
+  "schema": "ri234-root-one-read-only-operation-decision-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "status": "AUTHORIZE_ONE_RI226_READ_ONLY_RECONCILIATION"
+}

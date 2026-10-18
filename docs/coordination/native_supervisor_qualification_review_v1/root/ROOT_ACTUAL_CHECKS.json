@@ -1,0 +1,95 @@
+{
+  "checks": [
+    {
+      "description": "Fresh repository entry and complete RI171 source authentication; external root/reviewer reservations.",
+      "exit_code": 0,
+      "receipt": "9405e1"
+    },
+    {
+      "description": "Actual fresh source/vendor/namespace/host/tools preflight and one-copy administrative admission; no subject invocation.",
+      "exit_code": 0,
+      "receipt": "20095d"
+    },
+    {
+      "description": "One genuine admitted metadata copy; completed in initial exec tool call with empty output.",
+      "exit_code": 0,
+      "receipt": "d49fc5"
+    },
+    {
+      "description": "Independent complete copy/monitor/tail/namespace/custody replay, including final COMPLETE after exit.",
+      "exit_code": 0,
+      "receipt": "b5cc2b"
+    },
+    {
+      "description": "Fresh independent RI173308-identity reconciliation,300 dependencies,3175+142 typed references; no formula evaluation.",
+      "exit_code": 0,
+      "receipt": "b9ca1e"
+    },
+    {
+      "description": "Sealed RI171 review/source authentication,63 fresh identities and source-only root rejection.",
+      "exit_code": 0,
+      "receipt": "e59d97"
+    },
+    {
+      "description": "Whole literal accepted RI122 final administrative decision read for narrow RI175 mathematical-premise scope.",
+      "exit_code": 0,
+      "receipt": "002247"
+    },
+    {
+      "description": "Authenticated historical final decision and recorded narrow literal-read scope without operational traversal.",
+      "exit_code": 0,
+      "receipt": "041408"
+    }
+  ],
+  "diagnostics": [
+    {
+      "description": "Successful bindings source read followed by nonexistent optional INTERFACE_PROPOSALS lookup; no operational effect.",
+      "exit_code": 1,
+      "receipt": "1e121a"
+    },
+    {
+      "description": "Successful prior tail-checker read followed by wrong monitor filename lookup; recovered actual COPY.COMPLETION in f8a894.",
+      "exit_code": 1,
+      "receipt": "3b64c3"
+    },
+    {
+      "description": "Unmatched source glob; recovered exact primary paths from pinned dependency manifest in a28f38.",
+      "exit_code": 1,
+      "receipt": "8d8dcf"
+    },
+    {
+      "description": "Reviewer seal not yet written during read-only lookup; final sealed handoff read in00ec62 and authenticated e59d97.",
+      "exit_code": 1,
+      "receipt": "8a8ee5"
+    },
+    {
+      "description": "Overlong combined source displays clipped; bounded mathematical manuscript/primary recoveries a576ed,db0961,d89097. No clipped display credited as complete.",
+      "receipts": [
+        "4aa32a",
+        "a62f27"
+      ]
+    }
+  ],
+  "independent_ri171": {
+    "cases_executed": 0,
+    "metadata": {
+      "exit_code": 0,
+      "identities": 55,
+      "predicates": 3525,
+      "receipt": "59ddad"
+    },
+    "seal": {
+      "exit_code": 0,
+      "receipt": "79ca16"
+    },
+    "verification": {
+      "exit_code": 0,
+      "receipt": "1f20b3"
+    }
+  },
+  "metadata_copy_executed": true,
+  "native_control_execution": false,
+  "ret_paused": true,
+  "schema": "ri174-actual-root-checks-v1",
+  "scientific_execution": false
+}

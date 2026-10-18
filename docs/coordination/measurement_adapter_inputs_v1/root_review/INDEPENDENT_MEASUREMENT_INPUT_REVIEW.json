@@ -1,0 +1,65 @@
+{
+  "actionable_findings": [],
+  "actual_check": {
+    "chunk_id": "f89c98",
+    "exit_code": 0
+  },
+  "actual_reads": [
+    {
+      "chunk_id": "f8577d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "92ae11",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e9df02",
+      "exit_code": 0
+    }
+  ],
+  "authorship": "Reviewer authored earlier RI154 review and inherited RI130/141 sources, not these root-issued records. New check verifies faithful use of previously accepted evidence; it does not newly accept the prior source semantics.",
+  "coverage": {
+    "identity_parts": [
+      "bytes",
+      "sha256",
+      "literal resolution",
+      "link absence",
+      "seven state fields"
+    ],
+    "namespace_directories_including_root": 9,
+    "namespace_files": 48,
+    "reconciliation_fields": 17,
+    "request_fields": 3,
+    "root_decision_keys": 5,
+    "sidecar_refs": 5,
+    "source_decision_fields": 8,
+    "whole_identities": 142
+  },
+  "diagnostics": "All three collector versions and both diagnostics read. V1 to V2 changes only malformed RI154 digest; V2 to V3 adds only explicit root directory. Failures precede first issuance. Thresholds unchanged. Digest omission originated in reviewer earlier final-message transcription, not source evidence.",
+  "files_changed_by_reviewer": false,
+  "fresh_operational_vendor_host_custody": false,
+  "new_adapter_execution": false,
+  "remaining": "Separate admission and fresh custody are required before adapter operation. Root accepts candidates only after full independent field review.",
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri202-independent-measurement-input-review-v1",
+  "scientific_decoding": false,
+  "status": "ACCEPT_EXACT_INPUT_BINDINGS_ONLY",
+  "subjects": [
+    {
+      "bytes": 18097,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+      "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+    },
+    {
+      "bytes": 3021,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+      "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+    },
+    {
+      "bytes": 89867,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+      "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+    }
+  ]
+}

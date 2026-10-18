@@ -1,0 +1,70 @@
+{
+  "actual_checker_chunk": "6ffbe1",
+  "actual_checker_exit": 0,
+  "admission_or_E_mutation": false,
+  "checks": 14441,
+  "distinct_identities": 864,
+  "files": [
+    {
+      "bytes": 2902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/ACTUAL_REVIEW_RECEIPTS.json",
+      "sha256": "502982d256e1458998a9ea65a7653d7687cc0a52e3647ba95a2e14e105dfb2e6"
+    },
+    {
+      "bytes": 327,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK.log",
+      "sha256": "0ff0e411499b236f665af27d1fab7a66d6badbcc86b5a9e80e428878af850ec4"
+    },
+    {
+      "bytes": 500356,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK_RESULT.json",
+      "sha256": "293093d9ba79da5eaa61d7774d063447601672e517737cae9d257dd112a21a84"
+    },
+    {
+      "bytes": 10063,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/INDEPENDENT_REVIEW.md",
+      "sha256": "4c00195ebe424ee78eada4bf9cbc5fbc50b928a083cb15ca31620c9244fb1362"
+    },
+    {
+      "bytes": 2466,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/VERDICT.json",
+      "sha256": "b509ef8f8f5d70366e63cfb20ad936274fc69ea2fa99effdb1a5c16a1c4afae9"
+    },
+    {
+      "bytes": 11343,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/check_metadata.py",
+      "sha256": "629d9c028ec9a180884498301c27ff75c04a14cf71230d7574f3f4e720388991"
+    }
+  ],
+  "namespace": [
+    "ACTUAL_REVIEW_RECEIPTS.json",
+    "CHECK.log",
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "narrative": {
+    "bytes": 10063,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/INDEPENDENT_REVIEW.md",
+    "sha256": "4c00195ebe424ee78eada4bf9cbc5fbc50b928a083cb15ca31620c9244fb1362"
+  },
+  "repo_git": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74",
+  "schema": "ri218-independent-source-review-handoff-v1",
+  "scientific_decode": false,
+  "status": "SEALED_NONAUTHOR_SOURCE_ONLY_RECOMMENDATION",
+  "subject_execution": false,
+  "subject_handoff": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  },
+  "verdict": {
+    "bytes": 2466,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/VERDICT.json",
+    "sha256": "b509ef8f8f5d70366e63cfb20ad936274fc69ea2fa99effdb1a5c16a1c4afae9"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "RET": "paused",
+  "actual_grid_result": null,
+  "constraints": [
+    "Source-only text and bounded administrative opaque identity checks in this reservation. No imports, compilation, AST, probes or execution of subjects/controls/caller, no fixture creation or qualification runs. Separate administrative pin-check scripts may run.",
+    "No actual certificate-body decode, numerical/scientific engines, global graph enumeration, protected-file mutation, source pin edits, repo/index/Git writes or new agents.",
+    "Do not weaken the original bounds, exact-type/refusal requirements or complete109-vector checks. Preserve historical evidence and QP01-QP04.",
+    "Actual source/control review and qualification execution are distinct; root owns admission and independent outcomes adjudication. QP04 actual fixed certificate producer/auditor execution remains separate."
+  ],
+  "deliverables": [
+    "Smallest bounded executable synthetic qualification harness and concrete caller source addressing QP01-QP03; keep accepted producer/auditor bytes unchanged.",
+    "Expand every Q01-Q35/R01-R16/P01-P12 family into explicit cases and coverage metadata, preserving both109-index sweeps and normal/optimized scope. Supply independent complete expected outputs and isolated per-implementation exact refusal expectations; do not use producer agreement as oracle.",
+    "Explicit close-only, primary-plus-close, primary-plus-postcheck with every later eligible attempt, no-result-baseline, short-write/flush and failed diagnostic-persistence controls. Distinguish expected subject refusal from harness or capture failure.",
+    "Concrete caller contract for exact source/interpreter binding, bounded execution, exclusive stdout/stderr/receipt capture and genuine completion/partial-output failure disposition. It must be practical to admit after source review; do not create runtime inventories/cards or depend silently on a historical admission.",
+    "Document synthetic fixed-input substitution isolation without changing protected originals or production pins, every resource bound, all executable dependencies, exact result contracts, intended future commands and remaining QP04 actual-input gate.",
+    "Seal complete source namespace and whole byte pins, actual administrative outcomes and all failed diagnostics; return for fresh source/control review."
+  ],
+  "independent_review": {
+    "bytes": 6943,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/HANDOFF.json",
+    "sha256": "4f25fd23d0c772e86c16335b74b34670a15245c56c765d1a0947fd81401949f5"
+  },
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor_adjudication": {
+    "bytes": 3815,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/RI159_ROOT_ADJUDICATION.json",
+    "sha256": "f79a3b087a009a17088d695866b1f7998f48992b539bb74d8657dc7721b67bce"
+  },
+  "qualification_families": {
+    "bytes": 12739,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/QUALIFICATION_CASES.md",
+    "sha256": "f310f60f62e868c9ca56f1b92d366961a12d990005d12d65f84e0d7bb89104fb"
+  },
+  "qualification_prerequisites": [
+    {
+      "id": "QP01",
+      "requirement": "Review and admit an actual bounded harness/caller; pin source/interpreter; preserve exclusive captures and genuine completion/partial stdout/stderr; no protected original or production pin mutation."
+    },
+    {
+      "id": "QP02",
+      "requirement": "Expand all declared Q/R/P families with independent full expected outputs and exact isolated per-implementation first refusal semantics; preserve109-index coverage and normal/optimized scope."
+    },
+    {
+      "id": "QP03",
+      "requirement": "Concretely test close-only, primary-plus-close, primary-plus-postcheck/all-later-attempt, no-result-baseline, short-write/flush and failed diagnostic persistence paths. Current case labels alone do not qualify them."
+    },
+    {
+      "id": "QP04",
+      "requirement": "After qualification and independent outcomes review, separately admit the actual fixed-certificate producer/auditor run with full result/receipt/current-source and genuine caller custody."
+    }
+  ],
+  "question": "Can the exact accepted producer and independent auditor satisfy meaningful complete synthetic qualification before a separately admitted actual109-vector grid audit?",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg",
+  "reviewed_contract": {
+    "bytes": 12488,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONTRACT.md",
+    "sha256": "36ba8fc9eb32a4070675c1743b69a4db026ee5739407436a5a5039edaab0e39f"
+  },
+  "schema": "ri161-grid-qualification-source-assignment-v1",
+  "status": "ASSIGNED_AFTER_RI159_ROOT_SOURCE_ACCEPTANCE",
+  "subject": {
+    "bytes": 8831,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+    "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "author_final_receipt": {
+    "chunk_id": "15a0ba",
+    "exit_code": 0,
+    "origin": "parent-forwarded, not this reviewer replay"
+  },
+  "coverage": "Complete manuscripts, author record including literal checker, references, assignment, both admissions and all eight admitted analytic texts.",
+  "disposition": "ACCEPT_CONDITIONAL_REDUCTION_ONLY",
+  "inherited423": "metadata reference only",
+  "mathematics": [
+    "Complete margin rescaling, strict B3 bound, closed sufficient strip and strict endpoint exclusions are correct.",
+    "Kh=A follows from both original harmonic rows with multiplicity three. Complete-row bounds imply A>59c0/12000>0. Existing finite seed excludes K=0.",
+    "Both sign branches and the stronger sufficient negative-branch comparisons are correct; the native sign and remaining comparison are not established."
+  ],
+  "own_receipts": [
+    {
+      "chunk_id": "b121f9",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "876a4d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "351d4e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "77c335",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0a1654",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2d2ae8",
+      "exit_code": 0
+    }
+  ],
+  "qualification_credit": 0,
+  "reviewer": "/root/qr_opportunities",
+  "schema": "ri215-recorded-independent-review-v1",
+  "subject": {
+    "bytes": 8390,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.json",
+    "sha256": "76b6e1d543d3ea39acedbb3561c102887c8879cf145a824bf54a8a419de4c71c"
+  },
+  "subject_execution": false,
+  "writes": false
+}

@@ -1,0 +1,105 @@
+{
+  "actual_check": {
+    "checks": 66729,
+    "chunk_id": "8d2b86",
+    "exit_code": 0,
+    "opaque_files": 982,
+    "report": {
+      "bytes": 3299297,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/CHECK_RESULT.json",
+      "sha256": "9ee915d5b59dd87f8fb7912e244416d548fee8d16c72dec5aa9e633dac37be9c"
+    }
+  },
+  "checker_authoring": [
+    {
+      "chunk_id": "f24dc2",
+      "exit_code": 0,
+      "scope": "Create independent metadata-only checker in own reservation."
+    },
+    {
+      "chunk_id": "dc85f5",
+      "exit_code": 0,
+      "scope": "Simplify unused dead conditional before first and only checker execution."
+    }
+  ],
+  "checker_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/check_metadata.py",
+  "checker_source": {
+    "bytes": 11738,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/check_metadata.py",
+    "sha256": "b5ca5375d5aa76cb6bb0ef48873bba9b0f948741abb4de89050c00202fb3d15b"
+  },
+  "diagnostics": [
+    "Combined five-module/protocol display exceeded aggregate output budget; checker129\u2013174 recovered76d569 and entire protocol recoveredf91f6c/4366d2.",
+    "061c99 displayed administrative summaries plus excessive historical group detail; output truncated. Complete admin source/receipts visible; exact group/role closures separately checked by8d2b86 and compact roles recovered3138f3."
+  ],
+  "external_author_checker": {
+    "chunk_id": "4b1a56",
+    "exit_code": 0,
+    "printed_predicates": 4065,
+    "qualification_credit": 0,
+    "serialized_predicates": 4064
+  },
+  "failed_checker_attempts": [],
+  "schema": "ri226-independent-source-review-receipts-v1",
+  "scientific_decode": false,
+  "source_only": true,
+  "source_reads": [
+    {
+      "chunk_id": "bd1570",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7b1ca7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "405734",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "83b7b1",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "76d569",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f91f6c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "061c99",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "3138f3",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4366d2",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c5c760",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4d4f99",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9cb787",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c41867",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "8608b4",
+      "exit_code": 0
+    }
+  ],
+  "subject_execution": false
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "ri201-native-two-maxima-handoff-v1",
+  "status": "COMPLETE_TWO_MAXIMA_CLASS_THEOREM_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI201_NATIVE_ASSIGNMENT.json",
+    "bytes": 2185,
+    "sha256": "6e7a3bf1f3ed9b0bfd98de63c0a8401f49065b9a371177f1f2cdc49386efb1c6"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI199_ROOT_ADJUDICATION.json",
+    "bytes": 1957,
+    "sha256": "3970c35bab896a25caa2bb58120233c3f12c798994bc82a4f571216be8813e59"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_REFERENCES.json",
+    "TWO_MAXIMA.md"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/AUTHOR_VERIFICATION.json",
+      "bytes": 43264,
+      "sha256": "5f7e1a596aa1b8e2520216244e522cd47b3688590348cb771b4e35730e4d03e8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/HANDOFF.md",
+      "bytes": 2244,
+      "sha256": "0c98796c50172c3e528eb266687cbe5d5bb62a4989d38707279ea14159d126f3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/SOURCE_REFERENCES.json",
+      "bytes": 30165,
+      "sha256": "00e8c0ee6d008f32e0599830af75c9d0f23c1f73eae5de0b554f099ff188a48f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri201-native-two-maxima-09928c97/TWO_MAXIMA.md",
+      "bytes": 12913,
+      "sha256": "64b69b40b72d4c0b3f44a9198f65e5dabd2ee0e0ea4b36622f3340cfd7f53fb0"
+    }
+  ],
+  "result": "Every marked six-event parent with exactly two maxima has U6<681472/9<76000<T, conditional on the explicitly inherited finite native-prefix theorems. The assigned complete centered cross-moment is strictly below T-1.",
+  "proof_steps": [
+    "All four-event bases, compatible precursor ideals covering the base, all records and all base ideals including full R are retained.",
+    "Complete deletion normalization independently yields U6=2-x-y+C=1+sum B*(a-1)*(b-1), with 0<x,y<1.",
+    "Ordinary marked diamonds transport both ratios into one five-event row, preserving shared canonical components and all correction terms.",
+    "The inherited RI41 all-four-parent ideal floor epsilon4=9/681472 gives C<=x*y/epsilon4. Convex bilinear interpolation over all four vertices gives U6<1/epsilon4.",
+    "The inherited RI41 height theorem forces q(A4,empty)>1/2. The native A5 empty-slot potential with multiplicities5,10,10,5,1 gives M5>(3/4)^5*11^10>10^9 without evaluating the maximum.",
+    "The unchanged theta=1/[72(1+M5)] and accepted RI199 inequality imply T>10^9; 681472/9<76000<T."
+  ],
+  "inherited_finite_premises": {
+    "RI41": "Published accepted uniform height theorem and all-ideal probability minimum, not freshly verified.",
+    "RI199": "Accepted same-law target inequality and global-bound sufficiency.",
+    "native_law": "Complete marked positivity, normalization, locality, diamonds and fixed canonical strict mixture.",
+    "scope_clarification": "Both explicit incoming root premise-clarification messages retained in SOURCE_REFERENCES.json; no scientific-body permission added."
+  },
+  "manual_analysis_only": true,
+  "complete_two_maxima_bound_proved": true,
+  "global_M6_bound_proved": false,
+  "concrete_violating_parent_proved": false,
+  "actual_W_decided": false,
+  "both_individual_margins_or_H30_proved": false,
+  "printed_numerical_M5_used": false,
+  "new_scientific_body_or_vector_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "remaining": "Three-through-six-maxima parents remain outside this theorem. Consequently the global M6 comparison and actual W remain undecided. No successor is assigned here.",
+  "provenance_scope": {
+    "selected_direct_sources": 18,
+    "selected_direct_bytes": 617021,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh423_or_previous26_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "full_previous_packet_namespace": 5
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "c1dddd",
+      "exit_code": 0,
+      "whole_identity_fresh_rechecks": 21,
+      "explicit_selected_references": 21
+    },
+    "author_record": {
+      "chunk_id": "72c4b0",
+      "exit_code": 0
+    },
+    "failed_preseal_history": [
+      "ba0104: manifest sort-order comparison, corrected",
+      "50c388: reference-object key insertion order, corrected with exact per-field comparison"
+    ],
+    "failures_preserved_in_author_record": true
+  },
+  "final_check_policy": "Run the retained administrative checker in final5 mode after creating this handoff. Report its actual receipt and this handoff's identity externally; no self-hash or future success is claimed here.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Return the sealed five-file packet to root for independent adjudication. Root owns acceptance, Git/publication and successor selection. No scientific run, fixture/runtime/card, new agent/thread or RET continuation."
+}

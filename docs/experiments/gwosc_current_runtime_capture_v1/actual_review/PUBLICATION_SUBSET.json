@@ -1,0 +1,103 @@
+{
+  "compact_review_files": [
+    {
+      "bytes": 18478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/INDEPENDENT_CAPTURE_REVIEW.md",
+      "sha256": "ede39c96fb67e43ed4a1bbbb9c1162227606ee326b8f676aaaf79b16709fbfee"
+    },
+    {
+      "bytes": 2737,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/VERDICT.json",
+      "sha256": "ddba69dde696fefe2b212cb87f451f3025b88b27a629b0c5a999db96c34cfaf2"
+    },
+    {
+      "bytes": 4928,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CHECK_SUMMARY.json",
+      "sha256": "f95d62cd1c99bfc250fce415a56169a5f8754205d7d7e1e877d7301c0c26b9c0"
+    },
+    {
+      "bytes": 738,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/HISTORICAL_SELECTION_COMPARISON.json",
+      "sha256": "c44655859ea88475445bb8799bb96af4048e8716aaf005620b99a880830a0029"
+    },
+    {
+      "bytes": 3848,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "e4e2387a61a8594288d2524924c6a4c8b457658835f7d5a6b412b47e447d9291"
+    },
+    {
+      "bytes": 3552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FINAL_INPUT_CUSTODY.json",
+      "sha256": "b886334aba7943178b023d5421ed4288562449b9eeab9ff6d2592d295063668b"
+    },
+    {
+      "bytes": 26391,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.py",
+      "sha256": "5b4d7a3980e637b109da586d69e2070e758c9763c88eb9c972dfcbd0cf1c2d26"
+    }
+  ],
+  "existing_external_bulk_operands_and_diagnostics": [
+    {
+      "bytes": 19006185,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CAPTURE_CHECKS.json",
+      "sha256": "d851832efa34d5c02a167cc211abf977ac799e2df2eea66f33fd1eea58afde36"
+    },
+    {
+      "bytes": 10607296,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FAILED_CHECK_01.json",
+      "sha256": "14939706049e9e8dbf09dba4885a5f27582b371d6985a0b8230d2966b2483c5d"
+    },
+    {
+      "bytes": 26380,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.before-set-representation-fix.py",
+      "sha256": "3edbe7b2a5613169e2acdd158d3680644a56cb3b7a43d03996d1ddd86777464c"
+    },
+    {
+      "bytes": 6362349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RUNTIME_POST_IDENTITIES.json",
+      "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+    },
+    {
+      "bytes": 277180,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/SOURCE_PRE.json",
+      "sha256": "a22eb8d4dd4a48db35e6f7cfab557f17c7ea11a3e602251bfa6b7a72c4adfd79"
+    },
+    {
+      "bytes": 275914,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/SOURCE_POST.json",
+      "sha256": "62e470e1c3e0c701986d311af2405644f4b936dbd430ae27adb32cf22b53533d"
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 1690931,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_PRE.json",
+      "sha256": "f4ad1b1364d073430cad97d245cc230442b8df11cba9c3b21c3582d5842e21fb"
+    },
+    {
+      "bytes": 1690931,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_POST.json",
+      "sha256": "f4ad1b1364d073430cad97d245cc230442b8df11cba9c3b21c3582d5842e21fb"
+    },
+    {
+      "bytes": 2806092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/RUNTIME_INVENTORY.candidate.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    {
+      "bytes": 3820963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/FILE_SELECTION_METADATA.candidate.json",
+      "sha256": "23211b59946b46e5c6f051b04d67bf5f8ed178ec9f27a30371887077ae86ea74"
+    }
+  ],
+  "note": "Compact reviewer subset only. Root may separately publish full actual snapshots/operation/vendor observations. Existing large logs, failed attempt and historic metadata stay pinned; no runtime referent or archive duplication performed here. Add this subset index and HANDOFF for closure.",
+  "schema": "ri146-independent-capture-review-publication-subset-v1"
+}

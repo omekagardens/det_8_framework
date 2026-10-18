@@ -1,0 +1,85 @@
+{
+  "actual_administrative_check": {
+    "bytes": 585802,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "dddae983c995cfc6b8d52d8e9650319755136303de0864c92e621b9c281ad55f"
+  },
+  "full_deltas": [
+    {
+      "bytes": 25118,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/RECONCILER_DIFF.patch",
+      "sha256": "1d5340391a9a1beab2b410a71aa89056346b886dc0105beb9674e356f8f7da4e"
+    },
+    {
+      "bytes": 31950,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/CHECKER_DIFF.patch",
+      "sha256": "42e86c2facab03104ecd213455b15c2066915cc7e6e9bcb111f646b62e37a5f0"
+    }
+  ],
+  "functional_changes": [
+    "Remove every E write operation; confine generic output writer to O.",
+    "Replace wrong link invariance with exact pinned historical transition plus all-field read-only current-tree equality.",
+    "Authenticate and completely reconcile original failure/outputs/tails/role selections as mandatory retained evidence.",
+    "Require new failure-aware root source disposition and distinct read-only admission/preflight/statuses.",
+    "Revalidate entire old failure custody in independent source tail and retain full value.",
+    "Carry old failure/status/postflight/E_read_only in new attempt and completion.",
+    "Saved checker independently reconstructs whole new and retained records without loading either subject."
+  ],
+  "no_inverse_projection_of_new_recovery_to_an_installer_claimed": true,
+  "predecessors": [
+    {
+      "bytes": 19894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+      "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+    },
+    {
+      "bytes": 22817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+      "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+    }
+  ],
+  "schema": "ri226-complete-source-correspondence-v1",
+  "successors": [
+    {
+      "bytes": 25970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/reconcile_freeze.py",
+      "sha256": "b176f460e0621410d9ee5b8ef02904ae84ec51c6cc686dfe58f05da4880bd9c0"
+    },
+    {
+      "bytes": 29958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/check_reconciliation.py",
+      "sha256": "de1633c2ea59157feb3d51c00c777d8eddf69328bdf5b38a88654e3f6adef2ee"
+    }
+  ],
+  "unchanged": [
+    "all limits, source/input/current identity requirements, original candidate, E and mode boundaries",
+    "byte equality, canonical JSON comparator, initial/final clock handlers and earliest error",
+    "eight independent tails and no-retry exclusive outputs",
+    "whole RI141 monitor and genuine outer origin premise",
+    "complete48/124/30 source role and nine-field frozen contract"
+  ],
+  "unchanged_checker_function_spans": [
+    "check",
+    "eq",
+    "fields",
+    "load",
+    "selection",
+    "state",
+    "full_tree"
+  ],
+  "unchanged_primary_function_spans": [
+    "need",
+    "same",
+    "keys",
+    "st",
+    "literal",
+    "read",
+    "parse",
+    "load",
+    "error",
+    "save",
+    "tree",
+    "source_states",
+    "frozen"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "RET_remains_paused": true,
+  "controls_executed": 0,
+  "findings": [
+    {
+      "cause": "run observes source_before after the last authenticated source read without comparing its pins to all_source_rows; the final tail compares only that later baseline.",
+      "consequence": "A changed module/manifest can become the accepted baseline and leave a success-status source custody receipt. Captured code correctness and external review do not replace the missing accepted-pin comparison.",
+      "demonstration": "Manual source path only, no mutation or subject execution.",
+      "id": "F01",
+      "locations": [
+        {
+          "end": 105,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/adapter.py",
+          "start": 95
+        },
+        {
+          "end": 161,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/adapter.py",
+          "start": 146
+        }
+      ],
+      "priority": 1,
+      "required_repair": "Pin-check every preownership source observation against the authenticated adapter/module/manifest rows and retain the stable baseline through the tail, with exact inert integration controls and preserved ownership/first-error semantics.",
+      "title": "Bind owned source baseline to authenticated source pins"
+    },
+    {
+      "cause": "Adapter namespace tail checks membership/types but not produced artifact pins; saved-mode final root tail is not compared to verified post_copy.",
+      "consequence": "Observed later output/tree drift can be recorded without turning a metadata success status into refusal.",
+      "demonstration": "Manual source path only, no mutation or subject execution.",
+      "id": "F02",
+      "locations": [
+        {
+          "end": 176,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/adapter.py",
+          "start": 153
+        },
+        {
+          "end": 210,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/mode_verify.py",
+          "start": 184
+        }
+      ],
+      "priority": 1,
+      "required_repair": "Compare exact ordinary and action-specific outputs to their captured pins/full values and compare the complete final mode root to the verified expected post observation; preserve earlier errors, partials and independent eligible tails. Add focused late-drift integration controls.",
+      "title": "Reconcile final output observations against already-verified output identities"
+    }
+  ],
+  "independent_review": {
+    "bytes": 6429,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/HANDOFF.json",
+    "sha256": "bbd180974649391bb6b94498b2697a1ece0a3d65837a0c171701b6a2ff1e1a42"
+  },
+  "independent_review_prior_authorship_disclosed": true,
+  "metadata_replay": {
+    "bytes": 1549,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/MEASUREMENT_METADATA_REPLAY.json",
+    "sha256": "1cdf6535bcb59a6d27246543978a816bb550b5a7e422dd68d13f009a9b8cfbf2"
+  },
+  "remaining_prerequisites": [
+    "Fresh source/control review and root adjudication of narrow repair",
+    "Actual admitted current-source inert controls and independent review",
+    "Explicit R01 path applicability or required actual relocated controls",
+    "Genuine E-environment unchanged RI141 capture and ordered normal/optimized profiles",
+    "Complete accepted source/copy/card/runtime custody",
+    "Separately admitted normal WHITE execution plus independent saved arithmetic and custody acceptance",
+    "Only then optimized admission/full closed relation/final acceptance",
+    "RI131/full32/periodic/mean/join and public-data/calibration/native-forward-map prerequisites remain separate"
+  ],
+  "root_manual_review": {
+    "bytes": 3992,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/MEASUREMENT_ROOT_REVIEW.md",
+    "sha256": "52ac392ff840f8035f07526b4716df26c72eae13ab2e1cc64a4bf4b42b890f3d"
+  },
+  "schema": "ri156-root-adjudication-v1",
+  "source_acceptance": false,
+  "status": "REQUIRE_F01_F02_CUSTODY_REPAIRS_BEFORE_QUALIFICATION_ADMISSION",
+  "subject": {
+    "bytes": 11804,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm/HANDOFF.json",
+    "sha256": "4414cf5440061b1a2bf143b74a81315e31bb9213da46e76d508c4106d757d4c3"
+  }
+}

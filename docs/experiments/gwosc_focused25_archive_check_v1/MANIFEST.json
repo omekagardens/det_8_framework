@@ -1,0 +1,432 @@
+{
+  "actual_control_execution": false,
+  "copies": [
+    {
+      "original": {
+        "bytes": 11568,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+        "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/verify_archive.py"
+    },
+    {
+      "original": {
+        "bytes": 2459,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/README.md",
+        "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/README.md"
+    },
+    {
+      "original": {
+        "bytes": 1493,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/AUTHOR_BASE_CHECK.json",
+        "sha256": "4d94cf15875a7fb2d8729f3a2da35b3de5c254f75283fb5f491839b2c9fc32eb"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/AUTHOR_BASE_CHECK.json"
+    },
+    {
+      "original": {
+        "bytes": 1659,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI142_SOURCE_SCOPE.json",
+        "sha256": "f9fa833393480f6554f270e2748b80b4af30d5122c473f4b27183a18c81d5ad6"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/RI142_SOURCE_SCOPE.json"
+    },
+    {
+      "original": {
+        "bytes": 4382,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/ROOT_ADJUDICATION.json",
+        "sha256": "f169e942108fd867fb54b49041ba19be8e04d395bd7eb92253a5f0aed137d53a"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/ROOT_ADJUDICATION.json"
+    },
+    {
+      "original": {
+        "bytes": 5226,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/adjudicate.py",
+        "sha256": "35db20f857beec056b09309c4abc898501847f74088cbf5ef81218abb5b94b9e"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/adjudicate.py"
+    },
+    {
+      "original": {
+        "bytes": 823,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI141_REVIEW_RESERVATION.json",
+        "sha256": "6c5b43c785a5f789be336fac1ff44ed3fad1b94c5b2f4a6e7c8206d146da8cc9"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/RI141_REVIEW_RESERVATION.json"
+    },
+    {
+      "original": {
+        "bytes": 1715,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
+        "sha256": "8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/root/RI140_STARTUP_SCOPE_ADDENDUM.md"
+    },
+    {
+      "original": {
+        "bytes": 9216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/INDEPENDENT_REVIEW.md",
+        "sha256": "cbe59b92324b5913c3b0fbca0a14a312321f55432c85896d6156791efc4e1d82"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/INDEPENDENT_REVIEW.md"
+    },
+    {
+      "original": {
+        "bytes": 2016,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/VERDICT.json",
+        "sha256": "1a681428dc8fd27877b6044099d831f3c9bf87cce719e33991daceaf90f7f984"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/VERDICT.json"
+    },
+    {
+      "original": {
+        "bytes": 63393,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/TEST_RESULTS.json",
+        "sha256": "f00c08af271fecfd8263b4f7537811e7fab2dc91273098ced6090eb261b050b6"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/TEST_RESULTS.json"
+    },
+    {
+      "original": {
+        "bytes": 9132,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/test_archive.py",
+        "sha256": "429c464c967e898b7a1ed1f3edc97e52167df2712198c73d3dc9d57d30f597a4"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/test_archive.py"
+    },
+    {
+      "original": {
+        "bytes": 1503,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_01_original_archive.json",
+        "sha256": "e6d25b3834fdd1e71cc1d44c7d92686ffa425149db8c8ce5e8250af88b6a3e65"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_01_original_archive.json"
+    },
+    {
+      "original": {
+        "bytes": 1597,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_02_relocated_archive.json",
+        "sha256": "2f2d19e40d6921afe235a2082105d5deef585a276eb71667ace70d1b1414c5cd"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_02_relocated_archive.json"
+    },
+    {
+      "original": {
+        "bytes": 1472,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_03_default_layout.json",
+        "sha256": "648120a6b13cd3f7eff5e15031365c651fac18e8713476a604e01661debde01a"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_03_default_layout.json"
+    },
+    {
+      "original": {
+        "bytes": 1085,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_04_missing_payload.json",
+        "sha256": "f8c722abaf88cba3c011c908bb6e03e86159abfbfd4f0bf1c189e1b61982a0c6"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_04_missing_payload.json"
+    },
+    {
+      "original": {
+        "bytes": 1072,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_05_same_size_tamper.json",
+        "sha256": "4f0ce2c2888305a55210ef3ace8380ee1d8a4428b46c69a32b1674946ce10e52"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_05_same_size_tamper.json"
+    },
+    {
+      "original": {
+        "bytes": 1076,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_06_extra_file.json",
+        "sha256": "3934cdc9f12d9c9f6da2461ae5fbaf19a11a3595f649ca91c0036e5d92cf4d3f"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_06_extra_file.json"
+    },
+    {
+      "original": {
+        "bytes": 1082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_07_extra_empty_directory.json",
+        "sha256": "d6626807adef6d73490c1f8b9ea4e5ed8ea165c4fcbcb0dcc4e41b32158a8754"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_07_extra_empty_directory.json"
+    },
+    {
+      "original": {
+        "bytes": 1133,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_08_symlink_file.json",
+        "sha256": "5a8dde0c3c396d8ebfe114e7a3061e65b3bac9d198b3857ff8054bb1eed5c000"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_08_symlink_file.json"
+    },
+    {
+      "original": {
+        "bytes": 1068,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_09_symlink_directory.json",
+        "sha256": "1c2ed5dad6152094f082386390f4501bf9a164790aa1f9776bc98249b954119a"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_09_symlink_directory.json"
+    },
+    {
+      "original": {
+        "bytes": 1076,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_10_symlink_root.json",
+        "sha256": "2eb27ec3d98b2648d778835d6a687b97be02891445787a9c3474f558ddbeb530"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_10_symlink_root.json"
+    },
+    {
+      "original": {
+        "bytes": 1147,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_11_mutated_manifest.json",
+        "sha256": "aaa180b3a8288ad4e60d3c23c20d2056eb8fd988e8b4496eb68dd9219de9c8ae"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_11_mutated_manifest.json"
+    },
+    {
+      "original": {
+        "bytes": 1195,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_12_unsafe_manifest_path.json",
+        "sha256": "2748aa4fa0e8219e60550bbabd08f80ffd783cadbfab389eea8df2a06d0dfc77"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_12_unsafe_manifest_path.json"
+    },
+    {
+      "original": {
+        "bytes": 1307,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_13_nonempty_stream.json",
+        "sha256": "c322169e544739d0cbc38cb4097c33291eb0fc4abfb031be0b93ef991523ab64"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_13_nonempty_stream.json"
+    },
+    {
+      "original": {
+        "bytes": 1389,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_14_partial_json_repaired.json",
+        "sha256": "d1918444ac1856e76b519e8b8426cb30b9b1ccf26dd4a988344f5ae281768959"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_14_partial_json_repaired.json"
+    },
+    {
+      "original": {
+        "bytes": 1197,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_15_saved_outcome_tamper.json",
+        "sha256": "012dbae493f23a253b8605c75a5c2d6b73e5b057603a33b7fbfbf4e81b70faae"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_15_saved_outcome_tamper.json"
+    },
+    {
+      "original": {
+        "bytes": 1218,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_16_missing_manifest.json",
+        "sha256": "b01f4f314f24275b05c6417689cbda40f1406f377902268df84316f3ef02e9e4"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_16_missing_manifest.json"
+    },
+    {
+      "original": {
+        "bytes": 1086,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/records/case_17_regular_file_root.json",
+        "sha256": "845937ca8588dc089c1ba41e274c755e1f22a67301ddedf63accf8997822209d"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/records/case_17_regular_file_root.json"
+    },
+    {
+      "original": {
+        "bytes": 6315,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/PUBLICATION_SUBSET.json",
+        "sha256": "7d8da6e0ce3bb96fb56d52f459ae8639ee33395a579d71cb4192f3626d021140"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/PUBLICATION_SUBSET.json"
+    },
+    {
+      "original": {
+        "bytes": 7582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/HANDOFF.json",
+        "sha256": "bb20f9a2072725038cd5630a46120f5a9ced6e99e267ade5f7079451edb82647"
+      },
+      "path": "docs/experiments/gwosc_focused25_archive_check_v1/review/HANDOFF.json"
+    }
+  ],
+  "current_runtime_qualification": false,
+  "exact_copies": 31,
+  "excluded": "Reviewer mutation fixture trees, portable test copies, unrelated edits and active RI140/RI141 source packets remain external.",
+  "files": [
+    {
+      "bytes": 2459,
+      "path": "README.md",
+      "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+    },
+    {
+      "bytes": 7582,
+      "path": "review/HANDOFF.json",
+      "sha256": "bb20f9a2072725038cd5630a46120f5a9ced6e99e267ade5f7079451edb82647"
+    },
+    {
+      "bytes": 9216,
+      "path": "review/INDEPENDENT_REVIEW.md",
+      "sha256": "cbe59b92324b5913c3b0fbca0a14a312321f55432c85896d6156791efc4e1d82"
+    },
+    {
+      "bytes": 6315,
+      "path": "review/PUBLICATION_SUBSET.json",
+      "sha256": "7d8da6e0ce3bb96fb56d52f459ae8639ee33395a579d71cb4192f3626d021140"
+    },
+    {
+      "bytes": 63393,
+      "path": "review/TEST_RESULTS.json",
+      "sha256": "f00c08af271fecfd8263b4f7537811e7fab2dc91273098ced6090eb261b050b6"
+    },
+    {
+      "bytes": 2016,
+      "path": "review/VERDICT.json",
+      "sha256": "1a681428dc8fd27877b6044099d831f3c9bf87cce719e33991daceaf90f7f984"
+    },
+    {
+      "bytes": 1503,
+      "path": "review/records/case_01_original_archive.json",
+      "sha256": "e6d25b3834fdd1e71cc1d44c7d92686ffa425149db8c8ce5e8250af88b6a3e65"
+    },
+    {
+      "bytes": 1597,
+      "path": "review/records/case_02_relocated_archive.json",
+      "sha256": "2f2d19e40d6921afe235a2082105d5deef585a276eb71667ace70d1b1414c5cd"
+    },
+    {
+      "bytes": 1472,
+      "path": "review/records/case_03_default_layout.json",
+      "sha256": "648120a6b13cd3f7eff5e15031365c651fac18e8713476a604e01661debde01a"
+    },
+    {
+      "bytes": 1085,
+      "path": "review/records/case_04_missing_payload.json",
+      "sha256": "f8c722abaf88cba3c011c908bb6e03e86159abfbfd4f0bf1c189e1b61982a0c6"
+    },
+    {
+      "bytes": 1072,
+      "path": "review/records/case_05_same_size_tamper.json",
+      "sha256": "4f0ce2c2888305a55210ef3ace8380ee1d8a4428b46c69a32b1674946ce10e52"
+    },
+    {
+      "bytes": 1076,
+      "path": "review/records/case_06_extra_file.json",
+      "sha256": "3934cdc9f12d9c9f6da2461ae5fbaf19a11a3595f649ca91c0036e5d92cf4d3f"
+    },
+    {
+      "bytes": 1082,
+      "path": "review/records/case_07_extra_empty_directory.json",
+      "sha256": "d6626807adef6d73490c1f8b9ea4e5ed8ea165c4fcbcb0dcc4e41b32158a8754"
+    },
+    {
+      "bytes": 1133,
+      "path": "review/records/case_08_symlink_file.json",
+      "sha256": "5a8dde0c3c396d8ebfe114e7a3061e65b3bac9d198b3857ff8054bb1eed5c000"
+    },
+    {
+      "bytes": 1068,
+      "path": "review/records/case_09_symlink_directory.json",
+      "sha256": "1c2ed5dad6152094f082386390f4501bf9a164790aa1f9776bc98249b954119a"
+    },
+    {
+      "bytes": 1076,
+      "path": "review/records/case_10_symlink_root.json",
+      "sha256": "2eb27ec3d98b2648d778835d6a687b97be02891445787a9c3474f558ddbeb530"
+    },
+    {
+      "bytes": 1147,
+      "path": "review/records/case_11_mutated_manifest.json",
+      "sha256": "aaa180b3a8288ad4e60d3c23c20d2056eb8fd988e8b4496eb68dd9219de9c8ae"
+    },
+    {
+      "bytes": 1195,
+      "path": "review/records/case_12_unsafe_manifest_path.json",
+      "sha256": "2748aa4fa0e8219e60550bbabd08f80ffd783cadbfab389eea8df2a06d0dfc77"
+    },
+    {
+      "bytes": 1307,
+      "path": "review/records/case_13_nonempty_stream.json",
+      "sha256": "c322169e544739d0cbc38cb4097c33291eb0fc4abfb031be0b93ef991523ab64"
+    },
+    {
+      "bytes": 1389,
+      "path": "review/records/case_14_partial_json_repaired.json",
+      "sha256": "d1918444ac1856e76b519e8b8426cb30b9b1ccf26dd4a988344f5ae281768959"
+    },
+    {
+      "bytes": 1197,
+      "path": "review/records/case_15_saved_outcome_tamper.json",
+      "sha256": "012dbae493f23a253b8605c75a5c2d6b73e5b057603a33b7fbfbf4e81b70faae"
+    },
+    {
+      "bytes": 1218,
+      "path": "review/records/case_16_missing_manifest.json",
+      "sha256": "b01f4f314f24275b05c6417689cbda40f1406f377902268df84316f3ef02e9e4"
+    },
+    {
+      "bytes": 1086,
+      "path": "review/records/case_17_regular_file_root.json",
+      "sha256": "845937ca8588dc089c1ba41e274c755e1f22a67301ddedf63accf8997822209d"
+    },
+    {
+      "bytes": 9132,
+      "path": "review/test_archive.py",
+      "sha256": "429c464c967e898b7a1ed1f3edc97e52167df2712198c73d3dc9d57d30f597a4"
+    },
+    {
+      "bytes": 1493,
+      "path": "root/AUTHOR_BASE_CHECK.json",
+      "sha256": "4d94cf15875a7fb2d8729f3a2da35b3de5c254f75283fb5f491839b2c9fc32eb"
+    },
+    {
+      "bytes": 1715,
+      "path": "root/RI140_STARTUP_SCOPE_ADDENDUM.md",
+      "sha256": "8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008"
+    },
+    {
+      "bytes": 823,
+      "path": "root/RI141_REVIEW_RESERVATION.json",
+      "sha256": "6c5b43c785a5f789be336fac1ff44ed3fad1b94c5b2f4a6e7c8206d146da8cc9"
+    },
+    {
+      "bytes": 1659,
+      "path": "root/RI142_SOURCE_SCOPE.json",
+      "sha256": "f9fa833393480f6554f270e2748b80b4af30d5122c473f4b27183a18c81d5ad6"
+    },
+    {
+      "bytes": 4382,
+      "path": "root/ROOT_ADJUDICATION.json",
+      "sha256": "f169e942108fd867fb54b49041ba19be8e04d395bd7eb92253a5f0aed137d53a"
+    },
+    {
+      "bytes": 5226,
+      "path": "root/adjudicate.py",
+      "sha256": "35db20f857beec056b09309c4abc898501847f74088cbf5ef81218abb5b94b9e"
+    },
+    {
+      "bytes": 11568,
+      "path": "verify_archive.py",
+      "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+    }
+  ],
+  "historical_absolute_references": "Provenance only; portable checker opens only its selected archive. Historical test driver/root reconciliation are retained evidence and retain original administrative paths.",
+  "historical_tool_origin_authenticated": false,
+  "independent_tests": {
+    "negative": 14,
+    "passed": 17,
+    "positive": 3,
+    "total": 17
+  },
+  "original_archive": "docs/experiments/gwosc_focused25_result_v1",
+  "original_archive_manifest": {
+    "bytes": 25566,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_focused25_result_v1/PUBLICATION_MANIFEST.json",
+    "sha256": "da4ccad5e3f06e313ad0ba2a0b00b23c4a6aa7b5faaa6b28043c6259998024ee"
+  },
+  "parent_commit": "878ef6041d937abd4ecdc7b0d4fa9adbc81a5005",
+  "permitted_use": "Read-only fixed archive verification using verify_archive.py and README; no archived-subject or operational admission.",
+  "schema": "ri142-portable-archive-utility-publication-v1",
+  "scientific_claim": false,
+  "status": "ROOT_ACCEPTED_NARROW_READ_ONLY_UTILITY"
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "ri157-correlated-capacity-result-v1",
+  "status": "AUTHOR_PROVED_ACTUAL_CANONICAL_CAP_BRANCH_AND_SHARPER_MARKED_CONTRAST_WITH_REMAINING_SEPARATION_GAP",
+  "new_results": [
+    "Subtracting the accepted full-complement margin from complete height sums gives w,p_i<113/11480 and s_i<113/22960; coefficient-times-potential bounds give w,p_i,s_i>=1/352.",
+    "Complete C4 normalization yields 11489/22960<b_i<2267/2464<a and b_i>1/2, without choosing either non-core root ordering.",
+    "The RI36 proper-slot bound, retained in RI41, and complete fork normalization give f_i/2+min g_iu>=135/1408 through correlated deletion potentials.",
+    "On N_i>0 the actual canonical correction obeys N_i<14(p_i-1/440); the zero branch is separate. Two convex endpoint bounds give F_i<35743/12100<71/24<E_0,E_1.",
+    "Both actual F rows are strictly inactive in the retained cap: Mcap=max(E0,E1), Z=R>1/8. This does not determine global M6 or prove rho=R.",
+    "All three complete contrast brackets lie in (-2,0), with H7<-235/20664. Positive v forces p1>p0 or s1>s0, without selecting a disjunct.",
+    "For Dminus=(p1-p0)_++(s1-s0)_+, the actual bound is 0<v<2theta Dminus<1147/9092160.",
+    "A capacity pass requires lambda<1147/15370080<1/13000 and Dminus>213d7. Equivalently the sum of two positive component increases exceeds 8733 times the positive core-component gap.",
+    "An actual proof of the reverse weak marked-row comparison Dminus<=213d7 would give strict v<B. That comparison is not established here."
+  ],
+  "load_bearing_inherited_premises": [
+    "RI41 unchanged accepted finite parent-four law: total height mass<19/40, component alpha>=1/8, and full complement>=33901019/474368400>1/14.",
+    "RI36 analytic construction: each size-three proper probability<=1/8; RI41 explicitly retains that construction at fixed e=1/44.",
+    "Accepted RI151 actual canonical target formula and marked fork/hook potential identities.",
+    "RI155 first capacity, strict-capacity equivalence, complete E/V bounds and exact contrast; no scientific replay."
+  ],
+  "proof_dependencies": [
+    "CANONICAL_CAP_BOUND.md",
+    "CORRELATED_CONTRAST_BOUND.md",
+    "CORRELATED_CAPACITY_SYNTHESIS.md"
+  ],
+  "actual_canonical_cap_branch_proved": true,
+  "actual_canonical_cap_branch": "F_0,F_1<35743/12100<71/24<E_0,E_1; Mcap=max(E_0,E_1); Z=R.",
+  "actual_positive_part_branch_decided": false,
+  "actual_individual_root_order_decided": false,
+  "actual_ordering_disjunction_proved": true,
+  "actual_v_bound": "0<v<1147/9092160",
+  "actual_lambda_bound_proved": false,
+  "conditional_lambda_bound": "v>B implies lambda<1147/15370080<1/13000.",
+  "actual_marked_contrast_separation_proved": false,
+  "actual_v_greater_than_B_proved": false,
+  "actual_v_less_equal_B_proved": false,
+  "actual_joint_capacities_proved": false,
+  "actual_adequate_q_v_joint_budget_proved": false,
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_rho_in_delta0_proved": false,
+  "full_H30_decided": false,
+  "remaining": "Compare the actual marked-component increases with 8733 times the actual positive core gap, or establish an adequate lower bound on lambda. The new bounds do not decide actual v>B; a pass still leaves the q threshold.",
+  "grid_premise_accepted": false,
+  "grid_premise_used": false,
+  "grid_status": "Discovery rounding is not an accepted global final-witness grid theorem. A 1/1000-grid rejection is conditional only; the complete final-witness grid audit is missing and is not authorized or executed here.",
+  "conditional_implication": "Failure of this sufficient envelope is not a W/H30 sign. A genuine complete-envelope pass would obstruct this fixed H30 candidate; none is proved.",
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "shared_T1_recovery": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_body_decode": false,
+    "actual_selected_numeric_evaluation": false,
+    "manual_theorem_bound_arithmetic": true,
+    "source_helper_import_compile_AST_probe_run": false,
+    "engine": false,
+    "global_enumeration": false,
+    "new_subagent_spawning": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_freeze_admission": false,
+    "physical_claim": false
+  },
+  "diagnostic_boundary": "All prior FS seed-order and inverse-theta ideas remain excluded. No final-witness grid is inferred from discovery prose. Author peers are not independent reviewers.",
+  "stop": "Seal for fresh nonauthor review and coordinator adjudication; no successor or q-floor work assigned."
+}

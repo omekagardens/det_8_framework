@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "bytes": 1197,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "3ea398d153d5b466f3b023c0e53272324bc52f3f60c2a58b9da70f239eed1fb6"
+    },
+    {
+      "bytes": 74,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28"
+    },
+    {
+      "bytes": 881,
+      "kind": "file",
+      "relative": "POST.ATTEMPT.json",
+      "sha256": "562935806dc4fceb605e533126ec38260bd3a0830f0797a8bb8fd9eb2b9520a2"
+    },
+    {
+      "bytes": 14092,
+      "kind": "file",
+      "relative": "POST.COMPLETION.json",
+      "sha256": "c85cf5b9850b7a76a3d6636ec3d5225ccd3c42af3b367989e135d22e3bc5c244"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "POST.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 881,
+      "kind": "file",
+      "relative": "PRE.ATTEMPT.json",
+      "sha256": "562935806dc4fceb605e533126ec38260bd3a0830f0797a8bb8fd9eb2b9520a2"
+    },
+    {
+      "bytes": 23681,
+      "kind": "file",
+      "relative": "PRE.COMPLETION.json",
+      "sha256": "cd3acb8b8cdbef1d77db9c18297878e649ae29734b7fdd7f5cf4c1150da29f29"
+    },
+    {
+      "bytes": 0,
+      "kind": "file",
+      "relative": "PRE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7142026,
+      "kind": "file",
+      "relative": "PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s",
+  "schema": "ri133-retained-namespace-v1"
+}

@@ -1,0 +1,158 @@
+{
+  "child_exit_code": 0,
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+  ],
+  "elapsed_seconds": 0.382986917,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 0.02544154200000004,
+  "first_error": null,
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.00628516699999998,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "  1728\n"
+    },
+    {
+      "elapsed_seconds": 0.044627541999999965,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 16528\n"
+    },
+    {
+      "elapsed_seconds": 0.08359029200000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 18208\n"
+    },
+    {
+      "elapsed_seconds": 0.126960833,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 21280\n"
+    },
+    {
+      "elapsed_seconds": 0.16577529200000002,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 33792\n"
+    },
+    {
+      "elapsed_seconds": 0.205102542,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 35744\n"
+    },
+    {
+      "elapsed_seconds": 0.243695542,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 36736\n"
+    },
+    {
+      "elapsed_seconds": 0.28113608300000004,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 37104\n"
+    },
+    {
+      "elapsed_seconds": 0.319773125,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 45168\n"
+    },
+    {
+      "elapsed_seconds": 0.35754537499999994,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 46896\n"
+    }
+  ],
+  "passed": true,
+  "peak_sampled_rss_kib": 46896,
+  "samples": [
+    {
+      "elapsed_seconds": 0.00628516699999998,
+      "gap_seconds": 0.00628516699999998,
+      "rss_kib": 1728
+    },
+    {
+      "elapsed_seconds": 0.044627541999999965,
+      "gap_seconds": 0.038342374999999984,
+      "rss_kib": 16528
+    },
+    {
+      "elapsed_seconds": 0.08359029200000001,
+      "gap_seconds": 0.038962750000000046,
+      "rss_kib": 18208
+    },
+    {
+      "elapsed_seconds": 0.126960833,
+      "gap_seconds": 0.043370540999999985,
+      "rss_kib": 21280
+    },
+    {
+      "elapsed_seconds": 0.16577529200000002,
+      "gap_seconds": 0.03881445900000002,
+      "rss_kib": 33792
+    },
+    {
+      "elapsed_seconds": 0.205102542,
+      "gap_seconds": 0.03932724999999998,
+      "rss_kib": 35744
+    },
+    {
+      "elapsed_seconds": 0.243695542,
+      "gap_seconds": 0.03859299999999999,
+      "rss_kib": 36736
+    },
+    {
+      "elapsed_seconds": 0.28113608300000004,
+      "gap_seconds": 0.03744054100000005,
+      "rss_kib": 37104
+    },
+    {
+      "elapsed_seconds": 0.319773125,
+      "gap_seconds": 0.038637041999999955,
+      "rss_kib": 45168
+    },
+    {
+      "elapsed_seconds": 0.35754537499999994,
+      "gap_seconds": 0.03777224999999995,
+      "rss_kib": 46896
+    }
+  ],
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stop_reason": null,
+  "tail_errors": [],
+  "wall_seconds": 180
+}

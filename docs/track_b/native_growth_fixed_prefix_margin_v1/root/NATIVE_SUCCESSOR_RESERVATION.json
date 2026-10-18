@@ -1,0 +1,33 @@
+{
+  "measurement_separate": true,
+  "owner": "Quantum Relativity 01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 13692,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI153_ROOT_ADJUDICATION.json",
+    "sha256": "32fdceef9651d5a97e22060a5c2040cb53f250d8e7c66ff43c199bd18b73b0f2"
+  },
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "question": "Resolve the strict-capacity prerequisite of the accepted joint envelope for the same fixed prefix: YE<1 and v>B max(1,(1-Yu3)/(1-YE)). Prioritize an actual structural proof or structural obstruction of these capacities before spending more work on q floors. Use the retained complete normalization, component incidence, actual-containing Z, and exact v/D3 contrast; expose cancellations or a quantitatively adequate correlated bound. If neither sign can be settled analytically, give the precise remaining fixed-prefix comparison plus a substantive new derivation or a source-justified blocked premise; do not merely restate RI153 or provide arbitrary positive-coefficient examples. A failed envelope is not a W or H30 sign; a pass still leaves the q threshold unless separately proved. Keep all zero/strict-boundary cases.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup",
+  "ret_paused": true,
+  "schema": "ri155-native-strict-capacity-assignment-v1",
+  "scope": "Manual source-only native-law proof/candidate analysis. No numerical scientific-body decode, actual coefficient/probability/history/maximum/scale/H/z evaluation, source/helper import/compile/AST/probe/run, CAS/numerical engine, global enumeration, fixture/runtime/controller/card/admission, repository/index/Git or sealed predecessor mutation. Preserve withdrawn seed inference as excluded; no premise from it. Exact source text/admin identity checking allowed. Seal concrete source and actual administrative checks for fresh nonauthor review and root adjudication.",
+  "status": "ASSIGNED_AFTER_RI153_ADJUDICATION"
+}

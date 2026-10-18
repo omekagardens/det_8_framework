@@ -1,0 +1,43 @@
+{
+  "author_receipt": {
+    "chunk_id": "78d971",
+    "exit_code": 0,
+    "fresh_identities": 398,
+    "not_independent_acceptance": true,
+    "selected_bytes": 23201553,
+    "selected_inputs": 389
+  },
+  "deliverables": [
+    "Full literal source and mathematical review with concrete blockers or scoped acceptance.",
+    "Complete independent opaque identity/provenance check and actual receipt, with checker source read before use.",
+    "Sealed handoff; no subject execution or synthetic test claim."
+  ],
+  "independence": "Reviewer authored earlier unrelated RI182 qualification cleanup and measurement relocation source, not RI191. Inherited earlier-source semantics and acceptance must retain attribution; this is nonauthor review of RI191 only.",
+  "opaque_admission": {
+    "bytes": 2123,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI191_OPAQUE_PREFIX_ADMISSION.json",
+    "sha256": "992a107e022f32be8d06bff3b0a859f87730e70d43c96402d3b4e2ebc0df186d"
+  },
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 1267,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI189_ROOT_ADJUDICATION.json",
+    "sha256": "44985b1f471baa3ae3f3f34392bf60bc8629dda641bfab6f0b7317a191c46c4c"
+  },
+  "prohibitions": [
+    "No scientific JSON/vector/certificate-body decode or selected coefficient instantiation. Original certificate opaque identity only under exact admission.",
+    "No subject import, compile, AST, probe/run, graph/LP engine, fixtures or runtime/cards.",
+    "No source/repo edits outside reservation or Git/index.",
+    "Do not waive or credit92controls34recipes35mutation families or31/139/20/42 obligations."
+  ],
+  "question": "Independently review complete RI191 exact rational pair_witness.py, contract and all negative-case specifications against RI189. Check all-nine binding, complete declared109 root/default/override validation, exact threshold/equality and inconclusive/refusal distinctions, resource/custody/failure limits. Independently reconstruct the administrative provenance and actual author checks before source acceptance. Original parser compatibility remains unverified.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb",
+  "ret_paused": true,
+  "schema": "ri195-independent-pair-witness-source-review-v1",
+  "status": "ASSIGNED_REVIEW_ONLY",
+  "subject_handoff": {
+    "bytes": 8115,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+    "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+  }
+}

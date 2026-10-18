@@ -1,0 +1,84 @@
+{
+  "schema": "ri127-local-positivity-author-read-identities-v1",
+  "status": "AUTHOR_SOURCE_ONLY_PENDING_FRESH_NONAUTHOR_REVIEW",
+  "identity_method": "Opaque byte lengths and SHA-256 only; no scientific numeric decoding or computation",
+  "scientific_execution": false,
+  "repository_mutation": false,
+  "additional_probability_inputs": false,
+  "actual_local_feasibility_decided": false,
+  "sources": [
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "bytes": 17366,
+      "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2",
+      "read_scope": "complete prior author task; opaque unchanged identity checked this task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+      "read_scope": "complete prior author task; opaque unchanged identity checked this task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "bytes": 16243,
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "bytes": 6498,
+      "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "bytes": 15477,
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INTERPRETATION.md",
+      "bytes": 11087,
+      "sha256": "d2fe0a49be13038d1855604bd935f1d4f284ddde124c9d8b6f67477d0deb493a",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/ADDENDUM.md",
+      "bytes": 10371,
+      "sha256": "a949e64dbe30f413f7dd39162aad6400d4fee6b79a63dc6df042b5330717f416",
+      "read_scope": "complete current task"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/SUPPORT.md",
+      "bytes": 16184,
+      "sha256": "5a85c09acb897a5a1132ec4f3b67e9c41086ea1b374731724888365eb31aa0fc",
+      "read_scope": "complete prior author task; opaque unchanged identity checked this task"
+    }
+  ],
+  "scope": "Native beta/Gamma signs, conditional complete-record strict intervals, exact connected margin predicate and formal outer-box limitation; no H30 positive continuation claim"
+}

@@ -1,0 +1,27 @@
+{
+  "measurement": {
+    "id": "RI133",
+    "review_owner": "/root/ri116_complete_caller_review",
+    "review_path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-runtime-preparation-independent-review-ipnnpdq6",
+    "source": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys",
+    "source_handoff": {
+      "bytes": 5719,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+      "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+    },
+    "status": "sealed source, complete nonauthor review active"
+  },
+  "native": {
+    "id": "RI134",
+    "owner": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde",
+    "predecessor": {
+      "bytes": 2155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-root-coverage-adjudication-8hve4ntf/RI132_ROOT_ADJUDICATION.json",
+      "sha256": "393b11b96fcfa929323169c96ea508b6d8a01c8ebcdc448f90432aea99d90a77"
+    },
+    "scope": "New immutable caller source: four selected pure metadata policy extractions, exact production correspondence and direct controls; source-only review before use."
+  },
+  "root_owns_repository_git_execution": true,
+  "schema": "ri132-successor-reservations-v1"
+}

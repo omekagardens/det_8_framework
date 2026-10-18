@@ -1,0 +1,50 @@
+{
+  "acceptance_or_admission_card_created": false,
+  "administrative_result": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/ADMIN_CHECK.json",
+    "sha256": "2d9b8fa9e05fc0ba950f7eaff150056904f444c87d7bca4f6cc284d521bc08bd"
+  },
+  "assignment": {
+    "bytes": 6859,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI190_REVIEW_ASSIGNMENT.json",
+    "sha256": "8bbc25f3bf896d36c87686c96688cf18df1f8304f7a9f46d68addfdfa1cb2d21"
+  },
+  "blocking_findings": [],
+  "genuine_actual_terminal": {
+    "chunk_id": "9aba56",
+    "exit_code": 0,
+    "scope": "root-supplied genuine external evidence"
+  },
+  "independent_administrative_terminal": {
+    "chunk_id": "d3bdb9",
+    "exit_code": 0
+  },
+  "opaque_identities": {
+    "bytes": 7917420,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/IDENTITIES.json",
+    "sha256": "dd39da5f62af7e6f6758fe64e4ee52fab808a9dee0b349b6e78ddec6584a3589"
+  },
+  "optimized_profile_executed": false,
+  "prior_authorship_disclosed": true,
+  "ret_paused": true,
+  "retained_premises": [
+    "Genuine root/tool origin and already independently accepted source semantics.",
+    "Stable host/suppliers, Apple kernel/loader/shared cache, named system suppliers and observation infrastructure.",
+    "Sampled child-only RSS and parent-PID-only receipt; no descendants, hard quota, full trace or continuous freeze claim.",
+    "Normal-stage card and later optimized/both-mode decisions remain root-owned.",
+    "RI170 R01 path-sensitive nonauthor applicability review; only genuinely needed smallest extra control, not blanket65 rerun."
+  ],
+  "review": {
+    "bytes": 13660,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri190-current-e-normal-profile-review-zzmi16rs/INDEPENDENT_REVIEW.md",
+    "sha256": "8e143a1985751e2e3f930b93bdfb5320cfca6ba7cec99986022190e378f7f0af"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_decoded_scientific_body": false,
+  "reviewer_executed_subject": false,
+  "schema": "ri190-independent-normal-profile-verdict-v1",
+  "scientific_credit": false,
+  "source_semantics": "Inherited prior independent source acceptance; not new self-review",
+  "status": "ACCEPT_CURRENT_E_NORMAL_PROFILE_EVIDENCE"
+}

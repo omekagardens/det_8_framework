@@ -1,9 +1,14 @@
 """
-DET Parameter Constraints from Published Data
+DET parameter-constraint archive with mixed evidential status.
 
-Uses published experimental results to set upper bounds on
-DET free parameters (λ_P, λ_γ, G_q) and identify anomaly
-candidates consistent with DET predictions.
+Status: PARTIAL_QUARANTINE. Clock calculations are conditional bounds of the
+form λ_P·Δκ < σ: the comparison uncertainty is an external literature input,
+while Δκ is assumed rather than observed. Gravity, Eötvös, orbital-anomaly,
+and κ-source interpretations are retired. Reference strings below are not a
+provenance-bearing data ingest and must be verified before empirical use.
+
+Historical objective: use reported experimental precisions to explore
+conditional bounds on DET parameters.
 
 Sources:
   - Atomic clock comparisons: NIST/Boulder, Tokyo, PTB
@@ -38,7 +43,7 @@ class ClockComparison:
     reference: str
 
 
-# Published clock comparisons (real data).
+# Literature values copied into code; not direct instrument records.
 PUBLISHED_CLOCK_COMPARISONS = [
     ClockComparison(
         name="NIST Yb vs Sr (2021)",
@@ -82,14 +87,15 @@ PUBLISHED_CLOCK_COMPARISONS = [
 def constrain_lambda_p_from_clocks(
     max_kappa_difference: float = 0.5,
 ) -> dict:
-    """Compute upper bounds on λ_P from published clock comparisons.
+    """Compute conditional λ_P bounds from copied uncertainties and assumed Δκ.
 
     If two clocks with κ difference Δκ show no unexplained frequency
     offset at precision σ, then:
 
       λ_P < σ / Δκ   (for κ_A ≈ 0, Δκ = κ_B)
 
-    This gives an upper bound on λ_P. More constraining for larger Δκ.
+    This constrains the product λ_P·Δκ. It is not a standalone λ_P bound
+    unless the κ contrast is independently established.
 
     Args:
         max_kappa_difference: Maximum plausible κ difference between clocks.

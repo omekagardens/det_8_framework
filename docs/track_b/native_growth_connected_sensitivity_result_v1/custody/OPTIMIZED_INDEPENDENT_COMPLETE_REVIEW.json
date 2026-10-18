@@ -1,0 +1,129 @@
+{
+  "applicability": {
+    "bytes": 4383,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_APPLICABILITY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_APPLICABILITY.json",
+    "sha256": "81191bc23ba6c2faf3371e4cc08f80fd57f4f9393cef0c78926cd916d2c17923",
+    "symlinks": []
+  },
+  "authorization": {
+    "bytes": 370,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_AUTHORIZATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_AUTHORIZATION.json",
+    "sha256": "1e3e73300c86341972c5f8fec14cb1e516c3403df813a6cc8d0bb012a6a45a1b",
+    "symlinks": []
+  },
+  "before_after_current_identities_match": true,
+  "blocking_findings": [],
+  "execution_authorized": false,
+  "freeze": {
+    "bytes": 2444926,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_EXECUTION_FREEZE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_EXECUTION_FREEZE.json",
+    "sha256": "efc4f0470ea444056ea562cfc56a1869b0f07f03b163780eb943302fe958d56b",
+    "symlinks": []
+  },
+  "genuine_outer": {
+    "bytes": 1043,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+    "sha256": "0851f7d3adc1170c5a31e34ba569e93e4139b3f3094304c747272e181cd0b70b",
+    "symlinks": []
+  },
+  "mode": "optimized",
+  "native_arithmetic_recomputed": false,
+  "native_mathematics_accepted": false,
+  "outputs": {
+    "admission.json": {
+      "bytes": 1871604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/admission.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/admission.json",
+      "sha256": "5373bbdcddedd795c2a0e537d511039b8783c60fdaefec33dae99ccda3a35737",
+      "symlinks": []
+    },
+    "prepared.json": {
+      "bytes": 2412863,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/prepared.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/prepared.json",
+      "sha256": "66b864c25899386c5786a8cc33520e5630aa74d34e22d99bf8a1e9588732de02",
+      "symlinks": []
+    },
+    "receipt.json": {
+      "bytes": 3743222,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/receipt.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/receipt.json",
+      "sha256": "9870e9f4b2d810e3065a8e36300ed93e811e4841ee26544b3f6b5951b417a815",
+      "symlinks": []
+    },
+    "samples.jsonl": {
+      "bytes": 205380,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/samples.jsonl",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/samples.jsonl",
+      "sha256": "87c8855d9db69a8c59146ece7391fdebe5af17b9a46ecf005cb8031f03d36b98",
+      "symlinks": []
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/stderr.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "symlinks": []
+    },
+    "stdout.log": {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/stdout.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/stdout.log",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40",
+      "symlinks": []
+    }
+  },
+  "programme_complete": false,
+  "raw_census_reconstruction": {
+    "actual_outer_chunk_id": "aa3053",
+    "actual_outer_exit": 0,
+    "attempts": 12,
+    "events": 15,
+    "exact_receipt_child_end_reconstructed": false,
+    "live": 11,
+    "peak_rss_bytes": 62799872,
+    "pre_exit_snapshot_confirmation_indices": [
+      11
+    ],
+    "raw_ps_rows": 9995,
+    "raw_terminal_event_elapsed_seconds": 0.7880856670017238,
+    "receipt_child_end_elapsed_seconds": 0.7882866670006479
+  },
+  "receipt": {
+    "bytes": 3743222,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/receipt.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/receipt.json",
+    "sha256": "9870e9f4b2d810e3065a8e36300ed93e811e4841ee26544b3f6b5951b417a815",
+    "symlinks": []
+  },
+  "review_scope": [
+    "All 3757 protected roles / 3739 unique current paths were freshly hashed and matched the independently expanded order and all before/after/prepared/admission maps; all six outputs bind current whole bytes.",
+    "Accepted witness and normal custody, independent/root reviews, protected inputs and outputs remain unchanged. All three candidate copies equal witnessed whole stdout bytes. Optimized addendum, authorization, applicability, freeze, root admission, exact child -O argv, environment and resource limits reconcile with actual accepted predecessors.",
+    "Actual normal and optimized stdout summaries are equal in all 996 bytes. This is opaque output equality, not independent native mathematical validation.",
+    "All 12 raw census outputs including 9995 rows were reconstructed by a distinct reviewer. The full final adaptation to the previously reviewed checker was read against the retained source. Its initially over-restrictive event grammar was corrected to retain the documented pre-exit leader snapshot followed by a confirming empty census. All 15 actual events reconcile, including two terminal polls; no source, threshold or target execution changed.",
+    "All four saved runtime namespace maps and every external pre/post runtime file, selection, namespace and host observation reconcile. These are observed snapshots under the retained trusted-host premise, not continuous immutability or a runtime import profile.",
+    "Genuine outer evidence is trusted coordinator tool-history transcription, not personally observed original tool calls. The exact later receipt child-end monotonic assignment is unlogged; only source-consistent ordering and deadline were independently checked.",
+    "Scientific stdout was hashed opaquely and not decoded. This completed optimized custody review does not accept native mathematics or qualify unexecuted caller controls and authorizes no next stage."
+  ],
+  "root_admission": {
+    "bytes": 3201,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_ADMISSION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_ADMISSION.json",
+    "sha256": "f69d54038602493a55ddc30d635405a71fad997b1ebd6b9fde9d46e78477d562",
+    "symlinks": []
+  },
+  "schema": "ri122-independent-completed-mode-review-v1",
+  "source_adjudication": {
+    "bytes": 3539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "status": "PASS_COMPLETED_OPTIMIZED_CUSTODY_ONLY",
+  "terminal_owned_group_absent": true
+}

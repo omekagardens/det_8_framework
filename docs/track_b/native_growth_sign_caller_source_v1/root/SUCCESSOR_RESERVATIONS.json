@@ -1,0 +1,30 @@
+{
+  "execution_delegated": false,
+  "measurement": {
+    "acknowledged": true,
+    "item": "RI130 complete nonauthor caller review",
+    "owner": "/root/ri116_complete_caller_review",
+    "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW",
+    "scope": "All47 files,30 pairs,124 historical pins,65 direct/substituted-control scope, full mode relation and independent runtime/load/entry/final-custody obligations. No scientific execution.",
+    "source_handoff": {
+      "bytes": 26684,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+    }
+  },
+  "native": {
+    "acknowledged": true,
+    "item": "RI132",
+    "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I",
+    "scope": "Source-only changed-caller qualification harness with all52/69 declaration correspondence, exact first-failure boundaries and explicit blocked coverage. No scientific target change or execution."
+  },
+  "ret_paused": true,
+  "root_owns_repository_index_git": true,
+  "root_source_adjudication": {
+    "bytes": 6126,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+    "sha256": "4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266"
+  },
+  "schema": "ri129-adjudicated-successors-v1"
+}

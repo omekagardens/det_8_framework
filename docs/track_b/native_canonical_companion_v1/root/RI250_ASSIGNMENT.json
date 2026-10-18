@@ -1,0 +1,22 @@
+{
+  "admission": {
+    "bytes": 3007,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_TWO_ROLE_LITERAL_ADMISSION.json",
+    "sha256": "444266879ba9afbbfd31cfdab7e03d1be4a596d4a316e14f2502ca97e3e58fdd"
+  },
+  "assignment": {
+    "bytes": 1729,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ASSIGNMENT.md",
+    "sha256": "aeb5155fcad888e264290a12880e6da37e43e869b436b4e4e3a5cdb58127f9e3"
+  },
+  "predecessor": {
+    "bytes": 1818,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI248_ROOT_ADJUDICATION.json",
+    "sha256": "fd1fd10bcec11ca9860941de7b37343b4f2fbd06f4714eb64ffac8d8e2a8b945"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri250-native-canonical-literals-7_4sso63",
+  "schema": "ri250-canonical-two-role-assignment-v1",
+  "scientific_execution": false,
+  "status": "ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

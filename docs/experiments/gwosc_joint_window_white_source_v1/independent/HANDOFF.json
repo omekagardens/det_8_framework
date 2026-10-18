@@ -1,0 +1,35 @@
+{
+  "blocking_findings": 0,
+  "complete_application_accepted": false,
+  "execution_authorized": false,
+  "files": [
+    {
+      "bytes": 15014,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "41bf240263f9b64bc1fa2532a33b96bd3f059f1af2b03b49ee22fffcc350cf58"
+    },
+    {
+      "bytes": 3114,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "e1d9f379be2508bc9567b5f6b47efd5a27978db9b9f6ba043f1e40016ff6e54b"
+    },
+    {
+      "bytes": 18567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/SOURCE_PIN_AND_TEXT_CHECK.json",
+      "sha256": "7151273599c7fe877bec2673e5c88e5ece49a37a5ff6329b633ca373156607c1"
+    },
+    {
+      "bytes": 5757,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-independent-review-z8c0p102/check_metadata_only.py",
+      "sha256": "f9636d781fd6fdf98c8729bdfa5d136d8d77df95e62384a5d800ca4a93b348ba"
+    }
+  ],
+  "schema": "ri125-independent-white-successor-review-handoff-v1",
+  "source": {
+    "bytes": 5379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-source-completion-bg27qfdn/HANDOFF.json",
+    "sha256": "4f5e547c359b8e1c3e4ee87f7b2351ce8259b705e7a3e033509b4072f3862468"
+  },
+  "source_only": true,
+  "status": "NO_BLOCKING_DEFECT_FOUND_IN_BOUNDED_UNEXECUTED_WHITE_SOURCE"
+}

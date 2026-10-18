@@ -1,0 +1,66 @@
+{
+  "opaque_bytes_rehashed_including_named_aliases": 377435325,
+  "opaque_identities_rehashed": 12429,
+  "original_namespace_before_seal": [
+    "ADMIN_CHECK.json",
+    "ADMIN_FAILURE.json",
+    "IDENTITIES.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_OUTCOMES.json",
+    "VERDICT.json",
+    "check_saved_capture.py",
+    "check_saved_capture_v2.py",
+    "seal_review.py"
+  ],
+  "original_review_payload_pins": [
+    {
+      "bytes": 5129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/ADMIN_CHECK.json",
+      "sha256": "2f18b90f0a6c5fe8916da53ce48035547ebbb49c2c68ee1f467243257bd64ad1"
+    },
+    {
+      "bytes": 4048,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/ADMIN_FAILURE.json",
+      "sha256": "04d1c3ccf347240352baf2307922f0fd3910abd698e1f87c7635b4f55f90bd10"
+    },
+    {
+      "bytes": 7903442,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/IDENTITIES.json",
+      "sha256": "741b59694c67d0a2532dd4c83fdace253d8409775cf883c879a3411050f551da"
+    },
+    {
+      "bytes": 13402,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/INDEPENDENT_REVIEW.md",
+      "sha256": "bb711ee4ada7421d8e1f1487b118f289f5c322872ff145b26d3362f7007b579a"
+    },
+    {
+      "bytes": 8874,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/TOOL_OUTCOMES.json",
+      "sha256": "26e4feff60e06505fdf01548c2b41f01e5c31273353e0c7c1c37d8ac4c07bd17"
+    },
+    {
+      "bytes": 2512,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/VERDICT.json",
+      "sha256": "3ef0351fbef0c06dd90537ea7e4a104b89c9c8fc28624e132260983c74edc2df"
+    },
+    {
+      "bytes": 25677,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture.py",
+      "sha256": "102f9f165d6e6729eecf4dae6597fc1956054fdd3b6ba49a30d9f7910ea1e844"
+    },
+    {
+      "bytes": 25686,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/check_saved_capture_v2.py",
+      "sha256": "0d4895aa3fc8226e306d674e076c01a5324941f5efb64b387b4643c9418e396a"
+    },
+    {
+      "bytes": 3521,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri186-current-e-capture-independent-68ebm0tu/seal_review.py",
+      "sha256": "4b3cc89dbc55517a215ce7ffa5ba9dbb509b30634c89ebecc78b2d18370a692b"
+    }
+  ],
+  "schema": "ri186-independent-final-review-check-v1",
+  "scientific_body_decode": false,
+  "status": "PASS",
+  "subject_or_vendor_execution": false
+}

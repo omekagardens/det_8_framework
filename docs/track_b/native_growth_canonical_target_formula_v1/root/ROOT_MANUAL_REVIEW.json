@@ -1,0 +1,61 @@
+{
+  "actual_prefix_values_evaluated": false,
+  "conclusion": "Root manual reasoning supports exact symbolic canonical target formula; independent sealed nonauthor review still required before root final adjudication",
+  "manual_checks": [
+    "All maximal deletion roles for terminals (5,1)/(4,1,1)/(4,2)/(3,2,1); b K2,4, d K2,2, staircase mixed pair joins both U marks and includes D4 U-U loops",
+    "P automorphism quotient leaves both separate arm ideals; Q/P/U repeated marked equations retain all rows and histories",
+    "Stage-four component cancellation J7=41p,J9=f_i,J11=g_iu and D selected C2=e_i*g_iu/v_i; C4 full root-only from nu/theta cubed without dividing by a contrast",
+    "Canonical Q/P tight from defect0 noncriticality, raising fullbirth, active-neutral and zero drift; C5/U fullbirth neutral leaves caps",
+    "Ferrers maximal deletion remains Ferrers; complete five/six shape classification closes all changed columns; holding all other coordinates including raising zero coefficients preserves every outside row",
+    "Every Q/P proper sum stays1, so full weighted objective is unchanged; no history weights chosen or recomputed",
+    "Unequal g gives h0,b1/(2L), exact nonempty t interval. Equal g gives exact polygon; algebra U gives Lca+3Lfb>=L+f-g",
+    "Attainment checked for f<=2L positive/zero threshold and equal g f>2L; nonemptiness forces f<=2L+g, witnessa0,b1/f. C5 cap inherited because attained minimum no larger than known feasiblea",
+    "Minimum-relation inversion swap strictly lowers highest changed row. Manual topological placements give E_Q<E_P<E_U<E_C5 and masks15<17<19, all a before b/d/h",
+    "One-root block exchange preserves other root/outside coordinates, so first changed original coordinate is a_i. Original full-vector lex selects attained minimum",
+    "p_i/L_i=1/41 yields N_i=(35/1476)sigma_i; negative sigma1 term uses upper k1 bound. No sign or adequate magnitude inferred",
+    "Strict full complement1/36-theta*U remains>1/72; no boundaryzero substituted into actuallaw"
+  ],
+  "read_scope": {
+    "fresh_literal": [
+      "RI127 RECORD_TRANSPORT.md70-195 including4/6/8 and all-record quantifiers",
+      "RI63 check.py125-166 layout/node,320-343 component order,250-315 row/potential,474-490 critical,570-690 row/diamond/objective aggregation,811-908 complete primary and lex checks,903-982 drift/active-neutral"
+    ],
+    "full_current": [
+      "HANDOFF.json",
+      "HANDOFF.md",
+      "ANALYTIC_RESULT.json",
+      "NEUTRAL_COMPONENT_INCIDENCE.md",
+      "COUPLED_EQUALITY_REDUCTION.md",
+      "CANONICAL_EQUALITY_SYNTHESIS.md",
+      "DEPENDENCY_NOTES.md",
+      "AUTHOR_CHECKS.json"
+    ],
+    "literal_chunks": [
+      "f168a7",
+      "c85e85",
+      "200642"
+    ],
+    "read_chunks": [
+      "e477ff",
+      "092022",
+      "039093",
+      "14f02f",
+      "e36aa6"
+    ],
+    "reuse": "Previously accepted RI149 all-Q-tight root consequence and unchanged RI41/RI63 complete finite-law premises; no new scientific-body read"
+  },
+  "remaining": [
+    "Actual fixed-prefix positive-part branches and root contrast ordering",
+    "Adequate uniform q/D3 and separate v/D3 with same correlated Z",
+    "Both joint endpoint budgets, actual rho obstruction-interval membership, W/C2/C3 and shared H30"
+  ],
+  "ret_paused": true,
+  "schema": "ri151-root-manual-formula-review-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 6054,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.json",
+    "sha256": "8b41c6467b47de9bb30b310a2f8cf6b3020a01bafcfa317d8276f6f77811eee6"
+  }
+}

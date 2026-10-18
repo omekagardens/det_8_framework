@@ -1,0 +1,177 @@
+{
+  "schema": "ri166-native-contrast-gap-author-handoff-v1",
+  "status": "SEALED_EXACT_REDUCTIONS_AND_REDUCED_COUNTEREXAMPLE_WITH_FULL_LAW_GAP",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 2804,
+    "sha256": "1ffbacf70b7a424205f89cb77a6395604a137cdab25005db71a0d4a9eb117f8f"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+    "bytes": 2404,
+    "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "operational_predecessor_role": "Whole identity and selecting authority only; mathematical source closure stops here, with no native/vendor/tool/qualification expansion.",
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CONTRAST_COUPLING.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "REDUCED_SYSTEM.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/AUTHOR_CHECKS.json",
+      "bytes": 32382,
+      "sha256": "48f79e3b31a47c4b4e4d81a90b1ccc7f6d56102871998f9b833b0b75fd936dba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md",
+      "bytes": 11920,
+      "sha256": "cfb1c64f3e9d8caa28427cf9a6acb993d85d52bec5e4d7f8458c4da43273fd51"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md",
+      "bytes": 16754,
+      "sha256": "24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md",
+      "bytes": 2610,
+      "sha256": "4d271fee887b0e2b28a76ae480f8d7d9ae0d0b88dc3c1286316557a074274965"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+      "bytes": 15927,
+      "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json",
+      "bytes": 228353,
+      "sha256": "be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json",
+      "bytes": 40504,
+      "sha256": "28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e"
+    }
+  ],
+  "manual_results": [
+    {
+      "kind": "exact normalization theorem",
+      "statement": "Dminus=d7+Dplus+c0-c1, Dplus=(p0-p1)_++(s0-s1)_+; therefore Dminus<=213d7 iff Dplus+c0-c1<=212d7."
+    },
+    {
+      "kind": "three zero-safe halfspaces",
+      "statement": "WithX=alpha11-alpha10,Y=alpha31-alpha30,G=alpha70-alpha71>0, the reverse bound is equivalent toX<=8733G,Y<=8733G,X+Y<=8733G."
+    },
+    {
+      "kind": "six component distinction theorem",
+      "statement": "C4 births at masks1,3,7 have terminal branching depths0,1,2; ratio edges preserve terminal type and the intrinsic root record, so all six marked components are distinct. Not independent feasibility inside full row inequalities or fixed witness."
+    },
+    {
+      "kind": "rejected reduced implication",
+      "statement": "The completely enumerated seven-group two-row system admits w=s0=s1=1/300,p0=1/250,p1=1/200,b0=3/4,b1=3/4-epsilon,c0=359/1500,c1=143/600+epsilon,0<rational epsilon<=1/10^6. All named scalar margins and complete shared-theta j/V/E/sensitivity formulas hold. For every0<theta<1/144,v/theta>1498/10^6, whileDminus/d7>=1000 and unbounded as positive epsilon decreases."
+    }
+  ],
+  "full_native_reverse_bound_decided": false,
+  "full_native_counterexample_claimed": false,
+  "actual_109_vector_read": false,
+  "grid_premise_used": false,
+  "remaining_full_law_coupling": "Prove the exact complement/opposing-contrast inequality or all three component halfspaces for the immutable actual vector, or from the complete applicable native system. No assertion that a proof from all retained premises is impossible.",
+  "counterexample_omissions": [
+    "All other marked rows, complete component incidence and full A/B matrix inequalities",
+    "Immutable actual109-vector and its default/override/component bindings",
+    "Same-law global M5 and theta linkage for hypothetical rows",
+    "Full parent-five primary/canonical solution and strict mixture",
+    "Global M6, actualrho, jointq/v, W/C2/C3/sharedH30"
+  ],
+  "actual_capacity_decided": false,
+  "sufficient_envelope_implication": "If the actual reverse bound is proved, RI157 gives strict v<B, rejecting only its sufficient envelope. Failure to prove it is not a pass or a W/H30 sign.",
+  "provenance": {
+    "selected_paths": 252,
+    "selected_bytes": 16343257,
+    "inherited_analytic_paths": 223,
+    "full_source_namespace": 10,
+    "full_independent_review_namespace": 10,
+    "full_admin_bodies": 88,
+    "governance_boundaries": 1,
+    "historical_refs": 1977,
+    "current_refs": 105,
+    "historical_extended_state_noncomparisons": 17,
+    "separate_equal_byte_pairs": 4
+  },
+  "actual_author_checks": {
+    "preseal6": {
+      "chunk": "88b815",
+      "exit_code": 0,
+      "fresh_identities": 258
+    },
+    "earlier_preseal6": {
+      "chunk": "f987a2",
+      "exit_code": 0,
+      "subsequent_change": "Editorial scientific JSON decoding/opaque hashing scope wording only; no mathematics changed."
+    },
+    "preseal7": {
+      "chunk": "901d86",
+      "exit_code": 0
+    },
+    "final_check_boundary": "Run after sealing and report genuine completion separately; not preclaimed here.",
+    "main_readback_chunks": [
+      "e65832",
+      "0a358f",
+      "2ac09c",
+      "1471c0",
+      "f8c283",
+      "b5cc38",
+      "427d4a"
+    ],
+    "coauthor_main_proof_read": "1a63d9",
+    "coauthor_reduced_final_pin": "4a588f",
+    "author_peer_reviews_not_independent": true,
+    "retained_display_diagnostics": "One main combined output and one mathematical-coauthor combined output clipped; recovered full source text before proof. No current shell/check failures.",
+    "scientific_arithmetic_executed_by_tool": false
+  },
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "RI165": "separate supervision review, not duplicated",
+    "targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused": 31,
+    "policy": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_parents": true,
+    "all_five_Di": true,
+    "shared_T1": true,
+    "strict_endpoints": true,
+    "labeled_ideal_multiplicities": true,
+    "withdrawn_seed_order_and_inverse_theta_excluded": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "opaque_scientific_ancestry_hashing_only": true,
+    "scientific_json_decoded": false,
+    "target_vendor_control_execution": false,
+    "source_import_compile_AST": false,
+    "executed_fixture": false,
+    "new_agents": false,
+    "repository_index_Git_write": false,
+    "operational_request_admission": false,
+    "physical_claim": false
+  },
+  "stop": "Frozen author packet for fresh independent review and owner adjudication. No successor assigned; root owns execution/admission/publication."
+}

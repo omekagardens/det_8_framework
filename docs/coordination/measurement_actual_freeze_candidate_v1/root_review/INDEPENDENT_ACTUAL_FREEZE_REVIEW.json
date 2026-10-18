@@ -1,0 +1,57 @@
+{
+  "candidate_field_count": 17,
+  "checker": {
+    "administrative_JSON_reads": 28,
+    "chunk": "ebf69e",
+    "exit_code": 0,
+    "predicates": 8648,
+    "total_fresh_identities_including_post_custody_pin": 2596,
+    "unique_fresh_identities_before_post_custody_pin": 2595
+  },
+  "checker_provenance": "Independent administrative tool invocation; actual source/output retained in tool transcript.",
+  "complete": {
+    "bytes": 176891,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/COMPLETE.json",
+    "sha256": "cbc97f695b822fd7ff12ab643d892968a951d7481c297d6fc175612d2f2c6823"
+  },
+  "failed_commands": [
+    {
+      "chunk": "0d77de",
+      "exit_code": 1,
+      "phase": "Independent administrative checker only",
+      "reason": "Python set passed to JSON serializer before candidate outcome reconstruction",
+      "recovery": "Corrected read-only replay ebf69e exit0; no subject retry, output rewrite or threshold relaxation"
+    }
+  ],
+  "limitations": [
+    "genuine external tool origin supported by root actual receipts",
+    "stable supplier/cache/Apple-host/loader/read-window and no-descendants premises",
+    "sampled child RSS, not continuous/group quota",
+    "candidate acceptance is separate from single-file E installation and later fresh per-mode custody"
+  ],
+  "prior_authorship": "RI130/RI141, not RI206 proposal; independently accepted historical semantics remain inherited.",
+  "proposal_or_subject_execution": false,
+  "result": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/RESULT.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "root_acceptance_created_by_reviewer": false,
+  "run_field_counts": {
+    "normal": 9,
+    "optimized": 9
+  },
+  "schema": "ri206-independent-actual-freeze-review-v1",
+  "scientific_execution": false,
+  "scope": [
+    "Complete canonical17-field candidate with four evidence references and both nine-field run maps independently reconstructed",
+    "Whole14-field COMPLETE,all7independent tails,all3operation files,4monitorfiles,567dependencies",
+    "764source/1810vendor/195namespace/fourtools/host and E whole identity/namespace before-after comparison;810historicalroles retained",
+    "Exact admission/dispatch/command/environment/genuine synchronous exit0; no session invented",
+    "All23 raw monitor attempts/samples reconstructed; elapsed0.796589125s,peak64592KiB,maxgap0.047170792s,finalgap0.029817207999999984s",
+    "E unchanged; no installed freeze/mode cards; no subject rerun"
+  ],
+  "status": "PASS_COMPLETE_SAVED_CANDIDATE_AND_CUSTODY"
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "ri145-weighted-margin-analytic-result-v1",
+  "status": "PROVISIONAL_ANALYTIC_INTERVAL_AND_CONDITIONAL_DOMAIN_BOUND",
+  "proof_method": "Manual algebra from authenticated accepted source premises; no numerical or symbolic-engine execution.",
+  "domain": {
+    "X": "min(R,1/4)",
+    "R": "1/[2(1+max(E0,E1))]",
+    "d": "2(3-2x+x^2)",
+    "Omega": "0<x<=X, 0<y<=1/d(x)",
+    "actual_pair_contained": true,
+    "all_formal_points_are_admissible_laws": false
+  },
+  "derived_claims": [
+    {
+      "id": "weighted_identity",
+      "claim": "W=3m0 C2+3j0 C3 is exactly seed-free using r30+3m0z2+3j0z3=0; epsilon2=theta epsilon3, D2=theta D3, r20=theta r30 and m0=theta^2 c0 reduce its held coefficients.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equations3–6"
+    },
+    {
+      "id": "reference_bounds",
+      "claim": "0<E2_i<2; 7/4<U20(x)<3 and3/2<U30(x)<2 throughout0<x<=X, retaining N_i>=0 singleton corrections.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equations7–11b; ENDPOINT_REDUCTION.md equations7–18"
+    },
+    {
+      "id": "formal_complements",
+      "claim": "17/41<1-yU20<1 and25/41<1-yU30<1 onOmega; this is not the claim that every formal point is a complete law or that f20>1/2 throughoutOmega.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equation11b"
+    },
+    {
+      "id": "uniform_bound",
+      "claim": "With the exact positive quadratic floor mu and explicit positive L,K,0<W/r30+1<=Lx+Kx^2 onOmega.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equations12–14 and squeeze paragraph"
+    },
+    {
+      "id": "quantified_obstruction_interval",
+      "claim": "For0<=alpha<1, delta_alpha=min(X,2(1-alpha)/(L+sqrt(L^2+4K(1-alpha))))>0; x<=delta_alpha impliesW<=-alpha r30 onOmega. In particular alpha=1/2 gives a strict negative gap.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equations15–16"
+    },
+    {
+      "id": "exact_endpoint_equivalence",
+      "claim": "UniformW<=0 onOmega is equivalent to A(x)<=0 andd(x)A(x)+B(x)<=0 for every0<x<=X; y=0 is a limiting endpoint, not an actual scale.",
+      "location": "WEIGHTED_MARGIN_PROOF.md equations6,18; ENDPOINT_REDUCTION.md equations22–26"
+    },
+    {
+      "id": "retained_contrast_gap",
+      "claim": "The exact q identity retains DeltaN,Delta(N omega),Delta(N omega^2),Deltah andDeltaj. No sign is inferred from nonnegative underlying entries; no replacement q proportional to v or D3 is made.",
+      "location": "ENDPOINT_REDUCTION.md equation29"
+    }
+  ],
+  "unresolved_alternatives_for_actual_obstruction": [
+    "Prove actual rho<=delta0 without choosing or retuning rho.",
+    "Prove LX+KX^2<=1, which would make the sufficient interval cover allOmega.",
+    "Prove the sharper exact endpoint conditions throughoutOmega, or another justified actual-scale sign argument."
+  ],
+  "not_established": {
+    "actual_C2_sign": true,
+    "actual_C3_sign": true,
+    "actual_W_sign": true,
+    "actual_rho_in_delta0": true,
+    "full_domain_W_nonpositive": true,
+    "actual_H30_obstruction": true,
+    "positive_H30_feasibility": true
+  },
+  "implication_boundaries": {
+    "W_nonpositive_at_actual_pair_rejects_both_strict_margins": true,
+    "W_positive_implies_both_strict_margins": false,
+    "two_positive_margins_imply_shared_H30_feasibility": false,
+    "zero_is_strict_positive": false
+  },
+  "immutable": {
+    "original_RI128_targets": [
+      "P2",
+      "P3"
+    ],
+    "original_numerical_Y": "1/4",
+    "baseline_seed_support_amplitude_unchanged": true,
+    "numerical_retry_or_retune": false,
+    "shared_T1_other_eight_connected_all_five_Di_retained": true,
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42
+  },
+  "scope": {
+    "scientific_body_decode": false,
+    "numerical_held_coefficient_or_seed_or_scale_evaluation": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_engine_or_proof_assistant": false,
+    "new_probability_table_or_candidate": false,
+    "new_controller_or_fixture": false,
+    "operational_admission": false,
+    "repository_or_git_operations": false,
+    "RET_paused": true,
+    "measurement_separate": true
+  },
+  "review": {
+    "author_peer_checks_only": true,
+    "independent_acceptance": false,
+    "root_adjudication": false
+  },
+  "stop": "Seal for independent proof review and root adjudication; no successor or execution."
+}

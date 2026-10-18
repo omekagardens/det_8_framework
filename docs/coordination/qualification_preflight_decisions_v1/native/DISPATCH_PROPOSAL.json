@@ -1,0 +1,139 @@
+{
+  "schema": "ri163-one-shot-dispatch-proposal-v1",
+  "status": "NOT_DISPATCHABLE_UNTIL_ROOT_RESOLVES_PREREQUISITES",
+  "source_caller_unchanged": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+    "bytes": 41969,
+    "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+  },
+  "request_proposal_identity": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "bytes": 2304,
+    "sha256": "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  },
+  "parent_argv": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+    "--request",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "--request-sha256",
+    "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  ],
+  "outer_argv": [
+    "/usr/bin/env",
+    "-i",
+    "LC_ALL=C",
+    "LANG=C",
+    "PATH=/usr/bin:/bin",
+    "/opt/homebrew/bin/gtimeout",
+    "--signal=TERM",
+    "--kill-after=5s",
+    "310s",
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+    "--request",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "--request-sha256",
+    "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  ],
+  "command_utf8": "exec /usr/bin/env -i LC_ALL=C LANG=C PATH=/usr/bin:/bin /opt/homebrew/bin/gtimeout --signal=TERM --kill-after=5s 310s /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py --request /Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json --request-sha256 bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749",
+  "command_utf8_has_trailing_newline": false,
+  "command_pin": {
+    "bytes": 547,
+    "sha256": "23c91a3409ce4b6b8da18055749dd302f57758ad14dc38150e610c8f83cb98b6"
+  },
+  "environment": {
+    "LANG": "C",
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "environment_pin": {
+    "bytes": 48,
+    "sha256": "37325ce8957b1b42f6a7d58f743fbc01b44df615bae14df36e74becf4dd19625"
+  },
+  "environment_pin_encoding": "Compact UTF-8 JSON in the exact key order LANG,LC_ALL,PATH with no final LF",
+  "tool_parameters_proposed": {
+    "shell": "/bin/zsh",
+    "login": false,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence",
+    "yield_time_ms": 1000,
+    "max_output_tokens": 3000
+  },
+  "tool_boundary": "yield_time_ms is not a termination deadline, max_output_tokens is not a byte-bounded retained capture, and this tool-parameter proposal is not root dispatch. Root must provide genuine bounded external capture and completion evidence.",
+  "supervisor": {
+    "path": "/opt/homebrew/bin/gtimeout",
+    "status": "MISSING_ENOENT",
+    "identity": null,
+    "invoked": false,
+    "proposed_term_after_seconds": 310,
+    "proposed_kill_after_term_seconds": 5,
+    "proposed_ordinary_outer_bound_seconds": 315,
+    "scope": "Distinct supervisor process avoids inherited ITIMER_REAL. It cannot ensure cleanup of caller children started in new sessions. No kernel-hard-stall completion promise."
+  },
+  "rejected_historical_command": {
+    "primitive": "Perl alarm followed by exec",
+    "reason": "RI161 parent refuses any preexisting ITIMER_REAL timer before installing its own300-second alarm (caller lines813–814). Do not use RI139 alarm960 exec recipe or silently remove caller guard."
+  },
+  "evidence_paths_proposed": {
+    "nonce": "0f632c815ef94824b7a160deb809c4ae",
+    "admission": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json",
+    "request": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "output_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae",
+    "outer_stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stdout",
+    "outer_stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stderr",
+    "outer_completion": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.completion.json"
+  },
+  "external_captures_required": {
+    "stdout_max_bytes": 8388608,
+    "stderr_max_bytes": 8388608,
+    "exclusive_creation": true,
+    "retain_partial": true,
+    "root_owned_completion_required": true,
+    "caller_output_directory_must_not_preexist": true
+  },
+  "retained_limits": {
+    "caller_seconds": 300,
+    "each_child_seconds": 120,
+    "reserved_child_cleanup_seconds": 2,
+    "child_work_seconds": 118,
+    "child_RLIMIT_AS_bytes": 536870912,
+    "child_RLIMIT_CPU_seconds": 110,
+    "child_RLIMIT_CORE_bytes": 0,
+    "each_internal_stream_and_report_bytes": 8388608,
+    "receipt_bytes": 262144,
+    "source_bytes": 2097152,
+    "request_bytes": 65536,
+    "cases_max": 10000
+  },
+  "independent_outcome_requirements": [
+    "Exactly2547 complete records in normal and2547 in optimized mode, with all exact variant IDs and no missing/failed cases",
+    "All independent expected outputs/refusals and full comparison requirements",
+    "Genuine flags, actual installed limit readbacks, real child exit/reap/group observation and whole captures",
+    "Both modes ordinary records equal except P11 actual optimization flags",
+    "All failed/partial diagnostics retained; outer nonzero,timeout,missing tail or unverified cleanup rejects attempt"
+  ],
+  "root_actions_before_dispatch": [
+    "Resolve RT01 with a genuine admitted separate-process supervisor and bounded outer capture; selected path currently absent, no installation or substitute authorized here",
+    "Resolve RT02 static native dependency/non-system supplier closure and explicitly accept system kernel/loader/shared-cache premises",
+    "Freshly recheck accepted source/request proposal, candidate/vendor/host state, supervision identity and proposed absent paths",
+    "Create a new one-shot root admission and exact proposed request bytes with exclusive files; do not create caller-owned output directory",
+    "Perform genuine externally supervised dispatch only after admission; no automated retry authority"
+  ],
+  "source_counts": {
+    "per_mode": 2547,
+    "total": 5094,
+    "families": 63
+  },
+  "candidate_invocations": 0,
+  "actual_request_created": false,
+  "admission_created": false,
+  "output_namespace_created": false,
+  "automatic_retry_authorized": false,
+  "QP04": "Actual fixed-certificate grid audit remains separate after independent synthetic qualification acceptance."
+}

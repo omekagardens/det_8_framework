@@ -1,0 +1,160 @@
+{
+  "actual_operands_for_root_archive": [
+    {
+      "bytes": 28432,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stdout",
+      "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+    },
+    {
+      "bytes": 81943,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/CHECKS.json",
+      "sha256": "4af9ee510ab570781962f8600d3538bace616f83474e90d2e5004a12646491fc"
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 1690939,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/BOOTSTRAP_PRE.json",
+      "sha256": "9ead0aca0235fb64af3c6d315ee7f39a48827a7f2f9bbf4dd540230588839310"
+    },
+    {
+      "bytes": 1690939,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/BOOTSTRAP_POST.json",
+      "sha256": "9ead0aca0235fb64af3c6d315ee7f39a48827a7f2f9bbf4dd540230588839310"
+    },
+    {
+      "bytes": 1149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_COMPLETE.json",
+      "sha256": "26d2fb69783d8ae28830f763346603883fcef1ee59c97de7d75d54edaa9a595a"
+    },
+    {
+      "bytes": 491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_CALL_DETAILS.json",
+      "sha256": "5a925fe5c942702a878c577161d699acdd519e0deea1e594ec4dac5f316cf3a7"
+    },
+    {
+      "bytes": 542,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/ROOT_CHECK_TOOL.json",
+      "sha256": "864d0fcc676f28cfa9af216a7ef77c6653d0cda5c6a97d4f393eea8381608812"
+    },
+    {
+      "bytes": 6362349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/RUNTIME_POST_IDENTITIES.json",
+      "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+    },
+    {
+      "bytes": 319410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/SOURCE_PRE.json",
+      "sha256": "df2c12c985a651ed13b4297737bb3c92c9dcb65f81386d5796580c542d804058"
+    },
+    {
+      "bytes": 319306,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/SOURCE_POST.json",
+      "sha256": "42690c121379d09f238624a74b3c24db2fc4a97b2b4a292828d71d0983766733"
+    },
+    {
+      "bytes": 13000,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/OPERATION_FINAL_IDENTITIES.json",
+      "sha256": "1089f0c1fd5839759a5b11880489ffae291d406a84bcccd7b8634b33062fea01"
+    }
+  ],
+  "also_include": [
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "external_only_preserved": [
+    {
+      "bytes": 10439610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+      "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+    },
+    {
+      "bytes": 14410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.py",
+      "sha256": "5b3317513b07a24cf8b7e13fa3407e166f5345d59abd0a72f3caddf828a3e17d"
+    },
+    {
+      "bytes": 14362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.before-count-boundary-fix.py",
+      "sha256": "f0282a55ab60729dc69381299c3f2227881dad79aa7fe1057949cb8901b051a8"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 21514,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/INDEPENDENT_OPTIMIZED_REVIEW.md",
+      "sha256": "6d50374bb80842867fa28b78f699e6e8910d8e6ec5d3fb4b0115a92563ecf333"
+    },
+    {
+      "bytes": 5794,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/VERDICT.json",
+      "sha256": "41473416e93fe8797a6de423fbe504719fd09286ce9475fbcde70a8ca03b136a"
+    },
+    {
+      "bytes": 6523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_CHECK_SUMMARY.json",
+      "sha256": "653b8ddd74cf54f95ff938318732366c11d671b1aaaafd450a1734cdb29df847"
+    },
+    {
+      "bytes": 3173,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "e796bea81108f2bea580b4d23ea598840dcfb45697f6d8ef3b6424b9b8aab29d"
+    },
+    {
+      "bytes": 1941,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/READ_COVERAGE.json",
+      "sha256": "0a62abc123c00a944d64af63b9a977226df1202645e63d0f948697d6bc52dda5"
+    },
+    {
+      "bytes": 2317,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/FINAL_INPUT_CUSTODY.json",
+      "sha256": "bea9a69128c906dbf9bcb174b22693e556cdf7746cf1b9434afa96a24d602e61"
+    },
+    {
+      "bytes": 42899,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/review_saved_optimized.py",
+      "sha256": "0762607c2e62664303a3a57cfcbf35725c0496d853e28991aa987fc3935aeccf"
+    },
+    {
+      "bytes": 570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/REVIEWER_REUSE.json",
+      "sha256": "4b8f498fb947ee4d2146139b7e24a8886d78847375f71d37b17cab6cbfd6bba9"
+    },
+    {
+      "bytes": 35430,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/REVIEWER_ADAPTATION.diff",
+      "sha256": "167431c14fb8f53591341f406456fcb7bd36b623cdda4312d89cb6260e41398a"
+    },
+    {
+      "bytes": 77699,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/RECONSTRUCTED_PROFILE_CHECK.json",
+      "sha256": "4752c15d10fbe2967e3042f63765db47ac138331cc578935b3616bebca9f1625"
+    },
+    {
+      "bytes": 85969,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/BOTH_MODE_RELATION.json",
+      "sha256": "0f7fc92fbf883a3820f4456102db86b9bfb46e6cad0419a3969b05c1fc838b4b"
+    },
+    {
+      "bytes": 630,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ADAPTATION_FAILURE_01.json",
+      "sha256": "1ee9c4c3194ba044a1d67b73014996ff186bc9f5881fcaabebaffb3631ca2524"
+    },
+    {
+      "bytes": 10499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/seal_review.py",
+      "sha256": "9cbeadf9679dc0eceea20e3f43c3339299b9b4d1ad3fb7317ab3f075ce23ed63"
+    }
+  ],
+  "not_self_contained_external_runtime_claim": true,
+  "reason": "Retain compact complete evidence and diagnostic hashes; large full predicate log and adaptation sources remain immutable externally. No duplicated current-runtime or vendor trees are created.",
+  "schema": "ri150-independent-review-compact-publication-v1"
+}

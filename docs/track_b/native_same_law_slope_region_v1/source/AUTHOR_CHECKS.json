@@ -1,0 +1,214 @@
+{
+  "schema": "ri173-author-check-record-v1",
+  "status": "AUTHOR_CHECKS_ONLY_INDEPENDENT_ADJUDICATION_PENDING",
+  "date": "2026-09-30",
+  "author_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02",
+  "authority": {
+    "receipt": "3816d2",
+    "exit_code": 0,
+    "scope": "Complete authenticated assignment, predecessor decision and bounded reservation/root listings."
+  },
+  "primary_reads": [
+    {
+      "receipt": "cf3a18",
+      "exit_code": 0,
+      "scope": "Complete authenticated root proof review and independent recommendation."
+    },
+    {
+      "receipt": "70df86",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI145 ENDPOINT_REDUCTION.md."
+    },
+    {
+      "receipt": "7322a3",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI151 COUPLED_EQUALITY_REDUCTION.md."
+    },
+    {
+      "receipt": "907274",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI155 CAPACITY_STRUCTURE.md."
+    },
+    {
+      "receipt": "ea079a",
+      "exit_code": 0,
+      "scope": "Complete authenticated RI157 CANONICAL_CAP_BOUND.md."
+    }
+  ],
+  "current_reads": [
+    {
+      "receipt": "2726fc",
+      "exit_code": 0,
+      "scope": "Complete SLOPE_REGION and pre-refinement CANONICAL_SLOPE text; latter phase superseded, not a final payload expectation."
+    },
+    {
+      "receipt": "2b7b2a",
+      "exit_code": 0,
+      "scope": "Complete authenticated final CANONICAL_SLOPE including equations17a/17b."
+    },
+    {
+      "receipt": "00bf3b",
+      "exit_code": 0,
+      "scope": "Complete authenticated DEPENDENCY_NOTES."
+    }
+  ],
+  "manual_math_review": [
+    "Re-derived RI145 b/(12xQ) with every divisor positive and the two negative terms intact.",
+    "Used actual RI157 R=Z branch, all four stem ideals including empty, and two H5 one-cap multiplicities.",
+    "Substituted gamma=35/1476 and each canonical positive part into U20 and all three signed q products.",
+    "Collected q=T_core+gamma(sigma0*k0-sigma1*k1); checked zero branches, k positivity and decreasing derivative.",
+    "Proved T(x) strictly decreasing with infinity limit and strict negative slope for v<=T_R including equality.",
+    "Manually derived T_R/B>15914/1782=7957/891>8 and normalized margin829/7128; these are bound constants, not evaluated actual coefficients.",
+    "Proved a unique crossover when v>T_R; negative initial interval; positive-clearing direction is an upper-q comparison on the terminal interval.",
+    "Expanded U20=U_base+gamma*x*sigma0*k0 and Psi*q-lambda*G*x*U20; preserved shared sigma0 coefficient Psi-lambda*G*x^2 with no assigned sign.",
+    "Separately derived a(R)>0 under v<=B; distinguished formal positive-y consequences from actual scales and actual W signs."
+  ],
+  "coauthors": {
+    "proof_and_peer_review": {
+      "agent": "/root/ri132_audit_controls",
+      "scope": "SLOPE_REGION authorship and manual review of companion; not independent root review.",
+      "complete_source_receipts": [
+        "8f0202",
+        "1d3fe8",
+        "85d207",
+        "5bede2",
+        "3b8e40",
+        "4815ad"
+      ],
+      "own_complete_read": "79b8f0",
+      "first_companion_read": "274731",
+      "final_complete_companion_read": "bf2042",
+      "final_pin_receipts": [
+        "c1c12a",
+        "49be95"
+      ],
+      "reported_exit_codes": 0,
+      "failed_or_truncated_reads_reported": false,
+      "findings": "No mathematical issue found; shared N0 correction and separate conditional intercept checked."
+    },
+    "provenance": {
+      "agent": "/root/ri132_evidence_contract",
+      "scope": "SOURCE_DEPENDENCIES, SOURCE_IDENTITIES and DEPENDENCY_NOTES only; author provenance not independent acceptance.",
+      "candidate_check": "578886",
+      "final_check": "0e556b",
+      "complete_note_reads": [
+        "910f57",
+        "435281"
+      ],
+      "final_note_pin": "4c79a5",
+      "reported_exit_codes": 0,
+      "reported_result": "300 identities,276 whole inherited rows,3175 historical+142 current typedrefs,17 state noncomparisons,four pairs,source8/review10 namespaces,uncached300 reread.",
+      "diagnostic": "A cached RI172 subject-object display was clipped; selective structural inspection followed. It was not treated as a fresh complete source read. No shell failure reported in this lane."
+    }
+  },
+  "diagnostics": [
+    {
+      "receipt": "f411b6",
+      "exit_code": 1,
+      "description": "Read-only pwd and rg --files -g AGENTS.md returned the working directory and no matching tracked/nonignored instruction file. No mutation; this is not a source-check success."
+    },
+    {
+      "receipt": "abb78f",
+      "exit_code": 0,
+      "description": "Combined text and nested governance display was clipped by the outer tool output budget. Not treated as complete final reading; final manuscript and notes were re-read separately in2b7b2a and00bf3b."
+    },
+    {
+      "description": "Historical author/reviewer diagnostics, including RI172 independent checker failure and revision, remain whole-pinned under the named opaque support boundaries. No historical checker was executed."
+    }
+  ],
+  "documentation_skill": {
+    "used": "pages:write-page with writing_quality",
+    "scope": "Existing external research Markdown format; separates conditional theorem, actual-prefix membership gap and physical/operational limits. No Page created.",
+    "initial_complete_read": "4d881f",
+    "refresh_complete_reads": [
+      "87557a",
+      "26c7ef"
+    ]
+  },
+  "preseal_check": {
+    "receipt": "b19383",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri173-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 300,
+      "selected_bytes": 18387887,
+      "inherited": 276,
+      "classifications": {
+        "analytic-source-text-or-review": 107,
+        "opaque-historical-acceptance-or-source-support": 85,
+        "opaque-scientific-historical-premise": 1,
+        "selected-administrative-proof-provenance": 106,
+        "selected-administrative-governance-boundary": 1
+      },
+      "historical_typed_references": 3175,
+      "current_typed_references": 142,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        8,
+        10
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 6,
+      "final_fresh_identity_rechecks": 306,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/CANONICAL_SLOPE.md",
+          "bytes": 15263,
+          "sha256": "81821c78fd0407db6d8d0523aa78641dfde6e34fd49aa7613295953c72ba9ac2"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/DEPENDENCY_NOTES.md",
+          "bytes": 16529,
+          "sha256": "96648774b13fbd28536d98d1a1c9460d0f649145014094ef92cf9e7065d9f6ba"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/HANDOFF.md",
+          "bytes": 3066,
+          "sha256": "0902b0a560307d7f5eaaae2922f0154db215b4d3129a5070c494924f4dbf12c4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SLOPE_REGION.md",
+          "bytes": 9969,
+          "sha256": "eabe9d0a322d046a002cc9a48a22087a2b40af4f7773523f0434fb03ca50c295"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SOURCE_DEPENDENCIES.json",
+          "bytes": 273912,
+          "sha256": "736b1107eb357b071ce1ee8c76042f950b792ef6b9139252d4719fc88b58f0dc"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/SOURCE_IDENTITIES.json",
+          "bytes": 61039,
+          "sha256": "4174222c4afce5d99b25569aca95f2f08f3f58edfbe0ca2da27e5126d061fd75"
+        }
+      ],
+      "mathematical_formula_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    }
+  },
+  "administrative_reproduction": {
+    "method": "Standalone inline Node fs/path/crypto checks only; no historical source/helper imported or executed. Script string below was passed directly to node -e with preseal6.",
+    "script": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq\",V=\"/Volumes/AI_DATA/development/det-review-evidence/ri172-independent-proof-review-shli6tby\";\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:273912,sha256:'736b1107eb357b071ce1ee8c76042f950b792ef6b9139252d4719fc88b58f0dc'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:61039,sha256:'4174222c4afce5d99b25569aca95f2f08f3f58edfbe0ca2da27e5126d061fd75'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:16529,sha256:'96648774b13fbd28536d98d1a1c9460d0f649145014094ef92cf9e7065d9f6ba'});\npin({path:Q+'/SLOPE_REGION.md',bytes:9969,sha256:'eabe9d0a322d046a002cc9a48a22087a2b40af4f7773523f0434fb03ca50c295'});\npin({path:Q+'/CANONICAL_SLOPE.md',bytes:15263,sha256:'81821c78fd0407db6d8d0523aa78641dfde6e34fd49aa7613295953c72ba9ac2'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===300&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===18387887,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===276,'old276');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['governance_stopping_boundary','historical_phase_record_boundary','predecessor_author_support_boundary'])need(eq(D[k],old[k]),'inherited boundary '+k);\nfor(const k of ['accepted_ri168_premises','accepted_ri166_premises','accepted_ri157_premises','accepted_ri157_margin_scope','accepted_ri155_premises','accepted_ri153_premises','excluded_historical_inferences','accepted_ri151_premises','accepted_ri149_premises','root_accepted_additional_observation','accepted_ri147_premises','accepted_ri145_premises','accepted_analytic_packets','premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations','inherited_scope_clarification','identity_interpretation'])need(eq(S[k],oldS[k]),'inherited S '+k);\nconst namespaces=[];\nfor(const[dir,count]of[[P,8],[V,10]]){\nconst h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\nneed(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'historical namespace '+dir);\nh.payloads.forEach(pin);namespaces.push({dir,names});\n}\nneed(eq(D.historical_phase_record_boundary,S.governance.RI166_phase_record_boundary),'phase S boundary');\nneed(eq(D.predecessor_author_support_boundary,S.governance.RI168_author_support_boundary),'support S boundary');\nneed(eq(D.ri172_author_support_boundary,S.governance.RI172_author_support_boundary),'new support S boundary');\nfor(const b of [D.historical_phase_record_boundary,D.predecessor_author_support_boundary,D.ri172_author_support_boundary])need(M.get(b.path).classification==='opaque-historical-acceptance-or-source-support'&&b.typed_reference_expansion===false,'author boundary routing');\nneed(D.ri172_author_support_boundary.path===P+'/AUTHOR_CHECKS.json','new author boundary path');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){\nif(!x||typeof x!=='object')return;\nif(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){\nneed(M.has(x.path)||(current&&x.path===Q+'/SOURCE_DEPENDENCIES.json'),'reference closure '+x.path);\npin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;\n}\nObject.values(x).forEach(v=>scan(v,current));\n}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_stopping_boundary),'governance rule');\nconst classes={};\nfor(const r of D.protected_files){\nclasses[r.classification]=(classes[r.classification]||0)+1;\nif(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(read(r.path).body));\nelse if(r.classification==='selected-administrative-governance-boundary')need(r.path===governance,'exact governance boundary');\n}\nneed(classes['selected-administrative-proof-provenance']===106&&classes['selected-administrative-governance-boundary']===1&&classes['analytic-source-text-or-review']===107&&classes['opaque-historical-acceptance-or-source-support']===85&&classes['opaque-scientific-historical-premise']===1,'class counts');\nneed(refs===3175&&extended===17&&states===17,'historical reference counts');\nrefs=0;scan(S,true);need(refs===142,'current S references');\nlet pairs=0;\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published)){need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');pairs++}\nneed(pairs===4,'pair count');\nconst final=['SLOPE_REGION.md','CANONICAL_SLOPE.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['SLOPE_REGION.md','CANONICAL_SLOPE.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.conditional_same_law_slope_theorem===true&&h.full_canonical_substitution_retained===true&&h.actual_regime_determined===false&&h.unconditional_slope_claimed===false&&h.actual_W_sign_claimed===false&&h.actual_109_vector_read===false&&h.scientific_execution===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(before.length===300+expected.length,'exact fresh check scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'end historical namespace');\nconsole.log(JSON.stringify({schema:'ri173-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:300,selected_bytes:18387887,inherited:276,classifications:classes,historical_typed_references:3175,current_typed_references:142,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[8,10],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n",
+    "final_seal_instruction": "Same inline script may be run with final8 after sealing. Final result is externally reported; it is not preclaimed or self-hashed here."
+  },
+  "scope": {
+    "same_law_prefix_unchanged": true,
+    "conditional_theorem_only": true,
+    "actual_regime_determined": false,
+    "unconditional_slope_claimed": false,
+    "actual_W_C2_C3_H30_sign_claimed": false,
+    "actual_109_vector_decoded": false,
+    "scientific_json_decoded": false,
+    "scientific_formula_executed": false,
+    "historical_helper_or_checker_executed": false,
+    "operational_admission_claimed": false,
+    "independent_acceptance_claimed": false,
+    "new_agent_or_thread_created": false,
+    "repo_index_git_mutated": false,
+    "ret_paused": true
+  }
+}

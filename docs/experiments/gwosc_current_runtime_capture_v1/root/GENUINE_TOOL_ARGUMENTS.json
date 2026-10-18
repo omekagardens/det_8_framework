@@ -1,0 +1,27 @@
+{
+  "schema": "ri146-genuine-tool-call-arguments-v1",
+  "initial_call": {
+    "tool": "exec_command",
+    "arguments": {
+      "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/CAPTURE_ADMISSION.json",
+      "login": false,
+      "yield_time_ms": 1000,
+      "max_output_tokens": 1600
+    },
+    "omitted_workdir_default": "/Volumes/AI_DATA/development/det_8_framework-ret",
+    "returned_chunk": "3d59d7",
+    "returned_session_id": 81040
+  },
+  "terminal_call": {
+    "tool": "write_stdin",
+    "arguments": {
+      "session_id": 81040,
+      "chars": "",
+      "yield_time_ms": 1000,
+      "max_output_tokens": 1800
+    },
+    "returned_chunk": "c78edf",
+    "exit_code": 0
+  },
+  "custody_premise": "Root retained actual tool calls and results from this conversation; local JSON bytes do not independently authenticate tool origin."
+}

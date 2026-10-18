@@ -1,0 +1,190 @@
+{
+  "claim": "Fixed synthetic joint-window arithmetic qualification only; no empirical or physical validation.",
+  "context": "fixed_synthetic_joint_window_arithmetic_only",
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "evidence": {
+    "caller_source_acceptance": null,
+    "runtime_acceptance": null,
+    "scientific_source_acceptance": {
+      "bytes": 4979,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-root-source-review-kc_ahnj9/ROOT_ADJUDICATION.json",
+      "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67"
+    }
+  },
+  "expected_runtime": null,
+  "helpers": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/control.py",
+      "pin": {
+        "bytes": 5171,
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/runtime_support.py",
+      "pin": {
+        "bytes": 6560,
+        "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py",
+      "pin": {
+        "bytes": 30158,
+        "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py",
+      "pin": {
+        "bytes": 8995,
+        "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+      }
+    }
+  ],
+  "history_closure": {
+    "bytes": 9461,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HISTORY_CLOSURE.source-only.json",
+    "sha256": "8d147220d847df3313095cef10e34fb00d35b30ca786aedf78481457484b3c2e"
+  },
+  "inputs": [],
+  "interpreter": {
+    "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "symlink_chain": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "target": "python3.11"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+        "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+      },
+      {
+        "path": "/opt/homebrew/opt/python@3.11",
+        "target": "../Cellar/python@3.11/3.11.6_1"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+        "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+      }
+    ],
+    "target": {
+      "bytes": 52640,
+      "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+    }
+  },
+  "limits": {
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "mode_admissions": {
+    "normal": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/ADMIT_NORMAL.json",
+    "optimized": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/ADMIT_OPTIMIZED.json"
+  },
+  "phase": "fabricated_joint_window_qualification",
+  "report_domain": {
+    "bytes": 11078,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/REPORT_DOMAIN.source-only.json",
+    "sha256": "5d65ed63f39fc66f8bf2394a42082f555f97b1a8a0343d38fb364d63b3436f0e"
+  },
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+  "runs": {
+    "normal": {
+      "claim": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/attempt.json",
+      "command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/AUTHORIZED_FREEZE.json",
+        "normal"
+      ],
+      "custody": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/CUSTODY.json",
+      "launcher_command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/AUTHORIZED_FREEZE.json",
+        "normal"
+      ],
+      "receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/receipt.json",
+      "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/stderr",
+      "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/RESULT.json",
+      "worker_receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/normal/runtime.json"
+    },
+    "optimized": {
+      "claim": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/attempt.json",
+      "command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/worker.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/AUTHORIZED_FREEZE.json",
+        "optimized"
+      ],
+      "custody": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/CUSTODY.json",
+      "launcher_command": [
+        "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/launch.py",
+        "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/AUTHORIZED_FREEZE.json",
+        "optimized"
+      ],
+      "receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/receipt.json",
+      "stderr": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/stderr",
+      "stdout": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/RESULT.json",
+      "worker_receipt": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/controls/optimized/runtime.json"
+    }
+  },
+  "runtime_inventory": null,
+  "schema": "ri121-source-only-manifest-template-v1",
+  "sources": [
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/primary.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "pin": {
+        "bytes": 20346,
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "relative": "primary.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/validator.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "pin": {
+        "bytes": 23321,
+        "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+      },
+      "relative": "validator.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/science/qualify.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "pin": {
+        "bytes": 14435,
+        "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+      },
+      "relative": "qualify.py"
+    }
+  ],
+  "status": "NOT_AUTHORIZED_SOURCE_TEMPLATE_ONLY"
+}

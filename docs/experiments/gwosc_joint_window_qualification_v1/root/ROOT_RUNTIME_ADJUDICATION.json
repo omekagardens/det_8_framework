@@ -1,0 +1,146 @@
+{
+  "complete_pure_python_stdlib": true,
+  "evidence": [
+    {
+      "bytes": 4302,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+      "sha256": "5438ae6344a895e018f519b0f62a595a884aa516cd0dcfefabb12dba5077a9e8"
+    },
+    {
+      "bytes": 91260,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_SAVED_PROFILE_CHECK.json",
+      "sha256": "24bff64ba5ebaf5d0ca97f5af2bb1bacff463b74c292e69d03f18ecd36a14d5a"
+    },
+    {
+      "bytes": 355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL_OUTER_TOOL.json",
+      "sha256": "720b130f19fac79031853a0aebbfed2fb5e0f2f81f697d395a7522f386638f8d"
+    },
+    {
+      "bytes": 358,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED_OUTER_TOOL.json",
+      "sha256": "915eab1b350b5cebc3c360b94ec6e3f93dc1cf12f62d50abd38aedc86d3f47ff"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PRE_SCIENCE_RUNTIME_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 3923,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+      "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+    }
+  ],
+  "expected_runtime": {
+    "base_exec_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "byteorder": "little",
+    "dont_write_bytecode": 1,
+    "exec_prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "executable": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "implementation": "cpython",
+    "isolated": 1,
+    "optimize": 0,
+    "path": [
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11",
+      "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    ],
+    "prefix": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env",
+    "version": "3.11.6 (main, Nov  2 2023, 04:39:43) [Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "version_info": [
+      3,
+      11,
+      6,
+      "final",
+      0
+    ]
+  },
+  "fresh_actual_profile_checked": true,
+  "independent_actual_review": {
+    "bytes": 12893,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-profile-7iz9gfzx/INDEPENDENT_SAVED_PROFILE_REVIEW.json",
+    "sha256": "e6c11ef58e972bfdcbea6e2ff6012648841d846a45e71d43564e836bb01d5c50"
+  },
+  "interpreter": {
+    "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+    "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "symlink_chain": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+        "target": "python3.11"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+        "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+      },
+      {
+        "path": "/opt/homebrew/opt/python@3.11",
+        "target": "../Cellar/python@3.11/3.11.6_1"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+        "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+      }
+    ],
+    "target": {
+      "bytes": 52640,
+      "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+    }
+  },
+  "non_os_shared_library_closure_bound": true,
+  "premises": [
+    "Trusted installed Python/package suppliers and captured executable source/cache alternatives. Header equality is not source-cache semantic equivalence; file/module descriptors are not a complete dynamic execution trace.",
+    "Trusted Apple kernel/loader/shared-cache implementation and stable filesystem during the bounded run; visible uname/SystemVersion identity checked. No complete OS image or hermetic runtime claim.",
+    "All applicable third-party binary/config bytes are pinned. Config has no active external include/engine; default algorithm use and legacy/engine conservative bytes retained. Available digest names are not provider identities.",
+    "Actual Python decimal fallback observed in both modes after genuine missing-libmpdec3 ImportError; fixed eight absences plus three actual overlay/resolved routes and optlink are separately retained.",
+    "Source/cache selection metadata, optional native namespaces and extra dyld routes are external root pre/post custody, not additions to unchanged runtime_support v2 in-process guards."
+  ],
+  "qualification_boundary": "Runtime qualification only. Full synthetic scientific qualification must execute separately; no empirical/native/physical validation, release, or programme completion.",
+  "required_pre_post_record": "Every actual scientific mode requires a fresh complete root metadata record before/after with exact observed_dyld_routes sidecar ref, matching selection/file identity digest and optional namespaces, stable uname/SystemVersion. No absent/null sidecar accepted.",
+  "required_root_custody": [
+    {
+      "bytes": 6475,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+      "sha256": "919766190e3b2ba0a300b1d23eb301c1f21000812ab7df396f4edee295c2b587"
+    },
+    {
+      "bytes": 3144,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    },
+    {
+      "bytes": 654,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+      "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+    },
+    {
+      "bytes": 3820963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/FILE_SELECTION_METADATA.candidate.json",
+      "sha256": "23211b59946b46e5c6f051b04d67bf5f8ed178ec9f27a30371887077ae86ea74"
+    },
+    {
+      "bytes": 4056,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+      "sha256": "8d49533bb80070e02defe236348a5528bcac4f4ce23ca214f781dd612475ac1d"
+    }
+  ],
+  "runtime_inventory": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/RUNTIME_INVENTORY.json",
+    "pin": {
+      "bytes": 2806092,
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    }
+  },
+  "schema": "ri121-root-current-runtime-adjudication-v1",
+  "scientific_targets_executed": false,
+  "site_startup_surface_bound": true,
+  "source_acceptance": {
+    "bytes": 5892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+  },
+  "status": "ACCEPT_CURRENT_STDLIB_INTERPRETER_CLOSURE"
+}

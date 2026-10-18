@@ -1,0 +1,172 @@
+{
+  "RET_paused": true,
+  "adapter_tails": 7,
+  "dependencies": 567,
+  "elapsed_seconds": 1.5863065840000001,
+  "final_sample_to_reap_gap_seconds": 0.03509545900000011,
+  "full_result": {
+    "freeze": {
+      "bytes": 26214,
+      "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+    },
+    "host_identity_unchanged": true,
+    "metadata_record": {
+      "bytes": 2653,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+      "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+    },
+    "mode": "normal",
+    "observed_dyld_routes": {
+      "bytes": 771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+      "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+    },
+    "optional_namespaces_unchanged": true,
+    "runtime_acceptance": {
+      "bytes": 22342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+    },
+    "schema": "ri130-root-pre-mode-runtime-custody-v1",
+    "selection_unchanged": true
+  },
+  "genuine_tools": {
+    "bytes": 3806,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_OPERATION_TOOLS.json",
+    "sha256": "3f1d159344dc18dd669f4b2b91dc83b403314fdb55cbb207ea692426180f5965"
+  },
+  "loader_cache_closure_not_proved": true,
+  "maximum_sample_gap_seconds": 0.047173542,
+  "mode_card_created": false,
+  "monitor_identities": [
+    {
+      "bytes": 881,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.ATTEMPT.json",
+      "sha256": "969670f19ebf2db4b98d49753db14e59b8a42119d56a46f8dc38b54b0f679e64",
+      "state": [
+        16777244,
+        429543,
+        33188,
+        1,
+        881,
+        1790858550394214900,
+        1790858550394214900
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11732,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.COMPLETION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.COMPLETION.json",
+      "sha256": "4360999b980b4fce71fde8ae42c7457d616e8a52272632f8971a39b2ba6a703c",
+      "state": [
+        16777244,
+        429550,
+        33188,
+        1,
+        11732,
+        1790858551981214822,
+        1790858551981214822
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        429545,
+        33188,
+        1,
+        0,
+        1790858550436362408,
+        1790858550436390200
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/monitor/PRE_MODE.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        429544,
+        33188,
+        1,
+        0,
+        1790858550436282241,
+        1790858550436318533
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "output_identities": [
+    {
+      "bytes": 375,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/ATTEMPT.json",
+      "sha256": "0089f56e0dfef2ecd07121a7445d08ae1df045000b0f20ce3d4c18b8e908ebf0",
+      "state": [
+        16777244,
+        429547,
+        33188,
+        1,
+        375,
+        1790858551007667225,
+        1790858551007667225
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 176900,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/COMPLETE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/COMPLETE.json",
+      "sha256": "2e68d78fb921d64da8a064ac66a1da22ae6746eb1774d46f288a651d67ea73c2",
+      "state": [
+        16777244,
+        429549,
+        33188,
+        1,
+        176900,
+        1790858551947270306,
+        1790858551947270306
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1085,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+      "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544",
+      "state": [
+        16777244,
+        429548,
+        33188,
+        1,
+        1085,
+        1790858551856160894,
+        1790858551856160894
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "parent_pid_not_child_identity": true,
+  "peak_sampled_rss_kib": 168784,
+  "raw_attempts": 42,
+  "reviewed_identities": 593,
+  "sampled_child_not_group_quota": true,
+  "samples": 42,
+  "scientific_execution": false,
+  "source_objects": 13,
+  "stable_host_supplier_and_no_descendant_premises_retained": true,
+  "status": "PASS_COMPLETE_METADATA_OPERATION_RECONSTRUCTION",
+  "whole_postflight": {
+    "bytes": 1759691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/POSTFLIGHT.json",
+    "sha256": "79d2662a53da46dcb68f83df25e01563726f4942838b30bc023711a3cb742acc"
+  }
+}

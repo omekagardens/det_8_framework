@@ -1,0 +1,26 @@
+{
+  "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+  "resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+  "symlink_chain": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python",
+      "target": "python3.11"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/python3.11",
+      "target": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+    },
+    {
+      "path": "/opt/homebrew/opt/python@3.11",
+      "target": "../Cellar/python@3.11/3.11.6_1"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/bin/python3.11",
+      "target": "../Frameworks/Python.framework/Versions/3.11/bin/python3.11"
+    }
+  ],
+  "target": {
+    "bytes": 52640,
+    "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+  }
+}

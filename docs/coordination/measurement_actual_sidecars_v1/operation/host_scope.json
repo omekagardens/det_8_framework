@@ -1,0 +1,1473 @@
+{
+  "bootstrap": {
+    "actual": {
+      "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "symlink_chain": [],
+      "target": {
+        "bytes": 102352,
+        "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+      }
+    },
+    "base_prefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+    "dont_write_bytecode": 1,
+    "executable": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "isolated": 1,
+    "modules": [
+      {
+        "binding": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 45721,
+            "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+          }
+        },
+        "cached": null,
+        "file": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "loader_type": "NoneType",
+        "name": "__main__",
+        "origin": null
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_abc",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_blake2.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_blake2.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 202384,
+            "sha256": "7fdd9e2c3f9606c734ec78b84fad79909cbaeb5bc912effb4f1c116655c42419"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_blake2.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_blake2",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_blake2.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_bootlocale.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_bootlocale.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 1801,
+            "sha256": "864f1172268fbc54a6e8ed66ba1158cae8c1707517ff36c1734a97bb3d0e7f21"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/_bootlocale.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_bootlocale.py",
+        "loader_type": "SourceFileLoader",
+        "name": "_bootlocale",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_bootlocale.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bz2.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bz2.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 137104,
+            "sha256": "bd558bb125407e0007848ec562bd30fb535200471cb1d5f38b01b9bac76d3b1c"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bz2.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_bz2",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_bz2.cpython-39-darwin.so"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_codecs",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_collections",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_collections_abc.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_collections_abc.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 29377,
+            "sha256": "b48bf9fb41a1712a7e179c095d6dc871d84c5da2f651d35e91cc4a7c230ce60f"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/_collections_abc.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_collections_abc.py",
+        "loader_type": "SourceFileLoader",
+        "name": "_collections_abc",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_collections_abc.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_compression.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_compression.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 5340,
+            "sha256": "326755377c7b8d98cf71333d62e5b4cb1c4e06519d704961da025f5933dee08d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/_compression.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_compression.py",
+        "loader_type": "SourceFileLoader",
+        "name": "_compression",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_compression.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 40322,
+            "sha256": "dccbc1da2f9e922b2faab3b1db5543f6898539b3603b406a88b03a287d76a62e"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+        "loader_type": "type",
+        "name": "_frozen_importlib",
+        "origin": "frozen"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 64569,
+            "sha256": "ae0b9f573429b63e40942e8d3365c73a7ed37302fff6dfc7eebbd2bb62b6bd85"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+        "loader_type": "type",
+        "name": "_frozen_importlib_external",
+        "origin": "frozen"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_functools",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_hashlib.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_hashlib.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 172560,
+            "sha256": "651a797ed39c5cdfcf416cbde0651e08fd990552ed0faa15676e279e71ecd7bc"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_hashlib.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_hashlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_hashlib.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_heapq.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_heapq.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 151024,
+            "sha256": "82137c5d55dc2716cd10dbe0b66644ed6c869bf613d67524b0b1849910bdc116"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_heapq.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_heapq",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_heapq.cpython-39-darwin.so"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_imp",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_io",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_json.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_json.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 171456,
+            "sha256": "f47692646ee579a49826992a6982ee5d9d217bbf12922408333eea02a66684ae"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_json.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_json",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_json.cpython-39-darwin.so"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_locale",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lzma.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lzma.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 171920,
+            "sha256": "3917dab8b6fe63cb0e337bb1c72cb4847080b4c60f5712eb6ee30f47f30f6047"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lzma.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_lzma",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_lzma.cpython-39-darwin.so"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_operator",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixsubprocess.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixsubprocess.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 137888,
+            "sha256": "7629c166c9c70964572e58d6d895623a252da36412367e5601913ac4859974e7"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixsubprocess.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_posixsubprocess",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_posixsubprocess.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha3.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha3.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 251504,
+            "sha256": "01a054108dfc4ce2b02a673c1c9dfee51450345fb3fae2b8fe5910df8a095e76"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha3.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "_sha3",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/_sha3.cpython-39-darwin.so"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_signal",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_sitebuiltins.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_sitebuiltins.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 3115,
+            "sha256": "e9d3761e39a049203c19f4c4cd9259f3636f10a2c0f58cea579f0400fa453294"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/_sitebuiltins.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_sitebuiltins.py",
+        "loader_type": "SourceFileLoader",
+        "name": "_sitebuiltins",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_sitebuiltins.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_sre",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_stat",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_thread",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_warnings",
+        "origin": "built-in"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "_weakref",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 5817,
+            "sha256": "07f242a104934c6a6269ea0db05c15ad8059600b5ddff79e92fcc0118ce37491"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/_weakrefset.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py",
+        "loader_type": "SourceFileLoader",
+        "name": "_weakrefset",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/abc.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/abc.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 4920,
+            "sha256": "937d73a33adba6b015171e0e2670ec4ddfe155e36f9ab4bf711853d3b7df6419"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/abc.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/abc.py",
+        "loader_type": "SourceFileLoader",
+        "name": "abc",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/abc.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/argparse.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/argparse.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 97714,
+            "sha256": "0e82574a85809fa1b7e0ce7e05230ff0a95ce196713cfbed47ab79bccb37ab0f"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/argparse.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/argparse.py",
+        "loader_type": "SourceFileLoader",
+        "name": "argparse",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/argparse.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "builtins",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/bz2.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/bz2.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 12447,
+            "sha256": "76c634cd36f697149ac6a9baaf9d8f72005b701cfb90e4090c37236cc0e48264"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/bz2.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/bz2.py",
+        "loader_type": "SourceFileLoader",
+        "name": "bz2",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/bz2.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 36673,
+            "sha256": "8c88dc3fa4a2b85759c8c5394dce9c0a5248e99ea85fc57f42d7372da0e69256"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/codecs.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py",
+        "loader_type": "SourceFileLoader",
+        "name": "codecs",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/codecs.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__init__.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__init__.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 49819,
+            "sha256": "0521f8084998b03f29317872a35531adea4708b32b0ebd4cfdf8e178a93dba76"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__pycache__/__init__.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__init__.py",
+        "loader_type": "SourceFileLoader",
+        "name": "collections",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__init__.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/abc.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/abc.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 185,
+            "sha256": "48b5761c03a85a6ce56f5cdbded1c909133da568f3c61369cff128118706f35f"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/__pycache__/abc.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/abc.py",
+        "loader_type": "SourceFileLoader",
+        "name": "collections.abc",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/collections/abc.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 23676,
+            "sha256": "dd570a85645667f767f4733e90801e77d3f8980a71fe6341255e8336de1a583b"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/contextlib.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py",
+        "loader_type": "SourceFileLoader",
+        "name": "contextlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copyreg.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copyreg.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 7274,
+            "sha256": "55c1fa8ee6e89eb8645441d5fc1e215c5ec95d8fce218107d3f9d9e25ca31a2d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/copyreg.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copyreg.py",
+        "loader_type": "SourceFileLoader",
+        "name": "copyreg",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/copyreg.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__init__.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__init__.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 5802,
+            "sha256": "4776cea7e37975dbfcb71198a22e16af3ac78e6f4337b59ce0631c7e0cc1430a"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/__init__.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__init__.py",
+        "loader_type": "SourceFileLoader",
+        "name": "encodings",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__init__.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/aliases.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/aliases.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 15677,
+            "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/aliases.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/aliases.py",
+        "loader_type": "SourceFileLoader",
+        "name": "encodings.aliases",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/aliases.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/cp437.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/cp437.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 34564,
+            "sha256": "5c2a5015cd36cf7f561269f33dec4c323093d3d88b0673969accdabdcb9ce2cb"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/cp437.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/cp437.py",
+        "loader_type": "SourceFileLoader",
+        "name": "encodings.cp437",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/cp437.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/latin_1.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/latin_1.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 1264,
+            "sha256": "b75503e532a27c636477396c855209ff5f3036536d2a4bede0a576c89382b60c"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/latin_1.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/latin_1.py",
+        "loader_type": "SourceFileLoader",
+        "name": "encodings.latin_1",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/latin_1.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/utf_8.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/utf_8.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 1005,
+            "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/__pycache__/utf_8.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/utf_8.py",
+        "loader_type": "SourceFileLoader",
+        "name": "encodings.utf_8",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/encodings/utf_8.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 39440,
+            "sha256": "1fbc8192d68b50b55169e391ef02ade61be803e61665ca65de1c43051d6b7b10"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/enum.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py",
+        "loader_type": "SourceFileLoader",
+        "name": "enum",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "errno",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/fnmatch.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/fnmatch.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 6004,
+            "sha256": "10aac42dbd125cb1bf952c9528e43511671d5756616c0f75f6a8f527ac936fc7"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/fnmatch.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/fnmatch.py",
+        "loader_type": "SourceFileLoader",
+        "name": "fnmatch",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/fnmatch.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 37491,
+            "sha256": "7bddb80d53e7e9b0bf0d0527b8957911ca9aa3fa931f75525f122b1dc09504a5"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/functools.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py",
+        "loader_type": "SourceFileLoader",
+        "name": "functools",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/genericpath.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/genericpath.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 4975,
+            "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/genericpath.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/genericpath.py",
+        "loader_type": "SourceFileLoader",
+        "name": "genericpath",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/genericpath.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/gettext.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/gettext.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 27266,
+            "sha256": "46c4d4e2e72bcd572e64bfbce15975d8054a65af167664c6da193773c38dd1ae"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/gettext.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/gettext.py",
+        "loader_type": "SourceFileLoader",
+        "name": "gettext",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/gettext.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 136224,
+            "sha256": "b8b374645e2cf26b4fdf042b7d85d9e0b35ac5829f753ed6de95e4371e055cbb"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "grp",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/hashlib.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/hashlib.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 10010,
+            "sha256": "a25e6f24d6ae5b5205844e2717f3d6dbeda005c1afeaf4d450b4f2c363a3d34a"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/hashlib.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/hashlib.py",
+        "loader_type": "SourceFileLoader",
+        "name": "hashlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/hashlib.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/heapq.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/heapq.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 22877,
+            "sha256": "0351667ed3afd3310ebd353526824d6f6f34d641ef0a785552c6893b7f95fdf3"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/heapq.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/heapq.py",
+        "loader_type": "SourceFileLoader",
+        "name": "heapq",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/heapq.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 6061,
+            "sha256": "45421c08a03062ba41e37e484cb0e4d8474be13c2a34806cb5b63c9edcb94a10"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__pycache__/__init__.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py",
+        "loader_type": "SourceFileLoader",
+        "name": "importlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 40322,
+            "sha256": "dccbc1da2f9e922b2faab3b1db5543f6898539b3603b406a88b03a287d76a62e"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap.py",
+        "loader_type": "type",
+        "name": "importlib._bootstrap",
+        "origin": "frozen"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 64569,
+            "sha256": "ae0b9f573429b63e40942e8d3365c73a7ed37302fff6dfc7eebbd2bb62b6bd85"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/_bootstrap_external.py",
+        "loader_type": "type",
+        "name": "importlib._bootstrap_external",
+        "origin": "frozen"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/abc.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/abc.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 14924,
+            "sha256": "bb1ede7cadc644812085a65ce8de61cfd4984544d49d6893e80d8506cf29dc41"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__pycache__/abc.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/abc.py",
+        "loader_type": "SourceFileLoader",
+        "name": "importlib.abc",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/abc.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/machinery.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/machinery.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 844,
+            "sha256": "d8675d9b5553ae4ce0a01005bc47a199b9167ef2c4217a4bbda8f457170aae8b"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__pycache__/machinery.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/machinery.py",
+        "loader_type": "SourceFileLoader",
+        "name": "importlib.machinery",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/machinery.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/util.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/util.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 11321,
+            "sha256": "b6a71515fade6516217f7c7d78ab927fde6530a145543c39ce03d1577f668fb7"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__pycache__/util.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/util.py",
+        "loader_type": "SourceFileLoader",
+        "name": "importlib.util",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/util.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/io.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/io.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 3541,
+            "sha256": "01907eff5e1a17d37e967b4d6d1bd2230e03d30f56cc1a1384a14dd77be5ff60"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/io.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/io.py",
+        "loader_type": "SourceFileLoader",
+        "name": "io",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/io.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "itertools",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 14017,
+            "sha256": "332fabb72a4a1ed02c9207a7619ab339dac8f0b6862e16f6499147121b302a27"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__pycache__/__init__.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py",
+        "loader_type": "SourceFileLoader",
+        "name": "json",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 12472,
+            "sha256": "079f7a25863c18fc9a9abc59735d684535b9deaafc08acda416997784b78e9c5"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__pycache__/decoder.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py",
+        "loader_type": "SourceFileLoader",
+        "name": "json.decoder",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 16072,
+            "sha256": "cdb1eb54c453f672c56caf00c02ace80c97fb48121c4af734b7c4123ceb1fb3d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__pycache__/encoder.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py",
+        "loader_type": "SourceFileLoader",
+        "name": "json.encoder",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/encoder.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/scanner.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/scanner.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 2425,
+            "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__pycache__/scanner.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/scanner.py",
+        "loader_type": "SourceFileLoader",
+        "name": "json.scanner",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/scanner.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/keyword.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/keyword.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 1047,
+            "sha256": "22997a4c432a03c3ec9b91d0c20be3d59648fd22c6f1251c6d071fd3f32b7308"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/keyword.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/keyword.py",
+        "loader_type": "SourceFileLoader",
+        "name": "keyword",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/keyword.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/locale.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/locale.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 78271,
+            "sha256": "4a5df24c0fe4ea0ce1ea3331365bd80a3060069109e615b66a4c9968fecd438f"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/locale.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/locale.py",
+        "loader_type": "SourceFileLoader",
+        "name": "locale",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/locale.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lzma.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lzma.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 13231,
+            "sha256": "497227c971f4b6407c86fb31254a10edfe4c97c017e63a5eca026a8ba112a165"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/lzma.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lzma.py",
+        "loader_type": "SourceFileLoader",
+        "name": "lzma",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lzma.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "marshal",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/math.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/math.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 205680,
+            "sha256": "fdf75c6e44a518c2fbf3c35d45c3b81973155ab4996fbd2843cee5e242136e26"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/math.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "math",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/math.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ntpath.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ntpath.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 27734,
+            "sha256": "d4dad66e55873f0649884f723271da7ab3efb6b7ffc55c02f6d231d377552950"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/ntpath.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ntpath.py",
+        "loader_type": "SourceFileLoader",
+        "name": "ntpath",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ntpath.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/operator.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/operator.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 10711,
+            "sha256": "eb0193353c7be76c92fc55123129b2f4cc92ab27fbcfedb140f2404c8774b63d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/operator.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/operator.py",
+        "loader_type": "SourceFileLoader",
+        "name": "operator",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/operator.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 39404,
+            "sha256": "8dbe2d2e9f228747cacbbcc6758721e794b652e5c22b6224cb07e303ebbc620d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/os.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py",
+        "loader_type": "SourceFileLoader",
+        "name": "os",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 15627,
+            "sha256": "f1b267bec4f8d29b2aadf21d019bf6e0935ab1c2c6c9ec0981cb7c54191be986"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/posixpath.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+        "loader_type": "SourceFileLoader",
+        "name": "os.path",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 53285,
+            "sha256": "6b33d2d55c09aa9c607a528003ed8fe154894afaa977ec554e0a858240412b72"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/pathlib.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py",
+        "loader_type": "SourceFileLoader",
+        "name": "pathlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "posix",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 15627,
+            "sha256": "f1b267bec4f8d29b2aadf21d019bf6e0935ab1c2c6c9ec0981cb7c54191be986"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/posixpath.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py",
+        "loader_type": "SourceFileLoader",
+        "name": "posixpath",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/posixpath.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "pwd",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 15861,
+            "sha256": "4326ef93e3cf336c06523426187dce705c12f9fdc0a562a7cd00ab1739b14c2d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/re.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py",
+        "loader_type": "SourceFileLoader",
+        "name": "re",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/reprlib.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/reprlib.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 5267,
+            "sha256": "dc786fbc528e10bc6ea3c1fa84e4178e85c4f3c9b937a4b191546aec317e9cb9"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/reprlib.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/reprlib.py",
+        "loader_type": "SourceFileLoader",
+        "name": "reprlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/reprlib.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 18728,
+            "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+          }
+        },
+        "cached": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/__pycache__/runtime_metadata.cpython-39.pyc",
+        "file": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+        "loader_type": "SourceFileLoader",
+        "name": "ri133_runtime_metadata",
+        "origin": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/select.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/select.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 171856,
+            "sha256": "404fcb87b51097f2d359a77f4c36f2ba192a72ddcac06baea4e44e2398d3df06"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/select.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "select",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/select.cpython-39-darwin.so"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 19536,
+            "sha256": "b16e673c110fd6a362414308ef73ffc3c15125c87361333b309791735931040d"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/selectors.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py",
+        "loader_type": "SourceFileLoader",
+        "name": "selectors",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/selectors.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 51781,
+            "sha256": "26cccbf28e0706f34a7e6d175bd9b5a9a4db0453d9af2a793377774f3554b54b"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/shutil.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py",
+        "loader_type": "SourceFileLoader",
+        "name": "shutil",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 2273,
+            "sha256": "4ebf461c99cf469e2ac22f6076040c6d16eeef0130a42a13a6ff7fe6cbe4ae6a"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/signal.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py",
+        "loader_type": "SourceFileLoader",
+        "name": "signal",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 23385,
+            "sha256": "6e0d45439151498e8d7901f4dc66a6d7c99054132340fe4492ea01be5ab95332"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/site.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site.py",
+        "loader_type": "SourceFileLoader",
+        "name": "site",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 26695,
+            "sha256": "b56ae9cd5b1e4e73ca4a6a726c46f5c95e164ca89c0271cc9fcb96e22a464c12"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/sre_compile.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py",
+        "loader_type": "SourceFileLoader",
+        "name": "sre_compile",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_constants.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_constants.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 7154,
+            "sha256": "476cd69325e5ec4fd85a539e8422a1e7c7427b3a2f4803568179d774e0a23d86"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/sre_constants.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_constants.py",
+        "loader_type": "SourceFileLoader",
+        "name": "sre_constants",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_constants.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 40230,
+            "sha256": "9aeaff031db4e88971874d8858ab0e220d6e3b2a7ffe1d10d024feb0c1cb7f80"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/sre_parse.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py",
+        "loader_type": "SourceFileLoader",
+        "name": "sre_parse",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/stat.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/stat.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 5485,
+            "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/stat.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/stat.py",
+        "loader_type": "SourceFileLoader",
+        "name": "stat",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/stat.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 82644,
+            "sha256": "d2f73c7128a3931f74411b46352146ba85322a8dc8f12a721d4801dc43d9766e"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/subprocess.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py",
+        "loader_type": "SourceFileLoader",
+        "name": "subprocess",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "sys",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 52933,
+            "sha256": "576085b4d09b488133e900bcdc821da005d3f117dd3595cf8c392dc5285729f2"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/threading.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py",
+        "loader_type": "SourceFileLoader",
+        "name": "threading",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "time",
+        "origin": "built-in"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/types.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/types.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 9746,
+            "sha256": "77013cfc8b37c89003df8080ad3ddddae28232edd90b6434b33f3f108f0a7ada"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/types.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/types.py",
+        "loader_type": "SourceFileLoader",
+        "name": "types",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/types.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 74850,
+            "sha256": "8f179cb73f6ba0e037fcef214cbe82edaa19ea4d04e22bc3e7f444a89e486f0f"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/typing.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py",
+        "loader_type": "SourceFileLoader",
+        "name": "typing",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "NoneType",
+        "name": "typing.io",
+        "origin": null
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "NoneType",
+        "name": "typing.re",
+        "origin": null
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__init__.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__init__.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 7,
+            "sha256": "c8204cfd372ee45f79cb744ed0565bc8d486716115a546f48477c0719b8a6bb9"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__pycache__/__init__.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__init__.py",
+        "loader_type": "SourceFileLoader",
+        "name": "urllib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__init__.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/parse.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/parse.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 42353,
+            "sha256": "e2433f6bda355439360d95255459e23fbd338cbfe12eb14ef28794c512cf5408"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/__pycache__/parse.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/parse.py",
+        "loader_type": "SourceFileLoader",
+        "name": "urllib.parse",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/parse.py"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/warnings.py",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/warnings.py",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 19688,
+            "sha256": "b8e7748e4c67eb65cea5d3b3bd888d245771c0ebe63117f747189a55a9b622db"
+          }
+        },
+        "cached": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/__pycache__/warnings.cpython-39.pyc",
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/warnings.py",
+        "loader_type": "SourceFileLoader",
+        "name": "warnings",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/warnings.py"
+      },
+      {
+        "cached": null,
+        "file": null,
+        "loader_type": "type",
+        "name": "zipimport",
+        "origin": "frozen"
+      },
+      {
+        "binding": {
+          "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so",
+          "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so",
+          "symlink_chain": [],
+          "target": {
+            "bytes": 170768,
+            "sha256": "146be9041d2367645328850042960957295a613c345596e0fe339ce45766f06e"
+          }
+        },
+        "cached": null,
+        "file": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so",
+        "loader_type": "ExtensionFileLoader",
+        "name": "zlib",
+        "origin": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload/zlib.cpython-39-darwin.so"
+      }
+    ],
+    "named": {
+      "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "symlink_chain": [],
+      "target": {
+        "bytes": 102352,
+        "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+      }
+    },
+    "optimize": 0,
+    "path": [
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip",
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9",
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload",
+      "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages"
+    ],
+    "prefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+    "version": "3.9.6 (default, Oct 17 2025, 17:15:53) \n[Clang 17.0.0 (clang-1700.4.4.1)]"
+  },
+  "scope": "Root-authenticated vendor bootstrap, Apple kernel/loader/shared cache and stable host remain supplier premises. This loaded bootstrap descriptor inventory is not the full candidate-runtime inventory or an instruction trace.",
+  "system_version": {
+    "bytes": 603,
+    "path": "/System/Library/CoreServices/SystemVersion.plist",
+    "sha256": "cbf534776ca9200252e5637787e5d4fc26cf527fb354c19bcbac9688341c7a58"
+  },
+  "uname": [
+    "Darwin",
+    "allan.local",
+    "25.5.0",
+    "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+    "arm64"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "current_PRE_POST_whole_selection_equal": true,
+  "different_fields": {
+    "device": 4609
+  },
+  "different_records": 4609,
+  "examples": {
+    "device": {
+      "current": 16777232,
+      "historical": 16777230,
+      "path": "/bin/ps"
+    }
+  },
+  "historical_runtime_byte_inventory_exact_equal": true,
+  "patterns": {
+    "device": 4609
+  },
+  "root_fresh9923_saved_states_match_current": true,
+  "schema": "ri146-historical-selection-comparison-v1",
+  "scope": "Historical file-selection metadata is compared diagnostically; accepted source requires historical runtime bytes/domain and authentic interpreter binding, plus fresh PRE/POST selection equality. It does not require old inode/device timestamps to remain identical."
+}

@@ -1,0 +1,30 @@
+{
+  "RET_paused": true,
+  "additional_requirement": "GAP-SCHEMA remains for any absent-entry-zero inference; explicit future bound entries would not require an absence rule",
+  "canonical_Cb_resolved": false,
+  "canonical_role_values_used": 0,
+  "comparison_performed": false,
+  "finding": "GAP-INDEX: original root list/rank association absent from admitted literal",
+  "full_system_and_recovery_retained": true,
+  "independent_full_original_display": "2709ea",
+  "independent_review": {
+    "bytes": 11564,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_INDEPENDENT_REVIEW.txt",
+    "sha256": "8e85d1af9ce82baefb4a005479349280fced7f62994124430bdda38327309f1a"
+  },
+  "literal_exception_now_closed": true,
+  "normalized_witness": false,
+  "original_body_copy_retained": false,
+  "root_full_original_display": "ba4d24",
+  "root_metadata": {
+    "bytes": 68900,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/RI250_ROOT_METADATA_CHECK.json",
+    "sha256": "4c1cbdead7f533a8d5270fcd64e71a9cfb9f1de49163664f627a8d51c63b0c87"
+  },
+  "root_review_read": "301660",
+  "scientific_execution": false,
+  "selected_next": "Analytic sigma-compensated exchange under already admitted complete incidence/weights",
+  "signed_inconsistency": false,
+  "source_route_next_option": "Separate source-only audit of the already named RI63 checker could clarify ordering/serialization, but no such read or execution is authorized here",
+  "status": "ACCEPT_LITERAL_BINDING_GAP_ONLY"
+}

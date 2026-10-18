@@ -1,0 +1,42 @@
+{
+  "complete_terminal_sidecar": {
+    "bytes": 438,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TERMINAL_ARGUMENTS.json",
+    "sha256": "ca6b6c4e2aad47ca4b2d3f782db8786faf325a0ba34c8cc9e265ea53e7416194"
+  },
+  "full_terminal_fields_matched": true,
+  "genuine_origin": "External genuine root tool premise, not self-authenticated by JSON.",
+  "root_records": [
+    {
+      "bytes": 1038,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+      "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+    },
+    {
+      "bytes": 1504,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_HOST.json",
+      "sha256": "240e1444dbd1737d4af754007e5e5b1e663b700a353a054dec328951bd40cb51"
+    },
+    {
+      "bytes": 1184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TOOLS.json",
+      "sha256": "7da6b5e80b2388f5dfa137f9f5dc43596b7a22d3e345f33fd2111f0c0768c79b"
+    },
+    {
+      "bytes": 438,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/GENUINE_PREPARATION_TERMINAL_ARGUMENTS.json",
+      "sha256": "ca6b6c4e2aad47ca4b2d3f782db8786faf325a0ba34c8cc9e265ea53e7416194"
+    },
+    {
+      "bytes": 2418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_ROOT_LINEAGE.json",
+      "sha256": "3a333f279e7343d92c5f5ad383bed8478c342a0dce3b02baf14fe4bcc357c0d8"
+    }
+  ],
+  "schema": "ri255-independent-root-record-bindings-v1",
+  "source_acceptance": {
+    "bytes": 2725,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri253-root-sigma-review-oij6zgup/MODE_CARD_SOURCE_ADJUDICATION.json",
+    "sha256": "ce3c42554d220a7bfc76d0844c7ec1728732b65a5bcc7d0c81321497d5b48870"
+  }
+}

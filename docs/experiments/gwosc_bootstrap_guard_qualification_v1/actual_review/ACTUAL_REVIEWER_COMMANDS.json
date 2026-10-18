@@ -1,0 +1,84 @@
+{
+  "boundary": "These are actual reviewer administrative tool outcomes, not subject executions or current supplier observations. Actual tool history is retained by the thread; this transcription is not self-authenticating.",
+  "complete_underlying_administrative_traversal": "bdd3a1",
+  "display_clipping": [
+    "ccb279",
+    "704c1c"
+  ],
+  "invocations": [
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/review_saved_actual15.py",
+      "failure": {
+        "bytes": 785219,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/CHECK_FAILED_01.json",
+        "sha256": "63184f4bd468eea5d98214f419f56981a49d92b4bd8246b073fb429763b3003a"
+      },
+      "result": {
+        "chunk_id": "ef44cf",
+        "exit_code": 1,
+        "wall_time_seconds": 0.019041083
+      },
+      "scope": "Reviewer mistaken literal backslash-quote expectation after shell parsing; no subject discrepancy.",
+      "source_at_call": {
+        "bytes": 27127,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/review_saved_actual15.before-command-quoting-fix.py",
+        "sha256": "d9f60bdd72e6f5ab2f7a9a36ee5160db2695eceeb9bb9c542e23735ba6be2641"
+      }
+    },
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/review_saved_actual15.py",
+      "output": {
+        "bytes": 8763,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/SAVED_CHECK_SUMMARY.json",
+        "sha256": "280ce828668bdca6d5846f9915bc67e06ac6d04433345939ab70c67a4e96d4d7"
+      },
+      "result": {
+        "chunk_id": "bdd3a1",
+        "exit_code": 0,
+        "wall_time_seconds": 0.112212291
+      },
+      "source_at_call": {
+        "bytes": 27123,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-actual15-review-rt_iv488/review_saved_actual15.py",
+        "sha256": "48df7d10ec94887377177e45549eedb523a6c7cd80230dde9ac00ad6865a18cd"
+      }
+    }
+  ],
+  "ordinary_inspections": [
+    {
+      "chunk_id": "602f40",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "962fc6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ccb279",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "698174",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "704c1c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "17e292",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f80563",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "603b7d",
+      "exit_code": 0
+    }
+  ],
+  "repair": "Two literal expected Perl-expression strings, explanatory comment and future failure filename; original source and failed record retained. No target or saved operation mutation.",
+  "schema": "ri144-independent-administrative-command-record-v1",
+  "subject_execution_performed": false
+}

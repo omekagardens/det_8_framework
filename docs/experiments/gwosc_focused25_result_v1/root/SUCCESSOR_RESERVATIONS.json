@@ -1,0 +1,27 @@
+{
+  "measurement": {
+    "item": "RI141",
+    "owner": "/root/archive_repro_review",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076",
+    "predecessor": {
+      "bytes": 3357,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ACTUAL_ROOT_ACCEPTANCE.json",
+      "sha256": "1d6a9928570f1db9fbf87c1133b53d9fe708f17495b6443ddbd3ae71a8d109b1"
+    },
+    "scope": "Only real RI135 production parent/PRE/POST bootstrap route and authenticated binding repair; unchanged finite guards/monitor/limits; source-only."
+  },
+  "native": {
+    "item": "RI140",
+    "owner": "Quantum Relativity 01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0",
+    "predecessor": {
+      "bytes": 2948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI138_ROOT_ADJUDICATION.json",
+      "sha256": "2c191580f03416e7d6071518a6bdf7f94adfd8df62c2dfe166fad97e3e493942"
+    },
+    "scope": "Only immutable F01 ownership/ordinary-signal and F02 first-cause/cleanup repairs, necessary correspondence and focused prospective qualification design; source-only."
+  },
+  "repository_index_git_owner": "root",
+  "schema": "ri140-ri141-source-reservations-v1",
+  "source_execution_admitted": false
+}

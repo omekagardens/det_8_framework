@@ -1,0 +1,48 @@
+{
+  "action": "controls",
+  "bootstrap_preflight": {
+    "bytes": 3665,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "cd80d59cd9967afaf398d6b7c90c363c0c9dcfaf5deec1317cd550810ef73936"
+  },
+  "bounds": {
+    "file_bytes": 67108864,
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-environment-proposed-wb69vu5s/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "genuine_outer_required": true,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri162-inert106-wb69vu5s",
+  "qualification": null,
+  "request": {
+    "bytes": 37,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert106-root-records-proposed-wb69vu5s/CONTROLS_REQUEST.json",
+    "sha256": "fcaabd7941c3d0d3da77b90a3691ea5f6b2e7c299657d9bff1168ac1261c3770"
+  },
+  "schema": "ri156-root-adapter-admission-v1",
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "source_review": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "status": "AUTHORIZE_ONE_BOUNDED_METADATA_ACTION"
+}

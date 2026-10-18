@@ -1,0 +1,164 @@
+{
+  "exact_copies": 29,
+  "parent": "1b05e8e0fa81f5ee5d0c506e40256b5f6dec5e28",
+  "payload": [
+    {
+      "bytes": 307819,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "205c2722c527ac8b5826def4d5976cfed665b78634501735128646b1142a0d6a"
+    },
+    {
+      "bytes": 1509,
+      "path": "README.md",
+      "sha256": "4cb4a8b87d83c1eccd1be274805e7c6ee4b627c2b993be98742d37eb1ff0dc25"
+    },
+    {
+      "bytes": 4041,
+      "path": "root/RI162_CONSUMER_QUALIFICATION.json",
+      "sha256": "0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7"
+    },
+    {
+      "bytes": 6859,
+      "path": "root/RI162_GENUINE_OUTER_CONSUMER_BINDING.json",
+      "sha256": "c1dfa6d5546ee0f18246fcf0795a628a3a873abfd765394d339b6946160a8523"
+    },
+    {
+      "bytes": 1011,
+      "path": "root/RI170_CONSUMER_INTERFACE_CHECK.json",
+      "sha256": "8d048bc7e3bef788d72487efd2356e242a72c7202fc033af1a8323c812f97bba"
+    },
+    {
+      "bytes": 1159,
+      "path": "root/RI170_REPLAY_ADAPTATION.json",
+      "sha256": "d5ebf10ab74b69b81fe857b663f5f5baf88778284cceed06e910264f7a3e20aa"
+    },
+    {
+      "bytes": 1936,
+      "path": "root/RI170_ROOT_ADJUDICATION.json",
+      "sha256": "3691e00175bf5322896d1d2d0eefeccfaba91b452ea6b75124cde62a2c2dc331"
+    },
+    {
+      "bytes": 357841,
+      "path": "root/RI170_ROOT_METADATA_CHECK.json",
+      "sha256": "2030370004029b8a4e314593d2540ae90b3a435633d6fa05f87098ea5b36123d"
+    },
+    {
+      "bytes": 3909,
+      "path": "root/RI170_ROOT_SOURCE_REVIEW.md",
+      "sha256": "cf0bc631207e587d46d977a07c8b0e1c5551c40348f1e963269568d4b2b89369"
+    },
+    {
+      "bytes": 2745,
+      "path": "root/ROOT_ACTUAL_CHECKS.json",
+      "sha256": "0592caafdf6825c15de3cac71d4b99e8b1c0c5a1ec64cbefc20c71220e56f193"
+    },
+    {
+      "bytes": 4783,
+      "path": "root/check_ri170.py",
+      "sha256": "a00aae9855257894dd4aae96ad17452f81413436a5640497c77920bfd78fd5e5"
+    },
+    {
+      "bytes": 4757,
+      "path": "root/check_ri170_v2.py",
+      "sha256": "1c9ed52ade80fe849b0ac5661853d92150f9a54b5bd295248d58ec7e2b820301"
+    },
+    {
+      "bytes": 4442,
+      "path": "root/issue_ri170_interface.py",
+      "sha256": "09d4f5b1218001dab42a4df2ad4b3559ec56a655d5db45f62c071735b0c4e623"
+    },
+    {
+      "bytes": 3506,
+      "path": "root/ri170-metadata-replay/METADATA_CHECK.json",
+      "sha256": "a58f3d124799e325284a93a01e896c2fb4bbd67773ff75ba05f86164ee845879"
+    },
+    {
+      "bytes": 12287,
+      "path": "root/ri170-metadata-replay/check_preflight_metadata.py",
+      "sha256": "aee6723ed6caa43f40e1e867df63cef9bfc5d42c874bfab07476fba1c4b3e566"
+    },
+    {
+      "bytes": 4225,
+      "path": "source/AUTHORING_RECORD.md",
+      "sha256": "9ec355862004c968e95bc1f831abea694ad01f28cc5b771e695fe69ed0acb653"
+    },
+    {
+      "bytes": 858,
+      "path": "source/CHECKER_REPAIR.diff",
+      "sha256": "5ac92372bc3c8b21584ed76d70cec1739e53f19f9a17669f40b2c0f931888cbb"
+    },
+    {
+      "bytes": 1557,
+      "path": "source/CHECKER_REPAIR.second.diff",
+      "sha256": "8fc8792f8f7e52b61e746aa6b53044aa23c203a4e60bd52940e7221ad7e55b95"
+    },
+    {
+      "bytes": 420328,
+      "path": "source/CHECK_FAILURE.initial.json",
+      "sha256": "fd6bfcb7b748dbca1f7b6e84bea2d574ac2200702c142fc4fc0cf3190874f5ed"
+    },
+    {
+      "bytes": 843,
+      "path": "source/CHECK_FAILURE.second.json",
+      "sha256": "af0a775b33f912cf7a4f46ea4008cb3d982d50c1e7c5bac24d2e8124a852ddb3"
+    },
+    {
+      "bytes": 22588,
+      "path": "source/COMMAND_PROPOSALS.json",
+      "sha256": "7ea3f44ceb02a4532dfc32554cff418f60b2dfd468641876212f50bf7d29a9ad"
+    },
+    {
+      "bytes": 2440,
+      "path": "source/COPY_BOOTSTRAP.proposal.txt",
+      "sha256": "c1f5394d34341775d060194c034b570c6551d37ceb3a017f9f0860bb188fb9bf"
+    },
+    {
+      "bytes": 16387,
+      "path": "source/FIELD_CONTRACT.md",
+      "sha256": "366f64b8f432412f91e3901ccb54ff375d303b53444d740d24ac17a2277a39c0"
+    },
+    {
+      "bytes": 3504,
+      "path": "source/METADATA_CHECK.json",
+      "sha256": "9fb3778a438c094e45c1111a59e1ad91edb4b4dbe8d713091e5fdcbb6f3f2022"
+    },
+    {
+      "bytes": 13135,
+      "path": "source/PREFLIGHT_PROPOSAL.initial.json",
+      "sha256": "8ac39ba19e05f261ba0e1cc5d743889896d4bfbf5d537eb80202f82585a089c9"
+    },
+    {
+      "bytes": 13152,
+      "path": "source/PREFLIGHT_PROPOSAL.json",
+      "sha256": "483b9862e18959646cc0518daf8a21b6b2f4d5240f59416a2829fe7474566585"
+    },
+    {
+      "bytes": 7415,
+      "path": "source/REFERENCE_BINDINGS.json",
+      "sha256": "5ca78c6bdcbdd169c7e7bd2450fe852450a4591e5f479450b74139759af36083"
+    },
+    {
+      "bytes": 8755,
+      "path": "source/SOURCE_ONLY_HANDOFF.json",
+      "sha256": "8d3cfce3b18ac346a0dab3449de3eee686c5965957e4188933604dd392d66fce"
+    },
+    {
+      "bytes": 11600,
+      "path": "source/check_preflight_metadata.initial.py",
+      "sha256": "67cae22c863f2baa592d7ec61cd1c030a4d14dcee562f39304c3a432a12afb3f"
+    },
+    {
+      "bytes": 11975,
+      "path": "source/check_preflight_metadata.py",
+      "sha256": "85d49fc46725dd74c15aa3ceb7e9b566bb36ca87ed123819304c6e23739e37cd"
+    },
+    {
+      "bytes": 11756,
+      "path": "source/check_preflight_metadata.second.py",
+      "sha256": "e414db5bb1b967030c0b04a209694f27dc3d9051c35bc073d54b8831edcc6852"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": false
+}

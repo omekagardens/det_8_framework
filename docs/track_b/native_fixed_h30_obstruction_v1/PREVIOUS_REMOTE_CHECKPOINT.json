@@ -1,0 +1,67 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "commit": "d5f2a17edd2b5529f460c20febace16f490f3bd6",
+  "commit_receipt": {
+    "chunk_id": "b39fd0",
+    "exit_code": 0
+  },
+  "dependency_references": 26,
+  "exact_archive_copies": 13,
+  "installation_performed": false,
+  "parent": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53",
+  "push_initial": {
+    "chunk_id": "05f6bb",
+    "session_id": 66432
+  },
+  "push_terminal": {
+    "chunk_id": "7efe98",
+    "exit_code": 0,
+    "output": "To https://github.com/omekagardens/det_8_framework.git\n   235c88f..d5f2a17  HEAD -> ret\n"
+  },
+  "receipt_origin": "Actual root tool transcript observations; JSON does not authenticate its own origin.",
+  "remote_verification": {
+    "chunk_id": "8bc3e4",
+    "exit_code": 0,
+    "live_ls_remote": "d5f2a17edd2b5529f460c20febace16f490f3bd6\trefs/heads/ret",
+    "local_head": "d5f2a17edd2b5529f460c20febace16f490f3bd6",
+    "local_upstream": "d5f2a17edd2b5529f460c20febace16f490f3bd6"
+  },
+  "schema": "ri217-verified-remote-checkpoint-v1",
+  "scientific_execution": false,
+  "scope": {
+    "bytes": 6982,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PUBLICATION_SCOPE_FINAL.json",
+    "sha256": "d67446405b9579641fa8fd13f3a29cbcde169940af36476e7ac808f25a66fc36"
+  },
+  "scope_files": 20,
+  "source_acceptance_superseded": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "upstream": "origin/ret",
+  "validation": [
+    {
+      "bytes": 4704,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/CHECKPOINT_FINAL_PRESTAGE.json",
+      "sha256": "877e91ed30b5044a2fd7104ce3380be936a8492ce6fc4c952f283ec889d682b0"
+    },
+    {
+      "bytes": 4764,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/CHECKPOINT_FINAL_STAGED.json",
+      "sha256": "5e56d6e6e71f0f83dfb9dca855b1ca0163882a79fea3ade5e344684a2fa219eb"
+    },
+    {
+      "bytes": 4768,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/CHECKPOINT_FINAL_POSTCOMMIT.json",
+      "sha256": "a6e6f2b9d371189802459463a187d07b5c664efc661be1f274301d47d990a7d0"
+    },
+    {
+      "bytes": 267,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PUBLICATION_DEPENDENCY_CHECK.json",
+      "sha256": "a907eb073a23e731ce477107655571d7e25ad58ecb7b5580d9c72187f30cdea7"
+    }
+  ],
+  "whole_unrelated_identity_and_inventory_preserved": true
+}

@@ -1,0 +1,44 @@
+{
+  "assignment": {
+    "bytes": 12536,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI223_NATIVE_ASSIGNMENT.json",
+    "sha256": "19657daeb22a243b493aeca87349d30ed47ce87e1254e95d8733ba44c6587b4a"
+  },
+  "automatic_scientific_arithmetic": false,
+  "execution_admitted": false,
+  "inherited_manifest": {
+    "bytes": 393074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+    "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+  },
+  "inherited_matches": [
+    {
+      "access_policy": "text-reading-and-opaque-identity-no-execution",
+      "classification": "analytic-source-text-or-review",
+      "identity": {
+        "bytes": 20198,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+        "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c",
+        "symlinks": []
+      },
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+      "reference_provenance": [
+        "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+      ],
+      "role": "dep_0417"
+    }
+  ],
+  "qualification_credit": 0,
+  "reference": {
+    "bytes": 20198,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+    "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri223-native-active-amplitude-63hp1o02",
+  "schema": "ri223-additional-full-profile-analytic-admission-v1",
+  "scientific_body_admission": false,
+  "scope": "Literal manual reading of the original full-profile repair analytic text only. Preserve H28/H30 distinctions and scope of constant-profile cases. No coefficient extraction or descendant/body/automatic mathematical execution expansion.",
+  "status": "ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY",
+  "typed_reference_expansion": false
+}

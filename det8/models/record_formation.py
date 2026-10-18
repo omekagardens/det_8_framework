@@ -1,5 +1,5 @@
 """
-DET v8.1 — Record Formation Theorem (T3)
+DET v8.1 — Record Stabilization Bound (historical T3 name retained)
 
 Repeated weak commit events independently encode a target alternative with
 reliability p > 1/2. A concentration bound forces the probability of a wrong
@@ -7,9 +7,10 @@ majority record to decay exponentially in the number N of redundant events:
 
     P_record_error(N) ≤ e^{−N·C(p)},   C(p) = D(1/2 ‖ p) = −ln(2√(p(1−p))).
 
-This provides: (i) stable pointer records, (ii) redundant classical facts,
-(iii) effective irreversibility, (iv) the quantitative transition from
-relational alternatives to committed records.
+This establishes conditional reliability of redundant classical copies. The
+target alternative, independent copying events and their reliability are
+assumed. It does not select the first outcome, derive record-production rates,
+or prove decay of off-diagonal pair-kernel entries or physical irreversibility.
 
 DERIVATION CERTIFICATE (honest provenance):
 
@@ -17,12 +18,10 @@ DERIVATION CERTIFICATE (honest provenance):
                                               (credited; not DET-specific).
   P_error(N) ≤ e^{−NC}                TH-DET — the theorem statement, applied to
                                               the commit channel with reliability p.
-  redundancy → pointer stability      DET    — interpretation: N redundant commits
-                                              suppress pair-kernel cross terms
-                                              𝔇(A_i,A_j) (i≠j), i.e. decohere the
-                                              record into a classical fact.
+  redundancy → pointer stability     MODEL  — reliability under the stated
+                                              independent-copying assumptions.
 
-Anti-smuggling: no standard-physics constants; the machinery is kernel-native.
+No standard-physics constants are used; the probability model is supplied.
 """
 
 from __future__ import annotations
@@ -84,18 +83,24 @@ def redundancy_decay(p: float, N_max: int = 101, step: int = 10) -> list[dict]:
 
 def derivation_certificate() -> dict:
     return {
-        "theorem": "T3 — Record Formation Theorem",
+        "theorem": "T3 — Record Stabilization Bound",
         "deliverables": {
             "Chernoff / relative-entropy bound": "MATH — standard concentration inequality (credited)",
             "P_error(N) ≤ e^{−N·C(p)}": "TH-DET — applied to the commit channel with reliability p",
-            "redundancy → pointer-record stability / effective irreversibility": "DET — N redundant commits suppress pair-kernel cross terms (decoherence)",
+            "redundancy → pointer-record stability": (
+                "MODEL — conditional reliability of independent classical copies"
+            ),
         },
         "notes": [
             "C(p) = D(1/2 ‖ p) is the relative entropy between the coin-flip and p;",
-            "this is the quantitative link between record redundancy and the classical (decoherent) limit of T2b;",
-            "a full quantitative tie to the pair-kernel decoherence rate is a deeper result, not claimed here.",
+            "the target alternative, independent copying events and reliability p are assumed;",
+            "no first-outcome selection or pair-kernel decoherence rate is derived.",
         ],
-        "status": "MATH/TH-DET implemented.",
+        "exclusions": [
+            "first_record_formation", "quantum_decoherence_rate",
+            "physical_irreversibility", "record_production_rate",
+        ],
+        "status": "CONDITIONAL_CLASSICAL_STABILIZATION",
     }
 
 
@@ -103,7 +108,7 @@ def derivation_certificate() -> dict:
 
 
 def run_t3(p: float = 0.7, seed: int = 42) -> dict:
-    """Demonstrate the record-formation bound and check it against simulation."""
+    """Demonstrate the conditional stabilization bound and compare a simulation."""
     rows = redundancy_decay(p, N_max=101, step=20)
     # Monte Carlo check at a few N.
     checks = []
@@ -123,7 +128,8 @@ def run_t3(p: float = 0.7, seed: int = 42) -> dict:
         "certificate": derivation_certificate(),
         "interpretation": (
             f"p={p}, C(p)={chernoff_exponent(p):.4f}. Record error ≤ e^{{−N·C(p)}}; "
-            f"Monte Carlo confirms the bound at all checked N ({bound_holds_all}). "
-            f"N redundant commits make the record exponentially reliable."
+            f"Monte Carlo estimates lie below the bound at checked N ({bound_holds_all}); "
+            f"this diagnostic is not a proof. Independent redundant copies stabilize "
+            f"an assumed target; first-record formation is not derived."
         ),
     }

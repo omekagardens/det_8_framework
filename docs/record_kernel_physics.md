@@ -197,9 +197,13 @@ commit-ready when its alternatives are record-distinguishable
 \boxed{K_{\mathcal P}(i)=\mathfrak D(A_i,A_i)},\qquad \sum_i K_{\mathcal P}(i)=1.
 \]
 
-Clean distinction: `𝔇` = relational possibility structure before commit;
-`K_𝒫` = ordinary probabilities for a recordable partition; `X_e` = the
-committed outcome; `R⁺` = the resulting record.
+Clean distinction: `𝔇` = residual relational possibility structure;
+`K_𝒫` = ordinary probabilities for a declared recordable partition; `X_e` =
+the committed outcome; `R⁺` = the resulting record. Residual transformation,
+record formation and observation of an existing record are different operations.
+`𝔇` is not discarded between commits. The formal exact normalization claim
+requires exact decoherence; an approximate off-diagonal criterion needs an
+explicit error budget and does not silently become an exact commit rule.
 
 ### 3.2 What this quadratic derives
 
@@ -244,6 +248,15 @@ extendability* (`𝔇_n = Marginal(𝔇_{n+1})` for every lawful future refineme
 
 ## 4. Revised minimal Track A architecture
 
+**Semantic refinement (13 September 2026):** use the complete state
+`X=(C,Z)`, `C=(V,≺,R_comm)`, with the existing residual `D_C` as the first
+candidate for Z. No additional ontological variable is adopted. A supplied
+residual operation may change Z without appending to C; a positive selected
+commit appends one fresh maximal event; an access view is a separate projection
+of already committed entries. Logged null outcomes are commits, not silent
+steps. The [experimental contract](track_b/RECORD_PROCESS_CONTRACT.md) implements
+this distinction but does not derive the physical operation family or L.
+
 **Primitives:** `(V,≺)` causal event order; counting measure `#`; local
 committed record `R`; law map `L` (generates lawful alternatives and relational
 constraints); pair-kernel `𝔇` (candidate); local composition and commit
@@ -269,6 +282,13 @@ R^-_e \xrightarrow{L} (\Omega_e,\mathcal A_e,\mathfrak D_e,\mathcal C_e)
 
 κ is no longer placed between record and reality as an unexplained substance;
 it is derived afterward as a measure of how history changes the generated kernel.
+
+The displayed chain describes a commit-producing transition, not every possible
+residual transformation. A record-only input to L requires a sufficiency proof;
+otherwise current residual state and lawful context must be included. Neither
+cardinality nor the legacy count-based proper-time formula proves that record
+growth exhausts activity. Fundamental formation, detector retention and delayed
+receipt must be distinguished before identifying count with geometric volume.
 
 ---
 
@@ -304,15 +324,23 @@ reconstructed); **Theorem statement** (`A_1,…,A_n ⇒ O`); **Uniqueness statem
 (could alternative lawful structures produce a different result?); **Adversary
 models** (classical stochastic, higher-order interference, non-strongly-positive
 pair-kernel, non-manifoldlike graph, multidimensional history); **Empirical
-interface** (only raw observations: settings/outcomes, timestamps,
-adjacency/precedence, counts, oscillator frequencies, measured probe values);
+interface** (instrument registrations first: device and trial identifiers,
+settings and outcomes, local timestamps, oscillator or ADC counts, image pixels,
+measured probe readouts, calibration records, and uncertainties; then list the
+analysis that produces any derived quantity). Adjacency or apparatus precedence
+is raw only when the registration rule directly defines it; relativistic causal
+order is inferred through localization, synchronization, and propagation models.
+A registered-event count is raw under a declared counting rule, while a
+fundamental event count, sprinkling density, or count-to-volume identification is
+a formal premise;
 **Classification** — `MATH` (imported mathematics, attributed), `AX-DET`
 (DET-specific axiom), `TH-DET` (theorem from DET axioms), `CORR`
 (correspondence after importing physical structure), `FIT` (phenomenological
 fit), `PR` (pre-registered prediction), `EV` (empirically validated).
 
-Examples: Bell state + rotations = `CORR`; Minkowski sprinkling + recovered
-metric = `CORR`; pair-kernel axioms ⇒ `I_3=0` = `TH-DET` (once the axioms are
+Examples: Bell state + rotations = `CORR`; a known Minkowski geometry generating
+a sprinkling followed by metric-feature recovery = synthetic `CORR`, not an
+empirical spacetime observation; pair-kernel axioms ⇒ `I_3=0` = `TH-DET` (once the axioms are
 justified); commit path ratio ⇒ `⟨e^{−Σ}⟩=1` = `TH-DET`; local symmetric kernel
 ⇒ graph diffusion = `TH-DET`; clock shift fit to `λ_P κ` = `FIT/PR`.
 Borrowed mathematics is celebrated and cited; borrowed physical premises are
@@ -386,9 +414,10 @@ from being multiplied together without derivation.
   additivity, `I_3=0`, Gram representation, nonnegative committed weights,
   classical additivity on decoherent partitions, composition closure. (Not yet
   "Born rule".)
-- **T3 — Record Formation Theorem.** Repeated weak commits ⇒
-  `P_record_error(N) ≤ e^{−NC}`, connecting redundancy to suppression of
-  pair-kernel cross terms.
+- **T3 — Record Stabilization Bound.** Assumed independent weak commits with
+  reliability p>1/2 give `P_record_error(N) ≤ e^{−NC}`. This bounds noisy-copy
+  error; it does not derive the first committed outcome or a pair-kernel
+  decoherence rate. Those formation/interaction obligations remain open.
 - **T4 — Kernel Irreversibility Theorem.** `⟨e^{−Σ}⟩=1`, `⟨Σ⟩≥0`, including
   conditions for absolute irreversibility and incomplete reverse support.
 - **T5 — Local Kernel Continuum Theorem.** When local conservative graph kernels

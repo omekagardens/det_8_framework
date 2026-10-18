@@ -1,0 +1,238 @@
+{
+  "schema": "ri120-reviewed-external-source-only-handoff-v1",
+  "date": "2026-09-26",
+  "status": "COMPLETE_INDEPENDENTLY_REVIEWED_SOURCE_PACKET_FOR_OWNER_ADJUDICATION",
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn",
+  "main_artifact": "HANDOFF.md",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/RI120_ASSIGNMENT.json",
+    "bytes": 3502,
+    "sha256": "d39b6d1c5291560dbe76f7cd226090bc49e4253054c94d5667d3f3479f1c4af8"
+  },
+  "question": "At the accepted unchanged baseline, are both connected profiles nonconstant, hence rejecting only the specified 28-child repair by RI117?",
+  "conditional_analytic_yields": [
+    "Actual strict size-five mixture makes complete C5 rows independent of sigma; Q2_8=0 and Q2_(xi+8)=Q2_xi.",
+    "All four H5 stem slots have the same restoration coefficient, including the neutral root slot by a complete diamond link to a raising role.",
+    "Explicit E2, C2 and V simplifications preserve unresolved cancellation/sensitivity questions."
+  ],
+  "prepared_decision": {
+    "source_domain": "unchanged RI88 saved held rows only",
+    "held_rows": 40,
+    "probability_slots": 224,
+    "V_profiles": 8,
+    "V_contrasts": 7,
+    "connected_profiles": 16,
+    "Q2_contrasts": 15,
+    "native_degree_cap": 2,
+    "interval": "0<rho<=R, unchanged E0/E1 radius",
+    "all_zero_Q2": "f2 constant; null gcd, root certificate and count",
+    "common_root_exclusion": "f2 nonconstant only for a nonzero family with no common real root on the entire outer interval",
+    "surviving_common_roots": "f2 undetermined; no actual-scale or rational-root inference",
+    "restricted_rejection": "only when f2 and f3 both proved nonconstant",
+    "rational_root_exclusion_included": false
+  },
+  "source_declared_unexecuted_checks": {
+    "root_fixtures": 16,
+    "fifteen_member_family_fixtures": 10,
+    "combined_decision_fixtures": 6,
+    "ordered_refusal_actions": 166
+  },
+  "independent_consumer": {
+    "arithmetic": "normalized integer pairs, sparse polynomials, direct-power endpoints",
+    "individual_ideal_crosschecks": {
+      "T2": 14,
+      "T3": 12
+    },
+    "complete_certificate_sections": 19,
+    "whole_canonical_bytes_compared": true,
+    "payload_bindings": 18,
+    "distinct_payloads": 18,
+    "protected_objects_including_descriptor": 19,
+    "physical_hardlink_aliases_rejected": true,
+    "producer_control_actions_executed_by_consumer": false,
+    "custody_semantics_self_adjudicated": false
+  },
+  "reviews": {
+    "complete_independent_source": "INDEPENDENT_COMPLETE_SOURCE_REVIEW.md",
+    "source_verdict": "no remaining source-level blocker; recommends source-only acceptance",
+    "independent_F2_and_prefix": "ANALYTIC_PREFIX_REVIEW.md",
+    "independent_F3_and_prefix_and_contracts": "PRELIMINARY_PROTOCOL_REVIEW.md",
+    "coordinator_integration": "INTEGRATION_REVIEW.md",
+    "main_full_read_of_final_independent_source_review": "e23807",
+    "main_full_read_of_analytic_cross_review": "b36ae4",
+    "authorship_overlaps_disclosed": true,
+    "proof_assistant_verified": false,
+    "owner_acceptance_claimed": false
+  },
+  "source_findings_resolved": [
+    "Auditor final report/construction/output failures now use the bounded refusal serializer retaining independent postchecks; partial stdout after failure is invalid.",
+    "Late-fold refusal preserves the first constant fold and removes the later required fold.",
+    "Final stable source pins and all 166 literal declarations replace preparation placeholders."
+  ],
+  "opaque_metadata_checks": {
+    "final_artifact_inventory": "567801",
+    "all_eight_premise_pins_and_stable_reads": "726874",
+    "literal_producer_consumer_control_identity_and_name_count": "dc6746",
+    "scientific_data_decoded": false,
+    "full_historical_runtime_custody_replaced": false
+  },
+  "premises": [
+    {
+      "role": "ri88",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+    },
+    {
+      "role": "ri111",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri111.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+    },
+    {
+      "role": "ri109_adjudication",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri109_adjudication.json",
+      "bytes": 4849,
+      "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf"
+    },
+    {
+      "role": "ri111_adjudication",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri111_adjudication.json",
+      "bytes": 3838,
+      "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249"
+    },
+    {
+      "role": "ri115_adjudication",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+      "bytes": 6678,
+      "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480"
+    },
+    {
+      "role": "ri117",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194"
+    },
+    {
+      "role": "ri117_connected",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+    },
+    {
+      "role": "ri117_adjudication",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3"
+    }
+  ],
+  "operations": {
+    "manual_symbolic_proof": true,
+    "complete_source_text_review": true,
+    "opaque_hashes_and_counts": true,
+    "target_import_AST_parse_compile_probe_run": false,
+    "fixture_solver_replay_execution": false,
+    "scientific_certificate_operand_decoding": false,
+    "native_probability_or_polynomial_evaluation": false,
+    "H_z_computation": false,
+    "actual_scale_selection": false,
+    "new_D1_inputs": false,
+    "new_q6_q7_tables": false,
+    "seed_support_amplitude_changes": false,
+    "input_copies_candidate_descriptor_receipt_created": false,
+    "active_freeze_or_admission": false,
+    "repository_index_Git_changes": false,
+    "measurement_lane_modified": false
+  },
+  "open": [
+    "Actual f2/f3 sensitivity decision.",
+    "Changed-target syntax/runtime/refusal qualification and resource fit.",
+    "Actual staged producer witness/replays and independent audit under owner admission.",
+    "Surviving-branch D1 compatibility/positivity and all remaining-parent feasibility.",
+    "Complete positive fixed-support repair and all-size extension."
+  ],
+  "boundaries": {
+    "worker_assignment": "complete at stable handoff; owner retains acceptance, execution, custody, publication and Git",
+    "ret_paused": true,
+    "broader_programme_complete": false,
+    "full_QM_or_geometry_gravity_or_empirical_claim": false,
+    "new_lettered_gate": false
+  },
+  "artifacts": [
+    {
+      "file": "ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+    },
+    {
+      "file": "ANALYTIC_PREFIX_REVIEW.md",
+      "bytes": 8037,
+      "sha256": "462233ef37ce7a1d403da72500e8e864fd9e44f2ca4dcfeff75dd3e41e893693"
+    },
+    {
+      "file": "AUDITOR_SOURCE_NOTES.md",
+      "bytes": 13284,
+      "sha256": "d673409709050957b24574d05b2051118a2779882f9e46bc8be8de83de3525e7"
+    },
+    {
+      "file": "AUDIT_CONTRACT.md",
+      "bytes": 11664,
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab"
+    },
+    {
+      "file": "F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+    },
+    {
+      "file": "F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+    },
+    {
+      "file": "HANDOFF.md",
+      "bytes": 5194,
+      "sha256": "06e954bb3eecef010bf2d198c8303976f92f6ad648a2c4f39b87ce6ff58f26bf"
+    },
+    {
+      "file": "IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b"
+    },
+    {
+      "file": "INDEPENDENT_COMPLETE_SOURCE_REVIEW.md",
+      "bytes": 13612,
+      "sha256": "5b55b382e4850e4c9fd360b5e710ef9c941af82b8378df381299b5b2b7e32c34"
+    },
+    {
+      "file": "INTEGRATION_REVIEW.md",
+      "bytes": 7221,
+      "sha256": "64c50325f59372ee1424469c28fb2d58df4cf678e608868151abab0f08b1ada6"
+    },
+    {
+      "file": "PRELIMINARY_PROTOCOL_REVIEW.md",
+      "bytes": 10180,
+      "sha256": "0e56fd2a6e2ee5a23ef95c1cc0402429ce7c82c95c5b4695f5a4ac51eedeb96b"
+    },
+    {
+      "file": "PRODUCER_SOURCE_NOTES.md",
+      "bytes": 10872,
+      "sha256": "5dda88a630eddfe5d907b19022d919514d8cf885ee58a577445a0440c806f641"
+    },
+    {
+      "file": "READINGS_AND_SCOPE.md",
+      "bytes": 6760,
+      "sha256": "f06f11d904dbd1b514ffcf1007dee7409c6acb33fb56ae9efafcff6f66f93b18"
+    },
+    {
+      "file": "audit_saved_certificate.py",
+      "bytes": 63729,
+      "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd"
+    },
+    {
+      "file": "check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f"
+    }
+  ]
+}

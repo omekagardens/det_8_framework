@@ -1,0 +1,2419 @@
+"""QR-05AD exact continuous robust retention and read-only replay.
+
+Independent nominal, AB and AC mathematical oracles are statically carried.
+New clean coefficients use original-weight conditional vector inner products.
+"""
+
+from __future__ import annotations
+
+import argparse
+import copy
+import hashlib
+import importlib.util
+import itertools
+import json
+import platform
+import re
+import resource
+import sys
+import time
+from fractions import Fraction as F
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+RESULT = HERE / "results.json"
+SCHEMA = "det8-qr05ad-results-v1"
+BASE_COMMIT = "7712aa398b0c04eabdbcfa3d97c1ddf884f6e1d0"
+SOURCES = (
+    "README.md",
+    "retention.py",
+    "reference_qr05ad.py",
+    "study.py",
+    "test_qr05ad.py",
+    "test_capture.py",
+    "audit_json.py",
+)
+AC_PRIOR = "qr-05ac-replacement-envelope-2026-09-07/results.json"
+AC_BYTES = 1783649
+AC_SHA = "3fc5a502c214ba408e5f539133156b0ad81a2ef243545645dc980e7936932c18"
+AB_PRIOR = "qr-05ab-replacement-stress-2026-09-07/results.json"
+AB_BYTES = 1805554
+AB_SHA = "7cbe2668d5b022f73207502bab214078b911e25d25a3826918b916e967643009"
+AA_PRIOR = "qr-05aa-uncertainty-decisions-2026-09-07/results.json"
+AA_BYTES = 112206
+AA_SHA = "bf5661984f9df4cb111fbe97061035967de9f7516a26154abefc7d1d3a49c424"
+Z_PRIOR = "qr-05z-fixed-attenuation-2026-09-07/results.json"
+Z_BYTES = 31075315
+Z_SHA = "7828dafe766ae4cef9e2fd8dcc6181079fe936e8720a70367598aaf3bcbb8ccc"
+Y_PRIOR = "qr-05y-explicit-fallback-2026-09-07/results.json"
+Y_BYTES = 16474309
+Y_SHA = "c4189b0f1bb0df4bb3e5f14c1969ede0ee754f59b4bc99e89aeac8d6b065891f"
+X_PRIOR = "qr-05x-noise-misspecification-2026-09-07/results.json"
+X_BYTES = 8842933
+X_SHA = "1bf12e668ccaaeb20da78d849ae138ffcce2cc32e14be57f286169c74a4734c4"
+W_PRIOR = "qr-05w-noisy-readouts-2026-09-07/results.json"
+W_BYTES = 6756094
+W_SHA = "05b20faf7feae7327113ace9168540d61db0e0e6bebae268819b2b84847cce8a"
+LEVELS = [[0, 1], [1, 2], [3, 4], [1, 1]]
+MAX_CAPTURE_BYTES = 64 * 1024 * 1024
+MAX_WORKING_BYTES = 128 * 1024 * 1024
+
+PRIORS = {
+    AC_PRIOR: AC_SHA,
+    AB_PRIOR: AB_SHA,
+    AA_PRIOR: AA_SHA,
+    Z_PRIOR: Z_SHA,
+    Y_PRIOR: Y_SHA,
+    X_PRIOR: X_SHA,
+    W_PRIOR: W_SHA,
+    "qr-05v-readout-value-2026-09-06/results.json": "eceb01f49624f3d5ebb5dc8041074aa04b62d8408d4a7117979fb1c6b9823ff7",
+    "qr-05u-partial-observation-2026-09-06/results.json": "a2cf4ae0bb31934c3c1aeab7071fb6f675d90d9f0b1a5c2776282e926e3e5eee",
+    "qr-05t-local-refinement-2026-09-06/results.json": "f7bf6db5dd822c27a3087c6ad48af3ae76fdce653536cff8d381bfae905a5fe8",
+    "qr-05s-local-deletion-2026-09-06/results.json": "8caa59a1921dc7fb46a38e44058bfe9f2ac5608c1f2ed05e5dc8ff063ab7e3b3",
+    "qr-05r-deletion-profile-2026-09-06/results.json": "cfec27d60d605ec142af96f8931e0e90b3c5ca92c72389ce8e0d84ef8b444001",
+    "qr-05q-three-layer-portability-2026-09-06/results.json": "1e9b9443ee5d55cd888d5ea62e594fad197ca0baeecfee1f1efac34ada8125aa",
+    "qr-05p-minimal-summary-2026-09-06/results.json": "c43435c4916e5c15efb373ff70795ed733d7c4e360ebec4e9a1b32f4e050b048",
+    "qr-05o-path-observable-2026-09-06/results.json": "3364b36813f745a645d78d6d30caa292778da986cb6d1140f108a0fd4b945eb1",
+    "qr-05n-domain-portability-2026-09-06/results.json": "f2d666285afef41cd8a7f977399d3626a620da39174967a38047714f5f26f93e",
+    "qr-05m-observable-realization-2026-09-06/results.json": "79cb515022fdb3bb2c918a469c1ac5ffdf98a6dd18cdd289f8030fc7a38f1543",
+    "qr-05l-adversarial-refinement-2026-09-06/results.json": "0df1b47e1219191783a9ec229540fd433e2129121ce2c5f6e5262e5f3c00e0ff",
+    "qr-05k-recursive-closure-2026-09-06/results.json": "46d93f643c443b75ef425349cff11d7f3c437a79921e7e1ee94610998bd1a501",
+    "qr-05j-uncertainty-contract-2026-09-06/results.json": "dc8f80f40861107dd7a5ee378c9813a90c1981a3c2e7e14ee343163e9d88c333",
+    "qr-05i-analytic-portability-2026-09-06/results.json": "9742e602b037ce74611e7801256f86752f584438a80f9dac6c823acef671e798",
+    "qr-05h-law-portability-2026-09-06/results.json": "e6d5f06d765ccca7a1da1cef15d12bc15a3287463ec3cce3732aab75af613b3a",
+    "qr-05g-predictive-compression-2026-09-06/results.json": "62b13d1c46efcd5552596f37ba9ec5ab00f8e9708bab19f811cc0a0a357ffb74",
+    "qr-01-quantum-records-2026-09-05/results.json": "e9af97dab27777775ad37db1f03a85abc9ca3b45b11a7ba79b7e92c0bd1c2c9b",
+    "qr-02-record-coarse-graining-2026-09-05/results.json": "b7f18f32a3b5552b77c0933343e707da400c095758c1065e477eb8ada580af1c",
+    "qr-03-predictive-histories-2026-09-05/results.json": "2b92b7bd42aa9cde29722269c1a31f339e37b217d1256e50d8ea0ee34d8188c2",
+    "qr-04-adaptive-causal-records-2026-09-05/results.json": "a5dc5f5e96a189ae8fd5648334e630fd4c24f6cee2fa805a45d32522bc0bcd70",
+    "qr-05a-quantum-births-2026-09-05/results.json": "e0c2676ae33b36dde3edb2697ac252330ad801006fe8420acd8cfb94b87c9479",
+    "qr-05b-order-summaries-2026-09-05/results.json": "2fe3fd939dcc242ee2a6b8c4abc9d6904e32bf5072cf638f7d880daaeaf2e03b",
+    "qr-05c-coarse-dynamics-2026-09-05/results.json": "4f7bb191e64db6bb24886cc1211cb83186d7e24f77599e56e25539c100f4dde1",
+    "qr-05d-geometric-correspondence-2026-09-05/results.json": "ea3404f9401573c833965fc259b0f01dc28e3e3968ef79b4b3438e6535cd1238",
+    "qr-05d-geometric-correspondence-2026-09-05/results-v2.json": "18499d8a126a3677fb0f0e54a98659df7934c7429c39cc0f531adfc063d40b32",
+    "qr-05f-two-stage-2026-09-06/results.json": "0fffba7f9d8549b2e12d90551c82dc72e0ead7f4010923578af610e055683917",
+    "qr-05e-sampling-aware-2026-09-06/results.json": "362e7f0c00f00491cd3820fd840faca63b244ed4a0c2156bcb3d0924baa52f41",
+}
+
+
+def require(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def digest(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def plain_bytes(path):
+    require(path.is_file() and not path.is_symlink(), "input must be a plain file")
+    return path.read_bytes()
+
+
+def ledger():
+    result = {}
+    for name in SOURCES:
+        raw = plain_bytes(HERE / name)
+        result[name] = {"bytes": len(raw), "sha256": digest(raw)}
+    return result
+
+
+def priors():
+    result = {}
+    for name, sha in PRIORS.items():
+        raw = plain_bytes(HERE.parent / name)
+        require(digest(raw) == sha, "prior artifact changed")
+        result[name] = {"bytes": len(raw), "sha256": sha}
+    return result
+
+
+def prior_json(name):
+    raw = plain_bytes(HERE.parent / name)
+    require(digest(raw) == PRIORS[name], "prior artifact changed")
+    return json.loads(raw)
+
+
+def load(name, filename):
+    require(name not in sys.modules, "private study module collision")
+    path = HERE / filename
+    raw = plain_bytes(path)
+    spec = importlib.util.spec_from_file_location(name, path)
+    require(spec is not None and spec.loader is not None, "cannot load executor")
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    exec(compile(raw, str(path), "exec"), module.__dict__)  # noqa: S102
+    return module
+
+
+def retained_bits(value):
+    if type(value) is dict:
+        return max((retained_bits(v) for v in value.values()), default=0)
+    if type(value) is list:
+        return max((retained_bits(v) for v in value), default=0)
+    if type(value) is int:
+        return abs(value).bit_length()
+    if type(value) is str and re.fullmatch(r"-?(?:0|[1-9][0-9]*)(?:/[1-9][0-9]*)?", value):
+        v = F(value)
+        return max(abs(v.numerator).bit_length(), v.denominator.bit_length())
+    return 0
+
+
+def require_wire(value):
+    """Native validation with per-call DAG accounting before serialization.
+
+    Expanded value nodes lower-bound JSON bytes. Repeated references count
+    each occurrence, but completed subtrees are walked only once. Depth is
+    safely above valid AB schemas, including evidence envelopes.
+    """
+    active, completed = set(), {}
+    pending = [(value, 0, False)]
+    while pending:
+        item, depth, leaving = pending.pop()
+        identity = id(item)
+        if leaving:
+            children = item if type(item) is list else item.values()
+            nodes, height = 1, 0
+            for child in children:
+                count, child_height = (
+                    completed[id(child)] if type(child) in (list, dict) else (1, 0)
+                )
+                nodes += count
+                height = max(height, child_height + 1)
+                require(nodes <= MAX_WORKING_BYTES, "expanded wire exceeds working byte cap")
+            completed[identity] = nodes, height
+            active.remove(identity)
+            continue
+        require(depth <= 128, "wire exceeds bounded schema depth")
+        if item is None or type(item) in (bool, int, str):
+            continue
+        require(type(item) in (list, dict), "mathematical suite must use native exact JSON types")
+        require(identity not in active, "cyclic wire container")
+        if identity in completed:
+            require(depth + completed[identity][1] <= 128, "wire exceeds bounded schema depth")
+            continue
+        if type(item) is dict:
+            require(all(type(key) is str for key in item), "wire keys must be strings")
+        active.add(identity)
+        pending.append((item, depth, True))
+        children = item if type(item) is list else item.values()
+        pending.extend((child, depth + 1, False) for child in children)
+
+
+def canonical(value):
+    return (
+        json.dumps(value, sort_keys=True, separators=(",", ":"), allow_nan=False) + "\n"
+    ).encode()
+
+
+def require_same_wire(left, right, message):
+    require_wire(left)
+    require_wire(right)
+    require(canonical(left) == canonical(right), message)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--verify", action="store_true")
+    args = parser.parse_args()
+    require(
+        sys.flags.isolated and sys.pycache_prefix, "run isolated with an external bytecode cache"
+    )
+    cache = Path(sys.pycache_prefix).resolve()
+    require(
+        cache != Path(cache.anchor) and not cache.is_relative_to(ROOT),
+        "invalid bytecode cache boundary",
+    )
+    if not args.verify and (RESULT.exists() or RESULT.is_symlink()):
+        raise FileExistsError("result exists; use --verify, never overwrite")
+    frozen, previous = ledger(), priors()
+    if args.verify:
+        before = plain_bytes(RESULT)
+        require(len(before) <= MAX_CAPTURE_BYTES, "artifact byte cap")
+        existing = json.loads(before)
+        require(
+            type(existing) is dict
+            and set(existing)
+            == {"schema_version", "source_ledger", "prior_artifacts", "suite", "runtime"}
+            and existing["schema_version"] == SCHEMA,
+            "unrecognized result schema",
+        )
+        require(canonical(existing) == before, "result is not canonical")
+        require_same_wire(existing["source_ledger"], frozen, "source identity changed")
+        require_same_wire(existing["prior_artifacts"], previous, "prior identity changed")
+    started = time.perf_counter()
+    suite = run_suite()
+    require_wire(suite)
+    require(retained_bits(suite) <= 4096, "retained suite component bit bound")
+    require_same_wire(suite, json.loads(canonical(suite)), "aggregate wire round trip differs")
+    elapsed = time.perf_counter() - started
+    require(ledger() == frozen and priors() == previous, "source/prior changed during execution")
+    if args.verify:
+        require_same_wire(existing["suite"], suite, "exact replay differs")
+        require(plain_bytes(RESULT) == before, "result changed during replay")
+        print(
+            json.dumps(
+                {
+                    "status": "VERIFIED_EXACT_REPLAY",
+                    "sha256": digest(before),
+                    "seconds": elapsed,
+                    "totals": suite["totals"],
+                }
+            )
+        )
+        return
+    report = {
+        "schema_version": SCHEMA,
+        "source_ledger": frozen,
+        "prior_artifacts": previous,
+        "suite": suite,
+        "runtime": {
+            "python": sys.version,
+            "executable": sys.executable,
+            "platform": platform.platform(),
+            "isolated": bool(sys.flags.isolated),
+            "optimized": sys.flags.optimize,
+            "bytecode_cache": str(cache),
+            "suite_seconds": elapsed,
+            "rss_high_water_at_suite_end": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+            "rss_units": "bytes" if sys.platform == "darwin" else "KiB",
+            "scope": "suite and internal exact JSON checks; excludes final report serialization; no application performance claim",
+        },
+    }
+    raw = canonical(report)
+    require(len(raw) <= MAX_CAPTURE_BYTES, "artifact byte cap")
+    with RESULT.open("xb") as output:
+        output.write(raw)
+    require(plain_bytes(RESULT) == raw, "capture readback differs")
+    print(
+        json.dumps(
+            {
+                "status": "CREATED_EXACT_FINITE_RESULT",
+                "path": str(RESULT),
+                "bytes": len(raw),
+                "sha256": digest(raw),
+                "seconds": elapsed,
+                "totals": suite["totals"],
+            }
+        )
+    )
+
+
+WEIGHTS = [[0, 1], [1, 2], [1, 1]]
+CHECKS = (
+    "coarse_zero",
+    "nested_uncertainty",
+    "complete_argmax",
+    "complete_argmin",
+    "minimax_nonpositive",
+    "bound_extension_non_decrease",
+)
+AA_COUNTS = {
+    "worlds": 4,
+    "assumed_models": 4,
+    "rules": 3,
+    "decisions": 16,
+    "world_rule_cells": 48,
+    "excess_terms": 48,
+    "candidate_world_visits": 120,
+    "candidate_selection_visits": 48,
+    "total_decision_work": 216,
+}
+
+
+def fraction(value):
+    require(type(value) is list and len(value) == 2, "fraction pair")
+    n, d = value
+    require(type(n) is int and type(d) is int and d > 0, "fraction native components")
+    result = F(n, d)
+    require(
+        -2 <= result <= 2 and [result.numerator, result.denominator] == value,
+        "fraction range/reduction",
+    )
+    require(max(abs(n).bit_length(), d.bit_length()) <= 4096, "fraction bit cap")
+    return result
+
+
+def wire(value):
+    require(type(value) is F and -2 <= value <= 2, "retained fraction range")
+    require(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "retained fraction bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def nominal_problem(case):
+    analysis = case["analysis"]
+    require_same_wire(analysis["levels"], LEVELS, "four actual/assumed levels")
+    require_same_wire(analysis["retained_weights"], WEIGHTS, "three fixed choices")
+    worlds = []
+    for actual in range(4):
+        coarse = analysis["baseline"]["aggregate"]["pairs"][4 * actual]["coarse_forecast_risk"]
+        models = []
+        for assumed in range(4):
+            index = 4 * actual + assumed
+            require_same_wire(
+                analysis["baseline"]["aggregate"]["pairs"][index]["coarse_forecast_risk"],
+                coarse,
+                "same-world common coarse risk",
+            )
+            pair = analysis["aggregate"]["pairs"][index]
+            require(
+                pair["actual_index"] == actual and pair["assumed_index"] == assumed,
+                "ordered Z pair",
+            )
+            models.append(
+                {
+                    "assumed_index": assumed,
+                    "forecast_risks": [
+                        copy.deepcopy(blend["forecast_risk"]) for blend in pair["blends"]
+                    ],
+                }
+            )
+        worlds.append(
+            {"actual_index": actual, "coarse_risk": copy.deepcopy(coarse), "models": models}
+        )
+    return {
+        "schema_version": "det8-qr05aa-problem-v1",
+        "family": "qr05aa_uncertainty_decision",
+        "levels": copy.deepcopy(LEVELS),
+        "retained_weights": copy.deepcopy(WEIGHTS),
+        "worlds": worlds,
+    }
+
+
+def nominal_expected(problem):
+    """Independent enumerate-all-extrema oracle, not an engine import."""
+    worlds = copy.deepcopy(problem["worlds"])
+    for world in worlds:
+        coarse = fraction(world["coarse_risk"])
+        for model in world["models"]:
+            model["excess_risks"] = [wire(fraction(r) - coarse) for r in model["forecast_risks"]]
+    decisions = []
+    for assumed in range(4):
+        previous = None
+        for bound in range(4):
+            indices = list(range(bound + 1))
+            candidates, worst_values = [], []
+            for rule, weight in enumerate(WEIGHTS):
+                values = [
+                    fraction(worlds[t]["models"][assumed]["excess_risks"][rule]) for t in indices
+                ]
+                worst = max(values)
+                argmax = [t for t, v in zip(indices, values, strict=True) if v == worst]
+                candidates.append(
+                    {
+                        "retained_weight": copy.deepcopy(weight),
+                        "world_excesses": [wire(v) for v in values],
+                        "worst_excess": wire(worst),
+                        "worst_world_indices": argmax,
+                    }
+                )
+                worst_values.append(worst)
+            optimum = min(worst_values)
+            argmin = [i for i, v in enumerate(worst_values) if v == optimum]
+            require(worst_values[0] == 0 and optimum <= 0, "coarse option bound")
+            if previous is not None:
+                require(
+                    all(a <= b for a, b in zip(previous[0], worst_values, strict=True))
+                    and previous[1] <= optimum,
+                    "nested uncertainty extrema",
+                )
+            previous = worst_values, optimum
+            decisions.append(
+                {
+                    "assumed_index": assumed,
+                    "bound_index": bound,
+                    "world_indices": indices,
+                    "candidates": candidates,
+                    "minimax_excess": wire(optimum),
+                    "minimizer_indices": argmin,
+                    "minimizer_weights": [copy.deepcopy(WEIGHTS[i]) for i in argmin],
+                    "checks": dict.fromkeys(CHECKS, True),
+                }
+            )
+    return {
+        "input_sha256": digest(canonical(problem)),
+        "levels": copy.deepcopy(LEVELS),
+        "retained_weights": copy.deepcopy(WEIGHTS),
+        "worlds": worlds,
+        "decisions": decisions,
+        "counts": dict(AA_COUNTS),
+    }
+
+
+def prediction(rows):
+    values = {tuple(row["value"]): fraction(row["probability"]) for row in rows}
+    require(
+        len(values) == len(rows)
+        and sum(values.values(), F(0)) == 1
+        and all(p > 0 for p in values.values()),
+        "complete normalized positive law",
+    )
+    return values
+
+
+def literal_loss(actual, forecast):
+    coordinates = actual.keys() | forecast.keys()
+    return sum(
+        (
+            mass
+            * sum(
+                (
+                    (F(int(outcome == coordinate)) - forecast.get(coordinate, F(0))) ** 2
+                    for coordinate in coordinates
+                ),
+                F(0),
+            )
+            for outcome, mass in actual.items()
+        ),
+        F(0),
+    )
+
+
+def joint(channel):
+    return {
+        (tuple(cell["value"]), future): fraction(cell["probability"]) * mass
+        for cell in channel["cells"]
+        for future, mass in prediction(cell["prediction"]).items()
+    }
+
+
+def verify_nominal_laws_and_risks(case, problem):
+    """Original-law literal scorer plus family checks; no minimax oracle."""
+    z = case["analysis"]
+    experiment = case["problem"]["experiment"]
+    require_same_wire(len(z["beliefs"]), len(experiment["beliefs"]), "history inventory")
+    require(
+        sum((fraction(b["weight"]) for b in experiment["beliefs"]), F(0)) == 1,
+        "original history weights",
+    )
+    sums = [[[F(0) for _ in WEIGHTS] for _ in LEVELS] for _ in LEVELS]
+    coarse_sums = [[F(0) for _ in LEVELS] for _ in LEVELS]
+    seen = {}
+    full_coincidence = [True] * 4
+    for source, zb, yb in zip(
+        experiment["beliefs"], z["beliefs"], z["baseline"]["beliefs"], strict=True
+    ):
+        bid = source["belief_id"]
+        require_same_wire(source["weight"], zb["weight"], "Z original history likelihood")
+        require_same_wire(source["weight"], yb["weight"], "Y original history likelihood")
+        history_weight = fraction(source["weight"])
+        channels = source["channels"]
+        joints = [joint(c) for c in channels]
+        atoms = set().union(*(j.keys() for j in joints))
+        for t, level in enumerate(LEVELS):
+            rate = fraction(level)
+            for atom in atoms:
+                require(
+                    joints[t].get(atom, F(0))
+                    == (1 - rate) * joints[0].get(atom, F(0)) + rate * joints[3].get(atom, F(0)),
+                    "complete affine actual joint law",
+                )
+        fallbacks = {tuple(r["value"]): prediction(r["prediction"]) for r in source["fallbacks"]}
+        # Authenticate true N fallback and invariant N mass for this pinned family.
+        prefix_weights = []
+        for j in joints:
+            masses, laws = {}, {}
+            for (report, future), mass in j.items():
+                prefix = report[:5]
+                masses[prefix] = masses.get(prefix, F(0)) + mass
+                laws.setdefault(prefix, {})[future] = (
+                    laws.setdefault(prefix, {}).get(future, F(0)) + mass
+                )
+            prefix_weights.append(masses)
+            for prefix, mass in masses.items():
+                require(
+                    {v: p / mass for v, p in laws[prefix].items()} == fallbacks[prefix],
+                    "true N conditional fallback",
+                )
+        require(all(v == prefix_weights[0] for v in prefix_weights), "N mass preservation")
+        clean = {tuple(c["value"]): c for c in channels[0]["cells"]}
+        assumed_cells = [{tuple(c["value"]): c for c in ch["cells"]} for ch in channels]
+        for actual in range(4):
+            for assumed in range(4):
+                index = 4 * actual + assumed
+                zpair, ypair = zb["pairs"][index], yb["pairs"][index]
+                require_same_wire(len(zpair["cells"]), len(ypair["cells"]), "Z/Y report inventory")
+                for cell, base in zip(zpair["cells"], ypair["cells"], strict=True):
+                    require_same_wire(cell["value"], base["value"], "Z/Y report order")
+                    report = tuple(cell["value"])
+                    p = prediction(base["actual_prediction"])
+                    f = prediction(base["forecast"])
+                    g = prediction(base["coarse_forecast"])
+                    require(g == fallbacks[report[:5]], "common coarse law")
+                    if report in clean:
+                        m0 = fraction(clean[report]["probability"])
+                        ms = fraction(assumed_cells[assumed][report]["probability"])
+                        beta = (1 - fraction(LEVELS[assumed])) * m0 / ms
+                        require(0 <= beta <= 1, "clean forecast segment coefficient")
+                        p0 = prediction(clean[report]["prediction"])
+                        segment = {
+                            v: (1 - beta) * g.get(v, F(0)) + beta * p0.get(v, F(0))
+                            for v in g.keys() | p0.keys()
+                        }
+                        require(
+                            {v: p for v, p in segment.items() if p} == f,
+                            "complete clean forecast segment",
+                        )
+                    else:
+                        require(f == g, "clean-zero replacement or explicit fallback")
+                    report_weight = fraction(base["actual_probability"])
+                    cg = literal_loss(p, g)
+                    require_same_wire(wire(cg), base["coarse_risk"], "literal coarse score")
+                    coarse_sums[actual][assumed] += history_weight * report_weight * cg
+                    distance = sum(
+                        ((f.get(v, F(0)) - g.get(v, F(0))) ** 2 for v in f.keys() | g.keys()), F(0)
+                    )
+                    require_same_wire(
+                        wire(distance), cell["forecast_distance"], "complete endpoint distance"
+                    )
+                    if actual == 3:
+                        require(p == g, "full replacement true coarse")
+                        full_coincidence[assumed] &= f == g
+                    for rule, blend in enumerate(cell["blends"]):
+                        a = fraction(WEIGHTS[rule])
+                        h = prediction(blend["forecast"])
+                        expected = {
+                            v: (1 - a) * g.get(v, F(0)) + a * f.get(v, F(0))
+                            for v in f.keys() | g.keys()
+                        }
+                        require(
+                            {v: p for v, p in expected.items() if p} == h, "full mixed forecast"
+                        )
+                        key = bid, assumed, rule, report
+                        require(
+                            key not in seen or seen[key] == h, "forecast depends on actual index"
+                        )
+                        seen[key] = h
+                        risk = literal_loss(p, h)
+                        require_same_wire(wire(risk), blend["forecast_risk"], "literal mixed score")
+                        require_same_wire(
+                            wire(cg - risk), blend["gain_over_coarse"], "cell signed gain"
+                        )
+                        sums[actual][assumed][rule] += history_weight * report_weight * risk
+                        if actual == 0:
+                            require(risk <= cg, "clean nonpositive excess")
+                        if actual == 3:
+                            require(
+                                risk - cg == a * a * distance, "full replacement quadratic penalty"
+                            )
+    for actual in range(4):
+        for assumed in range(4):
+            require_same_wire(
+                wire(coarse_sums[actual][assumed]),
+                problem["worlds"][actual]["coarse_risk"],
+                "original-weight coarse risk",
+            )
+            for rule in range(3):
+                require_same_wire(
+                    wire(sums[actual][assumed][rule]),
+                    problem["worlds"][actual]["models"][assumed]["forecast_risks"][rule],
+                    "original-weight complete risk",
+                )
+                require_same_wire(
+                    wire(coarse_sums[actual][assumed] - sums[actual][assumed][rule]),
+                    z["aggregate"]["pairs"][4 * actual + assumed]["blends"][rule][
+                        "gain_over_coarse"
+                    ],
+                    "negative Z aggregate gain",
+                )
+    return full_coincidence
+
+
+def nominal_producer_controls(analysis, case):
+    problem = nominal_problem(case)
+    require_same_wire(
+        analysis["worlds"],
+        nominal_expected(problem)["worlds"],
+        "complete authenticated risk-table projection",
+    )
+    coincidence = verify_nominal_laws_and_risks(case, problem)
+    for assumed in range(4):
+        coarse = [fraction(w["coarse_risk"]) for w in problem["worlds"]]
+        require(all(v == coarse[0] for v in coarse), "W constant coarse risk")
+        for rule in range(3):
+            risks = [
+                fraction(w["models"][assumed]["forecast_risks"][rule]) for w in problem["worlds"]
+            ]
+            excesses = [r - g for r, g in zip(risks, coarse, strict=True)]
+            for t, level in enumerate(LEVELS):
+                a = fraction(level)
+                require(risks[t] == (1 - a) * risks[0] + a * risks[3], "affine risk")
+                require(coarse[t] == (1 - a) * coarse[0] + a * coarse[3], "affine coarse risk")
+                require(
+                    excesses[t] == (1 - a) * excesses[0] + a * excesses[3], "affine signed excess"
+                )
+            require(all(a <= b for a, b in itertools.pairwise(excesses)), "W nondecreasing excess")
+            for bound in range(4):
+                decision = analysis["decisions"][4 * assumed + bound]
+                candidate = decision["candidates"][rule]
+                require(
+                    bound in candidate["worst_world_indices"]
+                    and fraction(candidate["worst_excess"]) == excesses[bound],
+                    "W upper endpoint among all worst worlds",
+                )
+        full = analysis["decisions"][4 * assumed + 3]
+        require(
+            0 in full["minimizer_indices"] and fraction(full["minimax_excess"]) == 0,
+            "full bound includes coarse",
+        )
+        require(
+            full["minimizer_indices"] == ([0, 1, 2] if coincidence[assumed] else [0]),
+            "full-bound complete-law tie condition",
+        )
+    return {
+        **dict.fromkeys(
+            (
+                "risk_table_matches_Z",
+                "literal_forecast_risks_checked",
+                "original_history_report_weights_preserved",
+                "fixed_rule_forecasts_actual_index_independent",
+                "W_affine_actual_joint_and_risk",
+                "W_constant_coarse_risk",
+                "W_clean_forecast_segment_and_excess",
+                "W_full_replacement_quadratic_penalty",
+                "W_excess_monotonicity_and_upper_endpoint",
+                "W_full_bound_coarse_and_coincidence_ties",
+            ),
+            True,
+        ),
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def nominal_check(analysis, case):
+    problem = nominal_problem(case)
+    require_same_wire(analysis, nominal_expected(problem), "independent complete AA output")
+    return nominal_producer_controls(analysis, case)
+
+
+MECHANISMS = ("forward", "reverse")
+AB_CHECKS = (
+    "nominal_selection_preserved",
+    "complete_argmax",
+    "all_any_quantifiers",
+    "signed_bound_comparison",
+    "coarse_zero",
+    "nested_worlds",
+    "world_witnesses_complete",
+)
+
+
+def wide(value):
+    require(type(value) is F and -4 <= value <= 4, "wide retained difference range")
+    require(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "wide retained difference bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def ab_fixtures():
+    aa, z, w = (prior_json(name) for name in (AA_PRIOR, Z_PRIOR, W_PRIOR))
+    aa_raw = plain_bytes(HERE.parent / AA_PRIOR)
+    require(len(aa_raw) == AA_BYTES and canonical(aa) == aa_raw, "pinned canonical AA envelope")
+    require_same_wire(
+        aa["prior_artifacts"],
+        {k: v for k, v in priors().items() if k not in (AA_PRIOR, AB_PRIOR, AC_PRIOR)},
+        "AA 32-artifact lineage",
+    )
+    require_same_wire(
+        [c["case_id"] for c in aa["suite"]["cases"]],
+        [c["case_id"] for c in z["suite"]["cases"]],
+        "AA/Z case order",
+    )
+    require_same_wire(
+        [c["case_id"] for c in aa["suite"]["cases"]],
+        [c["case_id"] for c in w["suite"]["cases"]],
+        "AA/W case order",
+    )
+    return {"aa": aa["suite"], "z": z["suite"], "w": w["suite"]}
+
+
+def ab_replacement_laws(wsuite):
+    alphabet = {}
+    for row in wsuite["model"]["labels"]:
+        n, value = tuple(row["observation"]), tuple(row["question"])
+        require(value[:5] == n, "whole-model NMT prefix")
+        alphabet.setdefault(n, set()).add(value)
+    original = [
+        {"N": list(n), "values": [list(v) for v in sorted(values)]}
+        for n, values in sorted(alphabet.items())
+    ]
+    require(
+        len(original) == 72 and sum(len(r["values"]) for r in original) == 93,
+        "fixed whole-model alphabet inventory",
+    )
+    for case in wsuite["cases"]:
+        require_same_wire(
+            original,
+            case["analysis"]["channel_model"]["alphabet"],
+            "whole-model distinct labels including zero-prior labels",
+        )
+    answer = []
+    for mechanism in MECHANISMS:
+        rows = []
+        for row in original:
+            values = row["values"]
+            m = len(values)
+            probabilities = [
+                F(2 * (r + 1 if mechanism == "forward" else m - r), m * (m + 1)) for r in range(m)
+            ]
+            require(
+                sum(probabilities, F(0)) == 1 and all(p > 0 for p in probabilities),
+                "positive normalized rank tilt",
+            )
+            rows.append(
+                {
+                    "N": copy.deepcopy(row["N"]),
+                    "values": [
+                        {"value": copy.deepcopy(value), "probability": wire(p)}
+                        for value, p in zip(values, probabilities, strict=True)
+                    ],
+                }
+            )
+        answer.append({"mechanism_id": mechanism, "alphabet": rows})
+    for left, right in zip(answer[0]["alphabet"], answer[1]["alphabet"], strict=True):
+        m = len(left["values"])
+        for a, b in zip(left["values"], right["values"], strict=True):
+            require_same_wire(a["value"], b["value"], "opposite tilt support")
+            require(
+                (fraction(a["probability"]) + fraction(b["probability"])) / 2 == F(1, m),
+                "opposite tilts average uniform",
+            )
+    return answer
+
+
+def n_subjoints(clean):
+    by_prefix = {}
+    for (report, future), mass in clean.items():
+        prefix = report[:5]
+        row = by_prefix.setdefault(prefix, {})
+        row[future] = row.get(future, F(0)) + mass
+    return by_prefix
+
+
+def pushed_channel(clean, n_joint, mu, rate):
+    """Direct unnormalized N/future joint formula, not posterior averaging."""
+    cells = []
+    for prefix, subjoint in sorted(n_joint.items()):
+        for report, tilt in sorted(mu[prefix].items()):
+            law = {
+                q: (1 - rate) * clean.get((report, q), F(0)) + rate * tilt * mass
+                for q, mass in subjoint.items()
+            }
+            law = {q: p for q, p in law.items() if p}
+            mass = sum(law.values(), F(0))
+            if mass:
+                cells.append(
+                    {
+                        "value": list(report),
+                        "probability": wire(mass),
+                        "prediction": [
+                            {"value": list(q), "probability": wire(p / mass)}
+                            for q, p in sorted(law.items())
+                        ],
+                    }
+                )
+    require(
+        sum((fraction(c["probability"]) for c in cells), F(0)) == 1,
+        "pushed actual report normalization",
+    )
+    return {"level": wire(rate), "cells": cells}
+
+
+def build_stress_laws(zcase, laws):
+    answer = []
+    source = zcase["problem"]["experiment"]
+    for mechanism in laws:
+        mu = {
+            tuple(r["N"]): {tuple(v["value"]): fraction(v["probability"]) for v in r["values"]}
+            for r in mechanism["alphabet"]
+        }
+        beliefs = []
+        for belief in source["beliefs"]:
+            clean = joint(belief["channels"][0])
+            n_joint = n_subjoints(clean)
+            channels = [pushed_channel(clean, n_joint, mu, fraction(t)) for t in LEVELS]
+            beliefs.append(
+                {
+                    "belief_id": belief["belief_id"],
+                    "weight": copy.deepcopy(belief["weight"]),
+                    "channels": channels,
+                }
+            )
+        answer.append({"mechanism_id": mechanism["mechanism_id"], "beliefs": beliefs})
+    return answer
+
+
+def policy_maps(zcase):
+    """Frozen full-support Z rules; no new assumed posterior is formed."""
+    result = []
+    for row, base in zip(
+        zcase["analysis"]["beliefs"], zcase["analysis"]["baseline"]["beliefs"], strict=True
+    ):
+        models = []
+        for assumed in range(4):
+            mapping = {}
+            for cell, old in zip(
+                row["pairs"][12 + assumed]["cells"],
+                base["pairs"][12 + assumed]["cells"],
+                strict=True,
+            ):
+                require_same_wire(cell["value"], old["value"], "frozen full-support report order")
+                g, f = prediction(old["coarse_forecast"]), prediction(old["forecast"])
+                forecasts = [prediction(b["forecast"]) for b in cell["blends"]]
+                require(forecasts[0] == g and forecasts[2] == f, "frozen endpoint forecasts")
+                mapping[tuple(cell["value"])] = (g, f, forecasts)
+            models.append(mapping)
+        for report, (g, _, _) in models[0].items():
+            require(
+                all(report in m and m[report][0] == g for m in models),
+                "shared coarse rule for all assumed models",
+            )
+        result.append(models)
+    return result
+
+
+def quadratic_loss(actual, forecast):
+    return (
+        F(1)
+        - 2 * sum((mass * forecast.get(q, F(0)) for q, mass in actual.items()), F(0))
+        + sum((p * p for p in forecast.values()), F(0))
+    )
+
+
+def score_stress(zcase, evidence, literal=False):
+    policies = policy_maps(zcase)
+    output = []
+    for mechanism in evidence:
+        sums = [[[F(0) for _ in WEIGHTS] for _ in LEVELS] for _ in LEVELS]
+        coarse = [F(0) for _ in LEVELS]
+        for source, original, models in zip(
+            mechanism["beliefs"], zcase["problem"]["experiment"]["beliefs"], policies, strict=True
+        ):
+            require_same_wire(source["belief_id"], original["belief_id"], "original history IDs")
+            require_same_wire(source["weight"], original["weight"], "original history likelihoods")
+            weight = fraction(source["weight"])
+            for actual, channel in enumerate(source["channels"]):
+                require_same_wire(channel["level"], LEVELS[actual], "ordered stressed levels")
+                for cell in channel["cells"]:
+                    report = tuple(cell["value"])
+                    p = prediction(cell["prediction"])
+                    mass = fraction(cell["probability"])
+                    score = literal_loss if literal else quadratic_loss
+                    g0 = models[0][report][0]
+                    cg = score(p, g0)
+                    coarse[actual] += weight * mass * cg
+                    if literal and actual == 3:
+                        require(p == g0, "tilted full-replacement true N forecast")
+                    for assumed, model in enumerate(models):
+                        require(report in model, "frozen policy covers full tilted support")
+                        g, f, forecasts = model[report]
+                        require(g == g0, "frozen shared coarse law")
+                        distance = sum(
+                            ((f.get(q, F(0)) - g.get(q, F(0))) ** 2 for q in f.keys() | g.keys()),
+                            F(0),
+                        )
+                        for rule, h in enumerate(forecasts):
+                            risk = score(p, h)
+                            sums[actual][assumed][rule] += weight * mass * risk
+                            if literal and actual == 0:
+                                require(risk <= cg, "unchanged clean nonpositive excess")
+                            if literal and actual == 3:
+                                require(
+                                    risk - cg == fraction(WEIGHTS[rule]) ** 2 * distance,
+                                    "tilted weighted quadratic penalty cell",
+                                )
+        worlds = []
+        for actual in range(4):
+            models = []
+            for assumed in range(4):
+                require(sums[actual][assumed][0] == coarse[actual], "same-actual coarse risk")
+                models.append(
+                    {
+                        "assumed_index": assumed,
+                        "forecast_risks": [wire(r) for r in sums[actual][assumed]],
+                    }
+                )
+            worlds.append(
+                {"actual_index": actual, "coarse_risk": wire(coarse[actual]), "models": models}
+            )
+        output.append({"mechanism_id": mechanism["mechanism_id"], "worlds": worlds})
+    return output
+
+
+def ab_project_case(aacase, zcase, laws):
+    require_same_wire(aacase["case_id"], zcase["case_id"], "nominal case identity")
+    require_same_wire(aacase["problem"], nominal_problem(zcase), "nominal input from unchanged Z")
+    evidence = build_stress_laws(zcase, laws)
+    problem = {
+        "schema_version": "det8-qr05ab-problem-v1",
+        "family": "qr05ab_replacement_stress",
+        "nominal": copy.deepcopy(aacase["problem"]),
+        "mechanisms": score_stress(zcase, evidence),
+    }
+    return {"case_id": aacase["case_id"], "problem": problem, "stress_laws": evidence}
+
+
+def ab_expected_analysis(problem):
+    """Independent all-world enumeration; never takes a stressed argmin."""
+    baseline = nominal_expected(problem["nominal"])
+    output = []
+    old_evaluations = 0
+    for source in problem["mechanisms"]:
+        worlds = copy.deepcopy(source["worlds"])
+        for world in worlds:
+            coarse = fraction(world["coarse_risk"])
+            for model in world["models"]:
+                model["excess_risks"] = [
+                    wire(fraction(r) - coarse) for r in model["forecast_risks"]
+                ]
+        certificates = []
+        for assumed in range(4):
+            for bound in range(4):
+                previous = baseline["decisions"][4 * assumed + bound]
+                old = previous["minimizer_indices"]
+                original = fraction(previous["minimax_excess"])
+                indices = list(range(bound + 1))
+                candidates = []
+                for rule, weight in enumerate(WEIGHTS):
+                    values = [
+                        fraction(worlds[t]["models"][assumed]["excess_risks"][rule])
+                        for t in indices
+                    ]
+                    worst = max(values)
+                    nominal = fraction(previous["candidates"][rule]["worst_excess"])
+                    maximizers = [t for t, v in zip(indices, values, strict=True) if v == worst]
+                    unsafe = [t for t, v in zip(indices, values, strict=True) if v > 0]
+                    breaking = [t for t, v in zip(indices, values, strict=True) if v > original]
+                    candidates.append(
+                        {
+                            "retained_weight": copy.deepcopy(weight),
+                            "world_excesses": [wire(v) for v in values],
+                            "worst_excess": wire(worst),
+                            "worst_world_indices": maximizers,
+                            "nominal_worst_excess": wire(nominal),
+                            "worst_shift": wide(worst - nominal),
+                            "bound_excess": wide(worst - original),
+                            "nominal_minimizer": rule in old,
+                            "coarse_safe": worst <= 0,
+                            "strict_benefit": worst < 0,
+                            "original_bound_preserved": worst <= original,
+                            "unsafe_world_indices": unsafe,
+                            "bound_breaking_world_indices": breaking,
+                        }
+                    )
+                safe = [i for i in old if candidates[i]["coarse_safe"]]
+                strict = [i for i in old if candidates[i]["strict_benefit"]]
+                preserved = [i for i in old if candidates[i]["original_bound_preserved"]]
+                unsafe = [i for i in old if not candidates[i]["coarse_safe"]]
+                breaking = [i for i in old if not candidates[i]["original_bound_preserved"]]
+                old_evaluations += len(old)
+                require(
+                    old and candidates[0]["worst_excess"] == [0, 1],
+                    "frozen selection nonempty / coarse zero",
+                )
+                certificates.append(
+                    {
+                        "assumed_index": assumed,
+                        "bound_index": bound,
+                        "world_indices": indices,
+                        "nominal_minimax_excess": copy.deepcopy(previous["minimax_excess"]),
+                        "old_minimizer_indices": copy.deepcopy(old),
+                        "old_minimizer_weights": copy.deepcopy(previous["minimizer_weights"]),
+                        "candidates": candidates,
+                        "safe_old_indices": safe,
+                        "strictly_beneficial_old_indices": strict,
+                        "bound_preserving_old_indices": preserved,
+                        "unsafe_old_indices": unsafe,
+                        "bound_breaking_old_indices": breaking,
+                        "all_old_safe": len(safe) == len(old),
+                        "any_old_safe": bool(safe),
+                        "all_old_strict": len(strict) == len(old),
+                        "any_old_strict": bool(strict),
+                        "all_old_bound_preserved": len(preserved) == len(old),
+                        "any_old_bound_preserved": bool(preserved),
+                        "checks": dict.fromkeys(AB_CHECKS, True),
+                    }
+                )
+        output.append(
+            {"mechanism_id": source["mechanism_id"], "worlds": worlds, "certificates": certificates}
+        )
+    counts = {
+        "mechanisms": 2,
+        "worlds": 8,
+        "assumed_models": 8,
+        "rules": 6,
+        "certificates": 32,
+        "candidate_certificates": 96,
+        "old_rule_evaluations": old_evaluations,
+        "stress_risk_cells": 96,
+        "baseline_decision_work": 216,
+        "stress_excess_terms": 96,
+        "candidate_world_visits": 240,
+        "shift_terms": 192,
+        "candidate_classification_visits": 96,
+        "total_work_terms": 840,
+    }
+    return {
+        "input_sha256": digest(canonical(problem)),
+        "baseline": baseline,
+        "mechanisms": output,
+        "counts": counts,
+    }
+
+
+def verify_stress_family(analysis, aacase, zcase, laws, evidence):
+    # Whole replacement-law origin is checked by ab_fixtures/ab_replacement_laws and
+    # raw audit; here the full supplied law evidence must match that fixed map.
+    require_same_wire(
+        evidence, build_stress_laws(zcase, laws), "complete independently reconstructed tilted laws"
+    )
+    literal = score_stress(zcase, evidence, literal=True)
+    for m, computed in zip(analysis["mechanisms"], literal, strict=True):
+        for world, source in zip(m["worlds"], computed["worlds"], strict=True):
+            require_same_wire(
+                world["coarse_risk"], source["coarse_risk"], "literal coarse case risk"
+            )
+            for row, original in zip(world["models"], source["models"], strict=True):
+                require_same_wire(
+                    row["forecast_risks"],
+                    original["forecast_risks"],
+                    "literal original-weight frozen forecast risks",
+                )
+    nominal = analysis["baseline"]
+    for bid, original in enumerate(zcase["problem"]["experiment"]["beliefs"]):
+        old = [joint(ch) for ch in original["channels"]]
+        actual = [[joint(ch) for ch in m["beliefs"][bid]["channels"]] for m in evidence]
+        for mechanism in range(2):
+            require(actual[mechanism][0] == old[0], "complete clean joint recovery")
+            for t in range(4):
+                require(
+                    n_subjoints(actual[mechanism][t]) == n_subjoints(old[t]),
+                    "complete N/future marginal preservation",
+                )
+                require(
+                    {z for z, _ in actual[mechanism][t]} == {z for z, _ in old[t]},
+                    "same positive report support",
+                )
+                atoms = (
+                    actual[mechanism][0].keys()
+                    | actual[mechanism][3].keys()
+                    | actual[mechanism][t].keys()
+                )
+                rate = fraction(LEVELS[t])
+                require(
+                    all(
+                        actual[mechanism][t].get(key, F(0))
+                        == (1 - rate) * actual[mechanism][0].get(key, F(0))
+                        + rate * actual[mechanism][3].get(key, F(0))
+                        for key in atoms
+                    ),
+                    "affine full stressed joint",
+                )
+        for t in range(4):
+            atoms = old[t].keys() | actual[0][t].keys() | actual[1][t].keys()
+            require(
+                all(
+                    (actual[0][t].get(key, F(0)) + actual[1][t].get(key, F(0))) / 2
+                    == old[t].get(key, F(0))
+                    for key in atoms
+                ),
+                "opposite JOINT midpoint, not conditional posterior average",
+            )
+    for assumed in range(4):
+        for rule in range(3):
+            curves = []
+            for mechanism in analysis["mechanisms"]:
+                risks = [
+                    fraction(w["models"][assumed]["forecast_risks"][rule])
+                    for w in mechanism["worlds"]
+                ]
+                coarse = [fraction(w["coarse_risk"]) for w in mechanism["worlds"]]
+                excess = [r - g for r, g in zip(risks, coarse, strict=True)]
+                require_same_wire(
+                    [wire(g) for g in coarse],
+                    [w["coarse_risk"] for w in nominal["worlds"]],
+                    "coarse risk unchanged",
+                )
+                for t, level in enumerate(LEVELS):
+                    rate = fraction(level)
+                    require(
+                        risks[t] == (1 - rate) * risks[0] + rate * risks[3],
+                        "affine original-law risk",
+                    )
+                require(
+                    all(a <= b for a, b in itertools.pairwise(excess)),
+                    "stressed excess nondecreasing",
+                )
+                for bound in range(4):
+                    cert = mechanism["certificates"][4 * assumed + bound]
+                    cand = cert["candidates"][rule]
+                    require(
+                        bound in cand["worst_world_indices"]
+                        and fraction(cand["worst_excess"]) == excess[bound],
+                        "upper endpoint remains worst",
+                    )
+                curves.append(risks)
+            for t in range(4):
+                require(
+                    (curves[0][t] + curves[1][t]) / 2
+                    == fraction(nominal["worlds"][t]["models"][assumed]["forecast_risks"][rule]),
+                    "opposite risk midpoint nominal",
+                )
+            for bound in range(4):
+                old = nominal["decisions"][4 * assumed + bound]
+                one, two = [m["certificates"][4 * assumed + bound] for m in analysis["mechanisms"]]
+                require(
+                    (
+                        fraction(one["candidates"][rule]["worst_excess"])
+                        + fraction(two["candidates"][rule]["worst_excess"])
+                    )
+                    / 2
+                    == fraction(old["candidates"][rule]["worst_excess"]),
+                    "opposite worst-risk midpoint under upper-endpoint control",
+                )
+                if rule in old["minimizer_indices"]:
+                    left, right = (F(*c["candidates"][rule]["bound_excess"]) for c in (one, two))
+                    require(left + right == 0, "opposite old-bound deviations cancel")
+                    require(
+                        (left <= 0 and right <= 0) == (left == 0 and right == 0),
+                        "both original bounds preserved iff exact",
+                    )
+    return literal
+
+
+def ab_producer_controls(analysis, aacase, zcase, laws, evidence):
+    require_same_wire(
+        aacase["analysis"], nominal_expected(aacase["problem"]), "complete nominal AA analysis"
+    )
+    require_same_wire(
+        analysis["baseline"], aacase["analysis"], "entire nominal AA baseline retained"
+    )
+    nominal_check(analysis["baseline"], zcase)
+    verify_stress_family(analysis, aacase, zcase, laws, evidence)
+    return {
+        **dict.fromkeys(
+            (
+                "nominal_AA_baseline_preserved",
+                "whole_model_positive_rank_tilts",
+                "complete_stressed_laws_and_support",
+                "frozen_forecasts_and_weights",
+                "literal_original_weight_risks",
+                "clean_and_N_future_marginals_preserved",
+                "affine_actual_joint_and_risk",
+                "opposite_tilts_average_to_nominal",
+                "full_replacement_tilted_quadratic_penalty",
+                "upper_endpoint_and_opposite_bound_deviations",
+                "all_original_ties_classified_without_reoptimization",
+            ),
+            True,
+        ),
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def ab_check_analysis(analysis, aacase, zcase, laws, evidence):
+    projected = ab_project_case(aacase, zcase, laws)
+    require_same_wire(evidence, projected["stress_laws"], "entire retained actual-law evidence")
+    require_same_wire(
+        analysis,
+        ab_expected_analysis(projected["problem"]),
+        "independent complete frozen-certificate output",
+    )
+    return ab_producer_controls(analysis, aacase, zcase, laws, evidence)
+
+
+AC_CHECKS = (
+    "nominal_selection_preserved",
+    "complete_envelope_argmax",
+    "complete_mechanism_faces",
+    "global_witness_attains_envelope",
+    "witness_argmax_complete",
+    "full_support_attainment",
+    "all_any_quantifiers",
+    "signed_bound_comparison",
+    "coarse_zero",
+    "nested_worlds",
+)
+
+
+def ac_fixtures():
+    result = ab_fixtures()
+    raw = plain_bytes(HERE.parent / AB_PRIOR)
+    doc = prior_json(AB_PRIOR)
+    require(len(raw) == AB_BYTES and canonical(doc) == raw, "canonical pinned AB")
+    require_same_wire(
+        doc["prior_artifacts"],
+        {k: v for k, v in priors().items() if k not in (AB_PRIOR, AC_PRIOR)},
+        "AB complete prior lineage",
+    )
+    result["ab"] = doc["suite"]
+    require_same_wire(
+        [c["case_id"] for c in result["ab"]["cases"]],
+        [c["case_id"] for c in result["aa"]["cases"]],
+        "AB/AA case order",
+    )
+    return result
+
+
+def alphabet(wsuite):
+    tilts = ab_replacement_laws(wsuite)
+    return [
+        {"N": copy.deepcopy(row["N"]), "values": [copy.deepcopy(v["value"]) for v in row["values"]]}
+        for row in tilts[0]["alphabet"]
+    ]
+
+
+def coefficients_from_case(zcase, letters, literal=False):
+    """Aggregate all ORIGINAL history weights before any coefficient maximum."""
+    policies = policy_maps(zcase)
+    values = [[[[F(0) for _ in WEIGHTS] for _ in row["values"]] for row in letters] for _ in LEVELS]
+    for source, models in zip(zcase["problem"]["experiment"]["beliefs"], policies, strict=True):
+        weight = fraction(source["weight"])
+        subjoint = n_subjoints(joint(source["channels"][0]))
+        for ni, row in enumerate(letters):
+            prefix = tuple(row["N"])
+            if prefix not in subjoint:
+                continue
+            mass = sum(subjoint[prefix].values(), F(0))
+            truth = {q: p / mass for q, p in subjoint[prefix].items()}
+            for zi, label in enumerate(row["values"]):
+                for s, model in enumerate(models):
+                    g, _, forecasts = model[tuple(label)]
+                    require(g == truth, "frozen coarse law equals unnormalized-N truth")
+                    for a, h in enumerate(forecasts):
+                        if literal:
+                            distance = literal_loss(truth, h) - literal_loss(truth, g)
+                        else:
+                            distance = sum(
+                                (
+                                    (h.get(q, F(0)) - g.get(q, F(0))) ** 2
+                                    for q in h.keys() | g.keys()
+                                ),
+                                F(0),
+                            )
+                        require(distance >= 0, "full replacement coefficient nonnegative")
+                        values[s][ni][zi][a] += weight * mass * distance
+    return [
+        {
+            "assumed_index": s,
+            "full_coefficients": [
+                [[wire(v) for v in weights] for weights in fiber] for fiber in table
+            ],
+        }
+        for s, table in enumerate(values)
+    ]
+
+
+def ac_project_case(aacase, zcase, letters):
+    require_same_wire(aacase["case_id"], zcase["case_id"], "same nominal case")
+    require_same_wire(aacase["problem"], nominal_problem(zcase), "exact AA input from Z")
+    return {
+        "case_id": aacase["case_id"],
+        "problem": {
+            "schema_version": "det8-qr05ac-problem-v1",
+            "family": "qr05ac_replacement_envelope",
+            "nominal": copy.deepcopy(aacase["problem"]),
+            "alphabet": copy.deepcopy(letters),
+            "models": coefficients_from_case(zcase, letters),
+        },
+    }
+
+
+def ac_expected_analysis(problem):
+    """Independent profile and all-world enumeration, not stressed argmin."""
+    baseline = nominal_expected(problem["nominal"])
+    letters = problem["alphabet"]
+    profiles = []
+    curves = []
+    for s, model in enumerate(problem["models"]):
+        for a, weight in enumerate(WEIGHTS):
+            clean = fraction(baseline["worlds"][0]["models"][s]["excess_risks"][a])
+            fibers, maxima = [], []
+            for row, tensor in zip(letters, model["full_coefficients"], strict=True):
+                values = [fraction(weights[a]) for weights in tensor]
+                maximum = max(values)
+                require(all(v >= 0 for v in values), "nonnegative coefficient")
+                if a == 0:
+                    require(all(v == 0 for v in values), "coarse coefficients zero")
+                ids = [i for i, v in enumerate(values) if v == maximum]
+                fibers.append(
+                    {
+                        "N": copy.deepcopy(row["N"]),
+                        "maximum": wire(maximum),
+                        "maximizer_indices": ids,
+                    }
+                )
+                maxima.append(maximum)
+            total = sum(maxima, F(0))
+            require(0 <= total <= 2, "full envelope sum bound")
+            profiles.append(
+                {
+                    "assumed_index": s,
+                    "retained_weight": copy.deepcopy(weight),
+                    "clean_excess": wire(clean),
+                    "full_upper_excess": wire(total),
+                    "fibers": fibers,
+                    "all_fibers_flat": all(
+                        len(f["maximizer_indices"]) == len(row["values"])
+                        for f, row in zip(fibers, letters, strict=True)
+                    ),
+                }
+            )
+            curves.append([wire((1 - fraction(t)) * clean + fraction(t) * total) for t in LEVELS])
+    certificates, old_visits = [], 0
+    for previous in baseline["decisions"]:
+        s, u = previous["assumed_index"], previous["bound_index"]
+        worlds = list(range(u + 1))
+        old = previous["minimizer_indices"]
+        optimum = fraction(previous["minimax_excess"])
+        candidates = []
+        for a, weight in enumerate(WEIGHTS):
+            pi = 3 * s + a
+            profile = profiles[pi]
+            curve = [fraction(v) for v in curves[pi][: u + 1]]
+            worst = max(curve)
+            maximizing = [t for t, v in zip(worlds, curve, strict=True) if v == worst]
+            face = [
+                list(range(len(row["values"]))) if 0 in maximizing else f["maximizer_indices"][:]
+                for row, f in zip(letters, profile["fibers"], strict=True)
+            ]
+            witness = [indices[0] for indices in face]
+            wfull = sum(
+                (
+                    fraction(fiber[label][a])
+                    for fiber, label in zip(
+                        problem["models"][s]["full_coefficients"], witness, strict=True
+                    )
+                ),
+                F(0),
+            )
+            clean = fraction(profile["clean_excess"])
+            actual = [
+                (1 - fraction(LEVELS[t])) * clean + fraction(LEVELS[t]) * wfull for t in worlds
+            ]
+            require(max(actual) == worst, "global pointmass witness attains envelope")
+            attained = 0 in maximizing or profile["all_fibers_flat"]
+            nominal = fraction(previous["candidates"][a]["worst_excess"])
+            candidates.append(
+                {
+                    "retained_weight": copy.deepcopy(weight),
+                    "profile_index": pi,
+                    "world_upper_excesses": [wire(v) for v in curve],
+                    "worst_excess": wire(worst),
+                    "worst_world_indices": maximizing,
+                    "nominal_worst_excess": wire(nominal),
+                    "worst_shift": wide(worst - nominal),
+                    "bound_excess": wide(worst - optimum),
+                    "nominal_minimizer": a in old,
+                    "coarse_safe": worst <= 0,
+                    "strict_benefit": worst < 0,
+                    "original_bound_preserved": worst <= optimum,
+                    "full_support_maximum_attained": attained,
+                    "every_full_support_mechanism_strict": worst < 0
+                    or (worst == 0 and not attained),
+                    "maximizing_face_indices": face,
+                    "witness_label_indices": witness,
+                    "witness_full_excess": wire(wfull),
+                    "witness_world_excesses": [wire(v) for v in actual],
+                    "witness_worst_world_indices": [
+                        t for t, v in zip(worlds, actual, strict=True) if v == worst
+                    ],
+                    "potentially_unsafe_world_indices": [
+                        t for t, v in zip(worlds, curve, strict=True) if v > 0
+                    ],
+                    "potentially_bound_breaking_world_indices": [
+                        t for t, v in zip(worlds, curve, strict=True) if v > optimum
+                    ],
+                    "witness_unsafe_world_indices": [
+                        t for t, v in zip(worlds, actual, strict=True) if v > 0
+                    ],
+                    "witness_bound_breaking_world_indices": [
+                        t for t, v in zip(worlds, actual, strict=True) if v > optimum
+                    ],
+                }
+            )
+        selections = {
+            "safe": [a for a in old if candidates[a]["coarse_safe"]],
+            "strict": [a for a in old if candidates[a]["strict_benefit"]],
+            "bound_preserved": [a for a in old if candidates[a]["original_bound_preserved"]],
+            "interior_strict": [
+                a for a in old if candidates[a]["every_full_support_mechanism_strict"]
+            ],
+        }
+        old_visits += len(old)
+        require(bool(old) and candidates[0]["worst_excess"] == [0, 1], "old set / coarse")
+        certificates.append(
+            {
+                "assumed_index": s,
+                "bound_index": u,
+                "world_indices": worlds,
+                "nominal_minimax_excess": copy.deepcopy(previous["minimax_excess"]),
+                "old_minimizer_indices": copy.deepcopy(old),
+                "old_minimizer_weights": copy.deepcopy(previous["minimizer_weights"]),
+                "candidates": candidates,
+                "safe_old_indices": selections["safe"],
+                "strictly_beneficial_old_indices": selections["strict"],
+                "bound_preserving_old_indices": selections["bound_preserved"],
+                "interior_strict_old_indices": selections["interior_strict"],
+                "unsafe_old_indices": [a for a in old if a not in selections["safe"]],
+                "bound_breaking_old_indices": [
+                    a for a in old if a not in selections["bound_preserved"]
+                ],
+                **{
+                    key + "_old_" + name: (
+                        len(selected) == len(old) if key == "all" else bool(selected)
+                    )
+                    for name, selected in selections.items()
+                    for key in ("all", "any")
+                },
+                "checks": dict.fromkeys(AC_CHECKS, True),
+            }
+        )
+    nf, nl = len(letters), sum(len(row["values"]) for row in letters)
+    counts = {
+        "fibers": nf,
+        "labels": nl,
+        "assumed_models": 4,
+        "rules": 3,
+        "certificates": 16,
+        "candidate_certificates": 48,
+        "old_rule_evaluations": old_visits,
+        "nominal_risk_cells": 48,
+        "coefficient_cells": 12 * nl,
+        "baseline_decision_work": 216,
+        "profile_coefficient_visits": 12 * nl,
+        "profile_fiber_terms": 12 * nf,
+        "world_envelope_terms": 48,
+        "candidate_world_visits": 120,
+        "face_label_visits": 48 * nl,
+        "witness_coefficient_terms": 48 * nf,
+        "witness_world_terms": 120,
+        "shift_terms": 96,
+        "candidate_classifications": 48,
+        "total_work_terms": 648 + 60 * (nf + nl),
+    }
+    return {
+        "input_sha256": digest(canonical(problem)),
+        "baseline": baseline,
+        "alphabet": copy.deepcopy(letters),
+        "profiles": profiles,
+        "certificates": certificates,
+        "counts": counts,
+    }
+
+
+def ac_build_witness_evidence(zcase, analysis):
+    letters = analysis["alphabet"]
+    vectors = sorted(
+        {
+            tuple(candidate["witness_label_indices"])
+            for certificate in analysis["certificates"]
+            for candidate in certificate["candidates"]
+        }
+    )
+    laws = []
+    for wid, vector in enumerate(vectors):
+        mu = {
+            tuple(row["N"]): {
+                tuple(value): F(int(i == selected)) for i, value in enumerate(row["values"])
+            }
+            for row, selected in zip(letters, vector, strict=True)
+        }
+        beliefs = []
+        for source in zcase["problem"]["experiment"]["beliefs"]:
+            clean = joint(source["channels"][0])
+            subjoint = n_subjoints(clean)
+            beliefs.append(
+                {
+                    "belief_id": source["belief_id"],
+                    "weight": copy.deepcopy(source["weight"]),
+                    "channels": [pushed_channel(clean, subjoint, mu, fraction(t)) for t in LEVELS],
+                }
+            )
+        laws.append({"witness_id": wid, "label_indices": list(vector), "beliefs": beliefs})
+    mapping = [
+        {
+            "assumed_index": cert["assumed_index"],
+            "bound_index": cert["bound_index"],
+            "rule_index": a,
+            "witness_id": vectors.index(tuple(candidate["witness_label_indices"])),
+        }
+        for cert in analysis["certificates"]
+        for a, candidate in enumerate(cert["candidates"])
+    ]
+    return {"witness_laws": laws, "witness_certificate_map": mapping}
+
+
+def coefficient_excess(problem, assumed, rule, probabilities):
+    return sum(
+        (
+            sum((fraction(values[rule]) * p for values, p in zip(fiber, masses, strict=True)), F(0))
+            for fiber, masses in zip(
+                problem["models"][assumed]["full_coefficients"], probabilities, strict=True
+            )
+        ),
+        F(0),
+    )
+
+
+def ac_producer_controls(analysis, aacase, zcase, abcase, letters, evidence):
+    projected = ac_project_case(aacase, zcase, letters)
+    problem = projected["problem"]
+    require_same_wire(analysis["baseline"], aacase["analysis"], "complete frozen AA baseline")
+    nominal_check(analysis["baseline"], zcase)
+    require_same_wire(
+        abcase["analysis"], ab_expected_analysis(abcase["problem"]), "complete AB decision wire"
+    )
+    require_same_wire(
+        abcase["analysis"]["baseline"], analysis["baseline"], "AB/AC common AA baseline"
+    )
+    require_same_wire(
+        problem["models"],
+        coefficients_from_case(zcase, letters, literal=True),
+        "all original-weight coefficients literally rescored",
+    )
+    # No coefficient is fitted or selected here. Uniform and both old tilts
+    # are individually substituted into the supplied linear coefficient model.
+    probabilities = [[F(1, len(row["values"])) for _ in row["values"]] for row in letters]
+    for s in range(4):
+        for a in range(3):
+            clean = fraction(analysis["profiles"][3 * s + a]["clean_excess"])
+            require(clean <= 0, "producer nonpositive clean excess")
+            uniform = coefficient_excess(problem, s, a, probabilities)
+            for t, level in enumerate(LEVELS):
+                g = fraction(aacase["problem"]["worlds"][t]["coarse_risk"])
+                expected = g + (1 - fraction(level)) * clean + fraction(level) * uniform
+                require_same_wire(
+                    wire(expected),
+                    aacase["problem"]["worlds"][t]["models"][s]["forecast_risks"][a],
+                    "uniform complete nominal risk family recovered",
+                )
+            for mid, name in enumerate(("forward", "reverse")):
+                masses = [
+                    [
+                        F(
+                            2 * (i + 1 if mid == 0 else len(row["values"]) - i),
+                            len(row["values"]) * (len(row["values"]) + 1),
+                        )
+                        for i in range(len(row["values"]))
+                    ]
+                    for row in letters
+                ]
+                total = coefficient_excess(problem, s, a, masses)
+                for t, level in enumerate(LEVELS):
+                    source = abcase["problem"]["mechanisms"][mid]
+                    require(source["mechanism_id"] == name, "fixed AB tilt order")
+                    g = fraction(source["worlds"][t]["coarse_risk"])
+                    require_same_wire(
+                        source["worlds"][t]["coarse_risk"],
+                        aacase["problem"]["worlds"][t]["coarse_risk"],
+                        "unchanged coarse AB risk",
+                    )
+                    require_same_wire(
+                        wire(g + (1 - fraction(level)) * clean + fraction(level) * total),
+                        source["worlds"][t]["models"][s]["forecast_risks"][a],
+                        "both entire AB tilt risk tensors recovered",
+                    )
+            for u in range(4):
+                cert = analysis["certificates"][4 * s + u]
+                candidate = cert["candidates"][a]
+                require(u in candidate["worst_world_indices"], "producer upper endpoint worst")
+                worst = fraction(candidate["worst_excess"])
+                require(worst >= fraction(candidate["nominal_worst_excess"]), "nominal enclosed")
+                for mechanism in abcase["analysis"]["mechanisms"]:
+                    old = mechanism["certificates"][4 * s + u]["candidates"][a]
+                    require(worst >= fraction(old["worst_excess"]), "both AB certificates enclosed")
+    for s, model in enumerate(problem["models"]):
+        for fiber in model["full_coefficients"]:
+            for values in fiber:
+                full = fraction(values[2])
+                for a, weight in enumerate(WEIGHTS):
+                    require(
+                        fraction(values[a]) == fraction(weight) ** 2 * full,
+                        "coefficient a-squared scaling",
+                    )
+        for u in range(4):
+            cs = analysis["certificates"][4 * s + u]["candidates"]
+            require_same_wire(
+                cs[1]["witness_label_indices"],
+                cs[2]["witness_label_indices"],
+                "same-s positive-weight common extreme witness",
+            )
+
+    require_same_wire(
+        evidence,
+        ac_build_witness_evidence(zcase, analysis),
+        "complete global witness laws and links",
+    )
+    scored = score_stress(
+        zcase,
+        [
+            {"mechanism_id": str(row["witness_id"]), "beliefs": row["beliefs"]}
+            for row in evidence["witness_laws"]
+        ],
+        literal=True,
+    )
+    for mechanism, scores in zip(evidence["witness_laws"], scored, strict=True):
+        vector = mechanism["label_indices"]
+        for source, actual in zip(
+            zcase["problem"]["experiment"]["beliefs"], mechanism["beliefs"], strict=True
+        ):
+            original = joint(source["channels"][0])
+            subjoint = n_subjoints(original)
+            require_same_wire(
+                source["weight"], actual["weight"], "witness original history weights"
+            )
+            for t, channel in enumerate(actual["channels"]):
+                current = joint(channel)
+                require(n_subjoints(current) == subjoint, "witness N/future subjoint preserved")
+                if t == 0:
+                    require(current == original, "witness exact clean recovery")
+                if t == 3:
+                    chosen = {
+                        tuple(row["values"][i]) for row, i in zip(letters, vector, strict=True)
+                    }
+                    require(
+                        {z for z, _ in current} <= chosen,
+                        "boundary witness no spurious replacement report",
+                    )
+        for s in range(4):
+            for a in range(3):
+                full = sum(
+                    (
+                        fraction(fiber[i][a])
+                        for fiber, i in zip(
+                            problem["models"][s]["full_coefficients"], vector, strict=True
+                        )
+                    ),
+                    F(0),
+                )
+                clean = fraction(analysis["profiles"][3 * s + a]["clean_excess"])
+                upper = fraction(analysis["profiles"][3 * s + a]["full_upper_excess"])
+                for t, level in enumerate(LEVELS):
+                    g = fraction(scores["worlds"][t]["coarse_risk"])
+                    require_same_wire(
+                        scores["worlds"][t]["coarse_risk"],
+                        aacase["problem"]["worlds"][t]["coarse_risk"],
+                        "literal witness unchanged coarse risk",
+                    )
+                    actual = fraction(scores["worlds"][t]["models"][s]["forecast_risks"][a]) - g
+                    require(
+                        actual == (1 - fraction(level)) * clean + fraction(level) * full,
+                        "literal global witness coefficient law",
+                    )
+                    require(
+                        actual <= (1 - fraction(level)) * clean + fraction(level) * upper,
+                        "all witness laws below appropriate envelope",
+                    )
+    for link in evidence["witness_certificate_map"]:
+        s, u, a, wid = (
+            link[k] for k in ("assumed_index", "bound_index", "rule_index", "witness_id")
+        )
+        candidate = analysis["certificates"][4 * s + u]["candidates"][a]
+        mechanism = scored[wid]
+        actual = [
+            fraction(world["models"][s]["forecast_risks"][a]) - fraction(world["coarse_risk"])
+            for world in mechanism["worlds"][: u + 1]
+        ]
+        require_same_wire(
+            [wire(v) for v in actual],
+            candidate["witness_world_excesses"],
+            "all literal certificate witness world values",
+        )
+        require_same_wire(
+            wire(max(actual)), candidate["worst_excess"], "literal witness attains worst"
+        )
+        require_same_wire(
+            [t for t, v in enumerate(actual) if v == max(actual)],
+            candidate["witness_worst_world_indices"],
+            "literal witness complete world ties",
+        )
+    return {
+        **dict.fromkeys(
+            (
+                "nominal_AA_baseline_preserved",
+                "whole_model_alphabet_preserved",
+                "original_weight_coefficients",
+                "nonnegative_full_replacement_coefficients",
+                "uniform_family_recovered",
+                "both_AB_tilt_risks_recovered",
+                "frozen_forecasts_and_weights",
+                "clean_and_N_future_marginals_preserved",
+                "complete_boundary_witness_laws",
+                "literal_global_witness_scores",
+                "coefficient_weight_square_scaling",
+                "upper_endpoint_is_worst",
+                "nominal_and_AB_enclosed",
+                "all_original_ties_classified_without_reoptimization",
+            ),
+            True,
+        ),
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def ac_check_analysis(analysis, aacase, zcase, abcase, letters, evidence):
+    projected = ac_project_case(aacase, zcase, letters)
+    require_same_wire(
+        analysis, ac_expected_analysis(projected["problem"]), "complete independent AC output"
+    )
+    return ac_producer_controls(analysis, aacase, zcase, abcase, letters, evidence)
+
+
+AD_CHECKS = (
+    "convexity",
+    "critical_candidates_complete",
+    "optimizer_set_complete",
+    "global_kkt_certificate",
+    "finite_menu_complete",
+    "finite_menu_argmin_complete",
+    "finite_menu_gap_nonnegative",
+    "menu_grid_error_bound",
+    "coarse_option_available",
+)
+AD_CONTROLS = (
+    "frozen_AC_certificates_preserved",
+    "original_weight_clean_coefficients",
+    "clean_segment_premises",
+    "full_replacement_envelope_preserved",
+    "complete_quadratic_reduction",
+    "all_AC_menu_values_recovered",
+    "finite_menu_minimax_comparator",
+    "complete_optimal_forecast_families",
+    "interval_optima_not_point_selected",
+    "global_common_mechanism_witnesses",
+    "complete_witness_laws_and_marginals",
+    "literal_point_forecast_scores",
+    "literal_parametric_world_polynomials",
+    "old_failures_preserved_without_relabeling",
+    "no_per_history_weight_selection",
+)
+
+
+def scalar(value, lower=F(-4), upper=F(8)):
+    require(type(value) is F and lower <= value <= upper, "AD retained scalar range")
+    require(
+        max(abs(value.numerator).bit_length(), value.denominator.bit_length()) <= 4096,
+        "AD retained scalar bits",
+    )
+    return [value.numerator, value.denominator]
+
+
+def fixtures():
+    result = ac_fixtures()
+    raw = plain_bytes(HERE.parent / AC_PRIOR)
+    doc = prior_json(AC_PRIOR)
+    require(len(raw) == AC_BYTES and canonical(doc) == raw, "canonical pinned AC")
+    require_same_wire(
+        doc["prior_artifacts"],
+        {k: v for k, v in priors().items() if k != AC_PRIOR},
+        "AC complete prior lineage",
+    )
+    result["ac"] = doc["suite"]
+    require_same_wire(
+        [c["case_id"] for c in result["ac"]["cases"]],
+        [c["case_id"] for c in result["aa"]["cases"]],
+        "AC/AA case order",
+    )
+    return result
+
+
+def clean_coefficients(zcase, accase):
+    """Conditional-vector route, not a fit to menu values or optimized outcomes."""
+    totals = [[F(0), F(0)] for _ in LEVELS]
+    for source, models in zip(
+        zcase["problem"]["experiment"]["beliefs"], policy_maps(zcase), strict=True
+    ):
+        weight = fraction(source["weight"])
+        for cell in source["channels"][0]["cells"]:
+            report = tuple(cell["value"])
+            p0 = prediction(cell["prediction"])
+            mass = weight * fraction(cell["probability"])
+            for s, model in enumerate(models):
+                g, f, _ = model[report]
+                coordinates = p0.keys() | g.keys() | f.keys()
+                direction = {q: f.get(q, F(0)) - g.get(q, F(0)) for q in coordinates}
+                truth = {q: p0.get(q, F(0)) - g.get(q, F(0)) for q in coordinates}
+                ratios = {direction[q] / truth[q] for q in coordinates if truth[q]}
+                require(
+                    all(direction[q] == 0 for q in coordinates if not truth[q]),
+                    "clean segment zero coordinates",
+                )
+                require(
+                    not ratios or (len(ratios) == 1 and 0 <= next(iter(ratios)) <= 1),
+                    "clean forecast on frozen truth/coarse segment",
+                )
+                totals[s][0] += mass * sum((v * v for v in direction.values()), F(0))
+                totals[s][1] += mass * sum((truth[q] * direction[q] for q in coordinates), F(0))
+    answer = []
+    for s, (distance, cross) in enumerate(totals):
+        upper = fraction(accase["analysis"]["profiles"][3 * s + 2]["full_upper_excess"])
+        require(0 <= distance <= cross <= 2 and 0 <= upper <= 2, "clean coefficient premises")
+        answer.append(
+            {
+                "assumed_index": s,
+                "clean_distance": wire(distance),
+                "clean_cross": wire(cross),
+                "full_replacement_upper": wire(upper),
+            }
+        )
+    return answer
+
+
+def project_case(accase, zcase, letters):
+    require_same_wire(accase["case_id"], zcase["case_id"], "AD same case")
+    require_same_wire(accase["analysis"]["alphabet"], letters, "AD whole alphabet")
+    coefficients = clean_coefficients(zcase, accase)
+    decisions = []
+    for row in coefficients:
+        d, c, upper = (
+            fraction(row[k]) for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+        )
+        for u, bound in enumerate(LEVELS):
+            t = fraction(bound)
+            decisions.append(
+                {
+                    "assumed_index": row["assumed_index"],
+                    "bound_index": u,
+                    "quadratic_coefficient": wire((1 - t) * d + t * upper),
+                    "half_linear_coefficient": wire((1 - t) * c),
+                }
+            )
+    return {
+        "case_id": accase["case_id"],
+        "problem": {
+            "schema_version": "det8-qr05ad-problem-v1",
+            "family": "qr05ad_continuous_retention",
+            "levels": copy.deepcopy(LEVELS),
+            "retained_weights": copy.deepcopy(WEIGHTS),
+            "decisions": decisions,
+        },
+        "producer_coefficients": coefficients,
+        "prior_certificates": copy.deepcopy(accase["analysis"]["certificates"]),
+    }
+
+
+def expected_analysis(problem):
+    """Third route: enumerate critical values, then certify the complete minimizer set."""
+    rows = []
+    interior = points = lower = upper = ties = 0
+    for row in problem["decisions"]:
+        a, b = fraction(row["quadratic_coefficient"]), fraction(row["half_linear_coefficient"])
+        critical = [F(0), F(1)]
+        if 0 < b < a:
+            critical.insert(1, b / a)
+            interior += 1
+        values = [a * x * x - 2 * b * x for x in critical]
+        minimum = min(values)
+        winners = [x for x, y in zip(critical, values, strict=True) if y == minimum]
+        flat = a == b == 0
+        if flat:
+            require(winners == [F(0), F(1)] and minimum == 0, "flat enumeration")
+            optimizer = {"kind": "interval", "lower": [0, 1], "upper": [1, 1]}
+            proof = {
+                "kind": "zero_polynomial",
+                "anchor": None,
+                "gradient": None,
+                "second_derivative": [0, 1],
+            }
+        else:
+            require(len(winners) == 1, "unique convex/linear minimum")
+            x = winners[0]
+            points += 1
+            lower += int(x == 0)
+            upper += int(x == 1)
+            gradient = 2 * a * x - 2 * b
+            require(
+                (x == 0 and gradient >= 0)
+                or (x == 1 and gradient <= 0)
+                or (0 < x < 1 and gradient == 0),
+                "global KKT sign",
+            )
+            require(
+                minimum == a * x * x - 2 * b * x and gradient == 2 * a * x - 2 * b,
+                "coefficient identity for all weights",
+            )
+            optimizer = {"kind": "point", "weight": scalar(x, F(0), F(1))}
+            proof = {
+                "kind": "point_kkt",
+                "anchor": scalar(x, F(0), F(1)),
+                "gradient": scalar(gradient),
+                "second_derivative": scalar(2 * a, F(0), F(4)),
+            }
+        menu = [a * fraction(x) ** 2 - 2 * b * fraction(x) for x in WEIGHTS]
+        best = min(menu)
+        indices = [i for i, v in enumerate(menu) if v == best]
+        ties += len(indices)
+        gap = best - minimum
+        require(
+            0 <= gap <= F(1, 8) and 16 * gap <= a and minimum <= 0,
+            "sharp menu gap and available coarse option",
+        )
+        rows.append(
+            {
+                **copy.deepcopy(row),
+                "linear_coefficient": scalar(-2 * b, F(-4), F(4)),
+                "critical_candidates": [
+                    {"retained_weight": scalar(x, F(0), F(1)), "value": scalar(y, F(-4), F(6))}
+                    for x, y in zip(critical, values, strict=True)
+                ],
+                "optimizer": optimizer,
+                "minimum": scalar(minimum, F(-4), F(0)),
+                "finite_menu": [
+                    {
+                        "retained_weight": copy.deepcopy(x),
+                        "value": scalar(y, F(-4), F(6)),
+                        "excess_over_minimum": scalar(y - minimum, F(0), F(6)),
+                    }
+                    for x, y in zip(WEIGHTS, menu, strict=True)
+                ],
+                "finite_menu_minimum": scalar(best, F(-4), F(0)),
+                "finite_menu_minimizer_indices": indices,
+                "finite_menu_minimizer_weights": [copy.deepcopy(WEIGHTS[i]) for i in indices],
+                "finite_menu_gap": scalar(gap, F(0), F(1, 8)),
+                "proof": proof,
+                "checks": dict.fromkeys(AD_CHECKS, True),
+            }
+        )
+    critical_count = 32 + interior
+    counts = {
+        "decisions": 16,
+        "critical_candidates": critical_count,
+        "value_evaluations": critical_count + 48,
+        "point_optimizers": points,
+        "interval_optimizers": 16 - points,
+        "interior_point_optimizers": interior,
+        "lower_endpoint_optimizers": lower,
+        "upper_endpoint_optimizers": upper,
+        "finite_menu_minimizer_occurrences": ties,
+        "optimizer_classifications": 16,
+        "coefficient_visits": 16,
+        "gradient_terms": points,
+        "stationary_divisions": interior,
+        "critical_value_terms": critical_count,
+        "menu_value_terms": 48,
+        "critical_selection_visits": critical_count,
+        "menu_selection_visits": 48,
+        "gap_terms": 64,
+        "total_work_terms": 192 + points + interior + 2 * critical_count,
+    }
+    return {
+        "input_sha256": digest(canonical(problem)),
+        "levels": copy.deepcopy(LEVELS),
+        "retained_weights": copy.deepcopy(WEIGHTS),
+        "decisions": rows,
+        "counts": counts,
+    }
+
+
+def law_wire(law):
+    require(sum(law.values(), F(0)) == 1 and all(p >= 0 for p in law.values()), "forecast law")
+    return [{"value": list(q), "probability": wire(p)} for q, p in sorted(law.items()) if p]
+
+
+def build_evidence(zcase, accase, analysis, coefficients, letters):
+    policies = policy_maps(zcase)
+    sources = zcase["problem"]["experiment"]["beliefs"]
+    families, family_map, family_keys = [], [], []
+    mechanisms = []
+    for decision in analysis["decisions"]:
+        s, u, opt = decision["assumed_index"], decision["bound_index"], decision["optimizer"]
+        key = (s, canonical(opt))
+        if key not in family_keys:
+            family_keys.append(key)
+            fid = len(families)
+            beliefs = []
+            for source, models in zip(sources, policies, strict=True):
+                cells = []
+                for report, (g, f, _) in sorted(models[s].items()):
+                    h = None
+                    if opt["kind"] == "point":
+                        x = fraction(opt["weight"])
+                        h = law_wire(
+                            {
+                                q: (1 - x) * g.get(q, F(0)) + x * f.get(q, F(0))
+                                for q in g.keys() | f.keys()
+                            }
+                        )
+                    cells.append(
+                        {
+                            "value": list(report),
+                            "coarse_forecast": law_wire(g),
+                            "detailed_forecast": law_wire(f),
+                            "point_forecast": h,
+                        }
+                    )
+                beliefs.append(
+                    {
+                        "belief_id": source["belief_id"],
+                        "weight": copy.deepcopy(source["weight"]),
+                        "cells": cells,
+                    }
+                )
+            families.append(
+                {
+                    "family_id": fid,
+                    "assumed_index": s,
+                    "optimizer": copy.deepcopy(opt),
+                    "beliefs": beliefs,
+                }
+            )
+        family_map.append(
+            {"assumed_index": s, "bound_index": u, "family_id": family_keys.index(key)}
+        )
+        faces = [
+            f["maximizer_indices"][:] for f in accase["analysis"]["profiles"][3 * s + 2]["fibers"]
+        ]
+        all_faces = [list(range(len(row["values"]))) for row in letters]
+        mechanisms.append(
+            {
+                "assumed_index": s,
+                "bound_index": u,
+                "full_retention_profile_index": 3 * s + 2,
+                "positive_weight_face_indices": faces,
+                "zero_weight_face_indices": copy.deepcopy(all_faces),
+                "zero_bound_face_indices": copy.deepcopy(all_faces),
+                "common_witness_label_indices": [ids[0] for ids in faces],
+                "common_witness_valid_for_entire_segment": True,
+            }
+        )
+    vectors = sorted({tuple(m["common_witness_label_indices"]) for m in mechanisms})
+    laws = []
+    for wid, vector in enumerate(vectors):
+        mu = {
+            tuple(row["N"]): {
+                tuple(label): F(int(i == chosen)) for i, label in enumerate(row["values"])
+            }
+            for row, chosen in zip(letters, vector, strict=True)
+        }
+        beliefs = []
+        for source in sources:
+            clean = joint(source["channels"][0])
+            beliefs.append(
+                {
+                    "belief_id": source["belief_id"],
+                    "weight": copy.deepcopy(source["weight"]),
+                    "channels": [
+                        pushed_channel(clean, n_subjoints(clean), mu, fraction(t)) for t in LEVELS
+                    ],
+                }
+            )
+        laws.append({"witness_id": wid, "label_indices": list(vector), "beliefs": beliefs})
+    witness_map = [
+        {
+            "assumed_index": m["assumed_index"],
+            "bound_index": m["bound_index"],
+            "witness_id": vectors.index(tuple(m["common_witness_label_indices"])),
+        }
+        for m in mechanisms
+    ]
+    worlds = []
+    for decision, link in zip(analysis["decisions"], witness_map, strict=True):
+        s, u = decision["assumed_index"], decision["bound_index"]
+        row = coefficients[s]
+        d, c, upper = (
+            fraction(row[k]) for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+        )
+        polynomials = []
+        for t in range(u + 1):
+            rate = fraction(LEVELS[t])
+            polynomials.append(
+                {
+                    "actual_index": t,
+                    "quadratic_coefficient": wire((1 - rate) * d + rate * upper),
+                    "half_linear_coefficient": wire((1 - rate) * c),
+                }
+            )
+        opt = decision["optimizer"]
+        values = worst = None
+        if opt["kind"] == "point":
+            x = fraction(opt["weight"])
+            actual = [
+                fraction(p["quadratic_coefficient"]) * x * x
+                - 2 * fraction(p["half_linear_coefficient"]) * x
+                for p in polynomials
+            ]
+            require(max(actual) == fraction(decision["minimum"]), "common endpoint witness value")
+            values = [wire(v) for v in actual]
+            worst = [t for t, v in enumerate(actual) if v == max(actual)]
+        else:
+            require(
+                all(
+                    fraction(p["quadratic_coefficient"])
+                    - 2 * fraction(p["half_linear_coefficient"])
+                    <= 0
+                    for p in polynomials
+                ),
+                "convex lower-world endpoint proof",
+            )
+            require(
+                polynomials[-1]["quadratic_coefficient"] == [0, 1]
+                and polynomials[-1]["half_linear_coefficient"] == [0, 1],
+                "zero upper polynomial",
+            )
+        worlds.append(
+            {
+                "assumed_index": s,
+                "bound_index": u,
+                "world_indices": list(range(u + 1)),
+                "polynomials": polynomials,
+                "optimizer": copy.deepcopy(opt),
+                "point_world_excesses": values,
+                "point_worst_world_indices": worst,
+                "whole_interval_minimax": opt["kind"] == "interval",
+                "upper_bound_value": copy.deepcopy(decision["minimum"]),
+                "common_witness_id": link["witness_id"],
+                "checks": dict.fromkeys(
+                    (
+                        "point_or_parametric_laws_complete",
+                        "all_worlds_below_optimum_value",
+                        "common_witness_attains_optimum",
+                    ),
+                    True,
+                ),
+            }
+        )
+    return {
+        "forecast_families": families,
+        "family_certificate_map": family_map,
+        "mechanism_certificates": mechanisms,
+        "witness_laws": laws,
+        "witness_certificate_map": witness_map,
+        "world_certificates": worlds,
+    }
+
+
+def literal_polynomials(zcase, witness, assumed):
+    """Actual-outcome indicator expansion; no sampled-alpha interpolation."""
+    result = [[F(0), F(0)] for _ in LEVELS]
+    for source, belief, models in zip(
+        zcase["problem"]["experiment"]["beliefs"],
+        witness["beliefs"],
+        policy_maps(zcase),
+        strict=True,
+    ):
+        require_same_wire(source["weight"], belief["weight"], "original witness weight")
+        require_same_wire(source["belief_id"], belief["belief_id"], "original witness history")
+        weight = fraction(source["weight"])
+        original = joint(source["channels"][0])
+        for t, channel in enumerate(belief["channels"]):
+            current = joint(channel)
+            require(n_subjoints(current) == n_subjoints(original), "witness N/future subjoint")
+            if t == 0:
+                require(current == original, "witness original clean law")
+            for (report, outcome), mass in current.items():
+                g, f, _ = models[assumed][report]
+                for q in g.keys() | f.keys() | {outcome}:
+                    delta = f.get(q, F(0)) - g.get(q, F(0))
+                    result[t][0] += weight * mass * delta * delta
+                    result[t][1] += weight * mass * (F(int(outcome == q)) - g.get(q, F(0))) * delta
+    return result
+
+
+def literal_family_scores(family, witness):
+    require(family["optimizer"]["kind"] == "point", "no arbitrary interval point")
+    values = [F(0) for _ in LEVELS]
+    for belief, actual in zip(family["beliefs"], witness["beliefs"], strict=True):
+        require_same_wire(belief["weight"], actual["weight"], "forecast original weight")
+        cells = {tuple(c["value"]): c for c in belief["cells"]}
+        weight = fraction(belief["weight"])
+        for t, channel in enumerate(actual["channels"]):
+            for cell in channel["cells"]:
+                rule = cells[tuple(cell["value"])]
+                truth = prediction(cell["prediction"])
+                values[t] += (
+                    weight
+                    * fraction(cell["probability"])
+                    * (
+                        literal_loss(truth, prediction(rule["point_forecast"]))
+                        - literal_loss(truth, prediction(rule["coarse_forecast"]))
+                    )
+                )
+    return values
+
+
+def producer_controls(analysis, accase, zcase, aacase, abcase, letters, evidence):
+    # Authenticate old complete mathematical certificates without importing old engines.
+    old_evidence = {k: accase[k] for k in ("witness_laws", "witness_certificate_map")}
+    ac_check_analysis(accase["analysis"], aacase, zcase, abcase, letters, old_evidence)
+    projected = project_case(accase, zcase, letters)
+    require_same_wire(
+        analysis, expected_analysis(projected["problem"]), "complete independent AD output"
+    )
+    expected = build_evidence(zcase, accase, analysis, projected["producer_coefficients"], letters)
+    require_same_wire(evidence, expected, "complete point/parametric AD laws and links")
+    all_polynomials = {}
+    for s, coeff in enumerate(projected["producer_coefficients"]):
+        wid = evidence["witness_certificate_map"][4 * s]["witness_id"]
+        literal = literal_polynomials(zcase, evidence["witness_laws"][wid], s)
+        d, c, full = (
+            fraction(coeff[k]) for k in ("clean_distance", "clean_cross", "full_replacement_upper")
+        )
+        for t, level in enumerate(LEVELS):
+            rate = fraction(level)
+            require(
+                literal[t] == [(1 - rate) * d + rate * full, (1 - rate) * c],
+                "literal common-mechanism world coefficients",
+            )
+        # Every positive weight shares the S1 maximizing faces by exact square scaling.
+        for ni, fiber in enumerate(accase["problem"]["models"][s]["full_coefficients"]):
+            for old in fiber:
+                full_value = fraction(old[2])
+                require(
+                    [fraction(old[i]) for i in range(3)]
+                    == [fraction(x) ** 2 * full_value for x in WEIGHTS],
+                    "frozen coefficient scaling",
+                )
+        all_polynomials[s] = literal
+    scores = {}
+    for family in evidence["forecast_families"]:
+        if family["optimizer"]["kind"] == "point":
+            s = family["assumed_index"]
+            wid = evidence["witness_certificate_map"][4 * s]["witness_id"]
+            values = literal_family_scores(family, evidence["witness_laws"][wid])
+            x = fraction(family["optimizer"]["weight"])
+            require(
+                values == [a * x * x - 2 * b * x for a, b in all_polynomials[s]],
+                "literal point-family scores",
+            )
+            scores[family["family_id"]] = values
+        else:
+            require(
+                all(c["point_forecast"] is None for b in family["beliefs"] for c in b["cells"]),
+                "interval optimizer not point-selected",
+            )
+    for row, previous, world, family_link in zip(
+        analysis["decisions"],
+        projected["prior_certificates"],
+        evidence["world_certificates"],
+        evidence["family_certificate_map"],
+        strict=True,
+    ):
+        s, u = row["assumed_index"], row["bound_index"]
+        require_same_wire(
+            [v["value"] for v in row["finite_menu"]],
+            [v["worst_excess"] for v in previous["candidates"]],
+            "all AC menu worst values recovered",
+        )
+        for t, poly in enumerate(world["polynomials"]):
+            require(
+                [fraction(poly["quadratic_coefficient"]), fraction(poly["half_linear_coefficient"])]
+                == all_polynomials[s][t],
+                "every retained world polynomial literal",
+            )
+        if row["optimizer"]["kind"] == "point":
+            actual = scores[family_link["family_id"]][: u + 1]
+            require_same_wire(
+                [wire(v) for v in actual], world["point_world_excesses"], "literal world vector"
+            )
+            require(max(actual) == fraction(row["minimum"]), "literal bound minimum witness")
+        else:
+            require(
+                row["minimum"] == [0, 1]
+                and all_polynomials[s][u] == [F(0), F(0)]
+                and all(a >= 0 and a - 2 * b <= 0 for a, b in all_polynomials[s][: u + 1]),
+                "whole interval minimax lower/upper proof",
+            )
+    return {
+        **dict.fromkeys(AD_CONTROLS, True),
+        "origin_authenticated_by_generic_API": False,
+        "raw_history_reconstruction_performed_by_this_runner": False,
+    }
+
+
+def check_analysis(analysis, accase, zcase, aacase, abcase, letters, evidence):
+    return producer_controls(analysis, accase, zcase, aacase, abcase, letters, evidence)
+
+
+def run_suite():
+    data = fixtures()
+    letters = alphabet(data["w"])
+    require_same_wire(letters, data["ac"]["alphabet"], "unchanged whole-model AC alphabet")
+    primary = load("qr05ad_primary", "retention.py")
+    reference = load("qr05ad_reference", "reference_qr05ad.py")
+    cases = []
+    for ac, z, aa, ab in zip(
+        data["ac"]["cases"],
+        data["z"]["cases"],
+        data["aa"]["cases"],
+        data["ab"]["cases"],
+        strict=True,
+    ):
+        case = project_case(ac, z, letters)
+        problem = case["problem"]
+        before = canonical(problem)
+        left = primary.analyze(problem)
+        require(canonical(problem) == before, "primary mutated AD input")
+        right = reference.analyze(problem)
+        require(canonical(problem) == before, "reference mutated AD input")
+        require_same_wire(left, right, "two independent continuous optimizer outputs")
+        evidence = build_evidence(z, ac, left, case["producer_coefficients"], letters)
+        controls = check_analysis(left, ac, z, aa, ab, letters, evidence)
+        cases.append({**case, "analysis": left, **evidence, "producer_controls": controls})
+    invalid = []
+    for kind in range(8):
+        bad = copy.deepcopy(cases[0]["problem"])
+        if kind == 0:
+            bad["extra"] = 0
+        elif kind == 1:
+            bad["decisions"].pop()
+        elif kind == 2:
+            bad["levels"].reverse()
+        elif kind == 3:
+            bad["decisions"][0]["assumed_index"] = False
+        elif kind == 4:
+            bad["decisions"][0]["quadratic_coefficient"] = [-1, 1]
+        elif kind == 5:
+            bad["decisions"][15]["half_linear_coefficient"] = [3, 1]
+        elif kind == 6:
+            bad["decisions"][0]["half_linear_coefficient"] = [0, 2]
+        else:
+            bad["decisions"][0]["quadratic_coefficient"] = 0.5
+        invalid.append(bad)
+    rejected = 0
+    for engine in (primary, reference):
+        for bad in invalid:
+            try:
+                engine.analyze(bad)
+            except ValueError:
+                rejected += 1
+            else:
+                raise ValueError("malformed AD input accepted")
+    require(rejected == 16, "all malformed AD controls rejected")
+    totals = {"cases": 6, "analyze_calls": 12, "invalid_analyze_calls_rejected": rejected}
+    totals.update(
+        {
+            key: sum(c["analysis"]["counts"][key] for c in cases)
+            for key in cases[0]["analysis"]["counts"]
+        }
+    )
+    totals["forecast_families"] = sum(len(c["forecast_families"]) for c in cases)
+    totals["witness_mechanisms"] = sum(len(c["witness_laws"]) for c in cases)
+    return {
+        "producer": {"artifact": AC_PRIOR, "bytes": AC_BYTES, "sha256": AC_SHA},
+        "alphabet": letters,
+        "cases": cases,
+        "independent_route_equal": True,
+        "public_controls": {
+            "analyze_calls": 12,
+            "invalid_analyze_calls_rejected": rejected,
+            "raw_laws_histories_or_artifacts_given_to_core": False,
+            "weights_selected_per_history": False,
+            "actual_world_used_to_select_weight": False,
+            "forecasts_outside_frozen_segment_used": False,
+            "prior_certificates_replaced": False,
+        },
+        "totals": totals,
+    }
+
+
+if __name__ == "__main__":
+    main()

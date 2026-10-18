@@ -1,0 +1,837 @@
+{
+  "actual_results": [
+    {
+      "actual_outer": {
+        "bytes": 850,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_GENUINE_OUTER.json",
+        "sha256": "49f0bbda14d533281b6189eea936573859d8f0fb8b03fdce11fd01834cdc99e9"
+      },
+      "label": "ORIGINAL",
+      "receipts": [
+        {
+          "actual_error": "fixture_source",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 1,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 1
+          },
+          "id": "parent_source",
+          "postcheck_error": "fixture_source",
+          "receipt": {
+            "bytes": 2174,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-source-ls5o8yfn/controls/normal/receipt.json",
+            "sha256": "57a3ca5ed8671795837b22e62c08087bd186a8008882260d244a70c6f7582ec9"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": "fixture_caller",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 1,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 1
+          },
+          "id": "parent_caller",
+          "postcheck_error": "fixture_caller",
+          "receipt": {
+            "bytes": 2234,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-caller-aq6yveb0/controls/normal/receipt.json",
+            "sha256": "6163937e8db8385868ce8d6e4114308e6f111295f2731ab0518b3a9a988b2aad"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": "fixture_runtime_acceptance",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 1,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 1
+          },
+          "id": "parent_runtime_acceptance",
+          "postcheck_error": "fixture_runtime_acceptance",
+          "receipt": {
+            "bytes": 2294,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-runtime_acceptance-pr4ppjy1/controls/normal/receipt.json",
+            "sha256": "454304d5666203fbc20e24acd68cf4ad2c463289e80db8df62ce32e39a0b1af7"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": "fixture_late",
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 6,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_late",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 2521,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-69a1kjgo/controls/normal/receipt.json",
+            "sha256": "ac3f1f43a70f106fa65b1665e62402c05b386f1c8b6fdabd509b2fb49384163e"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": "fixture_late",
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true,
+            "original_stop_reason_preserved": false,
+            "postcheck_failure_retained": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 6,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_late_postcheck",
+          "postcheck_error": "fixture_postcheck",
+          "receipt": {
+            "bytes": 2478,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-6lmms1c7/controls/normal/receipt.json",
+            "sha256": "fcdbf7932df3d71c03ee258400b645d5b72a44c9762538522c3e0ab3c29fee4a"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_source",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_source",
+          "postcheck_error": {
+            "message": "fixture_source",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1076,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-source-n_kt4_gq/controls/normal/runtime.json",
+            "sha256": "f5ab34ac18c15d9ddfc4d473c5b05db177b654f8bbcbcf0a56f9137001130085"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_caller",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": false,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 1,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_caller",
+          "postcheck_error": {
+            "message": "runtime bytes changed",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1276,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-caller-qz57d_du/controls/normal/runtime.json",
+            "sha256": "04c2c4886aaf777c6fe209789033ef0aed4037f3c45f0a9c3829dcede50d04f5"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_runtime_acceptance",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": false,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 1,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_runtime_acceptance",
+          "postcheck_error": {
+            "message": "runtime bytes changed",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1288,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-runtime_acceptance-raurki10/controls/normal/runtime.json",
+            "sha256": "a4a6d7a5da0025a49bd2ee637ef53fa53275d3db5c0820cd796edab65a972bb3"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_late",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 6,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_late",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 1462,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-nkoskgae/controls/normal/runtime.json",
+            "sha256": "3fdd8a41e4acfabb3d2db340e5cf828e26b751daae79181b41ab1a1901be2e73"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_late",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true,
+            "postcheck_failure_retained": true
+          },
+          "counts": {
+            "loaded_files": 1,
+            "runtime_helper_calls": 4,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 1,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_late_postcheck",
+          "postcheck_error": {
+            "message": "fixture_postcheck",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1348,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-u5ylwj3p/controls/normal/runtime.json",
+            "sha256": "a20146d0cd071d6cb2bb2a3e24bd49a89f444b978b9e5a8b464951f384adf057"
+          },
+          "runtime_helper_state": null
+        },
+        {
+          "actual_error": {
+            "message": "fixture_mode",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": false,
+            "no_runtime_scan": false,
+            "no_science_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 0,
+            "runtime_verify": 1,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_mode",
+          "postcheck_error": {
+            "message": "runtime bytes changed",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1233,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-mode-y_1og5zt/controls/normal/runtime.json",
+            "sha256": "504b29528ce8d9a6af3c0f3721cc83c815dd89220c9d699f33fd7a7431e0e113"
+          },
+          "runtime_helper_state": null
+        }
+      ],
+      "report": {
+        "bytes": 13318,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_RESULT.json",
+        "sha256": "c8b5b3ba532d1e512841f2499bf7f4939ee8a787bb92ec984c5e6216c12bc465"
+      },
+      "runtime_cases": []
+    },
+    {
+      "actual_outer": {
+        "bytes": 844,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_GENUINE_OUTER.json",
+        "sha256": "a2054cbc3c60bb01852d5e1822068db9dcddf2a6a9d1b5f977356bf8a46011a3"
+      },
+      "label": "REPAIRED",
+      "receipts": [
+        {
+          "actual_error": "fixture_source",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_source",
+          "postcheck_error": "fixture_source",
+          "receipt": {
+            "bytes": 2293,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/parent-source-51mqwggf/controls/normal/receipt.json",
+            "sha256": "972565c6fa90daa264b4dd3aa38503a817244a9151be092aa929c95dae988a6e"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": "fixture_caller",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_caller",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 2374,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/parent-caller-qz0hha28/controls/normal/receipt.json",
+            "sha256": "c8dd14a0e48d8fce087266a6b644e4d45141c1009bdb89bab84a0c8f3b0f83ba"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": "fixture_runtime_acceptance",
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_runtime_acceptance",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 2422,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/parent-runtime_acceptance-ci9q_kxl/controls/normal/receipt.json",
+            "sha256": "ccc3078a15239893d13f3886896ee3192c87856293e9d931489106aec8b84d46"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": "fixture_late",
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_late",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 2632,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/parent-late-poh0fzai/controls/normal/receipt.json",
+            "sha256": "1381cef9b46883ebded5e39bcf9c38cdc03a9010ecc91fa78eea06631cdd643b"
+          },
+          "runtime_helper_state": "captured"
+        },
+        {
+          "actual_error": "fixture_late",
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true,
+            "original_stop_reason_preserved": true,
+            "postcheck_failure_retained": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "parent_late_postcheck",
+          "postcheck_error": "fixture_postcheck",
+          "receipt": {
+            "bytes": 2589,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/parent-late-nirhctwo/controls/normal/receipt.json",
+            "sha256": "8d9dd34396f5e133c9f4011250f6b3320dbeb3a13d5a695523c81e094e8c805e"
+          },
+          "runtime_helper_state": "captured"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_source",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_source",
+          "postcheck_error": {
+            "message": "fixture_source",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1195,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-source-vhd9bb2p/controls/normal/runtime.json",
+            "sha256": "2e497060f958de213e20824266e6690f5a1a5c4b3cce5d48a28ce44f6112e012"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_caller",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_caller",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 1309,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-caller-6_b9ae1r/controls/normal/runtime.json",
+            "sha256": "bf1f5312e06cf62ba735edd37bacdbd1d27d398cd184db8bb1a3ffeb06af5228"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_runtime_acceptance",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_runtime_acceptance",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 1321,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-runtime_acceptance-k213ecew/controls/normal/runtime.json",
+            "sha256": "a6acdb5e078793021e1c4448c25168ee640609b003f50ecde01873af193d0603"
+          },
+          "runtime_helper_state": "not_entered"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_late",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true
+          },
+          "counts": {
+            "loaded_files": 2,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 2,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_late",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 1573,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-late-hvvy_6vq/controls/normal/runtime.json",
+            "sha256": "14fcc1c3dc2ae51073a58d6d63927cf6bcc61b59e49406d20c150fa332a0947f"
+          },
+          "runtime_helper_state": "captured"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_late",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "later_failure_postchecked": true,
+            "no_science_entry": true,
+            "one_first_helper_entry": true,
+            "original_failure_preserved": true,
+            "postcheck_failure_retained": true
+          },
+          "counts": {
+            "loaded_files": 1,
+            "runtime_helper_calls": 1,
+            "runtime_helper_first_entries": 1,
+            "runtime_profile": 1,
+            "runtime_verify": 2,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_late_postcheck",
+          "postcheck_error": {
+            "message": "fixture_postcheck",
+            "type": "ValueError"
+          },
+          "receipt": {
+            "bytes": 1458,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-late-fk6x6w57/controls/normal/runtime.json",
+            "sha256": "e3124dfe20fb99f2f7eba3a420a979e8f4031f3ad226acfff48f126b315ea4e1"
+          },
+          "runtime_helper_state": "captured"
+        },
+        {
+          "actual_error": {
+            "message": "fixture_mode",
+            "type": "ValueError"
+          },
+          "checks": {
+            "failed_completion": true,
+            "no_runtime_helper_entry": true,
+            "no_runtime_scan": true,
+            "no_science_entry": true,
+            "original_failure_preserved": true,
+            "unentered_custody": true,
+            "unentered_fields_null": true
+          },
+          "counts": {
+            "loaded_files": 0,
+            "runtime_helper_calls": 0,
+            "runtime_helper_first_entries": 0,
+            "runtime_profile": 0,
+            "runtime_verify": 0,
+            "science_entries": 0,
+            "source_checks": 2
+          },
+          "id": "worker_mode",
+          "postcheck_error": null,
+          "receipt": {
+            "bytes": 1227,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/worker-mode-bju16903/controls/normal/runtime.json",
+            "sha256": "3dba48e0aecb01ce794da630083f04f8ed53b4c7192335b2ebc044fda8c5e34b"
+          },
+          "runtime_helper_state": "not_entered"
+        }
+      ],
+      "report": {
+        "bytes": 18410,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_RESULT.json",
+        "sha256": "690321d69979c75bdf20af80f1b3d13e194f0ce8e66991b3bfe94cb9b78e95cb"
+      },
+      "runtime_cases": [
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": null,
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-positive-0y8cql4d",
+          "id": "runtime_positive",
+          "observed_failure": null,
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "previously absent startup/import/loader path appeared",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-absent_file-lh61ek62",
+          "id": "runtime_absent_file",
+          "observed_failure": {
+            "message": "previously absent startup/import/loader path appeared",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "previously absent startup/import/loader path appeared",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-absent_dangling_link-yj40eb07",
+          "id": "runtime_absent_dangling_link",
+          "observed_failure": {
+            "message": "previously absent startup/import/loader path appeared",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "mandatory loader binding omitted or changed",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-missing_loader-opqhagkn",
+          "id": "runtime_missing_loader",
+          "observed_failure": {
+            "message": "mandatory loader binding omitted or changed",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "mandatory loader binding omitted or changed",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-changed_loader_declaration-ccke1r7w",
+          "id": "runtime_changed_loader_declaration",
+          "observed_failure": {
+            "message": "mandatory loader binding omitted or changed",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "non-OS loader binding changed",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-changed_loader_path-4mb3ilkn",
+          "id": "runtime_changed_loader_path",
+          "observed_failure": {
+            "message": "non-OS loader binding changed",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        },
+        {
+          "actual_scanner_and_verify_used": true,
+          "expected_failure": "interpreter/framework/monitor/config runtime files omitted",
+          "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-lpfz_prr/runtime-missing_config-_hksefqt",
+          "id": "runtime_missing_config",
+          "observed_failure": {
+            "message": "interpreter/framework/monitor/config runtime files omitted",
+            "type": "ValueError"
+          },
+          "pass": true,
+          "substituted_domain_constants": [
+            "ROOTS",
+            "REQUIRED_FILES",
+            "ALLOWED_LINKS",
+            "ABSENT_PATHS",
+            "REQUIRED_LOADER_BINDINGS"
+          ]
+        }
+      ]
+    }
+  ],
+  "claim": "Six original first-refusal runtime entries and one original stop-reason overwrite; exact repaired fixtures pass. Substituted admissions/runtime isolate caller ordering; real production gates and scientific arithmetic are not qualified by this result.",
+  "complete_case_count": 29,
+  "production_runtime_or_science_qualification": false,
+  "runtime_cases_checked": 7,
+  "status": "PASS_DEMONSTRATED_ORIGINAL_BUG_AND_REPAIRED18_CASE_REGRESSION",
+  "whole_failure_receipts_checked": 22
+}

@@ -1,0 +1,48 @@
+{
+  "current_source_admission": false,
+  "finding": "RI121-F01",
+  "records": [
+    {
+      "bytes": 5303,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/HANDOFF.json",
+      "sha256": "f226f4def9bc6ac617a7d1f3193198d68b3238cf4330d5789036023353f4ab81"
+    },
+    {
+      "bytes": 8146,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/SOURCE_PINS.json",
+      "sha256": "d22601fcfba8f433ae199e5d994ec254b55f6603af564ce9204de01a2a5299b6"
+    },
+    {
+      "bytes": 12744,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh/APPLICABILITY_REVIEW.md",
+      "sha256": "0cdf31bdcc1ac21d7d590d3748824cc3445f22fcfab5f892b53e3895fa86c6e0"
+    },
+    {
+      "bytes": 25136,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+      "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+    },
+    {
+      "bytes": 5028,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+      "sha256": "63a54d518e8a5c370cb70a92e96768eee548e530157c8110f5fd5534bbb61186"
+    },
+    {
+      "bytes": 4478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HANDOFF.json",
+      "sha256": "55e0172aee8588bf927f7d1ca295526a15c781fdc01507dbf8179664ba3990fb"
+    },
+    {
+      "bytes": 3923,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+      "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+    },
+    {
+      "bytes": 2603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+      "sha256": "d575e6643e1cb44940218480be40d77e48a0b1ec4206e6af120365206270226b"
+    }
+  ],
+  "schema": "ri121-source-repair-predecessor-v1",
+  "status": "ORIGINAL_REFUSED_SOURCE_AND_REVIEWS_RETAINED_UNCHANGED"
+}

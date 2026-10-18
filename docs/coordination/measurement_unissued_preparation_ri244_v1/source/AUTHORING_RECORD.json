@@ -1,0 +1,98 @@
+{
+  "actual_tool_receipts": [
+    {
+      "chunk_id": "9ab85c",
+      "exit_code": 0,
+      "scope": "authenticate18historyrefs and write REFERENCES"
+    },
+    {
+      "chunk_id": "762713",
+      "exit_code": 0,
+      "scope": "write source text only"
+    },
+    {
+      "chunk_id": "9d5838",
+      "exit_code": 0,
+      "scope": "preseal source text correction"
+    },
+    {
+      "chunk_id": "3bff81",
+      "exit_code": 0,
+      "scope": "read full source text and refine saved-host mapping"
+    },
+    {
+      "chunk_id": "14a878",
+      "exit_code": 0,
+      "scope": "literal bootstrap construction and diff only"
+    },
+    {
+      "chunk_id": "a7ea8e",
+      "exit_code": 0,
+      "scope": "source and diff text update"
+    },
+    {
+      "chunk_id": "9316e6",
+      "exit_code": 0,
+      "scope": "administrative flags guard and exact diffs"
+    },
+    {
+      "chunk_id": "5f7fa6",
+      "exit_code": 0,
+      "scope": "write protocol only"
+    },
+    {
+      "chunk_id": "ee9826",
+      "exit_code": 0,
+      "scope": "run independent-of-subject author literal and opaque checker"
+    }
+  ],
+  "author": "/root/archive_repro_review",
+  "author_check": {
+    "chunk_id": "ee9826",
+    "exit_code": 0,
+    "opaque_distinct_files": 605,
+    "postwrite_readback_check": 1,
+    "report": {
+      "bytes": 152738,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/AUTHOR_CHECK.json",
+      "sha256": "a250aa278e12ecc1e12b5bb8997f5ea2b95ffa9810a6732521ffbc7842e109ed"
+    },
+    "saved_predicates": 1259
+  },
+  "current_source_independently_accepted": false,
+  "draft_text_corrections": [
+    "Full before/after descriptor states for initial capture",
+    "Move historical admission acquisition before input snapshot",
+    "Keep admitted root decision reference rather than acquire it after tails",
+    "Compare JSON-serializable ordered names instead of a set",
+    "Reconstruct supplier host from fresh root transcript and retain post uname check",
+    "Bind exact derived bootstrap text to sealed text payload",
+    "Require normal isolated bytecode-disabled administrative writer"
+  ],
+  "external_evidence_or_repository_written": false,
+  "failed_administrative_commands": [],
+  "installed_freeze_decoded": false,
+  "operational_authority_issued": false,
+  "prior_authorship": [
+    "RI130",
+    "RI141"
+  ],
+  "proposal_executed": false,
+  "proposal_imported_compiled_or_AST_parsed": false,
+  "remaining": [
+    "Fresh nonauthor/root source review",
+    "Separate root preparation-only decision and genuine host transcript",
+    "One root administrative preparation execution if approved",
+    "Independent complete actual preparation/custody review",
+    "Fresh separate operational admission, predispatch and genuine pre_mode execution",
+    "Independent result9 review before distinct mode_card"
+  ],
+  "reservation": {
+    "exit_code": 0,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk",
+    "tool": "2f9c8d"
+  },
+  "schema": "ri244-source-only-authoring-record-v1",
+  "scientific_execution": false,
+  "vendor_or_E_inventory_collected": false
+}

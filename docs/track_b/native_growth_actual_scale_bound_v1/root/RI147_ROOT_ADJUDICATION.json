@@ -1,0 +1,65 @@
+{
+  "accepted": [
+    "Actual singleton-component factorization and intrinsic root-mark separation without coefficient ordering",
+    "Complete signed v/D3 and q/D3 relations, zero-safe singleton factor and signed-part floor",
+    "Complete H5 variance decomposition: M5>1,theta<1/144,j>71/72",
+    "All five selected six-parent proper sums; M6>71/24 and actual rho<12/95, stronger held capZ",
+    "Monotone reference sums and sharper conditional two-endpoint weighted envelope; positive-denominator actual canonical contrast threshold"
+  ],
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_checks": {
+    "independent_closure": "b5dc04 exit0",
+    "independent_final_seal": "844e7b exit0",
+    "root_closure": "647ce5 exit0",
+    "root_initial_seal": "ce266b exit0"
+  },
+  "actual_rho_in_delta0_proved": false,
+  "full_H30_decided": false,
+  "independent_review": {
+    "bytes": 5529,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/HANDOFF.json",
+    "sha256": "1d99faefe8ad0934898b9521b2ba5d7c62707833b55051599d46343b9db8afb3"
+  },
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining_actual_premise": {
+    "correlated_domain": "Z and kappa0 remain fixed actual-law expressions; none is independently fitted or varied.",
+    "joint_budget": "Both a2+a3<=1 and (1-Y u2)a2+(1-Y u3)a3+Y b_envelope<=1, or a direct proof of both exact cleared endpoint inequalities.",
+    "quantitative_q": "For a proposed b>0, delta_kappa >= [b D3-T(x)-kappa0 d1 h_*(x)]/[beta1 k1(x)] for every x in the fixed actual-containing [0,Z]. This comparison has not been proved.",
+    "quantitative_v": "H7+gamma1 H1+gamma3 H3 >= a_v theta^2 t7 for an adequate positive fixed-law lower bound a_v."
+  },
+  "ret_paused": true,
+  "root_manual_review": {
+    "bytes": 4483,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_MANUAL_REVIEW.json",
+    "sha256": "e38e02e8391af1991349ece9a95a7461e4c5376c71fe6b207b6757fea426bf1f"
+  },
+  "root_metadata_check": {
+    "bytes": 64269,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_NATIVE_CHECK.json",
+    "sha256": "5f25deb39f2819ec528192466fbf449927e90ee3a4907664794d255cc782d3a4"
+  },
+  "schema": "ri147-root-native-analytic-adjudication-v1",
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 6645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.json",
+    "sha256": "a963f33ba976b9972fe4867bb5790f76e77857971e73f43b0876a4107b97b1e2"
+  },
+  "status": "ACCEPT_EXACT_CONDITIONAL_ANALYTIC_INCREMENT_WITH_ACTUAL_COEFFICIENT_GAP"
+}

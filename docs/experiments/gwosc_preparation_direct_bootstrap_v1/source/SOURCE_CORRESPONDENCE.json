@@ -1,0 +1,837 @@
+{
+  "added_function": "prepare.selected_bootstrap",
+  "changed_existing_functions": [
+    [
+      "prepare.py",
+      "authenticate"
+    ],
+    [
+      "runtime_metadata.py",
+      "host_bootstrap"
+    ]
+  ],
+  "complete_source_diff": {
+    "bytes": 6209,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/REPAIR.diff",
+    "sha256": "0d890df3ec3a3c208947cb7bab9c7084ee4decfabd0a20dc826e9ba0ac826204"
+  },
+  "focused_harness_whole_bytes_identical": true,
+  "functions": [
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "need",
+      "new": {
+        "bytes": 72,
+        "end": 44,
+        "sha256": "bb3f7ff1e3116562b6f5df3a01682ea54e9a843aa823d6bf4b34b4ed04147281",
+        "start": 42
+      },
+      "old": {
+        "bytes": 72,
+        "end": 44,
+        "sha256": "bb3f7ff1e3116562b6f5df3a01682ea54e9a843aa823d6bf4b34b4ed04147281",
+        "start": 42
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "canonical",
+      "new": {
+        "bytes": 136,
+        "end": 48,
+        "sha256": "da1a5c8bee8ea8075623bf67e52742ba2b25e28f50eb0225191a86ad8fa23aeb",
+        "start": 47
+      },
+      "old": {
+        "bytes": 136,
+        "end": 48,
+        "sha256": "da1a5c8bee8ea8075623bf67e52742ba2b25e28f50eb0225191a86ad8fa23aeb",
+        "start": 47
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "same",
+      "new": {
+        "bytes": 73,
+        "end": 52,
+        "sha256": "76628d5ab7db137da029f00251b1ad7706016862f03a71a25076de4442221893",
+        "start": 51
+      },
+      "old": {
+        "bytes": 73,
+        "end": 52,
+        "sha256": "76628d5ab7db137da029f00251b1ad7706016862f03a71a25076de4442221893",
+        "start": 51
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "keys",
+      "new": {
+        "bytes": 101,
+        "end": 56,
+        "sha256": "c655eb119b9c8670ae9d039cf3c45e24df23e49441677a870831d8427db187ad",
+        "start": 55
+      },
+      "old": {
+        "bytes": 101,
+        "end": 56,
+        "sha256": "c655eb119b9c8670ae9d039cf3c45e24df23e49441677a870831d8427db187ad",
+        "start": 55
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "pure",
+      "new": {
+        "bytes": 92,
+        "end": 60,
+        "sha256": "b4aeab03f6ae1327983f30388c0f04c9f258c334bd047a3963c871b3aa926c21",
+        "start": 59
+      },
+      "old": {
+        "bytes": 92,
+        "end": 60,
+        "sha256": "b4aeab03f6ae1327983f30388c0f04c9f258c334bd047a3963c871b3aa926c21",
+        "start": 59
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "body",
+      "new": {
+        "bytes": 825,
+        "end": 74,
+        "sha256": "115280eab986aef269604d4033beda5d6da5bcd30f026be3147be5479878b64e",
+        "start": 63
+      },
+      "old": {
+        "bytes": 825,
+        "end": 74,
+        "sha256": "115280eab986aef269604d4033beda5d6da5bcd30f026be3147be5479878b64e",
+        "start": 63
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "ref",
+      "new": {
+        "bytes": 66,
+        "end": 78,
+        "sha256": "c541eb2b7b7a7feb0d37712bd3de6126369fef43b33b17a7e6f0f98a78b02b1f",
+        "start": 77
+      },
+      "old": {
+        "bytes": 66,
+        "end": 78,
+        "sha256": "c541eb2b7b7a7feb0d37712bd3de6126369fef43b33b17a7e6f0f98a78b02b1f",
+        "start": 77
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "parse",
+      "new": {
+        "bytes": 421,
+        "end": 92,
+        "sha256": "a395590251ae015ad5b3b13d995ba8aba9a4d7feebcfb9aeb2cc6e71699e005b",
+        "start": 81
+      },
+      "old": {
+        "bytes": 421,
+        "end": 92,
+        "sha256": "a395590251ae015ad5b3b13d995ba8aba9a4d7feebcfb9aeb2cc6e71699e005b",
+        "start": 81
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "read",
+      "new": {
+        "bytes": 219,
+        "end": 99,
+        "sha256": "5fb45d26ae3faa06fb4102f87f39adcc76ebf7fac86a734d560fb1fe584d1ef9",
+        "start": 95
+      },
+      "old": {
+        "bytes": 219,
+        "end": 99,
+        "sha256": "5fb45d26ae3faa06fb4102f87f39adcc76ebf7fac86a734d560fb1fe584d1ef9",
+        "start": 95
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "opaque",
+      "new": {
+        "bytes": 99,
+        "end": 104,
+        "sha256": "5064fd354b96567d6d19ce109be1bea1ab7cea520979126cf9ba58c4c9badef4",
+        "start": 102
+      },
+      "old": {
+        "bytes": 99,
+        "end": 104,
+        "sha256": "5064fd354b96567d6d19ce109be1bea1ab7cea520979126cf9ba58c4c9badef4",
+        "start": 102
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "save",
+      "new": {
+        "bytes": 253,
+        "end": 114,
+        "sha256": "6c3e4211b6ae2e04a7acf308370edbddf0330a75ca2ec4ba781c74d254ac9bf4",
+        "start": 107
+      },
+      "old": {
+        "bytes": 253,
+        "end": 114,
+        "sha256": "6c3e4211b6ae2e04a7acf308370edbddf0330a75ca2ec4ba781c74d254ac9bf4",
+        "start": 107
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "environment",
+      "new": {
+        "bytes": 319,
+        "end": 120,
+        "sha256": "bb46017123722bd06ead2bb71dea89984111c934cc1ed321f6d99beead0d9dd5",
+        "start": 117
+      },
+      "old": {
+        "bytes": 319,
+        "end": 120,
+        "sha256": "bb46017123722bd06ead2bb71dea89984111c934cc1ed321f6d99beead0d9dd5",
+        "start": 117
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "source_set",
+      "new": {
+        "bytes": 84,
+        "end": 124,
+        "sha256": "4b9458b601383aade629749197feadb18a68a3b4aab04e582248909c705bcd4d",
+        "start": 123
+      },
+      "old": {
+        "bytes": 84,
+        "end": 124,
+        "sha256": "4b9458b601383aade629749197feadb18a68a3b4aab04e582248909c705bcd4d",
+        "start": 123
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": false,
+      "name": "authenticate",
+      "new": {
+        "bytes": 2968,
+        "end": 183,
+        "sha256": "3a6c61c2f12b4a84979311c16bf207cc0d99918c679586c0ec18bc37fd4dc68e",
+        "start": 148
+      },
+      "old": {
+        "bytes": 2778,
+        "end": 160,
+        "sha256": "ce6a113dbfff31bdef7249083610cc2d40c882c278f44621c61e810ddc4d1701",
+        "start": 127
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "acceptance",
+      "new": {
+        "bytes": 2866,
+        "end": 223,
+        "sha256": "8eace28601b40d6a5880ed6d2d76ca292e9184844802e631ee316ebb0e2d734d",
+        "start": 186
+      },
+      "old": {
+        "bytes": 2866,
+        "end": 200,
+        "sha256": "8eace28601b40d6a5880ed6d2d76ca292e9184844802e631ee316ebb0e2d734d",
+        "start": 163
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "verify_saved_namespace",
+      "new": {
+        "bytes": 6666,
+        "end": 301,
+        "sha256": "02462eba16d8375c10a35b11a8f3388e06b67954a3d9a163ebadefc775c37282",
+        "start": 226
+      },
+      "old": {
+        "bytes": 6666,
+        "end": 278,
+        "sha256": "02462eba16d8375c10a35b11a8f3388e06b67954a3d9a163ebadefc775c37282",
+        "start": 203
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "check_top_namespace",
+      "new": {
+        "bytes": 1071,
+        "end": 318,
+        "sha256": "4fdb354f629ce6e3eb835476c149f603605d2a5e96eb0b33d349cd7bc701c279",
+        "start": 304
+      },
+      "old": {
+        "bytes": 1071,
+        "end": 295,
+        "sha256": "4fdb354f629ce6e3eb835476c149f603605d2a5e96eb0b33d349cd7bc701c279",
+        "start": 281
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "monitor_text",
+      "new": {
+        "bytes": 168,
+        "end": 324,
+        "sha256": "da7dc6a4a63d7cd7befb6765f85898797267f620cd1b5bf615734532a0ec3af7",
+        "start": 321
+      },
+      "old": {
+        "bytes": 168,
+        "end": 301,
+        "sha256": "da7dc6a4a63d7cd7befb6765f85898797267f620cd1b5bf615734532a0ec3af7",
+        "start": 298
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "child_run",
+      "new": {
+        "bytes": 5262,
+        "end": 404,
+        "sha256": "09ac74822bc62a5f95b1416bc906e27e66a24e9a829bc2c9ebec5959d040c5b3",
+        "start": 327
+      },
+      "old": {
+        "bytes": 5262,
+        "end": 381,
+        "sha256": "09ac74822bc62a5f95b1416bc906e27e66a24e9a829bc2c9ebec5959d040c5b3",
+        "start": 304
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "dyld_attempts",
+      "new": {
+        "bytes": 1457,
+        "end": 428,
+        "sha256": "4e7ed1ddfb05a06b5683861c4e726c89fceefd591f44322fce76b3033f031d8a",
+        "start": 405
+      },
+      "old": {
+        "bytes": 1457,
+        "end": 405,
+        "sha256": "4e7ed1ddfb05a06b5683861c4e726c89fceefd591f44322fce76b3033f031d8a",
+        "start": 382
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "profile_check",
+      "new": {
+        "bytes": 5839,
+        "end": 500,
+        "sha256": "5fbe8de5ca9cab9c620d02fc80522c19b9e6c0f46c236419be3d54ed249e0511",
+        "start": 431
+      },
+      "old": {
+        "bytes": 5839,
+        "end": 477,
+        "sha256": "5fbe8de5ca9cab9c620d02fc80522c19b9e6c0f46c236419be3d54ed249e0511",
+        "start": 408
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "guard_card",
+      "new": {
+        "bytes": 1002,
+        "end": 516,
+        "sha256": "710e6737b0495ba0c6ad010fa8e7e48a295c748de6c08777263dd72702b85e6d",
+        "start": 503
+      },
+      "old": {
+        "bytes": 1002,
+        "end": 493,
+        "sha256": "710e6737b0495ba0c6ad010fa8e7e48a295c748de6c08777263dd72702b85e6d",
+        "start": 480
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "guard_check",
+      "new": {
+        "bytes": 2546,
+        "end": 546,
+        "sha256": "9452d559cb8ee30486c1463f1c9fe1b8b0b8fdadd6c697b53bfc0b6815e38f4e",
+        "start": 519
+      },
+      "old": {
+        "bytes": 2546,
+        "end": 523,
+        "sha256": "9452d559cb8ee30486c1463f1c9fe1b8b0b8fdadd6c697b53bfc0b6815e38f4e",
+        "start": 496
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "run",
+      "new": {
+        "bytes": 8560,
+        "end": 664,
+        "sha256": "698a9de23567439ab62cc188bcfeb34fa08ac3e24dbea0aa1fed7b67abb4831f",
+        "start": 549
+      },
+      "old": {
+        "bytes": 8560,
+        "end": 641,
+        "sha256": "698a9de23567439ab62cc188bcfeb34fa08ac3e24dbea0aa1fed7b67abb4831f",
+        "start": 526
+      }
+    },
+    {
+      "file": "prepare.py",
+      "identical": true,
+      "name": "main",
+      "new": {
+        "bytes": 574,
+        "end": 678,
+        "sha256": "fda2aaf2c67fd950406e8a0e9084f05f7cb2baaaa791b8e7e4b9aa7f40fe539b",
+        "start": 667
+      },
+      "old": {
+        "bytes": 574,
+        "end": 655,
+        "sha256": "fda2aaf2c67fd950406e8a0e9084f05f7cb2baaaa791b8e7e4b9aa7f40fe539b",
+        "start": 644
+      }
+    },
+    {
+      "added": true,
+      "file": "prepare.py",
+      "name": "selected_bootstrap",
+      "new": {
+        "bytes": 1348,
+        "end": 145,
+        "sha256": "954dffdee717ea9fdaaf53f52c525152143a6946f619f5928dcce86954e62019",
+        "start": 127
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "guard",
+      "new": {
+        "bytes": 87,
+        "end": 57,
+        "sha256": "48a38ef345291f718e594f880ec86322604346cb06d43eb7d211a9afffed2ac3",
+        "start": 55
+      },
+      "old": {
+        "bytes": 87,
+        "end": 56,
+        "sha256": "48a38ef345291f718e594f880ec86322604346cb06d43eb7d211a9afffed2ac3",
+        "start": 54
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "metadata",
+      "new": {
+        "bytes": 206,
+        "end": 63,
+        "sha256": "b271c4b9587a677ce9510e0067b01ee65a6a87c24b07014c1b3d120810cdd60a",
+        "start": 60
+      },
+      "old": {
+        "bytes": 206,
+        "end": 62,
+        "sha256": "b271c4b9587a677ce9510e0067b01ee65a6a87c24b07014c1b3d120810cdd60a",
+        "start": 59
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "observe_file",
+      "new": {
+        "bytes": 1369,
+        "end": 96,
+        "sha256": "58c782c7843c0d899b3370c8012d03a4e88eaaf2e86077096e87d1c6cdf650cb",
+        "start": 66
+      },
+      "old": {
+        "bytes": 1369,
+        "end": 95,
+        "sha256": "58c782c7843c0d899b3370c8012d03a4e88eaaf2e86077096e87d1c6cdf650cb",
+        "start": 65
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "binding",
+      "new": {
+        "bytes": 1196,
+        "end": 130,
+        "sha256": "32dc8a8c07ce97af7ea9a036cb00c2e0657db8b2734b19ca83e874f45329bf76",
+        "start": 99
+      },
+      "old": {
+        "bytes": 1196,
+        "end": 129,
+        "sha256": "32dc8a8c07ce97af7ea9a036cb00c2e0657db8b2734b19ca83e874f45329bf76",
+        "start": 98
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "walk_members",
+      "new": {
+        "bytes": 1602,
+        "end": 167,
+        "sha256": "5b6bb019d53d18c3a8b8533b88da28c94e02924bf37d57318852229eb387b7d7",
+        "start": 133
+      },
+      "old": {
+        "bytes": 1602,
+        "end": 166,
+        "sha256": "5b6bb019d53d18c3a8b8533b88da28c94e02924bf37d57318852229eb387b7d7",
+        "start": 132
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "absent_observations",
+      "new": {
+        "bytes": 276,
+        "end": 176,
+        "sha256": "c9e77b27a085c8b7be4fcb78921d675f0e7ba4fea21433f8f6d6a5043e1c4575",
+        "start": 170
+      },
+      "old": {
+        "bytes": 276,
+        "end": 175,
+        "sha256": "c9e77b27a085c8b7be4fcb78921d675f0e7ba4fea21433f8f6d6a5043e1c4575",
+        "start": 169
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "directory_namespaces",
+      "new": {
+        "bytes": 1352,
+        "end": 207,
+        "sha256": "3fdedc3aad92e5837f8209c640bdb7359308f6433f1f18d1b5b7243fb206c0aa",
+        "start": 179
+      },
+      "old": {
+        "bytes": 1352,
+        "end": 206,
+        "sha256": "3fdedc3aad92e5837f8209c640bdb7359308f6433f1f18d1b5b7243fb206c0aa",
+        "start": 178
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "canonical",
+      "new": {
+        "bytes": 138,
+        "end": 211,
+        "sha256": "a0f1befdfac12f6e79ad7f937d45cacff888abee6e23542baa50d505bcb2ba0d",
+        "start": 210
+      },
+      "old": {
+        "bytes": 138,
+        "end": 210,
+        "sha256": "a0f1befdfac12f6e79ad7f937d45cacff888abee6e23542baa50d505bcb2ba0d",
+        "start": 209
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "same",
+      "new": {
+        "bytes": 86,
+        "end": 215,
+        "sha256": "7672a0c41b27089ac3d27adca9c10fc21119e12d8fd205aa34536ae802825718",
+        "start": 214
+      },
+      "old": {
+        "bytes": 86,
+        "end": 214,
+        "sha256": "7672a0c41b27089ac3d27adca9c10fc21119e12d8fd205aa34536ae802825718",
+        "start": 213
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "file_ref",
+      "new": {
+        "bytes": 58,
+        "end": 219,
+        "sha256": "ae8cfb9e08347d8a987ee7b2974cad8302d6899a465637500788c17443d01e54",
+        "start": 218
+      },
+      "old": {
+        "bytes": 58,
+        "end": 218,
+        "sha256": "ae8cfb9e08347d8a987ee7b2974cad8302d6899a465637500788c17443d01e54",
+        "start": 217
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "metadata_json",
+      "new": {
+        "bytes": 553,
+        "end": 234,
+        "sha256": "e66e6e91a2cbd86912d83ec29412fd3dfbffead98ec4254f98eb7c1c6eaef7c0",
+        "start": 222
+      },
+      "old": {
+        "bytes": 553,
+        "end": 233,
+        "sha256": "e66e6e91a2cbd86912d83ec29412fd3dfbffead98ec4254f98eb7c1c6eaef7c0",
+        "start": 221
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "load_ref",
+      "new": {
+        "bytes": 383,
+        "end": 242,
+        "sha256": "4730c6dd2604760234a03a9de75ac83df51ae914af631a62b9f8f44ab1a2d143",
+        "start": 237
+      },
+      "old": {
+        "bytes": 383,
+        "end": 241,
+        "sha256": "4730c6dd2604760234a03a9de75ac83df51ae914af631a62b9f8f44ab1a2d143",
+        "start": 236
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "literal_path",
+      "new": {
+        "bytes": 206,
+        "end": 248,
+        "sha256": "27f7cb70d1cd442ea0e7ed8365c20a3e06e67b4b917820bd81cbd601b1873ec3",
+        "start": 245
+      },
+      "old": {
+        "bytes": 206,
+        "end": 247,
+        "sha256": "27f7cb70d1cd442ea0e7ed8365c20a3e06e67b4b917820bd81cbd601b1873ec3",
+        "start": 244
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "missing",
+      "new": {
+        "bytes": 793,
+        "end": 268,
+        "sha256": "b06708e21f9cec277dd7cfe1de05f0aff764ffd0b0b06835274c6e23c7ed5052",
+        "start": 251
+      },
+      "old": {
+        "bytes": 793,
+        "end": 267,
+        "sha256": "b06708e21f9cec277dd7cfe1de05f0aff764ffd0b0b06835274c6e23c7ed5052",
+        "start": 250
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "dyld_routes",
+      "new": {
+        "bytes": 521,
+        "end": 277,
+        "sha256": "ec49fc0b99a71ee3ffc4f0579ae0bfd949e0719d5487d0dd3c48c276715621d9",
+        "start": 271
+      },
+      "old": {
+        "bytes": 521,
+        "end": 276,
+        "sha256": "ec49fc0b99a71ee3ffc4f0579ae0bfd949e0719d5487d0dd3c48c276715621d9",
+        "start": 270
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": false,
+      "name": "host_bootstrap",
+      "new": {
+        "bytes": 1371,
+        "end": 300,
+        "sha256": "fa35695b69ceea3e8ccff7674d2544d9706f1d28c5a9e60bef6395f3bd9c1ed3",
+        "start": 280
+      },
+      "old": {
+        "bytes": 1380,
+        "end": 299,
+        "sha256": "82663b476568eb8de357bb5c59dd623f7820f1b45902c1cf24f20f3a5d3ac945",
+        "start": 279
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "tree",
+      "new": {
+        "bytes": 1322,
+        "end": 331,
+        "sha256": "83db552616888aeeb2661368dbb4234da96fbe59b2f83cd57e1ef427cc89621e",
+        "start": 303
+      },
+      "old": {
+        "bytes": 1322,
+        "end": 330,
+        "sha256": "83db552616888aeeb2661368dbb4234da96fbe59b2f83cd57e1ef427cc89621e",
+        "start": 302
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "source_observation",
+      "new": {
+        "bytes": 567,
+        "end": 343,
+        "sha256": "9cfdcc3c8dfdc0e25ab97845158dc280d5c1d90301595b6710a2dc7318437bc2",
+        "start": 334
+      },
+      "old": {
+        "bytes": 567,
+        "end": 342,
+        "sha256": "9cfdcc3c8dfdc0e25ab97845158dc280d5c1d90301595b6710a2dc7318437bc2",
+        "start": 333
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "require_historical_interpreter",
+      "new": {
+        "bytes": 1060,
+        "end": 360,
+        "sha256": "988ec3943e82a0cd3e1bb519b188657a4f5c633e2decba514260e09d4c43ad90",
+        "start": 346
+      },
+      "old": {
+        "bytes": 1060,
+        "end": 359,
+        "sha256": "988ec3943e82a0cd3e1bb519b188657a4f5c633e2decba514260e09d4c43ad90",
+        "start": 345
+      }
+    },
+    {
+      "file": "runtime_metadata.py",
+      "identical": true,
+      "name": "snapshot",
+      "new": {
+        "bytes": 3172,
+        "end": 410,
+        "sha256": "3063b39d9bd7d0c3a3b5670320976dc738fcb6f6c74429ee3a6e70f6f59717fe",
+        "start": 363
+      },
+      "old": {
+        "bytes": 3172,
+        "end": 409,
+        "sha256": "3063b39d9bd7d0c3a3b5670320976dc738fcb6f6c74429ee3a6e70f6f59717fe",
+        "start": 362
+      }
+    }
+  ],
+  "method": "Top-level def line boundaries and complete literal byte slices only; no Python AST/parser/import/compiler/evaluation. No subject syntax validation claimed.",
+  "schema": "ri141-plain-text-source-correspondence-v1",
+  "source_executed": false,
+  "sources": {
+    "new": {
+      "fault_controls.source-only.py": {
+        "bytes": 19967,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/fault_controls.source-only.py",
+        "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+      },
+      "prepare.py": {
+        "bytes": 45721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+        "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+      },
+      "runtime_metadata.py": {
+        "bytes": 18728,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+        "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+      }
+    },
+    "old": {
+      "fault_controls.source-only.py": {
+        "bytes": 19967,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+        "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+      },
+      "prepare.py": {
+        "bytes": 44082,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+        "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+      },
+      "runtime_metadata.py": {
+        "bytes": 18607,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/runtime_metadata.py",
+        "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+      }
+    }
+  },
+  "unchanged_existing_functions": 43
+}

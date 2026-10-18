@@ -1,0 +1,94 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py
+@@ -1,4 +1,4 @@
+-"""RI135 F01/F02 successor of RI133; NONSCIENTIFIC preparation only. UNEXECUTED.
++"""RI141 direct-bootstrap successor of RI135; NONSCIENTIFIC preparation only. UNEXECUTED.
+ 
+ Root authenticates this bootstrap script, its supplier and every admission
+ before startup. No invocation of WHITE targets, fixture makers or science
+@@ -19,7 +19,7 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ PACKET = Path('/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg')
+-BOOTSTRAP = '/usr/bin/python3'
++BOOTSTRAP = '/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'
+ CAP = 67108864
+ PHASES = ('capture', 'profile_normal', 'profile_optimized', 'guards')
+ SOURCE_NAMES = ('prepare.py', 'runtime_metadata.py', 'DEPENDENCIES.source-only.json')
+@@ -124,13 +124,34 @@
+     return {name: pure(body(HERE/name)) for name in SOURCE_NAMES}
+ 
+ 
++def selected_bootstrap(preflight, dependencies):
++    """Authenticate the direct supplier; genuine startup/loader custody is external."""
++    provenance = dependencies['bootstrap_selection_provenance']
++    need(provenance in dependencies['opaque_files'], 'bootstrap selection provenance absent from closure')
++    historical = read(provenance)
++    same(historical['selected_bootstrap_binding'], dependencies['selected_bootstrap_binding'],
++         'accepted direct bootstrap selection provenance')
++    binding = preflight['selected_interpreter_binding']
++    keys(binding, ('path', 'resolved_path', 'bytes', 'sha256', 'state', 'symlink_chain'),
++         'closed selected interpreter binding')
++    same(binding, dependencies['selected_bootstrap_binding'], 'genuine preflight selected interpreter identity')
++    same([binding['path'], binding['resolved_path'], binding['symlink_chain']],
++         [BOOTSTRAP, BOOTSTRAP, []], 'literal direct bootstrap selection')
++    opaque({key: binding[key] for key in ('path', 'bytes', 'sha256')})
++    actual = Path(BOOTSTRAP).lstat()
++    same([actual.st_dev, actual.st_ino, actual.st_mode, actual.st_nlink, actual.st_size,
++          actual.st_mtime_ns, actual.st_ctime_ns], binding['state'], 'selected interpreter state drift')
++    same(sys.executable, BOOTSTRAP, 'direct interpreter descriptor')
++    return binding
++
++
+ def authenticate(path):
+     """Post-startup checks complement, never replace, root pre-authentication."""
+     admission = parse(body(path))
+     keys(admission, ('schema', 'status', 'phase', 'sources', 'source_review', 'packet', 'output', 'environment_root',
+-                    'bootstrap', 'host', 'baseline_acceptance', 'normal_acceptance', 'profiles_acceptance',
++                    'bootstrap', 'bootstrap_host_preflight', 'host', 'baseline_acceptance', 'normal_acceptance', 'profiles_acceptance',
+                     'guard_admission', 'bounds', 'genuine_outer_required'), 'closed root preparation admission')
+-    need(admission['schema'] == 'ri133-root-preparation-admission-v1'
++    need(admission['schema'] == 'ri141-root-preparation-admission-v1'
+          and admission['status'] == 'AUTHORIZE_ONE_NONSCIENTIFIC_PREPARATION'
+          and admission['phase'] in PHASES, 'separate preparation authorization')
+     same(admission['sources'], source_set(), 'complete reviewed preparation source identities')
+@@ -153,10 +174,12 @@
+     sys.modules[spec.name] = M
+     exec(compile(source, str(HERE/'runtime_metadata.py'), 'exec'), M.__dict__)
+     same(source_set(), admission['sources'], 'source drift after helper load')
++    dependencies = parse(body(HERE/'DEPENDENCIES.source-only.json'))
++    need(dependencies['status'] == 'SEALED_SOURCE_DEPENDENCIES_NOT_RUNTIME_ACCEPTANCE', 'source dependency scope')
++    same(M.BOOTSTRAP, BOOTSTRAP, 'driver and snapshot selected supplier agree')
++    selected_bootstrap(read(admission['bootstrap_host_preflight']), dependencies)
+     same(M.binding(BOOTSTRAP), admission['bootstrap'], 'externally bound bootstrap supplier')
+     same({'uname': list(os.uname()), 'system_version': ref('/System/Library/CoreServices/SystemVersion.plist')}, admission['host'], 'root host check')
+-    dependencies = parse(body(HERE/'DEPENDENCIES.source-only.json'))
+-    need(dependencies['status'] == 'SEALED_SOURCE_DEPENDENCIES_NOT_RUNTIME_ACCEPTANCE', 'source dependency scope')
+     return admission, dependencies
+ 
+ 
+--- /Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/runtime_metadata.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py
+@@ -1,4 +1,4 @@
+-"""RI135 F01/F02 successor: opaque runtime metadata. UNEXECUTED; no scientific imports.
++"""RI141 direct-bootstrap successor: opaque runtime metadata. UNEXECUTED; no scientific imports.
+ 
+ RI121 collector constants and functions retained as source, with explicit size,
+ member and alias guards. The driver supplies separately authenticated metadata.
+@@ -12,6 +12,7 @@
+ 
+ CAP = 67108864
+ MAX_MEMBERS = 25000
++BOOTSTRAP = '/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'
+ 
+ BASE = '/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11'
+ VENV = '/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env'
+@@ -291,7 +292,7 @@
+         modules.append(row)
+     return {'uname': list(os.uname()),
+             'system_version': file_ref('/System/Library/CoreServices/SystemVersion.plist'),
+-            'bootstrap': {'named': binding('/usr/bin/python3'), 'actual': binding(sys.executable),
++            'bootstrap': {'named': binding(BOOTSTRAP), 'actual': binding(sys.executable),
+                 'version': sys.version, 'executable': sys.executable, 'prefix': sys.prefix,
+                 'base_prefix': sys.base_prefix, 'path': list(sys.path),
+                 'isolated': sys.flags.isolated, 'dont_write_bytecode': sys.flags.dont_write_bytecode,

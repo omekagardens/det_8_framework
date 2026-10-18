@@ -1,0 +1,94 @@
+{
+  "actual_completion_at_admission": false,
+  "authority": "Ongoing user-authorized independent review implementation; root actual source/preflight adjudication in this thread",
+  "cards": [
+    {
+      "bytes": 1355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/adjudication.json",
+      "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+    },
+    {
+      "bytes": 1773,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/controls.json",
+      "sha256": "fa34890fc0072da102b7b967c84a79024859fa4130fc345e28c6d642a8dc8fc2"
+    },
+    {
+      "bytes": 3632,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/launcher.json",
+      "sha256": "d6062a3501a7f0e3708a9b17f218feb346dfdc322c778f2607eec4a0b232c24e"
+    },
+    {
+      "bytes": 3073,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/preflight.json",
+      "sha256": "b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188"
+    },
+    {
+      "bytes": 4113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/review.json",
+      "sha256": "83103b433a7caa1763c2bea9a2565bede26b35a60da1383d8674b661ae37b613"
+    }
+  ],
+  "control_count": 25,
+  "copies": [
+    {
+      "operational": {
+        "bytes": 4113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/review.json",
+        "sha256": "83103b433a7caa1763c2bea9a2565bede26b35a60da1383d8674b661ae37b613"
+      },
+      "original": {
+        "bytes": 4113,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/HANDOFF.json",
+        "sha256": "83103b433a7caa1763c2bea9a2565bede26b35a60da1383d8674b661ae37b613"
+      }
+    },
+    {
+      "operational": {
+        "bytes": 1355,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/adjudication.json",
+        "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+      },
+      "original": {
+        "bytes": 1355,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ROOT_ADJUDICATION.json",
+        "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+      }
+    },
+    {
+      "operational": {
+        "bytes": 3073,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/preflight.json",
+        "sha256": "b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188"
+      },
+      "original": {
+        "bytes": 3073,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/BOOTSTRAP_HOST_PREFLIGHT.json",
+        "sha256": "b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188"
+      }
+    }
+  ],
+  "invocation": {
+    "cmd": "exec /usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/environment/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/cards/launcher.json",
+    "login": false,
+    "max_output_tokens": 3000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh",
+    "yield_time_ms": 1000
+  },
+  "new_source_new_operation": true,
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh",
+  "preflight": {
+    "bytes": 3073,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/BOOTSTRAP_HOST_PREFLIGHT.json",
+    "sha256": "b35d395d6afa517230a491e628aecd639c0a975fa6e4e44907bd8df1bc463188"
+  },
+  "prior_attempt_remains_rejected": true,
+  "retry_authorized": false,
+  "schema": "ri139-genuine-root-single-operation-admission-v1",
+  "source_adjudication": {
+    "bytes": 1355,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ROOT_ADJUDICATION.json",
+    "sha256": "040a7d3f07e85d80265af8e86fc435e711b5959161ae3c65de2706bf4c763c2f"
+  },
+  "status": "AUTHORIZE_EXACT_SINGLE_FOCUSED25_EXECUTION",
+  "tool": "exec_command"
+}

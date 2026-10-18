@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "chunk_id": "6c6d28",
+      "exit_code": 1,
+      "reason": "Display assumed cases key; actual key controls printed first and corrected by9db7e5 exit0; complete actual checkerf3bea0 exits0"
+    },
+    {
+      "chunk_id": "369bce",
+      "exit_code": 0,
+      "reason": "Read-only search pipeline referenced nonexistent protocol filename and emitted error; not successful source coverage; exact source inventoryf18198 and full protocolfbaec0 exit0 resolve it"
+    }
+  ],
+  "schema": "ri143-root-additional-read-diagnostics-v1",
+  "source_mutated": false
+}

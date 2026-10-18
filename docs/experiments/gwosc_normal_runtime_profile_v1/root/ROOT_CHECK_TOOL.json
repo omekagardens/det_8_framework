@@ -1,0 +1,37 @@
+{
+  "initial": {
+    "chunk_id": "9a9938",
+    "wall_time_seconds": 1.00363975,
+    "session_id": 3969,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "terminal": {
+    "chunk_id": "5255a6",
+    "wall_time_seconds": 0.0000065,
+    "exit_code": 0,
+    "original_token_count": 216,
+    "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/RUNTIME_POST_IDENTITIES.json', 'bytes': 6362349, 'sha256': 'ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/OPERATION_FINAL_IDENTITIES.json', 'bytes': 12886, 'sha256': '6c50a0791b5039ce9de0995fc34c33de636be53dff8b34066b93692b9de30533'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_OUTER.json', 'bytes': 1444, 'sha256': 'e14554ede8b90c95461900988126a018110d71cb774756790f3e4cb96e7c352f'}\n{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/ROOT_PROFILE_CHECK.json', 'bytes': 1581, 'sha256': '862de4ed7ad3033848e257c6b601e350bcb96d5bb7d04a59ecc96464306bc76e'}\n"
+  },
+  "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/check_profile_custody.py",
+  "source_setup": {
+    "chunk_id": "b6980a",
+    "exit_code": 0
+  },
+  "admission": {
+    "chunk_id": "f547c7",
+    "exit_code": 0
+  },
+  "diagnostics": [
+    {
+      "chunk_id": "ae7d6a",
+      "exit_code": 1,
+      "description": "Read-only combined cat displayed setup/admission scripts but guessed LAYOUT.json did not exist; correct OPERATION_LAYOUT.json used. No subject ran."
+    },
+    {
+      "chunk_id": "ffd963",
+      "exit_code": 1,
+      "description": "Expected diff status for root checker adaptation, not check failure."
+    }
+  ]
+}

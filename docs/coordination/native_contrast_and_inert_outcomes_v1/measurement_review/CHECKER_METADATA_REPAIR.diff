@@ -1,0 +1,11 @@
+--- initial
++++ manifest-top-level-aware
+@@ -83,7 +83,7 @@
+  refwalk(d160);refwalk(s);refwalk(sb)
+  need(len(s['dependencies'])==567 and len(sb['sources'])==582,'source closure counts')
+  declared={r['path']:(r['bytes'],r['sha256']) for r in s['dependencies']+[s['adapter']]+list(s['modules'].values())+[a['source_manifest']]}
+- before={r['path']:(r['bytes'],r['sha256']) for r in sb['sources']};need(all(before.get(k)==v for k,v in declared.items()),'every source-set member in before closure')
++ before={r['path']:(r['bytes'],r['sha256']) for r in sb['sources']};before_manifest={**before,sb['source_manifest']['path']:(sb['source_manifest']['bytes'],sb['source_manifest']['sha256'])};need(all(before_manifest.get(k)==v for k,v in declared.items()),'every source-set member in before closure')
+  need(len(before)==582,'source uniqueness');eq(a['source_review'],pre['source_acceptance'],'source acceptance exact reference');eq(a['source_manifest'],sb['source_manifest'],'manifest before binding')
+  need(a['action']=='controls' and a['qualification'] is None and a['genuine_outer_required'] is True and pre['scientific_execution_authorized'] is False,'inert-only admission')
+  eq(a['bounds'],{'wall_seconds':180,'rss_kib':524288,'target_poll_seconds':.025,'maximum_sample_gap_seconds':.1,'ps_timeout_seconds':.05,'file_bytes':67108864},'fixed bounds')

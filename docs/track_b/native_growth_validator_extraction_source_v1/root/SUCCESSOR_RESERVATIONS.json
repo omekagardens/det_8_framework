@@ -1,0 +1,24 @@
+{
+  "execution_admitted": false,
+  "measurement": {
+    "exact_namespace_files": 12,
+    "item": "RI135",
+    "review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri135-preparation-repair-independent-review-0ysy6sdb",
+    "reviewer": "/root/ri116_complete_caller_review",
+    "root_verified_payloads": 11,
+    "source_handoff": {
+      "bytes": 5902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+      "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+    },
+    "status": "Complete nonauthor source review active; root acceptance pending"
+  },
+  "native": {
+    "item": "RI136",
+    "owner": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7",
+    "scope": "Minimal immutable exact-source one-case dispatcher for77native/62audit policy cases, concrete external launch contract, no active artifacts or execution."
+  },
+  "ret_paused": true,
+  "schema": "ri134-root-successor-reservations-v1"
+}

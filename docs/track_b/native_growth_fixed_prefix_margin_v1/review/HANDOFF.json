@@ -1,0 +1,196 @@
+{
+  "accepted_manual_scope": [
+    "J3 actual raising-terminal component identity",
+    "Complete hook compensation and square remainder parallelograms",
+    "Strict normalization/kernel inequalities",
+    "Conditional exact kernel-ratio monotonic direction",
+    "Valid signed floors with aggregate dominance",
+    "Exact two-endpoint equivalence for every nonnegative singleton floor",
+    "Exact strict-capacity and adequate threshold resolution of both old sufficient budgets",
+    "Exact full-q endpoint/vertex remaining relation"
+  ],
+  "accepted_predecessor": {
+    "bytes": 5022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+    "sha256": "42572ffd230ccf25eb761c4bf8741f66a99d218b40234329cad4cc4b29aab882"
+  },
+  "actual_administrative_checks": [
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "counts": {
+        "additions": 21,
+        "bytes": 4855024,
+        "current_refs": 72,
+        "dependencies": 171,
+        "fresh_identity_rechecks": 181,
+        "historical_namespaces": 13,
+        "historical_refs": 992,
+        "inherited_rows": 150,
+        "manuscript_absolute_references": 4,
+        "source_pairs": 4,
+        "subject_namespace": 10
+      },
+      "exit_code": 0,
+      "result": {
+        "bytes": 116330,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+        "sha256": "5c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b"
+      },
+      "tool_chunk": "0ec99a"
+    },
+    {
+      "exit_code": 0,
+      "result": {
+        "bytes": 9811,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+        "sha256": "3044d3e90b4fd95b77d167619a9926994e2071832ae7a30e92ac0d4a8086eb6b"
+      },
+      "scope": "Fresh171 original full dependency identities+10 current source pins; exact21 additions; verbatim author diagnostics; five preseal review payload pins.",
+      "tool_chunk": "3b5e4a"
+    }
+  ],
+  "assignment": {
+    "bytes": 2872,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+    "sha256": "5e9831650ce2defca777500392419b16bf3d820458f19c1bfca2c522a4869e51"
+  },
+  "clarifications": [
+    {
+      "accepted_scope": "Kbox and hence maximum Kcorr dominate the old bound, strictly if either sigma is positive; all three are valid uniform floors.",
+      "id": "N01",
+      "location": "ANALYTIC_RESULT.json new_results[4]; WEIGHTED_PREFIX_COMPARISON.md144-164; FIXED_PREFIX_MARGIN_SYNTHESIS.md110-122",
+      "not_accepted": "An additional claim that each individual ratio anchor itself must dominate the old bound.",
+      "required_repair": false,
+      "severity": "NONBLOCKING_SUMMARY_SCOPE_CLARIFICATION",
+      "wording": "Three all-sign correlated singleton floors dominate the old bound"
+    }
+  ],
+  "compact_publication_subset": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_MARGIN_REVIEW.json",
+    "INDEPENDENT_MARGIN_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "conditional_implication": "A genuine pass implies W<=0 on actual-containing domain, excludes simultaneous strict C2/C3 positivity and obstructs this fixed H30 candidate; no pass shown. Failure of sufficient test does not decide W.",
+  "diagnostics": {
+    "all_four_author_diagnostics_retained_verbatim": true,
+    "failed_reviewer_administrative_commands": 0,
+    "truncated_reviewer_read_outputs": 0,
+    "withdrawn_seed_comparison_gets_no_sign_branch_or_theorem_credit": true
+  },
+  "excluded_inference": {
+    "FS1_greater_than_FS0_accepted": false,
+    "exact_diagnostic_retained": true,
+    "new_actual_seed_comparison_performed_by_reviewer": false,
+    "source": "AUTHOR_CHECKS.json diagnostics[0]",
+    "theorem_branch_order_sign_credit": false
+  },
+  "external_only_diagnostics": [],
+  "immutable_after_seal": true,
+  "independence": {
+    "O01_and_RI151_root_accepted_inherited_premises": true,
+    "O01_review_observation_authorship_disclosed": true,
+    "author_of_current_subject": false,
+    "author_peer_checks_counted_as_independent": false,
+    "prior_RI145_RI147_RI149_RI151_review_authorship": true,
+    "unrelated_WHITE_authorship_disclosed": true
+  },
+  "namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_MARGIN_REVIEW.json",
+    "INDEPENDENT_MARGIN_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "no_successor_assigned": true,
+  "payloads": [
+    {
+      "bytes": 9811,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+      "sha256": "3044d3e90b4fd95b77d167619a9926994e2071832ae7a30e92ac0d4a8086eb6b"
+    },
+    {
+      "bytes": 8310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.json",
+      "sha256": "52338567901d53a8494d2c00ce1d9018ef8326a488ff5df42a448fc0f87e2d3f"
+    },
+    {
+      "bytes": 25663,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.md",
+      "sha256": "2eb52cf2f0198af636b114926b37ebd97e0d2f12bfa1510cfdf7a48516522c2c"
+    },
+    {
+      "bytes": 116330,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "sha256": "5c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b"
+    },
+    {
+      "bytes": 4537,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/REVIEW_DIAGNOSTICS.json",
+      "sha256": "17d9ff8e2a11952bbf1a53a2512333ec765fcdb84b30bf0622934e6e2eaf2313"
+    },
+    {
+      "bytes": 8351,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "sha256": "463fbd99e436bc2a113972d218331383a37d8f85e6968a7213e801e1ff2d2251"
+    }
+  ],
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining": {
+    "actual_W_C2_C3_signs_decided": false,
+    "actual_adequate_q_v_joint_budget_proved": false,
+    "actual_capacity_signs_proved": false,
+    "actual_positive_part_branch_decided": false,
+    "actual_rho_in_earlier_small_x_interval_proved": false,
+    "actual_root_order_decided": false,
+    "full_H30_decided": false,
+    "precise_relation": "At same correlated actual prefix, prove YE<1 and v>B max(1,(1-Yu3)/(1-YE)), then q(0)>=Qreq, q(Z)>=Qreq and, when -2q2Z<q1<0,4q2(q0-Qreq)-q1^2>=0; or prove inherited direct cleared W endpoint inequalities."
+  },
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY",
+  "root_owns_adjudication_admission_repository_Git_and_publication": true,
+  "schema": "ri153-independent-margin-review-handoff-v1",
+  "scope": {
+    "administrative_identity_reference_checks": true,
+    "global_graph_enumeration": false,
+    "historical_mutation": false,
+    "manual_mathematical_review": true,
+    "numerical_scientific_evaluation": false,
+    "operational_acceptance": false,
+    "physical_claim": false,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "status": "SEALED_NONAUTHOR_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject_handoff": {
+    "bytes": 6422,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+    "sha256": "4058c2a9545211d2e845661a86516a69b94d15833c3ebbccb9657dc8de61beb7"
+  },
+  "verdict": "ACCEPT_EXACT_PREFIX_IDENTITIES_AND_CONDITIONAL_JOINT_BUDGET_REDUCTION"
+}

@@ -1,0 +1,246 @@
+{
+  "actual_normal_optimized_whole_bytes_equal": true,
+  "audit": {
+    "bytes": 257875,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+    "sha256": "8fd4f1fd563e9ba1712ebfabac8c114872c695d5a742c592f5b03c707ce84287"
+  },
+  "certificate": {
+    "bytes": 233035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d"
+  },
+  "consumer_executes_producer_mutations": false,
+  "counted_auditor_operations": 10058,
+  "decision": {
+    "actual_scale_computed": false,
+    "actual_scale_root_asserted": false,
+    "all_positive_extensions_rejected": false,
+    "common_gcd_degree": 2,
+    "disposition": "certified-connected-obstruction",
+    "distinct_common_real_roots": 0,
+    "f2_status": "nonconstant",
+    "f3_status": "nonconstant",
+    "no_common_real_root_on_admissible_interval": true,
+    "positive_repair_asserted": false,
+    "rational_root_decision_performed": false,
+    "rational_roots_remaining_asserted": false,
+    "remaining_parent_feasibility_decided": false,
+    "restricted_28_child_repair_rejected": true
+  },
+  "descriptor": {
+    "bytes": 5501,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81"
+  },
+  "external_runtime_observations": [
+    {
+      "complete_observed_fields_equal": true,
+      "mode": "witness",
+      "post": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/witness-post-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "8a38e33f84494a711b71672eb99e637cc8030fd864967dc427c45f2dc8c005b4"
+      },
+      "pre": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/witness-pre-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "8830fceb8002b220513ff67c086117f67ea1b8da4d3dd1257e94c209deee0125"
+      },
+      "summary": {
+        "ENOENT_after": 40,
+        "ENOENT_before": 40,
+        "directory_entry_count": 3526,
+        "directory_matches_after": 258,
+        "directory_matches_before": 258,
+        "directory_memberships_each_pass": 258,
+        "error_count": 0,
+        "host_observations_equal": true,
+        "literal_bytes_hashed": 103009117,
+        "namespace_observations_equal": true,
+        "required_absences_each_pass": 40,
+        "runtime_file_identity_matches": 2988,
+        "runtime_files": 2988,
+        "runtime_final_selection_matches": 2988
+      }
+    },
+    {
+      "complete_observed_fields_equal": true,
+      "mode": "normal",
+      "post": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/normal-post-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "fd58fdb7d2cb75e6f55593b666f3ac449bed68fa0807e3420c3b90df45709083"
+      },
+      "pre": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/normal-pre-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "8f01801f5f3ed30faac093ac60919c3b21c95b0dc257f66d8ccfa4d498b12970"
+      },
+      "summary": {
+        "ENOENT_after": 40,
+        "ENOENT_before": 40,
+        "directory_entry_count": 3526,
+        "directory_matches_after": 258,
+        "directory_matches_before": 258,
+        "directory_memberships_each_pass": 258,
+        "error_count": 0,
+        "host_observations_equal": true,
+        "literal_bytes_hashed": 103009117,
+        "namespace_observations_equal": true,
+        "required_absences_each_pass": 40,
+        "runtime_file_identity_matches": 2988,
+        "runtime_files": 2988,
+        "runtime_final_selection_matches": 2988
+      }
+    },
+    {
+      "complete_observed_fields_equal": true,
+      "mode": "optimized",
+      "post": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/optimized-post-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "fbdbbada6675388cd2588cead51c3607ea4e02bbf878c505f06081edd554a59b"
+      },
+      "pre": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/optimized-pre-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "94849f5f786512884097710e2b763e9dac050cf8a7865eefd8722775ea385795"
+      },
+      "summary": {
+        "ENOENT_after": 40,
+        "ENOENT_before": 40,
+        "directory_entry_count": 3526,
+        "directory_matches_after": 258,
+        "directory_matches_before": 258,
+        "directory_memberships_each_pass": 258,
+        "error_count": 0,
+        "host_observations_equal": true,
+        "literal_bytes_hashed": 103009117,
+        "namespace_observations_equal": true,
+        "required_absences_each_pass": 40,
+        "runtime_file_identity_matches": 2988,
+        "runtime_files": 2988,
+        "runtime_final_selection_matches": 2988
+      }
+    },
+    {
+      "complete_observed_fields_equal": true,
+      "mode": "audit",
+      "post": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/audit-post-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "47682bcda0578c07957918e6cd02725010b0349ef45c77cda978a7925ad299d4"
+      },
+      "pre": {
+        "bytes": 5461216,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/audit-pre-runtime/RUNTIME_METADATA_RESULT.json",
+        "sha256": "78ba02a6ed9e69175695175b427007d3a52d431d16f9a57deff45536e8b061bb"
+      },
+      "summary": {
+        "ENOENT_after": 40,
+        "ENOENT_before": 40,
+        "directory_entry_count": 3526,
+        "directory_matches_after": 258,
+        "directory_matches_before": 258,
+        "directory_memberships_each_pass": 258,
+        "error_count": 0,
+        "host_observations_equal": true,
+        "literal_bytes_hashed": 103009117,
+        "namespace_observations_equal": true,
+        "required_absences_each_pass": 40,
+        "runtime_file_identity_matches": 2988,
+        "runtime_files": 2988,
+        "runtime_final_selection_matches": 2988
+      }
+    }
+  ],
+  "independently_rebuilt_decision_fixtures": 6,
+  "independently_rebuilt_family_fixtures": 10,
+  "independently_rebuilt_root_fixtures": 16,
+  "payloads": 18,
+  "postchecks": 19,
+  "producer_controls_actually_traversed_per_successful_mode": 166,
+  "programme_complete": false,
+  "schema": "ri122-root-full-saved-audit-comparison-v1",
+  "scope": "Full strict saved-data/type/canonical-byte/provenance/postcheck comparison. Actual independent arithmetic is the separately authored auditor execution, not this comparison.",
+  "sections": {
+    "Q2_contrasts": {
+      "bytes": 17619,
+      "sha256": "15511fea59f092e5eaf16790445bc1b62064a9a6fe15adc9637f97a8800a585c"
+    },
+    "V_contrasts": {
+      "bytes": 4359,
+      "sha256": "89254c4115672d8cf40ef23e8e993d9184f30200910cd3a32f472c897a683617"
+    },
+    "accepted_inputs": {
+      "bytes": 103,
+      "sha256": "edb27786e33dc01cb7edf3878705463cd3422043a2cfe80288fecde2bac70061"
+    },
+    "accepted_sources": {
+      "bytes": 760,
+      "sha256": "92839bfb4bdeb9f6c93a38936e2e97b443b8cdd47eec98f521a70f18652cbcf8"
+    },
+    "arithmetic_limits": {
+      "bytes": 233,
+      "sha256": "ef576d01538515eb83949a9d9419a7a3809ce6caee709d6134b14c622fb259a8"
+    },
+    "checker_sha256": {
+      "bytes": 67,
+      "sha256": "c34127b6a5ac6be814516a7548a50809c7598c4c1bc44a48e207edcfd8fc0e72"
+    },
+    "common_gcd": {
+      "bytes": 50241,
+      "sha256": "d8fac3250cb3ae7a478bc1df27a4edb8f07fc9351fe0795d1e01d16232495e2d"
+    },
+    "connected_profiles": {
+      "bytes": 59520,
+      "sha256": "a7f69332f482f50d961e9b3c856cf8a81fb6544342d375df9d62f6c2854d3499"
+    },
+    "coverage": {
+      "bytes": 201,
+      "sha256": "69332e8b7d56b81a3a045262224a4f359ce99775dbba5ef534c7115347700e41"
+    },
+    "decision": {
+      "bytes": 515,
+      "sha256": "e762187b592c01d0386203a7161fd44a2594b354566d49c65fbe13f465e7acf2"
+    },
+    "decision_fixtures": {
+      "bytes": 4614,
+      "sha256": "798f02ec94f63e3e7d40ddb3316389fa872a28168d9060fbd5694ce44ff3b65c"
+    },
+    "family_fixtures": {
+      "bytes": 33368,
+      "sha256": "737e71efc3d7800a1c7ee3a4ccb0068d7705f33cd1bf3c0a09d8415683e208a4"
+    },
+    "inputs": {
+      "bytes": 14349,
+      "sha256": "06a8c3b70ea1c4ba47321de0ba34120142883ae3ebefb6996124b1bb91c4ceee"
+    },
+    "limitations": {
+      "bytes": 356,
+      "sha256": "8fb56b449110717cdf18da0ca5adb0c82c7a77cb610eab24b73b33b52e83b501"
+    },
+    "refusal_controls": {
+      "bytes": 10217,
+      "sha256": "dc73bb6773926fcc7f9736fec8eee48867908a0a4ff6f4284baa56bafeb2b7ae"
+    },
+    "root_fixtures": {
+      "bytes": 18889,
+      "sha256": "61a4d865a7117c31d42af2b001db062e96c84d5416cdcadd0695252c6b9f50dd"
+    },
+    "scale_domain": {
+      "bytes": 1276,
+      "sha256": "fa3bb27ded7d6cfd6c4f6704c743c5660dc06b6585a750630c243f7ed0323c2e"
+    },
+    "schema": {
+      "bytes": 45,
+      "sha256": "e9008c8c632f73c77e2baaf6b0ad4ea4a2f5d022f9e5ddbcf0398247fbf4ecc1"
+    },
+    "stem_profiles": {
+      "bytes": 16006,
+      "sha256": "9cf14d8e991a43d097e9e6a7c8c34970454659c8080d05e302e9062c42923576"
+    }
+  },
+  "status": "COMPLETE_CERTIFICATE_AND_ALL_AUDIT_BINDINGS_MATCH"
+}

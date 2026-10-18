@@ -1,0 +1,107 @@
+{
+  "boundaries": {
+    "active_freeze_or_admission": false,
+    "actual_runtime_inventory_or_profile": false,
+    "guard_controls_executed": false,
+    "programme_complete": false,
+    "repo_or_git_operations": false,
+    "ret_paused": true,
+    "science_modified": false,
+    "target_import_compile_ast_probe_run": false
+  },
+  "changed_predecessor_files": [
+    "BLOCK_CORRESPONDENCE.json",
+    "CHANGE_SPECIFIC_CHECKS.source-only.md",
+    "COMMANDS.source-only.json",
+    "EXECUTION_CONTRACT.source-only.md",
+    "FINAL_PREPARATION_METADATA.json",
+    "HISTORY_CLOSURE.source-only.json",
+    "MANIFEST.source-only-template.json",
+    "PREPARATION_RECORD.md",
+    "launch.py",
+    "runtime_support.py",
+    "worker.py"
+  ],
+  "commands": {
+    "bytes": 1896,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/COMMANDS.source-only.json",
+    "sha256": "8878db9fe8eda39fce0b62029e2cf4e7eb108fe101db5a4e7492c4f9a3e672ce"
+  },
+  "contract": {
+    "bytes": 15805,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/EXECUTION_CONTRACT.source-only.md",
+    "sha256": "86488430246ca3df7df6425f5f060d68fcd1b881d18be4eeb38d8488ebd109b4"
+  },
+  "fixed_absent_path_count": 8,
+  "fixed_limits": {
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "guard_controls": {
+    "candidate_interpreter_invoked": false,
+    "executed": false,
+    "failure_tail_cases": 11,
+    "runtime_guard_cases": 7,
+    "scientific_module_entered": false,
+    "scope_old_packet": "failure-tails",
+    "scope_repaired_packet": "all",
+    "separate_root_admission_required": true
+  },
+  "manifest_template": {
+    "bytes": 9194,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/MANIFEST.source-only-template.json",
+    "sha256": "28e1b89010b4c0ff676b0eec3d2ed4b546027d178ae4800f96fbe9fd2e4e2ee9"
+  },
+  "new_files": [
+    "PREDECESSOR.json",
+    "SOURCE_DIFF.patch",
+    "guard_controls.source-only.py"
+  ],
+  "predecessor": {
+    "bytes": 2181,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/PREDECESSOR.json",
+    "sha256": "d5ac3345dc4a893e6f9fb7b505d211afdb8fda43fae7481f9e8476468cc1ecf3"
+  },
+  "preparation_metadata": {
+    "bytes": 1069,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/FINAL_PREPARATION_METADATA.json",
+    "sha256": "224981a4adf3557b14854f5d152a5c71ce5f0fe5e1fe705d059a1c8bdab81612"
+  },
+  "prior_source_only_seal_preserved": "/Volumes/AI_DATA/development/det-review-evidence/ri121-repair-before-eighth-absence-mdtntvwb/packet",
+  "prospective_guard_source": {
+    "bytes": 13237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/guard_controls.source-only.py",
+    "sha256": "e2200395568a8f634f2c37c3b8c76226ba6111e616f5878e17b4973a2a106fe2"
+  },
+  "remaining_prerequisites": [
+    "Independent complete repaired-tail/runtime/guard-source review and root adjudication.",
+    "Separate exact non-scientific guard card and actual metadata-interpreter regression controls; preserve failed predecessor demonstration.",
+    "Fresh actual production runtime inventory/profile and explicit host/cache/OpenSSL/decimal premises; no acceptance exists.",
+    "Exact normal scientific admission and full actual saved-result/genuine-completion review, then separate optimized admission and byte equality."
+  ],
+  "repair": "Retain admitted runtime helper handle; never first-load helper from either failure tail; explicit unentered custody and success completeness; preserve original error/stop_reason. Add finite required startup absences and exact OpenSSL loader/config domain guards.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3",
+  "schema": "ri121-concrete-synthetic-caller-repair-handoff-v1",
+  "source_diff": {
+    "bytes": 31219,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_DIFF.patch",
+    "sha256": "0a0d60cb80010642cb20793030231774851def8e880fbad73712f6e8ee6aa3ee"
+  },
+  "source_pins": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/SOURCE_PINS.json",
+    "sha256": "00ac8b737edf224a27e09efaf6d6a353dc9baaf59fdc78e21378e249d73c33f6"
+  },
+  "status": "COMPLETE_REPAIRED_SOURCE_ONLY_PENDING_INDEPENDENT_ROOT_ADJUDICATION",
+  "unchanged_predecessor_files": [
+    "REPORT_DOMAIN.source-only.json",
+    "SUPERVISION_PROVENANCE.source-only.json",
+    "control.py",
+    "science/primary.py",
+    "science/qualify.py",
+    "science/validator.py"
+  ]
+}

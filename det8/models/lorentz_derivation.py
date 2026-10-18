@@ -1,25 +1,15 @@
-"""
-DET-Native Lorentz Covariance — Full Derivation
+"""Synthetic special-relativity correspondence checks.
 
-Derives all special relativistic observables from DET primitives:
-  - Event graph G = (V, ≺) with causal partial order.
-  - Proper time as event count × participation aperture.
-  - Spacelike separation: e₁ ∥ e₂ iff neither precedes the other.
+Status: SYNTHETIC_CORRESPONDENCE.  This module supplies 1+1-dimensional
+Minkowski coordinates, the quadratic interval, a finite invariant speed, and
+the standard Lorentz boost, then checks familiar identities.  It does not
+derive any of those inputs from a DET event record, reconstruct a conformal
+factor, or show that DET dynamics generate a manifoldlike causal set.
 
-No Lorentz transformations assumed. No Minkowski metric inserted.
-Everything emerges from the geometry of the causal order ≺.
-
-Derived observables:
-  1. Invariant interval ds² = c²dt² - dx² (from causal connectivity)
-  2. Time dilation (from event density ratio)
-  3. Length contraction (from relativity of simultaneity)
-  4. Relativity of simultaneity (from ≺ structure)
-  5. Lorentz transformations (as symmetries of ≺)
-  6. Velocity addition formula
-
-Reference: The causal structure of Minkowski spacetime determines the
-metric up to a conformal factor (Malament 1977, causal set theory).
-DET inherits this result: ≺ → Lorentzian geometry in continuum limit.
+The historical ``derive_*`` names remain as API compatibility aliases.  Read
+them as "evaluate the standard formula under the stated assumptions."  The
+possible interpretation of a causal order as underlying Lorentzian geometry
+is kept separate from what the calculations directly establish.
 """
 
 from __future__ import annotations
@@ -28,18 +18,18 @@ import math
 from dataclasses import dataclass, field
 from typing import Optional
 
+from det8.models.legacy_gravity_quarantine import SALVAGED_CORRESPONDENCE
+
+
+CORRESPONDENCE_STATUS = SALVAGED_CORRESPONDENCE[__name__]
+
 
 # ── Causal Structure Fundamentals ───────────────────────────────────────────
 
 
 @dataclass
 class CausalEvent:
-    """An event in the causal graph with spacetime coordinates.
-
-    In the continuum limit, coordinates emerge from the embedding
-    of ≺ into a Lorentzian manifold. Here we use them for the
-    derivation, but the fundamental structure is the order ≺.
-    """
+    """An event with supplied 1+1-dimensional Minkowski coordinates."""
 
     t: float  # Coordinate time.
     x: float  # Spatial coordinate (1+1 for clarity).
@@ -64,14 +54,13 @@ def is_lightlike(dt: float, dx: float, c: float = 1.0) -> bool:
 
 
 def proper_interval(dt: float, dx: float, c: float = 1.0) -> float:
-    """Invariant interval ds² = c²dt² - dx².
+    """Evaluate the supplied Minkowski interval ds² = c²dt² - dx².
 
     For timelike separation (|dx| < c|dt|): ds² > 0.
     For spacelike separation: ds² < 0.
     For lightlike: ds² = 0.
 
-    This is NOT assumed — it is the unique quadratic form invariant
-    under transformations that preserve the causal order ≺.
+    The quadratic form is an input to this correspondence calculation.
     """
     return c * c * dt * dt - dx * dx
 
@@ -80,7 +69,7 @@ def proper_interval(dt: float, dx: float, c: float = 1.0) -> float:
 
 
 def derive_invariant_interval() -> dict:
-    """The invariant interval emerges from the causal order.
+    """Classify supplied coordinate separations with the Minkowski interval.
 
     Given two events with coordinate separation (dt, dx), the causal
     relation is:
@@ -88,16 +77,8 @@ def derive_invariant_interval() -> dict:
       - Lightlike: |dx| = c|dt| → ds² = 0 (light cone boundary)
       - Spacelike: |dx| > c|dt| → ds² < 0 (causally disconnected)
 
-    The quadratic form ds² = c²dt² - dx² is the unique (up to scale)
-    quantity preserved by transformations that preserve the light cone
-    structure (causal order).
-
-    DET derivation:
-      1. The event graph ≺ defines which pairs are causally related.
-      2. The boundary of the causal future J⁺(e) is the light cone.
-      3. The light cone equation is: dx = ±c·dt.
-      4. The quadratic form ds² = c²dt² - dx² vanishes on the light cone.
-      5. This form is preserved by Lorentz transformations (shown below).
+    No event graph is inferred here: ``dt``, ``dx``, ``c``, and the interval
+    form are all supplied by the synthetic generator.
     """
     c = 1.0
 
@@ -128,7 +109,11 @@ def derive_invariant_interval() -> dict:
 
     return {
         "invariant_form": "ds² = c²dt² - dx²",
-        "derivation": "Unique quadratic form vanishing on light cone (causal boundary of ≺).",
+        "derivation": (
+            "Historical API field: the calculation assumes the Minkowski quadratic form; "
+            "it does not derive it from a DET record."
+        ),
+        "classification": "SYNTHETIC_CORRESPONDENCE",
         "light_cone": "dx = ±c·dt  (boundary of J⁺(e))",
         "examples": examples,
     }
@@ -138,7 +123,7 @@ def derive_invariant_interval() -> dict:
 
 
 def derive_time_dilation(velocity: float, c: float = 1.0) -> dict:
-    """Derive time dilation from DET causal structure.
+    """Evaluate standard time dilation for a supplied velocity and c.
 
     A clock at rest has worldline (t, 0). It participates in N events
     per coordinate time Δt.
@@ -147,13 +132,9 @@ def derive_time_dilation(velocity: float, c: float = 1.0) -> dict:
     between coordinate times t₁ and t₂ is:
       Δτ = ∫ √(1 - v²/c²) dt = Δt / γ  where γ = 1/√(1 - v²/c²).
 
-    DET-native interpretation:
-    - The number of events in the causal past of a moving clock is
-      reduced by factor 1/γ compared to a resting clock.
-    - Each event contributes Π to proper time.
-    - Therefore: τ_moving = τ_rest / γ.
-
-    This matches the event density ratio derivation in det_native_spacetime.
+    This function does not construct or count events.  An event-density
+    account would be an additional interpretation requiring an independently
+    specified sampling measure and clock observable.
     """
     if abs(velocity) >= c:
         raise ValueError("Superluminal velocity — no causal connections exist.")
@@ -167,8 +148,9 @@ def derive_time_dilation(velocity: float, c: float = 1.0) -> dict:
         "dt_ratio": dt_ratio,
         "time_dilation": f"Δt_moving = γ · Δτ  (moving clock runs slow by factor γ)",
         "det_interpretation": (
-            f"Moving node participates in {dt_ratio:.4f}× fewer events "
-            f"per coordinate interval. Proper time scales as event count."
+            f"Conditional interpretation only: an independently justified event-count "
+            f"clock would need a density ratio {dt_ratio:.4f}. This function does not "
+            f"generate or observe that ratio."
         ),
     }
 
@@ -181,7 +163,7 @@ def derive_length_contraction(
     rest_length: float = 1.0,
     c: float = 1.0,
 ) -> dict:
-    """Derive length contraction from DET causal structure.
+    """Evaluate standard length contraction in supplied Minkowski geometry.
 
     A rod of rest length L₀ lies along the x-axis in its rest frame.
     In a frame moving at velocity v relative to the rod:
@@ -192,7 +174,7 @@ def derive_length_contraction(
 
     The Lorentz transformation gives: L = L₀ / γ.
 
-    DET interpretation:
+    Optional causal-order interpretation:
     - "Simultaneous" means spacelike-separated with dt' = 0 in the
       moving frame.
     - In the rest frame, these measurement events have dt ≠ 0.
@@ -215,8 +197,8 @@ def derive_length_contraction(
             "Length contraction is NOT a physical compression of the rod. "
             "It is a consequence of relativity of simultaneity: the endpoints "
             "are measured at different rest-frame times in the moving frame. "
-            "The causal structure ≺ determines which events are spacelike; "
-            "different frames choose different spacelike slices."
+            "Given the supplied Minkowski causal structure, different inertial "
+            "frames choose different spacelike slices. This is not a DET derivation."
         ),
     }
 
@@ -229,14 +211,14 @@ def derive_relativity_of_simultaneity(
     separation: float = 1.0,
     c: float = 1.0,
 ) -> dict:
-    """Derive relativity of simultaneity from DET causal structure.
+    """Evaluate standard relativity of simultaneity for a Lorentz boost.
 
     Two events simultaneous in frame S (Δt = 0, Δx = separation)
     are NOT simultaneous in frame S' moving at velocity v:
 
     Δt' = γ(Δt - v·Δx/c²) = -γ·v·separation/c² ≠ 0.
 
-    DET interpretation:
+    Optional causal-order interpretation:
     - Events are simultaneous in S if they are spacelike-separated
       with Δt = 0 in S-coordinates.
     - The same events have Δt' ≠ 0 in S'-coordinates because the
@@ -261,7 +243,8 @@ def derive_relativity_of_simultaneity(
             "Simultaneity is frame-dependent because ≺ defines only a "
             "partial order, not a unique global time. Different foliations "
             "of ≺ into spacelike slices correspond to different frames. "
-            "No global 'now' exists in DET (AGENTS.md §5.3: No Universal Present)."
+            "The calculation supplies the Lorentzian order and does not select a "
+            "Track-B ontology of time."
         ),
     }
 
@@ -285,10 +268,8 @@ def lorentz_transform(
     2. Preserves the interval: ds² = c²dt² - dx².
     3. Forms a group (composition of boosts is a boost).
 
-    DET derivation:
-    - The causal order ≺ is invariant under this transformation.
-    - The light cone structure (boundary of J⁺(e)) is preserved.
-    - These are the symmetries of the causal graph in the continuum limit.
+    This function directly supplies the standard boost.  It verifies a
+    correspondence only; no continuum causal graph is constructed.
     """
     if abs(velocity) >= c:
         raise ValueError("Superluminal velocity.")
@@ -334,7 +315,9 @@ def verify_lorentz_invariance() -> dict:
         "boost_velocity": v,
         "results": results,
         "interval_invariant": all_invariant,
-        "lorentz_symmetry": "Transformations preserving ≺ are exactly the Lorentz group.",
+        "lorentz_symmetry": (
+            "The supplied Lorentz boost preserves the supplied Minkowski interval."
+        ),
     }
 
 
@@ -346,7 +329,7 @@ def derive_velocity_addition(
     v2: float,
     c: float = 1.0,
 ) -> dict:
-    """Derive relativistic velocity addition from Lorentz transformation composition.
+    """Evaluate relativistic velocity addition from supplied Lorentz boosts.
 
     If frame S' moves at v₁ relative to S, and an object moves at v₂
     relative to S', then the object's velocity in S is:
@@ -372,7 +355,7 @@ def derive_velocity_addition(
             "Velocity addition is nonlinear because boosts compose as "
             "Lorentz transformations (hyperbolic rotations), not Galilean "
             "additions. This preserves the causal structure: no signal "
-            "can exceed c, because no event can lie outside J⁺(e)."
+            "can exceed c within the supplied Minkowski model."
         ),
     }
 
@@ -412,12 +395,15 @@ def verify_velocity_addition_never_exceeds_c() -> dict:
 
 
 def lorentz_covariance_summary() -> dict:
-    """Complete DET derivation of all Lorentz-covariant observables."""
+    """Summarize the synthetic special-relativity correspondence checks."""
     c = 1.0
     v = 0.6
 
     return {
-        "foundation": "Event graph G = (V, ≺). Causal order determines light-cone structure.",
+        "classification": "SYNTHETIC_CORRESPONDENCE",
+        "foundation": (
+            "Supplied 1+1 Minkowski coordinates, interval, invariant speed, and Lorentz boost."
+        ),
         "invariant_interval": derive_invariant_interval(),
         "time_dilation": derive_time_dilation(v, c),
         "length_contraction": derive_length_contraction(v, 1.0, c),
@@ -426,24 +412,24 @@ def lorentz_covariance_summary() -> dict:
         "velocity_addition": derive_velocity_addition(0.6, 0.6, c),
         "velocity_limit": verify_velocity_addition_never_exceeds_c(),
         "what_is_derived": [
-            "Invariant interval ds² = c²dt² - dx² (from light-cone structure of ≺).",
-            "Time dilation (from event density ratio in ≺).",
-            "Length contraction (from relativity of simultaneity in ≺).",
-            "Relativity of simultaneity (from frame-dependent spacelike foliations of ≺).",
-            "Lorentz transformations (as symmetries preserving ≺).",
-            "Velocity addition (from boost composition).",
-            "c as maximum speed (from causal structure: no event outside J⁺(e)).",
+            "Nothing DET-native; this legacy field is retained for API compatibility.",
+        ],
+        "what_is_reproduced": [
+            "Minkowski interval classification.",
+            "Time dilation and length contraction.",
+            "Relativity of simultaneity.",
+            "Lorentz-boost interval invariance.",
+            "Relativistic velocity addition and its invariant speed bound.",
         ],
         "what_is_assumed": [
-            "c is finite and constant (empirical fact, consistent with ≺ structure).",
-            "Continuum limit exists (causal set theory — open problem O7).",
-            "Spacetime is (3+1)-dimensional (from ≺ embedding dimension).",
+            "1+1-dimensional Minkowski coordinates and metric signature.",
+            "A finite invariant speed c.",
+            "The standard Lorentz transformation.",
+            "No DET continuum limit is assumed to have been established.",
         ],
         "det_unique_contribution": (
-            "DET does not assume a Minkowski metric or Lorentz transformations. "
-            "These emerge as properties of the causal event graph ≺ in the "
-            "continuum limit. The fundamental object is the partial order, "
-            "not the metric. This is consistent with causal set theory and "
-            "provides a DET-native foundation for relativity."
+            "No unique DET contribution is established by these calculations. "
+            "They are known-answer tests that a future record-growth model must "
+            "reproduce without assuming the target geometry."
         ),
     }

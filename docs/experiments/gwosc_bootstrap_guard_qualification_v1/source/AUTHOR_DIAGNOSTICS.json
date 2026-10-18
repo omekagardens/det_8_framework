@@ -1,0 +1,27 @@
+{
+  "failures": [
+    {
+      "chunk_id": "7801a8",
+      "correction": "Read actual BOOTSTRAP_VERIFICATION_DESIGN.json after listing source namespace.",
+      "exit_code": 1,
+      "message": "cat: /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/FOCUSED_VERIFICATION_DESIGN.md: No such file or directory",
+      "operation": "Plain text read of guessed FOCUSED_VERIFICATION_DESIGN.md after directory/source reads.",
+      "subject_executed": false
+    },
+    {
+      "chunk_id": "ec7eac",
+      "complete_original_inline_tool_input_retained_in_conversation_chunk": "ec7eac",
+      "correction": "Use the existing seven-field device/inode/mode/nlink/size/mtime_ns/ctime_ns identity, matching before/open/after/final states and length; keep source/dependency bytes unchanged.",
+      "diagnosis": "The checker compared complete stat objects including access time. It did not retain which individual stat field changed, so the exact changed field is not claimed. This is a stricter-than-contract administrative comparison failure, not a successful source check.",
+      "executed_failing_pin_helper": "def pin(p):\n    p=Path(p);before=p.lstat()\n    if not stat.S_ISREG(before.st_mode) or p.is_symlink():raise ValueError('regular packet source required')\n    with os.fdopen(os.open(p,os.O_RDONLY|os.O_NOFOLLOW),'rb') as f:data=f.read()\n    if p.lstat()!=before:raise ValueError('source drift')\n    return {'path':str(p),'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}\n",
+      "exit_code": 1,
+      "handoff_written_by_failed_attempt": false,
+      "message": "ValueError: source drift",
+      "operation": "Final administrative source seal, before HANDOFF write",
+      "subject_executed": false,
+      "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 13, in <module>\n  File \"<stdin>\", line 13, in <listcomp>\n  File \"<stdin>\", line 10, in pin\nValueError: source drift\n"
+    }
+  ],
+  "schema": "ri144-author-diagnostics-v1",
+  "scope": "Both actual read and final-seal checker failures retained; no source/control execution occurred."
+}

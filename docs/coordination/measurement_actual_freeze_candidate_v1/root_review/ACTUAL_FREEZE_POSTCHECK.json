@@ -1,0 +1,97 @@
+{
+  "E_unchanged": true,
+  "all_complete_candidate_fields_matched": true,
+  "all_seven_independent_tails_passed": true,
+  "candidate_acceptances_issued": false,
+  "candidate_field_count": 17,
+  "candidate_fields": [
+    "claim",
+    "context",
+    "environment",
+    "evidence",
+    "expected_runtime",
+    "helpers",
+    "inputs",
+    "interpreter",
+    "limits",
+    "mode_admissions",
+    "phase",
+    "root",
+    "runs",
+    "runtime_inventory",
+    "schema",
+    "sources",
+    "status"
+  ],
+  "complete": {
+    "bytes": 176891,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/COMPLETE.json",
+    "sha256": "cbc97f695b822fd7ff12ab643d892968a951d7481c297d6fc175612d2f2c6823"
+  },
+  "complete_file_externally_included": true,
+  "elapsed_seconds": 0.796589125,
+  "final_gap_seconds": 0.029817207999999984,
+  "freeze_issued": false,
+  "genuine_tool": {
+    "bytes": 1406,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/GENUINE_TOOL.json",
+    "sha256": "6b21a0651b7103a007eacd00e913a56ce29a05b7b66c9580a0efc2ed2e827292"
+  },
+  "host_uname_unchanged": true,
+  "host_version_unchanged": true,
+  "maximum_sample_gap_seconds": 0.047170792,
+  "monitor": {
+    "bytes": 7139,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/monitor/FREEZE.COMPLETION.json",
+    "sha256": "38ba191d918bcafc98bf74d5cb58086a39d37dad7ba12fb603a8b887da245978"
+  },
+  "namespace_entries_rechecked": 195,
+  "observed_at_unix_ns": 1790825730203342000,
+  "operation_files": 3,
+  "peak_sampled_rss_kib": 64592,
+  "preflight": {
+    "bytes": 3813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "07c34546ff13eb218570e0e3f5467ae3e3305dc7d1b9148cce6f928981c5fb54"
+  },
+  "primitives_rechecked": 4,
+  "prior_role_rows_preserved": 810,
+  "request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "result": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/RESULT.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "ret_paused": true,
+  "run_field_counts": {
+    "normal": 9,
+    "optimized": 9
+  },
+  "runtime_before": {
+    "bytes": 1260480,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/RUNTIME_BEFORE.json",
+    "sha256": "26ca8cf604bb5b5feb475c9d1131524428af3c1a9f89765fdcb59cab5cb330e6"
+  },
+  "runtime_capture_executed": false,
+  "samples": 23,
+  "schema": "ri206-root-freeze-postcheck-v1",
+  "scientific_execution": false,
+  "source_supplement": {
+    "bytes": 890229,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/CLOSURE_SUPPLEMENT.json",
+    "sha256": "7ddfa836fd70598108d77a89f868f8b8a917708d969e8bad08f462fe925daf9f"
+  },
+  "sources_before": {
+    "bytes": 444524,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/SOURCES_BEFORE.json",
+    "sha256": "56991849bdb17bb95924a4881f1683756ad733f9247467bb7348100b9f79feac"
+  },
+  "sources_rechecked": 764,
+  "status": "PASS_SAVED_FREEZE_CANDIDATE_PENDING_INDEPENDENT_ROOT_REVIEW",
+  "vendor_bytes_rechecked": 48024515,
+  "vendor_files_rechecked": 1810
+}

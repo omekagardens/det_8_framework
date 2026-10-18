@@ -1,0 +1,41 @@
+{
+  "admission": {
+    "bytes": 2114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADMIT_ADAPTERS.json",
+    "sha256": "ac86cac1f9973266d84b2a1ad1b9a34e9655d897153dc264d6b0805f437389cd"
+  },
+  "bootstrap": {
+    "bytes": 2395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_BOOTSTRAP.py",
+    "sha256": "dcf864f40ab8b084ba388e445a14a1d0d025e2179cf40a8cabeafea6d8a68e45"
+  },
+  "dispatch": {
+    "bytes": 2695,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/DISPATCH.json",
+    "sha256": "b37f56196de2859e9afaf82ea8f7adbfe4d24e222b52402e5a8c9d9d8c3539a7"
+  },
+  "failed_commands": [],
+  "fresh_vendor_execution": false,
+  "preflight": {
+    "bytes": 3815,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "9a5701ceaff6757a244694f649b93a345b72ffd2338b0a9d69104c9831178787"
+  },
+  "prior_authorship": "RI130/RI141, not current proposal; original independently accepted semantics remain inherited.",
+  "reads": [
+    "79fedd exit0",
+    "83ce8c exit0"
+  ],
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri204-independent-concrete-preflight-review-v1",
+  "scientific_execution": false,
+  "scope": "Closed12 admission, exact accepted request, literal dispatch/direct vendor/ten-field environment/unchanged limits, whole bootstrap derivation, four observation pins, all810 historical roles,659 prior sources and9 supplements; full saved1810vendor/195namespace/48Efile/nine-directory records. Absent output, empty monitor/tmp.",
+  "status": "PASS_BEFORE_ROOT_FRESH_PREDISPATCH",
+  "tool": {
+    "chunk": "c692a2",
+    "exit_code": 0,
+    "fresh_source_identities": 722,
+    "predicates": 5767
+  }
+}

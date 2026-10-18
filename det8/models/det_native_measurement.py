@@ -1,27 +1,15 @@
 """
-DET-Native Pointer-Record Formation — No Kraus/POVM Borrowing
+Classical Pointer-Record Copying — Historical DET-Native API
 
-Derives measurement and pointer-record formation from pure DET primitives:
-  - Records (node states)
-  - Event graph (causal order)
-  - Law map (generates Ω from record)
-  - Commit kernel (propensities over Ω)
-  - Commit map (writes outcome to record)
+The model assumes a pre-existing binary target and a supplied noisy copying
+kernel. Repeated copies can stabilize a majority pointer. It uses no Hilbert
+space or Born rule because it models this classical readout task, not a full
+quantum measurement. The historical function names are retained for callers.
 
-No Hilbert space, no Kraus operators, no POVM, no Born rule.
-The pointer record emerges from the statistics of commit events on
-a high-dimensional apparatus coupled to the system being measured.
-
-DET-native insight:
-  Measurement is not a special process. It is a sequence of ordinary
-  commit events on a joint system (target + apparatus). The apparatus
-  has many degrees of freedom (high N). Through repeated commit events,
-  information about the target property is redundantly encoded across
-  the apparatus. The pointer record r_i is the consensus of apparatus
-  bits — a classical, stable, redundantly stored outcome.
-
-This is DET's version of decoherence/quantum Darwinism, expressed
-entirely in DET's record-kernel grammar.
+No first-outcome selection, quantum decoherence rate, quantum Darwinism,
+cross-context Born statistics or uniquely DET-derived law is established.
+Current apparatus storage is mutable; it is not an immutable event history.
+See record_process.py for the separate activity/commit/access contracts.
 """
 
 from __future__ import annotations
@@ -72,7 +60,7 @@ class MeasurementApparatus:
     def pointer_value(self) -> Optional[int]:
         """The pointer record: majority vote of committed bits.
 
-        Returns None if fewer than half the bits are committed.
+        Returns None when no bits are committed or their vote is tied.
         """
         zeros = sum(1 for b in self.bits if b.value == 0)
         ones = sum(1 for b in self.bits if b.value == 1)
@@ -121,10 +109,9 @@ class TargetSystem:
     Has a binary property (the 'system value') that the apparatus
     attempts to read out through repeated commit events.
 
-    In DET, this property is a committed record fact. It exists
-    whether or not it has been measured (Record Determinacy).
-    The measurement does not create the property; it copies it
-    into the apparatus record.
+    This classical model assumes that the target value already exists.
+    Copying it is not a derivation that every quantum observable has a
+    determinate pre-measurement value, nor a first-record formation mechanism.
     """
 
     value: int  # 0 or 1 — the system property (committed fact).
@@ -151,9 +138,9 @@ def det_native_measurement_event(
       K(bit = target.value | record) = fidelity
       K(bit ≠ target.value | record) = 1 - fidelity
 
-    This is the DET-native equivalent of a weak measurement.
-    Each event transfers one bit of (noisy) information from target
-    to apparatus.
+    This is a noisy classical copy, not a derived quantum weak instrument.
+    Each event writes a binary output; its mutual information about the
+    target need not equal one bit.
 
     DET primitives used:
     - Record: target.value and apparatus bits are committed facts.
@@ -204,21 +191,15 @@ def det_native_measure(
     fidelity: float = 0.9,
     seed: int = 42,
 ) -> dict:
-    """Perform a full DET-native measurement.
+    """Perform a full classical copying sequence (historical API name).
 
     Repeatedly applies det_native_measurement_event until all
     apparatus bits are committed. Returns the final pointer record
     and measurement statistics.
 
-    This is the DET-native equivalent of a projective measurement.
-    The pointer record emerges from the consensus of N noisy
-    single-bit commit events.
-
-    Key DET properties:
-    - The target value exists before measurement (Record Determinacy).
-    - Measurement copies the value, does not create it.
-    - Pointer strength r grows with redundancy.
-    - No collapse — just information transfer through commit events.
+    A majority pointer is computed from N noisy copies of an assumed
+    binary target. This does not construct a general projective measurement,
+    resolve collapse, or prove that pointer strength grows monotonically.
     """
     target = TargetSystem(value=target_value)
     apparatus = MeasurementApparatus(n_bits=n_bits)
@@ -257,7 +238,7 @@ def measurement_robustness_test(
     fidelity: float = 0.6,  # Barely above chance.
     seed: int = 42,
 ) -> dict:
-    """Test how robust DET-native measurement is to low fidelity.
+    """Test the supplied classical copying model at low fidelity.
 
     At fidelity = 0.6, each individual bit is only 60% reliable.
     But with N=100 bits, the consensus should be correct with
@@ -265,7 +246,7 @@ def measurement_robustness_test(
 
     This demonstrates that pointer records can be reliable even
     when individual commit events are noisy — a key feature of
-    DET-native measurement.
+    this classical record-stabilization model.
     """
     rng = random.Random(seed)
     correct_count = 0
@@ -298,47 +279,33 @@ def measurement_robustness_test(
 
 
 def compare_det_vs_qm_measurement() -> dict:
-    """Compare DET-native measurement with standard QM measurement.
+    """State the limits of a classical copying/QM comparison.
 
-    This documents the conceptual differences, not numerical ones
-    (the numerical outcomes can be calibrated to match).
-
-    DET-native features (no smuggling):
-    - Target value exists before measurement (committed record fact).
-    - Measurement copies information, does not create it.
-    - Pointer record emerges from consensus of many weak commit events.
-    - No wavefunction collapse — just information transfer.
-    - No special "measurement" category — just ordinary commit events.
-
-    Standard QM features (not in DET-native model):
-    - Superposition: target could be in |ψ⟩ = α|0⟩ + β|1⟩.
-    - Born rule: P(0) = |α|².
-    - Projection postulate: post-measurement state is |0⟩ or |1⟩.
-    - Preferred basis problem: why {|0⟩, |1⟩}?
-
-    Where DET converges with QM:
-    - If the DET commit kernel K(outcome | record) is calibrated to
-      match Born rule probabilities, the measurement statistics are
-      identical.
-    - The difference is ontological, not statistical.
+    Matching a declared readout distribution does not match all instruments,
+    incompatible settings, entangled composites or sequential experiments.
+    The quantum formalism alone does not select an interpretation of collapse.
     """
     return {
         "det_native": {
-            "target_ontology": "Committed record fact (determinate before measurement).",
+            "target_ontology": "A pre-existing binary target is assumed in this classical model.",
             "measurement_process": "Sequence of commit events copying target → apparatus.",
             "pointer_origin": "Consensus of N noisy apparatus bits.",
-            "collapse": "No collapse — just information transfer.",
-            "preferred_basis": "Determined by apparatus design (which property it couples to).",
+            "collapse": "Outside this model; classical copying does not resolve quantum collapse.",
+            "preferred_basis": "The copied binary property is supplied, not derived.",
         },
         "standard_qm": {
-            "target_ontology": "Quantum state in Hilbert space (indeterminate before measurement).",
-            "measurement_process": "Projective measurement (special non-unitary process).",
-            "pointer_origin": "Born rule applied to measurement operator eigenstates.",
-            "collapse": "Wavefunction collapse (or branching in Many-Worlds).",
-            "preferred_basis": "Determined by einselection (environment-induced superselection).",
+            "target_ontology": "Quantum state; an ontological interpretation is not fixed here.",
+            "measurement_process": "Quantum instrument; projective measurement is a special case.",
+            "pointer_origin": "Outcome probabilities and updates require a specified instrument.",
+            "collapse": "Interpretation-dependent; not settled by this comparison.",
+            "preferred_basis": "Requires a specified apparatus interaction and readout model.",
         },
         "convergence": {
-            "statistics": "Can be calibrated to match if K matches Born rule.",
-            "ontology": "Fundamentally different — DET has determinate pre-measurement facts.",
+            "statistics": (
+                "A chosen classical readout distribution can be matched; no full QM "
+                "reconstruction or cross-context equivalence follows."
+            ),
+            "ontology": "This model's binary-target assumption is not a universal DET ontology.",
         },
+        "status": "CLASSICAL_RECORD_COPYING_ONLY",
     }

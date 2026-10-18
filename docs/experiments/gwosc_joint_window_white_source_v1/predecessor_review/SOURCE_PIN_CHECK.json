@@ -1,0 +1,197 @@
+{
+  "case_ids": [
+    "W01_single_white_two",
+    "W02_single_white_three",
+    "W03_oriented_two",
+    "W04_negative_scale",
+    "W05_double_scale",
+    "W06_interval_mixed",
+    "W07_interval_crosses_zero",
+    "W08_zero_shift",
+    "W09_production_boundary_sparse",
+    "W10_usefulness_boundaries",
+    "P01_periodic_two",
+    "P02_periodic_three",
+    "P03_seven_multiplicity",
+    "P04_six_multiplicity",
+    "P05_even_nyquist_only",
+    "P06_mixed_parity",
+    "P07_dc_only_psd",
+    "P08_nonzero_interval_errors",
+    "P09_production_zero_spectra",
+    "N01_constant_mean",
+    "N02_quadratic_mean",
+    "N03_calibrated_constant",
+    "N04_covariance_error",
+    "N05_calibration_error",
+    "J01_four_rows_exact",
+    "J02_precision_inconclusive"
+  ],
+  "checked_at_utc": "2026-09-27T02:50:27.572660+00:00",
+  "fixture_execution": false,
+  "handoff": {
+    "bytes": 3467,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/HANDOFF.json",
+    "sha256": "37fb54456a46f724a46b86661ddde512564b6ed2730750e5e811500b78db28ce"
+  },
+  "predecessor_source_pins": [
+    {
+      "bytes": 31586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+    },
+    {
+      "bytes": 4667,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+      "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+    },
+    {
+      "bytes": 20218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+      "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+    },
+    {
+      "bytes": 2948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI123_ROOT_DESIGN_ADJUDICATION.json",
+      "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+    },
+    {
+      "bytes": 16652,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.md",
+      "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+    },
+    {
+      "bytes": 4033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+      "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+    },
+    {
+      "bytes": 68018,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+      "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+    },
+    {
+      "bytes": 35449,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+      "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+    },
+    {
+      "bytes": 17856,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+      "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e"
+    },
+    {
+      "bytes": 24861,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+      "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+    },
+    {
+      "bytes": 8664,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+      "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff"
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+    },
+    {
+      "bytes": 17291,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+    },
+    {
+      "bytes": 4385,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+      "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76"
+    }
+  ],
+  "published_design": {
+    "bytes": 31586,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/DESIGN.md",
+    "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+  },
+  "published_design_acceptance": {
+    "bytes": 2948,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/ROOT_ADJUDICATION.json",
+    "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+  },
+  "repository_or_git_mutation": false,
+  "runtime_or_admission_created": false,
+  "schema": "ri125-independent-source-metadata-check-v1",
+  "scientific_input_body_read": false,
+  "scope": "Source and metadata reads only. Predecessor source pins hashed opaquely; not a complete runtime/transitive-execution audit.",
+  "source_files": [
+    {
+      "bytes": 18368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CONTRACT.md",
+      "sha256": "fc36bcee88c942f1b226fccaa2089d99c9b70dda054b94a4db7f5f93a53c076c"
+    },
+    {
+      "bytes": 8155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CASES.md",
+      "sha256": "c60006616fecef90b808fab448ac52f0b19dffaa773a55052867bd577382d121"
+    },
+    {
+      "bytes": 4212,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/KERNEL_REFUSALS.md",
+      "sha256": "e3a4c09e7c498d2cad6dddbd90cd5364e4ba5894d643c6254a319de14b3cbbb0"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 4943,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREPARATION_RECORD.md",
+      "sha256": "b9bdff262feac3d0ef48c78add38d8a682d61c7da49484cf544adf7470db783a"
+    },
+    {
+      "bytes": 4098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREDECESSOR_PINS.json",
+      "sha256": "856fbf2aaef8a702b19a819938c0e6929683326c133f27b084ea4bbca0f19c3d"
+    }
+  ],
+  "status": "EXACT_SEALED_SOURCE_PINS_MATCH",
+  "target_import_compile_ast_or_execution": false,
+  "white_refusal_ids": [
+    "WK01",
+    "WK02",
+    "WK03",
+    "WK04",
+    "WK05",
+    "WK06",
+    "WK07",
+    "WK08",
+    "WK09",
+    "WK10",
+    "WK11",
+    "WK12",
+    "WK13",
+    "WK14",
+    "WK15",
+    "WK16",
+    "WK17",
+    "WK18",
+    "WK19",
+    "WK20",
+    "WK21",
+    "WK22",
+    "WK23",
+    "WK24",
+    "WK25",
+    "WK26",
+    "WK27",
+    "WK28",
+    "WK29",
+    "WK30",
+    "WK31",
+    "WK32",
+    "WK33",
+    "WK34",
+    "WK35",
+    "WK36",
+    "WK37"
+  ]
+}

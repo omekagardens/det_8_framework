@@ -1,0 +1,154 @@
+{
+  "actual_administrative_check": {
+    "additions": 21,
+    "command": "python3 -I -B check_metadata.py",
+    "current_refs": 60,
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg",
+    "dependencies": 129,
+    "exit_code": 0,
+    "historical_refs": 506,
+    "payloads": 9,
+    "report": {
+      "bytes": 88788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "sha256": "3d419beebcbf71a2679ecdcc7500b66c8e8d2b7b8405f8ca4643ab9818fcd334"
+    },
+    "retained108_except_role": true,
+    "selected_bytes": 3898981,
+    "subject_files": 10,
+    "tool_chunk": "a73eca"
+  },
+  "additional_review_observations": [
+    {
+      "boundary": "Not claimed to be in the sealed author proof. Does not compare roots, remove globally constrained Q17/Q19 coordinates, or prove the weighted budget. No successor assigned.",
+      "deduction": "Every canonical Q row is tight. For every root-i Q marking, its residual capacity divided by c_xi equals a_i^*, including zero. This strengthens at-least-one-cap attainment without assigning positive multipliers to all tight rows.",
+      "id": "O01",
+      "kind": "ADDITIONAL_REVIEWER_DEDUCTION_FOR_ROOT_ASSESSMENT_NOT_REQUIRED_REPAIR",
+      "location": "RI63 check.py483-489 and973-979; COMPLETION.md40-46; RI149 HOOK_INCIDENCE.md176-256",
+      "premises": [
+        "Q is Ferrers so defect zero and cannot meet the literal critical condition",
+        "Every noncritical canonical row has zero boundary drift",
+        "Active canonical proper components are everywhere neutral",
+        "Full Q birth has defect increment one"
+      ]
+    }
+  ],
+  "compact_publication_subset": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_CANONICAL_REVIEW.json",
+    "INDEPENDENT_CANONICAL_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "external_only_diagnostics": [],
+  "final_pin_check": {
+    "bytes": 2276,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/FINAL_PIN_CHECK.json",
+    "sha256": "433c8762b05433273c25686e3060dd474667063d997ed7eba4dd9821ed597b2a"
+  },
+  "independence": {
+    "author_of_RI149": false,
+    "author_of_native_premises": false,
+    "author_peers_not_independent_acceptance": true,
+    "prior_native_reviews": [
+      "RI138",
+      "RI140",
+      "RI143",
+      "RI145",
+      "RI147"
+    ],
+    "self_acceptance_of_WHITE": false,
+    "separate_WHITE_authorship_disclosed": true
+  },
+  "namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_CANONICAL_REVIEW.json",
+    "INDEPENDENT_CANONICAL_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "namespace_count": 7,
+  "payload_count": 6,
+  "payloads": [
+    {
+      "bytes": 2276,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/FINAL_PIN_CHECK.json",
+      "sha256": "433c8762b05433273c25686e3060dd474667063d997ed7eba4dd9821ed597b2a"
+    },
+    {
+      "bytes": 8480,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.json",
+      "sha256": "7ce0bbd96d2ca52dbc00299bb0cb3d882afb8bb6d54c795eb75d0ef863d1663b"
+    },
+    {
+      "bytes": 23281,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.md",
+      "sha256": "bb1ac2f0efff3dab374e0e5a2fa042b3b656e9a3742e79fc1c0f0dec1d247d61"
+    },
+    {
+      "bytes": 88788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "sha256": "3d419beebcbf71a2679ecdcc7500b66c8e8d2b7b8405f8ca4643ab9818fcd334"
+    },
+    {
+      "bytes": 2837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/REVIEW_DIAGNOSTICS.json",
+      "sha256": "54fe7e1c19f966a82f1d609123c52d62ebfa999f52d87bc1bd51c3c16cc2de64"
+    },
+    {
+      "bytes": 8020,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/check_metadata.py",
+      "sha256": "f2874ebfd1483f1a9224d7d948e5ab96a0e91597262cdca0fc34f65b9c428de2"
+    }
+  ],
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "recommendation": "ACCEPT_EXACT_SINGLETON_HOOK_CANONICAL_REDUCTION_WITH_WEIGHTED_FACE_GAP",
+  "remaining_actual_premise": {
+    "canonical_state": "All T_i, other neutral components, Z, reference sums and q/envelope factors remain the same correlated original canonical-law expressions; original full-vector lexicographic order retained.",
+    "joint_budget": "Both RI147 endpoint envelope comparisons must hold, or establish the exact cleared endpoint polynomials directly.",
+    "q_floor": "For an adequate b>0, prove (35/36)[p0 T0(z_star) k0(x)-p1 T1(z_star) k1(x)] >= b D3-T_core(x) for every x in the correlated actual-containing [0,Z].",
+    "v_floor": "An adequate separate quantitative fixed C4 contrast bound on v/D3 remains required."
+  },
+  "repair_findings": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg",
+  "schema": "ri149-independent-canonical-review-handoff-v1",
+  "scope": {
+    "actual_coefficient_probability_history_maximum_scale_H_z_evaluation": false,
+    "administrative_identity_checks": true,
+    "global_graph_enumeration": false,
+    "manual_analytic_review": true,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "status": "SEALED_COMPLETE_NONAUTHOR_REVIEW_FOR_ROOT_ADJUDICATION",
+  "stop": "Root alone adjudicates, publishes, admits and assigns successors. Review and predecessors now sealed; no postseal corrections.",
+  "subject_handoff": {
+    "bytes": 7499,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+    "sha256": "1471f833445c8ca4ed872737cdd8abf6660daf83d0399937b745cc959dc577cc"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "accepted_source_requirement": {
+    "bytes": 8184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+  },
+  "actual_metadata_findings": {
+    "allowed_links": 3,
+    "files": 9923,
+    "independent_complete_rehash": "passed with no discrepancy",
+    "mandatory_absences": 8,
+    "mandatory_extras": 6,
+    "mandatory_loader_bindings": 1,
+    "optional_extras": 7,
+    "optional_loader_bindings": 7,
+    "py_source_files": 4721,
+    "pyc_files": 3394,
+    "selected_present_cache_routes": 85,
+    "selected_source_routes": 53,
+    "total_bytes": 258862951
+  },
+  "files": [
+    {
+      "bytes": 8107,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/CANDIDATE_REVIEW.md",
+      "sha256": "7ed36a4f9666a4f521d512c061e9431ceb5f26930bcba4852716dae8cc2a636d"
+    },
+    {
+      "bytes": 2926,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/CAPTURE_OBSERVATIONS.json",
+      "sha256": "3738cb6877511b22264669794734bc1988c1889aa9a6cd26e77352147e353e29"
+    },
+    {
+      "bytes": 3820963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/FILE_SELECTION_METADATA.candidate.json",
+      "sha256": "23211b59946b46e5c6f051b04d67bf5f8ed178ec9f27a30371887077ae86ea74"
+    },
+    {
+      "bytes": 8296,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INDEPENDENT_METADATA_REVIEW.md",
+      "sha256": "510270fed72ab7bc5ed089b5059bfd4cdb26bfb7f60636620243abeaf27b97d6"
+    },
+    {
+      "bytes": 1057,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+      "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+    },
+    {
+      "bytes": 4056,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+      "sha256": "8d49533bb80070e02defe236348a5528bcac4f4ce23ca214f781dd612475ac1d"
+    },
+    {
+      "bytes": 2806092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/RUNTIME_INVENTORY.candidate.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    {
+      "bytes": 170354,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/SOURCE_CACHE_ROUTES.candidate.json",
+      "sha256": "be2f886575e752271ccc5a736be838bbaaf8a56c65486bd11263b3da5686de8a"
+    },
+    {
+      "bytes": 13938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/collect_metadata_candidate.py",
+      "sha256": "78f11d59e909981433c879d363be9a7761d8e8391293712cb4f1d0a219090bd6"
+    }
+  ],
+  "prohibited_actions_not_performed": [
+    "candidate Python invocation",
+    "accepted helper or scientific target import/compile/AST/probe/run",
+    "bytecode payload interpretation",
+    "production RUNTIME_INVENTORY.json/profile/freeze/admission creation",
+    "repository/index/git modifications",
+    "empirical or native scientific campaign"
+  ],
+  "remaining_prerequisites": [
+    "Root independent adjudication of candidate metadata and optional namespace/selection metadata custody; v2 does not enforce the latter separate records.",
+    "Explicit installed-supplier/cache and Apple shared-cache/kernel premises; no bytecode-equivalence or whole-OS byte-closure inference.",
+    "Fresh root-authorized actual interpreter/profile and decimal fallback/library selection verification.",
+    "Separate production inventory/admission and actual normal-before-optimized controls/scientific qualification/custody."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh",
+  "ret": "paused",
+  "schema": "ri121-reviewed-runtime-metadata-candidate-handoff-v1",
+  "status": "METADATA_CANDIDATE_INDEPENDENTLY_VERIFIED_NOT_RUNTIME_ADMITTED",
+  "tool_evidence": [
+    "bf9b1d",
+    "883303",
+    "211ea9",
+    "7b4d72",
+    "independent8f1641",
+    "independent25ee98"
+  ]
+}

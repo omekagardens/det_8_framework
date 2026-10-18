@@ -1,0 +1,912 @@
+{
+  "schema": "ri143-boundary-feasibility-subject-identities-v1",
+  "status": "SOURCE_ONLY_FEASIBILITY_NOT_ADMISSION",
+  "subject_packet": {
+    "handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+      "bytes": 6044,
+      "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+    },
+    "source_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+      "bytes": 26029,
+      "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+    },
+    "modules": {
+      "launcher": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "bytes": 60009,
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      "custody": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "collector": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "bytes": 43838,
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      }
+    },
+    "focused_design": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+      "bytes": 8969,
+      "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+    },
+    "max_attempts": {
+      "F01": 23,
+      "F02": 8,
+      "total": 31
+    }
+  },
+  "unchanged_policy_subjects": {
+    "native": {
+      "caller": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+        "bytes": 89283,
+        "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d"
+      },
+      "controls": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/native_policy_controls.py",
+        "bytes": 22580,
+        "sha256": "8c50cb0ac29385265b89fa9d5b77ee766a74e84d49b0a354f9e7d7c0603e7f25"
+      },
+      "case_count": 77,
+      "ordered_cases": [
+        {
+          "id": "D00-positive",
+          "family": "dependency",
+          "mutation": "none"
+        },
+        {
+          "id": "D01-extra-root-key",
+          "family": "dependency",
+          "mutation": "extra-root-key"
+        },
+        {
+          "id": "D02-wrong-schema",
+          "family": "dependency",
+          "mutation": "schema"
+        },
+        {
+          "id": "D03-wrong-status",
+          "family": "dependency",
+          "mutation": "status"
+        },
+        {
+          "id": "D04-promoted-scope",
+          "family": "dependency",
+          "mutation": "scope"
+        },
+        {
+          "id": "D05-empty-closure",
+          "family": "dependency",
+          "mutation": "empty"
+        },
+        {
+          "id": "D06-nonlist-closure",
+          "family": "dependency",
+          "mutation": "nonlist"
+        },
+        {
+          "id": "D07-extra-entry-key",
+          "family": "dependency",
+          "mutation": "extra-entry-key"
+        },
+        {
+          "id": "D08-role-order",
+          "family": "dependency",
+          "mutation": "role"
+        },
+        {
+          "id": "D09-relative-path",
+          "family": "dependency",
+          "mutation": "relative"
+        },
+        {
+          "id": "D10-noncanonical-path",
+          "family": "dependency",
+          "mutation": "noncanonical"
+        },
+        {
+          "id": "D11-nontext-path",
+          "family": "dependency",
+          "mutation": "nontext"
+        },
+        {
+          "id": "D12-descending-paths",
+          "family": "dependency",
+          "mutation": "descending"
+        },
+        {
+          "id": "D13-duplicate-path",
+          "family": "dependency",
+          "mutation": "duplicate"
+        },
+        {
+          "id": "D14-identity-extra-key",
+          "family": "dependency",
+          "mutation": "identity-extra"
+        },
+        {
+          "id": "D15-identity-path",
+          "family": "dependency",
+          "mutation": "identity-path"
+        },
+        {
+          "id": "D16-boolean-size",
+          "family": "dependency",
+          "mutation": "identity-bool-size"
+        },
+        {
+          "id": "D17-negative-size",
+          "family": "dependency",
+          "mutation": "identity-negative-size"
+        },
+        {
+          "id": "D18-invalid-digest",
+          "family": "dependency",
+          "mutation": "identity-digest"
+        },
+        {
+          "id": "D19-link-shape",
+          "family": "dependency",
+          "mutation": "link-shape"
+        },
+        {
+          "id": "D20-resolved-alias",
+          "family": "dependency",
+          "mutation": "alias"
+        },
+        {
+          "id": "D21-valid-link-record",
+          "family": "dependency",
+          "mutation": "link"
+        },
+        {
+          "id": "D22-empty-classification",
+          "family": "dependency",
+          "mutation": "classification"
+        },
+        {
+          "id": "D23-empty-access-policy",
+          "family": "dependency",
+          "mutation": "access-policy"
+        },
+        {
+          "id": "D24-nonlist-provenance",
+          "family": "dependency",
+          "mutation": "provenance"
+        },
+        {
+          "id": "S00-positive",
+          "family": "decision",
+          "mutation": "none"
+        },
+        {
+          "id": "S01-extra-key",
+          "family": "decision",
+          "mutation": "extra-root-key"
+        },
+        {
+          "id": "S02-missing-key",
+          "family": "decision",
+          "mutation": "missing-root-key"
+        },
+        {
+          "id": "S03-wrong-schema",
+          "family": "decision",
+          "mutation": "schema"
+        },
+        {
+          "id": "S04-wrong-status",
+          "family": "decision",
+          "mutation": "status"
+        },
+        {
+          "id": "S05-execution-promotion",
+          "family": "decision",
+          "mutation": "execution"
+        },
+        {
+          "id": "S06-execution-zero",
+          "family": "decision",
+          "mutation": "execution-zero"
+        },
+        {
+          "id": "S07-inherited-qualification",
+          "family": "decision",
+          "mutation": "inherited"
+        },
+        {
+          "id": "S08-source-role-omitted",
+          "family": "decision",
+          "mutation": "source-role"
+        },
+        {
+          "id": "S09-early-scope-before-lookup",
+          "family": "decision",
+          "mutation": "scope-and-empty-index"
+        },
+        {
+          "id": "S10-supervisor-binding",
+          "family": "decision",
+          "mutation": "binding:native_supervisor"
+        },
+        {
+          "id": "S11-auditor-binding",
+          "family": "decision",
+          "mutation": "binding:audit_caller"
+        },
+        {
+          "id": "S12-history-binding",
+          "family": "decision",
+          "mutation": "binding:history_manifest"
+        },
+        {
+          "id": "S13-runtime-binding",
+          "family": "decision",
+          "mutation": "binding:runtime_manifest"
+        },
+        {
+          "id": "S14-contract-binding",
+          "family": "decision",
+          "mutation": "binding:caller_contract"
+        },
+        {
+          "id": "S15-dependency-binding",
+          "family": "decision",
+          "mutation": "binding:dependency_manifest"
+        },
+        {
+          "id": "S16-review-reference",
+          "family": "decision",
+          "mutation": "reference:independent_review"
+        },
+        {
+          "id": "S17-ri128-reference",
+          "family": "decision",
+          "mutation": "reference:ri128_source_adjudication"
+        },
+        {
+          "id": "S18-history-reference",
+          "family": "decision",
+          "mutation": "reference:history_manifest"
+        },
+        {
+          "id": "S19-dependency-reference",
+          "family": "decision",
+          "mutation": "reference:dependency_manifest"
+        },
+        {
+          "id": "S20-missing-index-role",
+          "family": "decision",
+          "mutation": "missing-index-role"
+        },
+        {
+          "id": "R00-positive",
+          "family": "review",
+          "mutation": "none"
+        },
+        {
+          "id": "R01-wrong-schema",
+          "family": "review",
+          "mutation": "schema"
+        },
+        {
+          "id": "R02-wrong-status",
+          "family": "review",
+          "mutation": "status"
+        },
+        {
+          "id": "R03-blocking-finding",
+          "family": "review",
+          "mutation": "blocking"
+        },
+        {
+          "id": "R04-scientific-execution",
+          "family": "review",
+          "mutation": "scientific"
+        },
+        {
+          "id": "R05-execution-promotion",
+          "family": "review",
+          "mutation": "execution"
+        },
+        {
+          "id": "R06-source-role-omitted",
+          "family": "review",
+          "mutation": "source-role"
+        },
+        {
+          "id": "R07-early-scope-before-lookup",
+          "family": "review",
+          "mutation": "scope-and-empty-index"
+        },
+        {
+          "id": "R08-supervisor-binding",
+          "family": "review",
+          "mutation": "binding:native_supervisor"
+        },
+        {
+          "id": "R09-auditor-binding",
+          "family": "review",
+          "mutation": "binding:audit_caller"
+        },
+        {
+          "id": "R10-history-binding",
+          "family": "review",
+          "mutation": "binding:history_manifest"
+        },
+        {
+          "id": "R11-runtime-binding",
+          "family": "review",
+          "mutation": "binding:runtime_manifest"
+        },
+        {
+          "id": "R12-contract-binding",
+          "family": "review",
+          "mutation": "binding:caller_contract"
+        },
+        {
+          "id": "R13-dependency-binding",
+          "family": "review",
+          "mutation": "binding:dependency_manifest"
+        },
+        {
+          "id": "R14-missing-index-role",
+          "family": "review",
+          "mutation": "missing-index-role"
+        },
+        {
+          "id": "T00-positive",
+          "family": "checks",
+          "mutation": "none"
+        },
+        {
+          "id": "T01-missing-check-object",
+          "family": "checks",
+          "mutation": "missing-object"
+        },
+        {
+          "id": "T02-omitted-count",
+          "family": "checks",
+          "mutation": "omitted-count"
+        },
+        {
+          "id": "T03-extra-count",
+          "family": "checks",
+          "mutation": "extra-count"
+        },
+        {
+          "id": "T04-wrong-fixtures",
+          "family": "checks",
+          "mutation": "wrong-fixtures"
+        },
+        {
+          "id": "T05-wrong-decisions",
+          "family": "checks",
+          "mutation": "wrong-decisions"
+        },
+        {
+          "id": "T06-wrong-refusals",
+          "family": "checks",
+          "mutation": "wrong-refusals"
+        },
+        {
+          "id": "T07-boolean-fixtures",
+          "family": "checks",
+          "mutation": "boolean-fixtures"
+        },
+        {
+          "id": "T08-boolean-decisions",
+          "family": "checks",
+          "mutation": "boolean-decisions"
+        },
+        {
+          "id": "T09-boolean-refusals",
+          "family": "checks",
+          "mutation": "boolean-refusals"
+        },
+        {
+          "id": "T10-float-integer",
+          "family": "checks",
+          "mutation": "float-fixtures"
+        },
+        {
+          "id": "T11-incomplete",
+          "family": "checks",
+          "mutation": "incomplete"
+        },
+        {
+          "id": "T12-numeric-completion",
+          "family": "checks",
+          "mutation": "numeric-completion"
+        },
+        {
+          "id": "T13-inherited",
+          "family": "checks",
+          "mutation": "inherited"
+        },
+        {
+          "id": "T14-numeric-inherited",
+          "family": "checks",
+          "mutation": "numeric-inherited"
+        },
+        {
+          "id": "T15-omitted-inherited",
+          "family": "checks",
+          "mutation": "omitted-inherited"
+        }
+      ],
+      "result_contract": {
+        "keys": [
+          "id",
+          "boundary",
+          "outcome",
+          "observed",
+          "coverage_scope",
+          "whole_entry",
+          "active_acceptance_record_created",
+          "complete_caller_qualification",
+          "scientific_execution"
+        ],
+        "observed_keys": [
+          "exception_type",
+          "code",
+          "message",
+          "return_kind"
+        ],
+        "coverage_scope": "DIRECT_ACTUAL_PURE_POLICY_ONLY",
+        "true_fields": [],
+        "false_fields": [
+          "whole_entry",
+          "active_acceptance_record_created",
+          "complete_caller_qualification",
+          "scientific_execution"
+        ],
+        "expected_keys": [
+          "outcome",
+          "exception_type",
+          "code",
+          "message",
+          "return_kind"
+        ]
+      }
+    },
+    "audit": {
+      "caller": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/launch_audit.py",
+        "bytes": 103969,
+        "sha256": "74f3ef59520a7d8d360a280bcf5d5389d0e3f6c456e8f02178fbc773c4e5d60b"
+      },
+      "controls": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit_policy_controls.py",
+        "bytes": 19923,
+        "sha256": "e04a1014d91a49061ec8bde6a2b318209e12328d82d7633f076fcd77a2952548"
+      },
+      "case_count": 62,
+      "ordered_cases": [
+        {
+          "id": "AD01",
+          "family": "dependency",
+          "mutation": "positive"
+        },
+        {
+          "id": "AD02",
+          "family": "dependency",
+          "mutation": "root-extra"
+        },
+        {
+          "id": "AD03",
+          "family": "dependency",
+          "mutation": "schema"
+        },
+        {
+          "id": "AD04",
+          "family": "dependency",
+          "mutation": "status"
+        },
+        {
+          "id": "AD05",
+          "family": "dependency",
+          "mutation": "scope"
+        },
+        {
+          "id": "AD06",
+          "family": "dependency",
+          "mutation": "empty"
+        },
+        {
+          "id": "AD07",
+          "family": "dependency",
+          "mutation": "entry-extra"
+        },
+        {
+          "id": "AD08",
+          "family": "dependency",
+          "mutation": "role"
+        },
+        {
+          "id": "AD09",
+          "family": "dependency",
+          "mutation": "duplicate"
+        },
+        {
+          "id": "AD10",
+          "family": "dependency",
+          "mutation": "path"
+        },
+        {
+          "id": "AD11",
+          "family": "dependency",
+          "mutation": "identity-extra"
+        },
+        {
+          "id": "AD12",
+          "family": "dependency",
+          "mutation": "identity-bool-size"
+        },
+        {
+          "id": "AD13",
+          "family": "dependency",
+          "mutation": "alias"
+        },
+        {
+          "id": "AD14",
+          "family": "dependency",
+          "mutation": "link"
+        },
+        {
+          "id": "AD15",
+          "family": "dependency",
+          "mutation": "classification"
+        },
+        {
+          "id": "AD16",
+          "family": "dependency",
+          "mutation": "access"
+        },
+        {
+          "id": "AD17",
+          "family": "dependency",
+          "mutation": "provenance"
+        },
+        {
+          "id": "AD18",
+          "family": "dependency",
+          "mutation": "not-list"
+        },
+        {
+          "id": "AD19",
+          "family": "dependency",
+          "mutation": "not-object"
+        },
+        {
+          "id": "AS01",
+          "family": "decision",
+          "mutation": "positive"
+        },
+        {
+          "id": "AS02",
+          "family": "decision",
+          "mutation": "extra"
+        },
+        {
+          "id": "AS03",
+          "family": "decision",
+          "mutation": "missing"
+        },
+        {
+          "id": "AS04",
+          "family": "decision",
+          "mutation": "schema"
+        },
+        {
+          "id": "AS05",
+          "family": "decision",
+          "mutation": "status"
+        },
+        {
+          "id": "AS06",
+          "family": "decision",
+          "mutation": "execution-true"
+        },
+        {
+          "id": "AS07",
+          "family": "decision",
+          "mutation": "execution-zero"
+        },
+        {
+          "id": "AS08",
+          "family": "decision",
+          "mutation": "transfer-true"
+        },
+        {
+          "id": "AS09",
+          "family": "decision",
+          "mutation": "transfer-zero"
+        },
+        {
+          "id": "AS10",
+          "family": "decision",
+          "mutation": "sources"
+        },
+        {
+          "id": "AS11",
+          "family": "decision",
+          "mutation": "unclosed-review"
+        },
+        {
+          "id": "AS12",
+          "family": "decision",
+          "mutation": "zero-review"
+        },
+        {
+          "id": "AS13",
+          "family": "decision",
+          "mutation": "changed-review"
+        },
+        {
+          "id": "AS14",
+          "family": "decision",
+          "mutation": "changed-ri128"
+        },
+        {
+          "id": "AS15",
+          "family": "decision",
+          "mutation": "changed-history"
+        },
+        {
+          "id": "AS16",
+          "family": "decision",
+          "mutation": "changed-dependency"
+        },
+        {
+          "id": "AS17",
+          "family": "decision",
+          "mutation": "null-review"
+        },
+        {
+          "id": "AR01",
+          "family": "review",
+          "mutation": "positive"
+        },
+        {
+          "id": "AR02",
+          "family": "review",
+          "mutation": "schema"
+        },
+        {
+          "id": "AR03",
+          "family": "review",
+          "mutation": "status"
+        },
+        {
+          "id": "AR04",
+          "family": "review",
+          "mutation": "blockers"
+        },
+        {
+          "id": "AR05",
+          "family": "review",
+          "mutation": "science-true"
+        },
+        {
+          "id": "AR06",
+          "family": "review",
+          "mutation": "science-zero"
+        },
+        {
+          "id": "AR07",
+          "family": "review",
+          "mutation": "execution-true"
+        },
+        {
+          "id": "AR08",
+          "family": "review",
+          "mutation": "execution-zero"
+        },
+        {
+          "id": "AR09",
+          "family": "review",
+          "mutation": "sources"
+        },
+        {
+          "id": "AT01",
+          "family": "checks",
+          "mutation": "positive"
+        },
+        {
+          "id": "AT02",
+          "family": "checks",
+          "mutation": "missing-checks"
+        },
+        {
+          "id": "AT03",
+          "family": "checks",
+          "mutation": "extra-count"
+        },
+        {
+          "id": "AT04",
+          "family": "checks",
+          "mutation": "missing-count"
+        },
+        {
+          "id": "AT05",
+          "family": "checks",
+          "mutation": "bool-sign"
+        },
+        {
+          "id": "AT06",
+          "family": "checks",
+          "mutation": "string-decision"
+        },
+        {
+          "id": "AT07",
+          "family": "checks",
+          "mutation": "float-refusal"
+        },
+        {
+          "id": "AT08",
+          "family": "checks",
+          "mutation": "wrong-sign"
+        },
+        {
+          "id": "AT09",
+          "family": "checks",
+          "mutation": "wrong-decision"
+        },
+        {
+          "id": "AT10",
+          "family": "checks",
+          "mutation": "wrong-refusal"
+        },
+        {
+          "id": "AT11",
+          "family": "checks",
+          "mutation": "completed-false"
+        },
+        {
+          "id": "AT12",
+          "family": "checks",
+          "mutation": "completed-one"
+        },
+        {
+          "id": "AT13",
+          "family": "checks",
+          "mutation": "inherited-true"
+        },
+        {
+          "id": "AT14",
+          "family": "checks",
+          "mutation": "inherited-zero"
+        },
+        {
+          "id": "AT15",
+          "family": "checks",
+          "mutation": "missing-completed"
+        },
+        {
+          "id": "AT16",
+          "family": "checks",
+          "mutation": "missing-inherited"
+        },
+        {
+          "id": "AT17",
+          "family": "checks",
+          "mutation": "null-counts"
+        }
+      ],
+      "result_contract": {
+        "keys": [
+          "id",
+          "boundary",
+          "outcome",
+          "observed",
+          "expected",
+          "arguments_unchanged",
+          "coverage_scope",
+          "whole_entry",
+          "actual_target_checks_executed",
+          "complete_caller_qualification",
+          "fabricated_arguments_are_history"
+        ],
+        "observed_keys": [
+          "exception_type",
+          "code",
+          "message"
+        ],
+        "coverage_scope": "DIRECT_EXTRACTED_POLICY_ONLY",
+        "true_fields": [
+          "arguments_unchanged"
+        ],
+        "false_fields": [
+          "whole_entry",
+          "actual_target_checks_executed",
+          "complete_caller_qualification",
+          "fabricated_arguments_are_history"
+        ],
+        "expected_keys": [
+          "outcome",
+          "exception_type",
+          "code",
+          "message"
+        ]
+      }
+    }
+  },
+  "dispatcher_bindings": {
+    "dispatcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "bytes": 23248,
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    },
+    "dispatcher_subject_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+      "bytes": 23216,
+      "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+    },
+    "dispatcher_source_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+      "bytes": 11534,
+      "sha256": "748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18"
+    }
+  },
+  "selection_authority": {
+    "root_adjudication": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+      "bytes": 5028,
+      "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+    },
+    "root_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+      "bytes": 3887,
+      "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+    },
+    "root_source_check": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_CHECK.json",
+      "bytes": 19308,
+      "sha256": "f0477e553bd4bb19d8c0473d54effc6041ea063faba3395a1ee5fde6935caa3a"
+    },
+    "independent_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 15287,
+      "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+    },
+    "independent_review_note": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 22740,
+      "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+    },
+    "independent_review_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+      "bytes": 5887,
+      "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+    }
+  },
+  "source_acceptance": {
+    "status": "ACCEPT_EXACT_SOURCE_WITH_EXECUTION_PREREQUISITES",
+    "execution_admitted": false,
+    "focused_controls_executed": 0,
+    "policy_cases_executed": 0
+  },
+  "dependency_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+    "bytes": 724108,
+    "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+  },
+  "scope": {
+    "design_only": true,
+    "execution_admitted": false,
+    "subject_source_executed": false,
+    "controller_implemented": false,
+    "current_runtime_observed": false,
+    "scientific_execution": false,
+    "complete_caller_qualification": false,
+    "operational_artifacts_created": false,
+    "ri140_launcher_protocol_compatibility_claimed": false,
+    "live_web_docs_pinned": false
+  }
+}

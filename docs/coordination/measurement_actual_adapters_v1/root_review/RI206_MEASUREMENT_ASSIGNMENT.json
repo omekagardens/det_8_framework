@@ -1,0 +1,20 @@
+{
+  "owner": "/root/ri116_complete_caller_review",
+  "predecessor": {
+    "bytes": 3842,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_ACCEPTANCE.json",
+    "sha256": "21929f3fcc989233cdc0a479f7f5319ddc5458163f569dee3907a1f1965edcf9"
+  },
+  "request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "ret_paused": true,
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_",
+  "root_owns_all_git_admissions_and_acceptance": true,
+  "schema": "ri206-source-assignment-v1",
+  "status": "SOURCE_ONLY_WORKER_ASSIGNED_AFTER_RI204_ADAPTERS_ACCEPTANCE",
+  "task": "Prepare sealed source-only exact RI160 freeze-action preparation, fresh predispatch, and complete independent candidate-freeze reconstruction for root review. Reuse unchanged reviewed RI141 monitor and all current resource/custody constraints. No execution/admission/E writes.",
+  "writer": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/worker_proposal"
+}

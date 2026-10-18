@@ -1,0 +1,130 @@
+{
+  "actual_success_tool": {
+    "chunk_id": "d8ab59",
+    "exit_code": 0,
+    "wall_time_seconds": 0.756337625
+  },
+  "complete_checks": {
+    "bytes": 10229837,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/SAVED_NORMAL_CHECKS.json",
+    "sha256": "28b585aac113515afecc8094f56fd7c677007d10c872ab87b4335707aae8b3ec"
+  },
+  "complete_independent_profile_reconstruction": {
+    "bytes": 78057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/RECONSTRUCTED_PROFILE_CHECK.json",
+    "sha256": "71c42c7254657be2632f02fb37eed4f184c45f232a2d122331d0fb3ed9aa7515"
+  },
+  "independent_runtime_recapture": false,
+  "schema": "ri148-independent-normal-review-summary-v1",
+  "scientific_credit": false,
+  "status": "PASS",
+  "successful_administrative_predicates": 46449,
+  "summary": {
+    "genuine_outer": {
+      "bytes": 1444,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/GENUINE_OUTER.json",
+      "sha256": "e14554ede8b90c95461900988126a018110d71cb774756790f3e4cb96e7c352f"
+    },
+    "inherited_dependencies": 442,
+    "monitors": [
+      {
+        "arithmetic_max_residual": 2.220446049250313e-16,
+        "elapsed_seconds": 1.9935764589999998,
+        "final_sample_to_reap_gap_seconds": 0.05031454199999974,
+        "label": "PRE",
+        "maximum_sample_gap_seconds": 0.03893954199999983,
+        "peak_sampled_rss_kib": 91552,
+        "raw_attempt_count": 53,
+        "sample_count": 53,
+        "wall_seconds": 180
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 0.6655170830000001,
+        "final_sample_to_reap_gap_seconds": 0.035257915999999945,
+        "label": "PROFILE",
+        "maximum_sample_gap_seconds": 0.04508904199999986,
+        "peak_sampled_rss_kib": 17104,
+        "raw_attempt_count": 17,
+        "sample_count": 17,
+        "wall_seconds": 30
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.9193072079999998,
+        "final_sample_to_reap_gap_seconds": 0.04354054199999968,
+        "label": "POST",
+        "maximum_sample_gap_seconds": 0.03930666699999996,
+        "peak_sampled_rss_kib": 87664,
+        "raw_attempt_count": 51,
+        "sample_count": 51,
+        "wall_seconds": 180
+      }
+    ],
+    "normal_report": {
+      "bytes": 28252,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/PROFILE.stdout",
+      "sha256": "bf8e39f5a6fb27bc4224280a78036d6d1bf6970e7ad564f3a272e4986cfae241"
+    },
+    "operation_entries": 18,
+    "operation_files": 17,
+    "output_files": 16,
+    "parent_elapsed_seconds": 6.210006833,
+    "profile": {
+      "absent_cache_records": [],
+      "descriptor_counts": {
+        "binding": 113,
+        "main": 1,
+        "sentinel": 99
+      },
+      "descriptor_fields": 213,
+      "frozen_names": [
+        "_collections_abc",
+        "_frozen_importlib",
+        "_frozen_importlib_external",
+        "_sitebuiltins",
+        "abc",
+        "codecs",
+        "genericpath",
+        "io",
+        "os",
+        "os.path",
+        "posixpath",
+        "site",
+        "stat",
+        "zipimport"
+      ],
+      "hash_algorithm_names": 19,
+      "loader_counts": {
+        "ExtensionFileLoader": 5,
+        "NoneType": 1,
+        "SourceFileLoader": 30,
+        "type": 35
+      },
+      "modules": 71,
+      "observer_pin": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      },
+      "ordered_dyld_attempts": 10,
+      "predeclared_absences": 7,
+      "unique_attempted_paths": 6
+    },
+    "root_vendor_modules": 92,
+    "runtime_bytes": 258862951,
+    "runtime_files": 9923,
+    "saved_parent_pid": 54233,
+    "snapshot_bootstrap_modules": 103,
+    "source_files": 504,
+    "vendor_entries": 2004,
+    "vendor_file_bytes": 48024515,
+    "vendor_files": 1810,
+    "whole_snapshot": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    }
+  },
+  "target_execution": false
+}

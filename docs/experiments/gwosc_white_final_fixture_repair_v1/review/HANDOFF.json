@@ -1,0 +1,153 @@
+{
+  "actual_administrative_check": {
+    "additions": 42,
+    "chunk_id": "f7ec63",
+    "dependencies": 567,
+    "exit_code": 0,
+    "fresh_identities": 599,
+    "inherited_rows": 525,
+    "payloads": 30,
+    "predicates": 4167,
+    "selected_bytes": 31853372,
+    "stderr_empty": true,
+    "subject_namespace_files": 31
+  },
+  "assignment": {
+    "bytes": 2233,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "ca2da6c561cc14586ba60a797494f76983078a515a2a484b07b0766c8682a5a1"
+  },
+  "blocking_findings": [],
+  "boundaries": [
+    "No subject/control/helper import, compile, AST, probe or execution; only authenticated trusted administrative helper used by own metadata scripts",
+    "No scientific decode/evaluation, fixtures, runtime observations, operational cards/freezes/admissions",
+    "No repository/index/Git, historical edits, new agents or successor assignment",
+    "No actual106 pass, whole-entry/current-E/R01 qualification or saved scientific/arithmetic acceptance",
+    "All historical resource, genuine origin, loader/cache, supplier, normal-before-optimized, complete57/74/3 and full27/13/30 premises retained",
+    "RI131 actual-validator, actual15 WHITE/full32/public-data and physical/native-forward-map/calibration claims separate; RET paused"
+  ],
+  "compact_publication_subset": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "controls": {
+    "defined": 106,
+    "executed": 0,
+    "new": 22,
+    "retained": 84
+  },
+  "diagnostics": "Own checker succeeded first run. Author failed lookup and clipped display/recoveries remain exact pinned evidence. Own administrative source marker corrected before first run. All details retained in ACTUAL_CHECKS.",
+  "external_only_diagnostics": [
+    {
+      "bytes": 817604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/METADATA_CHECK.json",
+      "sha256": "67b5f3aadf78538adfd48c1019b5ac84ba3bff100d00ee32497a079e484cce93"
+    }
+  ],
+  "final_pin_check": {
+    "bytes": 2970,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/FINAL_PIN_CHECK.json",
+    "sha256": "0d66b26c5f2aa449946402e05d8269e431687e0fc0d4a9db939a4b1fd963930f"
+  },
+  "fresh_coverage": {
+    "adapter_lines": 289,
+    "changed_modules_complete": 2,
+    "entire_patch_reconstructed": true,
+    "integration_controls_lines": 402,
+    "new_controls_individually_traced": 22,
+    "retained_control_ids": 84,
+    "unchanged_adapter_functions": 8,
+    "unchanged_entire_executables": 10,
+    "unchanged_integration_function_bodies": 4
+  },
+  "genuine_seal_tool_outcome": "Reported separately in parent handoff; this record does not authenticate an operational process.",
+  "independence": "Nonauthor of RI160 or RI156/RI158 adapter. Earlier separate WHITE validator/caller/preparation/bootstrap authorship and RI156/RI158 independent reviewer roles disclosed; inherited accepted originals not new self-review.",
+  "namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "owner": "/root/archive_repro_review",
+  "payloads": [
+    {
+      "bytes": 2714,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/ACTUAL_CHECKS.json",
+      "sha256": "5d278068694e0812f2ceafc7b7acc4c138f27eed74467f3eece0c0baff3975f3"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/CHECK.stdout",
+      "sha256": "db1dca4b001f04ece7fe47ce12992c8b5bce5efbceb995561c7ecd227322ee7a"
+    },
+    {
+      "bytes": 2970,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/FINAL_PIN_CHECK.json",
+      "sha256": "0d66b26c5f2aa449946402e05d8269e431687e0fc0d4a9db939a4b1fd963930f"
+    },
+    {
+      "bytes": 17505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "af3de5f9af51f183f4bb1304b4c8c9a56ec089dfa7b10dca6dee9ae5984dcd88"
+    },
+    {
+      "bytes": 817604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/METADATA_CHECK.json",
+      "sha256": "67b5f3aadf78538adfd48c1019b5ac84ba3bff100d00ee32497a079e484cce93"
+    },
+    {
+      "bytes": 2389,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/VERDICT.json",
+      "sha256": "59dddefa999778701a4e0b67d29b091478c90cf418e313edb871316b5ce33021"
+    },
+    {
+      "bytes": 13198,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/check_metadata.py",
+      "sha256": "ef8bd2c92af3ac3d680584b0c5aa4a2d73d4fb6032cc4213ad289653261a789e"
+    },
+    {
+      "bytes": 6372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/seal_review.py",
+      "sha256": "5c784cf647cbc1a1357f0f13749db4f08737756a7dbba6e35e67991d3f3d52f9"
+    }
+  ],
+  "predecessor_review": {
+    "bytes": 5894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/HANDOFF.json",
+    "sha256": "02f3ef205a747dfdc096f849c1ff64a58984b10a4c3eb635e292b284a1314619"
+  },
+  "qualification_prerequisites": [
+    "Root exact-source adjudication and separate bounded actual106 admission/results/independent evidence review",
+    "R01 actual path applicability and current-environment unchanged RI141 genuine capture/baseline/profile chain",
+    "Actual normal before optimized, complete saved modes and independent fresh arithmetic reviewer",
+    "RI131 actual-validator campaign and actual15 WHITE qualification; full32 and public-data/physical interpretation remain separate"
+  ],
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_FIXTURE_CUSTODY_REPAIR_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs",
+  "root_owns_adjudication_admission_successors_and_publication": true,
+  "schema": "ri160-independent-fixture-source-review-handoff-v1",
+  "source_finding": "RI158 F02-R addressed by two whole normalized fixture comparisons from the same final scan, with full mismatch collection and retained primary/partial behavior.",
+  "subject": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  }
+}

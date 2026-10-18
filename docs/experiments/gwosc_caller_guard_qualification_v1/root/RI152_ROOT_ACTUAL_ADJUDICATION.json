@@ -1,0 +1,167 @@
+{
+  "actual_data_admitted": false,
+  "actual_initial": "318cda",
+  "actual_session": 56357,
+  "actual_terminal": "2afc57",
+  "calibration_or_native_forward_map": false,
+  "exit_code": 0,
+  "fixture_pack_check": {
+    "bytes": 619,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/FIXTURE_PACK_CHECK.json",
+    "sha256": "91f298e7cb72ed197243c74e978170b17a74ffb2997b9201b89cdace92099f59"
+  },
+  "fixture_package": {
+    "bytes": 5092348,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/FIXTURE_BYTES.json",
+    "sha256": "06be2655ce8d40cedad95d0713b2a2b21c0b99bc280ae419ee7762f691089325"
+  },
+  "full32_qualified": false,
+  "genuine_outer": {
+    "bytes": 1447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_OUTER.json",
+    "sha256": "92a68d9a38e03c0c44f59f5c25b86fc6c8db1ee62bdf124837649dcfd8808026"
+  },
+  "genuine_tools": {
+    "bytes": 2200,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "af24db5567cea769c0f8f17520d4d9ad9e1f2ef86ce50c4cfea528303aff957c"
+  },
+  "independent_complete_check": {
+    "bytes": 20804532,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SAVED_CHECK.json",
+    "sha256": "1f0334a8da5bedd6507f45ced48ba5f0d42e766c3cb65cc6e71ebb14d74334e7"
+  },
+  "independent_review": {
+    "bytes": 10237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+    "sha256": "e4a86b2ce39d575e6ba5323921c8eadf819ec38983c0d8216b7136107701abe9"
+  },
+  "independent_verdict": {
+    "bytes": 2840,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/VERDICT.json",
+    "sha256": "45770ce8217d8f85993b8f20ebff4f06a5434a18b03a191c8642958f3509d11b"
+  },
+  "refusal_evidence_limit": "Some in-memory mutated operands and exact exception messages are enforced by the pinned genuinely executed harness, not separately serialized. No independent saved exception trace is claimed.",
+  "resource_limitations": [
+    "Sole-child sampled RSS, not a hard OS quota or process-tree budget",
+    "Unchanged180s/524288KiB/25ms/100ms/50ms; parent900s soft interval excludes final COMPLETE write; genuine960s outer covers return",
+    "Stable supplier, source/cache selection, trusted host/kernel/Appleloader and genuine tool-origin premises retained"
+  ],
+  "ret_paused": true,
+  "reviewer_failure": "Original failed checker omitted full32_qualified=false and actual_data_admitted=false in its expected worker custody. Preserved original script, failed predicate dump and stderr. Only those two fields added; complete actual evidence unchanged; administrative review rerun succeeds. No target replay.",
+  "root_check_tools": {
+    "bytes": 1168,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/ROOT_CHECK_TOOL.json",
+    "sha256": "8a958de96697271860a04088ca615d915de8d847ff51c67cf39a6aa318a50a15"
+  },
+  "root_custody_check": {
+    "bytes": 1630,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/ROOT_GUARD_CHECK.json",
+    "sha256": "dab25b7b69018a3b66cf770abcf14f2ca8507832a6ccdfb422e1fa1abf384443"
+  },
+  "root_manual_review": {
+    "bytes": 2948,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/ROOT_MANUAL_GUARD_REVIEW.json",
+    "sha256": "c9273d49d043b89d6bc3e9b7d987914ab5055a62303a20d3b073a69a067f4f23"
+  },
+  "root_review_read": {
+    "bytes": 7350,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/ROOT_REVIEW_READ.json",
+    "sha256": "9318cffc1e081316723ca26fe13ed88058f1da0575743c175ba58b937d71caee"
+  },
+  "schema": "ri152-root-actual-caller-guard-adjudication-v1",
+  "scientific_targets_executed": false,
+  "source_preflight": {
+    "bytes": 6038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/PREFLIGHT_ROOT_ADJUDICATION.json",
+    "sha256": "5df480cbe7ab6f3b9e45605fbd2050c72f32b26a66296605b8adb667671f0bb7"
+  },
+  "status": "ACCEPT_GENUINE_65_NONSCIENTIFIC_CALLER_GUARDS",
+  "subject_retries": 0,
+  "summary": {
+    "genuine_outer": {
+      "bytes": 1447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GENUINE_OUTER.json",
+      "sha256": "92a68d9a38e03c0c44f59f5c25b86fc6c8db1ee62bdf124837649dcfd8808026"
+    },
+    "guard_outcomes": {
+      "cases": 65,
+      "directories": 169,
+      "failure_receipts": 12,
+      "files": 1172,
+      "fixture_entries": 1385,
+      "in_memory_refusals_source_mediated": true,
+      "metadata_stages": 18,
+      "roots": 34,
+      "scientific_credit": false,
+      "symlinks": 44,
+      "synthetic_monitor_records": 10,
+      "worker_custodies": 6
+    },
+    "guard_report": {
+      "bytes": 40109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/GUARD_REPORT.json",
+      "sha256": "52e64ae2569335dd09c904fb5eb78e77778a613b554ae07a1a82654ceb95339f"
+    },
+    "inherited_dependencies": 442,
+    "lossless_fixture_package": {
+      "bytes": 5092348,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/FIXTURE_BYTES.json",
+      "sha256": "06be2655ce8d40cedad95d0713b2a2b21c0b99bc280ae419ee7762f691089325"
+    },
+    "monitors": [
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.988206125,
+        "final_sample_to_reap_gap_seconds": 0.05015191699999999,
+        "label": "PRE",
+        "maximum_sample_gap_seconds": 0.039181375000000074,
+        "peak_sampled_rss_kib": 95680,
+        "raw_attempt_count": 52,
+        "sample_count": 52,
+        "wall_seconds": 180
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.663816541,
+        "final_sample_to_reap_gap_seconds": 0.035078582999999774,
+        "label": "GUARDS",
+        "maximum_sample_gap_seconds": 0.0392920409999995,
+        "peak_sampled_rss_kib": 36640,
+        "raw_attempt_count": 45,
+        "sample_count": 45,
+        "wall_seconds": 180
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.8955550829999996,
+        "final_sample_to_reap_gap_seconds": 0.05009195799999944,
+        "label": "POST",
+        "maximum_sample_gap_seconds": 0.039635457999999346,
+        "peak_sampled_rss_kib": 88208,
+        "raw_attempt_count": 51,
+        "sample_count": 51,
+        "wall_seconds": 180
+      }
+    ],
+    "operation_entries": 1406,
+    "operation_files": 1191,
+    "output_entries": 1403,
+    "parent_elapsed_seconds": 8.366163292,
+    "root_vendor_modules": 92,
+    "runtime_bytes": 258862951,
+    "runtime_files": 9923,
+    "saved_parent_pid": 61986,
+    "snapshot": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "snapshot_bootstrap_modules": 103,
+    "source_files": 599,
+    "vendor_entries": 2004,
+    "vendor_file_bytes": 48024515,
+    "vendor_files": 1810
+  },
+  "white_scientific_qualification": false
+}

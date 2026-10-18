@@ -1,0 +1,14 @@
+{
+  "actual_execution": false,
+  "assignment": {
+    "bytes": 2251,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI171_SUPERVISOR_QUALIFICATION_ASSIGNMENT.json",
+    "sha256": "022920bd238bf262570246467a738e2b52451b74686f011d659eb5512d692e7c"
+  },
+  "first_dispatch": "agent thread limit reached; no work credited",
+  "schema": "ri171-existing-worker-dispatch-v1",
+  "second_dispatch": "same existing worker delivery after measurement worker completion",
+  "source_only": true,
+  "worker_acknowledged": true,
+  "worker_message": "RI171 assignment and accepted RI169 decision read; reservation is empty and exclusive. Implementing finite driver/inert payload/declared fault instrumentation/separate saved-record checker."
+}

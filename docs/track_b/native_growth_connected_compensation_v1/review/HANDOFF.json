@@ -1,0 +1,42 @@
+{
+  "artifacts": [
+    {
+      "bytes": 7398,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "b2d801cdef9436b392fcfd02838e88527d310c7f16f7c70d85bc3048b342d914"
+    },
+    {
+      "bytes": 20005,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "acbf782f2a331e130750a4a1dac4f7912406b72c4e3a246ffdabeb76da267774"
+    },
+    {
+      "bytes": 27770,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/SOURCE_PIN_CHECK.json",
+      "sha256": "41337d93284ab6f6119b508d066cba971c416f7e7a4ab3e8bebb69d9eb7bb052"
+    },
+    {
+      "bytes": 2490,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/check_source_pins.py",
+      "sha256": "5595b21dcdd7ee86c39d22771f02e352ba70c880cb60435b834b455997daaaf7"
+    },
+    {
+      "bytes": 6765,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/seal_review.py",
+      "sha256": "cb28bad5f234ef967485628b8b89e453f0850aa6bb60d5e4d9f1d8867fa7d20a"
+    }
+  ],
+  "author_handoff": {
+    "bytes": 7625,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+    "sha256": "af806b93b3306c7e68fe8584250b709faaea4012f9bd28a2ac8f1fd05446bc80"
+  },
+  "blocking_findings": [],
+  "boundary": "Complete independent analytic review recommendation only. Actual C signs, local/H30 feasibility and obstruction unresolved. Root owns final adjudication/publication/successor/admission. Original files preserved.",
+  "execution_authorized": false,
+  "required_source_fixes": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB",
+  "reviewer": "/root/ri116_saved_arithmetic_review",
+  "schema": "ri127-independent-complete-proof-review-handoff-v1",
+  "status": "PASS_COMPLETE_ANALYTIC_CANCELLATION_AND_CONDITIONAL_LOCAL_POSITIVITY_ONLY"
+}

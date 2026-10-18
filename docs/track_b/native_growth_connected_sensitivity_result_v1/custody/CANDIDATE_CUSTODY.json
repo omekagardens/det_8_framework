@@ -1,0 +1,48 @@
+{
+  "audit_copy": {
+    "bytes": 233035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+    "symlinks": []
+  },
+  "copy": {
+    "bytes": 233035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+    "symlinks": []
+  },
+  "original": {
+    "bytes": 233035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+    "symlinks": []
+  },
+  "replays_admitted": false,
+  "root_witness_acceptance": {
+    "bytes": 3828,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+    "sha256": "1e290b1549872f526eac903847c843c7e742c5652ec15e89dc2ef9d4811b8b4d",
+    "symlinks": []
+  },
+  "saved_addendum": {
+    "bytes": 582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/SAVED_CERTIFICATE_ADDENDUM.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/SAVED_CERTIFICATE_ADDENDUM.json",
+    "sha256": "da0de3cb1644cc1ef7b9cef9381c9e52597958223d66884f3321c1b6def13ec8",
+    "symlinks": []
+  },
+  "schema": "ri122-exact-candidate-custody-v1",
+  "scientific_math_accepted": false,
+  "source_stdout": {
+    "bytes": 233035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+    "symlinks": []
+  },
+  "whole_bytes_equal": true
+}

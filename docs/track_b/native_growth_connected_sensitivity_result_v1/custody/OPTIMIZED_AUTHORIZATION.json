@@ -1,0 +1,8 @@
+{
+  "addendum_sha256": "da0de3cb1644cc1ef7b9cef9381c9e52597958223d66884f3321c1b6def13ec8",
+  "authorized": true,
+  "freeze_payload_sha256": "897e401890b7a5774ac643b8a0c3ffc4ae8f4d366461743ef0e5d56b7adec5de",
+  "mode": "optimized",
+  "schema": "ri84-execution-authorization-v1",
+  "supervisor_sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4"
+}

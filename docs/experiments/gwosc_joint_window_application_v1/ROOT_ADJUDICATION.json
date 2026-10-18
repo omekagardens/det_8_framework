@@ -1,0 +1,48 @@
+{
+  "accepted_symbolic_results": [
+    "Exact disjoint head/tail reduction and directed C=U H^T for the fixed first-T operator.",
+    "Complete centered white covariance, Loewner sandwich, deterministic interval propagation and sufficient new usefulness inequality.",
+    "Shared periodic-completion parity formula with factors 48/49 and 1, explicit latent mean and interval-dependency handling.",
+    "Conditional covariance-discrepancy and calibration-factor bounds with unavailable physical nuisance inputs retained."
+  ],
+  "actual_operator_contraction_performed": false,
+  "handoff": {
+    "bytes": 4667,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+    "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+  },
+  "implementation_clarifications": [
+    "The actual RI73 bound matrix field is H; H_G is notation only.",
+    "The actual RI116 scenario energy mean term field is M; Mbar is notation only. Bind literal historical keys and exact source-record identities.",
+    "Freeze every nested schema, concrete case and first-refusal code before execution; the design is not a complete executable contract."
+  ],
+  "independent_handoff": {
+    "bytes": 2523,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/HANDOFF.json",
+    "sha256": "32f53c851e459c7d911a9a86340405935a6e3f150df9870e1efc5365cd984700"
+  },
+  "independent_review": {
+    "bytes": 4033,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+    "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+  },
+  "new_target_execution_authorized": false,
+  "physical_claim": false,
+  "programme_complete": false,
+  "proposal": {
+    "bytes": 31586,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+    "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+  },
+  "ret_paused": true,
+  "root_complete_design_and_independent_review_read": true,
+  "root_manual_review": [
+    "First-T overlap orientation and disjoint short-support reduction.",
+    "Full centered covariance and Loewner lower bound; deterministic enclosure and sufficient precision ratio.",
+    "Two-phase finite periodic expectation, parity PSD weighting and raw-error dependence.",
+    "Actual full retained source bodies and exact four-scenario join; no inferred physical noise law."
+  ],
+  "schema": "ri123-root-application-design-adjudication-v1",
+  "source_only_successor": "RI125: freeze complete schemas and implement the bounded white-strip, saved-mode and deterministic join consumers plus independent validator and fixed fabricated qualifier. Separate source review precedes qualification.",
+  "status": "ACCEPT_CONDITIONAL_APPLICATION_DESIGN_ONLY"
+}

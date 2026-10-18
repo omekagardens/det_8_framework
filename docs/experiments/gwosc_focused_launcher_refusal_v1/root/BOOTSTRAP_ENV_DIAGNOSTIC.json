@@ -1,0 +1,17 @@
+{
+  "scope": "Post-refusal vendor-bootstrap environment diagnostic only; no launcher/control retry or target invocation.",
+  "invocation": {
+    "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/python3 -I -B -c 'import json,os; print(json.dumps(dict(os.environ),sort_keys=True))'",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9",
+    "login": false,
+    "yield_time_ms": 1000,
+    "max_output_tokens": 2000
+  },
+  "result": {
+    "chunk_id": "1ac11a",
+    "wall_time_seconds": 0.000008292,
+    "exit_code": 0,
+    "original_token_count": 197,
+    "output": "{\"CPATH\": \"/usr/local/include\", \"LC_ALL\": \"C\", \"LIBRARY_PATH\": \"/usr/local/lib\", \"MANPATH\": \"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:\", \"MKL_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"PATH\": \"/usr/bin:/bin\", \"SDKROOT\": \"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk\", \"TMPDIR\": \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/environment/tmp\", \"TZ\": \"UTC\", \"VECLIB_MAXIMUM_THREADS\": \"1\", \"__CF_USER_TEXT_ENCODING\": \"0x1F5:0x0:0x0\"}\n"
+  }
+}

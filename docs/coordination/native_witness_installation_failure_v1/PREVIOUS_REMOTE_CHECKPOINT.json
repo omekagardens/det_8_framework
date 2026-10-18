@@ -1,0 +1,64 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "commit": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53",
+  "commit_receipt": {
+    "chunk_id": "a97855",
+    "exit_code": 0
+  },
+  "dependency_references": 884,
+  "exact_archive_copies": 32,
+  "installation_performed": false,
+  "parent": "f22adf51c0ce948e266a2b768b0dc3b38390599c",
+  "push_initial": {
+    "chunk_id": "465b92",
+    "session_id": 88697
+  },
+  "push_terminal": {
+    "chunk_id": "84dc1f",
+    "exit_code": 0,
+    "stdout": "To https://github.com/omekagardens/det_8_framework.git\n   f22adf5..235c88f  HEAD -> ret\n"
+  },
+  "receipt_origin": "Root transcript observations; this JSON does not authenticate its own origin.",
+  "remote": "https://github.com/omekagardens/det_8_framework.git",
+  "remote_verification": {
+    "chunk_id": "869006",
+    "exit_code": 0,
+    "live_ls_remote": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53\trefs/heads/ret",
+    "local_head": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53",
+    "local_upstream": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53"
+  },
+  "schema": "ri215-verified-remote-checkpoint-v1",
+  "scientific_execution": false,
+  "scope": {
+    "bytes": 15857,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/PUBLICATION_SCOPE_FINAL.json",
+    "sha256": "b147e6a92ffeaa781a406a9be47811b73cef09d5c0f36c85b10d3a74e0c151be"
+  },
+  "scope_files": 42,
+  "source_only": true,
+  "upstream": "origin/ret",
+  "validation": [
+    {
+      "bytes": 9245,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/CHECKPOINT_FINAL_PRESTAGE.json",
+      "sha256": "ff90c060ba424d979c715ab5f53c43b0fb0d8b511d101d67a12d3ce0a76aa586"
+    },
+    {
+      "bytes": 9305,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/CHECKPOINT_FINAL_STAGED.json",
+      "sha256": "fdb925713ca76df78eec524620689baca86b1ca5a68368706392635d8e43137c"
+    },
+    {
+      "bytes": 9309,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/CHECKPOINT_FINAL_POSTCOMMIT.json",
+      "sha256": "6496efd63b2bac82ac218c4d52c5ccfd19867b02c6ca78cb2c414dac5d465460"
+    },
+    {
+      "bytes": 271,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/PUBLICATION_DEPENDENCY_CHECK.json",
+      "sha256": "4ce451ece07dca29a66b951e70e884ca18dbbf3ecce03899337429b51d7da245"
+    }
+  ],
+  "whole_unrelated_identity_and_inventory_preserved": true
+}

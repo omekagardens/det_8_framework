@@ -1,0 +1,6 @@
+{
+  "chunk": "e6c333",
+  "exit_code": 1,
+  "cause": "Root compared untrimmed literal spans against author trimEnd-plus-newline span pins. Whole-source reverse projection still uses original untrimmed slices. This corrects span framing only; no subject changes.",
+  "additional_read_diagnostic": "9a0602 exit1: absent guessed SOURCE_DEPENDENCIES.json; actual DEPENDENCY_BINDINGS.json already supplies manifest. No subject failure."
+}

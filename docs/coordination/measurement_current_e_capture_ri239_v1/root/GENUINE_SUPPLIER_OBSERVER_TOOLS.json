@@ -1,0 +1,75 @@
+{
+  "POST": {
+    "initial": {
+      "arguments": {
+        "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/observe_custody.py POST",
+        "justification": "May I save the authorized post-capture whole supplier, source and frozen-directory custody check?",
+        "max_output_tokens": 2000,
+        "sandbox_permissions": "require_escalated",
+        "yield_time_ms": 1000
+      },
+      "result": {
+        "chunk_id": "c06bef",
+        "original_token_count": 0,
+        "output": "",
+        "session_id": 54717,
+        "wall_time_seconds": 1.003377208
+      }
+    },
+    "polls": [
+      {
+        "arguments": {
+          "chars": "",
+          "max_output_tokens": 2000,
+          "session_id": 54717,
+          "yield_time_ms": 1000
+        },
+        "result": {
+          "chunk_id": "d1c464",
+          "exit_code": 0,
+          "original_token_count": 118,
+          "output": "{\"receipt\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_CUSTODY.json\", \"bytes\": 6522, \"sha256\": \"77d41d78b363ed67eeec825ded33a9a80379e12afab3b73021c8da08956753e9\"}, \"counts\": {\"comparisons\": 7249, \"whole_identities\": 2811, \"sources\": 986, \"vendor\": 1810, \"vendor_bytes\": 48024515, \"tools\": 4, \"namespaces\": 195, \"absences\": 2, \"E_files\": 49, \"E_directories\": 9, \"copy_pairs\": 48, \"history\": 124, \"targets\": 30}}\n",
+          "wall_time_seconds": 1.3084e-05
+        }
+      }
+    ]
+  },
+  "PRE": {
+    "initial": {
+      "arguments": {
+        "cmd": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/observe_custody.py PRE",
+        "justification": "May I save the authorized fresh metadata-only supplier, source, and frozen-directory preflight under the dedicated RI239 evidence directory?",
+        "max_output_tokens": 3000,
+        "sandbox_permissions": "require_escalated",
+        "workdir": "/Volumes/AI_DATA/development/det_8_framework-ret",
+        "yield_time_ms": 1000
+      },
+      "result": {
+        "chunk_id": "91113d",
+        "original_token_count": 0,
+        "output": "",
+        "session_id": 3144,
+        "wall_time_seconds": 1.003298333
+      }
+    },
+    "polls": [
+      {
+        "arguments": {
+          "chars": "",
+          "max_output_tokens": 3000,
+          "session_id": 3144,
+          "yield_time_ms": 1000
+        },
+        "result": {
+          "chunk_id": "f11ca7",
+          "exit_code": 0,
+          "original_token_count": 118,
+          "output": "{\"receipt\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json\", \"bytes\": 4686, \"sha256\": \"5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4\"}, \"counts\": {\"comparisons\": 7243, \"whole_identities\": 2811, \"sources\": 986, \"vendor\": 1810, \"vendor_bytes\": 48024515, \"tools\": 4, \"namespaces\": 195, \"absences\": 2, \"E_files\": 49, \"E_directories\": 9, \"copy_pairs\": 48, \"history\": 124, \"targets\": 30}}\n",
+          "wall_time_seconds": 1.3666e-05
+        }
+      }
+    ]
+  },
+  "origin": "Actual tool results transcribed from this root conversation; not reconstructed by running observers",
+  "schema": "ri239-genuine-supplier-observer-tools-v1"
+}

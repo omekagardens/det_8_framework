@@ -1,0 +1,179 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py	2026-09-26 19:30:21
++++ /Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/launch_audit.py	2026-09-29 22:00:59
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""RI129 prospective fixed saved-audit caller; source is not admission.
++"""RI134 prospective fixed saved-audit caller; source is not admission.
+ 
+ The immutable RI128 target and five premises are never evaluated here. Future
+ root-created binding, genuine serial custody, source applicability, freeze
+@@ -23,7 +23,7 @@
+ import time
+ 
+ 
+-E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0')
++E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde')
+ C = E/'closure'
+ B = C/'native_growth_connected_strict_sign_v1'
+ SOURCE = Path('/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv')
+@@ -41,8 +41,8 @@
+ RUNTIME = OLD_E/'RUNTIME_CLOSURE.json'
+ DEPENDENCIES = E/'SOURCE_DEPENDENCIES.json'
+ # Authored closed source metadata; this identity confers no execution authority.
+-DEPENDENCIES_BYTES = 583262
+-DEPENDENCIES_SHA256 = 'a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c'
++DEPENDENCIES_BYTES = 624320
++DEPENDENCIES_SHA256 = '80fb2a5a5f5a318208c9c6389bb7b59646ca18002b32bec01c632d33904cea9a'
+ DEPENDENCY_ENTRIES = None
+ RUNTIME_BYTES = 2862854
+ RUNTIME_SHA256 = '35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920'
+@@ -547,21 +547,8 @@
+     return result
+ 
+ 
+-def dependency_prepare():
+-    """Authenticate only the closed authored metadata; never discover new files."""
+-    global DEPENDENCY_ENTRIES
+-    if DEPENDENCY_ENTRIES is not None:
+-        return
+-    need(type(DEPENDENCIES_BYTES) is int and 0 < DEPENDENCIES_BYTES <= 64*1024*1024
+-         and hexhash(DEPENDENCIES_SHA256) and DEPENDENCIES_SHA256 != '0'*64,
+-         'preparation', 'reviewed source dependency manifest pin is unbound')
+-    identity = file_identity(DEPENDENCIES)
+-    need((identity['bytes'], identity['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
+-         'dependency', 'reviewed source dependency manifest changed')
+-    raw = DEPENDENCIES.read_bytes()
+-    need(len(raw) == DEPENDENCIES_BYTES and sha256(raw).hexdigest() == DEPENDENCIES_SHA256,
+-         'dependency', 'source dependency bytes changed before metadata parse')
+-    value = strict_json(raw)
++def validate_dependency_payload(value):
++    """Pure extracted payload policy; this grants no file authenticity."""
+     exact_keys(value, ('schema', 'status', 'protected_files', 'scope'),
+                'dependency', 'static source dependency manifest')
+     need(value['schema'] == 'ri129-source-dependencies-v1'
+@@ -591,6 +578,25 @@
+              'dependency', 'static dependency provenance field types differ')
+         previous = path
+         entries.append(entry)
++    return entries
++
++
++def dependency_prepare():
++    """Authenticate only the closed authored metadata; never discover new files."""
++    global DEPENDENCY_ENTRIES
++    if DEPENDENCY_ENTRIES is not None:
++        return
++    need(type(DEPENDENCIES_BYTES) is int and 0 < DEPENDENCIES_BYTES <= 64*1024*1024
++         and hexhash(DEPENDENCIES_SHA256) and DEPENDENCIES_SHA256 != '0'*64,
++         'preparation', 'reviewed source dependency manifest pin is unbound')
++    identity = file_identity(DEPENDENCIES)
++    need((identity['bytes'], identity['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
++         'dependency', 'reviewed source dependency manifest changed')
++    raw = DEPENDENCIES.read_bytes()
++    need(len(raw) == DEPENDENCIES_BYTES and sha256(raw).hexdigest() == DEPENDENCIES_SHA256,
++         'dependency', 'source dependency bytes changed before metadata parse')
++    value = strict_json(raw)
++    entries = validate_dependency_payload(value)
+     same(file_identity(DEPENDENCIES), identity, 'source dependency manifest changed during preparation')
+     DEPENDENCY_ENTRIES = tuple(entries)
+ 
+@@ -870,6 +876,33 @@
+          'prerequisite', 'RI128 accepted source-only boundary differs')
+ 
+ 
++def validate_source_decision_payload(decision, sources, known):
++    """Pure current-source policy over already constructed identities."""
++    exact_keys(decision, ('schema', 'status', 'accepted_sources', 'independent_review',
++                         'ri128_source_adjudication', 'history_manifest', 'dependency_manifest', 'execution_authorized',
++                         'qualification_transferred_to_changed_targets'), 'prerequisite', 'RI129 source decision')
++    need(decision['schema'] == 'ri129-root-caller-source-adjudication-v1'
++         and decision['status'] == 'ACCEPT_EXACT_NATIVE_CALLER_SOURCE_ONLY'
++         and decision['execution_authorized'] is False
++         and decision['qualification_transferred_to_changed_targets'] is False,
++         'prerequisite', 'RI129 source decision is not exact source-only acceptance')
++    same(decision['accepted_sources'], sources, 'RI129 accepted source set differs')
++    for key, path in (('independent_review', E/'INDEPENDENT_SOURCE_REVIEW.json'),
++                      ('ri128_source_adjudication', RI128_DECISION), ('history_manifest', HISTORY),
++                      ('dependency_manifest', DEPENDENCIES)):
++        require_ref(decision[key], path, known)
++
++
++def validate_source_review_payload(review, sources):
++    """Pure independent-review policy, not independent review provenance."""
++    need(review.get('schema') == 'ri129-independent-complete-caller-source-review-v1'
++         and review.get('status') == 'PASS_COMPLETE_SOURCE_REVIEW_ONLY'
++         and review.get('blocking_findings') == [] and review.get('scientific_execution') is False
++         and review.get('execution_authorized') is False,
++         'prerequisite', 'complete independent source review absent')
++    same(review.get('sources'), sources, 'independent source set differs')
++
++
+ def verify_source_cards(before, known):
+     runtime_file_prerequisites(known)
+     for role, original, copy, count, checksum in PAIRS:
+@@ -897,26 +930,9 @@
+                'caller_contract': known[str(E/'CALLER_CONTRACT.md')],
+                'dependency_manifest': known[str(DEPENDENCIES)]}
+     decision = metadata(E/'ROOT_SOURCE_ADJUDICATION.json')
+-    exact_keys(decision, ('schema', 'status', 'accepted_sources', 'independent_review',
+-                         'ri128_source_adjudication', 'history_manifest', 'dependency_manifest', 'execution_authorized',
+-                         'qualification_transferred_to_changed_targets'), 'prerequisite', 'RI129 source decision')
+-    need(decision['schema'] == 'ri129-root-caller-source-adjudication-v1'
+-         and decision['status'] == 'ACCEPT_EXACT_NATIVE_CALLER_SOURCE_ONLY'
+-         and decision['execution_authorized'] is False
+-         and decision['qualification_transferred_to_changed_targets'] is False,
+-         'prerequisite', 'RI129 source decision is not exact source-only acceptance')
+-    same(decision['accepted_sources'], sources, 'RI129 accepted source set differs')
+-    for key, path in (('independent_review', E/'INDEPENDENT_SOURCE_REVIEW.json'),
+-                      ('ri128_source_adjudication', RI128_DECISION), ('history_manifest', HISTORY),
+-                      ('dependency_manifest', DEPENDENCIES)):
+-        require_ref(decision[key], path, known)
++    validate_source_decision_payload(decision, sources, known)
+     review = metadata(E/'INDEPENDENT_SOURCE_REVIEW.json')
+-    need(review.get('schema') == 'ri129-independent-complete-caller-source-review-v1'
+-         and review.get('status') == 'PASS_COMPLETE_SOURCE_REVIEW_ONLY'
+-         and review.get('blocking_findings') == [] and review.get('scientific_execution') is False
+-         and review.get('execution_authorized') is False,
+-         'prerequisite', 'complete independent source review absent')
+-    same(review.get('sources'), sources, 'independent source set differs')
++    validate_source_review_payload(review, sources)
+     for doc in (decision, review):
+         bind_refs(doc, known)
+ 
+@@ -1132,6 +1148,19 @@
+             bind_refs(value, known)
+ 
+ 
++def validate_current_target_checks(value):
++    """Pure exact typed check policy; does not establish actual execution."""
++    checks = value.get('current_target_checks')
++    exact_keys(checks, ('sign_fixtures', 'internal_decision_cases', 'intended_first_refusals'),
++               'prerequisite', 'completed current-target check counts')
++    need(all(type(checks[key]) is int for key in checks)
++         and checks == {'sign_fixtures': 15, 'internal_decision_cases': 4,
++                        'intended_first_refusals': 71}
++         and value.get('current_target_checks_completed') is True
++         and value.get('changed_target_qualification_inherited') is False,
++         'prerequisite', 'actual current-target checks absent or old qualification credited')
++
++
+ def validate_mode_custodies(before):
+     """Require actual serial root/independent custody and genuine tool records."""
+     known = refmap(before)
+@@ -1242,15 +1271,7 @@
+                  and value.get('terminal_owned_group_absent') is True and value.get('native_arithmetic_recomputed') is False
+                  and value.get('native_mathematics_accepted') is False and value.get('programme_complete') is False,
+                  'prerequisite', 'root or independent completed-mode review differs')
+-            checks = value.get('current_target_checks')
+-            exact_keys(checks, ('sign_fixtures', 'internal_decision_cases', 'intended_first_refusals'),
+-                       'prerequisite', 'completed current-target check counts')
+-            need(all(type(checks[key]) is int for key in checks)
+-                 and checks == {'sign_fixtures': 15, 'internal_decision_cases': 4,
+-                                'intended_first_refusals': 71}
+-                 and value.get('current_target_checks_completed') is True
+-                 and value.get('changed_target_qualification_inherited') is False,
+-                 'prerequisite', 'actual current-target checks absent or old qualification credited')
++            validate_current_target_checks(value)
+             for key, path in (('source_adjudication', E/'ROOT_SOURCE_ADJUDICATION.json'),
+                               ('applicability', paths[name+'_applicability']), ('genuine_outer', paths[name+'_tool_completion']),
+                               ('root_admission', paths[name+'_root_admission']), ('freeze', paths[name+'_freeze']),

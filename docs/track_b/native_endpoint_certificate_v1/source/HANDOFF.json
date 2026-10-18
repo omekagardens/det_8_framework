@@ -1,0 +1,135 @@
+{
+  "schema": "ri187-same-law-endpoint-source-handoff-v1",
+  "status": "SEALED_AUTHOR_CONDITIONAL_CERTIFICATE_AND_LOWER_LAW_GAP_PENDING_INDEPENDENT_REVIEW",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI187_NATIVE_ASSIGNMENT.json",
+    "bytes": 2600,
+    "sha256": "a3c6c47ed986549aa1297b63b698b0c8c1ebc16397c0e91f11146a97c49c63c8"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_ROOT_ADJUDICATION.json",
+    "bytes": 1184,
+    "sha256": "83150c64a6ebd4061ae3b49d3e18fd10bc8f238f77d37be5b3c460626ed514eb"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "direct_predecessor_manual_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_ROOT_PROOF_REVIEW.md",
+    "bytes": 4899,
+    "sha256": "33eb7be2143366aaab7020246ea187ea0e14f1fb3bb6bc56c21363bc6102d3fc"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "DEPENDENCY_NOTES.md",
+    "ENDPOINT_CERTIFICATE.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "LOWER_LAW_TRACE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/AUTHOR_VERIFICATION.json",
+      "bytes": 24989,
+      "sha256": "0227c1996ff8287303a31ee18565da49ac7d9202876c803cfc630ef25dd31ae2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/DEPENDENCY_NOTES.md",
+      "bytes": 19286,
+      "sha256": "d6744f2b2fa23d164cdba14ff7fec0e2f5a8e328926ae4389ab007bd3c8b0fa6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+      "bytes": 13499,
+      "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/HANDOFF.md",
+      "bytes": 3188,
+      "sha256": "2eaadb5d9f41333c50da8ba10ddd52866d68664cf3c8b1bd2f1b4bae2f6025c2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+      "bytes": 11631,
+      "sha256": "3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/SOURCE_DEPENDENCIES.json",
+      "bytes": 333463,
+      "sha256": "b16a93b187288d49c4c49ff5d067f49e50c2eda55c3d8aef02b0528ddba88045"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/SOURCE_IDENTITIES.json",
+      "bytes": 113498,
+      "sha256": "26772564c1f32c17768d661223d1cb1f318588fc6187d4cf18c361ab66129f70"
+    }
+  ],
+  "question": "At D=83+72theta,Z6=6/D,B6=72lambda*j0/(D-6), establish actual v>B6 and H6>=0 or identify a concrete same-law lower-prefix comparison beyond endpoint equivalence.",
+  "result": {
+    "positive_decomposition": "q(z)=(1-z)^2*q0+z*(2-z)*q(1)-z*(1-z)*q'(1)",
+    "strict_bounds": "(1-z)^2*q0<q(z)<q0 for0<z<1",
+    "new_sufficient_certificate": "C0=K*(K*v-72lambda*j0)*q0-432lambda*G_*v>=0, K=D-6",
+    "exact_correction": "D^2*H6=C0+(v-B6)*[12(D-3)*q(1)-6K*q'(1)]",
+    "certificate_implication": "C0>=0 alone forces the strict v>B6 branch and H6>0, even at C0=0.",
+    "full_lower_law_form": "K*[K*theta*b0^3*A-72delta*J*j0]*R0>=432theta^4*delta*J*c0^2*c1*A; v=theta*A, lambda=delta*J/b0^3, R0=c0*c1*q0>0 with all marked canonical positive parts and minima.",
+    "sharper_necessary_amplification": "v>B6 implies [(p1-p0)_++(s1-s0)_+]/(b0-b1)>508644/3875>131; reverse weak premise forces v<B6 strictly.",
+    "missing_actual_comparison": "Actual C0/lower-law certificate sign and marked contrast amplification remain unproved; the signed neutral-row floor is not known positive or adequate.",
+    "conditional_certificate_is_exact_endpoint_iff": false,
+    "source_only_incomplete_completion_allowed_by_assignment": true
+  },
+  "positive_quadratic_decomposition_proved": true,
+  "single_conditional_sufficient_certificate_proved": true,
+  "strict_branch_amplification_necessary_bound_proved": true,
+  "full_canonical_substitution_retained": true,
+  "historical_finite_sign_premise_explicit": true,
+  "new_historical_mathematical_path_added": false,
+  "actual_C0_sign_decided": false,
+  "endpoint_comparison_decided": false,
+  "actual_W_sign_claimed": false,
+  "actual_109_vector_read": false,
+  "scientific_execution": false,
+  "standalone_general_DET_derivation_claimed": false,
+  "fixed_law_counterexample_by_independent_variation_claimed": false,
+  "actual_H30_or_other_eight_parents_decided": false,
+  "sources": {
+    "files": 361,
+    "bytes": 21655525,
+    "inherited_rows_unchanged_except_role": 349,
+    "inherited_boundary_objects_preserved": 9,
+    "historical_typed_references": 5713,
+    "current_typed_references": 199,
+    "historical_extended_state_noncomparisons": 17,
+    "separate_byte_equal_pairs": 4,
+    "new_RI185_author_record_opaque": true
+  },
+  "actual_preseal_check": {
+    "tool": "244691",
+    "exit_code": 0,
+    "stage": "preseal6",
+    "fresh_identities": 367,
+    "provenance_is_not_mathematical_acceptance": true
+  },
+  "author_record_identity_check": {
+    "tool": "e5574f",
+    "exit_code": 0
+  },
+  "final8_check_boundary": "Must be run after this file is written. Its actual result is reported separately; not preclaimed inside the seal.",
+  "retained_obligations": "P2/P3,Y=1/4,31/139/20/42,shared T1,other eight parents,five Di,theta/M5,strict endpoints,all canonical corrections and every labeled occurrence.",
+  "stop": {
+    "source_author_stops_at_this_handoff": true,
+    "independent_root_review_required": true,
+    "root_owns_publication_Git_successor_and_execution_admission": true,
+    "RET_paused": true,
+    "measurement_RI186_separate": true,
+    "qualification_separate": true,
+    "no_new_agent_thread_or_historical_source": true,
+    "no_numerical_symbolic_engine_science_decode_target_import_compile_AST_probe_run": true,
+    "no_runtime_profile_card_fixture_admission": true,
+    "repository_index_Git_unchanged": true,
+    "no_full_QM_geometry_gravity_mass_physical_or_ontological_promotion": true
+  }
+}

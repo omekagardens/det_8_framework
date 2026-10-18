@@ -1,0 +1,1079 @@
+{
+  "schema": "ri143-f02-boundary-feasibility-v1",
+  "status": "SOURCE_ONLY_BLOCKED_QUALIFICATION_DESIGNS",
+  "scope": {
+    "execution_authorized": false,
+    "controller_created": false,
+    "subject_or_helper_executed": false,
+    "runtime_observed": false,
+    "scientific_execution": false,
+    "operational_cards_created": false,
+    "immutable_subject_modified": false,
+    "new_policy_cases": false,
+    "limits_relaxed": false,
+    "ret_paused": true
+  },
+  "case_count": 8,
+  "original_scenario_count": 7,
+  "focused_attempts_executed": 0,
+  "policy_cases_executed": 0,
+  "disposition": "All eight current qualification designs blocked by stated evidence/mechanism gaps; F02-7 separately source-feasible naturally. Not a blanket impossibility theorem or merely a missing-permission finding.",
+  "sources": {
+    "root_decision": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+      "bytes": 5028,
+      "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+    },
+    "root_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+      "bytes": 3887,
+      "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+    },
+    "independent_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+      "bytes": 5887,
+      "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+    },
+    "independent_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 22740,
+      "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+    },
+    "independent_result": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 15287,
+      "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+    },
+    "owned_process": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "bytes": 43838,
+      "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+    },
+    "focused_design": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+      "bytes": 8969,
+      "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+    },
+    "root_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/ROOT_INTERFACE_CONTRACT.md",
+      "bytes": 15005,
+      "sha256": "b47225767ebab5822fbca8d40727fe57fed577b054c6a52606d030a5cee0c34b"
+    },
+    "dispatcher": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "bytes": 23248,
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    }
+  },
+  "read_scope": {
+    "complete": [
+      "root_decision",
+      "root_review",
+      "independent_handoff",
+      "independent_review",
+      "independent_result",
+      "owned_process",
+      "focused_design",
+      "root_contract",
+      "dispatcher"
+    ],
+    "additional_literal_read": "RI140 launch_policy_case.py lines 780–1040 only; no new whole-launcher/custody review claimed.",
+    "no_runtime_body_read": true
+  },
+  "limits": {
+    "parent_wall_seconds": 840,
+    "child_wall_seconds": 120,
+    "child_cleanup_reserve_seconds": 2,
+    "census_timeout_ms": 250,
+    "sampled_group_rss_bytes": 536870912,
+    "intended_sample_interval_ms": 50,
+    "each_child_stream_bytes": 8388608,
+    "auxiliary_bytes": 67108864,
+    "no_retry": true,
+    "no_hidden_hold_or_handshake": true
+  },
+  "record_rules": [
+    "Error order follows actual stored occurrences, not desired controller timing or a terminal exception label.",
+    "A source-selected original pipe error is first only if no prior first_error exists; F02-5 deliberately requires an earlier census cause.",
+    "Same-owner exact RecordedPipeFailure propagates the original stored record without a duplicate label; references must equal its phase and actual monotonic_ns.",
+    "Listed later records are an ordered subsequence; genuine other errors cannot be erased. Missing/omitted detail and failed required persistence invalidate passing focused evidence.",
+    "Captured E_R/E_W/E_U/E_C type/message must be independently observed then matched to the exact bounded source projection. No errno/type/message is fabricated by this design.",
+    "Expected focused failure remains a failing actual RI140 outer outcome, not a successful one of 139 policy results."
+  ],
+  "independent_evidence_requirements": [
+    "Exact immutable subject/runtime/bootstrap bindings, literal command/case and complete custody.",
+    "Independently authenticated observer/fault supplier if needed, bounded within original limits and with its own real output/cleanup provenance.",
+    "Actual parent/child/helper identity, FD generation and pipe-versus-sink role.",
+    "True syscall returns and precise Python method return/exception boundary, not inferred solely from errno or subject label.",
+    "Original retained raw prefix and writer identity, real primary/later journal chronology and matching propagation references.",
+    "Actual remaining deadlines, applicable independent after-custody attempts, returned late errors/exception, terminal real tool completion; no synthesized missing tails."
+  ],
+  "cases": [
+    {
+      "id": "F02-1-UNREGISTER",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "The selected child stdout key reaches os.read after the pump guards. The actual read raises an ordinary non-BlockingIOError E_R; no read label alone establishes this.",
+        "The same stream remains identifiable after close_pipe pops it; unregister must genuinely raise E_U. Close must still be attempted independently; any additional close error remains visible."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "the selected actual os.read raises ordinary non-BlockingIOError E_R",
+          "boundary": "Owner.pump -> fail_pipe",
+          "record_phase": "pipe-read-child-stdout",
+          "type_and_message": "Exact externally observed E_R projection; first only absent earlier error",
+          "target_reached": true
+        },
+        {
+          "condition": "unregister then raises E_U",
+          "boundary": "Owner.close_pipe",
+          "record_phase": "pipe-unregister-child-stdout",
+          "type_and_message": "Exact externally observed E_U projection; later than E_R",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-1",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "CONDITIONAL_EXCEPTION_BRANCH; paired boundary control and independent observation unestablished.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 293,
+          "purpose": "Independent pipe cleanup and record-before-close helper"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 295,
+          "end_line": 317,
+          "purpose": "Actual os.read and ordinary exception branch"
+        }
+      ],
+      "actual_boundary": "Owner.pump: os.read(key.fd, max(1, amount)) raises E_R on the registered child stdout pipe; Owner.fail_pipe records it before Owner.close_pipe; selector.unregister(stream) raises E_U; stream.close is independently attempted.",
+      "proposed_mechanism": "An external source/runtime-bound real read-operation failure followed by a separately located Python unregister failure; no named available provider is established.",
+      "expected_target_record": {
+        "symbol": "E_R",
+        "phase": "pipe-read-child-stdout",
+        "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+        "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+        "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+      },
+      "first_error_rule": "E_R is first only if no earlier error exists; any actual earlier error remains first.",
+      "expected_later_records": [
+        {
+          "symbol": "E_U",
+          "phase": "pipe-unregister-child-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_independent_boundary": "Independent stream.close attempt must be observed. If close additionally fails, retain its real later error; no successful close is required by this selected unregister-failure variant, and E_C cannot substitute for E_U.",
+      "propagation_rule": "Same-owner exact RecordedPipeFailure adds no second owned-body/census/independent-cleanup occurrence of E_R; applicable census references match E_R phase and monotonic_ns.",
+      "observables": [
+        "Independent PID/FD-generation/stream mapping and real read result/exception.",
+        "Independent evidence that the Python unregister call raised E_U; kernel errno alone is insufficient.",
+        "Original error journal has E_R before E_U, original captures and close/reap/after-custody attempts retained."
+      ],
+      "blockers": [
+        "No authenticated boundary observer/fault supplier has been shown to cause both actual exceptions without subject/global replacement.",
+        "Pinned selectors/runtime behavior mapping a kernel fault to the method exception is unestablished; direct exception injection is not independent evidence."
+      ],
+      "minimum_additional_premise": "A reviewed, source-bound host fault/observation facility with exact descriptor identity and syscall-to-Python propagation evidence for both operations, all original bounds/custody retained.",
+      "rejected_substitutes": [
+        "TERM delivery as proof of os.read failure",
+        "subject pipe-read label alone",
+        "errno from a different fd or process",
+        "assuming unregister raised because the kernel fd was closed"
+      ]
+    },
+    {
+      "id": "F02-1-CLOSE",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "The selected child stdout read must actually raise non-BlockingIOError E_R after the pump guards.",
+        "Unregister is independently attempted; stream.close must genuinely raise E_C afterward. An additional actual unregister failure is retained, not suppressed or miscredited as E_C."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "selected read raises ordinary non-BlockingIOError E_R",
+          "boundary": "Owner.pump -> fail_pipe",
+          "record_phase": "pipe-read-child-stdout",
+          "type_and_message": "Exact externally observed E_R projection",
+          "target_reached": true
+        },
+        {
+          "condition": "selected pipe close raises E_C after the independent unregister attempt",
+          "boundary": "Owner.close_pipe",
+          "record_phase": "pipe-close-child-stdout",
+          "type_and_message": "Exact externally observed E_C projection; any actual E_U is separately retained",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-1",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "CONDITIONAL_EXCEPTION_BRANCH; real paired read/close failure mechanism unestablished.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 293,
+          "purpose": "Separate unregister and stream.close"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 295,
+          "end_line": 317,
+          "purpose": "Read exception origin"
+        }
+      ],
+      "actual_boundary": "Actual child stdout os.read raises E_R; after recording it, selector.unregister is independently attempted and stream.close raises E_C on that same pipe object. Any additional actual unregister error remains separately visible.",
+      "proposed_mechanism": "Selective real read fault and separately targeted pipe close fault, with independent Python-level exception observation; no provider has been justified.",
+      "expected_target_record": {
+        "symbol": "E_R",
+        "phase": "pipe-read-child-stdout",
+        "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+        "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+        "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+      },
+      "first_error_rule": "E_R first absent an actual earlier error; never reset an existing first_error.",
+      "expected_later_records": [
+        {
+          "symbol": "E_C",
+          "phase": "pipe-close-child-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_independent_boundary": "Actual selector.unregister attempt and its outcome, not a missing error label. Successful unregister is not an additional requirement of this selected read-plus-close pair; any extra E_U is retained.",
+      "propagation_rule": "The existing original record passes through outer handlers once; token identity is not an additional primary.",
+      "observables": [
+        "Real read exception on exact parent-owned child pipe fd.",
+        "Independent unregister attempt/outcome and failing pipe close observed in order; any extra unregister error is retained.",
+        "Retained raw prefix, E_R then E_C, all later genuine errors and required external completion/custody."
+      ],
+      "blockers": [
+        "Ordinary signal, writer termination or pipe EOF does not establish E_R.",
+        "A sink-file close or another process's same-number fd is not the pipe close boundary; exact runtime close propagation remains unestablished."
+      ],
+      "minimum_additional_premise": "A reviewed selective read/pipe-close fault facility with a complete unchanged-runtime boundary witness and unaffected evidence persistence.",
+      "rejected_substitutes": [
+        "Closing a descriptor only in the controller process",
+        "clean EOF labeled a read error",
+        "stdout.log sink close substituted for child stdout pipe close",
+        "fabricated E_C receipt"
+      ]
+    },
+    {
+      "id": "F02-2",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "A real positive child stdout read reaches Sink.append; the output sink is open and the data slice is within its remaining cap.",
+        "At least one genuine positive os.write count has already updated the original writer prefix/hash before a later actual os.write raises E_W.",
+        "The same child stream then undergoes independently observed unregister E_U and close E_C; required journal persistence must not be the first induced failure."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "read raises an ordinary non-BlockingIOError before any real positive write prefix",
+          "boundary": "Owner.pump os.read",
+          "record_phase": "pipe-read-child-stdout",
+          "type_and_message": "Actual read exception; not the selected partial-write target",
+          "target_reached": false
+        },
+        {
+          "condition": "sink is unavailable or its limit would be exceeded before writing",
+          "boundary": "Sink.append pre-write checks",
+          "type": "CollectionFailure",
+          "message_options": [
+            "write to unavailable evidence sink: <actual path>",
+            "evidence sink byte ceiling: <actual path>"
+          ],
+          "target_reached": false
+        },
+        {
+          "condition": "the selected later os.write raises E_W after an actual positive prefix",
+          "boundary": "Sink.append -> Owner.pump -> fail_pipe",
+          "record_phase": "pipe-write-child-stdout",
+          "type_and_message": "Exact externally observed E_W projection",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-2",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout and its stdout.log sink",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "CONDITIONAL_MULTI_OPERATION_BRANCH; partial write and two cleanup exceptions unestablished.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 138,
+          "end_line": 157,
+          "purpose": "Sink.append positive os.write prefix updates"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 293,
+          "purpose": "Cleanup ordering"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 323,
+          "end_line": 332,
+          "purpose": "Child sink-write failure origin"
+        }
+      ],
+      "actual_boundary": "A genuine child read supplies data; Sink.append successfully writes a positive prefix to stdout.log, then a later os.write raises E_W. fail_pipe stores pipe-write-child-stdout before selector.unregister raises E_U and pipe stream.close raises E_C.",
+      "proposed_mechanism": "A selectively located short-write-then-write-error at the real sink fd, followed by actual independent unregister and pipe-close faults; no approved supplier or construction exists.",
+      "expected_target_record": {
+        "symbol": "E_W",
+        "phase": "pipe-write-child-stdout",
+        "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+        "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+        "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+      },
+      "first_error_rule": "E_W first only absent earlier errors; real preceding journal/resource faults cannot be erased.",
+      "expected_later_records": [
+        {
+          "symbol": "E_U",
+          "phase": "pipe-unregister-child-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        },
+        {
+          "symbol": "E_C",
+          "phase": "pipe-close-child-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_successful_boundary": "At least one actual positive os.write return before E_W; the retained prefix length/hash correspond to those real returns, not declared counters.",
+      "propagation_rule": "No duplicate write occurrence under outer handler phases. Both cleanup attempts remain independent even when unregister fails.",
+      "observables": [
+        "Original child read bytes, target output-sink fd and positive write count(s), then actual write exception.",
+        "Independent Python unregister and pipe-close exceptions in that order.",
+        "Original writer byte count/hash and final available raw-prefix identity, durable original error journal, complete failure-tail evidence."
+      ],
+      "blockers": [
+        "No bounded selective three-fault mechanism retaining real partial bytes and independent error-journal persistence has been established.",
+        "Changing already-open path permissions is not proof of a failed write; global storage exhaustion may fail required journals/custody first.",
+        "Changing sink.written/hash or injecting a synthetic write return replaces the subject boundary."
+      ],
+      "minimum_additional_premise": "A source-bound operation-selective host fault facility that independently proves the real positive write prefix and subsequent write/unregister/close exceptions without corrupting evidence suppliers.",
+      "rejected_substitutes": [
+        "Prewritten prefix fixture",
+        "modified Sink counters/hash",
+        "fabricated short-write return",
+        "uncontrolled filesystem-wide exhaustion presented as isolated qualification"
+      ]
+    },
+    {
+      "id": "F02-3",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "A permitted unchanged-subject producer must genuinely supply more than 8388608 bytes on the selected stream; no such normal-envelope route is presently established.",
+        "The collector must have retained exactly 8388608 bytes successfully and then really read the next byte before its original deadline; the byte witness must come from that child stream.",
+        "The resulting overflow precedes an independently observed E_C from pipe close; extra unregister errors, if any, remain visible."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "attempted single normal RI136 envelope is larger than its fixed cap",
+          "boundary": "RI136 execute_one require before stream.write",
+          "type": "Refused",
+          "message": "qualification output exceeds fixed cap",
+          "target_reached": false,
+          "meaning": "This prevents that normal envelope from supplying the collector overflow; no universal exceptional-concatenation theorem is claimed."
+        },
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "prefix write fails before the permitted prefix is retained",
+          "boundary": "Owner.pump Sink.append catch",
+          "record_phase": "pipe-write-child-stdout",
+          "type_and_message": "Actual write exception; not the selected overflow target",
+          "target_reached": false
+        },
+        {
+          "condition": "real next byte exists after the exact retained cap",
+          "boundary": "Owner.pump child overflow branch",
+          "type": "CollectionFailure",
+          "message": "stdout exceeded independent 8-MiB capture ceiling",
+          "record_phase": "pipe-overflow-child-stdout",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-3",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "COLLECTOR_BRANCH_EXISTS; unchanged normal dispatcher envelope cannot itself provide cap-plus-one input.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 299,
+          "end_line": 337,
+          "purpose": "Cap-aware read, retained prefix and first excess child byte"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 293,
+          "purpose": "Overflow record before close"
+        },
+        {
+          "source": "dispatcher",
+          "start_line": 371,
+          "end_line": 379,
+          "purpose": "Single envelope checked against output cap before stream write"
+        },
+        {
+          "source": "dispatcher",
+          "start_line": 394,
+          "end_line": 400,
+          "purpose": "Outer refusal diagnostic; no universal concatenated-error-path bound claimed"
+        }
+      ],
+      "actual_boundary": "Actual child stdout reaches exactly 8388608 retained bytes and returns one further byte; pump marks complete false, retains overflow_first_byte_b64 and records overflow before a genuine pipe-close E_C.",
+      "proposed_mechanism": "No admissible unchanged-subject cap-plus-one producer path has been demonstrated. Normal checked-envelope output does not provide it; exceptional concatenation would need its own exact proof.",
+      "expected_target_record": {
+        "phase": "pipe-overflow-child-stdout",
+        "type": "CollectionFailure",
+        "message": "stdout exceeded independent 8-MiB capture ceiling",
+        "message_truncated": false,
+        "original_message_characters": 49,
+        "occurrence_rule": "One original stored occurrence with actual monotonic_ns, not an invented observation."
+      },
+      "first_error_rule": "Overflow is first only absent earlier errors; a real earlier dispatcher/monitor failure remains first.",
+      "expected_later_records": [
+        {
+          "symbol": "E_C",
+          "phase": "pipe-close-child-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_successful_boundary": "Successful writes of the exact 8388608-byte permitted prefix; independently observed extra byte matches the stored base64 witness. Unregister is independently attempted, and any extra actual unregister error is retained rather than requiring success.",
+      "propagation_rule": "One overflow origin record; no duplicated owned-body/census primary.",
+      "observables": [
+        "Independent true child-stream provenance for all permitted bytes and the next byte.",
+        "Original bounded stdout.log writer identity and exact first excess byte.",
+        "Real pipe-close exception after the overflow record; independent tail/custody/tool evidence."
+      ],
+      "blockers": [
+        "RI136 validates len(raw)<=8388608 before writing its single normal envelope; no unchanged case provides a padding/repetition option.",
+        "No general theorem is asserted about every exceptional output concatenation, but no such qualifying route has been supplied.",
+        "A separate controlled close exception still needs a real runtime-bound witness."
+      ],
+      "minimum_additional_premise": "A demonstrated permitted unchanged-dispatcher producer path yielding cap-plus-one bytes plus a selective genuine close-fault witness. If impossible under this contract, any new workload requires separate owner authorization and is not credit for this unchanged case.",
+      "rejected_substitutes": [
+        "Chatty substitute child",
+        "extra writer or replayed envelope",
+        "lowered output cap",
+        "forged os.read bytes",
+        "new or modified policy case"
+      ]
+    },
+    {
+      "id": "F02-4",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "The actual census has positive remaining original time; genuine event-sink history yields Q>0 before helper launch.",
+        "The unmodified /bin/ps helper is launched and its real joint stdout/stderr output reaches the actual Q plus one on the proposed stdout read, before timeout/other earlier refusal.",
+        "The selected excess byte is read, its permitted prefix retained, and actual unregister E_U then close E_C follow the overflow record; no quota/counter edits."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "no remaining deadline at census entry",
+          "boundary": "Owner.census",
+          "type": "CollectionFailure",
+          "message": "no remaining deadline for required census",
+          "target_reached": false
+        },
+        {
+          "condition": "derived ps_limit <= 0",
+          "boundary": "Owner.census before Popen",
+          "type": "CollectionFailure",
+          "message": "no metadata capacity for census",
+          "target_reached": false
+        },
+        {
+          "condition": "census preparation reaches running_end",
+          "boundary": "Owner.census before Popen",
+          "type": "CollectionFailure",
+          "message": "census preparation consumed its remaining deadline",
+          "target_reached": false
+        },
+        {
+          "condition": "ordinary signal already recorded before census launch while not stopping",
+          "boundary": "Owner.census before Popen",
+          "type": "CollectionFailure",
+          "message": "catchable interruption before census launch",
+          "target_reached": false
+        },
+        {
+          "condition": "helper running_end is reached before raw quota crossing",
+          "boundary": "Owner.census active loop",
+          "type": "CollectionFailure",
+          "message": "required census timed out within bounded helper budget",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "genuine joint raw output exceeds actual positive Q",
+          "boundary": "Owner.pump ps overflow branch",
+          "type": "CollectionFailure",
+          "message": "census raw metadata capacity exceeded; partial bytes retained",
+          "record_phase": "pipe-overflow-ps-stdout",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-4",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "ps stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "CONDITIONAL_DYNAMIC_QUOTA_BRANCH; genuine ps producer/quota construction and paired cleanup faults unestablished.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 338,
+          "end_line": 343,
+          "purpose": "Census permitted prefix and overflow origin"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 373,
+          "end_line": 403,
+          "purpose": "Actual positive dynamic quota and fixed ps launch"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 441,
+          "end_line": 498,
+          "purpose": "Census propagation and durable raw-prefix event"
+        }
+      ],
+      "actual_boundary": "A real /bin/ps helper's combined stdout/stderr raw bytes reach the actual positive ps_limit Q; its stdout supplies one additional byte. The prefix remains in ps_buffers; overflow is recorded before unregister E_U and close E_C.",
+      "proposed_mechanism": "No actual-host process-population and legitimate-journal-history construction meeting the dynamic quota within the unchanged census deadline has been demonstrated.",
+      "expected_target_record": {
+        "phase": "pipe-overflow-ps-stdout",
+        "type": "CollectionFailure",
+        "message": "census raw metadata capacity exceeded; partial bytes retained",
+        "message_truncated": false,
+        "original_message_characters": 61,
+        "occurrence_rule": "One original stored occurrence with actual monotonic_ns, not an invented observation."
+      },
+      "first_error_rule": "Overflow first only without a previous monitor error; any earlier real error remains first.",
+      "expected_later_records": [
+        {
+          "symbol": "E_U",
+          "phase": "pipe-unregister-ps-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        },
+        {
+          "symbol": "E_C",
+          "phase": "pipe-close-ps-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_successful_boundary": "Q>0 obtained from the untouched event sink and real prior journal history; the helper actually launched with exact PS_ARGV and supplied the observed raw bytes.",
+      "quota_rule": "Q=max(0,(events.limit-events.written-65536)//16), events.limit=66060288; if written were zero Q would be 4124672. Actual existing launch/event bytes reduce Q. Q<=0 refuses before Popen, not this overflow branch.",
+      "propagation_rule": "Census event propagated_pipe_failure_refs identifies the existing overflow phase and monotonic_ns; no new census primary is fabricated.",
+      "observables": [
+        "Exact actual helper command/PID/fd identities and real combined raw byte sequence.",
+        "Independent actual events.written history and resulting positive Q; Q+1 observed at the true read boundary.",
+        "Permitted prefix in authentic census stdout_b64/stderr_b64; no child-style excess-byte field exists for ps.",
+        "Actual unregister then close exceptions and original journal/outer evidence."
+      ],
+      "blockers": [
+        "No feasible genuine ps output size/quota/timing relation is established; no active runtime/process inventory was taken.",
+        "Zero quota, earlier persistence failure, timeout, malformed output or stderr failure can refuse at different boundaries first.",
+        "Kernel error injection is not automatically a Python unregister exception; paired cleanup mechanism is separately missing."
+      ],
+      "minimum_additional_premise": "A reviewed genuine-host output/quota construction preserving the unchanged ps command, journal history, 250-ms ceiling and all old limits, plus independent actual read/unregister/close boundary witnesses.",
+      "rejected_substitutes": [
+        "Supplied ps output",
+        "alternate ps command",
+        "edited ps_limit or event byte counter",
+        "pre-filled fake event journal",
+        "unadmitted external process population stress",
+        "zero-quota refusal credited as overflow"
+      ]
+    },
+    {
+      "id": "F02-5",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "An actual census-body failure E_0 has already been stored before census finally; helper/pipe remains incomplete, so the tail condition is true.",
+        "The original helper end time has not expired and the actual finally-tail pump call is independently located; no extended tail or mutated EOF/stopping state.",
+        "The tail pump passes its own signal/deadline/selector guards and reaches actual ps stdout os.read, which raises E_R; pipe cleanup must then actually fail as proposed at close, with any extra unregister error retained."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "the established earlier census-body failure occurs",
+          "boundary": "Owner.census body except -> failure",
+          "record_phase": "census unless the real antecedent is itself an already-recorded pipe failure",
+          "type_and_message": "Actual E_0; it remains the first existing record. A real timeout candidate has CollectionFailure: required census timed out within bounded helper budget.",
+          "target_reached": false,
+          "meaning": "Tail reachability antecedent, never relabeled as the later read target."
+        },
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "actual tail-localized os.read raises E_R",
+          "boundary": "Owner.census finally-tail -> Owner.pump -> fail_pipe",
+          "record_phase": "pipe-read-ps-stdout",
+          "type_and_message": "Exact externally observed E_R projection, stored once later than E_0",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-5",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "ps stdout; close failure is the proposed cleanup alternative",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "CONDITIONAL_CENSUS_FINALLY_TAIL_BRANCH; requires an earlier recorded census failure and still-incomplete helper/pipe.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 404,
+          "end_line": 415,
+          "purpose": "Normal census loop completion conditions"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 441,
+          "end_line": 475,
+          "purpose": "Earlier body failure, helper cleanup, actual tail pump and reference"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 309,
+          "end_line": 317,
+          "purpose": "Read origin inside that pump"
+        }
+      ],
+      "actual_boundary": "After an actual census-body failure E_0 was recorded and the helper/pipe remains incomplete, the finally-tail calls pump; that call reaches ps stdout os.read and raises E_R, then pipe close raises E_C after the independent unregister attempt. Extra actual unregister errors remain visible.",
+      "proposed_mechanism": "A genuinely established prior helper/census failure and remaining tail-read window, followed by selective read and close faults; no implementation or independently located window exists.",
+      "expected_target_record": {
+        "symbol": "E_R",
+        "phase": "pipe-read-ps-stdout",
+        "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+        "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+        "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+      },
+      "first_error_rule": "The actual earlier E_0 remains first_error. E_R is an original later error, not a replacement primary. Additional genuine errors between E_0 and E_R must remain visible.",
+      "expected_later_records": [
+        {
+          "symbol": "E_R",
+          "phase": "pipe-read-ps-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        },
+        {
+          "symbol": "E_C",
+          "phase": "pipe-close-ps-stdout",
+          "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+          "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+          "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+        }
+      ],
+      "required_independent_boundary": "Independent witness that execution is the pump call inside census finally-tail, not active census/body/drive/independent cleanup; unregister attempt and actual outcome are observed, without requiring success or erasing an extra E_U.",
+      "required_earlier_record": "An independently established census-body E_0 stored before finally; an actual helper timeout could be one candidate, but none is induced or assumed.",
+      "propagation_rule": "The census event appends a reference with E_R's original phase and monotonic_ns. No new E_R occurrence under census-tail-pump is permitted; same-owner token suppression applies.",
+      "observables": [
+        "Real antecedent E_0 and incomplete helper/EOF state establishing entry into the finally-tail.",
+        "Exact tail-call site and genuine read exception before the original census end time.",
+        "E_0 remains first; E_R appears once later before E_C, matching the event reference; all real subsequent failures retained."
+      ],
+      "blockers": [
+        "Ordinary successful census completion already has helper completion and both EOF flags, so it does not provide this tail pump.",
+        "The target pump can instead refuse on signal/deadline/selector before os.read; intended timing or any pump error does not prove the read boundary.",
+        "No unchanged-runtime tail-localization and paired fault mechanism is established."
+      ],
+      "minimum_additional_premise": "A bounded externally observed real census-failure precursor and tail-specific read/cleanup fault facility, all inside the original remaining deadline and without altering first_error or helper state.",
+      "rejected_substitutes": [
+        "Promoting E_R over E_0",
+        "generic pump error labeled census tail",
+        "manual state.stopping/EOF/first_error mutation",
+        "extended helper tail",
+        "synthetic reference to an unobserved error"
+      ]
+    },
+    {
+      "id": "F02-6",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "The registered child stdout read returns an actual zero-byte result after the pump guards; an earlier exception or nonempty read is not this EOF event.",
+        "Unregister returns normally and only stream.close raises E_C for the specified clean-EOF/close-only scenario.",
+        "No earlier error is present if E_C is to be called the primary; any earlier genuine error must remain first and the claimed isolated scenario is not demonstrated."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "os.read raises an ordinary non-BlockingIOError before returning b''",
+          "boundary": "Owner.pump read catch",
+          "record_phase": "pipe-read-child-stdout",
+          "type_and_message": "Actual read exception; does not satisfy clean EOF",
+          "target_reached": false
+        },
+        {
+          "condition": "unregister raises after EOF",
+          "boundary": "Owner.close_pipe",
+          "record_phase": "pipe-unregister-child-stdout",
+          "type_and_message": "Actual E_U; not the stipulated close-only failure scenario",
+          "target_reached": false
+        },
+        {
+          "condition": "close alone raises after true EOF and successful unregister",
+          "boundary": "Owner.close_pipe",
+          "record_phase": "pipe-close-child-stdout",
+          "type_and_message": "Exact externally observed E_C projection",
+          "target_reached": true
+        }
+      ],
+      "original_scenario": "F02-6",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "NATURAL_EOF_PLUS_CONDITIONAL_CLOSE_EXCEPTION; exact close-fault/witness mechanism unestablished.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 317,
+          "end_line": 323,
+          "purpose": "Actual zero-byte read sets EOF then calls close_pipe"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 287,
+          "purpose": "Successful unregister then failing stream.close"
+        }
+      ],
+      "actual_boundary": "os.read on the genuine registered child stdout pipe returns b''; pump sets eof true; unregister returns normally; stream.close raises E_C.",
+      "proposed_mechanism": "Observe naturally produced EOF from the unchanged child, then selectively fault the actual pipe close; no justified close provider exists.",
+      "expected_target_record": {
+        "symbol": "E_C",
+        "phase": "pipe-close-child-stdout",
+        "type_rule": "Exact type name of independently observed exception; not selected from an assumed errno.",
+        "message_rule": "Exact str(exception)[:1024], with the true message_truncated flag and original_message_characters.",
+        "occurrence_rule": "One original stored occurrence; actual monotonic_ns retained; no invented timestamp."
+      },
+      "first_error_rule": "E_C is the primary only absent an actual earlier error; never fabricate a pipe-read/overflow primary.",
+      "expected_later_records": [],
+      "required_successful_boundary": "Independent genuine zero-byte read and unregister return before the close exception.",
+      "propagation_rule": "The EOF branch does not call fail_pipe and creates no RecordedPipeFailure. Later genuine wrapper/cleanup errors do not turn E_C into a read error.",
+      "observables": [
+        "Independent true b'' return from the exact child pipe, not a controller-supplied value.",
+        "Actual successful unregister and Python pipe-close exception.",
+        "EOF flag and absence of a fabricated F02 read/overflow origin or token, with preserved raw capture and full failure tails."
+      ],
+      "blockers": [
+        "No complete exact-close failure facility or independent runtime-bound method witness is established.",
+        "Killing a child may make EOF available but is not proof of successful unregistration or failing close and may introduce an earlier error."
+      ],
+      "minimum_additional_premise": "A selective, independently observed real pipe-close failure following natural EOF and successful unregister, preserving all original bytes/limits/custody.",
+      "rejected_substitutes": [
+        "EOF-only event treated as a read failure",
+        "sink-file close substituted for pipe close",
+        "manufactured empty read result",
+        "missing error label treated as proof unregister succeeded"
+      ]
+    },
+    {
+      "id": "F02-7",
+      "entry_preconditions": [
+        "A genuinely authenticated unchanged RI140 run has passed bootstrap, exact-source/runtime/command checks and complete before-custody; these are prerequisites, not current observations.",
+        "The original child/helper and the intended pipe object are registered with the unchanged selector; PID, descriptor generation and role are independently established.",
+        "All earlier relevant operations and earlier ready-key processing must be retained; no prior error is erased to make the selected fault first.",
+        "The real child closes its write end and the parent read returns b''; this requires no substitute payload or injected fault.",
+        "Both unregister and close return normally; source feasibility does not establish that an external observer can prove those method returns.",
+        "Any claimed full clean focused result additionally meets genuine live-leader sampling, later reaped/empty-group observation, original captures, full custody and real outer completion without a hold or retry."
+      ],
+      "first_reachable_refusal": [
+        {
+          "condition": "pump entered with not stopping and a received ordinary signal or signal_overflow",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "catchable interruption ends active stream/census work",
+          "target_reached": false
+        },
+        {
+          "condition": "pump entered at or after its existing deadline",
+          "boundary": "Owner.pump before selector wait",
+          "type": "CollectionFailure",
+          "message": "original process/outer deadline exhausted before selector wait",
+          "target_reached": false
+        },
+        {
+          "condition": "selector.select raises before returning the intended ready key",
+          "boundary": "Owner.pump selector.select",
+          "type_and_message": "Actual observed exception, not fixed or supplied by this design",
+          "target_reached": false
+        },
+        {
+          "condition": "read raises an ordinary non-BlockingIOError, or unregister/close raises, instead of the required EOF/normal returns",
+          "boundary": "Owner.pump read catch or Owner.close_pipe",
+          "record_phases": [
+            "pipe-read-child-stdout",
+            "pipe-unregister-child-stdout",
+            "pipe-close-child-stdout"
+          ],
+          "type_and_message": "Actual operation-specific exception; not a successful EOF qualification",
+          "target_reached": false
+        },
+        {
+          "condition": "otherwise natural fast completion has no real live-leader sample",
+          "boundary": "Owner.drive post-loop",
+          "type": "CollectionFailure",
+          "message": "no actual live-leader RSS sample; fast case is not qualified",
+          "target_reached": true,
+          "qualification_met": false,
+          "meaning": "Source-reachable EOF alone does not satisfy unchanged complete monitoring."
+        }
+      ],
+      "original_scenario": "F02-7",
+      "status": "BLOCKED_DESIGN",
+      "available": false,
+      "executed": false,
+      "actual_outcome": null,
+      "proposed_stream_instantiation": "child stdout",
+      "stream_selection_is_inventory_amendment": false,
+      "controller_implemented": false,
+      "source_reachability": "SOURCE_FEASIBLE_NATURAL_SUCCESSFUL_EOF; not intrinsically blocked by missing fault injection.",
+      "source_locations": [
+        {
+          "source": "owned_process",
+          "start_line": 317,
+          "end_line": 323,
+          "purpose": "Natural EOF branch"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 276,
+          "end_line": 287,
+          "purpose": "Successful unregister and close"
+        },
+        {
+          "source": "owned_process",
+          "start_line": 503,
+          "end_line": 526,
+          "purpose": "Live-sample and owned child success obligations"
+        }
+      ],
+      "actual_boundary": "The unchanged child closes its write end; actual parent os.read returns b''; EOF is set; selector.unregister and stream.close both return normally.",
+      "proposed_mechanism": "Passive independent boundary observation of an otherwise genuinely admitted unchanged one-case run; no injected fault or substitute producer required.",
+      "expected_target_record": null,
+      "first_error_rule": "No F02 primary or propagation reference is created. A fully clean focused attempt still requires absence of unrelated failures under the unchanged monitor/custody contract.",
+      "expected_later_records": [],
+      "required_successful_boundary": "Independent real zero-byte read, exact unregister return and exact close return; absence of a subject error label is not sufficient.",
+      "propagation_rule": "No fail_pipe call or RecordedPipeFailure is expected from this EOF branch.",
+      "observables": [
+        "Real pipe provenance and independent actual b'' read result.",
+        "Independent normal method returns and preserved original stdout prefix/identity.",
+        "Actual live-leader RSS sample, reaped child, later terminal-empty census, full custody/artifacts and genuine outer completion."
+      ],
+      "blockers": [
+        "An authenticated passive witness with exact FD/method boundary coverage and bounded supplier closure is not specified.",
+        "The real unchanged case may finish before a live-leader sample; no performance/runtime feasibility has been established.",
+        "Genuine root bootstrap/admission and full unchanged observation mechanism remain prerequisites, not current observations."
+      ],
+      "minimum_additional_premise": "A concrete passive boundary-evidence design plus demonstrated feasibility of the existing complete monitor/custody requirements; no new fault supplier is inherently necessary.",
+      "rejected_substitutes": [
+        "Hidden child hold or handshake to secure a sample",
+        "retry until sampling succeeds",
+        "claimed EOF based only on no more output",
+        "subject success flag replacing independent read/close evidence"
+      ]
+    }
+  ],
+  "stop_rule": "No controller code is supplied. Additional mechanism/producer premises require new concrete review and genuine root admission; do not weaken immutable subjects, workload, custody or success criteria to call blocked rows qualified."
+}

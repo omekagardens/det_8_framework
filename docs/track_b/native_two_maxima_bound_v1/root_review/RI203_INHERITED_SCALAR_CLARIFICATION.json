@@ -1,0 +1,21 @@
+{
+  "RI203_candidate_accepted": false,
+  "automatic_scientific_arithmetic": false,
+  "manual_read_receipt": {
+    "chunk_id": "8ac320",
+    "exit_code": 0
+  },
+  "new_execution_authority": false,
+  "new_vector_or_certificate_read": false,
+  "premise": "Equation14 min_c alpha_c=1/8 in the accepted size-four witness. Equation8 gives q4(S)=alpha_c*u4(S), hence q4(S)>=u4(S)/8 for PROPER slots only. Full ideals retain the separately inherited all-ideal probability floor and positive complement.",
+  "ret_paused": true,
+  "role": "Explicit inherited finite theorem; no fresh proof of certificate minimum is claimed. QR must retain the unchanged fixed seed and full marked compatibility.",
+  "root_independent_proof_review_still_required": true,
+  "schema": "ri203-inherited-scalar-premise-clarification-v1",
+  "source": {
+    "bytes": 16243,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+  },
+  "status": "NAMED_ACCEPTED_FINITE_SCALAR_ALLOWED_AS_INHERITED_PREMISE"
+}

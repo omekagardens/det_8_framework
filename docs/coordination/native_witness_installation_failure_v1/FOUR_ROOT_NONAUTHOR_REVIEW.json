@@ -1,0 +1,62 @@
+{
+  "admission": {
+    "bytes": 4124,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI216_FOUR_ROOT_LITERAL_ADMISSION.json",
+    "sha256": "7e571bec36a7650a8bd99cabab274ba6c2c0d9dd54a1608c8d533bbc62de7d13"
+  },
+  "automated_scientific_parsing_or_arithmetic": false,
+  "before_after_identity": true,
+  "certificate": {
+    "bytes": 2845,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+    "sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+  },
+  "checked": "109 distinct ordered root triples, all62 distinct canonical in-range override keys and positive rational syntax; original graph reconstruction/routing inherited. No other resolved entries.",
+  "complete_unclipped_display": true,
+  "independent_literal_receipts": [
+    {
+      "chunk_id": "ba41fd",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "52a08a",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0eb7c2",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1f0428",
+      "exit_code": 0
+    }
+  ],
+  "manual_result": {
+    "D": "9/1000",
+    "origins": [
+      "default",
+      "default",
+      "default",
+      "explicit override74"
+    ],
+    "root_indices": [
+      "(78,7,0):55",
+      "(78,7,1):56",
+      "(206,7,0):73",
+      "(206,7,1):74"
+    ],
+    "strictly_positive": true,
+    "values": [
+      "1/8",
+      "1/8",
+      "1/8",
+      "27/125"
+    ]
+  },
+  "ongoing_RI216_theorem_reviewed": false,
+  "reviewer": "/root/qr_opportunities",
+  "schema": "ri217-independent-four-root-review-v1",
+  "status": "ACCEPT_EXACT_FOUR_ROOT_WITNESS",
+  "subject_execution": false,
+  "writes": false
+}

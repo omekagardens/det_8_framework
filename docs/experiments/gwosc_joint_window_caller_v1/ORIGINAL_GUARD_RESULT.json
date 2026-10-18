@@ -1,0 +1,346 @@
+{
+  "admission": {
+    "bytes": 3302,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_ADMISSION.json",
+    "sha256": "f88eabb13a1d0e8c6a09f3a9c7769284d737a9c99ab1e266228d64e67ff0f323"
+  },
+  "candidate_interpreter_invoked": false,
+  "cases": [
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": true,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 1,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 0,
+        "science_entries": 0,
+        "source_checks": 1
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-source-ls5o8yfn",
+      "id": "parent_source",
+      "pass": false,
+      "receipt": {
+        "bytes": 2174,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-source-ls5o8yfn/controls/normal/receipt.json",
+        "sha256": "57a3ca5ed8671795837b22e62c08087bd186a8008882260d244a70c6f7582ec9"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": true,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 1,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 0,
+        "science_entries": 0,
+        "source_checks": 1
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-caller-aq6yveb0",
+      "id": "parent_caller",
+      "pass": false,
+      "receipt": {
+        "bytes": 2234,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-caller-aq6yveb0/controls/normal/receipt.json",
+        "sha256": "6163937e8db8385868ce8d6e4114308e6f111295f2731ab0518b3a9a988b2aad"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": true,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 1,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 0,
+        "science_entries": 0,
+        "source_checks": 1
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-runtime_acceptance-pr4ppjy1",
+      "id": "parent_runtime_acceptance",
+      "pass": false,
+      "receipt": {
+        "bytes": 2294,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-runtime_acceptance-pr4ppjy1/controls/normal/receipt.json",
+        "sha256": "454304d5666203fbc20e24acd68cf4ad2c463289e80db8df62ce32e39a0b1af7"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "later_failure_postchecked": true,
+        "no_science_entry": true,
+        "one_first_helper_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 2,
+        "runtime_helper_calls": 6,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 2,
+        "runtime_verify": 2,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-69a1kjgo",
+      "id": "parent_late",
+      "pass": true,
+      "receipt": {
+        "bytes": 2521,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-69a1kjgo/controls/normal/receipt.json",
+        "sha256": "ac3f1f43a70f106fa65b1665e62402c05b386f1c8b6fdabd509b2fb49384163e"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "later_failure_postchecked": true,
+        "no_science_entry": true,
+        "one_first_helper_entry": true,
+        "original_failure_preserved": true,
+        "original_stop_reason_preserved": false,
+        "postcheck_failure_retained": true
+      },
+      "counts": {
+        "loaded_files": 2,
+        "runtime_helper_calls": 6,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 2,
+        "runtime_verify": 2,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-6lmms1c7",
+      "id": "parent_late_postcheck",
+      "pass": false,
+      "receipt": {
+        "bytes": 2478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/parent-late-6lmms1c7/controls/normal/receipt.json",
+        "sha256": "fcdbf7932df3d71c03ee258400b645d5b72a44c9762538522c3e0ab3c29fee4a"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": true,
+        "no_runtime_scan": true,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 0,
+        "runtime_helper_calls": 0,
+        "runtime_helper_first_entries": 0,
+        "runtime_profile": 0,
+        "runtime_verify": 0,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-source-n_kt4_gq",
+      "id": "worker_source",
+      "pass": true,
+      "receipt": {
+        "bytes": 1076,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-source-n_kt4_gq/controls/normal/runtime.json",
+        "sha256": "f5ab34ac18c15d9ddfc4d473c5b05db177b654f8bbcbcf0a56f9137001130085"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": false,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 0,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 1,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-caller-qz57d_du",
+      "id": "worker_caller",
+      "pass": false,
+      "receipt": {
+        "bytes": 1276,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-caller-qz57d_du/controls/normal/runtime.json",
+        "sha256": "04c2c4886aaf777c6fe209789033ef0aed4037f3c45f0a9c3829dcede50d04f5"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": false,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 0,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 1,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-runtime_acceptance-raurki10",
+      "id": "worker_runtime_acceptance",
+      "pass": false,
+      "receipt": {
+        "bytes": 1288,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-runtime_acceptance-raurki10/controls/normal/runtime.json",
+        "sha256": "a4a6d7a5da0025a49bd2ee637ef53fa53275d3db5c0820cd796edab65a972bb3"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "later_failure_postchecked": true,
+        "no_science_entry": true,
+        "one_first_helper_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 2,
+        "runtime_helper_calls": 6,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 2,
+        "runtime_verify": 2,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-nkoskgae",
+      "id": "worker_late",
+      "pass": true,
+      "receipt": {
+        "bytes": 1462,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-nkoskgae/controls/normal/runtime.json",
+        "sha256": "3fdd8a41e4acfabb3d2db340e5cf828e26b751daae79181b41ab1a1901be2e73"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "later_failure_postchecked": true,
+        "no_science_entry": true,
+        "one_first_helper_entry": true,
+        "original_failure_preserved": true,
+        "postcheck_failure_retained": true
+      },
+      "counts": {
+        "loaded_files": 1,
+        "runtime_helper_calls": 4,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 1,
+        "runtime_verify": 2,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-u5ylwj3p",
+      "id": "worker_late_postcheck",
+      "pass": true,
+      "receipt": {
+        "bytes": 1348,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-late-u5ylwj3p/controls/normal/runtime.json",
+        "sha256": "a20146d0cd071d6cb2bb2a3e24bd49a89f444b978b9e5a8b464951f384adf057"
+      }
+    },
+    {
+      "checks": {
+        "failed_completion": true,
+        "no_runtime_helper_entry": false,
+        "no_runtime_scan": false,
+        "no_science_entry": true,
+        "original_failure_preserved": true
+      },
+      "counts": {
+        "loaded_files": 0,
+        "runtime_helper_calls": 1,
+        "runtime_helper_first_entries": 1,
+        "runtime_profile": 0,
+        "runtime_verify": 1,
+        "science_entries": 0,
+        "source_checks": 2
+      },
+      "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-mode-y_1og5zt",
+      "id": "worker_mode",
+      "pass": false,
+      "receipt": {
+        "bytes": 1233,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de/worker-mode-y_1og5zt/controls/normal/runtime.json",
+        "sha256": "504b29528ce8d9a6af3c0f3721cc83c815dd89220c9d699f33fd7a7431e0e113"
+      }
+    }
+  ],
+  "claim": "Isolated non-scientific first-refusal/failure-tail and finite runtime-guard regression checks only.",
+  "failed": 7,
+  "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ri121-guard-fixtures-oxhrj2de",
+  "helpers_after": {
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "launch.py": {
+      "bytes": 30158,
+      "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+    },
+    "runtime_support.py": {
+      "bytes": 6560,
+      "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+    },
+    "worker.py": {
+      "bytes": 8995,
+      "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+    }
+  },
+  "helpers_before": {
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "launch.py": {
+      "bytes": 30158,
+      "sha256": "e4afd7276275ed8dc4349f72171d0d5efc1801265021276774d486944dcfdb37"
+    },
+    "runtime_support.py": {
+      "bytes": 6560,
+      "sha256": "222470bedef3421fead3fa681dba7ea41c625ea893a808c6b6370ebd3937f6cd"
+    },
+    "worker.py": {
+      "bytes": 8995,
+      "sha256": "e040158cdba815fc2455966b81183816c72217954fdb423f64acf1c6c198c5aa"
+    }
+  },
+  "helpers_unchanged": true,
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+  "passed": 4,
+  "production_runtime_qualified": false,
+  "schema": "ri121-nonscientific-guard-control-report-v1",
+  "science_module_executed": false,
+  "science_path_attempted": false,
+  "scope": "failure-tails"
+}

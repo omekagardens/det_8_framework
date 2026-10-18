@@ -1,0 +1,202 @@
+{
+  "E_modified": false,
+  "RET_paused": true,
+  "actual_admin": {
+    "build_chunk": "c774a3",
+    "check_chunk": "ad048f",
+    "current_failures": [],
+    "exit_code": 0,
+    "predicates": 6645
+  },
+  "actual_receipts": {
+    "bytes": 3992,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "7a47191417577779efa58cce7648c89c9d94e33cb756e465d4a1b1181d39e446"
+  },
+  "administrative_result": {
+    "bytes": 2866,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+  },
+  "assignment": {
+    "bytes": 2264,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+    "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "base_input_pins": 806,
+  "child_cwd": "D/monitor",
+  "clock_completion_fields": 14,
+  "clock_completion_schema": "ri213-installation-completion-v1",
+  "complete_clock_and_eight_tail_spans_unchanged": true,
+  "complete_failure_custody": {
+    "bytes": 5447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json",
+    "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+  },
+  "current_runtime_observation": false,
+  "direct_byte_and_JSON_comparisons_unchanged": true,
+  "distinct_opaque_inputs": 896,
+  "files": [
+    {
+      "bytes": 3992,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "7a47191417577779efa58cce7648c89c9d94e33cb756e465d4a1b1181d39e446"
+    },
+    {
+      "bytes": 2866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+    },
+    {
+      "bytes": 2649,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "2da141d32435e8d101a8b60b1b39d963e098067e4f56a8dc302eb70847a2c9ef"
+    },
+    {
+      "bytes": 1862,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/BUILD_METADATA.json",
+      "sha256": "61ca0c1c2f115c4edf3fbc2dd8a0e3e51c37ac9e6296f08b6d3a9217137d4113"
+    },
+    {
+      "bytes": 3053,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+      "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+    },
+    {
+      "bytes": 3115,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "c782f326bb0372337edf1e3ae30cc2d121b87a0219d8c8c2cff813f80036a8c2"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 32894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/PROTOCOL.md",
+      "sha256": "ef754bbdafba9ec34848e3798f1e3bd302b5872597a970543c88f415075d69d7"
+    },
+    {
+      "bytes": 48176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+    },
+    {
+      "bytes": 28047,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "0ae7399adf2a00fd3c943a73a1f6af0d334b6ef1687f4a31420869352ac7cb9a"
+    },
+    {
+      "bytes": 1363,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+      "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+    },
+    {
+      "bytes": 11721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/admin_check.py",
+      "sha256": "c02edb3557983e902303622a0d5b97948bfc9cf61a8455ef20fc9faf1a81aad8"
+    },
+    {
+      "bytes": 13272,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/build_repair.py",
+      "sha256": "3fdd73fd879e4fffa0c4211264241b059c537ba15ef98a94c78922e1d10c0e83"
+    },
+    {
+      "bytes": 22817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+      "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+    },
+    {
+      "bytes": 19894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+      "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+    }
+  ],
+  "finding_response": {
+    "bytes": 3115,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/FINDING_RESPONSE.md",
+    "sha256": "c782f326bb0372337edf1e3ae30cc2d121b87a0219d8c8c2cff813f80036a8c2"
+  },
+  "fixture_execution": false,
+  "functional_predicate_changes": 1,
+  "genuine_predecessor_failure": {
+    "bytes": 3292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+  },
+  "historical_role_rows": 810,
+  "independent_acceptance": false,
+  "namespace": [
+    "ACTUAL_ADMIN_RECEIPTS.json",
+    "ADMIN_CHECK.json",
+    "AUTHORING_RECORD.json",
+    "BUILD_METADATA.json",
+    "CWD_CONTRACT_CHECK.json",
+    "FINDING_RESPONSE.md",
+    "HANDOFF.json",
+    "INPUT_PINS.json",
+    "PROTOCOL.md",
+    "REPAIR_PROVENANCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "admin_check.py",
+    "build_repair.py",
+    "check_installation.py",
+    "install_freeze.py"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "new_source_execution": false,
+  "operational_objects_created": false,
+  "original_seals_and_failed_attempts_preserved": true,
+  "outer_cwd": "D",
+  "postchecker_only_paths_and_provenance": true,
+  "predecessor": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  },
+  "preserved_previous_source_rows": 857,
+  "prospective_source_rows": 904,
+  "qualification_credit": 0,
+  "remaining": [
+    "Fresh nonauthor/root source review",
+    "Concrete fresh bootstrap/preflight review with exact outer and child cwd distinction",
+    "Separate root admission and actual monitored installation",
+    "Complete independent saved-result/custody review and root acceptance",
+    "All unchanged scientific mode, arithmetic and measurement prerequisites"
+  ],
+  "repair_provenance": {
+    "bytes": 48176,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+    "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+  },
+  "repair_rows": 90,
+  "repo_git_actions": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal",
+  "schema": "ri222-cwd-repair-source-handoff-v1",
+  "scientific_body_decode": false,
+  "source_lines": {
+    "check_installation.py": 141,
+    "install_freeze.py": 237
+  },
+  "source_manifest": {
+    "bytes": 1363,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+    "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+  },
+  "source_supersession": {
+    "bytes": 1478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+  },
+  "static_cwd_contract": {
+    "bytes": 3053,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+    "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+  },
+  "status": "SEALED_SOURCE_ONLY_FOR_FRESH_NONAUTHOR_REVIEW",
+  "unchanged_monitor": true,
+  "whole_source_inverse_projection": true
+}

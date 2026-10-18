@@ -1,0 +1,175 @@
+{
+  "E_modified": false,
+  "actual_admin": {
+    "chunk": "7f79ed",
+    "exit_code": 0,
+    "failures": [],
+    "predicates": 3636
+  },
+  "actual_receipts": {
+    "bytes": 2384,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "357cf0a058b63efd041e18c3636e02bbaf77cfa23784b3d2bb40b833cafa873e"
+  },
+  "added_repair_provenance_pins": 19,
+  "administrative_result": {
+    "bytes": 1109,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+  },
+  "assignment": {
+    "bytes": 2782,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+    "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "base_input_pins": 806,
+  "changed_completion_fields": 14,
+  "changed_completion_schema": "ri213-installation-completion-v1",
+  "clock_or_fixture_evaluation": false,
+  "complete_reverse_projection": true,
+  "copy_history_target_counts": [
+    48,
+    124,
+    30
+  ],
+  "distinct_opaque_input_pins": 825,
+  "eight_tail_block_byte_identical": true,
+  "files": [
+    {
+      "bytes": 2384,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "357cf0a058b63efd041e18c3636e02bbaf77cfa23784b3d2bb40b833cafa873e"
+    },
+    {
+      "bytes": 1109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+    },
+    {
+      "bytes": 1953,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "7214a7973fb45797619ab113def68d644dd3d8ca3d2a570e26b460453a77da41"
+    },
+    {
+      "bytes": 1190,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/BUILD_METADATA.json",
+      "sha256": "7ead4d2cdddcdf0c67beaeb5508d8655cf74b0a54ab119f02871bb748268ba0f"
+    },
+    {
+      "bytes": 4048,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "d9cc91d840c2627b72778c7ba591614d697a15ad695fc125da79470e2753f0bb"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 22702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/PROTOCOL.md",
+      "sha256": "602f78e3f06bcdca53d483bc42b42dfc4f85228a95c4220f7a74fe2f5e452673"
+    },
+    {
+      "bytes": 6471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+    },
+    {
+      "bytes": 37614,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "82b9760dfaba47275795ab2c737cda937a3842a4a547999aff18f26fe93bbdf3"
+    },
+    {
+      "bytes": 1372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+      "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+    },
+    {
+      "bytes": 9215,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/admin_check.py",
+      "sha256": "42848a07c4ad89aaf3c153a4dfb2d012ce75d57d18424486d450450bef450cf4"
+    },
+    {
+      "bytes": 14252,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/build_repair.py",
+      "sha256": "82208cb187f567cc3462eee7bf698d16a23b98dfdc9a1faf9f7986565566e2c3"
+    },
+    {
+      "bytes": 22820,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/check_installation.py",
+      "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+    },
+    {
+      "bytes": 19876,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+      "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+    }
+  ],
+  "finding_response": {
+    "bytes": 4048,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/FINDING_RESPONSE.md",
+    "sha256": "d9cc91d840c2627b72778c7ba591614d697a15ad695fc125da79470e2753f0bb"
+  },
+  "historical_role_rows": 810,
+  "namespace": [
+    "ACTUAL_ADMIN_RECEIPTS.json",
+    "ADMIN_CHECK.json",
+    "AUTHORING_RECORD.json",
+    "BUILD_METADATA.json",
+    "FINDING_RESPONSE.md",
+    "INPUT_PINS.json",
+    "PROTOCOL.md",
+    "REPAIR_PROVENANCE.json",
+    "SOURCE_DIFF.patch",
+    "SOURCE_PINS.json",
+    "admin_check.py",
+    "build_repair.py",
+    "check_installation.py",
+    "install_freeze.py",
+    "HANDOFF.json"
+  ],
+  "namespace_excludes_only_self_pin": true,
+  "nonauthor_predecessor_review": {
+    "bytes": 3892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_NONAUTHOR_REVIEW.json",
+    "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+  },
+  "operational_cards_created": false,
+  "original_seals_unchanged": true,
+  "original_source_rows": 764,
+  "predecessor_handoff": {
+    "bytes": 6621,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+    "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+  },
+  "proposal_import_compile_AST_probe_execute": false,
+  "remaining_prerequisites": [
+    "Fresh nonauthor and root source adjudication",
+    "Genuine current preflight and concrete retained-monitor bootstrap review",
+    "Separate root operational admission",
+    "Actual saved outcomes/custody/origin review and root acceptance"
+  ],
+  "repo_git_actions": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal",
+  "ret_paused": true,
+  "root_predecessor_decision": {
+    "bytes": 2690,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+    "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+  },
+  "runtime_observation": false,
+  "schema": "ri213-clock-repair-source-handoff-v1",
+  "scientific_decode": false,
+  "source_lines": {
+    "installer": 237,
+    "postchecker": 141
+  },
+  "source_manifest": {
+    "bytes": 1372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+    "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+  },
+  "status": "SEALED_UNEXECUTED_REPAIR_FOR_FRESH_NONAUTHOR_REVIEW"
+}

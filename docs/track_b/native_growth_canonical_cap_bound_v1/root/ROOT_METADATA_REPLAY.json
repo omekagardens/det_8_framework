@@ -1,0 +1,46 @@
+{
+  "actual_replay": {
+    "chunk": "025829",
+    "exit_code": 0
+  },
+  "adaptations": [
+    "output directory R",
+    "report schema"
+  ],
+  "additions": 30,
+  "administrative_bodies": 77,
+  "checker": {
+    "bytes": 13315,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/check_native.py",
+    "sha256": "fc5d694e6104ead02cf93f1bdc430c4c015afc86a970470fb80829738c3eeff1"
+  },
+  "current_typed_refs": 89,
+  "dependencies": 223,
+  "fresh_identity_rechecks": 234,
+  "historical_state_compared_to_current": false,
+  "historical_states": 17,
+  "historical_typed_refs": 1616,
+  "independent_report": {
+    "bytes": 3070932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/METADATA_CHECK.json",
+    "sha256": "c342bdd15842ed987200f645ea9551a9b75fd077b4d9039708fd1695472c34c1"
+  },
+  "inherited": 193,
+  "mathematical_acceptance": "separate manual adjudication",
+  "predicates": 15407,
+  "report": {
+    "bytes": 3070926,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/METADATA_CHECK.json",
+    "sha256": "aa313e2f9bc346b654dd8604d4ef3a15592ae6d67ff52f387e04a7645a5ae598"
+  },
+  "review_preseal_pins_rechecked": 8,
+  "reviewed_checker": {
+    "bytes": 13326,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/check_metadata.py",
+    "sha256": "28a94915df18320ef1ce5ace56b09acc660e9c9299d5a7c3fdd82bad86dbd01e"
+  },
+  "schema": "ri157-root-replay-summary-v1",
+  "scientific_or_subject_execution": false,
+  "selected_bytes": 9791698,
+  "status": "MATCH_EXCEPT_SCHEMA"
+}

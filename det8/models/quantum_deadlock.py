@@ -1,30 +1,17 @@
-"""DET — the Quantum deadlock resolution (SKETCH → ADOPTED).
+"""DET — a Status-M quantum interpretation with conditional formal checks.
 
-The Quantum deadlock: Everett reifies unactualized possibilities into parallel
-universes; Copenhagen refuses to discuss the interval; Bohm hides outcomes in
-inaccessible pilot waves. DET resolves it as:
+The adopted interpretation reads a quantum superposition as a present,
+phase-bearing relational constraint on future possibilities. This ontology
+has no unique empirical discriminator. The formal examples do not establish
+it, derive a physical complex field, or select a complete quantum theory.
 
-    A quantum superposition is an actual, phase-bearing relational constraint
-    on future possibilities — a real, open relation that does not contain its
-    own outcome.
-
-This module assembles the four pieces that move the resolution from SKETCH to
-ADOPTED, each with an honest status:
-
-  1. COMPLEX — ℂ is forced by (Ω ≠ 0, empirically) + (reversibility ⇒ U(m)).
-     `why_complex.py`.  Status: MATH + empirical.
-  2. GRADE-2 — the single-time measure has no third-order interference (I₃ = 0),
-     empirically confirmed by three-slit.  `dkappa_decoherence.py`.
-     Status: MATH + empirical.
-  3. BORN (p = 2) — the squared magnitude is the UNIQUE power rule conserving
-     probability under basis splits.  `born_rule_uniqueness.py`.  Status: MATH.
-  4. OPEN — the constraint does not contain its own outcome (no fact register;
-     NPF-C code-auditable).  The "no fact exists" reading is Status M (F8-OPEN).
-
-Almost-quantum (the user's framing, stated precisely): the STATIC level is
-real/almost-quantum (Tsirelson), while ℂ is DYNAMICAL — so static experiments
-probe the real (grade-2) level and the complex structure is a dynamical
-feature. No super-quantum correlation has ever been observed.
+Compatible complex structure is assumed; squared-norm composition yields
+grade-two interference; the L2 split check is conditional on its normalization.
+A finite three-slit null does not remove the extra strong-positivity or
+operational premises. Real correlator coordinates, real operational QM and
+almost-quantum behavior sets are distinct. The no-outcome-register property
+is a scoped software statement (NPF-C), not proof of ontological openness.
+Historical callable names are retained for compatibility.
 """
 
 from __future__ import annotations
@@ -41,8 +28,9 @@ def born_rule_is_grade2(amplitudes=(1.0, 1.0, 1.0)) -> dict:
 
     For three path amplitudes, the Born probabilities satisfy
     I₃ = P_012 − P_01 − P_02 − P_12 + P_0 + P_1 + P_2 = 0 exactly, because
-    |Σ c_i|² is bi-additive.  This ties p = 2 (born_rule_uniqueness) to the
-    grade-2 structure (dkappa_decoherence, three-slit I₃ = 0).
+    the squared norm expands into singleton and pair terms. Its associated
+    pair kernel is biadditive; the set-function itself is quadratic. This is
+    a conditional example, not uniqueness of the Born rule among grade-two measures.
     """
 
     c = list(amplitudes)
@@ -54,115 +42,79 @@ def born_rule_is_grade2(amplitudes=(1.0, 1.0, 1.0)) -> dict:
     return {
         "I3": i3,
         "born_rule_is_grade2": abs(i3) < 1e-12,
-        "note": "|Σ c_i|² is bi-additive, so I₃ = 0: the Born rule is the grade-2 measure.",
+        "note": "The squared-norm set-function has only singleton and pair terms, so I3=0. This conditional grade-two example does not establish a converse or uniqueness.",
     }
 
 
 def pillars() -> dict:
-    """The four pillars of the resolution, each with an honest status."""
-
+    """Keep formal premises and the adopted Status-M interpretation separate."""
     return {
         "complex": {
-            "claim": "amplitudes are complex (phase-bearing)",
-            "status": "MATH + empirical",
-            "source": (
-                "ℂ is forced by Ω ≠ 0 (empirically, Renou 2021 rules out real QM) "
-                "plus reversibility (O ∩ Sp = U(m), a complex structure J = G⁻¹Ω)."
-            ),
+            "claim": "the chosen amplitude formalism uses complex scalars",
+            "status": "CONDITIONAL_MATH; FIELD_SELECTION_OPEN",
+            "source": "why_complex.py checks compatible forms and a counterexample to reversibility implying compatibility",
+            "complex_field_selected": False,
         },
         "grade2": {
-            "claim": "the single-time measure is grade-2 (I₃ = 0)",
-            "status": "MATH + empirical",
-            "source": "three-slit bounds κ_Sorkin ≲ 10⁻⁴; the Born rule is bi-additive.",
+            "claim": "squared-norm composition gives I3=0 on disjoint alternatives",
+            "status": "CONDITIONAL_MATH; PHYSICAL_RESTRICTION_SEPARATE",
+            "source": "A pair-kernel requires strong positivity separately; finite interference bounds do not derive all QM",
+            "strong_positivity_derived": False,
         },
         "born": {
-            "claim": "the probability rule is P = |c|² (L2, grade-2)",
-            "status": "MATH — consistency check (conditional on L2 normalization)",
-            "source": (
-                "p = 2 is the unique power rule consistent with L2-normalized "
-                "splits; Lp-normalized splits conserve for every p, so this is "
-                "self-consistency, not a derivation (red-team R2-2)."
-            ),
+            "claim": "p=2 conserves probability for an L2-normalized split",
+            "status": "MATH — consistency check conditional on L2 normalization",
+            "source": "Matching Lp-normalized splits conserve for every p; this does not select L2",
+            "born_rule_derived": False,
         },
         "open": {
-            "claim": "the constraint does not contain its own outcome",
-            "status": "Status M (F8-OPEN); NPF-C code-auditable",
-            "source": (
-                "no fact register exists in toy models (NPF-C); whether 'no fact "
-                "about the outcome EXISTS' has no unique discriminator (F8-OPEN)."
-            ),
+            "claim": "the interpreted constraint does not contain its own outcome",
+            "status": "Status M; scoped NPF-C software property is separate",
+            "source": "No stored outcome register in a toy model does not establish absence of an ontological future fact",
         },
     }
 
 
 def coherence_check() -> dict:
-    """Verify the four pillars are mutually consistent (not just individually true).
-
-    The two load-bearing consistencies:
-      (a) Born (p = 2) IS the grade-2 structure — the squared magnitude is
-          bi-additive, so its third-order interference vanishes;
-      (b) ℂ is DYNAMICAL while the static level is REAL (almost-quantum) — the
-          three-slit/Bell static level does not require the complex structure,
-          so the grade-2 (static) and complex (dynamical) pillars do not collide.
-    """
-
+    """Two compatible algebraic examples, not a proof of the ontology or full QM."""
     born_grade2 = born_rule_is_grade2()
     born_unique = uniqueness_scan()
-    observation = connection_to_observation()
-    real_qm = real_part_gives_real_qm()
-
+    real_kernel = real_part_gives_real_qm()
     born_p2_conserves_L2 = born_unique["conserving_under_L2_split"] == [2.0]
     return {
         "born_rule_is_grade2": born_grade2["born_rule_is_grade2"],
         "I3_from_born_rule": born_grade2["I3"],
         "born_p2_conserves_L2": born_p2_conserves_L2,
         "lp_split_conserves_for_all_p": born_unique["lp_split_conserves_for_all_p"],
-        "static_level_is_real": "real-realizable" in observation["kinematics_are_real"],
-        "complex_is_dynamical": "DYNAMICS" in observation["complex_is_dynamical"]
-        or "dynamical" in observation["complex_is_dynamical"].lower(),
-        "real_qm_not_classical": real_qm["real_QM_not_classical"],
-        "coherent": (
-            born_grade2["born_rule_is_grade2"]
-            and born_p2_conserves_L2
-            and real_qm["real_QM_not_classical"]
-        ),
+        "static_level_is_real": False,  # No blanket identification of physical static theory.
+        "complex_is_dynamical": False,  # No scalar-field selection by dynamics alone.
+        "real_qm_not_classical": real_kernel["real_QM_not_classical"],
+        "coherent": (born_grade2["born_rule_is_grade2"] and born_p2_conserves_L2
+                     and real_kernel["real_QM_not_classical"]),
+        "scope": {"algebraic_examples_only": True, "ontology_validated": False,
+                  "complex_field_selected": False, "full_qm_derived": False},
     }
 
 
 def quantum_resolution() -> dict:
-    """The full resolution: four pillars + coherence + the almost-quantum framing."""
-
+    """Assemble the adopted interpretation without promoting its formal premises."""
     return {
         "deadlock": "Quantum (Many-Worlds / Copenhagen / Bohm)",
-        "resolution": (
-            "a superposition is an actual, phase-bearing relational constraint on "
-            "future possibilities — a real, open relation that does not contain "
-            "its own outcome"
-        ),
+        "resolution": "a superposition is interpreted as an actual, open relational constraint on future possibilities",
         "pillars": pillars(),
         "coherence": coherence_check(),
         "almost_quantum": {
-            "static_level": (
-                "real / almost-quantum — Tsirelson: real unit vectors realize the "
-                "(2,2,2) correlation set, so the static level that Bell and "
-                "three-slit probe is real."
-            ),
-            "complex_is_dynamical": (
-                "ℂ is forced by reversible dynamics (U(m)), a dynamical structure, "
-                "not a static correlation."
-            ),
+            "static_level": "Static correlator projections do not identify real operational QM with almost-quantum behavior sets",
+            "complex_is_dynamical": "Compatible forms give a conditional dynamical representation, not a scalar-field selection theorem",
             "precise_claim": connection_to_observation()["verdict"],
+            "real_correlators_equal_almost_quantum": False,
         },
         "provenance": {
-            "complex": "MATH + empirical — why_complex.py (Renou 2021, O∩Sp=U(m))",
-            "grade2": "MATH + empirical — dkappa_decoherence.py (three-slit null)",
-            "born": "MATH — born_rule_uniqueness.py (p = 2 unique)",
-            "open": "Status M — F8-OPEN (no unique discriminator); NPF-C code-auditable",
+            "complex": "conditional compatible-form mathematics",
+            "grade2": "conditional squared-norm identity; physical restriction separate",
+            "born": "L2-normalization consistency check",
+            "open": "Status M; scoped NPF-C code audit is separate",
         },
-        "honest_boundary": (
-            "ADOPTED as a coherent account of the real, complex, grade-2, Born "
-            "constraint; the 'open outcome' pillar remains Status M, not adopted — "
-            "it is the interpretation of what the constraint lacks, and F8-OPEN "
-            "shows no unique discriminator."
-        ),
+        "honest_boundary": "The adopted open-relational reading remains Status M. These algebraic checks neither validate the ontology nor derive full QM.",
+        "full_qm_derived": False,
     }

@@ -1,0 +1,601 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py	2026-09-26 15:17:18
++++ /Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py	2026-09-26 19:30:21
+@@ -1,7 +1,7 @@
+ #!/usr/bin/env python3
+-"""RI122 prospective fixed saved-audit caller; source is not admission.
++"""RI129 prospective fixed saved-audit caller; source is not admission.
+ 
+-The immutable RI120 target and eight premises are never evaluated here. Future
++The immutable RI128 target and five premises are never evaluated here. Future
+ root-created binding, genuine serial custody, source applicability, freeze
+ and authorization must all be present and coherent before any child launch.
+ Missing preparation pins or actual future evidence refuse before Attempt.
+@@ -23,62 +23,61 @@
+ import time
+ 
+ 
+-E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx')
++E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0')
+ C = E/'closure'
+-B = C/'native_growth_connected_sensitivity_v1'
+-O = Path('/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn')
++B = C/'native_growth_connected_strict_sign_v1'
++SOURCE = Path('/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv')
++ANCESTRY = Path('/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx')
+ PYTHON = Path('/opt/homebrew/bin/python3')
+ PS = Path('/bin/ps')
+ SELF = E/'launch_audit.py'
+-TARGET = B/'audit_saved_certificate.py'
+-AUDIT_PLAN = E/'AUDIT_INPUT.json'
++TARGET = B/'audit_saved.py'
+ AUDIT_BINDING = E/'AUDIT_BINDING.json'
+ CERTIFICATE = E/'AUDIT_CANDIDATE.json'
+ CERTIFICATE_ORIGINAL = E/'CERTIFICATE.json'
+ NATIVE_CANDIDATE = B/'CERTIFICATE.json'
+-HISTORY = E/'HISTORY_RECONCILIATION.json'
+-RUNTIME = E/'RUNTIME_CLOSURE.json'
++OLD_E = Path('/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx')
++HISTORY = OLD_E/'HISTORY_RECONCILIATION.json'
++RUNTIME = OLD_E/'RUNTIME_CLOSURE.json'
++DEPENDENCIES = E/'SOURCE_DEPENDENCIES.json'
++# Authored closed source metadata; this identity confers no execution authority.
++DEPENDENCIES_BYTES = 583262
++DEPENDENCIES_SHA256 = 'a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c'
++DEPENDENCY_ENTRIES = None
+ RUNTIME_BYTES = 2862854
+ RUNTIME_SHA256 = '35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920'
+ RUNTIME_VALUE, RUNTIME_IDENTITY, RUNTIME_ENTRIES = None, None, None
+ # Immutable reviewed metadata; an absent or changed manifest refuses preparation.
+ HISTORY_BYTES = 2170307
+ HISTORY_SHA256 = 'b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c'
+-RI120_DECISION = Path('/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json')
+-RI120_PIN = (4346, '35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5')
++RI128_DECISION = Path('/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json')
++RI128_DECISION_PIN = (3230, '324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1')
++# Closed original/copy order shared with the independently authored audit caller.
+ PAIRS = (
+-    ('checker', O/'check.py', B/'check.py', 66669, '51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f'),
+-    ('auditor', O/'audit_saved_certificate.py', B/'audit_saved_certificate.py', 63729, '7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd'),
+-    ('implementation', O/'IMPLEMENTATION.md', B/'IMPLEMENTATION.md', 16451, '40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b'),
+-    ('audit_contract', O/'AUDIT_CONTRACT.md', B/'AUDIT_CONTRACT.md', 11664, 'f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab'),
+-    ('ri88', Path('/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json'), B/'inputs'/'ri88.json', 1828149, 'ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b'),
+-    ('ri111', Path('/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md'), B/'inputs'/'ri111.md', 20656, 'ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53'),
+-    ('ri109_adjudication', Path('/Volumes/AI_DATA/development/det-review-evidence/ri109-root-concrete-admission-cyl8y1as/RI109_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json'), B/'inputs'/'ri109_adjudication.json', 4849, '26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf'),
+-    ('ri111_adjudication', Path('/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json'), B/'inputs'/'ri111_adjudication.json', 3838, 'fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249'),
+-    ('ri115_adjudication', Path('/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json'), B/'inputs'/'ri115_adjudication.json', 6678, 'a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480'),
+-    ('ri117', Path('/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md'), B/'inputs'/'ri117.md', 15564, '9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194'),
+-    ('ri117_connected', Path('/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md'), B/'inputs'/'ri117_connected.md', 11893, 'ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0'),
+-    ('ri117_adjudication', Path('/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json'), B/'inputs'/'ri117_adjudication.json', 4617, '862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3'),
++    ('checker', SOURCE/'check.py', B/'check.py', 27288, '73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38'),
++    ('auditor', SOURCE/'audit_saved.py', B/'audit_saved.py', 41355, '5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7'),
++    ('implementation', SOURCE/'IMPLEMENTATION.md', B/'IMPLEMENTATION.md', 9005, 'e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26'),
++    ('audit_notes', SOURCE/'AUDIT_NOTES.md', B/'AUDIT_NOTES.md', 13789, '89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6'),
++    ('ri88', ANCESTRY/'closure'/'native_growth_connected_sensitivity_v1'/'inputs'/'ri88.json', B/'inputs'/'ri88.json', 1828149, 'ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b'),
++    ('ri88_root', Path('/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json'), B/'inputs'/'ri88_root.json', 2783, '15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6'),
++    ('ri122_root', Path('/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json'), B/'inputs'/'ri122_root.json', 15477, '162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc'),
++    ('ri124_root', Path('/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json'), B/'inputs'/'ri124_root.json', 3645, '85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c'),
++    ('ri127_root', Path('/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json'), B/'inputs'/'ri127_root.json', 4071, '66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77'),
+ )
+ PRODUCER_MODES = ('witness', 'normal', 'optimized')
+-DESCRIPTOR_CUSTODY_ROLES = (
+-    'producer_witness_stdout', 'producer_witness_custody',
+-    'producer_normal_custody', 'producer_optimized_custody', 'consumer_source_review',
+-)
+ ENV = {'PATH': '/usr/bin:/bin', 'LANG': 'C', 'LC_ALL': 'C', 'TZ': 'UTC',
+        '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'}
+ LIMITS = {'wall_seconds': 120, 'rss_bytes': 536870912,
+           'sample_interval_ms': 50, 'ps_timeout_ms': 250}
+ MODES = ('audit',)
+ CLOSING, LAUNCHING, RECEIVED_SIGNALS = False, False, []
+-PLAN_BYTES, PLAN_SHA256 = None, None
+ CANDIDATE_BYTES, CANDIDATE_SHA256 = None, None
+ BINDING_VALUE, BINDING_IDENTITY, HISTORY_VALUE, HISTORY_IDENTITY = None, None, None, None
+ HISTORY_ENTRIES = None
+ METADATA_IDENTITIES = None
+ ACCEPTED = {role+'_'+suffix: checksum for role, original, copy, count, checksum in PAIRS
+             for suffix in ('original', 'copy')}
+-ACCEPTED['ri120_source_adjudication'] = RI120_PIN[1]
++ACCEPTED['ri128_source_adjudication'] = RI128_DECISION_PIN[1]
+ # Static review inventory, not an executed suite or a qualification claim.
+ # Each tuple names the rejecting path and intended invalid condition.
+ CONTROL_DECLARATIONS = (
+@@ -89,6 +88,13 @@
+     ('runtime-host-drift', 'run', 'identity', 'uname, system version or visible system location differs'),
+     ('runtime-file-changed', 'runtime_file_prerequisites', 'identity', 'one captured runtime file changed'),
+     ('runtime-late-namespace-change', 'run', 'runtime_namespace_change', 'namespace or host changes after launch'),
++    ('unbound-dependency-pin', 'dependency_prepare', 'preparation', 'source dependency manifest pin is missing or placeholder'),
++    ('changed-dependency-manifest', 'dependency_prepare', 'dependency', 'source dependency metadata bytes changed before parsing'),
++    ('dependency-order-or-duplicate', 'dependency_prepare', 'dependency', 'source dependency order or role is not closed'),
++    ('dependency-link-or-alias', 'dependency_prepare', 'dependency', 'source dependency identity is linked or resolved elsewhere'),
++    ('changed-source-dependency', 'verify_source_cards', 'identity', 'one complete static source/evidence identity changed'),
++    ('old-target-qualification-credit', 'validate_mode_custodies', 'prerequisite', 'completed review lacks current15/4/71 checks or credits old qualification'),
++    ('pre-attempt-missing-or-invalid-prerequisite', 'pre_attempt_prerequisites', 'varies-by-failed-prerequisite', 'current freeze/auth or full fixed prerequisite fails before allocation'),
+     ('unbound-history', 'preparation_ready', 'preparation', 'history pin is None or placeholder'),
+     ('changed-history', 'preparation_ready', 'identity', 'manifest bytes no longer match literal pin'),
+     ('missing-binding', 'preparation_ready', 'FileNotFoundError', 'future actual binding does not exist'),
+@@ -116,11 +122,11 @@
+     ('authorization-raw-body-mismatch', 'metadata', 'identity', 'parsed authorization bytes differ from snapshot identity'),
+     ('runtime-link-change', 'validate_freeze', 'identity', 'runtime literal symlink or bytes differs from freeze'),
+     ('missing-explicit-auth', 'validate_authorization', 'authorization', 'root authorization is not exact positive admission'),
+-    ('descriptor-alias', 'validate_authorization', 'identity', 'descriptor uses a non-prescribed path alias'),
+-    ('descriptor-physical-alias', 'validate_authorization', 'identity', 'any two of nineteen objects share device/inode'),
+-    ('descriptor-role-order', 'validate_authorization', 'identity', 'five custody roles are permuted'),
+-    ('descriptor-extra-field', 'validate_authorization', 'configuration', 'six-key descriptor extended'),
+-    ('descriptor-oversize', 'validate_authorization', 'identity', 'one descriptor payload exceeds eight MiB'),
++    ('target-path-alias', 'validate_authorization', 'identity', 'one of eight fixed target paths is substituted'),
++    ('target-physical-alias', 'validate_authorization', 'identity', 'any two of eight target objects share device/inode'),
++    ('target-symlink', 'validate_authorization', 'identity', 'a target file or ancestor is a symlink'),
++    ('target-oversize', 'validate_authorization', 'identity', 'one target object exceeds eight MiB'),
++    ('target-certificate-binding', 'validate_authorization', 'authorization', 'native saved certificate differs from actual binding'),
+     ('serial-receipt-only', 'validate_mode_custodies', 'prerequisite', 'receipt claims success without root custody'),
+     ('serial-omitted-prior', 'validate_mode_custodies', 'identity', 'optimized omits genuine normal acceptance'),
+     ('native-false-zero', 'validate_producer_receipts', 'prerequisite', 'child exit false replaces integer zero'),
+@@ -247,17 +253,21 @@
+     for role, original, copy, count, checksum in PAIRS:
+         result[role+'_original'] = original
+         result[role+'_copy'] = copy
+-    result.update(monitor=PS, history_manifest=HISTORY, runtime_manifest=RUNTIME)
++    result.update(monitor=PS, history_manifest=HISTORY, runtime_manifest=RUNTIME,
++                  dependency_manifest=DEPENDENCIES)
+     for item in RUNTIME_ENTRIES:
+         need(item['role'] not in result, 'runtime', 'runtime role collision')
+         result[item['role']] = Path(item['path'])
+     for item in HISTORY_ENTRIES:
+         need(item['role'] not in result, 'configuration', 'historical role collision')
+         result[item['role']] = Path(item['path'])
++    for item in DEPENDENCY_ENTRIES:
++        need(item['role'] not in result, 'dependency', 'source dependency role collision')
++        result[item['role']] = Path(item['path'])
+     result.update(audit_caller=SELF, caller_contract=E/'CALLER_CONTRACT.md',
+                   source_adjudication=E/'ROOT_SOURCE_ADJUDICATION.json',
+                   independent_source_review=E/'INDEPENDENT_SOURCE_REVIEW.json',
+-                  ri120_source_adjudication=RI120_DECISION,
++                  ri128_source_adjudication=RI128_DECISION,
+                   mode_applicability=E/(mode.upper()+'_APPLICABILITY.json'))
+     return result
+ 
+@@ -281,8 +291,7 @@
+                   candidate_custody=E/'CANDIDATE_CUSTODY.json')
+     for name in PRODUCER_MODES:
+         result.update(mode_paths(name))
+-    result.update(audit_plan=AUDIT_PLAN, audit_binding=AUDIT_BINDING,
+-                  native_supervisor=E/'supervise.py')
++    result.update(audit_binding=AUDIT_BINDING, native_supervisor=E/'supervise.py')
+     return result
+ 
+ 
+@@ -536,12 +545,61 @@
+         host['system_dependencies'].append(observed)
+     host['trust_boundary'] = RUNTIME_VALUE['host_platform']['trust_boundary']
+     return result
++
++
++def dependency_prepare():
++    """Authenticate only the closed authored metadata; never discover new files."""
++    global DEPENDENCY_ENTRIES
++    if DEPENDENCY_ENTRIES is not None:
++        return
++    need(type(DEPENDENCIES_BYTES) is int and 0 < DEPENDENCIES_BYTES <= 64*1024*1024
++         and hexhash(DEPENDENCIES_SHA256) and DEPENDENCIES_SHA256 != '0'*64,
++         'preparation', 'reviewed source dependency manifest pin is unbound')
++    identity = file_identity(DEPENDENCIES)
++    need((identity['bytes'], identity['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
++         'dependency', 'reviewed source dependency manifest changed')
++    raw = DEPENDENCIES.read_bytes()
++    need(len(raw) == DEPENDENCIES_BYTES and sha256(raw).hexdigest() == DEPENDENCIES_SHA256,
++         'dependency', 'source dependency bytes changed before metadata parse')
++    value = strict_json(raw)
++    exact_keys(value, ('schema', 'status', 'protected_files', 'scope'),
++               'dependency', 'static source dependency manifest')
++    need(value['schema'] == 'ri129-source-dependencies-v1'
++         and value['status'] == 'SOURCE_ONLY_CLOSED_DEPENDENCIES',
++         'dependency', 'static source dependency manifest schema differs')
++    same(value['scope'], {
++        'scientific_execution': False, 'runtime_inventory_created': False,
++        'active_execution_artifacts_created': False, 'old_history_and_runtime_preserved': True,
++    }, 'static source dependency scope differs')
++    need(type(value['protected_files']) is list and bool(value['protected_files']),
++         'dependency', 'static source dependency closure is empty')
++    entries, previous = [], None
++    for index, entry in enumerate(value['protected_files'], 1):
++        exact_keys(entry, ('role', 'path', 'identity', 'classification', 'access_policy',
++                           'reference_provenance'), 'dependency', 'static source dependency entry')
++        path = entry['path']
++        need(entry['role'] == 'dep_'+str(index).zfill(4) and type(path) is str
++             and Path(path).is_absolute() and os.path.normpath(path) == path
++             and (previous is None or previous < path),
++             'dependency', 'static dependency role/order/path differs')
++        validate_identity(entry['identity'], Path(path))
++        need(entry['identity']['resolved_path'] == path and entry['identity']['symlinks'] == [],
++             'dependency', 'static source dependency has a symlink or alias')
++        need(type(entry['classification']) is str and bool(entry['classification'])
++             and type(entry['access_policy']) is str and bool(entry['access_policy'])
++             and type(entry['reference_provenance']) is list,
++             'dependency', 'static dependency provenance field types differ')
++        previous = path
++        entries.append(entry)
++    same(file_identity(DEPENDENCIES), identity, 'source dependency manifest changed during preparation')
++    DEPENDENCY_ENTRIES = tuple(entries)
+ 
+ 
+ def preparation_ready():
+     """Authenticate and cache genuine future bindings before Attempt allocation."""
+-    global PLAN_BYTES, PLAN_SHA256, CANDIDATE_BYTES, CANDIDATE_SHA256
++    global CANDIDATE_BYTES, CANDIDATE_SHA256
+     global BINDING_VALUE, BINDING_IDENTITY, HISTORY_VALUE, HISTORY_IDENTITY, HISTORY_ENTRIES
++    dependency_prepare()
+     runtime_prepare()
+     if BINDING_VALUE is not None:
+         return  # The launch and cleanup argv never follow a subsequently changed card.
+@@ -575,17 +633,16 @@
+     binding_id = file_identity(AUDIT_BINDING)
+     positive_identity(binding_id, AUDIT_BINDING)
+     binding = metadata(AUDIT_BINDING, binding_id)
+-    exact_keys(binding, ('schema', 'status', 'audit_admitted', 'descriptor', 'candidates', 'custodies',
++    exact_keys(binding, ('schema', 'status', 'audit_admitted', 'candidates', 'custodies',
+                         'outer_completions', 'candidate_custody', 'source_adjudication',
+-                        'ri120_source_adjudication', 'history_manifest'), 'preparation', 'actual audit binding')
+-    need(binding['schema'] == 'ri122-actual-three-mode-audit-binding-v1'
++                        'ri128_source_adjudication', 'history_manifest', 'dependency_manifest'), 'preparation', 'actual audit binding')
++    need(binding['schema'] == 'ri129-actual-three-mode-audit-binding-v1'
+          and binding['status'] == 'ACCEPT_COMPLETED_THREE_MODE_CUSTODY_FOR_SOURCE_BINDING_ONLY'
+          and binding['audit_admitted'] is False, 'preparation', 'actual audit binding scope differs')
+-    refs = [(binding['descriptor'], AUDIT_PLAN),
+-            (binding['candidate_custody'], E/'CANDIDATE_CUSTODY.json'),
++    refs = [(binding['candidate_custody'], E/'CANDIDATE_CUSTODY.json'),
+             (binding['source_adjudication'], E/'ROOT_SOURCE_ADJUDICATION.json'),
+-            (binding['ri120_source_adjudication'], RI120_DECISION),
+-            (binding['history_manifest'], HISTORY)]
++            (binding['ri128_source_adjudication'], RI128_DECISION),
++            (binding['history_manifest'], HISTORY), (binding['dependency_manifest'], DEPENDENCIES)]
+     exact_keys(binding['candidates'], ('original', 'native', 'audit'), 'preparation', 'candidate binding')
+     for key, path in (('original', CERTIFICATE_ORIGINAL), ('native', NATIVE_CANDIDATE), ('audit', CERTIFICATE)):
+         refs.append((binding['candidates'][key], path))
+@@ -599,18 +656,17 @@
+     for role, path in input_paths('audit').items():
+         resolved, links = resolve_links(path)
+         need(stat.S_ISREG(resolved.stat().st_mode), 'preparation', 'required actual input unavailable: '+role)
+-    PLAN_BYTES, PLAN_SHA256 = binding['descriptor']['bytes'], binding['descriptor']['sha256']
+-    CANDIDATE_BYTES = binding['candidates']['audit']['bytes']
+-    CANDIDATE_SHA256 = binding['candidates']['audit']['sha256']
+-    need(PLAN_BYTES <= 8388608 and CANDIDATE_BYTES <= 8388608,
+-         'preparation', 'descriptor or candidate outside accepted byte ceiling')
++    CANDIDATE_BYTES = binding['candidates']['native']['bytes']
++    CANDIDATE_SHA256 = binding['candidates']['native']['sha256']
++    need(CANDIDATE_BYTES <= 8388608,
++         'preparation', 'native saved candidate outside accepted byte ceiling')
+     BINDING_IDENTITY, BINDING_VALUE = binding_id, binding
+ 
+ 
+ def argv_for(mode):
+     preparation_ready()
+-    return [str(PYTHON), '-I', '-S', '-B', str(TARGET),
+-            str(AUDIT_PLAN), str(PLAN_BYTES), PLAN_SHA256]
++    need(mode == 'audit', 'configuration', 'fixed no-argument audit mode changed')
++    return [str(PYTHON), '-I', '-S', '-B', str(TARGET)]
+ 
+ 
+ def native_argv(mode):
+@@ -798,34 +854,20 @@
+     same(value, known[str(path)], 'full current reference differs: '+str(path))
+ 
+ 
+-def validate_ri120_source_decision(value):
+-    """The exact fixed RI120 decision accepts source, never actual sensitivity."""
+-    need(value.get('schema') == 'ri120-root-connected-sensitivity-source-adjudication-v1'
+-         and value.get('status') == 'ACCEPT_CONDITIONAL_PREFIX_IDENTITIES_AND_COMPLETE_SENSITIVITY_SOURCE_ONLY'
+-         and value.get('blocking_findings') == []
+-         and value.get('active_execution_admission') is False
+-         and value.get('actual_sensitivity_decided') is False
+-         and value.get('fixed_28_child_repair_rejected') is False
+-         and value.get('full_positive_repair_proved') is False
+-         and value.get('runtime_fit_measured') is False
+-         and value.get('scientific_operand_decoding_performed') is False
+-         and value.get('source_qualification_executed') is False
+-         and value.get('target_import_parse_compile_probe_run') is False
+-         and value.get('programme_complete') is False,
+-         'prerequisite', 'RI120 accepted source-only boundary differs')
+-    same(value.get('accepted_source_scope'), {
+-        'Q2_contrasts': 15, 'V_contrasts': 7,
+-        'allzero_branch': 'f2 constant; null gcd/root/count',
+-        'audit_payloads': 18, 'audit_protected_objects_including_descriptor': 19,
+-        'certificate_sections': 19, 'decision_fixtures_declared': 6,
+-        'family_fixtures_declared': 10, 'held_rows': 40,
+-        'independent_auditor': 'integer-pair/sparse/direct-power plus12T3/14T2ideal sums',
+-        'probability_slots': 224, 'producer': 'Fraction/dense/Horner',
+-        'producer_refusals_declared': 166,
+-        'restricted_rejection_condition': 'f2 and f3 both proved nonconstant only',
+-        'root_fixtures_declared': 16,
+-        'surviving_root_branch': 'f2 undetermined at fixed actualrho',
+-    }, 'RI120 exact accepted scope differs')
++def validate_ri128_source_decision(value):
++    """The exact RI128 decision accepts unexecuted sources, never actual signs."""
++    need(value.get('schema') == 'ri128-root-proof-source-adjudication-v1'
++         and value.get('status') == 'ACCEPT_ACTUAL_SCALE_CONTAINMENT_AND_BOUNDED_UNEXECUTED_SIGN_SOURCES'
++         and value.get('actual_signs_decided') is False
++         and value.get('full_H30_feasibility') is False
++         and value.get('numerical_qualification_accepted') is False
++         and value.get('physical_claim') is False
++         and value.get('programme_complete') is False
++         and value.get('resource_feasibility_demonstrated') is False
++         and value.get('scientific_body_decode') is False
++         and value.get('source_execution') is False
++         and value.get('ret_paused') is True,
++         'prerequisite', 'RI128 accepted source-only boundary differs')
+ 
+ 
+ def verify_source_cards(before, known):
+@@ -834,35 +876,42 @@
+         for suffix in ('original', 'copy'):
+             item = observed(before, role+'_'+suffix)
+             need(item['bytes'] == count and item['sha256'] == checksum,
+-                 'identity', 'accepted RI120 pair changed: '+role+'/'+suffix)
++                 'identity', 'accepted RI128 pair changed: '+role+'/'+suffix)
+         need(original.read_bytes() == copy.read_bytes(), 'identity', 'whole source copy differs: '+role)
+-    item = observed(before, 'ri120_source_adjudication')
+-    need((item['bytes'], item['sha256']) == RI120_PIN, 'identity', 'accepted RI120 source decision changed')
+-    accepted = metadata(RI120_DECISION)
+-    validate_ri120_source_decision(accepted)
++    item = observed(before, 'ri128_source_adjudication')
++    need((item['bytes'], item['sha256']) == RI128_DECISION_PIN, 'identity', 'accepted RI128 source decision changed')
++    accepted = metadata(RI128_DECISION)
++    validate_ri128_source_decision(accepted)
+     bind_refs(accepted, known)
+     for item in HISTORY_ENTRIES:
+         same(observed(before, item['role']), item['identity'], 'historical protected identity changed')
+     same(observed(before, 'history_manifest'), HISTORY_IDENTITY, 'historical manifest changed after caching')
++    for item in DEPENDENCY_ENTRIES:
++        same(observed(before, item['role']), item['identity'], 'static source dependency identity changed')
++    dependency_id = observed(before, 'dependency_manifest')
++    need((dependency_id['bytes'], dependency_id['sha256']) == (DEPENDENCIES_BYTES, DEPENDENCIES_SHA256),
++         'dependency', 'source dependency manifest pin differs')
+     sources = {'native_supervisor': known[str(E/'supervise.py')],
+                'audit_caller': known[str(SELF)], 'history_manifest': known[str(HISTORY)],
+                'runtime_manifest': known[str(RUNTIME)],
+-               'caller_contract': known[str(E/'CALLER_CONTRACT.md')]}
++               'caller_contract': known[str(E/'CALLER_CONTRACT.md')],
++               'dependency_manifest': known[str(DEPENDENCIES)]}
+     decision = metadata(E/'ROOT_SOURCE_ADJUDICATION.json')
+     exact_keys(decision, ('schema', 'status', 'accepted_sources', 'independent_review',
+-                         'ri120_source_adjudication', 'history_manifest', 'execution_authorized',
+-                         'qualification_transferred_to_changed_targets'), 'prerequisite', 'RI122 source decision')
+-    need(decision['schema'] == 'ri122-root-caller-source-adjudication-v1'
++                         'ri128_source_adjudication', 'history_manifest', 'dependency_manifest', 'execution_authorized',
++                         'qualification_transferred_to_changed_targets'), 'prerequisite', 'RI129 source decision')
++    need(decision['schema'] == 'ri129-root-caller-source-adjudication-v1'
+          and decision['status'] == 'ACCEPT_EXACT_NATIVE_CALLER_SOURCE_ONLY'
+          and decision['execution_authorized'] is False
+          and decision['qualification_transferred_to_changed_targets'] is False,
+-         'prerequisite', 'RI122 source decision is not exact source-only acceptance')
+-    same(decision['accepted_sources'], sources, 'RI122 accepted source set differs')
++         'prerequisite', 'RI129 source decision is not exact source-only acceptance')
++    same(decision['accepted_sources'], sources, 'RI129 accepted source set differs')
+     for key, path in (('independent_review', E/'INDEPENDENT_SOURCE_REVIEW.json'),
+-                      ('ri120_source_adjudication', RI120_DECISION), ('history_manifest', HISTORY)):
++                      ('ri128_source_adjudication', RI128_DECISION), ('history_manifest', HISTORY),
++                      ('dependency_manifest', DEPENDENCIES)):
+         require_ref(decision[key], path, known)
+     review = metadata(E/'INDEPENDENT_SOURCE_REVIEW.json')
+-    need(review.get('schema') == 'ri122-independent-complete-caller-source-review-v1'
++    need(review.get('schema') == 'ri129-independent-complete-caller-source-review-v1'
+          and review.get('status') == 'PASS_COMPLETE_SOURCE_REVIEW_ONLY'
+          and review.get('blocking_findings') == [] and review.get('scientific_execution') is False
+          and review.get('execution_authorized') is False,
+@@ -876,12 +925,12 @@
+     path = E/(name.upper()+'_APPLICABILITY.json')
+     card = metadata(path)
+     exact_keys(card, ('schema', 'status', 'mode', 'source_adjudication', 'independent_review',
+-                     'ri120_source_adjudication', 'history_manifest', 'supervisor', 'target',
++                     'ri128_source_adjudication', 'history_manifest', 'dependency_manifest', 'supervisor', 'target',
+                      'interpreter', 'monitor', 'argv', 'cwd', 'environment', 'limits',
+                      'retained_engine_only', 'changed_target_qualification_inherited',
+                      'changed_validators_reviewed', 'execution_authorized'),
+                'prerequisite', 'stage applicability')
+-    need(card['schema'] == 'ri122-stage-applicability-v1'
++    need(card['schema'] == 'ri129-stage-applicability-v1'
+          and card['status'] == 'ACCEPT_PRECISE_FIXED_STAGE_APPLICABILITY_ONLY'
+          and card['mode'] == name and card['retained_engine_only'] is True
+          and card['changed_target_qualification_inherited'] is False
+@@ -889,8 +938,8 @@
+          'prerequisite', 'fixed stage applicability scope differs: '+name)
+     for key, target in (('source_adjudication', E/'ROOT_SOURCE_ADJUDICATION.json'),
+                         ('independent_review', E/'INDEPENDENT_SOURCE_REVIEW.json'),
+-                        ('ri120_source_adjudication', RI120_DECISION), ('history_manifest', HISTORY),
+-                        ('supervisor', SELF if name == 'audit' else E/'supervise.py'),
++                        ('ri128_source_adjudication', RI128_DECISION), ('history_manifest', HISTORY),
++                        ('dependency_manifest', DEPENDENCIES), ('supervisor', SELF if name == 'audit' else E/'supervise.py'),
+                         ('target', TARGET if name == 'audit' else B/'check.py'),
+                         ('interpreter', PYTHON), ('monitor', PS)):
+         require_ref(card[key], target, known)
+@@ -914,53 +963,32 @@
+     same(observed(before, 'audit_binding'), BINDING_IDENTITY, 'actual binding changed after preparation')
+     same(metadata(AUDIT_BINDING), BINDING_VALUE, 'actual binding body changed after preparation')
+     bind_refs(BINDING_VALUE, known)
+-    need(observed(before, 'audit_plan')['bytes'] == PLAN_BYTES
+-         and observed(before, 'audit_plan')['sha256'] == PLAN_SHA256,
+-         'authorization', 'actual audit descriptor differs from binding')
+-    descriptor = metadata(AUDIT_PLAN)
+-    exact_keys(descriptor, ('schema', 'phase', 'files', 'accepted_sources', 'audit_source', 'custody_dependencies'),
+-               'configuration', 'independent audit descriptor')
+-    need(descriptor['schema'] == 'ri120-independent-audit-input-v1'
+-         and descriptor['phase'] == 'fixed_saved_certificate_audit',
+-         'authorization', 'fixed independent audit interface differs')
+-    def short(role):
+-        return {key: observed(before, role)[key] for key in ('path', 'bytes', 'sha256')}
+-    files = {name: short(name+'_copy') for name in (
+-        'ri88', 'ri111', 'ri109_adjudication', 'ri111_adjudication',
+-        'ri115_adjudication', 'ri117', 'ri117_connected', 'ri117_adjudication')}
+-    files['candidate'] = short('audit_candidate')
+-    sources = dict(checker=short('checker_copy'), protocol=short('implementation_copy'),
+-                   contract=short('audit_contract_copy'))
+-    custody = [dict(role='producer_witness_stdout', **short('witness_stdout')),
+-               *[dict(role='producer_'+name+'_custody', **short(name+'_custody')) for name in PRODUCER_MODES],
+-               dict(role='consumer_source_review', **short('ri120_source_adjudication'))]
+-    same(descriptor['files'], files, 'descriptor fixed input set differs')
+-    same(descriptor['accepted_sources'], sources, 'descriptor fixed source set differs')
+-    same(descriptor['audit_source'], short('auditor_copy'), 'descriptor executing auditor differs')
+-    same(descriptor['custody_dependencies'], custody, 'descriptor ordered custody differs')
+-    need(tuple(item['role'] for item in custody) == DESCRIPTOR_CUSTODY_ROLES,
+-         'configuration', 'descriptor custody declaration order differs')
+-    payload_roles = ('ri88_copy', 'ri111_copy', 'ri109_adjudication_copy', 'ri111_adjudication_copy',
+-                     'ri115_adjudication_copy', 'ri117_copy', 'ri117_connected_copy', 'ri117_adjudication_copy',
+-                     'audit_candidate', 'checker_copy', 'implementation_copy', 'audit_contract_copy', 'auditor_copy',
+-                     'witness_stdout', 'witness_custody', 'normal_custody', 'optimized_custody', 'ri120_source_adjudication')
+-    need(len({observed(before, role)['path'] for role in payload_roles}) == 18
+-         and str(AUDIT_PLAN) not in {observed(before, role)['path'] for role in payload_roles},
+-         'configuration', '18 bindings require exactly 18 payloads plus descriptor')
++    # The accepted RI128 consumer takes no descriptor or operands. Protect its
++    # exact eight sibling objects, independently of the larger outer inventory.
++    target_roles = ('auditor_copy', 'checker_copy', 'ri88_copy', 'ri88_root_copy',
++                    'ri122_root_copy', 'ri124_root_copy', 'ri127_root_copy', 'certificate')
++    target_paths = (TARGET, B/'check.py', B/'inputs'/'ri88.json',
++                    B/'inputs'/'ri88_root.json', B/'inputs'/'ri122_root.json',
++                    B/'inputs'/'ri124_root.json', B/'inputs'/'ri127_root.json', NATIVE_CANDIDATE)
++    need(len(set(target_paths)) == 8, 'configuration', 'eight target paths must be distinct')
+     physical = set()
+-    for role in (*payload_roles, 'audit_plan'):
++    for role, path in zip(target_roles, target_paths):
+         item = observed(before, role)
+-        need(type(item['bytes']) is int and 0 < item['bytes'] <= 8388608
+-             and item['sha256'] != '0'*64 and not item['symlinks'] and item['path'] == item['resolved_path'],
+-             'identity', 'descriptor payload must be positive bounded literal file: '+role)
+-        # Five-field byte identities remain unchanged; reject physical aliases
+-        # separately for the entire fixed eighteen-payload/descriptor domain.
++        need(item['path'] == str(path) and type(item['bytes']) is int
++             and 0 < item['bytes'] <= 8388608 and item['sha256'] != '0'*64
++             and not item['symlinks'] and item['path'] == item['resolved_path'],
++             'identity', 'target object must be positive bounded literal nonsymlink file: '+role)
++        # Full component traversal is authenticated by file_identity; the lstat
++        # device/inode guard additionally rejects same-physical-file aliases.
+         identity = os.stat(item['path'], follow_symlinks=False)
+-        need(stat.S_ISREG(identity.st_mode), 'identity', 'descriptor object is not regular: '+role)
++        need(stat.S_ISREG(identity.st_mode), 'identity', 'target object is not regular: '+role)
+         key = (identity.st_dev, identity.st_ino)
+-        need(key not in physical, 'identity', 'descriptor objects share a physical identity: '+role)
++        need(key not in physical, 'identity', 'target objects share a physical identity: '+role)
+         physical.add(key)
+-        same(file_identity(Path(item['path'])), item, 'descriptor object changed during physical alias guard')
++        same(file_identity(path), item, 'target object changed during physical alias guard')
++    need(observed(before, 'certificate')['bytes'] == CANDIDATE_BYTES
++         and observed(before, 'certificate')['sha256'] == CANDIDATE_SHA256,
++         'authorization', 'actual native saved certificate differs from audit binding')
+     verify_source_cards(before, known)
+     verify_applicability('audit', known)
+     validate_producer_receipts(before)
+@@ -1118,7 +1146,7 @@
+     exact_keys(candidate, ('schema', 'whole_bytes_equal', 'scientific_math_accepted', 'replays_admitted',
+                            'original', 'copy', 'audit_copy', 'source_stdout', 'saved_addendum', 'root_witness_acceptance'),
+                'prerequisite', 'candidate custody')
+-    need(candidate['schema'] == 'ri122-exact-candidate-custody-v1' and candidate['whole_bytes_equal'] is True
++    need(candidate['schema'] == 'ri129-exact-candidate-custody-v1' and candidate['whole_bytes_equal'] is True
+          and candidate['scientific_math_accepted'] is False and candidate['replays_admitted'] is False,
+          'prerequisite', 'candidate creation custody scope differs')
+     for key, path in (('original', CERTIFICATE_ORIGINAL), ('copy', NATIVE_CANDIDATE), ('audit_copy', CERTIFICATE),
+@@ -1150,7 +1178,7 @@
+                              'actual_outer_chunk_id', 'scientific_math_accepted', 'programme_complete',
+                              'root_witness_acceptance', 'root_normal_acceptance', 'candidate_custody',
+                              'saved_summary_whole_bytes_equal'), 'prerequisite', 'completed root custody')
+-        need(custody['schema'] == 'ri122-root-completed-producer-custody-v1'
++        need(custody['schema'] == 'ri129-root-completed-producer-custody-v1'
+              and custody['status'] == 'ACCEPT_COMPLETED_PRODUCER_CUSTODY_ONLY' and custody['mode'] == name
+              and custody['before_after_current_identities_match'] is True and custody['terminal_owned_group_absent'] is True
+              and type(custody['actual_outer_exit']) is int and custody['actual_outer_exit'] == 0
+@@ -1174,15 +1202,16 @@
+             same(custody[key], value, 'completed serial custody dependency differs')
+         exact_keys(admission, ('schema', 'status', 'mode', 'source_adjudication', 'applicability', 'freeze',
+                                'authorization', 'outer_argv', 'outer_cwd', 'outer_environment', 'outer_invocation',
+-                               'retry_or_limit_relaxation_authorized', 'history_manifest'),
++                               'retry_or_limit_relaxation_authorized', 'history_manifest', 'dependency_manifest'),
+                    'prerequisite', 'root stage admission')
+-        need(admission['schema'] == 'ri122-root-stage-admission-v1'
++        need(admission['schema'] == 'ri129-root-stage-admission-v1'
+              and admission['status'] == 'ADMITTED_ONE_FROZEN_'+name.upper()+'_INVOCATION'
+              and admission['mode'] == name and admission['retry_or_limit_relaxation_authorized'] is False,
+              'prerequisite', 'actual root producer admission differs')
+         for key, path in (('source_adjudication', E/'ROOT_SOURCE_ADJUDICATION.json'),
+                           ('applicability', paths[name+'_applicability']), ('freeze', paths[name+'_freeze']),
+-                          ('authorization', paths[name+'_authorization']), ('history_manifest', HISTORY)):
++                          ('authorization', paths[name+'_authorization']), ('history_manifest', HISTORY),
++                          ('dependency_manifest', DEPENDENCIES)):
+             require_ref(admission[key], path, known)
+         same(admission['outer_argv'], [str(PYTHON), '-I', '-S', '-B', str(E/'supervise.py'), name],
+              'root admitted outer argv differs')
+@@ -1204,15 +1233,24 @@
+         same(strict_json(completion['output'].encode()), {'mode': name, 'success': True,
+              'receipt': str(paths[name+'_receipt']), 'receipt_sha256': known[str(paths[name+'_receipt'])]['sha256']},
+              'genuine outer success does not bind exact receipt')
+-        for value, schema, status in ((root, 'ri122-root-completed-mode-review-v1',
++        for value, schema, status in ((root, 'ri129-root-completed-mode-review-v1',
+                                       'PASS_COMPLETED_'+name.upper()+'_CUSTODY_PENDING_INDEPENDENT_REVIEW'),
+-                                     (independent, 'ri122-independent-completed-mode-review-v1',
++                                     (independent, 'ri129-independent-completed-mode-review-v1',
+                                       'PASS_COMPLETED_'+name.upper()+'_CUSTODY_ONLY')):
+             need(value.get('schema') == schema and value.get('status') == status and value.get('mode') == name
+                  and value.get('blocking_findings') == [] and value.get('before_after_current_identities_match') is True
+                  and value.get('terminal_owned_group_absent') is True and value.get('native_arithmetic_recomputed') is False
+                  and value.get('native_mathematics_accepted') is False and value.get('programme_complete') is False,
+                  'prerequisite', 'root or independent completed-mode review differs')
++            checks = value.get('current_target_checks')
++            exact_keys(checks, ('sign_fixtures', 'internal_decision_cases', 'intended_first_refusals'),
++                       'prerequisite', 'completed current-target check counts')
++            need(all(type(checks[key]) is int for key in checks)
++                 and checks == {'sign_fixtures': 15, 'internal_decision_cases': 4,
++                                'intended_first_refusals': 71}
++                 and value.get('current_target_checks_completed') is True
++                 and value.get('changed_target_qualification_inherited') is False,
++                 'prerequisite', 'actual current-target checks absent or old qualification credited')
+             for key, path in (('source_adjudication', E/'ROOT_SOURCE_ADJUDICATION.json'),
+                               ('applicability', paths[name+'_applicability']), ('genuine_outer', paths[name+'_tool_completion']),
+                               ('root_admission', paths[name+'_root_admission']), ('freeze', paths[name+'_freeze']),
+@@ -1224,6 +1262,43 @@
+             same(value.get('outputs'), expected_outputs, 'completed review must bind all six evidence files')
+         for value in (custody, root, independent, admission, outer):
+             bind_refs(value, known)
++
++
++def pre_attempt_prerequisites(mode):
++    """Read-only complete admission validation before allocating audit-01.
++
++    The guarded run repeats every check against fresh observations. This new
++    preflight grants nothing, writes nothing, and inherits no qualification.
++    Its refusal remains an outer failure that root must preserve genuinely.
++    """
++    need(type(mode) is str and mode == 'audit', 'configuration', 'fixed preflight mode changed')
++    preparation_ready()
++    paths = dict(input_paths(mode), interpreter=PYTHON, supervisor=SELF,
++                 freeze=E/'AUDIT_EXECUTION_FREEZE.json', authorization=E/'AUDIT_AUTHORIZATION.json')
++    before = snapshot(paths)
++    namespace_before = runtime_namespace_snapshot()
++    for role in paths:
++        observed(before, role)
++    need(sys.platform == 'darwin' and Path(__file__).absolute() == SELF,
++         'configuration', 'fixed preflight platform or caller path changed')
++    need(dict(os.environ) == ENV and sys.flags.isolated == 1 and sys.flags.no_site == 1
++         and sys.flags.dont_write_bytecode == 1 and sys.flags.optimize == 0
++         and sys.argv == [str(SELF), 'audit'] and Path.cwd() == C,
++         'configuration', 'preflight environment, flags, argv or cwd changed')
++    need(os.path.realpath(sys.executable) == runtime_file_identity(PYTHON)['resolved_path'],
++         'configuration', 'preflight interpreter differs from frozen runtime')
++    same(namespace_before, runtime_expected_namespace(), 'preflight runtime namespace differs')
++    config = metadata(paths['freeze'], observed(before, 'freeze'), allow_floats=False)
++    payload_hash = validate_freeze(config, mode, before)
++    auth = metadata(paths['authorization'], observed(before, 'authorization'), allow_floats=False)
++    validate_authorization(auth, config, mode, payload_hash, before)
++    # Independently finish all physical/namespace observations even when one
++    # path changed. No externally visible admission or attempt exists yet.
++    after = snapshot(paths)
++    namespace_after = runtime_namespace_snapshot()
++    same(after, before, 'preflight inputs changed during full prerequisite validation')
++    same(namespace_after, namespace_before, 'preflight runtime namespace changed')
++    same(namespace_after, runtime_expected_namespace(), 'preflight final runtime namespace differs')
+ 
+ 
+ class Attempt:
+@@ -1346,6 +1421,7 @@
+     need(type(mode) is str and mode in MODES, 'configuration', 'require exactly one fixed mode: audit')
+     CLOSING, LAUNCHING = False, False
+     RECEIVED_SIGNALS.clear()
++    pre_attempt_prerequisites(mode)
+     attempt = Attempt(mode)
+     freeze_path = E/(mode.upper()+'_EXECUTION_FREEZE.json')
+     auth_path = E/(mode.upper()+'_AUTHORIZATION.json')

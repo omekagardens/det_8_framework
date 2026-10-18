@@ -1,0 +1,183 @@
+{
+  "schema": "ri195-independent-review-handoff-v1",
+  "status": "SEALED_RECOMMEND_ACCEPT_BOUNDED_UNEXECUTED_SOURCE_ONLY",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb",
+  "namespace": [
+    "AUTHOR_ADMIN_LITERAL.js",
+    "AUTHOR_ADMIN_REPLAY.js",
+    "AUTHOR_REPLAY_RESULT.json",
+    "AUTHOR_REPLAY_STDERR.txt",
+    "HANDOFF.json",
+    "INDEPENDENT_ADMIN_ATTEMPT2_STDERR.txt",
+    "INDEPENDENT_ADMIN_ATTEMPT2_STDOUT.txt",
+    "INDEPENDENT_ADMIN_CHECK.json",
+    "INDEPENDENT_ADMIN_STDERR.txt",
+    "INDEPENDENT_ADMIN_STDOUT.txt",
+    "INDEPENDENT_REVIEW.md",
+    "INITIAL_AUTH.json",
+    "PUBLICATION_SUBSET.json",
+    "SEAL_CHECK.json",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_metadata.attempt1.js",
+    "check_metadata.js"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_ADMIN_LITERAL.js",
+      "bytes": 15359,
+      "sha256": "5f4ebe759c21d961e3dd367763b92130055fc4d931c1a632ac565c2bf11d97ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_ADMIN_REPLAY.js",
+      "bytes": 15359,
+      "sha256": "d03ab99ee72db78bf61a93ec600f6470557910b583e08ca5f8a94af7c5d29898"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_RESULT.json",
+      "bytes": 3128,
+      "sha256": "9679022a2480c8ecfa783d634b932dc6ac496c6943a9d12d355d39fc922410a4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDERR.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDOUT.txt",
+      "bytes": 244,
+      "sha256": "d1e40ca7191e53dbf0a2dc800f4833e2f66a3a2809a2925a1442202401242e0c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_CHECK.json",
+      "bytes": 107858,
+      "sha256": "e2be441d5fda2851c3814eeaef3ec8bab38b66b193ac150e7d660784fe3f35b5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDERR.txt",
+      "bytes": 1133,
+      "sha256": "97e1268a3a5bf7b17a837b91d31fbc8a6fc3127bd8fa52dcb7ed349d416be6d6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDOUT.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_REVIEW.md",
+      "bytes": 15929,
+      "sha256": "98b04475a154d5c03cf917eda775452c742887e8ed45dad648817abcaa082bb4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INITIAL_AUTH.json",
+      "bytes": 1098,
+      "sha256": "cb2c9ef49de39f109870d871c2dca3c4ba8697dfbcecee0f371177fbe7d320ba"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/PUBLICATION_SUBSET.json",
+      "bytes": 4541,
+      "sha256": "7a990dbc9473bceddc5b8d540582222931018e59dbd81ac112288e57b85924e2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/SEAL_CHECK.json",
+      "bytes": 4148,
+      "sha256": "f0302fa9f949387352078e9cb7b02ab1d691b85c0292df253cd3a3519c52b574"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/TOOL_RECEIPTS.json",
+      "bytes": 7927,
+      "sha256": "17253bc7bc3402eb11a4a2dab38b7c58640bc2e2a0504d1806941e2eef796f2b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/VERDICT.json",
+      "bytes": 2957,
+      "sha256": "018b443b5d6658e7395763a5b33e2d260b9e4d5f5553bbcb4a8d6f12577ad95a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.attempt1.js",
+      "bytes": 12116,
+      "sha256": "b78d76ab9a491dcfd8dddff3fe724bb5ae0c4c3c078d3e08a7b37f3c64a31c69"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js",
+      "bytes": 12136,
+      "sha256": "a3b5b88693a57d25476eab58987e22acb83a19a1d39b0399072a57838e545faf"
+    }
+  ],
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI195_REVIEW_ASSIGNMENT.json",
+    "bytes": 2739,
+    "sha256": "2f52986a657c8e389a3d338ddc6b46a8b8262e2463da61759e1ca291fbf1fb35"
+  },
+  "subject_handoff": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/HANDOFF.json",
+    "bytes": 8115,
+    "sha256": "18edf128859c97e28b2924dd22747d5b726545eaac9778fada8968486fa6eb41"
+  },
+  "verdict": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/VERDICT.json",
+    "bytes": 2957,
+    "sha256": "018b443b5d6658e7395763a5b33e2d260b9e4d5f5553bbcb4a8d6f12577ad95a"
+  },
+  "narrative": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_REVIEW.md",
+    "bytes": 15929,
+    "sha256": "98b04475a154d5c03cf917eda775452c742887e8ed45dad648817abcaa082bb4"
+  },
+  "independent_admin_check": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_CHECK.json",
+    "bytes": 107858,
+    "sha256": "e2be441d5fda2851c3814eeaef3ec8bab38b66b193ac150e7d660784fe3f35b5"
+  },
+  "actual_admin_tools": [
+    {
+      "chunk_id": "1ea9f8",
+      "exit_code": 0,
+      "purpose": "Fully read author metadata replay, final9;398 fresh identities."
+    },
+    {
+      "chunk_id": "8169d8",
+      "exit_code": 1,
+      "purpose": "Retained reviewer-only inherited-object selection defect."
+    },
+    {
+      "chunk_id": "78ace9",
+      "exit_code": 0,
+      "purpose": "Corrected independent metadata comparison;399 fresh identities,48004 predicates."
+    }
+  ],
+  "reviewer_nonauthor_of_RI191": true,
+  "prior_authorship_disclosed": true,
+  "blocking_findings": [],
+  "uncredited": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42
+  },
+  "scientific_body_decode": false,
+  "subject_import_compile_AST_probe_run": false,
+  "fixtures_or_runtime_or_admission": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "root_adjudication_required": true,
+  "remaining_limits": [
+    "Inherited RI189 theorem and historical root-list acceptance, not fresh graph/finite-law proof.",
+    "Read-window identity checks are not full-interval custody.",
+    "20 seconds is cooperative reads only, not hard runtime or stdout bound.",
+    "BaseException can prevent final checks; partial stdout/error output requires external rejection.",
+    "Self/interpreter/runtime and tool origin require external authentication.",
+    "Saved-report validation/qualification not implemented or executed by this review.",
+    "Sufficient pair separation would reject only the formal capacity branch; no actual W/H30 or physical claim."
+  ],
+  "stop": "Bounded independent source review complete; no successor or execution assigned by reviewer."
+}

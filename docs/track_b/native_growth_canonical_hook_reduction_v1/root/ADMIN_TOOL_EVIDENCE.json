@@ -1,0 +1,29 @@
+{
+  "author_checks_read": "05183a complete",
+  "author_reported_final": "3ce80c exit0",
+  "author_reported_preseal": "ab2142 exit0",
+  "diagnostics": [
+    "Initial batched manuscript read exceeded aggregate output budget; face and synthesis were then read completely in bb5c83 and1eea05. No proof acceptance based on truncated text."
+  ],
+  "independent_closure": "a73eca exit0",
+  "independent_final_seal": "f6a08d exit0",
+  "independent_narrative_read": "a10580 complete",
+  "root_adjudication": "da644d exit0",
+  "root_seal_and_closure": "1d4db3 exit0",
+  "schema": "ri149-root-actual-administrative-evidence-v1",
+  "scientific_execution": false,
+  "source_closure": {
+    "admin_bodies": 35,
+    "bytes": 3898981,
+    "counterparts": 4,
+    "current_refs": 60,
+    "dependencies": 129,
+    "historical_refs": 506,
+    "inherited_rows": 108
+  },
+  "successor_dispatch": {
+    "accepted_tool_result": true,
+    "task": "RI151",
+    "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  }
+}

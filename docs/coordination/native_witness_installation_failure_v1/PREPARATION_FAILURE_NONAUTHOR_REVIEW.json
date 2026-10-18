@@ -1,0 +1,72 @@
+{
+  "RET_paused": true,
+  "accountability": "I missed the two unchanged installer byte-comparison sites in my prior review. Supersede its operative acceptance while preserving historical record and still-valid clock findings.",
+  "actual_receipts": [
+    {
+      "chunk_id": "49befa",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "12ba62",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "52ab8a",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2e1264",
+      "exit_code": 0
+    }
+  ],
+  "complete_E_reconciliation": {
+    "directories_including_root": 9,
+    "file_hashes_states_directory_memberships_unchanged": true,
+    "files": 48
+  },
+  "findings": [
+    "Preparation line121 sends byte readback into canonical JSON comparator after saved host fsync.",
+    "Installer line61 does the same on every write, first after ATTEMPT before E installation.",
+    "Installer line192 separately does the same on installed-byte reread.",
+    "Postchecker has no corresponding raw byte operand; its pin dictionaries, JSON values and decoded ASCII strings retain valid comparison semantics."
+  ],
+  "installer": {
+    "bytes": 19876,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+    "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+  },
+  "next": "Minimal direct-byte comparison repair in fresh reservation; preserve JSON semantics and D213 partials; fresh source review and root admission before operation.",
+  "original_host": {
+    "bytes": 1893,
+    "path": "/private/tmp/ri217_host_before_transcript.json",
+    "sha256": "708a0963e35fe66c504c0fd2b93a11711c0ba7ae5a57b1b5f61b028441ca211b"
+  },
+  "partial_namespace": [
+    "HOST_GENUINE_TOOL.json",
+    "monitor",
+    "tmp",
+    "worker_proposal"
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "root_failure_attribution": "cb9b00 exit1 is root-reported and source-consistent, not a separate reviewer execution or genuine transcript retrieval.",
+  "saved_host": {
+    "bytes": 1891,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/HOST_GENUINE_TOOL.json",
+    "sha256": "07cbac05498fb9329338592a1dea8255d09145bee24598491722d494509b4305"
+  },
+  "saved_host_equals_complete_canonical_original": true,
+  "schema": "ri217-independent-failure-review-v1",
+  "status": "BLOCK_RI213_INSTALLATION_READINESS_PRESERVE_PARTIALS",
+  "subject": {
+    "bytes": 15472,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/prepare_installation.py",
+    "sha256": "db4ebaa6aba5642ea0ca6c5e710eb1e489b4d7a900d31c3ec5134108de49de0d"
+  },
+  "subject_execution": false,
+  "supersession": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "writes": false
+}

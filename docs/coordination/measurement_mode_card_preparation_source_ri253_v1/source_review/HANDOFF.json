@@ -1,0 +1,58 @@
+{
+  "actual_check": {
+    "chunk_id": "77f000",
+    "exit_code": 0,
+    "opaque_files": 631,
+    "predicates": 37747
+  },
+  "files": [
+    {
+      "bytes": 2809,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/ACTUAL_CHECKS.json",
+      "sha256": "8208ba2a045317e2b34b3ed47a45cb533f4e169470d670a9b8619510b0c8f36a"
+    },
+    {
+      "bytes": 161061,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/CHECK.json",
+      "sha256": "1574558be29b4341e6442ced57faefe9e4d4ab3863d2de7e0e340cde8160ac4c"
+    },
+    {
+      "bytes": 1246,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/PUBLICATION_SUBSET.json",
+      "sha256": "bdf438c6d4e1fc8e2329511edb13f35f9fc12b1d74fd805027c692f3f7ef27cb"
+    },
+    {
+      "bytes": 13101,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/REVIEW.md",
+      "sha256": "42c90c67cf03ab90fd0c9a8f6530ad739f5276e5124711b67fd2f4b48070287a"
+    },
+    {
+      "bytes": 11871,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/check_source.py",
+      "sha256": "33e4519059c79b86919251ec639743db5895283e4567b6422081a11b64bfe5f1"
+    }
+  ],
+  "namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.json",
+    "HANDOFF.json",
+    "PUBLICATION_SUBSET.json",
+    "REVIEW.md",
+    "check_source.py"
+  ],
+  "next_action": "Root exact source adjudication, then separate genuine preparation-only admission. Do not execute a mode_card operation based on this source review.",
+  "no_concrete_blockers": true,
+  "operational_authorization": false,
+  "prior_authorship_disclosed_in_review": true,
+  "reservation": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz",
+  "root_adjudication_required": true,
+  "schema": "ri249-mode-card-independent-source-review-handoff-v1",
+  "scientific_execution_or_qualification": false,
+  "source_nonauthor": true,
+  "status": "RECOMMEND_ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE",
+  "subject": {
+    "bytes": 8850,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "sha256": "ccf34c9baf147994366595cf73be92534733a9b7e3c3810d72c3f227f3a2ab3c"
+  }
+}

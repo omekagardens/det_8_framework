@@ -1,0 +1,139 @@
+{
+  "administrative_run": {
+    "checker": {
+      "bytes": 10998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "sha256": "c506b2dae3291e1535ea71fba2b15e0891a9e30ba0d3b64336bc0c92c1d7135a"
+    },
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+    "exit_code": 0,
+    "result": {
+      "bytes": 1980257,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea"
+    },
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 408,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "sha256": "5aceaf82849ed5b855f62c82c27d8ca321ba814f56ed63583744f61b51139225"
+    },
+    "tool_chunk": "bf2a4f"
+  },
+  "author_diagnostics": {
+    "complete_verbatim_record_in": {
+      "bytes": 1980257,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea"
+    },
+    "record_field": "author_diagnostics_verbatim",
+    "saved_author_tools_are_not_new_independently_observed_executions": true,
+    "source_record": {
+      "bytes": 15758,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/AUTHOR_CHECKS.json",
+      "sha256": "f1841488670b4d71fd6e3ea48a1d15dc9c8e386d22b4e9ad9b1756780de94df2"
+    }
+  },
+  "final_seal_check": "The separately retained seal_review.py checks fresh opaque identities and the full review namespace. Its actual final tool completion is reported to root after invocation; no future success is asserted here.",
+  "read_operations": [
+    {
+      "exit_code": 0,
+      "scope": "Exact assignment, subject handoff and exclusive reservation",
+      "tool_chunk": "61796e"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete STRICT_CAPACITY_SYNTHESIS.md",
+      "tool_chunk": "d3f3c7"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete CAPACITY_STRUCTURE.md",
+      "tool_chunk": "32996b"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete CAPACITY_COMPARISON.md",
+      "tool_chunk": "dc9b49"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete current dependency notes, handoff and analytic result",
+      "tool_chunk": "9b78a9"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete author check record and RI41 NORMALIZATION.md",
+      "tool_chunk": "caaf68"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete source identity metadata and dependency schema/role overview",
+      "tool_chunk": "9c2161"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI63 source definitions 138\u2013168,250\u2013398,910\u2013987 and completion reference search",
+      "tool_chunk": "6b3edd"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI147 actual scale and component contrast accepted premise text",
+      "tool_chunk": "84e460"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI63 completion 35\u201362, certificate-pin location, RI145 weighted definitions and complete root uniform-margin clarification",
+      "tool_chunk": "744803"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI145 weighted definitions, RI153 endpoint/capacity text, RI63 pin_prefix_certificate and complete RI120 prefix lemmas",
+      "tool_chunk": "140cc9"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete RI127 decision contract and local-positivity sign/epsilon source references",
+      "tool_chunk": "b38e6b"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Successful checker stdout and numbered synthesis 80\u2013325",
+      "tool_chunk": "da25d0"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Current review namespace and precise capacity-structure threshold anchors",
+      "tool_chunk": "f5bca2"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete independent administrative checker source readback",
+      "tool_chunk": "b02ac9"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Capacity comparison 1\u2013200 and complete trusted administrative helper source",
+      "tool_chunk": "d846a8"
+    }
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_failed_administrative_attempts": [],
+  "schema": "ri155-independent-actual-checks-v1",
+  "scope": {
+    "RET_resumed": false,
+    "cards_admissions_or_freezes_created": false,
+    "global_graph_enumeration": false,
+    "numerical_scientific_evaluation": false,
+    "repository_or_Git_write": false,
+    "runtime_observation": false,
+    "scientific_body_decoded": false,
+    "scientific_or_symbolic_engine_used": false,
+    "subject_helper_import_compile_AST_probe_run": false
+  },
+  "source_review_and_metadata_check_distinct": true
+}

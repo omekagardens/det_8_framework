@@ -1,0 +1,204 @@
+{
+  "actual_admissions": [
+    {
+      "bytes": 1376,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/ADMIT_NORMAL.json",
+      "sha256": "e79570989f7304792f63e441043e836b920ea864e3821f55cd7f632c788df73c"
+    },
+    {
+      "bytes": 1631,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/ADMIT_OPTIMIZED.json",
+      "sha256": "47b37c5098674ed84652b2c25c27c063f2dba82d68201ae13f7fd6c0db1ec5c5"
+    }
+  ],
+  "actual_custodies": [
+    {
+      "bytes": 12586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/CUSTODY.json",
+      "sha256": "24b8156bc9d071ff4e138f62001771d2d2b32f9e92000d4433164cf1f3286881"
+    },
+    {
+      "bytes": 12610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/CUSTODY.json",
+      "sha256": "fa7e2da413dbf648167531d0491812a352cf0e2029f594f468fb16b776ddb9ab"
+    }
+  ],
+  "actual_normal_accepted_before_distinct_optimized_admission": true,
+  "actual_outer_completions": [
+    {
+      "bytes": 1436,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_NORMAL_GENUINE_OUTER.json",
+      "sha256": "181a85f8445e6e68e34f43132aff475d5f1a6df25051a53d95fe5d37f0d20f6d"
+    },
+    {
+      "bytes": 1448,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_OPTIMIZED_GENUINE_OUTER.json",
+      "sha256": "d5da7f73f4430bfcd15767a9032484f0ffd56ea8e113ca3d42f0dc1893ae2efd"
+    }
+  ],
+  "actual_receipts": [
+    {
+      "bytes": 1853693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/receipt.json",
+      "sha256": "fd139ef39b8d5dc36f80ae025bc545ad41503a4eb6800464220d560924b6204f"
+    },
+    {
+      "bytes": 1853570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/receipt.json",
+      "sha256": "7748da168b9de98cf010f9260af08ce4e82bcc8fe778b050ada12c1199055ab9"
+    }
+  ],
+  "actual_results": [
+    {
+      "bytes": 2296321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/RESULT.json",
+      "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+    },
+    {
+      "bytes": 2296321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/RESULT.json",
+      "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+    }
+  ],
+  "actual_worker_receipts": [
+    {
+      "bytes": 1487446,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/runtime.json",
+      "sha256": "82f204796efffd9450a4b1c1d2eae74b497659a7c2bd30219b89aa38f9727373"
+    },
+    {
+      "bytes": 1487929,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/runtime.json",
+      "sha256": "2a399a3e1c6a125b4a306d79b73d48cf126f74272e479935d89f4731ab217110"
+    }
+  ],
+  "blocking_findings": [],
+  "boundaries": [
+    "The separate mathematical reviewer did not independently recompute every RI73 coefficient contraction or HDF5 extraction; genuine admitted endpoint validator and accepted predecessor premises remain. This report does not relabel those as newly proved.",
+    "Finite conventional processing-context sensitivity on public development/calibration data only. No detector covariance, probability law, p-value, physical calibration, protected validation, native forward map or geometry/gravity proof. RET remains paused.",
+    "No target import, replay, additional scientific calculation, active admission, source mutation, repository or git operation was performed by this reviewer."
+  ],
+  "check_count": 9103,
+  "check_evidence": {
+    "bytes": 3686707,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-final-two-mode-qPYGA95L/FINAL_TWO_MODE_CUSTODY_CHECKS.json",
+    "sha256": "b8354080c0767bce3a63c8ff61b5b4a8e05a6073c29de9274ea20bb3d701ab44"
+  },
+  "complete_whole_result_and_all_six_artifacts_byte_equal": true,
+  "conclusions": [
+    "Both genuine outer completions and child exits are zero, with exact isolated interpreter flags and optimized -O on both processes. Root accepted actual normal custody before separately admitting optimized.",
+    "Fresh complete sources, 536 history references, 3925 runtime files, four interpreter links and six input original/copy states remain exact; both full scientific runtime probes in both modes match the frozen accepted runtime.",
+    "Every optimized raw RSS observation reconstructs its sample. Normal raw monitoring is also rechecked. Both peaks, active child durations, all gaps and final-to-reap gaps satisfy unchanged limits.",
+    "All 24 retained mode files are accounted for through fresh exact output and prior normal verdict bindings; complete result and each of the six scientific artifacts are byte identical across genuinely executed modes.",
+    "Separate independently authored saved arithmetic review passes on these same saved values with explicit inherited coefficient and scientific-scope premises. This custody review introduces no new scientific calculation or wider physical claim."
+  ],
+  "freeze": {
+    "bytes": 203759,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/AUTHORIZED_FREEZE.json",
+    "sha256": "8cf0c885c6431a10a3e4e7f816cc2023ba1832db2c94d391a0bc17695481cf8a"
+  },
+  "fresh_input_custody": {
+    "bytes": 6162,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_ROOT_INPUT_CUSTODY.json",
+    "sha256": "44cb9e51663ccbfdb9f49ea6bfe79c4212258721359104be18b12b50e526dce1"
+  },
+  "mathematical_review_interpretation": "Independently read and authenticated as separate normal-mode saved arithmetic evidence, not rerun by this custody reviewer. Its precise coefficient and predecessor premises remain. Whole normal/optimized result and all six artifacts are byte identical, so its saved-value conclusions apply to those same bytes; distinct genuine optimized execution/custody is established here.",
+  "nonblocking_findings": [],
+  "normal_root_acceptance": {
+    "bytes": 1888,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_NORMAL_ROOT_REVIEW.json",
+    "sha256": "0ee212c2183a6471bb910e35cfa25f92e1d0a14d34a538da07c7a64fa1d5b788"
+  },
+  "optimized_artifacts": [
+    {
+      "bytes": 846604,
+      "name": "H1-left-mean.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/H1-left-mean.json",
+      "sha256": "e05c5668293a9dde65e2424319fe6efb2bc71d02c66fb2c10839464e6a9480e6"
+    },
+    {
+      "bytes": 1048576,
+      "name": "H1-raw.f64le",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/H1-raw.f64le",
+      "sha256": "2afb44a36d1bd7561cdcf704ccd26243978eff9823b3e04a11866e4f626e284b"
+    },
+    {
+      "bytes": 842609,
+      "name": "H1-right-mean.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/H1-right-mean.json",
+      "sha256": "768279a751f16b3be4aec725d697ec971f82281ee3da3bd5fd02701224a2280a"
+    },
+    {
+      "bytes": 833955,
+      "name": "L1-left-mean.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/L1-left-mean.json",
+      "sha256": "acfeb3545818b4439ada762768b004458aa9108c4438c8a7b23cf997c5a9d01e"
+    },
+    {
+      "bytes": 1048576,
+      "name": "L1-raw.f64le",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/L1-raw.f64le",
+      "sha256": "6777425af4daee88061b1270da035cdd6ee723211f55f3445aa9dea43b2c1ed4"
+    },
+    {
+      "bytes": 831334,
+      "name": "L1-right-mean.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/artifacts/L1-right-mean.json",
+      "sha256": "a4f399bdd8eb7cfb5b474c3ff54da4a9418af0a330cb22ad9b9fa2088c0a2400"
+    }
+  ],
+  "prior_independent_normal_review": {
+    "bytes": 7159,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-actual-normal-xzIYgvp4/INDEPENDENT_NORMAL_OBSERVED_CUSTODY_REVIEW.json",
+    "sha256": "2c16a30362e409debc996e650f5de1f5ce83820011ea991e46df228ad5ccbcd5"
+  },
+  "remaining_action": "Root may perform final scoped observed-result adjudication using this execution-custody review and the separate saved arithmetic review; repository publication remains root-owned.",
+  "resources": {
+    "normal": {
+      "active_child_seconds": 46.697963333997905,
+      "final_sample_to_reap_gap_seconds": 3.662499875645153e-05,
+      "limits": {
+        "maximum_sample_gap_seconds": 0.1,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "target_poll_seconds": 0.025,
+        "wall_seconds": 180
+      },
+      "maximum_sample_gap_seconds": 0.04005091699946206,
+      "peak_sampled_rss_kib": 285856,
+      "raw_observations": 1429,
+      "samples": 1429,
+      "terminal_zero_sample": true,
+      "worker_seconds": 46.62113762499939
+    },
+    "optimized": {
+      "active_child_seconds": 46.76502070800052,
+      "final_sample_to_reap_gap_seconds": 0.02922545799810905,
+      "limits": {
+        "maximum_sample_gap_seconds": 0.1,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "target_poll_seconds": 0.025,
+        "wall_seconds": 180
+      },
+      "maximum_sample_gap_seconds": 0.0368629169970518,
+      "peak_sampled_rss_kib": 295856,
+      "raw_observations": 1427,
+      "samples": 1427,
+      "terminal_zero_sample": false,
+      "worker_seconds": 46.68020420800167
+    }
+  },
+  "schema": "ri116-independent-final-two-mode-observed-custody-review-v1",
+  "separate_saved_mathematical_review": {
+    "bytes": 9431,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-saved-arithmetic-gxugu8vd/INDEPENDENT_SAVED_SCIENTIFIC_REVIEW.json",
+    "sha256": "a36060d5027cd837f00e6684d3ace79ee63326c61323a28de462133f331e4338"
+  },
+  "source_acceptance": {
+    "bytes": 4089,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "b0a646cad9459f732c7ac0b85a6bb6390c363d7a50e8a7dac81186d98a55fd63"
+  },
+  "status": "PASS_COMPLETE_ACTUAL_TWO_MODE_CUSTODY_AND_SCIENTIFIC_BYTE_EQUALITY"
+}

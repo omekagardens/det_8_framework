@@ -1,0 +1,83 @@
+{
+  "RET_paused": true,
+  "RI131_qualification": false,
+  "actual_data_admission": false,
+  "authorship": {
+    "RI125_independent_validator_author": false,
+    "RI125_primary_and_qualifier_author": true,
+    "RI130_new_caller_author": false,
+    "RI131_author": true,
+    "self_scientific_readjudication": false
+  },
+  "blocking_findings": [],
+  "bound_artifacts": 47,
+  "complete_caller_support_read_files": 9,
+  "complete_caller_support_read_lines": 1802,
+  "executed_caller_controls": 0,
+  "final_source_rehash": {
+    "bytes": 12793,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/FINAL_SOURCE_REHASH.json",
+    "sha256": "ee41b491717478834252256517daad89017b13fbc20bdd598acf32a02266ff61"
+  },
+  "full32_qualification": false,
+  "full_review": {
+    "bytes": 22530,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "da5cea63cc5a073d6d0348eb8eafb4fa635e29a495bbfc93bb5b2752a2c40d47"
+  },
+  "metadata": {
+    "bytes": 177569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/OPAQUE_METADATA_REVIEW.json",
+    "sha256": "f99904467672db7b8b8f37506ceecc1ce8e86bec4494f3d38b5853e9cca168fa"
+  },
+  "mode_relation": {
+    "complete_tree_pins": 3,
+    "dependent_report_pins": 1,
+    "entire_result_and_envelope_required": true,
+    "exact_fixed_files": 53,
+    "permitted_link_targets": 2
+  },
+  "opaque_history_pins": 124,
+  "opaque_original_copy_pairs": 30,
+  "physical_validation": false,
+  "prospective_caller_controls": 65,
+  "required_next": [
+    "Root exact source adjudication",
+    "Separate genuine65caller guards and independent saved custody",
+    "Fresh root startup/cache/runtime/sidecar/profile/host custody",
+    "Separate normal15/W09/both179 scientific admission and complete genuine review",
+    "Separate optimized admission only after accepted normal; entire closed relation and independent final review"
+  ],
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_metadata_draft_failure": {
+    "completed_metadata_tool": "e99155",
+    "error": "KeyError: line_count in author handoff declaration bookkeeping; actual key lines",
+    "genuine_tool": "f287ab",
+    "original_script": {
+      "bytes": 7249,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-caller-independent-review-GpeTxmLW/check_opaque_metadata.before-field-name-fix.py",
+      "sha256": "48103076b9371c6d035da0bbb65c2338d53333a450b9ed3af8b0804418179c3f"
+    },
+    "repair": "Reviewer metadata key only; no source changes"
+  },
+  "root_adjudication_required": true,
+  "runtime_admission": false,
+  "schema": "ri130-independent-complete-caller-source-review-v1",
+  "scientific_qualification": false,
+  "source_handoff": {
+    "bytes": 26684,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+    "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+  },
+  "source_target_activity": false,
+  "status": "PASS_UNEXECUTED_SOURCE_ONLY",
+  "total_packet_files": 48,
+  "white_scope": {
+    "artifacts": 57,
+    "assembly": "W09",
+    "cases": 15,
+    "controls_per_implementation": 179,
+    "source_artifact_postchecks": 74,
+    "tree_postchecks": 3
+  }
+}

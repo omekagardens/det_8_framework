@@ -1,0 +1,54 @@
+{
+  "actual_check": {
+    "bytes": 184052,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/METADATA_CHECK.json",
+    "sha256": "c700e5c0bba58e18f370cb8d34b9565aaac27694b3648cc340a8211e09092241"
+  },
+  "actual_tool": {
+    "bytes": 1057,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/ADMIN_TOOL_RESULT.json",
+    "sha256": "4e637f1d3855de518366ae2469bb412f2c7356cd13766b6469a08f060b7b297d"
+  },
+  "all7_proposed_paths_still_absent": true,
+  "checked341_opaque_objects_still_exact": true,
+  "checker": {
+    "bytes": 10077,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/check_metadata.py",
+    "sha256": "df13aee3e8324b21cb95795004a99417ad12295f1252e8daa4966594c35efb9a"
+  },
+  "checks_executed": 0,
+  "diagnostics": {
+    "bytes": 3723,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "43232f439690eaed09ebdc4ba218d7e08532e74ef5fe6233e183aabede52da86"
+  },
+  "operational_admission": false,
+  "publication": {
+    "bytes": 905,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/PUBLICATION_SUBSET.json",
+    "sha256": "80f5b63777211250fbe2c3ccb319bc2cac47dde347227c69d3f1b3633a32ea91"
+  },
+  "review": {
+    "bytes": 16745,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "11ca9f7d305a833feac9fe873f63f822496c9f270c2ed2937cae23d59c82e92b"
+  },
+  "schema": "ri165-independent-final-seal-check-v1",
+  "seal_source": {
+    "bytes": 12644,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/seal_review.py",
+    "sha256": "85935ea5a3c064c67e7a09707e3284c3e29f32a32329433a5e09954de7812991"
+  },
+  "subject": {
+    "bytes": 8490,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/HANDOFF.json",
+    "sha256": "5ea6624c7aa52e72ab1810a9446f720f849d9b2ebff5bfee338efe313ec4a6da"
+  },
+  "subject16_namespace15_payloads_still_exact": true,
+  "subject_executed": false,
+  "verdict": {
+    "bytes": 6307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/VERDICT.json",
+    "sha256": "b80d3ddfab9c6b6db0d0d23f8f14869b40e074b1fd599e2c407fd4127f8e50eb"
+  }
+}

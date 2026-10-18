@@ -1,0 +1,134 @@
+{
+  "exact_copies": 23,
+  "parent": "13c9f8d199538d0b6980fc4026f1feea5a9b4993",
+  "payload": [
+    {
+      "bytes": 259342,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "ab8dc360760ccf419513e1ded3da626cc6564a064250401bf602eb3ee8239c2e"
+    },
+    {
+      "bytes": 2369,
+      "path": "README.md",
+      "sha256": "3fc67030184ae5998fa22f57171fa781baded949edb50d1a96ccd91be0c05cb3"
+    },
+    {
+      "bytes": 10656,
+      "path": "review/FINAL_PIN_CHECK.json",
+      "sha256": "9d4e4d03ff1e2ae79222de607b7cd2b2e8aa2003b33e05a35d2263a85ad7e617"
+    },
+    {
+      "bytes": 3086,
+      "path": "review/HANDOFF.json",
+      "sha256": "e64a15ac7f69e027e09d3e7f7fa99dfcfd21fe58fbe242ebf82a398e33b9f244"
+    },
+    {
+      "bytes": 10904,
+      "path": "review/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "c2f217a842d1b9155caa2465e5c140553ab37cdb4d6bf011e9cd57051ab2db01"
+    },
+    {
+      "bytes": 19067,
+      "path": "review/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "d16b472b657149f2f376f31aa57fbe447429d74a008b78696b5b4d24f5716a08"
+    },
+    {
+      "bytes": 443112,
+      "path": "review/OPAQUE_TEXT_REVIEW.json",
+      "sha256": "ee3838f4dca838f11bc30ca60e1b519818910f0d0c42d6f52b82ccd5721d99dc"
+    },
+    {
+      "bytes": 10049,
+      "path": "review/check_metadata.py",
+      "sha256": "c0bc26d799b1d89fc34d9003a82b3ea0d03d4771d45634087aebb5b036f7f78a"
+    },
+    {
+      "bytes": 1879,
+      "path": "root/RI136_ROOT_ADJUDICATION.json",
+      "sha256": "f0ef5da599deca5aefeb11ddcd7e99ea581185adc4e15c98c15cf783c6a7c5bd"
+    },
+    {
+      "bytes": 252340,
+      "path": "root/ROOT_REVIEW_RECONCILIATION.json",
+      "sha256": "d5cdb3978aea53001d6bea4ca4d69622083f65bf1c14ecf91d4618e46124c231"
+    },
+    {
+      "bytes": 4969,
+      "path": "root/ROOT_SOURCE_REVIEW.md",
+      "sha256": "810c987781cc3ddd9c236a8d930bf1c39f9e3ab17be3b7ee2f0d3941365263bc"
+    },
+    {
+      "bytes": 741,
+      "path": "root/SUCCESSOR_RESERVATIONS.json",
+      "sha256": "a15b9199e9bbabd3afaa9bc48f8ac2ef85f653b7cd162fb0b80628fe4e887e14"
+    },
+    {
+      "bytes": 5494,
+      "path": "root/check_review.py",
+      "sha256": "9a8213bb2a5abe2d04a5005bc55cced14525fd5a774720e363ace732947e5ed7"
+    },
+    {
+      "bytes": 4326,
+      "path": "source/AUTHOR_METADATA_CHECK.json",
+      "sha256": "177d9113b1c075c08287c67431e9c96f8b4113f572920bf40d72ff78edec4374"
+    },
+    {
+      "bytes": 12452,
+      "path": "source/DEPENDENCY_NOTES.md",
+      "sha256": "ce68ae6a0afacb2ef8f6dba8713f126f98d85ed717a48563ae5315279ee4b505"
+    },
+    {
+      "bytes": 29850,
+      "path": "source/DISPATCHER_DELTA.patch",
+      "sha256": "e1daeb1355cc9e14700bef00a7747f3c73de844784a628fba06ac2733ca57bbc"
+    },
+    {
+      "bytes": 15744,
+      "path": "source/DISPATCHER_REFUSALS.json",
+      "sha256": "96c642803c98771d44dfd8d9d1b7a0f3a48802465c28a1eb87deeb29fe469df1"
+    },
+    {
+      "bytes": 13943,
+      "path": "source/DISPATCHER_SOURCE_NOTES.md",
+      "sha256": "fcdcaa1aa64e7b21ad7d25560cf5da90cf83b21f89a2da6d7a8b2a10e5a16e25"
+    },
+    {
+      "bytes": 11534,
+      "path": "source/HANDOFF.json",
+      "sha256": "748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18"
+    },
+    {
+      "bytes": 6591,
+      "path": "source/HANDOFF.md",
+      "sha256": "eeb8375be71e5f6f4834a297d3cfa0ab06409b6c2aedad9a2c9d07f3476faa50"
+    },
+    {
+      "bytes": 16996,
+      "path": "source/LAUNCH_COLLECTION_CONTRACT.md",
+      "sha256": "7b685a60cb832530658e2884f0e1ac30ee7b998e4988e437a0384bbdeee07282"
+    },
+    {
+      "bytes": 7507,
+      "path": "source/SOURCE_CORRESPONDENCE.json",
+      "sha256": "7ec9a75ac75cb424bd5a5a66345dc0007209bfa8cbd12fdb3ea8ed4a6b4c235e"
+    },
+    {
+      "bytes": 652822,
+      "path": "source/SOURCE_DEPENDENCIES.json",
+      "sha256": "da5708eb15abbb4da7a8c17b5a6c737b2fce9e8663c2177e4dbb1b9e2107d42c"
+    },
+    {
+      "bytes": 23216,
+      "path": "source/SOURCE_IDENTITIES.json",
+      "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+    },
+    {
+      "bytes": 23248,
+      "path": "source/qualify_policies.py",
+      "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

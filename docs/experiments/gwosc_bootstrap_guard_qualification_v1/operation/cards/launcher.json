@@ -1,0 +1,82 @@
+{
+  "bootstrap_host_preflight": {
+    "bytes": 3078,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/preflight.json",
+    "sha256": "86053d1fc812a247b6b674158b2a4a7007f607291a3f256274b5d9452150c472"
+  },
+  "child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+  ],
+  "controls_admission": {
+    "bytes": 2434,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "sha256": "71542ee3752859987992734d4e42b152afff73d73f6cac5c851ed435bd1cf965"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment",
+  "external_premises": {
+    "apple_loader_and_cache_external": true,
+    "genuine_bootstrap_host_preflight_external": true,
+    "genuine_tool_completion_external": true,
+    "sampled_child_only_not_parent_or_group_quota": true,
+    "saved_parent_pid_not_authenticated_child_identity": true,
+    "stable_supplier_host_and_no_descendants": true
+  },
+  "launcher_adjudication": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/adjudication.json",
+    "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230"
+  },
+  "launcher_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/launch_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json"
+  ],
+  "launcher_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "launcher_review": {
+    "bytes": 4413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/review.json",
+    "sha256": "488a6cec458226b6bd6c6d27e25800112108d36c86ab5cdda8027401793e847b"
+  },
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output",
+  "schema": "ri144-root-bootstrap-launcher-admission-v1",
+  "status": "AUTHORIZE_ONLY_RI144_FIFTEEN_BOOTSTRAP_GUARDS"
+}

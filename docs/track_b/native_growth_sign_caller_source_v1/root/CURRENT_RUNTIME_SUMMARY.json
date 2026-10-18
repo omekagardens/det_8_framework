@@ -1,0 +1,35 @@
+{
+  "caller_launched": false,
+  "changed_caller_qualification": false,
+  "comparison": {
+    "bytes": 2958967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/CURRENT_EXTERNAL_RUNTIME_COMPARISON.json",
+    "sha256": "d0ca96743f68dee99ffcd7f9f8b57338083fa3d8d0872e7c5cdcd1ac37398b6a"
+  },
+  "counts": {
+    "absences": 40,
+    "directories": 258,
+    "history": 699,
+    "runtime": 2988,
+    "sealed": 33,
+    "system_locations": 11
+  },
+  "errors": [],
+  "execution_admitted": false,
+  "metadata_checker": {
+    "bytes": 5866,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/check_native_metadata.py",
+    "sha256": "a18df5ed070c018db8c22a957f5f58be8d7ae68884a7da193489fa7b2118c330"
+  },
+  "metadata_helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+  },
+  "schema": "ri129-current-external-runtime-comparison-summary-v1",
+  "scientific_body_decode": false,
+  "scope": "External read-only current comparison using isolated no-site Apple system Python; retained interpreter libraries/configuration/files, exact namespace/absence/host observations match. Repeat before each future admission. No new pins or drift exceptions.",
+  "status": "MATCHED_FIXED_RUNTIME_AND_HISTORY_METADATA",
+  "target_interpreter_launched": false,
+  "trust_boundary": "Captured application/interpreter runtime under an explicitly trusted Darwin kernel, loader and Apple system shared-cache premise. No complete OS image, cache membership, hermetic execution or cryptographic OS identity is claimed. All named Homebrew dependencies are captured separately, never placed in the Apple system exception."
+}

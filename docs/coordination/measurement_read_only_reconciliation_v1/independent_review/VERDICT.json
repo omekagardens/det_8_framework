@@ -1,0 +1,85 @@
+{
+  "RET_paused": true,
+  "actual_outer": {
+    "bytes": 1305,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_OUTER.json",
+    "sha256": "7c53b796da3cafe8a4c01873722a05976d49ea347e7c24613ffd3ed1767c19ca"
+  },
+  "actual_reconciliation_status": "RECONCILED_PENDING_INDEPENDENT_ROOT_REVIEW",
+  "blocking_findings": [],
+  "check_result": {
+    "bytes": 3209971,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+    "sha256": "1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b"
+  },
+  "checker": {
+    "bytes": 44110,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+    "sha256": "97d16c09d6dd227a6ad5d97c7b4c003bcf40b520bb83473c6548c039a8fdb376"
+  },
+  "checks": 11709,
+  "counts": {
+    "E_directories": 9,
+    "E_files": 49,
+    "copy_pairs": 48,
+    "distinct_files": 2868,
+    "history_roles": 124,
+    "independent_tails": 8,
+    "monitor_files": 4,
+    "monitor_raw_attempts": 63,
+    "monitor_samples": 63,
+    "old_sources": 904,
+    "operation_files": 5,
+    "preparation_dependencies": 992,
+    "prepared_outputs": 9,
+    "prior_roles": 810,
+    "source_domain": 971,
+    "supplier_absences": 2,
+    "supplier_namespace": 195,
+    "target_original_roles": 30,
+    "tools": 4,
+    "vendor": 1810,
+    "vendor_bytes": 48024515
+  },
+  "inherited_authorship": [
+    "Earlier WHITE validator/caller/bootstrap including RI130/RI141; separately accepted semantics inherited"
+  ],
+  "mode_admission": false,
+  "monitor": {
+    "elapsed_seconds": 2.387756666,
+    "exit_code": 0,
+    "final_gap_seconds": 0.027414499999999897,
+    "initial_chunk": "5709fd",
+    "maximum_sample_gap_seconds": 0.046761082999999995,
+    "peak_sampled_rss_kib": 74208,
+    "session": 77528,
+    "terminal_chunk": "d0b911"
+  },
+  "next_root_action": "Adjudicate this exact read-only outcome while preserving old refusal; any later normal WHITE mode remains separately admitted under its accepted contract.",
+  "original_installation_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "qualification_credit": 0,
+  "remaining_premises": [
+    "Genuine root tool/host origin; bytes alone do not establish origin",
+    "Stable supplier and host selections, Apple loader/cache/kernel applicability",
+    "No descendants; sampled owned-child RSS is not continuous/group/parent quota",
+    "Saved parent PID is not authenticated child identity",
+    "Separate root adjudication before frozen-custody acceptance or any later mode admission"
+  ],
+  "review": {
+    "bytes": 12237,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/INDEPENDENT_REVIEW.md",
+    "sha256": "e40308ad2ba90f241eecf8e9a7227229d47e422bbf482d4484b12cee7f281a16"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "root_acceptance_issued_by_reviewer": false,
+  "schema": "ri234-independent-actual-reconciliation-verdict-v1",
+  "scientific_body_decoded": false,
+  "status": "ACCEPT_ACTUAL_READ_ONLY_RECONCILIATION_CUSTODY_FOR_ROOT_ADJUDICATION",
+  "subject_author_is_reviewer": false,
+  "tool_receipts": {
+    "bytes": 5127,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/TOOL_RECEIPTS.json",
+    "sha256": "21be3f45a9eaa19020661b6f67396bf847f17a52a404c064e5f772f86aceeb36"
+  },
+  "whole_identity_count": 2868
+}

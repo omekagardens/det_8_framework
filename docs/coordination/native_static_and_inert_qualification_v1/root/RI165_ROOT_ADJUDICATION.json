@@ -1,0 +1,70 @@
+{
+  "author_deviation": {
+    "disposition": "System-Python administrative startup was outside the assignment; no evidence here of supervisor/caller/fixture/scientific execution. Preserve exact original diagnostics and successful later Node identity checks. Use only Homebrew Python or Node for further administrative work. No retroactive runtime/admission credit or repeated user approval requested.",
+    "record": {
+      "bytes": 1931,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/ADMIN_DIAGNOSTICS.json",
+      "sha256": "e8a230035b6e186ee33725428f357aeaa06cdce57a3a5014762461ee940984fb"
+    },
+    "status": "SOURCE_ONLY_VENDOR_STARTUP_BOUNDARY_VIOLATION_PRESERVED_NO_QUALIFICATION_CREDIT"
+  },
+  "findings": [
+    {
+      "cause": "Only BlockingIOError is handled per pump; other ordinary exceptions leave the whole loop and close the healthy sibling without further bounded drain. Partial observer registration also closes only registered keys.",
+      "focused_checks": "Extend S04/S05/S10 with paired read/write/short-write/unregister/close faults and partial observer registration, exact healthy sibling bytes/EOF or independently recorded failure. No hard-abort recovery promise.",
+      "id": "F01",
+      "locations": [
+        "348\u2013375 and414\u2013419 (caller capture)",
+        "150\u2013177 and198\u2013209 (ps observer)"
+      ],
+      "required_repair": "Isolate failed pumps and retain/close acquired handles independently; continue healthy stream and ordinary termination within original caps/deadline. Preserve primary failure and partials.",
+      "scope": "Honest FAILED state; no false-success allegation. Avoidable complementary diagnostic/handle-retention gap under ordinary errors with original budget remaining.",
+      "severity": "blocking_before_qualification",
+      "source": {
+        "bytes": 22360,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/supervise_native.py",
+        "sha256": "a904343235ce1bd8b7bbad4080ea4103586e18fd2ca0b0573be7e633366a1636"
+      },
+      "title": "Ordinary pump error stops independently available sibling capture"
+    },
+    {
+      "cause": "Observer/journal exception breaks cleanup; direct handle kill follows, but no subsequent bounded process.poll/waitpid or actual saved return/reap update is attempted.",
+      "focused_checks": "Extend S05/S10/S13 with early observer and journal failures while direct child is alive, actual successful kill/reap, kill failure, delayed nonreap and already-exited child.",
+      "id": "F02",
+      "locations": [
+        "380\u2013411, especially401\u2013403/406\u2013411",
+        "459\u2013480"
+      ],
+      "required_repair": "Independently attempt nonblocking direct-child reap after ordinary fallback kill within the original315-second deadline, preserving observer error and explicit cleanup uncertainty. Hard abort remains separate.",
+      "scope": "Honest FAILED receipt denies reap; still an avoidable ordinary owned-child cleanup omission. No claim that direct reap proves descendant absence.",
+      "severity": "blocking_before_qualification",
+      "source": {
+        "bytes": 22360,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/supervise_native.py",
+        "sha256": "a904343235ce1bd8b7bbad4080ea4103586e18fd2ca0b0573be7e633366a1636"
+      },
+      "title": "Ordinary fallback direct kill lacks bounded independent reap"
+    }
+  ],
+  "native_qualification_executed": false,
+  "ret": "paused",
+  "review": {
+    "bytes": 6190,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/HANDOFF.json",
+    "sha256": "ba2e200bd976fa9ab6d7c4dd30bd7d3fdd581d1af82764abdc0b8a7012d57a51"
+  },
+  "root_fresh_recheck": {
+    "bytes": 193384,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI165_ROOT_RECHECK.json",
+    "sha256": "e4f662b626741df730314a3f5a698f2b2288250d6a239ec3d0dd28dafaf1c0b7"
+  },
+  "root_source_coverage": "All488 source lines read; ordinary exception flow and original deadline checked against exact source; no source execution.",
+  "schema": "ri165-root-supervisor-source-adjudication-v1",
+  "source": {
+    "bytes": 8490,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-native-external-supervision-krvtol4v/HANDOFF.json",
+    "sha256": "5ea6624c7aa52e72ab1810a9446f720f849d9b2ebff5bfee338efe313ec4a6da"
+  },
+  "status": "REQUIRE_F01_F02_NARROW_REPAIR_BEFORE_QUALIFICATION",
+  "supervisor_qualification_executed": false
+}

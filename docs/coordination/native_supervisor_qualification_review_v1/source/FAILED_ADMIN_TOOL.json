@@ -1,0 +1,10 @@
+{
+  "schema": "ri171-administrative-failure-record-v1",
+  "chunk_id": "72a8b8",
+  "exit_code": 1,
+  "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs",
+  "preserved_source": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.first.mjs",
+  "classification": "Administrative FilePin key insertion order mismatch. All preceding opaque pins matched; no target or fixture executed.",
+  "output": "file:///Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs:8\nconst rootDecision=JSON.parse(fs.readFileSync(decision.path)); for(const key of ['subject','review','actual_metadata_check']){const e=rootDecision[key];if(JSON.stringify(e)!==JSON.stringify(pin(e.path)))throw Error('decision premise '+key)}\n                                                                                                                                                                                                                 ^\n\nError: decision premise subject\n    at file:///Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/prepare_metadata.mjs:8:210\n    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:654:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)\n\nNode.js v25.3.0\n",
+  "correction": "Compare path/bytes/sha256 values explicitly; actual corrected Node tool880ec6 exited0."
+}

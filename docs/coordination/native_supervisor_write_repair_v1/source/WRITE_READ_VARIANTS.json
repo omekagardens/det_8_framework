@@ -1,0 +1,132 @@
+{
+  "schema": "ri169-would-block-prospective-recipes-v1",
+  "status": "UNEXECUTED_SOURCE_RECIPES_ONLY",
+  "retained_groups": 13,
+  "retained_exact_recipe_count": 28,
+  "additional_recipe_count": 6,
+  "variants": [
+    {
+      "id": "S04.stdout.write_would_block.zero_progress",
+      "group": "S04",
+      "stream": "stdout",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+      "setup": "Both caller payloads must already be available before injected failure. At the first stdout 64-byte payload, on the first output write, before writing any bytes, raises BlockingIOError('RI169_WRITE_ZERO_PROGRESS'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+      "exact_primary": {
+        "stage": "pump:stdout",
+        "type": "BlockingIOError",
+        "message": "RI169_WRITE_ZERO_PROGRESS"
+      },
+      "retained_failed_stream_bytes": 0,
+      "scientific_or_process_credit": false,
+      "oracle": [
+        "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+        "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+        "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+        "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+        "The empty saved file may legitimately match count/hash zero, but that is never success: the primary error and incomplete failed-pump tail force FAILED.",
+        "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+      ],
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.write_would_block.after_prefix",
+      "group": "S04",
+      "stream": "stdout",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+      "setup": "Both caller payloads must already be available before injected failure. At the first stdout 64-byte payload, perform a real 17-byte short write returning 17; the next write of the remaining 47 bytes raises BlockingIOError('RI169_WRITE_AFTER_PREFIX'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+      "exact_primary": {
+        "stage": "pump:stdout",
+        "type": "BlockingIOError",
+        "message": "RI169_WRITE_AFTER_PREFIX"
+      },
+      "retained_failed_stream_bytes": 17,
+      "scientific_or_process_credit": false,
+      "oracle": [
+        "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+        "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+        "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+        "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+        "Retain the actual 17-byte file prefix. counts/hash were not advanced because write_all did not complete; readback mismatch remains secondary and may not replace the primary.",
+        "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+      ],
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.read_would_block.transient",
+      "group": "S04",
+      "stream": "stdout",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one input-fd-specific os.read double; no output write, ps, journal or receipt substitutions.",
+      "setup": "Both payloads available. The first stdout os.read raises BlockingIOError('RI169_READ_TRANSIENT') without consuming any bytes, once only. Its next os.read calls the real read on the same pipe and returns the complete intended 64-byte payload, then real EOF; all output writes are healthy.",
+      "exact_primary": null,
+      "oracle": [
+        "Observe one injected read readiness race followed by the real retained 64-byte read; no earlier refusal or direct-only synthetic call substitutes this traversal.",
+        "No pump error is recorded for this transient read. The input remains active, is not closed at the race, and its payload/count/hash/readback and EOF equal the full intended bytes.",
+        "Healthy sibling and all original tails remain intact. A nonempty stderr payload still causes the independent inherited caller outer stderr nonempty rejection: positive read-pump behavior is not whole-supervisor acceptance.",
+        "No writes are retried or suppressed by this control; fixed actual deadline/host/tool-origin and source-authentication prerequisites remain separate."
+      ],
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write_would_block.zero_progress",
+      "group": "S04",
+      "stream": "stderr",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+      "setup": "Both caller payloads must already be available before injected failure. At the first stderr 64-byte payload, on the first output write, before writing any bytes, raises BlockingIOError('RI169_WRITE_ZERO_PROGRESS'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+      "exact_primary": {
+        "stage": "pump:stderr",
+        "type": "BlockingIOError",
+        "message": "RI169_WRITE_ZERO_PROGRESS"
+      },
+      "retained_failed_stream_bytes": 0,
+      "scientific_or_process_credit": false,
+      "oracle": [
+        "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+        "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+        "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+        "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+        "The empty saved file may legitimately match count/hash zero, but that is never success: the primary error and incomplete failed-pump tail force FAILED.",
+        "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+      ],
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write_would_block.after_prefix",
+      "group": "S04",
+      "stream": "stderr",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+      "setup": "Both caller payloads must already be available before injected failure. At the first stderr 64-byte payload, perform a real 17-byte short write returning 17; the next write of the remaining 47 bytes raises BlockingIOError('RI169_WRITE_AFTER_PREFIX'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+      "exact_primary": {
+        "stage": "pump:stderr",
+        "type": "BlockingIOError",
+        "message": "RI169_WRITE_AFTER_PREFIX"
+      },
+      "retained_failed_stream_bytes": 17,
+      "scientific_or_process_credit": false,
+      "oracle": [
+        "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+        "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+        "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+        "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+        "Retain the actual 17-byte file prefix. counts/hash were not advanced because write_all did not complete; readback mismatch remains secondary and may not replace the primary.",
+        "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+      ],
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.read_would_block.transient",
+      "group": "S04",
+      "stream": "stderr",
+      "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one input-fd-specific os.read double; no output write, ps, journal or receipt substitutions.",
+      "setup": "Both payloads available. The first stderr os.read raises BlockingIOError('RI169_READ_TRANSIENT') without consuming any bytes, once only. Its next os.read calls the real read on the same pipe and returns the complete intended 64-byte payload, then real EOF; all output writes are healthy.",
+      "exact_primary": null,
+      "oracle": [
+        "Observe one injected read readiness race followed by the real retained 64-byte read; no earlier refusal or direct-only synthetic call substitutes this traversal.",
+        "No pump error is recorded for this transient read. The input remains active, is not closed at the race, and its payload/count/hash/readback and EOF equal the full intended bytes.",
+        "Healthy sibling and all original tails remain intact. A nonempty stderr payload still causes the independent inherited caller outer stderr nonempty rejection: positive read-pump behavior is not whole-supervisor acceptance.",
+        "No writes are retried or suppressed by this control; fixed actual deadline/host/tool-origin and source-authentication prerequisites remain separate."
+      ],
+      "executed": false
+    }
+  ],
+  "actual_checks": 0
+}

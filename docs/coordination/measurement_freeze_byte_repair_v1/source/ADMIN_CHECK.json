@@ -1,0 +1,67 @@
+{
+  "JSON_comparator_unchanged": true,
+  "assignment": {
+    "bytes": 2827,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI218_BYTE_REPAIR_ASSIGNMENT.json",
+    "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+  },
+  "base_inputs": 806,
+  "checks": 5332,
+  "complete_clock_and_eight_tail_spans_unchanged": true,
+  "complete_correspondence": [
+    {
+      "entire_reverse_projection": true,
+      "lines": 237,
+      "new": {
+        "bytes": 19877,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+        "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+      },
+      "old": {
+        "bytes": 19876,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+        "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+      },
+      "source": "install_freeze.py"
+    },
+    {
+      "entire_reverse_projection": true,
+      "lines": 141,
+      "new": {
+        "bytes": 22819,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+        "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+      },
+      "old": {
+        "bytes": 22820,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/check_installation.py",
+        "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+      },
+      "source": "check_installation.py"
+    }
+  ],
+  "distinct_opaque_inputs": 849,
+  "exact_two_byte_comparisons_repaired": true,
+  "fixture_execution": false,
+  "new_history_rows": 9,
+  "old_actual_preparation_failure": {
+    "chunk_id": "cb9b00",
+    "exit_code": 1
+  },
+  "old_failure_partials_preserved": true,
+  "preserved_historical_roles": 810,
+  "preserved_old_packet_files": 15,
+  "preserved_old_repair_rows": 19,
+  "prospective_source_count": 857,
+  "qualification_credit": 0,
+  "repair_rows": 43,
+  "schema": "ri218-administrative-source-check-v1",
+  "scientific_decode": false,
+  "source_execution": false,
+  "source_manifest": {
+    "bytes": 1368,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+    "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+  },
+  "status": "PASS_SOURCE_TEXT_AND_OPAQUE_PINS_NOT_EXECUTION"
+}

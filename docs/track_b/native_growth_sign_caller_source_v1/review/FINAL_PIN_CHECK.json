@@ -1,0 +1,155 @@
+{
+  "schema": "ri129-final-original-pins-and-seal-recheck-v1",
+  "original_pairs": [
+    {
+      "role": "checker",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "bytes": 27288,
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "auditor",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "bytes": 41355,
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "implementation",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "bytes": 9005,
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "audit_notes",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "bytes": 13789,
+      "sha256": "89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "ri88",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "ri88_root",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "bytes": 2783,
+      "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "ri122_root",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "bytes": 15477,
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "ri124_root",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "bytes": 3645,
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    },
+    {
+      "role": "ri127_root",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "bytes": 4071,
+      "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77",
+      "matches_declared": true,
+      "stable": true,
+      "scientific_object_decoded": false
+    }
+  ],
+  "all_nine_originals_match": true,
+  "packet_recheck": [
+    {
+      "name": "AUDIT_CALLER_NOTES.md",
+      "matches": true
+    },
+    {
+      "name": "AUDIT_CALLER_SOURCE_DELTA.patch",
+      "matches": true
+    },
+    {
+      "name": "AUTHOR_METADATA_CHECK.json",
+      "matches": true
+    },
+    {
+      "name": "CALLER_CONTRACT.md",
+      "matches": true
+    },
+    {
+      "name": "DEPENDENCY_NOTES.md",
+      "matches": true
+    },
+    {
+      "name": "HANDOFF.md",
+      "matches": true
+    },
+    {
+      "name": "NATIVE_SOURCE_NOTES.md",
+      "matches": true
+    },
+    {
+      "name": "SOURCE_DEPENDENCIES.json",
+      "matches": true
+    },
+    {
+      "name": "SUPERVISE_SOURCE_DELTA.patch",
+      "matches": true
+    },
+    {
+      "name": "TARGET_APPLICABILITY.md",
+      "matches": true
+    },
+    {
+      "name": "launch_audit.py",
+      "matches": true
+    },
+    {
+      "name": "supervise.py",
+      "matches": true
+    }
+  ],
+  "source_namespace": [
+    "AUDIT_CALLER_NOTES.md",
+    "AUDIT_CALLER_SOURCE_DELTA.patch",
+    "AUTHOR_METADATA_CHECK.json",
+    "CALLER_CONTRACT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "NATIVE_SOURCE_NOTES.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SUPERVISE_SOURCE_DELTA.patch",
+    "TARGET_APPLICABILITY.md",
+    "launch_audit.py",
+    "supervise.py"
+  ],
+  "future_closure_absent": true,
+  "runtime_inventory_or_admission_created": false,
+  "scientific_decode": false
+}

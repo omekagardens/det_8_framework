@@ -1,0 +1,63 @@
+{
+  "actual_check_success": {
+    "exit_code": 0,
+    "initial_chunk": "87a62f",
+    "predicates": 87358,
+    "read_inputs": 1820,
+    "session": 94627,
+    "terminal_chunk": "9108b3"
+  },
+  "blocking_findings": [],
+  "complete_check": {
+    "bytes": 20804532,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SAVED_CHECK.json",
+    "sha256": "1f0334a8da5bedd6507f45ced48ba5f0d42e766c3cb65cc6e71ebb14d74334e7"
+  },
+  "declared_outcomes_passed": 65,
+  "earlier_authorship": [
+    "RI125 primary/qualifier",
+    "RI131"
+  ],
+  "guards": 65,
+  "monitor": {
+    "actual_raw_attempts": 148,
+    "actual_samples": 148,
+    "aggregate_process_tree_memory": false,
+    "hard_memory_quota": false,
+    "owned_child_elapsed_includes_startup_and_authentication": true,
+    "parent_elapsed_measured_before_final_COMPLETE_write": true,
+    "terminal_non_numeric_attempts": 0
+  },
+  "narrative": {
+    "bytes": 20637,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+    "sha256": "1ff14097b4608936cbaf16796465e7b48d22cecb5e279042768d9e43fdd85bad"
+  },
+  "next": "Root final acceptance followed by exact later caller/runtime/guard interface preparation and review; scientific normal requires separate admission, optimized requires accepted normal first.",
+  "not_qualified": [
+    "Scientific15WHITE cases or both179 scientific controls",
+    "RI131 additional-validator campaign",
+    "full32 periodic/mean/join",
+    "Actual public-data calculation",
+    "Calibration/native forward map/physical proof"
+  ],
+  "preserved_premises": [
+    "Genuine root tool-origin/session/actual timeout evidence",
+    "Externally authenticated unchanged direct bootstrap and candidate/runtime suppliers",
+    "Stable source/cache/native loader/Apple kernel/shared-cache/no-descendant assumptions",
+    "Root made actual runtime observations; reviewer rechecked saved records and opaque evidence only"
+  ],
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_failed_checker_attempts": 1,
+  "root_reported_subject_retries": 0,
+  "schema": "ri152-independent-actual65-verdict-v1",
+  "source_nonauthor": true,
+  "source_oracle_limits": "Several exact refusal messages and mutated envelopes exist only in executed harness memory; compact saved return plus exact source and genuine custody supply finite source-mediated evidence, not separately serialized exception traces.",
+  "status": "ACCEPT_BOUNDED_ACTUAL65_GUARD_EVIDENCE_PENDING_ROOT_ADJUDICATION",
+  "summary": {
+    "bytes": 3106,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/SUMMARY.json",
+    "sha256": "f8d082bbe2db41e74dec2c8797fddbeae5a25862178cd87da705f48c7d79f222"
+  }
+}

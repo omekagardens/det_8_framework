@@ -1,0 +1,19 @@
+{
+  "fidelity_receipt": "c34042 exit0",
+  "full_text_fidelity": true,
+  "observer_linkage_checks": 14,
+  "observer_receipt": "1e7450 exit0",
+  "observer_tools": {
+    "bytes": 3395,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_SUPPLIER_OBSERVER_TOOLS.json",
+    "sha256": "f58c14c562471a5c3ff9ac33e8d2fddd1062ac2ec7fd9760c3976ab47f45a41f"
+  },
+  "original_RI130_RI141_authorship_disclosed": true,
+  "review": {
+    "bytes": 3360,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_INDEPENDENT_REVIEW.md",
+    "sha256": "bf05aa791e404c7fcda1353ca6b599f510a1bb2509381e8da10f4dbee97cb217"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri239-independent-capture-review-fidelity-v1"
+}

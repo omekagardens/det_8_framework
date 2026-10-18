@@ -1,0 +1,222 @@
+{
+  "RET_paused": true,
+  "dependencies": [
+    {
+      "bytes": 26214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+      "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14",
+      "state": [
+        16777244,
+        425604,
+        33152,
+        1,
+        26214,
+        1790835730011000773,
+        1790835730011000773
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 22342,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+      "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add",
+      "state": [
+        16777244,
+        423081,
+        33188,
+        1,
+        22342,
+        1790822636428263394,
+        1790822636428263394
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e",
+      "state": [
+        16777244,
+        428187,
+        33188,
+        1,
+        7142026,
+        1790848149930978229,
+        1790848149930978229
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e",
+      "state": [
+        16777244,
+        420718,
+        33188,
+        1,
+        7142026,
+        1790811992173264027,
+        1790811992173264027
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 127298,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+      "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c",
+      "state": [
+        16777244,
+        427407,
+        33152,
+        1,
+        127298,
+        1790843155913319000,
+        1790843155913319000
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER_STABLE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_SUPPLIER_STABLE.json",
+      "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2",
+      "state": [
+        16777244,
+        428207,
+        33188,
+        1,
+        1260447,
+        1790848428740602755,
+        1790848428740602755
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1260447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER_STABLE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_SUPPLIER_STABLE.json",
+      "sha256": "cf2e2cedecf1e9430081d769be5ae78395f0b1943967a040b9de03b702cfa4c2",
+      "state": [
+        16777244,
+        428208,
+        33188,
+        1,
+        1260447,
+        1790848428794908673,
+        1790848428794908673
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2789,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+      "sha256": "2c96b9f19b43b597111edbb5d439999ed8f0359b137955af5c1d7789b5425202",
+      "state": [
+        16777244,
+        428221,
+        33188,
+        1,
+        2789,
+        1790848850162642270,
+        1790848850162642270
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+      "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38",
+      "state": [
+        16777244,
+        422296,
+        33188,
+        1,
+        771,
+        1790818247728137744,
+        1790818247728137744
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CURRENT_E_AND_MODE_CONTRACT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CURRENT_E_AND_MODE_CONTRACT.json",
+      "sha256": "b8794cbdb514dc79453b24c2cf55760a889d8e4569c807e1ab678389b0901354",
+      "state": [
+        16777244,
+        427889,
+        33188,
+        1,
+        9569,
+        1790845629630011286,
+        1790845629630011286
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "existing_provenance_preserved": {
+    "bytes": 2789,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+    "sha256": "2c96b9f19b43b597111edbb5d439999ed8f0359b137955af5c1d7789b5425202"
+  },
+  "field_counts": [
+    13,
+    5
+  ],
+  "freeze_field_counts": [
+    2,
+    3
+  ],
+  "fresh_opaque_identities_unchanged": 2811,
+  "full_E_directories": 9,
+  "full_E_files": 49,
+  "full_E_pre_and_post_equal": {
+    "bytes": 43288,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_E.json",
+    "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+  },
+  "installed_freeze_decoded": false,
+  "mode_admission_issued": false,
+  "next_action": "Independent candidate review, then a fresh separate RI160 pre_mode12-field admission and unchanged monitored execution; review result9 before separate mode_card.",
+  "pre_mode_admission_issued": false,
+  "request": {
+    "bytes": 1013,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/PRE_MODE_REQUEST.json",
+    "sha256": "6aeb27d703ec8487b22d61fea4f992fe54ff4cd87b335fbfbd1675d89d0ce001"
+  },
+  "role_counts": {
+    "copies": 48,
+    "history": 124,
+    "target_originals": 30
+  },
+  "runtime": {
+    "bytes": 2653,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+    "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+  },
+  "schema": "ri241-root-unissued-runtime-assembly-v1",
+  "scientific_execution": false,
+  "source_contract": {
+    "bytes": 9569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CURRENT_E_AND_MODE_CONTRACT.json",
+    "sha256": "b8794cbdb514dc79453b24c2cf55760a889d8e4569c807e1ab678389b0901354"
+  },
+  "source_role_custody": {
+    "bytes": 1829711,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_ROLE_CUSTODY.json",
+    "sha256": "d3e081cc7fdeb36a0dfe12c5832e452e32f60631f79e90add757c3cc581191a3"
+  },
+  "status": "UNISSUED_RUNTIME13_REQUEST5_ASSEMBLED_PENDING_FINAL_INDEPENDENT_REVIEW",
+  "subject_execution": false,
+  "whole_observed_dyld_routes_equal": true,
+  "whole_snapshot_equals_baseline": true,
+  "whole_vendor_projections_equal": true
+}

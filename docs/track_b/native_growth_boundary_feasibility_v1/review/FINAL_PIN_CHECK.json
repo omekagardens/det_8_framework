@@ -1,0 +1,130 @@
+{
+  "review_namespace_at_check": [
+    "INDEPENDENT_FEASIBILITY_REVIEW.json",
+    "INDEPENDENT_FEASIBILITY_REVIEW.md",
+    "OPAQUE_TEXT_CHECK.json",
+    "REVIEWER_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "review_payloads_before_final_check": [
+    {
+      "bytes": 11073,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.json",
+      "sha256": "a7d2da37e1870c3c130038c84c246d7b7eb1ee1c3569c0af3dae7c972b4146fc"
+    },
+    {
+      "bytes": 20096,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.md",
+      "sha256": "8135e19e8c4228c0b2fd27ca9eca1cde6ceaf71a76f414adc5293cc5f8f7f858"
+    },
+    {
+      "bytes": 47583,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/OPAQUE_TEXT_CHECK.json",
+      "sha256": "e0947a148a105debc9134a00deb91c4d72df32f6fbacd4e242ad211281db2eb1"
+    },
+    {
+      "bytes": 894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "de90eb463aef355c2ffa9805053e5099b86ec508d7cd8aba79ba822efc5f13a6"
+    },
+    {
+      "bytes": 12178,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "sha256": "3490e3c6b09f9259d4db0627c39604efe9e5d22a907676d7667be24b7fd01758"
+    }
+  ],
+  "runtime_custody_established": false,
+  "schema": "ri143-independent-final-pin-check-v1",
+  "scientific_body_decode": false,
+  "self_and_future_handoff_excluded_to_avoid_hash_cycle": true,
+  "status": "PASS_ADMINISTRATIVE_PIN_AND_NAMESPACE_CHECK_ONLY",
+  "subject_execution": false,
+  "subject_handoff": {
+    "bytes": 6743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+    "sha256": "6ffa8638c138ccd481514d6ce8dd835d8c2c17f48e91c4215d80eb1e47546307"
+  },
+  "subject_namespace": [
+    "ADMIN_CHECK_FAILURE.txt",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "F01_BOUNDARIES.json",
+    "F01_FEASIBILITY.md",
+    "F02_BOUNDARIES.json",
+    "F02_FEASIBILITY.md",
+    "FEASIBILITY_CONTRACT.md",
+    "FEASIBILITY_DECISION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_APPLICABILITY.json",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "subject_payloads": [
+    {
+      "bytes": 1048,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/ADMIN_CHECK_FAILURE.txt",
+      "sha256": "44f131bb6cee34cfc37653f9a7b1fa0cdf4952c0750c42e6c0a0aac76dda3d1e"
+    },
+    {
+      "bytes": 34682,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/AUTHOR_CHECKS.json",
+      "sha256": "1dc7eba4ea752100d78be7193b4d36a58fe8ad6777b31384e257048d16a08445"
+    },
+    {
+      "bytes": 8690,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/DEPENDENCY_NOTES.md",
+      "sha256": "3734e4aa023d28151f02da3f47cd4b64d6e3054984bb4913e2fb4fe6634b3a2c"
+    },
+    {
+      "bytes": 139932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_BOUNDARIES.json",
+      "sha256": "3ae6ee9e8f0229d87730a84ffbeb3949be208c81a3215d0939e0b6be48fc4ee8"
+    },
+    {
+      "bytes": 16839,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_FEASIBILITY.md",
+      "sha256": "8d5b7bae285dcdd535f3bdc8e8de4971468056656b321e4ba2328fc7da101039"
+    },
+    {
+      "bytes": 63780,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_BOUNDARIES.json",
+      "sha256": "a0b21bf2bb0796ddf7b044a556e85d611982af89618233804b8ad96b713e8b6c"
+    },
+    {
+      "bytes": 15348,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_FEASIBILITY.md",
+      "sha256": "e210d24f1e9a3769399a5386984118c200b11c917c0557d1ecac0e33be77ace0"
+    },
+    {
+      "bytes": 10467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_CONTRACT.md",
+      "sha256": "079bcd1a8704789f587a7c9e05f97647bcd58cbb91f51e540f51485fd3704b99"
+    },
+    {
+      "bytes": 8485,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_DECISION.md",
+      "sha256": "4bf9188060df015729e83e874625644b9b4858448a68e4012ff9afad7af8a08b"
+    },
+    {
+      "bytes": 4988,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.md",
+      "sha256": "9f41cfa2c734bbd30efe1ad0abead5178f7524baeb25ec263cabd69562654c07"
+    },
+    {
+      "bytes": 6243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_APPLICABILITY.json",
+      "sha256": "76ea980c93e2fe032369eb7423cd1f046b141ba50cd773e1cd189b7f1a3c3aea"
+    },
+    {
+      "bytes": 724108,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+      "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+    },
+    {
+      "bytes": 25382,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_IDENTITIES.json",
+      "sha256": "29a5650700a1963a8708a990274a93a7108bce254f3157e65bd5a0887f6b23f4"
+    }
+  ]
+}

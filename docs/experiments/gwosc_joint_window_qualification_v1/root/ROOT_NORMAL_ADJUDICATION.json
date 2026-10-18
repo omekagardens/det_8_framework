@@ -1,0 +1,52 @@
+{
+  "all41_controls_per_implementation": true,
+  "claim": "Exact finite synthetic arithmetic qualification only; no empirical/calibration/native/physical validation.",
+  "complete_independent_saved_validation": true,
+  "custody": {
+    "bytes": 1410,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/CUSTODY.json",
+    "sha256": "14688d41a3f317be4314ec55156cce8a892b4aa68087ff08a5e34edf1a0e7d98"
+  },
+  "freeze": {
+    "bytes": 11310,
+    "sha256": "011083d445af9aad10b7baa3407d535a8fa899b973a4514331af51797f631684"
+  },
+  "genuine_outer": {
+    "bytes": 314,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_OUTER_TOOL.json",
+    "sha256": "e9e367ff797cd3058faa3f01a580681e1f423ef80ad51fb7e75d0cc535e01e54"
+  },
+  "independent_custody_review": {
+    "bytes": 15491,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/INDEPENDENT_NORMAL_SAVED_REVIEW.json",
+    "sha256": "04fa87ef05e3640d87c6e0c990bc591032729c154340e4e37ff935d10675589d"
+  },
+  "receipt": {
+    "bytes": 101959,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/receipt.json",
+    "sha256": "20a74dc14459d017b999c1a3fdabfc72e48cf5475ed9d82abc09d7a34892ec76"
+  },
+  "result": {
+    "bytes": 81253,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/RESULT.json",
+    "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+  },
+  "root_custody_check": {
+    "bytes": 2523,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_ROOT_SAVED_CUSTODY_CHECK.json",
+    "sha256": "b4547e31aeacd01e03307d0856e892e166ca37627a42f7704fefe9b587912db2"
+  },
+  "root_full_scientific_reconstruction": {
+    "bytes": 2602,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_SAVED_SCIENTIFIC_RECONSTRUCTION.json",
+    "sha256": "dc9af83ae372cfc7cc2cba345edb6a9160ce7462bd9edba0c2017ccb99d46428"
+  },
+  "schema": "ri121-root-normal-synthetic-review-v1",
+  "source_run_and_saved_review_boundary": "Actual captured qualifier.run executed the controls; source-qualified independent validator and new enumeration reference checked saved science in child. Root independent moment algebra reconstructs all case/bound fields, not historical controls or pointwise sign execution.",
+  "status": "ACCEPT_NORMAL_SYNTHETIC_EXECUTION_AND_CUSTODY",
+  "worker": {
+    "bytes": 80523,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/normal/runtime.json",
+    "sha256": "aadecdb695dd2a2c1d51a63315f9a464f79678d44b7a05fa5af366aee86c5b34"
+  }
+}

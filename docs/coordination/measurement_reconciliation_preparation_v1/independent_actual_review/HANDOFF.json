@@ -1,0 +1,140 @@
+{
+  "Git_operations": false,
+  "RET_paused": true,
+  "actual_checks": [
+    {
+      "exit_code": 0,
+      "predicates": 7544,
+      "result": {
+        "bytes": 2639095,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/CHECK_RESULT.json",
+        "sha256": "72fc8a1717b0ce5b501d5080a83efa22979f3b58db37b8fd36e5c5bed2eb4440"
+      },
+      "tool_chunk": "d93b90",
+      "whole_file_identities": 2842
+    },
+    {
+      "exit_code": 0,
+      "predicates": 19,
+      "result": {
+        "bytes": 1780,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/SESSION_CHECK_RESULT.json",
+        "sha256": "8a95cf628fb6fbd8674c882d96483cea34278de056a845c9ac58ae19ec476267"
+      },
+      "tool_chunk": "dbf108"
+    }
+  ],
+  "all_files_publishable": true,
+  "authority_issued": false,
+  "candidate_body_decoded": false,
+  "external_only_payloads": [],
+  "files": [
+    {
+      "bytes": 2639095,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/CHECK_RESULT.json",
+      "sha256": "72fc8a1717b0ce5b501d5080a83efa22979f3b58db37b8fd36e5c5bed2eb4440"
+    },
+    {
+      "bytes": 10291,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/INDEPENDENT_REVIEW.md",
+      "sha256": "5eec597c508c4f1c01746baf15a7ec15d4985c86b642c83ce475874f1b1285de"
+    },
+    {
+      "bytes": 2946,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/INPUT_REFERENCES.json",
+      "sha256": "809fa346a5683adc9174a56d3b409123628e1438a2a7747b44479291ec9cc5ea"
+    },
+    {
+      "bytes": 2615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/OUTPUT_PINS.json",
+      "sha256": "e3167303b1195bcccfc799f102dee258eddd9b2a0f5ff760b543490fb504d9b1"
+    },
+    {
+      "bytes": 1780,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/SESSION_CHECK_RESULT.json",
+      "sha256": "8a95cf628fb6fbd8674c882d96483cea34278de056a845c9ac58ae19ec476267"
+    },
+    {
+      "bytes": 3418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/TOOL_RECEIPTS.json",
+      "sha256": "0b57f8ce202bf68d78e802c8b69348340dd15de2bf78456338637999ab8a5c64"
+    },
+    {
+      "bytes": 2026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/VERDICT.json",
+      "sha256": "194f87de4ccca3124a885258311785e86ec1b974d351f8b1b3c6901ed1c51165"
+    },
+    {
+      "bytes": 20735,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/check_preparation.py",
+      "sha256": "9b1018f53b468805b574554f81b13dc74153037b1dec7f96a1073914ca641ae0"
+    },
+    {
+      "bytes": 3642,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/check_session.py",
+      "sha256": "ce94b93e0cefcc5a986087c61742d87642284f7795a133ae7266b2c10e6cd505"
+    }
+  ],
+  "finalization_source_write_receipt": "bf176f",
+  "limitations": [
+    "Genuine root tool origin remains an external receipt premise",
+    "Inherited authored source semantics are independently accepted premises, not new self-review",
+    "Stable supplier/host, no descendants, sampled child RSS and Apple loader/cache premises retained",
+    "Future fresh predispatch, exact root authority, execution and independent outcome review remain separate"
+  ],
+  "namespace": [
+    "CHECK_RESULT.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "INPUT_REFERENCES.json",
+    "OUTPUT_PINS.json",
+    "SESSION_CHECK_RESULT.json",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_preparation.py",
+    "check_session.py"
+  ],
+  "narrative": {
+    "bytes": 10291,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/INDEPENDENT_REVIEW.md",
+    "sha256": "5eec597c508c4f1c01746baf15a7ec15d4985c86b642c83ce475874f1b1285de"
+  },
+  "qualification_credit": 0,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e",
+  "root_receipts": [
+    {
+      "bytes": 3113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_TOOL.json",
+      "sha256": "afe45fc3982de98e7bde448fe9be75974d273da2f91eee3e6bbb1b64e27a97d1"
+    },
+    {
+      "bytes": 2336,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_SESSION_LINKAGE.json",
+      "sha256": "f1c4420c94c34acae7cc947b6a7bf9b98f1639f06900ace2544d45767f1bec0e"
+    },
+    {
+      "bytes": 1639,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_HOST_TOOL.json",
+      "sha256": "83c0892c159a9ce0e9ea9f6934adb7bf1d6d99f4e3197864e71ae8ed8c695806"
+    },
+    {
+      "bytes": 2356,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_PREPARATION_SOURCE_ACCEPTANCE.json",
+      "sha256": "149af89b6d5a7a09c7efb56f2910d272c7f48f6df049da6c40d57268cf697646"
+    },
+    {
+      "bytes": 4234,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ROOT_ONE_PREPARATION_DECISION.json",
+      "sha256": "25fdd96a229961cfd6ed32d232687b5ad5449f25c1dfa9eb584d5aba6a5a0514"
+    }
+  ],
+  "schema": "ri230-independent-concrete-preparation-handoff-v1",
+  "scope": "One actual administrative preparation; original failure and opaque retained partial unchanged. No reconciliation, frozen-custody, mode or scientific acceptance.",
+  "status": "SEALED_INDEPENDENT_ACTUAL_PREPARATION_REVIEW",
+  "subjects_executed": false,
+  "verdict": {
+    "bytes": 2026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/VERDICT.json",
+    "sha256": "194f87de4ccca3124a885258311785e86ec1b974d351f8b1b3c6901ed1c51165"
+  }
+}

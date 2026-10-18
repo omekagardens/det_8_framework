@@ -1,0 +1,6 @@
+{
+  "effect": "No verifier defect; Python audit emits duplicate open events. Original harness and all case outputs preserved; final-source rerun records multiplicity and enforces complete path set.",
+  "exit_code": 1,
+  "failure": "Review-only open-event count expected119 observed238 after exact118-path set equality passed",
+  "tool_chunk": "62cfee"
+}

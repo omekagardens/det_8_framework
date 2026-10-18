@@ -1,0 +1,106 @@
+{
+  "schema": "ri254-independent-actual-review-tools-v1",
+  "administrative_checker": {
+    "arguments": {
+      "cmd": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri254-independent-compensation-review-hctcpep8/check_metadata.py",
+      "max_output_tokens": 1800
+    },
+    "actual_result": {
+      "chunk_id": "703dcc",
+      "wall_time_seconds": 0.000007542,
+      "exit_code": 0,
+      "original_token_count": 118,
+      "output": "{\"passed\": true, \"predicates_saved\": 2865, \"additional_report_readback\": 1, \"domain\": {\"packet\": 6, \"direct_sources\": 133, \"direct_bytes\": 2719249, \"whole_identities\": 139, \"inherited_direct\": 123, \"new_direct\": 10, \"preserved_boundaries\": 15, \"manifest_entries_unexpanded\": 423}, \"CHECK\": {\"path\": \"/private/tmp/ri254-independent-compensation-review-hctcpep8/CHECK.json\", \"bytes\": 445690, \"sha256\": \"1cec7a78d09752207b5a552dd96f35ec29966fa9233ca0e487e69003ddd444e1\"}}\n"
+    }
+  },
+  "complete_read_receipts": [
+    {
+      "id": "ed7432",
+      "exit_code": 0,
+      "scope": "root decision, review, assignment, handoff"
+    },
+    {
+      "id": "bbf4f4",
+      "exit_code": 0,
+      "scope": "complete new compensation proof"
+    },
+    {
+      "id": "e53d45",
+      "exit_code": 0,
+      "scope": "complete new elimination proof"
+    },
+    {
+      "id": "ca719c",
+      "exit_code": 0,
+      "scope": "full embedded author admin checker and stated checks"
+    },
+    {
+      "id": "47a412",
+      "exit_code": 0,
+      "scope": "complete RI248 CANONICAL_BINDING"
+    },
+    {
+      "id": "4a574b",
+      "exit_code": 0,
+      "scope": "complete RI252 SIGMA_EXCHANGE"
+    },
+    {
+      "id": "acd70a",
+      "exit_code": 0,
+      "scope": "complete RI252 SIGMA_KEYS_AND_WEIGHTS"
+    },
+    {
+      "id": "9fa7cd",
+      "exit_code": 0,
+      "scope": "complete RI248 COMPANION_ROW"
+    },
+    {
+      "id": "c0dabf",
+      "exit_code": 0,
+      "scope": "all133 direct paths/access"
+    },
+    {
+      "id": "d41699",
+      "exit_code": 0,
+      "scope": "complete numbered COMPENSATION_COVER"
+    },
+    {
+      "id": "c90785",
+      "exit_code": 0,
+      "scope": "complete numbered PIECEWISE_REDUCTION"
+    },
+    {
+      "id": "aec2aa",
+      "exit_code": 0,
+      "scope": "compact administrative shapes"
+    },
+    {
+      "id": "8529e5",
+      "exit_code": 0,
+      "scope": "save complete selected genuine author compact checks"
+    }
+  ],
+  "diagnostics": {
+    "reviewer_checker_failed_runs": 0,
+    "clipped_display_projections": [
+      {
+        "id": "whole-turn-projection",
+        "scope": "Initial QR whole-turn retrieval was too large for display; retained full in-memory result and saved complete compact selected command records, outputs.truncated false."
+      },
+      {
+        "id": "ancestor-combined",
+        "scope": "Combined two-tool ancestor output clipped; four later separate complete source reads supply coverage."
+      },
+      {
+        "id": "76f19e",
+        "scope": "Combined scope/roles/author metadata display clipped; complete allowed path list recovered c0dabf and exact values compared administratively."
+      },
+      {
+        "id": "36ce7c",
+        "scope": "Large boundary projection clipped; compact shapes recovered aec2aa; full15-object comparison independently performed in checker."
+      }
+    ],
+    "subject_execution_or_change": false
+  },
+  "limits": "Receipts are actual tool outputs or exact observed command IDs. Full task-turn content is not claimed completely read; only selected complete preseal/final records are independently retrieved. Manual theorem review is separate from metadata."
+}

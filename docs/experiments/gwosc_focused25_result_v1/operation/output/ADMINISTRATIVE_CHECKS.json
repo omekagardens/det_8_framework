@@ -1,0 +1,42 @@
+{
+  "complete_administrative_envelopes_checked": true,
+  "controls": [
+    "F01_positive",
+    "F01_pre_admission_read",
+    "F01_occupied",
+    "F01_mkdir",
+    "F01_post_admission_read",
+    "F01_initial_source_read",
+    "F01_attempt_open",
+    "F01_attempt_partial",
+    "F01_secondary_post",
+    "F01_secondary_source",
+    "F01_secondary_namespace",
+    "F01_secondary_checks",
+    "F01_three_secondary",
+    "F01_final_partial",
+    "F02_positive",
+    "F02_named_path",
+    "F02_resolved_path",
+    "F02_link_literal",
+    "F02_link_order",
+    "F02_link_omitted",
+    "F02_target_bytes",
+    "F02_target_sha",
+    "F02_provenance_missing",
+    "F02_snapshot_alias",
+    "F02_snapshot_target"
+  ],
+  "count": 25,
+  "namespace": {
+    "bytes": 20608,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/NAMESPACE.json",
+    "sha256": "82c6f0d91a8b3227d8b652166cbcc29acd5bc67c90f75b7903b4336a68dbba3f"
+  },
+  "report": {
+    "bytes": 112221,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/REPORT.json",
+    "sha256": "4710b3e8c6f52b35a6e134d29bf827c745494222e688a863788df9ca949abeaf"
+  },
+  "scientific_evaluation": false
+}

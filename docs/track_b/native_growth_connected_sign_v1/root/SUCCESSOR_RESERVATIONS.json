@@ -1,0 +1,29 @@
+{
+  "acknowledged": true,
+  "actual_admission": false,
+  "measurement": [
+    {
+      "item": "RI130",
+      "owner": "/root/archive_repro_review",
+      "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+      "scope": "source-only fabricated WHITE caller and exact scientific/mode-custody relation"
+    },
+    {
+      "item": "RI131",
+      "owner": "/root/ri116_complete_caller_review",
+      "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri131-white-validation-guards-source-dsbzg94o",
+      "scope": "source-only actual-validator guard mutation controls with explicit finite seam and blocked end-to-end boundaries"
+    }
+  ],
+  "native": {
+    "item": "RI129",
+    "owner": "Quantum Relativity",
+    "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0",
+    "scope": "source-only native caller/witness/replay/auditor adaptation",
+    "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "predecessors_adjudicated": true,
+  "root_owns_repository_and_git": true,
+  "schema": "ri128-successor-reservations-v1",
+  "source_execution": false
+}

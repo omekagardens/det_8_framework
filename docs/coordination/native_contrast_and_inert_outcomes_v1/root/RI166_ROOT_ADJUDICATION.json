@@ -1,0 +1,33 @@
+{
+  "actual_vector_read": false,
+  "full_native_bound": "UNRESOLVED",
+  "full_native_counterexample": false,
+  "manual_review": {
+    "bytes": 6009,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_PROOF_REVIEW.md",
+    "sha256": "4cd94482cc501ce5f0b6fd563350ed3b00b6c4e75108eef864b57d34eb845e4f"
+  },
+  "metadata": {
+    "bytes": 165522,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_METADATA_RECHECK.json",
+    "sha256": "d92d53c4f480d1488fed127639c1cd1510d9d9c44c8e5fcc3d5dd456125b4c3d"
+  },
+  "physical_claim": false,
+  "qualification_admission": false,
+  "ret_paused": true,
+  "root_check": {
+    "chunk": "5830bf",
+    "current_paths": 8,
+    "exit_code": 0,
+    "historical_paths": 252,
+    "inherited_rows": 223
+  },
+  "schema": "ri166-independent-root-proof-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_EXACT_REDUCTIONS_COMPONENT_SEPARATION_AND_ENUMERATED_RELAXATION_COUNTEREXAMPLE",
+  "subject": {
+    "bytes": 7884,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.json",
+    "sha256": "418f9577fb0adb0e5f775c20b5e68903c76255154dc036f5fd979bf7fe392048"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "binding_erratum": {
+    "bytes": 2443,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/WORDING_ERRATUM.json",
+    "sha256": "649b2bf9edfc6ccd00ab419ab56ba3caa6cdb80fcf068fafbf98e8936d13c9bc"
+  },
+  "blocking_findings": [],
+  "completion": {
+    "bytes": 3473,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/COMPLETE.json",
+    "sha256": "9bc931543cfc4dd7d888205ca7592a8f0fc4b387741f5252b61f9adecf002004"
+  },
+  "full_findings": {
+    "bytes": 18478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/INDEPENDENT_CAPTURE_REVIEW.md",
+    "sha256": "ede39c96fb67e43ed4a1bbbb9c1162227606ee326b8f676aaaf79b16709fbfee"
+  },
+  "genuine_arguments": {
+    "bytes": 1493,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_TOOL_ARGUMENTS.json",
+    "sha256": "f321ae705d15a8fe38716fc416f0f725b86aa939f537a555e9870573c9d92ff5"
+  },
+  "genuine_outer": {
+    "bytes": 1448,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_OUTER.json",
+    "sha256": "1f846701e52bfb22b2f0b1891d56780737867a99e447c2f8274729790a5df0b1"
+  },
+  "historical_device_difference": "4609 records differ only in device number. Exact historical runtime byte/domain/binding equality and fresh selection stability passed the existing contract; no whole historical-selection equality or relaxed acceptance is claimed.",
+  "historical_selection": {
+    "bytes": 926277,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_SELECTION_HISTORY_CHECK.json",
+    "sha256": "5f34054419618cc9da3c389f14441eecf4639382ccd98f011b5a48e22968a492"
+  },
+  "independent_actual_review": {
+    "bytes": 6372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FINAL_HANDOFF.json",
+    "sha256": "74af846af4c7dd7869da1813f1cec7be521962db13418a960e8ff9b9e24d25ad"
+  },
+  "independent_check_tool": {
+    "chunk_id": "08a999",
+    "exit_code": 0
+  },
+  "independent_summary": {
+    "bytes": 4928,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CHECK_SUMMARY.json",
+    "sha256": "f95d62cd1c99bfc250fce415a56169a5f8754205d7d7e1e877d7301c0c26b9c0"
+  },
+  "metadata_baseline_only": true,
+  "original_review_seal": {
+    "bytes": 5997,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/HANDOFF.json",
+    "sha256": "76a681bff2c332f032eff78822d285277d7586cc822e07ebc6dc9058d5b44fed"
+  },
+  "remaining": [
+    "Separate normal30-second profile and independent acceptance, then optimized and review",
+    "Separate65guards and WHITE15/full32 qualifications",
+    "Conventional public GWOSC reproduction; physical calibration and native forward map",
+    "Supplier/host, Apple loader/cache, source/cache distinction, finite sampled-child resource and genuine tool-origin premises"
+  ],
+  "ret_paused": true,
+  "reviewer_metadata_predicates_not_tests": 103901,
+  "root_actual_check": {
+    "bytes": 1236,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_CAPTURE_CHECK.json",
+    "sha256": "521bbfc7307d0c798903855cbf24b4de2aea4c0106df8b9db34d857c44af0651"
+  },
+  "root_check_tool": {
+    "exit_code": 0,
+    "initial": "f9ac19",
+    "session": 25396,
+    "terminal": "9be99c"
+  },
+  "root_review": "Read complete independent findings, structured verdict, all actual command records, complete input-custody record, summary and binding erratum. Root separately reconstructed full monitors/output, fresh9923 opaque file/selection identities,471source states and4609 historical device-only changes. Reauthenticated every saved reviewer input and all14review files and current complete operation. Numerical subject replay was neither needed nor run.",
+  "schema": "ri146-root-actual-capture-adjudication-v1",
+  "scientific_runtime_or_data_credit": false,
+  "status": "ACCEPT_GENUINE_CURRENT_METADATA_CAPTURE",
+  "timer_scope": "Owned-child times include child startup/authentication. Parent internal timer excludes preownership authentication and final COMPLETE construction/write; genuine outer deadline/terminal covers both."
+}

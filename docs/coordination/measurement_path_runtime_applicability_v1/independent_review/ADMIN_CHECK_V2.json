@@ -1,0 +1,1249 @@
+{
+  "administrative_python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "checks": [
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "passed": true
+    },
+    {
+      "check": "canonical administrative JSON",
+      "passed": true
+    },
+    {
+      "check": "exclusive review reservation",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "canonical administrative JSON",
+      "passed": true
+    },
+    {
+      "check": "literal E",
+      "passed": true
+    },
+    {
+      "check": "no source changes",
+      "passed": true
+    },
+    {
+      "check": "full mapping counts",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "passed": true
+    },
+    {
+      "check": "copy original relative path",
+      "passed": true
+    },
+    {
+      "check": "copy E relative path",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "literal regular /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "bounded administrative/opaque file /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "opened same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "opened final state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "final same state /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "expected bytes /Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "passed": true
+    },
+    {
+      "check": "exclusive reviewer output",
+      "passed": true
+    }
+  ],
+  "decoded_administrative_files": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json"
+  ],
+  "error": {
+    "message": "Object of type bytes is not JSON serializable",
+    "type": "TypeError"
+  },
+  "identities": [
+    {
+      "bytes": 4022,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI194_REVIEW_ASSIGNMENT.json",
+      "sha256": "d53ea24ff9bc42e629dc821d44116ee62b6e90948ef8d970a15650ada674394e",
+      "state": [
+        16777244,
+        421348,
+        33188,
+        1,
+        4022,
+        1790814730137361531,
+        1790814730137361531
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3116,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/RI193_ROOT_ADJUDICATION.json",
+      "sha256": "368bd95a91b70df4d55b6e45193aa8d7b9592a2af82d9ef6e5e3f23fe1692e94",
+      "state": [
+        16777244,
+        421336,
+        33188,
+        1,
+        3116,
+        1790814420716457987,
+        1790814420716457987
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2208,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+      "sha256": "d498ccd200b054e8759a37c1cdf0d6014c3e49982e3e944697682266ecf30798",
+      "state": [
+        16777244,
+        421337,
+        33188,
+        1,
+        2208,
+        1790814420718238317,
+        1790814420718238317
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/NEXT_APPLICABILITY_SELECTION.json",
+      "sha256": "888619ab17baf36fef659fe910e1c6d43f9578d01bd6ae641cccd8a9e62dd15a",
+      "state": [
+        16777244,
+        421324,
+        33188,
+        1,
+        2060,
+        1790814170788068141,
+        1790814170788068141
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16387,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-measurement-current-e-preflight-gikj2giy/FIELD_CONTRACT.md",
+      "sha256": "366f64b8f432412f91e3901ccb54ff375d303b53444d740d24ac17a2277a39c0",
+      "state": [
+        16777244,
+        417920,
+        33188,
+        1,
+        16387,
+        1790801342717425974,
+        1790801342717425974
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 22129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256",
+      "state": [
+        16777244,
+        412961,
+        33188,
+        1,
+        22129,
+        1790789178907785945,
+        1790789178907785945
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 18749,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb",
+      "state": [
+        16777244,
+        412966,
+        33188,
+        1,
+        18749,
+        1790789178908499613,
+        1790789178908499613
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 12445,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "sha256": "dba360100a61c8e2d623c2d71f242015c3fdb71bd866aa84903fa26189ac124a",
+      "state": [
+        16777244,
+        411681,
+        33188,
+        1,
+        12445,
+        1790780538253309681,
+        1790780538253309681
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 86813,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "sha256": "7be820c27d7a7b5f5b1661a49e5119b7922a1c49f4f24fa2d4567d1f2e5942bf",
+      "state": [
+        16777244,
+        411655,
+        33188,
+        1,
+        86813,
+        1790780354708666148,
+        1790780354708666148
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "sha256": "3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79",
+      "state": [
+        16777244,
+        401431,
+        33188,
+        1,
+        2189,
+        1790752771227872504,
+        1790752771227872504
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4020,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "sha256": "926cbcfdfa9fa3685924cb7727a53d5d0742ffa399580aa8942f8846a6ed23f7",
+      "state": [
+        16777244,
+        410946,
+        33188,
+        1,
+        4020,
+        1790779576493782401,
+        1790779576493782401
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10237,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/HANDOFF.json",
+      "sha256": "e4a86b2ce39d575e6ba5323921c8eadf819ec38983c0d8216b7136107701abe9",
+      "state": [
+        16777244,
+        410930,
+        33188,
+        1,
+        10237,
+        1790779268816244432,
+        1790779268816244432
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 20637,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/INDEPENDENT_ACTUAL_REVIEW.md",
+      "sha256": "1ff14097b4608936cbaf16796465e7b48d22cecb5e279042768d9e43fdd85bad",
+      "state": [
+        16777244,
+        410898,
+        33188,
+        1,
+        20637,
+        1790778984583095707,
+        1790778984583095707
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "sha256": "e5954649acb1870b586f3057956821d686e08d69265cb0147659ea03a6f1514b",
+      "state": [
+        16777244,
+        409439,
+        33188,
+        1,
+        4762,
+        1790778022986100632,
+        1790778022986100632
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/RI152_ROOT_ACTUAL_ADJUDICATION.json",
+      "sha256": "933236ca3c43401e9ed5887207bf7753f6e909997c589a7bb380cf5d77f32065",
+      "state": [
+        16777244,
+        410945,
+        33188,
+        1,
+        7508,
+        1790779576479052966,
+        1790779576479052966
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 19318,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "sha256": "f5bcf91a94c4670f3a4efe1842cf630ba700b07dc585436764796e5c0edd2465",
+      "state": [
+        16777244,
+        409434,
+        33188,
+        1,
+        19318,
+        1790777988023080886,
+        1790777988023080886
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1983,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/MEASUREMENT_NEXT_ACTION.json",
+      "sha256": "5027183e9c7ea3a87c5a3144f472751c375b75ccedd0fac49531165779877bbc",
+      "state": [
+        16777244,
+        410948,
+        33188,
+        1,
+        1983,
+        1790779576494990000,
+        1790779576494990000
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/HANDOFF.json",
+      "sha256": "dda8890bc60be37f1391c88972eb11a67d4e52d68fa860ca01a92042e1c6c276",
+      "state": [
+        16777244,
+        408419,
+        33188,
+        1,
+        6852,
+        1790775005756771614,
+        1790775005756771614
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/HANDOFF.json",
+      "sha256": "fab678fdf26173fdd952e2e3aab9fce54fee092d298c8f756c5120cb99d0719f",
+      "state": [
+        16777244,
+        408938,
+        33188,
+        1,
+        6593,
+        1790776442442081013,
+        1790776442442081013
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 2194,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "sha256": "4bf521e8e8cceafce449b0e8620c515df53a2cb2b2d1c0ff612cbb4934c91716",
+      "state": [
+        16777244,
+        408941,
+        33188,
+        1,
+        2194,
+        1790776532429947976,
+        1790776532429947976
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 11259,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/MODE_CUSTODY_CONTRACT.md",
+      "sha256": "5f9186bd0fdfd64924f5bceb9d0c4a14210db466686ec45fcefe6637a28695af",
+      "state": [
+        16777244,
+        401017,
+        33188,
+        1,
+        11259,
+        1790748721612563053,
+        1790748721612563053
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26684,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8",
+      "state": [
+        16777244,
+        401129,
+        33188,
+        1,
+        26684,
+        1790749044904690930,
+        1790749044904690930
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23244,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/PROTOCOL.md",
+      "sha256": "2456a4b74815e5f47216fdcffdf796a67bd394effa31ff880b8708e627cac5c5",
+      "state": [
+        16777244,
+        400991,
+        33188,
+        1,
+        23244,
+        1790748885596273174,
+        1790748885596273174
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 127567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28",
+      "state": [
+        16777244,
+        404041,
+        33188,
+        1,
+        127567,
+        1790765746291012885,
+        1790765746291012885
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65",
+      "state": [
+        16777244,
+        404236,
+        33188,
+        1,
+        9366,
+        1790766219116913615,
+        1790766219116913615
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe",
+      "state": [
+        16777244,
+        404038,
+        33188,
+        1,
+        45721,
+        1790765596177463239,
+        1790765596177463239
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "sha256": "ee99c90a46ffd1b1bc828e8da5fa8bcc6d18e47d4f0945d8ebc9d0e2cc65ec75",
+      "state": [
+        16777244,
+        404207,
+        33188,
+        1,
+        26464,
+        1790766002244792510,
+        1790766002244792510
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 18728,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9",
+      "state": [
+        16777244,
+        404039,
+        33188,
+        1,
+        18728,
+        1790765596177758319,
+        1790765596177758319
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORING_RECORD.md",
+      "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3",
+      "state": [
+        16777244,
+        418699,
+        33188,
+        1,
+        5421,
+        1790804982613354379,
+        1790804982613354379
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5421,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/AUTHORING_RECORD.md",
+      "sha256": "711cf7c4c7c193544050983d90162b70d15a754848b7d05a3d2f8f049c31cdf3",
+      "state": [
+        16777244,
+        401127,
+        33188,
+        1,
+        5421,
+        1790748955464003124,
+        1790748955464003124
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "schema": "ri194-saved-administrative-applicability-check-v1",
+  "status": "FAILED_ADMINISTRATIVE_CHECK"
+}

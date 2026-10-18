@@ -1,59 +1,77 @@
-"""
-DET v8.0 — Applied Physics: the κ-Residual Discriminator
+"""Descriptive single, stretched and compressed exponential fit families.
 
-The DET signature vs the standard-defect signature in a relaxation trace.
-
-Standard defect / glass relaxation (KWW): a DISTRIBUTION of activation
-energies → stretched exponential  exp(−(t/τ)^β)  with β < 1.
-
-DET κ-recovery: ONE structural-history variable, single relaxation time →
-single exponential  exp(−t/τ)  with β = 1 (Debye).
-
-The discriminator: fit the recovery trace to y = A·exp(−(t/τ)^β) and read β.
-  β ≈ 1  → single-exponential (DET-like: one κ, one τ_rec).
-  β < 1  → stretched (defect-like: a spectrum of defect activation energies).
-
-This is the applied, L1-level discriminator: it tests whether the residual
-relaxation is a single κ variable or a defect spectrum — WITHOUT invoking λ_P.
+A fitted stretch exponent labels a curve within a supplied search bank. It
+neither identifies a material mechanism nor distinguishes DET from ordinary
+relaxation models. Finite-grid fitting is not an ordinary BIC certificate.
 """
 
 from __future__ import annotations
 
 import math
 
+from det8.applied_physics import adversarial as adv
+from det8.models.validation import require_nonnegative_finite, require_positive_finite
+
 
 def fit_kww(
-    t,
-    y,
+    t, y,
     tau_grid=(1.0, 2.0, 5.0, 10.0, 20.0, 30.0, 50.0, 70.0, 100.0, 150.0, 200.0, 300.0, 500.0),
     beta_grid=(0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0),
 ) -> dict:
-    """Fit y(t) = A·exp(−(t/τ)^β) by grid search over (τ, β); linear amplitude A.
+    """Minimize RSS for A exp(-(t/tau)^beta), with a fitted linear amplitude.
 
-    Returns the best (A, τ, β), the RSS, and the classification.
+    The offset-free continuous family has three nominal mean parameters, or
+    two when beta is fixed independently. A finite search does not establish
+    those parameters' identifiability or regular asymptotic BIC assumptions.
+    A zero represented shape norm refuses the entire bank. Tiny individual
+    tail squares may round away in a representable total norm; this bounded
+    guard does not certify floating-point accuracy or subnormal conditioning.
     """
-    if len(t) != len(y) or len(t) == 0:
-        raise ValueError("t and y must be equal-length, non-empty")
-
-    best = {"A": 0.0, "tau": None, "beta": None, "rss": float("inf")}
-    for tau in tau_grid:
-        for beta in beta_grid:
-            xs = [math.exp(-((ti / tau) ** beta)) for ti in t]
-            sxy = sum(xi * yi for xi, yi in zip(xs, y))
-            sxx = sum(xi * xi for xi in xs)
-            A = sxy / sxx if sxx > 0 else 0.0
-            rss = sum((yi - A * xi) ** 2 for yi, xi in zip(y, xs))
-            if rss < best["rss"]:
-                best = {"A": A, "tau": tau, "beta": beta, "rss": rss}
-
-    best["classification"] = classify_relaxation(best["beta"])
+    t, y = adv.paired_series(t, y)
+    if any(ti < 0 for ti in t):
+        raise ValueError("relaxation times must be nonnegative")
+    taus = tuple(require_positive_finite(value, "tau") for value in tau_grid)
+    betas = tuple(require_positive_finite(value, "beta") for value in beta_grid)
+    if not taus or not betas:
+        raise ValueError("tau and beta grids must be nonempty")
+    best = None
+    for tau in taus:
+        for beta in betas:
+            xs = [adv.kww_relaxation(ti, tau, beta) for ti in t]
+            # hypot accumulates the aggregate norm without first squaring
+            # each tiny tail term. RSS retains its stricter residual guard.
+            shape_norm = math.hypot(*xs)
+            sxx = require_nonnegative_finite(shape_norm * shape_norm, "relaxation shape norm")
+            if sxx == 0:
+                raise ValueError("relaxation shape norm underflows float representation")
+            amplitude = sum(x * value for x, value in zip(xs, y)) / sxx
+            rss = adv.rss_between([amplitude * x for x in xs], y)
+            if best is None or rss < best["rss"]:
+                best = {"A": amplitude, "tau": tau, "beta": beta, "rss": rss}
+    if best is None:
+        raise ValueError("relaxation bank has no representable fit")
+    nominal = 3 if len(set(betas)) > 1 else 2
+    degenerate = best["A"] == 0 or len(set(t)) < nominal
+    if degenerate:
+        best["grid_minimizer"] = {"tau": best["tau"], "beta": best["beta"]}
+        best["tau"] = best["beta"] = None
+    best.update({"classification": classify_relaxation(best["beta"]),
+                 "fit_family": "offset_free_stretched_exponential" if len(set(betas)) > 1
+                 else "offset_free_fixed_exponent_exponential",
+                 "nominal_continuous_mean_parameters": nominal,
+                 "identifiable_mean_parameters": None, "degenerate": degenerate,
+                 "bic_available": False,
+                 "bic_reason": "finite tau/beta bank; regular continuous likelihood fit not established",
+                 "physical_mechanism_identified": False})
     return best
 
 
-def classify_relaxation(beta: float, tol: float = 0.05) -> str:
-    """β ≈ 1 → single-exponential (DET-like); β < 1 → stretched (defect-like)."""
+def classify_relaxation(beta, tol=0.05) -> str:
+    """A descriptive exponent category; no statistical uncertainty or mechanism claim."""
+    tol = require_nonnegative_finite(tol, "tol")
     if beta is None:
         return "unclassified"
-    if beta >= 1.0 - tol:
-        return "single_exponential_det_like"
-    return "stretched_defect_like"
+    beta = require_positive_finite(beta, "beta")
+    if abs(beta - 1) <= tol:
+        return "single_exponential"
+    return "stretched_exponential" if beta < 1 else "compressed_exponential"

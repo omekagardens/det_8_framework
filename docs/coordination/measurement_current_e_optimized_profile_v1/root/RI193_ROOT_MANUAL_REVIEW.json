@@ -1,0 +1,39 @@
+{
+  "full_review_and_verdict_read": "3484e8",
+  "full_source_reads": [
+    "767696",
+    "470379",
+    "ad12c6"
+  ],
+  "refs": {
+    "INDEPENDENT_REVIEW.md": {
+      "bytes": 14374,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/INDEPENDENT_REVIEW.md",
+      "sha256": "b05d5d3bf8e089e2fb493b4d8d2a688f573d9e2529a69822118b4aafccd9e515"
+    },
+    "VERDICT.json": {
+      "bytes": 2610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/VERDICT.json",
+      "sha256": "472bde50e4cd99fbec1fa6f719cfe321f965831823bb3db30509420c5c8dd48e"
+    },
+    "build_checker.py": {
+      "bytes": 5088,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/build_checker.py",
+      "sha256": "519554d88c444376333245b8a65eac5dfa840a2b432c9a85ca35aeca151cffa5"
+    },
+    "check_optimized_saved.py": {
+      "bytes": 45327,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/check_optimized_saved.py",
+      "sha256": "ab40eb9f462671f51b418b44b9a9bdd5ed90851a5def9c41d4698cc0bb11608e"
+    },
+    "normal_relation_fragment.txt": {
+      "bytes": 6777,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/normal_relation_fragment.txt",
+      "sha256": "a7ff8cad99fbc2d0968db23750dadb9cf13844f408ecb8273137989c3025360b"
+    }
+  },
+  "remaining": "Sealed source identity authentication and full fresh root identity replay before combined-profile card. No R01/runtime applicability or scientific admission follows automatically.",
+  "scope": "Independent optimized and normal outcome checker reconstructed complete228 monitor samples and both213-descriptor results, then full typed report relation. Exactly two optimize flags and30 cached-path alternatives; optimized absent caches explicitly justified in complete inventory. Source and actual execution claims kept separate, including prior source authorship.",
+  "status": "COMPLETE_ROOT_MANUAL_REVIEW_NO_BLOCKER_PENDING_SEAL",
+  "subject_execution": false
+}

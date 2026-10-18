@@ -1,0 +1,81 @@
+{
+  "RET_paused": true,
+  "RI129_modified": false,
+  "active_cards_created": false,
+  "all11_sealed_files_read": true,
+  "audit_source_coverage": {
+    "blocked": 48,
+    "callable_cases": 16,
+    "declarations": 69,
+    "direct": 8,
+    "genuine_context_deferred": 4,
+    "retained": 12,
+    "whole_entry_specifications": 1
+  },
+  "authored_RI132_or_RI129_components": false,
+  "blocking_findings": [],
+  "complete_changed_caller_qualification": false,
+  "complete_source_read": {
+    "audit_controls.py": 428,
+    "entry_evidence.py": 416,
+    "native_controls.py": 416,
+    "qualify_callers.py": 270
+  },
+  "entry_specifications": 3,
+  "entry_verifier_scope": "EVIDENCE_CONSISTENCY_ONLY; external origin/raw-census/command/time/whole custody mandatory",
+  "exact_predecessor_namespaces": {
+    "review": 9,
+    "source": 13
+  },
+  "executed_cases": 0,
+  "execution_authorized": false,
+  "final_source_check": {
+    "bytes": 2910,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/FINAL_PIN_CHECK.json",
+    "sha256": "b52e9e7ef11bb7125750c9f7432c105b991bd2269fe91329651b19abc1f9fe25"
+  },
+  "full_review": {
+    "bytes": 23570,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c315545f71d78f54dc71e87577222eb5a64464bdbafd3900c972724c6eb3149b"
+  },
+  "metadata_evidence": {
+    "bytes": 150366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+    "sha256": "d64c1ef2ac50465f240bc9e6bc5d40258f21b9b8f61b0c90a4ae881e1f1a9d22"
+  },
+  "native_scientific_execution": false,
+  "native_source_coverage": {
+    "blocked": 25,
+    "callable_cases": 17,
+    "declarations": 52,
+    "direct": 16,
+    "genuine_preparation_dependent": 5,
+    "retained": 10,
+    "whole_entry_specifications": 1
+  },
+  "opaque_predecessor_pins_verified": 40,
+  "other_authorship_disclosed": [
+    "RI125 primary WHITE and qualifier",
+    "RI131 WHITE actual-validator guard source"
+  ],
+  "recommended_first_tranche": [
+    "dependency payload",
+    "current source-decision payload",
+    "independent source-review payload",
+    "exact typed current-target15/4/71 policy"
+  ],
+  "refactor_implemented": false,
+  "refactor_verdict": "JUSTIFIED_MINIMAL_NEW_VERSION_EXTRACTION_WITHOUT_AUTHENTICATION_OR_ORDER_CHANGES",
+  "repository_git_operations": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "runtime_inventory_created": false,
+  "schema": "ri132-independent-complete-qualification-source-review-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "status": "PASS_BOUNDED_UNEXECUTED_QUALIFICATION_SOURCE_ONLY"
+}

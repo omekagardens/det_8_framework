@@ -1,0 +1,132 @@
+{
+  "analytic_successor_review": {
+    "bytes": 1966,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri112-independent-positive-family-2_hgjqki/INDEPENDENT_NATIVE_NEXT_STEP_REVIEW.json",
+    "sha256": "4f3fa35be9953b8da7219dddacbdbd3892e5a770c880ba8e4c65b1ea3ec45874"
+  },
+  "audit_bindings": 17,
+  "audit_root_custody_review": {
+    "bytes": 6274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "sha256": "7e82c72dd3705c9c9db9b261bd3766e176c12642f537e4148ba18d4af3128f03"
+  },
+  "audit_successful_postchecks": 15,
+  "audit_unique_payloads": 14,
+  "caller_controls": "38 native and 54 audit intended controls were source-reviewed; no new executed caller-control campaign is asserted. Retained monitoring engine applicability is narrow; changed target qualification is not inherited.",
+  "certificate": {
+    "bytes": 170517,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/CERTIFICATE.json",
+    "sha256": "171832e8a16d8204e88ecf5de684c1e5d7477796ea3e2500a87d5b6987391b92"
+  },
+  "complete_sections": 19,
+  "consumer_counted_operations": 7431,
+  "consumer_gcd_fixtures": 10,
+  "consumer_root_fixtures": 16,
+  "coverage": {
+    "H_or_z_arithmetic_values": 0,
+    "held_probability_slots": 128,
+    "held_rows": 24,
+    "native_polynomial_degree_cap": 3,
+    "new_q6_q7_rows": 0,
+    "rank_minors": 6,
+    "records": 8,
+    "reference_contrasts": 7
+  },
+  "decision": {
+    "actual_scale_computed": false,
+    "actual_scale_root_asserted": false,
+    "all_positive_extensions_rejected": false,
+    "common_gcd_degree": null,
+    "disposition": "unresolved-identically-zero-minors",
+    "distinct_common_real_roots": null,
+    "no_common_real_root_on_admissible_interval": false,
+    "positive_repair_asserted": false,
+    "rank_condition_identically_true": true,
+    "rational_root_decision_performed": false,
+    "rational_roots_remaining_asserted": false,
+    "remaining_parent_feasibility_decided": false,
+    "restricted_28_child_repair_rejected": false
+  },
+  "full_reconstructed_certificate_equal": true,
+  "genuine_outer": {
+    "audit": {
+      "bytes": 1025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_OUTER_TOOL_RESULT.json",
+      "sha256": "a4bd10cc5bbfac4eaf731524f9504c917b03553a965177b0d7a018c2f96d7424"
+    },
+    "normal": {
+      "bytes": 1025,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/NORMAL_OUTER_TOOL_RESULT.json",
+      "sha256": "3e3aa1e02674c413966eb640c6197473e1e70e0dcbdb6a8284d966b25f35cfc2"
+    },
+    "optimized": {
+      "bytes": 1032,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/OPTIMIZED_OUTER_TOOL_RESULT.json",
+      "sha256": "6330d2bf953d0ff9c3e99b3bbddfffe4c53a803a91c372800e5da6ec0341f989"
+    },
+    "witness": {
+      "bytes": 1028,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/WITNESS_OUTER_TOOL_RESULT.json",
+      "sha256": "e3164b9372113c3d81d7b34a6b1e5b611b9aa95bbf325c369a555c9644efe7ee"
+    }
+  },
+  "independent_audit": {
+    "bytes": 190757,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/REPORT.json",
+    "sha256": "e5066c2073990d3731099abe4129db7954e290021d812fe71958c53014c2481e"
+  },
+  "independent_audit_custody": {
+    "bytes": 13206,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-independent-audit-custody-bcpc3569/INDEPENDENT_COMPLETED_AUDIT_CUSTODY_REVIEW.json",
+    "sha256": "5f50a21ccacc7b72bc508726a89b8e1cacdd528cc44be7ede2b4c6123ef99f7a"
+  },
+  "independent_saved_audit_math": {
+    "bytes": 13341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri112-independent-final-saved-math-DnMl8AfO/INDEPENDENT_FINAL_MATHEMATICAL_REVIEW.json",
+    "sha256": "cd722c350a3fd3fb4b31ac85e8df48f9db9ae58508c7996c6ef0df22fe2e3696"
+  },
+  "interpretation": "All six exact minors vanish identically. The necessary T1 all-record rank condition imposes no scale exclusion on the fixed admissible interval. This neither rejects nor establishes the complete fixed 28-child positive extension. Null gcd and null root count are deliberate.",
+  "mathematical_result_accepted": true,
+  "next_qr_item": "RI117: formalize the symbolic positive T1 family and decide the complete D1 coupled compatibility/positivity subsystem with connected-parent constraints and free w1; preserve all sixteen parent obligations.",
+  "physical_claim": false,
+  "producer_custodies": {
+    "normal": {
+      "bytes": 4567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/NORMAL_ROOT_CUSTODY.json",
+      "sha256": "de69fdb64e80669200adccfe802f997fe39b63b4826778885c528f5bdbae8345"
+    },
+    "optimized": {
+      "bytes": 4992,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/OPTIMIZED_ROOT_CUSTODY.json",
+      "sha256": "1c3c55e18aa723410808d5a07164a58249bc0104aca47648547595eef450d7fb"
+    },
+    "witness": {
+      "bytes": 3827,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/WITNESS_ROOT_CUSTODY.json",
+      "sha256": "c067e4b502ef54e4151f0deeabf2f9c85912ea9e1d6819caaf98749c7fe562d2"
+    }
+  },
+  "producer_refusal_declarations_in_consumer": 110,
+  "programme_complete": false,
+  "remaining_premises": [
+    "Accepted RI88 baseline probabilities and RI111 scalar-passive/local/marked setup.",
+    "Fixed 28 children, same seed and epsilon=1/4.",
+    "Actual scale is not computed or selected.",
+    "Strict positivity and all remaining parent equations must still hold.",
+    "No all-size extension, QM derivation, native geometry/gravity or empirical claim."
+  ],
+  "ret_paused": true,
+  "root_complete_saved_comparison": {
+    "bytes": 1817,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_SAVED_AUDIT_COMPARISON.json",
+    "sha256": "e4873708ee1aba0760e9a4aa0096af9e9596da9be798f69d5ce169b20ec208c5"
+  },
+  "schema": "ri115-root-final-native-mathematical-adjudication-v1",
+  "source_adjudication": {
+    "bytes": 3160,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "c1a0d6bfa5b41d4755ecb8c3b4366cdb290f2f507ed8dfaea7fb3d7c8007e3c7"
+  },
+  "status": "ACCEPT_EXACT_ZERO_MINOR_RESULT_WITH_FEASIBILITY_OPEN",
+  "whole_positive_extension_established": false
+}

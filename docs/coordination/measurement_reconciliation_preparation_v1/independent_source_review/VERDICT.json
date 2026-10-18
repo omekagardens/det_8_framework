@@ -1,0 +1,77 @@
+{
+  "RET_paused": true,
+  "author_checker_replay": {
+    "bytes": 637399,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/AUTHOR_CHECK_REPLAY.json",
+    "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+  },
+  "blocking_findings": [],
+  "bootstrap": {
+    "bytes": 2454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/RECONCILE_BOOTSTRAP.source-only.py",
+    "sha256": "2621315b8a7bf8e57ce05e1a9da3e3f12d15d44d1ab6ef2f8e11dbf0a08acaba"
+  },
+  "coverage": {
+    "bootstrap_lines": 18,
+    "dependency_objects": 992,
+    "generated_empty_directories": 2,
+    "generated_files": 9,
+    "namespace": 18,
+    "old_sources": 904,
+    "payloads": 17,
+    "prior_roles": 810,
+    "protocol_lines": 101,
+    "recovery_source_domain": 971,
+    "writer_lines": 222
+  },
+  "earlier_WHITE_authorship_and_nlink_miss_disclosed": true,
+  "frozen_custody_accepted": false,
+  "independent_for_new_source": true,
+  "independent_metadata": {
+    "bytes": 812691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_CHECK.json",
+    "sha256": "667ee6e73fbd171bf6e1c6d7a56878e03608df2ea120937b690ca16f2436bad2"
+  },
+  "inherited_limits_and_external_premises_preserved": true,
+  "mode_authority": false,
+  "original_installation_remains_refused": true,
+  "preparation_executed": false,
+  "qualification_credit": 0,
+  "receipts": {
+    "bytes": 3746,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/TOOL_RECEIPTS.json",
+    "sha256": "63664590585e31dcf152a29ea29a26c066ce4e3f02bca3697b56f98278f397e5"
+  },
+  "reconciliation_admitted": false,
+  "reconciliation_dispatched": false,
+  "remaining_root_prerequisites": [
+    "Actual exact preparation-source disposition and authentic fresh host transcript.",
+    "Authenticated exact administrative -I -B invocation, preserving genuine completion and all partials.",
+    "Complete independent actual nine-artifact/source/supplier/E/caller custody review before any reconciliation admission.",
+    "Later separate genuine reconciliation admission, execution and independent outcome acceptance."
+  ],
+  "review": {
+    "bytes": 13140,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_REVIEW.md",
+    "sha256": "4eb0b0b322475e6146c61fc7de79e31b75dea3505621c627a14bf074bda748b2"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri229-independent-source-verdict-v1",
+  "status": "RECOMMEND_ACCEPT_EXACT_RI229_PREPARATION_SOURCE_ONLY",
+  "subject_author": "/root/ri116_complete_caller_review",
+  "subject_handoff": {
+    "bytes": 9292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/HANDOFF.json",
+    "sha256": "7efdb57c59ce7a5f2834bbdb335ff4b2c0afe4e3849e15970fc3aa2c20c321e0"
+  },
+  "subject_manifest": {
+    "bytes": 1430,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/SOURCE_PINS.json",
+    "sha256": "c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd"
+  },
+  "writer": {
+    "bytes": 27651,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/prepare_reconciliation.py",
+    "sha256": "3fb022aa2f9ed0d5f79fde2f58b7ec8abf7a5ea66b88e3759d2272f9cb198e82"
+  }
+}

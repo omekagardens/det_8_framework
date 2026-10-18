@@ -1,0 +1,169 @@
+{
+  "schema": "ri155-author-checks-v1",
+  "status": "AUTHOR_ONLY_NOT_INDEPENDENT_ACCEPTANCE",
+  "manual_review": {
+    "main_complete_reads": [
+      "Selecting RI155 assignment read again:6f82a7 exit0. Accepted root decision complete read retained from1353c1; root manual452901 exit0.",
+      "Complete independent RI153 structured review/handoff:a2d478 exit0. Narrative58ed9d exit0 had truncated opening;685706 exit0 recovered lines1-68. Remainder through EOF was present in58ed9d;2ce3ef verified no further lines beyond210.",
+      "Current CAPACITY_STRUCTURE.md complete:ff2488 and375336 exit0, already including corrected above/below wording.",
+      "Current CAPACITY_COMPARISON.md complete:d1044a exit0; all displayed algebra manually checked.",
+      "Current STRICT_CAPACITY_SYNTHESIS.md complete readback:144d20 and2b0bc2 exit0, including new conditional obstruction.",
+      "Current DEPENDENCY_NOTES.md complete:adf0ae exit0.",
+      "Literal RI41 NORMALIZATION.md1-160,160-265,265-340 read in f63578,ad5bd3,7a8035 exit0; theorem/scope use does not evaluate the displayed fixed witness.",
+      "Fresh literal source windows:RI63 check.py138-168,250-398,910-987;RI147 complete scale-bound initial230 lines and component contrast definitions/ratios;RI145 held epsilon definition70-115 and weighted proof1-160;RI127 actual-restoration identities95-165. These are text reads, not calls.",
+      "Root scope clarification complete:471318 exit0. Its optional coefficient lower bound is not load-bearing in the new proof.",
+      "Final comparison note editorial/peer-read additions:e2ecff exit0; no mathematical change."
+    ],
+    "checks": [
+      "Three complete marked C3 diamonds0/7,1/7,3/7 with record-blind old ratio41 and strict precursor locality; both T4 longest-arm ideals remain separate row occurrences.",
+      "Every height bound uses the unchanged accepted parent-four all-row theorem, with full complements retained. No later-layer height theorem or first-principles witness claim.",
+      "Complete C4 normalization yieldsb_i>77/164; held epsilon3/r cancels theta^3, and manual rational comparison giveseta<1/32.",
+      "Positive complete K0 andj+gZ<1 giveactualYE<14256/370025<1/25;Yu3>1/4 removes the old extra maximum exactly.",
+      "Both strict capacities iff v>B. C1>21/100 whenB/v<=1 does not makezeroC0 admissible; equalityv=B fails the envelope.",
+      "Complete E/V sums yieldE_i<3,V_i<1,v<1/72; exactcapF=3 positive root and equalitycases retained. ConditionalFmax<=3/lambda>=7/852 obstruction selects no actual branch.",
+      "Remainingv/lambda identity retains both signedrelativeC4 contrasts andsameN_i insideF_i andZ. Noactualv>B or adequateq claim.",
+      "Failed sufficient envelope does not determineW orH30. Full envelope pass would obstruct thisfixedH30 candidate, but isnot proved."
+    ]
+  },
+  "author_peers": [
+    {
+      "agent": "/root/ri132_native_controls",
+      "role": "Structural coauthor, not independent reviewer",
+      "report": "Complete incidence/cap proof, main synthesis and comparison manuscript cross-check; comparisonread3f5938exit0. No concrete mathematical issue. Three read-only diagnostics retained below."
+    },
+    {
+      "agent": "/root/ri132_audit_controls",
+      "role": "Capacity algebra coauthor, not independent reviewer",
+      "report": "Complete main synthesis and structural companion manually cross-checked. No concrete mathematical issue; no failed command in this contributor's RI155 work. Final text/opaque identity only."
+    },
+    {
+      "agent": "/root/ri132_evidence_contract",
+      "role": "Administrative provenance coauthor, not independent reviewer",
+      "report": "Initial192 checks a3e42b/181650; after clarification final193 checks6884b1/7f2e7f exit0.193dependencies5432055bytes,171inherited,65admin1294historical/79currentrefs,17extendedstate-bearingidentities,4pairs."
+    }
+  ],
+  "diagnostics": [
+    {
+      "kind": "WITHDRAWN_EXPLORATORY_LEAD",
+      "description": "Initial speculative inverse-theta growth ofeta was rejected on reading the held epsilon3 definition. Epsilon3 itself carries theta^3; final proof cancels that factor. No actual operand was evaluated or result drawn from the erroneous lead."
+    },
+    {
+      "kind": "READ_ONLY_PATH_ERROR",
+      "tool_chunk": "fd819e",
+      "exit_code": 1,
+      "stderr": "cat: /Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/ROOT_MANUAL_REVIEW.json: No such file or directory",
+      "description": "Native peer guessed JSON filename after successful assignment read; correct ROOT_MANUAL_REVIEW.md read next. No mutation."
+    },
+    {
+      "kind": "READ_ONLY_PATH_ERROR",
+      "tool_chunk": "bec2f5",
+      "exit_code": 2,
+      "stderr": "rg: /Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/CONNECTED_CONTRACTS.md: No such file or directory (os error 2)",
+      "description": "Native peer search included guessed name while real paths returned matches. CorrectDECISION_CONTRACT.md then read fully inf71a71exit0."
+    },
+    {
+      "kind": "READ_ONLY_TIMING_ERROR",
+      "tool_chunk": "5715a2",
+      "exit_code": 1,
+      "stderr": "cat: /Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_COMPARISON.md: No such file or directory",
+      "description": "Peer attempted expected current proof before its coauthor saved it. No scientific or filesystem state changed."
+    },
+    {
+      "kind": "TRUNCATED_READ_RECOVERED",
+      "description": "Combined independent-review output58ed9d had truncated opening;685706 recovered first68lines in full. Initialrg search546c93 output was truncated; selected premises were read in direct windows rather than treating truncated matches as complete evidence."
+    },
+    {
+      "kind": "PRESEAL_EDITORIAL_CORRECTION",
+      "description": "Structural note corrected 'bounded below' to 'bounded above' for a selected height-raising probability compared with its total. Main full readback already contains corrected wording."
+    },
+    {
+      "kind": "INHERITED_DIAGNOSTICS_RETAINED",
+      "description": "RI153 withdrawn numericseed-order inference gets no theorem, branch, order orsigncredit. N01 retains onlyKbox/Kcorr oldfloordominance. Source/review/root bytes remain immutable and all diagnostics are bound."
+    }
+  ],
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "actual_selected_numeric_values_computed_or_substituted": false,
+    "manual_arithmetic_on_inherited_theorem_bounds": true,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "ret_paused": true,
+  "measurement_separate": true,
+  "postseal_rule": "HANDOFF.json binds nine payloads including this record. Final10 is a subsequent actual receipt with fresh uncached reopens; no independent acceptance or continuing-custody claim.",
+  "administrative_check": {
+    "command": "node <<'NODE'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup', P='/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5', V='/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:174260,sha256:'c58ffadd73d363c1b56815ad11ae5042967be08e60a869bfcedafc2daee82462'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:28089,sha256:'95b2a7df278506cd796d948789eaff9d7cbcc24d7845dc256d31b2ccfeb3bdc3'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===193,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===171,'old171');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===65&&refs===1294&&extended===17,'admin refs');refs=0;scan(S);need(refs===79,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"ANALYTIC_RESULT.json\",\"AUTHOR_CHECKS.json\",\"CAPACITY_COMPARISON.md\",\"CAPACITY_STRUCTURE.md\",\"DEPENDENCY_NOTES.md\",\"HANDOFF.json\",\"HANDOFF.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\",\"STRICT_CAPACITY_SYNTHESIS.md\"];\nconst stage=process.env.RI155_STAGE||'preseal8',expected=stage==='final10'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['STRICT_CAPACITY_SYNTHESIS.md','CAPACITY_STRUCTURE.md','CAPACITY_COMPARISON.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final10'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===9,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri155-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:193,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:171,administrative_bodies:65,historical_typed_refs:1294,premise_refs:79,extended_historical_identity_occurrences:17,historical_state_compared_to_current:false,predecessor_namespaces:[10,7],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nNODE",
+    "tool_chunk": "8565bf",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri155-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal8",
+      "dependencies": 193,
+      "selected_bytes": 5432055,
+      "inherited": 171,
+      "administrative_bodies": 65,
+      "historical_typed_refs": 1294,
+      "premise_refs": 79,
+      "extended_historical_identity_occurrences": 17,
+      "historical_state_compared_to_current": false,
+      "predecessor_namespaces": [
+        10,
+        7
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 6,
+      "final_fresh_identity_rechecks": 201,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/ANALYTIC_RESULT.json",
+          "bytes": 4031,
+          "sha256": "fd5c26ace1bf25d2e03643350800d697ac21ef88b2bf7132f8efff36ab26a9e4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_COMPARISON.md",
+          "bytes": 12875,
+          "sha256": "f31c55d31f253b25fb7a748e54cb06a4a14ba46ad3aad1a3ed909825673b8873"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_STRUCTURE.md",
+          "bytes": 15579,
+          "sha256": "54fa9b1e421520527a2403e20d0e243f257bdc8ef244e945200e4a652ab3d936"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/DEPENDENCY_NOTES.md",
+          "bytes": 12969,
+          "sha256": "b45123542b00ed32ed8f508896776e2935ab00fbb825be2171a71d52d862408f"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.md",
+          "bytes": 3033,
+          "sha256": "8c1b1a91ece04bdbddcf0d8791d9b083d34a59155536fe20a725d7cfb1e284bd"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_DEPENDENCIES.json",
+          "bytes": 174260,
+          "sha256": "c58ffadd73d363c1b56815ad11ae5042967be08e60a869bfcedafc2daee82462"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_IDENTITIES.json",
+          "bytes": 28089,
+          "sha256": "95b2a7df278506cd796d948789eaff9d7cbcc24d7845dc256d31b2ccfeb3bdc3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/STRICT_CAPACITY_SYNTHESIS.md",
+          "bytes": 12373,
+          "sha256": "01c43f913bac3351982e8f529606f2e7aff56b0ea358caaceb66507503b2f361"
+        }
+      ],
+      "scientific_execution": false
+    }
+  }
+}

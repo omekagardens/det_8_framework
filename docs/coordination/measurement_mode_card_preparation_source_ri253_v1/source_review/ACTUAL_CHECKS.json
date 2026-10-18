@@ -1,0 +1,91 @@
+{
+  "actual_metadata_check": {
+    "command": "/opt/homebrew/bin/python3 -I -B /private/tmp/ri249-mode-card-source-independent-twcxt5xz/check_source.py",
+    "exit_code": 0,
+    "initial_call_included_exclusive_checker_source_creation_then_execution": true,
+    "opaque_files": 631,
+    "predicates": 37747,
+    "result": {
+      "bytes": 161061,
+      "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/CHECK.json",
+      "sha256": "1574558be29b4341e6442ced57faefe9e4d4ab3863d2de7e0e340cde8160ac4c"
+    },
+    "tool_chunk": "77f000"
+  },
+  "author_diagnostics_preserved": {
+    "bytes": 3981,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHOR_TOOL_RECORD.json",
+    "sha256": "1463aac71798c8d3045c7d3430d3a45ade900b154b509f712801299b1e198911"
+  },
+  "current_runtime_or_E_inventory": false,
+  "genuine_tool_origin": "Actual administrative tool receipts are visible in the reviewer conversation; saved transcripts cannot self-authenticate external tool origin.",
+  "manual_read_scope": "Entire373-line writer,18-line bootstrap, predecessor334-line writer/contract, all new protocol/design/diffs/changes/references/root recipes/author source+diagnostics; complete AUTHOR_CHECK metadata rows parsed and rehashed.",
+  "old_failed_text_builder": {
+    "bytes": 725,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/AUTHORING_FAILURE_02e746.json",
+    "sha256": "6a4f2ca3c1ce966aac1c6c674d065108cac6f0e8ad78cdbd9cd80212de07429c"
+  },
+  "reviewer_checker": {
+    "bytes": 11871,
+    "path": "/private/tmp/ri249-mode-card-source-independent-twcxt5xz/check_source.py",
+    "sha256": "33e4519059c79b86919251ec639743db5895283e4567b6422081a11b64bfe5f1"
+  },
+  "reviewer_failed_commands": [],
+  "schema": "ri249-mode-card-independent-source-tool-record-v1",
+  "source_read_receipts": [
+    {
+      "chunk": "69e4e3",
+      "exit_code": 0
+    },
+    {
+      "chunk": "27a7fe",
+      "exit_code": 0
+    },
+    {
+      "chunk": "a16b2b",
+      "exit_code": 0
+    },
+    {
+      "chunk": "42b31e",
+      "exit_code": 0
+    },
+    {
+      "chunk": "c78188",
+      "exit_code": 0
+    },
+    {
+      "chunk": "d6d25f",
+      "exit_code": 0
+    },
+    {
+      "chunk": "c60b2f",
+      "exit_code": 0
+    },
+    {
+      "chunk": "7cc472",
+      "exit_code": 0
+    },
+    {
+      "chunk": "1053c9",
+      "exit_code": 0
+    },
+    {
+      "chunk": "99f6d6",
+      "exit_code": 0
+    },
+    {
+      "chunk": "461995",
+      "exit_code": 0
+    },
+    {
+      "chunk": "9fd0af",
+      "exit_code": 0
+    }
+  ],
+  "source_subject": {
+    "bytes": 8850,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "sha256": "ccf34c9baf147994366595cf73be92534733a9b7e3c3810d72c3f227f3a2ab3c"
+  },
+  "target_or_proposal_execution": false
+}

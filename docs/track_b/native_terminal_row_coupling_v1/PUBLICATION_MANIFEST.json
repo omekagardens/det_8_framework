@@ -1,0 +1,119 @@
+{
+  "exact_copies": 20,
+  "parent": "6ddc8ab986f9b0e85638e5d72138e596a4577f2b",
+  "payload": [
+    {
+      "bytes": 138084,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "295d85aec729b9411f8867bbbdaa6c649f49b09dce14e424b864eda89864e8f0"
+    },
+    {
+      "bytes": 1036,
+      "path": "README.md",
+      "sha256": "ddb41f192247a05b0abfad882e67588095193c10ec9b1f7d59b5a66d65cc3d84"
+    },
+    {
+      "bytes": 194145,
+      "path": "independent_review/ADMINISTRATIVE_REVIEW.json",
+      "sha256": "14ae0d47a2ebf6e12391bc161491bff1022e5fe8a7a1ada91909bec1321f8e42"
+    },
+    {
+      "bytes": 4880,
+      "path": "independent_review/HANDOFF.json",
+      "sha256": "d7bf51f3a4a58efa0049fced94f5408d35d1a99730e396fe714c82f4fb4c2fba"
+    },
+    {
+      "bytes": 15044,
+      "path": "independent_review/REVIEW.md",
+      "sha256": "c75d94b94921c8599214639c1c990ac7fca2ec4b56f07fe8cb579cb5e0467d5b"
+    },
+    {
+      "bytes": 11366,
+      "path": "independent_review/administrative_review.js",
+      "sha256": "0b41a780d7f45e7482a57173a7216e8bfa13475e7260df3329ebddd6666170ab"
+    },
+    {
+      "bytes": 1743,
+      "path": "root/INDEPENDENT_REVIEW_ASSIGNMENT.json",
+      "sha256": "3e75b93c919252a28bbc2ca2f59a1adba66d67446da8a67e349c809c8e2cf8d3"
+    },
+    {
+      "bytes": 158931,
+      "path": "root/INDEPENDENT_REVIEW_AUTHENTICATION.json",
+      "sha256": "a3cbc58450b9d3778cad6c4ac51fa4e9ec002ef295d6ca35315d1b0e04d4e004"
+    },
+    {
+      "bytes": 1757,
+      "path": "root/RI168_ROOT_ADJUDICATION.json",
+      "sha256": "9d542a099d902bb5cee54970e217d4fb264e420d23c745bd7fcfeffde09e131a"
+    },
+    {
+      "bytes": 154510,
+      "path": "root/RI168_ROOT_METADATA_CHECK.json",
+      "sha256": "a690e250a9bfb745dfbc4a4d518613c4dc951b2164d1f4fa09ad646a3255ae82"
+    },
+    {
+      "bytes": 6255,
+      "path": "root/RI168_ROOT_PROOF_REVIEW.md",
+      "sha256": "58a5cc66e1c9f78329c6dce7378667e05896a5820399272a3b4ac45bbdfabf54"
+    },
+    {
+      "bytes": 646,
+      "path": "root/RI172_DISPATCH_RECORD.json",
+      "sha256": "f1a89bc4316e9ac644adf194a9be0e0d14937d7a3e6d53b11491f3687c0c9370"
+    },
+    {
+      "bytes": 3590,
+      "path": "root/RI172_NATIVE_ASSIGNMENT.json",
+      "sha256": "1735bba8da2e699a7e9e7ab79b38cec9113735a10978f9a015c150dcb516ea1d"
+    },
+    {
+      "bytes": 2407,
+      "path": "root/check_ri168.py",
+      "sha256": "fdbca17d7e3f833ec499c4cef624e20c4d0d66123389e9ce699e42abc668403f"
+    },
+    {
+      "bytes": 17243,
+      "path": "source/AUTHOR_CHECKS.json",
+      "sha256": "8e99de127d30b57513c9f683ae84ef5906ec502a3d802633ef9b11ef8dc10e65"
+    },
+    {
+      "bytes": 13509,
+      "path": "source/COUPLED_BOUND.md",
+      "sha256": "3dc4a0408d34c17a639828d5cef49560fc02c9b4de26df17aa183c0b52e645f0"
+    },
+    {
+      "bytes": 15028,
+      "path": "source/DEPENDENCY_NOTES.md",
+      "sha256": "2b18085c76cf83da96a2f8aeece6e3c63143904295e3a243fefdda6feabbae9d"
+    },
+    {
+      "bytes": 6482,
+      "path": "source/HANDOFF.json",
+      "sha256": "7b88fbb66f8681d7f38f03f7fe4cfd4f61fc4ced9bcbdb0ef2fe7fc771480c93"
+    },
+    {
+      "bytes": 3085,
+      "path": "source/HANDOFF.md",
+      "sha256": "9b8abce237a61129361ceaf000b58741a5655e002a1593683fbede5af801dd80"
+    },
+    {
+      "bytes": 25166,
+      "path": "source/INCIDENCE.md",
+      "sha256": "e74357b08a2dd13a364b3c0a460f9fbc8be6766b2e2cb80b60971c23a9d3e6b7"
+    },
+    {
+      "bytes": 240038,
+      "path": "source/SOURCE_DEPENDENCIES.json",
+      "sha256": "86795e1016c459732e083e0f9d0d8a18c882f2dada6b6c56d7f01ba44fc47530"
+    },
+    {
+      "bytes": 46255,
+      "path": "source/SOURCE_IDENTITIES.json",
+      "sha256": "862c210b7a38b71d64f4eb6a49fbac114721fd11ad844ec90649983a14231635"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

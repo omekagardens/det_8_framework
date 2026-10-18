@@ -1,0 +1,74 @@
+{
+  "actual_results": [
+    {
+      "checks": 62933,
+      "chunk_id": "8b7e1c",
+      "exit_code": 0,
+      "identities": 285,
+      "result": {
+        "bytes": 168812,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/CHECK_RESULT.json",
+        "sha256": "6a668dab0b909240aa4ec6c8b6b41dccd232d4a090652a3f83a7e18c7c01ffa2"
+      }
+    },
+    {
+      "checks": 39,
+      "chunk_id": "ea9431",
+      "exit_code": 0,
+      "result": {
+        "bytes": 1295,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/GENUINE_LINKAGE.json",
+        "sha256": "48bff5d22c566b65e049f4fb78e1ee9e878cdd1ee1ddda20e29b48c4406aa1ac"
+      }
+    }
+  ],
+  "commands": [
+    "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_failure.py",
+    "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_genuine.py"
+  ],
+  "failed_checker_attempts": [],
+  "receipts": [
+    {
+      "chunk_id": "ae73eb",
+      "exit_code": 0,
+      "scope": "Complete actual namespaces and first/error/tail/monitor records; exclusive reviewer reservation."
+    },
+    {
+      "chunk_id": "db110a",
+      "exit_code": 0,
+      "scope": "Exact installer103/checker91 predicates and whole before/after root data, saved write success and42 sample counts."
+    },
+    {
+      "chunk_id": "8b7e1c",
+      "exit_code": 0,
+      "scope": "Independent administrative failure checker only:62,933 predicates,285 opaque identities."
+    },
+    {
+      "chunk_id": "a690b0",
+      "exit_code": 0,
+      "scope": "Authenticate and read complete genuine installation, post-host and root postfailure custody."
+    },
+    {
+      "chunk_id": "ea9431",
+      "exit_code": 0,
+      "scope": "Independent39-predicate genuine/result/custody linkage checker only."
+    }
+  ],
+  "schema": "ri224-independent-postwrite-failure-tool-receipts-v1",
+  "scientific_decode": false,
+  "source_files": [
+    {
+      "bytes": 14184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_failure.py",
+      "sha256": "e2a7e5e7f50dad93d53602c0c78950d336fa852fe4b0883539f0aba0469a9b42"
+    },
+    {
+      "bytes": 5183,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_genuine.py",
+      "sha256": "61d6486c9298a5373210dc40789369864219fa0a8e35d866d85832f5accdbc67"
+    }
+  ],
+  "subject_execution": false,
+  "subject_retry": false,
+  "tool_origin_external": true
+}

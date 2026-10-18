@@ -1,0 +1,109 @@
+{
+  "administrative_execution": {
+    "chunk": "8dcf5b",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stderr",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stdout_verified_in": "dbd0e2"
+  },
+  "author_and_peer_records": "Read as declared source provenance; not independently observed executions or independent proof acceptance.",
+  "diagnostics_preserved": [
+    "Clipped historical display explicitly recovered; no unseen source span is credited solely from the clipped output.",
+    "Root grid clarification preserves its original exit1 absent-glob diagnostic.",
+    "Author a7e617 exit0 has preseal8 scope, not a preclaimed final-ten seal.",
+    "Author preliminary221 versus final223 metadata checks remain distinguished."
+  ],
+  "final_pin_check": "Created by seal_review.py after these records; exact later tool result supplied with sealed handoff. No later completion is preclaimed by this record.",
+  "reads": [
+    {
+      "chunks": [
+        "fc61a4"
+      ],
+      "exit_code": 0,
+      "scope": "Complete assignment/handoff and empty reservation."
+    },
+    {
+      "chunks": [
+        "c0da5a"
+      ],
+      "exit_code": 0,
+      "scope": "Complete numbered current synthesis and cap manuscripts."
+    },
+    {
+      "chunks": [
+        "6c1e51"
+      ],
+      "exit_code": 0,
+      "scope": "Complete numbered contrast manuscript and complete dependency notes/HANDOFF.md."
+    },
+    {
+      "chunks": [
+        "3726a1"
+      ],
+      "exit_code": 0,
+      "scope": "Complete author checks, analytic result and root grid clarification."
+    },
+    {
+      "chunks": [
+        "6c67f7",
+        "ce226d"
+      ],
+      "exit_code": 0,
+      "scope": "Complete RI36 EXTENSION.md and RI41 NORMALIZATION.md."
+    },
+    {
+      "chunks": [
+        "4eee96",
+        "c9b921"
+      ],
+      "display_truncation": true,
+      "exit_code": 0,
+      "scope": "Historical RI151/147 proof and root RI155 decision/manual note; combined display clipped, recovered below."
+    },
+    {
+      "chunks": [
+        "3672eb",
+        "564a93",
+        "b733e8",
+        "8da135"
+      ],
+      "exit_code": 0,
+      "scope": "Recovered complete RI147 text ranges1-185,180-290,290-EOF and RI151 tail334-EOF; cap complete reread; RI155 height incidence1-170."
+    },
+    {
+      "chunks": [
+        "207ecd",
+        "6cd770"
+      ],
+      "exit_code": 0,
+      "scope": "Bounded current administrative metadata inspection, exact selected policies/additions; no opaque-body decode."
+    },
+    {
+      "chunks": [
+        "e7b46b"
+      ],
+      "exit_code": 0,
+      "scope": "RI63 exact law pin/row/deletion225-315, reconstruct340-415, COMPLETION35-70; complete trusted metadata helper read."
+    },
+    {
+      "chunks": [
+        "dbd0e2",
+        "ea04f4"
+      ],
+      "exit_code": 0,
+      "scope": "Complete contrast and synthesis final numbered rereads; administrative stdout/stderr verification."
+    }
+  ],
+  "repository_or_Git_write": false,
+  "reviewer_failed_commands": [],
+  "schema": "ri157-independent-actual-checks-v1",
+  "scientific_numeric_decode_or_evaluation": false,
+  "scientific_or_subject_execution": false,
+  "scope": "Manual analytic source reading and independent bounded administrative opaque/reference checks only.",
+  "trusted_helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7",
+    "use": "Authenticated administrative identities/save only; no git/snapshot/main."
+  }
+}

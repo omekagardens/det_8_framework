@@ -1,0 +1,56 @@
+{
+  "schema": "ri233-compact-administrative-check-v1",
+  "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+  "stage": "final6",
+  "direct_sources": 33,
+  "direct_bytes": 846757,
+  "inherited423_manifest_by_reference": true,
+  "fresh_inherited423_collection_replay": false,
+  "inherited_boundary_objects_preserved": 15,
+  "inherited_exact_analytic_admissions_renewed_without_expansion": true,
+  "new_literal_scientific_exception": 0,
+  "new_scientific_body_or_coordinate_read": false,
+  "scientific_body_JSON_parsed": false,
+  "old_exception_not_used_as_current_permission": true,
+  "inherited_opaque_body_row_not_reclassified": true,
+  "historical_state_arrays_not_current_stat_expectations": true,
+  "explicit_selected_reference_checks": 46,
+  "predecessor_namespace": 6,
+  "current_namespace": 6,
+  "whole_identity_fresh_rechecks": 39,
+  "current_payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/AUTHOR_VERIFICATION.json",
+      "bytes": 39812,
+      "sha256": "829c58f7fc8781290d4f86a6818a0c8bca9e8b631c2c9714335035fd0f5430e5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.json",
+      "bytes": 18397,
+      "sha256": "bcd0a7c893b4e1ebec2f79ac9c92047a88972de0e6800a2a299176c1ef8a7cf6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/HANDOFF.md",
+      "bytes": 2099,
+      "sha256": "4a8ab82be95fdb00f0e450f9168a04da468b4b48a7d29de598f020d54a5ec115"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/OFFSET_ELIMINATION.md",
+      "bytes": 8137,
+      "sha256": "cfd7c78c78fd39f9abef2873cae50fd8b903251da52ef3d1eafd99dca95b8efc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/ROOT_TRANSPORT.md",
+      "bytes": 14353,
+      "sha256": "587b4033d350c6022b5a5ffcd990e2d1a8f5a073f02249d1c18e5bab75812440"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp/SOURCE_REFERENCES.json",
+      "bytes": 67263,
+      "sha256": "836331259f615b9003f4d56d5d6eb34de5deb4037b2d155473ff1ea13b4d6a01"
+    }
+  ],
+  "declared_local_Markdown_targets": "all-present",
+  "automated_proof_arithmetic": false,
+  "subject_execution": false
+}

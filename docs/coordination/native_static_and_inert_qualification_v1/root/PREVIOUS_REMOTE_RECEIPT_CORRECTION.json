@@ -1,0 +1,22 @@
+{
+  "actual_initial": {
+    "chunk_id": "a5767c",
+    "exit_code": null,
+    "session_id": 70923,
+    "wall_time_seconds": 10.000991459
+  },
+  "actual_terminal": {
+    "chunk_id": "542c3c",
+    "exit_code": 0
+  },
+  "corrects": {
+    "bytes": 3318,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/REMOTE_PUBLICATION_RECEIPT.json",
+    "sha256": "ea3015d1d220fea70f401467eebe99d15245e471c8b691f1137f48de05dafa0a"
+  },
+  "error": "actual_tools entry build_initial_pending incorrectly used exit_code0 although the initial tool returned a pending session and no exit code.",
+  "original_receipt_preserved": true,
+  "schema": "ri163-genuine-pending-receipt-correction-v1",
+  "source_and_runtime_acceptance_unchanged": true,
+  "verified_commit_and_remote_unchanged": "ee2b3f05a68c0821b357b76196a04527f28c10cd"
+}

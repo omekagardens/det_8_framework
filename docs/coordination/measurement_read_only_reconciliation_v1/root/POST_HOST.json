@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/usr/bin/sw_vers"
+  ],
+  "environment": {
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "genuine_tool": {
+    "bytes": 1504,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_POST_HOST.json",
+    "sha256": "45c3c24c087a59ac2abbf633ec30ba1d6b9689d7d50995a64b17c6a5659046c0"
+  },
+  "returncode": 0,
+  "schema": "ri209-root-host-command-record-v1",
+  "stderr": "",
+  "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.2\nBuildVersion:\t\t25F84\n",
+  "uname": [
+    "Darwin",
+    "allan.local",
+    "25.5.0",
+    "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+    "arm64"
+  ]
+}

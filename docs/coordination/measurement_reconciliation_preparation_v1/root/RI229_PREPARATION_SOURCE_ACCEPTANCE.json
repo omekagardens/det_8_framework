@@ -1,0 +1,51 @@
+{
+  "RET_paused": true,
+  "independent_actual_metadata": [
+    "f85304 exit0,3999 predicates/997 opaque files, whole author report matched",
+    "b4f4c1 exit0,6005 predicates/1011 opaque files"
+  ],
+  "independent_checker_diagnostics_retained": [
+    "24b66b",
+    "430526",
+    "29da41"
+  ],
+  "independent_full_read": "b9bbe4 exit0",
+  "independent_review": {
+    "bytes": 7768,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/HANDOFF.json",
+    "sha256": "d78cd1f9e9c14304504a69796c4df9267454c6543344ecee6f35f8ba90bb35df"
+  },
+  "mode_admission": false,
+  "packet": {
+    "bytes": 9292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/HANDOFF.json",
+    "sha256": "7efdb57c59ce7a5f2834bbdb335ff4b2c0afe4e3849e15970fc3aa2c20c321e0"
+  },
+  "preparation_executed": false,
+  "qualification_credit": 0,
+  "reconciliation_admitted": false,
+  "recovery_source_review": {
+    "bytes": 2289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+    "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+  },
+  "root_actual_metadata": "6efaae/session1066 ->5dfce3 exit0",
+  "root_manual_review": {
+    "bytes": 3669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_ROOT_REVIEW.md",
+    "sha256": "e2e0f53052bfe94c5b379a8540451d64781040363f2942c5ef844f026e049014"
+  },
+  "root_metadata": {
+    "bytes": 564,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_ROOT_SOURCE_METADATA.json",
+    "sha256": "f1fb18a0c5f37d0d635cf0810cc6c604aaf7e7fc848cc9b001dca1b5fa31e7aa"
+  },
+  "schema": "ri229-root-preparation-source-decision-v1",
+  "scope": "Exact preparation source only; an additional root one-preparation decision and actual host/interpreter/source authentication are required.",
+  "source_manifest": {
+    "bytes": 1430,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/SOURCE_PINS.json",
+    "sha256": "c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd"
+  },
+  "status": "ACCEPT_RI229_PREPARATION_SOURCE_ONLY"
+}

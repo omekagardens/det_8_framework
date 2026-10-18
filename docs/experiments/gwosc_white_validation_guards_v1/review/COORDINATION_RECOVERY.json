@@ -1,0 +1,48 @@
+{
+  "active_runtime_inventory_or_admission": false,
+  "date_utc": "2026-09-30",
+  "initial_partial_inventory": {
+    "bytes": 15610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-recovery-review-53wfd40p/RECOVERY_SOURCE_INVENTORY.json",
+    "sha256": "84101178ec5a735ee7a879e1eb13132b6607755f28627c8e286663319693dead"
+  },
+  "interruption": "Usage-limit interruption left preparation drafts; resumed the same three external reservations, without repeating completed scientific work.",
+  "native": {
+    "actual_blocker": "complete caller review, changed-target/runtime qualification and separate admission precede sign execution",
+    "caller_accepted": false,
+    "handoff": {
+      "bytes": 10184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+    },
+    "independent_review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10",
+    "reviewer": "existing independent-review worker; disclosed no RI129 target/caller authorship",
+    "root_review_scope": "Bounded manual preflight and in-attempt prerequisite-chain read only; not complete caller acceptance.",
+    "scientific_execution": false,
+    "scientific_question": "actual C2/C3 signs and simultaneous H30 feasibility remain open",
+    "sealed_namespace_count": 13
+  },
+  "previous_published_commit": "35e5f6076f6967c2d9f47daa4d462e3115721c9e",
+  "previous_verified_remote": {
+    "bytes": 669,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/VERIFIED_REMOTE.json",
+    "sha256": "89825d66b3a74fbfda831236a236d45da25328d7149052bcf833717e84297e17"
+  },
+  "programme_complete": false,
+  "ret_paused": true,
+  "schema": "ri129-through-ri131-coordination-recovery-v1",
+  "scientific_json_decode": false,
+  "target_execution": false,
+  "validator_guards": {
+    "decision": {
+      "bytes": 3102,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-recovery-review-53wfd40p/RI131_ROOT_ADJUDICATION.json",
+      "sha256": "303033c31dd24f419079f34a4db330df436124c29a13383c429f683a3a483781"
+    },
+    "next": "caller applicability/design after RI130 source seal and independent review; genuine normal qualification review then separate optimized admission"
+  },
+  "white_caller": {
+    "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+    "status": "active resumed source preparation; not accepted or published"
+  }
+}

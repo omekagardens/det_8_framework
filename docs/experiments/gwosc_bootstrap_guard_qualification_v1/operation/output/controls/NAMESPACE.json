@@ -1,0 +1,172 @@
+{
+  "all_partials_retained": true,
+  "entries": [
+    {
+      "bytes": 831,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "a90f004c2aba672cbcf5f85b8bd0477cb76ad4b8dd6e9e7d1f22b429cf5d14c2"
+    },
+    {
+      "kind": "directory",
+      "relative": "B01"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B01/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B02"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B02/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B03"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B03/PROVENANCE_DOUBLE.json",
+      "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+    },
+    {
+      "kind": "directory",
+      "relative": "B04"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B04/PROVENANCE_DOUBLE.json",
+      "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2"
+    },
+    {
+      "kind": "directory",
+      "relative": "B05"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B05/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B06"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B06/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_bytes"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_bytes/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_path"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_path/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_resolved_path"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_resolved_path/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_sha256"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_sha256/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_state"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_state/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B07_symlink_chain"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B07_symlink_chain/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B08"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B08/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B09"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B09/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "kind": "directory",
+      "relative": "B10"
+    },
+    {
+      "bytes": 616,
+      "kind": "file",
+      "relative": "B10/PROVENANCE_DOUBLE.json",
+      "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c"
+    },
+    {
+      "bytes": 162784,
+      "kind": "file",
+      "relative": "REPORT.json",
+      "sha256": "230f968c82ebd099d7cd0f5e88ff654b78ff7801f11eb343c02f0616fc273dc0"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls",
+  "schema": "ri144-control-namespace-v1"
+}

@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BF-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05be-target-specific-measurement-reduction-2026-09-08/README.md": {
+      "bytes": 11831,
+      "sha256": "3009d90e30e2f88155d14169ae0c176b733e66275d91bd7ec821f1c3da04ee9e"
+    },
+    "docs/validation/qr-05be-target-specific-measurement-reduction-2026-09-08/RESULTS.md": {
+      "bytes": 12698,
+      "sha256": "26b5be610e669670e730ffa23c1728b54b553163608180fdb4e5c3a2b2e298bb"
+    },
+    "docs/validation/qr-05be-target-specific-measurement-reduction-2026-09-08/protocol.json": {
+      "bytes": 4804,
+      "sha256": "35c28b24b399c282eaaea62410d8ac1044050462e7080abe90bb868755ece979"
+    },
+    "docs/validation/qr-05be-target-specific-measurement-reduction-2026-09-08/results.json": {
+      "bytes": 2241522,
+      "sha256": "a9c83821f194e03b41958cd5c052920325d973a3263d18b829694a1b9bf09874"
+    },
+    "docs/validation/qr-05be-target-specific-measurement-reduction-2026-09-08/source-freeze.json": {
+      "bytes": 2396,
+      "sha256": "b1e64907147c4dab23ffb339e666b7be537881c2763130368b2bc0a226e128f8"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/README.md": {
+      "bytes": 11222,
+      "sha256": "f5a78bca5866144d75e70dff0a4f50da1dd71d197af680e38b6e5d527c41ef60"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/protocol.json": {
+      "bytes": 2777,
+      "sha256": "0c874abb8290fc1d6e4d76c25c741bf778e5c721f8f7c0310693fcbf1804aa4e"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/quantum.py": {
+      "bytes": 31397,
+      "sha256": "58c826d6f820af449c94d3f138ab628b754660c4c3c1096c96673ae2f39dd785"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/reference.py": {
+      "bytes": 20517,
+      "sha256": "3e7690e71d03db2f94bd117f278b6c5330f9425b6624bccf5a0a02cf712d5ee7"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/study.py": {
+      "bytes": 16738,
+      "sha256": "bef23cf4448ed9d1d71b0440a03328c7b5d7611904f5a0c56fb7a5449e1f6210"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/test_qr05bf.py": {
+      "bytes": 60267,
+      "sha256": "124213075ffad0fe6f44dd374afe6021dbcff3683eef19d66f5c0acf287437b8"
+    }
+  }
+}

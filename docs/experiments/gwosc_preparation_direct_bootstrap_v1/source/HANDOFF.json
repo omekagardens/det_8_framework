@@ -1,0 +1,221 @@
+{
+  "accepted_historical_focused25": {
+    "bytes": 3357,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ACTUAL_ROOT_ACCEPTANCE.json",
+    "sha256": "1d6a9928570f1db9fbf87c1133b53d9fe708f17495b6443ddbd3ae71a8d109b1"
+  },
+  "author": "/root/archive_repro_review",
+  "author_is_predecessor_preparation_and_white_validator_author": true,
+  "author_metadata_check": {
+    "actual_exit_code": 0,
+    "actual_tool_chunk": "f4aafd",
+    "failed_attempt_retained": {
+      "bytes": 828,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK_ATTEMPT1.json",
+      "sha256": "2b61a297088b48a2eb29485e7b626e792be4a0e15f729d7f8bfec3b1dd61b60f"
+    },
+    "result": {
+      "bytes": 120090,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK.json",
+      "sha256": "62b609b048fd7126c4e2a4506a1b4f5be57144abb8a3829d03705354b19f93ee"
+    }
+  },
+  "blocked_external_premises": [
+    "Fresh genuine root bootstrap/framework/host/environment/cache/loader and tool-origin evidence; historical selected binding does not supply current preflight.",
+    "Stable supplier/no descendants; sampled child RSS is not parent/group quota; saved pid_owner is parent PID, not independently authenticated child identity.",
+    "Root external terminating deadline and cleanup on forced parent termination; source comparisons do not authenticate their own interpreter."
+  ],
+  "changed_existing_functions": [
+    [
+      "prepare.py",
+      "authenticate"
+    ],
+    [
+      "runtime_metadata.py",
+      "host_bootstrap"
+    ]
+  ],
+  "current_evidence": {
+    "active_cards_freezes_admissions": false,
+    "current_runtime_capture": false,
+    "new_controls_executed": 0,
+    "old_controls_reexecuted": 0,
+    "repository_index_git_changes": false,
+    "scientific_body_decode": false,
+    "source_syntax_validated": false,
+    "subject_import_compile_ast_probe_or_run": false
+  },
+  "dependency_counts": {
+    "additions": 189,
+    "bytes": 25947539,
+    "preserved_RI135": 253,
+    "total": 442
+  },
+  "direct_method_source": {
+    "bytes": 7035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+    "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+  },
+  "exact_namespace": [
+    "AUTHORING_RECORD.md",
+    "BOOTSTRAP_VERIFICATION_DESIGN.json",
+    "DEPENDENCIES.source-only.json",
+    "DEPENDENCY_ADDITIONS.json",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "METADATA_CHECK.json",
+    "METADATA_CHECK_ATTEMPT1.json",
+    "PROTOCOL.md",
+    "REPAIR.diff",
+    "REPAIR_CONTRACT.md",
+    "SOURCE_CORRESPONDENCE.json",
+    "fault_controls.source-only.py",
+    "prepare.py",
+    "runtime_metadata.py"
+  ],
+  "files": [
+    {
+      "bytes": 5165,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/AUTHORING_RECORD.md",
+      "sha256": "4484d463f02743bd744bb1042a0cd0287b38eb4c3e659b97b83854edc7715d37"
+    },
+    {
+      "bytes": 7491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/BOOTSTRAP_VERIFICATION_DESIGN.json",
+      "sha256": "72586486cc6be1ae06a2cd51fc0b769dccc569b1275c9b5f18b5faf08227ca25"
+    },
+    {
+      "bytes": 127567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    {
+      "bytes": 74268,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCY_ADDITIONS.json",
+      "sha256": "ca7666839b695be8de5290545c0d48dc95b876acf1e8eee38adbc91eba3466d3"
+    },
+    {
+      "bytes": 1617,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.md",
+      "sha256": "52217a8f8e38f9269181bbe1a717069c09e8fd7a67d082b6ea482c978dca7a8e"
+    },
+    {
+      "bytes": 120090,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK.json",
+      "sha256": "62b609b048fd7126c4e2a4506a1b4f5be57144abb8a3829d03705354b19f93ee"
+    },
+    {
+      "bytes": 828,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/METADATA_CHECK_ATTEMPT1.json",
+      "sha256": "2b61a297088b48a2eb29485e7b626e792be4a0e15f729d7f8bfec3b1dd61b60f"
+    },
+    {
+      "bytes": 26464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "sha256": "ee99c90a46ffd1b1bc828e8da5fa8bcc6d18e47d4f0945d8ebc9d0e2cc65ec75"
+    },
+    {
+      "bytes": 6209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/REPAIR.diff",
+      "sha256": "0d890df3ec3a3c208947cb7bab9c7084ee4decfabd0a20dc826e9ba0ac826204"
+    },
+    {
+      "bytes": 7209,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/REPAIR_CONTRACT.md",
+      "sha256": "781548c211d0be2dff75fcd5ad1b8476df1429dd010ce2ea473211a5ae09817a"
+    },
+    {
+      "bytes": 22724,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/SOURCE_CORRESPONDENCE.json",
+      "sha256": "2826f53b180f0b2537bfd35c8f9e3979e322683a7d4898181a40a4c7f473c173"
+    },
+    {
+      "bytes": 19967,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/fault_controls.source-only.py",
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    {
+      "bytes": 18728,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  ],
+  "files_bound_excluding_self": 14,
+  "full_actual_review": {
+    "bytes": 4074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/HANDOFF.json",
+    "sha256": "f39896ff1b8d634397f817f7905bc32b0da6049e1f5db8fe199f8027b0933d46"
+  },
+  "future_execution_authorized": false,
+  "inherited_actual25_applicability": "Original accepted14F01/11F02 only, explicit doubles and original source pins. Identical run/guard/snapshot/harness spans retain structural applicability; no executed-new-source or real bootstrap/capture credit. Root adjudicates any inheritance.",
+  "new_function": "prepare.selected_bootstrap",
+  "next_boundary": [
+    "Fresh nonauthor source review and root adjudication of exact sealed packet.",
+    "Root selects any separately admitted changed-guard evidence, then one new genuine capture with actual parent/PRE/POST direct commands and exact environment, unchanged monitor/custody/retention checks.",
+    "Actual baseline acceptance then normal, optimized/both-mode review and separately admitted65; scientificWHITE15/RI131/full32/public-data/native proofs remain distinct."
+  ],
+  "physical_or_runtime_qualification_claimed": false,
+  "production_predecessor": {
+    "bytes": 5902,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.json",
+    "sha256": "4291a055c4cc125d4a07fe6be4fec0e0c5945dc31225cc4bda079fce84824b1d"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076",
+  "ret_paused": true,
+  "retained_limits": {
+    "capture_row_bytes": 8388608,
+    "genuine_outer_seconds": 960,
+    "guard_seconds": 180,
+    "integer_bits": 262144,
+    "maximum_initial_interior_final_gap_seconds": 0.1,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "profile_seconds": 30,
+    "ps_timeout_seconds": 0.05,
+    "sampled_child_rss_kib": 524288,
+    "scientific_file_bytes": 67108864,
+    "scientific_wall_seconds": 180,
+    "snapshot_seconds": 180
+  },
+  "root_admission": {
+    "closed_fields": [
+      "schema",
+      "status",
+      "phase",
+      "sources",
+      "source_review",
+      "packet",
+      "output",
+      "environment_root",
+      "bootstrap",
+      "bootstrap_host_preflight",
+      "host",
+      "baseline_acceptance",
+      "normal_acceptance",
+      "profiles_acceptance",
+      "guard_admission",
+      "bounds",
+      "genuine_outer_required"
+    ],
+    "new_field": "bootstrap_host_preflight",
+    "saved_evidence_schemas_unchanged_ri133": true,
+    "schema": "ri141-root-preparation-admission-v1"
+  },
+  "schema": "ri141-production-direct-bootstrap-source-handoff-v1",
+  "self_hash_excluded": true,
+  "self_independent_acceptance": false,
+  "source_lines": {
+    "fault_controls.source-only.py": 297,
+    "prepare.py": 682,
+    "runtime_metadata.py": 410
+  },
+  "status": "SOURCE_ONLY_UNEXECUTED_REQUIRES_FRESH_NONAUTHOR_REVIEW",
+  "successor_assigned": false,
+  "unchanged_existing_function_spans": 43,
+  "whole_focused_harness_unchanged": true
+}

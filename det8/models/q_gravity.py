@@ -1,5 +1,8 @@
 """
-DET 8 q-Gravity Simulation
+RETIRED / QUARANTINED — historical q-gravity simulation.
+
+The claims and formulas below reproduce a withdrawn model. They are not
+active DET physics and may be used only for historical regression tests.
 
 Models gravitational effects sourced through ρ = q - b (the contrast
 between structural history and baseline). This is DET's proposed
@@ -22,6 +25,10 @@ Where:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

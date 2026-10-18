@@ -1,0 +1,17 @@
+{
+  "exact_namespace_files": 17,
+  "execution_admitted": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3",
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_verified_payload_pins": 16,
+  "schema": "ri134-root-review-assignment-v1",
+  "scope": "Complete callers/controls/contracts; independent reverse projection and dependency/coverage review. Author checks are not independent acceptance.",
+  "source_accepted": false,
+  "source_handoff": {
+    "bytes": 14101,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+    "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+  },
+  "status": "SEALED_SOURCE_ASSIGNED_COMPLETE_NONAUTHOR_REVIEW"
+}

@@ -1,0 +1,113 @@
+{
+  "actual_annotation_count_check": {
+    "chunk_id": "a6234a",
+    "confirmed_complete_fields": 17,
+    "confirmed_device_transition": [
+      16777230,
+      16777232,
+      4609
+    ],
+    "exit_code": 0
+  },
+  "actual_successful_saved_diagnostic": {
+    "chunk_id": "2653b7",
+    "exit_code": 0,
+    "output": {
+      "bytes": 738,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/HISTORICAL_SELECTION_COMPARISON.json",
+      "sha256": "c44655859ea88475445bb8799bb96af4048e8716aaf005620b99a880830a0029"
+    }
+  },
+  "checks": [
+    {
+      "cause": "Reviewer attempted canonical JSON serialization of sets in outside-root domain comparison; target evidence not implicated.",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.py",
+      "failure_record": {
+        "bytes": 10607296,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/FAILED_CHECK_01.json",
+        "sha256": "14939706049e9e8dbf09dba4885a5f27582b371d6985a0b8230d2966b2483c5d"
+      },
+      "result": {
+        "chunk_id": "c51f04",
+        "exit_code": 1,
+        "wall_time_seconds": 0.448778667
+      },
+      "source_at_call": {
+        "bytes": 26380,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.before-set-representation-fix.py",
+        "sha256": "3edbe7b2a5613169e2acdd158d3680644a56cb3b7a43d03996d1ddd86777464c"
+      }
+    },
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.py",
+      "console_reason": "Successful diagnostic summary included4609 long paths. Full result preserved; compact summary binds it.",
+      "console_truncated": true,
+      "result": {
+        "chunk_id": "08a999",
+        "exit_code": 0,
+        "wall_time_seconds": 0.91748025
+      },
+      "saved_output": {
+        "bytes": 19006185,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CAPTURE_CHECKS.json",
+        "sha256": "d851832efa34d5c02a167cc211abf977ac799e2df2eea66f33fd1eea58afde36"
+      },
+      "source_at_call": {
+        "bytes": 26391,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/review_saved_capture.py",
+        "sha256": "5b4d7a3980e637b109da586d69e2070e758c9763c88eb9c972dfcbd0cf1c2d26"
+      }
+    }
+  ],
+  "clipped_source_display": "73c01e was followed by a bounded reread961b62 of the omitted source finalization/protocol beginning.",
+  "ordinary_read_commands": [
+    {
+      "chunk_id": "c00c54",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2b9e0d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "079017",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a1de93",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "73c01e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "961b62",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "2316e3",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e57467",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f70ac5",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "79a0dc",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fce476",
+      "exit_code": 0
+    }
+  ],
+  "origin": "Actual administrative tool returns transcribed from this reviewer thread; not self-authenticating tool-origin credentials.",
+  "repair_scope": "Only convert the two set operands to sorted lists; preserve predecessor/failure. No subject/source/admission/output change or rerun.",
+  "schema": "ri146-independent-reviewer-command-record-v1",
+  "source_or_helper_executed": false
+}

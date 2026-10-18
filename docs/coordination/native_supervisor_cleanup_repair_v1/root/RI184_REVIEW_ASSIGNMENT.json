@@ -1,0 +1,22 @@
+{
+  "owner": "/root/archive_repro_review",
+  "predecessor": {
+    "bytes": 4180,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/HANDOFF.json",
+    "sha256": "62270fcfc8fccd571d884ac13ca45ba0d2034b34e6cccb849659aee142c3a500"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m",
+  "root_decision": {
+    "bytes": 1267,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_ROOT_ADJUDICATION.json",
+    "sha256": "08a709f36f6c19423d5ba34602666348807da5c480377032c82ef2ee395d38cc"
+  },
+  "schema": "ri184-independent-source-review-assignment-v1",
+  "scope": "Source-only manual review and authenticated metadata/literal checks in this exclusive reservation. No subject/vendor/helper import, compile, AST, probe or execution; no scientific decode, fixtures, runtime cards, qualification, Git/index/repository edits or new agents. Preserve sealed sources and failed diagnostics. Root retains disposition, future assignments and all admissions. RET paused. Seal full review and genuine actual-check outcomes.",
+  "subject": {
+    "bytes": 13764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+    "sha256": "55f33b57bb11d1633b8410c64574cebccfa17846397fb6aacc27fe4a23d6bd26"
+  },
+  "task": "Independently adjudicate the complete RI182 narrow F04-R repair and actual administrative evidence. Verify exact caller secondary errors and order, all four cases and both pipes, failed close then successful retry, and no post-success unregister/close attempts, including failed repeats without another success. Review source-derived lifetime/role identity and semantic mutation coverage, complete unchanged92/34 preservation, all35 prospective mutation families, exact delta and inherited boundaries. Do not accept author labels without tracing."
+}

@@ -1,0 +1,416 @@
+{
+  "schema": "ri122-reviewed-source-preparation-handoff-v1",
+  "status": "READY_FOR_RESEARCH_OWNER_SOURCE_ADJUDICATION_ONLY",
+  "date": "2026-09-26",
+  "packet_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx",
+  "prepared_by": "Quantum Relativity worker /root",
+  "research_owner_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "scope": "Minimal source-only adaptation of retained RI115 native supervision and independent-audit custody to the accepted RI120 connected-sensitivity source. This handoff is not owner acceptance or execution authority.",
+  "scientific_execution": false,
+  "target_import_parse_compile_probe_run": false,
+  "scientific_operand_decoding": false,
+  "execution_authorized": false,
+  "active_freeze_or_admission_created": false,
+  "actual_sensitivity_decided": false,
+  "fixed_support_rejected": false,
+  "positive_repair_found": false,
+  "resource_fit_measured": false,
+  "changed_target_qualification_inherited": false,
+  "repository_index_git_write": false,
+  "programme_complete": false,
+  "question": "Are both connected profiles nonconstant at the unchanged accepted baseline? Only that outcome rejects the fixed 28-child support; actual profiles remain uncomputed.",
+  "counts": {
+    "history_paths": 699,
+    "old_history_paths_preserved": 560,
+    "history_declared_references": 13328,
+    "history_unresolved_references": 0,
+    "runtime_files": 2988,
+    "runtime_directories": 258,
+    "runtime_absences": 40,
+    "static_runtime_images": 87,
+    "pre_correction_artifacts_preserved": 11,
+    "future_execution_paths_observed_absent": 78
+  },
+  "prospective_stages": [
+    {
+      "stage": "witness",
+      "input_roles": 3720,
+      "complete_roles": 3724,
+      "unique_complete_paths": 3706
+    },
+    {
+      "stage": "normal",
+      "input_roles": 3739,
+      "complete_roles": 3743,
+      "unique_complete_paths": 3725
+    },
+    {
+      "stage": "optimized",
+      "input_roles": 3753,
+      "complete_roles": 3757,
+      "unique_complete_paths": 3739
+    },
+    {
+      "stage": "audit",
+      "input_roles": 3770,
+      "complete_roles": 3774,
+      "unique_complete_paths": 3755
+    }
+  ],
+  "limits": {
+    "active_child_seconds": 120,
+    "sampled_owned_group_rss_mib": 512,
+    "wait_ms": 50,
+    "max_census_ms": 250,
+    "input_bits": 32768,
+    "working_bits": 1048576,
+    "transient_bits": 2097154,
+    "operations": 200000,
+    "rational_text_chars": 20000,
+    "input_output_mib": 8
+  },
+  "remaining_owner_obligations": [
+    "Independently adjudicate these exact source identities and the explicitly unexecuted changed-guard qualification scope.",
+    "Externally authenticate the complete runtime/configuration/namespace, fixed environment and trusted host before launching Python; in-process checks cannot authenticate already-loaded bootstrap.",
+    "Create only genuine copies and custody cards, then separately admit witness, normal, optimized and independent audit with accepted real predecessor completion.",
+    "Require actual producer traversal of 16 root, 10 family and 6 decision fixtures and 166 refusals; independently reconstruct all fixtures and the complete nineteen-section certificate.",
+    "Adjudicate actual saved output, complete genuine supervision/custody and measured resource fit. No automatic retry or relaxed limits follows from this handoff."
+  ],
+  "nonclaims": [
+    "Source review is not numerical evidence, execution qualification or a scientific result.",
+    "Apple kernel/loader/shared cache are explicit trusted premises, not a hermetic whole-OS capture; Homebrew inputs remain pinned.",
+    "Current startup/sys.path is unmeasured; pinned-layout applicability and retained guard remain conditional.",
+    "Sampled group RSS is not a hard allocator; the child deadline excludes complete pre/postflight hashing.",
+    "No RET, measurement, clocks, book, new lettered gate, altered scientific input or empirical promotion is included."
+  ],
+  "repair": "Final integration caught omitted actual OpenSSL configuration. Initial PASS was withdrawn before execution or seal. Eleven exact prior artifacts, including initial PASS and blocked review, remain preserved. Minimal repair adds openssl.cnf, legacy.dylib and two parent namespaces. Only two runtime-pin literals change per caller; the contract states external bootstrap custody. Fresh independent review is required and separately bound below.",
+  "stop_boundary": "Worker assignment ends at stable reviewed exact-pin handoff. Research owner alone controls repository/publication and actual scientific admission.",
+  "authority": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_ASSIGNMENT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_ASSIGNMENT.json",
+      "bytes": 3331,
+      "sha256": "4c4d6a0ed4c2ef8ccde1d9c75f88a6f5d0af00cb34e0125e7ac7ead6c868ee6f",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/RI122_HOST_PLATFORM_SCOPE_DECISION.json",
+      "bytes": 2603,
+      "sha256": "d575e6643e1cb44940218480be40d77e48a0b1ec4206e6af120365206270226b",
+      "symlinks": []
+    }
+  ],
+  "current_sources": {
+    "native_supervisor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    },
+    "audit_caller": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "bytes": 18999,
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    }
+  },
+  "independent_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+    "bytes": 25647,
+    "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98",
+    "symlinks": [],
+    "status": "PASS_COMPLETE_SOURCE_REVIEW_ONLY"
+  },
+  "artifact_count_excluding_this_manifest": 33,
+  "artifacts": [
+    {
+      "file": "AUDIT_CALLER_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 50539,
+      "sha256": "f2a312033b31e97d3770fa9156ef925fd10e67d09fe0acb7b1779006742387a0",
+      "symlinks": []
+    },
+    {
+      "file": "CALLER_CONTRACT.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "bytes": 18999,
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    },
+    {
+      "file": "CALLER_SOURCE_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_SOURCE_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_SOURCE_NOTES.md",
+      "bytes": 16578,
+      "sha256": "82d86a10609589efe4b837414736fc3a307d3e30021b3e706270f3b7e6a20fd4",
+      "symlinks": []
+    },
+    {
+      "file": "HANDOFF.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HANDOFF.md",
+      "bytes": 5848,
+      "sha256": "ee3ca6403bc9b0526245766e13c424dcd17d1eb78601c9d55d231a063010737d",
+      "symlinks": []
+    },
+    {
+      "file": "HISTORY_EXTENSION_PLAN.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_EXTENSION_PLAN.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_EXTENSION_PLAN.md",
+      "bytes": 12637,
+      "sha256": "e634e146840d929da86c0fc596ebdb0d3f974085304d6b741376a0fd8fb3dc6a",
+      "symlinks": []
+    },
+    {
+      "file": "HISTORY_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_NOTES.md",
+      "bytes": 7076,
+      "sha256": "63f4e20fdb61978200901a8a701c6e10da21bb91319c2c1e1e3daa6edf4b5d39",
+      "symlinks": []
+    },
+    {
+      "file": "HISTORY_RECONCILIATION.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    {
+      "file": "INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "bytes": 10879,
+      "sha256": "66b163bfb90bee45539a188abe16b59367ebad946c41b32b81e1b1a4677ab0f4",
+      "symlinks": []
+    },
+    {
+      "file": "INDEPENDENT_HISTORY_CLOSURE_REVIEW.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_HISTORY_CLOSURE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_HISTORY_CLOSURE_REVIEW.md",
+      "bytes": 9818,
+      "sha256": "42ea7e3233ca8d6aaba11b028f3aa6b51a26759891a2a9bdbcf15c4721ccc3e0",
+      "symlinks": []
+    },
+    {
+      "file": "INDEPENDENT_SOURCE_REVIEW.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 25647,
+      "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98",
+      "symlinks": []
+    },
+    {
+      "file": "MAIN_INTEGRATION_REVIEW.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/MAIN_INTEGRATION_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/MAIN_INTEGRATION_REVIEW.md",
+      "bytes": 10307,
+      "sha256": "a319e402b27b4192b592389e4bd5427aa447a0fffd38b610bf8f42be39456ef5",
+      "symlinks": []
+    },
+    {
+      "file": "OPENSSL_CONFIG_CLOSURE_REVIEW.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPENSSL_CONFIG_CLOSURE_REVIEW.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPENSSL_CONFIG_CLOSURE_REVIEW.md",
+      "bytes": 7882,
+      "sha256": "cb3466254a2f88ba68373bd402d104b100bfe25f2c9047c6e8ba9ecc4435a267",
+      "symlinks": []
+    },
+    {
+      "file": "PRE_CONFIG_REVIEW_PRESERVATION.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PRE_CONFIG_REVIEW_PRESERVATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PRE_CONFIG_REVIEW_PRESERVATION.json",
+      "bytes": 4002,
+      "sha256": "8d2fbd604df5abcefd1f2a4d17ed2af07e3c34dec6f7db64fc87a48909634a49",
+      "symlinks": []
+    },
+    {
+      "file": "PROSPECTIVE_STAGE_INVENTORY.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PROSPECTIVE_STAGE_INVENTORY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/PROSPECTIVE_STAGE_INVENTORY.json",
+      "bytes": 1155753,
+      "sha256": "decc33d7cc643220c3dcdca76b079899e0ab2898cbf4d3230b656732bf6c6e5f",
+      "symlinks": []
+    },
+    {
+      "file": "REVIEW_SCOPE.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/REVIEW_SCOPE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/REVIEW_SCOPE.md",
+      "bytes": 5689,
+      "sha256": "1a6bd52e4cce2a40a7e771774fe4ccbc26d6d363f438fd142bb4ad79bb28b971",
+      "symlinks": []
+    },
+    {
+      "file": "RUNTIME_AND_HISTORY_SCOPE.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_AND_HISTORY_SCOPE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_AND_HISTORY_SCOPE.md",
+      "bytes": 15097,
+      "sha256": "4d33bc64cd000a3725156c17622a9ca4dec533b33fdb1cf3aa86b06b73de0792",
+      "symlinks": []
+    },
+    {
+      "file": "RUNTIME_CLOSURE.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    },
+    {
+      "file": "RUNTIME_INTERFACE.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_INTERFACE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_INTERFACE.md",
+      "bytes": 5101,
+      "sha256": "f3c6d78e2687d4bda6dad5f97909608afcb9c0eec47ccc822580cd860b343679",
+      "symlinks": []
+    },
+    {
+      "file": "SUPERVISE_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/SUPERVISE_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 43799,
+      "sha256": "bc00ff7f20fdbe4a0790f6aab79907ced59b202801af61fe35a0d88cd4c23fa8",
+      "symlinks": []
+    },
+    {
+      "file": "capture_history_metadata.mjs",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/capture_history_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/capture_history_metadata.mjs",
+      "bytes": 14183,
+      "sha256": "734011c7bf140310aaec97bb8e720642707dc6644debc6917ae79f45d1e700a3",
+      "symlinks": []
+    },
+    {
+      "file": "launch_audit.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 50539,
+      "sha256": "154b3533dd6fa6da11e29df67bb3e385f218053e6f036c464b071c4f02327735",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/BLOCKED_RUNTIME_CONFIG_SOURCE_REVIEW.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/BLOCKED_RUNTIME_CONFIG_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/BLOCKED_RUNTIME_CONFIG_SOURCE_REVIEW.json",
+      "bytes": 21026,
+      "sha256": "67a714c64c166a9c01a9eb93cc505889e2e0e5218307bad219593a7490187727",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/CALLER_CONTRACT.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/CALLER_CONTRACT.md",
+      "bytes": 18096,
+      "sha256": "8a74b3f865bc61f1d12b0cb3835d5529a1a9d173cfa9150ce44359a1a27b54bf",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/CALLER_SOURCE_NOTES.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/CALLER_SOURCE_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/CALLER_SOURCE_NOTES.md",
+      "bytes": 13176,
+      "sha256": "4937cf42320e70e12603e5418188751247ee8b45071b1895a62698ee45482e05",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/INDEPENDENT_SOURCE_REVIEW.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/INDEPENDENT_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 20012,
+      "sha256": "401f38d68955ab5adf01135891377ba3f9fbaa49d0698a8c0f291b3f4746640a",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/PROSPECTIVE_STAGE_INVENTORY.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/PROSPECTIVE_STAGE_INVENTORY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/PROSPECTIVE_STAGE_INVENTORY.json",
+      "bytes": 1154794,
+      "sha256": "c9840e644d1d50a7727ba92feba9d179fbc7be4e0d82d00eb87ef7a47b0800c4",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/RUNTIME_AND_HISTORY_SCOPE.md",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/RUNTIME_AND_HISTORY_SCOPE.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/RUNTIME_AND_HISTORY_SCOPE.md",
+      "bytes": 12113,
+      "sha256": "f82dc922f339f81612b31da10ec97355dc494f2f1ed4e0caa8e6c792474b351d",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/RUNTIME_CLOSURE.json",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/RUNTIME_CLOSURE.json",
+      "bytes": 2853993,
+      "sha256": "e2d2d70cab8cf7726d39b7404ed49f086acc3e7fa8d3b83bf3cb88334e48910b",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/SUPERVISE_SOURCE_DELTA.patch",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/SUPERVISE_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 43799,
+      "sha256": "801b07e07afd90f2e5e1a28d6ea06fc631cd3564b76dbeb2b8b5c3aa81a9d47c",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/launch_audit.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "f73d01df71d36ea2aba3634d2e328b4a00b459be8bb07649218a1efccd4c0bab",
+      "symlinks": []
+    },
+    {
+      "file": "pre_config_review/supervise.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/pre_config_review/supervise.py",
+      "bytes": 82578,
+      "sha256": "dcfbcba31ad41eb807c314c1f553db6137df7f40ab46cd7efff59be4d4ee6158",
+      "symlinks": []
+    },
+    {
+      "file": "supervise.py",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    }
+  ]
+}

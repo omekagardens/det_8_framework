@@ -1,0 +1,56 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Both clock calls protected after ownership; safe state established first.",
+    "Earlier first error retained; final and elapsed errors recorded separately; missing elapsed null.",
+    "All eight tails and refused COMPLETE attempted; successful timing checked in new closed 14-field completion.",
+    "Same installation block, candidate, 48/124/30 custody and monitor/resource bounds."
+  ],
+  "actual_root_check": {
+    "chunk_id": "a84a12",
+    "exit_code": 0
+  },
+  "compatibility_status_explanation": "The unchanged RI209-family admission contract requires this exact status; the exact repaired manifest binds RI213 bytes.",
+  "complete_literal_reads": [
+    "e879c9 installer",
+    "85ad70 postchecker",
+    "d0cee0 protocol",
+    "4f462d handoff and admin checker",
+    "652249 actual receipts/findings/authoring",
+    "29b00d complete build source",
+    "6f12b4 build metadata"
+  ],
+  "independent_review": {
+    "bytes": 2145,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_NONAUTHOR_REVIEW.json",
+    "sha256": "5aa980f2cab6c3ad140fb14e512b5014b1aee8e02a9d507fe0c8a6de5ee4199d"
+  },
+  "installation_performed": false,
+  "qualification_credit": 0,
+  "remaining": [
+    "Fresh root preflight, actual host and supplier custody, exact bootstrap review and one-operation admission.",
+    "Actual monitored installation and independent complete-outcome review.",
+    "Fresh normal-mode admission and normal WHITE acceptance before optimized.",
+    "RI131/full32 qualification and selected public GWOSC conventional reproduction."
+  ],
+  "reviewed_packet": "RI213",
+  "root_metadata": {
+    "bytes": 487763,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_METADATA_CHECK.json",
+    "sha256": "0a2630d3bf3fbf2a64bb8901566af864e9ba949efa46dae17a386f8f3c117d37"
+  },
+  "runtime_admission": false,
+  "schema": "ri215-installation-source-adjudication-v1",
+  "scientific_execution": false,
+  "source_manifest": {
+    "bytes": 1372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+    "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+  },
+  "status": "ACCEPT_RI209_INSTALLATION_SOURCE_ONLY",
+  "subject": {
+    "bytes": 7600,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+    "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "H_or_z_numerical_reconstruction": false,
+  "RET_paused": true,
+  "assignment": {
+    "bytes": 8385,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+    "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+  },
+  "automatic_proof_arithmetic": false,
+  "inherited_matches": [
+    {
+      "access_policy": "text-reading-and-opaque-identity-no-execution",
+      "classification": "analytic-source-text-or-review",
+      "identity": {
+        "bytes": 13499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+        "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe",
+        "symlinks": []
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+      "reference_provenance": [
+        "Complete sealed RI187 source namespace. Exact final sealed administrative or manuscript source identity."
+      ],
+      "role": "dep_0346"
+    }
+  ],
+  "new_execution_authority": false,
+  "not_preaccepted": "Worker B3 slack, determinant and local interval claims await complete sealed proof and independent review. RI187 historical unresolved endpoint claims remain historical; RI210 actual positive weighted result is current.",
+  "original": {
+    "bytes": 13499,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+    "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+  },
+  "previous_admission": {
+    "bytes": 2860,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+    "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+  },
+  "reference": {
+    "bytes": 13499,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+    "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+  },
+  "request": "Worker seeks complete H5 complement and c_i/j_i contrast identities to analyze original seed determinant K*h=A, preserving zero determinant branch.",
+  "root_reads": [
+    {
+      "chunk_id": "650c12",
+      "exit_code": 0,
+      "scope": "Complete RI120 F3_ANALYTIC_CHECK, insufficient alone for requested full complement"
+    },
+    {
+      "chunk_id": "f44744",
+      "exit_code": 0,
+      "scope": "Complete RI187 ENDPOINT_CERTIFICATE"
+    }
+  ],
+  "schema": "ri212-literal-complement-admission-v1",
+  "scientific_body_read": false,
+  "scope": "Read the entire named RI187 ENDPOINT_CERTIFICATE.md literally. Equation3 retains complete C4/C3 rows and both H5 one-cap occurrences: j_i=1-theta*K_i. Combine original same-law identities manually with admitted seed equations. No automatic typed-reference expansion or descendant read authority.",
+  "status": "ADMIT_ONE_EXISTING_ANALYTIC_TEXT_FOR_SAME_LAW_SEED_SIGN",
+  "typed_reference_expansion": false
+}

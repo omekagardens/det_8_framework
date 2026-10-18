@@ -1,0 +1,18 @@
+# RI218 finding response
+
+This packet repairs the two concrete installer byte-comparison defects found after the actual RI217 preparation failure. It supplies source for fresh review, not admission or qualification.
+
+| Finding | Exact source response | Evidence and limit |
+|---|---|---|
+| RI213 generic write readback passed bytes to JSON `same` (line61). | `need(Path(path).read_bytes()==data,'written exact bytes')`. | Every byte is compared directly after the same exclusive write, file fsync and independent close; no decoding or truncation. Source inspected only. |
+| RI213 installed candidate readback passed bytes to JSON `same` (line192). | `need(DEST.read_bytes()==candidate,'exact accepted byte copy')`. | The complete accepted candidate and whole readback remain bytes; the adjacent exact pin, independent identity and single-link checks are unchanged. Source inspected only. |
+| Prior acceptance missed the type defect. | Preserve prior acceptance and bind its explicit supersession. | Historical approval is not current operational permission. Root and prior nonauthor review missed the same source-path error; the author retains responsibility for the defective source. |
+| Actual RI217 preparation failed before admission. | Pin the original root preparation, root failure/partial record, original host transcript and retained canonical partial host. | cb9b00 exit1 belongs to root administrative preparation, not the installer. The retained partial and two empty directory states are unchanged; nothing is resumed or cleaned. |
+
+The only other executable changes are exact fresh D/W/O paths and the REPAIR FilePin. The postchecker changes only those bindings. Complete literal reverse projection restores the entire RI213 installer after undoing the two comparisons plus paths/provenance, and the entire old postchecker after undoing paths/provenance alone. The JSON comparator, exclusive no-retry write, source/card/candidate authentication, all eight independent tails, clock-error retention, fourteen-field RI213 completion, complete saved reconstruction, raw monitor checks and every bound are retained.
+
+The original806 input manifest is byte-identical and still retains810 historical roles. The new43-row repair union contains the prior19 rows, all15 predecessor packet files and nine exact selecting/failure/review records. The actual administrative check freshly hashed849 distinct declared opaque inputs; no scientific payload was decoded. The prospective857-row operational closure is a derivation of exact distinct paths, not a current runtime observation or admission.
+
+Actual administrative build710180 and check87f168 both exited0. The check recorded5,332 predicates. It checks exact source reversibility, complete published deltas, original manifests/roles, source pins, preserved partial file and empty control-directory states, and absence of newly created operational objects. Neither corrected comparison was executed as a subject or fixture. No compiler, AST parser, source loader, monitor, supplier interpreter or scientific entry was invoked. Actual program correctness remains subject to fresh nonauthor/root review and later admitted operation; administrative pass is not execution evidence.
+
+A separate root preparation must use direct byte equality for its own readback and a fresh reservation. Root must review generated concrete bootstrap/preflight before separately issuing admission. Root alone owns genuine host/tool evidence, actual installation and acceptance. E, all existing copies, old packets/partials and repository/index remain untouched. RET remains paused.

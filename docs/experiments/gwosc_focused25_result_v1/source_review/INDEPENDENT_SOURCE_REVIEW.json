@@ -1,0 +1,108 @@
+{
+  "actual_metadata_check": {
+    "chunk_id": "3ffe9b",
+    "exit_code": 0,
+    "record": {
+      "bytes": 139849,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/OPAQUE_TEXT_CHECK.json",
+      "sha256": "cf144bd15a7afdedbee4f98f05a6a1749fdceaef35fbee24ac8afd02365d0c8e"
+    }
+  },
+  "authorship": {
+    "earlier_outside_scope": [
+      "RI125 primary/qualifier",
+      "RI131"
+    ],
+    "ri139_137_135_authorship": false,
+    "subject_author": "/root/archive_repro_review"
+  },
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 17218,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "a642e6cd508d506f662e97ae5d277401ee3f136126296772a6cd93448271f2db"
+  },
+  "controls_executed": 0,
+  "coverage": {
+    "fresh_control_read": [
+      "1\u2013110",
+      "240\u2013297"
+    ],
+    "fresh_monitor_read": "RI135 prepare.py304\u2013381",
+    "full_current_source_lines": 390,
+    "full_protocol_delta_correspondence_authoring_handoff": true,
+    "inherited_opaque_rows_preserved": 276,
+    "new_opaque_rows": 34,
+    "opaque_bytes": 21106955,
+    "opaque_dependencies": 310,
+    "packet_files": 8,
+    "recorded_protected_roots": 385,
+    "retained_source_reviews": "RI137 andRI135 complete prior source reviews remain inherited premises, not newly relabeled full reads.",
+    "unchanged_control_limit_premise_block": true
+  },
+  "direct_diagnostic": {
+    "chunk_id": "a34537",
+    "exit_code": 0,
+    "scope": "environment-only historical corroboration; no launcher retry or qualification"
+  },
+  "execution_admitted": false,
+  "initial_check_source": {
+    "bytes": 9958,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.before-span-delimiter-fix.py",
+    "sha256": "8d2b7edd13de10cfb3e7d609242a029bc47793f6d009025ec395e5709f213f84"
+  },
+  "initial_reviewer_metadata_diagnostic": "Own span checksum normalization failed before final output; initial checker retained, trailing delimiters corrected, no subject edits or execution.",
+  "nonblocking_findings": [
+    {
+      "finding": "Fifteen named spans include one combined environment/inspect_f01/inspect_f02 span. Exact literal correspondence is17 unchanged actual functions,2 changed existing,1 new; no omitted or changed inspector.",
+      "id": "N01",
+      "publication_precision": "Use15 grouped spans or17 unchanged functions, not15 exhaustive unchanged functions.",
+      "repair_required": false,
+      "subject": "Grouped unchanged function spans"
+    }
+  ],
+  "not_performed": [
+    "Subject/helper import",
+    "Compilation or AST",
+    "Probe/control/fixture/run",
+    "Current runtime inventory or selected binary read",
+    "Scientific body decode",
+    "Active cards/freezes/admission/attempt",
+    "Repository or Git changes"
+  ],
+  "prior_actual_outcome": {
+    "chunk_id": "feff2a",
+    "controls": 0,
+    "exit_code": 1,
+    "status": "REJECTED_ENVIRONMENT_MISMATCH"
+  },
+  "recommend_source_acceptance": true,
+  "required_remaining": [
+    "Root source adjudication",
+    "Genuine fresh direct bootstrap/framework/host and required selected binding",
+    "Fresh external cards/paths plus actual deadline/command/environment custody",
+    "One separately admitted existing25-control operation",
+    "Complete independent saved monitor/report/custody/namespace reconciliation"
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9",
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_required": true,
+  "schema": "ri139-independent-source-review-v1",
+  "source_check": {
+    "bytes": 9966,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.py",
+    "sha256": "e78b6268e997ae835fce6e1874985a265525bae1bfc4965ba4866de938ab8771"
+  },
+  "target_handoff": {
+    "bytes": 7035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+    "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+  },
+  "target_source": {
+    "bytes": 26387,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+  },
+  "verdict": "PASS_NARROW_UNEXECUTED_SOURCE_REPAIR"
+}

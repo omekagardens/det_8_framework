@@ -1,5 +1,8 @@
 """
-DET κ-Gravity — Galaxy Cluster Dynamics
+RETIRED / QUARANTINED — historical galaxy-cluster κ-gravity analysis.
+
+The calculations below depend on the withdrawn force law. They are not an
+active fit, explanation of cluster observations, or alternative to dark matter.
 
 Extends κ(r) to cluster scales (100–2000 kpc). Tests whether DET
 κ-gravity can explain cluster dynamics without dark matter.
@@ -24,6 +27,10 @@ optical (velocity dispersion), and lensing (HST/JWST).
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

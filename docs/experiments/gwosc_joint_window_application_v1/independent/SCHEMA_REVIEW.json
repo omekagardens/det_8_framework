@@ -1,0 +1,474 @@
+{
+  "ri100": {
+    "all_mode_keys": [
+      [
+        "c",
+        "h_alpha",
+        "h_tau",
+        "k",
+        "pair_weight"
+      ]
+    ],
+    "checks": {
+      "counts": {
+        "failed": 0,
+        "passed": 11,
+        "total": 11
+      },
+      "inventory": [
+        "admission:phase",
+        "admission:input",
+        "admission:rows",
+        "admission:psds",
+        "mode:complete",
+        "endpoint:real",
+        "scenario:H1:left",
+        "scenario:H1:right",
+        "scenario:L1:left",
+        "scenario:L1:right",
+        "completion:input_stable"
+      ],
+      "results": [
+        {
+          "id": "admission:phase",
+          "passed": true
+        },
+        {
+          "id": "admission:input",
+          "passed": true
+        },
+        {
+          "id": "admission:rows",
+          "passed": true
+        },
+        {
+          "id": "admission:psds",
+          "passed": true
+        },
+        {
+          "id": "mode:complete",
+          "passed": true
+        },
+        {
+          "id": "endpoint:real",
+          "passed": true
+        },
+        {
+          "id": "scenario:H1:left",
+          "passed": true
+        },
+        {
+          "id": "scenario:H1:right",
+          "passed": true
+        },
+        {
+          "id": "scenario:L1:left",
+          "passed": true
+        },
+        {
+          "id": "scenario:L1:right",
+          "passed": true
+        },
+        {
+          "id": "completion:input_stable",
+          "passed": true
+        }
+      ]
+    },
+    "mode_count": 8192,
+    "mode_order_and_pair_weights_match": true,
+    "phase": "fixed_saved_application",
+    "scenario_keys": [
+      "band_margin",
+      "band_spread",
+      "band_width",
+      "center",
+      "direct_upper_le_band_upper",
+      "equalities",
+      "error",
+      "error_alpha",
+      "error_tau",
+      "final",
+      "id",
+      "ratios",
+      "raw",
+      "ri96_prior",
+      "ri96_raw_band",
+      "source_identity",
+      "widths"
+    ],
+    "schema": "ri98-mode-weighted-trace-v1",
+    "status": "all_declared_checks_passed",
+    "top_keys": [
+      "checks",
+      "inherited_premises",
+      "limitations",
+      "method",
+      "mode_terms",
+      "phase",
+      "provenance",
+      "scenarios",
+      "schema",
+      "status"
+    ]
+  },
+  "ri116": {
+    "artifact_count": 6,
+    "energy_keys": [
+      "M",
+      "U",
+      "V",
+      "components",
+      "identity_intersection"
+    ],
+    "method": {
+      "L": 4096,
+      "M": 16384,
+      "N": 2769,
+      "T": 10961,
+      "arithmetic": "exact_rational_intervals",
+      "centering": "exact_coordinatewise_mean_per_detector_side",
+      "comparison": "four_fixed_proxy_traces_no_empirical_magnitude_gate",
+      "crop": "first_T_of_each_M",
+      "design": {
+        "bytes": 32152,
+        "sha256": "cd7a585f0002f1aef4d16bb96884c0a745291d41b33e73ff466567cbff5f2478"
+      },
+      "divisor": "n_not_n_minus_one",
+      "fs": 4096,
+      "gps_origin": 1126259446,
+      "integer_bit_limit": 262144,
+      "output_index": "short_start_plus_selected_row",
+      "preprocessing": "none_exact_raw_binary64_values",
+      "rows": [
+        0,
+        1,
+        27,
+        805,
+        1384,
+        2741,
+        2767,
+        2768
+      ],
+      "samples": 131072,
+      "scenario_order": [
+        "H1:left",
+        "H1:right",
+        "L1:left",
+        "L1:right"
+      ],
+      "short_slice": [
+        4096,
+        6865
+      ],
+      "square": "zero_lower_if_crosses_zero_else_min_endpoint_square",
+      "starts": {
+        "left": [
+          0,
+          8192,
+          16384,
+          24576,
+          32768,
+          40960,
+          49152
+        ],
+        "right": [
+          69632,
+          77824,
+          86016,
+          94208,
+          102400,
+          110592
+        ]
+      },
+      "units": "nominal_strain_outputs_nominal_strain_squared_energies",
+      "width_rule": "width_le_input_max_over_10pow12_zero_exact",
+      "width_scale": [
+        "1",
+        "e8d4a51000"
+      ]
+    },
+    "phase": "fixed_observed_application",
+    "scenario_keys": [
+      "centered",
+      "count",
+      "detector",
+      "energy",
+      "id",
+      "mean",
+      "side",
+      "trace",
+      "windows"
+    ],
+    "scenario_order": [
+      "H1:left",
+      "H1:right",
+      "L1:left",
+      "L1:right"
+    ],
+    "schema": "ri104-observed-context-benchmark-v1",
+    "status": "all_gates_passed",
+    "top_keys": [
+      "checks",
+      "inputs",
+      "limitations",
+      "method",
+      "operator",
+      "phase",
+      "provenance",
+      "scenarios",
+      "schema",
+      "status"
+    ],
+    "window_starts": [
+      [
+        0,
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152
+      ],
+      [
+        69632,
+        77824,
+        86016,
+        94208,
+        102400,
+        110592
+      ],
+      [
+        0,
+        8192,
+        16384,
+        24576,
+        32768,
+        40960,
+        49152
+      ],
+      [
+        69632,
+        77824,
+        86016,
+        94208,
+        102400,
+        110592
+      ]
+    ]
+  },
+  "ri73": {
+    "full_inventory_and_successes_match": true,
+    "gate_counts": {
+      "failed": 0,
+      "passed": 92,
+      "total": 92
+    },
+    "gate_inventory": [
+      "fixture:fir",
+      "fixture:cancellation",
+      "fixture:singleton",
+      "fixture:offdiagonal_small",
+      "fixture:offdiagonal_large",
+      "fixture:failed_gate",
+      "fixture:midpoint",
+      "fixture:rank_ambiguity",
+      "fixture:singular",
+      "fixture:output_law",
+      "refusal:float_endpoint",
+      "refusal:bool_endpoint",
+      "refusal:nonfinite_endpoint",
+      "refusal:reversed_interval",
+      "refusal:negative_radius",
+      "refusal:matrix_rows",
+      "refusal:bool_dimension",
+      "refusal:bool_row_dimension",
+      "refusal:matrix_columns",
+      "refusal:ragged_box",
+      "refusal:asymmetric_gram",
+      "refusal:asymmetric_error",
+      "refusal:negative_error",
+      "refusal:negative_pivot",
+      "refusal:wrong_ldl",
+      "refusal:wrong_inverse",
+      "refusal:wrong_delta",
+      "refusal:wrong_gamma",
+      "refusal:incorrect_rank",
+      "refusal:bool_rank",
+      "refusal:wrong_mp1",
+      "refusal:wrong_mp2",
+      "refusal:wrong_mp3",
+      "refusal:off_support",
+      "refusal:negative_rho",
+      "refusal:rho_at_one",
+      "refusal:negative_output_error",
+      "refusal:unqualified_cdf",
+      "refusal:cdf_series_domain",
+      "refusal:negative_cdf_argument",
+      "refusal:estimated_covariance",
+      "refusal:colored_covariance",
+      "refusal:fraction_numerator_cap",
+      "refusal:fraction_denominator_cap",
+      "refusal:operation_result_cap",
+      "refusal:hex_length",
+      "refusal:hex_plus",
+      "refusal:hex_negative_zero",
+      "refusal:hex_leading_zero",
+      "refusal:hex_denominator_zero",
+      "refusal:hex_unreduced",
+      "refusal:work_cap",
+      "refusal:work_bool",
+      "refusal:output_cap",
+      "refusal:duplicate_json",
+      "refusal:nonfinite_json",
+      "refusal:overflow_json",
+      "refusal:changed_snapshot",
+      "refusal:bool_pin",
+      "refusal:changed_runtime",
+      "refusal:changed_runtime_build",
+      "refusal:failed_receipt",
+      "refusal:incomplete_receipt",
+      "refusal:changed_receipt_engine",
+      "refusal:changed_arithmetic",
+      "refusal:wrong_padding",
+      "refusal:bool_padding",
+      "refusal:changed_manifest_coefficient",
+      "refusal:changed_manifest_stage_order",
+      "refusal:changed_manifest_padding",
+      "refusal:missing_rows",
+      "refusal:wrong_rows",
+      "refusal:wrong_snapshot_shape",
+      "refusal:missing_expected_summaries",
+      "integration:reconstruction",
+      "integration:gram",
+      "integration:mathematical",
+      "integration:accuracy",
+      "integration:cross",
+      "probe:zero",
+      "probe:constant",
+      "probe:0",
+      "probe:1",
+      "probe:27",
+      "probe:805",
+      "probe:1384",
+      "probe:2741",
+      "probe:2767",
+      "probe:2768",
+      "integration:law",
+      "integration:final_custody",
+      "completion:custody"
+    ],
+    "integration_gram_record_keys": [
+      "detail",
+      "id",
+      "passed"
+    ],
+    "mode": "fixed_operator_covariance",
+    "schema_version": "ri73-unit-white-operator-covariance-v1",
+    "status": "fixed_operator_covariance_passed",
+    "top_keys": [
+      "admitted_coefficient_design_requested",
+      "dependencies",
+      "deterministic_fixture_admission_passed",
+      "dimensions",
+      "exact_scalar_encoding",
+      "full_integration_qualified",
+      "gate_counts",
+      "gate_inventory",
+      "gates",
+      "inherited_arithmetic_contract",
+      "mode",
+      "model",
+      "reconstructed_rows_admitted",
+      "resource_contract",
+      "rows",
+      "runtime",
+      "sample_spacing",
+      "sampling_performed",
+      "schema_version",
+      "scope",
+      "source_identity",
+      "status"
+    ]
+  },
+  "ri96": {
+    "complete_psd_counts": [
+      8193,
+      8193,
+      8193,
+      8193
+    ],
+    "phase": "fixed_saved_application",
+    "rectangles_per_row": 8193,
+    "row_count": 8,
+    "row_proof_keys": [
+      "alpha",
+      "initial_q256",
+      "input_identity",
+      "midpoint_modes",
+      "mode_identity",
+      "row"
+    ],
+    "schema": "ri93-frequency-band-proxy-v1",
+    "source_identities": [
+      {
+        "canonical_source_identity_matches": true,
+        "id": "H1:left",
+        "identity": {
+          "bytes": 245940,
+          "sha256": "7f6dc19dd684040f6865198a4e3eb27f1bed888febe1f5c5aa686911a41c90c3"
+        }
+      },
+      {
+        "canonical_source_identity_matches": true,
+        "id": "H1:right",
+        "identity": {
+          "bytes": 245940,
+          "sha256": "66ede8f8bf46aa551d6837ebf15b0cc4fbfa9da36378614d7fc43bd34256bb6b"
+        }
+      },
+      {
+        "canonical_source_identity_matches": true,
+        "id": "L1:left",
+        "identity": {
+          "bytes": 245940,
+          "sha256": "7a6353d99ceda4ec141e9b60101a1aee944c1a17ca8ac988336decb91ce766e7"
+        }
+      },
+      {
+        "canonical_source_identity_matches": true,
+        "id": "L1:right",
+        "identity": {
+          "bytes": 245940,
+          "sha256": "b300c8fd5c67493cc24da8319db8079f43de1d981670968bb4f375d597c50174"
+        }
+      }
+    ],
+    "source_record_keys": [
+      "dtype",
+      "sha256",
+      "shape",
+      "values_hex"
+    ],
+    "status": "all_gates_passed",
+    "top_keys": [
+      "bands",
+      "gates",
+      "limitations",
+      "method",
+      "midpoint_parseval",
+      "model",
+      "phase",
+      "prior",
+      "provenance",
+      "row_proofs",
+      "rows",
+      "scenarios",
+      "schema",
+      "status",
+      "twiddles"
+    ]
+  },
+  "schema": "ri123-independent-retained-schema-review-v1",
+  "scope": "Keys, order, lengths, fixed method/header text, exact historical source-record identities only; no rational or PSD numerical decoding, capture parsing, target import, contraction or empirical processing."
+}

@@ -1,7 +1,8 @@
 # DET v8.0 — Roadmap
 
-**Phase history, current state, remaining work.**
-**Condensed from AGENTS.md and all phase cards.**
+**Published programme overview, updated October 18, 2026.**
+The phase table preserves the earlier project history. Current priorities are
+defined below and in [Next Steps](NEXT_STEPS.md).
 
 ---
 
@@ -28,17 +29,31 @@
 
 **Record-Kernel Physics finite/computed program implemented** (T1–T7 + T2a + T6b + T6 residual + why-ℂ), with open assumptions and continuum results tracked explicitly. Key limits: T2a shows grade-2 is empirical rather than forced; T7 is estimator verification rather than manifoldlike emergence; the complex-structure result assumes one phase form and reversible dynamics.
 
-**RET integrated:** general relational inference, Exodus endpoint accounting, neutron-lifetime calibration design, governed mathematical searches, and bounded Navier–Stokes protocols.
+**Conditional native mathematics is consolidated:** the [theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) collects the exact admitted finite law, support, small-amplitude positive result, kernel alternatives and 30/33/38 exclusions. Its [law-dependence companion](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) identifies which choices change the law. The stated premises and unresolved historical-coordinate/actual-branch questions remain.
 
-**751/752 tests passing** (1 pre-existing Navier–Stokes numerical-reproducibility failure).
-**128 model modules / 144 Python files.**
+**RET tooling is retained; RET development is paused.** Earlier Exodus, neutron-lifetime, mathematical-search and Navier–Stokes results remain historical bounded studies with their original caveats.
+
+**Validation is scoped to individual checks and recorded runs.** Earlier aggregate counts and module totals are not current release guarantees. Software integration, finite scientific checks, production qualification and physical validation are separate outcomes.
+
+### Deliverables ahead
+
+| Deliverable | Completion criterion |
+|---|---|
+| Public theorem package | A reader can identify each established claim, exact law/support and remaining premise without reading chronological coordination logs. |
+| Law dependence | State what is forced, optional, construction-specific or proved over a declared family; close a bounded result before extending the coefficient audit. |
+| Prospective portable replay | Reproduce one fixed public GWOSC calculation in a newly documented environment and independently check its arithmetic; preserve historical custody failures. |
+| Foundational physics | Supply an explicit native prediction and observation channel before claiming empirical evidence for the theory. |
+| Application value | Evaluate a fixed diagnostic or signal-processing benchmark against declared baselines, costs, failure rates and held-out data. |
+
+Full production qualification remains separate from the portable replay. A
+successful conventional benchmark does not establish a native gravity law.
 
 ### Two tracks
 
 | Track | Status |
 |---|---|
 | A — Physical Calculus | Finite/computed theorem-program results plus one active falsifiable prediction (κ-Π clock anomaly), gated on F9 and independent κ. See `FALSIFICATION_LEDGER.md`. |
-| B — Ontological Grammar | Governed synthesis addressing four deadlocks; metaphysical claims remain separated from empirical validation. Relational-creation research is active. |
+| B — Ontological Grammar | Governed synthesis and conditional native-growth research; metaphysical claims remain separated from mathematical and empirical evidence. |
 
 ### Classification
 
@@ -46,7 +61,11 @@ DET v8.0 is a disciplined interpretive framework with a record-kernel reconstruc
 
 ---
 
-## Remaining Work (Requires External Resources)
+## Remaining Work and Prerequisites
+
+The [current work plan](NEXT_STEPS.md) is authoritative for sequencing. The
+items below retain earlier programme goals; they do not authorize work in the
+paused RET lane or bypass experimental and protected-validation gates.
 
 ### Experimental (needs lab access)
 - F9 recovery-rate experiment on raw \(R(t)\) records
@@ -78,12 +97,13 @@ DET v8.0 is a disciplined interpretive framework with a record-kernel reconstruc
 
 ---
 
-## Running Tests
+## Integration and validation
 
-```bash
-python3 run_tests.py
-# Expected: 751/752 passed, 1 failed, 0 errors (pre-existing Navier–Stokes reproducibility)
-```
+Follow [Branch Workflow](docs/BRANCH_WORKFLOW.md) for regular reviewed
+`ret` → `main` integration. Its maintenance checks are separate from the
+numerical/research aggregator `run_tests.py` and the explicitly selected
+[research check registry](docs/RESEARCH_CHECKS.md). Report actual outcomes
+and limitations for the exact revision tested; do not reuse an old passing count.
 
 ---
 

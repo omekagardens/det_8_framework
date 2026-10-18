@@ -1,0 +1,417 @@
+{
+  "schema": "ri220-manual-author-verification-v1",
+  "status": "AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "authorship": "Exclusive source-only RI220 author reservation. Independent adjudication belongs to root. No other agent or worker was spawned.",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_NATIVE_ASSIGNMENT.json",
+    "bytes": 11916,
+    "sha256": "d2150c752fe33eaab152fb656d4ad2852e7b266e5a2047bbb65d58f9ae7849f9"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_ROOT_ADJUDICATION.json",
+    "bytes": 2049,
+    "sha256": "fa3659893248250c1fabf559a4c36a96729eea87a1f77c7309a2d63c4a46cc4d"
+  },
+  "additional_literal_admission": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json",
+    "bytes": 2212,
+    "sha256": "0234ce3ab0d98704ddfa94bf320397c6d4f8e25153e24fd676d221791656a8fd"
+  },
+  "complete_literal_read_receipts": [
+    {
+      "receipt": {
+        "chunk_id": "4fbaf0",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI216_ROOT_ADJUDICATION.json",
+          "bytes": 2049,
+          "sha256": "fa3659893248250c1fabf559a4c36a96729eea87a1f77c7309a2d63c4a46cc4d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_NATIVE_ASSIGNMENT.json",
+          "bytes": 11916,
+          "sha256": "d2150c752fe33eaab152fb656d4ad2852e7b266e5a2047bbb65d58f9ae7849f9"
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "chunk_id": "bab624",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "bytes": 8225,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_compensation_v1/DECISION_CONTRACT.md",
+          "sha256": "8e6f4a85e91211493c88a4aa270b3e49b77eec699da05944e3fe3d270f4fb225"
+        },
+        {
+          "bytes": 15418,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_compensation_v1/RECORD_TRANSPORT.md",
+          "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e"
+        }
+      ],
+      "scope": "Complete contract and record transport visible; middle LOCAL_POSITIVITY display clipped and separately reread below."
+    },
+    {
+      "receipt": {
+        "chunk_id": "44ea01",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "bytes": 18246,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_compensation_v1/LOCAL_POSITIVITY.md",
+          "sha256": "b109973d0178652caf8769e3b1730fae0a354d25f14251af13afbcffc7ceafb6"
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "chunk_id": "1d69f9",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "bytes": 17929,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sign_v1/INPUT_FORMULAS.md",
+          "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118"
+        },
+        {
+          "bytes": 11272,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_weighted_margin_interval_v1/source/WEIGHTED_MARGIN_PROOF.md",
+          "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "chunk_id": "2b2438",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI220_SHARED_AFFINE_LITERAL_ADMISSION.json",
+          "bytes": 2212,
+          "sha256": "0234ce3ab0d98704ddfa94bf320397c6d4f8e25153e24fd676d221791656a8fd"
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "chunk_id": "7feb36",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+          "bytes": 10435,
+          "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a"
+        }
+      ]
+    },
+    {
+      "receipt": {
+        "chunk_id": "93b08a",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "bytes": 28127,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+          "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+        }
+      ]
+    }
+  ],
+  "predecessor_proof_read_history": {
+    "receipt": {
+      "chunk_id": "b01b23",
+      "exit_code": 0
+    },
+    "files": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/COUPLED_MARGIN.md",
+        "bytes": 10631,
+        "sha256": "289b1f757a32254b7df30065181d156142aebeae2b5ca4b42bb4c2b8250b319c"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/DETERMINANT_SIGN.md",
+        "bytes": 9073,
+        "sha256": "6ebed197d1872d9767ffad43b80f20c4d1523f4b541848898f33a4f76086f155"
+      }
+    ],
+    "scope": "Both complete final RI216 proofs read in preceding author phase, now independently accepted. Not a new scientific execution or re-extraction."
+  },
+  "manual_checks": [
+    "Preserved original amplitude1/4 rejection. New a is a distinct bias amplitude, never the held C3 probability, rho or s.",
+    "Divided harmonic equations only by a>0. All lower coefficients and seed symbols fixed; child positivity becomes y>-1/a.",
+    "Retained exact local min(1,1/beta) branch, full t/v/w/yJ reconstruction and excluded every endpoint without dividing by t.",
+    "Accepted C2(1/4)<0 and |z2|<=1 yield E2<1/4 and beta2<1/2, proving the native T2 branch rather than assuming it.",
+    "Manually derived a_star=(e2+Gamma2)/(-z2)=B2/(4h)=KB2/(4A_seed)>0 and a_star<3/59<1/4.",
+    "At a_star, Y2 and J2 multipliers vanish while F(T2) has multiplier1-beta2>0; strict local feasibility fails at and above the ceiling.",
+    "Retained exact T3 test a(h-1)+B3_tilde/4>0, h>=1/h<1 and beta3<=1/beta3>1 cases. Proved T3 holds throughout the T2 range.",
+    "Copied every shared affine relation from separately admitted RI127 RESULT eq10-13, replacing4 by1/a only in positivity bounds. Did not retain amplitude-specific w1<W_star<4/41.",
+    "Matched all five RI127 L_i(z)/rho rows against inherited RI85 DESIGN eq10, including C5full symbol f=ell, all3/2 slot multiplicities and every transported record.",
+    "Used accepted RI88 harmonic seed existence as the source of Mz=0; did not promote RI85 historical unevaluated design language to acceptance.",
+    "Verified explicit x0=(0,0,0,z4,...,z11): w1=z1=1,w2=z2,w3=z3,all w=z,v=0. Every connected row and disconnected contrast/reference vanishes exactly.",
+    "Used L_i(r;z)=0 at all records, not constancy or a new quotient of disconnected full profiles g_i. Then d_i=0 follows by a positive denominator.",
+    "Recovered all30 allowed child directions:11empty z_j/e_j,11connectedfull zero,3sharedproper zero,5privatefull zero.",
+    "Negative seed set nonempty becausez2<0. Finite positive minimum a_empty=min_negative e_j/(-z_j) gives exact strict interval for this one child direction. Endpoint zero child explicitly excluded.",
+    "Proved a_empty<=e2/(-z2)<a_star<1/4. All parent multipliers stay>3/4; all nonempty-child multipliers are1.",
+    "Only after checking every shared equation and strict child/parent bound invoked the accepted complete H30 iff to establish the full conditional through-eight subfamily.",
+    "Separated exact local interval, sufficient global interval, and unknown maximal full feasible range. No automatic claim about a_empty endpoint for other directions or all-size continuation.",
+    "Re-read both final mathematical texts at9df790 and complete handoff atc3cd5a. Administrative identity checks do not count as independent proof acceptance."
+  ],
+  "authoring_history": {
+    "initial_local_note": {
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md",
+        "bytes": 8479,
+        "sha256": "b6db40964b5976e313b74f5f61efdb9c7760013ebe52caffb170315f48f5859d"
+      },
+      "receipt": {
+        "chunk_id": "84c6b8",
+        "exit_code": 0
+      },
+      "scope": "Historical initial local proof; opening/footer later updated to reference the independently checked shared-system derivation. Not current-path expectation."
+    },
+    "complete_final_proof_read": {
+      "receipt": {
+        "chunk_id": "9df790",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md",
+          "bytes": 8742,
+          "sha256": "ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md",
+          "bytes": 11045,
+          "sha256": "10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e"
+        }
+      ]
+    },
+    "complete_handoff_and_four_pins": {
+      "receipt": {
+        "chunk_id": "c3cd5a",
+        "exit_code": 0
+      },
+      "files": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md",
+          "bytes": 8742,
+          "sha256": "ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.md",
+          "bytes": 2288,
+          "sha256": "bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md",
+          "bytes": 11045,
+          "sha256": "10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SOURCE_REFERENCES.json",
+          "bytes": 41660,
+          "sha256": "ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6"
+        }
+      ]
+    },
+    "skill_reads": [
+      {
+        "chunk_id": "fcd125",
+        "exit_code": 0,
+        "scope": "Complete write-page skill."
+      },
+      {
+        "chunk_id": "fe93fd",
+        "exit_code": 0,
+        "scope": "Complete linked writing-quality reference."
+      }
+    ],
+    "skill_effect": "Kept established local Markdown format. Explicitly distinguished exact local range, proved smaller global subfamily and unresolved maximal range; labelled accepted premises and pending independent adjudication.",
+    "additional_source_request": {
+      "lookup": {
+        "chunk_id": "de838f",
+        "exit_code": 0
+      },
+      "exact_inherited_row": {
+        "role": "dep_0030",
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+        "identity": {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+          "bytes": 10435,
+          "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a",
+          "symlinks": []
+        },
+        "classification": "analytic-source-text-or-review",
+        "access_policy": "text-reading-and-opaque-identity-no-execution",
+        "reference_provenance": [
+          "Complete sealed p127 packet",
+          "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+        ]
+      },
+      "read_only_after_admission": true
+    }
+  },
+  "initial_reservation": {
+    "receipt": {
+      "chunk_id": "47d0a9",
+      "exit_code": 0
+    },
+    "empty": true,
+    "owner": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "current_diagnostics": {
+    "failed_shell_commands": 0,
+    "rejected_patches": 1,
+    "failed_orchestration_attempts": 2,
+    "clipped_metadata_attempt": {
+      "chunk_id": "f6a81d",
+      "wall_time_seconds": 0.00000725,
+      "exit_code": 0,
+      "original_token_count": 3021,
+      "output": "Warning: truncated output (original token count: 3021)\nTotal output lines: 1\n\n{\"d\":{\"RET_paused\":true,\"conclusions\":[\"K>1/5500>0\",\"q(rho)>theta*D/176 with accepted D=9/1000\",\"(3m0/r)*C2(rho,s)<-47/12000<0\",\"C3(rho,s)>0\",\"Necessary T2 interval empty: fixed original H30 candidate…2921 tokens truncated…he rejected amplitude1/4 result.\",\"A concrete shared-system solvability or incompatibility question justified by the exact affine dependence; no generic request for another permission.\"]},\"names\":[]}\n"
+    },
+    "clipped_metadata_error": "The shell metadata command exited0, but max_output_tokens100 clipped JSON output. Subsequent functions JSON.parse rejected the warning-prefixed text. Corrected47d0a9 exited0 with sufficient output budget and stored complete administrative objects.",
+    "duplicate_identifier_attempt": "A later in-memory metadata preparation script declared both function add and const add in one isolate, causing SyntaxError before evaluation, tool calls or writes. Corrected to addSource and patchFile; source references and handoff were then saved successfully.",
+    "patch": {
+      "rejected_patches": 1,
+      "error": "Expected context omitted the preceding words 'fixed. The' in AMPLITUDE_RANGE opening; combined add/update rejected.",
+      "inspection": {
+        "chunk_id": "84c6b8",
+        "exit_code": 0,
+        "namespace": [
+          "AMPLITUDE_RANGE.md"
+        ],
+        "no_partial_new_file": true
+      },
+      "correction": "Reread exact current opening/footer and applied one corrected combined add/update successfully."
+    },
+    "primary_source_display": "The combined bab624 shell result was complete internally, but its outer display clipped part of LOCAL_POSITIVITY. Full LOCAL_POSITIVITY was reread at44ea01. Contract and RECORD_TRANSPORT were visible completely.",
+    "no_scientific_failure_or_execution": true
+  },
+  "earlier_historical_diagnostics": {
+    "prior_author_support": {
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs/AUTHOR_VERIFICATION.json",
+        "bytes": 46420,
+        "sha256": "c90891ad0007e21aea44abae1d18f7c9f6dde2bf6f36b3ae49f7c6e059ee19e8"
+      },
+      "access": "opaque-historical-support",
+      "typed_reference_expansion": false
+    },
+    "boundary_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fifteen_boundary_objects_preserved_in_current_references": true,
+    "scope": "Opaque earlier author/reviewer diagnostics retained by reference; no typed expansion, historical phase pin replay or scientific-source execution. Historical RI216 body-display authority not used."
+  },
+  "preseal": {
+    "receipt": {
+      "chunk_id": "a53438",
+      "exit_code": 0
+    },
+    "actual_result": {
+      "schema": "ri220-compact-administrative-check-v1",
+      "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+      "stage": "preseal4",
+      "direct_sources": 21,
+      "direct_bytes": 652815,
+      "inherited423_manifest_by_reference": true,
+      "fresh_inherited423_or_previous_source_collection_replay": false,
+      "inherited_boundary_objects_preserved": 15,
+      "inherited_analytic_admissions": "six plus two plus two by reference unchanged",
+      "new_analytic_matches": 1,
+      "old_scientific_body_exception_not_reused": true,
+      "scientific_body_read_or_JSON_parsed": false,
+      "explicit_selected_reference_checks": 28,
+      "predecessor_namespace": 6,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 25,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md",
+          "bytes": 8742,
+          "sha256": "ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.md",
+          "bytes": 2288,
+          "sha256": "bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md",
+          "bytes": 11045,
+          "sha256": "10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SOURCE_REFERENCES.json",
+          "bytes": 41660,
+          "sha256": "ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6"
+        }
+      ],
+      "declared_local_Markdown_targets": "future-seal-targets-declared-final-presence-pending",
+      "automated_proof_arithmetic": false,
+      "subject_execution": false
+    }
+  },
+  "administrative_checker": {
+    "language": "Node.js fs/path/crypto only",
+    "scope": "Exact file identities, namespaces, administrative-reference bindings, inherited metadata boundaries, Markdown hygiene and declared scope labels. No scientific body access or mathematical arithmetic.",
+    "invocation": "node -e <literal_source> preseal4 or final6",
+    "literal_source": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri216-native-determinant-sign-qs_a79vs\";\nfunction canon(x){if(Array.isArray(x))return x.map(canon);if(x&&typeof x==='object')return Object.fromEntries(Object.keys(x).sort().map(k=>[k,canon(x[k])]));return x;}\nconst eq=(a,b)=>JSON.stringify(canon(a))===JSON.stringify(canon(b));\nconst cache=new Map();\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'identity fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved path');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'symlink declaration');\n return r;\n}\nconst currentFour=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/AMPLITUDE_RANGE.md\",\"bytes\":8742,\"sha256\":\"ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/HANDOFF.md\",\"bytes\":2288,\"sha256\":\"bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SHARED_COMPATIBILITY.md\",\"bytes\":11045,\"sha256\":\"10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri220-native-amplitude-range-9eljeyc1/SOURCE_REFERENCES.json\",\"bytes\":41660,\"sha256\":\"ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6\"}];currentFour.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri220-compact-accepted-source-references-v1','source schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===21&&S.direct_scope.files===21,'direct21');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===652815&&S.direct_scope.bytes===652815,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort()),'source sort');\nfor(const r of S.direct_sources){\n need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'no scientific body source class');\n pin(r.identity);\n}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected direct reference '+i.path);pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity,S.accepted_four_root_witness])selected(i);\nfor(const group of S.current_literal_reads){need(group.receipt.exit_code===0,'declared read receipt');group.files.forEach(selected);}\nconst assignment=JSON.parse(pin(S.assignment).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI216_INDEPENDENT_ADJUDICATION','assignment');\nneed(eq(assignment.predecessor,S.accepted_predecessor)&&eq(assignment.predecessor_packet,S.predecessor_handoff)&&eq(assignment.predecessor_references,S.predecessor_references)&&assignment.new_scientific_execution_authority===false,'assignment binding and boundary');\nconst decision=JSON.parse(pin(S.accepted_predecessor).body);\nneed(decision.status==='ACCEPT_RI216_CONDITIONAL_FIXED_H30_OBSTRUCTION'&&decision.scientific_execution===false&&decision.qualification_credit===0,'predecessor status');\nfor(const k of ['subject','manual_review','root_metadata','independent_review'])selected(decision[k]);\nneed(eq(decision.subject,S.predecessor_handoff),'predecessor subject binding');\nconst prior=JSON.parse(pin(S.predecessor_handoff).body);\nconst priorNames=fs.readdirSync(P).sort();\nneed(eq(priorNames,S.predecessor_namespace)&&eq(priorNames,prior.namespace)&&priorNames.length===6&&prior.payloads.length===5,'prior namespace');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),priorNames),'prior seal coverage');\nconst priorRefs=JSON.parse(pin(S.predecessor_references).body);\nconst inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'inherited423 metadata');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,priorRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'15 boundaries');\nneed(eq(S.inherited_manifest_by_reference,priorRefs.inherited_manifest_by_reference),'whole inherited boundary');\nneed(eq(S.inherited_original_six_admissions,assignment.source_admission)&&eq(S.inherited_original_six_admissions,priorRefs.inherited_original_six_admissions)&&assignment.source_admission.length===6,'six inherited admissions');\nneed(eq(S.inherited_additional_admissions,assignment.inherited_additional_admissions)&&eq(S.inherited_additional_admissions,priorRefs.inherited_additional_admissions),'two inherited additional admissions');\nneed(eq(S.inherited_RI189_analytic_admission,assignment.inherited_RI189_analytic_admission)&&eq(S.inherited_RI189_analytic_admission,priorRefs.new_literal_analytic_admission),'RI189 admissions inherited');\nconst byInheritedPath=new Map(inherited.protected_files.map(r=>[r.identity.path,r]));\nfunction inheritedAnalytic(i){\n const row=byInheritedPath.get(i.path);\n need(row&&eq(simple(row.identity),simple(i)),'inherited analytic identity');\n need(row.classification==='analytic-source-text-or-review'&&row.access_policy==='text-reading-and-opaque-identity-no-execution','inherited analytic boundary');\n}\nfor(const row of [...S.inherited_original_six_admissions,...S.inherited_RI189_analytic_admission]){\n need(row.typed_reference_expansion===false&&row.inherited_matches.length>0,'inherited flags');\n for(const i of row.inherited_matches){inheritedAnalytic(i);need(i.bytes===row.identity.bytes&&i.sha256===row.identity.sha256,'inherited matching bytes');}\n}\nconst F=S.predecessor_literal_exception_boundary;\nneed(eq(F.reference_manifest,S.predecessor_references)&&eq(F.prior_exception,priorRefs.four_root_literal_exception),'old exception preserved');\nneed(F.typed_reference_expansion===false&&F.new_body_read_authority===false&&F.new_coefficient_coordinate_resolution===false&&F.historical_source_body_not_reopened===true,'old exception not reused');\nneed(!M.has(F.prior_exception.body.path),'no original scientific body in current scope');\nneed(eq(assignment.accepted_four_root_witness,S.accepted_four_root_witness)&&eq(F.prior_exception.witness_acceptance,S.accepted_four_root_witness),'witness accepted by reference');\nconst witness=JSON.parse(pin(S.accepted_four_root_witness).body);\nneed(witness.status==='ACCEPT_FIXED_PREFIX_FOUR_ROOT_WITNESS'&&witness.new_scientific_execution===false,'witness status only');\nconst A=S.additional_shared_affine_admission;\nselected(A.authority);selected(A.reference);\nconst admission=JSON.parse(pin(A.authority).body);\nneed(admission.status==='ADMIT_EXACT_EXISTING_ANALYTIC_TEXT_ONLY'&&eq(admission.assignment,S.assignment)&&admission.reservation===Q,'new analytic admission');\nneed(eq(admission.reference,A.reference)&&eq(admission.inherited_match,A.inherited_match)&&eq(admission.inherited_manifest,S.inherited_manifest_by_reference.identity),'new admission source binding');\nneed(eq(byInheritedPath.get(A.reference.path),A.inherited_match),'complete inherited row');\ninheritedAnalytic(A.reference);\nneed(A.typed_reference_expansion===false&&admission.typed_reference_expansion===false&&admission.scientific_body_admission===false&&admission.execution_admitted===false&&admission.automatic_scientific_arithmetic===false&&admission.qualification_credit===0,'new admission limits');\nselected(S.predecessor_author_support.identity);\nneed(S.predecessor_author_support.access==='opaque-historical-support'&&S.predecessor_author_support.typed_reference_expansion===false,'prior author opaque');\nconst yes=['manual_analysis_only','original_quarter_amplitude_rejection_immutable','distinct_symbolic_amplitude_family','exact_local_amplitude_interval_proved','original_local_variables_and_strict_endpoints_preserved','complete_shared_affine_consistency_proved','explicit_symbolic_shared_solution_proved','full_through_eight_small_amplitude_subfamily_proved','inherited_finite_sign_premises_remain_conditional','ret_paused'];\nconst no=['maximal_full_amplitude_decided','numerical_amplitude_selected','new_scientific_body_vector_or_certificate_read','new_coefficient_coordinates_resolved','automatic_scientific_parsing_or_proof_arithmetic','H_or_z_reconstruction','actual_scales_or_full_vector_evaluated','graph_LP_subject_runtime_fixture_card_execution','repository_Git_index_or_measurement_written','physical_correspondence_or_full_QM_proved','all_size_record_blind_extension_proved','successor_designed_or_started'];\nfor(const k of yes)need(S.scope[k]===true,'declared true scope '+k);\nfor(const k of no)need(S.scope[k]===false,'declared false scope '+k);\nneed(S.scope.qualification_credit===0&&eq(S.executable_obligations,priorRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged qualification');\nconst stage=process.argv[1]||'preseal4';need(['preseal4','final6'].includes(stage),'mode');\nconst final=['AMPLITUDE_RANGE.md','AUTHOR_VERIFICATION.json','HANDOFF.json','HANDOFF.md','SHARED_COMPATIBILITY.md','SOURCE_REFERENCES.json'];\nconst expected=stage==='final6'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['AMPLITUDE_RANGE.md','SHARED_COMPATIBILITY.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'Markdown hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(final.includes(m[1]),'declared local Markdown target');\n}\nif(stage==='final6'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===5&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current seal');\n h.payloads.forEach(pin);\n selected(h.assignment);selected(h.accepted_predecessor);selected(h.additional_literal_admission);\n need(eq(h.scope,S.scope)&&eq(h.executable_obligations,S.executable_obligations),'handoff scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===4&&a.final6_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n need(eq(a.executable_obligations,S.executable_obligations)&&eq(a.scope,S.scope),'author obligations');\n}\nconst all=[...cache.values()].map(simple);need(all.length===21+expected.length,'fresh scope');\nall.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),priorNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri220-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:21,direct_bytes:652815,inherited423_manifest_by_reference:true,fresh_inherited423_or_previous_source_collection_replay:false,inherited_boundary_objects_preserved:15,inherited_analytic_admissions:'six plus two plus two by reference unchanged',new_analytic_matches:1,old_scientific_body_exception_not_reused:true,scientific_body_read_or_JSON_parsed:false,explicit_selected_reference_checks:references,predecessor_namespace:6,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,declared_local_Markdown_targets:stage==='final6'?'all-present':'future-seal-targets-declared-final-presence-pending',automated_proof_arithmetic:false,subject_execution:false},null,2));\n",
+    "mathematical_acceptance": false
+  },
+  "scope": {
+    "manual_analysis_only": true,
+    "original_quarter_amplitude_rejection_immutable": true,
+    "distinct_symbolic_amplitude_family": true,
+    "exact_local_amplitude_interval_proved": true,
+    "original_local_variables_and_strict_endpoints_preserved": true,
+    "complete_shared_affine_consistency_proved": true,
+    "explicit_symbolic_shared_solution_proved": true,
+    "full_through_eight_small_amplitude_subfamily_proved": true,
+    "maximal_full_amplitude_decided": false,
+    "numerical_amplitude_selected": false,
+    "inherited_finite_sign_premises_remain_conditional": true,
+    "new_scientific_body_vector_or_certificate_read": false,
+    "new_coefficient_coordinates_resolved": false,
+    "automatic_scientific_parsing_or_proof_arithmetic": false,
+    "H_or_z_reconstruction": false,
+    "actual_scales_or_full_vector_evaluated": false,
+    "graph_LP_subject_runtime_fixture_card_execution": false,
+    "repository_Git_index_or_measurement_written": false,
+    "ret_paused": true,
+    "physical_correspondence_or_full_QM_proved": false,
+    "all_size_record_blind_extension_proved": false,
+    "successor_designed_or_started": false,
+    "qualification_credit": 0
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final6_not_yet_run_at_author_creation": true,
+  "final_check_policy": "After HANDOFF.json is saved, run retained final6 checker. Report actual receipt and all six final pins externally. No self-hash or claim of a future check.",
+  "stopping_rule": "Seal this bounded source-only amplitude theorem and explicit shared solution for independent root adjudication. Original1/4 rejection unchanged. No optimization, new candidate selection, numerical amplitude, runtime, publication/Git or successor. RET paused."
+}

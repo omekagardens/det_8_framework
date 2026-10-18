@@ -1,0 +1,85 @@
+{
+  "exact_copies": 13,
+  "lossless_encoded_copies": 0,
+  "parent": "05a7aec415941b5bfa79287cd20b54d8c6eb4c20",
+  "payload": [
+    {
+      "bytes": 61657,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "5db9242e92f5717d13214a0ca09d97955667beb393651e7fa0a90daf0dd7e576"
+    },
+    {
+      "bytes": 2044,
+      "path": "README.md",
+      "sha256": "5a8452ef1809deacf2d46dfa3d8792df6994b1887eefe778b0613a528c814e7f"
+    },
+    {
+      "bytes": 15138,
+      "path": "root/RI250_GENUINE_FINAL.json",
+      "sha256": "16785e6a746cb131987f276650e4fe0e5c25ab3ee7e222dfa1f067272a7c3f63"
+    },
+    {
+      "bytes": 11564,
+      "path": "root/RI250_INDEPENDENT_REVIEW.txt",
+      "sha256": "8e85d1af9ce82baefb4a005479349280fced7f62994124430bdda38327309f1a"
+    },
+    {
+      "bytes": 1574,
+      "path": "root/RI250_ROOT_ADJUDICATION.json",
+      "sha256": "1f47317f5032c5ee6accb7c83e9bf30c2511771bc7346b226ae65336d1dcc25c"
+    },
+    {
+      "bytes": 68900,
+      "path": "root/RI250_ROOT_METADATA_CHECK.json",
+      "sha256": "4c1cbdead7f533a8d5270fcd64e71a9cfb9f1de49163664f627a8d51c63b0c87"
+    },
+    {
+      "bytes": 3007,
+      "path": "root/RI250_TWO_ROLE_LITERAL_ADMISSION.json",
+      "sha256": "444266879ba9afbbfd31cfdab7e03d1be4a596d4a316e14f2502ca97e3e58fdd"
+    },
+    {
+      "bytes": 1151,
+      "path": "root/RI252_ASSIGNMENT.json",
+      "sha256": "6a5be1d6f987775ea877bd2eb455959e482489568e8fd0999cae7d52b5c3a956"
+    },
+    {
+      "bytes": 3511,
+      "path": "root/RI252_ASSIGNMENT.md",
+      "sha256": "3ba3af895aa61026cb6f3f2ff01c904928da15c41d0a74b4256f815d2d3fbf98"
+    },
+    {
+      "bytes": 32528,
+      "path": "source/AUTHOR_VERIFICATION.json",
+      "sha256": "78b7eb7c2fc127851fd94768ced566e50054eabaa9a8ebc5e9968418095cdb37"
+    },
+    {
+      "bytes": 5088,
+      "path": "source/BINDING_GAP.md",
+      "sha256": "0b62eee48bea6a0fe3ba009aa69d99a96318a7ac087290643e7de2ab9a4873f8"
+    },
+    {
+      "bytes": 15225,
+      "path": "source/HANDOFF.json",
+      "sha256": "f0e405ce6f197019740da3c555226ad1883eed41a9892b55eea17c1dffff9628"
+    },
+    {
+      "bytes": 1322,
+      "path": "source/HANDOFF.md",
+      "sha256": "fc9f63451ed842f75c1d6778a3b9696ba11768eba5f3ee2293123dafb62f0430"
+    },
+    {
+      "bytes": 3076,
+      "path": "source/MANUAL_CONSEQUENCE.md",
+      "sha256": "d64056f152257c6085f31a32cf03b04ecc1f68ee3a10262065483e78ab1e8a5b"
+    },
+    {
+      "bytes": 101723,
+      "path": "source/SOURCE_REFERENCES.json",
+      "sha256": "65f97a450501fab37efc9b65c22c916a3628e66135b4d757d791c2672d665199"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

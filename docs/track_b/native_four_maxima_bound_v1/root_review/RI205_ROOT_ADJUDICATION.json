@@ -1,0 +1,45 @@
+{
+  "actual_W_decided": false,
+  "both_margins_or_H30_decided": false,
+  "global_M6_bound_proved": false,
+  "handoff": {
+    "bytes": 7882,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/HANDOFF.json",
+    "sha256": "cb9c07c5715b4c5b7aa0b610aa642ffc45c6c93fc8dc1996d67205b1a64a4afe"
+  },
+  "independent_nonauthor_review": true,
+  "lemma": {
+    "bytes": 11610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_OMISSION_LEMMA.md",
+    "sha256": "4a77624af1fa95febc727e180071a48dfd0f2792ea9bb6ea49909b210bc8e798"
+  },
+  "metadata": {
+    "bytes": 12519,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI205_ROOT_METADATA_CHECK.json",
+    "sha256": "dad5589bd4f0de1e0274962397e78ba8af4a0180ea3a18991e43019fa2d37bc0"
+  },
+  "premises": [
+    "RI41 all-four-parent ideal floor9/681472 including full, and scalar coefficient minimum1/8 used only at proper four-parent slots.",
+    "Literal fixed one-through-three-parent seed formulas and empty-parent probability1; all original marks remain.",
+    "RI63 accepted finite theorem that every active canonical parent-five component is everywhere defect-neutral; arbitrary-vertex Ferrers defect and complete marked ordinary diamonds.",
+    "Unchanged strictly positive complete canonical mixture with theta=1/[72(1+M5)].",
+    "RI201 native M5>(3/4)^5*11^10 and RI199 unchanged T>(468/5)(1+M5)-1/2; printed numerical M5 unused."
+  ],
+  "proof": {
+    "bytes": 13642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked/FOUR_MAXIMA.md",
+    "sha256": "a154b885c894a4064022d0a0b7aae6a283687559a5b737aab5e86ad699bc5283"
+  },
+  "qualification_credit": false,
+  "ret_paused": true,
+  "root_review": {
+    "bytes": 5493,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI205_ROOT_PROOF_REVIEW.md",
+    "sha256": "15d93856d39de80c95a51fd5adc511ff9b01cee5c8fad354dbf4d8d7f5c429d4"
+  },
+  "schema": "ri207-root-ri205-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_FOUR_MAXIMA_CLASS_CONDITIONAL_THEOREM",
+  "theorem": "Every actual marked six-parent with four maxima has U6<4+6K+64K^2+1/128<369664456005<370000000000<465000000000<T, K=681472/9.",
+  "whole_class_not_selected_records": true
+}

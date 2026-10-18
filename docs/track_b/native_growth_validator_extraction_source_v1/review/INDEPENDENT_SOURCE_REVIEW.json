@@ -1,0 +1,149 @@
+{
+  "active_cards_freezes_copies_admissions_attempts": false,
+  "actual_checks": {
+    "added_entries": 44,
+    "all_source_packet_identities_unchanged_after_check": true,
+    "complete_patches": 2,
+    "complete_predecessor_namespaces": [
+      13,
+      9,
+      11,
+      6
+    ],
+    "current_runtime_inventory": false,
+    "mismatched_references": 0,
+    "moved_blocks_and_actual_calls": 8,
+    "reference_boundary_counts": {
+      "dependency": 3394,
+      "history": 16738,
+      "runtime": 95538
+    },
+    "source_dependency_identities": 343,
+    "typed_administrative_references": 115670,
+    "unchanged_inherited_entries": 299,
+    "unclosed_references": 0,
+    "whole_source_reverse_projections": 2
+  },
+  "actual_opaque_text_checks": {
+    "bytes": 147512,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/OPAQUE_TEXT_REVIEW.json",
+    "sha256": "b734de0375f2ea558cb5d87008e60c3509e6373e2bf103f552b60237071c8518"
+  },
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 20707,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c8173553d3310f009f6bc8a31d279482cd9117842f09faef44b47b7e491ef096"
+  },
+  "current_caller_qualification": false,
+  "declaration_coverage": [
+    {
+      "caller": "native",
+      "case_inventory_exact_and_linked": true,
+      "current_partition": {
+        "BLOCKED_DEEPER": 20,
+        "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED": 5,
+        "PRIOR_ENTRY_SPECIFICATION_NOT_ADAPTED_OR_EXECUTED": 1,
+        "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED": 16,
+        "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED": 10
+      },
+      "literal_source_declarations_and_prior_classifications_match": true,
+      "ordered_declarations": 52,
+      "source_case_inventory": 77
+    },
+    {
+      "caller": "audit",
+      "case_inventory_exact_and_linked": true,
+      "current_partition": {
+        "BLOCKED_DEEPER": 42,
+        "DIRECT_EXTRACTED_POLICY_ONLY": 6,
+        "RETAINED_NARROW_SOURCE_APPLICABILITY": 21
+      },
+      "literal_source_declarations_and_prior_classifications_match": true,
+      "ordered_declarations": 69,
+      "source_case_inventory": 62
+    }
+  ],
+  "execution_authorized": false,
+  "findings": [],
+  "fixture_generation_evaluation": false,
+  "prior_authorship_outside_scope": [
+    "RI125 primary and qualifier",
+    "RI131 guard source"
+  ],
+  "prospective_controls": {
+    "audit": {
+      "combined_ordering_probes": 0,
+      "isolated_negative": 58,
+      "positive": 4,
+      "total": 62
+    },
+    "executed": 0,
+    "native": {
+      "combined_ordering_probes": 2,
+      "isolated_negative": 71,
+      "positive": 4,
+      "total": 77
+    }
+  },
+  "read_coverage": {
+    "administrative_json_bodies_identity_traversed": 145,
+    "all_direct_control_cases_manually_traced": 139,
+    "all_original_declarations": 121,
+    "all_packet_files": 17,
+    "audit_policy_control_lines": 316,
+    "launch_audit_lines": 1644,
+    "native_policy_control_lines": 279,
+    "scientific_json_bodies_decoded": 0,
+    "supervise_lines": 1469,
+    "total_module_lines": 3708
+  },
+  "repository_or_git_writes": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_checker_incidents": [
+    {
+      "exit_code": 1,
+      "preserved_source": {
+        "bytes": 11710,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/check_metadata.before-diff-comparison.py",
+        "sha256": "733d64f696ba6ab38b7f5fed9019adfdfa6db17c4a7dbb113f59e49b6754d963"
+      },
+      "reason": "Reviewer compared equivalent patches from different diff algorithms; changed to complete in-memory hunk reconstruction.",
+      "tool_chunk": "4eacba"
+    },
+    {
+      "exit_code": 1,
+      "preserved_source": {
+        "bytes": 12479,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/check_metadata.before-classification-normalization.py",
+        "sha256": "56d02f50a19c68882b30eb4fcf9c4dc1033012096968b28b63fa1939fbc46aaf"
+      },
+      "reason": "Reviewer prior-classification label normalization corrected to exact literal native labels.",
+      "tool_chunk": "5cfe10"
+    }
+  ],
+  "schema": "ri134-complete-independent-source-review-v1",
+  "scientific_result_claimed": false,
+  "separate_remaining_obligations": [
+    "root source adjudication",
+    "new independently reviewed authenticated dispatcher",
+    "actual external runtime and bootstrap custody",
+    "genuine admission and observed 77/62 controls",
+    "residual authentic-card physical process namespace serial/output coverage",
+    "actual producer 15/4/71 and independent auditor 15/16 qualification",
+    "complete actual saved scientific and custody adjudication"
+  ],
+  "source_authorship": false,
+  "source_handoff": {
+    "bytes": 14101,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+    "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+  },
+  "source_qualification": false,
+  "status": "PASS_BOUNDED_UNEXECUTED_SOURCE_ONLY",
+  "successful_checker_tool": {
+    "chunk_id": "da27fa",
+    "exit_code": 0
+  },
+  "target_helper_import_compile_AST_probe_execution": false
+}

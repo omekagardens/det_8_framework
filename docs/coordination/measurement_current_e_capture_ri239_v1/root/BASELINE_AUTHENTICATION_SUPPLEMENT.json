@@ -1,0 +1,47 @@
+{
+  "capture_not_started": true,
+  "diagnostic": "Original observer loaded E_BEFORE without a pinned reference; independent reviewer found it outside986 dependencies. A proposed pre-issuance script edit failed an in-memory assertion before write (fb1485 exit1); the original issuance then completed bd8635/session5408 to f4bc65 exit0. No capture ran. This separate root preexecution check authenticates the exact historical baseline, all PRE_E fields, and current unchanged controls; it preserves both earlier source and receipts.",
+  "entire_value_equal": true,
+  "historical_E_baseline_identity": {
+    "bytes": 43288,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/E_BEFORE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/E_BEFORE.json",
+    "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4",
+    "state": [
+      16777244,
+      426633,
+      33188,
+      1,
+      43288,
+      1790840543266551574,
+      1790840543266551574
+    ],
+    "symlink_chain": []
+  },
+  "issuance_source": {
+    "bytes": 4339,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/issue_capture.py",
+    "sha256": "2a22a854d63d85ca75090572ecbeed236b811c2d04ef949e35b41bd8e4757746"
+  },
+  "issued_controls": {
+    "bytes": 2539,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/ISSUED_CAPTURE_CONTROLS.json",
+    "sha256": "55931e912d4818081b1db3050c10341121d42a7b6442dbe60886d5514adb43ea"
+  },
+  "pre_E": {
+    "bytes": 43288,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_E.json",
+    "sha256": "d8bde2568a8b117ad67255e8c12f5e41183b93eb2df04800e43db973b27a52e4"
+  },
+  "pre_custody": {
+    "bytes": 4686,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json",
+    "sha256": "5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4"
+  },
+  "reviewer_source_checks": [
+    "77283f exit0",
+    "44057c exit0"
+  ],
+  "schema": "ri239-root-preexecution-baseline-authentication-v1",
+  "status": "PASS_AUTHENTICATED_ENTIRE_E_BASELINE"
+}

@@ -1,0 +1,90 @@
+{
+  "active_cards_or_attempts": false,
+  "actual_check": {
+    "artifact": {
+      "bytes": 139849,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/OPAQUE_TEXT_CHECK.json",
+      "sha256": "cf144bd15a7afdedbee4f98f05a6a1749fdceaef35fbee24ac8afd02365d0c8e"
+    },
+    "exit_code": 0,
+    "tool_chunk": "3ffe9b"
+  },
+  "authorship_independent_for_target": true,
+  "blocking_findings": 0,
+  "closed_namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "OPAQUE_TEXT_CHECK.json",
+    "check_metadata.before-span-delimiter-fix.py",
+    "check_metadata.py"
+  ],
+  "complete_review": {
+    "bytes": 17218,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "a642e6cd508d506f662e97ae5d277401ee3f136126296772a6cd93448271f2db"
+  },
+  "controls_executed": 0,
+  "current_runtime_inventory": false,
+  "execution_admitted": false,
+  "files": [
+    {
+      "bytes": 4289,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/FINAL_PIN_CHECK.json",
+      "sha256": "55eab3a154ef1b11f0c63dda02afb287531543d6feb741661151c5d617330935"
+    },
+    {
+      "bytes": 4599,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "031bee069b0a9b31feddb5caca73a339c471fbc675b754858de212493b85305a"
+    },
+    {
+      "bytes": 17218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "a642e6cd508d506f662e97ae5d277401ee3f136126296772a6cd93448271f2db"
+    },
+    {
+      "bytes": 139849,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/OPAQUE_TEXT_CHECK.json",
+      "sha256": "cf144bd15a7afdedbee4f98f05a6a1749fdceaef35fbee24ac8afd02365d0c8e"
+    },
+    {
+      "bytes": 9958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.before-span-delimiter-fix.py",
+      "sha256": "8d2b7edd13de10cfb3e7d609242a029bc47793f6d009025ec395e5709f213f84"
+    },
+    {
+      "bytes": 9966,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.py",
+      "sha256": "e78b6268e997ae835fce6e1874985a265525bae1bfc4965ba4866de938ab8771"
+    }
+  ],
+  "machine_review": {
+    "bytes": 4599,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "031bee069b0a9b31feddb5caca73a339c471fbc675b754858de212493b85305a"
+  },
+  "nonblocking_findings": [
+    "N01:15 grouped unchanged spans correspond to17 actual unchanged functions; all bytes exact."
+  ],
+  "prior_out_of_scope_authorship": [
+    "RI125 primary/qualifier",
+    "RI131"
+  ],
+  "remaining_scope": "Fresh genuine direct bootstrap/host/selected-binding preflight, root source adjudication and new cards, actual bounded25-control operation, complete independent saved evidence review. RI137 actual failure stays rejected0/25; no other campaign or scientific/runtime acceptance.",
+  "repository_or_git_operations": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9",
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "root_adjudication_required": true,
+  "schema": "ri139-independent-source-review-handoff-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 7035,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+    "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+  },
+  "source_target_import_compile_ast_probe_run": false,
+  "verdict": "PASS_NARROW_UNEXECUTED_SOURCE_REPAIR"
+}

@@ -1,0 +1,150 @@
+{
+  "active_cards_created": false,
+  "actual_success_tool": {
+    "chunk_id": "d8ab59",
+    "exit_code": 0
+  },
+  "current_runtime_inventory": false,
+  "exact_namespace": [
+    "ACTUAL_REVIEWER_COMMANDS.json",
+    "FAILED_CHECK_01.json",
+    "FAILED_CHECK_02.json",
+    "FAILED_CHECK_03.json",
+    "FINAL_INPUT_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_NORMAL_REVIEW.md",
+    "PUBLICATION_SUBSET.json",
+    "RECONSTRUCTED_PROFILE_CHECK.json",
+    "SAVED_CHECK_SUMMARY.json",
+    "SAVED_NORMAL_CHECKS.json",
+    "VERDICT.json",
+    "review_saved_normal.before-bytes-comparison-fix.py",
+    "review_saved_normal.before-raw-tool-framing-fix.py",
+    "review_saved_normal.before-repository-read-boundary-fix.py",
+    "review_saved_normal.py",
+    "seal_review.py"
+  ],
+  "files": [
+    {
+      "bytes": 4733,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "fc2c98d8cbd794c8bf1e648bd9578288499d84d3d6214c8956b8f8ae528683f0"
+    },
+    {
+      "bytes": 824577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_01.json",
+      "sha256": "3a88cd7cc46a9a30d1227350f66ec91d657bbaf1ec944106928b92e2a217d8e3"
+    },
+    {
+      "bytes": 986544,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_02.json",
+      "sha256": "6bbe8f0b700ff4795e84dda94ea97b7b2449070ccc4c203a6c5835c7c99cc9cd"
+    },
+    {
+      "bytes": 10183904,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_03.json",
+      "sha256": "81f203c24ea10493d7667a9731b027a9c408acf899f8394b3f9c7e02fbc388f5"
+    },
+    {
+      "bytes": 2095,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FINAL_INPUT_CUSTODY.json",
+      "sha256": "72cd3308da0c1cff13bfb847e485a880734ebd9efe19320a0af93d484d78097e"
+    },
+    {
+      "bytes": 20917,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/INDEPENDENT_NORMAL_REVIEW.md",
+      "sha256": "be45bdee554c6b585cda2d7a267d3b11c6f1b2df1962701d846b2d10cf98f322"
+    },
+    {
+      "bytes": 7125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/PUBLICATION_SUBSET.json",
+      "sha256": "3ac84a9827d259e31fc2c50a631f0f5c98526d165ed447d89259c0ada3ae5629"
+    },
+    {
+      "bytes": 78057,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/RECONSTRUCTED_PROFILE_CHECK.json",
+      "sha256": "71c42c7254657be2632f02fb37eed4f184c45f232a2d122331d0fb3ed9aa7515"
+    },
+    {
+      "bytes": 4427,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/SAVED_CHECK_SUMMARY.json",
+      "sha256": "fda9b4c6a0009886e7f538ac8164da7b53a39b5ce49e45ec9573ad467dce654a"
+    },
+    {
+      "bytes": 10229837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/SAVED_NORMAL_CHECKS.json",
+      "sha256": "28b585aac113515afecc8094f56fd7c677007d10c872ab87b4335707aae8b3ec"
+    },
+    {
+      "bytes": 4800,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/VERDICT.json",
+      "sha256": "36826779d97249a3ed841669cee8f921d3dee726f18ce9151a539123157177b4"
+    },
+    {
+      "bytes": 32168,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-bytes-comparison-fix.py",
+      "sha256": "23346af1a3b480b7ddcff6d51a38ad58447ccb30fcd8d195f6eda753809ecf23"
+    },
+    {
+      "bytes": 32273,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-raw-tool-framing-fix.py",
+      "sha256": "a2c3590ae948062690e1d2bd5f55abf85243bb686b598d10d2bf3ecdf33d7c87"
+    },
+    {
+      "bytes": 32012,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-repository-read-boundary-fix.py",
+      "sha256": "2eebae9f457124a2427d3f2e1825844c155cecc45d27f6c47d10d6a7a479c005"
+    },
+    {
+      "bytes": 32314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "sha256": "97c057cc0a47143647234b7ce99f00eb27eecbc68bdb30c87f4645c5405ace55"
+    },
+    {
+      "bytes": 9133,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/seal_review.py",
+      "sha256": "54e3cee712345bc5d49f9c3b15f4f7b5dcbb93f9d4e3c22bc4047ad0b7063ba9"
+    }
+  ],
+  "findings": {
+    "bytes": 20917,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/INDEPENDENT_NORMAL_REVIEW.md",
+    "sha256": "be45bdee554c6b585cda2d7a267d3b11c6f1b2df1962701d846b2d10cf98f322"
+  },
+  "preserved_failed_reviewer_attempts": [
+    {
+      "bytes": 824577,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_01.json",
+      "sha256": "3a88cd7cc46a9a30d1227350f66ec91d657bbaf1ec944106928b92e2a217d8e3"
+    },
+    {
+      "bytes": 986544,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_02.json",
+      "sha256": "6bbe8f0b700ff4795e84dda94ea97b7b2449070ccc4c203a6c5835c7c99cc9cd"
+    },
+    {
+      "bytes": 10183904,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_03.json",
+      "sha256": "81f203c24ea10493d7667a9731b027a9c408acf899f8394b3f9c7e02fbc388f5"
+    }
+  ],
+  "publication_subset": {
+    "bytes": 7125,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/PUBLICATION_SUBSET.json",
+    "sha256": "3ac84a9827d259e31fc2c50a631f0f5c98526d165ed447d89259c0ada3ae5629"
+  },
+  "repository_git_index_mutations": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq",
+  "ret_paused": true,
+  "root_adjudication_required": true,
+  "schema": "ri148-independent-actual-normal-profile-review-handoff-v1",
+  "scientific_payload_decode": false,
+  "self_hash_excluded": true,
+  "status": "ACCEPT_BOUNDED_NORMAL_PROFILE_EVIDENCE",
+  "subject_execution_or_replay": false,
+  "verdict": {
+    "bytes": 4800,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/VERDICT.json",
+    "sha256": "36826779d97249a3ed841669cee8f921d3dee726f18ce9151a539123157177b4"
+  }
+}

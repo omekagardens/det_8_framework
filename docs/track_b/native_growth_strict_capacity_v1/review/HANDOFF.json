@@ -1,0 +1,123 @@
+{
+  "RET_remains_paused": true,
+  "actual_administrative_check": {
+    "counts": {
+      "added": 22,
+      "administrative_bodies": 65,
+      "author_namespace": 10,
+      "author_payloads": 9,
+      "current_typed_refs": 79,
+      "dependencies": 193,
+      "dependency_bytes": 5432055,
+      "fresh_identity_rechecks": 204,
+      "historical_extended_identity_occurrences": 17,
+      "historical_typed_refs": 1294,
+      "inherited": 171,
+      "literal_manuscript_references": 6,
+      "reviewer_predicates": 6944,
+      "source_pairs": 4
+    },
+    "exit_code": 0,
+    "tool_chunk": "bf2a4f"
+  },
+  "assignment": {
+    "bytes": 1372,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "88292622081b1e6bbd14d4614df6496b5536e1b28b5b6833458198343bbe9056"
+  },
+  "compact_public_review_subset": [
+    "INDEPENDENT_PROOF_REVIEW.md",
+    "VERDICT.json",
+    "ACTUAL_CHECKS.json",
+    "CHECK.stdout",
+    "CHECK.stderr",
+    "check_metadata.py",
+    "seal_review.py",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json"
+  ],
+  "decision": "ACCEPT_ACTUAL_FIRST_CAPACITY_AND_EXACT_STRICT_REDUCTION_WITH_CORRELATED_CONTRAST_GAP",
+  "external_only_diagnostic_files": [
+    "METADATA_CHECK.json"
+  ],
+  "external_only_diagnostic_reason": "Complete approximately 2 MB predicate/reference/identity occurrence record is preserved externally and bound by this handoff; compact publication need not duplicate it. It remains part of the complete review seal.",
+  "final_fresh_identity_check": {
+    "bytes": 5692,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/FINAL_PIN_CHECK.json",
+    "sha256": "3226f398ac73d57ad4bc679bf6bf20f85fe074967195516d91b2ebcc545abf4a"
+  },
+  "namespace": [
+    "ACTUAL_CHECKS.json",
+    "CHECK.stderr",
+    "CHECK.stdout",
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_PROOF_REVIEW.md",
+    "METADATA_CHECK.json",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "payloads": [
+    {
+      "bytes": 5422,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+      "sha256": "b6c8b086d696e9501ceb8e0c8ebe20a0c79a14d3f345c20219718d0682b839a9"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 408,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "sha256": "5aceaf82849ed5b855f62c82c27d8ca321ba814f56ed63583744f61b51139225"
+    },
+    {
+      "bytes": 5692,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/FINAL_PIN_CHECK.json",
+      "sha256": "3226f398ac73d57ad4bc679bf6bf20f85fe074967195516d91b2ebcc545abf4a"
+    },
+    {
+      "bytes": 20271,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "8a21f89e29a60ea460671aa2ec7d7689474d125545355e559d4bd9528b4103fc"
+    },
+    {
+      "bytes": 1980257,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea"
+    },
+    {
+      "bytes": 4101,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/VERDICT.json",
+      "sha256": "e276bf554816c1742a983e51c2adb1d4afe7b7ce7df8d4ea27acdb528b645cec"
+    },
+    {
+      "bytes": 10998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "sha256": "c506b2dae3291e1535ea71fba2b15e0891a9e30ba0d3b64336bc0c92c1d7135a"
+    },
+    {
+      "bytes": 4548,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/seal_review.py",
+      "sha256": "b8f8efbd3adcbfc86bbb910546a7bcbed2869d5c9667a33a18ac2d635da5821c"
+    }
+  ],
+  "remaining_actual_premise": "Same actual canonical-prefix strict contrast v>B; a pass still needs the adequate q/v budget. Equality fails the sufficient capacity.",
+  "repair_findings": [],
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication_claimed": false,
+  "schema": "ri155-independent-proof-review-handoff-v1",
+  "scientific_execution_or_physical_acceptance": false,
+  "source_and_proof_only": true,
+  "status": "SEALED_NONAUTHOR_PROOF_REVIEW_FOR_ROOT_ADJUDICATION",
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "successor_assigned": false,
+  "terminal_completion_not_self_authenticated": true
+}

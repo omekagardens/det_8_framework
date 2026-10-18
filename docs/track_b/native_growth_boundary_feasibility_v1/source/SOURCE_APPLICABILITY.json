@@ -1,0 +1,136 @@
+{
+  "schema": "ri143-source-applicability-v1",
+  "status": "PROVISIONAL_SOURCE_DESIGN_NOT_OPERATIONAL_QUALIFICATION",
+  "subject_packet": {
+    "handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+      "bytes": 6044,
+      "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+    },
+    "source_manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+      "bytes": 26029,
+      "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+    },
+    "modules": {
+      "launcher": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "bytes": 60009,
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      "custody": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+        "bytes": 33143,
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      "collector": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "bytes": 43838,
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      }
+    },
+    "focused_design": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+      "bytes": 8969,
+      "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+    },
+    "max_attempts": {
+      "F01": 23,
+      "F02": 8,
+      "total": 31
+    }
+  },
+  "accepted_source_decision": {
+    "root_adjudication": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+      "bytes": 5028,
+      "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+    },
+    "root_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+      "bytes": 3887,
+      "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+    },
+    "root_source_check": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_CHECK.json",
+      "bytes": 19308,
+      "sha256": "f0477e553bd4bb19d8c0473d54effc6041ea063faba3395a1ee5fde6935caa3a"
+    },
+    "independent_review": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 15287,
+      "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+    },
+    "independent_review_note": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 22740,
+      "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+    },
+    "independent_review_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+      "bytes": 5887,
+      "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+    }
+  },
+  "copied_executable_source": false,
+  "modified_executable_source": false,
+  "new_controller_implemented": false,
+  "new_test_launcher_implemented": false,
+  "source_diffs": [],
+  "source_diff_applicability": "No executable source was copied or changed. Empty source-diff list is an explicit non-applicability statement, not an unreported modification.",
+  "administrative_copy": {
+    "policy_objects": "SOURCE_IDENTITIES.unchanged_policy_subjects equals the exact RI140 subject objects, ordering and result contracts.",
+    "inherited_dependencies": "All423 inherited full entries are identical except sorted role numbering; no reclassification or expected-byte changes.",
+    "new_schema": "RI143 design metadata is not asserted compatible with the fixed RI140 executable launcher."
+  },
+  "coverage": {
+    "whole_authenticated_entry_required": true,
+    "direct_function_controls_implemented": false,
+    "direct_function_controls_would_qualify_whole_entry": false,
+    "F01_variants": 23,
+    "F02_variants": 8,
+    "total_focused_variants": 31,
+    "focused_attempts_executed": 0,
+    "policy_cases": 139,
+    "policy_cases_executed": 0,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "unchanged_source_acceptance_does_not_equal_fault_qualification": true
+  },
+  "disposition": {
+    "controller_feasibility_established": false,
+    "all_variants_retained": true,
+    "natural_EOF_source_reachable": true,
+    "natural_EOF_qualification_established": false,
+    "platform_wide_impossibility_claimed": false,
+    "source_deductions_require_independent_root_adjudication": true
+  },
+  "public_context_only": [
+    {
+      "title": "Python signal handler execution",
+      "url": "https://docs.python.org/3/library/signal.html#execution-of-python-signal-handlers",
+      "consulted_local_date": "2026-09-30"
+    },
+    {
+      "title": "PEP475 EINTR retry policy",
+      "url": "https://peps.python.org/pep-0475/",
+      "consulted_local_date": "2026-09-30"
+    },
+    {
+      "title": "Python selector unregister interface",
+      "url": "https://docs.python.org/3/library/selectors.html#selectors.BaseSelector.unregister",
+      "consulted_local_date": "2026-09-30"
+    }
+  ],
+  "public_context_scope": "General explanatory context, not locally pinned execution suppliers or observations of the installed interpreter. Public documents are outside the450-file local dependency selection.",
+  "scope": {
+    "execution_authorized": false,
+    "current_runtime_observed": false,
+    "subject_import_compile_ast_probe_run": false,
+    "controller_or_fixture_execution": false,
+    "operational_artifacts_created": false,
+    "scientific_execution": false,
+    "repository_or_git_modified": false,
+    "ret_paused": true
+  }
+}

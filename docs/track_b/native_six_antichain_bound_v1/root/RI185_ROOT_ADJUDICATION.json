@@ -1,0 +1,25 @@
+{
+  "actual_endpoint_sign_decided": false,
+  "actual_metadata_check": {
+    "bytes": 202274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_ROOT_METADATA_CHECK.json",
+    "sha256": "51e71adb61d8d89198bfe6ad7707b7fabaf90e8a4e7125d2c350dbe1968c68c4"
+  },
+  "actual_metadata_exit_code": 0,
+  "actual_metadata_tool": "2afd45",
+  "conclusion": "rho < 6/(83+72theta) < 9/(89+72theta); all63 slots/64 records and31-term complements retained",
+  "independent_manual_review": {
+    "bytes": 4899,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI185_ROOT_PROOF_REVIEW.md",
+    "sha256": "33eb7be2143366aaab7020246ea187ea0e14f1fb3bb6bc56c21363bc6102d3fc"
+  },
+  "ret_paused": true,
+  "schema": "ri185-root-analytic-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_ANTICHAIN_ROW_AND_STRICT_SIX_COMPLEMENT_CAP",
+  "subject": {
+    "bytes": 7860,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/HANDOFF.json",
+    "sha256": "51fde90bdc028b294e15d62a6ed515c5f9173acceab0c045ac8841bb4e7369a4"
+  }
+}

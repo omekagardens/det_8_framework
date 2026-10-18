@@ -1,0 +1,13 @@
+{
+  "actual_tool_chunk": "6197b8",
+  "erroneous_literal_selector": "[BOOTSTRAP,",
+  "exit_code": 1,
+  "new_occurrences": 5,
+  "old_occurrences": 4,
+  "reason": "The new selected-binding assertion also starts [BOOTSTRAP,. The selector wrongly counted it as a command site. The corrected finite check selects the full unchanged argv prefix [BOOTSTRAP, followed by -I and -B, so it excludes the distinct binding assertion.",
+  "report_before_failure_written": false,
+  "schema": "ri141-author-metadata-attempt-failure-v1",
+  "subject_import_compile_ast_probe_run": false,
+  "subject_source_changed_to_make_check_pass": false,
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 50, in <module>\n  File \"<stdin>\", line 7, in need\nValueError: all four unchanged command construction/validation sites\n"
+}

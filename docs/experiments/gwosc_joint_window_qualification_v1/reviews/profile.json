@@ -1,0 +1,161 @@
+{
+  "actual_decimal_and_hash_findings": {
+    "decimal": "Both modes have extension_loaded=false, genuine missing-libmpdec3 ImportError, fallback_loaded=true and decimal.Decimal is _pydecimal.Decimal. The full error strings match. The observed fallback is established by all three decisive conditions, not merely the explicit _pydecimal import.",
+    "hashlib": "Both hashlib.sha256 and direct _hashlib.new empty digests match the standard expected SHA256 in both modes. Nineteen sorted distinct algorithm names are equal across modes; these are algorithm availability, not provider identities.",
+    "scope": "No native coefficient, scientific rational campaign or empirical data was evaluated. The declared standard-library observations remain distinct from later science qualification and from complete native loader tracing."
+  },
+  "actual_profile_findings": {
+    "descriptor_limit": "Recorded __cached__ is a selection descriptor, not proof which cache bytes executed. Frozen and builtin code are separately covered by interpreter/framework supplier premises; no source-cache equivalence is inferred.",
+    "equality": "Before/after profiles equal within each mode; cross-mode profiles equal except optimize0 versus1. Both CPython3.11.6 final0, isolated1,dont_write_bytecode1,little-endian.",
+    "existing_cache_descriptors": {
+      "normal": 30,
+      "optimized": 28
+    },
+    "file_descriptors_per_mode": 49,
+    "modules_per_mode": 71,
+    "optimized_absent_cache_descriptors": [
+      "recovery venv _distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc",
+      "stdlib encodings/__pycache__/ascii.cpython-311.opt-1.pyc"
+    ],
+    "origin_checks": "Every runtime file/origin and every existing cached descriptor resolves into inventory and matches its bytes/hash. Separately pinned __main__ is the reviewed probe. Both missing optimized caches are genuinely absent and absent from inventory. Module identities/origins/loader types match between modes; nonnull cache descriptors differ only by expected opt-1 suffix.",
+    "paths": "Exactly four entries: declared absent python311.zip, captured stdlib root, its lib-dynload, and recovery venv site-packages. No script/current directory or user site in reported path. Third system-site capture remains conservative inventory, not an observed active path.",
+    "prefixes": "prefix/exec_prefix are recovery venv; base_prefix/base_exec_prefix are Homebrew opt Python3.11 framework alias; executable remains named recovery venv interpreter. Consistent with retained installed startup and symlink premises.",
+    "runtime_file_descriptors_excluding_probe": 48,
+    "site": "_distutils_hack and sitecustomize are observed; user site disabled, usercustomize absent, site.PREFIXES contains only venv. Their current source/cache file descriptors lie in exact inventory."
+  },
+  "admission_custody": {
+    "admission": {
+      "bytes": 4383,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_ADMISSION.json",
+      "sha256": "cf0d4b02abe2732124d71ad8d9e2683694417a08a2cdd906c495a687951eb4db"
+    },
+    "attempts": [
+      {
+        "bytes": 583,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL_ATTEMPT.json",
+        "sha256": "69fb0a15ae720d8550555088d37c8aae6db1941d8f9ff17b3c926697c4bf07ce"
+      },
+      {
+        "bytes": 598,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED_ATTEMPT.json",
+        "sha256": "54f7d0a712e0968dbaee128dbe52bafd36d2a5f6a54e554085f33f2b3aa0aff4"
+      }
+    ],
+    "checks": "All nine dependency pins, literal argv, exact frozen environment, attempts/admission/output/completion pins and genuine outer completion references agree. Both stderr files empty, timeout null, actual returncode0. Same recovery3.11 executable binding as candidate; -I -B and separate -I -B -O are literal admitted commands.",
+    "whole_prepost": [
+      {
+        "bytes": 9905,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PRE_PROFILE_EXTENDED_METADATA.json",
+        "sha256": "c7d9b02a4755f4a7a751a2b4687399189044446f12d3d76e77757c937cf04886"
+      },
+      {
+        "bytes": 9905,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/POST_PROFILE_METADATA.json",
+        "sha256": "c7d9b02a4755f4a7a751a2b4687399189044446f12d3d76e77757c937cf04886"
+      }
+    ],
+    "whole_prepost_result": "The complete9905-byte pre/post extended metadata records are byte-identical, covering root-observed9923 files/258862951bytes, selection metadata, eight absences, native bindings, optional namespaces, source/history/interpreter and host version. I compared and bound these actual root records; I did not rerun their9923-file capture."
+  },
+  "blocking_findings": [],
+  "finite_dyld_route_adjudication": {
+    "actual_new_evidence": "Both genuine ImportError messages additionally identify three missing paths: Cryptex overlay for literal opt name, resolved Cellar/mpdecimal4.0.1/lib/libmpdec.3.dylib, and its Cryptex overlay. The sidecar fixes these three absences and /opt/homebrew/opt/mpdecimal -> ../Cellar/mpdecimal/4.0.1. Current independent lstat/readlink observations agree.",
+    "bounded_applicability": "Adding these concrete observed route conditions to root-side pre/post custody is justified. It does not replace or weaken any fixed v2 requirement and does not assert absence of all possible host/library routes. Trusted stable-host Darwin loader/shared-cache behavior remains an explicit premise; no blanket Homebrew exemption is created.",
+    "current_checker": {
+      "bytes": 6475,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.py",
+      "sha256": "919766190e3b2ba0a300b1d23eb301c1f21000812ab7df396f4edee295c2b587"
+    },
+    "current_pre_science_metadata": {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PRE_SCIENCE_RUNTIME_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    "current_record": "PRE_SCIENCE_RUNTIME_METADATA preserves every previous post-profile field and adds only the exact654-byte sidecar reference. The new absences were learned from actual profile failure routes, so do not describe them as previously checked before those profiles.",
+    "helper_unchanged": "Accepted runtime_support v2 remains8184bytes/525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f; its in-process absence set remains eight. Optional namespace/selection and additional route enforcement are explicitly root-side checks under stable-host/run premises.",
+    "mandatory_future_gate": "Root agreed production acceptance must require pre/post observed_dyld_routes equal the exact pinned sidecar reference, never null, and must pin current checker plus sidecar in required dependencies. The checker source itself still permits an absent sidecar and emits null; therefore ordinary ALL_METADATA_CHECKS_PASS alone is insufficient for production. Root must enforce exact field equality in admission and final review.",
+    "preserved_pre_sidecar_checker": {
+      "bytes": 5857,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/check_runtime_metadata.pre-dyld.py",
+      "sha256": "f3946a002fbf9a8e32a5f4a373c7bd70887b72a4dfc68f45336ca3bb14141de7"
+    },
+    "sidecar": {
+      "bytes": 654,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ACTUAL_DYLD_ROUTE_SIDECAR.json",
+      "sha256": "985c88e41c23840d8fd3742bb849e64edc81eda8d69d1de9c683e5ada38d11e4"
+    }
+  },
+  "genuine_completions": [
+    {
+      "actual_child_exit": 0,
+      "actual_outer_exit": 0,
+      "completion": {
+        "bytes": 1527,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL_COMPLETION.json",
+        "sha256": "4a84c68e21d1105950aaa01bf81fceac906a44b736aa026eff6a7284828bc7cc"
+      },
+      "elapsed_seconds": 0.04865050000080373,
+      "mode": "normal",
+      "outer": {
+        "bytes": 355,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL_OUTER_TOOL.json",
+        "sha256": "720b130f19fac79031853a0aebbfed2fb5e0f2f81f697d395a7522f386638f8d"
+      },
+      "result": {
+        "bytes": 28239,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL.json",
+        "sha256": "68fc8a72702c8a9016ead6b8d83bf0e108dc6a795b9210068808ee637d7ee136"
+      },
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_NORMAL.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "tool_chunk": "1a3134"
+    },
+    {
+      "actual_child_exit": 0,
+      "actual_outer_exit": 0,
+      "completion": {
+        "bytes": 1546,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED_COMPLETION.json",
+        "sha256": "d998ad9ac6a5fcf7893ddb587481a288b91cf648bf73bbe2035e51f1bdcc7dd5"
+      },
+      "elapsed_seconds": 0.04778854100004537,
+      "mode": "optimized",
+      "outer": {
+        "bytes": 358,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED_OUTER_TOOL.json",
+        "sha256": "915eab1b350b5cebc3c360b94ec6e3f93dc1cf12f62d50abd38aedc86d3f47ff"
+      },
+      "result": {
+        "bytes": 28419,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED.json",
+        "sha256": "2b4702db96b577fb2a558f0667de72e1de0a38af3ee6a896e4d7c86cd68e9a65"
+      },
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/PROFILE_OPTIMIZED.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "tool_chunk": "e57bab"
+    }
+  ],
+  "independent_full_descriptor_check": {
+    "bytes": 152753,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-profile-7iz9gfzx/INDEPENDENT_PROFILE_METADATA_CHECK.json",
+    "sha256": "b40e50ce8cc73720b43c8306cc12acef35bf9974e96f40daa0234a992f85cfc6"
+  },
+  "recommendation": "Accept these exact actual two-mode profile observations and use them as a bounded runtime premise. Root may proceed to separately reviewed production runtime acceptance with the explicit exact sidecar/namespace/source custody gates, followed by separate science-mode admissions.",
+  "remaining_boundaries": [
+    "These genuine observations satisfy the exact profile/fallback/hash/readout question; they do not automatically authorize a scientific or caller invocation.",
+    "Root must combine the independent candidate closure review, preserved source/cache supplier and host premises, exact config/native bindings and mandatory finite sidecar custody into actual runtime acceptance.",
+    "Normal and optimized profile observations are not normal/optimized41-control scientific qualification and prove no production resource fit.",
+    "The module snapshot follows both hash constructors but precedes final JSON encoding; it is not a complete dynamic native-library execution trace.",
+    "Complete in-child saved scientific validation, genuine production normal custody, separate optimized admission and whole canonical result equality remain future requirements.",
+    "No historical RI108/RI114 qualification or RI110 failure is revised. RET remains paused and programme incomplete."
+  ],
+  "reviewer_activity": "Read complete normal/optimized saved reports including every71 module row each, exact admission/attempt/completion/outer records, whole post-profile metadata, sidecar and current checker. Independent opaque identities and saved-profile/origin checks only; no reexecution, candidate invocation, caller/science import, new9923-file scan, repo/git or active admission mutation.",
+  "schema": "ri121-independent-complete-saved-runtime-profile-review-v1",
+  "source_and_gates": "Complete independent source review and driver addendum previously accepted; exact2696-byte probe remained1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7 during observations.",
+  "status": "ACCEPT_ACTUAL_TWO_MODE_RUNTIME_PROFILE_OBSERVATIONS_WITH_EXPLICIT_ROOT_CUSTODY_PREMISES"
+}

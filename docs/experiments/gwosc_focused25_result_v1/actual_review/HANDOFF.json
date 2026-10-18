@@ -1,0 +1,86 @@
+{
+  "actual_tool_chain": {
+    "exit_code": 0,
+    "initial_chunk": "7538a9",
+    "origin_premise": "Parent genuine tool history binds terminal poll to session; final saved object itself has no session field.",
+    "session": 12210,
+    "terminal_chunk": "0982f4"
+  },
+  "blocking_findings": 0,
+  "closed_namespace": [
+    "HANDOFF.json",
+    "INDEPENDENT_ACTUAL_REVIEW.json",
+    "INDEPENDENT_ACTUAL_REVIEW.md",
+    "SAVED_EVIDENCE_CHECK.json",
+    "SAVED_MODULE_FIELD_CHECK.json",
+    "review_saved.py",
+    "review_saved_modules.before-frozen-descriptor-fix.py",
+    "review_saved_modules.py"
+  ],
+  "complete_review": {
+    "bytes": 13787,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/INDEPENDENT_ACTUAL_REVIEW.md",
+    "sha256": "2d999ca103dc4e7e3d02beaaa95d5dbdfb5ec5d7e824fb1116bff91803ec10e6"
+  },
+  "counts": {
+    "F01": 14,
+    "F02": 11,
+    "declared_positives": 2,
+    "expected_refusals": 23,
+    "passed": 25,
+    "total": 25
+  },
+  "decision": {
+    "bytes": 3472,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/INDEPENDENT_ACTUAL_REVIEW.json",
+    "sha256": "bf8848f94ccffb6134cfe260a05ff0bc3c610bc594f483e543b9d22ef6236f5c"
+  },
+  "files": [
+    {
+      "bytes": 3472,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/INDEPENDENT_ACTUAL_REVIEW.json",
+      "sha256": "bf8848f94ccffb6134cfe260a05ff0bc3c610bc594f483e543b9d22ef6236f5c"
+    },
+    {
+      "bytes": 13787,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/INDEPENDENT_ACTUAL_REVIEW.md",
+      "sha256": "2d999ca103dc4e7e3d02beaaa95d5dbdfb5ec5d7e824fb1116bff91803ec10e6"
+    },
+    {
+      "bytes": 305561,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/SAVED_EVIDENCE_CHECK.json",
+      "sha256": "6029fe67c529554f450c166c145fb5334d5a2571bd0313f54a6fbb25e061d5be"
+    },
+    {
+      "bytes": 47631,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/SAVED_MODULE_FIELD_CHECK.json",
+      "sha256": "2d1fd8d04e5d17bb1b7337ed68b8053bed918d35d82c9a620f5a07749f1a514c"
+    },
+    {
+      "bytes": 27027,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/review_saved.py",
+      "sha256": "6182d5ced38ade8c8471ffb3d03dd67c22863c5a24c89dc6b53cc1584d52cfda"
+    },
+    {
+      "bytes": 3441,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/review_saved_modules.before-frozen-descriptor-fix.py",
+      "sha256": "0802f93f1cf5c0278aee84f97ce752018a9a60608d36c374dc594f45de7a9a62"
+    },
+    {
+      "bytes": 4008,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y/review_saved_modules.py",
+      "sha256": "60194accdd09f8c7a67e568be7c6233762d4edeb46e6321f3f5249691d5a51b8"
+    }
+  ],
+  "next_current_preparation_prerequisite": "Reconcile unchanged RI135 BOOTSTRAP=/usr/bin/python3 real PRE/POST snapshot command route before actual capture; focused F01 snapshots are explicit doubles and do not qualify that route. Then separately admit current baseline capture, accepted normal then optimized profile, separately admitted65 guards.",
+  "next_step_admitted": false,
+  "prior_RI137_remains_rejected": true,
+  "repo_or_git_changes": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-independent-review-FQU9u14Y",
+  "ret_paused": true,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri139-independent-actual-focused25-handoff-v1",
+  "scope": "Independent saved evidence only; not source authoring, runtime observation or a new operation. Root adjudication and separate preparation-route resolution required.",
+  "subject_reexecution": false,
+  "verdict": "ACCEPT_SINGLE_FOCUSED25_OUTCOME_UNDER_RETAINED_PREMISES"
+}

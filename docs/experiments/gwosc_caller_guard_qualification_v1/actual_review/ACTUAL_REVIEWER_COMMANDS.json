@@ -1,0 +1,72 @@
+{
+  "corrected_check": {
+    "checker": {
+      "bytes": 55125,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py",
+      "sha256": "929a8b79ceed7e23a420476efdc1e6c099b4f0a9c8aa11f228d63ae8ff8498a0"
+    },
+    "command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py > /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stderr",
+    "initial": {
+      "chunk_id": "87a62f",
+      "session_id": 94627
+    },
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 2574,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_02.stdout",
+      "sha256": "3557982aeeef7b94b78066a292a02386391dfbde5ebe0b7606fd91f31aded2e4"
+    },
+    "successful_predicates": 87358,
+    "terminal": {
+      "chunk_id": "9108b3",
+      "exit_code": 0,
+      "output": ""
+    },
+    "terminal_arguments": {
+      "chars": "",
+      "max_output_tokens": 1000,
+      "session_id": 94627,
+      "yield_time_ms": 1000
+    }
+  },
+  "first_check": {
+    "checker": {
+      "bytes": 55075,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.before-worker-custody-fields-fix.py",
+      "sha256": "8ff7aaab1102ebcadf95e13036965a60f0871b1b53d391a8d124016fd57c461b"
+    },
+    "command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py > /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stderr",
+    "exit_code": 1,
+    "failure": {
+      "bytes": 9983435,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILED_CHECK_01.json",
+      "sha256": "c1feee86e5258d8a32db61e18df1db35009cc0ab3230ed07dd4f8645e252a94b"
+    },
+    "stderr": {
+      "bytes": 1092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stderr",
+      "sha256": "2c3ef6d1235e897ddf2674de575ec693462b2204c4f8ff2c2ecf6bbc242bbbae"
+    },
+    "stdout": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/CHECK_01.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tool_chunk": "306fe3"
+  },
+  "read_only_failure": {
+    "command": "rg -n source-declarations /Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/check_saved.py",
+    "command_description_only_not_verbatim": true,
+    "error": "No such file or directory (os error 2)",
+    "exit_code": 2,
+    "resolution": "Discovered actual review_saved_optimized.py with rg --files, then read it. No subject activity.",
+    "tool_chunk": "13a78d"
+  },
+  "repair": "Reviewer omitted two mandatory false scope fields from expected worker custody; actual source and saved custody correct. Original checker and full failure retained; corrected reviewer only. No altered threshold or subject retry.",
+  "schema": "ri152-reviewer-actual-check-receipts-v1",
+  "subject_replay": false
+}

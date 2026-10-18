@@ -1,0 +1,113 @@
+{
+  "actual_tree_counts_verified": {
+    "containers": 49084,
+    "leaves": 85773
+  },
+  "audit_input_freeze": {
+    "bytes": 31442,
+    "sha256": "a10dd521e72e6cecbc55a5c35720a4d6755daebc9f1d07ecd5553af220402581"
+  },
+  "audit_runs": {
+    "normal": {
+      "elapsed_seconds": 83.55092049999985,
+      "peak_sampled_rss_kib": 693392,
+      "receipt": {
+        "bytes": 1804,
+        "sha256": "c99bc30728c0a872ed50e3273a074412a97dbcbb31d363a364fc592896ff8765"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1570145,
+        "sha256": "7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0"
+      },
+      "supervisor_exit": {
+        "bytes": 16,
+        "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01"
+      }
+    },
+    "optimized": {
+      "elapsed_seconds": 83.66517662500019,
+      "peak_sampled_rss_kib": 694400,
+      "receipt": {
+        "bytes": 1820,
+        "sha256": "d02bb153175c92ed0f6235aaa491f1af719d3cc237bb313bf85508d9515cd1aa"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 1570145,
+        "sha256": "7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0"
+      },
+      "supervisor_exit": {
+        "bytes": 16,
+        "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01"
+      }
+    }
+  },
+  "blockers_found": [],
+  "claim_boundary": {
+    "certified": "Fixed eight-output operator covariance/inverse and deterministic ideal-Gaussian CDF bounds under the accepted input model and inherited interval-engine premises.",
+    "not_established": [
+      "Physical detector-noise model or calibrated confidence",
+      "Observed strain/statistic reproduction by this packet",
+      "Native geometry/gravity forward map",
+      "RET implementation progress"
+    ]
+  },
+  "coefficient_dots_recomputed_by_this_final_review": false,
+  "findings": [
+    "Both actual producer modes have identical complete scientific report and interval-snapshot bytes, previously reconciled closed-file/caller/capture/vector bindings, and all92 gates passed. All frozen sources, prior reviews, producer receipts and actual audit inputs remain unchanged.",
+    "Both independent auditor executions match the pre-frozen argv and limits, exit0 without resource stop or stderr, produce identical reports, and bind their exact adapter/core/contract and input identities.",
+    "The auditor expected-report canonical identity equals an independently computed compact encoding of the complete producer report. Its integration identity equals all17 producer integration gates. Independently counted report tree matches49084 containers and85773 leaves.",
+    "Independent and producer emitted G/H/delta/eta2/gamma/rho/inverse/identity-product/LDL/cross records agree; all8 LDL pivots are positive and the retained exact rho equals delta*gamma and satisfies the unchanged 10^-12 bound. The published float is display only.",
+    "The fixed10 probes and threshold16/rho_bar10^-12 CDF metadata remain intact. The independent auditor completed the required exact entrywise recomputation in both modes; this final receipt review does not claim another recomputation.",
+    "Root FINAL_RECONCILIATION correctly distinguishes fixed conditional synthetic unit-white/Gaussian claims from detector-noise calibration, observed-data inference and native gravity."
+  ],
+  "frozen_source_entries_rechecked": 87,
+  "independent_audit": {
+    "bytes": 1570145,
+    "sha256": "7753bb1e5e82e043d494a3ab3e8f47444e4fe7f29c2d8e765c89a238b9814ed0"
+  },
+  "interval_snapshot_parsed_by_this_final_review": false,
+  "producer_execution_freeze": {
+    "bytes": 31637,
+    "sha256": "645acc40fb7e2ea177d4420aef53d6b876385c934aec8ad9e6d28062e6ef8b6f"
+  },
+  "project_or_prior_evidence_edits": false,
+  "publication": {
+    "method": "Copy exact unchanged actual-normal.stdout bytes; retain sorted indent2 ASCII serialization and one terminal newline. No wrapper or added execution/audit fields. Preserve external receipts and their coordinator provenance.",
+    "path": "docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json",
+    "required_identity": {
+      "bytes": 11180937,
+      "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe"
+    }
+  },
+  "report": {
+    "bytes": 11180937,
+    "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe"
+  },
+  "review_scope": "Independent custody, method, emitted exact-field and claim reconciliation after completed independently authored entrywise audits. This final review does not rerun coefficient reconstruction or array algebra.",
+  "review_source": {
+    "bytes": 11706,
+    "sha256": "13127861316214f7237c7c3d36302d936eb340199f830bcff60855dd8eb49404"
+  },
+  "root_final_reconciliation": {
+    "bytes": 2098,
+    "sha256": "5263ab139542d6591af03300ded7f2d7c9fba5fd3585347b4f7b4bfb7605f232"
+  },
+  "root_reconciliation_source": {
+    "bytes": 5307,
+    "sha256": "bff9f637e105389fed838010f1d0c6d4446b1e5131ffe7f29e33df8151527702"
+  },
+  "schema": "ri73-final-independent-receipt-and-claim-review-v1",
+  "snapshot": {
+    "bytes": 51891508,
+    "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba"
+  },
+  "status": "accepted_for_exact_result_publication"
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "ri176-author-authentication-v1",
+  "assignment_and_seals": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI176_REPAIR_ASSIGNMENT.json",
+      "bytes": 3533,
+      "sha256": "7e62d36bf245d92b2f30c30342d089d548fad5c44bee8915daa0ca76973b6c08"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI171_ROOT_ADJUDICATION.json",
+      "bytes": 4168,
+      "sha256": "8117dd0bd676348efeb48583a1382068d8ba6bcf63580b68d444ad295d67e7dc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/HANDOFF.json",
+      "bytes": 3595,
+      "sha256": "7691441c118298449b0fbfb8c9bd0123d481e642e2640398420561be7d239ee5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/HANDOFF.json",
+      "bytes": 14569,
+      "sha256": "b83a4588d780d552cbf665263a599e514e8c6944d41d3237bce1bd1180b01078"
+    }
+  ],
+  "review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/INDEPENDENT_REVIEW.md",
+    "bytes": 18233,
+    "sha256": "fa9bf391530bc9c5a184517b55d21da9c7a192ebca27e09a20eb69ef44bf6af7"
+  },
+  "source_execution": false
+}

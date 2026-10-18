@@ -1,0 +1,558 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/protocol.py	2026-09-30 11:23:49
++++ /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/protocol.py	2026-09-30 12:08:49
+@@ -10,7 +10,7 @@
+ SUBJECT = BASE + '/ri169-write-would-block-repair-7_868hay/supervise_native.py'
+ SUBJECT_SHA = '566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6'
+ ROLES = ('protocol', 'driver', 'worker', 'payload', 'checker', 'manifest', 'subject')
+-SOURCE_DIRECTORY = BASE + '/ri171-supervisor-qualification-source-zksymhs1'
++SOURCE_DIRECTORY = BASE + '/ri176-supervisor-qualification-repair-3ausb2jo'
+ FIXED_FILES = {'protocol':'protocol.py', 'driver':'qualify_supervisor.py', 'worker':'case_worker.py', 'payload':'inert_payload.py', 'checker':'check_saved.py', 'manifest':'CASE_MANIFEST.json'}
+ 
+ 
+--- /Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/case_worker.py	2026-09-30 11:32:20
++++ /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/case_worker.py	2026-09-30 12:13:12
+@@ -47,6 +47,7 @@
+         self.leaf_identity = None
+         self.original = {k: getattr(target, k) for k in ('process_snapshot', 'discover', 'canonical', 'sync_base', 'new_file', 'error')}
+         self.target_stream = case.get('stream') or ('stderr' if '.stderr.' in self.fault else 'stdout')
++        self.target_input_tag = ('ps' if case['kind'] == 'observer' else 'caller') + ':' + self.target_stream
+ 
+     def event(self, name, **fields):
+         if len(self.events) >= 131072:
+@@ -70,7 +71,7 @@
+ 
+     def read(self, fd, n):
+         tag = self.input_fds.get(fd)
+-        selected = tag is not None and tag.endswith(':'+self.target_stream)
++        selected = tag == self.target_input_tag
+         if selected and '.read_would_block.' in self.fault and self.once_at('read_transient'):
+             self.io_error('read_error', tag, 'RI169_READ_TRANSIENT', True)
+         if selected and (self.fault.endswith('.read') or self.fault.endswith('.unregister_close')) and self.once_at('read_fault'):
+@@ -136,6 +137,7 @@
+             raise self.T.HardStop('RI171_HARD_FINALIZATION')
+         if tag == self.target_stream and self.fault in ('late_replacement', 'late_descriptor', 'late_drift', 'late_size') and self.once_at('late_mutation'):
+             path = self.T.PREFIX + ('.processes.jsonl' if tag == 'processes' else '.'+tag)
++            before_raw, before_pin, _ = self.P.capture(path, 67108864)
+             if self.fault == 'late_replacement':
+                 os.rename(path, path+'.original')
+                 self.P.put(path, b'RI171 replacement\n')
+@@ -151,14 +153,21 @@
+                 os.write(fd, b'Q')
+             else:
+                 os.pwrite(fd, b'Q', 0)
+-            self.event('file_mutation', tag=tag, fault=self.fault)
+-        return os.fsync(fd)
++            after_raw, after_pin, _ = self.P.capture(path, 67108864)
++            self.event('file_mutation', tag=tag, fault=self.fault, before=before_pin, after=after_pin,
++                       before_first_byte=before_raw[0] if before_raw else None)
++        result = os.fsync(fd)
++        if tag:
++            self.event('fsync_complete', tag=tag)
++        return result
+ 
+     def close(self, fd):
+         tag = self.output_fds.pop(fd, None)
+         if tag:
+             self.event('close_attempt', tag=tag)
+         result = os.close(fd)
++        if tag:
++            self.event('close_complete', tag=tag)
+         if tag == self.target_stream and self.fault == 'late_close' and self.once_at('late_close'):
+             self.io_error('close_error', tag, 'RI171_LATE_CLOSE_AFTER_REAL_CLOSE')
+         return result
+@@ -184,6 +193,7 @@
+         finally:
+             os.close(fd)
+         self.event('fixture_directory_sync', path=self.D)
++        self.event('sync_base_complete', ordinal=n)
+         if n == 2 and self.fault == 'receipt_post_receipt':
+             raise OSError('RI171_POST_RECEIPT')
+         return result
+@@ -230,8 +240,9 @@
+         self.event('popen_attempt', kind=kind, subject_argv=argv, actual_argv=actual,
+                    parent_timer=list(signal.getitimer(signal.ITIMER_REAL)))
+         p = subprocess.Popen(actual, **kwargs)
+-        self.handles.append((kind, p))
+-        self.event('popen_acquired', kind=kind, pid=p.pid)
++        handle_id = len(self.handles) + 1
++        self.handles.append((handle_id, kind, p))
++        self.event('popen_acquired', handle_id=handle_id, kind=kind, pid=p.pid)
+         wrapped = Process(self, kind, p)
+         if kind == 'caller':
+             self.wait_ready(os.path.join(self.D, 'READY.json'), p, 2)
+@@ -301,17 +312,17 @@
+         result = []
+         # Direct owned handles and the separately observed leaf only. This phase grants
+         # no subject cleanup credit and creates no new ordinary315-second wait budget.
+-        for kind, p in self.handles:
++        for handle_id, kind, p in self.handles:
+             try:
+                 if p.poll() is None:
+                     p.kill()
+                 end = self.deadline
+                 while p.poll() is None and time.monotonic_ns() < end:
+                     time.sleep(0.002)
+-                result.append({'kind': kind, 'pid': p.pid, 'returncode': p.returncode,
++                result.append({'handle_id': handle_id, 'kind': kind, 'pid': p.pid, 'returncode': p.returncode,
+                                'reaped': p.returncode is not None})
+             except BaseException as exc:
+-                result.append({'kind': kind, 'pid': p.pid, 'error': type(exc).__name__+': '+str(exc)})
++                result.append({'handle_id': handle_id, 'kind': kind, 'pid': p.pid, 'error': type(exc).__name__+': '+str(exc)})
+         if self.fault in ('observed_descendant', 'fast_reparent') and self.leaf_identity is None:
+             result.append({'kind':'leaf', 'identity_unavailable':True, 'requires_external_recovery_review':True})
+         if self.leaf_identity:
+@@ -321,6 +332,7 @@
+                 if not same:
+                     raise RuntimeError('fixture leaf identity changed; refuse signal')
+                 os.killpg(now['pgid'], signal.SIGKILL)
++                self.event('leaf_recovery_signal', identity=now, signal=int(signal.SIGKILL))
+                 result.append({'kind': 'leaf', 'identity': now, 'kill_sent': True,
+                                'absence_proven': False, 'requires_external_recovery_review': True})
+             except BaseException as exc:
+@@ -337,7 +349,7 @@
+         return self.raw.fileno()
+     def close(self):
+         self.i.event('pipe_close_attempt', tag=self.tag)
+-        if self.i.fault.endswith('.unregister_close') and self.tag.endswith(':'+self.i.target_stream) and self.i.once_at('pipe_close_fault'):
++        if self.i.fault.endswith('.unregister_close') and self.tag == self.i.target_input_tag and self.i.once_at('pipe_close_fault'):
+             self.i.io_error('pipe_close_error', self.tag, 'RI171_PIPE_CLOSE')
+         fd = self.raw.fileno()
+         value = self.raw.close()
+@@ -381,12 +393,12 @@
+     def register(self, pipe, events, data):
+         result = self.raw.register(pipe, events, data)
+         self.i.event('register_installed', tag=pipe.tag)
+-        if self.i.fault.endswith('.registration') and pipe.tag.endswith(':'+self.i.target_stream) and self.i.once_at('register_fault'):
++        if self.i.fault.endswith('.registration') and pipe.tag == self.i.target_input_tag and self.i.once_at('register_fault'):
+             self.i.io_error('register_error', pipe.tag, 'RI167_F01_REGISTER')
+         return result
+     def unregister(self, pipe):
+         self.i.event('unregister_attempt', tag=pipe.tag)
+-        if self.i.fault.endswith('.unregister_close') and pipe.tag.endswith(':'+self.i.target_stream) and self.i.once_at('unregister_fault'):
++        if self.i.fault.endswith('.unregister_close') and pipe.tag == self.i.target_input_tag and self.i.once_at('unregister_fault'):
+             self.i.io_error('unregister_error', pipe.tag, 'RI171_UNREGISTER')
+         return self.raw.unregister(pipe)
+     def select(self, timeout):
+@@ -445,7 +457,9 @@
+     try:
+         if case['kind'] == 'observer':
+             # Call the real exported function; no whole-supervisor credit.
+-            report['return'] = inst.original['process_snapshot'](time.monotonic_ns()+400000000, report['journal'].append)
++            observer_deadline = time.monotonic_ns()+400000000
++            inst.event('observer_entry', deadline_monotonic_ns=observer_deadline)
++            report['return'] = inst.original['process_snapshot'](observer_deadline, report['journal'].append)
+         elif case['kind'] == 'direct':
+             report['return'] = direct(inst)
+         else:
+--- /Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/inert_payload.py	2026-09-30 11:16:13
++++ /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/inert_payload.py	2026-09-30 12:08:49
+@@ -8,6 +8,7 @@
+ 
+ PATTERN = b'R' * 64  # literal synthetic payload; independently reconstructed by saved oracle
+ CAP = 8 * 1024 * 1024
++LATE_FILES = ('late_fsync', 'late_close', 'late_replacement', 'late_descriptor', 'late_drift', 'late_size')
+ 
+ 
+ def save(path, value):
+@@ -116,13 +117,13 @@
+     else:
+         both = fault.startswith(('S04.', 'S05.fallback.', 'S05.caller.', 'S10.caller.', 'S10.journal.', 'S13.'))
+         emit(1, 64)
+-        if both or fault == 'stderr':
++        if both or fault == 'stderr' or fault in LATE_FILES:
+             emit(2, 64)
+         save(os.path.join(directory, 'READY.json'), {'ready': True})
+     if fault.endswith('already_exited'):
+         return 0
+     time.sleep(1)
+-    return 7 if fault == 'nonzero' or fault.startswith('late_') else 0
++    return 7 if fault == 'nonzero' or fault in LATE_FILES else 0
+ 
+ 
+ if __name__ == '__main__':
+--- /Volumes/AI_DATA/development/det-review-evidence/ri171-supervisor-qualification-source-zksymhs1/check_saved.py	2026-09-30 11:37:38
++++ /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py	2026-09-30 12:20:07
+@@ -7,7 +7,103 @@
+ import sys
+ import types
+ 
++LATE_FILES = ("late_fsync","late_close","late_replacement","late_descriptor","late_drift","late_size",)
++CASE_OBLIGATIONS = {
++    "S01.healthy": {"kind":"whole","fault":"none","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"},
++    "S02.timer": {"kind":"whole","fault":"timer","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"},
++    "S03.nonzero": {"kind":"whole","fault":"nonzero","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"},
++    "S03.stderr": {"kind":"whole","fault":"stderr","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.exact": {"kind":"whole","fault":"cap_stdout_exact","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":8388608,"stderr":0},"subject_reap":"reaped"},
++    "S04.stdout.excess": {"kind":"whole","fault":"cap_stdout_excess","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":0},"subject_reap":"reaped"},
++    "S04.stderr.exact": {"kind":"whole","fault":"cap_stderr_exact","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":0,"stderr":8388608},"subject_reap":"reaped"},
++    "S04.stderr.excess": {"kind":"whole","fault":"cap_stderr_excess","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":0},"subject_reap":"reaped"},
++    "S04.dual.excess": {"kind":"whole","fault":"cap_dual_excess","terminal":"ordinary","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S05.observer.real": {"kind":"observer","fault":"ps_real","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.duplicate": {"kind":"observer","fault":"ps_duplicate","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.malformed": {"kind":"observer","fault":"ps_malformed","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.nonascii": {"kind":"observer","fault":"ps_nonascii","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.empty": {"kind":"observer","fault":"ps_empty","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.nonzero": {"kind":"observer","fault":"ps_nonzero","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.stderr": {"kind":"observer","fault":"ps_stderr","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.overflow": {"kind":"observer","fault":"ps_overflow","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.observer.timeout": {"kind":"observer","fault":"ps_timeout","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S06.observed_descendant": {"kind":"whole","fault":"observed_descendant","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":0,"stderr":0},"subject_reap":"reaped"},
++    "S07.fast_reparent": {"kind":"whole","fault":"fast_reparent","terminal":"missing_identity_choice","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S08.birth": {"kind":"direct","fault":"identity_birth","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S08.pgid": {"kind":"direct","fault":"identity_pgid","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S08.unverified_member": {"kind":"direct","fault":"identity_unverified_member","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S08.safe_second": {"kind":"direct","fault":"identity_safe_second","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S09.real_cutoffs": {"kind":"whole","fault":"real_cutoffs","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":0,"stderr":0},"subject_reap":"reaped"},
++    "S09.real_expiry": {"kind":"whole","fault":"real_expiry","terminal":"hard_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"not_required"},
++    "S10.stdout.fsync": {"kind":"whole","fault":"late_fsync","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stdout.close": {"kind":"whole","fault":"late_close","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stdout.replacement": {"kind":"whole","fault":"late_replacement","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stdout.drift": {"kind":"whole","fault":"late_drift","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stderr.fsync": {"kind":"whole","fault":"late_fsync","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.stderr.close": {"kind":"whole","fault":"late_close","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.stderr.replacement": {"kind":"whole","fault":"late_replacement","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.stderr.drift": {"kind":"whole","fault":"late_drift","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.processes.fsync": {"kind":"whole","fault":"late_fsync","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.processes.close": {"kind":"whole","fault":"late_close","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.processes.replacement": {"kind":"whole","fault":"late_replacement","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.processes.drift": {"kind":"whole","fault":"late_drift","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S11.preexists": {"kind":"whole","fault":"receipt_preexists","terminal":"receipt_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"not_required"},
++    "S11.partial": {"kind":"whole","fault":"receipt_partial","terminal":"receipt_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S11.fsync": {"kind":"whole","fault":"receipt_fsync","terminal":"receipt_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S11.base_sync": {"kind":"whole","fault":"receipt_base_sync","terminal":"receipt_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S11.post_receipt": {"kind":"whole","fault":"receipt_post_receipt","terminal":"receipt_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"reaped"},
++    "S12.ownership": {"kind":"whole","fault":"hard_ownership","terminal":"hard_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"not_required"},
++    "S12.drain": {"kind":"whole","fault":"hard_drain","terminal":"hard_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"not_required"},
++    "S12.finalization": {"kind":"whole","fault":"hard_finalization","terminal":"hard_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"not_required"},
++    "S13.journal_cap": {"kind":"whole","fault":"journal_cap","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"},
++    "S13.descendant_cap": {"kind":"direct","fault":"descendant_cap","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S13.ps_max": {"kind":"observer","fault":"ps_max","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S13.late_observer": {"kind":"whole","fault":"late_observer","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":0},"subject_reap":"reaped"},
++    "S08.signal_birth": {"kind":"direct","fault":"identity_signal_birth","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S08.signal_pgid": {"kind":"direct","fault":"identity_signal_pgid","terminal":"direct","input_tag":"caller:stdout","healthy":{},"subject_reap":"none"},
++    "S10.stdout.descriptor": {"kind":"whole","fault":"late_descriptor","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stdout.size": {"kind":"whole","fault":"late_size","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.stderr.descriptor": {"kind":"whole","fault":"late_descriptor","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.stderr.size": {"kind":"whole","fault":"late_size","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.processes.descriptor": {"kind":"whole","fault":"late_descriptor","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.processes.size": {"kind":"whole","fault":"late_size","terminal":"ordinary","input_tag":"caller:processes","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.read": {"kind":"whole","fault":"S04.stdout.read","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.write": {"kind":"whole","fault":"S04.stdout.write","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.partial_write": {"kind":"whole","fault":"S04.stdout.partial_write","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.short_write": {"kind":"whole","fault":"S04.stdout.short_write","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S04.stderr.read": {"kind":"whole","fault":"S04.stderr.read","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S04.stderr.write": {"kind":"whole","fault":"S04.stderr.write","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S04.stderr.partial_write": {"kind":"whole","fault":"S04.stderr.partial_write","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S04.stderr.short_write": {"kind":"whole","fault":"S04.stderr.short_write","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S05.caller.stdout.registration": {"kind":"whole","fault":"S05.caller.stdout.registration","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S05.caller.stderr.registration": {"kind":"whole","fault":"S05.caller.stderr.registration","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S05.ps.stdout.registration": {"kind":"observer","fault":"S05.ps.stdout.registration","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.ps.stderr.registration": {"kind":"observer","fault":"S05.ps.stderr.registration","terminal":"observer","input_tag":"ps:stderr","healthy":{},"subject_reap":"none"},
++    "S05.ps.stdout.read": {"kind":"observer","fault":"S05.ps.stdout.read","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S05.ps.stderr.read": {"kind":"observer","fault":"S05.ps.stderr.read","terminal":"observer","input_tag":"ps:stderr","healthy":{},"subject_reap":"none"},
++    "S05.fallback.alive": {"kind":"whole","fault":"S05.fallback.alive","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S05.fallback.already_exited": {"kind":"whole","fault":"S05.fallback.already_exited","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.caller.stdout.unregister_close": {"kind":"whole","fault":"S10.caller.stdout.unregister_close","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S10.caller.stderr.unregister_close": {"kind":"whole","fault":"S10.caller.stderr.unregister_close","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S10.ps.stdout.unregister_close": {"kind":"observer","fault":"S10.ps.stdout.unregister_close","terminal":"observer","input_tag":"ps:stdout","healthy":{},"subject_reap":"none"},
++    "S10.ps.stderr.unregister_close": {"kind":"observer","fault":"S10.ps.stderr.unregister_close","terminal":"observer","input_tag":"ps:stderr","healthy":{},"subject_reap":"none"},
++    "S10.journal.alive": {"kind":"whole","fault":"S10.journal.alive","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S10.journal.already_exited": {"kind":"whole","fault":"S10.journal.already_exited","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S13.observer.kill_failure": {"kind":"whole","fault":"S13.observer.kill_failure","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S13.observer.nonreap": {"kind":"whole","fault":"S13.observer.nonreap","terminal":"deadline_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"incomplete"},
++    "S13.journal.kill_failure": {"kind":"whole","fault":"S13.journal.kill_failure","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S13.journal.nonreap": {"kind":"whole","fault":"S13.journal.nonreap","terminal":"deadline_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"incomplete"},
++    "S13.poll_unavailable": {"kind":"whole","fault":"S13.poll_unavailable","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"incomplete"},
++    "S13.deadline_exhausted": {"kind":"whole","fault":"S13.deadline_exhausted","terminal":"deadline_escape","input_tag":"caller:stdout","healthy":{},"subject_reap":"incomplete"},
++    "S04.stdout.write_would_block.zero_progress": {"kind":"whole","fault":"S04.stdout.write_would_block.zero_progress","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.write_would_block.after_prefix": {"kind":"whole","fault":"S04.stdout.write_would_block.after_prefix","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stderr":64},"subject_reap":"reaped"},
++    "S04.stdout.read_would_block.transient": {"kind":"whole","fault":"S04.stdout.read_would_block.transient","terminal":"ordinary","input_tag":"caller:stdout","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++    "S04.stderr.write_would_block.zero_progress": {"kind":"whole","fault":"S04.stderr.write_would_block.zero_progress","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S04.stderr.write_would_block.after_prefix": {"kind":"whole","fault":"S04.stderr.write_would_block.after_prefix","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64},"subject_reap":"reaped"},
++    "S04.stderr.read_would_block.transient": {"kind":"whole","fault":"S04.stderr.read_would_block.transient","terminal":"ordinary","input_tag":"caller:stderr","healthy":{"stdout":64,"stderr":64},"subject_reap":"reaped"},
++}
+ 
++
+ def bootstrap(path, digest):
+     with open(path, 'rb') as f:
+         raw = f.read(262145)
+@@ -61,13 +157,15 @@
+         'direct_kill_error':{'tag','type','message'}, 'unregister_error':{'tag','type','message'},
+         'pipe_close_error':{'tag','type','message'}, 'poll_error':{'tag','type','message'},
+         'register_error':{'tag','type','message'}, 'read':{'tag','bytes','sha256'},
+-        'hard_injection':{'phase'}, 'fsync_attempt':{'tag'}, 'file_mutation':{'tag','fault'},
++        'hard_injection':{'phase'}, 'fsync_attempt':{'tag'}, 'fsync_complete':{'tag'},
++        'file_mutation':{'tag','fault','before','after','before_first_byte'}, 'close_complete':{'tag'},
++        'sync_base_complete':{'ordinal'}, 'leaf_recovery_signal':{'identity','signal'}, 'observer_entry':{'deadline_monotonic_ns'},
+         'close_attempt':{'tag'}, 'file_acquired':{'tag','path','fd'}, 'sync_base_attempt':{'ordinal'},
+         'fixture_directory_sync':{'path'}, 'source_error':{'stage','type','message'}, 'receipt_candidate':{'value'},
+         'canonical_double':{'bytes','value'}, 'journal_candidate':{'value'}, 'ready_barrier':{'path'},
+         'recovery_identity_observation':{'pid','returncode','stdout_hex','stderr_hex'},
+         'popen_attempt':{'kind','subject_argv','actual_argv','parent_timer'},
+-        'popen_acquired':{'kind','pid'}, 'inert_pre_observer_exit':{'pid','returncode'},
++        'popen_acquired':{'handle_id','kind','pid'}, 'inert_pre_observer_exit':{'pid','returncode'},
+         'observer_double':{'ordinal','message'}, 'clock_double':{'nanoseconds','genuine_timing_credit'},
+         'stale_table_double':{'ordinal'}, 'discover':{'caller','live','known'},
+         'signal_group':{'pgid','signal'}, 'pipe_close_attempt':{'tag'}, 'pipe_closed':{'tag'},
+@@ -82,6 +180,19 @@
+     check('finite event schema/order', type(trace) is list and len(trace) <= 131072 and all(type(x) is dict and type(x.get('event')) is str and type(x.get('monotonic_ns')) is int for x in trace) and all(trace[i]['monotonic_ns'] <= trace[i+1]['monotonic_ns'] for i in range(len(trace)-1)))
+     f, stream = case['fault'], case.get('stream') or ('stderr' if '.stderr.' in case['fault'] else 'stdout')
+     events = lambda name: [e for e in trace if e['event'] == name]
++    obligation = CASE_OBLIGATIONS[case['id']]
++    check('finite exact case obligation', obligation['kind'] == case['kind'] and obligation['fault'] == f)
++    input_tag = obligation['input_tag']
++    def indices(event, tag=None):
++        return [i for i,e in enumerate(trace) if e['event']==event and (tag is None or e.get('tag')==tag)]
++    def exact_input_injection(event, message, kind='OSError'):
++        found = [i for i,e in enumerate(trace) if e['event']==event and e.get('message')==message]
++        check('exact role stream injection '+message, len(found)==1 and trace[found[0]]['tag']==input_tag and trace[found[0]]['type']==kind)
++        at=found[0]
++        check('same pipe registered before injection '+message, any(i<at for i in indices('register_installed',input_tag)))
++        if event=='read_error':
++            check('first read on same pipe is injected '+message,not any(i<at for i in indices('read',input_tag)))
++        return at
+     duration = (report['entry_end_monotonic_ns'] - report['entry_start_monotonic_ns'])/1000000000
+     check('elapsed positive', duration >= 0)
+     check('original limits in collection', collection['subject_deadline_seconds'] == 315 and collection['controller_collection_timeout_seconds'] == 335 and collection['new_subject_cleanup_budget'] is False)
+@@ -123,6 +234,41 @@
+             check('negative whole result',receipt['status']=='FAILED' and bool(receipt['errors']))
+     if case['kind']=='whole' and case['expect'] in ('captured','failed'):
+         check('whole receipt required',receipt is not None)
++    # Finite terminal policy: no generic candidate-only failed completion.
++    if case['kind']=='whole':
++        ordinary = obligation['terminal']=='ordinary' or (obligation['terminal']=='missing_identity_choice' and receipt is not None)
++        if ordinary:
++            wanted_return=0 if case['expect']=='captured' else 2
++            check('ordinary exact return and no escape',type(report['return']) is int and report['return']==wanted_return and report['exception'] is None)
++            check('ordinary complete durable receipt bytes',receipt is not None and outputs.get('completion.json')==P.canonical(receipt))
++            made=[i for i,e in enumerate(trace) if e['event']=='file_acquired' and e['tag']=='completion']
++            synced=indices('fsync_complete','completion'); closed=indices('close_complete','completion')
++            done=[i for i,e in enumerate(trace) if e['event']=='sync_base_complete' and e['ordinal']==2]
++            starts=indices('receipt_candidate')
++            writes=[(i,e) for i,e in enumerate(trace) if e['event']=='write' and e['tag']=='completion']
++            check('ordinary receipt ordered complete durability',len(starts)==len(made)==len(synced)==len(closed)==len(done)==1 and starts[0]<made[0]<synced[0]<closed[0]<done[0] and bool(writes) and all(made[0]<i<synced[0] and type(e['written']) is int and 0<e['written']<=e['requested'] for i,e in writes) and sum(e['written'] for i,e in writes)==len(outputs['completion.json']))
++            check('ordinary receipt no hidden write or durability fault',not any(e['event'] in ('write_error','fsync_error','close_error') and e.get('tag')=='completion' for e in trace))
++        elif obligation['terminal']=='deadline_escape':
++            check('declared deadline escape only',report['return'] is None and report['exception']=={'type':'Refusal','message':'completion durability exceeded315s'} and receipt is not None and outputs.get('completion.json')==P.canonical(receipt))
++            check('declared branch clock not actual duration',bool(events('clock_double') or events('poll_double')) and receipt['caller_reaped'] is False and receipt['observed_cleanup'] is False and any(e['stage']=='final_deadline' for e in receipt['errors']))
++        else:
++            check('declared whole escape has no return',report['return'] is None)
++            if obligation['terminal']=='hard_escape' or (obligation['terminal']=='missing_identity_choice' and receipt is None):
++                check('hard escape has no invented receipt',receipt is None and 'completion.json' not in outputs)
++        if obligation['subject_reap']=='incomplete' and receipt is not None:
++            check('declared incomplete subject has no invented reap or code',receipt['caller_reaped'] is False and receipt['caller_returncode'] is None and receipt['observed_cleanup'] is False)
++        if obligation['subject_reap']=='reaped' and receipt is not None:
++            check('required subject caller reap',receipt['caller_reaped'] is True and type(receipt['caller_returncode']) is int)
++        if ordinary:
++            for name,count in obligation['healthy'].items():
++                saved=receipt['streams'][name]
++                check('complete healthy capture '+name,outputs.get(name)==b'R'*count and saved['eof'] is True and saved['durable_close'] is True and saved['readback'] is not None and saved['overflow_byte'] is None)
++                check('healthy capture successful durability '+name,bool(indices('fsync_complete',name)) and bool(indices('close_complete',name)))
++            for name,saved in receipt['streams'].items():
++                expected_bad_durability=f in ('late_fsync','late_close') and name==stream
++                check('all comparable capture durability '+name,saved['durable_close'] is (not expected_bad_durability) and saved['readback'] is not None)
++            check('all comparable final file closes',all(indices('close_complete',name) for name in ('stdout','stderr','processes')))
++
+     first = receipt['errors'][0] if receipt is not None and receipt['errors'] else None
+     if first is None and events('source_error'):
+         first = {k: events('source_error')[0][k] for k in ('stage','type','message')}
+@@ -211,19 +357,23 @@
+                 check('partial readback remains secondary',any(e['stage']=='readback:'+stream for e in receipt['errors'][1:]))
+         elif f.endswith('.read') or f.endswith('.unregister_close'):
+             primary('pump:'+stream,'OSError','RI167_F01_READ')
+-            check('read injection reached',any(e.get('tag')=='caller:'+stream for e in events('read_error')))
++            exact_input_injection('read_error','RI167_F01_READ')
+         elif f.endswith('.write') or f.endswith('.partial_write'):
+             primary('pump:'+stream,'OSError','RI167_F01_PARTIAL_WRITE' if f.endswith('.partial_write') else 'RI167_F01_WRITE')
+             check('retained original write prefix',outputs[stream]==b'R'*(17 if f.endswith('.partial_write') else 0))
+         elif f.endswith('.registration'):
+             primary('register:'+stream,'OSError','RI167_F01_REGISTER')
+-            check('real registration installed first',any(e.get('tag')=='caller:'+stream for e in events('register_installed')))
++            exact_input_injection('register_error','RI167_F01_REGISTER')
+         elif f.endswith('.short_write') or '.read_would_block.' in f:
+             primary('supervision','Refusal','caller outer stderr nonempty')
+             check('positive pump exact bytes',outputs['stdout']==outputs['stderr']==b'R'*64 and receipt['streams']['stdout']['eof'] is True and receipt['streams']['stderr']['eof'] is True)
+             if '.read_would_block.' in f:
+-                check('exactly one transient read',len([e for e in events('read_error') if e.get('message')=='RI169_READ_TRANSIENT'])==1)
+-                check('intact postrace read',any(e.get('tag')=='caller:'+stream and e.get('bytes')==64 for e in events('read')))
++                at=exact_input_injection('read_error','RI169_READ_TRANSIENT','BlockingIOError')
++                later=[i for i in indices('read',input_tag) if i>at and trace[i]['bytes']==64 and trace[i]['sha256']==hashlib.sha256(b'R'*64).hexdigest()]
++                check('same pipe successful read after transient',len(later)==1)
++                through=later[0]
++                check('same pipe remains active through retry',not any(e['event'] in ('unregister_attempt','pipe_close_attempt','pipe_closed','register_installed') and e.get('tag')==input_tag for e in trace[at+1:through]))
++                check('same pipe EOF follows retry',any(i>through and trace[i]['bytes']==0 for i in indices('read',input_tag)))
+             else:
+                 check('actual short writes reached',any(e.get('tag')==stream and 0<e['written']<e['requested'] for e in events('write')))
+         elif f.startswith(('S05.fallback.','S13.observer.')) or f in ('S13.poll_unavailable','S13.deadline_exhausted'):
+@@ -231,7 +381,7 @@
+         elif f.startswith(('S10.journal.','S13.journal.')):
+             primary('supervision','Refusal','ps journal: OSError: RI171_JOURNAL_WRITE')
+             check('real partial journal write',len(outputs['processes.jsonl'])==17 and any(e.get('tag')=='processes' for e in events('write_error')))
+-        elif f=='nonzero' or f.startswith('late_'):
++        elif f=='nonzero' or f in LATE_FILES:
+             primary('supervision','Refusal','caller/outer failed')
+             check('actual nonzero reap',receipt['caller_returncode']==7 and receipt['caller_reaped'] is True)
+         elif f=='stderr':
+@@ -257,7 +407,10 @@
+                 check('ordinary missing identity rejection retained',receipt['status']=='FAILED' and report['return']==2 and report['exception'] is None)
+         elif f=='late_observer':
+             primary('supervision','Refusal','RI171_OBSERVER_FAILURE')
+-            check('first real observer precedes late fault',bool(events('discover')) and events('observer_double')[0]['ordinal']==2)
++            doubles=indices('observer_double')
++            check('dedicated second observer fault',bool(doubles) and [trace[i]['ordinal'] for i in doubles]==list(range(2,len(doubles)+2)) and all(trace[i]['message']=='RI171_OBSERVER_FAILURE' for i in doubles))
++            check('successful first real observer precedes late fault',len([e for e in trace[:doubles[0]] if e['event']=='popen_acquired' and e['kind']=='ps'])==1 and any(e['event']=='discover' for e in trace[:doubles[0]]) and monitor_review['raw_records']==1)
++            check('late observer retains caller buffers and reap',outputs['stdout']==b'R'*64 and outputs['stderr']==b'' and receipt['caller_reaped'] is True and receipt['observed_cleanup'] is False)
+         elif f=='journal_cap':
+             primary('supervision','Refusal','ps journal: Refusal: process journal cap')
+             check('exact unlowered cap operand',events('canonical_double')[0]['bytes']==67108865)
+@@ -291,9 +444,25 @@
+             parent=[x for x in events('popen_attempt') if x['kind']=='caller'][0]
+             check('actual separate timers',payload['timer']==[0.0,0.0] and parent['parent_timer'][0]>0 and parent['parent_timer'][1]==0)
+             check('inert bootstrap flags',payload['executable']==P.VENDOR and payload['environment']==P.ENV and payload['flags']=={'isolated':1,'no_site':1,'dont_write_bytecode':1,'optimize':0})
++        if f.endswith('.write') or f.endswith('.partial_write') or '.write_would_block.' in f:
++            msg=('RI169_WRITE_AFTER_PREFIX' if f.endswith('after_prefix') else 'RI169_WRITE_ZERO_PROGRESS') if '.write_would_block.' in f else ('RI167_F01_PARTIAL_WRITE' if f.endswith('.partial_write') else 'RI167_F01_WRITE')
++            kind='BlockingIOError' if '.write_would_block.' in f else 'OSError'
++            faults=[i for i,e in enumerate(trace) if e['event']=='write_error' and e['message']==msg]
++            check('exact output stream fault',len(faults)==1 and trace[faults[0]]['tag']==stream and trace[faults[0]]['type']==kind)
++            at=faults[0];reads=[i for i in indices('read',input_tag) if trace[i]['bytes']==64 and trace[i]['sha256']==hashlib.sha256(b'R'*64).hexdigest()]
++            check('consumed same caller pipe before write fault',len(reads)==1 and reads[0]<at)
++            prefix=17 if f.endswith('.partial_write') or f.endswith('after_prefix') else 0
++            writes=[e for e in trace[:at] if e['event']=='write' and e['tag']==stream]
++            check('exact actually written prefix before failure',sum(e['written'] for e in writes)==prefix and (not prefix or len(writes)==1 and writes[0]['written']==17 and writes[0].get('injection')=='real-prefix'))
++        if f.endswith('.registration'):
++            at=exact_input_injection('register_error','RI167_F01_REGISTER')
++            stops=indices('unregister_attempt',input_tag);closes=indices('pipe_closed',input_tag)
++            check('caller partial registration cleanup reached',any(i>at for i in stops) and len(closes)==1 and any(at<i<closes[0] for i in stops))
+         if f.endswith('.unregister_close'):
+             tags='caller:'+stream
+-            check('all failing cleanups and retry',len([e for e in events('unregister_error') if e['tag']==tags])==1 and len([e for e in events('pipe_close_error') if e['tag']==tags])==1 and any(e['tag']==tags for e in events('pipe_closed')))
++            read=exact_input_injection('read_error','RI167_F01_READ')
++            u=exact_input_injection('unregister_error','RI171_UNREGISTER');c=exact_input_injection('pipe_close_error','RI171_PIPE_CLOSE')
++            check('all failing cleanups same pipe order and retry',read<u<c and any(i>c for i in indices('pipe_closed',tags)))
+         if f.startswith(('S04.','S05.caller.','S10.caller.')) and not f.endswith('.short_write') and '.read_would_block.' not in f:
+             other='stdout' if stream=='stderr' else 'stderr'
+             check('healthy sibling retained',outputs[other]==b'R'*64 and receipt['streams'][other]['eof'] is True)
+@@ -302,13 +471,29 @@
+                 check('failed unread stream has no invented bytes',outputs[stream]==b'')
+             failure_indices=[i for i,e in enumerate(trace) if e['event'] in ('write_error','read_error','register_error') and e.get('tag') in (stream,'caller:'+stream)]
+             check('failed pump not read after refusal',bool(failure_indices) and not any(e['event']=='read' and e.get('tag')=='caller:'+stream for e in trace[failure_indices[0]+1:]))
+-        if f.startswith('late_'):
++        if f in LATE_FILES:
+             expected='readback' if f in ('late_drift','late_size','late_descriptor','late_replacement') else f.split('_')[1]
+             check('late intended predicate reached',any(e['stage']==expected+':'+stream for e in receipt['errors'][1:]))
+             check('all comparable final file checks',all(any(e.get('tag')==name for e in events('close_attempt')) for name in ('stdout','stderr','processes')))
++            if f in ('late_drift','late_size'):
++                mutations=events('file_mutation')
++                check('one intended mutation',len(mutations)==1 and mutations[0]['tag']==stream and mutations[0]['fault']==f)
++                m=mutations[0];data=outputs['processes.jsonl' if stream=='processes' else stream]
++                expected_path=receipt['streams'][stream]['path']
++                check('closed mutation before after pins',all(set(m[k])=={'path','bytes','sha256'} and m[k]['path']==expected_path for k in ('before','after')))
++                first_byte=123 if stream=='processes' else 82
++                check('nonempty intended mutation operand',m['before_first_byte']==first_byte and type(m['before']['bytes']) is int and m['before']['bytes']>0)
++                original=(bytes([first_byte])+data[1:]) if f=='late_drift' else data[:-1]
++                check('mutation original length and hash',len(original)==m['before']['bytes'] and hashlib.sha256(original).hexdigest()==m['before']['sha256'])
++                check('mutation saved length and hash',len(data)==m['after']['bytes'] and hashlib.sha256(data).hexdigest()==m['after']['sha256'])
++                check('isolated same-size hash drift' if f=='late_drift' else 'isolated appended-byte size drift',data==(b'Q'+original[1:] if f=='late_drift' else original+b'Q') and len(data)==len(original)+(0 if f=='late_drift' else 1) and m['before']['sha256']!=m['after']['sha256'])
++                if stream in ('stdout','stderr'):
++                    check('fixed complete late stream preimage',original==b'R'*64)
+         if f.startswith(('S05.fallback.','S13.observer.','S10.journal.','S13.journal.')) or f in ('S13.poll_unavailable','S13.deadline_exhausted'):
+             if f.endswith('already_exited'):
+                 check('real exited reap retained',receipt['caller_reaped'] is True and receipt['caller_returncode']==0)
++                exited=events('inert_pre_observer_exit')
++                check('already reaped handle is never killed',len(exited)==1 and exited[0]['pid']==receipt['caller_pid'] and exited[0]['returncode']==0 and not [e for e in events('direct_kill_attempt') if e['kind']=='caller'])
+             elif f.endswith('nonreap') or f=='S13.deadline_exhausted':
+                 check('declared branch clock no fabricated reap',receipt['caller_reaped'] is False and any(e['stage']=='direct_handle_reap' for e in receipt['errors']) and bool(events('poll_double') or events('clock_double')))
+             elif f=='S13.poll_unavailable':
+@@ -316,6 +501,23 @@
+             else:
+                 check('independent owned reap',receipt['caller_reaped'] is True and bool([e for e in events('poll') if e['kind']=='caller' and e['returncode'] is not None]))
+             check('no group cleanup from direct reap',receipt['observed_cleanup'] is False)
++            if not f.endswith('already_exited'):
++                attempts=[i for i,e in enumerate(trace) if e['event']=='direct_kill_attempt' and e['kind']=='caller' and e['pid']==receipt['caller_pid']]
++                check('fallback owned kill attempt retained',len(attempts)==1)
++                if obligation['subject_reap']=='reaped':
++                    check('fallback independent owned poll after kill',any(i>attempts[0] and e['event']=='poll' and e['kind']=='caller' and e['pid']==receipt['caller_pid'] and e['returncode']==receipt['caller_returncode'] for i,e in enumerate(trace)))
++            if f.endswith('.kill_failure'):
++                faults=indices('direct_kill_error','caller'); attempts=indices('direct_kill_attempt')
++                check('defining direct kill failure reached',len(faults)==1 and trace[faults[0]]['type']=='OSError' and trace[faults[0]]['message']=='RI171_KILL_FAILURE' and any(i<faults[0] and trace[i]['kind']=='caller' and trace[i]['pid']==receipt['caller_pid'] for i in attempts))
++                check('defining kill failure is secondary',any(e=={'stage':'direct_handle_kill','type':'OSError','message':'RI171_KILL_FAILURE'} for e in receipt['errors'][1:]))
++                check('reap independent after failed kill',any(i>faults[0] and e['event']=='poll' and e['kind']=='caller' and e['pid']==receipt['caller_pid'] and e['returncode']==receipt['caller_returncode'] for i,e in enumerate(trace)))
++            if obligation['terminal']=='deadline_escape':
++                for name in ('stdout','stderr'):
++                    data=outputs[name];saved=receipt['streams'][name]
++                    check('declared incomplete capture is bounded real prefix '+name,data==b'R'*len(data) and len(data)<=64 and type(saved['eof']) is bool)
++                    reads=[e for e in events('read') if e['tag']=='caller:'+name]
++                    check('incomplete capture matches all consumed input '+name,sum(e['bytes'] for e in reads)==len(data) and all(e['sha256']==hashlib.sha256(b'R'*e['bytes']).hexdigest() for e in reads))
++                    check('incomplete EOF never inferred '+name,saved['eof']==any(e['bytes']==0 for e in reads))
+     elif case['kind']=='observer':
+         check('one full raw observer journal',len(report['journal'])==1)
+         record=report['journal'][0]
+@@ -348,11 +550,24 @@
+                 stage='register' if f.endswith('.registration') else 'pump'
+                 msg='RI167_F01_REGISTER' if stage=='register' else 'RI167_F01_READ'
+                 check('exact observer fault first',first_ps=='ps '+stage+':'+stream+': OSError: '+msg)
++                injected=exact_input_injection('register_error' if stage=='register' else 'read_error',msg)
++                check('observer owns exact bounded reap',record['reaped'] is True and type(record['returncode']) is int and any(e['kind']=='ps' and e['pid']==record['pid'] for e in events('popen_acquired')))
++                invocation=events('observer_entry')
++                check('literal observer call deadline recorded',len(invocation)==1 and type(invocation[0]['deadline_monotonic_ns']) is int and 0<invocation[0]['deadline_monotonic_ns']-invocation[0]['monotonic_ns']<=400000000)
++                finish=min(invocation[0]['deadline_monotonic_ns'],record['start_monotonic_ns']+400000000)
++                check('observer own successful poll inside original finish deadline',any(i>injected and e['event']=='poll' and e['kind']=='ps' and e['pid']==record['pid'] and e['returncode']==record['returncode'] and e['monotonic_ns']<=finish for i,e in enumerate(trace)))
++                check('observer complete timestamps',record['start_monotonic_ns']<=record['end_monotonic_ns']<=report['entry_end_monotonic_ns'])
+                 check('failed observer stream unread and no false EOF',bytes.fromhex(record[stream+'_hex'])==b'' and record['eof'][stream] is False)
+                 other='stdout' if stream=='stderr' else 'stderr'
+                 check('healthy observer sibling preserved',bytes.fromhex(record[other+'_hex'])==(b'123 1 123 Wed Sep 30 00:00:00 2026\n' if other=='stdout' else b'ps-inert-stderr\n') and record['eof'][other] is True)
++                check('failed observer pump disabled',not any(i>injected for i in indices('read',input_tag)))
++                if f.endswith('.registration'):
++                    stops=indices('unregister_attempt',input_tag);closes=indices('pipe_closed',input_tag)
++                    check('observer partial registration cleanup reached',len(closes)==1 and any(injected<i<closes[0] for i in stops))
+                 if f.endswith('.unregister_close'):
+-                    check('observer independent cleanup errors',any(x.startswith('ps unregister:'+stream+':') for x in record['errors']) and any(x.startswith('ps pipe_close:'+stream+':') for x in record['errors']))
++                    check('observer independent cleanup errors',any(x=='ps unregister:'+stream+': OSError: RI171_UNREGISTER' for x in record['errors']) and any(x=='ps pipe_close:'+stream+': OSError: RI171_PIPE_CLOSE' for x in record['errors']))
++                    u=exact_input_injection('unregister_error','RI171_UNREGISTER');c=exact_input_injection('pipe_close_error','RI171_PIPE_CLOSE')
++                    check('observer same-pipe cleanup order',injected<u<c and any(i>c for i in indices('pipe_closed',input_tag)))
+     else:
+         check('direct refusal observed',report['exception'] is not None and report['exception']['type']=='Refusal')
+         operands=events('direct_operand');check('complete direct operands',len(operands)==1)
+@@ -380,6 +595,42 @@
+             check('unsafe group refusal',report['exception']['message']=='group contains unverified process: 12001')
+             signals=events('signal_double')
+             check('safe second independently signalled', [e['pgid'] for e in signals]==([13001] if f=='identity_safe_second' else []))
++    # Identity-complete fixture recovery is separate from subject reap/cleanup.
++    acquired=events('popen_acquired')
++    check('acquired handle ordinals',all(set(e)=={'event','monotonic_ns','handle_id','kind','pid'} and type(e['handle_id']) is int and e['handle_id']==i+1 and e['kind'] in ('caller','ps') and type(e['pid']) is int and e['pid']>1 for i,e in enumerate(acquired)))
++    recovery=report['recovery']
++    check('complete recovery list',type(recovery) is list)
++    owned=[r for r in recovery if r.get('kind')!='leaf'];leaves=[r for r in recovery if r.get('kind')=='leaf']
++    check('every owned handle recovered exactly once in acquisition order',len(owned)==len(acquired) and len(recovery)==len(owned)+len(leaves))
++    for actual,expected in zip(owned,acquired):
++        check('recovery exact acquired identity '+str(expected['handle_id']),type(actual.get('handle_id')) is int and type(actual.get('pid')) is int and type(actual.get('kind')) is str and {k:actual.get(k) for k in ('handle_id','kind','pid')}=={k:expected[k] for k in ('handle_id','kind','pid')})
++        if 'error' in actual:
++            check('closed owned recovery failure',set(actual)=={'handle_id','kind','pid','error'} and type(actual['error']) is str and bool(actual['error']))
++        else:
++            check('closed owned recovery observation',set(actual)=={'handle_id','kind','pid','returncode','reaped'} and type(actual['reaped']) is bool and (type(actual['returncode']) is int or actual['returncode'] is None) and actual['reaped']==(actual['returncode'] is not None))
++    needs_leaf=f in ('observed_descendant','fast_reparent')
++    check('complete leaf obligation membership',len(leaves)==(1 if needs_leaf else 0) and (not leaves or recovery[-1] is leaves[0]))
++    if needs_leaf:
++        leaf=leaves[0];names={r['path'] for r in actual_tree}
++        check('leaf never claims resolved recovery',leaf.get('requires_external_recovery_review') is True)
++        if 'RECOVERY_IDENTITY.json' not in names:
++            check('honest unavailable leaf identity',leaf=={'kind':'leaf','identity_unavailable':True,'requires_external_recovery_review':True})
++        else:
++            identity=load('body/RECOVERY_IDENTITY.json',4096);child=load('body/LEAF.json',4096)
++            check('retained original leaf scope',set(identity)=={'pid','ppid','pgid','birth'} and set(child)=={'pid','ppid','pgid'} and identity['pid']==child['pid']==identity['pgid']==child['pgid'])
++            check('leaf recovery stable recorded identity',all(leaf['identity'][k]==identity[k] for k in ('pid','pgid','birth')))
++            if 'error' in leaf:
++                check('closed failed leaf recovery',set(leaf)=={'kind','identity','error','requires_external_recovery_review'} and P.canonical(leaf['identity'])==P.canonical(identity) and type(leaf['error']) is str and bool(leaf['error']))
++            else:
++                check('closed unresolved signalled leaf',set(leaf)=={'kind','identity','kill_sent','absence_proven','requires_external_recovery_review'} and leaf['kill_sent'] is True and leaf['absence_proven'] is False)
++                signals=events('leaf_recovery_signal')
++                check('exact actual leaf signal evidence',len(signals)==1 and signals[0]['signal']==9 and P.canonical(signals[0]['identity'])==P.canonical(leaf['identity']))
++                observations=events('recovery_identity_observation')
++                check('leaf fresh matching identity before signal',len(observations)==2 and observations[1]['monotonic_ns']<=signals[0]['monotonic_ns'])
++                raw=bytes.fromhex(observations[1]['stdout_hex']);fields=raw.decode('ascii').split()
++                check('complete leaf current observation',observations[1]['pid']==identity['pid'] and observations[1]['returncode']==0 and not bytes.fromhex(observations[1]['stderr_hex']) and len(fields)==8 and all(x.isdigit() for x in fields[:3]))
++                observed={'pid':int(fields[0]),'ppid':int(fields[1]),'pgid':int(fields[2]),'birth':' '.join(fields[3:])}
++                check('leaf full fresh identity equals recovery row',P.canonical(observed)==P.canonical(leaf['identity']))
+     for observed in pins:
+         _, current_pin, _ = P.capture(observed['path'], 67108864)
+         check('final read-set identity '+observed['path'], current_pin == observed)

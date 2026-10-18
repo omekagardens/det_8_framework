@@ -1,0 +1,17 @@
+{
+  "owner": "/root/archive_repro_review",
+  "predecessor_review": {
+    "bytes": 3595,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri171-independent-supervisor-source-review-fw3b83xu/HANDOFF.json",
+    "sha256": "7691441c118298449b0fbfb8c9bd0123d481e642e2640398420561be7d239ee5"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt",
+  "schema": "ri180-review-assignment-v1",
+  "scope": "Source-only read/manual review and authenticated administrative identity/literal checks. No subject/vendor/helper import, compile, AST, probe, run, scientific decoding, fixtures, runtime cards or qualification. No Git/index/repository edits or new agents. Use only this new reservation. Seal full evidence and actual diagnostics for root adjudication. RET remains paused. All92 cases and oracle mutations remain unexecuted.",
+  "subject": {
+    "bytes": 14679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+    "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e"
+  },
+  "task": "Independently review the entire RI176 repaired supervisor qualification source and its actual administrative checks. Adjudicate every F01\u2013F05 repair, unchanged92-case/34-recipe coverage,26 prospective mutation families, full terminal/capture/recovery semantics and any new defects. Preserve original RI171 review and RI169 supervisor; do not merely compare author response labels."
+}

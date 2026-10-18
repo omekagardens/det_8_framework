@@ -1,0 +1,105 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py
+@@ -1,4 +1,4 @@
+-"""RI137 SOURCE ONLY: one admitted nonscientific RI135 25-control child.
++"""RI139 SOURCE ONLY: direct-bootstrap repair of the RI137 focused25 launcher.
+ 
+ UNEXECUTED. Root authenticates this source, bootstrap/host and actual tool custody
+ externally. No production prepare.run/authenticate, target, profile or65 guards.
+@@ -16,12 +16,13 @@
+ import time
+ 
+ HERE = Path(__file__).resolve().parent
+-BOOTSTRAP = '/usr/bin/python3'
++BOOTSTRAP = '/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9'
+ CAP = 67108864
+-DEPENDENCY_PIN = {'path': str(HERE/'DEPENDENCIES.source-only.json'), 'bytes': 108736,
+-                  'sha256': 'f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0'}
++DEPENDENCY_PIN = {'path': str(HERE/'DEPENDENCIES.source-only.json'), 'bytes': 120094,
++                  'sha256': '7be3dea02bd2f9d0e6dd565dbecad2977ed90eeab95612add058fd74a0be7309'}
+ PACKET_NAMES = ('AUTHORING_RECORD.md', 'DEPENDENCIES.source-only.json', 'HANDOFF.json',
+-                'METADATA_CHECK.json', 'PROTOCOL.md', 'launch_controls.source-only.py')
++                'METADATA_CHECK.json', 'PROTOCOL.md', 'REPAIR.diff', 'SOURCE_CORRESPONDENCE.json',
++                'launch_controls.source-only.py')
+ F01 = ('positive', 'pre_admission_read', 'occupied', 'mkdir', 'post_admission_read', 'initial_source_read',
+        'attempt_open', 'attempt_partial', 'secondary_post', 'secondary_source', 'secondary_namespace',
+        'secondary_checks', 'three_secondary', 'final_partial')
+@@ -251,13 +252,27 @@
+             'complete_administrative_envelopes_checked':True, 'scientific_evaluation':False}
+ 
+ 
++def selected_bootstrap(preflight, deps):
++    """Root-authenticated direct binding, not a self-authenticated loader proof."""
++    binding = preflight['selected_interpreter_binding']
++    keys(binding, ('path','resolved_path','bytes','sha256','state','symlink_chain'), 'closed selected interpreter binding')
++    same(binding, deps['selected_bootstrap_binding'], 'genuine preflight selected interpreter identity')
++    same([binding['path'],binding['resolved_path'],binding['symlink_chain']], [BOOTSTRAP,BOOTSTRAP,[]], 'literal direct bootstrap selection')
++    captured({k:binding[k] for k in ('path','bytes','sha256')})
++    actual = Path(BOOTSTRAP).lstat()
++    same([actual.st_dev,actual.st_ino,actual.st_mode,actual.st_nlink,actual.st_size,actual.st_mtime_ns,actual.st_ctime_ns],
++         binding['state'], 'selected interpreter state drift')
++    same(sys.executable, BOOTSTRAP, 'direct interpreter descriptor')
++    return binding
++
++
+ def prepare_launch(path):
+     """Preownership authentication only; this function creates no evidence/card."""
+     need(sys.flags.isolated == 1 and sys.flags.dont_write_bytecode == 1 and sys.flags.optimize == 0, 'normal isolated bootstrap')
+     admission_pin = ref(path); card = read(admission_pin)
+     keys(card, ('schema','status','launcher_handoff','launcher_review','launcher_adjudication','bootstrap_host_preflight',
+                 'controls_admission','output','environment_root','launcher_command','child_command','environment','limits','external_premises'), 'closed root launcher card')
+-    same(card['schema'], 'ri137-root-focused-launcher-admission-v1', 'launcher card schema')
++    same(card['schema'], 'ri139-root-focused-launcher-admission-v1', 'launcher card schema')
+     same(card['status'], 'AUTHORIZE_ONLY_RI135_FOCUSED25', 'launcher authority')
+     same(card['limits'], LIMITS, 'unchanged resource bounds'); same(card['external_premises'], PREMISES, 'external premises')
+     deps = read(DEPENDENCY_PIN)
+@@ -275,6 +290,7 @@
+     card_pins = [admission_pin]+[card[k] for k in ('controls_admission','launcher_review','launcher_adjudication','bootstrap_host_preflight')]
+     for item in card_pins: captured(item)
+     need(len({x['path'] for x in card_pins}) == len(card_pins), 'distinct operation card/review/preflight roles')
++    selected_bootstrap(read(card['bootstrap_host_preflight']), deps)
+     out = Path(card['output']); envroot = Path(card['environment_root'])
+     for key, p in (('output', out), ('environment_root', envroot)):
+         need(type(card[key]) is str and str(p) == card[key] and p.is_absolute() and p.resolve() == p, 'literal operation path')
+@@ -297,7 +313,7 @@
+                    'sources':sources,'controls':IDS,'output':str(out/'controls'),
+                    'independent_source_review':deps['ri135_independent_review'],'genuine_outer_required':True}, 'exact existing control card')
+     module_bytes = captured(deps['ri135_module'])
+-    spec = importlib.util.spec_from_file_location('ri137_unchanged_ri135_monitor', deps['ri135_module']['path'])
++    spec = importlib.util.spec_from_file_location('ri139_unchanged_ri135_monitor', deps['ri135_module']['path'])
+     module = importlib.util.module_from_spec(spec)
+     # Load the WHOLE authenticated capture at its original filename, never as __main__.
+     exec(compile(module_bytes, deps['ri135_module']['path'], 'exec'), module.__dict__)
+@@ -322,6 +338,7 @@
+         return 'PASS'
+     def cards_after():
+         for row in card_pins: captured(row)
++        selected_bootstrap(read(card['bootstrap_host_preflight']), deps)
+         same(dict(os.environ), env, 'parent environment postcheck')
+         same(tree(envroot), [{'relative':'tmp','kind':'directory'}], 'environment namespace postcheck')
+         return 'PASS'
+@@ -330,13 +347,13 @@
+         artifacts['administrative_checks'] = save(out/'ADMINISTRATIVE_CHECKS.json', value)
+         return value
+     def namespace_after():
+-        return save(out/'NAMESPACE.json', {'schema':'ri137-retained-launcher-namespace-v1','root':str(out),
++        return save(out/'NAMESPACE.json', {'schema':'ri139-retained-launcher-namespace-v1','root':str(out),
+             'entries':tree(out),'excluded_not_yet_written':['NAMESPACE.json','COMPLETE.json'], 'all_partials_retained':True})
+     out.mkdir(mode=0o700)
+     try:
+         # First owned operation is protected; original admission pin is never replaced.
+         same(ref(path), admission_pin, 'admission drift after ownership')
+-        artifacts['attempt'] = save(out/'ATTEMPT.json', {'schema':'ri137-focused-launcher-attempt-v1','admission':admission_pin,
++        artifacts['attempt'] = save(out/'ATTEMPT.json', {'schema':'ri139-focused-launcher-attempt-v1','admission':admission_pin,
+             'child_command':card['child_command'],'environment':env,'limits':LIMITS,'external_premises':PREMISES,
+             'loaded_module':deps['ri135_module'],'captured_loaded_bytes':pure(captured_module),'scientific_execution':False})
+         child = P.child_run(card['child_command'], out, 'FOCUSED25', 180, env)
+@@ -353,7 +370,7 @@
+         tail('namespace', namespace_after)
+         if time.monotonic()-started > LIMITS['parent_soft_seconds']:
+             tails.append({'tail':'parent_soft_deadline','type':'ValueError','message':'parent soft deadline exceeded'})
+-        complete = {'schema':'ri137-focused-launcher-completion-v1','status':'CAPTURED_FOR_ROOT_REVIEW' if first is None and not tails else 'REFUSED_RETAIN_ALL_PARTIALS',
++        complete = {'schema':'ri139-focused-launcher-completion-v1','status':'CAPTURED_FOR_ROOT_REVIEW' if first is None and not tails else 'REFUSED_RETAIN_ALL_PARTIALS',
+             'admission':admission_pin,'launcher_command':card['launcher_command'],'child_command':card['child_command'],
+             'environment':env,'limits':LIMITS,'external_premises':PREMISES,'first_error':first,'independent_tail_errors':tails,
+             'checks':checks,'artifacts':artifacts,'child':child,'elapsed_seconds':time.monotonic()-started,

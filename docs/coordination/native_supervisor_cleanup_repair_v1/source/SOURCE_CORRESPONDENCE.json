@@ -1,0 +1,120 @@
+{
+  "schema": "ri182-whole-source-correspondence-v1",
+  "original_source": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo",
+  "successor_source": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8",
+  "unchanged_files": [
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/qualify_supervisor.py",
+        "bytes": 6127,
+        "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/qualify_supervisor.py",
+        "bytes": 6127,
+        "sha256": "d24a8defda0b9989f9cce4ab1bc618728964d47ddc287ae2a2256911365d66e8"
+      }
+    },
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/case_worker.py",
+        "bytes": 26370,
+        "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/case_worker.py",
+        "bytes": 26370,
+        "sha256": "577b2dc4d6200e6f6ec9f5f38eef62dddb0df4309e5835220e18272d46246413"
+      }
+    },
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/inert_payload.py",
+        "bytes": 5168,
+        "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/inert_payload.py",
+        "bytes": 5168,
+        "sha256": "3eb3d6fbb388b479080c8f9fac0a9b2a7fce6499e53462e0d42bd2c76ef41149"
+      }
+    },
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_MANIFEST.json",
+        "bytes": 65870,
+        "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_MANIFEST.json",
+        "bytes": 65870,
+        "sha256": "4cbf6b26b5a96d1e86968e78a499cb39fe6906d64f5cb6ad163f51373563d595"
+      }
+    },
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/CASE_OBLIGATIONS.json",
+        "bytes": 23202,
+        "sha256": "01f23aca8dfcf4ee1d3dc76ab4b82ff971e814608350054f9f88de85af70e701"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/CASE_OBLIGATIONS.json",
+        "bytes": 23202,
+        "sha256": "01f23aca8dfcf4ee1d3dc76ab4b82ff971e814608350054f9f88de85af70e701"
+      }
+    },
+    {
+      "old": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/SCHEMAS.md",
+        "bytes": 3467,
+        "sha256": "6993c60db904b9f70c2a6386f3d394abe64e9ba89bf5067d0addf17935b9c7d8"
+      },
+      "current": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/SCHEMAS.md",
+        "bytes": 3467,
+        "sha256": "6993c60db904b9f70c2a6386f3d394abe64e9ba89bf5067d0addf17935b9c7d8"
+      }
+    }
+  ],
+  "protocol_only_directory_change": true,
+  "checker_whole_reverse_projection": true,
+  "exact_added_checker_spans": [
+    {
+      "start": "    def compound_cleanup_lifetime(",
+      "end": "    duration = (report['entry_end_monotonic_ns']",
+      "bytes": 2578,
+      "sha256": "23a1ae3d19ff2bb4e299bea015a21b03f8d3a0ed881f9b20dbec93431d35c454",
+      "source_text": "    def compound_cleanup_lifetime(read, unregister, close_error, subject_pid):\n        # These four cases have exactly one owned process of the selected role.\n        # Whole caller cases may have many *other-role* ps lifetimes; never merge\n        # their equal stream names with this caller's pipes. Observer-only cases\n        # have one ps lifetime. Refuse ambiguous same-role reuse rather than\n        # pretending tag-only events identify two different acquired handles.\n        role='ps' if case['kind']=='observer' else 'caller'\n        acquisitions=[(i,e) for i,e in enumerate(trace) if e['event']=='popen_acquired' and e['kind']==role]\n        check('compound unique owned role lifetime',len(acquisitions)==1 and type(subject_pid) is int and acquisitions[0][1]['pid']==subject_pid and type(acquisitions[0][1]['handle_id']) is int)\n        begin,owner=acquisitions[0]\n        check('compound injection belongs to owned lifetime',begin<read<unregister<close_error and input_tag==role+':'+stream)\n        for name in ('stdout','stderr'):\n            tag=role+':'+name\n            related=[i for i,e in enumerate(trace) if e.get('tag')==tag and e['event'] in ('register_installed','unregister_attempt','pipe_close_attempt','pipe_closed','unregister_error','pipe_close_error')]\n            check('compound pipe events follow acquisition '+tag,all(i>begin for i in related))\n            installed=indices('register_installed',tag)\n            successes=indices('pipe_closed',tag)\n            check('compound one successful close '+tag,len(installed)==1 and len(successes)==1 and begin<installed[0]<successes[0])\n            success=successes[0]\n            # Attempt events precede the underlying call: a rejected second\n            # close/unregister is forbidden even if no second success is emitted.\n            unregisters=indices('unregister_attempt',tag); closes=indices('pipe_close_attempt',tag)\n            check('compound no attempt after successful close '+tag,not any(i>success for i in unregisters+closes))\n            if name==stream:\n                check('compound failed pipe exact attempt counts '+tag,len(unregisters)==2 and len(closes)==2)\n                check('compound failed-close then successful retry '+tag,installed[0]<read<unregisters[0]<unregister<closes[0]<close_error<unregisters[1]<closes[1]<success)\n            else:\n                check('compound healthy pipe exact attempt counts '+tag,len(unregisters)==1 and len(closes)==1)\n                check('compound healthy pipe ordered close '+tag,installed[0]<unregisters[0]<closes[0]<success)\n"
+    },
+    {
+      "start": "            expected_errors=[{'stage':'pump:'+stream",
+      "end": "            compound_cleanup_lifetime(read,u,c,receipt['caller_pid'])\n",
+      "bytes": 1145,
+      "sha256": "be5daa0efbe5f866650b52ef9cd38cdd755a3a5cf817c415e8dfc6293e2e0e9a",
+      "source_text": "            expected_errors=[{'stage':'pump:'+stream,'type':'OSError','message':'RI167_F01_READ'},\n                             {'stage':'unregister:'+stream,'type':'OSError','message':'RI171_UNREGISTER'},\n                             {'stage':'pipe_close:'+stream,'type':'OSError','message':'RI171_PIPE_CLOSE'}]\n            check('compound caller retained ordered primary and secondary errors',P.canonical(receipt['errors'][:3])==P.canonical(expected_errors) and all(sum(P.canonical(e)==P.canonical(want) for e in receipt['errors'])==1 for want in expected_errors))\n            source_positions=[]\n            for want in expected_errors:\n                matched=[i for i,e in enumerate(trace) if e['event']=='source_error' and P.canonical({k:e[k] for k in ('stage','type','message')})==P.canonical(want)]\n                check('compound caller exact source error '+want['stage'],len(matched)==1)\n                source_positions.append(matched[0])\n            check('compound caller source error order',read<source_positions[0]<u<source_positions[1]<c<source_positions[2])\n            compound_cleanup_lifetime(read,u,c,receipt['caller_pid'])\n"
+    },
+    {
+      "start": "                    expected_errors=['ps pump:'+stream",
+      "end": "                    compound_cleanup_lifetime(injected,u,c,record['pid'])\n",
+      "bytes": 468,
+      "sha256": "af2f82deb8626b1e88ffd5a15b368dfaa01f911185ccdef9106f0b588906762d",
+      "source_text": "                    expected_errors=['ps pump:'+stream+': OSError: RI167_F01_READ', 'ps unregister:'+stream+': OSError: RI171_UNREGISTER', 'ps pipe_close:'+stream+': OSError: RI171_PIPE_CLOSE']\n                    check('compound observer retained ordered primary and secondary errors',record['errors'][:3]==expected_errors and all(record['errors'].count(want)==1 for want in expected_errors))\n                    compound_cleanup_lifetime(injected,u,c,record['pid'])\n"
+    }
+  ],
+  "old_checker": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_saved.py",
+    "bytes": 69350,
+    "sha256": "aa434123dd342304ffb4447af8826d694da347404ca384ad0c97b67ffadc1f53"
+  },
+  "new_checker": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/check_saved.py",
+    "bytes": 73541,
+    "sha256": "953fa2119f962d19eb981d15a1246962d3c7ec511a3273b82c9f931b408d61ff"
+  },
+  "unchanged_subject": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "source_execution": false
+}

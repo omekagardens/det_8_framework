@@ -1,0 +1,4651 @@
+{
+  "all_exact_pins_match": true,
+  "capture_opaque_hash_only": true,
+  "packet_records": 5,
+  "predecessor_records": 45,
+  "records": [
+    {
+      "bytes": 4667,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397405,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790475288888682775,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+          "size": 4667
+        },
+        {
+          "device": 16777244,
+          "inode": 397319,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790475288888544566,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+      "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9",
+      "stat": {
+        "device": 16777244,
+        "inode": 397405,
+        "mode": 33188,
+        "mtime_ns": 1790475288888682775
+      }
+    },
+    {
+      "bytes": 31586,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397366,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790475244062088618,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+          "size": 31586
+        },
+        {
+          "device": 16777244,
+          "inode": 397319,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790475288888544566,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+      "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b",
+      "stat": {
+        "device": 16777244,
+        "inode": 397366,
+        "mode": 33188,
+        "mtime_ns": 1790475244062088618
+      }
+    },
+    {
+      "bytes": 20218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397397,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790475139977022736,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+          "size": 20218
+        },
+        {
+          "device": 16777244,
+          "inode": 397319,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790475288888544566,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+      "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f",
+      "stat": {
+        "device": 16777244,
+        "inode": 397397,
+        "mode": 33188,
+        "mtime_ns": 1790475139977022736
+      }
+    },
+    {
+      "bytes": 5140,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/AUTHORING_REVIEW.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397401,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790475196254516238,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/AUTHORING_REVIEW.md",
+          "size": 5140
+        },
+        {
+          "device": 16777244,
+          "inode": 397319,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790475288888544566,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/AUTHORING_REVIEW.md",
+      "sha256": "8f40d4bc430cd0e0a51dafcc9961965b42bcaae465c8bd72873222b90b4639a8",
+      "stat": {
+        "device": 16777244,
+        "inode": 397401,
+        "mode": 33188,
+        "mtime_ns": 1790475196254516238
+      }
+    },
+    {
+      "bytes": 1801,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DIMENSION_ACCOUNTING.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397403,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790475244180752812,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DIMENSION_ACCOUNTING.json",
+          "size": 1801
+        },
+        {
+          "device": 16777244,
+          "inode": 397319,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790475288888544566,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DIMENSION_ACCOUNTING.json",
+      "sha256": "42549a72a9cb0869949d1b67da919ecb249fbe63ddf68cc9c6aa62ee77409882",
+      "stat": {
+        "device": 16777244,
+        "inode": 397403,
+        "mode": 33188,
+        "mtime_ns": 1790475244180752812
+      }
+    },
+    {
+      "bytes": 517070,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/REVIEW_IMPLEMENTATION_PLAN.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 351205,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790474017088623312,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/REVIEW_IMPLEMENTATION_PLAN.md",
+          "size": 517070
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/REVIEW_IMPLEMENTATION_PLAN.md",
+      "sha256": "57265709709d32e4b998bcfb105a8952fad50de1beeff25b7630a004a0cbdbd4",
+      "stat": {
+        "device": 16777244,
+        "inode": 351205,
+        "mode": 33188,
+        "mtime_ns": 1790474017088623312
+      }
+    },
+    {
+      "bytes": 743406,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/REVIEW_PROGRESS.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 351207,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790474006694860822,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/REVIEW_PROGRESS.md",
+          "size": 743406
+        },
+        {
+          "device": 16777244,
+          "inode": 351206,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790209316005860895,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination",
+          "size": 640
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/REVIEW_PROGRESS.md",
+      "sha256": "f75ee4608f502fed12c52b0957f5e015c3e79e06f5821cdc9008e6513c5f5879",
+      "stat": {
+        "device": 16777244,
+        "inode": 351207,
+        "mode": 33188,
+        "mtime_ns": 1790474006694860822
+      }
+    },
+    {
+      "bytes": 187323,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/QR_HANDOFF.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 351219,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473919949061506,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/QR_HANDOFF.md",
+          "size": 187323
+        },
+        {
+          "device": 16777244,
+          "inode": 351206,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790209316005860895,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination",
+          "size": 640
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/coordination/QR_HANDOFF.md",
+      "sha256": "79be34bae69a1958e45d03b17bd8994216df594720f2fcba1aaa973d1b14eb8a",
+      "stat": {
+        "device": 16777244,
+        "inode": 351219,
+        "mode": 33188,
+        "mtime_ns": 1790473919949061506
+      }
+    },
+    {
+      "bytes": 15602,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395481,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790465316669262866,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+          "size": 15602
+        },
+        {
+          "device": 16777244,
+          "inode": 395480,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790465384572534801,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1",
+          "size": 192
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md",
+      "sha256": "d128bcab94f453bb9aa506595cd76a6b3907533924f5d1b3ed3df202706d03a4",
+      "stat": {
+        "device": 16777244,
+        "inode": 395481,
+        "mode": 33188,
+        "mtime_ns": 1790465316669262866
+      }
+    },
+    {
+      "bytes": 4320,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395483,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790465316669770415,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+          "size": 4320
+        },
+        {
+          "device": 16777244,
+          "inode": 395480,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790465384572534801,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1",
+          "size": 192
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/ROOT_ADJUDICATION.json",
+      "sha256": "2ce273c59668a97992270bf62ccf30b6bb6bf71c5c3c5500199ea3a902ef3a8e",
+      "stat": {
+        "device": 16777244,
+        "inode": 395483,
+        "mode": 33188,
+        "mtime_ns": 1790465316669770415
+      }
+    },
+    {
+      "bytes": 14774,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395482,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790465316669528037,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+          "size": 14774
+        },
+        {
+          "device": 16777244,
+          "inode": 395480,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790465384572534801,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1",
+          "size": 192
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "d3ba95ca6de6f41b320c88fd7ea5492e9c00b7be851f93a1889ec2ff5efa272f",
+      "stat": {
+        "device": 16777244,
+        "inode": 395482,
+        "mode": 33188,
+        "mtime_ns": 1790465316669528037
+      }
+    },
+    {
+      "bytes": 32152,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_v1/DESIGN.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392592,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790337149707625834,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_v1/DESIGN.md",
+          "size": 32152
+        },
+        {
+          "device": 16777244,
+          "inode": 392591,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790337149707554042,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_v1",
+          "size": 96
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_v1/DESIGN.md",
+      "sha256": "cd7a585f0002f1aef4d16bb96884c0a745291d41b33e73ff466567cbff5f2478",
+      "stat": {
+        "device": 16777244,
+        "inode": 392592,
+        "mode": 33188,
+        "mtime_ns": 1790337149707625834
+      }
+    },
+    {
+      "bytes": 2296321,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395170,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790464000162016575,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT.json",
+          "size": 2296321
+        },
+        {
+          "device": 16777244,
+          "inode": 395168,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790464000176781201,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT.json",
+      "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b",
+      "stat": {
+        "device": 16777244,
+        "inode": 395170,
+        "mode": 33188,
+        "mtime_ns": 1790464000162016575
+      }
+    },
+    {
+      "bytes": 6707,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395182,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790464305036509626,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md",
+          "size": 6707
+        },
+        {
+          "device": 16777244,
+          "inode": 395168,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790464000176781201,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/RESULT_REVIEW.md",
+      "sha256": "6c8c2dca5fa31760639a377738922abf33f3d4cbbe364a03503d50042e3cfb8a",
+      "stat": {
+        "device": 16777244,
+        "inode": 395182,
+        "mode": 33188,
+        "mtime_ns": 1790464305036509626
+      }
+    },
+    {
+      "bytes": 9738,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/ROOT_ADJUDICATION.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395171,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790464000165498500,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/ROOT_ADJUDICATION.json",
+          "size": 9738
+        },
+        {
+          "device": 16777244,
+          "inode": 395168,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790464000176781201,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/ROOT_ADJUDICATION.json",
+      "sha256": "2cad5a834d885189b6ca5aabc7f51bc87cf6bbf9da6788e05349de7049e92624",
+      "stat": {
+        "device": 16777244,
+        "inode": 395171,
+        "mode": 33188,
+        "mtime_ns": 1790464000165498500
+      }
+    },
+    {
+      "bytes": 9431,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_SAVED_SCIENTIFIC_REVIEW.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395173,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790464000166083675,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_SAVED_SCIENTIFIC_REVIEW.json",
+          "size": 9431
+        },
+        {
+          "device": 16777244,
+          "inode": 395168,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790464000176781201,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_SAVED_SCIENTIFIC_REVIEW.json",
+      "sha256": "a36060d5027cd837f00e6684d3ace79ee63326c61323a28de462133f331e4338",
+      "stat": {
+        "device": 16777244,
+        "inode": 395173,
+        "mode": 33188,
+        "mtime_ns": 1790464000166083675
+      }
+    },
+    {
+      "bytes": 10924,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_CUSTODY_REVIEW.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395172,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790464000165819629,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_CUSTODY_REVIEW.json",
+          "size": 10924
+        },
+        {
+          "device": 16777244,
+          "inode": 395168,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790464000176781201,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_result_v1/INDEPENDENT_CUSTODY_REVIEW.json",
+      "sha256": "77a38d6d0af8c41e8ceda0db82ca7871985a0507bd03987695857c654200c22a",
+      "stat": {
+        "device": 16777244,
+        "inode": 395172,
+        "mode": 33188,
+        "mtime_ns": 1790464000165819629
+      }
+    },
+    {
+      "bytes": 35449,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 394478,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790456282611876354,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+          "size": 35449
+        },
+        {
+          "device": 16777244,
+          "inode": 394477,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790460946864856714,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+      "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6",
+      "stat": {
+        "device": 16777244,
+        "inode": 394478,
+        "mode": 33188,
+        "mtime_ns": 1790456282611876354
+      }
+    },
+    {
+      "bytes": 17856,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 394482,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790456282655631835,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+          "size": 17856
+        },
+        {
+          "device": 16777244,
+          "inode": 394477,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790460946864856714,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+      "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e",
+      "stat": {
+        "device": 16777244,
+        "inode": 394482,
+        "mode": 33188,
+        "mtime_ns": 1790456282655631835
+      }
+    },
+    {
+      "bytes": 53961,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/validate.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 394479,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790456282653931503,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/validate.py",
+          "size": 53961
+        },
+        {
+          "device": 16777244,
+          "inode": 394477,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790460946864856714,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2",
+          "size": 320
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/validate.py",
+      "sha256": "3c90ce7e49d704b381abf9423d2835873db933928a85a6cb61c742314d25f9bd",
+      "stat": {
+        "device": 16777244,
+        "inode": 394479,
+        "mode": 33188,
+        "mtime_ns": 1790456282653931503
+      }
+    },
+    {
+      "bytes": 29545,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/DESIGN.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 376360,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790245509032218239,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/DESIGN.md",
+          "size": 29545
+        },
+        {
+          "device": 16777244,
+          "inode": 376359,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790287820963888424,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1",
+          "size": 160
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/DESIGN.md",
+      "sha256": "08e6e99d0f884e26b9b4a2422789431d6d6acf077dbb751dd73144b5c6409cd6",
+      "stat": {
+        "device": 16777244,
+        "inode": 376360,
+        "mode": 33188,
+        "mtime_ns": 1790245509032218239
+      }
+    },
+    {
+      "bytes": 11180937,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 383821,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790287820975962511,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json",
+          "size": 11180937
+        },
+        {
+          "device": 16777244,
+          "inode": 376359,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790287820963888424,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1",
+          "size": 160
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/RESULT.json",
+      "sha256": "3a69e1f30042d3dcfed4a7fa95b59b7a8984de1e0ec4059a26f4ca25604b39fe",
+      "stat": {
+        "device": 16777244,
+        "inode": 383821,
+        "mode": 33188,
+        "mtime_ns": 1790287820975962511
+      }
+    },
+    {
+      "bytes": 68018,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 376498,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790247616704864467,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+          "size": 68018
+        },
+        {
+          "device": 16777244,
+          "inode": 376359,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790287820963888424,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1",
+          "size": 160
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+      "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887",
+      "stat": {
+        "device": 16777244,
+        "inode": 376498,
+        "mode": 33188,
+        "mtime_ns": 1790247616704864467
+      }
+    },
+    {
+      "bytes": 8844567,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392413,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790335768016253583,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT.json",
+          "size": 8844567
+        },
+        {
+          "device": 16777244,
+          "inode": 392412,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790336025910851601,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT.json",
+      "sha256": "37dc6865be52e6888bcf325022a18cef65e5b3dd8bf1ba2a9f287e1c12d929dc",
+      "stat": {
+        "device": 16777244,
+        "inode": 392413,
+        "mode": 33188,
+        "mtime_ns": 1790335768016253583
+      }
+    },
+    {
+      "bytes": 10709,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT_REVIEW.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392425,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790336025911204103,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT_REVIEW.md",
+          "size": 10709
+        },
+        {
+          "device": 16777244,
+          "inode": 392412,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790336025910851601,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/RESULT_REVIEW.md",
+      "sha256": "fda204f59e844017b7d890b939c7e38822b5810100250f0cc2193a03709124ac",
+      "stat": {
+        "device": 16777244,
+        "inode": 392425,
+        "mode": 33188,
+        "mtime_ns": 1790336025911204103
+      }
+    },
+    {
+      "bytes": 79442,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_REPORT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392414,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790335768068072964,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_REPORT.json",
+          "size": 79442
+        },
+        {
+          "device": 16777244,
+          "inode": 392412,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790336025910851601,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_REPORT.json",
+      "sha256": "a6d0ea5592a9716f053322904effc6aa64945ac1e3d6e9d9e4dd7d31e438f03d",
+      "stat": {
+        "device": 16777244,
+        "inode": 392414,
+        "mode": 33188,
+        "mtime_ns": 1790335768068072964
+      }
+    },
+    {
+      "bytes": 17182,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_CONTRACT.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392416,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790335768068532175,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_CONTRACT.md",
+          "size": 17182
+        },
+        {
+          "device": 16777244,
+          "inode": 392412,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790336025910851601,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/AUDIT_CONTRACT.md",
+      "sha256": "ee29ef111aae2e6c9c28bbf24e2895e4c5d6d504e500268c5798419f9e4cd372",
+      "stat": {
+        "device": 16777244,
+        "inode": 392416,
+        "mode": 33188,
+        "mtime_ns": 1790335768068532175
+      }
+    },
+    {
+      "bytes": 55394,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/audit_saved_result.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392415,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790335768068344882,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/audit_saved_result.py",
+          "size": 55394
+        },
+        {
+          "device": 16777244,
+          "inode": 392412,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790336025910851601,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_result_v1/audit_saved_result.py",
+      "sha256": "843f52ab0c26e28152987b228e7ca4d88fe668a0d95e6d14b947037a914f32e3",
+      "stat": {
+        "device": 16777244,
+        "inode": 392415,
+        "mode": 33188,
+        "mtime_ns": 1790335768068344882
+      }
+    },
+    {
+      "bytes": 8664,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 391340,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790328654538227332,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+          "size": 8664
+        },
+        {
+          "device": 16777244,
+          "inode": 391336,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790331447900461158,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1",
+          "size": 288
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+      "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff",
+      "stat": {
+        "device": 16777244,
+        "inode": 391340,
+        "mode": 33188,
+        "mtime_ns": 1790328654538227332
+      }
+    },
+    {
+      "bytes": 24861,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 391337,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790328654495810191,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+          "size": 24861
+        },
+        {
+          "device": 16777244,
+          "inode": 391336,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790331447900461158,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1",
+          "size": 288
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+      "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009",
+      "stat": {
+        "device": 16777244,
+        "inode": 391337,
+        "mode": 33188,
+        "mtime_ns": 1790328654495810191
+      }
+    },
+    {
+      "bytes": 41673703,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 390982,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790325526529193252,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT.json",
+          "size": 41673703
+        },
+        {
+          "device": 16777244,
+          "inode": 390981,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790325608653780491,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT.json",
+      "sha256": "5d0af7febecefd4db07bd93165b2fde7d887e7d3e7caf0243961638538db6580",
+      "stat": {
+        "device": 16777244,
+        "inode": 390982,
+        "mode": 33188,
+        "mtime_ns": 1790325526529193252
+      }
+    },
+    {
+      "bytes": 10424,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT_REVIEW.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 390988,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790325764313568558,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT_REVIEW.md",
+          "size": 10424
+        },
+        {
+          "device": 16777244,
+          "inode": 390981,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790325608653780491,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/RESULT_REVIEW.md",
+      "sha256": "f2c677912b45800e81ee266c8af5b8ae6c055e06d986abcf8bff08a67ed7182c",
+      "stat": {
+        "device": 16777244,
+        "inode": 390988,
+        "mode": 33188,
+        "mtime_ns": 1790325764313568558
+      }
+    },
+    {
+      "bytes": 108637,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_REPORT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 390983,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790325526574676065,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_REPORT.json",
+          "size": 108637
+        },
+        {
+          "device": 16777244,
+          "inode": 390981,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790325608653780491,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_REPORT.json",
+      "sha256": "943a9d88eddb66ea6f7cba6070d7b937a182b24491a9877c11a5b5fbdd1702d6",
+      "stat": {
+        "device": 16777244,
+        "inode": 390983,
+        "mode": 33188,
+        "mtime_ns": 1790325526574676065
+      }
+    },
+    {
+      "bytes": 11765,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_CONTRACT.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 390985,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790325526575673497,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_CONTRACT.md",
+          "size": 11765
+        },
+        {
+          "device": 16777244,
+          "inode": 390981,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790325608653780491,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/AUDIT_CONTRACT.md",
+      "sha256": "997606b1acb0ebd6fc3e4c2b7ecd8cb068d6b3a2d337b54f03c10654d3222132",
+      "stat": {
+        "device": 16777244,
+        "inode": 390985,
+        "mode": 33188,
+        "mtime_ns": 1790325526575673497
+      }
+    },
+    {
+      "bytes": 49063,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/audit_saved_result.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 390984,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790325526575272074,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/audit_saved_result.py",
+          "size": 49063
+        },
+        {
+          "device": 16777244,
+          "inode": 390981,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790325608653780491,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1",
+          "size": 224
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_frequency_resolved_proxy_result_v1/audit_saved_result.py",
+      "sha256": "77bae781685fe0c42bbc1e7ff112399ae2aeecdd213db05a5373d4afb4d8c224",
+      "stat": {
+        "device": 16777244,
+        "inode": 390984,
+        "mode": 33188,
+        "mtime_ns": 1790325526575272074
+      }
+    },
+    {
+      "bytes": 17291,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395771,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332352430617,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+          "size": 17291
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+      "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab",
+      "stat": {
+        "device": 16777244,
+        "inode": 395771,
+        "mode": 33188,
+        "mtime_ns": 1790468332352430617
+      }
+    },
+    {
+      "bytes": 20346,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395768,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332350029192,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+          "size": 20346
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+      "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10",
+      "stat": {
+        "device": 16777244,
+        "inode": 395768,
+        "mode": 33188,
+        "mtime_ns": 1790468332350029192
+      }
+    },
+    {
+      "bytes": 23321,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/validator.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395769,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332350845362,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/validator.py",
+          "size": 23321
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/validator.py",
+      "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707",
+      "stat": {
+        "device": 16777244,
+        "inode": 395769,
+        "mode": 33188,
+        "mtime_ns": 1790468332350845362
+      }
+    },
+    {
+      "bytes": 14435,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/qualify.py",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395770,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332351629656,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/qualify.py",
+          "size": 14435
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/qualify.py",
+      "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3",
+      "stat": {
+        "device": 16777244,
+        "inode": 395770,
+        "mode": 33188,
+        "mtime_ns": 1790468332351629656
+      }
+    },
+    {
+      "bytes": 4979,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/ROOT_ADJUDICATION.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395777,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332356806091,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/ROOT_ADJUDICATION.json",
+          "size": 4979
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/ROOT_ADJUDICATION.json",
+      "sha256": "8e1deba9fc9f5fa02009aad02d5f7222dc4162aeb8d0f542d51eeca66d91de67",
+      "stat": {
+        "device": 16777244,
+        "inode": 395777,
+        "mode": 33188,
+        "mtime_ns": 1790468332356806091
+      }
+    },
+    {
+      "bytes": 23996,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 395778,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790468332357778595,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+          "size": 23996
+        },
+        {
+          "device": 16777244,
+          "inode": 395765,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790468332358498098,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1",
+          "size": 512
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/INDEPENDENT_COMPLETE_SOURCE_REVIEW.json",
+      "sha256": "e389b9dc58c58f46d8ef992d632493c9ce832d97344a53f11825921b93170054",
+      "stat": {
+        "device": 16777244,
+        "inode": 395778,
+        "mode": 33188,
+        "mtime_ns": 1790468332357778595
+      }
+    },
+    {
+      "bytes": 4385,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 397003,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882928309648,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+          "size": 4385
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+      "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76",
+      "stat": {
+        "device": 16777244,
+        "inode": 397003,
+        "mode": 33188,
+        "mtime_ns": 1790473882928309648
+      }
+    },
+    {
+      "bytes": 5724,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/root/ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396931,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882861884185,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/root/ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+          "size": 5724
+        },
+        {
+          "device": 16777244,
+          "inode": 396914,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882885791190,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/root",
+          "size": 1152
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/root/ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+      "sha256": "ab41a5ffa1a55dfa2b0c5c56e7737e689e437abcbf31291c77ba961f57ad866a",
+      "stat": {
+        "device": 16777244,
+        "inode": 396931,
+        "mode": 33188,
+        "mtime_ns": 1790473882861884185
+      }
+    },
+    {
+      "bytes": 81253,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/normal/RESULT.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396949,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882870741827,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/normal/RESULT.json",
+          "size": 81253
+        },
+        {
+          "device": 16777244,
+          "inode": 396948,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882874180126,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/normal",
+          "size": 256
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/normal/RESULT.json",
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a",
+      "stat": {
+        "device": 16777244,
+        "inode": 396949,
+        "mode": 33188,
+        "mtime_ns": 1790473882870741827
+      }
+    },
+    {
+      "bytes": 15491,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/normal.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396992,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882916220250,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/normal.json",
+          "size": 15491
+        },
+        {
+          "device": 16777244,
+          "inode": 396989,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882923026930,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews",
+          "size": 448
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/normal.json",
+      "sha256": "04fa87ef05e3640d87c6e0c990bc591032729c154340e4e37ff935d10675589d",
+      "stat": {
+        "device": 16777244,
+        "inode": 396992,
+        "mode": 33188,
+        "mtime_ns": 1790473882916220250
+      }
+    },
+    {
+      "bytes": 12401,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/optimized.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396993,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882916874501,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/optimized.json",
+          "size": 12401
+        },
+        {
+          "device": 16777244,
+          "inode": 396989,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882923026930,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews",
+          "size": 448
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/optimized.json",
+      "sha256": "4a2c91aea6fe73336f20f476af4d543c7a0a04bb0fc57da3b4b262b8b8f34784",
+      "stat": {
+        "device": 16777244,
+        "inode": 396993,
+        "mode": 33188,
+        "mtime_ns": 1790473882916874501
+      }
+    },
+    {
+      "bytes": 8645,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/mathematics.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396991,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790473882915597915,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/mathematics.md",
+          "size": 8645
+        },
+        {
+          "device": 16777244,
+          "inode": 396989,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882923026930,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews",
+          "size": 448
+        },
+        {
+          "device": 16777244,
+          "inode": 396913,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882928254731,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1",
+          "size": 352
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/reviews/mathematics.md",
+      "sha256": "952ffe6c99491e9c6fb9699c374ed085553dd2bf3190b8b01e70d7cc96fbedc8",
+      "stat": {
+        "device": 16777244,
+        "inode": 396991,
+        "mode": 33188,
+        "mtime_ns": 1790473882915597915
+      }
+    },
+    {
+      "bytes": 15805,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_caller_v1/EXECUTION_CONTRACT.source-only.md",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 396496,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790471028003177058,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_caller_v1/EXECUTION_CONTRACT.source-only.md",
+          "size": 15805
+        },
+        {
+          "device": 16777244,
+          "inode": 396492,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790471209338091084,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_caller_v1",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 370642,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790473882852710459,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments",
+          "size": 1376
+        },
+        {
+          "device": 16777244,
+          "inode": 288807,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789376464062915122,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs",
+          "size": 1312
+        },
+        {
+          "device": 16777244,
+          "inode": 288797,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1789336132902099187,
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret",
+          "size": 1280
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_caller_v1/EXECUTION_CONTRACT.source-only.md",
+      "sha256": "86488430246ca3df7df6425f5f060d68fcd1b881d18be4eeb38d8488ebd109b4",
+      "stat": {
+        "device": 16777244,
+        "inode": 396496,
+        "mode": 33188,
+        "mtime_ns": 1790471028003177058
+      }
+    },
+    {
+      "bytes": 51891508,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal/INTERVALS.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 383698,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790286685391156504,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal/INTERVALS.json",
+          "size": 51891508
+        },
+        {
+          "device": 16777244,
+          "inode": 383615,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790286802961054337,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal",
+          "size": 160
+        },
+        {
+          "device": 16777244,
+          "inode": 382953,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790287548696275631,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189",
+          "size": 864
+        },
+        {
+          "device": 16777244,
+          "inode": 382952,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790285726059376156,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution",
+          "size": 160
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-execution/prep-20260924T213357Z-4493c189/actual-normal/INTERVALS.json",
+      "sha256": "fe24ce8b35d97a9073eff8c8002ce733e4f81be3e2d9167453a640f7f2c21aba",
+      "stat": {
+        "device": 16777244,
+        "inode": 383698,
+        "mode": 33188,
+        "mtime_ns": 1790286685391156504
+      }
+    },
+    {
+      "bytes": 7451,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri102-ri100-root-review-hnltxouk/RI100_ROOT_FINAL_ADJUDICATION.json",
+      "path_chain": [
+        {
+          "device": 16777244,
+          "inode": 392409,
+          "link": null,
+          "mode": 33188,
+          "mtime_ns": 1790335744290967525,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri102-ri100-root-review-hnltxouk/RI100_ROOT_FINAL_ADJUDICATION.json",
+          "size": 7451
+        },
+        {
+          "device": 16777244,
+          "inode": 392342,
+          "link": null,
+          "mode": 16832,
+          "mtime_ns": 1790336674183736611,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri102-ri100-root-review-hnltxouk",
+          "size": 608
+        },
+        {
+          "device": 16777244,
+          "inode": 376838,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790475629118948717,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence",
+          "size": 10592
+        },
+        {
+          "device": 16777244,
+          "inode": 36831,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790284949243644069,
+          "path": "/Volumes/AI_DATA/development",
+          "size": 576
+        },
+        {
+          "device": 16777244,
+          "inode": 2,
+          "link": null,
+          "mode": 16893,
+          "mtime_ns": 1790457930222275592,
+          "path": "/Volumes/AI_DATA",
+          "size": 768
+        },
+        {
+          "device": 16777230,
+          "inode": 26139,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1790461801422102873,
+          "path": "/Volumes",
+          "size": 160
+        },
+        {
+          "device": 16777230,
+          "inode": 2,
+          "link": null,
+          "mode": 16877,
+          "mtime_ns": 1782354543000000000,
+          "path": "/",
+          "size": 704
+        }
+      ],
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri102-ri100-root-review-hnltxouk/RI100_ROOT_FINAL_ADJUDICATION.json",
+      "sha256": "499fddd1a5315fb8c14c39ae8d161ab11e12f53f8f640d814b1ed81e2f780d21",
+      "stat": {
+        "device": 16777244,
+        "inode": 392409,
+        "mode": 33188,
+        "mtime_ns": 1790335744290967525
+      }
+    }
+  ],
+  "schema": "ri123-independent-design-pin-review-v1"
+}

@@ -1,0 +1,45 @@
+{
+  "study": "QR-05BD",
+  "version": 1,
+  "base_commit": "f7322c7d360f37a399959f80ffbd6b82a53ff3ca",
+  "classification": "exact finite synthetic verification; no apparatus data",
+  "geometry": {"u": ["0", "1"], "v": ["0", "1"], "measure_factor": "1/2", "sigma_rule": "V^4", "field_rule": "F=V^2*f"},
+  "stations": ["00", "10", "01", "11", "cc"],
+  "coordinates": [["0", "0"], ["1", "0"], ["0", "1"], ["1", "1"], ["1/2", "1/2"]],
+  "outcomes": [-1, 1],
+  "profile_rule": "f=sum(c_a*phi_a)+theta*b; b=u*(1-u)*v*(1-v)",
+  "admission_rule": "max(abs(c_a))+abs(theta)/16<=1; sufficient, not necessary",
+  "profiles": [
+    {"id": "zero", "corners": ["0", "0", "0", "0"], "theta": "0"},
+    {"id": "plus", "corners": ["1", "1", "1", "1"], "theta": "0"},
+    {"id": "minus", "corners": ["-1", "-1", "-1", "-1"], "theta": "0"},
+    {"id": "asymmetric", "corners": ["1/2", "-1/3", "2/3", "-1/2"], "theta": "0"},
+    {"id": "corner00", "corners": ["1", "-1", "-1", "-1"], "theta": "0"},
+    {"id": "corner11", "corners": ["-1", "-1", "-1", "1"], "theta": "0"},
+    {"id": "bubble", "corners": ["0", "0", "0", "0"], "theta": "1"},
+    {"id": "peak_bubble", "corners": ["0", "0", "0", "0"], "theta": "16"},
+    {"id": "asymmetric_bubble", "corners": ["1/2", "-1/3", "2/3", "-1/2"], "theta": "4"},
+    {"id": "negative_boundary", "corners": ["1/2", "-1/2", "1/4", "-1/4"], "theta": "-8"}
+  ],
+  "plans": [
+    {"id": "corner4", "slots": [["00", 1], ["10", 1], ["01", 1], ["11", 1]], "weights": "corner", "cost": 4},
+    {"id": "repair5", "slots": [["00", 1], ["10", 1], ["01", 1], ["11", 1], ["cc", 1]], "weights": "repair", "cost": 5},
+    {"id": "corner5", "slots": [["00", 1], ["00", 2], ["10", 1], ["01", 1], ["11", 1]], "weights": "corner", "cost": 5}
+  ],
+  "off_model": {"amplitude": "1", "rule": "h=b*((u-1/2)^2+(v-1/2)^2)", "global_bound": "1/32"},
+  "global_controls": [
+    {"id": "overshoot", "corners": ["1", "1", "-1", "-1"], "theta": "16", "witness": ["1/2", "1/4"], "classification": "sample_valid_globally_invalid"},
+    {"id": "valid_uncertified", "corners": ["1", "1", "1", "1"], "theta": "-16", "witness": ["1/2", "1/2"], "classification": "globally_valid_outside_admission"}
+  ],
+  "schedule_control": "all factor permutations for 4 and 5 independent qubits; complete Kraus operators",
+  "decomposition_control": "retain covariance between corner estimator and reconstructed theta; compare independent-sum shortcut",
+  "score_rule": "bias=mean-full_true_target; MSE=variance+bias^2 for each plan; no fitted allocation",
+  "third_oracle": {"name": "tensor Boole", "nodes": ["0", "1/4", "1/2", "3/4", "1"], "weights": ["7/90", "16/45", "2/15", "16/45", "7/90"], "verify_moments_through": 5},
+  "public_context": {"run_id": "run", "trial_id": "trial", "setting_id": "Z", "preparation_protocol_id": "fresh-independent", "readout_calibration_id": "ideal-Z", "frame_id": "unit-null-frame", "collector_id": "collector"},
+  "record_keys": ["run_id", "trial_id", "station_id", "shot_id", "setting_id", "preparation_protocol_id", "readout_calibration_id", "frame_id", "collector_id", "raw_registration_ref", "attempted", "status", "outcome", "available", "acquisition_plan_id"],
+  "observer_orders": ["forward", "reverse"],
+  "public_estimator_input": "records, compiled station weights, and prespecified plan only; no profile, theta, state, likelihood or target",
+  "zero_weight_policy": "retain every prescribed record even if a compiled target coefficient is zero; no automatic plan pruning",
+  "comparison": "type-exact native rational equality of complete independent reports; preserve first six corner4 profiles as the BC restriction",
+  "no_claims": ["finite-shot exactness", "unrestricted profile recovery", "optimal measurement allocation", "uniform MSE improvement", "quantum advantage", "empirical calibration", "metric inference", "physical Lorentz covariance", "RET integration", "gravity dynamics"]
+}

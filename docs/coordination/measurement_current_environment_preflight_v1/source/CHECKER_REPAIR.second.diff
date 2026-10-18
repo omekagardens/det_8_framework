@@ -1,0 +1,24 @@
+--- second
++++ corrected
+@@ -100,7 +100,11 @@
+     for i,v in enumerate(graph['history_originals']): verify(v,'graph history:'+str(i))
+     need(len(graph['stage_bindings'])==17 and graph['stage_role_count']==17,'17 stage bindings')
+     for name,v in graph['stage_bindings'].items():
+-        need({k:destinations[v['path']][k] for k in ('bytes','sha256')}==v['pin'],'stage mapped bytes:'+name)
++        if v['path'] in destinations:
++            need({k:destinations[v['path']][k] for k in ('bytes','sha256')}==v['pin'],'stage mapped bytes:'+name)
++        else:
++            need(name=='white_root_disposition','only accepted original stage disposition')
++            verify({'path':v['path'],**v['pin']},'original stage:'+name)
+     for name,v in graph['evidence'].items(): verify(v,'graph evidence:'+name)
+     order=inventory['combined_order']
+     need(len(order)==106 and len(set(order))==106,'106 unique literal control IDs')
+@@ -150,7 +154,7 @@
+       'checker':filepin(__file__)}
+ except BaseException as exc:
+     outcome={'schema':'ri170-author-finite-metadata-check-v1','status':'FAIL_PRESERVED','error':{'type':type(exc).__name__,'message':str(exc)},'checks_completed':checks,'decoded_administrative_files':reads,'source_history_role_observations_completed':len(rows),'checker':filepin(__file__)}
+-    path=H/'CHECK_FAILURE.initial.json'
++    path=H/'CHECK_FAILURE.third.json'
+     with path.open('xb') as f:f.write(canonical(outcome))
+     print(json.dumps({'status':outcome['status'],'error':outcome['error'],'path':str(path)}))
+     raise

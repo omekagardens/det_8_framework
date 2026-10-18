@@ -1,0 +1,33 @@
+{
+  "actual_W_C2_C3_H30_decided": false,
+  "actual_exit_code": 0,
+  "actual_metadata": {
+    "bytes": 195498,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI181_ROOT_METADATA_CHECK.json",
+    "sha256": "e5f0cd3cd1a97dd1e698ce48cedc0c200e056ea1d6bf86373c46ba663a8ffda3"
+  },
+  "actual_receipt": "64195f",
+  "all17_slots_and64_records": true,
+  "all_mark_L3_restoration_only": true,
+  "cap": "rho < 9/(89+72 theta) < 1/8 < R",
+  "endpoint_sign_decided": false,
+  "historical_finite_premises": [
+    "RI63 canonical boundary active components everywhere neutral",
+    "RI175/178 fixed-prefix q sign and endpoint theorem"
+  ],
+  "programme_complete": false,
+  "ret_paused": true,
+  "review": {
+    "bytes": 6254,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI181_ROOT_PROOF_REVIEW.md",
+    "sha256": "8de9bd1b2452d703eabb139b0375d379c83f22a15d134b8a6f0e1398e44043bd"
+  },
+  "schema": "ri181-root-mathematical-adjudication-v1",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 7444,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.json",
+    "sha256": "2255b730df5f8a1104c88c7d8960b90b152a88eb2e092b1152a94bf281a07da7"
+  },
+  "status": "ACCEPT_COMPLETE_MARKED_ROW_AND_STRICT_SMALLER_CAP"
+}

@@ -1,0 +1,120 @@
+{
+  "candidate_acceptance": false,
+  "diagnostics": [
+    {
+      "chunk": "25e1ff",
+      "exit_code": 1,
+      "reason": "Requested nonexistent ACTUAL_AUTHOR_TOOLS.json; recovered using actual AUTHORING_RECORD.json"
+    },
+    {
+      "chunk": "4de2ca",
+      "reason": "Display clipping recovered by targeted read and exact diff comparison"
+    }
+  ],
+  "handoff": {
+    "bytes": 4966,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/HANDOFF.json",
+    "sha256": "fa6f25e0d79eaca70050c622e189f16b9fac897446a8d25b66089ab931ebef98"
+  },
+  "independent_checks": [
+    {
+      "chunk": "ad0e4c",
+      "complete_source_diff_equal": true,
+      "distinct_opaque_pins": 719,
+      "exit_code": 0,
+      "predicates": 4394,
+      "reference_occurrences": 2188,
+      "required_consumer_references": 42
+    },
+    {
+      "chunk": "08505d",
+      "complete_literal_bootstrap_correspondence": true,
+      "exact_seal": true,
+      "exit_code": 0
+    }
+  ],
+  "payloads": [
+    {
+      "bytes": 2748,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "c5158a74be2531d48ebfeb48e07b282a70b7242490e2ba3cb70e293a8ed05567"
+    },
+    {
+      "bytes": 1545,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+      "sha256": "cc457b2f3e775cc0baa4d9ff8b164302e1f35f701133edfce1ab3683d8c0a1f9"
+    },
+    {
+      "bytes": 11142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/CLOSURE_SEEDS.json",
+      "sha256": "bd796aae39a7984fe4fb4c6d57f6741bbe141fcd155af8f7c7e7f3093ef1824b"
+    },
+    {
+      "bytes": 9476,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/PROPOSAL_NOTES.md",
+      "sha256": "f0f72a11c88ec3718611040754a3393147cc9c15ad73e91cbaea53e52ac596c0"
+    },
+    {
+      "bytes": 35316,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "04f5e52a9728e1cbf304ddfaf9594746a11452926951a9f00a7badd8d9724426"
+    },
+    {
+      "bytes": 2835,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/SOURCE_PINS.json",
+      "sha256": "56d69cb652fbfd000d29b4083f92014715d0721d53735836380975b86bb44374"
+    },
+    {
+      "bytes": 6293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/admin_check.py",
+      "sha256": "86a3d75adb26c49fc95836f7fb4b825b4fef57081e80e82d699ba04edd89376c"
+    },
+    {
+      "bytes": 16287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/check_adapters.py",
+      "sha256": "5f37887202e59ae4f0c7cf61785b52f992fef168bdcdba3db90e78fed7f8559c"
+    },
+    {
+      "bytes": 2942,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/finalize_source.py",
+      "sha256": "195f016592e2a0e8217aa598e3ac1d5471ee9dc74f9b8552ba61df566c080f7c"
+    },
+    {
+      "bytes": 18534,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/generate_proposals.py",
+      "sha256": "00c404e237ae3cbdee25af06a5b785b6321d5badcab64836eb76b2d79a70e2f1"
+    },
+    {
+      "bytes": 3409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/predispatch.py",
+      "sha256": "2d0d99f079ce0fabc3fa542e025c55d0d51f1a882aa1f45e5b3127bd3898bfdc"
+    },
+    {
+      "bytes": 14855,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/prepare_adapters.py",
+      "sha256": "834697b0685366cbd3f46bd077c4d92d2ab3bf407ce3412c350a8d6583f3506e"
+    }
+  ],
+  "premises": [
+    "genuine external tool origin",
+    "fresh operational custody",
+    "stable supplier/host/cache and read-window",
+    "no descendants",
+    "sampled child RSS, not continuous/group quota"
+  ],
+  "prior_authorship": "RI130/RI141 and RI154 review, not this proposal; earlier independently accepted semantics are inherited, not newly self-approved.",
+  "ret_paused": true,
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri204-independent-source-review-transcript-v1",
+  "scope": "Complete three scripts, notes, complete delta, authoring/check sources and records, pertinent unchanged RI160 consumers/custody. Every caller/guard/runtime candidate field reconstructed; whole canonical output comparison. No proposal or subject execution.",
+  "source_reads": [
+    "03d16a",
+    "76a08d",
+    "0705e4",
+    "fa3648",
+    "59103d",
+    "42a113",
+    "4d176e"
+  ],
+  "status": "NO_BLOCKING_DEFECT_IN_SEALED_OPERATION_PROPOSAL"
+}

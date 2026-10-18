@@ -1,0 +1,153 @@
+{
+  "actual_guards_executed_at_decision": 0,
+  "control_order": [
+    "parent_source",
+    "parent_caller",
+    "parent_runtime_acceptance",
+    "parent_mode",
+    "parent_late",
+    "parent_late_postcheck",
+    "worker_source",
+    "worker_caller",
+    "worker_runtime_acceptance",
+    "worker_mode",
+    "worker_late",
+    "worker_late_postcheck",
+    "capture_positive",
+    "capture_changed_copy",
+    "capture_buffer_drift",
+    "capture_occupied",
+    "monitor_positive",
+    "monitor_no_sample",
+    "monitor_wall",
+    "monitor_initial_gap",
+    "monitor_sample_gap",
+    "monitor_rss",
+    "monitor_nonzero",
+    "monitor_malformed",
+    "monitor_timeout",
+    "monitor_final_gap",
+    "runtime_positive",
+    "runtime_absent_file",
+    "runtime_absent_dangling_link",
+    "runtime_missing_loader",
+    "runtime_changed_loader_declaration",
+    "runtime_changed_loader_path",
+    "runtime_missing_config",
+    "static_positive",
+    "static_actual",
+    "static_extra",
+    "static_bool_limit",
+    "static_source_omitted",
+    "static_source_copy",
+    "static_helper_omitted",
+    "static_mode_command",
+    "acceptance_positive",
+    "acceptance_source_execution",
+    "acceptance_caller_binding",
+    "acceptance_caller_history",
+    "acceptance_caller_ret",
+    "acceptance_guards_absent",
+    "acceptance_runtime_binding",
+    "acceptance_runtime_loader",
+    "acceptance_runtime_profile",
+    "mode_normal_positive",
+    "mode_optimized_positive",
+    "mode_wrong_command",
+    "mode_pre_missing",
+    "mode_normal_incomplete",
+    "mode_normal_drift",
+    "relation_positive",
+    "relation_science_file",
+    "relation_wrong_link",
+    "relation_extra_envelope",
+    "relation_missing_artifact",
+    "relation_postcheck",
+    "relation_extra_namespace",
+    "relation_control_message",
+    "relation_tail_dropped"
+  ],
+  "not_claimed": [
+    "Scientific controls or WHITE/full32 qualification",
+    "Actual public-data calculation or calibration",
+    "Native forward map or geometry/gravity/physical result"
+  ],
+  "premises": [
+    "Genuine direct Apple bootstrap and fresh exact host/environment PRE",
+    "Unchanged complete original fixed packet and 442 dependencies",
+    "Same accepted baseline and both mode profiles",
+    "Separate exact 17-field parent and 9-field guard cards",
+    "One fresh output and unchanged 180 second/524288 KiB/25ms/100ms/50ms child bounds; 900 parent/960 genuine outer",
+    "Stable source/runtime supplier, source/cache/native loader and kernel premises"
+  ],
+  "required_post_review": [
+    "Rehash both cards, root decision, all599 source inputs and whole operation",
+    "Complete saved65 semantic outcome review including all explicit doubles and retained fixture namespace",
+    "Actual raw monitors, first/tail failures, finalization and genuine initial/terminal tool relation"
+  ],
+  "ret_paused": true,
+  "review_input_pins_rechecked": 466,
+  "review_objects": [
+    {
+      "bytes": 4762,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/HANDOFF.json",
+      "sha256": "e5954649acb1870b586f3057956821d686e08d69265cb0147659ea03a6f1514b"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/CHECK.stdout",
+      "sha256": "0cf893e74f38a0fbb7e41df866e18fd4a379a6cfeccfaf4ce2080d2f95fdfa95"
+    },
+    {
+      "bytes": 576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "1d08118bbfaf2aa1259a1767ea11250058e6ca7d7e4948b344010ba44b9419e2"
+    },
+    {
+      "bytes": 19318,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/INDEPENDENT_PREFLIGHT_REVIEW.md",
+      "sha256": "f5bcf91a94c4670f3a4efe1842cf630ba700b07dc585436764796e5c0edd2465"
+    },
+    {
+      "bytes": 589045,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/OPAQUE_PREFLIGHT_CHECK.json",
+      "sha256": "99240696d1ecc33e3da9cc52602dae85d09096c51b538ce650733cac9beb2270"
+    },
+    {
+      "bytes": 2384,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/PUBLICATION_SUBSET.json",
+      "sha256": "2141c6e332cfeb612540140eb64a6cde1c6262927fb5ef17892629102c7fecc4"
+    },
+    {
+      "bytes": 3098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/REVIEWER_DIAGNOSTICS.json",
+      "sha256": "b2901b5d886f7e8c7958b5659e2ba90a2039ec958f6fc0ca193e6cc46a33f3fa"
+    },
+    {
+      "bytes": 2569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/VERDICT.json",
+      "sha256": "7a151e52fb257a676de32044a473be8224070cf6729908a5be69c6f091e19dff"
+    },
+    {
+      "bytes": 8552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/check_metadata.py",
+      "sha256": "96c686d5f5815a68b0d839e8e31674d2e4effe165599067ed0bf7fb185de5119"
+    }
+  ],
+  "reviewer_checks": 3314,
+  "root_full_source_identities_rechecked": 599,
+  "root_read_scope": [
+    "Complete independent narrative/verdict/handoff/final custody/diagnostics",
+    "RI141 guard card/check and complete run/finalization source",
+    "RI130 complete dispatcher/admission/report source and literal ordered IDs",
+    "Existing RI130/RI141 complete source acceptance and RI150 both-profile acceptance reused as identified premises",
+    "Root administrative admission and full external postcheck source"
+  ],
+  "schema": "ri152-root-source-preflight-adjudication-v1",
+  "status": "ACCEPT_UNCHANGED_SOURCE_FOR_ONE_65_GUARD_PHASE"
+}

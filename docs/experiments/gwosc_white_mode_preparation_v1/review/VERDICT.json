@@ -1,0 +1,89 @@
+{
+  "active_root_or_card_created": false,
+  "actual_data_admitted": false,
+  "counts_are_scientific_tests": false,
+  "final_input_check": {
+    "bytes": 10012,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+    "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa"
+  },
+  "full32_qualified": false,
+  "guard_transfer_accepted": false,
+  "independence": {
+    "earlier_authored_sources": "Inherited accepted premises and new-map interface consistency only; no fresh self-acceptance.",
+    "prior_authorship": [
+      "RI125 separate validator",
+      "RI130 caller",
+      "RI133 preparation",
+      "RI135 F01/F02 repair",
+      "RI137 focused launcher",
+      "RI139 bootstrap repair",
+      "RI141 production bootstrap",
+      "RI144 bootstrap controls"
+    ],
+    "ri154_author": false
+  },
+  "installed_runtime_observed": false,
+  "metadata_check": {
+    "bytes": 1096784,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+    "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571"
+  },
+  "metadata_counts": {
+    "added": 21,
+    "author_administrative_predicates": 4071,
+    "author_namespace": 15,
+    "author_payloads": 14,
+    "copies": 48,
+    "fresh_reviewer_predicates": 6304,
+    "helpers": 11,
+    "history_roles": 124,
+    "inherited": 442,
+    "input_bytes": 26311988,
+    "input_files": 463,
+    "interface_domains": 22,
+    "stage_roles": 17,
+    "target_pairs": 30,
+    "unique_observed_paths": 478
+  },
+  "narrative": {
+    "bytes": 17896,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1"
+  },
+  "open_execution_prerequisites": [
+    {
+      "id": "R01",
+      "remaining": "Reviewed truthful transfer/applicability of original 65-guard evidence to new helper paths; no automatic transfer accepted."
+    },
+    {
+      "id": "R02",
+      "remaining": "Fresh genuine E capture, accepted baseline, normal and accepted normal before optimized profiles; old environment acceptance not reusable verbatim."
+    },
+    {
+      "id": "R03",
+      "remaining": "Additional independently bounded current E-copy/card/selection/full-namespace observer; RI141 snapshot remains original-only."
+    },
+    {
+      "id": "R04",
+      "remaining": "Concrete external adapter and full saved-mode verifier with complete nonauthor source review and meaningful bounded controls before use."
+    }
+  ],
+  "required_repairs": [],
+  "ret_paused": true,
+  "reviewer_check_failure_preserved": true,
+  "root_adjudication_required": true,
+  "schema": "ri154-independent-source-preparation-verdict-v1",
+  "science_execution_ready": false,
+  "scientific_body_decoded": false,
+  "scientific_qualification": false,
+  "status": "ACCEPT_BOUNDED_RELOCATION_AND_CUSTODY_PREPARATION_WITH_R01_R04_OPEN",
+  "subject": {
+    "bytes": 7336,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/HANDOFF.json",
+    "sha256": "48aa2c11468fab405a1e15793916c42e38ee4562a6212d71987149076c8814d6"
+  },
+  "subject_executed": false,
+  "successor_assigned": false,
+  "unchanged_ri141_route": "Source-feasible with explicit new environment_root; no performed operation or current runtime success. Root owns admission."
+}

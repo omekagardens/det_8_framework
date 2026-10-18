@@ -1,0 +1,16 @@
+{
+  "card": {
+    "bytes": 1680,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/NORMAL_ACCEPTANCE.json",
+    "sha256": "5470ddd468cba8a5168042ceb73d1ce5204971233f3b26ecbbe657d617da95d2"
+  },
+  "current_e": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "decision": {
+    "bytes": 2745,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI190_ROOT_ADJUDICATION.json",
+    "sha256": "de11a7189504ff777f3145c8566d4e10ae0cb455d5eba2bc9aead327661fc576"
+  },
+  "next_profile_admitted": false,
+  "status": "PASS_CLOSED_TEN_FIELD_NORMAL_CARD",
+  "subject_execution": false
+}

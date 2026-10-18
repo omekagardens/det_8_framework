@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 22702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/PROTOCOL.md",
+      "sha256": "602f78e3f06bcdca53d483bc42b42dfc4f85228a95c4220f7a74fe2f5e452673"
+    },
+    {
+      "bytes": 6471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+    },
+    {
+      "bytes": 22820,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/check_installation.py",
+      "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+    },
+    {
+      "bytes": 19876,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+      "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+    }
+  ],
+  "schema": "ri209-proposal-source-pins-v1",
+  "status": "SOURCE_ONLY_NOT_ADMISSION"
+}

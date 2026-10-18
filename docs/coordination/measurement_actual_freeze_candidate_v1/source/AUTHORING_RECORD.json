@@ -1,0 +1,72 @@
+{
+  "actual_administrative_checks": [
+    {
+      "exit_code": 0,
+      "scope": "exact parent-provided acceptance/request/assignment pins and prior closure shape",
+      "tool": "542f42"
+    },
+    {
+      "exit_code": 0,
+      "scope": "39 administrative input/source seeds generated in proposal only",
+      "tool": "8ad0a9"
+    },
+    {
+      "exit_code": 0,
+      "scope": "literal source-only adaptation and exact diff; generated scripts not run",
+      "tool": "1db858"
+    },
+    {
+      "exit_code": 0,
+      "scope": "authorship, full consumer/operation contract and external premises notes",
+      "tool": "45969a"
+    },
+    {
+      "exit_code": 0,
+      "scope": "5392 metadata/literal predicates;759 distinct pins;153 required consumer references; no target or proposal execution",
+      "tool": "08bdaa"
+    }
+  ],
+  "actual_reads": [
+    {
+      "exit_code": 0,
+      "tool": "b94a18"
+    },
+    {
+      "exit_code": 0,
+      "tool": "f5d406"
+    },
+    {
+      "exit_code": 0,
+      "tool": "ea7385"
+    },
+    {
+      "exit_code": 0,
+      "tool": "df3198"
+    },
+    {
+      "exit_code": 0,
+      "tool": "747b7e"
+    }
+  ],
+  "author": "/root/ri116_complete_caller_review",
+  "failed_attempts_this_assignment": [],
+  "new_operational_observations_performed": false,
+  "predecessor_failures": "All RI200/RI202/RI204 immutable diagnostics remain bound through the inherited722 source rows plus new explicit evidence seeds. No outcome is promoted or replaced.",
+  "prior_authorship": [
+    "RI156",
+    "RI158",
+    "RI160",
+    "RI204 proposal"
+  ],
+  "prohibited_activity_performed": false,
+  "remaining": [
+    "complete nonauthor source review",
+    "root source adjudication and concrete preparation",
+    "fresh final predispatch and one genuine operation admission",
+    "full independent saved candidate and custody review",
+    "separate root acceptance",
+    "separate later installation of a freeze and per-mode prerequisites"
+  ],
+  "schema": "ri206-source-authoring-record-v1",
+  "source_only": true
+}

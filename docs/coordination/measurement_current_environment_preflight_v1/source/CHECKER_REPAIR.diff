@@ -1,0 +1,12 @@
+--- initial
++++ corrected
+@@ -91,7 +91,8 @@
+     need(len(graph['sources'])==30 and graph['target_count']==30,'30 target source pairs')
+     for i,v in enumerate(graph['sources']):
+         verify({'path':v['original'],**v['pin']},'target original:'+str(i))
+-        need(destinations[v['copy']]=={'path':v['original'],**v['pin']},'target mapped bytes:'+str(i))
++        need({k:destinations[v['copy']][k] for k in ('bytes','sha256')}==v['pin'],'target mapped bytes:'+str(i))
++        need(destinations[v['copy']]['path']==str(Path(deps['packet_root'])/v['relative']),'copy chain through accepted original packet:'+str(i))
+     need(len(graph['helpers'])==11 and graph['helper_count']==11,'11 helper destinations')
+     for v in graph['helpers']:
+         need({k:destinations[v['path']][k] for k in ('bytes','sha256')}==v['pin'],'mapped helper '+v['path'])

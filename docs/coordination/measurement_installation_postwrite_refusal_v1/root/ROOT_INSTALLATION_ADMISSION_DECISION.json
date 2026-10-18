@@ -1,0 +1,37 @@
+{
+  "RET_paused": true,
+  "fresh_check": {
+    "bytes": 17182,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/FRESH_PREDISPATCH_CHECK.json",
+    "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+  },
+  "independent_review": {
+    "bytes": 4088,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/HANDOFF.json",
+    "sha256": "bc5202d6adcaaa7c4ff3cc6a1da9c4758839bd642bd64a5aac278182bcecb474"
+  },
+  "one_attempt": true,
+  "preparation_acceptance": {
+    "bytes": 1582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/CONCRETE_PREPARATION_ACCEPTANCE.json",
+    "sha256": "04321b72843e59bf8d54fa6490451ab70fa63d6a34f39e74b3720c70c19335c7"
+  },
+  "proposal": {
+    "bytes": 4509,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+    "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+  },
+  "qualification_credit": 0,
+  "schema": "ri224-root-installation-decision-v1",
+  "scope": "Install only the exact accepted26214-byte administrative candidate as E/AUTHORIZED_FREEZE.json with the reviewed command and unchanged monitor/limits. Preserve all failures; no retry or scientific mode.",
+  "source_review": {
+    "bytes": 2307,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+    "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+  },
+  "startup_premises": [
+    "Authentic selected direct isolated vendor/startup and captured whole unchanged monitor.",
+    "Stable host, no descendants, Apple loader/shared-cache and source/pyc applicability remain external premises. Sampled sole-child RSS is not continuous process-group accounting."
+  ],
+  "status": "AUTHORIZE_EXACT_SINGLE_REVIEWED_INSTALLATION"
+}

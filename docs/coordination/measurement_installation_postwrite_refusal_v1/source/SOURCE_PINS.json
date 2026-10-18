@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 32894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/PROTOCOL.md",
+      "sha256": "ef754bbdafba9ec34848e3798f1e3bd302b5872597a970543c88f415075d69d7"
+    },
+    {
+      "bytes": 48176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+    },
+    {
+      "bytes": 22817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+      "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+    },
+    {
+      "bytes": 19894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+      "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+    }
+  ],
+  "schema": "ri209-proposal-source-pins-v1",
+  "status": "SOURCE_ONLY_NOT_ADMISSION"
+}

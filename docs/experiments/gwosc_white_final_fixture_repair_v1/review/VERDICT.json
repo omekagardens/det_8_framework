@@ -1,0 +1,52 @@
+{
+  "F02_R": "Addressed in exact source: both full normalized subtrees derived from the same final scan, all available comparisons retained after other mismatches.",
+  "RET": "PAUSED",
+  "administrative_checks": {
+    "additions": 42,
+    "dependencies": 567,
+    "final_fresh_identity_count": 599,
+    "inherited": 525,
+    "predicates": 4167,
+    "selected_dependency_bytes": 31853372
+  },
+  "assignment": {
+    "bytes": 2233,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "ca2da6c561cc14586ba60a797494f76983078a515a2a484b07b0766c8682a5a1"
+  },
+  "blocking_findings": [],
+  "changed_source_coverage": {
+    "adapter_lines": 289,
+    "fresh_complete_reads": true,
+    "integration_control_lines": 402,
+    "new_controls_individually_traced": 22,
+    "unchanged_adapter_functions": 8,
+    "unchanged_executables": 10,
+    "unchanged_integration_functions": 4
+  },
+  "controls": {
+    "defined": 106,
+    "executed": 0,
+    "new": 22,
+    "retained": 84
+  },
+  "earlier_authorship_disclosed": "Separate WHITE validator/caller/preparation/bootstrap; inherited accepted originals only, not new independent self-review. Prior RI156/RI158 reviewer including F02-R.",
+  "pending": [
+    "Root exact-source adjudication and separate bounded actual106 admission/results/independent evidence review",
+    "R01 actual path applicability and current-environment unchanged RI141 genuine capture/baseline/profile chain",
+    "Actual normal before optimized, complete saved modes and independent fresh arithmetic reviewer",
+    "RI131 actual-validator campaign and actual15 WHITE qualification; full32 and public-data/physical interpretation remain separate"
+  ],
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_FIXTURE_CUSTODY_REPAIR_SOURCE_WITH_QUALIFICATION_PREREQUISITES",
+  "reviewer": "/root/archive_repro_review",
+  "root_owns_adjudication_admission_successors_and_publication": true,
+  "runtime_or_scientific_acceptance": false,
+  "schema": "ri160-independent-source-verdict-v1",
+  "source_recommendation_only": true,
+  "subject": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  },
+  "subject_authorship": false
+}

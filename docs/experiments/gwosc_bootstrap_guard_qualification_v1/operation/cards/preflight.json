@@ -1,0 +1,66 @@
+{
+  "actual_environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "deadline": "Explicit default SIGALRM and 960-second alarm before direct Python exec; unblocked mask and Darwin scheduling premises; prior genuine benign termination retained",
+  "fresh_pre": {
+    "bytes": 1690949,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE.json",
+    "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+  },
+  "genuine_actual_completion_pending": true,
+  "genuine_pre_tool": {
+    "bytes": 1289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE_TOOL.json",
+    "sha256": "775e2f470367f88864a57b3732cc599001489c2aae8549b8a6b86dafde7f7c16"
+  },
+  "prior_deadline_probe": {
+    "bytes": 505,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/DEADLINE_PROBE_INITIAL.json",
+    "sha256": "1b64553d65e9a0573c2dc84d33a8e13b715e478656baf7a0aee96cfaec300e8e"
+  },
+  "schema": "ri144-root-genuine-direct-bootstrap-preflight-v1",
+  "scientific_candidate_qualification": false,
+  "selected_interpreter_binding": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "source_decision": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI144_ROOT_ADJUDICATION.json",
+    "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230"
+  },
+  "source_reconciliation": {
+    "bytes": 283249,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_MEASUREMENT_SOURCE_CHECK.json",
+    "sha256": "82ba06fa91a22841424527c355e4fad056069af7a24e56014154641dbc5cc8ae"
+  },
+  "status": "APPLICABLE_TO_ONE_FRESH_BOOTSTRAP15_OPERATION",
+  "timeout_cleanup": "Parent alarm does not kill separate child group; any timeout requires actual child identification/cleanup and rejection",
+  "trusted_premises": [
+    "Root tool and Apple vendor bootstrap collector",
+    "Darwin kernel and Apple loader/shared cache",
+    "Stable host and supplier; opaque byte equality is not an instruction trace or source/cache equivalence"
+  ]
+}

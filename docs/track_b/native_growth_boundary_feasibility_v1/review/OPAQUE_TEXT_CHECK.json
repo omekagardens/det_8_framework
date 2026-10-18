@@ -1,0 +1,1085 @@
+{
+  "F01_ids": [
+    "F01-1-SIGTERM",
+    "F01-1-SIGINT",
+    "F01-1-SIGHUP",
+    "F01-2-SIGTERM",
+    "F01-2-SIGINT",
+    "F01-2-SIGHUP",
+    "F01-3",
+    "F01-4",
+    "F01-5",
+    "F01-6",
+    "F01-7",
+    "F01-8",
+    "F01-9",
+    "F01-10-SIGTERM",
+    "F01-10-SIGINT",
+    "F01-10-SIGHUP",
+    "F01-11",
+    "F01-12",
+    "F01-13",
+    "F01-14-SIGTERM",
+    "F01-14-SIGINT",
+    "F01-14-SIGHUP",
+    "F01-15"
+  ],
+  "F02_ids": [
+    "F02-1-UNREGISTER",
+    "F02-1-CLOSE",
+    "F02-2",
+    "F02-3",
+    "F02-4",
+    "F02-5",
+    "F02-6",
+    "F02-7"
+  ],
+  "all104_range_pins": [
+    {
+      "end_line": 144,
+      "id": "F01-1-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-1-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "8a45eee8fe3a09072a4e0eadcad3ecc9bc95e7d3b3fe560f00ce69a5b5691e33",
+      "start_line": 218
+    },
+    {
+      "end_line": 323,
+      "id": "F01-1-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-1-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 144,
+      "id": "F01-1-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-1-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "8a45eee8fe3a09072a4e0eadcad3ecc9bc95e7d3b3fe560f00ce69a5b5691e33",
+      "start_line": 218
+    },
+    {
+      "end_line": 323,
+      "id": "F01-1-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-1-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 144,
+      "id": "F01-1-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-1-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "8a45eee8fe3a09072a4e0eadcad3ecc9bc95e7d3b3fe560f00ce69a5b5691e33",
+      "start_line": 218
+    },
+    {
+      "end_line": 323,
+      "id": "F01-1-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-1-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 144,
+      "id": "F01-2-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-2-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "07c1329cfea8062f5cc35ae3ab9e0bcc5d94a200a88d8c04bb94d71c063ccb35",
+      "start_line": 229
+    },
+    {
+      "end_line": 323,
+      "id": "F01-2-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 144,
+      "id": "F01-2-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-2-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "07c1329cfea8062f5cc35ae3ab9e0bcc5d94a200a88d8c04bb94d71c063ccb35",
+      "start_line": 229
+    },
+    {
+      "end_line": 323,
+      "id": "F01-2-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 144,
+      "id": "F01-2-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-2-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "07c1329cfea8062f5cc35ae3ab9e0bcc5d94a200a88d8c04bb94d71c063ccb35",
+      "start_line": 229
+    },
+    {
+      "end_line": 323,
+      "id": "F01-2-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 144,
+      "id": "F01-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 245,
+      "id": "F01-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "06178e84a769ba672cd18c338f67b8e3c50965f5fb66d3643225007dff3d6477",
+      "start_line": 229
+    },
+    {
+      "end_line": 323,
+      "id": "F01-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 144,
+      "id": "F01-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "07c1329cfea8062f5cc35ae3ab9e0bcc5d94a200a88d8c04bb94d71c063ccb35",
+      "start_line": 229
+    },
+    {
+      "end_line": 323,
+      "id": "F01-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 255,
+      "id": "F01-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "60f2fcc55a4e1e44f9097733995ea707e18fc95e73ca716341a4213956b37d79",
+      "start_line": 250
+    },
+    {
+      "end_line": 323,
+      "id": "F01-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 304,
+      "id": "F01-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "25323fe0e8a3beff032e426fb9e8a95fd94d5eabd65e4a0a037a441a2556d08f",
+      "start_line": 269
+    },
+    {
+      "end_line": 323,
+      "id": "F01-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 520,
+      "id": "F01-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 579,
+      "id": "F01-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "f486b10802c98d39d399c40bd33075262ee00ae53b1504ac5143e7995a6b1530",
+      "start_line": 569
+    },
+    {
+      "end_line": 555,
+      "id": "F01-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "f22b3bad305ef1fc65259024f3cc44da476547aadb806c5a36d8eaa9e4eed2d1",
+      "start_line": 522
+    },
+    {
+      "end_line": 579,
+      "id": "F01-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "f486b10802c98d39d399c40bd33075262ee00ae53b1504ac5143e7995a6b1530",
+      "start_line": 569
+    },
+    {
+      "end_line": 970,
+      "id": "F01-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "aabc4002a667dab2c3f876be1dacad42ba13175752003e3a9eeb71a9cc340222",
+      "start_line": 965
+    },
+    {
+      "end_line": 348,
+      "id": "F01-8",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "b2af4f733cffb8befe96ac96852a0eb1631e1ad985ceb168f301fc32530e0a77",
+      "start_line": 333
+    },
+    {
+      "end_line": 267,
+      "id": "F01-8",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "8442f6dd87f74496215068e0402089b5d588b864eab870a1ee3e59596b6fc6a6",
+      "start_line": 264
+    },
+    {
+      "end_line": 520,
+      "id": "F01-8",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "57b83ac803139b235682bd9ab050460da986b20c84b4d047fdb2e0db66559ba9",
+      "start_line": 512
+    },
+    {
+      "end_line": 965,
+      "id": "F01-8",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "489fe1b2fd76672147e254116e8cb3c93b437bdc478e985ba8b2c1cbe97611f8",
+      "start_line": 951
+    },
+    {
+      "end_line": 144,
+      "id": "F01-9",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 267,
+      "id": "F01-9",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "65c18edd6efd9b3d4cad1704326f2d4b3436e97eaeb92cd3e87c03166aed5dc2",
+      "start_line": 257
+    },
+    {
+      "end_line": 323,
+      "id": "F01-9",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "056fcb31f028a48a482ac66fd76cf34f6e2fb93d23859bc5f4840f34725a78b6",
+      "start_line": 308
+    },
+    {
+      "end_line": 1040,
+      "id": "F01-9",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "0a9dc13814132dece1a49a11d2622cad84b850cdc336a8bc9da0116799daa90c",
+      "start_line": 1020
+    },
+    {
+      "end_line": 134,
+      "id": "F01-10-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "171b8f9f946a538f4d628e0aecfe0d4648896d1b701c20ca534d293dffa990cb",
+      "start_line": 129
+    },
+    {
+      "end_line": 260,
+      "id": "F01-10-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "21b0c19c9737d51bc5c17a249ba5477b228179dcca2b2750746ad1259c6713cf",
+      "start_line": 254
+    },
+    {
+      "end_line": 707,
+      "id": "F01-10-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "b85a9c6a950068c194d15160e650d1590ccefc48076eeb5546a47c904eea2a6f",
+      "start_line": 681
+    },
+    {
+      "end_line": 850,
+      "id": "F01-10-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "4dbe930fb23ff2bd8888cbf1625b486b5e8d084553729c35e402777cfa2b7f3d",
+      "start_line": 748
+    },
+    {
+      "end_line": 134,
+      "id": "F01-10-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "171b8f9f946a538f4d628e0aecfe0d4648896d1b701c20ca534d293dffa990cb",
+      "start_line": 129
+    },
+    {
+      "end_line": 260,
+      "id": "F01-10-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "21b0c19c9737d51bc5c17a249ba5477b228179dcca2b2750746ad1259c6713cf",
+      "start_line": 254
+    },
+    {
+      "end_line": 707,
+      "id": "F01-10-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "b85a9c6a950068c194d15160e650d1590ccefc48076eeb5546a47c904eea2a6f",
+      "start_line": 681
+    },
+    {
+      "end_line": 850,
+      "id": "F01-10-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "4dbe930fb23ff2bd8888cbf1625b486b5e8d084553729c35e402777cfa2b7f3d",
+      "start_line": 748
+    },
+    {
+      "end_line": 134,
+      "id": "F01-10-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "171b8f9f946a538f4d628e0aecfe0d4648896d1b701c20ca534d293dffa990cb",
+      "start_line": 129
+    },
+    {
+      "end_line": 260,
+      "id": "F01-10-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "21b0c19c9737d51bc5c17a249ba5477b228179dcca2b2750746ad1259c6713cf",
+      "start_line": 254
+    },
+    {
+      "end_line": 707,
+      "id": "F01-10-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "b85a9c6a950068c194d15160e650d1590ccefc48076eeb5546a47c904eea2a6f",
+      "start_line": 681
+    },
+    {
+      "end_line": 850,
+      "id": "F01-10-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "4dbe930fb23ff2bd8888cbf1625b486b5e8d084553729c35e402777cfa2b7f3d",
+      "start_line": 748
+    },
+    {
+      "end_line": 692,
+      "id": "F01-11",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "48b186792f7460febce4e2a11395b966f164b77945c10837e5bd24ac5fd252aa",
+      "start_line": 681
+    },
+    {
+      "end_line": 721,
+      "id": "F01-11",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "f3e37619129e4eea9be34cdd3075aa1cc734279d6d3bb9d67447de1037424961",
+      "start_line": 720
+    },
+    {
+      "end_line": 850,
+      "id": "F01-11",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "07e563da1b27229e6d3eaebb42194db61c4cd8994773971d9a60127bad7ac092",
+      "start_line": 782
+    },
+    {
+      "end_line": 123,
+      "id": "F01-12",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "2f5c6d74d7f2302681464a0c005e724ea59ef0ee604490c2b37eddc79f9de646",
+      "start_line": 118
+    },
+    {
+      "end_line": 700,
+      "id": "F01-12",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "93e72cd87021ae33fcfc105bae9e55e8cd00fb7cbb753203f3210ee3ff073285",
+      "start_line": 693
+    },
+    {
+      "end_line": 752,
+      "id": "F01-12",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "d16b2a0f2f03423664d0ca6504a4d91dd50917f3b24dc2657cf1d1000cdf85d8",
+      "start_line": 720
+    },
+    {
+      "end_line": 850,
+      "id": "F01-12",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "07e563da1b27229e6d3eaebb42194db61c4cd8994773971d9a60127bad7ac092",
+      "start_line": 782
+    },
+    {
+      "end_line": 158,
+      "id": "F01-13",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "bb57ad11c92fb9da16f2641f73d84168bd79c3175170801086b86c724776222c",
+      "start_line": 152
+    },
+    {
+      "end_line": 635,
+      "id": "F01-13",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "c77b53f61482351b8bf259edee1a619902ef5282ecce4a7165d6e5fcaab2cc4b",
+      "start_line": 602
+    },
+    {
+      "end_line": 781,
+      "id": "F01-13",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "f5fedbbc3bba214c4e67d89cd493e0dc9f784e5bbdc9cf0011942a3e8b60631e",
+      "start_line": 748
+    },
+    {
+      "end_line": 850,
+      "id": "F01-13",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "07e563da1b27229e6d3eaebb42194db61c4cd8994773971d9a60127bad7ac092",
+      "start_line": 782
+    },
+    {
+      "end_line": 830,
+      "id": "F01-14-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "30fcc764fe6ca97a817dd1bd8a7e5b4c06857d0c6fbf7dc43732a44ed924bc78",
+      "start_line": 798
+    },
+    {
+      "end_line": 850,
+      "id": "F01-14-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "09b50bf9eca9d0da6fa88bb3881b93e6ffd3c27b7fdd4afbdf4cc8700894b2d0",
+      "start_line": 842
+    },
+    {
+      "end_line": 144,
+      "id": "F01-14-SIGTERM",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 830,
+      "id": "F01-14-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "30fcc764fe6ca97a817dd1bd8a7e5b4c06857d0c6fbf7dc43732a44ed924bc78",
+      "start_line": 798
+    },
+    {
+      "end_line": 850,
+      "id": "F01-14-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "09b50bf9eca9d0da6fa88bb3881b93e6ffd3c27b7fdd4afbdf4cc8700894b2d0",
+      "start_line": 842
+    },
+    {
+      "end_line": 144,
+      "id": "F01-14-SIGINT",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 830,
+      "id": "F01-14-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "30fcc764fe6ca97a817dd1bd8a7e5b4c06857d0c6fbf7dc43732a44ed924bc78",
+      "start_line": 798
+    },
+    {
+      "end_line": 850,
+      "id": "F01-14-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "09b50bf9eca9d0da6fa88bb3881b93e6ffd3c27b7fdd4afbdf4cc8700894b2d0",
+      "start_line": 842
+    },
+    {
+      "end_line": 144,
+      "id": "F01-14-SIGHUP",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 692,
+      "id": "F01-15",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "48b186792f7460febce4e2a11395b966f164b77945c10837e5bd24ac5fd252aa",
+      "start_line": 681
+    },
+    {
+      "end_line": 725,
+      "id": "F01-15",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "1286105a90884553f9852d276f368fc94dcaadf31822fdce01cfee4220ea508b",
+      "start_line": 722
+    },
+    {
+      "end_line": 794,
+      "id": "F01-15",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "range_sha256": "1392240b6075b1f5540aad4ed86294c80091971e16f10aa46ccc01b3db2cf845",
+      "start_line": 782
+    },
+    {
+      "end_line": 144,
+      "id": "F01-15",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "range_sha256": "d14dd179c9bf913f8704581e2cbaee8c991722c4fd8b378e7e6c1eb5a7df0f9b",
+      "start_line": 128
+    },
+    {
+      "end_line": 293,
+      "id": "F02-1-UNREGISTER",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Independent pipe cleanup and record-before-close helper",
+      "range_sha256": "0e32d3b8800ca219159395bf040cb52389953da0ef142f26112c45f25223cb5a",
+      "start_line": 276
+    },
+    {
+      "end_line": 317,
+      "id": "F02-1-UNREGISTER",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Actual os.read and ordinary exception branch",
+      "range_sha256": "6f57e9fbde01f9f3620afd26159ac1a8beff90841d87cbe66d7033e8e5c17e7f",
+      "start_line": 295
+    },
+    {
+      "end_line": 293,
+      "id": "F02-1-CLOSE",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Separate unregister and stream.close",
+      "range_sha256": "0e32d3b8800ca219159395bf040cb52389953da0ef142f26112c45f25223cb5a",
+      "start_line": 276
+    },
+    {
+      "end_line": 317,
+      "id": "F02-1-CLOSE",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Read exception origin",
+      "range_sha256": "6f57e9fbde01f9f3620afd26159ac1a8beff90841d87cbe66d7033e8e5c17e7f",
+      "start_line": 295
+    },
+    {
+      "end_line": 157,
+      "id": "F02-2",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Sink.append positive os.write prefix updates",
+      "range_sha256": "b60932f9c230e41d21542914de946c976ca2eb3b4b36e9cc01f2b9449f1d8eea",
+      "start_line": 138
+    },
+    {
+      "end_line": 293,
+      "id": "F02-2",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Cleanup ordering",
+      "range_sha256": "0e32d3b8800ca219159395bf040cb52389953da0ef142f26112c45f25223cb5a",
+      "start_line": 276
+    },
+    {
+      "end_line": 332,
+      "id": "F02-2",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Child sink-write failure origin",
+      "range_sha256": "bed25443273547eb24bb568d2362c50b4b6dc8de7f3b1990e88d510c65dd1a24",
+      "start_line": 323
+    },
+    {
+      "end_line": 337,
+      "id": "F02-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Cap-aware read, retained prefix and first excess child byte",
+      "range_sha256": "7bde3429bd89196dc5145a989013e4f80f0b24da38bb0f72eba12c73596ce50d",
+      "start_line": 299
+    },
+    {
+      "end_line": 293,
+      "id": "F02-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Overflow record before close",
+      "range_sha256": "0e32d3b8800ca219159395bf040cb52389953da0ef142f26112c45f25223cb5a",
+      "start_line": 276
+    },
+    {
+      "end_line": 379,
+      "id": "F02-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "purpose": "Single envelope checked against output cap before stream write",
+      "range_sha256": "b4e3ba62dafc0bc5c4394a83c30b9b46d6bcecf196b254584bd2d498be72f644",
+      "start_line": 371
+    },
+    {
+      "end_line": 400,
+      "id": "F02-3",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+      "purpose": "Outer refusal diagnostic; no universal concatenated-error-path bound claimed",
+      "range_sha256": "a60dd2f4db368499a8d3bc4a0bdfda3bce6c1f312804ae9ac3cea8def9b357b8",
+      "start_line": 394
+    },
+    {
+      "end_line": 343,
+      "id": "F02-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Census permitted prefix and overflow origin",
+      "range_sha256": "bcc70f7d79b2da65052e1a6fcc97d44a4262deb54f5c53b087e62560ee49c5ad",
+      "start_line": 338
+    },
+    {
+      "end_line": 403,
+      "id": "F02-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Actual positive dynamic quota and fixed ps launch",
+      "range_sha256": "2a4b84f618565ffecba690dbe5f83fcf285efa892da0cfa62969ad9e8d4992f7",
+      "start_line": 373
+    },
+    {
+      "end_line": 498,
+      "id": "F02-4",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Census propagation and durable raw-prefix event",
+      "range_sha256": "19744b019bc4ee60952b64c2d51dde47af0b1c4617393555d330b7512c5fe18c",
+      "start_line": 441
+    },
+    {
+      "end_line": 415,
+      "id": "F02-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Normal census loop completion conditions",
+      "range_sha256": "3d0fb203a47d751894e7a6378e5bb734489c58109a839eb2f4adfcf0277b627e",
+      "start_line": 404
+    },
+    {
+      "end_line": 475,
+      "id": "F02-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Earlier body failure, helper cleanup, actual tail pump and reference",
+      "range_sha256": "0ca3bd2bee9cff89b4331d6fe82344578b3196a73772750cd1d588af8184955c",
+      "start_line": 441
+    },
+    {
+      "end_line": 317,
+      "id": "F02-5",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Read origin inside that pump",
+      "range_sha256": "788995fb6dfc1b6ca352b296adcf813ac1323866bea50efb1055349f62578292",
+      "start_line": 309
+    },
+    {
+      "end_line": 323,
+      "id": "F02-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Actual zero-byte read sets EOF then calls close_pipe",
+      "range_sha256": "f3529a917bd820e7629075cd675d7f6bbe7997002b959b789ed2e6679246ad69",
+      "start_line": 317
+    },
+    {
+      "end_line": 287,
+      "id": "F02-6",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Successful unregister then failing stream.close",
+      "range_sha256": "6dc3eaf58db5503d4e99d8b09c05473ff6fe77873059984510e429d323583624",
+      "start_line": 276
+    },
+    {
+      "end_line": 323,
+      "id": "F02-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Natural EOF branch",
+      "range_sha256": "f3529a917bd820e7629075cd675d7f6bbe7997002b959b789ed2e6679246ad69",
+      "start_line": 317
+    },
+    {
+      "end_line": 287,
+      "id": "F02-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Successful unregister and close",
+      "range_sha256": "6dc3eaf58db5503d4e99d8b09c05473ff6fe77873059984510e429d323583624",
+      "start_line": 276
+    },
+    {
+      "end_line": 526,
+      "id": "F02-7",
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "purpose": "Live-sample and owned child success obligations",
+      "range_sha256": "6eb31f760f4c3b2612e0f997d177e4461eeb438ee576c604d954075535f6df23",
+      "start_line": 503
+    }
+  ],
+  "current_runtime_observed": false,
+  "dependencies": {
+    "access_policies": {
+      "metadata-identities-only-no-scientific-body-decoding": 182,
+      "opaque-bytes-only": 268
+    },
+    "additions": [
+      {
+        "bytes": 1728,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/CHECKER_HISTORY.json",
+        "sha256": "636bf66b5c826422a36f4b9fb9f20c335a8e4291fa536481ad4a69f4d92967f0"
+      },
+      {
+        "bytes": 111775,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/FINAL_PIN_CHECK.json",
+        "sha256": "c7e59f911588b52e334acc06f95df5d2f0a23534916e73c0fb718bbbf3376c94"
+      },
+      {
+        "bytes": 5887,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/HANDOFF.json",
+        "sha256": "7fdb6fa7c042cfebb47607cf11932efba8aabb1fcf9e8d0959962e3acf2673e1"
+      },
+      {
+        "bytes": 15287,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+        "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+      },
+      {
+        "bytes": 22740,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+        "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+      },
+      {
+        "bytes": 174064,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+        "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+      },
+      {
+        "bytes": 10293,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+        "sha256": "3e599e3fff7ba845ec9e08741cb6ec1947c1a7bfd84164bc55bcf757718579cb"
+      },
+      {
+        "bytes": 17386,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/AUTHOR_STATIC_CHECKS.json",
+        "sha256": "d2605afbeabce911ca54f1d38245bcd1c912afbf8acfa2b3e0e0e42d9d68c8a3"
+      },
+      {
+        "bytes": 11423,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/DEPENDENCY_NOTES.md",
+        "sha256": "18ac7ec773bbe979d07ff45b5a466c01661baf94cf379421b168e6cdf1e28a97"
+      },
+      {
+        "bytes": 14864,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F01_SOURCE_NOTES.md",
+        "sha256": "094585ca7cc46794f6911be92f5df1d2863a774f79acfc2204e5741b2c851bc2"
+      },
+      {
+        "bytes": 15600,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F02_SOURCE_NOTES.md",
+        "sha256": "c359fd52c232f36239e6c30582a7e549a13b65769638ee7997c599c9c9a470ec"
+      },
+      {
+        "bytes": 8969,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+        "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+      },
+      {
+        "bytes": 6044,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+        "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+      },
+      {
+        "bytes": 4696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.md",
+        "sha256": "d6a2e6379ea9e1f763e8222b47afc51444a1922c79b9dd81d3aadc56a213c836"
+      },
+      {
+        "bytes": 73046,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/METADATA_CONTRACT.diff",
+        "sha256": "fa5f8669a3bc90bd56398ddcea61b3e3ecc7e1e94fc6dbb5ab602bbd5c123f25"
+      },
+      {
+        "bytes": 2996,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/REVIEW_OBLIGATIONS.md",
+        "sha256": "3c94e32c7200c899ca1f5788595124aeb91f37f8d4e77ca381aff70c3317a79c"
+      },
+      {
+        "bytes": 15005,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/ROOT_INTERFACE_CONTRACT.md",
+        "sha256": "b47225767ebab5822fbca8d40727fe57fed577b054c6a52606d030a5cee0c34b"
+      },
+      {
+        "bytes": 23623,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CODE.diff",
+        "sha256": "1bd097ae935978447488ba80a3146eade0c2c05a86ff27ead15e5dfbe276135e"
+      },
+      {
+        "bytes": 51931,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CORRESPONDENCE.json",
+        "sha256": "69d78e6c2b10ee26dfce2455817c6037389162aa4dfe41ac43e8f8cc68e7befa"
+      },
+      {
+        "bytes": 699052,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_DEPENDENCIES.json",
+        "sha256": "bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544"
+      },
+      {
+        "bytes": 26029,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+        "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+      },
+      {
+        "bytes": 33143,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+        "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+      },
+      {
+        "bytes": 60009,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      {
+        "bytes": 43838,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      },
+      {
+        "bytes": 5028,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI140_ROOT_ADJUDICATION.json",
+        "sha256": "c6611c3e7ae4d915dbef12d37cafcbd9ec714eb76a66fb84815a9ed2968b0481"
+      },
+      {
+        "bytes": 19308,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_CHECK.json",
+        "sha256": "f0477e553bd4bb19d8c0473d54effc6041ea063faba3395a1ee5fde6935caa3a"
+      },
+      {
+        "bytes": 3887,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/ROOT_SOURCE_REVIEW.md",
+        "sha256": "2ec34c80d5853bc9cdf9b6e1c1e3c707c8a7b70fc7cb2171aabb5acf8a1c0e08"
+      }
+    ],
+    "all_identity_rows_sha256": "c7b5e99a45ba2c444946e7aa21933ef7900b2bd60c07af16c2fe9aac688f8ac5",
+    "bytes": 171097748,
+    "files": 450,
+    "largest_bytes": 31528781,
+    "preserved_complete_objects_except_role": 423
+  },
+  "excluded_external_diagnostics_not_opened": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V2.json"
+  ],
+  "execution_admission": false,
+  "focused_controls_executed": 0,
+  "full_policy_objects_equal": true,
+  "historical_namespaces": [
+    {
+      "entries": 17,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0"
+    },
+    {
+      "entries": 7,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b"
+    }
+  ],
+  "namespace": [
+    "ADMIN_CHECK_FAILURE.txt",
+    "AUTHOR_CHECKS.json",
+    "DEPENDENCY_NOTES.md",
+    "F01_BOUNDARIES.json",
+    "F01_FEASIBILITY.md",
+    "F02_BOUNDARIES.json",
+    "F02_FEASIBILITY.md",
+    "FEASIBILITY_CONTRACT.md",
+    "FEASIBILITY_DECISION.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_APPLICABILITY.json",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "bytes": 1048,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/ADMIN_CHECK_FAILURE.txt",
+      "sha256": "44f131bb6cee34cfc37653f9a7b1fa0cdf4952c0750c42e6c0a0aac76dda3d1e"
+    },
+    {
+      "bytes": 34682,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/AUTHOR_CHECKS.json",
+      "sha256": "1dc7eba4ea752100d78be7193b4d36a58fe8ad6777b31384e257048d16a08445"
+    },
+    {
+      "bytes": 8690,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/DEPENDENCY_NOTES.md",
+      "sha256": "3734e4aa023d28151f02da3f47cd4b64d6e3054984bb4913e2fb4fe6634b3a2c"
+    },
+    {
+      "bytes": 139932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_BOUNDARIES.json",
+      "sha256": "3ae6ee9e8f0229d87730a84ffbeb3949be208c81a3215d0939e0b6be48fc4ee8"
+    },
+    {
+      "bytes": 16839,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F01_FEASIBILITY.md",
+      "sha256": "8d5b7bae285dcdd535f3bdc8e8de4971468056656b321e4ba2328fc7da101039"
+    },
+    {
+      "bytes": 63780,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_BOUNDARIES.json",
+      "sha256": "a0b21bf2bb0796ddf7b044a556e85d611982af89618233804b8ad96b713e8b6c"
+    },
+    {
+      "bytes": 15348,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/F02_FEASIBILITY.md",
+      "sha256": "e210d24f1e9a3769399a5386984118c200b11c917c0557d1ecac0e33be77ace0"
+    },
+    {
+      "bytes": 10467,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_CONTRACT.md",
+      "sha256": "079bcd1a8704789f587a7c9e05f97647bcd58cbb91f51e540f51485fd3704b99"
+    },
+    {
+      "bytes": 8485,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/FEASIBILITY_DECISION.md",
+      "sha256": "4bf9188060df015729e83e874625644b9b4858448a68e4012ff9afad7af8a08b"
+    },
+    {
+      "bytes": 4988,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.md",
+      "sha256": "9f41cfa2c734bbd30efe1ad0abead5178f7524baeb25ec263cabd69562654c07"
+    },
+    {
+      "bytes": 6243,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_APPLICABILITY.json",
+      "sha256": "76ea980c93e2fe032369eb7423cd1f046b141ba50cd773e1cd189b7f1a3c3aea"
+    },
+    {
+      "bytes": 724108,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_DEPENDENCIES.json",
+      "sha256": "0b80123c32cedc50bb4597fe4eac2d06f5b7e049d5d598024cb1e0da2a02c16c"
+    },
+    {
+      "bytes": 25382,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/SOURCE_IDENTITIES.json",
+      "sha256": "29a5650700a1963a8708a990274a93a7108bce254f3157e65bd5a0887f6b23f4"
+    }
+  ],
+  "policy_cases_executed": 0,
+  "policy_counts": {
+    "audit": 62,
+    "native": 77
+  },
+  "ret_paused": true,
+  "review_method": "New reviewer-owned stdlib administrative script; stable seven-field no-follow file reads, duplicate-rejecting administrative JSON and opaque whole-file identities; source ranges read only as text. No subject imports, compilation, AST, probe, control, fixture, runtime/candidate observation or scientific-body decode.",
+  "root_acceptance": false,
+  "schema": "ri143-independent-opaque-and-text-check-v1",
+  "source_handoff": {
+    "bytes": 6743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+    "sha256": "6ffa8638c138ccd481514d6ce8dd835d8c2c17f48e91c4215d80eb1e47546307"
+  },
+  "source_ranges": [
+    {
+      "full_line_count": 400,
+      "source": {
+        "bytes": 23248,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/qualify_policies.py",
+        "sha256": "1ac5514c37f27478fe3991c6f80773e688a0bc13a154029ab47af0e4d9c5eb37"
+      },
+      "unique_referenced_lines": 16
+    },
+    {
+      "full_line_count": 1040,
+      "source": {
+        "bytes": 60009,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+        "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+      },
+      "unique_referenced_lines": 230
+    },
+    {
+      "full_line_count": 850,
+      "source": {
+        "bytes": 43838,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+        "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+      },
+      "unique_referenced_lines": 424
+    }
+  ],
+  "status": "PASS_ADMINISTRATIVE_IDENTITIES_ONLY",
+  "typed_current_references_checked": 45
+}

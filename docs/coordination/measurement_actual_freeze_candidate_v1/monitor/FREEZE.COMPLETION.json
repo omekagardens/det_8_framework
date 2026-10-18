@@ -1,0 +1,299 @@
+{
+  "child_exit_code": 0,
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ADMIT_FREEZE_CANDIDATE.json"
+  ],
+  "elapsed_seconds": 0.796589125,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 0.029817207999999984,
+  "first_error": null,
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.047170792,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "   704\n"
+    },
+    {
+      "elapsed_seconds": 0.08003045900000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 14640\n"
+    },
+    {
+      "elapsed_seconds": 0.113003125,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 18464\n"
+    },
+    {
+      "elapsed_seconds": 0.14615099999999998,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 20784\n"
+    },
+    {
+      "elapsed_seconds": 0.17929716699999998,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 31504\n"
+    },
+    {
+      "elapsed_seconds": 0.212356959,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 33872\n"
+    },
+    {
+      "elapsed_seconds": 0.24540362500000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 35600\n"
+    },
+    {
+      "elapsed_seconds": 0.278601125,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 37600\n"
+    },
+    {
+      "elapsed_seconds": 0.30994525,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 38896\n"
+    },
+    {
+      "elapsed_seconds": 0.343294209,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 40992\n"
+    },
+    {
+      "elapsed_seconds": 0.373889084,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 41808\n"
+    },
+    {
+      "elapsed_seconds": 0.4069675,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49504\n"
+    },
+    {
+      "elapsed_seconds": 0.440158042,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49936\n"
+    },
+    {
+      "elapsed_seconds": 0.47339187499999996,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 49936\n"
+    },
+    {
+      "elapsed_seconds": 0.5066265000000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 51824\n"
+    },
+    {
+      "elapsed_seconds": 0.5396399590000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 51824\n"
+    },
+    {
+      "elapsed_seconds": 0.572722834,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 51824\n"
+    },
+    {
+      "elapsed_seconds": 0.605670875,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 53872\n"
+    },
+    {
+      "elapsed_seconds": 0.6341133750000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 54368\n"
+    },
+    {
+      "elapsed_seconds": 0.6672845000000001,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 60800\n"
+    },
+    {
+      "elapsed_seconds": 0.700460792,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 64576\n"
+    },
+    {
+      "elapsed_seconds": 0.733599917,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 64592\n"
+    },
+    {
+      "elapsed_seconds": 0.766771917,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 64576\n"
+    }
+  ],
+  "passed": true,
+  "peak_sampled_rss_kib": 64592,
+  "samples": [
+    {
+      "elapsed_seconds": 0.047170792,
+      "gap_seconds": 0.047170792,
+      "rss_kib": 704
+    },
+    {
+      "elapsed_seconds": 0.08003045900000001,
+      "gap_seconds": 0.03285966700000001,
+      "rss_kib": 14640
+    },
+    {
+      "elapsed_seconds": 0.113003125,
+      "gap_seconds": 0.032972665999999984,
+      "rss_kib": 18464
+    },
+    {
+      "elapsed_seconds": 0.14615099999999998,
+      "gap_seconds": 0.03314787499999999,
+      "rss_kib": 20784
+    },
+    {
+      "elapsed_seconds": 0.17929716699999998,
+      "gap_seconds": 0.033146167000000004,
+      "rss_kib": 31504
+    },
+    {
+      "elapsed_seconds": 0.212356959,
+      "gap_seconds": 0.03305979200000003,
+      "rss_kib": 33872
+    },
+    {
+      "elapsed_seconds": 0.24540362500000001,
+      "gap_seconds": 0.033046666,
+      "rss_kib": 35600
+    },
+    {
+      "elapsed_seconds": 0.278601125,
+      "gap_seconds": 0.03319749999999999,
+      "rss_kib": 37600
+    },
+    {
+      "elapsed_seconds": 0.30994525,
+      "gap_seconds": 0.031344125,
+      "rss_kib": 38896
+    },
+    {
+      "elapsed_seconds": 0.343294209,
+      "gap_seconds": 0.03334895900000001,
+      "rss_kib": 40992
+    },
+    {
+      "elapsed_seconds": 0.373889084,
+      "gap_seconds": 0.030594874999999966,
+      "rss_kib": 41808
+    },
+    {
+      "elapsed_seconds": 0.4069675,
+      "gap_seconds": 0.033078416,
+      "rss_kib": 49504
+    },
+    {
+      "elapsed_seconds": 0.440158042,
+      "gap_seconds": 0.033190542000000045,
+      "rss_kib": 49936
+    },
+    {
+      "elapsed_seconds": 0.47339187499999996,
+      "gap_seconds": 0.033233832999999935,
+      "rss_kib": 49936
+    },
+    {
+      "elapsed_seconds": 0.5066265000000001,
+      "gap_seconds": 0.03323462500000007,
+      "rss_kib": 51824
+    },
+    {
+      "elapsed_seconds": 0.5396399590000001,
+      "gap_seconds": 0.03301345899999997,
+      "rss_kib": 51824
+    },
+    {
+      "elapsed_seconds": 0.572722834,
+      "gap_seconds": 0.033082874999999956,
+      "rss_kib": 51824
+    },
+    {
+      "elapsed_seconds": 0.605670875,
+      "gap_seconds": 0.03294804100000004,
+      "rss_kib": 53872
+    },
+    {
+      "elapsed_seconds": 0.6341133750000001,
+      "gap_seconds": 0.028442500000000037,
+      "rss_kib": 54368
+    },
+    {
+      "elapsed_seconds": 0.6672845000000001,
+      "gap_seconds": 0.03317112499999997,
+      "rss_kib": 60800
+    },
+    {
+      "elapsed_seconds": 0.700460792,
+      "gap_seconds": 0.03317629199999994,
+      "rss_kib": 64576
+    },
+    {
+      "elapsed_seconds": 0.733599917,
+      "gap_seconds": 0.03313912500000005,
+      "rss_kib": 64592
+    },
+    {
+      "elapsed_seconds": 0.766771917,
+      "gap_seconds": 0.03317199999999998,
+      "rss_kib": 64576
+    }
+  ],
+  "stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/monitor/FREEZE.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/monitor/FREEZE.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stop_reason": null,
+  "tail_errors": [],
+  "wall_seconds": 180
+}

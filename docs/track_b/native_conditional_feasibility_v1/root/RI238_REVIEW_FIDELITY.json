@@ -1,0 +1,12 @@
+{
+  "complete_text_fidelity": true,
+  "receipt": "6963c5 exit0",
+  "review": {
+    "bytes": 10652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_INDEPENDENT_REVIEW.txt",
+    "sha256": "8e19f71da16e531a36758b6cb47068d95e99771fd2f06c8cc659ae604d367869"
+  },
+  "reviewer": "/root/qr_opportunities",
+  "reviewer_write_or_replay": false,
+  "terminal_newlines_only": true
+}

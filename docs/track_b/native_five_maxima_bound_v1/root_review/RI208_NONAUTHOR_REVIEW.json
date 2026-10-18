@@ -1,0 +1,77 @@
+{
+  "actual_reads": [
+    {
+      "chunk": "16996b",
+      "exit_code": 0,
+      "scope": "complete manuscripts and initial pins"
+    },
+    {
+      "chunk": "8a0a22",
+      "exit_code": 0,
+      "scope": "complete handoff/inventory"
+    },
+    {
+      "chunk": "3efcec",
+      "exit_code": 0,
+      "scope": "complete author record/checker"
+    },
+    {
+      "chunk": "4c1edc",
+      "exit_code": 0,
+      "scope": "complete references and all six final pins"
+    },
+    {
+      "chunk": "77ab76",
+      "exit_code": 0,
+      "scope": "line-reference reconciliation"
+    }
+  ],
+  "author_checks": {
+    "attribution": "Externally reported author execution reconciled against complete checker source, not reviewer replay.",
+    "final": {
+      "chunk": "56764b",
+      "exit_code": 0,
+      "identities": 20,
+      "references": 28
+    },
+    "preseal": {
+      "chunk": "500385",
+      "exit_code": 0,
+      "identities": 18,
+      "references": 25
+    }
+  },
+  "automated_proof_arithmetic": false,
+  "conclusions": [
+    "Complete marked five-maxima domain and proper ideal partition; all-empty five precursors excluded as six-maxima.",
+    "Full four-parent denominators use all-ideal floor; selected-pair proper-slot argument correctly gives epsilon\u00b2/8.",
+    "Accepted support only removes canonical boundary component at qualifying proper births; positive theta remains.",
+    "All eight/sixteen extra-old-maximum factors and empty-parent1 retained; at most one correction by coverage.",
+    "C5 triple/pair/single/B multiplicities2/3/4/-5 and subsequent cancellation correct; both A ideals retained.",
+    "Manual bound U6<462080760006<463b<465b<T; conditional named finite premises."
+  ],
+  "diagnostics_preserved": [
+    "69985a exit2 read-only nonexistent path lookup and recovery",
+    "background display clipping",
+    "both successful wording correction phases"
+  ],
+  "direct_bytes": 537440,
+  "direct_sources": 14,
+  "handoff": {
+    "bytes": 7875,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/HANDOFF.json",
+    "sha256": "f912de523795987606968934907e264d238bd5e074af410a3b3e68034162804f"
+  },
+  "inherited423_not_replayed": true,
+  "inherited_boundary_objects": 15,
+  "mathematical_blocker": null,
+  "repository_or_Git_write": false,
+  "ret_paused": true,
+  "reviewer": "/root/qr_opportunities",
+  "role": "Independent nonauthor manual reviewer; recommendation recorded by root, not a provider transcript export.",
+  "schema": "ri207-independent-ri208-review-v1",
+  "scientific_body_or_vector_read": false,
+  "scientific_execution": false,
+  "six_maxima_or_global_M6_or_actual_W_accepted": false,
+  "status": "ACCEPT_COMPLETE_FIVE_MAXIMA_CLASS_CONDITIONAL_THEOREM"
+}

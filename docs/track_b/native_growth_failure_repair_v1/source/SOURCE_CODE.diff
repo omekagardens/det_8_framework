@@ -1,0 +1,457 @@
+--- RI138/owned_process.py
++++ RI140/owned_process.py
+@@ -1,4 +1,4 @@
+-"""RI138 source-only external owned-process collection, not execution authority.
++"""RI140 F01 startup/F02 repair of external collection, not execution authority.
+ 
+ The root orchestrator authenticates this complete module and the exact command,
+ runtime, cards and reservation before calling run_child once. No source loads,
+@@ -40,6 +40,14 @@
+     pass
+ 
+ 
++class RecordedPipeFailure(Exception):
++    """Internal propagation token, never a newly observed failure."""
++
++    def __init__(self, owner, record):
++        super().__init__('pipe failure already recorded before cleanup')
++        self.owner, self.record = owner, record
++
++
+ def canonical(value):
+     return (json.dumps(value, sort_keys=True, separators=(',', ':'),
+                        ensure_ascii=True, allow_nan=False) + '\n').encode('ascii')
+@@ -225,6 +233,8 @@
+             self.omitted_error_count += 1
+ 
+     def failure(self, phase, error):
++        if type(error) is RecordedPipeFailure and error.owner is self:
++            return  # The originating pipe boundary already stored this cause.
+         item = error if type(error) is dict else error_value(phase, error)
+         self.remember_error(item)
+         sink = self.sinks.get('errors')
+@@ -276,6 +286,13 @@
+         except Exception as error:
+             self.failure('pipe-close-'+kind+'-'+name, error)
+ 
++    def fail_pipe(self, phase, error, kind, name):
++        record = error_value(phase, error)
++        self.failure(phase, record)  # Before either independent close operation.
++        propagation = RecordedPipeFailure(self, record)
++        self.close_pipe(kind, name)
++        raise propagation from error
++
+     def pump(self, timeout):
+         if not self.stopping and (self.received_signals or self.signal_overflow):
+             raise CollectionFailure('catchable interruption ends active stream/census work')
+@@ -292,11 +309,10 @@
+                 data = os.read(key.fd, max(1, amount))
+             except BlockingIOError:
+                 continue
+-            except Exception:
++            except Exception as error:
+                 if kind == 'child':
+                     self.streams[name]['complete'] = False
+-                self.close_pipe(kind, name)
+-                raise
++                self.fail_pipe('pipe-read-'+kind+'-'+name, error, kind, name)
+             if not data:
+                 if kind == 'child':
+                     self.streams[name]['eof'] = True
+@@ -309,21 +325,22 @@
+                 room = LIMITS['output_bytes']-sink.written
+                 try:
+                     sink.append(data[:room])
+-                except Exception:
++                except Exception as error:
+                     state['complete'] = False
+-                    self.close_pipe(kind, name)
+-                    raise
++                    self.fail_pipe('pipe-write-'+kind+'-'+name, error, kind, name)
+                 if len(data) > room:
+                     state['complete'] = False
+                     state['overflow_first_byte_b64'] = base64.b64encode(data[room:room+1]).decode('ascii')
+-                    self.close_pipe(kind, name)
+-                    raise CollectionFailure(name+' exceeded independent 8-MiB capture ceiling')
++                    self.fail_pipe('pipe-overflow-'+kind+'-'+name,
++                                   CollectionFailure(name+' exceeded independent 8-MiB capture ceiling'),
++                                   kind, name)
+             else:
+                 room = self.ps_limit-sum(map(len, self.ps_buffers.values()))
+                 self.ps_buffers[name].extend(data[:room])
+                 if len(data) > room:
+-                    self.close_pipe(kind, name)
+-                    raise CollectionFailure('census raw metadata capacity exceeded; partial bytes retained')
++                    self.fail_pipe('pipe-overflow-'+kind+'-'+name,
++                                   CollectionFailure('census raw metadata capacity exceeded; partial bytes retained'),
++                                   kind, name)
+ 
+     def kill(self, process, label):
+         result = {'event': 'termination', 'label': label, 'pid': process.pid,
+@@ -423,7 +440,11 @@
+                 raise CollectionFailure('owned process group survived reaped leader')
+         except Exception as error:
+             failure = error
+-            event['errors'].append(error_value('census', error))
++            if type(error) is RecordedPipeFailure and error.owner is self:
++                event.setdefault('propagated_pipe_failure_refs', []).append(
++                    {key: error.record[key] for key in ('phase', 'monotonic_ns')})
++            else:
++                event['errors'].append(error_value('census', error))
+             self.failure('census', error)  # Retain first cause before cleanup failures.
+         finally:
+             if hard_abort_active():
+@@ -438,7 +459,11 @@
+                         try:
+                             self.pump(min(0.005, max(0, end-time.monotonic_ns())/NS))
+                         except Exception as error:
+-                            event['errors'].append(error_value('census-tail-pump', error))
++                            if type(error) is RecordedPipeFailure and error.owner is self:
++                                event.setdefault('propagated_pipe_failure_refs', []).append(
++                                    {key: error.record[key] for key in ('phase', 'monotonic_ns')})
++                            else:
++                                event['errors'].append(error_value('census-tail-pump', error))
+                             self.failure('census-tail-pump', error)
+                             break
+                 event['ps_returncode'] = process.poll()
+@@ -648,18 +673,29 @@
+         if not stat.S_ISDIR(os.lstat(path).st_mode):
+             raise CollectionFailure('cwd/output is not an existing directory')
+     owner = Owner(list(command), cwd, dict(env), outputdir, outer_deadline_ns)
++    ordinary_signals = {signal.SIGTERM, signal.SIGINT, signal.SIGHUP}
++    original_mask = None
+     try:
+         report, report_file, close_receipt = None, None, None
+         try:
++            original_mask = signal.pthread_sigmask(signal.SIG_BLOCK, ordinary_signals)
++            if original_mask & ordinary_signals:
++                raise CollectionFailure('unsupported initially blocked ordinary signal in parent launcher')
++            for signum in (signal.SIGTERM, signal.SIGINT, signal.SIGHUP):
++                owner.old_handlers[signum] = signal.getsignal(signum)
++                if not callable(owner.old_handlers[signum]):
++                    raise CollectionFailure('unsupported noncallable ordinary handler in parent launcher')
++                signal.signal(signum, owner.signal_received)
++            pending = sorted(signal.sigpending() & ordinary_signals)
++            if pending:
++                raise CollectionFailure('pending ordinary signals during startup registration: '+str(pending))
++            signal.pthread_sigmask(signal.SIG_SETMASK, original_mask)
+             owner.sinks['errors'] = Sink(Path(outputdir)/'process-errors.jsonl', ERROR_LIMIT)
+             owner.sinks['events'] = Sink(Path(outputdir)/'process-events.jsonl', LIMITS['auxiliary_metadata_bytes']-META_RESERVE)
+             for name in ('stdout', 'stderr'):
+                 owner.sinks[name] = Sink(Path(outputdir)/(name+'.log'), LIMITS['output_bytes'])
+             directory_sync(outputdir)
+             owner.selector = selectors.DefaultSelector()
+-            for signum in (signal.SIGTERM, signal.SIGINT, signal.SIGHUP):
+-                owner.old_handlers[signum] = signal.getsignal(signum)
+-                signal.signal(signum, owner.signal_received)
+             if owner.received_signals or owner.signal_overflow:
+                 raise CollectionFailure('catchable interruption before dispatcher launch')
+             if outer_deadline_ns-time.monotonic_ns() <= TAIL_NS:
+@@ -743,23 +779,72 @@
+                            'signal_overflow': owner.signal_overflow,
+                            'own_final_close_requires_external_observation': True}
+             close_receipt = owner.save('PROCESS_CLOSE.json', close_value)
+-            for signum, handler in owner.old_handlers.items():
+-                try:
+-                    signal.signal(signum, handler)
+-                except Exception as error:
+-                    owner.failure('signal-handler-restore', error)
+-        return {'schema': 'ri138-owned-process-return-v1',
+-                'status': 'COLLECTED_NOT_EXTERNALLY_ACCEPTED', 'success': owner.success(),
+-                'report': report, 'report_file': report_file, 'close_receipt': close_receipt,
+-                'files': {name: str(Path(outputdir)/name) for name in FILES},
+-                'first_error': owner.first_error, 'later_errors': list(owner.later_errors),
+-                'omitted_error_count': owner.omitted_error_count,
+-                'error_journal_unavailable': owner.error_journal_unavailable,
+-                'received_signals': list(owner.received_signals), 'signal_overflow': owner.signal_overflow,
+-                'outer_tool_origin_established': False, 'root_acceptance': False}
+     finally:
+         # Also covers a hard alarm arriving during ordinary finalization,
+         # after the inner finally-entry guard has already been evaluated.
+         if hard_abort_active():
+-            abort_owned(owner)
++            try:
++                abort_owned(owner)
++            finally:
++                if original_mask is not None:
++                    try:
++                        signal.pthread_sigmask(signal.SIG_SETMASK, original_mask)
++                    except Exception:
++                        pass  # External hard abort is not a completed restoration claim.
+             raise
++        restoration_errors = []
++        try:
++            try:
++                if original_mask is not None:
++                    try:
++                        signal.pthread_sigmask(signal.SIG_BLOCK, ordinary_signals)
++                    except Exception as error:
++                        restoration_errors.append(('signal-restore-mask', error))
++                    try:
++                        pending = sorted(signal.sigpending() & ordinary_signals)
++                        if pending:
++                            restoration_errors.append(('signal-pending-restore', CollectionFailure(
++                                'pending ordinary signals before handler restoration: '+str(pending))))
++                    except Exception as error:
++                        restoration_errors.append(('signal-restore-pending-check', error))
++                for signum, handler in owner.old_handlers.items():
++                    try:
++                        signal.signal(signum, handler)
++                    except Exception as error:
++                        restoration_errors.append(('signal-handler-restore', error))
++            finally:
++                # A hard abort uses only the emergency branch below, not ordinary journals.
++                if not hard_abort_active() and original_mask is not None:
++                    try:
++                        pending = sorted(signal.sigpending() & ordinary_signals)
++                        if pending:
++                            restoration_errors.append(('signal-pending-unmask', CollectionFailure(
++                                'pending ordinary signals after handler restoration: '+str(pending))))
++                    except Exception as error:
++                        restoration_errors.append(('signal-unmask-pending-check', error))
++                    try:
++                        signal.pthread_sigmask(signal.SIG_SETMASK, original_mask)
++                    except Exception as error:
++                        restoration_errors.append(('signal-mask-restore', error))
++            for phase, error in restoration_errors:
++                owner.failure(phase, error)
++        finally:
++            if hard_abort_active():
++                try:
++                    abort_owned(owner)
++                finally:
++                    if original_mask is not None:
++                        try:
++                            signal.pthread_sigmask(signal.SIG_SETMASK, original_mask)
++                        except Exception:
++                            pass  # Do not replace the hard abort with an ordinary signal.
++                raise
++    return {'schema': 'ri138-owned-process-return-v1',
++            'status': 'COLLECTED_NOT_EXTERNALLY_ACCEPTED', 'success': owner.success(),
++            'report': report, 'report_file': report_file, 'close_receipt': close_receipt,
++            'files': {name: str(Path(outputdir)/name) for name in FILES},
++            'first_error': owner.first_error, 'later_errors': list(owner.later_errors),
++            'omitted_error_count': owner.omitted_error_count,
++            'error_journal_unavailable': owner.error_journal_unavailable,
++            'received_signals': list(owner.received_signals), 'signal_overflow': owner.signal_overflow,
++            'outer_tool_origin_established': False, 'root_acceptance': False}
+--- RI138/launch_policy_case.py
++++ RI140/launch_policy_case.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""RI138 two-phase external policy launcher; source only until genuine root admission.
++"""RI140 repaired two-phase policy launcher; source only until genuine root admission.
+ 
+ Root authenticates this interpreter before startup and owns actual tool history.
+ This program implements finite custody/collection, never external provenance.
+@@ -19,11 +19,11 @@
+ 
+ 
+ BASE = Path('/Volumes/AI_DATA/development/det-review-evidence')
+-Q = BASE/'ri138-native-external-launch-source-92pbd52w'
++Q = BASE/'ri140-native-failure-repair-source-l_a4mna0'
+ SELF = Q/'launch_policy_case.py'
+ MANIFEST = Q/'SOURCE_IDENTITIES.json'
+-MANIFEST_PIN = {'path': str(MANIFEST), 'bytes': 23755,
+-                'sha256': 'ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465'}
++MANIFEST_PIN = {'path': str(MANIFEST), 'bytes': 26029,
++                'sha256': '25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c'}
+ PYTHON = '/opt/homebrew/bin/python3'
+ ENV = {'PATH': '/usr/bin:/bin', 'LANG': 'C', 'LC_ALL': 'C', 'TZ': 'UTC',
+        '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'}
+@@ -47,6 +47,8 @@
+                  'process-errors.jsonl', 'PROCESS_REPORT.json', 'PROCESS_CLOSE.json'}
+ SIGNALS = []
+ OVERALL_DEADLINE = None
++ACQUISITION_SIGNALS = None
++ACQUISITION_PRIMARY = None
+ 
+ 
+ class Refused(RuntimeError):
+@@ -74,7 +76,7 @@
+ 
+ def close_on_abort(sink):
+     # No persistence or completed-close claim while unwinding a hard abort.
+-    if sink is not None and not sink.closed:
++    if sink is not None and sink.fd is not None and not sink.closed:
+         try:
+             os.close(sink.fd)
+         except Exception:
+@@ -127,6 +129,18 @@
+     SIGNALS.append({'signal': signum, 'monotonic_ns': time.monotonic_ns()})
+     if signum == signal.SIGALRM:
+         raise HardDeadline('overall launcher watchdog fired')
++    acquisition = ACQUISITION_SIGNALS
++    if acquisition is not None:
++        if acquisition.pending is None:
++            acquisition.pending = Refused('launcher interrupted by signal '+str(signum))
++        if acquisition.deferring or sys.exc_info()[1] is not None:
++            return
++        acquisition.interrupt()
++    # Protect only this acquisition's exact primary exception across context
++    # clearing, not unrelated exception handlers elsewhere in the launcher.
++    active_error = sys.exc_info()[1]
++    if active_error is not None and active_error is ACQUISITION_PRIMARY:
++        return
+     raise Refused('launcher interrupted by signal '+str(signum))
+ 
+ 
+@@ -199,21 +213,63 @@
+         os.fsync(fd)
+     finally:
+         os.close(fd)
++
++
++class AcquisitionSignals:
++    """Protect fd/owner registration only, never writes, fsyncs or the watchdog."""
++    def __init__(self):
++        self.pending, self.deferring = None, True
++
++    def __enter__(self):
++        global ACQUISITION_SIGNALS
++        require(ACQUISITION_SIGNALS is None, 'nested evidence sink acquisition')
++        ACQUISITION_SIGNALS = self
++        return self
++
++    def __exit__(self, error_type, error, traceback):
++        global ACQUISITION_SIGNALS, ACQUISITION_PRIMARY
++        ACQUISITION_PRIMARY = error
++        try:
++            # A new signal here raises the same first pending signal, but never
++            # replaces the original exception supplied by the protected body.
++            self.deferring = False
++            if error_type is None and self.pending is not None:
++                self.interrupt()
++        finally:
++            ACQUISITION_SIGNALS = None
++        return False
++
++    def interrupt(self):
++        global ACQUISITION_PRIMARY
++        ACQUISITION_PRIMARY = self.pending
++        raise self.pending
+ 
+ 
+ class DurableSink:
+     """One exclusive bounded file; synchronous records never claim unwritten bytes."""
+     def __init__(self, path, deadline):
+-        check_time(deadline)
+         self.path, self.deadline = Path(path), deadline
+-        nonsymlink(self.path.parent)
+-        self.fd = os.open(self.path, os.O_RDWR | os.O_CREAT | os.O_EXCL | os.O_NOFOLLOW, 0o600)
++        self.fd = None
+         self.length, self.digest, self.closed = 0, sha256(), False
++        check_time(deadline)
++        nonsymlink(self.path.parent)
+ 
++    def acquire(self, owner=None):
++        # The caller already holds this fully initialized sink. Only this short
++        # transition defers ordinary signals; the hard watchdog is never deferred.
++        check_time(self.deadline)
++        require(self.fd is None and not self.closed, 'evidence sink already acquired or closed')
++        with AcquisitionSignals():
++            try:
++                self.fd = os.open(self.path, os.O_RDWR | os.O_CREAT | os.O_EXCL | os.O_NOFOLLOW, 0o600)
++            finally:
++                if self.fd is not None and owner is not None:
++                    owner.owned = True
++
+     def append_bytes(self, raw):
+         check_time(self.deadline)
+         require(type(raw) is bytes and self.length+len(raw) <= CAP, '64-MiB evidence sink bound exceeded')
+-        require(not self.closed, 'write to closed evidence sink')
++        require(self.fd is not None and not self.closed, 'write to closed evidence sink')
+         offset, view = self.length, memoryview(raw)
+         while view:
+             check_time(self.deadline)
+@@ -249,19 +305,18 @@
+         return receipt
+ 
+ 
+-def write_new(path, raw, deadline, opened=None):
++def write_new(path, raw, deadline, owner=None):
+     sink, receipt = None, {'path': str(path), 'identity': None, 'errors': [], 'close': None}
+     try:
+         sink = DurableSink(path, deadline)
+-        if opened is not None:
+-            opened()
++        sink.acquire(owner)
+         sink.append_bytes(raw)
+     except Exception as error:
+         receipt['errors'].append(error_value('exclusive-write', error))
+     finally:
+         if hard_unwinding():
+             close_on_abort(sink)
+-        elif sink is not None:
++        elif sink is not None and sink.fd is not None:
+             receipt['close'] = sink.close()
+             receipt['identity'] = receipt['close']['identity']
+             receipt['errors'].extend(receipt['close']['errors'])
+@@ -346,7 +401,7 @@
+     handoff, handoff_id = read_json(Q/'HANDOFF.json', deadline, plan['source_handoff'])
+     exact(handoff, ('schema', 'status', 'source_directory', 'files', 'predecessor', 'author_checks',
+                     'scope', 'remaining_obligations'), 'current source handoff')
+-    require(handoff.get('schema') == 'ri138-native-external-launch-source-handoff-v1'
++    require(handoff.get('schema') == 'ri140-native-failure-repair-source-handoff-v1'
+             and handoff.get('status') == 'SOURCE_ONLY_REQUIRES_INDEPENDENT_REVIEW'
+             and handoff['source_directory'] == str(Q)
+             and type(handoff.get('files')) is list and 0 < len(handoff['files']) <= 64,
+@@ -355,7 +410,8 @@
+                            'controls_executed': 0, 'scientific_execution': False,
+                            'complete_caller_qualification': False, 'repository_modified': False},
+          'source-only handoff scope differs')
+-    same(handoff['predecessor'], manifest['dispatcher_source_handoff'], 'handoff predecessor differs')
++    same(handoff['predecessor'], manifest['repair_ancestry']['predecessor_source_handoff'],
++         'handoff predecessor differs')
+     require(type(handoff['remaining_obligations']) is list
+             and all(type(item) is str for item in handoff['remaining_obligations']), 'handoff obligations differ')
+     payloads = {}
+@@ -402,7 +458,7 @@
+     require(dependencies.get('schema') == 'ri129-source-dependencies-v1'
+             and dependencies.get('status') == 'SOURCE_ONLY_CLOSED_DEPENDENCIES'
+             and type(dependencies.get('protected_files')) is list
+-            and len(dependencies['protected_files']) == 396, 'complete 396 source closure absent')
++            and len(dependencies['protected_files']) == 423, 'complete 423 source closure absent')
+     for index, entry in enumerate(dependencies['protected_files'], 1):
+         require(entry['role'] == 'dep_'+str(index).zfill(4)
+                 and entry['path'] == entry['identity']['path'], 'dependency role/path differs')
+@@ -457,9 +513,7 @@
+         marker = {'schema': 'ri138-phase-started-v1', 'phase': self.context['phase'],
+                   'root_plan': self.context['plan_id'], 'started_ns': time.monotonic_ns(),
+                   'automatic_retry_authorized': False}
+-        def opened():
+-            self.owned = True
+-        receipt = write_new(self.directory/(self.name+'_STARTED.json'), raw_json(marker), deadline, opened)
++        receipt = write_new(self.directory/(self.name+'_STARTED.json'), raw_json(marker), deadline, self)
+         if not self.owned:
+             raise Refused('phase was not claimed: '+canonical(receipt['errors']))
+         self.add_receipt(receipt)
+@@ -470,22 +524,26 @@
+         sink, summary, close, sink_failure = None, None, None, None
+         try:
+             sink = DurableSink(self.directory/(label+'.jsonl'), deadline)
++            sink.acquire()
+         except Exception as error:
+             sink_failure = error_value(label+'-open', error)
+             self.fail(label+'-open', error)
++        finally:
++            if hard_unwinding():
++                close_on_abort(sink)
+         def failed_sink(record):
+             raise Refused('journal unavailable: '+canonical(sink_failure))
+         try:
+             # A failed journal does not skip any independent object observation.
+             summary = self.context['custody'].observe_all(spec, 'before' if before else 'after',
+-                                                         sink if sink is not None else failed_sink, deadline)
++                                                         sink if sink_failure is None else failed_sink, deadline)
+             require(summary['complete'] is True, label+' complete custody did not match')
+         except Exception as error:
+             self.fail(label, error)
+         finally:
+             if hard_unwinding():
+                 close_on_abort(sink)
+-            elif sink is not None:
++            elif sink is not None and sink.fd is not None:
+                 close = sink.close()
+                 self.created[close['identity']['path']] = close['identity']
+                 for error in close['errors']:

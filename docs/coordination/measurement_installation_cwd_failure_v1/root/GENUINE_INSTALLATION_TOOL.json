@@ -1,0 +1,28 @@
+{
+  "execution_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "login": false,
+    "max_output_tokens": 4000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm",
+    "yield_time_ms": 1000
+  },
+  "initial_result": {
+    "chunk_id": "685f23",
+    "exit_code": 1,
+    "original_token_count": 271,
+    "output": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py\", line 18, in <module>\n    module.child_run(['/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9', '-I', '-B', '/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py', '--admission', '/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json'], Path('/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor'), 'INSTALL', 180, expected_environment)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py\", line 403, in child_run\n    need(record['passed'], 'bounded child refused: '+label)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py\", line 44, in need\n    raise ValueError(message)\nValueError: bounded child refused: INSTALL\n",
+    "wall_time_seconds": 0.206400583
+  },
+  "raw_request": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+    "justification": "Execute the exact separately admitted one-attempt installation under the unchanged reviewed monitor. The only E write is the accepted freeze candidate; preserve all outcomes and partials.",
+    "login": false,
+    "max_output_tokens": 4000,
+    "sandbox_permissions": "require_escalated",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm",
+    "yield_time_ms": 1000
+  },
+  "reason_no_terminal": "Initial tool returned synchronous exit_code 1 without a session_id.",
+  "schema": "RI221_GENUINE_INSTALLATION_TOOL_V1",
+  "terminal_result": null
+}

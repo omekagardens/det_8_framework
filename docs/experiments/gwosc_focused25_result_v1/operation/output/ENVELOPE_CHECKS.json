@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "error": null,
+      "id": "F01_positive"
+    },
+    {
+      "error": null,
+      "id": "F01_pre_admission_read"
+    },
+    {
+      "error": null,
+      "id": "F01_occupied"
+    },
+    {
+      "error": null,
+      "id": "F01_mkdir"
+    },
+    {
+      "error": null,
+      "id": "F01_post_admission_read"
+    },
+    {
+      "error": null,
+      "id": "F01_initial_source_read"
+    },
+    {
+      "error": null,
+      "id": "F01_attempt_open"
+    },
+    {
+      "error": null,
+      "id": "F01_attempt_partial"
+    },
+    {
+      "error": null,
+      "id": "F01_secondary_post"
+    },
+    {
+      "error": null,
+      "id": "F01_secondary_source"
+    },
+    {
+      "error": null,
+      "id": "F01_secondary_namespace"
+    },
+    {
+      "error": null,
+      "id": "F01_secondary_checks"
+    },
+    {
+      "error": null,
+      "id": "F01_three_secondary"
+    },
+    {
+      "error": null,
+      "id": "F01_final_partial"
+    },
+    {
+      "error": null,
+      "id": "F02_positive"
+    },
+    {
+      "error": null,
+      "id": "F02_named_path"
+    },
+    {
+      "error": null,
+      "id": "F02_resolved_path"
+    },
+    {
+      "error": null,
+      "id": "F02_link_literal"
+    },
+    {
+      "error": null,
+      "id": "F02_link_order"
+    },
+    {
+      "error": null,
+      "id": "F02_link_omitted"
+    },
+    {
+      "error": null,
+      "id": "F02_target_bytes"
+    },
+    {
+      "error": null,
+      "id": "F02_target_sha"
+    },
+    {
+      "error": null,
+      "id": "F02_provenance_missing"
+    },
+    {
+      "error": null,
+      "id": "F02_snapshot_alias"
+    },
+    {
+      "error": null,
+      "id": "F02_snapshot_target"
+    }
+  ],
+  "report": {
+    "bytes": 112221,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/REPORT.json",
+    "sha256": "4710b3e8c6f52b35a6e134d29bf827c745494222e688a863788df9ca949abeaf"
+  }
+}

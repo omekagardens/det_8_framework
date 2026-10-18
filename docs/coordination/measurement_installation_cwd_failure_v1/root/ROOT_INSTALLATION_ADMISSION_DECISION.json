@@ -1,0 +1,28 @@
+{
+  "RET_paused": true,
+  "fresh_check": {
+    "bytes": 1697,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/FRESH_PREDISPATCH_CHECK.json",
+    "sha256": "03a6c00e3b2f13748835dc75a8ab1dcfc6d7e356a4e85ea00074d88b6654f3d7"
+  },
+  "independent_review": {
+    "bytes": 2672,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/HANDOFF.json",
+    "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+  },
+  "one_attempt": true,
+  "proposal": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+    "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+  },
+  "qualification_credit": 0,
+  "schema": "ri221-root-installation-decision-v1",
+  "scope": "Install only the accepted26214-byte candidate as E/AUTHORIZED_FREEZE.json under the exact reviewed monitor and command. Preserve every failure partial, no retry in place, no scientific mode.",
+  "source_review": {
+    "bytes": 2333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+    "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+  },
+  "status": "AUTHORIZE_EXACT_SINGLE_REVIEWED_INSTALLATION"
+}

@@ -1,0 +1,113 @@
+{
+  "schema": "qr05-correspondence-noncollapse-verification-v1",
+  "date_local": "2026-09-12",
+  "timezone": "Pacific/Honolulu",
+  "decision": "bounded_exact_gate_passed",
+  "frozen_sources": 9,
+  "freeze_sha256": "6838bd7a76cd154d79dfaa8d7aa3803af2f04a5fe5c9b3e6395974a752c875ae",
+  "freeze_bytes": 1204,
+  "first_capture": {
+    "capture_bytes": 3408304,
+    "capture_sha256": "e0f053e710fb524dada1f86dc8be4f80b1d92a47918b1e9ab8e18f12f5a399c0",
+    "census": {
+      "bijections": 64,
+      "bitmask_universe": 4752,
+      "closure_cells": 112,
+      "closure_nodes": 40,
+      "closure_rows": 16,
+      "comparable_slots": 36,
+      "comparison_rows": 28,
+      "input_cells": 332,
+      "input_nodes": 132,
+      "normalized_cells": 69960,
+      "raw_cells": 69976,
+      "relation_members": 12576,
+      "relations": 2380
+    },
+    "report_bytes": 3407082,
+    "report_sha256": "9ba38050a8d5f20ed4ec75095759315e99719ab7c8cc232a37ae92eea572614a"
+  },
+  "normal_tests": {
+    "elapsed_seconds": "11.205810",
+    "optimization": 0,
+    "runtime": "3.14.0",
+    "successful": true,
+    "tests": 39
+  },
+  "optimized_tests": {
+    "elapsed_seconds": "10.925163",
+    "optimization": 1,
+    "runtime": "3.14.0",
+    "successful": true,
+    "tests": 39
+  },
+  "dedicated_replays": 3,
+  "python311_replays": 1,
+  "frozen_source_edits_after_execution": 0,
+  "static_review": {
+    "primary_reference_independently_authored": true,
+    "third_math_oracle": true,
+    "math_api_tests": 22,
+    "evidence_tests": 17,
+    "ruff": "passed",
+    "python311_ast": "passed",
+    "new_math_executed_before_freeze": false,
+    "evidence_defects_repaired_before_freeze": [
+      "publication readback",
+      "one-snapshot execution",
+      "strict rational tags",
+      "independent argument copies",
+      "fail-fast capped suite and final capture binding"
+    ]
+  },
+  "prior_evidence_metadata": {
+    "prior_bindings_unchanged": 46,
+    "prior_captures_unchanged": 5,
+    "total_bindings_with_this_gate": 55
+  },
+  "scope": {
+    "previous_head": "3b992408485fbd49902c1ee42623f44013e23c60",
+    "unrelated_status_entries_excluded": 231,
+    "physical_calibration": false,
+    "continuum_coverage": false,
+    "ret_changes": false
+  },
+  "runs": [
+    {
+      "phase": "capture",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3 study.py capture",
+      "exit_code": 0,
+      "combined_output": "{\"capture_bytes\":3408304,\"capture_sha256\":\"e0f053e710fb524dada1f86dc8be4f80b1d92a47918b1e9ab8e18f12f5a399c0\",\"census\":{\"bijections\":64,\"bitmask_universe\":4752,\"closure_cells\":112,\"closure_nodes\":40,\"closure_rows\":16,\"comparable_slots\":36,\"comparison_rows\":28,\"input_cells\":332,\"input_nodes\":132,\"normalized_cells\":69960,\"raw_cells\":69976,\"relation_members\":12576,\"relations\":2380},\"report_bytes\":3407082,\"report_sha256\":\"9ba38050a8d5f20ed4ec75095759315e99719ab7c8cc232a37ae92eea572614a\"}\n"
+    },
+    {
+      "phase": "normal_tests",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3 study.py tests",
+      "exit_code": 0,
+      "combined_output": "test_all_closure_paths_transport_and_zero_sum_ties (qr05_cnv_test_calculus.CalculusTests.test_all_closure_paths_transport_and_zero_sum_ties) ... ok\ntest_all_retained_fiber_bounds_and_safe_gap_minimizers (qr05_cnv_test_calculus.CalculusTests.test_all_retained_fiber_bounds_and_safe_gap_minimizers) ... ok\ntest_analytical_gamma_twins_quotient_and_causal_anchors (qr05_cnv_test_calculus.CalculusTests.test_analytical_gamma_twins_quotient_and_causal_anchors) ... ok\ntest_complete_native_closure_oracle (qr05_cnv_test_calculus.CalculusTests.test_complete_native_closure_oracle) ... ok\ntest_complete_native_comparison_oracle (qr05_cnv_test_calculus.CalculusTests.test_complete_native_comparison_oracle) ... ok\ntest_complete_report_schema_and_retained_named_controls (qr05_cnv_test_calculus.CalculusTests.test_complete_report_schema_and_retained_named_controls) ... ok\ntest_every_relation_transport_reversal_and_rescaling (qr05_cnv_test_calculus.CalculusTests.test_every_relation_transport_reversal_and_rescaling) ... ok\ntest_fixed_census_and_cardinality_polynomials (qr05_cnv_test_calculus.CalculusTests.test_fixed_census_and_cardinality_polynomials) ... ok\ntest_inclusive_128_bit_inputs_and_exact_large_derived_output (qr05_cnv_test_calculus.CalculusTests.test_inclusive_128_bit_inputs_and_exact_large_derived_output) ... ok\ntest_invalid_causal_kernels_reported_not_repaired_or_rejected (qr05_cnv_test_calculus.CalculusTests.test_invalid_causal_kernels_reported_not_repaired_or_rejected) ... ok\ntest_named_correspondence_beats_every_bijection (qr05_cnv_test_calculus.CalculusTests.test_named_correspondence_beats_every_bijection) ... ok\ntest_named_full_supremum_trim_and_sharp_lipschitz (qr05_cnv_test_calculus.CalculusTests.test_named_full_supremum_trim_and_sharp_lipschitz) ... ok\ntest_named_one_sided_fit_witness_and_paired_list_scale_factor (qr05_cnv_test_calculus.CalculusTests.test_named_one_sided_fit_witness_and_paired_list_scale_factor) ... ok\ntest_named_triangle_composition_symmetry_and_strict_gap_boundary (qr05_cnv_test_calculus.CalculusTests.test_named_triangle_composition_symmetry_and_strict_gap_boundary) ... ok\ntest_named_zero_leg_cover_only_and_idempotence_controls (qr05_cnv_test_calculus.CalculusTests.test_named_zero_leg_cover_only_and_idempotence_controls) ... ok\ntest_native_type_refusals (qr05_cnv_test_calculus.CalculusTests.test_native_type_refusals) ... ok\ntest_order_and_off_order_zero_boundaries (qr05_cnv_test_calculus.CalculusTests.test_order_and_off_order_zero_boundaries) ... ok\ntest_pure_api_tuple_inputs_sorted_members_and_fresh_outputs (qr05_cnv_test_calculus.CalculusTests.test_pure_api_tuple_inputs_sorted_members_and_fresh_outputs) ... ok\ntest_safe_gap_and_zero_distance_quotient_controls (qr05_cnv_test_calculus.CalculusTests.test_safe_gap_and_zero_distance_quotient_controls) ... ok\ntest_seven_analytical_optima_and_scale_bounds (qr05_cnv_test_calculus.CalculusTests.test_seven_analytical_optima_and_scale_bounds) ... ok\ntest_shape_range_diagonal_and_relation_refusals (qr05_cnv_test_calculus.CalculusTests.test_shape_range_diagonal_and_relation_refusals) ... ok\ntest_shared_zero_rows_accepted_without_aliasing_caller (qr05_cnv_test_calculus.CalculusTests.test_shared_zero_rows_accepted_without_aliasing_caller) ... ok\ntest_01_nine_source_bindings (qr05_cnv_test_evidence.EvidenceTests.test_01_nine_source_bindings) ... ok\ntest_02_canonical_capture_and_size (qr05_cnv_test_evidence.EvidenceTests.test_02_canonical_capture_and_size) ... ok\ntest_03_native_type_distinctions (qr05_cnv_test_evidence.EvidenceTests.test_03_native_type_distinctions) ... ok\ntest_04_noncanonical_duplicate_and_nonfinite_json (qr05_cnv_test_evidence.EvidenceTests.test_04_noncanonical_duplicate_and_nonfinite_json) ... ok\ntest_05_changed_source_rejected_before_loading (qr05_cnv_test_evidence.EvidenceTests.test_05_changed_source_rejected_before_loading) ... ok\ntest_06_symlink_and_oversize_source_rejected (qr05_cnv_test_evidence.EvidenceTests.test_06_symlink_and_oversize_source_rejected) ... ok\ntest_07_malformed_freeze_and_typed_binding_rejected (qr05_cnv_test_evidence.EvidenceTests.test_07_malformed_freeze_and_typed_binding_rejected) ... ok\ntest_08_capture_binding_and_schema_rejections (qr05_cnv_test_evidence.EvidenceTests.test_08_capture_binding_and_schema_rejections) ... ok\ntest_09_capture_is_write_once (qr05_cnv_test_evidence.EvidenceTests.test_09_capture_is_write_once) ... ok\ntest_10_artifact_byte_caps (qr05_cnv_test_evidence.EvidenceTests.test_10_artifact_byte_caps) ... ok\ntest_11_alarm_and_elapsed_caps (qr05_cnv_test_evidence.EvidenceTests.test_11_alarm_and_elapsed_caps) ... ok\ntest_12_full_native_report_matches_saved_capture (qr05_cnv_test_evidence.EvidenceTests.test_12_full_native_report_matches_saved_capture) ... ok\ntest_13_route_mismatch_rejected_type_strictly (qr05_cnv_test_evidence.EvidenceTests.test_13_route_mismatch_rejected_type_strictly) ... ok\ntest_14_original_evidence_unchanged (qr05_cnv_test_evidence.EvidenceTests.test_14_original_evidence_unchanged) ... ok\ntest_15_malformed_rational_tags_rejected (qr05_cnv_test_evidence.EvidenceTests.test_15_malformed_rational_tags_rejected) ... ok\ntest_16_snapshot_change_rejected_before_execution (qr05_cnv_test_evidence.EvidenceTests.test_16_snapshot_change_rejected_before_execution) ... ok\ntest_17_publication_readback_and_existing_capture_guard (qr05_cnv_test_evidence.EvidenceTests.test_17_publication_readback_and_existing_capture_guard) ... ok\n\n----------------------------------------------------------------------\nRan 39 tests in 10.821s\n\nOK\n{\"elapsed_seconds\":\"11.205810\",\"optimization\":0,\"runtime\":\"3.14.0\",\"successful\":true,\"tests\":39}\n"
+    },
+    {
+      "phase": "optimized_tests",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3 -O study.py tests",
+      "exit_code": 0,
+      "combined_output": "test_all_closure_paths_transport_and_zero_sum_ties (qr05_cnv_test_calculus.CalculusTests.test_all_closure_paths_transport_and_zero_sum_ties) ... ok\ntest_all_retained_fiber_bounds_and_safe_gap_minimizers (qr05_cnv_test_calculus.CalculusTests.test_all_retained_fiber_bounds_and_safe_gap_minimizers) ... ok\ntest_analytical_gamma_twins_quotient_and_causal_anchors (qr05_cnv_test_calculus.CalculusTests.test_analytical_gamma_twins_quotient_and_causal_anchors) ... ok\ntest_complete_native_closure_oracle (qr05_cnv_test_calculus.CalculusTests.test_complete_native_closure_oracle) ... ok\ntest_complete_native_comparison_oracle (qr05_cnv_test_calculus.CalculusTests.test_complete_native_comparison_oracle) ... ok\ntest_complete_report_schema_and_retained_named_controls (qr05_cnv_test_calculus.CalculusTests.test_complete_report_schema_and_retained_named_controls) ... ok\ntest_every_relation_transport_reversal_and_rescaling (qr05_cnv_test_calculus.CalculusTests.test_every_relation_transport_reversal_and_rescaling) ... ok\ntest_fixed_census_and_cardinality_polynomials (qr05_cnv_test_calculus.CalculusTests.test_fixed_census_and_cardinality_polynomials) ... ok\ntest_inclusive_128_bit_inputs_and_exact_large_derived_output (qr05_cnv_test_calculus.CalculusTests.test_inclusive_128_bit_inputs_and_exact_large_derived_output) ... ok\ntest_invalid_causal_kernels_reported_not_repaired_or_rejected (qr05_cnv_test_calculus.CalculusTests.test_invalid_causal_kernels_reported_not_repaired_or_rejected) ... ok\ntest_named_correspondence_beats_every_bijection (qr05_cnv_test_calculus.CalculusTests.test_named_correspondence_beats_every_bijection) ... ok\ntest_named_full_supremum_trim_and_sharp_lipschitz (qr05_cnv_test_calculus.CalculusTests.test_named_full_supremum_trim_and_sharp_lipschitz) ... ok\ntest_named_one_sided_fit_witness_and_paired_list_scale_factor (qr05_cnv_test_calculus.CalculusTests.test_named_one_sided_fit_witness_and_paired_list_scale_factor) ... ok\ntest_named_triangle_composition_symmetry_and_strict_gap_boundary (qr05_cnv_test_calculus.CalculusTests.test_named_triangle_composition_symmetry_and_strict_gap_boundary) ... ok\ntest_named_zero_leg_cover_only_and_idempotence_controls (qr05_cnv_test_calculus.CalculusTests.test_named_zero_leg_cover_only_and_idempotence_controls) ... ok\ntest_native_type_refusals (qr05_cnv_test_calculus.CalculusTests.test_native_type_refusals) ... ok\ntest_order_and_off_order_zero_boundaries (qr05_cnv_test_calculus.CalculusTests.test_order_and_off_order_zero_boundaries) ... ok\ntest_pure_api_tuple_inputs_sorted_members_and_fresh_outputs (qr05_cnv_test_calculus.CalculusTests.test_pure_api_tuple_inputs_sorted_members_and_fresh_outputs) ... ok\ntest_safe_gap_and_zero_distance_quotient_controls (qr05_cnv_test_calculus.CalculusTests.test_safe_gap_and_zero_distance_quotient_controls) ... ok\ntest_seven_analytical_optima_and_scale_bounds (qr05_cnv_test_calculus.CalculusTests.test_seven_analytical_optima_and_scale_bounds) ... ok\ntest_shape_range_diagonal_and_relation_refusals (qr05_cnv_test_calculus.CalculusTests.test_shape_range_diagonal_and_relation_refusals) ... ok\ntest_shared_zero_rows_accepted_without_aliasing_caller (qr05_cnv_test_calculus.CalculusTests.test_shared_zero_rows_accepted_without_aliasing_caller) ... ok\ntest_01_nine_source_bindings (qr05_cnv_test_evidence.EvidenceTests.test_01_nine_source_bindings) ... ok\ntest_02_canonical_capture_and_size (qr05_cnv_test_evidence.EvidenceTests.test_02_canonical_capture_and_size) ... ok\ntest_03_native_type_distinctions (qr05_cnv_test_evidence.EvidenceTests.test_03_native_type_distinctions) ... ok\ntest_04_noncanonical_duplicate_and_nonfinite_json (qr05_cnv_test_evidence.EvidenceTests.test_04_noncanonical_duplicate_and_nonfinite_json) ... ok\ntest_05_changed_source_rejected_before_loading (qr05_cnv_test_evidence.EvidenceTests.test_05_changed_source_rejected_before_loading) ... ok\ntest_06_symlink_and_oversize_source_rejected (qr05_cnv_test_evidence.EvidenceTests.test_06_symlink_and_oversize_source_rejected) ... ok\ntest_07_malformed_freeze_and_typed_binding_rejected (qr05_cnv_test_evidence.EvidenceTests.test_07_malformed_freeze_and_typed_binding_rejected) ... ok\ntest_08_capture_binding_and_schema_rejections (qr05_cnv_test_evidence.EvidenceTests.test_08_capture_binding_and_schema_rejections) ... ok\ntest_09_capture_is_write_once (qr05_cnv_test_evidence.EvidenceTests.test_09_capture_is_write_once) ... ok\ntest_10_artifact_byte_caps (qr05_cnv_test_evidence.EvidenceTests.test_10_artifact_byte_caps) ... ok\ntest_11_alarm_and_elapsed_caps (qr05_cnv_test_evidence.EvidenceTests.test_11_alarm_and_elapsed_caps) ... ok\ntest_12_full_native_report_matches_saved_capture (qr05_cnv_test_evidence.EvidenceTests.test_12_full_native_report_matches_saved_capture) ... ok\ntest_13_route_mismatch_rejected_type_strictly (qr05_cnv_test_evidence.EvidenceTests.test_13_route_mismatch_rejected_type_strictly) ... ok\ntest_14_original_evidence_unchanged (qr05_cnv_test_evidence.EvidenceTests.test_14_original_evidence_unchanged) ... ok\ntest_15_malformed_rational_tags_rejected (qr05_cnv_test_evidence.EvidenceTests.test_15_malformed_rational_tags_rejected) ... ok\ntest_16_snapshot_change_rejected_before_execution (qr05_cnv_test_evidence.EvidenceTests.test_16_snapshot_change_rejected_before_execution) ... ok\ntest_17_publication_readback_and_existing_capture_guard (qr05_cnv_test_evidence.EvidenceTests.test_17_publication_readback_and_existing_capture_guard) ... ok\n\n----------------------------------------------------------------------\nRan 39 tests in 10.536s\n\nOK\n{\"elapsed_seconds\":\"10.925163\",\"optimization\":1,\"runtime\":\"3.14.0\",\"successful\":true,\"tests\":39}\n"
+    },
+    {
+      "phase": "replay_normal",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3 study.py replay",
+      "exit_code": 0,
+      "combined_output": "{\"capture_sha256\":\"e0f053e710fb524dada1f86dc8be4f80b1d92a47918b1e9ab8e18f12f5a399c0\",\"matched\":true,\"optimization\":0,\"report_sha256\":\"9ba38050a8d5f20ed4ec75095759315e99719ab7c8cc232a37ae92eea572614a\",\"runtime\":\"3.14.0\"}\n"
+    },
+    {
+      "phase": "replay_optimized",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3 -O study.py replay",
+      "exit_code": 0,
+      "combined_output": "{\"capture_sha256\":\"e0f053e710fb524dada1f86dc8be4f80b1d92a47918b1e9ab8e18f12f5a399c0\",\"matched\":true,\"optimization\":1,\"report_sha256\":\"9ba38050a8d5f20ed4ec75095759315e99719ab7c8cc232a37ae92eea572614a\",\"runtime\":\"3.14.0\"}\n"
+    },
+    {
+      "phase": "replay_python311",
+      "command": "PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3.11 study.py replay",
+      "exit_code": 0,
+      "combined_output": "{\"capture_sha256\":\"e0f053e710fb524dada1f86dc8be4f80b1d92a47918b1e9ab8e18f12f5a399c0\",\"matched\":true,\"optimization\":0,\"report_sha256\":\"9ba38050a8d5f20ed4ec75095759315e99719ab7c8cc232a37ae92eea572614a\",\"runtime\":\"3.11.6\"}\n"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "RI133_remains_rejected": true,
+  "active_inventory_card_attempt_freeze_admission_created": false,
+  "closed_namespace": [
+    "AUTHORING_RECORD.md",
+    "DEPENDENCIES.source-only.json",
+    "HANDOFF.json",
+    "METADATA_CHECK.json",
+    "PROTOCOL.md",
+    "launch_controls.source-only.py"
+  ],
+  "complete_unchanged_module": {
+    "bytes": 44082,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+  },
+  "dependency_declaration": {
+    "bytes": 108736,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/DEPENDENCIES.source-only.json",
+    "sha256": "f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0"
+  },
+  "execution_admitted": false,
+  "existing_control_script": {
+    "bytes": 19967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+    "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+  },
+  "files": [
+    {
+      "bytes": 3766,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/AUTHORING_RECORD.md",
+      "sha256": "515e425be16c8a93166aef11ac928a0c02c7a3ec1c5e2c429f5725169ca0ec94"
+    },
+    {
+      "bytes": 108736,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/DEPENDENCIES.source-only.json",
+      "sha256": "f6320e4f0627eac853d382e647d06fd5b2349c2b03b6033e81aa3c7a5e5685f0"
+    },
+    {
+      "bytes": 72693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/METADATA_CHECK.json",
+      "sha256": "c4c0790ae2888da80fe1906594d46780d3d296ee11bc0d2258739711f5f874cc"
+    },
+    {
+      "bytes": 16188,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/PROTOCOL.md",
+      "sha256": "a971abfe879b613692eb96cd35d5865f1bcb1677a48299c0a7bbb6c325c3a8e3"
+    },
+    {
+      "bytes": 25158,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py",
+      "sha256": "8a9313355f20f8c4b15e3b7b855303d893c892116174a6dc583fd609156ea0c9"
+    }
+  ],
+  "focused_control_declarations": 25,
+  "focused_controls_executed": 0,
+  "next_action": "Fresh nonauthor review of complete launcher/protocol and exact dependencies, root adjudication, genuine root preflight/two-card admission, then one bounded execution of the existing25 controls with complete saved and actual tool review.",
+  "opaque_dependency_bytes": 16850995,
+  "opaque_dependency_count": 276,
+  "payload_file_count": 5,
+  "predecessor_root_adjudication": {
+    "bytes": 2017,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-root-repair-adjudication-maf4rxgj/RI135_ROOT_ADJUDICATION.json",
+    "sha256": "003adf89a7354a19df5bd332ee009f5ebd73470cd50c92a745f522315cb703cd"
+  },
+  "protected_namespace_roots": 378,
+  "repository_or_git_operation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg",
+  "ret_paused": true,
+  "retained_external_premises": [
+    "Actual bootstrap/interpreter/stdlib/native/loader/environment/host authenticity and applicable pre/post review are root supplied.",
+    "Stable supplier/no descendants; Apple loader/shared cache and source-cache equivalence.",
+    "512MiB is sampled child RSS, not parent/group quota; saved pid_owner is parent, not authenticated child identity.",
+    "Actual outer960s whole-invocation custody and completion; no self-created tool truth.",
+    "Future sealed namespaces not present in the authoring exclusion list must also be excluded by root."
+  ],
+  "schema": "ri137-focused-control-launcher-source-handoff-v1",
+  "scientific_body_decode": false,
+  "scope_exclusions": [
+    "No current-runtime baseline/profile/65-guard execution or qualification.",
+    "No scientific WHITE/full32 qualification, actual data, RI131 validator campaign or physical claim."
+  ],
+  "self_hash_excluded": true,
+  "source_accepted": false,
+  "source_author": "/root/archive_repro_review; RI130/RI133/RI135 preparation author and separate RI125 validator author; not independent self-review.",
+  "source_lines": 373,
+  "source_or_helper_import_compile_ast_probe_run": false,
+  "source_syntax_validated": false,
+  "status": "UNEXECUTED_SOURCE_AWAITING_NONAUTHOR_REVIEW"
+}

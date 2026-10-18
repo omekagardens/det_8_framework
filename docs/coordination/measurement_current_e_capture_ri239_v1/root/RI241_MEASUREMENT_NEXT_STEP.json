@@ -1,0 +1,33 @@
+{
+  "RET_paused": true,
+  "accepted_capture": {
+    "bytes": 3540,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/CAPTURE_ROOT_ADJUDICATION.json",
+    "sha256": "6357996210578f4f662956394873ea675227b7f1045213509f1957a1890ed706"
+  },
+  "capture_rerun_authorized": false,
+  "genuine_collection_tools": {
+    "bytes": 2789,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/COLLECTION_PROVENANCE.json",
+    "sha256": "2c96b9f19b43b597111edbb5d439999ed8f0359b137955af5c1d7789b5425202"
+  },
+  "owner": "root coordinator",
+  "question": "Assemble and independently review the exact current normal runtime13/request5, then execute unchanged RI160 pre_mode once under a fresh separate12-field admission; review its9-field result before separately authorizing normal mode-card candidate generation.",
+  "requirements": [
+    "Use both exact stable supplier projections, all raw originals/time/observer/host/capture provenance; do not drop environment or nested states.",
+    "Use installed freeze only as opaque identity; recover its existing runtime evidence through accepted root-issued inputs. Preserve historical normal PRE as baseline; use current capture PRE as snapshot.",
+    "Whole fresh E and all48/124/30 roles must still match accepted frozen observation before reuse. Derive whole observed dyld routes from administrative snapshot.",
+    "No profile/guard rerun or source repair is indicated. Preserve accepted567 dependencies/106 inert controls and exact root12-field admission/unchanged outer monitoring per RI160 action.",
+    "pre_mode result9 must pass independent review before mode_card request4 generates card10 with normal_acceptance:null. Candidate generation is not installation or science.",
+    "Actual sole-card insertion, dispatch observation, normal WHITE15/W09 and179controls,27/13/30 records,57/74/3,independent arithmetic/normal acceptance,optimized,RI131/full32 and selected GWOSC conventional reproduction remain ordered separate obligations."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h",
+  "schema": "ri241-root-premode-next-step-v1",
+  "scientific_execution_authorized_by_this_record": false,
+  "source_contract": {
+    "bytes": 9569,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CURRENT_E_AND_MODE_CONTRACT.json",
+    "sha256": "b8794cbdb514dc79453b24c2cf55760a889d8e4569c807e1ab678389b0901354"
+  },
+  "status": "SELECTED_AFTER_INDEPENDENT_CAPTURE_ACCEPTANCE"
+}

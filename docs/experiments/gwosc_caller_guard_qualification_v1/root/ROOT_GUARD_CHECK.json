@@ -1,0 +1,47 @@
+{
+  "fixture_entries": 1385,
+  "guard_cases": 65,
+  "monitors": [
+    {
+      "elapsed": 1.988206125,
+      "final_gap": 0.05015191699999999,
+      "label": "PRE",
+      "maximum_gap": 0.039181375000000074,
+      "peak_rss_kib": 95680,
+      "samples": 52
+    },
+    {
+      "elapsed": 1.663816541,
+      "final_gap": 0.035078582999999774,
+      "label": "GUARDS",
+      "maximum_gap": 0.0392920409999995,
+      "peak_rss_kib": 36640,
+      "samples": 45
+    },
+    {
+      "elapsed": 1.8955550829999996,
+      "final_gap": 0.05009195799999944,
+      "label": "POST",
+      "maximum_gap": 0.039635457999999346,
+      "peak_rss_kib": 88208,
+      "samples": 51
+    }
+  ],
+  "operation_entries": 1406,
+  "output_entries": 1403,
+  "parent_seconds": 8.366163292,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri152-root-saved-guard-custody-check-v1",
+  "scientific_credit": false,
+  "scope": "Guard child actual completion and monitor custody checked; every saved65 case and entire fixture semantics await separate nonauthor review. Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 599,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

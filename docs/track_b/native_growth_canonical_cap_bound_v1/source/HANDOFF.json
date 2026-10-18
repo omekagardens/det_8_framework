@@ -1,0 +1,193 @@
+{
+  "schema": "ri157-correlated-capacity-proof-handoff-v1",
+  "status": "SEALED_SOURCE_PROOF_FOR_FRESH_NONAUTHOR_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 2632,
+    "sha256": "7985a580d642c793da71a185d0f3d7efcf98b7ad34fe558acb66e8e0997025b9"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI155_ROOT_ADJUDICATION.json",
+    "bytes": 3559,
+    "sha256": "7b2ca8796cf601fd231b511f6ac0fd9f8778d44a20f69cb8808ee131171017e6"
+  },
+  "grid_premise_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI157_GRID_PREMISE_CLARIFICATION.json",
+    "bytes": 1475,
+    "sha256": "717df9065eebea27673919656c84b821a9ccd8dff3c322209e8961715a893dc8"
+  },
+  "namespace": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_CAP_BOUND.md",
+    "CORRELATED_CAPACITY_SYNTHESIS.md",
+    "CORRELATED_CONTRAST_BOUND.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/ANALYTIC_RESULT.json",
+      "bytes": 4924,
+      "sha256": "c5ef9e86cd37ad5943c71239774bc1e08a5d057fff02e101a8933e561152fb20"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/AUTHOR_CHECKS.json",
+      "bytes": 16077,
+      "sha256": "44d6601e1b75b3889f0d3c0ed0fd89cdb401bb81f2e799b14ec979ea2f7d4e18"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+      "bytes": 12849,
+      "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CAPACITY_SYNTHESIS.md",
+      "bytes": 11966,
+      "sha256": "25646b02bd021a8de23b89d8841621c70bbcecf97fe59164ac63d620b9cea7dd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+      "bytes": 13521,
+      "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/DEPENDENCY_NOTES.md",
+      "bytes": 15485,
+      "sha256": "01b6a54d3b55533e7f1ee3b979fdf0c07991bec18ac88c6f44defe6a4c83018f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.md",
+      "bytes": 3282,
+      "sha256": "57f38195d6b6f6b2f1f0e90f93c880b97ce507947d050412cf22779bbe0265fb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_DEPENDENCIES.json",
+      "bytes": 201161,
+      "sha256": "368790622693cc600168c363a83a8a1bdd2831f21e49bbe1fb27aef1be812c79"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_IDENTITIES.json",
+      "bytes": 33170,
+      "sha256": "41ce90f61723ae09c915b424d8a92b3a605d59ce1a99be7fe1905ea25f672180"
+    }
+  ],
+  "compact_publication_subset": [
+    "ANALYTIC_RESULT.json",
+    "AUTHOR_CHECKS.json",
+    "CANONICAL_CAP_BOUND.md",
+    "CORRELATED_CAPACITY_SYNTHESIS.md",
+    "CORRELATED_CONTRAST_BOUND.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "external_only_diagnostics": [],
+  "manual_result": "AUTHOR_PROVED_ACTUAL_CANONICAL_CAP_BRANCH_AND_SHARPER_MARKED_CONTRAST_WITH_REMAINING_SEPARATION_GAP",
+  "load_bearing_inherited_premises": [
+    "RI41 unchanged accepted finite parent-four law: total height mass<19/40, component alpha>=1/8, and full complement>=33901019/474368400>1/14.",
+    "RI36 analytic construction: each size-three proper probability<=1/8; RI41 explicitly retains that construction at fixed e=1/44.",
+    "Accepted RI151 actual canonical target formula and marked fork/hook potential identities.",
+    "RI155 first capacity, strict-capacity equivalence, complete E/V bounds and exact contrast; no scientific replay."
+  ],
+  "new_results": [
+    "Subtracting the accepted full-complement margin from complete height sums gives w,p_i<113/11480 and s_i<113/22960; coefficient-times-potential bounds give w,p_i,s_i>=1/352.",
+    "Complete C4 normalization yields 11489/22960<b_i<2267/2464<a and b_i>1/2, without choosing either non-core root ordering.",
+    "The RI36 proper-slot bound, retained in RI41, and complete fork normalization give f_i/2+min g_iu>=135/1408 through correlated deletion potentials.",
+    "On N_i>0 the actual canonical correction obeys N_i<14(p_i-1/440); the zero branch is separate. Two convex endpoint bounds give F_i<35743/12100<71/24<E_0,E_1.",
+    "Both actual F rows are strictly inactive in the retained cap: Mcap=max(E0,E1), Z=R>1/8. This does not determine global M6 or prove rho=R.",
+    "All three complete contrast brackets lie in (-2,0), with H7<-235/20664. Positive v forces p1>p0 or s1>s0, without selecting a disjunct.",
+    "For Dminus=(p1-p0)_++(s1-s0)_+, the actual bound is 0<v<2theta Dminus<1147/9092160.",
+    "A capacity pass requires lambda<1147/15370080<1/13000 and Dminus>213d7. Equivalently the sum of two positive component increases exceeds 8733 times the positive core-component gap.",
+    "An actual proof of the reverse weak marked-row comparison Dminus<=213d7 would give strict v<B. That comparison is not established here."
+  ],
+  "actual_canonical_cap_branch_proved": true,
+  "actual_canonical_cap_branch": "F_0,F_1<35743/12100<71/24<E_0,E_1; Mcap=max(E_0,E_1); Z=R>1/8.",
+  "actual_positive_part_branch_decided": false,
+  "actual_individual_root_order_decided": false,
+  "actual_ordering_disjunction_proved": true,
+  "actual_v_bound": "0<v<1147/9092160",
+  "actual_lambda_bound_proved": false,
+  "conditional_lambda_bound": "v>B implies lambda<1147/15370080<1/13000.",
+  "actual_marked_contrast_separation_proved": false,
+  "actual_v_greater_than_B_proved": false,
+  "actual_v_less_equal_B_proved": false,
+  "actual_joint_capacities_proved": false,
+  "actual_adequate_q_v_joint_budget_proved": false,
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_rho_in_delta0_proved": false,
+  "full_H30_decided": false,
+  "remaining": "Compare the actual marked-component increases with 8733 times the actual positive core gap, or establish an adequate lower bound on lambda. The new bounds do not decide actual v>B; a pass still leaves the q threshold.",
+  "grid_premise_accepted": false,
+  "grid_premise_used": false,
+  "grid_status": "Discovery rounding is not an accepted global final-witness grid theorem. A 1/1000-grid rejection is conditional only; the complete final-witness grid audit is missing and is not authorized or executed here.",
+  "conditional_implication": "Failure of this sufficient envelope is not a W/H30 sign. A genuine complete-envelope pass would obstruct this fixed H30 candidate; none is proved.",
+  "actual_author_check": {
+    "tool_chunk": "a7e617",
+    "exit_code": 0,
+    "stage": "preseal8",
+    "dependencies": 223,
+    "bytes": 9791698,
+    "inherited": 193,
+    "administrative_bodies": 77,
+    "historical_typed_refs": 1616,
+    "current_typed_refs": 89,
+    "extended_historical_identity_occurrences": 17,
+    "historical_state_compared_to_current": false,
+    "source_pairs": 4,
+    "literal_manuscript_references": 6,
+    "final_fresh_rechecks_at_preseal": 231,
+    "receipt_payload": "AUTHOR_CHECKS.json"
+  },
+  "final_check_boundary": "A separate final10 check after this seal must freshly reopen the223 selected dependencies and10currentfiles. This handoff does not preclaim that future receipt.",
+  "diagnostics": [
+    "Main and author peers fully cross-read the new proofs without a finding; these checks are not independent acceptance.",
+    "Clipped historical displays were recovered by explicit range reads before writing; exact current diagnostics and commands are recorded in AUTHOR_CHECKS.json.",
+    "Discovery rounding is not an accepted final-witness grid theorem. No final scientific coefficient vector or override is decoded or compared.",
+    "The prior FS seed-order and inverse-theta inferences remain excluded.",
+    "Only an actual marked-row comparison or an adequate actual lambda lower bound can settle the remaining envelope question; arbitrary positive coefficients are not a counterexample."
+  ],
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "shared_T1_recovery": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_body_decode": false,
+    "actual_selected_numeric_evaluation": false,
+    "manual_theorem_bound_arithmetic": true,
+    "source_helper_import_compile_AST_probe_run": false,
+    "engine": false,
+    "global_enumeration": false,
+    "new_subagent_spawning": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_freeze_admission": false,
+    "physical_claim": false
+  },
+  "author_peers_not_independent_reviewers": true,
+  "immutable_after_seal": true,
+  "root_owns_adjudication_admission_repository_Git_and_publication": true,
+  "no_successor_assigned": true,
+  "stop": "Fresh nonauthor review and coordinator adjudication; author work stops at this handoff."
+}

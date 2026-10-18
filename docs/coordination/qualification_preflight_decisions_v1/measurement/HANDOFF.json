@@ -1,0 +1,179 @@
+{
+  "RET": "paused",
+  "active_card_freeze_admission_E_fixture_created": false,
+  "actual_binding_drift": false,
+  "actual_checks": [
+    {
+      "chunk_id": "78f5ea",
+      "exit_code": 0,
+      "meaning": "Authorized six fixed-file bytes/resolution/states and read-only host OS facts; direct vendor not executed."
+    },
+    {
+      "chunk_id": "546634",
+      "exit_code": 0,
+      "meaning": "567 source dependencies,623 distinct source/review identities, eight unchanged monitor/helper spans and exact non-authorizing proposals."
+    }
+  ],
+  "assignment": {
+    "bytes": 4276,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/MEASUREMENT_SUCCESSOR_ASSIGNMENT.json",
+    "sha256": "55d6231a3d1aaf29f698b916983407d7838d4d83bc04d5e0f01b40a8b901d78a"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "control_counts": {
+    "defined": 106,
+    "executed": 0
+  },
+  "current_fixed_facts": {
+    "bytes": 5147,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/FIXED_CURRENT_FACTS.json",
+    "sha256": "b637f6ed4184a94cdf48eff9020f6c9d078f84486e17e411833365219b32cb0a"
+  },
+  "diagnostics": {
+    "bytes": 2227,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/ACTUAL_READ_ONLY_DIAGNOSTICS.json",
+    "sha256": "7201c709ad45701b1cba70f62a0d3544c106d2fa62de358ec73ff228773131b9"
+  },
+  "final_check": {
+    "bytes": 607,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/FINAL_PREPARATION_CHECK.json",
+    "sha256": "1d68b4b88af5dbaae0fc934cc7bfaf71a04b17d58b94a5bbcbce15c19ec6eeba"
+  },
+  "genuine_seal_tool_result": "Delivered separately; this handoff does not self-authenticate tool origin.",
+  "literal_monitor_invocation": {
+    "bytes": 2349,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/MONITOR_INVOCATION.proposal.txt",
+    "sha256": "ae5526cfc618ff50243ca4d12590ffc6802f4c4600bcc8e58acb7d11f57e7494"
+  },
+  "missing_immediate_prerequisites": [
+    "Root inspect/adopt exact finite command, current source and same unchanged monitor selection",
+    "Fresh genuine complete vendor supplier/framework/host and source/card preflight with stable host/cache/loader premises; current finite facts are not full supplier qualification",
+    "Root exclusively creates declared records/environment/empty monitor directory, canonical request and separate12-field adapter admission; adapter output stays absent until authenticated child ownership",
+    "Root records actual dispatch then invokes once, retains exact initial/pending/terminal tool evidence and whole raw monitoring/streams/partials",
+    "Root independent post source/card/supplier/environment/namespace checks even after failure, then complete actual106 evidence review"
+  ],
+  "namespace": [
+    "ACTUAL_READ_ONLY_DIAGNOSTICS.json",
+    "FINAL_PREPARATION_CHECK.json",
+    "FIXED_CURRENT_FACTS.json",
+    "HANDOFF.json",
+    "MONITOR_INVOCATION.proposal.txt",
+    "PREFLIGHT_AND_COMMAND.md",
+    "PUBLICATION_SUBSET.json",
+    "QUALIFICATION_PROPOSAL.json",
+    "READ_DIAGNOSTIC.stderr",
+    "SOURCE_AND_MONITOR_AUTHENTICATION.json",
+    "observe_fixed_facts.py",
+    "prepare_metadata_proposals.py",
+    "seal_preflight.py"
+  ],
+  "new_agents": 0,
+  "new_launcher_framework": false,
+  "not_immediate_blockers": [
+    "R01 path transfer",
+    "current-E capture/profiles",
+    "scientific WHITE mode admission and saved arithmetic",
+    "RI131/full32/periodic/mean/join/public-data/calibration"
+  ],
+  "payload_count": 12,
+  "payloads": [
+    {
+      "bytes": 2227,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/ACTUAL_READ_ONLY_DIAGNOSTICS.json",
+      "sha256": "7201c709ad45701b1cba70f62a0d3544c106d2fa62de358ec73ff228773131b9"
+    },
+    {
+      "bytes": 607,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/FINAL_PREPARATION_CHECK.json",
+      "sha256": "1d68b4b88af5dbaae0fc934cc7bfaf71a04b17d58b94a5bbcbce15c19ec6eeba"
+    },
+    {
+      "bytes": 5147,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/FIXED_CURRENT_FACTS.json",
+      "sha256": "b637f6ed4184a94cdf48eff9020f6c9d078f84486e17e411833365219b32cb0a"
+    },
+    {
+      "bytes": 2349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/MONITOR_INVOCATION.proposal.txt",
+      "sha256": "ae5526cfc618ff50243ca4d12590ffc6802f4c4600bcc8e58acb7d11f57e7494"
+    },
+    {
+      "bytes": 11597,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/PREFLIGHT_AND_COMMAND.md",
+      "sha256": "7ad117a185f539f8a42f47353092c2fa6979d2f556c9272c6a1c150e696a5ae1"
+    },
+    {
+      "bytes": 714,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/PUBLICATION_SUBSET.json",
+      "sha256": "79787c128ed556b7db5448a440fadb44dac1c9af3a55a5309f479907cfb552a5"
+    },
+    {
+      "bytes": 13489,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/QUALIFICATION_PROPOSAL.json",
+      "sha256": "a271f9deb06aa4aeeac0b33fb6b6963477108621f86ec823568cbf72e34f8227"
+    },
+    {
+      "bytes": 150,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/READ_DIAGNOSTIC.stderr",
+      "sha256": "a03568c5715370791bfa71e1f7e1ed372c00f1357d23fb08cd7fe2325bcc68c8"
+    },
+    {
+      "bytes": 162026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/SOURCE_AND_MONITOR_AUTHENTICATION.json",
+      "sha256": "823a2f4729cd624a437f382362762e381f9c9af303b354c60391cc0a0e9cb45b"
+    },
+    {
+      "bytes": 3683,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/observe_fixed_facts.py",
+      "sha256": "8cf53fecba8bf46cdb945351d1d9ae86d4eeeb9fe2c3210835d1d9655c3eaee9"
+    },
+    {
+      "bytes": 9879,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/prepare_metadata_proposals.py",
+      "sha256": "45b32ee663822847b6cd3a0890b1504de2ed13ab8596910a53ac1e0c175dc9bb"
+    },
+    {
+      "bytes": 6366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/seal_preflight.py",
+      "sha256": "c01fc91aff9e62951a05ca3524d32f7616729c307dbb49c20bc9f43831cc6051"
+    }
+  ],
+  "preflight_and_command_contract": {
+    "bytes": 11597,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/PREFLIGHT_AND_COMMAND.md",
+    "sha256": "7ad117a185f539f8a42f47353092c2fa6979d2f556c9272c6a1c150e696a5ae1"
+  },
+  "prior_authorship": "RI156/158/160 adapter, RI125 primary/qualifier and RI131; prior RI141 independent source review reused as historical acceptance, not new self-review.",
+  "proposal": {
+    "bytes": 13489,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/QUALIFICATION_PROPOSAL.json",
+    "sha256": "a271f9deb06aa4aeeac0b33fb6b6963477108621f86ec823568cbf72e34f8227"
+  },
+  "repository_or_Git_operation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s",
+  "root_accepted_source": {
+    "bytes": 2582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+    "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+  },
+  "schema": "ri162-inert106-preflight-handoff-v1",
+  "sealed_immutable": true,
+  "source": {
+    "bytes": 14881,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/HANDOFF.json",
+    "sha256": "a0067b9dbacf3ae293260cae242ee646c67c53a0c32ed25d0f47ab3c4056b00f"
+  },
+  "source_manifest": {
+    "bytes": 147447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+    "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+  },
+  "source_monitor_authentication": {
+    "bytes": 162026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri162-inert-qualification-preflight-wb69vu5s/SOURCE_AND_MONITOR_AUTHENTICATION.json",
+    "sha256": "823a2f4729cd624a437f382362762e381f9c9af303b354c60391cc0a0e9cb45b"
+  },
+  "source_or_control_import_compile_AST_probe_execute": false,
+  "status": "PREPARATION_SEALED_FOR_ROOT_INSPECTION_NOT_ADMISSION",
+  "thresholds_unchanged": true
+}

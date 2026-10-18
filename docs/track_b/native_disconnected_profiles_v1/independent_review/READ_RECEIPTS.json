@@ -1,0 +1,111 @@
+{
+  "schema": "ri225-independent-read-receipts-v1",
+  "provenance": "Assistant-authored retention of actual tool-result identities and scopes; not a provider-exported transcript.",
+  "own_current_reads": [
+    {
+      "chunk_id": "381b07",
+      "exit_code": 0,
+      "scope": "Six-file wc/hash and complete numbered DISCONNECTED_PROFILES.md"
+    },
+    {
+      "chunk_id": "105471",
+      "exit_code": 0,
+      "scope": "Complete numbered LOWER_PROFILE_GAP.md and current RI111 literal admission"
+    },
+    {
+      "chunk_id": "a953d2",
+      "exit_code": 0,
+      "scope": "Complete HANDOFF.json/HANDOFF.md and author line count"
+    },
+    {
+      "chunk_id": "a75b64",
+      "exit_code": 0,
+      "scope": "Complete RI111 REPAIR.md and AUTHOR_VERIFICATION.json lines 1-165"
+    },
+    {
+      "chunk_id": "fa1729",
+      "exit_code": 0,
+      "scope": "AUTHOR_VERIFICATION.json lines 166-320"
+    },
+    {
+      "chunk_id": "96b52d",
+      "exit_code": 0,
+      "scope": "AUTHOR_VERIFICATION.json lines 321-440, including complete retained administrative checker source, read only"
+    },
+    {
+      "chunk_id": "1607a9",
+      "exit_code": 0,
+      "scope": "Complete RI189 COMPONENT_ROUTING.md and COUPLED_CONTRAST.md"
+    },
+    {
+      "chunk_id": "fa4ca0",
+      "exit_code": 0,
+      "scope": "Administrative SOURCE_REFERENCES field/direct-source inventory inspection"
+    },
+    {
+      "chunk_id": "8714f7",
+      "exit_code": 0,
+      "scope": "Proof heading/formula line-reference lookup"
+    }
+  ],
+  "own_metadata_result": {
+    "chunk_id": "7bc1cd",
+    "wall_time_seconds": 0.000007,
+    "exit_code": 0,
+    "original_token_count": 492,
+    "output": "{\n  \"status\": \"MATCH_METADATA_ONLY_NOT_MATHEMATICAL_ACCEPTANCE\",\n  \"whole_file_identities\": 31,\n  \"direct_sources\": 25,\n  \"direct_bytes\": 710419,\n  \"current_namespace\": 6,\n  \"predecessor_namespace\": 6,\n  \"inherited_boundary_objects\": 15,\n  \"inherited423_bodies_not_replayed\": true,\n  \"new_RI111_exact_admission_row\": true,\n  \"lower_two_hint_bodies_unopened\": true,\n  \"scientific_body_unopened\": true,\n  \"source_execution\": false,\n  \"automated_proof_arithmetic\": false,\n  \"writes\": false,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/AUTHOR_VERIFICATION.json\",\n      \"bytes\": 40198,\n      \"sha256\": \"5e1f791480d11474c0c1ea14e12668b3c911e6ddd29720995f316f39815457e2\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/DISCONNECTED_PROFILES.md\",\n      \"bytes\": 15209,\n      \"sha256\": \"588eba196bb27baa6ee967d0dbe2b25d0c0645b186dd3dc7e9ddee913467b522\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.json\",\n      \"bytes\": 19078,\n      \"sha256\": \"1dfd6442280f3e5ed92c49db204784bf7aabc488b3461c69a1e8aed313c58ff5\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.md\",\n      \"bytes\": 2367,\n      \"sha256\": \"6c99d78708325504260efbd38c19091e0e9d03758311a5ed68f0b40dfc3a0546\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/LOWER_PROFILE_GAP.md\",\n      \"bytes\": 13841,\n      \"sha256\": \"5284896ef15b7f5233821762308f6c0e718c80fd30075f73ab6ee8d5a9e4829e\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/SOURCE_REFERENCES.json\",\n      \"bytes\": 56014,\n      \"sha256\": \"296a758cd67b7d3b70a3e2937c8b874b6c6b1336afcc44300415a496529e8d2f\"\n    }\n  ]\n}\n"
+  },
+  "author_receipts_attributed": {
+    "attribution": "Stored declarations and parent's forwarding of the author's final handoff; none is this reviewer's replay.",
+    "final": {
+      "chunk_id": "8e9441",
+      "exit_code": 0,
+      "whole_file_identities": 31,
+      "explicit_selected_references": 40,
+      "direct_sources": 25,
+      "direct_bytes": 710419,
+      "current_namespace": 6,
+      "predecessor_namespace": 6,
+      "boundaries": 15
+    },
+    "preseal": {
+      "chunk_id": "c66a29",
+      "exit_code": 0,
+      "whole_file_identities": 29,
+      "explicit_selected_references": 37
+    },
+    "final_proof_handoff_read": {
+      "chunk_id": "12be8d",
+      "exit_code": 0
+    },
+    "author_pin": {
+      "chunk_id": "3d2ba5",
+      "exit_code": 0
+    },
+    "recovered_clipped_source_display": {
+      "chunk_id": "56e60b",
+      "exit_code": 0,
+      "recovery_chunk_id": "4d42ad",
+      "recovery_exit_code": 0
+    },
+    "declared_failed_shell_commands": 0,
+    "declared_rejected_patches": 0,
+    "declared_failed_orchestration_attempts": 0
+  },
+  "inherited_predecessor_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri223-independent-native-review-rA5JjC/HANDOFF.json",
+    "bytes": 3786,
+    "sha256": "2027f46c8e7f216a4f33b5fd76c395bd9077fb1b02d5375befbecca025f910a3",
+    "description": "Prior independent complete RI223 mathematical/source review, including RI85/103/117/127 admitted antecedents. Those complete reads are retained, not claimed as fresh RI225 executions."
+  },
+  "diagnostics": {
+    "own_failed_commands": 0,
+    "own_clipped_displays": 0,
+    "subject_execution": false,
+    "automated_scientific_arithmetic": false,
+    "scientific_body_parsing": false,
+    "git_operations": false,
+    "ret_activity": false
+  },
+  "metadata_scope_limit": "Only the 25 declared direct source files and six current files were hashed in the fresh metadata check; inherited423 payloads were not replayed, and lower hints were not opened."
+}

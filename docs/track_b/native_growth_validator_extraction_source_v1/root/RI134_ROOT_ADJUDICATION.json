@@ -1,0 +1,42 @@
+{
+  "check_source": {
+    "bytes": 6718,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/check_review.py",
+    "sha256": "cef3be26e8f6f142f6c3a01ed0589f88b2bfe177caedf103a7a3aad6bfa36154"
+  },
+  "controls_executed": 0,
+  "current_caller_qualification": false,
+  "current_runtime_observed": false,
+  "execution_admitted": false,
+  "independent_handoff": {
+    "bytes": 3009,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/HANDOFF.json",
+    "sha256": "ea6e42b1a61c990eede360b649491dfff3de88aca2cdb7599246e148971086f1"
+  },
+  "ret_paused": true,
+  "root_reconciliation": {
+    "bytes": 222972,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "cebaceb1be289c58a4689b22856a8d1f86a6d56a82f036af92fb136570178a4d"
+  },
+  "root_review": {
+    "bytes": 6533,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/ROOT_SOURCE_REVIEW.md",
+    "sha256": "8f5d3dfbc77d85e5bc66630bde8f56b45767e2323df4bc0e7af5be8e9d88cdc8"
+  },
+  "root_second_complete_review_claimed": false,
+  "schema": "ri134-root-source-adjudication-v1",
+  "scientific_result_claimed": false,
+  "source_accepted": true,
+  "source_handoff": {
+    "bytes": 14101,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+    "sha256": "3dd25f629fffe6bf23491bfb98987df75870f180ccd2733d5011fde6abf882ac"
+  },
+  "status": "ACCEPT_BOUNDED_UNEXECUTED_EXTRACTION_AND_SELECT_DISPATCHER",
+  "successor": {
+    "bytes": 1118,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/SUCCESSOR_RESERVATIONS.json",
+    "sha256": "6df1e3887daa229038afde6c0d39a282c75dc4bc657a0c06c4e6f645c4e9e3fe"
+  }
+}

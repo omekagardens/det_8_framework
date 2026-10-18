@@ -1,0 +1,64 @@
+{
+  "adopted_source_adjudication": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "current_design_acceptance": {
+    "bytes": 2656,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI236_ROOT_DESIGN_ADJUDICATION.json",
+    "sha256": "9d669a14732daea258b6659d1861c19f41063ca26fc8089901ee28f020cb5d4f"
+  },
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "fresh_preflight": {
+    "bytes": 3037,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/CAPTURE_PREFLIGHT.json",
+    "sha256": "1988fd1bf07b7aa184198b5f0f10017d170338e8cc4de426e95afc3a8b640554"
+  },
+  "frozen_custody_acceptance": {
+    "bytes": 3826,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/FROZEN_CUSTODY_ACCEPTANCE.json",
+    "sha256": "16b743e2ccbdcc512aa1981a33a6f3e400c76edfbdd3bde615385057e8026fae"
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s",
+  "preserved_historical_application": {
+    "bytes": 1838,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+    "sha256": "a80838225302a4e0862053887601c293c9c747fac4062d0931b6c4b28f4a0345"
+  },
+  "ret_paused": true,
+  "reviewed_recipe": {
+    "bytes": 12114,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-normal-preparation-3geu_r1s/worker_proposal/CAPTURE_RECIPE.json",
+    "sha256": "3f46d182e4adedf6b6e346ebd5e5dd6eae60cf42b4e77b073a957531e4c68195"
+  },
+  "schema": "ri239-root-one-capture-source-adoption-v1",
+  "scientific_execution": false,
+  "scope": "One unchanged metadata capture; no profile/guard rerun, candidate interpreter startup, mode-card insertion or scientific execution. Historical refusals remain unchanged.",
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "ADOPT_UNCHANGED_RI141_FOR_ONE_CURRENT_E_METADATA_CAPTURE"
+}

@@ -1,0 +1,105 @@
+{
+  "E_unchanged": true,
+  "all_twelve_independent_tails_passed": true,
+  "baseline": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "complete": {
+    "bytes": 183270,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/COMPLETE.json",
+    "sha256": "c0d04bbf601ec396200a3f70830569302ab8f0b37d885291ac0f4f2c47e53d94"
+  },
+  "complete_file_externally_included": true,
+  "elapsed_seconds": 2.115778542,
+  "final_gap_seconds": 0.03513191700000018,
+  "genuine_tool": {
+    "bytes": 1679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TOOL.json",
+    "sha256": "f89cd1c6ab4e346b5a0223483a29e0912f7423c658a560142dc3d032c8902654"
+  },
+  "host_uname_unchanged": true,
+  "host_version_unchanged": true,
+  "mappings": {
+    "host_scope": "host_bootstrap",
+    "observed_dyld_routes": "preobserved_dyld_routes",
+    "optional_namespaces": "optional_namespaces",
+    "runtime_inventory": "runtime_inventory",
+    "selection": "selection"
+  },
+  "maximum_sample_gap_seconds": 0.03872137499999995,
+  "monitor": {
+    "bytes": 15834,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/monitor/SIDECARS.COMPLETION.json",
+    "sha256": "873045ae766677b7510568e8b9e45d31d9a0b0f53f431b7843f668573e48f8f3"
+  },
+  "namespace_entries_rechecked": 195,
+  "observed_at_unix_ns": 1790818282585032000,
+  "operation_files": 8,
+  "peak_sampled_rss_kib": 210480,
+  "preflight": {
+    "bytes": 3566,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/BOOTSTRAP_PREFLIGHT.json",
+    "sha256": "0b6386eb2daf73a3f6e28758c06e65e54a726e636974a99a17fc240bd24a31d6"
+  },
+  "primitives_rechecked": 4,
+  "prior_role_rows_preserved": 810,
+  "result": {
+    "bytes": 1274,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/RESULT.json",
+    "sha256": "6f2df4b476ef336755737fddd771e829441efbfec63facd03d68f91b66198b31"
+  },
+  "ret_paused": true,
+  "runtime_before": {
+    "bytes": 1260482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RUNTIME_BEFORE.json",
+    "sha256": "b4e9d019e75e64a7a2d9d97a31e11af92546df514401cb495925688bfec74593"
+  },
+  "runtime_capture_executed": false,
+  "samples": 59,
+  "schema": "ri200-root-sidecars-review-v1",
+  "scientific_execution": false,
+  "sidecar_count": 5,
+  "sidecars": {
+    "host_scope": {
+      "bytes": 86310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/host_scope.json",
+      "sha256": "e57432b991cee52c7ae3adf5d777d361bf41306702017297338ce0512de9c99c"
+    },
+    "observed_dyld_routes": {
+      "bytes": 771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+      "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+    },
+    "optional_namespaces": {
+      "bytes": 3666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/optional_namespaces.json",
+      "sha256": "956ba339aa926e5b8a8666f455b78422f8f2b1f8768459a4ce434b8cd18648ce"
+    },
+    "runtime_inventory": {
+      "bytes": 2806092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/runtime_inventory.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    "selection": {
+      "bytes": 3820691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/selection.json",
+      "sha256": "bd0b7b1b9e8d6825c92a4bf4cf92f72eb5330c2167f2ffee03ca1ae2d77622a8"
+    }
+  },
+  "source_supplement": {
+    "bytes": 476254,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/CLOSURE_SUPPLEMENT.json",
+    "sha256": "cd453e99dd2845b880ead0dc7f6fc341fd1acea88c7340090eed56f45a7b5d50"
+  },
+  "sources_before": {
+    "bytes": 384890,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SOURCES_BEFORE.json",
+    "sha256": "b528758093f4eb6faaff9d386b1891ab3f4678a124c8fee68d955ab5f5861770"
+  },
+  "sources_rechecked": 668,
+  "status": "ACCEPT_FIVE_WHOLE_FIELD_ADMINISTRATIVE_SIDECARS",
+  "vendor_bytes_rechecked": 48024515,
+  "vendor_files_rechecked": 1810
+}

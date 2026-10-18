@@ -1,0 +1,1658 @@
+{
+  "base_input_manifest": {
+    "bytes": 677925,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+    "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+  },
+  "base_inputs": 806,
+  "files": [
+    {
+      "bytes": 2708,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "0cb49cf1be39698c8e37f39ac37c363f29d4c6bed656098e4e008938b16df27b"
+    },
+    {
+      "bytes": 571,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_DIAGNOSTIC_5325f0.json",
+      "sha256": "e1ab901620fb0331e751034d34ebfe06ba4cac143f3193447dbeab54540317af"
+    },
+    {
+      "bytes": 753,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_FAILED_5325f0.log",
+      "sha256": "05d03ff124a0d93b1d2a94ae5fbb90a3be348554b9a67921eb681237c027f400"
+    },
+    {
+      "bytes": 3282,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "178df8e92a441238ebfc1707f5cea7487a5c57a16a7d242b4be2af68108a6dfb"
+    },
+    {
+      "bytes": 1650,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+      "sha256": "04e1ab89f1417cbb9b7a1707182680a1b38582fedf0a5be0f029cd28e0c53e03"
+    },
+    {
+      "bytes": 6621,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+      "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 17528,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/PROTOCOL.md",
+      "sha256": "b7ca38ddfd71c831c9369acb010a7c8702330d81ba56ec9262acf520852958c8"
+    },
+    {
+      "bytes": 40506,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "9141369e216169ca162fbe7696908bf991a9499c80a2e0692275b0fc18ae77b3"
+    },
+    {
+      "bytes": 1115,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_PINS.json",
+      "sha256": "49deb90698eecc17823f513a5d62d4ec9ebb93e76a66c53b9f94b7bfe6515e1a"
+    },
+    {
+      "bytes": 5768,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.failed-5325f0.py",
+      "sha256": "00eff7199caa53cf6ed4ea27eca42aeb9e0c7b7937e41235b4ebef4706f97b82"
+    },
+    {
+      "bytes": 5775,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.py",
+      "sha256": "99abe9c1a9b9095e78ef44c75e7f386d9e92b7ed6a4523e46b2b39ad19f23f16"
+    },
+    {
+      "bytes": 2948,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/build_inputs.py",
+      "sha256": "dd76beff6fdb760218dc3bf322d2b36fdc8aab9c813eb3a8fbd7718f5346da63"
+    },
+    {
+      "bytes": 21944,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/check_installation.py",
+      "sha256": "3effbc867be2c35a49c311a4ddc81cdf7f1528493b427186867e00ff161aa2f8"
+    },
+    {
+      "bytes": 18103,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/install_freeze.py",
+      "sha256": "9e6ad93198131d1155825e083ffafc9d58e052cf9d7a8dbea478048ed7efaed3"
+    },
+    {
+      "bytes": 1891,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/HOST_GENUINE_TOOL.json",
+      "sha256": "07cbac05498fb9329338592a1dea8255d09145bee24598491722d494509b4305"
+    },
+    {
+      "bytes": 2384,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "357cf0a058b63efd041e18c3636e02bbaf77cfa23784b3d2bb40b833cafa873e"
+    },
+    {
+      "bytes": 1109,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+    },
+    {
+      "bytes": 1953,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "7214a7973fb45797619ab113def68d644dd3d8ca3d2a570e26b460453a77da41"
+    },
+    {
+      "bytes": 1190,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/BUILD_METADATA.json",
+      "sha256": "7ead4d2cdddcdf0c67beaeb5508d8655cf74b0a54ab119f02871bb748268ba0f"
+    },
+    {
+      "bytes": 4048,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "d9cc91d840c2627b72778c7ba591614d697a15ad695fc125da79470e2753f0bb"
+    },
+    {
+      "bytes": 7600,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+      "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 22702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/PROTOCOL.md",
+      "sha256": "602f78e3f06bcdca53d483bc42b42dfc4f85228a95c4220f7a74fe2f5e452673"
+    },
+    {
+      "bytes": 6471,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+    },
+    {
+      "bytes": 37614,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "82b9760dfaba47275795ab2c737cda937a3842a4a547999aff18f26fe93bbdf3"
+    },
+    {
+      "bytes": 1372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+      "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+    },
+    {
+      "bytes": 9215,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/admin_check.py",
+      "sha256": "42848a07c4ad89aaf3c153a4dfb2d012ce75d57d18424486d450450bef450cf4"
+    },
+    {
+      "bytes": 14252,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/build_repair.py",
+      "sha256": "82208cb187f567cc3462eee7bf698d16a23b98dfdc9a1faf9f7986565566e2c3"
+    },
+    {
+      "bytes": 22820,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/check_installation.py",
+      "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+    },
+    {
+      "bytes": 19876,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+      "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+    },
+    {
+      "bytes": 29123,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/MEASUREMENT_BOUNDARY.json",
+      "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+    },
+    {
+      "bytes": 3892,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_NONAUTHOR_REVIEW.json",
+      "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+    },
+    {
+      "bytes": 2690,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+      "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+    },
+    {
+      "bytes": 2782,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+      "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+    },
+    {
+      "bytes": 2145,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_NONAUTHOR_REVIEW.json",
+      "sha256": "5aa980f2cab6c3ad140fb14e512b5014b1aee8e02a9d507fe0c8a6de5ee4199d"
+    },
+    {
+      "bytes": 487763,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_METADATA_CHECK.json",
+      "sha256": "0a2630d3bf3fbf2a64bb8901566af864e9ba949efa46dae17a386f8f3c117d37"
+    },
+    {
+      "bytes": 2606,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_SOURCE_REVIEW.json",
+      "sha256": "55ac3d5a93fa4d3dc6d7326c76d1d11eb4c7b9ed4266ad3675728b4344ea20c6"
+    },
+    {
+      "bytes": 3723,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PREPARATION_FAILURE_PARTIALS.json",
+      "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+    },
+    {
+      "bytes": 1772,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+      "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+    },
+    {
+      "bytes": 2827,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI218_BYTE_REPAIR_ASSIGNMENT.json",
+      "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+    },
+    {
+      "bytes": 15472,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/prepare_installation.py",
+      "sha256": "db4ebaa6aba5642ea0ca6c5e710eb1e489b4d7a900d31c3ec5134108de49de0d"
+    },
+    {
+      "bytes": 1600,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+      "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66"
+    },
+    {
+      "bytes": 2277,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/DISPATCH.json",
+      "sha256": "c845cf08e37c3c358296859758754b97a445fa1b74c2d9d72267c1575f2a31a8"
+    },
+    {
+      "bytes": 42464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/E_BEFORE.json",
+      "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+    },
+    {
+      "bytes": 725,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/HOST_BEFORE.json",
+      "sha256": "dfb76ef7bd7db51837b46578847a9d58bae5c8e0a8cbdf6575b317a2b50d4d15"
+    },
+    {
+      "bytes": 1569,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/HOST_GENUINE_TOOL.json",
+      "sha256": "ecebbdba397eac9e35bd0a36800165c83446162a8058bfd7e637a3a2c135e0c8"
+    },
+    {
+      "bytes": 4521,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+      "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+    },
+    {
+      "bytes": 2417,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+      "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+    },
+    {
+      "bytes": 2004,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_PREFLIGHT.json",
+      "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+    },
+    {
+      "bytes": 13814,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/PREPARATION_CUSTODY.json",
+      "sha256": "0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f"
+    },
+    {
+      "bytes": 2333,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+      "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+    },
+    {
+      "bytes": 467404,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SOURCES_BEFORE.json",
+      "sha256": "52044caf0447f2be23ea619ef54c72933cd46b414149296ec2ce46832e232196"
+    },
+    {
+      "bytes": 1260487,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SUPPLIER_BEFORE.json",
+      "sha256": "3a341dd656332bcdacad8ebbbcbf271b720a0d36229e22ed69b40853d1839e2c"
+    },
+    {
+      "bytes": 885,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.ATTEMPT.json",
+      "sha256": "7d710d739f5409648884bd751b32a5bd3f81247fca79a4b9d989331b3d0184b3"
+    },
+    {
+      "bytes": 2854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.COMPLETION.json",
+      "sha256": "0f4eb71f4f8ab0d4c0abc108ca4b29431809b9d73083ca3219186b160144a03f"
+    },
+    {
+      "bytes": 701,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stderr",
+      "sha256": "9e0fb84869c9df052f636d2446611f8bc901785725f482e49df1eaacc794cd4e"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3566,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "f7895eb7e06f8def8fb1d632e69e5a321bf174fc080d1d01f9d91e3f2d9bff81"
+    },
+    {
+      "bytes": 2628,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+    },
+    {
+      "bytes": 2818,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "7950fb101cd93b7b407a71a15720290f5daadd6715bfb467f92a4d92fdfe6859"
+    },
+    {
+      "bytes": 2037,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/BUILD_METADATA.json",
+      "sha256": "d16c31a053b8f942fdb6582d149a99722a6016dec9cdaa474c1a67a67a2a0723"
+    },
+    {
+      "bytes": 3615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "be99a325db99c1d5e2da70c98d6ccfa36cd9932285d6e5f4292993c49931e229"
+    },
+    {
+      "bytes": 8207,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+      "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 27883,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/PROTOCOL.md",
+      "sha256": "0c9a43bc57a57852c7e86e0784acfffef69a0b733b6667ab861f41c103d7ee6e"
+    },
+    {
+      "bytes": 13250,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "10ae3a2ad92ff6e753ef18a118ef6ea0829ed7880aa637660e543c63ebeb601e"
+    },
+    {
+      "bytes": 22076,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "777285ee8a83862d822ced8ce54bab169d363e3bd7b7d88a6c52958c8feb2afa"
+    },
+    {
+      "bytes": 1368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+      "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+    },
+    {
+      "bytes": 9261,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/admin_check.py",
+      "sha256": "465b4d163f8340168e8407e53141545c76b15ddacfc2650795756612fba0b601"
+    },
+    {
+      "bytes": 12995,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/build_repair.py",
+      "sha256": "13137b03c68884aaf353d8deb26061479c9056b1309e4c7ad2536877e93a7495"
+    },
+    {
+      "bytes": 22819,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+      "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+    },
+    {
+      "bytes": 19877,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+      "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+    },
+    {
+      "bytes": 2894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/HANDOFF.json",
+      "sha256": "3e479047e5951237b4698e91b9fac2d9eba98f08e6b7b0bca66f4b1f5d5e6194"
+    },
+    {
+      "bytes": 2672,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/HANDOFF.json",
+      "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+    },
+    {
+      "bytes": 2545,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI218_ROOT_METADATA_CHECK.json",
+      "sha256": "584ec7f6bb67bd1ad604c45b61bc8d2920e05ba471c8416284282e6b6ddb18ea"
+    },
+    {
+      "bytes": 16552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py",
+      "sha256": "49373e6ccc56f6aed7101834f3d635cef5e8f04978dd5099656e89de86ddfc34"
+    },
+    {
+      "bytes": 1984,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/CALLER_FAILURE_REVIEW.json",
+      "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+    },
+    {
+      "bytes": 1697,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/FRESH_PREDISPATCH_CHECK.json",
+      "sha256": "03a6c00e3b2f13748835dc75a8ab1dcfc6d7e356a4e85ea00074d88b6654f3d7"
+    },
+    {
+      "bytes": 3292,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+    },
+    {
+      "bytes": 1537,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_POST_HOST_TOOL.json",
+      "sha256": "e1e83894b9a2fe3a431817f4a986380d438da974bffa5d2d9c7a1e671aea376b"
+    },
+    {
+      "bytes": 5447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json",
+      "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+    },
+    {
+      "bytes": 3159240,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/REPO_ENTRY.json",
+      "sha256": "52d4957f5b43c87e532e25b743c786610fc61659ec608f1ac898e7f75154c7d9"
+    },
+    {
+      "bytes": 1478,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+      "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+    },
+    {
+      "bytes": 2264,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+      "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+    },
+    {
+      "bytes": 1391,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/ROOT_INSTALLATION_ADMISSION_DECISION.json",
+      "sha256": "4b69e0dae1230d8960160604e0bf2f1309bed5069d67641c0282c0bbc87f9891"
+    },
+    {
+      "bytes": 5951,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/postfailure_failed.py",
+      "sha256": "bd18b2b388b0bf3cfdd3a9f463ae12c53f4bea2570ec597100ddc5e6cdc9c099"
+    },
+    {
+      "bytes": 6060,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/postfailure_v2.py",
+      "sha256": "8b2b7ad5072e3848c87b4987427249d8f71e07d3a9be7d0fa7f84feb75bb23a5"
+    },
+    {
+      "bytes": 1596,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json",
+      "sha256": "f8cd444066e14c3ee25eac77180874da1ff19a0737c132ca9d49ba155807d99d"
+    },
+    {
+      "bytes": 2270,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/DISPATCH.json",
+      "sha256": "96f9b1fd8e7a39393cacd1a7cc8ddba44b637c95296d89bf08b52984b9372b33"
+    },
+    {
+      "bytes": 42464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json",
+      "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+    },
+    {
+      "bytes": 724,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json",
+      "sha256": "c0aec9d2f264b7cc3cd47bd0674b53d10e0c4217a3a00bf63655a7d7b671eb76"
+    },
+    {
+      "bytes": 1550,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json",
+      "sha256": "141293eda415d4c07a55c66e54d444760f80f347261d8f5c91fdcf66caf21628"
+    },
+    {
+      "bytes": 4509,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+      "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+    },
+    {
+      "bytes": 2413,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+      "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853"
+    },
+    {
+      "bytes": 1997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json",
+      "sha256": "32a305a8c7c85da70c664aa6d6c547aae55eff88a0cb791213447314eafd8de8"
+    },
+    {
+      "bytes": 16080,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+      "sha256": "b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52"
+    },
+    {
+      "bytes": 2307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+      "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+    },
+    {
+      "bytes": 492355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+      "sha256": "6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c"
+    },
+    {
+      "bytes": 1260486,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+      "sha256": "be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225"
+    },
+    {
+      "bytes": 882,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.ATTEMPT.json",
+      "sha256": "da4f699034536ba21a92d741078ead408a9173deec999258d7b14460d108b961"
+    },
+    {
+      "bytes": 11771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.COMPLETION.json",
+      "sha256": "15f6594b1c96db728f11ae084a394e945d33abb201a1fff1ffa9c78d550fb14b"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3992,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "7a47191417577779efa58cce7648c89c9d94e33cb756e465d4a1b1181d39e446"
+    },
+    {
+      "bytes": 2866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json",
+      "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+    },
+    {
+      "bytes": 2649,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "2da141d32435e8d101a8b60b1b39d963e098067e4f56a8dc302eb70847a2c9ef"
+    },
+    {
+      "bytes": 1862,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/BUILD_METADATA.json",
+      "sha256": "61ca0c1c2f115c4edf3fbc2dd8a0e3e51c37ac9e6296f08b6d3a9217137d4113"
+    },
+    {
+      "bytes": 3053,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+      "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+    },
+    {
+      "bytes": 3115,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/FINDING_RESPONSE.md",
+      "sha256": "c782f326bb0372337edf1e3ae30cc2d121b87a0219d8c8c2cff813f80036a8c2"
+    },
+    {
+      "bytes": 9023,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+      "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+    },
+    {
+      "bytes": 677925,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 32894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/PROTOCOL.md",
+      "sha256": "ef754bbdafba9ec34848e3798f1e3bd302b5872597a970543c88f415075d69d7"
+    },
+    {
+      "bytes": 48176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+      "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+    },
+    {
+      "bytes": 28047,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "0ae7399adf2a00fd3c943a73a1f6af0d334b6ef1687f4a31420869352ac7cb9a"
+    },
+    {
+      "bytes": 1363,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+      "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+    },
+    {
+      "bytes": 11721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/admin_check.py",
+      "sha256": "c02edb3557983e902303622a0d5b97948bfc9cf61a8455ef20fc9faf1a81aad8"
+    },
+    {
+      "bytes": 13272,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/build_repair.py",
+      "sha256": "3fdd73fd879e4fffa0c4211264241b059c537ba15ef98a94c78922e1d10c0e83"
+    },
+    {
+      "bytes": 22817,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+      "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+    },
+    {
+      "bytes": 19894,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+      "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+    },
+    {
+      "bytes": 713,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/ATTEMPT.json",
+      "sha256": "01c0426f641d6caace9983e143320c2ca97295c02b84b942a95dc721de4dac31"
+    },
+    {
+      "bytes": 688663,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/BEFORE.json",
+      "sha256": "4be52b9f1cf03cec3154a5c9babe39f9fb873cc1f25ebf0fe2f2f47ee53a8c99"
+    },
+    {
+      "bytes": 2054312,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+      "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+    },
+    {
+      "bytes": 1900901,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/OBSERVATIONS.json",
+      "sha256": "1cbdc744f1578f38da57ee1525f79df8b0752cde3ca34f26afcd552780d4712f"
+    },
+    {
+      "bytes": 1079,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ADMISSION_TRANSCRIPTION_CORRECTION_REVIEW.json",
+      "sha256": "ae19f47dbd96281b6ec913655676c61e7b71dd6365fd31507e5dbedcef87665c"
+    },
+    {
+      "bytes": 3059,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ADMISSION_WRITER_FAILURE.json",
+      "sha256": "f18d258f2b678dd3f3f691877c419c25cddfa28d523157e6105fb84c1e76752e"
+    },
+    {
+      "bytes": 1582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/CONCRETE_PREPARATION_ACCEPTANCE.json",
+      "sha256": "04321b72843e59bf8d54fa6490451ab70fa63d6a34f39e74b3720c70c19335c7"
+    },
+    {
+      "bytes": 17182,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/FRESH_PREDISPATCH_CHECK.json",
+      "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+    },
+    {
+      "bytes": 3634,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+    },
+    {
+      "bytes": 1540,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_POST_HOST_TOOL.json",
+      "sha256": "a679f2ff04d2d4f95e46a722ae4cc130ff7aa65d772e751673b65aaec42e969a"
+    },
+    {
+      "bytes": 1552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_HOST_TOOL.json",
+      "sha256": "1b2da050aa672834d0777603efc70d2b07019aea4254999d4f2df59d7344b6ae"
+    },
+    {
+      "bytes": 3008,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_TOOL.json",
+      "sha256": "f6beeef17d2e2fa6e3ed4be42eb0deb199798f2b0833829e6d46d8118c52bbe4"
+    },
+    {
+      "bytes": 1424,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CHECK_TOOL.json",
+      "sha256": "33e0eee7dca827eb599acad7bc020352674f2587535d420475a1b488a6e1f6fe"
+    },
+    {
+      "bytes": 5932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+      "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+    },
+    {
+      "bytes": 17182,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_CORRECTED.json",
+      "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+    },
+    {
+      "bytes": 17184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_FAILED.json",
+      "sha256": "0b0e3aec4d439863b9b003ec0b8c0413dfe147a6ffcc9da84089583ac3a415da"
+    },
+    {
+      "bytes": 1815,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREPARATION_SOURCE_ACCEPTANCE.json",
+      "sha256": "dbe2730a6252593e48482921ab92f5b41993b56c40060ef0bf3973be540c2bf6"
+    },
+    {
+      "bytes": 1938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_OPERATIONAL_SUPERSESSION.json",
+      "sha256": "9c3cd5ca300d97ea108a7f49d00f5332b578a43338b3f063d4c9a38c0c7a42d7"
+    },
+    {
+      "bytes": 2123,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_ROOT_METADATA_CHECK.json",
+      "sha256": "ab057d204778b0d8d4fb0c3c4b1b3c0df7f01021f5f583bf35ab3b3de4ad14a6"
+    },
+    {
+      "bytes": 3315,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+      "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+    },
+    {
+      "bytes": 15311,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK.json",
+      "sha256": "06b3911e1f41f0f0e2e64ffb9a0ed5e0eab7c4a288a51cbe538f3ebaa6a96ddc"
+    },
+    {
+      "bytes": 15309,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK_CORRECTED.json",
+      "sha256": "e13b9c454278d007fa2427e46e5e5e1634d2e86988dc6674dc849b381efbf97e"
+    },
+    {
+      "bytes": 1971,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_INSTALLATION_ADMISSION_DECISION.json",
+      "sha256": "b07c516d0675cc7c657c2a92e10083e2fb291ec157fb6a432e42574a5cac56b2"
+    },
+    {
+      "bytes": 2866,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_ADMIN_CHECK.json",
+      "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+    },
+    {
+      "bytes": 3053,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_CWD_CONTRACT_CHECK.json",
+      "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+    },
+    {
+      "bytes": 1447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/SOURCE_REPLAY_GENUINE_TOOL.json",
+      "sha256": "ddb1ff285401681a1e73aac3e0270464f27c18584011a72556dfcea50fc273e8"
+    },
+    {
+      "bytes": 7835,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/check_preparation.py",
+      "sha256": "2ad1cc30367002fe463c14aa72946cc0351baf3fc267a0e87bae8cce2a7d1a9f"
+    },
+    {
+      "bytes": 3437,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/issue_installation_failed.py",
+      "sha256": "db6af8174b1d08f45511aa9c453f46ee26bcbc5ba9b47498341b6ad07a29259f"
+    },
+    {
+      "bytes": 3593,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/issue_installation_v2.py",
+      "sha256": "fd20496c216ff3a25d2a6f8ba6053d92b8effc35bb19d6502f918bc57004b2a0"
+    },
+    {
+      "bytes": 5414,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/postfailure.py",
+      "sha256": "f395713954ecc12706afbf9480015e4b7f29c468b72a6bf4bf4bc90f62a4b15b"
+    },
+    {
+      "bytes": 18455,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/prepare_installation.py",
+      "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+    },
+    {
+      "bytes": 2743,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/preserve_admission_failure.py",
+      "sha256": "efa055cab768aba89ffe09f2c326db610f03a006795fa689e195e947fa61590a"
+    },
+    {
+      "bytes": 2466,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/record_preparation_source.py",
+      "sha256": "b601c06471289bcd302a13023ac24b315ba2a965883fa5da8bb8457fcb1b23e3"
+    },
+    {
+      "bytes": 3669,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/seal_source.py",
+      "sha256": "bcff7deb8bbb73e726f6e952ece6e50e0c9edc7cc29dbe9370a37482e487a341"
+    },
+    {
+      "bytes": 11897,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/source_replay.py",
+      "sha256": "cd9a804102e06ce0c3e26fe78c01e614f665a27f7d65c3911b5402f0f7e0310f"
+    },
+    {
+      "bytes": 1893,
+      "path": "/private/tmp/ri217_host_before_transcript.json",
+      "sha256": "708a0963e35fe66c504c0fd2b93a11711c0ba7ae5a57b1b5f61b028441ca211b"
+    },
+    {
+      "bytes": 1571,
+      "path": "/private/tmp/ri219_host_before_transcript.json",
+      "sha256": "c79b992eef164650580bcbbeb211864f0c80a477489e3bb4ed14b61418e1bcac"
+    }
+  ],
+  "groups": {
+    "actual_failure_and_diagnostics": [
+      {
+        "bytes": 3315,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+        "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+      },
+      {
+        "bytes": 5932,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+        "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+      },
+      {
+        "bytes": 1938,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_OPERATIONAL_SUPERSESSION.json",
+        "sha256": "9c3cd5ca300d97ea108a7f49d00f5332b578a43338b3f063d4c9a38c0c7a42d7"
+      },
+      {
+        "bytes": 3634,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+        "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+      },
+      {
+        "bytes": 1424,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CHECK_TOOL.json",
+        "sha256": "33e0eee7dca827eb599acad7bc020352674f2587535d420475a1b488a6e1f6fe"
+      },
+      {
+        "bytes": 1540,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_POST_HOST_TOOL.json",
+        "sha256": "a679f2ff04d2d4f95e46a722ae4cc130ff7aa65d772e751673b65aaec42e969a"
+      },
+      {
+        "bytes": 1552,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_HOST_TOOL.json",
+        "sha256": "1b2da050aa672834d0777603efc70d2b07019aea4254999d4f2df59d7344b6ae"
+      },
+      {
+        "bytes": 3008,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_PREPARATION_TOOL.json",
+        "sha256": "f6beeef17d2e2fa6e3ed4be42eb0deb199798f2b0833829e6d46d8118c52bbe4"
+      },
+      {
+        "bytes": 1079,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ADMISSION_TRANSCRIPTION_CORRECTION_REVIEW.json",
+        "sha256": "ae19f47dbd96281b6ec913655676c61e7b71dd6365fd31507e5dbedcef87665c"
+      },
+      {
+        "bytes": 3059,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ADMISSION_WRITER_FAILURE.json",
+        "sha256": "f18d258f2b678dd3f3f691877c419c25cddfa28d523157e6105fb84c1e76752e"
+      },
+      {
+        "bytes": 1582,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/CONCRETE_PREPARATION_ACCEPTANCE.json",
+        "sha256": "04321b72843e59bf8d54fa6490451ab70fa63d6a34f39e74b3720c70c19335c7"
+      },
+      {
+        "bytes": 17182,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/FRESH_PREDISPATCH_CHECK.json",
+        "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+      },
+      {
+        "bytes": 17182,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_CORRECTED.json",
+        "sha256": "a64551b011d81852134f689a87e5585896b753e098429197806b2ff0200b7fda"
+      },
+      {
+        "bytes": 17184,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREDISPATCH_TRANSCRIPTION_FAILED.json",
+        "sha256": "0b0e3aec4d439863b9b003ec0b8c0413dfe147a6ffcc9da84089583ac3a415da"
+      },
+      {
+        "bytes": 1815,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/PREPARATION_SOURCE_ACCEPTANCE.json",
+        "sha256": "dbe2730a6252593e48482921ab92f5b41993b56c40060ef0bf3973be540c2bf6"
+      },
+      {
+        "bytes": 15311,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK.json",
+        "sha256": "06b3911e1f41f0f0e2e64ffb9a0ed5e0eab7c4a288a51cbe538f3ebaa6a96ddc"
+      },
+      {
+        "bytes": 15309,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_CONCRETE_PREPARATION_CHECK_CORRECTED.json",
+        "sha256": "e13b9c454278d007fa2427e46e5e5e1634d2e86988dc6674dc849b381efbf97e"
+      },
+      {
+        "bytes": 1971,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_INSTALLATION_ADMISSION_DECISION.json",
+        "sha256": "b07c516d0675cc7c657c2a92e10083e2fb291ec157fb6a432e42574a5cac56b2"
+      },
+      {
+        "bytes": 2866,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_ADMIN_CHECK.json",
+        "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+      },
+      {
+        "bytes": 3053,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ROOT_RI222_CWD_CONTRACT_CHECK.json",
+        "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+      },
+      {
+        "bytes": 2123,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_ROOT_METADATA_CHECK.json",
+        "sha256": "ab057d204778b0d8d4fb0c3c4b1b3c0df7f01021f5f583bf35ab3b3de4ad14a6"
+      },
+      {
+        "bytes": 1447,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/SOURCE_REPLAY_GENUINE_TOOL.json",
+        "sha256": "ddb1ff285401681a1e73aac3e0270464f27c18584011a72556dfcea50fc273e8"
+      },
+      {
+        "bytes": 7835,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/check_preparation.py",
+        "sha256": "2ad1cc30367002fe463c14aa72946cc0351baf3fc267a0e87bae8cce2a7d1a9f"
+      },
+      {
+        "bytes": 3437,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/issue_installation_failed.py",
+        "sha256": "db6af8174b1d08f45511aa9c453f46ee26bcbc5ba9b47498341b6ad07a29259f"
+      },
+      {
+        "bytes": 3593,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/issue_installation_v2.py",
+        "sha256": "fd20496c216ff3a25d2a6f8ba6053d92b8effc35bb19d6502f918bc57004b2a0"
+      },
+      {
+        "bytes": 5414,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/postfailure.py",
+        "sha256": "f395713954ecc12706afbf9480015e4b7f29c468b72a6bf4bf4bc90f62a4b15b"
+      },
+      {
+        "bytes": 18455,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/prepare_installation.py",
+        "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+      },
+      {
+        "bytes": 2743,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/preserve_admission_failure.py",
+        "sha256": "efa055cab768aba89ffe09f2c326db610f03a006795fa689e195e947fa61590a"
+      },
+      {
+        "bytes": 2466,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/record_preparation_source.py",
+        "sha256": "b601c06471289bcd302a13023ac24b315ba2a965883fa5da8bb8457fcb1b23e3"
+      },
+      {
+        "bytes": 3669,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/seal_source.py",
+        "sha256": "bcff7deb8bbb73e726f6e952ece6e50e0c9edc7cc29dbe9370a37482e487a341"
+      },
+      {
+        "bytes": 11897,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/source_replay.py",
+        "sha256": "cd9a804102e06ce0c3e26fe78c01e614f665a27f7d65c3911b5402f0f7e0310f"
+      }
+    ],
+    "inherited_repair": [
+      {
+        "bytes": 2708,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+        "sha256": "0cb49cf1be39698c8e37f39ac37c363f29d4c6bed656098e4e008938b16df27b"
+      },
+      {
+        "bytes": 571,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_DIAGNOSTIC_5325f0.json",
+        "sha256": "e1ab901620fb0331e751034d34ebfe06ba4cac143f3193447dbeab54540317af"
+      },
+      {
+        "bytes": 753,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_FAILED_5325f0.log",
+        "sha256": "05d03ff124a0d93b1d2a94ae5fbb90a3be348554b9a67921eb681237c027f400"
+      },
+      {
+        "bytes": 3282,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHORING_RECORD.json",
+        "sha256": "178df8e92a441238ebfc1707f5cea7487a5c57a16a7d242b4be2af68108a6dfb"
+      },
+      {
+        "bytes": 1650,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+        "sha256": "04e1ab89f1417cbb9b7a1707182680a1b38582fedf0a5be0f029cd28e0c53e03"
+      },
+      {
+        "bytes": 6621,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+        "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+      },
+      {
+        "bytes": 677925,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/INPUT_PINS.json",
+        "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+      },
+      {
+        "bytes": 17528,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/PROTOCOL.md",
+        "sha256": "b7ca38ddfd71c831c9369acb010a7c8702330d81ba56ec9262acf520852958c8"
+      },
+      {
+        "bytes": 40506,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_DIFF.patch",
+        "sha256": "9141369e216169ca162fbe7696908bf991a9499c80a2e0692275b0fc18ae77b3"
+      },
+      {
+        "bytes": 1115,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_PINS.json",
+        "sha256": "49deb90698eecc17823f513a5d62d4ec9ebb93e76a66c53b9f94b7bfe6515e1a"
+      },
+      {
+        "bytes": 5768,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.failed-5325f0.py",
+        "sha256": "00eff7199caa53cf6ed4ea27eca42aeb9e0c7b7937e41235b4ebef4706f97b82"
+      },
+      {
+        "bytes": 5775,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.py",
+        "sha256": "99abe9c1a9b9095e78ef44c75e7f386d9e92b7ed6a4523e46b2b39ad19f23f16"
+      },
+      {
+        "bytes": 2948,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/build_inputs.py",
+        "sha256": "dd76beff6fdb760218dc3bf322d2b36fdc8aab9c813eb3a8fbd7718f5346da63"
+      },
+      {
+        "bytes": 21944,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/check_installation.py",
+        "sha256": "3effbc867be2c35a49c311a4ddc81cdf7f1528493b427186867e00ff161aa2f8"
+      },
+      {
+        "bytes": 18103,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/install_freeze.py",
+        "sha256": "9e6ad93198131d1155825e083ffafc9d58e052cf9d7a8dbea478048ed7efaed3"
+      },
+      {
+        "bytes": 1891,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/HOST_GENUINE_TOOL.json",
+        "sha256": "07cbac05498fb9329338592a1dea8255d09145bee24598491722d494509b4305"
+      },
+      {
+        "bytes": 2384,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+        "sha256": "357cf0a058b63efd041e18c3636e02bbaf77cfa23784b3d2bb40b833cafa873e"
+      },
+      {
+        "bytes": 1109,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+      },
+      {
+        "bytes": 1953,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/AUTHORING_RECORD.json",
+        "sha256": "7214a7973fb45797619ab113def68d644dd3d8ca3d2a570e26b460453a77da41"
+      },
+      {
+        "bytes": 1190,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/BUILD_METADATA.json",
+        "sha256": "7ead4d2cdddcdf0c67beaeb5508d8655cf74b0a54ab119f02871bb748268ba0f"
+      },
+      {
+        "bytes": 4048,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/FINDING_RESPONSE.md",
+        "sha256": "d9cc91d840c2627b72778c7ba591614d697a15ad695fc125da79470e2753f0bb"
+      },
+      {
+        "bytes": 7600,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/HANDOFF.json",
+        "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+      },
+      {
+        "bytes": 677925,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/INPUT_PINS.json",
+        "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+      },
+      {
+        "bytes": 22702,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/PROTOCOL.md",
+        "sha256": "602f78e3f06bcdca53d483bc42b42dfc4f85228a95c4220f7a74fe2f5e452673"
+      },
+      {
+        "bytes": 6471,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/REPAIR_PROVENANCE.json",
+        "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+      },
+      {
+        "bytes": 37614,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_DIFF.patch",
+        "sha256": "82b9760dfaba47275795ab2c737cda937a3842a4a547999aff18f26fe93bbdf3"
+      },
+      {
+        "bytes": 1372,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/SOURCE_PINS.json",
+        "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+      },
+      {
+        "bytes": 9215,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/admin_check.py",
+        "sha256": "42848a07c4ad89aaf3c153a4dfb2d012ce75d57d18424486d450450bef450cf4"
+      },
+      {
+        "bytes": 14252,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/build_repair.py",
+        "sha256": "82208cb187f567cc3462eee7bf698d16a23b98dfdc9a1faf9f7986565566e2c3"
+      },
+      {
+        "bytes": 22820,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/check_installation.py",
+        "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+      },
+      {
+        "bytes": 19876,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/install_freeze.py",
+        "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+      },
+      {
+        "bytes": 29123,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/MEASUREMENT_BOUNDARY.json",
+        "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+      },
+      {
+        "bytes": 3892,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_NONAUTHOR_REVIEW.json",
+        "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+      },
+      {
+        "bytes": 2690,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+        "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+      },
+      {
+        "bytes": 2782,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+        "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+      },
+      {
+        "bytes": 2145,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_NONAUTHOR_REVIEW.json",
+        "sha256": "5aa980f2cab6c3ad140fb14e512b5014b1aee8e02a9d507fe0c8a6de5ee4199d"
+      },
+      {
+        "bytes": 487763,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_METADATA_CHECK.json",
+        "sha256": "0a2630d3bf3fbf2a64bb8901566af864e9ba949efa46dae17a386f8f3c117d37"
+      },
+      {
+        "bytes": 2606,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI213_ROOT_SOURCE_REVIEW.json",
+        "sha256": "55ac3d5a93fa4d3dc6d7326c76d1d11eb4c7b9ed4266ad3675728b4344ea20c6"
+      },
+      {
+        "bytes": 3723,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/PREPARATION_FAILURE_PARTIALS.json",
+        "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+      },
+      {
+        "bytes": 1772,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+        "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+      },
+      {
+        "bytes": 2827,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI218_BYTE_REPAIR_ASSIGNMENT.json",
+        "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+      },
+      {
+        "bytes": 15472,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/prepare_installation.py",
+        "sha256": "db4ebaa6aba5642ea0ca6c5e710eb1e489b4d7a900d31c3ec5134108de49de0d"
+      },
+      {
+        "bytes": 1600,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json",
+        "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66"
+      },
+      {
+        "bytes": 2277,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/DISPATCH.json",
+        "sha256": "c845cf08e37c3c358296859758754b97a445fa1b74c2d9d72267c1575f2a31a8"
+      },
+      {
+        "bytes": 42464,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/E_BEFORE.json",
+        "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+      },
+      {
+        "bytes": 725,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/HOST_BEFORE.json",
+        "sha256": "dfb76ef7bd7db51837b46578847a9d58bae5c8e0a8cbdf6575b317a2b50d4d15"
+      },
+      {
+        "bytes": 1569,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/HOST_GENUINE_TOOL.json",
+        "sha256": "ecebbdba397eac9e35bd0a36800165c83446162a8058bfd7e637a3a2c135e0c8"
+      },
+      {
+        "bytes": 4521,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+        "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+      },
+      {
+        "bytes": 2417,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_BOOTSTRAP.py",
+        "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+      },
+      {
+        "bytes": 2004,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALL_PREFLIGHT.json",
+        "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+      },
+      {
+        "bytes": 13814,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/PREPARATION_CUSTODY.json",
+        "sha256": "0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f"
+      },
+      {
+        "bytes": 2333,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ROOT_SOURCE_REVIEW.json",
+        "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+      },
+      {
+        "bytes": 467404,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SOURCES_BEFORE.json",
+        "sha256": "52044caf0447f2be23ea619ef54c72933cd46b414149296ec2ce46832e232196"
+      },
+      {
+        "bytes": 1260487,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/SUPPLIER_BEFORE.json",
+        "sha256": "3a341dd656332bcdacad8ebbbcbf271b720a0d36229e22ed69b40853d1839e2c"
+      },
+      {
+        "bytes": 885,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.ATTEMPT.json",
+        "sha256": "7d710d739f5409648884bd751b32a5bd3f81247fca79a4b9d989331b3d0184b3"
+      },
+      {
+        "bytes": 2854,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.COMPLETION.json",
+        "sha256": "0f4eb71f4f8ab0d4c0abc108ca4b29431809b9d73083ca3219186b160144a03f"
+      },
+      {
+        "bytes": 701,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stderr",
+        "sha256": "9e0fb84869c9df052f636d2446611f8bc901785725f482e49df1eaacc794cd4e"
+      },
+      {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 3566,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+        "sha256": "f7895eb7e06f8def8fb1d632e69e5a321bf174fc080d1d01f9d91e3f2d9bff81"
+      },
+      {
+        "bytes": 2628,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+      },
+      {
+        "bytes": 2818,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/AUTHORING_RECORD.json",
+        "sha256": "7950fb101cd93b7b407a71a15720290f5daadd6715bfb467f92a4d92fdfe6859"
+      },
+      {
+        "bytes": 2037,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/BUILD_METADATA.json",
+        "sha256": "d16c31a053b8f942fdb6582d149a99722a6016dec9cdaa474c1a67a67a2a0723"
+      },
+      {
+        "bytes": 3615,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/FINDING_RESPONSE.md",
+        "sha256": "be99a325db99c1d5e2da70c98d6ccfa36cd9932285d6e5f4292993c49931e229"
+      },
+      {
+        "bytes": 8207,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+        "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+      },
+      {
+        "bytes": 677925,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/INPUT_PINS.json",
+        "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+      },
+      {
+        "bytes": 27883,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/PROTOCOL.md",
+        "sha256": "0c9a43bc57a57852c7e86e0784acfffef69a0b733b6667ab861f41c103d7ee6e"
+      },
+      {
+        "bytes": 13250,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/REPAIR_PROVENANCE.json",
+        "sha256": "10ae3a2ad92ff6e753ef18a118ef6ea0829ed7880aa637660e543c63ebeb601e"
+      },
+      {
+        "bytes": 22076,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_DIFF.patch",
+        "sha256": "777285ee8a83862d822ced8ce54bab169d363e3bd7b7d88a6c52958c8feb2afa"
+      },
+      {
+        "bytes": 1368,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/SOURCE_PINS.json",
+        "sha256": "de91cbd42647e012c7f900dbff1355691986f6e6a8b1622c2ff9216c1f7dd443"
+      },
+      {
+        "bytes": 9261,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/admin_check.py",
+        "sha256": "465b4d163f8340168e8407e53141545c76b15ddacfc2650795756612fba0b601"
+      },
+      {
+        "bytes": 12995,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/build_repair.py",
+        "sha256": "13137b03c68884aaf353d8deb26061479c9056b1309e4c7ad2536877e93a7495"
+      },
+      {
+        "bytes": 22819,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/check_installation.py",
+        "sha256": "d34eaff2a893d78274b2bfd64d1458cda5c8937b8177f49e72e18354ad61b234"
+      },
+      {
+        "bytes": 19877,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+        "sha256": "400c40de09f7519ddf453bf2db44893ac54f6d077727e56b53ef5e3ce70526f7"
+      },
+      {
+        "bytes": 2894,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/HANDOFF.json",
+        "sha256": "3e479047e5951237b4698e91b9fac2d9eba98f08e6b7b0bca66f4b1f5d5e6194"
+      },
+      {
+        "bytes": 2672,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-independent-preparation-review-u0hcd0bt/HANDOFF.json",
+        "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+      },
+      {
+        "bytes": 2545,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI218_ROOT_METADATA_CHECK.json",
+        "sha256": "584ec7f6bb67bd1ad604c45b61bc8d2920e05ba471c8416284282e6b6ddb18ea"
+      },
+      {
+        "bytes": 16552,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py",
+        "sha256": "49373e6ccc56f6aed7101834f3d635cef5e8f04978dd5099656e89de86ddfc34"
+      },
+      {
+        "bytes": 1984,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/CALLER_FAILURE_REVIEW.json",
+        "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+      },
+      {
+        "bytes": 1697,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/FRESH_PREDISPATCH_CHECK.json",
+        "sha256": "03a6c00e3b2f13748835dc75a8ab1dcfc6d7e356a4e85ea00074d88b6654f3d7"
+      },
+      {
+        "bytes": 3292,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+        "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+      },
+      {
+        "bytes": 1537,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_POST_HOST_TOOL.json",
+        "sha256": "e1e83894b9a2fe3a431817f4a986380d438da974bffa5d2d9c7a1e671aea376b"
+      },
+      {
+        "bytes": 5447,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json",
+        "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+      },
+      {
+        "bytes": 3159240,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/REPO_ENTRY.json",
+        "sha256": "52d4957f5b43c87e532e25b743c786610fc61659ec608f1ac898e7f75154c7d9"
+      },
+      {
+        "bytes": 1478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+        "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+      },
+      {
+        "bytes": 2264,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI222_REPAIR_ASSIGNMENT.json",
+        "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+      },
+      {
+        "bytes": 1391,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/ROOT_INSTALLATION_ADMISSION_DECISION.json",
+        "sha256": "4b69e0dae1230d8960160604e0bf2f1309bed5069d67641c0282c0bbc87f9891"
+      },
+      {
+        "bytes": 5951,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/postfailure_failed.py",
+        "sha256": "bd18b2b388b0bf3cfdd3a9f463ae12c53f4bea2570ec597100ddc5e6cdc9c099"
+      },
+      {
+        "bytes": 6060,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/postfailure_v2.py",
+        "sha256": "8b2b7ad5072e3848c87b4987427249d8f71e07d3a9be7d0fa7f84feb75bb23a5"
+      },
+      {
+        "bytes": 1893,
+        "path": "/private/tmp/ri217_host_before_transcript.json",
+        "sha256": "708a0963e35fe66c504c0fd2b93a11711c0ba7ae5a57b1b5f61b028441ca211b"
+      },
+      {
+        "bytes": 1571,
+        "path": "/private/tmp/ri219_host_before_transcript.json",
+        "sha256": "c79b992eef164650580bcbbeb211864f0c80a477489e3bb4ed14b61418e1bcac"
+      }
+    ],
+    "retained_monitor": [
+      {
+        "bytes": 882,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.ATTEMPT.json",
+        "sha256": "da4f699034536ba21a92d741078ead408a9173deec999258d7b14460d108b961"
+      },
+      {
+        "bytes": 11771,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.COMPLETION.json",
+        "sha256": "15f6594b1c96db728f11ae084a394e945d33abb201a1fff1ffa9c78d550fb14b"
+      },
+      {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/monitor/INSTALL.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "retained_operation": [
+      {
+        "bytes": 713,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/ATTEMPT.json",
+        "sha256": "01c0426f641d6caace9983e143320c2ca97295c02b84b942a95dc721de4dac31"
+      },
+      {
+        "bytes": 688663,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/BEFORE.json",
+        "sha256": "4be52b9f1cf03cec3154a5c9babe39f9fb873cc1f25ebf0fe2f2f47ee53a8c99"
+      },
+      {
+        "bytes": 2054312,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+        "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+      },
+      {
+        "bytes": 1900901,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/OBSERVATIONS.json",
+        "sha256": "1cbdc744f1578f38da57ee1525f79df8b0752cde3ca34f26afcd552780d4712f"
+      }
+    ],
+    "retained_root_operation": [
+      {
+        "bytes": 1596,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ADMIT_INSTALL.json",
+        "sha256": "f8cd444066e14c3ee25eac77180874da1ff19a0737c132ca9d49ba155807d99d"
+      },
+      {
+        "bytes": 2270,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/DISPATCH.json",
+        "sha256": "96f9b1fd8e7a39393cacd1a7cc8ddba44b637c95296d89bf08b52984b9372b33"
+      },
+      {
+        "bytes": 42464,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/E_BEFORE.json",
+        "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+      },
+      {
+        "bytes": 724,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_BEFORE.json",
+        "sha256": "c0aec9d2f264b7cc3cd47bd0674b53d10e0c4217a3a00bf63655a7d7b671eb76"
+      },
+      {
+        "bytes": 1550,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/HOST_GENUINE_TOOL.json",
+        "sha256": "141293eda415d4c07a55c66e54d444760f80f347261d8f5c91fdcf66caf21628"
+      },
+      {
+        "bytes": 4509,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALLATION_PROPOSAL.json",
+        "sha256": "ca1dd21438eaff45880fae5699177f2ef29a0d5e0b2103648ee4de8704e6361b"
+      },
+      {
+        "bytes": 2413,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_BOOTSTRAP.py",
+        "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853"
+      },
+      {
+        "bytes": 1997,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/INSTALL_PREFLIGHT.json",
+        "sha256": "32a305a8c7c85da70c664aa6d6c547aae55eff88a0cb791213447314eafd8de8"
+      },
+      {
+        "bytes": 16080,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/PREPARATION_CUSTODY.json",
+        "sha256": "b165ed2229cf07c61b138fdca0fdde53ddd25ccecdfb8273c6155fc9f552be52"
+      },
+      {
+        "bytes": 2307,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/ROOT_SOURCE_REVIEW.json",
+        "sha256": "ae31240d4d29b7ccefd28cf8b75d908be318eb1bd3b94fd46aa698dc7398f5bd"
+      },
+      {
+        "bytes": 492355,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+        "sha256": "6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c"
+      },
+      {
+        "bytes": 1260486,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+        "sha256": "be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225"
+      }
+    ],
+    "ri222_seal": [
+      {
+        "bytes": 3992,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+        "sha256": "7a47191417577779efa58cce7648c89c9d94e33cb756e465d4a1b1181d39e446"
+      },
+      {
+        "bytes": 2866,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "430c7708e94ebb007ca1e3f5cdc3a5fa83788738cac12ba3f8e980dfd0868a1d"
+      },
+      {
+        "bytes": 2649,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/AUTHORING_RECORD.json",
+        "sha256": "2da141d32435e8d101a8b60b1b39d963e098067e4f56a8dc302eb70847a2c9ef"
+      },
+      {
+        "bytes": 1862,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/BUILD_METADATA.json",
+        "sha256": "61ca0c1c2f115c4edf3fbc2dd8a0e3e51c37ac9e6296f08b6d3a9217137d4113"
+      },
+      {
+        "bytes": 3053,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/CWD_CONTRACT_CHECK.json",
+        "sha256": "2c02b9afed686c16a4526e5cfbdc06ce98b5952b8016fafde99e0f38912de97c"
+      },
+      {
+        "bytes": 3115,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/FINDING_RESPONSE.md",
+        "sha256": "c782f326bb0372337edf1e3ae30cc2d121b87a0219d8c8c2cff813f80036a8c2"
+      },
+      {
+        "bytes": 9023,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/HANDOFF.json",
+        "sha256": "5762caec4ca89f2687de17da71671ec82e1066e81854b9d45364ea3ed59c1330"
+      },
+      {
+        "bytes": 677925,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/INPUT_PINS.json",
+        "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+      },
+      {
+        "bytes": 32894,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/PROTOCOL.md",
+        "sha256": "ef754bbdafba9ec34848e3798f1e3bd302b5872597a970543c88f415075d69d7"
+      },
+      {
+        "bytes": 48176,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/REPAIR_PROVENANCE.json",
+        "sha256": "77f52137ab3a4799253ca79bb0f3380a551ac623346052e1eebe6735b4182fd6"
+      },
+      {
+        "bytes": 28047,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_DIFF.patch",
+        "sha256": "0ae7399adf2a00fd3c943a73a1f6af0d334b6ef1687f4a31420869352ac7cb9a"
+      },
+      {
+        "bytes": 1363,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/SOURCE_PINS.json",
+        "sha256": "65696e7ab9e4b78c52c8c815dd79917fd7ed6b822074501b9f6393859cb4f535"
+      },
+      {
+        "bytes": 11721,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/admin_check.py",
+        "sha256": "c02edb3557983e902303622a0d5b97948bfc9cf61a8455ef20fc9faf1a81aad8"
+      },
+      {
+        "bytes": 13272,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/build_repair.py",
+        "sha256": "3fdd73fd879e4fffa0c4211264241b059c537ba15ef98a94c78922e1d10c0e83"
+      },
+      {
+        "bytes": 22817,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/check_installation.py",
+        "sha256": "915831f8092995c6decef96cca541866b82fb185cae4a589c504ff9bfb092f50"
+      },
+      {
+        "bytes": 19894,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal/install_freeze.py",
+        "sha256": "19d1bf8f6b7f8cb603a3b1759787d884a5f3bd9b060a1dcd78c646fb0911493b"
+      }
+    ]
+  },
+  "original_operation_status": "REFUSED_RETAIN_ALL_PARTIALS",
+  "original_source_readiness_superseded": true,
+  "prior_role_count": 810,
+  "qualification_credit": 0,
+  "roles": {
+    "assignment": {
+      "bytes": 3315,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+      "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+    },
+    "genuine_failure": {
+      "bytes": 3634,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+    },
+    "original_attempt": {
+      "bytes": 713,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/ATTEMPT.json",
+      "sha256": "01c0426f641d6caace9983e143320c2ca97295c02b84b942a95dc721de4dac31"
+    },
+    "original_before": {
+      "bytes": 688663,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/BEFORE.json",
+      "sha256": "4be52b9f1cf03cec3154a5c9babe39f9fb873cc1f25ebf0fe2f2f47ee53a8c99"
+    },
+    "original_complete": {
+      "bytes": 2054312,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+      "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+    },
+    "original_observations": {
+      "bytes": 1900901,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/OBSERVATIONS.json",
+      "sha256": "1cbdc744f1578f38da57ee1525f79df8b0752cde3ca34f26afcd552780d4712f"
+    },
+    "original_sources": {
+      "bytes": 492355,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SOURCES_BEFORE.json",
+      "sha256": "6c9389a7be2a6ae021a31113b3a32bd0111fbf4bc50ab40d79a78d5b644dc73c"
+    },
+    "original_supplier": {
+      "bytes": 1260486,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/SUPPLIER_BEFORE.json",
+      "sha256": "be80530b09e082a42f87734d7a58ff0837710235086cdc5046bb13c4f461a225"
+    },
+    "postflight": {
+      "bytes": 5932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+      "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+    },
+    "postflight_tool": {
+      "bytes": 1424,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CHECK_TOOL.json",
+      "sha256": "33e0eee7dca827eb599acad7bc020352674f2587535d420475a1b488a6e1f6fe"
+    },
+    "supersession": {
+      "bytes": 1938,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_OPERATIONAL_SUPERSESSION.json",
+      "sha256": "9c3cd5ca300d97ea108a7f49d00f5332b578a43338b3f063d4c9a38c0c7a42d7"
+    }
+  },
+  "schema": "ri226-read-only-recovery-provenance-v1",
+  "scientific_execution": false,
+  "status": "SOURCE_ONLY_NOT_ADMISSION"
+}

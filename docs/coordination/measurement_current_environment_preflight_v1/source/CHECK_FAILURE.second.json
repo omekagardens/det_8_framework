@@ -1,0 +1,14 @@
+{
+  "actual_exit_code": 1,
+  "actual_tool_chunk": "feadc8",
+  "checker": {
+    "bytes": 11756,
+    "sha256": "e414db5bb1b967030c0b04a209694f27dc3d9051c35bc073d54b8831edcc6852"
+  },
+  "explanation": "Checker incorrectly assumed every stage role is relocated. Graph deliberately retains white_root_disposition at its accepted original path. Sixteen other stage roles are mapped copies. Original source/graph unchanged; metadata checker alone corrected.",
+  "first_error": "KeyError: /Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/RI125_WHITE_SOURCE_DISPOSITION.json",
+  "schema": "ri170-author-checker-diagnostic-v1",
+  "secondary_error": "FileExistsError while attempting exclusive failure filename already occupied by preserved initial diagnostic",
+  "status": "FAIL_PRESERVED",
+  "target_executed": false
+}

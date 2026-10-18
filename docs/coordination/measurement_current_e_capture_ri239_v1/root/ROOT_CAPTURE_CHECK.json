@@ -1,0 +1,270 @@
+{
+  "E_unchanged": true,
+  "artifacts": [
+    {
+      "bytes": 1197,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/ATTEMPT.json",
+      "sha256": "3ea398d153d5b466f3b023c0e53272324bc52f3f60c2a58b9da70f239eed1fb6",
+      "state": [
+        16777244,
+        428185,
+        33188,
+        1,
+        1197,
+        1790848146736827680,
+        1790848146736827680
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 74,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/CHECKS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/CHECKS.json",
+      "sha256": "34a17c536f0c20348911d6438f09c96e53e0d60d212f4ba431d8dc8c7bd62e28",
+      "state": [
+        16777244,
+        428194,
+        33188,
+        1,
+        74,
+        1790848152341898768,
+        1790848152341898768
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3393,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/COMPLETE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/COMPLETE.json",
+      "sha256": "962fc2fdeb6a15ffb8e038397386c8acc9644b7689b1a2a474f5966d2e2c8b28",
+      "state": [
+        16777244,
+        428196,
+        33188,
+        1,
+        3393,
+        1790848152350964949,
+        1790848152350964949
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1984,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/NAMESPACE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/NAMESPACE.json",
+      "sha256": "6e843ff4236cd177f3c0f664dc3258caa5c4fa455e478aa543806564992dc7bf",
+      "state": [
+        16777244,
+        428195,
+        33188,
+        1,
+        1984,
+        1790848152350118697,
+        1790848152350118697
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 881,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.ATTEMPT.json",
+      "sha256": "562935806dc4fceb605e533126ec38260bd3a0830f0797a8bb8fd9eb2b9520a2",
+      "state": [
+        16777244,
+        428190,
+        33188,
+        1,
+        881,
+        1790848150106393043,
+        1790848150106393043
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 14092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.COMPLETION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.COMPLETION.json",
+      "sha256": "c85cf5b9850b7a76a3d6636ec3d5225ccd3c42af3b367989e135d22e3bc5c244",
+      "state": [
+        16777244,
+        428193,
+        33188,
+        1,
+        14092,
+        1790848151969583564,
+        1790848151969583564
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        428192,
+        33188,
+        1,
+        0,
+        1790848150106915210,
+        1790848150106978252
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e",
+      "state": [
+        16777244,
+        428191,
+        33188,
+        1,
+        7142026,
+        1790848151943389857,
+        1790848151943389857
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 881,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.ATTEMPT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.ATTEMPT.json",
+      "sha256": "562935806dc4fceb605e533126ec38260bd3a0830f0797a8bb8fd9eb2b9520a2",
+      "state": [
+        16777244,
+        428186,
+        33188,
+        1,
+        881,
+        1790848146779101246,
+        1790848146779101246
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 23681,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.COMPLETION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.COMPLETION.json",
+      "sha256": "cd3acb8b8cdbef1d77db9c18297878e649ae29734b7fdd7f5cf4c1150da29f29",
+      "state": [
+        16777244,
+        428189,
+        33188,
+        1,
+        23681,
+        1790848149972634668,
+        1790848149972634668
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stderr",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": [
+        16777244,
+        428188,
+        33188,
+        1,
+        0,
+        1790848146779467996,
+        1790848146779483663
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri236-current-e-capture-3geu_r1s/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e",
+      "state": [
+        16777244,
+        428187,
+        33188,
+        1,
+        7142026,
+        1790848149930978229,
+        1790848149930978229
+      ],
+      "symlink_chain": []
+    }
+  ],
+  "baseline": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "baseline_authentication": {
+    "bytes": 2295,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/BASELINE_AUTHENTICATION_SUPPLEMENT.json",
+    "sha256": "09f96983b389ae1bb0a514b12ddb98840fd83e80e0518537e498e36e61eef1a4"
+  },
+  "checker": {
+    "bytes": 7545,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/check_capture.py",
+    "sha256": "05627de3c8c389ac49fa7bf08773f9003afe676725280471b7489d927d963913"
+  },
+  "comparisons": 6568,
+  "genuine_tools": {
+    "bytes": 1837,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/GENUINE_CAPTURE_TOOLS.json",
+    "sha256": "44ae2fb8ec2073bfb4a2649168c202ed57f73fcd237c72de83f642c1c9957187"
+  },
+  "limits_unchanged": {
+    "driver_soft_seconds": 900,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "guard_seconds": 180,
+    "maximum_sample_gap_seconds": 0.1,
+    "profile_seconds": 30,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "snapshot_seconds": 180,
+    "target_poll_seconds": 0.025
+  },
+  "monitor_statistics": {
+    "POST": {
+      "elapsed": 1.8574313330000005,
+      "final_gap": 0.015059667000000054,
+      "max_sample_gap": 0.0387192909999996,
+      "monitor_attempts": 50,
+      "peak_rss_kib": 83760,
+      "samples": 50
+    },
+    "PRE": {
+      "elapsed": 3.1875479589999998,
+      "final_gap": 0.05021754199999995,
+      "max_sample_gap": 0.038852208,
+      "monitor_attempts": 91,
+      "peak_rss_kib": 89792,
+      "samples": 91
+    }
+  },
+  "parent_elapsed": 5.6144743749999995,
+  "post_custody": {
+    "bytes": 6522,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/POST_CUSTODY.json",
+    "sha256": "77d41d78b363ed67eeec825ded33a9a80379e12afab3b73021c8da08956753e9"
+  },
+  "pre_custody": {
+    "bytes": 4686,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/PRE_CUSTODY.json",
+    "sha256": "5203443312f7d3cc1fef2f1504e8e239713cdfeb400961113d871b331aa9cfb4"
+  },
+  "premises": [
+    "Apple supplier/startup and loader/cache remain external observed-window premises",
+    "RSS observes owned child only; no-descendant premise; samples are not hard OS quotas",
+    "ps50ms enforced by unchanged collector; raw attempts do not independently timestamp each subprocess start",
+    "Genuine outer960sec remains enforced by exact Perl alarm through final metadata writes"
+  ],
+  "repository_unchanged": true,
+  "schema": "ri239-root-actual-capture-check-v1",
+  "scientific_execution": false,
+  "scope": "Metadata capture only; not scientific qualification or actual-data admission",
+  "status": "PASS_ACTUAL_CAPTURE_WHOLE_BASELINE_AND_CUSTODY"
+}

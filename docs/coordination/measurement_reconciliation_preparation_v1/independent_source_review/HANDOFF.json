@@ -1,0 +1,198 @@
+{
+  "RET_paused": true,
+  "actual_checks": {
+    "author_checker_replay": {
+      "chunk_id": "f85304",
+      "exit_code": 0,
+      "opaque_files": 997,
+      "predicates": 3999,
+      "whole_report_byte_identical": true
+    },
+    "independent_checker": {
+      "chunk_id": "b4f4c1",
+      "exit_code": 0,
+      "opaque_files": 1011,
+      "predicates": 6005
+    },
+    "report_construction": {
+      "chunk_id": "750810",
+      "exit_code": 0
+    },
+    "retained_failures": [
+      {
+        "chunk_id": "24b66b",
+        "exit_code": 1
+      },
+      {
+        "chunk_id": "430526",
+        "exit_code": 1
+      },
+      {
+        "chunk_id": "29da41",
+        "exit_code": 1
+      }
+    ]
+  },
+  "blocking_findings": [],
+  "coverage": {
+    "bootstrap_lines": 18,
+    "dependency_objects": 992,
+    "generated_empty_directories": 2,
+    "generated_files": 9,
+    "namespace": 18,
+    "old_sources": 904,
+    "payloads": 17,
+    "prior_roles": 810,
+    "protocol_lines": 101,
+    "recovery_source_domain": 971,
+    "writer_lines": 222
+  },
+  "current_E_supplier_inventory": false,
+  "earlier_authorship_and_missed_nlink_premise_disclosed": true,
+  "external_complete_check_reports": [
+    {
+      "bytes": 637399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/AUTHOR_CHECK_REPLAY.json",
+      "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+    },
+    {
+      "bytes": 812691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_CHECK.json",
+      "sha256": "667ee6e73fbd171bf6e1c6d7a56878e03608df2ea120937b690ca16f2436bad2"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 637399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/AUTHOR_CHECK_REPLAY.json",
+      "sha256": "e3968bcfe137a860f852527bdc5c676852b073d49f081517599e5ab8fe870408"
+    },
+    {
+      "bytes": 4814,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE.json",
+      "sha256": "5cf88675d1a46cd1dabaa28ee94c1d892ecdfab1d33321c8fc37c53c85f16d7c"
+    },
+    {
+      "bytes": 3159,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE_V2.json",
+      "sha256": "0b95c6a8d3595b22a88b506557c7c4cc35bf01006a0e3a126dd4b8b0f0930f1a"
+    },
+    {
+      "bytes": 2853,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/CHECKER_FAILURE_V3.json",
+      "sha256": "234e94eb0ea63c0ca1c47d72fe18d47e27c7566678462bbd2ef688640ab4627a"
+    },
+    {
+      "bytes": 812691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_CHECK.json",
+      "sha256": "667ee6e73fbd171bf6e1c6d7a56878e03608df2ea120937b690ca16f2436bad2"
+    },
+    {
+      "bytes": 13140,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_REVIEW.md",
+      "sha256": "4eb0b0b322475e6146c61fc7de79e31b75dea3505621c627a14bf074bda748b2"
+    },
+    {
+      "bytes": 3746,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/TOOL_RECEIPTS.json",
+      "sha256": "63664590585e31dcf152a29ea29a26c066ce4e3f02bca3697b56f98278f397e5"
+    },
+    {
+      "bytes": 3581,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/VERDICT.json",
+      "sha256": "3189e7edfe62feb58a040035159da80d1f8641c2487ff3de5bebc137f13557b8"
+    },
+    {
+      "bytes": 8341,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent.py",
+      "sha256": "f17723b255c0811d9e91cc9a582d9591039ae9ceb57824763ab481cebad86fbc"
+    },
+    {
+      "bytes": 8530,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v2.py",
+      "sha256": "4f01e19124bf4ba5d4043c9e6322dc14b585679f9ea9b20dc52338e3d39d32aa"
+    },
+    {
+      "bytes": 8708,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v3.py",
+      "sha256": "07c53682747f12cebddc31301b3fc41c038795538dc5382e4b093346119f5db2"
+    },
+    {
+      "bytes": 8775,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/check_independent_v4.py",
+      "sha256": "2426f62ad293d339573bb2859bae672ed9710a3e5e17d9a9008698d225c6c264"
+    },
+    {
+      "bytes": 11505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/replay_metadata.py",
+      "sha256": "293f19dbddefe449d52770d955a802872f53e0005e60e18cb86efe68020a340a"
+    }
+  ],
+  "mode_authority": false,
+  "namespace": [
+    "AUTHOR_CHECK_REPLAY.json",
+    "CHECKER_FAILURE.json",
+    "CHECKER_FAILURE_V2.json",
+    "CHECKER_FAILURE_V3.json",
+    "HANDOFF.json",
+    "INDEPENDENT_CHECK.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_independent.py",
+    "check_independent_v2.py",
+    "check_independent_v3.py",
+    "check_independent_v4.py",
+    "replay_metadata.py"
+  ],
+  "operational_authority": false,
+  "original_installation_remains_refused": true,
+  "public_review_subset": [
+    "CHECKER_FAILURE.json",
+    "CHECKER_FAILURE_V2.json",
+    "CHECKER_FAILURE_V3.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_independent.py",
+    "check_independent_v2.py",
+    "check_independent_v3.py",
+    "check_independent_v4.py",
+    "replay_metadata.py"
+  ],
+  "qualification_credit": 0,
+  "remaining_root_prerequisites": [
+    "Actual exact preparation-source disposition and authentic fresh host transcript.",
+    "Authenticated exact administrative -I -B invocation, preserving genuine completion and all partials.",
+    "Complete independent actual nine-artifact/source/supplier/E/caller custody review before any reconciliation admission.",
+    "Later separate genuine reconciliation admission, execution and independent outcome acceptance."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna",
+  "review": {
+    "bytes": 13140,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/INDEPENDENT_REVIEW.md",
+    "sha256": "4eb0b0b322475e6146c61fc7de79e31b75dea3505621c627a14bf074bda748b2"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri229-independent-preparation-review-handoff-v1",
+  "scientific_decode": false,
+  "source_only": true,
+  "status": "RECOMMEND_ACCEPT_EXACT_RI229_PREPARATION_SOURCE_ONLY",
+  "subject_execution": false,
+  "subject_handoff": {
+    "bytes": 9292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/HANDOFF.json",
+    "sha256": "7efdb57c59ce7a5f2834bbdb335ff4b2c0afe4e3849e15970fc3aa2c20c321e0"
+  },
+  "subject_manifest": {
+    "bytes": 1430,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/SOURCE_PINS.json",
+    "sha256": "c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd"
+  },
+  "verdict": {
+    "bytes": 3581,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/VERDICT.json",
+    "sha256": "3189e7edfe62feb58a040035159da80d1f8641c2487ff3de5bebc137f13557b8"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "actual_control_results_accepted": false,
+  "controls_executed_at_decision": 0,
+  "independent_review": {
+    "bytes": 3396,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-launcher-independent-review-5q_931ea/HANDOFF.json",
+    "sha256": "ca1a29eec2d789f474b9dad13d09f433d12713bb8ccef0de70fe3de47d961009"
+  },
+  "opaque_check": {
+    "bytes": 168531,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_PRE_ADMISSION_SOURCE_CHECK.json",
+    "sha256": "fece66e2e45b5a9ef4f404c30e84e0fcca9606974b472286608754c2e4c32824"
+  },
+  "root_review": {
+    "bytes": 3593,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-root-launch-adjudication-ie1m0jc_/ROOT_SOURCE_REVIEW.md",
+    "sha256": "223b21984432ca3d3dac940b5eb5181406cdee03935d42d99bf3282472b62b52"
+  },
+  "schema": "ri137-root-source-adjudication-v1",
+  "source": {
+    "bytes": 4642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+    "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+  },
+  "source_accepted": true,
+  "source_decision_alone_admits_execution": false,
+  "status": "ACCEPT_EXACT_UNEXECUTED_FOCUSED25_LAUNCHER"
+}

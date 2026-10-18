@@ -1,0 +1,40 @@
+{
+  "WHITE_or_scientific_execution": false,
+  "genuine_terminal_supplement": {
+    "bytes": 1022,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TERMINAL_ARGUMENTS.json",
+    "sha256": "e05fc6ffe58b68bd84d198e5f5b684d7477ab182211d604f2ff22c6f1378674e"
+  },
+  "independent_check": {
+    "chunk_id": "0ef7af",
+    "exit_code": 0,
+    "predicates": 19307
+  },
+  "independent_review": {
+    "bytes": 2998,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_SIDECARS_REVIEW.json",
+    "sha256": "f4ae95f5fd587f2960b16b3eb4487dfdd66993d382c1c0f56fcb7a2f7d014b7a"
+  },
+  "new_runtime_capture": false,
+  "next_action": {
+    "bytes": 2102,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI198_NEXT_ACTION.json",
+    "sha256": "08a9cdbb859769f98d2a6330418912ef4a96d2dba74b2e12fbf28355f36090bf"
+  },
+  "operation_source_and_limits_unchanged": true,
+  "operational_freeze_or_mode_card_created": false,
+  "physical_or_calibration_credit": false,
+  "ret_paused": true,
+  "root_actual_review": {
+    "bytes": 4620,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ACTUAL_SIDECARS_ROOT_REVIEW.json",
+    "sha256": "7c11af02add89e09345389b86025949f34f505522d1182e6b078979b30cd4ddc"
+  },
+  "root_check": {
+    "chunk_id": "1a2efb",
+    "exit_code": 0
+  },
+  "schema": "ri200-root-administrative-sidecars-adjudication-v1",
+  "source_acceptance_and_106_qualification_inherited": true,
+  "status": "ACCEPT_FIVE_WHOLE_FIELD_ADMINISTRATIVE_SIDECARS"
+}

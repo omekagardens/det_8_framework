@@ -1,0 +1,28 @@
+{
+  "actual_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_BOOTSTRAP.py",
+    "justification": "Execute the independently reviewed, singly admitted administrative sidecar export under the unchanged 180-second child monitor and 960-second outer alarm; no scientific target, runtime probe, freeze or WHITE mode is run.",
+    "login": false,
+    "max_output_tokens": 2000,
+    "sandbox_permissions": "require_escalated",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp",
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "e214c5",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 1.4333e-05
+  },
+  "command_claim": "One unchanged bounded RI160 administrative sidecars action; no scientific target or runtime profile.",
+  "initial_result": {
+    "chunk_id": "a1ff1f",
+    "original_token_count": 0,
+    "output": "",
+    "session_id": 18218,
+    "wall_time_seconds": 1.003459208
+  },
+  "schema": "ri200-genuine-outer-tool-record-v1",
+  "tool_relationship": "exec_command a1ff1f created session18218; write_stdin e214c5 terminal exit0"
+}

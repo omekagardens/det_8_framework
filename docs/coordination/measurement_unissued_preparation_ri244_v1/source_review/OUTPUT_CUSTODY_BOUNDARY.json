@@ -1,0 +1,11 @@
+{
+  "disposition": "Explicit inherited external custody prerequisite; no blocker to this unissued source-preparation recommendation under the required root final review. No behavioral test was performed.",
+  "finding": "Produced-output tail equality compares three-field content FilePins. Input snapshots preserve full observed identities. Namespace tail checks names and directory kinds/emptiness; it does not independently require regular nonsymlink type or unchanged inode/state for every produced file.",
+  "initial_write_guards": "Exclusive xb creation, fsync and direct raw-byte readback; no retry or overwrite.",
+  "required_root_followup": "The already-required independent final eight-file/two-empty-directory inspection must verify literal regular output files, complete actual pins/states and all tails, before issuing any operational admission. A metadata source label or content hash is not by itself this final custody acceptance.",
+  "schema": "ri244-output-custody-review-clarification-v1",
+  "source_locations": [
+    "prepare_unissued.py:115-117",
+    "prepare_unissued.py:298-315"
+  ]
+}

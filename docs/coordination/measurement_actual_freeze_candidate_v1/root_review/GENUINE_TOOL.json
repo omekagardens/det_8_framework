@@ -1,0 +1,27 @@
+{
+  "actual_arguments": {
+    "cmd": "/usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_BOOTSTRAP.py",
+    "justification": "May I execute the single independently reviewed RI206 freeze-candidate administrative action with its exact admission, fixed environment and unchanged resource limits?",
+    "login": false,
+    "max_output_tokens": 3000,
+    "sandbox_permissions": "require_escalated",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_",
+    "yield_time_ms": 1000
+  },
+  "actual_result": {
+    "chunk_id": "0c8349",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 0.7876135
+  },
+  "initial_result": {
+    "chunk_id": "0c8349",
+    "exit_code": 0,
+    "original_token_count": 0,
+    "output": "",
+    "wall_time_seconds": 0.7876135
+  },
+  "schema": "ri206-genuine-tool-receipt-v1",
+  "single_attempt": true
+}

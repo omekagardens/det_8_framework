@@ -1,0 +1,83 @@
+{
+  "accepted_claims": [
+    "Under accepted RI41 complete marked parent-four height theorem: w<1/82, p_i<1/82, s_i<1/164, c_i<1/2, b_i>77/164 with both distinct arms and arbitrary transported marks",
+    "Held epsilon3 and r have exactly cancelling theta^3, eta=41^2(w/b0)^3<1/32",
+    "0<YE_env<14256/370025<1/25 and 1/4<Yu3<1",
+    "Extra maximum multiplier is exactly one; both strict capacities iff v>B",
+    "If v=B then C0=0 and sufficient strict certificate fails, although C1>21/100",
+    "Complete E_i<3, V_i<1 with inherited lower bounds; 0<v<1/72",
+    "Exact ncrit root classifies F_i relative to 3 on N_i>=0, including N_i=0 and equality; ncrit lies below 1-theta",
+    "Exact Z cap classification by Fmax relative to 3 and conditional lambda obstruction, without selecting actual canonical branch",
+    "Signed common-factor reduction theta*b0^3*(t-1)*H>12*j0*J is equivalent to v>B for the same actual canonical prefix"
+  ],
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_adequate_q_v_joint_budget_proved": false,
+  "actual_branch_or_root_order_decided": false,
+  "actual_checks": {
+    "bytes": 5422,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+    "sha256": "b6c8b086d696e9501ceb8e0c8ebe20a0c79a14d3f345c20219718d0682b839a9"
+  },
+  "actual_joint_capacities_proved": false,
+  "actual_rho_in_delta0_proved": false,
+  "actual_v_greater_than_B_proved": false,
+  "adjudication_and_successor_owner": "root",
+  "decision": "ACCEPT_ACTUAL_FIRST_CAPACITY_AND_EXACT_STRICT_REDUCTION_WITH_CORRELATED_CONTRAST_GAP",
+  "full_H30_decided": false,
+  "full_scientific_or_physical_acceptance": false,
+  "independence": {
+    "author_of_RI155_manuscripts": false,
+    "author_of_RI41_or_RI63_law": false,
+    "author_peers_are_independent_acceptance": false,
+    "own_prior_RI149_all_Q_tight_consequence": "Inherited only with its existing root adjudication; not freshly self-reviewed",
+    "prior_review_authorship": [
+      "RI145",
+      "RI147",
+      "RI149",
+      "RI151",
+      "RI153"
+    ],
+    "unrelated_WHITE_authorship": "Disclosed, supplies no native proof credit"
+  },
+  "inverse_theta_eta_speculation_used": false,
+  "load_bearing_premise": "Accepted finite RI41 all-marked parent-four total-height-increment theorem, tied through RI63 certificate/prefix custody; not rerun, not inferred from DET axioms alone",
+  "narrative": {
+    "bytes": 20271,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+    "sha256": "8a21f89e29a60ea460671aa2ec7d7689474d125545355e559d4bd9528b4103fc"
+  },
+  "optional_uniform_margin_premise_used": false,
+  "remaining_actual_premise": "theta*b0^3*(t-1)*H > 12*j0*(b0^2+b0*b1+b1^2), equivalently v > 12*lambda*j0*Z/(1-Z); correlated actual N_i/Mcap/t are fixed",
+  "repair_findings": [],
+  "retained_obligations": [
+    "Original P2/P3",
+    "Original numerical Y=1/4 distinct from analytic Y",
+    "31 focused cases: 23 F01 and 8 F02",
+    "139 policy objects: 77 native and 62 audit",
+    "20 native and 42 audit deeper obligations",
+    "Other eight connected parents",
+    "All five D_i",
+    "Shared T1",
+    "Strict endpoints and occurrence multiplicities",
+    "RET pause and separate measurement lane"
+  ],
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri155-independent-proof-verdict-v1",
+  "scope": {
+    "RET_resumed": false,
+    "cards_admissions_or_freezes_created": false,
+    "global_graph_enumeration": false,
+    "numerical_scientific_evaluation": false,
+    "repository_or_Git_write": false,
+    "runtime_observation": false,
+    "scientific_body_decoded": false,
+    "scientific_or_symbolic_engine_used": false,
+    "subject_helper_import_compile_AST_probe_run": false
+  },
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "withdrawn_numeric_seed_order_used": false
+}

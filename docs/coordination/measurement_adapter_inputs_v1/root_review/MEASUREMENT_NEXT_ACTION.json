@@ -1,0 +1,33 @@
+{
+  "WHITE_or_public_data_executed": false,
+  "adapter_executed": false,
+  "freeze_issued": false,
+  "input_reconciliation": {
+    "bytes": 89867,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+    "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+  },
+  "mode_card_issued": false,
+  "next_action": "Fresh singly admitted RI160 adapters operation; independent full candidate review; root acceptance; separate later freeze.",
+  "request": {
+    "bytes": 3021,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+  },
+  "ret_paused": true,
+  "review": {
+    "bytes": 4097,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_ROOT_INPUT_REVIEW.md",
+    "sha256": "ee8dddb9e3c6c5309ecfce384f42857e1b1d6ce4b454fe77ed4c56f5cbba883d"
+  },
+  "schema": "ri202-measurement-after-input-decision-v1",
+  "source_decision": {
+    "bytes": 18097,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+    "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+  },
+  "source_vendor_host_custody_required": true,
+  "status": "EXACT_INPUTS_ISSUED_ADAPTER_OPERATION_NEXT",
+  "unchanged_monitor_limits": true,
+  "user_decision_blocker": null
+}

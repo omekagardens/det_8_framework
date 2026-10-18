@@ -1,0 +1,45 @@
+{
+  "exact_copies": 4,
+  "lossless_encoded_copies": 1,
+  "parent": "c4545e056d84d3880342a2df7c30cb1836cb3624",
+  "payload": [
+    {
+      "bytes": 291291,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "b311f3cdea6ccdc9f9be30c16093ebd1e6f145297d76b73370f9f75f35b55b68"
+    },
+    {
+      "bytes": 2220,
+      "path": "README.md",
+      "sha256": "a7724cd9d553b1c4d1ac174a4a73d272193919e86ea591d4205393b4385a529e"
+    },
+    {
+      "bytes": 1309,
+      "path": "root/CHECK_PROVENANCE.json",
+      "sha256": "d46a0311e187517b0c9844609d48b63d0d5fbfcc6556ab8f7d07f3fee5fd73ab"
+    },
+    {
+      "bytes": 7826,
+      "path": "root/RI244_INDEPENDENT_RECIPE.txt",
+      "sha256": "58d3d0bc6b2134697e68e22d4a57e15b7dd6ae97b7394491f2786ca3b9cbfcca"
+    },
+    {
+      "bytes": 2528,
+      "path": "root/RI244_ROOT_RECIPE_ADJUDICATION.json",
+      "sha256": "1886e256b35a416ac008f789da8330a38c7383231af5ab60fda3be416860f616"
+    },
+    {
+      "bytes": 46842,
+      "path": "root/RI244_ROOT_RECIPE_CHECK.json.gz",
+      "sha256": "86eaafab1113af52df28464b732c15906820039684c20ba3cbe705acf78695f1"
+    },
+    {
+      "bytes": 6906,
+      "path": "root/root_measurement_recipe_review.py",
+      "sha256": "4d309de8414efacfbc58c8866c2b2bf3e4a72c2ab33ea870f7e7c3174e60ca41"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

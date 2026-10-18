@@ -1,0 +1,89 @@
+{
+  "exact_copies": 14,
+  "parent": "e795b40265fc3c827be43e6928d1e99ee71ad26a",
+  "payload": [
+    {
+      "bytes": 19742,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "45085b4c08e67259e31f22ebc1b03be52964efacc24d2a920465e1fab81a90ed"
+    },
+    {
+      "bytes": 1221,
+      "path": "README.md",
+      "sha256": "3548d4b60a7dd33d0bd8741a4aafff7619c257b92e69c35e37a4da398a441e81"
+    },
+    {
+      "bytes": 1439,
+      "path": "review/RI220_NONAUTHOR_REVIEW.json",
+      "sha256": "14ef0eb31f254f76b76023be02ab4d852b63a75fd09c81f982baab386759b510"
+    },
+    {
+      "bytes": 738,
+      "path": "review/RI220_REVIEWER_FINAL_ADDENDUM.json",
+      "sha256": "ccf2bc3bdbb714b0d6eb0d935a054b258f356b230d8a1ab03828bc7490a20952"
+    },
+    {
+      "bytes": 2141,
+      "path": "review/RI220_ROOT_ADJUDICATION.json",
+      "sha256": "a3d93ae2e9c47186097cb95de952d87eb50fb6dc5a16b4eceaff45c89406ce3d"
+    },
+    {
+      "bytes": 2951,
+      "path": "review/RI220_ROOT_METADATA_REPLAY.json",
+      "sha256": "27446a6160c295824d5470daa3bcb8f5e697f31b1899084ac48f4375cc3061ed"
+    },
+    {
+      "bytes": 4672,
+      "path": "review/RI220_ROOT_PROOF_REVIEW.md",
+      "sha256": "0098ade2b30b2c2f2529cf970646e6f4151d8360b0ad9be0e815bb4e3269a96d"
+    },
+    {
+      "bytes": 318,
+      "path": "review/RI223_DISPATCH_RESULT.json",
+      "sha256": "d05e71511ce92adbba397a892a5d317dba0bf7f5a7234ef7f9b189e5c6360e3c"
+    },
+    {
+      "bytes": 12536,
+      "path": "review/RI223_NATIVE_ASSIGNMENT.json",
+      "sha256": "19657daeb22a243b493aeca87349d30ed47ce87e1254e95d8733ba44c6587b4a"
+    },
+    {
+      "bytes": 13530,
+      "path": "review/ri220_metadata_checker.js",
+      "sha256": "24c41060030e38e31e151aba0f22f3a93a6836b8ad7ccd2d7501429bd078fd7e"
+    },
+    {
+      "bytes": 8742,
+      "path": "source/AMPLITUDE_RANGE.md",
+      "sha256": "ed50a70c5c5a968dee1b1e7230230694e6a26d7fb709d8255ff69af581356748"
+    },
+    {
+      "bytes": 34081,
+      "path": "source/AUTHOR_VERIFICATION.json",
+      "sha256": "f0947540578925c57c8b0d00c0f684d29c4f8de34f6685b51b007c80f74151cf"
+    },
+    {
+      "bytes": 11970,
+      "path": "source/HANDOFF.json",
+      "sha256": "9c68c302451c79729605e1d036b6825a13bf21a4f458f033ae1badd5f78c9d86"
+    },
+    {
+      "bytes": 2288,
+      "path": "source/HANDOFF.md",
+      "sha256": "bf288fee0e76009917e6c834089a0e3546e931ceece192d2f0a47c36b53b6c36"
+    },
+    {
+      "bytes": 11045,
+      "path": "source/SHARED_COMPATIBILITY.md",
+      "sha256": "10f67367f8b48d559480c88b2051391f3058493e03ce41dab2d6aa18e2f0f45e"
+    },
+    {
+      "bytes": 41660,
+      "path": "source/SOURCE_REFERENCES.json",
+      "sha256": "ed585f683b59a2c8c20d23f869184cb039e941a7b0e6009660cb14190aa477b6"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

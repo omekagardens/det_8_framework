@@ -1,0 +1,32 @@
+{
+  "RI199_scope_unchanged": true,
+  "RI201_proof_pending_independent_review": true,
+  "accepted_completion": {
+    "bytes": 17102,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+    "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+  },
+  "accepted_normalization": {
+    "bytes": 16243,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+  },
+  "actual_root_reads": [
+    "677332",
+    "4b9d36",
+    "383ed2"
+  ],
+  "assignment": {
+    "bytes": 2185,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RI201_NATIVE_ASSIGNMENT.json",
+    "sha256": "6e7a3bf1f3ed9b0bfd98de63c0a8401f49065b9a371177f1f2cdc49386efb1c6"
+  },
+  "dispatch": "Two successful messages to existing QR task: named premise clarification and confirmation that no repeated permission is needed.",
+  "new_automated_scientific_arithmetic_or_execution": false,
+  "new_certificate_vector_table_or_scientific_body_authority": false,
+  "new_finite_verification_claim": false,
+  "ret_paused": true,
+  "schema": "ri201-root-inherited-premise-clarification-v1",
+  "scope": "Manual proof may use the published uniform parent-four ideal probability lower bound9/681472, with full row/record scope and ideal rather than newborn-mark factor. The already accepted printed same-law M5 rational is also available as an inherited premise, but the worker now reports an alternative A5 empty-slot lower-bound proof and intends not to use that rational.",
+  "status": "ALLOW_NAMED_ACCEPTED_ANALYTIC_FINITE_PREMISES_ONLY"
+}

@@ -1,0 +1,50 @@
+{
+  "adaptations": [
+    "output directory R",
+    "report schema"
+  ],
+  "added_modules": 1,
+  "additions": 44,
+  "changed_modules": 2,
+  "checker": {
+    "bytes": 10683,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/check_measurement.py",
+    "sha256": "08f414148e95fc861e81385e888caf759dec0548f18ad7837cc44b1949c47817"
+  },
+  "controls_defined": 84,
+  "controls_executed": 0,
+  "dependencies": 525,
+  "dependency_bytes": 30301774,
+  "fresh_complete_identities": 553,
+  "full_patch_reconstructed": true,
+  "independent_report": {
+    "bytes": 759737,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/METADATA_CHECK.json",
+    "sha256": "5597fa2d49190d53a909ae3fb1a6264afd00a408e813e2ee5118b078acd13d93"
+  },
+  "inherited": 481,
+  "predicates": 3888,
+  "replay": {
+    "chunk": "1e4e42",
+    "exit_code": 0
+  },
+  "report": {
+    "bytes": 759730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-root-fixture-review-tupyksou/METADATA_CHECK.json",
+    "sha256": "30a2c0775ac0e742e138cbc213ea6fc9b2219b895a8eecd0f63982dab6f4d2ff"
+  },
+  "review_namespace": 10,
+  "review_preseal_files_rechecked": 8,
+  "schema": "ri158-root-replay-summary-v1",
+  "scientific_or_subject_execution": false,
+  "source_acceptance": false,
+  "source_checker": {
+    "bytes": 10696,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri158-independent-repair-review-nxij3eju/check_metadata.py",
+    "sha256": "ffbad734b32b86120eb94e332bc65d5dfe19e314a8f4c6a2a79aeb417e2b19e5"
+  },
+  "source_namespace": 27,
+  "status": "FULL_REPORT_EQUAL_EXCEPT_SCHEMA",
+  "unchanged_modules": 9,
+  "unchanged_saved_mode_functions": 8
+}

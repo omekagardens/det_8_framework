@@ -1,0 +1,26 @@
+{
+  "freeze": {
+    "bytes": 26214,
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "host_identity_unchanged": true,
+  "metadata_record": {
+    "bytes": 2653,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri241-current-e-premode-wp58xz0h/ACTUAL_RUNTIME_NORMAL.json",
+    "sha256": "ad393dee1a8c10a7798f9c961a732888d8273a003b19232ea5782977684d4379"
+  },
+  "mode": "normal",
+  "observed_dyld_routes": {
+    "bytes": 771,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+    "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+  },
+  "optional_namespaces_unchanged": true,
+  "runtime_acceptance": {
+    "bytes": 22342,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/accepted_adapters/RUNTIME_ACCEPTANCE.json",
+    "sha256": "6c11846207bb55f82057a80a63fddce8ba3b00b21550ffc1dc4326203dd15add"
+  },
+  "schema": "ri130-root-pre-mode-runtime-custody-v1",
+  "selection_unchanged": true
+}

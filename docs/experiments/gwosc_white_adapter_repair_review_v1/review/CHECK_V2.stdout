@@ -1,0 +1,1 @@
+{"counts": {"additional": 18, "controls_defined": 55, "controls_executed": 0, "copies": 48, "dependencies": 481, "fresh_identity_rechecks": 508, "helpers": 11, "history": 124, "inherited": 463, "new_modules": 6, "predicates": 4621, "retained_modules": 5, "stage_roles": 17, "subject_namespace": 26, "subject_payloads": 25, "target_pairs": 30}, "status": "PASS"}

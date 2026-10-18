@@ -1,0 +1,20 @@
+{
+  "schema": "ri173-root-actual-dispatch-v1",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI173_NATIVE_ASSIGNMENT.json",
+    "bytes": 3942,
+    "sha256": "a0a26e57ed0e18ca1a5bf67d87f207e78df42ed640d89752ca7dc8153709862a"
+  },
+  "actual_tool": "mcp__codex_app__send_message_to_thread",
+  "actual_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a074c4-4b09-76a3-8cb2-0caf116f6b9c\"}"
+      }
+    ],
+    "isError": false
+  },
+  "after_independent_predecessor_adjudication": true
+}

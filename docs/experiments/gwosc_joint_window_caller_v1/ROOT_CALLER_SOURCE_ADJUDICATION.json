@@ -1,0 +1,116 @@
+{
+  "accepted_change": "Retained admitted helper handle and explicit unentered custody in both failure tails; original failure preserved; complete success pre/post stages required; eight finite absences and mandatory crypto load binding/config pin.",
+  "fixed_limits": {
+    "maximum_sample_gap_seconds": 0.1,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  },
+  "helpers": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/control.py",
+      "pin": {
+        "bytes": 5171,
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+      "pin": {
+        "bytes": 8184,
+        "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+      "pin": {
+        "bytes": 31898,
+        "sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/worker.py",
+      "pin": {
+        "bytes": 10189,
+        "sha256": "1d637c181ac40c55476f7240914c22496856ecba8f085f54560357454be48841"
+      }
+    }
+  ],
+  "history_closure": {
+    "bytes": 11357,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/HISTORY_CLOSURE.source-only.json",
+    "sha256": "4bda0fd8246a4ea0315d65402f7976f5bbf74f2b35847edf6e94a629ec5d84b7"
+  },
+  "independent_repair_review": "Non-author reviewer communicated complete review and no blocking source issue after eighth absence; its sealed artifact is pending and required before publication adjudication.",
+  "original_blocking_review": {
+    "bytes": 25136,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-root-caller-3wistxrp/INDEPENDENT_CALLER_SOURCE_REVIEW.json",
+    "sha256": "69a262a2a6cf088f86bedcfc871eefb9680bba53851e1c6985206e753811fdc7"
+  },
+  "programme_complete": false,
+  "qualification_boundary": "Source acceptance recorded before any active-helper regression invocation. Separate controlled non-scientific regression admission follows; production runtime and all science execution still require actual prerequisites. No actual numerical result or physical claim.",
+  "remaining": [
+    "Actual bounded guard regression and independent saved review",
+    "Current complete runtime inventory/profile, cache/supplier and OpenSSL/decimal/host premises",
+    "Separately admitted actual science normal then reviewed optimized execution/custody"
+  ],
+  "report_domain": {
+    "bytes": 11078,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/REPORT_DOMAIN.source-only.json",
+    "sha256": "5d65ed63f39fc66f8bf2394a42082f555f97b1a8a0343d38fb364d63b3436f0e"
+  },
+  "root_failure_review": {
+    "bytes": 5028,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_FIRST_REFUSAL_ADJUDICATION.json",
+    "sha256": "63a54d518e8a5c370cb70a92e96768eee548e530157c8110f5fd5534bbb61186"
+  },
+  "root_metadata_check": {
+    "bytes": 6160,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_SOURCE_METADATA_CHECK.json",
+    "sha256": "3c844a8841ef4cb2ba8cf86d40dd25a54604624804bb18804948871eccec3af4"
+  },
+  "root_read_coverage": "Original complete caller review plus complete executable delta, unchanged control, repaired success/failure tails and runtime paths, complete guard harness, complete updated contract/manifests/commands and all20 source/48history pins. Three science pairs unchanged.",
+  "root_static_review": {
+    "bytes": 3923,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_STATIC_CLOSURE_REVIEW.json",
+    "sha256": "c06d5a8f89cdf20dfe5823c6a6c42fb90d80930776f77f0d960ddd35c6246e6e"
+  },
+  "schema": "ri121-root-caller-source-adjudication-v1",
+  "source_template": {
+    "bytes": 9194,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/MANIFEST.source-only-template.json",
+    "sha256": "28e1b89010b4c0ff676b0eec3d2ed4b546027d178ae4800f96fbe9fd2e4e2ee9"
+  },
+  "sources": [
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/primary.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/primary.py",
+      "pin": {
+        "bytes": 20346,
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "relative": "primary.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/validator.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/validator.py",
+      "pin": {
+        "bytes": 23321,
+        "sha256": "b915ae587e9193c51a66c79f0dd987adb9f1e114a285503297521729ab987707"
+      },
+      "relative": "validator.py"
+    },
+    {
+      "copy": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/science/qualify.py",
+      "original": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/qualify.py",
+      "pin": {
+        "bytes": 14435,
+        "sha256": "23ccba3faff451894fbfbd35024b5575e25fc42f1d6d4616e052d8a89ddb58c3"
+      },
+      "relative": "qualify.py"
+    }
+  ],
+  "status": "ACCEPT_EXACT_SYNTHETIC_CALLER_SOURCE_ONLY",
+  "target_execution": false
+}

@@ -32,13 +32,16 @@ Decoupling prediction (v2): recovering κ (κ → κ_eq ⇒ χ → 0) removes on
 the anomalous component F_κ = G·α·χ·m₁m₂/r², leaving standard Newtonian
 F_N = G·m₁m₂/r².  The experimental signature is ΔF = F_κ ≠ 0, NOT F → 0.
 
-Status: P (proposed physical) — a correspondence to Newtonian gravity with
-a κ-response term. G is Newton's constant (empirical input, already used by
-`post_newtonian.py` and `sparc_analysis.py`); nothing here claims to derive
-G from DET primitives.
+Historical status: WITHDRAWN. The former P classification is superseded by
+the quarantine. G is an empirical input and the κ-response term has no active
+physical or empirical status.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 

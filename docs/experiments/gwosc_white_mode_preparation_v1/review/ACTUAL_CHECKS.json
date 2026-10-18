@@ -1,0 +1,86 @@
+{
+  "attempts": [
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+      "exit_code": 1,
+      "failure": "Reviewer-only domain predicate excluded a permitted repository DESIGN.md; no subject defect inferred.",
+      "source": {
+        "bytes": 16291,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py",
+        "sha256": "8055708ac035e9999bd18c478bcf38692c89db8f717f003b832a6f469c45fb9a"
+      },
+      "stderr": {
+        "bytes": 852,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stderr",
+        "sha256": "0c33a6b815c59179240e5d0bda820e17c02f04570af108a2b3aa523ffde02c48"
+      },
+      "stdout": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "tool_chunk": "d042ef"
+    },
+    {
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py > /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout 2> /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+      "exit_code": 0,
+      "repair": "Exactly one literal domain predicate extended to the already permitted repository root; original source and diagnostics preserved.",
+      "result": {
+        "bytes": 1096784,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/METADATA_CHECK.json",
+        "sha256": "34b18d7c8b47facabe55f96943857a09cfb696267ba45521b6cbe82088722571"
+      },
+      "source": {
+        "bytes": 16383,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata_v2.py",
+        "sha256": "ef6dee4a31109f6fd4742584ab3d7d9bdf2adc4d621cffdbb0ba7cf7f5b54c78"
+      },
+      "stderr": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 376,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/CHECK_V2.stdout",
+        "sha256": "6980ee631cfa18af12a5f0f81373a3eb161f6f9fde27c1cc987f348a225e1c56"
+      },
+      "tool_chunk": "aea602"
+    },
+    {
+      "actual_output": {
+        "original_namespace_entries": 52,
+        "prospective_root_absent": true,
+        "status": "PASS",
+        "unchanged": 478
+      },
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+      "exit_code": 0,
+      "result": {
+        "bytes": 10012,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/FINAL_INPUT_CHECK.json",
+        "sha256": "7c44ee9836e92a59dae061c5425161df905b70e1ee8ceed4d3bfa6329ce288fa"
+      },
+      "source": {
+        "bytes": 2167,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/final_input_check.py",
+        "sha256": "0ec9794a6dfb2f5d3d2a8b076910a455e2fd778abd15937af95b6751bac356ec"
+      },
+      "tool_chunk": "e28acb"
+    }
+  ],
+  "final_namespace_seal_is_metadata_only": true,
+  "preseal_narrative_correction": "Line citations adjusted to actual unchanged RI141 lines after literal rg/nl checks; no source, result or acceptance condition changed.",
+  "prohibited_actions_performed": [],
+  "read_display_diagnostic": {
+    "call": "combined caller contract/mode contract/protocol display through functions.exec; chunks fdc217 and 3c52d5",
+    "status": "Both nested tools exited0; aggregate tool output warned of clipping. Complete mode contract reread with1d19e7; protocol missing beginning reread with e22a2c. No subject or checker failure."
+  },
+  "schema": "ri154-independent-actual-administrative-check-record-v1",
+  "scope": "Reviewer source text/admin JSON/whole-file identities only. Original saved tool descriptors are retained metadata, not independently authenticated original live processes.",
+  "trusted_helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+  }
+}

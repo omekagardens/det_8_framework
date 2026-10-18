@@ -1,0 +1,68 @@
+{
+  "actual_scientific_qualification": false,
+  "caller_source_acceptance": {
+    "bytes": 5892,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_CALLER_SOURCE_ADJUDICATION.json",
+    "sha256": "bda7bd10e58320c2912a4405fec16d0b386b34c7edb6f9f5b86869cf7e936f92"
+  },
+  "date_utc": "2026-09-27",
+  "final_peer_binding_before_tests": {
+    "bytes": 963,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/INDEPENDENT_REVIEW_BINDING_BEFORE_GUARDS.json",
+    "sha256": "9bc6cae4f19bb889c9f341e75f8ca288bf71bda07c3122cb43e4df79e85e7440"
+  },
+  "independent_saved_review": {
+    "bytes": 8454,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-guards-licnz9_a/INDEPENDENT_SAVED_GUARD_REVIEW.json",
+    "sha256": "2b8fc263307b8ff2471e0ad5572753d72be330fa76e91f2bec747fa4530b1322"
+  },
+  "independent_source_review": {
+    "bytes": 17235,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-repaired-caller-c52tvvhd/INDEPENDENT_REPAIRED_CALLER_SOURCE_REVIEW.json",
+    "sha256": "85010607fc5f668e483783a009029222fd17f7433b3ac6534d9806f3a7c59f95"
+  },
+  "native_lane": "RI122 active with existing QR task; no duplicate assignment. Source-only caller/runtime/history reviews continue; connected sensitivity result pending.",
+  "next_action": [
+    "Establish actual current complete production runtime/profile and explicit startup/cache/host/OpenSSL/decimal premises",
+    "Root admit actual full scientific normal qualification and independently review all41 controls per implementation/saved validation/genuine custody",
+    "Only then separately admit optimized science qualification and full result equality; retain failures",
+    "Independently review QR RI122 stable handoff and progress actual native sensitivity stage under existing native limits"
+  ],
+  "observed": {
+    "actual_completion_chunks": [
+      "684a0d",
+      "85a307"
+    ],
+    "actual_exit_codes": [
+      1,
+      0
+    ],
+    "failure_receipts": 22,
+    "one_original_stop_reason_overwrite": true,
+    "original_cases": 11,
+    "original_failed": 7,
+    "original_passed": 4,
+    "repaired_cases_passed": 18,
+    "repaired_failed": 0,
+    "runtime_guard_cases": 7,
+    "six_early_entry_violations": true
+  },
+  "production_artifacts_present": false,
+  "production_runtime_admitted": false,
+  "programme_complete": false,
+  "ret_paused": true,
+  "root_saved_review": {
+    "bytes": 32419,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ROOT_SAVED_GUARD_CHECK.json",
+    "sha256": "7e6cf08565ac93cf9d8fda6a3dabca8f2dfcde7db4be7b9118e32c8fa5e5c6bf"
+  },
+  "runtime_scope": "metadataPython3.14 -I -B; actual main/finally under explicit prerequisite/runtime substitutions and tiny scanner domain. All7 scanner cases, verify positive only. No production Python3.11 or science execution.",
+  "schema": "ri121-root-bounded-guard-adjudication-v1",
+  "source_custody": {
+    "bytes": 1042,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/POST_GUARD_SOURCE_CUSTODY.json",
+    "sha256": "8335fc8c6710f74b0130d4b126e7e57240979e3aa740c4c5b31c2269ea53abde"
+  },
+  "status": "ACCEPT_REPAIRED_CALLER_SOURCE_AND_BOUNDED_GUARDS",
+  "unchanged": "Three science sources, complete monitor block,180s/524288KiB/25ms/100ms/50ms limits, numeric gates and all protected/historical results."
+}

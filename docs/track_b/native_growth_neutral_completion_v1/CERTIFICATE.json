@@ -1,0 +1,37 @@
+{
+  "schema": "ri45-neutral-separator-v1",
+  "parent_size": 5,
+  "record_assignment": "all zero on the seven named rows only",
+  "fixed_prefix_certificate_sha256": "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969",
+  "fixed_prefix_parameter_json_sha256": "465c5de48c69527fc59e8df1f494fd8cea33f8aec243f59b9b2820bd5b1c07a7",
+  "canonical_components": {
+    "ordering": "increasing minimum canonical-local-key",
+    "root_encoding": "compact JSON array of integer triples, no newline",
+    "count": 798,
+    "roots_sha256": "fd4e67382b7ec0e12f7f058a911cf17fc54fb2e30b398b10e7451748fd012d59",
+    "Q_preserving_roots": [[134,3,0],[142,3,0],[398,3,0],[398,16,0],[398,17,0],[398,19,0]]
+  },
+  "parents": [
+    {"name":"Q", "past_masks":[0,1,3,3,0], "record":0, "row_key":[398,31,0], "y":"-3859907", "c":"-1", "automorphisms":2, "path_weight":"3859907/1533312000"},
+    {"name":"P0", "past_masks":[0,1,3,0,0], "record":0, "row_key":[134,31,0], "y":"2375", "c":"1", "automorphisms":2, "path_weight":"19/12266496"},
+    {"name":"P2", "past_masks":[0,1,3,1,0], "record":0, "row_key":[142,31,0], "y":"2375", "c":"1/2", "automorphisms":1, "path_weight":"19/12266496"},
+    {"name":"P3", "past_masks":[0,1,3,0,8], "record":0, "row_key":[8592,31,0], "y":"20900", "c":"1/2", "automorphisms":1, "path_weight":"19/1393920"},
+    {"name":"P4", "past_masks":[0,1,3,3,3], "record":0, "row_key":[926,31,0], "y":"750", "c":"3", "automorphisms":6, "path_weight":"1/2044416"},
+    {"name":"P5", "past_masks":[0,1,3,0,9], "record":0, "row_key":[8730,31,0], "y":"114950", "c":"1/2", "automorphisms":1, "path_weight":"19/253440"},
+    {"name":"P6", "past_masks":[0,1,3,0,11], "record":0, "row_key":[8986,31,0], "y":"1961674", "c":"1/2", "automorphisms":1, "path_weight":"89167/69696000"}
+  ],
+  "extra_zero_parent": {"name":"R", "past_masks":[0,1,3,3,1]},
+  "Q_child_deletions": [
+    {"past_mask":0, "counts":{"Q":2,"P0":2}},
+    {"past_mask":1, "counts":{"Q":1,"P2":2,"R":1}},
+    {"past_mask":16, "counts":{"Q":1,"P3":2}},
+    {"past_mask":3, "counts":{"Q":3,"P4":1}},
+    {"past_mask":17, "counts":{"Q":1,"P5":2}},
+    {"past_mask":19, "counts":{"Q":1,"P6":2}}
+  ],
+  "dual_scale": "3066624000",
+  "negative_sum": "1756883",
+  "Q_negative_coefficient": "3859907",
+  "positive_sum": "2103024",
+  "drift_lower_bound": "1756883/3859907"
+}

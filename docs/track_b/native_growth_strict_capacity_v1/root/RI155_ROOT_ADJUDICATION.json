@@ -1,0 +1,56 @@
+{
+  "RET_resumed": false,
+  "accepted": [
+    "Under unchanged inherited RI41 finite marked-parent height theorem and RI63 law linkage: w,p_i<1/82, s_i<1/164, c_i<1/2, b_i>77/164, retaining distinct marked arms and full slots.",
+    "Exact eta=41^2*(w/b0)^3<1/32; 0<YE<14256/370025<1/25. No optional alpha minimum is needed.",
+    "Yu3>1/4; the strict-capacity maximum multiplier is 1. B/v<=1 gives C1>21/100. Both strict capacities hold iff v>B; equality fails C0.",
+    "Complete sums give E_i<3, V_i<1, R>1/8 and 0<v<1/72, using inherited lower bounds and sensitivity sign.",
+    "Exact nonnegative-N_i quadratic threshold characterizes F_i relative to 3 and hence Z relative to 1/8; no actual canonical branch is selected.",
+    "Capacity success requires lambda<(1+2*Mcap)/852. Fmax<=3 with lambda>=7/852 conditionally rejects the sufficient capacity, without deciding W.",
+    "Exact remaining comparison: theta*b0^3*(t-1)*H>12*j0*J, t=2*(1+Mcap), keeping signed d1,d3, positive d7,J and same actual canonical N_i."
+  ],
+  "adjudication_source": {
+    "bytes": 6922,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/adjudicate_native.py",
+    "sha256": "caf6765abd77ed4b3ba99159c3beb2bbed4f957ce24eb96b99aa22356334f7d1"
+  },
+  "author_failed_read_history_preserved": true,
+  "basis": "Complete coordinator manual review plus separate nonauthor proof review and authenticated actual administrative checks.",
+  "date": "2026-09-30",
+  "execution_admission": false,
+  "inherited_finite_verification_not_rerun": true,
+  "manual_review": {
+    "bytes": 7134,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_MANUAL_REVIEW.md",
+    "sha256": "4fcf72ce95f02636c84dd13dc6556b4a75ae463f871c812bfe2db2df1e3aefb0"
+  },
+  "measurement_lane": "RI156 remains active and separate; not adjudicated or staged by this record.",
+  "metadata_replay": {
+    "bytes": 2623,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_METADATA_REPLAY.json",
+    "sha256": "0bbd08860f16afb40b0d212c1762255f0d2a79f1900e8f9521bfa99f2efdc476"
+  },
+  "next_action": "Assign RI157 to bound the same-prefix quantitative contrast and actual canonical cap after this adjudication.",
+  "open_premises": [
+    "Actual correlated strict contrast v>B and canonical F branch.",
+    "Adequate q/v budget and individual W/C2/C3/shared H30 feasibility.",
+    "Original P2/P3, numerical Y=1/4 distinct from analytic Y; 31 focused,139 policy,20 native and42 audit obligations, strict endpoints, occurrence multiplicities, shared T1, other eight parents and five Di.",
+    "All-size, native geometry/gravity, calibrated measurement and physical claims."
+  ],
+  "repairs_required": [],
+  "review": {
+    "bytes": 5091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/HANDOFF.json",
+    "sha256": "3d312d6fdec735e52e3b7027314a4196cb4aa2ec648337f7381487b2f64a957a"
+  },
+  "schema": "ri155-root-adjudication-v1",
+  "scientific_body_decode": false,
+  "scientific_or_symbolic_execution": false,
+  "status": "ACCEPT_ACTUAL_FIRST_CAPACITY_AND_EXACT_STRICT_REDUCTION_WITH_CORRELATED_CONTRAST_GAP",
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "withdrawn_inverse_theta_and_seed_order_arguments_excluded": true
+}

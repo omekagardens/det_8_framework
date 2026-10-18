@@ -1,0 +1,13 @@
+{
+  "actual_changed_target_qualification_transferred": false,
+  "current_loop_sha256": "46e3acd597398f5fb528b35c2d194e05599d022f5a75bf864b4ef34f11ced508",
+  "current_target_execution": false,
+  "loop_change": "Removed exactly8 leading spaces to place unchanged body in supervise(child,record,started).",
+  "monitor_text_and_reap_verbatim": true,
+  "old_bytes": 31898,
+  "old_path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/launch.py",
+  "old_sha256": "866d93f0db0e6bfddc839bfbfee507d6eae864ca248b9e6e43d3e32328cb3806",
+  "retained_loop_sha256_before_indentation": "fd8cd958fa363102d4ae7ea1b02f492c7d05d686d5c566ce77146ef4fb3e4ce9",
+  "runtime_control_py_unchanged": true,
+  "schema": "ri130-retained-monitor-block-correspondence-v1"
+}

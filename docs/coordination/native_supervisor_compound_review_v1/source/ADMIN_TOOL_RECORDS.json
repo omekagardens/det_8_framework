@@ -1,0 +1,158 @@
+{
+  "schema": "ri176-actual-admin-tool-records-v1",
+  "all_subject_cases_unexecuted": true,
+  "source_import_compile_AST_probe": false,
+  "failed_admin_commands": [],
+  "display_diagnostics": [
+    {
+      "tool": "261fa3",
+      "exit_code": 0,
+      "issue": "Combined display truncated; not credited as complete read",
+      "recovery_tool": "e0f83b",
+      "recovery_exit_code": 0,
+      "scope": "Final six recipe objects and saved checker tail re-read completely"
+    }
+  ],
+  "commands": [
+    {
+      "tool": "a8d449",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Full assignment/root decision/independent review handoff, prior context retained"
+    },
+    {
+      "tool": "fe098e",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Complete independent review"
+    },
+    {
+      "tool": "efc329",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Complete predecessor check_saved.py"
+    },
+    {
+      "tool": "848530",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Complete predecessor case_worker.py"
+    },
+    {
+      "tool": "2525ff",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Full assignment/protocol/controller/payload"
+    },
+    {
+      "tool": "039b75",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Relevant unchanged subject pump, observer and finalization spans"
+    },
+    {
+      "tool": "d836fa",
+      "exit_code": 0,
+      "kind": "Node metadata",
+      "description": "Authenticated four exact assignment/decision/handoff identities; read exact manifest metadata; copied six active source/manifest files exclusively"
+    },
+    {
+      "tool": "570ad0",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Observer completion tail and retained three interface documents"
+    },
+    {
+      "tool": "a9e6b4",
+      "exit_code": 0,
+      "kind": "Node metadata",
+      "description": "Read complete direct dependency map/role pins and administrative manifest recipe example"
+    },
+    {
+      "tool": "a71acb",
+      "exit_code": 0,
+      "kind": "Node source editing",
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/author_repair.mjs"
+    },
+    {
+      "tool": "0f6f22",
+      "exit_code": 0,
+      "kind": "Node source editing",
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/repair_oracle.mjs"
+    },
+    {
+      "tool": "bd4519",
+      "exit_code": 0,
+      "kind": "Node source editing",
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/refine_source.mjs"
+    },
+    {
+      "tool": "d9fe75",
+      "exit_code": 0,
+      "kind": "Node source editing",
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/complete_obligations.mjs"
+    },
+    {
+      "tool": "956803",
+      "exit_code": 0,
+      "kind": "document write",
+      "description": "Source-only repair contract and prospective negative-oracle plan"
+    },
+    {
+      "tool": "c6f5d7",
+      "exit_code": 0,
+      "kind": "Node metadata",
+      "description": "Inspected original sealed namespaces/payload shape"
+    },
+    {
+      "tool": "2c96e7",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Bounded final source spans; no source execution"
+    },
+    {
+      "tool": "feb023",
+      "exit_code": 0,
+      "kind": "Node metadata",
+      "command": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_admin.mjs",
+      "result": {
+        "passed": true,
+        "checks": 266,
+        "fresh_external_identities": 64,
+        "unchanged_function_text_spans": 47,
+        "cases_executed": 0
+      },
+      "disposition": "Preserved as pre-final metadata after two small author boundary refinements"
+    },
+    {
+      "tool": "e0f83b",
+      "exit_code": 0,
+      "kind": "read",
+      "description": "Final source tail and complete six remaining recipe objects"
+    },
+    {
+      "tool": "271c59",
+      "exit_code": 0,
+      "kind": "Node source editing plus metadata",
+      "commands": [
+        "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/final_boundary_refinement.mjs",
+        "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/check_admin.mjs"
+      ],
+      "result": {
+        "passed": true,
+        "checks": 266,
+        "fresh_external_identities": 64,
+        "unchanged_function_text_spans": 47,
+        "cases_executed": 0
+      }
+    },
+    {
+      "tool": "74bec0",
+      "exit_code": 0,
+      "kind": "document write and Node literal metadata",
+      "description": "Schema delta, author record, prospective command adaptation and exact line response map"
+    }
+  ],
+  "final_sealing_invocation": "/opt/homebrew/bin/node /Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/seal_metadata.mjs",
+  "seal_tool_receipt": "Reported separately to root; not fabricated inside its own pre-return artifact."
+}

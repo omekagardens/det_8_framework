@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "bytes": 3113,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_TOOL.json",
+      "sha256": "afe45fc3982de98e7bde448fe9be75974d273da2f91eee3e6bbb1b64e27a97d1"
+    },
+    {
+      "bytes": 2336,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_SESSION_LINKAGE.json",
+      "sha256": "f1c4420c94c34acae7cc947b6a7bf9b98f1639f06900ace2544d45767f1bec0e"
+    },
+    {
+      "bytes": 1639,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_HOST_TOOL.json",
+      "sha256": "83c0892c159a9ce0e9ea9f6934adb7bf1d6d99f4e3197864e71ae8ed8c695806"
+    },
+    {
+      "bytes": 2356,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI229_PREPARATION_SOURCE_ACCEPTANCE.json",
+      "sha256": "149af89b6d5a7a09c7efb56f2910d272c7f48f6df049da6c40d57268cf697646"
+    },
+    {
+      "bytes": 4234,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/ROOT_ONE_PREPARATION_DECISION.json",
+      "sha256": "25fdd96a229961cfd6ed32d232687b5ad5449f25c1dfa9eb584d5aba6a5a0514"
+    },
+    {
+      "bytes": 2289,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ROOT_SOURCE_REVIEW.json",
+      "sha256": "4fdaddb780e94c2dbf0f4773d4301439421ef80586482535ec7b0842fc2c40f6"
+    },
+    {
+      "bytes": 9292,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/HANDOFF.json",
+      "sha256": "7efdb57c59ce7a5f2834bbdb335ff4b2c0afe4e3849e15970fc3aa2c20c321e0"
+    },
+    {
+      "bytes": 1430,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-reconciliation-preparation-t93t1607/worker_proposal/SOURCE_PINS.json",
+      "sha256": "c1b72b9e2e19a40e6f94adccc7a5c6ce58e0c626a72098bf1f677153549916cd"
+    },
+    {
+      "bytes": 9657,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/HANDOFF.json",
+      "sha256": "bead93928f1f1af37379f4d8add4c5e254b31633fa8d00acb274a2739d237fdc"
+    },
+    {
+      "bytes": 1412,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+      "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+    },
+    {
+      "bytes": 7768,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri229-independent-preparation-review-ajsf_qna/HANDOFF.json",
+      "sha256": "d78cd1f9e9c14304504a69796c4df9267454c6543344ecee6f35f8ba90bb35df"
+    }
+  ],
+  "schema": "ri230-review-input-references-v1",
+  "scientific_bodies_opaque": true
+}

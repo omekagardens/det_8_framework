@@ -1,0 +1,62 @@
+{
+  "actual_replay": {
+    "chunk_id": "5947cf",
+    "exit_code": 0,
+    "opaque_inputs": 849,
+    "predicates": 5332
+  },
+  "complete_source_reads": [
+    "7e969b",
+    "319be8",
+    "6fa773",
+    "77cec6"
+  ],
+  "independent_actual": {
+    "chunk_id": "6ffbe1",
+    "exit_code": 0,
+    "predicates": 14441,
+    "whole_identities": 864
+  },
+  "independent_packet": {
+    "bytes": 2894,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/HANDOFF.json",
+    "sha256": "3e479047e5951237b4698e91b9fac2d9eba98f08e6b7b0bca66f4b1f5d5e6194"
+  },
+  "independent_review_read": "0c15ac",
+  "preserved_diagnostic": {
+    "chunk_id": "fd744d",
+    "correction": "Separate V2 source/result preserves grouping parentheses. No operational program was run.",
+    "error": "NameError pinPath in redirected administrative reporting wrapper after complete checks and saved result",
+    "exit_code": 1,
+    "saved_result": {
+      "bytes": 2628,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI218_ROOT_ADMIN_REPLAY.json",
+      "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+    },
+    "source": {
+      "bytes": 9540,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/replay_ri218_admin.py",
+      "sha256": "fc3ce112148b4378b665c044697a70c94ee73becfc0f648a3cb37a19ffbaf9ef"
+    }
+  },
+  "qualification_credit": 0,
+  "review_limits": "Static complete source review and administrative identity/diff checks only; no runtime or fixture qualification.",
+  "root_replay": {
+    "bytes": 2628,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/RI218_ROOT_ADMIN_REPLAY_V2.json",
+    "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+  },
+  "root_replay_source": {
+    "bytes": 9550,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/replay_ri218_admin_v2.py",
+    "sha256": "f8e1711591591bc52c0b9b208fdc8781cff018ea53c4012dea91619428735eec"
+  },
+  "schema": "ri218-root-repair-source-check-record-v1",
+  "scientific_execution": false,
+  "source_packet": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  },
+  "status": "PASS_EXACT_SOURCE_AND_RETAINED_METADATA_REPLAY"
+}

@@ -1,0 +1,105 @@
+{
+  "actual_failures_this_assignment": [],
+  "administrative_tools": [
+    {
+      "exit_code": 0,
+      "scope": "create sole authorized worker_proposal directory",
+      "tool": "020790"
+    },
+    {
+      "exit_code": 0,
+      "scope": "33 predecessor/input pins; exact request check; proposal seeds only",
+      "tool": "baaa65"
+    },
+    {
+      "exit_code": 0,
+      "scope": "author literal source generation and initial diffs; generated programs unexecuted",
+      "tool": "19312b"
+    },
+    {
+      "exit_code": 0,
+      "scope": "text-only final source refinements and complete diff refresh",
+      "tool": "fb87fa"
+    },
+    {
+      "exit_code": 0,
+      "scope": "proposal notes only",
+      "tool": "4beac1"
+    },
+    {
+      "exit_code": 0,
+      "scope": "4915 source-pin/literal checks;715 distinct inputs and42 consumer read pins; no target/proposal run",
+      "tool": "59d5a6"
+    }
+  ],
+  "author": "/root/ri116_complete_caller_review",
+  "final_refinements_after_initial_generation": [
+    "preflight binds lineage supplement",
+    "predispatch and postchecker bind all four observation refs",
+    "postchecker closes COMPLETE and tail envelopes",
+    "postchecker bounds all operation and monitor files at existing64MiB"
+  ],
+  "generated_operational_sources_never_executed": true,
+  "not_checked_by_execution": [
+    "proposal syntax/bytecode",
+    "generated preparation/predispatch/postcheck behavior",
+    "vendor or host freshness for RI204",
+    "adapter action",
+    "monitor or scientific execution"
+  ],
+  "preserved_predecessor_diagnostics": "RI200 and RI202 originals are immutable and pinned in CLOSURE_SEEDS. Their earlier reviewer/author failures are not recast as subject outcomes.",
+  "prior_authorship": [
+    "RI156",
+    "RI158",
+    "RI160"
+  ],
+  "reads": [
+    {
+      "exit_code": 0,
+      "tool": "e7491c"
+    },
+    {
+      "exit_code": 0,
+      "tool": "a1c1e0"
+    },
+    {
+      "exit_code": 0,
+      "tool": "509bcc"
+    },
+    {
+      "exit_code": 0,
+      "tool": "506434"
+    },
+    {
+      "exit_code": 0,
+      "tool": "d83c30"
+    },
+    {
+      "exit_code": 0,
+      "tool": "411cbd"
+    },
+    {
+      "exit_code": 0,
+      "tool": "fb8308"
+    },
+    {
+      "exit_code": 0,
+      "tool": "700bb7"
+    },
+    {
+      "exit_code": 0,
+      "tool": "17d717"
+    }
+  ],
+  "remaining": [
+    "independent complete source review",
+    "root source adjudication",
+    "fresh root preparation and final predispatch",
+    "one genuine externally supervised action",
+    "whole saved candidate/custody review",
+    "separate root candidate acceptances",
+    "later separate freeze and scientific-mode prerequisites"
+  ],
+  "schema": "ri204-author-proposal-history-v1",
+  "source_only": true
+}

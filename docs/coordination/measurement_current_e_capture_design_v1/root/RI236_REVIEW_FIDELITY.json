@@ -1,0 +1,15 @@
+{
+  "receipt": {
+    "chunk_id": "c712c8",
+    "exit_code": 0
+  },
+  "review": {
+    "bytes": 4174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri237-root-cross-root-review-jkfg7vlx/RI236_INDEPENDENT_REVIEW.md",
+    "sha256": "1e12da7b1f5bad07536cdb90bedf04f9e2bec73b93fad787cab458e293a68101"
+  },
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_writes": false,
+  "schema": "ri237-root-preserved-review-fidelity-v1",
+  "statement": "Reviewer reread complete root-preserved final review and confirmed all content, qualifications and receipts."
+}

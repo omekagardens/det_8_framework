@@ -1,0 +1,99 @@
+{
+  "actual_new_target_execution": false,
+  "historical_scientific_result_bodies_included": false,
+  "records": [
+    {
+      "bytes": 7070,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_FINAL_QUALIFICATION_ADJUDICATION.json",
+      "sha256": "caccbee7db26f04232c9654391f79df596b93d89a43df6f9c9f70ce77e51aea8"
+    },
+    {
+      "bytes": 52422,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/launch.py",
+      "sha256": "bdb1eaa09dae805cd5d9911060888354ee560f3ce1afe2402e2e2b54c356c4b0"
+    },
+    {
+      "bytes": 5171,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/control.py",
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    {
+      "bytes": 8079,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/worker.py",
+      "sha256": "96c997cade528ca0f964cb17f71fbd0b742290dc7c1af2edac06b81695174816"
+    },
+    {
+      "bytes": 555,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_GENUINE_OUTER.json",
+      "sha256": "8180192923313efbbfa006a20773f96834e0e8899199cb755cec32957b845d17"
+    },
+    {
+      "bytes": 559,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/OPTIMIZED_GENUINE_OUTER.json",
+      "sha256": "f4cf847bca55e7e0ca05d5cbfa290b9e9e298846ba18a72ba4fc7d3b9ed61a0b"
+    },
+    {
+      "bytes": 586576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/receipt.json",
+      "sha256": "978be07f347529797797dd29a0606b6e861d0167a7aab2521beb724ec04649c0"
+    },
+    {
+      "bytes": 587810,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/receipt.json",
+      "sha256": "86fc5dd3c92e58d72257f913954c25a231284d09bd7caa28d63014b33023ccfc"
+    },
+    {
+      "bytes": 566161,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/runtime.json",
+      "sha256": "c6bed9cf5ed1029d8c7f4f829ad8dd5afea8fb8930489a3d70b9a1c729080378"
+    },
+    {
+      "bytes": 566644,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/runtime.json",
+      "sha256": "c72025cb05e82ea8b3ac6f68bcaa23f25e5dffea11f2500d86bdfd2a6c1ddae5"
+    },
+    {
+      "bytes": 4561,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/normal/CUSTODY.json",
+      "sha256": "f51661abd4573d8434301fbd50cd62f8f2c7eb340e06b5bbba23ba1f5f2195f5"
+    },
+    {
+      "bytes": 4567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/controls/optimized/CUSTODY.json",
+      "sha256": "66295d0455df931f451eef3b2365e862fa09b1cab9f4ac0a759a417c6d6cffbe"
+    },
+    {
+      "bytes": 1410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_NORMAL.json",
+      "sha256": "3a50552b9ee28a52146ded2f11e507f35b2da57750dff89cec4877ee0d850345"
+    },
+    {
+      "bytes": 1665,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/ADMIT_OPTIMIZED.json",
+      "sha256": "926adf8561e3b0ceb00e84b1a7ac6800ea72cc69b1aa8b5a22dece5bbc096895"
+    },
+    {
+      "bytes": 171603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-interface-caller-source-J6oVpLYq/AUTHORIZED_FREEZE.json",
+      "sha256": "bcec40caf6a75f8211cad9bb3e956f46adff95e47899bdaef9e7b0d6f2456956"
+    },
+    {
+      "bytes": 5543,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/RI114_ROOT_CALLER_SOURCE_ADJUDICATION.json",
+      "sha256": "528ae29e3ad0323bc7bd935fb27b63223ef29b6960cd707b21752e4194f18a8b"
+    },
+    {
+      "bytes": 3114,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-root-caller-admission-DD93GU4A/NORMAL_ROOT_REVIEW.json",
+      "sha256": "af626d5cfd7bd7bd416ad5d679fd99f85d8e4db5691bf3f957729bd8fc0064bc"
+    },
+    {
+      "bytes": 12496,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri114-independent-two-mode-rego4cfj/INDEPENDENT_FINAL_TWO_MODE_QUALIFICATION_REVIEW.json",
+      "sha256": "d111d1b49314b24f4af559c2c8116e25d864142ea058af5c4e5b7f6fd808698c"
+    }
+  ],
+  "schema": "ri121-retained-supervision-provenance-v1",
+  "scope": "Actual serial RI114 source-known metadata-interface execution under the same retained launch/monitor/reap mechanism. These are historical custody records, not proof of RI121 science, changed caller/runtime checks, negative-control behavior or present resource fit. Historical embedded operand references are not followed.",
+  "status": "HISTORICAL_METADATA_REFERENCES_ONLY_NO_TRANSFERRED_RI121_QUALIFICATION"
+}

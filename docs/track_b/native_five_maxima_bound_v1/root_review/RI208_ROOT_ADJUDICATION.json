@@ -1,0 +1,49 @@
+{
+  "actual_W_decided": false,
+  "both_margins_or_H30_decided": false,
+  "global_M6_bound_proved": false,
+  "handoff": {
+    "bytes": 7875,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/HANDOFF.json",
+    "sha256": "f912de523795987606968934907e264d238bd5e074af410a3b3e68034162804f"
+  },
+  "independent_review": {
+    "bytes": 2743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_NONAUTHOR_REVIEW.json",
+    "sha256": "1d95a98618e9023fdba715556db4ffd0d8360c2e7893ec97c119351b5a819753"
+  },
+  "lemma": {
+    "bytes": 10887,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/HIGH_OMISSION_LEMMA.md",
+    "sha256": "d0a268d1799b8583e1b62db83b48b6a11da98f07a199cc42ca0b5533b730c10c"
+  },
+  "metadata": {
+    "bytes": 12051,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_ROOT_METADATA_CHECK.json",
+    "sha256": "aba3f23a68f60b9e8d0da0f86b94be2c5bb111cc114eb1ad605635ecae50b793"
+  },
+  "premises": [
+    "RI41 all-four-parent ideal floor9/681472 including full; proper-slot scalar minimum1/8 is not used for full q4.",
+    "RI205 accepted all-ideal q1>=1/3 and q3>=1/110 from literal seed including all marks/full complements.",
+    "RI205 accepted finite support lemma: proper parent-five birth with at least four terminal maxima has zero canonical boundary coefficient, retaining theta*u5; inherited RI63 active-neutral support and marked diamonds.",
+    "Unchanged fixed canonical mixture, strict positive complete rows, locality/equivariance, all original marks, theta=1/[72(1+M5)].",
+    "Accepted same native M5 witness gives M5>5e9 and unchanged T>465e9. Printed numeric M5 and actual theta unused."
+  ],
+  "proof": {
+    "bytes": 12287,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri208-native-five-maxima-po8tjwlh/FIVE_MAXIMA.md",
+    "sha256": "3543f2435b6fc7e44e49bfcc41a9bcdbaa4d72081dbcc3f3f40bb29c2a31f265"
+  },
+  "qualification_credit": false,
+  "ret_paused": true,
+  "root_review": {
+    "bytes": 4945,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_ROOT_PROOF_REVIEW.md",
+    "sha256": "cf859dd0db122edcf998b7bf5d133ef8ff33beb6b56eb6bfcee9fac93a6e897a"
+  },
+  "schema": "ri207-root-ri208-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_FIVE_MAXIMA_CLASS_CONDITIONAL_THEOREM",
+  "theorem": "Every actual marked six-parent with exactly five maxima satisfies U6<5+10K+80K^2+11/256<462080760006<463000000000<465000000000<T, K=681472/9, on the named unchanged finite-prefix premises.",
+  "whole_class_not_selected_records": true
+}

@@ -1,0 +1,44 @@
+{
+  "RET_paused": true,
+  "assignment": {
+    "bytes": 8385,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+    "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+  },
+  "automatic_proof_arithmetic": false,
+  "inherited_row": {
+    "access_policy": "text-reading-and-opaque-identity-no-execution",
+    "classification": "analytic-source-text-or-review",
+    "identity": {
+      "bytes": 28127,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a",
+      "symlinks": []
+    },
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+    "reference_provenance": [
+      "Declared exact premise in /Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json"
+    ],
+    "role": "dep_0416"
+  },
+  "new_execution_authority": false,
+  "reference": {
+    "bytes": 28127,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+    "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+  },
+  "remaining": "If these symbolic relations still do not decide h, state the exact missing same-law inequality or held scalar; continue the substantive seed-sign/slack cases. Current B3>1 derivation remains a worker proposal pending review.",
+  "request": "Worker seeks an existing analytic seed relation for h=-3m0*z2/r while continuing the assigned two-margin proof.",
+  "root_observation": "Original RI85 DESIGN equation10 retains every marked P1 harmonic row, plus the full64by11 harmonic system and canonical direction rule. The inspected RI88 result review does not print a new h value. This is access to accepted symbolic equations, not provision of a numerical seed split.",
+  "root_reads": [
+    "00f0db",
+    "dbc25f",
+    "89def5"
+  ],
+  "schema": "ri212-literal-seed-relation-admission-v1",
+  "scientific_body_or_certificate_read": false,
+  "scope": "Read this entire exact DESIGN.md literally. Combine its original harmonic identities manually with already admitted same-law prefix identities to bound or eliminate h if possible. This explicitly allows symbolic algebra on the existing relations, not numerical H/z reconstruction, graph/RREF execution, fresh coefficient extraction or a new seed/vector. The original fixed solution and complete record equations stay binding.",
+  "status": "ADMIT_ONE_EXISTING_ANALYTIC_TEXT_FOR_MANUAL_SEED_RELATION",
+  "typed_reference_expansion": false
+}

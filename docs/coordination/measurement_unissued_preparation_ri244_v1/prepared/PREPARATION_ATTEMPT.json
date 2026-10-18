@@ -1,0 +1,15 @@
+{
+  "decision": {
+    "bytes": 1007,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_DECISION.json",
+    "sha256": "94e8beecfbb0c19fe206b4e45c22692649aaa4992ec352daf6483b22817f702c"
+  },
+  "no_retry": true,
+  "operational_authorization": false,
+  "proposal": {
+    "bytes": 4462,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/HANDOFF.json",
+    "sha256": "31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1"
+  },
+  "schema": "ri244-unissued-preparation-attempt-v1"
+}

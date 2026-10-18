@@ -1,0 +1,64 @@
+{
+  "E_write": false,
+  "RET_paused": true,
+  "actual_admin": {
+    "bytes": 2628,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ADMIN_CHECK.json",
+    "sha256": "7797a0fabb8813afad620c0993215f27b12c0f592fc8d8b9a24104925975d8f2"
+  },
+  "actual_receipts": {
+    "bytes": 3566,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+    "sha256": "f7895eb7e06f8def8fb1d632e69e5a321bf174fc080d1d01f9d91e3f2d9bff81"
+  },
+  "assignment": {
+    "bytes": 2827,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI218_BYTE_REPAIR_ASSIGNMENT.json",
+    "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+  },
+  "author": "/root/ri116_complete_caller_review",
+  "authorship_conflict_disclosed": true,
+  "base_inputs": 806,
+  "current_runtime_observation": false,
+  "distinct_opaque_inputs": 849,
+  "exact_semantic_change": "Two raw-byte comparisons now use direct equality in need(); JSON canonical equality unchanged.",
+  "fixture_evaluation": false,
+  "new_agents": false,
+  "old_seals_and_partials_unchanged": true,
+  "operational_objects_created": false,
+  "other_executable_changes": [
+    "Fresh fixed D/W/O paths",
+    "Explicit complete REPAIR_PROVENANCE constant"
+  ],
+  "preserved_prior_roles": 810,
+  "prior_authorship": [
+    "RI125 primary/qualifier",
+    "RI131 guard source",
+    "RI156/158/160 adapter source",
+    "RI204/206/209/213 preparation/installation source",
+    "failed RI217 root administrative preparation draft"
+  ],
+  "prospective_source_observation_count": 857,
+  "provenance_rows": 43,
+  "qualification_credit": 0,
+  "remaining": [
+    "Fresh nonauthor and root review of exact source",
+    "Separate fresh root preparation, including correction of its own direct-byte readback; no old-attempt resume",
+    "Concrete preflight/bootstrap review and separate root admission",
+    "Actual genuine monitored installation and complete independent outcome/custody review before root acceptance",
+    "Unchanged scientific mode/runtime/arithmetic/qualification prerequisites"
+  ],
+  "repo_git_actions": false,
+  "retained_clock_schema": "ri213-installation-completion-v1",
+  "retained_fields": 14,
+  "retained_tails": 8,
+  "role": "Author, not independent reviewer",
+  "schema": "ri218-authoring-record-v1",
+  "scientific_body_decode": false,
+  "source_acceptance_superseded": {
+    "bytes": 1772,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+    "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+  },
+  "source_import_compile_AST_probe_execute": false
+}

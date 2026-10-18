@@ -1,0 +1,186 @@
+{
+  "schema": "ri159-final-witness-grid-source-handoff-v1",
+  "status": "SEALED_SOURCE_ONLY_PREPARATION_FOR_FRESH_INDEPENDENT_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 4916,
+    "sha256": "782b057624a35094093558e52e40a78d3a61b3ff1cbb61d2c3dd675171b1911e"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+    "bytes": 2404,
+    "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CONSEQUENCE_LEDGER.md",
+    "CONTRACT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "QUALIFICATION_CASES.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "grid_audit.py",
+    "grid_check.py"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/AUTHOR_CHECKS.json",
+      "bytes": 20045,
+      "sha256": "dc3d31eccf7dd9441944479ba2fd6c0237e683260bf2d8c409a680eba0162ef8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONSEQUENCE_LEDGER.md",
+      "bytes": 4006,
+      "sha256": "ac7208f08b0da649a373c12eac2329d73fb8d8394fccbb0eb3f7dfff672cc787"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/CONTRACT.md",
+      "bytes": 12488,
+      "sha256": "36ba8fc9eb32a4070675c1743b69a4db026ee5739407436a5a5039edaab0e39f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/DEPENDENCY_NOTES.md",
+      "bytes": 13832,
+      "sha256": "7cee7de44a07360314a88223268fdfceacc44cd4430e752d4323fe383a517742"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.md",
+      "bytes": 3507,
+      "sha256": "33ba117fc97f7fbebe40fcbc5eb72cd21e0e8812ef7b1db346fed896153d767d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/QUALIFICATION_CASES.md",
+      "bytes": 12739,
+      "sha256": "f310f60f62e868c9ca56f1b92d366961a12d990005d12d65f84e0d7bb89104fb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_DEPENDENCIES.json",
+      "bytes": 226943,
+      "sha256": "4a2c99fd38dc892b638b6c6c2e66ae667a42c8e268b04db2d8d8c71eb0c954e0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/SOURCE_IDENTITIES.json",
+      "bytes": 18266,
+      "sha256": "43b1ea86a6c78e6f05af4868e1a763100cae34fa26a4c751c9da3c2a1720782c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+      "bytes": 22760,
+      "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+      "bytes": 16091,
+      "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+    }
+  ],
+  "compact_publication_subset": [
+    "AUTHOR_CHECKS.json",
+    "CONSEQUENCE_LEDGER.md",
+    "CONTRACT.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "QUALIFICATION_CASES.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "grid_audit.py",
+    "grid_check.py"
+  ],
+  "external_only_diagnostics": [],
+  "question": "Does the whole unchanged final109-component RI41 vector, including default and every override, lie on the1/1000 grid?",
+  "deliverables": {
+    "producer": "grid_check.py: fixed-six-input production authentication; strict duplicate-free bounded certificate parsing; complete vector expansion; exact Fraction grid arithmetic; full component result; no CLI path/pin override.",
+    "auditor": "grid_audit.py: separately written parser and Euclidean-gcd reconstruction; no producer import; every saved result field compared with exact types; fixed inputs and saved result rechecked.",
+    "contract": "CONTRACT.md: exact original domain/linkage, complete producer and auditor output contracts, bounded refusals and operational limits; direct qualification is not actual authentication.",
+    "qualification": "QUALIFICATION_CASES.md: inert Q01-Q35,R01-R16,P01-P12 families, including full109 sweeps and default/override, malformed input, exact arithmetic, identity drift and coherent false result coverage.",
+    "consequences": "CONSEQUENCE_LEDGER.md: authenticated grid PASS supports only the inherited conditional envelope rejection; FAIL removes that universal-grid shortcut; refusal supplies neither."
+  },
+  "source_implementation_independence": {
+    "shared_contract_and_pins": true,
+    "shared_scientific_implementation": false,
+    "auditor_imports_producer": false,
+    "auditor_read_producer_before_initial_implementation": false,
+    "reciprocal_author_source_reviews_after_drafting": true,
+    "coauthors_are_fresh_independent_reviewers": false
+  },
+  "fixed_future_input_roles": [
+    "certificate",
+    "original_source",
+    "original_manuscript",
+    "assignment",
+    "accepted_predecessor",
+    "accepted_manual_review"
+  ],
+  "input_identity_binding": "SOURCE_IDENTITIES.json runtime_inputs; all six fixed roles are in the selected252-file closure.",
+  "root_order_basis": "Inherited pinned RI41 acceptance and unchanged actual-law linkage; root shape/sort checks are not graph/component reconstruction.",
+  "source_review_findings": "Missing ancestor-symlink/path checks were repaired in both sources. Primary/close/postcheck preservation, nonblocking opens, final rechecks and exact output counts were hardened. Complete main and reciprocal coauthor literal reviews found no remaining concrete issue; no runtime qualification is claimed.",
+  "source_or_control_execution": false,
+  "source_or_control_import_compile_AST_probe": false,
+  "scientific_certificate_body_decode": false,
+  "actual_grid_result": null,
+  "actual_capacity_sign_decided": false,
+  "actual_W_C2_C3_H30_decided": false,
+  "actual_adequate_q_v_budget_proved": false,
+  "global_M6_or_actual_rho_identified": false,
+  "qualification_fixtures_created": 0,
+  "qualification_cases_executed": 0,
+  "scientific_engine_or_growth_enumeration": false,
+  "runtime_inventory_card_freeze_or_admission_created": false,
+  "new_agents_spawned": false,
+  "repository_index_Git_or_predecessor_write": false,
+  "physical_claim": false,
+  "actual_author_check": {
+    "tool_chunk": "4333cf",
+    "exit_code": 0,
+    "stage": "preseal9",
+    "dependencies": 252,
+    "selected_bytes": 16345304,
+    "inherited": 223,
+    "administrative_bodies": 88,
+    "historical_typed_refs": 1981,
+    "current_typed_refs": 48,
+    "extended_historical_identity_occurrences": 17,
+    "historical_state_compared_to_current": false,
+    "source_pairs": 4,
+    "predecessor_namespaces": [
+      10,
+      10
+    ],
+    "literal_manuscript_references": 0,
+    "final_fresh_rechecks_at_preseal": 261,
+    "receipt_payload": "AUTHOR_CHECKS.json"
+  },
+  "final_check_boundary": "Separate final11 administrative check after this seal must freshly reopen the252 selected dependencies and11 current files. That later receipt is not preclaimed here.",
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "P2_P3": true,
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "shared_T1_recovery": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true,
+    "original_seed_support_amplitude_and_witness_unchanged": true,
+    "native_forward_map_and_calibration_open": true
+  },
+  "diagnostics": {
+    "current_failed_commands_reported": [],
+    "current_truncated_outputs_reported": [],
+    "historical_failures_preserved": true,
+    "no_actual_grid_inference_from_discovery_rounding": true,
+    "no_claim_source_inspection_equals_qualification": true,
+    "no_q_floor_or_global_growth_sequel": true
+  },
+  "immutable_after_seal": true,
+  "root_owns_independent_review_admissions_adjudication_Git_and_publication": true,
+  "stop": "Worker returns sealed source for fresh independent review. No qualification or actual admission requested by this file and no successor started. This return boundary does not pause the programme."
+}

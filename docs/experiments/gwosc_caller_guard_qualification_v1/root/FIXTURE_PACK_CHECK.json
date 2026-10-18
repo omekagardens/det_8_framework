@@ -1,0 +1,18 @@
+{
+  "all_link_targets_retained_as_data": true,
+  "directories": 169,
+  "entries": 1385,
+  "every_decoded_body_equals_saved_original": true,
+  "file_bytes": 3569865,
+  "files": 1172,
+  "package": {
+    "bytes": 5092348,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/FIXTURE_BYTES.json",
+    "sha256": "06be2655ce8d40cedad95d0713b2a2b21c0b99bc280ae419ee7762f691089325"
+  },
+  "schema": "ri152-fixture-byte-bijection-check-v1",
+  "scientific_results": false,
+  "status": "PASS_COMPLETE_BYTE_AND_NAMESPACE_BIJECTION",
+  "subject_execution": false,
+  "symlinks": 44
+}

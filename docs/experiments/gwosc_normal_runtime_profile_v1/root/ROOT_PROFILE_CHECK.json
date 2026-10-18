@@ -1,0 +1,45 @@
+{
+  "monitors": [
+    {
+      "elapsed": 1.9935764589999998,
+      "final_gap": 0.05031454199999974,
+      "label": "PRE",
+      "maximum_gap": 0.03893954199999983,
+      "peak_rss_kib": 91552,
+      "samples": 53
+    },
+    {
+      "elapsed": 0.6655170830000001,
+      "final_gap": 0.035257915999999945,
+      "label": "PROFILE",
+      "maximum_gap": 0.04508904199999986,
+      "peak_rss_kib": 17104,
+      "samples": 17
+    },
+    {
+      "elapsed": 1.9193072079999998,
+      "final_gap": 0.04354054199999968,
+      "label": "POST",
+      "maximum_gap": 0.03930666699999996,
+      "peak_rss_kib": 87664,
+      "samples": 51
+    }
+  ],
+  "operation_entries": 18,
+  "output_entries": 16,
+  "parent_seconds": 6.210006833,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "schema": "ri148-root-saved-normal-profile-check-v1",
+  "scientific_credit": false,
+  "scope": "Profile child actual completion and monitor custody checked; complete profile field semantics await separate nonauthor review. Saved complete snapshot comparison, every runtime file fresh opaque identity/selection, actual monitor arithmetic, full output namespace; independent actual review remains separate",
+  "snapshots": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "snapshots_byte_equal": true,
+  "source_admission_and_vendor_unchanged": true,
+  "source_files": 504,
+  "status": "PASS_PENDING_INDEPENDENT_REVIEW"
+}

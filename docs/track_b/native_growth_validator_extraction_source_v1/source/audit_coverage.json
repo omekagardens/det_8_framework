@@ -1,0 +1,2297 @@
+{
+  "schema": "ri134-audit-policy-coverage-v1",
+  "status": "UNEXECUTED_SOURCE_MAPPING_ONLY",
+  "authorship": "/root/ri132_audit_controls",
+  "old_caller": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+    "bytes": 103287,
+    "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5"
+  },
+  "new_caller": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/launch_audit.py",
+    "bytes": 103969,
+    "sha256": "74f3ef59520a7d8d360a280bcf5d5389d0e3f6c456e8f02178fbc773c4e5d60b"
+  },
+  "control_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit_policy_controls.py",
+    "bytes": 19923,
+    "sha256": "e04a1014d91a49061ec8bde6a2b318209e12328d82d7633f076fcd77a2952548"
+  },
+  "prior_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+    "bytes": 150366,
+    "sha256": "d64c1ef2ac50465f240bc9e6bc5d40258f21b9b8f61b0c90a4ae881e1f1a9d22"
+  },
+  "correspondence": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_CORRESPONDENCE.json",
+    "bytes": 9357,
+    "sha256": "96285e62774b735c73b13b68631f7d35a6263900be7033130e33d18d174e56b8"
+  },
+  "declaration_count": 69,
+  "case_count": 62,
+  "positive_baselines": 4,
+  "negative_cases": 58,
+  "current_partition": {
+    "direct_extracted_policy": 6,
+    "retained_narrow_source_applicability": 21,
+    "blocked_deeper": 42
+  },
+  "ordered_case_inventory": [
+    {
+      "id": "AD01",
+      "family": "dependency",
+      "mutation": "positive"
+    },
+    {
+      "id": "AD02",
+      "family": "dependency",
+      "mutation": "root-extra"
+    },
+    {
+      "id": "AD03",
+      "family": "dependency",
+      "mutation": "schema"
+    },
+    {
+      "id": "AD04",
+      "family": "dependency",
+      "mutation": "status"
+    },
+    {
+      "id": "AD05",
+      "family": "dependency",
+      "mutation": "scope"
+    },
+    {
+      "id": "AD06",
+      "family": "dependency",
+      "mutation": "empty"
+    },
+    {
+      "id": "AD07",
+      "family": "dependency",
+      "mutation": "entry-extra"
+    },
+    {
+      "id": "AD08",
+      "family": "dependency",
+      "mutation": "role"
+    },
+    {
+      "id": "AD09",
+      "family": "dependency",
+      "mutation": "duplicate"
+    },
+    {
+      "id": "AD10",
+      "family": "dependency",
+      "mutation": "path"
+    },
+    {
+      "id": "AD11",
+      "family": "dependency",
+      "mutation": "identity-extra"
+    },
+    {
+      "id": "AD12",
+      "family": "dependency",
+      "mutation": "identity-bool-size"
+    },
+    {
+      "id": "AD13",
+      "family": "dependency",
+      "mutation": "alias"
+    },
+    {
+      "id": "AD14",
+      "family": "dependency",
+      "mutation": "link"
+    },
+    {
+      "id": "AD15",
+      "family": "dependency",
+      "mutation": "classification"
+    },
+    {
+      "id": "AD16",
+      "family": "dependency",
+      "mutation": "access"
+    },
+    {
+      "id": "AD17",
+      "family": "dependency",
+      "mutation": "provenance"
+    },
+    {
+      "id": "AD18",
+      "family": "dependency",
+      "mutation": "not-list"
+    },
+    {
+      "id": "AD19",
+      "family": "dependency",
+      "mutation": "not-object"
+    },
+    {
+      "id": "AS01",
+      "family": "decision",
+      "mutation": "positive"
+    },
+    {
+      "id": "AS02",
+      "family": "decision",
+      "mutation": "extra"
+    },
+    {
+      "id": "AS03",
+      "family": "decision",
+      "mutation": "missing"
+    },
+    {
+      "id": "AS04",
+      "family": "decision",
+      "mutation": "schema"
+    },
+    {
+      "id": "AS05",
+      "family": "decision",
+      "mutation": "status"
+    },
+    {
+      "id": "AS06",
+      "family": "decision",
+      "mutation": "execution-true"
+    },
+    {
+      "id": "AS07",
+      "family": "decision",
+      "mutation": "execution-zero"
+    },
+    {
+      "id": "AS08",
+      "family": "decision",
+      "mutation": "transfer-true"
+    },
+    {
+      "id": "AS09",
+      "family": "decision",
+      "mutation": "transfer-zero"
+    },
+    {
+      "id": "AS10",
+      "family": "decision",
+      "mutation": "sources"
+    },
+    {
+      "id": "AS11",
+      "family": "decision",
+      "mutation": "unclosed-review"
+    },
+    {
+      "id": "AS12",
+      "family": "decision",
+      "mutation": "zero-review"
+    },
+    {
+      "id": "AS13",
+      "family": "decision",
+      "mutation": "changed-review"
+    },
+    {
+      "id": "AS14",
+      "family": "decision",
+      "mutation": "changed-ri128"
+    },
+    {
+      "id": "AS15",
+      "family": "decision",
+      "mutation": "changed-history"
+    },
+    {
+      "id": "AS16",
+      "family": "decision",
+      "mutation": "changed-dependency"
+    },
+    {
+      "id": "AS17",
+      "family": "decision",
+      "mutation": "null-review"
+    },
+    {
+      "id": "AR01",
+      "family": "review",
+      "mutation": "positive"
+    },
+    {
+      "id": "AR02",
+      "family": "review",
+      "mutation": "schema"
+    },
+    {
+      "id": "AR03",
+      "family": "review",
+      "mutation": "status"
+    },
+    {
+      "id": "AR04",
+      "family": "review",
+      "mutation": "blockers"
+    },
+    {
+      "id": "AR05",
+      "family": "review",
+      "mutation": "science-true"
+    },
+    {
+      "id": "AR06",
+      "family": "review",
+      "mutation": "science-zero"
+    },
+    {
+      "id": "AR07",
+      "family": "review",
+      "mutation": "execution-true"
+    },
+    {
+      "id": "AR08",
+      "family": "review",
+      "mutation": "execution-zero"
+    },
+    {
+      "id": "AR09",
+      "family": "review",
+      "mutation": "sources"
+    },
+    {
+      "id": "AT01",
+      "family": "checks",
+      "mutation": "positive"
+    },
+    {
+      "id": "AT02",
+      "family": "checks",
+      "mutation": "missing-checks"
+    },
+    {
+      "id": "AT03",
+      "family": "checks",
+      "mutation": "extra-count"
+    },
+    {
+      "id": "AT04",
+      "family": "checks",
+      "mutation": "missing-count"
+    },
+    {
+      "id": "AT05",
+      "family": "checks",
+      "mutation": "bool-sign"
+    },
+    {
+      "id": "AT06",
+      "family": "checks",
+      "mutation": "string-decision"
+    },
+    {
+      "id": "AT07",
+      "family": "checks",
+      "mutation": "float-refusal"
+    },
+    {
+      "id": "AT08",
+      "family": "checks",
+      "mutation": "wrong-sign"
+    },
+    {
+      "id": "AT09",
+      "family": "checks",
+      "mutation": "wrong-decision"
+    },
+    {
+      "id": "AT10",
+      "family": "checks",
+      "mutation": "wrong-refusal"
+    },
+    {
+      "id": "AT11",
+      "family": "checks",
+      "mutation": "completed-false"
+    },
+    {
+      "id": "AT12",
+      "family": "checks",
+      "mutation": "completed-one"
+    },
+    {
+      "id": "AT13",
+      "family": "checks",
+      "mutation": "inherited-true"
+    },
+    {
+      "id": "AT14",
+      "family": "checks",
+      "mutation": "inherited-zero"
+    },
+    {
+      "id": "AT15",
+      "family": "checks",
+      "mutation": "missing-completed"
+    },
+    {
+      "id": "AT16",
+      "family": "checks",
+      "mutation": "missing-inherited"
+    },
+    {
+      "id": "AT17",
+      "family": "checks",
+      "mutation": "null-counts"
+    }
+  ],
+  "rows": [
+    {
+      "ordinal": 1,
+      "declaration": {
+        "code": "preparation",
+        "condition": "runtime metadata pin is missing or placeholder",
+        "function": "runtime_prepare",
+        "name": "runtime-unbound-manifest"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "runtime_prepare",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "reviewed runtime manifest pin is unbound"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Pinned globals cannot be altered; unchanged helper applicability only.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 2,
+      "declaration": {
+        "code": "runtime",
+        "condition": "runtime metadata bytes differ before parsing",
+        "function": "runtime_prepare",
+        "name": "runtime-changed-manifest"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "runtime_prepare",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "runtime",
+          "message": "reviewed runtime manifest changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "No immutable manifest is changed; raw-read race alternative is not exercised.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 3,
+      "declaration": {
+        "code": "identity",
+        "condition": "directory names, kinds or link targets changed",
+        "function": "run",
+        "name": "runtime-membership-change"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "pre_attempt_prerequisites -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "preflight runtime namespace differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Full-entry now rejects at preflight; no namespace mutation or new-entry coverage.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 4,
+      "declaration": {
+        "code": "identity",
+        "condition": "declared absent import alternative now exists",
+        "function": "run",
+        "name": "runtime-absence-invalid"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "pre_attempt_prerequisites -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "preflight runtime namespace differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "No forbidden import alternative is created; preflight path is new.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 5,
+      "declaration": {
+        "code": "identity",
+        "condition": "uname, system version or visible system location differs",
+        "function": "run",
+        "name": "runtime-host-drift"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "pre_attempt_prerequisites -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "preflight runtime namespace differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "No host premise is altered; specific earlier system-version identity refusal may precede this aggregate guard.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 6,
+      "declaration": {
+        "code": "identity",
+        "condition": "one captured runtime file changed",
+        "function": "runtime_file_prerequisites",
+        "name": "runtime-file-changed"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "runtime_file_prerequisites",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "captured runtime file identity changed: /System/Library/CoreServices/SystemVersion.plist"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Direct synthetic identity-map argument only; no actual runtime file mutation or full-entry claim.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 7,
+      "declaration": {
+        "code": "runtime_namespace_change",
+        "condition": "namespace or host changes after launch",
+        "function": "run",
+        "name": "runtime-late-namespace-change"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "run finally",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "runtime_namespace_change",
+          "message": "fixed runtime namespace or visible host identity changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "No late host/namespace mutation; retained finalizer only, conditional on no earlier error.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 8,
+      "declaration": {
+        "code": "preparation",
+        "condition": "source dependency manifest pin is missing or placeholder",
+        "function": "dependency_prepare",
+        "name": "unbound-dependency-pin"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "dependency_prepare",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "reviewed source dependency manifest pin is unbound"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires forbidden mutation of accepted globals; positive authentic preparation does not cover this.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 9,
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency metadata bytes changed before parsing",
+        "function": "dependency_prepare",
+        "name": "changed-dependency-manifest"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "dependency_prepare",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "dependency",
+          "message": "reviewed source dependency manifest changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "No immutable dependency file mutation; positive preparation is not this fault.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 10,
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency order or role is not closed",
+        "function": "dependency_prepare",
+        "name": "dependency-order-or-duplicate"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_dependency_payload",
+      "implemented_case_ids": [
+        "AD08",
+        "AD09",
+        "AD10"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "dependency",
+          "message": "static dependency role/order/path differs"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "Only pure ordered payload arguments. Fixed manifest authentication, final identity race check and cache installation remain production-only obligations.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 11,
+      "declaration": {
+        "code": "dependency",
+        "condition": "source dependency identity is linked or resolved elsewhere",
+        "function": "dependency_prepare",
+        "name": "dependency-link-or-alias"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_dependency_payload",
+      "implemented_case_ids": [
+        "AD13",
+        "AD14"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "dependency",
+          "message": "static source dependency has a symlink or alias"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "Only identity value policy. No actual symlink traversal, path alias or physical file fault is performed.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 12,
+      "declaration": {
+        "code": "identity",
+        "condition": "one complete static source/evidence identity changed",
+        "function": "verify_source_cards",
+        "name": "changed-source-dependency"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_source_cards",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "static source dependency identity changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Runtime and exact nine source/copy pairs precede dependency loop; not called with missing physical prerequisites.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 13,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "completed review lacks current15/4/71 checks or credits old qualification",
+        "function": "validate_mode_custodies",
+        "name": "old-target-qualification-credit"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_current_target_checks",
+      "implemented_case_ids": [
+        "AT02",
+        "AT03",
+        "AT04",
+        "AT05",
+        "AT06",
+        "AT07",
+        "AT08",
+        "AT09",
+        "AT10",
+        "AT11",
+        "AT12",
+        "AT13",
+        "AT14",
+        "AT15",
+        "AT16",
+        "AT17"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "completed current-target check counts fields mismatch"
+        },
+        {
+          "code": "prerequisite",
+          "message": "actual current-target checks absent or old qualification credited"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "Pure exact15/4/71 metadata policy only. No actual producer fixtures/refusals are executed and no serial custody is established.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 14,
+      "declaration": {
+        "code": "varies-by-failed-prerequisite",
+        "condition": "current freeze/auth or full fixed prerequisite fails before allocation",
+        "function": "pre_attempt_prerequisites",
+        "name": "pre-attempt-missing-or-invalid-prerequisite"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "main -> preparation_ready -> file_identity(AUDIT_BINDING)",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": null,
+          "message": "[Errno 2] No such file or directory: '/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_BINDING.json'"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Root whole-entry missing-binding case is separately specified; it does not reach full pre_attempt_prerequisites or prove every gate.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 15,
+      "declaration": {
+        "code": "preparation",
+        "condition": "history pin is None or placeholder",
+        "function": "preparation_ready",
+        "name": "unbound-history"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "reviewed historical manifest pin is unbound"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires forbidden accepted-global mutation.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 16,
+      "declaration": {
+        "code": "identity",
+        "condition": "manifest bytes no longer match literal pin",
+        "function": "preparation_ready",
+        "name": "changed-history"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "reviewed historical manifest changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires forbidden immutable historical manifest change; raw authentication must remain first.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 17,
+      "declaration": {
+        "code": "FileNotFoundError",
+        "condition": "future actual binding does not exist",
+        "function": "preparation_ready",
+        "name": "missing-binding"
+      },
+      "prior_ri132_classification": "whole_entry_specification",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "main -> preparation_ready -> file_identity(AUDIT_BINDING)",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": null,
+          "message": "[Errno 2] No such file or directory: '/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_BINDING.json'"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Root-owned whole-entry specification/evidence validator only; no run or current outer result in this module.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 18,
+      "declaration": {
+        "code": "preparation",
+        "condition": "actual binding has an extra field",
+        "function": "preparation_ready",
+        "name": "binding-extra-key"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "actual audit binding fields mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Needs changed physical current binding; no fake actual binding card is created.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 19,
+      "declaration": {
+        "code": "configuration",
+        "condition": "future identity is null",
+        "function": "positive_identity",
+        "name": "binding-null-identity"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "positive_identity -> validate_identity -> exact_keys",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "file identity fields mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Only direct argument shape; no loaded binding-card coverage.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 20,
+      "declaration": {
+        "code": "preparation",
+        "condition": "future actual identity has zero size",
+        "function": "positive_identity",
+        "name": "binding-zero-size"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "positive_identity",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "nonpositive or placeholder identity: /Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_BINDING.json"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Only direct argument identity; no physical zero-byte binding file.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 21,
+      "declaration": {
+        "code": "preparation",
+        "condition": "future actual identity has zero digest",
+        "function": "positive_identity",
+        "name": "binding-zero-digest"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "positive_identity",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "nonpositive or placeholder identity: /Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUDIT_BINDING.json"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Only direct argument identity; no physical placeholder binding file.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 22,
+      "declaration": {
+        "code": "configuration",
+        "condition": "a fixed future path is substituted",
+        "function": "positive_identity",
+        "name": "binding-arbitrary-path"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "positive_identity -> validate_identity",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "invalid file identity fields"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Only direct argument identity; no actual path substitution.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 23,
+      "declaration": {
+        "code": "preparation",
+        "condition": "one actual custody is omitted",
+        "function": "preparation_ready",
+        "name": "binding-missing-mode"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready -> exact_keys",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "preparation",
+          "message": "custodies fields mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative missing custodies.optimized requires a fabricated/changed binding; outer_completions alternative not tested.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 24,
+      "declaration": {
+        "code": "identity",
+        "condition": "binding changes before freeze validation",
+        "function": "validate_authorization",
+        "name": "binding-changed-after-cache"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "actual binding changed after preparation"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "No actual binding mutation after cache; needs genuine prepared state.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 25,
+      "declaration": {
+        "code": "FileNotFoundError",
+        "condition": "required genuine completed custody absent",
+        "function": "preparation_ready",
+        "name": "missing-custody"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready -> file_identity(E/WITNESS_ROOT_CUSTODY.json)",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": null,
+          "message": "[Errno 2] No such file or directory: '/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/WITNESS_ROOT_CUSTODY.json'"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Selected missing first producer custody presumes all preceding genuine binding references; none is manufactured.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 26,
+      "declaration": {
+        "code": "configuration",
+        "condition": "protected roles or paths reordered",
+        "function": "preparation_ready",
+        "name": "history-order"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "historical ordered role or path changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Selected role-order violation is behind immutable history pin; sorted-path alternative also unexecuted.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 27,
+      "declaration": {
+        "code": "configuration",
+        "condition": "protected literal path repeated",
+        "function": "preparation_ready",
+        "name": "history-duplicate"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "preparation_ready",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "historical ordered role or path changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Duplicate path occurs behind immutable history pin; no bypass.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 28,
+      "declaration": {
+        "code": null,
+        "condition": "empty historical stderr remains permitted",
+        "function": "validate_identity",
+        "name": "history-zero-log-valid"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "validate_identity",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": null,
+          "message": null
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Direct identity-shape acceptance only; argument is not an observed historical output.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 29,
+      "declaration": {
+        "code": "identity",
+        "condition": "one historical full identity changes",
+        "function": "verify_source_cards",
+        "name": "changed-protected-file"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_source_cards -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "historical protected identity changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Genuine runtime/source-copy prerequisites required; no historical file mutation.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 30,
+      "declaration": {
+        "code": "identity",
+        "condition": "one exact scientific source/input copy changes",
+        "function": "verify_source_cards",
+        "name": "changed-copy"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_source_cards",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "accepted RI128 pair changed: checker/copy"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative changed checker-copy pin; no copy created/changed; whole-byte mismatch subguard is distinct.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 31,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "root source decision contains extra key",
+        "function": "verify_source_cards",
+        "name": "source-decision-extra-field"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_source_decision_payload",
+      "implemented_case_ids": [
+        "AS02"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "RI129 source decision fields mismatch"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "Pure current-decision argument shape only; real authenticated fixed-path source decision, complete reference closure and admission remain outside this test.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 32,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "source decision grants execution or target qualification",
+        "function": "verify_source_cards",
+        "name": "source-decision-promotion"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_source_decision_payload",
+      "implemented_case_ids": [
+        "AS06",
+        "AS07",
+        "AS08",
+        "AS09"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "RI129 source decision is not exact source-only acceptance"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "False-scope value policy only; actual metadata identity/provenance and external source acceptance remain separate.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 33,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "independent source review has blockers",
+        "function": "verify_source_cards",
+        "name": "source-review-incomplete"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "DIRECT_EXTRACTED_POLICY_ONLY",
+      "actual_boundary": "validate_source_review_payload",
+      "implemented_case_ids": [
+        "AR04"
+      ],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "complete independent source review absent"
+        }
+      ],
+      "retained_support": [],
+      "remaining_gap": "Pure blocker-list policy only, not independent review provenance or actual authenticated source-card read.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 34,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "applicability names another mode",
+        "function": "verify_applicability",
+        "name": "stage-wrong-mode"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_applicability",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "fixed stage applicability scope differs: audit"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Current authenticated physical stage card required; no fabricated historical admission.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 35,
+      "declaration": {
+        "code": "identity",
+        "condition": "applicability changes literal child argv",
+        "function": "verify_applicability",
+        "name": "stage-wrong-argv"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_applicability -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "stage argv differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Current actual binding/preparation and stage card required; noarg vector positive case is narrower.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 36,
+      "declaration": {
+        "code": "identity",
+        "condition": "applicability changes environment or envelope",
+        "function": "verify_applicability",
+        "name": "stage-wrong-env-limits"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "verify_applicability -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "stage environment differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative environment guard; resource-envelope alternative remains separately untested.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 37,
+      "declaration": {
+        "code": "configuration",
+        "condition": "frozen array differs in order or length",
+        "function": "validate_freeze",
+        "name": "freeze-input-order"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_freeze",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "input role order mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Same-length reordered inputs selected; argv_for first requires real audit preparation.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 38,
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed freeze bytes differ from snapshot identity",
+        "function": "metadata",
+        "name": "freeze-raw-body-mismatch"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "metadata",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "metadata raw bytes differ from authenticated identity"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Exact retained metadata helper only; current freeze path not fabricated or changed.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 39,
+      "declaration": {
+        "code": "identity",
+        "condition": "parsed authorization bytes differ from snapshot identity",
+        "function": "metadata",
+        "name": "authorization-raw-body-mismatch"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "metadata",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "metadata raw bytes differ from authenticated identity"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Exact retained metadata helper only; current authorization path not fabricated or changed.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 40,
+      "declaration": {
+        "code": "identity",
+        "condition": "runtime literal symlink or bytes differs from freeze",
+        "function": "validate_freeze",
+        "name": "runtime-link-change"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "validate_freeze",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "interpreter identity mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Selected interpreter identity field mismatch; earlier frozen runtime-role mismatch may be first in other mutations.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 41,
+      "declaration": {
+        "code": "authorization",
+        "condition": "root authorization is not exact positive admission",
+        "function": "validate_authorization",
+        "name": "missing-explicit-auth"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "validate_authorization",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "authorization",
+          "message": "authorization does not bind this one audit attempt"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Only false authorized argument at first guard; no binding/eight-object/custody coverage.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 42,
+      "declaration": {
+        "code": "identity",
+        "condition": "one of eight fixed target paths is substituted",
+        "function": "validate_authorization",
+        "name": "target-path-alias"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization eight-object value guard",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "target object must be positive bounded literal nonsymlink file: auditor_copy"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Deferred genuine context plus wrong-path argument only; no actual filesystem path alias created.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 43,
+      "declaration": {
+        "code": "identity",
+        "condition": "any two of eight target objects share device/inode",
+        "function": "validate_authorization",
+        "name": "target-physical-alias"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization device/inode guard",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "target objects share a physical identity: checker_copy"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires real hardlink/physical fault among protected files; none authorized or fabricated.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 44,
+      "declaration": {
+        "code": "identity",
+        "condition": "a target file or ancestor is a symlink",
+        "function": "validate_authorization",
+        "name": "target-symlink"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization eight-object value guard",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "target object must be positive bounded literal nonsymlink file: auditor_copy"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Deferred nonempty symlinks argument only; actual component traversal/fault remains untested.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 45,
+      "declaration": {
+        "code": "identity",
+        "condition": "one target object exceeds eight MiB",
+        "function": "validate_authorization",
+        "name": "target-oversize"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization eight-object value guard",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "target object must be positive bounded literal nonsymlink file: auditor_copy"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Deferred oversized identity argument only; no oversized scientific body created/read.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 46,
+      "declaration": {
+        "code": "authorization",
+        "condition": "native saved certificate differs from actual binding",
+        "function": "validate_authorization",
+        "name": "target-certificate-binding"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_authorization certificate guard",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "authorization",
+          "message": "actual native saved certificate differs from audit binding"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Earlier bind_refs(BINDING_VALUE,known) catches an inconsistent certificate argument; cannot credit that as reaching this guard.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 47,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "receipt claims success without root custody",
+        "function": "validate_mode_custodies",
+        "name": "serial-receipt-only"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies -> exact_keys",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "completed root custody fields mismatch"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative receipt-shaped dict in custody position requires fabricated current custody file; real missing file fails earlier.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 48,
+      "declaration": {
+        "code": "identity",
+        "condition": "optimized omits genuine normal acceptance",
+        "function": "validate_mode_custodies",
+        "name": "serial-omitted-prior"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "completed serial custody dependency differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative optimized root_normal_acceptance=null after valid keys; genuine prior cards remain necessary.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 49,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "child exit false replaces integer zero",
+        "function": "validate_producer_receipts",
+        "name": "native-false-zero"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "successful native completion absent: witness"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Inline actual receipt validator, not a separable argument callback; no fabricated receipt file.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 50,
+      "declaration": {
+        "code": "configuration",
+        "condition": "native input array has trailing non-dict",
+        "function": "validate_producer_receipts",
+        "name": "native-role-trailer"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "native complete ordered input list differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Inline current freeze with malformed trailer cannot be substituted as history.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 51,
+      "declaration": {
+        "code": "identity",
+        "condition": "retained native snapshots differ from current",
+        "function": "validate_producer_receipts",
+        "name": "native-before-after-change"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "native before/current identity map differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative before map; after map has a different first message and is also untested.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 52,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "no positive live sample exists",
+        "function": "validate_producer_receipts",
+        "name": "native-empty-live-samples"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "successful native completion absent: witness"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Zero live_rss_samples fails first receipt guard, not later census totals.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 53,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "last census retains owned processes",
+        "function": "validate_producer_receipts",
+        "name": "native-no-terminal-absence"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "native live/terminal sampled custody is incomplete"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Actual authenticated sample file is required; no synthetic process history.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 54,
+      "declaration": {
+        "code": "identity",
+        "condition": "witness did not preserve candidate absence",
+        "function": "validate_producer_receipts",
+        "name": "native-candidate-during-witness"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_producer_receipts -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "native candidate absence at admission differs"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative prepared absence mismatch after prior guards; no actual witness history alteration.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 55,
+      "declaration": {
+        "code": "identity",
+        "condition": "one saved candidate differs in any byte",
+        "function": "validate_mode_custodies",
+        "name": "candidate-partial"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "candidate copy differs from whole witness bytes"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires altered candidate bytes and genuine earlier stages; no candidate is created/changed.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 56,
+      "declaration": {
+        "code": "identity",
+        "condition": "normal and optimized complete bytes differ",
+        "function": "validate_mode_custodies",
+        "name": "saved-summary-difference"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "whole normal/optimized summaries differ"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires changed real summary bytes; no scientific body is decoded/altered.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 57,
+      "declaration": {
+        "code": "identity",
+        "condition": "actual command differs from pre-admission",
+        "function": "validate_mode_custodies",
+        "name": "outer-wrong-literal-invocation"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "genuine invocation differs from pre-admitted literal command"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "No fabricated tool-completion record; root actual output truth is separately external.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 58,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "false replaces genuine integer outer exit zero",
+        "function": "validate_mode_custodies",
+        "name": "outer-false-zero"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "actual outer exit/chunk incomplete"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Representative completion.result.exit_code=false; custody.actual_outer_exit=false fails earlier scope guard.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 59,
+      "declaration": {
+        "code": "prerequisite",
+        "condition": "outer completion still has a session id",
+        "function": "validate_mode_custodies",
+        "name": "outer-unfinished-session"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "prerequisite",
+          "message": "actual outer exit/chunk incomplete"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Presence of session_id is rejected even if null; no fabricated completion supplied.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 60,
+      "declaration": {
+        "code": "identity",
+        "condition": "actual outer message binds a different receipt",
+        "function": "validate_mode_custodies",
+        "name": "outer-receipt-mismatch"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "genuine outer success does not bind exact receipt"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Requires different raw genuine output binding; not inferred from receipt status.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 61,
+      "declaration": {
+        "code": "identity",
+        "condition": "completed review omits one of six outputs",
+        "function": "validate_mode_custodies",
+        "name": "review-missing-output"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "validate_mode_custodies -> same",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "completed review must bind all six evidence files"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "Authenticated actual completed-review file required; no fake review.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 62,
+      "declaration": {
+        "code": "identity",
+        "condition": "decoded metadata names an unclosed identity",
+        "function": "bind_refs",
+        "name": "metadata-unclosed-reference"
+      },
+      "prior_ri132_classification": "direct",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "bind_refs",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "identity",
+          "message": "metadata reference outside closed frozen inventory"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior narrow direct-case source applicability only; RI132 driver is pinned to RI129 and no RI134 execution is transferred."
+        }
+      ],
+      "remaining_gap": "Direct argument reference only; no metadata file discovery or accepted card.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 63,
+      "declaration": {
+        "code": "FileExistsError",
+        "condition": "exclusive audit-01 already exists",
+        "function": "Attempt.__init__",
+        "name": "attempt-reuse"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "Attempt.__init__ -> os.mkdir",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": null,
+          "message": "[Errno 17] File exists: '/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit-01'"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "No actual attempt directory is created; full entry additionally needs successful fresh preflight.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 64,
+      "declaration": {
+        "code": "configuration",
+        "condition": "outer flags, argv, cwd or exact environment differs",
+        "function": "run",
+        "name": "wrong-launch-environment"
+      },
+      "prior_ri132_classification": "blocked",
+      "current_support": "BLOCKED_DEEPER",
+      "actual_boundary": "pre_attempt_prerequisites",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "configuration",
+          "message": "preflight environment, flags, argv or cwd changed"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior documented blocked source boundary only."
+        }
+      ],
+      "remaining_gap": "New preflight precedes retained run guard; all genuine earlier prerequisites required to reach it.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 65,
+      "declaration": {
+        "code": "monitor",
+        "condition": "required census is malformed, nonzero or timed out",
+        "function": "monitor",
+        "name": "monitor-failure"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "monitor",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "monitor",
+          "message": "ps failed or emitted stderr"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Representative nonzero/stderr census; malformed/timeout alternative has distinct messages and no current execution.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 66,
+      "declaration": {
+        "code": "wall_limit",
+        "condition": "owned child reaches 120-second bound",
+        "function": "run",
+        "name": "wall-limit"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "run monitor loop",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "wall_limit",
+          "message": "120-second child wall limit reached"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "No owned process launched; monitor remaining-budget guard has distinct first message.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 67,
+      "declaration": {
+        "code": "rss_limit",
+        "condition": "sampled owned group exceeds 512 MiB",
+        "function": "run",
+        "name": "rss-limit"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "run monitor loop",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "rss_limit",
+          "message": "512-MiB owned-group RSS limit exceeded"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "No memory-allocation fault or child run; applicability is retained sampled-group code only.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 68,
+      "declaration": {
+        "code": "input_change",
+        "condition": "post-admission input byte or link identity changes",
+        "function": "run",
+        "name": "late-input-change"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "run finally",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "input_change",
+          "message": "frozen input identities changed during attempt"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Conditional on no earlier error; no late protected-file mutation.",
+      "executed": false,
+      "whole_entry_qualified": false
+    },
+    {
+      "ordinal": 69,
+      "declaration": {
+        "code": "signal",
+        "condition": "catchable interruption invalidates apparent completion",
+        "function": "run",
+        "name": "late-signal"
+      },
+      "prior_ri132_classification": "retained",
+      "current_support": "RETAINED_NARROW_SOURCE_APPLICABILITY",
+      "actual_boundary": "run finally",
+      "implemented_case_ids": [],
+      "intended_first_outcomes": [
+        {
+          "code": "signal",
+          "message": "catchable shutdown signal received during cleanup"
+        }
+      ],
+      "retained_support": [
+        {
+          "review": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+          "scope": "Prior exact retained-code source applicability only; no individual historical fault outcome is claimed."
+        }
+      ],
+      "remaining_gap": "Representative cleanup signal; launch/body signal paths have different messages and remain unexecuted.",
+      "executed": false,
+      "whole_entry_qualified": false
+    }
+  ],
+  "all_outcomes_unobserved": true,
+  "complete_caller_qualification": false,
+  "execution_authorized": false,
+  "scientific_execution": false
+}
+

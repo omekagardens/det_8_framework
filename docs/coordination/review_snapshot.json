@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "checkpoint": {
+    "commit": "5ec58e5f6961a01ce37d0442dfcf80cbac8725df",
+    "tree": "7df594315dd1c6f67c67b099dd7f844c5718671b"
+  },
+  "artifacts": [
+    {
+      "path": "det8/tests/test_qr_finite_protocol.py",
+      "sha256": "ce6ccb6c62f7d37292e6f03c2bc67a0f6ce791fbce8aadd45c4d8d8b42fe4bbe"
+    },
+    {
+      "path": "docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md",
+      "sha256": "bf712204df74665c8eede35f246227c2d12acbdc2a03e5284a5ddbfaf073c3a0"
+    },
+    {
+      "path": "docs/coordination/QR_COMPOSITION_PREMISE_PLAN.md",
+      "sha256": "389d1ff809a921f5af832ca197e6bca4e3810ef1d0c7943193c5b6b9c9d95971"
+    },
+    {
+      "path": "docs/coordination/QR_FINITE_COPY_WITNESS_PLAN.md",
+      "sha256": "62887089c6f661f543e066f23d2d141200c9d0b67f9cafa8dd06765072e12517"
+    },
+    {
+      "path": "docs/coordination/QR_INTERFACE_ROBUSTNESS_PLAN.md",
+      "sha256": "e0e13b6102b7b17cdff008ba86675136d55fb0ddeee5cc12acce53151ce04770"
+    },
+    {
+      "path": "docs/coordination/QR_PROTOCOL_COMPOSITION_PLAN.md",
+      "sha256": "ae4558101ec1b1fa48c1f1eb259755a2af8c45a9f9887d59e9b0f3602615a696"
+    },
+    {
+      "path": "docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md",
+      "sha256": "f82f3ab5124e232f95ed6c41a40828a8ca0330df2df998c58267c1f8ddd991df"
+    },
+    {
+      "path": "docs/research/FINITE_RECORD_OBSERVABILITY.md",
+      "sha256": "55b6164f120f1b56bd75905be02a05d6a77a1ec0ab6aa08343746a96862c7966"
+    },
+    {
+      "path": "docs/research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md",
+      "sha256": "2d24326ca579c6b3d940d796c213a5f3577a0348e93ad47b9075d37e6b0ed82a"
+    },
+    {
+      "path": "docs/validation/t8-q-coherent-readout-2026-09-12/CANDIDATE.md",
+      "sha256": "3ab9f1d8c3685aa295364204859d4c0a0f8b0065905a4cc8c30bcddd2f71272c"
+    },
+    {
+      "path": "docs/validation/t8-q-coherent-readout-2026-09-12/algebra.py",
+      "sha256": "ad2486e0c5eba1ecb561c01fa345989dbeeb052b7e871a9ad13ac9763b19f180"
+    },
+    {
+      "path": "docs/validation/t8-q-coherent-readout-2026-09-12/check.py",
+      "sha256": "8dd0fde8bf136ef68bee00c9fcd8202dec61dbcb192f9322c01e750e0424163e"
+    },
+    {
+      "path": "docs/validation/t8-q-coherent-readout-2026-09-12/reference.py",
+      "sha256": "cc071a052bcf562cc7935a6084b7f24ad03fb32f03d604f7c786dfde0621e5eb"
+    },
+    {
+      "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/CONTROL_SELECTED_QUBIT.md",
+      "sha256": "b9ce11fc5c8e11a8aeefa57e7da76b528673a720c54e6e6858f02380742233a2"
+    },
+    {
+      "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/check.py",
+      "sha256": "8417baaa17d5ea6ab8a6ceef3492a63eccb413b02ff3fc3417ea81999425cbc5"
+    },
+    {
+      "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/model.py",
+      "sha256": "82a0e42a714cf744e9288618016f8cd12617eb0b92b1a1b59813e340db875cd4"
+    },
+    {
+      "path": "docs/validation/t8-q-controlled-context-2026-09-13/CONTROLLED_CONTEXT.md",
+      "sha256": "249f776aca8bbe1fa997c425561b23284ac0f538daeee112ae0988a06d2e372e"
+    },
+    {
+      "path": "docs/validation/t8-q-controlled-context-2026-09-13/check.py",
+      "sha256": "292e24df6a2983f7b9132a900728f56ac33888e2906eedffe03de30ea6ac3372"
+    },
+    {
+      "path": "docs/validation/t8-q-controlled-context-2026-09-13/model.py",
+      "sha256": "6219051591c5ba5eb6ee4be4febfcfff1d0593bf53cdd4200853adaceba75f6e"
+    },
+    {
+      "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md",
+      "sha256": "23392a688924b6518e8a823f062ba87b0089c85f711f0a468f7d582b4b2897f9"
+    },
+    {
+      "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/check.py",
+      "sha256": "1e37921c80dba78bd424e22519c929080173ef49f2687fdfcd5914c7fd77e483"
+    },
+    {
+      "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/model.py",
+      "sha256": "356212757e27cbde1f63f6047b3f4395011d5816ffaaefe14453b1be2c3710ba"
+    },
+    {
+      "path": "docs/validation/t8-q-finite-protocol-composition-2026-09-14/PROTOCOL_COMPOSITION.md",
+      "sha256": "323826e4a8e83d709f0047120056410fdc1b79d3a5198ffeed0a96e9a8477fe7"
+    },
+    {
+      "path": "docs/validation/t8-q-finite-protocol-composition-2026-09-14/adapter.py",
+      "sha256": "ac8672708681bf50cd7afa48b79f4379d1d629531abc6ab9b8bb5309543ffa59"
+    },
+    {
+      "path": "docs/validation/t8-q-finite-protocol-composition-2026-09-14/check.py",
+      "sha256": "22b7a079da945fc1800c00c7aec2e6afd799c129c2a54789df123b63ed154b5c"
+    },
+    {
+      "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/FIRST_COMMIT_QUOTIENT.md",
+      "sha256": "a702625b5e5af97881292e06750f94cef16319a0d0f3c065058207991818fe0c"
+    },
+    {
+      "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/check.py",
+      "sha256": "0ab1fdc92eb391e2a52462f5b1cc77ab68adf641a0010600c6563faf08385970"
+    },
+    {
+      "path": "docs/validation/t8-q-first-commit-quotient-2026-09-13/model.py",
+      "sha256": "42c67879fc4ccba35d7155ab517275f76fadce68371a30c36438c237b636c8d0"
+    },
+    {
+      "path": "docs/validation/t8-q-hypothesis-justification-2026-09-13/JUSTIFICATION.md",
+      "sha256": "0638c588e30f3d10684bb67c72237805dc82c7a5832ae7e33f215472aaf76e2b"
+    },
+    {
+      "path": "docs/validation/t8-q-hypothesis-justification-2026-09-13/check_witnesses.py",
+      "sha256": "136500400e32c676a10576f1bf92fec8696f16b3fa8d20ec54bfef7921f1b877"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-recordability-2026-09-13/JOINT_RECORDABILITY.md",
+      "sha256": "34d7fb69bc72764de2d0ee239ee5af3f132ec37247d67e6674a41f98e0beb444"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-recordability-2026-09-13/check.py",
+      "sha256": "f088d2e99379d4ad6e852d4157b78760a50351cd74e48f690cab364b5a7f92c9"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-recordability-2026-09-13/model.py",
+      "sha256": "666d3366e9b1be24d3b930973bb82b478a7af7901fe5b1321aecc06e47d26c30"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/JOINT_REPEATABILITY.md",
+      "sha256": "4dd17ccb2900a888f7e7f7362c1a9e84d168c9cb636d59fbb9290a4e0354cd2a"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/check.py",
+      "sha256": "23cf5654c05033b167075c237fa1fb7afdaaea3815cc5dd9e09da6e4d3abce40"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-repeatability-2026-09-13/model.py",
+      "sha256": "6c07d351a03159ca9963ec8d86eac1af0f7ed995c20aac18a9e347a8a3882386"
+    },
+    {
+      "path": "docs/validation/t8-q-local-joint-adapter-2026-09-13/ADAPTER.md",
+      "sha256": "5d03f62504ae1ddc3b0bc1d30b7ef83ab58b228ab49dd72211e94a50ea571947"
+    },
+    {
+      "path": "docs/validation/t8-q-local-joint-adapter-2026-09-13/adapter.py",
+      "sha256": "0d94c188cbff0ccfe92f7d3335c36bd5e638333b3d9b13c1d6f4ac00c9a0e8e6"
+    },
+    {
+      "path": "docs/validation/t8-q-local-joint-adapter-2026-09-13/check.py",
+      "sha256": "faab57484d8c8e05a924d37d8325c10ecbf4f325a1f91ee3af66163b5a2e9d94"
+    },
+    {
+      "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/MAXIMAL_DOMAIN_QUOTIENT.md",
+      "sha256": "57e509ffd245d24f244e052a0433bc7c1a46233387f2a54a9cfb618079780ad6"
+    },
+    {
+      "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/check.py",
+      "sha256": "1f4de15abcb2178666ab2a6b5c4af32ac3b140479679347c51e6c32ab68e9804"
+    },
+    {
+      "path": "docs/validation/t8-q-maximal-record-domain-2026-09-13/model.py",
+      "sha256": "c3d1d33f117e5d9b7ad3af1ec5efc420bd6d9a6b415ee885211bd7d94b6bc606"
+    },
+    {
+      "path": "docs/validation/t8-q-observation-stability-2026-09-13/OBSERVATION_STABILITY.md",
+      "sha256": "ca7e241399b1d4170b8181e42f510438c34951f2b601020e0146034b40bf2c88"
+    },
+    {
+      "path": "docs/validation/t8-q-observation-stability-2026-09-13/check.py",
+      "sha256": "2deb8a90236a51c367c9086d090c9416a49b20473c8b909f26bf816a5339c88d"
+    },
+    {
+      "path": "docs/validation/t8-q-observation-stability-2026-09-13/model.py",
+      "sha256": "6e761e6e107fba9d3415276a6e0b6170e7f3b34441de2133e8c3874cc2099bea"
+    },
+    {
+      "path": "docs/validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md",
+      "sha256": "dcd9f166118d744e38fc18adf77976f639555510dd067de8fbc43cfc70bb6959"
+    },
+    {
+      "path": "docs/validation/t8-q-operation-domain-2026-09-13/check.py",
+      "sha256": "96b7d74ad0be23103664f0beca90371452239ce298fdd96009d73d09a4c36de8"
+    },
+    {
+      "path": "docs/validation/t8-q-operational-completion-2026-09-12/RECONSTRUCTION.md",
+      "sha256": "60c1dac8486d2382f3eae180528bf7a5c868304f2d03980804e30b0819bd6c5b"
+    },
+    {
+      "path": "docs/validation/t8-q-operational-completion-2026-09-12/check_law.py",
+      "sha256": "7681bc3e36861a55176384704fb7e85a50652873aa026e8a3be115f7415a15e0"
+    },
+    {
+      "path": "docs/validation/t8-q-record-context-domain-2026-09-13/CONTEXT_DOMAIN.md",
+      "sha256": "5b519778ba04a34c974e078e3b6ac3018045c419123633bba801109b4f37b4aa"
+    },
+    {
+      "path": "docs/validation/t8-q-record-context-domain-2026-09-13/check.py",
+      "sha256": "0a273d2c16f9e9a69178c494170f7b15294c7e2faf0fa82f94e23c233131da86"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/ROBUSTNESS.md",
+      "sha256": "071187b895bc159dfdc2107dddbcd009364c0b2e3e21858fce7c441fece03d22"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/check.py",
+      "sha256": "fd0e6fce4cd1d093c7339587e723d3a1bacaf876ccd4d9c6ac5ad3a32037055e"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatability-robustness-2026-09-13/model.py",
+      "sha256": "61ca79626aeaa77a81638076ea28ae1eaef4ee929d809fe8376227d8ddef627d"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/REPEATABLE_INSTRUMENT.md",
+      "sha256": "7870bfa7549cb134a6dea54cd1b98ef3451736067ad6ebe6a86498576a40a62c"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/check.py",
+      "sha256": "302ee08be226fab9d89d0031277e2357d71cfb5f9d0c56d6a6662681759f5677"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/model.py",
+      "sha256": "173ad68ab8be40036a28e2806bfdb03dde8bd42030772a41084736d31e05fb86"
+    },
+    {
+      "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/RETAINED_WORD_FIRST_COMMIT.md",
+      "sha256": "5af27962b038b219bc852c9abd77d99e71f086f03cbf8a8e35fd3c447e4c0a2f"
+    },
+    {
+      "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/check.py",
+      "sha256": "995a01325ec7d4c4af6726c1a11d6ebe698e99b8e1749c7b40eaeb6dd356a1c2"
+    },
+    {
+      "path": "docs/validation/t8-q-retained-word-first-commit-2026-09-14/model.py",
+      "sha256": "7b14f8d99a1983d3b244c70fefb10262cf99d6d3eef522784bdce07d0c94fda6"
+    },
+    {
+      "path": "docs/validation/t8-q-reversible-generator-2026-09-13/REVERSIBLE_GENERATOR.md",
+      "sha256": "fae1ebf0ddf2ab6e74d45c542ec3d7023752b68cc59f4cee4724134673c90b11"
+    },
+    {
+      "path": "docs/validation/t8-q-reversible-generator-2026-09-13/check.py",
+      "sha256": "57289a41ec40e2a494c1c25426685ea1dda1aeb6f3ca1187c368a335974445fd"
+    },
+    {
+      "path": "docs/validation/t8-q-reversible-generator-2026-09-13/model.py",
+      "sha256": "071bb9ca1cdca4aca6d37132ad48c6f8dd1f519bad181fe52c8fa1530c23eb2f"
+    },
+    {
+      "path": "docs/validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md",
+      "sha256": "e9d238df4b61ce29984e13cce3699a70b29416bacb14278616442daf194a2ff0"
+    },
+    {
+      "path": "docs/validation/t8-q-strict-derivation-2026-09-12/check.py",
+      "sha256": "a506f424cebd9edb976bb2b001da833663098cc6264889cb8fc2343c3aac73ab"
+    },
+    {
+      "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/TERMINAL_READ_OBSERVABILITY.md",
+      "sha256": "ac00c0aa13b3b47c504b85ce9296d38ee16c5529a5c5932aca73c4e1f00ca1ad"
+    },
+    {
+      "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/check.py",
+      "sha256": "cf508d61ef6260926123185814edefdf4b5b8393880aab01ba0645cba0bd8f22"
+    },
+    {
+      "path": "docs/validation/t8-q-terminal-read-observability-2026-09-13/model.py",
+      "sha256": "0e60694bad07016886ec2451f4b17a5ac7dd24c089c8953dabb926620c8148d8"
+    },
+    {
+      "path": "scripts/run_qr_finite_protocol.py",
+      "sha256": "97bd8e39ce8cae0fcef28f296bff7ad5f6980086a4fd31800bf51b41ee361770"
+    },
+    {
+      "path": "scripts/run_qr_local_joint_adapter.py",
+      "sha256": "50c742867a13693a402650360ab848dd8d36c7d92f040d70b6f55f84aea4678c"
+    },
+    {
+      "path": "scripts/run_research_checks.py",
+      "sha256": "35b0793f87f175384a194f69ab18d3ed64c2e260528fc91849b139717d90cd2f"
+    }
+  ]
+}

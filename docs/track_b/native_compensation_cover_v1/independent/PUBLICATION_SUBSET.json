@@ -1,0 +1,44 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 445690,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/CHECK.json",
+      "sha256": "1cec7a78d09752207b5a552dd96f35ec29966fa9233ca0e487e69003ddd444e1"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 26053,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/GENUINE_AUTHOR_CHECKS.json",
+      "sha256": "35976b7aee2227ff03aa2c43dfdbbba6c632332eeda3d655f6ca653afba6ee7b"
+    },
+    {
+      "bytes": 17701,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/REVIEW.md",
+      "sha256": "e111f5148c0d264e9a790393f596490fe8fad30b60233fcf6fa8b40ad43fecd4"
+    },
+    {
+      "bytes": 987,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SEAL_DIAGNOSTIC.json",
+      "sha256": "266ca5ed8b58decdc9105f1e443a5bd82cc45061a6d32be30f92fd3ea880ad26"
+    },
+    {
+      "bytes": 2459,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/SUMMARY.json",
+      "sha256": "b0635acd3f52c3ebcbf53745831c939383cf4a7cea7a68560461ab7bac13c19f"
+    },
+    {
+      "bytes": 3638,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/TOOL_RECEIPTS.json",
+      "sha256": "ecafc1b803bab899e8422cbe21894d47c55fd1570d85c588184961751ab1af7f"
+    },
+    {
+      "bytes": 9856,
+      "path": "/private/tmp/ri254-independent-compensation-review-hctcpep8/check_metadata.py",
+      "sha256": "cbfda36d6efbed135465ae9fa1b1dad0f6469bf1362f99cb3cedd4c4bc091de4"
+    }
+  ],
+  "include_final_handoff_and_this_subset": true,
+  "omission_note": "Complete 445690-byte predicate/139-source-state report remains external with exact pin; SUMMARY, manual proof review, reproducible administrative checker, seal diagnostic and genuine compact author receipts are included. No omitted mathematical computation or substantive failed checker run.",
+  "schema": "ri254-independent-review-publication-subset-v1"
+}

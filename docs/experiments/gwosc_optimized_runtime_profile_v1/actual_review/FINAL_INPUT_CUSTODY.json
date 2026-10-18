@@ -1,0 +1,51 @@
+{
+  "additional_input_pins": [
+    {
+      "bytes": 542,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/ROOT_CHECK_TOOL.json",
+      "sha256": "864d0fcc676f28cfa9af216a7ef77c6653d0cda5c6a97d4f393eea8381608812"
+    },
+    {
+      "bytes": 2837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/setup_profile.py",
+      "sha256": "779287361dc194d77908888ab01d56590d509ef8b47f834c32c724472be8f069"
+    },
+    {
+      "bytes": 4022,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/admit_profile.py",
+      "sha256": "eae1d70f803a905cb80c1e1f1e36e63155e07130d6c147e1bf90caee3c8a7b7f"
+    },
+    {
+      "bytes": 4602,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/observe_bootstrap.py",
+      "sha256": "d3a7edd5a93a939ff8ff46c36329d96e752c771ee5d3ff13982d2c3a854d24b3"
+    },
+    {
+      "bytes": 491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_TOOL_CALL_DETAILS.json",
+      "sha256": "5a925fe5c942702a878c577161d699acdd519e0deea1e594ec4dac5f316cf3a7"
+    },
+    {
+      "bytes": 26464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/PROTOCOL.md",
+      "sha256": "ee99c90a46ffd1b1bc828e8da5fa8bcc6d18e47d4f0945d8ebc9d0e2cc65ec75"
+    },
+    {
+      "bytes": 32314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "sha256": "97c057cc0a47143647234b7ce99f00eb27eecbc68bdb30c87f4645c5405ace55"
+    }
+  ],
+  "collector_schema_only_correspondence_verified": true,
+  "complete_input_list_binding": {
+    "bytes": 10439610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+    "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+  },
+  "current_runtime_or_vendor_recapture": false,
+  "final_unique_read_inputs": 583,
+  "saved_check_read_inputs": 580,
+  "schema": "ri150-independent-final-input-custody-v1",
+  "source_or_profile_replay": false,
+  "status": "ALL_SAVED_INPUTS_UNCHANGED"
+}

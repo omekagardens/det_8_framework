@@ -1,0 +1,45 @@
+{
+  "display_limit": "Initial combined c651bf display clipped content; relevant complete finding paths and omitted review sections recovered in focused subsequent reads. No complete root eleven-module reading is claimed.",
+  "future_publication_not_claimed": true,
+  "initial_orientation": {
+    "chunk": "b19093",
+    "exit_code": 1,
+    "reason": "Final rg found no AGENTS.md; preceding requested source/status reads succeeded."
+  },
+  "native_review_assignment": {
+    "bytes": 1764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_REVIEW_ASSIGNMENT.json",
+    "sha256": "8a007487ce1abb1c57a41cdc222327a8bf2e31ce4107dad8e85c22a7d55d2269"
+  },
+  "native_review_dispatched_to_existing_reviewer": true,
+  "repair_assignment": {
+    "bytes": 2642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/MEASUREMENT_REPAIR_ASSIGNMENT.json",
+    "sha256": "902fed37de9e4a53059d937a84fc79930944bd8a03f29df152a9a75beee5f667"
+  },
+  "repair_dispatched_to_existing_author": true,
+  "review_and_actual_checks_reads": [
+    "c651bf",
+    "719917",
+    "931005",
+    "e5f229"
+  ],
+  "review_seal_authenticated": {
+    "chunk": "cb95e6",
+    "exit_code": 0
+  },
+  "root_adjudication": {
+    "chunk": "4f90f1",
+    "exit_code": 0
+  },
+  "root_metadata_replay": {
+    "chunk": "5ed3ee",
+    "exit_code": 0
+  },
+  "schema": "ri156-root-review-actual-tools-v1",
+  "source_control_execution": false,
+  "subject_source_reads": [
+    "c651bf",
+    "e5f229"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "admitted_scope": "One unchanged RI141 normal-bootstrap parent, PRE/POST metadata children and one isolated optimized installed-runtime profile under30seconds. No guard, scientific target or actual data.",
+  "baseline_acceptance": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "both_mode_relation": "Optimize flag differs0/1; expected runtime profiles agree after that adjustment, complete ordered dyld attempts and hash names agree. Each complete module/cache report retained independently; no forced byte equality of reports.",
+  "fresh_source_check": {
+    "bytes": 319410,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/SOURCE_PRE.json",
+    "sha256": "df2c12c985a651ed13b4297737bb3c92c9dcb65f81386d5796580c542d804058"
+  },
+  "fresh_vendor_pre": {
+    "bytes": 1690939,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/BOOTSTRAP_PRE.json",
+    "sha256": "9ead0aca0235fb64af3c6d315ee7f39a48827a7f2f9bbf4dd540230588839310"
+  },
+  "genuine_vendor_pre": {
+    "bytes": 1775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/BOOTSTRAP_PRE_TOOL.json",
+    "sha256": "c58d456556dc6f7333fdb2cfb5e91f8a4ac9dff3ad2ceab23d3d49ada334c40a"
+  },
+  "independent_source_review": {
+    "bytes": 5103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/HANDOFF.json",
+    "sha256": "fb2ccb6ea23abd009db852c56fa2ac6e33f1c0b54a5b1db9324722e05ca214fb"
+  },
+  "normal_acceptance": {
+    "bytes": 1662,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/NORMAL_ACCEPTANCE.json",
+    "sha256": "516e64fbf2f432d3f65872dc2ceb7ebd3a21f88303139f5598946494d9ec68af"
+  },
+  "normal_root_adjudication": {
+    "bytes": 4967,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/RI148_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "8f76c91ef005b305f796dcfd42dd491d3147a903d087f6914eb9fc8367e96074"
+  },
+  "prior_root_source_decision": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "residual_premises": [
+    "Trusted stable supplier, source/cache selection and host; no full import trace or code equivalence",
+    "Sampled child RSS/output/gap limits; genuine outer alarm not a process-tree quota",
+    "Independent full optimized and both-mode review before profiles acceptance; failed admissions and partial outputs retained"
+  ],
+  "ret_paused": true,
+  "schema": "ri150-root-optimized-profile-source-adjudication-v1",
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "source_review_scope": "Previously accepted unchanged complete source. Root reread exact authentication, closed baseline/normal acceptance, full saved namespaces, complete profile field checks and optimized production ordering at prepare.py140-295,425-512,562-621. Same accepted environment and baseline. Complete new PRE must equal accepted baseline before observer.",
+  "status": "ACCEPT_UNCHANGED_SOURCE_FOR_ONE_OPTIMIZED_PROFILE"
+}

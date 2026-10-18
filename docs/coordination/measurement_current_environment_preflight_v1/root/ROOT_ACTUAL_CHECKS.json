@@ -1,0 +1,78 @@
+{
+  "current_E_admission": false,
+  "diagnostics": [
+    {
+      "chunk": "6c7416",
+      "exit_code": 1,
+      "issue": "Root independent checker incorrectly iterated handoff files map as list of rows; TypeError before output.",
+      "narrow_repair": "V2 changes only namespace expression to list(h[files]); whole pinned file verification unchanged.",
+      "retained_source": {
+        "bytes": 4783,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/check_ri170.py",
+        "sha256": "a00aae9855257894dd4aae96ad17452f81413436a5640497c77920bfd78fd5e5"
+      }
+    },
+    {
+      "chunk": "951787",
+      "issue": "Read of guessed check_native.py failed; actual check_ri168.py fully read in49b073."
+    },
+    {
+      "chunk": "0ab064",
+      "exit_code": 1,
+      "issue": "Guessed RI145 glob had no match; explicit discovered file read completely in2a0ec0."
+    },
+    {
+      "issue": "Combined large outputs clipped; bounded rereads and retained prior context cover credited complete sources. No clipped output credited as full."
+    }
+  ],
+  "measurement_author_metadata_replay": {
+    "chunk": "1a341a",
+    "exit_code": 0,
+    "output": {
+      "bytes": 3506,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/ri170-metadata-replay/METADATA_CHECK.json",
+      "sha256": "a58f3d124799e325284a93a01e896c2fb4bbd67773ff75ba05f86164ee845879"
+    }
+  },
+  "measurement_independent_check": {
+    "chunk": "31eef8",
+    "exit_code": 0,
+    "output": {
+      "bytes": 357841,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_ROOT_METADATA_CHECK.json",
+      "sha256": "2030370004029b8a4e314593d2540ae90b3a435633d6fa05f87098ea5b36123d"
+    }
+  },
+  "measurement_interface_issuance": {
+    "chunk": "48683a",
+    "exit_code": 0,
+    "output": {
+      "bytes": 1011,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI170_CONSUMER_INTERFACE_CHECK.json",
+      "sha256": "8d048bc7e3bef788d72487efd2356e242a72c7202fc033af1a8323c812f97bba"
+    }
+  },
+  "native_opaque_check": {
+    "chunk": "9c661d",
+    "exit_code": 0,
+    "output": {
+      "bytes": 161256,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-root-review-fkjv3v0z/RI172_ROOT_METADATA_CHECK.json",
+      "sha256": "29cf18c070d9fc0aaad364c34b3946c1b85f8971b94633cb48aea20992fb9afa"
+    }
+  },
+  "new_runtime_observation": false,
+  "schema": "ri172-ri170-root-review-tool-evidence-v1",
+  "scientific_vector_decode": false,
+  "source_reading": [
+    "d2fdef",
+    "3a458a",
+    "a93943",
+    "55543e",
+    "41e8cd",
+    "2a0ec0",
+    "dcd908",
+    "95224a"
+  ],
+  "subject_execution": false
+}

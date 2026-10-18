@@ -1,0 +1,111 @@
+{
+  "schema": "ri163-one-shot-request-proposal-v1",
+  "status": "NOT_AN_ACTUAL_REQUEST_NOT_ADMITTED_DO_NOT_DISPATCH",
+  "unresolved_prerequisites": [
+    "RT01 external supervisor missing",
+    "RT02 non-system native supplier closure unestablished",
+    "RT03 fresh root bootstrap/host/runtime/request admission required"
+  ],
+  "prospective_request_identity": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+    "bytes": 2304,
+    "sha256": "bfb5cf54ff83af72cb20fbb82e855ba98d4fd458738cef4c3fcd71de80de7749"
+  },
+  "proposed_request": {
+    "schema": "ri161-qualification-request-v1",
+    "nonce": "0f632c815ef94824b7a160deb809c4ae",
+    "interpreter": {
+      "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+      "bytes": 102352,
+      "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+    },
+    "sources": {
+      "caller": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+        "bytes": 41969,
+        "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+      },
+      "qualify": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py",
+        "bytes": 37082,
+        "sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653"
+      },
+      "fault": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py",
+        "bytes": 30012,
+        "sha256": "70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8"
+      },
+      "checker": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+        "bytes": 16091,
+        "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+      },
+      "auditor": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+        "bytes": 22760,
+        "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+      }
+    },
+    "output_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae",
+    "trust_basis": {
+      "admission_reference": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json",
+      "stdlib_basis": "RI163 HOST_RUNTIME_FACTS.json and OBSERVATION_POLICY.json in /Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v; ROOT MUST SEPARATELY ACCEPT TRANSITIVE RUNTIME/APPLE SYSTEM TRUST AND EXTERNAL SUPERVISION BEFORE MATERIALIZING THIS PROPOSAL.",
+      "external_bootstrap_required": true,
+      "qualification_only": true
+    }
+  },
+  "exact_proposed_request_utf8": "{\n  \"schema\": \"ri161-qualification-request-v1\",\n  \"nonce\": \"0f632c815ef94824b7a160deb809c4ae\",\n  \"interpreter\": {\n    \"path\": \"/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9\",\n    \"bytes\": 102352,\n    \"sha256\": \"1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524\"\n  },\n  \"sources\": {\n    \"caller\": {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py\",\n      \"bytes\": 41969,\n      \"sha256\": \"9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721\"\n    },\n    \"qualify\": {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py\",\n      \"bytes\": 37082,\n      \"sha256\": \"95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653\"\n    },\n    \"fault\": {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py\",\n      \"bytes\": 30012,\n      \"sha256\": \"70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8\"\n    },\n    \"checker\": {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py\",\n      \"bytes\": 16091,\n      \"sha256\": \"cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982\"\n    },\n    \"auditor\": {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py\",\n      \"bytes\": 22760,\n      \"sha256\": \"aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277\"\n    }\n  },\n  \"output_directory\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae\",\n  \"trust_basis\": {\n    \"admission_reference\": \"/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json\",\n    \"stdlib_basis\": \"RI163 HOST_RUNTIME_FACTS.json and OBSERVATION_POLICY.json in /Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-preflight-fqexul5v; ROOT MUST SEPARATELY ACCEPT TRANSITIVE RUNTIME/APPLE SYSTEM TRUST AND EXTERNAL SUPERVISION BEFORE MATERIALIZING THIS PROPOSAL.\",\n    \"external_bootstrap_required\": true,\n    \"qualification_only\": true\n  }\n}\n",
+  "serialization": "UTF-8 of exact_proposed_request_utf8, including its final LF; hash covers those bytes only, not this wrapper.",
+  "parent_requirement": "The unchanged RI161 caller cannot consume this wrapper; root must separately accept and materialize the exact nested request bytes with an exclusive create. No file exists at the proposed request path in this preparation.",
+  "source_acceptance": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/RI161_ROOT_ADJUDICATION.json",
+    "bytes": 2883,
+    "sha256": "a6fad90e2b969eee48ce6de4ae005741a2f63529c6d504b82f79c0e38e8e9678"
+  },
+  "fresh_absence_observation": {
+    "tool_receipt": "e3a924",
+    "exit_code": 0,
+    "outcome": {
+      "schema": "ri163-proposed-path-observations-v1",
+      "observations": [
+        {
+          "role": "admission",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-admission-0f632c815ef94824b7a160deb809c4ae.json",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        },
+        {
+          "role": "request",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-request-0f632c815ef94824b7a160deb809c4ae.json",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        },
+        {
+          "role": "output_directory",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-run-0f632c815ef94824b7a160deb809c4ae",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        },
+        {
+          "role": "outer_stdout",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stdout",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        },
+        {
+          "role": "outer_stderr",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.stderr",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        },
+        {
+          "role": "outer_completion",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-native-qualification-outer-0f632c815ef94824b7a160deb809c4ae.completion.json",
+          "status": "OBSERVED_ABSENT_NOT_RESERVED"
+        }
+      ],
+      "no_paths_created": true
+    }
+  },
+  "byte_pin_tool": {
+    "chunk_id": "ed2eaa",
+    "exit_code": 0
+  },
+  "authority_boundary": "All six values are proposed, not an authorization. Documentary trust strings are insufficient. Root must bind the accepted sources, this request identity, current interpreter/suppliers, explicit system premises, outer supervision and genuine completion.",
+  "retry_authorized": false
+}

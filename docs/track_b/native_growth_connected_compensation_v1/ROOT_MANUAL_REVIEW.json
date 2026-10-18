@@ -1,0 +1,30 @@
+{
+  "actual_C_signs_decided": false,
+  "final_adjudication": false,
+  "manual_checks": [
+    "Coefficientwise RI115 identities propagate to V since theta is record-blind and m=nu/theta. Specific complete accepted V pattern and nonzero pivot force all lambda values, then positive fourth-power injectivity forces full b and r2/r3 patterns.",
+    "Proper-precursor locality and separate inherited full-profile transport are kept distinct; sigma, maximal bits, intrinsic stem labels and fair newborn maps are all accounted for.",
+    "Every even and odd member of both full reference families cancels; no division by unknown/zero proper contrasts or t. Accepted negative Q2_1 and positive V pivot give both deltaF positive and derived deltaK positive.",
+    "Open t and reversed w intervals agree. For beta<=1, C>0 is exact; for beta>1, 4Gamma/beta>2 while -z-4e<1, so local feasibility and C>0 both hold. Strict equality remains failure.",
+    "Cleared P2/P3 are exactly q*C2 and (1-x)v*C3, with positive denominators on the accepted actual interval. Degrees at most5/3 and affine y follow without coefficient evaluation.",
+    "Eight complete rows have8+10+12+14=44 slots; they express reference/pivot quantities only after the complete inherited record theorem. Seed/scales stay separate.",
+    "Formal small-rho margins converge to partly negative seed uniformly in bounded s; no actual-scale location or trial-pair admissibility follows.",
+    "All one-shared T1 recovery, other eight connected parents and five Di residuals/strictbounds remain; no positive H30 or new obstruction."
+  ],
+  "positive_H30_accepted": false,
+  "read_scope": [
+    "All four complete RI127 mathematical/contract manuscripts and both source metadata inventories and prose/JSON handoffs.",
+    "Complete RI120 analytic prefix and F3 notes and RI115 result review.",
+    "RI41 normalization through line150 (fixed three-chain law); RI63 completion through line205 (everywhere-neutral components and actual mixture).",
+    "Complete accepted RI122 quadratic mathematical review as source text; final acceptance used as previously reviewed premise."
+  ],
+  "ret_paused": true,
+  "schema": "ri127-root-manual-review-v1",
+  "scientific_execution": false,
+  "source": {
+    "bytes": 7625,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+    "sha256": "af806b93b3306c7e68fe8584250b709faaea4012f9bd28a2ac8f1fd05446bc80"
+  },
+  "status": "MANUAL_PROOF_REVIEW_COMPLETE_PENDING_FRESH_NONAUTHOR_REVIEW"
+}

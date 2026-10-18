@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py", line 139, in <module>
+    print(json.dumps({'success':REPORT['success'],'error_count':len(REPORT['errors']),'report':ordinary(opaque(p)),
+                                                                                                        ~~~~~~^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py", line 28, in opaque
+    s=p.lstat();need(stat.S_ISREG(s.st_mode) and s.st_size<=CAP,'file type/cap')
+                ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py", line 21, in need
+    if not ok: raise ValueError(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: file type/cap

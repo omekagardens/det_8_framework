@@ -1,0 +1,40 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "All five complete disconnected-parent profiles: 81 proper and 5 full ideal occurrences.",
+    "Six fixed strict-prefix empty ratios and two root-record functions gamma/zeta retain remaining lower-law dependence.",
+    "D1/D3 root-sector reduction under inherited actual C4/H5 patterns; no blanket D2/D4/D5 reduction.",
+    "Exact normalized ten-variable N16-N17 with every connected contrast and disconnected record."
+  ],
+  "independent_actual_check": "7bc1cd exit0",
+  "independent_review": {
+    "bytes": 3752,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-independent-native-review-BqGvKj/HANDOFF.json",
+    "sha256": "d49f957da598ae50de1f04f8eaeca3d8634fdf363ba4e67c1e2302c62acf5a8a"
+  },
+  "not_proved": [
+    "Actual improvement witness",
+    "Finite signed inconsistency identity",
+    "Optimality or maximal amplitude",
+    "All-size or physical validity"
+  ],
+  "packet": {
+    "bytes": 19078,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-native-shared-mobility-yftvo6zl/HANDOFF.json",
+    "sha256": "1dfd6442280f3e5ed92c49db204784bf7aabc488b3461c69a1e8aed313c58ff5"
+  },
+  "qualification_credit": 0,
+  "root_actual_metadata_replay": {
+    "bytes": 790,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_ACTUAL_REPLAY.json",
+    "sha256": "4838c10d39ac47325f3c80e6d7390fb3a56c80bc9f366df6adf6162238959baa"
+  },
+  "root_manual_review": {
+    "bytes": 4679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI225_ROOT_REVIEW.md",
+    "sha256": "05a8989d1928f42858b122f57cb707f4e4b76589d9bf23648b8474df83777ff7"
+  },
+  "schema": "ri225-root-mathematical-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_COMPLETE_DISCONNECTED_PROFILES_AND_LOWER_LAW_REDUCTION"
+}

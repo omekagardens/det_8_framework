@@ -1,0 +1,102 @@
+{
+  "schema": "ri138-native-external-launch-source-handoff-v1",
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_REVIEW",
+  "source_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w",
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/AUTHOR_STATIC_CHECKS.json",
+      "bytes": 20632,
+      "sha256": "cab9596fa703f97a9b4e53512d35bc18530a5531d275e8c76ec5d39ed2383060"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/CUSTODY_SOURCE_NOTES.md",
+      "bytes": 15127,
+      "sha256": "26d783bf5a222f3ac93a8c5b86fccdc6a574279e7e30c2872932d4aab2b0e376"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/DEPENDENCY_NOTES.md",
+      "bytes": 9639,
+      "sha256": "dacd4443ade07837d52ea407c33d86d705094b7356ed1f80757a2804774d58c3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.md",
+      "bytes": 3702,
+      "sha256": "0145c4f2d5a682ae8f51b04509999aabeb0661d8acc233227adede86b488d6b4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/LAUNCHER_SOURCE_NOTES.md",
+      "bytes": 14420,
+      "sha256": "b6ead5e9c0c54ea97cd7b40941fcf327c030f8ac2ecb2a4a7acab7b1bd2cc512"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/PROCESS_SOURCE_NOTES.md",
+      "bytes": 14602,
+      "sha256": "179138fc5fdd7e9ee2ec4370c702405b0db43cad340fef564468dd54a792c60b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/REVIEW_OBLIGATIONS.md",
+      "bytes": 2658,
+      "sha256": "43b67b0134ca393e9fe8ab31a2f721bc232e74df08833c95391296d0b5fb6f9d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/ROOT_INTERFACE_CONTRACT.md",
+      "bytes": 11369,
+      "sha256": "52b1888a51f68f1e80b3d31d147d8f0032d115e497dd5521655cc45c2f8ccbf9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_CORRESPONDENCE.json",
+      "bytes": 15330,
+      "sha256": "5d33f8b40fd7cb2d55f3080082373b6d30ad737eacfbd459dc941a4c20d468eb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_DEPENDENCIES.json",
+      "bytes": 673928,
+      "sha256": "48feb69eb10637ffa1f9f57522c09661e21b4eb9283737b6499497be7e8f22f2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/SOURCE_IDENTITIES.json",
+      "bytes": 23755,
+      "sha256": "ea8dec463c6827bd10ebb15df1bb52932cd03552baee869c933acae4f74c5465"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/custody.py",
+      "bytes": 33143,
+      "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/launch_policy_case.py",
+      "bytes": 57622,
+      "sha256": "670232ab5da7b2efa63d703c6fbd38fa088ff758d9d4dea129ac62845aab6ab9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/owned_process.py",
+      "bytes": 38953,
+      "sha256": "8e749ead931f4a47f83853b1e4bb24c4c752aef79aac7349f0fd5cb7f8de5b62"
+    }
+  ],
+  "predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+    "bytes": 11534,
+    "sha256": "748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18"
+  },
+  "author_checks": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/AUTHOR_STATIC_CHECKS.json",
+    "bytes": 20632,
+    "sha256": "cab9596fa703f97a9b4e53512d35bc18530a5531d275e8c76ec5d39ed2383060"
+  },
+  "scope": {
+    "execution_authorized": false,
+    "current_runtime_observed": false,
+    "controls_executed": 0,
+    "scientific_execution": false,
+    "complete_caller_qualification": false,
+    "repository_modified": false
+  },
+  "remaining_obligations": [
+    "Fresh full nonauthor source review and root adjudication of this exact sealed packet.",
+    "Genuine root/tool bootstrap authentication before either launcher process; preserve separate complete dispatch pins and actual tool history.",
+    "Only separately admitted exact prepare/run phases may execute; source and author checks confer no runtime or case credit.",
+    "All 139 direct policy outcomes and the deeper 20 native / 42 audit obligations remain unexecuted or unresolved here; full caller/scientific qualification is separate.",
+    "RET remains paused; measurement remains independent; root owns publication and Git."
+  ]
+}

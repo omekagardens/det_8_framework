@@ -1,0 +1,181 @@
+{
+  "actual_review_tool": {
+    "chunk_id": "5d796f",
+    "exit_code": 0,
+    "wall_time_seconds": 0.869914625
+  },
+  "full_both_mode_relation": {
+    "bytes": 85969,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/BOTH_MODE_RELATION.json",
+    "sha256": "0f7fc92fbf883a3820f4456102db86b9bfb46e6cad0419a3969b05c1fc838b4b"
+  },
+  "full_optimized_reconstruction": {
+    "bytes": 77699,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/RECONSTRUCTED_PROFILE_CHECK.json",
+    "sha256": "4752c15d10fbe2967e3042f63765db47ac138331cc578935b3616bebca9f1625"
+  },
+  "full_result": {
+    "bytes": 10439610,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+    "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+  },
+  "runtime_recapture": false,
+  "schema": "ri150-independent-optimized-review-summary-v1",
+  "scientific_or_guard_credit": false,
+  "status": "PASS",
+  "successful_administrative_predicates": 48024,
+  "summary": {
+    "genuine_outer": {
+      "bytes": 1456,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/GENUINE_OUTER.json",
+      "sha256": "37ab3cd6162ecd5583da2faa93ca332f8bbab197ac0d37839bf8b87e83cebc28"
+    },
+    "inherited_dependencies": 442,
+    "mode_relation": {
+      "cache_descriptor_changes": 30,
+      "normal_acceptance": {
+        "bytes": 1662,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-root-normal-profile-qfvdi_75/NORMAL_ACCEPTANCE.json",
+        "sha256": "516e64fbf2f432d3f65872dc2ceb7ebd3a21f88303139f5598946494d9ec68af"
+      },
+      "normal_report": {
+        "bytes": 28252,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-genuine-normal-profile-yfilag7e/output/PROFILE.stdout",
+        "sha256": "bf8e39f5a6fb27bc4224280a78036d6d1bf6970e7ad564f3a272e4986cfae241"
+      },
+      "report_difference_count": 32
+    },
+    "monitors": [
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.9771733749999998,
+        "final_sample_to_reap_gap_seconds": 0.05017125,
+        "label": "PRE",
+        "maximum_sample_gap_seconds": 0.03866650000000016,
+        "peak_sampled_rss_kib": 89712,
+        "raw_attempt_count": 52,
+        "sample_count": 52,
+        "wall_seconds": 180
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 0.041350083000000204,
+        "final_sample_to_reap_gap_seconds": 0.0352078330000003,
+        "label": "PROFILE",
+        "maximum_sample_gap_seconds": 0.006142249999999905,
+        "peak_sampled_rss_kib": 3216,
+        "raw_attempt_count": 1,
+        "sample_count": 1,
+        "wall_seconds": 30
+      },
+      {
+        "arithmetic_max_residual": 0.0,
+        "elapsed_seconds": 1.9002295830000002,
+        "final_sample_to_reap_gap_seconds": 0.050169165999999876,
+        "label": "POST",
+        "maximum_sample_gap_seconds": 0.03881408300000011,
+        "peak_sampled_rss_kib": 88608,
+        "raw_attempt_count": 51,
+        "sample_count": 51,
+        "wall_seconds": 180
+      }
+    ],
+    "operation_entries": 18,
+    "operation_files": 17,
+    "optimized_report": {
+      "bytes": 28432,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PROFILE.stdout",
+      "sha256": "bf42ade4ad64ae3d752220340a636f3dcf43eb29516308955d8ef2243026b326"
+    },
+    "output_files": 16,
+    "parent_elapsed_seconds": 5.995889042,
+    "profile": {
+      "absent_cache_records": [
+        {
+          "module": "_distutils_hack",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc"
+        },
+        {
+          "module": "encodings.ascii",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.opt-1.pyc"
+        }
+      ],
+      "descriptor_counts": {
+        "absent_cache": 2,
+        "binding": 111,
+        "main": 1,
+        "sentinel": 99
+      },
+      "descriptor_fields": 213,
+      "frozen_names": [
+        "_collections_abc",
+        "_frozen_importlib",
+        "_frozen_importlib_external",
+        "_sitebuiltins",
+        "abc",
+        "codecs",
+        "genericpath",
+        "io",
+        "os",
+        "os.path",
+        "posixpath",
+        "site",
+        "stat",
+        "zipimport"
+      ],
+      "hash_algorithm_names": 19,
+      "loader_counts": {
+        "ExtensionFileLoader": 5,
+        "NoneType": 1,
+        "SourceFileLoader": 30,
+        "type": 35
+      },
+      "modules": 71,
+      "observer_pin": {
+        "bytes": 2696,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/profile_observe.source-only.py",
+        "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+      },
+      "ordered_dyld_attempts": 10,
+      "predeclared_absences": 7,
+      "unique_attempted_paths": 6
+    },
+    "retained_normal_monitors": [
+      {
+        "elapsed_seconds": 1.9935764589999998,
+        "final_sample_to_reap_gap_seconds": 0.05031454199999974,
+        "label": "PRE",
+        "peak_sampled_rss_kib": 91552,
+        "sample_count": 53
+      },
+      {
+        "elapsed_seconds": 0.6655170830000001,
+        "final_sample_to_reap_gap_seconds": 0.035257915999999945,
+        "label": "PROFILE",
+        "peak_sampled_rss_kib": 17104,
+        "sample_count": 17
+      },
+      {
+        "elapsed_seconds": 1.9193072079999998,
+        "final_sample_to_reap_gap_seconds": 0.04354054199999968,
+        "label": "POST",
+        "peak_sampled_rss_kib": 87664,
+        "sample_count": 51
+      }
+    ],
+    "root_vendor_modules": 92,
+    "runtime_bytes": 258862951,
+    "runtime_files": 9923,
+    "saved_parent_pid": 57614,
+    "snapshot_bootstrap_modules": 103,
+    "source_files": 547,
+    "vendor_entries": 2004,
+    "vendor_file_bytes": 48024515,
+    "vendor_files": 1810,
+    "whole_snapshot": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-genuine-optimized-profile-eb4vq_ba/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    }
+  }
+}

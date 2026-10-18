@@ -1,0 +1,268 @@
+{
+  "actual_runtime_record": {
+    "baseline": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "copy_observation": "complete current pre-card frozen observation FilePin; exact accepted RI234 FROZEN may be reused only after complete equality with a fresh E observation",
+    "environment": {
+      "LC_ALL": "C",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PATH": "/usr/bin:/bin",
+      "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/tmp",
+      "TZ": "UTC",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+    },
+    "fields": [
+      "schema",
+      "phase",
+      "mode",
+      "freeze",
+      "runtime_acceptance",
+      "environment",
+      "snapshot",
+      "baseline",
+      "copy_observation",
+      "vendor_before",
+      "vendor_after",
+      "genuine_collection_tools",
+      "observed_dyld_routes"
+    ],
+    "freeze_value": "opaque installed FilePin only, derived from exact retained candidate",
+    "genuine_collection_tools": "whole actual capture and supplier tool transcript FilePin, with root-attested genuine origin",
+    "mode": "normal",
+    "observed_dyld_routes": "nonnull FilePin whose complete body equals current snapshot.preobserved_dyld_routes",
+    "phase": "pre",
+    "runtime_acceptance": "exact freeze.evidence.runtime already accepted; reconstruct from root-issued RI204 card, do not invent a replacement",
+    "schema_value": "ri156-root-actual-mode-runtime-v1",
+    "snapshot": "exact actual PRE stdout FilePin; actual POST also independently accepted as equal",
+    "vendor_before_after": "two actual canonical normalized supplier bodies must be entirely equal; metadata timestamps and genuine call provenance remain separate"
+  },
+  "adapter_prerequisites": {
+    "actual_inert_controls": 106,
+    "actual_run_authorized_now": false,
+    "all_dependencies": 567,
+    "allowed_actions_in_order": [
+      "pre_mode",
+      "mode_card"
+    ],
+    "requires_separate_fresh_root12field_admission_per_action": true,
+    "source_manifest": {
+      "bytes": 147447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+      "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+    }
+  },
+  "baseline": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "capture_artifact_roles": {
+    "POST": "POST.stdout",
+    "POST_completion": "POST.COMPLETION.json",
+    "PRE": "PRE.stdout",
+    "PRE_completion": "PRE.COMPLETION.json",
+    "checks": "CHECKS.json",
+    "namespace": "NAMESPACE.json"
+  },
+  "capture_completion_fields": [
+    "schema",
+    "phase",
+    "status",
+    "command",
+    "environment",
+    "admission",
+    "sources",
+    "artifacts",
+    "first_error",
+    "independent_tail_errors",
+    "elapsed_seconds",
+    "scientific_targets_executed",
+    "actual_data_admitted",
+    "full32_qualified",
+    "ret_paused",
+    "runtime_acceptance_created",
+    "genuine_outer_created"
+  ],
+  "capture_outputs": [
+    "ATTEMPT.json",
+    "CHECKS.json",
+    "COMPLETE.json",
+    "NAMESPACE.json",
+    "POST.ATTEMPT.json",
+    "POST.COMPLETION.json",
+    "POST.stderr",
+    "POST.stdout",
+    "PRE.ATTEMPT.json",
+    "PRE.COMPLETION.json",
+    "PRE.stderr",
+    "PRE.stdout"
+  ],
+  "card_insertion_is_later": {
+    "after_files": 50,
+    "all_prior_files_and_nonroot_directories_unchanged": true,
+    "before_files": 49,
+    "directories": 9,
+    "full_root_before_after_state_retained": true,
+    "no_cross_write_directory_nlink_equality": true,
+    "no_predicted_nlink_increment": true,
+    "root_device_inode_mode_unchanged": true,
+    "sole_added_member": "ADMIT_NORMAL.json"
+  },
+  "current_E": {
+    "accepted_frozen_observation": {
+      "bytes": 127298,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-freeze-reconciliation-operation-yvfg_p1b/FROZEN.json",
+      "sha256": "a58eeff7d3652417cc2cb8a80f5a83c21be9779c0c92f412e5a136cfa937426c"
+    },
+    "cards": [
+      "AUTHORIZED_FREEZE.json"
+    ],
+    "directories_including_root": 9,
+    "empty_directories": [
+      "tmp",
+      "runs/normal",
+      "runs/optimized"
+    ],
+    "files": 49,
+    "forbidden_mode_cards": [
+      "ADMIT_NORMAL.json",
+      "ADMIT_OPTIMIZED.json"
+    ],
+    "full_directory_state_policy": "During capture/read-only phases require exact retained complete seven-field states for all directories including root; simple nine-field observation carries content/membership, so retain full state tree separately.",
+    "history_roles": 124,
+    "installed_freeze_record": {
+      "bytes": 26214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+      "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14",
+      "state": [
+        16777244,
+        425604,
+        33152,
+        1,
+        26214,
+        1790835730011000773,
+        1790835730011000773
+      ]
+    },
+    "observation_fields": [
+      "schema",
+      "root",
+      "stage",
+      "source_states",
+      "cards",
+      "tree",
+      "tmp_empty",
+      "scientific_body_decoded",
+      "source_acceptance_created"
+    ],
+    "observation_stage": "frozen",
+    "root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+    "source_pairs": 48,
+    "target_originals": 30
+  },
+  "existing_profiles_acceptance": {
+    "bytes": 2208,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+    "sha256": "d498ccd200b054e8759a37c1cdf0d6014c3e49982e3e944697682266ecf30798"
+  },
+  "mode_card_candidate": {
+    "all_other_values": "complete exact fixed fields from existing freeze and accepted pre record",
+    "does_not_install_itself": true,
+    "fields": [
+      "schema",
+      "status",
+      "mode",
+      "phase",
+      "freeze",
+      "caller_source_acceptance",
+      "command",
+      "launcher_command",
+      "pre_runtime_metadata",
+      "normal_acceptance"
+    ],
+    "normal_acceptance": null,
+    "schema_value": "ri130-root-white-mode-admission-v1",
+    "status_value": "AUTHORIZE_ONE_WHITE_FABRICATED_MODE"
+  },
+  "mode_card_request": {
+    "fields": [
+      "freeze",
+      "mode",
+      "pre",
+      "normal_acceptance"
+    ],
+    "freeze": "installed freeze FilePin",
+    "mode": "normal",
+    "normal_acceptance": null,
+    "pre": "accepted actual pre_mode RESULT FilePin"
+  },
+  "namespace_exclusions": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "no_RI131_full32_or_public_data_credit": true,
+  "post_science_obligations_only": [
+    "Complete27/13/30 records,57 artifacts,74 postchecks,three trees",
+    "Fresh post runtime13-field record phase=post and exact post-copy observation",
+    "Genuine mode dispatch copy observation at normal_admitted binds actual mode card before run",
+    "Independent saved arithmetic separately accepted; metadata labels never substitute",
+    "Complete actual normal acceptance before any optimized card or invocation"
+  ],
+  "pre_mode_request": {
+    "actual_runtime": "actual13-field record FilePin",
+    "baseline": {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-normal-proposed-gikj2giy/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    "copies": "same pre-card frozen observation FilePin as actual_runtime.copy_observation",
+    "fields": [
+      "freeze",
+      "mode",
+      "actual_runtime",
+      "baseline",
+      "copies"
+    ],
+    "freeze": "installed literal E/AUTHORIZED_FREEZE.json FilePin",
+    "mode": "normal"
+  },
+  "pre_mode_result": {
+    "fields": [
+      "schema",
+      "mode",
+      "freeze",
+      "runtime_acceptance",
+      "selection_unchanged",
+      "optional_namespaces_unchanged",
+      "host_identity_unchanged",
+      "observed_dyld_routes",
+      "metadata_record"
+    ],
+    "flags": {
+      "host_identity_unchanged": true,
+      "optional_namespaces_unchanged": true,
+      "selection_unchanged": true
+    },
+    "metadata_record": "exact13-field record reference",
+    "mode": "normal",
+    "observed_dyld_routes": "same nonnull reference",
+    "schema_value": "ri130-root-pre-mode-runtime-custody-v1"
+  },
+  "required_full_equality": [
+    "PRE snapshot equals POST snapshot equals exact accepted normal_PRE",
+    "Current runtime_inventory equals unchanged frozen inventory metadata",
+    "Current interpreter equals authentic accepted binding",
+    "Whole selection/optional native/dyld/host/source metadata fields preserved; no selected subset acceptance",
+    "Complete vendor_before equals vendor_after for mode-record consumption; observation timestamps/receipts kept in separate enclosing records",
+    "Current copy observation equals entire accepted frozen domain before card insertion; whole original/copy/history states stable"
+  ],
+  "schema": "ri236-capture-and-mode-contract-v1",
+  "status": "PROSPECTIVE_COMPLETE_CONTRACT_NOT_ACCEPTANCE"
+}

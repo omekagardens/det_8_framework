@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Step 3: κ-Field Convergence
+RETIRED / QUARANTINED — superseded κ-field interpolation experiment.
+
+A smooth continuum field and embedding are supplied to this calculation. It
+is not evidence that a native DET field or continuum limit exists.
 
 Proves (numerically) that the discrete κ field, when coarse-grained,
 converges to a smooth continuum function κ(x).
@@ -19,6 +22,10 @@ Expected scaling: L² error ~ O(N^{-α}) with α ≈ 0.5 (CLT).
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

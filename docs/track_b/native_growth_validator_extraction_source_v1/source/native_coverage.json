@@ -1,0 +1,1378 @@
+{
+  "schema": "ri134-native-policy-source-coverage-v1",
+  "status": "UNEXECUTED_SOURCE_INVENTORY_NOT_QUALIFICATION",
+  "source_correspondence": {
+    "method": "Literal string spans and whole-source reconstruction; no subject parse, import or evaluation.",
+    "old": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "bytes": 88890,
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "lines": 1452
+    },
+    "current": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/supervise.py",
+      "bytes": 89283,
+      "sha256": "e3e4b438dd169aa9f2ef815faec5d6f86766eb68da8a3da20412c90206e9f41d",
+      "lines": 1469
+    },
+    "whole_source_equals_exact_four_extractions_plus_docstring_E_and_dependency_pin": true,
+    "moves": [
+      {
+        "name": "dependency",
+        "old": {
+          "start_line": 374,
+          "end_line": 402,
+          "bytes": 1934,
+          "sha256": "a599831e5efc49bbed7605a2cf94dafd1667f4444d075961a97bd243e7477ecf"
+        },
+        "new": {
+          "start_line": 360,
+          "end_line": 388,
+          "bytes": 1934,
+          "sha256": "a599831e5efc49bbed7605a2cf94dafd1667f4444d075961a97bd243e7477ecf"
+        },
+        "comparison": "byte exact",
+        "match": true
+      },
+      {
+        "name": "source_decision",
+        "old": {
+          "start_line": 779,
+          "end_line": 793,
+          "bytes": 1158,
+          "sha256": "6ba09d447d54d01928ac0960ef727439701472624d75960e2b068e52a27c209e"
+        },
+        "new": {
+          "start_line": 767,
+          "end_line": 781,
+          "bytes": 1158,
+          "sha256": "6ba09d447d54d01928ac0960ef727439701472624d75960e2b068e52a27c209e"
+        },
+        "comparison": "byte exact",
+        "match": true
+      },
+      {
+        "name": "source_review",
+        "old": {
+          "start_line": 795,
+          "end_line": 802,
+          "bytes": 583,
+          "sha256": "6bb7f6f365433b62eea8f0907089bb6ba5f54024e9d1e3f587b921318b18003e"
+        },
+        "new": {
+          "start_line": 785,
+          "end_line": 792,
+          "bytes": 583,
+          "sha256": "6bb7f6f365433b62eea8f0907089bb6ba5f54024e9d1e3f587b921318b18003e"
+        },
+        "comparison": "byte exact",
+        "match": true
+      },
+      {
+        "name": "current_target",
+        "old": {
+          "start_line": 1019,
+          "end_line": 1027,
+          "bytes": 677,
+          "sha256": "1b99440132ad84fd2f66b56698059ae0f7fa60a9ed73796d780294c176f03feb"
+        },
+        "new": {
+          "start_line": 876,
+          "end_line": 884,
+          "bytes": 641,
+          "sha256": "787e2e2280538a3d3a5ed3b2fcdadc4d7db81a7b7aa3e01e2cda852774c8be6a"
+        },
+        "comparison": "remove exactly four leading spaces per nonempty old line",
+        "match": true
+      }
+    ],
+    "production_calls": [
+      {
+        "line": 407,
+        "text": "entries = validate_dependency_payload(value)"
+      },
+      {
+        "line": 813,
+        "text": "validate_source_decision_payload(decision, index)"
+      },
+      {
+        "line": 815,
+        "text": "validate_source_review_payload(review, index)"
+      },
+      {
+        "line": 1044,
+        "text": "validate_current_target_checks(review)"
+      }
+    ]
+  },
+  "executed_cases": 0,
+  "complete_caller_qualification": false,
+  "scientific_execution": false,
+  "dependency_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_DEPENDENCIES.json",
+    "bytes": 624320,
+    "sha256": "80fb2a5a5f5a318208c9c6389bb7b59646ca18002b32bec01c632d33904cea9a"
+  },
+  "partition": {
+    "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED": 5,
+    "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED": 16,
+    "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED": 10,
+    "PRIOR_ENTRY_SPECIFICATION_NOT_ADAPTED_OR_EXECUTED": 1,
+    "BLOCKED_DEEPER": 20
+  },
+  "declarations": [
+    {
+      "declaration": {
+        "name": "runtime-unbound-manifest",
+        "function": "runtime_prepare",
+        "code": "preparation",
+        "condition": "runtime metadata pin is missing or placeholder"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "runtime-changed-manifest",
+        "function": "runtime_prepare",
+        "code": "runtime",
+        "condition": "runtime metadata bytes differ before parsing"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "runtime-membership-change",
+        "function": "run",
+        "code": "prerequisite",
+        "condition": "directory names, kinds or link targets changed"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "runtime-absence-invalid",
+        "function": "run",
+        "code": "prerequisite",
+        "condition": "declared absent import alternative now exists"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "runtime-host-drift",
+        "function": "run",
+        "code": "prerequisite",
+        "condition": "uname, system version or visible system location differs"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "runtime-file-changed",
+        "function": "runtime_file_prerequisites",
+        "code": "prerequisite",
+        "condition": "one captured runtime file changed"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "runtime-late-namespace-change",
+        "function": "run",
+        "code": "runtime_namespace_change",
+        "condition": "namespace or host changes after launch"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "unbound-dependency-pin",
+        "function": "dependency_prepare",
+        "code": "preparation",
+        "condition": "static source dependency pin is missing or placeholder"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "changed-dependency-manifest",
+        "function": "dependency_prepare",
+        "code": "dependency",
+        "condition": "static source dependency metadata bytes changed before parsing"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "dependency-order-or-duplicate",
+        "function": "dependency_prepare",
+        "code": "dependency",
+        "condition": "static dependency path order or role is not closed"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED",
+      "current_case_ids": [
+        "D08-role-order",
+        "D12-descending-paths",
+        "D13-duplicate-path"
+      ],
+      "current_actual_boundary": "validate_dependency_payload",
+      "intended_first_exception_type": "Stop",
+      "intended_first_code": "dependency",
+      "intended_first_message": "static dependency role/order/path differs",
+      "remaining_gap": "Only the actual extracted value predicate has new callable source controls. Raw authentication, real metadata origin, genuine execution and full-entry production custody remain unqualified."
+    },
+    {
+      "declaration": {
+        "name": "dependency-link-or-alias",
+        "function": "dependency_prepare",
+        "code": "dependency",
+        "condition": "static dependency identity is linked or resolved elsewhere"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED",
+      "current_case_ids": [
+        "D20-resolved-alias",
+        "D21-valid-link-record"
+      ],
+      "current_actual_boundary": "validate_dependency_payload",
+      "intended_first_exception_type": "Stop",
+      "intended_first_code": "dependency",
+      "intended_first_message": "static source dependency has a symlink or alias",
+      "remaining_gap": "Only the actual extracted value predicate has new callable source controls. Raw authentication, real metadata origin, genuine execution and full-entry production custody remain unqualified."
+    },
+    {
+      "declaration": {
+        "name": "changed-source-dependency",
+        "function": "source_prerequisites",
+        "code": "prerequisite",
+        "condition": "one complete static source/evidence identity changed"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "unbound-history-pin",
+        "function": "preparation_ready",
+        "code": "preparation",
+        "condition": "None history pin before Attempt"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "changed-history-manifest",
+        "function": "preparation_ready",
+        "code": "history",
+        "condition": "opaque manifest digest changed"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "changed-historical-file",
+        "function": "source_prerequisites",
+        "code": "prerequisite",
+        "condition": "one complete historical identity changed"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "history-order-or-duplicate",
+        "function": "preparation_ready",
+        "code": "history",
+        "condition": "unsorted or duplicate protected path"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "history-zero-byte-log-valid",
+        "function": "validate_identity",
+        "code": null,
+        "condition": "zero-byte regular historical log remains allowed"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "missing-root-source-card",
+        "function": "observed",
+        "code": "identity",
+        "condition": "fixed current source decision unavailable"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "missing-independent-review",
+        "function": "observed",
+        "code": "identity",
+        "condition": "fixed complete source review unavailable"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "wrong-source-card-scope",
+        "function": "source_prerequisites",
+        "code": "prerequisite",
+        "condition": "source card claims execution or inherited target qualification"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED",
+      "current_case_ids": [
+        "S05-execution-promotion",
+        "S07-inherited-qualification"
+      ],
+      "current_actual_boundary": "validate_source_decision_payload",
+      "intended_first_exception_type": "Stop",
+      "intended_first_code": "prerequisite",
+      "intended_first_message": "source adjudication scope differs",
+      "remaining_gap": "Only the actual extracted value predicate has new callable source controls. Raw authentication, real metadata origin, genuine execution and full-entry production custody remain unqualified."
+    },
+    {
+      "declaration": {
+        "name": "wrong-source-card-extra-field",
+        "function": "source_prerequisites",
+        "code": "prerequisite",
+        "condition": "extra root source card field"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED",
+      "current_case_ids": [
+        "S01-extra-key"
+      ],
+      "current_actual_boundary": "validate_source_decision_payload",
+      "intended_first_exception_type": "Stop",
+      "intended_first_code": "prerequisite",
+      "intended_first_message": "root source adjudication fields mismatch",
+      "remaining_gap": "Only the actual extracted value predicate has new callable source controls. Raw authentication, real metadata origin, genuine execution and full-entry production custody remain unqualified."
+    },
+    {
+      "declaration": {
+        "name": "transient-current-admission-body",
+        "function": "read_metadata",
+        "code": "identity",
+        "condition": "parsed current freeze/auth bytes differ from observed pin"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "transient-saved-witness-body",
+        "function": "read_metadata",
+        "code": "identity",
+        "condition": "parsed addendum/witness receipt bytes differ from observed pin"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "changed-scientific-copy",
+        "function": "source_prerequisites",
+        "code": "identity",
+        "condition": "fixed source/input byte or size pin changed"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "changed-runtime-bytes",
+        "function": "runtime_file_prerequisites",
+        "code": "prerequisite",
+        "condition": "interpreter or monitor captured identity differs"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "changed-runtime-links",
+        "function": "runtime_file_prerequisites",
+        "code": "prerequisite",
+        "condition": "literal interpreter symlink traversal differs"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "wrong-applicability-mode",
+        "function": "applicability",
+        "code": "prerequisite",
+        "condition": "stage applicability for another mode"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "wrong-applicability-argv-env-limits",
+        "function": "applicability",
+        "code": "prerequisite",
+        "condition": "fixed command or envelope differs"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "old-target-qualification-credit",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "completed review lacks current15/4/71 actual checks or credits old qualification"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "NEW_DIRECT_POLICY_SOURCE_UNEXECUTED",
+      "current_case_ids": [
+        "T04-wrong-fixtures",
+        "T05-wrong-decisions",
+        "T06-wrong-refusals",
+        "T11-incomplete",
+        "T13-inherited"
+      ],
+      "current_actual_boundary": "validate_current_target_checks",
+      "intended_first_exception_type": "Stop",
+      "intended_first_code": "prerequisite",
+      "intended_first_message": "actual current-target checks absent or old qualification credited",
+      "remaining_gap": "Only the actual extracted value predicate has new callable source controls. Raw authentication, real metadata origin, genuine execution and full-entry production custody remain unqualified."
+    },
+    {
+      "declaration": {
+        "name": "missing-prerequisite-before-attempt",
+        "function": "pre_attempt_prerequisites",
+        "code": "identity",
+        "condition": "missing current card/input/prior custody refuses before exclusive Attempt allocation"
+      },
+      "ri132_classification": "WHOLE_UNCHANGED_ENTRY",
+      "current_support": "PRIOR_ENTRY_SPECIFICATION_NOT_ADAPTED_OR_EXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "RI132 entry specification bound RI129's old path/source/dependency namespace. No RI134 entry dispatcher, copied admission, evidence or execution is created."
+    },
+    {
+      "declaration": {
+        "name": "future-card-not-completed",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "prior root custody is not completed and accepted"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "receipt-flag-only",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "receipt success without genuine completed outer zero exit"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "outer-boolean-zero",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "outer exit_code false instead of integer zero"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "outer-unfinished-session",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "outer result retains session_id"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "outer-invocation-reconstruction",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "actual invocation differs from admitted literal"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "wrong-completed-output-reference",
+        "function": "bind",
+        "code": "prerequisite",
+        "condition": "completed review references wrong current bytes"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "supplemental-reference-outside-closure",
+        "function": "current",
+        "code": "identity",
+        "condition": "metadata narrative references unclosed path"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "prior-snapshot-role-set",
+        "function": "completed_mode",
+        "code": "prerequisite",
+        "condition": "receipt has extra or omitted input role"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "freeze-input-order",
+        "function": "validate_freeze",
+        "code": "configuration",
+        "condition": "ordered input array permuted or extended"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "premature-normal",
+        "function": "observed",
+        "code": "identity",
+        "condition": "missing completed witness card/evidence"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "premature-optimized",
+        "function": "observed",
+        "code": "identity",
+        "condition": "missing completed normal card/evidence"
+      },
+      "ri132_classification": "DIRECT_VALIDATOR_BOUNDARY",
+      "current_support": "RETAINED_DIRECT_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "The RI132 unexecuted narrow direct source is not reimplemented, loaded or executed here. Complete caller text correspondence supports review of applicability; no prior outcome or retargeted case is claimed."
+    },
+    {
+      "declaration": {
+        "name": "partial-candidate",
+        "function": "candidate_prerequisite",
+        "code": "identity",
+        "condition": "candidate differs in any byte from complete witness"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "candidate-math-promotion",
+        "function": "candidate_prerequisite",
+        "code": "prerequisite",
+        "condition": "candidate custody asserts scientific acceptance"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "wrong-summary-whole-bytes",
+        "function": "completed_mode",
+        "code": "identity",
+        "condition": "optimized and normal complete summaries differ"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "witness-existing-candidate",
+        "function": "run",
+        "code": "witness_certificate",
+        "condition": "any of the three candidate paths already exists"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "attempt-output-reuse",
+        "function": "Attempt.__init__",
+        "code": "FileExistsError",
+        "condition": "exclusive attempt directory already exists"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "wrong-outer-cwd-env-flags",
+        "function": "run",
+        "code": "configuration",
+        "condition": "outer cwd/environment/isolated flags or argv changed"
+      },
+      "ri132_classification": "BLOCKED_DEEPER",
+      "current_support": "BLOCKED_DEEPER",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Still follows genuine fixed-path raw reads, earlier preparation/serial custody or real files/process behavior. This four-family extraction does not supply an execution or bypass."
+    },
+    {
+      "declaration": {
+        "name": "late-input-change",
+        "function": "run",
+        "code": "input_change",
+        "condition": "input identities change after admitted child"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "inherited-monitor-failure",
+        "function": "monitor",
+        "code": "monitor",
+        "condition": "missing/malformed/nonzero/timed-out required census"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "inherited-wall-limit",
+        "function": "run",
+        "code": "wall_limit",
+        "condition": "child exceeds the fixed 120-second deadline"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "inherited-rss-limit",
+        "function": "run",
+        "code": "rss_limit",
+        "condition": "sampled owned group exceeds 512 MiB"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    },
+    {
+      "declaration": {
+        "name": "inherited-signal",
+        "function": "stop_signal",
+        "code": "signal",
+        "condition": "catchable interruption invalidates success"
+      },
+      "ri132_classification": "RETAINED_ENGINE_APPLICABILITY",
+      "current_support": "RETAINED_ENGINE_SOURCE_APPLICABILITY_UNEXECUTED",
+      "current_case_ids": [],
+      "current_actual_boundary": null,
+      "intended_first_exception_type": null,
+      "intended_first_code": null,
+      "intended_first_message": null,
+      "remaining_gap": "Exact unchanged engine text only; no current fault execution or inherited qualification. Namespace means retained in-attempt guard, not changed preflight; finalization error records are not raised exceptions."
+    }
+  ],
+  "direct_case_inventory": [
+    {
+      "id": "D00-positive",
+      "family": "dependency",
+      "mutation": "none"
+    },
+    {
+      "id": "D01-extra-root-key",
+      "family": "dependency",
+      "mutation": "extra-root-key"
+    },
+    {
+      "id": "D02-wrong-schema",
+      "family": "dependency",
+      "mutation": "schema"
+    },
+    {
+      "id": "D03-wrong-status",
+      "family": "dependency",
+      "mutation": "status"
+    },
+    {
+      "id": "D04-promoted-scope",
+      "family": "dependency",
+      "mutation": "scope"
+    },
+    {
+      "id": "D05-empty-closure",
+      "family": "dependency",
+      "mutation": "empty"
+    },
+    {
+      "id": "D06-nonlist-closure",
+      "family": "dependency",
+      "mutation": "nonlist"
+    },
+    {
+      "id": "D07-extra-entry-key",
+      "family": "dependency",
+      "mutation": "extra-entry-key"
+    },
+    {
+      "id": "D08-role-order",
+      "family": "dependency",
+      "mutation": "role"
+    },
+    {
+      "id": "D09-relative-path",
+      "family": "dependency",
+      "mutation": "relative"
+    },
+    {
+      "id": "D10-noncanonical-path",
+      "family": "dependency",
+      "mutation": "noncanonical"
+    },
+    {
+      "id": "D11-nontext-path",
+      "family": "dependency",
+      "mutation": "nontext"
+    },
+    {
+      "id": "D12-descending-paths",
+      "family": "dependency",
+      "mutation": "descending"
+    },
+    {
+      "id": "D13-duplicate-path",
+      "family": "dependency",
+      "mutation": "duplicate"
+    },
+    {
+      "id": "D14-identity-extra-key",
+      "family": "dependency",
+      "mutation": "identity-extra"
+    },
+    {
+      "id": "D15-identity-path",
+      "family": "dependency",
+      "mutation": "identity-path"
+    },
+    {
+      "id": "D16-boolean-size",
+      "family": "dependency",
+      "mutation": "identity-bool-size"
+    },
+    {
+      "id": "D17-negative-size",
+      "family": "dependency",
+      "mutation": "identity-negative-size"
+    },
+    {
+      "id": "D18-invalid-digest",
+      "family": "dependency",
+      "mutation": "identity-digest"
+    },
+    {
+      "id": "D19-link-shape",
+      "family": "dependency",
+      "mutation": "link-shape"
+    },
+    {
+      "id": "D20-resolved-alias",
+      "family": "dependency",
+      "mutation": "alias"
+    },
+    {
+      "id": "D21-valid-link-record",
+      "family": "dependency",
+      "mutation": "link"
+    },
+    {
+      "id": "D22-empty-classification",
+      "family": "dependency",
+      "mutation": "classification"
+    },
+    {
+      "id": "D23-empty-access-policy",
+      "family": "dependency",
+      "mutation": "access-policy"
+    },
+    {
+      "id": "D24-nonlist-provenance",
+      "family": "dependency",
+      "mutation": "provenance"
+    },
+    {
+      "id": "S00-positive",
+      "family": "decision",
+      "mutation": "none"
+    },
+    {
+      "id": "S01-extra-key",
+      "family": "decision",
+      "mutation": "extra-root-key"
+    },
+    {
+      "id": "S02-missing-key",
+      "family": "decision",
+      "mutation": "missing-root-key"
+    },
+    {
+      "id": "S03-wrong-schema",
+      "family": "decision",
+      "mutation": "schema"
+    },
+    {
+      "id": "S04-wrong-status",
+      "family": "decision",
+      "mutation": "status"
+    },
+    {
+      "id": "S05-execution-promotion",
+      "family": "decision",
+      "mutation": "execution"
+    },
+    {
+      "id": "S06-execution-zero",
+      "family": "decision",
+      "mutation": "execution-zero"
+    },
+    {
+      "id": "S07-inherited-qualification",
+      "family": "decision",
+      "mutation": "inherited"
+    },
+    {
+      "id": "S08-source-role-omitted",
+      "family": "decision",
+      "mutation": "source-role"
+    },
+    {
+      "id": "S09-early-scope-before-lookup",
+      "family": "decision",
+      "mutation": "scope-and-empty-index"
+    },
+    {
+      "id": "S10-supervisor-binding",
+      "family": "decision",
+      "mutation": "binding:native_supervisor"
+    },
+    {
+      "id": "S11-auditor-binding",
+      "family": "decision",
+      "mutation": "binding:audit_caller"
+    },
+    {
+      "id": "S12-history-binding",
+      "family": "decision",
+      "mutation": "binding:history_manifest"
+    },
+    {
+      "id": "S13-runtime-binding",
+      "family": "decision",
+      "mutation": "binding:runtime_manifest"
+    },
+    {
+      "id": "S14-contract-binding",
+      "family": "decision",
+      "mutation": "binding:caller_contract"
+    },
+    {
+      "id": "S15-dependency-binding",
+      "family": "decision",
+      "mutation": "binding:dependency_manifest"
+    },
+    {
+      "id": "S16-review-reference",
+      "family": "decision",
+      "mutation": "reference:independent_review"
+    },
+    {
+      "id": "S17-ri128-reference",
+      "family": "decision",
+      "mutation": "reference:ri128_source_adjudication"
+    },
+    {
+      "id": "S18-history-reference",
+      "family": "decision",
+      "mutation": "reference:history_manifest"
+    },
+    {
+      "id": "S19-dependency-reference",
+      "family": "decision",
+      "mutation": "reference:dependency_manifest"
+    },
+    {
+      "id": "S20-missing-index-role",
+      "family": "decision",
+      "mutation": "missing-index-role"
+    },
+    {
+      "id": "R00-positive",
+      "family": "review",
+      "mutation": "none"
+    },
+    {
+      "id": "R01-wrong-schema",
+      "family": "review",
+      "mutation": "schema"
+    },
+    {
+      "id": "R02-wrong-status",
+      "family": "review",
+      "mutation": "status"
+    },
+    {
+      "id": "R03-blocking-finding",
+      "family": "review",
+      "mutation": "blocking"
+    },
+    {
+      "id": "R04-scientific-execution",
+      "family": "review",
+      "mutation": "scientific"
+    },
+    {
+      "id": "R05-execution-promotion",
+      "family": "review",
+      "mutation": "execution"
+    },
+    {
+      "id": "R06-source-role-omitted",
+      "family": "review",
+      "mutation": "source-role"
+    },
+    {
+      "id": "R07-early-scope-before-lookup",
+      "family": "review",
+      "mutation": "scope-and-empty-index"
+    },
+    {
+      "id": "R08-supervisor-binding",
+      "family": "review",
+      "mutation": "binding:native_supervisor"
+    },
+    {
+      "id": "R09-auditor-binding",
+      "family": "review",
+      "mutation": "binding:audit_caller"
+    },
+    {
+      "id": "R10-history-binding",
+      "family": "review",
+      "mutation": "binding:history_manifest"
+    },
+    {
+      "id": "R11-runtime-binding",
+      "family": "review",
+      "mutation": "binding:runtime_manifest"
+    },
+    {
+      "id": "R12-contract-binding",
+      "family": "review",
+      "mutation": "binding:caller_contract"
+    },
+    {
+      "id": "R13-dependency-binding",
+      "family": "review",
+      "mutation": "binding:dependency_manifest"
+    },
+    {
+      "id": "R14-missing-index-role",
+      "family": "review",
+      "mutation": "missing-index-role"
+    },
+    {
+      "id": "T00-positive",
+      "family": "checks",
+      "mutation": "none"
+    },
+    {
+      "id": "T01-missing-check-object",
+      "family": "checks",
+      "mutation": "missing-object"
+    },
+    {
+      "id": "T02-omitted-count",
+      "family": "checks",
+      "mutation": "omitted-count"
+    },
+    {
+      "id": "T03-extra-count",
+      "family": "checks",
+      "mutation": "extra-count"
+    },
+    {
+      "id": "T04-wrong-fixtures",
+      "family": "checks",
+      "mutation": "wrong-fixtures"
+    },
+    {
+      "id": "T05-wrong-decisions",
+      "family": "checks",
+      "mutation": "wrong-decisions"
+    },
+    {
+      "id": "T06-wrong-refusals",
+      "family": "checks",
+      "mutation": "wrong-refusals"
+    },
+    {
+      "id": "T07-boolean-fixtures",
+      "family": "checks",
+      "mutation": "boolean-fixtures"
+    },
+    {
+      "id": "T08-boolean-decisions",
+      "family": "checks",
+      "mutation": "boolean-decisions"
+    },
+    {
+      "id": "T09-boolean-refusals",
+      "family": "checks",
+      "mutation": "boolean-refusals"
+    },
+    {
+      "id": "T10-float-integer",
+      "family": "checks",
+      "mutation": "float-fixtures"
+    },
+    {
+      "id": "T11-incomplete",
+      "family": "checks",
+      "mutation": "incomplete"
+    },
+    {
+      "id": "T12-numeric-completion",
+      "family": "checks",
+      "mutation": "numeric-completion"
+    },
+    {
+      "id": "T13-inherited",
+      "family": "checks",
+      "mutation": "inherited"
+    },
+    {
+      "id": "T14-numeric-inherited",
+      "family": "checks",
+      "mutation": "numeric-inherited"
+    },
+    {
+      "id": "T15-omitted-inherited",
+      "family": "checks",
+      "mutation": "omitted-inherited"
+    }
+  ],
+  "case_counts": {
+    "dependency": 25,
+    "decision": 21,
+    "review": 15,
+    "checks": 16,
+    "total": 77,
+    "positive": 4,
+    "isolated_negative": 71,
+    "explicit_order_probes": 2
+  },
+  "scope_notes": [
+    "All null expected fields on non-new rows mean no new callable RI134 control, not acceptance or absence of an old guard.",
+    "Two scope-and-empty-index cases deliberately combine an early scope failure with unavailable later identities to check original first-error order; remaining 71 negatives are isolated policy mutations.",
+    "Independent source-review policy has 15 supplemental cases; no original missing-file declaration is relabeled as payload review coverage.",
+    "RI129 wire schema labels are preserved; current paths and six identities bind the new source, not old authority."
+  ]
+}

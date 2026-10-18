@@ -1,0 +1,13 @@
+{
+  "schema": "ri182-dispatch-record-v1",
+  "tool": "collaboration.followup_task",
+  "target": "/root/ri116_complete_caller_review",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI182_REPAIR_ASSIGNMENT.json",
+    "bytes": 2756,
+    "sha256": "995bfb2a00824297e714dec4fef2fe1dfdc7540fae7f41ca789ba717e190a4c1"
+  },
+  "actual_tool_return": "Successful tool return with empty displayed body; no worker outcome or qualification implied.",
+  "source_only": true,
+  "new_agent_created": false
+}

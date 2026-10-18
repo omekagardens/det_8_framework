@@ -1,0 +1,41 @@
+{
+  "actual": {
+    "chunk": "0c8349",
+    "exit_code": 0,
+    "output": "",
+    "session_returned": false
+  },
+  "concrete_review_save": {
+    "chunk": "f6d835",
+    "exit_code": 0
+  },
+  "genuine": {
+    "bytes": 1406,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/GENUINE_TOOL.json",
+    "sha256": "6b21a0651b7103a007eacd00e913a56ce29a05b7b66c9580a0efc2ed2e827292"
+  },
+  "no_retry": true,
+  "postcheck": {
+    "chunk": "d2da10",
+    "exit_code": 0
+  },
+  "predispatch": {
+    "chunk": "a65228",
+    "exit_code": 0
+  },
+  "preparation": {
+    "bytes": 1633,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/PREPARATION_ACTUAL_RECEIPTS.json",
+    "sha256": "f8eea78d3d80d86e1e2bae9b1f8dda84478ac4b266f5e006c4bd79aee36d7458"
+  },
+  "schema": "ri206-actual-operation-receipts-v1",
+  "scientific_execution": false,
+  "source_decision": {
+    "chunk": "de2899",
+    "exit_code": 0
+  },
+  "whole_monitor_read": {
+    "chunk": "f32c4a",
+    "exit_code": 0
+  }
+}

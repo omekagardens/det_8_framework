@@ -1,0 +1,13 @@
+{
+  "actual_response": {},
+  "assignment": {
+    "bytes": 3533,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI176_REPAIR_ASSIGNMENT.json",
+    "sha256": "7e62d36bf245d92b2f30c30342d089d548fad5c44bee8915daa0ca76973b6c08"
+  },
+  "completion_claimed": false,
+  "schema": "ri176-actual-dispatch-v1",
+  "submitted": true,
+  "target": "/root/ri116_complete_caller_review",
+  "tool": "collaboration.followup_task"
+}

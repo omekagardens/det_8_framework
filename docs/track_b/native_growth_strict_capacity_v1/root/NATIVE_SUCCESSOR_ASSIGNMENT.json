@@ -1,0 +1,33 @@
+{
+  "RET_remains_paused": true,
+  "independent_review": {
+    "bytes": 5091,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/HANDOFF.json",
+    "sha256": "3d312d6fdec735e52e3b7027314a4196cb4aa2ec648337f7381487b2f64a957a"
+  },
+  "item": "RI-157",
+  "measurement_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri156-white-external-adapter-source-1plzn4nm",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor_adjudication": {
+    "bytes": 3559,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI155_ROOT_ADJUDICATION.json",
+    "sha256": "7b2ca8796cf601fd231b511f6ac0fd9f8778d44a20f69cb8808ee131171017e6"
+  },
+  "requirements": [
+    "Use native component/marked-row correlations; prove any actual canonical branch premise. A possible rejection route is Fmax<=3 together with lambda>=7/852, but both actual-law premises must be established.",
+    "Do not merely restate the accepted inequality, choose unrelated positive coefficients as a law counterexample, alter canonical N_i, revive withdrawn seed-order inference or build another q floor before capacity is resolved.",
+    "If unresolved, deliver a new quantitative relation or obstruction and name the precise additional marked-row/component premise needed; distinguish insufficient bounds from a counterexample.",
+    "Retain all original obligations and finite-law boundaries in predecessor adjudication.",
+    "Read full source and review before writing. Work only in the exclusive reservation; no repository/index/Git operations or new subagent spawning.",
+    "Manual proof/source reading and bounded administrative opaque hashing only: no scientific numerical body decode, target import/compile/AST/probe/run, graph enumeration, scientific/symbolic engine, runtime/card/freeze/admission creation.",
+    "Seal exact packet and dependency identities for fresh nonauthor review; stop at worker handoff for coordinator adjudication."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77",
+  "schema": "ri157-native-successor-assignment-v1",
+  "subject": {
+    "bytes": 8064,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690"
+  },
+  "task": "Resolve or materially sharpen v>B using the same actual native prefix and canonical cap: derive a decisive bound on v/lambda and Mcap, equivalently theta*b0^3*(t-1)*H versus12*j0*J."
+}

@@ -1,0 +1,12 @@
+{
+  "cause": "Root administrative checker incorrectly counted nine subdirectories; accepted nine directories includes E root. Read-only0e4bd2 confirms48files,eight subdirectories,nine includingroot.",
+  "correction": "Check48files and8subdirectories; recordtotal9. No proposal/candidate/source or E changes, no operation, no qualification.",
+  "exit_code": 1,
+  "failed_initial_chunk": "97d0c0",
+  "failed_terminal_chunk": "6cc5a8",
+  "original_script": {
+    "bytes": 9770,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/record_followthrough.failed-6cc5a8.py",
+    "sha256": "e6b5cee23051d0f71bd1881c6145a536f68bec40176d237f4d2cc7eec3dab660"
+  }
+}

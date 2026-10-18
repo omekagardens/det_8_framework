@@ -1,0 +1,54 @@
+{
+  "accepted_analytic_references": [
+    {
+      "bytes": 12640,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/ANTICHAIN_CLASSIFICATION.md",
+      "sha256": "b64e4e8c1ec60fb9ff843165027caeaccf889567277eb5373cd21206011aef91"
+    },
+    {
+      "bytes": 10971,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/SIX_ANTICHAIN_BOUND.md",
+      "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+    },
+    {
+      "bytes": 1184,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/root/RI185_ROOT_ADJUDICATION.json",
+      "sha256": "83150c64a6ebd4061ae3b49d3e18fd10bc8f238f77d37be5b3c460626ed514eb"
+    },
+    {
+      "bytes": 14630,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri199-native-maximum-bound-buxv337k/MAXIMUM_BOUND.md",
+      "sha256": "0dea1b702c22c018cb6a7bd5546d99b5a91b16a3fff4bf9e66592e4113620662"
+    },
+    {
+      "bytes": 1957,
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_maximal_deletion_reduction_v1/root_review/RI199_ROOT_ADJUDICATION.json",
+      "sha256": "3970c35bab896a25caa2bb58120233c3f12c798994bc82a4f571216be8813e59"
+    }
+  ],
+  "global_bound_or_W_preaccepted": false,
+  "justified_starting_points": [
+    "Six maxima forces A6; RI185 already supplies all63slots/64records and the exact reduced six-row table. Do not redo its completed classification. Full A5 complements keep record dependence and have no extra theta.",
+    "The literal seed has antichain q3(empty)=1/44. A uniform1/110 floor for every factor is unnecessarily weak in the k=0 row. Reconcile the precise seed before using this value, and retain empty-parent1.",
+    "Candidate manual estimate from theta<2^-38: in k=0, use p3(empty)>1/64 and p1(empty)>1/2 with numerator probabilities<=1, to obtain u6(empty)<2^36. Check all five other rows and all actual marks/multiplicities independently. This is a suggested route, not preaccepted proof.",
+    "One through five maxima now have separate accepted uniform bounds. Only after six-maxima closure prove that finite exhaustive class partition implies the actual global same-law M6 target; then independently check exact strict RI199 implication including equality."
+  ],
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 2764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_ROOT_ADJUDICATION.json",
+    "sha256": "b0b04178feee3a2a759a775b1bd53b69ea6a4cfc77b09b780191afb0d00af197"
+  },
+  "question": "Prove or refute the remaining complete six-maxima class U6<=T. Reuse the already accepted RI185 all-mark antichain classification and restoration-only proper A5 law. If that bound closes, explicitly combine the accepted one-through-five classes to justify the global M6<=T comparison and exactly the RI199 weighted-W consequence, keeping stronger conclusions open.",
+  "requirements": [
+    "No scientific body/vector/certificate read or automatic proof arithmetic; manual accepted analytic text only. These newly named accepted RI185/RI199 manuscript reads do not expand their opaque historical or runtime dependencies.",
+    "Preserve all original marks, full slots, positive theta restoration, fixed canonical corrections and every labeled multiplicity.",
+    "No numerical maximizing-parent/actual-scale computation, no claim that W>0 gives both margins or H30. Reconcile remaining obligations and next concrete mathematical dependency.",
+    "No new graph/LP/subject/runtime/fixture/card/source execution, Git, repository edits or RET work. Exclusive source-only sealed packet with actual administrative checks and all diagnostics.",
+    "Root retains independent adjudication, publication and any successor; stop at the sealed handoff."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm",
+  "ret_paused": true,
+  "schema": "ri210-native-assignment-v1",
+  "status": "ASSIGNED_AFTER_RI208_INDEPENDENT_ADJUDICATION"
+}

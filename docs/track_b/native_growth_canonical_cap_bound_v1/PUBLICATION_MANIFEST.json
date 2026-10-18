@@ -1,0 +1,154 @@
+{
+  "exact_copies": 27,
+  "parent": "886eb8be84163b566a678966d1e985c6707fbb0b",
+  "payload": [
+    {
+      "bytes": 132151,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "274a6f0b2111f29556907c4973a0ec955535db2774cb56640374e0ca0dc52e05"
+    },
+    {
+      "bytes": 3461,
+      "path": "README.md",
+      "sha256": "5ddbee87fde796630530ff7015c197919ed810733167ba034889bd38ea900ff1"
+    },
+    {
+      "bytes": 3867,
+      "path": "review/ACTUAL_CHECKS.json",
+      "sha256": "98b31e80797c181eca9a733e34a344a0b27a03382b427ca70e7753666ecb1c62"
+    },
+    {
+      "bytes": 0,
+      "path": "review/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 515,
+      "path": "review/CHECK.stdout",
+      "sha256": "6c28e6a38556ad0708dc392faad7ca3d87e1eaa7e43d1c987ddafc7f8f7af62b"
+    },
+    {
+      "bytes": 3484,
+      "path": "review/FINAL_PIN_CHECK.json",
+      "sha256": "40c2d0d379de4b15079c4c3c606f2349c4b3353807ba13f16e8594210ba4da78"
+    },
+    {
+      "bytes": 5929,
+      "path": "review/HANDOFF.json",
+      "sha256": "daccfac1950db64177f5ad6d4fbb2a30fe329ae88efc6bd4b01fe6f9786a36f1"
+    },
+    {
+      "bytes": 18574,
+      "path": "review/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "0cee852db8a9513e8480c4abcd0e9cdb2edbc4431274ba2d29b77a97c147050a"
+    },
+    {
+      "bytes": 3700,
+      "path": "review/VERDICT.json",
+      "sha256": "9722fab91c20b8653435b74e2665bc8b5e92cb093506b192361df4f74f7ef5b9"
+    },
+    {
+      "bytes": 13326,
+      "path": "review/check_metadata.py",
+      "sha256": "28a94915df18320ef1ce5ace56b09acc660e9c9299d5a7c3fdd82bad86dbd01e"
+    },
+    {
+      "bytes": 5133,
+      "path": "review/seal_review.py",
+      "sha256": "458c07a1977e2e77939ef2b38358b41551a0c6e55278e9d65dc539c5905e8ac2"
+    },
+    {
+      "bytes": 2109,
+      "path": "root/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+      "sha256": "2f7a97b527a88d7a2dd16e69c7b01dde2e3a3e2f81c57fea4424e80765491206"
+    },
+    {
+      "bytes": 3092,
+      "path": "root/NATIVE_ACTUAL_TOOLS.json",
+      "sha256": "69ba41b9b9a64eda08f4621370bd94290d86cd90e27eef78f17fbc780b6095e5"
+    },
+    {
+      "bytes": 4916,
+      "path": "root/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+      "sha256": "782b057624a35094093558e52e40a78d3a61b3ff1cbb61d2c3dd675171b1911e"
+    },
+    {
+      "bytes": 2404,
+      "path": "root/RI157_ROOT_ADJUDICATION.json",
+      "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950"
+    },
+    {
+      "bytes": 4362,
+      "path": "root/ROOT_MANUAL_REVIEW.md",
+      "sha256": "3040fadd824a82b8aee1c51338719ff79da7a3eb0d1c56ce9c1816588dba2b05"
+    },
+    {
+      "bytes": 1658,
+      "path": "root/ROOT_METADATA_REPLAY.json",
+      "sha256": "dcef7aa329d38c750421dc127d1cb0afe8057cc30f22e27eecdb26024b1c9f10"
+    },
+    {
+      "bytes": 11821,
+      "path": "root/adjudicate_native.py",
+      "sha256": "aaeaf9fa804f9aadf2185b8034629a51fa2886ed1baf4c9b194f51e41c82106f"
+    },
+    {
+      "bytes": 13315,
+      "path": "root/check_native.py",
+      "sha256": "fc5d694e6104ead02cf93f1bdc430c4c015afc86a970470fb80829738c3eeff1"
+    },
+    {
+      "bytes": 4924,
+      "path": "source/ANALYTIC_RESULT.json",
+      "sha256": "c5ef9e86cd37ad5943c71239774bc1e08a5d057fff02e101a8933e561152fb20"
+    },
+    {
+      "bytes": 16077,
+      "path": "source/AUTHOR_CHECKS.json",
+      "sha256": "44d6601e1b75b3889f0d3c0ed0fd89cdb401bb81f2e799b14ec979ea2f7d4e18"
+    },
+    {
+      "bytes": 12849,
+      "path": "source/CANONICAL_CAP_BOUND.md",
+      "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+    },
+    {
+      "bytes": 11966,
+      "path": "source/CORRELATED_CAPACITY_SYNTHESIS.md",
+      "sha256": "25646b02bd021a8de23b89d8841621c70bbcecf97fe59164ac63d620b9cea7dd"
+    },
+    {
+      "bytes": 13521,
+      "path": "source/CORRELATED_CONTRAST_BOUND.md",
+      "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524"
+    },
+    {
+      "bytes": 15485,
+      "path": "source/DEPENDENCY_NOTES.md",
+      "sha256": "01b6a54d3b55533e7f1ee3b979fdf0c07991bec18ac88c6f44defe6a4c83018f"
+    },
+    {
+      "bytes": 10114,
+      "path": "source/HANDOFF.json",
+      "sha256": "968e3c853ce107aceff080126b8ca22f8ba846bbba914ff0b13a32360c660b8c"
+    },
+    {
+      "bytes": 3282,
+      "path": "source/HANDOFF.md",
+      "sha256": "57f38195d6b6f6b2f1f0e90f93c880b97ce507947d050412cf22779bbe0265fb"
+    },
+    {
+      "bytes": 201161,
+      "path": "source/SOURCE_DEPENDENCIES.json",
+      "sha256": "368790622693cc600168c363a83a8a1bdd2831f21e49bbe1fb27aef1be812c79"
+    },
+    {
+      "bytes": 33170,
+      "path": "source/SOURCE_IDENTITIES.json",
+      "sha256": "41ce90f61723ae09c915b424d8a92b3a605d59ce1a99be7fe1905ea25f672180"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

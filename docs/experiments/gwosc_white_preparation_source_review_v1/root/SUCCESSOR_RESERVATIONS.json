@@ -1,0 +1,18 @@
+{
+  "measurement": {
+    "item": "RI135",
+    "owner": "/root/archive_repro_review",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize",
+    "preparation_admitted": false,
+    "scope": "Immutable source-only F01/F02 repair, necessary dependency/contract correspondence and focused unexecuted controls; no target execution or repo/Git."
+  },
+  "native": {
+    "item": "RI134",
+    "owner": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde",
+    "status": "Author final integration active; no duplicate assignment."
+  },
+  "ret_paused": true,
+  "root_owns": "Repository/index/Git and all admission",
+  "schema": "ri133-root-successor-reservations-v1"
+}

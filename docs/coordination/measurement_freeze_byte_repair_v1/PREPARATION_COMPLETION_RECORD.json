@@ -1,0 +1,44 @@
+{
+  "actual_tool": {
+    "bytes": 2774,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/PREPARATION_TOOL_TRANSCRIPT.json",
+    "sha256": "05906a9c195cca158af7b62f0192eb7c6df2cf3aa546dc7d7d86e28840e13fb2"
+  },
+  "custody": {
+    "bytes": 13814,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/PREPARATION_CUSTODY.json",
+    "sha256": "0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f"
+  },
+  "genuine_host": {
+    "bytes": 1571,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/ORIGINAL_HOST_TOOL.json",
+    "sha256": "c79b992eef164650580bcbbeb211864f0c80a477489e3bb4ed14b61418e1bcac"
+  },
+  "host_chunk": "00c800",
+  "host_exit": 0,
+  "independent_concrete_review_pending": true,
+  "initial_chunk": "7f1c8b",
+  "installation_admitted": false,
+  "installation_executed": false,
+  "proposal": {
+    "bytes": 4521,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/INSTALLATION_PROPOSAL.json",
+    "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+  },
+  "schema": "ri219-preparation-completion-record-v1",
+  "scientific_execution": false,
+  "session_id": 51547,
+  "source": {
+    "bytes": 16552,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/prepare_installation.py",
+    "sha256": "49373e6ccc56f6aed7101834f3d635cef5e8f04978dd5099656e89de86ddfc34"
+  },
+  "source_review": {
+    "bytes": 991,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri219-root-obstruction-review-la4j_k0f/PREPARATION_SOURCE_REVIEW.json",
+    "sha256": "49d2c0b1bbadfee624c2862c55c78701df7929c46c3fe789b1a9ea5b89e571a2"
+  },
+  "status": "ACTUAL_ADMINISTRATIVE_PREPARATION_COMPLETE_PENDING_CONCRETE_REVIEW",
+  "terminal_chunk": "633d20",
+  "terminal_exit": 0
+}

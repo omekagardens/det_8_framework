@@ -1,0 +1,94 @@
+{
+  "accepted_helper": {
+    "bytes": 8184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+  },
+  "all_membership_metadata_and_binding_postchecks_passed": true,
+  "extra_files_count": 13,
+  "inventory_file_count": 9923,
+  "inventory_total_bytes": 258862951,
+  "loader_bindings_count": 8,
+  "mandatory_absences": [
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python311.zip"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/bin/pyvenv.cfg"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/opt/homebrew/opt/python-tk@3.11"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/opt/homebrew/opt/python-gdbm@3.11"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/opt/homebrew/opt/mpdecimal/lib/libmpdec.3.dylib"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/opt/homebrew/lib/libmpdec.3.dylib"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/usr/local/lib/libmpdec.3.dylib"
+    },
+    {
+      "exists": false,
+      "is_symlink": false,
+      "path": "/usr/lib/libmpdec.3.dylib"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 2806092,
+      "file": "RUNTIME_INVENTORY.candidate.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    {
+      "bytes": 1057,
+      "file": "INTERPRETER_BINDING.candidate.json",
+      "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+    },
+    {
+      "bytes": 3820963,
+      "file": "FILE_SELECTION_METADATA.candidate.json",
+      "sha256": "23211b59946b46e5c6f051b04d67bf5f8ed178ec9f27a30371887077ae86ea74"
+    },
+    {
+      "bytes": 4056,
+      "file": "OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+      "sha256": "8d49533bb80070e02defe236348a5528bcac4f4ce23ca214f781dd612475ac1d"
+    }
+  ],
+  "pyc_count": 3394,
+  "root_regular_file_counts": [
+    {
+      "regular_files": 2878,
+      "root": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11"
+    },
+    {
+      "regular_files": 5313,
+      "root": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages"
+    },
+    {
+      "regular_files": 1719,
+      "root": "/opt/homebrew/lib/python3.11/site-packages"
+    }
+  ],
+  "source_py_count": 4721,
+  "status": "SUCCESSFUL_METADATA_CAPTURE_ONLY",
+  "tooling": "/usr/bin/python3 -I -B collect_metadata_candidate.py; independent metadata code only"
+}

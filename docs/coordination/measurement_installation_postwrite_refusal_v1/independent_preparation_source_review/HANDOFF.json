@@ -1,0 +1,66 @@
+{
+  "schema": "ri224-independent-preparation-review-handoff-v1",
+  "status": "SOURCE_REVIEW_ACCEPT_WITH_CALLER_CONDITION_NOT_ADMISSION",
+  "author": "/root/qr_opportunities",
+  "reviewed_original": {
+    "path": "/private/tmp/ri224_install_preparation_draft.py",
+    "bytes": 18455,
+    "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+  },
+  "reviewed_copy": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/REVIEWED_PREPARATION_DRAFT.py",
+    "bytes": 18455,
+    "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+  },
+  "report": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/REVIEW.md",
+    "bytes": 5157,
+    "sha256": "a324e9a6c60725a2d84c33859adb9c7641d71ec74cbb924ab3ff6164f86c7a89"
+  },
+  "receipts": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/READ_RECEIPTS.json",
+    "bytes": 4115,
+    "sha256": "9828758e4d9f67ff7aec911c906b79ec1bdde96a887b76024888aadcd4097f6a"
+  },
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/READ_RECEIPTS.json",
+      "bytes": 4115,
+      "sha256": "9828758e4d9f67ff7aec911c906b79ec1bdde96a887b76024888aadcd4097f6a"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/REVIEW.md",
+      "bytes": 5157,
+      "sha256": "a324e9a6c60725a2d84c33859adb9c7641d71ec74cbb924ab3ff6164f86c7a89"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog/REVIEWED_PREPARATION_DRAFT.py",
+      "bytes": 18455,
+      "sha256": "9af0db33f4a57036b0f9bb911822dfd1ea905b6bddca1edc274d78dc00b05e80"
+    }
+  ],
+  "namespace": [
+    "HANDOFF.json",
+    "READ_RECEIPTS.json",
+    "REVIEW.md",
+    "REVIEWED_PREPARATION_DRAFT.py"
+  ],
+  "required_preparation_flags": [
+    "-I",
+    "-B"
+  ],
+  "prospective_bootstrap": {
+    "bytes": 2413,
+    "sha256": "8fbc916c29a874d93f2a1b0543e86870f26a6dc2ce01c57104dcd725c092d853"
+  },
+  "observed_existing_source_rows": 902,
+  "prospective_complete_source_rows": 904,
+  "subject_execution": false,
+  "preparation_execution": false,
+  "installation_admitted": false,
+  "installation_dispatched": false,
+  "scientific_execution": false,
+  "git": false,
+  "only_write_scope": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-preparation-review-9KASog",
+  "original_source_unchanged": true
+}

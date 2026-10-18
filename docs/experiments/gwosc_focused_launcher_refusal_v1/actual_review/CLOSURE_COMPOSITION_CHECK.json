@@ -1,0 +1,54 @@
+{
+  "launcher_reference_checks": [
+    {
+      "identity": {
+        "bytes": 4642,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+        "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+      },
+      "role": "launcher_handoff"
+    },
+    {
+      "identity": {
+        "bytes": 3396,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/cards/review.json",
+        "sha256": "ca1a29eec2d789f474b9dad13d09f433d12713bb8ccef0de70fe3de47d961009"
+      },
+      "role": "launcher_review"
+    },
+    {
+      "identity": {
+        "bytes": 1282,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/cards/adjudication.json",
+        "sha256": "d5ce36a3bebf5b3af968c47d425719b9761ace8bb52bd16da5e4bc949c2ee48e"
+      },
+      "role": "launcher_adjudication"
+    },
+    {
+      "identity": {
+        "bytes": 1896,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/cards/preflight.json",
+        "sha256": "df7e479af6a5c509ae0d30103ef9e1d961a232fc799a1fa10002307cc6529875"
+      },
+      "role": "bootstrap_host_preflight"
+    },
+    {
+      "identity": {
+        "bytes": 1773,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/cards/controls.json",
+        "sha256": "1cc512c565bce9a9ff69f3d197cc0a84dcfadc130f5b42bd3db9265944f53cfe"
+      },
+      "role": "controls_admission"
+    }
+  ],
+  "original_sealed_source_handoff": {
+    "bytes": 4642,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/HANDOFF.json",
+    "sha256": "95112c29b0448f7f48810fb34d9510b6d7b6079826054383795758e3f70b2cbd"
+  },
+  "root_dependency_record_exact276": true,
+  "schema": "ri137-independent-saved-closure-composition-v1",
+  "scientific_or_subject_execution": false,
+  "source6_review7_dependencies276_exact_union": true,
+  "status": "PASS"
+}

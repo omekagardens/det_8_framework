@@ -1,10 +1,12 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Date:** August 27, 2026 (integrated Record-Kernel Physics and RET research)
-**Test suite:** 751/752 passing (1 pre-existing Navier–Stokes numerical-reproducibility failure)
+**Framework baseline:** August 27, 2026. **Publication overview updated:** October 18, 2026.
+**Validation:** Historical test totals below describe their recorded runs, not a current whole-repository pass. See [software and research check boundaries](docs/BRANCH_WORKFLOW.md#validation-boundary).
 
-**Status:** DET8 is a **relational ontology** — the record-kernel unification of existence (event graph `≺`), participation (aperture Π), and becoming (commit kernel K) — with a physical calculus that is its measurable shadow. **The ontology is the primary content** (Track B addresses the four deadlocks of time, quantum interpretation, agency, and history in one governed synthesis). As a *theory of everything*, DET is not falsifiable; as an **instrument (lens)** for generating falsifiable probes, its productivity is — tracked in the [Novelty Ledger](NOVELTY_LEDGER.md). Track A's κ-Π clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field); DET's value does not depend on λ_P ≠ 0. Gravity is standard GR (Option B, Round 6); dark matter is standard. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$ and the assumptions behind the complex structure remain explicit research questions. Collapse is the *commit* primitive (record formation), not a patch. General Born-rule uniqueness, scheduler-independent probability, continuum spacetime reconstruction, and global κ-identifiability remain open theorem programs. Track B supplies the relational substance — present participation, faith, healing, reciprocity — of which Track A's patterns are the measurable trace.
+**Current published research.** The [conditional native theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) states the admitted finite growth law, support, positive small-amplitude lift, surviving-kernel classification and the fixed-amplitude 30/33/38 exclusions with their dependencies. The [law-dependence companion](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) separates optional law choices from coordinate changes and principle-forced identities. Historical-coordinate reconciliation, the actual kernel branch and a native physical forward map remain open at the package's stated scope. The [current priorities](NEXT_STEPS.md) separate prospective public-data replay, physical prediction and application evaluation. RET development remains paused. Publication and software integration create no new mathematical, experimental or production-qualification acceptance; the [public evidence boundary](docs/coordination/REDACTED_PUBLICATION.md) still applies.
+
+**Status:** DET8 separates a falsifiable record-kernel model layer from a **Status-M relational ontology**. Track A's κ-Π clock anomaly is an optional empirical probe gated on operational κ preparation and independent estimation; its outcome does not automatically confirm or refute Track B. DET adopts unchanged GR plus separately declared conventional source models as its gravitational baseline—these are modeling choices, not observations or DET derivations. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$, the assumptions behind complex structure, general Born-rule uniqueness, scheduler-independent probability, continuum reconstruction, and global κ-identifiability remain open. The ontology has no unique empirical discriminator and is evaluated separately for coherence and comparative usefulness.
 
 **Lens yield at a glance.** DET's surface separates into four buckets:
 
@@ -28,19 +30,31 @@ three-slit null) and remain the open frontier; see
 
 DET (Deep Existence Theory) is a two-track framework:
 
-**Track A (Physical Calculus):** The measurable SHADOW. A record-kernel grammar for constructing falsifiable physical models. Its mathematical structures (L, Ω, K, κ, Π) approximately capture the relational dynamics of presence navigating possibility. Its fruit tests itself — the recursion IS the evidence that the underlying relational reality exists.
+**Track A (Physical Calculus):** A record-kernel grammar for constructing falsifiable physical models. L, Ω, K, κ, and Π are formal or fitted quantities, not direct observations. Tests bear on predeclared physical claims through documented instrument-to-quantity inference chains.
 
-**Track B (Ontological Grammar):** The relational SUBSTANCE. Describes the ontological reality (present participation, relational continuity, faith, healing, reciprocity) of which Track A's patterns are the measurable trace. Track B does not merely "interpret" Track A — Track A is the shadow; Track B is the substance.
+**Track B (Ontological Grammar):** A Status-M interpretation involving present participation, relational continuity, faith, healing, and reciprocity. Calling it the “substance” behind Track A's “shadow” is itself an ontological choice and does not inherit evidence from a Track-A success.
 
 ---
 
 ## 2. Primitives
 
+**Record/state/access distinction (13 September 2026).** A committed history
+`C=(V,≺,R_comm)` is distinct from its present residual state `Z` and an
+observer's accessible record. QR-MAP initially uses its existing residual
+`D_C` as `Z`; a new ontological variable is not inferred. Residual activity may
+leave C unchanged, a commit appends one event, and record access is a separate
+operation. Record-time orders/counts commits; it is not established that this
+exhausts present transformation. A fixed law needs sufficient state/context
+inputs, not necessarily records alone. See the
+[implemented semantic contracts](docs/track_b/RECORD_PROCESS_CONTRACT.md).
+These contracts do not supply a native dynamics, first-outcome selection or
+observer-independent geometry. Track-B interpretations remain Status M.
+
 | Primitive | Definition | Module |
 |---|---|---|
 | Event graph | \(\mathcal G = (V, \prec)\) — locally finite partial order | `event_graph.py` |
-| Record | \(\mathcal R\) — committed facts at each node (κ, F, σ, H, C, r, θ, η) | `det8_core.py` |
-| Law map | \(\mathcal L: \mathcal R^- \rightarrow (\Omega, \Sigma, K, \mathcal C)\) — generates possibility object | `mam0.py`, `det8_core.py` |
+| Record | \(\mathcal R_{comm}\) — committed entries; legacy `NodeRecord` is a mutable current-state container, not an immutable history | `record_process.py`, `det8_core.py` |
+| Law map | A fixed rule on sufficient committed/residual state and declared context; \(\mathcal L(\mathcal R^-)\) is record-only shorthand when sufficiency holds | `mam0.py`, `det8_core.py`; QR-MAP completion |
 | Commit kernel | \(K: \Omega \rightarrow [0,1]\) — proper transition kernel | `markov_kernel.py` |
 | Participation aperture | \(\Pi = \sigma \eta (1+F)^{-1}(1+H)^{-1}\phi(v)(1+\lambda_P\kappa)^{-1}\) — proper-time rate | `det8_core.py` |
 | Structural history | κ ∈ [0,1] — **L0/L1 fitted coordinate, not a primitive field** (rank-one special case of a predictive-history coordinate) | `det8_core.py` |
@@ -51,13 +65,13 @@ DET (Deep Existence Theory) is a two-track framework:
 
 ---
 
-## 3. Observable Correspondence Checks (10 active + 5 retired)
+## 3. Physical Correspondence and Regression Checks
 
-These are **correspondence checks**, not derivations: each module shows that a standard result (Born rule, CHSH, Lorentz covariance) is recovered when DET's primitive `κ` (or a kernel root) is mapped onto the standard source/amplitude role. The step from DET primitives to the standard result is *assumed*, not derived — the genuine derivation program (O1–O4) remains open at status CI/AT per §6. This is a necessary consistency step, but it is not the same as a derivation.
+These are **correspondence checks**, not derivations. They recover a target relation after its standard mathematical structure or an explicit mapping has been supplied. The step from DET records to that structure is not established by reproducing the target arithmetic.
 
-**Option B (Round 6):** the 5 gravity/Kepler rows below are **RETIRED** — κ no longer sources gravity, so there is no κ-gravity to "correspond" to. They are retained for audit only. The 10 active rows are the quantum + Lorentz + measurement checks, tied to the participation/proper-time structure.
+**Legacy boundary:** all gravity/Kepler rows below are **RETIRED** and executable only as historical regression fixtures. The Lorentz rows are synthetic known-answer checks: they supply Minkowski coordinates, interval, invariant speed, and boosts. See `legacy_gravity_quarantine.py` and `docs/CONTINUUM_LIMIT_FRAMEWORK.md`.
 
-| # | Observable | Correspondence | Module |
+| # | Target relation | Correspondence | Module |
 |---|---|---|---|
 | 1 | Born rule \(K(i)=\|c_i\|^2\) | Kernel roots + linear composition | `born_derivation.py` |
 | 2 | CHSH \(S=2\sqrt{2}\) | Bell state roots under rotation | `chsh_derivation.py` |
@@ -65,11 +79,11 @@ These are **correspondence checks**, not derivations: each module shows that a s
 | 4 | 1/r² force law | **RETIRED** — κ-charge superposition (no κ-gravity) | `det_gravity.py` |
 | 5 | \(\nabla^2\Phi = 4\pi G_q\rho_\gamma\) | **RETIRED** — discrete Laplacian limit (no κ-gravity) | `det_gravity.py` |
 | 6–8 | Kepler's laws 1–3 | **RETIRED** — DET orbits (no κ-gravity) | `newton_correspondence.py` |
-| 9 | Time dilation | Event density ratio from ≺ | `lorentz_derivation.py` |
-| 10 | Length contraction | Relativity of simultaneity in ≺ | `lorentz_derivation.py` |
-| 11 | Relativity of simultaneity | Frame-dependent spacelike foliations | `lorentz_derivation.py` |
-| 12 | Lorentz transformations | Symmetries preserving ≺ | `lorentz_derivation.py` |
-| 13 | Velocity addition | Boost composition | `lorentz_derivation.py` |
+| 9 | Time dilation | **Synthetic CORR** — standard Minkowski formula | `lorentz_derivation.py` |
+| 10 | Length contraction | **Synthetic CORR** — standard Minkowski formula | `lorentz_derivation.py` |
+| 11 | Relativity of simultaneity | **Synthetic CORR** — supplied Lorentz boost | `lorentz_derivation.py` |
+| 12 | Lorentz transformations | **Synthetic CORR** — interval-invariance check | `lorentz_derivation.py` |
+| 13 | Velocity addition | **Synthetic CORR** — composition of supplied boosts | `lorentz_derivation.py` |
 | 14 | Pointer-record formation | Consensus of N weak commit events | `det_native_measurement.py` |
 | 15 | Amplitude structure (ℂ) | Continuous interference from kernel roots | `chsh_derivation.py` |
 
@@ -77,7 +91,7 @@ These are **correspondence checks**, not derivations: each module shows that a s
 
 ## 4. Track A — Physical Predictions
 
-> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** falsifiable prediction is the κ-Π clock anomaly (the λ_P channel). The gravity-decoupling prediction and the two-source law (α channel) are **RETIRED** — gravity is standard GR, and dark matter is not explained by DET.
+> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** falsifiable prediction is the κ-Π clock anomaly (the λ_P channel). The gravity-decoupling prediction and the two-source law (α channel) are **RETIRED**. DET adopts unchanged GR plus separately declared conventional source models as its baseline; these are modeling choices, not observations or DET derivations.
 
 | Prediction | Formula | Measurement | Sensitivity |
 |---|---|---|---|
@@ -190,16 +204,16 @@ Finite DNS is numerical evidence, not proof. See
 
 ## 5. Track B — Ontological Grammar
 
-Four deadlocks addressed (see `ONTOLOGY.md` and `det_falsification.ontology_claim_register()`):
+Four topics receive interpretive proposals (see `ONTOLOGY.md` and `det_falsification.ontology_claim_register()`):
 
-| Deadlock | Resolution | Epistemic status |
+| Topic | DET proposal | Epistemic status |
 |---|---|---|
-| **Time** | Block universe → record-growth time (Crystallizing Block) | **ADOPTED** (Ellis 2014) — borrowed, not DET-native |
-| **Quantum** | Many-worlds/hidden variables → real, complex, grade-2, Born relational constraint | **ADOPTED as a coherent account** — complex + grade-2 empirically anchored; Born is an L2-consistency check (not a derivation); the open-outcome pillar stays Status M |
-| **Agency** | Epiphenomenalism/dualism → present-enactment agency | **QUARANTINED** — the ontological gloss is Status M |
-| **History** | Retrocausality → mutable structural carrying (κ) | **RELABELED** — standard internal-variable free energy |
+| **Time** | record-growth time, without activity exhaustivity | **M** — record order/count does not prove that all present transformation is record production; relativity does not select this ontology |
+| **Quantum** | open, real relational constraint | **M for openness and realism** — complex/grade-2/Born components have conditional mathematical or correspondence roles |
+| **Agency** | present-enactment agency | **M, quarantined** — record-side proxies do not establish agency |
+| **History** | mutable structural carrying | **M for the reading** — κ is a fitted predictive-history coordinate |
 
-None of the four is a DET-native derivation; the honest framing is a *coherent synthesis* of existing proposals, not "resolved from primitives" — a contribution in its own right, but stated as such.
+None is a DET-native ontological derivation or has a unique empirical discriminator. Their formal and empirical dependencies are reported separately from the interpretations.
 
 ---
 
@@ -213,7 +227,7 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | O2 | CHSH 2√2 | ✅ Resolved | **CI/FT** — CHSH supremum 2√2 proven (SOS); correlation classes characterized; Q for (2,2,2) = TLM/Masanes (verified); Q⊊Q̃ via the B inequality; "global record extendability ⇒ Q" is a theorem (NPA convergence), residual settled; why-ℂ addressed (ℝ falsified empirically; ℂ forced by reversible dynamics O∩Sp=U(m) → J=G⁻¹Ω) | AT: why one Ω / why reversible dynamics (speculative §3.4) |
 | O3 | Confluence | ✅ Resolved | **CI/FT** — Support confluence in finite cases | AT: Distributional scheduler independence over all linear extensions |
 | O4 | Joint kernel | ✅ Resolved | **CI** — Nonfactorizable finite construction | AT: Global consistency, analytic no-signalling, covariance |
-| O7 | Event graph → Lorentzian | ✅ Resolved | **I/CI** — T7 order-and-count geometry: dimension/null-structure/conformal-factor estimators verified on known Minkowski sprinklings (Malament/HKM, Myrheim–Meyer cited) | CT: Manifoldlike emergence (embedding + uniqueness) — open, inherited from causal set theory |
+| O7 | Event graph → Lorentzian | ✅ Resolved | **Synthetic CORR only** — T7 estimators are checked on samples generated from known Minkowski geometry; no DET manifold emergence is established | Define a native growth law, then prove or empirically discriminate manifoldlike emergence without inserting the target geometry |
 | O8 | Preferred basis | ✅ Resolved | **I** — Apparatus-controllability account | FT: Redundant record formation stability theorem |
 | M0 | Proper-time consistency | — | **FT** — Fixed: Δτ = Π·ΔN, N ≠ κ | — |
 | **O9-RID** | **Resurrection identity bridge** | — | **Open** — PID-C/PID-M split. Track B. | Numerical identity across embodied interruption. See `docs/track_b/resurrection.md`. |
@@ -242,27 +256,28 @@ det8/models/
 ├── confluence.py, confluence_resolution.py  # Confluence (O3)
 ├── markov_kernel.py                    # MeasurableSpace, TransitionKernel
 ├── det_simulation.py                   # Multi-node DetUniverse
-├── q_gravity.py                        # κ-gravity toy (retired)
+├── q_gravity.py                        # QUARANTINED historical κ-gravity
 ├── joint_kernel.py                     # Joint kernel sketch
-├── det_native_spacetime.py             # Time dilation (derived)
+├── det_native_spacetime.py             # Kinematic interpretation; emergence open
 ├── det_native_measurement.py           # Pointer formation (derived)
 ├── born_derivation.py                  # Born rule (O1)
 ├── chsh_derivation.py                  # CHSH + amplitudes (O2)
-├── det_gravity.py                      # Field equation (retired)
-├── lorentz_derivation.py               # Lorentz covariance (derived)
-├── newton_correspondence.py            # Newton verification
+├── det_gravity.py                      # QUARANTINED historical field equation
+├── lorentz_derivation.py               # Synthetic SR known-answer checks
+├── newton_correspondence.py            # QUARANTINED calibrated Newton fixture
 ├── structural_proxy.py                 # κ measurement protocol
 ├── clock_anomaly.py, clock_experiment.py  # Track A clock
-├── gravity_experiment.py               # Track A gravity (retired)
+├── gravity_experiment.py               # QUARANTINED historical simulator
 ├── track_a.py                          # Track A pre-registrations
 ├── time_evolution.py                   # Schrödinger (derived)
 ├── kappa_diffusion.py                  # κ-diffusion on bonds
-├── unified_simulation.py               # All layers unified
+├── unified_simulation.py               # QUARANTINED (activates retired gravity)
 ├── o4_joint_kernel.py                  # O4 resolution
-├── o7_causal_spacetime.py, o7_derivation.py, o7_continuum_limit.py  # O7
+├── o7_causal_spacetime.py, o7_derivation.py, o7_continuum_limit.py  # QUARANTINED O7 chain
 ├── preferred_basis.py                  # O8 resolution
 ├── anthropic_principle.py              # Anthropic Principle (F12)
-├── gravity_v2.py                       # Two-source gravity (F2 resolution)
+├── gravity_v2.py                       # QUARANTINED withdrawn two-source law
+├── legacy_gravity_quarantine.py        # Executable retirement boundary
 ├── kappa_discriminator.py              # κ vs defect density (F9)
 ├── det_units.py                        # SI ↔ DET units conversion
 ├── det_falsification.py                # Falsification ladder + data guardrail
@@ -273,7 +288,7 @@ det8/models/
 
 ## 8. Dataset Analysis Results
 
-> **Deprecated (Round 6, Option B):** the astrophysics rows below (galaxy rotation, clusters, solar-system κ-gravity, λ_P-from-clock "constraints" on gravity) belong to the **retired** gravity-modification program. DET no longer claims any gravitational anomaly; gravity is GR and dark matter is standard. These rows are retained for historical audit only.
+> **Deprecated (Round 6, Option B):** the astrophysics rows below (galaxy rotation, clusters, solar-system κ-gravity, λ_P-from-clock "constraints" on gravity) belong to the **retired** gravity-modification program. DET no longer claims a gravitational anomaly and instead adopts unchanged GR with separately declared conventional source models as baselines. These rows are retained for historical audit only.
 
 > **⚠ Reproducibility & vacuity caveats (Round 3 red-team).** Several rows below are not reproducible from the committed tree or overstate what was established: (1) the SPARC "135 galaxies" fit uses 43 hardcoded galaxies with an empty data file; (2) all λ_P bounds are constraints on the *product* λ_P·Δκ with Δκ **assumed**, so λ_P is unconstrained until κ is independently measured; (3) "κ ∝ Z EXCLUDED" was a straw-man (no one proposed κ ∝ Z) — the legitimate statement is only that terrestrial materials have nearly equal κ; (4) "κ(r) from galaxy formation physics" is now **implemented** from Σ_*/Σ_SFR/age, but it gives the wrong radial direction (κ *decreases* with radius for the observed inside-out growth r_SFR > r_d) — the reset-by-SFR mechanism needs revision. See `PHYSICS.md` and `kappa_derivation.radial_gradient_check`.
 
@@ -291,7 +306,7 @@ det8/models/
 | **BAO constraint** | `remaining_items.py` | \|Δκ\|/κ < 0.02 (z=1100 to z=0). DESI/Euclid testable. |
 | **Track A refined sensitivity** | `remaining_items.py` | λ_P < 2×10⁻¹⁷ (Δκ=0.1); up to λ_P < 2×10⁻¹⁶ (Δκ=0.01). |
 | GPS satellite clocks (IGS) | `gps_analysis.py` | λ_P < 3.5×10⁻⁹ (Δκ≈10⁻⁶). Weaker than lab clocks. κ dominated by material history, not orbital environment. |
-| **Continuum limit (CL1-CL11)** | `continuum_limit_*.py` (14 modules) | Candidate continuum-limit program: measure, metric, κ-field, curvature, LGH, BD action, stress-energy, Bianchi. Formal CT remains open. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
+| **Continuum limit (legacy CL1-CL11)** | `continuum_limit_*.py` | **QUARANTINED** — supplied-geometry simulations and retired Π/κ gravity claims; no continuum theorem or Einstein emergence. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
 
 ---
 
@@ -330,7 +345,7 @@ det8/models/
 
 ## 11. Test Suite
 
-**751/752 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**767/767 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
 
 The test suite verifies **internal consistency**, not empirical validity:
 - ✅ Code correctly implements mathematical axioms.

@@ -1,0 +1,441 @@
+{
+  "all_transitive_dependencies_archived": false,
+  "complete_runtime_archive": false,
+  "copies": [
+    {
+      "original": {
+        "bytes": 3892,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_NONAUTHOR_REVIEW.json",
+        "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+      },
+      "path": "root_review/RI209_NONAUTHOR_REVIEW.json"
+    },
+    {
+      "original": {
+        "bytes": 2690,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+        "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+      },
+      "path": "root_review/RI209_ROOT_SOURCE_DECISION.json"
+    },
+    {
+      "original": {
+        "bytes": 29123,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/MEASUREMENT_BOUNDARY.json",
+        "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+      },
+      "path": "root_review/MEASUREMENT_BOUNDARY.json"
+    },
+    {
+      "original": {
+        "bytes": 2782,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+        "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+      },
+      "path": "root_review/RI213_REPAIR_ASSIGNMENT.json"
+    },
+    {
+      "original": {
+        "bytes": 3334,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+        "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+      },
+      "path": "root_review/RI212_LITERAL_COMPLEMENT_ADMISSION.json"
+    },
+    {
+      "original": {
+        "bytes": 704,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/ROOT_ADMIN_DIAGNOSTIC.json",
+        "sha256": "52b46b5649116fd2bbb337a191ab9501c5534a943beba5e3fcb64973e5b0c727"
+      },
+      "path": "root_review/ROOT_ADMIN_DIAGNOSTIC.json"
+    },
+    {
+      "original": {
+        "bytes": 1584,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/ACTUAL_ROOT_CHECKS_AND_DISPATCH.json",
+        "sha256": "56dfb3936e8c8b59e786a5597322de47b4b7f7b475c257f4e3f10516613470b0"
+      },
+      "path": "root_review/ACTUAL_ROOT_CHECKS_AND_DISPATCH.json"
+    },
+    {
+      "original": {
+        "bytes": 9770,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/record_followthrough.failed-6cc5a8.py",
+        "sha256": "e6b5cee23051d0f71bd1881c6145a536f68bec40176d237f4d2cc7eec3dab660"
+      },
+      "path": "root_review/record_followthrough.failed-6cc5a8.py"
+    },
+    {
+      "original": {
+        "bytes": 10422,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/record_followthrough.py",
+        "sha256": "7eb42e5eb758ae22bb0a3309104643d5acde455badbaa9dbbc9b2072b0fc4349"
+      },
+      "path": "root_review/record_followthrough.py"
+    },
+    {
+      "original": {
+        "bytes": 5766,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/publish_followthrough.py",
+        "sha256": "09cfe58aa925dfeafb44d2a526717040f26a400cb79004756aa7bbd9815a2885"
+      },
+      "path": "root_review/publish_followthrough.py"
+    },
+    {
+      "original": {
+        "bytes": 2860,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+        "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+      },
+      "path": "native_sources/RI212_LITERAL_SEED_RELATION_ADMISSION.json"
+    },
+    {
+      "original": {
+        "bytes": 2224,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/VERIFIED_REMOTE_CHECKPOINT.json",
+        "sha256": "51380cef5c1e583d43365aed9fc8e9945e1a73abd2489c61432d69902ddd39ae"
+      },
+      "path": "prior_checkpoint/VERIFIED_REMOTE_CHECKPOINT.json"
+    },
+    {
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    }
+  ],
+  "dependencies": [
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3892,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_NONAUTHOR_REVIEW.json",
+        "sha256": "342d61287475c4376abfb7fa4dda0964bd7a6da4a968e8d8f361eb2c44e223b8"
+      },
+      "path": "root_review/RI209_NONAUTHOR_REVIEW.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2690,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI209_ROOT_SOURCE_DECISION.json",
+        "sha256": "fcc0dca49359fc883477f7a07885bbb881e4f73da74847babc77f0b68e4b6d85"
+      },
+      "path": "root_review/RI209_ROOT_SOURCE_DECISION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 29123,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/MEASUREMENT_BOUNDARY.json",
+        "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+      },
+      "path": "root_review/MEASUREMENT_BOUNDARY.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2782,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI213_REPAIR_ASSIGNMENT.json",
+        "sha256": "4ff18523d648b5b8a6a116db2cf7cd34a5e7ddb9da6e7fd5458af3f842891d9c"
+      },
+      "path": "root_review/RI213_REPAIR_ASSIGNMENT.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3334,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+        "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+      },
+      "path": "root_review/RI212_LITERAL_COMPLEMENT_ADMISSION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 704,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/ROOT_ADMIN_DIAGNOSTIC.json",
+        "sha256": "52b46b5649116fd2bbb337a191ab9501c5534a943beba5e3fcb64973e5b0c727"
+      },
+      "path": "root_review/ROOT_ADMIN_DIAGNOSTIC.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 1584,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/ACTUAL_ROOT_CHECKS_AND_DISPATCH.json",
+        "sha256": "56dfb3936e8c8b59e786a5597322de47b4b7f7b475c257f4e3f10516613470b0"
+      },
+      "path": "root_review/ACTUAL_ROOT_CHECKS_AND_DISPATCH.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 9770,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/record_followthrough.failed-6cc5a8.py",
+        "sha256": "e6b5cee23051d0f71bd1881c6145a536f68bec40176d237f4d2cc7eec3dab660"
+      },
+      "path": "root_review/record_followthrough.failed-6cc5a8.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 10422,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/record_followthrough.py",
+        "sha256": "7eb42e5eb758ae22bb0a3309104643d5acde455badbaa9dbbc9b2072b0fc4349"
+      },
+      "path": "root_review/record_followthrough.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 5766,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/publish_followthrough.py",
+        "sha256": "09cfe58aa925dfeafb44d2a526717040f26a400cb79004756aa7bbd9815a2885"
+      },
+      "path": "root_review/publish_followthrough.py"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2860,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+        "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+      },
+      "path": "native_sources/RI212_LITERAL_SEED_RELATION_ADMISSION.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 2224,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/VERIFIED_REMOTE_CHECKPOINT.json",
+        "sha256": "51380cef5c1e583d43365aed9fc8e9945e1a73abd2489c61432d69902ddd39ae"
+      },
+      "path": "prior_checkpoint/VERIFIED_REMOTE_CHECKPOINT.json"
+    },
+    {
+      "location": "archive",
+      "original": {
+        "bytes": 3144,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+        "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+      },
+      "path": "root_review/metadata.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 3490,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/publication_helpers.py",
+        "sha256": "8b04758d4e19988f67d0d96e86c93a8eb5405704f5b2a3e3d0b401f33afa4277"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/publication_helpers.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 3681,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/CURRENT_FOLLOWTHROUGH.md",
+        "sha256": "da7e1222e605de4c660ce91577a00391b9278e3bfb8175011d46d95f7958ede3"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/CURRENT_FOLLOWTHROUGH.md"
+    },
+    {
+      "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+      "location": "existing_git",
+      "original": {
+        "bytes": 8385,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+        "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+      },
+      "path": "docs/track_b/native_global_maximum_weighted_sign_v1/root_review/RI212_NATIVE_ASSIGNMENT.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 2948,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/build_inputs.py",
+        "sha256": "dd76beff6fdb760218dc3bf322d2b36fdc8aab9c813eb3a8fbd7718f5346da63"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/build_inputs.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 571,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_DIAGNOSTIC_5325f0.json",
+        "sha256": "e1ab901620fb0331e751034d34ebfe06ba4cac143f3193447dbeab54540317af"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_DIAGNOSTIC_5325f0.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 1650,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+        "sha256": "04e1ab89f1417cbb9b7a1707182680a1b38582fedf0a5be0f029cd28e0c53e03"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHOR_ADMIN_CHECK.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 6621,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json",
+        "sha256": "b507c85ff8d4fbe37093854376c71de5de293dfeea3308c6236a1de48e2260df"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/HANDOFF.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 1115,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_PINS.json",
+        "sha256": "49deb90698eecc17823f513a5d62d4ec9ebb93e76a66c53b9f94b7bfe6515e1a"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_PINS.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 18103,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/install_freeze.py",
+        "sha256": "9e6ad93198131d1155825e083ffafc9d58e052cf9d7a8dbea478048ed7efaed3"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/install_freeze.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 40506,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_DIFF.patch",
+        "sha256": "9141369e216169ca162fbe7696908bf991a9499c80a2e0692275b0fc18ae77b3"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/SOURCE_DIFF.patch"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 5768,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.failed-5325f0.py",
+        "sha256": "00eff7199caa53cf6ed4ea27eca42aeb9e0c7b7937e41235b4ebef4706f97b82"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.failed-5325f0.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 753,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_FAILED_5325f0.log",
+        "sha256": "05d03ff124a0d93b1d2a94ae5fbb90a3be348554b9a67921eb681237c027f400"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ADMIN_FAILED_5325f0.log"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 5775,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.py",
+        "sha256": "99abe9c1a9b9095e78ef44c75e7f386d9e92b7ed6a4523e46b2b39ad19f23f16"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/admin_check.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 3282,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHORING_RECORD.json",
+        "sha256": "178df8e92a441238ebfc1707f5cea7487a5c57a16a7d242b4be2af68108a6dfb"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/AUTHORING_RECORD.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 21944,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/check_installation.py",
+        "sha256": "3effbc867be2c35a49c311a4ddc81cdf7f1528493b427186867e00ff161aa2f8"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/check_installation.py"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 677925,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/INPUT_PINS.json",
+        "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/INPUT_PINS.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 2708,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json",
+        "sha256": "0cb49cf1be39698c8e37f39ac37c363f29d4c6bed656098e4e008938b16df27b"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/ACTUAL_ADMIN_RECEIPTS.json"
+    },
+    {
+      "location": "external_original",
+      "original": {
+        "bytes": 17528,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/PROTOCOL.md",
+        "sha256": "b7ca38ddfd71c831c9369acb010a7c8702330d81ba56ec9262acf520852958c8"
+      },
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri209-freeze-installation-b3bokxbe/worker_proposal/PROTOCOL.md"
+    },
+    {
+      "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+      "location": "existing_git",
+      "original": {
+        "bytes": 3143,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/FREEZE_CANDIDATE_ACCEPTANCE.json",
+        "sha256": "0e4611497c9339ffdb04f269576db0b85ee0e49ce474d65f8287ebede4f55d25"
+      },
+      "path": "docs/coordination/measurement_actual_freeze_candidate_v1/root_review/FREEZE_CANDIDATE_ACCEPTANCE.json"
+    },
+    {
+      "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+      "location": "existing_git",
+      "original": {
+        "bytes": 13499,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+        "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+      },
+      "path": "docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md"
+    },
+    {
+      "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+      "location": "existing_git",
+      "original": {
+        "bytes": 13499,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/ENDPOINT_CERTIFICATE.md",
+        "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+      },
+      "path": "docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md"
+    },
+    {
+      "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+      "location": "existing_git",
+      "original": {
+        "bytes": 28127,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+        "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a"
+      },
+      "path": "docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md"
+    }
+  ],
+  "dependency_locations": {
+    "archive": 13,
+    "existing_git": 5,
+    "external_original": 17
+  },
+  "parent": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-map-v1",
+  "source_only": true
+}

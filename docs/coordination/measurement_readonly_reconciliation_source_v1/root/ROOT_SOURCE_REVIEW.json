@@ -1,0 +1,48 @@
+{
+  "RET_paused": true,
+  "actual_independent_check": "8d2b86 exit0: 66729 metadata/text predicates, 982 opaque files",
+  "actual_root_check": "d6a877/session95527 -> 95328e exit0",
+  "frozen_custody_accepted": false,
+  "independent_review": {
+    "bytes": 4924,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-independent-recovery-review-_vv8hup3/HANDOFF.json",
+    "sha256": "d676800276fd0f2834009b5ee9f32fe8ad77d8890a4ee3353c22d08076043a85"
+  },
+  "mode_admission": false,
+  "original_installation_remains_refused": true,
+  "packet": {
+    "bytes": 9657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/HANDOFF.json",
+    "sha256": "bead93928f1f1af37379f4d8add4c5e254b31633fa8d00acb274a2739d237fdc"
+  },
+  "preparation_or_execution_admitted": false,
+  "qualification_credit": 0,
+  "retained_failure": {
+    "bytes": 2054312,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw/COMPLETE.json",
+    "sha256": "e2ec8b3a84520aeb7f2b99fedce475ac9ffa99b51863dc5970213abdbe952c58"
+  },
+  "retained_postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "root_manual_review": {
+    "bytes": 3060,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI226_ROOT_REVIEW.md",
+    "sha256": "e264da9e5891a445c61739d671104b94b962ed78d2da31fc659f79e5793a272f"
+  },
+  "root_metadata_check": {
+    "bytes": 901,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri227-root-profile-review-chshj2qq/RI226_ROOT_SOURCE_METADATA.json",
+    "sha256": "c13af22480b53f48faa28eb443fc64d17483f45b807af26996e4cb7602cce100"
+  },
+  "schema": "ri226-root-source-review-v1",
+  "source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "source_only": true,
+  "status": "ACCEPT_RI226_READ_ONLY_RECONCILIATION_SOURCE_ONLY"
+}

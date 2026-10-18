@@ -1,0 +1,101 @@
+{
+  "author_check": {
+    "chunk": "59d5a6",
+    "exit_code": 0,
+    "pinned_inputs": 715,
+    "predicates": 4915,
+    "required_consumer_references": 42
+  },
+  "author_prior_RI160_authorship_disclosed": true,
+  "candidate_acceptance": false,
+  "execute_only_at_original_worker_path": true,
+  "freeze": false,
+  "handoff": {
+    "bytes": 4966,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/HANDOFF.json",
+    "sha256": "fa6f25e0d79eaca70050c622e189f16b9fac897446a8d25b66089ab931ebef98"
+  },
+  "independent_review": {
+    "bytes": 4950,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/INDEPENDENT_PREPARATION_REVIEW.json",
+    "sha256": "23e2af4e4b71febda62889cb532100bbc99af35f7284724c4eb1877ead49d205"
+  },
+  "manual_review": "Root reviewed full draft and complete final prepare/predispatch/postcheck sources and notes, accepted RI200 source framing, literal monitor bootstrap, actual adapter/bindings/retained-contract branches. Final reread1c9fbe recovered clipped notes in48bf37. No blocker.",
+  "operation": "one prospective adapters administrative action; root separately reviews prepared dispatch before launch",
+  "payloads": [
+    {
+      "bytes": 2748,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/AUTHORING_RECORD.json",
+      "sha256": "c5158a74be2531d48ebfeb48e07b282a70b7242490e2ba3cb70e293a8ed05567"
+    },
+    {
+      "bytes": 1545,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/AUTHOR_ADMIN_CHECK.json",
+      "sha256": "cc457b2f3e775cc0baa4d9ff8b164302e1f35f701133edfce1ab3683d8c0a1f9"
+    },
+    {
+      "bytes": 11142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/CLOSURE_SEEDS.json",
+      "sha256": "bd796aae39a7984fe4fb4c6d57f6741bbe141fcd155af8f7c7e7f3093ef1824b"
+    },
+    {
+      "bytes": 9476,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/PROPOSAL_NOTES.md",
+      "sha256": "f0f72a11c88ec3718611040754a3393147cc9c15ad73e91cbaea53e52ac596c0"
+    },
+    {
+      "bytes": 35316,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/SOURCE_DIFF.patch",
+      "sha256": "04f5e52a9728e1cbf304ddfaf9594746a11452926951a9f00a7badd8d9724426"
+    },
+    {
+      "bytes": 2835,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/SOURCE_PINS.json",
+      "sha256": "56d69cb652fbfd000d29b4083f92014715d0721d53735836380975b86bb44374"
+    },
+    {
+      "bytes": 6293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/admin_check.py",
+      "sha256": "86a3d75adb26c49fc95836f7fb4b825b4fef57081e80e82d699ba04edd89376c"
+    },
+    {
+      "bytes": 16287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/check_adapters.py",
+      "sha256": "5f37887202e59ae4f0c7cf61785b52f992fef168bdcdba3db90e78fed7f8559c"
+    },
+    {
+      "bytes": 2942,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/finalize_source.py",
+      "sha256": "195f016592e2a0e8217aa598e3ac1d5471ee9dc74f9b8552ba61df566c080f7c"
+    },
+    {
+      "bytes": 18534,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/generate_proposals.py",
+      "sha256": "00c404e237ae3cbdee25af06a5b785b6321d5badcab64836eb76b2d79a70e2f1"
+    },
+    {
+      "bytes": 3409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/predispatch.py",
+      "sha256": "2d0d99f079ce0fabc3fa542e025c55d0d51f1a882aa1f45e5b3127bd3898bfdc"
+    },
+    {
+      "bytes": 14855,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/prepare_adapters.py",
+      "sha256": "834697b0685366cbd3f46bd077c4d92d2ab3bf407ce3412c350a8d6583f3506e"
+    }
+  ],
+  "ret_paused": true,
+  "root_source_reads": [
+    "457b71",
+    "ca3101",
+    "c31668",
+    "812fd7",
+    "ddcf9f",
+    "6bfd78",
+    "1319b5",
+    "1c9fbe"
+  ],
+  "schema": "ri204-root-preparation-decision-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_SEALED_SOURCE_FOR_ONE_FRESH_PREPARATION"
+}

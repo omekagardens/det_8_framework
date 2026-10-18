@@ -1,0 +1,124 @@
+{
+  "controls_executed": 0,
+  "date": "2026-09-30",
+  "display_recovery": {
+    "description": "Combined two-result display exceeded aggregate output allowance; underlying reads succeeded. Complete checker/verdict/actual-check/sealer bodies reread separately.",
+    "recovery_chunks": [
+      "3584ea",
+      "2e1577",
+      "79bae3"
+    ]
+  },
+  "failures": [
+    {
+      "chunk": "69255f",
+      "exit_code": 1,
+      "observed_stderr": "zsh:1: no matches found: /Volumes/AI_DATA/development/det-review-evidence/ri156-complete*/README.md\n",
+      "purpose": "read-only protocol search using unmatched glob",
+      "recovered_by": [
+        "c1a78e",
+        "5cd67c"
+      ]
+    }
+  ],
+  "independent_actual_checks": {
+    "bytes": 2714,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-independent-fixture-review-zhizl2vs/ACTUAL_CHECKS.json",
+    "sha256": "5d278068694e0812f2ceafc7b7acc4c138f27eed74467f3eece0c0baff3975f3"
+  },
+  "notes": [
+    "RI161 reviewer followup and RI162 existing-author followup delivered after respective authentication/disposition.",
+    "Publication check and actual remote receipt follow outside this source record."
+  ],
+  "replay_stderr": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/CHECK.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "replay_stdout": {
+    "bytes": 576,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/CHECK.stdout",
+    "sha256": "fd00027cda9f2805ed79471f0df82430aabcf51b4f9519473d82c8f86ac210e8"
+  },
+  "retained_historical_failures": true,
+  "schema": "ri160-root-source-actual-tools-v1",
+  "scientific_decode": false,
+  "subject_import_compile_AST_probe_run": false,
+  "successful": [
+    {
+      "chunk": "13752f",
+      "exit_code": 0,
+      "purpose": "current plan/progress/handoff and ret/upstream/index"
+    },
+    {
+      "chunk": "dc542f",
+      "exit_code": 0,
+      "purpose": "full RI161 and RI160 independent seal authentication,entry snapshot,new independent review assignment"
+    },
+    {
+      "chunk": "5bf59d",
+      "exit_code": 0,
+      "purpose": "full independent narrative in combined display; clipped aggregate remainder recovered separately"
+    },
+    {
+      "chunk": "3584ea",
+      "exit_code": 0,
+      "purpose": "complete independent administrative checker"
+    },
+    {
+      "chunk": "e09a9f",
+      "exit_code": 0,
+      "purpose": "complete289-line adapter"
+    },
+    {
+      "chunk": "94847e",
+      "exit_code": 0,
+      "purpose": "integration controls1-268"
+    },
+    {
+      "chunk": "52d845",
+      "exit_code": 0,
+      "purpose": "integration controls269-402 and full new control contract"
+    },
+    {
+      "chunk": "2e1577",
+      "exit_code": 0,
+      "purpose": "complete repair contract,README and recovered verdict"
+    },
+    {
+      "chunk": "ad1f74",
+      "exit_code": 0,
+      "purpose": "root opaque/text administrative replay"
+    },
+    {
+      "chunk": "c1a78e",
+      "exit_code": 0,
+      "purpose": "literal protocol path discovery and replay summary"
+    },
+    {
+      "chunk": "5cd67c",
+      "exit_code": 0,
+      "purpose": "complete inherited invocation protocol"
+    },
+    {
+      "chunk": "79bae3",
+      "exit_code": 0,
+      "purpose": "recovered complete independent actual checks and sealer"
+    },
+    {
+      "chunk": "f3f7ad",
+      "exit_code": 0,
+      "purpose": "full actual patch and canonical/tree/tail source"
+    },
+    {
+      "chunk": "58d82a",
+      "exit_code": 0,
+      "purpose": "complete report equality and599fresh/review-pin rechecks"
+    },
+    {
+      "chunk": "b47783",
+      "exit_code": 0,
+      "purpose": "root source disposition and RI162 preflight assignment"
+    }
+  ]
+}

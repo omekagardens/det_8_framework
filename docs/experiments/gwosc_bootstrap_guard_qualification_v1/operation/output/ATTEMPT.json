@@ -1,0 +1,61 @@
+{
+  "admission": {
+    "bytes": 3786,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json",
+    "sha256": "1f497cc7085c77ffa07d6b3f05bf6173c4a49ebff71de6d213080e215329986d"
+  },
+  "captured_loaded_bytes": {
+    "bytes": 44082,
+    "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+  },
+  "child_command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+    "--output",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls"
+  ],
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "external_premises": {
+    "apple_loader_and_cache_external": true,
+    "genuine_bootstrap_host_preflight_external": true,
+    "genuine_tool_completion_external": true,
+    "sampled_child_only_not_parent_or_group_quota": true,
+    "saved_parent_pid_not_authenticated_child_identity": true,
+    "stable_supplier_host_and_no_descendants": true
+  },
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "loaded_module": {
+    "bytes": 44082,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+  },
+  "schema": "ri144-bootstrap-launcher-attempt-v1",
+  "scientific_execution": false
+}

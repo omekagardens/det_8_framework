@@ -1,0 +1,98 @@
+{
+  "RET_paused": true,
+  "actual_data_admitted": false,
+  "actual_reviewer_check": {
+    "bytes": 1442,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/ACTUAL_REVIEWER_CHECK.json",
+    "sha256": "63b029d73485b52f23ca563aeea2d942195344e58702018e03c4c0b2b39a85bf"
+  },
+  "blocking_findings": [],
+  "complete_review": {
+    "bytes": 22143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "e8f99129955811cd382f62c7c4de956c3540f997e0712a40c82b54480c661ff3"
+  },
+  "controls_executed": 0,
+  "coverage": {
+    "added": 30,
+    "added_recipe": 1,
+    "changed_wrapper_spans": 4,
+    "copied_primitive_spans": 13,
+    "full_protocol_delta_and_ancestry": true,
+    "harness_lines": 339,
+    "inherited_RI139_subset": 310,
+    "inherited_RI141": 442,
+    "launcher_lines": 397,
+    "opaque_bytes": 26701752,
+    "opaque_dependencies": 472,
+    "packet_files": 10,
+    "protected_namespace_roots": 393,
+    "removed_old_inspectors": 2,
+    "source_modules": 2,
+    "unchanged_wrapper_spans": 14
+  },
+  "current_runtime_qualified": false,
+  "current_supplier_or_runtime_observed": false,
+  "execution_admitted": false,
+  "independent_check": {
+    "bytes": 134963,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/OPAQUE_TEXT_CHECK.json",
+    "sha256": "120bfdeecf465558561734a81267c7ce12296d696b9e4f447923a471d976736f"
+  },
+  "manual_case_review": {
+    "B03_canonical_mutation_with_original_pin": true,
+    "B07_variants": 6,
+    "fixed_cases": 15,
+    "full_first_error_trace_and_prohibited_later_observers_reviewed": true,
+    "namespace_child": 33,
+    "namespace_parent_with_child": 43,
+    "observer_substitutions_explicit": true,
+    "positive_expectations": 1,
+    "real_reader_parser_and_comparisons": true,
+    "refusal_expectations": 14,
+    "whole_real_target_load": true
+  },
+  "manual_trace_lengths_not_executed": {
+    "B01": 28,
+    "B02": 1,
+    "B03": 9,
+    "B04": 19,
+    "B05": 20,
+    "B06": 20,
+    "B07_bytes": 21,
+    "B07_path": 21,
+    "B07_resolved_path": 21,
+    "B07_sha256": 21,
+    "B07_state": 21,
+    "B07_symlink_chain": 21,
+    "B08": 24,
+    "B09": 26,
+    "B10": 28
+  },
+  "next_step": "Root adjudicates exact source; fresh genuine bootstrap/source/environment/host custody and closed separate cards may then support one actual normal isolated15 run. Independently review actual15 before separate real production capture.",
+  "nonblocking_limits": [
+    "Private authority operands and supplier observers qualify only the isolated function boundary, not production authenticate or real startup.",
+    "Wrapper recipe reconstruction is same-author administrative consistency; separate actual nonauthor/root review remains necessary.",
+    "Successful parent43 domain and final exclusions require external actual review; the source records the complete parent tree without enforcing that closed success set.",
+    "Late child namespace-write failure may follow a saved success label; nonzero actual child completion remains rejection and no report-only acceptance is permitted.",
+    "External source/supplier/host/cache/loader/tool-origin/timeout/cleanup premises and sampled-child/parent-PID limitations remain.",
+    "Old25 retains original source/double credit; new closure performance and actual15 remain unobserved."
+  ],
+  "prior_authorship_outside_target": [
+    "RI125 primary and qualifier",
+    "RI131 guard source"
+  ],
+  "repo_git_index_actions": false,
+  "reviewer": "/root/ri116_complete_caller_review",
+  "schema": "ri144-independent-guard-source-review-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "source_syntax_validated": false,
+  "status": "PASS_EXACT_UNEXECUTED_SOURCE_FOR_ROOT_ADJUDICATION",
+  "subject_import_compile_AST_probe_run": false,
+  "target_and_caller_authorship": false
+}

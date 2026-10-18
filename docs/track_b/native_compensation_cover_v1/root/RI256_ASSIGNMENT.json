@@ -1,0 +1,18 @@
+{
+  "assignment": {
+    "bytes": 3402,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/RI256_ASSIGNMENT.md",
+    "sha256": "a1b488c9064f0cde104f79300f75da59cb774c3d56143cb4c4ec95c50fc95a46"
+  },
+  "closed_RI250_literal_authority": true,
+  "new_literal_authority": false,
+  "predecessor": {
+    "bytes": 1909,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/RI254_ROOT_ADJUDICATION.json",
+    "sha256": "d9c500b317146ef01a19756598a96b867083b7dc63ce022a4f8a8656099a1e44"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri256-native-signed-redistribution-w1t0h2nk",
+  "schema": "ri256-signed-redistribution-assignment-v1",
+  "status": "ASSIGNED_AFTER_PREDECESSOR_ADJUDICATION",
+  "thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

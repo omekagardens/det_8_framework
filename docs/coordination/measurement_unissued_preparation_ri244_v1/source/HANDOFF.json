@@ -1,0 +1,122 @@
+{
+  "RET_paused": true,
+  "author": "/root/archive_repro_review",
+  "author_check": {
+    "bytes": 152738,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/AUTHOR_CHECK.json",
+    "sha256": "a250aa278e12ecc1e12b5bb8997f5ea2b95ffa9810a6732521ffbc7842e109ed"
+  },
+  "authoring_record": {
+    "bytes": 3089,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/AUTHORING_RECORD.json",
+    "sha256": "2c57671eb71d5f0afed7fc198579968c7444eac0fe91cf461275fd693c848745"
+  },
+  "bootstrap_lines": 18,
+  "bootstrap_text": {
+    "bytes": 2418,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/PRE_MODE_BOOTSTRAP.proposal.txt",
+    "sha256": "b4a85e59bd1c137da2ff44e3281c900d0da9a49f07d64de1d5e44a06eaae77e2"
+  },
+  "files": [
+    {
+      "bytes": 3089,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/AUTHORING_RECORD.json",
+      "sha256": "2c57671eb71d5f0afed7fc198579968c7444eac0fe91cf461275fd693c848745"
+    },
+    {
+      "bytes": 152738,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/AUTHOR_CHECK.json",
+      "sha256": "a250aa278e12ecc1e12b5bb8997f5ea2b95ffa9810a6732521ffbc7842e109ed"
+    },
+    {
+      "bytes": 3496,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/BOOTSTRAP_DIFF.patch",
+      "sha256": "9b72c039360b0ae1de13751bd7c31e642092f98eaeb26c1daf894e716af94ecd"
+    },
+    {
+      "bytes": 29777,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/CUSTODY_DIFF.patch",
+      "sha256": "e887005269e90bfbad6aff94b7dc7822fb22beae396d0b433b33392c8abde905"
+    },
+    {
+      "bytes": 37622,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/PREPARATION_DIFF.patch",
+      "sha256": "3d146ee2f57016a8a3dadff0728d8d2a673e4d84fc988e9f84ba8d7a275020c2"
+    },
+    {
+      "bytes": 2418,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/PRE_MODE_BOOTSTRAP.proposal.txt",
+      "sha256": "b4a85e59bd1c137da2ff44e3281c900d0da9a49f07d64de1d5e44a06eaae77e2"
+    },
+    {
+      "bytes": 11346,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/PROTOCOL.md",
+      "sha256": "d3d3047e7f5f84b4a168e009ae7533805b55b0ce02e740ad6975c21ddebfa7f6"
+    },
+    {
+      "bytes": 4500,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/REFERENCES.json",
+      "sha256": "e1043bed3183088b4718a6dbfd3ea563b93d8875075fb60a148f71294b3c0b70"
+    },
+    {
+      "bytes": 6700,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/check_source_metadata.py",
+      "sha256": "1c9efb24921813ebfa2f670e98471cf9060ac4df774534785a4a0ef5ad46f723"
+    },
+    {
+      "bytes": 22091,
+      "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+      "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+    }
+  ],
+  "historical_references": {
+    "bytes": 4500,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/REFERENCES.json",
+    "sha256": "e1043bed3183088b4718a6dbfd3ea563b93d8875075fb60a148f71294b3c0b70"
+  },
+  "independent_acceptance": false,
+  "installed_freeze_opaque": true,
+  "namespace": [
+    "AUTHORING_RECORD.json",
+    "AUTHOR_CHECK.json",
+    "BOOTSTRAP_DIFF.patch",
+    "CUSTODY_DIFF.patch",
+    "HANDOFF.json",
+    "PREPARATION_DIFF.patch",
+    "PRE_MODE_BOOTSTRAP.proposal.txt",
+    "PROTOCOL.md",
+    "REFERENCES.json",
+    "check_source_metadata.py",
+    "prepare_unissued.py"
+  ],
+  "no_operational_admission_or_dispatch": true,
+  "proposed_empty_directories": [
+    "tmp",
+    "monitor"
+  ],
+  "proposed_outputs": [
+    "PREPARATION_ATTEMPT.json",
+    "CUSTODY_BEFORE.json",
+    "SUPPLIER_BEFORE.json",
+    "E_BEFORE.json",
+    "BOOTSTRAP_PREFLIGHT.json",
+    "PRE_MODE_BOOTSTRAP.proposal.py",
+    "ADMISSION_CANDIDATE.json",
+    "PREPARATION_COMPLETE.json"
+  ],
+  "protocol": {
+    "bytes": 11346,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/PROTOCOL.md",
+    "sha256": "d3d3047e7f5f84b4a168e009ae7533805b55b0ce02e740ad6975c21ddebfa7f6"
+  },
+  "root": "/private/tmp/ri244-preparation-proposal-3udz0imk",
+  "schema": "ri244-unissued-preparation-source-handoff-v1",
+  "source_and_supplier_observation_not_executed": true,
+  "status": "SOURCE_ONLY_READY_FOR_NONAUTHOR_ROOT_REVIEW_NOT_ADMISSION",
+  "writer": {
+    "bytes": 22091,
+    "path": "/private/tmp/ri244-preparation-proposal-3udz0imk/prepare_unissued.py",
+    "sha256": "02d5e3c3d617ea3c0299e313a63569d97121d6c16b57c3ce290544896ef1cfce"
+  },
+  "writer_lines": 334
+}

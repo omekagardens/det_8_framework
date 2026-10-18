@@ -1,0 +1,170 @@
+{
+  "actual_controls_executed": 0,
+  "adjudication_and_successors": {
+    "chunk_id": "eed1ea",
+    "existing_agent_followup_delivered": true,
+    "exit_code": 0,
+    "qr_send_success": true
+  },
+  "clipped_display": {
+    "affected": "part of author phase1 command",
+    "chunk_id": "ead0d4",
+    "recovery": "54d63a",
+    "recovery_exit": 0
+  },
+  "failed_diagnostics": [
+    {
+      "chunk_id": "c25916",
+      "exit_code": 1,
+      "reason": "Read correct measurement invocation, then guessed historical monitor glob failed; recovered exact known path in e34363/f0fd64."
+    },
+    {
+      "chunk_id": "e34363",
+      "exit_code": 1,
+      "reason": "Monitor function listing succeeded; guessed reviewer checker basename missing. Actual sealed namespace read in ca119b and complete check_preflight.py in c645a0."
+    },
+    {
+      "chunk_id": "ae4117",
+      "exit_code": 1,
+      "reason": "First root checker incorrectly expected only framework rows; facts also include two explicit absence observations. No acceptance report produced.",
+      "source": {
+        "bytes": 6008,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/check_native.py",
+        "sha256": "96db3ffc1b3ea237c770d355ebc83ae5925df6d20baccd71f0e58dc20066a3be"
+      },
+      "stderr": {
+        "bytes": 355,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_CHECK.stderr",
+        "sha256": "ea6fc384958af88989ec81089ca7080b41fb58f689b541cb8bf1f907f4e60ec8"
+      }
+    },
+    {
+      "chunk_id": "9189e7",
+      "exit_code": 1,
+      "reason": "Diagnostic assumed every supplemental observation has kind; retained missing-parent observation does not. Full extra rows recovered9a7773; corrected checker keeps them separate."
+    }
+  ],
+  "fixtures_created": 0,
+  "measurement_replay": {
+    "chunk_id": "cf71b8",
+    "exit_code": 0,
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/MEASUREMENT_CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 574,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/MEASUREMENT_CHECK.stdout",
+      "sha256": "18179e2fcb639f444484b03c25d938529ca46c8277194ccac48c3377562c6cc1"
+    },
+    "summary": {
+      "bytes": 911,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/MEASUREMENT_METADATA_REPLAY.json",
+      "sha256": "752a53a000429dc268669b5844fbf50aa89b4fee069d1d53405e421d89cd56eb"
+    }
+  },
+  "native_corrected_check_and_measurement_comparison": {
+    "chunk_id": "4a4dfc",
+    "exit_code": 0,
+    "source": {
+      "bytes": 6316,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/check_native_v2.py",
+      "sha256": "013a9f643d39e4b6fca2bc1f0f29eba9d0b3ab30ea0762938124ccdbc63177f9"
+    },
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_CHECK_V2.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 444,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_CHECK_V2.stdout",
+      "sha256": "4a7d095ad6df4dd93c191925a3560898402b05b84dc5334df81f33e953067c42"
+    },
+    "summary": {
+      "bytes": 1547,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri163-root-preflight-review-u80slv0b/NATIVE_METADATA_SUMMARY.json",
+      "sha256": "12c79aac2ab890cbefc71cb1abda7c3c6e73be236a4d829dc368b784385dd3e5"
+    }
+  },
+  "publication": "Subsequent genuine Git/index/push/remote checks retained separately; no subject execution.",
+  "reported_predecessor_tools": {
+    "measurement_review": "5b8398 exit0",
+    "measurement_seal": "0aaafb exit0",
+    "native_final": "24799a exit0"
+  },
+  "schema": "ri163-root-actual-preflight-review-tools-v1",
+  "scientific_decode": false,
+  "source_reads": [
+    {
+      "chunk_id": "2ae8d4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b29e50",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "d60111",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ea7602",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "84cb31",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e6fc91",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4902dd",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f0fd64",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ca119b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "320267",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c645a0",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "d198e2",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4009e7",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9a7773",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ead0d4",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fd23cf",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "54d63a",
+      "exit_code": 0
+    }
+  ],
+  "subject_vendor_target_execution": false
+}

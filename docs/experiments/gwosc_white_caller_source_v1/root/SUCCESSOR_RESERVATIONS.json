@@ -1,0 +1,21 @@
+{
+  "measurement": {
+    "id": "RI133",
+    "owner": "/root/archive_repro_review",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys",
+    "predecessor": {
+      "bytes": 2189,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-root-caller-adjudication-ijhv5s6r/RI130_ROOT_ADJUDICATION.json",
+      "sha256": "3a9f030a18fdd4ef3cac3bb0204354a6250b2a0ae489e42fbf1be41c5d7fee79"
+    },
+    "scope": "Concrete minimal current runtime, profile, sidecar and65-guard orchestration source; no execution or active cards"
+  },
+  "native": {
+    "id": "RI132",
+    "owner": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I",
+    "status": "active; no duplicate assignment"
+  },
+  "root_owns_repository_git_execution": true,
+  "schema": "ri130-successor-reservations-v1"
+}

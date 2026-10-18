@@ -1,0 +1,96 @@
+{
+  "schema": "ri136-author-static-dependency-check-v1",
+  "status": "OPAQUE_IDENTITY_AND_LITERAL_METADATA_CHECKS_ONLY",
+  "manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_DEPENDENCIES.json",
+    "bytes": 652822,
+    "sha256": "da5708eb15abbb4da7a8c17b5a6c737b2fce9e8663c2177e4dbb1b9e2107d42c"
+  },
+  "subject_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+    "bytes": 23216,
+    "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+  },
+  "inherited_entries_unchanged_except_role": 343,
+  "exact_predecessor_additions": 30,
+  "total_opaque_identities_matched": 373,
+  "complete_RI134_source_namespace": 17,
+  "complete_RI134_review_namespace": 8,
+  "selected_root_files": 5,
+  "subject_manifest_typed_references_matched": 14,
+  "access_policy_counts": {
+    "metadata-identities-only-no-scientific-body-decoding": 156,
+    "opaque-bytes-only": 217
+  },
+  "new_dependency_body_reference_traversal_performed": true,
+  "scientific_bodies_decoded": false,
+  "current_runtime_observed": false,
+  "subject_import_compile_AST_probe_run": false,
+  "case_inventory_check": {
+    "manifest": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/SOURCE_IDENTITIES.json",
+      "bytes": 23216,
+      "sha256": "edb77d0f7edd2e79fd55d3f55b781286aceaf876e98fd1850e58a14281476a37"
+    },
+    "ordered_native_cases": 77,
+    "ordered_audit_cases": 62,
+    "exact_literal_triples_match": true,
+    "source_execution": false,
+    "author_checker_incident": "Initial inline metadata check assumed nonexistent root cases key instead of subjects[caller].ordered_cases and raised TypeError before comparison; corrected to actual schema without editing source or executing subject."
+  },
+  "incremental_administrative_reference_check": {
+    "new_administrative_bodies": 11,
+    "typed_references": 785,
+    "unclosed": 0,
+    "mismatched": 0,
+    "per_file": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/FINAL_PIN_CHECK.json",
+        "typed_references": 17
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/HANDOFF.json",
+        "typed_references": 8
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/INDEPENDENT_SOURCE_REVIEW.json",
+        "typed_references": 5
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-extraction-independent-review-mcwy0ya3/OPAQUE_TEXT_REVIEW.json",
+        "typed_references": 368
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/AUTHOR_METADATA_CHECK.json",
+        "typed_references": 2
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/HANDOFF.json",
+        "typed_references": 24
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_CORRESPONDENCE.json",
+        "typed_references": 4
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/SOURCE_DEPENDENCIES.json",
+        "typed_references": 343
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/audit_coverage.json",
+        "typed_references": 5
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-native-validator-extraction-source-y8kwkcde/native_coverage.json",
+        "typed_references": 3
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri134-root-source-adjudication-e9zhmh62/RI134_ROOT_ADJUDICATION.json",
+        "typed_references": 6
+      }
+    ],
+    "old145_body_traversal_repeated": false,
+    "cross_lane_opaque_supporting_records_traversed": false,
+    "scientific_bodies_decoded": false
+  }
+}

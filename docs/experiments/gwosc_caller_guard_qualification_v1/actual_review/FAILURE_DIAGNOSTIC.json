@@ -1,0 +1,32 @@
+{
+  "commands": {
+    "bytes": 3743,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/ACTUAL_REVIEWER_COMMANDS.json",
+    "sha256": "4fc1a359ab50b71386fdd0aebb2a2d16b196cdaa07aea6438b8b7aa33737b874"
+  },
+  "completed_predicates": 45440,
+  "error": {
+    "message": "entire worker custody worker_source",
+    "traceback": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py\", line 155, in <module>\n    check_json(p.parent/'CUSTODY.json',custody,'entire worker custody '+cid)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py\", line 59, in check_json\n    def check_json(path,expected,label):same(load(path),expected,label)\n                                        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py\", line 20, in same\n    else:ok(canon(a)==canon(b),label)\n         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py\", line 17, in ok\n    if not v:raise AssertionError(label)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: entire worker custody worker_source\n",
+    "type": "AssertionError"
+  },
+  "failed_check": {
+    "bytes": 9983435,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/FAILED_CHECK_01.json",
+    "sha256": "c1feee86e5258d8a32db61e18df1db35009cc0ab3230ed07dd4f8645e252a94b"
+  },
+  "failing_predicates": [
+    {
+      "check": "entire worker custody worker_source",
+      "passed": false
+    }
+  ],
+  "original_checker": {
+    "bytes": 55075,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.before-worker-custody-fields-fix.py",
+    "sha256": "8ff7aaab1102ebcadf95e13036965a60f0871b1b53d391a8d124016fd57c461b"
+  },
+  "read_input_count": 635,
+  "repair": "Reviewer expected custody omitted full32_qualified:false and actual_data_admitted:false. Actual source/output were correct. Only reviewer expected object changed; original script/log/full failure retained; no target retry.",
+  "schema": "ri152-preserved-reviewer-failure-v1"
+}

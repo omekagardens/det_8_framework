@@ -1,0 +1,40 @@
+{
+  "complete_proof_reads": [
+    "abb10a exit0",
+    "e252e8 exit0"
+  ],
+  "independent_metadata": {
+    "direct_bytes": 1303645,
+    "direct_sources": 61,
+    "predecessor_direct_identities_retained": 51,
+    "preserved_boundaries": 15,
+    "receipt": "4aefdb exit0",
+    "whole_identities": 67
+  },
+  "nonauthor": true,
+  "other_receipts": [
+    "92ccc1 exit0",
+    "0ed22f exit0",
+    "3e64ad exit0",
+    "924b6e exit0",
+    "628d9e exit0",
+    "d4f273 exit0",
+    "5bddb9 exit0",
+    "a0d5ad exit0"
+  ],
+  "retained_checker_replayed": false,
+  "review": {
+    "bytes": 10652,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_INDEPENDENT_REVIEW.txt",
+    "sha256": "8e19f71da16e531a36758b6cb47068d95e99771fd2f06c8cc659ae604d367869"
+  },
+  "reviewer": "/root/qr_opportunities",
+  "reviewer_diagnostic": "408a6e exited1 and clipped on old metadata field name; corrected schema and complete focused reads; no writes",
+  "root_original_author_final": {
+    "bytes": 30513,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI238_AUTHOR_FINAL_RECEIPT.json",
+    "sha256": "a3b1dd0d28795470f1019df7634f65fc884c11e7541b14bd482a21df3153b1a4"
+  },
+  "schema": "ri239-ri238-independent-review-receipts-v1",
+  "scientific_execution": false
+}

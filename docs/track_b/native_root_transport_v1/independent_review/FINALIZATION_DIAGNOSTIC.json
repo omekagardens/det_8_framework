@@ -1,0 +1,21 @@
+{
+  "actual_failed_tool": {
+    "chunk_id": "725086",
+    "error": "RuntimeError: stable regular /Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+    "exit_code": 1
+  },
+  "failed_check_source": "a=p.stat(); b=p.read_bytes(); z=p.stat(); need(stat.S_ISREG(a.st_mode) and a==z, stable_regular_label)",
+  "limitation": "Whole stat_result equality also compares read-sensitive access time. Failure output did not retain individual before/after fields, so the exact changed field is not claimed. This is replaced with explicit dev,ino,mode,nlink,size,mtime_ns,ctime_ns comparison as used by the successful prior checker.",
+  "observed_after_failure": {
+    "bytes": 13087,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri233-independent-root-transport-review-1d_n8ih1/INDEPENDENT_REVIEW.md",
+    "sha256": "b5a3a0d1a254168f020be83cc18ac1c250a2e6eee886982fab2bc0373c62aef8"
+  },
+  "operation": "Metadata-only finalizer after one wording clarification in own unsealed narrative",
+  "partial_own_change": "Narrative clarified full namespace authentication versus literal complete HANDOFF/manuscript reading. Verdict/receipts/seal writes had not begun. No HANDOFF was created.",
+  "preservation": "Do not hide the failed receipt or claim a successful first seal.",
+  "repo_or_Git_change": false,
+  "schema": "ri233-independent-finalization-diagnostic-v1",
+  "scientific_execution": false,
+  "subject_change": false
+}

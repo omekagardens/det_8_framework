@@ -1,0 +1,13 @@
+{
+  "all_exact_pin_matches": true,
+  "changed": [],
+  "checked_regular_files": 1820,
+  "read_input_manifest": {
+    "bytes": 551043,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/READ_INPUT_IDENTITIES.json",
+    "sha256": "06f56f9f63e07a271869ce9c4676d087753eb95360a88e69869d9c43142c3c85"
+  },
+  "schema": "ri152-independent-final-input-custody-v1",
+  "scope": "Fresh opaque bytes rehash of the 1820 previously read source/evidence/fixture regular files only. No installed runtime or vendor recapture; no target execution.",
+  "status": "PASS"
+}

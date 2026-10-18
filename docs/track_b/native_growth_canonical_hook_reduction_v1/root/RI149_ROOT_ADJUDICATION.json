@@ -1,0 +1,88 @@
+{
+  "accepted": [
+    "Complete two marked singleton-hook components, two parent roles, every proper potential and canonical-only neutral simplification",
+    "Exact history-weighted negative target objective columns with four-history factor",
+    "Zero/tie-safe residual-capacity saturation and exact two-coordinate primary elimination",
+    "Original reconstructed-full-vector canonical lexicographic order and full dual constraints including zero case",
+    "Correlated exact q substitution with unresolved fixed canonical weighted comparison"
+  ],
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_checks": {
+    "independent_closure": "a73eca exit0",
+    "independent_final_seal": "f6a08d exit0",
+    "root_seal_and_closure": "1d4db3 exit0"
+  },
+  "actual_coefficient_ordering_decided": false,
+  "actual_rho_in_delta0_proved": false,
+  "additional_observation_scope": "Root independently traced critical483-489 and drift910-979: Q defect0 forbids criticality, fullincrement1 and canonical active-neutral zero-drift force everyQcap equality. This is not a claim about arbitrary primary optima or strict mixed complements.",
+  "additional_reviewer_observation_accepted": [
+    {
+      "boundary": "Not claimed to be in the sealed author proof. Does not compare roots, remove globally constrained Q17/Q19 coordinates, or prove the weighted budget. No successor assigned.",
+      "deduction": "Every canonical Q row is tight. For every root-i Q marking, its residual capacity divided by c_xi equals a_i^*, including zero. This strengthens at-least-one-cap attainment without assigning positive multipliers to all tight rows.",
+      "id": "O01",
+      "kind": "ADDITIONAL_REVIEWER_DEDUCTION_FOR_ROOT_ASSESSMENT_NOT_REQUIRED_REPAIR",
+      "location": "RI63 check.py483-489 and973-979; COMPLETION.md40-46; RI149 HOOK_INCIDENCE.md176-256",
+      "premises": [
+        "Q is Ferrers so defect zero and cannot meet the literal critical condition",
+        "Every noncritical canonical row has zero boundary drift",
+        "Active canonical proper components are everywhere neutral",
+        "Full Q birth has defect increment one"
+      ]
+    }
+  ],
+  "full_H30_decided": false,
+  "independent_narrative": {
+    "bytes": 23281,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.md",
+    "sha256": "bb1ac2f0efff3dab374e0e5a2fa042b3b656e9a3742e79fc1c0f0dec1d247d61"
+  },
+  "independent_review": {
+    "bytes": 6704,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/HANDOFF.json",
+    "sha256": "4b5382e6cc338ae12371be5005bca119be39461b8fdfceec703f5875431e67d1"
+  },
+  "preserved": {
+    "RET": "paused",
+    "all_five_Di": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "individual_ideal_multiplicities": true,
+    "measurement": "separate",
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "other_eight_connected_parents": true,
+    "policy_cases": 139,
+    "shared_T1_recovery": true,
+    "strict_endpoints": true
+  },
+  "remaining_actual_premise": {
+    "canonical_state": "All T_i, other neutral components, Z, reference sums and q/envelope factors remain the same correlated original canonical-law expressions; original full-vector lexicographic order retained.",
+    "joint_budget": "Both RI147 endpoint envelope comparisons must hold, or establish the exact cleared endpoint polynomials directly.",
+    "q_floor": "For an adequate b>0, prove (35/36)[p0 T0(z_star) k0(x)-p1 T1(z_star) k1(x)] >= b D3-T_core(x) for every x in the correlated actual-containing [0,Z].",
+    "v_floor": "An adequate separate quantitative fixed C4 contrast bound on v/D3 remains required."
+  },
+  "ret_paused": true,
+  "root_manual_review": {
+    "bytes": 3189,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_MANUAL_REVIEW.json",
+    "sha256": "0e3c347e20cff222b915cda2f9c66c8ad1e7cfe87b4b6a2cb98df6b309c9578e"
+  },
+  "root_metadata_check": {
+    "bytes": 76115,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_NATIVE_CHECK.json",
+    "sha256": "c9d0f2900a66e934e22a76f4277bd8e54c51ea35dbc6724c950a714eae8cc8f6"
+  },
+  "root_read": "a10580 complete independent narrative and handoff; main manuscripts and literal premise spans listed in manual record",
+  "schema": "ri149-root-canonical-reduction-adjudication-v1",
+  "scientific_execution": false,
+  "source_handoff": {
+    "bytes": 7499,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+    "sha256": "1471f833445c8ca4ed872737cdd8abf6660daf83d0399937b745cc959dc577cc"
+  },
+  "status": "ACCEPT_EXACT_SINGLETON_HOOK_CANONICAL_REDUCTION_WITH_WEIGHTED_FACE_GAP"
+}

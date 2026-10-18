@@ -1,0 +1,82 @@
+{
+  "accepted_white_source_files_unchanged": 12,
+  "activity": {
+    "active_runtime_or_admission": false,
+    "actual_scientific_body_decode": false,
+    "compile_ast_probe": false,
+    "fixture_or_target_execution": false,
+    "repository_index_git_mutation": false,
+    "target_import": false
+  },
+  "all_metadata_checks_passed": true,
+  "control_declaration_counts": {
+    "complete_per_implementation": 179,
+    "gate_refusals": 92,
+    "new_kernel": 37,
+    "sealed_wrapper_literal_refusals": 47,
+    "tail_controls": 3,
+    "total_refusals": 176
+  },
+  "literal_fixture_ids": [
+    "W01_single_white_two",
+    "W02_single_white_three",
+    "W03_oriented_two",
+    "W04_negative_scale",
+    "W05_double_scale",
+    "W06_interval_mixed",
+    "W07_interval_crosses_zero",
+    "W08_zero_shift",
+    "W09_production_boundary_sparse",
+    "W10_usefulness_boundaries",
+    "W11_asymmetric_rational_radii",
+    "W12_sparse_lifted_denominators",
+    "W13_full_response_below",
+    "W14_full_response_equal",
+    "W15_full_response_above"
+  ],
+  "manifest_matches_literal_refusal_source": true,
+  "metadata_helper_failure_preserved": "Initial tool chunk 079d83 compared atime; stopped before seal. PREPARATION_RECORD.md preserves the metadata-only repair.",
+  "new_source_files": [
+    {
+      "bytes": 15878,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/white_fixtures.py",
+      "sha256": "9b40dc813035ad2d973e6d2c5d75557eaf7e8799a3dcbb1ff359fb504c9de409"
+    },
+    {
+      "bytes": 6834,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/kernel_controls.py",
+      "sha256": "8ccabc68a135f4aad40fefb2078f3ba35684f5ea8e277683401fd37bfb95c51e"
+    },
+    {
+      "bytes": 27375,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/qualify_white_only.py",
+      "sha256": "1c988f6e8520d47f73f3c3e94d9950593e20652bc5976e7e90480f29f2ffc689"
+    },
+    {
+      "bytes": 21310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/CONTROL_EXPECTATIONS.json",
+      "sha256": "60d842b5c7d33d9c9039fc97282a6d33de58f29a5cbc549f8580b755b072f478"
+    },
+    {
+      "bytes": 20505,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/STAGE_CONTRACT.md",
+      "sha256": "54178d21d90ef5f7f7dfc7d9d55f1a1df27dd57bef645b6e1b06d542dc572df0"
+    },
+    {
+      "bytes": 7575,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREPARATION_RECORD.md",
+      "sha256": "376a5230499123967abddc26c18399db0f9593ac24f5bc47466aa164511bd419"
+    },
+    {
+      "bytes": 4193,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-qualification-source-y1l_fsch/PREDECESSOR_PINS.json",
+      "sha256": "1bdb5c263fd2ccfed38c99f4b7c69b866ce056480e3e3070b78ebdb2956e72d1"
+    }
+  ],
+  "preserved_references_checked": 16,
+  "qualification_claimed": false,
+  "runtime_feasibility_demonstrated": false,
+  "schema": "ri125-white-only-source-metadata-check-v1",
+  "scope": "opaque bytes plus literal source declaration metadata only",
+  "source_acceptance_claimed": false
+}

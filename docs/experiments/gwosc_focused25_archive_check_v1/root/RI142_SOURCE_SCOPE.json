@@ -1,0 +1,30 @@
+{
+  "active_RI140_RI141_sources_excluded": true,
+  "allowed_execution": "Only this new nonoperational metadata utility and copied-public-archive corruption checks; never archived subjects or production controls.",
+  "base_check": {
+    "bytes": 1493,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/AUTHOR_BASE_CHECK.json",
+    "sha256": "4d94cf15875a7fb2d8729f3a2da35b3de5c254f75283fb5f491839b2c9fc32eb"
+  },
+  "claim": "Pinned bytes and saved agreement only; no historical-origin or new runtime/scientific qualification.",
+  "independent_reviewer": "/root/ri116_complete_caller_review",
+  "native_related_scope_addendum": {
+    "bytes": 1715,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/RI140_STARTUP_SCOPE_ADDENDUM.md",
+    "sha256": "8a6259d9fb2bc0597de215fd8f51a77ab228a6dc1e053fda3ba96643310d9008"
+  },
+  "owner": "root",
+  "readme": {
+    "bytes": 2459,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/README.md",
+    "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+  },
+  "reserved_repository_directory": "docs/experiments/gwosc_focused25_archive_check_v1",
+  "review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review",
+  "schema": "ri142-portable-archive-checker-source-scope-v1",
+  "source": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  }
+}

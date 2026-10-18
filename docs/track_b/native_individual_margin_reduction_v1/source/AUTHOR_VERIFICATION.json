@@ -1,0 +1,312 @@
+{
+  "schema": "ri212-author-manual-proof-verification-v1",
+  "status": "AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "authorship": "Exclusive source-only RI212 reservation. This author is not the independent adjudicator.",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_NATIVE_ASSIGNMENT.json",
+    "bytes": 8385,
+    "sha256": "6ac1ae9d55c39db34fbd6b10f3cc6e000a06f841c0dae67c448c8944ef3820a2"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI210_ROOT_ADJUDICATION.json",
+    "bytes": 3286,
+    "sha256": "07aec9151652caaa554190396434bfc548b04bd75b9f69b48f01686cc2eab402"
+  },
+  "additional_literal_admissions": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/RI212_LITERAL_SEED_RELATION_ADMISSION.json",
+      "bytes": 2860,
+      "sha256": "16a7a03e86ec2b348644a0ebffda479e7939ab40f75638c9f1bf990bb2803010"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/RI212_LITERAL_COMPLEMENT_ADMISSION.json",
+      "bytes": 3334,
+      "sha256": "d83c1b881c564244aad456d8946a371d067c06efef66c20c14ecc8c63407f024"
+    }
+  ],
+  "complete_literal_read_receipts": [
+    {
+      "chunk_id": "797504",
+      "exit_code": 0,
+      "scope": "Complete current assignment and accepted RI210 decision; empty reservation verified."
+    },
+    {
+      "chunk_id": "2b335a",
+      "exit_code": 0,
+      "scope": "Complete original DECISION_CONTRACT and LOCAL_POSITIVITY texts."
+    },
+    {
+      "chunk_id": "1f21e1",
+      "exit_code": 0,
+      "scope": "Complete original RECORD_TRANSPORT and INPUT_FORMULAS texts."
+    },
+    {
+      "chunk_id": "28150a",
+      "exit_code": 0,
+      "scope": "Complete original ANALYTIC_BOUNDS and WEIGHTED_MARGIN_PROOF texts."
+    },
+    {
+      "chunk_id": "cd3448",
+      "exit_code": 0,
+      "scope": "Complete accepted GLOBAL_W text."
+    },
+    {
+      "chunk_id": "4eeaa8",
+      "exit_code": 0,
+      "scope": "Complete previously admitted MAXIMUM_BOUND analytic text."
+    },
+    {
+      "chunk_id": "38b1d8",
+      "exit_code": 0,
+      "scope": "Complete writing skill instructions."
+    },
+    {
+      "chunk_id": "f93882",
+      "exit_code": 0,
+      "scope": "Complete required writing-quality reference."
+    },
+    {
+      "chunk_id": "55e49e",
+      "exit_code": 0,
+      "scope": "Complete narrow seed admission and admitted original DESIGN text."
+    },
+    {
+      "chunk_id": "1a1e83",
+      "exit_code": 0,
+      "scope": "Complete previously admitted NORMALIZATION analytic text; no certificate descendants read."
+    },
+    {
+      "chunk_id": "ee0eff",
+      "exit_code": 0,
+      "scope": "Complete initial two proof texts read back."
+    },
+    {
+      "chunk_id": "f9d8bf",
+      "exit_code": 0,
+      "scope": "Complete narrow complement analytic admission."
+    },
+    {
+      "chunk_id": "86ad65",
+      "exit_code": 0,
+      "scope": "Complete admitted ENDPOINT_CERTIFICATE text; linked descendants remain unexpanded."
+    },
+    {
+      "chunk_id": "046ae2",
+      "exit_code": 0,
+      "scope": "Complete final mathematical content of both proof notes and handoff read back; later changes only clarify already proved h!=0 and one spacing typo."
+    }
+  ],
+  "manual_checks": [
+    "Re-expanded the original C2/C3 positive parts under3m/r and3j/r, retaining epsilon2=theta*epsilon3 and g=theta*m. Checked direct P2/P3 positive clearings.",
+    "Derived B3 lower bound without borrowing the C2 contribution: f3>2/3 and actual rho/(1-rho)=1/(1+2M6).",
+    "Checked manually2T+1 threshold, strict target equality, and delta=2(465e9-463e9)/(1+2*463e9)=4e9/(926e9+1).",
+    "Checked open exact h endpoints and closed sufficient strip; equality of original margins remains failure, while sufficient-strip equality still gives strict positivity.",
+    "Used original DESIGN record0 andrecord1 P1 harmonic rows with all factors3. Checked K*h=A by collecting exact positive-denominator substitutions.",
+    "Used complete four-slot C4 sum and both H5 one-cap terms in K_i. Checked0<K_i<=44(1-c_i)^2+2c_i=44-c_i(86-44c_i)<44.",
+    "Checked|Delta j|<44theta and44theta<1/1000 usingtheta<2^-38 and65536>44000. Checkedlambda*j0>213/36000 and213/36000-1/1000=59/12000.",
+    "Excluded K=0 only after A>0, using the existing accepted finite original harmonic seed. No new seed, H reconstruction or RREF.",
+    "Checked both signs when dividing by K: K>0 settles C3 and leavesK*B2>A; K<0 settles C2 and leaves(-K)(B3-1)>A. Equality gives zero failure.",
+    "Checked h<0 sufficient comparisonM6<=(T+h/2)/(1-h), its exact clearing andA-K=j0[c1-(1-lambda)c0]. No assertion of this sufficient condition.",
+    "Reconciled all original q/N_i terms, contrasts of complete products, zero positive parts/tied minima, unchanged actual pair and amplitude, original Y=1/4.",
+    "Kept native determinant sign and branch comparison unresolved; sharedT1, other8connected parents, all5Di/H30 and physical/executable claims remain separate."
+  ],
+  "authoring_history": {
+    "initial_two": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md",
+        "bytes": 10166,
+        "sha256": "14ace723f502928b528ab547868dcf374758e27dc825b97e3b6da39b010771ca"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+        "bytes": 4694,
+        "sha256": "2d50cb12dbd7ba64239b3353651f14a28ac08c74be05cb329b779665436b4af8"
+      }
+    ],
+    "initial_two_pin_receipt": {
+      "chunk_id": "98a8f4",
+      "exit_code": 0
+    },
+    "original_seed_relation_with_sharper_sufficient_test": {
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+        "bytes": 5801,
+        "sha256": "fd49b56f3ea13acdd0c2f3227176df9956d9ee6b726df0e09b830058ce5441fe"
+      },
+      "receipt": {
+        "chunk_id": "a74f6c",
+        "exit_code": 0
+      }
+    },
+    "complete_mathematical_readback_phase": {
+      "identities": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.md",
+          "bytes": 2283,
+          "sha256": "9d9557ecaf25dd22f700d8054ce6f7ea00321a240a5f05aa2ad61de0f5e53885"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md",
+          "bytes": 10481,
+          "sha256": "7e0324a8c245053cc8197a9cad3a985f6edcf2a0f30a179014f5e1c8ff13d733"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+          "bytes": 9139,
+          "sha256": "4e8e16be62b6fdd3e8f73853eb8718a37b9d231fe7641237a83eaccb55c9359d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SOURCE_REFERENCES.json",
+          "bytes": 37375,
+          "sha256": "975da85231fd8ba740056c8ad51a43026974790b3f7bd975eec8a5cb1bc560fe"
+        }
+      ],
+      "receipt": {
+        "chunk_id": "046ae2",
+        "exit_code": 0
+      }
+    },
+    "final_four_pins": [
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.md",
+        "bytes": 2284,
+        "sha256": "a6b39c43095fe421dea473b208287f72176b3e19fb133d5576cd74af3a7eb866"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md",
+        "bytes": 10491,
+        "sha256": "d439506955230146330a97bcb5b53f9ddacac7b49c9f77c050be99670fdf4ec3"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+        "bytes": 9139,
+        "sha256": "4e8e16be62b6fdd3e8f73853eb8718a37b9d231fe7641237a83eaccb55c9359d"
+      },
+      {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SOURCE_REFERENCES.json",
+        "bytes": 37375,
+        "sha256": "975da85231fd8ba740056c8ad51a43026974790b3f7bd975eec8a5cb1bc560fe"
+      }
+    ],
+    "final_four_pin_receipt": {
+      "chunk_id": "8120f6",
+      "exit_code": 0
+    },
+    "explanation": "Initial h-gap note was substantively sharpened after two explicit root analytic admissions. The final proof eliminates h symbolically, proves A positive, and excludes zero K. Later small edits clarify h!=0 and handoff spacing; final pins control current sources."
+  },
+  "current_failed_commands_or_patches": [
+    {
+      "type": "apply_patch",
+      "status": "rejected-before-write",
+      "reason": "Multiple operations targeted SEED_COMPARISON.md in one patch (Delete+Add). Corrected to one Update operation after reading current source; no mathematical rollback or source expansion."
+    }
+  ],
+  "current_diagnostics": [
+    {
+      "kind": "nonproof_thread_context_display_clipped",
+      "scope": "An incidental read_thread status inspection returned a clipped long coordinator turn. No scientific result, mathematical premise, completed read coverage or execution authority is taken from that clipped output. Later coordination uses bounded wait_threads snapshots and direct signed source admissions."
+    },
+    {
+      "kind": "successful_author_phases",
+      "scope": "Initial two manuscripts pinned in98a8f4; subsequent manual symbolic seed reduction and any further admitted-source refinements are preserved as distinct authoring phases. Final handoff pins, not initial draft identities, control final files."
+    }
+  ],
+  "earlier_historical_diagnostics": "Preserved by the whole sealed predecessor author record, source manifest and all15 inherited boundary objects; no recursive runtime/phase expansion or fresh423 replay.",
+  "initial_direct_metadata_check": {
+    "chunk_id": "331a03",
+    "exit_code": 0,
+    "files": 22,
+    "bytes": 677086,
+    "scope": "Prior to second narrow admission; only identities, not mathematical verification."
+  },
+  "preseal": {
+    "receipt": {
+      "chunk_id": "6ceada",
+      "exit_code": 0
+    },
+    "actual_result": {
+      "schema": "ri212-compact-administrative-check-v1",
+      "status": "IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE",
+      "stage": "preseal4",
+      "direct_sources": 24,
+      "direct_bytes": 693919,
+      "inherited423_manifest_by_reference": true,
+      "fresh_inherited423_or_previous_source_collection_replay": false,
+      "inherited_boundary_objects_preserved": 15,
+      "original_analytic_matches": 6,
+      "additional_narrow_analytic_matches": 2,
+      "explicit_selected_reference_checks": 42,
+      "predecessor_namespace": 6,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 28,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.md",
+          "bytes": 2284,
+          "sha256": "a6b39c43095fe421dea473b208287f72176b3e19fb133d5576cd74af3a7eb866"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md",
+          "bytes": 10491,
+          "sha256": "d439506955230146330a97bcb5b53f9ddacac7b49c9f77c050be99670fdf4ec3"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md",
+          "bytes": 9139,
+          "sha256": "4e8e16be62b6fdd3e8f73853eb8718a37b9d231fe7641237a83eaccb55c9359d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SOURCE_REFERENCES.json",
+          "bytes": 37375,
+          "sha256": "975da85231fd8ba740056c8ad51a43026974790b3f7bd975eec8a5cb1bc560fe"
+        }
+      ],
+      "declared_local_Markdown_targets": "future-seal-targets-declared-final-presence-pending",
+      "scientific_body_read_or_proof_arithmetic": false,
+      "subject_execution": false
+    }
+  },
+  "administrative_checker": {
+    "language": "Node.js administrative metadata only",
+    "invocation": "node -e <literal_script> preseal4 or final6",
+    "literal_script": "\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst need=(v,m)=>{if(!v)throw Error(m)},fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction readExact(i){const x=i.path;need(p.isAbsolute(x)&&p.normalize(x)===x,'absolute normalized');let a='/';for(const k of x.split('/').filter(Boolean)){a=p.join(a,k);need(!fs.lstatSync(a).isSymbolicLink(),'symlink');}const s=fs.lstatSync(x,{bigint:true});need(s.isFile()&&s.size<=67108864n,'regular cap');if(i.bytes!==undefined)need(s.size===BigInt(i.bytes),'initial size');const same=t=>fields.every(k=>t[k]===s[k]);const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let n=0,cap=Number(s.size)+1;while(n<cap){const z=Buffer.alloc(Math.min(65536,cap-n)),g=fs.readSync(fd,z,0,z.length,null);if(!g)break;chunks.push(z.subarray(0,g));n+=g;}b=Buffer.concat(chunks);need(b.length===Number(s.size)&&same(fs.fstatSync(fd,{bigint:true})),'fd-after/length');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex')};if(i.sha256!==undefined)need(r.sha256===i.sha256,'hash');return {...r,body:b};}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\nconst Q=\"/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n\",P=\"/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm\";\nfunction canon(x){if(Array.isArray(x))return x.map(canon);if(x&&typeof x==='object')return Object.fromEntries(Object.keys(x).sort().map(k=>[k,canon(x[k])]));return x;}\nconst eq=(a,b)=>JSON.stringify(canon(a))===JSON.stringify(canon(b));\nconst cache=new Map();\nfunction pin(i){\n need(Object.keys(i).every(k=>['path','bytes','sha256','resolved_path','symlinks'].includes(k)),'identity fields');\n let r=cache.get(i.path);if(!r){r=readExact(i);cache.set(i.path,r);}\n need(r.bytes===i.bytes&&r.sha256===i.sha256,'pin '+i.path);\n if(i.resolved_path!==undefined)need(i.resolved_path===i.path,'resolved path');\n if(i.symlinks!==undefined)need(eq(i.symlinks,[]),'symlink declaration');\n return r;\n}\nconst currentFour=[{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.md\",\"bytes\":2284,\"sha256\":\"a6b39c43095fe421dea473b208287f72176b3e19fb133d5576cd74af3a7eb866\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/INDIVIDUAL_MARGINS.md\",\"bytes\":10491,\"sha256\":\"d439506955230146330a97bcb5b53f9ddacac7b49c9f77c050be99670fdf4ec3\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SEED_COMPARISON.md\",\"bytes\":9139,\"sha256\":\"4e8e16be62b6fdd3e8f73853eb8718a37b9d231fe7641237a83eaccb55c9359d\"},{\"path\":\"/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/SOURCE_REFERENCES.json\",\"bytes\":37375,\"sha256\":\"975da85231fd8ba740056c8ad51a43026974790b3f7bd975eec8a5cb1bc560fe\"}];currentFour.forEach(pin);\nconst S=JSON.parse(cache.get(Q+'/SOURCE_REFERENCES.json').body);\nneed(S.schema==='ri212-compact-accepted-source-references-v1','source schema');\nconst M=new Map(S.direct_sources.map(r=>[r.identity.path,r]));\nneed(M.size===24&&S.direct_scope.files===24,'direct24');\nneed(S.direct_sources.reduce((n,r)=>n+r.identity.bytes,0)===693919&&S.direct_scope.bytes===693919,'direct bytes');\nneed(eq([...M.keys()],[...M.keys()].sort()),'source path sort');\nfor(const r of S.direct_sources){\n need(['administrative-reference','accepted-analytic-text','opaque-historical-support'].includes(r.access),'read class');\n pin(r.identity);\n}\nlet references=0;\nfunction selected(i){need(M.has(i.path),'selected direct reference');pin(i);references++;}\nfor(const i of [S.assignment,S.accepted_predecessor,S.predecessor_handoff,S.predecessor_references,S.inherited_manifest_by_reference.identity])selected(i);\nfor(const group of S.current_literal_reads){need(group.receipt.exit_code===0,'declared read receipt');group.files.forEach(selected);}\nconst assignment=JSON.parse(pin(S.assignment).body);\nneed(assignment.reservation===Q&&assignment.status==='ASSIGNED_AFTER_RI210_INDEPENDENT_ADJUDICATION','assignment');\nneed(eq(assignment.predecessor,S.accepted_predecessor)&&assignment.new_scientific_execution_authority===false,'assignment boundary');\nconst decision=JSON.parse(pin(S.accepted_predecessor).body);\nneed(decision.status==='ACCEPT_COMPLETE_SIX_MAXIMA_GLOBAL_BOUND_AND_STRICT_WEIGHTED_W'&&decision.actual_W_positive===true&&decision.global_M6_bound_proved===true&&decision.both_individual_margins_or_H30_decided===false,'accepted predecessor');\nfor(const k of ['handoff','proof','global_proof','metadata','root_review','independent_review'])selected(decision[k]);\nneed(eq(decision.handoff,S.predecessor_handoff),'predecessor handoff binding');\nconst prior=JSON.parse(pin(S.predecessor_handoff).body);\nconst priorNames=fs.readdirSync(P).sort();\nneed(eq(priorNames,S.predecessor_namespace)&&eq(priorNames,prior.namespace)&&priorNames.length===6&&prior.payloads.length===5,'prior namespace');\nprior.payloads.forEach(selected);\nneed(eq(prior.payloads.map(i=>p.basename(i.path)).concat('HANDOFF.json').sort(),priorNames),'prior sealed coverage');\nconst priorRefs=JSON.parse(pin(S.predecessor_references).body);\nconst inherited=JSON.parse(pin(S.inherited_manifest_by_reference.identity).body);\nconst boundaries=Object.fromEntries(Object.entries(inherited).filter(([k])=>!['schema','status','protected_files','scope'].includes(k)));\nneed(inherited.protected_files.length===423&&S.inherited_manifest_by_reference.selected_paths===423,'423 metadata');\nneed(eq(boundaries,S.inherited_manifest_by_reference.boundary_objects)&&eq(boundaries,priorRefs.inherited_manifest_by_reference.boundary_objects)&&Object.keys(boundaries).length===15,'15 unchanged boundaries');\nneed(eq(S.inherited_manifest_by_reference,priorRefs.inherited_manifest_by_reference),'whole inherited boundary unchanged');\nneed(eq(S.original_six_literal_admissions,assignment.source_admission)&&assignment.source_admission.length===6,'six source admissions');\nconst byInheritedPath=new Map(inherited.protected_files.map(r=>[r.identity.path,r]));\nfunction analyticMatch(i){\n const row=byInheritedPath.get(i.path);\n need(row&&eq(row.identity,i),'inherited exact analytic match');\n need(row.classification==='analytic-source-text-or-review'&&row.access_policy==='text-reading-and-opaque-identity-no-execution','inherited analytic read boundary');\n}\nfor(const row of S.original_six_literal_admissions){\n selected(row.identity);need(row.access==='accepted-analytic-text'&&row.typed_reference_expansion===false&&row.inherited_matches.length>0,'six admission flags');\n for(const i of row.inherited_matches){analyticMatch(i);need(i.bytes===row.identity.bytes&&i.sha256===row.identity.sha256,'published literal identity');}\n}\nfor(const [name,status] of [['additional_seed_admission','ADMIT_ONE_EXISTING_ANALYTIC_TEXT_FOR_MANUAL_SEED_RELATION'],['additional_complement_admission','ADMIT_ONE_EXISTING_ANALYTIC_TEXT_FOR_SAME_LAW_SEED_SIGN']]){\n const row=S[name];selected(row.authority);selected(row.reference);\n need(row.typed_reference_expansion===false,'narrow admission boundary');\n const ad=JSON.parse(pin(row.authority).body);\n need(ad.status===status&&eq(ad.assignment,S.assignment)&&eq(ad.reference,row.reference)&&ad.new_execution_authority===false&&ad.typed_reference_expansion===false&&ad.automatic_proof_arithmetic===false,'narrow admission fields');\n if(name==='additional_seed_admission'){analyticMatch(ad.inherited_row.identity);need(eq(byInheritedPath.get(ad.inherited_row.identity.path),ad.inherited_row),'complete seed inherited row');}\n else {\n need(eq(ad.previous_admission,S.additional_seed_admission.authority),'admission chain');\n need(ad.inherited_matches.length===1,'complement exact match count');\n for(const old of ad.inherited_matches){analyticMatch(old.identity);need(eq(byInheritedPath.get(old.identity.path),old),'complete complement inherited row');need(old.identity.bytes===ad.reference.bytes&&old.identity.sha256===ad.reference.sha256,'complement same bytes');}\n need(ad.original.bytes===ad.reference.bytes&&ad.original.sha256===ad.reference.sha256,'original complement identity');\n }\n}\nselected(S.predecessor_author_support.identity);\nneed(S.predecessor_author_support.access==='opaque-historical-support'&&S.predecessor_author_support.typed_reference_expansion===false,'opaque author history');\nconst yes=['manual_analysis_only','strict_B3_native_slack_proved','exact_seed_split_criterion_proved','two_original_marked_rows_eliminated_symbolically','positive_seed_numerator_proved','zero_determinant_branch_excluded_using_existing_seed','seed_split_eliminated_symbolically','ret_paused'];\nconst no=['individual_native_signs_decided','both_individual_margins_or_H30_decided','physical_correspondence_proved','scientific_body_vector_or_certificate_read','automated_proof_arithmetic_graph_LP_or_subject_execution','numerical_H_or_z_reconstruction','actual_M6_or_scales_evaluated','repository_or_Git_written','native_determinant_sign_decided','both_native_margin_signs_decided'];\nfor(const k of yes)need(S.scope[k]===true,'declared true scope '+k);\nfor(const k of no)need(S.scope[k]===false,'declared false scope '+k);\nneed(S.scope.qualification_credit===0&&eq(S.executable_obligations,priorRefs.executable_obligations)&&S.executable_obligations.new_credit===0,'unchanged qualification');\nconst stage=process.argv[1]||'preseal4';need(['preseal4','final6'].includes(stage),'mode');\nconst final=['AUTHOR_VERIFICATION.json','HANDOFF.json','HANDOFF.md','INDIVIDUAL_MARGINS.md','SEED_COMPARISON.md','SOURCE_REFERENCES.json'];\nconst expected=stage==='final6'?final:final.filter(n=>!['AUTHOR_VERIFICATION.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>{const r=readExact({path:Q+'/'+n});cache.set(r.path,r);return simple(r);});\nfor(const n of ['INDIVIDUAL_MARGINS.md','SEED_COMPARISON.md','HANDOFF.md']){\n const t=cache.get(Q+'/'+n).body.toString('utf8');\n need(!/^(<{7}|={7}|>{7})( |$)/m.test(t)&&!/[ \\t]+$/m.test(t),'Markdown hygiene');\n for(const m of t.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g))need(final.includes(m[1]),'declared local Markdown target');\n}\nif(stage==='final6'){\n const h=JSON.parse(cache.get(Q+'/HANDOFF.json').body),a=JSON.parse(cache.get(Q+'/AUTHOR_VERIFICATION.json').body);\n need(eq(h.namespace,final)&&h.payloads.length===5&&eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current seal');\n h.payloads.forEach(pin);\n selected(h.assignment);selected(h.accepted_predecessor);\n h.additional_literal_admissions.forEach(selected);\n need(eq(h.scope,S.scope)&&eq(h.executable_obligations,S.executable_obligations),'handoff declared scope');\n need(a.status==='AUTHOR_MANUAL_PROOF_NOT_INDEPENDENT_ACCEPTANCE'&&a.preseal.actual_result.current_namespace===4&&a.final6_not_yet_run_at_author_creation===true,'author phase');\n a.preseal.actual_result.current_payloads.forEach(pin);\n need(eq(a.executable_obligations,S.executable_obligations),'author obligations');\n}\nconst all=[...cache.values()].map(simple);need(all.length===24+expected.length,'fresh scope');\nall.forEach(readExact);\nneed(eq(fs.readdirSync(Q).sort(),expected)&&eq(fs.readdirSync(P).sort(),priorNames),'post namespaces');\nconsole.log(JSON.stringify({schema:'ri212-compact-administrative-check-v1',status:'IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE',stage,direct_sources:24,direct_bytes:693919,inherited423_manifest_by_reference:true,fresh_inherited423_or_previous_source_collection_replay:false,inherited_boundary_objects_preserved:15,original_analytic_matches:6,additional_narrow_analytic_matches:2,explicit_selected_reference_checks:references,predecessor_namespace:6,current_namespace:expected.length,whole_identity_fresh_rechecks:all.length,current_payloads:payloads,declared_local_Markdown_targets:stage==='final6'?'all-present':'future-seal-targets-declared-final-presence-pending',scientific_body_read_or_proof_arithmetic:false,subject_execution:false},null,2));\n",
+    "scope": "Exact paths/sizes/SHA256, no symlink components, stable regular-file reads, direct metadata references, six original and two additional analytic-inventory matches, current/prior namespaces,15boundary objects and local Markdown targets. Scope flags are declared labels, not proof verification. No scientific arithmetic or execution."
+  },
+  "scope": {
+    "manual_analysis_only": true,
+    "strict_B3_native_slack_proved": true,
+    "exact_seed_split_criterion_proved": true,
+    "two_original_marked_rows_eliminated_symbolically": true,
+    "individual_native_signs_decided": false,
+    "both_individual_margins_or_H30_decided": false,
+    "physical_correspondence_proved": false,
+    "scientific_body_vector_or_certificate_read": false,
+    "automated_proof_arithmetic_graph_LP_or_subject_execution": false,
+    "numerical_H_or_z_reconstruction": false,
+    "actual_M6_or_scales_evaluated": false,
+    "repository_or_Git_written": false,
+    "qualification_credit": 0,
+    "ret_paused": true,
+    "positive_seed_numerator_proved": true,
+    "zero_determinant_branch_excluded_using_existing_seed": true,
+    "seed_split_eliminated_symbolically": true,
+    "native_determinant_sign_decided": false,
+    "both_native_margin_signs_decided": false
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "final6_not_yet_run_at_author_creation": true,
+  "final_check_policy": "After HANDOFF.json exists, run retained checker in final6 mode. Report actual receipt and final HANDOFF identity externally. This file claims neither that future result nor a self-hash.",
+  "stopping_rule": "Stop at sealed manual handoff for root independent adjudication. Root owns publication, index/Git and successors. No subject execution or RET continuation."
+}

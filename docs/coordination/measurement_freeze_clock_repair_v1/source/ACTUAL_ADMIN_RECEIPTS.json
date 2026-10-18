@@ -1,0 +1,59 @@
+{
+  "calls": [
+    {
+      "chunk": "4e7a49",
+      "exit_code": 0,
+      "scope": "Full selecting root decision/nonauthor review/assignment and empty reservation read"
+    },
+    {
+      "chunk": "78c3fd",
+      "exit_code": 0,
+      "scope": "Exact original protected-body/finalization and checker source reads"
+    },
+    {
+      "chunk": "163362",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/build_repair.py",
+      "exit_code": 0,
+      "record": {
+        "bytes": 1190,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/BUILD_METADATA.json",
+        "sha256": "7ead4d2cdddcdf0c67beaeb5508d8655cf74b0a54ab119f02871bb748268ba0f"
+      },
+      "scope": "Administrative pin authentication and source-text generation only"
+    },
+    {
+      "chunk": "b68165",
+      "exit_code": 0,
+      "scope": "Complete source/protocol diff read"
+    },
+    {
+      "chunk": "5da62c",
+      "exit_code": 0,
+      "scope": "Pre-seal protocol text corrections: original13 plus timing14 fields, accurate predecessor-relative diff/authorship; no executable source change"
+    },
+    {
+      "checks": 3636,
+      "chunk": "7f79ed",
+      "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/admin_check.py",
+      "distinct_opaque_identities": 825,
+      "exit_code": 0,
+      "record": {
+        "bytes": 1109,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal/ADMIN_CHECK.json",
+        "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+      },
+      "scope": "Opaque hashes, administrative JSON, full text reverse projection; no code evaluation"
+    },
+    {
+      "chunk": "823656",
+      "exit_code": 0,
+      "scope": "Final line-numbered repaired clock/receipt/postchecker source read"
+    }
+  ],
+  "clock_or_fixture_evaluation": false,
+  "failures": [],
+  "origin": "Transcription of real tool results in this author thread; not a runtime/subject or independent review receipt.",
+  "proposal_import_compile_AST_probe_execute": false,
+  "schema": "ri213-actual-author-administrative-receipts-v1",
+  "scientific_execution": false
+}

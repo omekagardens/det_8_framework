@@ -1,0 +1,7 @@
+{
+  "cause": "Root assumed RI143 files key; declared schema uses payloads. No subject changed or executed.",
+  "correction": "Select the explicit declared key per handoff schema.",
+  "error": "KeyError: 'files'",
+  "exit_code": 1,
+  "tool": "7cca63"
+}

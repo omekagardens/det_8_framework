@@ -1,0 +1,136 @@
+{
+  "schema": "ri210-native-six-maxima-global-W-handoff-v1",
+  "status": "COMPLETE_SIX_MAXIMA_GLOBAL_M6_AND_STRICT_WEIGHTED_W_FOR_INDEPENDENT_REVIEW",
+  "date": "2026-09-30",
+  "timezone": "Pacific/Honolulu",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI210_NATIVE_ASSIGNMENT.json",
+    "bytes": 4167,
+    "sha256": "24a8b502e3b65457f5d713f4904cba57d73742b86b7861c09d6eef688baa79a8"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri207-root-four-maxima-review-rrel_hre/RI208_ROOT_ADJUDICATION.json",
+    "bytes": 2764,
+    "sha256": "b0b04178feee3a2a759a775b1bd53b69ea6a4cfc77b09b780191afb0d00af197"
+  },
+  "scalar_clarification": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_INHERITED_SCALAR_CLARIFICATION.json",
+    "bytes": 1133,
+    "sha256": "96bf213de5659149f11ecfdd9650361909004699f12b97dd043eedac553d73e3"
+  },
+  "namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "GLOBAL_W.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SIX_MAXIMA.md",
+    "SOURCE_REFERENCES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/AUTHOR_VERIFICATION.json",
+      "bytes": 27323,
+      "sha256": "40b3a978c8073fff83de236f051fb13da84a2a9aa7bc27708e0f0efec9ffa4a3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/GLOBAL_W.md",
+      "bytes": 9242,
+      "sha256": "fe165ff5434728bce491422e49eb5fa65a23488467299ee7604470f0ac513336"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/HANDOFF.md",
+      "bytes": 2402,
+      "sha256": "32bdf6cd822cb3e68a299ae397f18662fbecb90d8cb9e0eb260e4c0ca815a568"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/SIX_MAXIMA.md",
+      "bytes": 9187,
+      "sha256": "eefd70006317801a0bcd662d31177430c1c8a86c3967fd9e69e8860f7a7a5d9b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri210-native-six-maxima-leicoenm/SOURCE_REFERENCES.json",
+      "bytes": 36960,
+      "sha256": "8ddf2d03ed9e0103924c45cb142d0946f3af0ac24effa49134f258aa9717e307"
+    }
+  ],
+  "six_maxima_theorem": "Every actual marked six-parent with six maxima is A6 and satisfies U6(A6,r)<2^36+7=68719476743<69e9<T. All63 proper ideal occurrences and64records retained using accepted RI185 classification.",
+  "global_theorem": "Every marked six-parent belongs to exactly one of the six maxima-count classes. Combining accepted classes1through5 with the new A6 bound on the finite complete domain gives actual same-law M6<463e9<465e9<T.",
+  "weighted_consequence": "At the actual correlated pair, W(rho,s)/r>-1+8lambda*j0/[v(1+2M6)]. M6<=T=4lambda*j0/v-1/2 makes the right side nonnegative, so actual W>0 strictly, including equality at the sufficient threshold.",
+  "proof_steps": [
+    "Reuse accepted RI185 full marked classification, all63slots/64records,31-term A5 full complements and all-proper A5 restoration-only theorem. The latter includes selected sizes3/4 not covered solely by the newer terminal-maxima lemma.",
+    "Reconcile exact literal antichain seed: p3(empty)=1/44, selected singleton1/110, selected pair1/20 and full4/5; singleton empty2/3 and full1/3; empty-parent1.",
+    "Use only accepted native M5>5e9 for theta<2^-38. Reduced k0 row<2^36; k1<2^-42,k2/k3<2^-112,k4<2^-76. All56 non-full nonempty occurrences total<1.",
+    "All six actual full A5 complements remain record-dependent and have no extra theta; complete positivity gives total<6. Therefore full A6 row<2^36+7.",
+    "Explicit same-law class table exhausts maxima1through6, with all records. Finite domain and uniform class bounds justify strict global M6<463e9; no maximizing-parent inference.",
+    "Independently check the complete original RI199 weighted identity, all positivity premises, 1-yU30>2/3 and rho/(1-rho)=1/(1+2M6). Target equality still yields strict W>0.",
+    "Retain full weighted q and canonical N_i terms. Separate actual weighted sign from both individual margins, shared H30 and physical correspondence."
+  ],
+  "inherited_premises_not_fresh_verification": [
+    "RI185 accepted complete antichain classification:63proper A6 ideal occurrences,64records,31-term A5 complements and exact reduced six-row table.",
+    "RI185 all-mark restoration-only proper A5 theorem derived by marked diamonds and accepted RI63 active-neutral support, including selected sizes3/4.",
+    "Literal singleton and A3 seed; fixed positive complete four-parent probabilities, including actual full entries; empty-parent1.",
+    "Accepted native M5>5e9, theta=1/[72(1+M5)]<2^-38, unchanged target T=4lambda*j0/v-1/2>465e9.",
+    "Accepted same-law complete one-through-five-maxima theorems; earlier proof/decision pairs exactly bound.",
+    "RI199 exact weighted identity, positive coefficients and q/core/final terms, actual pair domain, U30>0 and1-U30/d>2/3. Its strict target implication includes equality."
+  ],
+  "manual_analysis_only": true,
+  "complete_six_maxima_class_bound_proved": true,
+  "accepted_RI185_classification_reused": true,
+  "global_M6_bound_proved": true,
+  "actual_W_decided": true,
+  "actual_W_positive_proved": true,
+  "both_individual_margins_or_H30_proved": false,
+  "physical_correspondence_proved": false,
+  "concrete_violating_parent_proved": false,
+  "printed_numerical_M5_used": false,
+  "actual_M6_or_scales_evaluated": false,
+  "new_scientific_body_or_vector_read": false,
+  "automated_proof_arithmetic_or_subject_execution": false,
+  "qualification_credit": false,
+  "repository_or_Git_written": false,
+  "ret_paused": true,
+  "remaining": "The global sufficient target and weighted sign close conditionally. Both original individual margins at the same actual pair, sharedT1, other eight connected parents, all fiveDi, H30 and physical correspondence remain unproved. No successor designed or started.",
+  "provenance_scope": {
+    "direct_sources": 26,
+    "direct_bytes": 624142,
+    "inherited423_manifest_by_reference": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "fresh423_or_previous_source_collections_replay": false,
+    "inherited_boundary_objects_preserved": 15,
+    "predecessor_complete_namespace": 6,
+    "named_RI185_RI199_literal_references": 5,
+    "opaque_historical_or_runtime_expansion": false
+  },
+  "actual_author_checks": {
+    "preseal": {
+      "chunk_id": "4a1283",
+      "exit_code": 0,
+      "current_namespace": 4,
+      "whole_identity_fresh_rechecks": 30,
+      "explicit_selected_reference_checks": 45
+    },
+    "author_record": {
+      "chunk_id": "05d292",
+      "exit_code": 0
+    },
+    "failed_current_commands_or_patches": 0,
+    "current_diagnostics": "None. Successful two-phase wording refinement removes an unnecessary R endpoint bound and states directly derived rho<1/2; complete initial/final pins retained.",
+    "all_historical_diagnostics_preserved_by_reference": true
+  },
+  "final_check_policy": "Run retained administrative checker in final6 mode after this file exists. Report actual receipt and handoff identity externally. This file claims neither a future check nor an internal self-hash.",
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stopping_rule": "Stop for root independent adjudication and separately owned publication/successor selection. No both-margins/H30/physical promotion, new scientific execution, new agent/thread or RET continuation."
+}

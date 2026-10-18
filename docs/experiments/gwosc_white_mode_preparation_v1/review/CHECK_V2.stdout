@@ -1,0 +1,1 @@
+{"counts": {"added": 21, "author_administrative_predicates": 4071, "author_namespace": 15, "author_payloads": 14, "copies": 48, "fresh_reviewer_predicates": 6304, "helpers": 11, "history_roles": 124, "inherited": 442, "input_bytes": 26311988, "input_files": 463, "interface_domains": 22, "stage_roles": 17, "target_pairs": 30, "unique_observed_paths": 478}, "status": "PASS"}

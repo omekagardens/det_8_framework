@@ -1,0 +1,47 @@
+{
+  "RET_paused": true,
+  "blocking_findings": [],
+  "checks": [
+    {
+      "bytes": 2639095,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/CHECK_RESULT.json",
+      "sha256": "72fc8a1717b0ce5b501d5080a83efa22979f3b58db37b8fd36e5c5bed2eb4440"
+    },
+    {
+      "bytes": 1780,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/SESSION_CHECK_RESULT.json",
+      "sha256": "8a95cf628fb6fbd8674c882d96483cea34278de056a845c9ac58ae19ec476267"
+    }
+  ],
+  "current_E_unchanged": true,
+  "frozen_custody_accepted": false,
+  "mode_admitted": false,
+  "predicate_count": 7563,
+  "preparation_only": true,
+  "qualification_credit": 0,
+  "receipt_gap_resolved_by": {
+    "bytes": 2336,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/GENUINE_PREPARATION_SESSION_LINKAGE.json",
+    "sha256": "f1c4420c94c34acae7cc947b6a7bf9b98f1639f06900ace2544d45767f1bec0e"
+  },
+  "recommendation": "ACCEPT_ACTUAL_ADMINISTRATIVE_PREPARATION_ONLY",
+  "reconciliation_admitted": false,
+  "reconciliation_executed": false,
+  "remaining_premises": [
+    "Root actual outcome adjudication",
+    "Fresh source/supplier/host/E and namespace predispatch custody",
+    "Separate exact root admission and bound dispatch",
+    "Genuine outer actual execution/monitor evidence and independent postcustody review",
+    "Stable host/supplier, no descendants and Apple loader/cache assumptions retained"
+  ],
+  "retained_failure_unchanged": true,
+  "review": {
+    "bytes": 10291,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-independent-concrete-preparation-yehbzc6e/INDEPENDENT_REVIEW.md",
+    "sha256": "5eec597c508c4f1c01746baf15a7ec15d4985c86b642c83ce475874f1b1285de"
+  },
+  "schema": "ri230-independent-actual-preparation-verdict-v1",
+  "scientific_decode": false,
+  "source_author_boundaries_disclosed": true,
+  "whole_file_identity_count": 2842
+}

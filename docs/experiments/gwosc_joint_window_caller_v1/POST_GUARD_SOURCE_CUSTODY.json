@@ -1,0 +1,19 @@
+{
+  "original_report": {
+    "bytes": 13318,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_RESULT.json",
+    "sha256": "c8b5b3ba532d1e512841f2499bf7f4939ee8a787bb92ec984c5e6216c12bc465"
+  },
+  "repaired_report": {
+    "bytes": 18410,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_GUARD_RESULT.json",
+    "sha256": "690321d69979c75bdf20af80f1b3d13e194f0ce8e66991b3bfe94cb9b78e95cb"
+  },
+  "repaired_source_check": {
+    "bytes": 6160,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/REPAIRED_SOURCE_METADATA_CHECK.json",
+    "sha256": "3c844a8841ef4cb2ba8cf86d40dd25a54604624804bb18804948871eccec3af4"
+  },
+  "scope": "29 isolated fixture cases;11predecessor with7expected ordering/original-stop-reason failures;18repaired pass. No production or scientific runtime admission.",
+  "status": "PASS_ALL20_REPAIRED_FILES_PLUS_ORIGINAL_HELPERS_AND_BOTH_TEMPLATES_UNCHANGED"
+}

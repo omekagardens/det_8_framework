@@ -1,0 +1,603 @@
+{
+  "schema": "ri199-compact-accepted-source-references-v1",
+  "status": "EXACT_REFERENCES_FOR_MANUAL_ANALYSIS_NOT_NEW_ACCEPTANCE",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+    "bytes": 3908,
+    "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+    "bytes": 2322,
+    "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+  },
+  "accepted_manual_packet": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.json",
+    "bytes": 7941,
+    "sha256": "287eb11395e5c5d03d09b1034f23c25d23c16ccdc924f9c14f1189eba60ddba2"
+  },
+  "direct_sources": [
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+        "bytes": 7886,
+        "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+        "bytes": 17929,
+        "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+        "bytes": 19001,
+        "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+        "bytes": 12849,
+        "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+        "bytes": 11631,
+        "sha256": "3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "current assignment or accepted predecessor",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+        "bytes": 2322,
+        "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+      },
+      "access": "administrative-reference"
+    },
+    {
+      "role": "preserved earlier root note",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ.md",
+        "bytes": 3274,
+        "sha256": "accb77b5ee502f0a9067ac7785d10a4093d3a8a4ac502f33e9f6efaf8e98dcd9"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "root proof or correction record",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ_V2.md",
+        "bytes": 3274,
+        "sha256": "0e0b74a1509f4c807ac85ec66c461f9994be16d9dbe4c6501b03119b4e4e0780"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "root literal custody history",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_LITERAL_CUSTODY.json",
+        "bytes": 1331,
+        "sha256": "bab6b18114ebeb0812c3eb70f118dd9b3813d176b15edb2b11a1c71711aad22c"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "root proof or correction record",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_MANUAL_ERRATUM.json",
+        "bytes": 799,
+        "sha256": "76859fd772b85f35e1a0a432bc88c38e4ba95a56a3cb13c430626a51852ee88d"
+      },
+      "access": "administrative-reference"
+    },
+    {
+      "role": "root423 plus8 identity review",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_METADATA_CHECK.json",
+        "bytes": 245929,
+        "sha256": "9acef1225398fceec5a9c8d8295360369536ad27b9bc96fb75ecfa728c9a329b"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "root proof or correction record",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_PROOF_REVIEW.md",
+        "bytes": 4250,
+        "sha256": "7313b30c7d145885140cc988e4b8f66cd9966b91e9fd16495f839b9a0152f052"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "current assignment or accepted predecessor",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+        "bytes": 3908,
+        "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+      },
+      "access": "administrative-reference"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/AUTHOR_VERIFICATION.json",
+        "bytes": 46682,
+        "sha256": "7585a0edff26841e38d5a267abe19ad848cdda1cb41eae6beab06c5bdc7e4b65"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/DEPENDENCY_NOTES.md",
+        "bytes": 9370,
+        "sha256": "cb9026d40e6e130d91d24cba90ec1a3d51bda473d235acae592b1c1a7b26f780"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "accepted RI197 seal",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.json",
+        "bytes": 7941,
+        "sha256": "287eb11395e5c5d03d09b1034f23c25d23c16ccdc924f9c14f1189eba60ddba2"
+      },
+      "access": "administrative-reference"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/HANDOFF.md",
+        "bytes": 2130,
+        "sha256": "4d60ccafc0cd8e20dd1a2cdcaea970024208cb9db51b624271289d802dfc1878"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+        "bytes": 7251,
+        "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+        "bytes": 7520,
+        "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+        "bytes": 393074,
+        "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+      },
+      "access": "administrative-reference"
+    },
+    {
+      "role": "sealed RI197 predecessor payload",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_IDENTITIES.json",
+        "bytes": 155921,
+        "sha256": "4eb03ac643c3a494dd88b882dcdeb6e882c65d793f8219b28dc21a05a37c9c93"
+      },
+      "access": "opaque-historical-support"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+        "bytes": 13499,
+        "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+        "bytes": 17102,
+        "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_weighted_margin_interval_v1/source/WEIGHTED_MARGIN_PROOF.md",
+        "bytes": 11272,
+        "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_single_endpoint_criterion_v1/source/UPPER_BOUNDARY.md",
+        "bytes": 13039,
+        "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc"
+      },
+      "access": "accepted-analytic-text"
+    },
+    {
+      "role": "actual mathematical text read",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md",
+        "bytes": 10971,
+        "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+      },
+      "access": "accepted-analytic-text"
+    }
+  ],
+  "inherited_manifest_by_reference": {
+    "identity": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/SOURCE_DEPENDENCIES.json",
+      "bytes": 393074,
+      "sha256": "ae9607c961c804d0d69fc9a26daf3324d840faec487c269e2bf7f5a45202516d"
+    },
+    "selected_paths": 423,
+    "acceptance": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+      "bytes": 2322,
+      "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+    },
+    "scope": "Authenticate this exact manifest and accepted seal. Do not replay or expand all423 inherited referents in this compact packet.",
+    "fresh423_file_or_transitive_typed_reference_recheck_claimed": false,
+    "boundary_objects": {
+      "governance_stopping_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+        "classification": "selected-administrative-governance-boundary",
+        "use": "Current assignment lineage only; not a mathematical premise, runtime admission or inherited operational closure.",
+        "typed_reference_expansion": false,
+        "unexpanded_top_level_reference_fields": [
+          "full_checks",
+          "independent_checks",
+          "subject"
+        ],
+        "whole_identity_authenticated": true,
+        "literal_status_read": true
+      },
+      "historical_phase_record_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "reason": "Preserves genuine earlier and final preseal phases. Embedded old manuscript/handoff identities are historical observations, not current-path expectations.",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "current_final_payload_expectations": "The predecessor HANDOFF, SOURCE_DEPENDENCIES and SOURCE_IDENTITIES bind the sealed final source identities.",
+        "earlier_diagnostics_preserved": true
+      },
+      "predecessor_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Historical author administrative/read-check receipts are retained whole; sealed final source identities are bound by predecessor HANDOFF and source manifests, not recursive runtime expansion."
+      },
+      "ri172_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri172-full-layer-implication-6n1jflgq/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Retain the complete sealed RI172 author diagnostic and read-check history as opaque support. Its HANDOFF and source manifests bind final source identities; embedded author phases are not fresh current-path or runtime expectations."
+      },
+      "ri173_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Retain the complete sealed RI173 author check/read history without expanding phase or operational descriptions. Its HANDOFF and source manifests bind the final source identities; coauthor checks are not independent acceptance."
+      },
+      "ri122_literal_read_exception": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "automated_typed_reference_expansion": false,
+        "literal_read_authority": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json",
+        "scope": "For RI175 only, root permits literal use of the final accepted mathematical premise. This does not reclassify the inherited row, traverse its operational references or authorize scientific coefficient extraction.",
+        "historical_endpoint_sign_is_newly_computed": false,
+        "current_derivative_theorem_is_preaccepted": false
+      },
+      "ri175_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri175-same-law-intercept-91oc0806/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Retain complete RI175 author diagnostics, including genuine 312/313 metadata phases, rejected patch and scoped historical-read chronology. Earlier phase pins remain historical observations; final identities come from sealed HANDOFF and manifests."
+      },
+      "ri178_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Preserve the complete sealed RI178 author count-expectation failure, corrected checks, source reads and inherited diagnostic phases as opaque support. Sealed HANDOFF/manifests bind final identities; historical phase pins are not current-path expectations."
+      },
+      "ri181_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Preserve the sealed RI181 author checks, note identity phases and recovered displays as opaque historical support. Final source identities come from HANDOFF and manifests, not embedded earlier phase pins."
+      },
+      "ri185_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri185-six-antichain-bound-dd0wfjn0/AUTHOR_CHECKS.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Retain complete sealed RI185 author checks, successful notes phases and recovered stored-metadata display. Final source identities come from HANDOFF and manifests; historical phase pins remain historical."
+      },
+      "ri187_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/AUTHOR_VERIFICATION.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Retain complete sealed RI187 author verification, failed expected-hash transcription and correction, recovered administrative projection and notes phases as opaque historical support. Sealed HANDOFF/manifests bind final source identities, not embedded earlier phase expectations."
+      },
+      "ri189_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri189-coupled-record-contrast-y5nubaac/AUTHOR_VERIFICATION.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "whole_identity_authenticated": true,
+        "typed_reference_expansion": false,
+        "reason": "Preserve sealed RI189 author checks, complete literal reads, earlier/final provenance-note phases and author-peer attribution opaquely. Current final source identities come from HANDOFF and source manifests, not historical phase references."
+      },
+      "ri191_author_support_boundary": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri191-exact-pair-witness-source-uu414bjg/AUTHOR_VERIFICATION.json",
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "typed_reference_expansion": false,
+        "reason": "Preserve RI191 draft/final source and preseal/final author history opaquely. Final bindings come from its sealed handoff, not historical phase payloads."
+      },
+      "ri195_review_support_boundary": {
+        "paths": [
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_ADMIN_LITERAL.js",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_ADMIN_REPLAY.js",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_RESULT.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/AUTHOR_REPLAY_STDERR.txt",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDERR.txt",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_ATTEMPT2_STDOUT.txt",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_CHECK.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDERR.txt",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INDEPENDENT_ADMIN_STDOUT.txt",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/INITIAL_AUTH.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/PUBLICATION_SUBSET.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/SEAL_CHECK.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/TOOL_RECEIPTS.json",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.attempt1.js",
+          "/Volumes/AI_DATA/development/det-review-evidence/ri195-pair-witness-independent-review-cf5d6lpb/check_metadata.js"
+        ],
+        "classification": "opaque-historical-acceptance-or-source-support",
+        "typed_reference_expansion": false,
+        "reason": "Retain failed/recovered reviewer observations, checker revisions, saved outputs and receipts as opaque historical support, not newly executed code or recursively expanded current runtime."
+      },
+      "ri197_literal_certificate_exception": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json",
+        "literal_read_authority": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_MANUAL_BODY_ADMISSION.json",
+        "literal_read_only": true,
+        "automatic_scientific_JSON_parsing": false,
+        "automated_typed_reference_expansion": false,
+        "original_inherited_row_preserved": true,
+        "historical_state_compared_to_current_stat": false
+      }
+    },
+    "boundaries_are_preserved_historical_scope_not_current_read_authority": true,
+    "RI197_literal_certificate_exception_used_for_new_scientific_read": false,
+    "RI164_operational_boundary_remains_unexpanded": true
+  },
+  "predecessor_namespace": [
+    "AUTHOR_VERIFICATION.json",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "PAIR_PROOF.md",
+    "ROOT_OVERRIDE_AUDIT.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "current_complete_literal_read_groups": [
+    {
+      "receipt": "99f8f2",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI199_NATIVE_ASSIGNMENT.json",
+          "bytes": 3908,
+          "sha256": "2a0e86f79408f4b33e406db3e45887b4154cae6a2110ecea62b253701b8b8d39"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_ADJUDICATION.json",
+          "bytes": 2322,
+          "sha256": "81ca420487bb72b28c5ba292eab1ffd0b58640e1ecdf4a4d7940ce523df721d2"
+        }
+      ]
+    },
+    {
+      "receipt": "6f71b0",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_PROOF_REVIEW.md",
+          "bytes": 4250,
+          "sha256": "7313b30c7d145885140cc988e4b8f66cd9966b91e9fd16495f839b9a0152f052"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_MANUAL_ERRATUM.json",
+          "bytes": 799,
+          "sha256": "76859fd772b85f35e1a0a432bc88c38e4ba95a56a3cb13c430626a51852ee88d"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RI197_ROOT_INDEPENDENT_MANUAL_READ_V2.md",
+          "bytes": 3274,
+          "sha256": "0e0b74a1509f4c807ac85ec66c461f9994be16d9dbe4c6501b03119b4e4e0780"
+        }
+      ]
+    },
+    {
+      "receipt": "7ea71d",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_weighted_margin_interval_v1/source/WEIGHTED_MARGIN_PROOF.md",
+          "bytes": 11272,
+          "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_single_endpoint_criterion_v1/source/UPPER_BOUNDARY.md",
+          "bytes": 13039,
+          "sha256": "89edbbe412a3d3be14f07d168186d2452ed90672df12953626f2292da7fcb5fc"
+        }
+      ]
+    },
+    {
+      "receipt": "7d31ea",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_six_antichain_bound_v1/source/SIX_ANTICHAIN_BOUND.md",
+          "bytes": 10971,
+          "sha256": "6a9538be7a5b2b976bd74d9e165cbc8e0726e71b04effbc3cd00eaf027b1c3e4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_endpoint_certificate_v1/source/ENDPOINT_CERTIFICATE.md",
+          "bytes": 13499,
+          "sha256": "a805476d3df8fe1054f60a79ddfa16287f1b10033ff19a8672016831a632a4fe"
+        }
+      ]
+    },
+    {
+      "receipt": "5210aa",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/LOWER_LAW_TRACE.md",
+          "bytes": 11631,
+          "sha256": "3b74151edeb6316c00ac09f752727899abf24ea5cc6da75c7da080435a7e6d6e",
+          "symlinks": []
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+          "bytes": 17102,
+          "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+          "symlinks": []
+        }
+      ]
+    },
+    {
+      "receipt": "b7a1c6",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+          "bytes": 17929,
+          "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118",
+          "symlinks": []
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+          "bytes": 12849,
+          "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125",
+          "symlinks": []
+        }
+      ]
+    },
+    {
+      "receipt": "bddf98",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+          "bytes": 19001,
+          "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f"
+        }
+      ]
+    },
+    {
+      "receipt": "9fc36f",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+          "bytes": 7886,
+          "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+          "symlinks": []
+        }
+      ]
+    },
+    {
+      "receipt": "760b5b",
+      "sources": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/PAIR_PROOF.md",
+          "bytes": 7251,
+          "sha256": "42f01cab5dd8c08afc4a4b394a46734e5ab3c6f2aff1b0c2cc0e8ff4cb067045"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri197-manual-original-pair-proof-dh668vz_/ROOT_OVERRIDE_AUDIT.md",
+          "bytes": 7520,
+          "sha256": "a56645d5063d608f78db73e83188b7cdb698ac3235fe0a78257189926f06a4c3"
+        }
+      ]
+    }
+  ],
+  "administrative_projection_receipts": [
+    "e43adc",
+    "c11658"
+  ],
+  "direct_identity_construction_receipt": {
+    "chunk_id": "741530",
+    "exit_code": 0,
+    "output_truncated": false,
+    "direct_files": 26,
+    "direct_bytes": 1030155
+  },
+  "historical_diagnostics_preserved": [
+    "RI197 root original note's seven/eight top-level-field error, original note and corrected V2 retained through explicit erratum.",
+    "RI197 root clipped author-record projection59a008 and compact recovery10f948 disclosed in accepted root review; not represented as complete script review or execution.",
+    "RI195 checker-selection failure8169d8 and corrected78ace9, missing-ls observation and clipped/recovered display remain in accepted predecessor custody by reference.",
+    "RI191 and earlier source/namespace/read phases remain under the exact inherited manifest and opaque support boundaries; no replay or erasure."
+  ],
+  "scientific_scope": {
+    "manual_symbolic_analysis_only": true,
+    "new_scientific_body_read": false,
+    "scientific_JSON_parsed": false,
+    "accepted_pair_used_from_reviewed_RI197_audit": true,
+    "actual_new_coefficient_vector_or_maximum_instantiated": false,
+    "full_798_or_109_vector_constructed": false,
+    "automatic_arithmetic_graph_LP_or_scientific_execution": false,
+    "literal_analytic_completion_contains_historical_numeric_claims": true,
+    "historical_numeric_M5_claim_selected_as_actual_operand": false,
+    "fixture_card_runtime_or_new_agent_thread": false,
+    "repository_Git_or_predecessor_change": false,
+    "actual_W_or_H30_decided": false,
+    "physical_promotion": false,
+    "ret_paused": true
+  },
+  "executable_obligations": {
+    "controls": 92,
+    "recipes": 34,
+    "mutation_families": 35,
+    "focused_attempts": 31,
+    "policy_cases": 139,
+    "native_deeper": 20,
+    "audit_deeper": 42,
+    "new_credit": 0,
+    "scope": "Required for their respective executable routes; no route is used or qualified by this manual analysis."
+  },
+  "stop": "Only direct sources are freshly opaque-pinned. Full predecessor acceptance/custody remains inherited at exact references. Root owns independent review, publication and successors."
+}

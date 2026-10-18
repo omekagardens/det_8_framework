@@ -1,0 +1,97 @@
+{
+  "active_measurement": "RI141 sealed source assigned for complete independent review; no current capture admitted.",
+  "active_native": "RI140 source repair remains active and unaccepted, including related startup ownership path.",
+  "actual_control_rerun": false,
+  "archived_subject_execution": false,
+  "base_check": {
+    "bytes": 1493,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/AUTHOR_BASE_CHECK.json",
+    "sha256": "4d94cf15875a7fb2d8729f3a2da35b3de5c254f75283fb5f491839b2c9fc32eb"
+  },
+  "compact_review_files_including_handoff": 23,
+  "counts": {
+    "negative": 14,
+    "passed": 17,
+    "positive": 3,
+    "total": 17
+  },
+  "independent_nonauthor_review": {
+    "bytes": 7582,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/HANDOFF.json",
+    "sha256": "bb20f9a2072725038cd5630a46120f5a9ced6e99e267ade5f7079451edb82647"
+  },
+  "limits": [
+    "Stable reader-controlled filesystem and reader Python/standard library premise; no adversarial containment or atomic whole-tree snapshot.",
+    "Manifest and outcome mutations refuse at fixed hashes; deeper parsing and semantic guards received source review, not dynamic mutation coverage.",
+    "Pinned published bytes and selected saved agreements only; not a full fresh semantic replay of all control envelopes.",
+    "Historical tool origin, external dependency completeness, current runtime, calibrated science and native forward map are not established."
+  ],
+  "negative_cases": [
+    "04_missing_payload",
+    "05_same_size_tamper",
+    "06_extra_file",
+    "07_extra_empty_directory",
+    "08_symlink_file",
+    "09_symlink_directory",
+    "10_symlink_root",
+    "11_mutated_manifest",
+    "12_unsafe_manifest_path",
+    "13_nonempty_stream",
+    "14_partial_json_repaired",
+    "15_saved_outcome_tamper",
+    "16_missing_manifest",
+    "17_regular_file_root"
+  ],
+  "original_archive_files": 135,
+  "original_archive_namespace_entries": 169,
+  "original_archive_preserved": true,
+  "original_manifest": {
+    "bytes": 25566,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_focused25_result_v1/PUBLICATION_MANIFEST.json",
+    "sha256": "da4ccad5e3f06e313ad0ba2a0b00b23c4a6aa7b5faaa6b28043c6259998024ee"
+  },
+  "partial_receipts": 8,
+  "positive_cases": [
+    "01_original_archive",
+    "02_relocated_archive",
+    "03_default_layout"
+  ],
+  "programme_complete": false,
+  "publication_subset": {
+    "bytes": 6315,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/PUBLICATION_SUBSET.json",
+    "sha256": "7d8da6e0ce3bb96fb56d52f459ae8639ee33395a579d71cb4192f3626d021140"
+  },
+  "readme": {
+    "bytes": 2459,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/README.md",
+    "sha256": "d64b0e70cce611d62457fe74d74d19de44a7472fceb5bb9e2a0139b74d1be7c7"
+  },
+  "ret_paused": true,
+  "review": {
+    "bytes": 9216,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/INDEPENDENT_REVIEW.md",
+    "sha256": "cbe59b92324b5913c3b0fbca0a14a312321f55432c85896d6156791efc4e1d82"
+  },
+  "root_is_source_author": true,
+  "root_review": "Complete 223-line source, README, independent review and test driver read; all 17 saved records reconciled against complete result, observed reviewer tool c0fe42 exit 0 and exact immutable source.",
+  "runtime_capture_or_admission": false,
+  "schema": "ri142-root-archive-utility-adjudication-v1",
+  "source": {
+    "bytes": 11568,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/verify_archive.py",
+    "sha256": "660e41bb8615b86145b12f7a161ac532886fb6405949b4197e7f164d48ef798d"
+  },
+  "status": "ACCEPT_NARROW_READ_ONLY_ARCHIVE_UTILITY",
+  "tests": {
+    "bytes": 63393,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/TEST_RESULTS.json",
+    "sha256": "f00c08af271fecfd8263b4f7537811e7fab2dc91273098ced6090eb261b050b6"
+  },
+  "verdict": {
+    "bytes": 2016,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri142-portable-focused25-net0j999/review/VERDICT.json",
+    "sha256": "1a681428dc8fd27877b6044099d831f3c9bf87cce719e33991daceaf90f7f984"
+  },
+  "zero_streams": 2
+}

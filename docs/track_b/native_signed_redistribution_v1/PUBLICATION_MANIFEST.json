@@ -1,0 +1,62 @@
+{
+  "schema": "det-redacted-publication-v1",
+  "scope": "Public derivative; original custody identities and administrative executable sources intentionally withheld.",
+  "scientific_status": "Historical conditional mathematics and bounded review statements only; no new proof, execution, qualification or physical validation.",
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 4537,
+      "sha256": "c5ee45d16e95e971513cded33938e0238a7ae8a22d157a1b8b9a65013f689e67"
+    },
+    {
+      "path": "independent/REVIEW.md",
+      "bytes": 18634,
+      "sha256": "aeb44c36dccf39ef21567a4720071a5e061a9ae5a1ef72b555e741a5f376581d"
+    },
+    {
+      "path": "root/RI256_ROOT_REVIEW.md",
+      "bytes": 5885,
+      "sha256": "eeb11a2788bc3da640c49ce21eb99142784e51b44c2a8bbae51dd19c44c5c826"
+    },
+    {
+      "path": "root/RI258_ASSIGNMENT.md",
+      "bytes": 4189,
+      "sha256": "caca777c6539a7338b8f7336a0fb20cc98d7d91e15922eee798de4524f558b53"
+    },
+    {
+      "path": "source/DUAL_COMPATIBILITY.md",
+      "bytes": 11598,
+      "sha256": "1f05127bfc32f43f334cf5dae7d0ab3730b2dc630ad1a941a769aceef8427559"
+    },
+    {
+      "path": "source/HANDOFF.md",
+      "bytes": 2724,
+      "sha256": "4a069a312a9e9ef7f31f8dd27b80471a81c3712d6ebc06b4845e6ef71e1b8c65"
+    },
+    {
+      "path": "source/SIGNED_REDISTRIBUTION.md",
+      "bytes": 9171,
+      "sha256": "30531336cab1f90c56b9bc7c233267ab7b959ca26be3ff48937c35b0f604a18d"
+    }
+  ],
+  "withheld_private_payloads": [
+    "DEPENDENCY_MAP.json",
+    "independent/BOUNDARY_LITERAL_CHECK.json",
+    "independent/CHECK.json",
+    "independent/GENUINE_AUTHOR_CHECKS.json",
+    "independent/HANDOFF.json",
+    "independent/PUBLICATION_SUBSET.json",
+    "independent/SUMMARY.json",
+    "independent/TOOL_RECEIPTS.json",
+    "independent/check_metadata.py",
+    "root/RI256_GENUINE_FINAL.json",
+    "root/RI256_ROOT_ADJUDICATION.json",
+    "root/RI256_ROOT_METADATA_CHECK.json",
+    "root/RI258_ASSIGNMENT.json",
+    "root/native_review.py",
+    "source/AUTHOR_VERIFICATION.json",
+    "source/HANDOFF.json",
+    "source/SOURCE_REFERENCES.json"
+  ],
+  "original_manifest": "Withheld. Payload pins above authenticate only the derivative, never the private originals."
+}

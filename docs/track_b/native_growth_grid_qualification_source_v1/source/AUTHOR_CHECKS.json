@@ -1,0 +1,365 @@
+{
+  "schema": "ri161-author-checks-v1",
+  "status": "SOURCE_PREPARATION_ONLY_NOT_QUALIFICATION_OR_INDEPENDENT_ACCEPTANCE",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg",
+  "selecting_authority": {
+    "assignment": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+      "bytes": 5161,
+      "sha256": "fdf0db538d12322f15179cc1bc8b3f0ffd3f1634baee39f8d4a63f04a63b5d8d"
+    },
+    "adjudication": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/RI159_ROOT_ADJUDICATION.json",
+      "bytes": 3815,
+      "sha256": "f79a3b087a009a17088d695866b1f7998f48992b539bb74d8657dc7721b67bce"
+    }
+  },
+  "manual_review": {
+    "layer": "Literal source inspection only; no import, compilation, AST, probe or execution of any scientific subject, control, caller or historical helper.",
+    "main_complete_reads": [
+      {
+        "receipts": [
+          "88a719",
+          "e42bd4",
+          "a7d51b"
+        ],
+        "exit_code": 0,
+        "scope": "Provided assignment/adjudication pins and complete authority, root manual, independent handoff/verdict and narrative"
+      },
+      {
+        "receipts": [
+          "0dd027",
+          "0c1bcb",
+          "140c71",
+          "752f22"
+        ],
+        "exit_code": 0,
+        "scope": "Complete native qualification source and initial caller draft"
+      },
+      {
+        "receipts": [
+          "3499b7",
+          "a2e3d7",
+          "022f8b",
+          "729b15",
+          "f4ebe1"
+        ],
+        "exit_code": 0,
+        "scope": "Assignment re-read, complete dependency note and complete final fault source"
+      },
+      {
+        "receipts": [
+          "0521c6",
+          "02abff",
+          "620b8b"
+        ],
+        "exit_code": 0,
+        "scope": "Complete final caller including repaired record validation, partial-prefix preservation and exact-family/sweep guards"
+      },
+      {
+        "receipts": [
+          "a561db",
+          "83cafd",
+          "3df841",
+          "eb937d",
+          "f60e05",
+          "0f5274"
+        ],
+        "exit_code": 0,
+        "scope": "Complete inherited qualification case specification and focused literal source coverage/interface checks"
+      },
+      {
+        "receipts": [
+          "c27690",
+          "4e1873",
+          "5eee4d"
+        ],
+        "exit_code": 0,
+        "scope": "Complete final HANDOFF, CONTRACT and COVERAGE source readbacks"
+      }
+    ],
+    "native_coauthor": {
+      "final_source_bytes": 37082,
+      "final_source_sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653",
+      "own_source_pin_receipts": [
+        "b423aa",
+        "08f9b7"
+      ],
+      "full_fault_peer_receipts": [
+        "fac6f5",
+        "5af8c6",
+        "e156f8"
+      ],
+      "full_caller_peer_receipts": [
+        "8e8a8b",
+        "1e6b9a",
+        "36806e",
+        "83a944"
+      ],
+      "repaired_caller_receipts": [
+        "4f8ca5",
+        "09eadd",
+        "746331"
+      ],
+      "full_document_review_receipts": [
+        "0ace19",
+        "5de5e7",
+        "d5d9ff"
+      ],
+      "exit_code": 0,
+      "result": "No remaining concrete source/oracle/count/interface mismatch reported. Coauthor review, not independent root review."
+    },
+    "caller_coauthor": {
+      "final_source_bytes": 41969,
+      "final_source_sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721",
+      "full_own_read_receipts": [
+        "556339",
+        "3791b2",
+        "882cc1"
+      ],
+      "changed_span_receipts": [
+        "37b548",
+        "d36e10",
+        "01fbdc"
+      ],
+      "full_fault_peer_receipts": [
+        "49f697",
+        "1f00a4",
+        "6dd587"
+      ],
+      "repaired_fault_receipts": [
+        "0cc1fc",
+        "3bf7b0",
+        "46ece4",
+        "c5a719",
+        "0e3452"
+      ],
+      "final_pin_receipts": [
+        "4530f6",
+        "53ce26"
+      ],
+      "exit_code": 0,
+      "result": "No remaining concrete source finding reported after repairs. Coauthor review, not independent root review."
+    },
+    "metadata_coauthor": {
+      "closure_check_receipt": "3f63ba",
+      "manifest_recheck_receipt": "e5e927",
+      "note_readback_receipt": "a6ad98",
+      "full_fault_peer_receipts": [
+        "7e2372",
+        "e296b4",
+        "339728",
+        "e1e01f"
+      ],
+      "recovered_subject_span_receipt": "e1d88f",
+      "exit_code": 0,
+      "result": "280 selected dependencies, 98 administrative bodies, 2335 historical and 49 current references; metadata check preceded final source namespace. Scientific and large diagnostic bodies remained opaque."
+    },
+    "prospective_counts": {
+      "source_inspected_not_executed": true,
+      "families": 63,
+      "q_variants": 237,
+      "q_records_per_mode": 474,
+      "r_records_per_mode": 1994,
+      "fault_records_per_mode": 75,
+      "caller_records_per_mode": 4,
+      "total_per_mode": 2547,
+      "total_two_modes": 5094,
+      "q05_indices_per_implementation": 109,
+      "r07_records": 545,
+      "r08_records": 436,
+      "r13_dictionary_locations": 120,
+      "r13_removals": 814,
+      "r13_extras": 120
+    }
+  },
+  "repairs": [
+    "FaultFailure escapes the expected-subject-refusal capture and carries completed records on a catastrophic pin-mutation failure.",
+    "Expected exception class identity is required, not only a matching class name; auditor missing-path direct probe names exact FileNotFoundError.",
+    "P01 auditor hash controls use correct-length different bytes and retain the original bounded reader on the targeted role; length faults are separate.",
+    "P06 explicitly includes leaf and ancestor symlink controls in each direct reader.",
+    "Caller validates and retains a completed suite prefix after catastrophic harness failure instead of discarding completed observations.",
+    "All non-native-refusal PASS records require full type-sensitive output comparison.",
+    "Parent requires the exact 63-family set and explicit full Q05, R07 and R08 sweep IDs.",
+    "P10 observes actual main calls via profile hook, not a literal flag; P10/P11 observations retain canonical diagnostic JSON and digest.",
+    "Guarded real-operation attempts fail the control suite even if the subject catches the guard exception.",
+    "Child resource limits require readback; suite catalogues are obtained once per authenticated suite load."
+  ],
+  "administrative_check": {
+    "boundary": "Separate inline Node fs/path/crypto administrative command. Current Python and all scientific bodies whole-hashed only; only allowlisted administrative JSON decoded. No source parsing or execution.",
+    "command": "node <<'RI161_ADMIN'\nconst fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg', P='/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n', V='/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');b=fs.readFileSync(fd);need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[]};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:251800,sha256:'2283a700a1ab974bea1ec71138ccaae56d0af3049262bf91bca94386edbe1853'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:19454,sha256:'4f91148ef948062cfd2a5cab2bdf5f281c1898168d4c31d14ed9b910b647f9e5'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body), S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body), M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===280,'count');D.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity);});need(eq([...M.keys()],[...M.keys()].sort()),'sort');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body), omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===252,'old252');for(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherit');\nfor(const d of[P,V]){const h=JSON.parse(read(d+'/HANDOFF.json').body), n=fs.readdirSync(d).sort();need(eq(n,[...h.namespace].sort())&&eq(n,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'namespace');h.payloads.forEach(pin);}\nlet refs=0,extended=0;function scan(x){if(!x||typeof x!=='object')return;if(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){need(M.has(x.path)||x.path===Q+'/SOURCE_DEPENDENCIES.json','ref closure '+x.path);pin(x);refs++;if(x.state!==undefined&&x.symlink_chain!==undefined)extended++;}Object.values(x).forEach(scan);}\nlet admin=0;for(const r of D.protected_files)if(r.classification==='selected-administrative-proof-provenance'){admin++;scan(JSON.parse(read(r.path).body));}\nneed(admin===98&&refs===2335&&extended===17,'admin refs');refs=0;scan(S);need(refs===49,'current refs');\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published))need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'pair');\nconst final=[\"qualify_grid.py\",\"fault_cases.py\",\"caller.py\",\"CONTRACT.md\",\"COVERAGE.md\",\"DEPENDENCY_NOTES.md\",\"SOURCE_DEPENDENCIES.json\",\"SOURCE_IDENTITIES.json\",\"AUTHOR_CHECKS.json\",\"HANDOFF.md\",\"HANDOFF.json\"].sort();\nneed(eq(Object.keys(S.actual_input_roles_qp04_only).sort(),[\"certificate\",\"original_source\",\"original_manuscript\",\"assignment\",\"accepted_predecessor\",\"accepted_manual_review\"].sort()),\"runtime role set\");Object.values(S.actual_input_roles_qp04_only).forEach(pin);\nneed(eq(Object.keys(S.subject_sources).sort(),[\"auditor\",\"checker\"]),\"subject role set\");Object.values(S.subject_sources).forEach(pin);\nconst stage=process.env.RI161_STAGE||'preseal9',expected=stage==='final11'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));\nlet sourceRefs=0;for(const n of ['CONTRACT.md','COVERAGE.md','HANDOFF.md']){const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');for(const match of txt.matchAll(/\\x60(\\/Volumes\\/[^\\x60 \\n]+\\.(?:md|json|py))\\x60/g)){need(M.has(match[1])||expected.some(f=>Q+'/'+f===match[1]),'literal reference '+match[1]);sourceRefs++;}}\nif(stage==='final11'){const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===10,'current seal');need(eq(h.payloads.map(x=>p.basename(x.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'current payload coverage');h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_predecessor);}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nconsole.log(JSON.stringify({schema:'ri161-author-administrative-check-v1',status:'MATCH_NOT_PROOF_ACCEPTANCE',stage,dependencies:280,selected_bytes:D.protected_files.reduce((n,r)=>n+r.identity.bytes,0),inherited:252,administrative_bodies:98,historical_typed_refs:2335,premise_refs:49,extended_historical_identity_occurrences:17,historical_state_compared_to_current:false,predecessor_namespaces:[11,10],counterparts:4,absolute_manuscript_reference_occurrences:sourceRefs,final_fresh_identity_rechecks:before.length,current_payloads:payloads,scientific_execution:false},null,2));\nRI161_ADMIN",
+    "tool_receipt": {
+      "chunk_id": "f4d604",
+      "wall_time_seconds": 0.053137917,
+      "exit_code": 0,
+      "original_token_count": 692,
+      "output": "{\n  \"schema\": \"ri161-author-administrative-check-v1\",\n  \"status\": \"MATCH_NOT_PROOF_ACCEPTANCE\",\n  \"stage\": \"preseal9\",\n  \"dependencies\": 280,\n  \"selected_bytes\": 24169856,\n  \"inherited\": 252,\n  \"administrative_bodies\": 98,\n  \"historical_typed_refs\": 2335,\n  \"premise_refs\": 49,\n  \"extended_historical_identity_occurrences\": 17,\n  \"historical_state_compared_to_current\": false,\n  \"predecessor_namespaces\": [\n    11,\n    10\n  ],\n  \"counterparts\": 4,\n  \"absolute_manuscript_reference_occurrences\": 0,\n  \"final_fresh_identity_rechecks\": 289,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/CONTRACT.md\",\n      \"bytes\": 12543,\n      \"sha256\": \"ba1f8876bc11847261240948c0c9eabfb4c6cdbded0c9571c6f6a50031185bd4\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/COVERAGE.md\",\n      \"bytes\": 8139,\n      \"sha256\": \"8f77b0b4e52a00cc032187384d045ae897c026f0e0b701e40bdf566cf2a18bef\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/DEPENDENCY_NOTES.md\",\n      \"bytes\": 14304,\n      \"sha256\": \"cdb0795f7857e7b3bbe12c4f79ff5233b83767a2d48504f10e350e2744a532cd\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.md\",\n      \"bytes\": 3757,\n      \"sha256\": \"695f6aee3240ade3012ea23d50c6e331ed04bb92cd8602bd96a2f6fab2c82586\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_DEPENDENCIES.json\",\n      \"bytes\": 251800,\n      \"sha256\": \"2283a700a1ab974bea1ec71138ccaae56d0af3049262bf91bca94386edbe1853\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_IDENTITIES.json\",\n      \"bytes\": 19454,\n      \"sha256\": \"4f91148ef948062cfd2a5cab2bdf5f281c1898168d4c31d14ed9b910b647f9e5\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py\",\n      \"bytes\": 41969,\n      \"sha256\": \"9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py\",\n      \"bytes\": 30012,\n      \"sha256\": \"70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py\",\n      \"bytes\": 37082,\n      \"sha256\": \"95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653\"\n    }\n  ],\n  \"scientific_execution\": false\n}\n"
+    },
+    "outcome": {
+      "schema": "ri161-author-administrative-check-v1",
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal9",
+      "dependencies": 280,
+      "selected_bytes": 24169856,
+      "inherited": 252,
+      "administrative_bodies": 98,
+      "historical_typed_refs": 2335,
+      "premise_refs": 49,
+      "extended_historical_identity_occurrences": 17,
+      "historical_state_compared_to_current": false,
+      "predecessor_namespaces": [
+        11,
+        10
+      ],
+      "counterparts": 4,
+      "absolute_manuscript_reference_occurrences": 0,
+      "final_fresh_identity_rechecks": 289,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/CONTRACT.md",
+          "bytes": 12543,
+          "sha256": "ba1f8876bc11847261240948c0c9eabfb4c6cdbded0c9571c6f6a50031185bd4"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/COVERAGE.md",
+          "bytes": 8139,
+          "sha256": "8f77b0b4e52a00cc032187384d045ae897c026f0e0b701e40bdf566cf2a18bef"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/DEPENDENCY_NOTES.md",
+          "bytes": 14304,
+          "sha256": "cdb0795f7857e7b3bbe12c4f79ff5233b83767a2d48504f10e350e2744a532cd"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.md",
+          "bytes": 3757,
+          "sha256": "695f6aee3240ade3012ea23d50c6e331ed04bb92cd8602bd96a2f6fab2c82586"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_DEPENDENCIES.json",
+          "bytes": 251800,
+          "sha256": "2283a700a1ab974bea1ec71138ccaae56d0af3049262bf91bca94386edbe1853"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_IDENTITIES.json",
+          "bytes": 19454,
+          "sha256": "4f91148ef948062cfd2a5cab2bdf5f281c1898168d4c31d14ed9b910b647f9e5"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+          "bytes": 41969,
+          "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py",
+          "bytes": 30012,
+          "sha256": "70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py",
+          "bytes": 37082,
+          "sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653"
+        }
+      ],
+      "scientific_execution": false
+    },
+    "limitations": [
+      "Finite file snapshots and opaque hashes do not prove continuous custody, historical execution, scientific truth or future runtime behavior.",
+      "Historical state fields remain in immutable evidence but are not compared with present stat values.",
+      "Zero literal-backtick absolute Markdown file citations were present; this lexical citation check does not validate every prose or command-template reference.",
+      "Preseal checks nine payloads, before AUTHOR_CHECKS.json and HANDOFF.json exist. It does not preclaim the later final eleven-file check."
+    ]
+  },
+  "diagnostics": [
+    {
+      "owner": "main",
+      "receipts": [
+        "a10489"
+      ],
+      "exit_code": 0,
+      "description": "Context recovery printed the working directory."
+    },
+    {
+      "owner": "main",
+      "receipts": [
+        "9f6a66"
+      ],
+      "exit_code": 0,
+      "description": "Incidental read-only git status diagnostic had truncated output. It was not used as evidence of repository cleanliness or a complete namespace; no commit, push, intentional index edit or repository file edit followed."
+    },
+    {
+      "owner": "main",
+      "receipts": [
+        "eb3d76"
+      ],
+      "exit_code": 1,
+      "description": "Read-only rg --files lookup for AGENTS.md and RI161 names returned no matches. This was a search miss, not a qualification run or a successful source validation."
+    },
+    {
+      "owner": "native",
+      "receipts": [
+        "e2694c",
+        "d59653",
+        "6c82b4"
+      ],
+      "exit_code": 0,
+      "description": "One aggregate predecessor source/review display was truncated; affected narrative tail and contract/case specification were subsequently read completely."
+    },
+    {
+      "owner": "native",
+      "receipts": [],
+      "exit_code": 0,
+      "description": "An initial sed range began beyond a 95-line review EOF and returned empty; wc identified the range issue and the complete selected text was then read."
+    },
+    {
+      "owner": "caller",
+      "receipts": [
+        "fa4333"
+      ],
+      "exit_code": 0,
+      "description": "One aggregate predecessor-source display was truncated; affected auditor lines 1–270 were subsequently read completely."
+    },
+    {
+      "owner": "metadata",
+      "receipts": [
+        "e1d88f"
+      ],
+      "exit_code": 0,
+      "description": "One aggregate source display during later fault peer review was truncated; affected auditor prefix was subsequently read completely."
+    }
+  ],
+  "scope": {
+    "source_imports": 0,
+    "compilations": 0,
+    "ast_checks": 0,
+    "control_probes": 0,
+    "fixtures_created": 0,
+    "qualification_cases_executed": 0,
+    "actual_certificate_body_decodes": 0,
+    "scientific_executions": 0,
+    "runtime_inventories_created": 0,
+    "admissions_created": 0,
+    "new_agents": 0,
+    "actual_grid_result": null,
+    "RET": "paused",
+    "measurement": "separate",
+    "repository_and_publication_owner": "root coordinator",
+    "writes": "Only the reserved eleven-file RI161 source namespace.",
+    "no_claims": [
+      "executed qualification",
+      "independent acceptance",
+      "actual grid",
+      "W/C2/C3/H30",
+      "global M6/rho",
+      "adequate joint q/v budget",
+      "physical QM/geometry/mass/gravity"
+    ]
+  },
+  "remaining": [
+    "Fresh independent source/control review",
+    "Root runtime and request admission",
+    "Actual synthetic qualification with genuine custody and independent outcomes review",
+    "Separate QP04 actual fixed-certificate producer/auditor admission"
+  ],
+  "final_check_boundary": "A fresh final eleven-file namespace/payload/dependency check must run after sealing. Its actual receipt is returned to root separately; this file does not fabricate a future completion."
+}

@@ -1,0 +1,152 @@
+{
+  "declared_selected_bootstrap_from_accepted_source": {
+    "bytes": 102352,
+    "path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524",
+    "state": [
+      16777232,
+      172336345,
+      33261,
+      1,
+      102352,
+      1762508227000000000,
+      1763521990665808991
+    ],
+    "symlink_chain": []
+  },
+  "no_current_supplier_observation": true,
+  "references": {
+    "actual_inert106_root_decision": {
+      "bytes": 9283,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI162_OUTCOME_ROOT_ADJUDICATION.json",
+      "sha256": "092095afb037f4bbbe96632aec107cd163e87eee8ce7df1dc06f396053808e26"
+    },
+    "adapter": {
+      "bytes": 22982,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/adapter.py",
+      "sha256": "28ed8355cee100c63b94338fd59a335c5a2193cc2f442fc9433062ec731e8ff9"
+    },
+    "assignment": {
+      "bytes": 2744,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-root-supervisor-review-7tjkgvn6/RI170_MEASUREMENT_ASSIGNMENT.json",
+      "sha256": "5d463e75cb0fc5c611ea10bfcf8fa4d37a0d4d46a469523da6a6bd372591a08c"
+    },
+    "binding_graph": {
+      "bytes": 86813,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+      "sha256": "7be820c27d7a7b5f5b1661a49e5119b7922a1c49f4f24fa2d4567d1f2e5942bf"
+    },
+    "bindings": {
+      "bytes": 22129,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/bindings.py",
+      "sha256": "302393a719232b42cf5145d7264b69ee8cdbc850fc3c2f60a0dca182e55a0256"
+    },
+    "inert_inventory": {
+      "bytes": 6007,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/CONTROL_INVENTORY.json",
+      "sha256": "c51426e9f78aab8e9ec719f60aef62b0d02f8e6f47d4b42ee621b346a3ee6936"
+    },
+    "old_baseline": {
+      "bytes": 1659,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+      "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+    },
+    "old_guards": {
+      "bytes": 4020,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo/GUARD_ACCEPTANCE.json",
+      "sha256": "926cbcfdfa9fa3685924cb7727a53d5d0742ffa399580aa8942f8846a6ed23f7"
+    },
+    "old_profiles": {
+      "bytes": 2194,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+      "sha256": "4bf521e8e8cceafce449b0e8620c515df53a2cb2b2d1c0ff612cbb4934c91716"
+    },
+    "relocation_adjudication": {
+      "bytes": 3466,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/RI154_ROOT_ADJUDICATION.json",
+      "sha256": "de2544eff6b904258a8ec0dd106dd86e84debefa1f00b3759d648559a009e1eb"
+    },
+    "retained_contract": {
+      "bytes": 18749,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/retained_contract.py",
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    "ri141_dependencies": {
+      "bytes": 127567,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "ri141_prepare": {
+      "bytes": 45721,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "ri141_runtime_metadata": {
+      "bytes": 18728,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/runtime_metadata.py",
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    },
+    "ri141_source_adjudication": {
+      "bytes": 3799,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+      "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+    },
+    "ri141_source_handoff": {
+      "bytes": 9366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+      "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+    },
+    "ri146_capture_actual": {
+      "bytes": 4412,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI146_ROOT_ACTUAL_ADJUDICATION.json",
+      "sha256": "5357b3ce425db7c3b2ad34a3b7644158656f461c4d3bf9e190c6cfbf28611d84"
+    },
+    "ri146_capture_source_adjudication": {
+      "bytes": 3262,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/CAPTURE_SOURCE_ADJUDICATION.json",
+      "sha256": "fb9c9d7c1faf2e990fc0490314dbfdd0547ab32a4b712c088f2536883504e6de"
+    },
+    "ri154_interface_fields": {
+      "bytes": 8372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/INTERFACE_FIELDS.source-only.json",
+      "sha256": "bf56e6621959b956c15f479c9e4a0e6dbe7b2b8f10a3818e1e06bffede21290e"
+    },
+    "ri154_mode_custody": {
+      "bytes": 15470,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/MODE_CUSTODY_REQUIREMENTS.md",
+      "sha256": "d379112d101762cda5080a11e2c4b688164105486163d3cb81b603b74dcb4d56"
+    },
+    "ri154_relocation": {
+      "bytes": 12445,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/RELOCATION_AND_ENVIRONMENT.md",
+      "sha256": "dba360100a61c8e2d623c2d71f242015c3fdb71bd866aa84903fa26189ac124a"
+    },
+    "source_adjudication": {
+      "bytes": 2582,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json",
+      "sha256": "667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4"
+    },
+    "source_manifest": {
+      "bytes": 147447,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json",
+      "sha256": "3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f"
+    }
+  },
+  "ri141_exact_source_map": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "schema": "ri170-administrative-source-reference-bindings-v1",
+  "status": "REFERENCES_ONLY_NOT_ACCEPTANCE"
+}

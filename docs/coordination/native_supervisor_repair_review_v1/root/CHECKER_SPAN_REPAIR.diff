@@ -1,0 +1,11 @@
+--- check_metadata.initial.py
++++ check_metadata.py
+@@ -27,7 +27,7 @@
+ a,z=parts(old),parts(new);assert len(a)==13 and len(z)==15
+ assert sorted(set(z)-set(a))==['readable_names','stop_pipe']
+ assert sorted(k for k in a if a[k]!=z[k])==['process_snapshot','supervise']
+-for r in c['function_spans']:assert m.pin(z[r['name']].encode())==m.pure(r)
++for r in c['function_spans']:assert m.pin((z[r['name']].rstrip()+'\n').encode())==m.pure(r)
+ restored=new.replace('RI167 repaired fixed RI161','RI165 fixed RI161',1)
+ for k in ('stop_pipe','readable_names'):restored=restored.replace(z[k],'',1)
+ for k in ('process_snapshot','supervise'):restored=restored.replace(z[k],a[k],1)

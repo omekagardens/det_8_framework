@@ -1,0 +1,1400 @@
+{
+  "schema": "ri171-supervisor-case-manifest-v1",
+  "status": "SOURCE_ONLY_UNEXECUTED",
+  "groups": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "retained_recipes": 28,
+  "added_RI169_recipes": 6,
+  "base_cases": 58,
+  "total_cases": 92,
+  "subject": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri169-write-would-block-repair-7_868hay/supervise_native.py",
+    "bytes": 26321,
+    "sha256": "566c5bc4ae52b775a50ea465999b6e50a99067ea6312df38c38d1ba4c8018bc6"
+  },
+  "cases": [
+    {
+      "id": "S01.healthy",
+      "group": "S01",
+      "kind": "whole",
+      "fault": "none",
+      "expect": "captured",
+      "predicate": "Real owned inert process, full ordinary capture and cleanup",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S02.timer",
+      "group": "S02",
+      "kind": "whole",
+      "fault": "timer",
+      "expect": "captured",
+      "predicate": "Actual parent active timer and actual inert child zero timer",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S03.nonzero",
+      "group": "S03",
+      "kind": "whole",
+      "fault": "nonzero",
+      "expect": "failed",
+      "predicate": "Actual caller returncode is nonzero",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S03.stderr",
+      "group": "S03",
+      "kind": "whole",
+      "fault": "stderr",
+      "expect": "failed",
+      "predicate": "Actual nonempty caller stderr",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.exact",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "cap_stdout_exact",
+      "expect": "captured",
+      "predicate": "Exact8MiB per-stream capture and first excess byte",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.excess",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "cap_stdout_excess",
+      "expect": "failed",
+      "predicate": "Exact8MiB per-stream capture and first excess byte",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.exact",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "cap_stderr_exact",
+      "expect": "failed",
+      "predicate": "Exact8MiB per-stream capture and first excess byte",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.excess",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "cap_stderr_excess",
+      "expect": "failed",
+      "predicate": "Exact8MiB per-stream capture and first excess byte",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "executed": false
+    },
+    {
+      "id": "S04.dual.excess",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "cap_dual_excess",
+      "expect": "failed",
+      "predicate": "Both per-stream capture caps; explicit first excess and comparable sibling",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.real",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_real",
+      "expect": "rows",
+      "predicate": "Whole observer raw capture/parser real",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.duplicate",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_duplicate",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser duplicate",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.malformed",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_malformed",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser malformed",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.nonascii",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_nonascii",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser nonascii",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.empty",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_empty",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser empty",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.nonzero",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_nonzero",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser nonzero",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.stderr",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_stderr",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser stderr",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.overflow",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_overflow",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser overflow",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S05.observer.timeout",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "ps_timeout",
+      "expect": "refusal",
+      "predicate": "Whole observer raw capture/parser timeout",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S06.observed_descendant",
+      "group": "S06",
+      "kind": "whole",
+      "fault": "observed_descendant",
+      "expect": "failed",
+      "predicate": "Real separate-session descendant observed while parent lives, then rejected and recovered",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S07.fast_reparent",
+      "group": "S07",
+      "kind": "whole",
+      "fault": "fast_reparent",
+      "expect": "missing_identity_rejection",
+      "predicate": "Caller exits before first observation; no complete-fork coverage",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false,
+      "clock": "real clock: retain actual ordinary failed receipt or original315-second HardStop; no shortened clock"
+    },
+    {
+      "id": "S08.birth",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_birth",
+      "expect": "refusal",
+      "predicate": "Exact discover/signal_observed identity/group branch",
+      "scope": "Exact exported function with declared finite operands/doubles",
+      "executed": false
+    },
+    {
+      "id": "S08.pgid",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_pgid",
+      "expect": "refusal",
+      "predicate": "Exact discover/signal_observed identity/group branch",
+      "scope": "Exact exported function with declared finite operands/doubles",
+      "executed": false
+    },
+    {
+      "id": "S08.unverified_member",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_unverified_member",
+      "expect": "refusal",
+      "predicate": "Exact discover/signal_observed identity/group branch",
+      "scope": "Exact exported function with declared finite operands/doubles",
+      "executed": false
+    },
+    {
+      "id": "S08.safe_second",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_safe_second",
+      "expect": "refusal",
+      "predicate": "Exact discover/signal_observed identity/group branch",
+      "scope": "Exact exported function with declared finite operands/doubles",
+      "executed": false
+    },
+    {
+      "id": "S09.real_cutoffs",
+      "group": "S09",
+      "kind": "whole",
+      "fault": "real_cutoffs",
+      "expect": "failed",
+      "predicate": "Actual310 TERM and312 KILL under original315 bound",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S09.real_expiry",
+      "group": "S09",
+      "kind": "whole",
+      "fault": "real_expiry",
+      "expect": "hard",
+      "predicate": "Actual315 hard timer with explicit stale-observer double",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "clock": "real; stale table is a declared double, not real nonreap",
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.fsync",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "expect": "failed",
+      "predicate": "Exact independent final fsync after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.close",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_close",
+      "expect": "failed",
+      "predicate": "Exact independent final close after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.replacement",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "expect": "failed",
+      "predicate": "Exact independent final replacement after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.drift",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_drift",
+      "expect": "failed",
+      "predicate": "Exact independent final drift after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.fsync",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "expect": "failed",
+      "predicate": "Exact independent final fsync after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.close",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_close",
+      "expect": "failed",
+      "predicate": "Exact independent final close after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.replacement",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "expect": "failed",
+      "predicate": "Exact independent final replacement after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.drift",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_drift",
+      "expect": "failed",
+      "predicate": "Exact independent final drift after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.fsync",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_fsync",
+      "expect": "failed",
+      "predicate": "Exact independent final fsync after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.close",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_close",
+      "expect": "failed",
+      "predicate": "Exact independent final close after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.replacement",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_replacement",
+      "expect": "failed",
+      "predicate": "Exact independent final replacement after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.drift",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_drift",
+      "expect": "failed",
+      "predicate": "Exact independent final drift after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S11.preexists",
+      "group": "S11",
+      "kind": "whole",
+      "fault": "receipt_preexists",
+      "expect": "failed",
+      "predicate": "Final receipt exclusive/partial/durability/late escape boundary",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S11.partial",
+      "group": "S11",
+      "kind": "whole",
+      "fault": "receipt_partial",
+      "expect": "escape",
+      "predicate": "Final receipt exclusive/partial/durability/late escape boundary",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S11.fsync",
+      "group": "S11",
+      "kind": "whole",
+      "fault": "receipt_fsync",
+      "expect": "escape",
+      "predicate": "Final receipt exclusive/partial/durability/late escape boundary",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S11.base_sync",
+      "group": "S11",
+      "kind": "whole",
+      "fault": "receipt_base_sync",
+      "expect": "escape",
+      "predicate": "Final receipt exclusive/partial/durability/late escape boundary",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S11.post_receipt",
+      "group": "S11",
+      "kind": "whole",
+      "fault": "receipt_post_receipt",
+      "expect": "escape",
+      "predicate": "Final receipt exclusive/partial/durability/late escape boundary",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S12.ownership",
+      "group": "S12",
+      "kind": "whole",
+      "fault": "hard_ownership",
+      "expect": "hard",
+      "predicate": "Actual production HardStop path; separate fixture recovery",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S12.drain",
+      "group": "S12",
+      "kind": "whole",
+      "fault": "hard_drain",
+      "expect": "hard",
+      "predicate": "Actual production HardStop path; separate fixture recovery",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S12.finalization",
+      "group": "S12",
+      "kind": "whole",
+      "fault": "hard_finalization",
+      "expect": "hard",
+      "predicate": "Actual production HardStop path; separate fixture recovery",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S13.journal_cap",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "journal_cap",
+      "expect": "failed",
+      "predicate": "Actual journal cap predicate with oversized canonical-output double",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S13.descendant_cap",
+      "group": "S13",
+      "kind": "direct",
+      "fault": "descendant_cap",
+      "expect": "refusal",
+      "predicate": "Actual discover sixty-four-known cap",
+      "scope": "Exact exported function with declared finite operands/doubles",
+      "executed": false
+    },
+    {
+      "id": "S13.ps_max",
+      "group": "S13",
+      "kind": "observer",
+      "fault": "ps_max",
+      "expect": "rows",
+      "predicate": "Actual262144-byte observer capture and parser via inert producer",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "executed": false
+    },
+    {
+      "id": "S13.late_observer",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "late_observer",
+      "expect": "failed",
+      "predicate": "Second real-observation call substituted refusal",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "executed": false
+    },
+    {
+      "id": "S08.signal_birth",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_signal_birth",
+      "expect": "refusal",
+      "predicate": "Exact signal_observed changed birth before any kill call",
+      "scope": "Exact exported function with declared finite operands and non-signalling killpg double",
+      "executed": false
+    },
+    {
+      "id": "S08.signal_pgid",
+      "group": "S08",
+      "kind": "direct",
+      "fault": "identity_signal_pgid",
+      "expect": "refusal",
+      "predicate": "Exact signal_observed changed pgid before any kill call",
+      "scope": "Exact exported function with declared finite operands and non-signalling killpg double",
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.descriptor",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "expect": "failed",
+      "predicate": "Exact independent final descriptor mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stdout.size",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_size",
+      "expect": "failed",
+      "predicate": "Exact independent final size mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stdout",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.descriptor",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "expect": "failed",
+      "predicate": "Exact independent final descriptor mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.stderr.size",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_size",
+      "expect": "failed",
+      "predicate": "Exact independent final size mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "stderr",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.descriptor",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_descriptor",
+      "expect": "failed",
+      "predicate": "Exact independent final descriptor mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S10.processes.size",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "late_size",
+      "expect": "failed",
+      "predicate": "Exact independent final size mismatch after earlier actual nonzero caller",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "stream": "processes",
+      "earlier_nonzero": true,
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.read",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.read",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stdout.read",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.read",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stdout read at its first pump operation.",
+        "first_error": "pump:stdout / OSError / RI167_F01_READ",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stdout.write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.write",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stdout write at its first pump operation.",
+        "first_error": "pump:stdout / OSError / RI167_F01_WRITE",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.partial_write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.partial_write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stdout.partial_write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.partial_write",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stdout partial_write after actually writing17 bytes of a64-byte chunk.",
+        "first_error": "pump:stdout / OSError / RI167_F01_PARTIAL_WRITE",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.short_write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.short_write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stdout.short_write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.short_write",
+        "group": "S04",
+        "scope": "Whole supervisor inert command plus short-write double",
+        "setup": "Return positive short writes until the original64-byte chunk fully completes on stdout.",
+        "first_error": "none from pump; nonempty stderr still invokes inherited outer rejection",
+        "oracle": "Exact full intended write and hash; no fabricated pump error. Positive pump coverage is distinct from whole outer acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.read",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.read",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stderr.read",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.read",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stderr read at its first pump operation.",
+        "first_error": "pump:stderr / OSError / RI167_F01_READ",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stderr.write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.write",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stderr write at its first pump operation.",
+        "first_error": "pump:stderr / OSError / RI167_F01_WRITE",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.partial_write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.partial_write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stderr.partial_write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.partial_write",
+        "group": "S04",
+        "scope": "Whole supervisor with inert ARGV/PREFIX plus explicitly identified I/O double",
+        "setup": "Both sibling payloads already available; fail stderr partial_write after actually writing17 bytes of a64-byte chunk.",
+        "first_error": "pump:stderr / OSError / RI167_F01_PARTIAL_WRITE",
+        "oracle": "Healthy sibling retained byte-for-byte through actual EOF or its own explicit deadline/I/O failure; failed prefix retained, primary precedes unregister/close/readback failures; no acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.short_write",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.short_write",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S04.stderr.short_write",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.short_write",
+        "group": "S04",
+        "scope": "Whole supervisor inert command plus short-write double",
+        "setup": "Return positive short writes until the original64-byte chunk fully completes on stderr.",
+        "first_error": "none from pump; nonempty stderr still invokes inherited outer rejection",
+        "oracle": "Exact full intended write and hash; no fabricated pump error. Positive pump coverage is distinct from whole outer acceptance.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.caller.stdout.registration",
+      "group": "S05",
+      "kind": "whole",
+      "fault": "S05.caller.stdout.registration",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S05.caller.stdout.registration",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S05.caller.stdout.registration",
+        "group": "S05",
+        "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+        "setup": "Both handles already acquired. Fail stdout registration after registrar has installed the key, with the other sibling already readable.",
+        "first_error": "register:stdout (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+        "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.caller.stderr.registration",
+      "group": "S05",
+      "kind": "whole",
+      "fault": "S05.caller.stderr.registration",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S05.caller.stderr.registration",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S05.caller.stderr.registration",
+        "group": "S05",
+        "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+        "setup": "Both handles already acquired. Fail stderr registration after registrar has installed the key, with the other sibling already readable.",
+        "first_error": "register:stderr (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+        "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stdout.registration",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "S05.ps.stdout.registration",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S05.ps.stdout.registration",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S05.ps.stdout.registration",
+        "group": "S05",
+        "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+        "setup": "Both handles already acquired. Fail stdout registration after registrar has installed the key, with the other sibling already readable.",
+        "first_error": "register:stdout (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+        "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stderr.registration",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "S05.ps.stderr.registration",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S05.ps.stderr.registration",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S05.ps.stderr.registration",
+        "group": "S05",
+        "scope": "Whole inert supervisor for caller; exact process_snapshot for ps with declared observer doubles",
+        "setup": "Both handles already acquired. Fail stderr registration after registrar has installed the key, with the other sibling already readable.",
+        "first_error": "register:stderr (ps prefix for observer) / OSError / RI167_F01_REGISTER",
+        "oracle": "Unregister attempted despite partial registration; close attempted; sibling registration and drain continue; every acquired handle retained for final close.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stdout.read",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "S05.ps.stdout.read",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S05.ps.stdout.read",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S05.ps.stdout.read",
+        "group": "S05",
+        "scope": "Exact ps helper with inert observer and explicit read double",
+        "setup": "Both ps streams ready; fail stdout read with OSError.",
+        "first_error": "ps pump:stdout: OSError: RI167_F01_READ",
+        "oracle": "Healthy raw buffer reaches exact expected bytes/EOF; observer kill/reap still attempted within original finish_end; failed observation never accepted.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.ps.stderr.read",
+      "group": "S05",
+      "kind": "observer",
+      "fault": "S05.ps.stderr.read",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S05.ps.stderr.read",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S05.ps.stderr.read",
+        "group": "S05",
+        "scope": "Exact ps helper with inert observer and explicit read double",
+        "setup": "Both ps streams ready; fail stderr read with OSError.",
+        "first_error": "ps pump:stderr: OSError: RI167_F01_READ",
+        "oracle": "Healthy raw buffer reaches exact expected bytes/EOF; observer kill/reap still attempted within original finish_end; failed observation never accepted.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.fallback.alive",
+      "group": "S05",
+      "kind": "whole",
+      "fault": "S05.fallback.alive",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S05.fallback.alive",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S05.fallback.alive",
+        "group": "S05",
+        "scope": "Whole supervisor inert caller with explicitly failed ps observer",
+        "setup": "First and cleanup observer calls fail before usable table; caller is alive.",
+        "first_error": "supervision with original ps failure retained",
+        "oracle": "Fallback owned kill attempted only when not already reaped; explicit subsequent poll records actual code/reap independently, healthy streams drained; observed_cleanup stays false.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S05.fallback.already_exited",
+      "group": "S05",
+      "kind": "whole",
+      "fault": "S05.fallback.already_exited",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S05.fallback.already_exited",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S05.fallback.already_exited",
+        "group": "S05",
+        "scope": "Whole supervisor inert caller with explicitly failed ps observer",
+        "setup": "First and cleanup observer calls fail before usable table; caller is already_exited.",
+        "first_error": "supervision with original ps failure retained",
+        "oracle": "Fallback owned kill attempted only when not already reaped; explicit subsequent poll records actual code/reap independently, healthy streams drained; observed_cleanup stays false.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.caller.stdout.unregister_close",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "S10.caller.stdout.unregister_close",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S10.caller.stdout.unregister_close",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S10.caller.stdout.unregister_close",
+        "group": "S10",
+        "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+        "setup": "Fail stdout read first, then fail its unregister and first close; healthy sibling already ready.",
+        "first_error": "pump:stdout with ps prefix where applicable / OSError / RI167_F01_READ",
+        "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.caller.stderr.unregister_close",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "S10.caller.stderr.unregister_close",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S10.caller.stderr.unregister_close",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S10.caller.stderr.unregister_close",
+        "group": "S10",
+        "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+        "setup": "Fail stderr read first, then fail its unregister and first close; healthy sibling already ready.",
+        "first_error": "pump:stderr with ps prefix where applicable / OSError / RI167_F01_READ",
+        "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.ps.stdout.unregister_close",
+      "group": "S10",
+      "kind": "observer",
+      "fault": "S10.ps.stdout.unregister_close",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S10.ps.stdout.unregister_close",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S10.ps.stdout.unregister_close",
+        "group": "S10",
+        "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+        "setup": "Fail stdout read first, then fail its unregister and first close; healthy sibling already ready.",
+        "first_error": "pump:stdout with ps prefix where applicable / OSError / RI167_F01_READ",
+        "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.ps.stderr.unregister_close",
+      "group": "S10",
+      "kind": "observer",
+      "fault": "S10.ps.stderr.unregister_close",
+      "expect": "refusal",
+      "predicate": "Exact retained RI167 recipe S10.ps.stderr.unregister_close",
+      "scope": "Exact process_snapshot with declared observer command/I/O doubles",
+      "inherited_recipe": {
+        "id": "S10.ps.stderr.unregister_close",
+        "group": "S10",
+        "scope": "Whole inert caller or exact inert ps helper; declared read/unregister/close doubles",
+        "setup": "Fail stderr read first, then fail its unregister and first close; healthy sibling already ready.",
+        "first_error": "pump:stderr with ps prefix where applicable / OSError / RI167_F01_READ",
+        "oracle": "First read error remains first; both cleanup failures retained; failed pump disabled; healthy sibling continues using nonblocking attempts without damaged selector; failed close retried independently at final tail, successful closes not repeated.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.journal.alive",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "S10.journal.alive",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S10.journal.alive",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S10.journal.alive",
+        "group": "S10",
+        "scope": "Whole supervisor with inert caller and journal-write double",
+        "setup": "Observer completes raw capture, journal fails after a partial write; caller alive.",
+        "first_error": "supervision with original ps journal failure retained",
+        "oracle": "Partial journal retained; independent owned kill/poll/reap and healthy drain occur despite repeated journal failure; no cleanup or qualification credit.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S10.journal.already_exited",
+      "group": "S10",
+      "kind": "whole",
+      "fault": "S10.journal.already_exited",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S10.journal.already_exited",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S10.journal.already_exited",
+        "group": "S10",
+        "scope": "Whole supervisor with inert caller and journal-write double",
+        "setup": "Observer completes raw capture, journal fails after a partial write; caller already_exited.",
+        "first_error": "supervision with original ps journal failure retained",
+        "oracle": "Partial journal retained; independent owned kill/poll/reap and healthy drain occur despite repeated journal failure; no cleanup or qualification credit.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S13.observer.kill_failure",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.observer.kill_failure",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.observer.kill_failure",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.observer.kill_failure",
+        "group": "S13",
+        "scope": "Whole supervisor inert caller with declared early observer/journal and kill doubles",
+        "setup": "Early observer failure; direct kill reports OSError; caller later really exits.",
+        "first_error": "original observer failure; direct_handle_kill secondary",
+        "oracle": "Actual poll observes real exit despite kill failure; healthy stream capture continues; original failure and cleanup uncertainty remain.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S13.observer.nonreap",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.observer.nonreap",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.observer.nonreap",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.observer.nonreap",
+        "group": "S13",
+        "scope": "Whole supervisor inert caller with explicit nonreap double and separately owned recovery",
+        "setup": "Early observer failure followed by no owned reap before original deadline.",
+        "first_error": "original observer failure",
+        "oracle": "No new cleanup time or code invention; actual315-second timeout/missing tail rejects, or explicit original-deadline incomplete-reap error if saved. Any shortened-time double is branch-only credit.",
+        "executed": false
+      },
+      "clock": "Explicit branch clock double; no real deadline credit",
+      "executed": false
+    },
+    {
+      "id": "S13.journal.kill_failure",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.journal.kill_failure",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.journal.kill_failure",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.journal.kill_failure",
+        "group": "S13",
+        "scope": "Whole supervisor inert caller with declared early observer/journal and kill doubles",
+        "setup": "Early journal failure; direct kill reports OSError; caller later really exits.",
+        "first_error": "original journal failure; direct_handle_kill secondary",
+        "oracle": "Actual poll observes real exit despite kill failure; healthy stream capture continues; original failure and cleanup uncertainty remain.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S13.journal.nonreap",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.journal.nonreap",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.journal.nonreap",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.journal.nonreap",
+        "group": "S13",
+        "scope": "Whole supervisor inert caller with explicit nonreap double and separately owned recovery",
+        "setup": "Early journal failure followed by no owned reap before original deadline.",
+        "first_error": "original journal failure",
+        "oracle": "No new cleanup time or code invention; actual315-second timeout/missing tail rejects, or explicit original-deadline incomplete-reap error if saved. Any shortened-time double is branch-only credit.",
+        "executed": false
+      },
+      "clock": "Explicit branch clock double; no real deadline credit",
+      "executed": false
+    },
+    {
+      "id": "S13.poll_unavailable",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.poll_unavailable",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.poll_unavailable",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.poll_unavailable",
+        "group": "S13",
+        "scope": "Whole inert supervisor with declared one poll exception",
+        "setup": "Early observer failure, successful fallback kill attempt, then poll raises OSError; healthy sibling already buffered.",
+        "first_error": "original observer failure; direct_handle_reap secondary",
+        "oracle": "Poll failure explicitly retained, healthy drain continues; no reap inferred from signal or Popen field; final failed uncertainty retained.",
+        "executed": false
+      },
+      "clock": "real",
+      "executed": false
+    },
+    {
+      "id": "S13.deadline_exhausted",
+      "group": "S13",
+      "kind": "whole",
+      "fault": "S13.deadline_exhausted",
+      "expect": "failed",
+      "predicate": "Exact retained RI167 recipe S13.deadline_exhausted",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S13.deadline_exhausted",
+        "group": "S13",
+        "scope": "Direct finally boundary with explicitly exhausted original clock, no genuine315-second credit",
+        "setup": "Enter fallback with no original budget left.",
+        "first_error": "original observer/journal failure",
+        "oracle": "No ordinary wait extension, no synthetic returncode/reap/cleanup. Hard timer/final failure remains rejecting.",
+        "executed": false
+      },
+      "clock": "Explicit branch clock double; no real deadline credit",
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.write_would_block.zero_progress",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.write_would_block.zero_progress",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stdout.write_would_block.zero_progress",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.write_would_block.zero_progress",
+        "group": "S04",
+        "stream": "stdout",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+        "setup": "Both caller payloads must already be available before injected failure. At the first stdout 64-byte payload, on the first output write, before writing any bytes, raises BlockingIOError('RI169_WRITE_ZERO_PROGRESS'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+        "exact_primary": {
+          "stage": "pump:stdout",
+          "type": "BlockingIOError",
+          "message": "RI169_WRITE_ZERO_PROGRESS"
+        },
+        "retained_failed_stream_bytes": 0,
+        "scientific_or_process_credit": false,
+        "oracle": [
+          "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+          "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+          "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+          "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+          "The empty saved file may legitimately match count/hash zero, but that is never success: the primary error and incomplete failed-pump tail force FAILED.",
+          "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+        ],
+        "executed": false
+      },
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.write_would_block.after_prefix",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.write_would_block.after_prefix",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stdout.write_would_block.after_prefix",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.write_would_block.after_prefix",
+        "group": "S04",
+        "stream": "stdout",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+        "setup": "Both caller payloads must already be available before injected failure. At the first stdout 64-byte payload, perform a real 17-byte short write returning 17; the next write of the remaining 47 bytes raises BlockingIOError('RI169_WRITE_AFTER_PREFIX'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+        "exact_primary": {
+          "stage": "pump:stdout",
+          "type": "BlockingIOError",
+          "message": "RI169_WRITE_AFTER_PREFIX"
+        },
+        "retained_failed_stream_bytes": 17,
+        "scientific_or_process_credit": false,
+        "oracle": [
+          "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+          "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+          "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+          "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+          "Retain the actual 17-byte file prefix. counts/hash were not advanced because write_all did not complete; readback mismatch remains secondary and may not replace the primary.",
+          "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+        ],
+        "executed": false
+      },
+      "executed": false
+    },
+    {
+      "id": "S04.stdout.read_would_block.transient",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stdout.read_would_block.transient",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stdout.read_would_block.transient",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stdout.read_would_block.transient",
+        "group": "S04",
+        "stream": "stdout",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one input-fd-specific os.read double; no output write, ps, journal or receipt substitutions.",
+        "setup": "Both payloads available. The first stdout os.read raises BlockingIOError('RI169_READ_TRANSIENT') without consuming any bytes, once only. Its next os.read calls the real read on the same pipe and returns the complete intended 64-byte payload, then real EOF; all output writes are healthy.",
+        "exact_primary": null,
+        "oracle": [
+          "Observe one injected read readiness race followed by the real retained 64-byte read; no earlier refusal or direct-only synthetic call substitutes this traversal.",
+          "No pump error is recorded for this transient read. The input remains active, is not closed at the race, and its payload/count/hash/readback and EOF equal the full intended bytes.",
+          "Healthy sibling and all original tails remain intact. A nonempty stderr payload still causes the independent inherited caller outer stderr nonempty rejection: positive read-pump behavior is not whole-supervisor acceptance.",
+          "No writes are retried or suppressed by this control; fixed actual deadline/host/tool-origin and source-authentication prerequisites remain separate."
+        ],
+        "executed": false
+      },
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write_would_block.zero_progress",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.write_would_block.zero_progress",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stderr.write_would_block.zero_progress",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.write_would_block.zero_progress",
+        "group": "S04",
+        "stream": "stderr",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+        "setup": "Both caller payloads must already be available before injected failure. At the first stderr 64-byte payload, on the first output write, before writing any bytes, raises BlockingIOError('RI169_WRITE_ZERO_PROGRESS'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+        "exact_primary": {
+          "stage": "pump:stderr",
+          "type": "BlockingIOError",
+          "message": "RI169_WRITE_ZERO_PROGRESS"
+        },
+        "retained_failed_stream_bytes": 0,
+        "scientific_or_process_credit": false,
+        "oracle": [
+          "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+          "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+          "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+          "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+          "The empty saved file may legitimately match count/hash zero, but that is never success: the primary error and incomplete failed-pump tail force FAILED.",
+          "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+        ],
+        "executed": false
+      },
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.write_would_block.after_prefix",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.write_would_block.after_prefix",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stderr.write_would_block.after_prefix",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.write_would_block.after_prefix",
+        "group": "S04",
+        "stream": "stderr",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one output-fd-specific os.write double; no ps/journal/receipt-fd substitution.",
+        "setup": "Both caller payloads must already be available before injected failure. At the first stderr 64-byte payload, perform a real 17-byte short write returning 17; the next write of the remaining 47 bytes raises BlockingIOError('RI169_WRITE_AFTER_PREFIX'). The double leaves every other descriptor and call unchanged. All reads, including later EOF, are normal. Fixture owner retains independent recovery identities.",
+        "exact_primary": {
+          "stage": "pump:stderr",
+          "type": "BlockingIOError",
+          "message": "RI169_WRITE_AFTER_PREFIX"
+        },
+        "retained_failed_stream_bytes": 17,
+        "scientific_or_process_credit": false,
+        "oracle": [
+          "Confirm the injected write was actually reached only after a successful read consumed the full 64-byte payload; unrelated earlier refusal gives no credit.",
+          "The first recorded outer error is the exact primary triple; it is never silently retried or replaced by later supervision/readback/cleanup errors.",
+          "The failed input pump is disabled and its acquired handle gets the unchanged independent unregister/close handling. Its consumed chunk is not retried or declared complete; EOF remains unobserved for that pump.",
+          "Healthy sibling already-buffered payload is drained byte-for-byte through actual EOF or its own separately evidenced I/O/deadline failure, under the unchanged original deadline.",
+          "Retain the actual 17-byte file prefix. counts/hash were not advanced because write_all did not complete; readback mismatch remains secondary and may not replace the primary.",
+          "Retain every comparable fsync/fstat/close/readback, complete errors list and genuine outer result. No acceptance, native invocation, complete descendant coverage or new cleanup budget is inferred."
+        ],
+        "executed": false
+      },
+      "executed": false
+    },
+    {
+      "id": "S04.stderr.read_would_block.transient",
+      "group": "S04",
+      "kind": "whole",
+      "fault": "S04.stderr.read_would_block.transient",
+      "expect": "failed",
+      "predicate": "Exact RI169 recipe S04.stderr.read_would_block.transient",
+      "scope": "Whole captured RI169 module supervise with inert ARGV/PREFIX and declared fault instrumentation",
+      "inherited_recipe": {
+        "id": "S04.stderr.read_would_block.transient",
+        "group": "S04",
+        "stream": "stderr",
+        "scope": "Whole unchanged RI169 supervisor with root-declared inert ARGV/PREFIX/invocation substitution and one input-fd-specific os.read double; no output write, ps, journal or receipt substitutions.",
+        "setup": "Both payloads available. The first stderr os.read raises BlockingIOError('RI169_READ_TRANSIENT') without consuming any bytes, once only. Its next os.read calls the real read on the same pipe and returns the complete intended 64-byte payload, then real EOF; all output writes are healthy.",
+        "exact_primary": null,
+        "oracle": [
+          "Observe one injected read readiness race followed by the real retained 64-byte read; no earlier refusal or direct-only synthetic call substitutes this traversal.",
+          "No pump error is recorded for this transient read. The input remains active, is not closed at the race, and its payload/count/hash/readback and EOF equal the full intended bytes.",
+          "Healthy sibling and all original tails remain intact. A nonempty stderr payload still causes the independent inherited caller outer stderr nonempty rejection: positive read-pump behavior is not whole-supervisor acceptance.",
+          "No writes are retried or suppressed by this control; fixed actual deadline/host/tool-origin and source-authentication prerequisites remain separate."
+        ],
+        "executed": false
+      },
+      "executed": false
+    }
+  ],
+  "real_clock_cases": [
+    "S09.real_cutoffs",
+    "S09.real_expiry"
+  ],
+  "scope": "Finite supervisor qualification only. Each case carries declared substitutions; neither positive synthetic branch nor external fixture recovery proves native qualification, hermetic execution or complete descendant coverage."
+}

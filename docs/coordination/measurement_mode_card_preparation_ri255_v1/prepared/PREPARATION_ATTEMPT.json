@@ -1,0 +1,15 @@
+{
+  "decision": {
+    "bytes": 1038,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri255-root-compensation-review-m__fsupr/PREPARATION_DECISION.json",
+    "sha256": "5ed6d0a72d6ddbdcacda804d7ab677f971650ba8f6e5af100a677735a539ecc4"
+  },
+  "no_retry": true,
+  "operational_authorization": false,
+  "proposal": {
+    "bytes": 8850,
+    "path": "/private/tmp/ri249-mode-card-preparation-proposal-y170alnf/HANDOFF.json",
+    "sha256": "ccf34c9baf147994366595cf73be92534733a9b7e3c3810d72c3f227f3a2ab3c"
+  },
+  "schema": "ri249-unissued-mode-card-preparation-attempt-v1"
+}

@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "T_is_10961": true,
+    "capture_count": true,
+    "head_outside_short": true,
+    "no_second_neighbor_white_overlap": true,
+    "oracle_component_count": true,
+    "overlap_is_N": true,
+    "rawcov_128GiB": true,
+    "retained_strip_count": true,
+    "tail_outside_short": true
+  },
+  "counts": {
+    "B_zero_tail": 5423,
+    "M_overlap": 8192,
+    "PSD_bins_four_scenarios": 32772,
+    "Q256_rectangles": 65544,
+    "T": 10961,
+    "active_nonzero_real_components": 131064,
+    "captured_intervals": 109840,
+    "diagonal_midpoint_summands": 22152,
+    "direct_endpoint_product_candidates": 708864,
+    "even_nonzero_modes": 4096,
+    "left_M_union": [
+      0,
+      65536
+    ],
+    "left_T_union": [
+      0,
+      60113
+    ],
+    "left_T_union_length": 60113,
+    "long_overlap": 2769,
+    "mode_terms": 8192,
+    "mode_weighted_scalar_products": 98304,
+    "odd_nonzero_modes": 4096,
+    "polarization_square_terms": 354432,
+    "raw_covariance_binary64_GiB": 128,
+    "raw_covariance_binary64_bytes": 137438953472,
+    "raw_covariance_entries": 17179869184,
+    "retained_strip_intervals": 44304,
+    "right_M_union": [
+      69632,
+      126976
+    ],
+    "right_T_union": [
+      69632,
+      121553
+    ],
+    "right_T_union_length": 51921,
+    "shift_midpoint_summands": 177216,
+    "shift_primary_midpoint_and_error_products": 708864,
+    "white_block_nonzero_slots_left": 1216,
+    "white_block_nonzero_slots_right": 1024
+  },
+  "notes": [
+    "Not a target qualification campaign or performance benchmark.",
+    "Dot summand counts exclude rational bit complexity and repeated independent oracle work."
+  ],
+  "schema": "ri123-design-dimension-accounting-v1",
+  "scope": "integer arithmetic on published fixed dimensions only; no scientific operands or fixtures"
+}

@@ -1,0 +1,1072 @@
+{
+  "order": [
+    "WK01",
+    "WK02",
+    "WK03",
+    "WK04",
+    "WK05",
+    "WK06",
+    "WK07",
+    "WK08",
+    "WK09",
+    "WK10",
+    "WK11",
+    "WK12",
+    "WK13",
+    "WK14",
+    "WK15",
+    "WK16",
+    "WK17",
+    "WK18",
+    "WK19",
+    "WK20",
+    "WK21",
+    "WK22",
+    "WK23",
+    "WK24",
+    "WK25",
+    "WK26",
+    "WK27",
+    "WK28",
+    "WK29",
+    "WK30",
+    "WK31",
+    "WK32",
+    "WK33",
+    "WK34",
+    "WK35",
+    "WK36",
+    "WK37",
+    "WK38",
+    "WC01",
+    "WC02",
+    "WC03",
+    "WC04",
+    "WC05",
+    "WC06",
+    "WC07",
+    "WC08",
+    "WC09",
+    "WC10",
+    "WC11",
+    "WC12",
+    "WC13",
+    "WC14",
+    "WC15",
+    "WC16",
+    "WC17",
+    "WC18",
+    "WC19",
+    "WC20",
+    "WC21",
+    "WC22",
+    "WC23",
+    "WC24",
+    "WC25",
+    "WC26",
+    "WG01",
+    "WG02",
+    "WG03",
+    "WG04",
+    "WG05",
+    "WG06",
+    "WG07",
+    "WG08",
+    "WG09",
+    "WG10",
+    "WG11",
+    "WG12",
+    "WG13",
+    "WG14",
+    "WG15",
+    "WG16",
+    "WG17",
+    "WG18",
+    "WG19",
+    "WG20",
+    "WG21",
+    "WG22",
+    "WG23",
+    "WG24",
+    "WG25",
+    "WG26",
+    "WG27",
+    "WG28",
+    "WG29",
+    "WG30",
+    "WG31",
+    "WG32",
+    "WG33",
+    "WG34",
+    "WG35",
+    "WG36",
+    "WG37",
+    "WG38",
+    "WG39",
+    "WG40",
+    "WG41",
+    "WG42",
+    "WG43",
+    "WG44",
+    "WG45",
+    "WG46",
+    "WG47",
+    "WG48",
+    "WG49",
+    "WG50",
+    "WG51",
+    "WG52",
+    "WG53",
+    "WG54",
+    "WG55",
+    "WG56",
+    "WG57",
+    "WG58",
+    "WG59",
+    "WG60",
+    "WG61",
+    "WG62",
+    "WG63",
+    "WG64",
+    "WG65",
+    "WG66",
+    "WG67",
+    "WG68",
+    "WG69",
+    "WG70",
+    "WG71",
+    "WG72",
+    "WG73",
+    "WG74",
+    "WG75",
+    "WG76",
+    "WG77",
+    "WG78",
+    "WG79",
+    "WG80",
+    "WG81",
+    "WG82",
+    "WG83",
+    "WG84",
+    "WG85",
+    "WG86",
+    "WG87",
+    "WG88",
+    "WG89",
+    "WG90",
+    "WG91",
+    "WG92",
+    "WC27",
+    "WC28",
+    "WC29",
+    "WC30",
+    "WC31",
+    "WC32",
+    "WC33",
+    "WC34",
+    "WC35",
+    "WC36",
+    "WC37",
+    "WC38",
+    "WC39",
+    "WC40",
+    "WC41",
+    "WC42",
+    "WC43",
+    "WC44",
+    "WC45",
+    "WC46",
+    "WT01",
+    "WT02",
+    "WT03"
+  ],
+  "phase": "source_specification_only",
+  "refusals": [
+    {
+      "code": "SHAPE",
+      "id": "WK01",
+      "message": "strip rows list"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "WK02",
+      "message": "fixed primitive domain"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "WK03",
+      "message": "fixed primitive domain"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WK04",
+      "message": "closed object keys"
+    },
+    {
+      "code": "ROW",
+      "id": "WK05",
+      "message": "row order"
+    },
+    {
+      "code": "SHAPE",
+      "id": "WK06",
+      "message": "exact list length"
+    },
+    {
+      "code": "SHAPE",
+      "id": "WK07",
+      "message": "exact list length"
+    },
+    {
+      "code": "EXACT",
+      "id": "WK08",
+      "message": "hex string required"
+    },
+    {
+      "code": "EXACT",
+      "id": "WK09",
+      "message": "canonical signed hex"
+    },
+    {
+      "code": "EXACT",
+      "id": "WK10",
+      "message": "canonical signed hex"
+    },
+    {
+      "code": "EXACT",
+      "id": "WK11",
+      "message": "reduced positive denominator"
+    },
+    {
+      "code": "EXACT",
+      "id": "WK12",
+      "message": "reduced positive denominator"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WK13",
+      "message": "integer text ceiling"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WK14",
+      "message": "integer bit ceiling"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "WK15",
+      "message": "ordered endpoints"
+    },
+    {
+      "code": "ORIENTATION",
+      "id": "WK16",
+      "message": "directed shift label"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WK17",
+      "message": "closed object keys"
+    },
+    {
+      "code": "SHAPE",
+      "id": "WK18",
+      "message": "fixed matrix size"
+    },
+    {
+      "code": "BOUND",
+      "id": "WK19",
+      "message": "nonnegative shift radius"
+    },
+    {
+      "code": "POLARIZATION",
+      "id": "WK20",
+      "message": "saved polarization"
+    },
+    {
+      "code": "DIRECT",
+      "id": "WK21",
+      "message": "saved direct enclosure intersection"
+    },
+    {
+      "code": "TRACE",
+      "id": "WK22",
+      "message": "complete shift trace"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "WK23",
+      "message": "fixed window count"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WK24",
+      "message": "closed object keys"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK25",
+      "message": "both inverse products"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK26",
+      "message": "symmetric Gram/inverse and nonnegative bound"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK27",
+      "message": "both inverse products"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK28",
+      "message": "both inverse products"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK29",
+      "message": "delta row-sum bound"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK30",
+      "message": "gamma inverse row-sum bound"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK31",
+      "message": "unchanged inherited rho gate"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK32",
+      "message": "unchanged inherited rho gate"
+    },
+    {
+      "code": "BOUND",
+      "id": "WK33",
+      "message": "nonnegative error, positive lower bound"
+    },
+    {
+      "code": "BOUND",
+      "id": "WK34",
+      "message": "nonnegative error, positive lower bound"
+    },
+    {
+      "code": "ZERO_DIVISOR",
+      "id": "WK35",
+      "message": "division by zero"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WK36",
+      "message": "integer bit ceiling"
+    },
+    {
+      "code": "GRAM",
+      "id": "WK37",
+      "message": "nonpositive inherited Gram pivot"
+    },
+    {
+      "code": "STRUCTURAL",
+      "id": "WK38",
+      "message": "trace structural interval intersection"
+    },
+    {
+      "code": "PHASE",
+      "id": "WC01",
+      "message": "actual phase before body decoding"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WC02",
+      "message": "closed object keys"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC03",
+      "message": "externally frozen request bytes"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC04",
+      "message": "fixed historical pin capture"
+    },
+    {
+      "code": "SOURCE",
+      "id": "WC05",
+      "message": "closed object keys"
+    },
+    {
+      "code": "SOURCE",
+      "id": "WC06",
+      "message": "loaded primary path"
+    },
+    {
+      "code": "SOURCE",
+      "id": "WC07",
+      "message": "loaded kernel path"
+    },
+    {
+      "code": "ADMISSION",
+      "id": "WC08",
+      "message": "exact root-bound card"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC09",
+      "message": "positive bounded pin length"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC10",
+      "message": "lowercase sha256"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC11",
+      "message": "literal absolute nonsymlink path"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WC12",
+      "message": "duplicate JSON key"
+    },
+    {
+      "code": "EXACT",
+      "id": "WC13",
+      "message": "decimal or nonfinite JSON token"
+    },
+    {
+      "code": "EXACT",
+      "id": "WC14",
+      "message": "decimal or nonfinite JSON token"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WC15",
+      "message": "invalid bounded JSON"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WC16",
+      "message": "JSON integer text ceiling"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC17",
+      "message": "whole body pin"
+    },
+    {
+      "code": "CUSTODY",
+      "id": "WC18",
+      "message": "path state changed"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC19",
+      "message": "literal absolute nonsymlink path"
+    },
+    {
+      "code": "INPUT",
+      "id": "WC20",
+      "message": "regular single-link source or input"
+    },
+    {
+      "code": "RI73",
+      "id": "WC21",
+      "message": "full inherited header mode"
+    },
+    {
+      "code": "RI73",
+      "id": "WC22",
+      "message": "full inherited header source_identity"
+    },
+    {
+      "code": "RI73",
+      "id": "WC23",
+      "message": "full inherited header gate_inventory"
+    },
+    {
+      "code": "RI73",
+      "id": "WC24",
+      "message": "full inherited header gate_counts"
+    },
+    {
+      "code": "SHAPE",
+      "id": "WC25",
+      "message": "exact list length"
+    },
+    {
+      "code": "RI73",
+      "id": "WC26",
+      "message": "literal 92-gate order"
+    },
+    {
+      "code": "RI73",
+      "id": "WG01",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG02",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG03",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG04",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG05",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG06",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG07",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG08",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG09",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG10",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG11",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG12",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG13",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG14",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG15",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG16",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG17",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG18",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG19",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG20",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG21",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG22",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG23",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG24",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG25",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG26",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG27",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG28",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG29",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG30",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG31",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG32",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG33",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG34",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG35",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG36",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG37",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG38",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG39",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG40",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG41",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG42",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG43",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG44",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG45",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG46",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG47",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG48",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG49",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG50",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG51",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG52",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG53",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG54",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG55",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG56",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG57",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG58",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG59",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG60",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG61",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG62",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG63",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG64",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG65",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG66",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG67",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG68",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG69",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG70",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG71",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG72",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG73",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG74",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG75",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG76",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG77",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG78",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG79",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG80",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG81",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG82",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG83",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG84",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG85",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG86",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG87",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG88",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG89",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG90",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG91",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "RI73",
+      "id": "WG92",
+      "message": "all inherited gates passed with details"
+    },
+    {
+      "code": "PHASE",
+      "id": "WC27",
+      "message": "actual capture forbidden in fabrication"
+    },
+    {
+      "code": "ROW",
+      "id": "WC28",
+      "message": "literal capture header"
+    },
+    {
+      "code": "ROW",
+      "id": "WC29",
+      "message": "fixed row order"
+    },
+    {
+      "code": "ROW",
+      "id": "WC30",
+      "message": "closed object keys"
+    },
+    {
+      "code": "SHAPE",
+      "id": "WC31",
+      "message": "exact list length"
+    },
+    {
+      "code": "CANONICAL",
+      "id": "WC32",
+      "message": "compact row encoding"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "WC33",
+      "message": "duplicate JSON key"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "WC34",
+      "message": "ordered endpoints"
+    },
+    {
+      "code": "EXACT",
+      "id": "WC35",
+      "message": "canonical signed hex"
+    },
+    {
+      "code": "ROW",
+      "id": "WC36",
+      "message": "row separator"
+    },
+    {
+      "code": "ROW",
+      "id": "WC37",
+      "message": "capture footer and ninth-row exhaustion"
+    },
+    {
+      "code": "ROW",
+      "id": "WC38",
+      "message": "trailing capture bytes"
+    },
+    {
+      "code": "ROW",
+      "id": "WC39",
+      "message": "capture footer and ninth-row exhaustion"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WC40",
+      "message": "capture row byte ceiling"
+    },
+    {
+      "code": "BINDING",
+      "id": "WC41",
+      "message": "capture vector identity tied to accepted RI73 result"
+    },
+    {
+      "code": "BINDING",
+      "id": "WC42",
+      "message": "complete row sum tied to accepted RI73 result"
+    },
+    {
+      "code": "OUTPUT",
+      "id": "WC43",
+      "message": "output absent before exclusive open"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "WC44",
+      "message": "serialized byte ceiling"
+    },
+    {
+      "code": "PHASE",
+      "id": "WC45",
+      "message": "fabricated context"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "WC46",
+      "message": "fixed fabricated assembly case"
+    }
+  ],
+  "schema": "ri125-white-only-control-expectations-v1",
+  "tails": [
+    "WT01",
+    "WT02",
+    "WT03"
+  ]
+}

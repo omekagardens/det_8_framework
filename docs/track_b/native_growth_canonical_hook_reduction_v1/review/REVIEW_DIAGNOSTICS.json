@@ -1,0 +1,66 @@
+{
+  "actual_full_read_chunks": [
+    "e8be19",
+    "29ae54",
+    "c719e8",
+    "eafb56",
+    "2879e0",
+    "461684"
+  ],
+  "administrative_command": {
+    "command": "python3 -I -B check_metadata.py",
+    "cwd": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg",
+    "exit_code": 0,
+    "output": {
+      "bytes": 88788,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "sha256": "3d419beebcbf71a2679ecdcc7500b66c8e8d2b7b8405f8ca4643ab9818fcd334"
+    },
+    "source": {
+      "bytes": 8020,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/check_metadata.py",
+      "sha256": "f2874ebfd1483f1a9224d7d948e5ab96a0e91597262cdca0fc34f65b9c428de2"
+    },
+    "tool_chunk": "a73eca"
+  },
+  "author_diagnostics_preserved": {
+    "incidents": [
+      "93f0cf exit1 absent guessed root Markdown path",
+      "35d7bf exit1 absent guessed review JSON path",
+      "a5bf04 underlying exit0 but verbose output truncation and orchestration parse failure",
+      "d93eb4 new unsealed prose typo corrected before peer finalization"
+    ],
+    "not_relabelled_as_reviewer_success": true,
+    "source": {
+      "bytes": 15485,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/AUTHOR_CHECKS.json",
+      "sha256": "800ed2d37fc6ed582faa509154ba7a009e7d1ff920b75230299324a91a677246"
+    }
+  },
+  "final_seal": "Separate administrative-only inline command rechecks all subject/dependency identities and the complete current review namespace, saves pins then handoff exclusively. Final genuine tool chunk and exit are reported after tool completion; no self-created tool success receipt.",
+  "literal_source_and_reference_read_chunks": [
+    "10729d",
+    "e7d0e3",
+    "37d743"
+  ],
+  "permitted_helper": {
+    "bytes": 3144,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py",
+    "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7",
+    "use": "Authenticated prior to administrative-only import. No Git/snapshot functions called and no subject code loaded."
+  },
+  "reviewer_failures": [],
+  "reviewer_output_truncations": [],
+  "schema": "ri149-independent-review-diagnostics-v1",
+  "scope": {
+    "actual_coefficient_probability_history_maximum_scale_H_z_evaluation": false,
+    "administrative_identity_checks": true,
+    "global_graph_enumeration": false,
+    "manual_analytic_review": true,
+    "repository_index_Git_write": false,
+    "runtime_controller_card_admission": false,
+    "scientific_body_decode": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  }
+}

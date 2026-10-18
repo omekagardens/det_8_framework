@@ -1,0 +1,15 @@
+{
+  "graph": {
+    "bytes": 86813,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-mode-preparation-42_uvw15/BINDING_GRAPH.source-only.json",
+    "sha256": "7be820c27d7a7b5f5b1661a49e5119b7922a1c49f4f24fa2d4567d1f2e5942bf"
+  },
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "schema": "ri156-root-copy-admission-v1",
+  "source_review": {
+    "bytes": 3466,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/RI154_ROOT_ADJUDICATION.json",
+    "sha256": "de2544eff6b904258a8ec0dd106dd86e84debefa1f00b3759d648559a009e1eb"
+  },
+  "status": "AUTHORIZE_ONE_EXACT_SOURCE_COPY_ONLY"
+}

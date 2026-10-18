@@ -1,0 +1,90 @@
+{
+  "actual_admin_check": "ADMIN_CHECK.json",
+  "actual_commands": "COMMAND_OUTCOMES.json",
+  "administrative_checker": "check_metadata.py",
+  "all_predecessors_unchanged": true,
+  "cases": 92,
+  "compact_publication_subset": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "executed_cases": 0,
+  "executed_mutations": 0,
+  "external_only_diagnostics": [],
+  "final_identity_check": "FINAL_IDENTITY_CHECK.json",
+  "immutable_after_seal": true,
+  "namespace": [
+    "ADMIN_CHECK.json",
+    "COMMAND_OUTCOMES.json",
+    "FINAL_IDENTITY_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_REVIEW.md",
+    "VERDICT.json",
+    "check_metadata.py",
+    "seal_review.py"
+  ],
+  "new_agents": false,
+  "payloads": [
+    {
+      "bytes": 607712,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/ADMIN_CHECK.json",
+      "sha256": "7d3d5a145fc489738981fe52c941a8f7fd4f04ae424098dc1368f7ded1a6d6e5"
+    },
+    {
+      "bytes": 2137,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/COMMAND_OUTCOMES.json",
+      "sha256": "32eea68d0829e78153abe06feb9f07d35998053f8eebdf84d3066cf6e0789270"
+    },
+    {
+      "bytes": 59120,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/FINAL_IDENTITY_CHECK.json",
+      "sha256": "5b7566d733c539d030711eb20424f7e397040cf10dde5379d8c7daa318740cd8"
+    },
+    {
+      "bytes": 13314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/INDEPENDENT_REVIEW.md",
+      "sha256": "45fa735d400e157feb7f06026f8d2dcdd8a80af937a00f48b1836a39516c122b"
+    },
+    {
+      "bytes": 1700,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/VERDICT.json",
+      "sha256": "bfc6abafbba8a007ab4654c763afab33121961b13619459bde580b49d9645b8c"
+    },
+    {
+      "bytes": 9824,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/check_metadata.py",
+      "sha256": "50e5e62f71825c603cdc8bb4c11d952a24da79c072c6191951a83bcbb7d9f778"
+    },
+    {
+      "bytes": 6921,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m/seal_review.py",
+      "sha256": "f67fb6cd9becdf32ee8157737822eb2b6e2913d2988f344c9d6feae0f330c05c"
+    }
+  ],
+  "prospective_mutation_families": 35,
+  "recipes": 34,
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_NARROW_F04_R_SOURCE_REPAIR",
+  "remaining_source_blockers": [],
+  "repository_git_mutation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri184-compound-independent-review-yju68l4m",
+  "ret_paused": true,
+  "review": "INDEPENDENT_REVIEW.md",
+  "root_owns_disposition_admission_publication": true,
+  "runtime_cards_admission": false,
+  "schema": "ri184-independent-review-handoff-v1",
+  "scientific_decode": false,
+  "source_only": true,
+  "subject": {
+    "bytes": 13764,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8/HANDOFF.json",
+    "sha256": "55f33b57bb11d1633b8410c64574cebccfa17846397fb6aacc27fe4a23d6bd26"
+  },
+  "subject_import_compile_AST_probe_run": false,
+  "verdict": "VERDICT.json"
+}

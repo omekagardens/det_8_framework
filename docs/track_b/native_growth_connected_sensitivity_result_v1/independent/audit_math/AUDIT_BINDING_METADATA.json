@@ -1,0 +1,1098 @@
+{
+  "schema": "ri122-nonauthor-actual-audit-binding-metadata-review-v1",
+  "status": "PASS_METADATA_BINDING_REVIEW_ONLY",
+  "reviewer": "/root/ri122_actual_audit_bindings",
+  "observed_at_utc": "2026-09-27T02:37:05.734Z",
+  "actual_report": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+    "bytes": 257875,
+    "sha256": "8fd4f1fd563e9ba1712ebfabac8c114872c695d5a742c592f5b03c707ce84287",
+    "symlinks": []
+  },
+  "actual_descriptor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "bytes": 5501,
+    "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81",
+    "symlinks": []
+  },
+  "actual_binding": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_BINDING.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_BINDING.json",
+    "bytes": 6094,
+    "sha256": "e21055127fc0be1ba0b242cfa05a435a0c9677b1388e4665be24bdfd99a26e9d",
+    "symlinks": []
+  },
+  "source_adjudication": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+    "bytes": 3539,
+    "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+    "symlinks": []
+  },
+  "root_completed_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "bytes": 6281,
+    "sha256": "a47c6cdf1ad772cd2a090d0b83f8ead2ac7b781f0636006d9a348c3690da446c",
+    "symlinks": []
+  },
+  "frozen_descriptor_argv": [
+    "/opt/homebrew/bin/python3",
+    "-I",
+    "-S",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "5501",
+    "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81"
+  ],
+  "protected_files": [
+    {
+      "role": "files.ri88",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "bytes": 1828149,
+        "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397341",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri88_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri111",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+        "bytes": 20656,
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397342",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri111_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri109_adjudication",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+        "bytes": 4849,
+        "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397343",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri109_adjudication_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri111_adjudication",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+        "bytes": 3838,
+        "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397344",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri111_adjudication_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri115_adjudication",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+        "bytes": 6678,
+        "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397345",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri115_adjudication_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri117",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+        "bytes": 15564,
+        "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397346",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri117_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri117_connected",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "bytes": 11893,
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397347",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri117_connected_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.ri117_adjudication",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+        "bytes": 4617,
+        "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397348",
+      "ancestry_components_checked": 9,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "ri117_adjudication_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "files.candidate",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+        "bytes": 233035,
+        "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397418",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "audit_candidate"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "accepted_sources.checker",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+        "bytes": 66669,
+        "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397336",
+      "ancestry_components_checked": 8,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "checker_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "accepted_sources.protocol",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+        "bytes": 16451,
+        "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397338",
+      "ancestry_components_checked": 8,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "implementation_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "accepted_sources.contract",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+        "bytes": 11664,
+        "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397339",
+      "ancestry_components_checked": 8,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "audit_contract_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "audit_source",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+        "bytes": 63729,
+        "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397337",
+      "ancestry_components_checked": 8,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "auditor_copy"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "custody.producer_witness_stdout",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+        "bytes": 233035,
+        "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397377",
+      "ancestry_components_checked": 7,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "witness_stdout"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "custody.producer_witness_custody",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+        "bytes": 3828,
+        "sha256": "1e290b1549872f526eac903847c843c7e742c5652ec15e89dc2ef9d4811b8b4d",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397414",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "witness_custody"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "custody.producer_normal_custody",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+        "bytes": 4568,
+        "sha256": "73bc5f5946397f744640f1b3335e8dc8ad37f3f4f76f593f18f3262b2cb10d71",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397469",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "normal_custody"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "custody.producer_optimized_custody",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+        "bytes": 4993,
+        "sha256": "dba7d41729eaf5a2c22609cc4fa13229cc750e514eaaee8ae5153d14e1a2168d",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397625",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "optimized_custody"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "custody.consumer_source_review",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+        "bytes": 4346,
+        "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "395923",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "hist_0396",
+        "ri120_source_adjudication"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    },
+    {
+      "role": "descriptor",
+      "identity": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+        "bytes": 5501,
+        "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81",
+        "symlinks": []
+      },
+      "device": "16777244",
+      "inode": "397629",
+      "ancestry_components_checked": 6,
+      "regular_literal_nonsymlink": true,
+      "frozen_roles": [
+        "audit_plan"
+      ],
+      "freeze_prepared_before_after_match": true,
+      "report_postcheck_matches": true
+    }
+  ],
+  "original_copy_pairs": [
+    {
+      "role": "checker",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+        "bytes": 66669,
+        "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+        "bytes": 66669,
+        "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "auditor",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+        "bytes": 63729,
+        "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+        "bytes": 63729,
+        "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "implementation",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+        "bytes": 16451,
+        "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+        "bytes": 16451,
+        "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "audit_contract",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+        "bytes": 11664,
+        "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+        "bytes": 11664,
+        "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri88",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+        "bytes": 1828149,
+        "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "bytes": 1828149,
+        "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri111",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "bytes": 20656,
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+        "bytes": 20656,
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri109_adjudication",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri109-root-concrete-admission-cyl8y1as/RI109_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri109-root-concrete-admission-cyl8y1as/RI109_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+        "bytes": 4849,
+        "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+        "bytes": 4849,
+        "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri111_adjudication",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json",
+        "bytes": 3838,
+        "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+        "bytes": 3838,
+        "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri115_adjudication",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+        "bytes": 6678,
+        "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+        "bytes": 6678,
+        "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri117",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+        "bytes": 15564,
+        "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+        "bytes": 15564,
+        "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri117_connected",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "bytes": 11893,
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "bytes": 11893,
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    },
+    {
+      "role": "ri117_adjudication",
+      "original": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+        "bytes": 4617,
+        "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+        "symlinks": []
+      },
+      "copy": {
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+        "bytes": 4617,
+        "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+        "symlinks": []
+      },
+      "whole_bytes_equal": true
+    }
+  ],
+  "current_source_identities": {
+    "audit_caller": {
+      "bytes": 98660,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    "caller_contract": {
+      "bytes": 18999,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    },
+    "history_manifest": {
+      "bytes": 2170307,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    "native_supervisor": {
+      "bytes": 82578,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    },
+    "runtime_manifest": {
+      "bytes": 2862854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    }
+  },
+  "all_opaque_observed_identities": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+      "bytes": 5501,
+      "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri109_adjudication.json",
+      "bytes": 4849,
+      "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri111_adjudication.json",
+      "bytes": 3838,
+      "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri115_adjudication.json",
+      "bytes": 6678,
+      "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_CANDIDATE.json",
+      "bytes": 233035,
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/AUDIT_CONTRACT.md",
+      "bytes": 11664,
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/audit_saved_certificate.py",
+      "bytes": 63729,
+      "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+      "bytes": 233035,
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_ROOT_CUSTODY.json",
+      "bytes": 3828,
+      "sha256": "1e290b1549872f526eac903847c843c7e742c5652ec15e89dc2ef9d4811b8b4d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_ROOT_CUSTODY.json",
+      "bytes": 4568,
+      "sha256": "73bc5f5946397f744640f1b3335e8dc8ad37f3f4f76f593f18f3262b2cb10d71",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_ROOT_CUSTODY.json",
+      "bytes": 4993,
+      "sha256": "dba7d41729eaf5a2c22609cc4fa13229cc750e514eaaee8ae5153d14e1a2168d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-root-source-review-sksu97l1/ROOT_ADJUDICATION.json",
+      "bytes": 4346,
+      "sha256": "35554c18567e610ce450b3e804794edba20e3d552e7119318041691655c706d5",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+      "bytes": 63729,
+      "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+      "bytes": 11664,
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri109-root-concrete-admission-cyl8y1as/RI109_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri109-root-concrete-admission-cyl8y1as/RI109_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+      "bytes": 4849,
+      "sha256": "26ddd81d5fc1ae80c30d68aeadcb0ada0e18168bf3892b0995643294e6a64ddf",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri110-111-root-review-sRywfxac/RI111_ROOT_ANALYTIC_ADJUDICATION.json",
+      "bytes": 3838,
+      "sha256": "fc4e9147db50ceb750d1f9fdcf503ffbb53363d2f1379557d1713bb844093249",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI115_ROOT_FINAL_MATHEMATICAL_ADJUDICATION.json",
+      "bytes": 6678,
+      "sha256": "a23c0ac1208c78cc28590727675869968e2f579c863857aad67a9ea08b1d2480",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-root-proof-review-lyl4b3a6/ROOT_ADJUDICATION.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CALLER_CONTRACT.md",
+      "bytes": 18999,
+      "sha256": "8ff0e9960ccb08b84833d68ba07551692f94d0ea2f23304c4073044bdcc79664",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 25647,
+      "sha256": "ba915fa5931ca6c4ee7f77bd856944d985acd52ea229a515cb8084c70c434b98",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/HANDOFF.json",
+      "bytes": 10116,
+      "sha256": "05bfbba056a7eee610ec69c6d1f40dc1db9e0dfa5415974a502992777f9b8e27",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CANDIDATE_CUSTODY.json",
+      "bytes": 2641,
+      "sha256": "ad1d37eab09f074a557de3a1baf854acd52f32a3f870f118fd6987bfb65302f2",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/CERTIFICATE.json",
+      "bytes": 233035,
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/CERTIFICATE.json",
+      "bytes": 233035,
+      "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/NORMAL_OUTER_TOOL_RESULT.json",
+      "bytes": 1034,
+      "sha256": "4bd65a63bec8b75eb9dba9f98d60497cef6d01907948d6a1d5872408d47fdbf5",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/OPTIMIZED_OUTER_TOOL_RESULT.json",
+      "bytes": 1043,
+      "sha256": "0851f7d3adc1170c5a31e34ba569e93e4139b3f3094304c747272e181cd0b70b",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/WITNESS_OUTER_TOOL_RESULT.json",
+      "bytes": 1036,
+      "sha256": "33b23154e3709c4e761114fbfefcefc7a64f3e70906b0adb97a60c5542b044a4",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/ROOT_SOURCE_ADJUDICATION.json",
+      "bytes": 3539,
+      "sha256": "2073c8b912a9caa8117a16059b7cad43f244131f83646911dfd1beb29791606e",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+      "bytes": 257875,
+      "sha256": "8fd4f1fd563e9ba1712ebfabac8c114872c695d5a742c592f5b03c707ce84287",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/admission.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/admission.json",
+      "bytes": 1878593,
+      "sha256": "a65489cde2f6dbf04934ca6b821f4f21f58792404fe1366ea4c5f5b887dfd789",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/prepared.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/prepared.json",
+      "bytes": 2422173,
+      "sha256": "b2ec4121294e11d50ebb020bf56f0bdfb63f59c7c4464b140528cc5bd733f616",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/receipt.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/receipt.json",
+      "bytes": 3757374,
+      "sha256": "275b50d2c1fb6d4b374cef34b9135b0b65a6a095f1d52c604c643aeba235eb39",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/samples.jsonl",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/samples.jsonl",
+      "bytes": 51432,
+      "sha256": "0c86533a26f2b818bc734ef95665d3a1c3acf227957f8fb5bbc78831742902ca",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/stderr.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/stdout.log",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/stdout.log",
+      "bytes": 257875,
+      "sha256": "8fd4f1fd563e9ba1712ebfabac8c114872c695d5a742c592f5b03c707ce84287",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_APPLICABILITY.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_APPLICABILITY.json",
+      "bytes": 4622,
+      "sha256": "7a268738d73208d7ce5f35b3968dbeac8173f28156e0639a60de1b734a1af9ce",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_AUTHORIZATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_AUTHORIZATION.json",
+      "bytes": 285,
+      "sha256": "a72824ce9df461dcde1605b00846baa1c76f6e1565d5cc953ba2137373cc9173",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_EXECUTION_FREEZE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_EXECUTION_FREEZE.json",
+      "bytes": 2455514,
+      "sha256": "bf758a1abfe5accc1b9b4cbc37143e2282c9769f7b2198ed66075231db194262",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_OUTER_TOOL_RESULT.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_OUTER_TOOL_RESULT.json",
+      "bytes": 1034,
+      "sha256": "721f7de5ddd592e1c3d30f118f3652b2278ef4a35bc1363f2e692f60a271c611",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_ADMISSION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_ADMISSION.json",
+      "bytes": 3167,
+      "sha256": "acd2bf208cee657023d64ce45e6a81801e5c0398a957afab7f4e99a6c2d2ffc6",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_BINDING.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_BINDING.json",
+      "bytes": 6094,
+      "sha256": "e21055127fc0be1ba0b242cfa05a435a0c9677b1388e4665be24bdfd99a26e9d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+      "bytes": 6281,
+      "sha256": "a47c6cdf1ad772cd2a090d0b83f8ead2ac7b781f0636006d9a348c3690da446c",
+      "symlinks": []
+    }
+  ],
+  "distinct_protected_literal_paths": 19,
+  "distinct_protected_device_inode_pairs": 19,
+  "saved_outer_chunk": "402c12",
+  "saved_outer_exit_code": 0,
+  "saved_outer_transcription_agreement": true,
+  "report_whole_bytes_equal_stdout": true,
+  "all_three_candidates_whole_bytes_equal_witness": true,
+  "source_defined_report_postcheck_order_matches": true,
+  "scientific_arithmetic_performed": false,
+  "target_or_existing_helper_executed": false,
+  "independent_runtime_custody_adjudication": false,
+  "actual_tool_history_independently_observed": false,
+  "errors": []
+}

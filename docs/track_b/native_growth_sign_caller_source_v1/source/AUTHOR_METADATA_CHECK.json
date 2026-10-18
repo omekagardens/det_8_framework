@@ -1,0 +1,128 @@
+{
+  "schema": "ri129-author-final-source-metadata-check-v1",
+  "status": "SOURCE_IDENTITIES_AND_RETAINED_TEXT_MATCH",
+  "checked_at_utc": "2026-09-30T05:57:32.388Z",
+  "method": "Opaque stable file hashes, administrative manifest identity checks and literal source-string comparisons only; no source execution or scientific JSON decoding.",
+  "dependency_manifest": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+    "bytes": 583262,
+    "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+    "symlinks": []
+  },
+  "dependency_entries": 299,
+  "dependency_mismatches": [],
+  "source_files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "bytes": 10788,
+      "sha256": "177a73c780c99c489ac3b3fac3e1f3a974218b9fe3904ac5351827b85bf0c5b9",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 44763,
+      "sha256": "a286bd5bc63cab4e0ad7bd24cdea5ac83e665c1c8a89adcc64ffd836f057c7a2",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "bytes": 24196,
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "bytes": 6135,
+      "sha256": "f229ae82ae3ea2a79dfe85a7c3a104617d92effd08b64fdeb710a9c625557d57",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "bytes": 7233,
+      "sha256": "085be026fcffcddc39b9775fb9037a06a0cae89155053049cf16ea8b123ab7a0",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "bytes": 14421,
+      "sha256": "d48d5fa27d7e3f33b3620137f6c4af2daa2c7fae99e0ebdf1c7bc0a9f41f1b5d",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "bytes": 583262,
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 31725,
+      "sha256": "8a0d2fa476b4a148c4e14536b5c5dc99d602194e14b7c6f671f34a0e3e0c3927",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "bytes": 28109,
+      "sha256": "1bdc6d46ff6890dfa687fe03b26423607760b12aa305e6873c7a774f2077006f",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "bytes": 103287,
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5",
+      "symlinks": []
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "bytes": 88890,
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650",
+      "symlinks": []
+    }
+  ],
+  "retained_text_checks": [
+    {
+      "file": "supervise.py",
+      "label": "runtime_helpers",
+      "identical": true
+    },
+    {
+      "file": "supervise.py",
+      "label": "identity_io_snapshot",
+      "identical": true
+    },
+    {
+      "file": "supervise.py",
+      "label": "Attempt_monitor_signal_cleanup",
+      "identical": true
+    },
+    {
+      "file": "supervise.py",
+      "label": "run_and_main_except_new_preflight_call",
+      "identical": true
+    },
+    {
+      "file": "launch_audit.py",
+      "label": "Attempt_monitor_cleanup_run_main_except_new_preflight_call",
+      "identical": true
+    }
+  ],
+  "source_import_compile_ast_probe_or_run": false,
+  "scientific_execution": false,
+  "scientific_body_decode": false,
+  "current_runtime_inventory_created": false,
+  "active_execution_artifacts_created": false,
+  "independent_review": false,
+  "final_note": "Metadata check refreshed after final documentation clarification; executable sources unchanged. Current namespace contains source/evidence documents only, no active execution directories."
+}

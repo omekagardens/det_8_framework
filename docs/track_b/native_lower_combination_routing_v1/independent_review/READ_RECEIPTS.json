@@ -1,0 +1,117 @@
+{
+  "schema": "ri228-independent-read-receipts-v1",
+  "provenance": "Assistant-authored record of direct tool receipts and separate attributed reports, not a provider-exported transcript.",
+  "own_reads": [
+    {
+      "chunk_id": "acb53f",
+      "exit_code": 0,
+      "scope": "Current six-file inventory"
+    },
+    {
+      "chunk_id": "2c4851",
+      "exit_code": 0,
+      "scope": "Complete HANDOFF.json"
+    },
+    {
+      "chunk_id": "6057a1",
+      "exit_code": 0,
+      "scope": "Complete numbered LOWER_COMBINATIONS.md"
+    },
+    {
+      "chunk_id": "7e911f",
+      "exit_code": 0,
+      "scope": "Complete numbered COMPONENT_ROUTING.md"
+    },
+    {
+      "chunk_id": "531bf5",
+      "exit_code": 0,
+      "scope": "Complete numbered RI41 NORMALIZATION.md"
+    },
+    {
+      "chunk_id": "7438eb",
+      "exit_code": 0,
+      "scope": "RI63 COMPLETION.md display; combined outer output clipped its opening passage"
+    },
+    {
+      "chunk_id": "322cc4",
+      "exit_code": 0,
+      "scope": "Recovered RI63 lines1-12, all author fields except separately displayed retained checker, complete HANDOFF.md"
+    },
+    {
+      "chunk_id": "b51d7a",
+      "exit_code": 0,
+      "scope": "Complete retained administrative checker source"
+    },
+    {
+      "chunk_id": "b47b0e",
+      "exit_code": 0,
+      "scope": "Six current pins and complete 29-source checker input inventory"
+    }
+  ],
+  "prior_own_antecedent_reads": {
+    "ri228_assignment_admissions": [
+      "c31ba0",
+      "b7b9fc",
+      "2f736b"
+    ],
+    "ri189_complete_routing": "1607a9",
+    "ri225_review_handoff": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri225-independent-native-review-BqGvKj/HANDOFF.json",
+      "bytes": 3752,
+      "sha256": "d49f957da598ae50de1f04f8eaeca3d8634fdf363ba4e67c1e2302c62acf5a8a"
+    },
+    "description": "Complete antecedent reads retained from preceding accepted reviews; not freshly replayed scientific work."
+  },
+  "own_replay": {
+    "chunk_id": "3b624d",
+    "exit_code": 0,
+    "scope": "Reviewed retained metadata checker final6, current pins authenticated before/after; full direct result separately retained in METADATA_REPLAY.json"
+  },
+  "own_integer_preserving_supplement": {
+    "chunk_id": "851522",
+    "wall_time_seconds": 0.00000775,
+    "exit_code": 0,
+    "original_token_count": 217,
+    "output": "{\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/SOURCE_REFERENCES.json\", \"bytes\": 61082, \"sha256\": \"27d9af78ce0b2498d2677a0b1c1e3ee49b4bcdaf21f9fa512231001e5fe9bf9d\"}\n{\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/HANDOFF.json\", \"bytes\": 22030, \"sha256\": \"729d870ad76830416c9b8aad50e0a3381150c4f9467fb1986538eb35f6fcb011\"}\n{\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri228-native-lower-combinations-lt3ry78x/AUTHOR_VERIFICATION.json\", \"bytes\": 45720, \"sha256\": \"53b82383c4a23afe24da52516eb58c7d4145d22f2f34336e166ac2599218ea51\"}\n{\"status\": \"PASS_INTEGER_PRESERVING_ADMINISTRATIVE_BINDINGS\", \"boundaries\": 15, \"new_literal_rows\": 2, \"metadata_only\": true, \"scientific_body_read\": false, \"mathematical_arithmetic\": false, \"subject_execution\": false}\n"
+  },
+  "separately_reported": {
+    "source": "Parent forwarded external QR author message and its own root replay; not this reviewer's observations.",
+    "author_final": {
+      "chunk_id": "0ec87e",
+      "exit_code": 0
+    },
+    "root_replay": {
+      "chunk_id": "eb38e7",
+      "exit_code": 0
+    },
+    "reported_scope": {
+      "whole_identities": 35,
+      "selected_references": 45,
+      "direct_sources": 29,
+      "direct_bytes": 757795,
+      "current_namespace": 6,
+      "predecessor_namespace": 6,
+      "boundaries": 15
+    },
+    "author_preseal": {
+      "chunk_id": "1214c1",
+      "exit_code": 0
+    },
+    "author_proof_reads": [
+      "87d692",
+      "4da223"
+    ],
+    "author_pin": "39f7fb",
+    "author_diagnostics": "One redundant stored outer display clipped; complete reads retained. Author reports zero failed shell commands/rejected patches/orchestration attempts."
+  },
+  "own_diagnostics": {
+    "failed_commands": 0,
+    "clipped_outer_display": true,
+    "recovery": "322cc4 before completing review",
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "mathematical_automation": false,
+    "git_or_repository_writes": false
+  },
+  "authority": "Only new exclusive independent-review reservation may be written; no subject/source modifications or successor assignment."
+}

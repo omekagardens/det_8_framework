@@ -1,0 +1,23 @@
+{
+  "invocation": {
+    "cmd": "/usr/bin/env -i LANG=C LC_ALL=C PATH=/usr/bin:/bin TZ=UTC __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /opt/homebrew/bin/python3 -I -S -B /Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py optimized",
+    "login": false,
+    "max_output_tokens": 2000,
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure",
+    "yield_time_ms": 1000
+  },
+  "initial": {
+    "chunk_id": "7e854f",
+    "wall_time_seconds": 1.001643917,
+    "session_id": 12358,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "completion": {
+    "chunk_id": "aa3053",
+    "wall_time_seconds": 0.000009292,
+    "exit_code": 0,
+    "original_token_count": 61,
+    "output": "{\"mode\":\"optimized\",\"receipt\":\"/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/optimized-01/receipt.json\",\"receipt_sha256\":\"9870e9f4b2d810e3065a8e36300ed93e811e4841ee26544b3f6b5951b417a815\",\"success\":true}\n"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "RET": "paused",
+  "administrative_replay": {
+    "chunk": "025829",
+    "exit_code": 0,
+    "report": {
+      "bytes": 3070926,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/METADATA_CHECK.json",
+      "sha256": "aa313e2f9bc346b654dd8604d4ef3a15592ae6d67ff52f387e04a7645a5ae598"
+    }
+  },
+  "current_failed_commands": [],
+  "current_reads": [
+    {
+      "chunk": "f948ee",
+      "exit_code": 0,
+      "scope": "Complete independent proof narrative and verdict"
+    },
+    {
+      "chunk": "4a9a01",
+      "exit_code": 0,
+      "scope": "Complete independent checker, actual checks and sealing source"
+    },
+    {
+      "chunk": "7b82dc",
+      "exit_code": 0,
+      "scope": "Root replay stdout/stderr, complete preliminary manual note and prior publisher"
+    },
+    {
+      "chunk": "d24aa1",
+      "exit_code": 0,
+      "scope": "Whole report equality except schema, bounded original-source pins and all relevant current coordination rows"
+    }
+  ],
+  "display_diagnostics": [
+    {
+      "chunk": "c762c3",
+      "exit_code": 0,
+      "issue": "Combined general document display was clipped; all actionable current rows recovered untruncated in d24aa1; not credited as a complete historical document reading"
+    }
+  ],
+  "final_adjudication": {
+    "chunk": "d83b8e",
+    "decision": {
+      "bytes": 2404,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+      "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950"
+    },
+    "exit_code": 0
+  },
+  "historical_diagnostics_retained": true,
+  "independent_reported_tools": [
+    {
+      "chunk": "8dcf5b",
+      "exit_code": 0,
+      "scope": "Independent administrative check"
+    },
+    {
+      "chunk": "979f28",
+      "exit_code": 0,
+      "scope": "Independent review seal"
+    }
+  ],
+  "measurement_review_assignment": {
+    "bytes": 2109,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/MEASUREMENT_REVIEW_ASSIGNMENT.json",
+    "sha256": "2f7a97b527a88d7a2dd16e69c7b01dde2e3a3e2f81c57fea4424e80765491206"
+  },
+  "measurement_status": "Sealed RI158 under complete independent source/control review; unadjudicated and excluded",
+  "preliminary_reads": {
+    "bytes": 3407,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_PRELIMINARY_REVIEW.md",
+    "sha256": "de26186f0bb11d95cecd3e297fbb19cbcaff80e07d758b5b6ab4b08d177d2bca"
+  },
+  "schema": "ri157-root-actual-tools-v1",
+  "source_scope": "Manual finite proof and administrative metadata only; no scientific/control execution",
+  "successor_assignment": {
+    "bytes": 4916,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "sha256": "782b057624a35094093558e52e40a78d3a61b3ff1cbb61d2c3dd675171b1911e"
+  },
+  "successor_message": "send_message_to_thread returned success for existing QR chat after root disposition; no new chat or agent"
+}

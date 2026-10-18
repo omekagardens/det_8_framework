@@ -1,0 +1,46 @@
+{
+  "RET_paused": true,
+  "accepted": [
+    "Strict B3>1+delta and exact two-margin interval.",
+    "Original harmonic seed elimination Kh=A with A>0 and K nonzero.",
+    "Exact sign-dependent remaining margin comparison and sufficient negative-branch targets."
+  ],
+  "actual_root_check": {
+    "chunk_id": "444674",
+    "exit_code": 0
+  },
+  "independent_review": {
+    "bytes": 1657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI212_NONAUTHOR_REVIEW.json",
+    "sha256": "a67d4b6045dc42a7bba7b87cad6104cb8e3a1f138b5df685907aad348241cf57"
+  },
+  "manual_review": {
+    "bytes": 3116,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI212_ROOT_PROOF_REVIEW.md",
+    "sha256": "1a2715c0b5caebb23907a801d4b7f7757a275b843645b25fea34d9aabc91ce74"
+  },
+  "not_established": [
+    "native sign K",
+    "both original margins",
+    "shared T1",
+    "other eight connected parents",
+    "five Di",
+    "H30",
+    "executable qualification",
+    "physical claims"
+  ],
+  "qualification_credit": 0,
+  "root_metadata": {
+    "bytes": 17920,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri215-root-margin-review-a1inhpxr/RI212_ROOT_METADATA_CHECK.json",
+    "sha256": "c11075909d14f4f195bf9f34bc03d5040aa0d87ffafc04e2467b05e96fd5e319"
+  },
+  "schema": "ri215-native-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_RI212_CONDITIONAL_INDIVIDUAL_MARGIN_REDUCTION",
+  "subject": {
+    "bytes": 8390,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri212-native-individual-margins-u1l72g3n/HANDOFF.json",
+    "sha256": "76b6e1d543d3ea39acedbb3561c102887c8879cf145a824bf54a8a419de4c71c"
+  }
+}

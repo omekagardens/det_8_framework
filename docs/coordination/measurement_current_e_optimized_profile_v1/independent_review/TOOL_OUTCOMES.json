@@ -1,0 +1,66 @@
+{
+  "schema": "ri193-independent-review-tool-outcomes-v1",
+  "administrative_commands": [
+    [
+      "/opt/homebrew/bin/python3",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/build_checker.py"
+    ],
+    [
+      "/opt/homebrew/bin/python3",
+      "-I",
+      "-B",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri193-current-e-optimized-review-p2ylnt9f/check_optimized_saved.py"
+    ]
+  ],
+  "administrative_initial": {
+    "chunk_id": "24eaf5",
+    "wall_time_seconds": 1.000610167,
+    "session_id": 3336,
+    "original_token_count": 19,
+    "output": "Administrative both-mode checker written; old reviewer source untouched.\n"
+  },
+  "administrative_terminal": {
+    "chunk_id": "5098a1",
+    "wall_time_seconds": 0.000010375,
+    "exit_code": 0,
+    "original_token_count": 204,
+    "output": "{\"capture_entries\": 16, \"monitors\": [{\"elapsed_seconds\": 1.9208310000000002, \"final_gap_seconds\": 0.015135708000000303, \"label\": \"PRE\", \"max_gap_seconds\": 0.03882558299999994, \"parent_pid_only\": 25328, \"peak_rss_kib\": 84368, \"samples\": 53}, {\"elapsed_seconds\": 0.3390654579999999, \"final_gap_seconds\": 0.03418525000000017, \"label\": \"PROFILE\", \"max_gap_seconds\": 0.04362666599999976, \"parent_pid_only\": 25328, \"peak_rss_kib\": 752, \"samples\": 9}, {\"elapsed_seconds\": 1.833066208, \"final_gap_seconds\": 0.050163125000000086, \"label\": \"POST\", \"max_gap_seconds\": 0.03871066600000006, \"parent_pid_only\": 25328, \"peak_rss_kib\": 85712, \"samples\": 50}], \"opaque_unique_identities\": 12478, \"predicates\": 697704, \"runtime_bytes\": 258862951, \"runtime_files\": 9923, \"status\": \"ALL_INDEPENDENT_ADMINISTRATIVE_PREDICATES_PASSED\"}\n"
+  },
+  "read_only_events": [
+    {
+      "chunk_id": "407e49",
+      "scope": "Assignment anchor, complete assignment, empty reservation",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "ac5dbc",
+      "scope": "All16 assignment input anchors plus actual admission, normal card and bounded custody schemas",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0852d9",
+      "scope": "Complete root optimized saved-evidence checker source; not invoked",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1de863",
+      "scope": "Complete root optimized preflight source and exhaustive typed raw-report difference display",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9b3662",
+      "scope": "Exact R01/eight-premise contract text and independent result metrics/pins",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1a41ac",
+      "scope": "Complete two absent-cache records and optimized literal child command",
+      "exit_code": 0
+    }
+  ],
+  "own_failed_attempts": [],
+  "diagnostics": "No reviewer failure or truncated display. Root's normal-identity pin addition after initial adaptation is retained in its authenticated ROOT_ACTUAL_CHECKS.json; no subject retry. Prior reviewer failure remains in immutable RI186 rather than being rewritten.",
+  "scope": "Administrative saved metadata and opaque-file reads only; no subject/helper/vendor invocation, scientific body decode, cards, optimized rerun or repository operation."
+}

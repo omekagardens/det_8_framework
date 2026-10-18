@@ -1,0 +1,55 @@
+{
+  "schema": "det-redacted-publication-v1",
+  "scope": "Public derivative; original custody identities and administrative executable sources intentionally withheld.",
+  "scientific_status": "Historical conditional mathematics and bounded review statements only; no new proof, execution, qualification or physical validation.",
+  "payload": [
+    {
+      "path": "README.md",
+      "bytes": 5651,
+      "sha256": "06ae33b8081a2197a6c44f0b53f82ba703c771024ab7af28fdba63b54f663e7a"
+    },
+    {
+      "path": "independent/INDEPENDENT_REVIEW.md",
+      "bytes": 14033,
+      "sha256": "517d0bd1b016b087deb36c2509a180f7061bcf78a2cb037d8f9dcd218d2651b1"
+    },
+    {
+      "path": "root/RI264_ROOT_REVIEW.md",
+      "bytes": 5136,
+      "sha256": "60184436185346cc81a4ce262334dd1f97d2eb560f7383a8d83c7ad644e9c655"
+    },
+    {
+      "path": "source/FIXED_REST_BLOCK.md",
+      "bytes": 11088,
+      "sha256": "6ad315c4d448e44a65826df1248a6a5857f88c14331465a92755c58a8243c2dd"
+    },
+    {
+      "path": "source/HANDOFF.md",
+      "bytes": 3849,
+      "sha256": "4d74bda0ef2f6aa14881b7e582abc059efc204db576a72481603a6eba8db2750"
+    },
+    {
+      "path": "source/SCALAR_OPTIMUM_AND_KAPPA.md",
+      "bytes": 13145,
+      "sha256": "626d9b861b93bc900bb88b2e63a1748af75f228418d90a3985b5bb5279f6ed0a"
+    }
+  ],
+  "withheld_private_payloads": [
+    "DEPENDENCY_MAP.json",
+    "independent/CHECK.json",
+    "independent/CHECK_TOOL_RECEIPT.json",
+    "independent/HANDOFF.json",
+    "independent/QR_ACTUAL_RECEIPTS.json",
+    "independent/VERDICT.json",
+    "independent/check_metadata.py",
+    "root/RI264_GENUINE_FINAL.json",
+    "root/RI264_ROOT_ADJUDICATION.json",
+    "root/RI264_ROOT_METADATA_CHECK.json",
+    "root/RI266_ASSIGNMENT.json",
+    "root/RI266_RESERVATION.json",
+    "source/AUTHOR_VERIFICATION.json",
+    "source/HANDOFF.json",
+    "source/SOURCE_REFERENCES.json"
+  ],
+  "original_manifest": "Withheld. Payload pins above authenticate only the derivative, never the private originals."
+}

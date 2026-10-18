@@ -1,0 +1,66 @@
+{
+  "acceptance_scope": "Administrative freeze construction over separately accepted source, original guard applicability and complete current profiles. Exact candidate may next be installed only by a separately reviewed exclusive root write and immediate whole E custody.",
+  "actual_receipts": {
+    "bytes": 1041,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/MEASUREMENT_ACTUAL_RECEIPTS.json",
+    "sha256": "b2b6c82cb6c61077467932ed2d0bd9dc58db6a7f0d0d04f44130e782a8710ce0"
+  },
+  "candidate_fields": 17,
+  "candidate_is_complete_canonical_result": true,
+  "complete": {
+    "bytes": 176891,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/COMPLETE.json",
+    "sha256": "cbc97f695b822fd7ff12ab643d892968a951d7481c297d6fc175612d2f2c6823"
+  },
+  "environment_unchanged": true,
+  "freeze_installed": false,
+  "genuine_outer": {
+    "bytes": 1406,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/GENUINE_TOOL.json",
+    "sha256": "6b21a0651b7103a007eacd00e913a56ce29a05b7b66c9580a0efc2ed2e827292"
+  },
+  "independent_review": {
+    "bytes": 2756,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/INDEPENDENT_ACTUAL_FREEZE_REVIEW.json",
+    "sha256": "14d2d9dd707b820cd03f5d65e2c96fac9a15e382c3a09e16bb04c34f90d0350e"
+  },
+  "mode_admission_issued": false,
+  "post_custody": {
+    "bytes": 59730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/POST_CUSTODY.json",
+    "sha256": "890d1b2d99c0f03dfad6d2f9d3e76770794d95ead6913dc691464ca9673da0f4"
+  },
+  "postcheck": {
+    "bytes": 3507,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ACTUAL_FREEZE_POSTCHECK.json",
+    "sha256": "d64a8e058ab15fa5dc87d6295d926c186927213dbc91fbce0b2abe1092ead726"
+  },
+  "preflight_review": {
+    "bytes": 2001,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/INDEPENDENT_CONCRETE_PREFLIGHT_REVIEW.json",
+    "sha256": "d779e0c0a05a50bec9e659786e6ac7b9d903c1f448658e71d50dcb9fa200fd0e"
+  },
+  "result": {
+    "bytes": 26214,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri206-freeze-5e_n5lj_/RESULT.json",
+    "sha256": "9e0c0e4953c7213a76fea291d5f799984422de8628f039eac4e0d7b3c5758b14"
+  },
+  "ret_paused": true,
+  "root_review": {
+    "bytes": 4068,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ROOT_ACTUAL_FREEZE_REVIEW.md",
+    "sha256": "22742e595427be6b70d7106f84e442d14c2d55ef6fa701f70f094fe1e3356912"
+  },
+  "run_fields": {
+    "normal": 9,
+    "optimized": 9
+  },
+  "schema": "ri206-root-actual-freeze-candidate-adjudication-v1",
+  "scientific_execution": false,
+  "source_review": {
+    "bytes": 4349,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri206-root-freeze-5e_n5lj_/ROOT_PREPARATION_DECISION.json",
+    "sha256": "7fdcc163c5aaae1dff7f65f4691faf53b550f122478d9df14f85462b101fd141"
+  },
+  "status": "ACCEPT_COMPLETE_ADMINISTRATIVE_FREEZE_CANDIDATE"
+}

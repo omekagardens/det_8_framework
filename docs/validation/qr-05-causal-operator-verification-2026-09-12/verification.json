@@ -1,0 +1,185 @@
+{
+  "schema": "qr05-causal-operator-verification-v1",
+  "date": "2026-09-12",
+  "claim_scope": "Exact bounded supplied-operator verification, not physical operator selection or calibrated order recovery.",
+  "freeze_sources": 9,
+  "first_capture": {
+    "action": "capture",
+    "rows": 52,
+    "paths": 304,
+    "report_bytes": 165114,
+    "report_sha256": "1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca"
+  },
+  "coverage": {
+    "rows": 52,
+    "event_occurrences": 148,
+    "matrix_cells": 452,
+    "strict_pairs": 120,
+    "covers": 92,
+    "nonzero_A": 100,
+    "nonzero_G_off": 100,
+    "paths": 304,
+    "trivial_paths": 148,
+    "one_edge_paths": 120,
+    "two_edge_paths": 36,
+    "zero_paths": 24,
+    "direct_equal": 36,
+    "reachability_equal": 48,
+    "witnesses": 12
+  },
+  "tests": {
+    "normal": 27,
+    "optimized": 27,
+    "mathematical_api_per_mode": 17,
+    "evidence_per_mode": 10
+  },
+  "post_first_run_source_edits": false,
+  "alternate_full_replays": 1,
+  "runs": [
+    {
+      "command": "python3 -B docs/validation/qr-05-causal-operator-verification-2026-09-12/study.py --freeze docs/validation/qr-05-causal-operator-verification-2026-09-12/source-freeze.json",
+      "chunk_id": "912b1d",
+      "wall_time_seconds": 0.000003334,
+      "exit_code": 0,
+      "original_token_count": 9,
+      "output": "{\"action\": \"freeze\", \"sources\": 9}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-causal-operator-verification-2026-09-12/study.py --capture docs/validation/qr-05-causal-operator-verification-2026-09-12/results.json",
+      "chunk_id": "4114fd",
+      "wall_time_seconds": 0.007758708,
+      "exit_code": 0,
+      "original_token_count": 40,
+      "output": "{\"action\": \"capture\", \"rows\": 52, \"paths\": 304, \"report_bytes\": 165114, \"report_sha256\": \"1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca\"}\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-causal-operator-verification-2026-09-12/test_causal_operator.py",
+      "chunk_id": "c5cbc1",
+      "wall_time_seconds": 0.426271958,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": "...........................\n----------------------------------------------------------------------\nRan 27 tests in 0.463s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-causal-operator-verification-2026-09-12/test_causal_operator.py",
+      "chunk_id": "dfd060",
+      "wall_time_seconds": 0.434850958,
+      "exit_code": 0,
+      "original_token_count": 32,
+      "output": "...........................\n----------------------------------------------------------------------\nRan 27 tests in 0.453s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B docs/validation/qr-05-causal-operator-verification-2026-09-12/study.py --replay docs/validation/qr-05-causal-operator-verification-2026-09-12/results.json",
+      "chunk_id": "cbd5fa",
+      "wall_time_seconds": 0.013424042,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 52, \"paths\": 304, \"report_bytes\": 165114, \"report_sha256\": \"1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca\"}\n"
+    },
+    {
+      "command": "python3 -B -O docs/validation/qr-05-causal-operator-verification-2026-09-12/study.py --replay docs/validation/qr-05-causal-operator-verification-2026-09-12/results.json",
+      "chunk_id": "b1b85b",
+      "wall_time_seconds": 0.011145458,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 52, \"paths\": 304, \"report_bytes\": 165114, \"report_sha256\": \"1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca\"}\n"
+    },
+    {
+      "command": "python3.11 -B docs/validation/qr-05-causal-operator-verification-2026-09-12/study.py --replay docs/validation/qr-05-causal-operator-verification-2026-09-12/results.json",
+      "chunk_id": "76e459",
+      "wall_time_seconds": 0.004846083,
+      "exit_code": 0,
+      "original_token_count": 39,
+      "output": "{\"action\": \"replay\", \"rows\": 52, \"paths\": 304, \"report_bytes\": 165114, \"report_sha256\": \"1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca\"}\n"
+    }
+  ],
+  "static_runs": [
+    {
+      "command": ".venv/bin/ruff check docs/validation/qr-05-causal-operator-verification-2026-09-12",
+      "chunk_id": "6934fc",
+      "wall_time_seconds": 0.000003875,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": ".venv/bin/ruff format --check docs/validation/qr-05-causal-operator-verification-2026-09-12",
+      "chunk_id": "fe0ff6",
+      "wall_time_seconds": 0.000001791,
+      "exit_code": 0,
+      "original_token_count": 7,
+      "output": "5 files already formatted\n"
+    },
+    {
+      "command": "python3 -B -c 'import ast,pathlib; p=pathlib.Path(\"docs/validation/qr-05-causal-operator-verification-2026-09-12\"); fs=sorted(p.glob(\"*.py\")); [ast.parse(f.read_bytes(),filename=str(f)) for f in fs]; print(\"AST-only checks:\",len(fs))'",
+      "chunk_id": "4b5b90",
+      "wall_time_seconds": 0.0000025,
+      "exit_code": 0,
+      "original_token_count": 5,
+      "output": "AST-only checks: 4\n"
+    }
+  ],
+  "previous_metadata": [
+    {
+      "directory": "qr-05-joint-geometry-verification-2026-09-12",
+      "matched_sources": 10,
+      "freeze_sha256": "c717bba54983c8690a67b37952117b205899d1a1ff07462661e5ced0ba50d022",
+      "capture_sha256": "fe8c540f625712418121012ff2f4e1e1c8fc46017158a672036ba5448a3de83d"
+    },
+    {
+      "directory": "qr-05-bridge-reconciliation-2026-09-12",
+      "matched_sources": 6,
+      "freeze_sha256": "5ab341a61d4d94c3da23b2a71a38d85b204b0364304017b02e574d381df05156",
+      "capture_sha256": "23fa47dba62e1688aeb8b59a18290ec74b2a3e18a4d784ddbe07da3ca08b4291"
+    },
+    {
+      "directory": "qr-05bv-acquisition-distortion-verification-2026-09-09",
+      "matched_sources": 12,
+      "freeze_sha256": "6ea9205430992e4af8d90ef69270f67cbbaa2e43b831c54271f78c1b46e18571",
+      "capture_sha256": "44b2f745b4fae5e602bd004d0a33bb4c4c203c57e006e195dbadc95d25687e7b"
+    }
+  ],
+  "runtimes": {
+    "primary": "CPython 3.14.0",
+    "alternate": "CPython 3.11.6"
+  },
+  "final_metadata": {
+    "new_source_identities_matched": 9,
+    "joint_geometry_source_identities_matched": 10,
+    "reconciliation_source_identities_matched": 6,
+    "bv_source_identities_matched": 12,
+    "captures_with_matching_source_and_freeze_bindings": 4,
+    "source_freeze": {
+      "bytes": 1229,
+      "sha256": "108f5b71f57301192c4fb3e1e547ffc3549f118d4ef56bec9fb18fcadbf67e8c"
+    },
+    "capture": {
+      "bytes": 166354,
+      "sha256": "b37703a59518ec04718ed1822dc0074bb0c98319a7ddfb9fe606de931f083ed9"
+    },
+    "canonical_report": {
+      "bytes": 165114,
+      "sha256": "1fdeebb292c84bd8a4617f9515082a8b06b199f1c87ff4816f75b65de36d9bca"
+    },
+    "links": {
+      "markdown_files": 9,
+      "local_links_checked": 112,
+      "broken_links": []
+    },
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "ast_python_files": 4,
+    "git_diff_check": "passed",
+    "status_delta": {
+      "baseline_entries": 235,
+      "current_entries": 236,
+      "missing": [],
+      "added": [
+        "?? docs/validation/qr-05-causal-operator-verification-2026-09-12/"
+      ]
+    },
+    "unrelated_dirty_entries_preserved": 231,
+    "head_and_origin_tracking_ref": "47262b616296c632189d4e8b3e2582ed2016a6d8",
+    "commit_or_push_this_gate": false
+  }
+}

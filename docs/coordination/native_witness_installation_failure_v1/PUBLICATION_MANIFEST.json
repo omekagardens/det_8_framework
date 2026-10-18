@@ -1,0 +1,84 @@
+{
+  "exact_copies": 13,
+  "parent": "235c88f24f8dfa41dc95af54f2f0823ef71f4a53",
+  "payload": [
+    {
+      "bytes": 15495,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "31871a4570b6d4270f3cc0e644a50243418eaab41628fa694f603fc272ddbaea"
+    },
+    {
+      "bytes": 1595,
+      "path": "FOUR_ROOT_LITERAL_CUSTODY.json",
+      "sha256": "2382f05b27005eb527412f0b4c72bc174501aa40470b27c571b972b8aac69aee"
+    },
+    {
+      "bytes": 3091,
+      "path": "FOUR_ROOT_MANUAL_WITNESS.md",
+      "sha256": "e9b10354a0917f0d305e7ca3e6d7f1342c6804530e0f5a974684d14346263bb9"
+    },
+    {
+      "bytes": 1738,
+      "path": "FOUR_ROOT_NONAUTHOR_REVIEW.json",
+      "sha256": "1af020608262c1b1d9f37604da8f46fe02008bcefbbf818fcab8a8d71466dce9"
+    },
+    {
+      "bytes": 1654,
+      "path": "FOUR_ROOT_WITNESS_ACCEPTANCE.json",
+      "sha256": "7a64e68ccd095aabdb10f631f5093b73eade31e97bc0e49fb643d0a68378c851"
+    },
+    {
+      "bytes": 3009,
+      "path": "PREPARATION_FAILURE_NONAUTHOR_REVIEW.json",
+      "sha256": "dcf526ef979ef219a7cdf1273618cbdcc90555f23ae8fbc766b226ec1954a52a"
+    },
+    {
+      "bytes": 3723,
+      "path": "PREPARATION_FAILURE_PARTIALS.json",
+      "sha256": "8ded6ca2d710b840b27d20fc5174a7710fde5d0aadd86e2d206e6c9c57c0be1d"
+    },
+    {
+      "bytes": 2512,
+      "path": "PREVIOUS_REMOTE_CHECKPOINT.json",
+      "sha256": "9b5362476aeb740b7df7932d6285d865441999893b80dcd09840d1f48a02fe81"
+    },
+    {
+      "bytes": 1591,
+      "path": "README.md",
+      "sha256": "2dbc4abe40caa7b0f4788d19f6c92b5a6dc2057b13b5399e140fb161bf6d3121"
+    },
+    {
+      "bytes": 1772,
+      "path": "RI213_SOURCE_ACCEPTANCE_SUPERSESSION.json",
+      "sha256": "e8f50f5b05d4d05c03e53e8909d22a4b92290785cb1b095c289121e8ebf1a0ab"
+    },
+    {
+      "bytes": 4124,
+      "path": "RI216_FOUR_ROOT_LITERAL_ADMISSION.json",
+      "sha256": "7e571bec36a7650a8bd99cabab274ba6c2c0d9dd54a1608c8d533bbc62de7d13"
+    },
+    {
+      "bytes": 2827,
+      "path": "RI218_BYTE_REPAIR_ASSIGNMENT.json",
+      "sha256": "a72b9d4e51a2b184e4e03270e504ed89be82555271be17b4f26199532c70cf4a"
+    },
+    {
+      "bytes": 1893,
+      "path": "diagnostic/ORIGINAL_HOST_TOOL.json",
+      "sha256": "708a0963e35fe66c504c0fd2b93a11711c0ba7ae5a57b1b5f61b028441ca211b"
+    },
+    {
+      "bytes": 1891,
+      "path": "diagnostic/SAVED_HOST_TOOL.json",
+      "sha256": "07cbac05498fb9329338592a1dea8255d09145bee24598491722d494509b4305"
+    },
+    {
+      "bytes": 15472,
+      "path": "diagnostic/failed_prepare_installation.py",
+      "sha256": "db4ebaa6aba5642ea0ca6c5e710eb1e489b4d7a900d31c3ec5134108de49de0d"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

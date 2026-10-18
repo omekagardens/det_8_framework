@@ -1,0 +1,14 @@
+{
+  "identities_rechecked": 466,
+  "root_prepared_admission_not_inspected_or_accepted_by_this_reviewer": true,
+  "runtime_inventory_observation": false,
+  "schema": "ri152-final-source-custody-v1",
+  "scientific_body_decode": false,
+  "source_check": {
+    "bytes": 589045,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-guard-preflight-qvsy2hmk/OPAQUE_PREFLIGHT_CHECK.json",
+    "sha256": "99240696d1ecc33e3da9cc52602dae85d09096c51b538ce650733cac9beb2270"
+  },
+  "status": "ALL466_EXACT_READ_INPUTS_UNCHANGED",
+  "subject_execution": false
+}

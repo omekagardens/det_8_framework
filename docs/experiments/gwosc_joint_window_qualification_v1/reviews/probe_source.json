@@ -1,0 +1,63 @@
+{
+  "accepted_runtime_helper": {
+    "bytes": 8184,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/runtime_support.py",
+    "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+  },
+  "activity": "Read complete original and revised probe source, complete current candidate review, interpreter binding and capture observations. Opaque metadata pins only. No probe/target execution, candidate runtime invocation, new inventory/profile, scientific decoding or calculation, repository or git mutation.",
+  "applicability": "Fixed sys/os/json/hashlib/_hashlib/decimal/fractions/site/_pydecimal imports and explicit _decimal attempt concern installed-runtime/startup observations covered by proposed whole roots plus interpreter/framework and finite native/config prerequisites. No DET caller, accepted science source, empirical/native data or numerical science is accessed. Candidate9923-file review remains independent and is not duplicated here.",
+  "blocking_findings": [],
+  "complete_source_flow": [
+    "Fixed runtime imports then first profile.",
+    "Attempt _decimal; preserve genuine ImportError type/message, propagate other failures.",
+    "Compute both empty SHA256 outputs and available OpenSSL digest algorithm names before the module and final profile snapshots.",
+    "Enumerate current sys.modules file/cached/origin/loader-type descriptors; assemble exact profile, startup, uname, decimal identity and hash readouts; serialize JSON to stdout."
+  ],
+  "driver_review_boundary": "Concrete metadata driver/readout-checker source was not supplied. This verdict accepts the exact2696-byte probe against the root-stated prospective invocation/custody/readout requirements; it does not certify an unseen driver or future output.",
+  "limits_and_explicit_premises": [
+    "profile_before is after initial imports, not a startup execution trace.",
+    "Revised source moves both hash constructors/name retrieval ahead of modules/profile_after. Those snapshots still precede final JSON encoding and are not a complete dynamic Python/native-loader trace.",
+    "__file__/__cached__ descriptors do not prove that source/cache bytes supplied executing code; frozen code can reside in captured interpreter/framework. Source/cache header equality is not semantic equivalence.",
+    "The exact trusted installed supplier/cache-selection, site startup, stable-host Darwin kernel/loader/shared-cache and OpenSSL configuration/default-provider/no-external-activation premises remain explicit and cannot exempt third-party files.",
+    "The probe retries _decimal after decimal import. That observed failure plus class identity establishes the observed fallback state, not a universal conclusion from absence alone.",
+    "No subprocess or filesystem writes are present in the probe except stdout and interpreter behavior. -B suppresses ordinary bytecode writes, not all possible installed startup side effects.",
+    "scientific_targets_imported_or_executed=false is a scope declaration corroborated by fixed source and actual origin checks, not a sandbox guarantee.",
+    "No empirical validation, native forward map, scientific41-control qualification, production mode equality or programme completion follows."
+  ],
+  "read_candidate_metadata": [
+    {
+      "bytes": 8107,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/CANDIDATE_REVIEW.md",
+      "sha256": "7ed36a4f9666a4f521d512c061e9431ceb5f26930bcba4852716dae8cc2a636d"
+    },
+    {
+      "bytes": 1057,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+      "sha256": "622bc49403bfda7ce3cb090af44a9a698d8927dea73d733b9191f04869c6c158"
+    },
+    {
+      "bytes": 2926,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/CAPTURE_OBSERVATIONS.json",
+      "sha256": "3738cb6877511b22264669794734bc1988c1889aa9a6cd26e77352147e353e29"
+    }
+  ],
+  "recommendation": "Root may separately admit this exact bounded installed-runtime probe, retain and review genuine normal/optimized observations, then decide current runtime acceptance. Independent candidate closure review and later actual scientific production qualification remain separate.",
+  "required_readout_gates": [
+    "Exact separately admitted candidate interpreter name/link/target, frozen environment, -I -B normal and separately -I -B -O. Genuine outer completion, empty stderr, parseable complete report, no timeout/nonzero acceptance.",
+    "Root proposed driver30-second timeout is metadata-only and distinct from production180-second/524288KiB/gap limits; it yields no production resource-fit inference.",
+    "isolated=1, dont_write_bytecode=1, optimize0/1; profile_before==profile_after per mode, and profiles equal across modes except optimize. Corroborate executable/prefixes/roots/sys.path from actual interpreter binding and installed startup.",
+    "Every recorded file and existing cached path except separately pinned probe __main__ must resolve into exact candidate inventory. Preserve builtin/frozen/no-file origins separately. Missing cached paths are absent metadata, never a claim that their bytes loaded.",
+    "Require _decimal extension_loaded=false, genuine ImportError naming the missing libmpdec3 dependency under admitted host-loader premises, and decimal.Decimal is _pydecimal.Decimal together. Explicit import _pydecimal makes fallback_loaded alone insufficient.",
+    "Both empty SHA256 values must equal e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. Algorithm-name availability is observed usability, not provider identity or proof of provider/config completeness.",
+    "Bind complete exact candidate/source/loader/config/selection metadata before and after actual observations. Preserve failures and genuine completion. Optional namespace sidecar enforcement is a separate root prerequisite because runtime_support v2 checks files/bindings, not those directory-membership records.",
+    "Keep production active freeze/runtime acceptance/mode admissions absent until actual observations and independent review establish applicable prerequisites."
+  ],
+  "revision_history": "Initial provided hash41bb8df88a17bcf286b19aeb92b56415caa810e9e9d699a9c53a0c94fdb4a902 was superseded before admission after reviewer snapshot-position observation. A metadata pin assertion detected the deliberate source change, no target ran, and complete revised source was reread. Only the final pinned source is accepted.",
+  "schema": "ri121-independent-profile-probe-source-review-v1",
+  "source": {
+    "bytes": 2696,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/runtime_profile_probe.py",
+    "sha256": "1b9371c2226fe7e4c90e6ad02780843a94a9baef43d0acf0be8ae005128321f7"
+  },
+  "status": "PASS_EXACT_PROBE_SOURCE_FOR_SEPARATE_BOUNDED_METADATA_ADMISSION"
+}

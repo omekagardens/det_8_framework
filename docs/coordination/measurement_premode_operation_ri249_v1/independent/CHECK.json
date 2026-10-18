@@ -1,0 +1,67 @@
+{
+  "COMPLETE_fields": 14,
+  "D_directories": 2,
+  "D_files": 10,
+  "E_directories": 9,
+  "E_files": 49,
+  "authenticated_source_rows": 13,
+  "child_elapsed_seconds": 1.5863065840000001,
+  "complete_tails": 7,
+  "completion": {
+    "bytes": 176900,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/COMPLETE.json",
+    "sha256": "2e68d78fb921d64da8a064ac66a1da22ae6746eb1774d46f288a651d67ea73c2"
+  },
+  "dependency_rows": 567,
+  "distinct_fresh_identities": 2902,
+  "empty_streams": true,
+  "exact_O_files": 3,
+  "exact_card_fields": 12,
+  "exact_monitor_files": 4,
+  "final_reconstructed_reap_gap_seconds": 0.03509545900000011,
+  "genuine_origin_is_external_premise": true,
+  "genuine_tools": {
+    "bytes": 3806,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/GENUINE_OPERATION_TOOLS.json",
+    "sha256": "3f1d159344dc18dd669f4b2b91dc83b403314fdb55cbb207ea692426180f5965"
+  },
+  "global_atomic_snapshot_claim": false,
+  "immutable_preparation_inputs": 2854,
+  "inner_elapsed_before_complete_write": 0.939379084,
+  "max_reconstructed_sample_gap_seconds": 0.047173542,
+  "observations": {
+    "bytes": 1763510,
+    "path": "/private/tmp/ri249-independent-premode-review-bx4wv_fu/OBSERVATIONS.json",
+    "sha256": "57c366fdd99b7f80056b51973c3e3670109243022f1c01081e7d32b7aaea9bcf"
+  },
+  "observed_monitored_attempts": 42,
+  "observed_samples": 42,
+  "peak_sampled_rss_kib": 168784,
+  "postflight": {
+    "bytes": 1759691,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri249-root-premode-operation-hcybjv4k/POSTFLIGHT.json",
+    "sha256": "79d2662a53da46dcb68f83df25e01563726f4942838b30bc023711a3cb742acc"
+  },
+  "predicates": 432541,
+  "result": {
+    "bytes": 1085,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri244-premode-2kfsmiea/RESULT.json",
+    "sha256": "3979388c9ccfb95102c2e53b8eebc881f6b6899fb2adaefb03051b0b72718544"
+  },
+  "result_fields": 9,
+  "root_phase_input_counts": {
+    "DISPATCH": 2883,
+    "ISSUE": 2884,
+    "POSTFLIGHT": 2883,
+    "PREFLIGHT": 2881
+  },
+  "runtime_performance_or_scientific_qualification": false,
+  "schema": "ri249-independent-complete-premode-check-v1",
+  "scientific_E_body_decoded": false,
+  "status": "PASS_COMPLETE_PREMODE_METADATA_OUTCOME_ONLY",
+  "subject_replay": false,
+  "supplier_absences": 2,
+  "supplier_files": 1810,
+  "supplier_namespace_rows": 195,
+  "supplier_tools": 4
+}

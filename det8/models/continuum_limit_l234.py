@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — L2, L3, L4 Strengthened Analysis
+RETIRED / QUARANTINED — superseded L2–L4 continuum analysis.
+
+The historical calculations below do not establish metric or gravitational
+emergence and may be used only as synthetic fixtures.
 
 L2: Π → Ω convergence with error bounds and multiple κ profiles.
 L3: LGH metric distance computation for test spacetimes.
@@ -7,6 +10,10 @@ L4: Discrete action sketch for Einstein-Hilbert convergence.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

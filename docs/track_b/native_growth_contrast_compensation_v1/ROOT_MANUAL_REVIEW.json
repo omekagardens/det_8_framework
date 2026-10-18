@@ -1,0 +1,39 @@
+{
+  "author_handoff": {
+    "bytes": 6468,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+    "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e"
+  },
+  "final_adjudication": false,
+  "full_manuscripts_read": [
+    "COMPENSATION.md",
+    "SUPPORT.md",
+    "COEFFICIENT_OBLIGATIONS.md"
+  ],
+  "new_scientific_execution": false,
+  "positive_continuation_accepted": false,
+  "remaining": [
+    "Fresh complete nonauthor review must be read and adjudicated.",
+    "Actual T2/T3 compensation minors, intercept movement, strict positivity and simultaneous Di/other-connected feasibility unresolved.",
+    "K4/K5 held values and actual scales have not been evaluated; no new scientific run authorized."
+  ],
+  "ret_paused": true,
+  "review": [
+    "Manually checked all eleven cap ideal tables against each predecessor condition and all five core ideal sets; disjoint isolated vertex doubles each core domain. Counts135+86=221 and35+28=63 are consistent.",
+    "Manually checked all inherited J maximum deletions by deleting maxima of each listed four-cap;38 roles,16 full maxima,5 Y0 roles and4+3 new roles give66. The added children are distinct by connectivity and maximum counts; closure stays16.",
+    "Record counts280+104=384 follow nonmaximal-bit counts; raw16*128=2048. All221 ideal slots and supported63 retain separate occurrences.",
+    "General criterion is subtraction and re-addition of reference rows with one shared variable per child and strict open inequalities. Pivot eliminations divide only by accepted nonzero contrasts or positive full/empty probabilities; zero new-column contrast and zero compensator cases remain.",
+    "The RI115 formal polynomial identities, with nonzero Delta1p, force coefficientwise proportional Delta j and Delta nu and proportional P. Hence all three new T1 residual columns vanish under the common pivot parameterization, including zero coefficient cases. Reference, positivity and Di coupling do not vanish.",
+    "New k2 and k3 maximal-deletion products retain repeated factors and match the RI117 symbolic proper potentials. T2 and T3 reduced minor signs and rho powers are consistent with the accepted transported identities.",
+    "Each Di empty-birth diamond gives the displayed eCi factor and uses the same wj across parents. Eliminating its positive g_i0/eCi gives precisely the displayed strict upper bound on L_i0. Other connected profiles preserve constant cases.",
+    "Connected maximal-deletion factors reduce to C3,C4,C5,H5. With an isolated vertex retained, only C5+A1 and H5+A1 intermediate six-orders arise; their held reductions add exactly K4,K5 complete rows. Four8-slot plus eight10-slot rows supply112 slots, yielding52/336 total sufficient domain. No minimum-input theorem claimed.",
+    "Class-invariant positive h8 and accepted positive h7 give a normalized through-eight-birth transform by complete closure. Common terminal factors cancel in scalar-passive whole-map diamonds; this is not an all-size or physical result."
+  ],
+  "source_roles_verified": 28,
+  "status": "ROOT_MANUAL_PROOF_REVIEW_COMPLETE_PENDING_NONAUTHOR_REVIEW",
+  "tool_reads": [
+    "6b6e30",
+    "2d04d1",
+    "d673b8"
+  ]
+}

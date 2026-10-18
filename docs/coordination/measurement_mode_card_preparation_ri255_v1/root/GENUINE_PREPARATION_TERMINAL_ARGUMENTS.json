@@ -1,0 +1,13 @@
+{
+  "arguments": {
+    "chars": "",
+    "max_output_tokens": 2300,
+    "session_id": 49699,
+    "yield_time_ms": 1000
+  },
+  "origin": "Exact arguments from the genuine functions.exec tools.write_stdin invocation in this root turn; initial and terminal results remain in GENUINE_PREPARATION_TOOLS.json.",
+  "result_chunk_id": "8b2cd4",
+  "result_exit_code": 0,
+  "schema": "ri255-genuine-terminal-arguments-v1",
+  "tool": "write_stdin"
+}

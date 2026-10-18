@@ -1,0 +1,23 @@
+{
+  "constraints": "Source-only. Preserve immutable RI169, RI171, RI176, RI180 and all failed diagnostics, exact92 cases/34 recipes, original limits and all existing source repairs. No new engines, monitor, launcher or subject edits. Minimal changes to existing oracle and plan plus necessary directory literal/source/dependency correspondence. No target/vendor/helper import, compile, AST, probe, execution, scientific decode, fixtures, current-runtime cards, admission, repository/index/Git edits or new agents. Use only this exclusive reservation. Root retains all admissions and Git. RET remains paused.",
+  "delivery": "Seal a complete source packet and actual administrative checks with full unchanged dependencies and changed/unchanged correspondence. Report unexecuted status, exact namespace/pins, failed diagnostics and all prospective cases. Stop for nonauthor review; do not claim qualification.",
+  "nonauthor_review": {
+    "bytes": 4180,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri180-supervisor-independent-review-4xwmvctt/HANDOFF.json",
+    "sha256": "62270fcfc8fccd571d884ac13ca45ba0d2034b34e6cccb849659aee142c3a500"
+  },
+  "owner": "/root/ri116_complete_caller_review",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri182-compound-cleanup-oracle-repair-6835ytb8",
+  "root_adjudication": {
+    "bytes": 1267,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri179-root-upper-review-lf_39rs0/RI180_ROOT_ADJUDICATION.json",
+    "sha256": "08a709f36f6c19423d5ba34602666348807da5c480377032c82ef2ee395d38cc"
+  },
+  "schema": "ri182-source-repair-assignment-v1",
+  "subject": {
+    "bytes": 14679,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri176-supervisor-qualification-repair-3ausb2jo/HANDOFF.json",
+    "sha256": "572fe0bfc79489dc3b9c4a6df9bc4d7bbb0ff455de1c68eb2fbb00e6d870421e"
+  },
+  "task": "Repair only RI180 F04-R in the complete saved supervisor qualification checker and prospective mutation plan. Require exact caller secondary unregister and pipe-close errors after the primary in source-derived order; preserve observer checks. For all four compound cases, enforce failed-close then successful-retry lifecycle and no subsequent unregister/close attempt after success, including the healthy sibling, with correct process-role/stream/lifetime identity. Reject repeats even when the later attempt fails before another pipe_closed event. Retain full four-case coverage, extend prospective isolated missing/ordered secondary and repeat-attempt mutations, each tied to its own genuinely matched positive predecessor and named semantic predicate after explicit synthetic metadata rebinding. A generic earlier custody failure grants no semantic-oracle credit."
+}

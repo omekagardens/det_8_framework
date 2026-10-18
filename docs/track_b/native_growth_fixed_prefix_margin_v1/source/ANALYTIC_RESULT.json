@@ -1,0 +1,56 @@
+{
+  "schema": "ri153-fixed-prefix-weighted-analytic-result-v1",
+  "status": "AUTHOR_DERIVED_STRUCTURAL_IDENTITIES_AND_EXACT_BUDGET_THRESHOLD_PENDING_REVIEW",
+  "new_results": [
+    "Complete fixed five-terminal incidence proves actual Q4 J3 root-only, with equal-precursor loops retained.",
+    "Actual hook g atom variation is exactly the negative full-complement variation; square remainders obey an exact parallelogram relation.",
+    "Strict prefix normalization gives p_i<1/41, omega_i<11/1476 and k_i(x)>2561/1476.",
+    "Kernel ratio k1/k0 has monotonic direction of p0-p1; no actual direction is selected.",
+    "Three all-sign correlated singleton floors dominate the old bound, strictly if either sigma is nonzero.",
+    "For every m>=0, S(x)>=m throughout [0,Z] iff S(0)>=m and S(Z)>=m; negative m cannot use that shortcut.",
+    "Both RI147 envelope budgets iff C0>0,C1>0 and min q>=Qreq=A max(1/C0,(1-Yu2)/C1).",
+    "Positive capacities iff YE<1 and v>B max(1,(1-Yu3)/(1-YE)); remaining q condition has exact endpoint/interior-vertex prefix form."
+  ],
+  "proof_dependencies": "RI151 exact canonical formula plus unchanged fixed prefix and RI147 correlated weighted identities; no free coefficient model or selected alternate optimum.",
+  "actual_branch_or_root_order_decided": false,
+  "actual_adequate_q_v_joint_budget_proved": false,
+  "actual_W_C2_C3_signs_decided": false,
+  "actual_rho_in_delta0_proved": false,
+  "full_H30_decided": false,
+  "conditional_implication": "Passing the sufficient budgets proves W<=0 on an actual-containing domain and obstructs this fixed H30 candidate. Failure of a sufficient test does not determine W.",
+  "remaining": "Prove the actual fixed-prefix capacity signs and weighted endpoint/vertex threshold comparisons on the same correlated [0,Z], or directly prove the inherited cleared endpoint inequalities.",
+  "diagnostics": "A tentative source-table seed-order comparison was explicitly withdrawn, retained in author diagnostics, and excluded from all mathematical premises. No actual numerical values were computed or substituted.",
+  "preserved": {
+    "RET": "paused",
+    "measurement": "separate",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "numerical_Y": "1/4",
+    "focused_variants": 31,
+    "policy_cases": 139,
+    "deeper_native": 20,
+    "deeper_audit": 42,
+    "shared_T1_recovery": true,
+    "other_eight_connected_parents": true,
+    "all_five_Di": true,
+    "individual_ideal_multiplicities": true,
+    "strict_endpoints": true
+  },
+  "scope": {
+    "manual_source_proof": true,
+    "scientific_execution": false,
+    "scientific_body_decode": false,
+    "actual_numerical_values_computed_or_substituted": false,
+    "withdrawn_seed_comparison_disclosed": true,
+    "global_graph_enumeration": false,
+    "engine": false,
+    "source_helper_import_compile_AST_probe_run": false,
+    "repository_index_Git_write": false,
+    "predecessor_mutation": false,
+    "runtime_controller_card_admission": false,
+    "physical_claim": false
+  },
+  "stop": "Seal for fresh independent review and root adjudication. No successor assigned."
+}

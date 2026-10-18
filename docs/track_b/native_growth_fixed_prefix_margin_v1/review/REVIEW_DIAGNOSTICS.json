@@ -1,0 +1,106 @@
+{
+  "actual_administrative_check": {
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+    "exit_code": 0,
+    "output": [
+      "METADATA_CHECK.json116330sha2565c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b",
+      "171dependencies4855024bytes992historical72currentrefs10sourcefiles"
+    ],
+    "tool_chunk": "0ec99a"
+  },
+  "administrative_checker_author_and_readback": {
+    "exit_code": 0,
+    "scope": "New administrative-only script adapted as text; complete code displayed before execution",
+    "tool_chunk": "d5faaa"
+  },
+  "author_diagnostics_independent_theorem_or_sign_credit": false,
+  "author_diagnostics_source": {
+    "bytes": 13645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+    "sha256": "be78e062ec642b63ef05eb76e2d894127a2182eb1f1881bb8852be57bd285abd"
+  },
+  "author_diagnostics_verbatim": [
+    {
+      "description": "Native peer initially proposed an actual FS1>FS0 sign by comparing literal numerical seed declarations. Main excluded it under the source-only boundary. PREFIX_STRUCTURE section5 expressly discloses it and retains only symbolic difference identities with conditional sign consequences. No actual numerical operand was computed or substituted, and no result or branch relies on that comparison. A blanket claim of no numerical comparison is not made.",
+      "kind": "WITHDRAWN_AUTHOR_INFERENCE_NOT_A_PREMISE"
+    },
+    {
+      "description": "An early peer message called the J3 connecting pair root/full. Both peer and main corrected it to the C3 masks1/3 before manuscript completion. Mask1/7 belongs to J7=41p. The sealed proof uses the correct pair.",
+      "kind": "MANUAL_MESSAGE_LABEL_CORRECTION"
+    },
+    {
+      "description": "Algebra peer noted that actually passing the W envelope would obstruct this fixed H30 candidate. Main removed ambiguous language suggesting no H30 consequence and retained that the present proof establishes no actual pass.",
+      "kind": "PRESEAL_SCOPE_REPAIR"
+    },
+    {
+      "description": "Prefix/main scope text now distinguishes no numerical values computed/substituted from the disclosed withdrawn seed comparison. Prefix added its manual five-vertex three-corner non-Ferrers justification. These were preseal edits, not changes to a sealed packet.",
+      "kind": "PRESEAL_EDITORIAL_SCOPE"
+    }
+  ],
+  "author_metadata_command_reenacted": false,
+  "complete_read_receipts": [
+    {
+      "exit_code": 0,
+      "scope": "Complete line-numbered FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "tool_chunk": "66ae92"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete line-numbered WEIGHTED_PREFIX_COMPARISON.md",
+      "tool_chunk": "ac95d0"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete line-numbered PREFIX_STRUCTURE.md",
+      "tool_chunk": "57468c"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete dependency note, analytic result, prose handoff",
+      "tool_chunk": "e91ecf"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete author checks including exact diagnostics and administrative command text",
+      "tool_chunk": "0dea36"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete predecessor root adjudication/manual review/current selecting assignment",
+      "tool_chunk": "49cca3"
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI147 ACTUAL_SCALE_BOUND195-340 and RI145 WEIGHTED_MARGIN_PROOF1-180",
+      "tool_chunk": "7adbb5"
+    },
+    {
+      "exit_code": 0,
+      "scope": "Complete SOURCE_IDENTITIES.json",
+      "tool_chunks": [
+        "8cafc2",
+        "e6ad42"
+      ]
+    },
+    {
+      "exit_code": 0,
+      "scope": "RI63check138-168/250-398; RI147ACTUAL_SCALE_BOUND1-194; COMPONENT_CONTRASTS156-210",
+      "tool_chunk": "c4053e"
+    }
+  ],
+  "narrative_creation": {
+    "exit_code": 0,
+    "tool_chunk": "1da7b1"
+  },
+  "original_diagnostics_and_sources_changed": false,
+  "reservation_and_handoff_read": {
+    "exit_code": 0,
+    "tool_chunk": "2b5656"
+  },
+  "reviewer_failed_administrative_commands": [],
+  "reviewer_truncated_read_outputs": [],
+  "schema": "ri153-independent-review-diagnostics-v1",
+  "scope": "Administrative helper load only after exact pin; no subject/helper science load, numerical instantiation, engine, runtime/cards, Git/index or repository mutation.",
+  "status": "ALL_REVIEWER_ADMINISTRATIVE_CHECKS_SUCCESSFUL",
+  "subject_commands_executed": []
+}

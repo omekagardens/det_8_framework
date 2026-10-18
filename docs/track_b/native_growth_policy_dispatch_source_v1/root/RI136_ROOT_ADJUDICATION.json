@@ -1,0 +1,41 @@
+{
+  "checker": {
+    "bytes": 5494,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/check_review.py",
+    "sha256": "9a8213bb2a5abe2d04a5005bc55cced14525fd5a774720e363ace732947e5ed7"
+  },
+  "complete_caller_qualification": false,
+  "controls_executed": 0,
+  "current_runtime_observed": false,
+  "execution_admitted": false,
+  "independent_handoff": {
+    "bytes": 3086,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-dispatch-independent-review-s5t7rk5z/HANDOFF.json",
+    "sha256": "e64a15ac7f69e027e09d3e7f7fa99dfcfd21fe58fbe242ebf82a398e33b9f244"
+  },
+  "ret_paused": true,
+  "root_reconciliation": {
+    "bytes": 252340,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/ROOT_REVIEW_RECONCILIATION.json",
+    "sha256": "d5cdb3978aea53001d6bea4ca4d69622083f65bf1c14ecf91d4618e46124c231"
+  },
+  "root_review": {
+    "bytes": 4969,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/ROOT_SOURCE_REVIEW.md",
+    "sha256": "810c987781cc3ddd9c236a8d930bf1c39f9e3ab17be3b7ee2f0d3941365263bc"
+  },
+  "schema": "ri136-root-source-adjudication-v1",
+  "scientific_result_claimed": false,
+  "source_accepted": true,
+  "source_handoff": {
+    "bytes": 11534,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-native-policy-dispatch-source-g_z472z7/HANDOFF.json",
+    "sha256": "748b0e5e7b309705d5a6daf0aaaf6b89dce071f95af4fe3f4b9cb572a6f9ae18"
+  },
+  "status": "ACCEPT_EXACT_UNEXECUTED_DISPATCHER_SELECT_EXTERNAL_IMPLEMENTATION",
+  "successor": {
+    "bytes": 741,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri136-root-dispatch-adjudication-ytfuubsm/SUCCESSOR_RESERVATIONS.json",
+    "sha256": "a15b9199e9bbabd3afaa9bc48f8ac2ef85f653b7cd162fb0b80628fe4e887e14"
+  }
+}

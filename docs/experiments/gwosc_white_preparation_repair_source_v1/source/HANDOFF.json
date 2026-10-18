@@ -1,0 +1,127 @@
+{
+  "active_admission_or_freeze_created": false,
+  "actual_data_admitted": false,
+  "artifact_count": 11,
+  "artifacts": [
+    {
+      "bytes": 3503,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/AUTHORING_RECORD.md",
+      "relative": "AUTHORING_RECORD.md",
+      "sha256": "97eb5691668098023211c646c1cb5fa415c9d06a6425e794b5a5d3bb6e2653d6"
+    },
+    {
+      "bytes": 76036,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/DEPENDENCIES.source-only.json",
+      "relative": "DEPENDENCIES.source-only.json",
+      "sha256": "46edb06d8623859b241a3ccb849e3bf5aaa59143d0d2270e7c9b0fc5954a3a6a"
+    },
+    {
+      "bytes": 1676,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/HANDOFF.md",
+      "relative": "HANDOFF.md",
+      "sha256": "c3a09127ec3fc9385684434a3ff824e9a76e1b13d43e78e1e5eb8df0f64e7602"
+    },
+    {
+      "bytes": 20369,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/PROTOCOL.md",
+      "relative": "PROTOCOL.md",
+      "sha256": "3774b455e45c607b0ebdbed07e4eace52252145180af45d78079dada73c87654"
+    },
+    {
+      "bytes": 4831,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/REPAIR.diff",
+      "relative": "REPAIR.diff",
+      "sha256": "71e077b4302cb77d4d7d2a2ea3361ef4315f2ad418a4f3e377d51f9cf58c54a6"
+    },
+    {
+      "bytes": 6615,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/REPAIR_CONTRACT.md",
+      "relative": "REPAIR_CONTRACT.md",
+      "sha256": "7a45fccbf2713321c833908f68b9041daea3a4f95b211f1d1e10dbfdfed0dbda"
+    },
+    {
+      "bytes": 2978,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/SOURCE_CORRESPONDENCE.json",
+      "relative": "SOURCE_CORRESPONDENCE.json",
+      "sha256": "3bb12c42fd569d31c44711aed3aa86992419723fe78f387585a4034069cb29a9"
+    },
+    {
+      "bytes": 76854,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/SOURCE_METADATA_CHECK.json",
+      "relative": "SOURCE_METADATA_CHECK.json",
+      "sha256": "dc3e9e0cc20c0c9f2715d793aaa529d9791d3a478f7116f326af97f4fdceaa37"
+    },
+    {
+      "bytes": 19967,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/fault_controls.source-only.py",
+      "relative": "fault_controls.source-only.py",
+      "sha256": "0916148db9fbd43e8001afdc54a7fc02280f157c01a245b46e579f4f94cc6180"
+    },
+    {
+      "bytes": 44082,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+      "relative": "prepare.py",
+      "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+    },
+    {
+      "bytes": 18607,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/runtime_metadata.py",
+      "relative": "runtime_metadata.py",
+      "sha256": "e0309b6961ab13672c669c6a49fb3c19208497802ba725d3c86db4c94c1da9e8"
+    }
+  ],
+  "authorship": "RI133/RI130 and separate RI125 validator author; no independent self-adjudication.",
+  "bounds_and_stage_order_unchanged": true,
+  "changed_existing_functions": [
+    "prepare.run",
+    "runtime_metadata.snapshot"
+  ],
+  "focused_control_declarations": {
+    "F01": 14,
+    "F02": 11,
+    "total": 25
+  },
+  "focused_controls_executed": 0,
+  "full32_qualified": false,
+  "new_function": "runtime_metadata.require_historical_interpreter",
+  "next_action": "Fresh nonauthor change review; root alone adjudicates source and actual admission.",
+  "opaque_dependencies": 253,
+  "opaque_dependency_bytes": 16220282,
+  "parent_pid_remains_runtime_review_premise_not_third_threshold": true,
+  "pending": [
+    "Fresh nonauthor full changed-source/control review.",
+    "Root source adjudication before any use.",
+    "Separately admitted genuinely bounded focused control execution and complete saved/outer review.",
+    "Actual current baseline, accepted normal before optimized profile, then separately admitted65 caller guards.",
+    "Unchanged bootstrap/supplier/cache/Apple-loader/stable-host and sampled resource/ownership premises.",
+    "RI131 and scientific WHITE/full32/actual data remain separate."
+  ],
+  "physical_claim": false,
+  "repairs": [
+    "F01 safe preownership state/reference and protected initial owned operations",
+    "F02 authentic historical full interpreter binding and provenance before snapshot acceptance"
+  ],
+  "repo_or_git_operation": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize",
+  "ret_paused": true,
+  "root_predecessor": {
+    "bytes": 2078,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-root-repair-adjudication-ga2aepq7/RI133_ROOT_ADJUDICATION.json",
+    "sha256": "3709ec70b6a6db31f5cbc9d11a0787dbf9ae43c64d4bbc7112a38e0f6339ab36"
+  },
+  "runtime_currently_inventoried": false,
+  "schema": "ri135-preparation-f01-f02-source-handoff-v1",
+  "scientific_body_decode": false,
+  "scientific_execution": false,
+  "sealed_source_predecessor": {
+    "bytes": 5719,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/HANDOFF.json",
+    "sha256": "480188c24c2b4a0062e7a1b882d8a11eb1f7786c987224d23d22ece22927be59"
+  },
+  "source_lines": 1365,
+  "source_or_helper_import_compile_ast_probe_run": false,
+  "source_syntax_validated": false,
+  "status": "UNEXECUTED_REPAIR_AWAITING_NONAUTHOR_REVIEW",
+  "unchanged_caller_controls": 65,
+  "unchanged_existing_functions": 42
+}

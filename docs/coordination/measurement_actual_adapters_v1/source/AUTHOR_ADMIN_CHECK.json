@@ -1,0 +1,39 @@
+{
+  "E_mutated": false,
+  "active_admission_created": false,
+  "checks": 4915,
+  "consumer_read_pins_covered": 42,
+  "distinct_pinned_inputs_checked": 715,
+  "fresh_operational_vendor_host_observation": false,
+  "generated_sources_imported_compiled_or_run": false,
+  "older_role_rows": 810,
+  "prior_source_rows": 659,
+  "prior_supplement_rows": 9,
+  "request": {
+    "bytes": 3021,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+  },
+  "schema": "ri204-author-administrative-check-v1",
+  "scientific_body_decoding": false,
+  "seeds": 33,
+  "source_pins": [
+    {
+      "bytes": 14855,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/prepare_adapters.py",
+      "sha256": "834697b0685366cbd3f46bd077c4d92d2ab3bf407ce3412c350a8d6583f3506e"
+    },
+    {
+      "bytes": 3409,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/predispatch.py",
+      "sha256": "2d0d99f079ce0fabc3fa542e025c55d0d51f1a882aa1f45e5b3127bd3898bfdc"
+    },
+    {
+      "bytes": 16287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/worker_proposal/check_adapters.py",
+      "sha256": "5f37887202e59ae4f0c7cf61785b52f992fef168bdcdba3db90e78fed7f8559c"
+    }
+  ],
+  "status": "PASS_SOURCE_PIN_AND_LITERAL_CHECKS_ONLY",
+  "subject_execution": false
+}

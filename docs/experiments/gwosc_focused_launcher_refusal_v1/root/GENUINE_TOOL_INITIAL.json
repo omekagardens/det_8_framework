@@ -1,0 +1,16 @@
+{
+  "invocation": {
+    "cmd": "exec /usr/bin/env -i PATH=/usr/bin:/bin LC_ALL=C TZ=UTC TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/environment/tmp OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 960; exec @ARGV; die $!;' /usr/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py --admission /Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9/cards/launcher.json",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri137-focused25-run-musr4qw9",
+    "login": false,
+    "yield_time_ms": 1000,
+    "max_output_tokens": 3000
+  },
+  "result": {
+    "chunk_id": "feff2a",
+    "wall_time_seconds": 0.076777833,
+    "exit_code": 1,
+    "original_token_count": 294,
+    "output": "Traceback (most recent call last):\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py\", line 373, in <module>\n    raise SystemExit(run(parser.parse_args().admission))\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py\", line 309, in run\n    card, admission_pin, deps, own_pins, card_pins, sources, captured_module, P = prepare_launch(path)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py\", line 289, in prepare_launch\n    same(dict(os.environ), env, 'actual complete environment')\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py\", line 50, in same\n    need(canonical(a) == canonical(b), message)\n  File \"/Volumes/AI_DATA/development/det-review-evidence/ri137-focused-control-launcher-source-nykv2tsg/launch_controls.source-only.py\", line 42, in need\n    if not ok: raise ValueError(message)\nValueError: actual complete environment\n"
+  }
+}

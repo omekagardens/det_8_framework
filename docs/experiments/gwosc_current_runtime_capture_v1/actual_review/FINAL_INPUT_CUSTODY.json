@@ -1,0 +1,76 @@
+{
+  "all471_source_full_states_unchanged": true,
+  "all_successful_checker_input_pins_unchanged": 500,
+  "complete_input_pin_list": {
+    "contained_in": {
+      "bytes": 19006185,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-independent-capture-review-i7o8n5j_/SAVED_CAPTURE_CHECKS.json",
+      "sha256": "d851832efa34d5c02a167cc211abf977ac799e2df2eea66f33fd1eea58afde36"
+    },
+    "field": "read_inputs"
+  },
+  "current_runtime_files_observed_by_reviewer": 0,
+  "current_vendor_files_observed_by_reviewer": 0,
+  "genuine_tool_arguments": {
+    "bytes": 1493,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_TOOL_ARGUMENTS.json",
+    "sha256": "f321ae705d15a8fe38716fc416f0f725b86aa939f537a555e9870573c9d92ff5"
+  },
+  "genuine_wrapper": {
+    "bytes": 1448,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_OUTER.json",
+    "sha256": "1f846701e52bfb22b2f0b1891d56780737867a99e447c2f8274729790a5df0b1"
+  },
+  "operation_record": {
+    "bytes": 10043,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/OPERATION_FINAL_IDENTITIES.json",
+    "sha256": "c1a58e529353f3c64df264a9212783b4fc71b2c49132d9c3aa7b6f5941c67d62"
+  },
+  "raw_genuine_result": {
+    "bytes": 1047,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "81071284db9ccad7232b23f384da6cae4a01b4b8659d0c5c2433d6102c503b44"
+  },
+  "root_administrative_diagnostics": {
+    "bytes": 1781,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_CHECK_DIAGNOSTICS.json",
+    "sha256": "ff7eb9cbd741c128d011cb913706e7554eb239065e67495c78d508373878df9a"
+  },
+  "root_independent_runtime_post_record": {
+    "bytes": 6362349,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RUNTIME_POST_IDENTITIES.json",
+    "sha256": "ee1b6d14132cb64c563229cd3cb7456dd69083f9e8c7cea1e2c67c918c6a386f"
+  },
+  "schema": "ri146-independent-final-input-custody-v1",
+  "source_record": {
+    "bytes": 277180,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/SOURCE_PRE.json",
+    "sha256": "a22eb8d4dd4a48db35e6f7cfab557f17c7ea11a3e602251bfa6b7a72c4adfd79"
+  },
+  "status": "PASS",
+  "whole16_operation_entries_and13file_full_states_unchanged": true,
+  "whole_actual_snapshots": [
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/PRE.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    },
+    {
+      "bytes": 7142026,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/output/POST.stdout",
+      "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+    }
+  ],
+  "whole_vendor_observations": [
+    {
+      "bytes": 1690931,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_PRE.json",
+      "sha256": "f4ad1b1364d073430cad97d245cc230442b8df11cba9c3b21c3582d5842e21fb"
+    },
+    {
+      "bytes": 1690931,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BOOTSTRAP_POST.json",
+      "sha256": "f4ad1b1364d073430cad97d245cc230442b8df11cba9c3b21c3582d5842e21fb"
+    }
+  ]
+}

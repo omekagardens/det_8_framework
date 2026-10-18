@@ -1,0 +1,48 @@
+{
+  "RET_paused": true,
+  "independent_review": {
+    "bytes": 6016,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/HANDOFF.json",
+    "sha256": "bc4cdd39e00c17360b38f5eda3176d98dc7574cd587c215fea9cf5903c1f4db4"
+  },
+  "inherited_assignment": {
+    "bytes": 19482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri230-root-lower-combinations-review-v9mxbmtc/RI231_NATIVE_ASSIGNMENT.json",
+    "sha256": "64ed152b60b17da079288ca4c8e95c53ec228ba1e1748fdd202a67c469210157"
+  },
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "predecessor": {
+    "bytes": 1831,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri232-root-canonical-review-6datre21/RI231_ROOT_ADJUDICATION.json",
+    "sha256": "e16ae7820169610b046fb40bf44e08fbfe35704d8d06a266dc8d7bd005027594"
+  },
+  "predecessor_packet": {
+    "bytes": 21131,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json",
+    "sha256": "baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033"
+  },
+  "prohibitions": [
+    "No automatic scientific parsing,arithmetic,Fraction/calculator,graph/LP/numerical engine,H/z reconstruction,full coefficient vector or numerical amplitude.",
+    "No subject import,compile,AST,probe,run,fixtures,runtime,freeze,mode,protected-file mutation,measurement,RET,repository/Git/index operations.",
+    "No successor self-assignment or scope expansion. Return a sealed bounded packet for root adjudication; root immediately chooses the next justified question after review."
+  ],
+  "qualification_credit": 0,
+  "question": "Can exact same-root relative-row elimination resolve the full normalized witness obligation without determining the two canonical allocations?",
+  "requirements": [
+    "Prove for all five actual W5 profiles that explicit kappa terms are record-constant offsets at fixed root bit, preserving all held rows and every labelled occurrence.",
+    "Derive division-free pairwise contrast-minor necessary equations from W6. Retain zero-contrast branches and actual reference positivity; do not treat minors as sufficient without proof.",
+    "Derive at least one substantive actual held-row contrast consequence using the admitted analytical sources; a generic rewritten determinant alone is not the intended result.",
+    "Seek a complete normalized u2=-1 witness or finite signed inconsistency identity. Restore all connected,within-sector,reference and cross-sector rows,all ten unknowns and exact full-slot recovery. If not resolved, prove the strongest justified elimination/compatibility lemma and name the smallest remaining exact premise.",
+    "Distinguish a result for the actual fixed canonical law from a relaxation over the allowed kappa range. A relaxed-range counterexample or bounds alone do not decide the actual law or rank.",
+    "Keep original rejection,positive family,strict endpoints,rho/s/theta,all canonical corrections,history multiplicities and every protected/executable obligation unchanged."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri233-native-same-root-contrast-sa2lhrgp",
+  "schema": "ri233-native-same-root-contrast-assignment-v1",
+  "source_authority": "Inherit only exact previously admitted analytic sources and accepted finite premises named by predecessor SOURCE_REFERENCES; add the accepted RI231 proofs and separate review texts. Use the six accepted values as inherited facts without reopening the scientific body. No new coordinate/body or executable authority.",
+  "source_references": {
+    "bytes": 65520,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/SOURCE_REFERENCES.json",
+    "sha256": "43e9fc923eca8da42424df62faa66f6abdcace71b1d1da5478bef539ec8b6572"
+  },
+  "status": "ASSIGNED_AFTER_RI231_ADJUDICATION"
+}

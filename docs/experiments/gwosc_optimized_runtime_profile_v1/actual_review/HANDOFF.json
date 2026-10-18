@@ -1,0 +1,145 @@
+{
+  "active_cards_created": false,
+  "actual_success": {
+    "chunk_id": "5d796f",
+    "exit_code": 0
+  },
+  "current_runtime_recapture": false,
+  "exact_namespace": [
+    "ACTUAL_REVIEWER_COMMANDS.json",
+    "ADAPTATION_FAILURE_01.json",
+    "BOTH_MODE_RELATION.json",
+    "FINAL_INPUT_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_OPTIMIZED_REVIEW.md",
+    "PUBLICATION_SUBSET.json",
+    "READ_COVERAGE.json",
+    "RECONSTRUCTED_PROFILE_CHECK.json",
+    "REVIEWER_ADAPTATION.diff",
+    "REVIEWER_REUSE.json",
+    "SAVED_CHECK_SUMMARY.json",
+    "SAVED_OPTIMIZED_CHECKS.json",
+    "VERDICT.json",
+    "adapt_review.before-count-boundary-fix.py",
+    "adapt_review.py",
+    "review_saved_optimized.py",
+    "seal_review.py"
+  ],
+  "failed_review_checks": 0,
+  "files": [
+    {
+      "bytes": 3173,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ACTUAL_REVIEWER_COMMANDS.json",
+      "sha256": "e796bea81108f2bea580b4d23ea598840dcfb45697f6d8ef3b6424b9b8aab29d"
+    },
+    {
+      "bytes": 630,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ADAPTATION_FAILURE_01.json",
+      "sha256": "1ee9c4c3194ba044a1d67b73014996ff186bc9f5881fcaabebaffb3631ca2524"
+    },
+    {
+      "bytes": 85969,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/BOTH_MODE_RELATION.json",
+      "sha256": "0f7fc92fbf883a3820f4456102db86b9bfb46e6cad0419a3969b05c1fc838b4b"
+    },
+    {
+      "bytes": 2317,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/FINAL_INPUT_CUSTODY.json",
+      "sha256": "bea9a69128c906dbf9bcb174b22693e556cdf7746cf1b9434afa96a24d602e61"
+    },
+    {
+      "bytes": 21514,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/INDEPENDENT_OPTIMIZED_REVIEW.md",
+      "sha256": "6d50374bb80842867fa28b78f699e6e8910d8e6ec5d3fb4b0115a92563ecf333"
+    },
+    {
+      "bytes": 7736,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/PUBLICATION_SUBSET.json",
+      "sha256": "4006d4e9b40a06a9694f59913dd501dd0536134e3d43e8f7fac1ade48d32171b"
+    },
+    {
+      "bytes": 1941,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/READ_COVERAGE.json",
+      "sha256": "0a62abc123c00a944d64af63b9a977226df1202645e63d0f948697d6bc52dda5"
+    },
+    {
+      "bytes": 77699,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/RECONSTRUCTED_PROFILE_CHECK.json",
+      "sha256": "4752c15d10fbe2967e3042f63765db47ac138331cc578935b3616bebca9f1625"
+    },
+    {
+      "bytes": 35430,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/REVIEWER_ADAPTATION.diff",
+      "sha256": "167431c14fb8f53591341f406456fcb7bd36b623cdda4312d89cb6260e41398a"
+    },
+    {
+      "bytes": 570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/REVIEWER_REUSE.json",
+      "sha256": "4b8f498fb947ee4d2146139b7e24a8886d78847375f71d37b17cab6cbfd6bba9"
+    },
+    {
+      "bytes": 6523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_CHECK_SUMMARY.json",
+      "sha256": "653b8ddd74cf54f95ff938318732366c11d671b1aaaafd450a1734cdb29df847"
+    },
+    {
+      "bytes": 10439610,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/SAVED_OPTIMIZED_CHECKS.json",
+      "sha256": "2459e473732f7c14e6cad62ec02d2977773e895753b644711377f3a431e02b68"
+    },
+    {
+      "bytes": 5794,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/VERDICT.json",
+      "sha256": "41473416e93fe8797a6de423fbe504719fd09286ce9475fbcde70a8ca03b136a"
+    },
+    {
+      "bytes": 14362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.before-count-boundary-fix.py",
+      "sha256": "f0282a55ab60729dc69381299c3f2227881dad79aa7fe1057949cb8901b051a8"
+    },
+    {
+      "bytes": 14410,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/adapt_review.py",
+      "sha256": "5b3317513b07a24cf8b7e13fa3407e166f5345d59abd0a72f3caddf828a3e17d"
+    },
+    {
+      "bytes": 42899,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/review_saved_optimized.py",
+      "sha256": "0762607c2e62664303a3a57cfcbf35725c0496d853e28991aa987fc3935aeccf"
+    },
+    {
+      "bytes": 10499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/seal_review.py",
+      "sha256": "9cbeadf9679dc0eceea20e3f43c3339299b9b4d1ad3fb7317ab3f075ce23ed63"
+    }
+  ],
+  "findings": {
+    "bytes": 21514,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/INDEPENDENT_OPTIMIZED_REVIEW.md",
+    "sha256": "6d50374bb80842867fa28b78f699e6e8910d8e6ec5d3fb4b0115a92563ecf333"
+  },
+  "preserved_adaptation_failure": {
+    "bytes": 630,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/ADAPTATION_FAILURE_01.json",
+    "sha256": "1ee9c4c3194ba044a1d67b73014996ff186bc9f5881fcaabebaffb3631ca2524"
+  },
+  "publication_subset": {
+    "bytes": 7736,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/PUBLICATION_SUBSET.json",
+    "sha256": "4006d4e9b40a06a9694f59913dd501dd0536134e3d43e8f7fac1ade48d32171b"
+  },
+  "repository_git_index_mutations": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret",
+  "ret_paused": true,
+  "root_adjudication_required": true,
+  "schema": "ri150-independent-actual-optimized-and-both-mode-review-handoff-v1",
+  "scientific_payload_decode": false,
+  "self_hash_excluded": true,
+  "status": "ACCEPT_BOUNDED_OPTIMIZED_AND_BOTH_MODE_PROFILE_EVIDENCE",
+  "subject_or_collector_replay": false,
+  "verdict": {
+    "bytes": 5794,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-independent-optimized-review-zlcd4ret/VERDICT.json",
+    "sha256": "41473416e93fe8797a6de423fbe504719fd09286ce9475fbcde70a8ca03b136a"
+  }
+}

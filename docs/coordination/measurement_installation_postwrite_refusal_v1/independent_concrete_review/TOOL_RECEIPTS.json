@@ -1,0 +1,65 @@
+{
+  "actual_result": {
+    "chunk_id": "bde845",
+    "exit_code": 0,
+    "output": "{\"result\": {\"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/CHECK_RESULT.json\", \"bytes\": 1679409, \"sha256\": \"70d9f41980a44dd76f0a7345dce90de0dfb96a59bf5dfce8ef0e951dd89b1182\"}, \"predicates\": 58415, \"distinct_identities\": 2751, \"status\": \"PASS_CONCRETE_PREPARATION_READY_FOR_ROOT_FRESH_PREDISPATCH_AND_SEPARATE_ADMISSION\"}\n",
+    "wall_time_seconds": 0.325912416
+  },
+  "checker": {
+    "bytes": 21823,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/check_preparation.py",
+    "sha256": "761ef810927db721ce432fc5499b337112a7a4c209793b5e0899ad748b50ce84"
+  },
+  "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri224-independent-concrete-review-fof5xp1w/check_preparation.py",
+  "failed_checker_runs": [],
+  "preexecution_diagnostic": "Unsealed own checker count adaptation altered opaque hash chunk-size1048576 to1049046; restored before execution. No target or saved artifact affected.",
+  "receipts": [
+    {
+      "chunk_id": "c0a387",
+      "exit_code": 0,
+      "scope": "Authenticated root/source acceptance, actual receipt, full proposal/custody; exact current namespace; created exclusive reservation.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "31805e",
+      "exit_code": 0,
+      "scope": "Literal/codepoint outer Perl argument equals checker and predecessor; no Perl execution.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "2f16e2",
+      "exit_code": 0,
+      "scope": "Full preparation source, exact source decision/preflight and both full host records read.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "703b39",
+      "exit_code": 0,
+      "scope": "Complete source-review handoff, generated bootstrap and earlier independent checker source read.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "15d301",
+      "exit_code": 0,
+      "scope": "Complete separate preparation-source review and actual read receipts.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "8a58a9",
+      "exit_code": 0,
+      "scope": "Created/read complete own administrative checker only; not executed yet.",
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "bde845",
+      "exit_code": 0,
+      "scope": "Restored hash chunk-size literal before sole administrative checker run;58,415 predicates/2,751 identities passed.",
+      "tool": "exec_command"
+    }
+  ],
+  "repo_git_work": false,
+  "saved_tool_origin_external": true,
+  "schema": "ri224-independent-concrete-review-receipts-v1",
+  "scientific_decode": false,
+  "subject_execution": false
+}

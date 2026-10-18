@@ -1,0 +1,93 @@
+> Public redacted derivative. The prose below records historical research and review; local paths, private file fingerprints and execution identifiers have been obscured. Raw custody, host/runtime logs and administrative scripts are withheld. Claims about exact copies, complete transcripts, byte identities, manifests or execution permissions describe the private original archive, not this derivative. Only the new PUBLICATION_MANIFEST.json hashes verify the redacted payloads. This copy grants no execution authority and cannot replay original custody checks.
+
+# RI256 independent signed-redistribution review
+
+Recommendation: accept the exact packet as a conditional analytic result for the stated finite signed directions and necessary original-dual cap relations. I found no blocking algebraic, domain, incidence, source-custody or claim-scope error. This recommendation does not evaluate actual support, residual maxima, a dual vector, the canonical kappa gap or C_b. Root adjudication remains separate.
+
+## Independence, authority and read scope
+
+I am a nonauthor of RI256 and its RI248/RI252 analytic predecessors. Earlier RI182 cleanup-oracle and measurement adapter/preparation authorship are outside this target. I authored the independent RI254 review, now accepted by root; that is declared predecessor review evidence, not an independent author proof of RI256. The new signed and dual arguments are reviewed manually here.
+
+The review reservation is `OBSCURED-PATH-02540`. The subject is `OBSCURED-PATH-02541`. Its HANDOFF.json is 22,772 bytes, SHA256 `OBSCURED-ID-02549`.
+
+Before the proof review I read the complete RI256 assignment and selecting root decision, plus the current blocks of REVIEW_IMPLEMENTATION_PLAN, REVIEW_PROGRESS and QR_HANDOFF (OBSCURED-ID-02550 and OBSCURED-ID-02551, exit 0). These state the accepted RI254 criterion, separate active RI256 lane, unresolved canonical/physical claims and root ownership of execution/publication. Reading those explicitly requested coordination blocks did not open any measurement operand or operation.
+
+I read all 206 lines of SIGNED_REDISTRIBUTION.md in OBSCURED-ID-02552 and all 260 lines of DUAL_COMPATIBILITY.md in OBSCURED-ID-02553, then the full HANDOFF.md and current administrative scope/diagnostics in OBSCURED-ID-02554. All displays were complete. The exact proof pins are 8,598 bytes / `OBSCURED-ID-02555` and 11,025 bytes / `OBSCURED-ID-02556` respectively.
+
+The accepted RI254 covering prices, RI248 complete terminal/component incidence and full original objective/dual setup, and RI252 actual history masses are inherited analytic premises. I previously read and reviewed their complete nearest proof texts, with their whole current identities freshly checked here. I do not relabel all 149 dependency files as freshly reread proofs; they are independently authenticated opaque analytic/administrative support. No original scientific certificate, vector, body or checker was opened or hashed. No scientific JSON, numerical or symbolic engine, graph enumeration, LP, mathematical source execution or coefficient reconstruction was used. No subject/measurement/RET execution or access, repository/Git mutation, successor assignment or publication occurred.
+
+## 1. The paired signed direction and its exact finite criterion
+
+SIGNED_REDISTRIBUTION lines 17–97 retain a fixed original block and all marked Q/P_nu rows. The residual B_Q contains every other original proper contribution; B_nu also retains the original p_i*nu_(i,j) term. The accepted incidence distinguishes eta from each xi and from other original families; compensator changes cannot secretly cancel or increase a hidden occurrence in a differently named coordinate.
+
+For eta increase u>0 and each xi decrease -(h/n)u, each companion slope is h+n*(-h/n)=0. Every one of the eight carrying Q records gains v*u. Every carrying P_nu row loses (v*h/n)*u. All other original rows remain unchanged. The sign of the Q change is restrictive and cannot be ignored; the P_nu change is relaxing. The two decreasing xi coordinates must both be positive, while eta may initially be zero.
+
+Necessity of the stated criterion follows because a zero decreasing xi or any tight Q row fails for every positive u. Conversely, the finite minimum of n*xi_0/h, n*xi_1/h and every full marked Q slack divided by v is strictly positive exactly when the criterion holds. Both h and n and v are fixed positive lower probabilities. All Q records occur in the minimum; no maximum-residual row is guessed or a possibly restrictive record averaged away. Equality may zero xi or tighten Q in the original closed feasible set, while strict restoration remains distinct. No originally slack positive-slope constraint is omitted.
+
+The exact complete primary coefficient for increasing eta is -v*h/32, and each decreasing xi costs (v*n/80)*(h/n). Therefore the finite change is -v*h*u/32+2*v*h*u/80=-v*h*u/160<0. These are the full accepted prices including Q/P_nu objective terms, not companion-only prices. Strict primary descent suffices; the old only-tau-increases lex shortcut is neither applicable nor used. At any primary optimum, two positive xi therefore force at least one tight Q row, not every Q row.
+
+## 2. Selective compensation and the separate P_nu cap
+
+Lines 99–146 correctly permit any subset M of the two xi coordinates. For m in M the companion mass is fixed and xi must be positive. For m outside M it increases by h*u and hence that companion must initially be slack, with its explicit bound S_m/h. Every Q row still gains v*u and contributes its bound. Decreasing P_nu rows relax; other parents are fixed. Even M empty has a nonempty finite Q family supplying a finite positive upper bound.
+
+The exact cost is v*h*u*(2|M|-5)/160, strictly negative for all three possible cardinalities. Thus a feasible strict descent exists in this subset family exactly when all Q rows are slack and each xi on a tight companion row is positive. For sufficiency use M=T_l; for necessity every feasible M must include T_l. A zero xi on a slack row is not a blocker, but a zero xi on a tight row is. This distinction correctly strengthens the paired direction without silently spending a zero allocation.
+
+Consequently each block at a primary optimum must have a tight Q row OR a zero xi on a tight companion row. If T_l is empty the latter alternative is false: eta alone is then a strict gain unless Q binds. No positive eta premise is required.
+
+Lines 148–167 independently check the other cap. Increasing one xi changes its companion by n*u and every corresponding P_nu row by v*u, at complete primary change -v*n*u/80<0. A positive step exists precisely when the companion and all four carrying P_nu records are slack, bounded by S_m/n and their individual S_nu/v. Xi may initially be zero. Therefore companion slack forces some tight P_nu row at a primary optimum. This is a different increase direction, and its proof does not borrow slack from a relaxing row in the paired move.
+
+## 3. Original full-dual inequalities and quantitative Q obstruction
+
+DUAL_COMPATIBILITY lines 15–111 use any optimal nonnegative row dual of the unchanged complete original problem. The aggregate sums Z, Q and N retain their four/eight/four marked records. The normalized symbols Z/v, Q/h and N/n are notation, not new dual variables chosen by a reduced LP.
+
+I checked each column directly from the inherited full incidence and primary coefficients. Eta gives h*(Z_l0+Z_l1)+v*Q_l >= v*h/32, hence zeta_l0+zeta_l1+chi_l>=1/32. Xi gives n*Z_lm+v*N_lm>=v*n/80, hence zeta_lm+delta_lm>=1/80. Complementarity makes the corresponding column inequality equality only when its actual primal allocation is positive. Slack row groups have zero aggregate; a positive aggregate implies some positively priced tight original row, not that every grouped row is tight.
+
+With both xi positive, their two equalities give zeta_l0+zeta_l1=1/40-delta_l0-delta_l1. Substituting into the eta inequality yields chi_l>=1/160+delta_l0+delta_l1, equality if eta>0. Returning to original units gives Q_l>=h_l/160+(h_l/n_l)*(N_l0+N_l1). This is strictly positive even when eta=0. It proves positively priced Q tightness for every full optimal dual. It alone does not force either P_nu aggregate to be positive.
+
+For t_l tight rows and positive xi only on those rows, off-tight zeta is zero. Their sum is t_l/80 minus the tight delta sum. Thus chi_l >= 1/32-t_l/80+sum_T delta=(5-2t_l)/160+sum_T delta. The margins for zero, one or two tight rows are all positive. No xi equality is used on a slack row with zero xi; this is the exact domain improvement over the paired two-positive assumption. Equality again needs eta>0. A zero xi on a tight row both blocks the corresponding descent and removes the equality needed for this dual derivation, as the text states.
+
+## 4. Slack-companion price and residual identities
+
+Lines 113–149 correctly combine slack-companion zeta=0 with the full xi reduced-cost inequality to obtain delta>=1/80, i.e. N>=n/80>0, with equality if xi>0. Zero xi permits a strict inequality. Positive dual price forces at least one tight P_nu row but does not prove positive xi; a zero allocation can coincide with a zero residual cap.
+
+For every original Q row, eta <=(1-B_Q)/v. A positively priced tight row attains this bound. Since all rows are feasible, its residual is a maximum over the complete eight-row set. Hence positive Q aggregate gives eta=(1-BQ_max)/v. The same argument gives xi=(1-BN_max)/v from positive P_nu aggregate over all four rows. These maxima are not values chosen or evaluated in the proof. Other primal allocations, including the original nu term, remain inside the residuals. Multiple maximizers and zero caps are allowed. These identities are necessary consequences of the full original dual and row feasibility, not an independent residual parametrization.
+
+## 5. The positive-kappa branches and conditional endpoints
+
+The inherited P/Y/tau argument under kappa_i>0 supplies sum zeta>=7/240, equality if tau_i>0. This depends on actual companion history mass 7v/240 and the accepted Y slack; the full P/Y and remaining sigma/residual dual constraints are not removed.
+
+For exactly three tight coefficient rows with positive xi on those rows, off-tight zeta vanishes and each tight xi equality bounds its zeta by 1/80. The other two tight groups can contribute at most 2/80=6/240, so each individual tight zeta is at least 7/240-6/240=1/240. This lower bound is strictly positive and correctly applies to all three groups. Summing the three equalities gives sum_T delta=3/80-sum_T zeta between zero and 1/120. Positive tau forces sum zeta=7/240 and therefore the upper endpoint 1/120, not the lower endpoint. It then forces at least one positive P_nu group on a tight companion; when tau=0 the weak bound permits their sum to vanish and the extra conclusion is correctly withheld.
+
+The missing fourth row is slack and separately has delta>=1/80, equality only if its xi is positive. Its full P_nu cap is attained even at a zero allocation. The two-tight block has chi>=1/160 plus its tight delta sum; the one-tight block has chi>=3/160 plus its tight delta. Both Q caps therefore bind. Substitution into the three tight companion equalities and the strict missing-row inequality is exactly D15. The proof does not accidentally make the missing row an equality or drop its strict slack.
+
+With all four xi positive, their four equalities give sum delta=1/20-sum zeta<=1/48. Positive tau makes the upper endpoint exact, hence a positive P_nu aggregate somewhere. Each block already has the Q bound above. Under that same positive-tau condition, summing the two Q bounds gives chi_0+chi_1>=2/160+1/48=1/30, with equality if both eta are positive. D17 is in the positive-tau paragraph; it is not asserted for tau=0. With tau=0 the upper bound on sum delta alone may allow all deltas zero, as explicitly retained. This conditional distinction is necessary and is correctly maintained.
+
+## 6. What is substantively new and what remains open
+
+The packet fulfills the bounded assignment rather than merely restating incidence. In RI254's previously surviving all-four-tight/nonconstant-s branch, if a block has both xi positive and all its Q rows slack, the explicit signed redistribution gives a finite strictly negative primary change. That conditional subcase is ruled out even though the old nonnegative compensation family could not descend there. It does not require sigma availability, evaluate s, or alter kappa/tau. The proof is an explicit analytic descent under its conditions, not an observation that the actual canonical point satisfies those conditions.
+
+More generally the local tight-Q-or-zero-tight-xi alternative is stronger than the earlier sector-only support disjunction. If a surviving positive-kappa case has all tight xi positive, RI254 forces at least three tight rows; the signed argument forces both Q caps, and a missing fourth row forces its P_nu cap. The exact dual balances further restrict these branches. They have not been proved mutually incompatible with the complete fixed law, and no primal/dual vector is supplied to show them jointly realizable.
+
+The actual support, residual maxima, dual allocation and lower data remain unknown. No magnitude bound on positive kappa, cross-sector kappa comparison, C_b decision, full normalized witness, signed inconsistency, global optimality, calibration or physical conclusion follows. All 13 equations/10 normalized coordinates, fixed u2=-1, complete original recovery, offsets/selector, accepted d=0!=d7 and normalized existence iff actual C_b=0 remain. All records/ideals/newborns and strict endpoints/restoration remain. The closed RI250 GAP-INDEX route and any needed absent-entry convention are not reopened.
+
+## 7. Actual source checks and complete boundary preservation
+
+The reviewer-owned administrative check ran as `OBSCURED-PATH-02316 -I -B OBSCURED-PATH-02542` in actual OBSCURED-ID-02557, exit 0. It saved 2,917 predicates and passed one additional exact report readback. CHECK.json is 422,365 bytes, SHA256 `OBSCURED-ID-02558`.
+
+It authenticated all six subject files, all five handoff/four author payload pins and exact namespaces; all 149 direct source identities totaling 3,037,686 bytes; exact preservation of all 133 predecessor role rows and their access classes plus 16 additions; the exact assignment/root/closed-authority chain; the complete predecessor six-file seal; all current scope declarations; complete diagnostic ancestry; and every retained field in all 15 boundary objects. The union is 155 distinct whole identities. Each was reread with complete hash and seven-field path/descriptor stability. No scientific body/checker or nested boundary descendant was opened.
+
+A separate narrow administrative check OBSCURED-ID-02559, exit 0, extracted only the raw JSON value of preserved_boundaries from the two already admitted source-reference manifests. The entire 43,739-byte raw value is byte-identical, SHA256 `OBSCURED-ID-02447`. This establishes literal preservation as well as the typed comparison. The 423-source manifest remains by reference, with zero descendant replay. BOUNDARY_LITERAL_CHECK.json preserves this result.
+
+## 8. Genuine author checks and diagnostic handling
+
+The existing QR task service returned completed turn `OBSCURED-ID-02543` from thread `OBSCURED-ID-00272`. Selected complete command records are saved in GENUINE_AUTHOR_CHECKS.json (58,271 bytes / `OBSCURED-ID-02560`). No message was sent to QR.
+
+The first preseal command `exec-OBSCURED-ID-02544` failed exit 1 with the genuine `Error: authority chain` output. It exactly matches preserved OBSCURED-ID-02561. The diagnostic `exec-OBSCURED-ID-02545` completed exit 0 and prints the unchanged assignment/predecessor identities, corroborating the insertion-order issue. Successful preseal `exec-OBSCURED-ID-02546` completed exit 0 (preserved OBSCURED-ID-02562), reporting 153 identities/four packet files. Final `exec-OBSCURED-ID-02547` completed exit 0, reporting 155 identities/six packet files. All four selected outputs have API truncated=false and were independently read completely.
+
+The full embedded current checker and full failed-to-current source diff were read in OBSCURED-ID-02563. Administrative shell-token parsing in OBSCURED-ID-02564 and the independent checker proves that the actual failed command contains exactly the preserved failed source, while the actual successful preseal and final commands contain exactly the preserved current source with their correct mode argument. No command or author checker was executed by this reviewer. The complete delta consists of structural JSON object equality that preserves array order/types/values, plus truthful updated diagnostic counters. No theorem coefficient, source identity or authority changed. The genuine successful results were compared field-for-field with current source pins/counts and the preserved whole preseal result. Metadata success is not mathematical proof; sections 1–6 provide the independent manual review.
+
+The author's declared `ReferenceError: structuredClone is not defined` is preserved as an orchestration diagnostic reportedly occurring before mutation. No matching raw functionCallOutput was present in the retrieved page, so it remains an explicitly attributed author declaration, not a newly independently recovered raw failure. The declared aggregate clipped projection also remains. Several long historical/proof outputs in this task-service retrieval were API-truncated at 20,000 characters, including the final three-note display record `exec-OBSCURED-ID-02548`; they receive no complete-display credit. Fresh complete local proof reads supply that coverage. This does not rewrite the author's original tool-display claim or turn API retrieval truncation into a mathematical defect.
+
+No reviewer checker failed and no reviewer source read was clipped in this RI256 review. The complete preceding RI254 diagnostics—including the separate sealing-time atime comparison failure—remain unchanged inside the inherited boundary/source chain. Genuine command origin relies on the accessible task service and root-controlled record provenance, not self-authentication by a JSON field. Scope is source/manual proof and administrative integrity only; all earlier executable prerequisites retain zero new qualification credit.
+
+Stop at the sealed review. Root alone adjudicates, publishes or selects a successor. No automatic acquisition, engine run, source repair or operational action is requested or issued here.

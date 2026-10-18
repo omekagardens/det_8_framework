@@ -1,0 +1,88 @@
+{
+  "initial_reviewer_diagnostic": {
+    "fix": "Corrected author-span normalization only; independent actual function spans retain declared one-newline normalization.",
+    "initial_source": {
+      "bytes": 9958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.before-span-delimiter-fix.py",
+      "sha256": "8d2b7edd13de10cfb3e7d609242a029bc47793f6d009025ec395e5709f213f84"
+    },
+    "line": 63,
+    "message": "Author spans retain three trailing newlines; initial reviewer comparison normalized to one.",
+    "outcome": "AssertionError in reviewer-only metadata normalization",
+    "subject_changes": false,
+    "subject_execution": false
+  },
+  "metadata_check_passed": true,
+  "no_operational_source_runtime_or_git_actions": true,
+  "review_artifacts_before_final_check": [
+    {
+      "bytes": 4599,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "031bee069b0a9b31feddb5caca73a339c471fbc675b754858de212493b85305a"
+    },
+    {
+      "bytes": 17218,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "a642e6cd508d506f662e97ae5d277401ee3f136126296772a6cd93448271f2db"
+    },
+    {
+      "bytes": 139849,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/OPAQUE_TEXT_CHECK.json",
+      "sha256": "cf144bd15a7afdedbee4f98f05a6a1749fdceaef35fbee24ac8afd02365d0c8e"
+    },
+    {
+      "bytes": 9958,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.before-span-delimiter-fix.py",
+      "sha256": "8d2b7edd13de10cfb3e7d609242a029bc47793f6d009025ec395e5709f213f84"
+    },
+    {
+      "bytes": 9966,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-bootstrap-independent-review-VMq4RmI9/check_metadata.py",
+      "sha256": "e78b6268e997ae835fce6e1874985a265525bae1bfc4965ba4866de938ab8771"
+    }
+  ],
+  "schema": "ri139-review-final-pin-check-v1",
+  "source_and_execution_separation_preserved": true,
+  "source_packet_unchanged": [
+    {
+      "bytes": 3386,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/AUTHORING_RECORD.md",
+      "sha256": "adb5e821ab4d7395078a24e8a8cfeccd7a45feaa37eca90751728749ad8e9095"
+    },
+    {
+      "bytes": 120094,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/DEPENDENCIES.source-only.json",
+      "sha256": "7be3dea02bd2f9d0e6dd565dbecad2977ed90eeab95612add058fd74a0be7309"
+    },
+    {
+      "bytes": 81149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/METADATA_CHECK.json",
+      "sha256": "174d15a64bffd3d97716c6535e02ecfad23d22e65648910ba80343236c888a0f"
+    },
+    {
+      "bytes": 22142,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/PROTOCOL.md",
+      "sha256": "8d879ea7dda5d192c029ef93cd12aac90a6de683c6585087fabdb0da82f233a6"
+    },
+    {
+      "bytes": 7967,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/REPAIR.diff",
+      "sha256": "5b706a4acc484dbdf5f072bbe894dc234f3889df236e0fb71d95dcea03209f85"
+    },
+    {
+      "bytes": 3983,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/SOURCE_CORRESPONDENCE.json",
+      "sha256": "b2c0cd252cefc78dd28236daf541fa733b56ed5284ea8604d7e60a53d16dbc58"
+    },
+    {
+      "bytes": 26387,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+      "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+    },
+    {
+      "bytes": 7035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/HANDOFF.json",
+      "sha256": "24e6815b31bd47b543211f4f51156d1c0c67d96dac88db65db48f85d3be898d0"
+    }
+  ]
+}

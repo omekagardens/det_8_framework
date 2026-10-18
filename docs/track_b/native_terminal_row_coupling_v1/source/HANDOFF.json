@@ -1,0 +1,146 @@
+{
+  "schema": "ri168-terminal-component-row-coupling-handoff-v1",
+  "status": "AUTHOR_COMPLETE_SOURCE_ONLY_PENDING_INDEPENDENT_ROOT_ADJUDICATION",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj",
+  "owner_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "coordinator_thread": "01a09c7a-ebce-7213-b06a-43315ae68fd5",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI168_NATIVE_ASSIGNMENT.json",
+    "bytes": 2875,
+    "sha256": "a49d7c62a8a5c312a648b9962186dc6bc0af112b0ea4e1965ba7fd3268ff7710"
+  },
+  "accepted_analytic_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI166_ROOT_ADJUDICATION.json",
+    "bytes": 1261,
+    "sha256": "635d33bda65c3aec4c75293694741b652977750d009575b5559793d863bb8dd7"
+  },
+  "operational_governance_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "bytes": 2910,
+    "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7"
+  },
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "COUPLED_BOUND.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INCIDENCE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/AUTHOR_CHECKS.json",
+      "bytes": 17243,
+      "sha256": "8e99de127d30b57513c9f683ae84ef5906ec502a3d802633ef9b11ef8dc10e65"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/COUPLED_BOUND.md",
+      "bytes": 13509,
+      "sha256": "3dc4a0408d34c17a639828d5cef49560fc02c9b4de26df17aa183c0b52e645f0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/DEPENDENCY_NOTES.md",
+      "bytes": 15028,
+      "sha256": "2b18085c76cf83da96a2f8aeece6e3c63143904295e3a243fefdda6feabbae9d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/HANDOFF.md",
+      "bytes": 3085,
+      "sha256": "9b8abce237a61129361ceaf000b58741a5655e002a1593683fbede5af801dd80"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/INCIDENCE.md",
+      "bytes": 25166,
+      "sha256": "e74357b08a2dd13a364b3c0a460f9fbc8be6766b2e2cb80b60971c23a9d3e6b7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/SOURCE_DEPENDENCIES.json",
+      "bytes": 240038,
+      "sha256": "86795e1016c459732e083e0f9d0d8a18c882f2dada6b6c56d7f01ba44fc47530"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/SOURCE_IDENTITIES.json",
+      "bytes": 46255,
+      "sha256": "862c210b7a38b71d64f4eb6a49fbac114721fd11ad844ec90649983a14231635"
+    }
+  ],
+  "result": {
+    "yield": "COMPLETE_FINITE_TARGET_INCIDENCE_THEOREM_AND_EXACT_RESIDUAL_CROSS_ROW_CONSTRAINT",
+    "target_families": "C4 masks1,3,7; root0/1 with other selected marks0",
+    "family_component_counts": [
+      2,
+      4,
+      8
+    ],
+    "complete_terminal_roles": {
+      "mask1": [
+        "C4 singleton",
+        "V4 long C3"
+      ],
+      "mask3": [
+        "C4 initial pair",
+        "T4 each of two labeled full C3 arms"
+      ],
+      "mask7": [
+        "C4 initial triple only"
+      ]
+    },
+    "selected_six_raw_diamonds": 104,
+    "selected_six_incident_raw_rows": 72,
+    "selected_six_incident_canonical_rows": 38,
+    "selected_six_raw_ideal_occurrences": 92,
+    "selected_six_canonical_ideal_occurrences": 56,
+    "counts_manually_proved_not_generated": true,
+    "global_shared_component": "q_V4(mask3)=q_T4(mask1)=z_i, with root contrast not set to zero",
+    "inherited_actual_value_equalities": "RI127 b_(i,u,v)=b_i and c=c_i; complete C4 normalization gives s_(i,u)=s_i. Graph components remain distinct.",
+    "exact_cross_row_identity": "41x-82y=K, where K is the root contrast of t-ell-f-g+h_full-v_full in complete alternative rows",
+    "existing_chain_identity": "x+y=d-C, d=b0-b1>0, C=c1-c0",
+    "reverse_bound_equivalence": [
+      "C >= -212d",
+      "K >= -26158d-41C",
+      "K <= 26117d+82C"
+    ],
+    "remaining_obligation": "A d-relative estimate proving that corridor for the unchanged actual global vector and full complements. This packet does not prove that all remaining full-law constraints cannot imply it.",
+    "reduced_counterexample_not_promoted": true,
+    "record_flip_symmetry_assumed": false,
+    "hidden_core_alternative_parent_excluded_by_complete_maximal_deletion_proof": true
+  },
+  "full_native_reverse_bound_decided": false,
+  "full_native_counterexample_claimed": false,
+  "actual_109_vector_read": false,
+  "administrative_source_check": {
+    "preseal_chunk": "43ac52",
+    "exit_code": 0,
+    "dependencies": 264,
+    "selected_bytes": 16875258,
+    "inherited_rows": 252,
+    "full_admin_bodies": 93,
+    "governance_only_boundaries": 1,
+    "historical_phase_record_opaque": true,
+    "historical_typed_references": 2348,
+    "current_typed_references": 114,
+    "state_noncomparisons": 17,
+    "byte_equal_pairs": 4,
+    "predecessor_namespace": 8,
+    "preseal_current_namespace": 6,
+    "preseal_fresh_identity_rechecks": 270,
+    "final_eight_file_replay": "Performed after this immutable seal; receipt returned to root rather than inserted into hashed payloads."
+  },
+  "scientific_or_target_execution": false,
+  "scientific_json_decoding": false,
+  "actual_vector_or_grid_qualification": false,
+  "repository_or_git_mutation": false,
+  "new_agents_created": false,
+  "ret_paused": true,
+  "preserved": [
+    "P2/P3 and Y=1/4",
+    "31 focused attempts,139 policy cases,20 native/42 audit deeper rows",
+    "Shared T1, other eight parents, all five Di, strict endpoints and all labeled ideal multiplicities",
+    "Actual capacity, joint q/v, same-law M5/canonical construction, global M6/rho, W/C2/C3/shared H30 remain distinct",
+    "Option B and Status M",
+    "RI167 supervision and measurement qualification separately owned"
+  ],
+  "stop": "Sealed bounded author result. Root owns independent review/adjudication, next justified assignment, execution admissions, repository/index/Git and publication."
+}

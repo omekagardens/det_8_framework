@@ -1,0 +1,158 @@
+{
+  "blockers": [],
+  "complete_saved_comparison": [
+    "Entire parent and worker keysets match the accepted normal schemas. Every unchanged field was compared in full; every changed field was separately checked. This includes complete 48-entry historical acceptance closures, source before/after lists, all three captured scientific bodies, genuine run/validator flags, successful runtime postchecks, source and mode acceptances, error/stop statuses and complete process observations.",
+    "All four loaded-module maps are exactly equal to their accepted normal counterparts: parent 67 before/67 after, worker 69 before/80 after. All actual process profiles differ from admitted normal only by optimize=1. All four complete runtime byte summaries equal the normal inventory/interpreter identity: 9923 files, exact interpreter chain and whole descriptor identity.",
+    "All optimized result, worker, custody, stderr and attempt bindings independently checked; custody differs from normal only by optimized mode and report path. Parent verified custody and worker operation bind those exact optimized artifacts.",
+    "Entire 81253-byte RESULT is byte-identical between normal and optimized, SHA256 395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a. The already completely read and reviewed normal scientific body therefore applies unchanged: all nine complete cases and all three bounds. Both optimized qualification/scientific envelopes and all 41 actual reported expected/primary/validator refusals also independently compared against the fixed report domain."
+  ],
+  "evidence": [
+    {
+      "bytes": 33912,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-optimized-saved-4872wsfj/INDEPENDENT_OPTIMIZED_METADATA_CHECK.json",
+      "sha256": "fa935d35ae0c9021f402891d4e769954b432d4d50975b6d9222a07a2935afa1d"
+    },
+    {
+      "bytes": 11256,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-optimized-saved-4872wsfj/review_saved_metadata.py",
+      "sha256": "b00c1e6542346d7df415cfe53b96c30a951e0a9aace074e11598a7bfcc439d02"
+    },
+    {
+      "bytes": 15491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/INDEPENDENT_NORMAL_SAVED_REVIEW.json",
+      "sha256": "04fa87ef05e3640d87c6e0c990bc591032729c154340e4e37ff935d10675589d"
+    },
+    {
+      "bytes": 105214,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/INDEPENDENT_NORMAL_METADATA_CHECK.json",
+      "sha256": "26843b959f47fb1f11aa08b2d7216e27a7170ed5a9d4df531ff6c2dc069fce11"
+    },
+    {
+      "bytes": 2886,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+      "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+    },
+    {
+      "bytes": 1655,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/ADMIT_OPTIMIZED.json",
+      "sha256": "ddbad863d5f5d43a90b18f0aa88b9a84f6ae8c17728bd2d38ae91d16bc78524a"
+    },
+    {
+      "bytes": 81253,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/RESULT.json",
+      "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+    },
+    {
+      "bytes": 102451,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/receipt.json",
+      "sha256": "92ca3fdcc9bb0298fd7c0aec5e7e4c449223f3afd732314d9ab256c90a10cd2a"
+    },
+    {
+      "bytes": 81027,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/runtime.json",
+      "sha256": "dd1a20594afa746e3579a623788d6128cf401f3bcdb5f9cd0cc69e5bfdbbed7f"
+    },
+    {
+      "bytes": 1416,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/CUSTODY.json",
+      "sha256": "be42f7e9c5a4f7f60d2664e49f5aff8ae2e34c9c2debe266137a95655decf63b"
+    },
+    {
+      "bytes": 607,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/attempt.json",
+      "sha256": "48f622ffc29c44f30e59213753c7701b7873497c5a44d59d9223966d3c9b85b9"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-repair-7ys8vsc3/controls/optimized/stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 311,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_OUTER_TOOL.json",
+      "sha256": "a7d0dedfaf1d82f8ea7671e014af5c590d3f31653f65b93e64401be7f4564f28"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_PRE_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 10174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_POST_METADATA.json",
+      "sha256": "f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40"
+    },
+    {
+      "bytes": 2546,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_ROOT_SAVED_CUSTODY_CHECK.json",
+      "sha256": "5347486e0618cd5ef85432ffe145f72fc406a852bb999a978eb2d674b9499f44"
+    }
+  ],
+  "execution_versus_math": {
+    "actual_controls": "The accepted source executes genuine qualifier.run and its 41 controls per implementation in each separately admitted process. It then saves/parses and checks a fresh primary reference plus the separately authored complete scientific validator. Actual run/custody evidence is required; saved control-label agreement alone is not a witness.",
+    "saved_audit": "saved_result_validation records historical_controls_reexecuted=false and scientific_independent_reconstruction=true in both modes. This review performs metadata/report comparison only and does not claim a third execution.",
+    "separate_math": "The complete normal mathematical source review and root independent saved fixed-model Fraction reconstruction remain accepted and exact-pinned through the normal decision. Full output byte equality transports their saved-result conclusions to the optimized report without another arithmetic campaign."
+  },
+  "external_runtime_custody": {
+    "boundary": "The additional actual-profile-discovered loader routes are enforced by root pre/post metadata; they remain distinct from the unchanged fixed eight in-process v2 absence guards. Stable trusted Apple kernel/loader/shared-cache platform, supplier/runtime/cache trust and finite pre/post observations remain assumptions. No source/pyc equivalence, hermetic image or complete dynamic dependency-trace claim.",
+    "pre_post": "Complete optimized PRE and POST are byte-identical to each other and both retained normal records: each10174 bytes/SHA256 f6fa87df1addc00994b11f7645d47b36ace085e9be0ea07e05b7b69a0747cd40. The observed_dyld_routes field is mandatory, nonnull and exactly binds the 654-byte accepted sidecar.",
+    "required_dependencies": "Rehashed exact required root checker, metadata helper, sidecar, file-selection metadata and optional namespace descriptor. Current concrete sidecar absences and opt symlink remain correct. Existing frozen source/acceptance inputs were rehashed; no runtime inventory recapture or target activity was duplicated."
+  },
+  "next_action": "Root may accept and publish the completed two-mode fixed synthetic qualification with these exact evidence pins and limitations, keeping source acceptance, bounded guard evidence, runtime profile qualification, actual two-mode science custody and separate saved mathematical review identifiable. The broader native geometry/gravity/measurement programme remains ongoing.",
+  "normal_before_optimized": {
+    "accepted_normal": "The prior complete independent normal review remains exact 15491 bytes/04fa87ef05e3640d87c6e0c990bc591032729c154340e4e37ff935d10675589d. Root normal adjudication binds it together with genuine normal outer completion, all four normal scientific/custody artifacts and separate full root saved mathematical reconstruction.",
+    "actual_admission": "Optimized card binds exact root normal adjudication 2886 bytes/9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c, retained active freeze, accepted caller-source decision and exact -I -B -O child/launcher commands. Both parent and worker accepted that same card before/after.",
+    "normal_retention": "Every artifact in the independently accepted normal evidence list and all four normal artifacts in root normal adjudication remains byte-identical. Normal scientific report was compared byte-for-byte, not merely by selected fields or hashes.",
+    "sequencing": "Direct root workflow dispatch observed after normal verdict; saved review/root-decision/card/attempt/runtime/parent mtimes also increase in that order. Filesystem times are corroboration, not a cryptographic history proof."
+  },
+  "optimized_actual_run": {
+    "child_exit_code": 0,
+    "counts": {
+      "PSD_controls": 3,
+      "actual_controls_per_implementation": 41,
+      "bounds": 3,
+      "groups": 12,
+      "mutation_controls": 33,
+      "parser_controls": 5,
+      "scientific_cases": 9
+    },
+    "full_independent_validator_passed": true,
+    "genuine_run_started_and_completed": true,
+    "limits": {
+      "maximum_sample_gap_seconds": 0.1,
+      "ps_timeout_seconds": 0.05,
+      "rss_kib": 524288,
+      "target_poll_seconds": 0.025,
+      "wall_seconds": 180
+    },
+    "monitor": {
+      "elapsed_seconds": 3.127368416000536,
+      "final_gap_seconds": 2.50409975706134e-05,
+      "last_positive_to_reap_seconds": 0.03270216599776177,
+      "max_sample_gap_seconds": 0.03810008400250808,
+      "peak_sampled_rss_kib": 52864,
+      "positive_samples": 96,
+      "raw_attempts": 97,
+      "samples": 97,
+      "terminal_zero_samples": 1
+    },
+    "monitor_detail": "All 97 raw attempts and all 97 samples read and independently matched. Every ps attempt exits zero with empty stderr and a nonnegative digit RSS. The final sample is zero KiB, which the unchanged reviewed monitor admits; 96 preceding samples are positive. Last positive observation is 0.03270216599776177 seconds before reaping, also below the 0.1 second coverage bound. Peak 52864 KiB, maximum gap 0.03810008400250808 seconds and final gap 0.0000250409975706134 seconds are reconstructed from saved records. This remains sampled RSS, not an OS hard cap.",
+    "outer_exit_code": 0,
+    "outer_final": "f3a3c1",
+    "outer_initial": "dd4ec5",
+    "parent_success": true,
+    "session_id": 28093,
+    "stop_reason": null,
+    "worker_error": null
+  },
+  "preserved_limits": [
+    "Fixed finite synthetic joint-window arithmetic qualification only. Nine cases, three bounds and twelve coverage groups do not validate every alternative joint model.",
+    "No empirical GWOSC measurements, new empirical coefficient capture, physical calibration estimate, significance claim, protected validation release, native forward map or all-size native feasibility conclusion.",
+    "Original RI121 F01 failure and genuine failed guard evidence remain retained; repaired 18-case metadata guard qualification is distinct from both actual scientific runs. RI110 failure, RI108 numerical qualification and RI114 supervision qualification retain their historical scopes. RET remains paused."
+  ],
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_actions": "Only fresh external reviewer files written; no root admission, protected data, target source, repository, index or git action.",
+  "schema": "ri121-independent-final-two-mode-synthetic-review-v1",
+  "scope": "Bounded complete saved optimized custody review, using the accepted normal source/math/profile/closure premises. No target import, execution, fixture replay, scientific recomputation or source/admission/repository/git change.",
+  "status": "ACCEPT_ACTUAL_OPTIMIZED_EXECUTION_AND_COMPLETE_CROSS_MODE_CUSTODY"
+}

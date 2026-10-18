@@ -1,0 +1,35 @@
+{
+  "custody": {
+    "bytes": 5447,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/POST_FAILURE_CUSTODY.json",
+    "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+  },
+  "genuine_failure": {
+    "bytes": 3292,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+  },
+  "monitor_unchanged": true,
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-install-operation-ypiy2jqw",
+  "predecessor": {
+    "bytes": 8207,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/HANDOFF.json",
+    "sha256": "bd62168cf3cb2fe468f7488a140ad98f9dc433c21b3ad17d642ba29623acbeb1"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw",
+  "review": {
+    "bytes": 1984,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/CALLER_FAILURE_REVIEW.json",
+    "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+  },
+  "schema": "ri222-root-cwd-repair-assignment-v1",
+  "scientific_credit": 0,
+  "scope": "Only installer guard changes to Path.cwd()==literal(D/'monitor'), fresh exact paths/provenance and documentation of outer D vs child D/monitor; retain byte fixes, clock repair, all eight tails, unchanged monitor and thresholds. No subject/installer/monitor execution, cards, retry, E or Git writes. Complete inverse diff and all source closure checks plus full handoff for independent review. Add a metadata/source contract check tying child cwd guard to unchanged Popen cwd=out and bootstrap out=D/monitor.",
+  "status": "SOURCE_ONLY_ASSIGNED_AFTER_FAILURE_ADJUDICATION",
+  "supersession": {
+    "bytes": 1478,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri221-root-installation-ru2v15ie/RI218_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+  },
+  "worker": "/Volumes/AI_DATA/development/det-review-evidence/ri222-freeze-cwd-repair-ypiy2jqw/worker_proposal"
+}

@@ -1,0 +1,782 @@
+{
+  "actual_tool": {
+    "bytes": 1128,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/GENUINE_TOOL_COMPLETE.json",
+    "sha256": "9702f430c0ead8329ff4c12ecefaf01d6f2b83d5ac3df9b58c60f9a62e840ae3"
+  },
+  "bootstrap_post": {
+    "bytes": 1690949,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST.json",
+    "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+  },
+  "bootstrap_pre": {
+    "bytes": 1690949,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE.json",
+    "sha256": "f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb"
+  },
+  "dispatch": {
+    "bytes": 5006,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_DISPATCH.json",
+    "sha256": "25f63340660f14cbe360897546657e9236e85df3fb9e99f9297a5699942321cf"
+  },
+  "genuine_post_tool": {
+    "bytes": 1299,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST_TOOL.json",
+    "sha256": "99409477ed72f05838890d03b805b9ccfb522fd948be0d64433f938afe3ae98f"
+  },
+  "genuine_pre_tool": {
+    "bytes": 1289,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_PRE_TOOL.json",
+    "sha256": "775e2f470367f88864a57b3732cc599001489c2aae8549b8a6b86dafde7f7c16"
+  },
+  "genuine_tool_origin": "Actual tool call and response observed by root; saved receipt is custody, not self-authenticating authority",
+  "operation": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2",
+  "operation_tree": [
+    {
+      "kind": "directory",
+      "relative": "cards"
+    },
+    {
+      "identity": {
+        "bytes": 2341,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/adjudication.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/adjudication.json",
+        "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230",
+        "state": [
+          16777244,
+          407206,
+          33188,
+          1,
+          2341,
+          1790770172679336076,
+          1790770172679336076
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "cards/adjudication.json"
+    },
+    {
+      "identity": {
+        "bytes": 2434,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/controls.json",
+        "sha256": "71542ee3752859987992734d4e42b152afff73d73f6cac5c851ed435bd1cf965",
+        "state": [
+          16777244,
+          407208,
+          33188,
+          1,
+          2434,
+          1790770172682656259,
+          1790770172682656259
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "cards/controls.json"
+    },
+    {
+      "identity": {
+        "bytes": 3786,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/launcher.json",
+        "sha256": "1f497cc7085c77ffa07d6b3f05bf6173c4a49ebff71de6d213080e215329986d",
+        "state": [
+          16777244,
+          407209,
+          33188,
+          1,
+          3786,
+          1790770172684580126,
+          1790770172684580126
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "cards/launcher.json"
+    },
+    {
+      "identity": {
+        "bytes": 3078,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/preflight.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/preflight.json",
+        "sha256": "86053d1fc812a247b6b674158b2a4a7007f607291a3f256274b5d9452150c472",
+        "state": [
+          16777244,
+          407207,
+          33188,
+          1,
+          3078,
+          1790770172680258092,
+          1790770172680258092
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "cards/preflight.json"
+    },
+    {
+      "identity": {
+        "bytes": 4413,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/review.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/cards/review.json",
+        "sha256": "488a6cec458226b6bd6c6d27e25800112108d36c86ab5cdda8027401793e847b",
+        "state": [
+          16777244,
+          407205,
+          33188,
+          1,
+          4413,
+          1790770172678297850,
+          1790770172678297850
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "cards/review.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "environment"
+    },
+    {
+      "kind": "directory",
+      "relative": "environment/tmp"
+    },
+    {
+      "kind": "directory",
+      "relative": "output"
+    },
+    {
+      "identity": {
+        "bytes": 862,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ADMINISTRATIVE_CHECKS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ADMINISTRATIVE_CHECKS.json",
+        "sha256": "b2235136dc02144e92b0bebe8c90988c9a007082bb3d2e3db9a2069d4f0aee3f",
+        "state": [
+          16777244,
+          407252,
+          33188,
+          1,
+          862,
+          1790770184302700002,
+          1790770184302700002
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/ADMINISTRATIVE_CHECKS.json"
+    },
+    {
+      "identity": {
+        "bytes": 2419,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ATTEMPT.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ATTEMPT.json",
+        "sha256": "d65b41853523f4aea2d3a32e153193febc7a4ee7f2eb859d4e34d40ba7f81652",
+        "state": [
+          16777244,
+          407212,
+          33188,
+          1,
+          2419,
+          1790770183855808061,
+          1790770183855808061
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/ATTEMPT.json"
+    },
+    {
+      "identity": {
+        "bytes": 1057,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.ATTEMPT.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.ATTEMPT.json",
+        "sha256": "a71d1713634657102a7d6ff3f7cadf5ecab36a193945fb1bba63475f74a56480",
+        "state": [
+          16777244,
+          407213,
+          33188,
+          1,
+          1057,
+          1790770183898409639,
+          1790770183898409639
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/BOOTSTRAP15.ATTEMPT.json"
+    },
+    {
+      "identity": {
+        "bytes": 4289,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.COMPLETION.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.COMPLETION.json",
+        "sha256": "41c3ad46be0cee40e8f528c432470af92d9d698087b752b106914367ebe03498",
+        "state": [
+          16777244,
+          407250,
+          33188,
+          1,
+          4289,
+          1790770184282497982,
+          1790770184282497982
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/BOOTSTRAP15.COMPLETION.json"
+    },
+    {
+      "identity": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stderr",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "state": [
+          16777244,
+          407215,
+          33188,
+          1,
+          0,
+          1790770183898816271,
+          1790770183898846647
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/BOOTSTRAP15.stderr"
+    },
+    {
+      "identity": {
+        "bytes": 0,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stdout",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/BOOTSTRAP15.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "state": [
+          16777244,
+          407214,
+          33188,
+          1,
+          0,
+          1790770183898755395,
+          1790770183898773895
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/BOOTSTRAP15.stdout"
+    },
+    {
+      "identity": {
+        "bytes": 9265,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/COMPLETE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/COMPLETE.json",
+        "sha256": "b47ba84a0a886504c6b1bec90a127fb5589cc0b82d3e6010a0230757b3f1c58e",
+        "state": [
+          16777244,
+          407254,
+          33188,
+          1,
+          9265,
+          1790770184359138406,
+          1790770184359138406
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/COMPLETE.json"
+    },
+    {
+      "identity": {
+        "bytes": 1111,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ENVELOPE_CHECKS.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/ENVELOPE_CHECKS.json",
+        "sha256": "6ac01253fa4a5a699fed4ed16531360e78fd15d1363938c68df2c7d7860eb517",
+        "state": [
+          16777244,
+          407251,
+          33188,
+          1,
+          1111,
+          1790770184298959895,
+          1790770184298959895
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/ENVELOPE_CHECKS.json"
+    },
+    {
+      "identity": {
+        "bytes": 6306,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/NAMESPACE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/NAMESPACE.json",
+        "sha256": "550a9a761ce4ef1db73c18b300ed6e9b128fea62f2e4e3664d038f9ba354a80d",
+        "state": [
+          16777244,
+          407253,
+          33188,
+          1,
+          6306,
+          1790770184358457852,
+          1790770184358457852
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/NAMESPACE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls"
+    },
+    {
+      "identity": {
+        "bytes": 831,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/ATTEMPT.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/ATTEMPT.json",
+        "sha256": "a90f004c2aba672cbcf5f85b8bd0477cb76ad4b8dd6e9e7d1f22b429cf5d14c2",
+        "state": [
+          16777244,
+          407217,
+          33188,
+          1,
+          831,
+          1790770184094552695,
+          1790770184094552695
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/ATTEMPT.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B01"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B01/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407219,
+          33188,
+          1,
+          616,
+          1790770184095489961,
+          1790770184095489961
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B01/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B02"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B02/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407221,
+          33188,
+          1,
+          616,
+          1790770184112794806,
+          1790770184112794806
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B02/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B03"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B03/PROVENANCE_DOUBLE.json",
+        "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2",
+        "state": [
+          16777244,
+          407223,
+          33188,
+          1,
+          616,
+          1790770184118760202,
+          1790770184118760202
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B03/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B04"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B04/PROVENANCE_DOUBLE.json",
+        "sha256": "4261e1b945ed7e70f51d0f3930927e1c92cccf9e274698117c6f58934d3ddca2",
+        "state": [
+          16777244,
+          407225,
+          33188,
+          1,
+          616,
+          1790770184124394883,
+          1790770184124394883
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B04/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B05"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B05/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407227,
+          33188,
+          1,
+          616,
+          1790770184130760536,
+          1790770184130760536
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B05/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B06"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B06/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407229,
+          33188,
+          1,
+          616,
+          1790770184136519595,
+          1790770184136519595
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B06/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_bytes"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_bytes/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407237,
+          33188,
+          1,
+          616,
+          1790770184161948332,
+          1790770184161948332
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_bytes/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_path"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_path/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407231,
+          33188,
+          1,
+          616,
+          1790770184142813872,
+          1790770184142813872
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_path/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_resolved_path"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407233,
+          33188,
+          1,
+          616,
+          1790770184148850311,
+          1790770184148850311
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_resolved_path/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_sha256"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_sha256/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407239,
+          33188,
+          1,
+          616,
+          1790770184171933382,
+          1790770184171933382
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_sha256/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_state"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_state/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407241,
+          33188,
+          1,
+          616,
+          1790770184178645499,
+          1790770184178645499
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_state/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B07_symlink_chain"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407235,
+          33188,
+          1,
+          616,
+          1790770184155001919,
+          1790770184155001919
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B07_symlink_chain/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B08"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B08/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407243,
+          33188,
+          1,
+          616,
+          1790770184185217114,
+          1790770184185217114
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B08/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B09"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B09/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407245,
+          33188,
+          1,
+          616,
+          1790770184191875730,
+          1790770184191875730
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B09/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "kind": "directory",
+      "relative": "output/controls/B10"
+    },
+    {
+      "identity": {
+        "bytes": 616,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/B10/PROVENANCE_DOUBLE.json",
+        "sha256": "1f3cf06e8a0a1be3fe8a03f2e4cf73a1d4d8623b05b51f325d36ce83bb50a93c",
+        "state": [
+          16777244,
+          407247,
+          33188,
+          1,
+          616,
+          1790770184198479346,
+          1790770184198479346
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/B10/PROVENANCE_DOUBLE.json"
+    },
+    {
+      "identity": {
+        "bytes": 4478,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/NAMESPACE.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/NAMESPACE.json",
+        "sha256": "827fa0d5479b46343f99da1cca38ad5cf9830477026cbea82c5c3ff815404991",
+        "state": [
+          16777244,
+          407249,
+          33188,
+          1,
+          4478,
+          1790770184260270052,
+          1790770184260270052
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/NAMESPACE.json"
+    },
+    {
+      "identity": {
+        "bytes": 162784,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/REPORT.json",
+        "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/output/controls/REPORT.json",
+        "sha256": "230f968c82ebd099d7cd0f5e88ff654b78ff7801f11eb343c02f0616fc273dc0",
+        "state": [
+          16777244,
+          407248,
+          33188,
+          1,
+          162784,
+          1790770184257385043,
+          1790770184257385043
+        ],
+        "symlink_chain": []
+      },
+      "kind": "file",
+      "relative": "output/controls/REPORT.json"
+    }
+  ],
+  "outer_exit_code": 0,
+  "outer_tool_chunk": "32ad3f",
+  "schema": "ri144-root-actual15-review-input-v1",
+  "scientific_or_production_capture": false,
+  "source_checks": {
+    "bytes": 283249,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_MEASUREMENT_SOURCE_CHECK.json",
+    "sha256": "82ba06fa91a22841424527c355e4fad056069af7a24e56014154641dbc5cc8ae"
+  },
+  "source_decision": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI144_ROOT_ADJUDICATION.json",
+    "sha256": "14009b952cefe42db6753626f2653fb598169e77863c9e64f117404777e39230"
+  },
+  "source_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "source_review": {
+    "bytes": 4413,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/HANDOFF.json",
+    "sha256": "488a6cec458226b6bd6c6d27e25800112108d36c86ab5cdda8027401793e847b"
+  },
+  "source_state_unchanged": 482,
+  "status": "CAPTURED_PENDING_INDEPENDENT_ACTUAL_REVIEW"
+}

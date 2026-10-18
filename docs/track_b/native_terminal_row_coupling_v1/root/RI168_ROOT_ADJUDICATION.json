@@ -1,0 +1,37 @@
+{
+  "RET": "paused",
+  "accepted": [
+    "Complete 2/4/8 target component classification and72/38 row union,92/56 ideal occurrences,104 raw diamonds",
+    "Inherited actual b/c transport and normalization imply root-only s values without graph-component merging",
+    "Complete C4/V4/T4 shared-column equations and exact C,K corridor equivalence"
+  ],
+  "actual_check": {
+    "chunk": "f08601",
+    "exit_code": 0
+  },
+  "basis": "Root nonauthor manual proof review and independent fresh metadata checks; additional reviewer concurrence is separately recorded when sealed.",
+  "manual_review": {
+    "bytes": 6255,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI168_ROOT_PROOF_REVIEW.md",
+    "sha256": "58a5cc66e1c9f78329c6dce7378667e05896a5820399272a3b4ac45bbdfabf54"
+  },
+  "metadata_check": {
+    "bytes": 154510,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/RI168_ROOT_METADATA_CHECK.json",
+    "sha256": "a690e250a9bfb745dfbc4a4d518613c4dc951b2164d1f4fa09ad646a3255ae82"
+  },
+  "not_accepted": [
+    "Desired full fixed-law reverse bound",
+    "Full-law counterexample or arbitrary full-vector feasibility",
+    "Actual109-vector/grid evaluation, higher canonical/scale constraints or H30",
+    "New quantum, geometry, gravity or physical claims"
+  ],
+  "schema": "ri168-root-independent-proof-adjudication-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_COMPLETE_INCIDENCE_AND_EXACT_CORRIDOR_ONLY",
+  "subject": {
+    "bytes": 6482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/HANDOFF.json",
+    "sha256": "7b88fbb66f8681d7f38f03f7fe4cfd4f61fc4ced9bcbdb0ef2fe7fc771480c93"
+  }
+}

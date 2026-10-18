@@ -1,0 +1,7 @@
+{
+  "authorized": true,
+  "freeze_payload_sha256": "e2704e570d290c37f6c626298b9ab4e4897b573075b30f83d2f2bd21b8f1b97c",
+  "mode": "audit",
+  "schema": "ri95-certificate-audit-authorization-v1",
+  "supervisor_sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db"
+}

@@ -1,0 +1,47 @@
+{
+  "admission": {
+    "bytes": 1645,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ADMIT_RECONCILE.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/ADMIT_RECONCILE.json",
+    "sha256": "294c2f71e46611fa2d0fffe0b7946a3746e5b31970b71f0cc44db8abb65d9c79",
+    "state": [
+      16777244,
+      427397,
+      33188,
+      1,
+      1645,
+      1790843120887774890,
+      1790843120887774890
+    ],
+    "symlink_chain": []
+  },
+  "decision": {
+    "bytes": 7513,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/ROOT_ONE_RECONCILIATION_DECISION.json",
+    "sha256": "d3c124847ca06f7d958a016cbd315244244c6b1f946af9f513386f938e7f6a93"
+  },
+  "dispatch": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/DISPATCH.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/DISPATCH.json",
+    "sha256": "75e3e89fcf5e0907e100ff2ae3a45f1319ce2f33adab0d3048a19bd84f66fd4e",
+    "state": [
+      16777244,
+      427398,
+      33188,
+      1,
+      2341,
+      1790843120888448891,
+      1790843120888448891
+    ],
+    "symlink_chain": []
+  },
+  "genuine_predispatch_check": {
+    "exit_code": 0,
+    "initial_chunk": "480a86",
+    "session_id": 74231,
+    "terminal_chunk": "c6a559"
+  },
+  "observed_at_unix_ns": 1790843120889087000,
+  "operation_not_started": true
+}

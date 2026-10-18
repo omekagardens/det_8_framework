@@ -1,0 +1,21 @@
+{
+  "external_only_preserved": [
+    {
+      "bytes": 1689459,
+      "path": "/private/tmp/ri244-independent-source-review-n9x3lh9m/CHECK.json",
+      "sha256": "7634c10af93071896bf6eed1f61126f5a7bbf6cdddbb28e1df33467db96bbbe3"
+    }
+  ],
+  "reason": "The complete successful administrative predicate/identity dump is retained externally. Compact counts, actual commands/outcomes, diagnostic and original checker remain included; omit no failure or qualification boundary.",
+  "recommended_files": [
+    "REVIEW.md",
+    "OUTPUT_CUSTODY_BOUNDARY.json",
+    "CHECK_SUMMARY.json",
+    "READ_COVERAGE.json",
+    "DIAGNOSTICS.json",
+    "check.py",
+    "PUBLICATION_SUBSET.json",
+    "HANDOFF.json"
+  ],
+  "schema": "ri244-independent-source-review-publication-subset-v1"
+}

@@ -1,0 +1,47 @@
+{
+  "changes": [
+    [
+      "for name in output_names+['tmp','monitor','ADMIT_RECONCILE.json','DISPATCH.json']:need(not os.path.lexists(D/name),'no retry or replacement '+name)",
+      "for name in output_names+['tmp','monitor','ADMIT_RECONCILE.json','DISPATCH.json']:need(not os.path.lexists(D/name),'no retry or replacement '+name)\nroot_namespace_before=sorted(p.name for p in D.iterdir())"
+    ],
+    [
+      "eq(after_by['AUTHORIZED_FREEZE.json']['identity'],postflight['installed_partial'],'whole historical installed partial identity')",
+      "eq(after_by['AUTHORIZED_FREEZE.json']['identity'],postflight['installed_partial'],'whole historical installed partial identity')\noriginal_sources=load(repair['roles']['original_sources']);need(len(original_sources)==904,'all904 original full source identities');eq(original_sources,original_before['source_observations'],'whole original source baseline')\nfor row in original_sources+list(original_before['bindings'].values()):eq(m.identity(row['path']),row,'entire original selection retained before preparation')\noriginal_output=Path(repair['roles']['original_complete']['path']).parent\neq(sorted(p.name for p in original_output.iterdir()),['ATTEMPT.json','BEFORE.json','COMPLETE.json','OBSERVATIONS.json'],'unchanged refused original namespace')"
+    ],
+    [
+      "host_original_state=opaque(HOST_INPUT);host_transcript=load(HOST_INPUT);eq(host_transcript['schema']",
+      "host_original_state=opaque(HOST_INPUT);host_transcript=load(HOST_INPUT);need(set(host_transcript)=={'schema','arguments','result','observation'},'closed genuine host transcript');eq(host_transcript['schema']"
+    ],
+    [
+      "def emit(name,data):",
+      "produced={}\ndef emit(name,data):"
+    ],
+    [
+      " p=D/name\n with p.open('xb') as f:",
+      " p=D/name;produced[name]=dict(path=str(p),**m.pin(data))\n with p.open('xb') as f:"
+    ],
+    [
+      " need(p.read_bytes()==data,'saved preparation bytes');return m.ref(p)",
+      " need(p.read_bytes()==data,'saved preparation bytes');actual=m.ref(p);eq(actual,produced[name],'whole captured preparation output pin');return actual"
+    ],
+    [
+      "sources+vendor+tools+packet+review_support+preparation_support+dependency_states+[host_original_state]",
+      "sources+vendor+tools+packet+review_support+preparation_support+dependency_states+original_sources+list(original_before['bindings'].values())+[host_original_state]"
+    ],
+    [
+      "for name in ('tmp','monitor'):need(list((D/name).iterdir())==[],'empty administrative control directory')",
+      "for name in ('tmp','monitor'):need(list((D/name).iterdir())==[],'empty administrative control directory')\neq(sorted(p.name for p in original_output.iterdir()),['ATTEMPT.json','BEFORE.json','COMPLETE.json','OBSERVATIONS.json'],'original refused namespace retained after preparation reads')"
+    ],
+    [
+      "source_domain=971,prior_roles=",
+      "source_domain=971,original_source_observation=repair['roles']['original_sources'],original_bindings=original_before['bindings'],root_namespace_before=root_namespace_before,root_namespace_expected_after=sorted(root_namespace_before+output_names+['tmp','monitor']),produced_before_custody=dict(produced),prior_roles="
+    ],
+    [
+      "print(json.dumps(dict(status='PREPARED_FOR_ROOT_PREFLIGHT_REVIEW_NO_ADMISSION'",
+      "eq({name:m.ref(D/name) for name in produced},produced,'all nine actual preparation output pins');eq(sorted(p.name for p in D.iterdir()),sorted(root_namespace_before+output_names+['tmp','monitor']),'exact final preparation additions only')\nfor name in output_names:\n p=D/name;need(not p.is_symlink() and p.is_file() and p.stat().st_nlink==1 and p.stat().st_size<=67108864,'single-link bounded preparation output')\nfor name in ('tmp','monitor'):need(list((D/name).iterdir())==[],'final empty controls')\nneed(not os.path.lexists(O) and not os.path.lexists(D/'ADMIT_RECONCILE.json') and not os.path.lexists(D/'DISPATCH.json'),'no operational ownership or admission or dispatch');eq(tree(),etree,'final entire E unchanged after all preparation outputs')\nprint(json.dumps(dict(status='PREPARED_FOR_ROOT_PREFLIGHT_REVIEW_NO_ADMISSION'"
+    ]
+  ],
+  "schema": "ri229-source-review-refinements-v1",
+  "source_only": true,
+  "subject_executed": false
+}

@@ -1,0 +1,157 @@
+{
+  "actual_grid_result": null,
+  "adjudication_and_assignment": {
+    "chunk_id": "05b76a",
+    "exit_code": 0,
+    "qr_delivery": "send_message_to_thread returned isError false after idle revision35 snapshot"
+  },
+  "administrative_checker": {
+    "chunk_id": "295128",
+    "exit_code": 0,
+    "preparation": "783c6e",
+    "scope": "Authenticated administrative helper only; literal source and allowlisted administrative metadata; zero qualification execution.",
+    "stderr": {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/CHECK.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "bytes": 542,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/CHECK.stdout",
+      "sha256": "208ede02f3ee79115626053ac731a6414def169af9b49d2fe1e3d5cf92508fcc"
+    }
+  },
+  "display_recoveries": [
+    {
+      "affected": "e17054",
+      "complete_scope": "caller.py311-620",
+      "reason": "Aggregate orchestration display clipped the middle caller read.",
+      "recovery": "a938df"
+    },
+    {
+      "affected": "9e0e1b",
+      "complete_scope": "DEPENDENCY_NOTES.md40-75",
+      "reason": "Combined coverage/dependency display clipped111 tokens.",
+      "recovery": "723a44"
+    }
+  ],
+  "entry_and_source_reads": [
+    {
+      "chunk_id": "30ea71",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "dd5003",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "1b5005",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "7d643c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "4d0067",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "cc4b30",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "47a1a6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9fca11",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "fc7b1c",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e17054",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0cac2d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "a938df",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "0a04d1",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "38ed89",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "e18801",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "9e0e1b",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "88cbd6",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "bb808f",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "723a44",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "50e9e5",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "d3218a",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "b150a3",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "66dc8f",
+      "exit_code": 0
+    }
+  ],
+  "failed_commands": [],
+  "full_report_equality_and_fresh_custody": {
+    "chunk_id": "0b9b5b",
+    "exit_code": 0,
+    "report": {
+      "bytes": 1526,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-root-qualification-review-0dyyjyuy/ROOT_METADATA_REPLAY.json",
+      "sha256": "1de8fc9a418a73ed4fd94df44c2a0d38350d373c97e8d9da63a2358ca21579a4"
+    }
+  },
+  "independent_check": {
+    "chunk_id": "83ba9b",
+    "exit_code": 0,
+    "handoff": {
+      "bytes": 8260,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-independent-qualification-review-2gvpjm9r/HANDOFF.json",
+      "sha256": "a4c99c567890adeee2b429c8947dc095d8fe4098588141a4c9954c4d59d3a65c"
+    },
+    "seal": "966136"
+  },
+  "publication_tools": "Subsequent genuine publication checks/commit/push/remote verification retained separately in this root directory.",
+  "qualification_cases_executed": 0,
+  "schema": "ri161-root-actual-review-tools-v1",
+  "scientific_body_decode": false,
+  "subject_control_import_compile_AST_probe_run": false
+}

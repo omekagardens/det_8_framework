@@ -1,71 +1,30 @@
-"""
-DET v8.1 — Why ℂ (complex field selection)
+"""DET v8.1 — compatible complex structures: conditional correspondence.
 
-The last open item of the correlation-class program: why does the pair-kernel
-𝔇 select the COMPLEX field ℂ rather than ℝ (real QM) or ℍ (quaternionic QM)?
+For the supplied compatible pair G=I, Ω=J0, J=G^{-1}Ω squares to -I,
+and simultaneous form preservation gives O(2m) ∩ Sp(2m,R)=U(m).
+Compatibility is an input, not a consequence of reversibility or positivity.
+The normalized positive family D_t=(I+i tJ0)/2, 0<t<1, is a counterexample
+to the unrestricted implication: planar rotations preserve both forms while
+(G^{-1}Ω)^2=-t^2 I. A real positive kernel can also have interference.
 
-THE ANSWER, STATED HONESTLY. The selection is two-step, and only part of it is
-a-priori derivable.
+These finite calculations do not select complex over real or quaternionic
+operational quantum theories. Real-theory network exclusions depend on the
+specified composition/source/experimental premises; they do not establish
+an imaginary kernel entry as a direct observation. A real vector realization
+of Bell correlators is not a complete real quantum theory or the almost-
+quantum set. No empirical dataset is analyzed by this module.
 
-  (1) WHY NOT ℝ — the imaginary part Ω of 𝔇 = G + iΩ is the PHASE structure.
-      Ω = 0 gives REAL quantum mechanics (real amplitudes, ± phases — still
-      interference, but a restricted one), NOT classical. Real QM is a live
-      alternative that is excluded EMPIRICALLY (Renou et al. 2021: real QM is
-      experimentally falsifiable and falsified). So Ω ≠ 0 is an empirical fact,
-      not an a-priori theorem.
-
-  (2) WHY ℂ AND NOT ℍ — given Ω ≠ 0 (one antisymmetric symplectic form), the
-      reversible dynamics that preserves BOTH the metric G (=Re 𝔇, commit
-      weights) AND the symplectic form Ω (=Im 𝔇, phase) is the unitary group
-      U(m) = O(2m) ∩ Sp(2m,ℝ). The unitary group is DEFINED by a complex
-      structure J = G^{-1}Ω with J² = −I. One Ω ⟹ one J ⟹ one imaginary unit ⟹ ℂ.
-      ℍ would require THREE independent symplectic forms (i, j, k); the record
-      carries ONE (a single arrow of time / single phase).
-
-So: ℂ is forced by (Ω ≠ 0, empirically) + (reversibility, which makes the
-dynamics the unitary group U(m), requiring a complex structure). The genuinely
-open residue is why the record carries exactly ONE phase (Ω) and why its
-dynamics is reversible — those are the speculative §3.4 targets, not proven here.
-
-RELATION TO ALMOST-QUANTUM (the user's point, stated precisely):
-  The static correlation level is REAL-realizable (Tsirelson's theorem: real
-  unit vectors suffice for the (2,2,2) correlation set), so the KINEMATIC level
-  — where Bell tests live — is real/"almost-quantum". The complex structure ℂ
-  is a DYNAMICAL feature (unitary evolution). Hence "almost-quantum is what
-  static correlation experiments directly probe" is defensible, while "full
-  quantum (ℂ)" is the dynamical idealization that why-ℂ addresses. (No
-  super-quantum Q̃∖Q correlation has ever been observed; every observation lies
-  in Q ⊆ Q̃, so the almost-quantum set is a conservative superset.)
-
-What is implemented (pure stdlib):
-
-  - 𝔇 = G + iΩ decomposition (G real symmetric, Ω real antisymmetric);
-  - Ω = 0 ⟹ real QM (interference with ± phases), NOT classical — verified;
-  - the complex structure J = G^{-1}Ω with J² = −I for the compatible
-    (maximally-coherent) family — verified;
-  - the reversible-dynamics identity: an Ω-preserving (symplectic) generator
-    that also preserves G automatically commutes with J (i.e. is complex-linear
-    ⟺ in u(m)), the O ∩ Sp = U(m) statement — verified numerically;
-  - the one-phase argument for ℂ over ℍ.
-
-DERIVATION CERTIFICATE (honest provenance):
-
-  𝔇 = G + iΩ (Hermitian ⇒ symmetric/antisymmetric parts)  MATH — trivial.
-  Ω = 0 ⟹ real QM, not classical            TH-DET — verified.
-  real QM is empirically falsified           MATH — Renou et al. (2021), cited.
-  O(2m) ∩ Sp(2m,ℝ) = U(m)                   MATH — standard Lie-group fact, cited.
-  complex structure J = G^{-1}Ω (J² = −I)    TH-DET — verified on the compatible family.
-  one phase ⇒ ℂ (not ℍ)                     TH-DET — shape argument (single Ω).
-
-  NOT proven: why exactly one Ω (single phase), and why reversible dynamics —
-  those remain the speculative §3.4 targets.
+See the explicit local counterexample and premise audit in
+ docs/validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md, sections 6–7,
+and the qualified operational comparison in
+ docs/validation/t8-q-principle-selection-research-2026-09-13/RESEARCH.md.
+Historical callable names are retained; they do not confer derivation status.
 """
 
 from __future__ import annotations
 
 import math
 import random
-
 
 # ── Small real-matrix helpers ───────────────────────────────────────────────
 
@@ -125,34 +84,23 @@ def is_antisymmetric(A, tol=1e-9):
     return max(abs(A[i][j] + A[j][i]) for i in range(len(A)) for j in range(len(A))) < tol
 
 
-# ── Ω = 0 ⟹ real QM (not classical) ─────────────────────────────────────────
+# ── Real positive kernels can interfere ────────────────────────────────────
 
 
 def real_part_gives_real_qm() -> dict:
-    """A real symmetric PSD pair-kernel has nonzero pairwise interference.
-
-    Ω = 0 removes the PHASE (Im 𝔇), not the interference (2 Re 𝔇). Real QM
-    still has interference — only its phases are restricted to ±1.
-    """
-    D = [[0.5, 0.3], [0.3, 0.5]]  # real symmetric, PSD (eig 0.8, 0.2).
-
-    def mu(A):
-        return sum(D[i][j] for i in A for j in A)
-
-    i2 = mu({0, 1}) - mu({0}) - mu({1})
+    """Historical name: exhibit real-kernel interference, not a full real theory."""
+    D = [[1 / 3, 1 / 6], [1 / 6, 1 / 3]]
+    i2 = sum(sum(row) for row in D) - D[0][0] - D[1][1]
     return {
         "I2": i2,
+        "kernel": D,
         "real_QM_not_classical": abs(i2) > 1e-9,
-        "conclusion": (
-            f"I_2 = 2 Re 𝔇({{0}},{{1}}) = {i2:.3f} ≠ 0 — a real pair-kernel is "
-            "REAL quantum mechanics (interference with ± phases), not classical. "
-            "Ω = 0 removes the complex phase, not the interference."
-        ),
+        "conclusion": "A normalized real positive kernel CAN interfere; real entries do not imply classical additivity.",
         "real_qm_ruled_out_empirically": (
-            "Real QM is experimentally falsifiable and falsified (Renou et al. "
-            "2021, 'Quantum theory based on real numbers can be experimentally "
-            "falsified'). So Ω ≠ 0 is an EMPIRICAL fact, not a theorem."
+            "Exclusions of specified real quantum network models require composition, "
+            "source and experimental premises. This calculation supplies no empirical exclusion."
         ),
+        "scope": {"full_real_qm_reconstructed": False, "empirical_exclusion_performed": False},
     }
 
 
@@ -186,11 +134,13 @@ def complex_structure(m: int = 2) -> dict:
     # also confirm D = G + iΩ is Hermitian PSD (rank m) — eigenvalues are 0 (m×) and 2 (m×).
     return {
         "dim": n,
+        "compatibility_assumed": True,
+        "complex_field_selected": False,
         "J_squared_equals_minus_I": err < 1e-9,
         "max_abs_error": err,
         "conclusion": (
             f"J = G^{-1}Ω satisfies J² = −I (error {err:.1e}) — a complex "
-            "structure. One symplectic form Ω ⟹ one complex structure ⟹ ℂ."
+            "structure for the supplied compatible forms; the physical scalar field is not selected."
         ),
     }
 
@@ -200,7 +150,7 @@ def complex_structure(m: int = 2) -> dict:
 
 def reversible_dynamics_require_complex(m: int = 2, n_trials: int = 50,
                                         seed: int = 42) -> dict:
-    """Verify the identity that makes reversible dynamics unitary (complex).
+    """Check the generator identity conditional on supplied compatible forms.
 
     For G = I and Ω = J₀, a generator X preserves G iff X is antisymmetric
     (X^T = −X). The symplectic (Ω-preserving) condition X^T Ω + Ω X = 0 is then
@@ -231,13 +181,15 @@ def reversible_dynamics_require_complex(m: int = 2, n_trials: int = 50,
             mismatch += 1
     return {
         "n_trials": n_trials,
+        "compatibility_assumed": True,
+        "complex_field_selected": False,
         "symplectic_iff_commutes_with_J": mismatch == 0,
         "mismatches": mismatch,
         "conclusion": (
             "A generator that preserves both G (metric) and Ω (phase) is exactly "
             "the set {X antisymmetric, X J = J X} = u(m), the unitary Lie "
-            "algebra — complex-linear dynamics. Reversibility (preserving both "
-            "G and Ω) therefore forces the complex structure, hence ℂ."
+            "algebra for the supplied G=I, Ω=J0. This conditional identity "
+            "does not derive compatibility or select a physical scalar field."
         ),
     }
 
@@ -248,18 +200,15 @@ def reversible_dynamics_require_complex(m: int = 2, n_trials: int = 50,
 def why_not_quaternions() -> dict:
     return {
         "quaternionic_would_need_three_phases": (
-            "ℍ has three imaginary units i,j,k — three independent antisymmetric "
-            "forms Ω₁, Ω₂, Ω₃, hence three complex structures. The Hermitian "
-            "decomposition 𝔇 = G + iΩ has exactly ONE antisymmetric part."
+            "Quaternion algebra has three imaginary units. Relating them to physical "
+            "forms or dynamics requires an independently specified operational theory."
         ),
         "one_phase_gives_C": (
-            "One Ω ⟹ one complex structure J = G^{-1}Ω ⟹ one imaginary unit ⟹ ℂ."
+            "The one imaginary part of an already complex-valued D does not select "
+            "complex scalars or exclude quaternionic operational completions."
         ),
-        "honest_caveat": (
-            "The 'single Ω' is the record's single arrow of time / single phase. "
-            "WHY exactly one (rather than three) is not derived here — it is the "
-            "speculative §3.4 target, stated honestly as an assumption."
-        ),
+        "honest_caveat": "Neither one causal order nor one written antisymmetric part proves scalar-field selection.",
+        "selects_complex_over_quaternionic": False,
     }
 
 
@@ -267,36 +216,18 @@ def why_not_quaternions() -> dict:
 
 
 def connection_to_observation() -> dict:
-    """The precise relationship between almost-quantum, ℂ, and observation."""
+    """Keep correlator representations, operational theories and observations distinct."""
     return {
-        "no_superquantum_observed": (
-            "No Q̃∖Q (super-quantum) correlation has ever been observed; nature "
-            "obeys the quantum set Q."
-        ),
-        "but_everything_observed_is_in_Qtilde": (
-            "Since Q ⊆ Q̃, every observed correlation is also in Q̃. The "
-            "almost-quantum set is therefore a CONSERVATIVE superset, consistent "
-            "with all data."
-        ),
-        "kinematics_are_real": (
-            "Tsirelson's theorem: the (2,2,2) correlation set is real-realizable "
-            "(real unit vectors suffice). So the STATIC correlation level — what "
-            "Bell tests probe — is real, and 'almost quantum' is its natural "
-            "relaxation."
-        ),
-        "complex_is_dynamical": (
-            "The complex structure ℂ is forced by the DYNAMICS (reversible "
-            "evolution ⇒ U(m)), not by static correlations. So 'full quantum ℂ' "
-            "is the dynamical idealization; 'almost quantum ℝ' is the kinematic "
-            "level directly probed by static experiments."
-        ),
-        "verdict": (
-            "The claim 'almost-quantum is more observed than full quantum' is "
-            "defensible in this precise sense: static experiments probe the real "
-            "(almost-quantum) level, while ℂ (full quantum) is a dynamical "
-            "structure that why-ℂ explains. It is NOT defensible as 'super-quantum "
-            "correlations are observed' — none are."
-        ),
+        "no_superquantum_observed": "This module analyzes no empirical dataset and makes no exhaustive observation claim.",
+        "but_everything_observed_is_in_Qtilde": "Quantum correlations are contained in the almost-quantum relaxation; set inclusion is not evidence selecting that relaxation.",
+        "kinematics_are_real": "The (2,2,2) quantum correlator projection is real-realizable by unit vectors; this is not a full real operational theory.",
+        "complex_is_dynamical": "Compatible forms describe a complex-linear dynamical family; reversibility alone does not select the complex field.",
+        "verdict": "Real correlator coordinates, real quantum theory and almost-quantum correlations are different claims; these examples select none as physical reality.",
+        "scope": {
+            "empirical_data_analyzed": False,
+            "real_correlators_equal_almost_quantum": False,
+            "complex_field_selected": False,
+        },
     }
 
 
@@ -305,24 +236,21 @@ def connection_to_observation() -> dict:
 
 def derivation_certificate() -> dict:
     return {
-        "theorem": "why-ℂ — complex field selection",
+        "theorem": "Conditional compatible-form identity and field-selection counterexample",
         "deliverables": {
-            "𝔇 = G + iΩ (symmetric/antisymmetric parts)": "MATH — trivial Hermitian decomposition",
-            "Ω = 0 ⟹ real QM, not classical": "TH-DET — verified",
-            "real QM empirically falsified": "MATH — Renou et al. (2021), cited",
-            "O(2m) ∩ Sp(2m,ℝ) = U(m)": "MATH — standard Lie-group fact, cited",
-            "J = G^{-1}Ω with J² = −I": "TH-DET — verified on the compatible family",
-            "one Ω ⟹ ℂ (not ℍ)": "TH-DET — shape argument (single phase)",
+            "D=G+iΩ": "MATH — Hermitian decomposition of an admitted complex matrix",
+            "real positive kernels can interfere": "MATH — explicit normalized example",
+            "O(2m) ∩ Sp(2m,R)=U(m) for compatible forms": "MATH — supplied G=I, Ω=J0",
+            "reversibility does not force J²=-I": "MATH — D_t counterexample",
         },
+        "scope": {"compatibility_assumed": True, "complex_field_selected": False,
+                  "empirical_exclusion_performed": False},
         "not_derived_here": [
-            "why exactly ONE phase Ω (single arrow of time) — speculative §3.4",
-            "why the record dynamics is reversible — speculative §3.4",
+            "physical availability and compatibility of G and Ω",
+            "selection of complex rather than real or quaternionic operational theory",
+            "the realized dynamics or a physical reversible generator",
         ],
-        "status": (
-            "ℂ is forced by (empirical Ω ≠ 0) + (reversibility ⇒ unitary dynamics "
-            "⇒ complex structure). The residual 'why one Ω / why reversible' is "
-            "the genuinely open, speculative part."
-        ),
+        "status": "CONDITIONAL_COMPATIBLE_FAMILY; FIELD_SELECTION_NOT_DERIVED",
     }
 
 
@@ -336,13 +264,37 @@ def run_why_complex() -> dict:
         "reversible_dynamics_require_complex": reversible_dynamics_require_complex(m=2),
         "why_not_quaternions": why_not_quaternions(),
         "connection_to_observation": connection_to_observation(),
+        "counterexample": reversible_form_counterexample(),
         "certificate": derivation_certificate(),
         "interpretation": (
-            "Ω = 0 gives real QM (interference with ± phases), excluded empirically. "
-            "With Ω ≠ 0, reversible dynamics preserving both G and Ω is the unitary "
-            "group U(m), defined by the complex structure J = G^{-1}Ω with J² = −I. "
-            "One Ω ⟹ one J ⟹ ℂ (ℍ would need three). Static correlations are "
-            "real ('almost-quantum'), while ℂ is the dynamical structure — the "
-            "precise sense in which 'almost-quantum is what is directly observed.'"
+            "Real positive kernels can interfere. The chosen compatible forms give "
+            "J²=-I and U(m); a positive reversible counterexample violates J²=-I. "
+            "Compatibility, scalar-field selection and physical dynamics remain additional obligations."
         ),
+    }
+
+
+def reversible_form_counterexample(t: float = 0.5) -> dict:
+    """Normalized positive D_t with form-preserving rotations but J² != -I."""
+    if isinstance(t, bool) or not math.isfinite(t) or not 0 < t < 1:
+        raise ValueError("t must be finite and strictly between zero and one")
+    J0 = standard_symplectic(1)
+    G = [[0.5, 0.0], [0.0, 0.5]]
+    omega = _scale(t / 2, J0)
+    D = [[complex(G[i][j], omega[i][j]) for j in range(2)] for i in range(2)]
+    J = _matmul(_inverse(G), omega)
+    squared = _matmul(J, J)
+    rotation = J0
+    preserved = all(
+        _frob([[actual[i][j] - form[i][j] for j in range(2)] for i in range(2)]) < 1e-12
+        for form in (G, omega)
+        for actual in [_matmul(_matmul(_transpose(rotation), form), rotation)]
+    )
+    return {
+        "kernel": D, "eigenvalues": ((1 - t) / 2, (1 + t) / 2),
+        "J": J, "J_squared": squared, "rotation_preserves_both_forms": preserved,
+        "J_squared_equals_minus_I": all(
+            abs(squared[i][j] + (1 if i == j else 0)) < 1e-12
+            for i in range(2) for j in range(2)),
+        "complex_field_selected": False,
     }

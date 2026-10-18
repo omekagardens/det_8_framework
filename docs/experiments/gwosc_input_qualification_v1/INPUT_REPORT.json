@@ -1,0 +1,1140 @@
+{
+  "detectors": [
+    {
+      "analysis_selection": {
+        "other_quality_and_injection_flags": "retained in full; no science-specific mask selected",
+        "rule": "Only DATA-bit absence is recorded as exclusion in this qualification step."
+      },
+      "data_quality": {
+        "attributes": {
+          "Bits": 7,
+          "Description": "A bitmask encoded as an integer-valued timeseries. The first \"Bits\" bits might be used, for each there is an entry in \"Bits\", \"Shortnames\", \"Descriptions\", one for each bit.",
+          "Npoints": 32,
+          "Xlabel": "GPS time",
+          "Xspacing": 1.0,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "DQmask"
+        },
+        "dataset": "/quality/simple/DQmask",
+        "dtype": "uint32",
+        "flags": [
+          {
+            "bit": 0,
+            "description": "data present",
+            "name": "DATA",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 1,
+            "description": "passes cbc CAT1 test",
+            "name": "CBC_CAT1",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 2,
+            "description": "passes cbc CAT2 test",
+            "name": "CBC_CAT2",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 3,
+            "description": "passes cbc CAT3 test",
+            "name": "CBC_CAT3",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 4,
+            "description": "passes burst CAT1 test",
+            "name": "BURST_CAT1",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 5,
+            "description": "passes burst CAT2 test",
+            "name": "BURST_CAT2",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 6,
+            "description": "passes burst CAT3 test",
+            "name": "BURST_CAT3",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          }
+        ],
+        "interval_convention": "half-open GPS seconds [start,end)",
+        "raw_bitfields": [
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127
+        ],
+        "shape": [
+          32
+        ]
+      },
+      "filename": "H-H1_LOSC_4_V2-1126259446-32.hdf5",
+      "hardware_injection_flags": {
+        "attributes": {
+          "Bits": 5,
+          "Description": "A bitmask encoded as an integer-valued timeseries. The first \"Bits\" bits might be used, for each there is an entry in \"Bits\", \"Shortnames\", \"Descriptions\", one for each bit.",
+          "Npoints": 32,
+          "Xlabel": "GPS time",
+          "Xspacing": 1.0,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "Injmask"
+        },
+        "dataset": "/quality/injections/Injmask",
+        "dtype": "uint32",
+        "flags": [
+          {
+            "bit": 0,
+            "description": "no cbc injections",
+            "name": "NO_CBC_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 1,
+            "description": "no burst inejctions",
+            "name": "NO_BURST_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 2,
+            "description": "no detchar injections",
+            "name": "NO_DETCHAR_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 3,
+            "description": "no continuous wave injections",
+            "name": "NO_CW_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 4,
+            "description": "no stoch injection",
+            "name": "NO_STOCH_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          }
+        ],
+        "interval_convention": "half-open GPS seconds [start,end)",
+        "raw_bitfields": [
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31
+        ],
+        "shape": [
+          32
+        ]
+      },
+      "identity": {
+        "bytes": 1040592,
+        "md5": "50441a42c13fc1f14e5c4ea5527f1515",
+        "sha256": "6e6976e932074a3b4e4a398ed02c62e30fcaa2781811762caea04937133583f6"
+      },
+      "metadata": {
+        "Description": "Strain data time series from LIGO",
+        "DescriptionURL": "http://losc.ligo.org/",
+        "Detector": "H1",
+        "Duration": 32,
+        "GPSstart": 1126259446,
+        "Observatory": "H",
+        "Type": "StrainTimeSeries",
+        "UTCstart": "2015-09-14T09:50:29"
+      },
+      "missing_and_excluded_by_DATA": [],
+      "status": "identity_and_structure_verified",
+      "strain": {
+        "attributes": {
+          "Npoints": 131072,
+          "Xlabel": "GPS time",
+          "Xspacing": 0.000244140625,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "Strain",
+          "Yunits": ""
+        },
+        "dataset": "/strain/Strain",
+        "dtype": "float64",
+        "finite_samples": 131072,
+        "infinite_samples": 0,
+        "nan_samples": 0,
+        "per_second_DATA_consistency": [
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259447,
+            "gps_start": 1126259446,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259448,
+            "gps_start": 1126259447,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259449,
+            "gps_start": 1126259448,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259450,
+            "gps_start": 1126259449,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259451,
+            "gps_start": 1126259450,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259452,
+            "gps_start": 1126259451,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259453,
+            "gps_start": 1126259452,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259454,
+            "gps_start": 1126259453,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259455,
+            "gps_start": 1126259454,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259456,
+            "gps_start": 1126259455,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259457,
+            "gps_start": 1126259456,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259458,
+            "gps_start": 1126259457,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259459,
+            "gps_start": 1126259458,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259460,
+            "gps_start": 1126259459,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259461,
+            "gps_start": 1126259460,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259462,
+            "gps_start": 1126259461,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259463,
+            "gps_start": 1126259462,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259464,
+            "gps_start": 1126259463,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259465,
+            "gps_start": 1126259464,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259466,
+            "gps_start": 1126259465,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259467,
+            "gps_start": 1126259466,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259468,
+            "gps_start": 1126259467,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259469,
+            "gps_start": 1126259468,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259470,
+            "gps_start": 1126259469,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259471,
+            "gps_start": 1126259470,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259472,
+            "gps_start": 1126259471,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259473,
+            "gps_start": 1126259472,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259474,
+            "gps_start": 1126259473,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259475,
+            "gps_start": 1126259474,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259476,
+            "gps_start": 1126259475,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259477,
+            "gps_start": 1126259476,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259478,
+            "gps_start": 1126259477,
+            "nan_samples": 0
+          }
+        ],
+        "sample_grid": {
+          "end_exclusive": "1126259478",
+          "first_sample": "1126259446",
+          "last_sample": "4613158821887/4096",
+          "rate_hz": 4096,
+          "representation": "implicit index grid; no separate time array",
+          "spacing": "1/4096",
+          "time_scale": "GPS",
+          "unit": "second"
+        },
+        "shape": [
+          131072
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "analysis_selection": {
+        "other_quality_and_injection_flags": "retained in full; no science-specific mask selected",
+        "rule": "Only DATA-bit absence is recorded as exclusion in this qualification step."
+      },
+      "data_quality": {
+        "attributes": {
+          "Bits": 7,
+          "Description": "A bitmask encoded as an integer-valued timeseries. The first \"Bits\" bits might be used, for each there is an entry in \"Bits\", \"Shortnames\", \"Descriptions\", one for each bit.",
+          "Npoints": 32,
+          "Xlabel": "GPS time",
+          "Xspacing": 1.0,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "DQmask"
+        },
+        "dataset": "/quality/simple/DQmask",
+        "dtype": "uint32",
+        "flags": [
+          {
+            "bit": 0,
+            "description": "data present",
+            "name": "DATA",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 1,
+            "description": "passes cbc CAT1 test",
+            "name": "CBC_CAT1",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 2,
+            "description": "passes cbc CAT2 test",
+            "name": "CBC_CAT2",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 3,
+            "description": "passes cbc CAT3 test",
+            "name": "CBC_CAT3",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 4,
+            "description": "passes burst CAT1 test",
+            "name": "BURST_CAT1",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 5,
+            "description": "passes burst CAT2 test",
+            "name": "BURST_CAT2",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 6,
+            "description": "passes burst CAT3 test",
+            "name": "BURST_CAT3",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          }
+        ],
+        "interval_convention": "half-open GPS seconds [start,end)",
+        "raw_bitfields": [
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127,
+          127
+        ],
+        "shape": [
+          32
+        ]
+      },
+      "filename": "L-L1_LOSC_4_V2-1126259446-32.hdf5",
+      "hardware_injection_flags": {
+        "attributes": {
+          "Bits": 5,
+          "Description": "A bitmask encoded as an integer-valued timeseries. The first \"Bits\" bits might be used, for each there is an entry in \"Bits\", \"Shortnames\", \"Descriptions\", one for each bit.",
+          "Npoints": 32,
+          "Xlabel": "GPS time",
+          "Xspacing": 1.0,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "Injmask"
+        },
+        "dataset": "/quality/injections/Injmask",
+        "dtype": "uint32",
+        "flags": [
+          {
+            "bit": 0,
+            "description": "no cbc injections",
+            "name": "NO_CBC_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 1,
+            "description": "no burst inejctions",
+            "name": "NO_BURST_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 2,
+            "description": "no detchar injections",
+            "name": "NO_DETCHAR_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          },
+          {
+            "bit": 3,
+            "description": "no continuous wave injections",
+            "name": "NO_CW_HW_INJ",
+            "one_intervals_gps": [],
+            "seconds_one": 0,
+            "seconds_zero": 32,
+            "zero_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ]
+          },
+          {
+            "bit": 4,
+            "description": "no stoch injection",
+            "name": "NO_STOCH_HW_INJ",
+            "one_intervals_gps": [
+              [
+                1126259446,
+                1126259478
+              ]
+            ],
+            "seconds_one": 32,
+            "seconds_zero": 0,
+            "zero_intervals_gps": []
+          }
+        ],
+        "interval_convention": "half-open GPS seconds [start,end)",
+        "raw_bitfields": [
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23,
+          23
+        ],
+        "shape": [
+          32
+        ]
+      },
+      "identity": {
+        "bytes": 1007420,
+        "md5": "361ae6a040a9fef7897b1e0124d5b0a1",
+        "sha256": "56706e68c811b15548f1d7ed69d7c48d5fcc62aeb21fbaf131355f3cc5c07189"
+      },
+      "metadata": {
+        "Description": "Strain data time series from LIGO",
+        "DescriptionURL": "http://losc.ligo.org/",
+        "Detector": "L1",
+        "Duration": 32,
+        "GPSstart": 1126259446,
+        "Observatory": "L",
+        "Type": "StrainTimeSeries",
+        "UTCstart": "2015-09-14T09:50:29"
+      },
+      "missing_and_excluded_by_DATA": [],
+      "status": "identity_and_structure_verified",
+      "strain": {
+        "attributes": {
+          "Npoints": 131072,
+          "Xlabel": "GPS time",
+          "Xspacing": 0.000244140625,
+          "Xstart": 1126259446,
+          "Xunits": "second",
+          "Ylabel": "Strain",
+          "Yunits": ""
+        },
+        "dataset": "/strain/Strain",
+        "dtype": "float64",
+        "finite_samples": 131072,
+        "infinite_samples": 0,
+        "nan_samples": 0,
+        "per_second_DATA_consistency": [
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259447,
+            "gps_start": 1126259446,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259448,
+            "gps_start": 1126259447,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259449,
+            "gps_start": 1126259448,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259450,
+            "gps_start": 1126259449,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259451,
+            "gps_start": 1126259450,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259452,
+            "gps_start": 1126259451,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259453,
+            "gps_start": 1126259452,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259454,
+            "gps_start": 1126259453,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259455,
+            "gps_start": 1126259454,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259456,
+            "gps_start": 1126259455,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259457,
+            "gps_start": 1126259456,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259458,
+            "gps_start": 1126259457,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259459,
+            "gps_start": 1126259458,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259460,
+            "gps_start": 1126259459,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259461,
+            "gps_start": 1126259460,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259462,
+            "gps_start": 1126259461,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259463,
+            "gps_start": 1126259462,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259464,
+            "gps_start": 1126259463,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259465,
+            "gps_start": 1126259464,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259466,
+            "gps_start": 1126259465,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259467,
+            "gps_start": 1126259466,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259468,
+            "gps_start": 1126259467,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259469,
+            "gps_start": 1126259468,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259470,
+            "gps_start": 1126259469,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259471,
+            "gps_start": 1126259470,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259472,
+            "gps_start": 1126259471,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259473,
+            "gps_start": 1126259472,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259474,
+            "gps_start": 1126259473,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259475,
+            "gps_start": 1126259474,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259476,
+            "gps_start": 1126259475,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259477,
+            "gps_start": 1126259476,
+            "nan_samples": 0
+          },
+          {
+            "DATA": true,
+            "finite_samples": 4096,
+            "gps_end_exclusive": 1126259478,
+            "gps_start": 1126259477,
+            "nan_samples": 0
+          }
+        ],
+        "sample_grid": {
+          "end_exclusive": "1126259478",
+          "first_sample": "1126259446",
+          "last_sample": "4613158821887/4096",
+          "rate_hz": 4096,
+          "representation": "implicit index grid; no separate time array",
+          "spacing": "1/4096",
+          "time_scale": "GPS",
+          "unit": "second"
+        },
+        "shape": [
+          131072
+        ]
+      },
+      "warnings": [
+        {
+          "code": "NO_INJECTION_FLAG_NOT_SET",
+          "flag": "NO_CW_HW_INJ",
+          "meaning": "This no-injection flag is not asserted. No scientific exclusion is applied here.",
+          "zero_intervals_gps": [
+            [
+              1126259446,
+              1126259478
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "event": "GW150914",
+  "interpretation_boundary": {
+    "C02_calibration": "external publisher release identification, not a literal calibration header",
+    "calibration_uncertainty": "applicable artifact values, interpolation and correlations remain unqualified",
+    "dimensionless_strain": "publisher interpretation; the literal strain Yunits attribute is empty",
+    "native_gravity_comparison": "no native forward law or DET-versus-GR inference supplied",
+    "prior_access": "known public reference event; not blind evaluation data",
+    "scientific_fit_readiness": "not established by identity, structure, finite samples or quality flags"
+  },
+  "schema_version": "gwosc-fixed-pair-qualification-v1",
+  "status": "identity_and_structure_verified",
+  "strain_product_version": "V2"
+}

@@ -1,0 +1,34 @@
+{
+  "accepted": [
+    "v<=T_R implies b<0 throughout(0,R], including equality",
+    "T_R/B>7957/891>8; v<=8B sufficient with strict normalized margin829/7128",
+    "unique crossover and exact canonical-correlated upper-q test in complement",
+    "separate v<=B implies a(R)>0, formal near-zero-y consequence only"
+  ],
+  "actual_W_sign_determined": false,
+  "actual_check": {
+    "exit_code": 0,
+    "identities": 308,
+    "receipt": "b9ca1e"
+  },
+  "actual_regime_determined": false,
+  "manual_review": {
+    "bytes": 4667,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI173_ROOT_PROOF_REVIEW.md",
+    "sha256": "31ba00825711f7bb96a7c40a6f561491a871a4f0f78209dca80d9bb308a4c60c"
+  },
+  "metadata_check": {
+    "bytes": 174586,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI173_ROOT_METADATA_CHECK.json",
+    "sha256": "862e5254b61a6185b81f3acf963fb95e40767c9c6981c872c9a17584e50d6004"
+  },
+  "ret_paused": true,
+  "schema": "ri173-independent-root-proof-decision-v1",
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_SAME_LAW_SLOPE_ONLY",
+  "subject": {
+    "bytes": 5840,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri173-same-law-endpoint-slope-ckec5j02/HANDOFF.json",
+    "sha256": "8eae3401a62721a0e9d569e6b9ec10e0bb6961e7522a839693e1da7bf6dfa504"
+  }
+}

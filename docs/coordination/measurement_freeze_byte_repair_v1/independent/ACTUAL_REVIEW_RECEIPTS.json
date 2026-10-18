@@ -1,0 +1,83 @@
+{
+  "administrative_failures": [],
+  "author_seal_2f95a6_origin": "Parent-reported; source handoff has no self pin or final tool receipt",
+  "checker": {
+    "bytes": 11343,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/check_metadata.py",
+    "sha256": "629d9c028ec9a180884498301c27ff75c04a14cf71230d7574f3f4e720388991"
+  },
+  "diagnostics": [
+    {
+      "description": "Combined operational-source display truncated; exact omitted boundary spans separately read. No source execution failure.",
+      "kind": "aggregate_display_truncation",
+      "recovered": true,
+      "recovery_chunk": "278849"
+    }
+  ],
+  "historical_failure_preserved": "Root preparation cb9b00 exit1; no installer execution",
+  "independent_command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/check_metadata.py > /Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK.log 2>&1",
+  "log": {
+    "bytes": 327,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK.log",
+    "sha256": "0ff0e411499b236f665af27d1fab7a66d6badbcc86b5a9e80e428878af850ec4"
+  },
+  "receipts": [
+    {
+      "chunk_id": "e8c31d",
+      "exit_code": 0,
+      "scope": "handoff and manifest read"
+    },
+    {
+      "chunk_id": "8a2742",
+      "exit_code": 0,
+      "scope": "installer complete command; aggregate display later recovered"
+    },
+    {
+      "chunk_id": "278849",
+      "exit_code": 0,
+      "scope": "recovered installer214-237 and checker1-55"
+    },
+    {
+      "chunk_id": "1248b5",
+      "exit_code": 0,
+      "scope": "namespace and payload verification, exclusive review reservation and author records"
+    },
+    {
+      "chunk_id": "c80894",
+      "exit_code": 0,
+      "scope": "complete protocol"
+    },
+    {
+      "chunk_id": "2679bb",
+      "exit_code": 0,
+      "scope": "complete source diff"
+    },
+    {
+      "chunk_id": "bad882",
+      "exit_code": 0,
+      "scope": "complete author administrative checker and builder source read only"
+    },
+    {
+      "chunk_id": "3d1ebd",
+      "exit_code": 0,
+      "scope": "full assignment/supersession/failure/provenance and selected metadata shapes"
+    },
+    {
+      "chunk_id": "6ffbe1",
+      "exit_code": 0,
+      "scope": "independent administrative checker; CHECK.log captures output"
+    },
+    {
+      "chunk_id": "246337",
+      "exit_code": 0,
+      "scope": "complete independent check output read"
+    }
+  ],
+  "result": {
+    "bytes": 500356,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-independent-byte-review-ds_vkq74/CHECK_RESULT.json",
+    "sha256": "293093d9ba79da5eaa61d7774d063447601672e517737cae9d257dd112a21a84"
+  },
+  "schema": "ri218-independent-review-receipts-v1",
+  "subject_execution": false
+}

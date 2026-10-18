@@ -1,0 +1,109 @@
+{
+  "active_card_or_admission_created": false,
+  "administrative_read_chunks": [
+    "6f15fa",
+    "31c4e0",
+    "04c23e",
+    "9b30ea",
+    "c01d75",
+    "6e2ece",
+    "95dbd2",
+    "2fec4b",
+    "9a371a",
+    "e84f41",
+    "bbe2ba",
+    "c23013"
+  ],
+  "all_read_commands_exit_code": 0,
+  "authority": "Reviewer-retained actual tool call results in this conversation; this record is not a self-authenticating external authority.",
+  "current_runtime_inventory": false,
+  "failed_review_checks": [
+    {
+      "cause": "Initial saved-evidence read boundary excluded a pinned repository dependency.",
+      "chunk_id": "30a399",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "complete_retained_diagnostic": {
+        "bytes": 824577,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_01.json",
+        "sha256": "3a88cd7cc46a9a30d1227350f66ec91d657bbaf1ec944106928b92e2a217d8e3"
+      },
+      "correction_command_chunk": "4e444a",
+      "exit_code": 1,
+      "source_at_failure": {
+        "bytes": 32012,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-repository-read-boundary-fix.py",
+        "sha256": "2eebae9f457124a2427d3f2e1825844c155cecc45d27f6c47d10d6a7a479c005"
+      },
+      "subject_failure": false,
+      "subject_retried": false,
+      "wall_time_seconds": 0.012688333
+    },
+    {
+      "cause": "Reviewer canonical JSON comparator received bytes operands.",
+      "chunk_id": "42a18e",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "complete_retained_diagnostic": {
+        "bytes": 986544,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_02.json",
+        "sha256": "6bbe8f0b700ff4795e84dda94ea97b7b2449070ccc4c203a6c5835c7c99cc9cd"
+      },
+      "correction_command_chunk": "66433c",
+      "exit_code": 1,
+      "source_at_failure": {
+        "bytes": 32168,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-bytes-comparison-fix.py",
+        "sha256": "23346af1a3b480b7ddcff6d51a38ad58447ccb30fcd8d195f6eda753809ecf23"
+      },
+      "subject_failure": false,
+      "subject_retried": false,
+      "wall_time_seconds": 0.238835209
+    },
+    {
+      "cause": "Reviewer imposed unrequired canonical framing on opaque genuine tool transcription.",
+      "chunk_id": "32da23",
+      "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "complete_retained_diagnostic": {
+        "bytes": 10183904,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/FAILED_CHECK_03.json",
+        "sha256": "81f203c24ea10493d7667a9731b027a9c408acf899f8394b3f9c7e02fbc388f5"
+      },
+      "correction_command_chunk": "ac38a3",
+      "exit_code": 1,
+      "source_at_failure": {
+        "bytes": 32273,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.before-raw-tool-framing-fix.py",
+        "sha256": "a2c3590ae948062690e1d2bd5f55abf85243bb686b598d10d2bf3ecdf33d7c87"
+      },
+      "subject_failure": false,
+      "subject_retried": false,
+      "wall_time_seconds": 0.692618708
+    }
+  ],
+  "findings_write": {
+    "chunk_id": "36dd7f",
+    "exit_code": 0
+  },
+  "repository_git_index_mutations": false,
+  "schema": "ri148-independent-review-command-record-v1",
+  "scientific_or_subject_execution": false,
+  "source_creation": {
+    "chunk_id": "3646f9",
+    "exit_code": 0
+  },
+  "successful_review_check": {
+    "chunk_id": "d8ab59",
+    "command": "python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+    "complete_result": {
+      "bytes": 10229837,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/SAVED_NORMAL_CHECKS.json",
+      "sha256": "28b585aac113515afecc8094f56fd7c677007d10c872ab87b4335707aae8b3ec"
+    },
+    "exit_code": 0,
+    "source": {
+      "bytes": 32314,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri148-independent-normal-review-fbnud7fq/review_saved_normal.py",
+      "sha256": "97c057cc0a47143647234b7ce99f00eb27eecbc68bdb30c87f4645c5405ace55"
+    },
+    "wall_time_seconds": 0.756337625
+  }
+}

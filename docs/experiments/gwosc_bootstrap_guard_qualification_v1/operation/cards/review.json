@@ -1,0 +1,100 @@
+{
+  "RET_paused": true,
+  "actual_administrative_check": {
+    "exit_code": 0,
+    "result": {
+      "bytes": 134963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/OPAQUE_TEXT_CHECK.json",
+      "sha256": "120bfdeecf465558561734a81267c7ce12296d696b9e4f447923a471d976736f"
+    },
+    "tool_chunk": "1b1cb5"
+  },
+  "additions": 30,
+  "all15_cases_manually_reviewed": true,
+  "author_diagnostics_preserved": true,
+  "blocking_findings": [],
+  "case_or_fixture_execution": false,
+  "complete_monitor_and_two_part_diff_checked": true,
+  "complete_packet_files": 10,
+  "complete_source_lines": 736,
+  "current_supplier_runtime_observation": false,
+  "exact_namespace": [
+    "ACTUAL_REVIEWER_CHECK.json",
+    "FINAL_SOURCE_CUSTODY.json",
+    "HANDOFF.json",
+    "INDEPENDENT_SOURCE_REVIEW.json",
+    "INDEPENDENT_SOURCE_REVIEW.md",
+    "OPAQUE_TEXT_CHECK.json",
+    "PUBLICATION_SUBSET.json",
+    "check_metadata.py"
+  ],
+  "files": [
+    {
+      "bytes": 1442,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/ACTUAL_REVIEWER_CHECK.json",
+      "sha256": "63b029d73485b52f23ca563aeea2d942195344e58702018e03c4c0b2b39a85bf"
+    },
+    {
+      "bytes": 2930,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "451cf185b952062dec7fb6ff55d099abbeac54fc9f97d57a0c62c1e0b657d108"
+    },
+    {
+      "bytes": 4176,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "28fa78d6015d4f8c545740ec7fa46d904159c73972314b6319d507a79ee9e350"
+    },
+    {
+      "bytes": 22143,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "e8f99129955811cd382f62c7c4de956c3540f997e0712a40c82b54480c661ff3"
+    },
+    {
+      "bytes": 134963,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/OPAQUE_TEXT_CHECK.json",
+      "sha256": "120bfdeecf465558561734a81267c7ce12296d696b9e4f447923a471d976736f"
+    },
+    {
+      "bytes": 1911,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/PUBLICATION_SUBSET.json",
+      "sha256": "e485e342c5129ba2cdb821a561d419d81f31dfc2189d32a11622c3b57b830c81"
+    },
+    {
+      "bytes": 11698,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/check_metadata.py",
+      "sha256": "030aa9eb6fc81675c114476c29d70a52297c50f839da786c982a0f078c470cfb"
+    }
+  ],
+  "final_source_check": {
+    "exit_code": 0,
+    "result": {
+      "bytes": 2930,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3/FINAL_SOURCE_CUSTODY.json",
+      "sha256": "451cf185b952062dec7fb6ff55d099abbeac54fc9f97d57a0c62c1e0b657d108"
+    },
+    "tool_chunk": "24c3f0"
+  },
+  "inherited": 442,
+  "opaque_bytes": 26701752,
+  "opaque_dependencies": 472,
+  "operational_admission": false,
+  "preserved_RI139_subset": 310,
+  "prior_RI125_RI131_authorship_disclosed": true,
+  "protected_roots": 393,
+  "remaining": "Root source adjudication; authentic fresh bootstrap/source/host/environment/custody and closed cards; one genuinely admitted normal isolated15 operation; full independent actual15 review and root decision before separate genuine production parent/PRE/POST capture. Old25 remains original-target/double credit only. No automatic successor or operation is issued by reviewer.",
+  "repo_git_index_actions": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri144-independent-guard-review-qytlt8l3",
+  "reviewer": "/root/ri116_complete_caller_review",
+  "reviewer_failed_attempts": [],
+  "schema": "ri144-independent-source-review-handoff-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 9005,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/HANDOFF.json",
+    "sha256": "2c0da438ab15490d4f3c5ac4c557ef2ddedc879d8f97def7f77537fbd5588796"
+  },
+  "status": "SEALED_PASS_EXACT_UNEXECUTED_SOURCE",
+  "subject_import_compile_AST_probe_run": false,
+  "target_authorship": false,
+  "unchanged_wrapper_spans": 14
+}

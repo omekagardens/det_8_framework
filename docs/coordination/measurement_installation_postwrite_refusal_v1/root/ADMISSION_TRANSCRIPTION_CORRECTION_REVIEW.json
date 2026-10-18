@@ -1,0 +1,21 @@
+{
+  "actual_checks": [
+    {
+      "chunk_id": "06316d",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "c69fa4",
+      "exit_code": 0
+    }
+  ],
+  "failure": {
+    "bytes": 3059,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/ADMISSION_WRITER_FAILURE.json",
+    "sha256": "f18d258f2b678dd3f3f691877c419c25cddfa28d523157e6105fb84c1e76752e"
+  },
+  "finding": "Each separately corrected record changes only20 integer fields: ten prepared-file mtime_ns/ctime_ns pairs. Arguments and exact raw result/stdout are unchanged. Corrected views equal Python decoding and live states. Failed writer comparison precedes first save; allnine authority/operation paths were absent. No subject execution, writes or checker replay by reviewer.",
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri224-transcription-correction-independent-review-v1",
+  "scope": "Reviewer message transcription, not invented provider-tool transcript. Later successful issuance85c562 and actual failed installation8081b8/17185d are separately recorded."
+}

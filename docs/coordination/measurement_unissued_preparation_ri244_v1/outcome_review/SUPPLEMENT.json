@@ -1,0 +1,19 @@
+{
+  "actual_administrative_alarm_seconds": 300,
+  "future_adapter_outer_alarm_seconds": 960,
+  "initial_cwd": "Omitted explicit workdir; repo default from task environment, no process cwd capture claimed.",
+  "invocation_context": {
+    "bytes": 1006,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_PREPARATION_INVOCATION_CONTEXT.json",
+    "sha256": "b0ace1fc83948b62c965600eae414523d49209b15d9e1e6042062c68e68f0e8b"
+  },
+  "next_recipe": {
+    "bytes": 3971,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri247-root-hook-branch-review-6fgw5qd9/RI244_NEXT_PREMODE_RECIPE.md",
+    "sha256": "6af7fb7c98b1dd147b710adc77ae609bd09dd6c6300f988d7c566503f6b65b27"
+  },
+  "no_operational_invocation": true,
+  "recipe_manual_verdict": "No sequence/resource/claim blocker; prospective only, unchanged accepted bootstrap bytes, separate fresh root predispatch and exact12 issuance before unchanged pre_mode. Historical unissued preflight supplies selected binding and custody; it is not the operational authority.",
+  "schema": "ri244-independent-invocation-and-next-recipe-check-v1",
+  "terminal_arguments_exact": true
+}

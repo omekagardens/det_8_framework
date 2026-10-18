@@ -1,0 +1,203 @@
+{
+  "administrative_decode_allowlist": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SOURCES_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/CLOSURE_SUPPLEMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RUNTIME_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/E_BEFORE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_SIDECARS_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ACTUAL_SIDECARS_ROOT_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/POST_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TOOL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TERMINAL_ARGUMENTS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/PREDISPATCH_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_PREFLIGHT_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ROOT_ACTUAL_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ADMIT_SIDECARS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/DISPATCH.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_REQUEST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/BOOTSTRAP_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NEXT_ACTION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json"
+  ],
+  "administrative_records": [
+    {
+      "bytes": 384890,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SOURCES_BEFORE.json",
+      "sha256": "b528758093f4eb6faaff9d386b1891ab3f4678a124c8fee68d955ab5f5861770"
+    },
+    {
+      "bytes": 476254,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/CLOSURE_SUPPLEMENT.json",
+      "sha256": "cd453e99dd2845b880ead0dc7f6fc341fd1acea88c7340090eed56f45a7b5d50"
+    },
+    {
+      "bytes": 1260482,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/RUNTIME_BEFORE.json",
+      "sha256": "b4e9d019e75e64a7a2d9d97a31e11af92546df514401cb495925688bfec74593"
+    },
+    {
+      "bytes": 42464,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/E_BEFORE.json",
+      "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+    },
+    {
+      "bytes": 1620,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_ADJUDICATION.json",
+      "sha256": "734d9d46fb84e1f5045fb7e7d0efb37c42dbf1bd539b805786b6c8d72c065bff"
+    },
+    {
+      "bytes": 2998,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_SIDECARS_REVIEW.json",
+      "sha256": "f4ae95f5fd587f2960b16b3eb4487dfdd66993d382c1c0f56fcb7a2f7d014b7a"
+    },
+    {
+      "bytes": 4620,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ACTUAL_SIDECARS_ROOT_REVIEW.json",
+      "sha256": "7c11af02add89e09345389b86025949f34f505522d1182e6b078979b30cd4ddc"
+    },
+    {
+      "bytes": 65603,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/POST_CUSTODY.json",
+      "sha256": "fe8007c8b006b4a3b99ecbc9f35e96dda69cfcaab19b1fd27646b710daccbbd8"
+    },
+    {
+      "bytes": 1679,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TOOL.json",
+      "sha256": "f89cd1c6ab4e346b5a0223483a29e0912f7423c658a560142dc3d032c8902654"
+    },
+    {
+      "bytes": 1022,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/GENUINE_TERMINAL_ARGUMENTS.json",
+      "sha256": "e05fc6ffe58b68bd84d198e5f5b684d7477ab182211d604f2ff22c6f1378674e"
+    },
+    {
+      "bytes": 1294,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/PREDISPATCH_CUSTODY.json",
+      "sha256": "f8bead138017cc5b97f4ff05afa3dbe9d36e719b54676a6c4a7576451efb637b"
+    },
+    {
+      "bytes": 1564,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/INDEPENDENT_PREFLIGHT_REVIEW.json",
+      "sha256": "26ace4845e978d76dcc87a47d276b822852462befd0a958d650ef5c1b692412a"
+    },
+    {
+      "bytes": 2293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ROOT_ACTUAL_CHECKS.json",
+      "sha256": "3e22debb4b97093f184ed3ef212692f913d6dae3fe81fe405ac96a382c22cd90"
+    },
+    {
+      "bytes": 10405,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/prepare_sidecars.py",
+      "sha256": "e055453f2b6036e2ea01b45d0c32d27518bdb7225e093c92cc8a8e9362226648"
+    },
+    {
+      "bytes": 2750,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/predispatch.py",
+      "sha256": "3b98883c426ee3682e36e280d3786b4e92b1a6efba02b3ba778f23b1eaf9da23"
+    },
+    {
+      "bytes": 9453,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/check_sidecars.initial_unexecuted.py",
+      "sha256": "17dc97cf3da222e7ac4ad911605543e70a11f169ec670cd22ae25e29a2723ade"
+    },
+    {
+      "bytes": 9572,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/check_sidecars.py",
+      "sha256": "f943fc38c7702e741b0087dc790d63fe4a420f462dae381dffac2a216cc679bd"
+    },
+    {
+      "bytes": 2395,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_BOOTSTRAP.py",
+      "sha256": "d62fd7d478ccda65de19d494589fa2d234b5f2c7802af6d7238e31d38aabdf85"
+    },
+    {
+      "bytes": 2104,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/ADMIT_SIDECARS.json",
+      "sha256": "ebad0f2e82ac7fa2caeada8d6c08c710ff1544df7a11b1f25bd41a6d3cbb66ac"
+    },
+    {
+      "bytes": 2685,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/DISPATCH.json",
+      "sha256": "dcad8282ad3a34f02d9787b42a0b40e4d6a6cf4dd4caf3cb7e227d6b6b2d0ad3"
+    },
+    {
+      "bytes": 271,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/SIDECARS_REQUEST.json",
+      "sha256": "58779511da1b24febd2e000415bb9e115c1870699bdba2812466032364411db1"
+    },
+    {
+      "bytes": 3566,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri200-root-sidecars-ofv27lvp/BOOTSTRAP_PREFLIGHT.json",
+      "sha256": "0b6386eb2daf73a3f6e28758c06e65e54a726e636974a99a17fc240bd24a31d6"
+    },
+    {
+      "bytes": 3021,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+      "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+    },
+    {
+      "bytes": 18097,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+      "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+    },
+    {
+      "bytes": 89867,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_RECONCILIATION.json",
+      "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+    },
+    {
+      "bytes": 2518,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json",
+      "sha256": "53ff01e951afb10f2aed7264c3abc025416724edf929ee55e3f537b0eae0b8f5"
+    },
+    {
+      "bytes": 4097,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_ROOT_INPUT_REVIEW.md",
+      "sha256": "ee8dddb9e3c6c5309ecfce384f42857e1b1d6ce4b454fe77ed4c56f5cbba883d"
+    },
+    {
+      "bytes": 1559,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NEXT_ACTION.json",
+      "sha256": "1afba4da229b8ac5ec17b5618a7fbf587885b9d0640a5ebbecd95a0014876ff3"
+    },
+    {
+      "bytes": 618,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+      "sha256": "9ad433126b49d35f5c6ef63e764cbec1a480249630aa0af01fece2a24e034bd5"
+    },
+    {
+      "bytes": 591,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json",
+      "sha256": "3fad6a307ecf169ef5fde825128ed8a7c006f96adb91acf8cdbc3dd6ae22f71b"
+    },
+    {
+      "bytes": 5460,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs.py",
+      "sha256": "6c4b034e454b7616c1d670cc79cd71b3379ece60dc57cd202c9f49c676bd695b"
+    },
+    {
+      "bytes": 5462,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v2.py",
+      "sha256": "b90ddc845f03d915c65b1d358bdd2c83efaafc148783c500b12ba4d9b535eebc"
+    },
+    {
+      "bytes": 5493,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/measurement_inputs_v3.py",
+      "sha256": "9370aa26a6953ad99eb39018b27b099b747c9f3c7221ef3593764eba9398e76b"
+    }
+  ],
+  "request": {
+    "bytes": 3021,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/ADAPTERS_REQUEST.json",
+    "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+  },
+  "schema": "ri204-source-only-closure-seeds-v1",
+  "scientific_decoding": false,
+  "status": "PROPOSAL_NOT_ADMISSION"
+}

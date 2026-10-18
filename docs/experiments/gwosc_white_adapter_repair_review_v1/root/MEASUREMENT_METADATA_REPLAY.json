@@ -1,0 +1,53 @@
+{
+  "actual_root_tool": {
+    "chunk": "5ed3ee",
+    "exit_code": 0
+  },
+  "all_report_fields_equal_except_schema": true,
+  "controls_executed": 0,
+  "counts": {
+    "additional": 18,
+    "controls_defined": 55,
+    "controls_executed": 0,
+    "copies": 48,
+    "dependencies": 481,
+    "fresh_identity_rechecks": 508,
+    "helpers": 11,
+    "history": 124,
+    "inherited": 463,
+    "new_modules": 6,
+    "predicates": 4621,
+    "retained_modules": 5,
+    "stage_roles": 17,
+    "subject_namespace": 26,
+    "subject_payloads": 25,
+    "target_pairs": 30
+  },
+  "fresh_508_identities_rechecked": true,
+  "independent_actual_tools": [
+    {
+      "chunk": "dd4ebc",
+      "exit_code": 0
+    },
+    {
+      "chunk": "01cbc9",
+      "exit_code": 0
+    }
+  ],
+  "review_report": {
+    "bytes": 1013367,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-independent-adapter-review-dko2kzl_/METADATA_CHECK_V2.json",
+    "sha256": "ed73966fe2152c3a8ff8ad993955056a71d81a768333297f039eb66af363d0a7"
+  },
+  "root_checker": {
+    "bytes": 11301,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/check_measurement.py",
+    "sha256": "35b0f0bc46e5761125fef796f7a3e31b7d72a2d0d1577d9775fd0164f2b8cb4d"
+  },
+  "root_report": {
+    "bytes": 1013379,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/MEASUREMENT_METADATA_CHECK.json",
+    "sha256": "e7f8cb46050ff5dc4676cb46ea8945d492732ae6b9bf0a35b84569c82596d45f"
+  },
+  "schema": "ri156-root-metadata-replay-v1"
+}

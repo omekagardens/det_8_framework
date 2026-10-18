@@ -1,0 +1,93 @@
+{
+  "administrative_python": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "bootstrap_file_bindings": 78,
+  "bootstrap_module_descriptors": 103,
+  "capture_entries": 12,
+  "decoded_administrative_files": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INTERPRETER_BINDING.candidate.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/OPTIONAL_NATIVE_NAMESPACES.candidate.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/RUNTIME_INVENTORY.candidate.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/DEPENDENCIES.source-only.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/DEPENDENCIES.source-only.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/ATTEMPT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/NAMESPACE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/POST.ATTEMPT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/POST.COMPLETION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/POST.stdout",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/PRE.ATTEMPT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/PRE.COMPLETION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/PRE.stdout",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/ADMIT_CAPTURE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_ADMISSION_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_POST_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_PREFLIGHT_OBSERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/CAPTURE_SOURCE_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_COMPLETE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_CAPTURE_INITIAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/GENUINE_OUTER.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/OPERATION_FINAL_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RI186_REVIEW_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri183-root-parent-capture-review-2mnanskj/RUNTIME_POST_IDENTITIES.json"
+  ],
+  "installed_e_directories": 8,
+  "installed_e_files": 48,
+  "monitors": [
+    {
+      "elapsed_seconds": 2.760499709,
+      "final_gap_seconds": 0.015292124999999768,
+      "label": "PRE",
+      "max_gap_seconds": 0.03871304200000003,
+      "parent_pid_only": 16075,
+      "peak_rss_kib": 83008,
+      "samples": 78
+    },
+    {
+      "elapsed_seconds": 1.8308661250000005,
+      "final_gap_seconds": 0.05023154200000057,
+      "label": "POST",
+      "max_gap_seconds": 0.03960091599999993,
+      "parent_pid_only": 16075,
+      "peak_rss_kib": 84704,
+      "samples": 48
+    }
+  ],
+  "new_runtime_capture": false,
+  "opaque_unique_identities": 12429,
+  "parent_seconds": 5.154437667,
+  "predicates": 487888,
+  "pyc_opaque_headers": 3394,
+  "runtime_baseline_acceptance_created": false,
+  "runtime_bytes": 258862951,
+  "runtime_files": 9923,
+  "same_PRE_POST_bytes": true,
+  "scientific_body_decode": false,
+  "snapshot_pin": {
+    "bytes": 7142026,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-capture-proposed-gikj2giy/PRE.stdout",
+    "sha256": "ee672c5014d38656e19230bdd10c9831fabf71387e30248e600a8b6d2d8f378e"
+  },
+  "source_groups": [
+    {
+      "identities": 612,
+      "name": "sources"
+    },
+    {
+      "identities": 48,
+      "name": "copies"
+    },
+    {
+      "identities": 1810,
+      "name": "vendor"
+    },
+    {
+      "identities": 4,
+      "name": "tools"
+    }
+  ],
+  "status": "ALL_INDEPENDENT_ADMINISTRATIVE_PREDICATES_PASSED",
+  "subject_vendor_helper_execution": false
+}

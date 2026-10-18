@@ -1,0 +1,120 @@
+{
+  "actual_administrative_check": {
+    "bytes": 3098788,
+    "chunk_id": "f97d85",
+    "complete_historical_namespaces": 5,
+    "current_premise_typed_references": 45,
+    "dependencies": 86,
+    "exit_code": 0,
+    "historical_typed_references": 132,
+    "payloads": 9,
+    "subject_namespace": 10,
+    "whole_byte_counterparts": 4
+  },
+  "blocking_findings": [],
+  "independence": {
+    "RI127_RI128_proof_author": false,
+    "author_of_RI145": false,
+    "prior_native_RI138_RI140_RI143_reviews_disclosed": true,
+    "self_acceptance_of_WHITE_semantics": false,
+    "unrelated_WHITE_authorship_disclosed": true
+  },
+  "mathematical_method": "Independent manual algebra and symbolic-premise boundary challenges; no numerical/symbolic engine or formal prover.",
+  "namespace": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_PROOF_REVIEW.json",
+    "INDEPENDENT_PROOF_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "new_analytic_results_recommended": [
+    "Exact seed elimination/held-empty normalization and positive clearing",
+    "Strict singleton-preserving U and formal-complement bounds",
+    "Positive symbolic quadratic floor and L/K uniform bound",
+    "Explicit positive delta_alpha interval, including alpha0 and1/2",
+    "Exact full-domain endpoint equivalence and full singleton contrast residual"
+  ],
+  "payloads": [
+    {
+      "bytes": 4324,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/FINAL_PIN_CHECK.json",
+      "sha256": "9aec30e0471f46e3aaf908bf99397e4e4959ba6fb8085295be79d6ca05c33408"
+    },
+    {
+      "bytes": 8267,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.json",
+      "sha256": "75960276676a6359952dd5942c39fec42cf8e4d8651ea28cdb1f96e90f790dfe"
+    },
+    {
+      "bytes": 18775,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "fe4723159266caed2e425e323221d753fa129c786bbe4300f261254355066271"
+    },
+    {
+      "bytes": 49418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/METADATA_CHECK.json",
+      "sha256": "78b62b0c7fd8a82ff856a4c7ec69fbd0b27d8e4d140825c1fd538f002e813ef9"
+    },
+    {
+      "bytes": 824,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/REVIEW_DIAGNOSTICS.json",
+      "sha256": "ecb4cec808f0f27adc44d4c0820ed0b9a24918de5d54a1af3474d518941b278d"
+    },
+    {
+      "bytes": 10033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/check_metadata.py",
+      "sha256": "8bda3601c27f10dba4ae002edcab79f794a8ca4f6d0b3d189a693ef5bd572504"
+    }
+  ],
+  "public_review_subset": [
+    "FINAL_PIN_CHECK.json",
+    "HANDOFF.json",
+    "INDEPENDENT_PROOF_REVIEW.json",
+    "INDEPENDENT_PROOF_REVIEW.md",
+    "METADATA_CHECK.json",
+    "REVIEW_DIAGNOSTICS.json",
+    "check_metadata.py"
+  ],
+  "recommendation": "ACCEPT_EXACT_CONDITIONAL_ANALYTIC_PROOF_WITH_ACTUAL_SCALE_GAP",
+  "required_repairs": [],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt",
+  "retained_obligations": {
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "focused_variants": 31,
+    "one_shared_T1_other_eight_connected_all_five_Di": true,
+    "original_Y": "1/4",
+    "original_targets": [
+      "P2",
+      "P3"
+    ],
+    "policy_cases": 139
+  },
+  "schema": "ri145-independent-proof-review-handoff-v1",
+  "scope": {
+    "RET_paused": true,
+    "actual_coefficients_scale_seed_H_evaluation": false,
+    "repo_git_index_changes": false,
+    "root_adjudication": false,
+    "runtime_card_controller_or_admission": false,
+    "scientific_body_decode": false,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "successor_assigned": false
+  },
+  "status": "SEALED_NONAUTHOR_PROOF_REVIEW_REQUIRES_ROOT_ADJUDICATION",
+  "stop": "Complete source/proof-only recommendation sealed for root adjudication; no scientific or operational promotion.",
+  "subject_handoff": {
+    "bytes": 6015,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.json",
+    "sha256": "f53a0e1c49069a1e9057ad69169facca556b77e7cfb2534eba440b7eaa91db19"
+  },
+  "unresolved": [
+    "Actual rho membership in delta0",
+    "Sufficient LX+KX^2<=1",
+    "Full-domain endpoint signs",
+    "Actual C2/C3/W signs",
+    "Full shared H30 feasibility or obstruction"
+  ]
+}

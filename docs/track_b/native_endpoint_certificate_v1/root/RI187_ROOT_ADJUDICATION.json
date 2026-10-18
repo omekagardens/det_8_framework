@@ -1,0 +1,30 @@
+{
+  "actual_endpoint_sign_decided": false,
+  "actual_metadata_terminal": {
+    "chunk_id": "b66219",
+    "exit_code": 0
+  },
+  "checker": {
+    "bytes": 6451,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/check_ri187.py",
+    "sha256": "8600a123c3af957892900dda2c08c68987579dc12bd24d86e944d839ed0683fe"
+  },
+  "independent_manual_review": {
+    "bytes": 5812,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI187_ROOT_PROOF_REVIEW.md",
+    "sha256": "bf207dcd49c14bea01ec11fe04c6b711a0f693e30d0594bb485a4c22e994a8c6"
+  },
+  "independent_metadata": {
+    "bytes": 209206,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/RI187_ROOT_METADATA_CHECK.json",
+    "sha256": "e54dbde3030730ab3aed4dd24ad0db7796f8a58dd210d4446fa0a78c2abd37b0"
+  },
+  "packet": {
+    "bytes": 6728,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri187-same-law-endpoint-certificate-fh41wfew/HANDOFF.json",
+    "sha256": "62150688ae3bd396160944de397d52a85a7bb2f596ac7e11742351a7de3f3a18"
+  },
+  "ret_paused": true,
+  "scientific_execution": false,
+  "status": "ACCEPT_CONDITIONAL_CERTIFICATE_AND_QUANTITATIVE_BRANCH_OBSTRUCTION"
+}

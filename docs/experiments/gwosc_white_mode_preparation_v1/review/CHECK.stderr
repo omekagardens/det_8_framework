@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py", line 49, in <module>
+    require(str(Path(row['path'])).startswith(str(B)+'/') and '/env/' not in row['path'],'only historical source/evidence domain '+row['path'])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/check_metadata.py", line 21, in require
+    if not value: raise ValueError(label)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: only historical source/evidence domain /Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_covariance_v1/DESIGN.md

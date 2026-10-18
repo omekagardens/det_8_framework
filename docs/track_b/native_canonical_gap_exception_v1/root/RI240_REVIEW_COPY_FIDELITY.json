@@ -1,0 +1,19 @@
+{
+  "copy": {
+    "bytes": 11269,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/RI240_INDEPENDENT_REVIEW.txt",
+    "sha256": "3a217baea38af6d83ea20a6d731e4fdbe77cf1f0bfbc603020525384ef2ce690"
+  },
+  "original": {
+    "bytes": 11269,
+    "path": "/private/tmp/ri240-independent-review-85923a.txt",
+    "sha256": "3a217baea38af6d83ea20a6d731e4fdbe77cf1f0bfbc603020525384ef2ce690"
+  },
+  "publication_in_current_checkpoint": false,
+  "reviewer_authorized_write_receipt": {
+    "chunk_id": "6a34e7",
+    "exit_code": 0
+  },
+  "root_adjudication": "PENDING",
+  "schema": "ri240-review-copy-fidelity-v1"
+}

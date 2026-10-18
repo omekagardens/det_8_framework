@@ -1,0 +1,80 @@
+{
+  "current_runtime_inventory": false,
+  "oversized_v2_is_review_only_external_diagnostic_not_operational_qualified_evidence": true,
+  "previous_outputs_overwritten_or_deleted": false,
+  "runs": [
+    {
+      "actual_tool_completion": {
+        "chunk_id": "d0a200",
+        "exit_code": 1,
+        "session_id_before_completion": 37664
+      },
+      "complete_authoring_shell_command_not_reproduced": true,
+      "executed_checker_component_command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+      "meaning": "57 checker assumption errors: old administrative references are not all within the direct396 closure. Result fully retained; terminal stdout was truncated by tool. No direct dependency mismatch.",
+      "result": {
+        "bytes": 1947826,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK.json",
+        "sha256": "2217ed34a9b76d38e874299e6c8274795876cd4b99afbb359fafaeed1bb41b5a"
+      },
+      "source": {
+        "bytes": 8992,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+        "sha256": "75b6f11cc105a3d5736be95706f13990b256f50cfe63a25ad3a913c945f9890e"
+      },
+      "version": 1
+    },
+    {
+      "actual_tool_completion": {
+        "chunk_id": "916334",
+        "exit_code": 1,
+        "session_id_before_completion": 64619
+      },
+      "complete_authoring_shell_command_not_reproduced": true,
+      "executed_checker_component_command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+      "meaning": "All metadata checks finished with no recorded mismatch, but final own-report hash printing refused because the output exceeds the checker subject-input64MiB cap. Internal success does not override actual exit1.",
+      "result": {
+        "bytes": 77941960,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V2.json",
+        "sha256": "9ba85518fe6e0487a915c11ccc84be7d443a938411471834abd2bd9cc03139c7"
+      },
+      "source": {
+        "bytes": 9976,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+        "sha256": "48687e86dcc8db50c268b97110c62cc1b6d15f05c9d65e068f4dd676a623688f"
+      },
+      "version": 2
+    },
+    {
+      "actual_tool_completion": {
+        "chunk_id": "004aa6",
+        "exit_code": 0,
+        "session_id_before_completion": 92837
+      },
+      "complete_authoring_shell_command_not_reproduced": true,
+      "executed_checker_component_command": "python3 /Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
+      "meaning": "Successful metadata-only rerun, compact per-body reference counts/digests; all full occurrences remain in preserved V2 output.",
+      "result": {
+        "bytes": 287207,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V3.json",
+        "sha256": "2901c60867336047a1def9f3096dc13a721efea393173296313ab6b3c8286f31"
+      },
+      "source": {
+        "bytes": 10444,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v3.py",
+        "sha256": "5cbf0ee02e186077895947937e302c2575c854d59b5d1e74a42a6ca11f13ee6f"
+      },
+      "version": 3
+    }
+  ],
+  "schema": "ri138-reviewer-actual-checker-history-v1",
+  "scientific_body_decoding": false,
+  "scope": "Actual tool history references transcribed by reviewer; root must reconcile against genuine conversation tools, not trust this file as self-authenticating authority.",
+  "subject_execution": false,
+  "traceback_provenance": "Exact diagnostic text from actual completion916334, including visible caret lines.",
+  "v2_traceback": {
+    "bytes": 950,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/CHECKER_V2_TRACEBACK.txt",
+    "sha256": "822e1a358a26c079ac353716522136ac950b822e5a6f8b143648e03dece137e1"
+  }
+}

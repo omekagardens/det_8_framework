@@ -1,0 +1,71 @@
+{
+  "administrative_sidecars": {
+    "actual_initial": {
+      "chunk_id": "a1ff1f",
+      "session_id": 18218
+    },
+    "actual_terminal": {
+      "chunk_id": "e214c5",
+      "exit_code": 0
+    },
+    "predispatch": {
+      "chunk_id": "75712c",
+      "exit_code": 0
+    },
+    "predispatch_summary_note": "The small summary counts original659 sources; its actual checker also read all nine supplemental current identities. Complete postreview explicitly records668 and exact supplemental reference. No stale states are credited.",
+    "preflight_supplement": {
+      "chunk_id": "d3194d",
+      "exit_code": 0
+    },
+    "prepare": {
+      "chunk_id": "a317ae",
+      "exit_code": 0
+    },
+    "root_postcheck": {
+      "chunk_id": "1a2efb",
+      "exit_code": 0
+    }
+  },
+  "all_failures_preserved": true,
+  "native": {
+    "corrected_full_check": {
+      "chunk_id": "e8cb63",
+      "correction": "Validate exactly the declared three- or five-field reference shapes and every resolution/link field, preserve first script.",
+      "exit_code": 0
+    },
+    "diagnostic": {
+      "chunk_id": "79a31d",
+      "exit_code": 0
+    },
+    "proof_review_receipts": [
+      "60c93e",
+      "7c4ef8",
+      "4b9d36",
+      "d6caa3",
+      "43774f",
+      "3799c2"
+    ],
+    "reference_discovery_diagnostic": "64d1d4 guessed glob had no match; exact referenced sources then read.",
+    "root_first_metadata_check": {
+      "chunk_id": "53751f",
+      "exit_code": 1,
+      "reason": "Five extended references were incorrectly compared as closed three-field pins; no mathematical or target failure."
+    }
+  },
+  "native_successor": {
+    "assignment": "RI201_NATIVE_ASSIGNMENT.json",
+    "dispatch_tool": "mcp__codex_app__send_message_to_thread",
+    "result": "success",
+    "scope": "complete two-maxima marked six-parent class",
+    "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "preexecution_checker_correction": {
+    "changed_before_target_execution": true,
+    "finding": "controls-only fixture fields do not exist in sidecars",
+    "receipt": "2c5fd7",
+    "semantics": "Require both controls-only keys absent; never alter controls behavior or actual caller."
+  },
+  "ret_paused": true,
+  "schema": "ri200-root-check-and-dispatch-record-v1",
+  "scientific_execution": false
+}

@@ -1,0 +1,187 @@
+{
+  "actual_outer_completions": [
+    {
+      "bytes": 1436,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_NORMAL_GENUINE_OUTER.json",
+      "sha256": "181a85f8445e6e68e34f43132aff475d5f1a6df25051a53d95fe5d37f0d20f6d"
+    },
+    {
+      "bytes": 1448,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_OPTIMIZED_GENUINE_OUTER.json",
+      "sha256": "d5da7f73f4430bfcd15767a9032484f0ffd56ea8e113ca3d42f0dc1893ae2efd"
+    }
+  ],
+  "actual_receipts": [
+    {
+      "bytes": 1853693,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/receipt.json",
+      "sha256": "fd139ef39b8d5dc36f80ae025bc545ad41503a4eb6800464220d560924b6204f"
+    },
+    {
+      "bytes": 1853570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/receipt.json",
+      "sha256": "7748da168b9de98cf010f9260af08ce4e82bcc8fe778b050ada12c1199055ab9"
+    }
+  ],
+  "actual_results": [
+    {
+      "bytes": 2296321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/RESULT.json",
+      "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+    },
+    {
+      "bytes": 2296321,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/optimized/RESULT.json",
+      "sha256": "ca9405768281584afcf7ddba9644e262d81e6c59f4291ca387367c5c013f1c9b"
+    }
+  ],
+  "complete_result_and_six_artifacts_byte_equal": true,
+  "freeze": {
+    "bytes": 203759,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/AUTHORIZED_FREEZE.json",
+    "sha256": "8cf0c885c6431a10a3e4e7f816cc2023ba1832db2c94d391a0bc17695481cf8a"
+  },
+  "fresh_input_custody": {
+    "bytes": 6162,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_ROOT_INPUT_CUSTODY.json",
+    "sha256": "44cb9e51663ccbfdb9f49ea6bfe79c4212258721359104be18b12b50e526dce1"
+  },
+  "full_endpoint_validator_in_both_modes": true,
+  "independent_actual_custody": {
+    "bytes": 10924,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-final-two-mode-qPYGA95L/INDEPENDENT_FINAL_TWO_MODE_CUSTODY_REVIEW.json",
+    "sha256": "77a38d6d0af8c41e8ceda0db82ca7871985a0507bd03987695857c654200c22a"
+  },
+  "independent_reconstruction_limits": [
+    "Original HDF5-to-raw extraction, whole historical RI83/RI100 arithmetic, or every coefficient contraction from the 51,891,508-byte RI73 capture; the prior executed full endpoint validator and accepted predecessors supply those premises.",
+    "Original RI73 adjoint coefficient validity or exact A*1=0 theorem; neither successful saved identities nor endpoint arithmetic reproves them.",
+    "Full scientific runtime qualification/custody, normal-versus-optimized equality or optimized actual arithmetic. Only the normal mode was assigned and decoded here."
+  ],
+  "independent_saved_arithmetic": {
+    "bytes": 9431,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-independent-saved-arithmetic-gxugu8vd/INDEPENDENT_SAVED_SCIENTIFIC_REVIEW.json",
+    "sha256": "a36060d5027cd837f00e6684d3ace79ee63326c61323a28de462133f331e4338"
+  },
+  "independently_reconstructed_saved_quantities": {
+    "artifacts": 6,
+    "centered_dot_records": 208,
+    "component_energy_records": 32,
+    "elementary_checks": 603103,
+    "mean_coordinates_recomputed": 43844,
+    "mean_dot_records": 32,
+    "not_independent_test_cases": true,
+    "operator_sum_records": 8,
+    "raw_dot_records": 208,
+    "raw_samples_reconstructed": 262144,
+    "scenarios": 4,
+    "short_long_route_intersections": 208,
+    "total_energy_records": 4,
+    "windows": 26
+  },
+  "native_forward_map": false,
+  "next_action": "Publish exact result, six detached artifacts and scoped review; design a separate observation/model-adequacy question before any new data campaign.",
+  "normal_prior_acceptance": {
+    "bytes": 1888,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_NORMAL_ROOT_REVIEW.json",
+    "sha256": "0ee212c2183a6471bb910e35cfa25f92e1d0a14d34a538da07c7a64fa1d5b788"
+  },
+  "normal_root_evidence": {
+    "bytes": 4143,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_NORMAL_ROOT_EVIDENCE_REVIEW.json",
+    "sha256": "2979abe12967a475e70952cded403bacb74440030846d4a7a3776ffcd56bcf14"
+  },
+  "numerical_gate": "All twelve original numerical gates and thresholds preserved; no empirical-magnitude acceptance test introduced.",
+  "optimized_root_evidence": {
+    "bytes": 4174,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_OPTIMIZED_ROOT_EVIDENCE_REVIEW.json",
+    "sha256": "f2ff64b1f122a33a00e90aebe721b4fc66f2c00d28e2de05cb2483afa9f8ebd3"
+  },
+  "physical_calibration_validated": false,
+  "prior_failure": "RI110 remains failed and immutable. RI113 repairs its status-label mismatch; RI114 qualifies the new interface separately from retained RI108 numerical evidence.",
+  "programme_complete": false,
+  "protected_validation": false,
+  "remaining_premises": [
+    "A=Q-P uses the inherited exact finite rational filter and admitted coefficient enclosures; neither Q nor the longer context is physical ground truth.",
+    "V uses each side's exact coordinatewise mean and divisor n. Overlap, unknown means and absent joint cross-window covariance prevent identifying it as an unbiased proxy-trace estimator or applying an n/(n-1) repair.",
+    "The fixed four PSD trace proxies share the already inspected windows and remain assumed finite circulant models. No independent held-out validation, probability law, confidence interval, chi-square, SNR or p-value follows.",
+    "Literal blank Yunits, nominal V2/C02 interpretation, clear L1 NO_CW_HW_INJ, possible injection effects and unresolved low-frequency calibration remain unchanged.",
+    "No calibrated measurement model, native geometry/gravity forward map, DET physical confirmation, or RET resumption is established."
+  ],
+  "resources": {
+    "normal": {
+      "active_child_seconds": 46.697963333997905,
+      "final_sample_to_reap_gap_seconds": 3.662499875645153e-05,
+      "limits": {
+        "maximum_sample_gap_seconds": 0.1,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "target_poll_seconds": 0.025,
+        "wall_seconds": 180
+      },
+      "maximum_sample_gap_seconds": 0.04005091699946206,
+      "peak_sampled_rss_kib": 285856,
+      "raw_observations": 1429,
+      "samples": 1429,
+      "terminal_zero_sample": true,
+      "worker_seconds": 46.62113762499939
+    },
+    "optimized": {
+      "active_child_seconds": 46.76502070800052,
+      "final_sample_to_reap_gap_seconds": 0.02922545799810905,
+      "limits": {
+        "maximum_sample_gap_seconds": 0.1,
+        "ps_timeout_seconds": 0.05,
+        "rss_kib": 524288,
+        "target_poll_seconds": 0.025,
+        "wall_seconds": 180
+      },
+      "maximum_sample_gap_seconds": 0.0368629169970518,
+      "peak_sampled_rss_kib": 295856,
+      "raw_observations": 1427,
+      "samples": 1427,
+      "terminal_zero_sample": false,
+      "worker_seconds": 46.68020420800167
+    }
+  },
+  "ret_paused": true,
+  "schema": "ri116-root-final-observed-adjudication-v1",
+  "scientific_artifacts": [
+    {
+      "bytes": 846604,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/H1-left-mean.json",
+      "sha256": "e05c5668293a9dde65e2424319fe6efb2bc71d02c66fb2c10839464e6a9480e6"
+    },
+    {
+      "bytes": 1048576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/H1-raw.f64le",
+      "sha256": "2afb44a36d1bd7561cdcf704ccd26243978eff9823b3e04a11866e4f626e284b"
+    },
+    {
+      "bytes": 842609,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/H1-right-mean.json",
+      "sha256": "768279a751f16b3be4aec725d697ec971f82281ee3da3bd5fd02701224a2280a"
+    },
+    {
+      "bytes": 833955,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/L1-left-mean.json",
+      "sha256": "acfeb3545818b4439ada762768b004458aa9108c4438c8a7b23cf997c5a9d01e"
+    },
+    {
+      "bytes": 1048576,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/L1-raw.f64le",
+      "sha256": "6777425af4daee88061b1270da035cdd6ee723211f55f3445aa9dea43b2c1ed4"
+    },
+    {
+      "bytes": 831334,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v/controls/normal/artifacts/L1-right-mean.json",
+      "sha256": "a4f399bdd8eb7cfb5b474c3ff54da4a9418af0a330cb22ad9b9fa2088c0a2400"
+    }
+  ],
+  "source_acceptance": {
+    "bytes": 4089,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/RI116_ROOT_SOURCE_ADJUDICATION.json",
+    "sha256": "b0a646cad9459f732c7ac0b85a6bb6390c363d7a50e8a7dac81186d98a55fd63"
+  },
+  "status": "ACCEPT_FIXED_PUBLIC_DEVELOPMENT_CONTEXT_RESULT",
+  "supported": "Finite deterministic conventional processing-context sensitivity for eight fixed coordinates of the prescribed exact rational finite filter, on fixed already inspected GWOSC development/calibration samples, conditional on inherited coefficient/custody premises."
+}

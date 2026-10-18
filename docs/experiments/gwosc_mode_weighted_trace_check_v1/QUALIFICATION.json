@@ -1,0 +1,730 @@
+{
+  "artifacts": [
+    {
+      "bytes": 76828,
+      "name": "ANALYTIC_CASES.json",
+      "sha256": "3d7c8ccf1e1b0a27386390a8d4956f410b62a70fecc2fe6d38d4d2e8a4f8dc89"
+    },
+    {
+      "bytes": 7612127,
+      "name": "FABRICATED_PROJECTION.json",
+      "sha256": "14afa87d762765607f003a1cb646728432055df6280581c047a36548e4cb1786"
+    },
+    {
+      "bytes": 1684012,
+      "name": "FABRICATED_RESULT.json",
+      "sha256": "f101c537f01ce00a1b9fdefa2948dc9182911c789b79229e7a7f135d636f07e4"
+    }
+  ],
+  "counts": {
+    "analytic_cases": 11,
+    "artifacts": 3,
+    "production_modes": 8192,
+    "production_rows": 8,
+    "refusals": 59,
+    "scenarios": 4
+  },
+  "limitations": [
+    "Analytic qualification is not execution or custody of observed input.",
+    "Prior transform/covariance validity remains inherited for the separately admitted actual path.",
+    "No numerical resource success is established until this frozen source is genuinely executed."
+  ],
+  "phase": "fabricated_qualification",
+  "positive_cases": [
+    {
+      "id": "Q1",
+      "passed": true
+    },
+    {
+      "id": "Q2",
+      "passed": true
+    },
+    {
+      "id": "Q3",
+      "passed": true
+    },
+    {
+      "id": "Q4",
+      "passed": true
+    },
+    {
+      "id": "Q5",
+      "passed": true
+    },
+    {
+      "id": "Q6",
+      "passed": true
+    },
+    {
+      "id": "Q7",
+      "passed": true
+    },
+    {
+      "id": "Q8",
+      "passed": true
+    },
+    {
+      "id": "Q9",
+      "passed": true
+    },
+    {
+      "id": "Q10",
+      "passed": true
+    },
+    {
+      "id": "Q11",
+      "passed": true
+    }
+  ],
+  "provenance": {
+    "acceptance": {
+      "custody": null,
+      "design": {
+        "bytes": 2430,
+        "sha256": "a2b76efbe5105c286c8b50d9183e407726c3404b36309d0ed9fb65c95b1b9539"
+      },
+      "qualification": null,
+      "ri96": {
+        "bytes": 6551,
+        "sha256": "c7842d05fa0d34dddf60d5b3963abb0dbbcae6090ebfcc28af7ca525f61cc836"
+      }
+    },
+    "input": {
+      "bytes": 7612127,
+      "sha256": "14afa87d762765607f003a1cb646728432055df6280581c047a36548e4cb1786"
+    },
+    "runtime": {
+      "fingerprint": {
+        "bytes": 2302,
+        "sha256": "4e69452eb57244f0e9db42ffee662f8c1f2cf42ccd9db6bb747f9703efea61cd"
+      },
+      "interpreter": {
+        "bytes": 52640,
+        "sha256": "033d83a12ab74b7bcade8248b1bca644f275d3965350b61fe485c2645e1f68e8"
+      },
+      "inventory": {
+        "bytes": 1216343,
+        "sha256": "8b0329a83a1208b21dfb4771d2dd078aae6cb54a1741b7f20b4a4695c06e245c"
+      }
+    },
+    "sources": {
+      "consumer": {
+        "bytes": 24861,
+        "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+      },
+      "design": {
+        "bytes": 23571,
+        "sha256": "65edcabef43e15cfa44299c19276c194aed717269fe17702877f76ca8af379e7"
+      },
+      "implementation": {
+        "bytes": 13072,
+        "sha256": "da2c12fa9265705b3d9310dc897d16ca13d7cda72e877e57137f40bda240a074"
+      },
+      "qualifier": {
+        "bytes": 27707,
+        "sha256": "770834c35ac4c74655b1f5bc0ddab5e3ecb50cbb14d3801bbe77e7a1612f3150"
+      },
+      "validator": {
+        "bytes": 34677,
+        "sha256": "f5cf027b819199d6d3d75fc957c8e63cab404f1a825fbbf91a18ad4dd53ab4be"
+      }
+    }
+  },
+  "refusal_inventory": [
+    {
+      "code": "INPUT",
+      "id": "primary:actual_body_pin"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "primary:duplicate_json_key"
+    },
+    {
+      "code": "EXACT",
+      "id": "primary:nonfinite_json"
+    },
+    {
+      "code": "EXACT",
+      "id": "primary:unreduced_rational"
+    },
+    {
+      "code": "EXACT",
+      "id": "primary:negative_zero_integer"
+    },
+    {
+      "code": "RESOURCE",
+      "id": "primary:excessive_integer"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "primary:unsupported_domain"
+    },
+    {
+      "code": "ROW",
+      "id": "primary:wrong_row_order"
+    },
+    {
+      "code": "ROW",
+      "id": "primary:missing_row"
+    },
+    {
+      "code": "ROW",
+      "id": "primary:extra_row"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:missing_mode"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:extra_mode"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:stale_mode_identity"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "primary:reversed_rectangle"
+    },
+    {
+      "code": "INTERVAL",
+      "id": "primary:nyquist_imaginary_excludes_zero"
+    },
+    {
+      "code": "ALPHA",
+      "id": "primary:negative_alpha"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:psd_float_shape"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:psd_wrong_size"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:psd_missing_bin"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:psd_dtype"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:psd_byte_identity"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:negative_psd"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:nonfinite_psd"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:duplicate_mode_index"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:reordered_modes"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:wrong_pair_weight"
+    },
+    {
+      "code": "MODE",
+      "id": "primary:negative_mode_term"
+    },
+    {
+      "code": "BAND",
+      "id": "primary:changed_tie_inventory"
+    },
+    {
+      "code": "BAND",
+      "id": "primary:changed_band_spread"
+    },
+    {
+      "code": "BAND",
+      "id": "primary:negative_band_margin"
+    },
+    {
+      "code": "ENVELOPE",
+      "id": "primary:reversed_prior"
+    },
+    {
+      "code": "ENVELOPE",
+      "id": "primary:empty_intersection"
+    },
+    {
+      "code": "SOURCE",
+      "id": "primary:changed_design_pin"
+    },
+    {
+      "code": "PHASE",
+      "id": "primary:fabricated_actual_context"
+    },
+    {
+      "code": "PHASE",
+      "id": "primary:claimed_fabricated_qualification"
+    },
+    {
+      "code": "PHASE",
+      "id": "primary:claimed_fabricated_custody"
+    },
+    {
+      "code": "INPUT",
+      "id": "primary:changed_projection_pin"
+    },
+    {
+      "code": "INPUT",
+      "id": "primary:unknown_projection_field"
+    },
+    {
+      "code": "PSD",
+      "id": "primary:changed_scenario_order"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "validator:extra_top_key"
+    },
+    {
+      "code": "PHASE",
+      "id": "validator:phase_substitution"
+    },
+    {
+      "code": "PROVENANCE",
+      "id": "validator:source_pin"
+    },
+    {
+      "code": "DOMAIN",
+      "id": "validator:method_float_dimension"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "validator:limitations"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "validator:gate_count_boolean"
+    },
+    {
+      "code": "SCHEMA",
+      "id": "validator:gate_result_integer"
+    },
+    {
+      "code": "INPUT",
+      "id": "validator:projection_identity"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:mode_center"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:mode_tau"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:mode_alpha"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:missing_lambda_weight"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:nyquist_imaginary_alpha"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:alpha_in_tau"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:negative_raw_clipped"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:band_width_changed"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:undefined_ratio_number"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:changed_final"
+    },
+    {
+      "code": "RESULT",
+      "id": "validator:changed_source_identity"
+    },
+    {
+      "code": "CANONICAL",
+      "id": "validator:canonical_roundtrip_whitespace"
+    }
+  ],
+  "refusals": [
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "primary:actual_body_pin",
+      "refused": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "primary:duplicate_json_key",
+      "refused": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "primary:nonfinite_json",
+      "refused": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "primary:unreduced_rational",
+      "refused": true
+    },
+    {
+      "code": "EXACT",
+      "expected_code": "EXACT",
+      "id": "primary:negative_zero_integer",
+      "refused": true
+    },
+    {
+      "code": "RESOURCE",
+      "expected_code": "RESOURCE",
+      "id": "primary:excessive_integer",
+      "refused": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "primary:unsupported_domain",
+      "refused": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "primary:wrong_row_order",
+      "refused": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "primary:missing_row",
+      "refused": true
+    },
+    {
+      "code": "ROW",
+      "expected_code": "ROW",
+      "id": "primary:extra_row",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:missing_mode",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:extra_mode",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:stale_mode_identity",
+      "refused": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "primary:reversed_rectangle",
+      "refused": true
+    },
+    {
+      "code": "INTERVAL",
+      "expected_code": "INTERVAL",
+      "id": "primary:nyquist_imaginary_excludes_zero",
+      "refused": true
+    },
+    {
+      "code": "ALPHA",
+      "expected_code": "ALPHA",
+      "id": "primary:negative_alpha",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:psd_float_shape",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:psd_wrong_size",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:psd_missing_bin",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:psd_dtype",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:psd_byte_identity",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:negative_psd",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:nonfinite_psd",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:duplicate_mode_index",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:reordered_modes",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:wrong_pair_weight",
+      "refused": true
+    },
+    {
+      "code": "MODE",
+      "expected_code": "MODE",
+      "id": "primary:negative_mode_term",
+      "refused": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "primary:changed_tie_inventory",
+      "refused": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "primary:changed_band_spread",
+      "refused": true
+    },
+    {
+      "code": "BAND",
+      "expected_code": "BAND",
+      "id": "primary:negative_band_margin",
+      "refused": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "primary:reversed_prior",
+      "refused": true
+    },
+    {
+      "code": "ENVELOPE",
+      "expected_code": "ENVELOPE",
+      "id": "primary:empty_intersection",
+      "refused": true
+    },
+    {
+      "code": "SOURCE",
+      "expected_code": "SOURCE",
+      "id": "primary:changed_design_pin",
+      "refused": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "primary:fabricated_actual_context",
+      "refused": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "primary:claimed_fabricated_qualification",
+      "refused": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "primary:claimed_fabricated_custody",
+      "refused": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "primary:changed_projection_pin",
+      "refused": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "primary:unknown_projection_field",
+      "refused": true
+    },
+    {
+      "code": "PSD",
+      "expected_code": "PSD",
+      "id": "primary:changed_scenario_order",
+      "refused": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "validator:extra_top_key",
+      "refused": true
+    },
+    {
+      "code": "PHASE",
+      "expected_code": "PHASE",
+      "id": "validator:phase_substitution",
+      "refused": true
+    },
+    {
+      "code": "PROVENANCE",
+      "expected_code": "PROVENANCE",
+      "id": "validator:source_pin",
+      "refused": true
+    },
+    {
+      "code": "DOMAIN",
+      "expected_code": "DOMAIN",
+      "id": "validator:method_float_dimension",
+      "refused": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "validator:limitations",
+      "refused": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "validator:gate_count_boolean",
+      "refused": true
+    },
+    {
+      "code": "SCHEMA",
+      "expected_code": "SCHEMA",
+      "id": "validator:gate_result_integer",
+      "refused": true
+    },
+    {
+      "code": "INPUT",
+      "expected_code": "INPUT",
+      "id": "validator:projection_identity",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:mode_center",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:mode_tau",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:mode_alpha",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:missing_lambda_weight",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:nyquist_imaginary_alpha",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:alpha_in_tau",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:negative_raw_clipped",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:band_width_changed",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:undefined_ratio_number",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:changed_final",
+      "refused": true
+    },
+    {
+      "code": "RESULT",
+      "expected_code": "RESULT",
+      "id": "validator:changed_source_identity",
+      "refused": true
+    },
+    {
+      "code": "CANONICAL",
+      "expected_code": "CANONICAL",
+      "id": "validator:canonical_roundtrip_whitespace",
+      "refused": true
+    }
+  ],
+  "schema": "ri98-fabricated-qualification-v1",
+  "scope": "Fabricated exact arithmetic and closed validators only; no actual RI96 values or new Fourier transform.",
+  "status": "all_declared_checks_passed"
+}

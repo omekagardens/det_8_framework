@@ -1,0 +1,225 @@
+{
+  "schema": "ri161-grid-qualification-source-handoff-v1",
+  "status": "SOURCE_ONLY_PREPARATION_COMPLETE_RETURN_FOR_FRESH_SOURCE_CONTROL_REVIEW",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg",
+  "namespace": [
+    "AUTHOR_CHECKS.json",
+    "CONTRACT.md",
+    "COVERAGE.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json",
+    "caller.py",
+    "fault_cases.py",
+    "qualify_grid.py"
+  ],
+  "payloads": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/AUTHOR_CHECKS.json",
+      "bytes": 22887,
+      "sha256": "d3d70ef9f81d778d06342c6157756961bcc306afee318f3634d2aaf1fcc808df"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/CONTRACT.md",
+      "bytes": 12543,
+      "sha256": "ba1f8876bc11847261240948c0c9eabfb4c6cdbded0c9571c6f6a50031185bd4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/COVERAGE.md",
+      "bytes": 8139,
+      "sha256": "8f77b0b4e52a00cc032187384d045ae897c026f0e0b701e40bdf566cf2a18bef"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/DEPENDENCY_NOTES.md",
+      "bytes": 14304,
+      "sha256": "cdb0795f7857e7b3bbe12c4f79ff5233b83767a2d48504f10e350e2744a532cd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/HANDOFF.md",
+      "bytes": 3757,
+      "sha256": "695f6aee3240ade3012ea23d50c6e331ed04bb92cd8602bd96a2f6fab2c82586"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_DEPENDENCIES.json",
+      "bytes": 251800,
+      "sha256": "2283a700a1ab974bea1ec71138ccaae56d0af3049262bf91bca94386edbe1853"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/SOURCE_IDENTITIES.json",
+      "bytes": 19454,
+      "sha256": "4f91148ef948062cfd2a5cab2bdf5f281c1898168d4c31d14ed9b910b647f9e5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/caller.py",
+      "bytes": 41969,
+      "sha256": "9ce34aba7d899af67b9de6e5af5131ac624a24ae5bed8e93b57520cffa19e721"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/fault_cases.py",
+      "bytes": 30012,
+      "sha256": "70778a4c6e5c73c5f053770adf46bf5c51b2726b7e6fe9a05715d092a8ba48d8"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri161-grid-qualification-source-679wwadg/qualify_grid.py",
+      "bytes": 37082,
+      "sha256": "95a76ccf0a7c9ff50ce7bf98e24481d051b839378b87d888ae2c8d443e150653"
+    }
+  ],
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "bytes": 5161,
+    "sha256": "fdf0db538d12322f15179cc1bc8b3f0ffd3f1634baee39f8d4a63f04a63b5d8d"
+  },
+  "accepted_predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-root-grid-source-review-aligxun8/RI159_ROOT_ADJUDICATION.json",
+    "bytes": 3815,
+    "sha256": "f79a3b087a009a17088d695866b1f7998f48992b539bb74d8657dc7721b67bce"
+  },
+  "predecessor_source": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/HANDOFF.json",
+    "bytes": 8831,
+    "sha256": "424a2b10d6e3eed43c3180f0d462e925396dcba26f5ed97666bccb6be1cda635"
+  },
+  "predecessor_independent_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-independent-grid-review-p1uvnluc/HANDOFF.json",
+    "bytes": 6943,
+    "sha256": "4f25fd23d0c772e86c16335b74b34670a15245c56c765d1a0947fd81401949f5"
+  },
+  "subject_sources": {
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_check.py",
+      "bytes": 16091,
+      "sha256": "cf9e50b061d2fcb6a040e2b1a4ce367dc802f003b0307333d561295782d87982"
+    },
+    "auditor": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri159-final-witness-grid-source-47ofu03n/grid_audit.py",
+      "bytes": 22760,
+      "sha256": "aa0571ec5d7705367732a8579165429a9abf99c17dbf38798f8ac8d742b70277"
+    }
+  },
+  "selection": {
+    "files": 280,
+    "bytes": 24169856,
+    "inherited": 252,
+    "administrative_bodies": 98,
+    "historical_typed_references": 2335,
+    "current_identity_typed_references": 49,
+    "extended_historical_identities": 17,
+    "historical_state_compared_with_current": false,
+    "predecessor_namespaces": [
+      11,
+      10
+    ],
+    "equal_byte_pairs": 4,
+    "unresolved_references": 0,
+    "scientific_bodies_decoded": 0
+  },
+  "planned_case_counts": {
+    "source_inspected_not_executed": true,
+    "families": 63,
+    "q_variants": 237,
+    "q_records_per_mode": 474,
+    "r_records_per_mode": 1994,
+    "fault_records_per_mode": 75,
+    "caller_records_per_mode": 4,
+    "total_per_mode": 2547,
+    "total_two_modes": 5094,
+    "q05_indices_per_implementation": 109,
+    "r07_records": 545,
+    "r08_records": 436,
+    "r13_dictionary_locations": 120,
+    "r13_removals": 814,
+    "r13_extras": 120
+  },
+  "actual": {
+    "source_review": "AUTHOR_AND_COAUTHOR_LITERAL_READS_ONLY",
+    "fixtures_created": 0,
+    "cases_executed": 0,
+    "source_imports": 0,
+    "compilations": 0,
+    "ast_checks": 0,
+    "control_probes": 0,
+    "actual_grid_result": null,
+    "runtime_inventories": 0,
+    "admissions": 0,
+    "scientific_executions": 0
+  },
+  "actual_administrative_evidence": {
+    "preseal": {
+      "tool_receipt": "f4d604",
+      "exit_code": 0,
+      "status": "MATCH_NOT_PROOF_ACCEPTANCE",
+      "stage": "preseal9",
+      "fresh_identity_rechecks": 289
+    },
+    "author_record": {
+      "tool_receipt": "4fc623",
+      "exit_code": 0,
+      "status": "AUTHOR_METADATA_MATCH_NOT_EXECUTION"
+    },
+    "final_check": "Not preclaimed. A fresh final11 check is required after this handoff is saved; its actual receipt and this handoff identity are returned separately to root."
+  },
+  "qualification_prerequisites": [
+    {
+      "id": "QP01",
+      "status": "SOURCE_PREPARED_NOT_ADMITTED",
+      "delivered": "Concrete source/request/interpreter/bootstrap contract, bounded caller and exclusive capture/genuine completion rules."
+    },
+    {
+      "id": "QP02",
+      "status": "SOURCE_PREPARED_NOT_EXECUTED",
+      "delivered": "Explicit 63-family expansions; independent full expected outputs; exact per-implementation exception identity/code/message; all109 index and result-field sweeps."
+    },
+    {
+      "id": "QP03",
+      "status": "SOURCE_PREPARED_NOT_EXECUTED",
+      "delivered": "Close-only, primary-plus-close, primary-plus-postchecks/all-later-attempts, no-baseline, short-write, flush and failed diagnostic-persistence controls."
+    },
+    {
+      "id": "QP04",
+      "status": "SEPARATE_LATER_ADMISSION",
+      "delivered": null
+    }
+  ],
+  "source_repairs": [
+    "FaultFailure escapes the expected-subject-refusal capture and carries completed records on a catastrophic pin-mutation failure.",
+    "Expected exception class identity is required, not only a matching class name; auditor missing-path direct probe names exact FileNotFoundError.",
+    "P01 auditor hash controls use correct-length different bytes and retain the original bounded reader on the targeted role; length faults are separate.",
+    "P06 explicitly includes leaf and ancestor symlink controls in each direct reader.",
+    "Caller validates and retains a completed suite prefix after catastrophic harness failure instead of discarding completed observations.",
+    "All non-native-refusal PASS records require full type-sensitive output comparison.",
+    "Parent requires the exact 63-family set and explicit full Q05, R07 and R08 sweep IDs.",
+    "P10 observes actual main calls via profile hook, not a literal flag; P10/P11 observations retain canonical diagnostic JSON and digest.",
+    "Guarded real-operation attempts fail the control suite even if the subject catches the guard exception.",
+    "Child resource limits require readback; suite catalogues are obtained once per authenticated suite load."
+  ],
+  "scientific_boundary": "Qualification source only. Actual full109 grid unknown. A future independently accepted fixed-input GRID_PASS plus unchanged premises can reject only the retained sufficient envelope, not W/H30. GRID_FAIL removes that shortcut; refusal settles neither.",
+  "preserved_obligations": [
+    "Original P2/P3 and numerical Y=1/4",
+    "Original seed/amplitude/support/witness",
+    "All shared T1, other eight connected parents and five Di",
+    "Strict endpoints and ideal multiplicities",
+    "31 focused variants:23 F01 plus8 F02",
+    "139 policy cases:77 native plus62 audit",
+    "20 native and42 audit deeper obligations",
+    "No global M6/rho or adequate joint q/v conclusion"
+  ],
+  "exclusions": [
+    "No actual certificate-body decode or global graph enumeration",
+    "No original or production-pin mutation",
+    "No runtime request/inventory/card/freeze/admission",
+    "No new agent or thread",
+    "No repository publication or Git mutation",
+    "No physical QM/geometry/gravity acceptance",
+    "RET paused; measurement separate"
+  ],
+  "return_boundary": "Exact source seal returns to root for fresh independent source/control review. Author work stops here; this does not pause the wider programme.",
+  "remaining": [
+    "Fresh independent source/control review",
+    "Root runtime and request admission",
+    "Actual synthetic qualification with genuine custody and independent outcomes review",
+    "Separate QP04 actual fixed-certificate producer/auditor admission"
+  ]
+}

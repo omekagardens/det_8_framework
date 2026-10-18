@@ -1,0 +1,145 @@
+{
+  "reviews": [
+    {
+      "handoff": {
+        "bytes": 11412,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/HANDOFF.json",
+        "sha256": "db7856d4aa382bff7ae6468f14586b5021f3c592fda8e91820f61f61886661ac"
+      },
+      "identities": [
+        {
+          "bytes": 11412,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/HANDOFF.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/HANDOFF.json",
+          "sha256": "db7856d4aa382bff7ae6468f14586b5021f3c592fda8e91820f61f61886661ac",
+          "state": [
+            16777244,
+            427465,
+            33188,
+            1,
+            11412,
+            1790843988017466433,
+            1790843988017466433
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 2102,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/ACTUAL_CHECK_TOOL.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/ACTUAL_CHECK_TOOL.json",
+          "sha256": "e4f8adbce4992724e997e6c7fc264fd8a033329a9ca23902f8548c5c2e976a29",
+          "state": [
+            16777244,
+            427464,
+            33188,
+            1,
+            2102,
+            1790843987998703449,
+            1790843987998703449
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 3209971,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/CHECK_RESULT.json",
+          "sha256": "1b23d692cc45cb6978f84789343038ce790f4cf91d2f1236bd15586e03ade93b",
+          "state": [
+            16777244,
+            427453,
+            33188,
+            1,
+            3209971,
+            1790843740892956552,
+            1790843740892956552
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 12237,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/INDEPENDENT_REVIEW.md",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/INDEPENDENT_REVIEW.md",
+          "sha256": "e40308ad2ba90f241eecf8e9a7227229d47e422bbf482d4484b12cee7f281a16",
+          "state": [
+            16777244,
+            427456,
+            33188,
+            1,
+            12237,
+            1790843917873086757,
+            1790843917873086757
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 4388,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/PREAUTH_REVIEW.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/PREAUTH_REVIEW.json",
+          "sha256": "8211ea90a95908e347bb4b934ff70a148e3d13da38510241bade8c1b88f34b68",
+          "state": [
+            16777244,
+            427391,
+            33188,
+            1,
+            4388,
+            1790843113657208593,
+            1790843113657208593
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 5127,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/TOOL_RECEIPTS.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/TOOL_RECEIPTS.json",
+          "sha256": "21be3f45a9eaa19020661b6f67396bf847f17a52a404c064e5f772f86aceeb36",
+          "state": [
+            16777244,
+            427457,
+            33188,
+            1,
+            5127,
+            1790843917908105287,
+            1790843917908105287
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 3503,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/VERDICT.json",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/VERDICT.json",
+          "sha256": "89acb0a96b1c328d48b0342245b1749e1463169231e16dbd6a6e68cbd3c13c6e",
+          "state": [
+            16777244,
+            427458,
+            33188,
+            1,
+            3503,
+            1790843917918536501,
+            1790843917918536501
+          ],
+          "symlink_chain": []
+        },
+        {
+          "bytes": 44110,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+          "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-independent-reconciliation-review-1t1b_0pb/check_actual.py",
+          "sha256": "97d16c09d6dd227a6ad5d97c7b4c003bcf40b520bb83473c6548c039a8fdb376",
+          "state": [
+            16777244,
+            427447,
+            33188,
+            1,
+            44110,
+            1790843727006093158,
+            1790843727006093158
+          ],
+          "symlink_chain": []
+        }
+      ]
+    }
+  ],
+  "root_complete_reads": [
+    "de25ac exit0 complete actual reconciliation review and verdict"
+  ],
+  "schema": "ri234-final-nonauthor-seals-v1"
+}

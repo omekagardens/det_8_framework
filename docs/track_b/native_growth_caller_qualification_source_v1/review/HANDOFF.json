@@ -1,0 +1,44 @@
+{
+  "blocking_findings": [],
+  "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3",
+  "execution_authorized": false,
+  "files": [
+    {
+      "bytes": 23570,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "c315545f71d78f54dc71e87577222eb5a64464bdbafd3900c972724c6eb3149b"
+    },
+    {
+      "bytes": 3023,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "53f7e506c7d7ccca665e432fc7f843c09c3517ce23408e4a80c0717dcbab1561"
+    },
+    {
+      "bytes": 150366,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/OPAQUE_SOURCE_REVIEW.json",
+      "sha256": "d64c1ef2ac50465f240bc9e6bc5d40258f21b9b8f61b0c90a4ae881e1f1a9d22"
+    },
+    {
+      "bytes": 2910,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/FINAL_PIN_CHECK.json",
+      "sha256": "b52e9e7ef11bb7125750c9f7432c105b991bd2269fe91329651b19abc1f9fe25"
+    },
+    {
+      "bytes": 7293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-qualification-independent-review-ye271mv3/check_metadata.py",
+      "sha256": "30d43419c836f1d0a28990f076281b66abf2db9cd09ac2c781418c4157cb0d55"
+    }
+  ],
+  "qualification_claimed": false,
+  "refactor_verdict": "JUSTIFIED_MINIMAL_NEW_VERSION_EXTRACTION_WITHOUT_AUTHENTICATION_OR_ORDER_CHANGES",
+  "schema": "ri132-independent-review-handoff-v1",
+  "scientific_body_decode": false,
+  "source_handoff": {
+    "bytes": 9135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri132-native-caller-qualification-source-0ZmB3R5I/HANDOFF.json",
+    "sha256": "5841f7d783b549b4e8e5a978e1ed3ebceb169412ffc8573ed04ebe52a6d9d53e"
+  },
+  "status": "SEALED_FOR_ROOT_ADJUDICATION_SOURCE_ONLY",
+  "target_activity": false,
+  "verdict": "PASS_BOUNDED_UNEXECUTED_QUALIFICATION_SOURCE_ONLY"
+}

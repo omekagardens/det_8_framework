@@ -1,0 +1,32 @@
+"""Administrative final seal: existing source/evidence bytes only."""
+from pathlib import Path
+import hashlib,json
+D=Path(__file__).resolve().parent;B=D.parent;P=B/'ri158-white-custody-repair-68cdvzn6';V=B/'ri158-independent-repair-review-nxij3eju';R=B/'ri158-root-fixture-review-tupyksou'
+def canon(v):return (json.dumps(v,sort_keys=True,indent=2,ensure_ascii=True,allow_nan=False)+'\n').encode('ascii')
+def pin(p):
+ assert p.is_file() and not p.is_symlink() and p.resolve()==p,str(p)
+ s=p.stat();h=hashlib.sha256();n=0
+ with p.open('rb') as f:
+  for b in iter(lambda:f.read(1048576),b''):n+=len(b);h.update(b)
+ state=lambda x:(x.st_dev,x.st_ino,x.st_mode,x.st_nlink,x.st_size,x.st_mtime_ns,x.st_ctime_ns)
+ assert state(s)==state(p.stat()) and n==s.st_size
+ return {'path':str(p),'bytes':n,'sha256':h.hexdigest()}
+def read(p):return json.loads(p.read_bytes())
+def write(name,v):
+ with (D/name).open('xb') as f:f.write(canon(v))
+manifest=read(D/'SOURCE_SET.json');rows=[manifest['adapter']]+list(manifest['modules'].values())+manifest['dependencies']
+for row in rows:assert pin(Path(row['path']))==row,row['path']
+for directory in (P,V):
+ h=read(directory/'HANDOFF.json');assert sorted(p.name for p in directory.iterdir())==sorted(h['namespace'])
+ for row in h['payloads']:assert pin(Path(row['path']))==row
+expected_base=['ACTUAL_ADMINISTRATIVE_TOOLS.json','ADMINISTRATIVE_CHECK.json','ADMIN_READ_FAILURE.stderr','AUTHORING_RECORD.md','CONTROL_INVENTORY.json','DEPENDENCIES.json','FINAL_FIXTURE_CONTROL_CONTRACT.md','PREDECESSOR_AUTHENTICATION.json','README.md','REPAIR_CONTRACT.md','SOURCE_CORRESPONDENCE.json','SOURCE_DIFF.patch','SOURCE_SET.json','adapter.py','authenticate_predecessors.py','bindings.py','check_administrative.py','custody_io.py','inert_controls.py','integration_controls.py','mode_verify.py','monitor_checks.py','retained_contract.py','retained_control.py','retained_guards.py','retained_stage.py','retained_supervisor.py','seal_packet.py']
+assert sorted(p.name for p in D.iterdir())==sorted(expected_base)
+write('FINAL_SOURCE_PIN_CHECK.json',{'schema':'ri160-final-source-pin-check-v1','source_set':pin(D/'SOURCE_SET.json'),'unchanged_exact_source_files':[manifest['adapter']]+list(manifest['modules'].values()),'complete_dependency_count':len(manifest['dependencies']),'opaque_dependencies_all_match':True,'predecessor27_and_review10_namespaces_unchanged':True,'source_execution':False,'runtime_observation':False})
+namespace=sorted(expected_base+['FINAL_SOURCE_PIN_CHECK.json','PUBLICATION_SUBSET.json','HANDOFF.json'])
+write('PUBLICATION_SUBSET.json',{'schema':'ri160-publication-subset-v1','include_names':namespace,'external_only_preserved':[],'external_historical_dependencies':'All567 exact FilePins in DEPENDENCIES/SOURCE_SET remain their immutable external/repository historical operands; listing them is not current runtime qualification.','fixture_trees_created':False})
+payload=[pin(p) for p in sorted(D.iterdir())]
+assert sorted(Path(r['path']).name for r in payload)==[x for x in namespace if x!='HANDOFF.json']
+write('HANDOFF.json',{'schema':'ri160-source-repair-handoff-v1','status':'UNEXECUTED_SOURCE_READY_FOR_FRESH_NONAUTHOR_REVIEW','author':'/root/ri116_complete_caller_review','reservation':str(D),'sealed_immutable':True,'assignment':pin(R/'MEASUREMENT_REPAIR_ASSIGNMENT.json'),'root_predecessor_adjudication':pin(R/'RI158_ROOT_ADJUDICATION.json'),'predecessor_source':pin(P/'HANDOFF.json'),'predecessor_independent_review':pin(V/'HANDOFF.json'),'source_set':pin(D/'SOURCE_SET.json'),'dependencies':pin(D/'DEPENDENCIES.json'),'dependency_count':567,'full_delta':pin(D/'SOURCE_DIFF.patch'),'correspondence':pin(D/'SOURCE_CORRESPONDENCE.json'),'repair_contract':pin(D/'REPAIR_CONTRACT.md'),'control_contract':pin(D/'FINAL_FIXTURE_CONTROL_CONTRACT.md'),'source_scope':{'changed_executable_files':2,'unchanged_executable_files':10,'added_executable_files':0,'production_change':'only run_authenticated.namespace_tail','other_adapter_functions_unchanged':8,'original_integration_helper_case_bodies_unchanged':4,'saved_mode_verifier_whole_unchanged':True},'controls':{'retained84_exact_order':True,'new_defined':22,'total_defined':106,'executed':0,'inventory':pin(D/'CONTROL_INVENTORY.json'),'scope':'Actual post-authentication runner with explicit inert prior authentication/action and O13-timed observer proxy; no authentic whole-entry or runtime/scientific credit.'},'actual_admin_check':{'chunk_id':'5023cf','exit_code':0,'report':pin(D/'ADMINISTRATIVE_CHECK.json'),'meaning':'Opaque567 dependency and12source identities, two full deltas, complete namespaces, literal counts and unchanged spans only.'},'actual_diagnostics':pin(D/'ACTUAL_ADMINISTRATIVE_TOOLS.json'),'failed_administrative_commands':[{'chunk_id':'5269bc','exit_code':1,'reason':'read-only wrong predecessor narrative basename; corrected full read','stderr':pin(D/'ADMIN_READ_FAILURE.stderr')}],'final_source_pin_check':pin(D/'FINAL_SOURCE_PIN_CHECK.json'),'seal_actual_return':'Delivered separately through genuine author tool result; this file is not self-authentication.','remaining_prerequisites':['Fresh complete nonauthor source/control review and root adjudication','Genuine current-source106 qualification plus independent actual evidence review under unchanged limits','R01 original65 actual path applicability or required relocated controls','New-E unchanged RI141 genuine capture and accepted ordered profiles with actual environment','External startup-through-return monitoring, actual960s outer deadline and genuine tool/host/supplier custody','Actual normal plus full27/13/30 and57/74/3 evidence and separate saved arithmetic/root normal acceptance before optimized','Complete two-mode53 exact files/two links/four propagated pins and independent final root acceptance','RI131, full32, periodic/mean/join, public-data/calibration and native/physical claims remain separate'],'root_owns_acceptance_admission_and_Git':True,'scientific_decode_or_execution':False,'runtime_observed':False,'actual_fixture_created':False,'new_agents':0,'RET':'paused','namespace':namespace,'payload_count':len(payload),'payloads':payload})
+assert sorted(p.name for p in D.iterdir())==namespace
+for row in payload:assert pin(Path(row['path']))==row
+print(json.dumps({'status':'SEALED_SOURCE_ONLY','namespace_files':len(namespace),'payloads':len(payload),'handoff':pin(D/'HANDOFF.json'),'source_set':pin(D/'SOURCE_SET.json'),'adapter':pin(D/'adapter.py'),'integration_controls':pin(D/'integration_controls.py'),'controls_executed':0},sort_keys=True))

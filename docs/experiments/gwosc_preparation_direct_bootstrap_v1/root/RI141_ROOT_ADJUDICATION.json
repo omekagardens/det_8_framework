@@ -1,0 +1,68 @@
+{
+  "blocking_findings": [],
+  "calibration_or_native_forward_map_claim": false,
+  "complete_nonauthor_lines": 1389,
+  "controls_executed": 0,
+  "current_runtime_qualified": false,
+  "execution_admitted": false,
+  "independent_check": {
+    "bytes": 167968,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/OPAQUE_SOURCE_CHECK.json",
+    "sha256": "37662c0b8b410ab6183e7cd0d5088bb4d84e8738e79e41226ac95832330ed9e5"
+  },
+  "independent_diagnostics": {
+    "bytes": 3428,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/REVIEWER_DIAGNOSTICS.json",
+    "sha256": "5533a219d028803f0d7d66077201f96a6b732b6d7f3d054672a32d8146c3455b"
+  },
+  "independent_handoff": {
+    "bytes": 5103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/HANDOFF.json",
+    "sha256": "fb2ccb6ea23abd009db852c56fa2ac6e33f1c0b54a5b1db9324722e05ca214fb"
+  },
+  "independent_review": {
+    "bytes": 19709,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.md",
+    "sha256": "c9eb8d0f7fb4bb2312ac3c861968bbce0dfc8bcbfba028cf7bbb744afaa370d2"
+  },
+  "independent_verdict": {
+    "bytes": 4641,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/INDEPENDENT_SOURCE_REVIEW.json",
+    "sha256": "640e4dea8335b2a56698689054eb23f155c4f6440e4528afd880cfa6c498e641"
+  },
+  "opaque_dependencies": 442,
+  "remaining": [
+    "external pre-startup supplier/framework/host/environment/loader/cache and tool-origin premises",
+    "changed-guard qualification followed by one real parent/PRE/POST capture and independent baseline review",
+    "normal then optimized profiles; separate65 guards; WHITE/full32; conventional GWOSC reproduction"
+  ],
+  "ret_paused": true,
+  "root_check": {
+    "bytes": 3135,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_SOURCE_CHECK.json",
+    "sha256": "afd00df7bf719900468fc9f017d3b18b4033c300502c42dc6a5d35a258cd12bb"
+  },
+  "root_failed_check": {
+    "bytes": 672,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_CHECK_ATTEMPT1.json",
+    "sha256": "3d62e5a7c83ebe5db2d027709b825c0b6b2a04d84511cc1aeb8b33d84c2e1369"
+  },
+  "root_failed_checker": {
+    "bytes": 2721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/check_measurement_source.before-added-function-fix.py",
+    "sha256": "b35c9890624ef3eda1c3fefe3443c2a5adaecec10eaf342abffaf77fac3b9f1e"
+  },
+  "root_review": {
+    "bytes": 3074,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_SOURCE_REVIEW.md",
+    "sha256": "490cd58d6f31c8774cde840722eddee48f3c02ecfe9ab1f7b332a7ba120bc591"
+  },
+  "schema": "ri141-root-unexecuted-source-adjudication-v1",
+  "selected_next": "Implement the fifteen isolated B01-B10 expectations (six distinct B07 variants) under explicit observer doubles, complete source loading/authentication and existing bounded evidence supervision; source review and genuine root admission before running. Do not repeat old25 or enlarge this into a new generic launcher. Then independently adjudicate those controls and proceed to genuine current production capture.",
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "status": "ACCEPT_EXACT_SOURCE_WITH_EXECUTION_PREREQUISITES"
+}

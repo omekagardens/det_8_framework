@@ -1,0 +1,54 @@
+{
+  "runtime_at_source_freeze": {
+    "implementation": "CPython",
+    "optimized": 0,
+    "python": "3.14.0"
+  },
+  "schema": "QR-05BG-source-freeze-v1",
+  "sources": {
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/README.md": {
+      "bytes": 11222,
+      "sha256": "f5a78bca5866144d75e70dff0a4f50da1dd71d197af680e38b6e5d527c41ef60"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/RESULTS.md": {
+      "bytes": 12306,
+      "sha256": "ca9c7a6b1a12e456a7d1a2ec58c39047b871309187a38153f6c12102fee848a4"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/protocol.json": {
+      "bytes": 2777,
+      "sha256": "0c874abb8290fc1d6e4d76c25c741bf778e5c721f8f7c0310693fcbf1804aa4e"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/results.json": {
+      "bytes": 3101822,
+      "sha256": "b70e110bf7f076fa37b13ffd0f45ef1c7f339b2b16cfcd4d5219d68e176a9e30"
+    },
+    "docs/validation/qr-05bf-known-placement-portability-2026-09-08/source-freeze.json": {
+      "bytes": 2387,
+      "sha256": "7417b6b3e57e3449d600f5c8b24254fb32444d6002d9e369adc7389e4098cd8a"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/README.md": {
+      "bytes": 11904,
+      "sha256": "e4d2de5928536322a7a36c0950d405a822d62823625bc1fd692c897d2a355a41"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/protocol.json": {
+      "bytes": 4043,
+      "sha256": "0944940c7da1f7e15e9d103695cc023964d602cf750056154346b01b35a98256"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/quantum.py": {
+      "bytes": 30613,
+      "sha256": "c69ac9ea96fd1e041ba605795c70bc4225f7ccaf8701bcd02c8378b6807c9865"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/reference.py": {
+      "bytes": 19784,
+      "sha256": "0fce21ee94e637db161b52b2fd9ff97729782f15870699a5d235406cd7ce88d9"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/study.py": {
+      "bytes": 16350,
+      "sha256": "377c8d2dd6e79c53e1a937e4bea4830154237a2ef4db0aaf8d146590c9c36856"
+    },
+    "docs/validation/qr-05bg-finite-position-uncertainty-2026-09-08/test_qr05bg.py": {
+      "bytes": 63753,
+      "sha256": "f59eac87da6d15f1a95fea8c1aba1406bd5acc57bbb1085bca7037ebba65293e"
+    }
+  }
+}

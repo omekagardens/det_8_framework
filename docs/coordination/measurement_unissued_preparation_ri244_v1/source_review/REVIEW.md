@@ -1,0 +1,65 @@
+# RI244 independent preparation-source review
+
+Verdict: RECOMMEND_ACCEPT_EXACT_UNEXECUTED_PREPARATION_SOURCE_ONLY. No blocking source defect was found in the sealed proposal. This recommendation is for root's separate source adjudication and one separately authorized administrative preparation, not for a pre_mode admission, dispatch, successful preparation, fresh host observation, mode card or scientific result.
+
+Reviewed packet: /private/tmp/ri244-preparation-proposal-3udz0imk. Exact HANDOFF.json: 4462 bytes, SHA256 31e3265d02d9323c0b3224800e70ccac16955c696e0f3f2c2e84af23857b0ba1. Its complete eleven-file namespace and ten bound payloads remained exact through the independent administrative check.
+
+## Independence and scope
+
+The reviewer is /root/ri116_complete_caller_review. I did not author this RI244 writer, bootstrap text, protocol, correspondence diffs or author checker. The author is /root/archive_repro_review, whose prior RI130/RI141 authorship is disclosed by the packet. I previously authored RI125 primary/qualifier work, RI131, RI160-related measurement adapter repairs, RI236 preparation design and other historical administrative work. Those earlier subjects retain their separate nonauthor/root acceptance. This review does not reclassify my previous work as independently authored or provide a fresh scientific acceptance of it.
+
+I read the complete new 334-line writer, complete 18-line bootstrap, complete protocol, references, handoff, authoring record and author metadata checker. I reviewed all old/new source content in the correspondence patches and independently reconstructed all three entire diff files. I read the complete retained 3144-byte metadata helper as text and reread the pertinent unchanged RI160 adapter authentication/action boundaries and RI141 child_run implementation. READ_COVERAGE.json identifies the actual read receipts and exact scope. No source/proposal/helper/monitor/vendor was imported, compiled, AST-parsed, probed or executed. No current E/supplier inventory, operational object, scientific operand decoding or Git operation occurred.
+
+## Actual administrative evidence
+
+The independent command was:
+
+    /opt/homebrew/bin/python3 -I -B /private/tmp/ri244-independent-source-review-n9x3lh9m/check.py
+
+Actual tool 24f048 exited 0. It recorded 10,654 predicates over 610 distinct opaque source/admin files. CHECK.json is 1,689,459 bytes, SHA256 7634c10af93071896bf6eed1f61126f5a7bbf6cdddbb28e1df33467db96bbbe3, with exact raw readback. Checks include all eighteen reference pins, twelve component sources and 567 declared dependency rows, every author-reported identity, the complete proposal seal, three exact full diffs, six unique bootstrap substitutions and their complete reverse projection. Source/admin reads use no-follow descriptors and before/open/after seven-field state equality. Current E and installed supplier paths are expressly outside this checker's permitted domain.
+
+The author report's 1,259 predicates and 605 opaque files are verified as a distinct author-only record; they are not relabeled independent testing. The independent total differs because it includes additional seal/helper/root-recipe evidence and repeated verification predicates. None of these counts is scientific qualification or behavioral test coverage.
+
+One reviewer-only display, ab0294, exited 1 because it indexed the saved vendor list as a dict. The command and complete error output are preserved in DIAGNOSTICS.json. Corrected bounded display eab73c exited 0 and observed the actual list shape. A prior successful metadata display c28e22 was clipped after printing an unnecessarily large historical E list; the final checker uses the complete saved objects directly and makes no inference from omitted display text. No proposal/subject retry occurred. The final checker passed on its first invocation. Genuine service origin of recorded tool receipts remains a transcript premise, not something the saved receipt JSON authenticates by itself.
+
+## Authority and first-effect boundary
+
+Writer lines80-142 require a separate canonical eight-field root decision, exact CLI decision hash, actual writer pin, pinned handoff and complete namespace before using historical references. The decision authorizes one administrative preparation only, names the literal D reservation and fresh root-attested host transcript, and requires operational_authorization false. The helper is hash/size checked and captured before its non-main administrative loading. The sealed reference-file identity is embedded in the writer. The graph is acyclic: references precede writer; handoff binds writer/payloads; a future root decision binds both.
+
+No root decision, fresh host transcript or operational command result is fabricated by the packet. The root decision and host must be outside D and the sealed proposal. Root must authenticate its administrative interpreter and exact source before startup. A new chunk string and JSON flag alone cannot prove genuine tool origin or freshness; these remain explicitly external root premises. The writer additionally checks full raw host-output reconstruction, accepted host equality, exact benign command arguments, terminal exit0/no session and current uname equality.
+
+All pinned source, original acceptance, qualification, runtime/input chain, historical role custody, supplier/E observations and authority absences are checked before D ownership. D must be an existing empty literal directory. O must be an absent immediate sibling named ri156-operation-ri244-premode-2kfsmiea. E remains read-only. No ADMIT_PRE_MODE.json, DISPATCH.json, O, ADMIT_NORMAL.json or ADMIT_OPTIMIZED.json is created by the writer.
+
+## Input and custody completeness
+
+The source explicitly authenticates all twelve RI160 components and 567 dependency rows, accepted bootstrap provenance, original RI160 source decision and actual106 qualification. The qualification's complete source binding, evidence references, all-passed status and nonscientific scope are preserved. RI241 input adjudication remains preparation provenance; it does not replace the original source_review field or add a thirteenth adapter-admission field.
+
+The complete saved role map equals the accepted FROZEN observation: 48 copies, 124 historical roles and 30 target-original roles. All 2,811 historical observed identity rows are rechecked by the future writer; overlap does not erase role multiplicity. The historical E baseline is explicitly pinned. The complete 58-row tree has 49 files and nine directories, full seven-field states, exact per-directory memberships and full file identities. The writer reobserves and compares it before ownership and again in its independent E tail. No APFS link-count normalization or silent permitted transition is introduced: this is a read-only preparation, so the complete accepted E state must remain equal.
+
+Future supplier checks retain all 1,810 files totaling 48,024,515 bytes, four tools, 195 directory/link namespace rows and two absences, plus full host and exact operation environment. Full saved identities, link targets and memberships are checked. Timestamps remain distinct observations; only timestamp is omitted for before/after stable comparison, while operation environment remains equal. The helper and registry retain whole identities; byte/hash-only references do not discard current states from the immutable preownership snapshot.
+
+The runtime record remains exactly thirteen fields and request exactly five. Whole accepted current/normal metadata, supplier projections, dyld sidecar, profile/baseline references, runtime acceptance and collection provenance are bound. The freeze body remains opaque in this writer: runtime uses its two-field identity, request its three-field FilePin, and equality is checked deliberately rather than by confusing the schemas. Traversal hashes references in selected administrative JSON only; it does not recursively decode arbitrary bodies. This source review does not independently refresh any current supplier or E state.
+
+## Candidate and bootstrap correspondence
+
+Successful preparation proposes eight files and two empty directories. The prospective nested adapter card has exactly these twelve fields: schema, status, action, source_manifest, source_review, qualification, request, output, environment, bootstrap_preflight, bounds, genuine_outer_required. It is nested inside an explicit unissued wrapper. The wrapper itself fails the unchanged adapter's closed twelve-field admission schema. Its preflight FilePin comes from the actual newly written/read-back preflight; no future admission FilePin is invented.
+
+The runtime record's environment retains E/tmp. The administrative operation, vendor preflight and bootstrap instead use D/tmp. The other nine environment fields remain exact. Root's future outer cwd is D; the unchanged monitor starts the child at D/monitor. O remains an independent evidence-parent sibling, satisfying the adapter's fixed output-root guard. Neither a hypothetical D/output operation nor an E/tmp replacement is introduced.
+
+The full derived bootstrap equals its sealed text and differs from RI204 at exactly six literal sites: scope comment, entire environment literal, fresh non-main module name, admission path, monitor path and label. Forward and reverse text checks pass. Complete RI141 source authentication/capture/loading and child_run semantics are unchanged. The future call uses the exact direct Apple Python3.9 with -I -B, unchanged RI160 adapter, label PRE_MODE, child output D/monitor and 180-second bound. No copied sidecars/adapters-only assertion is presented as pre_mode evidence.
+
+## Failure handling and final persistence
+
+Writer lines239-330 initialize first error, artifact registry, tail containers and complete source snapshot before tmp mkdir. Failure of the first mkdir is a genuine preownership refusal recorded by root's actual tool. Once tmp is owned, monitor mkdir and all output writes are protected. Files use exclusive creation, fsync and direct raw-byte readback; there is no serializer-on-bytes comparison. No cleanup, overwrite or retry path is supplied.
+
+After any guarded output failure, all six tail groups are independently attempted: inputs, supplier, E, authority absences, produced outputs and namespace. First error remains first and later group errors are retained. Input and output groups collect all comparable per-row errors. Other groups fail closed at their first failed predicate; they are not claimed to produce a complete successful inventory after an internal exception. Missing or incomplete writes receive no invented successful identity. The namespace distinguishes accepted complete preparation from retained partial failure and forbids actual monitor output.
+
+On success, the pre-COMPLETE namespace is exactly seven ordinary files plus two empty directories. PREPARATION_COMPLETE is then exclusively written and read back as the eighth file. It does not circularly hash itself or claim to have been covered by the earlier namespace tail. If its final serialization/write/fsync/readback fails, that exception escapes; actual tool failure and partial outputs must be retained. Root must independently examine the final eight-file/two-directory namespace and COMPLETE after execution before considering any operational admission. No timing claim for that final write is invented.
+
+## Bounds, limitations and concrete next action
+
+The writer has a64MiB per-file cap and makes no executed elapsed/RSS claim. Root supplies a bounded genuine administrative invocation. Later unchanged adapter operation bounds remain180s,524288KiB sampled child RSS,25ms target poll,100ms initial/interior/final sample gap,50ms ps timeout and64MiB files, with the separate genuine960s outer alarm. The monitor checks owned-child samples; stable supplier, no-descendant, Apple loader/cache/startup, parent-PID and genuine tool-origin premises are not converted into hard/group memory limits or hermetic execution claims.
+
+After root's independent adjudication, the minimal next step is fresh genuine root host evidence and the separate preparation-only decision, then one exact administrative preparation under authenticated source/interpreter custody. Root must inspect all actual preparation outputs/tails, concrete bootstrap and whole current source/supplier/E custody. Only after that may root issue the distinct twelve-field ADMIT_PRE_MODE and dispatch unchanged pre_mode under the inherited monitor/outer command. The complete nine-field result and original seven adapter tails still require separate actual review before any mode_card action. All normal/optimized scientific execution, arithmetic review, full application qualification, public GWOSC reproduction and physical/native-forward-map claims remain unearned by this packet. RET remains paused.
+
+No source repair or new monitor/qualification campaign is requested. This recommendation ends at exact unexecuted preparation-source suitability, with the stated existing operational prerequisites intact.

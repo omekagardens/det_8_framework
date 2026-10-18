@@ -1,0 +1,43 @@
+{
+  "RET_paused": true,
+  "finding": "The exact intended one-entry transition preserved root device/inode/mode and all old members but changed root nlink23to24. Installer and unrun postchecker incorrectly require nlink invariance. Exact candidate is a retained unaccepted partial.",
+  "genuine_installation": {
+    "bytes": 3634,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+    "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+  },
+  "independent_actual_checks": [
+    "8b7e1c exit0:62933 predicates/285 opaque identities",
+    "ea9431 exit0:39 predicates"
+  ],
+  "independent_handoff": {
+    "bytes": 5189,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/HANDOFF.json",
+    "sha256": "fd1e0c13a69933070a14229b040c027bdcf2ff9eebae7481b28a4f30ff33525b"
+  },
+  "installation_accepted": false,
+  "next_assignment": {
+    "bytes": 3315,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI226_MEASUREMENT_ASSIGNMENT.json",
+    "sha256": "077b790342bae3450756b5b734894d46024b17c49f9b9360acd1105b75346416"
+  },
+  "no_delete": true,
+  "no_mode_admission": true,
+  "no_retry": true,
+  "qualification_credit": 0,
+  "remaining": "RI226 source-only retained-partial reconciliation design is assigned; independent review and separate root admission precede any execution.",
+  "root_complete_review_tool": "62f7b5",
+  "root_postflight": {
+    "bytes": 5932,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+    "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+  },
+  "root_prior_review_miss_disclosed": true,
+  "schema": "ri224-root-postwrite-failure-adjudication-v1",
+  "status": "CONFIRM_ACTUAL_REFUSAL_AND_CUSTODY_FINDING_NOT_INSTALLATION_ACCEPTANCE",
+  "supersession": {
+    "bytes": 1938,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/RI222_OPERATIONAL_SUPERSESSION.json",
+    "sha256": "9c3cd5ca300d97ea108a7f49d00f5332b578a43338b3f063d4c9a38c0c7a42d7"
+  }
+}

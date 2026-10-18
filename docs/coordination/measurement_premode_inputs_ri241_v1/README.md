@@ -1,0 +1,11 @@
+# Unissued normal pre-mode inputs
+
+The concrete 13-field runtime and five-field pre-mode request are assembled and independently reviewed against unchanged RI160 source. The runtime's freeze value has only bytes and sha256; the request's freeze reference additionally has path. This source-level distinction resolves the prospective RI236 contract's ambiguous wording without changing its historical bytes.
+
+The accepted RI204 runtime/profile chain supplies the exact environment and historical normal PRE baseline. The current RI236 capture PRE remains the current snapshot. Their complete bodies agree. Both accepted supplier projections preserve every nested field; the complete original observations, timestamps and genuine receipts remain linked through collection provenance. The existing complete observed-dyld-routes sidecar matches the current snapshot and is reused. The installed freeze is authenticated opaquely and has not been decoded for this assembly.
+
+Root performed fresh full49-file/nine-directory custody checks before and after the two exclusive writes outside E, including all2,811 retained opaque identities and all48/124/30 source roles. Independent source/field-map and final candidate reviews remain distinct from root assembly and acceptance. Reviewer lookup failures and clipped displays are preserved in their reports.
+
+These are unissued input records. No pre_mode admission, adapter invocation, result9, mode-card candidate, mode-card installation or scientific run is created by this publication. Next is the separately admitted unchanged RI160 pre_mode operation after fresh custody/source/supplier checks, with its existing12-field admission and106-control acceptance. Its nine-field result requires review before separate mode_card generation. The actual normal science and independently accepted arithmetic remain before optimized execution. RI131/full32 and selected public GWOSC conventional reproduction remain downstream; calibrated results and a native forward map remain distinct. RET alone stays paused.
+
+Original inputs and complete reviews are copied exactly. Direct source identities and accepted evidence are mapped to archive, existing Git or explicitly external originals. Runtime and transitive completeness and relocated execution are not claimed.

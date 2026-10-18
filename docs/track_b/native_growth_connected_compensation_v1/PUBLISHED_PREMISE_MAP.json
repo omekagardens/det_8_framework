@@ -1,0 +1,360 @@
+{
+  "parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+  "rows": [
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/ROOT_ADJUDICATION.json",
+      "role": "RI124 accepted full conditional theorem and closure",
+      "source": {
+        "bytes": 3645,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+        "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/review/INDEPENDENT_PROOF_REVIEW.md",
+      "role": "RI124 complete fresh nonauthor review",
+      "source": {
+        "bytes": 18484,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.md",
+        "sha256": "55b2a892c67c2fd49dfb8e539f0876546b9dc3ddc25caca7336a16ee77c4fbc1"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/review/HANDOFF.json",
+      "role": "RI124 independent-review handoff",
+      "source": {
+        "bytes": 2045,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/HANDOFF.json",
+        "sha256": "d632c7f26451e729d524a8eab98969969171719529fdcc1bd7e6f5c92c74ff43"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/HANDOFF.json",
+      "role": "RI124 immutable author handoff",
+      "source": {
+        "bytes": 6468,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+        "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/COMPENSATION.md",
+      "role": "RI124 complete parent and strict-positive criterion",
+      "source": {
+        "bytes": 15921,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COMPENSATION.md",
+        "sha256": "116b101809b4fbfc5a4c19e81885280b53df004a2fff411226e33854564db1b5"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/COEFFICIENT_OBLIGATIONS.md",
+      "role": "RI124 finite coefficient definitions",
+      "source": {
+        "bytes": 18410,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COEFFICIENT_OBLIGATIONS.md",
+        "sha256": "a41886e29a1364b45d6826f272bf8b93e559e970543795884c45409ca01b3a64"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "role": "RI115 accepted polynomial identities",
+      "source": {
+        "bytes": 6498,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+        "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_coupled_positive_family_v1/ROOT_ADJUDICATION.json",
+      "role": "RI117 accepted negative pivot/contrast premises",
+      "source": {
+        "bytes": 4617,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+        "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "role": "RI117 complete T2/T3 profile and record transport",
+      "source": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_one_column_repair_v1/REPAIR.md",
+      "role": "RI111 polynomial notation and reference elimination",
+      "source": {
+        "bytes": 20656,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+        "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "role": "RI102 strict disjunction and mixture identities",
+      "source": {
+        "bytes": 17366,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+        "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "role": "RI120 analytic prefix identities",
+      "source": {
+        "bytes": 7886,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+        "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "role": "RI120 core restoration identities",
+      "source": {
+        "bytes": 8244,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+        "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "role": "RI41 fixed record-blind three-chain row",
+      "source": {
+        "bytes": 16243,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+        "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "role": "RI63 actual strict mixture and raising-component premise",
+      "source": {
+        "bytes": 17102,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+        "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/ROOT_ADJUDICATION.json",
+      "role": "RI122 final accepted complete reconstruction and obstruction",
+      "source": {
+        "bytes": 15477,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+        "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/root_review/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+      "role": "RI122 complete exact odd/even patterns and quadratic sign proof",
+      "source": {
+        "bytes": 7418,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+        "sha256": "9afb628549befc1bb25e64c9d370fa890e340a2216fd47b7d6c528e7ac90e6f9"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/independent/audit_math/NONAUTHOR_AUDIT_REVIEW.md",
+      "role": "RI122 actual complete audit mathematical review",
+      "source": {
+        "bytes": 13203,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/NONAUTHOR_AUDIT_REVIEW.md",
+        "sha256": "2df52eafb9ccb47ded7148660c3f530b395d9a5e6f4429985ff75f550b54ddd3"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/IMPLEMENTATION.md",
+      "role": "RI120 existing held-domain specification and input identity",
+      "source": {
+        "bytes": 16451,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+        "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_four_vertex_cap_check_v1/CERTIFICATE.json",
+      "role": "Existing RI88 held object, authenticated only",
+      "source": {
+        "bytes": 1828149,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+        "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+      },
+      "source_manifest": "SOURCES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 17366,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+        "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 11893,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+        "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 15564,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+        "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 10742,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+        "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "role": "complete prior author task; opaque unchanged identity checked this task",
+      "source": {
+        "bytes": 8244,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+        "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "role": "complete prior author task; opaque unchanged identity checked this task",
+      "source": {
+        "bytes": 7886,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+        "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 16243,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+        "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 6498,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+        "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/ROOT_ADJUDICATION.json",
+      "role": "complete current task",
+      "source": {
+        "bytes": 15477,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+        "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/interpretation/INTERPRETATION.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 11087,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INTERPRETATION.md",
+        "sha256": "d2fe0a49be13038d1855604bd935f1d4f284ddde124c9d8b6f67477d0deb493a"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_connected_sensitivity_result_v1/independent/audit_math/ADDENDUM.md",
+      "role": "complete current task",
+      "source": {
+        "bytes": 10371,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/ADDENDUM.md",
+        "sha256": "a949e64dbe30f413f7dd39162aad6400d4fee6b79a63dc6df042b5330717f416"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    },
+    {
+      "published_parent": "d65d1f683a33559e02c3fb139312e7da1ec48687",
+      "published_path": "docs/track_b/native_growth_contrast_compensation_v1/SUPPORT.md",
+      "role": "complete prior author task; opaque unchanged identity checked this task",
+      "source": {
+        "bytes": 16184,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/SUPPORT.md",
+        "sha256": "5a85c09acb897a5a1132ec4f3b67e9c41086ea1b374731724888365eb31aa0fc"
+      },
+      "source_manifest": "LOCAL_POSITIVITY_SOURCE_IDENTITIES.json"
+    }
+  ],
+  "schema": "ri127-published-premise-map-v1",
+  "scope": "Opaque byte comparisons against actual Git parent, including the scientific input only as opaque bytes. No scientific decoding or calculation.",
+  "status": "ALL_DECLARED_SOURCE_PREMISES_HAVE_EXACT_ALREADY_COMMITTED_BYTES"
+}

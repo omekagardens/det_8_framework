@@ -1,0 +1,45 @@
+{
+  "action": "freeze",
+  "adapters_acceptance": {
+    "bytes": 3842,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/ADAPTERS_ACCEPTANCE.json",
+    "sha256": "21929f3fcc989233cdc0a479f7f5319ddc5458163f569dee3907a1f1965edcf9"
+  },
+  "calibration_or_native_forward_map_claimed": false,
+  "freeze_issued": false,
+  "later_obligations": [
+    "WHITE15/W09",
+    "both179controls",
+    "27/13/30records",
+    "57artifacts",
+    "74postchecks",
+    "three science trees",
+    "RI131/full32",
+    "selected public GWOSC conventional reproduction"
+  ],
+  "no_missing_user_decision": true,
+  "request": {
+    "bytes": 825,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/FREEZE_REQUEST.json",
+    "sha256": "51b909b39939e545938eaf7f4903ecd4ab52842025a1826c28ee08aeaf68e0c2"
+  },
+  "requirements": [
+    "fresh source/vendor/host/E custody and exact twelve-field admission for one bounded unchanged RI160 freeze action outside E",
+    "genuine monitor/terminal receipts and full candidate freeze reconstruction",
+    "independent review before issuing the accepted freeze at E",
+    "fresh per-mode custody and genuine normal WHITE execution/acceptance before optimized"
+  ],
+  "ret_paused": true,
+  "schema": "ri204-next-measurement-action-v1",
+  "scientific_execution_authorized": false,
+  "status": "ROOT_OWNED_NEXT_BOUNDED_ACTION",
+  "unchanged_limits": {
+    "file_bytes": 67108864,
+    "maximum_sample_gap_seconds": 0.1,
+    "outer_alarm_seconds": 960,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "target_poll_seconds": 0.025,
+    "wall_seconds": 180
+  }
+}

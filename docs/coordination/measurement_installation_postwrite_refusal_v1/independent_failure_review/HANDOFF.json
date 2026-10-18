@@ -1,0 +1,130 @@
+{
+  "actual_checks": {
+    "administrative_predicates": 62972,
+    "failed_checker_attempts": [],
+    "failure_checker": {
+      "chunk_id": "8b7e1c",
+      "exit_code": 0,
+      "opaque_identities": 285,
+      "predicates": 62933
+    },
+    "final_read": {
+      "chunk_id": "d89be1",
+      "exit_code": 0
+    },
+    "genuine_linkage": {
+      "chunk_id": "ea9431",
+      "exit_code": 0,
+      "predicates": 39
+    },
+    "report_construction": {
+      "chunk_id": "2b2309",
+      "exit_code": 0
+    }
+  },
+  "actual_operation": {
+    "FROZEN_absent": true,
+    "exact_candidate_partial_retained": true,
+    "exit_code": 1,
+    "genuine_receipt": {
+      "bytes": 3634,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "e2506eb89947fce6b0e7368540a782a5e8e7af52c904974e44f2fc70d1778bdd"
+    },
+    "initial_chunk": "8081b8",
+    "monitor_samples": 42,
+    "new_E_directories_including_root": 9,
+    "new_E_files": 49,
+    "old_E_directories_including_root": 9,
+    "old_E_files": 48,
+    "operation_files": 4,
+    "result": "REFUSED_RETAIN_ALL_PARTIALS",
+    "root_postflight": {
+      "bytes": 5932,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-root-cwd-review-nyvru347/POST_FAILURE_CUSTODY.json",
+      "sha256": "8b62febd21d4f3e0ad9fdf53195f05b922db395ab5b9bf265b441e1ff659f4e3"
+    },
+    "session_id": 81601,
+    "terminal_chunk": "17185d"
+  },
+  "boundaries": {
+    "delete": false,
+    "earlier_WHITE_authorship_disclosed": true,
+    "installation_accepted": false,
+    "mode_authority": false,
+    "prior_reviewer_miss_disclosed": true,
+    "qualification_credit": 0,
+    "recovery_authority": false,
+    "repo_or_git_mutation": false,
+    "ret_paused": true,
+    "retry": false,
+    "root_full_supplier_repository_replay_inherited_not_duplicated": true,
+    "scientific_decode": false,
+    "source_readiness_superseded": true,
+    "subject_execution": false
+  },
+  "decision": "CONFIRM_REFUSAL_REQUIRE_CUSTODY_REPAIR_AND_SEPARATE_PARTIAL_RECOVERY_DESIGN",
+  "external_only_diagnostics": [],
+  "finding": "Installer line103 and unrun postchecker line91 require unchanged root directory nlink after installation; actual exact one-entry transition preserves device/inode/mode but changes nlink23 to24. Installation remains refused with retained exact candidate partial.",
+  "namespace": [
+    "CHECK_RESULT.json",
+    "GENUINE_LINKAGE.json",
+    "HANDOFF.json",
+    "INDEPENDENT_FAILURE_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_failure.py",
+    "check_genuine.py"
+  ],
+  "payloads": [
+    {
+      "bytes": 168812,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/CHECK_RESULT.json",
+      "sha256": "6a668dab0b909240aa4ec6c8b6b41dccd232d4a090652a3f83a7e18c7c01ffa2"
+    },
+    {
+      "bytes": 1295,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/GENUINE_LINKAGE.json",
+      "sha256": "48bff5d22c566b65e049f4fb78e1ee9e878cdd1ee1ddda20e29b48c4406aa1ac"
+    },
+    {
+      "bytes": 6902,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/INDEPENDENT_FAILURE_REVIEW.md",
+      "sha256": "a6177d0fe6aee4b01e0473f4270b1d9d80f4f313f9bd7bde0bfe63f01ebfa0e0"
+    },
+    {
+      "bytes": 2713,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/TOOL_RECEIPTS.json",
+      "sha256": "300661084f63b0050f0dc18bb51497832d61a23a9f0bbd4b4f20addb91c5357d"
+    },
+    {
+      "bytes": 2688,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/VERDICT.json",
+      "sha256": "3eadfdb087d7fa7a021ecae06902ecdb3cb9312a2debc1688f1711d864e0240b"
+    },
+    {
+      "bytes": 14184,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_failure.py",
+      "sha256": "e2a7e5e7f50dad93d53602c0c78950d336fa852fe4b0883539f0aba0469a9b42"
+    },
+    {
+      "bytes": 5183,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78/check_genuine.py",
+      "sha256": "61d6486c9298a5373210dc40789369864219fa0a8e35d866d85832f5accdbc67"
+    }
+  ],
+  "public_review_subset": [
+    "CHECK_RESULT.json",
+    "GENUINE_LINKAGE.json",
+    "INDEPENDENT_FAILURE_REVIEW.md",
+    "TOOL_RECEIPTS.json",
+    "VERDICT.json",
+    "check_failure.py",
+    "check_genuine.py"
+  ],
+  "required_next_design": "Separate reviewed platform-aware root metadata contract in installer and checker plus separately root-adjudicated retained-partial recovery design, preserving original refused receipt and all outputs; no action authorized here.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri224-independent-installation-failure-00z0sv78",
+  "reviewer": "/root/archive_repro_review",
+  "schema": "ri224-independent-installation-failure-handoff-v1",
+  "status": "CONFIRM_REFUSAL_REQUIRE_CUSTODY_REPAIR_AND_SEPARATE_PARTIAL_RECOVERY_DESIGN"
+}

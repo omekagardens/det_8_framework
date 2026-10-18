@@ -1,0 +1,101 @@
+{
+  "child_exit_code": 1,
+  "command": [
+    "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "-I",
+    "-B",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/worker_proposal/install_freeze.py",
+    "--admission",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/ADMIT_INSTALL.json"
+  ],
+  "elapsed_seconds": 0.20559654099999997,
+  "environment": {
+    "LC_ALL": "C",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PATH": "/usr/bin:/bin",
+    "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/tmp",
+    "TZ": "UTC",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+  },
+  "final_sample_gap_passed": true,
+  "final_sample_to_reap_gap_seconds": 0.03018216600000001,
+  "first_error": null,
+  "monitor_attempts": [
+    {
+      "elapsed_seconds": 0.047396541,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "   288\n"
+    },
+    {
+      "elapsed_seconds": 0.07615583299999999,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 11552\n"
+    },
+    {
+      "elapsed_seconds": 0.10882712499999998,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 17808\n"
+    },
+    {
+      "elapsed_seconds": 0.142219125,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 20272\n"
+    },
+    {
+      "elapsed_seconds": 0.17541437499999996,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": " 22048\n"
+    }
+  ],
+  "passed": false,
+  "peak_sampled_rss_kib": 22048,
+  "samples": [
+    {
+      "elapsed_seconds": 0.047396541,
+      "gap_seconds": 0.047396541,
+      "rss_kib": 288
+    },
+    {
+      "elapsed_seconds": 0.07615583299999999,
+      "gap_seconds": 0.028759291999999992,
+      "rss_kib": 11552
+    },
+    {
+      "elapsed_seconds": 0.10882712499999998,
+      "gap_seconds": 0.03267129199999999,
+      "rss_kib": 17808
+    },
+    {
+      "elapsed_seconds": 0.142219125,
+      "gap_seconds": 0.03339200000000003,
+      "rss_kib": 20272
+    },
+    {
+      "elapsed_seconds": 0.17541437499999996,
+      "gap_seconds": 0.033195249999999954,
+      "rss_kib": 22048
+    }
+  ],
+  "stderr": {
+    "bytes": 701,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stderr",
+    "sha256": "9e0fb84869c9df052f636d2446611f8bc901785725f482e49df1eaacc794cd4e"
+  },
+  "stdout": {
+    "bytes": 0,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri218-freeze-byte-repair-x62withm/monitor/INSTALL.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stop_reason": null,
+  "tail_errors": [],
+  "wall_seconds": 180
+}

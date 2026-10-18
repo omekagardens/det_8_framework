@@ -1,0 +1,683 @@
+{
+  "entries": [
+    {
+      "bytes": 997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_length/MUTATED_ARTIFACT.bin",
+      "sha256": "0e088b3f23655853df3d2a5838b122fc6f26e068759709562aab43ecbfc6c517"
+    },
+    {
+      "bytes": 1275,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_length/RESULT.json",
+      "sha256": "a00cc1951d672c07a9bea7400cbf9553d3832c7e6ab847b4a8746ee5c26eb5a4"
+    },
+    {
+      "bytes": 225,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_length/stderr.log",
+      "sha256": "02d0fdf5e9f51526f3b43169264a519f282be4d4e5df966b97efd6b482ef4ae0"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_length/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_same_length/MUTATED_ARTIFACT.bin",
+      "sha256": "33ecbf5108f1f32da0e11405787089d05bdd3116c7d94eb8e846808897f804b4"
+    },
+    {
+      "bytes": 1139,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_same_length/RESULT.json",
+      "sha256": "8ac580c52147605758af5b85f98c72de8e31ea2595e3116575db42bc6d595eaf"
+    },
+    {
+      "bytes": 75,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_same_length/stderr.log",
+      "sha256": "1bcca28672d4836ecd288d5730d22c795ee446d87eb57f7f005c5517cf992e6d"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/changed_same_length/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 23,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/duplicate_json_keys/FABRICATED_OBJECT.json",
+      "sha256": "6a6326e1e2a5378cb1ded9489bb633c97f840a185b7f24a2bc3b638ebc439231"
+    },
+    {
+      "bytes": 137,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/duplicate_json_keys/RESULT.json",
+      "sha256": "d11f4ea0c0ed08a9650b5b1b046541df24aff5714d6255a91bd9f00be5a80aa1"
+    },
+    {
+      "bytes": 1116,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_artifact/RESULT.json",
+      "sha256": "13648988ef5f87798a7bd3c95861565b07edb07f9b21597c5c1db06c777d22fe"
+    },
+    {
+      "bytes": 3,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_artifact/UNEXPECTED_ARTIFACT.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_artifact/stderr.log",
+      "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 257900,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_nested_audit_key/FABRICATED_OBJECT.json",
+      "sha256": "4873fccc6d79835fcc023fcc543476a232d6b964827b6f5731c729d8af0d430e"
+    },
+    {
+      "bytes": 156,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/extra_nested_audit_key/RESULT.json",
+      "sha256": "f6bbcf2a42fe629ec88625bd769de6758bb2ce2a189b32c685ad00817b17487b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/fifo_artifact/REFUSED_FIFO",
+      "type": "fifo"
+    },
+    {
+      "bytes": 1280,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/fifo_artifact/RESULT.json",
+      "sha256": "d21d7f119ed6bff50d42a590e336d5a5731732826903850d8f531e268f4c9159"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/fifo_artifact/original.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 233,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/fifo_artifact/stderr.log",
+      "sha256": "fd12c4f34882dc6f7a468f4a0ad641cff893902eac6d7689c9c919a03daab567"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/fifo_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 20316,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/manifest_tamper/MUTATED_MANIFEST.json",
+      "sha256": "dfcedf19ddb6f1351293585db5292cd10eea49a70ddf031750d2313442fb2023"
+    },
+    {
+      "bytes": 1107,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/manifest_tamper/RESULT.json",
+      "sha256": "1a49a96e4d190b197e922c23e3c8d46205db37436476ea587563feb04f6238b8"
+    },
+    {
+      "bytes": 55,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/manifest_tamper/stderr.log",
+      "sha256": "21edd778940acee60868cb8984f73797d7beffe90b822906156a5b94c375fc35"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/manifest_tamper/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/missing_artifact/ABSENT_ARTIFACT.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 1122,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/missing_artifact/RESULT.json",
+      "sha256": "47a68736017d66ebb4ddf51344edf0c25bb5ac76fbd101ae9a4056830bd3764e"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/missing_artifact/stderr.log",
+      "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/missing_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 257874,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nested_audit_mismatch/FABRICATED_OBJECT.json",
+      "sha256": "e1dd2c0a8ac521d8cb1c0734bcad6fcc9a8869e7ad653473653007e0941cd8cb"
+    },
+    {
+      "bytes": 155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nested_audit_mismatch/RESULT.json",
+      "sha256": "0e2fa1a6328de7914065bba256b370869e51424c68a8491ae0ca96bdf50f16ba"
+    },
+    {
+      "bytes": 257871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nested_bool_integer_confusion/FABRICATED_OBJECT.json",
+      "sha256": "87f549076b52a94f306db22ed1bc949bab477ad18c45b6d126c3cbba33ddbf26"
+    },
+    {
+      "bytes": 163,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nested_bool_integer_confusion/RESULT.json",
+      "sha256": "8e6b458bf2c9a70f98abd0164fa6d70a2e396f8e3ff1aee6d548f3b1869a084f"
+    },
+    {
+      "bytes": 233036,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/noncanonical_certificate/FABRICATED_OBJECT.json",
+      "sha256": "ede4477444f3d0a34fb03f79a7f6da5113f9d566f16f912cfaa86a46728803c0"
+    },
+    {
+      "bytes": 146,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/noncanonical_certificate/RESULT.json",
+      "sha256": "ab54e3ed770662c4814ffcd4c46fd840e31ae02741f8f10d717d8e64a56fadf3"
+    },
+    {
+      "bytes": 11,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nonfinite_exponent_canonical/FABRICATED_OBJECT.json",
+      "sha256": "cb013dcc16fe0e5ca4b3588e94fedb08d57d0671c0bc216f27e5cd61b59d77b0"
+    },
+    {
+      "bytes": 169,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nonfinite_exponent_canonical/RESULT.json",
+      "sha256": "a9192a9e59c4369123519daa627b29f4a9278019b17e589ab2ffef6853dce1dd"
+    },
+    {
+      "bytes": 9,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nonfinite_json_constant/FABRICATED_OBJECT.json",
+      "sha256": "c238cb6e9ac5407491b0988102620ab9445290d2ed7713c516a2b28bd2388968"
+    },
+    {
+      "bytes": 148,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/nonfinite_json_constant/RESULT.json",
+      "sha256": "258a4071b8f1837599963ea9b8b549b0c2b82e6a44a6c71817ea5e03d3212d20"
+    },
+    {
+      "bytes": 1419,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_default/RESULT.json",
+      "sha256": "259fbfccf776aeeef67bb299816f37cbd4dd6a74a3fd80a9413be3065effd2b8"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_default/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_default/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1601,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_explicit/RESULT.json",
+      "sha256": "bbbbe36a1bf1275d043a4a58e4518c7a4c95bd8553aae21d8a89364b7d189311"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_explicit/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_explicit/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1614,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_optimized/RESULT.json",
+      "sha256": "823e0fb9944213ea8bb74cc48ec8682b7ad34e03842b27b20806c39a7a5b6194"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_optimized/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/relocated_optimized/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1595,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/restored_archive/RESULT.json",
+      "sha256": "064c2093c3df9abb6194641919889f5d08ecd238a9ecbcdfda49dac0e217f894"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/restored_archive/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/restored_archive/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 13349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/root_claim_bool_integer_confusion/FABRICATED_OBJECT.json",
+      "sha256": "2275c20f74c83ecdd968f80608f73d5f4c3a0352db7848a546e28b81aae70130"
+    },
+    {
+      "bytes": 157,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/root_claim_bool_integer_confusion/RESULT.json",
+      "sha256": "34aca271bd49219ccf5e39aea8595ec3353dbb64f45ca86783cbc2863d708233"
+    },
+    {
+      "bytes": 997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/summary_byte_difference/FABRICATED_OBJECT.json",
+      "sha256": "0e088b3f23655853df3d2a5838b122fc6f26e068759709562aab43ecbfc6c517"
+    },
+    {
+      "bytes": 157,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/summary_byte_difference/RESULT.json",
+      "sha256": "7b6cba4bbcca7a1efa61e0b4a6f06df8f6b22b9ebb1187a0cd062341425c6ec4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_archive_root/LINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/relocated/track_b/native_growth_connected_sensitivity_result_v1",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1102,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_archive_root/RESULT.json",
+      "sha256": "2cbced5ffdb108cefbf2a7ece076e74607178371576a5b80d1d312a4e978b304"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_archive_root/stderr.log",
+      "sha256": "6d5608f8192873a485f7594c1895dc4f8fe51a804c60aca5f59bdd723bade8ac"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_archive_root/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/REFUSED_SYMLINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/original.json",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1289,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/RESULT.json",
+      "sha256": "ed0c1afe257d70d7a8e5ace23c4e9861151b8f8f78763a7e07b754a83e874265"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/original.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 233,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/stderr.log",
+      "sha256": "fd12c4f34882dc6f7a468f4a0ad641cff893902eac6d7689c9c919a03daab567"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_directory/REFUSED_SYMLINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_directory/original_caller",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1118,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_directory/RESULT.json",
+      "sha256": "7b68a9eef09e72cbb5b8c656dcac7977b035ff0aeaf44cdf2b80716a2d0fc376"
+    },
+    {
+      "bytes": 60,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_directory/stderr.log",
+      "sha256": "498583b53b7bfde8ead75ea8f27b27a391cdf2038c461262365c467ad2a70d37"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/cases/symlink_directory/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/MUTATED_ARTIFACT.bin",
+      "sha256": "0e088b3f23655853df3d2a5838b122fc6f26e068759709562aab43ecbfc6c517"
+    },
+    {
+      "bytes": 1340,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/RESULT.json",
+      "sha256": "17d15dde39055ce860e3b0fddbc888ccab437768649515f63dab98d99dcdacff"
+    },
+    {
+      "bytes": 238,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/stderr.log",
+      "sha256": "2cc6d8c03b7fdf5203aeb44df254948eb0657bbcacda69e99ba4986496308209"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_length/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/MUTATED_ARTIFACT.bin",
+      "sha256": "33ecbf5108f1f32da0e11405787089d05bdd3116c7d94eb8e846808897f804b4"
+    },
+    {
+      "bytes": 1191,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/RESULT.json",
+      "sha256": "949b75d1ebf78bc739652eb143254c5aaabf3688243411d7421f490f6a8410f1"
+    },
+    {
+      "bytes": 75,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/stderr.log",
+      "sha256": "1bcca28672d4836ecd288d5730d22c795ee446d87eb57f7f005c5517cf992e6d"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/changed_same_length/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 23,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/duplicate_json_keys/FABRICATED_OBJECT.json",
+      "sha256": "6a6326e1e2a5378cb1ded9489bb633c97f840a185b7f24a2bc3b638ebc439231"
+    },
+    {
+      "bytes": 137,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/duplicate_json_keys/RESULT.json",
+      "sha256": "d11f4ea0c0ed08a9650b5b1b046541df24aff5714d6255a91bd9f00be5a80aa1"
+    },
+    {
+      "bytes": 1168,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/RESULT.json",
+      "sha256": "6acb99962f88e57d300d09047c1469b24a2b74d41c6077e3085fa4b479a72255"
+    },
+    {
+      "bytes": 3,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/UNEXPECTED_ARTIFACT.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/stderr.log",
+      "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 257900,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_nested_audit_key/FABRICATED_OBJECT.json",
+      "sha256": "4873fccc6d79835fcc023fcc543476a232d6b964827b6f5731c729d8af0d430e"
+    },
+    {
+      "bytes": 156,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/extra_nested_audit_key/RESULT.json",
+      "sha256": "f6bbcf2a42fe629ec88625bd769de6758bb2ce2a189b32c685ad00817b17487b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/REFUSED_FIFO",
+      "type": "fifo"
+    },
+    {
+      "bytes": 1345,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/RESULT.json",
+      "sha256": "e55d36c339f66a8ca408e1d7f3741798fc32704b1ec1fd7e00083be48334c536"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/original.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 246,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/stderr.log",
+      "sha256": "3021aa34cf8a355160dadc3de78be5219fb335365a714157343f27299c29779e"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/fifo_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 20316,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/MUTATED_MANIFEST.json",
+      "sha256": "dfcedf19ddb6f1351293585db5292cd10eea49a70ddf031750d2313442fb2023"
+    },
+    {
+      "bytes": 1159,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/RESULT.json",
+      "sha256": "cb7ea93246703c056bac2dccb0557a0ccbfb920123965c1ae0ab3804403557ba"
+    },
+    {
+      "bytes": 55,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/stderr.log",
+      "sha256": "21edd778940acee60868cb8984f73797d7beffe90b822906156a5b94c375fc35"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/manifest_tamper/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/ABSENT_ARTIFACT.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 1174,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/RESULT.json",
+      "sha256": "5637aae6af8a8dae6314e4197cfade12f5425f1ed9dc909d020a9a086c678039"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/stderr.log",
+      "sha256": "5f7ab8cd5fd8e8fea7304627afd9c942e4d93528a1299c5b62bd88578c46c325"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/missing_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 257874,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nested_audit_mismatch/FABRICATED_OBJECT.json",
+      "sha256": "e1dd2c0a8ac521d8cb1c0734bcad6fcc9a8869e7ad653473653007e0941cd8cb"
+    },
+    {
+      "bytes": 155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nested_audit_mismatch/RESULT.json",
+      "sha256": "0e2fa1a6328de7914065bba256b370869e51424c68a8491ae0ca96bdf50f16ba"
+    },
+    {
+      "bytes": 257871,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nested_bool_integer_confusion/FABRICATED_OBJECT.json",
+      "sha256": "87f549076b52a94f306db22ed1bc949bab477ad18c45b6d126c3cbba33ddbf26"
+    },
+    {
+      "bytes": 163,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nested_bool_integer_confusion/RESULT.json",
+      "sha256": "8e6b458bf2c9a70f98abd0164fa6d70a2e396f8e3ff1aee6d548f3b1869a084f"
+    },
+    {
+      "bytes": 233036,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/noncanonical_certificate/FABRICATED_OBJECT.json",
+      "sha256": "ede4477444f3d0a34fb03f79a7f6da5113f9d566f16f912cfaa86a46728803c0"
+    },
+    {
+      "bytes": 146,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/noncanonical_certificate/RESULT.json",
+      "sha256": "ab54e3ed770662c4814ffcd4c46fd840e31ae02741f8f10d717d8e64a56fadf3"
+    },
+    {
+      "bytes": 11,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nonfinite_exponent_canonical/FABRICATED_OBJECT.json",
+      "sha256": "cb013dcc16fe0e5ca4b3588e94fedb08d57d0671c0bc216f27e5cd61b59d77b0"
+    },
+    {
+      "bytes": 169,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nonfinite_exponent_canonical/RESULT.json",
+      "sha256": "a9192a9e59c4369123519daa627b29f4a9278019b17e589ab2ffef6853dce1dd"
+    },
+    {
+      "bytes": 9,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nonfinite_json_constant/FABRICATED_OBJECT.json",
+      "sha256": "c238cb6e9ac5407491b0988102620ab9445290d2ed7713c516a2b28bd2388968"
+    },
+    {
+      "bytes": 148,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/nonfinite_json_constant/RESULT.json",
+      "sha256": "258a4071b8f1837599963ea9b8b549b0c2b82e6a44a6c71817ea5e03d3212d20"
+    },
+    {
+      "bytes": 1458,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_default/RESULT.json",
+      "sha256": "daed2de75a9e107027710e2335f109de0845cec945e98b5814e037deba917ec3"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_default/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_default/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1653,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_explicit/RESULT.json",
+      "sha256": "61249f75292f5feba355822511c31ff6e24768424a585afe8eadff993b597bd8"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_explicit/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_explicit/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_optimized/RESULT.json",
+      "sha256": "b41ac8f214824025ec66d49d7b2818802827bce8ff6b320274d2fca1bb0e27af"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_optimized/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/relocated_optimized/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 1647,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/restored_archive/RESULT.json",
+      "sha256": "a53f182a20abfeee5b1a1b8940f216852900db0c659c513c4a0ec1e1c95486e7"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/restored_archive/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 499,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/restored_archive/stdout.log",
+      "sha256": "b27ca0e5a85abc1f10fd6232f5e923a06b43873d8b1a14976cafd96ed4a2b6b6"
+    },
+    {
+      "bytes": 13349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/root_claim_bool_integer_confusion/FABRICATED_OBJECT.json",
+      "sha256": "2275c20f74c83ecdd968f80608f73d5f4c3a0352db7848a546e28b81aae70130"
+    },
+    {
+      "bytes": 157,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/root_claim_bool_integer_confusion/RESULT.json",
+      "sha256": "34aca271bd49219ccf5e39aea8595ec3353dbb64f45ca86783cbc2863d708233"
+    },
+    {
+      "bytes": 997,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/summary_byte_difference/FABRICATED_OBJECT.json",
+      "sha256": "0e088b3f23655853df3d2a5838b122fc6f26e068759709562aab43ecbfc6c517"
+    },
+    {
+      "bytes": 157,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/summary_byte_difference/RESULT.json",
+      "sha256": "7b6cba4bbcca7a1efa61e0b4a6f06df8f6b22b9ebb1187a0cd062341425c6ec4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/LINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/relocated/track_b/native_growth_connected_sensitivity_result_v1",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1154,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/RESULT.json",
+      "sha256": "16be26880de7ec48474a609085a50b43508ee6cb1e19deaea77360a9c160f375"
+    },
+    {
+      "bytes": 67,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/stderr.log",
+      "sha256": "6d5608f8192873a485f7594c1895dc4f8fe51a804c60aca5f59bdd723bade8ac"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_archive_root/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/REFUSED_SYMLINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/original.json",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1354,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/RESULT.json",
+      "sha256": "9385ada55b35ea9afeff46ab5a6dd7472798588bd9e375bd2b66c5c4df49963e"
+    },
+    {
+      "bytes": 996,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/original.json",
+      "sha256": "277d2ec09a597146aeb14d7c1997cda5900945cc2c85cd5c1e9ba2ee3ac94e40"
+    },
+    {
+      "bytes": 246,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/stderr.log",
+      "sha256": "3021aa34cf8a355160dadc3de78be5219fb335365a714157343f27299c29779e"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_artifact/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/REFUSED_SYMLINK",
+      "target": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/original_caller",
+      "type": "symlink"
+    },
+    {
+      "bytes": 1170,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/RESULT.json",
+      "sha256": "bc505e6072c2e7d3d3825032fbc26948f2036d6453d5724e2ec079e7a926adca"
+    },
+    {
+      "bytes": 60,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/stderr.log",
+      "sha256": "498583b53b7bfde8ead75ea8f27b27a391cdf2038c461262365c467ad2a70d37"
+    },
+    {
+      "bytes": 0,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri126-independent-archive-review-twcadh92/final_source/cases/symlink_directory/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "scope": "Fabricated/adversarial case artifacts and test logs only; retained failure variants are not published scientific evidence."
+}

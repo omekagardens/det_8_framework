@@ -1,0 +1,109 @@
+{
+  "exact_copies": 18,
+  "parent": "f22adf51c0ce948e266a2b768b0dc3b38390599c",
+  "payload": [
+    {
+      "bytes": 407760,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "a64508fef1e453302edfb5e8260bf647f0ba265b626c3403418b75b9b3d099a4"
+    },
+    {
+      "bytes": 1884,
+      "path": "README.md",
+      "sha256": "063aaf2abc59c6716d22a5172b0fb72c2f7148faf11b1ab7107dbb9c0924bd92"
+    },
+    {
+      "bytes": 2145,
+      "path": "review/RI213_NONAUTHOR_REVIEW.json",
+      "sha256": "5aa980f2cab6c3ad140fb14e512b5014b1aee8e02a9d507fe0c8a6de5ee4199d"
+    },
+    {
+      "bytes": 487763,
+      "path": "review/RI213_ROOT_METADATA_CHECK.json",
+      "sha256": "0a2630d3bf3fbf2a64bb8901566af864e9ba949efa46dae17a386f8f3c117d37"
+    },
+    {
+      "bytes": 2606,
+      "path": "review/RI213_ROOT_SOURCE_REVIEW.json",
+      "sha256": "55ac3d5a93fa4d3dc6d7326c76d1d11eb4c7b9ed4266ad3675728b4344ea20c6"
+    },
+    {
+      "bytes": 5111,
+      "path": "review/review_installation.py",
+      "sha256": "16cc3036b2e2a419595bb7b98a1100d332e1c6f9bfaffbb63579a77a1be260f7"
+    },
+    {
+      "bytes": 2384,
+      "path": "source/ACTUAL_ADMIN_RECEIPTS.json",
+      "sha256": "357cf0a058b63efd041e18c3636e02bbaf77cfa23784b3d2bb40b833cafa873e"
+    },
+    {
+      "bytes": 1109,
+      "path": "source/ADMIN_CHECK.json",
+      "sha256": "ab1fe0bd93d42487474d0ea99442d2cd41a5f897fd00cddce42aa69ead92edee"
+    },
+    {
+      "bytes": 1953,
+      "path": "source/AUTHORING_RECORD.json",
+      "sha256": "7214a7973fb45797619ab113def68d644dd3d8ca3d2a570e26b460453a77da41"
+    },
+    {
+      "bytes": 1190,
+      "path": "source/BUILD_METADATA.json",
+      "sha256": "7ead4d2cdddcdf0c67beaeb5508d8655cf74b0a54ab119f02871bb748268ba0f"
+    },
+    {
+      "bytes": 4048,
+      "path": "source/FINDING_RESPONSE.md",
+      "sha256": "d9cc91d840c2627b72778c7ba591614d697a15ad695fc125da79470e2753f0bb"
+    },
+    {
+      "bytes": 7600,
+      "path": "source/HANDOFF.json",
+      "sha256": "f8e4ab402fe4621352c7fe1f9b3d3bfeb6d5bc1194afcc7fb98cf34f8eb2f512"
+    },
+    {
+      "bytes": 677925,
+      "path": "source/INPUT_PINS.json",
+      "sha256": "ba05f97194b141f4546ea3b0323d97f0ef5461d4cd33c0523174ac291bb98a84"
+    },
+    {
+      "bytes": 22702,
+      "path": "source/PROTOCOL.md",
+      "sha256": "602f78e3f06bcdca53d483bc42b42dfc4f85228a95c4220f7a74fe2f5e452673"
+    },
+    {
+      "bytes": 6471,
+      "path": "source/REPAIR_PROVENANCE.json",
+      "sha256": "dd43fe421e9b51597842a42eb3038e61f3288b31d0f760bd223552a84128eb39"
+    },
+    {
+      "bytes": 1372,
+      "path": "source/SOURCE_PINS.json",
+      "sha256": "1608ecb0332a964c3726d87fab41d009ed6a74dc01f4c0e2001424b0eff6354e"
+    },
+    {
+      "bytes": 9215,
+      "path": "source/admin_check.py",
+      "sha256": "42848a07c4ad89aaf3c153a4dfb2d012ce75d57d18424486d450450bef450cf4"
+    },
+    {
+      "bytes": 14252,
+      "path": "source/build_repair.py",
+      "sha256": "82208cb187f567cc3462eee7bf698d16a23b98dfdc9a1faf9f7986565566e2c3"
+    },
+    {
+      "bytes": 22820,
+      "path": "source/check_installation.py",
+      "sha256": "453d59ae2f68c633c4f06353bc2e8f969729edd9167c9880edff866f8c1f73b1"
+    },
+    {
+      "bytes": 19876,
+      "path": "source/install_freeze.py",
+      "sha256": "3f260e997cdab4bfa2fec2fd745c315b1605f69ac176246bff6099b584186fa8"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

@@ -1,0 +1,189 @@
+{
+  "exact_copies": 34,
+  "parent": "e795b40265fc3c827be43e6928d1e99ee71ad26a",
+  "payload": [
+    {
+      "bytes": 432282,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "a0e5c0a1c73cc75e95440379ddca523c495db39ccc986090de0f229a32b2c49a"
+    },
+    {
+      "bytes": 2046,
+      "path": "README.md",
+      "sha256": "a4fbe60fd5627c86e0afdb06d01c1cffb1da602f35de0ccd0dae4764147371c6"
+    },
+    {
+      "bytes": 885,
+      "path": "actual_monitor/INSTALL.ATTEMPT.json",
+      "sha256": "7d710d739f5409648884bd751b32a5bd3f81247fca79a4b9d989331b3d0184b3"
+    },
+    {
+      "bytes": 2854,
+      "path": "actual_monitor/INSTALL.COMPLETION.json",
+      "sha256": "0f4eb71f4f8ab0d4c0abc108ca4b29431809b9d73083ca3219186b160144a03f"
+    },
+    {
+      "bytes": 701,
+      "path": "actual_monitor/INSTALL.stderr",
+      "sha256": "9e0fb84869c9df052f636d2446611f8bc901785725f482e49df1eaacc794cd4e"
+    },
+    {
+      "bytes": 0,
+      "path": "actual_monitor/INSTALL.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7001,
+      "path": "independent_preparation_review/ACTUAL_REVIEW_RECEIPTS.json",
+      "sha256": "d293d1d3cd5c98efd483070b4205c41f846dcc30a018f40738fe3d1121904afa"
+    },
+    {
+      "bytes": 378,
+      "path": "independent_preparation_review/CHECK.log",
+      "sha256": "46cdc824b8efdfc46a1614d209bef5a8e8a7f42789db70f91e9705718afe45fc"
+    },
+    {
+      "bytes": 1649822,
+      "path": "independent_preparation_review/CHECK_RESULT.json",
+      "sha256": "8d1f58e84d21b4679491c0419b914763464381d27cba4684807730e39216e0a9"
+    },
+    {
+      "bytes": 2672,
+      "path": "independent_preparation_review/HANDOFF.json",
+      "sha256": "50d2c405af0ddca8ed4a5b8609b343044a036b43f7a6d1b2358e5611ddf8ba3d"
+    },
+    {
+      "bytes": 8716,
+      "path": "independent_preparation_review/INDEPENDENT_REVIEW.md",
+      "sha256": "58bdca1c057d0b6edf24a8a990ec9a0d2b1da6d275ff74f2c9322f291cb010ce"
+    },
+    {
+      "bytes": 3145,
+      "path": "independent_preparation_review/VERDICT.json",
+      "sha256": "17e99eb365137237f6e483edbc9c15fe2f116e12b0dd4a3328b544dabd537892"
+    },
+    {
+      "bytes": 17779,
+      "path": "independent_preparation_review/check_preparation.py",
+      "sha256": "714439e977a0e67920250ef0f0606c3e1ada239007daf2cba81cd706028e0de2"
+    },
+    {
+      "bytes": 1600,
+      "path": "prepared/ADMIT_INSTALL.json",
+      "sha256": "fb3e01a0cd672c20ac491cfeb026c9ac370f76cc18a66d4e0e9ea8ed047dff66"
+    },
+    {
+      "bytes": 2277,
+      "path": "prepared/DISPATCH.json",
+      "sha256": "c845cf08e37c3c358296859758754b97a445fa1b74c2d9d72267c1575f2a31a8"
+    },
+    {
+      "bytes": 42464,
+      "path": "prepared/E_BEFORE.json",
+      "sha256": "b9abd26c45d81c5e3c7fc9a27cc8ee20149391da6f3e7407b8c7d0f17e6ff087"
+    },
+    {
+      "bytes": 725,
+      "path": "prepared/HOST_BEFORE.json",
+      "sha256": "dfb76ef7bd7db51837b46578847a9d58bae5c8e0a8cbdf6575b317a2b50d4d15"
+    },
+    {
+      "bytes": 1569,
+      "path": "prepared/HOST_GENUINE_TOOL.json",
+      "sha256": "ecebbdba397eac9e35bd0a36800165c83446162a8058bfd7e637a3a2c135e0c8"
+    },
+    {
+      "bytes": 4521,
+      "path": "prepared/INSTALLATION_PROPOSAL.json",
+      "sha256": "4b5185ed7f576a833ef0a18abb28c6fba5491c9002423e3e0f03121b10fb3a5e"
+    },
+    {
+      "bytes": 2417,
+      "path": "prepared/INSTALL_BOOTSTRAP.py",
+      "sha256": "76779aeb180fc09ef2c90a2c1341ff3f5285640645ac15e1d90b27014422a00a"
+    },
+    {
+      "bytes": 2004,
+      "path": "prepared/INSTALL_PREFLIGHT.json",
+      "sha256": "f542fbded058675eab6efc479cdc04c908d0b58131311e35c610c77233d09d6a"
+    },
+    {
+      "bytes": 13814,
+      "path": "prepared/PREPARATION_CUSTODY.json",
+      "sha256": "0e360bd2dd0859ce37198056e42de2d7c310fb2212dabc40ef045f805e82770f"
+    },
+    {
+      "bytes": 2333,
+      "path": "prepared/ROOT_SOURCE_REVIEW.json",
+      "sha256": "88f7f89ca9738eb52fb09fb2dee81400a7ad754e55a613de4df7f826d5f5bd2a"
+    },
+    {
+      "bytes": 467404,
+      "path": "prepared/SOURCES_BEFORE.json",
+      "sha256": "52044caf0447f2be23ea619ef54c72933cd46b414149296ec2ce46832e232196"
+    },
+    {
+      "bytes": 1260487,
+      "path": "prepared/SUPPLIER_BEFORE.json",
+      "sha256": "3a341dd656332bcdacad8ebbbcbf271b720a0d36229e22ed69b40853d1839e2c"
+    },
+    {
+      "bytes": 1984,
+      "path": "root/CALLER_FAILURE_REVIEW.json",
+      "sha256": "9dc858de414831b20e866ef311ed7265f44ab744bf5a6736ba21b503daac078b"
+    },
+    {
+      "bytes": 1697,
+      "path": "root/FRESH_PREDISPATCH_CHECK.json",
+      "sha256": "03a6c00e3b2f13748835dc75a8ab1dcfc6d7e356a4e85ea00074d88b6654f3d7"
+    },
+    {
+      "bytes": 3292,
+      "path": "root/GENUINE_INSTALLATION_TOOL.json",
+      "sha256": "16b425213239b6f681ef8c80226668fbf2e19fb5e95f6bd3bb6389fbe8356780"
+    },
+    {
+      "bytes": 1537,
+      "path": "root/GENUINE_POST_HOST_TOOL.json",
+      "sha256": "e1e83894b9a2fe3a431817f4a986380d438da974bffa5d2d9c7a1e671aea376b"
+    },
+    {
+      "bytes": 5447,
+      "path": "root/POST_FAILURE_CUSTODY.json",
+      "sha256": "c2b1bcec5ef02dbd35d44346f7ffe50766b5662949eb2341ed90a7f1d4bfd6f2"
+    },
+    {
+      "bytes": 1109,
+      "path": "root/POST_FAILURE_REPLAY_TOOL.json",
+      "sha256": "bceeb1bc91595e97777861471efc62c85857c203c1aaee7dd7fff1b189d2b037"
+    },
+    {
+      "bytes": 1478,
+      "path": "root/RI218_OPERATIONAL_SUPERSESSION.json",
+      "sha256": "606a5407f23f50505c1456e1589cea20c1106c9980e1102f754a8e76eb142759"
+    },
+    {
+      "bytes": 2264,
+      "path": "root/RI222_REPAIR_ASSIGNMENT.json",
+      "sha256": "bae3531b2bc3e50f3685beca009610bf7356d36ba7e7ad0cfc3a10f2b5a162b8"
+    },
+    {
+      "bytes": 1391,
+      "path": "root/ROOT_INSTALLATION_ADMISSION_DECISION.json",
+      "sha256": "4b69e0dae1230d8960160604e0bf2f1309bed5069d67641c0282c0bbc87f9891"
+    },
+    {
+      "bytes": 5951,
+      "path": "root/postfailure_failed.py",
+      "sha256": "bd18b2b388b0bf3cfdd3a9f463ae12c53f4bea2570ec597100ddc5e6cdc9c099"
+    },
+    {
+      "bytes": 6060,
+      "path": "root/postfailure_v2.py",
+      "sha256": "8b2b7ad5072e3848c87b4987427249d8f71e07d3a9be7d0fa7f84feb75bb23a5"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": false
+}

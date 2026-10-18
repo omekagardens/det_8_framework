@@ -1,0 +1,28 @@
+{
+  "dispatch": {
+    "bytes": 2341,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/DISPATCH.json",
+    "sha256": "75e3e89fcf5e0907e100ff2ae3a45f1319ce2f33adab0d3048a19bd84f66fd4e"
+  },
+  "monitor": {
+    "bytes": 16741,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/monitor/RECONCILE.COMPLETION.json",
+    "sha256": "79d4550dbf81f2ac1153bb8c6d87bb48e705e01bc4d85b022b6ba77153150436"
+  },
+  "post_host_tools": {
+    "bytes": 726,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/POST_HOST.json",
+    "sha256": "a24f4cb48ff0276a4bfe9b8ac1532c773e8648bfd988ce163b513a404ea5e4b8"
+  },
+  "post_supplier": {
+    "bytes": 1260495,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/POST_SUPPLIER.json",
+    "sha256": "12b94290564deaca58b4feb861105010f68954adea64c14a408f1e3f978f9147"
+  },
+  "schema": "ri226-root-genuine-reconciliation-v1",
+  "tool_transcript": {
+    "bytes": 1310,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri234-root-reconciliation-tzop5ais/GENUINE_RECONCILIATION_TOOL.json",
+    "sha256": "0944100b5bf6dbc0367a11c4b485a0164619a935ea256c9a65437cad1d0d6274"
+  }
+}

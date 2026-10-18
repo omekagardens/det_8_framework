@@ -1,0 +1,7 @@
+{
+  "chunk": "ee7497",
+  "exit_code": 1,
+  "recovery": "8e935f exit0 confirmed exact empty reservation; same reservation reused after removing +m.",
+  "scientific_execution": false,
+  "source_error": "Accidental standalone +m after administrative helper initialization raised TypeError before snapshot/save; only empty new reservation was created."
+}

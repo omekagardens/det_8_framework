@@ -1,0 +1,91 @@
+{
+  "changed_scope": "RI119 source admission, frozen template/domain, empty scientific input, captured synthetic run and full saved audit, expanded stdlib closure/profile/origin checks, result custody. Historical scientific/input gates deliberately not invoked.; RI121-F01 retained-handle failure tails and finite startup/loader guard repair.",
+  "checks": [
+    {
+      "block": "canonical_parts",
+      "identical": true,
+      "identity": {
+        "bytes": 191,
+        "sha256": "bcaaa080cb9b05d89ac952c936c5f11d00a233d2200b466d4069f243ac5e1d6d"
+      }
+    },
+    {
+      "block": "canonical_pin",
+      "identical": true,
+      "identity": {
+        "bytes": 221,
+        "sha256": "246611fb0c31652086d89ef9acaee2e467ab644937176cf05d5fec0bf3c74f41"
+      }
+    },
+    {
+      "block": "file_equal",
+      "identical": true,
+      "identity": {
+        "bytes": 281,
+        "sha256": "402874bc7921992e7a3254a4b3e79bf9cd673b849627560d78bb26983dd8a56f"
+      }
+    },
+    {
+      "block": "monitor_text",
+      "identical": true,
+      "identity": {
+        "bytes": 183,
+        "sha256": "a3209d5db254ebafa3862dd9998b27c2c647243a38cd36529e744cd549a9b874"
+      }
+    },
+    {
+      "block": "reap_owned",
+      "identical": true,
+      "identity": {
+        "bytes": 1066,
+        "sha256": "b4ba8beb54bc4dbf89851deffa6f79463a838668149abfb5f75fc7e7ae9d6031"
+      }
+    },
+    {
+      "block": "admit_command",
+      "identical": true,
+      "identity": {
+        "bytes": 481,
+        "sha256": "81b36249b11ffa4d28d18d3b915791ffbaaf63b3759f1d6433df09b09d0e68e1"
+      }
+    },
+    {
+      "block": "exclusive_stdout_stderr_through_initial_reap",
+      "identical": true,
+      "identity": {
+        "bytes": 2666,
+        "sha256": "23a161bd9f4499c6b3d03194669e176951afce77882bc1702066538b4222f91b"
+      }
+    },
+    {
+      "block": "control.py",
+      "identical": true,
+      "identity": {
+        "bytes": 5171,
+        "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+      }
+    },
+    {
+      "block": "load_captured",
+      "identical": true,
+      "identity": {
+        "bytes": 371,
+        "sha256": "00e4995e5ad8e34b6b52bad7550041b5a3c85d7a63d7609bfe92057a3419cd57"
+      }
+    },
+    {
+      "block": "RI114_actual_execution_monitor_correspondence",
+      "identical": true,
+      "identity": {
+        "bytes": 2666,
+        "sha256": "23a161bd9f4499c6b3d03194669e176951afce77882bc1702066538b4222f91b"
+      }
+    }
+  ],
+  "new_runtime_scanner_inherited": false,
+  "predecessor": "/Volumes/AI_DATA/development/det-review-evidence/ri116-observed-caller-source-guicDV9v",
+  "repair_predecessor": "/Volumes/AI_DATA/development/det-review-evidence/ri121-synthetic-caller-source-0wmr9ajh",
+  "schema": "ri121-source-text-correspondence-v1",
+  "status": "BYTE_COMPARISON_ONLY_NOT_EXECUTION_QUALIFICATION",
+  "target_execution": false
+}

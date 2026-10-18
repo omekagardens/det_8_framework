@@ -1,0 +1,91 @@
+{
+  "absent": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/ADMIT_INSTALL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/DISPATCH.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/INSTALL_BOOTSTRAP.py",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/INSTALL_PREFLIGHT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/PREPARATION_CUSTODY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/INSTALLATION_PROPOSAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/AUTHORIZED_FREEZE.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_NORMAL.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15/ADMIT_OPTIMIZED.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-install-operation-2xc_b29x"
+  ],
+  "actual_tool": {
+    "chunk_id": "cb9b00",
+    "exit_code": 1
+  },
+  "empty_control_directories": [
+    {
+      "entries": [],
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/tmp",
+      "state": [
+        16777244,
+        424637,
+        16832,
+        2,
+        64,
+        1790830728274823633,
+        1790830728274862092
+      ]
+    },
+    {
+      "entries": [],
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/monitor",
+      "state": [
+        16777244,
+        424638,
+        16832,
+        2,
+        64,
+        1790830728274897302,
+        1790830728274912927
+      ]
+    }
+  ],
+  "failure": "TypeError: Object of type bytes is not JSON serializable",
+  "genuine_host": {
+    "bytes": 1891,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/HOST_GENUINE_TOOL.json",
+    "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/HOST_GENUINE_TOOL.json",
+    "sha256": "07cbac05498fb9329338592a1dea8255d09145bee24598491722d494509b4305",
+    "state": [
+      16777244,
+      424639,
+      33188,
+      1,
+      1891,
+      1790830728275044179,
+      1790830728275044179
+    ],
+    "symlink_chain": []
+  },
+  "location": "emit -> eq(p.read_bytes(),data) -> m.canonical(bytes)",
+  "original_host": {
+    "bytes": 1893,
+    "path": "/private/tmp/ri217_host_before_transcript.json",
+    "sha256": "708a0963e35fe66c504c0fd2b93a11711c0ba7ae5a57b1b5f61b028441ca211b"
+  },
+  "original_source": {
+    "bytes": 15472,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri217-root-native-witness-1yj1_b61/prepare_installation.py",
+    "sha256": "db4ebaa6aba5642ea0ca6c5e710eb1e489b4d7a900d31c3ec5134108de49de0d"
+  },
+  "reexecution_or_cleanup": false,
+  "reference_boundary": {
+    "bytes": 29123,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri214-root-installation-review-xlkw6cbw/MEASUREMENT_BOUNDARY.json",
+    "sha256": "68b095c7d7cba7d95bd55305321631a6677faafd15661c8522c6243e7035eb07"
+  },
+  "reservation_namespace": [
+    "HOST_GENUINE_TOOL.json",
+    "monitor",
+    "tmp",
+    "worker_proposal"
+  ],
+  "schema": "ri217-root-preparation-failure-v1",
+  "status": "FAILED_BEFORE_ADMISSION_OR_INSTALLATION_RETAIN_PARTIALS",
+  "subject_execution": false,
+  "successful_write": "HOST_GENUINE_TOOL.json complete canonical original transcript; failure occurred at reread comparison before returning its pin.",
+  "whole_E_48_file_identities_unchanged": true
+}

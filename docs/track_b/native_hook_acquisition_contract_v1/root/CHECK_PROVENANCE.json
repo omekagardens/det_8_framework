@@ -1,0 +1,38 @@
+{
+  "QR_assignment": {
+    "bytes": 5803,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri245-root-hook-review-ichvs643/RI246_SIX_HOOK_LITERAL_ADMISSION.json",
+    "sha256": "ef7a03e9290e76694f4265504376ca9fa3211a061fc41ec8f06da44babae6b12"
+  },
+  "QR_assignment_response": "send_message_to_thread succeeded and returned same threadId",
+  "QR_assignment_sent": true,
+  "QR_thread": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c",
+  "bounded_scope": "RI243 mathematics/design and RI244 preparation recipe only. Active RI246 scientific result and active RI244 source proposal are excluded from this checkpoint.",
+  "measurement_reviewer_report_copy": {
+    "bytes": 7826,
+    "chunk_id": "a5449c",
+    "exit_code": 0,
+    "sha256": "58d3d0bc6b2134697e68e22d4a57e15b7dd6ae97b7394491f2786ca3b9cbfcca"
+  },
+  "native_reviewer_report_copy": {
+    "bytes": 11666,
+    "chunk_id": "c85b36",
+    "exit_code": 0,
+    "sha256": "c44d55f63107d1498aaa90914b2e21538b9585eaecbbd70325c7494716215b08"
+  },
+  "root_adjudication": {
+    "chunk_id": "993f48",
+    "exit_code": 0
+  },
+  "root_measurement": {
+    "chunk_id": "c930d1",
+    "exit_code": 0
+  },
+  "root_metadata": {
+    "exit_code": 0,
+    "initial": "f83d71",
+    "session_id": 76754,
+    "terminal": "330e9f"
+  },
+  "schema": "ri245-check-provenance-v1"
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/opt/homebrew/bin/node",
+    "-e",
+    "<exact retained author_metadata_checker.js bytes>",
+    "final6"
+  ],
+  "mathematical_acceptance": false,
+  "returncode": 0,
+  "schema": "ri231-reviewed-author-administrative-replay-v1",
+  "source": {
+    "bytes": 20100,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri231-independent-six-root-review-fipt97mw/author_metadata_checker.js",
+    "sha256": "eb881fce6cbd06f0749e49a855fc612f485812d593255369cd0f6070966f9cf1"
+  },
+  "stderr": "",
+  "stdout": "{\n  \"schema\": \"ri231-compact-administrative-check-v1\",\n  \"status\": \"IDENTITY_MATCH_NOT_MATHEMATICAL_ACCEPTANCE\",\n  \"stage\": \"final6\",\n  \"direct_sources\": 32,\n  \"direct_bytes\": 796922,\n  \"inherited423_manifest_by_reference\": true,\n  \"fresh_inherited423_collection_replay\": false,\n  \"inherited_boundary_objects_preserved\": 15,\n  \"inherited_exact_analytic_admissions_renewed_without_expansion\": true,\n  \"new_separate_literal_scientific_exception\": 1,\n  \"authorized_keys\": 6,\n  \"scientific_body_JSON_parsed\": false,\n  \"old_exception_not_used_as_current_permission\": true,\n  \"inherited_opaque_body_row_not_reclassified\": true,\n  \"historical_state_arrays_not_current_stat_expectations\": true,\n  \"explicit_selected_reference_checks\": 45,\n  \"predecessor_namespace\": 6,\n  \"current_namespace\": 6,\n  \"whole_identity_fresh_rechecks\": 38,\n  \"current_payloads\": [\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/AUTHOR_VERIFICATION.json\",\n      \"bytes\": 41570,\n      \"sha256\": \"d585c23c820c8ef0c3fd366ce6dfb705ef3ddc5ce246b8279448a9096bec13c2\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/CANONICAL_CAPACITY.md\",\n      \"bytes\": 15205,\n      \"sha256\": \"0069e8c7314f6e84b2803d2502f317d8640df0a0192731ccd79914b88ecf7faa\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.json\",\n      \"bytes\": 21131,\n      \"sha256\": \"baff3300c296e43de7f0253cbafe4c7fbf192a9b05a209d5a33ab9cb52949033\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/HANDOFF.md\",\n      \"bytes\": 2327,\n      \"sha256\": \"9354d1054bee8af0e298ce19af276bd5fc4537005a5a15838883db0c4c26e690\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/SIX_ROOT_WITNESS.md\",\n      \"bytes\": 9417,\n      \"sha256\": \"9ff04c11ff551fca8e64d606fd46d265836dde9e1b7d7af6f03269b44dab2c03\"\n    },\n    {\n      \"path\": \"/Volumes/AI_DATA/development/det-review-evidence/ri231-native-six-root-witness-qboypkl8/SOURCE_REFERENCES.json\",\n      \"bytes\": 65520,\n      \"sha256\": \"43e9fc923eca8da42424df62faa66f6abdcace71b1d1da5478bef539ec8b6572\"\n    }\n  ],\n  \"declared_local_Markdown_targets\": \"all-present\",\n  \"automated_proof_arithmetic\": false,\n  \"subject_execution\": false\n}\n",
+  "subject_execution": false
+}

@@ -1,0 +1,19 @@
+{
+  "completed_native_manifest": {
+    "bytes": 2872,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_conditional_feasibility_v1/PUBLICATION_MANIFEST.json",
+    "sha256": "f8f7dd29402ecef585ed62afb5e3dbbceb7f00df758a4fd370a749aad18b1f91"
+  },
+  "failed_operation": "a71470 exit1",
+  "historical_entries_unchanged": 50,
+  "new_measurement_bundle": "docs/coordination/measurement_current_e_capture_ri239_v1",
+  "original_builder": {
+    "bytes": 11803,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri239-root-current-e-capture-mk6vocq1/publish_checkpoint.py",
+    "sha256": "632c9858a6c33c1e67d771602cbabbfa3c8b01cf0b7c418abbcecc85e336c2c5"
+  },
+  "reason": "Requested measurement archive name already belonged to preserved RI186 historical publication; mkdir refused before changing it. Native archive had already completed.",
+  "recovery": "Authenticate completed native archive without rewriting, choose unique RI239 measurement destination, then continue scoped publication.",
+  "schema": "ri239-preserved-publication-name-collision-v1",
+  "scientific_or_capture_rerun": false
+}

@@ -1,0 +1,28 @@
+{
+  "baseline_acceptance": {
+    "bytes": 1659,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/BASELINE_ACCEPTANCE.json",
+    "sha256": "4e82e7e3aae50e45fdbae3aada5a2ab55422c690a843edbb4fb6673e6607f2c8"
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri146-genuine-current-capture-heib6de2/environment",
+  "guard_packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "next": "Fresh complete source/supplier/host preflight, separate root65-guard card with exact original harness and all seven helpers, one separately admitted guards phase in same environment with prospective full PRE/POST and unchanged bounds. Independently review complete outcomes and actual custody before any runtime acceptance or later WHITE15/two179/full32/public-data stage. Guard doubles remain nonscientific control evidence.",
+  "operational_admission_created": false,
+  "owner": "root",
+  "predecessor": {
+    "bytes": 5626,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/RI150_ROOT_ACTUAL_ADJUDICATION.json",
+    "sha256": "4920cd7296e1e3c537e9d83f90dc3ff5711ec0952709549f85d9f4631b2bc495"
+  },
+  "profiles_acceptance": {
+    "bytes": 2194,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri150-root-optimized-profile-0ydjxad3/PROFILES_ACCEPTANCE.json",
+    "sha256": "4bf521e8e8cceafce449b0e8620c515df53a2cb2b2d1c0ff612cbb4934c91716"
+  },
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri152-root-guard-qualification-pd116byo",
+  "ret_paused": true,
+  "schema": "ri152-root-guard-qualification-assignment-v1",
+  "scientific_credit": false,
+  "source_packet": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076",
+  "status": "RESERVED_NEXT_PHASE_NOT_OPERATIONAL_ADMISSION"
+}

@@ -1,0 +1,82 @@
+{
+  "author": "/root/ri116_saved_arithmetic_review",
+  "files": [
+    {
+      "bytes": 18903,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/ALL_STDLIB_EXTENSIONS.OTool-L.txt",
+      "sha256": "e82034a0ee639ba5de0e61d49a2ab2c8aeab79ef669f7bea83b07337c06ed46c"
+    },
+    {
+      "bytes": 1914,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/HASHLIB_UNDEFINED_SYMBOLS.txt",
+      "sha256": "e689cef5a5e52ab014bf883678d37bd254bf170edb63f9bee33ecf70d54d113e"
+    },
+    {
+      "bytes": 34347,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/NON_OS_CANDIDATES.OTool-l.txt",
+      "sha256": "c6e6151c973973f5aa45bd4924a6f9216e429aa7ce1166b2e933494f42ebc2cd"
+    },
+    {
+      "bytes": 12324,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/OPENSSL_CONFIG.read-only-copy.txt",
+      "sha256": "f6045e326b439e8ee31d4efd020ddf660d616c67d03e0e8e7a927eb14cbb5d1f"
+    },
+    {
+      "bytes": 326,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/OPENSSL_CRYPTO_STRINGS.txt",
+      "sha256": "4ccc76839f9648749786266f257b21a95602cfea45af02a76215f5d9dc62aa2e"
+    },
+    {
+      "bytes": 383380,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/PYTHON_AND_STDLIB_EXTENSIONS.OTool-l.txt",
+      "sha256": "78bb93345570dffc35a94d5bd2ca32a17a854cbed432f60c4d71326aea8ccfdf"
+    },
+    {
+      "bytes": 552,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/REVIEW_CORRECTION_HISTORY.json",
+      "sha256": "21397ecd96e0e7b9f129b4efb74834be546f91f71f317b512bee973f63322bf1"
+    },
+    {
+      "bytes": 11085,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STARTUP_IMPORT_REVIEW.md",
+      "sha256": "c6acf447dfc596b43ad2c0fe127b3fdcadb2658f3c6bc8129e44f59747654a1e"
+    },
+    {
+      "bytes": 19197,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STARTUP_STATIC_OBSERVATIONS.json",
+      "sha256": "9485111acd97d3d83a2e1d3684bedeeb14f77e03fc09ee40a9bfefdc08dd9bae"
+    },
+    {
+      "bytes": 6702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STARTUP_STATIC_SUPPLEMENT.json",
+      "sha256": "97b7609f8df4756f43b835d16bf6e5b5fdfd2ce5e775cc4a727ab32de83cd17d"
+    },
+    {
+      "bytes": 13399,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STATIC_CLOSURE_REVIEW.md",
+      "sha256": "102c162becf47aab9a92e531dbe5f28e072fb51e2e12835e19820bc125610bbf"
+    },
+    {
+      "bytes": 42896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STATIC_LOAD_COMMAND_CANDIDATES.json",
+      "sha256": "bc2795eeb70906ad207e68b60e387f98cf566ddcf7e5869dcce83cc415828d97"
+    },
+    {
+      "bytes": 4798,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8/STATIC_NAMED_PATH_OBSERVATIONS.json",
+      "sha256": "4622e12f99e3f96e617426411d2d42441ae080a125e9d4451d99ab42ea9b4512"
+    }
+  ],
+  "historical_boundary": "No retrospective RI115/RI116 failure inference. RI119 scientific sources accepted; RI121 caller proposed and F01 repair pending.",
+  "independent_startup_reviewer": "/root/ri116_saved_arithmetic_review/ri121_applicability_review",
+  "required_follow_up": "Root independently adjudicates core library/config, startup absence/cache and fallback premises; successor repair remains separate and requires fresh source review before actual runtime establishment/admission.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri121-static-runtime-closure-ulnsAMI8",
+  "schema": "ri121-static-candidate-closure-review-handoff-v1",
+  "scope": [
+    "CPython executable/framework and75standard extension static Mach-O load commands",
+    "8existing non-OS native candidate images; explicit missing mpdecimal3",
+    "finite source/startup/bytecode/path/config observations",
+    "no candidate invocation, scientific execution, inventory/profile/freeze/admission or repository/git changes"
+  ],
+  "status": "STATIC_FINDINGS_COMPLETE_ROOT_ADJUDICATION_REQUIRED_NO_RUNTIME_ADMISSION"
+}

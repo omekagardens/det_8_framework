@@ -1,0 +1,20 @@
+{
+  "available": "Inherited accepted seed, RI41 all-ideal floor and proper q4>=u4/8, RI201 native M5>10^9, RI203 denominator theorem only within its proved domain, and unchanged T>(468/5)(1+M5)-1/2. Stronger hand bounds from the same native witness are allowed with explicit derivation; no printed numeric maximum/vector evaluation.",
+  "domain": "R=P minus four caps has two events, either chain or antichain. All four precursor ideals cover R; include all compatible repetitions, empty/full precursors, original/cap marks and all labeled proper ideals.",
+  "main_risk": "Do not transfer RI203 covering-precursor lemma to sectors retaining other caps unless its covering premise is proved or correctly generalized; retained incomparable caps can be uncovered base maxima. Separate proper/full slot uses of coefficient floors. Keep all canonical shared products and exact sector support.",
+  "predecessor": {
+    "bytes": 2333,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri204-root-adapters-f04k2tg9/RI203_ROOT_ADJUDICATION.json",
+    "sha256": "1686534e3f8e5ca01d8954b9ba60d2c74c1d52f4b1fd43cb183942cdc1665db2"
+  },
+  "question": "Settle the entire marked six-parent class with exactly four maxima against the unchanged sufficient target T. Derive every omission sector and a compatible native bound or actual admitted violating parent.",
+  "remaining": "Five/six-maxima classes and global M6, actual W, both margins, H30 and physics are not presumed.",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri205-native-four-maxima-7gkvoked",
+  "return_instruction": "Seal the full source and actual administrative-check evidence for independent review.",
+  "schema": "ri205-root-four-maxima-assignment-v1",
+  "scope": "Manual analytic work and administrative provenance checks only. No new scientific bodies/certificates/vectors, automated proof arithmetic, graph/LP/subject execution, fixtures/runtime/cards, new threads, repository/Git/index or RET work. Root owns independent acceptance and publication. All original executable obligations remain.",
+  "starting_point": "Independently derive the full alternating deletion product. For the all-four-omission sector at A in J(R), with q_J the actual row on R plus caps J, its summand is product_{|J|=3}q_J(A) times product_{|J|=1}q_J(A), divided by q_empty(A) times product_{|J|=2}q_J(A). Verify every factor and multiplicity rather than assuming this proposed formula.",
+  "status": "ASSIGNED_AFTER_RI203_INDEPENDENT_ADJUDICATION",
+  "success": "Complete class theorem or concrete actual violating parent; if unresolved, a substantive exact smaller inequality with explicit remaining compatible dependency. Coarse independently varying coefficient boxes or failed sufficient estimates are not native counterexamples.",
+  "thread_id": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+}

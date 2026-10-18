@@ -1,0 +1,61 @@
+{
+  "accepted_design_publication": "d957c43721a6cdcdb52b058009b27ee569199c58",
+  "authorship": {
+    "complete_source_reviewer": "distinct ri119_full_source_review",
+    "independent_validator": "distinct ri119_independent_validator; no primary source read before or during scientific authorship",
+    "parent_validator_edit": "Single PSD determinant resource guard changed to bound both products before subtraction; precise history in PREPARATION_RECORD.md and VALIDATOR_NOTES.md.",
+    "primary_and_qualifier": "parent ri116_saved_arithmetic_review"
+  },
+  "boundaries": {
+    "actual_sign_enumeration": false,
+    "empirical_data_acquired_or_evaluated": false,
+    "native_input_evaluated": false,
+    "programme_complete": false,
+    "prospective_scientific_json_output_created": false,
+    "protected_validation": false,
+    "repository_or_git_changed": false,
+    "ret_paused": true,
+    "ri116_numerical_body_evaluated": false,
+    "ri73_coefficient_capture_evaluated": false,
+    "runtime_admission_issued": false,
+    "target_import_compile_ast_probe_or_run": false
+  },
+  "contents": "Exact primary complete sign enumeration, separately authored independent moment/factor validator, full saved-report audit and41 first-refusal controls per implementation; complete source-defined inputs/outputs/schema and bounded contract.",
+  "evidence_scope": "Text-only source review and metadata pin verification; no execution result or runtime fit claim. Saved-control audit is not historical control execution witness.",
+  "fixed_domain": {
+    "bounds": 3,
+    "cases": 9,
+    "expected_output_definition": "All literal case inputs, every field equation, closed schemas and scalar/oriented examples in CONTRACT.md, independently encoded in validator.py; declarations only.",
+    "groups": 12,
+    "main_case_sign_support_declared": 912,
+    "negative_controls_per_implementation": 41,
+    "q12_factor_sign_support_declared": 8
+  },
+  "independent_source_review": {
+    "bytes": 11143,
+    "name": "SOURCE_REVIEW.md",
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_REVIEW.md",
+    "role": "protocol_or_review_provenance",
+    "sha256": "97f252915aaa30a08cc0c5d8dd8dba75656c4f3108bed8226873c52c5845a8fd"
+  },
+  "remaining_prerequisites": [
+    "Root full exact source and mathematical adjudication.",
+    "Concrete minimal caller and independent applicability review of existing supervision, capture/load/parse and complete runtime closure; no wrapper redesign by default.",
+    "Root-owned explicit execution card/admission after current source/dependency/interpreter/runtime identities and exact resource bounds are established.",
+    "Actual serial normal and optimized synthetic qualification in fresh roots with genuine exit/custody, all41 controls each, complete saved field validation and whole canonical byte identity.",
+    "Any later actual operator/public-data integration needs its own reviewed design and execution scope."
+  ],
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz",
+  "reviewed_repairs": [
+    "Pre-regex rational component-length ordering with M33 regression declaration.",
+    "Per-product PSD resource guard before cancellation with G03 regression declaration.",
+    "Explicit Q06 actual-row-sum and same-sign cancellation guards and Q08 per-sign signed scaling guards."
+  ],
+  "schema": "ri119-synthetic-source-handoff-v1",
+  "source_pins": {
+    "bytes": 3683,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri119-joint-window-source-119uwunz/SOURCE_PINS.json",
+    "sha256": "77df08ace0e7b9d2f024cd49bbab99feae9b45ae4b0cf542097580b49e4e6b47"
+  },
+  "status": "READY_FOR_ROOT_SOURCE_REVIEW_ONLY"
+}

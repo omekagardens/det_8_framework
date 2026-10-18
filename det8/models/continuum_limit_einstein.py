@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Einstein Equation Emergence
+RETIRED / QUARANTINED — historical Einstein-emergence claim.
+
+This module assumes continuum geometry and a withdrawn κ stress tensor. Its
+stationarity calculations do not derive Einstein's equation from DET.
 
 Implements the κ-weighted discrete action and tests the emergence
 of the Einstein field equations from DET primitives.
@@ -34,6 +37,10 @@ What remains conjectured:
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

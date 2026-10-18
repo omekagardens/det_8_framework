@@ -1,0 +1,57 @@
+{
+  "RET_paused": true,
+  "branch": "ret",
+  "checks": [
+    {
+      "bytes": 10004,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/PUBLICATION_SCOPE_FINAL.json",
+      "sha256": "e39b830b22a8f0c2145aea38428bb0a1dcd74399b47a3969c907a4377325bf7a"
+    },
+    {
+      "bytes": 268,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/PUBLICATION_DEPENDENCY_CHECK.json",
+      "sha256": "2ef81ec856947715b93ed712ec393dbc5dab5b834994382a11c688c373f89077"
+    },
+    {
+      "bytes": 5912,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/CHECKPOINT_FINAL_PRESTAGE.json",
+      "sha256": "6af3c8eaa3160e11cc854e7fe1ee3b16c45dfac26077dab323a0d9b37edd2651"
+    },
+    {
+      "bytes": 5972,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/CHECKPOINT_FINAL_STAGED.json",
+      "sha256": "e718d53b95b9e2b7b7793a6f65de6335d317094b13cf181f267f19f59b01e703"
+    },
+    {
+      "bytes": 5976,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri211-root-global-W-review-xh6eetn1/CHECKPOINT_FINAL_POSTCOMMIT.json",
+      "sha256": "afff9c23bfe1246a7e471627d5b34dbbf7fd632d7681c84eb7bd6e35c4315f06"
+    }
+  ],
+  "commit": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+  "commit_execution": {
+    "chunk_id": "b6f27f",
+    "exit_code": 0
+  },
+  "dependencies": 53,
+  "exact_plain_copies": 19,
+  "index_empty": true,
+  "live_remote": "c1cb37d0c70c899a3d9648cbb91a8620ead60757\trefs/heads/ret\n",
+  "no_force": true,
+  "programme_complete": false,
+  "push_execution": {
+    "command": "git push origin ret",
+    "exit_code": 0,
+    "initial_chunk": "db578a",
+    "output": "To https://github.com/omekagardens/det_8_framework.git\n   80b94aa..c1cb37d  ret -> ret\n",
+    "session_id": 45888,
+    "terminal_chunk": "4b7dfc"
+  },
+  "remote": "origin",
+  "remote_url": "https://github.com/omekagardens/det_8_framework.git",
+  "schema": "ri211-verified-remote-checkpoint-v1",
+  "scope_count": 26,
+  "status": "PASS",
+  "upstream": "c1cb37d0c70c899a3d9648cbb91a8620ead60757",
+  "whole_unrelated_identity_inventory_preserved": true
+}

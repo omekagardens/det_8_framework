@@ -1,0 +1,274 @@
+{
+  "record_count": 14,
+  "records": [
+    {
+      "current_original": {
+        "bytes": 31586,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+        "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+      },
+      "declared": {
+        "bytes": 31586,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/DESIGN.md",
+        "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+      },
+      "existing_repository_copy": {
+        "bytes": 31586,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/DESIGN.md",
+        "sha256": "4e725c42d77097e66b5b5cf5c3cc014f97b2a42663b0ef0ee3f78d8b4161699b"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/DESIGN.md"
+    },
+    {
+      "current_original": {
+        "bytes": 4667,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+        "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+      },
+      "declared": {
+        "bytes": 4667,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/HANDOFF.json",
+        "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+      },
+      "existing_repository_copy": {
+        "bytes": 4667,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/HANDOFF.json",
+        "sha256": "37c6611aa6db3a0b04e6e243bd3b1519ce387ef1b5ba779b372ddcc03ef858d9"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/HANDOFF.json"
+    },
+    {
+      "current_original": {
+        "bytes": 20218,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+        "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+      },
+      "declared": {
+        "bytes": 20218,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-joint-window-application-design-e0qwhenu/PREDECESSOR_PINS.json",
+        "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+      },
+      "existing_repository_copy": {
+        "bytes": 20218,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/PREDECESSOR_PINS.json",
+        "sha256": "22dcd3d7d1f47de916edbc3b26a0a4a6c23d6bfd2d96c0b9953fa9f15faeeb6f"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/PREDECESSOR_PINS.json"
+    },
+    {
+      "current_original": {
+        "bytes": 2948,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI123_ROOT_DESIGN_ADJUDICATION.json",
+        "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+      },
+      "declared": {
+        "bytes": 2948,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI123_ROOT_DESIGN_ADJUDICATION.json",
+        "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+      },
+      "existing_repository_copy": {
+        "bytes": 2948,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/ROOT_ADJUDICATION.json",
+        "sha256": "2963dbd483539f90ef52b744e93b52451265975cbd041ff2d59df26f0d94936a"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/ROOT_ADJUDICATION.json"
+    },
+    {
+      "current_original": {
+        "bytes": 16652,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.md",
+        "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+      },
+      "declared": {
+        "bytes": 16652,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.md",
+        "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+      },
+      "existing_repository_copy": {
+        "bytes": 16652,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/independent/INDEPENDENT_DESIGN_REVIEW.md",
+        "sha256": "a884413061b79491e5d4c6b2ca766b313c1ee396b0896664866a5611059ad3a8"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/independent/INDEPENDENT_DESIGN_REVIEW.md"
+    },
+    {
+      "current_original": {
+        "bytes": 4033,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+        "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+      },
+      "declared": {
+        "bytes": 4033,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri123-independent-design-review-ou3oo3fq/INDEPENDENT_DESIGN_REVIEW.json",
+        "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+      },
+      "existing_repository_copy": {
+        "bytes": 4033,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_application_v1/independent/INDEPENDENT_DESIGN_REVIEW.json",
+        "sha256": "153aacb959144a41b42262461cd85727c0435ce79c37f5a3fd36fb310d467994"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_application_v1/independent/INDEPENDENT_DESIGN_REVIEW.json"
+    },
+    {
+      "current_original": {
+        "bytes": 68018,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+        "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+      },
+      "declared": {
+        "bytes": 68018,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+        "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+      },
+      "existing_repository_copy": {
+        "bytes": 68018,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_noise_operator_covariance_v1/check.py",
+        "sha256": "574f5f1b8900221a47bc30ea62e6bed378a8fd1c8b4aa904e0549ade8ceb2887"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_noise_operator_covariance_v1/check.py"
+    },
+    {
+      "current_original": {
+        "bytes": 35449,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+        "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+      },
+      "declared": {
+        "bytes": 35449,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+        "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+      },
+      "existing_repository_copy": {
+        "bytes": 35449,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py",
+        "sha256": "e33a591a3b196cfa5866138c33b665fc123c5a52bdf2610351da21ba711c77b6"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_off_event_context_benchmark_check_v2/consumer.py"
+    },
+    {
+      "current_original": {
+        "bytes": 17856,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+        "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e"
+      },
+      "declared": {
+        "bytes": 17856,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+        "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e"
+      },
+      "existing_repository_copy": {
+        "bytes": 17856,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md",
+        "sha256": "06f99ba48958ab4919d421ab208a84fc1d8b763e87d04774eb78aab0c292f48e"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_off_event_context_benchmark_check_v2/API.md"
+    },
+    {
+      "current_original": {
+        "bytes": 24861,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+        "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+      },
+      "declared": {
+        "bytes": 24861,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+        "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+      },
+      "existing_repository_copy": {
+        "bytes": 24861,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py",
+        "sha256": "f014394b2e5646b2810fa00f7449eabccea8487c3a0622520eb48416cdcea009"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_mode_weighted_trace_check_v1/consumer.py"
+    },
+    {
+      "current_original": {
+        "bytes": 8664,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+        "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff"
+      },
+      "declared": {
+        "bytes": 8664,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+        "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff"
+      },
+      "existing_repository_copy": {
+        "bytes": 8664,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md",
+        "sha256": "2a0af05b1501b93fc21e6acc524f5b3cecbde8884970487a993257b3919033ff"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_mode_weighted_trace_check_v1/API.md"
+    },
+    {
+      "current_original": {
+        "bytes": 20346,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "declared": {
+        "bytes": 20346,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "existing_repository_copy": {
+        "bytes": 20346,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/primary.py",
+        "sha256": "aea35e5840d96e0aee1bacf258d94a735171e201ac1c02fee23a2151feed7d10"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_synthetic_v1/primary.py"
+    },
+    {
+      "current_original": {
+        "bytes": 17291,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+        "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+      },
+      "declared": {
+        "bytes": 17291,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+        "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+      },
+      "existing_repository_copy": {
+        "bytes": 17291,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md",
+        "sha256": "13d54fc6af96ca22b793cd47aee7588257ce3b3c1f1e246eaf07e580bee010ab"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_synthetic_v1/CONTRACT.md"
+    },
+    {
+      "current_original": {
+        "bytes": 4385,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+        "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76"
+      },
+      "declared": {
+        "bytes": 4385,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+        "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76"
+      },
+      "existing_repository_copy": {
+        "bytes": 4385,
+        "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/experiments/gwosc_joint_window_qualification_v1/README.md",
+        "sha256": "da18ca7b0d44071c182d4c5400133c8b7427ff264418d886c1f04cf8511b8f76"
+      },
+      "matches": true,
+      "relative_repository_path": "docs/experiments/gwosc_joint_window_qualification_v1/README.md"
+    }
+  ],
+  "schema": "ri125-predecessor-context-copy-check-v1",
+  "scope": "Metadata only. No referenced scientific or target source body decoded, parsed as code or executed. No recursive runtime closure claim.",
+  "status": "PASS"
+}

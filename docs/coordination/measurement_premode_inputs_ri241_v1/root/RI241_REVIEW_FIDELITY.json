@@ -1,0 +1,56 @@
+{
+  "copies": [
+    {
+      "copy": {
+        "bytes": 6004,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_FIELD_MAP_REVIEW.md",
+        "sha256": "4fb2ddb920e4565b0e35286479054974ddf6188152573e61eac0ca5f86a59389"
+      },
+      "original": {
+        "bytes": 6004,
+        "path": "/private/tmp/ri241-field-map-review-9e613a.md",
+        "sha256": "4fb2ddb920e4565b0e35286479054974ddf6188152573e61eac0ca5f86a59389"
+      }
+    },
+    {
+      "copy": {
+        "bytes": 7573,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/RI241_CANDIDATE_REVIEW.md",
+        "sha256": "26281da31c243dd70b7690982b69f4f5e13a648893be32a501d227f846175915"
+      },
+      "original": {
+        "bytes": 7573,
+        "path": "/private/tmp/ri241-candidate-review.md",
+        "sha256": "26281da31c243dd70b7690982b69f4f5e13a648893be32a501d227f846175915"
+      }
+    },
+    {
+      "copy": {
+        "bytes": 6853,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri242-root-canonical-review-vmbd1niz/assemble_ri241.py",
+        "sha256": "e9e793fd623f77095ae18cdaec0e8af59dbc97def830008e46d388d9a6bc06c0"
+      },
+      "original": {
+        "bytes": 6853,
+        "path": "/private/tmp/ri241-assemble.py",
+        "sha256": "e9e793fd623f77095ae18cdaec0e8af59dbc97def830008e46d388d9a6bc06c0"
+      }
+    }
+  ],
+  "reviewer_readback_receipts": [
+    {
+      "chunk_id": "55d079",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "f2e4e5",
+      "exit_code": 0
+    }
+  ],
+  "root_complete_candidate_review_read": {
+    "chunk_id": "0a8f17",
+    "exit_code": 0
+  },
+  "schema": "ri241-review-fidelity-v1",
+  "source": "Copies of exact collaborating reviewer text and reviewed root assembly script; no operation replay."
+}

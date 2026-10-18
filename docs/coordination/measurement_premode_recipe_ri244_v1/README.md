@@ -1,0 +1,11 @@
+# RI244 concrete normal pre-mode preparation recipe
+
+The unchanged RI160 pre_mode action now has an independently reviewed concrete preparation recipe. Its output must be an immediate sibling under the evidence parent named ri156-operation-ri244-premode-2kfsmiea. The launch environment uses D244/tmp, while the already accepted runtime13 retains E/tmp. The outer cwd is D244; unchanged RI141 child_run uses D244/monitor and label PRE_MODE. The existing twelve-field admission and original106-control acceptance remain unchanged.
+
+The independent review passed670 administrative predicates/609 opaque identities. Root separately authenticated the567 source dependencies, twelve executable source files, accepted106-control card and its evidence, current RI241 inputs and referenced records. Root compared the frozen E against its authenticated committed historical reference:49files/nine directories unchanged. No scientific source or installed freeze was decoded by this preparation review.
+
+This is recipe acceptance only. A fresh source-only preparation proposal is active outside the repository. Fresh complete source/supplier/host/E/role observations, pinned bootstrap/preflight and independent control review remain necessary before root issues and executes a separate bounded pre_mode admission. Then the nine-field result and complete action/monitor tails require independent review before separate mode_card generation. No admission, dispatch, mode card or scientific qualification is issued here.
+
+Normal scientific qualification and independent arithmetic precede optimized, RI131/full32 and the selected public GWOSC conventional reproduction. Stable supplier/no descendants, sampled-child RSS, Apple loader/cache and genuine external evidence remain explicit premises. Calibrated claims remain separate from a native forward map; RET stays paused.
+
+The exact independent report, root decision, source-check record and review script are preserved. The check record is losslessly gzip-encoded with zero timestamp; the manifest and dependency map expose its original identity. Existing Git copies and external originals remain explicit. This is not a complete runtime archive or relocated execution authority.

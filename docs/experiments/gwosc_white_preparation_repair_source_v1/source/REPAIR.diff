@@ -1,0 +1,78 @@
+--- /Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/prepare.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py
+@@ -1,4 +1,4 @@
+-"""RI133 separately admitted NONSCIENTIFIC preparation only. UNEXECUTED source.
++"""RI135 F01/F02 successor of RI133; NONSCIENTIFIC preparation only. UNEXECUTED.
+ 
+ Root authenticates this bootstrap script, its supplier and every admission
+ before startup. No invocation of WHITE targets, fixture makers or science
+@@ -528,12 +528,12 @@
+     phase = admission['phase']; out = Path(admission['output']); env = environment(Path(admission['environment_root']))
+     need(dict(os.environ) == env, 'root-controlled driver environment')
+     need(not os.path.lexists(out), 'one fresh root-owned preparation output')
+-    out.mkdir(mode=0o700)
++    # F01: a genuine initial reference and all safe tail state precede ownership.
++    # Failure here is preownership refusal, with genuine outer evidence only.
+     admission_ref = ref(path)
++    same(read(admission_ref), admission, 'initial admission drift before ownership')
+     started = time.monotonic()
+     artifacts = {}; checks = {}; first = None; tails = []
+-    save(out/'ATTEMPT.json', {'schema': 'ri133-preparation-attempt-v1', 'admission': admission_ref, 'sources': source_set(),
+-                             'phase': phase, 'environment': env, 'scientific_execution': False})
+     def remember(name, target):
+         artifacts[name] = ref(target)
+         return artifacts[name]
+@@ -545,7 +545,13 @@
+         remember(label+'_completion', out/(label+'.COMPLETION.json'))
+         return read(child['stdout'])
+     baseline = None; before = None
++    out.mkdir(mode=0o700)
+     try:
++        # Every fallible operation after successful mkdir is now protected.
++        # A changed/unreadable admission cannot fabricate a new initial pin.
++        same(ref(path), admission_ref, 'admission drift after ownership')
++        save(out/'ATTEMPT.json', {'schema': 'ri133-preparation-attempt-v1', 'admission': admission_ref, 'sources': source_set(),
++                                 'phase': phase, 'environment': env, 'scientific_execution': False})
+         if phase == 'capture':
+             need(all(admission[k] is None for k in ('baseline_acceptance', 'normal_acceptance', 'profiles_acceptance', 'guard_admission')), 'capture has no execution predecessor')
+         else:
+--- /Volumes/AI_DATA/development/det-review-evidence/ri133-white-runtime-preparation-source-lrck33ys/runtime_metadata.py
++++ /Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/runtime_metadata.py
+@@ -1,4 +1,4 @@
+-"""RI133 opaque runtime metadata source. UNEXECUTED; no scientific imports.
++"""RI135 F01/F02 successor: opaque runtime metadata. UNEXECUTED; no scientific imports.
+ 
+ RI121 collector constants and functions retained as source, with explicit size,
+ member and alias guards. The driver supplies separately authenticated metadata.
+@@ -342,6 +342,23 @@
+             'science_files_opened_as_opaque_hash_streams_only': True, 'scientific_body_decode': False}
+ 
+ 
++def require_historical_interpreter(current, dependencies):
++    """F02: authenticate the retained full binding before accepting selection."""
++    expected_ref = dependencies['historical_interpreter']
++    provenance_ref = dependencies['historical_interpreter_provenance']
++    guard(expected_ref in dependencies['opaque_files'] and provenance_ref in dependencies['opaque_files'],
++          'historical interpreter and provenance absent from opaque closure')
++    provenance = load_ref(provenance_ref)
++    guard(provenance['schema'] == 'ri121-reviewed-runtime-metadata-candidate-handoff-v1'
++          and provenance['status'] == 'METADATA_CANDIDATE_INDEPENDENTLY_VERIFIED_NOT_RUNTIME_ADMITTED',
++          'authentic historical interpreter provenance scope')
++    same([row for row in provenance['files'] if row['path'] == expected_ref['path']], [expected_ref],
++         'historical interpreter handoff identity')
++    expected = load_ref(expected_ref)
++    same(current, expected, 'candidate interpreter differs from authentic historical binding')
++    return expected
++
++
+ def snapshot(dependencies):
+     """Collect current bytes/selection twice-bracketed; never imports candidate."""
+     before_host = host_bootstrap()
+@@ -353,6 +370,7 @@
+     routes = dyld_routes()
+     loaders = [binding(name) for name in sorted(LOADER_NAMES)]
+     interpreter = binding(VENV + '/bin/python')
++    require_historical_interpreter(interpreter, dependencies)
+     extras = sorted(set(MANDATORY_EXTRAS + [row['resolved_path'] for row in loaders]))
+     paths, links, counts = walk_members(ROOTS)
+     same(links, LINKS, 'unchanged accepted link domain')

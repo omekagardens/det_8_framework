@@ -1,0 +1,11 @@
+{
+  "schema": "ri121-actual-guard-tool-completion-v1",
+  "scope": "Original source regression; deliberate expected ordering failures, no production/science qualification",
+  "result": {
+    "chunk_id": "684a0d",
+    "wall_time_seconds": 0.039506875,
+    "exit_code": 1,
+    "original_token_count": 127,
+    "output": "RI121 synthetic qualification refused: fixture_source\nRI121 synthetic qualification refused: fixture_caller\nRI121 synthetic qualification refused: fixture_runtime_acceptance\nRI121 synthetic qualification refused: fixture_late\nRI121 synthetic qualification refused: fixture_late\nRI121 synthetic qualification refused: fixture_mode\n{\"report\": \"/Volumes/AI_DATA/development/det-review-evidence/ri121-root-caller-review-e6_dha8i/ORIGINAL_GUARD_RESULT.json\", \"passed\": 4, \"failed\": 7, \"helpers_unchanged\": true}\n"
+  }
+}

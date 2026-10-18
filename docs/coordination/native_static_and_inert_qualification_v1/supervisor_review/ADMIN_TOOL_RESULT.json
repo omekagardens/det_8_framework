@@ -1,0 +1,27 @@
+{
+  "actual_administrative_interpreter": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "all_proposed_paths_absent": true,
+  "chunk_id": "a27eef",
+  "command": "/opt/homebrew/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/check_metadata.py",
+  "counts": {
+    "external_identities": 325,
+    "groups_executed": 0,
+    "inherited_bytes": 33312952,
+    "namespace": 16,
+    "payloads": 15,
+    "predicates": 3072,
+    "prospective_groups": 13,
+    "source_dependencies": 307,
+    "source_lines": 488,
+    "unique_observed_identities": 341
+  },
+  "exit_code": 0,
+  "provenance": "Transcribed actual tool output; no tool-origin or operational authority is manufactured.",
+  "result": {
+    "bytes": 184052,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri165-independent-supervisor-review-LVNCIeUA/METADATA_CHECK.json",
+    "sha256": "c700e5c0bba58e18f370cb8d34b9565aaac27694b3648cc340a8211e09092241"
+  },
+  "schema": "ri165-independent-actual-admin-tool-v1",
+  "stderr": ""
+}

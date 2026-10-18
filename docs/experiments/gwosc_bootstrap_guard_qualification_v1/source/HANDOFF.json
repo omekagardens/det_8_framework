@@ -1,0 +1,196 @@
+{
+  "actual_author_administrative_check": {
+    "exit_code": 0,
+    "result": {
+      "bytes": 11379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/METADATA_CHECK.json",
+      "sha256": "89aafe08631a4d6ed845e13092e72c7c86ec96e4701058f1f4ad7cf9472c4b29"
+    },
+    "scope": "Opaque identity/canonical metadata/literal text only, not source execution or independent review.",
+    "tool_chunk_id": "cb9b45"
+  },
+  "author": "/root/archive_repro_review",
+  "author_also_authored_target_and_measurement_predecessors": true,
+  "author_diagnostics_preserved": {
+    "bytes": 2126,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHOR_DIAGNOSTICS.json",
+    "sha256": "aff491cfa0ca342b2d7796f7bd8d555260007efe8cdf0971e48c1156aaa82435"
+  },
+  "complete_diff_and_source_correspondence_retained": true,
+  "controls_executed": 0,
+  "current_runtime_or_supplier_observed": false,
+  "declared_control_count": 15,
+  "declared_controls": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07_path",
+    "B07_resolved_path",
+    "B07_symlink_chain",
+    "B07_bytes",
+    "B07_sha256",
+    "B07_state",
+    "B08",
+    "B09",
+    "B10"
+  ],
+  "declared_positive_expectations": 1,
+  "declared_refusal_expectations": 14,
+  "declared_success_namespace_entries": {
+    "child": 33,
+    "parent_with_child": 43
+  },
+  "exact_namespace": [
+    "AUTHORING_RECORD.md",
+    "AUTHOR_DIAGNOSTICS.json",
+    "DEPENDENCIES.source-only.json",
+    "HANDOFF.json",
+    "METADATA_CHECK.json",
+    "PROTOCOL.md",
+    "REPAIR.diff",
+    "SOURCE_CORRESPONDENCE.json",
+    "bootstrap_controls.source-only.py",
+    "launch_controls.source-only.py"
+  ],
+  "external_premises": [
+    "Genuine startup/supplier/host and actual tool-origin/terminal evidence are external; saved cards cannot authenticate their own origin.",
+    "Stable supplier/no descendants; sampled child RSS is not a hard parent/group quota and saved parent PID is not authenticated child identity.",
+    "Apple loader/cache and source/cache premises remain; future enlarged-closure timing/resources unverified."
+  ],
+  "files": [
+    {
+      "bytes": 6702,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHORING_RECORD.md",
+      "sha256": "78cfb76dbb7c0481ad43f2b4453aecdf88b09e7661707dc74f05dc483dc8ead4"
+    },
+    {
+      "bytes": 2126,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/AUTHOR_DIAGNOSTICS.json",
+      "sha256": "aff491cfa0ca342b2d7796f7bd8d555260007efe8cdf0971e48c1156aaa82435"
+    },
+    {
+      "bytes": 162285,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/DEPENDENCIES.source-only.json",
+      "sha256": "255ee1f97126e79ad31f2d2e00bcb1b513f23422051be7b1fba99b97b8b76f5d"
+    },
+    {
+      "bytes": 11379,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/METADATA_CHECK.json",
+      "sha256": "89aafe08631a4d6ed845e13092e72c7c86ec96e4701058f1f4ad7cf9472c4b29"
+    },
+    {
+      "bytes": 20561,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/PROTOCOL.md",
+      "sha256": "e044afda87f8562b0d7dc3df8e64e022de7440f54fe5251950465c5d06591d9e"
+    },
+    {
+      "bytes": 50751,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/REPAIR.diff",
+      "sha256": "56b17379c553fd9bcb588e23a2c9d3077d032ea88490b2bd9d0f0bca30a367d1"
+    },
+    {
+      "bytes": 6859,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/SOURCE_CORRESPONDENCE.json",
+      "sha256": "91bc722477428584c004925e53db1ca9aeb8182b1c5b08dd95c807cc5eb17f0b"
+    },
+    {
+      "bytes": 20413,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/bootstrap_controls.source-only.py",
+      "sha256": "730ee9164db2b74bea0206b0222724710fb23b00b98217ff2cf4f15027929483"
+    },
+    {
+      "bytes": 26035,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt/launch_controls.source-only.py",
+      "sha256": "458732fd274d525ba1fb8ac3b7985796cea0b490d964ec7ec5edf0421c6fe289"
+    }
+  ],
+  "files_bound_excluding_self": 9,
+  "future_execution_authorized": false,
+  "historical_actual25_acceptance": {
+    "bytes": 3357,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-root-bootstrap-adjudication-goau3dIc/RI139_ACTUAL_ROOT_ACCEPTANCE.json",
+    "sha256": "1d6a9928570f1db9fbf87c1133b53d9fe708f17495b6443ddbd3ae71a8d109b1"
+  },
+  "limits": {
+    "child_rss_kib": 524288,
+    "child_seconds": 180,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "maximum_sample_gap_seconds": 0.1,
+    "namespace_bytes": 536870912,
+    "namespace_entries": 25000,
+    "parent_soft_seconds": 900,
+    "poll_seconds": 0.025,
+    "ps_timeout_seconds": 0.05,
+    "stream_bytes": 67108864
+  },
+  "new_source_imported_compiled_ast_probed_or_run": false,
+  "old25_credit": "Original25 subjects and explicit doubles only; no new-source or real snapshot credit.",
+  "old25_rerun": false,
+  "opaque_dependency_counts": {
+    "additions": 30,
+    "inherited_ri141": 442,
+    "opaque_bytes": 26701752,
+    "opaque_files": 472,
+    "sealed_namespace_roots": 393
+  },
+  "operational_card_inventory_freeze_admission_created": false,
+  "post_acceptance_order": "Separate genuine production parent/PRE/POST capture and baseline; normal then optimized profiles and separate65 guards; WHITE/full32/public GWOSC and RI131 remain separate. No operation assigned by this author.",
+  "precise_entry": "Whole captured RI141 prepare.py loaded non-main per future isolated case; selected_bootstrap only, explicit private provenance/current-observer doubles and complete ordered guard trace.",
+  "previous_wrapper": {
+    "bytes": 26387,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused-bootstrap-repair-source-XP8iNwMw/launch_controls.source-only.py",
+    "sha256": "4f26515027d5a497ca82169bbd05b566c9d761b81f8e23e9f6c3ab3eaa4ac794"
+  },
+  "qualified_whole_monitor": {
+    "bytes": 44082,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri135-white-preparation-repair-source-lski1ize/prepare.py",
+    "sha256": "7ee12c5ea946d50ae74da933882c98facf27eb85fd015620ad089ccb78eb2f5e"
+  },
+  "remaining_execution_prerequisites": [
+    "Fresh nonauthor full source/contract/delta/dependency review and root exact-source adjudication.",
+    "Root-authenticated current direct supplier/framework/host/complete environment/loader/cache preflight and exact separate closed launcher/control admissions, disjoint fresh outputs and genuine external terminating custody.",
+    "One admitted normal isolated15 run with complete monitor, every whole case/trace/private operand/first refusal/result/namespace and independent source/dependency/card tails.",
+    "Independent actual15 review and root decision before any separate production capture."
+  ],
+  "repository_index_git_mutations": false,
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri144-bootstrap-guard-source-oaj1jvyt",
+  "ret_paused": true,
+  "schema": "ri144-bootstrap-guard-source-handoff-v1",
+  "scientific_body_decoded": false,
+  "scientific_execution": false,
+  "self_hash_excluded": true,
+  "self_independent_acceptance": false,
+  "source_lines": {
+    "bootstrap_controls.source-only.py": 339,
+    "launch_controls.source-only.py": 397,
+    "total": 736
+  },
+  "status": "SOURCE_STABLE_UNEXECUTED_REQUIRES_FRESH_NONAUTHOR_REVIEW",
+  "successor_assigned": false,
+  "supervision": "Whole exact RI135 prepare.py loaded non-main; only child_run plus environment applicability, no monitor patches/production authentication.",
+  "target_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "target_independent_review": {
+    "bytes": 5103,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-bootstrap-independent-review-k5bss5xp/HANDOFF.json",
+    "sha256": "fb2ccb6ea23abd009db852c56fa2ac6e33f1c0b54a5b1db9324722e05ca214fb"
+  },
+  "target_module": {
+    "bytes": 45721,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/prepare.py",
+    "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+  },
+  "target_root_source_adjudication": {
+    "bytes": 3799,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-root-source-adjudication-8796wh9l/RI141_ROOT_ADJUDICATION.json",
+    "sha256": "4e63c273bb537f0afff99cebf92d6d70d389fe0707f5a902d164abe979f8849c"
+  },
+  "unchanged_wrapper_text_spans": 14
+}

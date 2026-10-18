@@ -1,5 +1,8 @@
 """
-DET Continuum Limit — Step 4+: Discrete Action → Einstein-Hilbert
+RETIRED / QUARANTINED — historical κ-weighted discrete-action sketch.
+
+The implementation does not prove an Einstein–Hilbert limit or derive a
+gravitational source from DET records.
 
 Implements the Benincasa-Dowker (BD) action adapted for DET with
 κ-weighting, and tests convergence to the Einstein-Hilbert action.
@@ -34,6 +37,10 @@ Causal Set", PRL 104, 181301.
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 import random

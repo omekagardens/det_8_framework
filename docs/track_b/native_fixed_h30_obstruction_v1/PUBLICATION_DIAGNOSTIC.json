@@ -1,0 +1,14 @@
+{
+  "actual_chunk": "625b9d",
+  "error": "Naive recursive dependency collection conflated explicitly historical author draft pins with current sealed pins.",
+  "exit_code": 1,
+  "failed_source": {
+    "bytes": 11727,
+    "path": "/private/tmp/ri219_publish.py",
+    "sha256": "16c0f7aecd53e90c98e2cb043ec0d810b736b72b1ba7cdf5315a48c84851c959"
+  },
+  "prior_root_admin_outputs_retained": true,
+  "repair": "Preserve complete author history as opaque exact payload. Select current dependencies from sealed handoff, direct source references and root decisions. No payload or historical pin is edited.",
+  "repo_bundle_created": false,
+  "schema": "ri219-publication-diagnostic-v1"
+}

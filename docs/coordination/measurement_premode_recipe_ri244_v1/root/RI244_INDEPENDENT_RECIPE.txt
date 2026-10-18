@@ -1,0 +1,121 @@
+RI244 is ready for **root preparation of one `pre_mode` action**. I found no source blocker. The fresh preflight, bootstrap, admission and dispatch do not yet exist; none is authorized by this review.
+
+Independent administrative check **bf62fb exited 0**: **670 canonical predicates, 609 opaque identities**, all **567 RI160 dependencies**, adapter plus **11 modules**, and the exact accepted **106-control** card. D244 was empty and the proposed operation output absent.
+
+Use these aliases:
+
+```text
+B = /Volumes/AI_DATA/development/det-review-evidence
+D = B/ri244-current-normal-premode-2kfsmiea
+S = B/ri160-white-fixture-custody-repair-ufok1zpo
+O = B/ri156-operation-ri244-premode-2kfsmiea
+V = /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9
+```
+
+`O` must be an immediate sibling under `B`, beginning `ri156-operation-`; **D/output would refuse** at `adapter.py:104`.
+
+The exact twelve admission fields for prospective `D/ADMIT_PRE_MODE.json` are:
+
+| Field | Required value |
+|---|---|
+| `schema` | `ri156-root-adapter-admission-v1` |
+| `status` | `AUTHORIZE_ONE_BOUNDED_METADATA_ACTION` |
+| `action` | `pre_mode` |
+| `source_manifest` | FilePin A below |
+| `source_review` | FilePin B below |
+| `qualification` | FilePin C below |
+| `request` | FilePin D below |
+| `output` | Exact `O` path above |
+| `environment` | Complete ten-field operation environment below |
+| `bootstrap_preflight` | Actual FilePin of fresh `D/BOOTSTRAP_PREFLIGHT.json`, only after root writes and verifies it |
+| `bounds` | Exact six-field object below |
+| `genuine_outer_required` | `true` |
+
+All FilePins have exactly `path`, `bytes`, `sha256`:
+
+| Ref | Path under `B` | Bytes | SHA256 |
+|---|---|---:|---|
+| A | `ri160-white-fixture-custody-repair-ufok1zpo/SOURCE_SET.json` | 147447 | `3c01d5825ce66ccf0b071329c46341ea01e28ef4cb76320e5776dd3ae6b53a4f` |
+| B | `ri160-root-fixture-adjudication-0rmgmo7y/RI160_ROOT_ADJUDICATION.json` | 2582 | `667e157b07b210952b819f9b9e4907abb4eb3dddb1c7bdcce4d3d6d04ad873b4` |
+| C | `ri172-root-review-fkjv3v0z/RI162_CONSUMER_QUALIFICATION.json` | 4041 | `0e27e1393c949a24a244ef2e2367ed8c72a10df1d3e3a6057cee8a4d20c9e0d7` |
+| D | `ri241-current-e-premode-wp58xz0h/PRE_MODE_REQUEST.json` | 1013 | `6aeb27d703ec8487b22d61fea4f992fe54ff4cd87b335fbfbd1675d89d0ce001` |
+
+The separate accepted-input decision is:
+
+`B/ri242-root-canonical-review-vmbd1niz/RI241_ROOT_INPUT_ADJUDICATION.json`  
+**2744 bytes / `2731edec8f87afa381e11cd5a91168fdd5eb5a27f21667d7e834f81994aebd37`**.
+
+Bind it in root preparation/provenance; do not substitute it for the admission’s original RI160 `source_review` or add a thirteenth admission field.
+
+```json
+{
+  "LC_ALL": "C",
+  "MKL_NUM_THREADS": "1",
+  "NUMEXPR_NUM_THREADS": "1",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "PATH": "/usr/bin:/bin",
+  "TMPDIR": "/Volumes/AI_DATA/development/det-review-evidence/ri244-current-normal-premode-2kfsmiea/tmp",
+  "TZ": "UTC",
+  "VECLIB_MAXIMUM_THREADS": "1",
+  "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0"
+}
+```
+
+This operation environment is distinct from **runtime13.environment**, whose accepted **E/tmp** value must remain unchanged.
+
+```json
+{
+  "wall_seconds": 180,
+  "rss_kib": 524288,
+  "target_poll_seconds": 0.025,
+  "maximum_sample_gap_seconds": 0.1,
+  "ps_timeout_seconds": 0.05,
+  "file_bytes": 67108864
+}
+```
+
+Reuse the authentic RI204 supervision pattern with only exact operation paths, label and fresh non-main module name changed. Authenticate and capture the complete unchanged monitor:
+
+`B/ri141-white-bootstrap-source-h58ls076/prepare.py`  
+**45721 bytes / `8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe`**.
+
+The prospective bootstrap call is:
+
+```python
+module.child_run(
+    [V, "-I", "-B", str(S / "adapter.py"),
+     "--admission", str(D / "ADMIT_PRE_MODE.json")],
+    D / "monitor", "PRE_MODE", 180, operation_environment
+)
+```
+
+Root creates empty `D/tmp` and `D/monitor` during preparation. The outer invocation is:
+
+```text
+/usr/bin/env -i <the ten exact NAME=value operands>
+/usr/bin/perl -e '$SIG{ALRM}="DEFAULT"; alarm 960; exec @ARGV; die $!;'
+<V> -I -B <D/PRE_MODE_BOOTSTRAP.py>
+```
+
+Use outer **cwd D**, `login:false`. The unchanged monitor sets the adapter child’s **cwd to D/monitor**, not D. Every adapter/request/output path is absolute, so this is source-compatible. Preserve literal arguments, genuine initial/poll/terminal results and the monitor’s entire four-file output.
+
+Before issuance, fresh root custody must cover:
+
+- Complete source manifest, all twelve executable files and 567 dependencies; original source adjudication, full qualification card and its three evidence references; selected monitor, concrete bootstrap and every new control.
+- Exact accepted RI241 two-file namespace and input adjudication; complete referenced runtime/profile/baseline/copy/projection/provenance/dyld chain. Preserve opaque scientific bodies.
+- All retained source roles and prior custody rows, with newly introduced administrative inputs added explicitly. Measure the resulting union; do not reuse an old count as the new closure.
+- Entire current vendor scope: **1810 files / 48,024,515 bytes**, four inspection tools, **195 directory/link rows**, two absences and full direct-interpreter binding. The preflight’s `selected_interpreter_binding` must exactly equal `SOURCE_SET.json.bootstrap_binding`, including state and ordered link information.
+- Fresh genuine host evidence, complete vendor/host preflight premises, current **E49 files/nine directories**, all seven state fields, memberships, installed freeze’s opaque identity, and **48/124/30** roles. Preserve empty E/tmp and both run directories, absent mode cards, absent O and empty monitor output.
+- Fresh predispatch comparison after controls are written, followed by matching post-operation custody. The RI239 observer is a useful read-only algorithm reference, **not an unchanged ready-to-run RI244 collector**: it hardcodes capture paths, environment and control names. Preserve the previously repaired requirement to authenticate the historical E reference explicitly.
+
+The direct interpreter binding is **102352 bytes / `1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524`**. Its authenticated provenance remains:
+
+`B/ri139-focused-bootstrap-repair-source-XP8iNwMw/DEPENDENCIES.source-only.json`  
+**120094 bytes / `7be3dea02bd2f9d0e6dd565dbecad2977ed90eeab95612add058fd74a0be7309`**.
+
+On success, **O contains exactly `ATTEMPT.json`, `RESULT.json`, `COMPLETE.json`**. The result has nine fields: `schema`, `mode`, `freeze`, `runtime_acceptance`, three unchanged booleans, `observed_dyld_routes`, `metadata_record`. Review all seven independent completion tails—sources, admission, request, dependencies, both produced outputs, namespace—plus complete monitor/raw samples, gaps, limits, reap and genuine outer evidence. Preserve every refusal and partial; a successful result remains pending independent/root review. It does not issue or install a mode card.
+
+Source/read receipts: **3c2e29, b93579, c04fa5, cef474, 208a0a**, all exit 0. These covered the current three coordination fronts, complete adapter, authentic previous admission/bootstrap/dispatch/preflight/acceptance, unchanged `child_run`, and administrative preparation correspondence. No new failed diagnostic.
+
+I authored earlier RI130/RI141 material; its independently accepted semantics are inherited, not newly self-approved. This review concerns the new RI244 recipe and custody/interface mapping. No files were written, no subject or vendor started, no installed freeze decoded, and no E/Git mutation occurred. Sampled-child RSS, stable supplier/no descendants, Apple loader/cache and genuine tool-origin premises remain unchanged. RET stays paused.

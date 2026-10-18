@@ -1,0 +1,199 @@
+{
+  "actual_artifact_pins": {
+    "RI111_proof": {
+      "bytes": 20656,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri111.md",
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53"
+    },
+    "RI88_input": {
+      "bytes": 1828149,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/inputs/ri88.json",
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+    },
+    "audit_candidate": {
+      "bytes": 170517,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_CANDIDATE.json",
+      "sha256": "171832e8a16d8204e88ecf5de684c1e5d7477796ea3e2500a87d5b6987391b92"
+    },
+    "audit_contract": {
+      "bytes": 11987,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/AUDIT_CONTRACT.md",
+      "sha256": "355336403094890e0e8f62dc0e6d92662d16fcf0b3270fcd00582605ca820271"
+    },
+    "audit_descriptor": {
+      "bytes": 5208,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/AUDIT_INPUT.json",
+      "sha256": "cf0148bbf75d17dad96b318dd0a284e1567978b610aafe24dc8e6771b58762bc"
+    },
+    "audit_report": {
+      "bytes": 190757,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/REPORT.json",
+      "sha256": "e5066c2073990d3731099abe4129db7954e290021d812fe71958c53014c2481e"
+    },
+    "audit_stdout": {
+      "bytes": 190757,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/audit-01/stdout.log",
+      "sha256": "e5066c2073990d3731099abe4129db7954e290021d812fe71958c53014c2481e"
+    },
+    "certificate": {
+      "bytes": 170517,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/CERTIFICATE.json",
+      "sha256": "171832e8a16d8204e88ecf5de684c1e5d7477796ea3e2500a87d5b6987391b92"
+    },
+    "consumer_source": {
+      "bytes": 54458,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/audit_saved_certificate.py",
+      "sha256": "0c3a781aee84f2d66fbe93e1aa3b07eb2961c3cd451abd6e5275931c25adbe3f"
+    },
+    "genuine_witness_stdout": {
+      "bytes": 170517,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/witness-01/stdout.log",
+      "sha256": "171832e8a16d8204e88ecf5de684c1e5d7477796ea3e2500a87d5b6987391b92"
+    },
+    "implementation_contract": {
+      "bytes": 17714,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/IMPLEMENTATION.md",
+      "sha256": "0666dabeb554991e3ce7a70774666e2c162806b00f2d27541572131054b275bf"
+    },
+    "native_saved_certificate": {
+      "bytes": 170517,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/CERTIFICATE.json",
+      "sha256": "171832e8a16d8204e88ecf5de684c1e5d7477796ea3e2500a87d5b6987391b92"
+    },
+    "producer_source": {
+      "bytes": 57049,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-native-caller-source-fViRkoKT/closure/native_growth_one_column_rank_check_v1/check.py",
+      "sha256": "73b204ba8acdefed418aa803ea95c0fc0dddba7c436ea1595996a01002f9287d"
+    }
+  },
+  "arithmetic_review": {
+    "actual_consumer_reported_integer_pair_operations": 7431,
+    "all_E_nu_K_p_U_fields_independently_reconstructed": true,
+    "all_seven_contrast_scalars_and_polynomials_checked": true,
+    "all_six_left_right_factors_raw_division_identities_and_zero_coefficients_checked": true,
+    "both_lower_full_margins_at_R_strictly_above_half": true,
+    "complete_row_inventory_strict_positive_normalization_checked": true,
+    "held_probability_slots": 128,
+    "held_rows": 24,
+    "independence": "Reviewer uses fractions.Fraction, dense coefficient convolution, saved Euclidean division identities and Horner endpoint evaluation. The target consumer uses normalized integer pairs, sparse polynomials and direct-power endpoint evaluation. No target implementation was imported or executed.",
+    "minors": 6,
+    "native_common_gcd": null,
+    "native_common_root_count": null,
+    "native_minors_identically_zero": true,
+    "native_pivot_distinct_real_roots_on_0_R_closed_upper": 0,
+    "native_pivot_endpoint_values_signs_variations_and_half_open_count_checked": true,
+    "native_pivot_squarefree_gcd_coprimality_and_all_Sturm_division_transcripts_checked": true,
+    "operation_count_boundary": "7,431 is the genuine report counter, statically traced to OPS/tick in the reviewed consumer. The reviewer does not claim to reproduce this implementation-dependent count with different Fraction operations.",
+    "profiles": 8,
+    "reference_contrasts": 7,
+    "selected_rows_exactly_equal_accepted_RI88_subset": true,
+    "unchanged_radius_uses_E0_E1_only": true
+  },
+  "complete_saved_agreement": {
+    "all_nineteen_saved_section_identities_match": true,
+    "all_payload_and_postcheck_current_file_identities_independently_match": true,
+    "canonical_nineteen_section_bytes_equal_candidate": true,
+    "custody_boundary": "Current identity/postcheck reconciliation corroborates the report but is not a replacement for actual freeze, admission, raw monitoring, genuine process completion, normal-before-optimized, or predecessor custody adjudication.",
+    "custody_semantics_self_adjudicated_by_consumer": false,
+    "distinct_successful_postchecks": 15,
+    "exact_typed_comparison_of_every_reconstructed_field": true,
+    "payload_role_bindings": 17,
+    "unique_payload_paths": 14,
+    "whole_candidate_and_witness_byte_equality": true,
+    "whole_report_and_stdout_byte_equality": true
+  },
+  "date_utc": "2026-09-26",
+  "findings": [],
+  "fixtures_and_controls": {
+    "all_saved_gcd_folds_six_member_divisibilities_and_root_transcripts_independently_verified": true,
+    "all_saved_root_fixture_transcripts_independently_verified": true,
+    "caller_audit_intended_controls": 54,
+    "caller_native_intended_controls": 38,
+    "consumer_independently_executed_gcd_family_fixtures": 10,
+    "consumer_independently_executed_root_fixtures": 16,
+    "coverage": [
+      "Nonzero constants of both signs",
+      "Excluded zero and included upper endpoint",
+      "Repeated and triple endpoint roots",
+      "Both endpoints and a common-zero endpoint trap",
+      "Three admissible roots",
+      "Irrational positive roots",
+      "Negative leading coefficients",
+      "No real roots and only negative roots",
+      "Repeated interior root and nonunit radius",
+      "Entirely zero minor family with null gcd/root count",
+      "Zero members mixed with constants",
+      "Coprime linears",
+      "Degree drops/trailing input zeros and negative scaling"
+    ],
+    "finite_fixture_boundary": "These actual finite arithmetic examples are not an all-input correctness proof, changed-target qualification, or evidence that every caller refusal control executed.",
+    "new_caller_control_campaign_claimed": false,
+    "producer_execution_source_observation": "Producer main builds the witness, then executes refusal_controls and verifies its exact ordered 110-name/reason inventory before producing output. The independent consumer retains these as declarations and separately executes only its 26 arithmetic fixtures.",
+    "producer_refusal_declarations_in_consumer": 110,
+    "producer_refusal_mutations_executed_by_consumer": false
+  },
+  "justified_next_step": {
+    "conditional_positive_T1_family": "For fixed actual rho>0, beta=rho^3 Delta_1 p/P_1(rho)>0; baseline k0,f1(0)>0 imply Gamma=k0+f1(0) beta>0. The formal member w1=0,t=1/Gamma,v1=beta/Gamma satisfies the eight T1 equations and strict positivity of its three corrected child classes. Slot-specific D1 upper bounds permit zero because each W_xi>0. This remains a local consequence, not full D1 normalization.",
+    "next_QR_question": "Formalize the conditional positive T1 family, then decide RI111 (23) for complete D1 records with individual ideal multiplicities and all coupled J-column variables, retaining relevant connected-parent constraints (22). A contradiction only rejects this fixed support; a surviving family must hand back every still-open parent obligation.",
+    "peer_note_read": {
+      "bytes": 6518,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri112-independent-positive-family-2_hgjqki/ANALYTIC_NEXT_STEP.md",
+      "sha256": "1bb2b0bbcc46c27c83b150b1f6601149358c4a645e54cb0998585c0ac5547803"
+    },
+    "retain_free_shared_w1": "To solve the coupled problem retain -4 e_T1 < w1 < W_* with W_*=min W_xi and 0<W_*<4/41, t=(1-w1)/Gamma and v1=beta(1-w1)/Gamma. Do not impose w1=0 on the global system without proof.",
+    "saved_sign_evidence": "The reviewer independently confirms Delta_1 p<0 and P_1(0)<0. The exact saved Sturm certificate shows P_1 has no root on (0,R]. Continuity therefore fixes P_1<0 there."
+  },
+  "mathematical_conclusion": {
+    "accepted_scientific_disposition": "unresolved-identically-zero-minors",
+    "remaining_premises": [
+      "Accepted RI88 baseline probabilities and their external custody, not rederived here",
+      "RI111 scalar-passive, strictly positive normalized baseline, complete marked diamonds, fixed fair newborn bits, precursor locality and equivariance",
+      "Unique/twin-top transport and maximal-bit lemma for lifting held rows to the complete record cube",
+      "Fixed actual baseline, unchanged eleven-class seed, epsilon=1/4, support limited to the stated 28 classes",
+      "Root acceptance of all genuine producer/auditor custody, separately reviewed"
+    ],
+    "smaller_family_result": "The accepted RI109 rejection of the specified 27-child support remains intact and does not transfer to the enlarged 28-child support.",
+    "what_is_established": "Conditional on the accepted baseline/transport and RI111 proof, every one of the six formal T1 rank minors vanishes identically. The root-free pivot fixes rank two throughout the unchanged outer interval and supplies the complete affine T1 row solution family.",
+    "what_is_not_established": [
+      "A finite zero-root count for the zero minor family",
+      "A positive complete 28-child repair",
+      "Complete D1 normalization or the other fifteen parent systems",
+      "A chosen or computed actual rho, s, M6 or M7",
+      "All-size extension",
+      "New DET axioms or quantum dynamics",
+      "QM, empirical geometry, gravity or measurement correspondence",
+      "Completion of the wider programme"
+    ]
+  },
+  "publication_draft_review": {
+    "condition": "Opening acceptance language is appropriate only after root finishes the separate actual-custody adjudication. Execution statistics are left to the custody reviewer. The mathematical scope, 19/24/128/8/7/6 counts, null gcd/count distinction, 16+10 fixtures, 110 consumer declarations and proposed positive-T1/D1 successor are consistent.",
+    "mathematical_scope_and_number_errors_found": [],
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri115-116-root-review-tyo8kzjn/NATIVE_RESULT_REVIEW.draft.md",
+    "source_read": true
+  },
+  "review_scope": "Independent source/proof reading and reviewer-owned exact checks of the completed saved audit report, complete witnessed certificate, all finite profiles and every saved root/gcd transcript. Root and a separate reviewer adjudicate actual execution custody.",
+  "reviewer_execution": {
+    "active_admission_or_freeze_changes": false,
+    "actual_review_check_count": 14814,
+    "check_artifact": {
+      "bytes": 2005000,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri112-independent-final-saved-math-DnMl8AfO/SAVED_MATHEMATICAL_CHECKS.json",
+      "sha256": "e878d5a29fd4231affa584d713e619f4c71cc8ae0012cd552e88c57ccccb463f"
+    },
+    "check_count_meaning": "Exact type/value/identity checks plus dense Fraction arithmetic identities; it is not a count of distinct theorems or a native target operation count.",
+    "new_native_table_scale_or_H_z_evaluation": false,
+    "repository_or_git_mutations": false,
+    "reviewer_owned_script": {
+      "bytes": 14856,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri112-independent-final-saved-math-DnMl8AfO/review_saved.py",
+      "sha256": "659ba05378e34f6576accb65fabed735f6ce0cfa77fd314df8dfca8489a926f4"
+    },
+    "target_compilation_ast_or_probe": false,
+    "target_imports": false,
+    "target_reexecution": false,
+    "tool_completion": "a847bc, exit 0"
+  },
+  "schema": "ri112-independent-completed-saved-mathematical-review-v1",
+  "status": "PASS_COMPLETE_SAVED_MATHEMATICS_CONDITIONAL_RANK_RESULT_ONLY",
+  "verdict_boundary": "Independent mathematical review passes for the stated conditional finite result. This document is an external reviewer verdict, not an execution admission, custody acceptance, or root final adjudication."
+}

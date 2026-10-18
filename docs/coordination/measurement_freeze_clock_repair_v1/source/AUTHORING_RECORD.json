@@ -1,0 +1,40 @@
+{
+  "added_provenance_pins": 19,
+  "author": "/root/ri116_complete_caller_review",
+  "base_input_file_byte_identical": true,
+  "base_input_pins": 806,
+  "eight_tail_block_byte_identical": true,
+  "full_reverse_projection_checks": true,
+  "manual_reasoning": [
+    "Initial clock exception/invalid value after ownership reaches finally; candidate write not entered.",
+    "Final acquisition and interval validation cannot override earlier first error; null elapsed plus separate timing error retained.",
+    "All eight original independent tails precede final clock handling; refused COMPLETE remains attempted.",
+    "Valid successful elapsed is exactly final minus initial, finite and nonnegative, under unchanged180-second gate."
+  ],
+  "no_E_write": true,
+  "no_admission": true,
+  "no_repository_or_git": true,
+  "no_runtime_inventory": true,
+  "old_packet_immutable": true,
+  "preserved_historical_roles": 810,
+  "prior_authorship": [
+    "RI156",
+    "RI158",
+    "RI160",
+    "RI204 proposal",
+    "RI206 proposal",
+    "RI209 proposal"
+  ],
+  "protocol_preseal_corrections": [
+    "Completion count corrected to original13 plus timing =14 fields.",
+    "Clarified predecessor-relative diff and RI209 authorship; final current protocol contains these editorial corrections beyond the initial build."
+  ],
+  "qualification_claimed": false,
+  "ret_paused": true,
+  "schema": "ri213-source-only-authoring-record-v1",
+  "scope": "Narrow initial/final clock protection, explicit elapsed/error receipt and successful checker correspondence only, plus exact repair/source/operation path provenance.",
+  "source_acceptance_claimed": false,
+  "source_execution_claimed": false,
+  "source_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri213-freeze-clock-repair-2xc_b29x/worker_proposal",
+  "unexecuted_branch_status": "No dynamic source/clock/fixture evaluation or syntax/compiler claim; review and actual admission remain root-owned."
+}

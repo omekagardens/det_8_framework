@@ -1,0 +1,113 @@
+{
+  "schema": "ri140-native-failure-repair-source-handoff-v1",
+  "status": "SOURCE_ONLY_REQUIRES_INDEPENDENT_REVIEW",
+  "source_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0",
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/AUTHOR_STATIC_CHECKS.json",
+      "bytes": 17386,
+      "sha256": "d2605afbeabce911ca54f1d38245bcd1c912afbf8acfa2b3e0e0e42d9d68c8a3"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/DEPENDENCY_NOTES.md",
+      "bytes": 11423,
+      "sha256": "18ac7ec773bbe979d07ff45b5a466c01661baf94cf379421b168e6cdf1e28a97"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F01_SOURCE_NOTES.md",
+      "bytes": 14864,
+      "sha256": "094585ca7cc46794f6911be92f5df1d2863a774f79acfc2204e5741b2c851bc2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/F02_SOURCE_NOTES.md",
+      "bytes": 15600,
+      "sha256": "c359fd52c232f36239e6c30582a7e549a13b65769638ee7997c599c9c9a470ec"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/FOCUSED_QUALIFICATION_DESIGN.md",
+      "bytes": 8969,
+      "sha256": "d7be9dec61b3588af4e271afe4bfaea60060a4b6486f7cf229c60e3f33401107"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.md",
+      "bytes": 4696,
+      "sha256": "d6a2e6379ea9e1f763e8222b47afc51444a1922c79b9dd81d3aadc56a213c836"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/METADATA_CONTRACT.diff",
+      "bytes": 73046,
+      "sha256": "fa5f8669a3bc90bd56398ddcea61b3e3ecc7e1e94fc6dbb5ab602bbd5c123f25"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/REVIEW_OBLIGATIONS.md",
+      "bytes": 2996,
+      "sha256": "3c94e32c7200c899ca1f5788595124aeb91f37f8d4e77ca381aff70c3317a79c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/ROOT_INTERFACE_CONTRACT.md",
+      "bytes": 15005,
+      "sha256": "b47225767ebab5822fbca8d40727fe57fed577b054c6a52606d030a5cee0c34b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CODE.diff",
+      "bytes": 23623,
+      "sha256": "1bd097ae935978447488ba80a3146eade0c2c05a86ff27ead15e5dfbe276135e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_CORRESPONDENCE.json",
+      "bytes": 51931,
+      "sha256": "69d78e6c2b10ee26dfce2455817c6037389162aa4dfe41ac43e8f8cc68e7befa"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_DEPENDENCIES.json",
+      "bytes": 699052,
+      "sha256": "bd04d9013a543e63eb3db2488156c9c1c22333c48b68bdbce2ffcb9e33461544"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/SOURCE_IDENTITIES.json",
+      "bytes": 26029,
+      "sha256": "25a694353f782aa3d6c50f925981b5403a5da28308676930256b420c110f192c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/custody.py",
+      "bytes": 33143,
+      "sha256": "50c543062344e61b796c3134609537b6b717001d4fbae10a92875d36f1f63142"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/launch_policy_case.py",
+      "bytes": 60009,
+      "sha256": "a0526720e530caa529499ff4d6e9e9794462fb50a1975232eb229e37d683828d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/owned_process.py",
+      "bytes": 43838,
+      "sha256": "4b2bd7b5bc62ac9de021ee1b85e07a97cccb63a560916b518371ea1fdf2126da"
+    }
+  ],
+  "predecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri138-native-external-launch-source-92pbd52w/HANDOFF.json",
+    "bytes": 5173,
+    "sha256": "6ee043592352d35048bb31a34aa8b550bb830a9af2afc99170db14b3806510e0"
+  },
+  "author_checks": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/AUTHOR_STATIC_CHECKS.json",
+    "bytes": 17386,
+    "sha256": "d2605afbeabce911ca54f1d38245bcd1c912afbf8acfa2b3e0e0e42d9d68c8a3"
+  },
+  "scope": {
+    "execution_authorized": false,
+    "current_runtime_observed": false,
+    "controls_executed": 0,
+    "scientific_execution": false,
+    "complete_caller_qualification": false,
+    "repository_modified": false
+  },
+  "remaining_obligations": [
+    "Fresh complete nonauthor source review and root adjudication of this exact F01/F02 repair packet, including the authorized collector startup extension.",
+    "Keep RI138 immutable and operationally rejected; author source/text checks are not independent acceptance or execution authority.",
+    "Any future focused qualification requires a separately reviewed boundary controller, genuine bootstrap/tool evidence, exact root admission and fresh reservation. The at-most31 prospective attempts here are unexecuted.",
+    "Preserve the supported pinned raising-handler/unblocked-ordinary-signal precondition and refused/incomplete host masking or hard-watchdog failures; do not infer success from stale receipts.",
+    "All139 direct policy outcomes, deeper20 native/42 audit and actual scientific C2/C3 signs/shared H30 remain separate and unresolved here.",
+    "RET remains paused; measurement remains independent; root exclusively owns publication, repository/index/Git and operational admission. No successor is begun."
+  ]
+}

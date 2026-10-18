@@ -1,0 +1,80 @@
+{
+  "baseline_acceptance": {
+    "bytes": 1657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/BASELINE_ACCEPTANCE.json",
+    "sha256": "75d30bdc2d03621867ce5a64c229eb619b6183f29b6434dbc04b4a2792e5e06e"
+  },
+  "bootstrap": {
+    "named_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "resolved_path": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9",
+    "symlink_chain": [],
+    "target": {
+      "bytes": 102352,
+      "sha256": "1e78c38b861b64659075942e1d9bdfa083dbb1eb23bd96bd5d166756c1795524"
+    }
+  },
+  "bootstrap_host_preflight": {
+    "bytes": 2730,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_PREFLIGHT.json",
+    "sha256": "06bbccc14a0cc2f9baa33556ede7ef0cc5ad8bb9111018fbe7c85d42f81b70d8"
+  },
+  "bounds": {
+    "driver_soft_seconds": 900,
+    "file_bytes": 67108864,
+    "genuine_outer_timeout_seconds": 960,
+    "guard_seconds": 180,
+    "maximum_sample_gap_seconds": 0.1,
+    "profile_seconds": 30,
+    "ps_timeout_seconds": 0.05,
+    "rss_kib": 524288,
+    "snapshot_seconds": 180,
+    "target_poll_seconds": 0.025
+  },
+  "environment_root": "/Volumes/AI_DATA/development/det-review-evidence/ri154-white-execution-proposed-42_uvw15",
+  "genuine_outer_required": true,
+  "guard_admission": null,
+  "host": {
+    "system_version": {
+      "bytes": 603,
+      "path": "/System/Library/CoreServices/SystemVersion.plist",
+      "sha256": "cbf534776ca9200252e5637787e5d4fc26cf527fb354c19bcbac9688341c7a58"
+    },
+    "uname": [
+      "Darwin",
+      "allan.local",
+      "25.5.0",
+      "Darwin Kernel Version 25.5.0: Tue Jun  9 22:18:58 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T6000",
+      "arm64"
+    ]
+  },
+  "normal_acceptance": {
+    "bytes": 1680,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/NORMAL_ACCEPTANCE.json",
+    "sha256": "5470ddd468cba8a5168042ceb73d1ce5204971233f3b26ecbbe657d617da95d2"
+  },
+  "output": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-profile-optimized-proposed-gikj2giy",
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "phase": "profile_optimized",
+  "profiles_acceptance": null,
+  "schema": "ri141-root-preparation-admission-v1",
+  "source_review": {
+    "bytes": 2151,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/PROFILE_OPTIMIZED_SOURCE_ADJUDICATION.json",
+    "sha256": "1d2cca5751c3732f4b603604656935de554a60898cf04b462bad52708c9bf15b"
+  },
+  "sources": {
+    "DEPENDENCIES.source-only.json": {
+      "bytes": 127567,
+      "sha256": "4fd123e63f661950c621de6d7cf26775f2673c05bd8e66f17c5936f936b9ac28"
+    },
+    "prepare.py": {
+      "bytes": 45721,
+      "sha256": "8c80242fb1e3756bd2aa06f1593cf6f17c3191eb6a850c175bad85578ac05cfe"
+    },
+    "runtime_metadata.py": {
+      "bytes": 18728,
+      "sha256": "092ab47d179f28ced6fc0be3743ad0230211eb020233f583aafcb08bd0221dd9"
+    }
+  },
+  "status": "AUTHORIZE_ONE_NONSCIENTIFIC_PREPARATION"
+}

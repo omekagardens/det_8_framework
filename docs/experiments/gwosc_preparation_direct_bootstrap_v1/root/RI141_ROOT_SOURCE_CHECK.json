@@ -1,0 +1,194 @@
+{
+  "added_pins": 189,
+  "complete_diff_regenerated_exact": true,
+  "current_vendor_or_candidate_observed": false,
+  "dependencies": 442,
+  "dependency_bytes": 25947539,
+  "independent_review_pending": true,
+  "inherited_opaque_pins_preserved": 253,
+  "namespace_files": 15,
+  "payloads": 14,
+  "source_acceptance": false,
+  "source_handoff": {
+    "bytes": 9366,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri141-white-bootstrap-source-h58ls076/HANDOFF.json",
+    "sha256": "40effed085b2b79cd8933d675ec627e51c2910d95ea1f2e02ea75d2927c40f65"
+  },
+  "status": "PASS_LITERAL_METADATA_CHECKS_ONLY",
+  "subject_import_compile_ast_execution": false,
+  "unchanged_top_level_spans": [
+    [
+      "prepare.py",
+      "need"
+    ],
+    [
+      "prepare.py",
+      "canonical"
+    ],
+    [
+      "prepare.py",
+      "same"
+    ],
+    [
+      "prepare.py",
+      "keys"
+    ],
+    [
+      "prepare.py",
+      "pure"
+    ],
+    [
+      "prepare.py",
+      "body"
+    ],
+    [
+      "prepare.py",
+      "ref"
+    ],
+    [
+      "prepare.py",
+      "parse"
+    ],
+    [
+      "prepare.py",
+      "read"
+    ],
+    [
+      "prepare.py",
+      "opaque"
+    ],
+    [
+      "prepare.py",
+      "save"
+    ],
+    [
+      "prepare.py",
+      "environment"
+    ],
+    [
+      "prepare.py",
+      "source_set"
+    ],
+    [
+      "prepare.py",
+      "acceptance"
+    ],
+    [
+      "prepare.py",
+      "verify_saved_namespace"
+    ],
+    [
+      "prepare.py",
+      "check_top_namespace"
+    ],
+    [
+      "prepare.py",
+      "monitor_text"
+    ],
+    [
+      "prepare.py",
+      "child_run"
+    ],
+    [
+      "prepare.py",
+      "dyld_attempts"
+    ],
+    [
+      "prepare.py",
+      "profile_check"
+    ],
+    [
+      "prepare.py",
+      "guard_card"
+    ],
+    [
+      "prepare.py",
+      "guard_check"
+    ],
+    [
+      "prepare.py",
+      "run"
+    ],
+    [
+      "prepare.py",
+      "main"
+    ],
+    [
+      "runtime_metadata.py",
+      "guard"
+    ],
+    [
+      "runtime_metadata.py",
+      "metadata"
+    ],
+    [
+      "runtime_metadata.py",
+      "observe_file"
+    ],
+    [
+      "runtime_metadata.py",
+      "binding"
+    ],
+    [
+      "runtime_metadata.py",
+      "walk_members"
+    ],
+    [
+      "runtime_metadata.py",
+      "absent_observations"
+    ],
+    [
+      "runtime_metadata.py",
+      "directory_namespaces"
+    ],
+    [
+      "runtime_metadata.py",
+      "canonical"
+    ],
+    [
+      "runtime_metadata.py",
+      "same"
+    ],
+    [
+      "runtime_metadata.py",
+      "file_ref"
+    ],
+    [
+      "runtime_metadata.py",
+      "metadata_json"
+    ],
+    [
+      "runtime_metadata.py",
+      "load_ref"
+    ],
+    [
+      "runtime_metadata.py",
+      "literal_path"
+    ],
+    [
+      "runtime_metadata.py",
+      "missing"
+    ],
+    [
+      "runtime_metadata.py",
+      "dyld_routes"
+    ],
+    [
+      "runtime_metadata.py",
+      "tree"
+    ],
+    [
+      "runtime_metadata.py",
+      "source_observation"
+    ],
+    [
+      "runtime_metadata.py",
+      "require_historical_interpreter"
+    ],
+    [
+      "runtime_metadata.py",
+      "snapshot"
+    ]
+  ],
+  "whole_retained_harness_unchanged": true
+}

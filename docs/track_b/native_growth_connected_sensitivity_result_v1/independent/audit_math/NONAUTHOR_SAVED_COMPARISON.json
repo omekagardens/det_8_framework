@@ -1,0 +1,168 @@
+{
+  "schema": "ri122-nonauthor-saved-audit-comparison-v1",
+  "status": "PASS_SAVED_REPORT_CONSISTENCY_ONLY",
+  "scope": "Complete strict saved JSON/types/bytes and opaque pin comparison; no scientific arithmetic or execution custody adjudication.",
+  "report": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/audit-01/REPORT.json",
+    "bytes": 257875,
+    "sha256": "8fd4f1fd563e9ba1712ebfabac8c114872c695d5a742c592f5b03c707ce84287"
+  },
+  "witness": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/witness-01/stdout.log",
+    "bytes": 233035,
+    "sha256": "0bb05cd98706ff6b5a8284a14019899ab1b92e76e18591a3c94ea4632e88855d"
+  },
+  "descriptor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_INPUT.json",
+    "bytes": 5501,
+    "sha256": "d486a552a9b3f68f33a83440c358625c4c9da7fa5be5b1160658c3e79d9c0d81"
+  },
+  "root_comparison": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_COMPLETE_SAVED_AUDIT_COMPARISON.json",
+    "bytes": 9627,
+    "sha256": "db89545b07836d5d0ff59a5e551a4188c8bedc3d8868495fd7cac338db3d482e"
+  },
+  "root_custody_review": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/AUDIT_ROOT_COMPLETE_REVIEW.json",
+    "bytes": 6281,
+    "sha256": "a47c6cdf1ad772cd2a090d0b83f8ead2ac7b781f0636006d9a348c3690da446c"
+  },
+  "source_pins": {
+    "checker": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f"
+    },
+    "protocol": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b"
+    },
+    "contract": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/AUDIT_CONTRACT.md",
+      "bytes": 11664,
+      "sha256": "f3151110e6a2a4090aa3ea12fae593b2c9692b4408652e43e91d4fba5d9c87ab"
+    }
+  },
+  "auditor_pin": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+    "bytes": 63729,
+    "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd"
+  },
+  "compared_nodes": 17118,
+  "section_identities": {
+    "Q2_contrasts": {
+      "bytes": 17619,
+      "sha256": "15511fea59f092e5eaf16790445bc1b62064a9a6fe15adc9637f97a8800a585c"
+    },
+    "V_contrasts": {
+      "bytes": 4359,
+      "sha256": "89254c4115672d8cf40ef23e8e993d9184f30200910cd3a32f472c897a683617"
+    },
+    "accepted_inputs": {
+      "bytes": 103,
+      "sha256": "edb27786e33dc01cb7edf3878705463cd3422043a2cfe80288fecde2bac70061"
+    },
+    "accepted_sources": {
+      "bytes": 760,
+      "sha256": "92839bfb4bdeb9f6c93a38936e2e97b443b8cdd47eec98f521a70f18652cbcf8"
+    },
+    "arithmetic_limits": {
+      "bytes": 233,
+      "sha256": "ef576d01538515eb83949a9d9419a7a3809ce6caee709d6134b14c622fb259a8"
+    },
+    "checker_sha256": {
+      "bytes": 67,
+      "sha256": "c34127b6a5ac6be814516a7548a50809c7598c4c1bc44a48e207edcfd8fc0e72"
+    },
+    "common_gcd": {
+      "bytes": 50241,
+      "sha256": "d8fac3250cb3ae7a478bc1df27a4edb8f07fc9351fe0795d1e01d16232495e2d"
+    },
+    "connected_profiles": {
+      "bytes": 59520,
+      "sha256": "a7f69332f482f50d961e9b3c856cf8a81fb6544342d375df9d62f6c2854d3499"
+    },
+    "coverage": {
+      "bytes": 201,
+      "sha256": "69332e8b7d56b81a3a045262224a4f359ce99775dbba5ef534c7115347700e41"
+    },
+    "decision": {
+      "bytes": 515,
+      "sha256": "e762187b592c01d0386203a7161fd44a2594b354566d49c65fbe13f465e7acf2"
+    },
+    "decision_fixtures": {
+      "bytes": 4614,
+      "sha256": "798f02ec94f63e3e7d40ddb3316389fa872a28168d9060fbd5694ce44ff3b65c"
+    },
+    "family_fixtures": {
+      "bytes": 33368,
+      "sha256": "737e71efc3d7800a1c7ee3a4ccb0068d7705f33cd1bf3c0a09d8415683e208a4"
+    },
+    "inputs": {
+      "bytes": 14349,
+      "sha256": "06a8c3b70ea1c4ba47321de0ba34120142883ae3ebefb6996124b1bb91c4ceee"
+    },
+    "limitations": {
+      "bytes": 356,
+      "sha256": "8fb56b449110717cdf18da0ca5adb0c82c7a77cb610eab24b73b33b52e83b501"
+    },
+    "refusal_controls": {
+      "bytes": 10217,
+      "sha256": "dc73bb6773926fcc7f9736fec8eee48867908a0a4ff6f4284baa56bafeb2b7ae"
+    },
+    "root_fixtures": {
+      "bytes": 18889,
+      "sha256": "61a4d865a7117c31d42af2b001db062e96c84d5416cdcadd0695252c6b9f50dd"
+    },
+    "scale_domain": {
+      "bytes": 1276,
+      "sha256": "fa3bb27ded7d6cfd6c4f6704c743c5660dc06b6585a750630c243f7ed0323c2e"
+    },
+    "schema": {
+      "bytes": 45,
+      "sha256": "e9008c8c632f73c77e2baaf6b0ad4ea4a2f5d022f9e5ddbcf0398247fbf4ecc1"
+    },
+    "stem_profiles": {
+      "bytes": 16006,
+      "sha256": "9cf14d8e991a43d097e9e6a7c8c34970454659c8080d05e302e9062c42923576"
+    }
+  },
+  "report_fields": [
+    "accepted_source_identities",
+    "audit_source_identity",
+    "complete_top_level_sections",
+    "custody_semantics_self_adjudicated",
+    "declared_producer_controls",
+    "descriptor_identity",
+    "independence",
+    "independent_counted_operations",
+    "independently_rebuilt_decision_fixture_count",
+    "independently_rebuilt_family_fixture_count",
+    "independently_rebuilt_fixture_count",
+    "limits",
+    "payload_role_bindings",
+    "payload_role_count",
+    "postchecks",
+    "reconstructed_certificate",
+    "reconstructed_certificate_identity",
+    "schema",
+    "status",
+    "unique_payload_paths"
+  ],
+  "fixture_counts": {
+    "root": 16,
+    "family": 10,
+    "decision": 6
+  },
+  "producer_refusal_declarations": 166,
+  "reported_auditor_counted_operations": 10058,
+  "payload_bindings": 18,
+  "protected_postchecks": 19,
+  "lossless_display_definitions": 818,
+  "lossless_display_root": "@817",
+  "new_scientific_arithmetic": false,
+  "third_numerical_reconstruction": false,
+  "final_custody_accepted": false,
+  "errors": []
+}

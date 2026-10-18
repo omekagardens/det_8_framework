@@ -1,0 +1,31 @@
+{
+  "active_admission": false,
+  "actual_execution": false,
+  "blocking_defects": [],
+  "files": [
+    {
+      "bytes": 19331,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "ec88bb4a923c610d61694d82eae0dba970c66784389bb434a87c87ab7ee5a555"
+    },
+    {
+      "bytes": 7188,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/METADATA_REVIEW.json",
+      "sha256": "eda73e25dd0ceca88971cc0f76d841a5355f1e1b42869448e6aa9e06e9fe8dc3"
+    },
+    {
+      "bytes": 3414,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-white-validator-independent-review-an02uo94/VERDICT.json",
+      "sha256": "accaf8e6667bd7f6cb2364b88c634f9781ef6f44ab0c0590905f09cdd4db81d5"
+    }
+  ],
+  "immutable_after_handoff": true,
+  "repository_index_git_mutation": false,
+  "schema": "ri125-white-validator-independent-review-handoff-v1",
+  "source_packet": {
+    "bytes": 4821,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-independent-white-validator-source-i00kkece/HANDOFF.json",
+    "sha256": "a75a6d31acc4348ee80f13d6bc035a2e070f5a472ca84e417d1681cd9443a9f9"
+  },
+  "verdict": "PASS_BOUNDED_UNEXECUTED_SOURCE_ROOT_INTEGRATED_ADJUDICATION_REQUIRED"
+}

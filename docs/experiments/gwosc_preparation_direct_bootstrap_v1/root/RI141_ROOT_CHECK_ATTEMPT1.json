@@ -1,0 +1,12 @@
+{
+  "status": "FAILED_ADMINISTRATIVE_CHECKER_ASSUMPTION",
+  "actual_tool_chunk": "ca07bd",
+  "actual_exit_code": 1,
+  "error": "KeyError: identical at check_measurement_source.py line 21",
+  "cause": "The new-function correspondence row has added=true and no old/identical fields. The root checker incorrectly assumed all rows were existing-function comparisons.",
+  "retained_source": "check_measurement_source.before-added-function-fix.py",
+  "correction": "Explicitly require the sole prepare.selected_bootstrap added row, without silently treating unknown rows as unchanged.",
+  "subject_changed": false,
+  "subject_executed": false,
+  "qualification_credit": false
+}

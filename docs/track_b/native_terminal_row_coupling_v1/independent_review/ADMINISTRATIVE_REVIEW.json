@@ -1,0 +1,4859 @@
+{
+  "schema": "ri168-independent-administrative-review-v1",
+  "status": "MATCH_WITH_EXPLICIT_HISTORICAL_OPAQUE_BOUNDARIES_NOT_MATHEMATICAL_ACCEPTANCE",
+  "assignment": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/INDEPENDENT_REVIEW_ASSIGNMENT.json",
+    "bytes": 1743,
+    "sha256": "3e75b93c919252a28bbc2ca2f59a1adba66d67446da8a67e349c809c8e2cf8d3"
+  },
+  "subject": {
+    "bytes": 6482,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/HANDOFF.json",
+    "sha256": "7b88fbb66f8681d7f38f03f7fe4cfd4f61fc4ced9bcbdb0ef2fe7fc771480c93"
+  },
+  "checked_dependencies": 264,
+  "selected_bytes": 16875258,
+  "preserved_inherited_rows": 252,
+  "classification_counts": {
+    "analytic-source-text-or-review": 96,
+    "opaque-historical-acceptance-or-source-support": 73,
+    "opaque-scientific-historical-premise": 1,
+    "selected-administrative-proof-provenance": 93,
+    "selected-administrative-governance-boundary": 1
+  },
+  "subject_namespace": [
+    "AUTHOR_CHECKS.json",
+    "COUPLED_BOUND.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "INCIDENCE.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "predecessor_namespace": [
+    "AUTHOR_CHECKS.json",
+    "CONTRAST_COUPLING.md",
+    "DEPENDENCY_NOTES.md",
+    "HANDOFF.json",
+    "HANDOFF.md",
+    "REDUCED_SYSTEM.md",
+    "SOURCE_DEPENDENCIES.json",
+    "SOURCE_IDENTITIES.json"
+  ],
+  "full_administrative_bodies": 93,
+  "historical_typed_reference_occurrences": 2348,
+  "current_typed_reference_occurrences": 114,
+  "historical_state_arrays_explicitly_not_compared_to_fresh_stat": 17,
+  "extended_reference_occurrences": 17,
+  "distinct_path_equal_byte_pairs": 4,
+  "uncached_final_byte_rechecks": 273,
+  "phase_boundary": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/AUTHOR_CHECKS.json",
+    "classification": "opaque-historical-acceptance-or-source-support",
+    "reason": "Preserves genuine earlier and final preseal phases. Embedded old manuscript/handoff identities are historical observations, not current-path expectations.",
+    "whole_identity_authenticated": true,
+    "typed_reference_expansion": false,
+    "current_final_payload_expectations": "The predecessor HANDOFF, SOURCE_DEPENDENCIES and SOURCE_IDENTITIES bind the sealed final source identities.",
+    "earlier_diagnostics_preserved": true
+  },
+  "governance_boundary": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+    "classification": "selected-administrative-governance-boundary",
+    "use": "Current assignment lineage only; not a mathematical premise, runtime admission or inherited operational closure.",
+    "typed_reference_expansion": false,
+    "unexpanded_top_level_reference_fields": [
+      "full_checks",
+      "independent_checks",
+      "subject"
+    ],
+    "whole_identity_authenticated": true,
+    "literal_status_read": true
+  },
+  "administrative_expansion_paths": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_MANUAL_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI143_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI145_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/RI147_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_MANUAL_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/RI149_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_MANUAL_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_MANUAL_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/NATIVE_SUCCESSOR_RESERVATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI153_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI155_UNIFORM_MARGIN_SCOPE_CLARIFICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/NATIVE_REVIEW_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/VERDICT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI155_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI157_GRID_PREMISE_CLARIFICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_METADATA_REPLAY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/ANALYTIC_RESULT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/AUTHOR_CHECKS.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/VERDICT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_METADATA_REPLAY.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_REVIEW_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI166_ROOT_ADJUDICATION.json",
+    "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI168_NATIVE_ASSIGNMENT.json"
+  ],
+  "nonexpanded_dependencies": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/ADDENDUM.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/NONAUTHOR_AUDIT_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "classification": "opaque-scientific-historical-premise",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INTERPRETATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COEFFICIENT_OBLIGATIONS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COMPENSATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/SUPPORT.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/HANDOFF.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/DECISION_CONTRACT.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RECORD_TRANSPORT.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/SOURCE_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/check_source_pins.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/seal_review.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/PUBLISHED_PREMISE_MAP.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/ANALYTIC_BOUNDS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/PRODUCER_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/QUALIFICATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/FINAL_PIN_RECHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/SOURCE_METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/SEALED_INPUT_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/OPAQUE_TEXT_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/REVIEWER_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_NATIVE_DESIGN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_NATIVE_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/REVIEW_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ENDPOINT_REDUCTION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/PROOF_CROSSCHECK.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/WEIGHTED_MARGIN_PROOF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_NATIVE_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/REVIEW_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SCALE_MEMBERSHIP_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_NATIVE_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/REVIEW_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_NATIVE_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_FACE_COMPARISON.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HOOK_INCIDENCE.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/CANONICAL_EQUALITY_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/COUPLED_EQUALITY_REDUCTION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/REVIEW_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_NATIVE_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/REVIEW_DIAGNOSTICS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/ROOT_MANUAL_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/seal_review.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_MANUAL_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/adjudicate_native.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/check_native.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_COMPARISON.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_STRUCTURE.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/STRICT_CAPACITY_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CAPACITY_SYNTHESIS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/ACTUAL_CHECKS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stderr",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stdout",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/FINAL_PIN_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/INDEPENDENT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/check_metadata.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/seal_review.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/METADATA_CHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_MANUAL_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/check_native.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_PRELIMINARY_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+      "classification": "selected-administrative-governance-boundary",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/AUTHOR_CHECKS.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_METADATA_RECHECK.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_PROOF_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/check.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/check.py",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/check.py",
+      "classification": "opaque-historical-acceptance-or-source-support",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/check.py",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_v1/EXTENSION.md",
+      "classification": "analytic-source-text-or-review",
+      "action": "whole-byte identity only; no recursive JSON decoding"
+    }
+  ],
+  "observations": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-root-coupling-review-jihb5l4y/INDEPENDENT_REVIEW_ASSIGNMENT.json",
+      "bytes": 1743,
+      "sha256": "3e75b93c919252a28bbc2ca2f59a1adba66d67446da8a67e349c809c8e2cf8d3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417925",
+        "mode": "33188",
+        "size": "1743",
+        "mtimeNs": "1790801348415411101",
+        "ctimeNs": "1790801348415411101",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/HANDOFF.json",
+      "bytes": 6482,
+      "sha256": "7b88fbb66f8681d7f38f03f7fe4cfd4f61fc4ced9bcbdb0ef2fe7fc771480c93",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417907",
+        "mode": "33188",
+        "size": "6482",
+        "mtimeNs": "1790801275839747346",
+        "ctimeNs": "1790801275839747346",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/AUTHOR_CHECKS.json",
+      "bytes": 17243,
+      "sha256": "8e99de127d30b57513c9f683ae84ef5906ec502a3d802633ef9b11ef8dc10e65",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417906",
+        "mode": "33188",
+        "size": "17243",
+        "mtimeNs": "1790801226686071306",
+        "ctimeNs": "1790801226686071306",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/COUPLED_BOUND.md",
+      "bytes": 13509,
+      "sha256": "3dc4a0408d34c17a639828d5cef49560fc02c9b4de26df17aa183c0b52e645f0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417763",
+        "mode": "33188",
+        "size": "13509",
+        "mtimeNs": "1790801013439293924",
+        "ctimeNs": "1790801013439293924",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/DEPENDENCY_NOTES.md",
+      "bytes": 15028,
+      "sha256": "2b18085c76cf83da96a2f8aeece6e3c63143904295e3a243fefdda6feabbae9d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417752",
+        "mode": "33188",
+        "size": "15028",
+        "mtimeNs": "1790800693987726462",
+        "ctimeNs": "1790800693987726462",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/HANDOFF.md",
+      "bytes": 3085,
+      "sha256": "9b8abce237a61129361ceaf000b58741a5655e002a1593683fbede5af801dd80",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417766",
+        "mode": "33188",
+        "size": "3085",
+        "mtimeNs": "1790801005968931704",
+        "ctimeNs": "1790801005968931704",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/INCIDENCE.md",
+      "bytes": 25166,
+      "sha256": "e74357b08a2dd13a364b3c0a460f9fbc8be6766b2e2cb80b60971c23a9d3e6b7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417846",
+        "mode": "33188",
+        "size": "25166",
+        "mtimeNs": "1790801154532834086",
+        "ctimeNs": "1790801154532834086",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/SOURCE_DEPENDENCIES.json",
+      "bytes": 240038,
+      "sha256": "86795e1016c459732e083e0f9d0d8a18c882f2dada6b6c56d7f01ba44fc47530",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417693",
+        "mode": "33188",
+        "size": "240038",
+        "mtimeNs": "1790800477609554140",
+        "ctimeNs": "1790800477609554140",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri168-terminal-row-coupling-f50p8xyj/SOURCE_IDENTITIES.json",
+      "bytes": 46255,
+      "sha256": "862c210b7a38b71d64f4eb6a49fbac114721fd11ad844ec90649983a14231635",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417731",
+        "mode": "33188",
+        "size": "46255",
+        "mtimeNs": "1790800512688138909",
+        "ctimeNs": "1790800512688138909",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI168_NATIVE_ASSIGNMENT.json",
+      "bytes": 2875,
+      "sha256": "a49d7c62a8a5c312a648b9962186dc6bc0af112b0ea4e1965ba7fd3268ff7710",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417526",
+        "mode": "33188",
+        "size": "2875",
+        "mtimeNs": "1790800248190596160",
+        "ctimeNs": "1790800248190596160",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/RI166_ROOT_ADJUDICATION.json",
+      "bytes": 1261,
+      "sha256": "635d33bda65c3aec4c75293694741b652977750d009575b5559793d863bb8dd7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417523",
+        "mode": "33188",
+        "size": "1261",
+        "mtimeNs": "1790800248187738112",
+        "ctimeNs": "1790800248187738112",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json",
+      "bytes": 2910,
+      "sha256": "001baa675b4bcc7a514537bdaaad9811f79b3170d85e3615368bf8320188ffb7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "414153",
+        "mode": "33188",
+        "size": "2910",
+        "mtimeNs": "1790798594531015594",
+        "ctimeNs": "1790798594531015594",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri111-one-column-repair-HRfi3z/REPAIR.md",
+      "bytes": 20656,
+      "sha256": "ca07943f8d2f9d9c396b4484193dc5797900f6c7a18c5f8c2a5b8333759ccf53",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "394251",
+        "mode": "33188",
+        "size": "20656",
+        "mtimeNs": "1790453672532725226",
+        "ctimeNs": "1790453672532725226",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri117-coupled-positive-family-QrAaK5YQ/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395485",
+        "mode": "33188",
+        "size": "11893",
+        "mtimeNs": "1790465344817957223",
+        "ctimeNs": "1790465344817957223",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395717",
+        "mode": "33188",
+        "size": "7886",
+        "mtimeNs": "1790467077814565580",
+        "ctimeNs": "1790467077814565580",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395713",
+        "mode": "33188",
+        "size": "10742",
+        "mtimeNs": "1790467018530978735",
+        "ctimeNs": "1790467018530978735",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395711",
+        "mode": "33188",
+        "size": "8244",
+        "mtimeNs": "1790467012177746019",
+        "ctimeNs": "1790467012177746019",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/IMPLEMENTATION.md",
+      "bytes": 16451,
+      "sha256": "40999dcf33e64207f042e419a9ebccc4475b0890e69e3cfa2d3b2053e0f0960b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395737",
+        "mode": "33188",
+        "size": "16451",
+        "mtimeNs": "1790467245983779564",
+        "ctimeNs": "1790467245983779564",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/audit_saved_certificate.py",
+      "bytes": 63729,
+      "sha256": "7a36ee598210d556ab7ecbfb51c735e38bfb2e79240b21e2fc1e0a0115cbb6fd",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395743",
+        "mode": "33188",
+        "size": "63729",
+        "mtimeNs": "1790467895740529688",
+        "ctimeNs": "1790467895740529688",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri120-connected-sensitivity-source-xru78ysn/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395744",
+        "mode": "33188",
+        "size": "66669",
+        "mtimeNs": "1790467812631954006",
+        "ctimeNs": "1790467812631954006",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/ADDENDUM.md",
+      "bytes": 10371,
+      "sha256": "a949e64dbe30f413f7dd39162aad6400d4fee6b79a63dc6df042b5330717f416",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397675",
+        "mode": "33188",
+        "size": "10371",
+        "mtimeNs": "1790476981437782018",
+        "ctimeNs": "1790476981437782018",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-audit-math-addendum-xkE4Xmwp/NONAUTHOR_AUDIT_REVIEW.md",
+      "bytes": 13203,
+      "sha256": "2df52eafb9ccb47ded7148660c3f530b395d9a5e6f4429985ff75f550b54ddd3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397685",
+        "mode": "33188",
+        "size": "13203",
+        "mtimeNs": "1790476804039900414",
+        "ctimeNs": "1790476804039900414",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_adjudication.json",
+      "bytes": 4617,
+      "sha256": "862545fde8a9006dd39593c0aca7f47d6d82426dc47ffccea140e6f64957aec3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397348",
+        "mode": "33188",
+        "size": "4617",
+        "mtimeNs": "1790474380319576474",
+        "ctimeNs": "1790474380319576474",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri117_connected.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397347",
+        "mode": "33188",
+        "size": "11893",
+        "mtimeNs": "1790474380318926303",
+        "ctimeNs": "1790474380318926303",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397341",
+        "mode": "33188",
+        "size": "1828149",
+        "mtimeNs": "1790474380310065879",
+        "ctimeNs": "1790474380310065879",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "bytes": 15477,
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397704",
+        "mode": "33188",
+        "size": "15477",
+        "mtimeNs": "1790477254797829999",
+        "ctimeNs": "1790477254797829999",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/ROOT_QUADRATIC_POSITIVITY_REVIEW.json",
+      "bytes": 7418,
+      "sha256": "9afb628549befc1bb25e64c9d370fa890e340a2216fd47b7d6c528e7ac90e6f9",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397394",
+        "mode": "33188",
+        "size": "7418",
+        "mtimeNs": "1790475051775073227",
+        "ctimeNs": "1790475051775073227",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-saved-math-review-TlZje57F/INTERPRETATION.md",
+      "bytes": 11087,
+      "sha256": "d2fe0a49be13038d1855604bd935f1d4f284ddde124c9d8b6f67477d0deb493a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397404",
+        "mode": "33188",
+        "size": "11087",
+        "mtimeNs": "1790475262050695406",
+        "ctimeNs": "1790475262050695406",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COEFFICIENT_OBLIGATIONS.md",
+      "bytes": 18410,
+      "sha256": "a41886e29a1364b45d6826f272bf8b93e559e970543795884c45409ca01b3a64",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397857",
+        "mode": "33188",
+        "size": "18410",
+        "mtimeNs": "1790477797046776035",
+        "ctimeNs": "1790477797046776035",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/COMPENSATION.md",
+      "bytes": 15921,
+      "sha256": "116b101809b4fbfc5a4c19e81885280b53df004a2fff411226e33854564db1b5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397851",
+        "mode": "33188",
+        "size": "15921",
+        "mtimeNs": "1790478177505509902",
+        "ctimeNs": "1790478177505509902",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/HANDOFF.json",
+      "bytes": 6468,
+      "sha256": "a883a826a25f0fce18876e028fced6e40f7359c9b5e46098046fc13c5c15227e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "398294",
+        "mode": "33188",
+        "size": "6468",
+        "mtimeNs": "1790478331666905172",
+        "ctimeNs": "1790478331666905172",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-compensation-support-UjbAZpTk/SUPPORT.md",
+      "bytes": 16184,
+      "sha256": "5a85c09acb897a5a1132ec4f3b67e9c41086ea1b374731724888365eb31aa0fc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "397855",
+        "mode": "33188",
+        "size": "16184",
+        "mtimeNs": "1790477710873898510",
+        "ctimeNs": "1790477710873898510",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/HANDOFF.json",
+      "bytes": 2045,
+      "sha256": "d632c7f26451e729d524a8eab98969969171719529fdcc1bd7e6f5c92c74ff43",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "398941",
+        "mode": "33188",
+        "size": "2045",
+        "mtimeNs": "1790479136846533531",
+        "ctimeNs": "1790479136846533531",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-independent-proof-review-hZW9Bs5Z/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 18484,
+      "sha256": "55b2a892c67c2fd49dfb8e539f0876546b9dc3ddc25caca7336a16ee77c4fbc1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "398851",
+        "mode": "33188",
+        "size": "18484",
+        "mtimeNs": "1790479083051214130",
+        "ctimeNs": "1790479083051214130",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "bytes": 3645,
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "398950",
+        "mode": "33188",
+        "size": "3645",
+        "mtimeNs": "1790479450597710082",
+        "ctimeNs": "1790479450597710082",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/DECISION_CONTRACT.md",
+      "bytes": 8225,
+      "sha256": "8e6f4a85e91211493c88a4aa270b3e49b77eec699da05944e3fe3d270f4fb225",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399123",
+        "mode": "33188",
+        "size": "8225",
+        "mtimeNs": "1790480064230826438",
+        "ctimeNs": "1790480064230826438",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.json",
+      "bytes": 7625,
+      "sha256": "af806b93b3306c7e68fe8584250b709faaea4012f9bd28a2ac8f1fd05446bc80",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399127",
+        "mode": "33188",
+        "size": "7625",
+        "mtimeNs": "1790480475024012401",
+        "ctimeNs": "1790480475024012401",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/HANDOFF.md",
+      "bytes": 3785,
+      "sha256": "8f15e54aa2c4dbeff3b4d424350c4cfd328294efe65e7983811eda9365b79148",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399126",
+        "mode": "33188",
+        "size": "3785",
+        "mtimeNs": "1790480408494503061",
+        "ctimeNs": "1790480408494503061",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY.md",
+      "bytes": 18246,
+      "sha256": "b109973d0178652caf8769e3b1730fae0a354d25f14251af13afbcffc7ceafb6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399121",
+        "mode": "33188",
+        "size": "18246",
+        "mtimeNs": "1790480104461016114",
+        "ctimeNs": "1790480104461016114",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/LOCAL_POSITIVITY_SOURCE_IDENTITIES.json",
+      "bytes": 4295,
+      "sha256": "2d85f15648d011e9bddcbe99f6fa6a206d3393267359bde499f1674eef396ca7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399124",
+        "mode": "33188",
+        "size": "4295",
+        "mtimeNs": "1790480070172623554",
+        "ctimeNs": "1790480070172623554",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RECORD_TRANSPORT.md",
+      "bytes": 15418,
+      "sha256": "ee55be354336e7262fa1cf6efccec270f46a8276ea63dd04fef7ead2606a259e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399097",
+        "mode": "33188",
+        "size": "15418",
+        "mtimeNs": "1790479789869380671",
+        "ctimeNs": "1790479789869380671",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/RESULT.md",
+      "bytes": 10435,
+      "sha256": "4dcea0172ff0e6119d67f31555686c4c181f704c6e7c6c6ae09b4d3956ed4f9a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399122",
+        "mode": "33188",
+        "size": "10435",
+        "mtimeNs": "1790479954401921927",
+        "ctimeNs": "1790479954401921927",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-connected-compensation-nMyz57P5/SOURCES.json",
+      "bytes": 10212,
+      "sha256": "127eeaed4c3b19e5e939e7c43150de0751a91cdc97295729b18947cd8f510ed5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399125",
+        "mode": "33188",
+        "size": "10212",
+        "mtimeNs": "1790480181377753747",
+        "ctimeNs": "1790480181377753747",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/HANDOFF.json",
+      "bytes": 2136,
+      "sha256": "45672e1a3f525aec4bcd779f375059ad7b8be5e6d374d61e8d61d9f220346cbe",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399157",
+        "mode": "33188",
+        "size": "2136",
+        "mtimeNs": "1790480937732937489",
+        "ctimeNs": "1790480937732937489",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.json",
+      "bytes": 7398,
+      "sha256": "b2d801cdef9436b392fcfd02838e88527d310c7f16f7c70d85bc3048b342d914",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399156",
+        "mode": "33188",
+        "size": "7398",
+        "mtimeNs": "1790480937732136243",
+        "ctimeNs": "1790480937732136243",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 20005,
+      "sha256": "acbf782f2a331e130750a4a1dac4f7912406b72c4e3a246ffdabeb76da267774",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399154",
+        "mode": "33188",
+        "size": "20005",
+        "mtimeNs": "1790480849901235491",
+        "ctimeNs": "1790480849901235491",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/SOURCE_PIN_CHECK.json",
+      "bytes": 27770,
+      "sha256": "41337d93284ab6f6119b508d066cba971c416f7e7a4ab3e8bebb69d9eb7bb052",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399149",
+        "mode": "33188",
+        "size": "27770",
+        "mtimeNs": "1790480683560733484",
+        "ctimeNs": "1790480683560733484",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/check_source_pins.py",
+      "bytes": 2490,
+      "sha256": "5595b21dcdd7ee86c39d22771f02e352ba70c880cb60435b834b455997daaaf7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399148",
+        "mode": "33188",
+        "size": "2490",
+        "mtimeNs": "1790480683472875292",
+        "ctimeNs": "1790480683472875292",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-independent-proof-review-F2Esp0RB/seal_review.py",
+      "bytes": 6765,
+      "sha256": "cb28bad5f234ef967485628b8b89e453f0850aa6bb60d5e4d9f1d8867fa7d20a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399155",
+        "mode": "33188",
+        "size": "6765",
+        "mtimeNs": "1790480937644547587",
+        "ctimeNs": "1790480937644547587",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/PUBLISHED_PREMISE_MAP.json",
+      "bytes": 18524,
+      "sha256": "94ae43aa32044a2349f380b98448ed9256690d43d83ec7983cf3ebb4f11d609e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399152",
+        "mode": "33188",
+        "size": "18524",
+        "mtimeNs": "1790480731634721439",
+        "ctimeNs": "1790480731634721439",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "bytes": 4071,
+      "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399160",
+        "mode": "33188",
+        "size": "4071",
+        "mtimeNs": "1790481087274572178",
+        "ctimeNs": "1790481087274572178",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_MANUAL_REVIEW.json",
+      "bytes": 2539,
+      "sha256": "c079025f94fcb84e6f34f732a592c29cd6b03fde6cc45c8bca2360079c1d846c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399147",
+        "mode": "33188",
+        "size": "2539",
+        "mtimeNs": "1790480674064782419",
+        "ctimeNs": "1790480674064782419",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/ANALYTIC_BOUNDS.md",
+      "bytes": 16981,
+      "sha256": "5e0b524a6205fa67318360fcad83dc1965a3efd5e517106833707ccede6c34e5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399321",
+        "mode": "33188",
+        "size": "16981",
+        "mtimeNs": "1790481560356061613",
+        "ctimeNs": "1790481560356061613",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "bytes": 13789,
+      "sha256": "89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399346",
+        "mode": "33188",
+        "size": "13789",
+        "mtimeNs": "1790482333739863249",
+        "ctimeNs": "1790482333739863249",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.json",
+      "bytes": 9587,
+      "sha256": "afa9831b15250ef48ff8b6277e253afcb72b78914b79fdad5f5a4274d6ee7c25",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399361",
+        "mode": "33188",
+        "size": "9587",
+        "mtimeNs": "1790482492003979546",
+        "ctimeNs": "1790482492003979546",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/HANDOFF.md",
+      "bytes": 4544,
+      "sha256": "637b222e995ffb6b1d95de3330e4ee748ba2c5193e5c4d397a3dea9b789eabda",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399350",
+        "mode": "33188",
+        "size": "4544",
+        "mtimeNs": "1790482302447411209",
+        "ctimeNs": "1790482302447411209",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "bytes": 9005,
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399317",
+        "mode": "33188",
+        "size": "9005",
+        "mtimeNs": "1790482162021400767",
+        "ctimeNs": "1790482162021400767",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/INPUT_FORMULAS.md",
+      "bytes": 17929,
+      "sha256": "eaee191bdc68bebcdfcbc90636cdd066f14c284876131171a69422fcdba4b118",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399319",
+        "mode": "33188",
+        "size": "17929",
+        "mtimeNs": "1790481505573862242",
+        "ctimeNs": "1790481505573862242",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/PRODUCER_NOTES.md",
+      "bytes": 5703,
+      "sha256": "ea4198d4adc2a943d42fc81e5afd17b0c9c5df2d5c62b85cab65821d443251d0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399332",
+        "mode": "33188",
+        "size": "5703",
+        "mtimeNs": "1790482162017445454",
+        "ctimeNs": "1790482162017445454",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/QUALIFICATION.md",
+      "bytes": 4229,
+      "sha256": "29ff0d399543b268fe69ac4da523eb04d7afd1f182e40fb72e44c6601eb35057",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399318",
+        "mode": "33188",
+        "size": "4229",
+        "mtimeNs": "1790481808755397344",
+        "ctimeNs": "1790481808755397344",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/SOURCES.json",
+      "bytes": 13136,
+      "sha256": "b351ea10816d21e4c79ce6dc0cf573713e6f076d595fe4ddf2082efdfb5cac21",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399356",
+        "mode": "33188",
+        "size": "13136",
+        "mtimeNs": "1790482410236785220",
+        "ctimeNs": "1790482410236785220",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "bytes": 41355,
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399323",
+        "mode": "33188",
+        "size": "41355",
+        "mtimeNs": "1790482243885884866",
+        "ctimeNs": "1790482243885884866",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "bytes": 27288,
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399324",
+        "mode": "33188",
+        "size": "27288",
+        "mtimeNs": "1790482162012629427",
+        "ctimeNs": "1790482162012629427",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/FINAL_PIN_RECHECK.json",
+      "bytes": 15691,
+      "sha256": "e8768d363fe7e3e5d22f70314185fb5374311d3bc3e332240913b65130261f3d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399685",
+        "mode": "33188",
+        "size": "15691",
+        "mtimeNs": "1790485976160121011",
+        "ctimeNs": "1790485976160121011",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "bytes": 1835,
+      "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399687",
+        "mode": "33188",
+        "size": "1835",
+        "mtimeNs": "1790485976202958736",
+        "ctimeNs": "1790485976202958736",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.json",
+      "bytes": 6697,
+      "sha256": "bbe39b835b4daa2e8ee32c4997d11be06b9a58c3dd20502c5562e69108730673",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399686",
+        "mode": "33188",
+        "size": "6697",
+        "mtimeNs": "1790485976202448781",
+        "ctimeNs": "1790485976202448781",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/INDEPENDENT_REVIEW.md",
+      "bytes": 18798,
+      "sha256": "3feb7646597e960ecfde97ed879df4a0ce38727b4262287782f83176769a7f1a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399680",
+        "mode": "33188",
+        "size": "18798",
+        "mtimeNs": "1790485912168410428",
+        "ctimeNs": "1790485912168410428",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/SOURCE_METADATA_CHECK.json",
+      "bytes": 32116,
+      "sha256": "e0a6d2eec466ba0dc1013b92aaa71fd94effd0373052e8622997b29f8edb7369",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399608",
+        "mode": "33188",
+        "size": "32116",
+        "mtimeNs": "1790485912163778791",
+        "ctimeNs": "1790485912163778791",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/check_metadata.py",
+      "bytes": 4223,
+      "sha256": "7d6c691b63b9b48c455a277b3adb42edf48196793653cac5b9bc7138d0d9ff25",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399607",
+        "mode": "33188",
+        "size": "4223",
+        "mtimeNs": "1790485912162893088",
+        "ctimeNs": "1790485912162893088",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "bytes": 3230,
+      "sha256": "324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399691",
+        "mode": "33188",
+        "size": "3230",
+        "mtimeNs": "1790486109572110566",
+        "ctimeNs": "1790486109572110566",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/SEALED_INPUT_PIN_CHECK.json",
+      "bytes": 24520,
+      "sha256": "e669fd668d4dc54b3d5ac9c97883663b1d77877f7abbfd3f86dbe42e937417e7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "399690",
+        "mode": "33188",
+        "size": "24520",
+        "mtimeNs": "1790486037898303898",
+        "ctimeNs": "1790486037898303898",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/FINAL_PIN_CHECK.json",
+      "bytes": 5740,
+      "sha256": "9938324acdfd4843f2ee80c7260e1a255c10edc1f5805a594a477263b2174482",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407261",
+        "mode": "33188",
+        "size": "5740",
+        "mtimeNs": "1790770305621850405",
+        "ctimeNs": "1790770305621850405",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/HANDOFF.json",
+      "bytes": 5091,
+      "sha256": "c63b630f6ccbd609a22e6d5efab9ead4c07299fbee18d6bad5a41215869e8a0b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407262",
+        "mode": "33188",
+        "size": "5091",
+        "mtimeNs": "1790770305664039559",
+        "ctimeNs": "1790770305664039559",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.json",
+      "bytes": 11073,
+      "sha256": "a7d2da37e1870c3c130038c84c246d7b7eb1ee1c3569c0af3dae7c972b4146fc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407260",
+        "mode": "33188",
+        "size": "11073",
+        "mtimeNs": "1790770249751661757",
+        "ctimeNs": "1790770249751661757",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/INDEPENDENT_FEASIBILITY_REVIEW.md",
+      "bytes": 20096,
+      "sha256": "8135e19e8c4228c0b2fd27ca9eca1cde6ceaf71a76f414adc5293cc5f8f7f858",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407203",
+        "mode": "33188",
+        "size": "20096",
+        "mtimeNs": "1790770169394473121",
+        "ctimeNs": "1790770169394473121",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/OPAQUE_TEXT_CHECK.json",
+      "bytes": 47583,
+      "sha256": "e0947a148a105debc9134a00deb91c4d72df32f6fbacd4e242ad211281db2eb1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407182",
+        "mode": "33188",
+        "size": "47583",
+        "mtimeNs": "1790769805362407958",
+        "ctimeNs": "1790769805362407958",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/REVIEWER_DIAGNOSTICS.json",
+      "bytes": 894,
+      "sha256": "de90eb463aef355c2ffa9805053e5099b86ec508d7cd8aba79ba822efc5f13a6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407176",
+        "mode": "33188",
+        "size": "894",
+        "mtimeNs": "1790769527286990247",
+        "ctimeNs": "1790769527286990247",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-independent-feasibility-review-f68n6324/check_metadata.py",
+      "bytes": 12178,
+      "sha256": "3490e3c6b09f9259d4db0627c39604efe9e5d22a907676d7667be24b7fd01758",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407181",
+        "mode": "33188",
+        "size": "12178",
+        "mtimeNs": "1790769805109640809",
+        "ctimeNs": "1790769805109640809",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-native-boundary-feasibility-0i0dbnge/HANDOFF.json",
+      "bytes": 6743,
+      "sha256": "6ffa8638c138ccd481514d6ce8dd835d8c2c17f48e91c4215d80eb1e47546307",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407160",
+        "mode": "33188",
+        "size": "6743",
+        "mtimeNs": "1790769310050422109",
+        "ctimeNs": "1790769310050422109",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 1342,
+      "sha256": "1867552d948b698adcf5119c91827ef32adc00d3d5adbd260c8256f1c6450d0e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407267",
+        "mode": "33188",
+        "size": "1342",
+        "mtimeNs": "1790770392257329813",
+        "ctimeNs": "1790770392257329813",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/RI143_ROOT_ADJUDICATION.json",
+      "bytes": 3064,
+      "sha256": "e5c55d33b173714ce6d990707d33a12afcff5278a4622c92e12a3c1e0a6b2728",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407265",
+        "mode": "33188",
+        "size": "3064",
+        "mtimeNs": "1790770392214587940",
+        "ctimeNs": "1790770392214587940",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_NATIVE_DESIGN_CHECK.json",
+      "bytes": 33708,
+      "sha256": "512b8c5b43b5084a2aa7024d19686f39be003bc1992e253e249240ff907d2dcd",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407178",
+        "mode": "33188",
+        "size": "33708",
+        "mtimeNs": "1790769576667508856",
+        "ctimeNs": "1790769576667508856",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/ROOT_NATIVE_REVIEW.md",
+      "bytes": 2942,
+      "sha256": "3929b1fe2ae7c577bdf9da968f7fdff84e683900e8b843aab3065ee597fbe52a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407273",
+        "mode": "33188",
+        "size": "2942",
+        "mtimeNs": "1790770496868101115",
+        "ctimeNs": "1790770496868101115",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/FINAL_PIN_CHECK.json",
+      "bytes": 4324,
+      "sha256": "9aec30e0471f46e3aaf908bf99397e4e4959ba6fb8085295be79d6ca05c33408",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407884",
+        "mode": "33188",
+        "size": "4324",
+        "mtimeNs": "1790772564844228090",
+        "ctimeNs": "1790772564844228090",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/HANDOFF.json",
+      "bytes": 4678,
+      "sha256": "e30140e00872f1269933db73509f3f066c463b8a98650e171be1b737bb6f2374",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407885",
+        "mode": "33188",
+        "size": "4678",
+        "mtimeNs": "1790772564886458114",
+        "ctimeNs": "1790772564886458114",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.json",
+      "bytes": 8267,
+      "sha256": "75960276676a6359952dd5942c39fec42cf8e4d8651ea28cdb1f96e90f790dfe",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407883",
+        "mode": "33188",
+        "size": "8267",
+        "mtimeNs": "1790772509685052850",
+        "ctimeNs": "1790772509685052850",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 18775,
+      "sha256": "fe4723159266caed2e425e323221d753fa129c786bbe4300f261254355066271",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407873",
+        "mode": "33188",
+        "size": "18775",
+        "mtimeNs": "1790772435140827726",
+        "ctimeNs": "1790772435140827726",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/METADATA_CHECK.json",
+      "bytes": 49418,
+      "sha256": "78b62b0c7fd8a82ff856a4c7ec69fbd0b27d8e4d140825c1fd538f002e813ef9",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407849",
+        "mode": "33188",
+        "size": "49418",
+        "mtimeNs": "1790772219378115503",
+        "ctimeNs": "1790772219378115503",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/REVIEW_DIAGNOSTICS.json",
+      "bytes": 824,
+      "sha256": "ecb4cec808f0f27adc44d4c0820ed0b9a24918de5d54a1af3474d518941b278d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407882",
+        "mode": "33188",
+        "size": "824",
+        "mtimeNs": "1790772509642953460",
+        "ctimeNs": "1790772509642953460",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/check_metadata.py",
+      "bytes": 10033,
+      "sha256": "8bda3601c27f10dba4ae002edcab79f794a8ca4f6d0b3d189a693ef5bd572504",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407848",
+        "mode": "33188",
+        "size": "10033",
+        "mtimeNs": "1790772219247808767",
+        "ctimeNs": "1790772219247808767",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ANALYTIC_RESULT.json",
+      "bytes": 4378,
+      "sha256": "5a2a71ab683c54d26b1c0973ff088011f9dc6c27d2045c7db3118e3344e2e359",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407445",
+        "mode": "33188",
+        "size": "4378",
+        "mtimeNs": "1790771277164383593",
+        "ctimeNs": "1790771277164383593",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/AUTHOR_CHECKS.json",
+      "bytes": 16863,
+      "sha256": "c536c922c9edd9f7f280b15abb2f3e343cefea26cf537afa845b2077555274c6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407818",
+        "mode": "33188",
+        "size": "16863",
+        "mtimeNs": "1790771433478730376",
+        "ctimeNs": "1790771433478730376",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/DEPENDENCY_NOTES.md",
+      "bytes": 13495,
+      "sha256": "4c1b347b79ad73c451c509ee92f1089884df1bb8ca49edfee3d71035518e1c98",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407285",
+        "mode": "33188",
+        "size": "13495",
+        "mtimeNs": "1790771319685659341",
+        "ctimeNs": "1790771319685659341",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/ENDPOINT_REDUCTION.md",
+      "bytes": 16141,
+      "sha256": "9b548f8a0cc912682c85f73f5a5f49a58d8a63d9daacbbb7156ffb1a65976a0d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407296",
+        "mode": "33188",
+        "size": "16141",
+        "mtimeNs": "1790771183121007848",
+        "ctimeNs": "1790771183121007848",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.json",
+      "bytes": 6015,
+      "sha256": "f53a0e1c49069a1e9057ad69169facca556b77e7cfb2534eba440b7eaa91db19",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407835",
+        "mode": "33188",
+        "size": "6015",
+        "mtimeNs": "1790771815994807094",
+        "ctimeNs": "1790771815994807094",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.md",
+      "bytes": 3813,
+      "sha256": "f12bb49a7ef7fed5954be1415f1aee03fbb9d252fc48fbb1a8f2b8ad947d00b6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407297",
+        "mode": "33188",
+        "size": "3813",
+        "mtimeNs": "1790771164052231963",
+        "ctimeNs": "1790771164052231963",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/PROOF_CROSSCHECK.md",
+      "bytes": 8006,
+      "sha256": "3cdce3cd670243c0b850886451cc2a412d24835702ff92e88146f7fb9719adad",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407295",
+        "mode": "33188",
+        "size": "8006",
+        "mtimeNs": "1790771124969854749",
+        "ctimeNs": "1790771124969854749",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_DEPENDENCIES.json",
+      "bytes": 79269,
+      "sha256": "8f26931fc568f4c0158d4840eb07fcfebf86021d404c8c542f4e0805a51b1807",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407278",
+        "mode": "33188",
+        "size": "79269",
+        "mtimeNs": "1790771319679315112",
+        "ctimeNs": "1790771319679315112",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/SOURCE_IDENTITIES.json",
+      "bytes": 13725,
+      "sha256": "cc7724991ebecca4d84243f34e142e468e5583edb62d88500f194e69b26322c4",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407284",
+        "mode": "33188",
+        "size": "13725",
+        "mtimeNs": "1790771319679959918",
+        "ctimeNs": "1790771319679959918",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/WEIGHTED_MARGIN_PROOF.md",
+      "bytes": 11272,
+      "sha256": "9bb479dcf644af911bb5c87fcccf722b987219ff0b5cf7f385efde764bbb2e02",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407286",
+        "mode": "33188",
+        "size": "11272",
+        "mtimeNs": "1790771232725076968",
+        "ctimeNs": "1790771232725076968",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 2148,
+      "sha256": "9d3adc1db19469d6eeeb4b47856e2426ee353cf0c4a04add927d660be773081c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407899",
+        "mode": "33188",
+        "size": "2148",
+        "mtimeNs": "1790772714020675871",
+        "ctimeNs": "1790772714020675871",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/RI145_ROOT_ADJUDICATION.json",
+      "bytes": 2631,
+      "sha256": "a8c6bead842cd523c059e7ea7d72a6402a2b497039f3e7e21bc22834f8f27f60",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407897",
+        "mode": "33188",
+        "size": "2631",
+        "mtimeNs": "1790772714019723229",
+        "ctimeNs": "1790772714019723229",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri146-root-current-capture-9bfi4u8s/ROOT_NATIVE_CHECK.json",
+      "bytes": 58875,
+      "sha256": "4f4c564231498f9ac4feeb151d2b445b25e2fb13946e8d24c84bc0603312fe5d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407896",
+        "mode": "33188",
+        "size": "58875",
+        "mtimeNs": "1790772714018017950",
+        "ctimeNs": "1790772714018017950",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/FINAL_PIN_CHECK.json",
+      "bytes": 2271,
+      "sha256": "a31b2de42f396253d7ad6808c0524d4d925ce04256812abe574e4a2e5acf54ab",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408391",
+        "mode": "33188",
+        "size": "2271",
+        "mtimeNs": "1790774645314212724",
+        "ctimeNs": "1790774645314212724",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/HANDOFF.json",
+      "bytes": 5529,
+      "sha256": "1d99faefe8ad0934898b9521b2ba5d7c62707833b55051599d46343b9db8afb3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408392",
+        "mode": "33188",
+        "size": "5529",
+        "mtimeNs": "1790774645316549607",
+        "ctimeNs": "1790774645316549607",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.json",
+      "bytes": 7023,
+      "sha256": "13dd882d97888b6377a5bbe55a5ec2bb0a42667af75260e41b950ca30f2c8016",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408389",
+        "mode": "33188",
+        "size": "7023",
+        "mtimeNs": "1790774645288745521",
+        "ctimeNs": "1790774645288745521",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/INDEPENDENT_SCALE_REVIEW.md",
+      "bytes": 21123,
+      "sha256": "3b9e5768a5c79d5af02beb9bbc18c0bc1ee02da1c0e1653ca9b581d5eb8ed195",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408384",
+        "mode": "33188",
+        "size": "21123",
+        "mtimeNs": "1790774539646499068",
+        "ctimeNs": "1790774539646499068",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/METADATA_CHECK.json",
+      "bytes": 76905,
+      "sha256": "6f49799df021fa96049e65a59a7412cfc80b8d47689fd217c288992c7cd48570",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408378",
+        "mode": "33188",
+        "size": "76905",
+        "mtimeNs": "1790774304103694689",
+        "ctimeNs": "1790774304103694689",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/REVIEW_DIAGNOSTICS.json",
+      "bytes": 2734,
+      "sha256": "6dcda4ac1e8d421a8b094e43e7df6f384b260b6fe313590d98898ed2d1913c2c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408390",
+        "mode": "33188",
+        "size": "2734",
+        "mtimeNs": "1790774645300358766",
+        "ctimeNs": "1790774645300358766",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-independent-scale-review-5qddsve3/check_metadata.py",
+      "bytes": 8680,
+      "sha256": "173cada6340b1c80cea1288e5d27fc7c6db92503d46ac4a8914b0fc51ee93b9a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408377",
+        "mode": "33188",
+        "size": "8680",
+        "mtimeNs": "1790774304024365911",
+        "ctimeNs": "1790774304024365911",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ACTUAL_SCALE_BOUND.md",
+      "bytes": 13744,
+      "sha256": "2cdaa5fa384f81a5b253a28f26c088ee6a3dd83e4fe7e60dde56f1a5b6aa7577",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408023",
+        "mode": "33188",
+        "size": "13744",
+        "mtimeNs": "1790773538218596122",
+        "ctimeNs": "1790773538218596122",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/ANALYTIC_RESULT.json",
+      "bytes": 2686,
+      "sha256": "035544573404431a9ceeb9c0da027562613f77a139a9d4178dc9dd6f4c823543",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407931",
+        "mode": "33188",
+        "size": "2686",
+        "mtimeNs": "1790773490754679860",
+        "ctimeNs": "1790773490754679860",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/AUTHOR_CHECKS.json",
+      "bytes": 15202,
+      "sha256": "d57fb03c4bb2098bfdba7d8ad18a98934ad261203924a39af2752cb4079d6f45",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408317",
+        "mode": "33188",
+        "size": "15202",
+        "mtimeNs": "1790773762373154649",
+        "ctimeNs": "1790773762373154649",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/COMPONENT_CONTRASTS.md",
+      "bytes": 19001,
+      "sha256": "b982477d162bce2210aabaffe91cc68e52315734c186d2895e67da4736c9a49f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408314",
+        "mode": "33188",
+        "size": "19001",
+        "mtimeNs": "1790773621443063349",
+        "ctimeNs": "1790773621443063349",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/DEPENDENCY_NOTES.md",
+      "bytes": 9557,
+      "sha256": "0f9b901a52e5f4ed6d427a9ecf37750e5feea8d91e8619e46edf79888d6710c4",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408258",
+        "mode": "33188",
+        "size": "9557",
+        "mtimeNs": "1790773576728674507",
+        "ctimeNs": "1790773576728674507",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.json",
+      "bytes": 6645,
+      "sha256": "a963f33ba976b9972fe4867bb5790f76e77857971e73f43b0876a4107b97b1e2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408318",
+        "mode": "33188",
+        "size": "6645",
+        "mtimeNs": "1790773779839419675",
+        "ctimeNs": "1790773779839419675",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/HANDOFF.md",
+      "bytes": 3321,
+      "sha256": "28daff57be169a688f0ac831acb439ac1fb338a3fdf3fd84bc9f02ccee133b20",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407932",
+        "mode": "33188",
+        "size": "3321",
+        "mtimeNs": "1790773490754979949",
+        "ctimeNs": "1790773490754979949",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SCALE_MEMBERSHIP_SYNTHESIS.md",
+      "bytes": 9487,
+      "sha256": "3e659eff15463cb880df1fdda58564d0683302a1357c2b524e0ef704ac7c2d6e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407922",
+        "mode": "33188",
+        "size": "9487",
+        "mtimeNs": "1790773363327941318",
+        "ctimeNs": "1790773363327941318",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_DEPENDENCIES.json",
+      "bytes": 98941,
+      "sha256": "d69cee9f4d21ed3db98bd13b13b576da952753af56661708b2a8284d63c1c497",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407923",
+        "mode": "33188",
+        "size": "98941",
+        "mtimeNs": "1790773416290069453",
+        "ctimeNs": "1790773416290069453",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-native-scale-membership-q4lxbpke/SOURCE_IDENTITIES.json",
+      "bytes": 16523,
+      "sha256": "73c958998e3a1e09198534014fbcfff17bec0e274c25cf9d83aa33b927fe7399",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "407924",
+        "mode": "33188",
+        "size": "16523",
+        "mtimeNs": "1790773440584906522",
+        "ctimeNs": "1790773440584906522",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 2443,
+      "sha256": "a142be0bdd2fc3e17df3611ed8836ef152103fa9895ba760fab795bcedca87fb",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408403",
+        "mode": "33188",
+        "size": "2443",
+        "mtimeNs": "1790774719747830126",
+        "ctimeNs": "1790774719747830126",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/RI147_ROOT_ADJUDICATION.json",
+      "bytes": 3033,
+      "sha256": "b8c4e2a94ce50294a426823ad879179ed89065ad4f0f99b7724a02005c1ad385",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408401",
+        "mode": "33188",
+        "size": "3033",
+        "mtimeNs": "1790774719746750562",
+        "ctimeNs": "1790774719746750562",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_MANUAL_REVIEW.json",
+      "bytes": 4483,
+      "sha256": "e38e02e8391af1991349ece9a95a7461e4c5376c71fe6b207b6757fea426bf1f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408383",
+        "mode": "33188",
+        "size": "4483",
+        "mtimeNs": "1790774432480045219",
+        "ctimeNs": "1790774432480045219",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri147-root-scale-review-9dwcmsz2/ROOT_NATIVE_CHECK.json",
+      "bytes": 64269,
+      "sha256": "5f25deb39f2819ec528192466fbf449927e90ee3a4907664794d255cc782d3a4",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408380",
+        "mode": "33188",
+        "size": "64269",
+        "mtimeNs": "1790774325281991069",
+        "ctimeNs": "1790774325281991069",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/FINAL_PIN_CHECK.json",
+      "bytes": 2276,
+      "sha256": "433c8762b05433273c25686e3060dd474667063d997ed7eba4dd9821ed597b2a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408908",
+        "mode": "33188",
+        "size": "2276",
+        "mtimeNs": "1790776076072510886",
+        "ctimeNs": "1790776076072510886",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/HANDOFF.json",
+      "bytes": 6704,
+      "sha256": "4b5382e6cc338ae12371be5005bca119be39461b8fdfceec703f5875431e67d1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408909",
+        "mode": "33188",
+        "size": "6704",
+        "mtimeNs": "1790776076074794018",
+        "ctimeNs": "1790776076074794018",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.json",
+      "bytes": 8480,
+      "sha256": "7ce0bbd96d2ca52dbc00299bb0cb3d882afb8bb6d54c795eb75d0ef863d1663b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408906",
+        "mode": "33188",
+        "size": "8480",
+        "mtimeNs": "1790776076044674419",
+        "ctimeNs": "1790776076044674419",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/INDEPENDENT_CANONICAL_REVIEW.md",
+      "bytes": 23281,
+      "sha256": "bb1ac2f0efff3dab374e0e5a2fa042b3b656e9a3742e79fc1c0f0dec1d247d61",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408901",
+        "mode": "33188",
+        "size": "23281",
+        "mtimeNs": "1790775978347359861",
+        "ctimeNs": "1790775978347359861",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/METADATA_CHECK.json",
+      "bytes": 88788,
+      "sha256": "3d419beebcbf71a2679ecdcc7500b66c8e8d2b7b8405f8ca4643ab9818fcd334",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408862",
+        "mode": "33188",
+        "size": "88788",
+        "mtimeNs": "1790775762600802737",
+        "ctimeNs": "1790775762600802737",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/REVIEW_DIAGNOSTICS.json",
+      "bytes": 2837,
+      "sha256": "54fe7e1c19f966a82f1d609123c52d62ebfa999f52d87bc1bd51c3c16cc2de64",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408907",
+        "mode": "33188",
+        "size": "2837",
+        "mtimeNs": "1790776076056390502",
+        "ctimeNs": "1790776076056390502",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-independent-canonical-review-4hzpisvg/check_metadata.py",
+      "bytes": 8020,
+      "sha256": "f2874ebfd1483f1a9224d7d948e5ab96a0e91597262cdca0fc34f65b9c428de2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408861",
+        "mode": "33188",
+        "size": "8020",
+        "mtimeNs": "1790775762495783046",
+        "ctimeNs": "1790775762495783046",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 2805,
+      "sha256": "f691b1292dabada78832529551a36edebe005d634960a5e4c03076ec026f8fc4",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408922",
+        "mode": "33188",
+        "size": "2805",
+        "mtimeNs": "1790776151087256075",
+        "ctimeNs": "1790776151087256075",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/RI149_ROOT_ADJUDICATION.json",
+      "bytes": 4893,
+      "sha256": "21438657f66c4fac98a9055303c83fd715b62bb559eeb9cfe2e4a3db11b3745d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408920",
+        "mode": "33188",
+        "size": "4893",
+        "mtimeNs": "1790776151086516268",
+        "ctimeNs": "1790776151086516268",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_MANUAL_REVIEW.json",
+      "bytes": 3189,
+      "sha256": "0e3c347e20cff222b915cda2f9c66c8ad1e7cfe87b4b6a2cb98df6b309c9578e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408899",
+        "mode": "33188",
+        "size": "3189",
+        "mtimeNs": "1790775972866188495",
+        "ctimeNs": "1790775972866188495",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-root-canonical-review-25_k3ysa/ROOT_NATIVE_CHECK.json",
+      "bytes": 76115,
+      "sha256": "c9d0f2900a66e934e22a76f4277bd8e54c51ea35dbc6724c950a714eae8cc8f6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408900",
+        "mode": "33188",
+        "size": "76115",
+        "mtimeNs": "1790775972987120524",
+        "ctimeNs": "1790775972987120524",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/ANALYTIC_RESULT.json",
+      "bytes": 3495,
+      "sha256": "22b1af63c1dbeeb4b6c8b8c601173e80bf47622ae875a64683f8d4194d4eadfe",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408430",
+        "mode": "33188",
+        "size": "3495",
+        "mtimeNs": "1790775343204327169",
+        "ctimeNs": "1790775343204327169",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/AUTHOR_CHECKS.json",
+      "bytes": 15485,
+      "sha256": "800ed2d37fc6ed582faa509154ba7a009e7d1ff920b75230299324a91a677246",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408756",
+        "mode": "33188",
+        "size": "15485",
+        "mtimeNs": "1790775441601676905",
+        "ctimeNs": "1790775441601676905",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_FACE_COMPARISON.md",
+      "bytes": 14805,
+      "sha256": "cbdd95c8d2882b2dacf90cea9e0070fda0c758afffdb8feea63c3658b5d4f34b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408428",
+        "mode": "33188",
+        "size": "14805",
+        "mtimeNs": "1790775251081915345",
+        "ctimeNs": "1790775251081915345",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/CANONICAL_REDUCTION_SYNTHESIS.md",
+      "bytes": 11443,
+      "sha256": "04557bb129faa4ae6dc4952c5ccdf1ba933c2ac56801acf02f436879bf628f71",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408427",
+        "mode": "33188",
+        "size": "11443",
+        "mtimeNs": "1790775216189679341",
+        "ctimeNs": "1790775216189679341",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/DEPENDENCY_NOTES.md",
+      "bytes": 10411,
+      "sha256": "a73c6398f65c26c78fff01d4faa89d5dcb11badfde2d100a2f1192ec6a8ca93e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408420",
+        "mode": "33188",
+        "size": "10411",
+        "mtimeNs": "1790775088310114715",
+        "ctimeNs": "1790775088310114715",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.json",
+      "bytes": 7499,
+      "sha256": "1471f833445c8ca4ed872737cdd8abf6660daf83d0399937b745cc959dc577cc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408811",
+        "mode": "33188",
+        "size": "7499",
+        "mtimeNs": "1790775474610437966",
+        "ctimeNs": "1790775474610437966",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HANDOFF.md",
+      "bytes": 3142,
+      "sha256": "295187784883499e9cba9bca3930934b1b4f312e33ec335a4c4debf8de3a2b9f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408431",
+        "mode": "33188",
+        "size": "3142",
+        "mtimeNs": "1790775343204645843",
+        "ctimeNs": "1790775343204645843",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/HOOK_INCIDENCE.md",
+      "bytes": 18572,
+      "sha256": "815b5b8e2b8893fc6dc0742451a55eccf185b193532c5119be3e3d87a35dd900",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408426",
+        "mode": "33188",
+        "size": "18572",
+        "mtimeNs": "1790775285921127355",
+        "ctimeNs": "1790775285921127355",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_DEPENDENCIES.json",
+      "bytes": 117410,
+      "sha256": "6011a27534d06de1d3db23a33a1d983cddfcf2cd524dcd76b0875e9d80854358",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408411",
+        "mode": "33188",
+        "size": "117410",
+        "mtimeNs": "1790774947046335430",
+        "ctimeNs": "1790774947046335430",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri149-singleton-hook-incidence-yfjac93v/SOURCE_IDENTITIES.json",
+      "bytes": 18906,
+      "sha256": "54a7080f3eddac716240d62abcf7ee531fd327ad10ab266c25b9ced2c9620853",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408412",
+        "mode": "33188",
+        "size": "18906",
+        "mtimeNs": "1790774972776337088",
+        "ctimeNs": "1790774972776337088",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/ANALYTIC_RESULT.json",
+      "bytes": 4157,
+      "sha256": "51e491188f4e545199e3bd677c9521d1eb2a7acb5786e128b5a10e48acda8bb3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409396",
+        "mode": "33188",
+        "size": "4157",
+        "mtimeNs": "1790777126688994102",
+        "ctimeNs": "1790777126688994102",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/AUTHOR_CHECKS.json",
+      "bytes": 13865,
+      "sha256": "16505621d02a5a90518952325a4f40a6b5f44fb4d075b19afcdded1e3adc7a78",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409413",
+        "mode": "33188",
+        "size": "13865",
+        "mtimeNs": "1790777508456678600",
+        "ctimeNs": "1790777508456678600",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/CANONICAL_EQUALITY_SYNTHESIS.md",
+      "bytes": 13488,
+      "sha256": "662341234fb4187fdaa5f3fc57049803b481340af1ef5b870bfa77002f2ab3d2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409394",
+        "mode": "33188",
+        "size": "13488",
+        "mtimeNs": "1790777007595372859",
+        "ctimeNs": "1790777007595372859",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/COUPLED_EQUALITY_REDUCTION.md",
+      "bytes": 17046,
+      "sha256": "fcef241134507f3e21187a905871aa9853dabd0d95eca8cd6f9d335535d1bf04",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409395",
+        "mode": "33188",
+        "size": "17046",
+        "mtimeNs": "1790777126545879907",
+        "ctimeNs": "1790777126545879907",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/DEPENDENCY_NOTES.md",
+      "bytes": 9885,
+      "sha256": "590c38a0cbe1b193669f8ca8dacf63478d5ee0e2e8504f03ccc25728b808a719",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408946",
+        "mode": "33188",
+        "size": "9885",
+        "mtimeNs": "1790776730454959969",
+        "ctimeNs": "1790776730454959969",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.json",
+      "bytes": 6054,
+      "sha256": "8b41c6467b47de9bb30b310a2f8cf6b3020a01bafcfa317d8276f6f77811eee6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409414",
+        "mode": "33188",
+        "size": "6054",
+        "mtimeNs": "1790777543756294246",
+        "ctimeNs": "1790777543756294246",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/HANDOFF.md",
+      "bytes": 2862,
+      "sha256": "85274eb013973eb424110489de9cb39fd2393c09bf7b19b3770613ed97e76c37",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409397",
+        "mode": "33188",
+        "size": "2862",
+        "mtimeNs": "1790777126689283272",
+        "ctimeNs": "1790777126689283272",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/NEUTRAL_COMPONENT_INCIDENCE.md",
+      "bytes": 22869,
+      "sha256": "dccd56286e012010fd4775eff5b1bb355312e4af12975e73bb8361bb85873495",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409398",
+        "mode": "33188",
+        "size": "22869",
+        "mtimeNs": "1790777454265184386",
+        "ctimeNs": "1790777454265184386",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_DEPENDENCIES.json",
+      "bytes": 136111,
+      "sha256": "beb9357310be6b4157fc64c99552f67a2854540e954f7a9bcced7188b3adba17",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408944",
+        "mode": "33188",
+        "size": "136111",
+        "mtimeNs": "1790776599657805500",
+        "ctimeNs": "1790776599657805500",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-canonical-q-equalities-_546ie2h/SOURCE_IDENTITIES.json",
+      "bytes": 21666,
+      "sha256": "f03f588103a9f4c2ec0c6183b75221a72187aa9c7fead7068c07fc9293b99b26",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "408945",
+        "mode": "33188",
+        "size": "21666",
+        "mtimeNs": "1790776628667431365",
+        "ctimeNs": "1790776628667431365",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/FINAL_PIN_CHECK.json",
+      "bytes": 4624,
+      "sha256": "1943e4b4046819355ee60214dabc5b3f11c1f070572f7a6c6eb070ccf5a739e0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410865",
+        "mode": "33188",
+        "size": "4624",
+        "mtimeNs": "1790778304678233454",
+        "ctimeNs": "1790778304678233454",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/HANDOFF.json",
+      "bytes": 8003,
+      "sha256": "3910840dfd58f44a358f9c61d66c5f0a3cbe86accdfc1a62372f2c6556a3013f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410866",
+        "mode": "33188",
+        "size": "8003",
+        "mtimeNs": "1790778338792537647",
+        "ctimeNs": "1790778338792537647",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.json",
+      "bytes": 6618,
+      "sha256": "a36763480722d54de0baf264046d8ee7f1f14ad4f7416b30122a4a56b4c936b5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410861",
+        "mode": "33188",
+        "size": "6618",
+        "mtimeNs": "1790778271582597486",
+        "ctimeNs": "1790778271582597486",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/INDEPENDENT_FACE_REVIEW.md",
+      "bytes": 25608,
+      "sha256": "515bdea1510e41846b2fcbaae6697f120c613d2971fe180c6b1fcfa2d5135e32",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410855",
+        "mode": "33188",
+        "size": "25608",
+        "mtimeNs": "1790778304657320901",
+        "ctimeNs": "1790778304657320901",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/METADATA_CHECK.json",
+      "bytes": 102744,
+      "sha256": "fbd8520ad5b032ac3ed7c124a56b087722c6d743f0f05d55d42e912f86417f1f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409433",
+        "mode": "33188",
+        "size": "102744",
+        "mtimeNs": "1790777901237873824",
+        "ctimeNs": "1790777901237873824",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/REVIEW_DIAGNOSTICS.json",
+      "bytes": 3906,
+      "sha256": "80a2aca52ec2e3cc7b30b3eb83717a5534ef1b3d42d27238eb8543d87b34a959",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410862",
+        "mode": "33188",
+        "size": "3906",
+        "mtimeNs": "1790778271588673449",
+        "ctimeNs": "1790778271588673449",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-independent-face-review-uvQfBh5q/check_metadata.py",
+      "bytes": 8327,
+      "sha256": "afe7804d5aaae11b1111b3ce26c3c47d57ff7ec3a5a08149efc42c42b554c242",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409432",
+        "mode": "33188",
+        "size": "8327",
+        "mtimeNs": "1790777892579455256",
+        "ctimeNs": "1790777892579455256",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 2872,
+      "sha256": "5e9831650ce2defca777500392419b16bf3d820458f19c1bfca2c522a4869e51",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410872",
+        "mode": "33188",
+        "size": "2872",
+        "mtimeNs": "1790778407957428445",
+        "ctimeNs": "1790778407957428445",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/RI151_ROOT_ADJUDICATION.json",
+      "bytes": 5022,
+      "sha256": "42572ffd230ccf25eb761c4bf8741f66a99d218b40234329cad4cc4b29aab882",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410870",
+        "mode": "33188",
+        "size": "5022",
+        "mtimeNs": "1790778407956648814",
+        "ctimeNs": "1790778407956648814",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_MANUAL_REVIEW.json",
+      "bytes": 3663,
+      "sha256": "6a441dcdcd9ade6b4e670bec581e8235bda700704e5cb35b22b4365393ef667e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409427",
+        "mode": "33188",
+        "size": "3663",
+        "mtimeNs": "1790777788716567534",
+        "ctimeNs": "1790777788716567534",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri151-root-formula-review-_rfeb0e3/ROOT_NATIVE_CHECK.json",
+      "bytes": 88097,
+      "sha256": "9d433a5493e28e44ddc98d8093335dfd27dfeb4c6c2c69b7365efd7946d0caa6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "409426",
+        "mode": "33188",
+        "size": "88097",
+        "mtimeNs": "1790777708698185800",
+        "ctimeNs": "1790777708698185800",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/ANALYTIC_RESULT.json",
+      "bytes": 3122,
+      "sha256": "1d93314e11c0cfa932c3e0ebd6327b042bc5f6eeefedf227f1efbb9b45860445",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410903",
+        "mode": "33188",
+        "size": "3122",
+        "mtimeNs": "1790779107478764728",
+        "ctimeNs": "1790779107478764728",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/AUTHOR_CHECKS.json",
+      "bytes": 13645,
+      "sha256": "be78e062ec642b63ef05eb76e2d894127a2182eb1f1881bb8852be57bd285abd",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410905",
+        "mode": "33188",
+        "size": "13645",
+        "mtimeNs": "1790779174953061418",
+        "ctimeNs": "1790779174953061418",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/DEPENDENCY_NOTES.md",
+      "bytes": 10054,
+      "sha256": "b58183a7babae28342dadc5d23a023ec9aade17cbbaebafb62febed884114e1c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410886",
+        "mode": "33188",
+        "size": "10054",
+        "mtimeNs": "1790778727010778104",
+        "ctimeNs": "1790778727010778104",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/FIXED_PREFIX_MARGIN_SYNTHESIS.md",
+      "bytes": 13670,
+      "sha256": "3671a7415d6f9f36a77e704439e3560172cfb6240d43a0a97bc546537cdfd7c8",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410896",
+        "mode": "33188",
+        "size": "13670",
+        "mtimeNs": "1790779006302500084",
+        "ctimeNs": "1790779006302500084",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.json",
+      "bytes": 6422,
+      "sha256": "4058c2a9545211d2e845661a86516a69b94d15833c3ebbccb9657dc8de61beb7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410906",
+        "mode": "33188",
+        "size": "6422",
+        "mtimeNs": "1790779210561354816",
+        "ctimeNs": "1790779210561354816",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/HANDOFF.md",
+      "bytes": 2905,
+      "sha256": "4e66b9e665ff480ca568440783f1e1b075746d858c485aed46ebbbaa86a45d74",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410904",
+        "mode": "33188",
+        "size": "2905",
+        "mtimeNs": "1790779107479157190",
+        "ctimeNs": "1790779107479157190",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/PREFIX_STRUCTURE.md",
+      "bytes": 15472,
+      "sha256": "2880e8bb604b054a30101015b9b471a4bd714703816ed1bb65b9746041e19b08",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410897",
+        "mode": "33188",
+        "size": "15472",
+        "mtimeNs": "1790779023397309960",
+        "ctimeNs": "1790779023397309960",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_DEPENDENCIES.json",
+      "bytes": 154597,
+      "sha256": "8289ef9fc22a290924584d0ad0447b1e37b1cb2a0cb5d9ae7b921e368cc612ab",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410883",
+        "mode": "33188",
+        "size": "154597",
+        "mtimeNs": "1790778587727197609",
+        "ctimeNs": "1790778587727197609",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/SOURCE_IDENTITIES.json",
+      "bytes": 23951,
+      "sha256": "d75764fa333400acef5b1c151b4ee0f44780a4ba31c380f63d8f486d3a4a8268",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410884",
+        "mode": "33188",
+        "size": "23951",
+        "mtimeNs": "1790778620046810230",
+        "ctimeNs": "1790778620046810230",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-fixed-prefix-weighted-margin-7_73jtl5/WEIGHTED_PREFIX_COMPARISON.md",
+      "bytes": 11750,
+      "sha256": "a9ebc8a952ad2cbab2b958a439c4b4b113190805a557f32488df9edf6999339a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410895",
+        "mode": "33188",
+        "size": "11750",
+        "mtimeNs": "1790778865743146627",
+        "ctimeNs": "1790778865743146627",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/FINAL_PIN_CHECK.json",
+      "bytes": 9811,
+      "sha256": "3044d3e90b4fd95b77d167619a9926994e2071832ae7a30e92ac0d4a8086eb6b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411435",
+        "mode": "33188",
+        "size": "9811",
+        "mtimeNs": "1790779782662739700",
+        "ctimeNs": "1790779782662739700",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/HANDOFF.json",
+      "bytes": 8463,
+      "sha256": "1b4546dcab2214e93869eeb236f3da4898dcb5ce767e8eb96f08d671fb267588",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411436",
+        "mode": "33188",
+        "size": "8463",
+        "mtimeNs": "1790779812144430707",
+        "ctimeNs": "1790779812144430707",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.json",
+      "bytes": 8310,
+      "sha256": "52338567901d53a8494d2c00ce1d9018ef8326a488ff5df42a448fc0f87e2d3f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411375",
+        "mode": "33188",
+        "size": "8310",
+        "mtimeNs": "1790779738384102673",
+        "ctimeNs": "1790779738384102673",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/INDEPENDENT_MARGIN_REVIEW.md",
+      "bytes": 25663,
+      "sha256": "2eb52cf2f0198af636b114926b37ebd97e0d2f12bfa1510cfdf7a48516522c2c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410981",
+        "mode": "33188",
+        "size": "25663",
+        "mtimeNs": "1790779655140165460",
+        "ctimeNs": "1790779655140165460",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/METADATA_CHECK.json",
+      "bytes": 116330,
+      "sha256": "5c523ca4cfb59845d6339a27d8322c873c226a020bf148b362de58b62a68fd1b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410942",
+        "mode": "33188",
+        "size": "116330",
+        "mtimeNs": "1790779428443612277",
+        "ctimeNs": "1790779428443612277",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/REVIEW_DIAGNOSTICS.json",
+      "bytes": 4537,
+      "sha256": "17d9ff8e2a11952bbf1a53a2512333ec765fcdb84b30bf0622934e6e2eaf2313",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411376",
+        "mode": "33188",
+        "size": "4537",
+        "mtimeNs": "1790779738426881126",
+        "ctimeNs": "1790779738426881126",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-independent-margin-review-FciZqSiY/check_metadata.py",
+      "bytes": 8351,
+      "sha256": "463fbd99e436bc2a113972d218331383a37d8f85e6968a7213e801e1ff2d2251",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "410941",
+        "mode": "33188",
+        "size": "8351",
+        "mtimeNs": "1790779424039508146",
+        "ctimeNs": "1790779424039508146",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/METADATA_CHECK.json",
+      "bytes": 116325,
+      "sha256": "c398f6fb86f9d8d658242d5802c0a61e887fdb1c800bf0e1c70e35e7898e23f5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411475",
+        "mode": "33188",
+        "size": "116325",
+        "mtimeNs": "1790780052567000882",
+        "ctimeNs": "1790780052567000882",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/NATIVE_SUCCESSOR_RESERVATION.json",
+      "bytes": 2446,
+      "sha256": "8810144710b6e9777cedd6c8d3d8038e84b4ec5a31fb09a9cf908763ba472439",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411480",
+        "mode": "33188",
+        "size": "2446",
+        "mtimeNs": "1790780151179317984",
+        "ctimeNs": "1790780151179317984",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI153_ROOT_ADJUDICATION.json",
+      "bytes": 13692,
+      "sha256": "32fdceef9651d5a97e22060a5c2040cb53f250d8e7c66ff43c199bd18b73b0f2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411478",
+        "mode": "33188",
+        "size": "13692",
+        "mtimeNs": "1790780151168280137",
+        "ctimeNs": "1790780151168280137",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/RI155_UNIFORM_MARGIN_SCOPE_CLARIFICATION.json",
+      "bytes": 2308,
+      "sha256": "140abaff5921197b5ec56abb0e869cebc47c5f0dc09cbf37b69d562705e311b5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411691",
+        "mode": "33188",
+        "size": "2308",
+        "mtimeNs": "1790780696958887177",
+        "ctimeNs": "1790780696958887177",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/ROOT_MANUAL_REVIEW.md",
+      "bytes": 5207,
+      "sha256": "89f6c2e5a9797b3a4767e3d0573f75bdf924cf54ad3134341acde35b0cdd07f7",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411476",
+        "mode": "33188",
+        "size": "5207",
+        "mtimeNs": "1790780150106528999",
+        "ctimeNs": "1790780150106528999",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-root-relocation-review-3sgyua6i/NATIVE_REVIEW_ASSIGNMENT.json",
+      "bytes": 1372,
+      "sha256": "88292622081b1e6bbd14d4614df6496b5536e1b28b5b6833458198343bbe9056",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411770",
+        "mode": "33188",
+        "size": "1372",
+        "mtimeNs": "1790781742568644571",
+        "ctimeNs": "1790781742568644571",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/ACTUAL_CHECKS.json",
+      "bytes": 5422,
+      "sha256": "b6c8b086d696e9501ceb8e0c8ebe20a0c79a14d3f345c20219718d0682b839a9",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412020",
+        "mode": "33188",
+        "size": "5422",
+        "mtimeNs": "1790782557975095762",
+        "ctimeNs": "1790782557975095762",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412015",
+        "mode": "33188",
+        "size": "0",
+        "mtimeNs": "1790782042865306191",
+        "ctimeNs": "1790782042865324025",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/CHECK.stdout",
+      "bytes": 408,
+      "sha256": "5aceaf82849ed5b855f62c82c27d8ca321ba814f56ed63583744f61b51139225",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412014",
+        "mode": "33188",
+        "size": "408",
+        "mtimeNs": "1790782043100828143",
+        "ctimeNs": "1790782043100828143",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/FINAL_PIN_CHECK.json",
+      "bytes": 5692,
+      "sha256": "3226f398ac73d57ad4bc679bf6bf20f85fe074967195516d91b2ebcc545abf4a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412023",
+        "mode": "33188",
+        "size": "5692",
+        "mtimeNs": "1790782565139236115",
+        "ctimeNs": "1790782565139236115",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/HANDOFF.json",
+      "bytes": 5091,
+      "sha256": "3d312d6fdec735e52e3b7027314a4196cb4aa2ec648337f7381487b2f64a957a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412024",
+        "mode": "33188",
+        "size": "5091",
+        "mtimeNs": "1790782565188168380",
+        "ctimeNs": "1790782565188168380",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 20271,
+      "sha256": "8a21f89e29a60ea460671aa2ec7d7689474d125545355e559d4bd9528b4103fc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412019",
+        "mode": "33188",
+        "size": "20271",
+        "mtimeNs": "1790782444341382870",
+        "ctimeNs": "1790782444341382870",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/METADATA_CHECK.json",
+      "bytes": 1980257,
+      "sha256": "d85b9ced889a38505070973734d0aaf31a4d0df8191720fe8f460790c873cbea",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412016",
+        "mode": "33188",
+        "size": "1980257",
+        "mtimeNs": "1790782043095092316",
+        "ctimeNs": "1790782043095092316",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/VERDICT.json",
+      "bytes": 4101,
+      "sha256": "e276bf554816c1742a983e51c2adb1d4afe7b7ce7df8d4ea27acdb528b645cec",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412021",
+        "mode": "33188",
+        "size": "4101",
+        "mtimeNs": "1790782557986489989",
+        "ctimeNs": "1790782557986489989",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/check_metadata.py",
+      "bytes": 10998,
+      "sha256": "c506b2dae3291e1535ea71fba2b15e0891a9e30ba0d3b64336bc0c92c1d7135a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412013",
+        "mode": "33188",
+        "size": "10998",
+        "mtimeNs": "1790782042864849567",
+        "ctimeNs": "1790782042864849567",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-independent-capacity-review-3gu50gvs/seal_review.py",
+      "bytes": 4548,
+      "sha256": "b8f8efbd3adcbfc86bbb910546a7bcbed2869d5c9667a33a18ac2d635da5821c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412022",
+        "mode": "33188",
+        "size": "4548",
+        "mtimeNs": "1790782557993600074",
+        "ctimeNs": "1790782557993600074",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/METADATA_CHECK.json",
+      "bytes": 1980268,
+      "sha256": "520541febdcce3cb9999b5fb8843f91d3538046e9f89e19bfda8640892c76372",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412036",
+        "mode": "33188",
+        "size": "1980268",
+        "mtimeNs": "1790783603705984242",
+        "ctimeNs": "1790783603705984242",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+      "bytes": 2632,
+      "sha256": "7985a580d642c793da71a185d0f3d7efcf98b7ad34fe558acb66e8e0997025b9",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412045",
+        "mode": "33188",
+        "size": "2632",
+        "mtimeNs": "1790784046911277593",
+        "ctimeNs": "1790784046911277593",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI155_ROOT_ADJUDICATION.json",
+      "bytes": 3559,
+      "sha256": "7b2ca8796cf601fd231b511f6ac0fd9f8778d44a20f69cb8808ee131171017e6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412043",
+        "mode": "33188",
+        "size": "3559",
+        "mtimeNs": "1790784046910125517",
+        "ctimeNs": "1790784046910125517",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/RI157_GRID_PREMISE_CLARIFICATION.json",
+      "bytes": 1475,
+      "sha256": "717df9065eebea27673919656c84b821a9ccd8dff3c322209e8961715a893dc8",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412243",
+        "mode": "33188",
+        "size": "1475",
+        "mtimeNs": "1790784373914031157",
+        "ctimeNs": "1790784373914031157",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_MANUAL_REVIEW.md",
+      "bytes": 7134,
+      "sha256": "4fcf72ce95f02636c84dd13dc6556b4a75ae463f871c812bfe2db2df1e3aefb0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412037",
+        "mode": "33188",
+        "size": "7134",
+        "mtimeNs": "1790783746462069141",
+        "ctimeNs": "1790783746462069141",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/ROOT_METADATA_REPLAY.json",
+      "bytes": 2623,
+      "sha256": "0bbd08860f16afb40b0d212c1762255f0d2a79f1900e8f9521bfa99f2efdc476",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412042",
+        "mode": "33188",
+        "size": "2623",
+        "mtimeNs": "1790784046908454070",
+        "ctimeNs": "1790784046908454070",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/adjudicate_native.py",
+      "bytes": 6922,
+      "sha256": "caf6765abd77ed4b3ba99159c3beb2bbed4f957ce24eb96b99aa22356334f7d1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412041",
+        "mode": "33188",
+        "size": "6922",
+        "mtimeNs": "1790784046807184974",
+        "ctimeNs": "1790784046807184974",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-root-capacity-review-0f1typdz/check_native.py",
+      "bytes": 11039,
+      "sha256": "323fe6335562446e0379b1f384e792f50eb909e6179a5508be6b063afd8344cc",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412035",
+        "mode": "33188",
+        "size": "11039",
+        "mtimeNs": "1790783603472848166",
+        "ctimeNs": "1790783603472848166",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/ANALYTIC_RESULT.json",
+      "bytes": 4031,
+      "sha256": "fd5c26ace1bf25d2e03643350800d697ac21ef88b2bf7132f8efff36ab26a9e4",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411715",
+        "mode": "33188",
+        "size": "4031",
+        "mtimeNs": "1790781021079335392",
+        "ctimeNs": "1790781021079335392",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/AUTHOR_CHECKS.json",
+      "bytes": 15758,
+      "sha256": "f1841488670b4d71fd6e3ea48a1d15dc9c8e386d22b4e9ad9b1756780de94df2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411731",
+        "mode": "33188",
+        "size": "15758",
+        "mtimeNs": "1790781260881112139",
+        "ctimeNs": "1790781260881112139",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_COMPARISON.md",
+      "bytes": 12875,
+      "sha256": "f31c55d31f253b25fb7a748e54cb06a4a14ba46ad3aad1a3ed909825673b8873",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411718",
+        "mode": "33188",
+        "size": "12875",
+        "mtimeNs": "1790781215399953398",
+        "ctimeNs": "1790781215399953398",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/CAPACITY_STRUCTURE.md",
+      "bytes": 15579,
+      "sha256": "54fa9b1e421520527a2403e20d0e243f257bdc8ef244e945200e4a652ab3d936",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411714",
+        "mode": "33188",
+        "size": "15579",
+        "mtimeNs": "1790781060095099105",
+        "ctimeNs": "1790781060095099105",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/DEPENDENCY_NOTES.md",
+      "bytes": 12969,
+      "sha256": "b45123542b00ed32ed8f508896776e2935ab00fbb825be2171a71d52d862408f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411709",
+        "mode": "33188",
+        "size": "12969",
+        "mtimeNs": "1790780943362188522",
+        "ctimeNs": "1790780943362188522",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.json",
+      "bytes": 8064,
+      "sha256": "d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411732",
+        "mode": "33188",
+        "size": "8064",
+        "mtimeNs": "1790781290879693500",
+        "ctimeNs": "1790781290879693500",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/HANDOFF.md",
+      "bytes": 3033,
+      "sha256": "8c1b1a91ece04bdbddcf0d8791d9b083d34a59155536fe20a725d7cfb1e284bd",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411716",
+        "mode": "33188",
+        "size": "3033",
+        "mtimeNs": "1790781021082628478",
+        "ctimeNs": "1790781021082628478",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_DEPENDENCIES.json",
+      "bytes": 174260,
+      "sha256": "c58ffadd73d363c1b56815ad11ae5042967be08e60a869bfcedafc2daee82462",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411687",
+        "mode": "33188",
+        "size": "174260",
+        "mtimeNs": "1790780859883908994",
+        "ctimeNs": "1790780859883908994",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/SOURCE_IDENTITIES.json",
+      "bytes": 28089,
+      "sha256": "95b2a7df278506cd796d948789eaff9d7cbcc24d7845dc256d31b2ccfeb3bdc3",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411688",
+        "mode": "33188",
+        "size": "28089",
+        "mtimeNs": "1790780879796156109",
+        "ctimeNs": "1790780879796156109",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri155-strict-capacity-proof-jv0xliup/STRICT_CAPACITY_SYNTHESIS.md",
+      "bytes": 12373,
+      "sha256": "01c43f913bac3351982e8f529606f2e7aff56b0ea358caaceb66507503b2f361",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "411713",
+        "mode": "33188",
+        "size": "12373",
+        "mtimeNs": "1790780963259200416",
+        "ctimeNs": "1790780963259200416",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/ANALYTIC_RESULT.json",
+      "bytes": 4924,
+      "sha256": "c5ef9e86cd37ad5943c71239774bc1e08a5d057fff02e101a8933e561152fb20",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412316",
+        "mode": "33188",
+        "size": "4924",
+        "mtimeNs": "1790784901848775212",
+        "ctimeNs": "1790784901848775212",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/AUTHOR_CHECKS.json",
+      "bytes": 16077,
+      "sha256": "44d6601e1b75b3889f0d3c0ed0fd89cdb401bb81f2e799b14ec979ea2f7d4e18",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412321",
+        "mode": "33188",
+        "size": "16077",
+        "mtimeNs": "1790785169880032189",
+        "ctimeNs": "1790785169880032189",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CANONICAL_CAP_BOUND.md",
+      "bytes": 12849,
+      "sha256": "abff2d8a473634532dc8690556a2ce828f80cde0ff1704068ec2445778462125",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412311",
+        "mode": "33188",
+        "size": "12849",
+        "mtimeNs": "1790784889224988471",
+        "ctimeNs": "1790784889224988471",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CAPACITY_SYNTHESIS.md",
+      "bytes": 11966,
+      "sha256": "25646b02bd021a8de23b89d8841621c70bbcecf97fe59164ac63d620b9cea7dd",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412306",
+        "mode": "33188",
+        "size": "11966",
+        "mtimeNs": "1790784727919992098",
+        "ctimeNs": "1790784727919992098",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/CORRELATED_CONTRAST_BOUND.md",
+      "bytes": 13521,
+      "sha256": "db68169effdd98c500376afd2f93a658ad675e594028bf6348c9257311426524",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412284",
+        "mode": "33188",
+        "size": "13521",
+        "mtimeNs": "1790784838413322076",
+        "ctimeNs": "1790784838413322076",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/DEPENDENCY_NOTES.md",
+      "bytes": 15485,
+      "sha256": "01b6a54d3b55533e7f1ee3b979fdf0c07991bec18ac88c6f44defe6a4c83018f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412283",
+        "mode": "33188",
+        "size": "15485",
+        "mtimeNs": "1790784857200370227",
+        "ctimeNs": "1790784857200370227",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.json",
+      "bytes": 10114,
+      "sha256": "968e3c853ce107aceff080126b8ca22f8ba846bbba914ff0b13a32360c660b8c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412322",
+        "mode": "33188",
+        "size": "10114",
+        "mtimeNs": "1790785194141866664",
+        "ctimeNs": "1790785194141866664",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/HANDOFF.md",
+      "bytes": 3282,
+      "sha256": "57f38195d6b6f6b2f1f0e90f93c880b97ce507947d050412cf22779bbe0265fb",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412317",
+        "mode": "33188",
+        "size": "3282",
+        "mtimeNs": "1790784942366389671",
+        "ctimeNs": "1790784942366389671",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_DEPENDENCIES.json",
+      "bytes": 201161,
+      "sha256": "368790622693cc600168c363a83a8a1bdd2831f21e49bbe1fb27aef1be812c79",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412239",
+        "mode": "33188",
+        "size": "201161",
+        "mtimeNs": "1790784733177680240",
+        "ctimeNs": "1790784733177680240",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-correlated-capacity-proof-tusjyk77/SOURCE_IDENTITIES.json",
+      "bytes": 33170,
+      "sha256": "41ce90f61723ae09c915b424d8a92b3a605d59ce1a99be7fe1905ea25f672180",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412240",
+        "mode": "33188",
+        "size": "33170",
+        "mtimeNs": "1790784765557421009",
+        "ctimeNs": "1790784765557421009",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/ACTUAL_CHECKS.json",
+      "bytes": 3867,
+      "sha256": "98b31e80797c181eca9a733e34a344a0b27a03382b427ca70e7753666ecb1c62",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412525",
+        "mode": "33188",
+        "size": "3867",
+        "mtimeNs": "1790786009156101839",
+        "ctimeNs": "1790786009156101839",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412502",
+        "mode": "33188",
+        "size": "0",
+        "mtimeNs": "1790785692200309198",
+        "ctimeNs": "1790785692200330573",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/CHECK.stdout",
+      "bytes": 515,
+      "sha256": "6c28e6a38556ad0708dc392faad7ca3d87e1eaa7e43d1c987ddafc7f8f7af62b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412501",
+        "mode": "33188",
+        "size": "515",
+        "mtimeNs": "1790785692338082814",
+        "ctimeNs": "1790785692338082814",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/FINAL_PIN_CHECK.json",
+      "bytes": 3484,
+      "sha256": "40c2d0d379de4b15079c4c3c606f2349c4b3353807ba13f16e8594210ba4da78",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412527",
+        "mode": "33188",
+        "size": "3484",
+        "mtimeNs": "1790786009237936146",
+        "ctimeNs": "1790786009237936146",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/HANDOFF.json",
+      "bytes": 5929,
+      "sha256": "daccfac1950db64177f5ad6d4fbb2a30fe329ae88efc6bd4b01fe6f9786a36f1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412528",
+        "mode": "33188",
+        "size": "5929",
+        "mtimeNs": "1790786009249665927",
+        "ctimeNs": "1790786009249665927",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/INDEPENDENT_PROOF_REVIEW.md",
+      "bytes": 18574,
+      "sha256": "0cee852db8a9513e8480c4abcd0e9cdb2edbc4431274ba2d29b77a97c147050a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412523",
+        "mode": "33188",
+        "size": "18574",
+        "mtimeNs": "1790785888003771344",
+        "ctimeNs": "1790785888003771344",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/METADATA_CHECK.json",
+      "bytes": 3070932,
+      "sha256": "c342bdd15842ed987200f645ea9551a9b75fd077b4d9039708fd1695472c34c1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412503",
+        "mode": "33188",
+        "size": "3070932",
+        "mtimeNs": "1790785692329031654",
+        "ctimeNs": "1790785692329031654",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/VERDICT.json",
+      "bytes": 3700,
+      "sha256": "9722fab91c20b8653435b74e2665bc8b5e92cb093506b192361df4f74f7ef5b9",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412524",
+        "mode": "33188",
+        "size": "3700",
+        "mtimeNs": "1790786009114165221",
+        "ctimeNs": "1790786009114165221",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/check_metadata.py",
+      "bytes": 13326,
+      "sha256": "28a94915df18320ef1ce5ace56b09acc660e9c9299d5a7c3fdd82bad86dbd01e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412500",
+        "mode": "33188",
+        "size": "13326",
+        "mtimeNs": "1790785692199815860",
+        "ctimeNs": "1790785692199815860",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-independent-cap-review-wt1tl1ip/seal_review.py",
+      "bytes": 5133,
+      "sha256": "458c07a1977e2e77939ef2b38358b41551a0c6e55278e9d65dc539c5905e8ac2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412526",
+        "mode": "33188",
+        "size": "5133",
+        "mtimeNs": "1790786009162338997",
+        "ctimeNs": "1790786009162338997",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/METADATA_CHECK.json",
+      "bytes": 3070926,
+      "sha256": "aa313e2f9bc346b654dd8604d4ef3a15592ae6d67ff52f387e04a7645a5ae598",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412556",
+        "mode": "33188",
+        "size": "3070926",
+        "mtimeNs": "1790787507916668190",
+        "ctimeNs": "1790787507916668190",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/RI157_ROOT_ADJUDICATION.json",
+      "bytes": 2404,
+      "sha256": "d052d2c1f51691a861792690a89d8175755c8bffd5016a81b892c8d7abd76950",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412560",
+        "mode": "33188",
+        "size": "2404",
+        "mtimeNs": "1790787660223202923",
+        "ctimeNs": "1790787660223202923",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_MANUAL_REVIEW.md",
+      "bytes": 4362,
+      "sha256": "3040fadd824a82b8aee1c51338719ff79da7a3eb0d1c56ce9c1816588dba2b05",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412559",
+        "mode": "33188",
+        "size": "4362",
+        "mtimeNs": "1790787660221770382",
+        "ctimeNs": "1790787660221770382",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/ROOT_METADATA_REPLAY.json",
+      "bytes": 1658,
+      "sha256": "dcef7aa329d38c750421dc127d1cb0afe8057cc30f22e27eecdb26024b1c9f10",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412558",
+        "mode": "33188",
+        "size": "1658",
+        "mtimeNs": "1790787660221113466",
+        "ctimeNs": "1790787660221113466",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-adjudication-q_wj4pny/check_native.py",
+      "bytes": 13315,
+      "sha256": "fc5d694e6104ead02cf93f1bdc430c4c015afc86a970470fb80829738c3eeff1",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412553",
+        "mode": "33188",
+        "size": "13315",
+        "mtimeNs": "1790787507724760931",
+        "ctimeNs": "1790787507724760931",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_PRELIMINARY_REVIEW.md",
+      "bytes": 3407,
+      "sha256": "de26186f0bb11d95cecd3e297fbb19cbcaff80e07d758b5b6ab4b08d177d2bca",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412351",
+        "mode": "33188",
+        "size": "3407",
+        "mtimeNs": "1790785518398831265",
+        "ctimeNs": "1790785518398831265",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri157-root-review-jco7p6tf/NATIVE_REVIEW_ASSIGNMENT.json",
+      "bytes": 1764,
+      "sha256": "8a007487ce1abb1c57a41cdc222327a8bf2e31ce4107dad8e85c22a7d55d2269",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "412342",
+        "mode": "33188",
+        "size": "1764",
+        "mtimeNs": "1790785255255608364",
+        "ctimeNs": "1790785255255608364",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/NATIVE_SUCCESSOR_ASSIGNMENT.json",
+      "bytes": 2804,
+      "sha256": "1ffbacf70b7a424205f89cb77a6395604a137cdab25005db71a0d4a9eb117f8f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "414155",
+        "mode": "33188",
+        "size": "2804",
+        "mtimeNs": "1790798594573980227",
+        "ctimeNs": "1790798594573980227",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/AUTHOR_CHECKS.json",
+      "bytes": 32382,
+      "sha256": "48f79e3b31a47c4b4e4d81a90b1ccc7f6d56102871998f9b833b0b75fd936dba",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417460",
+        "mode": "33188",
+        "size": "32382",
+        "mtimeNs": "1790799427963745465",
+        "ctimeNs": "1790799427963745465",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/CONTRAST_COUPLING.md",
+      "bytes": 11920,
+      "sha256": "cfb1c64f3e9d8caa28427cf9a6acb993d85d52bec5e4d7f8458c4da43273fd51",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417203",
+        "mode": "33188",
+        "size": "11920",
+        "mtimeNs": "1790799372055672603",
+        "ctimeNs": "1790799372055672603",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/DEPENDENCY_NOTES.md",
+      "bytes": 16754,
+      "sha256": "24efe0e868394b670038d1fc7966f63a056c077e1ae5ae4197ccbd3b9710c498",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417204",
+        "mode": "33188",
+        "size": "16754",
+        "mtimeNs": "1790799125683312947",
+        "ctimeNs": "1790799125683312947",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.json",
+      "bytes": 7884,
+      "sha256": "418f9577fb0adb0e5f775c20b5e68903c76255154dc036f5fd979bf7fe392048",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417465",
+        "mode": "33188",
+        "size": "7884",
+        "mtimeNs": "1790799484717235206",
+        "ctimeNs": "1790799484717235206",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/HANDOFF.md",
+      "bytes": 2610,
+      "sha256": "4d271fee887b0e2b28a76ae480f8d7d9ae0d0b88dc3c1286316557a074274965",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417265",
+        "mode": "33188",
+        "size": "2610",
+        "mtimeNs": "1790799372056130521",
+        "ctimeNs": "1790799372056130521",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/REDUCED_SYSTEM.md",
+      "bytes": 15927,
+      "sha256": "0188b268a391da30b2fedfbd67c2f3d2d44303f1dcaefb7a0eb2b134cb682f02",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417206",
+        "mode": "33188",
+        "size": "15927",
+        "mtimeNs": "1790799273237608924",
+        "ctimeNs": "1790799273237608924",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_DEPENDENCIES.json",
+      "bytes": 228353,
+      "sha256": "be240c6accdc71867af794339d511657c0e002f9a4ab3543d10d24cd19429d66",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417185",
+        "mode": "33188",
+        "size": "228353",
+        "mtimeNs": "1790798888707101695",
+        "ctimeNs": "1790798888707101695",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-native-contrast-gap-2j9ykuoq/SOURCE_IDENTITIES.json",
+      "bytes": 40504,
+      "sha256": "28e9032dbaa8d49bf683c3b7c84f413896f4ddcce178e0365e65eed0f3e6c16e",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417193",
+        "mode": "33188",
+        "size": "40504",
+        "mtimeNs": "1790798930562711043",
+        "ctimeNs": "1790798930562711043",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_METADATA_RECHECK.json",
+      "bytes": 165522,
+      "sha256": "d92d53c4f480d1488fed127639c1cd1510d9d9c44c8e5fcc3d5dd456125b4c3d",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417515",
+        "mode": "33188",
+        "size": "165522",
+        "mtimeNs": "1790800079460759638",
+        "ctimeNs": "1790800079460759638",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri166-root-proof-outcomes-u3c1eicb/ROOT_PROOF_REVIEW.md",
+      "bytes": 6009,
+      "sha256": "4cd94482cc501ce5f0b6fd563350ed3b00b6c4e75108eef864b57d34eb845e4f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "417518",
+        "mode": "33188",
+        "size": "6009",
+        "mtimeNs": "1790800219845420560",
+        "ctimeNs": "1790800219845420560",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "bytes": 2783,
+      "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "388998",
+        "mode": "33188",
+        "size": "2783",
+        "mtimeNs": "1790309720227792573",
+        "ctimeNs": "1790309720227792573",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/ANALYTIC_PREFIX_LEMMAS.md",
+      "bytes": 7886,
+      "sha256": "7e07f55a24aa6feb2859bc594786b8748ebc7eb73dce210e70eee0e25c3bb247",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395936",
+        "mode": "33188",
+        "size": "7886",
+        "mtimeNs": "1790469267040151359",
+        "ctimeNs": "1790469267040151359",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F2_ANALYTIC_CHECK.md",
+      "bytes": 10742,
+      "sha256": "81c0e90759acb6835a3a64b05088a9222bb19ba2e2c6a5acefb157110f996833",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395940",
+        "mode": "33188",
+        "size": "10742",
+        "mtimeNs": "1790469267043323510",
+        "ctimeNs": "1790469267043323510",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/F3_ANALYTIC_CHECK.md",
+      "bytes": 8244,
+      "sha256": "d2b68390ad81f176bc2ff6a36290a9c18877459b985ad736f06d80d7c35785f2",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395941",
+        "mode": "33188",
+        "size": "8244",
+        "mtimeNs": "1790469267044147767",
+        "ctimeNs": "1790469267044147767",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_connected_sensitivity_v1/check.py",
+      "bytes": 66669,
+      "sha256": "51c90364d76078d0202cebf96c23e0a71f36b718caa8df5b215bb3ae1e37174f",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395950",
+        "mode": "33188",
+        "size": "66669",
+        "mtimeNs": "1790469267051821203",
+        "ctimeNs": "1790469267051821203",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/ANALYTIC_REDUCTION.md",
+      "bytes": 15564,
+      "sha256": "9726383aabb01cfa922b90f64bd572ac0a04a390111f57e722ed29d896289194",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395616",
+        "mode": "33188",
+        "size": "15564",
+        "mtimeNs": "1790466816786019510",
+        "ctimeNs": "1790466816786019510",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_coupled_positive_family_v1/CONNECTED_CONSTRAINTS_LEMMA.md",
+      "bytes": 11893,
+      "sha256": "ede2d82067a4259266d61988e0897756507e06b28040d8d5bd324991aa79dad0",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395618",
+        "mode": "33188",
+        "size": "11893",
+        "mtimeNs": "1790466816797149418",
+        "ctimeNs": "1790466816797149418",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/COMPLETION.md",
+      "bytes": 17102,
+      "sha256": "e99ea92b13687d7de6ad4db2bec9161397edb8ddacac18f6b32966e58ca85122",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "375356",
+        "mode": "33188",
+        "size": "17102",
+        "mtimeNs": "1790238943865834871",
+        "ctimeNs": "1790238943865834871",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_expected_defect_completion_v1/check.py",
+      "bytes": 60424,
+      "sha256": "39d64d11c20675c08e430ceeb335f5b879ffdede1b61ed9fa48f402f21e69b2b",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "375466",
+        "mode": "33188",
+        "size": "60424",
+        "mtimeNs": "1790237789145581974",
+        "ctimeNs": "1790237789145581974",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_fixed_amplitude_lift_v1/AMPLITUDE.md",
+      "bytes": 17366,
+      "sha256": "bef68897a4d91e24deab41b9bcd3b9fd03edcc55e41b12fd9e4be31ea38081ba",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "392403",
+        "mode": "33188",
+        "size": "17366",
+        "mtimeNs": "1790335631062619247",
+        "ctimeNs": "1790335631062619247",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_check_v1/check.py",
+      "bytes": 66081,
+      "sha256": "93eb721e933d90ba922b62f8a6844b64529d2acee1ae3bb3e15c81c4de153568",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "388551",
+        "mode": "33188",
+        "size": "66081",
+        "mtimeNs": "1790306826703634500",
+        "ctimeNs": "1790306826703634500",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_four_vertex_cap_v1/DESIGN.md",
+      "bytes": 28127,
+      "sha256": "e0dd0b046d80564ddc4e6ffef78853156f5c418b327917f1d5fadc4e229ab58a",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "388402",
+        "mode": "33188",
+        "size": "28127",
+        "mtimeNs": "1790305281946664824",
+        "ctimeNs": "1790305281946664824",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_full_birth_repair_v1/REPAIR.md",
+      "bytes": 20198,
+      "sha256": "8a2a4bf9142341e2511763cbfd799183860e907372d577b9b32d8c1cf24a955c",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "392590",
+        "mode": "33188",
+        "size": "20198",
+        "mtimeNs": "1790337149665570368",
+        "ctimeNs": "1790337149665570368",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+      "bytes": 16243,
+      "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "373286",
+        "mode": "33188",
+        "size": "16243",
+        "mtimeNs": "1790220062695783766",
+        "ctimeNs": "1790220062695783766",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/check.py",
+      "bytes": 13219,
+      "sha256": "f33a2345608867138f1036da6a020beb6608e3f58fc3032ceb1d3c3d5c9f90c5",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "373178",
+        "mode": "33188",
+        "size": "13219",
+        "mtimeNs": "1790219166675336222",
+        "ctimeNs": "1790219166675336222",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_one_column_rank_check_v1/RESULT_REVIEW.md",
+      "bytes": 6498,
+      "sha256": "0489c1cea77f8cc6cf0b93ee15b0423181fb274a963e8d9fbbffedf4c38d0a01",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "395373",
+        "mode": "33188",
+        "size": "6498",
+        "mtimeNs": "1790464897197957311",
+        "ctimeNs": "1790464897197957311",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_criterion_v1/CRITERION.md",
+      "bytes": 22701,
+      "sha256": "65c779a8e189adf9a6d5033310b9d1d7521b5051bd371a5112ef3273f3273675",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "372937",
+        "mode": "33188",
+        "size": "22701",
+        "mtimeNs": "1790217824034950784",
+        "ctimeNs": "1790217824034950784",
+        "nlink": "1"
+      }
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_joint_growth_extension_v1/EXTENSION.md",
+      "bytes": 18800,
+      "sha256": "61423e355f508021f05cd941e5a0dbed62661c76ba750766583fd4b8c619e716",
+      "fresh_state": {
+        "dev": "16777244",
+        "ino": "372770",
+        "mode": "33188",
+        "size": "18800",
+        "mtimeNs": "1790216513682209902",
+        "ctimeNs": "1790216513682209902",
+        "nlink": "1"
+      }
+    }
+  ],
+  "author_checker_source_was_read_not_executed": true,
+  "mathematical_arithmetic_or_graph_executed": false,
+  "scientific_json_or_vector_decoded": false,
+  "subject_vendor_or_helper_import_compile_ast_execution": false,
+  "historical_phase_pins_recertified_as_current": false,
+  "continuous_custody_or_operational_admission_claim": false,
+  "writes": [
+    "/Volumes/AI_DATA/development/det-review-evidence/ri168-independent-proof-review-ioq3jbwc/ADMINISTRATIVE_REVIEW.json"
+  ],
+  "note": "Read-window checks use fresh stat observations; old state arrays remain historical. Literal proof reading is recorded separately. No command-history receipt is authenticated as an executed event merely by hashing its containing record."
+}

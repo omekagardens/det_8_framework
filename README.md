@@ -1,103 +1,134 @@
 # DET v8.0 — Deep Existence Theory
 
-A disciplined two-track framework: a **record-kernel physical calculus** with correspondence checks and governed falsifiers, and an **ontological grammar** addressing four major deadlocks in the philosophy of physics.
+DET is a research framework for records, causal order and possible physical
+laws. This repository contains software models, conditional
+mathematics, finite simulations and experimental-analysis tools. Their evidence
+and success criteria are distinct: a passing software check or a conventional
+data replay does not establish the physical theory.
 
-## Quick Reference
+**Published research snapshot: 18 October 2026.** The current native result is a
+[consolidated conditional theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md),
+with a separate [law-dependence result](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md).
+Start there for the mathematical statements and their dependencies. Later local
+work is not part of this published snapshot merely because it appears in a
+coordination discussion.
 
-| Document | Content |
-|---|---|
-| [`MODEL_CARD.md`](MODEL_CARD.md) | **Primary reference.** Primitives, 10 active + 5 retired correspondence checks, 1 prediction, RET research, formulas, and test coverage. |
-| [`PHYSICS.md`](PHYSICS.md) | Track A — falsifiable predictions, experimental designs, anti-smuggling audit. |
-| [`ONTOLOGY.md`](ONTOLOGY.md) | Track B — four deadlocks (time, quantum, agency, history), metaphysics ledger, agency quarantine. |
-| [`docs/track_b/gravity.md`](docs/track_b/gravity.md) | Track B — gravity as the geometry of the growing record (Problem of Time, openness unification, present-tense constraints). |
-| [`GOVERNANCE.md`](GOVERNANCE.md) | F8-OPEN protocol, adversary classes, claim register, decision gates, Bell position. |
-| [`ROADMAP.md`](ROADMAP.md) | Phase history (P0.1→P0.8), current state, remaining work. |
-| [`docs/EXODUS_DET_TRANSLATION.md`](docs/EXODUS_DET_TRANSLATION.md) | Governed Exodus equation audit, DET momentum closure, and boundary/history simulations. |
-| [`docs/EXODUS_NEXT_RUNS.md`](docs/EXODUS_NEXT_RUNS.md) | Phase-2 boundary, momentum-inventory, history-detectability, and AC discriminator runs. |
-| [`docs/EXODUS_FIELD_RUN.md`](docs/EXODUS_FIELD_RUN.md) | Geometry-aware 2-D Maxwell-stress, chamber, reversal, and source-topology run. |
-| [`docs/EXODUS_FLOATING_SUPPLY_RUN.md`](docs/EXODUS_FLOATING_SUPPLY_RUN.md) | Charge-constrained floating-source, capacitance, leakage, and stray-capacitance run. |
-| [`docs/EXODUS_3D_APPARATUS_RUN.md`](docs/EXODUS_3D_APPARATUS_RUN.md) | Three-dimensional electrode, explicit-lead, terminal-capacitance, and leakage-path run. |
-| [`docs/EXODUS_RELATIONAL_TOMOGRAPHY.md`](docs/EXODUS_RELATIONAL_TOMOGRAPHY.md) | DET-native endpoint inference, rotation, nested closure, and matched-state history audit. |
-| [`docs/EXODUS_ADAPTIVE_SCHEDULER.md`](docs/EXODUS_ADAPTIVE_SCHEDULER.md) | Bayesian information-gain scheduling, control ablation, and novel-channel stopping gates. |
-| [`docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md`](docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md) | General hierarchical RET, question-conditioned scheduling, calibration, costs, model inadequacy, and closure. |
-| [`docs/NEUTRON_LIFETIME_RET.md`](docs/NEUTRON_LIFETIME_RET.md) | Published-aggregate neutron-lifetime inference and calibration-first next-action design. |
-| [`docs/MATHEMATICAL_SEARCHES.md`](docs/MATHEMATICAL_SEARCHES.md) | Proof-governed Riemann zero-spacing and bounded Collatz adaptive searches. |
-| [`docs/MATHEMATICAL_NEXT_RUNS.md`](docs/MATHEMATICAL_NEXT_RUNS.md) | Validated 512-zero Riemann extension and checkpointed Collatz frontier through 262,144. |
-| [`docs/RELATIONAL_RESIDUAL_DISCOVERY.md`](docs/RELATIONAL_RESIDUAL_DISCOVERY.md) | Non-Gaussian evidence, RG2 governance, Riemann spectroscopy, the frozen multistep Collatz follow-up, and the consumed-only accelerated endpoint prequalification through \(2^{22}\). |
-| [`docs/NAVIER_STOKES_NEAR_SINGULARITY.md`](docs/NAVIER_STOKES_NEAR_SINGULARITY.md) | Periodic 3-D Navier–Stokes calibration plus LPS, DET feature-graph, RET growth-score, phase-two transport, and phase-three long-horizon completion results. |
+## What is established
 
-## Highlights
+| Area | Published result | Boundary |
+| --- | --- | --- |
+| Native record-marked growth | An explicit positive extension through one additional birth layer at sufficiently small amplitude, under the admitted law and harmonic-support premises. | No uniform all-size harmonic continuation or physical spacetime map. |
+| Fixed-law kernel and exclusions | Complete signed-kernel classification on the stated 30-, 33- and 38-class supports; the prescribed positive affine endpoint at amplitude `1/4` fails on each. The kernel has dimension one or two depending on an unresolved canonical-coefficient equality. | These are fixed-law, fixed-support results. They do not exclude arbitrary supports, seeds or amplitudes. |
+| Law dependence | A positive last-layer scaling gives an admissible alternative finite prefix and changes an example-specific ratio. Naively extending that scaling across layers fails a mixed full/proper diamond. | Later layers must be rebuilt. Old coefficient, support and endpoint results cannot simply be transferred to the changed law. |
+| Software and finite studies | Research models, explicit witness suites and conventional data-analysis artifacts with stated contracts. | Check results are specific to their sources, inputs and environments; there is no blanket whole-tree or physical-validation claim. |
+| Measurement | Published conventional GWOSC analysis and qualification records; a new portable scientific replay is planned separately from full production qualification. | The prospective replay's scientific execution is pending in this published snapshot. Historical custody failures remain failures. |
 
-- **A relational ontology** — the record-kernel unification of existence, participation, and becoming (event graph ≺ → record → law map → commit kernel → participation aperture). The ontology is the point; the clock anomaly is an optional empirical probe.
-- **751/752 tests passing** — `python3 run_tests.py`
-- **10 active + 5 retired correspondence checks** — Born rule, CHSH, Lorentz covariance, pointer formation, amplitude structure (active); gravity/Kepler (retired, Option B)
-- **1 pre-registered prediction** — κ-Π clock anomaly (testable with atomic clocks); gravity is standard GR (Option B)
-- **6 major open problems addressed** (O1–O4 as CI/AT correspondence checks, O7/O8 — full uniqueness theorems remain open; see MODEL_CARD §6)
-- **128 model modules / 144 Python files** — core framework, applied physics, RET, governed mathematical searches, and bounded numerical studies
-- **DET 8 is a clean starting point** — no dependency on prior DET versions
+The theorem package prints the natural coordinates, complete reduced systems,
+recovery formulas and inherited coefficient assumptions. The historical
+coordinate dictionary, reproduction of the admitted finite certificates and the
+actual canonical branch remain open. Its arbitrary complex positive-semidefinite
+payload is scalar-passive; retaining it does not derive informative quantum
+dynamics.
 
-## Two Tracks
+The native physical forward map—from DET's records and growth law to a selected
+observable—has not been established. The metric-as-record proposal remains
+Status M. **Unchanged general relativity remains the gravitational baseline
+(Option B); the retired gravity modification is not restored by these results.**
+The separate RET research lane remains paused.
 
-**Track A (Physical Calculus):** Must be falsifiable. It currently has one pre-registered prediction, the κ-Π clock anomaly, gated on F9 and an independent κ measurement. The former κ-gravity program is retired; gravity is standard GR.
+## Where to start
 
-**Track B (Ontological Grammar):** Must be coherent, non-smuggling, and empirically compatible. It offers a governed synthesis for four deadlocks—time, quantum interpretation, agency, and history—while keeping its metaphysical claims distinct from physical evidence.
+| Document | Use |
+| --- | --- |
+| [Theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) | Exact admitted law, support, positive theorem, kernel, exclusions and unresolved premises. |
+| [Law dependence](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) | Structural identities, coordinate changes, optional prescriptions and the explicit alternative prefix. |
+| [Next steps](NEXT_STEPS.md) | Bounded deliverables, acceptance criteria and current pauses. |
+| [Implementation plan](REVIEW_IMPLEMENTATION_PLAN.md) | Current summary first, followed by the preserved chronological implementation record. |
+| [Original independent review](<indep ndent_review.md>) | The September 2026 assessment that motivated the implementation programme; preserved with its original scope and evidence limits. |
+| [Model card](MODEL_CARD.md) | Framework primitives, supported claims and historical model inventory. |
+| [Governance](GOVERNANCE.md) and [falsification ledger](FALSIFICATION_LEDGER.md) | Claim boundaries, decision gates, active and retired falsifiers. |
+| [Branch workflow](docs/BRANCH_WORKFLOW.md) | Reviewed integration from `ret` to `main`, maintenance checks and publication boundaries. |
 
-## Architecture
+The implementation plan and coordination records are additive histories. Earlier
+status statements remain useful provenance; the current summary and the scoped
+result document govern the claim being read. Integration into `main` does not
+upgrade an experiment, conditional theorem or historical execution record.
 
-DET's physical core uses a **record-kernel calculus**: the event graph (G = (V, ≺)) defines causal structure, node records store committed facts, the law map generates possibility objects, and commit kernels produce outcomes. The implemented quantum and Lorentz modules are correspondence checks; they do not yet constitute uniqueness derivations from DET primitives.
+## Programme and architecture
 
-## Running
+The record-kernel calculus separates causal structure, committed records, the
+law that generates possibilities and the kernel that assigns outcomes. The
+[core model implementation](det8/models/det8_core.py) is one software entry
+point. Importable research modules are not automatically supported APIs.
 
-```bash
-python3 run_tests.py   # 751/752 passing
-python3 -m det8.models.exodus_simulation  # governed research sandbox
-python3 -m det8.models.exodus_next_runs   # phase-2 discriminators
-python3 -m det8.models.exodus_field_solver  # 2-D Maxwell-stress run
-python3 -m det8.models.exodus_floating_supply  # floating-source charge run
-python3 -m det8.models.exodus_apparatus_3d  # 3-D apparatus and lead run
-python3 -m det8.models.exodus_relational_tomography  # endpoint tomography
-python3 -m det8.models.exodus_adaptive_scheduler  # adaptive interventions
-python3 -m det8.models.relational_experimental_calculus  # general RET/REC suite
-python3 -m det8.models.examples.neutron_lifetime  # neutron discrepancy adapter
-python3 -m det8.models.mathematical_searches  # bounded Riemann/Collatz searches
-python3 -m det8.models.mathematical_next_runs  # validated higher/frontier runs
-python3 -m det8.models.relational_residual_discovery  # RG2-governed discovery runs
-python3 -m det8.models.examples.collatz_multistep_replication  # ten-step transport run
-python3 -m det8.models.examples.navier_stokes_near_singularity  # NumPy phase-1 calibration
-python3 -m det8.models.examples.navier_stokes_relational_discovery  # NumPy DET/RET phase-2 scouts
-python3 -m det8.models.examples.navier_stokes_long_horizon_completion  # NumPy phase-3 conditional completion
+**Track A** concerns falsifiable physical claims. The documented κ-Π clock
+proposal remains gated on F9 and an independent κ measurement; its presence in
+the model inventory is not experimental validation. See [PHYSICS.md](PHYSICS.md)
+and the [falsification ledger](FALSIFICATION_LEDGER.md).
+
+**Track B** develops the ontological and mathematical programme. Its conditional
+reconstruction and growth results must keep additional assumptions visible.
+See [ONTOLOGY.md](ONTOLOGY.md), [record-kernel physics](docs/record_kernel_physics.md),
+[QR-MAP](docs/track_b/QR_MAP.md) and [gravity](docs/track_b/gravity.md).
+
+Current priorities are independently complete theorem and law-dependence
+deliverables, one prospective conventional GWOSC replay, and separately scoped
+physical-prediction and application-benchmark projects. An application benchmark
+must declare baselines, costs, failure rates and held-out evaluation; success
+does not establish DET physics. [NEXT_STEPS.md](NEXT_STEPS.md) gives the roadmap.
+
+## Running and checking
+
+Run commands from the repository root. Consult the selected component's
+documentation for dependencies and its execution contract. The standalone
+research-check registry supports Python 3.11 or later and uses the standard
+library; this does not imply that every research adapter has the same
+requirements.
+
+For ordinary repository integration, use the scoped checks in the
+[branch workflow](docs/BRANCH_WORKFLOW.md). Research execution is a separate
+choice and must respect the current pauses, protected inputs and run approvals.
+No new scientific execution or whole-repository pass count is asserted by this
+documentation update; the branch workflow records the scoped maintenance run.
+
+The explicit research registry can list and validate its fixed manifest without
+executing a witness suite:
+
+```sh
+.venv/bin/python -B scripts/run_research_checks.py --list
+.venv/bin/python -B scripts/run_research_checks.py --check
 ```
 
-The accelerated endpoint-matched successor is implemented in
-[`det8/models/examples/collatz_accelerated_endpoint.py`](det8/models/examples/collatz_accelerated_endpoint.py).
-Its consumed-only rolling tests did not prequalify the fixed valuation
-candidate, so no manifest was persisted and no start above \(2^{22}\) was
-accessed. The two planned higher bands remain preserved; there is intentionally
-no future-run command in this quick-start list.
+Create/select an appropriate Python environment before using those paths. See
+[Research checks](docs/RESEARCH_CHECKS.md) for selected-suite execution, source
+identity checks and the meaning of a successful finite witness. Its registry
+does not discover or execute every research directory.
 
-The default Navier–Stokes suite may still return `NUMERICAL_MODEL_REVISION`,
-but its checked adaptive branch now uses one seed-defined,
-resolution-invariant Fourier initial condition. The \(N=40/48\) actions are
-admitted resolved transients, their spatial transport passes, and the \(N=40\)
-timestep-halving audit passes. The branch state is
-`RESOLVED_TRANSIENT_AMPLIFICATION_NO_NEAR_SINGULAR_SCALING`; all grids through
-\(N=48\) remain calibration only, with no proof, RG2 evaluation, or
-replication claim. See
-[`docs/NAVIER_STOKES_NEAR_SINGULARITY.md`](docs/NAVIER_STOKES_NEAR_SINGULARITY.md).
+The historical broad runner is still available:
 
-The phase-two discovery layer lowers viscosity and extends the horizon in
-separate scouts, records LPS norms and intense-vorticity relations, and freezes
-a dependent 70/30 growth-model score. Phase three reproduces the exact
-long-horizon (N=48) anchor, transports it spatially to an admitted (N=56)
-run, and conditionally completes a 2:1 timestep-cap check at (N=48). All
-transport and timestep gates pass, all (L^9) velocity norms decrease from
-their initial value, and the frozen growth comparison continues to prefer a
-saturating exponential over the open alternatives. This is an (N=56)
-spatial result with temporal stability checked at (N=48), not a complete
-spatiotemporal convergence rectangle. The development ledger carries no
-posterior, RG2, independent-replication, singularity, regularity, or proof
-claim.
+```sh
+python3 run_tests.py
+```
 
-## Status
+It runs research and numerical work, including RET-related studies. It is **not
+a routine merge gate** and should not be run while that research is paused.
+Individual study entry points and their prerequisites are documented below;
+listing them here does not authorize another experiment or consume a holdout.
 
-The framework, RET tooling, and bounded research adapters are implemented and internally tested. Empirical validation, independent replication, and the open analytic/continuum theorem programs remain future work.
+## Earlier studies and tools
+
+| Area | Documentation |
+| --- | --- |
+| Experimental inference | [Relational Experimental Calculus](docs/RELATIONAL_EXPERIMENTAL_CALCULUS.md), [Novelty Ledger](NOVELTY_LEDGER.md) |
+| Exodus apparatus and endpoint models | [Equation audit](docs/EXODUS_DET_TRANSLATION.md), [next runs](docs/EXODUS_NEXT_RUNS.md), [2-D field model](docs/EXODUS_FIELD_RUN.md), [floating supply](docs/EXODUS_FLOATING_SUPPLY_RUN.md), [3-D apparatus](docs/EXODUS_3D_APPARATUS_RUN.md), [tomography](docs/EXODUS_RELATIONAL_TOMOGRAPHY.md), [scheduler](docs/EXODUS_ADAPTIVE_SCHEDULER.md) |
+| Neutron lifetime | [Published-aggregate analysis and calibration prerequisites](docs/NEUTRON_LIFETIME_RET.md) |
+| Riemann and Collatz | [Bounded searches](docs/MATHEMATICAL_SEARCHES.md), [next-run protocols](docs/MATHEMATICAL_NEXT_RUNS.md), [residual discovery and preserved higher-band gates](docs/RELATIONAL_RESIDUAL_DISCOVERY.md) |
+| Navier–Stokes | [Numerical protocol, finite results and convergence limits](docs/NAVIER_STOKES_NEAR_SINGULARITY.md) |
+| Conventional GWOSC processing | [Input qualification](docs/experiments/gwosc_input_qualification_v1/), [nominal processing](docs/experiments/gwosc_nominal_processing_v1/), [nominal result](docs/experiments/gwosc_nominal_result_v1/) |
+| Historical phases | [Roadmap](ROADMAP.md) |
+
+These studies retain their original evidence and restrictions. Bounded Collatz
+checks are not a universal proof; the locked higher bands remain protected.
+Navier–Stokes results remain numerical evidence with their stated spatial and
+temporal limits, not singularity or regularity proofs. Existing RET tools remain
+available as source while new RET research is paused.

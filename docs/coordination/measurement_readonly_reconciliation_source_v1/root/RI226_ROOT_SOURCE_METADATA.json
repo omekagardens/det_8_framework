@@ -1,0 +1,24 @@
+{
+  "base_files": 806,
+  "fixed_inputs": 963,
+  "history_files": 157,
+  "installed_partial_full_state_unchanged": true,
+  "new_operational_authority_and_outputs_absent": true,
+  "old_operation_and_monitor_pins_unchanged": true,
+  "old_source_states_unchanged": 904,
+  "opaque_union_checked": 968,
+  "prospective_bindings": 971,
+  "qualification_credit": 0,
+  "repository_unchanged": true,
+  "schema": "ri227-root-ri226-source-metadata-check-v1",
+  "scientific_body_decoded": false,
+  "sealed_namespace": 19,
+  "sealed_payloads": 18,
+  "source_manifest": {
+    "bytes": 1412,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri226-directory-custody-recovery-yvfg_p1b/worker_proposal/SOURCE_PINS.json",
+    "sha256": "83c1c226126113aacefe71b049be0113a1088ed6f1ca439534cae418b040fb0f"
+  },
+  "status": "PASS_SOURCE_IDENTITY_AND_PRESERVATION_ONLY",
+  "subjects_imported_or_executed": false
+}

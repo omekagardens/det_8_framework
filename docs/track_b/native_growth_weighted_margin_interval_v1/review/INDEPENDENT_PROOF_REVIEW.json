@@ -1,0 +1,177 @@
+{
+  "accepted_theorem_recommendations": [
+    {
+      "id": "P01",
+      "result": "Exact seed-free normalized W and positive Q clearing with held epsilon coefficients, r20=theta*r30, D2=theta*D3, H2=theta*H3 and m0*theta=g.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:13-101; ENDPOINT_REDUCTION.md:32-111,260-325"
+    },
+    {
+      "id": "P02",
+      "result": "0<theta<1/72, 0<omega<11/18<1, 0<E2_i<2; retained singleton positive decomposition and strict 7/4<U20<3,3/2<U30<2 throughout the formal x interval.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:103-179; ENDPOINT_REDUCTION.md:113-258"
+    },
+    {
+      "id": "P03",
+      "result": "Strict formal complement bounds17/41<1-yU20<1 and25/41<1-yU30<1, including upper x/y endpoints; no claim of complete-law admissibility.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:168-179; ENDPOINT_REDUCTION.md:243-258"
+    },
+    {
+      "id": "P04",
+      "result": "Positive exact quadratic floor mu on[0,X], both endpoint and interior-vertex alternatives, finite positive L/K and0<W/r+1<=Lx+Kx^2 for fixed baseline.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:181-220; PROOF_CROSSCHECK.md:150-185"
+    },
+    {
+      "id": "P05",
+      "result": "For0<=alpha<1, positive rationalized delta_alpha givesW<=-alpha*r on0<x<=delta_alpha and0<y<=1/d(x); alpha0 and1/2 retained, zero scales excluded.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:221-255; PROOF_CROSSCHECK.md:186-219"
+    },
+    {
+      "id": "P06",
+      "result": "Full-domain W<=0 iff A<=0 anddA+B<=0 for every0<x<=X; lower y endpoint is a continuity limit, not actual scale; normalized/unormalized forms agree.",
+      "source": "WEIGHTED_MARGIN_PROOF.md:257-291; ENDPOINT_REDUCTION.md:300-365"
+    },
+    {
+      "id": "P07",
+      "result": "Necessary endpoint magnitude comparisons, conditional strict lower bound and exact q residual retain all DeltaN/Delta(Nomega)/Delta(Nomega^2)/Deltah/Deltaj terms without assigning contrast signs.",
+      "source": "ENDPOINT_REDUCTION.md:366-424"
+    }
+  ],
+  "actual_administrative_check": {
+    "absolute_markdown_reference_occurrences": 19,
+    "checker": {
+      "bytes": 10033,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/check_metadata.py",
+      "sha256": "8bda3601c27f10dba4ae002edcab79f794a8ca4f6d0b3d189a693ef5bd572504"
+    },
+    "chunk_id": "f97d85",
+    "command": "/usr/bin/python3 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/check_metadata.py",
+    "current_namespace": 10,
+    "current_payloads": 9,
+    "current_premise_reference_occurrences": 45,
+    "dependencies": 86,
+    "dependency_bytes": 3098788,
+    "distinct_absolute_markdown_reference_paths": 12,
+    "exit_code": 0,
+    "historical_administrative_bodies": 16,
+    "historical_complete_namespaces": 5,
+    "historical_reference_occurrences": 132,
+    "result": {
+      "bytes": 49418,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/METADATA_CHECK.json",
+      "sha256": "78b62b0c7fd8a82ff856a4c7ec69fbd0b27d8e4d140825c1fd538f002e813ef9"
+    },
+    "whole_byte_counterparts": 4
+  },
+  "blocking_findings": [],
+  "counterexample_found_under_stated_premises": false,
+  "diagnostics": {
+    "bytes": 824,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/REVIEW_DIAGNOSTICS.json",
+    "sha256": "ecb4cec808f0f27adc44d4c0820ed0b9a24918de5d54a1af3474d518941b278d"
+  },
+  "execution": {
+    "actual_coefficients_scales_seed_H_evaluated": false,
+    "cards_admissions": false,
+    "fixtures_controllers_created": false,
+    "repo_git_index_changes": false,
+    "runtime_observation": false,
+    "scientific_body_decode": false,
+    "scientific_checks_executed": 0,
+    "subject_helper_import_compile_AST_probe_run": false,
+    "symbolic_numerical_engine": false
+  },
+  "formal_verification_or_exhaustive_search": false,
+  "independence": {
+    "RI143_governance_review_is_own_prior_work": true,
+    "author_of_RI127_RI128_premise_proofs": false,
+    "author_of_RI145": false,
+    "author_peer_checks_relabelled_independent": false,
+    "previous_native_independent_reviews": [
+      "RI138",
+      "RI140",
+      "RI143"
+    ],
+    "self_acceptance_of_WHITE_semantics": false,
+    "separate_WHITE_authorship_disclosed": true
+  },
+  "manual_challenges": [
+    "N0=0 remains allowed; no positive-N or record-independent-N assumption.",
+    "Quadratic vertex before, after, inside or exactly at an endpoint; accepted q0>0 and q2>0 remain load-bearing.",
+    "x=X=1/4, x=R and y=1/d(x) preserve strict reference/complement bounds.",
+    "y approaches zero but is excluded; positive limiting a still defeats uniform nonpositivity.",
+    "alpha=0,alpha=1/2,alpha approaches1;alpha1 is excluded and no fixed positive width across varying baselines claimed.",
+    "Small positive mu/v can shrink delta without native membership; arbitrary free coefficients do not preserve complete fixed-baseline premises."
+  ],
+  "method": "Manual algebra, strict-boundary cases and full premise/source-text reading; executed code is new administrative byte/hash/reference checking only.",
+  "narrative": {
+    "bytes": 18775,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt/INDEPENDENT_PROOF_REVIEW.md",
+    "sha256": "fe4723159266caed2e425e323221d753fa129c786bbe4300f261254355066271"
+  },
+  "premise_coverage": {
+    "all86_dependencies_fresh_opaque_identity_checked": true,
+    "complete_current_authority_reads": [
+      "RI127 root adjudication/manual review",
+      "RI128 root adjudication",
+      "RI143 root adjudication",
+      "RI145 assignment"
+    ],
+    "complete_current_payloads_read": true,
+    "complete_fresh_mathematical_texts": [
+      "RI127 RESULT",
+      "RI127 DECISION_CONTRACT",
+      "RI127 LOCAL_POSITIVITY",
+      "RI127 RECORD_TRANSPORT",
+      "RI128 ANALYTIC_BOUNDS",
+      "RI128 INPUT_FORMULAS",
+      "RI120 ANALYTIC_PREFIX_LEMMAS",
+      "RI120 F2_ANALYTIC_CHECK",
+      "RI120 F3_ANALYTIC_CHECK",
+      "RI117 CONNECTED_CONSTRAINTS_LEMMA",
+      "RI127 independent narrative review",
+      "RI128 independent narrative review"
+    ],
+    "targeted_fresh_historical_texts": [
+      "RI41 NORMALIZATION lines1-150",
+      "RI63 COMPLETION lines1-205"
+    ],
+    "transitive_historical_arithmetic_or_runtime_reconstruction_claimed": false
+  },
+  "recommendation": "ACCEPT_EXACT_CONDITIONAL_ANALYTIC_PROOF_WITH_ACTUAL_SCALE_GAP",
+  "remaining_full_system": "One shared T1/reference/full recovery with strict bounds and D1 consequence; other eight connected parents and all five Di equations using identical recovered variables and individual-ideal multiplicities.",
+  "required_repairs": [],
+  "retained_actual_gap": [
+    "Actual rho<=delta0 is not established.",
+    "LX+KX^2<=1 is sufficient but not proved and not necessary for true W nonpositivity.",
+    "Neither full-domain endpoint inequality is proved on the whole x interval.",
+    "Actual C2,C3 and W signs and shared H30 feasibility remain undecided.",
+    "W>0 supplies neither individual strict local margin nor global feasibility."
+  ],
+  "review_date": "2026-09-30",
+  "review_reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri145-independent-proof-review-y6dp5ojt",
+  "reviewer": "/root/archive_repro_review",
+  "root_adjudication": false,
+  "schema": "ri145-independent-analytic-proof-review-v1",
+  "status": "COMPLETE_NONAUTHOR_MANUAL_PROOF_REVIEW_FOR_ROOT_ADJUDICATION",
+  "stop": "Sealed for root proof adjudication; no actual-scale/sign promotion or next assignment.",
+  "subject_handoff": {
+    "bytes": 6015,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri145-native-weighted-margin-proof-zo96x_ci/HANDOFF.json",
+    "sha256": "f53a0e1c49069a1e9057ad69169facca556b77e7cfb2534eba440b7eaa91db19"
+  },
+  "successor_assigned": false,
+  "unchanged": {
+    "RET_paused": true,
+    "deeper_audit": 42,
+    "deeper_native": 20,
+    "fixed_baseline_seed_amplitude_H30_support": true,
+    "focused_variants": 31,
+    "measurement_separate": true,
+    "numerical_Y": "1/4",
+    "numerical_targets": [
+      "P2",
+      "P3"
+    ],
+    "policy_cases": 139
+  }
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py", line 155, in <module>
+    check_json(p.parent/'CUSTODY.json',custody,'entire worker custody '+cid)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py", line 59, in check_json
+    def check_json(path,expected,label):same(load(path),expected,label)
+                                        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py", line 20, in same
+    else:ok(canon(a)==canon(b),label)
+         ~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri152-independent-actual65-review-ssaGIKOi/review_saved.py", line 17, in ok
+    if not v:raise AssertionError(label)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: entire worker custody worker_source

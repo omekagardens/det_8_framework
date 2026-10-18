@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py", line 200, in <module>
+    try:result=check_main()
+               ~~~~~~~~~~^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py", line 59, in check_main
+    same(g['prospective_root'],str(E),'literal E');same(g['source_changes'],False,'no source changes')
+                                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py", line 18, in same
+    def same(a,b,label): need(canonical(a)==canonical(b),label)
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/AI_DATA/development/det-review-evidence/ri194-path-runtime-applicability-review-zqqw4q78/check_applicability.py", line 16, in need
+    if not ok: raise ValueError(label)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: no source changes

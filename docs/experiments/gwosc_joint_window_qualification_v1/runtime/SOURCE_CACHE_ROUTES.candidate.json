@@ -1,0 +1,3546 @@
+{
+  "schema": "ri121-selected-source-cache-route-metadata-candidate-v1",
+  "scope": [
+    "53 installed source routes relevant to fixed imports/startup and obvious textual dependencies; not claimed complete observed import graph.",
+    "All other cached/source bytes and metadata remain in the full candidate inventory and selection artifact.",
+    "Header timestamp/size match is only import-selection metadata, never proof of cache body/source equivalence.",
+    "Frozen modules may bypass installed source/cache selection; root actual runtime premise remains pending."
+  ],
+  "sources": [
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 11765,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.pyc",
+          "pin": {
+            "bytes": 12415,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.pyc",
+            "sha256": "ce9fd99642b076f79e738c4f72708ab2f75c9c4965af66f9db9426cffab9a820"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 12415,
+            "ctime_ns": 1699983135738698996,
+            "device": 16777230,
+            "inode": 48431907,
+            "mode": 33188,
+            "mtime_ns": 1699983135738599996,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65f52d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 11765,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 12415,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+            "sha256": "ce9fd99642b076f79e738c4f72708ab2f75c9c4965af66f9db9426cffab9a820"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 12415,
+            "ctime_ns": 1788561022737742025,
+            "device": 16777230,
+            "inode": 267283156,
+            "mode": 33188,
+            "mtime_ns": 1788561022737641649,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/hashlib.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65f52d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 11765,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py",
+        "sha256": "e2bffb462e4d43e6637b9450e259e8ba2a56626ba3037d68aa1cee68b3f61d4a"
+      },
+      "source_selection_metadata": {
+        "bytes": 11765,
+        "ctime_ns": 1699983132709325216,
+        "device": 16777230,
+        "inode": 48430577,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/hashlib.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 28667,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.pyc",
+          "pin": {
+            "bytes": 29310,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.pyc",
+            "sha256": "ff0942b7a9a9a73da4315b881b8df2bbba010eb1c5a06b279cea9f9130508536"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 29310,
+            "ctime_ns": 1699983135651341888,
+            "device": 16777230,
+            "inode": 48431904,
+            "mode": 33188,
+            "mtime_ns": 1699983135651246596,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fb6f0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 28667,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 29310,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+            "sha256": "ff0942b7a9a9a73da4315b881b8df2bbba010eb1c5a06b279cea9f9130508536"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 29310,
+            "ctime_ns": 1788561022768376838,
+            "device": 16777230,
+            "inode": 267283157,
+            "mode": 33188,
+            "mtime_ns": 1788561022768283628,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fractions.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fb6f0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 28667,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py",
+        "sha256": "b11e850e354808b882d13a70a911c29accd1dbdd41757566704e3b7206c74edb"
+      },
+      "source_selection_metadata": {
+        "bytes": 28667,
+        "ctime_ns": 1699983132748108012,
+        "device": 16777230,
+        "inode": 48430808,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fractions.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 320,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.pyc",
+          "pin": {
+            "bytes": 620,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.pyc",
+            "sha256": "ffa34541719db68bc255eee782c3f9c2e76516e9a620369052f4c486929ca1cc"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 620,
+            "ctime_ns": 1699983135651562890,
+            "device": 16777230,
+            "inode": 48431905,
+            "mode": 33188,
+            "mtime_ns": 1699983135651518431,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6540010000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 320,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 620,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+            "sha256": "ffa34541719db68bc255eee782c3f9c2e76516e9a620369052f4c486929ca1cc"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 620,
+            "ctime_ns": 1788561022558985130,
+            "device": 16777230,
+            "inode": 267283124,
+            "mode": 33188,
+            "mtime_ns": 1788561022558893587,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/decimal.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6540010000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 320,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py",
+        "sha256": "000c00bad31d126b054c6ec7f3e02b27c0f9a4d579f987d3c4f879cee1bacb81"
+      },
+      "source_selection_metadata": {
+        "bytes": 320,
+        "ctime_ns": 1699983132722437871,
+        "device": 16777230,
+        "inode": 48430656,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/decimal.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 229202,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.pyc",
+          "pin": {
+            "bytes": 244337,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.pyc",
+            "sha256": "bd2bcb86563e2744d9c3689c678ee1a890d67f65b2706a0ed707677ea56186a8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 244337,
+            "ctime_ns": 1769292035245293566,
+            "device": 16777230,
+            "inode": 200750644,
+            "mode": 33188,
+            "mtime_ns": 1769292035245127940,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65527f0300",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 229202,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 244337,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+            "sha256": "bd2bcb86563e2744d9c3689c678ee1a890d67f65b2706a0ed707677ea56186a8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 244337,
+            "ctime_ns": 1788561022572620265,
+            "device": 16777230,
+            "inode": 267283125,
+            "mode": 33188,
+            "mtime_ns": 1788561022572489180,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_pydecimal.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65527f0300",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 229202,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py",
+        "sha256": "14cf1bf7ead78a0beb578f19ebc4ec82f542e0879f5b77d327f01abf74591586"
+      },
+      "source_selection_metadata": {
+        "bytes": 229202,
+        "ctime_ns": 1699983132805424746,
+        "device": 16777230,
+        "inode": 48431170,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_pydecimal.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 129,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.pyc",
+          "pin": {
+            "bytes": 376,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.pyc",
+            "sha256": "713fef52f84b5fef217ef669d35026decd6aa02751f0678ed2655fceebaac444"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 376,
+            "ctime_ns": 1699983136100139159,
+            "device": 16777230,
+            "inode": 48431926,
+            "mode": 33188,
+            "mtime_ns": 1699983136100000242,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6581000000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 129,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 376,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+            "sha256": "713fef52f84b5fef217ef669d35026decd6aa02751f0678ed2655fceebaac444"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 376,
+            "ctime_ns": 1788561022573981532,
+            "device": 16777230,
+            "inode": 267283126,
+            "mode": 33188,
+            "mtime_ns": 1788561022573867864,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextvars.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6581000000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 129,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py",
+        "sha256": "5ed260be8d1f4fe92261b7810b4bb1e8539c42093d7493f677d076e1a87f459a"
+      },
+      "source_selection_metadata": {
+        "bytes": 129,
+        "ctime_ns": 1699983132730785542,
+        "device": 16777230,
+        "inode": 48430709,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextvars.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 14020,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 14299,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "2ea5a98f3e47453ede7920bcf21745446686cc3a632bb96349104717ea1565ab"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 14299,
+            "ctime_ns": 1699983135909838024,
+            "device": 16777230,
+            "inode": 48431909,
+            "mode": 33188,
+            "mtime_ns": 1699983135909736482,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c4360000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 14020,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 14299,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "sha256": "2ea5a98f3e47453ede7920bcf21745446686cc3a632bb96349104717ea1565ab"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 14299,
+            "ctime_ns": 1788561022528494402,
+            "device": 16777230,
+            "inode": 267283119,
+            "mode": 33188,
+            "mtime_ns": 1788561022528404526,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c4360000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 14020,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py",
+        "sha256": "d5d41e2c29049515d295d81a6d40b4890fbec8d8482cfb401630f8ef2f77e4d5"
+      },
+      "source_selection_metadata": {
+        "bytes": 14020,
+        "ctime_ns": 1699983132741092099,
+        "device": 16777230,
+        "inode": 48430769,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 12473,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.pyc",
+          "pin": {
+            "bytes": 15266,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.pyc",
+            "sha256": "c4637a935aa68dba41dbe3d27ff90e98155df6350927ec60f3dcfc917913f6fa"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 15266,
+            "ctime_ns": 1699983135911133865,
+            "device": 16777230,
+            "inode": 48431910,
+            "mode": 33188,
+            "mtime_ns": 1699983135911080323,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65b9300000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 12473,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 15266,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+            "sha256": "c4637a935aa68dba41dbe3d27ff90e98155df6350927ec60f3dcfc917913f6fa"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 15266,
+            "ctime_ns": 1788561022529807002,
+            "device": 16777230,
+            "inode": 267283120,
+            "mode": 33188,
+            "mtime_ns": 1788561022529743918,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/decoder.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65b9300000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 12473,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py",
+        "sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b"
+      },
+      "source_selection_metadata": {
+        "bytes": 12473,
+        "ctime_ns": 1699983132740721472,
+        "device": 16777230,
+        "inode": 48430767,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 16080,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.pyc",
+          "pin": {
+            "bytes": 16888,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.pyc",
+            "sha256": "219c8df7ada517245588f63c0e49c4135d53e92d4deb2453360207691ec99488"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 16888,
+            "ctime_ns": 1699983135913716504,
+            "device": 16777230,
+            "inode": 48431912,
+            "mode": 33188,
+            "mtime_ns": 1699983135913655754,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d03e0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 16080,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 16888,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+            "sha256": "219c8df7ada517245588f63c0e49c4135d53e92d4deb2453360207691ec99488"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 16888,
+            "ctime_ns": 1788561022533264589,
+            "device": 16777230,
+            "inode": 267283122,
+            "mode": 33188,
+            "mtime_ns": 1788561022533158963,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/encoder.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d03e0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 16080,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py",
+        "sha256": "7c358788fbb2a6a07f66f1f8446c52396f35fc201108f666d5be002d86f31af2"
+      },
+      "source_selection_metadata": {
+        "bytes": 16080,
+        "ctime_ns": 1699983132741244767,
+        "device": 16777230,
+        "inode": 48430770,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/encoder.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 2425,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.pyc",
+          "pin": {
+            "bytes": 3726,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.pyc",
+            "sha256": "124294b866962e7dc43ca240037a80b6e3f7fcee1e0c3982615c07988a4ba4c8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 3726,
+            "ctime_ns": 1699983135911657493,
+            "device": 16777230,
+            "inode": 48431911,
+            "mode": 33188,
+            "mtime_ns": 1699983135911604201,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6579090000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 2425,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 3726,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+            "sha256": "124294b866962e7dc43ca240037a80b6e3f7fcee1e0c3982615c07988a4ba4c8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 3726,
+            "ctime_ns": 1788561022530413177,
+            "device": 16777230,
+            "inode": 267283121,
+            "mode": 33188,
+            "mtime_ns": 1788561022530358885,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__pycache__/scanner.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6579090000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 2425,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py",
+        "sha256": "8604d9d03786d0d509abb49e9f069337278ea988c244069ae8ca2c89acc2cb08"
+      },
+      "source_selection_metadata": {
+        "bytes": 2425,
+        "ctime_ns": 1699983132740933348,
+        "device": 16777230,
+        "inode": 48430768,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/scanner.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 48566,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.pyc",
+          "pin": {
+            "bytes": 67799,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.pyc",
+            "sha256": "c6e1b6cf17f9cfb7617b3e820f12519107a22235cc77ffc547c096c5f0b814b5"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 67799,
+            "ctime_ns": 1699983135303154172,
+            "device": 16777230,
+            "inode": 48431849,
+            "mode": 33188,
+            "mtime_ns": 1699983135303075255,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65b6bd0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 48566,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 67799,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.opt-1.pyc",
+            "sha256": "c6e1b6cf17f9cfb7617b3e820f12519107a22235cc77ffc547c096c5f0b814b5"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 67799,
+            "ctime_ns": 1788554006376656894,
+            "device": 16777230,
+            "inode": 267233758,
+            "mode": 33188,
+            "mtime_ns": 1788554006376541603,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/pathlib.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65b6bd0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 48566,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py",
+        "sha256": "3b21ac188fd9ac20bacc8ccd976fabd5d8ccf5000f8e157d3dfff005b228fb3d"
+      },
+      "source_selection_metadata": {
+        "bytes": 48566,
+        "ctime_ns": 1699983132805246828,
+        "device": 16777230,
+        "inode": 48431169,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 8681,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.pyc",
+          "pin": {
+            "bytes": 11264,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.pyc",
+            "sha256": "cce139dead8347f50c91cae7fe55a7c8250a4030c5842ad8b49eb915a0bb2974"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 11264,
+            "ctime_ns": 1699983135472264690,
+            "device": 16777230,
+            "inode": 48431887,
+            "mode": 33188,
+            "mtime_ns": 1699983135472173023,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65e9210000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 8681,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 11264,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.opt-1.pyc",
+            "sha256": "cce139dead8347f50c91cae7fe55a7c8250a4030c5842ad8b49eb915a0bb2974"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 11264,
+            "ctime_ns": 1788561022203708118,
+            "device": 16777230,
+            "inode": 267283052,
+            "mode": 33188,
+            "mtime_ns": 1788561022203590575,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copy.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65e9210000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 8681,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py",
+        "sha256": "27dcfc53a4b9d4fbc3d90c74e549eb6eca9301524d6d2fbff9a6589cf51b6fd5"
+      },
+      "source_selection_metadata": {
+        "bytes": 8681,
+        "ctime_ns": 1699983132722732956,
+        "device": 16777230,
+        "inode": 48430658,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copy.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 7677,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.pyc",
+          "pin": {
+            "bytes": 8257,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.pyc",
+            "sha256": "6f1400c7d59b01b2b529f8fb0f5ebf82e6a66d1153f11668e73f4997ba1e3251"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 8257,
+            "ctime_ns": 1699983135117020477,
+            "device": 16777230,
+            "inode": 48431821,
+            "mode": 33188,
+            "mtime_ns": 1699983135116962977,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fd1d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 7677,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 8223,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+            "sha256": "e1cb8ab12366227ac16299a5725b219617c1f041faf6d45213087fbdf59a5ab4"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 8223,
+            "ctime_ns": 1788554006398385720,
+            "device": 16777230,
+            "inode": 267233766,
+            "mode": 33188,
+            "mtime_ns": 1788554006398328678,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/copyreg.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fd1d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 7677,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py",
+        "sha256": "5499e1be7ba52d4715a911ae65ef2d703db9379d21fff2a07fad8877c318e070"
+      },
+      "source_selection_metadata": {
+        "bytes": 7677,
+        "ctime_ns": 1699983132418087647,
+        "device": 16777230,
+        "inode": 48428964,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/copyreg.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 88448,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.pyc",
+          "pin": {
+            "bytes": 84775,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.pyc",
+            "sha256": "d7ed77c1d73b9b0182c8b2199698bb701c38a91a5bece11207190fdc1673e2ab"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 84775,
+            "ctime_ns": 1699983135129004835,
+            "device": 16777230,
+            "inode": 48431829,
+            "mode": 33188,
+            "mtime_ns": 1699983135128940460,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6580590100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 88448,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 84633,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.opt-1.pyc",
+            "sha256": "372f57615a3b9f1d3ae88aec3f866bc6948b3bcb9153bed232af27779c71abbc"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 84633,
+            "ctime_ns": 1788561022584367292,
+            "device": 16777230,
+            "inode": 267283127,
+            "mode": 33188,
+            "mtime_ns": 1788561022584278957,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/subprocess.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6580590100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 88448,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py",
+        "sha256": "2ff641d58f8696496e8718538cd96cd7afcd503ae271fb23da22422b3aee9fc7"
+      },
+      "source_selection_metadata": {
+        "bytes": 88448,
+        "ctime_ns": 1699983132718671225,
+        "device": 16777230,
+        "inode": 48430632,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 19671,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.pyc",
+          "pin": {
+            "bytes": 28618,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.pyc",
+            "sha256": "d9d14ad4582d543ed62078484db56dfbfd44055b780916e89d72478ce514df18"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 28618,
+            "ctime_ns": 1699983135140372189,
+            "device": 16777230,
+            "inode": 48431834,
+            "mode": 33188,
+            "mtime_ns": 1699983135140318481,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d74c0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 19671,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 28618,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.opt-1.pyc",
+            "sha256": "d9d14ad4582d543ed62078484db56dfbfd44055b780916e89d72478ce514df18"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 28618,
+            "ctime_ns": 1788561022428676986,
+            "device": 16777230,
+            "inode": 267283096,
+            "mode": 33188,
+            "mtime_ns": 1788561022428551985,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/selectors.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d74c0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 19671,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py",
+        "sha256": "1eeb102373e18c96311203f30c516e785bd8642275aa0bd66e43a284c9692385"
+      },
+      "source_selection_metadata": {
+        "bytes": 19671,
+        "ctime_ns": 1699983132722292204,
+        "device": 16777230,
+        "inode": 48430655,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/selectors.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 2438,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.pyc",
+          "pin": {
+            "bytes": 5096,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.pyc",
+            "sha256": "fc6a9f5fa109e49034e29a9b02b2f457a948e10e032d0b7c291bcb1d81f5700f"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 5096,
+            "ctime_ns": 1699983135133427985,
+            "device": 16777230,
+            "inode": 48431831,
+            "mode": 33188,
+            "mtime_ns": 1699983135133383026,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6586090000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 2438,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 5096,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.opt-1.pyc",
+            "sha256": "fc6a9f5fa109e49034e29a9b02b2f457a948e10e032d0b7c291bcb1d81f5700f"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 5096,
+            "ctime_ns": 1788561022585260886,
+            "device": 16777230,
+            "inode": 267283128,
+            "mode": 33188,
+            "mtime_ns": 1788561022585174135,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/signal.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6586090000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 2438,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py",
+        "sha256": "6ae9e49fe09b607bc161fc80067de9763aa48f523567a34992f00be06057f00a"
+      },
+      "source_selection_metadata": {
+        "bytes": 2438,
+        "ctime_ns": 1699983132442816909,
+        "device": 16777230,
+        "inode": 48429117,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/signal.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 57988,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.pyc",
+          "pin": {
+            "bytes": 70157,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.pyc",
+            "sha256": "c7d9db342aed33303daddfdc0fb01cc9993d54036372fbb2678d8b7c7bbf5828"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 70157,
+            "ctime_ns": 1699983135136784961,
+            "device": 16777230,
+            "inode": 48431832,
+            "mode": 33188,
+            "mtime_ns": 1699983135136736169,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6584e20000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 57988,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 69032,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.opt-1.pyc",
+            "sha256": "70cf198765d39d5becd3a09260875a8fa108e35bc4ec5d7561fc56689fe36ab7"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 69032,
+            "ctime_ns": 1788561022374165615,
+            "device": 16777230,
+            "inode": 267283083,
+            "mode": 33188,
+            "mtime_ns": 1788561022374061947,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/threading.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6584e20000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 57988,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py",
+        "sha256": "2c4c1db159e1178896eca324082ae98d627c8d7017d0c7135b832f4fb3117210"
+      },
+      "source_selection_metadata": {
+        "bytes": 57988,
+        "ctime_ns": 1699983132736269948,
+        "device": 16777230,
+        "inode": 48430743,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 78998,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.pyc",
+          "pin": {
+            "bytes": 64370,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.pyc",
+            "sha256": "3368088de11d035ce8fbda1dc9fdeefcc0d9af95e89fa8bdd917740a7db922e0"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 64370,
+            "ctime_ns": 1699983135132706689,
+            "device": 16777230,
+            "inode": 48431830,
+            "mode": 33188,
+            "mtime_ns": 1699983135132649480,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6596340100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 78998,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 64370,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+            "sha256": "3368088de11d035ce8fbda1dc9fdeefcc0d9af95e89fa8bdd917740a7db922e0"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 64370,
+            "ctime_ns": 1788561022449331003,
+            "device": 16777230,
+            "inode": 267283100,
+            "mode": 33188,
+            "mtime_ns": 1788561022449236294,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/locale.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6596340100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 78998,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py",
+        "sha256": "2bca02e9fc154dbec3f33bb9c71bcc8c08694f1dbfd31e079d692993bf3dca0c"
+      },
+      "source_selection_metadata": {
+        "bytes": 78998,
+        "ctime_ns": 1699983132748882642,
+        "device": 16777230,
+        "inode": 48430813,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/locale.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 10067,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.pyc",
+          "pin": {
+            "bytes": 14898,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.pyc",
+            "sha256": "17809519990c5954b775ada36f08ac8d037de2494db62a02e97bbc0ef30414fe"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 14898,
+            "ctime_ns": 1699983135092365341,
+            "device": 16777230,
+            "inode": 48431810,
+            "mode": 33188,
+            "mtime_ns": 1699983135092292716,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6553270000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 10067,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 14898,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+            "sha256": "17809519990c5954b775ada36f08ac8d037de2494db62a02e97bbc0ef30414fe"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 14898,
+            "ctime_ns": 1788554006371665832,
+            "device": 16777230,
+            "inode": 267233757,
+            "mode": 33188,
+            "mtime_ns": 1788554006371532291,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/types.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6553270000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 10067,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py",
+        "sha256": "0c08fbb650c37535a7d8361fc12029e3f4c72a418cf564e8779dae14b979e5ba"
+      },
+      "source_selection_metadata": {
+        "bytes": 10067,
+        "ctime_ns": 1699983132723876879,
+        "device": 16777230,
+        "inode": 48430665,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/types.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 38413,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.pyc",
+          "pin": {
+            "bytes": 46712,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.pyc",
+            "sha256": "95633c3cffb94760c93dc355c06e8df4b9d9c8deb638134af5c54985e338c47f"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 46712,
+            "ctime_ns": 1699983135098468416,
+            "device": 16777230,
+            "inode": 48431812,
+            "mode": 33188,
+            "mtime_ns": 1699983135098394624,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a650d960000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 38413,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 46712,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+            "sha256": "95633c3cffb94760c93dc355c06e8df4b9d9c8deb638134af5c54985e338c47f"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 46712,
+            "ctime_ns": 1788554006370017756,
+            "device": 16777230,
+            "inode": 267233756,
+            "mode": 33188,
+            "mtime_ns": 1788554006369918464,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/functools.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a650d960000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 38413,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py",
+        "sha256": "6d80018a3fa9fed44c5b78f881987ee3ab3fb1238b077b4e6dcb4b76da7db73b"
+      },
+      "source_selection_metadata": {
+        "bytes": 38413,
+        "ctime_ns": 1699983132708533294,
+        "device": 16777230,
+        "inode": 48430573,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/functools.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 52018,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 78294,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "2bcaaf6e3632688339d8aa0b6ace8dd33b6b6f8cbbff00f15986a6fd64c7d3e6"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 78294,
+            "ctime_ns": 1699983135104702659,
+            "device": 16777230,
+            "inode": 48431814,
+            "mode": 33188,
+            "mtime_ns": 1699983135104626450,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6532cb0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 52018,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 78294,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "sha256": "2bcaaf6e3632688339d8aa0b6ace8dd33b6b6f8cbbff00f15986a6fd64c7d3e6"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 78294,
+            "ctime_ns": 1788554006362688911,
+            "device": 16777230,
+            "inode": 267233752,
+            "mode": 33188,
+            "mtime_ns": 1788554006362577161,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6532cb0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 52018,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py",
+        "sha256": "303701de55e434c0fbcc478ae8a79a28537d9ebe83b3150508438ffd6e3e14c7"
+      },
+      "source_selection_metadata": {
+        "bytes": 52018,
+        "ctime_ns": 1699983132804862118,
+        "device": 16777230,
+        "inode": 48431167,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 119,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.pyc",
+          "pin": {
+            "bytes": 373,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.pyc",
+            "sha256": "df1b029d0af141822e7f7d03177a9e753a8c2f8d0e70d250bcb53eedd6073262"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 373,
+            "ctime_ns": 1699983135140594316,
+            "device": 16777230,
+            "inode": 48431835,
+            "mode": 33188,
+            "mtime_ns": 1699983135140551315,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6577000000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 119,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 373,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.opt-1.pyc",
+            "sha256": "df1b029d0af141822e7f7d03177a9e753a8c2f8d0e70d250bcb53eedd6073262"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 373,
+            "ctime_ns": 1788554006431695289,
+            "device": 16777230,
+            "inode": 267233775,
+            "mode": 33188,
+            "mtime_ns": 1788554006431594789,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/__pycache__/abc.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6577000000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 119,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py",
+        "sha256": "9cb4208f99128a0489b6c8e6c61637617dd7d4250c59e065491957eda084dd10"
+      },
+      "source_selection_metadata": {
+        "bytes": 119,
+        "ctime_ns": 1699983132805011952,
+        "device": 16777230,
+        "inode": 48431168,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/collections/abc.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 15889,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 19393,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "896b15baa186b50ecf8eac4c7d5c222a8b9bfbeaed5024538b806e1b431c4cb8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 19393,
+            "ctime_ns": 1699983135080350399,
+            "device": 16777230,
+            "inode": 48431808,
+            "mode": 33188,
+            "mtime_ns": 1699983135080248065,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65113e0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 15889,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 19393,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "sha256": "896b15baa186b50ecf8eac4c7d5c222a8b9bfbeaed5024538b806e1b431c4cb8"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 19393,
+            "ctime_ns": 1788554006381400499,
+            "device": 16777230,
+            "inode": 267233760,
+            "mode": 33188,
+            "mtime_ns": 1788554006381289666,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65113e0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 15889,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py",
+        "sha256": "029ead61f362489e9bb034f4c2503abee95462056541e9ad07715de3c353b0da"
+      },
+      "source_selection_metadata": {
+        "bytes": 15889,
+        "ctime_ns": 1699983132818681610,
+        "device": 16777230,
+        "inode": 48431254,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 26013,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc",
+          "pin": {
+            "bytes": 31899,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc",
+            "sha256": "8862fef6587b240010ad85e5fb74ee0747251a67157dddafd44132b33f0e33de"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 31899,
+            "ctime_ns": 1699983135110454066,
+            "device": 16777230,
+            "inode": 48431817,
+            "mode": 33188,
+            "mtime_ns": 1699983135110387566,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a659d650000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 26013,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 31443,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+            "sha256": "f39c821d5922a35c86cf8f6689e91080ad49098729da692426ddc49da6a8eaaf"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 31443,
+            "ctime_ns": 1788554006391682123,
+            "device": 16777230,
+            "inode": 267233762,
+            "mode": 33188,
+            "mtime_ns": 1788554006391575998,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_compiler.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a659d650000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 26013,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py",
+        "sha256": "23b13f6c11c3343aff2b701b5844a6c82a1a0add70e5aa839d6855d57f691af7"
+      },
+      "source_selection_metadata": {
+        "bytes": 26013,
+        "ctime_ns": 1699983132818528276,
+        "device": 16777230,
+        "inode": 48431253,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 42197,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc",
+          "pin": {
+            "bytes": 50116,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc",
+            "sha256": "cc4256367e79d24ad09bf7cd3f24e92d9097f93d4d4cc662adf6711c64455a3c"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 50116,
+            "ctime_ns": 1699983135114709173,
+            "device": 16777230,
+            "inode": 48431818,
+            "mode": 33188,
+            "mtime_ns": 1699983135114651047,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d5a40000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 42197,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 50020,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+            "sha256": "346c2613803362457eb2a3f8ca2b0653e68a6d7f3369e847470a9ff4af3184b4"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 50020,
+            "ctime_ns": 1788554006395801689,
+            "device": 16777230,
+            "inode": 267233763,
+            "mode": 33188,
+            "mtime_ns": 1788554006395703773,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_parser.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d5a40000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 42197,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py",
+        "sha256": "f8dfee5093475d3454ca70299880540673443eb99547d001b47af3f56eb91a3d"
+      },
+      "source_selection_metadata": {
+        "bytes": 42197,
+        "ctime_ns": 1699983132818990654,
+        "device": 16777230,
+        "inode": 48431256,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 5930,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc",
+          "pin": {
+            "bytes": 6029,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc",
+            "sha256": "1530e2129975068022fa76c8f423f06c8f11b9267310d4aa1020001a3774b938"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6029,
+            "ctime_ns": 1699983135115367760,
+            "device": 16777230,
+            "inode": 48431819,
+            "mode": 33188,
+            "mtime_ns": 1699983135115317926,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a652a170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 5930,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 6029,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+            "sha256": "1530e2129975068022fa76c8f423f06c8f11b9267310d4aa1020001a3774b938"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6029,
+            "ctime_ns": 1788554006396545894,
+            "device": 16777230,
+            "inode": 267233764,
+            "mode": 33188,
+            "mtime_ns": 1788554006396485561,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__pycache__/_constants.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a652a170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 5930,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py",
+        "sha256": "3e4463dc8ba87c4a3563be46d2d593e82ca9a0fb91768cfe5a07554ed3de82c5"
+      },
+      "source_selection_metadata": {
+        "bytes": 5930,
+        "ctime_ns": 1699983132818375609,
+        "device": 16777230,
+        "inode": 48431252,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_constants.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 78979,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.pyc",
+          "pin": {
+            "bytes": 87126,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.pyc",
+            "sha256": "32712a5511b2504ffcbf704b6b3271495206f9c331c8fc1e112dc2533cb8d297"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 87126,
+            "ctime_ns": 1699983135090743832,
+            "device": 16777230,
+            "inode": 48431809,
+            "mode": 33188,
+            "mtime_ns": 1699983135090653748,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6583340100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 78979,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 87126,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+            "sha256": "32712a5511b2504ffcbf704b6b3271495206f9c331c8fc1e112dc2533cb8d297"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 87126,
+            "ctime_ns": 1788554006387874597,
+            "device": 16777230,
+            "inode": 267233761,
+            "mode": 33188,
+            "mtime_ns": 1788554006387775598,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/enum.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6583340100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 78979,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py",
+        "sha256": "573996961237c0f6649fe6e19c67ac7566fbea0d3ea2a62faf1340bef87e24e2"
+      },
+      "source_selection_metadata": {
+        "bytes": 78979,
+        "ctime_ns": 1699983132753513042,
+        "device": 16777230,
+        "inode": 48430841,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/enum.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 21025,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.pyc",
+          "pin": {
+            "bytes": 25111,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.pyc",
+            "sha256": "5a10feb931d65aa3a645c8595d18e1f2ae00281f55e6775081e3a8617a0fd743"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 25111,
+            "ctime_ns": 1699983135120146536,
+            "device": 16777230,
+            "inode": 48431824,
+            "mode": 33188,
+            "mtime_ns": 1699983135120092786,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6521520000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 21025,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 24100,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.opt-1.pyc",
+            "sha256": "430a25a2f57b8ae1444cafd929e3c52b45446978ee6257800561344767a981c6"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 24100,
+            "ctime_ns": 1788554006354148780,
+            "device": 16777230,
+            "inode": 267233749,
+            "mode": 33188,
+            "mtime_ns": 1788554006354032489,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/warnings.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6521520000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 21025,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py",
+        "sha256": "3c36ff80a66718e3fc8449f06730e9d7bcef87d1e7f91b626b42ca4d1f30eab0"
+      },
+      "source_selection_metadata": {
+        "bytes": 21025,
+        "ctime_ns": 1699983132718514475,
+        "device": 16777230,
+        "inode": 48430631,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/warnings.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 21513,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.pyc",
+          "pin": {
+            "bytes": 35036,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.pyc",
+            "sha256": "66135cd686298d0226c37c7eec03106783313981fe3a6a7547ee13676bff3843"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 35036,
+            "ctime_ns": 1699983135295455046,
+            "device": 16777230,
+            "inode": 48431845,
+            "mode": 33188,
+            "mtime_ns": 1699983135295380921,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6509540000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 21513,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 34995,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.opt-1.pyc",
+            "sha256": "0a3b63b8daa4444a6e2e269e93cb08c2be3a77fc1597da1736efdb9d0b5786f1"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 34995,
+            "ctime_ns": 1788561022206378070,
+            "device": 16777230,
+            "inode": 267283053,
+            "mode": 33188,
+            "mtime_ns": 1788561022206257068,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/weakref.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6509540000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 21513,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py",
+        "sha256": "56f8d313fb74019e53eb9287400702fbce788b7fe30e097b0b6e06296f3f080c"
+      },
+      "source_selection_metadata": {
+        "bytes": 21513,
+        "ctime_ns": 1699983132707553664,
+        "device": 16777230,
+        "inode": 48430568,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/weakref.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 6089,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 6739,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "5c4c307572a8a0baa50998f9a8c9e347f4bf8d086f5a47b53532eed20c279714"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6739,
+            "ctime_ns": 1699983135118188067,
+            "device": 16777230,
+            "inode": 48431823,
+            "mode": 33188,
+            "mtime_ns": 1699983135118129567,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c9170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 6089,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 6739,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "sha256": "5c4c307572a8a0baa50998f9a8c9e347f4bf8d086f5a47b53532eed20c279714"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6739,
+            "ctime_ns": 1788554006351626416,
+            "device": 16777230,
+            "inode": 267233748,
+            "mode": 33188,
+            "mtime_ns": 1788554006351564124,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c9170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 6089,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py",
+        "sha256": "49ad4fdc8139026f7f3773e3f50f09207ff6bd8e92a2c382545525235448e525"
+      },
+      "source_selection_metadata": {
+        "bytes": 6089,
+        "ctime_ns": 1699983132757309188,
+        "device": 16777230,
+        "inode": 48430865,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/util.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/util.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 11487,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py",
+        "sha256": "de645b9f6d595f5e415d117f4d04ce77f144ce5ad2a6477659a9b5547d54b9dd"
+      },
+      "source_selection_metadata": {
+        "bytes": 11487,
+        "ctime_ns": 1699983132755572012,
+        "device": 16777230,
+        "inode": 48430854,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/util.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 1852,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.pyc",
+          "pin": {
+            "bytes": 2422,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.pyc",
+            "sha256": "6c3cb004f26f46ffceaf68469bd0b338536791f2f0155be6ee71baaceda18f56"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 2422,
+            "ctime_ns": 1699983135120555538,
+            "device": 16777230,
+            "inode": 48431825,
+            "mode": 33188,
+            "mtime_ns": 1699983135120509038,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a653c070000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 1852,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 2422,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.opt-1.pyc",
+            "sha256": "6c3cb004f26f46ffceaf68469bd0b338536791f2f0155be6ee71baaceda18f56"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 2422,
+            "ctime_ns": 1788554006354904527,
+            "device": 16777230,
+            "inode": 267233750,
+            "mode": 33188,
+            "mtime_ns": 1788554006354835611,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_abc.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a653c070000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 1852,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py",
+        "sha256": "e24fa90513d1fd6e10df30dc28044dfcad857b88161c79de10f7109c18227e8d"
+      },
+      "source_selection_metadata": {
+        "bytes": 1852,
+        "ctime_ns": 1699983132755422219,
+        "device": 16777230,
+        "inode": 48430853,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_abc.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_bootstrap.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_bootstrap.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 48223,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py",
+        "sha256": "2aa31b7369a9725ce893fed35e33a2ffb1c908ecc7411a34d7975cb25a28f695"
+      },
+      "source_selection_metadata": {
+        "bytes": 48223,
+        "ctime_ns": 1699983132755719888,
+        "device": 16777230,
+        "inode": 48430855,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_bootstrap_external.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/__pycache__/_bootstrap_external.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 68856,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py",
+        "sha256": "5b7f704fd3198cb474fea0e74cb21df2d159ceb6bde78aad5db3eb5efa883ccf"
+      },
+      "source_selection_metadata": {
+        "bytes": 68856,
+        "ctime_ns": 1699983132757472689,
+        "device": 16777230,
+        "inode": 48430866,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/importlib/_bootstrap_external.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/os.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/os.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 39504,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py",
+        "sha256": "021bfb21a96fdaac4b2c034d40636f5e18148a8a95282661a9bc14f3fa979a99"
+      },
+      "source_selection_metadata": {
+        "bytes": 39504,
+        "ctime_ns": 1699983132721816784,
+        "device": 16777230,
+        "inode": 48430652,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/os.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/stat.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/stat.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 5485,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py",
+        "sha256": "052af0327eae6941b69b05c088b3e748f79995635f80ac4cc7125eb333eb4c77"
+      },
+      "source_selection_metadata": {
+        "bytes": 5485,
+        "ctime_ns": 1699983132746324711,
+        "device": 16777230,
+        "inode": 48430798,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/stat.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/site.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/site.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 22648,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py",
+        "sha256": "6803396ba0719e4d1d6ce9351f09f0bca11ab8e9c4efe0f935f598da8e8b903e"
+      },
+      "source_selection_metadata": {
+        "bytes": 22648,
+        "ctime_ns": 1699983132740371512,
+        "device": 16777230,
+        "inode": 48430765,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 3426,
+          "header_timestamp32": 1699983133,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc",
+          "pin": {
+            "bytes": 4191,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc",
+            "sha256": "e46ce96badf953b5c4d2a6ab93d949782b2d25885e7380cc65e9b6b4c46b2981"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 4191,
+            "ctime_ns": 1699983135078043595,
+            "device": 16777230,
+            "inode": 48431806,
+            "mode": 33188,
+            "mtime_ns": 1699983135077932678,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a000000001daf5365620d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 3426,
+          "header_timestamp32": 1699983133,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 4191,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+            "sha256": "e46ce96badf953b5c4d2a6ab93d949782b2d25885e7380cc65e9b6b4c46b2981"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 4191,
+            "ctime_ns": 1788554006410757210,
+            "device": 16777230,
+            "inode": 267233770,
+            "mode": 33188,
+            "mtime_ns": 1788554006410655377,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/sitecustomize.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a000000001daf5365620d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 3426,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py",
+        "sha256": "d537eac36341d38454ed3bd8fae3e63b84de65ef89ee8632681e140360c1e160"
+      },
+      "source_selection_metadata": {
+        "bytes": 3426,
+        "ctime_ns": 1699983133519325858,
+        "device": 16777230,
+        "inode": 48431763,
+        "mode": 33188,
+        "mtime_ns": 1699983133519184982,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/sitecustomize.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 5884,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 6536,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "2a9cfc2e7dce771e0f9564e992f497853b2d723b5b75ffe1a19a74eeea4e0100"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6536,
+            "ctime_ns": 1699983135070289677,
+            "device": 16777230,
+            "inode": 48431802,
+            "mode": 33188,
+            "mtime_ns": 1699983135070112176,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fc160000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 5884,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 6536,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "sha256": "2a9cfc2e7dce771e0f9564e992f497853b2d723b5b75ffe1a19a74eeea4e0100"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 6536,
+            "ctime_ns": 1788554006345285817,
+            "device": 16777230,
+            "inode": 267233744,
+            "mode": 33188,
+            "mtime_ns": 1788554006345201068,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/__init__.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fc160000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 5884,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py",
+        "sha256": "78c4744d407690f321565488710b5aaf6486b5afa8d185637aa1e7633ab59cd8"
+      },
+      "source_selection_metadata": {
+        "bytes": 5884,
+        "ctime_ns": 1699983132389750783,
+        "device": 16777230,
+        "inode": 48428786,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 15677,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc",
+          "pin": {
+            "bytes": 12726,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc",
+            "sha256": "2fb9432d4bde183d003402fd466928f4cbaa5a5b6c835f42180793d5cc527371"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 12726,
+            "ctime_ns": 1699983135073022234,
+            "device": 16777230,
+            "inode": 48431803,
+            "mode": 33188,
+            "mtime_ns": 1699983135072894650,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a653d3d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 15677,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 12726,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+            "sha256": "2fb9432d4bde183d003402fd466928f4cbaa5a5b6c835f42180793d5cc527371"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 12726,
+            "ctime_ns": 1788554006346927019,
+            "device": 16777230,
+            "inode": 267233745,
+            "mode": 33188,
+            "mtime_ns": 1788554006346754061,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/aliases.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a653d3d0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 15677,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py",
+        "sha256": "6fdcc49ba23a0203ae6cf28e608f8e6297d7c4d77d52e651db3cb49b9564c6d2"
+      },
+      "source_selection_metadata": {
+        "bytes": 15677,
+        "ctime_ns": 1699983132391720669,
+        "device": 16777230,
+        "inode": 48428799,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/aliases.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 1005,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc",
+          "pin": {
+            "bytes": 2395,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc",
+            "sha256": "7a1d3e9eb2c9396e80f0531aff174ce28a3fc30d641e69dc8ae6985dfdc8a7e5"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 2395,
+            "ctime_ns": 1699983135073798947,
+            "device": 16777230,
+            "inode": 48431804,
+            "mode": 33188,
+            "mtime_ns": 1699983135073700696,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65ed030000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 1005,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 2395,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+            "sha256": "7a1d3e9eb2c9396e80f0531aff174ce28a3fc30d641e69dc8ae6985dfdc8a7e5"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 2395,
+            "ctime_ns": 1788554006347710015,
+            "device": 16777230,
+            "inode": 267233746,
+            "mode": 33188,
+            "mtime_ns": 1788554006347645641,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65ed030000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 1005,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py",
+        "sha256": "ba0cac060269583523ca9506473a755203037c57d466a11aa89a30a5f6756f3d"
+      },
+      "source_selection_metadata": {
+        "bytes": 1005,
+        "ctime_ns": 1699983132382175408,
+        "device": 16777230,
+        "inode": 48428741,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/utf_8.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 1248,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.pyc",
+          "pin": {
+            "bytes": 2775,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.pyc",
+            "sha256": "710af5d50e4356ec6626300aa8f384b8ec68ab329ad5c56784532907323dc9b3"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 2775,
+            "ctime_ns": 1719894094048537524,
+            "device": 16777230,
+            "inode": 65968869,
+            "mode": 33188,
+            "mtime_ns": 1719894094048336564,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65e0040000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/__pycache__/ascii.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 1248,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py",
+        "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3"
+      },
+      "source_selection_metadata": {
+        "bytes": 1248,
+        "ctime_ns": 1699983132388349775,
+        "device": 16777230,
+        "inode": 48428777,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/encodings/ascii.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 10965,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.pyc",
+          "pin": {
+            "bytes": 18838,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.pyc",
+            "sha256": "be98d47b94ea7dc85c8634e6b669bd6a214e049188936dab248325a634f2b0a1"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 18838,
+            "ctime_ns": 1699983135094356019,
+            "device": 16777230,
+            "inode": 48431811,
+            "mode": 33188,
+            "mtime_ns": 1699983135094282852,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d52a0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 10965,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 18838,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+            "sha256": "be98d47b94ea7dc85c8634e6b669bd6a214e049188936dab248325a634f2b0a1"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 18838,
+            "ctime_ns": 1788554006364913152,
+            "device": 16777230,
+            "inode": 267233754,
+            "mode": 33188,
+            "mtime_ns": 1788554006364820652,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/operator.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65d52a0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 10965,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py",
+        "sha256": "b2af20f67667203c1730e686cc5d0427becc94db4c97f1d3efe3ed2158473f6a"
+      },
+      "source_selection_metadata": {
+        "bytes": 10965,
+        "ctime_ns": 1699983132721519908,
+        "device": 16777230,
+        "inode": 48430650,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/operator.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 10348,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.pyc",
+          "pin": {
+            "bytes": 15329,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.pyc",
+            "sha256": "eb2f527cf97db7905f2631b8251bfba7f107dc802c6d23906cbb57eddb13d108"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 15329,
+            "ctime_ns": 1699983135682469727,
+            "device": 16777230,
+            "inode": 48431906,
+            "mode": 33188,
+            "mtime_ns": 1699983135682397185,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a656c280000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 10348,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 15329,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+            "sha256": "eb2f527cf97db7905f2631b8251bfba7f107dc802c6d23906cbb57eddb13d108"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 15329,
+            "ctime_ns": 1788554006422643827,
+            "device": 16777230,
+            "inode": 267233773,
+            "mode": 33188,
+            "mtime_ns": 1788554006422575285,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/numbers.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a656c280000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 10348,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py",
+        "sha256": "6d70991643a109e9c99e94d6ea2734a995fa8e89114a70ea09737413fa9ae292"
+      },
+      "source_selection_metadata": {
+        "bytes": 10348,
+        "ctime_ns": 1699983132730495541,
+        "device": 16777230,
+        "inode": 48430707,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/numbers.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 27076,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.pyc",
+          "pin": {
+            "bytes": 32690,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.pyc",
+            "sha256": "1050ee858863080ecacec890840705ee6e5961d4c03986d1814c784a64485676"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 32690,
+            "ctime_ns": 1699983135122401382,
+            "device": 16777230,
+            "inode": 48431826,
+            "mode": 33188,
+            "mtime_ns": 1699983135122351965,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c4690000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 27076,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 32673,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.opt-1.pyc",
+            "sha256": "2ca0469d32dbf0e55227eeaab15c0071d2af73a661d79476c8bfb3bc0b8ee3de"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 32673,
+            "ctime_ns": 1788554006357056726,
+            "device": 16777230,
+            "inode": 267233751,
+            "mode": 33188,
+            "mtime_ns": 1788554006356983143,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/contextlib.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65c4690000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 27076,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py",
+        "sha256": "a907c5d2151782ac1253dc9eade52fd834a1db43f52cc2b5094dcc4b359de18e"
+      },
+      "source_selection_metadata": {
+        "bytes": 27076,
+        "ctime_ns": 1699983132749960314,
+        "device": 16777230,
+        "inode": 48430820,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 5893,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.pyc",
+          "pin": {
+            "bytes": 13216,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.pyc",
+            "sha256": "c7c128a5a36f60353ea2fd5428dad76b66f07a7b4176fe677475dacc2c53e9de"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 13216,
+            "ctime_ns": 1699983135137622049,
+            "device": 16777230,
+            "inode": 48431833,
+            "mode": 33188,
+            "mtime_ns": 1699983135137575924,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6505170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 5893,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 13216,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.opt-1.pyc",
+            "sha256": "c7c128a5a36f60353ea2fd5428dad76b66f07a7b4176fe677475dacc2c53e9de"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 13216,
+            "ctime_ns": 1788561022207711170,
+            "device": 16777230,
+            "inode": 267283054,
+            "mode": 33188,
+            "mtime_ns": 1788561022207599085,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/_weakrefset.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a6505170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 5893,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py",
+        "sha256": "91895a451d06e9f521a1171b31b9b19bc9740f35af00d4fa106338ab7167c9ac"
+      },
+      "source_selection_metadata": {
+        "bytes": 5893,
+        "ctime_ns": 1699983132720902530,
+        "device": 16777230,
+        "inode": 48430646,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/_weakrefset.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 44075,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.pyc",
+          "pin": {
+            "bytes": 54693,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.pyc",
+            "sha256": "528f94791ee6b64fa89768d11690b0c81226134807a002917d6d62c8c466c40e"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 54693,
+            "ctime_ns": 1699983135309124164,
+            "device": 16777230,
+            "inode": 48431852,
+            "mode": 33188,
+            "mtime_ns": 1699983135309054997,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a652bac0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 44075,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 54693,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.opt-1.pyc",
+            "sha256": "528f94791ee6b64fa89768d11690b0c81226134807a002917d6d62c8c466c40e"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 54693,
+            "ctime_ns": 1788554006402437245,
+            "device": 16777230,
+            "inode": 267233768,
+            "mode": 33188,
+            "mtime_ns": 1788554006402341828,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/__pycache__/parse.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a652bac0000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 44075,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py",
+        "sha256": "0e67e2f5a301d0b573698e75a4e2d37c843b48cfe0e29fef894eda90d2189c27"
+      },
+      "source_selection_metadata": {
+        "bytes": 44075,
+        "ctime_ns": 1699983132720481902,
+        "device": 16777230,
+        "inode": 48430644,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/parse.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 75002,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.pyc",
+          "pin": {
+            "bytes": 94109,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.pyc",
+            "sha256": "8343e2b8b8a0007191ae20856e45d2c4483b15e61a189b8e022274e16ec450b0"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 94109,
+            "ctime_ns": 1699983135316116244,
+            "device": 16777230,
+            "inode": 48431853,
+            "mode": 33188,
+            "mtime_ns": 1699983135316019535,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fa240100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 75002,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 94109,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.opt-1.pyc",
+            "sha256": "8343e2b8b8a0007191ae20856e45d2c4483b15e61a189b8e022274e16ec450b0"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 94109,
+            "ctime_ns": 1788554006407572431,
+            "device": 16777230,
+            "inode": 267233769,
+            "mode": 33188,
+            "mtime_ns": 1788554006407504182,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ipaddress.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a65fa240100",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 75002,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py",
+        "sha256": "c4a22d96741ef70d49120cd31f942a35094e666021af9b663446bd68dacdb9bd"
+      },
+      "source_selection_metadata": {
+        "bytes": 75002,
+        "ctime_ns": 1699983132430848010,
+        "device": 16777230,
+        "inode": 48429041,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ipaddress.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 5999,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.pyc",
+          "pin": {
+            "bytes": 7548,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.pyc",
+            "sha256": "cc09791444b760951b0cef4b725fcf319fadf6537d914a2f188f3d7ae0699fd2"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 7548,
+            "ctime_ns": 1699983135150278953,
+            "device": 16777230,
+            "inode": 48431839,
+            "mode": 33188,
+            "mtime_ns": 1699983135150230286,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a656f170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "header_source_bytes32": 5999,
+          "header_timestamp32": 1696254354,
+          "magic_hex": "a70d0d0a",
+          "mode": "optimized1",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.opt-1.pyc",
+          "pin": {
+            "bytes": 7402,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.opt-1.pyc",
+            "sha256": "b55062118c778f9ed386e4fcc682d4237bcd0fc499e8f9bb16b30b20128e2a4a"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 7402,
+            "ctime_ns": 1788554006379291383,
+            "device": 16777230,
+            "inode": 267233759,
+            "mode": 33188,
+            "mtime_ns": 1788554006379208425,
+            "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/fnmatch.cpython-311.opt-1.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000092c91a656f170000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 5999,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py",
+        "sha256": "6683da36e47af523f3f41e18ad244d837783e19e98911cc0b7415dea81494ebc"
+      },
+      "source_selection_metadata": {
+        "bytes": 5999,
+        "ctime_ns": 1699983132713541030,
+        "device": 16777230,
+        "inode": 48430603,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/fnmatch.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ntpath.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/ntpath.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 30222,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py",
+        "sha256": "030fdd768135c4de3b4c56ca0f13d2f4801ccbcde4144382334cf75a477dd0de"
+      },
+      "source_selection_metadata": {
+        "bytes": 30222,
+        "ctime_ns": 1699983132805590830,
+        "device": 16777230,
+        "inode": 48431171,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ntpath.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/posixpath.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/posixpath.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 17013,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py",
+        "sha256": "115bb3d2051318ee3d951cdb13c60f118f15cea837cb69fb52cf543c12fe25c3"
+      },
+      "source_selection_metadata": {
+        "bytes": 17013,
+        "ctime_ns": 1699983132744128074,
+        "device": 16777230,
+        "inode": 48430788,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/posixpath.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "mode": "normal",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/genericpath.cpython-311.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/__pycache__/genericpath.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 4975,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py",
+        "sha256": "9d58ad64056a89f12258a62596c2073cd9e52b459dde152f710edc0cffcd865b"
+      },
+      "source_selection_metadata": {
+        "bytes": 4975,
+        "ctime_ns": 1699983132723577836,
+        "device": 16777230,
+        "inode": 48430663,
+        "mode": 33188,
+        "mtime_ns": 1696254354000000000,
+        "path": "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/genericpath.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 6299,
+          "header_timestamp32": 1790285112,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 11389,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "ff1835ef1459222593c3d2fcc3d462f6e40cd831b204adf6d63519ad8d7aa47b"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 11389,
+            "ctime_ns": 1790285112967576527,
+            "device": 16777244,
+            "inode": 377187,
+            "mode": 33188,
+            "mtime_ns": 1790285112967467152,
+            "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a000000003895b56a9b180000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "optimized1",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 6299,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+      },
+      "source_selection_metadata": {
+        "bytes": 6299,
+        "ctime_ns": 1790285112927969236,
+        "device": 16777244,
+        "inode": 376925,
+        "mode": 33188,
+        "mtime_ns": 1790285112927969236,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri73-recovery/recovery-20260924T212511Z-2403d37c/env/lib/python3.11/site-packages/_distutils_hack/__init__.py"
+      }
+    },
+    {
+      "candidate_cache_routes": [
+        {
+          "header_source_bytes32": 6299,
+          "header_timestamp32": 1699983137,
+          "magic_hex": "a70d0d0a",
+          "mode": "normal",
+          "opaque_header_flags": 0,
+          "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+          "pin": {
+            "bytes": 11302,
+            "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+            "sha256": "3ca2a6dfd96e5616245947724da9377f65f2bb165521c31156add41cf83cb241"
+          },
+          "present_in_full_captured_namespace": true,
+          "selection_metadata": {
+            "bytes": 11302,
+            "ctime_ns": 1699983137905136300,
+            "device": 16777230,
+            "inode": 48433986,
+            "mode": 33188,
+            "mtime_ns": 1699983137905080841,
+            "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.pyc",
+            "pyc_first16_hex": "a70d0d0a0000000021af53659b180000",
+            "pyc_payload_not_parsed_or_executed": true
+          },
+          "timestamp_size_header_matches_source_metadata": true
+        },
+        {
+          "mode": "optimized1",
+          "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__pycache__/__init__.cpython-311.opt-1.pyc",
+          "present_in_full_captured_namespace": false
+        },
+        {
+          "mode": "standalone_alternative",
+          "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__init__.pyc",
+          "present_in_full_captured_namespace": false
+        }
+      ],
+      "source_pin": {
+        "bytes": 6299,
+        "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__init__.py",
+        "sha256": "46849a60a7cc85189cf6b5ac62b3f135004862ce6a96540a81c95ef6fbc4dc3e"
+      },
+      "source_selection_metadata": {
+        "bytes": 6299,
+        "ctime_ns": 1699983137875908930,
+        "device": 16777230,
+        "inode": 48433724,
+        "mode": 33188,
+        "mtime_ns": 1699983137875908930,
+        "path": "/opt/homebrew/lib/python3.11/site-packages/_distutils_hack/__init__.py"
+      }
+    }
+  ],
+  "status": "DERIVED_FROM_SAVED_FULL_CAPTURE_NOT_EXECUTABLE_CACHE_EQUIVALENCE_OR_IMPORT_TRACE"
+}

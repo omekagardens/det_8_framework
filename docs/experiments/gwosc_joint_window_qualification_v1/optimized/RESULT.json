@@ -1,0 +1,4627 @@
+{
+  "baseline": {
+    "primary": {
+      "bounds": 3,
+      "cases": 9,
+      "groups": 12,
+      "status": "all_fields_primary_match"
+    },
+    "validator": {
+      "bounds": 3,
+      "cases": 9,
+      "groups": 12,
+      "status": "all_fields_independently_match"
+    }
+  },
+  "bound_count": 3,
+  "control_count_per_implementation": 41,
+  "coverage": [
+    {
+      "evidence": [
+        "all_full_selectors_and_output_maps",
+        "M06_shared_coordinate",
+        "M07_first_T_crop"
+      ],
+      "group": "Q01"
+    },
+    {
+      "evidence": [
+        "Q02_white_two"
+      ],
+      "group": "Q02"
+    },
+    {
+      "evidence": [
+        "Q03_periodic_two"
+      ],
+      "group": "Q03"
+    },
+    {
+      "evidence": [
+        "M11_dropped_cross_term"
+      ],
+      "group": "Q04"
+    },
+    {
+      "evidence": [
+        "Q05_white_three"
+      ],
+      "group": "Q05"
+    },
+    {
+      "evidence": [
+        "Q06_constant_mean"
+      ],
+      "group": "Q06"
+    },
+    {
+      "evidence": [
+        "Q07_quadratic_mean",
+        "M13_omitted_mean_dispersion"
+      ],
+      "group": "Q07"
+    },
+    {
+      "evidence": [
+        "Q08_scale_minus_one",
+        "Q08_scale_two"
+      ],
+      "group": "Q08"
+    },
+    {
+      "evidence": [
+        "Q09_oriented_matrix",
+        "M12_transposed_cross_block",
+        "M32_zeroed_oriented_covariance"
+      ],
+      "group": "Q09"
+    },
+    {
+      "evidence": [
+        "Q10_zero_map",
+        "Q03_periodic_two"
+      ],
+      "group": "Q10"
+    },
+    {
+      "evidence": [
+        "all_full_factor_covariances",
+        "M10_nonPSD_covariance",
+        "G01_nonsymmetric",
+        "G02_negative_diagonal"
+      ],
+      "group": "Q11"
+    },
+    {
+      "evidence": [
+        "Q12_calibrated_constant",
+        "Q12_covariance_error",
+        "Q12_calibration_error",
+        "M21_calibrated_constant_claim",
+        "M22_negative_eta",
+        "M23_understated_covariance_bound",
+        "M24_understated_calibration_bound",
+        "M25_wrong_nuisance_dimension"
+      ],
+      "group": "Q12"
+    }
+  ],
+  "group_count": 12,
+  "input_and_reference_unchanged": true,
+  "limitations": [
+    "Complete finite synthetic arithmetic qualification only.",
+    "Expected control labels are source declarations until this qualifier actually runs.",
+    "Saved-field reconstruction does not independently witness historical control execution.",
+    "Actual normal and optimized caller custody remains separate from this report.",
+    "No empirical, calibration, significance or native validation; RET remains paused."
+  ],
+  "mutation_refusals": [
+    {
+      "expected": "SCHEMA",
+      "id": "M01_missing_root_key",
+      "primary": "SCHEMA",
+      "validator": "SCHEMA"
+    },
+    {
+      "expected": "PHASE",
+      "id": "M02_wrong_phase",
+      "primary": "PHASE",
+      "validator": "PHASE"
+    },
+    {
+      "expected": "RESULT",
+      "id": "M03_wrong_result_status",
+      "primary": "RESULT",
+      "validator": "RESULT"
+    },
+    {
+      "expected": "SCOPE",
+      "id": "M04_physical_scope",
+      "primary": "SCOPE",
+      "validator": "SCOPE"
+    },
+    {
+      "expected": "INVENTORY",
+      "id": "M05_missing_case",
+      "primary": "INVENTORY",
+      "validator": "INVENTORY"
+    },
+    {
+      "expected": "SHARED_INDEX",
+      "id": "M06_shared_coordinate",
+      "primary": "SHARED_INDEX",
+      "validator": "SHARED_INDEX"
+    },
+    {
+      "expected": "CROP",
+      "id": "M07_first_T_crop",
+      "primary": "CROP",
+      "validator": "CROP"
+    },
+    {
+      "expected": "OPERATOR",
+      "id": "M08_output_map",
+      "primary": "OPERATOR",
+      "validator": "OPERATOR"
+    },
+    {
+      "expected": "MODEL",
+      "id": "M09_declared_factor",
+      "primary": "MODEL",
+      "validator": "MODEL"
+    },
+    {
+      "expected": "PSD",
+      "id": "M10_nonPSD_covariance",
+      "primary": "PSD",
+      "validator": "PSD"
+    },
+    {
+      "expected": "COVARIANCE_MODEL",
+      "id": "M11_dropped_cross_term",
+      "primary": "COVARIANCE_MODEL",
+      "validator": "COVARIANCE_MODEL"
+    },
+    {
+      "expected": "COVARIANCE_MODEL",
+      "id": "M12_transposed_cross_block",
+      "primary": "COVARIANCE_MODEL",
+      "validator": "COVARIANCE_MODEL"
+    },
+    {
+      "expected": "MEAN_TERM",
+      "id": "M13_omitted_mean_dispersion",
+      "primary": "MEAN_TERM",
+      "validator": "MEAN_TERM"
+    },
+    {
+      "expected": "ENERGY",
+      "id": "M14_wrong_n_divisor",
+      "primary": "ENERGY",
+      "validator": "ENERGY"
+    },
+    {
+      "expected": "ENERGY",
+      "id": "M15_wrong_direct_energy",
+      "primary": "ENERGY",
+      "validator": "ENERGY"
+    },
+    {
+      "expected": "EXACT",
+      "id": "M16_rational_boolean",
+      "primary": "EXACT",
+      "validator": "EXACT"
+    },
+    {
+      "expected": "EXACT",
+      "id": "M17_unreduced_rational",
+      "primary": "EXACT",
+      "validator": "EXACT"
+    },
+    {
+      "expected": "EXACT",
+      "id": "M18_scientific_float",
+      "primary": "EXACT",
+      "validator": "EXACT"
+    },
+    {
+      "expected": "ENUMERATION",
+      "id": "M19_wrong_sign_count",
+      "primary": "ENUMERATION",
+      "validator": "ENUMERATION"
+    },
+    {
+      "expected": "DIMENSION",
+      "id": "M20_boolean_sign_count",
+      "primary": "DIMENSION",
+      "validator": "DIMENSION"
+    },
+    {
+      "expected": "CALIBRATION",
+      "id": "M21_calibrated_constant_claim",
+      "primary": "CALIBRATION",
+      "validator": "CALIBRATION"
+    },
+    {
+      "expected": "BOUND",
+      "id": "M22_negative_eta",
+      "primary": "BOUND",
+      "validator": "BOUND"
+    },
+    {
+      "expected": "BOUND",
+      "id": "M23_understated_covariance_bound",
+      "primary": "BOUND",
+      "validator": "BOUND"
+    },
+    {
+      "expected": "BOUND",
+      "id": "M24_understated_calibration_bound",
+      "primary": "BOUND",
+      "validator": "BOUND"
+    },
+    {
+      "expected": "DIMENSION",
+      "id": "M25_wrong_nuisance_dimension",
+      "primary": "DIMENSION",
+      "validator": "DIMENSION"
+    },
+    {
+      "expected": "SCHEMA",
+      "id": "M26_missing_case_field",
+      "primary": "SCHEMA",
+      "validator": "SCHEMA"
+    },
+    {
+      "expected": "DIMENSION",
+      "id": "M27_incomplete_covariance_row",
+      "primary": "DIMENSION",
+      "validator": "DIMENSION"
+    },
+    {
+      "expected": "DIMENSION",
+      "id": "M28_boolean_selector",
+      "primary": "DIMENSION",
+      "validator": "DIMENSION"
+    },
+    {
+      "expected": "RESOURCE",
+      "id": "M29_oversized_rational_component",
+      "primary": "RESOURCE",
+      "validator": "RESOURCE"
+    },
+    {
+      "expected": "EXACT",
+      "id": "M30_boolean_model_kind",
+      "primary": "EXACT",
+      "validator": "EXACT"
+    },
+    {
+      "expected": "INVENTORY",
+      "id": "M31_wrong_group_inventory",
+      "primary": "INVENTORY",
+      "validator": "INVENTORY"
+    },
+    {
+      "expected": "COVARIANCE_MODEL",
+      "id": "M32_zeroed_oriented_covariance",
+      "primary": "COVARIANCE_MODEL",
+      "validator": "COVARIANCE_MODEL"
+    },
+    {
+      "expected": "RESOURCE",
+      "id": "M33_oversized_malformed_scalar",
+      "primary": "RESOURCE",
+      "validator": "RESOURCE"
+    }
+  ],
+  "parser_refusals": [
+    {
+      "expected": "CANONICAL",
+      "id": "P01_duplicate_keys",
+      "primary": "CANONICAL",
+      "validator": "CANONICAL"
+    },
+    {
+      "expected": "CANONICAL",
+      "id": "P02_nonfinite",
+      "primary": "CANONICAL",
+      "validator": "CANONICAL"
+    },
+    {
+      "expected": "CANONICAL",
+      "id": "P03_missing_terminal_newline",
+      "primary": "CANONICAL",
+      "validator": "CANONICAL"
+    },
+    {
+      "expected": "RESOURCE",
+      "id": "P04_body_over_limit",
+      "primary": "RESOURCE",
+      "validator": "RESOURCE"
+    },
+    {
+      "expected": "CANONICAL",
+      "id": "P05_nonbytes",
+      "primary": "CANONICAL",
+      "validator": "CANONICAL"
+    }
+  ],
+  "phase": "fabricated_joint_window_qualification",
+  "psd_refusals": [
+    {
+      "expected": "PSD",
+      "id": "G01_nonsymmetric",
+      "primary": "PSD",
+      "validator": "PSD"
+    },
+    {
+      "expected": "PSD",
+      "id": "G02_negative_diagonal",
+      "primary": "PSD",
+      "validator": "PSD"
+    },
+    {
+      "expected": "RESOURCE",
+      "id": "G03_oversized_cancelled_products",
+      "primary": "RESOURCE",
+      "validator": "RESOURCE"
+    }
+  ],
+  "schema": "ri119-joint-window-qualification-v1",
+  "scientific_case_count": 9,
+  "scientific_result": {
+    "bounds": [
+      {
+        "A": [
+          [
+            "1",
+            "0",
+            "-1"
+          ]
+        ],
+        "C_cal": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "2"
+          ]
+        ],
+        "constant_annihilation_claim": false,
+        "id": "Q12_calibrated_constant",
+        "input": [
+          "1",
+          "1",
+          "1"
+        ],
+        "output": [
+          "-1"
+        ],
+        "output_dimension": 1
+      },
+      {
+        "D": [
+          [
+            "1"
+          ],
+          [
+            "-1"
+          ]
+        ],
+        "Pi": [
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "1/2"
+          ]
+        ],
+        "Sigma_model": [
+          [
+            "1"
+          ]
+        ],
+        "Sigma_true": [
+          [
+            "2"
+          ]
+        ],
+        "absolute_difference": "1",
+        "bound": "1",
+        "eta": "1",
+        "id": "Q12_covariance_error",
+        "model_contribution": "1",
+        "n": 2,
+        "output_dimension": 1,
+        "true_contribution": "2"
+      },
+      {
+        "C0": [
+          [
+            "1"
+          ]
+        ],
+        "D": [
+          [
+            "1"
+          ],
+          [
+            "-1"
+          ]
+        ],
+        "DeltaC": [
+          [
+            "1"
+          ]
+        ],
+        "F": [
+          [
+            "1"
+          ]
+        ],
+        "Pi": [
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "1/2"
+          ]
+        ],
+        "absolute_difference": "3",
+        "bound": "3",
+        "id": "Q12_calibration_error",
+        "model_contribution": "1",
+        "n": 2,
+        "output_dimension": 1,
+        "true_contribution": "4"
+      }
+    ],
+    "cases": [
+      {
+        "centered_covariance_average": [
+          [
+            "3/2"
+          ]
+        ],
+        "covariance_contribution": "3/2",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "3/2",
+        "expected_U": "2",
+        "expected_V": "3/2",
+        "id": "Q02_white_two",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "1/2"
+          ]
+        ],
+        "mean_output_energy": "1/2",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-1"
+          ],
+          [
+            "-1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "2"
+          ]
+        ],
+        "covariance_contribution": "2",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-2"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-2"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "2",
+        "expected_U": "2",
+        "expected_V": "2",
+        "id": "Q03_periodic_two",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "0"
+          ]
+        ],
+        "mean_output_energy": "0",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_periodic",
+          "latent_dimension": 4,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 16,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-2"
+          ],
+          [
+            "-2",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "16/9"
+          ]
+        ],
+        "covariance_contribution": "16/9",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "16/9",
+        "expected_U": "2",
+        "expected_V": "16/9",
+        "id": "Q05_white_three",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "2/9"
+          ]
+        ],
+        "mean_output_energy": "2/9",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 8,
+          "n": 3,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 8,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2,
+            4
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 256,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-1",
+            "0"
+          ],
+          [
+            "-1",
+            "2",
+            "-1"
+          ],
+          [
+            "0",
+            "-1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "3/2"
+          ]
+        ],
+        "covariance_contribution": "3/2",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "3/2",
+        "expected_U": "2",
+        "expected_V": "3/2",
+        "id": "Q06_constant_mean",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "1/2"
+          ]
+        ],
+        "mean_output_energy": "1/2",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-1"
+          ],
+          [
+            "-1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "16/9"
+          ]
+        ],
+        "covariance_contribution": "16/9",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "400/9",
+        "expected_U": "566/3",
+        "expected_V": "400/9",
+        "id": "Q07_quadratic_mean",
+        "mean_dispersion": "128/3",
+        "mean_output_covariance": [
+          [
+            "2/9"
+          ]
+        ],
+        "mean_output_energy": "1298/9",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 8,
+          "n": 3,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 8,
+          "raw_mean": [
+            "0",
+            "1",
+            "4",
+            "9",
+            "16",
+            "25",
+            "36",
+            "49"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2,
+            4
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "1",
+          "4",
+          "9",
+          "16",
+          "25",
+          "36",
+          "49"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 256,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-1",
+            "0"
+          ],
+          [
+            "-1",
+            "2",
+            "-1"
+          ],
+          [
+            "0",
+            "-1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "-4",
+          "-12",
+          "-20"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "3/2"
+          ]
+        ],
+        "covariance_contribution": "3/2",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1"
+              ]
+            ],
+            [
+              [
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "3/2",
+        "expected_U": "2",
+        "expected_V": "3/2",
+        "id": "Q08_scale_minus_one",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "1/2"
+          ]
+        ],
+        "mean_output_energy": "1/2",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "-1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "-1"
+          ],
+          [
+            "-1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "6"
+          ]
+        ],
+        "covariance_contribution": "6",
+        "cross_blocks": [
+          [
+            [
+              [
+                "8"
+              ]
+            ],
+            [
+              [
+                "-4"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-4"
+              ]
+            ],
+            [
+              [
+                "8"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "6",
+        "expected_U": "8",
+        "expected_V": "6",
+        "id": "Q08_scale_two",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "2"
+          ]
+        ],
+        "mean_output_energy": "2",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "2",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "4"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "8",
+            "-4"
+          ],
+          [
+            "-4",
+            "8"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "4",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "4"
+            ]
+          ],
+          [
+            [
+              "4",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "4"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "3/2",
+            "3/4"
+          ],
+          [
+            "3/4",
+            "1"
+          ]
+        ],
+        "covariance_contribution": "5/2",
+        "cross_blocks": [
+          [
+            [
+              [
+                "2",
+                "1"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ],
+            [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "-1",
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "-1",
+                "-1"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "2",
+                "1"
+              ],
+              [
+                "1",
+                "2"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "5/2",
+        "expected_U": "4",
+        "expected_V": "5/2",
+        "id": "Q09_oriented_matrix",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "1/2",
+            "1/4"
+          ],
+          [
+            "1/4",
+            "1"
+          ]
+        ],
+        "mean_output_energy": "3/2",
+        "model": {
+          "A": [
+            [
+              "1",
+              "0",
+              "-1"
+            ],
+            [
+              "0",
+              "1",
+              "-1"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 2,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "1",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "-1",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "2",
+            "1",
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "2",
+            "-1",
+            "0"
+          ],
+          [
+            "-1",
+            "-1",
+            "2",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "2"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      },
+      {
+        "centered_covariance_average": [
+          [
+            "0"
+          ]
+        ],
+        "covariance_contribution": "0",
+        "cross_blocks": [
+          [
+            [
+              [
+                "0"
+              ]
+            ],
+            [
+              [
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0"
+              ]
+            ],
+            [
+              [
+                "0"
+              ]
+            ]
+          ]
+        ],
+        "direct_average_V": "0",
+        "expected_U": "0",
+        "expected_V": "0",
+        "id": "Q10_zero_map",
+        "mean_dispersion": "0",
+        "mean_output_covariance": [
+          [
+            "0"
+          ]
+        ],
+        "mean_output_energy": "0",
+        "model": {
+          "A": [
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "M": 4,
+          "T": 3,
+          "kind": "shared_raw_white",
+          "latent_dimension": 6,
+          "n": 2,
+          "output_dimension": 1,
+          "raw_factor": [
+            [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "raw_length": 6,
+          "raw_mean": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "scale": "1",
+          "starts": [
+            0,
+            2
+          ],
+          "stride": 2
+        },
+        "output_map": [
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "raw_covariance": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "raw_mean": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "selectors_M": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "selectors_T": [
+          [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "sign_count": 64,
+        "stacked_output_covariance": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "stacked_output_mean": [
+          "0",
+          "0"
+        ],
+        "window_marginal_covariances": [
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ]
+      }
+    ],
+    "groups": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12"
+    ],
+    "limitations": [
+      "Synthetic joint-window arithmetic only; no empirical data or actual coefficient capture.",
+      "Shared sample and covariance refusals concern the declared fixed model, not every alternative model.",
+      "Finite circulant marginals do not select a physical joint window law.",
+      "Mean, calibration and model-error premises are explicit and not estimated here.",
+      "No significance, physical calibration, protected validation or native forward claim; RET remains paused."
+    ],
+    "method": {
+      "arithmetic": "exact_rational",
+      "divisor": "n",
+      "empirical_inputs_evaluated": false,
+      "inputs": "fixed_synthetic_only",
+      "physical_model_validated": false,
+      "primary_route": "complete_sign_enumeration",
+      "rational_encoding": "reduced_decimal_strings",
+      "real_operator_evaluated": false,
+      "validator_route": "independent_moment_selector_factor_algebra"
+    },
+    "phase": "fabricated_joint_window_qualification",
+    "schema": "ri119-joint-window-synthetic-v1",
+    "status": "all_declared_checks_passed"
+  },
+  "status": "all_qualification_checks_passed"
+}

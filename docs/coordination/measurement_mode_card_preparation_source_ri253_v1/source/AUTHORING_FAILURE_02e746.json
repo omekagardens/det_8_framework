@@ -1,0 +1,14 @@
+{
+  "exit_code": 1,
+  "failure": "AssertionError at unique replacement marker: assumed source indentation did not match literal retained line",
+  "future_D_or_O_created": false,
+  "receipt": "02e746",
+  "retained_written_partials": [
+    "REFERENCES.json",
+    "MODE_CARD_REQUEST.proposal.json"
+  ],
+  "schema": "ri249-mode-card-authoring-diagnostic-v1",
+  "scope": "Author text-construction script only; no proposal/helper/subject execution",
+  "source_written": false,
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 84, in <module>\n  File \"<stdin>\", line 30, in replace\nAssertionError:               ['ACTUAL_RUNTIME_NORMAL.json','PRE_MODE_REQUEST.json'],'preserved RI241 namespace')\n"
+}

@@ -1,0 +1,33 @@
+{
+  "active_artifacts_absent": [
+    "AUTHORIZED_FREEZE.json",
+    "ADMIT_NORMAL.json",
+    "ADMIT_OPTIMIZED.json",
+    "ADMIT_FAILURE_TAIL_CONTROLS.json",
+    "RUNTIME_INVENTORY.json",
+    "controls",
+    "tmp"
+  ],
+  "actual_runtime_inventory_or_profile": false,
+  "all_original_source_pins_preserved": true,
+  "fixed_absent_path_count": 8,
+  "frozen_executable_files": [
+    "control.py",
+    "launch.py",
+    "worker.py",
+    "runtime_support.py",
+    "guard_controls.source-only.py"
+  ],
+  "guard_controls_executed": false,
+  "helper_files": 4,
+  "history_records": 48,
+  "literal_commands_match": true,
+  "prior_source_only_seal_preserved": "/Volumes/AI_DATA/development/det-review-evidence/ri121-repair-before-eighth-absence-mdtntvwb/packet",
+  "repo_or_git_operations": false,
+  "schema": "ri121-repair-source-preparation-metadata-v1",
+  "science_pairs_exact": 3,
+  "scientific_qualification_executed": false,
+  "source_and_mode_acceptance_fields_absent": true,
+  "status": "OPAQUE_SOURCE_METADATA_CHECKS_ONLY",
+  "target_import_compile_ast_probe_run": false
+}

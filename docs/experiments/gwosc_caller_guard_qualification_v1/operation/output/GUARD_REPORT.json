@@ -1,0 +1,1397 @@
+{
+  "actual_data_admitted": false,
+  "admission": {
+    "bytes": 3510,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/CALLER_GUARD_ADMISSION.json",
+    "sha256": "8f886209aae513fa3724ad77afdd51f2935bc06fdaf3945861f60f97d51ac2c8"
+  },
+  "control_order": [
+    "parent_source",
+    "parent_caller",
+    "parent_runtime_acceptance",
+    "parent_mode",
+    "parent_late",
+    "parent_late_postcheck",
+    "worker_source",
+    "worker_caller",
+    "worker_runtime_acceptance",
+    "worker_mode",
+    "worker_late",
+    "worker_late_postcheck",
+    "capture_positive",
+    "capture_changed_copy",
+    "capture_buffer_drift",
+    "capture_occupied",
+    "monitor_positive",
+    "monitor_no_sample",
+    "monitor_wall",
+    "monitor_initial_gap",
+    "monitor_sample_gap",
+    "monitor_rss",
+    "monitor_nonzero",
+    "monitor_malformed",
+    "monitor_timeout",
+    "monitor_final_gap",
+    "runtime_positive",
+    "runtime_absent_file",
+    "runtime_absent_dangling_link",
+    "runtime_missing_loader",
+    "runtime_changed_loader_declaration",
+    "runtime_changed_loader_path",
+    "runtime_missing_config",
+    "static_positive",
+    "static_actual",
+    "static_extra",
+    "static_bool_limit",
+    "static_source_omitted",
+    "static_source_copy",
+    "static_helper_omitted",
+    "static_mode_command",
+    "acceptance_positive",
+    "acceptance_source_execution",
+    "acceptance_caller_binding",
+    "acceptance_caller_history",
+    "acceptance_caller_ret",
+    "acceptance_guards_absent",
+    "acceptance_runtime_binding",
+    "acceptance_runtime_loader",
+    "acceptance_runtime_profile",
+    "mode_normal_positive",
+    "mode_optimized_positive",
+    "mode_wrong_command",
+    "mode_pre_missing",
+    "mode_normal_incomplete",
+    "mode_normal_drift",
+    "relation_positive",
+    "relation_science_file",
+    "relation_wrong_link",
+    "relation_extra_envelope",
+    "relation_missing_artifact",
+    "relation_postcheck",
+    "relation_extra_namespace",
+    "relation_control_message",
+    "relation_tail_dropped"
+  ],
+  "controls": [
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 4332,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-source-73g0alr1/runs/normal/SUPERVISOR.json",
+          "sha256": "8d4d21e3072c3a385695ff63361e9ab369bb01ccf65d8f14ba5a11a2724a99cc"
+        }
+      },
+      "id": "parent_source",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 4383,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-caller-wm1yough/runs/normal/SUPERVISOR.json",
+          "sha256": "a7e0c970715b39e04aedd200363ab216685e7817f31e352c07481b6da9d82ea1"
+        }
+      },
+      "id": "parent_caller",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 4515,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-runtime_acceptance-w7ta3k7v/runs/normal/SUPERVISOR.json",
+          "sha256": "ae7f52bfa20d03dfc647bb7f0041d4e5cc2f823deed25f87a68809c534de7d39"
+        }
+      },
+      "id": "parent_runtime_acceptance",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 4597,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-mode-fvdsix4m/runs/normal/SUPERVISOR.json",
+          "sha256": "81eb067f4aed948e9e59496d7d7359b609b2ffd575aed00b5d569b1259675067"
+        }
+      },
+      "id": "parent_mode",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "loaded_attempted_twice": true,
+          "no_child": true,
+          "no_scientific_entry": true,
+          "profile_attempted_twice": true,
+          "refused": true,
+          "retained_runtime_attempted_twice": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 3,
+          "loaded": 2,
+          "profile": 2,
+          "runtime": 2,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 5511,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-late-xj7x3aof/runs/normal/SUPERVISOR.json",
+          "sha256": "64e709da8d3e077f7b208b131fee1781e46efd5b53118e35ec182c5fa6fc332a"
+        }
+      },
+      "id": "parent_late",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "loaded_attempted_twice": true,
+          "no_child": true,
+          "no_scientific_entry": true,
+          "profile_attempted_twice": true,
+          "refused": true,
+          "retained_runtime_attempted_twice": true,
+          "tail_error_retained": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 3,
+          "loaded": 2,
+          "profile": 2,
+          "runtime": 2,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 5535,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/parent-late-32gy9r6f/runs/normal/SUPERVISOR.json",
+          "sha256": "1ae332eda730598e25204d6156db1896f58748669bd6d89e48a837cd67a72378"
+        }
+      },
+      "id": "parent_late_postcheck",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 1448,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-source-7yl66ijn/runs/normal/WORKER.json",
+          "sha256": "f08fa7e238302c87246e1aee05a188ed12f2e4d30a02b932ecb8c8f5d32cfdf8"
+        }
+      },
+      "id": "worker_source",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 1501,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-caller-eg_xwv9s/runs/normal/WORKER.json",
+          "sha256": "b27aea63dd605cf533def812f41e1815ef37e4ceeb9cf90b1cb4b7af1a8aa604"
+        }
+      },
+      "id": "worker_caller",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 1513,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-runtime_acceptance-czhnh6js/runs/normal/WORKER.json",
+          "sha256": "d5677a0ed10410d8ed10b9b4e0c331fb00bc1037b27a68cad1ecbc7b60907053"
+        }
+      },
+      "id": "worker_runtime_acceptance",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "no_child": true,
+          "no_first_helper_in_tail": true,
+          "no_runtime_in_tail": true,
+          "no_scientific_entry": true,
+          "refused": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 0,
+          "loaded": 0,
+          "profile": 0,
+          "runtime": 0,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 1734,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-mode-guebyymj/runs/normal/WORKER.json",
+          "sha256": "a89c6fedd76e61c27917e272d02723571ccab907d327e1830dabcd6150adde12"
+        }
+      },
+      "id": "worker_mode",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "loaded_attempted_twice": true,
+          "no_child": true,
+          "no_scientific_entry": true,
+          "profile_attempted_twice": true,
+          "refused": true,
+          "retained_runtime_attempted_twice": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 2,
+          "loaded": 2,
+          "profile": 2,
+          "runtime": 2,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 2460,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-late-e0mswn_w/runs/normal/WORKER.json",
+          "sha256": "4857edb0548c98982af19ce509d241df3208df7ffb04741eca17312c313a78e7"
+        }
+      },
+      "id": "worker_late",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "checks": {
+          "both_source_attempts": true,
+          "first_error_preserved": true,
+          "loaded_attempted_twice": true,
+          "no_child": true,
+          "no_scientific_entry": true,
+          "profile_attempted_twice": true,
+          "refused": true,
+          "retained_runtime_attempted_twice": true,
+          "tail_error_retained": true
+        },
+        "counts": {
+          "child": 0,
+          "helpers": 2,
+          "loaded": 2,
+          "profile": 2,
+          "runtime": 2,
+          "science": 0,
+          "sources": 2
+        },
+        "receipt": {
+          "bytes": 2483,
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/worker-late-cc4rkyfu/runs/normal/WORKER.json",
+          "sha256": "86779a074056c59ad7df0d8265809aab62314974af986e9ea1067786aec8b0bf"
+        }
+      },
+      "id": "worker_late_postcheck",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "loads": [
+          "white_kernel",
+          "white_path",
+          "white_controls",
+          "white_fixtures",
+          "kernel_controls",
+          "white_validator",
+          "validator_controls",
+          "qualify_white_only"
+        ],
+        "reads": [
+          "white_kernel",
+          "white_path",
+          "white_controls",
+          "white_fixtures",
+          "kernel_controls",
+          "white_validator",
+          "validator_controls",
+          "qualify_white_only"
+        ],
+        "scientific_module_imported": false
+      },
+      "id": "capture_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "loads": [],
+        "reads": [
+          "white_kernel",
+          "white_path",
+          "white_controls",
+          "white_fixtures",
+          "kernel_controls"
+        ]
+      },
+      "id": "capture_changed_copy",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "loads": [],
+        "reads": [
+          "white_kernel",
+          "white_path",
+          "white_controls",
+          "white_fixtures",
+          "kernel_controls",
+          "white_validator",
+          "validator_controls",
+          "qualify_white_only"
+        ],
+        "scientific_module_imported": false
+      },
+      "id": "capture_buffer_drift",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "loads": [],
+        "reads": [
+          "white_kernel",
+          "white_path",
+          "white_controls",
+          "white_fixtures",
+          "kernel_controls",
+          "white_validator",
+          "validator_controls",
+          "qualify_white_only"
+        ],
+        "scientific_module_imported": false
+      },
+      "id": "capture_occupied",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [],
+        "record": {
+          "child_elapsed_seconds": 0.001,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": true,
+          "final_sample_to_reap_gap_seconds": 0.0,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.001,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "1"
+            }
+          ],
+          "peak_sampled_rss_kib": 1,
+          "samples": [
+            {
+              "elapsed_seconds": 0.001,
+              "gap_seconds": 0.001,
+              "rss_kib": 1
+            }
+          ],
+          "stop_reason": null
+        }
+      },
+      "id": "monitor_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [],
+        "record": {
+          "child_elapsed_seconds": 0.0,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "no_rss_sample"
+        }
+      },
+      "id": "monitor_no_sample",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 181.0,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "wall_time_limit"
+        }
+      },
+      "id": "monitor_wall",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.101,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "rss_sample_deadline_missed"
+        }
+      },
+      "id": "monitor_initial_gap",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.101,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": true,
+          "final_sample_to_reap_gap_seconds": 0.0,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.101,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "1"
+            }
+          ],
+          "peak_sampled_rss_kib": 1,
+          "samples": [
+            {
+              "elapsed_seconds": 0.101,
+              "gap_seconds": 0.101,
+              "rss_kib": 1
+            }
+          ],
+          "stop_reason": "rss_sample_deadline_missed"
+        }
+      },
+      "id": "monitor_sample_gap",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.001,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": true,
+          "final_sample_to_reap_gap_seconds": 0.0,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.001,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "524289"
+            }
+          ],
+          "peak_sampled_rss_kib": 524289,
+          "samples": [
+            {
+              "elapsed_seconds": 0.001,
+              "gap_seconds": 0.001,
+              "rss_kib": 524289
+            }
+          ],
+          "stop_reason": "sampled_resident_memory_limit"
+        }
+      },
+      "id": "monitor_rss",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.001,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.001,
+              "returncode": 1,
+              "stderr": "",
+              "stdout": "1"
+            }
+          ],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "rss_monitor_unavailable"
+        }
+      },
+      "id": "monitor_nonzero",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.001,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.001,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "bad"
+            }
+          ],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "rss_monitor_unavailable"
+        }
+      },
+      "id": "monitor_malformed",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": {
+          "message": "Command '['/bin/ps', '-o', 'rss=', '-p', '424242']' timed out after 0.05 seconds",
+          "type": "TimeoutExpired"
+        },
+        "owned_signals": [
+          424242
+        ],
+        "record": {
+          "child_elapsed_seconds": 0.0,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": null,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.0,
+              "exception": "TimeoutExpired",
+              "message": "Command '['/bin/ps', '-o', 'rss=', '-p', '424242']' timed out after 0.05 seconds",
+              "stderr": "timed out",
+              "stdout": "partial"
+            }
+          ],
+          "peak_sampled_rss_kib": 0,
+          "samples": [],
+          "stop_reason": "no_rss_sample"
+        }
+      },
+      "id": "monitor_timeout",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_child_started": false,
+        "observed_exception": null,
+        "owned_signals": [],
+        "record": {
+          "child_elapsed_seconds": 0.102,
+          "child_exit_code": 0,
+          "final_sample_gap_passed": false,
+          "final_sample_to_reap_gap_seconds": 0.10099999999999999,
+          "monitor_attempts": [
+            {
+              "elapsed_seconds": 0.001,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "1"
+            }
+          ],
+          "peak_sampled_rss_kib": 1,
+          "samples": [
+            {
+              "elapsed_seconds": 0.001,
+              "gap_seconds": 0.001,
+              "rss_kib": 1
+            }
+          ],
+          "stop_reason": "rss_final_sample_deadline_missed"
+        }
+      },
+      "id": "monitor_final_gap",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": null,
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-positive-cg0ii36a",
+        "id": "runtime_positive",
+        "observed_failure": null,
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "previously absent startup/import/loader path appeared",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-absent_file-9rdghdzb",
+        "id": "runtime_absent_file",
+        "observed_failure": {
+          "message": "previously absent startup/import/loader path appeared",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_absent_file",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "previously absent startup/import/loader path appeared",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-absent_dangling_link-n5wecibl",
+        "id": "runtime_absent_dangling_link",
+        "observed_failure": {
+          "message": "previously absent startup/import/loader path appeared",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_absent_dangling_link",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "mandatory loader binding omitted or changed",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-missing_loader-rq9q1ymk",
+        "id": "runtime_missing_loader",
+        "observed_failure": {
+          "message": "mandatory loader binding omitted or changed",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_missing_loader",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "mandatory loader binding omitted or changed",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-changed_loader_declaration-hgmpdptd",
+        "id": "runtime_changed_loader_declaration",
+        "observed_failure": {
+          "message": "mandatory loader binding omitted or changed",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_changed_loader_declaration",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "non-OS loader binding changed",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-changed_loader_path-_smfokz_",
+        "id": "runtime_changed_loader_path",
+        "observed_failure": {
+          "message": "non-OS loader binding changed",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_changed_loader_path",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_scanner_and_verify_used": true,
+        "expected_failure": "interpreter/framework/monitor/config runtime files omitted",
+        "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e/runtime-missing_config-boepo3na",
+        "id": "runtime_missing_config",
+        "observed_failure": {
+          "message": "interpreter/framework/monitor/config runtime files omitted",
+          "type": "ValueError"
+        },
+        "pass": true,
+        "substituted_domain_constants": [
+          "ROOTS",
+          "REQUIRED_FILES",
+          "ALLOWED_LINKS",
+          "ABSENT_PATHS",
+          "REQUIRED_LOADER_BINDINGS"
+        ]
+      },
+      "id": "runtime_missing_config",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "positive"
+      },
+      "id": "static_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "actual"
+      },
+      "id": "static_actual",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "extra"
+      },
+      "id": "static_extra",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "bool_limit"
+      },
+      "id": "static_bool_limit",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "source_omitted"
+      },
+      "id": "static_source_omitted",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "source_copy"
+      },
+      "id": "static_source_copy",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "helper_omitted"
+      },
+      "id": "static_helper_omitted",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_static_validator_used": true,
+        "card_written": false,
+        "kind": "mode_command"
+      },
+      "id": "static_mode_command",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": [
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque"
+        ]
+      },
+      "id": "acceptance_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": []
+      },
+      "id": "acceptance_source_execution",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": []
+      },
+      "id": "acceptance_caller_binding",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": []
+      },
+      "id": "acceptance_caller_history",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": []
+      },
+      "id": "acceptance_caller_ret",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": [
+          "/guard/opaque",
+          "/guard/opaque"
+        ]
+      },
+      "id": "acceptance_guards_absent",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": [
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque"
+        ]
+      },
+      "id": "acceptance_runtime_binding",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": [
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque"
+        ]
+      },
+      "id": "acceptance_runtime_loader",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_source_acceptance_semantics_used": true,
+        "opaque_io_and_static_layer_substituted": true,
+        "reads": [
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque",
+          "/guard/opaque"
+        ]
+      },
+      "id": "acceptance_runtime_profile",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_normal_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_optimized_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_wrong_command",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_pre_missing",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_normal_incomplete",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "actual_mode_admission_parser_used": true,
+        "isolated_guard_metadata_only": true,
+        "no_real_stage_admitted": true
+      },
+      "id": "mode_normal_drift",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "positive"
+      },
+      "id": "relation_positive",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "science_file"
+      },
+      "id": "relation_science_file",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "wrong_link"
+      },
+      "id": "relation_wrong_link",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "extra_envelope"
+      },
+      "id": "relation_extra_envelope",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "missing_artifact"
+      },
+      "id": "relation_missing_artifact",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "postcheck"
+      },
+      "id": "relation_postcheck",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "all_fixture_files_retained": true,
+        "isolated_metadata_only": true,
+        "kind": "extra_namespace"
+      },
+      "id": "relation_extra_namespace",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "isolated_metadata_only": true,
+        "kind": "control_message"
+      },
+      "id": "relation_control_message",
+      "passed": true
+    },
+    {
+      "error": null,
+      "evidence": {
+        "isolated_metadata_only": true,
+        "kind": "tail_dropped"
+      },
+      "id": "relation_tail_dropped",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "failed": 0,
+    "passed": 65,
+    "total": 65
+  },
+  "fixture_root": "/Volumes/AI_DATA/development/det-review-evidence/ri152-genuine-caller-guards-6p72zuof/output/ri130-nonscientific-guards-gpj1u10e",
+  "full32_qualified": false,
+  "helpers_after": {
+    "caller_contract.py": {
+      "bytes": 18749,
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "evidence.py": {
+      "bytes": 22152,
+      "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+    },
+    "launch.py": {
+      "bytes": 14159,
+      "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+    },
+    "monitor.py": {
+      "bytes": 3644,
+      "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+    },
+    "runtime_support.py": {
+      "bytes": 8184,
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    "worker.py": {
+      "bytes": 9021,
+      "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+    }
+  },
+  "helpers_before": {
+    "caller_contract.py": {
+      "bytes": 18749,
+      "sha256": "c63a2e5c2acfae509294bf316bc00bccdfa5be6682ef15a39bb0434f8c09dfbb"
+    },
+    "control.py": {
+      "bytes": 5171,
+      "sha256": "d27acae5645ee42a1aca76bb053900c3af8edd09aa090eecc199b1c7a887af81"
+    },
+    "evidence.py": {
+      "bytes": 22152,
+      "sha256": "66b37bca49ed62aafefeff3b90562338d4ba3f695df4c87e7f6bba3a1bbc9aa7"
+    },
+    "launch.py": {
+      "bytes": 14159,
+      "sha256": "5eeeaeeef2c756ee918d147be94b29f62c8dffeffb0a4918c93b05005a2bfada"
+    },
+    "monitor.py": {
+      "bytes": 3644,
+      "sha256": "5ca6f82423c5ba862b919de846684c2b8364e59442da27d9f5ed933c33a9cb51"
+    },
+    "runtime_support.py": {
+      "bytes": 8184,
+      "sha256": "525314ee292722c50ab0bdf635123d3c36acbb96a76d60368c9677872fc2c40f"
+    },
+    "worker.py": {
+      "bytes": 9021,
+      "sha256": "0250bdfa9c47fcbe8b00278be79f2cf7e3ca8b955bf93f16eb3d18c1e7936550"
+    }
+  },
+  "helpers_unchanged": true,
+  "packet": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg",
+  "production_runtime_qualified": false,
+  "ret_paused": true,
+  "runtime_observation_substitutions_explicit": true,
+  "schema": "ri130-nonscientific-caller-guards-v1",
+  "scientific_fixtures_or_controls_executed": false,
+  "status": "all_declared_guards_passed",
+  "target_or_scientific_helper_imported": false
+}

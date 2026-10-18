@@ -1,0 +1,31 @@
+{
+  "accepted_statement": "For the unchanged RI41 actual parent-four component coefficients, min_c alpha_c=1/8; therefore every such alpha_c>=1/8.",
+  "actual_checks": [
+    "0de85b exit0 full literal note pin matches selected dependency",
+    "cbb16a exit0 note/context plus original independent acceptance record read",
+    "25b031 exit0 exact equation14 and finite claim boundary read"
+  ],
+  "assignment": {
+    "bytes": 2446,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri153-root-margin-review-sflbzpwj/NATIVE_SUCCESSOR_RESERVATION.json",
+    "sha256": "8810144710b6e9777cedd6c8d3d8038e84b4ec5a31fb09a9cf908763ba472439"
+  },
+  "basis": "Explicit printed accepted finite certificate consequence, already selected as analytic-source-text-or-review in RI153 SOURCE_DEPENDENCIES dep_0168. REVIEW_PROGRESS lines4755-4814 independently records complete source/certificate review and separate normal/optimized replay, explicitly including minimum component scale1/8. No scientific certificate body decoded or rerun now.",
+  "limits": [
+    "Fixed accepted parent-four law only; not every admissible law or later-layer canonical/restored coefficient.",
+    "Component coefficient bound, not a probability bound of1/8. For proper q=alpha*u, retain the positive deletion potential: q>=u/8. Full complements remain separately normalized.",
+    "New empty/long-chain transport and YE<1 consequence still require complete manual proof and fresh independent review. No preacceptance of YE<1 or the other capacity condition.",
+    "Withdrawn FS seed-order comparison excluded; no new coefficient selection/evaluation, OVERRIDES comparison, scientific JSON decode or execution admitted.",
+    "Original finite witness provenance retained; not a first-principles, all-size, geometry/gravity or empirical result."
+  ],
+  "location": "NORMALIZATION.md section5 equation14",
+  "premise": {
+    "bytes": 16243,
+    "path": "/Volumes/AI_DATA/development/det_8_framework-ret/docs/track_b/native_growth_height_normalization_v1/NORMALIZATION.md",
+    "sha256": "567596a17c69e20b33328b2d0c39f22d98a78f7d25d81949fd57cd07df5e53c8"
+  },
+  "ret_paused": true,
+  "schema": "ri155-inherited-bound-scope-clarification-v1",
+  "scientific_execution": false,
+  "status": "WITHIN_EXISTING_SOURCE_ONLY_PROOF_ASSIGNMENT"
+}

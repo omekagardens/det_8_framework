@@ -1,0 +1,293 @@
+{
+  "exact_namespace": 18,
+  "files": [
+    {
+      "bytes": 11003,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/HANDOFF.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/HANDOFF.json",
+      "sha256": "ed3fabd4789e665965143455d70bb12f4b9285e51b8c862c7b6aa05b7d43f30c",
+      "state": [
+        16777244,
+        417507,
+        33188,
+        1,
+        11003,
+        1790799921434538822,
+        1790799921434538822
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3623,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ADMIN_TOOL_RECORDS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ADMIN_TOOL_RECORDS.json",
+      "sha256": "09743b94dbb20e103952be9259fb2e939de0a61a8e5df203d93cd1a3c7c33c5c",
+      "state": [
+        16777244,
+        417504,
+        33188,
+        1,
+        3623,
+        1790799831853113454,
+        1790799831853113454
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 7330,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ASSIGNMENT_AUTHENTICATION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/ASSIGNMENT_AUTHENTICATION.json",
+      "sha256": "102507ba039130d47b26aabfac4b1671d32392efaf778a499be49c147cbad594",
+      "state": [
+        16777244,
+        417199,
+        33188,
+        1,
+        7330,
+        1790799057892980200,
+        1790799057892980200
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3669,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/AUTHOR_RECORD.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/AUTHOR_RECORD.md",
+      "sha256": "7442118454eadf8a0ad7827d0b7b2378c2beade63462990ffa634a56da0e60bb",
+      "state": [
+        16777244,
+        417503,
+        33188,
+        1,
+        3669,
+        1790799831788703736,
+        1790799831788703736
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 5947,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/COMMAND_PROPOSAL.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/COMMAND_PROPOSAL.json",
+      "sha256": "650956a7615ca779ce6d479b0a89cf00ab1e4341fc676752ab0d619980171ee3",
+      "state": [
+        16777244,
+        417495,
+        33188,
+        1,
+        5947,
+        1790799637710027413,
+        1790799637710027413
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 10741,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/DEPENDENCY_BINDINGS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/DEPENDENCY_BINDINGS.json",
+      "sha256": "db368400f6d55ee2212aed420bcbaedd72b4447e25b8e29ae2f7a9559b7026c2",
+      "state": [
+        16777244,
+        417502,
+        33188,
+        1,
+        10741,
+        1790799696945587889,
+        1790799696945587889
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 4881,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FINAL_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FINAL_CHECK.json",
+      "sha256": "763b928fa163e6a1312d11d8a0d9322b5c3a6b71fa04385cc8138b15ca580a1a",
+      "state": [
+        16777244,
+        417505,
+        33188,
+        1,
+        4881,
+        1790799856424950390,
+        1790799856424950390
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 17575,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FOCUSED_VARIANTS.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/FOCUSED_VARIANTS.json",
+      "sha256": "d684c1b3ee8b9f586de3583557a65b3c924fe895214a16859644ba93b6317fc4",
+      "state": [
+        16777244,
+        417498,
+        33188,
+        1,
+        17575,
+        1790799831853712163,
+        1790799831853712163
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1205,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/METADATA_CHECK.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/METADATA_CHECK.json",
+      "sha256": "61bf3ef8788cd49281792f72ebd9424114003386acff0bb833d20839aa8ba74b",
+      "state": [
+        16777244,
+        417499,
+        33188,
+        1,
+        1205,
+        1790799637711051041,
+        1790799637711051041
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 1362,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/PUBLICATION_SUBSET.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/PUBLICATION_SUBSET.json",
+      "sha256": "4e0dccac3c748187bb58d5676977e2cd9962791832cc9a979db6027b846d6135",
+      "state": [
+        16777244,
+        417506,
+        33188,
+        1,
+        1362,
+        1790799921391644899,
+        1790799921391644899
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 9089,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REPAIR_CONTRACT.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REPAIR_CONTRACT.md",
+      "sha256": "c3fcb012ecb04eb12010f31b4330388d0e6c9d2831633d4a52e7b645fceae733",
+      "state": [
+        16777244,
+        417488,
+        33188,
+        1,
+        9089,
+        1790799527499647712,
+        1790799527499647712
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 926,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REVERSE_PROJECTION.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/REVERSE_PROJECTION.json",
+      "sha256": "69b3b20cff2e84703132a7f56425b3d9dd9d6726b196a565a3d513bfa1a85e12",
+      "state": [
+        16777244,
+        417501,
+        33188,
+        1,
+        926,
+        1790799696903675343,
+        1790799696903675343
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 3476,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_CORRESPONDENCE.json",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_CORRESPONDENCE.json",
+      "sha256": "1715c2a62fe4302aea4f70248600ab66bd0c3a51a2fdb53f2ea85a580590b35f",
+      "state": [
+        16777244,
+        417496,
+        33188,
+        1,
+        3476,
+        1790799637710483623,
+        1790799637710483623
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 16372,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_DIFF.patch",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SOURCE_DIFF.patch",
+      "sha256": "ff743a35ebd6c6be4167cca2bd18ab82c4915062b95a8e66f13cab4c297979b8",
+      "state": [
+        16777244,
+        417419,
+        33188,
+        1,
+        16372,
+        1790799401208621763,
+        1790799401208621763
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 6745,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SUPERVISOR_CHECKS.md",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/SUPERVISOR_CHECKS.md",
+      "sha256": "011169b3a50bb47903a8578fa692dd2d4204ff2b0cc71cda02f8c44c256a6f23",
+      "state": [
+        16777244,
+        417497,
+        33188,
+        1,
+        6745,
+        1790799637710599706,
+        1790799637710599706
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 13852,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/author_repair.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/author_repair.mjs",
+      "sha256": "cc7a28f99a56cbe167e8f28bed4fd54d52f4cb78113840c170e9b491a4d56721",
+      "state": [
+        16777244,
+        417263,
+        33188,
+        1,
+        13852,
+        1790799319172921320,
+        1790799319172921320
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 12349,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/prepare_packet_metadata.mjs",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/prepare_packet_metadata.mjs",
+      "sha256": "c328f4c0cf33c7768c505e612f6c2335ce3da0309e658ea63d0e2b09559cec60",
+      "state": [
+        16777244,
+        417494,
+        33188,
+        1,
+        12349,
+        1790799637640333018,
+        1790799637640333018
+      ],
+      "symlink_chain": []
+    },
+    {
+      "bytes": 26254,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/supervise_native.py",
+      "resolved_path": "/Volumes/AI_DATA/development/det-review-evidence/ri167-native-supervisor-repair-79xn8tjz/supervise_native.py",
+      "sha256": "507c3c64e075d736e06dcc9a54f1261aed4d5f5c2211bb64d4b9f29732fec499",
+      "state": [
+        16777244,
+        417264,
+        33188,
+        1,
+        26254,
+        1790799376117884163,
+        1790799376117884163
+      ],
+      "symlink_chain": []
+    }
+  ]
+}

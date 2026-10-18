@@ -1,0 +1,98 @@
+{
+  "RET_paused": true,
+  "actual_controls_per_implementation_per_mode": 41,
+  "arithmetic_review": "All 20 fields in each of nine cases and all fields of three bounds independently reconstructed by root moment code; nonauthor reviewed full algebra/source/saved result. Scientific control execution separately witnessed by captured qualifier.run and genuine monitored child/outer custody.",
+  "bounds": 3,
+  "cases": 9,
+  "complete_report_byte_equality": true,
+  "execution": "Genuine f388bf/cda7b7 normal followed by actual source/runtime/custody review and b14faf optimized admission; dd4ec5/f3a3c1 optimized. No scientific rerun or relaxed threshold.",
+  "groups": 12,
+  "independent_reviews": {
+    "candidate_metadata": {
+      "bytes": 8296,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-runtime-candidate-rIMnamYh/INDEPENDENT_METADATA_REVIEW.md",
+      "sha256": "510270fed72ab7bc5ed089b5059bfd4cdb26bfb7f60636620243abeaf27b97d6"
+    },
+    "mathematics": {
+      "bytes": 8645,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-moment-review-hegj9edp/INDEPENDENT_MATHEMATICAL_REVIEW.md",
+      "sha256": "952ffe6c99491e9c6fb9699c374ed085553dd2bf3190b8b01e70d7cc96fbedc8"
+    },
+    "normal": {
+      "bytes": 15491,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-normal-saved-_vk7vsiq/INDEPENDENT_NORMAL_SAVED_REVIEW.json",
+      "sha256": "04fa87ef05e3640d87c6e0c990bc591032729c154340e4e37ff935d10675589d"
+    },
+    "optimized": {
+      "bytes": 12401,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-optimized-saved-4872wsfj/INDEPENDENT_FINAL_TWO_MODE_REVIEW.json",
+      "sha256": "4a2c91aea6fe73336f20f476af4d543c7a0a04bb0fc57da3b4b262b8b8f34784"
+    },
+    "probe_driver": {
+      "bytes": 4157,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-profile-probe-x4s42ckq/INDEPENDENT_PROFILE_DRIVER_SOURCE_ADDENDUM.json",
+      "sha256": "d24330fee30f3bb6e110f681a3297e7003b3a95137011851f1c13c5132cd0288"
+    },
+    "probe_source": {
+      "bytes": 7019,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-profile-probe-x4s42ckq/INDEPENDENT_PROFILE_PROBE_SOURCE_REVIEW.json",
+      "sha256": "33fac0e19e599cb1e1e40da7d318666fa8e8ed42a0c33aa127c09342424474b7"
+    },
+    "profile": {
+      "bytes": 12893,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-independent-saved-profile-7iz9gfzx/INDEPENDENT_SAVED_PROFILE_REVIEW.json",
+      "sha256": "e6c11ef58e972bfdcbea6e2ff6012648841d846a45e71d43564e836bb01d5c50"
+    }
+  },
+  "mode_custody_checks": {
+    "normal": {
+      "bytes": 2523,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/NORMAL_ROOT_SAVED_CUSTODY_CHECK.json",
+      "sha256": "b4547e31aeacd01e03307d0856e892e166ca37627a42f7704fefe9b587912db2"
+    },
+    "optimized": {
+      "bytes": 2546,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/OPTIMIZED_ROOT_SAVED_CUSTODY_CHECK.json",
+      "sha256": "5347486e0618cd5ef85432ffe145f72fc406a852bb999a978eb2d674b9499f44"
+    }
+  },
+  "normal_adjudication": {
+    "bytes": 2886,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_NORMAL_ADJUDICATION.json",
+    "sha256": "9a1ced5314557dd0268cacba68d98ec5a40c7f64ded7a00ea388af974cdcf61c"
+  },
+  "physical_validation": false,
+  "programme_complete": false,
+  "qualification_report_pin": {
+    "bytes": 81253,
+    "sha256": "395f217fda2939d096822f9446d01216db4ac54f1d53fe4275830ddd2d05f70a"
+  },
+  "remaining": [
+    "Native RI122 root source adjudication/current runtime/changed-guard qualification before actual fixed-support sensitivity stages.",
+    "Concrete real-operator joint-window application design on existing RI116 public development evidence; choose and justify joint covariance/mean and calibration inputs before any new empirical run.",
+    "Native positive feasibility, physical forward map, calibration adequacy, releases and protected validation remain open."
+  ],
+  "retained_premises": [
+    "Fixed finite synthetic models; joint covariance/mean assumptions do not become physical noise laws.",
+    "Trusted installed suppliers and opaque bytecode selection; no source-cache equivalence or complete dynamic loader trace.",
+    "Trusted Apple host kernel/loader/shared cache, visible platform identity and stable execution filesystem. Homebrew/config/native bytes remain pinned.",
+    "Unchanged180s/524288KiB sampled sole-child envelope; in-process v2 checks plus mandatory external namespace/selection/observed-loader sidecars."
+  ],
+  "root_full_moment_reconstruction": {
+    "bytes": 2602,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_SAVED_SCIENTIFIC_RECONSTRUCTION.json",
+    "sha256": "dc9af83ae372cfc7cc2cba345edb6a9160ce7462bd9edba0c2017ccb99d46428"
+  },
+  "root_metadata_review_draft_failure": {
+    "bytes": 657,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_METADATA_REVIEW_REPAIR.json",
+    "sha256": "507ed80321d22a053553d61fb3ff61e9736adfb5cdd6bed1ad95abe901a7eb31"
+  },
+  "runtime_adjudication": {
+    "bytes": 8067,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri121-root-runtime-qualification-jsf0o3_x/ROOT_RUNTIME_ADJUDICATION.json",
+    "sha256": "bec0594fca3bea11b1f80ca666b2ecc45d737b6ac5d4f718e5bd81d7bb939901"
+  },
+  "schema": "ri121-root-final-two-mode-synthetic-qualification-v1",
+  "status": "ACCEPT_TWO_MODE_SYNTHETIC_QUALIFICATION"
+}

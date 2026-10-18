@@ -1,0 +1,23 @@
+{
+  "adjudication": {
+    "bytes": 2213,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI201_ROOT_ADJUDICATION.json",
+    "sha256": "63eaa608086d8b2376cd50ec7ca47e6d3b77b00f20204dbe131468631dcceefb"
+  },
+  "assignment": {
+    "bytes": 2888,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RI203_NATIVE_ASSIGNMENT.json",
+    "sha256": "d33913caa09f7c38f7b9e52191e91d62c5279733f208b550a4f498389b0f6395"
+  },
+  "prior_snapshot": {
+    "cursor": "cec29fb8-71f0-4394-a689-daf6147d954c:8",
+    "status": "idle"
+  },
+  "purpose": "Complete three-maxima class after independent predecessor adjudication; exact assignment path and pin delivered. Root retains all Git/index ownership.",
+  "result": {
+    "isError": false,
+    "threadId": "01a074c4-4b09-76a3-8cb2-0caf116f6b9c"
+  },
+  "schema": "ri202-qr-dispatch-receipt-v1",
+  "tool": "mcp__codex_app__send_message_to_thread"
+}

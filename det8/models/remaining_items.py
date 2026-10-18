@@ -1,5 +1,8 @@
 """
-DET Remaining Items #1–#2: κ(r) Refinement + Cluster Mass Profiles
+RETIRED / QUARANTINED — historical κ-gravity follow-up bundle.
+
+This mixed file is quarantined as a whole because its calculations were built
+to advance the withdrawn galaxy, cluster, and cosmological gravity program.
 
 #1: Predict r_SFR from galaxy scaling relations
   Uses observed correlations: r_SFR/r_d increases with galaxy mass
@@ -23,6 +26,10 @@ DET Remaining Items #1–#2: κ(r) Refinement + Cluster Mass Profiles
 """
 
 from __future__ import annotations
+
+from det8.models.legacy_gravity_quarantine import quarantine_record
+
+QUARANTINE = quarantine_record(__name__)
 
 import math
 from dataclasses import dataclass, field

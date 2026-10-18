@@ -67,12 +67,14 @@ GAMMA_B = 0.0
 
 @dataclass
 class NodeRecord:
-    """Complete DET 8 record at a single node.
+    """Legacy mutable current-state container at a single node.
 
     Modal annotation: A (actual committed facts).
 
-    All variables are record-side — they are committed facts,
-    not metaphysical primitives. None is agency.
+    Its name does not make each update a new immutable history entry.
+    Present state, committed history and accessible observations are distinct;
+    record_process supplies separate experimental contracts for that purpose.
+    These variables are not metaphysical primitives. None is agency.
     """
 
     # ── Core physical variables ──
@@ -165,6 +167,8 @@ def proper_time_increment(
 
     M0 fix: ΔN is event-count increment, NOT Δκ (structural history change).
     N is monotone, non-decreasing. κ can decrease with recovery.
+    This is a chosen count-based formula, not proof that record count
+    parametrizes all present residual activity. No counter is mutated here.
     """
     pi = participation_aperture(record, velocity_fraction, lambda_p)
     return pi * delta_N

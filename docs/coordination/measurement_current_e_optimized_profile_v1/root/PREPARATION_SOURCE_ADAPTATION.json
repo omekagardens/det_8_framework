@@ -1,0 +1,19 @@
+{
+  "adapted": {
+    "bytes": 11565,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri192-root-optimized-profile-gtsq3_01/prepare_optimized_profile.py",
+    "sha256": "22da1edd752e21ce8fd4d3294433ca77468bd3c186ecfdfa73c116c928a688c0"
+  },
+  "original": {
+    "bytes": 10122,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri188-root-endpoint-profile-review-1jg_i948/prepare_normal_profile.py",
+    "sha256": "3a0d7efa403ce68e058513409c8637548491b54a5be3cfdef2e19e4dff62261c"
+  },
+  "scientific_execution": false,
+  "scope": "Root administrative preflight only: switch proposed phase/output/card to optimized, add independently accepted normal predecessor and exact16-file custody, retain baseline/runtime/E48/source/vendor/tool/host gates. Parent and observer subjects unchanged. All existing limits retained.",
+  "source_read_tools": [
+    "b0432b",
+    "f9811b",
+    "eacd27"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "actual_capture_parse": false,
+  "actual_psd_contraction": false,
+  "completed_programme": false,
+  "completed_source_inventory": [
+    "Closed new result/type and kernel contract with incomplete-executable boundary.",
+    "26 concrete exact fabricated case recipes; none generated or evaluated.",
+    "37 white-kernel first-refusal definitions; none invoked.",
+    "Primary pure exact white-strip/Gram/response kernel.",
+    "Explicit completed/missing inventory and exact predecessor/source pins."
+  ],
+  "files": [
+    {
+      "bytes": 18368,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CONTRACT.md",
+      "sha256": "fc36bcee88c942f1b226fccaa2089d99c9b70dda054b94a4db7f5f93a53c076c"
+    },
+    {
+      "bytes": 8155,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/CASES.md",
+      "sha256": "c60006616fecef90b808fab448ac52f0b19dffaa773a55052867bd577382d121"
+    },
+    {
+      "bytes": 4212,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/KERNEL_REFUSALS.md",
+      "sha256": "e3a4c09e7c498d2cad6dddbd90cd5364e4ba5894d643c6254a319de14b3cbbb0"
+    },
+    {
+      "bytes": 12790,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/white_kernel.py",
+      "sha256": "b5ce9dd68fe89b09a83bf6e9520f798894b85866f4c48a8a2dfe7449ea0a915f"
+    },
+    {
+      "bytes": 4943,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREPARATION_RECORD.md",
+      "sha256": "b9bdff262feac3d0ef48c78add38d8a682d61c7da49484cf544adf7470db783a"
+    },
+    {
+      "bytes": 4098,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri125-joint-window-application-source-fsra3wcw/PREDECESSOR_PINS.json",
+      "sha256": "856fbf2aaef8a702b19a819938c0e6929683326c133f27b084ea4bbca0f19c3d"
+    }
+  ],
+  "fixture_or_target_execution": false,
+  "handoff_immutable": true,
+  "independent_validator_authored": false,
+  "next_action": "Root independently reviews this bounded predecessor before reserving a successor copy for remaining source and assigning a separate validator author. No actual source acceptance or execution follows this handoff automatically.",
+  "protected_data_access": false,
+  "qualification_claimed": false,
+  "repository_or_git_mutation": false,
+  "ret_paused": true,
+  "runtime_or_active_cards_created": false,
+  "schema": "ri125-bounded-source-progress-handoff-v1",
+  "scientific_operand_evaluation": false,
+  "source_acceptance_claimed": false,
+  "status": "INCOMPLETE_UNEXECUTED_SOURCE_PROGRESS_FOR_INDEPENDENT_REVIEW",
+  "target_import_compile_ast_or_probe": false,
+  "unimplemented_inventory": [
+    "Actual full-result/capture input guards, historical 92-gate inventory and streaming capture/exhaustion/custody wrappers.",
+    "RI96/RI100 periodic admission, source PSD decoder, parity calculation and complete result assembler.",
+    "RI116 accepted-result projection and complete four-row deterministic join.",
+    "Separately authored full-field validator, independent parsers and integer-pair oracles.",
+    "Complete fabricated qualifier, case generators, full staged first-refusal inventory and saved fresh-reference comparison.",
+    "Stable complete-source binding and root source/applicability/qualification review."
+  ]
+}

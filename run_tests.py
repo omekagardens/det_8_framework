@@ -576,12 +576,76 @@ def test_redteam_fixes():
     test("F11: inconsistent clock/proxy → False", cp2["consistency"] is False)
 
 
-# ── Gravity v2 (F2 resolution) Tests ───────────────────────────────────────
+# ── Legacy-gravity quarantine tests ────────────────────────────────────────
 
-def test_gravity_v2():
+def test_legacy_gravity_quarantine():
+    import ast
+    from pathlib import Path
+
+    from det8.models.legacy_gravity_quarantine import (
+        FULLY_RETIRED,
+        SALVAGED_CORRESPONDENCE,
+        SYNTHETIC_CORRESPONDENCE,
+        quarantine_summary,
+    )
+    from det8.models.lorentz_derivation import lorentz_covariance_summary
+
+    section("Legacy gravity quarantine")
+
+    models_root = Path(__file__).resolve().parent / "det8" / "models"
+    registered_stems = {name.rsplit(".", 1)[-1] for name in FULLY_RETIRED}
+    marked_stems = {
+        path.stem
+        for path in models_root.glob("*.py")
+        if "QUARANTINE = quarantine_record(__name__)" in path.read_text(encoding="utf-8")
+    }
+
+    test("28 fully retired modules registered", len(FULLY_RETIRED) == 28)
+    test("Every retired module carries its quarantine marker",
+         marked_stems == registered_stems,
+         f"missing={sorted(registered_stems - marked_stems)}, extra={sorted(marked_stems - registered_stems)}")
+    test("Retired records cannot claim empirical support",
+         all(not record.empirical_claim for record in FULLY_RETIRED.values()))
+
+    # A fully retired module may depend on another retired module. An active
+    # model may not import one: that would silently reactivate its assumptions.
+    violations = []
+    for path in models_root.glob("*.py"):
+        importer = f"det8.models.{path.stem}"
+        if importer in FULLY_RETIRED:
+            continue
+        tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+        imported = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.ImportFrom) and node.module:
+                imported.add(node.module)
+            elif isinstance(node, ast.Import):
+                imported.update(alias.name for alias in node.names)
+        bad = sorted(imported.intersection(FULLY_RETIRED))
+        if bad:
+            violations.append((path.name, bad))
+    test("Active models do not import fully retired gravity modules",
+         not violations, repr(violations))
+
+    test("Salvaged modules are synthetic correspondence only",
+         all(record.status == SYNTHETIC_CORRESPONDENCE and not record.empirical_claim
+             for record in SALVAGED_CORRESPONDENCE.values()))
+    lorentz = lorentz_covariance_summary()
+    test("Lorentz fixture declares inserted Minkowski structure",
+         lorentz["classification"] == SYNTHETIC_CORRESPONDENCE
+         and any("Minkowski" in item for item in lorentz["what_is_assumed"]))
+    test("Quarantine summary exposes zero active legacy claims",
+         quarantine_summary()["active_empirical_claims_from_retired_modules"] == 0)
+
+
+# ── Gravity v2 historical-regression tests ─────────────────────────────────
+
+def test_legacy_gravity_v2():
     from det8.models import gravity_v2 as g
 
-    section("Gravity v2 (F2 resolution)")
+    section("Gravity v2 (quarantined historical arithmetic)")
+
+    test("Module is explicitly retired", g.QUARANTINE.status == "RETIRED")
 
     # Three-quantity split: χ, G_eff, ρ_κ.
     test("χ(κ=κ_eq) = 0", abs(g.response_field(0.0, 0.0, 1.0)) < 1e-12)
@@ -942,13 +1006,20 @@ def test_applied_physics():
 
     section("Applied physics (5 tests + adversary)")
 
-    # BIC: perfect fit is −inf; penalizes extra parameters.
-    test("BIC: perfect fit = −inf", adv.bic(2, 10, 0.0) == float("-inf"))
-    test("BIC: penalizes extra params", adv.bic(5, 100, 1.0) > adv.bic(2, 100, 1.0))
-
-    # compare_bic: lower BIC wins.
-    cmp = adv.compare_bic(2, 0.5, 3, 1.0, 100)
-    test("compare_bic: DET wins when lower", cmp["det_wins"])
+    # Unknown Gaussian variance has no finite MLE at exact zero RSS.
+    test("BIC: zero RSS unavailable", adv.bic(2, 10, 0.0, regularity_confirmed=True) is None)
+    test("BIC: regularity must be declared", adv.bic(2, 100, 1.0) is None)
+    penalty = (adv.bic(5, 100, 1.0, regularity_confirmed=True)
+               - adv.bic(2, 100, 1.0, regularity_confirmed=True))
+    test("BIC: identifiable parameter penalty", abs(penalty - 3 * math.log(100)) < 1e-10)
+    cmp = adv.compare_bic(2, 0.5, 3, 1.0, 100, regularity_confirmed=True,
+                          families=("linear", "log_linear"))
+    test("conditional BIC compares named fit families",
+         cmp["preferred_family"] == "linear" and cmp["det_wins"] is None)
+    moments = adv.iid_roughness_moments(20, 0.1)
+    test("roughness retains shared adjacent-error covariance",
+         abs(moments["mean"] - 0.38) < 1e-12
+         and abs(moments["variance"] - 0.0224) < 1e-12)
 
     # κ-dynamics solver: recovers toward κ_eq with no damage.
     T_t = [300.0] * 100
@@ -959,21 +1030,23 @@ def test_applied_physics():
     test("solve_kappa: decays toward κ_eq",
          k[-1] < k[0] and abs(k[-1] - 0.1) < abs(k[0] - 0.1))
 
-    # Discriminator: single-exponential → β≈1 (DET-like); stretched → β<1.
+    # A fitted exponent labels a curve shape, without identifying a mechanism.
     t = [i for i in range(100)]
     y_single = [math.exp(-i / 20.0) for i in t]
     y_stretched = [math.exp(-((i / 20.0) ** 0.5)) for i in t]
     fit1 = disc.fit_kww(t, y_single)
     fit2 = disc.fit_kww(t, y_stretched)
-    test("discriminator: single-exp → DET-like",
-         fit1["classification"] == "single_exponential_det_like")
-    test("discriminator: stretched → defect-like",
-         fit2["classification"] == "stretched_defect_like")
+    test("discriminator: single-exponential shape",
+         fit1["classification"] == "single_exponential")
+    test("discriminator: stretched-exponential shape",
+         fit2["classification"] == "stretched_exponential")
 
-    # run_all: 10 rows, all correctly identified.
+    # Ten supplied-generator examples are descriptive comparisons.
     r = run_all_applied_tests()
     test("applied tests: 10 rows", r["n_tests"] == 10)
-    test("applied tests: all correctly identified", r["n_correct_identification"] == 10)
+    test("applied tests: no fabricated identification count",
+         r["n_correct_identification"] is None
+         and all(row["bic_available"] is False for row in r["rows"]))
 
     # κ-recovery fit recovers a known exponential (the aging-model shape).
     from det8.applied_physics.applied_tests import _fit_exp_decay, run_aging_adversarial
@@ -1007,14 +1080,28 @@ def test_ingest_pipelines():
         test(f"{ds}: inputs equal length",
              n == len(inp["T_t"]) == len(inp["flux_t"]) == len(inp["observable"]) > 0)
 
-    # RINEX clock parser handles both bias-only (NVALS=1) and bias+drift (NVALS=2).
+    # RINEX 3.04 orders clock values as bias, bias sigma, then rate on a
+    # continuation row. NVALS=2 must never be misread as bias plus rate.
     rec = parse_igs_clock("AS G01 2024 01 01 00 00 00 2 1.0e-7 2.0e-15\n")
-    test("RINEX parser: parses AS line", len(rec) == 1 and abs(rec[0]["bias_s"] - 1e-7) < 1e-20
-         and abs(rec[0]["drift_s_per_s"] - 2e-15) < 1e-30)
+    test("RINEX parser: NVALS=2 is bias plus bias uncertainty",
+         len(rec) == 1
+         and abs(rec[0]["bias_s"] - 1e-7) < 1e-20
+         and abs(rec[0]["bias_sigma_s"] - 2e-15) < 1e-30
+         and rec[0]["drift_s_per_s"] is None)
     rec_bias_only = parse_igs_clock("AS G01 2024 01 01 00 00 00 1 -3.0e-4\n")
     test("RINEX parser: bias-only line", len(rec_bias_only) == 1
          and abs(rec_bias_only[0]["bias_s"] - (-3.0e-4)) < 1e-20
-         and rec_bias_only[0]["drift_s_per_s"] == 0.0)
+         and rec_bias_only[0]["bias_sigma_s"] is None
+         and rec_bias_only[0]["drift_s_per_s"] is None)
+    rec_with_rate = parse_igs_clock(
+        "AS G01 2024 01 01 00 00 00 3 1.0e-7 2.0e-15\n"
+        " 3.0e-18\n"
+    )
+    test("RINEX parser: NVALS=3 continuation carries clock rate",
+         len(rec_with_rate) == 1
+         and abs(rec_with_rate[0]["bias_s"] - 1e-7) < 1e-20
+         and abs(rec_with_rate[0]["bias_sigma_s"] - 2e-15) < 1e-30
+         and abs(rec_with_rate[0]["drift_s_per_s"] - 3e-18) < 1e-32)
 
     # IBM properties parser extracts T1/T2.
     obj = {"last_update_date": "2024", "qubits": [[
@@ -1350,12 +1437,20 @@ def test_kernel_continuum():
 
 def test_correlation_class():
     import math
+
     from det8.models.correlation_class import (
-        NoSignallingCorrelation, local_deterministic_correlation,
-        pr_box, bell_state_correlation, chsh_local_bound,
-        chsh_no_signalling_bound, chsh_tsirelson_bound,
-        verify_tsirelson_identity, bell_state_npa_level1,
-        pr_box_not_almost_quantum, global_record_extendability, run_t6,
+        NoSignallingCorrelation,
+        bell_state_correlation,
+        bell_state_npa_level1,
+        chsh_local_bound,
+        chsh_no_signalling_bound,
+        chsh_tsirelson_bound,
+        global_record_extendability,
+        local_deterministic_correlation,
+        pr_box,
+        pr_box_not_almost_quantum,
+        run_t6,
+        verify_tsirelson_identity,
     )
 
     section("Correlation Class (T6)")
@@ -1373,6 +1468,10 @@ def test_correlation_class():
     # No-signalling validation.
     test("T6: PR box is no-signalling", pr.validate()["valid"])
     test("T6: Bell state is no-signalling", bell.validate()["valid"])
+    signed = NoSignallingCorrelation([[0.6, 0.6, -0.1, -0.1]] * 4)
+    test("T6: normalized signed no-signalling tables are invalid behaviors",
+         signed.is_normalized() and signed.is_no_signalling()
+         and not signed.validate()["valid"] and not signed.is_classical())
 
     # Local (classical) polytope via the 8 CHSH facets.
     test("T6: local deterministic is classical", local.is_classical())
@@ -1390,16 +1489,19 @@ def test_correlation_class():
     test("T6: B² = 4I − [A₀,A₁][B₀,B₁] identity", sos["identity_holds"])
     test("T6: ‖B‖ = 2√2 (Tsirelson)", sos["matches_tsirelson"])
 
-    # Almost-quantum (NPA level 1) membership: Bell ∈ Q̃, PR ∉ Q̃.
+    # Supplied Bell Q_{1+AB} diagnostics; ordinary Q1 has only five words.
     npa1 = bell_state_npa_level1()
-    test("T6: Bell level-1 Γ is PSD", npa1["psd"])
-    test("T6: Bell level-1 Γ satisfies constraints",
+    test("T6: Bell Q_1+AB Γ is PSD", npa1["psd"])
+    test("T6: Bell Q_1+AB Γ satisfies the implemented partial constraints",
          npa1["constraints"]["all_constraints"])
+    test("T6: supplied nine-word fixture is scoped to Q_1+AB",
+         npa1["npa_level"] == "Q_1+AB" and len(npa1["words"]) == 9
+         and not npa1["general_membership_test"])
     test("T6: PR box ∉ Q̃ (S=4 > 2√2)", pr_box_not_almost_quantum()["violates"])
 
-    # Global record extendability: level-1 Γ embeds in a PSD level-2 Γ².
+    # This one Bell Q_1+AB matrix embeds in its supplied Q2 matrix.
     ext = global_record_extendability()
-    test("T6: Bell level-1 Γ is a principal submatrix of level-2 Γ²",
+    test("T6: Bell Q_1+AB Γ is a principal submatrix of Q2 Γ²",
          ext["level1_is_principal_submatrix"])
     test("T6: Bell level-2 Γ² is PSD (extends)", ext["level2_psd"])
 
@@ -1417,13 +1519,14 @@ def test_order_count_geometry():
     from det8.models.order_count_geometry import (
         sprinkle_diamond, build_causality, link_nullness, links,
         ordering_fraction, reference_ordering_fractions, estimate_dimension,
+        myrheim_meyer_ordering_fraction,
         conformal_sprinkle_1d, recover_conformal_factor,
         conformal_invariance_of_order, run_t7,
     )
 
     section("Order-and-Count Geometry (T7)")
 
-    # ORDER → null/conformal structure: links lie on the light cone.
+    # Finite-density link-nullness diagnostic on generated 1+1 samples.
     pts_small = sprinkle_diamond(2, 60, seed=1)
     pts_large = sprinkle_diamond(2, 240, seed=1)
     null_small = link_nullness(pts_small, build_causality(pts_small))
@@ -1434,46 +1537,81 @@ def test_order_count_geometry():
     test("T7: link nullness shrinks with density (→ light cone)",
          null_large["mean_link_nullness"] < null_small["mean_link_nullness"])
 
+    # The diamond sampler must cover the full spatial domain, not one orthant.
+    pts_domain = sprinkle_diamond(3, 500, seed=23)
+    test("T7: diamond sampler covers negative spatial coordinates",
+         all(any(p[k] < 0 for p in pts_domain) for k in (1, 2)))
+    test("T7: diamond sampler covers positive spatial coordinates",
+         all(any(p[k] > 0 for p in pts_domain) for k in (1, 2)))
+
     # ORDER is blind to the conformal factor (Malament/HKM), pointwise.
     inv = conformal_invariance_of_order()
-    test("T7: order invariant under conformal factor Ω² > 0", inv["invariant"])
+    test("T7: constant conformal rescaling preserves interval signs",
+         inv["invariant"])
 
-    # COUNT → conformal factor: recover Ω(x)² from binned counts.
+    # Recover the normalized generating-density profile from binned counts.
     pts_conf, weight = conformal_sprinkle_1d(4000, b=1.0, seed=7)
     conf = recover_conformal_factor(pts_conf, weight, b=1.0, n_bins=10)
-    test("T7: conformal factor recovered from counts (MSE small)",
+    test("T7: normalized generating density recovered (MSE small)",
          conf["mse"] < 0.05)
 
-    # ORDER + COUNT → dimension: ordering fraction is monotone in d.
-    ref = reference_ordering_fractions([2, 3, 4], n=400, trials=5, seed=42)
+    # ORDER + COUNT → dimension. First catch the normalization exactly:
+    # every unordered pair on a timelike line is comparable, so r = 1.
+    line = [(0.0, 0.0), (1.0, 0.0), (2.0, 0.0)]
+    test("T7: ordering fraction uses R/C(N,2) normalization",
+         abs(ordering_fraction(line) - 1.0) < 1e-12)
+
+    # Compare the sampler to the analytic Myrheim–Meyer fractions rather than
+    # calibrating and testing on the same Monte-Carlo implementation.
+    analytic_ref = {
+        d: myrheim_meyer_ordering_fraction(d) for d in (2, 3, 4)
+    }
+    test("T7: analytic Myrheim–Meyer fractions are known values",
+         abs(analytic_ref[2] - 0.5) < 1e-12
+         and abs(analytic_ref[3] - 8 / 35) < 1e-12
+         and abs(analytic_ref[4] - 0.1) < 1e-12)
+    ref_mc = reference_ordering_fractions([2, 3, 4], n=500,
+                                          trials=5, seed=42)
+    test("T7: sampled ordering fractions match analytic references",
+         all(abs(ref_mc[d] - analytic_ref[d]) < 0.035 for d in (2, 3, 4)))
     test("T7: ordering fraction decreases with dimension",
-         ref[2] > ref[3] > ref[4])
+         analytic_ref[2] > analytic_ref[3] > analytic_ref[4])
 
     # Dimension recovery on fresh sprinklings.
     est = {}
     for d in (2, 3, 4):
         pts = sprinkle_diamond(d, 400, seed=100 + d)
-        est[d] = estimate_dimension(pts, ref)
+        est[d] = estimate_dimension(pts, analytic_ref)
     test("T7: dimension recovered (d=2)", est[2] == 2)
     test("T7: dimension recovered (d=3)", est[3] == 3)
     test("T7: dimension recovered (d=4)", est[4] == 4)
 
     # End-to-end.
     r = run_t7()
-    test("T7: end-to-end links → light cone",
+    test("T7: end-to-end link-nullness diagnostic improves",
          r["links_more_null_at_higher_density"])
     test("T7: certificate status honest (estimator verification ≠ emergence)",
-         "Estimator verification" in r["certificate"]["status"])
+         "Synthetic estimator verification" in r["certificate"]["status"])
+    test("T7: certificate declares no empirical interface",
+         r["certificate"]["empirical_interface"].startswith("None."))
+    test("T7: certificate blocks inference from synthetic check to physics",
+         "supplies no evidence" in r["certificate"]["physical_inference_barrier"])
 
 
 # ── Correlation-Class Frontier (T6b) Tests ─────────────────────────────────
 
 def test_correlation_frontier():
     import math
+
     from det8.models.correlation_class import bell_state_correlation, pr_box
     from det8.models.correlation_frontier import (
-        tlm_sums, tlm_margin, is_quantum_masanes, verify_tlm_necessary,
-        b_inequality_data, npa_convergence_statement, run_t6_frontier,
+        b_inequality_data,
+        is_quantum_masanes,
+        npa_convergence_statement,
+        run_t6_frontier,
+        tlm_margin,
+        tlm_sums,
+        verify_tlm_necessary,
     )
 
     section("Correlation-Class Frontier (T6b)")
@@ -1481,9 +1619,9 @@ def test_correlation_frontier():
     bell = bell_state_correlation()
     pr = pr_box()
 
-    # TLM / Masanes: exact characterization of the quantum set Q for (2,2,2).
-    test("T6b: Bell state is quantum (TLM)", is_quantum_masanes(bell))
-    test("T6b: PR box is not quantum (TLM)", not is_quantum_masanes(pr))
+    # TLM / Masanes: four-correlator projection; these examples are unbiased.
+    test("T6b: Bell correlators satisfy TLM", is_quantum_masanes(bell))
+    test("T6b: PR correlators violate TLM", not is_quantum_masanes(pr))
     test("T6b: Bell TLM margin = 0 (saturates boundary)",
          abs(tlm_margin(bell)) < 1e-9)
     test("T6b: PR box TLM margin = +π (max violation)",
@@ -1495,7 +1633,7 @@ def test_correlation_frontier():
     # TLM necessity verified numerically on the quantum vector model.
     v = verify_tlm_necessary(n=20000, dim=3, seed=42)
     test("T6b: TLM ≤ π holds on the quantum vector model", v["tlm_holds"])
-    test("T6b: TLM is tight (max |TLM| ≈ π)",
+    test("T6b: sampled vector correlators approach the cited TLM boundary",
          abs(v["max_abs_tlm"] - math.pi) < 0.05)
 
     # B inequality: the sourced Q ⊊ Q̃ separation.
@@ -1505,31 +1643,41 @@ def test_correlation_frontier():
     test("T6b: B almost-quantum violation ≈ −1.052 (cited)",
          abs(bd["almost_quantum_violation"] + 1.052) < 1e-9)
 
-    # NPA convergence: the collapse is a theorem, with the open question stated.
+    # Scope of an imported theorem; this metadata check is not its proof.
     nc = npa_convergence_statement()
-    test("T6b: NPA convergence makes the collapse a theorem",
-         "collapsing Q̃ → Q" in nc["theorem"])
-    test("T6b: remaining open question is stated (𝔇_n == NPA extendability?)",
-         "EQUAL to NPA-extendability" in nc["remaining_open_question"])
+    test("T6b: all-level NPA has the commuting endpoint with word relations",
+         nc["scope"]["npa_limit"] == "C_qc"
+         and nc["scope"]["requires_operator_word_relations"]
+         and not nc["scope"]["tensor_closure_equals_commuting_in_general"])
+    test("T6b: bare marginals do not certify operational word consistency",
+         not nc["scope"]["bare_marginals_sufficient"]
+         and not nc["scope"]["det_correlation_class_selected"])
 
     r = run_t6_frontier()
     test("T6b: end-to-end frontier run",
-         r["TLM"]["bell_is_quantum"] and not r["TLM"]["pr_box_is_quantum"])
+         r["TLM"]["bell_is_quantum"] and not r["TLM"]["pr_box_is_quantum"]
+         and not r["TLM"]["full_behavior_membership_test"])
 
 
 # ── Grade-2 Justification (T2a) Tests ──────────────────────────────────────
 
 def test_grade2_justification():
-    from det8.models.pair_kernel import make_pair_kernel
     from det8.models.grade2_justification import (
-        GradeMeasure, make_grade1_classical, grade_measure_from_pair_kernel,
-        make_grade3_counterexample, negative_result, a_priori_routes,
-        simulate_counts, grade2_discriminator, run_t2a,
+        a_priori_routes,
+        grade2_discriminator,
+        grade_measure_from_pair_kernel,
+        make_grade1_classical,
+        make_grade3_counterexample,
+        negative_result,
+        run_t2a,
+        simulate_counts,
+        strong_positivity_counterexample,
     )
+    from det8.models.pair_kernel import make_pair_kernel
 
     section("Grade-2 Justification (T2a)")
 
-    # Sorkin hierarchy: grade-1 additive, grade-2 quantum, grade-3 beyond.
+    # Grade two alone does not impose the strong positivity of a Gram kernel.
     g1 = make_grade1_classical(4, seed=42)
     test("T2a: grade-1 (classical) measure is additive",
          g1.grade() == 1 and g1.is_normalized() and g1.is_positive())
@@ -1540,6 +1688,14 @@ def test_grade2_justification():
     test("T2a: pair-kernel I_3 = 0", abs(g2.interference({0}, {1}, {2})) < 1e-9)
     test("T2a: pair-kernel I_2 ≠ 0 (pairwise interference present)",
          abs(g2.interference({0}, {1})) > 1e-6)
+    counterexample = strong_positivity_counterexample()
+    measure = counterexample["measure"]
+    test("T2a: nonnegative normalized grade two can violate Gram positivity",
+         measure.is_positive() and measure.is_normalized() and measure.grade() == 2
+         and all(measure.mu({i}) == 0 for i in range(3))
+         and abs(measure.mu({0, 1}) - 1 / 3) < 1e-12
+         and abs(measure.interference({0}, {1}, {2})) < 1e-12
+         and not counterexample["strong_positive_representation_exists"])
 
     # Negative result: grade-3 not forced by normalization + positivity.
     neg = negative_result()
@@ -1575,8 +1731,13 @@ def test_grade2_justification():
 def test_record_extendability():
     from det8.models.pair_kernel import make_pair_kernel
     from det8.models.record_extendability import (
-        marginal, product_blocks, gram_sum_rule, trivial_extendability,
-        operator_algebra_consistency, resolution, run_t6_residual,
+        gram_sum_rule,
+        marginal,
+        operator_algebra_consistency,
+        product_blocks,
+        resolution,
+        run_t6_residual,
+        trivial_extendability,
     )
 
     section("T6 Residual (record extendability)")
@@ -1603,14 +1764,16 @@ def test_record_extendability():
 
     # The non-trivial condition: operator-algebra (moment-matrix) consistency.
     op = operator_algebra_consistency()
-    test("T6r: Bell level-1 moment matrix is PSD", op["bell_level1_psd"])
+    test("T6r: Bell Q_1+AB moment matrix is PSD", op["bell_level1_psd"])
     test("T6r: Bell extends to level 2 (operator-algebra consistent)",
          op["bell_extends"])
 
-    # The resolution is the sharpened condition.
+    # A finite Bell extension does not derive operational relations from records.
     res = resolution()
-    test("T6r: resolution sharpens 'record extendability' to operator algebra",
-         "operator-algebra" in res["status"] or "operator algebra" in res["answer"])
+    test("T6r: finite example leaves bare-marginal and all-level selection open",
+         not res["scope"]["bare_marginals_sufficient"]
+         and not op["all_level_extension_tested"]
+         and not op["arbitrary_almost_quantum_rejection_established"])
 
     r = run_t6_residual()
     test("T6r: end-to-end run",
@@ -1622,10 +1785,16 @@ def test_record_extendability():
 
 def test_why_complex():
     from det8.models.why_complex import (
-        decompose, is_symmetric, is_antisymmetric, real_part_gives_real_qm,
-        standard_symplectic, complex_structure,
-        reversible_dynamics_require_complex, why_not_quaternions,
-        connection_to_observation, run_why_complex,
+        complex_structure,
+        connection_to_observation,
+        decompose,
+        is_antisymmetric,
+        is_symmetric,
+        real_part_gives_real_qm,
+        reversible_dynamics_require_complex,
+        reversible_form_counterexample,
+        run_why_complex,
+        why_not_quaternions,
     )
 
     section("Why ℂ (complex field selection)")
@@ -1636,12 +1805,12 @@ def test_why_complex():
     test("Tℂ: G = Re 𝔇 is symmetric", is_symmetric(G))
     test("Tℂ: Ω = Im 𝔇 is antisymmetric", is_antisymmetric(Om))
 
-    # Ω = 0 ⟹ real QM (interference present), NOT classical.
+    # A real kernel can interfere, without reconstructing a real operational QM.
     rq = real_part_gives_real_qm()
-    test("Tℂ: Ω=0 gives real QM (I₂ ≠ 0), not classical",
-         rq["real_QM_not_classical"])
+    test("Tℂ: a normalized real positive kernel has I2 = 1/3",
+         rq["real_QM_not_classical"] and abs(rq["I2"] - 1 / 3) < 1e-12)
 
-    # J = G^{-1}Ω satisfies J² = −I.
+    # For supplied compatible forms J = G^{-1}Ω satisfies J² = −I.
     cs = complex_structure(m=2)
     test("Tℂ: J = G^{-1}Ω has J² = −I (complex structure)",
          cs["J_squared_equals_minus_I"])
@@ -1651,15 +1820,21 @@ def test_why_complex():
     test("Tℂ: symplectic generator ⟺ complex-linear (O∩Sp=U)",
          rd["symplectic_iff_commutes_with_J"])
 
-    # One Ω ⟹ ℂ (ℍ would need three).
-    test("Tℂ: why-not-ℍ states one-phase ⟹ ℂ",
-         "one" in why_not_quaternions()["one_phase_gives_C"].lower()
-         or "ℂ" in why_not_quaternions()["one_phase_gives_C"])
+    # Positive, form-preserving rotations do not force compatibility.
+    counterexample = reversible_form_counterexample()
+    test("Tℂ: normalized positive reversible example has J squared = -I/4",
+         abs(sum(map(sum, counterexample["kernel"])) - 1) < 1e-12
+         and counterexample["eigenvalues"] == (0.25, 0.75)
+         and counterexample["rotation_preserves_both_forms"]
+         and counterexample["J_squared"] == [[-0.25, 0.0], [0.0, -0.25]]
+         and not why_not_quaternions()["selects_complex_over_quaternionic"])
 
     # Honest observation verdict.
-    test("Tℂ: observation verdict is honest (no super-quantum observed)",
-         "super-quantum" in connection_to_observation()["no_superquantum_observed"]
-         and "NOT defensible" in connection_to_observation()["verdict"])
+    observations = connection_to_observation()["scope"]
+    test("Tℂ: no field selection or empirical exclusion is reported",
+         not observations["complex_field_selected"]
+         and not observations["empirical_data_analyzed"]
+         and not observations["real_correlators_equal_almost_quantum"])
 
     r = run_why_complex()
     test("Tℂ: end-to-end run",
@@ -3625,12 +3800,17 @@ def test_born_rule_uniqueness():
          conservation_residual(2.0, 2) < 1e-12
          and conservation_residual(3.0, 2) > 0.2
          and conservation_residual(4.0, 3) > 0.5)
-    test("The theorem flags the L2 circularity honestly",
-         "CONSISTENCY CHECK" in born_rule_uniqueness_theorem()["honest_classification"]
-         and "L2" in born_rule_uniqueness_theorem()["circularity"])
-    test("The grade-2 connection ties Born to the three-slit null",
-         "grade-2" in grade2_born_connection()["claim"]
-         and "three-slit" in grade2_born_connection()["empirical_anchor"])
+    test("The conditional normalization premise is explicit",
+         born_rule_uniqueness_theorem()["scope"]["l2_normalization_assumed"]
+         and not born_rule_uniqueness_theorem()["scope"]["born_rule_derived"])
+    from det8.models.grade2_justification import strong_positivity_counterexample
+    measure = strong_positivity_counterexample()["measure"]
+    test("A grade-two null does not select strong positivity or Born",
+         abs(measure.interference({0}, {1}, {2})) < 1e-12
+         and measure.mu({0}) == 0 and measure.mu({1}) == 0
+         and measure.mu({0, 1}) > 0
+         and not grade2_born_connection()["scope"]["grade2_implies_strong_positivity"]
+         and not grade2_born_connection()["scope"]["three_slit_null_selects_born"])
 
 
 def test_quantum_deadlock():
@@ -3648,7 +3828,7 @@ def test_quantum_deadlock():
          and abs(born_grade2["I3"]) < 1e-12)
 
     coherence = coherence_check()
-    test("The four pillars are mutually coherent",
+    test("The supplied algebraic examples agree under their premises",
          coherence["coherent"]
          and coherence["born_p2_conserves_L2"]
          and coherence["real_qm_not_classical"])
@@ -3658,9 +3838,11 @@ def test_quantum_deadlock():
          set(resolution["pillars"].keys()) == {"complex", "grade2", "born", "open"})
     test("The honest boundary keeps the open-outcome pillar at Status M",
          "Status M" in resolution["honest_boundary"])
-    test("The almost-quantum framing states the static/dynamical split",
-         "static" in resolution["almost_quantum"]["static_level"].lower()
-         and "dynamical" in resolution["almost_quantum"]["complex_is_dynamical"])
+    test("The report does not equate real correlators with almost quantum",
+         not resolution["almost_quantum"]["real_correlators_equal_almost_quantum"]
+         and coherence["scope"]["algebraic_examples_only"]
+         and not coherence["scope"]["ontology_validated"]
+         and not resolution["full_qm_derived"])
 
 
 def test_frontier_research():
@@ -3690,11 +3872,15 @@ def test_frontier_research():
          f10["det_commitment"]["commitment"] == "EMERGENT (compressed regularity)")
 
     u1 = u1_emergence_resolution()
-    test("U(1): the 2×2 Hermitian check holds and the shape-argument status is flagged",
+    test("U(1): the Hermitian example assumes its field and does not select it",
          u1["one_phase"]["handwritten_2x2_is_hermitian"]
-         and "shape ARGUMENT" in u1["one_phase"]["computed_vs_asserted"])
-    test("U(1): honest boundary flags shape arguments",
-         "shape arguments" in u1["honest_boundary"])
+         and not u1["one_phase"]["complex_field_selected"]
+         and not u1["one_phase"]["causal_order_implies_one_phase"])
+    reset = u1["reversibility"]["counterexample"]
+    test("U(1): uniform preservation permits an irreversible reset",
+         reset["uniform_preserving_channel"] == [[0.5, 0.5], [0.5, 0.5]]
+         and reset["distinct_input_outputs"] == [[0.5, 0.5], [0.5, 0.5]]
+         and not reset["injective"] and not u1["scope"]["u1_emergence_proved"])
 
 
 def test_mathematical_search_adapters():
@@ -5368,10 +5554,17 @@ def main():
         traceback.print_exc()
 
     try:
-        test_gravity_v2()
+        test_legacy_gravity_quarantine()
     except Exception as e:
         ERROR += 1
-        print(f"  ERROR in gravity_v2: {e}")
+        print(f"  ERROR in legacy_gravity_quarantine: {e}")
+        traceback.print_exc()
+
+    try:
+        test_legacy_gravity_v2()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in legacy_gravity_v2: {e}")
         traceback.print_exc()
 
     try:

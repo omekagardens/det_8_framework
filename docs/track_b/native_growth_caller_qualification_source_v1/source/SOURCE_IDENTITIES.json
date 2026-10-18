@@ -1,0 +1,282 @@
+{
+  "schema": "ri132-source-predecessor-identities-v1",
+  "status": "AUTHOR_OPAQUE_IDENTITIES_AND_LITERAL_TEXT_ONLY",
+  "scope": "No source evaluation, import, compilation, AST, scientific JSON decoding or current runtime inventory. Manifests are pinned administrative expectations, not current runtime evidence.",
+  "files": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/HISTORY_RECONCILIATION.json",
+      "bytes": 2170307,
+      "sha256": "b00d94f5d81f22e6c18715bed9519eb17f8252d12871e3254a9f3e5dac92435c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/INDEPENDENT_APPLICABILITY_REVIEW.md",
+      "bytes": 10879,
+      "sha256": "66b163bfb90bee45539a188abe16b59367ebad946c41b32b81e1b1a4677ab0f4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/RUNTIME_CLOSURE.json",
+      "bytes": 2862854,
+      "sha256": "35a58d48fce8e00e87d61034b13ef4fba2571d68630d55616ea27e3b786a7920"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/closure/native_growth_connected_sensitivity_v1/inputs/ri88.json",
+      "bytes": 1828149,
+      "sha256": "ad029d61adc2c8edbe4ae2c3c0969310762a70b411497d4404aa3b3c504f0f5b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/launch_audit.py",
+      "bytes": 98660,
+      "sha256": "3c07355837e5b392b3e7802879af5dede522f711b5b114e6496dff58d9dcf3db"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-native-caller-source-jgehvvxx/supervise.py",
+      "bytes": 82578,
+      "sha256": "3a953ee908ca7d5db9694e5bdff6efa955d65b11447cd0f2bf6aa9eeca3de3e4"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json",
+      "bytes": 15477,
+      "sha256": "162949e859b16211106e3c0213a29db290d52ffc7bf7fdaf411d20387a2fdbbc"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri124-root-proof-review-77jju1y6/ROOT_ADJUDICATION.json",
+      "bytes": 3645,
+      "sha256": "85b6d5c84139b05d5a18f89614a415ecde962efc429092b914e6f2da33ccde9c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri127-root-proof-review-tz7oyfkj/ROOT_ADJUDICATION.json",
+      "bytes": 4071,
+      "sha256": "66d274815c101015256ba506f3e6a125375797b1b7946831159d39692ffebd77"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/AUDIT_NOTES.md",
+      "bytes": 13789,
+      "sha256": "89af7f6f7f4ea17e835770ff24ed71e181f5f6f28751f4f7fc8c57cdca77caf6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/IMPLEMENTATION.md",
+      "bytes": 9005,
+      "sha256": "e9053c9b8e9f6d113febf4cc4b5597aca5e2238a25e67d14c5a3b743149aad26"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/audit_saved.py",
+      "bytes": 41355,
+      "sha256": "5c9494e78df31c726c973d2aa0188ca745a3532a351a5826dcb312fca3892ed7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-connected-sign-dvgWLqqv/check.py",
+      "bytes": 27288,
+      "sha256": "73bb32320be53c38cf85889ca108229d9c2ea2d79b27814ac258eb4b6f133e38"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-independent-proof-source-review-Q4vXBzjt/HANDOFF.json",
+      "bytes": 1835,
+      "sha256": "78c0977ae2d0eb23f07eb612c8e797071956c3f9db2b7a044a1a15f277be1eaf"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri128-root-adjudication-tb3fbol5/RI128_ROOT_ADJUDICATION.json",
+      "bytes": 3230,
+      "sha256": "324644290d2d8eeb79a2af655bed476f02f7d0cc3ffb5fac1672f975f0a3ede1"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/CORRECTED_METADATA_SUMMARY.json",
+      "bytes": 18478,
+      "sha256": "2d69442db44cea379812c5b4907818b05e0c7008ab6d65061cc84a0a7bc65c04"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/FINAL_PIN_CHECK.json",
+      "bytes": 4840,
+      "sha256": "18ad39bcde08b83e6b1fff843e02469eb4c3005e3e8d58a301a509778cb4936d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/HANDOFF.json",
+      "bytes": 3082,
+      "sha256": "6cd215563c660948188a73c6d3d0ccc6fe6f583b4d1bc2cc981654abcc223ac0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 6670,
+      "sha256": "d0e81254694db9c145c3760b08e86f02a8e2a1edadccfe10776842e4455710de"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/INDEPENDENT_SOURCE_REVIEW.md",
+      "bytes": 16214,
+      "sha256": "19d74caf5807a4d781bfac97959c2f791d9c181914496e0504145a321132f7eb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/METADATA_REVIEW.json",
+      "bytes": 31528781,
+      "sha256": "966b139f5c9d9df317d19175d6a364ff3e5e134d5481bd41b77ab324101e2e06"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/TEXT_SPAN_MAP.json",
+      "bytes": 15980,
+      "sha256": "d63b685eb8b447af13e729204a48b9835557c1406a25a778b1d370bfe5e60088"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_metadata.py",
+      "bytes": 7437,
+      "sha256": "2c62a5254b0dde169dcbb3ff9925e67b9ae581077e0584b668260232ef3278cb"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10/check_text_correction.py",
+      "bytes": 4782,
+      "sha256": "ac66cd1dadea7815f0f036229ddfd0b3087890a5b05e3d87b997839135034db7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_NOTES.md",
+      "bytes": 10788,
+      "sha256": "177a73c780c99c489ac3b3fac3e1f3a974218b9fe3904ac5351827b85bf0c5b9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUDIT_CALLER_SOURCE_DELTA.patch",
+      "bytes": 44763,
+      "sha256": "a286bd5bc63cab4e0ad7bd24cdea5ac83e665c1c8a89adcc64ffd836f057c7a2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/AUTHOR_METADATA_CHECK.json",
+      "bytes": 6386,
+      "sha256": "2fe662e72507cbd342e66663cc3a4d5a621aa5c16fd14d361df57ebc77c36cc9"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/CALLER_CONTRACT.md",
+      "bytes": 24196,
+      "sha256": "dc2d798e3e95957ddcc397f94155f3c2ca493bc500eec2086aa2147a53a11dd6"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/DEPENDENCY_NOTES.md",
+      "bytes": 6135,
+      "sha256": "f229ae82ae3ea2a79dfe85a7c3a104617d92effd08b64fdeb710a9c625557d57"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.json",
+      "bytes": 10184,
+      "sha256": "b3839ba2f81e791321e2549107ce5f1b84ffdbbcc635396ab4e72002386feac0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/HANDOFF.md",
+      "bytes": 7233,
+      "sha256": "085be026fcffcddc39b9775fb9037a06a0cae89155053049cf16ea8b123ab7a0"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/NATIVE_SOURCE_NOTES.md",
+      "bytes": 14421,
+      "sha256": "d48d5fa27d7e3f33b3620137f6c4af2daa2c7fae99e0ebdf1c7bc0a9f41f1b5d"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SOURCE_DEPENDENCIES.json",
+      "bytes": 583262,
+      "sha256": "a2ef77a9827ceafaf8e94296ec01389d686f3ce2f68064b23d7a1626343c3d1c"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/SUPERVISE_SOURCE_DELTA.patch",
+      "bytes": 31725,
+      "sha256": "8a0d2fa476b4a148c4e14536b5c5dc99d602194e14b7c6f671f34a0e3e0c3927"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/TARGET_APPLICABILITY.md",
+      "bytes": 28109,
+      "sha256": "1bdc6d46ff6890dfa687fe03b26423607760b12aa305e6873c7a774f2077006f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/launch_audit.py",
+      "bytes": 103287,
+      "sha256": "5263099d45d9ed021a80d65029da511ad9019d30892278b1b412cb1794465ae5"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0/supervise.py",
+      "bytes": 88890,
+      "sha256": "34707ca1bd6e245ca9ec469adeb4c3da8cf0ed303be945036708554073b39650"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/RI129_ROOT_ADJUDICATION.json",
+      "bytes": 6126,
+      "sha256": "4b3139b7595e3f9c94c9bda3725dc7b6e329b7b100b1493124199064a4743266"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri129-root-source-adjudication-7cuvjhh5/ROOT_SOURCE_REVIEW_RECONCILIATION.json",
+      "bytes": 83987,
+      "sha256": "e43e9db507714de09a0cc6bdf1d55566f061cda39843615615b21068b58c541b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri87-ri88-results-checkpoint-3_kuqmvi/RI88_ROOT_RESULT_ADJUDICATION.json",
+      "bytes": 2783,
+      "sha256": "15cedc2d7683734450963dc147e2a0deef59f0713a6b9898d806d9dd1240bea6"
+    }
+  ],
+  "accepted_namespaces": [
+    {
+      "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-sign-caller-source-8TksBLo0",
+      "files": 13,
+      "exact_expected_names": true
+    },
+    {
+      "directory": "/Volumes/AI_DATA/development/det-review-evidence/ri129-native-caller-independent-review-Z0SqaY10",
+      "files": 9,
+      "exact_expected_names": true
+    }
+  ],
+  "literal_text_checks": [
+    {
+      "caller": "native",
+      "declarations": 52,
+      "exact_ordered_declaration_text": true,
+      "coverage_text_reconciliation": "Exact literal names partition into16 direct/10 retained/1 whole/25 blocked; ordered output iterates DECLARATIONS.",
+      "case_ids": [
+        "N01-zero-byte-identity",
+        "N02-unavailable-root-identity",
+        "N03-unavailable-review-identity",
+        "N04-fixed-source-pin",
+        "N05-runtime-file-identity",
+        "N06-runtime-link-identity",
+        "N07-historical-identity",
+        "N08-source-dependency-identity",
+        "N09-authenticated-metadata-body",
+        "N10-bound-current-identity",
+        "N11-unclosed-reference",
+        "N12-freeze-role-order",
+        "N13-unavailable-witness-identity",
+        "N14-unavailable-normal-identity",
+        "N15-source-only-decision-scope",
+        "N16-boolean-byte-count",
+        "N17-authorization-binding"
+      ]
+    },
+    {
+      "caller": "audit",
+      "declarations": 69,
+      "exact_ordered_declaration_text": true,
+      "coverage_text_reconciliation": "All69 literal details keys match exact declaration order.",
+      "case_ids": [
+        "audit-binding-null",
+        "audit-binding-zero-size",
+        "audit-binding-zero-digest",
+        "audit-binding-arbitrary-path",
+        "audit-history-empty-log-identity",
+        "audit-auth-false",
+        "audit-unclosed-reference",
+        "audit-runtime-file-argument-change",
+        "audit-runtime-index-positive",
+        "audit-dependency-prepare-positive",
+        "audit-preflight-wrong-mode",
+        "audit-ri128-promotion",
+        "audit-no-argument-argv",
+        "audit-target-path-argument",
+        "audit-target-symlink-argument",
+        "audit-target-oversize-argument"
+      ]
+    }
+  ],
+  "verification_method_corrections": [
+    {
+      "initial_check": "One author metadata comparison incorrectly expected native_controls.py to use the audit module _DETAILS layout; it stopped without issuing a success result.",
+      "correction": "Compare exact native declaration block and literal partition from CASES, _RETAINED, _BLOCKED and the one explicitly named whole-entry row. This is text comparison, not Python evaluation.",
+      "target_defect_claimed": false
+    }
+  ],
+  "source_or_helper_executed": false,
+  "scientific_body_decoded": false,
+  "all_transitive_runtime_or_history_files_reobserved": false,
+  "complete_changed_caller_qualification": false,
+  "ret_paused": true
+}

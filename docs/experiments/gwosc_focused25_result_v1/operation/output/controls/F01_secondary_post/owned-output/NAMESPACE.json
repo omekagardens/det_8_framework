@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "bytes": 27,
+      "kind": "file",
+      "relative": "ATTEMPT.json",
+      "sha256": "44a73f57d138370f5ffa9c3d839edf655d846e4d8df467c6fa688a3ef75e5720"
+    },
+    {
+      "bytes": 47,
+      "kind": "file",
+      "relative": "CHECKS.json",
+      "sha256": "2d7c0d46adb0d18e24b058d9d542e822313b4debce70862ed9f5080a19a08a90"
+    }
+  ],
+  "excluded_not_yet_written": [
+    "NAMESPACE.json",
+    "COMPLETE.json"
+  ],
+  "root": "/Volumes/AI_DATA/development/det-review-evidence/ri139-focused25-run-6_wa8gqh/output/controls/F01_secondary_post/owned-output",
+  "schema": "ri133-retained-namespace-v1"
+}

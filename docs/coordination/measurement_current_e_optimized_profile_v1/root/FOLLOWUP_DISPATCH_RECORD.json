@@ -1,0 +1,22 @@
+{
+  "git_root_only": true,
+  "measurement": {
+    "assignment": "RI194_REVIEW_ASSIGNMENT.json",
+    "item": "RI194",
+    "result": "success",
+    "target": "/root/archive_repro_review",
+    "tool": "collaboration.followup_task"
+  },
+  "native": {
+    "assignment": "RI195_REVIEW_ASSIGNMENT.json",
+    "item": "RI195",
+    "result": "success",
+    "target": "/root/ri116_complete_caller_review",
+    "tool": "collaboration.followup_task"
+  },
+  "no_new_agents": true,
+  "no_subject_execution": true,
+  "ret_paused": true,
+  "schema": "ri192-followup-dispatch-record-v1",
+  "status": "DISPATCHED_TO_EXISTING_REVIEWERS"
+}

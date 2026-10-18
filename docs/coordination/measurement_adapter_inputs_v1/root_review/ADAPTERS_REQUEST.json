@@ -1,0 +1,61 @@
+{
+  "profiles_acceptance": {
+    "bytes": 2208,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri170-current-e-root-records-proposed-gikj2giy/PROFILES_ACCEPTANCE.json",
+    "sha256": "d498ccd200b054e8759a37c1cdf0d6014c3e49982e3e944697682266ecf30798"
+  },
+  "root_decisions": {
+    "guard_path_review": {
+      "bytes": 4414,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/GUARD_PATH_APPLICABILITY.json",
+      "sha256": "222d2822fcf4256d7cd7d9abbec6976dca2221f306c675b35a25f752e0039773"
+    },
+    "independent_source_review": {
+      "bytes": 17896,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri154-independent-relocation-review-_2275plo/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "919f2db4f03167e5414a583e3bf7fb01f5c3c335fdefbfb37a7452a536d62bb1"
+    },
+    "packet_handoff": {
+      "bytes": 26684,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri130-white-qualification-caller-source-Q4Aq7hZg/HANDOFF.json",
+      "sha256": "1e478b0db8fcda22daedc77bce20c59a1f142b09d61e64d2f4a29a813f1152e8"
+    },
+    "runtime_applicability": {
+      "bytes": 18791,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri196-root-pair-applicability-review-wurq10uo/RUNTIME_APPLICABILITY.json",
+      "sha256": "828ba7dc2b73837d0ecbb47c45f520588d5be9bba0c29911546247a25a8d4a9e"
+    },
+    "source_review": {
+      "bytes": 18097,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri202-root-two-maxima-review-kw07pwnj/RELOCATED_SOURCE_DECISION.json",
+      "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+    }
+  },
+  "sidecars": {
+    "host_scope": {
+      "bytes": 86310,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/host_scope.json",
+      "sha256": "e57432b991cee52c7ae3adf5d777d361bf41306702017297338ce0512de9c99c"
+    },
+    "observed_dyld_routes": {
+      "bytes": 771,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/observed_dyld_routes.json",
+      "sha256": "d428c7a943d1d13feecf1e55cbf0a80d80344636b11f922223e77d16b470fb38"
+    },
+    "optional_namespaces": {
+      "bytes": 3666,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/optional_namespaces.json",
+      "sha256": "956ba339aa926e5b8a8666f455b78422f8f2b1f8768459a4ce434b8cd18648ce"
+    },
+    "runtime_inventory": {
+      "bytes": 2806092,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/runtime_inventory.json",
+      "sha256": "b6f0fd3244cef06c16da19922db212695387926e2f94012d1857c7c8793f7edc"
+    },
+    "selection": {
+      "bytes": 3820691,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri156-operation-ri200-sidecars-ofv27lvp/selection.json",
+      "sha256": "bd0b7b1b9e8d6825c92a4bf4cf92f72eb5330c2167f2ffee03ca1ae2d77622a8"
+    }
+  }
+}

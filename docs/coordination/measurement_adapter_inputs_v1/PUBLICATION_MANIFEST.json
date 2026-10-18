@@ -1,0 +1,84 @@
+{
+  "exact_copies": 13,
+  "parent": "28b7d323e29b9c83f4c168bcd9609acde557a3b0",
+  "payload": [
+    {
+      "bytes": 78213,
+      "path": "DEPENDENCY_MAP.json",
+      "sha256": "917e8be167c353a48e3c78c78fcab2512353553b91a0b1509e2efc2495c224d2"
+    },
+    {
+      "bytes": 2075,
+      "path": "README.md",
+      "sha256": "9f9ace6a109034679859417c9aefa1e1be51bceb601d7490ad2cc79579dad1a6"
+    },
+    {
+      "bytes": 3021,
+      "path": "root_review/ADAPTERS_REQUEST.json",
+      "sha256": "d74665367f305626d445534f1591098e541d1c7b0836bc7ebdd096886b50ee11"
+    },
+    {
+      "bytes": 2518,
+      "path": "root_review/INDEPENDENT_MEASUREMENT_INPUT_REVIEW.json",
+      "sha256": "53ff01e951afb10f2aed7264c3abc025416724edf929ee55e3f537b0eae0b8f5"
+    },
+    {
+      "bytes": 618,
+      "path": "root_review/MEASUREMENT_INPUT_DIAGNOSTIC.json",
+      "sha256": "9ad433126b49d35f5c6ef63e764cbec1a480249630aa0af01fece2a24e034bd5"
+    },
+    {
+      "bytes": 89867,
+      "path": "root_review/MEASUREMENT_INPUT_RECONCILIATION.json",
+      "sha256": "85fbd8e4a35d767068924e51b416c3e83ff16c9bc8dda063c20b8dab179dd511"
+    },
+    {
+      "bytes": 591,
+      "path": "root_review/MEASUREMENT_NAMESPACE_DIAGNOSTIC.json",
+      "sha256": "3fad6a307ecf169ef5fde825128ed8a7c006f96adb91acf8cdbc3dd6ae22f71b"
+    },
+    {
+      "bytes": 1559,
+      "path": "root_review/MEASUREMENT_NEXT_ACTION.json",
+      "sha256": "1afba4da229b8ac5ec17b5618a7fbf587885b9d0640a5ebbecd95a0014876ff3"
+    },
+    {
+      "bytes": 4097,
+      "path": "root_review/MEASUREMENT_ROOT_INPUT_REVIEW.md",
+      "sha256": "ee8dddb9e3c6c5309ecfce384f42857e1b1d6ce4b454fe77ed4c56f5cbba883d"
+    },
+    {
+      "bytes": 18097,
+      "path": "root_review/RELOCATED_SOURCE_DECISION.json",
+      "sha256": "d5784bc3971cd29824be4461756135d985bd720233ce940605ab87ac6b70d469"
+    },
+    {
+      "bytes": 1601,
+      "path": "root_review/ROOT_ACTUAL_RECEIPTS.json",
+      "sha256": "f26c594dbf44db548d38feb6ce4d3582bf722c91e329323a80f2cf146d4e54d2"
+    },
+    {
+      "bytes": 5460,
+      "path": "root_review/measurement_inputs.py",
+      "sha256": "6c4b034e454b7616c1d670cc79cd71b3379ece60dc57cd202c9f49c676bd695b"
+    },
+    {
+      "bytes": 5462,
+      "path": "root_review/measurement_inputs_v2.py",
+      "sha256": "b90ddc845f03d915c65b1d358bdd2c83efaafc148783c500b12ba4d9b535eebc"
+    },
+    {
+      "bytes": 5493,
+      "path": "root_review/measurement_inputs_v3.py",
+      "sha256": "9370aa26a6953ad99eb39018b27b099b747c9f3c7221ef3593764eba9398e76b"
+    },
+    {
+      "bytes": 3144,
+      "path": "root_review/metadata.py",
+      "sha256": "d2825bb1ea78306388a410d9b5aa9b931f72cb6a78334bc69151560f6b2584a7"
+    }
+  ],
+  "relocated_execution_authorized": false,
+  "schema": "review-checkpoint-publication-manifest-v1",
+  "source_only": true
+}

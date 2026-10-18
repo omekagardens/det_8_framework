@@ -1,0 +1,125 @@
+{
+  "actual_metadata_checks": [
+    {
+      "chunk_id": "3c7fd9",
+      "exit_code": 0,
+      "meaning": "Reviewer-owned text/opaque metadata checks; 430 successful checks, 423 complete dependency identities, 96 literal unchanged slices, complete diffs.",
+      "result": {
+        "bytes": 174064,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+        "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+      },
+      "tool": "exec_command"
+    },
+    {
+      "chunk_id": "e8ea35",
+      "exit_code": 0,
+      "meaning": "Final whole subject payload/dependency and review-file pin verification; no runtime or subject code execution.",
+      "result": {
+        "bytes": 111775,
+        "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/FINAL_PIN_CHECK.json",
+        "sha256": "c7e59f911588b52e334acc06f95df5d2f0a23534916e73c0fb718bbbf3376c94"
+      },
+      "tool": "exec_command"
+    }
+  ],
+  "blocking_findings": [],
+  "files": [
+    {
+      "bytes": 1728,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/CHECKER_HISTORY.json",
+      "sha256": "636bf66b5c826422a36f4b9fb9f20c335a8e4291fa536481ad4a69f4d92967f0"
+    },
+    {
+      "bytes": 111775,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/FINAL_PIN_CHECK.json",
+      "sha256": "c7e59f911588b52e334acc06f95df5d2f0a23534916e73c0fb718bbbf3376c94"
+    },
+    {
+      "bytes": 15287,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.json",
+      "sha256": "3c94838a9a073ba2ab91ec3f8ae0c36f9ec4697b863a56a40b24da88b621f6c3"
+    },
+    {
+      "bytes": 22740,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/INDEPENDENT_SOURCE_REVIEW.md",
+      "sha256": "7384df200c3473836c212399c0cd6e6ca3cdc5e66e25bb14ba1caa6a0b5dc9ea"
+    },
+    {
+      "bytes": 174064,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/OPAQUE_TEXT_CHECK.json",
+      "sha256": "dee3f88bc0154998b515793f172cd28492db4ec7f93824d9af176f296a4eca2e"
+    },
+    {
+      "bytes": 10293,
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b/check_review_metadata.py",
+      "sha256": "3e599e3fff7ba845ec9e08741cb6ec1947c1a7bfd84164bc55bcf757718579cb"
+    }
+  ],
+  "next_action": "Root source adjudication only; no new controller, case launch or successor assignment from this reviewer.",
+  "pending": [
+    "Root adjudication of exact source and this nonauthor review.",
+    "Separately reviewed deterministic boundary controller and authentic bounded evidence contract; feasibility unresolved until demonstrated.",
+    "Root genuine bootstrap, runtime/source custody, literal dispatch and tool history before any admitted attempt.",
+    "Prospective at most 31 focused executions (23 F01 + 8 F02), retaining incomplete/failed attempts and all original limits.",
+    "All 139 policy outcomes, deeper 20 native / 42 audit rows and separate actual scientific obligations remain pending."
+  ],
+  "publication": {
+    "compact_public_review_subset": [
+      "CHECKER_HISTORY.json",
+      "FINAL_PIN_CHECK.json",
+      "INDEPENDENT_SOURCE_REVIEW.json",
+      "INDEPENDENT_SOURCE_REVIEW.md",
+      "OPAQUE_TEXT_CHECK.json",
+      "check_review_metadata.py",
+      "HANDOFF.json"
+    ],
+    "external_only_new_diagnostics": [],
+    "no_recursive_external_reference_expansion": true,
+    "prior_external_only_bodies_not_opened_or_hashed": [
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/check_metadata_v2.py",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK.json",
+      "/Volumes/AI_DATA/development/det-review-evidence/ri138-launch-independent-review-6xGu5oak/OPAQUE_TEXT_CHECK_V2.json"
+    ],
+    "prior_failures_preserved": [
+      "d0a200 exit 1",
+      "916334 exit 1"
+    ]
+  },
+  "recommendation": "ACCEPT_EXACT_UNEXECUTED_F01_F02_REPAIR_SOURCE",
+  "required_source_repairs": [],
+  "ret_paused": true,
+  "review_directory": "/Volumes/AI_DATA/development/det-review-evidence/ri140-independent-source-review-i57s4u4b",
+  "reviewer": "/root/archive_repro_review",
+  "reviewer_is_current_native_source_author": false,
+  "reviewer_is_selecting_predecessor_review_author": true,
+  "schema": "ri140-independent-source-review-handoff-v1",
+  "scope": {
+    "current_source_lines_manually_read": 2507,
+    "dependency_bytes": 169620097,
+    "dependency_identities_checked": 423,
+    "focused_controls_executed": 0,
+    "inherited_entries_preserved_except_roles": 396,
+    "new_admin_bodies": 7,
+    "new_admin_references": 460,
+    "new_dependencies": 27,
+    "operational_cards_or_admission_created": false,
+    "policy_cases_executed": 0,
+    "repository_or_git_changed": false,
+    "root_adjudication_or_execution_admission_conferred": false,
+    "runtime_observed": false,
+    "scientific_body_decoded": false,
+    "subject_import_compile_ast_probe_run": false,
+    "subject_references": 24,
+    "unchanged_overlapping_text_slices": 96
+  },
+  "status": "SEALED_COMPLETE_REVIEW_ROOT_ADJUDICATION_REQUIRED",
+  "subject_handoff": {
+    "bytes": 6044,
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/ri140-native-failure-repair-source-l_a4mna0/HANDOFF.json",
+    "sha256": "8726a3d8be2d62b2326a6ad45d5e1f497fda521d4a1e4a9c92e04101c16f2141"
+  },
+  "subject_namespace_count": 17,
+  "subject_payload_count": 16
+}

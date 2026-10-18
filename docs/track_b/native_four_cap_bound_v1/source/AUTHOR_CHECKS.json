@@ -1,0 +1,303 @@
+{
+  "schema": "ri181-author-checks-v1",
+  "status": "AUTHOR_MANUAL_REVIEW_AND_ADMINISTRATIVE_PRESEAL_COMPLETE_NOT_INDEPENDENT_ACCEPTANCE",
+  "date": "2026-09-30",
+  "reservation": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9",
+  "authorship": "Main source author and two reused collaborators. No new agents or threads. Root coordinator independently accepts or rejects.",
+  "manual_proof_checks": [
+    "Complete proper ideal list of C2 ordinal-sum A4 is3stem+4onecap+6pair+4triple=17. FullP alone excluded.",
+    "All64 binary records covered by four fixed stem-bit pairs and S4 cap-Hamming orbits of multiplicities1,4,6,4,1. Selected cap bits transported, not averaged or assumed independent.",
+    "Each maximal-deletion product retains all parity levels:4/6/4/1,3/3/1,2/1,1; positive smaller-law denominators and labeled multiplicities remain.",
+    "RI41 fixed C3 proper e=1/44 and full41/44 authenticated in literal construction text. Size2 and size4 probabilities remain actual correlated law inputs.",
+    "Ferrers facts checked manually: chain-principal rectangle obstruction, width3 needs at least6cells, and successive corner deletion gives a four-cell Ferrers suborder.",
+    "Arbitrary-deletion argument proves defect(L3)=2, defect(L4)=3 and defect(L3 plus isolated newborn)=3; not a maximal-only defect test.",
+    "Root/onecap/twocap neutral L3 roles have common all-mark diamonds with defect1 hook/square parents whose same terminal has defect2. Every old and newborn bit remains arbitrary.",
+    "RI63 everywhere-neutral active-component theorem forces those components and directly raising L3 slots to have zero canonical boundary coefficient. Every one of nine proper slots therefore has actual coefficient theta.",
+    "Complete nine-slot K3 formula and full complement j3=1-theta*K3 independently checked; full-slot cap dependence retained.",
+    "All four cancellation formulas manually checked, including theta^4*z^6*a^3/e^8 for stem terms; no symbolic or numerical engine used.",
+    "K3<=actualM5 and theta=1/[72(1+M5)] give j3>=71/72+theta. Four full terms plus13positive terms give U4>71/18+4theta>3>E0,E1.",
+    "ActualM6>=each U4 gives rho<Z=9/(89+72theta)<9/89<1/8<R without evaluating an extremum or selecting an attaining parent.",
+    "RI175/RI178 restriction proves full smaller-domain W<=0 iffI(Z)<=0, including strict W at positivey whenI(Z)=0 and unattainedzero supremum.",
+    "Endpoint substitution manually checked: D=89+72theta, BZ=27lambda*j0/(20+18theta), qthreshold972lambda*G_*v/[D^2*(v-BZ)], strictv>BZ beforedivision.",
+    "Complete original q with positive-partN, tied minima and all signed product contrasts retained. Restoration theorem forL3 does not erase C5singletonN."
+  ],
+  "main_actual_reads": [
+    {
+      "receipt": "ddbff1",
+      "exit_code": 0,
+      "scope": "Authenticated full RI181 assignment and RI178 root adjudication.",
+      "complete": true
+    },
+    {
+      "receipt": "11e9c3",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI147 ACTUAL_SCALE_BOUND and RI157 CANONICAL_CAP_BOUND.",
+      "complete": true
+    },
+    {
+      "receipt": "2d5ac3",
+      "exit_code": 0,
+      "scope": "Authenticated administrative manifest projection for construction-source identities; reservation initially empty.",
+      "complete": true
+    },
+    {
+      "receipt": "f63665",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI63 COMPLETION and RI120 ANALYTIC_PREFIX_LEMMAS. Printed historical scientific values not extracted as current operands; no links followed.",
+      "complete": true
+    },
+    {
+      "receipt": "3cbf1f",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI178 UPPER_BOUNDARY and direct RI179 root proof review.",
+      "complete": true
+    },
+    {
+      "receipt": "b59dab",
+      "exit_code": 0,
+      "scope": "Complete own FOUR_CAP_BOUND read and pin.",
+      "complete": true
+    },
+    {
+      "receipt": "13bd10",
+      "exit_code": 0,
+      "scope": "Complete HANDOFF.md read and pin.",
+      "complete": true
+    },
+    {
+      "receipt": "913377",
+      "exit_code": 0,
+      "scope": "Complete companion FOUR_CAP_CLASSIFICATION manual review and pin; no finding.",
+      "complete": true
+    },
+    {
+      "receipt": "48d47f",
+      "exit_code": 0,
+      "scope": "Authenticated complete RI41 NORMALIZATION, independently confirming C3 constants, locality/equivariance and quotient premises.",
+      "complete": true
+    },
+    {
+      "receipt": "188cec",
+      "exit_code": 0,
+      "scope": "Administrative current metadata-layout projection inadvertently included all nested inherited governance and was clipped.",
+      "complete": false
+    },
+    {
+      "receipt": "f1c626",
+      "exit_code": 0,
+      "scope": "Complete focused recovery of current keys/governance/RI178 premises/primary sources/questions/scope. Inherited governance verified structurally, not represented as a complete fresh literal reread.",
+      "complete": true
+    },
+    {
+      "receipt": "583902",
+      "exit_code": 0,
+      "scope": "Authenticated complete final DEPENDENCY_NOTES read; no inconsistency found.",
+      "complete": true
+    }
+  ],
+  "coauthor_mathematical_checks": {
+    "agent": "/root/ri132_audit_controls",
+    "ownership": "FOUR_CAP_CLASSIFICATION.md",
+    "authority_receipts": [
+      "840041",
+      "40d66d",
+      "0bfc39",
+      "0c6009",
+      "eb8bc9",
+      "0ed60e"
+    ],
+    "construction_reads": {
+      "RI41_full": [
+        "e47043",
+        "06cece"
+      ],
+      "RI63_complete_recovery": [
+        "07b78c",
+        "388dce",
+        "ee152a"
+      ],
+      "RI147_full": [
+        "c56e08",
+        "589e1b"
+      ],
+      "length_hash_and_manifest_checks": [
+        "963ff2",
+        "10488b",
+        "90d2c0"
+      ]
+    },
+    "own_full_read": "0cbfa5",
+    "own_count_and_hash": [
+      "9ea487",
+      "6356de"
+    ],
+    "main_manuscript_peer_full_read": "51f1e2",
+    "main_manuscript_count_and_hash": [
+      "cca724",
+      "cec3b9"
+    ],
+    "finding": "No concrete mathematical finding. All17 factors, all64 marks, restoration proof, stronger cap and exact endpoint/equality cases checked manually.",
+    "all_reported_exit_codes": 0,
+    "initial_clipped_display": "d8dd9b partially clipped RI63, recovered completely by the three consecutive ranges listed above.",
+    "scientific_execution": false,
+    "independent_acceptance": false
+  },
+  "coauthor_metadata_checks": {
+    "agent": "/root/ri132_evidence_contract",
+    "ownership": [
+      "SOURCE_DEPENDENCIES.json",
+      "SOURCE_IDENTITIES.json",
+      "DEPENDENCY_NOTES.md"
+    ],
+    "authority_and_review_reads": [
+      "d578e8",
+      "bd5fbe",
+      "6d3048"
+    ],
+    "candidate_check": "2df3c2",
+    "manifest_pins": [
+      "2a8123",
+      "89617a"
+    ],
+    "final_source_check": "622b4e",
+    "final_notes_full_read": "d72cfd",
+    "final_notes_pin": "69681c",
+    "all_reported_exit_codes": 0,
+    "sources": 337,
+    "source_bytes": 20258450,
+    "inherited_whole_rows_preserved": 325,
+    "inherited_boundary_objects_preserved": 7,
+    "historical_typed_references": 4630,
+    "current_typed_references": 179,
+    "old_state_arrays_not_equated_to_current_stat": 17,
+    "separate_byte_equal_pairs": 4,
+    "fresh_source_checks": 337,
+    "earlier_note_only_phase": {
+      "receipt": "239cef",
+      "bytes": 15251,
+      "sha256": "ead227284810057a1f47474fb1bc636ae0c9a8aedebf0d003e972ce0bd8ac52a",
+      "status": "Superseded before freeze by explicit main administrative display-diagnostic paragraph; not a current-path pin."
+    },
+    "current_lane_failures_or_clipping": false,
+    "additional_historical_paths_or_aliases": 0,
+    "independent_acceptance": false
+  },
+  "main_administrative_preseal": {
+    "receipt": "81c4f2",
+    "exit_code": 0,
+    "result": {
+      "schema": "ri181-author-administrative-check-v1",
+      "status": "MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE",
+      "stage": "preseal6",
+      "dependencies": 337,
+      "selected_bytes": 20258450,
+      "inherited": 325,
+      "classifications": {
+        "analytic-source-text-or-review": 122,
+        "opaque-historical-acceptance-or-source-support": 91,
+        "opaque-scientific-historical-premise": 1,
+        "selected-administrative-proof-provenance": 122,
+        "selected-administrative-governance-boundary": 1
+      },
+      "historical_typed_references": 4630,
+      "current_typed_references": 179,
+      "historical_extended_state_noncomparisons": 17,
+      "separate_byte_equal_pairs": 4,
+      "predecessor_namespace_counts": [
+        8
+      ],
+      "current_namespace": 6,
+      "literal_manuscript_reference_occurrences": 7,
+      "final_fresh_identity_rechecks": 343,
+      "current_payloads": [
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/DEPENDENCY_NOTES.md",
+          "bytes": 15772,
+          "sha256": "6d4aaafe62b4c8830881abbf00a47937e0c7be1474d11256ee1e90efb50a8b1e"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_BOUND.md",
+          "bytes": 10446,
+          "sha256": "cba65c44df0843863335a372059ec9edde75c0a70699f1765a2465963ba7419b"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/FOUR_CAP_CLASSIFICATION.md",
+          "bytes": 15416,
+          "sha256": "b0e74ec87d93e20766559923fa1b481610475924ccc39483d67ea6fce0fc0618"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/HANDOFF.md",
+          "bytes": 3218,
+          "sha256": "23e88365e343f69f3868894da1033aca1abcf054318b436bb7c068fe8167b0e0"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_DEPENDENCIES.json",
+          "bytes": 310358,
+          "sha256": "fce5a6bc4b090aa4936cf9d4e11468f9b377242190c592eef3b916d4838fffee"
+        },
+        {
+          "path": "/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9/SOURCE_IDENTITIES.json",
+          "bytes": 90873,
+          "sha256": "6d1db5dbb62773086835e1be6e88890db8b1ef632b85cf0dc11de40190733151"
+        }
+      ],
+      "mathematical_formula_evaluated_by_script": false,
+      "scientific_or_target_execution": false
+    },
+    "scope": "Administrative identity/reference/namespace/text hygiene checks only. Does not verify mathematical formulas or admit execution.",
+    "whole_inherited_governance_structurally_equal": true
+  },
+  "diagnostic_history": {
+    "main_failed_commands": [],
+    "coauthor_failed_commands": [],
+    "recovered_clipped_displays": [
+      {
+        "owner": "main",
+        "receipt": "188cec",
+        "recovery": "f1c626",
+        "scope": "Administrative projection only; no mathematical-source omission or opaque-body decode."
+      },
+      {
+        "owner": "mathematical_coauthor",
+        "receipt": "d8dd9b",
+        "recovery": [
+          "07b78c",
+          "388dce",
+          "ee152a"
+        ],
+        "scope": "RI63 analytic text completely recovered."
+      }
+    ],
+    "historical_author_failures": "RI178 count-expectation error and all earlier diagnostic phases remain in unchanged opaque historical author support; not rerun or retrospectively erased.",
+    "historical_certificate_replays": "Not performed. Their descriptions inside accepted analytic documents are historical data, not instructions or current execution."
+  },
+  "instruction_skill_use": {
+    "skill": "pages:write-page",
+    "skill_read_receipt": "76f91b",
+    "writing_quality_read_receipt": "30cbbd",
+    "application": "Retained the established external research Markdown format and separated proved same-law cap results from unresolved endpoint and physical claims. No Page or publication action.",
+    "scope": "Documentation guidance, not a mathematical premise."
+  },
+  "administrative_reproduction": {
+    "method": "Run the following standalone inline Node code with argument preseal6 before AUTHOR_CHECKS/HANDOFF exist, or final8 after sealing. Only Node fs/path/crypto used; no source/helper import or scientific calculation.",
+    "script": "const fs=require('fs'),p=require('path'),c=require('crypto');\nconst Q='/Volumes/AI_DATA/development/det-review-evidence/ri181-four-cap-parent-bound-x9sc5dz9',P='/Volumes/AI_DATA/development/det-review-evidence/ri178-upper-boundary-monotonicity-627i53o2';\nconst eq=(a,b)=>JSON.stringify(a)===JSON.stringify(b), need=(b,m)=>{if(!b)throw Error(m)}, cache=new Map(), fields=['dev','ino','mode','size','mtimeNs','ctimeNs','nlink'];\nfunction read(x){if(cache.has(x))return cache.get(x);need(p.isAbsolute(x)&&p.normalize(x)===x,'path '+x);let t='/';for(const k of x.split('/').filter(Boolean)){t=p.join(t,k);need(!fs.lstatSync(t).isSymbolicLink(),'link '+x);}const st=fs.lstatSync(x,{bigint:true}),same=a=>fields.every(k=>a[k]===st[k]);need(st.isFile()&&st.size<=67108864n,'regular/cap');const fd=fs.openSync(x,fs.constants.O_RDONLY|fs.constants.O_NOFOLLOW);let b;try{need(same(fs.fstatSync(fd,{bigint:true})),'fd-before');const chunks=[];let length=0;const cap=Number(st.size)+1;while(length<cap){const block=Buffer.alloc(Math.min(65536,cap-length));const got=fs.readSync(fd,block,0,block.length,null);if(!got)break;chunks.push(block.subarray(0,got));length+=got;}b=Buffer.concat(chunks);need(b.length===Number(st.size),'size drift');need(same(fs.fstatSync(fd,{bigint:true})),'fd-after');}finally{fs.closeSync(fd);}need(same(fs.lstatSync(x,{bigint:true}))&&fs.realpathSync(x)===x,'path-after');const r={body:b,path:x,resolved_path:x,bytes:b.length,sha256:c.createHash('sha256').update(b).digest('hex'),symlinks:[],state:Object.fromEntries(fields.map(k=>[k,st[k].toString()]))};cache.set(x,r);return r;}\nfunction pin(i){const a=read(i.path);for(const k of ['path','bytes','sha256'])need(a[k]===i[k],'pin '+i.path);if(i.resolved_path!==undefined)need(a.resolved_path===i.resolved_path,'resolved');if(i.symlinks!==undefined)need(eq(a.symlinks,i.symlinks),'symlinks');if(i.symlink_chain!==undefined)need(eq(a.symlinks,i.symlink_chain),'symlink_chain');return a;}\nconst simple=r=>({path:r.path,bytes:r.bytes,sha256:r.sha256});\n\npin({path:Q+'/SOURCE_DEPENDENCIES.json',bytes:310358,sha256:'fce5a6bc4b090aa4936cf9d4e11468f9b377242190c592eef3b916d4838fffee'});\npin({path:Q+'/SOURCE_IDENTITIES.json',bytes:90873,sha256:'6d1db5dbb62773086835e1be6e88890db8b1ef632b85cf0dc11de40190733151'});\npin({path:Q+'/FOUR_CAP_BOUND.md',bytes:10446,sha256:'cba65c44df0843863335a372059ec9edde75c0a70699f1765a2465963ba7419b'});\npin({path:Q+'/FOUR_CAP_CLASSIFICATION.md',bytes:15416,sha256:'b0e74ec87d93e20766559923fa1b481610475924ccc39483d67ea6fce0fc0618'});\npin({path:Q+'/DEPENDENCY_NOTES.md',bytes:15772,sha256:'6d4aaafe62b4c8830881abbf00a47937e0c7be1474d11256ee1e90efb50a8b1e'});\nconst D=JSON.parse(read(Q+'/SOURCE_DEPENDENCIES.json').body),S=JSON.parse(read(Q+'/SOURCE_IDENTITIES.json').body),M=new Map(D.protected_files.map(r=>[r.path,r]));\nneed(M.size===337&&eq([...M.keys()],[...M.keys()].sort()),'count/sort');\nD.protected_files.forEach((r,i)=>{need(r.role==='dep_'+String(i+1).padStart(4,'0')&&r.path===r.identity.path,'row');pin(r.identity)});\nneed(D.protected_files.reduce((n,r)=>n+r.identity.bytes,0)===20258450,'total selected bytes');\nconst old=JSON.parse(read(P+'/SOURCE_DEPENDENCIES.json').body),oldS=JSON.parse(read(P+'/SOURCE_IDENTITIES.json').body),omit=r=>Object.fromEntries(Object.entries(r).filter(([k])=>k!=='role'));\nneed(old.protected_files.length===325,'old325');\nfor(const r of old.protected_files)need(eq(omit(r),omit(M.get(r.path))),'inherited row');\nfor(const k of ['governance_stopping_boundary','historical_phase_record_boundary','predecessor_author_support_boundary','ri172_author_support_boundary','ri173_author_support_boundary','ri122_literal_read_exception','ri175_author_support_boundary'])need(eq(D[k],old[k]),'inherited boundary '+k);\nfor(const k of ['accepted_ri175_premises','accepted_ri173_premises','historical_fixed_prefix_premise','accepted_ri172_predecessor','accepted_ri168_premises','accepted_ri166_premises','accepted_ri157_premises','accepted_ri157_margin_scope','accepted_ri155_premises','accepted_ri153_premises','excluded_historical_inferences','accepted_ri151_premises','accepted_ri149_premises','root_accepted_additional_observation','accepted_ri147_premises','accepted_ri145_premises','accepted_analytic_packets','premise_texts','actual_source_text_reads','source_text_counterparts','immutable_numerical_certificate','unchanged_obligations','inherited_scope_clarification','identity_interpretation'])need(eq(S[k],oldS[k]),'inherited S '+k);\nneed(eq(S.governance.inherited_analytic_and_operational_governance,oldS.governance),'whole inherited governance');\nconst namespaces=[];\nfor(const[dir,count]of[[P,8]]){\nconst h=JSON.parse(read(dir+'/HANDOFF.json').body),names=fs.readdirSync(dir).sort();\nneed(names.length===count&&eq(names,[...h.namespace].sort())&&eq(names,[...h.payloads.map(i=>p.basename(i.path)),'HANDOFF.json'].sort()),'historical namespace '+dir);\nh.payloads.forEach(pin);namespaces.push({dir,names});\n}\nneed(eq(D.historical_phase_record_boundary,S.governance.RI166_phase_record_boundary),'phase S boundary');\nneed(eq(D.predecessor_author_support_boundary,S.governance.RI168_author_support_boundary),'support S boundary');\nneed(eq(D.ri172_author_support_boundary,S.governance.RI172_author_support_boundary),'old support S boundary');\nneed(eq(D.ri173_author_support_boundary,S.governance.RI173_author_support_boundary),'old support S boundary');\nneed(eq(D.ri175_author_support_boundary,S.governance.RI175_author_support_boundary),'old support S boundary');\nneed(eq(D.ri178_author_support_boundary,S.governance.RI178_author_support_boundary),'new support S boundary');\nfor(const b of [D.historical_phase_record_boundary,D.predecessor_author_support_boundary,D.ri172_author_support_boundary,D.ri173_author_support_boundary,D.ri175_author_support_boundary,D.ri178_author_support_boundary])need(M.get(b.path).classification==='opaque-historical-acceptance-or-source-support'&&b.typed_reference_expansion===false,'author boundary routing');\nneed(D.ri178_author_support_boundary.path===P+'/AUTHOR_CHECKS.json','new author boundary path');\nconst ex=D.ri122_literal_read_exception,oldDecision='/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/RI122_ROOT_FINAL_ADJUDICATION.json',scope='/Volumes/AI_DATA/development/det-review-evidence/ri174-root-preparation-review-wm18ymsq/RI175_HISTORICAL_PREMISE_SCOPE.json';\nneed(ex.path===oldDecision&&ex.literal_read_authority===scope&&ex.automated_typed_reference_expansion===false&&M.get(oldDecision).classification==='opaque-historical-acceptance-or-source-support','historical literal-read exception');\nneed(S.historical_fixed_prefix_premise.permission.path===scope&&S.historical_fixed_prefix_premise.final_acceptance.path===oldDecision&&S.historical_fixed_prefix_premise.final_decision_automated_typed_reference_expansion===false,'exception S binding');\nlet refs=0,extended=0,states=0;\nfunction scan(x,current=false){\nif(!x||typeof x!=='object')return;\nif(!Array.isArray(x)&&typeof x.path==='string'&&Number.isSafeInteger(x.bytes)&&typeof x.sha256==='string'){\nneed(M.has(x.path)||(current&&x.path===Q+'/SOURCE_DEPENDENCIES.json'),'reference closure '+x.path);\npin(x);refs++;if(x.symlink_chain!==undefined)extended++;if(x.state!==undefined)states++;\n}\nObject.values(x).forEach(v=>scan(v,current));\n}\nconst governance='/Volumes/AI_DATA/development/det-review-evidence/ri164-root-static-review-xr1qffz8/RI164_ROOT_ADJUDICATION.json';\nneed(D.governance_stopping_boundary.path===governance&&D.governance_stopping_boundary.typed_reference_expansion===false&&eq(D.governance_stopping_boundary,S.governance.operational_stopping_boundary),'governance rule');\nconst classes={};\nfor(const r of D.protected_files){\nclasses[r.classification]=(classes[r.classification]||0)+1;\nif(r.classification==='selected-administrative-proof-provenance')scan(JSON.parse(read(r.path).body));\nelse if(r.classification==='selected-administrative-governance-boundary')need(r.path===governance,'exact governance boundary');\n}\nneed(classes['selected-administrative-proof-provenance']===122&&classes['selected-administrative-governance-boundary']===1&&classes['analytic-source-text-or-review']===122&&classes['opaque-historical-acceptance-or-source-support']===91&&classes['opaque-scientific-historical-premise']===1,'class counts');\nneed(refs===4630&&extended===17&&states===17,'historical reference counts');\nrefs=0;scan(S,true);need(refs===179,'current S references');\nlet pairs=0;\nfor(const[k,i]of Object.entries(S.source_text_counterparts.published)){need(read(i.path).body.equals(read(S.premise_texts[k].path).body),'separate path byte equality');pairs++}\nneed(pairs===4,'pair count');\nconst final=['FOUR_CAP_CLASSIFICATION.md','FOUR_CAP_BOUND.md','DEPENDENCY_NOTES.md','SOURCE_DEPENDENCIES.json','SOURCE_IDENTITIES.json','HANDOFF.md','AUTHOR_CHECKS.json','HANDOFF.json'].sort(),stage=process.argv[1]||'preseal6';\nneed(['preseal6','final8'].includes(stage),'stage');\nconst expected=stage==='final8'?final:final.filter(n=>!['AUTHOR_CHECKS.json','HANDOFF.json'].includes(n));\nneed(eq(fs.readdirSync(Q).sort(),expected),'current namespace');\nconst payloads=expected.map(n=>simple(read(Q+'/'+n)));let references=0;\nfor(const n of ['FOUR_CAP_CLASSIFICATION.md','FOUR_CAP_BOUND.md','DEPENDENCY_NOTES.md','HANDOFF.md']){\n const txt=read(Q+'/'+n).body.toString('utf8');need(!/^(<{7}|={7}|>{7})( |$)/m.test(txt),'conflict marker');need(!/[ \\t]+$/m.test(txt),'trailing whitespace');\n for(const m of txt.matchAll(/(\\/Volumes\\/[^\\s\\x60|]+\\.(?:md|json|py))(?:[\\s\\x60|]|$)/g)){need(M.has(m[1])||expected.some(f=>Q+'/'+f===m[1]),'literal source path '+m[1]);references++}\n for(const m of txt.matchAll(/\\[[^\\]]+\\]\\(([^)]+)\\)/g)){need(!m[1].includes('://')&&expected.includes(m[1]),'current markdown link '+m[1]);read(Q+'/'+m[1])}\n}\nif(stage==='final8'){\n const h=JSON.parse(read(Q+'/HANDOFF.json').body);need(eq(h.namespace,final)&&h.payloads.length===7,'current seal');\n need(eq(h.payloads.map(i=>p.basename(i.path)).sort(),final.filter(n=>n!=='HANDOFF.json')),'seal coverage');\n h.payloads.forEach(pin);pin(h.assignment);pin(h.accepted_analytic_predecessor);pin(h.operational_governance_predecessor);\n need(h.proper_ideal_count===17&&h.marked_parent_count===64&&h.all_three_cap_proper_components_restoration_only===true&&h.strict_global_M6_lower_bound_proved===true&&h.strictly_smaller_actual_containing_cap_proved===true&&h.single_endpoint_iff_on_smaller_domain===true&&h.full_canonical_substitution_retained===true&&h.endpoint_comparison_decided===false&&h.actual_W_sign_claimed===false&&h.actual_109_vector_read===false&&h.scientific_execution===false,'result scope');\n}\nconst before=[...cache.values()].map(simple);cache.clear();before.forEach(pin);\nneed(before.length===337+expected.length,'exact fresh check scope');\nneed(eq(fs.readdirSync(Q).sort(),expected),'end namespace');\nfor(const n of namespaces)need(eq(fs.readdirSync(n.dir).sort(),n.names),'end historical namespace');\nconsole.log(JSON.stringify({schema:'ri181-author-administrative-check-v1',status:'MATCH_NOT_MATHEMATICAL_OR_OPERATIONAL_ACCEPTANCE',stage,dependencies:337,selected_bytes:20258450,inherited:325,classifications:classes,historical_typed_references:4630,current_typed_references:179,historical_extended_state_noncomparisons:17,separate_byte_equal_pairs:4,predecessor_namespace_counts:[8],current_namespace:expected.length,literal_manuscript_reference_occurrences:references,final_fresh_identity_rechecks:before.length,current_payloads:payloads,mathematical_formula_evaluated_by_script:false,scientific_or_target_execution:false},null,2));\n",
+    "adaptation": "RI178 administrative recipe adapted to RI181 Q and RI178 P, current exact pins/names,337/325 source counts,122/1/122/91/1 classes,4630/179 refs, accepted_ri175 preservation and new RI178 opaque author boundary. Added structural equality of complete inherited governance. No prior script or helper module executed.",
+    "final8": "Not preclaimed. Its actual receipt and final HANDOFF identity are reported externally after sealing."
+  },
+  "limits": {
+    "actual_global_M6_evaluated": false,
+    "attaining_parent_identified": false,
+    "endpoint_comparison_decided": false,
+    "actual_W_C2_C3_H30_sign_decided": false,
+    "actual_109_vector_read": false,
+    "scientific_body_decoded": false,
+    "scientific_or_mathematical_engine_executed": false,
+    "new_agent_or_thread_created": false,
+    "repository_index_git_or_predecessor_mutated": false,
+    "physical_or_ontological_claim": false,
+    "pure_general_DET_axiom_derivation_claimed": false,
+    "ret_paused": true,
+    "measurement_and_RI180_separate": true,
+    "independent_acceptance_pending": true
+  }
+}

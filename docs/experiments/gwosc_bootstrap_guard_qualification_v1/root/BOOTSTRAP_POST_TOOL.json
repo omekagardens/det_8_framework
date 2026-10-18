@@ -1,0 +1,16 @@
+{
+  "invocation": {
+    "cmd": "exec /usr/bin/env -i LC_ALL=C MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 PATH=/usr/bin:/bin TMPDIR=/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2/environment/tmp TZ=UTC VECLIB_MAXIMUM_THREADS=1 __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0 /usr/bin/perl -e '$SIG{ALRM}=\"DEFAULT\"; alarm 240; exec @ARGV; die $!;' /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/bin/python3.9 -I -B /Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/observe_bootstrap.py POST",
+    "workdir": "/Volumes/AI_DATA/development/det-review-evidence/ri144-genuine-bootstrap15-operation-iyywumt2",
+    "login": false,
+    "yield_time_ms": 1000,
+    "max_output_tokens": 3000
+  },
+  "result": {
+    "chunk_id": "de81e8",
+    "wall_time_seconds": 0.364045083,
+    "exit_code": 0,
+    "original_token_count": 75,
+    "output": "{'path': '/Volumes/AI_DATA/development/det-review-evidence/ri143-root-feasibility-review-b9bt7rgh/BOOTSTRAP_POST.json', 'bytes': 1690949, 'sha256': 'f872d1e1c1e336bd3022cd6beac7e1bc8394f3a403b3864fff174075da3219eb'}\n{'entries': 2004, 'file_bytes': 48024515, 'elapsed_seconds': 0.39216637499999996}\n"
+  }
+}

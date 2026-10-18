@@ -1,0 +1,34 @@
+"""Coordinator adjudication after manual proof review; metadata checks only."""
+import importlib.util
+from pathlib import Path
+import tempfile
+s=importlib.util.spec_from_file_location('m','/Volumes/AI_DATA/development/det-review-evidence/ri122-root-execution-review-6whn_vky/metadata.py')
+m=importlib.util.module_from_spec(s);s.loader.exec_module(m);m.D=Path(__file__).resolve().parent;D=m.D
+Q=m.B/'ri155-strict-capacity-proof-jv0xliup';R=m.B/'ri155-independent-capacity-review-3gu50gvs'
+for base,size,sha in [(Q,8064,'d4fd15fd5236990227bf1c059df960a3e0e53d01559c2bf1fee5422d7f059690'),(R,5091,'3d312d6fdec735e52e3b7027314a4196cb4aa2ec648337f7381487b2f64a957a')]:
+ m.verify(base/'HANDOFF.json',dict(bytes=size,sha256=sha));h=m.load(base/'HANDOFF.json')
+ assert sorted(p.name for p in base.iterdir())==sorted(h['namespace'])
+ assert set(h['namespace'])=={'HANDOFF.json'}|{Path(r['path']).name for r in h['payloads']}
+ for row in h['payloads']:m.verify(row['path'],row)
+a=m.load(D/'METADATA_CHECK.json');b=m.load(R/'METADATA_CHECK.json')
+assert {k:v for k,v in a.items() if k!='schema'}=={k:v for k,v in b.items() if k!='schema'}
+assert len(a['checks'])==6944 and len(a['observed'])==204
+for row in a['observed']:assert m.identity(row['path'])==row
+for row in m.load(R/'FINAL_PIN_CHECK.json')['preseal_review_identities']:assert m.identity(row['path'])==row
+expected=(R/'check_metadata.py').read_text().replace('m.D=R','m.D=Path(__file__).resolve().parent').replace('ri155-independent-administrative-review-v1','ri155-root-replay-of-reviewed-administrative-check-v1')
+assert (D/'check_native.py').read_text()==expected
+replay=m.save('ROOT_METADATA_REPLAY.json',dict(schema='ri155-root-metadata-replay-summary-v1',status='PASS_ADMINISTRATIVE_ONLY',source=m.ref(Q/'HANDOFF.json'),review=m.ref(R/'HANDOFF.json'),root_checker=m.ref(D/'check_native.py'),independent_checker=m.ref(R/'check_metadata.py'),root_full_diagnostic=m.ref(D/'METADATA_CHECK.json'),independent_full_diagnostic=m.ref(R/'METADATA_CHECK.json'),counts=a['counts'],administrative_predicates=6944,all_report_fields_equal_except_schema=True,fresh_whole_identity_rechecks=204,review_preseal_identities_rechecked=8,root_actual_tool=dict(chunk='9f7a8b',exit_code=0),independent_actual_tools=[dict(chunk='bf2a4f',exit_code=0,role='administrative check'),dict(chunk='235f50',exit_code=0,role='seal check')],checker_not_mathematical_proof=True,full_diagnostics_external_only=True,scientific_execution=False))
+status='ACCEPT_ACTUAL_FIRST_CAPACITY_AND_EXACT_STRICT_REDUCTION_WITH_CORRELATED_CONTRAST_GAP'
+assert m.load(R/'VERDICT.json')['decision']==status
+adjud=m.save('RI155_ROOT_ADJUDICATION.json',dict(schema='ri155-root-adjudication-v1',status=status,date='2026-09-30',basis='Complete coordinator manual review plus separate nonauthor proof review and authenticated actual administrative checks.',subject=m.ref(Q/'HANDOFF.json'),review=m.ref(R/'HANDOFF.json'),manual_review=m.ref(D/'ROOT_MANUAL_REVIEW.md'),metadata_replay=replay,adjudication_source=m.ref(D/'adjudicate_native.py'),accepted=[
+'Under unchanged inherited RI41 finite marked-parent height theorem and RI63 law linkage: w,p_i<1/82, s_i<1/164, c_i<1/2, b_i>77/164, retaining distinct marked arms and full slots.',
+'Exact eta=41^2*(w/b0)^3<1/32; 0<YE<14256/370025<1/25. No optional alpha minimum is needed.',
+'Yu3>1/4; the strict-capacity maximum multiplier is 1. B/v<=1 gives C1>21/100. Both strict capacities hold iff v>B; equality fails C0.',
+'Complete sums give E_i<3, V_i<1, R>1/8 and 0<v<1/72, using inherited lower bounds and sensitivity sign.',
+'Exact nonnegative-N_i quadratic threshold characterizes F_i relative to 3 and hence Z relative to 1/8; no actual canonical branch is selected.',
+'Capacity success requires lambda<(1+2*Mcap)/852. Fmax<=3 with lambda>=7/852 conditionally rejects the sufficient capacity, without deciding W.',
+'Exact remaining comparison: theta*b0^3*(t-1)*H>12*j0*J, t=2*(1+Mcap), keeping signed d1,d3, positive d7,J and same actual canonical N_i.'
+],open_premises=['Actual correlated strict contrast v>B and canonical F branch.','Adequate q/v budget and individual W/C2/C3/shared H30 feasibility.','Original P2/P3, numerical Y=1/4 distinct from analytic Y; 31 focused,139 policy,20 native and42 audit obligations, strict endpoints, occurrence multiplicities, shared T1, other eight parents and five Di.','All-size, native geometry/gravity, calibrated measurement and physical claims.'],repairs_required=[],inherited_finite_verification_not_rerun=True,scientific_body_decode=False,scientific_or_symbolic_execution=False,execution_admission=False,RET_resumed=False,measurement_lane='RI156 remains active and separate; not adjudicated or staged by this record.',author_failed_read_history_preserved=True,withdrawn_inverse_theta_and_seed_order_arguments_excluded=True,next_action='Assign RI157 to bound the same-prefix quantitative contrast and actual canonical cap after this adjudication.'))
+reservation=Path(tempfile.mkdtemp(prefix='ri157-correlated-capacity-proof-',dir=m.B))
+assignment=m.save('NATIVE_SUCCESSOR_ASSIGNMENT.json',dict(schema='ri157-native-successor-assignment-v1',item='RI-157',owner_thread='01a074c4-4b09-76a3-8cb2-0caf116f6b9c',reservation=str(reservation),predecessor_adjudication=adjud,subject=m.ref(Q/'HANDOFF.json'),independent_review=m.ref(R/'HANDOFF.json'),task='Resolve or materially sharpen v>B using the same actual native prefix and canonical cap: derive a decisive bound on v/lambda and Mcap, equivalently theta*b0^3*(t-1)*H versus12*j0*J.',requirements=['Use native component/marked-row correlations; prove any actual canonical branch premise. A possible rejection route is Fmax<=3 together with lambda>=7/852, but both actual-law premises must be established.','Do not merely restate the accepted inequality, choose unrelated positive coefficients as a law counterexample, alter canonical N_i, revive withdrawn seed-order inference or build another q floor before capacity is resolved.','If unresolved, deliver a new quantitative relation or obstruction and name the precise additional marked-row/component premise needed; distinguish insufficient bounds from a counterexample.','Retain all original obligations and finite-law boundaries in predecessor adjudication.','Read full source and review before writing. Work only in the exclusive reservation; no repository/index/Git operations or new subagent spawning.','Manual proof/source reading and bounded administrative opaque hashing only: no scientific numerical body decode, target import/compile/AST/probe/run, graph enumeration, scientific/symbolic engine, runtime/card/freeze/admission creation.','Seal exact packet and dependency identities for fresh nonauthor review; stop at worker handoff for coordinator adjudication.'],measurement_reservation=str(m.B/'ri156-white-external-adapter-source-1plzn4nm'),RET_remains_paused=True))
+print(adjud);print(assignment);print(reservation)

@@ -1,0 +1,15 @@
+# RI222 finding response
+
+The single functional correction makes the installer require the cwd that the unchanged monitor actually supplies: `Path.cwd()==literal(D/'monitor')`. The guard still precedes output ownership and retains exact literal OUT/W requirements and its original error message. It never changes cwd or accepts an arbitrary path.
+
+The complete interface is now explicit: outer tool/bootstrap cwd D; bootstrap `child_run(command,D/monitor,'INSTALL',180,ENV)`; unchanged RI141 `Popen(cwd=out)`; installer cwd D/monitor. The checker continues to require the outer cwd D. Full monitor source, environment, command semantics, four monitor files, sampled-memory limits, timing and genuine-origin premises remain unchanged.
+
+`CWD_CONTRACT_CHECK.json` binds the complete monitor and retained actual bootstrap, exact Popen span and child_run line, prospective fresh-path call text, new installer guard, preownership ordering and unchanged outer checker predicate. This is a literal source contract check. No prospective bootstrap file was written, imported, compiled or executed. The newly generated concrete bootstrap must still be reviewed and authenticated by root before any later operation.
+
+The actual predecessor685f23 exit1, its four complete monitor files and metadata, original admission/preparation, supersession, full root custody and audit-order diagnostic remain pinned. The corrected root audit bdd104 is not another installer run. The earlier source/operational approvals remain historical and have no current operational force. The author acknowledges missing this cwd mismatch; prior root/nonauthor checks also missed it. There is no success or qualification credit from the failure or this repair.
+
+The only other executable edits are fresh exact D/W/O paths and the REPAIR constant. Reversing those plus the one guard restores the complete old installer; reversing paths/provenance alone restores the entire postchecker. Both direct-byte corrections, JSON semantics, complete clock and eight-tail spans, fourteen-field RI213 completion, all custody fields and every limit remain unchanged.
+
+The original806 input declarations remain byte-identical with810 historical roles. The grouped90-row repair union preserves43 prior records,15 complete predecessor packet files,12 failed root artifacts, four monitor artifacts,11 root failure/custody/diagnostic records and five support records. Administrative check ad048f exited0 with6,645 predicates and896 distinct opaque pins; it also accounts for every old857 operational source row. The future904-row source count is a path derivation, not an actual runtime observation or source admission.
+
+Build c774a3 and final administrative check ad048f succeeded. No current author administrative failure occurred; all historical failures remain explicit and preserved. No target/installer/monitor/fixture/vendor execution, scientific-body decode, operational card/directory creation, E modification or Git/index work occurred. Fresh independent source review, root preparation/admission and actual outcome acceptance remain separate. RET is paused.
