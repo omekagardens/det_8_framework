@@ -1,3 +1,13 @@
+## Fixed-amplitude positivity obstruction and measurement-schema inspection
+
+Independent review accepts a conditional finite-law obstruction: every affine solution on the complete natural thirty-class support has a negative J2 multiplier at the prescribed epsilon=1/4. The original harmonic equations force -z2>theta/3000, while the actual empty-ideal probability is e2=s*rho^3*theta^4/22528. Every compatible homogeneous direction fixes this coordinate, so neither conditional branch repairs positivity. The signed kernel remains valid; larger supports and the earlier sufficiently-small-amplitude existence theorem remain open. The next native question is a concrete proper-child support enlargement with complete incoming-parent and marked-row closure, at the same fixed amplitude.
+
+The measurement prerequisite lane verified six inert source/distribution members totaling5305 bytes from the already pinned wheel. Independent review checked byte custody, original bounded-copy receipts, selected RECORD consistency and literal schema declarations. ClientTrustConfig depends on Base and common types; Service.operator is annotated str with no local default. Effective validation, aliases, runtime compatibility and publisher authentication remain unresolved. The next finite inspection admits only three internal source bodies totaling8598 bytes. This does not authorize package execution or recursive dependency admission.
+
+Qualification remains zero, all eight routes remain closed, and A08-A10 remain NOT_CAPTURED. Conventional reproduction using the selected public GWOSC data follows qualification; no native physical forward map or empirical claim is supplied. Original protected-validation, freeze/custody and experimental prerequisites remain. Historical custody gaps and failed attempts are preserved. RET alone remains paused. The programme remains ongoing.
+
+Research stops at25% or less remaining applicable account usage, with fresh supported checks before substantial work, delegation, assignment, commit and push. This scoped checkpoint preserves unrelated sources and extends only the separate public publication lineage after independent review.
+
 ## Research progress: complete conditional block and measurement dependency audit
 
 The complete three-parent natural normalization block now has an independently reviewed rank-six, three-dimensional solution space. Complete original marked identities justify its two root-bit sectors. Two full-column contrasts are strictly positive; the remaining contrast retains its exact zero criterion and corresponding restriction on the proper-child projection. An explicit nonzero direction and a fixed-epsilon bound for its three changing multipliers are established for this block.
