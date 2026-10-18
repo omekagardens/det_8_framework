@@ -1,3 +1,14 @@
+### Canonical beta capacities and bounded inert metadata copies
+
+Complete marked carriers and the original finite-law objective determine the beta capacity through both hook-parent families. The resulting sigma and residual formulas include tied and zero-capacity cases, while their competitor loads remain coupled to the actual canonical assignment. The actual root-sector comparison is unresolved. The next native question is complete carrier, alias, lower-potential and objective analysis of the existing gamma family with terminal Ferrers shape (4,2).
+
+The fixed38 signed homogeneous classification and fixed-amplitude positivity rejection remain unchanged. These conditional finite-law results preserve all marked branches, strict restoration and arbitrary complex PSD maps; they do not establish an all-size or physical theory.
+
+One bounded local copy produced exactly three inert package metadata files, 92,872 bytes in total. Independent result review confirmed the complete original execution, output hashes and CRCs, bounded captures and exact current file inventory. Original identity/hash, selected-header, exact deflate-consumption and fixed-namespace checks remain. Metadata declarations still need bounded interpretation; dependency and runtime qualification precede conventional reproduction using the selected public gravitational-wave data. A native physical forward map remains a separate requirement.
+
+Production qualification credit remains zero. Protected-validation and historical custody limitations remain; prior results and unrelated edits are preserved. Research stops at25% or less remaining shared account usage, with fresh supported observations before substantial work and publication. RET remains paused.
+
+
 ## Canonical saturation and bounded metadata preparation
 
 Independent review accepts a conditional finite-law result: the original canonical singleton coefficients saturate their complete coupled carrier capacities. Equality of the two resulting increments is equivalent to one exact residual identity; the actual equality or sign remains unresolved. The previously accepted finite kernel classification and fixed-endpoint positivity rejection remain unchanged.
