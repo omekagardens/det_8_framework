@@ -1,3 +1,12 @@
+## Research progress: complete conditional block and measurement dependency audit
+
+The complete three-parent natural normalization block now has an independently reviewed rank-six, three-dimensional solution space. Complete original marked identities justify its two root-bit sectors. Two full-column contrasts are strictly positive; the remaining contrast retains its exact zero criterion and corresponding restriction on the proper-child projection. An explicit nonzero direction and a fixed-epsilon bound for its three changing multipliers are established for this block.
+
+The next native question is compatibility with all five disconnected and eight connected residual families on the natural thirty-class support. A full compatible direction, simultaneous positive endpoint and historical-coordinate identification remain unproved. Conditional finite mathematics does not establish an all-layer law or physical forward map.
+
+Independent measurement source review has clarified visible constructor behavior, exact identity/issuer matching, certificate/time helper limits and legacy-bundle validation order. The next action is one bounded version-specific schema-dependency metadata request, followed by review before wheel acquisition. Trusted bootstrap, runtime and dependency closure, trust/time authentication, supervised verification/capture and independent final custody remain prerequisites for conventional public-data reproduction. Qualification remains zero and eight routes remain closed.
+
+The account usage guard stops new research at 25% or less remaining in any applicable reported window, with fresh supported checks before substantial work and publication. The relativity extension remains paused. Active successor packets are excluded from this checkpoint. Historical custody gaps and failed checks remain recorded; the four updated fronts preserve their earlier contents.
 # Natural child equations and fixed-law feasibility
 
 The independent native review accepts explicit child classifications, deletion-coefficient identities and conditional positivity constraints at the same finite law. The natural support is now identified directly from original child definitions. Its map to historical coordinates remains unproved, so no actual coefficient selection, positive endpoint or physical realization is claimed.
