@@ -292,6 +292,14 @@ cannot evade it. No continuity or uniform positive lower bound of
 \(\rho_\lambda\) is needed. Sharpness, a matching lower rate and convergence
 of raw widths or entire baseline laws are not established.
 
+The [exceptional-law width witness](SINGULAR_OBSERVABLE_WITNESS.md) shows that
+this \(P_1\) blindness is specific to that parent. Conditional on \(\Xi>1\),
+width at the already admitted \(P_4=C_4\oplus A_2\) detects every nonzero
+multiple of the surviving kernel within its exact strict-positivity interval.
+Its complete row contains eight ideals and sixteen marked outcomes.
+The channel assumes complete child-order access and the known parent embedding;
+it supplies no executed simulation, sampler or physical detector.
+
 ## Public sources and scope
 
 The [law-family supplement](LAW_FAMILY_SUPPLEMENT.md) supplies the

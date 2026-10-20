@@ -73,6 +73,24 @@ lower rate, and does not imply raw-width or whole-law convergence. Actual
 occurrence remains unselected. No coefficient acquisition, simulation,
 physical observation channel or validation is supplied by this argument.
 
+## Width at another admitted parent
+
+The [exceptional-law width witness](SINGULAR_OBSERVABLE_WITNESS.md) gives an
+observable at \(P_4=C_4\oplus A_2\), conditional on the still-unselected
+\(\Xi>1\). Independent review accepted the complete eight-ideal,
+sixteen-outcome inventory, exact positive amplitude interval
+\(-\lambda_*\theta/(2\kappa^2)<\eta<1/\kappa\), and both root-sector
+contrasts. The full-row \(P_4\) width contrast is nonzero iff \(\eta\ne0\).
+Both newborn bits and all precursor multiplicities are retained.
+
+The kernel remains width-blind at \(P_1\); neither its near-exception upper
+bound nor the fixed-law 30/33/38 conclusions change. The new observation
+requires the complete child order and known parent embedding. It supplies a
+conditional finite mathematical observable, not a sampling implementation,
+simulation result, physical detector, numerical effect bound or benchmark
+success. No original coefficient comparison or historical custody recovery
+is claimed.
+
 ## Separate application diagnostic
 
 The [one-birth width diagnostic](WIDTH_DIAGNOSTIC.md) connects the original-law
@@ -111,6 +129,22 @@ A numerical effect bound, implementation, valid error/dependence and availabilit
 certificates, and feasible held-out budget are still missing. No measured
 advantage, runtime reliability or physical validation is supplied. The existing
 exact diagnostic and the completed observed replay retain their separate scopes.
+
+## Deterministic categorical-map component
+
+The [categorical map](CATEGORICAL_MAP.md) supplies an executable deterministic
+partition for exact rational proxy probabilities, with a proved and computed
+map-to-proxy total-variation certificate. Independent review covers allocation,
+empty intervals, input/resource validation and error composition. Ten synthetic
+test methods include exhaustive small word spaces and all outcome events; no
+randomness or held-out data is drawn.
+
+The certificate is for the supplied proxy only. An actual declared-law row,
+its proxy error, a conditional random-source or whole-attempt certificate,
+channel, numerical effect bound and operational budgets are still missing.
+Both width diagnostics remain ABSTAIN / NOT RUN, and the frozen exact
+protocol is unchanged. This software component provides no measured advantage,
+scientific sampling, physical observation or production qualification.
 
 ## Separate prospective replay results
 

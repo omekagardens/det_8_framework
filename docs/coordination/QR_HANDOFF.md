@@ -1,3 +1,40 @@
+# Conditional P4 width witness and deterministic map component — 20 October 2026
+
+The consolidated theorem package now includes a conditional exceptional-law
+P4 child-width witness. If Xi>1, lambda*=1/Xi and kappa>1, the surviving
+kernel changes expected width by 2*eta*rho*kappa*F_i at both declared roots.
+Complete strict positivity requires
+-lambda*theta/(2*kappa^2)<eta<1/kappa; eta=1/(2*kappa) gives rho*F_i>0.
+The earlier P1 width blindness remains true. Independent proof review and a
+separate finite check of all eight ideals and sixteen marked outcomes agree.
+Actual exceptional-law occurrence, canonical coefficients, a physical channel
+and extension beyond the stated support are not established.
+
+The separate categorical-map implementation partitions fixed-bit words using
+supplied exact rational probabilities and reports its exact map-to-proxy TV
+error. Independent review and deterministic synthetic tests cover allocation,
+empty intervals, input bounds and error composition. It supplies no random
+source, actual-law probability row or physical observation. Both diagnostic
+protocols remain ABSTAIN / NOT RUN; true-law/proxy, source/channel, numerical
+effect, resource/failure and held-out prerequisites remain outstanding.
+
+The next native question asks whether a regular positive kernel family can
+retain this observable through the exceptional law, without dividing by chi
+or assuming continuity or a lower bound for rho. That investigation is not
+part of this publication. The bounded prospective replay, historical failures,
+custody gaps, zero production qualification, eight closed routes,
+A08–A10 NOT_CAPTURED, Option B/Status M and RET pause remain unchanged.
+Application success and native physical validation have distinct criteria.
+
+Reviewed public proof/source payloads are listed in the revision-scoped
+SINGULAR_OBSERVABLE_PUBLICATION_MANIFEST.json in docs/coordination. Private
+provenance, machine metadata and administrative checks remain withheld under
+the existing publication policy. Earlier records below remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Positive-contrast limit and prospective sampling allowance — 20 October 2026
 
 The declared eleven-class parent-five family now has a conditional uniform

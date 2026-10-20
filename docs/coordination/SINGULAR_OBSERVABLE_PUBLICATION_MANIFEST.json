@@ -1,0 +1,76 @@
+{
+  "schema": "sanitized-publication-manifest-v1",
+  "publication": "Conditional P4 width witness and deterministic categorical-map component",
+  "date": "2026-10-20",
+  "public_parent": "c502f6386da6e8b9733faa4e907c3f5955c0eff9",
+  "scope": "Revision-scoped public payload identities. Conditional mathematical proof and separate deterministic synthetic software tests; no actual-law sampler, physical validation or production qualification.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1045522,
+      "sha256": "0e032be670c58aade9ac423ee25d708c4b8127465691dcc407e5595103255881"
+    },
+    "det8/models/certified_categorical_map.py": {
+      "bytes": 5284,
+      "sha256": "0f5c47f452f586965d720b0cf7da8d9d1bf90c517f100f2a7295f8e5f414ba53"
+    },
+    "det8/tests/test_certified_categorical_map.py": {
+      "bytes": 8031,
+      "sha256": "c50b2459b52650fa0ace63e22c9e7f78e38678d52f8d7ee26641091373ee7a39"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 897617,
+      "sha256": "a32e1524fe4c940cec2a0a55a16015d1821613b378c71350e1f87d0b7f3cdf8c"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 667773,
+      "sha256": "30a863094fd7bdbf07254065444113df3c5c03b13a4179a3b9399bc20967833c"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1294482,
+      "sha256": "067251f5fae074544d4310ef9ff57b7f1c3ef2cec4aedb0b3844f7f3d9b5bdb8"
+    },
+    "docs/track_b/native_theorem_package_v1/APPROXIMATE_WIDTH_DIAGNOSTIC.md": {
+      "bytes": 14620,
+      "sha256": "cde8b3324b2719b5aca2df7cd535f6bf5848ae9828074961437369f9baa9c4b6"
+    },
+    "docs/track_b/native_theorem_package_v1/CATEGORICAL_MAP.md": {
+      "bytes": 9051,
+      "sha256": "3ecfafa073b8889f3015a21a976af1aac7130cea9699b1223ddcc17c707bff5b"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md": {
+      "bytes": 15245,
+      "sha256": "a06e2818f1cbc96395e5fc4a7777025ccf6f79564fd2ba5dbf2d8f5ecbb49173"
+    },
+    "docs/track_b/native_theorem_package_v1/POSITIVE_CONTRAST_LIMIT.md": {
+      "bytes": 9896,
+      "sha256": "d266494f00511cad2ba090e740f202fe84e2d6302e105efdb99e2804aba2e06a"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 11389,
+      "sha256": "3feeab81e079777d69990a402620720b1ef2ee8836d9f7ac526c139ed9765bca"
+    },
+    "docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md": {
+      "bytes": 12852,
+      "sha256": "13f2f2afe91734b4bfabee39069070435c12fd8571192c5b27c1d9bbb3e6b522"
+    },
+    "docs/track_b/native_theorem_package_v1/SINGULAR_OBSERVABLE_WITNESS.md": {
+      "bytes": 10343,
+      "sha256": "6bdbcce0e38f1407f67969699aa2ebb219c98b638f40dee95a11613ecf92a6d2"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 45261,
+      "sha256": "7381a2938778b7b64d733a5193d314d9e3f0b6c4dd8c405a7137f8cdc53ed273"
+    }
+  },
+  "withheld": [
+    "Private evidence/source correspondence and original fingerprints",
+    "Raw machine metadata, command receipts and administrative check scripts"
+  ],
+  "preserved_limits": [
+    "Exceptional-law occurrence remains conditional on Xi>1; no canonical coefficient acquisition",
+    "Existing support and later-layer exclusion scopes unchanged",
+    "Exact and optional width diagnostics ABSTAIN / NOT RUN",
+    "Historical replay failures/custody gaps, zero production qualification and RET pause unchanged"
+  ],
+  "ordinary_source_scope": "The included Python implementation and test are ordinary deterministic software; no random-source acquisition or scientific experiment is included."
+}

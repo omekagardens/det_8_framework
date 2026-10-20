@@ -184,6 +184,13 @@ by \(2A_*|\lambda-\lambda_*|^2\). Nonzero width-blind perturbations
 remain at the exception; the theorem does not eliminate all harmonic
 perturbations or all order-law changes.
 
+The separate [exceptional-law width witness](SINGULAR_OBSERVABLE_WITNESS.md)
+makes one such change observable at \(P_4=C_4\oplus A_2\): conditional on
+\(\Xi>1\), its complete-row width contrast is nonzero exactly when the
+admissible kernel amplitude is nonzero. This does not change the present
+\(P_1\) upper bound or imply its sharpness. Complete child-order access and
+the parent embedding are assumed; no physical channel or simulation run follows.
+
 ## 5. What is and is not needed from \(\rho_\lambda\)
 
 For (10)–(13), **neither continuity nor a uniform positive lower bound

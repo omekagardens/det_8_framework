@@ -282,6 +282,15 @@ prefix through seven births. All harmonic directions there have zero target
 width gain. Rank ten and kernel dimension one hold throughout the declared
 family; only the occurrence comparison for Xi remains unselected.
 
+The [exceptional-law width witness](SINGULAR_OBSERVABLE_WITNESS.md) concerns
+a different admitted parent, \(P_4=C_4\oplus A_2\). Conditional on \(\Xi>1\),
+write the exceptional kernel multiplier as \(1+\eta w\). Its exact positive
+interval is \(-\lambda_*\theta/(2\kappa^2)<\eta<1/\kappa\); the full-row
+\(P_4\) width contrast is nonzero iff \(\eta\ne0\), in both root sectors.
+All eight ideals and sixteen marked outcomes are retained. This requires
+complete child-order access and the known parent embedding, not a physical
+detector or an implemented sampler; the \(P_1\) blindness above is unchanged.
+
 The [positive-contrast limit](POSITIVE_CONTRAST_LIMIT.md) also treats approach
 to a possible exception. If \(\Xi>1\), the absolute target-width contrast of
 every strictly positive harmonic perturbation on this support has a local
