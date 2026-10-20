@@ -1,0 +1,41 @@
+{
+  "schema": "metadata-obscured-publication-v1",
+  "parent": "c005501edba2fd65d343ad91e5694c9a1f4633a1",
+  "scope": "Conditional observation-channel underdetermination and additive public coordination summaries. No scientific execution or physical prediction.",
+  "payload": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1035766,
+      "sha256": "921efa157bd528a5fe944bbe0296668a8bab83759c4ad9cf03849762a4439c62"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1284726,
+      "sha256": "0b1ff96a34a93aa97672360900159ad436671672efb452dd2a8e05c8357a5120"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 658017,
+      "sha256": "db4053b757b0b32061e8662d335d7fe8f06162d95ca9ca99e5f59b5933637245"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 887861,
+      "sha256": "14d390d59838243debbf8f591dd3c522e04c8554dc2294b50c70e745f9a17b04"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md",
+      "bytes": 8808,
+      "sha256": "c0fa4f1fbc6f04be47316fdc5e69fb65b3710c78c1e2b3d0c39fcefa7479e5b7"
+    }
+  ],
+  "withheld": [
+    "Exact private source correspondence and fingerprints",
+    "Original failed strict-identity check and subsequent byte-content readbacks",
+    "Independent review and administrative scripts/receipts",
+    "Active successor work"
+  ],
+  "source_only": true,
+  "scientific_execution_authorized": false,
+  "qualification_credit": 0
+}
