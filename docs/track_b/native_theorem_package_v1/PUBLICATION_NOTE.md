@@ -37,7 +37,7 @@ advantage nor a physical measurement channel. The mathematical family theorem,
 this diagnostic design and an eventual benchmark execution have distinct
 completion criteria.
 
-## Separate prospective replay status
+## Separate prospective replay results
 
 The accepted synthetic replay used five fixtures—zero, one, ramp, impulse and
 four-tone—with 2,048 samples each, in normal and optimized execution. The six
@@ -49,27 +49,29 @@ the synthetic tolerance `1e-9`; zero was exact, and a deliberate one-percent
 gain fault was rejected. These are bounded synthetic results. The reference is
 high precision, not an interval enclosure or a general correctness proof.
 
-The prospective observed-data replay has not run. In a new admitted attempt,
-a fresh NumPy wheel and package staging passed their byte, RECORD and CRC checks.
-The complete H1 file matched its fixed expected size and hash under the explicit
-H1-only exception for an absent Content-Type. L1 then returned HTTP 200 with the
-expected length but no Content-Type. The method stopped before consuming L1
-body bytes because the H1-only exception did not cover L1. Package import,
-decoding and the observed calculation were not reached by that attempt.
+The [observed replay](OBSERVED_REPLAY.md) is now complete at its bounded scope.
+H1 and L1 each passed all 131,072 full-record and 4,096 historical-crop residual
+gates under the predeclared Decimal80 tolerance `1e-9 × max(abs(full raw input))`,
+with no unit floor. Normal and optimized execution produced 16 byte-identical
+scientific files. Independent exact-rational checking accepted all 262,144
+full-record and 8,192 crop residual calculations, maxima and thresholds over
+the stored values. It did not rerun the reference recurrence or establish
+universal correctness.
 
-A separate L1-only exception and one new-attempt decision remain pending. No
-retry is authorized by this status report. Successful acquisition or staging
-is not a completed scientific replay.
+The historical crops have 0/4,096 bitwise matches per detector. Numerical
+agreement within tolerance does not reconstruct historical identity. The report
+states the numerical maxima, exact check scope and public evidence boundary.
 
-The original H1 header failure remains a failure. The intervening runtime
-identity change and installed NumPy RECORD mismatches also remain recorded.
-New prospective bindings and freshly verified package bytes do not reconstruct
-historical identity or erase those failures. Scientific inputs and numerical
-thresholds remain fixed.
+Separate human-approved H1 and L1 missing-Content-Type exceptions admitted only
+their exact pinned artifacts in prospective attempts. The earlier H1 and L1
+failures remain failures. Runtime identity changes and installed NumPy RECORD
+mismatches likewise remain recorded; a fresh runtime binding and verified wheel
+bytes did not waive them. The L1 retry reused accepted H1 and staged dependencies
+read-only. Scientific kernels, input selection and thresholds remained fixed.
 
-No production qualification, historical-identity reconstruction, native gravity
-prediction or physical validation follows from either the synthetic result or
-the prospective design. Existing custody failures, the GR baseline, Status M
+Production qualification receives zero credit. No historical-identity
+reconstruction, native gravity prediction, physical validation or demonstrated
+application-benchmark advantage follows from either replay result. Existing custody failures, the GR baseline, Status M
 and the RET pause remain unchanged.
 
 ## What this public edition supplies

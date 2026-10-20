@@ -1,3 +1,35 @@
+# Current checkpoint — bounded observed replay complete, 20 October 2026
+
+The fixed prospective GWOSC calculation has completed for H1 and L1. All
+131,072 full-record and 4,096 historical-crop residual gates per detector pass
+the predeclared Decimal80 rule `1e-9 × max(abs(full raw input))`, with no unit
+floor. Normal and optimized execution produced 16 byte-identical scientific
+files. Independent exact-rational checking accepted all 262,144 full-record and
+8,192 crop residual calculations and their thresholds; it did not rerun the
+reference recurrence. The historical crops have 0/4,096 bitwise matches per
+detector despite passing numerical tolerance. No historical identity was
+reconstructed.
+
+The separate human-approved H1 and L1 missing-header exceptions applied only to
+their exact pinned artifacts. The earlier H1 failure, L1 failure and runtime/
+installed-dependency preflight failures remain recorded. Fresh prospective
+bindings and verified wheel bytes did not waive those failures or change the
+scientific kernels and thresholds. The completed result closes this bounded
+calculation and residual-check deliverable; further measurement work needs its
+own stated uncertainty and scope.
+
+Production qualification remains zero. This result supplies neither a native
+physical prediction nor a demonstrated application-benchmark advantage. The
+published theorem, law-family and observation-channel results retain their
+proved scope; the width diagnostic remains ABSTAIN / NOT RUN. Protected
+validation, custody requirements, unchanged GR/Status M and the RET-only pause
+remain in force. Exact private evidence is withheld under the existing public
+publication policy; publication creates no additional scientific acceptance.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 ## Prospective replay status — 20 October 2026
 
 The observed GWOSC calculation has not run. A new admitted attempt verified a

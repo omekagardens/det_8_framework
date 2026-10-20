@@ -1,0 +1,48 @@
+{
+  "schema": "metadata-obscured-publication-v1",
+  "parent": "7060e7e43cd6288c4ca32a6f5eac1e6a2dad82ec",
+  "scope": "Completed bounded prospective H1/L1 replay with separate stored-value arithmetic review; all sixteen science files agree across normal and optimized execution. Prior failures and scientific limitations are retained.",
+  "payload": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1038790,
+      "sha256": "a3d844fa4dab571011fbe5e51ba54c5b5774ec4dfef3f8444f202a61d09d4d99"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1287750,
+      "sha256": "01049aedf1438806382692d0ac4239f58adc78923ae12e00643d38d2c582ebeb"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 661041,
+      "sha256": "0b8284b37a53a9fa387158df92eade627a5c40497fabb1d7096b855f41b24da6"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 890885,
+      "sha256": "42f9c3a9432d561017502d63729a6821f3b68059052196a5c439a6d06a70cb5e"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md",
+      "bytes": 6460,
+      "sha256": "ce764d16663cc3dc4e3d909f45965d6f23f60cf59fda718f0487c01c6f40cb54"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md",
+      "bytes": 5102,
+      "sha256": "dd319a1031c3670ba352c2ac34a83a70ee36af0ad295350fe88d35103a647d9b"
+    }
+  ],
+  "withheld": [
+    "Private runtime, filesystem and source correspondence",
+    "Original acquisition, decoder, execution and supervision receipts",
+    "Administrative source, admission, checker and review records",
+    "Raw arrays and numerical output bodies"
+  ],
+  "scientific_calculation_executed": true,
+  "independent_arithmetic_scope": "Residuals and thresholds over stored values; the reference recurrence was not independently rerun.",
+  "production_qualification_credit": 0,
+  "historical_identity_reconstruction": false,
+  "prior_manifest_scope": "Earlier manifests describe their recorded revisions; this manifest covers the current listed public payloads."
+}
