@@ -1,3 +1,42 @@
+# Positive-contrast limit and prospective sampling allowance — 20 October 2026
+
+The declared eleven-class parent-five family now has a conditional uniform
+contrast limit: if Xi>1 and lambda*=1/Xi, every strictly positive harmonic
+perturbation obeys a local quadratic upper bound on its absolute target-width
+contrast as lambda approaches lambda*. Normalization and amplitude may vary
+arbitrarily. Only normalized baseline probabilities are needed; no continuity
+or positive lower bound of rho_lambda is assumed. Actual occurrence, sharpness
+and raw-law convergence remain unresolved. The self-contained proof is in
+`docs/track_b/native_theorem_package_v1/POSITIVE_CONTRAST_LIMIT.md`.
+
+A separate optional approximate-width protocol gives sufficient prospective
+distribution/channel, dependence, certificate-risk and abort allowances for
+the fixed simulation diagnostic. Full power counts operational ABSTAIN as
+failure to produce PASS. Conditional-return or whole-attempt error certificates
+are required; marginal accuracy alone is insufficient. The fixed-bit error
+shortcut assigns the certified combined allowance, without claiming a tighter
+uncertified budget. See `APPROXIMATE_WIDTH_DIAGNOSTIC.md` in the same package.
+This design remains ABSTAIN / NOT RUN: no numerical effect bound, implementation,
+certificates, feasible sample budget or measured advantage is supplied. Frozen
+D4-A and its exact-sampler acceptance remain unchanged.
+
+The next native question asks for a directly decoded one-birth order observable
+at another admitted parent that detects the surviving direction at a possible
+exception. It is separately assigned; no answer is incorporated here. The
+historical coordinate dictionary and fixed-law 30/33/38 canonical branch remain
+open at their published scopes. No coefficient reduction is opened.
+
+The bounded observed GWOSC replay remains complete at its recorded scope. A
+native physical forward map and observation channel remain missing. Production
+qualification is zero, eight routes remain closed, A08–A10 NOT_CAPTURED,
+Option B/Status M unchanged and RET paused. Prior failures, custody limitations,
+protected validation and the usage guard remain in force. No new acquisition,
+scientific execution or physical validation accompanies this checkpoint.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Singular-law width classification and historical dictionary boundary — 20 October 2026
 
 The declared parent-five family now has a complete rank and target-width
