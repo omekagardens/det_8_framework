@@ -1,0 +1,61 @@
+{
+  "schema": "metadata-obscured-publication-v1",
+  "parent": "1db4a41f77fe0da9bcefa063a8cd5f63fd207301",
+  "scope": "Reviewed law-family theorem, symbolic width diagnostic, scoped synthetic replay/failure report, and additive public coordination summaries. No new scientific execution.",
+  "payload": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1033394,
+      "sha256": "7c20298735b8ad53540ac58551dbd6b78ea4ed2deac324506e13ebbed104ac08"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1282358,
+      "sha256": "e9e57b5e7002ccadabbfe5f83b9311d92b41002ba64d7d93c8b6e5fb290115a4"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 655649,
+      "sha256": "51182154290f2506dd135b0e54d589b3ea18417327ab4bd9467c9ffa0939efa6"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 885493,
+      "sha256": "ccc5758b11ac6e0bcf2c187e9c018a61df85d928f545e03364dfe07a78c12384"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md",
+      "bytes": 42476,
+      "sha256": "c713c81a4d0ff1ad867b41b3d0c24a647fc8a61a350e6a6752252b292f44ef5a"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md",
+      "bytes": 17936,
+      "sha256": "68c38eeb7232f7fd471c6a6bbf74316350408031cbdbd849495ff890a534444a"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md",
+      "bytes": 12205,
+      "sha256": "debf46a374d09107018140fc790a3841e18d9158c3c97e78257b1e69a6f41e20"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md",
+      "bytes": 10871,
+      "sha256": "ae575818926ef7ae013aa91a8c4298d2f4588cff084089d4929a42ec616297e7"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md",
+      "bytes": 4232,
+      "sha256": "c20baa4777064189f32c77ea58b5b752a505d13723da294fdc413d25e85e2a6e"
+    }
+  ],
+  "withheld": [
+    "Exact private source correspondence and fingerprints",
+    "Original execution, source identity and custody receipts",
+    "Administrative scripts and review JSON",
+    "Interrupted original drafts and active successor output"
+  ],
+  "source_only": true,
+  "scientific_execution_authorized": false,
+  "qualification_credit": 0
+}
