@@ -1,0 +1,69 @@
+{
+  "schema": "sanitized-publication-manifest-v1",
+  "publication": "Regular observable family and prospective probability-envelope certificate",
+  "date": "2026-10-20",
+  "public_parent": "408ede83612d4c9cdc9d4fa4bfd869f0bc5dc71f",
+  "scope": "Revision-scoped public payload identities. Conditional native theorem and separate prospective mathematical/API design; no actual native probability certificate, scientific sampler, benchmark or physical validation.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1048073,
+      "sha256": "9eff67988bad96743b40ba67371bfdc948d443784dd7e411c970a349fb584f2f"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 900168,
+      "sha256": "31980fbf37aef49ffab18df824c87349f7ff5f4cfe6216042e55f656db1aa4b5"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 670324,
+      "sha256": "9ad712f247645ed8a8e62051396c54e0de34037269f5b86ac0556ae4fd081cb8"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1297033,
+      "sha256": "7dcfd869a6f38024a128a29c61b5c04123dcefe69d6744bd9b785edf5644a453"
+    },
+    "docs/track_b/native_theorem_package_v1/CATEGORICAL_MAP.md": {
+      "bytes": 9605,
+      "sha256": "7d4bd13b81e823bf980d9e9dbc8324142eed86f0ab1965dc174bf5a6da4cbfd6"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md": {
+      "bytes": 15773,
+      "sha256": "1fc2a87fe3f17b8e50743ebc380bbcd422d88dcd8d2986339bb2e81c447017be"
+    },
+    "docs/track_b/native_theorem_package_v1/POSITIVE_CONTRAST_LIMIT.md": {
+      "bytes": 10584,
+      "sha256": "b2d593c383cd95c455709432a5a73352ac98980f288c9292b234f936f8b9fb3d"
+    },
+    "docs/track_b/native_theorem_package_v1/PROXY_ENVELOPE.md": {
+      "bytes": 17461,
+      "sha256": "07edf073a57a4d1f225c7d74d1217d88712afa3700a8880b6600b6b67d8dafd4"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 13660,
+      "sha256": "9446941f0b131747fe4b7161658ef0c96f3de0cd5d357ed82f01a97c8bbb6f97"
+    },
+    "docs/track_b/native_theorem_package_v1/REGULAR_OBSERVABLE_FAMILY.md": {
+      "bytes": 14804,
+      "sha256": "0fe1f506c3680e2b18e7765df53b948d37d2b75c4312108b3a687ab168f68536"
+    },
+    "docs/track_b/native_theorem_package_v1/SINGULAR_OBSERVABLE_WITNESS.md": {
+      "bytes": 10864,
+      "sha256": "c287200c63d8630bd051fa6e0e089de3ffe52c9f99ef2c29ec7c3ef633c1d6e5"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 45909,
+      "sha256": "beda17590afc3ddd78bc11e6674349619c954184aca0cd3aa3ef7485a05c471c"
+    }
+  },
+  "withheld": [
+    "Private source/review correspondence and original fingerprints",
+    "Raw machine metadata, command receipts and administrative scripts"
+  ],
+  "preserved_limits": [
+    "Xi>1 remains conditional; no actual coefficient or numerical neighborhood selection",
+    "Normalized P4 lower bound only; baseline continuity and uniform absolute signal not assumed",
+    "Envelope design only, no implemented interval producer or actual law intervals",
+    "Both width diagnostics ABSTAIN / NOT RUN; exact and optional protocols unchanged",
+    "Historical replay failures and custody gaps, zero production qualification and RET pause unchanged"
+  ],
+  "correction": "Independent review required separate envelope construction and budget comparison precision bounds; corrected prose retained with original private draft preserved."
+}

@@ -1,3 +1,47 @@
+# Regular observable family and probability-envelope design — 20 October 2026
+
+The consolidated theorem package now includes a regular eleven-coordinate
+kernel section with v11=1 and no division by chi. Conditional on Xi>1, one
+fixed amplitude keeps the multipliers at least 1/4 on a neighborhood of the
+exception and gives delta_4i/rho_lambda>1/4 in both root sectors of the full
+P4 row. The bound is normalized; no uniform absolute signal or baseline-scale
+continuity is assumed. P1 remains blind at the exception and obeys its
+quadratic upper bound. Independent manual review and separate synthetic
+algebra checks support their distinct claims. Actual coefficients, numerical
+neighborhood size, later-layer transfer and a physical channel remain open.
+
+A separate probability-envelope design proves feasibility, exact normalization
+tightening and a deterministic rational proxy with a uniform TV bound over
+the declared envelope. It includes explicit construction, budget-comparison
+and consumer-precision limits. Independent review required a clarification
+separating construction precision from exact budget comparison; that correction
+is incorporated while the original private draft remains preserved. This is
+a reviewed mathematical design, not an implemented interval producer or actual
+native-row certificate. Existing map weights exceeding its 256-bit bound
+must be refused. Both diagnostics remain ABSTAIN / NOT RUN, with unchanged
+source/channel, effect, cost/failure and held-out prerequisites.
+The next application deliverable is a separately reviewed implementation of
+the envelope constructor and its refusal rules; native interval certification
+and benchmark execution remain distinct prerequisites.
+
+The next native question concerns the published full marked-layer half-scale
+prescription: whether its optional normalization yields continuity and compact
+positive baseline-scale bounds, and thus an absolute effect bound. That work
+is excluded here. The bounded prospective replay, historical failures, custody
+gaps, zero production qualification, eight closed routes, A08–A10 NOT_CAPTURED,
+Option B/Status M and RET pause remain unchanged. Application success and
+native physical validation retain distinct success criteria.
+
+Reviewed public payloads are listed in the revision-scoped
+REGULAR_FAMILY_PUBLICATION_MANIFEST.json in docs/coordination. Private
+provenance and administrative checks remain withheld under the publication
+policy. Earlier records below remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Conditional P4 width witness and deterministic map component — 20 October 2026
 
 The consolidated theorem package now includes a conditional exceptional-law

@@ -291,6 +291,14 @@ All eight ideals and sixteen marked outcomes are retained. This requires
 complete child-order access and the known parent embedding, not a physical
 detector or an implemented sampler; the \(P_1\) blindness above is unchanged.
 
+The [regular observable family](REGULAR_OBSERVABLE_FAMILY.md) normalizes a
+kernel section by \(v_{11}=1\) without dividing by \(\chi\). Conditional on
+\(\Xi>1\), a single fixed amplitude gives a multiplier floor \(1/4\) and
+positive \(P_4\) width contrast throughout an existence-defined neighborhood.
+The uniform bound \(\delta_{4,i}/\rho_\lambda>1/4\) is scale-normalized;
+it supplies no uniform absolute signal guarantee without an additional
+lower bound on \(\rho_\lambda\). No continuity of the baseline scale is assumed.
+
 The [positive-contrast limit](POSITIVE_CONTRAST_LIMIT.md) also treats approach
 to a possible exception. If \(\Xi>1\), the absolute target-width contrast of
 every strictly positive harmonic perturbation on this support has a local
