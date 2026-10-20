@@ -5,10 +5,18 @@
 
 The growth principles permit more than one law. A normalized harmonic seed
 valid for one law need not remain harmonic after the law changes. Nevertheless,
-for the explicit family below, a replacement seed can be written symbolically:
-it is unique except at most one parameter value, where an exact compatibility
-condition decides the result. No coefficient search is required for this
-branch-conditional statement.
+for the explicit family below, a replacement seed can be written symbolically.
+The [singular-law kernel and width theorem](SINGULAR_LAW_WIDTH.md) completes its
+classification: the eleven-column harmonic system has rank ten and a
+one-dimensional kernel throughout the declared family. Away from \(\chi=0\),
+the normalized seed is unique and changes the target width. At any \(\chi=0\)
+law, every harmonic direction is target-width-blind; the admitted bound on
+\(\theta\) excludes the formal compatible alternative printed below.
+
+Only occurrence remains unselected: with
+\(\Xi=\theta+360\mu_1-359\mu_0\ne1\), there is one exceptional law exactly
+when \(\Xi>1\), and none when \(\Xi<1\). No coefficient search is needed
+for the kernel and width classification.
 
 These results concern positive prefixes through seven births and a one-birth
 width gain. They do not transfer the later h8 constructions or exclusions,
@@ -119,7 +127,11 @@ The exact fixed-law identities used are
 
 These are additional admitted instance facts, not universal growth principles.
 The mu_i remain symbolic. In particular, the changed full probabilities are
-J and F, not the unchanged complements in (2).
+J and F, not the unchanged complements in (2). The admitted bounds
+\(0<\theta<10^{-10}\) and \(0\le\mu_i<1/26\), together with the complete
+held-row identities, also imply that the singular compatibility condition
+below cannot hold. The [standalone proof](SINGULAR_LAW_WIDTH.md) states these
+additional premises explicitly and proves the required sign.
 
 ## 3. Why the fixed seed fails
 
@@ -172,7 +184,10 @@ If chi(1)>0 there is none; if chi(1)<0 the unique exception is
 
     lambda_star=(h0-h1)/((h0-h1)-chi(1)) in (0,1).        (6)
 
-The actual sign is not selected.
+Equivalently, \(\chi(\lambda)=\theta c_0(1-\lambda\Xi)/360\), where
+\(\Xi=\theta+360\mu_1-359\mu_0\ne1\). The comparison of the actual
+fixed \(\Xi\) with one remains unselected. It controls occurrence only;
+the singular kernel and its width image are classified below.
 
 Define the ordinary two-by-two formula
 
@@ -209,7 +224,8 @@ has rank ten and a one-dimensional kernel on this branch.
 
 At the possible exception chi=0, the first two lines of (7) still determine
 the four front coordinates and Q. Put kappa=F0/Y0=F1/Y1>0.
-A normalized seed exists exactly when
+The following is the formal algebraic alternative before applying the
+additional admitted bounds: a normalized seed exists exactly when
 
     [Y,Q]=0.                                             (8)
 
@@ -220,8 +236,17 @@ remains. If it holds, all normalized solutions are
     z7=z4=0; z5=Q0/Y0, with w any finite real number,     (9)
 
 together with z1=1 and the fixed front coordinates.
-This is an exact conditional classification, not a request to evaluate the
-exception or begin a coefficient-audit chain.
+
+The [singular-law proof](SINGULAR_LAW_WIDTH.md) now establishes \([Y,Q]<0\)
+throughout this declared family using the admitted \(\theta\) bound. Thus
+(8) cannot hold here: (9) remains a formal compatible solution formula, not
+an available family branch. At any \(\chi=0\) law the full unnormalized
+kernel is exactly the span of
+\[
+ (0,0,0,0,0,0,0,0,\ 2\kappa^2/(\lambda\theta),-\kappa,1).
+\]
+The kernel has dimension one and the system has rank ten. Every direction
+has zero target-width correction. This does not decide whether an exceptional law occurs.
 
 ## 5. What persists, and what does not
 
@@ -232,8 +257,7 @@ small one-sided neighborhood of 1. The original margins
 strictly positive locally, and the old nonzero coordinate signs persist.
 No numerical neighborhood radius is claimed.
 
-For any nonexceptional lambda, or any finite compatible solution (9),
-the choice
+For any nonexceptional lambda, the choice
 
     epsilon=1/[2*(1+max_j |z_j|)]>0
 
@@ -250,10 +274,13 @@ This is not conditioning on a selected birth or newborn record.
 It proves a one-birth gain, not persistent width, asymptotic geometry,
 or an all-size record-blind continuation.
 
-The distinction is now precise: the fixed seed is law-dependent, while a
-moving seed and positive finite-prefix gain survive across this explicit
-family apart from its classified possible exception. This is stronger than
-an appeal to continuity: the exact rank and nonzero pivots are established.
+The fixed seed is law-dependent. A moving normalized seed and positive
+finite-prefix target-width gain survive at every nonexceptional law.
+At an exceptional law the displayed width-blind kernel vector still gives
+strictly positive multipliers at sufficiently small amplitude and an admissible
+prefix through seven births. All harmonic directions there have zero target
+width gain. Rank ten and kernel dimension one hold throughout the declared
+family; only the occurrence comparison for Xi remains unselected.
 
 No uniform amplitude over the whole interval, positivity of an h8 lift,
 transfer of the fixed 30/33/38 exclusions, canonical active-set preservation,
@@ -273,6 +300,8 @@ Their exact source identities and acceptance records are retained privately;
 edition supplies and what it withholds.
 The complete held-law and original seed premises remain load-bearing.
 No scientific executor, new coefficients or production dependencies were used.
-Independent manual review accepts the fixed/moving seed statements at this
-conditional scope. This publication supplies a mathematical exposition, not a
-new numerical execution or a reconstructed finite certificate.
+The fixed/moving seed statements retain their independent manual acceptance.
+The companion [singular-law proof](SINGULAR_LAW_WIDTH.md) resolves the formal
+compatibility alternative under the declared bounds and identifies the exact
+remaining occurrence premise. This publication supplies mathematical exposition,
+not a new numerical execution or a reconstructed finite certificate.

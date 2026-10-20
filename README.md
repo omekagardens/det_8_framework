@@ -9,7 +9,8 @@ data replay does not establish the physical theory.
 **Published research snapshot: 20 October 2026.** The current native result is a
 [consolidated conditional theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md),
 with the initial [law-dependence result](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
-and a [fixed/moving seed family theorem](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md).
+and a [fixed/moving seed family theorem](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md)
+completed by the [singular-law kernel and width proof](docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md).
 Start there for the mathematical statements and their dependencies. Later local
 work is not part of this published snapshot merely because it appears in a
 coordination discussion.
@@ -20,7 +21,7 @@ coordination discussion.
 | --- | --- | --- |
 | Native record-marked growth | An explicit positive extension through one additional birth layer at sufficiently small amplitude, under the admitted law and harmonic-support premises. | No uniform all-size harmonic continuation or physical spacetime map. |
 | Fixed-law kernel and exclusions | Complete signed-kernel classification on the stated 30-, 33- and 38-class supports; the prescribed positive affine endpoint at amplitude `1/4` fails on each. The kernel has dimension one or two depending on an unresolved canonical-coefficient equality. | These are fixed-law, fixed-support results. They do not exclude arbitrary supports, seeds or amplitudes. |
-| Law dependence | The old normalized seed fails under a declared law change. An explicit moving seed is unique across the stated family except at most one parameter, with an exact compatibility alternative there. | The exceptional branch remains symbolic; later h8 and fixed 30/33/38 results do not transfer. |
+| Law dependence | The old normalized seed fails under a declared law change. The eleven-column family has rank ten and kernel dimension one throughout. At any \(\chi=0\) law every direction is target-width-blind; the admitted \(\theta\) bound excludes compatible normalization. | Occurrence alone remains unselected: \(\Xi=\theta+360\mu_1-359\mu_0\ne1\) gives one exception iff \(\Xi>1\). Later h8 and fixed 30/33/38 results do not transfer. |
 | Observation identifiability | Under the admitted finite law, a shared external readout can rescale or erase contrast while preserving native outcome and payload marginals. | Conditional non-feedback extensions demonstrate missing physical channel premises; no apparatus, universal no-go or empirical result is claimed. |
 | Software and finite studies | Research models, explicit witness suites and conventional data-analysis artifacts with stated contracts. | Check results are specific to their sources, inputs and environments; there is no blanket whole-tree or physical-validation claim. |
 | Measurement | The [bounded observed GWOSC replay](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) passed its fixed H1/L1 numerical gates; normal and optimized outputs agree, and independent residual arithmetic checks pass. | Stored-value arithmetic consistency does not independently rerun the reference recurrence, reconstruct historical identity, qualify production or validate DET physics. Prior failures remain failures. |
@@ -45,7 +46,8 @@ The separate RET research lane remains paused.
 | --- | --- |
 | [Theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) | Exact admitted law, support, positive theorem, kernel, exclusions and unresolved premises. |
 | [Law dependence](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) | Structural identities, coordinate changes, optional prescriptions and the explicit alternative prefix. |
-| [Law-family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) | Fixed-seed obstruction, explicit replacement seed and exceptional compatibility. |
+| [Law-family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) | Fixed-seed obstruction and explicit replacement seed away from the possible exception. |
+| [Singular-law width theorem](docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md) | Complete eleven-column kernel, excluded compatible singularity and exact remaining occurrence premise. |
 | [Width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) | Simulation channel, held-out rule, error bounds, costs and actual blockers. |
 | [Observation identifiability](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) | Exact readout counterexamples, retained custody failure and the missing operational channel contract. |
 | [Observed GWOSC replay](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) | Fixed inputs and method, numerical maxima, independent-check scope and preserved failures. |

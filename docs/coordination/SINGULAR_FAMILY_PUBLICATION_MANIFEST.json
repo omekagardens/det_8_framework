@@ -1,0 +1,57 @@
+{
+  "schema": "det.scoped-publication-manifest.v1",
+  "publication": "singular-law-width-classification-2026-10-20",
+  "public_parent": "70b9f4e5d39875f9f370d13e6933e9be2409e00e",
+  "scope": "Reviewed conditional rank-ten and one-dimensional-kernel theorem over the declared eleven-class parent-five family, with zero target-width image at any exceptional law; bounded historical coordinate-dictionary clarification.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1041081,
+      "sha256": "0daa14c02a30bb50bc824bce1a77b019c740cceff9f15704d6006a675d72d925"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1290041,
+      "sha256": "d405e28ce5dadf2d4eb4f74ff2f73fdf3c59b690df8fe025f9a9e6303e0cb81b"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 663332,
+      "sha256": "a27056084200baf95df139b09f6e6d900de74110e4f38b2790cf523bfee9b0a9"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 893176,
+      "sha256": "83291083623a1da05b3dfc1fd1d803c171506fa33977c9c61e3407440666b00a"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md": {
+      "bytes": 14121,
+      "sha256": "eca49180bbb61bb878373d2fe453aa85bee6727fa7b05d8b4ec09c174d67a706"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 44105,
+      "sha256": "9cc4c87b2a4a90079919c4f4cc8259230d3fc30c2d8e53ca5827ca6b8d397f21"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 6612,
+      "sha256": "29a96dfa088ec0a6272329922a9ba473fb72dae9837eff5251c9905001c813a9"
+    },
+    "docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md": {
+      "bytes": 11782,
+      "sha256": "5fbc4739709478890bccaf2aa5902016e1f1607343b78fe9c7bf77a018ce8af0"
+    }
+  },
+  "verification": "Independent manual proof and exact rational sign checks; independent exact-publication and link review. These checks do not certify the inherited all-record identities or constitute empirical validation.",
+  "remaining_premises": [
+    "Inherited complete marked-row reduction, held-law coefficient identities and bounds, original seed and positive compatible continuation.",
+    "Actual canonical occurrence of an exceptional law remains unselected: Xi > 1 is the criterion.",
+    "The historical complete coordinate dictionary and the separate fixed-law 30/33/38 canonical kernel branch remain unresolved."
+  ],
+  "withheld": [
+    "Original machine, runtime and filesystem-custody records, command transcripts and administrative checker scripts.",
+    "Private review identifiers, correspondence maps and raw source captures."
+  ],
+  "boundaries": [
+    "No original coefficient acquisition, scientific execution or new data acquisition accompanies this publication.",
+    "No historical identity reconstruction, production qualification, physical prediction or empirical validation is asserted.",
+    "Approach-to-exception analysis is excluded from this checkpoint.",
+    "Prior publication manifests describe their own revisions and are unchanged.",
+    "The private research history is not an ancestor of this public derivative."
+  ]
+}
