@@ -19,7 +19,7 @@ assessment, with its original evidence limits.
 | --- | --- | --- |
 | **1. Reader-facing theorem package** | The admitted law and support, positive small-amplitude extension, branch-conditional kernel classification and 30/33/38 fixed-amplitude exclusions are consolidated. | Keep one coherent package with exact dependencies. Resolve historical/natural coordinates only when the original definitions support the map; otherwise retain the explicit gap. A standalone finite-certificate replay is a separate reproducibility deliverable. |
 | **2. Law dependence** | The [family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) proves failure of the old seed and gives an explicit replacement, unique apart from at most one classified possible exception. | Preserve this completed family result. Select a further uncertainty explicitly; actual exceptional compatibility, later layers and canonical selection are not settled by publication. |
-| **3. Portable scientific replay** | Five synthetic fixtures passed independent arithmetic checking. H1 acquisition failed before body consumption on a missing Content-Type; no observed replay ran. | Resolve the reviewed H1-only transport exception and one new-attempt decision, then perform the fixed calculation and independent arithmetic review under fresh provenance. Keep historical failure and production qualification separate. |
+| **3. Portable scientific replay** | The [fixed observed GWOSC calculation](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) passed both detectors’ numerical gates in normal and optimized modes with 16 byte-identical scientific files. Independent exact-rational checking accepted the stored residual arithmetic. | This bounded deliverable is complete. Preserve the result and all transport, environment and custody failures; name a new uncertainty before further measurement work. Reference-recurrence reproduction and full production qualification are separate, unclaimed outcomes. |
 | **4. Native physical prediction** | The [identifiability note](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) shows that the admitted finite law leaves the external readout scale, noise and timing unspecified. No physical forward map is established. | Close one stated operational channel requirement: units/calibration, preparation, observation or joint dynamics, comparator, uncertainty and falsifier. Any proposed extra physical premise must constrain the counterchannels explicitly; a numerical simulation alone does not supply it. |
 | **5. Application benchmark** | The [one-birth width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) fixes a channel, comparator, cost model and held-out decision rule. It remains ABSTAIN / NOT RUN. | Supply a certified numerical effect lower bound and validated sampler before freezing a numerical sample budget. Report failure and abstention as well as success; an application result supplies no physical-theory validation. |
 
@@ -55,11 +55,12 @@ scalar-passive.
 
 ## Measurement and evidence boundaries
 
-The prospective replay should have a fixed dataset, calculation, output and
-independent arithmetic comparison. State its numerical tolerances before the
-run and keep failures, partial captures and failed admissions visible. A
-successful conventional GWOSC calculation establishes evidence for that
-calculation in its new environment; it is not a DET-specific gravity test.
+The completed [prospective replay](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md)
+used fixed public data, coefficients, outputs and predeclared tolerances. Its
+independent check covers residual arithmetic over stored values; it did not
+rerun the reference recurrence. Preserve the failed attempts and their distinct
+authorizations. This conventional GWOSC result supplies evidence for that
+calculation in its new environment, not a DET-specific gravity test.
 
 Historical qualification, runtime and custody requirements remain where they
 belong. Do not silently relax them, rewrite failed records or describe new

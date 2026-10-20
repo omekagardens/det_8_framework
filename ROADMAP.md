@@ -35,7 +35,7 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 
 **Observation-channel identifiability is settled at its declared scope:** the [note](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) gives shared readouts with preserved, rescaled or erased output contrast while the native width difference, native marginal and scalar payload maps remain unchanged. It identifies missing physical channel commitments, not a detector construction or a universal impossibility theorem.
 
-**Prospective replay has bounded synthetic evidence:** five fixtures passed independent residual checking. The observed-data attempt stopped before body consumption on H1 response media admission. A narrowly reviewed new-attempt decision remains pending; full production qualification is separate.
+**The bounded observed replay is complete:** the [result report](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) records passing H1/L1 numerical gates, 16 byte-identical scientific files across normal and optimized execution, and independent exact-rational checking of all stored residual and threshold arithmetic. The reference recurrence was not rerun by that checker. Earlier transport and runtime/dependency failures remain recorded; numerical agreement does not reconstruct historical identity. Production qualification receives zero credit.
 
 **RET tooling is retained; RET development is paused.** Earlier Exodus, neutron-lifetime, mathematical-search and Navier–Stokes results remain historical bounded studies with their original caveats.
 
@@ -47,7 +47,7 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 |---|---|
 | Public theorem package | A reader can identify each established claim, exact law/support and remaining premise without reading chronological coordination logs. |
 | Law dependence | State what is forced, optional, construction-specific or proved over a declared family; close a bounded result before extending the coefficient audit. |
-| Prospective portable replay | Reproduce one fixed public GWOSC calculation in a newly documented environment and independently check its arithmetic; preserve historical custody failures. |
+| Portable replay — bounded result complete | Preserve the fixed public GWOSC result and independent residual check with their limits and failure history. Select any further measurement deliverable by a named uncertainty; no additional run or production qualification follows automatically. |
 | Foundational physics | Supply an explicit native prediction and observation channel before claiming empirical evidence for the theory. |
 | Application value | Evaluate a fixed diagnostic or signal-processing benchmark against declared baselines, costs, failure rates and held-out data. |
 

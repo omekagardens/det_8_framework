@@ -23,7 +23,7 @@ coordination discussion.
 | Law dependence | The old normalized seed fails under a declared law change. An explicit moving seed is unique across the stated family except at most one parameter, with an exact compatibility alternative there. | The exceptional branch remains symbolic; later h8 and fixed 30/33/38 results do not transfer. |
 | Observation identifiability | Under the admitted finite law, a shared external readout can rescale or erase contrast while preserving native outcome and payload marginals. | Conditional non-feedback extensions demonstrate missing physical channel premises; no apparatus, universal no-go or empirical result is claimed. |
 | Software and finite studies | Research models, explicit witness suites and conventional data-analysis artifacts with stated contracts. | Check results are specific to their sources, inputs and environments; there is no blanket whole-tree or physical-validation claim. |
-| Measurement | Five prospective synthetic fixtures passed independent residual arithmetic checking. | Observed GWOSC replay has not run: H1 acquisition stopped on a missing approved header before body consumption. A narrow new-attempt decision is pending; historical custody failures remain failures. |
+| Measurement | The [bounded observed GWOSC replay](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) passed its fixed H1/L1 numerical gates; normal and optimized outputs agree, and independent residual arithmetic checks pass. | Stored-value arithmetic consistency does not independently rerun the reference recurrence, reconstruct historical identity, qualify production or validate DET physics. Prior failures remain failures. |
 | Application diagnostic | A fixed one-birth width statistic has declared baselines, costs and conditional finite-sample error bounds. | ABSTAIN / NOT RUN: a certified numerical effect bound and validated sampler are missing. No measured advantage or physical channel is claimed. |
 
 The theorem package prints the natural coordinates, complete reduced systems,
@@ -48,7 +48,8 @@ The separate RET research lane remains paused.
 | [Law-family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) | Fixed-seed obstruction, explicit replacement seed and exceptional compatibility. |
 | [Width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) | Simulation channel, held-out rule, error bounds, costs and actual blockers. |
 | [Observation identifiability](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) | Exact readout counterexamples, retained custody failure and the missing operational channel contract. |
-| [Publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md) | Independent reviews, synthetic evidence, acquisition failure and withheld provenance. |
+| [Observed GWOSC replay](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md) | Fixed inputs and method, numerical maxima, independent-check scope and preserved failures. |
+| [Publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md) | Independent reviews, synthetic and observed replay results, retained failures and withheld provenance. |
 | [Next steps](NEXT_STEPS.md) | Bounded deliverables, acceptance criteria and current pauses. |
 | [Implementation plan](REVIEW_IMPLEMENTATION_PLAN.md) | Current summary first, followed by the preserved chronological implementation record. |
 | [Original independent review](<indep ndent_review.md>) | The September 2026 assessment that motivated the implementation programme; preserved with its original scope and evidence limits. |
@@ -79,10 +80,12 @@ See [ONTOLOGY.md](ONTOLOGY.md), [record-kernel physics](docs/record_kernel_physi
 [QR-MAP](docs/track_b/QR_MAP.md) and [gravity](docs/track_b/gravity.md).
 
 Current priorities are independently complete theorem and law-dependence
-deliverables, one prospective conventional GWOSC replay, and separately scoped
-physical-prediction and application-benchmark projects. An application benchmark
-must declare baselines, costs, failure rates and held-out evaluation; success
-does not establish DET physics. [NEXT_STEPS.md](NEXT_STEPS.md) gives the roadmap.
+deliverables and separately scoped physical-prediction and application-benchmark
+projects. The bounded conventional GWOSC replay and independent residual check
+are complete; further measurement work needs a named uncertainty and acceptance
+criterion. An application benchmark must declare baselines, costs, failure rates
+and held-out evaluation; success does not establish DET physics.
+[NEXT_STEPS.md](NEXT_STEPS.md) gives the roadmap.
 
 ## Running and checking
 
@@ -95,8 +98,10 @@ requirements.
 For ordinary repository integration, use the scoped checks in the
 [branch workflow](docs/BRANCH_WORKFLOW.md). Research execution is a separate
 choice and must respect the current pauses, protected inputs and run approvals.
-No new scientific execution or whole-repository pass count is asserted by this
-documentation update; the branch workflow records the scoped maintenance run.
+The [observed replay report](docs/track_b/native_theorem_package_v1/OBSERVED_REPLAY.md)
+records a separate, admitted scientific run and its bounded arithmetic review.
+The branch workflow records maintenance checks; neither supplies a current
+whole-repository pass count or authorizes further scientific execution.
 
 The explicit research registry can list and validate its fixed manifest without
 executing a witness suite:

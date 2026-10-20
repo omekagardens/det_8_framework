@@ -1,3 +1,60 @@
+# Current checkpoint — bounded observed replay complete, 20 October 2026
+
+The fixed prospective GWOSC calculation has completed for H1 and L1. All
+131,072 full-record and 4,096 historical-crop residual gates per detector pass
+the predeclared Decimal80 rule `1e-9 × max(abs(full raw input))`, with no unit
+floor. Normal and optimized execution produced 16 byte-identical scientific
+files. Independent exact-rational checking accepted all 262,144 full-record and
+8,192 crop residual calculations and their thresholds; it did not rerun the
+reference recurrence. The historical crops have 0/4,096 bitwise matches per
+detector despite passing numerical tolerance. No historical identity was
+reconstructed.
+
+The separate human-approved H1 and L1 missing-header exceptions applied only to
+their exact pinned artifacts. The earlier H1 failure, L1 failure and runtime/
+installed-dependency preflight failures remain recorded. Fresh prospective
+bindings and verified wheel bytes did not waive those failures or change the
+scientific kernels and thresholds. The completed result closes this bounded
+calculation and residual-check deliverable; further measurement work needs its
+own stated uncertainty and scope.
+
+Production qualification remains zero. This result supplies neither a native
+physical prediction nor a demonstrated application-benchmark advantage. The
+published theorem, law-family and observation-channel results retain their
+proved scope; the width diagnostic remains ABSTAIN / NOT RUN. Protected
+validation, custody requirements, unchanged GR/Status M and the RET-only pause
+remain in force. Exact private evidence is withheld under the existing public
+publication policy; publication creates no additional scientific acceptance.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+## Prospective replay status — 20 October 2026
+
+The observed GWOSC calculation has not run. A new admitted attempt verified a
+fresh dependency wheel and staged package bytes, then acquired the complete H1
+file with its fixed expected size and hash under an explicit H1-only exception
+for an absent Content-Type. L1 returned HTTP 200 with the expected length but
+also lacked Content-Type. The method stopped before consuming L1 body bytes;
+the H1-only exception did not authorize that L1 response. Package import,
+decoding and the observed calculation were not reached.
+
+A separate L1-only exception and one new-attempt decision remain pending.
+The original H1 header failure, runtime identity change, installed dependency
+RECORD mismatches and current L1 failure remain recorded. Fresh prospective
+bindings and package staging do not recover historical custody. The five
+accepted synthetic fixtures remain the completed numerical replay evidence.
+
+Scientific inputs and thresholds are unchanged. Acquisition and staging do
+not establish a benchmark result, production qualification, a native gravity
+prediction or physical validation. The RET pause and research usage guard
+remain in force.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Reviewed observation-channel identifiability — 20 October 2026
 
 The [observation-channel note](../track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) closes a bounded foundational question for the admitted finite growth law. A normalized external readout shared by both compared arms can preserve, rescale or erase the width contrast while leaving the complete native outcome marginal and scalar payload maps unchanged after readout marginalization. Positive timestamp rescaling also preserves the native order. These are conditional mathematical counterexamples to identification from the stated premises; they are not physical apparatus constructions or a universal impossibility result for DET.
