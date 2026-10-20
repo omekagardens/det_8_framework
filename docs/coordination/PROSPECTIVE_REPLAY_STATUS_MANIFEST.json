@@ -1,0 +1,41 @@
+{
+  "schema": "metadata-obscured-publication-v1",
+  "parent": "027fe09b65f04dce9697a8c053184247bfcf48dc",
+  "scope": "Scoped prospective transport status: accepted staged bytes and H1 acquisition, preserved L1 media-policy failure; no decoded or numerical result.",
+  "payload": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1037005,
+      "sha256": "e109f3cd96d4c695398dc874b3bbfd0b90e2dadd9dedf96778a09583c51bf15b"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1285965,
+      "sha256": "0ba09839d54351144ff52050a9ce6ce84fc269ced8e9cb444660175b2f7c7cd9"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 659256,
+      "sha256": "710cce19094418ac86320b38c5fe2335703ad458650e85dfdf04abbaf0c44cd7"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 889100,
+      "sha256": "3a01df3573481b89c449890816bb66ba125c64f2cc19b6f44a5561c6dc2d0661"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md",
+      "bytes": 4857,
+      "sha256": "fec0e768d1bfdc6ef10aec279839ef47fba67fa7b77adb63e2a56fef15b96e95"
+    }
+  ],
+  "withheld": [
+    "Private runtime, filesystem and source correspondence",
+    "Original acquisition and supervision receipts",
+    "Administrative source, admission and review records",
+    "Unexecuted L1 retry proposal"
+  ],
+  "scientific_calculation_executed": false,
+  "production_qualification_credit": 0,
+  "historical_identity_reconstruction": false
+}

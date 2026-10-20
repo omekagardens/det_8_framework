@@ -49,12 +49,23 @@ the synthetic tolerance `1e-9`; zero was exact, and a deliberate one-percent
 gain fault was rejected. These are bounded synthetic results. The reference is
 high precision, not an interval enclosure or a general correctness proof.
 
-The prospective observed-data replay has not run. The H1 acquisition attempt
-received HTTP 200 with the declared length but no Content-Type header. The
-approved method refused it before consuming body bytes. L1 acquisition,
-environment staging, decoding and the observed calculation were not started.
-That failure remains a failure. A separate narrowly scoped decision is needed
-before changing the transport contract and making a new attempt.
+The prospective observed-data replay has not run. In a new admitted attempt,
+a fresh NumPy wheel and package staging passed their byte, RECORD and CRC checks.
+The complete H1 file matched its fixed expected size and hash under the explicit
+H1-only exception for an absent Content-Type. L1 then returned HTTP 200 with the
+expected length but no Content-Type. The method stopped before consuming L1
+body bytes because the H1-only exception did not cover L1. Package import,
+decoding and the observed calculation were not reached by that attempt.
+
+A separate L1-only exception and one new-attempt decision remain pending. No
+retry is authorized by this status report. Successful acquisition or staging
+is not a completed scientific replay.
+
+The original H1 header failure remains a failure. The intervening runtime
+identity change and installed NumPy RECORD mismatches also remain recorded.
+New prospective bindings and freshly verified package bytes do not reconstruct
+historical identity or erase those failures. Scientific inputs and numerical
+thresholds remain fixed.
 
 No production qualification, historical-identity reconstruction, native gravity
 prediction or physical validation follows from either the synthetic result or
