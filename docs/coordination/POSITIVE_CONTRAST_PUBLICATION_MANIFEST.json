@@ -1,0 +1,66 @@
+{
+  "schema": "det.scoped-publication-manifest.v1",
+  "publication": "positive-contrast-and-approximate-width-design-2026-10-20",
+  "public_parent": "1322f631f65107aa88647b3ba18dc480661d9693",
+  "scope": "Conditional uniform quadratic upper bound on positive target-width contrasts near a possible exceptional law in the declared eleven-class family; separately, an optional prospective approximate-width diagnostic with explicit error, dependence and failure allowances.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1043413,
+      "sha256": "215185b49220b948d93dea664284707cb4a598732327cc7c20136d3c3a3db5a1"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1292373,
+      "sha256": "a8ed9ca5b5532b6a111490cf36e6de83201fac2ed11a7e93d06dd896a9e28b99"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 665664,
+      "sha256": "453723228c540b0285843b1945286783d67745a38fa6e07cf1ac405ad31d65d2"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 895508,
+      "sha256": "f01bc7afbee3c82765e8b146cd8f3f188c16e6e230353305daa9eeaff6ecbb41"
+    },
+    "docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md": {
+      "bytes": 12329,
+      "sha256": "f72c4f9fe34076cef5fff1145453a625a5b0af83d87b0ba8d89c310c60d50378"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md": {
+      "bytes": 14640,
+      "sha256": "9963a52c48d46ad71e9e907939aebed486c6f68ac7a61ead56a44376f6c03484"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 44643,
+      "sha256": "b6b7e22945b1100948183fe4ff88d1a8c66699995c493398ae695528a993a3df"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 9480,
+      "sha256": "ef842b9ad502f4e5c0c187e4a53ce2c535d4ea08994e39dff908372b90a0ab49"
+    },
+    "docs/track_b/native_theorem_package_v1/POSITIVE_CONTRAST_LIMIT.md": {
+      "bytes": 9443,
+      "sha256": "5e826ca2c1165ffa9d955b521bef38f141e0c3d07700bca6ad4143f1cb8836e5"
+    },
+    "docs/track_b/native_theorem_package_v1/APPROXIMATE_WIDTH_DIAGNOSTIC.md": {
+      "bytes": 13991,
+      "sha256": "4191a42d8a2e9a399864174dccf39ead1283908056659aa146ea554e261d4f71"
+    }
+  },
+  "verification": "Independent manual proof reviews; exact checks of displayed rational constants and current source identities; exact publication transformation and documentation review. No new scientific or held-out execution.",
+  "remaining_premises": [
+    "The native theorem inherits complete marked-row identities, fixed coefficient bounds, positive normalized baseline and target-width identity; actual Xi > 1 remains unselected.",
+    "The contrast bound is local for a fixed admitted family, not a sharp rate, raw-law convergence or physical prediction.",
+    "The optional approximate protocol requires certified numerical effect, implementation, conditional-return or whole-attempt error guarantees, availability and feasible frozen resources. It remains ABSTAIN / NOT RUN."
+  ],
+  "withheld": [
+    "Raw machine/runtime/filesystem-custody records, command transcripts, administrative check scripts and private source captures.",
+    "Private review identifiers, correspondence maps and original proposal review records."
+  ],
+  "boundaries": [
+    "Frozen exact diagnostic D4-A is unchanged.",
+    "The original approximate-protocol proposal is retained privately with the corrected fixed-bit allowance defect recorded; no prior failure is erased.",
+    "Historical custody, fixed-law 30/33/38 exclusions and canonical-branch uncertainty remain at their prior scopes.",
+    "The completed observed replay is unchanged; no acquisition, production qualification or physical validation is added.",
+    "The separately assigned next observable question is excluded.",
+    "Earlier manifests remain revision-scoped; the private research history is not part of this public lineage."
+  ]
+}

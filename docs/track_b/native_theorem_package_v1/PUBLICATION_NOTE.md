@@ -45,6 +45,34 @@ the natural coordinates. This is a finite lookup conclusion, not global absence.
 The natural-coordinate classification and historical custody limitations remain
 unchanged; this lookup asserts no new theorem or coefficient calculation.
 
+## Positive contrasts near a possible exceptional law
+
+The [positive-contrast limit theorem](POSITIVE_CONTRAST_LIMIT.md) addresses
+the approach question on the same eleven-class support. Conditional on
+\(\Xi>1\) and \(\lambda_*=1/\Xi\), every strictly positive harmonic
+perturbation obeys a local bound
+\[
+ |\delta_i(\lambda,v)|\le A_*|\lambda-\lambda_*|^2
+\]
+uniformly over the allowed normalization and amplitude, in both root sectors.
+Here \(v_j=h_7(T_j)-1>-1\), \(M_\lambda v=0\), and the contrast is measured
+against the baseline at the same \(\lambda\). The proof combines
+\(\Delta C(\lambda)v_1=\chi(\lambda)^2v_{11}\), positivity's
+\(|v_{11}|<1\), and the complete-row probability bound \(0<p_i\le1\).
+
+Independent manual review accepted the bracket identities, positivity bound,
+probability normalization and compact-neighborhood argument. Checks of the
+displayed rational constants do not reauthenticate the inherited all-record
+certificates or establish historical custody.
+
+Only common scaling of the entire harmonic sequence is gauge. Scaling \(v\)
+changes the perturbation and must still satisfy positivity. The result
+requires neither continuity nor a uniform positive lower bound of
+\(\rho_\lambda\). It supplies an upper bound, not sharpness or a matching
+lower rate, and does not imply raw-width or whole-law convergence. Actual
+occurrence remains unselected. No coefficient acquisition, simulation,
+physical observation channel or validation is supplied by this argument.
+
 ## Separate application diagnostic
 
 The [one-birth width diagnostic](WIDTH_DIAGNOSTIC.md) connects the original-law
@@ -60,6 +88,29 @@ benchmark is therefore **ABSTAIN / NOT RUN**. It establishes neither application
 advantage nor a physical measurement channel. The mathematical family theorem,
 this diagnostic design and an eventual benchmark execution have distinct
 completion criteria.
+
+## Optional approximate-sampler diagnostic
+
+The separate [approximate-width protocol](APPROXIMATE_WIDTH_DIAGNOSTIC.md)
+keeps the original baseline, perturbation, complete outcome space and width
+channel. It supplies prospective sufficient certificates for an approximate
+implementation; frozen D4-A and its exact-sampler acceptance are unchanged.
+
+One route certifies error conditional on the full prior history and on each
+valid return, including channel error, plus explicit certificate and abort
+risk budgets. It requires total arm-bias allowance `B<d/2` and
+`kappa+nu<1/20`; the enlarged fixed sample budget controls false PASS and,
+under the alternative, FAIL or operational ABSTAIN at 5%. A distinct route
+uses a certified whole-attempt total-variation bound including aborts.
+Marginally accurate draws alone do not justify either guarantee. The
+fixed-bit shortcut assigns the certified sum as its chosen error budget;
+it cannot certify an arbitrarily smaller allowance.
+
+This is a manual probability result and optional design, **ABSTAIN / NOT RUN**.
+A numerical effect bound, implementation, valid error/dependence and availability
+certificates, and feasible held-out budget are still missing. No measured
+advantage, runtime reliability or physical validation is supplied. The existing
+exact diagnostic and the completed observed replay retain their separate scopes.
 
 ## Separate prospective replay results
 

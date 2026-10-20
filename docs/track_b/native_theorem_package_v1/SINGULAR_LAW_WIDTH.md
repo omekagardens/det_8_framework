@@ -280,8 +280,17 @@ classification, and no coefficient audit is opened.
 The result concerns this eleven-class, record-blind, finite-prefix harmonic
 space and this specified one-birth width functional. It is not a statement
 about all order observables, all supports, all growth laws, or DET itself.
-There is no h8/30/33/38 transfer, approach-to-singularity claim, full-QM,
-geometric or physical validation claim.
+There is no h8/30/33/38 transfer, full-QM, geometric or physical validation
+claim.
+
+The separate [positive-contrast limit theorem](POSITIVE_CONTRAST_LIMIT.md)
+addresses approach to a possible exceptional law. Conditional on \(\Xi>1\),
+all strictly positive harmonic perturbations on this same support obey a
+local uniform quadratic upper bound on target-width contrast against the
+baseline at the same parameter. Arbitrary normalization and amplitude choices
+cannot evade it. No continuity or uniform positive lower bound of
+\(\rho_\lambda\) is needed. Sharpness, a matching lower rate and convergence
+of raw widths or entire baseline laws are not established.
 
 ## Public sources and scope
 

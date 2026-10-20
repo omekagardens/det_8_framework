@@ -282,6 +282,14 @@ prefix through seven births. All harmonic directions there have zero target
 width gain. Rank ten and kernel dimension one hold throughout the declared
 family; only the occurrence comparison for Xi remains unselected.
 
+The [positive-contrast limit](POSITIVE_CONTRAST_LIMIT.md) also treats approach
+to a possible exception. If \(\Xi>1\), the absolute target-width contrast of
+every strictly positive harmonic perturbation on this support has a local
+uniform \(O(|\lambda-\lambda_*|^2)\) upper bound. Normalization and amplitude
+may vary arbitrarily with the law parameter. This needs no continuity or
+uniform positive lower bound of \(\rho_\lambda\), and claims neither a sharp
+rate nor convergence of raw expected widths or entire laws.
+
 No uniform amplitude over the whole interval, positivity of an h8 lift,
 transfer of the fixed 30/33/38 exclusions, canonical active-set preservation,
 informative quantum dynamics, Lorentzian structure, mass/gravity derivation,
