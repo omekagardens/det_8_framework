@@ -56,6 +56,16 @@ The [component test suite](../../../det8/tests/test_certified_categorical_map.py
 
 Actual isolated test commands and receipts are retained privately under the [publication evidence boundary](PUBLICATION_NOTE.md). No test drew randomness or ran the diagnostic. These checks establish bounded software evidence for this component, not the missing scientific premises.
 
+## Prospective proxy-envelope certificate
+
+The separate [probability-envelope design](PROXY_ENVELOPE.md) constructs a
+normalized rational proxy and a TV bound valid for every normalized row inside
+externally certified complete probability intervals. It specifies feasibility,
+exact arithmetic and budget/resource abstention, including refusal when the
+derived proxy exceeds this map's weight-precision limit. It supplies no actual
+intervals or implemented envelope API. The true-law, source/channel, effect and
+held-out prerequisites below remain open.
+
 ## Remaining instantiation work
 
 An actual declared-law complete outcome row and its index dictionary, independently certified rational proxy error eta, independently certified numeric d, conditional bit-source error epsilon (or a valid whole-experiment bound), width-channel/error certificate, budgets, operational failure treatment, and a held-out freeze are still required before an appropriate benchmark could run. None is provided here. The generic quantizer and its exact map-to-proxy TV certificate close one implementable component only. No actual-law sampling, measured failure rate, held-out advantage, observed-data result, physical prediction, universal theorem, or production qualification follows.

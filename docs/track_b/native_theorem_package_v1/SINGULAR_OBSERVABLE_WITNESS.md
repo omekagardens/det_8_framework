@@ -224,6 +224,14 @@ parent \(P_4\); it neither contradicts nor extends the near-exception
 observable, not an observed experimental signal or a sampling design.
 Actual occurrence of \(\lambda_*\) remains conditional on \(\Xi>1\).
 
+The [regular observable family](REGULAR_OBSERVABLE_FAMILY.md) extends this
+fixed-exception direction with a kernel section normalized by \(v_{11}=1\),
+without dividing by \(\chi\). Conditional on \(\Xi>1\), one fixed amplitude
+keeps all multipliers at least \(1/4\) on a neighborhood and gives positive
+\(P_4\) width contrast there in both root sectors. Its uniform lower bound is
+for \(\delta_{4,i}/\rho_\lambda>1/4\), not for the absolute contrast.
+No continuity or uniform lower bound of \(\rho_\lambda\) is assumed.
+
 The [singular-law kernel theorem](SINGULAR_LAW_WIDTH.md) supplies the complete
 eleven-column harmonic system, exceptional kernel and admitted coefficient
 bounds. The [positive-contrast limit theorem](POSITIVE_CONTRAST_LIMIT.md)

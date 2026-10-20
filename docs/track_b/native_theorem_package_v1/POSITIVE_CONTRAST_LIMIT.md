@@ -191,6 +191,16 @@ admissible kernel amplitude is nonzero. This does not change the present
 \(P_1\) upper bound or imply its sharpness. Complete child-order access and
 the parent embedding are assumed; no physical channel or simulation run follows.
 
+The [regular observable family](REGULAR_OBSERVABLE_FAMILY.md) carries that
+\(P_4\) direction through the exception with a kernel section normalized by
+\(v_{11}=1\), no division by \(\chi\), and one fixed amplitude on a neighborhood.
+In that note \(v\) is the section and \(\eta_*v\) is the actual multiplier
+deviation; here \(v\) denotes the deviation itself. Conditional on \(\Xi>1\),
+its \(P_4\) contrast is positive and \(\delta_{4,i}/\rho_\lambda>1/4\)
+uniformly there; an absolute signal lower bound would require a separately
+admitted lower bound on \(\rho_\lambda\). Its \(P_1\) contrast still obeys the
+quadratic upper bound. No actual scale continuity or benchmark is supplied.
+
 ## 5. What is and is not needed from \(\rho_\lambda\)
 
 For (10)–(13), **neither continuity nor a uniform positive lower bound

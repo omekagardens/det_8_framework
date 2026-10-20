@@ -91,6 +91,29 @@ simulation result, physical detector, numerical effect bound or benchmark
 success. No original coefficient comparison or historical custody recovery
 is claimed.
 
+## Regular observable family through the exception
+
+The [regular-family theorem](REGULAR_OBSERVABLE_FAMILY.md), conditional on
+\(\Xi>1\), gives an explicit section of the complete kernel with \(v_{11}=1\).
+It does not divide by \(\chi\). The section specializes to the existing
+exceptional direction, while the actual multiplier deviation is \(\eta_*v\).
+One fixed nonzero amplitude gives all multipliers a floor of \(1/4\) on an
+existence-defined neighborhood, retaining all marked rows and the full
+eight-ideal, sixteen-outcome \(P_4\) row.
+
+The contrast is positive in both root sectors there, with the uniform
+normalized bound \(\delta_{4,i}/\rho_\lambda>1/4\). This is only the
+pointwise absolute statement \(\delta_{4,i}>\rho_\lambda/4>0\).
+Independent manual review accepted the recovery, all-row verification,
+fixed-amplitude positivity and normalized two-sector contrast.
+A uniform absolute lower bound would require a separately admitted
+\(\rho_\lambda\ge\rho_{\min}>0\); neither that premise nor continuity of
+\(\rho_\lambda\) is asserted. No numerical neighborhood radius or original
+coefficient comparison is selected. The \(P_1\) quadratic upper bound and
+all prior finite-law, custody and physical limitations remain unchanged.
+This supplies no implemented sampler, simulation result, later-layer transfer
+or application benchmark acceptance.
+
 ## Separate application diagnostic
 
 The [one-birth width diagnostic](WIDTH_DIAGNOSTIC.md) connects the original-law
@@ -145,6 +168,21 @@ channel, numerical effect bound and operational budgets are still missing.
 Both width diagnostics remain ABSTAIN / NOT RUN, and the frozen exact
 protocol is unchanged. This software component provides no measured advantage,
 scientific sampling, physical observation or production qualification.
+
+## Prospective probability-envelope certificate
+
+The [proxy-envelope design](PROXY_ENVELOPE.md) derives a deterministic normalized
+rational proxy from complete externally certified probability intervals and a
+TV bound valid for every normalized row in that envelope. It proves feasibility,
+normalization tightening and the slack-proportional construction, with exact
+arithmetic, budget checks and separate construction/comparison resource bounds.
+A derived proxy outside the map's existing weight-precision limit is refused.
+
+This is a mathematical/API contract, not an implemented interval producer or
+envelope API. No actual native intervals, source/channel certificate, numerical
+effect bound or benchmark execution is supplied. Both width diagnostics remain
+ABSTAIN / NOT RUN, with their frozen conditions unchanged. The conditional
+certificate provides no physical observation or production qualification.
 
 ## Separate prospective replay results
 
