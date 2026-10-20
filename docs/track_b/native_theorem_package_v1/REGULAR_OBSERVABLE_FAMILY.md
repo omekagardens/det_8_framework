@@ -335,6 +335,15 @@ The lower bound concerns \(\delta_{4,i}/\rho_\lambda\); no continuity of
 signal guarantee is admitted. Complete child-order access and the known parent
 embedding remain mathematical observation assumptions.
 
+For the explicitly prescribed full-layer half-scale continuation, the separate
+[baseline-scale theorem](BASELINE_SCALE_THEOREM.md) proves continuity of
+\(\rho^H_\lambda\) and a symbolic positive lower bound. It therefore upgrades
+this normalized contrast to a uniform absolute lower bound on the same
+conditional neighborhood. That conclusion uses the additional optional law
+prescription; the general-family result above requires no such prescription.
+An arbitrary positive compatible common-scale continuation need not have
+continuity or a uniform absolute contrast. No numerical bound is supplied.
+
 No sharpness, h8/30/33/38 transfer, all-size continuation, other-support
 classification, informative quantum dynamics, geometric or physical claim
 follows. This result neither changes the existing application protocols nor
