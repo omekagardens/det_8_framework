@@ -14,6 +14,8 @@ The [20 October law-family supplement](LAW_FAMILY_SUPPLEMENT.md) proves a fixed-
 
 Conditional on \(\Xi>1\), the [positive-contrast limit theorem](POSITIVE_CONTRAST_LIMIT.md) proves a local uniform quadratic upper bound on the absolute target-width contrast of all strictly positive harmonic perturbations in that eleven-class family, with arbitrary normalization and amplitude. The comparison is to the baseline at the same parameter; no continuity or uniform positive lower bound of \(\rho_\lambda\) is required. The bound does not select occurrence, prove sharpness or imply convergence of raw widths or entire laws.
 
+The [exceptional-law width witness](SINGULAR_OBSERVABLE_WITNESS.md) distinguishes the already admitted parent \(P_4=C_4\oplus A_2\) from that \(P_1\) target. Conditional on \(\Xi>1\), the surviving kernel has exact positive interval \(-\lambda_*\theta/(2\kappa^2)<\eta<1/\kappa\); complete-row width at \(P_4\) detects it iff \(\eta\ne0\). The proof retains all eight ideals and sixteen marked outcomes. It assumes complete child-order access and the known parent embedding, supplies no physical detector or sampling implementation, and leaves the actual occurrence comparison and later 30/33/38 questions unchanged.
+
 ## 1. Mathematical object and admitted model
 
 A state consists of a finite order \(P\), immutable binary marks \(r:P\to\{0,1\}\), and an arbitrary complex positive-semidefinite payload \(\mathfrak D\) on a fixed carrier. An ideal \(S\subseteq P\) is a downward-closed subset, including the empty and full ideals. A birth appends one maximal vertex with strict past exactly \(S\); write the resulting order \(P+S\). The newborn mark \(b\) is independently fair. The branch map is

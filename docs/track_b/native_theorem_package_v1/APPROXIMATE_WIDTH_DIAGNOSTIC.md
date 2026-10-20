@@ -111,3 +111,14 @@ Neither unknown normalization nor exact target coefficients are priced as free l
 A total finite sampling/channel implementation can establish nu=0 within a declared mathematical execution model; external interruption or unmodelled failure remains an actual ABSTAIN and cannot be advertised as covered reliability. This design demands only the guarantees used by this bounded decision, not full production qualification.
 
 Missing now: a numerical d; an approximate implementation; independently established conditional error/availability certificates A or whole-attempt certificate B; and a feasible frozen n/resource budget. The optional protocol is operationally ABSTAIN / NOT RUN. The current D4-A disposition is unchanged. No scientific simulation, coefficient acquisition, observed-data work, empirical width advantage, physical observation channel, h8/30/33/38 transfer or DET validation follows. PASS does not certify its own error bounds or independently establish faithful realization of the declared law. No successor or execution is authorized by this manuscript.
+
+## Deterministic implementation component
+
+The separate [categorical-map component](CATEGORICAL_MAP.md) now implements
+a fixed-bit partition for supplied exact rational proxy probabilities and
+reports its exact map-to-proxy total-variation error. It obtains no random
+bits and supplies neither the declared-law row nor its proxy-error certificate.
+The true-law/proxy, bit-source, channel, effect-size, resource and failure
+premises above remain required; the diagnostic remains **ABSTAIN / NOT RUN**.
+This component and its synthetic tests do not alter the protocol's normative
+conditions or supply a whole-attempt certificate.
