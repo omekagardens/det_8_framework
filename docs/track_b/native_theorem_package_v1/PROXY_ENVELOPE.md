@@ -1,6 +1,11 @@
 # A rational proxy certificate from a complete probability envelope
 
-20 October 2026. Prospective mathematical/API design only.
+20 October 2026. Prospective mathematical/API design.
+
+**Implementation update:** the separately reviewed [exact constructor](ENVELOPE_IMPLEMENTATION.md)
+now implements this contract. The original design and proof below are retained;
+references to a future implementation describe that design stage. Actual-law
+intervals and operational benchmark admission remain absent.
 
 **Operational status: ABSTAIN / NOT RUN.** No interval producer, native probability row, sampler, random-source or channel certificate, numerical effect bound, or held-out result is supplied. This design can discharge the *proxy-error* premise of the [deterministic categorical map](CATEGORICAL_MAP.md) only when its external premises are independently established. [Frozen D4-A](WIDTH_DIAGNOSTIC.md) and the separate [optional approximate protocol](APPROXIMATE_WIDTH_DIAGNOSTIC.md) are unchanged.
 

@@ -1,0 +1,72 @@
+{
+  "schema": "sanitized-publication-manifest-v1",
+  "publication": "Full-layer scale theorem and exact probability-envelope component",
+  "date": "2026-10-20",
+  "public_parent": "d09bb887cbe5cfdb50b453379e245b0beb05c880",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1051112,
+      "sha256": "b2ad32900119d7ed287691444f86598d0ef7bd1eb33ede469fef0c45983f8ce7"
+    },
+    "det8/models/certified_probability_envelope.py": {
+      "bytes": 11189,
+      "sha256": "4614924d0de2c042bb627eb653e0e603ee8a0d8044271bbe9e4b06ca9c5bcf17"
+    },
+    "det8/tests/test_certified_probability_envelope.py": {
+      "bytes": 15216,
+      "sha256": "4447d45f8265394464f9edeaa4fbf75acadc9b7db186f1f6f8e870c1ad1c34cf"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 903219,
+      "sha256": "a566687e7e36928445f2e99d9e2158c92c0a690fe9e81cff91bb01da77b377d2"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 673375,
+      "sha256": "a7ca5d60969693bfbab0c16f265849947a2fdb8aa37c8502d391cdba3973a307"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1300084,
+      "sha256": "09e396c633472fd9f62f707f89e827cad267d55b2f11d7ea910968deece35e85"
+    },
+    "docs/track_b/native_theorem_package_v1/BASELINE_SCALE_THEOREM.md": {
+      "bytes": 16661,
+      "sha256": "e3b4a1cb453bb70cc16c839ae3d80bb9c602f6ca90d5f066f3387e54d31e4b92"
+    },
+    "docs/track_b/native_theorem_package_v1/CATEGORICAL_MAP.md": {
+      "bytes": 9773,
+      "sha256": "2a3f677706647c0cf84f7ff373607fe5d3ef13e64227dc6b741f1a0d4aba3bc1"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_IMPLEMENTATION.md": {
+      "bytes": 8137,
+      "sha256": "8f69045a4c9f1b2bd128bd7169a175fc17d2155f979b6691ae9da29ebe37d3b6"
+    },
+    "docs/track_b/native_theorem_package_v1/PROXY_ENVELOPE.md": {
+      "bytes": 17774,
+      "sha256": "9f019c2a4ef3547f1f2e29823553c5d6d554ed69230db75ee3abeff4470969a7"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 15407,
+      "sha256": "1c3800ce39e53f0fc9d2f923cf5de0ee56174db26b905fe375b1feb14cb2562c"
+    },
+    "docs/track_b/native_theorem_package_v1/REGULAR_OBSERVABLE_FAMILY.md": {
+      "bytes": 15406,
+      "sha256": "232a7dfb928b32d14647a93c03d3a4667f9b64e441b5abaf8abae3c16f5f7dcc"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 46561,
+      "sha256": "41d132757ca015f786d79f07052f105ed4906073cc752871e50d6cec7e4ae048"
+    }
+  },
+  "scope": "Conditional native proof and separate exact-rational software component. Synthetic checks do not certify actual-law endpoints, numerical effects, sampler, benchmark or physical observation.",
+  "withheld": [
+    "Private source/review correspondence and original fingerprints",
+    "Raw machine metadata, command receipts and administrative scripts"
+  ],
+  "preserved_limits": [
+    "Xi>1 remains conditional; no numerical m4, neighborhood or effect supplied",
+    "Absolute contrast bound uses the explicitly chosen full-layer half-scale; not principle-forced",
+    "Envelope arithmetic does not authenticate scientific intervals or complete outcome provenance",
+    "Both width diagnostics remain ABSTAIN / NOT RUN with unchanged protocol bytes",
+    "Historical replay failures and custody gaps, zero production qualification and RET pause remain"
+  ]
+}

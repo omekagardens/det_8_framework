@@ -114,6 +114,30 @@ all prior finite-law, custody and physical limitations remain unchanged.
 This supplies no implemented sampler, simulation result, later-layer transfer
 or application benchmark acceptance.
 
+## Full-layer scale and an absolute contrast for a selected continuation
+
+The [baseline-scale theorem](BASELINE_SCALE_THEOREM.md) explicitly selects the
+full-layer half-scale rule after the parent-five change. Its finite maximum
+runs over all marked six-parents and all individual proper ideals, retaining
+the complete smaller full probabilities and normalization complements.
+Continuity follows from that finite continuous prefix. Counting at most
+31 denominator occurrences per potential and 63 proper ideals per row also
+gives a symbolic positive scale lower bound from the full fixed-prefix
+minimum \(m_4\).
+
+Conditional on the still-unselected \(\Xi>1\), this chosen continuation upgrades
+the regular family's normalized two-sector \(P_4\) bound to a uniform
+absolute contrast on its existing positivity neighborhood. The \(P_1\)
+quadratic upper bound is unaffected. The scale prescription is optional:
+an explicit positive compatible but discontinuous scale gives a counterexample
+to deriving the same conclusion from positivity and compatibility alone.
+
+This is conditional finite mathematics, not a numerical effect bound or a
+physical detector. No actual occurrence comparison, numerical neighborhood,
+coefficient acquisition, simulation, later-layer transfer or benchmark
+acceptance is supplied. The earlier general-family result remains valid
+without any regularity assumption on an unspecified scale.
+
 ## Separate application diagnostic
 
 The [one-birth width diagnostic](WIDTH_DIAGNOSTIC.md) connects the original-law
@@ -178,8 +202,12 @@ normalization tightening and the slack-proportional construction, with exact
 arithmetic, budget checks and separate construction/comparison resource bounds.
 A derived proxy outside the map's existing weight-precision limit is refused.
 
-This is a mathematical/API contract, not an implemented interval producer or
-envelope API. No actual native intervals, source/channel certificate, numerical
+The design remains a mathematical/API contract. Its separately reviewed
+[implementation](ENVELOPE_IMPLEMENTATION.md) now supplies the exact envelope
+constructor with synthetic software checks, separate construction/comparison
+resource reservations and categorical-map precision refusals. The constructor
+returns conditional arithmetic certificates; it does not validate scientific
+provenance or supply an interval producer. No actual native intervals, source/channel certificate, numerical
 effect bound or benchmark execution is supplied. Both width diagnostics remain
 ABSTAIN / NOT RUN, with their frozen conditions unchanged. The conditional
 certificate provides no physical observation or production qualification.

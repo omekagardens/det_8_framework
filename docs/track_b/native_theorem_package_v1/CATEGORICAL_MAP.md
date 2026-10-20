@@ -63,8 +63,10 @@ normalized rational proxy and a TV bound valid for every normalized row inside
 externally certified complete probability intervals. It specifies feasibility,
 exact arithmetic and budget/resource abstention, including refusal when the
 derived proxy exceeds this map's weight-precision limit. It supplies no actual
-intervals or implemented envelope API. The true-law, source/channel, effect and
-held-out prerequisites below remain open.
+intervals. The separately reviewed [envelope implementation](ENVELOPE_IMPLEMENTATION.md)
+now supplies the arithmetic API with exact refusal dispositions; it does not
+verify the scientific endpoint premises. The true-law, source/channel, effect
+and held-out prerequisites below remain open.
 
 ## Remaining instantiation work
 

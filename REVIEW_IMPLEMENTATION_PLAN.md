@@ -1,3 +1,52 @@
+# Full-layer scale theorem and exact probability-envelope component — 20 October 2026
+
+The [baseline-scale theorem](docs/track_b/native_theorem_package_v1/BASELINE_SCALE_THEOREM.md)
+proves continuity and a positive lower bound for the explicitly prescribed
+full-layer half-scale continuation after the parent-five law change. The
+maximum includes every marked six-parent and every individual proper ideal.
+At most 31 denominator occurrences per potential come from the fixed prefix
+through parent four; at most 63 proper ideals per row yield a symbolic bound
+from its complete positive minimum m4. Conditional on Xi>1, this supplies a
+uniform absolute P4 contrast on the regular family's existing neighborhood.
+No numerical effect, radius or actual occurrence comparison is supplied.
+The scale prescription is optional. An admissible discontinuous alternative
+shows that positivity and compatibility alone do not force the bound.
+P1's quadratic upper bound, support restrictions and later-layer limits remain.
+
+The separate [probability-envelope implementation](docs/track_b/native_theorem_package_v1/ENVELOPE_IMPLEMENTATION.md)
+constructs a normalized exact rational proxy and total-variation allowance
+from supplied complete intervals. It implements the reviewed mathematical
+design with explicit infeasibility, budget and resource dispositions; it
+retains every outcome and applies the categorical map's weight-size limit.
+Construction precision and budget-comparison precision are admitted separately.
+An arithmetic certificate remains conditional on externally valid simultaneous
+endpoints and outcome completeness. Source/channel certificates, a numerical
+effect, costs/failures and a held-out benchmark remain missing. Both width
+protocols retain ABSTAIN / NOT RUN; no sampling or actual-law acquisition is
+reported. Software acceptance does not establish application advantage or DET.
+
+The next bounded native question is whether the complete P4 outcome row
+contains more distinguishing information than width near the exception,
+including its optimal event and exact total-variation comparison. This does
+not request another coefficient reduction. The next application deliverable
+is a separately reviewed interface for complete-row endpoint provenance and
+conditional admission, without asserting any actual certificate or run.
+Each closes a distinct uncertainty: observation sufficiency versus trustworthy
+certificate consumption.
+
+The completed prospective GWOSC replay and prior failures remain intact.
+Production qualification remains zero; custody gaps and the RET pause remain.
+Foundational physics still requires a native prediction and observation channel.
+Fixed benchmark baselines, costs, failure rates and held-out evaluation remain
+separate application success criteria. Raw source correspondence and command
+receipts remain private under the publication policy. Current public payload
+identities are listed in the revision-scoped scale/envelope publication manifest.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Regular observable family and probability-envelope design — 20 October 2026
 
 The consolidated theorem package now includes a regular eleven-coordinate
