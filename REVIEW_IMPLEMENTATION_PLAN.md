@@ -1,3 +1,19 @@
+# Law-family theorem and bounded replay status — 20 October 2026
+
+The conditional theorem package now has a self-contained law-family supplement. Changing the optional parent-five law generally invalidates the old normalized harmonic seed. An explicit replacement is unique throughout the declared family except at most one parameter, where an exact compatibility condition decides existence. The possible exception remains symbolic. This establishes a result over a declared family without transferring the later fixed-law 30/33/38 exclusions or claiming all-size dynamics.
+
+The separate one-birth width diagnostic specifies its comparator, held-out statistic, measurement cost and finite error bounds. It remains unexecuted: a certified numerical effect bound and validated sampler are missing. This is a benchmark design, not measured application advantage or a physical prediction.
+
+Five synthetic replay fixtures passed independently checked arithmetic, including exact zero and rejection of a deliberate gain fault. The observed GWOSC replay has not run: its H1 acquisition failed before body consumption because an approved response header was absent. The failure is preserved. A concrete H1-only transport exception and one fresh prospective attempt require a separate decision; no scientific threshold or historical custody record is relaxed.
+
+Read the [law-family supplement](https://github.com/omekagardens/det_8_framework/blob/ret/docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md), [width diagnostic](https://github.com/omekagardens/det_8_framework/blob/ret/docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md), and [publication scope](https://github.com/omekagardens/det_8_framework/blob/ret/docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md). The original theorem package retains its coordinate, certificate and canonical-branch gaps. A native prediction and observation channel remain a separate deliverable.
+
+The 10% research usage guard, protected validation, production qualification boundaries, Option B/Status M and RET pause remain unchanged. The public edition withholds private machine, custody and execution metadata; publication does not reconstruct historical identity.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Conditional theorem consolidation and law dependence — 18 October 2026
 
 A consolidated theorem package now states the admitted record-marked growth law, exact supports, natural coordinates, positive small-amplitude extension, surviving signed kernel and fixed-amplitude exclusions on 30, 33 and 38 child classes. The historical coordinate dictionary, standalone finite-certificate reproduction and actual canonical branch remain open. The results are conditional mathematics; no native physical law or empirical validation is established.

@@ -10,6 +10,8 @@ These statements concern a conditional mathematical model, not a derivation of q
 
 This document provides the definitions, complete reduced systems, recovery formulas, assumptions and proof arguments in one place. Finite coefficient lemmas inherited from the admitted instance are stated explicitly. Their admission is not replaced by a new calculation or a new axiom of DET. The original numerical certificate is not reconstructed here. Compact provenance identifiers appear in §12; no chronological reading of the archive is required to understand the statements or their dependencies.
 
+The [20 October law-family supplement](LAW_FAMILY_SUPPLEMENT.md) proves a fixed-seed obstruction and an explicit moving-seed classification for a declared parent-five family. It keeps the possible exceptional parameter conditional and does not transfer the fixed-law 30/33/38 conclusions. See the [publication note](PUBLICATION_NOTE.md) for review and evidence boundaries.
+
 ## 1. Mathematical object and admitted model
 
 A state consists of a finite order \(P\), immutable binary marks \(r:P\to\{0,1\}\), and an arbitrary complex positive-semidefinite payload \(\mathfrak D\) on a fixed carrier. An ideal \(S\subseteq P\) is a downward-closed subset, including the empty and full ideals. A birth appends one maximal vertex with strict past exactly \(S\); write the resulting order \(P+S\). The newborn mark \(b\) is independently fair. The branch map is

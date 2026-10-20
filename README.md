@@ -6,9 +6,10 @@ mathematics, finite simulations and experimental-analysis tools. Their evidence
 and success criteria are distinct: a passing software check or a conventional
 data replay does not establish the physical theory.
 
-**Published research snapshot: 18 October 2026.** The current native result is a
+**Published research snapshot: 20 October 2026.** The current native result is a
 [consolidated conditional theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md),
-with a separate [law-dependence result](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md).
+with the initial [law-dependence result](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
+and a [fixed/moving seed family theorem](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md).
 Start there for the mathematical statements and their dependencies. Later local
 work is not part of this published snapshot merely because it appears in a
 coordination discussion.
@@ -19,9 +20,10 @@ coordination discussion.
 | --- | --- | --- |
 | Native record-marked growth | An explicit positive extension through one additional birth layer at sufficiently small amplitude, under the admitted law and harmonic-support premises. | No uniform all-size harmonic continuation or physical spacetime map. |
 | Fixed-law kernel and exclusions | Complete signed-kernel classification on the stated 30-, 33- and 38-class supports; the prescribed positive affine endpoint at amplitude `1/4` fails on each. The kernel has dimension one or two depending on an unresolved canonical-coefficient equality. | These are fixed-law, fixed-support results. They do not exclude arbitrary supports, seeds or amplitudes. |
-| Law dependence | A positive last-layer scaling gives an admissible alternative finite prefix and changes an example-specific ratio. Naively extending that scaling across layers fails a mixed full/proper diamond. | Later layers must be rebuilt. Old coefficient, support and endpoint results cannot simply be transferred to the changed law. |
+| Law dependence | The old normalized seed fails under a declared law change. An explicit moving seed is unique across the stated family except at most one parameter, with an exact compatibility alternative there. | The exceptional branch remains symbolic; later h8 and fixed 30/33/38 results do not transfer. |
 | Software and finite studies | Research models, explicit witness suites and conventional data-analysis artifacts with stated contracts. | Check results are specific to their sources, inputs and environments; there is no blanket whole-tree or physical-validation claim. |
-| Measurement | Published conventional GWOSC analysis and qualification records; a new portable scientific replay is planned separately from full production qualification. | The prospective replay's scientific execution is pending in this published snapshot. Historical custody failures remain failures. |
+| Measurement | Five prospective synthetic fixtures passed independent residual arithmetic checking. | Observed GWOSC replay has not run: H1 acquisition stopped on a missing approved header before body consumption. A narrow new-attempt decision is pending; historical custody failures remain failures. |
+| Application diagnostic | A fixed one-birth width statistic has declared baselines, costs and conditional finite-sample error bounds. | ABSTAIN / NOT RUN: a certified numerical effect bound and validated sampler are missing. No measured advantage or physical channel is claimed. |
 
 The theorem package prints the natural coordinates, complete reduced systems,
 recovery formulas and inherited coefficient assumptions. The historical
@@ -42,6 +44,9 @@ The separate RET research lane remains paused.
 | --- | --- |
 | [Theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) | Exact admitted law, support, positive theorem, kernel, exclusions and unresolved premises. |
 | [Law dependence](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) | Structural identities, coordinate changes, optional prescriptions and the explicit alternative prefix. |
+| [Law-family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) | Fixed-seed obstruction, explicit replacement seed and exceptional compatibility. |
+| [Width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) | Simulation channel, held-out rule, error bounds, costs and actual blockers. |
+| [Publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md) | Independent reviews, synthetic evidence, acquisition failure and withheld provenance. |
 | [Next steps](NEXT_STEPS.md) | Bounded deliverables, acceptance criteria and current pauses. |
 | [Implementation plan](REVIEW_IMPLEMENTATION_PLAN.md) | Current summary first, followed by the preserved chronological implementation record. |
 | [Original independent review](<indep ndent_review.md>) | The September 2026 assessment that motivated the implementation programme; preserved with its original scope and evidence limits. |

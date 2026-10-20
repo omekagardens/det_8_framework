@@ -1,6 +1,6 @@
 # DET v8.0 — Roadmap
 
-**Published programme overview, updated October 18, 2026.**
+**Published programme overview, updated October 20, 2026.**
 The phase table preserves the earlier project history. Current priorities are
 defined below and in [Next Steps](NEXT_STEPS.md).
 
@@ -30,6 +30,10 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 **Record-Kernel Physics finite/computed program implemented** (T1–T7 + T2a + T6b + T6 residual + why-ℂ), with open assumptions and continuum results tracked explicitly. Key limits: T2a shows grade-2 is empirical rather than forced; T7 is estimator verification rather than manifoldlike emergence; the complex-structure result assumes one phase form and reversible dynamics.
 
 **Conditional native mathematics is consolidated:** the [theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) collects the exact admitted finite law, support, small-amplitude positive result, kernel alternatives and 30/33/38 exclusions. Its [law-dependence companion](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) identifies which choices change the law. The stated premises and unresolved historical-coordinate/actual-branch questions remain.
+
+**The bounded law-family question is closed at its stated scope:** the [supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) gives an explicit moving seed with one possible exceptional parameter. The [width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) has a symbolic error guarantee but remains unexecuted without a numerical effect bound and sampler.
+
+**Prospective replay has bounded synthetic evidence:** five fixtures passed independent residual checking. The observed-data attempt stopped before body consumption on H1 response media admission. A narrowly reviewed new-attempt decision remains pending; full production qualification is separate.
 
 **RET tooling is retained; RET development is paused.** Earlier Exodus, neutron-lifetime, mathematical-search and Navier–Stokes results remain historical bounded studies with their original caveats.
 

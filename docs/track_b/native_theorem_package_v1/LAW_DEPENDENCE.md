@@ -2,6 +2,8 @@
 
 18 October 2026. Bounded initial result accompanying THEOREM_PACKAGE.md.
 
+The [20 October law-family supplement](LAW_FAMILY_SUPPLEMENT.md) proves a fixed-seed obstruction and an explicit moving-seed classification for a declared parent-five family. It keeps the possible exceptional parameter conditional and does not transfer the fixed-law 30/33/38 conclusions. See the [publication note](PUBLICATION_NOTE.md) for review and evidence boundaries.
+
 ## 1. Question and answer
 
 Which conclusions follow from the declared record-marked growth principles, and which depend on the selected seed, normalization and canonical objective?

@@ -1,6 +1,6 @@
 # DET v8.0 — Next Steps
 
-**Current published roadmap: 18 October 2026.** Close small, independently
+**Current published roadmap: 20 October 2026.** Close small, independently
 complete deliverables with explicit premises and acceptance criteria. Keep
 conditional mathematics, finite computation, conventional measurement,
 production qualification and physical prediction separate.
@@ -18,10 +18,10 @@ assessment, with its original evidence limits.
 | Deliverable | Published position | Next bounded output and completion criterion |
 | --- | --- | --- |
 | **1. Reader-facing theorem package** | The admitted law and support, positive small-amplitude extension, branch-conditional kernel classification and 30/33/38 fixed-amplitude exclusions are consolidated. | Keep one coherent package with exact dependencies. Resolve historical/natural coordinates only when the original definitions support the map; otherwise retain the explicit gap. A standalone finite-certificate replay is a separate reproducibility deliverable. |
-| **2. Law dependence** | An admissible alternative finite prefix changes an example-specific ratio; the mixed-diamond calculation rejects a naive cross-layer extension. Structural identities and optional prescriptions are separated. | Choose a declared family and establish which seed, normalization and support conclusions survive. Finish with a theorem, counterexample or precise unresolved premise; another coefficient reduction is not the automatic successor. |
-| **3. Portable scientific replay** | Prospective replay of the selected public GWOSC data is being prepared. Scientific execution remains pending in this published snapshot. | Declare a fresh environment and provenance, reproduce one bounded conventional calculation and independently check its arithmetic. Preserve failed historical custody and use only controls needed for this calculation on its critical path. |
+| **2. Law dependence** | The [family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) proves failure of the old seed and gives an explicit replacement, unique apart from at most one classified possible exception. | Preserve this completed family result. Select a further uncertainty explicitly; actual exceptional compatibility, later layers and canonical selection are not settled by publication. |
+| **3. Portable scientific replay** | Five synthetic fixtures passed independent arithmetic checking. H1 acquisition failed before body consumption on a missing Content-Type; no observed replay ran. | Resolve the reviewed H1-only transport exception and one new-attempt decision, then perform the fixed calculation and independent arithmetic review under fresh provenance. Keep historical failure and production qualification separate. |
 | **4. Native physical prediction** | No native forward map to a measured observable has been established. | Connect one mathematical result to an explicit prediction and observation channel, including units, operational preparation, uncertainty, comparison baseline and a falsifying outcome. Additional physical assumptions must be stated. |
-| **5. Application benchmark** | Useful inference and signal-processing ingredients exist; measured application advantage remains to be demonstrated. | Freeze one diagnostic or signal-processing task with declared baselines, measurement and computational costs, failure rates and held-out evaluation. Report the result whether positive or negative. Application success supplies no physical-theory validation. |
+| **5. Application benchmark** | The [one-birth width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) fixes a channel, comparator, cost model and held-out decision rule. It remains ABSTAIN / NOT RUN. | Supply a certified numerical effect lower bound and validated sampler before freezing a numerical sample budget. Report failure and abstention as well as success; an application result supplies no physical-theory validation. |
 
 The physics and application deliverables are separate projects with separate
 success criteria. Full production-system qualification is also separate from a

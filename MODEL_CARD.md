@@ -1,10 +1,12 @@
 # DET v8.0 — Model Card
 
 **Primary reference for the Deep Existence Theory framework.**
-**Framework baseline:** August 27, 2026. **Publication overview updated:** October 18, 2026.
+**Framework baseline:** August 27, 2026. **Publication overview updated:** October 20, 2026.
 **Validation:** Historical test totals below describe their recorded runs, not a current whole-repository pass. See [software and research check boundaries](docs/BRANCH_WORKFLOW.md#validation-boundary).
 
 **Current published research.** The [conditional native theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) states the admitted finite growth law, support, positive small-amplitude lift, surviving-kernel classification and the fixed-amplitude 30/33/38 exclusions with their dependencies. The [law-dependence companion](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) separates optional law choices from coordinate changes and principle-forced identities. Historical-coordinate reconciliation, the actual kernel branch and a native physical forward map remain open at the package's stated scope. The [current priorities](NEXT_STEPS.md) separate prospective public-data replay, physical prediction and application evaluation. RET development remains paused. Publication and software integration create no new mathematical, experimental or production-qualification acceptance; the [public evidence boundary](docs/coordination/REDACTED_PUBLICATION.md) still applies.
+
+**New bounded results.** The [law-family supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) proves an explicit replacement harmonic seed over a declared family, with an exact alternative at at most one exceptional parameter. The [width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) connects the original-law width gain to a simulated observation and conditional error bound; its numerical effect bound and sampler are missing, so it remains ABSTAIN / NOT RUN. Five synthetic replay fixtures passed independent arithmetic checking; the observed GWOSC replay is blocked at a new transport decision after the preserved H1 header failure. See [publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md).
 
 **Status:** DET8 separates a falsifiable record-kernel model layer from a **Status-M relational ontology**. Track A's κ-Π clock anomaly is an optional empirical probe gated on operational κ preparation and independent estimation; its outcome does not automatically confirm or refute Track B. DET adopts unchanged GR plus separately declared conventional source models as its gravitational baseline—these are modeling choices, not observations or DET derivations. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$, the assumptions behind complex structure, general Born-rule uniqueness, scheduler-independent probability, continuum reconstruction, and global κ-identifiability remain open. The ontology has no unique empirical discriminator and is evaluated separately for coherence and comparative usefulness.
 
@@ -345,19 +347,23 @@ det8/models/
 
 ## 11. Test Suite
 
-**767/767 tests passing** over the exercised module subset. Run: `python3 run_tests.py`
+**Historical recorded result: 767/767 checks passed** over the exercised module
+subset. The historical invocation was `python3 run_tests.py`; it is not the
+current maintenance gate or authorization to resume paused research. Current
+scoped checks are documented in the [branch workflow](docs/BRANCH_WORKFLOW.md#validation-boundary).
+The RET pause and research usage guard continue to apply.
 
-The test suite verifies **internal consistency**, not empirical validity:
-- ✅ Code correctly implements mathematical axioms.
-- ✅ Axioms are internally consistent (no contradictions).
-- ✅ Correspondence calculations and governed research fixtures match their expected values.
+Those finite tests checked selected implementation and fixture outputs against
+their expected values. No contradiction surfaced in those exercised cases.
+This supplies neither a proof of axiomatic consistency nor a general proof that
+the implementation realizes every mathematical premise.
 
 The test suite does **NOT** verify:
 - ❌ That DET axioms map to physical reality.
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Coverage caveat:** the combined runner exercises the core primitives, theorem-program fixtures, active clock/proxy work, applied-physics ingest, Exodus conservation and tomography, the general RET calculus, neutron-lifetime adapter, governed Riemann/Collatz searches, and bounded Navier–Stokes protocols. It is still a curated internal-consistency suite, not exhaustive module coverage, empirical confirmation, formal proof, or independent replication.
+**Historical coverage caveat:** the combined runner exercised the core primitives, theorem-program fixtures, clock/proxy work, applied-physics ingest, Exodus conservation and tomography, the general RET calculus, neutron-lifetime adapter, governed Riemann/Collatz searches, and bounded Navier–Stokes protocols. That curated fixture suite did not supply exhaustive module coverage, empirical confirmation, formal proof, or independent replication.
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 
