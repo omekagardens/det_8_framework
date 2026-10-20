@@ -1,3 +1,41 @@
+# Singular-law width classification and historical dictionary boundary — 20 October 2026
+
+The declared parent-five family now has a complete rank and target-width
+classification on its eleven-class harmonic support. The rank is ten and the
+signed kernel has dimension one throughout the family. If an exceptional law
+occurs, every harmonic direction has zero target-width contrast. The formal
+compatible singular case is excluded by the already admitted coefficient
+identities and scale bound. This is a loss of the specified observable contrast,
+not the disappearance of all positive harmonic perturbations.
+
+Whether the exception occurs still depends on the unselected comparison
+`Xi = theta + 360*mu_1 - 359*mu_0 > 1`; when it does, its parameter is `1/Xi`.
+The result is conditional finite mathematics over this declared family and
+support. It does not select the original canonical coefficients, transfer the
+fixed-law 30/33/38 conclusions, or establish a physical observation channel.
+The self-contained proof is in `docs/track_b/native_theorem_package_v1/SINGULAR_LAW_WIDTH.md`.
+
+A separate three-body source lookup retains the genuine historical statement
+that `u0,u2,u3` are proper-child variations and the printed isolated-child
+recovery. The complete child/quantity/scaling/sign/mixing, support/zero-column
+and all-record elimination dictionary remains unresolved within those bodies.
+This is a bounded source finding, not global absence or restored custody.
+The natural-coordinate classification keeps its explicit conventions.
+
+The bounded observed GWOSC replay remains complete at its published scope.
+The application width diagnostic remains ABSTAIN / NOT RUN; a native physical
+forward map is still missing. Production qualification is zero, eight routes
+remain closed, A08–A10 NOT_CAPTURED, Option B/Status M unchanged and RET paused.
+Protected validation, prior failures, scoped publication and the usage guard
+remain in force. The next native question asks whether strict positivity forces target-width
+contrast to collapse on approach to a possible exception, allowing arbitrary
+normalization and amplitude. Its analysis is excluded from this result.
+No new coefficient audit or acquisition is opened by this checkpoint.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Current checkpoint — bounded observed replay complete, 20 October 2026
 
 The fixed prospective GWOSC calculation has completed for H1 and L1. All

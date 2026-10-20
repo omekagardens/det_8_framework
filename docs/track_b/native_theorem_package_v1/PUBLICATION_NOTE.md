@@ -9,17 +9,41 @@ alternative, and the positive small-amplitude conclusion. The supplement prints
 the equations and argument; its fixed-law premises remain those of the
 [theorem package](THEOREM_PACKAGE.md).
 
-This closes a bounded law-dependence question. An old normalized seed generally
-fails when the law changes; an explicit moving seed exists uniquely throughout
-the declared family except at most one parameter. At that parameter the stated
-compatibility condition decides whether a normalized seed exists. The actual
-exceptional branch is unresolved. This does not transfer the later 30/33/38
-results, derive the prescribed law from DET, or prove an all-size continuation.
+The [singular-law kernel and width theorem](SINGULAR_LAW_WIDTH.md) resolves the
+formal compatibility alternative under the declared bounds. The complete
+eleven-column harmonic system has rank ten and kernel dimension one throughout
+the parent-five family. At any \(\chi=0\) law every harmonic direction is
+target-width-blind; the admitted \(\theta\) bound excludes a compatible
+normalized seed there. At every nonexceptional law the normalized seed is
+unique and gives positive target-width gain at sufficiently small amplitude.
+
+Independent manual review accepted the full unnormalized recovery, the
+target-width identity, the strict sign bound and the occurrence criterion.
+Checking the displayed rational constants is finite arithmetic; the complete
+marked-row reduction remains an admitted premise.
+
+The remaining family premise is occurrence: with
+\(\Xi=\theta+360\mu_1-359\mu_0\ne1\), one exceptional law occurs exactly
+when \(\Xi>1\), and none when \(\Xi<1\). That actual coefficient comparison
+is unselected. This new conditional theorem is distinct from the historical
+definition lookup below. It does not transfer the later 30/33/38 results,
+select their unresolved canonical branch, derive the prescribed law from DET,
+or prove an all-size continuation.
 
 The original theorem package remains conditional on its admitted finite
 coefficient facts. Historical-coordinate reconciliation, standalone certificate
 reproduction, the actual canonical-coefficient branch and a native observation
 map remain open.
+
+A reviewed lookup of three admitted historical text bodies clarifies the
+[coordinate dictionary limit](THEOREM_PACKAGE.md#coordinate-dictionary-and-its-limit).
+They retain the statement that \(u_0,u_2,u_3\) are proper-child variations and the
+historical isolated-child formula \(\delta y_{J_j}=W_j/e_j\). They do not supply
+the complete original child/quantity/scaling/sign/mixing, support/zero-column
+and all-record elimination dictionary needed to identify those variables with
+the natural coordinates. This is a finite lookup conclusion, not global absence.
+The natural-coordinate classification and historical custody limitations remain
+unchanged; this lookup asserts no new theorem or coefficient calculation.
 
 ## Separate application diagnostic
 

@@ -10,7 +10,7 @@ These statements concern a conditional mathematical model, not a derivation of q
 
 This document provides the definitions, complete reduced systems, recovery formulas, assumptions and proof arguments in one place. Finite coefficient lemmas inherited from the admitted instance are stated explicitly. Their admission is not replaced by a new calculation or a new axiom of DET. The original numerical certificate is not reconstructed here. Compact provenance identifiers appear in §12; no chronological reading of the archive is required to understand the statements or their dependencies.
 
-The [20 October law-family supplement](LAW_FAMILY_SUPPLEMENT.md) proves a fixed-seed obstruction and an explicit moving-seed classification for a declared parent-five family. It keeps the possible exceptional parameter conditional and does not transfer the fixed-law 30/33/38 conclusions. See the [publication note](PUBLICATION_NOTE.md) for review and evidence boundaries.
+The [20 October law-family supplement](LAW_FAMILY_SUPPLEMENT.md) proves a fixed-seed obstruction and an explicit moving-seed classification for a declared parent-five family. Its [singular-law kernel and width theorem](SINGULAR_LAW_WIDTH.md) proves rank ten and kernel dimension one throughout that eleven-column family. At any \(\chi=0\) law all harmonic directions are target-width-blind; the admitted \(\theta\) bound excludes the formal compatible alternative. Whether such a law occurs remains conditional on \(\Xi=\theta+360\mu_1-359\mu_0>1\); \(\Xi=1\) is excluded. This separate eleven-column result does not select the later canonical-coefficient branch or transfer the fixed-law 30/33/38 conclusions. See the [publication note](PUBLICATION_NOTE.md) for review and evidence boundaries.
 
 ## 1. Mathematical object and admitted model
 
@@ -254,7 +254,11 @@ The last row follows by counting every maximal deletion in
 \(\alpha(H)=s x_H/\prod_{v\in\operatorname{Max}(H)}h_7(H-v)\).
 If one varies \(x\) rather than \(y\), its factor \(\epsilon\) is absent.
 
-**Unresolved historical dictionary.** The older symbols \(u_0,u_2,u_3,\Gamma,\beta\) do not have a fully source-bound map to these natural coordinates. Matching suffixes, support counts or sparse row shapes does not establish that map. If a valid source supplied \(\eta_s=k_su_s\), the historical proper columns would be \(p_{js}k_s\), not \(p_{js}\); a general linear dictionary would require its full matrix. No such missing map is inserted here. The classification below is for (12) with the explicit natural conventions above. Historical formulas are preserved separately, not silently identified with it.
+**Unresolved historical dictionary.** A bounded lookup of three admitted historical text bodies confirms a genuine partial role statement: \(u_0,u_2,u_3\) are described as the proper-child variations themselves. The same passage prints the isolated-child formula \(\delta y_{J_j}=W_j/e_j\), in its historical notation. The variables are therefore not wholly unnamed auxiliaries, but the isolated-child formula cannot be extended to the proper children by analogy.
+
+The remaining premise is an original definition identifying the child for each \(u_s\), its varied quantity and scale/sign or mixing relative to \(\eta_s\) at the same law and amplitude, the complete original support and zero-column convention, and the corresponding all-record \(\Gamma/\beta\) elimination and recovery. Neither that complete dictionary nor an exact title/path identified as supplying it was located in those three bodies. This finite source finding asserts neither global absence nor mathematical impossibility, and current source-identity checks do not reconstruct historical custody.
+
+Matching suffixes, support counts or sparse row shapes does not establish that map. If a valid source supplied \(\eta_s=k_su_s\), the historical proper columns would be \(p_{js}k_s\), not \(p_{js}\); a general linear dictionary would require its full matrix. No such missing map is inserted here. The classification below is for (12) with the explicit natural conventions above. Historical formulas are preserved separately, not silently identified with it.
 
 ### Held rows and bounds
 
@@ -752,7 +756,7 @@ The “prescribed witness”, “canonical optimum”, “strict restored law”
 
 ## 11. Result boundaries and open questions
 
-The established results are Theorems 1–4 and the explicit conditional identities above. Law dependence is addressed separately in LAW_DEPENDENCE.md. This editorial edition adds no new theorem and does not complete the missing historical-coordinate reconciliation or reproduce the full parent-four and parent-five certificate tables.
+The established fixed-law results here are Theorems 1–4 and the explicit conditional identities above. Law dependence is addressed in [LAW_DEPENDENCE.md](LAW_DEPENDENCE.md), the [family supplement](LAW_FAMILY_SUPPLEMENT.md) and the separate [singular-law kernel and width theorem](SINGULAR_LAW_WIDTH.md). That eleven-column family has rank ten and kernel dimension one even at an exceptional law; its occurrence comparison for \(\Xi\) remains unselected. The historical-definition lookup adds no theorem and does not complete the coordinate dictionary or reproduce the full parent-four and parent-five certificate tables.
 
 The analysis does not investigate uniform coverage, noncollapse, enlarged supports, joint geometry, causal-operator extensions, or measure/divergence extensions. No additional coefficients or optimized laws are calculated. Determining the actual \(\mu\) branch would be necessary for a claim selecting the kernel's actual dimension; it is not necessary for the complete branch-conditional classification or the fixed-amplitude endpoint rejection.
 
