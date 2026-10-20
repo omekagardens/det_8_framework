@@ -33,6 +33,8 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 
 **The bounded law-family question is closed at its stated scope:** the [supplement](docs/track_b/native_theorem_package_v1/LAW_FAMILY_SUPPLEMENT.md) gives an explicit moving seed with one possible exceptional parameter. The [width diagnostic](docs/track_b/native_theorem_package_v1/WIDTH_DIAGNOSTIC.md) has a symbolic error guarantee but remains unexecuted without a numerical effect bound and sampler.
 
+**Observation-channel identifiability is settled at its declared scope:** the [note](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) gives shared readouts with preserved, rescaled or erased output contrast while the native width difference, native marginal and scalar payload maps remain unchanged. It identifies missing physical channel commitments, not a detector construction or a universal impossibility theorem.
+
 **Prospective replay has bounded synthetic evidence:** five fixtures passed independent residual checking. The observed-data attempt stopped before body consumption on H1 response media admission. A narrowly reviewed new-attempt decision remains pending; full production qualification is separate.
 
 **RET tooling is retained; RET development is paused.** Earlier Exodus, neutron-lifetime, mathematical-search and Navier–Stokes results remain historical bounded studies with their original caveats.

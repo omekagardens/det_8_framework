@@ -1,3 +1,19 @@
+# Reviewed observation-channel identifiability — 20 October 2026
+
+The [observation-channel note](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) closes a bounded foundational question for the admitted finite growth law. A normalized external readout shared by both compared arms can preserve, rescale or erase the width contrast while leaving the complete native outcome marginal and scalar payload maps unchanged after readout marginalization. Positive timestamp rescaling also preserves the native order. These are conditional mathematical counterexamples to identification from the stated premises; they are not physical apparatus constructions or a universal impossibility result for DET.
+
+Independent manual review accepts the argument and its scope. The original strict file-identity check failed after the source file’s identity changed at the same path; separate byte-content comparisons matched the initial and final source captures. The failure is retained and does not become a custody pass. Private fingerprints, source captures and administrative receipts remain withheld under the publication policy.
+
+The note states the missing operational commitments: units/calibration, preparation, observation or joint measurement dynamics, a comparator, uncertainty and a falsifying outcome. The symbolic width diagnostic remains ABSTAIN / NOT RUN without a certified numerical effect bound and validated sampler. An application benchmark would not establish a physical theory.
+
+The prospective GWOSC replay still awaits the reviewed transport decision after the preserved missing-header failure. No new acquisition, observed replay, protected validation or production qualification follows from this publication. Historical-coordinate reconciliation and finite-certificate reproduction remain open. The published law-family result and fixed 30/33/38 scope are unchanged. Option B/Status M and the RET pause remain intact.
+
+This is an additive public summary. Its [publication manifest](docs/track_b/native_theorem_package_v1/OBSERVATION_PUBLICATION_MANIFEST.json) covers the new public payloads; earlier manifests describe their corresponding earlier revisions. Local-only successor work is not included. Remote publication is confirmed separately by the actual commit and verification record.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Law-family theorem and bounded replay status — 20 October 2026
 
 The conditional theorem package now has a self-contained law-family supplement. Changing the optional parent-five law generally invalidates the old normalized harmonic seed. An explicit replacement is unique throughout the declared family except at most one parameter, where an exact compatibility condition decides existence. The possible exception remains symbolic. This establishes a result over a declared family without transferring the later fixed-law 30/33/38 exclusions or claiming all-size dynamics.
