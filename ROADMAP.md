@@ -26,6 +26,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) supplies a uniform positive incomparable-density floor for sufficiently large members of the existing fixed occupancy/aspect target. A contained rectangle is derived rather than imposed. Applying the fixed factorial law's pair-density result gives induced deletion fraction tending to one almost surely, without changing its sublinear-height theorem. The assumptions are sufficient, with no necessity claim, and balanced thin hooks are not density counterexamples. Unrestricted Ferrers, other laws, optimizer convergence and physical geometry are not resolved.
 
+[The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) adds complete admitted laws for fixed integers \(q\ge1\), with changing height upper bounds and a finite invariant distinguishing their actual probabilities. A fresh multiblock proof gives incomparable fraction tending to zero for each member, so induced deletion fraction to the fixed dense occupancy/aspect target still tends to one almost surely. Distinct exact height-growth exponents are not proved. The result is not uniform for growing exponents, universal over admitted laws, an unrestricted Ferrers or optimizer theorem, or a physical exclusion.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

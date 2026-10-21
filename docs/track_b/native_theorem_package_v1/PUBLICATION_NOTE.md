@@ -502,3 +502,19 @@ does not claim necessity, optimal constants, an unrestricted Ferrers result,
 another-law conclusion or physical validation. Sufficiently large balanced thin hooks fail the fixed occupancy condition
 and are not density counterexamples.
 RET remains paused.
+
+## Factorial-power family manuscript derivative
+
+[The factorial-power family](FACTORIAL_POWER_LAW_FAMILY.md) preserves
+sections 1–8, the scientific scope and dependency prose in section 9, and
+all mathematical spans verbatim. Only title/status metadata and the
+administrative source-integrity tail are mapped. Six public source links
+retain the exact dependency roles; historical native and public snapshot
+provenance, prior nonexecuting administrative failure, full captures,
+metadata-only readbacks and the three workers' different scopes remain
+distinct. Manual construction and later acceptance remain separate, with
+no atomic original-custody or machine-proof claim. Each fixed integer
+\(q\ge1\) defines a distinct optional law, with height upper bounds rather
+than proved distinct exact height-growth exponents. The fixed dense target
+obstruction is neither universal over all laws nor a physical exclusion.
+RET remains paused.

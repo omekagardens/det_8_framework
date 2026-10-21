@@ -33,6 +33,8 @@ assessment, with its original evidence limits.
 
 [The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) closes the stated density-premise question for the unchanged Ferrers target with fixed occupancy and aspect bounds. Together with the fixed factorial law's ordering-fraction result, it yields induced deletion fraction tending to one almost surely. The hypotheses are sufficient, with no necessity claim; balanced thin hooks are not density counterexamples. Unrestricted Ferrers, other laws, changing target parameters and the separate optimizer remain outside this result. Further coordinator selection follows separate native acceptance; no successor result, physical validation or scientific execution is supplied here.
 
+[The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) extends the optional from-empty construction to every fixed integer \(q\ge1\). New marginal and multiblock proofs establish the pair-density limit and preserve the fixed dense occupancy/aspect target obstruction. A changing intrinsic branch ratio establishes distinct laws; changing height upper bounds do not prove distinct exact height-growth exponents. Growing or history-dependent exponents, unrestricted Ferrers and the separate optimizer remain outside the result, with no universal or physical claim. Further coordinator selection and acceptance remain separate; no further result is supplied here.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

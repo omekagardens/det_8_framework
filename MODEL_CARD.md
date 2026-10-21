@@ -48,6 +48,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) proves the density premise for the existing fixed occupancy/aspect Ferrers target with \(\epsilon=\nu^4/128\) at sizes at least \(m_0=\lceil16A/\nu^2\rceil\). Under the fixed factorial-subset law, induced deletion fraction tends to one almost surely. Induced restriction preserves completed-order relations; this is not DAG deletion and recomputed reachability. The assumptions are sufficient, with no necessity claim, and balanced thin hooks are not density counterexamples. Neither unrestricted Ferrers nor other laws, the separate optimizer, physical geometry or empirical validity is decided.
 
+[The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) is a family of distinct optional from-empty laws, one for each fixed integer \(q\ge1\), distinguished by an intrinsic branch ratio. The theorem proves height upper bounds, not distinct exact height-growth exponents, alongside vanishing incomparable fraction and induced deletion fraction tending to one for the unchanged fixed dense occupancy/aspect target. Each conclusion uses the selected member's own probability law. No growing-exponent uniformity, arbitrary-prefix preservation, universal admitted-law result, unrestricted Ferrers objective, separate optimizer or physical validation follows.
+
 ---
 
 ## 1. What DET Is

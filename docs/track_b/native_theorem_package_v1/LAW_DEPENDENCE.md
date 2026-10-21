@@ -343,3 +343,17 @@ sufficient, with no necessity claim, and balanced thin hooks are not density
 counterexamples. No conclusion is transferred to changing target parameters,
 unrestricted Ferrers, another optional law, the separate optimizer or
 physical geometry.
+
+## Distinct factorial-power laws, without exact height exponents
+
+[The factorial-power family](FACTORIAL_POWER_LAW_FAMILY.md) gives a
+different optional law for each fixed integer \(q\ge1\), as witnessed by
+the full-to-empty branch ratio \(2^{-q}\) at the two-vertex antichain.
+Paired gauges preserve that ratio.
+The family has complete positive marked admissibility and changing proved
+height upper bounds; it does not establish distinct exact height-growth
+exponents. Its multiblock argument proves vanishing incomparable fraction
+for each fixed member, so the fixed dense occupancy/aspect target obstruction
+persists. No growing or history-dependent exponent, arbitrary-prefix
+preservation, universal admitted-law result, unrestricted Ferrers objective,
+separate optimizer or physical interpretation is supplied.

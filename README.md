@@ -35,6 +35,8 @@ coordination discussion.
 
 [The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) proves the previously conditional density premise for the existing target with fixed occupancy and aspect bounds: \(\epsilon=\nu^4/128\) and \(m_0=\lceil16A/\nu^2\rceil\) suffice. For the fixed factorial-subset law, induced retained fraction tends to zero and deletion fraction tends to one almost surely. The assumptions are sufficient, with no necessity claim; balanced thin hooks are not density counterexamples. This does not settle unrestricted Ferrers, other laws, the separate optimizer or physical geometry.
 
+[The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) gives an admitted optional from-empty law for each fixed integer \(q\ge1\), with the height upper bound \(\limsup H_N/N^{1/(q+1)}\le\mathrm e(q+1)\) almost surely. Incomparable fraction tends to zero and induced deletion fraction to each fixed dense occupancy/aspect Ferrers target tends to one. The full-to-empty branch ratio \(2^{-q}\) at the two-vertex antichain distinguishes actual laws, but distinct exact height-growth exponents are not proved. No growing-exponent, universal admitted-law, unrestricted Ferrers or physical-geometry conclusion follows.
+
 ## What is established
 
 | Area | Published result | Boundary |
