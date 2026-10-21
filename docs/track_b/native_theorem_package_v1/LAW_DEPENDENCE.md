@@ -329,3 +329,17 @@ requires a separately declared fixed positive incomparable-density premise
 and induced restriction of the completed order, not recomputed DAG
 reachability. It does not establish that premise for Ferrers targets,
 eventual total ordering, a DET-forced selector or a physical exclusion.
+
+## A target-specific consequence for the unchanged factorial law
+
+[The dense Ferrers screen](DENSE_FERRERS_INCOMPARABILITY_SCREEN.md)
+establishes a positive incomparable-pair density floor for the existing
+target with fixed occupancy and bounded aspect. Combined with the fixed
+factorial-subset law's ordering-fraction theorem, it gives induced deletion
+fraction tending to one almost surely, consistently with that law's
+sublinear height. The target is not narrowed to rectangles or unique
+representations; a contained rectangle is proved. The hypotheses are
+sufficient, with no necessity claim, and balanced thin hooks are not density
+counterexamples. No conclusion is transferred to changing target parameters,
+unrestricted Ferrers, another optional law, the separate optimizer or
+physical geometry.

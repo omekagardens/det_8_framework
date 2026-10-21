@@ -1,3 +1,40 @@
+# Dense Ferrers target obstruction — reviewed update
+
+[The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md)
+closes the target premise for the unchanged class with fixed positive
+bounding-rectangle occupancy and fixed bounded aspect ratio. A contained
+rectangle supplies an explicit positive incomparable-pair density above
+a stated finite size threshold. The constants are conservative and
+sufficient; no necessity or optimality theorem is asserted.
+
+Combined with [the factorial law's ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md),
+the result proves that retained induced size is a vanishing fraction and
+required deletion fraction tends to one almost surely for this fixed target.
+The law and target are unchanged. Sublinear height alone did not ensure
+approximation. Induced restriction preserves the completed order; recomputing
+reachability after deleting DAG vertices would define a different distance.
+
+The conclusion is specific to this law and target. It does not establish
+an unrestricted Ferrers obstruction, optimizer result, physical geometry
+exclusion or full quantum dynamics. Historical statements that this density
+premise was pending remain part of the earlier record; this theorem supplies
+the missing premise at its declared scope.
+
+The next native question tests law dependence over fixed positive integer
+factorial-power weights. It asks whether changing the sublinear height scale
+within that declared family escapes the target obstruction. No family result
+or universal conclusion is claimed here. Native symbolic review and separate
+exact editorial review are complete; private evidence remains withheld and
+historical custody limitations persist. Physical preparation/readout,
+the completed prospective replay, separate application benchmark criteria,
+protected validation, Operational ABSTAIN and RET pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
+
 # Ordering fraction of the factorial-subset law — reviewed update
 
 [The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md)
