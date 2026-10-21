@@ -25,6 +25,8 @@ assessment, with its original evidence limits.
 
 [The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) states the actual-history quantity a proposed admitted law must control, including height-raising proper ideals. Almost-sure drift decay is a stronger obligation than the weaker expectation and probability estimates. The separate full-capacity height objective uses actual history weights; strict restoration does not prove sublinear growth or target geometry. Neither an alternative all-size counterlaw nor scientific execution is supplied or authorized, and existing Ferrers objectives remain unchanged.
 
+[Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) closes the finite feasibility question at parent sizes two and three for every admitted positive lower prefix of the corresponding length. These are separate zero-boundary constructions, not consecutive positive-law layers. Strict next layers have positive objectives and infimum zero, not an attained zero minimum. Larger sizes still require one shared capacity-saturating vector or an incompatibility proof; recursive drift decay, target growth and geometry remain unresolved. No scientific execution is authorized.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

@@ -934,3 +934,16 @@ height objective and strict restoration give conditional admissibility;
 they prove neither sublinear height nor target geometry. The finite proper-
 ideal example is not an alternative all-size counterlaw, and the existing
 Ferrers objective and its unresolved questions remain unchanged.
+
+## Neutral-support feasibility at two finite boundaries
+
+[Neutral-support feasibility](NEUTRAL_SUPPORT_FEASIBILITY.md) gives a
+shared neutral-component row-saturation criterion and explicit zero
+boundary minima at parent sizes two and three, separately for every admitted
+strictly positive lower prefix of the required length. Complete marked
+diamonds and component aliases are retained. Strictly positive next layers
+have positive objectives with infimum zero, approached by restoration;
+they do not attain the boundary minimum. The two zero witnesses cannot be
+concatenated as positive lower prefixes. Larger sizes, recursive drift
+decay, sublinear height and geometry remain unresolved; existing Ferrers
+objectives and physical-readout limitations remain unchanged.

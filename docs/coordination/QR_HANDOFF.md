@@ -1,3 +1,37 @@
+# Neutral-support feasibility: independent adjudication
+
+[Neutral-support feasibility](../../docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md)
+has passed independent manual proof review. At parent sizes two and three,
+zero expected height increment is attainable on the closed boundary for
+every admitted strictly positive lower prefix of the required length.
+Complete marked diamond matrices and shared component coefficients verify
+both constructions. These are separate one-layer results: their zero
+boundaries cannot be concatenated as positive lower prefixes.
+
+Every strictly positive next layer still has positive expected increment.
+Restoration can make it arbitrarily small at either tested size, giving an
+unattained infimum of zero in the strict family. At general size, the exact
+condition requires one shared nonnegative vector saturating all marked rows
+on globally neutral components. A neutral option in each row is not enough.
+The [law-dependence statement](../../docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
+keeps these declared-family results separate from optional law choices and
+paired coordinate gauges. The [publication scope](../../docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md)
+preserves original evidence and custody limitations.
+
+The next native task tests an explicit factorial-weight subset construction
+as a possible strictly positive law at every size, including whether its
+height can be proved sublinear. That candidate is unreviewed and excluded.
+Neither the finite witnesses nor sublinear height alone would establish
+target approximation or physical geometry. The physical preparation and
+observation correspondence remains missing. The completed prospective
+GWOSC replay and the synthetic candidate's rejected raw-cost advantage
+remain separate. Historical results, frozen protocols, protected validation,
+operational ABSTAIN and the RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Complete height drift: independent adjudication
 
 The [height-drift criterion](../../docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md)

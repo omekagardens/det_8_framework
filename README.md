@@ -27,6 +27,8 @@ coordination discussion.
 
 [The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) identifies the complete probability of height-spanning ideals and relates its actual-history Cesaro average to normalized height almost surely and in mean square. Weaker expectation and probability conclusions remain distinct. The proper-ideal example is a finite mechanism; the optional full-capacity, history-weighted height objective and strict restoration establish conditional admissibility, not sublinear height or geometry. Existing Ferrers objectives remain unchanged, and no physical readout is supplied.
 
+[Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) gives explicit zero boundary minima at parent sizes two and three, separately for every admitted strictly positive lower prefix of the required length. Strictly positive next layers have positive objective with an unattained infimum of zero. The two boundary witnesses cannot be concatenated as positive prefixes; shared neutral support must satisfy all row capacities. All-size feasibility, sublinear growth and geometry remain open, with no physical-readout result.
+
 ## What is established
 
 | Area | Published result | Boundary |

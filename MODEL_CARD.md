@@ -40,6 +40,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) concerns complete height-increase probability along each selected admitted law’s actual history. Its normalized drift tracks height almost surely and in mean square; expectation, mean-absolute and in-probability conclusions do not automatically yield almost-sure decay. Proper ideals can raise height, but the finite mechanism is not an alternative all-size counterlaw. The separate full-capacity, history-weighted height objective and strict restoration establish conditional admissibility only. They do not prove sublinear height, target geometry or physical readout, and coordinate gauges do not change the law. Existing Ferrers objectives remain unchanged.
 
+[Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) is a bounded conditional result for parent sizes two and three, separately over every admitted strictly positive lower prefix of the required length. The closed boundary attains zero expected height increment; every strictly positive next layer has positive expected increment, with infimum zero approached by restoration. The witnesses are not consecutive zero layers of a positive law, and neutral support alone does not solve shared capacities. All-size, drift-decay, target-approximation and geometry questions remain open. Existing Ferrers objectives and separate project findings are unchanged; no physical readout is supplied.
+
 ---
 
 ## 1. What DET Is

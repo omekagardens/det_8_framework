@@ -289,3 +289,16 @@ drift decay remains distinct from the weaker expectation and probability
 modes. Paired coordinate gauges preserve the law, while changed allocations
 require recomputing subsequent prefixes. No existing Ferrers objective,
 physical readout or DET-forced selector is supplied or replaced.
+
+## Universal finite-prefix neutral-support witnesses
+
+[Neutral-support feasibility](NEUTRAL_SUPPORT_FEASIBILITY.md) proves zero
+closed-boundary minima at parent sizes two and three for every admitted
+strictly positive lower prefix of the corresponding length, not just an
+optional numerical seed. Each is a separate next-layer construction; a
+zero boundary cannot supply the positive prefix required by the next
+argument. Strict next layers have positive objective and an unattained
+infimum of zero. Globally neutral support must still satisfy shared row
+capacities. Paired gauges preserve feasibility, while actual prefix changes
+require rebuilding later layers. No all-size feasibility, asymptotic
+sublinear growth, target geometry or physical readout is established.

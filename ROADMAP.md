@@ -18,6 +18,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) adds exact height-compensator tracking almost surely and in mean square, with weaker convergence modes kept separate. A proper ideal can raise height, so controlling only full births is insufficient. The optional full-capacity, history-weighted height criterion and strict restoration give conditional admissibility without a proved sublinear-height law or geometry result. The finite example is not an all-size counterlaw; existing Ferrers objectives and physical-readout limitations remain.
 
+[Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) adds a shared neutral-component criterion and universal zero-boundary witnesses at parent sizes two and three under their separate positive lower-prefix hypotheses. Complete marked diamonds and component aliases are retained. Positive next layers approach but do not attain zero objective; zero boundaries cannot be concatenated as positive prefixes. Neither all-size feasibility nor asymptotic sublinear growth or geometry follows.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |
