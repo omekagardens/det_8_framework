@@ -883,3 +883,15 @@ controls, simultaneous inference, costs and failure reporting are fixed.
 No implementation, sampling, interval evaluation or benchmark has executed or
 is authorized by the plan; no practical-value or physical-validation claim is
 supplied. See its [publication scope](../../applications/synthetic_channel_benchmark_v1/PUBLICATION_NOTE.md).
+
+## Half-scale event availability for a fixed eligible prefix
+
+[Half-scale event availability](HALF_SCALE_EVENT_AVAILABILITY.md) gives a
+conditional positive symbolic availability floor for one actual eligible
+fixed prefix on its own fixed compact positive-lambda neighborhood under
+an optional whole-domain half-scale law. With the stated exact iid access
+premises, it gives a finite symbolic prospective raw cap with explicit
+error, abstention, coverage and power guarantees. It supplies no numerical
+cap, actual eligible occurrence or physical readout. This restricted
+positive result leaves the arbitrary-scale fixed-budget limitation and
+the original 40,000 / 400,000 / 38,825 diagnostic design unchanged.

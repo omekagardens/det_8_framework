@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed conditional fixed-prefix half-scale event floor and finite symbolic raw cap; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1073920,
+      "sha256": "a98c69fb9aa3652501362478298fd68c7228eed3db74af3b36ba58356d7d05d0"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 926147,
+      "sha256": "7786ee85288baa827def4cb24dd63d641d9c88d98a9f80c268c409645c040734"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 696303,
+      "sha256": "005caa03f361a07739d3a44191269865775c22e245e97a8f419b1052b4382d2a"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1323012,
+      "sha256": "1bcb4d899c9a5b635dd4486f96c713e2b429cf8b7ee98b57bc97324ebdfc1b81"
+    },
+    "docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md": {
+      "bytes": 28912,
+      "sha256": "bf22615b6f5e887d804f3261a33c80a8c26212a88dd3ebe7d2d323e4a6eae752"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md": {
+      "bytes": 25032,
+      "sha256": "027bcf8f1fc5a25e9f23c0fd9f6ebdcb5c1867c0d378820f78174302449b35c8"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 23077,
+      "sha256": "c51c5b31c71f27f5eea5b1fffce3fac086a1876a14fda67d4f5c4b4412d9044f"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 52741,
+      "sha256": "574f8ee414f2d7ad52edddfc059e39c820db5e65eb86a018a8ef0c19e0b89db2"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Conditional mathematics and symbolic budgets do not establish actual eligible occurrence, numerical cap, cross-prefix uniformity, arbitrary-scale guarantees, physical readout, practical application advantage or historical custody. Original numerical protocols and RET pause unchanged."
+}
