@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional fixed-prefix P4 hidden-marking mixture theorem and public navigation; no scientific or operational execution admission.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1062053,
+      "sha256": "f6eb82447fb920899125d9bab14bc9746b20bf62b9d377d73281d4ccf912b1ff"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 914214,
+      "sha256": "8f90e92a3586ff269d5ae15d6df08deb6d747ab365ce70ca134447d2263c840e"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 684370,
+      "sha256": "dd9aa67554948e932ea09cbb339a689ec2bfc6b56745a1fea2f70bf1af23003b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1311079,
+      "sha256": "330f2280a70ad84200a9660798c591cf5d4e62afe32b465448f446647c2cb4f2"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_MARKING_MIXTURES.md": {
+      "bytes": 19048,
+      "sha256": "90534855751e679fc6b83c2b4e44248d40fae29166c17fc626115df4e32a53b5"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_NUISANCE_IDENTIFIABILITY.md": {
+      "bytes": 15262,
+      "sha256": "f191339b33bf6c2aa3d200c2e78e373f8ecb179a68c196f4f7dd9f6c2244fece"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 19611,
+      "sha256": "65ab0dc72a00dfd7f8512f9fc563f4b16cbade19de4622035bbe77bbd4e9d7d0"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 48832,
+      "sha256": "26ac097328abb16ef8876a229c7a2f77f0ed540830eba83c01835dd69ed9d104"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Fixed original prefix and parent; arbitrary, possibly differing hidden-mark distributions; conditional Xi>1 and exact complete-order access; no individual parameter recovery, uniform finite-sample stability or physical channel. Historical failures, frozen diagnostic protocols and RET pause unchanged."
+}

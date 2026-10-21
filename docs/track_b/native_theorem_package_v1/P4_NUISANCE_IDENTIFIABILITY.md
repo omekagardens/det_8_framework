@@ -318,3 +318,14 @@ private custody records. This edition supplies conditional mathematical
 exposition, not an executable installation or an independently replayable
 custody package. See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Hidden old-marking mixtures
+
+The [marking-mixture manuscript](P4_MARKING_MIXTURES.md) extends exact
+model-label separation to arbitrary hidden old-marking distributions, equal
+or different under the two hypotheses, on the whole inherited neighborhood.
+It uses the admitted all-mark held identities, the same original prefix and
+parent, and one common scale within each hypothesis. It does not mix law
+parameters, prefixes or parents. Complete-order access remains a mathematical
+premise; the scale-zero closure limit still prevents a uniform absolute
+separation claim.

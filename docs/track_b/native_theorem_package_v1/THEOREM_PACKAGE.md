@@ -819,3 +819,13 @@ may vary. The original prefix, parent and full old marking remain fixed.
 Its invariant two-shape ratio requires no scale regularity or half-scale
 selection. Individual parameter recovery, uniform finite-sample stability
 and a physical observation channel are not supplied.
+
+## P4 separation with different hidden marking mixtures
+
+The [marking-mixture manuscript](P4_MARKING_MIXTURES.md) gives conditional
+model-label separation even when the hypotheses use different old-marking
+distributions and different nuisance parameters. Its two ratio intervals are
+disjoint throughout the whole inherited perturbation neighborhood. The
+fixed-instance all-mark held identities, fixed prefix and parent, and one
+common scale per hypothesis remain essential. No parameter recovery, uniform
+finite-sample guarantee or physical observation channel is supplied.
