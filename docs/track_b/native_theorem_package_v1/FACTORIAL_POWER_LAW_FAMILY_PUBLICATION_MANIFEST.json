@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed fixed-positive-integer factorial-power family: marked admissibility, height upper bounds, vanishing incomparable fraction and the fixed dense Ferrers obstruction; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1089688,
+      "sha256": "bea701783fa61b7851958680a60e27026ae054f68398a5aca7c19232b7f5bf69"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 942047,
+      "sha256": "883ea70c6a154d6572beeefb40fe79432de686eff4aa518532f17d097c01e67f"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 712203,
+      "sha256": "bbf8d058b98bc0bc55721825f389d251df13cb2e83442138c10570a0999a9cb8"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1338912,
+      "sha256": "6f63b430881424f5411036459b5aefabc0fea15b7e502fabf4130c259c15e2c2"
+    },
+    "docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md": {
+      "bytes": 31722,
+      "sha256": "6b4a1c66b19bb0af25220c1f8f21de410eed8d545919a76d0daf7ac98b2d71d2"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 24231,
+      "sha256": "51569a18561cec6de34a052d7de37d22f967763317876276d6643dd7d8e51185"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 30630,
+      "sha256": "e5308e3ba6687de648c81ac867ceaf336c9a91de10b91d1cae191060b32bb32a"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 59074,
+      "sha256": "19428a0700237868579f7cb79e59d4d13660bf8114e1dd8a4ea470c464c0bf67"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Each fixed positive integer exponent defines its own optional law and probability measure. Height upper bounds do not establish matching lower bounds, sharp constants or differing true exponents. No size-varying exponent, all-kernel universality, unrestricted Ferrers, optimizer or physical prediction follows. Fixed target parameters, original protocols, custody limits, separate application criteria and RET pause persist."
+}

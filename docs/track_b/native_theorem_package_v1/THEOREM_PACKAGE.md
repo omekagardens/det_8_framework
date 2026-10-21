@@ -989,3 +989,17 @@ surely. These are sufficient conditions and conservative constants; no necessity
 or optimality claim is made. Balanced thin hooks are not density
 counterexamples. The result does not extend to unrestricted Ferrers,
 other laws, the separate optimizer or physical geometry.
+
+## A factorial-power family with the same target obstruction
+
+[The factorial-power family](FACTORIAL_POWER_LAW_FAMILY.md) constructs
+an admitted optional from-empty law for each fixed integer \(q\ge1\).
+Under each law, \(\limsup H_N/N^{1/(q+1)}\le\mathrm e(q+1)\) almost
+surely, the incomparable fraction tends to zero, and induced deletion
+fraction to each fixed dense occupancy/aspect Ferrers target tends to one.
+At the two-vertex antichain, the invariant full-to-empty branch ratio
+\(2^{-q}\) shows that changing the exponent changes the law, not just
+its coordinates. These are changing
+height upper bounds; distinct exact height-growth exponents are not proved.
+There is no assertion uniform over growing exponents or all admitted laws,
+and no unrestricted Ferrers, optimizer or physical-geometry conclusion.

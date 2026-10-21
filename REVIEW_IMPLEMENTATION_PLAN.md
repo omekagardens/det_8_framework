@@ -1,3 +1,45 @@
+# Fixed factorial-power laws: family result and next question
+
+The [factorial-power family theorem](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md)
+is accepted after independent manual derivation and review. Each fixed
+positive integer exponent defines a positive normalized all-size marked
+growth law, with complete diamond identities and a passive PSD payload.
+The invariant full/empty precursor ratio changes with the exponent, so
+these are distinct optional laws rather than coordinate changes.
+
+For each fixed member, a path count gives the stated sublinear height upper
+bound. A multiblock conditional argument proves vanishing incomparable-pair
+fraction without assuming independent selections within a subset. Combined
+with the [fixed dense Ferrers target premise](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md),
+the largest induced retained target fraction tends to zero and the deletion
+fraction tends to one almost surely.
+
+This closes the obstruction over a declared optional family. The height
+upper-bound exponent is not an asserted exact exponent; matching lower
+bounds, sharp constants and different true exponents remain unproved.
+There is no varying-exponent or all-kernel universality claim, and no transfer
+to unrestricted Ferrers distance, the separate optimizer or physical geometry.
+
+A separate assigned question now tests a fixed quadratic subset-size penalty
+outside this family. It asks whether an admitted law can retain sublinear
+height while its incomparable fraction stays bounded away from zero.
+That result is pending and excluded here. Escaping this necessary obstruction
+would not prove target approximation or a physical theory.
+
+Exact mathematical sections and earlier records remain intact. Manual proof
+review, administrative byte checks and software validation are different
+forms of evidence; none reconstructs historical custody. The prospective
+scientific replay remains complete, while physical preparation/readout is
+still missing. The rejected application advantage, separate benchmark and
+held-out criteria, protected-validation prerequisites, operational abstention,
+production qualification zero and RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
+
 # Dense Ferrers target obstruction — reviewed update
 
 [The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md)
