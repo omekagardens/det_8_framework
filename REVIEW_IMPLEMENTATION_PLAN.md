@@ -1,3 +1,41 @@
+# Fixed raw-budget testing limit — 21 October 2026
+
+The [fixed-budget theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md)
+is independently reviewed and accepted at its conditional scope. For an
+actually admitted positive-scale baseline/perturbation pair, the shared
+rare-event limit makes every fixed finite observation budget insufficient
+for uniform low false-positive probability and high power. The proof covers
+common randomized decision rules, stopping by the budget, and known-channel
+correction in the declared iid three-category model. Leakage is unnecessary.
+
+Low conditional error may persist through abstention, but decision coverage
+must then vanish along the rare-event sequence. Wrong labels, abstention,
+coverage and power are distinct. Exact positive-scale identification,
+increasing budgets, justified restricted classes and different observation
+models are not ruled out. The actual source construction and observation
+assumptions remain premises; no native effect size or physical detector is
+supplied. The independent review included prior reasoning and exact source
+audits; the known headline means it is not described as blinded or machine proof.
+
+A separate synthetic diagnostic benchmark design is the next assigned step:
+fix its intended restricted class, candidate and baselines, risk and coverage
+targets, measurement/computational costs, failure accounting and held-out
+evaluation before implementation. That unreviewed design is not included here.
+The foundational physics blocker remains a justified native physical prediction
+and observation channel. The completed prospective GWOSC replay is a separate
+bounded calculation. Application performance cannot validate DET physics.
+
+The [theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md)
+retains the admitted law, dependencies and historical exclusions. Original
+numerical designs, frozen protocols, custody failures, operational abstention,
+production qualification status and the RET pause remain unchanged.
+Private source/check correspondence stays local under the
+[publication policy](docs/coordination/REDACTED_PUBLICATION.md).
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Diagnostic separation through a declared observation channel
 
 The [observation-channel theorem](docs/track_b/native_theorem_package_v1/P4_OBSERVATION_CHANNEL.md)

@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional fixed finite raw-budget testing limit for the admitted rare-event family under a shared memoryless observation channel; no implementation.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1070138,
+      "sha256": "cb19a5f22340db576c66b9d1f3776f68dec7f9e897c5acafe710fa8f44804072"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 922335,
+      "sha256": "ffab9459fa77ffa4a31f654f612de43335d181c2202fec7d55e047f6724d7802"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 692491,
+      "sha256": "ea61599ffbab6f51aabfe8683b08da6a7e6cae0e8e95d08bcb12e7053b27374c"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1319200,
+      "sha256": "7ede4775e81d51288c521340663a6b50d0fdd70aba3196599a5024179bc235d8"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md": {
+      "bytes": 24343,
+      "sha256": "2016a916af59630f63be31aedafd37b1304c5b5a2e59de25921ff58e93b7c2b6"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_OBSERVATION_CHANNEL.md": {
+      "bytes": 28675,
+      "sha256": "c400222ac4d24070e88697f2180a287a54dd9edcec65a53cf6c0aaa90bc67a6b"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 22097,
+      "sha256": "d6d460bd26d8fab677c34f29685038e44d878d3250efe441c96747030c1ee0bc"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 51230,
+      "sha256": "ede2c9627afa3ccbb30ceb92397bc3414d65b4d88e82d9c8850db218c3afa6d4"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Fixed iid/category-only memoryless channel assumptions and nonempty admitted source construction remain additional. Total-variation convergence obstructs uniform fixed-budget discrimination across arbitrarily small positive scales, including randomized bounded stopping rules. Abstention and conditional errors are distinct. No pointwise identification or scale-dependent-budget impossibility is asserted. No native channel, availability floor, implementation or physical validation is supplied. Historical failures and RET pause unchanged."
+}

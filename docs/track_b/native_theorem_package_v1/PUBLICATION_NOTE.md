@@ -366,3 +366,14 @@ signal availability. Manual source construction is distinct from later
 independent review and its separate checks. Private source/check records
 remain withheld. No implementation, calibration, physical detector or
 validation of DET is supplied.
+
+## Conditional fixed raw-budget manuscript
+
+The [fixed-budget testing theorem](P4_FIXED_BUDGET_TESTING_LIMIT.md) retains
+the actual-source occurrence premise, fixed finite raw cap, common decision
+kernel and iid observation assumptions. It includes identity channels and
+separates wrong labels, failure to reject including ABSTAIN, power and
+coverage. The result does not assert exact-law failure or physical
+falsification. Prior review exposure and manual author construction are
+distinguished from later independent review/checks. Private records remain
+withheld; original protocols, numerical designs and the RET pause are unchanged.
