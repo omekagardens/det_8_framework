@@ -42,6 +42,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) is a bounded conditional result for parent sizes two and three, separately over every admitted strictly positive lower prefix of the required length. The closed boundary attains zero expected height increment; every strictly positive next layer has positive expected increment, with infimum zero approached by restoration. The witnesses are not consecutive zero layers of a positive law, and neutral support alone does not solve shared capacities. All-size, drift-decay, target-approximation and geometry questions remain open. Existing Ferrers objectives and separate project findings are unchanged; no physical readout is supplied.
 
+[The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) proves \(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely for one optional all-size law initialized from empty. Its ideal kernel uses induced-ideal maxima; the cardinality distribution includes the binomial multiplicity and is not independent inclusion within a subset. Complete diamonds include all newborn bits and every PSD payload. The exact full drift includes proper raising ideals and has no uniform row-decay claim. No arbitrary fixed prefix is preserved, no sharp constant or matching lower bound is proved, and no target approximation, dimension, geometry or physical validation follows. Existing separate-project boundaries remain unchanged.
+
 ---
 
 ## 1. What DET Is

@@ -29,6 +29,8 @@ coordination discussion.
 
 [Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) gives explicit zero boundary minima at parent sizes two and three, separately for every admitted strictly positive lower prefix of the required length. Strictly positive next layers have positive objective with an unattained infimum of zero. The two boundary witnesses cannot be concatenated as positive prefixes; shared neutral support must satisfy all row capacities. All-size feasibility, sublinear growth and geometry remain open, with no physical-readout result.
 
+[The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) constructs an explicit admitted marked-order family from empty with \(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely. The optional per-subset factorial law satisfies complete marked PSD-map diamonds; inclusions within a subset are not independent. Complete height drift includes proper raising ideals and need not decay uniformly over rows. This resolves an all-size existence question, without preserving an arbitrary fixed prefix or deriving a DET-forced selector. Intrinsic sublinear height does not establish target approximation, geometry or physical readout.
+
 ## What is established
 
 | Area | Published result | Boundary |

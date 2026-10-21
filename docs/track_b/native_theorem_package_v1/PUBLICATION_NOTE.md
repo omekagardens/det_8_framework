@@ -454,3 +454,18 @@ remain distinct from concatenated zero boundaries, strict positive
 objectives with unattained infimum zero, and unresolved all-size or geometry
 claims. No scientific execution, executable private-source custody or
 physical validation is supplied. RET remains paused.
+
+## Factorial-subset height manuscript derivative
+
+[The factorial-subset height theorem](FACTORIAL_SUBSET_HEIGHT_LAW.md)
+preserves all nine scientific sections and every mathematical span of the
+manual source manuscript. Only title/status metadata and the administrative
+source tail are mapped. Six public source links retain the scientific roles,
+while distinguishing the native neutral-support predecessor from historical
+public snapshots, current author captures from receipt summaries, and worker
+reports from coordinator observations. Source construction and later review
+remain separate; no atomic original custody, repaired historical evidence,
+scientific execution or machine proof is claimed. The result is one optional
+all-size law from empty, not a prefix-preserving or DET-forced selector.
+Its intrinsic-height bound and actual-history drift conclusion supply no
+geometry, physical readout or empirical validation. RET remains paused.

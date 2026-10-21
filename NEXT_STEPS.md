@@ -27,6 +27,8 @@ assessment, with its original evidence limits.
 
 [Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md) closes the finite feasibility question at parent sizes two and three for every admitted positive lower prefix of the corresponding length. These are separate zero-boundary constructions, not consecutive positive-law layers. Strict next layers have positive objectives and infimum zero, not an attained zero minimum. Larger sizes still require one shared capacity-saturating vector or an incompatibility proof; recursive drift decay, target growth and geometry remain unresolved. No scientific execution is authorized.
 
+[The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) supplies a new optional all-size existence construction from empty and the almost-sure bound \(\limsup H_N/\sqrt N\le2\mathrm e\). This closes that existence question, while arbitrary-prefix preservation, rowwise optimization, sharper height asymptotics, target approximation and geometry remain outside the result. The complete actual-history drift conclusion includes proper raising ideals; uniform row decay is not asserted. No scientific execution or successor experiment is authorized.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

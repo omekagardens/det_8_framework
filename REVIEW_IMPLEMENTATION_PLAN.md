@@ -1,3 +1,42 @@
+# Factorial-subset law and sublinear intrinsic height — reviewed update
+
+[The factorial-subset theorem](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md)
+gives an explicit optional law from empty: choose each old subset with
+weight reciprocal to the factorial of its cardinality, then use its
+downward closure as the newborn past. Exact generator counts prove
+positive normalized individual-ideal probabilities; complete marked
+diamonds hold on the full passive PSD carrier. Independent birth
+coordinates define the all-size history measure.
+
+Its intrinsic height obeys an almost-sure upper bound with square-root
+growth scale: the limsup of height divided by square root of size is at
+most twice Euler's number. The proof uses a summable symbolic path tail,
+not simulated histories. It does not prove a matching lower bound,
+sharp constant or eventual inequality at the limiting constant.
+The complete height drift includes proper raising precursors; its
+actual-history Cesaro average tends to zero, while antichain rows
+prevent uniform decay across all parents.
+
+This closes an all-size existence question for one optional admitted
+law. It is not a DET-derived selector, a gauge change, an arbitrary-prefix
+extension or a geometric approximation theorem. The contrast with
+[the half-scale law](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md)
+makes law dependence explicit. [The target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md)
+does not turn sublinear height alone into geometry or a physical readout.
+
+Native symbolic review and separate exact editorial review are complete.
+Historical source/custody limits persist; private receipts and fingerprints
+remain withheld. The next native question concerns the intrinsic fraction
+of incomparable pairs under this fixed law and conditional target diagnostics.
+No successor result is claimed. Physical observation correspondence,
+protected validation, the completed prospective replay, separate application
+success criteria, Operational ABSTAIN and the RET pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Neutral-support feasibility: independent adjudication
 
 [Neutral-support feasibility](docs/track_b/native_theorem_package_v1/NEUTRAL_SUPPORT_FEASIBILITY.md)

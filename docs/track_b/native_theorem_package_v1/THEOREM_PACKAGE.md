@@ -947,3 +947,18 @@ they do not attain the boundary minimum. The two zero witnesses cannot be
 concatenated as positive lower prefixes. Larger sizes, recursive drift
 decay, sublinear height and geometry remain unresolved; existing Ferrers
 objectives and physical-readout limitations remain unchanged.
+
+## An optional all-size law with sublinear intrinsic height
+
+[The factorial-subset law](FACTORIAL_SUBSET_HEIGHT_LAW.md) constructs an
+explicit admitted marked-order family from empty with
+\(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely. Per-subset factorial
+weights induce the stated cardinality law; inclusions within a subset are
+not independent. Induced-ideal maxima, all newborn bits and the entire PSD
+carrier are covered by the complete diamond proof. The full height drift
+includes proper raising ideals and need not decay uniformly over all rows.
+This optional law resolves an all-size existence question; it neither
+preserves an arbitrary fixed prefix nor derives a selector from DET.
+Sublinear intrinsic height alone supplies no target approximation, geometry
+or physical readout. Earlier finite-prefix and half-scale results keep
+their original scopes.
