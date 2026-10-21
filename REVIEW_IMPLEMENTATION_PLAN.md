@@ -1,3 +1,38 @@
+# Prospective diagnostic-event test with abstention
+
+The [diagnostic-event theorem](docs/track_b/native_theorem_package_v1/P4_DIAGNOSTIC_EVENT_TEST.md)
+turns the admitted common relative separation into a finite-event guarantee
+under explicitly additional independent repeated draws and exact classification
+as K0, K4 or OTHER. One conservative predeclared design collects 40,000
+diagnostic events within 400,000 raw draws, or returns ABSTAIN. Conditional on
+collecting enough events, each wrong-label probability is below 5%.
+
+The guarantee is conditional on the declared native law family and observation
+model. It supplies no event-availability or uniform raw-draw power guarantee:
+when diagnostic events are rare, almost every capped run may abstain. The
+statement separately derives arrival costs and the additional lower bound
+needed to control abstention. A law held latent throughout a run is treated
+by conditional arguments, without assuming its marginal draws are independent.
+These numbers specify a prospective mathematical design, not measured native
+rates, observed errors, an implementation or a physical detector.
+
+The next bounded question concerns classification errors in an explicit
+observation channel and whether a common conditional-label gap survives.
+Its results are outside this checkpoint. Both frozen diagnostic protocols
+and their execution prerequisites remain unchanged.
+
+The completed prospective public-data replay remains a separate bounded
+calculation with historical failures intact. Application admission still needs
+valid source laws, sampling/classifier evidence, availability, fixed baselines,
+measurement and computational costs, failure rates and held-out evaluation;
+operational ABSTAIN remains. Foundational physics still needs an explicit
+native physical prediction and observation channel. Application success would
+not establish DET. Production qualification and the RET pause are unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Common separator for an admitted prefix family
 
 The [prefix-family separator theorem](docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md)

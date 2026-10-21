@@ -1,0 +1,39 @@
+{
+  "scope": "Prospective capped P4 diagnostic-event test under explicit iid or conditional-iid observation assumptions; no implementation or execution admission.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1066038,
+      "sha256": "7401369ae80e6bf9fbd51adf7f690548389194a4a4009a9f4bc983b27056c523"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 918211,
+      "sha256": "e3a16c23c0c8ef26b99113bf2ebf90196d102a1bae1069a1d2cf9eb4a1a727fa"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 688367,
+      "sha256": "5877459f7153a77deeedc02c07f0ff1eae5e1468958808575a9db89448aa3286"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1315076,
+      "sha256": "ed2b0548b1b78c987bdeb34dcd2dcf02a9d6707f21d381ae9380925fc75289d0"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_DIAGNOSTIC_EVENT_TEST.md": {
+      "bytes": 22386,
+      "sha256": "cbdb9e9532f9565a0dfa2c5478327aa4262b2349342cbf6a02ad154a815c4df3"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md": {
+      "bytes": 22078,
+      "sha256": "9e459ea9ce37d458500a5296d028671248bd76ef11b820c82251b2c5b456a443"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 20866,
+      "sha256": "30e2585c736e15acf3d7766faf487fc44f21aae0bec70352031985e192f8d954"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 49968,
+      "sha256": "7cf2f9bea5a0a39bb84390132752115a9078416c8234945293595a687b23031e"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Conditional wrong-label guarantees apply only after collecting enough diagnostic events. No native availability, uniform raw-draw power, implementation, classifier or physical channel is supplied. Underlying actual-prefix family and member-specific regular construction/Xi>1 premises remain. Frozen protocols, historical failures and RET pause unchanged."
+}

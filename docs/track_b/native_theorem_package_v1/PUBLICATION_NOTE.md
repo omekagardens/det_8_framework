@@ -344,3 +344,14 @@ criterion does not require a strict gap below an unattained infimum.
 No second qualifying prefix, universal DET result, numerical probability
 effect, uniform stability guarantee or physical channel is supplied.
 Private source/check records remain withheld under the public evidence policy.
+
+## Conditional prospective diagnostic-event manuscript
+
+The [diagnostic-event manuscript](P4_DIAGNOSTIC_EVENT_TEST.md) preserves the
+additional iid and exact-classifier premises, its separate fixed latent-law
+model, and the distinction between conditional errors and raw-draw power.
+ABSTAIN and OTHER outcomes remain explicit. The fixed illustrative design
+does not supply native event rates or authorize execution, calibration or
+physical acquisition. Existing frozen diagnostic protocols and the RET pause
+remain unchanged. Private source/check records remain withheld under the
+public evidence policy.

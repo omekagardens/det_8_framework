@@ -455,3 +455,13 @@ reproduction. This edition is conditional mathematical exposition, not an
 executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## A prospective diagnostic-event test with abstention
+
+The [diagnostic-event manuscript](P4_DIAGNOSTIC_EVENT_TEST.md) adds explicit
+iid repeated-draw and exact-classifier assumptions to obtain conditional
+label-error bounds for a predeclared capped test. Those bounds apply when
+the target diagnostic count is reached. Without an additional availability
+bound, ABSTAIN may approach one and raw-draw power may vanish. Its fixed
+illustrative counts are prospective choices, with no native event-rate
+estimate, implementation or physical readout supplied.

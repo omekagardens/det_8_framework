@@ -839,3 +839,13 @@ prefixes. Each perturbable member must justify its own regular construction,
 neighborhood and fixed amplitude. The class may be a singleton; no second
 member or result for all canonical prefixes is established. The coefficient
 is not a numerical probability effect, stability bound or physical detector.
+
+## A prospective P4 diagnostic-event test
+
+The [diagnostic-event manuscript](P4_DIAGNOSTIC_EVENT_TEST.md) gives a closed
+capped rule under additional iid repetition and exact shape classification.
+It distinguishes conditional diagnostic-label errors from raw-draw
+availability and reports ABSTAIN when the event target is not reached.
+A fixed latent-law model is treated separately. The illustrative rational
+threshold and counts are prospective mathematical choices; no numerical
+native availability, test implementation or physical observation is supplied.
