@@ -1,3 +1,49 @@
+# Hidden-marking mixtures: conditional P4 separation
+
+The [hidden-marking mixture theorem](../../docs/track_b/native_theorem_package_v1/P4_MARKING_MIXTURES.md)
+removes the known-old-marking and matching-mixture premises from the
+[nuisance-identifiability result](../../docs/track_b/native_theorem_package_v1/P4_NUISANCE_IDENTIFIABILITY.md).
+With the same admitted original prefix and specified P4 parent, every baseline
+mixture remains distinct from every admitted fixed-amplitude perturbed mixture,
+even when their hidden-mark distributions, parameter values and positive common
+scales differ. The result holds on the whole previously accepted neighborhood.
+
+Empty-precursor locality makes one diagnostic shape probability independent
+of all old marks. The second uses the admitted canonical all-mark held rows;
+its root-sector constants bound all possible marking mixtures. The perturbation
+moves that entire ratio range beyond the baseline range. This uses specific
+admitted law identities as well as locality, and is not universal to bare DET.
+The exact proof and dependencies are in the standalone theorem.
+
+Independent derivation, source review and bounded arithmetic checks support
+this conditional result. The original prefix, specified parent, conditional
+occurrence and exact complete-order access remain premises. Positive-scale
+laws separate, while their closures still meet at a point mass as scales
+vanish. No uniform absolute margin, finite-sample guarantee, numerical effect,
+parameter recovery or physical readout is established. Projection overlap in
+a weaker two-coordinate criterion would not by itself imply full-law overlap.
+
+The next native question is whether the existing canonical empty-slot identity
+removes the remaining prefix-dependent score calibration over a precisely
+declared family of valid prefixes. That question remains under review and its
+outputs are excluded from this checkpoint. It must distinguish inherited
+instance identities, assumptions defining a family and universal principles.
+
+The completed prospective GWOSC replay and the application admission adapter
+remain separate from foundational physics. Application execution still needs
+valid native inputs, effect/source/channel evidence and the declared risk,
+availability, cost and held-out prerequisites; operational ABSTAIN remains.
+Neither frozen diagnostic protocol changes. Historical transport and custody
+failures remain, production qualification is zero, eight routes remain closed,
+A08–A10 remain NOT_CAPTURED, Option B/Status M remain unchanged and RET is paused.
+
+Only the reviewed public lineage is published. Private correspondence,
+source-check receipts and administrative execution records remain local.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # P4 nuisance-parameter identifiability — 21 October 2026
 
 The [nuisance-identifiability theorem](../../docs/track_b/native_theorem_package_v1/P4_NUISANCE_IDENTIFIABILITY.md)

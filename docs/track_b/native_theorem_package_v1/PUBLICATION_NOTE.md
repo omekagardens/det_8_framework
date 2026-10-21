@@ -322,3 +322,14 @@ It does not identify the nuisance parameters, establish uniform finite-sample
 stability or provide a physical channel. The fixed-pair minimal partitions
 are not promoted to whole-family sufficiency. Private source/check records
 remain withheld under the public evidence policy.
+
+## Conditional P4 marking-mixture manuscript
+
+The [marking-mixture manuscript](P4_MARKING_MIXTURES.md) preserves the equal-
+and different-mixture comparisons, the whole-neighborhood bound and the
+fixed-instance source premises. Overlap of two-coordinate projections is
+not asserted to give overlap of complete laws. Positive-scale separation
+coexists with a common scale-zero closure point. This is conditional manual
+mathematics, with no original coefficient authentication, uniform finite-sample
+guarantee or physical channel. Private source/check records remain withheld
+under the public evidence policy.
