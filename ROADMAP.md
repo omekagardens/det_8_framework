@@ -36,6 +36,14 @@ The [joint Ferrers obstruction](docs/track_b/native_theorem_package_v1/FERRERS_J
 
 The [Bernoulli-subset counterexample](docs/track_b/native_theorem_package_v1/BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md) adds an admitted optional-law comparison without changing the earlier laws or targets. For each fixed \(p\in(0,1)\), this conditional admitted law has almost-sure lower limits at least \(p\) for height and unrestricted filled Ferrers cell retention fractions, an upper deletion limit at most \(1-p\), and vanishing incomparable-pair density under the same measure. The exact speed \(p\) belongs to the greedy chain, not an exact longest-chain or retention limit. Each fixed dense occupancy/aspect target remains obstructed almost surely; a chain is not two-dimensional geometry. This is optional-law dependence within the declared model, with no physical, all-DET or novelty claim.
 
+The [finite intrinsic-height separation result](docs/track_b/native_theorem_package_v1/FINITE_HEIGHT_LAW_SEPARATION.md)
+gives a predeclared finite two-family rule on one exact completed unmarked
+order, with class-conditional errors for separately fixed Bernoulli
+\(p\in[p_0,1)\), predeclared \(p_0\in(0,1)\), and integer factorial-power
+\(q\ge1\), under the stated from-empty premises. It supplies symbolic
+sufficient sizes and sufficient computation costs, not a universal
+classifier, posterior, physical readout or application execution.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

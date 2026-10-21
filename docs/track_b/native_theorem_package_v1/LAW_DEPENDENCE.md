@@ -431,3 +431,15 @@ remains obstructed, with deletion fraction tending to one almost surely. A chain
 not two-dimensional geometry. The distinction concerns actual optional
 laws in the conditional model, not all DET formulations or physical
 predictions, and makes no novelty claim.
+
+## Finite observation under two specified optional law families
+
+[Finite intrinsic-height law separation](FINITE_HEIGHT_LAW_SEPARATION.md)
+provides a predeclared finite two-family rule on one exact completed
+unmarked order. Its class-conditional errors apply separately to each
+fixed Bernoulli \(p\in[p_0,1)\), for predeclared \(p_0\in(0,1)\), and each
+fixed integer factorial-power \(q\ge1\), with the stated from-empty law
+premises. The symbolic size and sufficient computation bounds do not
+identify every admitted law or provide a posterior. Neither a universal
+classifier, physical readout nor application execution follows. This is
+an intrinsic-height observation guarantee under specified optional laws.
