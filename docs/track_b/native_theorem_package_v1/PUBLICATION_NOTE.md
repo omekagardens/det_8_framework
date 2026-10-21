@@ -538,3 +538,26 @@ the same measure, almost surely. It supplies an actual law distinction from each
 fixed-integer factorial-power law. It does not supply a limiting density,
 target approximation or physical validation. Native acceptance, editorial
 acceptance and publication are recorded separately.
+
+## Ferrers height and retention manuscript
+
+The [Ferrers height and retention obstruction](FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md)
+retains the scientific sections, opening mathematical dependency prose and
+all six source roles. Only title/status metadata and the administrative
+source tail are mapped to public wording and reader references. The actual
+combined source-display truncation and complete subsequent recovery are
+retained, alongside historical parse/custody failures, metadata-only
+readbacks and worker-reported observations. Manual construction and later
+independent acceptance remain separate. Original correspondence and check
+records remain private; no atomic custody, machine-proof or public
+executable-custody claim is added.
+
+The deterministic ceiling is sharp in size and height, not attained for
+every parent. The stochastic consequences concern the quadratic law and
+each fixed integer factorial power \(q\ge2\), with deletion fraction tending to one
+almost surely for the unrestricted filled coordinatewise Ferrers cell
+class. The \(q=1\) height-only argument is inconclusive for unrestricted
+retention, and its prior fixed dense-target result remains. Neither target
+redesign nor a conclusion for all dimension-two orders or physical geometry
+is asserted. Native review, editorial review and publication are recorded
+separately.

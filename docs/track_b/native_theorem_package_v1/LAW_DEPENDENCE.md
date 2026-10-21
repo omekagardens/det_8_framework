@@ -375,3 +375,22 @@ Together with the factorial-power results, it shows that the declared
 admission conditions do not force vanishing incomparability across all
 admitted laws. No target approximation, physical claim or arbitrary-prefix
 preservation follows.
+
+## Height obstruction despite different pair densities
+
+The [Ferrers height and retention obstruction](FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md)
+gives the sharp size bound \(|Q|\le H(Q)(H(Q)+1)/2\) for filled coordinatewise
+partition cell orders. The induced-retention ceiling
+\(\min\{|P|,H(P)(H(P)+1)/2\}\) is sharp over parents with a given size and
+height, not necessarily attained in each parent.
+
+For the quadratic law and each separately fixed integer factorial-power law
+\(q\ge2\), the accepted height bounds imply that the deletion fraction tends to one
+almost surely for the unrestricted filled Ferrers cell class, under each law's own
+measure. The quadratic law's positive incomparable-fraction lower limit
+and this retention obstruction hold together; the earlier actual-law
+distinction remains intact. At \(q=1\), height alone does not settle
+unrestricted retention, while the prior fixed dense-target deletion result
+still holds. This extends the obstruction to the already defined cell
+class without redesigning the target or extending the result to every
+admitted law, every dimension-two order, other Ferrers notions or physics.
