@@ -316,3 +316,16 @@ ideals and has no asserted uniform decay over all rows. Actual-history
 Cesaro drift tends to zero under this selected law. No DET-forced choice,
 optimizer theorem, sharp constant, matching lower bound, geometric limit
 or physical readout follows.
+
+## Pair density under the same optional law
+
+[The ordering-fraction theorem](ORDERING_FRACTION_OF_FACTORIAL_LAW.md)
+keeps the accepted factorial-subset law fixed from empty. Its incomparable
+fraction tends to zero almost surely despite its \(O(\sqrt N)\) height
+bound. The proof uses independent birth coordinates and an auxiliary
+filtration; it assumes no independent inclusions within a subset or
+independence between paths, pairs or sizes. The target-deletion consequence
+requires a separately declared fixed positive incomparable-density premise
+and induced restriction of the completed order, not recomputed DAG
+reachability. It does not establish that premise for Ferrers targets,
+eventual total ordering, a DET-forced selector or a physical exclusion.
