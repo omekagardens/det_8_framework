@@ -1045,3 +1045,22 @@ is inconclusive for unrestricted retention; the previous fixed dense-target
 result remains valid. The target is unchanged. No conclusion for all
 dimension-two orders, other meanings of Ferrers order or physical geometry
 is supplied.
+
+## Joint height and density obstruction to Ferrers retention
+
+The [joint Ferrers obstruction](FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md)
+proves a pathwise criterion for the unrestricted class of filled coordinatewise
+partition cell orders, including empty. For \(N\)-vertex parents, maximum
+chain cardinality \(H_N=O(\sqrt N)\), together with incomparable-pair count
+\(I(P_N)=o(N^2)\), implies that the maximum induced retained fraction tends
+to zero and the deletion fraction tends to one. Restriction is of the
+completed order. When both premises hold almost surely under the same
+measure, the conclusions do too.
+
+The joint argument supplies the \(q=1\) case using the additional density
+premise; height alone remains inconclusive there. Together with the prior
+height-only cases, the deletion fraction tends to one almost surely for
+each separately fixed integer factorial-power law \(q\ge1\), under that
+law's own measure. No convergence rate follows from an unspecified
+little-o premise. There is no growing-exponent or all-law conclusion,
+target redesign, extension to all dimension-two orders or physical claim.

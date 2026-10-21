@@ -54,6 +54,8 @@ The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1
 
 The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) is a conditional intrinsic-order result for filled coordinatewise Ferrers cell diagrams. Its sharp size–height cap does not assert attainment in every parent. Under the quadratic law and each separately fixed integer factorial-power law \(q\ge2\), accepted height bounds imply that the deletion fraction tends to one almost surely for the unrestricted cell class. At \(q=1\), height alone is inconclusive for that class; the previous fixed dense-target result is unchanged. This is neither target redesign nor a statement about all dimension-two orders, other Ferrers notions or physical reconstruction or exclusion.
 
+The [joint Ferrers obstruction](docs/track_b/native_theorem_package_v1/FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md) is conditional on joint height and incomparable-density premises for filled coordinatewise Ferrers cell orders. The deletion fraction tends to one almost surely for each separately fixed integer factorial-power law \(q\ge1\), under its own measure. At \(q=1\), the additional density premise supplies the new conclusion; height alone remains inconclusive. Unspecified little-o supplies no convergence rate. The target is not redesigned, and the theorem makes no all-dimension-two, all-law or physical reconstruction or exclusion claim.
+
 ---
 
 ## 1. What DET Is

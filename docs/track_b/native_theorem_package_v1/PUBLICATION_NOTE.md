@@ -561,3 +561,22 @@ retention, and its prior fixed dense-target result remains. Neither target
 redesign nor a conclusion for all dimension-two orders or physical geometry
 is asserted. Native review, editorial review and publication are recorded
 separately.
+
+## Joint height and density manuscript
+
+The [joint Ferrers obstruction](FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md)
+retains all scientific text, mathematical spans, opening dependency prose
+and six source roles. Title/status metadata and the administrative source
+tail are mapped to public wording and reader links. Current complete source
+captures remain distinct from the predecessor's historical truncation and
+recovery, older parse/custody failures, metadata-only readbacks and
+worker-reported observations. Manual construction and later independent
+review remain separate; original correspondence and receipts stay private.
+
+For filled coordinatewise Ferrers cell orders, the deletion fraction tends
+to one almost surely for each separately fixed integer factorial-power law
+\(q\ge1\). The \(q=1\) conclusion adds the density premise; height alone
+remains inconclusive. Unspecified little-o supplies no convergence rate.
+The result neither redesigns the target nor applies to all dimension-two
+orders or all admitted laws, and makes no physical claim. Native acceptance,
+editorial acceptance and publication are recorded separately.

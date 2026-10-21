@@ -39,6 +39,8 @@ The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1
 
 The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) settles the unrestricted filled coordinatewise Ferrers cell retention objective negatively for the quadratic law and each separately fixed integer factorial-power law \(q\ge2\): deletion fraction tends to one almost surely under each law. The deterministic size–height ceiling is sharp as a bound in parent size and height, not an optimizer for each parent. At \(q=1\), this height-only argument remains inconclusive for unrestricted retention, while the prior fixed dense-target result is retained. No target redesign, broader Ferrers interpretation or physical conclusion is supplied.
 
+The [joint Ferrers obstruction](docs/track_b/native_theorem_package_v1/FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md) closes the remaining fixed \(q=1\) case by adding the vanishing-density premise to the square-root height bound; height alone remains inconclusive. For each separately fixed integer factorial-power law \(q\ge1\), the deletion fraction to unrestricted filled coordinatewise Ferrers cell orders tends to one almost surely under that law. The unspecified little-o premise gives no convergence rate. The target is unchanged, and no all-dimension-two, all-law or physical conclusion follows.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |
