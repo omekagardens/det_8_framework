@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional fixed-prefix P4 nuisance-identifiability theorem and public navigation; no scientific or operational execution admission.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1059298,
+      "sha256": "002aa9fc1973598d33adb5f4254cf1d0e435abafcd232b3900e8c4ebf8f80f26"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 911447,
+      "sha256": "954e8b1f9e5dfc97b65276847b22251c8f62b77e6634b70ddeadf1e609f91f88"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 681603,
+      "sha256": "2e068f3d0113145128c70aa37ed085e3ddeaa4abd9b183b9dcbde5a802916809"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1308312,
+      "sha256": "e8c022715ae1ee18625cc02918cbb84de1b64e964e1a0391da5ee5406a35f1e9"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_CHILD_SHAPE_OBSERVATION.md": {
+      "bytes": 19728,
+      "sha256": "0c71b26cbc96ea25c5ebf2fa9a71fcaad92d272cd067718a51fe1f5c9384d125"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_NUISANCE_IDENTIFIABILITY.md": {
+      "bytes": 14689,
+      "sha256": "6e16df17b9755630da8d04835c26776308f9e719bb5e6dfab7cb4d625a9c9dcd"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 19002,
+      "sha256": "3b64ab5bcf874312bd6b1e6f5105ea1e04e01eef51ae9e5826f9f6a9252e0bfb"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 48257,
+      "sha256": "018333ccc1f123fd4461b4d208e11b6d8ebd6b7f3f5909b926311314956928af"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Fixed original prefix, parent and full old marking; conditional Xi>1 and exact complete-order access; no individual parameter recovery, uniform finite-sample stability or physical channel. Historical failures, frozen diagnostic protocols and RET pause unchanged."
+}

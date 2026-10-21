@@ -809,3 +809,13 @@ partition has four blocks locally off the exception and three at it. The
 result removes the supplied parent embedding and newborn identity, retains
 exact complete-order access, and supplies no physical observation channel.
 Its equal- and unequal-mixture conclusions use the distinct benchmarks in §5.
+
+## P4 model-label separation with nuisance parameters
+
+The [nuisance-identifiability manuscript](P4_NUISANCE_IDENTIFIABILITY.md)
+proves conditional separation of the baseline and fixed-amplitude perturbed
+full child-shape laws when the baseline parameter and admitted common scale
+may vary. The original prefix, parent and full old marking remain fixed.
+Its invariant two-shape ratio requires no scale regularity or half-scale
+selection. Individual parameter recovery, uniform finite-sample stability
+and a physical observation channel are not supplied.

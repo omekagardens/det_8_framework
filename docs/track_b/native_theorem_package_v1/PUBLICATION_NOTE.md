@@ -311,3 +311,14 @@ validity remains a separate trusted-caller review premise; identifiers and
 hashes cannot establish it. Synthetic software checks supply no native
 intervals, sampler, benchmark or physical channel. Operational status remains
 ABSTAIN, and both frozen diagnostic protocols are unchanged.
+
+## Conditional P4 nuisance-identifiability manuscript
+
+The [nuisance-identifiability manuscript](P4_NUISANCE_IDENTIFIABILITY.md)
+retains the fixed-prefix, fixed-parent and fixed-old-marking scope. It separates
+the baseline and perturbed full shape-law families at every positive admitted
+scale, while allowing their closures to touch as scale tends to zero.
+It does not identify the nuisance parameters, establish uniform finite-sample
+stability or provide a physical channel. The fixed-pair minimal partitions
+are not promoted to whole-family sufficiency. Private source/check records
+remain withheld under the public evidence policy.

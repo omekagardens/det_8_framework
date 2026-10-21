@@ -1,3 +1,48 @@
+# P4 nuisance-parameter identifiability — 21 October 2026
+
+The [nuisance-identifiability theorem](../../docs/track_b/native_theorem_package_v1/P4_NUISANCE_IDENTIFIABILITY.md)
+closes whether varying the baseline parameter and a positive common
+six-parent scale can reproduce the fixed regular perturbation's full
+unmarked child-shape law. For the same original prefix, parent and full
+old marking, the two model families are disjoint in the declared conditional
+scope. The empty-ideal and complete-chain shapes each have probability
+proportional to the same scale times the parameter squared. Their baseline
+ratio is therefore invariant; the perturbation strictly increases it.
+
+This identifies the model label, not the individual parameters. The original
+prefix remains fixed and Xi>1 remains conditional. At positive scales the
+laws are distinct, but their closures meet as the scale tends to zero.
+No uniform finite-sample stability, numerical effect, sampling guarantee
+or physical observation channel follows. Exact complete child-order access
+remains a mathematical premise. The earlier three/four-block groupings
+are sufficient for their fixed pairs, not for the whole nuisance family;
+that fact alone does not settle compressed composite-hypothesis separation.
+
+Independent mathematical review and bounded invented arithmetic checks
+support this publication; the illustrative constants are not native-law
+coefficients. Raw source/check correspondence and administrative receipts
+remain private. The inherited scientific statements and historical records
+are preserved in the linked package.
+
+The next native question concerns unknown old-marking mixtures: determine
+whether a separator survives common or differing hidden marking weights,
+or state the precise remaining criterion. Its prospective proof output is
+excluded from this checkpoint. The completed prospective GWOSC replay is
+separate from this conditional mathematics and from production qualification.
+
+Application execution remains ABSTAIN pending valid native inputs, numerical
+effect and source/channel certificates, plus the declared risk, availability,
+cost and held-out requirements. Both frozen diagnostic protocols remain
+unchanged. Historical transport/custody failures remain; production
+qualification is zero, eight routes remain closed, A08–A10 NOT_CAPTURED,
+Option B/Status M unchanged and RET paused. Application success does not
+establish the physical theory.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Child-shape information and bounded interval admission — 21 October 2026
 
 The [child-shape theorem](../../docs/track_b/native_theorem_package_v1/P4_CHILD_SHAPE_OBSERVATION.md)

@@ -387,3 +387,15 @@ source or check records. This edition supplies a manuscript, not an
 executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Baseline nuisance parameters and the full shape law
+
+The [nuisance-identifiability manuscript](P4_NUISANCE_IDENTIFIABILITY.md)
+shows that, for the same fixed prefix, parent and full old marking, no admitted
+baseline parameter and common scale reproduce the conditional fixed-amplitude
+perturbed shape law. A two-shape probability ratio separates the model labels.
+This does not identify the individual nuisance parameters or supply uniform
+finite-sample stability. The three/four-block partitions above are not
+sufficient for the full nuisance family; whether they distinguish the composite
+models is a separate question. Exact complete-order access remains a
+mathematical premise, with no physical observation channel supplied.
