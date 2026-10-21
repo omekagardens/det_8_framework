@@ -1003,3 +1003,21 @@ its coordinates. These are changing
 height upper bounds; distinct exact height-growth exponents are not proved.
 There is no assertion uniform over growing exponents or all admitted laws,
 and no unrestricted Ferrers, optimizer or physical-geometry conclusion.
+
+## Quadratic subset penalty and nonvanishing incomparability
+
+The [quadratic subset-penalty law screen](QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md)
+constructs an explicit strictly positive optional law in the declared
+scalar/passive marked-order model. Under the same from-empty probability
+measure, eventually
+\(H_N\le\lceil16e[\log_2(N+1)]^2\rceil\) almost surely and
+\(\liminf_{N\to\infty}I(P_N)/\binom N2\ge1/4096\) almost surely.
+The height conclusion is an upper bound; the incomparability conclusion is
+a positive full-sequence lower limit, not a limiting density.
+
+The law differs from every fixed-integer factorial-power law: at a
+three-vertex antichain, the full-subset/empty-subset ratio is \(1/8\),
+whereas the factorial-power ratio is \(6^{-q}\) for integer \(q\ge1\).
+This establishes law dependence within the declared model. It does not
+prove a target approximation, induced Ferrers embedding, arbitrary-prefix
+preservation, physical interpretation or a universally forced DET law.

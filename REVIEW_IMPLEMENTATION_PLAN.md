@@ -1,3 +1,39 @@
+# Quadratic subset penalty: a law-dependent incomparability result
+
+The [quadratic subset-penalty theorem](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md)
+is accepted after independent manual derivation and review. Its fixed
+positive subset weights define a normalized all-size marked growth law
+from empty, with complete diamond identities and a passive PSD payload.
+Under the same measure, height is eventually at most the stated
+logarithmic-squared ceiling and the incomparable-pair fraction has an
+almost-sure full-sequence liminf of at least 1/4096.
+
+An intrinsic three-point-antichain branch ratio distinguishes this law from
+every member of the [fixed integer factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md).
+The two results establish that vanishing incomparable fraction depends on
+the chosen optional law within the declared model. The constants are
+conservative bounds; exact height asymptotics, a limiting pair fraction and
+a principle selecting this law remain unproved. Positive incomparable
+density alone does not establish Ferrers approximation or physical geometry.
+
+The next assigned question tests a separate necessary condition: whether
+height bounds the size of every finite coordinatewise Ferrers cell order
+sharply enough to obstruct retaining a macroscopic induced target. It will
+apply that deterministic bound to the accepted laws at their proved scope.
+This successor result is pending and excluded from the present checkpoint.
+
+Mathematical sections and historical records remain intact. Manual proof
+review, administrative byte checks and software validation are distinct;
+none reconstructs historical custody. The prospective scientific replay is
+complete, while physical preparation and readout correspondence remain
+missing. The rejected application advantage, separate benchmark and
+held-out criteria, protected-validation prerequisites, operational abstention,
+production qualification zero and RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Fixed factorial-power laws: family result and next question
 
 The [factorial-power family theorem](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md)
