@@ -601,3 +601,19 @@ Each fixed dense occupancy/aspect target stays obstructed almost surely. The cha
 not two-dimensional geometry, and no physical, all-DET or novelty claim
 is supplied. Native acceptance, editorial review and publication are
 recorded separately.
+
+## Finite intrinsic-height observation theorem
+
+[Finite intrinsic-height law separation](FINITE_HEIGHT_LAW_SEPARATION.md)
+preserves the source's predeclared finite two-family rule, class-conditional
+errors, symbolic sufficient sizes and sufficient computation analysis for
+one exact completed unmarked order. The candidate classes are separately
+fixed Bernoulli \(p\in[p_0,1)\), for predeclared \(p_0\in(0,1)\), and
+integer factorial-power \(q\ge1\), under the stated from-empty premises.
+No universal classifier, posterior, physical readout, numerical evaluation
+or application execution is supplied. Manual source proof construction,
+supplied-context worker reviews, independent review and publication are
+distinct. Exact stored-body comparisons and consumed additions do not
+claim fresh full redisplay of every unchanged source; historical display
+failures and custody limits remain recorded. Private provenance metadata
+is withheld, and separate acceptance records govern publication.

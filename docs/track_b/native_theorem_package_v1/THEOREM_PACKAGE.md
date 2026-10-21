@@ -1084,3 +1084,18 @@ occupancy/aspect target still has deletion fraction tending to one almost surely
 The result demonstrates actual optional-law dependence within the declared
 model, with no all-DET, physical or novelty claim and no uniform or adaptive
 parameter assertion.
+
+## Finite intrinsic-height separation of two optional law families
+
+[Finite intrinsic-height law separation](FINITE_HEIGHT_LAW_SEPARATION.md)
+gives a predeclared finite two-family test on one exact completed unmarked
+order of known size \(N\ge2\). For fixed \(p_0\in(0,1)\), put
+\(n=N-1\) and \(k=\lceil p_0n/2\rceil\); decide Bernoulli when
+\(H(P_N)\ge k+1\), and factorial-power otherwise. For each separately
+fixed Bernoulli \(p\in[p_0,1)\), the wrong-family probability is at most
+\(\min\{1,1/(np_0^2)\}\); for each separately fixed integer factorial-power
+\(q\ge1\), it is at most \(\min\{1,N(2\sqrt n)^k/k!\}\).
+The theorem provides symbolic sufficient sizes and sufficient computation
+costs under exact input and encoding premises. These class-conditional
+errors are not a posterior or universal classifier; no physical readout,
+numerical evaluation or application execution is supplied.

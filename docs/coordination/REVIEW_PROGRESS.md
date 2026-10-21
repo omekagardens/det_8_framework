@@ -1,3 +1,15 @@
+# Current checkpoint: finite intrinsic-height law separation
+
+The [finite-height diagnostic](../../docs/track_b/native_theorem_package_v1/FINITE_HEIGHT_LAW_SEPARATION.md) is accepted at its declared mathematical scope. A threshold fixed before observation distinguishes the specified Bernoulli and factorial-power law families using the intrinsic height of one faithful completed order. The theorem supplies explicit class-conditional error bounds, exact threshold rounding and a conservative sufficient order size for predeclared error tolerances. The guarantees are uniform across the separately fixed laws in the stated ranges.
+
+The positive lower bound on the Bernoulli parameter, fixed observation size and complete faithful order input are essential. The guarantees are not posterior probabilities that a label is correct, optional-stopping guarantees or classification of every admitted law. A sufficient height algorithm takes quadratic work on the supplied relation matrix; threshold encoding, input validation and the unsupplied physical acquisition/readout costs remain separate.
+
+Independent manual proof review and exact administrative checks support this bounded result. The [theorem package](../../docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) and [law-dependence account](../../docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) preserve the underlying optional-law premises. Historical source-consumption and custody limitations remain explicit. A separate candidate investigates known-budget vertex erasure with exact surviving relations; it is not an accepted result in this publication.
+
+The bounded prospective public-data replay remains separate from physical-law validation. A native preparation and observation channel is still missing. Application value requires a fixed benchmark, baselines, measurement and computational costs, failure rates and held-out evaluation; an application result would not establish physical theory. Protected-validation requirements and the RET-only pause remain in force. The wider programme remains open.
+
+---
+
 # Current checkpoint: law dependence of Ferrers retention
 
 The [Bernoulli-subset law counterexample](../../docs/track_b/native_theorem_package_v1/BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md) is accepted at its declared conditional mathematical scope. For each separately fixed parameter p in (0,1), this complete positive marked law admits an all-size realization from empty. On its single measure, the constructed greedy-chain fraction tends to p; intrinsic height and unrestricted filled Ferrers retention have lower limits at least p, while deletion has upper limit at most 1-p. Incomparable-pair density vanishes almost surely. These are bounds on height and optimal retention, not exact limits for either.
