@@ -1,3 +1,38 @@
+# Common separator for an admitted prefix family
+
+The [prefix-family separator theorem](docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md)
+identifies one score, G(p)=p(K4)-(648/25)p(K0), that is nonpositive for every
+admitted baseline law and strictly positive for every admitted perturbed law.
+It permits differing hidden-mark distributions, nuisance parameters and
+prefixes within a precisely declared family of actual valid canonical laws.
+The constant follows from the complete held-row identities and their shape
+catalogue; record locality alone does not determine it.
+
+The family may be a singleton. No second qualifying prefix is constructed,
+and each perturbed member requires its own justified regular construction and
+conditional Xi>1 neighborhood. The result also covers measurable probability
+mixtures concentrated on admitted laws. It supplies neither an all-law
+universality claim nor a common absolute gap: fixed-member scale-zero limits
+still meet. Exact complete-order access and the specified P4 parent remain
+assumptions, with no physical readout or uniform finite-sample guarantee.
+
+The next prospective question concerns a finite diagnostic-event test under
+an explicit additional repeated-draw model, including error bounds, raw-draw
+cost and abstention. Its results are outside this checkpoint. It does not
+change either frozen diagnostic protocol or authorize scientific execution.
+
+The completed prospective public-data replay remains a separate bounded
+calculation with historical failures intact. Applications still require valid
+native inputs, effect/source/channel evidence, fixed baselines, measurement
+and computational costs, failure rates and held-out evaluation; operational
+ABSTAIN remains. Application success would not establish DET physics. The
+native physical prediction and observation channel remain open. Historical
+custody failures, production qualification and the RET pause are unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Hidden-marking mixtures: conditional P4 separation
 
 The [hidden-marking mixture theorem](docs/track_b/native_theorem_package_v1/P4_MARKING_MIXTURES.md)

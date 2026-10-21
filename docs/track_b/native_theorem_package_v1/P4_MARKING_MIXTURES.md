@@ -419,3 +419,14 @@ coefficient authentication. This edition is conditional mathematical exposition,
 not an executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## A common separator for a constrained prefix family
+
+The [prefix-family manuscript](P4_PREFIX_FAMILY_SEPARATOR.md) replaces equality
+of the entire original prefix by shared held calibration and explicit validity
+conditions on actual complete prefixes. The common law-functional coefficient
+is 648/25; each perturbable member keeps its own neighborhood and fixed
+amplitude. The class may be a singleton, and no second distinct member is
+established. The measurable-mixture corollary concerns admitted complete laws.
+Exact calibration supplies no numerical probability effect, uniform
+finite-sample guarantee or physical observation channel.

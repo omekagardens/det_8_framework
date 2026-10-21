@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional P4 common separator over a declared family of actual valid canonical prefixes; no scientific or operational execution admission.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1064052,
+      "sha256": "1e85736a696791e0945677fc6f66b23c9493396f2934758653f26fc14a8f3d6d"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 916219,
+      "sha256": "b3d206a416ad0681cb79176145e39d40ff36289f29071a7a3ffc347bca4fa597"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 686375,
+      "sha256": "77209aea47682e84f4f4115a4eb3a7191ae6b284967092454f379fbcb81aa30e"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1313084,
+      "sha256": "897a314589ebd3653be499eadbecd6f0568e64c5098dd70c9c3aecebe03cb9c6"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_MARKING_MIXTURES.md": {
+      "bytes": 19691,
+      "sha256": "a09ef903a9ae3958b037a101b46aa2aae50c00ddae4ddb3d1f162e7044b860d6"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md": {
+      "bytes": 21523,
+      "sha256": "08df9d21e1756ef2fcc9a3e653beec2ff480deebc18279b2a90ce80fc57d8ec5"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 20260,
+      "sha256": "83159a0263e9eaee76b7c48693f3fdce6e9f573c2b563a75fde7938fe31fa3b3"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 49408,
+      "sha256": "c662f8e1e2c5e9eef6f0936e44487c2ce3767a6b57ad06f6eab06e5e8d421000"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Declared actual canonical prefix family may be a singleton; each perturbed member requires its own regular construction and conditional Xi>1. Fixed parent, held-law calibration and exact complete-order access remain; no universal law, parameter recovery, uniform finite-sample stability or physical channel. Historical failures, frozen diagnostic protocols and RET pause unchanged."
+}

@@ -829,3 +829,13 @@ disjoint throughout the whole inherited perturbation neighborhood. The
 fixed-instance all-mark held identities, fixed prefix and parent, and one
 common scale per hypothesis remain essential. No parameter recovery, uniform
 finite-sample guarantee or physical observation channel is supplied.
+
+## A seed-calibrated P4 prefix-family separator
+
+The [prefix-family manuscript](P4_PREFIX_FAMILY_SEPARATOR.md) binds the complete
+held rows to their named C4/C5 slots and obtains the common separator
+coefficient 648/25 for an explicitly constrained class of actual valid
+prefixes. Each perturbable member must justify its own regular construction,
+neighborhood and fixed amplitude. The class may be a singleton; no second
+member or result for all canonical prefixes is established. The coefficient
+is not a numerical probability effect, stability bound or physical detector.
