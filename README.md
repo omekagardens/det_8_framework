@@ -21,6 +21,8 @@ coordination discussion.
 
 [Half-scale event availability](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) proves a conditional positive symbolic event-availability floor for one actual eligible fixed prefix on its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law. With exact iid access, it yields a finite symbolic prospective raw cap with error, abstention, coverage and power accounting. It supplies no numerical cap, actual eligible occurrence or physical readout; the arbitrary-scale fixed-budget limitation and original 40,000 / 400,000 / 38,825 diagnostic design remain unchanged.
 
+[The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) proves almost-sure linear intrinsic longest-chain height and cardinality exponent one under the optional all-layer half-scale baseline, conditional on the admitted prefix and classical history measure. Conditional-history bounds need no iid births and give a liminf height fraction of at least one half, without an exact limiting speed. This is a selected probability law, not a coordinate gauge or physical dimension; no coefficient-branch decision, empirical validation or infinite harmonic-perturbation extension follows.
+
 ## What is established
 
 | Area | Published result | Boundary |

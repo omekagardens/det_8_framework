@@ -1,3 +1,34 @@
+# Native height growth: independent adjudication
+
+The [height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md)
+has passed independent manual proof review. Under the admitted prefix and
+classical history measure, the optional all-layer half-scale baseline forces
+almost-sure linear intrinsic longest-chain height. Its limiting lower height
+fraction is at least one-half, and its height-versus-cardinality exponent is
+one. Finite-time conditional bounds require no independent-birth assumption.
+
+This is a selected probability-law result, not a coordinate convention or a
+physical spacetime claim. No exact limiting speed, coefficient-branch decision,
+physical clock or empirical readout is supplied. The separate optimizer and
+unproved infinite harmonic continuation are not covered. Current source and
+readback checks do not repair historical custody. See the [law-dependence
+statement](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) and
+[publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md).
+
+The next native question tests compatibility with declared sublinear-height
+target orders after diagnostic vertex deletion, including dense bounded-aspect
+Ferrers orders. That active work is unreviewed and excluded here; it must keep
+the optional target distinct from the unrestricted Ferrers diagnostic.
+Physical realization of an order readout remains missing. The completed
+prospective GWOSC replay is a separate bounded calculation, and the synthetic
+candidate's rejected raw-cost advantage is unchanged. Historical custody
+failures, frozen numerical protocols, protected validation, operational ABSTAIN
+and the RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Half-scale event availability: independent adjudication
 
 The [conditional availability theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md)

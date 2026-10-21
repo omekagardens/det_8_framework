@@ -19,6 +19,8 @@ assessment, with its original evidence limits.
 
 [Half-scale event availability](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) records a restricted conditional positive result: one actual eligible fixed prefix, its own fixed compact positive-lambda neighborhood, and an optional whole-domain half-scale law give a symbolic availability floor. A finite symbolic prospective raw cap additionally requires exact iid access and includes abstention and coverage accounting. No numerical cap, actual occurrence, implementation or physical validation is supplied; the original diagnostic design and arbitrary-scale limitation remain unchanged. No implementation or benchmark is authorized by this theorem.
 
+[The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) records a conditional native-history result: the optional half-scale baseline at every later layer gives almost-sure linear intrinsic height and cardinality exponent one under the admitted prefix and classical history measure. It requires no iid history assumption and supplies no exact limiting speed, coefficient-branch decision, physical dimension or empirical validation. The separate optimizer and infinite harmonic-extension questions remain open; no implementation or experiment is authorized by this theorem.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

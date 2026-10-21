@@ -249,3 +249,17 @@ The metric-as-record interpretation remains unvalidated, the previously retired 
 This manual argument uses the model/ratio statements, fixed prefix values and carrier proofs summarized in §§1, 4, 8 and 9 of THEOREM_PACKAGE.md and the supporting proofs named there. Their exact source identities are recorded separately. No scientific certificate was parsed, no historical checker replayed, and no numerical alternative table computed.
 
 Proposition 1 is a new symbolic finite-prefix proof. The mixed full/proper diamond is explicitly included as a boundary check and as a counterexample to the overbroad cross-layer variant. Equations (L3)–(L5) are manual consequences of the displayed definitions, not executed arithmetic. The fresh administrative checks concern bytes and receipts only; inherited custody limitations remain preserved.
+
+## Law-dependent all-layer height consequence
+
+[The height-growth theorem](HALF_SCALE_HEIGHT_GROWTH.md) derives a uniform
+conditional full-birth floor and almost-sure linear intrinsic height under
+the optional all-layer half-scale baseline, with the source prefix and
+infinite classical history measure admitted. The prescription changes
+actual probabilities and is not a coordinate gauge. Its finite-layer
+alternative shows why that floor is law-dependent; it is not an infinite
+sublinear-height counterexample or a universal height no-go. The proof
+assumes no iid native history and gives no exact limiting speed,
+coefficient-branch selection, physical dimension or validation. No result
+is transferred to the separate optimizer or an unproved infinite harmonic
+extension.

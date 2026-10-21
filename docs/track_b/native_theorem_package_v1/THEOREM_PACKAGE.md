@@ -895,3 +895,17 @@ error, abstention, coverage and power guarantees. It supplies no numerical
 cap, actual eligible occurrence or physical readout. This restricted
 positive result leaves the arbitrary-scale fixed-budget limitation and
 the original 40,000 / 400,000 / 38,825 diagnostic design unchanged.
+
+## Intrinsic height under the all-layer half-scale baseline
+
+[The height-growth theorem](HALF_SCALE_HEIGHT_GROWTH.md) proves almost-sure
+linear intrinsic longest-chain height and cardinality exponent one for the
+selected baseline, conditional on the admitted prefix, ratio-potential
+construction and infinite classical history measure. Its optional
+whole-layer half-scale prescription applies at every parent size from six
+onward. Conditional-history bounds require no iid births and establish a
+liminf height fraction of at least one half, without an exact limiting
+speed. The classical kernel is separately defined even for zero PSD
+payload. No coefficient-branch decision, physical dimension or validation,
+or transfer to the separate optimizer or infinite harmonic perturbation
+follows.

@@ -393,3 +393,19 @@ actual occurrence or physical-readout validation. The original diagnostic
 design, frozen protocols, arbitrary-scale limitation and RET pause remain
 unchanged. This public exposition does not assert executable custody of
 private sources or authorize implementation or a benchmark.
+
+## All-layer half-scale height theorem derivative
+
+[The height-growth theorem](HALF_SCALE_HEIGHT_GROWTH.md) preserves the
+source manuscript's conditional scientific sections, mathematics and
+load-bearing source table, adding public dependency links and replacing
+private administrative metadata with an explicit evidence scope.
+Source-author manual construction and supplied-context challenges remain
+distinct from later independent review and its separate checks. The result
+uses the admitted prefix and classical history measure under an optional
+all-layer probability prescription, treats zero PSD payload explicitly,
+and proves intrinsic height growth without iid births. It supplies no
+exact limiting speed, coefficient-branch decision, physical dimension or
+validation, or infinite harmonic-perturbation result. Inherited evidence
+limitations and the RET pause remain; publication supplies no executable
+private-source custody and authorizes no scientific execution.

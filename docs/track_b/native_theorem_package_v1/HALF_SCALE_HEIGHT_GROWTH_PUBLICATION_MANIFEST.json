@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed conditional all-layer half-scale intrinsic height theorem; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1075681,
+      "sha256": "ef9df64b577aafd989eff0503b3a4fe7cd6ad497d6a8c77d8df37542a507ffa2"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 927926,
+      "sha256": "e9611d7c2b6323f911ba76e538cd8b12731b98d3c3da141fb3885ed98eca7d70"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 698082,
+      "sha256": "42b83bfa1bba833a45239639e920bd13b0b2264602cf8cd205064179ccfe7d0b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1324791,
+      "sha256": "f25da5b58710f08750ca8ebfa2926f2bcdce7e733d09caa030e8208407e46e4c"
+    },
+    "docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md": {
+      "bytes": 24079,
+      "sha256": "b5266904f47082c62b6a6657dbbfeac618e684581b4abc09a6d19a3167239ad1"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 18712,
+      "sha256": "ddc56d8278a8b3ff50b84cf19070ab9ca863abc6617b725fe328cb8d1f8e8787"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 24051,
+      "sha256": "589287201ad7a53ad922081193c5a809697aa4578e106e1b754f31446cdfe6eb"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 53533,
+      "sha256": "23682bb3886e53b6ee7c6c808500ce8d34d58ba9f70f1c0cee5cf6d571c25275"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Conditional intrinsic height and cardinality exponent do not establish exact speed, universal-law behavior, optimized-law or finite-perturbation continuation, physical clock, spacetime dimension, useful application value or historical custody. Original protocols and RET pause unchanged."
+}

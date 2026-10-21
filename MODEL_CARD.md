@@ -34,6 +34,8 @@ three-slit null) and remain the open frontier; see
 
 The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) is conditional on one actual eligible fixed prefix and its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law, not a law forced by coordinate conventions or identities. It gives a positive symbolic availability floor and, with exact iid access, a finite symbolic prospective raw cap including error, abstention, coverage and power. It supplies no numerical cap, actual eligible occurrence, noisy-channel transfer or physical validation. The original 40,000 / 400,000 / 38,825 diagnostic design and arbitrary-scale fixed-budget limitation remain unchanged.
 
+[The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) concerns one native growing history under an admitted prefix and classical history measure with the optional whole-layer half-scale rule at every later size. It proves almost-sure linear intrinsic longest-chain height and cardinality exponent one without iid births; the classical kernel remains separately declared for zero PSD payload, with no zero-trace normalization. The law choice is not a coordinate gauge. No exact limiting speed, coefficient-branch decision, physical dimension, empirical validation or transfer to the separate optimizer or infinite harmonic perturbation is established.
+
 ---
 
 ## 1. What DET Is

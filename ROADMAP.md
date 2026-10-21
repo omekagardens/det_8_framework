@@ -12,6 +12,8 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 
 The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) adds a conditional positive result for one actual eligible fixed prefix on its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law. Its finite symbolic prospective raw cap requires exact iid access and retains error, abstention, coverage and power accounting. This establishes no numerical cap, actual eligible occurrence, cross-prefix or arbitrary-scale uniformity, or physical readout. The earlier fixed-budget limitation and original diagnostic design remain unchanged.
 
+[The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) adds almost-sure linear intrinsic height and cardinality exponent one for the selected all-layer half-scale baseline, conditional on the admitted prefix and infinite classical history measure. The proof uses conditional full-birth bounds without iid births. This optional actual-probability prescription is not a coordinate gauge; it gives no exact limiting speed, physical dimension or validation and does not settle the separate optimizer or infinite harmonic extension.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |
