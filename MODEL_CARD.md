@@ -28,6 +28,8 @@ recovery channels are **dynamical** (κ in the time-evolution, invisible to the
 three-slit null) and remain the open frontier; see
 `docs/DKAPPA_STANDARD_QM_PUSH.md`.
 
+**Fixed raw-budget testing scope.** The [fixed-budget theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) gives a conditional finite-observation limit for an actually admitted rare-event source pair under the declared iid model. Identity and known invertible channels, common randomized decisions and stopping by a fixed cap are included. Low conditional error with ABSTAIN and tolerance sum below one forces vanishing coverage. Exact positive-scale population laws can remain distinct; the result neither validates nor falsifies the physical theory.
+
 ---
 
 ## 1. What DET Is

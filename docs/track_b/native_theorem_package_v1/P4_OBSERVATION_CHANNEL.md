@@ -616,3 +616,14 @@ reproduction. This edition is conditional mathematical exposition, not an
 executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Every decision rule under a fixed raw budget
+
+The [fixed-budget testing theorem](P4_FIXED_BUDGET_TESTING_LIMIT.md) extends
+the conditional rare-event limitation to every admitted randomized decision
+rule and stopping procedure with a fixed finite raw cap, including the
+identity channel and known invertible channels. Exact positive-scale laws
+can remain distinct. With ABSTAIN allowed, conditional error tolerances whose
+sum is below one force decision coverage to vanish along the admitted limit.
+The result assumes an actually eligible source pair and the stated iid model;
+it supplies no physical falsification or validation.

@@ -860,3 +860,14 @@ laws, conditional label errors and collection availability, and fixed-law
 and run-latent observation models. Positive clean-channel orientation alone
 does not certify the original thresholds. No calibrated physical channel or
 operational validation is supplied.
+
+## A conditional fixed raw-budget testing limit
+
+The [fixed-budget testing theorem](P4_FIXED_BUDGET_TESTING_LIMIT.md) bounds
+finite-observation total variation along an actually admitted positive-scale
+pair approaching the rare-event boundary. No fixed finite raw cap uniformly
+gives low false-positive probability and high power, even with an identity
+or known invertible channel and arbitrary common randomized decision rules.
+Low conditional error with abstention requires vanishing decision coverage
+when the tolerance sum is below one. Exact-law distinction, conditional
+occurrence and the separation from physical validation remain explicit.

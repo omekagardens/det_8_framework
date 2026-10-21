@@ -13,6 +13,8 @@ summary and preserves older coordination entries below it. The
 [original independent review](<indep ndent_review.md>) remains the starting
 assessment, with its original evidence limits.
 
+**Fixed-budget admission boundary.** The [fixed-budget testing theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) rules out uniform low false-positive probability with high power for a fixed finite raw cap over the conditional admitted rare-event family, including the identity channel. Low conditional error with ABSTAIN and tolerance sum below one requires vanishing coverage. Practical admission still needs a justified source class, observation model, budget and coverage/power requirement. Exact-law distinction remains possible; no physical falsification follows.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

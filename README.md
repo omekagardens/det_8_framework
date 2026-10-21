@@ -15,6 +15,8 @@ Start there for the mathematical statements and their dependencies. Later local
 work is not part of this published snapshot merely because it appears in a
 coordination discussion.
 
+**Fixed raw-budget limit.** The [fixed-budget testing theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) shows, conditional on an actually admitted small-scale pair and the stated iid observation model, that no fixed finite raw budget uniformly gives low false-positive probability and high power. The identity channel is included. With ABSTAIN, conditional error tolerances whose sum is below one force vanishing decision coverage in the limit. Exact population distinctions at positive scale can remain; this is no physical validation or falsification.
+
 ## What is established
 
 | Area | Published result | Boundary |
