@@ -1,3 +1,38 @@
+# Synthetic benchmark design: independent adjudication
+
+The [separate application plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md)
+has passed independent manual mathematical and statistical-design review.
+Its candidate always consumes at least256 raw observations, while the
+equal-information sequential reference meets the same core quality targets
+with expected consumption at most640/3. Thus candidate mean raw-cost
+superiority is rejected throughout the declared core class.
+
+The retained prospective endpoint is only synthetic operating-point
+conformance. Fixed core/stress grids, risk, coverage, cost and failure
+accounting, simultaneous inference and fresh independent held-out control
+are specified. No implementation, interval calculation, sampler, calibration,
+benchmark or empirical result is supplied. Invented probabilities are not
+native-law occurrence or physical validation. A useful application advantage
+remains unestablished; execution of this candidate is not selected.
+
+Independent review separately checked the stopping argument, matched quality,
+cost estimand, probability bounds, multiplicity, run units and failure rules.
+Current source/readback checks support the reviewed exposition; they do not
+authenticate original custody. See the [publication scope](docs/applications/synthetic_channel_benchmark_v1/PUBLICATION_NOTE.md).
+
+The next native question concerns a symbolic event-availability floor and
+finite prospective cap for one fixed eligible prefix under the selected
+half-scale prescription. That active work is unreviewed and excluded here.
+A physical prediction/readout correspondence remains missing. The completed
+prospective GWOSC replay is a separate bounded calculation. Historical custody
+failures, protected-validation requirements, frozen numerical protocols,
+operational ABSTAIN and the RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Fixed raw-budget testing limit — 21 October 2026
 
 The [fixed-budget theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md)

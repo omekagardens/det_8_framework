@@ -871,3 +871,15 @@ or known invertible channel and arbitrary common randomized decision rules.
 Low conditional error with abstention requires vanishing decision coverage
 when the tolerance sum is below one. Exact-law distinction, conditional
 occurrence and the separation from physical validation remain explicit.
+
+## Separate synthetic application design
+
+The [synthetic diagnostic benchmark plan](../../applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md)
+is a separate application project using invented probabilities, not another
+native-law result. Its manual design rejects C256's raw-observation cost
+superiority over the standard sequential reference and specifies only minimal
+operating-point conformance. Core/stress separation, fresh independent held-out
+controls, simultaneous inference, costs and failure reporting are fixed.
+No implementation, sampling, interval evaluation or benchmark has executed or
+is authorized by the plan; no practical-value or physical-validation claim is
+supplied. See its [publication scope](../../applications/synthetic_channel_benchmark_v1/PUBLICATION_NOTE.md).
