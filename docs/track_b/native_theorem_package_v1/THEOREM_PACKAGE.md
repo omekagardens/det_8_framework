@@ -849,3 +849,14 @@ availability and reports ABSTAIN when the event target is not reached.
 A fixed latent-law model is treated separately. The illustrative rational
 threshold and counts are prospective mathematical choices; no numerical
 native availability, test implementation or physical observation is supplied.
+
+## P4 separation under an explicit observation model
+
+The [observation-channel manuscript](P4_OBSERVATION_CHANNEL.md) gives a
+conditional channel-transfer theorem, a rare-event obstruction for fixed
+positive OTHER leakage, and a sufficient restricted contamination condition.
+It keeps the distinction between conservative envelopes and actual native
+laws, conditional label errors and collection availability, and fixed-law
+and run-latent observation models. Positive clean-channel orientation alone
+does not certify the original thresholds. No calibrated physical channel or
+operational validation is supplied.

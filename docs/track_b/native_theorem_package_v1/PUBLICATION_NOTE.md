@@ -355,3 +355,14 @@ does not supply native event rates or authorize execution, calibration or
 physical acquisition. Existing frozen diagnostic protocols and the RET pause
 remain unchanged. Private source/check records remain withheld under the
 public evidence policy.
+
+## Conditional observation-channel manuscript
+
+The [observation-channel manuscript](P4_OBSERVATION_CHANNEL.md) preserves
+the original numerical design, explicit ABSTAIN and OTHER accounting, frozen
+protocols and RET pause. The declared channel law and contamination bounds
+are additional premises; frequent observed events do not establish native
+signal availability. Manual source construction is distinct from later
+independent review and its separate checks. Private source/check records
+remain withheld. No implementation, calibration, physical detector or
+validation of DET is supplied.

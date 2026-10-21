@@ -491,3 +491,15 @@ reproduction. This edition is conditional mathematical exposition, not an
 executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Transfer through a declared observation channel
+
+The [observation-channel manuscript](P4_OBSERVATION_CHANNEL.md) adds one
+fixed common memoryless three-category channel. Without OTHER leakage,
+positive determinant preserves a same-oriented conditional gap, while the
+original numerical design needs its own error certificate. Fixed positive
+leakage removes the uniform gap in the admitted rare-event limit; frequent
+reported events do not establish genuine diagnostic availability. A separate
+restricted contamination premise can restore a bounded guarantee. The
+original design and ABSTAIN remain unchanged; no physical calibration is
+supplied.
