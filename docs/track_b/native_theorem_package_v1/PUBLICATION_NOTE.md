@@ -138,6 +138,38 @@ coefficient acquisition, simulation, later-layer transfer or benchmark
 acceptance is supplied. The earlier general-family result remains valid
 without any regularity assumption on an unspecified scale.
 
+## Width versus complete-row total variation
+
+The [complete-row observation comparison](P4_OBSERVATION_SUFFICIENCY.md)
+retains all eight \(P_4\) ideals and sixteen marked outcomes in each root
+sector, conditional on the still-unselected \(\Xi>1\). Width attains the
+full-row total variation at the exception and on its left, within the
+admitted neighborhood. On the right it pools opposite-sign corrections and
+strictly loses TV; the proof states the exact maximizing events and loss.
+
+Normalized and relative TV losses have a positive first-order right-hand
+term without scale regularity. The selected full-layer half-scale gives
+first-order absolute loss; an admissible alternative scale shows why that
+lower rate is not automatic. The loss is zero on the left. Equality of TV
+does not mean statistical sufficiency: width is not sufficient for the
+complete two-law pair anywhere on this neighborhood.
+
+The observation assumes complete child-order access and the known parent
+embedding, with no outcome filtering. No numerical coefficient comparison,
+effect size, neighborhood radius, sampler, physical detector or benchmark
+result is supplied. Earlier contrast bounds, application protocols and
+historical custody limitations remain unchanged.
+
+## Complete-row interval-admission design
+
+The [admission design](ENVELOPE_ADMISSION.md) distinguishes exact structural
+checks from trusted mathematical review of complete simultaneous intervals.
+It preserves the frozen diagnostic parent and all eleven ideals/twenty-two
+marked outcomes. No matching identifier or hash establishes scientific truth;
+missing evidence causes refusal. This is a prospective design without an
+adapter, native interval data, sampling or operational admission. Both
+diagnostic protocols and their independent run prerequisites are unchanged.
+
 ## Separate application diagnostic
 
 The [one-birth width diagnostic](WIDTH_DIAGNOSTIC.md) connects the original-law

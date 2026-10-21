@@ -136,3 +136,13 @@ or running any sampler. No acquisition, scientific sampling, diagnostic
 threshold change, historical custody repair, production qualification or RET
 research follows from this component. The [publication evidence
 boundary](PUBLICATION_NOTE.md) remains in force.
+
+
+## Complete-row admission boundary
+
+The [prospective admission design](ENVELOPE_ADMISSION.md) binds endpoints and
+simultaneous coverage to the declared law, parent, sector, old marking and
+complete ordered row. The frozen diagnostic uses eleven ideals and twenty-two
+marked outcomes; the distinct eight-ideal P4 theorem cannot substitute for it.
+Structural checks do not establish mathematical validity or authenticity.
+No adapter, native interval certificate or operational admission is supplied.
