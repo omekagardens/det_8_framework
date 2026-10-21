@@ -25,6 +25,8 @@ coordination discussion.
 
 [The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) gives conditional finite-time deletion-distance bounds and an almost-sure liminf deletion fraction of at least one half for fixed intrinsic targets with a common sublinear height envelope under the selected half-scale baseline. The dense bounded-aspect Ferrers example needs occupancy and aspect controls; thin hooks defeat aspect alone. Unrestricted Ferrers defect and the separate optimizer remain unresolved. This optional law/target screen supplies no physical readout, dimension or geometry bridge.
 
+[The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) identifies the complete probability of height-spanning ideals and relates its actual-history Cesaro average to normalized height almost surely and in mean square. Weaker expectation and probability conclusions remain distinct. The proper-ideal example is a finite mechanism; the optional full-capacity, history-weighted height objective and strict restoration establish conditional admissibility, not sublinear height or geometry. Existing Ferrers objectives remain unchanged, and no physical readout is supplied.
+
 ## What is established
 
 | Area | Published result | Boundary |

@@ -275,3 +275,17 @@ gauge. Occupancy and aspect are both required for the stated Ferrers
 example; thin hooks defeat aspect-only height control. The proof does not
 settle unrestricted Ferrers defect, the separate optimizer, or an infinite
 harmonic extension, and provides no physical readout or geometry bridge.
+
+## Complete height drift and optional law design
+
+[The height-drift criterion](HEIGHT_DRIFT_LAW_SELECTION.md) shows why a
+candidate must control all height-spanning ideals along its actual history,
+not just the full slot. Its proper-ideal example is a finite mechanism,
+not an alternative all-size stochastic counterlaw. The proposed separate
+height objective uses the full marked capacity polytope, actual history
+weights and every ideal occurrence; strict restoration preserves conditional
+admissibility but does not prove sublinear growth or geometry. Almost-sure
+drift decay remains distinct from the weaker expectation and probability
+modes. Paired coordinate gauges preserve the law, while changed allocations
+require recomputing subsequent prefixes. No existing Ferrers objective,
+physical readout or DET-forced selector is supplied or replaced.

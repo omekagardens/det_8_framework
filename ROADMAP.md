@@ -16,6 +16,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) adds finite-time bounds and an almost-sure normalized deletion-distance lower bound for fixed sublinear-height targets under the selected all-layer half-scale baseline. It preserves the balanced thin-hook failure of aspect-only Ferrers control and leaves unrestricted Ferrers defect and optimizer asymptotics open. The law and target are optional; no physical readout, dimension or geometry bridge follows.
 
+[The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) adds exact height-compensator tracking almost surely and in mean square, with weaker convergence modes kept separate. A proper ideal can raise height, so controlling only full births is insufficient. The optional full-capacity, history-weighted height criterion and strict restoration give conditional admissibility without a proved sublinear-height law or geometry result. The finite example is not an all-size counterlaw; existing Ferrers objectives and physical-readout limitations remain.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

@@ -23,6 +23,8 @@ assessment, with its original evidence limits.
 
 [The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) records a conditional mathematical obstruction for fixed intrinsic targets with a common sublinear height envelope, including finite-time bounds under the selected half-scale baseline. Its dense bounded-aspect Ferrers target requires occupancy as well as aspect; the thin-hook counterexample is retained. No unrestricted-Ferrers or optimizer result, physical readout or scientific execution is supplied or authorized.
 
+[The height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md) states the actual-history quantity a proposed admitted law must control, including height-raising proper ideals. Almost-sure drift decay is a stronger obligation than the weaker expectation and probability estimates. The separate full-capacity height objective uses actual history weights; strict restoration does not prove sublinear growth or target geometry. Neither an alternative all-size counterlaw nor scientific execution is supplied or authorized, and existing Ferrers objectives remain unchanged.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

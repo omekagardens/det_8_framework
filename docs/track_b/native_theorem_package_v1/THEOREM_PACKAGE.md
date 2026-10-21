@@ -921,3 +921,16 @@ both occupancy and aspect controls; balanced thin hooks disprove the
 aspect-only premise. Unrestricted Ferrers defect and the separate optimizer
 remain unresolved. The target and native law are optional choices; the
 result supplies no physical readout, dimension or geometry bridge.
+
+## Height drift as a necessary law-selection test
+
+[The height-drift criterion](HEIGHT_DRIFT_LAW_SELECTION.md) identifies the
+complete probability of a height-spanning precursor, including proper
+ideals, and proves that its actual-history Cesaro average tracks normalized
+height almost surely and in mean square for each admitted all-size law.
+It distinguishes the almost-sure requirement from expectation, mean-absolute
+and in-probability conclusions. The separate full-capacity, history-weighted
+height objective and strict restoration give conditional admissibility;
+they prove neither sublinear height nor target geometry. The finite proper-
+ideal example is not an alternative all-size counterlaw, and the existing
+Ferrers objective and its unresolved questions remain unchanged.
