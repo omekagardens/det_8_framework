@@ -1,3 +1,34 @@
+# Half-scale event availability: independent adjudication
+
+The [conditional availability theorem](../../docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md)
+has passed independent manual proof review. For one actual eligible prefix,
+its own regular perturbation and compact positive-parameter neighborhood, the
+selected whole-layer half-scale law gives a positive diagnostic-event floor.
+With additional exact iid observation, this yields a finite symbolic raw cap
+and separate guarantees for coverage, conditional error, power and abstention.
+
+The normalization is an optional probability-law prescription. The earlier
+[arbitrary-scale no-go](../../docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md)
+still holds on its larger class. No actual eligible occurrence, numerical
+native event rate or cap, cross-prefix uniformity, physical readout or useful
+application advantage is supplied. The original numerical protocol is unchanged;
+the new cap is a distinct hypothetical design. Current source/readback checks
+and independent proof review do not reconstruct historical custody. See the
+[publication scope](../../docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md).
+
+The next native question asks whether the same prescribed all-layer baseline
+forces linear intrinsic longest-chain growth along one native history, without
+an iid trajectory assumption. That work is unreviewed and excluded here.
+A physical prediction/readout correspondence remains missing. The completed
+prospective GWOSC replay is a separate bounded calculation. The synthetic
+candidate's rejected raw-cost advantage is unchanged; execution is not selected.
+Historical custody failures, protected validation, frozen numerical protocols,
+operational ABSTAIN and the RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Synthetic benchmark design: independent adjudication
 
 The [separate application plan](../../docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md)

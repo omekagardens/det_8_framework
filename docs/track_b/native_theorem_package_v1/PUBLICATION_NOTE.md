@@ -377,3 +377,19 @@ coverage. The result does not assert exact-law failure or physical
 falsification. Prior review exposure and manual author construction are
 distinguished from later independent review/checks. Private records remain
 withheld; original protocols, numerical designs and the RET pause are unchanged.
+
+## Half-scale availability theorem derivative
+
+[Half-scale event availability](HALF_SCALE_EVENT_AVAILABILITY.md) preserves
+the source manuscript's conditional scientific text, mathematics and
+dependency table, with public dependency links and private administrative
+metadata replaced by an explicit evidence-scope statement. Source-author
+manual construction is distinguished from later independent review and
+its separate checks. The result concerns one actual eligible fixed prefix
+on its own fixed compact positive-lambda neighborhood under an optional
+whole-domain half-scale law; exact iid access is an extra premise of its
+finite symbolic prospective cap. It is neither a numerical cap nor an
+actual occurrence or physical-readout validation. The original diagnostic
+design, frozen protocols, arbitrary-scale limitation and RET pause remain
+unchanged. This public exposition does not assert executable custody of
+private sources or authorize implementation or a benchmark.

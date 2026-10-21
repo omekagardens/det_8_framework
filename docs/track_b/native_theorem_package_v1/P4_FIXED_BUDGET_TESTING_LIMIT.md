@@ -540,3 +540,15 @@ reproduction. This edition is conditional mathematical exposition, not an
 executable installation or an independently replayable custody package.
 See the [publication note](PUBLICATION_NOTE.md) and
 [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Restricted half-scale availability counterpart
+
+[Half-scale event availability](HALF_SCALE_EVENT_AVAILABILITY.md) states a
+conditional positive counterpart on one actual eligible fixed prefix and
+its own fixed compact positive-lambda neighborhood, after an optional
+whole-domain half-scale law choice. With exact iid access it gives a
+finite symbolic prospective raw cap, including abstention and coverage
+accounting. It does not give arbitrary-scale or cross-prefix uniformity,
+an evaluated numerical cap or physical validation. The fixed-budget
+limitation above retains its original domain and quantifiers; the original
+40,000 / 400,000 / 38,825 diagnostic design remains unchanged.

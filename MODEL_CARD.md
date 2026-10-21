@@ -32,6 +32,8 @@ three-slit null) and remain the open frontier; see
 
 **Synthetic benchmark scope.** The [separate application plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) specifies one candidate, three fair references and fixed core/stress evaluation controls on invented probabilities. The candidate’s raw-observation cost advantage is analytically rejected before execution. Any later conformance result would concern a particular synthetic implementation, not native probabilities, physical readout or DET validation. No implementation, sampling, interval calculation or benchmark is performed or authorized here.
 
+The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) is conditional on one actual eligible fixed prefix and its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law, not a law forced by coordinate conventions or identities. It gives a positive symbolic availability floor and, with exact iid access, a finite symbolic prospective raw cap including error, abstention, coverage and power. It supplies no numerical cap, actual eligible occurrence, noisy-channel transfer or physical validation. The original 40,000 / 400,000 / 38,825 diagnostic design and arbitrary-scale fixed-budget limitation remain unchanged.
+
 ---
 
 ## 1. What DET Is

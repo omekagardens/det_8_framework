@@ -17,6 +17,8 @@ assessment, with its original evidence limits.
 
 **Separate application specification.** The [synthetic benchmark plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) fixes core/stress grids, fresh independent held-out controls, simultaneous inference, costs and failure reporting. Raw-observation cost superiority is already analytically rejected; only synthetic conformance remains the proposed endpoint. Future implementation and evaluation need separate authorization. No data generation, interval evaluation or benchmark has run, and no native or physical claim is added.
 
+[Half-scale event availability](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) records a restricted conditional positive result: one actual eligible fixed prefix, its own fixed compact positive-lambda neighborhood, and an optional whole-domain half-scale law give a symbolic availability floor. A finite symbolic prospective raw cap additionally requires exact iid access and includes abstention and coverage accounting. No numerical cap, actual occurrence, implementation or physical validation is supplied; the original diagnostic design and arbitrary-scale limitation remain unchanged. No implementation or benchmark is authorized by this theorem.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

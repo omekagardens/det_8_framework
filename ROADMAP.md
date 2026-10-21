@@ -10,6 +10,8 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 
 **Separate synthetic application project.** The [diagnostic benchmark design](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) is a frozen prospective specification using invented probabilities. Its candidate cannot beat the standard sequential reference on mean raw-observation cost in the core class; a future pass would establish only declared synthetic conformance. It authorizes no implementation, held-out generation or execution and supplies no practical-value or physical-validation success.
 
+The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) adds a conditional positive result for one actual eligible fixed prefix on its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law. Its finite symbolic prospective raw cap requires exact iid access and retains error, abstention, coverage and power accounting. This establishes no numerical cap, actual eligible occurrence, cross-prefix or arbitrary-scale uniformity, or physical readout. The earlier fixed-budget limitation and original diagnostic design remain unchanged.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

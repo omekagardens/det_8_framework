@@ -19,6 +19,8 @@ coordination discussion.
 
 **Separate synthetic application design.** The [three-category benchmark plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) fixes one candidate and three references on invented probabilities. Its manual design rejects the candidate’s raw-observation cost superiority over the sequential reference; the proposed endpoint is only minimal synthetic operating-point conformance. No implementation, sampling or benchmark has run or is authorized. This supplies no native-law, practical-value or physical-validation result.
 
+[Half-scale event availability](docs/track_b/native_theorem_package_v1/HALF_SCALE_EVENT_AVAILABILITY.md) proves a conditional positive symbolic event-availability floor for one actual eligible fixed prefix on its own fixed compact positive-lambda neighborhood under an optional whole-domain half-scale law. With exact iid access, it yields a finite symbolic prospective raw cap with error, abstention, coverage and power accounting. It supplies no numerical cap, actual eligible occurrence or physical readout; the arbitrary-scale fixed-budget limitation and original 40,000 / 400,000 / 38,825 diagnostic design remain unchanged.
+
 ## What is established
 
 | Area | Published result | Boundary |
