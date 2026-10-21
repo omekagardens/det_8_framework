@@ -333,3 +333,14 @@ coexists with a common scale-zero closure point. This is conditional manual
 mathematics, with no original coefficient authentication, uniform finite-sample
 guarantee or physical channel. Private source/check records remain withheld
 under the public evidence policy.
+
+## Conditional prefix-family separator manuscript
+
+The [prefix-family manuscript](P4_PREFIX_FAMILY_SEPARATOR.md) retains actual-law
+membership, complete held-row binding and the possibility of a singleton
+family. Its general-mixture corollary requires measurable shape probabilities
+and almost-sure strict positivity on admitted laws. The pointwise boundary
+criterion does not require a strict gap below an unattained infimum.
+No second qualifying prefix, universal DET result, numerical probability
+effect, uniform stability guarantee or physical channel is supplied.
+Private source/check records remain withheld under the public evidence policy.
