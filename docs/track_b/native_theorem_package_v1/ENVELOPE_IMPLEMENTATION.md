@@ -146,3 +146,14 @@ complete ordered row. The frozen diagnostic uses eleven ideals and twenty-two
 marked outcomes; the distinct eight-ideal P4 theorem cannot substitute for it.
 Structural checks do not establish mathematical validity or authenticity.
 No adapter, native interval certificate or operational admission is supplied.
+
+
+## Bounded structural admission implementation
+
+The [admission adapter](ENVELOPE_ADMISSION_IMPLEMENTATION.md) implements a
+closed two-arm certificate-A profile with complete D4-A outcome binding, exact
+interval/fair-bit/risk checks and recomputed arithmetic certificates. Scientific
+validity remains a separate trusted-caller review premise; identifiers and
+hashes cannot establish it. Synthetic software checks supply no native
+intervals, sampler, benchmark or physical channel. Operational status remains
+ABSTAIN, and both frozen diagnostic protocols are unchanged.

@@ -290,3 +290,24 @@ local under the [metadata-obscured publication policy](../../coordination/REDACT
 They are withheld evidence, not files claimed to be present in this edition.
 The public payload is a reviewed mathematical exposition and scoped result
 report, not an executable installation or a replayable custody archive.
+
+## Conditional child-shape observation manuscript
+
+The [child-shape manuscript](P4_CHILD_SHAPE_OBSERVATION.md) preserves the
+complete fixed-pair experiment and its mixture distinctions. It removes the
+supplied parent embedding and newborn identity while retaining exact access
+to the complete child order; no physical observation channel is supplied.
+Private source/check correspondence and administrative records remain
+withheld under the public evidence policy. This addition is a conditional
+manuscript, not executable custody or an independently replayable archive.
+
+
+## Bounded structural admission implementation
+
+The [admission adapter](ENVELOPE_ADMISSION_IMPLEMENTATION.md) implements a
+closed two-arm certificate-A profile with complete D4-A outcome binding, exact
+interval/fair-bit/risk checks and recomputed arithmetic certificates. Scientific
+validity remains a separate trusted-caller review premise; identifiers and
+hashes cannot establish it. Synthetic software checks supply no native
+intervals, sampler, benchmark or physical channel. Operational status remains
+ABSTAIN, and both frozen diagnostic protocols are unchanged.

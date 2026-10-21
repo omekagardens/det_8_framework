@@ -799,3 +799,13 @@ its strict-probability manifest identity is
 These identify the fixed inputs. Hashes alone are not proofs and are not new certificate reads or replays.
 
 Scientific reasoning in this consolidation is manual. Inherited finite coefficient lemmas remain visibly inherited; the historical coordinate dictionary and actual branch are not filled by assumption. The preserved evidence record retains the entire predecessor and its designated recovery material, including missing original execution records, truncated displays, failed source-verification and receipt-matching attempts, and earlier provisional corrections. Present integrity checks do not erase or repair those historical limitations.
+
+## Complete P4 child shape as a sufficient observation
+
+The [child-shape manuscript](P4_CHILD_SHAPE_OBSERVATION.md) gives a conditional
+fixed-pair sufficiency theorem for the complete unlabelled, unmarked child
+order. The seven shapes preserve full-row TV; their coarsest sufficient
+partition has four blocks locally off the exception and three at it. The
+result removes the supplied parent embedding and newborn identity, retains
+exact complete-order access, and supplies no physical observation channel.
+Its equal- and unequal-mixture conclusions use the distinct benchmarks in §5.

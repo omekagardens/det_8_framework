@@ -207,3 +207,14 @@ claim, admitted arithmetic and the chosen decision's necessary premises. Full
 deployment qualification remains separate. Existing custody restrictions and
 the RET-only pause remain intact; publication or execution is not authorized
 by the manuscript.
+
+
+## Bounded structural admission implementation
+
+The [admission adapter](ENVELOPE_ADMISSION_IMPLEMENTATION.md) implements a
+closed two-arm certificate-A profile with complete D4-A outcome binding, exact
+interval/fair-bit/risk checks and recomputed arithmetic certificates. Scientific
+validity remains a separate trusted-caller review premise; identifiers and
+hashes cannot establish it. Synthetic software checks supply no native
+intervals, sampler, benchmark or physical channel. Operational status remains
+ABSTAIN, and both frozen diagnostic protocols are unchanged.
