@@ -303,6 +303,18 @@ half-scale family: it has been proved from the finite continuous prefix.
 There remains no principle forcing that selection, and numerical
 evaluation is a distinct, unperformed task.
 
+## Related complete-row observation
+
+The [complete-row comparison](P4_OBSERVATION_SUFFICIENCY.md) uses this selected
+scale to compare width with the full \(P_4\) one-birth row, conditional on
+\(\Xi>1\). Width retains all TV distinguishing power at and to the left of
+the exception, but loses a strictly positive amount to the right. The
+polynomial-potential property yields local Lipschitz regularity of the
+finite maximum and scale, giving a positive first-order absolute loss there.
+Arbitrary positive common scales need not have that lower rate. This
+distinguishes TV-optimality from statistical sufficiency and supplies no
+numerical effect or physical detector.
+
 ## Public premises and scope
 
 The [theorem package](THEOREM_PACKAGE.md) supplies the admitted

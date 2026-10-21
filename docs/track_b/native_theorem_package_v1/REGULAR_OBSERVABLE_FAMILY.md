@@ -344,6 +344,15 @@ prescription; the general-family result above requires no such prescription.
 An arbitrary positive compatible common-scale continuation need not have
 continuity or a uniform absolute contrast. No numerical bound is supplied.
 
+The [complete-row comparison](P4_OBSERVATION_SUFFICIENCY.md) distinguishes
+this positive width contrast from retaining all total-variation distinguishing
+power. On this same conditional neighborhood, width attains the full-row TV
+at and to the left of the exception, and strictly loses TV to the right.
+The loss divided by the common scale is first order on the right; its absolute
+first-order behavior additionally uses the selected half-scale rule.
+Even where the TV loss is zero, width is not a sufficient statistic for the
+complete two-law pair. No numerical or physical observation is supplied.
+
 No sharpness, h8/30/33/38 transfer, all-size continuation, other-support
 classification, informative quantum dynamics, geometric or physical claim
 follows. This result neither changes the existing application protocols nor

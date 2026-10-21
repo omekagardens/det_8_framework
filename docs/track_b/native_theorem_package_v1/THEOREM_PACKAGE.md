@@ -20,6 +20,8 @@ The [regular observable family](REGULAR_OBSERVABLE_FAMILY.md) gives a kernel sec
 
 The [baseline-scale theorem](BASELINE_SCALE_THEOREM.md) separately fixes the full-layer half-scale continuation on the changed prefix. It proves continuity and a symbolic positive lower bound for \(\rho^H_\lambda\), upgrading the regular family's normalized \(P_4\) contrast to a uniform absolute lower bound on its neighborhood, conditional on \(\Xi>1\). The maximum covers every marked six-parent and every proper ideal; the scale rule is an optional law choice. An explicit positive compatible continuation shows why arbitrary scale choices need not share the bound. No numerical effect size, occurrence selection or physical detector is supplied.
 
+The [complete-row observation comparison](P4_OBSERVATION_SUFFICIENCY.md), conditional on \(\Xi>1\), shows that \(P_4\) width attains the full row's total variation at the exception and to its left, but strictly loses it to the right on the admitted neighborhood. The normalized loss has a positive first-order right-hand term; the absolute loss has that order for the selected half-scale law. Width is nevertheless not a statistically sufficient summary anywhere in that neighborhood. Complete child-order access and the parent embedding remain assumed.
+
 ## 1. Mathematical object and admitted model
 
 A state consists of a finite order \(P\), immutable binary marks \(r:P\to\{0,1\}\), and an arbitrary complex positive-semidefinite payload \(\mathfrak D\) on a fixed carrier. An ideal \(S\subseteq P\) is a downward-closed subset, including the empty and full ideals. A birth appends one maximal vertex with strict past exactly \(S\); write the resulting order \(P+S\). The newborn mark \(b\) is independently fair. The branch map is

@@ -1,0 +1,55 @@
+{
+  "scope": "Conditional complete-row observation theorem and prospective interval-admission design; no scientific or operational execution acceptance.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1054142,
+      "sha256": "a5e40283325f40e48cb55c518dcd2ba5a838816a6aac45fbfdad4963e9ba87e0"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 906273,
+      "sha256": "336a2f323949e2aeb459b18f06c21f55a58570905aa768c36bbf7b29bd713181"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 676429,
+      "sha256": "ae72fe1253b7535a55bd040ef9f4da5a5e4e787dfdc1a2d9ae0f60ee92945b66"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1303138,
+      "sha256": "b7f2cb1600b2e032a9f0c2d1b41e15f582bd443d22ab16ace1ebaaeebd51f5a2"
+    },
+    "docs/track_b/native_theorem_package_v1/BASELINE_SCALE_THEOREM.md": {
+      "bytes": 17328,
+      "sha256": "878d48a3d9b7fc993fff8d1bc8762a1ef39436b73d0dcc58fff22b2d7504abba"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_ADMISSION.md": {
+      "bytes": 14947,
+      "sha256": "7da9c4e6783740196e80c5795b4c74c803bd4da21f9e5c8b0f420630cce03455"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_IMPLEMENTATION.md": {
+      "bytes": 8637,
+      "sha256": "1479df62355128bad3d3e983a22ea1277232c3aa28eb48eb3b8e65d16d446fcf"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_OBSERVATION_SUFFICIENCY.md": {
+      "bytes": 16316,
+      "sha256": "4f6052bfabba189f7e111f7f65e2e18c0203e25a340f2aa8a382d9f9eaf62405"
+    },
+    "docs/track_b/native_theorem_package_v1/PROXY_ENVELOPE.md": {
+      "bytes": 18274,
+      "sha256": "8aecf85f635812c42a2d914c2a1b2679a4239f2423d77a1764e749ad7b948751"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 17224,
+      "sha256": "0ba78490a6456a3c637b7e7be587b2335a6c357642f22500d3a87c682e49402f"
+    },
+    "docs/track_b/native_theorem_package_v1/REGULAR_OBSERVABLE_FAMILY.md": {
+      "bytes": 16007,
+      "sha256": "e18aeec746c64b1d868e632c7974ed87728bbde7d7338fb586ab4ad38e688f82"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 47116,
+      "sha256": "dbfa3a91ef73c58b8935e66d126c2a75e3f862c0b8444462df3ed8680e7fece3"
+    }
+  },
+  "withheld": "Private machine/custody/source correspondence, raw command receipts and administrative scripts remain local.",
+  "limitations": "Occurrence remains conditional; no numerical native effect, physical detector, adapter, native interval certificate or benchmark result. Frozen protocols, historical failures and RET pause unchanged."
+}

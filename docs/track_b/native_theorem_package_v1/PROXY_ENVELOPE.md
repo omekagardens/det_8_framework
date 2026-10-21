@@ -156,3 +156,13 @@ The non-sharp envelope example in section 3 is checked separately. These arithme
 This design closes a finite mathematical question: feasibility, a deterministic rational proxy construction, and a universal-in-the-envelope TV allowance can be obtained without acquiring target coefficients or running a sampler. An implementation, independently established complete native probability intervals and their provenance, a valid conditional bit source/channel, a certified numerical effect, feasible costs/failure treatment and held-out freeze remain separate missing inputs. No native-row acquisition, scientific sampling, observed-data result, measured failure rate, application advantage, physical observation, production qualification, or new DET claim follows.
 
 The dependencies are the [categorical-map note](CATEGORICAL_MAP.md), [optional approximate protocol](APPROXIMATE_WIDTH_DIAGNOSTIC.md) and [exact width diagnostic](WIDTH_DIAGNOSTIC.md). Exact private source correspondence and arithmetic receipts remain withheld under the [publication evidence boundary](PUBLICATION_NOTE.md). Existing scientific inputs, diagnostic conditions, historical custody failures and the RET-only pause are preserved. This prospective contract supplies no authorization or result for a sampling run.
+
+
+## Complete-row admission boundary
+
+The [prospective admission design](ENVELOPE_ADMISSION.md) binds endpoints and
+simultaneous coverage to the declared law, parent, sector, old marking and
+complete ordered row. The frozen diagnostic uses eleven ideals and twenty-two
+marked outcomes; the distinct eight-ideal P4 theorem cannot substitute for it.
+Structural checks do not establish mathematical validity or authenticity.
+No adapter, native interval certificate or operational admission is supplied.

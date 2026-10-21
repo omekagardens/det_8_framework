@@ -1,3 +1,51 @@
+# Complete-row observation and interval-admission design — 21 October 2026
+
+The independently reviewed [P4 observation theorem](docs/track_b/native_theorem_package_v1/P4_OBSERVATION_SUFFICIENCY.md)
+distinguishes positive width contrast from preserving all total-variation
+distinguishing power. Conditional on Xi>1, on the admitted fixed-amplitude
+neighborhood, width attains full-row TV at and to the left of the exception
+but strictly loses it to the right. The exact loss is the negative part of
+the T4 signed correction. All eight ideals and sixteen marked outcomes remain.
+Width is not statistically sufficient anywhere on this neighborhood, including
+where it is TV-optimal. The proof supplies maximizing events and scale-free
+relative loss. First-order absolute loss uses the explicitly chosen half-scale
+law; arbitrary positive scales need not give the same lower rate. Complete
+child-order access and the parent embedding are still assumed. Actual Xi,
+numerical effects, neighborhood radius and a physical detector remain missing.
+
+The [complete-row admission design](docs/track_b/native_theorem_package_v1/ENVELOPE_ADMISSION.md)
+states prospective interval-consumption requirements for the separately
+implemented [envelope constructor](docs/track_b/native_theorem_package_v1/ENVELOPE_IMPLEMENTATION.md).
+It binds interval endpoints and simultaneous coverage to the fixed law, target,
+sector, marking and complete outcome order. Its concrete diagnostic parent
+is P*=C3 ordinal-sum A3, with eleven ideals and twenty-two marked outcomes;
+it must not be replaced by the distinct eight-ideal P4 theorem row.
+Machine-checkable structure is separate from trusted mathematical evidence.
+A content fingerprint establishes identity, not scientific truth or approval.
+No adapter, native interval certificate, sampler or operational admission is
+supplied. Both frozen diagnostic protocols remain ABSTAIN / NOT RUN.
+
+Manual conditional proofs, finite invented probability checks and documentary
+source identity checks have distinct roles. None is actual native parameter
+selection, benchmark execution, physical validation or custody reconstruction.
+The public derivative preserves the full proof, tables, counterexample and
+limitations; private administrative transcripts and correspondence remain
+withheld under the [publication policy](docs/coordination/REDACTED_PUBLICATION.md).
+
+The bounded prospective GWOSC result and all historical failures remain
+unchanged. Production qualification remains zero; RET is paused, and Option B
+and Status M remain unchanged. Physical prediction and application evaluation
+remain separate projects. The next native question is whether child shape
+alone removes the parent-embedding access premise; its pending results are
+not part of this checkpoint. The next application deliverable is a bounded
+structural admission adapter with synthetic refusal cases; actual scientific
+input validity and operational execution remain separate prerequisites.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Full-layer scale theorem and exact probability-envelope component — 20 October 2026
 
 The [baseline-scale theorem](docs/track_b/native_theorem_package_v1/BASELINE_SCALE_THEOREM.md)
