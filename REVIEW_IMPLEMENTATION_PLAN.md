@@ -1,3 +1,37 @@
+## 2026-10-21 — Joint height and pair-density obstruction closes the family
+
+The [joint Ferrers obstruction](docs/track_b/native_theorem_package_v1/FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md)
+proves that a square-root upper bound on height together with vanishing
+incomparable-pair density forces the maximum induced retained fraction in
+unrestricted finite filled coordinatewise Ferrers cell orders to tend to
+zero. It includes explicit finite constants, a size threshold and the
+strict integer contrapositive. A hypothetical macroscopic retained diagram
+must belong to a fixed dense bounded-aspect target under the height bound.
+
+Combining the accepted same-law premises closes the factorial-power q=1
+case. With the earlier q>=2 results, deletion fraction tends to one for each
+separately fixed integer q>=1. The q=1 argument adds pair-density information;
+the earlier height-only limitation remains correct. No q=1 rate, growing-q
+uniformity or all-admitted-law conclusion is proved. The quadratic law's
+separate height-only obstruction is unchanged. The theorem concerns filled
+coordinatewise partition-cell orders and does not extend to every
+dimension-two order or establish physical spacetime geometry.
+
+Manual coordinator and independent proof reviews precede the separate
+publication review. Exact current source and receipt correspondence was
+checked; historical custody failures and metadata-only limitations remain.
+The next bounded question tests whether a fixed Bernoulli subset law can
+be fully admitted while retaining a positive linear-size chain and having
+vanishing pair density. This optional-law question is pending, not an
+accepted result or a dense two-dimensional target approximation.
+
+The bounded prospective public-data calculation remains separate from
+physical theory: a native preparation/readout correspondence is still
+missing. Application success requires its own fixed benchmark, baselines,
+costs, failure rates and held-out evaluation. Protected-validation gates,
+historical custody limits, operational ABSTAIN, production qualification
+zero, Option B/Status M and the RET-only pause remain unchanged.
+
 # Ferrers height: a sharp capacity bound and retention obstruction
 
 The [Ferrers height-retention theorem](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md)

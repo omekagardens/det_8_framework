@@ -394,3 +394,21 @@ unrestricted retention, while the prior fixed dense-target deletion result
 still holds. This extends the obstruction to the already defined cell
 class without redesigning the target or extending the result to every
 admitted law, every dimension-two order, other Ferrers notions or physics.
+
+## Joint premises close the fixed first-exponent boundary
+
+The [joint Ferrers obstruction](FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md)
+combines a square-root height upper bound with vanishing incomparable-pair
+density. For the unrestricted class of filled coordinatewise partition
+cell orders, it proves that the deletion fraction tends to one almost
+surely for each separately fixed integer factorial-power law \(q\ge1\),
+under its own measure. At \(q=1\), the additional density premise is
+essential to this argument; height alone remains inconclusive.
+
+The finite reduction fixes its parameters before varying size or choosing
+a subsequence. It preserves the prior height-only results and the distinct
+quadratic-law obstruction; the quadratic law's positive density lower
+limit is not a vanishing-density premise. No convergence rate is extracted
+from unspecified little-o, no simultaneous-law coupling is assumed, and
+no target redesign, all-law theorem, all-dimension-two conclusion or
+physical interpretation is supplied.
