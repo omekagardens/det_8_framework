@@ -22,6 +22,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) adds a complete from-empty admitted family with almost-sure intrinsic height \(O(\sqrt N)\) and limsup constant at most \(2\mathrm e\). The construction uses per-subset factorial weights, complete marked PSD-map diamonds and a symbolic path-counting tail. It is distinct from the selected half-scale law and the earlier separate finite-prefix boundary witnesses. Neither arbitrary-prefix preservation, a DET-forced law nor geometric or physical interpretation follows.
 
+[The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) adds an almost-sure incomparable-fraction limit of zero for the same optional factorial-subset law. A symbolic three-edge argument supplies the pair-density result independently of the sublinear-height bound. A separately declared fixed positive-density target premise yields induced deletion fraction tending to one; it is not established for the existing Ferrers class. The law, prior height theorem and target definitions remain unchanged, and neither eventual total ordering nor a physical-geometry exclusion follows.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

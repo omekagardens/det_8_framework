@@ -1,3 +1,36 @@
+# Ordering fraction of the factorial-subset law — reviewed update
+
+[The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md)
+proves that the intrinsic fraction of incomparable pairs tends to zero
+almost surely under the fixed optional factorial-subset law. A symbolic
+three-edge path argument and summable pair union establish the result.
+Birth-coordinate independence is used explicitly; independence within one
+selected subset is not assumed. This is compatible with the law's
+[square-root height upper bound](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md)
+and does not imply an eventual total order or a chain of linear size.
+
+For any separately fixed target class containing empty whose sufficiently
+large members have a uniform positive incomparable-pair density, the theorem
+bounds retained induced size and proves that the required deletion fraction
+tends to one. The density premise is essential. It is not yet established
+here for the existing [dense bounded-aspect Ferrers target](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md).
+The next bounded native question is to prove or refute that exact premise
+without changing the target or law; no successor result is claimed.
+
+This is a construction-specific mathematical result, not a DET-forced law,
+an unrestricted Ferrers conclusion or a physical geometry exclusion.
+Native symbolic review and separate exact editorial review are complete.
+Private receipts and fingerprints remain withheld, and historical custody
+limits persist. Physical preparation and observation correspondence remain
+missing. The completed prospective replay, separate application benchmark
+criteria, protected validation, Operational ABSTAIN and RET pause persist.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
+
 # Factorial-subset law and sublinear intrinsic height — reviewed update
 
 [The factorial-subset theorem](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md)

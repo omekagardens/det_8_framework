@@ -962,3 +962,16 @@ preserves an arbitrary fixed prefix nor derives a selector from DET.
 Sublinear intrinsic height alone supplies no target approximation, geometry
 or physical readout. Earlier finite-prefix and half-scale results keep
 their original scopes.
+
+## Ordering fraction of the fixed factorial-subset law
+
+[The ordering-fraction theorem](ORDERING_FRACTION_OF_FACTORIAL_LAW.md)
+proves that the fixed optional factorial-subset law's incomparable-pair
+fraction tends to zero almost surely, while its sublinear-height bound
+remains valid. Pair-density convergence does not imply eventual total order
+or a chain containing almost all vertices. For a separately declared fixed
+target class whose sufficiently large members have a fixed positive
+incomparable-pair density, induced retained size is \(o(N)\) and the vertex-
+deletion fraction tends to one almost surely. The extra density premise
+is not established for the earlier Ferrers target. This is an intrinsic
+conditional diagnostic, not a redesigned law or physical-geometry exclusion.

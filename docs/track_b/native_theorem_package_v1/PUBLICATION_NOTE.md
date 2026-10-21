@@ -469,3 +469,20 @@ scientific execution or machine proof is claimed. The result is one optional
 all-size law from empty, not a prefix-preserving or DET-forced selector.
 Its intrinsic-height bound and actual-history drift conclusion supply no
 geometry, physical readout or empirical validation. RET remains paused.
+
+## Ordering-fraction manuscript derivative
+
+[The ordering-fraction theorem](ORDERING_FRACTION_OF_FACTORIAL_LAW.md)
+retains all nine scientific sections and mathematical spans verbatim.
+Title/status metadata and the administrative source tail are mapped to
+public references, preserving six scientific source roles and distinguishing
+native predecessor provenance from historical public snapshots. Full author
+captures, metadata-only receipt readbacks and worker reports remain separate;
+the two workers' review scopes and the recorded nonexecuting administrative
+parse failure and recovery are retained. Manual construction is separate from
+later independent acceptance, with no atomic original-custody or machine-proof
+claim. The fixed law's pair-density limit coexists with sublinear height.
+Target deletion tends to one only under the separately declared density
+premise, which is not established for the earlier Ferrers class. No physical
+exclusion, scientific execution or empirical validation follows. RET remains
+paused.

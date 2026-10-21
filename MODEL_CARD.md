@@ -44,6 +44,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) proves \(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely for one optional all-size law initialized from empty. Its ideal kernel uses induced-ideal maxima; the cardinality distribution includes the binomial multiplicity and is not independent inclusion within a subset. Complete diamonds include all newborn bits and every PSD payload. The exact full drift includes proper raising ideals and has no uniform row-decay claim. No arbitrary fixed prefix is preserved, no sharp constant or matching lower bound is proved, and no target approximation, dimension, geometry or physical validation follows. Existing separate-project boundaries remain unchanged.
 
+[The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) proves incomparable-pair fraction tending to zero almost surely for one fixed optional from-empty law, consistently with its sublinear-height bound. This is pair density, not eventual total ordering. The deletion-fraction limit of one is conditional on a separately declared fixed target class having a fixed positive incomparable-density floor for all sufficiently large members. Induced restriction preserves existing comparabilities; deleting DAG vertices and recomputing reachability is a different operation. The Ferrers density premise is not proved, and no physical model, geometry or empirical claim is excluded or validated.
+
 ---
 
 ## 1. What DET Is

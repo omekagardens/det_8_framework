@@ -29,6 +29,8 @@ assessment, with its original evidence limits.
 
 [The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) supplies a new optional all-size existence construction from empty and the almost-sure bound \(\limsup H_N/\sqrt N\le2\mathrm e\). This closes that existence question, while arbitrary-prefix preservation, rowwise optimization, sharper height asymptotics, target approximation and geometry remain outside the result. The complete actual-history drift conclusion includes proper raising ideals; uniform row decay is not asserted. No scientific execution or successor experiment is authorized.
 
+[The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) closes the fixed law's pair-density question: incomparable fraction tends to zero almost surely, despite sublinear height. Its conditional diagnostic forces induced retained size to be sublinear and deletion fraction to tend to one for a separately declared fixed target class with a fixed positive incomparable-density floor. Applying that diagnostic to the earlier Ferrers target would require a separate proof of the premise; none is supplied here. The next bounded question tests that existing target premise. No law redesign, eventual total-order conclusion, physical exclusion or scientific execution is authorized.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

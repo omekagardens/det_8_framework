@@ -31,6 +31,8 @@ coordination discussion.
 
 [The factorial-subset law](docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md) constructs an explicit admitted marked-order family from empty with \(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely. The optional per-subset factorial law satisfies complete marked PSD-map diamonds; inclusions within a subset are not independent. Complete height drift includes proper raising ideals and need not decay uniformly over rows. This resolves an all-size existence question, without preserving an arbitrary fixed prefix or deriving a DET-forced selector. Intrinsic sublinear height does not establish target approximation, geometry or physical readout.
 
+[The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) shows that the fixed factorial-subset law's incomparable-pair fraction tends to zero almost surely while its sublinear-height bound remains valid. For a separately declared fixed target class with a fixed positive incomparable-pair density in all sufficiently large members, the induced vertex-deletion fraction tends to one. The extra target premise is not proved for the earlier Ferrers class. Pair-density convergence is neither eventual total order nor a physical-geometry exclusion.
+
 ## What is established
 
 | Area | Published result | Boundary |
