@@ -8,6 +8,8 @@ defined below and in [Next Steps](NEXT_STEPS.md).
 
 **Conditional finite-budget limitation.** The [fixed-budget testing theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) applies to every admitted decision rule under a fixed finite raw cap in the stated iid model, conditional on an eligible positive-scale pair. It includes identity channels and the ABSTAIN trade-off: conditional error tolerances summing below one force coverage to vanish along the rare-event limit. This limits uniform testing, not exact positive-scale law distinction, and supplies no physical validation or falsification.
 
+**Separate synthetic application project.** The [diagnostic benchmark design](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) is a frozen prospective specification using invented probabilities. Its candidate cannot beat the standard sequential reference on mean raw-observation cost in the core class; a future pass would establish only declared synthetic conformance. It authorizes no implementation, held-out generation or execution and supplies no practical-value or physical-validation success.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

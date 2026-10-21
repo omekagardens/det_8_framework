@@ -1,0 +1,35 @@
+{
+  "scope": "Reviewed prospective synthetic benchmark design with rejected candidate expected raw-observation cost advantage; no execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1072074,
+      "sha256": "3d61fe64ecb09e4d4acc168e93c1e3c3d252c811e40b78af43768ce306958063"
+    },
+    "docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md": {
+      "bytes": 31904,
+      "sha256": "7d908336143764cadb3fd71bbc57daa0ac6744bdf48db73c7ce53777dcf7edfc"
+    },
+    "docs/applications/synthetic_channel_benchmark_v1/PUBLICATION_NOTE.md": {
+      "bytes": 2052,
+      "sha256": "832f98ee4d18334a7571e5001b25978edb09a13a040e2be3bc28d134f6fefc7c"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 924283,
+      "sha256": "2c7f9cc2466cadc69e43c3bfc9f7ddacb4088a907df05a40a41940513c470215"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 694439,
+      "sha256": "44cc94ee312d614bafe46d144368eb5c3c02b1854ebf324c3097a4ca87e6d716"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1321148,
+      "sha256": "d46d16f1661232622116212af1b77cfe4e14afbd9f4641ff0a0c486c26393ca8"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 52030,
+      "sha256": "b2dd69a951102d84023c690d5aaafdcef802cd27251ee4f2c6f4a4aa04362218"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Invented synthetic probabilities, fixed mathematical models and design-only acceptance do not establish native occurrence, actual implementation performance, competitive application value, physical readout, historical custody or DET validation. Frozen protocols and RET pause unchanged."
+}

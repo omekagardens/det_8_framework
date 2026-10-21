@@ -30,6 +30,8 @@ three-slit null) and remain the open frontier; see
 
 **Fixed raw-budget testing scope.** The [fixed-budget theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) gives a conditional finite-observation limit for an actually admitted rare-event source pair under the declared iid model. Identity and known invertible channels, common randomized decisions and stopping by a fixed cap are included. Low conditional error with ABSTAIN and tolerance sum below one forces vanishing coverage. Exact positive-scale population laws can remain distinct; the result neither validates nor falsifies the physical theory.
 
+**Synthetic benchmark scope.** The [separate application plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) specifies one candidate, three fair references and fixed core/stress evaluation controls on invented probabilities. The candidate’s raw-observation cost advantage is analytically rejected before execution. Any later conformance result would concern a particular synthetic implementation, not native probabilities, physical readout or DET validation. No implementation, sampling, interval calculation or benchmark is performed or authorized here.
+
 ---
 
 ## 1. What DET Is

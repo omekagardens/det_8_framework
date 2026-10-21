@@ -15,6 +15,8 @@ assessment, with its original evidence limits.
 
 **Fixed-budget admission boundary.** The [fixed-budget testing theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) rules out uniform low false-positive probability with high power for a fixed finite raw cap over the conditional admitted rare-event family, including the identity channel. Low conditional error with ABSTAIN and tolerance sum below one requires vanishing coverage. Practical admission still needs a justified source class, observation model, budget and coverage/power requirement. Exact-law distinction remains possible; no physical falsification follows.
 
+**Separate application specification.** The [synthetic benchmark plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) fixes core/stress grids, fresh independent held-out controls, simultaneous inference, costs and failure reporting. Raw-observation cost superiority is already analytically rejected; only synthetic conformance remains the proposed endpoint. Future implementation and evaluation need separate authorization. No data generation, interval evaluation or benchmark has run, and no native or physical claim is added.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

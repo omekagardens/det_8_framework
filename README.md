@@ -17,6 +17,8 @@ coordination discussion.
 
 **Fixed raw-budget limit.** The [fixed-budget testing theorem](docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md) shows, conditional on an actually admitted small-scale pair and the stated iid observation model, that no fixed finite raw budget uniformly gives low false-positive probability and high power. The identity channel is included. With ABSTAIN, conditional error tolerances whose sum is below one force vanishing decision coverage in the limit. Exact population distinctions at positive scale can remain; this is no physical validation or falsification.
 
+**Separate synthetic application design.** The [three-category benchmark plan](docs/applications/synthetic_channel_benchmark_v1/BENCHMARK_PLAN.md) fixes one candidate and three references on invented probabilities. Its manual design rejects the candidate’s raw-observation cost superiority over the sequential reference; the proposed endpoint is only minimal synthetic operating-point conformance. No implementation, sampling or benchmark has run or is authorized. This supplies no native-law, practical-value or physical-validation result.
+
 ## What is established
 
 | Area | Published result | Boundary |
