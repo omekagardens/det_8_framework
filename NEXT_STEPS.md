@@ -41,6 +41,8 @@ The [Ferrers height and retention obstruction](docs/track_b/native_theorem_packa
 
 The [joint Ferrers obstruction](docs/track_b/native_theorem_package_v1/FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md) closes the remaining fixed \(q=1\) case by adding the vanishing-density premise to the square-root height bound; height alone remains inconclusive. For each separately fixed integer factorial-power law \(q\ge1\), the deletion fraction to unrestricted filled coordinatewise Ferrers cell orders tends to one almost surely under that law. The unspecified little-o premise gives no convergence rate. The target is unchanged, and no all-dimension-two, all-law or physical conclusion follows.
 
+The [Bernoulli-subset counterexample](docs/track_b/native_theorem_package_v1/BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md) separates the unrestricted retention question from the still-obstructed dense target. For each fixed \(p\in(0,1)\), this conditional admitted law has almost-sure lower limits at least \(p\) for height and unrestricted filled Ferrers cell retention fractions, an upper deletion limit at most \(1-p\), and vanishing incomparable-pair density under the same measure. The exact speed \(p\) belongs to the greedy chain, not an exact longest-chain or retention limit. Each fixed dense occupancy/aspect target remains obstructed almost surely; a chain is not two-dimensional geometry. This is optional-law dependence within the declared model, with no physical, all-DET or novelty claim.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

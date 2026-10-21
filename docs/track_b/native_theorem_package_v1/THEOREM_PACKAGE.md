@@ -1064,3 +1064,23 @@ each separately fixed integer factorial-power law \(q\ge1\), under that
 law's own measure. No convergence rate follows from an unspecified
 little-o premise. There is no growing-exponent or all-law conclusion,
 target redesign, extension to all dimension-two orders or physical claim.
+
+## Bernoulli-subset law and unrestricted Ferrers retention
+
+The [Bernoulli-subset counterexample](BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md)
+gives a completely admitted optional law in the declared scalar/passive
+marked-order model for each fixed \(p\in(0,1)\). On the same from-empty
+measure, \(\liminf H_N/N\ge p\),
+\(\liminf R_{\mathcal F}(P_N)/N\ge p\) and
+\(\limsup D_{\mathcal F}(P_N)/N\le1-p\), almost surely, for the unrestricted
+filled coordinatewise Ferrers cell class. Also
+\(\mathbb E_p I(P_N)\le N(1-p)/p^2\) and the incomparable-pair density
+tends to zero almost surely on that measure.
+
+The constructed greedy chain has \(L_N/N\to p\) almost surely; this is
+not an exact longest-chain or optimal-retention limit. The retained chain
+does not establish two-dimensional geometry. Each previously fixed dense
+occupancy/aspect target still has deletion fraction tending to one almost surely.
+The result demonstrates actual optional-law dependence within the declared
+model, with no all-DET, physical or novelty claim and no uniform or adaptive
+parameter assertion.

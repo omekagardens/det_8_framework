@@ -580,3 +580,24 @@ remains inconclusive. Unspecified little-o supplies no convergence rate.
 The result neither redesigns the target nor applies to all dimension-two
 orders or all admitted laws, and makes no physical claim. Native acceptance,
 editorial acceptance and publication are recorded separately.
+
+## Bernoulli-subset manuscript
+
+The [Bernoulli-subset counterexample](BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md)
+retains every scientific section and mathematical span. The title/status
+and two private theorem references are explicitly mapped to public wording;
+only the administrative source tail is replaced. Current author display
+truncations, complete bounded-slice recoveries, unavailable prior body
+stores, older custody failures, metadata-only readbacks and worker-reported
+observations remain distinct. Manual construction and independent native
+review are separate, with private correspondence retained.
+
+For each fixed \(p\in(0,1)\), the conditional admitted law has lower limits
+at least \(p\) for the height and unrestricted filled Ferrers cell retention fractions,
+an upper deletion limit at most \(1-p\), and vanishing incomparable-pair
+density, almost surely under the same measure. The exact speed belongs
+to the greedy chain, not an exact longest-chain or retention limit.
+Each fixed dense occupancy/aspect target stays obstructed almost surely. The chain is
+not two-dimensional geometry, and no physical, all-DET or novelty claim
+is supplied. Native acceptance, editorial review and publication are
+recorded separately.

@@ -412,3 +412,22 @@ limit is not a vanishing-density premise. No convergence rate is extracted
 from unspecified little-o, no simultaneous-law coupling is assumed, and
 no target redesign, all-law theorem, all-dimension-two conclusion or
 physical interpretation is supplied.
+
+## A fixed Bernoulli law separates the retention diagnostics
+
+The [Bernoulli-subset counterexample](BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md)
+provides a completely admitted optional law for each fixed \(p\in(0,1)\)
+in the declared model. Under the same measure, the height and unrestricted
+filled Ferrers cell retention fractions have lower limits at least \(p\),
+the deletion fraction has upper limit at most \(1-p\), and incomparable-pair
+density tends to zero, almost surely. The expectation bound is
+\(\mathbb E_p I(P_N)\le N(1-p)/p^2\).
+
+Only the greedy chain has the proved exact speed \(p\); no exact
+longest-chain or retention limit is asserted. This law fails the joint
+obstruction's square-root height premise, so it leaves that theorem and
+the factorial laws unchanged. Each fixed dense occupancy/aspect target
+remains obstructed, with deletion fraction tending to one almost surely. A chain is
+not two-dimensional geometry. The distinction concerns actual optional
+laws in the conditional model, not all DET formulations or physical
+predictions, and makes no novelty claim.

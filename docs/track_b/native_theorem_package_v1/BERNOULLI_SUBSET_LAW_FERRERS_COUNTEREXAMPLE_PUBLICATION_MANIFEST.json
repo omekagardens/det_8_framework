@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed fully admitted Bernoulli subset law with positive unrestricted Ferrers retention and vanishing pair density; explicit law dependence in the declared conditional model; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1098068,
+      "sha256": "5694c2d92c6894a96573337f71ca1244bb0a74d28c9bc1702955db47ae56b6f4"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 950475,
+      "sha256": "211c8816315faa34d6abddbf90cbdf66e40e7b29bd65c08448feb9e2195a2575"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 720631,
+      "sha256": "9aee3c082eb550ec936c00b1dd5a9b4f189070a98ca1f6e012430b3823db29a8"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1347340,
+      "sha256": "a36b774ec819409688194531feafc0bbdc0fdb8c7fb200e40e4025dc55c1cb08"
+    },
+    "docs/track_b/native_theorem_package_v1/BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md": {
+      "bytes": 30845,
+      "sha256": "48b88c594f8425504a307ec1320d235efe8fcbad238e11e62717f11a28e7ebb0"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 28549,
+      "sha256": "6094622c88f279f2fe1bbe1c0bd69a3203eb01579d033f820b2b8b3577d954a9"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 35549,
+      "sha256": "ce1848c3e4eaf6f0ddf9ed738e166f0e2c02eef3839ba19a90be5cec45cb4a8f"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 63630,
+      "sha256": "d6449dd821bb630ed7e27e986fc7b8ce6d15bfa6f5ffa51b7eeb1a01a6ea04a0"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Each fixed p in (0,1) has greedy-chain fraction tending to p, hence only lower limits at least p for intrinsic height and unrestricted filled Ferrers retention, with deletion upper limit at most 1-p. Incomparable-pair density vanishes under the same measure. The fixed dense/aspect target remains obstructed. No exact longest-chain or retention limit, uniform small-p assertion, geometry emergence, all-DET or physical claim. Historical custody limits, separate application criteria and RET pause persist."
+}
