@@ -23,6 +23,8 @@ coordination discussion.
 
 [The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) proves almost-sure linear intrinsic longest-chain height and cardinality exponent one under the optional all-layer half-scale baseline, conditional on the admitted prefix and classical history measure. Conditional-history bounds need no iid births and give a liminf height fraction of at least one half, without an exact limiting speed. This is a selected probability law, not a coordinate gauge or physical dimension; no coefficient-branch decision, empirical validation or infinite harmonic-perturbation extension follows.
 
+[The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) gives conditional finite-time deletion-distance bounds and an almost-sure liminf deletion fraction of at least one half for fixed intrinsic targets with a common sublinear height envelope under the selected half-scale baseline. The dense bounded-aspect Ferrers example needs occupancy and aspect controls; thin hooks defeat aspect alone. Unrestricted Ferrers defect and the separate optimizer remain unresolved. This optional law/target screen supplies no physical readout, dimension or geometry bridge.
+
 ## What is established
 
 | Area | Published result | Boundary |

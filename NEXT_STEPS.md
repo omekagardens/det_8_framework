@@ -21,6 +21,8 @@ assessment, with its original evidence limits.
 
 [The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) records a conditional native-history result: the optional half-scale baseline at every later layer gives almost-sure linear intrinsic height and cardinality exponent one under the admitted prefix and classical history measure. It requires no iid history assumption and supplies no exact limiting speed, coefficient-branch decision, physical dimension or empirical validation. The separate optimizer and infinite harmonic-extension questions remain open; no implementation or experiment is authorized by this theorem.
 
+[The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) records a conditional mathematical obstruction for fixed intrinsic targets with a common sublinear height envelope, including finite-time bounds under the selected half-scale baseline. Its dense bounded-aspect Ferrers target requires occupancy as well as aspect; the thin-hook counterexample is retained. No unrestricted-Ferrers or optimizer result, physical readout or scientific execution is supplied or authorized.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

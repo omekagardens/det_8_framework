@@ -1,3 +1,34 @@
+# Intrinsic geometry targets: independent adjudication
+
+The [intrinsic target screen](../../docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md)
+has passed independent manual proof review. Under the selected all-layer
+half-scale history law, approximating any fixed target with a sublinear
+height envelope requires an asymptotic deletion fraction of at least one half,
+almost surely. Finite-time conditional bounds follow from the same intrinsic
+height prediction, with no independent-birth assumption.
+
+The result covers Ferrers cell orders with fixed positive diagram occupancy
+and bounded aspect ratio. Balanced thin hooks show why aspect alone does not
+suffice. It does not settle unrestricted Ferrers defect, the separate optimizer,
+an exact deletion rate or a constructive approximation. Law and target choices
+remain optional, as the [law-dependence statement](../../docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
+explains. The [publication scope](../../docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md)
+retains the admitted inputs and historical custody limits.
+
+The next native question derives a law-selection criterion using every birth
+that increases height, including births through proper ideals. That work is
+unreviewed and excluded here. Sublinear height would still be only a necessary
+condition for these targets. Actual physical access to the order and a detector
+correspondence remain missing; diagnostic deletion is not record erasure or
+a noise model. The completed prospective GWOSC replay and the synthetic
+candidate's rejected raw-cost advantage remain separate. Historical results,
+frozen numerical protocols, protected validation, operational ABSTAIN and the
+RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Native height growth: independent adjudication
 
 The [height-growth theorem](../../docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md)

@@ -263,3 +263,15 @@ assumes no iid native history and gives no exact limiting speed,
 coefficient-branch selection, physical dimension or validation. No result
 is transferred to the separate optimizer or an unproved infinite harmonic
 extension.
+
+## Optional target choice and the intrinsic height screen
+
+[The intrinsic target screen](INTRINSIC_GEOMETRY_TARGET_SCREEN.md) conditions
+on the selected all-layer half-scale law and declares a fixed intrinsic
+target with a sublinear height envelope. It gives finite-time bounds and
+an almost-sure lower bound on the normalized deletion distance. The native
+law and narrower target are not forced by DET or obtained by a coordinate
+gauge. Occupancy and aspect are both required for the stated Ferrers
+example; thin hooks defeat aspect-only height control. The proof does not
+settle unrestricted Ferrers defect, the separate optimizer, or an infinite
+harmonic extension, and provides no physical readout or geometry bridge.

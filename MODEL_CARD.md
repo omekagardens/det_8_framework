@@ -36,6 +36,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) concerns one native growing history under an admitted prefix and classical history measure with the optional whole-layer half-scale rule at every later size. It proves almost-sure linear intrinsic longest-chain height and cardinality exponent one without iid births; the classical kernel remains separately declared for zero PSD payload, with no zero-trace normalization. The law choice is not a coordinate gauge. No exact limiting speed, coefficient-branch decision, physical dimension, empirical validation or transfer to the separate optimizer or infinite harmonic perturbation is established.
 
+[The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) concerns a fixed intrinsic target and common sublinear height envelope under the selected all-layer half-scale baseline. Its deletion distance allows arbitrary induced-suborder vertex deletion and has conditional finite-time bounds and an almost-sure liminf fraction of at least one half. Dense bounded-aspect Ferrers targets require occupancy and aspect controls; thin hooks invalidate aspect alone. Neither unrestricted Ferrers defect nor the separate optimizer is settled. Optional law/target choices are not DET-forced; deletion is a mathematical diagnostic, not physical erasure, missing-record noise or readout.
+
 ---
 
 ## 1. What DET Is

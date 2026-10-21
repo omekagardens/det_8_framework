@@ -14,6 +14,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The height-growth theorem](docs/track_b/native_theorem_package_v1/HALF_SCALE_HEIGHT_GROWTH.md) adds almost-sure linear intrinsic height and cardinality exponent one for the selected all-layer half-scale baseline, conditional on the admitted prefix and infinite classical history measure. The proof uses conditional full-birth bounds without iid births. This optional actual-probability prescription is not a coordinate gauge; it gives no exact limiting speed, physical dimension or validation and does not settle the separate optimizer or infinite harmonic extension.
 
+[The intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md) adds finite-time bounds and an almost-sure normalized deletion-distance lower bound for fixed sublinear-height targets under the selected all-layer half-scale baseline. It preserves the balanced thin-hook failure of aspect-only Ferrers control and leaves unrestricted Ferrers defect and optimizer asymptotics open. The law and target are optional; no physical readout, dimension or geometry bridge follows.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |
