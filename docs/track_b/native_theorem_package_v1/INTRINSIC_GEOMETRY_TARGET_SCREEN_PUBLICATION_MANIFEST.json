@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed conditional intrinsic target-distance obstruction for the selected all-layer half-scale law; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1077472,
+      "sha256": "9e0e655a7283f7da4c76d8449c4fc51b097e42fd69ae87bce1196e6a516c3447"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 929735,
+      "sha256": "f68ac141b0a76f740938ec53933864cc20757d08c96d36e8f4d82511c6465e1e"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 699891,
+      "sha256": "145cfe3554e4b259189ca1d881689ccaa7f1ed8298f20d709510ad6092d10a56"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1326600,
+      "sha256": "83a1c5f8b7968f00ab30727fcf133bc89d8062afda6bf15e24d8939d962adaf9"
+    },
+    "docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md": {
+      "bytes": 24283,
+      "sha256": "7e25eb37203cb47cb52691ca3b9ca9ad1e2ce9b96f56e1710f1c6f408f75262e"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 19435,
+      "sha256": "14abb53c47a7f1d274fdc489413310dcbbccff40238d8e28351f21447e781141"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 24945,
+      "sha256": "47310065de30cae8eb00a2fbffec85f99bc2b8fab827e8a6eb2a9583323a9e4f"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 54226,
+      "sha256": "9b71ec6aa0098481a4d762b354f1783d7069f65c5f22a59f698cc383e366705b"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Fixed sublinear-height target obstruction does not establish an exact deletion speed, unrestricted Ferrers behavior, optimized-law result, physical readout, geometry, useful application value or historical custody. Optional law and target choices, original protocols and RET pause remain explicit."
+}

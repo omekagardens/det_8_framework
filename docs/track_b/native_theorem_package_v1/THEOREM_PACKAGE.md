@@ -909,3 +909,15 @@ speed. The classical kernel is separately defined even for zero PSD
 payload. No coefficient-branch decision, physical dimension or validation,
 or transfer to the separate optimizer or infinite harmonic perturbation
 follows.
+
+## Intrinsic target screen from native height
+
+[The intrinsic target screen](INTRINSIC_GEOMETRY_TARGET_SCREEN.md) gives
+conditional finite-time deletion-distance bounds and an almost-sure liminf
+deletion fraction of at least one half for fixed intrinsic target classes
+with a common sublinear height envelope under the selected all-layer
+half-scale baseline. Its dense bounded-aspect Ferrers example requires
+both occupancy and aspect controls; balanced thin hooks disprove the
+aspect-only premise. Unrestricted Ferrers defect and the separate optimizer
+remain unresolved. The target and native law are optional choices; the
+result supplies no physical readout, dimension or geometry bridge.

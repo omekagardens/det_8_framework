@@ -409,3 +409,18 @@ exact limiting speed, coefficient-branch decision, physical dimension or
 validation, or infinite harmonic-perturbation result. Inherited evidence
 limitations and the RET pause remain; publication supplies no executable
 private-source custody and authorizes no scientific execution.
+
+## Intrinsic geometry-target screen derivative
+
+[The intrinsic target screen](INTRINSIC_GEOMETRY_TARGET_SCREEN.md) preserves
+the source manuscript's scientific sections, all mathematical spans, and
+its completed-yield and failure findings. Public links retain the source
+table's scientific uses while private pin and adjudication metadata remain
+withheld. Source-author manual construction and actual present-byte checks
+are distinguished from later independent review; historical custody and
+execution limitations remain explicit. The conditional result requires a
+fixed intrinsic target and common sublinear height envelope. It retains
+finite-time tails, the thin-hook obstruction, and the unresolved
+unrestricted-Ferrers and optimizer questions. It supplies no physical
+readout or validation, executable private-source custody or authorization
+for scientific execution. RET remains paused.
