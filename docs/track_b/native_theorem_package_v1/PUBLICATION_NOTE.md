@@ -439,3 +439,18 @@ and the unresolved sublinear-height and geometry claims remain distinct.
 Existing Ferrers objectives and separate project findings are unchanged.
 No executable private-source custody, scientific execution or physical
 validation is supplied. RET remains paused.
+
+## Neutral-support feasibility manuscript derivative
+
+[Neutral-support feasibility](NEUTRAL_SUPPORT_FEASIBILITY.md) preserves the
+source's nine scientific sections, decision table, mathematical spans and
+separate-project boundaries. Public links retain all five scientific source
+roles; native and public historical provenance remain distinct. Full source
+captures, metadata-only receipt readbacks and supplied-context worker
+reports retain their stated limits, without a claim of atomic identity or
+repaired historical custody. Manual source construction is separate from
+later independent review. The bounded universal size-two/size-three results
+remain distinct from concatenated zero boundaries, strict positive
+objectives with unattained infimum zero, and unresolved all-size or geometry
+claims. No scientific execution, executable private-source custody or
+physical validation is supplied. RET remains paused.
