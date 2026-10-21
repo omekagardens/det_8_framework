@@ -33,6 +33,8 @@ coordination discussion.
 
 [The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) shows that the fixed factorial-subset law's incomparable-pair fraction tends to zero almost surely while its sublinear-height bound remains valid. For a separately declared fixed target class with a fixed positive incomparable-pair density in all sufficiently large members, the induced vertex-deletion fraction tends to one. The extra target premise is not proved for the earlier Ferrers class. Pair-density convergence is neither eventual total order nor a physical-geometry exclusion.
 
+[The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) proves the previously conditional density premise for the existing target with fixed occupancy and aspect bounds: \(\epsilon=\nu^4/128\) and \(m_0=\lceil16A/\nu^2\rceil\) suffice. For the fixed factorial-subset law, induced retained fraction tends to zero and deletion fraction tends to one almost surely. The assumptions are sufficient, with no necessity claim; balanced thin hooks are not density counterexamples. This does not settle unrestricted Ferrers, other laws, the separate optimizer or physical geometry.
+
 ## What is established
 
 | Area | Published result | Boundary |

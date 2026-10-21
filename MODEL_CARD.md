@@ -46,6 +46,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) proves incomparable-pair fraction tending to zero almost surely for one fixed optional from-empty law, consistently with its sublinear-height bound. This is pair density, not eventual total ordering. The deletion-fraction limit of one is conditional on a separately declared fixed target class having a fixed positive incomparable-density floor for all sufficiently large members. Induced restriction preserves existing comparabilities; deleting DAG vertices and recomputing reachability is a different operation. The Ferrers density premise is not proved, and no physical model, geometry or empirical claim is excluded or validated.
 
+[The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) proves the density premise for the existing fixed occupancy/aspect Ferrers target with \(\epsilon=\nu^4/128\) at sizes at least \(m_0=\lceil16A/\nu^2\rceil\). Under the fixed factorial-subset law, induced deletion fraction tends to one almost surely. Induced restriction preserves completed-order relations; this is not DAG deletion and recomputed reachability. The assumptions are sufficient, with no necessity claim, and balanced thin hooks are not density counterexamples. Neither unrestricted Ferrers nor other laws, the separate optimizer, physical geometry or empirical validity is decided.
+
 ---
 
 ## 1. What DET Is

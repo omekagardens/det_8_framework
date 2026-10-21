@@ -31,6 +31,8 @@ assessment, with its original evidence limits.
 
 [The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) closes the fixed law's pair-density question: incomparable fraction tends to zero almost surely, despite sublinear height. Its conditional diagnostic forces induced retained size to be sublinear and deletion fraction to tend to one for a separately declared fixed target class with a fixed positive incomparable-density floor. Applying that diagnostic to the earlier Ferrers target would require a separate proof of the premise; none is supplied here. The next bounded question tests that existing target premise. No law redesign, eventual total-order conclusion, physical exclusion or scientific execution is authorized.
 
+[The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) closes the stated density-premise question for the unchanged Ferrers target with fixed occupancy and aspect bounds. Together with the fixed factorial law's ordering-fraction result, it yields induced deletion fraction tending to one almost surely. The hypotheses are sufficient, with no necessity claim; balanced thin hooks are not density counterexamples. Unrestricted Ferrers, other laws, changing target parameters and the separate optimizer remain outside this result. Further coordinator selection follows separate native acceptance; no successor result, physical validation or scientific execution is supplied here.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

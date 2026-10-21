@@ -486,3 +486,19 @@ Target deletion tends to one only under the separately declared density
 premise, which is not established for the earlier Ferrers class. No physical
 exclusion, scientific execution or empirical validation follows. RET remains
 paused.
+
+## Dense Ferrers manuscript derivative
+
+[The dense Ferrers screen](DENSE_FERRERS_INCOMPARABILITY_SCREEN.md)
+preserves all six scientific sections and every mathematical span verbatim.
+Only title/status metadata and the administrative source tail are mapped.
+Six public source links retain the scientific roles, including the exact
+target definition, fixed factorial law and accepted ordering-fraction input.
+Historical native predecessor and public snapshot provenance remain
+distinct, as do full captures, metadata-only receipt summaries, worker
+reports and later review. No original atomic custody or machine proof is
+claimed. The fixed occupancy/aspect assumptions are sufficient; the theorem
+does not claim necessity, optimal constants, an unrestricted Ferrers result,
+another-law conclusion or physical validation. Sufficiently large balanced thin hooks fail the fixed occupancy condition
+and are not density counterexamples.
+RET remains paused.

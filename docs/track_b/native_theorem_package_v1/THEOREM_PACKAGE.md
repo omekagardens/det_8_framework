@@ -975,3 +975,17 @@ incomparable-pair density, induced retained size is \(o(N)\) and the vertex-
 deletion fraction tends to one almost surely. The extra density premise
 is not established for the earlier Ferrers target. This is an intrinsic
 conditional diagnostic, not a redesigned law or physical-geometry exclusion.
+
+## Dense Ferrers incomparability and the fixed-law screen
+
+[The dense Ferrers screen](DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) proves
+the density premise left conditional by the ordering-fraction theorem for
+the existing target with fixed occupancy \(0<\nu\le1\) and aspect bound
+\(1\le A<\infty\). Every target member of size at least
+\(m_0=\lceil16A/\nu^2\rceil\) has incomparable-pair density at least
+\(\epsilon=\nu^4/128\). For the fixed factorial-subset law, induced
+retained fraction tends to zero and deletion fraction tends to one almost
+surely. These are sufficient conditions and conservative constants; no necessity
+or optimality claim is made. Balanced thin hooks are not density
+counterexamples. The result does not extend to unrestricted Ferrers,
+other laws, the separate optimizer or physical geometry.

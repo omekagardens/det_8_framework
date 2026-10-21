@@ -24,6 +24,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The ordering-fraction theorem](docs/track_b/native_theorem_package_v1/ORDERING_FRACTION_OF_FACTORIAL_LAW.md) adds an almost-sure incomparable-fraction limit of zero for the same optional factorial-subset law. A symbolic three-edge argument supplies the pair-density result independently of the sublinear-height bound. A separately declared fixed positive-density target premise yields induced deletion fraction tending to one; it is not established for the existing Ferrers class. The law, prior height theorem and target definitions remain unchanged, and neither eventual total ordering nor a physical-geometry exclusion follows.
 
+[The dense Ferrers screen](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md) supplies a uniform positive incomparable-density floor for sufficiently large members of the existing fixed occupancy/aspect target. A contained rectangle is derived rather than imposed. Applying the fixed factorial law's pair-density result gives induced deletion fraction tending to one almost surely, without changing its sublinear-height theorem. The assumptions are sufficient, with no necessity claim, and balanced thin hooks are not density counterexamples. Unrestricted Ferrers, other laws, optimizer convergence and physical geometry are not resolved.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |
