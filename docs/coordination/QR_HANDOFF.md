@@ -1,3 +1,15 @@
+# Current checkpoint: law dependence of Ferrers retention
+
+The [Bernoulli-subset law counterexample](../../docs/track_b/native_theorem_package_v1/BERNOULLI_SUBSET_LAW_FERRERS_COUNTEREXAMPLE.md) is accepted at its declared conditional mathematical scope. For each separately fixed parameter p in (0,1), this complete positive marked law admits an all-size realization from empty. On its single measure, the constructed greedy-chain fraction tends to p; intrinsic height and unrestricted filled Ferrers retention have lower limits at least p, while deletion has upper limit at most 1-p. Incomparable-pair density vanishes almost surely. These are bounds on height and optimal retention, not exact limits for either.
+
+The example shows that negligible unrestricted Ferrers retention depends on the selected law. It violates the height premise of the accepted joint obstruction, while dense targets with separately fixed positive occupancy and bounded aspect remain obstructed almost surely. A retained one-row chain does not establish two-dimensional geometry. The [theorem package](../../docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) and [law-dependence account](../../docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) retain the exact support and limitations.
+
+Independent manual proof review and exact administrative correspondence checks support this bounded result. Historical custody limitations persist. A separate candidate asks whether intrinsic height can distinguish the declared law families at finite size with explicit error bounds and a fully specified completed-order input; that candidate is not an accepted theorem in this publication.
+
+The bounded prospective public-data replay remains separate from physical-law validation. A native preparation and observation channel is still missing. Application work requires a fixed benchmark, declared baselines, measurement and computational costs, failure rates and held-out evaluation; application success would not establish the physical theory. The existing protected-validation requirements and RET-only pause remain in force. The wider programme remains open.
+
+---
+
 ## 2026-10-21 — Joint height and pair-density obstruction closes the family
 
 The [joint Ferrers obstruction](../../docs/track_b/native_theorem_package_v1/FERRERS_JOINT_HEIGHT_DENSITY_OBSTRUCTION.md)
