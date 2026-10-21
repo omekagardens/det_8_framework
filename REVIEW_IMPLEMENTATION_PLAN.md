@@ -1,3 +1,49 @@
+# Child-shape information and bounded interval admission — 21 October 2026
+
+The [child-shape theorem](docs/track_b/native_theorem_package_v1/P4_CHILD_SHAPE_OBSERVATION.md)
+closes the parent-embedding and newborn-identity uncertainty for the admitted
+fixed regular pair, conditional on Xi>1. Eight ideals and sixteen marked
+outcomes produce seven unmarked child shapes. The sole collision combines
+equal likelihood multipliers, so shape retains full-row total variation and
+pairwise statistical sufficiency. The coarsest sufficient grouping has three
+classes at the conditional exception and four locally on either side.
+Shared old-mark mixtures preserve the joint result; unequal mixtures lose
+joint old-mark information, with the separately marginalized experiment
+distinguished explicitly. Exact complete-order access and the fixed parent
+class remain premises. No physical channel, actual occurrence of Xi>1,
+numerical effect or all-size result is supplied.
+
+The [bounded admission adapter](docs/track_b/native_theorem_package_v1/ENVELOPE_ADMISSION_IMPLEMENTATION.md)
+implements a narrower two-arm certificate-A profile of the accepted design.
+It binds exact comparison/reference bytes, the frozen D4-A target and all
+eleven ideals/twenty-two joint outcomes, checks exact endpoints and fair-bit
+consistency, and recomputes the envelope and categorical-map certificates.
+Scientific validity is an explicit trusted-caller applicability premise;
+hashes and strings cannot supply it. Coverage risk remains separate from
+proxy error. Synthetic tests exercise success and refusal paths only.
+Operational disposition remains ABSTAIN; no native intervals, producer,
+sampler, benchmark result or physical validation is supplied.
+
+Independent mathematical and software reviews precede this publication.
+Raw source/check correspondence and actual command receipts remain private.
+Both frozen diagnostic protocols, the completed prospective GWOSC replay,
+historical transport/custody failures and production restrictions are unchanged.
+Production qualification remains zero; eight routes remain closed, A08–A10
+NOT_CAPTURED, Option B/Status M unchanged and RET paused.
+
+The next native question is whether a different baseline parameter and
+compatible normalization can mimic the fixed perturbation's full shape law;
+it has a separate reserved proof deliverable. Application execution remains
+blocked on valid native inputs, effect/source/channel certificates and the
+declared risk, availability, cost and held-out requirements. These separate
+success criteria do not turn application results into physical-theory evidence.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
+
 # Complete-row observation and interval-admission design — 21 October 2026
 
 The independently reviewed [P4 observation theorem](docs/track_b/native_theorem_package_v1/P4_OBSERVATION_SUFFICIENCY.md)

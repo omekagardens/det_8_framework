@@ -348,3 +348,13 @@ geometry/gravity claim, h8/30/33/38 transfer or all-size result is supplied.
 The application protocols, historical custody failures, production status
 and RET pause are unchanged. See the [publication note](PUBLICATION_NOTE.md)
 and [public evidence policy](../../coordination/REDACTED_PUBLICATION.md).
+
+## Child shape without a supplied parent embedding
+
+The [child-shape manuscript](P4_CHILD_SHAPE_OBSERVATION.md) proves that the
+complete unlabelled, unmarked child shape is sufficient and preserves full-row
+TV for this conditional fixed pair. It removes the supplied parent embedding
+and newborn identity, while retaining exact complete-order access. Its
+coarsest sufficient partition has four blocks locally off the exception and
+three at it; §5 distinguishes equal and unequal input mixtures and their
+benchmarks. No physical observation channel is supplied.

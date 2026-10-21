@@ -1,0 +1,59 @@
+{
+  "scope": "Conditional fixed-pair child-shape theorem and bounded structural interval admission adapter; no scientific or operational run admission.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1056809,
+      "sha256": "5900ef121028f36f3e4bce63c7f5e7d4b63ef5a815953ebccccd229b66e9be14"
+    },
+    "det8/models/envelope_admission.py": {
+      "bytes": 19001,
+      "sha256": "836732a9457c7d56728307be5c0445641b448c9a13af4ec6dcb89bfb5fa891ba"
+    },
+    "det8/tests/test_envelope_admission.py": {
+      "bytes": 16936,
+      "sha256": "0367e60165bdedce8f2fefa30190bdac2940eeb43b9a63144e7c7c3733da926f"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 908952,
+      "sha256": "a58e6fffd5db55cdd3096535e882631cfad93ddd80b8a649501675e64bc23edb"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 679108,
+      "sha256": "4f196073a11e5a0e6a5c5e63b7db9acf4b694cff4a4f917c9e877b9572fa1948"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1305817,
+      "sha256": "d290bc9da82ccb93634259bba863ab04d53cf3928d40ec19c3e6546a89f8162e"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_ADMISSION.md": {
+      "bytes": 15517,
+      "sha256": "54af0c16a5aff07cc55be3ab063102656635517b6c997956807fc5402abec10d"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_ADMISSION_IMPLEMENTATION.md": {
+      "bytes": 9402,
+      "sha256": "4f17bd4a23154ce738da45231c33de15f1bfcc0dc2a5458f4c55ee7a714a0ae1"
+    },
+    "docs/track_b/native_theorem_package_v1/ENVELOPE_IMPLEMENTATION.md": {
+      "bytes": 9207,
+      "sha256": "27e5480fd3be42d765c336acdf9be712ea9b52f60b7fd25ed713788e93300000"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_CHILD_SHAPE_OBSERVATION.md": {
+      "bytes": 18995,
+      "sha256": "821e543d24b5c0db964ded15e117f9313f8e929767a6fbb1c3b0763ff7d985e2"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_OBSERVATION_SUFFICIENCY.md": {
+      "bytes": 16879,
+      "sha256": "19b7d21e5214a6bff778c46b22dcea6eab779551a9e15111feb03f8d9958b5ea"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 18365,
+      "sha256": "4bfab51672fee7e5ee3ce7e25f1374c91beedcf919b3bb4651dae378ba3742d6"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 47702,
+      "sha256": "2667ce71055379fd73f88ea13dd9e99df26a1b0f6694c5de09f0d83965da999d"
+    }
+  },
+  "withheld": "Private source/custody correspondence, machine/account metadata, raw command receipts and administrative scripts remain local.",
+  "limitations": "Exact complete-order access remains a mathematical premise; no physical channel, actual Xi, numerical effect, native interval certificate, sampler or benchmark result. Frozen protocols, historical failures and RET pause unchanged."
+}
