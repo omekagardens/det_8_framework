@@ -1,3 +1,40 @@
+# Diagnostic separation through a declared observation channel
+
+The [observation-channel theorem](../../docs/track_b/native_theorem_package_v1/P4_OBSERVATION_CHANNEL.md)
+identifies when a fixed memoryless classifier preserves conditional
+diagnostic-label separation. Without false diagnostic events from OTHER,
+the determinant of its diagnostic submatrix controls orientation. A positive
+determinant preserves a gap but does not automatically preserve the earlier
+decision threshold or sample-count certificate.
+
+Any fixed positive OTHER-to-diagnostic leakage destroys the uniform
+conditional-label gap as true diagnostic events become arbitrarily rare.
+Reported events can remain frequent while the true signal disappears.
+A separately justified relative-contamination bound restores a sufficient
+gap on a restricted class. These statements preserve the distinction between
+declared probability envelopes and actually admitted native laws.
+
+The original prospective event test and both frozen width protocols remain
+unchanged. No channel, native availability floor, sampler, implementation,
+calibration or physical observation was supplied. Source-law membership,
+repeatable sampling, channel validity, costs and held-out evaluation remain
+substantive prerequisites; operational ABSTAIN remains.
+
+The next bounded question is whether any decision rule using a fixed finite
+raw-draw budget can evade the shared rare-event limit, even with a known
+invertible channel. That general testing question is outside this checkpoint.
+
+The completed prospective public-data replay remains a separate bounded
+calculation with historical failures intact. Application success does not
+establish DET physics, which still needs an explicit native physical prediction
+and justified observation channel. Production qualification and RET pause
+remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
+
 # Prospective diagnostic-event test with abstention
 
 The [diagnostic-event theorem](../../docs/track_b/native_theorem_package_v1/P4_DIAGNOSTIC_EVENT_TEST.md)

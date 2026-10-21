@@ -1,0 +1,39 @@
+{
+  "scope": "Conditional P4 observation-channel transfer theorem, rare-event leakage obstruction and sufficient restricted-class contamination bound; no channel calibration or implementation.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1067923,
+      "sha256": "07a2031d3348ea3d09334cfafb869b003721ed280b1a69b7f820e7747c30f5b4"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 920102,
+      "sha256": "26c314d057c0277ba418326f1b8c3cf3cce6b7c266a4e64d3d489b4ab7f3c090"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 690258,
+      "sha256": "eb9adc80488c404a62a3460da6b8118d8f11494c0dda667b5de80c22796b0e83"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1316967,
+      "sha256": "e6362e5b70015b788bd507fe82b10f8f71eb5f558246b491196c79bc8b34abb3"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_DIAGNOSTIC_EVENT_TEST.md": {
+      "bytes": 23036,
+      "sha256": "d68140475566e7b03f90e473ed48987e332259c8151d27712bfa1f6b8c67e2a6"
+    },
+    "docs/track_b/native_theorem_package_v1/P4_OBSERVATION_CHANNEL.md": {
+      "bytes": 28041,
+      "sha256": "48472c0b691026943de02601132f4e2937c91d62731961a4ff30548eb7d2c632"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 21459,
+      "sha256": "fee06ec0daba309abf8d6d38241328c2194395da0297b6be5ab3bceb279672a5"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 50581,
+      "sha256": "b859b607b8753385ebf636a0d1f28360ffceb1f029c191e53bc74fb716ededb3"
+    }
+  },
+  "withheld": "Private source/check correspondence, review and custody metadata, raw administrative receipts and checker scripts remain local.",
+  "limitations": "Fixed iid/category-only memoryless channel assumptions are additional. A preserved gap does not automatically preserve the old threshold. Positive OTHER leakage destroys the uniform conditional gap as true events become rare. No native channel, availability floor, implementation or physical validation is supplied. Envelope necessity does not assert native endpoint attainability. Original design, frozen protocols, historical failures and RET pause unchanged."
+}
