@@ -37,6 +37,8 @@ coordination discussion.
 
 [The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) gives an admitted optional from-empty law for each fixed integer \(q\ge1\), with the height upper bound \(\limsup H_N/N^{1/(q+1)}\le\mathrm e(q+1)\) almost surely. Incomparable fraction tends to zero and induced deletion fraction to each fixed dense occupancy/aspect Ferrers target tends to one. The full-to-empty branch ratio \(2^{-q}\) at the two-vertex antichain distinguishes actual laws, but distinct exact height-growth exponents are not proved. No growing-exponent, universal admitted-law, unrestricted Ferrers or physical-geometry conclusion follows.
 
+The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) adds an explicit strictly positive optional law in the declared model. Under the same from-empty measure, its intrinsic height is eventually at most \(\lceil16e[\log_2(N+1)]^2\rceil\) almost surely, while the incomparable-pair fraction has full-sequence lower limit at least \(1/4096\) almost surely. These are an upper-height bound and a positive lower limit, not a limiting density or target-approximation result. The law is distinct from every fixed-integer factorial-power law; no physical interpretation or universally forced DET law is established.
+
 ## What is established
 
 | Area | Published result | Boundary |

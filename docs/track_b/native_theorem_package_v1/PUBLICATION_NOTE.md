@@ -518,3 +518,23 @@ no atomic original-custody or machine-proof claim. Each fixed integer
 than proved distinct exact height-growth exponents. The fixed dense target
 obstruction is neither universal over all laws nor a physical exclusion.
 RET remains paused.
+
+## Quadratic subset-penalty manuscript
+
+The [quadratic subset-penalty law screen](QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md)
+preserves the complete scientific sections and the opening dependency
+prose and six source roles. Its title/status metadata and administrative
+source tail are mapped to public wording and reader links. The source’s
+manual construction, historical source parse failure, metadata-only
+receipt readbacks, supplied-context worker checks and custody limitations
+remain distinct from subsequent independent review. Exact source and
+transformation records are retained privately; this derivative claims
+neither machine verification nor public executable custody.
+
+The result is conditional on the declared model and its explicit optional
+law: an eventual logarithmic-squared height upper bound and a positive
+full-sequence lower limit for the incomparable-pair fraction hold under
+the same measure, almost surely. It supplies an actual law distinction from each
+fixed-integer factorial-power law. It does not supply a limiting density,
+target approximation or physical validation. Native acceptance, editorial
+acceptance and publication are recorded separately.

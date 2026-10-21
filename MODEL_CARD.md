@@ -50,6 +50,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) is a family of distinct optional from-empty laws, one for each fixed integer \(q\ge1\), distinguished by an intrinsic branch ratio. The theorem proves height upper bounds, not distinct exact height-growth exponents, alongside vanishing incomparable fraction and induced deletion fraction tending to one for the unchanged fixed dense occupancy/aspect target. Each conclusion uses the selected member's own probability law. No growing-exponent uniformity, arbitrary-prefix preservation, universal admitted-law result, unrestricted Ferrers objective, separate optimizer or physical validation follows.
 
+The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) is a conditional mathematical result for one explicit strictly positive admitted law. Its eventual height upper bound \(\lceil16e[\log_2(N+1)]^2\rceil\) and incomparable-fraction lower-limit bound \(1/4096\) hold almost surely under the same from-empty measure. The full-subset/empty-subset ratio at a three-vertex antichain is \(1/8\), distinct from \(6^{-q}\) for each fixed integer \(q\ge1\). This is actual law dependence within the declared model, not an exact height rate, limiting density, geometry approximation or physical validation.
+
 ---
 
 ## 1. What DET Is

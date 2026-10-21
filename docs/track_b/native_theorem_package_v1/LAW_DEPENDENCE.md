@@ -357,3 +357,21 @@ for each fixed member, so the fixed dense occupancy/aspect target obstruction
 persists. No growing or history-dependent exponent, arbitrary-prefix
 preservation, universal admitted-law result, unrestricted Ferrers objective,
 separate optimizer or physical interpretation is supplied.
+
+## Quadratic subset penalty: a second incomparability behavior
+
+The [quadratic subset-penalty law screen](QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md)
+gives an explicit strictly positive admitted optional law whose height is
+eventually at most \(\lceil16e[\log_2(N+1)]^2\rceil\) almost surely, while
+its intrinsic incomparable-pair fraction has full-sequence lower limit at
+least \(1/4096\) almost surely. Both statements hold under the same
+from-empty measure. This is an upper-height result and a lower-limit result;
+neither an exact height rate nor a limiting incomparability constant is proved.
+
+At a three-vertex antichain, the full-subset/empty-subset ratio \(1/8\)
+differs from \(6^{-q}\) for every fixed integer \(q\ge1\). The distinction
+is an actual probability-law distinction, not a paired gauge change.
+Together with the factorial-power results, it shows that the declared
+admission conditions do not force vanishing incomparability across all
+admitted laws. No target approximation, physical claim or arbitrary-prefix
+preservation follows.

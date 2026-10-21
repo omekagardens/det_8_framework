@@ -28,6 +28,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 [The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) adds complete admitted laws for fixed integers \(q\ge1\), with changing height upper bounds and a finite invariant distinguishing their actual probabilities. A fresh multiblock proof gives incomparable fraction tending to zero for each member, so induced deletion fraction to the fixed dense occupancy/aspect target still tends to one almost surely. Distinct exact height-growth exponents are not proved. The result is not uniform for growing exponents, universal over admitted laws, an unrestricted Ferrers or optimizer theorem, or a physical exclusion.
 
+The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) supplies a distinct strictly positive optional law: under one from-empty measure, intrinsic height has an eventual logarithmic-squared upper bound and the incomparable-pair fraction has full-sequence lower limit at least \(1/4096\), almost surely. Alongside the fixed-integer factorial-power results, this establishes law dependence within the declared model. It does not establish a target approximation, a limiting density, arbitrary-prefix preservation or a physical model.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

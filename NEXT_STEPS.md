@@ -35,6 +35,8 @@ assessment, with its original evidence limits.
 
 [The factorial-power family](docs/track_b/native_theorem_package_v1/FACTORIAL_POWER_LAW_FAMILY.md) extends the optional from-empty construction to every fixed integer \(q\ge1\). New marginal and multiblock proofs establish the pair-density limit and preserve the fixed dense occupancy/aspect target obstruction. A changing intrinsic branch ratio establishes distinct laws; changing height upper bounds do not prove distinct exact height-growth exponents. Growing or history-dependent exponents, unrestricted Ferrers and the separate optimizer remain outside the result, with no universal or physical claim. Further coordinator selection and acceptance remain separate; no further result is supplied here.
 
+The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) establishes an optional admitted law with an eventual logarithmic-squared height upper bound and a positive full-sequence incomparable-fraction lower limit almost surely under the same from-empty measure. Its three-vertex antichain ratio distinguishes it from every fixed-integer factorial-power law. Target approximation, an exact height rate and a limiting incomparability constant remain unresolved by this result; further coordinator decisions do not assert a later result here.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |
