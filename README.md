@@ -39,6 +39,8 @@ coordination discussion.
 
 The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) adds an explicit strictly positive optional law in the declared model. Under the same from-empty measure, its intrinsic height is eventually at most \(\lceil16e[\log_2(N+1)]^2\rceil\) almost surely, while the incomparable-pair fraction has full-sequence lower limit at least \(1/4096\) almost surely. These are an upper-height bound and a positive lower limit, not a limiting density or target-approximation result. The law is distinct from every fixed-integer factorial-power law; no physical interpretation or universally forced DET law is established.
 
+The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) proves the sharp bound \(|Q|\le H(Q)(H(Q)+1)/2\) for filled coordinatewise Ferrers cell orders. Its capped induced-retention ceiling is sharp in parent size and height, not necessarily attained for every parent. The accepted height bounds then imply that the deletion fraction tends to one almost surely for this unrestricted cell class under the quadratic law and each separately fixed integer factorial-power law \(q\ge2\). At \(q=1\), height alone is inconclusive for unrestricted retention; the previous fixed dense-target result stands. The target is unchanged, and no all-dimension-two or physical claim follows.
+
 ## What is established
 
 | Area | Published result | Boundary |

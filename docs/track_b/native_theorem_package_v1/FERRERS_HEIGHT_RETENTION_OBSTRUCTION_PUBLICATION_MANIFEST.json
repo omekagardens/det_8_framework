@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed sharp Ferrers cell-order height capacity and capped induced retention; exact applications of accepted height bounds; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1093793,
+      "sha256": "7f034cbdfb7f6f96d0b45a1118b4ec68c9acdd940b2be2b3a11eb3c90e3a6835"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 946176,
+      "sha256": "aea285c16bcf71cf328a2f864167733eb6c468642a69f977ce7603ca2425ea8f"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 716332,
+      "sha256": "eb5906aa2287f8cd0910dc920d0eea3af2d4833a8fac193d0ebdf4770dc29240"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1343041,
+      "sha256": "8fecfeed23e83648db01e0863efa5d312050666553826f0b68530f3f555f2cec"
+    },
+    "docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md": {
+      "bytes": 24140,
+      "sha256": "102095b0f9af52774f6f58342990c44dcddcc0ea002e4e2e6dc30ea0994742d7"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 26426,
+      "sha256": "12b76b7cdaab5837df8374639894272c8ef95206696904f0576f70a64ae5e1c6"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 33165,
+      "sha256": "1b27ca55613be867dce4bfea4c94afa3699d89d38d504463b423f5e7bf35b2b1"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 61426,
+      "sha256": "6152fc6d7d81fa04875486b904a3192d64a9ca38538b3a3df86bc4ffcb2ab4fc"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "The filled coordinatewise Ferrers cell-order capacity is sharp over feasible size/height pairs, not the optimum of every parent. Unrestricted retention fraction vanishes for the quadratic law and each fixed factorial-power q>=2 under accepted height premises. Height alone is inconclusive at q=1; its dense-target obstruction remains separate. No actual stochastic exponent, arbitrary dimension-two target, optimizer or physical claim. Historical custody limits, separate application criteria and RET pause persist."
+}

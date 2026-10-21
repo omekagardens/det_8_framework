@@ -1,3 +1,39 @@
+# Ferrers height: a sharp capacity bound and retention obstruction
+
+The [Ferrers height-retention theorem](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md)
+is accepted after independent manual derivation and review. Every finite
+filled coordinatewise Ferrers cell order of height h has at most h(h+1)/2
+vertices, with equality exactly for the staircase. The resulting capped
+induced-retention bound is sharp over feasible size/height pairs; a
+particular parent need not attain it.
+
+For the quadratic subset-penalty law, the accepted height ceiling implies
+an almost-sure O(log^4(N+1)) upper bound on retained Ferrers size. Its
+minimum deletion fraction tends to one even for the unrestricted class
+of these cell orders, despite the law's positive incomparable-density
+lower limit. For every separately fixed factorial-power exponent q>=2,
+the same deletion conclusion follows from the accepted height bound.
+
+At q=1, height alone remains inconclusive for the unrestricted target.
+The [previous fixed dense-target obstruction](docs/track_b/native_theorem_package_v1/DENSE_FERRERS_INCOMPARABILITY_SCREEN.md)
+still applies. The next assigned question combines square-root height
+with vanishing incomparable density to test this remaining boundary.
+Its result is pending and excluded from this checkpoint.
+
+These are finite-order target obstructions. They do not cover arbitrary
+dimension-two point orders or every meaning of Ferrers, and establish no
+actual stochastic exponent, optimizer characterization or physical geometry.
+Scientific text and historical records remain intact. Manual proof,
+administrative byte correspondence and software validation remain distinct;
+none reconstructs historical custody. The prospective replay is complete,
+physical preparation/readout remains missing, and separate application
+benchmarks, protected-validation prerequisites, operational abstention,
+production qualification zero and RET-only pause persist.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Quadratic subset penalty: a law-dependent incomparability result
 
 The [quadratic subset-penalty theorem](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md)

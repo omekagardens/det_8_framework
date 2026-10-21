@@ -1021,3 +1021,27 @@ whereas the factorial-power ratio is \(6^{-q}\) for integer \(q\ge1\).
 This establishes law dependence within the declared model. It does not
 prove a target approximation, induced Ferrers embedding, arbitrary-prefix
 preservation, physical interpretation or a universally forced DET law.
+
+## Ferrers height and induced retention
+
+The [Ferrers height and retention obstruction](FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md)
+concerns finite orders isomorphic to filled coordinatewise partition cell
+diagrams, with empty included. If height \(H\) is maximum chain cardinality,
+every such order \(Q\) obeys \(|Q|\le H(Q)(H(Q)+1)/2\), with staircase
+equality cases. For any parent \(P\), its largest induced retained order
+in this cell class has size
+\(R_{\mathcal F}(P)\le\min\{|P|,H(P)(H(P)+1)/2\}\).
+This ceiling is sharp in parent size and height; it need not be attained
+for every parent. Induced restriction means restriction of the completed
+order, not recomputed reachability after deleting generating-DAG vertices.
+
+Applying the accepted height inputs gives
+\(R_{\mathcal F}(P_N)=O(\log^4(N+1))\) for the quadratic law and
+\(R_{\mathcal F}(P_N)=O(N^{2/(q+1)})\) for each separately fixed integer
+factorial-power law \(q\ge2\), almost surely under each law's own measure.
+For both cases, the deletion fraction to the unrestricted filled cell
+class tends to one almost surely. At \(q=1\), this height-only argument
+is inconclusive for unrestricted retention; the previous fixed dense-target
+result remains valid. The target is unchanged. No conclusion for all
+dimension-two orders, other meanings of Ferrers order or physical geometry
+is supplied.

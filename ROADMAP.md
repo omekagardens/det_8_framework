@@ -30,6 +30,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) supplies a distinct strictly positive optional law: under one from-empty measure, intrinsic height has an eventual logarithmic-squared upper bound and the incomparable-pair fraction has full-sequence lower limit at least \(1/4096\), almost surely. Alongside the fixed-integer factorial-power results, this establishes law dependence within the declared model. It does not establish a target approximation, a limiting density, arbitrary-prefix preservation or a physical model.
 
+The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) adds a sharp deterministic size–height theorem for filled coordinatewise partition cell orders and a capped induced-retention bound, sharp in size and height rather than attained for every parent. It transfers the accepted height bounds to almost-sure convergence of the deletion fraction to one for the unrestricted cell class under the quadratic law and each fixed integer factorial-power law \(q\ge2\). The \(q=1\) height-only boundary remains inconclusive for unrestricted retention; its fixed dense-target result remains valid. The existing target is not redesigned, and the result does not cover all dimension-two orders or physical geometry.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

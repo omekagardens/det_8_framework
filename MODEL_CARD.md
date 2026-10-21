@@ -52,6 +52,8 @@ The [half-scale availability theorem](docs/track_b/native_theorem_package_v1/HAL
 
 The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) is a conditional mathematical result for one explicit strictly positive admitted law. Its eventual height upper bound \(\lceil16e[\log_2(N+1)]^2\rceil\) and incomparable-fraction lower-limit bound \(1/4096\) hold almost surely under the same from-empty measure. The full-subset/empty-subset ratio at a three-vertex antichain is \(1/8\), distinct from \(6^{-q}\) for each fixed integer \(q\ge1\). This is actual law dependence within the declared model, not an exact height rate, limiting density, geometry approximation or physical validation.
 
+The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) is a conditional intrinsic-order result for filled coordinatewise Ferrers cell diagrams. Its sharp size–height cap does not assert attainment in every parent. Under the quadratic law and each separately fixed integer factorial-power law \(q\ge2\), accepted height bounds imply that the deletion fraction tends to one almost surely for the unrestricted cell class. At \(q=1\), height alone is inconclusive for that class; the previous fixed dense-target result is unchanged. This is neither target redesign nor a statement about all dimension-two orders, other Ferrers notions or physical reconstruction or exclusion.
+
 ---
 
 ## 1. What DET Is

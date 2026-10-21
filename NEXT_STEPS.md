@@ -37,6 +37,8 @@ assessment, with its original evidence limits.
 
 The [quadratic subset-penalty law screen](docs/track_b/native_theorem_package_v1/QUADRATIC_SUBSET_PENALTY_LAW_SCREEN.md) establishes an optional admitted law with an eventual logarithmic-squared height upper bound and a positive full-sequence incomparable-fraction lower limit almost surely under the same from-empty measure. Its three-vertex antichain ratio distinguishes it from every fixed-integer factorial-power law. Target approximation, an exact height rate and a limiting incomparability constant remain unresolved by this result; further coordinator decisions do not assert a later result here.
 
+The [Ferrers height and retention obstruction](docs/track_b/native_theorem_package_v1/FERRERS_HEIGHT_RETENTION_OBSTRUCTION.md) settles the unrestricted filled coordinatewise Ferrers cell retention objective negatively for the quadratic law and each separately fixed integer factorial-power law \(q\ge2\): deletion fraction tends to one almost surely under each law. The deterministic size–height ceiling is sharp as a bound in parent size and height, not an optimizer for each parent. At \(q=1\), this height-only argument remains inconclusive for unrestricted retention, while the prior fixed dense-target result is retained. No target redesign, broader Ferrers interpretation or physical conclusion is supplied.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |
