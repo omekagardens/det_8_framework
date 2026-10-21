@@ -302,3 +302,17 @@ infimum of zero. Globally neutral support must still satisfy shared row
 capacities. Paired gauges preserve feasibility, while actual prefix changes
 require rebuilding later layers. No all-size feasibility, asymptotic
 sublinear growth, target geometry or physical readout is established.
+
+## A selected sublinear-height law from empty
+
+[The factorial-subset construction](FACTORIAL_SUBSET_HEIGHT_LAW.md) gives
+an optional admitted all-size law, initialized from empty, with
+\(\limsup H_N/\sqrt N\le2\mathrm e\) almost surely. This contrasts with
+the selected half-scale law's linear height without contradicting it.
+The per-subset factorial choice is neither an independent-inclusion rule
+nor an arbitrary-prefix-preserving extension. Its complete height drift
+is \(1-Z_{n-t(P)}/Z_n\) for nonempty parents, includes proper raising
+ideals and has no asserted uniform decay over all rows. Actual-history
+Cesaro drift tends to zero under this selected law. No DET-forced choice,
+optimizer theorem, sharp constant, matching lower bound, geometric limit
+or physical readout follows.

@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed optional all-size factorial-subset law with complete marked admissibility, finite path tail, almost-sure square-root height upper bound and exact complete drift; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1083538,
+      "sha256": "d19ab1e579ebcbb5a190858b9f4322f0b56a65e9aeb940e6f67a0db5a43daa17"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 935855,
+      "sha256": "e942dfe06ea397299a9ddfb0e56811d7532ad7838e6eb124cad7444e6ed38b30"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 706011,
+      "sha256": "18e65cb2c04f83bde6fca18541a97d6945dc1ce6e15c0f46261d2218bfb5414a"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1332720,
+      "sha256": "2f5fb4251ee98ce9335cac519ad37a316b5152079b3b3c437347fb12878578c4"
+    },
+    "docs/track_b/native_theorem_package_v1/FACTORIAL_SUBSET_HEIGHT_LAW.md": {
+      "bytes": 22691,
+      "sha256": "ce78e6de89166883efb83fb33cc91a6cc35cb046694cce5eb70859e043007906"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 21850,
+      "sha256": "c8ff24208fe32060c1fc0fbb000f6400e4a7c0f77f59a904b67faf015ebd18cb"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 27712,
+      "sha256": "8af8043310efaaafa552367ef1af2709e345da2f7352e16a3a082d7c500a02cb"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 56650,
+      "sha256": "2ba13528ffe316f1076c7711ba7a001ccfd431e0bcf425e83ca008dcfc968b22"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "This is one optional from-empty law, not a DET-forced selector or an extension preserving an arbitrary prefix. The height limsup bound is not a sharp constant, matching lower bound, eventual inequality at the limiting constant or target approximation. No uniform drift decay over all rows, geometry or physical observation follows. Passive payload, original protocols, custody limits, separate application criteria and RET pause persist."
+}
