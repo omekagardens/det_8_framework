@@ -424,3 +424,18 @@ finite-time tails, the thin-hook obstruction, and the unresolved
 unrestricted-Ferrers and optimizer questions. It supplies no physical
 readout or validation, executable private-source custody or authorization
 for scientific execution. RET remains paused.
+
+## Height-drift law-selection manuscript derivative
+
+[The height-drift criterion](HEIGHT_DRIFT_LAW_SELECTION.md) preserves the
+source manuscript's thirteen scientific sections, decision table and all
+mathematical spans, with explicit public dependency links. The evidence
+scope retains historical display failures, separates full current captures
+from metadata-only receipt readbacks and worker reports, and distinguishes
+manual source construction from later independent review. Almost-sure and
+mean-square tracking, weaker convergence modes, the finite proper-ideal
+mechanism, the optional full-capacity history-weighted height objective,
+and the unresolved sublinear-height and geometry claims remain distinct.
+Existing Ferrers objectives and separate project findings are unchanged.
+No executable private-source custody, scientific execution or physical
+validation is supplied. RET remains paused.

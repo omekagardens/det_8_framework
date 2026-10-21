@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed conditional complete height-drift theorem and optional restored height-law design; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1079401,
+      "sha256": "ca73bd5623dd4282397428726dd47062c5327fd51f85950013959ea0732530e6"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 931682,
+      "sha256": "d9f8c798fe2c7b1c8a292c9fd6ca1defaf940b25f33a1797325ba1445190e4a4"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 701838,
+      "sha256": "30aeadfc4abe16e356877f497c0e5093d283489661fc9f70756cc50ba201e418"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1328547,
+      "sha256": "5b774e747fd13bc8f1bba0561fb2c142206ab1312b218695f773ca24b7ae92ba"
+    },
+    "docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md": {
+      "bytes": 33732,
+      "sha256": "1ce83e7627b271e5189af45868d806b2c9597d240829a40eab49d05b8ff138fe"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 20289,
+      "sha256": "a4df2bbae8075c49ce1ab760227f51bed58e7b1c3d3b2615f583acd129df0ea4"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 25848,
+      "sha256": "5d739467f38d7bba4ec35e695a9d8a1317c7adcbe108b3814de5409e77cd6d2d"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 55012,
+      "sha256": "2fa514a2d6f1b143f6f96f4ca73caac1cd1afc75ea9d1d807fe57dcc7eca5096"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Complete actual-history drift governs height; weak and almost-sure modes remain distinct. Formal restored-law admissibility does not prove minima or pathwise Cesaro decay, sublinear height, target approximation, physical readout, application value or historical custody. The finite proper-ideal mechanism is not an all-size counterlaw. Optional choices, original protocols and RET pause remain explicit."
+}

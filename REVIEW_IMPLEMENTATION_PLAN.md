@@ -1,3 +1,37 @@
+# Complete height drift: independent adjudication
+
+The [height-drift criterion](docs/track_b/native_theorem_package_v1/HEIGHT_DRIFT_LAW_SELECTION.md)
+has passed independent manual proof review. Under each selected admitted
+history law, normalized height tracks the actual-history average of the
+complete conditional height-increase probabilities almost surely and in
+mean square. Height-raising proper ideals count alongside full births.
+The finite example establishes that mechanism, not an alternative all-size
+law with a proved asymptotic contrast.
+
+A separate optional height objective uses complete marked rows, actual
+history weights and all inherited component capacities. Strict restoration
+gives a formal positive compatible continuation and bounds its effect.
+Neither vanishing layer minima nor almost-sure drift decay is established.
+Sublinear height and target approximation remain open. The existing Ferrers
+objective is separate; expected and in-probability bounds do not automatically
+give almost-sure decay. The [law-dependence statement](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md)
+distinguishes optional choices from paired coordinate gauges, and the
+[publication scope](docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md)
+preserves historical source and custody limits.
+
+The next native question tests whether inherited marked-row constraints
+permit a zero-height-drift boundary layer, or force an exact obstruction.
+That work is unreviewed and excluded. Even a finite successful construction
+would not settle the all-size criterion. Physical access to the order and
+detector correspondence remain missing. The completed prospective GWOSC
+replay and the synthetic candidate's rejected raw-cost advantage remain
+separate. Historical results, frozen protocols, protected validation,
+operational ABSTAIN and the RET-only pause remain unchanged.
+
+---
+
+Earlier checkpoint (unchanged record):
+
 # Intrinsic geometry targets: independent adjudication
 
 The [intrinsic target screen](docs/track_b/native_theorem_package_v1/INTRINSIC_GEOMETRY_TARGET_SCREEN.md)
