@@ -1,3 +1,7 @@
+## Native records and auxiliary seed independence
+
+The reviewed [auxiliary-seed theorem](docs/track_b/native_theorem_package_v1/AUXILIARY_SEED_IDENTIFIABILITY.md) constructs distinct seed mechanisms with identical native transition kernels, all finite marked histories and coarse payload maps. The accepted native parameter remains identifiable within its family, while hidden seed independence does not follow from those records. This is a conditional representation result; physical readout and application value remain open. The five research lanes retain separate review, execution and claim boundaries.
+
 ## Reviewed finite order likelihood
 
 The [intrinsic Bernoulli order likelihood](docs/track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md) gives the exact probability of a complete unlabelled order under the fixed from-empty independent-edge law. Cover and incomparable-pair counts are minimal sufficient statistics; the family is identifiable, with an interior maximum-likelihood estimate when both counts are positive and unattained endpoint suprema otherwise. This is a conditional finite mathematical result. Physical readout, inference calibration and application value remain open. The separate unknown-size height theorem and historical results retain their own premises.
