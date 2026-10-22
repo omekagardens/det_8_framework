@@ -1,0 +1,39 @@
+{
+  "scope": "Accepted auxiliary-seed nonidentifiability under equal native closure pushforwards: all finite histories and coarse payload maps; no new native law. Public research-branch payloads only; main landing additions separately reviewed.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1110204,
+      "sha256": "730643f7448473bc6e5a682f01f4eacc498ce399a0771bc109532b28c5150bc5"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 962641,
+      "sha256": "6414ffd333d064f3c8603a5f4e85583cd0252a969392e78ab75e147674617677"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 732797,
+      "sha256": "07ae1531aca0e7ee61969472dddde4cf1156c15aa771f4a4da21145f6e2f5031"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1359506,
+      "sha256": "7fce6a683cdddfea5caeecabcae19fe899d975857e77d48c6616fef77a1baa53"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 67807,
+      "sha256": "c0392015985a46bfaf478b2aa3aebe4b59bf90f61cc40754d9ce7ee4c2a7c7ab"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 32156,
+      "sha256": "6e779083b8b11efe63a208ec0c06cc674c06aca278e7aeaf1aab730051e4e0d0"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 40284,
+      "sha256": "0d984043e6710f48a5368ee5c15184722ec5b5d2a5b0ba04ba6541b6e7ce82c6"
+    },
+    "docs/track_b/native_theorem_package_v1/AUXILIARY_SEED_IDENTIFIABILITY.md": {
+      "bytes": 18064,
+      "sha256": "d4ec4401f2d6bcc7dcfd9924abc0d43d16244b85e606fc98861b15d7c1c292a8"
+    }
+  },
+  "withheld": "Private correspondence, raw receipts, machine fingerprints, custody records, administrative scripts and unreviewed successor bodies remain local.",
+  "limitations": "Native ideal positivity is not auxiliary-subset positivity. Same fair marks/coarse payload conventions required. No physical readout, universally unobservable hidden state, calibration, novelty or application advantage. Added-lane status is scoped design disposition, not execution. Historical custody limits and RET-only pause retained."
+}
