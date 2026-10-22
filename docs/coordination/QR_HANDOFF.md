@@ -1,3 +1,17 @@
+# Current checkpoint: finite intrinsic-order likelihood accepted
+
+The [finite Bernoulli order likelihood](../track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md) is accepted after independent manual review and coordinator adjudication. For known fixed deterministic size, a faithful complete unmarked order under the from-empty independent-edge law has probability equal to its number of linear extensions divided by its automorphism count, times the cover and incomparability factors. Those two counts are minimal sufficient statistics. The distribution family is identifiable; the exact likelihood has an interior optimizer when both counts are positive, and unattained boundary suprema for chains and antichains. These finite statements do not establish calibrated inference, physical readout or a uniquely forced law.
+
+The next native question audits whether alternative auxiliary seed mechanisms give the same completed-order path law, distinguishing redundant descriptions from actual native-law changes. It remains pending and excluded from this publication. The unknown-size height theorem, consolidated support exclusions and first prospective public-data replay are completed results with their own premises.
+
+All five lanes remain in scope. Measurement's two independent exact-arithmetic implementations passed source review; an exact supervisor and platform-accounting contract is being prepared, with all scientific execution held. Relational State's model-only population and full-cost estimand specification is accepted prospectively; numeric model/sampler/ledger declarations remain pending. Energy's conditional binary table and preparation counterexample are accepted locally; clock-nuisance and nonaliasing design is pending, with physical and finite-data claims held. Computing's ordinary two-arm design requires cache-validity, deterministic-fixture, storage and decision-rule repairs before implementation. A distinct DET computing mechanism remains unsupplied. The other-lane source bodies and pending successors are excluded here.
+
+Independent reviews remain separate from authors, coordinator decisions and execution permission. Administrative source correspondence does not reconstruct historical custody or validate mathematics. Protected validation, consumed acquisition exceptions, historical failures, full production qualification and the RET-only pause retain their existing boundaries. No cross-track success establishes another track or the physical theory.
+
+The same hourly follow-through covers all five lanes. The separate Monday maintenance schedule is unchanged. The 10% remaining-capacity stop and supported reset requirements apply to every owner; the preparation exception is closed. Publication completes only after exact editorial review, scoped checks and verified remote updates. Historical material follows unchanged.
+
+---
+
 # Current checkpoint: height diagnosis without the original size
 
 The [accepted unknown-size height diagnostic](../track_b/native_theorem_package_v1/UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md)
