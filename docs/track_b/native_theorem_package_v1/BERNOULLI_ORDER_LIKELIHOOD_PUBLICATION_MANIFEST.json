@@ -1,0 +1,39 @@
+{
+  "scope": "Accepted finite intrinsic-order likelihood, minimal sufficiency, distribution identifiability and exact optimizer for the declared Bernoulli family. Public research-branch payloads only; main landing additions separately reviewed.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1107340,
+      "sha256": "5a7695032298b91af4279badcec832afc5ae226666406029afbf7b670b308434"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 959779,
+      "sha256": "63daf429132a4f589e1e46e3bf0cf9f389ea2d601e7a24c8157cb0384270055d"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 729935,
+      "sha256": "85746f97717b95019819fb2e88e14bbcc5196d294b014f91ee5567150ae127fd"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1356644,
+      "sha256": "4efaa528c7b6cd78d02f7059e236e324a7032e37729796ab615c25a65cc2c075"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 67237,
+      "sha256": "70b9c6feee096bf05858502f7fa9e715ffc08878f5e7da1b89c682ae199a4800"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 31586,
+      "sha256": "6d76e282e66616ffc0983398a94d047aa11e9bfa22aa2413b69ed0537091d5e8"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 39714,
+      "sha256": "b4b7e0442a62eefd13d0abfa4858dac3f2c93518515c8a28923cd9d1880f32fb"
+    },
+    "docs/track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md": {
+      "bytes": 14920,
+      "sha256": "3af8d8ba17b519cffea6308993314cdbff220842bec9864730d8c9dd90018063"
+    }
+  },
+  "withheld": "Private source/review correspondence, raw receipts, machine fingerprints, custody records and administrative scripts remain local.",
+  "limitations": "Known fixed deterministic size, complete faithful unmarked order, from-empty fixed independent-edge Bernoulli law. No calibration, physical readout, erasure/random-size transfer, efficient exact counting or application advantage. New successor and other-lane packages excluded; RET remains paused."
+}

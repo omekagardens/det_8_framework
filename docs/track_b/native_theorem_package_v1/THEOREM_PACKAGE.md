@@ -1,3 +1,7 @@
+## Reviewed finite order likelihood
+
+The [intrinsic Bernoulli order likelihood](BERNOULLI_ORDER_LIKELIHOOD.md) gives the exact probability of a complete unlabelled order under the fixed from-empty independent-edge law. Cover and incomparable-pair counts are minimal sufficient statistics; the family is identifiable, with an interior maximum-likelihood estimate when both counts are positive and unattained endpoint suprema otherwise. This is a conditional finite mathematical result. Physical readout, inference calibration and application value remain open. The separate unknown-size height theorem and historical results retain their own premises.
+
 # A conditional theorem package for record-marked order growth
 
 18 October 2026. Editorial public edition of a conditional mathematical consolidation.
