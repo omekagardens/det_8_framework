@@ -1,0 +1,39 @@
+{
+  "scope": "Reviewed finite intrinsic-height diagnostic under bounded history-dependent vertex erasure, with explicit class-conditional errors, sufficient symbolic size and survivor-matrix costs; no scientific execution.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1102099,
+      "sha256": "5ff49f2ef0faff96f5812416c735c7301a8eb698d7f5f7f7025ac7a227a3183b"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 954542,
+      "sha256": "b85ae97322cf3602ac4f578eb94a52da2402a3d6301f258ed5866553b75b4080"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 724698,
+      "sha256": "7bb956849f3aa9e35ff7f1759c9b2a2525541e47b9930be9ec964088e23631ac"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1351407,
+      "sha256": "732151ae51ef8268079a0b51f381795d96afb2271ef282fbdca36ff323be37f9"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 30228,
+      "sha256": "9d567bd2b9b438229dde30e256af2f055662443f87f7194d6a6ab84d68a6914f"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 37917,
+      "sha256": "fabd5dacac332500a55a57db47ee025f5cee6402c63338e4b6a74fb290840c51"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 65894,
+      "sha256": "be6141af683d1ed5e14ebd9488cf4fd227727ac334f146ed980ba8815010c3bb"
+    },
+    "docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md": {
+      "bytes": 21603,
+      "sha256": "fb8b587120decce9119135cb597dc26be0b086077d418873751334ec3a28f5c9"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, fingerprints, raw receipts and administrative scripts remain local.",
+  "limitations": "Predeclared p0 in (0,1), known original N, hard budget d<=floor(p0*(N-1)/4) and faithful completed survivor relations are essential. Erasures may depend on history but preserve its law marginal. Error guarantees are unconditional class-conditional bounds, not conditional-on-observed-size probabilities or universal law classification. Computation supplies no physical acquisition/readout or application advantage. Historical custody limits, separate application criteria and RET pause persist."
+}

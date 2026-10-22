@@ -617,3 +617,26 @@ distinct. Exact stored-body comparisons and consumed additions do not
 claim fresh full redisplay of every unchanged source; historical display
 failures and custody limits remain recorded. Private provenance metadata
 is withheld, and separate acceptance records govern publication.
+
+## Vertex-erasure height diagnostic publication boundary
+
+The [vertex-erasure height diagnostic](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md)
+transfers the predeclared finite two-family test, with \(p_0\in(0,1)\),
+to a known true integer size \(N\ge2\), a known nonnegative integer
+deletion budget \(d\le\lfloor p_0(N-1)/4\rfloor\), and the exact completed
+induced order on all survivors. It retains surviving
+comparisons rather than recomputing reachability after deletion.
+History-dependent erasure channels are allowed only while preserving the
+specified generative marginal. The class-conditional errors are
+unconditional over the joint law and channel at fixed \(N\), not
+conditional on observed survivor count \(m\). The separately fixed
+Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
+their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
+universal classifier or application execution is supplied.
+
+Manual source reasoning and its supplied-context review remain distinct
+from native adjudication and editorial acceptance. Exact reused bodies,
+consumed appended text and the changed Bernoulli source's complete bounded
+redisplay are distinguished from metadata-only readbacks and historical
+display/custody failures. Private correspondence records remain withheld;
+separate acceptance records govern publication.
