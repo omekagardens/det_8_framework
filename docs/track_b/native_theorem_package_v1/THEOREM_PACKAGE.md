@@ -1099,3 +1099,26 @@ The theorem provides symbolic sufficient sizes and sufficient computation
 costs under exact input and encoding premises. These class-conditional
 errors are not a posterior or universal classifier; no physical readout,
 numerical evaluation or application execution is supplied.
+
+## Vertex-erasure transfer of the finite-height diagnostic
+
+The [vertex-erasure height diagnostic](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md)
+transfers the predeclared finite two-family test, with \(p_0\in(0,1)\),
+to a known true integer size \(N\ge2\), a known nonnegative integer
+deletion budget \(d\le\lfloor p_0(N-1)/4\rfloor\), and the exact completed
+induced order on all survivors. It retains surviving
+comparisons rather than recomputing reachability after deletion.
+History-dependent erasure channels are allowed only while preserving the
+specified generative marginal. The class-conditional errors are
+unconditional over the joint law and channel at fixed \(N\), not
+conditional on observed survivor count \(m\). The separately fixed
+Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
+their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
+universal classifier or application execution is supplied.
+
+With predeclared \(p_0\in(0,1)\), \(n=N-1\), \(k=\lceil p_0n/2\rceil\)
+and \(\ell=k-d\), decide Bernoulli when \(H(Q)\ge\ell+1\).
+The Bernoulli error is bounded by \(\min\{1,1/(np_0^2)\}\); the factorial
+error by \(\min\{1,N(2\sqrt n)^\ell/\ell!\}\). The theorem states symbolic
+sufficient sizes and sufficient matrix-computation costs; it evaluates
+neither probabilities nor application performance.

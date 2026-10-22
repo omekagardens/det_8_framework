@@ -1,3 +1,15 @@
+# Current checkpoint: bounded vertex-erasure height diagnostic
+
+The reviewed [vertex-erasure theorem](docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md) transfers the finite intrinsic-height diagnostic through a declared bounded vertex-loss channel. Fix p0 in (0,1), original N>=2 and integer 0<=d<=floor(p0*(N-1)/4) before observation. Lowering the height threshold by d retains explicit class-conditional error bounds for the separately fixed Bernoulli and factorial-power law families. Erasures may depend on the entire generated history, provided the original law marginal and every completed survivor comparison remain faithful.
+
+The original size and a hard erasure budget are assumed known. Bounds are unconditional over the fixed-size law and channel, not conditional on the selected observed size. Survivors are not treated as a fresh smaller draw, and deletion from a generating graph followed by recomputed reachability is outside scope. Symbolic size conditions, rounding, endpoint behavior and sufficient survivor-matrix costs are included. Physical acquisition and application performance remain unproved.
+
+The next native question is whether a diagnostic can retain finite guarantees using observed size and a known absolute erasure budget without being supplied the original size. That candidate remains unreviewed. The [theorem package](docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md) and [law-dependence note](docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md) retain the complete admitted-law and physical-scope boundaries.
+
+The bounded prospective public-data replay is complete. Native preparation/readout and a fixed application benchmark with baselines, costs, failure rates and held-out evaluation remain separate requirements. No application result validates the physical theory. Historical custody limitations, protected-validation prerequisites and the RET-only pause remain unchanged.
+
+---
+
 # Current checkpoint: finite intrinsic-height law separation
 
 The [finite-height diagnostic](docs/track_b/native_theorem_package_v1/FINITE_HEIGHT_LAW_SEPARATION.md) is accepted at its declared mathematical scope. A threshold fixed before observation distinguishes the specified Bernoulli and factorial-power law families using the intrinsic height of one faithful completed order. The theorem supplies explicit class-conditional error bounds, exact threshold rounding and a conservative sufficient order size for predeclared error tolerances. The guarantees are uniform across the separately fixed laws in the stated ranges.

@@ -44,6 +44,20 @@ order, with class-conditional errors for separately fixed Bernoulli
 sufficient sizes and sufficient computation costs, not a universal
 classifier, posterior, physical readout or application execution.
 
+The [vertex-erasure height diagnostic](docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md)
+transfers the predeclared finite two-family test, with \(p_0\in(0,1)\),
+to a known true integer size \(N\ge2\), a known nonnegative integer
+deletion budget \(d\le\lfloor p_0(N-1)/4\rfloor\), and the exact completed
+induced order on all survivors. It retains surviving
+comparisons rather than recomputing reachability after deletion.
+History-dependent erasure channels are allowed only while preserving the
+specified generative marginal. The class-conditional errors are
+unconditional over the joint law and channel at fixed \(N\), not
+conditional on observed survivor count \(m\). The separately fixed
+Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
+their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
+universal classifier or application execution is supplied.
+
 ## Phase History
 
 | Phase | Focus | Key outcome |

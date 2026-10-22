@@ -443,3 +443,19 @@ premises. The symbolic size and sufficient computation bounds do not
 identify every admitted law or provide a posterior. Neither a universal
 classifier, physical readout nor application execution follows. This is
 an intrinsic-height observation guarantee under specified optional laws.
+
+## A bounded erasure channel with the original law marginal
+
+The [vertex-erasure height diagnostic](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md)
+transfers the predeclared finite two-family test, with \(p_0\in(0,1)\),
+to a known true integer size \(N\ge2\), a known nonnegative integer
+deletion budget \(d\le\lfloor p_0(N-1)/4\rfloor\), and the exact completed
+induced order on all survivors. It retains surviving
+comparisons rather than recomputing reachability after deletion.
+History-dependent erasure channels are allowed only while preserving the
+specified generative marginal. The class-conditional errors are
+unconditional over the joint law and channel at fixed \(N\), not
+conditional on observed survivor count \(m\). The separately fixed
+Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
+their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
+universal classifier or application execution is supplied.
