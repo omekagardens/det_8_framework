@@ -640,3 +640,22 @@ consumed appended text and the changed Bernoulli source's complete bounded
 redisplay are distinguished from metadata-only readbacks and historical
 display/custody failures. Private correspondence records remain withheld;
 separate acceptance records govern publication.
+
+## Unknown-size height diagnostic: separate adjudication and publication
+
+The [unknown-original-size height diagnostic](UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md)
+uses a predeclared cutoff and exact abstention rule to give finite unconditional
+wrong-family error guarantees without supplying the original size to the
+observer. Each experiment still has a fixed deterministic original size.
+A fixed hard deletion bound, faithful completed induced survivor comparisons,
+and preservation of the specified generative marginal are essential.
+The result concerns the stated Bernoulli and factorial-power optional laws;
+it gives no conditional-on-decision confidence, physical prediction,
+acquisition channel or application result.
+
+The frozen author header retains its historical pending status. A separately
+added note records later independent native review and coordinator acceptance.
+Source-stage supplied-context reports, fresh source consumption, recovered
+truncated displays, metadata-only readbacks and historical custody limits
+remain distinct. Public publication checks do not establish a machine proof
+or independently replayable private custody.

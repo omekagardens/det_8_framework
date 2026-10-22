@@ -82,6 +82,8 @@ universal classifier or application execution is supplied.
 
 ---
 
+**Accepted unknown-size height diagnostic.** The [finite intrinsic-height theorem](docs/track_b/native_theorem_package_v1/UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md) gives finite unconditional wrong-family error guarantees with a declared cutoff and exact abstention accounting when the original size is not observed. The original size is still fixed, the deletion budget is hard, surviving comparisons must be the completed induced order, and the erasure kernel must preserve the specified law marginal. This is a conditional result for two specified optional law families, with no conditional-on-decision confidence, physical prediction, readout channel or application claim.
+
 ## 1. What DET Is
 
 DET (Deep Existence Theory) is a two-track framework:

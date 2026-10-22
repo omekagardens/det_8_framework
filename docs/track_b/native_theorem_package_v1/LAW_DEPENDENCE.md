@@ -459,3 +459,15 @@ conditional on observed survivor count \(m\). The separately fixed
 Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
 their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
 universal classifier or application execution is supplied.
+
+## Unknown-size observation under two specified law families
+
+The [unknown-original-size height diagnostic](UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md)
+uses a predeclared cutoff and exact abstention rule to give finite unconditional
+wrong-family error guarantees without supplying the original size to the
+observer. Each experiment still has a fixed deterministic original size.
+A fixed hard deletion bound, faithful completed induced survivor comparisons,
+and preservation of the specified generative marginal are essential.
+The result concerns the stated Bernoulli and factorial-power optional laws;
+it gives no conditional-on-decision confidence, physical prediction,
+acquisition channel or application result.

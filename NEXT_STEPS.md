@@ -65,6 +65,10 @@ Bernoulli \(p\in[p_0,1)\) and integer factorial-power \(q\ge1\) laws retain
 their from-empty premises; survivors are not a fresh \(m\)-vertex law. No physical readout,
 universal classifier or application execution is supplied.
 
+**Accepted unknown-size height diagnostic.** The [finite intrinsic-height theorem](docs/track_b/native_theorem_package_v1/UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md) gives finite unconditional wrong-family error guarantees with a declared cutoff and exact abstention accounting when the original size is not observed. The original size is still fixed, the deletion budget is hard, surviving comparisons must be the completed induced order, and the erasure kernel must preserve the specified law marginal. This is a conditional result for two specified optional law families, with no conditional-on-decision confidence, physical prediction, readout channel or application claim.
+
+**Current work sequence.** The separately assigned finite intrinsic-order likelihood and Bernoulli-parameter identifiability question is pending and excluded from this release. Measurement, E, NE and CE have scoped design dispositions with execution holds. Their implementation-admission, certificate-readiness, exact-table and ordinary two-arm specification follow-ups remain pending; their bodies and results are excluded from this theorem release. No further erasure-channel relaxation or completed public-data replay restart is selected; RET remains paused.
+
 ## Deliverables and completion criteria
 
 | Deliverable | Published position | Next bounded output and completion criterion |

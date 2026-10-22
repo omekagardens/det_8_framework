@@ -1,0 +1,39 @@
+{
+  "scope": "Accepted conditional unknown-original-size intrinsic-height diagnostic and its navigation/coordination additions on the public research branch. Main-branch landing refreshes are separately reviewed integration edits. No scientific execution.",
+  "payloads": {
+    "docs/track_b/native_theorem_package_v1/UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md": {
+      "bytes": 20098,
+      "sha256": "8c16f4f0b1afde79d70c393d47f5897e28a3f41b1236ca33868d78fcbd39e0db"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 66585,
+      "sha256": "b59cd2e57f64ae5e0ab4bf549668f5686eafab7729ad73400c6474f38aa8bacd"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 30934,
+      "sha256": "f57281571514e1547bfde62fa721a71d4d0df6eaa39ecb5b196199ba1baf056c"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 39062,
+      "sha256": "190988199e7221df4c01a8b6799df1233efc312d9d8ea5e60e765bcaa7cda932"
+    },
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1104455,
+      "sha256": "4249effd2827146152621e6c367dac82d883097b6133f85f089acadc3e44c3bc"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 956896,
+      "sha256": "6229dab004f985225643010394678aeef9d711dd5303628116a9336298b00070"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 727052,
+      "sha256": "778c2d8b484ad82acad7dd1b69b2edc39220ab8c51905f094e0bdd574b4c27e4"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1353761,
+      "sha256": "dcdf89bb1e55e10ef5064c079b26128a01ad28400078f4d3e4c0a08c36f3da6f"
+    }
+  },
+  "withheld": "Private source/review/check correspondence, raw receipts, machine fingerprints, custody records and administrative scripts remain local.",
+  "limitations": "Fixed deterministic original size, declared cutoff, hard absolute deletion budget, faithful completed induced survivor order and a law-marginal-preserving kernel are essential. Wrong-label errors are unconditional, not conditional on a decision or survivor count. Exact abstention is retained. No physical prediction/channel/application result or universal classifier. The pending native likelihood successor and separate measurement/E/NE/CE design bodies and follow-ups are excluded; RET remains paused."
+}

@@ -1,3 +1,41 @@
+# Current checkpoint: height diagnosis without the original size
+
+The [accepted unknown-size height diagnostic](docs/track_b/native_theorem_package_v1/UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md)
+provides finite unconditional wrong-family error guarantees with a declared
+cutoff and exact abstention accounting. The original size is not an observer
+input, but remains fixed for each experiment. A hard deletion bound, the
+faithful completed induced survivor order and a kernel preserving the
+specified generative marginal are required. The two optional law families
+retain their from-empty premises. No conditional-on-decision confidence,
+physical prediction, acquisition channel or application result follows.
+
+The author's historical pending-review header is retained. A separate note
+records subsequent independent manual review and coordinator acceptance.
+Metadata-obscured publication preserves the scientific text and public
+dependencies; private correspondence, raw receipts and custody metadata
+remain local. Editorial identity checks add no scientific acceptance.
+
+The programme has five lanes. The native successor is a separately assigned
+finite intrinsic-order likelihood and Bernoulli-parameter identifiability
+question after forgetting birth labels, including natural-label and
+automorphism factors and finite boundary cases. It is pending and excluded
+from this publication. It does not assert a random-size or erasure likelihood,
+physical channel or inference calibration. The measurement retrospective functional is accepted as a design only, with
+execution held; its implementation-admission contract is pending. E's
+prospective card is accepted with execution held; its model-only certificate
+readiness and confidence-stratification specification is pending. NE's ideal
+binary design is accepted while physical and finite-data claims remain held;
+an exact-table and single-preparation counterexample assignment is pending.
+CE's scoped missing-third-arm finding is accepted while a three-arm comparison
+remains held; an ordinary two-arm dependency-key specification is pending.
+These separate dispositions publish no design bodies, execution or new results. No further channel extension
+is selected automatically. The completed public-data replay is not reopened,
+and RET remains paused.
+
+The historical material below is retained unchanged.
+
+---
+
 # Current checkpoint: bounded vertex-erasure height diagnostic
 
 The reviewed [vertex-erasure theorem](docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md) transfers the finite intrinsic-height diagnostic through a declared bounded vertex-loss channel. Fix p0 in (0,1), original N>=2 and integer 0<=d<=floor(p0*(N-1)/4) before observation. Lowering the height threshold by d retains explicit class-conditional error bounds for the separately fixed Bernoulli and factorial-power law families. Erasures may depend on the entire generated history, provided the original law marginal and every completed survivor comparison remain faithful.
