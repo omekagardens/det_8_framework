@@ -1,0 +1,40 @@
+{
+  "scope": "Accepted conditional finite uniform-thinning likelihood; known fixed true size, fixed survivor count, independent uniform subset, completed faithful restriction.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1114056,
+      "sha256": "868a79e8319557115a3eb000e507cdcf3a869326365be2a3d09ad019f8ca85b6"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 966491,
+      "sha256": "6c54f95458c343205ff1f4349f826b75ddd2de02a07f434f268f965b35c733c6"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 736647,
+      "sha256": "3f660af0956c55e5e85eaf80a01f9c615c4596eb428eaafdd61c934fc64c3019"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1363356,
+      "sha256": "cac42b4c396471d44989ff98c428278a679df87739b2c8d4e409e616192d4492"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 68510,
+      "sha256": "8377bc171fa60f70c63050feff8aa46bb775c750242a3df4078299f79cf090e3"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 32859,
+      "sha256": "0b07215970fc53fe44f12df9e430e72549c96761aa26afe8a3212ddd5ef05c89"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 40987,
+      "sha256": "1f13d27fd1885009f2bd8d13d9101c9fc755163f7e8c95e5c873942f44f06566"
+    },
+    "docs/track_b/native_theorem_package_v1/THINNED_ORDER_LIKELIHOOD.md": {
+      "bytes": 15648,
+      "sha256": "b1ed80a9d8561566db62b8b5679d1c53cde5cc64b5bceef9930d40076351784c"
+    }
+  },
+  "withheld": "Private originals, correspondence, command/runtime receipts, source capture and custody JSON, machine/filesystem identifiers and administrative scripts remain local.",
+  "limits": "No general-size thinning identifiability, inference calibration, physical readout or efficient algorithm. Four new assigned continuations remain pending and excluded. All lane execution gates and exact platform applicability HOLD remain.",
+  "manifest_scope": "Research-branch payloads only. Four main landing additions are separately pinned in the private application record; this manifest does not claim them."
+}
