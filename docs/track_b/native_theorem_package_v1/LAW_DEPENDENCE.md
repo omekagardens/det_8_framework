@@ -1,3 +1,8 @@
+## Exact likelihood after faithful uniform thinning
+
+The reviewed [finite thinning theorem](THINNED_ORDER_LIKELIHOOD.md) pushes the accepted full-order likelihood through independent uniform fixed-size survivor selection and completed-order restriction. It separates natural-label and survivor-subset multiplicities, proves normalization/endpoints, and gives a manual three-vertex/two-survivor counterexample to naive size substitution with distribution identification in that small case. General thinning identifiability is pending; auxiliary seed nonidentifiability persists. Known true size and faithful complete comparisons are stipulated, with no physical readout or efficient computation claim.
+
+
 ## Native records and auxiliary seed independence
 
 The reviewed [auxiliary-seed theorem](AUXILIARY_SEED_IDENTIFIABILITY.md) constructs distinct seed mechanisms with identical native transition kernels, all finite marked histories and coarse payload maps. The accepted native parameter remains identifiable within its family, while hidden seed independence does not follow from those records. This is a conditional representation result; physical readout and application value remain open. The five research lanes retain separate review, execution and claim boundaries.
