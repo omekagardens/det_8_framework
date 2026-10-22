@@ -1122,3 +1122,15 @@ The Bernoulli error is bounded by \(\min\{1,1/(np_0^2)\}\); the factorial
 error by \(\min\{1,N(2\sqrt n)^\ell/\ell!\}\). The theorem states symbolic
 sufficient sizes and sufficient matrix-computation costs; it evaluates
 neither probabilities nor application performance.
+
+## Height diagnosis without the original size
+
+The [unknown-original-size height diagnostic](UNKNOWN_SIZE_HEIGHT_DIAGNOSTIC.md)
+uses a predeclared cutoff and exact abstention rule to give finite unconditional
+wrong-family error guarantees without supplying the original size to the
+observer. Each experiment still has a fixed deterministic original size.
+A fixed hard deletion bound, faithful completed induced survivor comparisons,
+and preservation of the specified generative marginal are essential.
+The result concerns the stated Bernoulli and factorial-power optional laws;
+it gives no conditional-on-decision confidence, physical prediction,
+acquisition channel or application result.
