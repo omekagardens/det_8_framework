@@ -1,0 +1,26 @@
+{
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1127579,
+      "sha256": "0cfcfc62967f7f08040e594718bc684a858190137ef6cb02ca0f973e2f832f5b"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 979972,
+      "sha256": "4e2ba24601ae0bf3b21f5e603fcb05b1a6e0a81b9a2a48d5cc02e799920f2cfa"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 750128,
+      "sha256": "44a642d85a437b24267f746004fd686c05b41e0fc622307c8a282e6a172ab95b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1376837,
+      "sha256": "4132bc04778d31a2cd4f6e54473cd44bc17f2cc4a789c3ae4aed2e8a793db5ca"
+    },
+    "docs/coordination/RI1392_OBSERVATION_ADJUDICATION.md": {
+      "bytes": 19506,
+      "sha256": "71ff52aa2b859a8fa97be351e24ee8edb46594f6371fcdeff1159a36f57b0cb5"
+    }
+  },
+  "schema": "COORDINATOR_CHECKPOINT_PUBLIC_MANIFEST_v1",
+  "scope": "Report and four public coordinator fronts; manifest excludes itself. Main merge-only."
+}
