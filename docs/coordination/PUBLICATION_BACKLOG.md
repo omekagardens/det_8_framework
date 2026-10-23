@@ -1,3 +1,7 @@
+## RI1396 — Native anchors and finite-vector robustness adjudicated
+
+See [the five-lane checkpoint](RI1396_ANCHOR_ROBUSTNESS_ADJUDICATION.md). The coordinator accepted the selected-family common-response anchor proposition, conditional product-ball robustness theorem and finite joint-calibration gauge obstruction. Relational-state covariance/selection defects and the computing documentary execution hold remain explicit. Five bounded successor questions are assigned for distinct review; no successor result or execution authorization is included. Preserve the 10% capacity guard, supported reset conditions, actual custody/protected-validation requirements and RET-only pause.
+
 ## RI1394 — calibration and five-lane adjudication
 
 The coordinator accepts the conditional RI1393 calibrated binary-readout proposition, scoped E-C007 coordinate-equivalence finding, NE-C007 finite-catalogue preparation/readout budget, CE-S004 inert fatal-stop repair, and conditional R1 source design with its retained review-sequencing limitation. See [the five-lane checkpoint](RI1394_CALIBRATION_ADJUDICATION.md) for the self-contained proposition, proofs, evidence and limits. E-D001 candidate inputs have been recovered; paired MHE/MPC definitions remain open.
