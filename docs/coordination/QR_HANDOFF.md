@@ -1,3 +1,13 @@
+## RI1430 structural sampling adjudication — publication checkpoint
+
+[the structural sampling report](RI1430_STRUCTURAL_SAMPLING_ADJUDICATION.md)
+
+The accepted RI1427 common-layer construction has explicit finite closed equations, positive fixed-floor constraints and only a conditional all-horizon compactness conclusion. Accepted RI1429 gives an exact newborn-subset sampling induction test: each k requires its corresponding prior identity. Pair balance forces the next common-layer scale, subject to every full-branch positivity and floor test; for fixed p there is at most one inductively feasible candidate, with existence, higher-motif consistency, native universality and physical selection of p still unproved.
+
+E, NE, CE and measurement retain their carried calibration, cost, cycle-scratch, binding, qualification and observed-execution gates. The fixed 17-value rank interpretation is not observed significance. Historical timing/custody failures, protected validation, Option B/Status M, ABSTAIN, zero qualification, the shared 10% stop rule and RET-only pause remain. This checkpoint gives no scientific execution, physical prediction or successor authority. The historical text below is preserved byte-for-byte.
+
+---
+
 ## RI1426 — Finite compatibility and a conditional global criterion
 
 The accepted RI1423 and RI1425 results are consolidated in [the compatibility report](RI1426_GLOBAL_COMPATIBILITY_ADJUDICATION.md). Complete positive rows through parent size two satisfy all admitted marked native diamonds and optional unmarked sampling identities through three completed births. The stopped size-three masses are A3=1/12, E3=1/2, V3=1/6, Lambda3=1/12 and C3=1/6; the uniform pair-chain mass is 1/2. Native admission retains the inherited ratio/locality and scalar-passive transport premises.
