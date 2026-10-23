@@ -1,3 +1,11 @@
+## Parameter identification after fixed-size uniform thinning
+
+The reviewed [parameter-identifiability theorem](PARAMETER_IDENTIFIABILITY.md) closes the prior small-case-only limitation for every fixed known original size and survivor count of at least two. Its intrinsic comparable-pair density has a strictly increasing expectation within the declared optional Bernoulli family. The [finite thinning likelihood](THINNED_ORDER_LIKELIHOOD.md), [full-order likelihood](BERNOULLI_ORDER_LIKELIHOOD.md), [auxiliary-seed result](AUXILIARY_SEED_IDENTIFIABILITY.md) and [vertex-erasure convention](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md) remain unchanged dependencies. Known original size, uniform actual-subset selection and faithful completed comparisons are essential. This is distribution identifiability, not exact one-order recovery, calibration, hidden-mechanism identification or physical readout.
+
+Independent manual review and coordinator adjudication accepted this conditional theorem. Public editorial acceptance remains separate. The assigned law-dependence continuation is pending independent admission and excluded. Earlier pending statements below remain historical.
+
+---
+
 ## Exact likelihood after faithful uniform thinning
 
 The reviewed [finite thinning theorem](THINNED_ORDER_LIKELIHOOD.md) pushes the accepted full-order likelihood through independent uniform fixed-size survivor selection and completed-order restriction. It separates natural-label and survivor-subset multiplicities, proves normalization/endpoints, and gives a manual three-vertex/two-survivor counterexample to naive size substitution with distribution identification in that small case. General thinning identifiability is pending; auxiliary seed nonidentifiability persists. Known true size and faithful complete comparisons are stipulated, with no physical readout or efficient computation claim.
