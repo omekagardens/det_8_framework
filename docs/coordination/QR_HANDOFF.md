@@ -1,3 +1,9 @@
+## RI1394 — calibration and five-lane adjudication
+
+The coordinator accepts the conditional RI1393 calibrated binary-readout proposition, scoped E-C007 coordinate-equivalence finding, NE-C007 finite-catalogue preparation/readout budget, CE-S004 inert fatal-stop repair, and conditional R1 source design with its retained review-sequencing limitation. See [the five-lane checkpoint](RI1394_CALIBRATION_ADJUDICATION.md) for the self-contained proposition, proofs, evidence and limits. E-D001 candidate inputs have been recovered; paired MHE/MPC definitions remain open.
+
+Next author reservations are RI1395 native calibration anchors, E-C008 paired estimator specification, NE-C008 operational calibration reference, CE-R001 runner feasibility, and the fixed H1 contrast perturbation certificate. These are assigned questions awaiting independent review, not accepted successor results. No scientific/operational/benchmark/protected-validation execution or physical validation is granted. Current byte identities do not repair historical missing custody; RET remains paused. All five lanes retain the shared capacity guard and separate review gates. Main is merge-only; no landing-page change.
+
 # RI1392 — Observation-channel adjudication and five-lane follow-through
 
 The coordinator accepts the independently reviewed RI1391 conditional observation-channel proposition. For the declared optional latent pair, fresh independent size-five preparations admit the stated finite-trial discriminator, whereas one latent history has a binary error-sum floor of at least one half. The complete assumptions and proofs, current five-lane decisions and actual blockers are in [the five-lane checkpoint](RI1392_OBSERVATION_ADJUDICATION.md). These are conditional mathematical results, not physical validation or an execution grant.
