@@ -1,0 +1,62 @@
+{
+  "scope": "Accepted finite three-vertex correlated law witness with equal single faithful uniform two-survivor report distribution and different full intrinsic order law; all-size native admission unproved.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1121339,
+      "sha256": "d96e931b46ff9afa9848200c091d101c6299865b6217018f52bfa8a741355102"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 973770,
+      "sha256": "7f6b7189158a5b071ecaccb66b159ee5c0fadfb63997eeb58bf2023987a5ac52"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 743926,
+      "sha256": "015cb68b08dd157bb6185ac734ce93b58d71b8ddb45081b28df62ddeb0826766"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1370635,
+      "sha256": "8c4d9ee0bcbfd78481f4b16452026e88bd9b5ed67dcc896f3fe484ee57359e87"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 70870,
+      "sha256": "06562ade27819edff1a185814bfb1570f17aece88bf892608c068b215b0c6f8c"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 35219,
+      "sha256": "9a0267f95be82fee83d4d2de667bfdf72d49fc9e0f7ab54c97801f04dee541c8"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 43347,
+      "sha256": "b780fc08258b08eba2173286f4e8a0ffb4f364cfbe62d7e6f00a886244c27bf9"
+    },
+    "docs/track_b/native_theorem_package_v1/FINITE_LAW_DEPENDENCE.md": {
+      "bytes": 14501,
+      "sha256": "a916872b10a178e30323a1fc119062c82f6372f750b5dc795daaf55e1e9fc7e8"
+    }
+  },
+  "dependencies": {
+    "docs/track_b/native_theorem_package_v1/PARAMETER_IDENTIFIABILITY.md": {
+      "bytes": 12856,
+      "sha256": "5cc0f8e8f48ebb341522ca9e856d631e6e930194a2b15bb260d0e7ec072f85b0"
+    },
+    "docs/track_b/native_theorem_package_v1/THINNED_ORDER_LIKELIHOOD.md": {
+      "bytes": 15648,
+      "sha256": "b1ed80a9d8561566db62b8b5679d1c53cde5cc64b5bceef9930d40076351784c"
+    },
+    "docs/track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md": {
+      "bytes": 14920,
+      "sha256": "3af8d8ba17b519cffea6308993314cdbff220842bec9864730d8c9dd90018063"
+    },
+    "docs/track_b/native_theorem_package_v1/AUXILIARY_SEED_IDENTIFIABILITY.md": {
+      "bytes": 18064,
+      "sha256": "d4ec4401f2d6bcc7dcfd9924abc0d43d16244b85e606fc98861b15d7c1c292a8"
+    },
+    "docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md": {
+      "bytes": 21603,
+      "sha256": "fb8b587120decce9119135cb597dc26be0b086077d418873751334ec3a28f5c9"
+    }
+  },
+  "withheld": "Private original administrative evidence, source/capture/custody maps, raw command receipts, machine identifiers, correspondence and preparation scripts remain local.",
+  "limits": "Finite candidate only: no all-size/native-instrument admission, multi-pair report, calibration, physical acquisition or execution admission. Prior within-family identifiability stands. All assigned continuation results remain excluded.",
+  "manifest_scope": "Research-branch payloads only; four main landing additions are separately pinned in the private application record."
+}

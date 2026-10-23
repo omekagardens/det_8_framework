@@ -1,3 +1,11 @@
+## Finite law dependence after two-survivor thinning
+
+The reviewed [finite law-dependence witness](FINITE_LAW_DEPENDENCE.md) preserves the admitted independent model's Bernoulli edge marginals and full single two-survivor report distribution while changing the intrinsic full three-vertex law. It verifies positivity and natural-label covariance at that horizon. This is a finite candidate, not an admitted all-size growth alternative or a physical countermodel.
+
+[Within-family parameter identifiability](PARAMETER_IDENTIFIABILITY.md) remains valid. The [finite thinning likelihood](THINNED_ORDER_LIKELIHOOD.md), [full-order likelihood](BERNOULLI_ORDER_LIKELIHOOD.md), [alternate-seed equality](AUXILIARY_SEED_IDENTIFIABILITY.md) and [completed-restriction convention](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md) retain their distinct roles. The witness supplies neither a multi-pair observation nor calibration or physical readout. Its manual proof has independent review and coordinator acceptance; public editorial admission remains separate. The assigned latent-mixture/native-admission continuation is pending and excluded. Earlier pending statements below remain historical.
+
+---
+
 ## Parameter identification after fixed-size uniform thinning
 
 The reviewed [parameter-identifiability theorem](PARAMETER_IDENTIFIABILITY.md) closes the prior small-case-only limitation for every fixed known original size and survivor count of at least two. Its intrinsic comparable-pair density has a strictly increasing expectation within the declared optional Bernoulli family. The [finite thinning likelihood](THINNED_ORDER_LIKELIHOOD.md), [full-order likelihood](BERNOULLI_ORDER_LIKELIHOOD.md), [auxiliary-seed result](AUXILIARY_SEED_IDENTIFIABILITY.md) and [vertex-erasure convention](VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md) remain unchanged dependencies. Known original size, uniform actual-subset selection and faithful completed comparisons are essential. This is distribution identifiability, not exact one-order recovery, calibration, hidden-mechanism identification or physical readout.
