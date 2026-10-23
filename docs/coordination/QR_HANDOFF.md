@@ -1,3 +1,11 @@
+## RI1416 checkpoint — growing anonymous samples
+
+The root-accepted conditional RI1415 result is consolidated in [the five-lane checkpoint](RI1416_GROWING_SAMPLE_ADJUDICATION.md). One uniform anonymous completed-order sample has vanishing between-law total variation when k=o(sqrt(N)); when sqrt(N)=o(k) and k=o(N), the chain/nonchain rule has both errors tending to zero. The finite paired error bounds require integers 2<=k<=N and 6<=m<=N; the Bernoulli witness bound alone applies for N>=4. Finite errors remain positive. The comparable-square-root regime remains an open question, with no accepted successor answer or physical readout claim.
+
+Historical timing, custody and guard-sequencing failures remain recorded. E/NE actual physical inputs, CE strict-RSS execution prerequisites and measurement binding/null/selection premises remain open. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the shared supported 10% stop/reset, existing schedules and RET-only pause persist. All earlier bytes follow unchanged.
+
+---
+
 ## RI1414 checkpoint — fixed-size sampled readout
 
 The root-accepted conditional RI1413 result is consolidated in [the five-lane checkpoint](RI1414_SAMPLED_READOUT_ADJUDICATION.md). Under the exact single uniform fixed-k anonymous induced-order experiment and separately fixed admitted laws, both observed distributions approach the k-chain; total variation vanishes and the optimal forced equal-prior error approaches one half. This does not contradict the accepted complete-order discriminator or infinite-history separation. Growing or repeated samples and physical readout remain outside this theorem.
