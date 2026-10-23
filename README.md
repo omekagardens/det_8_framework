@@ -1,3 +1,21 @@
+# Current checkpoint: admitted latent mixtures and five-lane follow-through
+
+The reviewed [latent-mixture extension](docs/track_b/native_theorem_package_v1/LATENT_MIXTURE_EXTENSION.md) combines the author's exact moment/existence construction with an independent comparison against the actual declared model. Coordinator adjudication accepts an optional all-size scalar-passive marked law in the exact feasible region. Whole-unmarked-parent dependence is permitted; normalized positive ratio kernels, fair immutable newborn bits and complete unnormalized marked diamonds supply the admission step. The finite three-vertex/two-survivor alias survives. No all-size report alias or physical prediction follows.
+
+- Native mathematics: the shared-latent extension and declared-model admission are accepted at their conditional scope. A finite-horizon mixing-law ambiguity and all-size identifiability question is assigned; its result remains pending independent admission and excluded.
+- Relational State: the cost certificate requires propagation of the separate unrecovered-storage debit through every interval bound, contrast, slack and acquisition obligation. The positive-denominator algebra and charging of all attempts stand, but the omitted debit can reverse the claimed margin. A narrow corrected certificate is assigned and pending independent admission. No measured advantage, controller source or execution is admitted.
+- Energy: the rational-command robustness bound is accepted under its explicit shared-response, compact-support, command-error and contamination premises. These are conditional population statements, not independently calibrated settings or finite-data evidence. A prospective independent premise-admission contract is assigned and pending review; it must identify the actual observation/calibration gap without inventing a clock or hardware procedure.
+- Computing: inert source review requires three repairs: truthful faults within the active retained partial record, validated stdout promotion within the same readiness epoch before later-channel failure, and strict integer validation. The assigned inert revision must preserve first-failure ownership, single-sentinel framing and all accepted allocations. No import, compilation, test, generated fixture, driver or benchmark is authorized.
+- Measurement: documentary correspondence and scoped residual metric/ABI/interpreter trust are accepted conditionally on exact relevant invocation binding and a separately reviewed native reference source/build contract. Those binding/reference gates remain missing. A contract is assigned; it is not helper authorship, build or execution permission. Current-versus-peak distinctions, selected-process ownership, status/count checks and update invalidation remain mandatory.
+
+All successor outputs remain excluded whether completed or not until distinct review and coordinator admission. Scientific, benchmark, fixture and qualification execution remain ungranted. Historical failures, custody limits and consumed exceptions persist; protected validation remains closed and RET remains paused. Existing schedules, the account-wide usage-stop rule and supported-reset requirements are unchanged. The programme remains open.
+
+Earlier checkpoints below are preserved byte-for-byte as historical text; the current decisions are those above.
+
+Previously stated 30/33/38 exclusions retain their original construction or family restrictions; this publication does not extend them to every latent-mixture or admitted law.
+
+---
+
 # Current checkpoint: finite law dependence and five-lane follow-through
 
 The reviewed [finite law-dependence witness](docs/track_b/native_theorem_package_v1/FINITE_LAW_DEPENDENCE.md) gives a positive correlated three-vertex edge law with the same Bernoulli edge marginals and complete faithful uniform two-survivor report distribution as the admitted independent construction, but a different full intrinsic three-vertex order distribution. Natural-label covariance is verified only at this finite horizon. The candidate has no all-size growth or native-instrument admission. Parameter identification within the stipulated independent family remains valid; it does not validate that family against this finite alternative.
