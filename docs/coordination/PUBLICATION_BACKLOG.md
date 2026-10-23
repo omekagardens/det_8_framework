@@ -1,3 +1,11 @@
+## RI1412 checkpoint — finite readout and conditional entry
+
+The root-accepted RI1411 finite intrinsic classifier and E-C016 conditional finite-entry theorem, with its binding time-origin correction, are consolidated in [the five-lane checkpoint](RI1412_FINITE_READOUT_AND_ENTRY_ADJUDICATION.md). For fixed optional laws and a predetermined exact-order design, each classifier error is strictly positive and at most the chosen tolerance. Strict sampled face surplus gives a conditional entry-duration bound and persistence; absolute entry time tau obeys tau-a<=t0-a+B for attempt start a.
+
+No physical readout, actual sampling/deadline admission, measured service or execution follows. The carried rank interpretation supplies no observed significance; NE physical inputs, CE strict-RSS and measurement binding/safe composition remain HOLD. Scientific, protected-validation, custody, resource, shared supported 10% stop/reset, schedules and RET-only pause limits persist. RI1413 is an open whether-question. E-C016-C1 is a requested exact clean-copy correction, not a completed or reviewed new theorem. Current pins repair no history. All earlier bytes follow unchanged.
+
+---
+
 ## RI1410 checkpoint — law comparison and sampled control
 
 The root-accepted RI1409 intrinsic law comparison and E-C015 causal sampled-service theorem are consolidated in [the five-lane checkpoint](RI1410_LAW_COMPARISON_AND_SAMPLED_CONTROL_ADJUDICATION.md). The two optional laws have distinct finite-versus-divergent incomparable-count behavior on infinite histories, but overlapping support at every fixed finite horizon. Sampled service persistence requires independently justified broad rate bounds, actual sensing/update/action premises and explicit margins; it provides no actual 60-second admission or entry guarantee.
