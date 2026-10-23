@@ -1,3 +1,11 @@
+## RI1402 checkpoint — finite compatibility and qualified admission
+
+The root-adjudicated results are consolidated in [the five-lane checkpoint](RI1402_FINITE_COMPATIBILITY_ADJUDICATION.md): exact four-query compatibility and confidence-box rejection with a boundary-power limit; E full-service/zero-horizon and semantic-receipt repairs; NE's 32 actual calibration blocks and model-indexed false-admission bound; CE's manual V02/V12 full-cost accounting; and the conditional seven-predicate measurement relation with its missing authoritative membership/safe-composition input.
+
+These are conditional documentary results. Execution, physical calibration, source/build, protected validation, runner and measurement-binding gates remain HOLD; all custody, resource, 10% usage-stop and RET-only pause controls persist. Historical timing/guard gaps remain explicit. No law identification, observed benchmark, energy advantage or universal DET claim follows. RI1403/E-C012/NE-C012/CE-R002 findings are excluded. The complete earlier text follows unchanged.
+
+---
+
 ## RI1400 — complementary anchors and five-lane adjudication (2026-10-23)
 
 The coordinator accepts the conditional complementary-anchor and finite-moment result, sufficient effect-calibration count design, qualified graph-edit cache proof, and a causal controller schema with two required horizon/receipt repairs. Measurement has a candidate primary-document location; binding and applicability remain unresolved. See [the five-lane checkpoint](RI1400_COMPLEMENTARY_ANCHORS_ADJUDICATION.md) for self-contained proofs, exact premises, review dispositions, cost/failure limits and next questions. No successor finding, physical validation or execution is included. The shared 10% supported-capacity guard, protected validation, custody requirements and RET pause remain. All earlier bytes below are preserved.
