@@ -1,3 +1,11 @@
+## RI1410 checkpoint — law comparison and sampled control
+
+The root-accepted RI1409 intrinsic law comparison and E-C015 causal sampled-service theorem are consolidated in [the five-lane checkpoint](docs/coordination/RI1410_LAW_COMPARISON_AND_SAMPLED_CONTROL_ADJUDICATION.md). The two optional laws have distinct finite-versus-divergent incomparable-count behavior on infinite histories, but overlapping support at every fixed finite horizon. Sampled service persistence requires independently justified broad rate bounds, actual sensing/update/action premises and explicit margins; it provides no actual 60-second admission or entry guarantee.
+
+The carried fixed 17-window rank interpretation supplies no observed significance. NE physical inputs, CE strict-RSS execution and measurement selected-image/current-cache safe composition remain HOLD. All scientific, protected-validation, custody, resource, shared supported 10% stop/reset and RET-only pause limits persist. RI1411 finite-error classification and E-C016 finite-time entry are open questions only, with neither answer presumed. Current identities repair no history. The complete earlier text follows byte for byte.
+
+---
+
 ## RI1408 checkpoint — conditional law, service and rank adjudication
 
 The root-accepted RI1407 summable allocation and eventual finite height deficit, E-C014 exact service-rectangle face test, and previously accepted fixed 17-window conditional rank interpretation are consolidated in [the five-lane checkpoint](docs/coordination/RI1408_LAW_AND_SERVICE_ADJUDICATION.md). The optional law has eventual H_N=N-D and constant width/incomparable-pair count; the service theorem requires its full uncertainty envelope and ideal feedback; the rank minimum 1/17 exceeds 5% and supplies no observed significance.
