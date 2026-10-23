@@ -1,3 +1,11 @@
+## RI1408 checkpoint — conditional law, service and rank adjudication
+
+The root-accepted RI1407 summable allocation and eventual finite height deficit, E-C014 exact service-rectangle face test, and previously accepted fixed 17-window conditional rank interpretation are consolidated in [the five-lane checkpoint](RI1408_LAW_AND_SERVICE_ADJUDICATION.md). The optional law has eventual H_N=N-D and constant width/incomparable-pair count; the service theorem requires its full uncertainty envelope and ideal feedback; the rank minimum 1/17 exceeds 5% and supplies no observed significance.
+
+Physical source/calibration and transfer inputs, the strict-RSS runner contract, and measurement selected-image/current-cache safe composition remain HOLD. All scientific, protected-validation, custody, resource, supported shared 10% stop/reset, historical-process and RET-only pause limits persist. RI1409 and E-C015 are next questions only. No successor result, execution or physical validation is claimed. Current identities do not repair history. The complete earlier text follows byte for byte.
+
+---
+
 ## RI1406 checkpoint — calibration, transfer and conditional admission
 
 The root-adjudicated results are consolidated in [the five-lane checkpoint](RI1406_CALIBRATION_TRANSFER_ADJUDICATION.md): QR's conditional intrinsic-height/external-clock bridge; E's noncircular invariant thermal box and derivative bound; NE's common-source transfer contract and unconditional source/calibration/target risk composition; and the retained CE strict-RSS and measurement selected-image/current-cache safe-composition blockers.
