@@ -1,3 +1,7 @@
+## RI1398 — law–response identifiability and five-lane adjudication (2026-10-23)
+
+The coordinator accepts the declared-family infinite-catalogue law/response classification, typed MHE covariance and finite selection repair, one-cell four-reference effect reconstruction, qualified fixed-DAG payload correctness, and nominal measurement admission cut. See [the five-lane checkpoint](RI1398_LAW_IDENTIFIABILITY_ADJUDICATION.md) for the self-contained proofs, precise premises, cost qualifications and all five successor questions. Successors await distinct review; none of their findings are included. Scientific and operational execution remain on hold; physical calibration, custody, resource and protected-validation requirements remain. CE author guard history is unverified. The 10% supported-capacity guard and RET pause remain. This update preserves every earlier byte below.
+
 ## RI1396 — Native anchors and finite-vector robustness adjudicated
 
 See [the five-lane checkpoint](RI1396_ANCHOR_ROBUSTNESS_ADJUDICATION.md). The coordinator accepted the selected-family common-response anchor proposition, conditional product-ball robustness theorem and finite joint-calibration gauge obstruction. Relational-state covariance/selection defects and the computing documentary execution hold remain explicit. Five bounded successor questions are assigned for distinct review; no successor result or execution authorization is included. Preserve the 10% capacity guard, supported reset conditions, actual custody/protected-validation requirements and RET-only pause.
