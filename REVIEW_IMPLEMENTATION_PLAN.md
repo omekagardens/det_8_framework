@@ -1,3 +1,11 @@
+## RI1420 checkpoint — finite prefixes and uniform discrimination
+
+The root-accepted conditional finite-prefix theorem is consolidated in [the five-lane checkpoint](docs/coordination/RI1420_FINITE_PREFIX_ADJUDICATION.md). Any admitted positive prefix through parent L>=5 can be retained while later marked layers are rebuilt with a summable proper-birth bound. Choosing L>=max(5,N-1) permits exact Bernoulli marked-history matching through horizon N and equality under any common observation kernel. A possibly different delayed law at each horizon prevents uniform forced discrimination over the explicitly enlarged family; randomized minimax maximum error is one half. Fixed-law asymptotic distinctions remain, and bounded onset plus a certified common tail give sufficient uniform controls.
+
+The original author's late complete readback remains an explicit process qualification; current mathematical admission does not certify original compliance. Anonymous sampling consistency is an OPEN successor question, with no adopted answer. E/NE actual physical inputs, CE strict-RSS prerequisites and measurement binding/null/selection premises remain open. Protected validation, Option B/Status M, ABSTAIN, zero qualification, shared supported 10% stop/reset, schedules and RET-only pause persist. All earlier bytes follow unchanged.
+
+---
+
 ## RI1418 checkpoint — critical anonymous samples
 
 The root-accepted conditional critical-scale theorem is consolidated with its two adjoining regimes in [the five-lane checkpoint](docs/coordination/RI1418_CRITICAL_SAMPLE_ADJUDICATION.md). For one uniform anonymous completed-order sample with k/sqrt(N)->c in (0,infinity), total variation has positive liminf and limsup below one; the optimal equal-prior error stays strictly between zero and one half in the corresponding liminf/limsup sense. Every forced rule has a positive limiting lower bound on its error sum. Below square-root scale TV tends to zero; above it while sublinear the chain/nonchain rule is consistent. Finite domains, positive finite errors and conditional law premises remain explicit. Finite-prefix continuation and law-uniform discrimination remain OPEN questions, with no successor answer or physical readout claim.
