@@ -1,3 +1,11 @@
+## RI1404 checkpoint — observational boundaries and conditional admission
+
+The root-adjudicated results are consolidated in [the five-lane checkpoint](docs/coordination/RI1404_OBSERVATIONAL_BOUNDARIES_ADJUDICATION.md): classical equivalence of the complete fixed four-query records; E's conditional two-endpoint intersample bound with corrected derivative-bound notation; NE's finite target rule and unconditional accepted-and-wrong bound; CE's footprint candidate with the strict resident-memory runner HOLD; and the retained missing selected-image/current-cache membership and safe-composition contract.
+
+These are conditional mathematical and documentary findings. Execution, physical calibration, source/build, protected validation, runner and measurement-binding gates remain HOLD. Historical timing, guard and custody limitations, all resource controls, the 10% usage stop and RET-only pause persist. Current identity checks supply no physical validation or historical repair. Successor findings awaiting review and root adjudication are excluded. The complete earlier text follows unchanged as history.
+
+---
+
 ## RI1402 checkpoint — finite compatibility and qualified admission
 
 The root-adjudicated results are consolidated in [the five-lane checkpoint](docs/coordination/RI1402_FINITE_COMPATIBILITY_ADJUDICATION.md): exact four-query compatibility and confidence-box rejection with a boundary-power limit; E full-service/zero-horizon and semantic-receipt repairs; NE's 32 actual calibration blocks and model-indexed false-admission bound; CE's manual V02/V12 full-cost accounting; and the conditional seven-predicate measurement relation with its missing authoritative membership/safe-composition input.
