@@ -1,0 +1,58 @@
+{
+  "scope": "Accepted conditional parameter identifiability at fixed known original and survivor sizes under uniform actual-subset selection and faithful completed restriction.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1117456,
+      "sha256": "f751a9c6072458e3c34181ba20c72786a4548193907ab53d1760a92fcad7a736"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 969889,
+      "sha256": "dc0b9221fa81706d9d1bbfe9cd919467a8ff29a0fcba499eea60b90a134500a7"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 740045,
+      "sha256": "39ba5e9893e558509d23d6399a83d9faedb49d90e3cce098eedf891e666f9b60"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1366754,
+      "sha256": "24484acd55a8fc19bf18c591d7cd19be7f4e60d9de256ea6f6a78e8673fbd7af"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 69689,
+      "sha256": "1864224ae01dc8b8035fe8adc0cb186bd677213aeeee892a82fd020f436a25ed"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 34038,
+      "sha256": "1789ab65247c0f369507648b8b74608d4452ae028ee54e51034413261355e5a1"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 42166,
+      "sha256": "b7ae13227b10a167bb5ea6f35b1905f4625a7a6068c042fc888506546e4bd2e5"
+    },
+    "docs/track_b/native_theorem_package_v1/PARAMETER_IDENTIFIABILITY.md": {
+      "bytes": 12856,
+      "sha256": "5cc0f8e8f48ebb341522ca9e856d631e6e930194a2b15bb260d0e7ec072f85b0"
+    }
+  },
+  "dependencies": {
+    "docs/track_b/native_theorem_package_v1/THINNED_ORDER_LIKELIHOOD.md": {
+      "bytes": 15648,
+      "sha256": "b1ed80a9d8561566db62b8b5679d1c53cde5cc64b5bceef9930d40076351784c"
+    },
+    "docs/track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md": {
+      "bytes": 14920,
+      "sha256": "3af8d8ba17b519cffea6308993314cdbff220842bec9864730d8c9dd90018063"
+    },
+    "docs/track_b/native_theorem_package_v1/AUXILIARY_SEED_IDENTIFIABILITY.md": {
+      "bytes": 18064,
+      "sha256": "d4ec4401f2d6bcc7dcfd9924abc0d43d16244b85e606fc98861b15d7c1c292a8"
+    },
+    "docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md": {
+      "bytes": 21603,
+      "sha256": "fb8b587120decce9119135cb597dc26be0b086077d418873751334ec3a28f5c9"
+    }
+  },
+  "withheld": "Private original administrative evidence, source/capture/custody maps, raw command receipts, machine identifiers, correspondence and preparation scripts remain local.",
+  "limits": "No estimator calibration, exact one-order recovery, physical acquisition, hidden-mechanism identification or execution admission. All assigned continuation results remain excluded pending independent admission.",
+  "manifest_scope": "Research-branch payloads only; four main landing additions are separately pinned in the private application record."
+}
