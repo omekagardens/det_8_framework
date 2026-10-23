@@ -1,0 +1,108 @@
+{
+  "scope": "Selective composite: exact latent-moment extension plus independent declared-model admission proof; optional all-size scalar-passive marked law in the proved feasible region.",
+  "payloads": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1124880,
+      "sha256": "a897c281d2c4ac15fdd15ef236567e3dafa84d1dcc2bbf72c228a08178f1e9e7"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 977309,
+      "sha256": "0ab2ededa13dda36910edde8fa3e859a967dd2251e5812f73a244951fb958aef"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 747465,
+      "sha256": "c29a6153952b9487551f7c52eb7bf2f689bea433e6043a81b4d097a464e5473b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1374174,
+      "sha256": "5491fcb682bafcf5057b5d8c41966245640a1226150a6972f95ce28959a54e5e"
+    },
+    "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md": {
+      "bytes": 72182,
+      "sha256": "357d8d17c166a562a02a0c9409caf102823d3400a173c18159e78c2c6d829fdd"
+    },
+    "docs/track_b/native_theorem_package_v1/LAW_DEPENDENCE.md": {
+      "bytes": 36531,
+      "sha256": "db448fa7e84c19529fd9351958be8b2bb5749884829e52080022b268b60a100e"
+    },
+    "docs/track_b/native_theorem_package_v1/PUBLICATION_NOTE.md": {
+      "bytes": 44659,
+      "sha256": "66da355d211cf15828ba2aa646ed1cc52e65c96d6098b4de226ad0da50ae06a7"
+    },
+    "docs/track_b/native_theorem_package_v1/LATENT_MIXTURE_EXTENSION.md": {
+      "bytes": 18441,
+      "sha256": "1c9a984d1584d9312ab2ae3291e16208c6b8e3a3e93efe7f90412148b0584350"
+    }
+  },
+  "dependencies": {
+    "docs/track_b/native_theorem_package_v1/FINITE_LAW_DEPENDENCE.md": {
+      "bytes": 14501,
+      "sha256": "a916872b10a178e30323a1fc119062c82f6372f750b5dc795daaf55e1e9fc7e8"
+    },
+    "docs/track_b/native_theorem_package_v1/PARAMETER_IDENTIFIABILITY.md": {
+      "bytes": 12856,
+      "sha256": "5cc0f8e8f48ebb341522ca9e856d631e6e930194a2b15bb260d0e7ec072f85b0"
+    },
+    "docs/track_b/native_theorem_package_v1/THINNED_ORDER_LIKELIHOOD.md": {
+      "bytes": 15648,
+      "sha256": "b1ed80a9d8561566db62b8b5679d1c53cde5cc64b5bceef9930d40076351784c"
+    },
+    "docs/track_b/native_theorem_package_v1/BERNOULLI_ORDER_LIKELIHOOD.md": {
+      "bytes": 14920,
+      "sha256": "3af8d8ba17b519cffea6308993314cdbff220842bec9864730d8c9dd90018063"
+    },
+    "docs/track_b/native_theorem_package_v1/AUXILIARY_SEED_IDENTIFIABILITY.md": {
+      "bytes": 18064,
+      "sha256": "d4ec4401f2d6bcc7dcfd9924abc0d43d16244b85e606fc98861b15d7c1c292a8"
+    },
+    "docs/track_b/native_theorem_package_v1/VERTEX_ERASURE_HEIGHT_DIAGNOSTIC.md": {
+      "bytes": 21603,
+      "sha256": "fb8b587120decce9119135cb597dc26be0b086077d418873751334ec3a28f5c9"
+    }
+  },
+  "withheld": "Private original administrative evidence, source/capture/custody maps, raw command receipts, machine identifiers, correspondence and preparation scripts remain local.",
+  "limits": "Conditional optional law; no all-size two-survivor alias, physical prediction/readout, calibration or execution. Only this latent representation is excluded outside the feasible region. All successors remain excluded.",
+  "manifest_scope": "Research-branch payloads only; four main landing additions are separately pinned in the private application record.",
+  "scientific_chunks": [
+    {
+      "source_alias": "author-extension-sections1-4",
+      "content_pin": {
+        "bytes": 9287,
+        "sha256": "e28298ac1df80f407ff7e4a366811bfd8375fd60fc7efad0fdd96cc95aa9977e"
+      },
+      "public_byte_start": 1874,
+      "public_byte_end_exclusive": 11161
+    },
+    {
+      "source_alias": "independent-declared-model-comparison",
+      "content_pin": {
+        "bytes": 3452,
+        "sha256": "ed1aced1eda42e7321872c63df76d865311be3db8724e76eec2cd64b1e03baa4"
+      },
+      "public_byte_start": 11416,
+      "public_byte_end_exclusive": 14868
+    },
+    {
+      "source_alias": "independent-accepted-scope",
+      "content_pin": {
+        "bytes": 1021,
+        "sha256": "0615080cd3dbbf95515cc8826ee5f5cc41703a4faf5d3c67ffc78638cf3ccd21"
+      },
+      "public_byte_start": 14868,
+      "public_byte_end_exclusive": 15889
+    },
+    {
+      "source_alias": "author-scientific-limits",
+      "content_pin": {
+        "bytes": 712,
+        "sha256": "b911bf18ad8d1694430d768db43c66a6b32eb59f966f9ef31715763199b58f59"
+      },
+      "public_byte_start": 15948,
+      "public_byte_end_exclusive": 16660
+    }
+  ],
+  "private_provenance": {
+    "withheld_record": "SOURCE_SECTION_MAP.json",
+    "availability": "Retained privately and explicitly bound by the private application record; intentionally not a public file or custody-replay claim."
+  }
+}

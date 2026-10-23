@@ -1,3 +1,13 @@
+## Latent mixtures as optional admitted growth laws
+
+The reviewed [composite latent-mixture theorem](LATENT_MIXTURE_EXTENSION.md) gives the exact feasible moment region, an explicit projective extension and the independent proof of compliance with [the declared model, §1](THEOREM_PACKAGE.md#1-mathematical-object-and-admitted-model). It is an optional from-empty scalar-passive marked law; no prescribed historical seed is made compulsory. The public document credits its distinct author and reviewer contributions and records exact source-chunk correspondence.
+
+It recovers the [finite correlated witness](FINITE_LAW_DEPENDENCE.md), including its three-vertex/two-survivor alias, without asserting an alias at every size. [Within-family parameter identifiability](PARAMETER_IDENTIFIABILITY.md), the [finite thinning likelihood](THINNED_ORDER_LIKELIHOOD.md) and [law-dependence distinctions](LAW_DEPENDENCE.md) remain intact. No physical preparation/readout, calibration or execution follows. The assigned mixing-law identifiability continuation is pending and excluded; earlier admission-HOLD statements below are historical.
+
+Previously stated 30/33/38 exclusions retain their original construction or family restrictions; this publication does not extend them to every latent-mixture or admitted law.
+
+---
+
 ## Finite law dependence after two-survivor thinning
 
 The reviewed [finite law-dependence witness](FINITE_LAW_DEPENDENCE.md) preserves the admitted independent model's Bernoulli edge marginals and full single two-survivor report distribution while changing the intrinsic full three-vertex law. It verifies positivity and natural-label covariance at that horizon. This is a finite candidate, not an admitted all-size growth alternative or a physical countermodel.
