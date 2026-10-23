@@ -1,3 +1,13 @@
+# RI1392 — Observation-channel adjudication and five-lane follow-through
+
+The coordinator accepts the independently reviewed RI1391 conditional observation-channel proposition. For the declared optional latent pair, fresh independent size-five preparations admit the stated finite-trial discriminator, whereas one latent history has a binary error-sum floor of at least one half. The complete assumptions and proofs, current five-lane decisions and actual blockers are in [the five-lane checkpoint](RI1392_OBSERVATION_ADJUDICATION.md). These are conditional mathematical results, not physical validation or an execution grant.
+
+E-C006's common restoration/source-ledger signature is accepted with the full-cycle reset/model premise still missing. NE-C006's common-iid record-law repair is accepted. CE-S003 requires the 33,347-byte input versus 33,346-byte retained-limit distinction, correct 40-check no-exception count and fatal-resource-stop propagation. Measurement declarations are accepted at documentary scope; actual ownership, build identity, image/cache correspondence and same-invocation binding remain open.
+
+The next bounded assignments are RI1393 noisy-readout calibration, E-C007 baseline/candidate representation, NE-C007 preparation/readout error budgets, CE-S004 inert harness repair, and an inert conditional R1 source component. Each awaits distinct review and coordinator disposition; no successor result or execution is accepted here. The completed prospective GWOSC replay is not repeated. RI1389's historical missing author artifacts remain missing. Protected validation, custody, RET-only pause and all execution gates remain; all five lanes share the explicit 10% capacity guard. The hourly follow-through and separate Monday integration schedule remain unchanged.
+
+---
+
 ## Coordinator checkpoint — 23 October 2026
 
 Five lane dispositions are complete: captured conditional QR mathematics accepted with incomplete original author provenance; relational-state debit-complete certificate accepted conditionally; energy record-law wording returned for repair; computing-efficiency inert-source repairs accepted within caller invariants; and the measurement reference/binding contract accepted conditionally with staged binding. None supplies physical validation, a measured advantage or scientific/benchmark/qualification execution permission.
