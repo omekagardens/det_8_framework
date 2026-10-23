@@ -1,0 +1,26 @@
+{
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1125762,
+      "sha256": "938f044112356bae0208f4ea2601ae3e7bf7657b22020c7e7fc33766351ccfbd"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 978173,
+      "sha256": "b1037916dd816437cc7d1ff93cd6a1e1ecd43985c422685121f7096b817f22f8"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 748329,
+      "sha256": "d5ed532412a4c236e27fb5fcb142ff2eb810861eae5f706b6bc46b740e97b05b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1375038,
+      "sha256": "b7e8bd4ab1b03d402249505c6cd5012c2ce3a96f4fc9b74ae3422a1e7056db0c"
+    },
+    "docs/coordination/RI1390_FIVE_LANE_ADJUDICATION.md": {
+      "bytes": 7629,
+      "sha256": "df3045fcc351f0ae932ec208ce80e08cfebfeb9dbc4ff10fe196d92b013cbeb9"
+    }
+  },
+  "schema": "COORDINATOR_CHECKPOINT_PUBLIC_MANIFEST_v1",
+  "scope": "Report and four public coordinator fronts; manifest excludes itself. Main merge-only."
+}
