@@ -1,3 +1,11 @@
+## RI1414 checkpoint — fixed-size sampled readout
+
+The root-accepted conditional RI1413 result is consolidated in [the five-lane checkpoint](RI1414_SAMPLED_READOUT_ADJUDICATION.md). Under the exact single uniform fixed-k anonymous induced-order experiment and separately fixed admitted laws, both observed distributions approach the k-chain; total variation vanishes and the optimal forced equal-prior error approaches one half. This does not contradict the accepted complete-order discriminator or infinite-history separation. Growing or repeated samples and physical readout remain outside this theorem.
+
+Original author and first-review timing failures remain recorded; present acceptance follows a fresh independent review and coordinator disposition, without retroactive waiver. The accepted E-C016-C1 time-origin correction is a closed source repair. E/NE physical inputs, CE strict-RSS and measurement binding/null/selection premises remain open. Scientific and custody gates, the shared supported 10% stop/reset, all schedules and RET-only pause persist. The next growing-sample question has no accepted answer. All earlier bytes follow unchanged.
+
+---
+
 ## RI1412 checkpoint — finite readout and conditional entry
 
 The root-accepted RI1411 finite intrinsic classifier and E-C016 conditional finite-entry theorem, with its binding time-origin correction, are consolidated in [the five-lane checkpoint](RI1412_FINITE_READOUT_AND_ENTRY_ADJUDICATION.md). For fixed optional laws and a predetermined exact-order design, each classifier error is strictly positive and at most the chosen tolerance. Strict sampled face surplus gives a conditional entry-duration bound and persistence; absolute entry time tau obeys tau-a<=t0-a+B for attempt start a.
