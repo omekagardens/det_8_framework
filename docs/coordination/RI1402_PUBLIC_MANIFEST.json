@@ -1,0 +1,26 @@
+{
+  "schema": "COORDINATOR_CHECKPOINT_PUBLIC_MANIFEST_v1",
+  "scope": "Report and four public coordinator fronts; manifest excludes itself. Main merge-only.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1132305,
+      "sha256": "868f314d0c5f89d67daebed42ed2e276724210c9e27fd5370dd5e9411fe6923d"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1381473,
+      "sha256": "e71f35aeba4deed631fce43f94e2b09298bd5e7aa3083759bf65039e0bf8e67f"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 754764,
+      "sha256": "ebbc0ad6a76d8664d008a66a828a3a4a6826686fa987b1e8d1eec68c44d5f144"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 984608,
+      "sha256": "03e01ec735e1e36a69f62724cb2367776c17bd787abda2315e13703731bfab82"
+    },
+    "docs/coordination/RI1402_FINITE_COMPATIBILITY_ADJUDICATION.md": {
+      "bytes": 32224,
+      "sha256": "c82b717fd1d8603255b41d723e274579f795690c4f05a4bec932d94ea1c18444"
+    }
+  }
+}
