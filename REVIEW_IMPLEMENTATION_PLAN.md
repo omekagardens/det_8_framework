@@ -1,3 +1,11 @@
+## RI1406 checkpoint — calibration, transfer and conditional admission
+
+The root-adjudicated results are consolidated in [the five-lane checkpoint](docs/coordination/RI1406_CALIBRATION_TRANSFER_ADJUDICATION.md): QR's conditional intrinsic-height/external-clock bridge; E's noncircular invariant thermal box and derivative bound; NE's common-source transfer contract and unconditional source/calibration/target risk composition; and the retained CE strict-RSS and measurement selected-image/current-cache safe-composition blockers.
+
+These are conditional mathematical and documentary findings. Physical calibration, source/build, protected validation, runner and measurement-binding gates remain HOLD. Historical timing, guard and custody limitations, all resource controls, the shared 10% usage stop and RET-only pause persist. QR summable law allocation, E service-region invariance and optional measurement rank interpretation are directions only; no new successor result is claimed. NE awaits actual physical inputs and CE an exact admitted runner contract. Current identities provide no physical validation or historical repair. The complete earlier text follows unchanged as history.
+
+---
+
 ## RI1404 checkpoint — observational boundaries and conditional admission
 
 The root-adjudicated results are consolidated in [the five-lane checkpoint](docs/coordination/RI1404_OBSERVATIONAL_BOUNDARIES_ADJUDICATION.md): classical equivalence of the complete fixed four-query records; E's conditional two-endpoint intersample bound with corrected derivative-bound notation; NE's finite target rule and unconditional accepted-and-wrong bound; CE's footprint candidate with the strict resident-memory runner HOLD; and the retained missing selected-image/current-cache membership and safe-composition contract.
