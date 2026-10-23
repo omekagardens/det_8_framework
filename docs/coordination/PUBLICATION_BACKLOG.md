@@ -1,3 +1,12 @@
+## RI1426 — Finite compatibility and a conditional global criterion
+
+The accepted RI1423 and RI1425 results are consolidated in [the compatibility report](RI1426_GLOBAL_COMPATIBILITY_ADJUDICATION.md). Complete positive rows through parent size two satisfy all admitted marked native diamonds and optional unmarked sampling identities through three completed births. The stopped size-three masses are A3=1/12, E3=1/2, V3=1/6, Lambda3=1/12 and C3=1/6; the uniform pair-chain mass is 1/2. Native admission retains the inherited ratio/locality and scalar-passive transport premises.
+
+The global criterion is conditional: fixed horizon-independent positive coordinate floors, exhaustive cumulative closed native constraints and feasibility at every horizon yield one coherent positive array and history measure by diagonal compactness. Those hypotheses are not supplied by the finite witness. RI1421's family exclusions remain; optional sampling consistency is not adopted as a physical law. The common-layer closed-constraint question remains OPEN, with no successor answer included.
+
+Separate E, NE, CE and measurement work retains its physical/execution gates; no current unreviewed result is admitted here. Historical timing/custody/guard failures remain recorded. Protected validation, Option B/Status M, ABSTAIN, zero qualification and RET-only pause are unchanged. Distinct publication review, root acceptance and current repository verification remain required.
+
+
 ## RI1422 — Optional anonymous sampling-consistency audit
 
 The root accepts the conditional RI1421 mathematics summarized in [the five-lane checkpoint](RI1422_SAMPLING_CONSISTENCY_ADJUDICATION.md): uniform completed-relation subset kernels compose, and all adjacent-size deletion identities are equivalent to the full sampling identities. The admitted interior-parameter Bernoulli law fails at three births with exact discrepancy (1-p)p²/3. Every fixed strictly positive delayed-summable law also fails, by fixed-k chain convergence and positive stopped two-antichain mass, without integrability or a uniform horizon.
