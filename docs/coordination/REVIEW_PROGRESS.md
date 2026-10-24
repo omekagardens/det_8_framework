@@ -1,3 +1,12 @@
+# RI1470 — Review progress
+
+[RI1470: Proposed branch locality](RI1470_BRANCH_LOCALITY.md) presents accepted RI1469. In the supplied fixed commuting CP family with positive marked q and N>=2, the proposed two-birth full-branch rule on every preparation is equivalent to scalar effects. The proof includes both marginals without an invariant source, zero rows and the endpoint-mixture identity. Global effect conclusions require sufficient preparation coverage.
+
+Complete finite record weights are w_q times the mark-weight product, retaining actual old-mark dependence. Scalar effects permit biased marks and disturbing commuting CPTP updates. Weak filters fail the stronger rule at the equal mixture while passing pure eigenstate singletons and their nonconvex pair. Original q-only locality and complete diamonds remain intact in that contrast. RL is not adopted as a native postulate or physical locality; the original scalar law is unchanged.
+
+Prior instrument credit, author cap recovery, reviewer/root display and preflight recoveries, attributed completion and inherited custody limits remain. Measurement/E/NE/CE actual operational inputs are absent. Protected validation, ABSTAIN, Option B/Status M, zero qualification, shared 10% stop/reset and RET-only pause remain. No new horizon, native readout/clock, QM/gravity/agency/RI1451 result or release receipt is claimed.
+
+---
 # RI1468 — Review progress
 
 [RI1468: Fair records and passive payloads](RI1468_PAYLOAD_LAW_BOUNDARY.md) presents accepted RI1467 at its conditional fixed-instrument scope. For supplied positive marked q and fixed CP outcome maps on a common matrix carrier, universal complete diamonds are equivalent to superoperator commutation when N>=2; complete mark-carrying transport includes every later suffix.

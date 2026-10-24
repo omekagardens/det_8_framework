@@ -1,0 +1,30 @@
+{
+  "schema": "RI1470_PUBLIC_MANIFEST_v1",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1171780,
+      "sha256": "20617ea49c8c650fd4b2a46cf206666e042d75be8240bf349314a8ff6e0a8f17"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1023659,
+      "sha256": "44db475049896d9bd3acd76bde2e3eb8fc4a511fbe95954bc5165646311f1fec"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 793688,
+      "sha256": "503c61fd3ec8fce360ac1265d433adf0146370460180945ee1f159a0376b782e"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1420287,
+      "sha256": "66d41b4692d29dc1d404f20781fae92a5982fde1a53bae775f9d160f48fbe47e"
+    },
+    {
+      "path": "docs/coordination/RI1470_BRANCH_LOCALITY.md",
+      "bytes": 13963,
+      "sha256": "7e5c82d51a26779787932b5aef4c988963ad983f6262634ec5f7c0c552a8298b"
+    }
+  ]
+}
