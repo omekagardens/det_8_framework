@@ -1,3 +1,12 @@
+# RI1468 — QR handoff
+
+[RI1468: Fair records and passive payloads](RI1468_PAYLOAD_LAW_BOUNDARY.md) presents accepted RI1467 at its conditional fixed-instrument scope. For supplied positive marked q and fixed CP outcome maps on a common matrix carrier, universal complete diamonds are equivalent to superoperator commutation when N>=2; complete mark-carrying transport includes every later suffix.
+
+All-input fairness preserves the original full record law while allowing payload disturbance. CP outcomes summing to the identity channel are scalar; fairness fixes half-identities. Weak diagonal filters retain positive histories and commuting diamonds while revealing Z populations, not coherences. Prior instrument fixtures and standard CP/Choi facts retain credit. These are supplied model premises, not DET-native or physical derivations; the original scalar law is unchanged.
+
+Author cap recovery, attributed completion, recovered root display/cursor errors and inherited custody limits remain. Actual measurement/E/NE/CE operational inputs are absent. Protected validation, ABSTAIN, Option B/Status M, zero qualification, shared 10% stop/reset and RET-only pause remain. No new horizon, continuation, physical clock, QM/geometry/gravity/agency/RI1451 result or release receipt is claimed.
+
+---
 # RI1466 — QR handoff
 
 [RI1466: Finite record observability](RI1466_RECORD_OBSERVABILITY.md) presents accepted RI1465. For the fixed five-birth pair, TV=(1-A)/2 and optimal forced equal-prior component error=(1+A)/4. The full/proper flag retains both but is not statistically sufficient; the likelihood ratio reconstructs both laws without recovering the hidden selector exactly. Earlier observation and TV-versus-sufficiency precedents retain credit.
