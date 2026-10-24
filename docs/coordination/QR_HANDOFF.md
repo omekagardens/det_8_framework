@@ -1,3 +1,9 @@
+## RI1434 — Finite scale freedom and conditional sampling feasibility
+
+The accepted RI1431 affine criterion and RI1433 finite boundary classification are consolidated in [the finite scale and sampling report](RI1434_AFFINE_COMPONENT_ADJUDICATION.md). At the exact p=1/2 prefix, 23 proper occurrences form 17 orbits and eleven blocks for the stated diamond, equivariance and mark-independence equations. Native identification H remains open: eleven independently permitted native scales and a sampling-feasible point are not established. The conditional criterion includes strict complete-row positivity, floor-boundary uniqueness and the pair-forced common-scale candidate.
+
+E/NE-F005 and CE-F005 conditional acceptances and M-F005 documentary acceptance are pinned intake statuses only. All physical, calibration, source/build/ABI, custody, qualification and execution gates remain. No pending successor result is adopted. Historical process failures remain qualified; current identity checks do not repair old custody. This is a documentation checkpoint with full prior suffix preservation; main integration is merge-only.
+
 ## RI1430 structural sampling adjudication — publication checkpoint
 
 [the structural sampling report](RI1430_STRUCTURAL_SAMPLING_ADJUDICATION.md)
