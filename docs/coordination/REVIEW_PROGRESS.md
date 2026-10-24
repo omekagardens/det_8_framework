@@ -1,3 +1,12 @@
+# RI1462 — Review progress
+
+[RI1462: Finite hidden-law mixture](RI1462_HIDDEN_LAW_MIXTURE.md) presents accepted RI1461 at conditional five-birth scope. A retained half/half selector between last-layer parameters 1 and 1/2 preserves complete positive histories and z-fixed marked swap transport, including every tail, while identical committed records have different selector-conditioned next laws. Forgetting z gives the entire admitted marked t=3/4 prefix. Forgetting marks separately requires the eta-weighted conditional average.
+
+All contained diamonds include full first precursors and whole scalar PSD payload maps. The two Bayes updates do not supply a parent-five/sixth-birth kernel. L1 scaling, general factorization and augmentation descent are prior results; no arbitrary-mixture locality theorem, physical selector, agency, RI1451 solution or successor answer is adopted.
+
+Actual E/NE/CE and measurement cost, resource, custody, qualification and execution gates remain. Author reservation-test/revision and attributed author/reviewer completion, plus inherited cap/patch/display/schema and missing/late custody limits, persist. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1460 — Review progress
 
 [RI1460: Primary assumptions](RI1460_PRIMARY_ASSUMPTIONS.md) presents root-adjudicated RI1459 at its literal-source and two-birth scope. Valid selected commits preserve completed relations; they do not supply a normalized full-history law, record-state sufficiency or swap transport. The explicit retained propensity bit gives identical committed records with fair marks but next-relation probabilities 1/4 and 3/4, averaging to 1/2.
