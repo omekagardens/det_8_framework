@@ -1,3 +1,12 @@
+# RI1454 — Review progress
+
+[RI1454: Maximal normalization](RI1454_MAXIMAL_NORMALIZATION.md) presents root-accepted RI1453 at its exact conditional scope. For exchangeable restriction-consistent laws, maximal-only normalization preserves an incomparable-birth scalar diamond exactly when the common endpoint is zero or the intermediate maximal masses agree, on the positive-denominator domain. Full support removes the zero alternative.
+
+The singleton A2/C2 witness retains full first precursors and labeled ideal multiplicities. The pure two-level boundary has two zero products; at lambda=999/1000, the allowed full-support mixture instead has normalizer gap at least 67/1110 and a positive endpoint, yielding unequal positive routes. No uniform numerical endpoint or route-gap floor is asserted. Pair comparability changes to p/(2-p), and a common fair-bit scalar-passive factor cannot repair the mismatch.
+
+This rejects that prescription, not every native realization. The original target and finite obstruction remain unchanged; successor answers are excluded. Actual E/NE/CE and measurement profile, resource, custody and execution gates remain. Nominal calculation is separate from physical/production assurance. Historical missing, late, cap, display, schema and empty-edit evidence limits persist; current pins do not reconstruct history. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No publication or execution receipt is claimed.
+
+---
 ## RI1452 — Full-support comparison
 
 RI1451 is root-accepted at its conditional mathematical scope. See [the full-support comparison report](RI1452_FULL_SUPPORT_COMPARISON.md). A declared countable dual-balanced template mixture plus positive weight of the q=1/3 two-level law is exactly restriction-consistent at every finite size. Every finite labeled and anonymous order has a positive target-specific lower bound. All five triple probabilities are positive, v-w=2lambda/9>0, and covariance slack is strict. No template series is numerically evaluated.
