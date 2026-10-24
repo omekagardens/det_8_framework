@@ -1,0 +1,31 @@
+{
+  "schema": "RI1446_PUBLIC_MANIFEST_v1",
+  "scope": "Four coordinator fronts and the conditional report; no self-hash or execution authority.",
+  "entries": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1154652,
+      "sha256": "9d215ba63895542940ef2d944c5f6f2b800649199b0ef573dd3471eb726bee3a"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1403492,
+      "sha256": "3d4f40c17b45ed05c487da04fbb1ae5ce62e735fa2cf1a90557c7c3a2482179e"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 776888,
+      "sha256": "235f7b391d9d62fa4af9ee08f171bcf82be3b3c46f5df5dc38f08794fcd19414"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1006709,
+      "sha256": "6b4c5830d96aa89f50717646da00294faa25a55ab5a728f84f8774b598dbaf35"
+    },
+    {
+      "path": "docs/coordination/RI1446_VARIANCE_AND_NUMERICAL_RESIDUALS.md",
+      "bytes": 16369,
+      "sha256": "77154b252dfd186aee726b231488ffe9d304018bd237b42e3f760cc9b80d0f93"
+    }
+  ]
+}
