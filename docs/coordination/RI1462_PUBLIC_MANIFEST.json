@@ -1,0 +1,31 @@
+{
+  "schema": "RI1462_PUBLIC_MANIFEST_v1",
+  "scope": "Four fronts and report, self excluded",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1166349,
+      "sha256": "b0abcef5fb515cf18838ba0c9e28a537c880e49aaf1322ae3ab597e4b43070bf"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1018312,
+      "sha256": "d06f0b6f16f8decdc3ec61fe7ae801cfcd5fd39a432f9e229cedfb0c57e6a350"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 788389,
+      "sha256": "41f33e5215982beda84e7a5226c2da56e999b916e3d54d403671e0a912e46878"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1414968,
+      "sha256": "d2f377e16e209914b744abec5423281855b5442b8ff4f6749732c3f366a91133"
+    },
+    {
+      "path": "docs/coordination/RI1462_HIDDEN_LAW_MIXTURE.md",
+      "bytes": 12988,
+      "sha256": "9f8d7e517dadd1be66562e2de31aacc8a0e10385562afda3d8d442560a4b7ff0"
+    }
+  ]
+}
