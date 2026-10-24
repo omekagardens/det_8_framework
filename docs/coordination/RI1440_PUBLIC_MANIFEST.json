@@ -1,0 +1,26 @@
+{
+  "schema": "RI1440_PUBLIC_MANIFEST_v1",
+  "scope": "Five nonself public targets: standalone finite observation report and four complete coordinator fronts; documentation only.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1150729,
+      "sha256": "c240a26637e234db007f984311125b45f8b9b1ed8bdb8a779fda5990670aa925"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1399636,
+      "sha256": "f0a6bf53267fe0db14be3a3246a70a3605041460a15f71ba06c8d7e6b3297b15"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 772933,
+      "sha256": "b20278b51dc342604b513417e9c67925d93de6e24a55d4d2fee4f7f066536ca7"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 1002784,
+      "sha256": "100b6222619b8e7c682efad79c5c3ad53830e3216052cb3f5043e9ad13916973"
+    },
+    "docs/coordination/RI1440_FOUR_ORDER_OBSERVATION.md": {
+      "bytes": 10562,
+      "sha256": "ea6d6cacb7bc77d3f593b4035b5e823b036b010be68e0ff165d09cdcde5c0fb3"
+    }
+  }
+}
