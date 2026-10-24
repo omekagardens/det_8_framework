@@ -1,0 +1,32 @@
+{
+  "schema": "RI1450_PUBLIC_MANIFEST_v1",
+  "scope": "Conditional marginal-law necessity and arbitrary-poset comparison; no native admission or execution.",
+  "selfExcluded": "docs/coordination/RI1450_PUBLIC_MANIFEST.json",
+  "entries": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1157584,
+      "sha256": "79bab34efbcf80d01a7e016cb563c5f39f74e8d81c80f158958f7bca6da17e6b"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1009634,
+      "sha256": "b769c253e91d761a16a3026c0a399377b221cc152d69274a3696b78375314440"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 779793,
+      "sha256": "0db278851349a03d9b175a6af7a785a4d47f1893df613725768f136bf5983cbb"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1406359,
+      "sha256": "061a13f24f9478cb894d212025fbdb39707b9007580a0712c3086748dfa5abf7"
+    },
+    {
+      "path": "docs/coordination/RI1450_MARGINAL_LAW_DEPENDENCE.md",
+      "bytes": 14348,
+      "sha256": "c562442b2680de0741bd1ac7b2fb3d9f8ff4ecf4b0e4182049d98132d6624a89"
+    }
+  ]
+}

@@ -1,3 +1,12 @@
+## RI1450 — Marginal-law dependence
+
+The checkpoint records the accepted marginal-law necessity and two-level comparison. See [the marginal-law dependence report](docs/coordination/RI1450_MARGINAL_LAW_DEPENDENCE.md). For a fixed triple law, finite covariance positivity requires both nonnegative diagonals and the determinant inequality. Unbounded-size existence requires delta=eta-p^2>=0 and gamma^2<=delta*beta; these are necessary, not sufficient. For the original target, delta=0 and nonzero gamma recover RI1447's obstruction.
+
+An iid two-level law with fixed 0<q<1 is exactly restriction-consistent at every finite size and asymmetric when q!=1/2. It changes the original marginals, assigns zero probability to one-edge and three-chain orders, and supplies no strictly positive native branches, marked locality or diamonds. Relabeling, probability-preserving gauges and duality do not repair the original target. No new native law or physical readout is admitted.
+
+E/NE supplier and full-cost gates, CE runtime/hard-resource gates and measurement packing/source/build/ABI/qualification/execution holds remain. No new measurement result or nominal-statistic calibration prerequisite is added. Author draft-cap recovery, missing original final all-file receipt, editorial limitations and recovered reviewer patch failure remain qualified. Protected validation/custody, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause persist. The complete prior suffix follows unchanged.
+
+---
 ## RI1448 — Directional sampling obstruction
 
 The checkpoint records the accepted conditional finite sampling obstruction. See [the directional sampling obstruction report](docs/coordination/RI1448_DIRECTIONAL_SAMPLING_OBSTRUCTION.md). For the exact triple law m=(1,6,2,1,2)/12, rooted comparability/directional covariance requires N^2-49N-68<=0. At N=51 a nonnegative square would have expectation -17/8100, excluding every N>=51. All admitted four-order parameters share this obstruction by exact uniform four-to-three restriction.
