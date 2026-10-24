@@ -1,3 +1,11 @@
+# RI1478 — Review progress
+
+[RI1478: Intrinsic mark kernels and the two-birth mixture boundary](RI1478_INTRINSIC_KERNEL_FAMILY.md) closes the reviewed RI1475 example and RI1477 declared-family result. Intrinsic positive scalar mark kernels preserve the stipulated structural law's locality, normalization and diamonds. The exact two-birth iid-mixture criterion requires both equal time marginals and nonnegative covariance; an explicit moment witness proves sufficiency. This changes the newborn-mark choice, with the original fair law unchanged. No later-history or physical inference follows.
+
+CE-F012's fixed-workload parser and from-scratch conventional oracle have passed independent source review. The code remains unexecuted; runtime/native identities, hard resource enforcement, custody, actor implementation and separate verification/M1 admission remain open. No DET-specific computational advantage is established. Measurement/E/NE retain their actual-input blockers.
+
+Protected validation/custody, ABSTAIN, Option B/Status M, zero qualification, shared 10% stop/reset and RET-only pause remain. Historical failure and attributed-completion qualifications persist. The coordinator must validate scoped publication receipts; historical text follows byte-for-byte.
+
 # RI1474 — Review progress
 
 [RI1474: Fixed-instrument record mixture](RI1474_RECORD_MIXTURE.md) presents accepted RI1473: one classical Bernoulli-mixture measure per mathematical preparation represents the binary word probabilities of the supplied fixed commuting instrument. The proof gives exact ordered-position moments, a collision bound and a common weak limit. Every admitted native history retains its actual earlier-mark-dependent q product. W is a nonnegative variance; fixed-source RL is equivalent to a point mass and iid marks.
