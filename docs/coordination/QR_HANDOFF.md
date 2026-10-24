@@ -1,3 +1,11 @@
+# RI1480 — QR handoff
+
+[What complete records identify](../track_b/native_record_identifiability_v1.md) gives the reviewed finite intrinsic-kernel theorem: exact complete marked history laws, or complete marked endpoint distributions under the stated diamonds, identify the kernel only on reachable contexts. Mark-blind growth rows erase all kernel information from structural histories; the supplied three-birth seed gives a separate 1/54 contrast. Same law, support and horizon are essential. No single-sample recovery, physical observation or execution follows.
+
+Allan directly authorized resumption while every applicable shared account window exceeds 3% remaining, releasing the prior 10% stop. Stop at 3% or less; after a later threshold stop require supported same-account reset confirmation or explicit human release. Fresh supported checks and missing-evidence stops remain. Older guard wording below is historical. Boundary questions remain speculative prompts, not accepted premises.
+
+Scientific, custody, independent-review and resource gates, ABSTAIN, Option B/Status M, zero qualification and RET-only pause remain. No schedule change or automatic successor is authorized. Historical text follows unchanged.
+
 # RI1478 — QR handoff
 
 [RI1478: Intrinsic mark kernels and the two-birth mixture boundary](RI1478_INTRINSIC_KERNEL_FAMILY.md) closes the reviewed RI1475 example and RI1477 declared-family result. Intrinsic positive scalar mark kernels preserve the stipulated structural law's locality, normalization and diamonds. The exact two-birth iid-mixture criterion requires both equal time marginals and nonnegative covariance; an explicit moment witness proves sufficiency. This changes the newborn-mark choice, with the original fair law unchanged. No later-history or physical inference follows.
