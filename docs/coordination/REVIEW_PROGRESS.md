@@ -1,3 +1,9 @@
+## RI1440 — One anonymous four-order observation
+
+RI1439 is accepted at its finite anonymous four-order observation scope. The complete family, transition counts and proof are in [the four-order observation report](RI1440_FOUR_ORDER_OBSERVATION.md). Exactly three full-order probabilities vary on the accepted RI1437 interval: X=C2 disjoint union C2, Y=C3 disjoint union C1, and Z=C4. For two known parameters, TV=2|t-s|/9 and optimal equal-prior forced error from one full-order observation is 1/2-|t-s|/9. One uniform subset of size one, two or three has a parameter-independent law.
+
+These are single-observation statements, not exhaustive pair/triple access or a joint repeated-sampling result. RI1441 asks about two same-world subset draws and remains pending. No physical observation map, fifth birth, all-horizon law or scientific execution is approved. Measurement, E, NE and CE retain their actual source, calibration, cost, resource, qualification and execution gates. Historical custody/timing limits, protected validation, Option B/Status M, ABSTAIN, zero qualification, the shared 10% guard and RET-only pause remain. The complete historical suffix follows unchanged.
+
 ## RI1438 — Positive four-birth sampling and finite native freedom
 
 The accepted finite native-admission and sampling results are consolidated in the public report “RI1438: Positive four-birth sampling and finite native freedom”. At the exact p=1/2 prefix, the eleven-scale mark-independent scalar-passive family is directly admitted through four births. A strictly positive rational witness preserves both uniform completed-order pair and triple marginals, and an explicit open interval proves nonuniqueness. The optional common-scale line cannot satisfy the triple constraints for this prefix.
