@@ -1,0 +1,26 @@
+{
+  "schema": "RI1444_PUBLIC_MANIFEST_v1",
+  "scope": "Four public fronts and report; this manifest excludes itself. Documentation only.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1153470,
+      "sha256": "d206f5e1e562e50eb6d347f554d6fc2fde7b7e8d73a78a4127529e7a1d578750"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1402326,
+      "sha256": "9792a2874d05ac4270f8b486528d71d0eebb56ce09a0d4a34d02f153f4d15014"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 775676,
+      "sha256": "83b70999890b88881bc7aff7fd3b0fd626658af26cf8074c99107b41b1b00f65"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 1005495,
+      "sha256": "c2ba789cbd81f86ce95b236b8531fa29b53d738745c3ea73e8d80c5aedef23eb"
+    },
+    "docs/coordination/RI1444_OBSERVATION_AND_FILTERING_BOUNDARIES.md": {
+      "bytes": 16141,
+      "sha256": "f8beae273446d07c29f3e690dec659570275b21104a5c67c89af631d83c67abc"
+    }
+  }
+}
