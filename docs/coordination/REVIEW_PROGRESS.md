@@ -1,3 +1,12 @@
+# RI1474 — Review progress
+
+[RI1474: Fixed-instrument record mixture](RI1474_RECORD_MIXTURE.md) presents accepted RI1473: one classical Bernoulli-mixture measure per mathematical preparation represents the binary word probabilities of the supplied fixed commuting instrument. The proof gives exact ordered-position moments, a collision bound and a common weak limit. Every admitted native history retains its actual earlier-mark-dependent q product. W is a nonnegative variance; fixed-source RL is equivalent to a point mass and iid marks.
+
+Residual matrices and their disturbance are not replaced. Auxiliary word lengths do not extend the native growth horizon or establish physical repetition. Original qD/2, proposed-RL status, preparation coverage and all carrier/instrument/trace/readout obligations remain. Changed settings and interventions are outside this fixed record channel.
+
+Measurement/E/NE actual-input and CE implementation/runtime/hard-resource/M1/DET-distinct-arm gates remain. CE canonical source reconciliation has passed; F010 actor-input review is not acceptance. Protected validation/custody, ABSTAIN, Option B/Status M, zero qualification, shared 10% stop/reset and RET-only pause persist. Historical failure and attributed-completion limits remain. Intrinsic-past-dependent instrument law dependence is a prospective question, not an accepted result.
+
+This documentary candidate requires distinct root review and publication receipts. Historical text follows unchanged.
 # RI1472 — Review progress
 
 [RI1472: Locality robustness](RI1472_LOCALITY_ROBUSTNESS.md) presents accepted RI1471 at its conditional fixed-instrument scope: the joint defect W, conditional contrast D and growth-weighted branch defects are distinct. A same-instrument mixture identity gives finite-pair bounds; uniform full-state control gives a sufficient square-root bound on distance to scalar effects. Weak filters establish the square-root order obstruction, and rare branches or missing mixtures prevent stronger conclusions.
