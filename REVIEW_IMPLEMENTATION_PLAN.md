@@ -1,3 +1,12 @@
+# RI1456 — Implementation checkpoint
+
+[RI1456: Natural-label coherence](docs/coordination/RI1456_NATURAL_COHERENCE.md) presents root-accepted RI1455 in its declared positive scalar Markov class and finite horizon. Complete incomparable-birth diamonds and equivariance force natural-history weights alpha*mu/ell. Realization is equivalent to complete actual-ideal coherence, with unique child/parent weight ratios. Natural terminal deletion differs from uniform vertex deletion.
+
+At sizes two and three, simultaneous natural coherence and induced pair sampling require v=2w. Every interior RI1451 mixture instead has v-2w=-(1-lambda)u0<0. This excludes those targets in the declared class; unrestricted marked, hidden-state and payload mechanisms remain unclassified. The lambda=1 construction is only a nonnegative three-birth prefix. The accepted positive RI1438 four-birth contrast is unchanged; shared lower marginals do not fix its whole fourth-order law. Common independent fair-bit scalar-passive lifting cannot remove the defect.
+
+No successor answer, all-horizon existence or physical claim is included. Actual E/NE/CE and measurement profile, custody, resource, qualification and execution gates remain. Nominal calculation stays separate from calibration/production. Author/reviewer cap and patch failures and historical missing/late evidence remain; current pins do not reconstruct timing. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1454 — Implementation checkpoint
 
 [RI1454: Maximal normalization](docs/coordination/RI1454_MAXIMAL_NORMALIZATION.md) presents root-accepted RI1453 at its exact conditional scope. For exchangeable restriction-consistent laws, maximal-only normalization preserves an incomparable-birth scalar diamond exactly when the common endpoint is zero or the intermediate maximal masses agree, on the positive-denominator domain. Full support removes the zero alternative.
