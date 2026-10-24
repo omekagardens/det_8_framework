@@ -1,3 +1,12 @@
+## RI1452 — Full-support comparison
+
+RI1451 is root-accepted at its conditional mathematical scope. See [the full-support comparison report](RI1452_FULL_SUPPORT_COMPARISON.md). A declared countable dual-balanced template mixture plus positive weight of the q=1/3 two-level law is exactly restriction-consistent at every finite size. Every finite labeled and anonymous order has a positive target-specific lower bound. All five triple probabilities are positive, v-w=2lambda/9>0, and covariance slack is strict. No template series is numerically evaluated.
+
+Full labeled support yields a positive normalized ordinary kernel over all one-vertex extensions. For every nonempty parent, its maximal-only subrow loses positive nonmaximal mass and is not normalized. No native maximal-birth/locality/marked-diamond admission or universal native impossibility follows. The original delta=0 target changes; RI1447's fixed-target obstruction remains.
+
+E/NE supplier and full-cost gates, CE runtime/hard-resource gates and measurement packing/source/build/ABI/qualification/execution holds remain. No new measurement theorem or nominal calibration prerequisite is added. Author cap recovery and attributed completion without its original final-allfile receipt, empty edit-receipt limits, reviewer display/draft-cap recovery and inherited custody remain qualified. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause persist. The complete prior suffix follows unchanged.
+
+---
 ## RI1450 — Marginal-law dependence
 
 RI1449 is root-accepted at its conditional mathematical scope. See [the marginal-law dependence report](RI1450_MARGINAL_LAW_DEPENDENCE.md). For a fixed triple law, finite covariance positivity requires both nonnegative diagonals and the determinant inequality. Unbounded-size existence requires delta=eta-p^2>=0 and gamma^2<=delta*beta; these are necessary, not sufficient. For the original target, delta=0 and nonzero gamma recover RI1447's obstruction.

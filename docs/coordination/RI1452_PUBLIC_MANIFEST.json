@@ -1,0 +1,32 @@
+{
+  "schema": "RI1452_PUBLIC_MANIFEST_v1",
+  "scope": "Conditional full-support comparison; no native or execution admission.",
+  "selfExcluded": "docs/coordination/RI1452_PUBLIC_MANIFEST.json",
+  "entries": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1159117,
+      "sha256": "43b5e37bdbf770983412ed5d5c6ae709143cd3456fe033c0a0f7731782e36b1f"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1011185,
+      "sha256": "af5eded69fbb5db12ad178ffd234ab3f0ea029222b6c635db7e9a8dca44064c9"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 781322,
+      "sha256": "2187f18cf1cbc68a3c48be354761793ed1abe494dc07ee07addaecd801dd6bb9"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1407876,
+      "sha256": "229a5d995153fc98deb9d68cf622aa52b8751567d928ecceefe4d2eb2ef44d5c"
+    },
+    {
+      "path": "docs/coordination/RI1452_FULL_SUPPORT_COMPARISON.md",
+      "bytes": 16334,
+      "sha256": "db335fbd1f597386b7666bff2a9e8289db35060e96352f96994fc7b3bb6e6687"
+    }
+  ]
+}
