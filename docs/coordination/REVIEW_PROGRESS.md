@@ -1,3 +1,12 @@
+# RI1464 — Review progress
+
+[RI1464: Bayesian hiding and precursor locality](RI1464_MIXTURE_LOCALITY.md) presents accepted RI1463 at conditional six-birth scope. Admitted component extensions and fixed all-mark chain values give a negative empty-slot root-bit contrast after hiding a retained selector. Global last-layer constants preserve each component’s positivity, locality and complete marked PSD diamonds. Invertible z-fixed history transport covers every tail.
+
+The marked marginal retains positive normalized full-record ratios, equivariance and all contained complete scalar diamonds, but fails the original proper-record locality axiom. This differs from identical-record/different-selector insufficiency and from relabeling covariance. Its first five births remain the admitted t=3/4 law. No numerical continuation, seventh-birth law, physical readout, RI1451 escape or successor answer is adopted.
+
+Actual E/NE/CE and measurement cost, resource, custody, qualification and execution gates remain. Author premises-cap/patch recovery, superseded prose, attributed completion and inherited missing/late/display/schema limits persist. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1462 — Review progress
 
 [RI1462: Finite hidden-law mixture](RI1462_HIDDEN_LAW_MIXTURE.md) presents accepted RI1461 at conditional five-birth scope. A retained half/half selector between last-layer parameters 1 and 1/2 preserves complete positive histories and z-fixed marked swap transport, including every tail, while identical committed records have different selector-conditioned next laws. Forgetting z gives the entire admitted marked t=3/4 prefix. Forgetting marks separately requires the eta-weighted conditional average.
