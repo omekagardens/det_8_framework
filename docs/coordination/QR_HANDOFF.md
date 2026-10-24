@@ -1,3 +1,12 @@
+# RI1472 — QR handoff
+
+[RI1472: Locality robustness](RI1472_LOCALITY_ROBUSTNESS.md) presents accepted RI1471 at its conditional fixed-instrument scope: the joint defect W, conditional contrast D and growth-weighted branch defects are distinct. A same-instrument mixture identity gives finite-pair bounds; uniform full-state control gives a sufficient square-root bound on distance to scalar effects. Weak filters establish the square-root order obstruction, and rare branches or missing mixtures prevent stronger conclusions.
+
+RL remains a proposed additional rule. The original positive marked qD/2 model, existing finite horizon and all preparation, carrier, trace-rule and physical-observation obligations remain. Scalar effects do not imply fair marks or passive updates. No execution, empirical or physical claim is added.
+
+Measurement/E/NE/CE operational gates, protected validation and custody, ABSTAIN, Option B/Status M, zero qualification, shared 10% stop/reset and RET-only pause remain. CE source reconciliation is active, not accepted. Prior cap, display, schema, missing/late and attributed-completion qualifications remain. The separate classical-mixture question for committed binary records, distinguished from residual updates and finite q, has no accepted answer here.
+
+This documentary candidate requires distinct root review and publication receipts. Historical text follows unchanged.
 # RI1470 — QR handoff
 
 [RI1470: Proposed branch locality](RI1470_BRANCH_LOCALITY.md) presents accepted RI1469. In the supplied fixed commuting CP family with positive marked q and N>=2, the proposed two-birth full-branch rule on every preparation is equivalent to scalar effects. The proof includes both marginals without an invariant source, zero rows and the endpoint-mixture identity. Global effect conclusions require sufficient preparation coverage.

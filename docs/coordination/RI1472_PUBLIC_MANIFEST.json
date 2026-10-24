@@ -1,0 +1,31 @@
+{
+  "schema": "RI1472_PUBLIC_MANIFEST_v1",
+  "scope": "Five public nonself files; documentary candidate; root review and publication remain required.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1173222,
+      "sha256": "1aad64979d6fa5341f95861b23ab5e880094e916111611ff5f0af4fb387e12fc"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1421701,
+      "sha256": "09d91449b8045ceb9555ffebb9c81b5c1f3d9d77cc222ea412d66a2d9f7f1693"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 795097,
+      "sha256": "b8006a7097b23a48cee304d1f269cf6cc2031f783cdbae1c344185ac1041e99a"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1025080,
+      "sha256": "8c6080e0f8c4b05791a2191ec0dd2aadddcfc477b82477d04078e438a4c7b147"
+    },
+    {
+      "path": "docs/coordination/RI1472_LOCALITY_ROBUSTNESS.md",
+      "bytes": 14362,
+      "sha256": "8cdf2aba8311b01891770ceae66a6092ba96a60b76f011639cff9f898b877aec"
+    }
+  ]
+}
