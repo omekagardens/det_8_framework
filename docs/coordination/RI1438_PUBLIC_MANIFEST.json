@@ -1,0 +1,26 @@
+{
+  "schema": "RI1438_PUBLIC_MANIFEST_v1",
+  "scope": "Nonself manifest of exact public report and four complete coordinator fronts; documentation only.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1149518,
+      "sha256": "e610abc7a5fd9c6abf289ca73a2fbf40947e35947976590fe7b91ae701c56d8b"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1398452,
+      "sha256": "064ce04f61c045f0cb337d3578d8e95ab2fa5f86f7e8e36dd5d8f768b359d039"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 771743,
+      "sha256": "901021b39f44df94295db57fe3eafa2c1fcef1c3330951fa7825465d33369f39"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 1001587,
+      "sha256": "1458ce0918aefdfc1f06ef24d08b2087b9b01d51348dfeed281d0b3b44ad49f0"
+    },
+    "docs/coordination/RI1438_FOUR_BIRTH_ADJUDICATION.md": {
+      "bytes": 18539,
+      "sha256": "27d4d0b9c40a3740131e19efa2a7c65eb86f91566b1904fbb83da636f089ab61"
+    }
+  }
+}
