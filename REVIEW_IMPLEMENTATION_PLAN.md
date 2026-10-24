@@ -1,3 +1,12 @@
+# RI1460 — Implementation checkpoint
+
+[RI1460: Primary assumptions](docs/coordination/RI1460_PRIMARY_ASSUMPTIONS.md) presents root-adjudicated RI1459 at its literal-source and two-birth scope. Valid selected commits preserve completed relations; they do not supply a normalized full-history law, record-state sufficiency or swap transport. The explicit retained propensity bit gives identical committed records with fair marks but next-relation probabilities 1/4 and 3/4, averaging to 1/2.
+
+The older QR-MAP record-sufficiency criterion already states general factorization. This audit supplies no new general criterion, FT failure, complete native realization, agency theorem or physical prediction. The marked-state corollary retains its complete-state, normalization, equivariance, diamond and continuation premises. Arbitrary augmentation and successor results remain unclassified here.
+
+Actual E/NE/CE and measurement cost, profile, resource, custody, qualification and execution gates remain. Nominal calculation remains separate from calibration/production. Source display, quote-check and cap recoveries, attributed completion and inherited missing/late/patch custody limits persist. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1458 — Implementation checkpoint
 
 [RI1458: Augmentation descent](docs/coordination/RI1458_AUGMENTATION_DESCENT.md) presents root-accepted RI1457 at finite/countable, nonnegative history scope. Prefix-compatible maximal births give labeled coherence. Complete probability-preserving adjacent-swap fiber bijections suffice for natural covariance and positive-domain effective ratios, without hidden strong lumpability. The local certificate requires both complete two-step branch matching and reversible probability-preserving continuation transport.
