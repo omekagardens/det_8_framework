@@ -1,0 +1,32 @@
+{
+  "schema": "RI1448_PUBLIC_MANIFEST_v1",
+  "scope": "Conditional finite directional sampling obstruction; publication is not execution.",
+  "selfExcluded": "docs/coordination/RI1448_PUBLIC_MANIFEST.json",
+  "entries": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1156069,
+      "sha256": "937cbd891b51702086ede49e4ee470f63fd364f4a874479440654e32bee7319e"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1008129,
+      "sha256": "fef8aff1e18c710759caaf3bea53888e37704bd7a28eb8d5020b392f63b5574c"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 778297,
+      "sha256": "76d729a51943541d32f13707972e0f5bfd7982add5c2d9857a5f6856198da60b"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1404884,
+      "sha256": "6caac135d53e8426a1346608f86defdfae8fa73c9ca7ddce5ec0fc09d5c7c74a"
+    },
+    {
+      "path": "docs/coordination/RI1448_DIRECTIONAL_SAMPLING_OBSTRUCTION.md",
+      "bytes": 12616,
+      "sha256": "dc9579b948bf89bc4686d1f2f4d3e455116ab12081f9d66e72dc11313e3fedf1"
+    }
+  ]
+}

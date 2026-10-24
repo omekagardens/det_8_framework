@@ -1,3 +1,14 @@
+## RI1448 — Directional sampling obstruction
+
+The handoff separates optional uniform sampling consistency from native causal growth. See [the directional sampling obstruction report](RI1448_DIRECTIONAL_SAMPLING_OBSTRUCTION.md). For the exact triple law m=(1,6,2,1,2)/12, rooted comparability/directional covariance requires N^2-49N-68<=0. At N=51 a nonnegative square would have expectation -17/8100, excluding every N>=51. All admitted four-order parameters share this obstruction by exact uniform four-to-three restriction.
+
+N=50 passes this test only; smaller-size existence and minimal obstruction size are unproved. The optional all-size exact uniform induced-suborder demand is incompatible with the finite target. Native growth without that demand, the accepted finite construction and physical readout remain separate. RI1445's scalar variance no-exclusion result remains valid.
+
+E/NE supplier and full-cost gates, CE runtime/hard-resource gates and measurement packing/source/build/ABI/qualification/execution holds persist. No new measurement result or calibration prerequisite for the nominal statistic is added.
+
+Author missing original readback bodies, attributed completion and historical custody/timing failures remain qualified. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause persist. The complete prior suffix follows unchanged.
+
+---
 ## RI1446 — Variance and numerical residuals
 
 The handoff preserves the distinction between a necessary extension test and a separate numerical residual theorem. See [the variance and numerical residual report](RI1446_VARIANCE_AND_NUMERICAL_RESIDUALS.md). The complete parent-weighted matching count gives theta(t)=259/972+t/9, including the unchanged-world contribution 5/27. Every admitted -1/18<t<2/3 passes the scalar variance condition strictly; this excludes no parameter and proves no larger extension.
