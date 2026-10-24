@@ -1,0 +1,26 @@
+{
+  "schema": "RI1442_PUBLIC_MANIFEST_v1",
+  "scope": "Five public nonself targets: four complete coordinator fronts and the finite repeated-triple report; documentation only.",
+  "files": {
+    "REVIEW_IMPLEMENTATION_PLAN.md": {
+      "bytes": 1152113,
+      "sha256": "239e2082574155dd1be1c18d02e915279f6db1a0048e93363b87120bff335c49"
+    },
+    "docs/coordination/REVIEW_PROGRESS.md": {
+      "bytes": 1400993,
+      "sha256": "823c062db585c65431db636fc6851ae3b89ba8b4f0e6ee35a35152bf876085eb"
+    },
+    "docs/coordination/QR_HANDOFF.md": {
+      "bytes": 774306,
+      "sha256": "985648aed6101e2aba91ba0117c257b3ed08a976582108037505e6a1962306b4"
+    },
+    "docs/coordination/PUBLICATION_BACKLOG.md": {
+      "bytes": 1004149,
+      "sha256": "b435d84e8bedf9e9c2782937491ff9a3c4a55d849c24a4768fece3e5deddd20e"
+    },
+    "docs/coordination/RI1442_REPEATED_TRIPLE_OBSERVATION.md": {
+      "bytes": 11705,
+      "sha256": "b37571f3b3eb4bf64eb05020a4c8f0d01738e790e1980857f905c52d484ef238"
+    }
+  }
+}
