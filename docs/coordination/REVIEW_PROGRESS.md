@@ -1,3 +1,9 @@
+## RI1442 — Two triple observations of one finite world
+
+RI1441 is accepted as a conditional finite repeated-triple observation theorem. See [the repeated-triple report](RI1442_REPEATED_TRIPLE_OBSERVATION.md). Two independent uniform replacement selections conditional on one fixed four-order yield an ordered pair law with TV=|t-s|/12 and optimal equal-prior forced error 1/2-|t-s|/24. One triple remains blind; two is minimal for law-level distinction only within this protocol. The unchanged-world contribution remains in the normalized experiment. Independent new worlds instead give the common product law.
+
+Uniform selection, fixed-world access and independent new-world preparation are mathematical premises, not physical readout or reset certificates. RI1443 will audit native readout admission and remains unreviewed. E/NE retain actual operator, source/reset/control/readout and full-cost certificates; CE retains diagnostic-interface, runtime and hard-resource gates; measurement retains concrete serialization, source/build/ABI, qualification and execution prerequisites. No fifth birth, all-horizon theorem or execution approval follows. Historical custody/timing failures, protected validation, Option B/Status M, ABSTAIN, zero qualification, the shared 10% guard and RET-only pause persist. The entire historical suffix follows unchanged.
+
 ## RI1440 — One anonymous four-order observation
 
 RI1439 is accepted at its finite anonymous four-order observation scope. The complete family, transition counts and proof are in [the four-order observation report](RI1440_FOUR_ORDER_OBSERVATION.md). Exactly three full-order probabilities vary on the accepted RI1437 interval: X=C2 disjoint union C2, Y=C3 disjoint union C1, and Z=C4. For two known parameters, TV=2|t-s|/9 and optimal equal-prior forced error from one full-order observation is 1/2-|t-s|/9. One uniform subset of size one, two or three has a parameter-independent law.
