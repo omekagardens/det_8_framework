@@ -1,0 +1,31 @@
+{
+  "schema": "RI1454_PUBLIC_MANIFEST_v1",
+  "scope": "four coordinator fronts and report; self excluded",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1160659,
+      "sha256": "364c3ee9078bf68b9145f6dec1fd37ae6ceca8b732802bf3d071adef26c82809"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1012706,
+      "sha256": "e1c479c12b4c56df028ca5fdbda1ffbfe1301f3370242ca719f874ad4fd39cd2"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 782831,
+      "sha256": "22cc3600dc710e1226d791cef35fa7c2f655eb81cb2b6fc3497e8a0f7054d36f"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1409390,
+      "sha256": "caaa17ee62c6adc8168f0f84f351b189bc3dc9323ce27e49f0b1f7f8951a3a8a"
+    },
+    {
+      "path": "docs/coordination/RI1454_MAXIMAL_NORMALIZATION.md",
+      "bytes": 16317,
+      "sha256": "b0dd19702f1c0afeae2891187162b53eb8f55e827f105cde6c653122d109945d"
+    }
+  ]
+}
