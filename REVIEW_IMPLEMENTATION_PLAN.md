@@ -1,3 +1,12 @@
+# RI1466 — Implementation checkpoint
+
+[RI1466: Finite record observability](docs/coordination/RI1466_RECORD_OBSERVABILITY.md) presents accepted RI1465. For the fixed five-birth pair, TV=(1-A)/2 and optimal forced equal-prior component error=(1+A)/4. The full/proper flag retains both but is not statistically sufficient; the likelihood ratio reconstructs both laws without recovering the hidden selector exactly. Earlier observation and TV-versus-sufficiency precedents retain credit.
+
+The augmented process and its own marked marginal have identical complete record laws through their respective five/six horizons. Common record-only postprocessing, including genuine noninterventional prefix stopping with every outcome, gives forced equal-prior origin error 1/2. At six births the marginal fails original proper-mark locality; observational equality does not admit both descriptions under the same original class. No physical detector, repeated experiment, seventh-birth law or ontology/QM/geometry/RI1451 promotion follows.
+
+Author cap/failed-gate recovery, display recoveries, attributed completion and inherited custody limits persist. Actual E/NE/CE/measurement operational inputs remain absent. Protected validation, ABSTAIN, Option B/Status M, zero qualification, the 10% stop/reset guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1464 — Implementation checkpoint
 
 [RI1464: Bayesian hiding and precursor locality](docs/coordination/RI1464_MIXTURE_LOCALITY.md) presents accepted RI1463 at conditional six-birth scope. Admitted component extensions and fixed all-mark chain values give a negative empty-slot root-bit contrast after hiding a retained selector. Global last-layer constants preserve each component’s positivity, locality and complete marked PSD diamonds. Invertible z-fixed history transport covers every tail.
