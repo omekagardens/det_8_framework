@@ -1,3 +1,12 @@
+## RI1446 — Variance and numerical residuals
+
+The handoff preserves the distinction between a necessary extension test and a separate numerical residual theorem. See [the variance and numerical residual report](RI1446_VARIANCE_AND_NUMERICAL_RESIDUALS.md). The complete parent-weighted matching count gives theta(t)=259/972+t/9, including the unchanged-world contribution 5/27. Every admitted -1/18<t<2/3 passes the scalar variance condition strictly; this excludes no parameter and proves no larger extension.
+
+The separate reference-filter theorem propagates certified absolute local residuals, gain and prehistory errors, padding, both passes and stored conversion into a conditional window envelope. No trace, evaluated residual bound, production SciPy certificate or physical readout is supplied. E/NE supplier and full-cost gates, CE runtime/hard-resource gates and measurement packing/source/build/ABI/qualification/execution holds remain.
+
+Historical custody/timing failures, protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause persist. No new calibration prerequisite is added to the nominal statistic. The entire prior suffix follows unchanged.
+
+---
 ## RI1444 — Observation and finite-filtering boundaries
 
 The handoff now distinguishes the accepted observation counterexample from the separate filtering theorem. See [the observation and filtering report](RI1444_OBSERVATION_AND_FILTERING_BOUNDARIES.md). Uniform triple marginals, equivariance and passive access leave the joint selector unspecified: independent replacement retains parameter dependence, while reuse gives the parameter-blind diagonal lift of the common marginal, not its product. The sufficient joint output kernel is no native or physical readout derivation.
