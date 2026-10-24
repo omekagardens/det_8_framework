@@ -1,0 +1,30 @@
+{
+  "scope": "Reviewed conditional theorem and unexecuted source-review status only; no execution or physical admission.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1176051,
+      "sha256": "76ecfb70311572089389a2ecc3fb10c10db4891b03d2a075a3e1e0f7ac60637b"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1424474,
+      "sha256": "7a36f9e7ccc75c82b9bd484b342a5e8151cd0a8baf072fba7b0506c765d2e3c6"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 797860,
+      "sha256": "e3cfb8d5ae4bbeb3fe2859e9825853aca0b975fb6dd6ac9aa94b0d18d5c81ef7"
+    },
+    {
+      "path": "docs/coordination/PUBLICATION_BACKLOG.md",
+      "bytes": 1027867,
+      "sha256": "38340ed6cc036de30e7f129de435419903742de8e12a02f0589c25ceb9552283"
+    },
+    {
+      "path": "docs/coordination/RI1478_INTRINSIC_KERNEL_FAMILY.md",
+      "bytes": 10051,
+      "sha256": "284e654be5775a2e20a509ec406e3777681d9b8ff53be9de33af5786db4e18ed"
+    }
+  ]
+}
