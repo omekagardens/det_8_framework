@@ -1,3 +1,11 @@
+## RI1444 — Observation and finite-filtering boundaries
+
+The current checkpoint records two separately accepted conditional results. See [the observation and filtering report](docs/coordination/RI1444_OBSERVATION_AND_FILTERING_BOUNDARIES.md). Uniform triple marginals, equivariance and passive access leave the joint selector unspecified: independent replacement retains parameter dependence, while reuse gives the parameter-blind diagonal lift of the common marginal, not its product. The sufficient joint output kernel is no native or physical readout derivation.
+
+The separate exact-real filtering prescription is linear, including DC prehistories and stage boundaries, with a finite symbolic majorant. Transferring it to stored-output uncertainty still requires supplied full-record and numerical-discrepancy envelopes; rounded implementations are not certified exactly linear, and no useful numerical bound or calibration is supplied. E/NE supplier, operator and full-cost gates, CE runtime/hard-resource gates, and measurement serialization/source/build/ABI/qualification/execution holds remain.
+
+Historical custody/timing failures, protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause persist. No successor result or execution approval is included. The entire historical suffix follows unchanged.
+
 ## RI1442 — Two triple observations of one finite world
 
 The accepted RI1441 theorem closes the declared one-versus-two repeated-triple question. See [the repeated-triple report](docs/coordination/RI1442_REPEATED_TRIPLE_OBSERVATION.md). Two independent uniform replacement selections conditional on one fixed four-order yield an ordered pair law with TV=|t-s|/12 and optimal equal-prior forced error 1/2-|t-s|/24. One triple remains blind; two is minimal for law-level distinction only within this protocol. The unchanged-world contribution remains in the normalized experiment. Independent new worlds instead give the common product law.
