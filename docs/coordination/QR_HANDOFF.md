@@ -1,3 +1,12 @@
+# RI1458 — QR handoff
+
+[RI1458: Augmentation descent](RI1458_AUGMENTATION_DESCENT.md) presents root-accepted RI1457 at finite/countable, nonnegative history scope. Prefix-compatible maximal births give labeled coherence. Complete probability-preserving adjacent-swap fiber bijections suffice for natural covariance and positive-domain effective ratios, without hidden strong lumpability. The local certificate requires both complete two-step branch matching and reversible probability-preserving continuation transport.
+
+The immutable-mark scalar corollary permits mark-dependent q under complete marked-state Markov, equivariance and all marked-diamond premises, including full first precursors. RI1451 interior targets still contradict v=2w. Atom bijections are sufficient, not necessary; the two separating examples and aggregate coupling criterion retain their zero-weight and finite limits. Arbitrary hidden, payload and continuous mechanisms remain unclassified; no successor answer or physical claim is included.
+
+Actual E/NE/CE and measurement profile, custody, resource, qualification and execution gates remain. Nominal calculation is separate from calibration/production. Author/reviewer cap failures and attributed completion, plus inherited missing/late/patch evidence limits, persist. Protected validation, Option B/Status M, ABSTAIN, zero qualification, the 10% guard and RET-only pause remain. No release receipt is claimed.
+
+---
 # RI1456 — QR handoff
 
 [RI1456: Natural-label coherence](RI1456_NATURAL_COHERENCE.md) presents root-accepted RI1455 in its declared positive scalar Markov class and finite horizon. Complete incomparable-birth diamonds and equivariance force natural-history weights alpha*mu/ell. Realization is equivalent to complete actual-ideal coherence, with unique child/parent weight ratios. Natural terminal deletion differs from uniform vertex deletion.
