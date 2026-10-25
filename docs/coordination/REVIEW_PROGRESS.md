@@ -1,3 +1,9 @@
+# RI1484 — Statistical content of marked endpoints
+
+Independent review accepts the finite endpoint/history equivalence: uniform randomization over distinct compatible natural history encodings reconstructs the history law for every admitted kernel. Complete marked endpoints and histories consequently have the same attainable randomized testing errors and bounded parameter/action risks. This does not recover the actual birth sequence or promise efficient enumeration. The rare-context limitation and hypothetical repeated-record premises remain. See [the theorem](../track_b/native_endpoint_experiment_v1.md).
+
+Comp-Sci execution controls, measurement build/caller/clock/serialization, thermal reset/operator/cost closure and Energy supplier evidence remain unqualified. No operational gate is changed. Boundary questions stay speculative. Shared usage must exceed 3%; supported reset rules, protected validation/custody, ABSTAIN, Status M, zero qualification and RET-only pause remain. Historical entries follow unchanged.
+
 # RI1482 — Finite observation and implementation boundaries
 
 The independently reviewed finite-access result separates exact-law identification from uniform inference using finitely many records. Within the same fixed finite growth law and positive intrinsic-kernel family, two kernels can differ by a fixed amount at a reachable context while their finite-record laws become arbitrarily close. A known encounter-probability lower bound gives a conservative single-context remedy under explicitly hypothetical independent complete-history access. See [the standalone note](../track_b/native_finite_record_access_v1.md). No physical repetition or detector is supplied.
