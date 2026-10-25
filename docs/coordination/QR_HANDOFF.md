@@ -1,3 +1,11 @@
+# RI1499 — Complete finite marked endpoint laws retain the finite history law
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part H, now includes the independently reviewed and accepted QR-LD015 theorem. Within the declared admitted model, the complete marked endpoint distribution at a fixed finite horizon determines the natural-encoding history law and every earlier actual ideal/bit transition. The conditional rule is uniform over distinct encodings, counted by linear extensions divided by mark-preserving automorphisms. Complete endpoint and history total-variation distances are equal.
+
+Manual review checked the encoding bijection, adjacent-swap argument, multiplicities, positive prefix conditioning and exact finite witness arithmetic. Source pins and retained bodies were checked separately; no scientific execution was performed. The accepted lambda=1 and lambda=2 pair preserves its finite 1/80 distance bound. The finite mark-flip control shows why unmarked endpoint laws cannot replace marked ones. Proper-slot mark locality remains a restriction of the admitted family.
+
+The exact distribution remains an input premise: one realized endpoint or sampled frequencies do not supply it. No unique future continuation, infinite-endpoint conclusion, calibrated observation or computational advantage follows. The next bounded question is a finite endpoint-admission criterion; it is prospective and supplies no accepted new result. Existing physical, measurement, validation, custody and execution requirements remain.
+
 # RI1498 — Relative-error bound for finite backward reconstruction
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part G, now includes the independently reviewed and accepted QR-LD014 certificate. For two already admitted compatible positive later tables, maximum queried log-relative error epsilon gives reconstructed row log error at most 4 epsilon and total variation at most tanh(epsilon). A common supplied floor m on both tables’ queried numerator and denominator entries converts absolute entry error eta to epsilon <= eta/m.
