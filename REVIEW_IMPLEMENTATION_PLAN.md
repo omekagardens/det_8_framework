@@ -1,3 +1,11 @@
+# RI1498 — Relative-error bound for finite backward reconstruction
+
+The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part G, now includes the independently reviewed and accepted QR-LD014 certificate. For two already admitted compatible positive later tables, maximum queried log-relative error epsilon gives reconstructed row log error at most 4 epsilon and total variation at most tanh(epsilon). A common supplied floor m on both tables’ queried numerator and denominator entries converts absolute entry error eta to epsilon <= eta/m.
+
+The proof retains every earlier ideal, including the full slot, and independently fair newborn-bit mass. Manual proof review checked the normalized-tilt lemma, equal-tilt case, floor requirements and consistency with Part F’s absolute instability; source pins and exact retained bodies were checked separately. No scientific execution was performed for this result. The floor is a mathematical premise, not calibrated measurement access; compatibility, one-step scope and all existing validation, custody and execution gates remain.
+
+The next bounded question is whether the complete finite marked endpoint distribution determines its natural-encoding history law, with exact multiplicity and automorphism accounting. This is prospective work, not an accepted result or a claim about one observed endpoint. Other measurement and application premises remain independent of this theorem.
+
 ## RI1497 — Conditional backward stability boundary
 
 [The consolidated law-dependence package](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part F, now gives an independently reviewed conditional counterexample to uniform backward stability. A new family of positive complete parent-four tables becomes arbitrarily close while the reconstructed parent-three rules retain a gap of at least 1/44. Reconstruction remains locally continuous at every fixed positive compatible table and is generally many-to-one; no unique forward continuation follows.
