@@ -1,3 +1,9 @@
+# RI1489 — Mark-sensitive payload compatibility and limits
+
+The independently reviewed [payload note](../track_b/native_mark_payloads_v1.md) characterizes a proposed newborn-mark-dependent unitary extension and an exact limit of its final-only readout. Complete marked diamonds permit commuting conjugation channels, including projectively commuting qubit matrices. A supplied three-birth parity example is informative, while two distinct intrinsic kernels have different two-birth endpoint laws and identical complete final payload channels. These statements retain their declared horizons, supports, kernels and access assumptions.
+
+The original passive update remains unchanged. The extension supplies additional carrier, coupling, preparation and readout premises; it is not selected native dynamics or a physical detector. Precursor-sensitive alternatives require separate review. No application result, calibration design or philosophical interpretation establishes the physical theory. Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and the shared3%/supported-reset guard remain. Historical entries follow unchanged.
+
 # RI1488 — Observation and calibration boundaries
 
 The independently reviewed [observation note](../track_b/native_observation_contract_v1.md) combines two conditional results. Passive payload/reference-only access carries no native record-law information under the fixed discrete observer contract. For a separately hypothesized binary record-sensitive readout, positive gain alone does not guarantee identification with uncertain calibration; an exact interval-separation condition and rational confounding witness state the limit. No physical detector, GWOSC forward map or finite-sample guarantee is supplied.
