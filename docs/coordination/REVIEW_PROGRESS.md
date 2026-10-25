@@ -1,3 +1,9 @@
+## RI1497 — Conditional backward stability boundary
+
+[The consolidated law-dependence package](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part F, now gives an independently reviewed conditional counterexample to uniform backward stability. A new family of positive complete parent-four tables becomes arbitrarily close while the reconstructed parent-three rules retain a gap of at least 1/44. Reconstruction remains locally continuous at every fixed positive compatible table and is generally many-to-one; no unique forward continuation follows.
+
+The construction retains the admitted potential identity and explicit extension-sufficiency premises, all marks, full slots and fair-bit mass. The earlier chain-cylinder contrast remains 1/80, so later conditional-table closeness is distinct from closeness of complete histories. This fixed-size boundary family makes no physical indistinguishability, measurement-recovery, large-size or efficiency claim. Historical results and all validation, custody and execution gates remain.
+
 ## RI1496 — Complete later rules determine compatible earlier kernels (2026-10-25)
 
 [The extended law package](../track_b/native_symmetric_law_nonuniqueness_v1.md) now includes the conditional backward-determination theorem. Positive complete marked diamonds fix earlier probability ratios from later entries; full normalization recovers each earlier row. The accepted pair cannot share an identical complete transition layer at parent size three or later, or an exactly common complete kernel tail. This is exact determination among compatible rules, without a uniform stability bound, observational recovery, physical memory or retrocausation claim. All earlier source scopes and historical records remain unchanged.
