@@ -1,3 +1,7 @@
+## RI1496 — Complete later rules determine compatible earlier kernels (2026-10-25)
+
+[The extended law package](../track_b/native_symmetric_law_nonuniqueness_v1.md) now includes the conditional backward-determination theorem. Positive complete marked diamonds fix earlier probability ratios from later entries; full normalization recovers each earlier row. The accepted pair cannot share an identical complete transition layer at parent size three or later, or an exactly common complete kernel tail. This is exact determination among compatible rules, without a uniform stability bound, observational recovery, physical memory or retrocausation claim. All earlier source scopes and historical records remain unchanged.
+
 ## RI1495 — Symmetry and all-size consistency do not select a unique law (2026-10-25)
 
 [The symmetric-law nonuniqueness package](../track_b/native_symmetric_law_nonuniqueness_v1.md) consolidates the admitted model and extension premise, the posterior-weighted mark symmetrization, a positive finite family and its conditional all-size continuation. Two globally mark-symmetric laws retain four-birth chain probabilities 41/240 and 19/120, differing by 1/80. The construction concerns classical growth histories; it does not select a physical law, classify infinite endpoints or establish geometry, efficient computation or observational access. Historical theorem assumptions and prior records remain unchanged.
