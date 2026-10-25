@@ -514,3 +514,126 @@ The input is a complete conditional transition rule on all marked parents. Restr
 The conclusion is exact nonidentity at each complete later layer. It supplies no quantitative lower separation bound, asymptotic nonconvergence, uniform statistical identifiability, or finite-sample guarantee. It does not say all coarse observations differ, or all agree. It establishes no property of unlabelled infinite endpoints, mutual singularity, physical memory or retrocausation. Backward mathematical determination is a constraint between compatible rules, not a process acting on earlier events.
 
 Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
+
+## F. Exact backward reconstruction: local continuity without uniform stability
+
+Part F records the accepted conditional stability limits of the backward reconstruction in Part E. Here “inverse” means recovery of the unique compatible earlier rule, not selection of a unique forward continuation. The reconstruction F is generally many-to-one: several later tables can have the same earlier compatible rule. The new family below keeps the finite prefixes fixed while varying their continuations; Part D’s previously fixed pair remains unchanged. Construction and all-size existence continue to require both Part A’s admitted potential identity and explicit extension sufficiency.
+
+Complete positive parent-four tables can be arbitrarily close in maximum entry difference while their uniquely determined parent-three kernels retain a fixed nonzero gap. Thus the accepted exact inverse has no uniform modulus of continuity over the admitted positive-law class. It remains locally continuous at each fixed strictly positive compatible table.
+
+The counterexample uses a **new family of continuations** of the fixed \(\lambda=1,2\) finite prefixes. It does not alter the previously fixed Part D pair or describe that pair's large-size behavior.
+
+### 1. Dictionary, metric and new family
+
+For each parent size \(n\), use the shared dictionary of orders on a fixed \(n\)-element label set, all binary markings and every individual ideal. Equivariance handles other representative labels. Define
+\[
+ d_n(K,L)=\max_{\substack{|P|=n,\ r\\S\in\operatorname{Id}(P)}}
+       |K(P,r,S)-L(P,r,S)|.
+\]
+These are structural probabilities, before the common fair newborn-bit factor. The finite maximum includes full slots, all markings, and all ideal occurrences.
+
+Let \(p_1,p_2\) be exactly the accepted \(\lambda=1,2\) rows on parent sizes zero through three. They stay fixed throughout. At a three-chain parent,
+\[
+ |p_1(C_3,r,\varnothing)-p_2(C_3,r,\varnothing)|
+ =|1/44-1/22|=1/44,
+\]
+so \(d_3(p_1,p_2)\ge1/44\).
+
+For each size-four parent and proper ideal, compute from that prefix alone
+\[
+ u_i(P,r,S)=
+ \prod_{\varnothing\ne A\subseteq\operatorname{Max}(P)\setminus S}
+ p_i(P\setminus A,r|_{P\setminus A},S)^{(-1)^{|A|+1}},
+ \quad
+ U_i(P,r)=\sum_{S\subsetneq P}u_i(P,r,S).
+\]
+Use each actual smaller full slot whenever deletion makes \(S\) full. All factors have size at most three and are prescribed, positive and finite.
+
+Set
+\[
+ M=\max_{i\in\{1,2\},\,|P|=4,\,r}U_i(P,r),\qquad
+ a(t)=\frac{t}{2(1+M)},\quad 0<t<1.
+\]
+The maximum covers both laws and the entire marked layer. A proper ideal omits a maximal element, so each deletion product is defined. Finite orders, markings and ideal sets give \(0<M<\infty\), without enumeration.
+
+The new parent-four tables are
+\[
+ Q_i^t(P,r,S)=a(t)u_i(P,r,S)\quad(S\subsetneq P),\qquad
+ Q_i^t(P,r,P)=1-a(t)U_i(P,r).
+ \tag{1}
+\]
+Their common scale depends on neither the parent nor its marks. The potentials and \(M\) are fixed as \(t\) varies.
+
+### 2. Admission and all-size continuation
+
+Every proper entry is positive. Every full entry satisfies
+\[
+ 1-a(t)U_i(P,r)\ge1-\frac{tM}{2(1+M)}
+ >1-\frac t2>\frac12,
+\]
+and each complete row sums to one.
+
+Admission uses both the admitted potential identity and the explicit extension-sufficiency premise in Part A. The necessity-only component parameterization would not suffice. For each law separately, the potential solves every inherited marked ratio equation; giving all components the common positive scale \(a(t)\) multiplies both sides of each new diamond by the same factor. The scale is no larger than that law's own admitted half-scale prescription, and the full complements are positive.
+
+This includes all old markings, both newborn bits, equal precursors and empty/full base ideals. Both second precursors omit the other newborn and are proper. Fair factors \(1/4\) and terminal transport are retained. Earlier diamonds are unchanged. The fixed prefixes are mark-independent, so the potentials and new complements are mark-independent, establishing locality directly. Equivariance follows from deletion and ideal transport. Complete scalar payload sums remain identity.
+
+For each fixed \(i,t\), the resulting prefix can be continued from parent size five using its **own** smaller-row potentials and whole-layer maxima, with scale \(1/[2(1+M_n^{i,t})]\) and full complements. The accepted conditional induction applies at every subsequent finite size; normalized finite histories give an infinite classical history measure. This uses no historical \(B\), parent-four/five witness or optimizer coefficient. No joint limit in size and \(t\) is asserted.
+
+### 3. Uniform closeness of complete later rows
+
+For every matched proper entry, positivity gives
+\[
+ |u_1-u_2|\le\max(u_1,u_2)\le M,
+ \qquad |Q_1^t-Q_2^t|\le a(t)M.
+\]
+For the full entry, both proper sums lie in \((0,M]\), hence
+\[
+ |Q_1^t(P,r,P)-Q_2^t(P,r,P)|
+   =a(t)|U_1-U_2|\le a(t)M.
+\]
+Consequently the **entire** layer obeys
+\[
+ d_4(Q_1^t,Q_2^t)\le\frac{tM}{2(1+M)}<\frac t2
+ \longrightarrow0. \tag{2}
+\]
+
+There is also a complete-row total-variation bound. At a fixed marked parent, write \(\Delta u_S=u_1(P,r,S)-u_2(P,r,S)\). Including its full slot,
+\[
+ \operatorname{TV}(Q_1^t,Q_2^t)
+ =\frac{a(t)}2\left(\sum_{S\subsetneq P}|\Delta u_S|
+                         +|U_1-U_2|\right)
+ \le a(t)\max(U_1,U_2)\le a(t)M.
+\]
+The inequality uses \(\sum|\Delta u_S|\le U_1+U_2\). It holds uniformly over all parents and markings. For the joint ideal/bit distribution \(Q_i^t(S)/2\), summing both fair bits gives the same total variation. No ideal or bit outcome is omitted.
+
+### 4. Failure of a uniform inverse modulus
+
+Let \(F\) be the accepted reconstruction map from a compatible complete parent-four table to its parent-three layer. Exact backward determination gives
+\[
+ F(Q_i^t)=p_i|_{|P|=3},
+ \qquad d_3(F(Q_1^t),F(Q_2^t))\ge1/44
+ \quad\text{for every }t>0.
+\]
+If a uniform inverse modulus \(\omega(\delta)\to0\) as \(\delta\downarrow0\) existed over this family, the output distance would be at most
+\(\omega(d_4(Q_1^t,Q_2^t))\), contradicting (2) and the fixed gap. Failure on this admitted subfamily rules out such a guarantee over the larger admitted class as well.
+
+Exact backward determination is preserved: no \(t>0\) pair of complete tables can be equal, because that would force equal earlier rows. Both tables approach the same boundary table \(H\), whose full entry is one and every proper entry zero at each parent. That table loses strictly positive full support. It is not an admitted \(t=0\) counterlaw; the inverse's relevant proper-entry ratios become \(0/0\) there.
+
+This is a parameterized family approaching a boundary at the fixed parent size four. It proves neither large-size nonconvergence nor any asymptotic statement about the original fixed Part D pair.
+
+### 5. Local continuity and history-law distinction
+
+At a fixed strictly positive compatible later table \(Q^0\), the finite Part E formula is
+\[
+ R_{C,r}(S)=
+ \frac{Q(C+\varnothing,r+0,S)}{Q(C+S,r+0,\varnothing)},
+ \qquad
+ F(Q)(C,r,S)=\frac{R_{C,r}(S)}{\sum_I R_{C,r}(I)},
+\]
+with the prescribed transport and both newborn bits chosen zero. There are finitely many queried denominators. Their minimum at \(Q^0\) is some \(m>0\); within entry distance \(m/2\), they stay at least \(m/2\). Ratios and finite sums are continuous, and the normalizing sums stay positive near \(Q^0\). Thus every reconstructed entry, and the finite maximum-entry output metric, varies continuously on the compatible domain near \(Q^0\).
+
+This establishes local continuity without a uniform denominator bound over all positive tables. It does not establish predecessor existence for arbitrary perturbed tables, or recovery from measurements.
+
+For every \(t>0\), the first-four-birth chain cylinder still has probabilities \(41/240\) and \(19/120\), with contrast \(1/80\). Its generating transitions are the unchanged parent-zero-through-three rows; later normalized continuations preserve that marginal and all complement mass. Near-equality of later conditional tables therefore does not imply near-equality of complete history laws. No sampled-data identifiability, physical indistinguishability, runtime/energy advantage, readout, native forward map, retrocausation, law selection or geometry result follows.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
