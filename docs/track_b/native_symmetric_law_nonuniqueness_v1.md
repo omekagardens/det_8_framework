@@ -775,3 +775,106 @@ Protected validation/custody, independent review, ABSTAIN, Status M, zero qualif
 - **Not a measured floor:** finite positivity alone is neither a uniform class-wide lower bound nor an acquisition, calibration or error-bar procedure.
 - **Part F reconciliation:** shared small-scale factors cancel in queried relative ratios while the usable floor collapses. Fixed earlier gap and persistent cylinder contrast are consistent. F is generally many-to-one, not an injective or uniquely forward-selecting map.
 - **Limits:** one finite step, no unbounded iteration, native-family sharpness, revision of the fixed Part D pair, size asymptotics, sampled identifiability or physical readout.
+
+## H. Complete finite marked endpoint-law sufficiency
+
+**Dependencies and review.** This part retains the admitted marked model of Part A. For proper slots, the family restriction to the whole unmarked parent and marks on the selected ideal remains in force, although this reconstruction proof does not require it. The conditional finite theorem and its finite controls received distinct mathematical review and coordinator acceptance. The complete admitted marked endpoint distribution is the exact mathematical input; this result does not provide that distribution through observation.
+
+**Accepted conditional finite theorem.** In the admitted scalar marked growth model, the complete law of the marked order isomorphism class after a fixed finite \(N\) births determines the entire natural-encoding history law through \(N\). It therefore determines every actual ideal/bit transition with parent size below \(N\). Endpoint and history total-variation distances are equal. A single realized endpoint, or its unmarked projection, does not supply this input.
+
+### 1. Object and premises
+
+Start at exactly the empty order. Every ideal, including empty and full, has strictly positive normalized probability \(q(P,r,S)\). Birth adds a maximal vertex with strict past \(S\), and an independently fair immutable bit \(b\). The joint branch probability is \(q(P,r,S)/2\). Retain equivariance and every complete marked incomparable-birth diamond, with final marks transported on their vertices. The scalar-passive payload does not supply extra classical information; no payload trace is divided out.
+
+Let \(\mathcal H_N\) be all legal natural histories of \(N\) births, with birth labels \(1,\ldots,N\). A naturally labeled final order and its marks uniquely specify such a history: restrict to the first \(k\) labels at each step, and read each newborn's predecessor ideal and bit. Conversely each history gives that encoding. This is a bijection, without quotienting individual ideal choices.
+
+Let \(\mathcal A_N\) be the marked order isomorphism classes, with mark symbols preserved. For \(A=[C,r]\), write \(\Gamma_A\subset\mathcal H_N\) for its distinct natural encodings. These finite fibers partition \(\mathcal H_N\). Full support makes every encoding positive: each finite order admits a linear extension, and its successive predecessor sets are legal ideals. This also makes every earlier marked parent reachable.
+
+### 2. Equal weights and the correct multiplicity
+
+Any two abstract linear extensions of \(C\) are connected by adjacent swaps of incomparable vertices. To see this inductively, move the first vertex of a target extension to the front of another extension. It is minimal among the remaining vertices; every vertex it passes is incomparable with it. Remove that first vertex and repeat.
+
+Consider one adjacent swap. Both precursor ideals lie in the common earlier prefix, and neither newborn is in the other's precursor. The complete marked diamond equates the two structural products, including equal precursors and both newborn bits. The two fair factors are \(1/4\). After the pair, the marked state is identical under transport; equivariance preserves every subsequent factor. The entire history probabilities are therefore equal. Repeating swaps proves equality throughout \(\Gamma_A\).
+
+Let \(e(C)\) count abstract linear extensions of the fixed concrete vertex set, and \(G=\operatorname{Aut}(C,r)\) be its mark-preserving order automorphism group. An automorphism acts on an extension's vertex list. This action is free: fixing the whole list fixes every vertex. Two lists produce the same labeled order/mark encoding exactly when their matching-positions bijection is a member of \(G\). Hence
+\[
+ m(A):=|\Gamma_A|=\frac{e(C)}{|G|}.
+\]
+No \(N!\) occurs. Abstract extensions are not already distinct encodings.
+
+**Counting control.** A two-element antichain has \(e(C)=2\). With equal marks, \(|G|=2\), so \(m=1\): exchanging indistinguishable vertices produces the same encoding. With different marks, \(|G|=1\), so \(m=2\): the two encodings have bit strings \(01\) and \(10\). Mark flipping is not a mark-preserving automorphism. Thus a common per-encoding probability contributes once or twice respectively, never twice followed by another orbit multiplier.
+
+### 3. The common conditional rule and prefix recovery
+
+For an admitted law \(q\), let \(\mu_q(h)\) be its natural-history probability and \(\pi_q(A)\) its complete marked endpoint probability. Equal weights give
+\[
+ \mu_q(h)=\frac{\pi_q(A)}{m(A)}\quad(h\in\Gamma_A),\qquad
+ K_N(h\mid A)=\frac{\mathbf1_{\{h\in\Gamma_A\}}}{m(A)}.
+ \tag{1}
+\]
+The conditional rule \(K_N\) is independent of the growth law. It contains only the specified encoding dictionary and multiplicities. Each history probability already includes all \(N\) fair-bit factors; (1) introduces no further \(2^{-N}\).
+
+For a specified natural prefix \(g\) of \(n\le N\) births, define
+\[
+ c_A(g)=|\{h\in\Gamma_A:h|_n=g\}|,\qquad
+ p_q(g)=\sum_{A\in\mathcal A_N}\pi_q(A)\frac{c_A(g)}{m(A)}.
+ \tag{2}
+\]
+These finite sums recover every prefix cylinder, with all future extensions retained. For \(n<N\), append the actual ideal \(S\) and bit \(b\) to \(g\), giving \(g(S,b)\). Positivity permits
+\[
+ \Pr_q(S,b\mid g)=\frac{p_q(g(S,b))}{p_q(g)}
+ =\frac{q(P_g,r_g,S)}2.
+ \tag{3}
+\]
+Thus the complete earlier transition row is recovered. Distinct symmetry-related ideals remain distinct numerator cylinders, even when their next endpoints are isomorphic. Equivariance transports the result to any representative parent. The supplied endpoint law must come from an admitted law; arbitrary positive endpoint masses need not reconstruct admissible fair-mark/local kernels.
+
+For \(N=0\), the sole history is empty and there are no earlier transitions. For \(N=1\), the construction recovers the forced empty-parent row and its two fair outcomes. Generally, (3) covers only \(n<N\); it does not determine a unique future continuation. For example, in accepted Part F, fixed branch \(i\) and different positive \(t\) retain exactly the same history and endpoint laws through four births while giving different parent-four tables \(Q_i^t\). The special empty-parent row remains forced independently of such examples.
+
+### 4. Exact total-variation equality and the finite witness
+
+Take two admitted laws with the same conventions and finite \(N\). Because the fibers are disjoint and (1) is common,
+\[
+ \begin{aligned}
+ \operatorname{TV}(\mu_1,\mu_2)
+ &=\frac12\sum_A\sum_{h\in\Gamma_A}
+       \left|\frac{\pi_1(A)-\pi_2(A)}{m(A)}\right|\\
+ &=\frac12\sum_A|\pi_1(A)-\pi_2(A)|
+ =\operatorname{TV}(\pi_1,\pi_2).
+ \end{aligned} \tag{4}
+\]
+This is equality for complete laws, not a guarantee for selected statistics.
+
+The accepted \(\lambda=1,2\) all-size pair in Parts C–D has first-four-birth chain-cylinder probabilities \(41/240\) and \(19/120\), differing by \(1/80\). At every finite \(N\ge4\), later normalized continuation preserves that cylinder. Consequently
+\[
+ \boxed{\operatorname{TV}(\pi_1^{(N)},\pi_2^{(N)})\ge1/80.}
+ \tag{5}
+\]
+The application retains the pair's admitted potential identity and extension-sufficiency premises. The general finite theorem (1)–(4) does not need that extension theorem.
+
+For \(N>4\), the first-four cylinder is not assumed to be an indicator of the final isomorphism class. Its conditional probability is the bounded function
+\(f_N(A)=|\{h\in\Gamma_A:h|_4\text{ is a chain}\}|/m(A)\).
+The difference of its expectations is \(1/80\), also proving (5). No assertion about an infinite unlabeled endpoint or a limiting geometry follows.
+
+### 5. Failure control and observation boundary
+
+Part B supplies the original finite law \(q_0\) and its global mark-flipped transport \(q_1(P,r,S)=q_0(P,1-r,S)\). Flipping every bit bijects their histories and leaves every unmarked endpoint unchanged. Their complete unmarked endpoint laws therefore agree at the admitted finite horizons.
+
+Nevertheless their marked laws differ already at three births. For a three-fork whose root and both leaves are zero, there is one natural encoding: two abstract leaf orders divided by two mark-preserving automorphisms. Its structural weights are \(1/18\) and \(1/9\); including the three fair bits gives endpoint probabilities \(1/144\) and \(1/72\). Thus the unmarked law cannot replace the marked law in (1). A selected height statistic also cannot do so, since even the full unmarked laws agree in this example.
+
+This theorem is conditional finite classical reconstruction. A complete probability law is not one realized endpoint or an empirical frequency table. No physical label access, tomography, calibration, repeated-trial protocol, intervention, efficient counting, computational advantage, law selection or new quantum dynamics is established. The prior backward-table theorems and their continuity qualifications are unchanged.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary separation persist.
+
+### 6. Premises, scope and failure controls
+
+- **Model:** exact empty initial state; finite order with immutable binary marks; one maximal birth with any actual ideal as strict past; strict positivity and complete normalization; independently fair newborn mark; parent-state kernel; equivariance; every complete unnormalized marked diamond with inherited and final marks transported.
+- **History dictionary:** birth labels \(1,\ldots,N\) and every individual ideal/bit choice. Each natural final encoding uniquely specifies its full prefix history. Abstract linear extensions, distinct encodings and marked isomorphism classes are different sets.
+- **Multiplicity theorem:** adjacent incomparable swaps connect linear extensions and preserve complete probability. The mark-preserving automorphism group acts freely on extension lists, with encoding fibers its orbits. Thus \(m([C,r])=e(C)/|\operatorname{Aut}(C,r)|\). Equal-mark two-antichain gives one encoding; different marks give two. No factorial or duplicate orbit factor.
+- **Input:** the entire admitted probability law on marked endpoint isomorphism classes at one finite \(N\), with mark names retained. This is neither a realized endpoint nor samples nor an unmarked projection.
+- **Derived result:** conditional on a marked endpoint, each distinct natural encoding has probability \(1/m\), independent of the admitted law. Finite sums recover all prefix cylinders. Positive conditioning recovers actual ideal/bit probabilities on all parents of size less than \(N\); scalar ideal probabilities are twice these fair-bit probabilities.
+- **Compatibility:** no claim that arbitrary endpoint masses give a legal kernel. Strict support makes every legal prefix and parent reachable. Empty and singleton horizons are handled.
+- **Future limitation:** no unique continuation is implied. Accepted Part F supplies different parent-four continuations with identical laws through four births when branch \(i\) is fixed and \(t\) varies.
+- **Distance result:** complete history and marked endpoint total variations are exactly equal. For the accepted all-size pair, the first-four-birth chain contrast \(1/80\) gives an endpoint-law TV lower bound for every fixed finite \(N\ge4\). At later \(N\), the cylinder induces a conditional function on endpoints, not necessarily an endpoint indicator.
+- **Extra existence premise only for witnesses:** the pair's all-size existence retains the admitted maximal-deletion identity and extension sufficiency. The basic finite sufficiency/TV theorem uses diamonds, positivity, normalization, transport and the stated model, without that extension premise.
+- **Failure control:** the accepted finite \(q_0\)/global-mark-flipped \(q_1\) pair has identical unmarked endpoint laws but different marked three-fork probabilities \(1/144\) and \(1/72\) for all-zero marks. Selected height data is likewise insufficient in that example.
+- **Limits:** no infinite unlabeled endpoint result, size limit, physical observation or label access, efficient counting, computational or energy advantage, calibration, repeated trials, intervention, law selection or new quantum dynamics. Payload remains scalar-passive.
