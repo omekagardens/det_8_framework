@@ -1,3 +1,7 @@
+## RI1495 — Symmetry and all-size consistency do not select a unique law (2026-10-25)
+
+[The symmetric-law nonuniqueness package](docs/track_b/native_symmetric_law_nonuniqueness_v1.md) consolidates the admitted model and extension premise, the posterior-weighted mark symmetrization, a positive finite family and its conditional all-size continuation. Two globally mark-symmetric laws retain four-birth chain probabilities 41/240 and 19/120, differing by 1/80. The construction concerns classical growth histories; it does not select a physical law, classify infinite endpoints or establish geometry, efficient computation or observational access. Historical theorem assumptions and prior records remain unchanged.
+
 # RI1494 — Conditional two-record comparison without an absolute mark label
 
 The [joint-record note](docs/track_b/native_joint_record_readout_v1.md) consolidates the complete finite model, accepted single-record arithmetic and independently accepted QR-LD009. For explicitly imported shared versus independent orientation preparations, the exact pair distance is 1/648; a relative shape/root comparison attains it and the fixed-orientation minimax bound. All complement mass and encoding multiplicities remain. Paired preparation, reset, relative dictionary and calibrated readout are separate missing physical premises. No six-birth connected process, detector, empirical law selection or execution claim follows.
