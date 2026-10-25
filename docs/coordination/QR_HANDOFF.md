@@ -1,3 +1,9 @@
+# RI1490 — Precursor-local payload information
+
+The [precursor-local note](../track_b/native_precursor_payloads_v1.md) consolidates independently accepted QR-LD004/005. An optional local phase rule recovers the exact N2 contrast19/600. A separate N4 witness shows equal conditional payload channels for two nonisomorphic endpoints with different classical probabilities: intrinsic precursor classes omit shared-ancestor incidence. The supported three-birth diamond already forces the relevant channel commutation. This endpoint collision does not establish equality of unselected experiments across kernels. Original passive dynamics remain unchanged; no physical detector, calibration or gravity prediction follows.
+
+Historical entries below remain unchanged.
+
 # RI1489 — Mark-sensitive payload compatibility and limits
 
 The independently reviewed [payload note](../track_b/native_mark_payloads_v1.md) characterizes a proposed newborn-mark-dependent unitary extension and an exact limit of its final-only readout. Complete marked diamonds permit commuting conjugation channels, including projectively commuting qubit matrices. A supplied three-birth parity example is informative, while two distinct intrinsic kernels have different two-birth endpoint laws and identical complete final payload channels. These statements retain their declared horizons, supports, kernels and access assumptions.
