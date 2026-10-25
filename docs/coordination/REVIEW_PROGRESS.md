@@ -1,3 +1,9 @@
+# RI1488 — Observation and calibration boundaries
+
+The independently reviewed [observation note](../track_b/native_observation_contract_v1.md) combines two conditional results. Passive payload/reference-only access carries no native record-law information under the fixed discrete observer contract. For a separately hypothesized binary record-sensitive readout, positive gain alone does not guarantee identification with uncertain calibration; an exact interval-separation condition and rational confounding witness state the limit. No physical detector, GWOSC forward map or finite-sample guarantee is supplied.
+
+Native law-dependence work next examines a separately proposed mark-sensitive payload update under complete marked diamonds. Comp-Sci, Energy and Relational State have bounded paper assignments on exact-query computation, component tolerances and reset/storage design respectively; these assignments do not admit execution. Conventional engineering benefit is admissible without physical or ontological validation. Existing protected validation/custody, shared usage>3% and supported reset, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary separation remain. Historical entries follow unchanged.
+
 # RI1487 — Passivity and normalization assumptions
 
 The independently reviewed [law-dependence result](../track_b/native_passivity_choice_v1.md) distinguishes trace normalization from requiring the sum of branch maps to be the identity. A separate supplied unitary family preserves the fixed classical record laws and complete marked diamonds under trace normalization. The stronger identity-map requirement, positivity and fixed branch weights instead force the passive prescription. Its separating payload test requires additional fixed preparation/readout access. The admitted native law is unchanged; no physical frame, clock, quantum/gravity dynamics or observation channel is derived.
