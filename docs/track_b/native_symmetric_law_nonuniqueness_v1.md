@@ -433,3 +433,84 @@ Their complements remain \(199/240\) and \(101/120\). Thus the two all-size laws
 The finite nonuniqueness is consequently not forced to disappear when extension is required: this admitted construction supplies all-size witnesses. Selecting \(\lambda\), the continuation prescription, or a physical law still requires additional justification. No universal classification, asymptotic speed, dimension, metric, gravity, native forward map, efficient computation, detector or empirical selection follows.
 
 Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
+
+## E. Backward determination of compatible kernels
+
+Part E adds the accepted conditional backward-determination theorem. Within the admitted model, a complete later conditional transition layer uniquely determines every earlier layer among compatible laws. Applied to the two laws in Part D, it rules out an identical complete later layer or an exactly common complete kernel tail after finite burn-in.
+
+The backward implication uses positivity, normalization, complete marked diamonds and the shared transported dictionary. Existence of the particular all-size pair still relies on Part D’s admitted potential identity and extension sufficiency. The finite horizons in Parts B and C retain their stated scope. This result supplies no observational access, robustness bound, physical memory or retrocausation, and no existence claim for arbitrary proposed later tables.
+
+### 1. Model and meaning of the supplied layer
+
+Part A fixes finite orders \(C\), immutable binary marks \(r\), every ideal as an eligible precursor, strictly positive probabilities, normalized complete ideal rows, fair newborn bits, relabeling equivariance, and complete unnormalized marked diamonds. A birth adds one maximal vertex with the chosen ideal as its strict past. The payload branch is \(q(C,r,S)X/2\).
+
+Let \(Q\) be the known size-\(n+1\) layer of an admitted law. It gives \(q(P,r_P,U)\) for **every** marked parent \(P\) of that size and every individual ideal \(U\), in a common transported dictionary. It is not a distribution of which parents occur, an orbit-aggregated transition count, or an average over markings. Each ideal occurrence remains separate in normalization.
+
+The backward theorem needs the model's positivity, normalization, complete diamonds and transport. It does not require mark independence, global mark symmetry, or the deletion-potential extension theorem. That latter premise is needed for the existence of the particular all-size pair to which we apply it.
+
+### 2. Domain and complete diamond
+
+Fix any marked size-\(n\) parent \((C,r)\), ideals \(S,T\subseteq C\), and bits \(b,c\). Introduce fresh vertices \(x,y\). Write \(C_S^x\) for \(C\) with \(x\) appended above exactly \(S\), marked \(b\); write \(C_T^y\) analogously with \(y\), marked \(c\).
+
+After adding \(x\), the old ideal \(T\) remains an ideal when \(x\) is excluded. A new maximal vertex cannot become a predecessor of an old element. The same holds for \(S\) after adding \(y\). Both second precursors are proper because they omit the first newborn. Both routes therefore exist on the complete support.
+
+Their common terminal order retains \(C\), gives \(x\) past \(S\) and \(y\) past \(T\), and leaves \(x,y\) incomparable. Old marks remain fixed; marks \(b,c\) stay attached to \(x,y\). If natural birth labels are used, the route comparison transports those labels while preserving these vertices' order roles and marks. Equivariance lets either intermediate parent be queried in the supplied representative dictionary.
+
+The complete maps on the two routes have scalar coefficients
+\[
+ \frac14q(C,r,S)Q(C_S^x,r_x,T),\qquad
+ \frac14q(C,r,T)Q(C_T^y,r_y,S).
+\]
+The matching fair-bit factors cancel. The admitted diamond consequently gives
+\[
+ \boxed{\frac{q(C,r,S)}{q(C,r,T)}
+ =\frac{Q(C_T^y,r_y,S)}{Q(C_S^x,r_x,T)}}. \tag{1}
+\]
+All divisions are legal: both earlier probabilities and every queried later entry are strictly positive.
+
+This holds for all old markings and all four newborn-bit choices. It includes empty and full base ideals. Even when \(S=C\) or \(T=C\), the second precursor is proper in the enlarged parent. When \(S=T\), including \(S=T=C\), the ratio equals one; the equal-precursor diamond supplies that equality even for different newborn bits. Nothing identifies distinct marked parents without the required transport.
+
+### 3. Explicit row recovery
+
+Choose the reference \(T=\varnothing\) and any fixed bits \(b,c\), for example both zero. For every ideal \(S\) of \(C\), form from the known layer
+\[
+ R_{C,r}(S)=
+ \frac{Q(C_\varnothing^y,r_y,S)}
+      {Q(C_S^x,r_x,\varnothing)},\qquad
+ Z_{C,r}=\sum_{I\in\operatorname{Id}(C)}R_{C,r}(I).
+\]
+These are finite positive numbers. Equation (1) implies
+\(R_{C,r}(S)=q(C,r,S)/q(C,r,\varnothing)\), so
+\(R_{C,r}(\varnothing)=1\), independently of the chosen bits. Complete row normalization gives
+\[
+ 1=q(C,r,\varnothing)Z_{C,r},\qquad
+ \boxed{q(C,r,S)=\frac{R_{C,r}(S)}{Z_{C,r}}}. \tag{2}
+\]
+Thus the whole earlier row, including its full slot, is determined. The sum counts all actual ideals, including equal-valued or symmetry-related occurrences. For \(n=0\), the only ideal is empty/full; (2) returns its required probability one.
+
+Positivity prevents missing reference transitions and zero denominators. Normalization fixes the otherwise undetermined row scale. The shared state/support dictionary and equivariance make the later queries comparable; matching fair-mark factors give precisely (1). The proof uses the declared classical scalar identity, not division by a payload trace. A zero payload does not erase the separately specified classical kernel.
+
+Equation (2) proves uniqueness **among admitted compatible predecessors**. It does not assert that an arbitrary positive later table has an admitted predecessor. For a table without the stipulated compatibility, ratios from different bit choices or reference ideals need not agree. Here existence is part of the admitted-law premise.
+
+### 4. Iteration and the accepted pair
+
+If two admitted laws agree on the whole size-\(N\) transition layer, their \(R\) and \(Z\) values for every size-\(N-1\) marked parent agree. Equation (2) gives equality of that earlier layer. Repeating recovers equality through size zero. This is a backward implication; identical earlier layers do not imply identical later ones.
+
+Part C establishes the finite \(\lambda\)-family. Part D establishes its accepted conditional all-size continuations. The \(\lambda=1,2\) laws share parent layers zero, one and two. At a three-chain parent, for any inherited marking, their empty-ideal probabilities are already
+\[
+ q_1(C_3,r,\varnothing)=1/44,\qquad
+ q_2(C_3,r,\varnothing)=1/22.
+\]
+They therefore differ at layer three.
+
+If any complete layer \(N\ge3\) were identical, either it would be this already different layer or backward determination would force layer three to be identical. Both are contradictions. Hence, for every such \(N\), some parent/ideal entry differs. This need not be the same order shape or slot at every size.
+
+An exactly common tail after a finite parent-size cutoff would contain an identical layer with \(N\ge3\), which is impossible. Shared layers zero through two are consistent with the theorem: those earlier layers have multiple admissible forward continuations. The all-size application retains Part D's admitted ratio-potential and extension-sufficiency assumptions; it does not re-prove them.
+
+### 5. Limits of the conclusion
+
+The input is a complete conditional transition rule on all marked parents. Restricted records, sampled paths, averaged kernels and a few cylinder probabilities do not supply that input. No marginal parent probability is substituted for a conditional entry anywhere in the proof. The previously accepted four-birth cylinder difference \(1/80\) remains a separate history-law result.
+
+The conclusion is exact nonidentity at each complete later layer. It supplies no quantitative lower separation bound, asymptotic nonconvergence, uniform statistical identifiability, or finite-sample guarantee. It does not say all coarse observations differ, or all agree. It establishes no property of unlabelled infinite endpoints, mutual singularity, physical memory or retrocausation. Backward mathematical determination is a constraint between compatible rules, not a process acting on earlier events.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
