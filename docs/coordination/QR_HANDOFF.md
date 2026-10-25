@@ -1,3 +1,7 @@
+# 2026-10-25 — Exact finite record discrimination
+
+RI1493 records independently accepted QR-LD008. The [record-readout note](../track_b/native_record_readout_v1.md) prints the model and proves earliest three-birth distinction between the original fair marked law and its accepted symmetrization: total variation1/36. An intrinsic binary shape/root-mark event attains the bound with all outcomes counted. Flip-invariant common readouts and the unselected passive payload remain blind. Equal-prior accuracy37/72 and the optional calibrated error-channel contraction are conditional mathematical statements; preparation, detector mapping and calibration remain unsupplied. No experiment, benchmark, physical validation or gate change follows.
+
 # 2026-10-25 — RI1492: whole-history symmetry and a failed row average
 
 The [mark-symmetry note](../track_b/native_mark_symmetry_v1.md) records independently accepted QR-LD007. The equal whole-history mixture of the original fair law and its global mark-flipped transport induces a valid kernel through four births, with locality checked on all five parent-three shapes. Naive averaging of completed transition rows fails one complete marked diamond: 13/3520 versus 11/3520. The valid mixture preserves every unmarked event probability within this horizon; uniqueness is proved only within the chosen two-component segment. Native-law selection and physical preparation/readout remain separate missing premises. No later-layer closure, agency, performance or execution claim is admitted.
