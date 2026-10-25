@@ -1,3 +1,7 @@
+# 2026-10-25 — RI1491: mark-law choice changes finite geometry
+
+The [mark-law geometry note](docs/track_b/native_mark_law_geometry_v1.md) records independently accepted QR-LD006. With the actual structural rule and complete four-birth support fixed, the declared constant newborn-zero probability t gives height tails 1,263/264,(2983+25t)/3960 and41(14+5t)/3960. All twenty fair joint probabilities and a separate four-chain path were independently checked. The original fair model is t=1/2; other t values change its mark prescription. A coordinate bitflip must transport the structural rule too. Neither a principle selecting t nor a physical observation channel follows. CE-RF002's finite arithmetic is retained; its proposed computational advantage remains closed. Existing protected-validation, custody and execution gates remain unchanged.
+
 # RI1490 — Precursor-local payload information
 
 The [precursor-local note](docs/track_b/native_precursor_payloads_v1.md) consolidates independently accepted QR-LD004/005. An optional local phase rule recovers the exact N2 contrast19/600. A separate N4 witness shows equal conditional payload channels for two nonisomorphic endpoints with different classical probabilities: intrinsic precursor classes omit shared-ancestor incidence. The supported three-birth diamond already forces the relevant channel commutation. This endpoint collision does not establish equality of unselected experiments across kernels. Original passive dynamics remain unchanged; no physical detector, calibration or gravity prediction follows.
