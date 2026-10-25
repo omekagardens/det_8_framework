@@ -1,3 +1,11 @@
+# RI1482 — Finite observation and implementation boundaries
+
+The independently reviewed finite-access result separates exact-law identification from uniform inference using finitely many records. Within the same fixed finite growth law and positive intrinsic-kernel family, two kernels can differ by a fixed amount at a reachable context while their finite-record laws become arbitrarily close. A known encounter-probability lower bound gives a conservative single-context remedy under explicitly hypothetical independent complete-history access. See [the standalone note](docs/track_b/native_finite_record_access_v1.md). No physical repetition or detector is supplied.
+
+Comp-Sci's bounded static metadata audit closes selected executable/framework/library-name relationships and records a non-root caller. It does not establish live mappings, effective entitlement or the unchanged strict resident-memory and other execution controls; verification and M1 remain on hold. Measurement build/caller/clock/serialization, thermal reset/operator/cost closure and Energy supplier evidence remain actual input gaps. No new execution or hardware admission follows.
+
+The shared usage guard requires more than 3% remaining in every applicable reported window, with supported reset conditions after a stop. Boundary questions remain speculative, outside accepted calculations. Protected validation, custody, ABSTAIN, Status M, zero qualification and the RET-only pause persist. Historical entries follow unchanged.
+
 # RI1480 — Implementation checkpoint
 
 [What complete records identify](docs/track_b/native_record_identifiability_v1.md) gives the reviewed finite intrinsic-kernel theorem: exact complete marked history laws, or complete marked endpoint distributions under the stated diamonds, identify the kernel only on reachable contexts. Mark-blind growth rows erase all kernel information from structural histories; the supplied three-birth seed gives a separate 1/54 contrast. Same law, support and horizon are essential. No single-sample recovery, physical observation or execution follows.
