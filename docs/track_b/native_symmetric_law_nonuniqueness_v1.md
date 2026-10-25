@@ -637,3 +637,141 @@ This establishes local continuity without a uniform denominator bound over all p
 For every \(t>0\), the first-four-birth chain cylinder still has probabilities \(41/240\) and \(19/120\), with contrast \(1/80\). Its generating transitions are the unchanged parent-zero-through-three rows; later normalized continuations preserve that marginal and all complement mass. Near-equality of later conditional tables therefore does not imply near-equality of complete history laws. No sampled-data identifiability, physical indistinguishability, runtime/energy advantage, readout, native forward map, retrocausation, law selection or geometry result follows.
 
 Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
+
+## G. A relative-error certificate for one backward reconstruction
+
+**Dependencies and review.** This part uses the admitted marked model in Part A, the complete-table backward reconstruction in Part E and the instability family in Part F. The proof and its stated premises received distinct mathematical review and coordinator acceptance. Compatibility and strictly positive support are input assumptions; the result supplies no measured probability floor or observation channel.
+
+**Accepted conditional one-step theorem.** The certificate holds. If the maximum queried log-relative error is \(\epsilon\), every reconstructed structural row satisfies
+\[
+ \max_S|\log(p'_S/p_S)|\le4\epsilon,\qquad
+ \operatorname{TV}(p,p')\le\tanh(\epsilon).
+\]
+A supplied common floor \(m>0\) on both tables' queried entries and maximum absolute entry error \(\eta\) give \(\epsilon\le\eta/m\). These are bounds between compatible mathematical tables, not measured error bars or a readout procedure.
+
+### 1. Exact input and reconstruction
+
+Fix a finite parent size \(n\), the full transported order/mark/individual-ideal dictionary, and fixed newborn bits, chosen zero for both routes. Let \(Q,Q'\) be strictly positive complete later tables, each having an admitted compatible predecessor. No compatibility or predecessor existence is inferred merely from proximity.
+
+For a marked earlier parent \((C,r)\), define the actually queried structural entries
+\[
+ N_S=Q(C+\varnothing,r+0,S),\qquad
+ D_S=Q(C+S,r+0,\varnothing),\qquad
+ R_S=N_S/D_S,\quad p_S=R_S/\sum_I R_I.
+\]
+Use the same definitions with primes. All ideals \(S,I\) of \(C\), including the full ideal, remain separate occurrences. The earlier full ideal is proper in the enlarged later parent because it excludes the other newborn. The accepted diamond and label transport justify these queries and give
+\(R_\varnothing=R'_\varnothing=1\). Their sums normalize complete earlier rows.
+
+Let \(\mathcal J\) be the finite union of numerator and denominator coordinates actually queried across all marked earlier parents. It is a subset of the complete later dictionary, not an average or a replacement support. With natural logarithms, set
+\[
+ \epsilon=\max_{j\in\mathcal J}|\log(Q'_j/Q_j)|.
+\]
+Strict positivity and finiteness make this well-defined. Repeated queries do not change this maximum; repeated ideal occurrences still count in each normalization sum.
+
+### 2. Log-error propagation
+
+For one earlier row,
+\[
+ \delta_S=\log(R'_S/R_S)
+ =\log(N'_S/N_S)-\log(D'_S/D_S)\in[-2\epsilon,2\epsilon],
+ \qquad \delta_\varnothing=0.
+\]
+Writing \(p\) for the unprimed normalized row,
+\[
+ p'_S=\frac{p_Se^{\delta_S}}{\mu},
+ \qquad \mu=\sum_I p_Ie^{\delta_I}.
+\]
+Let \(a=\min_S\delta_S\), \(b=\max_S\delta_S\), and \(h=b-a\). Since
+\(e^a\le\mu\le e^b\),
+\[
+ \log(p'_S/p_S)=\delta_S-\log\mu,\qquad
+ |\log(p'_S/p_S)|\le h\le4\epsilon. \tag{1}
+\]
+In particular \(e^{-4\epsilon}p_S\le p'_S\le e^{4\epsilon}p_S\). Every earlier slot, including the full slot, is covered.
+
+### 3. Finite positive-weight tilt lemma
+
+For any finite positive probability vector \(p\) and real tilts \(\delta_S\), normalize \(p'_S=p_Se^{\delta_S}/\mu\) as above. Then
+\[
+ \operatorname{TV}(p,p')\le\tanh\!\left(\frac{\operatorname{osc}(\delta)}4\right).
+ \tag{2}
+\]
+
+**Proof.** If all tilts are equal, normalization cancels their common factor and \(p'=p\). Otherwise put \(\ell=e^a<u=e^b\) and \(w_S=e^{\delta_S}\), so \(\mu=\mathbb E_p w\in[\ell,u]\). Total variation is
+\[
+ \operatorname{TV}(p,p')=\frac{\mathbb E_p|w-\mu|}{2\mu}.
+\]
+The convex function \(w\mapsto|w-\mu|\) lies below its endpoint chord on \([\ell,u]\). Averaging that chord gives
+\[
+ \mathbb E_p|w-\mu|
+ \le\frac{2(\mu-\ell)(u-\mu)}{u-\ell}.
+\]
+Therefore
+\[
+ \operatorname{TV}(p,p')
+ \le\frac{(\mu-\ell)(u-\mu)}{\mu(u-\ell)}
+ =\frac{u+\ell-\mu-u\ell/\mu}{u-\ell}
+ \le\frac{u+\ell-2\sqrt{u\ell}}{u-\ell}
+ =\frac{\sqrt u-\sqrt\ell}{\sqrt u+\sqrt\ell}
+ =\tanh((b-a)/4).
+\]
+The middle inequality is \(\mu+u\ell/\mu\ge2\sqrt{u\ell}\). This proves the lemma without enumeration.
+
+Applying it to reconstruction yields, uniformly over all earlier rows,
+\[
+ \boxed{\operatorname{TV}(p,p')\le\tanh(h/4)\le\tanh(\epsilon)}. \tag{3}
+\]
+Each individual absolute probability difference is also at most this total variation. This is a valid bound; no attainment or sharpness within the native compatible-law family is established.
+
+If all reconstruction tilts are equal, their common value must be zero because \(\delta_\varnothing=0\); the rows agree exactly. In particular \(\epsilon=0\) gives zero log error and zero total variation. Equality of reconstructed rows need not imply \(\epsilon=0\): common factors can cancel in the queried ratios.
+
+The scalar convention uses the probability of each ideal. In the joint ideal/newborn-bit convention, the probabilities are \(p_S/2\) and \(p'_S/2\) for each bit. Their likelihood ratios are unchanged, and summing both half-differences leaves total variation unchanged. Full-slot and fair-bit mass are retained throughout; no payload-trace division is involved.
+
+### 4. Translation from a supplied common floor
+
+Assume **both** \(Q_j\ge m\) and \(Q'_j\ge m\) for every \(j\in\mathcal J\), and complete structural-entry difference at most \(\eta\ge0\). The floor covers all queried numerators and denominators, not just denominator coordinates.
+
+For two such entries \(x,y\), applying \(\log(1+z)\le z\) to the larger divided by the smaller gives
+\[
+ |\log(y/x)|\le\frac{|y-x|}{\min(x,y)}\le\frac{\eta}{m}.
+\]
+Thus
+\[
+ \boxed{\epsilon\le\eta/m,\qquad
+ \max_S|\log(p'_S/p_S)|\le4\eta/m,\qquad
+ \operatorname{TV}(p,p')\le\tanh(\eta/m)}. \tag{4}
+\]
+No assumption \(\eta<m\) is needed when the positive floor is independently supplied for both tables. The bound is informative according to the size of \(\eta/m\).
+
+Such a floor must be feasible with normalization: if a row contains \(k\) distinct queried entries, \(km\le1\), strictly so when other positive outcomes remain. These inequalities do not make an arbitrary floor or perturbed table admissible. Both tables' compatibility remains an input premise.
+
+For joint fair-bit entries, the corresponding structural floor/error \(m,\eta\) become \(m/2,\eta/2\); log-relative errors and their ratio \(\eta/m\) are unchanged. A fixed finite positive pair has some mathematical minimum, but qualitative positivity supplies neither a uniform numerical floor over the class nor a calibrated measured floor.
+
+### 5. Reconciliation and scope
+
+In Part F's new small-scale family, all coordinates queried by the backward formula are proper later slots. They have the form \(Q_i^t(j)=a(t)u_i(j)\). Hence
+\[
+ \log\!\frac{Q_2^t(j)}{Q_1^t(j)}
+ =\log\!\frac{u_2(j)}{u_1(j)}
+\]
+is independent of \(t>0\). Shrinking absolute differences therefore need not shrink the queried relative errors. The usable common entry floor tends to zero with \(a(t)\).
+
+The earlier chain-empty gap \(1/44\) implies that row's total variation is at least \(1/44\), consistent with (3): its global queried error must satisfy \(\tanh(\epsilon)\ge1/44\). The bound does not predict vanishing earlier error in that family. Its separate four-birth cylinder contrast \(1/80\) also remains unchanged.
+
+The reconstruction \(F\) is generally many-to-one: for fixed branch \(i\), distinct positive \(t\) give different later tables but the same earlier kernel. Unique compatible backward determination is not injectivity of \(F\) or a unique forward continuation.
+
+This part proves one finite-step certificate only. It does not revise the fixed Part D pair, iterate bounds without limit, establish a measured floor, calibrate readout, or infer physical observability, indistinguishability, efficient statistics, native-family sharpness, geometry or size asymptotics. No law is selected.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and speculative Boundary separation remain.
+
+### 6. Premises and certificate scope
+
+- **Input:** two strictly positive compatible complete later tables on the same finite transported order/mark/individual-ideal dictionary. The accepted empty-reference formula uses fixed newborn bits; no arbitrary-perturbation predecessor existence is inferred.
+- **Error definition:** natural-log relative error \(\epsilon\) over the union of actually queried numerator and denominator entries across every earlier row. Full dictionary and query set are distinguished; all actual ideal occurrences remain in normalization.
+- **Derived bounds:** ratio tilts lie in \([-2\epsilon,2\epsilon]\), with empty tilt zero. Normalized row log-likelihood errors are at most the tilt oscillation \(h\le4\epsilon\). The proved finite tilt lemma gives TV at most \(\tanh(h/4)\le\tanh(\epsilon)\).
+- **Controls:** equal tilts leave normalized weights unchanged; the empty reference then forces the common tilt to zero. Epsilon zero gives identical rows. The converse is not claimed.
+- **Full mass:** every earlier full slot is included. Joint independently fair newborn-bit splitting preserves log-likelihood ratios and total variation.
+- **Supplied floor:** both tables' queried numerator AND denominator entries must be at least \(m>0\). Complete absolute error at most \(\eta\) implies \(\epsilon\le\eta/m\), hence log error at most \(4\eta/m\) and TV at most \(\tanh(\eta/m)\). Feasibility with row normalization and compatibility remains required.
+- **Not a measured floor:** finite positivity alone is neither a uniform class-wide lower bound nor an acquisition, calibration or error-bar procedure.
+- **Part F reconciliation:** shared small-scale factors cancel in queried relative ratios while the usable floor collapses. Fixed earlier gap and persistent cylinder contrast are consistent. F is generally many-to-one, not an injective or uniquely forward-selecting map.
+- **Limits:** one finite step, no unbounded iteration, native-family sharpness, revision of the fixed Part D pair, size asymptotics, sampled identifiability or physical readout.
