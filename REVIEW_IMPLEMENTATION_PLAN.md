@@ -1,3 +1,9 @@
+# RI1487 — Passivity and normalization assumptions
+
+The independently reviewed [law-dependence result](docs/track_b/native_passivity_choice_v1.md) distinguishes trace normalization from requiring the sum of branch maps to be the identity. A separate supplied unitary family preserves the fixed classical record laws and complete marked diamonds under trace normalization. The stronger identity-map requirement, positivity and fixed branch weights instead force the passive prescription. Its separating payload test requires additional fixed preparation/readout access. The admitted native law is unchanged; no physical frame, clock, quantum/gravity dynamics or observation channel is derived.
+
+A separate bounded observation inquiry concerns what payload-only measurements can learn without native-record access. All existing measurement, thermal, Energy and benchmark prerequisites remain. The current Comp-Sci candidate remains closed with a qualified manual negative result and excluded literature claims. Shared usage>3%, supported reset, protected validation/custody, ABSTAIN, StatusM, zero qualification, RET-only pause and speculative Boundary separation persist. Historical entries follow unchanged.
+
 # RI1486 — Probability records and residual information
 
 The independently reviewed [payload theorem](docs/track_b/native_payload_information_v1.md) distinguishes full branch-map equality from equality of record probabilities. Full maps support uniform history reconstruction with unchanged residual payloads and retained references. Equal probabilities alone do not: an explicit two-input example has identical endpoint outputs but distinguishable history-plus-payload outputs. Necessity is stated only for the specified reconstruction. The existing passive scalar model already satisfies the stronger premise; no non-scalar native dynamics or physical access is adopted.
