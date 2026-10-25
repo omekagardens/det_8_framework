@@ -1,3 +1,7 @@
+# RI1494 — Conditional two-record comparison without an absolute mark label
+
+The [joint-record note](docs/track_b/native_joint_record_readout_v1.md) consolidates the complete finite model, accepted single-record arithmetic and independently accepted QR-LD009. For explicitly imported shared versus independent orientation preparations, the exact pair distance is 1/648; a relative shape/root comparison attains it and the fixed-orientation minimax bound. All complement mass and encoding multiplicities remain. Paired preparation, reset, relative dictionary and calibrated readout are separate missing physical premises. No six-birth connected process, detector, empirical law selection or execution claim follows.
+
 # 2026-10-25 — Exact finite record discrimination
 
 RI1493 records independently accepted QR-LD008. The [record-readout note](docs/track_b/native_record_readout_v1.md) prints the model and proves earliest three-birth distinction between the original fair marked law and its accepted symmetrization: total variation1/36. An intrinsic binary shape/root-mark event attains the bound with all outcomes counted. Flip-invariant common readouts and the unselected passive payload remain blind. Equal-prior accuracy37/72 and the optional calibrated error-channel contraction are conditional mathematical statements; preparation, detector mapping and calibration remain unsupplied. No experiment, benchmark, physical validation or gate change follows.
