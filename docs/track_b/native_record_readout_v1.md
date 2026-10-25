@@ -1,0 +1,200 @@
+# The information needed to distinguish a marked law from its symmetrization
+
+RI1493 consolidates the independently reviewed QR-LD008 finite information result. An ideal oriented record first distinguishes the original fair marked law from its equal whole-history symmetrization at three births. The exact total variation is 1/36. A binary shape-and-root-mark readout attains it while retaining all outcomes.
+
+Part A prints the admitted model and fixed structural prefix. Part B proves the result for the original law and the accepted symmetrization from the [mark-symmetry note](native_mark_symmetry_v1.md). The [native theorem package](native_theorem_package_v1/THEOREM_PACKAGE.md#1-mathematical-object-and-admitted-model) supplies the underlying structural identities. No actual preparation, detector, mark dictionary or calibration is supplied; these remain explicit premises before a physical prediction.
+
+## A. Original model and the fixed four-birth structural prefix
+
+A state consists of a finite order \(P\), immutable binary marks \(r:P\to\{0,1\}\), and an arbitrary complex positive-semidefinite payload \(\mathfrak D\) on a fixed carrier. An ideal \(S\subseteq P\) is a downward-closed subset, including the empty and full ideals. A birth appends one maximal vertex with strict past exactly \(S\); write the resulting order \(P+S\). The newborn mark \(b\) is independently fair. The branch map is
+
+\[
+ \mathcal B^{P,r}_{S,b}(\mathfrak D)
+       =\frac{q(P,r,S)}2\,\mathfrak D .
+ \tag{1}
+\]
+
+The admitted model requires:
+
+- Every ideal is eligible, \(q(P,r,S)>0\), and the complete ideal sum is one.
+- A proper-slot probability may read the whole unmarked order \(P\), but only the marks in \(S\). A full slot may read all old marks.
+- Relabeling transports order, ideal and marks together; probabilities are equivariant.
+- Two incomparable births commute as complete unnormalized marked maps. Both newborn bits, equal-precursor pairs and all inherited marks are included.
+- There is one committed birth at a step. This bookkeeping step is not a physical clock and is not a claim that every present relational activity creates a record.
+
+For two ideals \(S,T\) of a base \(C\), with the new vertices excluded from the second precursors, the diamond identity is
+
+\[
+ q(C,r,S)q(C+S,r+b,T)
+   =q(C,r,T)q(C+T,r+c,S).
+ \tag{2}
+\]
+
+Both sides multiply the same transported terminal payload by \(1/4\). Equation (2) is not merely agreement of normalized probabilities or diagonal payloads.
+
+For a proper ideal in a nonempty parent, let \(M=\operatorname{Max}(P)\setminus S\). Its fixed maximal-deletion potential is
+
+\[
+ u(P,r,S)=
+ \prod_{\varnothing\ne A\subseteq M}
+ q(P\setminus A,r|_{P\setminus A},S)^{(-1)^{|A|+1}} .
+ \tag{3}
+\]
+
+These are evaluations of smaller mathematical inputs, not erasure of committed history. Full smaller-parent slots retain their full induced marks.
+
+The admitted ratio-component theorem says that (3) satisfies all inherited ratio equations and that every positive solution at the next layer has the form
+\(q(P,r,S)=\alpha_{\mathcal C(P,S,r|S)}u(P,r,S)\) on proper slots. The component key keeps the whole unmarked parent and selected marks. All labeled ideal occurrences contribute separately to row sums. Full slots are normalization complements.
+
+### The fixed instance, not a uniquely selected law
+
+The smaller seed is prescribed:
+
+\[
+ a_{\rm seed}=2/3,\quad c_{\rm seed}=1/5,\quad d_{\rm seed}=1/4,
+ \quad f_{\rm seed}(0)=1/6,\quad f_{\rm seed}(1)=1/3,
+\]
+\[
+ g_{\rm seed}=1/10,\quad k_{\rm seed}=11/20,\quad
+ h_{\rm seed}(0)=19/30,\quad h_{\rm seed}(1)=7/15,\quad e=1/44 .
+\]
+
+The singleton, two-chain and two-antichain ideal rows are
+\((a_{\rm seed},1-a_{\rm seed})\),
+\((c_{\rm seed},f_{\rm seed}(i),h_{\rm seed}(i))\), and
+\((d_{\rm seed},g_{\rm seed},g_{\rm seed},k_{\rm seed})\).
+The parent-three proper rows are:
+
+| Parent | Proper ideal probabilities |
+| --- | --- |
+| Three-antichain | Empty \(e\); each singleton \(eg_{\rm seed}/d_{\rm seed}\); each pair \(ek_{\rm seed}/d_{\rm seed}\) |
+| Edge \(u<v\), isolate \(w\) | Empty and \(w\): \(e\); \(u\): \(ef_{\rm seed}(r_u)/c_{\rm seed}\); \(uv\): \(eh_{\rm seed}(r_u)/c_{\rm seed}\); \(uw\): \(ek_{\rm seed}/g_{\rm seed}\) |
+| Fork | Empty and root: \(e\); each root-plus-leaf ideal \(eh_{\rm seed}(i)/f_{\rm seed}(i)\) |
+| Join | Empty, each root singleton and root pair: \(e\) |
+| Three-chain | Empty, root and initial pair: \(e\) |
+
+Every full slot is the complete complement.
+
+## B. Conditional record discrimination
+
+### 1. Outcomes, common channels and invariant blindness
+
+At a fixed horizon \(n\le4\), let \(\Gamma_n\) contain every naturally encoded complete marked history, with each ideal occurrence and newborn bit retained. Equivalently, a record may be its canonical marked endpoint: the endpoint probability sums all distinct natural encodings, rather than treating an isomorphism class as one history. Let \(F\) flip every bit without changing the order. Accepted whole-law transport gives
+\[
+ L_1(\gamma)=L_0(F\gamma),\qquad L_*=(L_0+L_1)/2.
+\]
+We compare \(L_0\) with \(L_*\), not \(L_0\) with \(L_1\).
+
+Declare one common observation kernel \(R(B\mid\gamma)\), where \(B\) is an outcome event. It cannot depend on the unknown hypothesis. If
+\(R(B\mid F\gamma)=R(B\mid\gamma)\) for every \(B,\gamma\), then
+\[
+ P_1^R(B)=\sum_\gamma L_0(F\gamma)R(B\mid\gamma)
+ =\sum_\eta L_0(\eta)R(B\mid F\eta)=P_0^R(B).
+\]
+Hence \(P_*^R=P_0^R\). This covers unmarked order observations and stochastic readouts of global-bitflip orbits. It is a restriction on the declared channel, not a no-go for all physical measurements.
+
+Global mark-name symmetry differs from vertex relabeling: the former exchanges zero and one everywhere; the latter transports each vertex's attached mark while renaming vertices. A readout may respect the latter and break the former.
+
+The original payload contributes no independent distinction. For either hypothesis, a complete history acts on any common prepared payload/reference state \(\rho_{AR}\) as \(L_s(\gamma)\rho_{AR}\). Summing every record gives
+\[
+ \sum_\gamma L_s(\gamma)\rho_{AR}=\rho_{AR}.
+\]
+Thus fixed unselected payload/reference measurements agree, even for entangled preparations. This assumes the same initial state, without a hypothesis already encoded in the reference or a new record-dependent interaction.
+
+### 2. First distinguishing horizon and complete probabilities
+
+At \(n=0,1,2\), both component laws coincide: the empty/singleton transitions are mark-independent and all newborn bits are fair. Consequently \(L_0=L_*\) on complete records there.
+
+At \(n=3\), use the actual prefix
+\[
+ a=2/3,\ d=1/4,\ g=1/10,\ c=1/5,\ k=11/20,
+\]
+\[
+ f_0=1/6,\ f_1=1/3,\qquad h_0=19/30,\ h_1=7/15.
+\]
+The structural weight of one natural encoding is \(1/6,1/15,f_i/3,11/30,h_i/3\) for antichain, edge plus isolate, fork, join and chain. Multiply by \(1/8\) for its specified three bits. These follow respectively from \(ad\), \(ag=c/3\), \(f_i/3\), \(ak\), and \(h_i/3\). In the fork \(i\) is the unique root mark; in the chain it is the unique minimum mark. Under \(L_*\), replace \(f_i\) by \(1/4\) and \(h_i\) by \(11/20\) for these history weights.
+
+The following table partitions all outcomes. Counts list complete histories and canonical marked endpoints; probabilities sum all marks not specified in the row.
+
+| Record sector | Histories | Endpoints | \(P_0\) | \(P_*\) | \(P_0-P_*\) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Antichain | 8 | 4 | \(1/6\) | \(1/6\) | 0 |
+| Edge plus isolate | 24 | 8 | \(1/5\) | \(1/5\) | 0 |
+| Join | 8 | 6 | \(11/30\) | \(11/30\) | 0 |
+| Fork, root 0 | 4 | 3 | \(1/36\) | \(1/24\) | \(-1/72\) |
+| Fork, root 1 | 4 | 3 | \(1/18\) | \(1/24\) | \(+1/72\) |
+| Chain, minimum 0 | 4 | 4 | \(19/180\) | \(11/120\) | \(+1/72\) |
+| Chain, minimum 1 | 4 | 4 | \(7/90\) | \(11/120\) | \(-1/72\) |
+| Total | 56 | 32 | 1 | 1 | 0 |
+
+For an antichain, the four endpoint classes have zero-count multiplicities \(1,3,3,1\). Each edge-plus-isolate marking has three natural encodings. Fork leaves and join roots are unordered: equal marks have multiplicity one, mixed marks multiplicity two. A marked chain has one encoding. These give all 56 histories and 32 marked endpoint classes with no extra automorphism factor.
+
+More finely, each fork/chain history has signed difference of magnitude \(1/288\): negative for fork-root zero and chain-minimum one, positive for the other two sectors. For example,
+\[
+ \frac{f_0-1/4}{24}=-\frac1{288},\qquad
+ \frac{h_0-11/20}{24}=\frac1{288}.
+\]
+Every other history has zero difference. Within each canonical marked endpoint all histories have the same sign, so quotienting by vertex relabeling causes no cancellation. Thus the complete-history and complete-endpoint distances both equal
+\[
+ d_{\rm TV}(P_0,P_*)=\frac12\sum_\gamma|L_0(\gamma)-L_*(\gamma)|
+ =\frac12\frac{16}{288}=\frac1{36}.
+\]
+Together with the zero distances at earlier horizons, this proves earliest distinction at three births.
+
+### 3. An intrinsic optimal binary readout
+
+Define
+\[
+ E=\{\text{three-chain with minimum mark }0\}
+ \ \cup\ \{\text{three-fork with root mark }1\},
+ \qquad Y=\mathbf1_E.
+\]
+This event is intrinsic and vertex-relabel-equivariant. It uses only order shape and its unique root/minimum mark, not leaf marks, birth labels or the unknown hypothesis.
+
+It includes every positive signed-difference outcome and none of the negative ones. Therefore
+\[
+ P_0(Y=1)=\frac{29}{180},\qquad P_*(Y=1)=\frac2{15}=\frac{24}{180}.
+\]
+The complementary probabilities are \(151/180\) and \(13/15=156/180\). All antichain, edge, join and other outcomes are counted; there is no postselection.
+
+For any common stochastic readout and outcome event \(B\), put \(\delta=L_0-L_*\). Since \(0\le R(B\mid\gamma)\le1\) and the positive and negative masses of \(\delta\) agree,
+\[
+ \left|\sum_\gamma R(B\mid\gamma)\delta(\gamma)\right|
+ \le\sum_{\gamma:\delta(\gamma)>0}\delta(\gamma)=\frac1{36}.
+\]
+Taking the supremum over output events proves the same upper bound for every readout. The displayed binary event attains it, proving optimality without a discrete-output restriction.
+
+If equal hypothesis priors and ordinary correct/incorrect single-realization loss are externally declared, choose \(L_0\) when \(Y=1\) and \(L_*\) otherwise. Its optimal accuracy is
+\[
+ \tfrac12[P_0(E)+P_*(E^c)]
+ =\frac{1+d_{\rm TV}}2=\frac{37}{72}.
+\]
+This is a decision convention, not a DET-derived prior, trial budget, repeated-trial independence claim or experimental performance result.
+
+### 4. Orientation and one declared error model
+
+The readout breaks global bitflip invariance: \(F(E)\) exchanges the two root-mark conditions and is disjoint from \(E\). A common calibrated dictionary must identify what physical record category, if any, is called zero under both hypotheses. Simultaneously transporting the law and this dictionary is only a coordinate change; the proposed comparison keeps the calibrated readout fixed.
+
+Breaking flip invariance alone is insufficient. For example, the total zero count has the same binomial law under both hypotheses. Here the distinguishing information is the correlation between order shape and an oriented root mark.
+
+As one explicitly imported single-trial channel, suppose shape is classified correctly and the relevant fork/chain root bit is independently flipped with known probability \(0\le\epsilon\le1/2\), identically under both hypotheses. Record shape and the reported root bit for these two shapes; report the other shapes without postselection. This is a declared response model, not supplied apparatus.
+
+Each positive/negative root-sector difference becomes
+\(\pm(1-2\epsilon)/72\); all other sectors still agree. The same binary rule on reported marks gives
+\[
+ P_0(Y_\epsilon=1)=\frac{29-10\epsilon}{180},\qquad
+ P_*(Y_\epsilon=1)=\frac2{15},
+\]
+and attains the complete declared noisy-channel distance
+\[
+ d_{\rm TV}^{(\epsilon)}=\frac{1-2\epsilon}{36}.
+\]
+The equal-prior accuracy becomes \(1/2+(1-2\epsilon)/72\). The distinction vanishes at \(\epsilon=1/2\).
+
+An unknown orientation fixed across trials is not automatically this independent error channel. A common unknown convention, a deliberately randomized per-record convention and calibrated bit errors require different models; no repeated-trial inference is made here.
+
+### 5. Remaining physical bridge and stop
+
+A physical prediction would require a justified correspondence from native events and marks to distinguishable records, a preparation and collection procedure yielding complete three-birth records, a detector map identifying order/root, and an independently fixed mark dictionary with a calibrated common response. Missing/delayed records and acquisition costs would need their own evidence. None is supplied by this ideal information calculation.
+
+The question is closed conditionally: invariant readouts and passive payload are blind; a calibrated oriented shape-root correlation attains the exact three-birth contrast. No physical observer, empirically selected law, hidden agency, metric, gravity or GWOSC forward map follows. Original fair-model results, CE advantage closure and all standing gates remain.
