@@ -2736,3 +2736,197 @@ Distinct review checked the closure-to-maxima implication, conditional-binomial 
 The proof package retained twelve source/control files and fourteen source/prose bodies. Distinct review and coordinator checks verified exact current identities and five actual dependency-acceptance joins. Original/nested locators and raw external final sessions were not reopened. Hashes and readbacks establish identity, not mathematical verification or repaired historical custody. The initial exclusive output directory was absent; this observation and its subsequent creation remain in the evidence record. Recorded display clipping and its recovery are retained separately from the mathematical conclusions.
 
 The inherited Part P author's 65-second NONCOMPLIANT overrun remains unwaived; the current theorem's recorded completion was timely. All protected-validation/custody, independent-review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. Any later result requires its own review and coordinator disposition.
+
+## T. Constant-parameter transitive percolation in the marked contract
+
+**Acceptance and scope.** This part records the independently reviewed and coordinator-accepted constant-parameter embedding. It extends Part S’s width result over a declared subfamily; Parts Q and R retain their finite-observation limits. The scalar formula has a conventional antecedent. No preferred law or physical measurement is selected.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual proof only.
+
+**Result.** Half-selection is not forced by the scalar-passive marked admission conditions. Every fixed \(0<p<1\) gives the admitted kernel
+\[
+q_p(P,r,S)=p^{|\operatorname{Max}(S)|}(1-p)^{|P|-|S|}.
+\tag{1}
+\]
+Its maximal-count transition is \(1+\operatorname{Binomial}(M_n,1-p)\), and its width tends to infinity almost surely. Different p give different two-birth laws.
+
+The scalar formula and ancestor-closure construction already appear in the conventional transitive-percolation literature identified below. This part is a checked embedding and proof under the Part A marked contract, not a new model or a novelty claim.
+
+### 1. Conventional antecedent and exact scope of the source
+
+The recorded primary-source observation identifies D. P. Rideout and R. D. Sorkin, *A Classical Sequential Growth Dynamics for Causal Sets*, Physical Review D 61, 024002 (2000), [arXiv:gr-qc/9904062v3](https://arxiv.org/html/gr-qc/9904062v3), revised 26 June 2004, §4.2, “Another look at transitive percolation,” equation (6).
+
+The supplied observation reports the scalar transition
+\[
+\alpha_n=p^m(1-p)^{n-\varpi},
+\]
+where m is the number of maximal precursor elements and varpi its cardinality, with independent ancestor selection followed by inclusion of their pasts. The correspondence is exact:
+
+| Reported primary notation | Present notation |
+| --- | --- |
+| n | cardinality of parent P |
+| varpi | cardinality of actual precursor ideal S |
+| m | number of maxima of the induced order S |
+| p | constant probability of selecting each old vertex |
+| alpha_n | structural transition q_p(P,r,S) |
+
+The literature attribution here follows a pinned, paraphrased primary-source observation, not a fresh direct reading by the proof author or independent reviewer. Its version, section and equation are retained exactly. That observation records a garbled PDF extraction and a readable versioned arXiv HTML observation. It supports the identified antecedent, not an exhaustive priority survey.
+
+The paper's covariance, Bell-causality and normalization conditions are not assumed identical to the present marked-diamond contract. Admission below is checked directly. Neither the marks nor scalar payload embedding is licensed merely by citing the older paper, and no claim of their historical novelty is made.
+
+### 2. Definition and complete normalization
+
+Fix p once for the entire law, with 0<p<1. Work in the unrestricted model in Part A, not its separately prescribed seed or half-scale continuation. A state is a finite order P, immutable binary marks r, and an arbitrary complex positive-semidefinite payload X on the declared carrier. Every actual ideal S is eligible. Write n=|P|, s=|S| and m(S)=|Max(S)|, with m(empty)=0. Define q_p by (1), independent of r.
+
+Given any current history, select each old vertex independently with probability p and take the downward closure of the selected subset. The closure equals S precisely when every maximum of S is selected and every vertex outside S is unselected. Other vertices of S are unrestricted. The corresponding probability is
+\[
+p^{m(S)}(1-p)^{n-s}.
+\]
+The unrestricted choices contribute total factor one. Closure events for all actual ideals partition all subsets; hence
+\[
+\sum_{S\text{ ideal of }P}q_p(P,r,S)=1.
+\tag{2}
+\]
+This sums ideal occurrences, not isomorphism classes or selected representatives.
+
+Because both p and 1-p are positive, every entry is strictly positive. The empty ideal has mass \((1-p)^n\), and the full ideal has mass \(p^{|\operatorname{Max}(P)|}\). The empty parent has only its full/empty ideal and mass one. No normalization complement is omitted.
+
+A relabeling preserves n, s and m(S), proving equivariance. Ignoring marks satisfies proper-slot selected-mark locality and the permitted full-slot dependence. The subset representation is an exact mathematical representation of these rows; it is not a new physical mechanism or an executed procedure.
+
+The endpoints are excluded by strict support. On a singleton, the empty/full row is (1-p,p): p=0 makes the full ideal impossible, and p=1 makes the empty ideal impossible. The forced empty-parent row remains one in the subset construction, without needing an ambiguous endpoint 0^0 convention. Endpoint processes therefore do not satisfy the declared full-support model.
+
+### 3. Every complete marked diamond and payload map
+
+Let C be any finite base and S,T any two ideals, including empty, full-base and equal choices. Append incomparable newborns x and y with pasts S and T, respectively. Each second precursor is an old ideal and excludes the other newborn. Its induced order, cardinality and number of maxima are unchanged, while the intermediate parent has one additional vertex. Therefore
+\[
+q_p(C+x,r+b,T)=(1-p)q_p(C,r,T),
+\]
+and similarly with x,S and y,T interchanged. It follows that
+\[
+q_p(C,r,S)q_p(C+x,r+b,T)
+=(1-p)q_p(C,r,S)q_p(C,r,T)
+=q_p(C,r,T)q_p(C+y,r+c,S).
+\tag{3}
+\]
+This holds for every inherited marking and both arbitrary newborn bits b,c. It includes S=T=C and the empty base; these second precursors are still proper in their intermediate parents. Full ideals remain present in every normalized row and can occur as first precursors.
+
+The newborn mark remains independently fair, whatever the structural parameter p. Define
+\[
+\mathcal B^{P,r}_{S,b}(X)=\frac{q_p(P,r,S)}2X.
+\]
+Both complete two-step routes in (3) multiply the same transported payload by the same scalar times 1/4. Thus their unnormalized maps agree on every admitted complex positive-semidefinite X, not just on normalized or diagonal states. Summing all ideal/bit branches gives X by (2). No trace division or informative quantum dynamics is introduced.
+
+Normalized positive finite history weights
+\[
+2^{-N}\prod_{n=0}^{N-1}q_p(P_n,r_n,S_n)
+\]
+are consistent under truncation. The usual probability extension on the finitely branching history tree supplies an infinite classical law L_p. Each individual transition still has a finite parent. This verifies the model directly, without importing a differently named axiom from the primary paper.
+
+### 4. Maximal count and width for each fixed interior p
+
+Let F_n contain the complete marked history through n births, \(M_n=|\operatorname{Max}(P_n)|\), and W_n be its maximum antichain size. Set M_0=W_0=0.
+
+In the conditional subset representation, an old maximum is in the precursor exactly when selected. Selected maxima cease being maximal; unselected maxima survive. Old nonmaxima retain an old successor, and the newborn is maximal. Consequently
+\[
+M_{n+1}\mid F_n\ \sim\ 1+\operatorname{Binomial}(M_n,1-p),
+\tag{4}
+\]
+or explicitly
+\[
+\Pr_p(M_{n+1}=j\mid F_n)
+=\binom{M_n}{j-1}(1-p)^{j-1}p^{M_n-j+1},
+\quad 1\le j\le M_n+1.
+\]
+The empty parent gives M_1=1. The singleton gives M_2=1 with probability p and M_2=2 with probability 1-p. All committed marks stay in F_n; the next bit remains a separate fair branch.
+
+For fixed k≥1, if the current count is r<k, require no current maximum to be selected until first reaching k. Successive conditioning gives probability
+\[
+(1-p)^{\sum_{m=r}^{k-1}m}
+\ge \delta_{k,p}:=(1-p)^{k(k-1)/2}>0
+\tag{5}
+\]
+of this successful run. It lasts k-r≤k births. This bound is uniform over every complete current history below k for the fixed p and k.
+
+For deterministic N≥0, let
+\(\sigma_{N,k}=\inf\{j\ge0:M_{N+j}\ge k\}\).
+Condition at successive k-step block boundaries. On the event of no previous hit the count is still below k, so the next block fails with conditional probability at most \(1-\delta_{k,p}\). The tower property gives, for every integer b≥1,
+\[
+\Pr_p(\sigma_{N,k}>bk\mid F_N)
+\le(1-\delta_{k,p})^b.
+\tag{6}
+\]
+No independent-block assumption is made. If the count already exceeds the threshold, failure is empty. For k=1, delta is one and hitting occurs by the next birth, including from the empty parent.
+
+Letting b increase and intersecting the probability-one conclusions over countably many N,k proves
+\[
+\limsup_n M_n=\infty \quad L_p\text{-almost surely}.
+\]
+Old induced relations persist, so W_n is nondecreasing; maximal vertices form an antichain, so W_n≥M_n. Therefore
+\[
+W_n\longrightarrow\infty \quad L_p\text{-almost surely}.
+\tag{7}
+\]
+This extends the accepted Part S argument to every fixed interior p under its own law. The bound depends on p; for k≥2 it tends to zero as p approaches one. No bound uniform over the whole open parameter interval, stationary distribution, asymptotic rate or assertion \(M_n\to\infty\) is supplied.
+
+### 5. Different parameters are different finite laws
+
+Let E be the intrinsic event that the first two vertices form a chain, with both marks forgotten. The first birth is forced. From its singleton parent the full ideal has probability p and creates a chain; the empty ideal has probability 1-p and creates a two-antichain. Summing all four fair mark assignments gives
+\[
+\Pr_{L_p}(E)=p,\qquad
+\Pr_{L_p}(E^c)=1-p.
+\tag{8}
+\]
+Hence p≠p' implies different distributions already at two births. Vertex relabeling, order-coordinate changes preserving the order, and mark renaming preserve comparability, so they cannot remove this difference. Reparameterizing the name of p does not identify two distinct probability measures.
+
+This is a distinction in the declared formal record channel, not a supplied physical measurement. A single realization need not identify p with certainty; both outcomes have positive probability for every interior parameter.
+
+At p=1/2, (1) is exactly the accepted q_* kernel. The other admitted values refute the assertion that the marked admission conditions force half-selection. They do not determine a preferred p. The fair newborn-bit probability remains 1/2 throughout and is a different part of the model.
+
+The constant-p laws are only a subfamily of the unrestricted admitted family. For example, accepted Part S also supplies chain-tail continuations with eventually finite width; (7) excludes those from the interior constant-p family. We give no general parameterization of all admitted laws, nor an admission result for a state-dependent or varying p. Separately imposed seed coefficients are additional constraints and need not match (1).
+
+### 6. Scope
+
+The scalar kernel and ancestor-closure construction have the transitive-percolation antecedent identified in §1 of this part. The present yield is the explicit verification under the marked contract, the fixed-p width argument and the finite-law distinction, with no model-novelty or broader historical-priority claim.
+
+No preferred law, physical clock/dimension/metric/gravity/readout, height/density classification, empirical DET validation, quantum reconstruction, efficient algorithm or universal untestability follows. Part S is accepted at its exact scope; the inherited Part P author’s recorded 65-second timing breach remains NONCOMPLIANT and unwaived.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary separation and all resource/execution/publication gates remain. Acceptance of this mathematical result supplies no execution or successor permission.
+
+### 7. Premises and proof obligations
+
+Status: the following premises and proof obligations accompany the independently reviewed and accepted result.
+
+#### Model and accepted dependencies
+
+- Part A gives the unrestricted scalar-passive binary-marked-order contract, with every actual ideal, strict positive normalized support, proper selected-mark locality, equivariance, complete transported marked diamonds, fair newborn bits and scalar identity payload maps.
+- Part S supplies the accepted half-selection argument. It is a checked predecessor, not an assumption that all p work.
+- Part R supplies the accepted finite-observation proof and premises. No stronger family classification or physical observation premise is imported.
+- Existing authorization, resource and coordination boundaries remain in force; mathematical acceptance does not remove them.
+- A constant p with0<p<1 is an explicit mathematical choice for the entire law. Structural p does not replace the independently fair newborn mark probability.
+
+#### Literature evidence and limits
+
+The literature attribution in §1 of this part follows a pinned paraphrase of a primary-source observation: Rideout and Sorkin, A Classical Sequential Growth Dynamics for Causal Sets, Phys.Rev.D61,024002(2000), arXiv:gr-qc/9904062v3 revised26June2004, section4.2 equation(6). It reports alpha_n=p^m(1-p)^(n-varpi) and independent ancestor selection followed by adding pasts.
+
+The mapping is n=|P|, varpi=|S|, m=|Max(S)|, with the same selection p. This scalar formula and construction are prior transitive percolation. The proof author and independent reviewer read the supplied primary-source observation, not the primary page or PDF. The note's garbled-PDF/readable-HTML history remains attributed. No URL expansion, broader survey, novelty claim or claim of identical axiom systems is made.
+
+#### Manual obligations discharged
+
+1. The subset-closure event for an actual ideal S requires all its maxima selected, all outside vertices unselected, and leaves interior choices free. Its probability is q_p; disjoint closure events exhaust all subsets and normalize the complete ideal row.
+2. Interior p makes every factor positive. Empty/full ideals and empty parent are retained. At p=0 or1 the singleton row loses strict support, so endpoints are excluded without relying on0^0.
+3. Intrinsic counts give equivariance. Mark independence implies the required proper locality.
+4. In any incomparable-birth diamond, the old second precursor retains size and maxima while parent size rises byone. Thus its q_p factor gains1-p; both routes have the same structural product. This includes all markings and empty/full/equal base ideals.
+5. Fair newborn bits give the same1/4 factor on both complete two-step scalar maps. Complete one-step maps sum to identity on every admitted complex positive-semidefinite payload. Consistent normalized finite cylinders supply L_p.
+6. Unselected old maxima survive, selected maxima cease being maximal, old nonmaxima retain successors and the newborn is maximal. Hence conditional count is1+Binomial(M_n,1-p), including empty/singleton cases.
+7. For each fixed p,k the successful run from r<k has probability(1-p)^(sum fromr tok-1ofm), at least delta_(k,p)=(1-p)^(k(k-1)/2). Conditional block iteration gives failure at most(1-delta_(k,p))^b, with no block independence.
+8. Countable deterministic N,k hitting conclusions imply limsupM_n=infinity. Nondecreasing width and W_n>=M_n give W_n→infinity under each fixed interior-p law. No uniform-in-p or stationary/rate result follows.
+9. The intrinsic two-birth chain event has probabilityp after summing all fair marks. Different p therefore give distinct formal laws, not order/mark-coordinate renamings.
+10. Half-selection is one member, not forced by admission. The larger family also contains the accepted eventually finite-width continuations, which are outside this interior constant-p subfamily.
+
+#### Boundaries and review
+
+No claim asserts that arbitrary varying/state-dependent p is admitted, that any p satisfies a separately fixed seed, or that the constant-p family classifies all laws. No preferred parameter, actual readout, physical dimension/clock/metric/gravity, quantum reconstruction, height/density classification, efficiency or empirical validation is supplied.
+
+The checked obligations include the exact literature-note attribution, complete normalization, factor1-p diamonds, fair-mark/scalar-map embedding, survival parameter1-p, fixed-p uniformity of the block bound, and two-birth distinction. The proof and review retain their declared source-access and evidence limits.
+
+The original author and review records retain their recovered packaging, display and readback failures. All inherited failures and the Part P author’s recorded 65-second NONCOMPLIANCE remain unwaived. All original custody, protected-validation, independent-review, ABSTAIN, Status M, zero-qualification, RET-only pause, Boundary separation and execution gates remain.
