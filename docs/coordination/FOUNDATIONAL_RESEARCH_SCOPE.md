@@ -1,3 +1,15 @@
+## 26 October 2026 — calibration applicability and clock-observation limits
+
+This update supersedes the pending labels immediately below for the mass/propagation comparison, primitive audit and calibration-document review. Their later dispositions are complete. The mass result remains a conventional finite model with imported scales; the primitive audit consolidates existing premises. Neither establishes physical mass or a native observation map.
+
+Independent review accepted a selected three-station clock/delay counterexample: within its fixed affine-clock and affine-delay model, different device rates can yield identical complete timestamp records. It does not rule out other protocols or establish gravitational time dilation. Both this packet and the preceding mass packet failed to freeze their protocol before analysis. Those process failures remain attached to every reuse; checking the algebra does not confer prospective qualification. The separately saved device-swap protocol has now passed distinct protocol review and coordinator admission. Its newly authorized paper analysis remains an author task, not an accepted result.
+
+The calibration-document review confirms the selected H1 data's O1/V2/C02 class. It has not admitted an uncertainty member, interval-selection rule, timing bound or transfer to the processed statistic. Distinct review and coordinator disposition now accept the thermal cycle-definition assessment, a named IBM service-interface reference and the exact SDK read-side source contract. The thermal assessment localizes missing reset, terminal and cost definitions; the IBM interface alone does not qualify an NE19 supplier; SDK consumers must explicitly reverify before success and handle cleanup. These results supply no complete energetic comparison, supplier covariance guarantee, runnable SDK distribution or new test pass. Independent questions can proceed from accepted inputs while dependent claims remain held. The earlier computing-efficiency candidate remains closed without demonstrated advantage; a new candidate needs a useful question, not an activity quota. RET development is resumed with its scientific and release gates intact.
+
+[Calibration applicability and remaining inputs](GWOSC_CALIBRATION_APPLICABILITY.md).
+
+---
+
 # Foundational research scope and current holds
 
 Current direction, 26 October 2026. Human authorization opens renewed investigation of mass, gravity, older gravity proposals and DET primitives. RET SDK development is resumed. Older blanket development or investigation pauses in historical plans are superseded by this direction; their recorded failures and scientific limitations remain evidence.
