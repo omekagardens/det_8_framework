@@ -1,3 +1,10 @@
+At a fixed birth count, how much information about the growth parameter survives when birth order is forgotten? Part U gives an exact answer within the admitted constant-parameter marked family: the terminal marked or unmarked order is sufficient for that parameter, and its cover and incomparable-pair counts already suffice.
+
+The result keeps the actual probabilities intact. Endpoint masses include the number of compatible canonical histories, with automorphisms accounted for. A three-vertex example shows why dropping that multiplicity breaks normalization; another shows why the cover count alone loses information. Coarse history encodings can have unequal conditional weights even when canonical histories are uniformly distributed within an endpoint fiber.
+
+This is reconstruction in distribution, not recovery of the history that occurred. The horizon is fixed before observation, the parameter family is declared, and no efficient counting method, physical readout or unique unrestricted law follows. The earlier Parts A–T are preserved byte for byte; Part U adds the independently reviewed and accepted theorem with its premises and limits.
+
+Read the complete note: ../track_b/native_symmetric_law_nonuniqueness_v1.md
 ## RI1511 — a constant-parameter family of admitted growth laws (2026-10-26 UTC)
 
 The independently reviewed result in [Part T](../track_b/native_symmetric_law_nonuniqueness_v1.md) shows that every fixed parameter strictly between zero and one gives an admitted transitive-percolation kernel in the unrestricted scalar-passive marked model. Complete ideal rows normalize, every ideal remains possible, and complete marked diamonds commute. Newborn marks remain independently fair. This family includes half-selection but does not force or prefer it; separately prescribed seed coefficients remain additional constraints.
