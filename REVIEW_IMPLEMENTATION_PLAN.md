@@ -1,3 +1,11 @@
+## RI1514 — intrinsic order density in a fixed family (2026-10-26 UTC)
+
+The independently reviewed and accepted [Part W](docs/track_b/native_symmetric_law_nonuniqueness_v1.md) proves that the fraction of comparable pairs tends to one almost surely for every fixed interior parameter in Part T's admitted scalar marked family. An exact forward-edge coupling establishes the complete history law before independence is used. Explicit finite-size expectation and tail bounds accompany a square-subsequence proof with interpolation.
+
+The largest antichain still grows without bound, while its size divided by the total vertex count tends to zero. Density one therefore does not imply an eventual chain. All fixed parameters share this limiting statistic although their finite laws differ; a sequence of separate constant-parameter experiments demonstrates that convergence is not uniform over the open parameter interval.
+
+The result is confined to the stated family and observation of the intrinsic order statistic. It selects no preferred law and supplies no physical clock, calibrated dimension, metric, gravity, continuum limit, efficient algorithm or empirical validation. Historical custody limits, recorded failures and the Part P author's 65-second NONCOMPLIANCE remain unwaived. All existing execution and protected-validation gates remain.
+
 A known stopping rule can change which histories reach an endpoint without destroying its information about the growth parameter. Part V proves this within the admitted constant-parameter marked family, under a declared finite cap and a seed and rule independent of the unknown parameter.
 
 The retained endpoint is sufficient when compatible histories receive their actual stopping weights. Those weights include earlier stop decisions and declared randomization; they need not be uniform or integer counts. A three-birth example checks the complete distribution across stopping lengths and shows unequal conditional history weights.
