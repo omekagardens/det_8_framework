@@ -1823,3 +1823,173 @@ If the candidate is independently stipulated to be the flip-invariant midpoint, 
 Physical realization would need: a mapping of model bits to distinguishable physical records; access to order and intrinsic roles; a stable calibrated absolute alphabet and relative comparisons; and compatible probability estimation with controlled errors. No such implementation, reference stability or data protocol is established. A co-flipped reference that only yields differences remains invariant.
 
 All results concern finite mathematical channels through five births. No physical instrument, native forward map, detector, clock, empirical validation, efficiency or new growth law.
+
+## O. A finite noisy-reference calibration contract
+
+**Dependencies and review.** This finite binary-reference channel contract received distinct mathematical review and coordinator acceptance. Parts L/M fix the admitted component and its witness; Part N fixes the root-reference output. The channel algebra is conventional, while application to the component retains the conditional extension premise. Exact discrimination, generic named-mass inversion and reconstruction under a separately stipulated symmetric midpoint remain distinct tasks.
+
+**Accepted result.** A binary symmetric error preserves each orientation-orbit total and multiplies its imbalance by 1-2*eta. Known rates other than 1/2 permit exact inversion; the inverse becomes ill-conditioned near 1/2. Discrimination between the fixed component and its midpoint survives every nonsingular rate, but unknown nonsingular rates do not generally determine the underlying named probabilities. This is conventional finite-channel algebra, not a physical calibration or novelty claim.
+
+### 1. Complete hypothetical readout
+
+Keep the accepted component mu, its own global flip F, midpoint mubar=(mu+F_*mu)/2, and horizons four/five unchanged. Use Part N's reference output on the chain P and root-short-leaf shape Q: unmarked shape, intrinsic root-relative role bits delta, and absolute root bit a. Other shapes retain their unmarked shape and the unspecified-reference tag.
+
+Report shape and delta exactly. Replace a by
+\[
+\widetilde a=a\oplus E,\qquad \Pr(E=1\mid\hbox{endpoint})=\eta,\quad0\le\eta\le1.
+\]
+The same eta applies to both bit values, every selected shape/relative pattern, both horizons, and either candidate law. This specifies a hypothetical endpoint-independent flip error; fresh independent errors may be used for separate readouts, but no multi-readout or sampling result is claimed. Unspecified-reference outputs pass unchanged.
+
+This is postprocessing of an endpoint, not a change to growth, marks, branch kernels or payloads. All endpoint masses remain unconditional and normalized; no shape selection is renormalized. The intrinsic roles and trivial automorphisms are those already accepted in Part N.
+
+### 2. Orbit algebra and known-rate inversion
+
+For one known two-member orientation orbit, let x_0,x_1 be its unconditional true masses and y_0,y_1 its reported masses. These are subprobabilities within the complete output law:
+\[
+\binom{y_0}{y_1}
+=K_\eta\binom{x_0}{x_1},\qquad
+K_\eta=\begin{pmatrix}1-\eta&\eta\\\eta&1-\eta\end{pmatrix}.
+\]
+Write k=1-2*eta, m=x_0+x_1 and d=x_0-x_1. Then
+\[
+y_0+y_1=m,\qquad z:=y_0-y_1=kd.
+\]
+For known k nonzero,
+\[
+\binom{x_0}{x_1}
+=\frac1k\begin{pmatrix}1-\eta&-\eta\\-\eta&1-\eta\end{pmatrix}
+\binom{y_0}{y_1},
+\qquad x_{0,1}=\frac{m\pm z/k}{2}. \tag{1}
+\]
+At eta=1/2 both outputs equal m/2, so arbitrary orientation splits cannot be recovered. The orbit total remains exact.
+
+Rates above 1/2 are not discarded: k is negative, and (1) remains valid. At eta=1 the channel is a deterministic swap. Relabeling the reported bit converts eta to 1-eta only with the corresponding label convention; relabeling alone does not establish the rate or the true absolute orientation.
+
+For known eta, the inverse's induced L1 and infinity norms are 1/|k|: each absolute row/column sum is [(1-eta)+eta]/|k|. Hence, for either norm,
+\[
+\|\widehat x-x\|\le\frac{\|\widehat y-y\|}{|k|}. \tag{2}
+\]
+The bound is sharp on antisymmetric errors (t,-t). This is deterministic error amplification, with no sample-size assertion. Negative reconstructed entries indicate incompatible data/rate or estimation error; they must not be silently clipped or reweighted.
+
+With the same exact y and two nonsingular candidate rates,
+\[
+|x_0(\eta)-x_0(\eta')|
+=\frac{|z|\,|\eta-\eta'|}{|k(\eta)k(\eta')|}. \tag{3}
+\]
+This separates uncertainty about the rate from probability-estimation error.
+
+### 3. Recovering the witness from paired reported outcomes
+
+For each of the four Part M relative patterns P_0,P_1,Q_0,Q_1, retain both reported root outcomes. The corresponding true root-zero masses are p_0,p_1,c_0,c_1. Known nonsingular eta permits (1) on all four pairs, followed by
+\[
+W=c_0p_1-c_1p_0.
+\]
+No natural-encoding multiplicity changes: the accepted counts remain one for P and four for Q. Raw noisy root-zero masses generally must not be substituted for these true masses.
+
+If every reported coordinate has absolute error at most e_y, each recovered target mass has error at most e=e_y/|k|. Expanding the two products, using true masses in [0,1], gives the conservative bound
+\[
+|\widehat W-W|\le4e+2e^2.
+\]
+This is an algebraic bound, not a physical detection guarantee.
+
+A stipulated flip-invariant midpoint is a special case: each true pair is already (m/2,m/2), unchanged at every eta, including 1/2. Thus its theoretical witness can be reconstructed from orbit totals under that symmetry premise. This does not identify the actual generating law or justify balanced orientation weights for an unknown source.
+
+### 4. Exact distinguishability scaling and its scope
+
+At a fixed horizon n=4 or 5, let rho_n be the noiseless reference-output law of mu. Its midpoint reference law rhobar_n has the same orbit totals, with each orientation pair replaced by (m/2,m/2). Unspecified-reference outputs coincide because they are flip invariant.
+
+On each pair, rho_n-rhobar_n=(d/2,-d/2); K_eta multiplies this difference by k. Summing absolute differences over all pairs, with zero outside contribution, proves
+\[
+\operatorname{TV}(K_\eta\rho_n,K_\eta\bar\rho_n)
+=|1-2\eta|\,\operatorname{TV}(\rho_n,\bar\rho_n). \tag{4}
+\]
+This exact scaling concerns these reference-output laws with equal orbit totals and one common eta. It is not a formula for arbitrary laws with different orbit totals or for the full hidden-history TV.
+
+The accepted P_0 mass gap makes the horizon-four noiseless TV strictly positive. Hence component-versus-midpoint discrimination as unequal exact output laws survives every eta other than 1/2, and disappears at 1/2. The midpoint output is independent of eta. No finite-sample success or physical detection rate follows.
+
+### 5. Known, unknown and interval-constrained eta
+
+**Known eta.** For eta not equal to 1/2, both discrimination and exact inversion are available under the model; conditioning is given above. At eta=1/2 these two candidate output laws coincide and generic orientation recovery fails. The separately stipulated symmetric-midpoint calculation remains possible from totals.
+
+**Completely unknown eta in [0,1].** Exact orbit totals are still identifiable. Nonzero observed imbalance rejects the midpoint within the two fixed hypotheses, because it always has zero imbalance. Thus an unknown rate does not destroy every possible discrimination. But balanced output is ambiguous: the component with eta=1/2 and the midpoint with that same rate produce identical complete reference-output laws.
+
+Named probabilities are not generally identified by y alone. For example,
+\[
+y=(3/5,2/5)
+\]
+is produced both by x=(3/5,2/5), eta=0, and by x=(7/10,3/10), eta=1/4. These are probability-channel controls on one normalized orbit, not claims of admitted local growth laws. They can be scaled to an unconditional orbit mass, with balanced complementary pairs retained, without postselecting an actual endpoint law.
+
+Moreover (x,eta) and (flipped x,1-eta) have the same reported law. For the accepted component and its flip, this is a genuine orientation ambiguity between two admitted components, not a new growth law.
+
+If the component itself is stipulated, its known nonzero orbit contrast d_mu allows k=z/d_mu, and thus eta=(1-z/d_mu)/2. Other pairs must agree with that same k. This is model-conditional parameter inference, not independent physical calibration. Likewise identifying one of two fully stipulated candidate laws can supply its already known probabilities; that is different from inverting arbitrary actual masses without calibration.
+
+**A declared closed interval I=[l,u] excluding 1/2.** Put
+\[
+\kappa=\min_{\eta\in I}|1-2\eta|>0.
+\]
+The side of 1/2 is known. Orbit totals, whether an orbit is balanced, and the sign of its true imbalance are identifiable from exact data, with the known sign reversal if I lies above 1/2. For the fixed hypotheses, (4) gives a strictly positive lower separation kappa*TV(rho_4,rhobar_4), so exact discrimination is retained without knowing the numerical rate.
+
+Nevertheless the interval alone does not generally give exact masses: I=[0,1/4] already contains both controls above. The feasible recovery set is
+\[
+x_{a,o}(\eta)=\frac{m_o+(-1)^a z_o/(1-2\eta)}2,
+\quad\eta\in I,
+\]
+using one common eta across all orbits and both horizons, retaining only rates giving nonnegative probabilities. Extra data constraints may narrow this set; point identification is not guaranteed. This is channel feasibility, not proof of growth-model admission. Bounds (2) and (3) are uniformly controlled by 1/kappa and 1/kappa^2. If an interval merely approaches 1/2 without including it, invertibility is pointwise but no positive uniform kappa follows.
+
+For the four target orbits, the corresponding witness values are exactly
+\[
+W(\eta)=\tfrac14[
+(m_{Q0}+z_{Q0}/k)(m_{P1}+z_{P1}/k)
+-(m_{Q1}+z_{Q1}/k)(m_{P0}+z_{P0}/k)].
+\]
+One must retain that feasible set of values; excluding 1/2 alone is not an exact W inversion. A sign conclusion from the set requires that every feasible value have that sign. Balanced pairs are an exception with exact split m/2 at every nonsingular rate.
+
+### 6. Physical suppliers and closure
+
+The missing suppliers remain explicit: a model-bit/physical-record map; order, intrinsic-role and relative-bit readout; calibration of the absolute-reference error rate and its declared independence/common-rate stability across shapes and horizons; and compatible probability estimation with controlled errors. None is delivered by this algebra or by relabeling a noisy output.
+
+The application retains the accepted component's conditional extension premise and Parts M/N's endpoint-information assumptions. No law, support, horizon or protected gate changes. Parts L/M fix the component and witness, and Part N fixes the reference construction.
+
+This closes the stated toy-channel question.
+
+### 7. Noisy-reference premises and obligations
+
+#### Fixed object and declared channel
+
+The accepted component mu, its own global mark flip, equal midpoint, chain4/root-short-leaf5 shapes, all support and horizons remain unchanged. Part N supplies the accepted reference construction. The component's conditional potential-extension premise remains inherited; it is not re-proved.
+
+The accepted reference output contains exact unmarked shape and root-relative bits, and an absolute root bit on the two rigid shapes. Other shapes retain their unmarked shape and unspecified-reference tag. The hypothetical channel changes only the readout bit, with P(flip|endpoint)=eta in[0,1], the same eta for both orientations, all selected relative patterns, shapes, horizons and hypotheses. This is a conventional binary symmetric postprocessing channel, not a changed growth kernel. Fresh independent readout errors can realize these marginals; no repeated-readout statistical claim is made.
+
+#### Exact algebra
+
+On each two-member orientation orbit, x=(x0,x1) are unconditional true masses, y=K_eta*x, K_eta=[[1-eta,eta],[eta,1-eta]]. Let k=1-2eta, m=x0+x1, d=x0-x1. Then y0+y1=m and z=y0-y1=k*d.
+
+For known k nonzero, x0=(m+z/k)/2, x1=(m-z/k)/2. The inverse matrix is [[1-eta,-eta],[-eta,1-eta]]/k. At half error the channel has rank one, retaining m but discarding orientation. Eta>1/2 is included; eta1 is a swap. Relabeling is a convention change, not calibration.
+
+Inverse induced L1/infinity norms equal1/|k| by absolute row/column sums; antisymmetric perturbations attain it. The same-y rate sensitivity is |z|*|eta-eta'|/|k*k'| per recovered coordinate. Negative inverse entries must not be silently clipped.
+
+For the general paired inversion, retain both reported orientations for each of the four target relative patterns to recover actual p0,p1,c0,c1. This is a sufficient input specification, not a minimality claim; eta=0 or other supplied information can simplify it. Accepted encoding multiplicities1/4 do not change. Known-rate coordinate errors<=e imply W error<=4e+2e^2 by product expansion and true masses<=1. No sampling interpretation is assumed.
+
+#### Discrimination scope
+
+Each reference orbit has equal total under component and midpoint; midpoint orientations are balanced. Their difference on that pair is(d/2,-d/2). The channel multiplies it by k; all unspecified-tag differences vanish. Therefore TV of these noisy reference-output laws is |k| times their noiseless reference-output TV at each horizon. This is not asserted for arbitrary probability laws with unequal orbit totals or for full underlying-history TV.
+
+The accepted P0 difference makes horizon4 reference TV positive. Fixed component/midpoint output laws differ exactly when eta!=1/2. Unknown numerical eta does not prevent distinguishing nonzero observed imbalance from the midpoint's zero imbalance, but allowing half error creates an exact overlap.
+
+#### Calibration cases and classified controls
+
+Known eta!=1/2 gives exact inversion, with unstable amplification near half; eta1/2 gives no generic orientation inverse. A separately stipulated symmetric midpoint is balanced before noise and its masses remain recoverable from totals for every rate; this does not identify the actual generator.
+
+Unknown eta: pair totals remain exact; imbalance only identifies the product k*d. y=(3/5,2/5) arises from x=(3/5,2/5),eta0 and x=(7/10,3/10),eta1/4. These are channel-level probability controls, NOT asserted admitted local growth laws. They can be embedded with common scaled orbit mass and balanced complementary pairs. The actual admitted component/flip pair also has ambiguity (x,eta) versus(flipped x,1-eta).
+
+Stipulating the component permits conditional eta inference from any known nonzero d_mu and exact observed z, with consistency across pairs. Stipulating the midpoint permits balanced splitting. Neither is independent physical calibration or law-independent inversion.
+
+For closed I excludinghalf, kappa=min_I|1-2eta|>0. Totals, balance/nonbalance and sign corrected for the known side ofhalf are identifiable; exact hypothesis separation is bounded below by kappa times positive horizon4 noiselessTV. Exact masses generally are not identified: I=[0,1/4] contains both abstract controls.
+
+Use the single common eta across all pairs/horizons and retain the feasible family x_a,o(eta)=(m_o+(-1)^a*z_o/k)/2 with nonnegative entries. This is only output-channel feasibility, not growth admission. It may narrow with further exact data; no generic point-identification claim. Uniform inverse bounds are1/kappa and rate-sensitivity coefficient1/kappa^2. An open interval approachinghalf has no such uniform separation despite pointwise invertibility.
+
+W values follow by substituting those four candidate root-zero masses into c0*p1-c1*p0. Sign claims require the whole feasible set to have that sign; excludinghalf alone is not exact witness inversion. Balanced pairs are exact m/2 exceptions for nonsingular rates.
+
+#### Missing suppliers and limits
+
+Physical use still lacks bit-to-record mapping; order/role/relative-bit access; calibrated reference error and independence/stability assumptions; compatible probability estimation/error control. Exact algebra supplies none of these.
