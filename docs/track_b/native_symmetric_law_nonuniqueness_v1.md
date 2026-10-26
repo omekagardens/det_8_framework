@@ -3344,3 +3344,196 @@ Sufficiency holds inside the stated fixed-p family and channel. Part R's matchin
 The original theorem record retains its twelve complete source/control captures and exact native input checks, with no current author tool/read failure reported. The distinct review retains its two recovered control/metadata display truncations and actual checks. Historical display/parser/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Readback and hashes establish artifact identity, not mathematical truth or reconstructed historical custody.
 
 All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of the stated mathematics does not remove these requirements.
+
+## W. Intrinsic comparable-pair density
+
+**Acceptance and scope.** This part records the independently reviewed and accepted intrinsic order-density theorem for each fixed interior parameter in Part T's family. Part A supplies the unrestricted marked contract, Part T supplies the accepted kernel and unbounded-width result, and Part U supplies the intrinsic pair-count convention. The density limit is a result about that family; it neither selects the family nor supplies a calibrated physical dimension. Part V's stopped observation theorem is a closed predecessor, not a premise of this geometry proof.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual mathematics only.
+
+**Result.** Under every one fixed interior-p law in the admitted family,
+\[
+R_N:=1-\frac{I_N}{\binom N2}\longrightarrow1
+\quad\text{almost surely}.
+\]
+Here I_N counts unordered incomparable pairs in the N-vertex order. An explicit bound is
+\[
+\mathbb E_p[1-R_N]\le
+\min\left\{1,\frac{2(1-p)}{Np^2}\right\},\qquad N\ge2.
+\tag{1}
+\]
+This common limiting statistic does not distinguish fixed parameters. It coexists with unbounded width and supplies no manifold dimension.
+
+### 1. Family and intrinsic quantity
+
+Fix p in (0,1) once for the entire infinite law. The admitted kernel is
+\[
+q_p(P,r,S)=p^{|\operatorname{Max}(S)|}(1-p)^{|P|-|S|},
+\tag{2}
+\]
+on every actual ideal S, with independently fair immutable bits and scalar payload branches q_p/2. This is the unrestricted comparison family accepted in Part T, not the separately fixed seed or continuation in Part A.
+
+For the order P_N after N births, I_N is the number of unordered pairs with neither vertex preceding the other. R_N is their complementary fraction among all distinct unordered pairs. Both depend only on the unmarked order up to isomorphism. Set I_0=I_1=0; the ratio is defined only for N≥2. Birth labels below organize a proof, not metric coordinates or physical time.
+
+Part U supplies the intrinsic statistic convention. Part V closes the stopped-result predecessor; its observation theorem is not a premise for this geometry calculation.
+
+### 2. Exact coupling before using independent edges
+
+On a mathematical probability space take mutually independent Bernoulli(p) variables E_ij for all positive integers i<j, and independent fair bits b_j. Draw an oriented edge i→j when E_ij=1. On[ N ], take the transitive closure of these forward edges as P_N and attach b_1,...,b_N.
+
+Forward labels make the graph acyclic. A path between old vertices cannot use a later-born vertex, so old induced orders remain fixed as N grows. At birth j the selected old vertices are
+\[
+A_j=\{i<j:E_{ij}=1\},
+\]
+and j's strict past is exactly the downward closure of A_j in P_(j-1).
+
+Conditional on the entire old canonical marked history, all incoming E_ij remain independent Bernoulli(p): that history is a function only of old edges and old bits, disjoint from these new variables. For any old ideal S, its closure is exactly S iff every maximum of S is selected and every old vertex outside S is unselected. All other choices in S are free. Thus the conditional probability is precisely(2).
+
+These closure events partition all subsets of the old carrier, so every actual ideal is included and the complete row sums to one. Interior p gives strict positivity. Empty and full ideals have probabilities(1-p)^|P| and p^|Max(P)|; the empty-parent row is one. The next bit is independently fair. Therefore every complete marked branch has the accepted coefficient q_p/2 and the same scalar action on the fixed payload.
+
+Induction gives equality with the admitted law for every finite canonical marked history, not just terminal summaries. The countable edge/bit construction consequently pushes forward to the same infinite history law on its cylinder-generated sigma-algebra. Its almost-sure conclusions about the sequence P_N therefore apply to that law.
+
+Auxiliary edges are not newly committed observations or a physical mechanism. This verifies an exact representation of the already chosen law; it does not choose p or derive this family uniquely from DET.
+
+### 3. Birth-gap connection bound
+
+Write a=1-p^2 and q=1-p. Fix i<j and gap g=j-i. The direct edge i→j suffices for comparability. Each k with i<k<j also gives a sufficient two-edge path i→k→j when E_ik=E_kj=1.
+
+For distinct intermediate k, these events use disjoint pairs of edge variables, so they are mutually independent with probability p^2. They are also independent of the direct edge. Sharing endpoint vertices does not mean sharing edge variables.
+
+Incomparability implies failure of the direct edge and of every such two-edge path. Hence
+\[
+\Pr_p(i\mathrel{\|}j)
+\le q\,a^{g-1}.
+\tag{3}
+\]
+Longer paths can only reduce the incomparability probability. We do not assume independence between different pairs' incomparability events.
+
+For g=1 the bound is exactly q. For g=2, the direct and single two-edge paths exhaust all possible paths, so the bound q(1-p^2) is also exact. At larger gaps(3) is an upper bound, not an exact reachability formula.
+
+### 4. Explicit finite-N bounds
+
+There are N-g pairs with gap g. Linearity of expectation, without pair independence, gives
+\[
+\mathbb E_p I_N
+\le q\sum_{g=1}^{N-1}(N-g)a^{g-1}
+\le \frac{q(N-1)}{p^2}.
+\tag{4}
+\]
+The last inequality uses N-g≤N-1 and the convergent geometric sum1/(1-a)=1/p^2. Dividing by N(N-1)/2 proves(1). For every epsilon>0, Markov's inequality also gives
+\[
+\Pr_p(1-R_N>\epsilon)
+\le\min\left\{1,\frac{2(1-p)}{\epsilon Np^2}\right\}.
+\tag{5}
+\]
+
+These are explicit, nonoptimal bounds with their parameter dependence visible. They imply convergence in mean and in probability for every fixed p. They do not by themselves prove almost-sure convergence.
+
+Manual small checks: at N=2, I_2 is one exactly when the direct edge is absent, so E I_2=q and E R_2=p. At N=3, two pairs have gap1 and one has gap2, giving the exact value
+\[
+\mathbb E I_3=2q+q(1-p^2)=q(3-p^2).
+\]
+This agrees with the finite gap sum in(4) before its geometric relaxation. Fair marks sum to one and affect neither count. No examples were generated by enumeration code.
+
+### 5. Almost-sure passage, with interpolation
+
+Let D_N=1-R_N≥0. For each fixed epsilon>0, (5) on the square subsequence N=m^2, m≥2, gives
+\[
+\sum_{m=2}^{\infty}
+\Pr_p(D_{m^2}>\epsilon)
+\le\frac{2q}{\epsilon p^2}
+\sum_{m=2}^{\infty}m^{-2}<\infty.
+\tag{6}
+\]
+The first Borel–Cantelli implication follows directly from the union bound on tail events: their tail sum tends to zero, so only finitely many exceedances occur almost surely. No independence is required. Intersecting these probability-one statements for epsilon=1/k, k=1,2,..., yields D_(m^2)→0 almost surely.
+
+Old incomparable pairs persist, so I_N is nondecreasing. The normalized fraction D_N need not be monotone; we do not use that assertion. For m^2≤N≤(m+1)^2,
+\[
+0\le D_N
+\le\frac{I_{(m+1)^2}}{\binom{m^2}{2}}
+=D_{(m+1)^2}
+\frac{\binom{(m+1)^2}{2}}{\binom{m^2}{2}}.
+\tag{7}
+\]
+For m≥2 the denominator is positive, and the binomial ratio tends to one. Thus the square-subsequence conclusion controls every sufficiently large N. This proves D_N→0, and hence R_N→1, almost surely for each fixed p under its own law.
+
+### 6. Why unbounded width is consistent
+
+Let W_N be the largest antichain size. Part T gives W_N→infinity almost surely for every fixed interior p. Every pair inside an antichain is incomparable, so
+\[
+\binom{W_N}{2}\le I_N.
+\tag{8}
+\]
+Together with I_N/N^2→0, this implies W_N/N→0 almost surely: indeed
+\[
+(W_N/N)^2\le 2I_N/N^2+1/N.
+\]
+Intersecting with the accepted width event gives both
+\[
+W_N\to\infty,\qquad W_N/N\to0
+\]
+on a probability-one set.
+
+There is no contradiction. Antichains become arbitrarily large while occupying a vanishing fraction of vertices, and incomparable pairs occupy a vanishing fraction of all pairs. The order need not eventually be a chain; in this family its diverging width rules that out. Existing incomparable pairs are not erased. No optimal width rate or full shape classification is asserted.
+
+### 7. What the limit cannot identify
+
+All fixed p in(0,1) produce the same limiting value1. Observing only that limit therefore cannot separate them. This does not identify their probability laws: already R_2 is Bernoulli(p). Finite-N distributions and bounds retain parameter dependence, and this packet analyzes no estimator based on fluctuations or rates.
+
+The conclusion is not uniform over the entire open parameter interval. For a concrete distinction, let each N≥2 be sampled under its own constant parameter p_N=N^-3. In that N-vertex coupling,
+\[
+\Pr_{p_N}(\text{any edge})
+\le\binom N2p_N=\frac{N-1}{2N^2}\longrightarrow0.
+\tag{9}
+\]
+With no edge the order is an antichain and R_N=0. Thus these different finite experiments have R_N→0 in probability, rather than1. This is a triangular sequence of already admitted constant-parameter laws, not one law with a time-varying transition parameter and not a new admission claim.
+
+The theorem also does not cover every law allowed by the broader marked contract. It supplies no unique law selection, physical readout, continuum limit, manifold embedding or1D/4D spacetime inference. An intrinsic order-density limit is not a calibrated dimension map, metric, gravity result or quantum reconstruction.
+
+The family's conventional transitive-percolation antecedent remains as recorded in Part T. No fresh primary-source read, bibliographic assertion, DET-specific mechanism or novelty claim is made.
+
+All inherited failures/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Protected validation, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of this mathematics grants no scientific or operational execution authority; any successor requires its own review and coordinator disposition.
+
+### 8. Premises and proof obligations
+
+Status: mathematics accepted following distinct independent review and coordinator disposition.
+
+#### Supplied premises and exact joins
+
+- Part A supplies the unrestricted scalar-passive marked order model. Its separately prescribed seed is not imposed on the constant-p comparison family.
+- Part T supplies the independently reviewed and accepted family result. The original source report, premises and review join its actual acceptance by exact byte size and SHA256. Their provenance locators name intermediate copies, so original-path identity is not claimed.
+- That accepted scope gives q_p(P,r,S)=p^|Max(S)|(1-p)^(|P|-|S|) for every actual ideal, independent fair marks and scalar branch maps, for each fixed interior p. It also gives W_N→infinity almost surely and the finite two-birth distinction.
+- Part U supplies the accepted endpoint result. Its source report joins the actual acceptance by original locator, size and hash. It is used for intrinsic cover/incomparable statistics, not as a proof of an asymptotic density theorem.
+- Part V's actual acceptance was read and pinned in the original proof only to record predecessor closure. Its author/reviewer files were not reopened there, and its observation theorem is not a geometry premise.
+- The original authorizations and assignment preserve scope and usage boundaries. Both original control hashes/sizes matched their dispatch pins.
+- The original proof used only its ten literal inputs and two controls; no nested file, URL or historical session was followed.
+
+#### Explicit mathematical choices
+
+One p in(0,1) is fixed for an entire infinite growth law. R_N is defined only for deterministic N≥2 as1-I_N/binom(N,2), with I_N the unordered incomparable-pair count. I_0=I_1=0 without defining a zero-denominator ratio.
+
+The proof constructs independent Bernoulli(p) variables on oriented birth-label pairs i<j, together with independent fair bits, and takes their transitive closure. This is an auxiliary mathematical coupling, not a new physical input, observable, implemented generator or uniquely derived DET law.
+
+Standard countable product probability, finite conditioning, linearity of expectation, geometric sums, Markov's inequality and the summable-event implication are mathematical tools, not additional physical assumptions.
+
+#### Manual obligations discharged
+
+1. Forward-edge transitive closure preserves old induced orders and makes each new vertex maximal. Its strict past is the downward closure of its selected incoming neighbors.
+2. New incoming edges are independent of every old edge/bit and therefore of the old canonical marked history. Closure equals S iff all Max(S) are selected and every outside vertex is unselected; interior choices are free.
+3. This proves the exact admitted q_p conditional row at every finite prefix, complete normalization, strict support, empty/full ideals and the empty parent. The next bit stays independently fair and the complete scalar branch coefficient is q_p/2.
+4. Induction identifies every finite canonical marked-history probability. The countable coupled process therefore induces the same infinite law, allowing transfer of measurable almost-sure conclusions.
+5. For gap g, the direct edge and each two-edge path through a distinct intermediate vertex depend on disjoint edge variables. Their absence probability is(1-p)(1-p^2)^(g-1). Incomparability is contained in this absence event; longer paths need not be excluded independently.
+6. Summing over N-g pairs at each gap gives E I_N≤(1-p)sum_g(N-g)(1-p^2)^(g-1)≤(1-p)(N-1)/p^2. No independence of incomparable-pair indicators is used.
+7. Dividing by binom(N,2) gives E(1-R_N)≤min(1,2(1-p)/(Np^2)). Markov gives the corresponding epsilon-tail bound. Exact N=2 and N=3 checks agree with the unrelaxed gap sum.
+8. On N=m^2 the tail bound is summable. The first Borel–Cantelli implication, then countably many epsilon=1/k, gives almost-sure convergence on squares without independence.
+9. I_N is nondecreasing because old incomparabilities persist. Interpolation using I_N≤I_(m+1)^2 and binomial denominators fills every index between successive squares. The normalized density is not assumed monotone.
+10. The largest antichain contributes binom(W_N,2) incomparable pairs. Hence W_N/N→0 almost surely, consistently with accepted W_N→infinity.
+11. Common limiting density1 does not distinguish fixed p values, although the two-birth law does. The explicit triangular p_N=N^-3 comparison has vanishing probability of any edge and thus R_N→0 in probability. It is not an admitted variable-p-in-time process.
+
+#### Limits and evidence
+
+No optimal rate, estimator/efficiency, arbitrary-law classification, continuum geometry, physical readout/time/dimension, metric, gravity or quantum result is inferred. In particular no1D/4D physical interpretation follows from the common order-density limit. The already recorded conventional antecedent remains; no new bibliography or novelty claim is made.
+
+The original proof record retains twelve complete source/control captures with exact native pins and capture-byte comparisons. Its assigned output directory was initially absent and was created explicitly; that observation and resolution are retained. No source-read failure occurred. The distinct review's recovered combined display overflow and metadata truncation remain recorded. Author-reported final verification at 14:01:47 UTC and supported chat completion at 14:02:19 UTC on 26 October 2026 remain distinct; the review's reported final completion was 14:11:59 UTC after its recorded full freeze readback and integrity check. These were within their respective hard deadlines. Original external final native sessions were not independently reopened. Historical display/parser/timing/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Hashes/readbacks establish artifact identity, not mathematical correctness or repaired historical custody.
+
+Subsequent results require their own distinct review, coordinator disposition and scoped publication. All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution gates remain.
