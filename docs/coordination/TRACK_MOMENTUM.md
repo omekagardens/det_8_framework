@@ -1,3 +1,23 @@
+## 2026-10-26 — current gaps and independent work
+
+Validation holds attach to a dependent claim, experiment or release. One active bounded author package per lane may use accepted sources while a different frozen packet undergoes independent review. The shared 3% stop applies to all lanes. No activity quota or unsupported candidate is retained merely to keep a lane busy.
+
+| Track | Accepted result / current work | Actual remaining gap |
+|---|---|---|
+| Native geometry / gravity | [QR-LD036 intrinsic restriction](../track_b/intrinsic_subset_restriction.md) accepted; QR-LD037 law-selection question assigned. | A proposed mathematical readout is not an actual observation channel; consistency need not select a physical law. |
+| Measurement | M-F019 exact representation accepted; M-F020 finite time-index sensitivity assigned. | Actual H1 uncertainty/rounding and timing evidence, native forward map and separate execution contract remain absent from the admitted calculation. No replay repeated. |
+| Relational State | E-Q009 conditional sampled approach and dwell accepted; E-Q010 broader declared-cell service question assigned. | Full request/reset/source costs, actual physical behavior and competent history-aware comparison remain open. |
+| Energy | NE-Q017 hypothetical finite-record theorem accepted with an unwaived late-stop qualification; NE-Q018 dependence question assigned. | Physical preparation/readout, stability, registration, sampling premise, clock and energy costs are not established. |
+| Comp-Sci | CE-M019 efficiency candidate closed with no demonstrated advantage; CE-H002 source-cover paper targets the actual M-F020 handoff. | No software/operational pilot or measured handoff benefit. Prior probability candidate stays closed. |
+| RET SDK | Accepted private predictive component; recovered RET004 dependency inventory under distinct review. | Exact public dependency/adoption closure and production integration; G2 and calibration remain separate from resumed development. |
+| Free Thinker | FT-058 selected philosophy dispositioned as completed, without forwarding. | No scientific adoption or personal-journal publication. Journal autonomy remains. |
+
+Provider failure in Comp-Sci and the RET context/authority incident are preserved. Recovery records do not retroactively establish a successful original turn or uninterrupted custody. Only reviewed source-stable updates enter public history. The hourly coordination and Monday repository-maintenance schedules are unchanged.
+
+---
+
+Earlier checkpoints follow unchanged.
+
 ## 2026-10-26 — validation holds attach to specific claims
 
 A frozen result awaiting review does not pause its entire lane. Independent questions use accepted inputs, one active author package per lane and disjoint review. Current completed reviews include QR-LD034, E-Q006/Q007, NE-Q014/Q015, M-F018, CE-H001 and RET-RESUME-003. No omitted source in a narrow packet is treated as programme-wide absence.
