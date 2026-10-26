@@ -1,3 +1,11 @@
+# Current checkpoint: law-selection limits and independent track progress
+
+The reviewed [law-selection result](docs/track_b/intrinsic_law_selection_limits.md) shows that intrinsic restriction consistency alone does not choose a unique admitted law. Its separate finite counterexample fails the diamond condition and is explicitly outside the admitted DET model.
+
+[Current track status](docs/coordination/TRACK_MOMENTUM.md) separates accepted results, unreviewed next questions and actual holds. Thermal work has refuted one fixed schedule and now studies conventional feedback. Energy work has isolated the dependence premise needed for repeated records to help. Measurement work distinguishes uncertain alignment from clock relabelling. RET development is resumed, with a concrete private test-dependency fix under development; its public release and physical calibration remain unresolved. Computing work supports one bounded source-handoff review aid, with no demonstrated efficiency benefit.
+
+No new experiment, protected evaluation, calibrated physical prediction, SDK release or empirical DET validation is claimed. Historical results and limitations below remain as history; this status supersedes their earlier pending-task and RET-pause wording only where explicitly stated.
+
 # Current checkpoint: admitted latent mixtures and five-lane follow-through
 
 The reviewed [latent-mixture extension](docs/track_b/native_theorem_package_v1/LATENT_MIXTURE_EXTENSION.md) combines the author's exact moment/existence construction with an independent comparison against the actual declared model. Coordinator adjudication accepts an optional all-size scalar-passive marked law in the exact feasible region. Whole-unmarked-parent dependence is permitted; normalized positive ratio kernels, fair immutable newborn bits and complete unnormalized marked diamonds supply the admission step. The finite three-vertex/two-survivor alias survives. No all-size report alias or physical prediction follows.
