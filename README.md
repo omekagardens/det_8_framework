@@ -1,3 +1,11 @@
+# Current checkpoint: law-selection limits and independent track progress
+
+The reviewed [law-selection result](docs/track_b/intrinsic_law_selection_limits.md) shows that intrinsic restriction consistency alone does not choose a unique admitted law. Its separate finite counterexample fails the diamond condition and is explicitly outside the admitted DET model.
+
+[Current track status](docs/coordination/TRACK_MOMENTUM.md) separates accepted results, unreviewed next questions and actual holds. Thermal work has refuted one fixed schedule and now studies conventional feedback. Energy work has isolated the dependence premise needed for repeated records to help. Measurement work distinguishes uncertain alignment from clock relabelling. RET development is resumed, with a concrete private test-dependency fix under development; its public release and physical calibration remain unresolved. Computing work supports one bounded source-handoff review aid, with no demonstrated efficiency benefit.
+
+No new experiment, protected evaluation, calibrated physical prediction, SDK release or empirical DET validation is claimed. Historical results and limitations below remain as history; this status supersedes their earlier pending-task and RET-pause wording only where explicitly stated.
+
 # DET v8.0 — Deep Existence Theory
 
 A disciplined two-track framework: a **record-kernel physical calculus** with correspondence checks and governed falsifiers, and an **ontological grammar** addressing four major deadlocks in the philosophy of physics.
