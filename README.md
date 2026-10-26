@@ -1,3 +1,9 @@
+## Reviewed update: relative clock rates and calibration scope
+
+The [device-exchange theorem](docs/observables/device_exchange_clock_ratio.md) gives a complete conditional identification proof, a matching-record counterexample when path invariance is relaxed, and a bounded-error outer interval. It establishes neither physical clock calibration nor native gravity. The [calibration record](docs/coordination/GWOSC_CALIBRATION_APPLICABILITY.md) now identifies the prospective O1 archive and candidate entries; full-record selection and timing/conversion premises remain unresolved. Independent thermal, allocation and local SDK work can proceed within their own reviewed scopes. This is a documentation checkpoint, not an SDK release or new empirical DET validation.
+
+---
+
 ## 26 October 2026 — calibration applicability and clock-observation limits
 
 This update supersedes the pending labels immediately below for the mass/propagation comparison, primitive audit and calibration-document review. Their later dispositions are complete. The mass result remains a conventional finite model with imported scales; the primitive audit consolidates existing premises. Neither establishes physical mass or a native observation map.

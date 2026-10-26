@@ -1,3 +1,15 @@
+## Prospective O1 archive inventory — 26 October 2026
+
+A separately authorized, bounded transfer from the [official version-3 catalogue](https://dcc.ligo.org/T2100313/public) acquired the [O1 uncertainty archive](https://dcc.ligo.org/public/0177/T2100313/003/LIGO_O1_cal_uncertainty.tgz). Independent coordinator review accepted its prospective identity and header inventory: 3,784 unique entries, including 2,022 H1 result files. No numeric member was interpreted. Raw custody evidence and the archive remain local; this does not reconstruct historical strain identity.
+
+Actual H1/C02 entries carry observing-time labels 1126256791 and 1126260391 around the selected record [1126259446,1126259478). Neither is selected by proximity or interpolation. No eligible embedded README or manifest supplied a further applicability rule. The [public README](https://dcc.ligo.org/public/0177/T2100313/003/README) describes hourly estimates and marginal uncertainty boundaries; those descriptions do not establish a deterministic joint bound across this complete record.
+
+An independently reviewed follow-up identifies GW150914-specific H1 uncertainty results for version 2/C02 in [Cahillane et al., Appendix A, Figure 10 and Table IV](https://arxiv.org/pdf/1708.03023v3). This resolves whether a relevant event-specific source exists. It does not select a neighboring hourly member or establish validity across the full 32-second processing support. The event-time summaries concern error plus or minus one-sigma uncertainty, not a deterministic joint envelope. [GWOSC technical details](https://gwosc.org/techdetails/) document the corrected earlier downsampling offset and the decimation method; a residual timing/conversion bound remains unestablished.
+
+The remaining inputs are an authoritative member-selection/full-record validity rule or justified alternative product, residual timing and 4096 Hz release-conversion scope, and exact later processing/statistic pins. The bounded source investigation is complete at that documentary scope; no numerical propagation or accepted calibration value follows. Earlier statements that archive identity and member names were unavailable are superseded by this prospective inventory only.
+
+---
+
 # Calibration applicability for the selected GWOSC H1 calculation
 
 Reviewed documentary result, 26 October 2026. The selected observation belongs to the published H1/O1/V2/C02 data class. This closes the class-identification question. It does not yet supply numerical calibration errors, a timing guarantee or an uncertainty distribution for the final statistic.
