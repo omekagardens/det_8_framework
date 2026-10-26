@@ -2541,3 +2541,198 @@ No classification of laws or termination rules is attempted. The counterexample 
 Distinct independent review examined the common raw filtration, stopped-output measurability, residual-mass bound, counterexample admission and indexing, and the quantifier order. Current byte identities and readbacks are evidence of source identity, not a substitute for mathematical verification.
 
 All original protected-validation, custody, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain.
+
+## S. Unbounded width and finite-prefix agreement
+
+**Acceptance and scope.** This theorem uses the unrestricted model in Part A, the accepted continuation in Part Q and the observation result in Part R. Its author-reported final verification and supported chat completion are distinct from the separately attributed review completion; the raw external final sessions were not independently reopened. The available records support timely completion of this theorem and its review. Those evidence limits do not waive the inherited Part P author's recorded 65-second NONCOMPLIANCE.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual proof only.
+
+**Result.** Under the admitted law
+\[
+q_*(P,S)=2^{-(|P|-|S|+|\operatorname{Max}(S)|)},
+\]
+the number of maximal vertices has conditional transition \(1+\operatorname{Binomial}(M_n,1/2)\), its limsup is infinite almost surely, and order width tends to infinity almost surely. Nevertheless, for every fixed finite horizon h, an admitted chain-tail continuation has exactly the same complete first-h-birth law and eventually constant finite width. The full infinite-history measures are separated by their width asymptotics, while the accepted fixed stopped-output approximation remains valid along different h.
+
+### 1. Model and exact accepted dependencies
+
+Let P_n be the order after n births and let F_n contain the complete marked natural history through n. Define
+\[
+M_n=|\operatorname{Max}(P_n)|,\qquad
+W_n=\max\{|A|:A\text{ is an antichain of }P_n\}.
+\]
+Set M_0=W_0=0. Here maxima of an ideal mean maxima of its induced order. All cardinalities and indices are combinatorial; n is not a physical clock.
+
+The scalar-passive model retains every actual ideal occurrence, positive normalized rows, proper selected-mark locality, equivariance, complete transported marked diamonds, independent fair newborn marks, and scalar identity payload maps. We use its unrestricted family, not the particular fixed coefficients printed in Part A.
+
+Part R supplies the accepted admission of q_*, its subset-closure representation and its finite/stopped-observation theorem. Part Q supplies the accepted finite-prefix-preserving chain-tail construction. These are distinct accepted dependencies. Neither the maximal-count transition nor its unbounded excursions is assumed from those results.
+
+### 2. Fresh conditional subset representation
+
+Given any complete current history, select each vertex of P_n independently with probability 1/2 and let S be the downward closure of the selected subset. A given actual ideal S is obtained precisely when every maximum of S is selected and every vertex outside S is unselected; its other vertices may be selected or not. Thus its conditional probability is exactly q_*(P_n,S).
+
+These disjoint closure events partition all subsets. Consequently this is an exact representation of the already admitted row, including empty and full ideals, rather than a restriction of support or a new growth law. Attach the independently fair newborn bit as before. The representation can be used afresh at each transition conditional on the current history. The auxiliary subset itself is not an added observable or a physical process.
+
+An old maximal vertex belongs to the closure S if and only if it was selected: no strictly larger old vertex can generate it by downward closure. A selected old maximum lies below the newborn and ceases to be maximal. An unselected old maximum lies outside S and remains maximal. An old nonmaximum cannot become maximal, because its old successor remains in the order. The newborn is maximal.
+
+Therefore, on this exact representation,
+\[
+M_{n+1}
+=1+\sum_{v\in\operatorname{Max}(P_n)}
+             {\bf1}\{v\text{ was unselected}\}.
+\]
+The summands are conditionally independent Bernoulli(1/2) variables given F_n. Equivalently,
+\[
+\Pr_*(M_{n+1}=j\mid F_n)
+=\binom{M_n}{j-1}2^{-M_n},
+\quad 1\le j\le M_n+1,
+\tag{1}
+\]
+and the probability is zero otherwise. This derives the conditional transition; it does not assume independent successive M_n or independent blocks.
+
+At n=0 the sum is empty, so M_1=1 deterministically. At n=1, M_2 is one or two with probability 1/2 each. All already committed marks remain in F_n, and both possible next newborn marks are retained; q_* ignores their values. The formula is consequently valid for every legal marked history, not merely an unmarked average.
+
+### 3. A uniform finite-block hitting bound
+
+Fix an integer threshold k≥1 and any deterministic starting index N≥0. Suppose the current count is r=M_N<k. At a step having m current maxima, the event that none of those maxima is selected has conditional probability 2^{-m}. It raises the count from m to m+1, whatever happens to the other old vertices.
+
+Require this event successively until the count reaches k. Starting from r, this requires k-r steps and has conditional probability
+\[
+\prod_{m=r}^{k-1}2^{-m}
+=2^{-\sum_{m=r}^{k-1}m}
+\ \ge\ \delta_k:=2^{-k(k-1)/2}>0.
+\tag{2}
+\]
+The product follows by successive conditioning: along the specified events the counts are r,r+1,...,k, and each next conditional probability is fixed. No independence between those events is assumed. Since 0≤r<k, the exponent is at most 0+1+...+(k-1), and k-r≤k. Thus every history below k has probability at least delta_k of reaching k within the next k births. If the count already reaches or exceeds k, hitting has occurred at once.
+
+Define the waiting index
+\[
+\sigma_{N,k}=\inf\{j\ge0:M_{N+j}\ge k\},
+\]
+with infinity if the set is empty. For every integer b≥1,
+\[
+\Pr_*(\sigma_{N,k}>bk\mid F_N)
+\le(1-\delta_k)^b.
+\tag{3}
+\]
+To verify the iteration, let A_b={sigma_{N,k}>bk}. This event is measurable at N+bk, and on A_b the count is still below k. The one-block bound applied to that complete history gives
+\[
+\Pr_*(A_{b+1}\mid F_{N+bk})
+\le(1-\delta_k){\bf1}_{A_b}.
+\]
+The conditional tower property and induction give (3), starting from the first-block bound. Blocks can be dependent. For k=1, delta_1=1 and hitting occurs by the next birth even from the empty parent; (3) for b≥1 is then zero without any ambiguous zeroth power.
+
+Letting b tend to infinity proves that sigma_{N,k} is finite almost surely for every fixed pair N,k. There are countably many such pairs. On their common probability-one event, for every N and k there is an n≥N with M_n≥k. Hence
+\[
+\limsup_{n\to\infty}M_n=\infty
+\quad\text{almost surely}.
+\tag{4}
+\]
+This proves arbitrarily large excursions at arbitrarily late indices. It does not assert that M_n itself tends to infinity, give a stationary distribution, or establish an asymptotic rate.
+
+### 4. Width tends to infinity
+
+The maximal vertices form an antichain, so M_n≤W_n. Births preserve the entire induced order on old vertices. In particular, an old antichain remains an antichain even when some of its vertices cease to be maximal. Thus
+\[
+W_{n+1}\ge W_n.
+\]
+On the probability-one event of (4), W_n is unbounded. A nondecreasing sequence of nonnegative integers that is unbounded tends to infinity. Therefore
+\[
+\Pr_*(W_n\longrightarrow\infty)=1.
+\tag{5}
+\]
+The proof uses neither a width enumeration nor a claim about the frequency of maximum-count excursions. The empty and singleton cases are already handled by W_0=0 and W_1=1.
+
+### 5. Same finite laws, different infinite width
+
+Let L_* denote the infinite marked-history law of q_*. For every deterministic h≥0, apply accepted Part Q to its complete kernel prefix on all marked parents of size less than h. Call the resulting chain-tail law Q_h. Its later rows use the declared summable common-scale prescription, while every earlier row remains q_*.
+
+By Part Q, under Q_h there is an almost-sure finite random cardinality T>=max(h,1) after which every birth uses the full ideal. Such a newborn is above all previous vertices of the nonempty parent, and
+\[
+W_n=W_T<\infty\qquad(n\ge T)
+\quad Q_h\text{-almost surely}.
+\tag{6}
+\]
+By Part R, for every complete first-h-birth history gamma_h, including all ideal choices and marks,
+\[
+\Pr_{L_*}(\gamma_h)
+=2^{-h}\prod_{n<h}q_*(P_n,S_n)
+=\Pr_{Q_h}(\gamma_h).
+\tag{7}
+\]
+Thus for every finite h there exist two admitted infinite laws with identical complete laws through h and opposite almost-sure width conclusions. This is not one Q agreeing with L_* at every horizon.
+
+For precise infinite-history separation, define
+\[
+A=\{W_n\to\infty\}
+=\bigcap_{k\ge1}\ \bigcup_{N\ge0}
+  \bigcap_{n\ge N}\{W_n\ge k\}.
+\]
+This is a measurable asymptotic event in the cylinder-generated history sigma-algebra. Equations (5)–(6) give
+\[
+L_*(A)=1,\qquad Q_h(A)=0
+\quad\text{for every fixed }h.
+\tag{8}
+\]
+Accordingly the two full-history measures are mutually singular, and their full-history total variation, defined as the supremum over measurable events, equals one. No independence-tail zero-one theorem is used. The separation event requires the infinite history; positive support of every finite legal history does not imply equivalence of infinite measures.
+
+### 6. Fixed stopped outputs still obey the accepted bound
+
+Fix one common nonanticipating observation (tau,Y), with the same raw full-history filtration, optional common independent randomizer, and a cemetery output on nontermination, exactly as specified in Part R. Suppose tau is finite almost surely under L_*. Then the accepted result gives
+\[
+d_{\rm TV}\bigl(\operatorname{Law}_{L_*}(Y),
+               \operatorname{Law}_{Q_h}(Y)\bigr)
+\le\Pr_{L_*}(\tau>h)\longrightarrow0.
+\tag{9}
+\]
+Finiteness under Q_h is not needed. The output, rule and reference L_* are fixed first; h and its different Q_h can then be chosen before data to make this output distance arbitrarily small. There is no uniform rate over rules, and no single Q_h is claimed to match every finite horizon.
+
+There is no conflict between (8) and (9). They concern different information: the complete infinite-history event A versus one output measurable at its finite stopping time under L_*. Infinite-width behavior is not converted into a finite-time certificate by this proof. No equality of infinite tails or bound on unbounded observation costs follows from (9).
+
+### 7. Scope
+
+This is a formal dependence-on-law result inside the declared mathematical family: its admission conditions allow both almost-sure unbounded width and, above any finite prefix of that same law, eventual finite width. It selects neither continuation as preferred.
+
+No stationary law, rate, height/density classification, physical dimension, metric, gravity, readout, efficient algorithm, empirical DET validation or universal untestability claim is supplied. The inherited Part P timing breach remains NONCOMPLIANT and unwaived; accepted dependencies retain their exact scopes.
+
+Protected validation/custody, distinct review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary separation and all execution/publication/resource gates remain. Mathematical acceptance supplies no execution or publication permission for other results.
+
+### 8. Premises and proof obligations
+
+Status: these premises accompany the accepted theorem at its stated scope.
+
+#### Accepted inputs
+
+- Part A states the unrestricted scalar-passive binary-marked-order model: all actual ideals, positive normalized complete rows, selected-mark proper locality, equivariance, complete transported marked diamonds, independently fair newborn marks and scalar identity payload maps.
+- Part R supplies the accepted q_* admission, subset-closure representation and finite/stopped-observation theorem.
+- Part Q supplies the accepted complete-finite-prefix chain-tail construction and eventual finite width. Its underlying finite sufficiency in Part P retains its existing status; no stronger classification is imported.
+- Historical authorization and current coordination/resource boundaries remain separate from mathematical acceptance. Resource guards are checked independently before authorized work.
+- Standard conditional probability, finite iteration, continuity and countable intersections are mathematical tools, not physical selection axioms.
+
+#### Derived results
+
+1. The fresh conditional half-selected subset has the exact q_* distribution after taking downward closure. Each actual ideal is retained. It is an auxiliary representation of the admitted row, not a new law or observation.
+2. An old maximum belongs to the precursor precisely if selected. Selected maxima cease being maximal; unselected maxima survive. An old nonmaximum cannot become maximal, and the newborn is maximal.
+3. Therefore, conditional on the entire marked history, M_(n+1)=1+Binomial(M_n,1/2) in distribution. Empty-parent M_0=0 gives M_1=1; the singleton gives M_2=1 or 2 equally.
+4. From any r<k, sequentially declining to select current maxima reaches k after k-r steps. Its conditional probability is 2^(-sum_(m=r)^(k-1)m), at least delta_k=2^(-k(k-1)/2).
+5. For every deterministic N>=0, k>=1 and b>=1, conditional failure to hit k within bk steps is at most (1-delta_k)^b. The proof conditions on complete histories at block boundaries; it assumes no block independence.
+6. Taking b to infinity and intersecting the probability-one conclusions over countably many N,k gives limsup M_n=infinity almost surely. This is not a claim that M_n converges to infinity.
+7. Maximal vertices form an antichain; old induced relations persist. Thus W_n>=M_n and W_n is nondecreasing, proving W_n tends to infinity almost surely.
+8. For each fixed h, accepted Q_h preserves every marked finite history through h and has eventual finite width. The measurable infinite-history event of width diverging has probabilities 1 and 0, proving full-history mutual singularity.
+9. Under the exact common stopping/output contract of Part R, every fixed rule finite almost surely under L_* still has output TV bounded by P_L*(tau>h), tending to zero along different Q_h. Full-history separation is not a finite-time certificate.
+
+#### Explicit boundaries
+
+The complete prefix includes all rows below h, not one realized path. The construction of Q_h depends on the chosen horizon, not observed data. No single chain-tail law matches L_* at every horizon.
+
+The half-selection variables are used only to derive the exact already admitted transition. Marks, actual ideal occurrences and scalar payload branches remain unchanged. There is no empirical or physical interpretation of those auxiliary variables or of birth index.
+
+No stationary distribution, asymptotic rate, height/density classification, preferred law, geometry/metric/gravity, efficient algorithm, physical readout or universal untestability is inferred.
+
+#### Review and evidence
+
+Distinct review checked the closure-to-maxima implication, conditional-binomial transition, precise stopped successful run in the hitting bound, dependent-block iteration, countable quantifiers, monotone-width implication, and distinction between full-history and fixed stopped-output laws.
+
+The proof package retained twelve source/control files and fourteen source/prose bodies. Distinct review and coordinator checks verified exact current identities and five actual dependency-acceptance joins. Original/nested locators and raw external final sessions were not reopened. Hashes and readbacks establish identity, not mathematical verification or repaired historical custody. The initial exclusive output directory was absent; this observation and its subsequent creation remain in the evidence record. Recorded display clipping and its recovery are retained separately from the mathematical conclusions.
+
+The inherited Part P author's 65-second NONCOMPLIANT overrun remains unwaived; the current theorem's recorded completion was timely. All protected-validation/custody, independent-review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. Any later result requires its own review and coordinator disposition.
