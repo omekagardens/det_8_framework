@@ -1,3 +1,23 @@
+## 2026-10-26 — decisions completed; next work assigned
+
+QR-LD033 is accepted and its [complete proof](../track_b/uniform_deletion_counterexample.md) is published. Uniform actual-vertex deletion at three births gives chain mass p+p²(1−p)/3, while direct two births give p; chronological truncation is different. E-Q005 accepts a conditional equal-prior single-record error floor of 0.482162 for the declared fixed pulse at I=A=0. NE-Q013 accepts the proposed common-axis magnitude-nuisance boundary for independently unknown magnitudes in [1−ε,1+ε], 0≤ε<1, with minimum complete-row TV (3/40)max(0,cos(πε)). M-Q001 admits a bounded sufficient noncontrast proof question. CE-Q004 accepts a limited primary-method comparison and selects no new probability candidate. The exact RET reader-test module passes independent review with 54 tests; its local acceptance is not public-package release or G2 qualification.
+
+| Track | Newly assigned bounded work | Remaining boundary |
+|---|---|---|
+| Native geometry / gravity | QR-LD034 tests whether the optional uniform-deletion property is feasible for positive subset-weight laws through four births. | No new axiom, all-law classification, physical readout or automatic higher-order audit. |
+| Measurement | M-F018 closes the weighted sufficient certificate for universal noncontrast on one shared uncertainty ball. | No necessity/solver claim, actual H1 radius, calibration or native forward map. |
+| Relational State | E-Q006 asks whether any admissible two-step causal probe escapes a model-level information ceiling. | Identical information and controls; full preparation/reset/source-to-reset costs remain open. |
+| Energy | NE-Q014 tests a fixed three-word ideal menu with unknown magnitudes explicitly shared across words. | New linkage premise; no physical supplier, iid sampling, clock or energy certificate. |
+| Comp-Sci | CE-H001 assesses one separately authorized source-handoff aid for the M-F018 assignment, reusing the existing identity checker and human-reviewed dependency table. | The probability-advantage candidate is closed. No new checker or calculator implementation, automatic acceptance, or demonstrated tooling benefit. |
+| RET SDK | RET-RESUME-002 designs a minimal observation-input boundary for the existing LIN-PRED consumer. | No source change or evaluation run in this design. Public release requires reviewed SDK dependencies; do not publish the isolated test or stage the whole SDK. |
+| Free Thinker | FT-056 is a bounded philosophical round on losing a description without undoing becoming. | Status-M ideas remain separate, coordinator-only handoffs; journal autonomy unchanged. |
+
+These assignments are unreviewed. A dependent claim or experiment hold is not a whole-track pause: independent questions may use accepted sources, with one active author package and disjoint review. Negative results and duplicate closures count as completed findings; no idea or code quota follows. RET development is resumed, while all other scientific, protected-validation, custody, ABSTAIN, Status M, zero-qualification and shared usage requirements remain. Both existing schedules and notification preferences are unchanged.
+
+---
+
+Earlier checkpoints follow in their original form.
+
 ## 2026-10-26 — RET SDK re-engagement
 
 [RET SDK development is resumed](RET_RESUMPTION_2026-10-26.md) by Allan’s explicit instruction. Historical RET-only pause labels below are superseded for development; all other scientific and operational gates remain. The existing RET owner joins this coordination loop, with one tooling pilot at a time and no new schedule.
