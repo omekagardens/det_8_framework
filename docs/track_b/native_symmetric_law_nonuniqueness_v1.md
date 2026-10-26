@@ -3124,3 +3124,223 @@ No assertion concerns a stopped/random horizon, empirical channel, preferredp, u
 The original proof and distinct review records retain their recovered display, parser and readback failures, input-identity checks and completion-evidence limits. Inherited failures and the Part P author's 65-second substantive breach remain unwaived. Hash/readback checks establish artifact identity, not mathematical correctness or reconstructed historical custody.
 
 All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of the stated mathematics does not remove these requirements.
+
+## V. Bounded stopping, weighted endpoints and censoring
+
+**Acceptance and scope.** This part records the independently reviewed and accepted bounded-stopping endpoint result for Part T’s constant-parameter family. Part A supplies the model, Part U supplies the fixed-horizon likelihood and symmetry counts, and Part R retains the finite-prefix identifiability limit. Correct stopping weights preserve endpoint information; erasing a censored endpoint can destroy it. No missing physical observation is supplied by the theorem.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual finite proof and examples only.
+
+**Result.** For a known parameter-independent stopping design capped at a finite birth horizon H, a retained marked or unmarked stopped endpoint remains sufficient for p in the accepted constant-p family. Compatible histories generally have unequal, design-dependent weights. Replacing censored endpoints by a common symbol can destroy sufficiency, even when the censor probability itself is independent of p.
+
+### 1. Experiment and full stopped record
+
+Fix H≥0 and one unknown p in (0,1). The growth law is the accepted constant-p scalar-passive family, with independently fair immutable bits and canonical histories h_t of actual precursor ideals and newborn marks on birth labels1,...,t. For terminal order C(h_t), the accepted result of Part U gives
+\[
+f_p(h_t)=2^{-t}p^{L(C(h_t))}(1-p)^{I(C(h_t))},
+\tag{1}
+\]
+where L counts covers and I counts unordered incomparable pairs.
+
+Declare a finite seed space E and a known distribution nu on E, independent of p and the entire growth history. A seed eta can encode all finite random decisions. Declare known functions
+\[
+d_t(h_t,\eta)\in\{0,1\},\qquad 0\le t\le H,
+\]
+which request stopping using only the current prefix and seed. History-dependent decisions are permitted. The rule neither intervenes on growth nor reads its unknown parameter or future. Fixed design constants are allowed even if chosen using a named reference value p_0; they remain unchanged when the true p varies.
+
+If any request occurs, T is its first index and J=1. If none occurs through H, force T=H and set J=0, the censor indicator. A request at H has J=1, distinct from censoring at H. The complete stopped record compared here is
+\[
+X=(\eta,T,J,h_T).
+\]
+It contains no growth after T. The full H-birth history used below is only a finite normalization device, not extra observed evidence.
+
+For either marked or unmarked order isomorphism, the retained-endpoint channel is
+\[
+Y=(T,J,[C(h_T)]).
+\tag{2}
+\]
+Marked isomorphisms preserve bits; unmarked ones forget them. H and the design are known protocol data. The passive incoming payload is fixed, not a parameter-dependent side channel. Birth counts are not physical time.
+
+### 2. Stop compatibility and normalization
+
+For a candidate h_t, let h_k denote its prefix. Define
+\[
+A_{t,1}(h_t,\eta)
+=\left[\prod_{k=0}^{t-1}(1-d_k(h_k,\eta))\right]d_t(h_t,\eta),
+\tag{3}
+\]
+\[
+A_{t,0}(h_t,\eta)
+=\mathbf1_{\{t=H\}}\prod_{k=0}^{H}(1-d_k(h_k,\eta)).
+\tag{4}
+\]
+Equation(4) is defined as zero for t<H, without evaluating unavailable prefixes. Empty products equal one. These indicators include every no-earlier-stop condition; they do not assume independent decisions.
+
+For each complete h_H and seed,
+\[
+\sum_{t=0}^{H}A_{t,1}(h_t,\eta)+A_{H,0}(h_H,\eta)=1.
+\tag{5}
+\]
+This partitions outcomes by the first request or the cap. Normalized finite growth rows and sum nu=1 make the H-history/seed experiment normalized. Summing its future continuations from any compatible stopped prefix contributes one. Therefore
+\[
+\Pr_p(X=(\eta,t,j,h))
+=\nu(\eta)A_{t,j}(h,\eta)\,
+2^{-t}p^{L(C(h))}(1-p)^{I(C(h))}.
+\tag{6}
+\]
+Summing(6) over all finite stopped records gives one by(5). No conditioning on successful stopping, discarding censor mass, or separate normalization at each length is performed.
+
+### 3. Weighted multiplicity and conditional reconstruction
+
+Set
+\[
+w_{t,j}(h)=\sum_{\eta\in E}\nu(\eta)A_{t,j}(h,\eta).
+\]
+For endpoint class c of size t, let H_t(c) be all compatible canonical marked histories before applying the stopping rule. For an unmarked c this includes every bit vector. Define the weighted multiplicity
+\[
+W_{t,j}(c)=\sum_{h\in H_t(c)}w_{t,j}(h).
+\tag{7}
+\]
+It depends on the declared design, not on p, and need not be an integer. Summing(6) gives
+\[
+\Pr_p(Y=(t,j,c))
+=2^{-t}W_{t,j}(c)\,p^{L(c)}(1-p)^{I(c)}.
+\tag{8}
+\]
+The probabilities over all lengths, indicators and endpoint classes sum to one. A zero W makes an output impossible for every p; it is not conditioned upon.
+
+For positive W, the exact conditional law is
+\[
+\Pr_p(X=(\eta,t,j,h)\mid Y=(t,j,c))
+=\frac{\nu(\eta)A_{t,j}(h,\eta)}{W_{t,j}(c)}
+\quad(h\in H_t(c)).
+\tag{9}
+\]
+Its history marginal is w(h)/W, generally not uniform. Both are independent of p. Thus Y is sufficient relative to the full stopped record X: the kernel(9), composed with its endpoint law, reconstructs the full stopped-record distribution. It does not recover the actual hidden history or any unobserved future.
+
+Changing the encoding requires summing these weights over the corresponding fibers, not assigning equal probabilities to different descriptions.
+
+The old automorphism factors can be used only inside a weighted sum. For a marked representative (C,r), natural labelings lambda produce histories h_lambda, and
+\[
+W_{t,j}([C,r])
+=\frac1{|\operatorname{Aut}(C,r)|}
+\sum_{\lambda}w_{t,j}(h_\lambda).
+\tag{10}
+\]
+The accepted free action shows each canonical history appears exactly |Aut(C,r)| times; repeated descriptions have the same weight. For an unmarked representative,
+\[
+W_{t,j}([C])
+=\frac1{|\operatorname{Aut}(C)|}
+\sum_{\lambda}\sum_{b\in\{0,1\}^t}w_{t,j}(h_{\lambda,b}).
+\tag{11}
+\]
+Here b is the birth-index bit vector. Each canonical marked history is repeated exactly |Aut(C)| times. No extra factorial is inserted, and mark-dependent rules do not license replacing the inner sum by 2^t times a selected representative. The fixed-horizon counts return when all relevant w equal one.
+
+T is recoverable from endpoint size. Retaining J makes the protocol explicit, but J is not mathematically essential when the complete endpoint is retained: summing W over j leaves the same p-dependent factor in(8) and a p-independent conditional kernel. This does not justify omitting endpoints on censored branches. Known design data are kept fixed throughout.
+
+### 4. Complete weighted example
+
+Take H=3, a fair independent seed eta in{0,1}, and request stopping only at t=2 when the two-vertex prefix is a chain and eta=1. All other d_t are zero. Every surviving run is censored at3.
+
+After summing fair marks, all outcomes are:
+
+| T,J,unmarked endpoint | Probability |
+| --- | --- |
+| 2,1,chain | p/2 |
+| 3,0,antichain | (1-p)^3 |
+| 3,0,one edge and an isolate | (5/2)p(1-p)^2 |
+| 3,0,fork | p^2(1-p)/2 |
+| 3,0,join | p^2(1-p) |
+| 3,0,chain | p^2/2 |
+
+To see the noninteger structural factor, the three naturally labeled edge-plus-isolate histories have their edge at(1,2),(1,3),or(2,3). Their survival weights are1/2,1,1: only the first has a chain prefix at2. Thus their conditional probabilities given that censored endpoint are1/5,2/5,2/5. The canonical marked-history W is 2^3(1/2+1+1)=20, giving coefficient20/8=5/2. The five compatible structural-history/seed pairs each have conditional mass1/5; fair marks remain independent in this particular design.
+
+The other rows follow from the complete five-type N=3 table in Part U: the fork and chain have chain prefixes and lose half their mass, while the antichain and join have antichain prefixes. Relative to that normalized table, the removed mass is
+\[
+\tfrac12[p(1-p)^2+p^2(1-p)+p^2]=p/2,
+\]
+exactly the early-stop row. Thus the displayed different-length probabilities sum to one. Applying the old unweighted e/Aut count to the censored endpoint would be wrong.
+
+At H=0, (3)–(5) split the unique empty history into request/censor outcomes with total mass one. At H=1, all underlying prefix masses are p-independent, so every such fixed design remains p-independent. These cases require no positive-length convention.
+
+### 5. Censor-only negative control
+
+Compare two output channels of the same full stopped experiment X. Take H=2 and an independent fair seed. Request stopping at1 iff eta=1; make no other request. Then eta=0 runs are censored at2.
+
+The endpoint-retaining unmarked channel has the complete law
+\[
+\Pr(Y=(1,1,\text{singleton}))=\tfrac12,\quad
+\Pr(Y=(2,0,\text{chain}))=\tfrac p2,\quad
+\Pr(Y=(2,0,\text{antichain}))=\tfrac{1-p}{2}.
+\tag{12}
+\]
+In full marked records, the two early singleton bits each have mass1/4; the four censored chain bit vectors each have massp/8, and the four censored antichain bit vectors each have mass(1-p)/8. Their total is one. Marked symmetric endpoints aggregate those vectors as in Part U.
+
+Now report Z=Y for J=1, but Z=Delta for every J=0, discarding its endpoint. Then
+\[
+\Pr_p(Z=(1,1,\text{singleton}))=\tfrac12,\qquad
+\Pr_p(Z=\Delta)=\tfrac12.
+\tag{13}
+\]
+This law is identical for every p, while
+\[
+\Pr_p(C(h_T)\text{ is a chain}\mid Z=\Delta)=p.
+\tag{14}
+\]
+Consequently Z is not sufficient for X: its conditional missing record depends on p. Indeed a fixed reconstruction kernel applied to the p-independent law(13) could not reproduce the p-dependent law(12). Reporting the known censor count2 and indicator alongside Delta does not repair the loss.
+
+This compares a record-retaining censor protocol with its explicit erasure channel. If an actual protocol never acquires the censored endpoint, its observation is Z; missing evidence must not be silently treated as Y. No physical sensor implementation is asserted.
+
+### 6. Limits
+
+The conclusion requires a known finite design whose rule and seed distribution are independent of the unknown true p. Decisions can depend on observed history, whose distribution depends on p; this does not make the rule itself parameter-dependent. If the rule or seed distribution changes with the unknown p, factors nu and A may no longer cancel in(9), and this theorem provides no guarantee.
+
+All results are confined to finite H and the specified constant-p family. Every feasible stopped record has positive probability for all interior p, so one record supplies no certainty about p. Part R's accepted finite-prefix matching still supplies other admitted laws with exactly the same bounded experiment under the same independent seed. No unique unrestricted law or infinite-tail identification follows.
+
+There is no unbounded-stopping, nontermination, optional-stopping asymptotic, confidence-sequence, physical-time/geometry/quantum, efficient-algorithm or novelty claim. The examples are manual, not executed enumeration. Inherited custody/failure limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Protected validation, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of this mathematics grants no scientific or operational execution authority.
+
+### 7. Premises and proof obligations
+
+Status: premises accepted with the preceding result following distinct independent review and coordinator disposition.
+
+#### Accepted source boundary
+
+- Part A supplies the unrestricted scalar-passive marked order contract. The constant-p comparison family does not impose that source's separately fixed seed or continuation.
+- Part U supplies the independently reviewed and accepted fixed-horizon endpoint result at its exact stated scope. The underlying report, premises and review retain their exact-content and original-locator joins to the actual acceptance.
+- Part U supplies f_p(h_t)=2^-t p^L(C)(1-p)^I(C), covers and unordered incomparable-pair statistics, and the free automorphism action on natural labelings. Its fixed-horizon sufficiency alone does not prove the present stopped result.
+- Part R supplies the independently reviewed and accepted finite-prefix matching result. Its historical source copies establish exact content identity through intermediate copies, without asserting original-path identity. Only its exact finite-prefix matching scope is used here.
+- Existing resource and coordination boundaries remain in force. A historical resource authorization does not excuse a later ambiguity, and mathematical acceptance does not grant execution authority.
+- The result retains its declared source-access limits. No new source access, nested acquisition or reconstruction of historical sessions is claimed by this presentation.
+
+#### Explicit observation assumptions
+
+H is a predeclared deterministic finite nonnegative birth count. One unknown interior p governs all growth rows. Canonical histories retain each actual precursor ideal on birth labels and each independently fair immutable bit. The scalar incoming payload is fixed.
+
+The known auxiliary seed has a finite space E and one known probability law nu, independent of p and growth. All random decisions can be encoded in that seed. For each0≤t≤H, a known deterministic decision d_t(h_t,eta) reads only the current canonical prefix and seed. It may depend on history and fixed design constants, but not the unknown true p or future. Stopping does not intervene on the growth kernels.
+
+T is the first request time within0,...,H, orH if there is none. J=1 denotes a request, including atH; J=0 denotes forced censoring atH. Full compared record X=(eta,T,J,h_T) excludes all growth afterT. A complete H-history is used only to prove finite normalization.
+
+Retained endpoint Y=(T,J,[C(h_T)]) may preserve marks or forget them. Isomorphisms never change retained bit values. Endpoint size already determinesT. J can be summed out without losing the factorization if the endpoint itself remains available. H and the known design are protocol information, not unknown nuisance parameters.
+
+#### Manual obligations discharged
+
+1. A_(t,1) is the product of no-earlier-stop indicators times the request at t. A_(H,0) is the product of no request throughH; A_(t,0)=0 for t<H. No unavailable future prefix is evaluated.
+2. For each full finite history/seed, first-request events and cap partition the sample space. Summing normalized future continuations gives exact stopped-record mass nu(eta)A2^-t p^L(1-p)^I. Mass across all lengths and both indicators remains one.
+3. The marginalized design weight is w(h)=sum_eta nu(eta)A(h,eta). Endpoint W sums w over all canonical marked histories, including all bit vectors for unmarked endpoints.
+4. Endpoint probability is2^-t W p^L(1-p)^I. W is independent ofp but need not be integral. W=0 excludes that output for everyp; no conditional probability is asserted there.
+5. Conditional full records have weight nu A/W and conditional histories have weight w/W, independently ofp. This gives reconstruction in distribution for the stopped record only, not actual-history recovery or future reconstruction.
+6. Natural labelings repeat each canonical marked history exactly |Aut(C,r)| times, or each unmarked structural history |Aut(C)| times. Weighted label sums divide by those proved multiplicities; bit vectors remain explicitly summed when the rule can read marks.
+7. Further history encodings require sums of weights over their fibers. Neither randomization nor selective stopping preserves uniformity automatically.
+8. The complete H=3 example stops half the two-chain prefixes. Its six unmarked outcome rows normalize, and the censored edge/isolate histories have weights1/2,1,1, giving conditional probabilities1/5,2/5,2/5 and marked-history W=20.
+9. H=0 empty-product conventions partition the empty history; H=1 contributes no p-dependent underlying growth evidence.
+10. The H=2 fair early-stop/censor experiment has endpoint masses1/2,p/2,(1-p)/2. Erasing the censored endpoint yields the p-independent two-outcome law1/2,1/2, while the missing conditional chain probability isp. This refutes sufficiency of censor-only output for that same full experiment.
+
+#### Limits and preserved evidence
+
+No result extends to unbounded stopping, optional-stopping asymptotics, nontermination, confidence sequences, physical sensor/clock design, quantum or gravity claims, efficient counting, benchmarks or novelty. Finite-horizon normalization is a direct partition argument. Known policy dependence is distinct from dependence on the unknown true parameter.
+
+Sufficiency holds inside the stated fixed-p family and channel. Part R's matching continuations preserve the whole bounded experiment with the same independent seed, so unrestricted-law and tail identification remain unsupported. A censor-only channel is not supplied a missing endpoint by assumption.
+
+The original theorem record retains its twelve complete source/control captures and exact native input checks, with no current author tool/read failure reported. The distinct review retains its two recovered control/metadata display truncations and actual checks. Historical display/parser/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Readback and hashes establish artifact identity, not mathematical truth or reconstructed historical custody.
+
+All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of the stated mathematics does not remove these requirements.
