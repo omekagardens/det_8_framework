@@ -1,3 +1,12 @@
+# RI1507 — Finite maximal-deletion identity and sufficient extension
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part P, now contains the accepted standalone finite proof of the maximal-deletion identity and positive common-scale extension. Lower complete marked diamonds derive structural endpoint weights; the signed deletion product then gives the new identity without assuming the new-layer diamond. A sufficiently small common scale supplies positive normalized rows and complete transported scalar-map diamonds.
+
+The result assumes an admitted smaller prefix in the declared positive scalar-passive binary-marked-order model. It supplies the identity and sufficiency used in Part L at parent sizes three and four. Part L’s seed, exceptional-slot check, complement bounds, mixture, reconstruction and four-birth premises retain their separate status. Earlier conditional and historical text is preserved.
+
+Procedural qualification: the mathematical author exceeded the substantive drafting cutoff by **65 seconds** and remains **NONCOMPLIANT**. Exact mathematical reuse was accepted after a separate timely independent review and coordinator proof adjudication. This does not waive or retroactively extend the author’s budget.
+
+The proof treats empty and singleton layers separately and retains the prescribed singleton seed. It does not classify every solution, establish unique law selection, supply a uniform quantitative all-size scale, derive informative quantum evolution or provide physical calibration. No historical novelty or exhaustive absence-of-prior-proof claim is made.
 # RI1506 — Finite noisy-reference calibration contract
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part O, now closes the accepted toy-channel question. A declared common binary error preserves each orientation-orbit total and scales its contrast. Known error rates permit exact inversion except at one-half; rates above one-half remain valid, while inversion becomes unstable near one-half.
