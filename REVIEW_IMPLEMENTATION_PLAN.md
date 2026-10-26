@@ -1,3 +1,11 @@
+# RI1501 — Whole-law mixing can violate selected-mark locality
+
+The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part J, now includes the independently reviewed and accepted QR-LD017 result. At four births, two admitted finite laws have a whole-law midpoint whose unique reconstructed kernel fails selected-mark locality. The exact slot criterion separates unequal component probabilities from variation of their prefix likelihood ratio over unselected marks.
+
+The counterexample halves the mark-flipped component’s parent-three proper probabilities and recomputes every full complement. Manual review checked all finite-model obligations, marked diamonds, multiplicities and rational arithmetic. The midpoint’s fork-empty structural probabilities are 1/66 and 5/264, a gap of 1/264. Both components share complete parent layers zero and one; no claim fixes the entire historical parent-three seed. The accepted equal-scale symmetrization remains a positive control. Source pins and retained bodies were checked separately; no scientific execution was performed.
+
+This establishes nonconvexity for the stated finite endpoint/history-law set, with its actual shared prefix. It supplies no all-size extension, physical hidden component, calibrated inference or computational advantage. Whether a law mixed equally with its own global mark flip must preserve locality is a separate prospective question. Existing validation, custody, physical and execution requirements remain.
+
 # RI1500 — Exact admission tests for a finite marked endpoint law
 
 The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part I, now includes the independently reviewed and accepted QR-LD016 criterion. At a fixed finite horizon, strictly positive normalized masses on all marked endpoint classes lift uniformly to natural encodings. The resulting joint transitions automatically have full support, normalization, parent-state dependence, equivariance and complete marked diamonds. Admission to the declared finite model is equivalent to linear fair-bit equations F and degree-at-most-two locality equations L, with separate linear equations P for any explicitly prescribed prefix.
