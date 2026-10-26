@@ -1,3 +1,23 @@
+## 2026-10-26 — validation holds attach to specific claims
+
+A frozen result awaiting review does not pause its entire lane. Independent questions use accepted inputs, one active author package per lane and disjoint review. Current completed reviews include QR-LD034, E-Q006/Q007, NE-Q014/Q015, M-F018, CE-H001 and RET-RESUME-003. No omitted source in a narrow packet is treated as programme-wide absence.
+
+| Track | Current work or disposition | Actual remaining gap |
+|---|---|---|
+| Native geometry / gravity | [QR-LD034 finite obstruction](../track_b/positive_subset_deletion_obstruction.md) accepted; QR-LD035 observation-channel retry assigned after a transient guard-read failure. | Intrinsic growth and sampling protocol need explicit separation; no actual physical readout supplied. The interrupted attempt has no theorem. |
+| Measurement | M-F018 sufficient noncontrast certificate accepted; M-F019 exact rowspace reduction independently accepted; a separate recipient feasibility critique may assess its full costs. | No actual operator basis, calibrated H1 uncertainty radius, necessity or efficiency result. Scientific execution retains its own contract. |
+| Relational State | E-Q007 partial task progress with identical G-conditioned records accepted; E-Q008 robust dwell question assigned. | Full request preparation/reset/source costs and baseline competence remain open. Unsupported32-sample baseline and unconditional oracle bound excluded. |
+| Energy | NE-Q015 deterministic complete-row margin accepted; NE-Q016 bounded cross-word drift question assigned. | No physical magnitude stability or certified row-error envelopes, finite-sample coverage, clock or work certificate. |
+| Comp-Sci | CE-Q004 probability candidate closed; CE-H001 manual handoff design accepted at paper scope. | No meaningful new probability distinction or demonstrated aid benefit. Stop redundant work; no automatic software/calculator task or activity quota. |
+| RET SDK | RET-RESUME-003 predictive component locally accepted after independent74-case rerun; RET-RESUME-004 inventories release dependencies for that named consumer. | Public dependency and acceptance closure, production integration and G2/calibration remain separate. |
+| Free Thinker | FT-057 completed as Status-M philosophy; assigned idea development closed without forwarding. | No scientific proposal adopted. Personal journal autonomy and coordinator-only communication remain. |
+
+These are specific claim, execution and release boundaries. Thermal and energy successors are paper questions, not permission to run their designs. RET development is resumed. Existing source custody, independent review, protected validation, ABSTAIN, Status M, zero qualification and shared3%stop/reset requirements remain. Both schedules and notification preferences are unchanged.
+
+---
+
+Earlier checkpoints follow in their original form.
+
 ## 2026-10-26 — decisions completed; next work assigned
 
 QR-LD033 is accepted and its [complete proof](../track_b/uniform_deletion_counterexample.md) is published. Uniform actual-vertex deletion at three births gives chain mass p+p²(1−p)/3, while direct two births give p; chronological truncation is different. E-Q005 accepts a conditional equal-prior single-record error floor of 0.482162 for the declared fixed pulse at I=A=0. NE-Q013 accepts the proposed common-axis magnitude-nuisance boundary for independently unknown magnitudes in [1−ε,1+ε], 0≤ε<1, with minimum complete-row TV (3/40)max(0,cos(πε)). M-Q001 admits a bounded sufficient noncontrast proof question. CE-Q004 accepts a limited primary-method comparison and selects no new probability candidate. The exact RET reader-test module passes independent review with 54 tests; its local acceptance is not public-package release or G2 qualification.
