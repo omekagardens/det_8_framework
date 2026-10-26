@@ -1459,3 +1459,186 @@ All factors are per natural encoding, with the common fair factor2^-4. The chain
 The conditional N5 counterexample and the accepted universal N4 result together establish the first failure horizon in this declared class. No classification of later horizons, all-size symmetrization, optimal constants, efficient algorithm, native physical selector, calibrated observation, geometry or DET physical validation follows.
 
 Scientific/custody/independent-review/ABSTAIN/Status M/zero-qualification/RET-only/Boundary/execution gates remain.
+
+## M. Four endpoint masses expose locality failure
+
+**Dependencies and review.** This endpoint witness received distinct mathematical review and coordinator acceptance. It translates the fixed finite counterexample in Part L using the common-lift and mixture results of Parts H/I/J. The counterexample's conditional extension premise remains separate from the encoding conversion. Exact compatible probability laws and immutable role marks are supplied mathematical inputs, without a physical readout or empirical-frequency claim.
+
+**Accepted result.** Four normalized marked endpoint-class probabilities at horizons four and five give an exact signed witness for the accepted Part L midpoint. The witness is strictly negative, whereas selected-mark locality requires zero. After forgetting all marks, that midpoint has exactly the same entire finite unmarked-history law as its admitted component through five births. Thus even complete unmarked data cannot distinguish these two laws.
+
+### 1. Endpoint events and the information retained
+
+Write pi_n(C) for the unconditional probability of a marked order isomorphism class C after n births. Each pi_n is normalized on its entire endpoint space; the horizons belong to the same consistent finite law. Isomorphisms preserve the binary mark names and transport marks on vertices.
+
+For j=0,1 define P_j to be the four-chain
+\[
+x<y<z<w,\qquad (r_x,r_y,r_z,r_w)=(0,j,0,0).
+\]
+Define Q_j by adding v with strict past exactly {x}, mark r_v=0, and no other new comparisons. Its covering relations are
+\[
+x<y<z<w,\qquad x<v.
+\]
+The selected ideal in P_j is S={x}; both parent markings agree on S. The declared fifth-birth bit is zero.
+
+All names here denote intrinsic order roles, not observed birth labels. In Q_j, x is the unique minimum. Of the two maximal vertices, v has one strict predecessor and w has three. The remaining y,z are fixed by the long chain. Consequently the short leaf v and its deletion to the four-chain are identifiable from the endpoint order itself. The marked events Q_0,Q_1 differ at y, not at an interchangeable leaf. No extra distinguished embedding is supplied.
+
+The four required masses are
+\[
+p_j=\pi_4(P_j),\qquad c_j=\pi_5(Q_j)\quad(j=0,1).
+\]
+They retain exact order type and all specified role marks. They are not probabilities conditioned on selecting one of these four events.
+
+### 2. Multiplicity and the endpoint-to-slot identity
+
+A four-chain has exactly one abstract linear extension and trivial automorphism group, so P_j has one distinct natural encoding.
+
+For Q_j the root must come first. The remaining y,z,w must keep their chain order; v can occupy any one of four positions:
+\[
+(x,v,y,z,w),\quad (x,y,v,z,w),\quad
+(x,y,z,v,w),\quad (x,y,z,w,v).
+\]
+These exhaust the extensions, since v is incomparable with each of y,z,w. The intrinsic-role argument above proves the unmarked automorphism group is trivial. Therefore its mark-preserving subgroup is also trivial for both j. The accepted encoding formula e(Q)/|Aut(Q,r)| gives exactly four distinct encodings, even for Q_0 with all marks zero. There is no factorial or additional orbit factor.
+
+Complete marked diamonds equate these four history probabilities: adjacent exchanges of v with an incomparable chain vertex transport each bit with its vertex, including the j=1 case. Equivariance transports the remaining suffix. This equal-weight argument does not use selected-mark locality.
+
+For an admitted law, the unique P_j history followed by (S,bit0) is precisely the last listed Q_j encoding. Its probability is p_j*q(P_j,S)/2. Hence
+\[
+c_j=4\left(p_j\frac{q(P_j,S)}2\right)
+=2p_jq(P_j,S),\qquad q(P_j,S)=\frac{c_j}{2p_j}. \tag{1}
+\]
+The endpoint masses already include all fair-bit factors. Division by four recovers one encoding; multiplication by two recovers a structural ideal probability from a declared bit branch. Neither factor is inserted twice.
+
+The same identity holds for the Part L whole-law midpoint: each component is constant on every encoding fiber, and their fixed convex mixture remains constant there. Its positive prefix-conditioned kernel retains fair bits and diamonds even though locality fails. Thus (1) does not assume the property being tested.
+
+Selected-mark locality requires the two recovered root-slot probabilities to coincide. Since p_0,p_1>0, its exact necessary endpoint equality is
+\[
+\boxed{W:=c_0p_1-c_1p_0=0.} \tag{2}
+\]
+This is a test of one locality constraint, not a complete admission criterion for arbitrary endpoint tables. Consistency, support, fair bits and the common-lift assumptions remain explicit.
+
+### 3. Exact value for the accepted midpoint
+
+Use precisely the Part L component q, then its own global flip q^F, and their equal whole-law mixture. No row or event is changed. The accepted constants are
+\[
+\alpha=1/30000,\quad \epsilon=1/300000000,\quad
+\beta=\epsilon^7/32,\quad
+f_0=1/6,\ f_1=1/3,\quad h_0=19/30,\ h_1=7/15.
+\]
+Put A=1-alpha and B_i=A-alpha*h_i. The accepted component's four-chain structural weight is
+\[
+w(i,j)=h_i(1-\alpha-\alpha jh_i)/3.
+\]
+Its per-encoding marked probability is 2^{-4}w. The component root-slot values are beta*alpha*f_0 at both P_j, and beta*alpha*f_1 for its flip.
+
+For the midpoint, the four unconditional endpoint masses are therefore
+\[
+p_0=\frac{h_0A+h_1B_1}{96},\qquad
+p_1=\frac{h_0B_0+h_1A}{96},
+\]
+\[
+c_0=\frac{\beta\alpha}{48}
+(f_0h_0A+f_1h_1B_1),\qquad
+c_1=\frac{\beta\alpha}{48}
+(f_0h_0B_0+f_1h_1A). \tag{3}
+\]
+The parent denominator 96 is 3*16*2: the structural 1/3, four fair bits and the equal mixture. For a child, append its fair bit and root-slot factor to each parent component, average the components, then sum its four equal encodings. This gives denominator 48 in (3), with all complementary endpoint classes left in the normalized law.
+
+Cross-multiplication now gives
+\[
+\begin{aligned}
+W
+&=\frac{\beta\alpha(f_0-f_1)h_0h_1}{4608}
+ (A^2-B_0B_1)\\
+&=-\frac{\beta\alpha h_0h_1}{27648}
+ (A^2-B_0B_1)<0.
+\end{aligned}\tag{4}
+\]
+Indeed
+\[
+A^2-B_0B_1
+=\alpha[A(h_0+h_1)-\alpha h_0h_1]>0.
+\]
+Here A>1/2, h_0+h_1=11/10, h_0h_1<1 and alpha<1/2, making the bracket strictly positive. Every other displayed factor is strictly positive. This is an exact rational signed witness, without numerical estimation.
+
+Equivalently, W=2p_0p_1[qbar(P_0,S)-qbar(P_1,S)], matching the accepted negative slot difference. Each original admitted component separately satisfies (2); the midpoint violates it. The counterexample's admission retains Part L's explicitly conditional maximal-deletion extension premise. The encoding conversion itself uses only the finite common-lift conditions.
+
+### 4. Mathematical channel, not a physical instrument
+
+A sufficient deterministic endpoint channel at horizon four reports P_0, P_1 or “other.” At horizon five it reports Q_0, Q_1 or “other.” Their exact output laws supply the four masses in (2). This is a transparent finite sufficient witness; no global minimality is claimed.
+
+These channels read endpoint order and immutable role marks. They require neither access to a particular realized birth history nor a history-label oracle: the multiplicity proof supplies the conversion algebraically. The two horizon laws must be compatible marginals of the same process. A lone endpoint, finite sample, unknown mark readout or arbitrary pair of probability tables is not this input. No physical instrument, repeated-trial protocol, calibration, detection threshold or sample-size assertion is supplied.
+
+### 5. Exact boundary after forgetting marks
+
+Let mu be the complete natural-history law of the accepted q through five births, F flip every immutable mark, and U erase every mark while retaining the entire underlying natural order-growth history. Then
+\[
+\mu^F=F_*\mu,\qquad U\circ F=U.
+\]
+Consequently, for the midpoint mubar=(mu+mu^F)/2,
+\[
+U_*\bar\mu
+=\tfrac12(U_*\mu+(U\circ F)_*\mu)
+=U_*\mu. \tag{5}
+\]
+Equivalently, for every unmarked-history event E,
+\[
+\bar\mu(U^{-1}E)=\mu(U^{-1}E)=\mu^F(U^{-1}E).
+\]
+This proof sums the complete mark fibers; it assumes no independence between later order growth and old marks.
+
+The equality retains more information than an unmarked endpoint: it retains every unmarked prefix and actual ideal choice in the natural history. All coarser unmarked endpoint events, unmarked multi-time events and unmarked history statistics through five births therefore agree exactly. Prefix marginals give the same conclusion at every smaller horizon.
+
+In particular, the full unmarked law is shared by the midpoint kernel that violates selected-mark locality and an already admitted local component. No rule using only that unmarked law can distinguish these two cases. The marked witness is therefore not an unmarked prediction. This does not assert that forgetting marks produces a parent-only Markov kernel, and says nothing beyond the defined five-birth horizon.
+
+### 6. Dependencies and scope
+
+Part L specifies the accepted component and its conditional maximal-deletion extension premise. Part H supplies the encoding/common-lift theorem, and Parts I/J supply the finite mixture conditions. The extension premise remains a dependency of component admission; the endpoint conversion uses the finite common-lift conditions separately.
+
+The exact information-sufficiency question is closed at this conditional scope.
+
+### 7. Premises and endpoint witness obligations
+
+#### Inputs and admitted facts
+
+1. The model retains empty start, full positive actual-ideal support, normalized parent-state kernels, immutable fair newborn bits, relabeling equivariance, complete transported marked diamonds and scalar-passive payload. Proper selected-mark locality is the condition being tested.
+2. Part H gives natural histories as birth-labeled encodings, equality of all encoding weights within a marked endpoint class, and multiplicity e(C)/|Aut(C,r)|. Mark names are preserved by isomorphisms. Its equality proof requires diamonds and transport, not selected-mark locality.
+3. Part L gives exactly the accepted finite component. The accepted counterexample remains conditional on the maximal-deletion compatibility/extension theorem. That underlying theorem is not re-proved or enlarged here.
+4. Parts I/J give the positive prefix-conditioned whole-law mixture, fairness, retained diamonds and exact locality residual. Applying the common lift to a mixture is justified also directly: both component probabilities are constant on each same encoding fiber, so their fixed midpoint is constant there.
+5. Adjacent endpoint laws at horizons4/5 must belong to one consistent finite process. Four arbitrary normalized numbers would not by themselves establish those model assumptions.
+
+#### New endpoint event definitions
+
+- P_j is the four-chain x<y<z<w with marks(0,j,0,0), for j=0,1.
+- Q_j has that chain plus v with strictpast{ x } and bit0, with no other new comparisons.
+- p_j=pi4(P_j), c_j=pi5(Q_j) are unconditional masses in fully normalized marked endpoint-class distributions. No selected-support renormalization is used.
+- Vertex names are intrinsic roles. In Q, x is unique minimum, v is the maximal vertex with one predecessor, w is the maximal vertex with three, and y/z are the intermediate long-chain roles. Thus the indicated parent embedding is recoverable from the endpoint shape, without an added distinguished label.
+- In both parents the selected ideal{x} has mark0. The changed parent mark is at y outside the selected ideal. Q_1 retains that same role change while the declared new bit remains0.
+
+#### Counting and conversion proved manually
+
+- P_j has e=1, trivial automorphisms and one natural encoding.
+- Q_j has exactly four linear extensions: rootfirst, the ordered triple y,z,w, and v inserted in any of four positions. Its intrinsic roles force every order automorphism to be identity, so its marked automorphism group is identity for both j. Thus e/|Aut|=4, including all-zero Q_0.
+- Adjacent swaps of v with incomparable y/z/w transport their marks. Complete marked diamonds and equivariance equate all four history weights, including j=1. Convex mixing preserves that equality.
+- The encoding with v last has probability p_j*q(P_j,{x})/2. Endpoint mass is four times that probability. Hence c_j=2p_j*q(P_j,{x}) and q=c_j/(2p_j). All existing fair factors are already inside endpoint masses; the single factor2 only removes the specified newborn-bit split.
+- Locality requires W=c0*p1-c1*p0=0. This is one necessary locality equation, not a full admission characterization.
+
+#### Exact evaluation
+
+Retain alpha=1/30000, epsilon=1/300000000, beta=epsilon^7/32, f0=1/6,f1=1/3,h0=19/30,h1=7/15. Set A=1-alpha and B_i=A-alpha*h_i.
+
+For the accepted midpoint:
+p0=(h0*A+h1*B1)/96; p1=(h0*B0+h1*A)/96;
+c0=beta*alpha*(f0*h0*A+f1*h1*B1)/48;
+c1=beta*alpha*(f0*h0*B0+f1*h1*A)/48.
+
+The parent factor96=3*16*2 counts structuralprefix1/3, fourfairbits and midpoint1/2. The child factor48 follows from oneextra fairbit and four distinct terminal encodings. Cross multiplication gives
+W=-beta*alpha*h0*h1*(A^2-B0*B1)/27648.
+A^2-B0*B1=alpha*[A*(11/10)-alpha*h0*h1]>0 by the explicit bounds. Thus W<0 exactly.
+
+#### Information sufficiency and limitation
+
+The two deterministic mathematical channels each report one of the two specified classes or other. Exact compatible output laws suffice. No global minimality, history oracle, physical mark access, calibration, sampling protocol or statistical accuracy is asserted.
+
+For the entire finite history law, global markflip F preserves the underlying unmarked history U: U composed with F equals U. Therefore the midpoint, q and qF have exactly equal U-pushforwards. This covers every unmarked endpoint/event and every unmarked multi-time/history statistic through five births, including all smaller prefix horizons. It does not assume mark/order independence or a Markov kernel after erasure.
+
+The admitted component and the locality-violating midpoint share this complete unmarked law. Their difference cannot be certified from that projection alone. No all-size or physical-observation claim follows.
