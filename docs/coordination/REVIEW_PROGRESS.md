@@ -1,3 +1,12 @@
+# RI1506 — Finite noisy-reference calibration contract
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part O, now closes the accepted toy-channel question. A declared common binary error preserves each orientation-orbit total and scales its contrast. Known error rates permit exact inversion except at one-half; rates above one-half remain valid, while inversion becomes unstable near one-half.
+
+Independent review checked the inverse, deterministic error bounds, witness recovery and exact total-variation scaling. That scaling applies to the fixed reference-output laws with equal orbit totals and one common rate. It supplies no sampling guarantee or statement about arbitrary hidden-history laws.
+
+Unknown rates do not erase every distinction: nonzero exact contrast excludes the stipulated midpoint. They nevertheless leave generic named probabilities ambiguous. A closed rate interval away from one-half controls conditioning, but recovery must retain a single feasible rate across all pairs and both horizons. Channel feasibility is not growth-law admission; the abstract ambiguity controls are not asserted admitted growth laws.
+
+A separately stipulated symmetric midpoint permits reconstruction from orbit totals even at the singular rate. This calculation does not identify an unknown generator. Physical record mapping, role access, calibration of the common error model and controlled probability estimation remain missing. Component admission retains its conditional extension premise. No physical calibration, novelty or efficiency result is established, and this closure does not initiate another noise-reduction task.
 # RI1505 — Relative marks and an absolute root reference
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part N, now states the independently reviewed and accepted channel criterion for distinguishing the fixed component from its midpoint. Complete relative marks, even alongside the entire unmarked history, leave their exact output laws equal. Breaking flip invariance is necessary but insufficient: the first newborn bit changes under flipping yet has the same fair marginal under both laws.
