@@ -1,3 +1,15 @@
+## 26 October 2026 — device exchange theorem and independent follow-through
+
+The [standalone clock theorem](docs/observables/device_exchange_clock_ratio.md) is now independently reviewed and accepted. Under the stated affine-clock model and unchanged path-delay slope, exchanging devices identifies their rate ratio. A complete 41-field counterexample shows why the same record cannot establish path invariance. Its bounded-error interval is necessary, not a full feasibility test or confidence interval. The separate protocol was frozen and admitted before analysis; the earlier mass/clock protocol-freeze failures remain historical failures.
+
+The [calibration applicability record](docs/coordination/GWOSC_CALIBRATION_APPLICABILITY.md) now includes a prospective inventory of the official O1 archive. Exact H1/C02 candidate names are available, but no member-selection rule, full-record validity or timing/release-conversion bound has been admitted. Numerical uncertainty propagation remains held on those specific premises.
+
+Distinct review also accepts the thermal baseline's stated initial-temperature tolerance and the conventional fixed-count allocation result with its declared reserve, integer rounding and equal-count fallback. Full reset/cost and supplier premises remain open. A proposed computing threshold shortcut is closed because its conventional comparator uses the same bound and stopping rule. This is no general impossibility or pause on independent ideas.
+
+A scoped local SDK source-metadata repair passed 59 focused unit cases after distinct patch review. It aligns constructor admission with the existing wire domain. The surrounding SDK remains unpublished, and the separate aggregate serialization limitation remains qualified. RET development is resumed; these tests do not clear scientific or release gates. A separate native-observation register protocol, a complete thermal cycle design and a pilot-selected allocation question are assigned using accepted inputs. They are pending author/review work, not accepted results.
+
+---
+
 ## 26 October 2026 — calibration applicability and clock-observation limits
 
 This update supersedes the pending labels immediately below for the mass/propagation comparison, primitive audit and calibration-document review. Their later dispositions are complete. The mass result remains a conventional finite model with imported scales; the primitive audit consolidates existing premises. Neither establishes physical mass or a native observation map.
