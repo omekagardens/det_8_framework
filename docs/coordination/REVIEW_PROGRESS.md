@@ -1,3 +1,9 @@
+> Current direction (26 October 2026): mass/gravity investigation, older-idea review and a primitive/premise audit are open; RET SDK development is resumed. Historical blanket pauses do not override this direction. Actual dependent-claim, experiment, release, custody and usage holds remain scoped to their purpose. The finite-prefix inverse, conventional sampled-feedback certificate, qualified covariance-budget certificate and exact private SDK test partition have distinct review and coordinator disposition. See the current scope and holds below; the matter-link comparison is accepted only with its explicit causal/sourcing limitations; the mass/propagation author task, observation-supplier assessment and submitted primitive audit are not accepted results.
+
+[Current foundational scope, progress and holds](FOUNDATIONAL_RESEARCH_SCOPE.md).
+
+---
+
 ## 2026-10-26 — accepted limits and independent next questions
 
 [QR-LD037](../track_b/intrinsic_law_selection_limits.md) establishes that intrinsic restriction consistency does not select a unique admitted law. Its explicit four-birth counterexample also preserves endpoint laws while changing history weights, but fails the diamond condition and is not DET-admitted. The prior family-scoped theorem remains intact. QR-LD038 now asks what ideal endpoint distributions identify about a finite weight prefix; no physical readout is supplied.

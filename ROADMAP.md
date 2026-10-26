@@ -1,3 +1,9 @@
+> Current direction (26 October 2026): mass/gravity investigation, older-idea review and a primitive/premise audit are open; RET SDK development is resumed. Historical blanket pauses do not override this direction. Actual dependent-claim, experiment, release, custody and usage holds remain scoped to their purpose. The finite-prefix inverse, conventional sampled-feedback certificate, qualified covariance-budget certificate and exact private SDK test partition have distinct review and coordinator disposition. See the current scope and holds below; the matter-link comparison is accepted only with its explicit causal/sourcing limitations; the mass/propagation author task, observation-supplier assessment and submitted primitive audit are not accepted results.
+
+[Current foundational scope, progress and holds](docs/coordination/FOUNDATIONAL_RESEARCH_SCOPE.md).
+
+---
+
 # Current checkpoint: law-selection limits and independent track progress
 
 The reviewed [law-selection result](docs/track_b/intrinsic_law_selection_limits.md) shows that intrinsic restriction consistency alone does not choose a unique admitted law. Its separate finite counterexample fails the diamond condition and is explicitly outside the admitted DET model.
