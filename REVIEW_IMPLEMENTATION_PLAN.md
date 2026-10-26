@@ -1,3 +1,9 @@
+## RI1511 — a constant-parameter family of admitted growth laws (2026-10-26 UTC)
+
+The independently reviewed result in [Part T](docs/track_b/native_symmetric_law_nonuniqueness_v1.md) shows that every fixed parameter strictly between zero and one gives an admitted transitive-percolation kernel in the unrestricted scalar-passive marked model. Complete ideal rows normalize, every ideal remains possible, and complete marked diamonds commute. Newborn marks remain independently fair. This family includes half-selection but does not force or prefer it; separately prescribed seed coefficients remain additional constraints.
+
+For each fixed interior parameter, maximal count has conditional transition 1 + Binomial(M, 1-p), and order width tends to infinity almost surely. The argument does not assert that maximal count itself tends to infinity or give a bound uniform over the parameter interval. The two-birth chain probability equals p, so different parameters give intrinsically different finite laws. The scalar formula has a conventional transitive-percolation antecedent; no model novelty, complete law classification, physical readout or empirical validation is claimed. Historical Parts A–S remain unchanged.
+
 ## RI1510 — unbounded width and finite-prefix agreement
 
 [Part S](docs/track_b/native_symmetric_law_nonuniqueness_v1.md) proves that under the admitted half-selection law, the next maximal count has conditional distribution 1 + Binomial(M_n, 1/2). Maximal-count excursions are arbitrarily large, and order width tends to infinity almost surely. For every fixed finite horizon, an admitted chain-tail continuation preserves the complete marked history distribution through that horizon but eventually has constant finite width. The two infinite-history laws are therefore mutually singular.
