@@ -1,3 +1,28 @@
+## 2026-10-26 — RET SDK re-engagement
+
+[RET SDK development is resumed](RET_RESUMPTION_2026-10-26.md) by Allan’s explicit instruction. Historical RET-only pause labels below are superseded for development; all other scientific and operational gates remain. The existing RET owner joins this coordination loop, with one tooling pilot at a time and no new schedule.
+
+## 2026-10-26 — reviewed progress and next independent questions
+
+Five new packets have coordinator dispositions. QR-LD032 proves exact finite marked-history agreement with different long-run density; [the full proof](../track_b/finite_prefix_nonidentification.md) states the fixed-law quantifiers and assumptions. M-F016 accepts the common-budget quadratic robustness criterion and separate zero-baseline test. E-Q004 accepts a conditional two-step excitation/information result. NE-Q012 accepts a relative-sign construction under proposed coherent two-box access. CE-Q003 accepts two finite calculations and closes both proposed computational savings because matched conventional methods already obtain them. None establishes a physical DET prediction or execution permission.
+
+| Track | Accepted progress | Current independent question or specific gap |
+|---|---|---|
+| Native geometry / gravity | For each chosen finite horizon, one fixed admitted alternative agrees through that horizon yet has density tending to zero in mean/probability; the fixed-p comparator tends to one almost surely. | QR-LD033 studies uniform vertex deletion versus chronological truncation. It remains unreviewed. A native physical prediction and observation channel remain absent. |
+| Measurement / public data | With one shared input perturbation ball, valid strict contrast is equivalent to sixteen positive quadratic minima and a separate strict distance-to-kernel bound. | Actual useful radii, calibration, rounded-output discrepancies and caller/storage guarantees remain missing. A gain-calibration follow-up was stopped as duplicate: the earlier accepted robustness packet already proves common-gain invariance and nonuniform reversal. Next question selection must use that recovered acceptance. No replay was repeated. |
+| Relational State | In the stipulated synthetic two-step model, no excitation carries no G information; a 600 J heater pulse yields different, overlapping observation laws available to both arms. | E-Q005 asks for a single-record information ceiling and error bound. Full preparation, reset, latent restoration and source-to-reset costs remain open. |
+| Energy | The proposed common-axis, equal-magnitude two-box word separates relative sign with complete-row TV 3/40; an ordinary matched quantum model gives the same rows. | NE-Q013 studies unknown magnitudes and the point where nuisance row sets overlap. Physical coherent access, orientation/calibration, readout/reset, time and energy premises remain missing. |
+| Comp-Sci | Conditional-prefix query reuse and proposed global mark-bias evaluation show no extra saving beyond competent shared DP and symbolic reduction. | CE-Q004 checks primary literature and applicability before selecting at most one different paper question. No candidate, speedup or benchmark execution is admitted. |
+| Free Thinker | FT054 was closed without forwarding or scientific adoption. | FT055 is a bounded philosophical round on what a valid distinction leaves unexplained; its journal remains private and autonomous. |
+
+These are separate completion and waiting states. A validation hold blocks the dependent claim or experiment. An independent question may proceed on accepted inputs, with one bounded author package, a distinct reviewer and coordinator disposition. Duplicate or unpromising questions are closed; activity is not a quota. All scientific, custody, protected-validation, ABSTAIN, Status M, zero-qualification, shared usage and RET-only gates remain. The hourly and Monday schedules are unchanged.
+
+Exact accepted versions are identified by the following coordinator disposition hashes: QR-LD032 `acfbfeaab8de74c7d633f00cd248048cccdae37757a5edb62b82ca5783b55a3b`; M-F016 `84963772940e024ead729d889b11c1ef68c70317a836a92e9c35407ffc3b0bc1`; E-Q004 `c3b5fc2b48fd6fc5a903303069018b30670c692a0c78e40c0674ba37849d89cb`; NE-Q012 `5777b842493179e009624bc98d7b00b3ef5842e4785f2d20513d238b294d2a6b`; CE-Q003 `731629904df413e0aa5c936a67ed65c6d8edc45c68586bcec41988eeef7a7d70`. Historical author evidence limits remain: some packets retain only attributed readback/usage/completion records, and older Energy dispositions lack exact accepted author-body pins. New conditional algebra was independently checked; these limits were not repaired by current hashes.
+
+---
+
+The following material records the earlier assignment checkpoint, before the dispositions above.
+
 # Independent questions while validation waits
 
 Allan directed on 26 October 2026 that every research track should continue through worthwhile independent ideas when a particular question is awaiting validation. A hold applies to its stated result, experiment and dependencies. It does not by itself put the whole track on hold.
