@@ -1,3 +1,7 @@
+## 2026-10-26 — independent questions while validation waits
+
+Allan directed all tracks to continue through justified independent ideas while specific validation remains pending. [Current gaps and assignments](TRACK_MOMENTUM.md) separate experimental holds from paper questions: M-F016 joint robustness, E-Q004 excitation/observability, NE-Q012 relative generator signs, CE-Q003 new workload screening and a bounded philosophical round. These are unreviewed investigations; QR-LD032 still awaits coordinator adjudication. Earlier accepted Energy matrices exist, so a narrowed source-packet omission is not a programme-wide model gap. All scientific, review, custody, usage and execution gates remain.
+
 ## RI1515 — fixed-law order-density dependence (2026-10-26 UTC)
 
 The independently reviewed and accepted [Part X](../track_b/native_symmetric_law_nonuniqueness_v1.md) gives one fixed positive subset-weight law under the unrestricted marked contract. Choosing each old subset with its declared cardinality weight and taking downward closure yields complete normalized ideal rows and marked commutation identities, with fair bits and scalar payloads retained.
