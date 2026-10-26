@@ -1,3 +1,11 @@
+## RI1510 — unbounded width and finite-prefix agreement
+
+[Part S](../track_b/native_symmetric_law_nonuniqueness_v1.md) proves that under the admitted half-selection law, the next maximal count has conditional distribution 1 + Binomial(M_n, 1/2). Maximal-count excursions are arbitrarily large, and order width tends to infinity almost surely. For every fixed finite horizon, an admitted chain-tail continuation preserves the complete marked history distribution through that horizon but eventually has constant finite width. The two infinite-history laws are therefore mutually singular.
+
+This does not conflict with Part R's approximation for one fixed stopped observation: when its stopping time is finite almost surely under the reference law, the output distance tends to zero along different continuations as the preserved horizon grows. No single different law matches every horizon, and no uniform rate, finite certificate of future width, or unbounded waiting-cost control is claimed.
+
+The result concerns the declared mathematical law family. It supplies no preferred law, physical clock or dimension, metric, gravity, readout, efficient algorithm or empirical validation. Historical results and their exact evidence limitations remain intact.
+
 ## RI1509 — finite observations and a termination counterexample
 
 [Part R](../track_b/native_symmetric_law_nonuniqueness_v1.md) publishes the independently accepted finite-observation theorem. For each admitted law and finite horizon, Part Q supplies a chain-tail continuation with exactly the same complete finite-prefix distribution. For one fixed common nonanticipating stopped observation, including a cemetery outcome on nontermination, output total variation is at most the original law's probability of stopping after that horizon. Almost-sure stopping under the original law makes this bound tend to zero along the chosen continuations.
