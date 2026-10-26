@@ -2930,3 +2930,197 @@ No claim asserts that arbitrary varying/state-dependent p is admitted, that any 
 The checked obligations include the exact literature-note attribution, complete normalization, factor1-p diamonds, fair-mark/scalar-map embedding, survival parameter1-p, fixed-p uniformity of the block bound, and two-birth distinction. The proof and review retain their declared source-access and evidence limits.
 
 The original author and review records retain their recovered packaging, display and readback failures. All inherited failures and the Part P author’s recorded 65-second NONCOMPLIANCE remain unwaived. All original custody, protected-validation, independent-review, ABSTAIN, Status M, zero-qualification, RET-only pause, Boundary separation and execution gates remain.
+
+## U. Endpoint likelihood and birth-order information
+
+**Acceptance and scope.** This part records the independently reviewed and accepted fixed-horizon endpoint-likelihood result for Part T’s constant-parameter family. Part A supplies the model, and Part R retains the finite-prefix identifiability limit. Statistical sufficiency does not recover the realized history or supply a physical observation channel.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual proof and finite examples only.
+
+**Result.** At a declared fixed horizon N, forgetting birth labels loses no statistical information about p within the accepted constant-p family. Either the marked or unmarked terminal order up to isomorphism is sufficient. The intrinsic pair (number of covers, number of incomparable pairs) is already sufficient. This does not recover the realized history, supply a physical channel, or identify a law in the unrestricted admitted family.
+
+### 1. Exact history and observation spaces
+
+Fix one p in (0,1) for the entire law. Use the unrestricted scalar-passive marked contract of Part A and the accepted constant-p law of Part T, not the separately prescribed seed.
+
+A canonical history h of N births is the sequence
+\[
+h=((S_1,b_1),\ldots,(S_N,b_N)).
+\]
+At birth j, the old carrier is [j-1], S_j is an actual ideal of its current order, and b_j is the independently fair immutable bit on the new vertex j. Its strict past is exactly S_j. Thus birth labels remain in the history; no ideal occurrences are quotient-identified. The empty history covers N=0.
+
+The terminal marked order on [N] is naturally labeled: x<y implies x's label is smaller. It determines the whole history, since each prefix is its induced restriction and S_j is the strict past of j. Conversely every such marked order determines one legal history. Labels here are birth indices, not extra random names.
+
+We consider two deterministic endpoint maps: T_m(h)=[C,r], retaining bits under mark-preserving order isomorphism, and T_u(h)=[C], forgetting bits as well as birth labels. Binary symbols are fixed, not identified by a global bit flip. N is fixed before observation and is a birth count, not physical time. No stopped or data-selected horizon is being analyzed.
+
+### 2. Intrinsic likelihood factorization
+
+Define L(C) as the number of cover relations x<y with no z satisfying x<z<y. Define I(C) as the number of unordered incomparable vertex pairs.
+
+At birth j, Max(S_j) consists precisely of j's lower covers. Later births cannot insert an intermediate vertex below an existing j: every new vertex is maximal when born and relations between old vertices persist. Conversely any terminal vertex between x and j was already present at birth j. Therefore
+\[
+\sum_{j=1}^N|\operatorname{Max}(S_j)|=L(C).
+\tag{1}
+\]
+Every older vertex outside S_j is incomparable with j, since j cannot precede an older vertex. Each terminal incomparable pair is counted once, when its later member is born. Hence
+\[
+\sum_{j=1}^N(j-1-|S_j|)=I(C).
+\tag{2}
+\]
+
+The accepted row formula and fair bits now give the exact canonical-history mass
+\[
+\Pr_p(h)=2^{-N}\prod_{j=1}^N
+p^{|\operatorname{Max}(S_j)|}(1-p)^{j-1-|S_j|}
+=2^{-N}p^{L(C)}(1-p)^{I(C)}.
+\tag{3}
+\]
+This is a product of complete unnormalized branch weights, not an inference from normalized terminal agreement. For any fixed incoming payload X, the composed scalar map is the same scalar in (3) times X. No informative quantum evolution is added. In particular, transitive comparable pairs that are not covers contribute neither exponent.
+
+### 3. Multiplicities and automorphisms
+
+Choose a representative C on an abstract N-element set V. Let e(C) count its natural labelings, namely order-preserving bijections lambda:V→[N], equivalently linear extensions. Let a(C)=|Aut(C)| and a_m(C,r)=|Aut(C,r)|. Empty-set conventions are e=a=a_m=1.
+
+Each lambda produces a naturally labeled order by transporting C, and also its marks when retained. Two labelings lambda,mu produce exactly the same marked order on [N] iff mu inverse composed with lambda is an automorphism of (C,r). This proves that the fibers are precisely the automorphism orbits. The action on labelings is free: an automorphism fixing a bijective labeling fixes every vertex. Every orbit therefore has a_m elements. Consequently the number of compatible canonical marked histories is
+\[
+K_m(C,r)=e(C)/a_m(C,r).
+\tag{4}
+\]
+There is no further division by N! or by mark permutations.
+
+For an unmarked endpoint, the identical argument gives e(C)/a(C) naturally labeled structural orders. Each permits exactly 2^N bit vectors, all distinct canonical marked histories. Thus
+\[
+K_u(C)=2^Ne(C)/a(C).
+\tag{5}
+\]
+All counts are independent of p. Multiplying (3) by the actual number of histories yields
+\[
+\Pr_p(T_m=[C,r])
+=\frac{e(C)}{2^Na_m(C,r)}p^{L(C)}(1-p)^{I(C)},
+\tag{6}
+\]
+\[
+\Pr_p(T_u=[C])
+=\frac{e(C)}{a(C)}p^{L(C)}(1-p)^{I(C)}.
+\tag{7}
+\]
+
+As a consistency check for forgetting marks, Aut(C) acts on the 2^N markings. A marking orbit has size a/a_m, so summing a/a_m over marking orbits gives 2^N. Summing (6) over those orbits therefore gives (7).
+
+An ordered list of named vertices in a chosen representative has e(C) possibilities, but it is not the canonical sample space: each canonical history appears a_m times when an endpoint identification is also specified. A uniform auxiliary choice among those identifications would give a uniform list among e(C) possibilities conditional on the marked endpoint. Without that declared lift, listing all extensions as distinct observed histories overcounts symmetries.
+
+### 4. Conditional histories and precise sufficiency
+
+All compatible histories have the same strictly positive mass (3). For t=T_m(h) or T_u(h), respectively,
+\[
+\Pr_p(h\mid T=t)=1/K_t
+\quad\text{on the fiber }T^{-1}(t).
+\tag{8}
+\]
+This conditional law is independent of p. Thus either endpoint is sufficient for p in this finite statistical family. More explicitly, an endpoint can be randomized into a compatible canonical history uniformly using a kernel independent of p; composing with its endpoint distribution reproduces the full history law. This concerns statistical information, not recovery of the actual forgotten history.
+
+Likewise U(h)=(L(C),I(C)) is sufficient: all canonical histories in a U-fiber have the same mass, and their number is independent of p. No minimality or computational-cost result is needed.
+
+For two parameters p,p', the history likelihood ratio, and the endpoint ratio for the observed endpoint, both equal
+\[
+(p/p')^{L(C)}
+\big((1-p)/(1-p')\big)^{I(C)}.
+\tag{9}
+\]
+The conditional proof (8), not this ratio alone, establishes the stated sufficiency.
+
+Other history encodings need not be uniform. If E is a deterministic coarsening of canonical histories, then conditional on endpoint t its probability is
+\[
+\Pr_p(E=e\mid T=t)
+=\frac{|E^{-1}(e)\cap T^{-1}(t)|}{K_t}.
+\tag{10}
+\]
+For example, forgetting names at every prefix can merge unequal numbers of histories. This changes multiplicities but not their independence from p.
+
+### 5. Complete small checks and negative controls
+
+These are manual finite examples, not executed enumeration.
+
+For N=0, the only endpoint and history have mass one; L=I=0. For N=1, the unmarked singleton has mass one and each marked singleton has mass 1/2. Both horizons carry no information about p.
+
+For N=2:
+
+| Endpoint | e | a | L | I | Unmarked mass |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Chain | 1 | 1 | 1 | 0 | p |
+| Antichain | 2 | 2 | 0 | 1 | 1-p |
+
+Each of the four marked chain endpoints has mass p/4. On the antichain, the 00 and 11 endpoints have a_m=2 and mass (1-p)/4 each. The mixed-bit endpoint has a_m=1, K_m=2 and mass (1-p)/2. Its two canonical histories have birth-bit sequences 01 and 10 and conditional mass 1/2 each. These seven marked endpoint probabilities sum to one.
+
+At N=3, the five unmarked types exhaust the possibilities:
+
+| C | e | a | L | I | Endpoint mass |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Antichain | 6 | 6 | 0 | 3 | (1-p)^3 |
+| One edge and an isolate | 3 | 1 | 1 | 2 | 3p(1-p)^2 |
+| One root below two leaves | 2 | 2 | 2 | 1 | p^2(1-p) |
+| Two roots below one top | 2 | 2 | 2 | 1 | p^2(1-p) |
+| Chain | 1 | 1 | 2 | 0 | p^2 |
+
+With r=1-p, the sum is r^3+3pr^2+2p^2r+p^2=1, since p^2=p^2r+p^3. The chain has three comparable pairs but only two covers, confirming the cover exponent.
+
+For the edge-plus-isolate endpoint, its three structural canonical histories have edges (1,2), (1,3), or (2,3). Exactly one has a two-chain prefix and two have a two-antichain prefix. Thus the two possible sequences of unmarked prefix isomorphism classes have conditional probabilities 1/3 and 2/3, not 1/2 each. All fair marks can be summed without changing this ratio.
+
+Dropping e/a from the N=3 endpoint probabilities would count the edge-plus-isolate only once. The resulting total is 1-2p(1-p)^2, not one. Renormalizing these wrong weights changes the family. A p-independent multiplicity cancels from the likelihood ratio for a fixed observed endpoint; that cancellation does not license omitting it from sampling probabilities.
+
+A genuinely information-losing coarsening is L alone. At N=3, L=2 groups the chain, fork and join, and
+\[
+\Pr_p(C\text{ is a chain}\mid L=2)
+=\frac{1}{1+2(1-p)}=\frac1{3-2p}.
+\tag{11}
+\]
+This depends on p, so L alone is not sufficient. The pair (L,I) avoids this loss.
+
+### 6. Scope and limits
+
+The result concerns a declared finite endpoint channel within one fixed parametric family. No sensor, physical time, geometry, quantum reconstruction, algorithmic advantage or novelty claim is supplied. Every finite canonical history and endpoint has positive probability for every interior p; one sample cannot identify p with certainty.
+
+The larger admitted family remains underdetermined. Part R supplies accepted different chain-tail continuations matching any chosen deterministic finite prefix, hence matching these endpoint observations at that horizon. Sufficiency for p within this subfamily does not identify a unique unrestricted law or its infinite tail.
+
+Part T supplies the independently reviewed and accepted family formula at its stated scope. Historical custody limits, display/parser failures and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Protected validation, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of this mathematics does not grant scientific or operational execution authority.
+
+### 7. Premises and manual obligations
+
+Status: premises accepted with the preceding result following distinct independent review and coordinator disposition.
+
+#### Accepted premises
+
+1. Part A supplies the unrestricted scalar-passive order model with immutable binary marks, all actual ideals, complete normalized positive rows, selected-mark locality, equivariance, complete marked diamonds, independently fair newborn bits and scalar payload maps. Its separately prescribed numerical seed is not imposed on the comparison family.
+2. Part T supplies the independently reviewed and accepted constant-parameter family at its exact stated scope. For each one fixed p in (0,1), q_p(P,r,S)=p^|Max(S)|(1-p)^(|P|-|S|) is admitted. The fair mark probability remains1/2.
+3. Part R supplies the independently reviewed and accepted finite-prefix continuation theorem, used here only at deterministic horizons to delimit identifiability in the larger family. Its historical source copies establish exact content identity, without asserting original-path identity through intermediate copies.
+4. Existing authorization, resource and coordination boundaries remain in force. Mathematical acceptance does not grant execution authority or waive a later resource ambiguity.
+5. The result retains its declared source and evidence limits. No new source access or reconstruction of historical custody is claimed by this presentation.
+
+#### Explicit statistical choices
+
+N is a deterministic declared nonnegative integer, fixed before data. A canonical history contains every actual ideal S_j on old birth labels[ j-1 ] and every fair bit b_j. It is equivalent to one naturally birth-labeled marked terminal order on[N]. No auxiliary ancestor-selection subset, named-vertex identification or physical observation is included in this sample space.
+
+The marked endpoint forgets birth labels up to mark-preserving order isomorphism; the unmarked endpoint additionally forgets all bits. Bit names0 and1 remain distinct for marked isomorphism. The incoming scalar-passive payload is fixed, not a parameter-dependent side channel. A birth index is not physical time or a claim that every present activity commits a record.
+
+Standard finite probability, fiber counting and free finite-group actions are mathematical tools. No external physical premise is added.
+
+#### Manual proof obligations discharged
+
+- Every precursor maximum is exactly a lower cover of the new vertex. Later maximal births cannot insert vertices into old intervals. Summing precursor maxima gives terminal cover countL.
+- Every older vertex outside the precursor is incomparable with the new vertex. Each unordered incomparable pair is counted at its later birth. Summing outside counts gives terminalI.
+- Complete marked-history mass is2^-N p^L(1-p)^I, including the empty history. The corresponding composed unnormalized scalar payload map has that coefficient.
+- Labelings of a fixed representative give the same natural labeled marked endpoint exactly along Aut(C,r) orbits. The action is free, so the marked canonical-history count is e(C)/a_m. The unmarked structural count is e(C)/a, with2^N independent mark vectors per structural history.
+- Endpoint multiplicities are independent ofp. Mark-orbit counting gives sum a/a_m=2^N, checking agreement of the marked and unmarked formulas.
+- Conditional on either endpoint, canonical histories are uniform over the compatible fiber independently ofp. The count pair(L,I) also has this property, establishing finite statistical sufficiency within the fixed-p family.
+- Other history encodings push forward this uniform conditional law with their own fiber multiplicities. Uniformity does not transfer automatically to lists of named extensions or sequences of unmarked prefix classes.
+- N=0,1,2 are checked completely, including the symmetric mixed-bit two-antichain. All five unmarked N=3 endpoint types give a normalized table.
+- Edge-plus-isolate has three canonical structural histories but only two unmarked prefix-class sequences with multiplicities1 and2. Dropping its factor3 breaks normalization.
+- L alone loses parameter information: at N=3, conditional chain probability givenL=2 is1/(3-2p). Correct endpoint multiplicities cancel from likelihood ratios for a fixed outcome but remain necessary for the probability law.
+
+#### Limits, provenance and review
+
+No assertion concerns a stopped/random horizon, empirical channel, preferredp, unrestricted-law classification, physical clock/geometry/gravity, quantum derivation, efficient counting or algorithmic advantage. Sufficiency permits a p-independent conditional reconstruction in distribution, not recovery of the actual hidden history. Full finite support prevents certainty aboutp from one endpoint. Part R's matching continuations prevent promotion to unrestricted-law or tail identifiability.
+
+The original proof and distinct review records retain their recovered display, parser and readback failures, input-identity checks and completion-evidence limits. Inherited failures and the Part P author's 65-second substantive breach remain unwaived. Hash/readback checks establish artifact identity, not mathematical correctness or reconstructed historical custody.
+
+All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution/publication gates remain. Acceptance of the stated mathematics does not remove these requirements.
