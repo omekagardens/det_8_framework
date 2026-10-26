@@ -1148,3 +1148,123 @@ All results remain within the declared finite model and \(N=4\) counterexample. 
 - **Multiplicity:** natural-history probabilities already include fair factors. The common factor 2^-3 cancels in the displayed posterior; isomorphism-class multiplicity would multiply both component weights equally. No new factorial, support restriction or duplicate orbit weight.
 - **Limits:** No latent physical sector, hidden memory, Bayesian calibration, law selection, all-size extension, efficiency, empirical result or new quantum dynamics.
 - **Gates:** distinct review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation and physical/execution gates unchanged.
+
+## K. Self-orbit symmetrization is closed through four births
+
+**Dependencies and review.** This part uses the model and controls in Parts A–B and the exact whole-law mixture criterion in Part J. The theorem received distinct mathematical review and coordinator acceptance for every admitted law through four births with the stated empty and singleton rows. Its lower-layer formulas are necessary consequences of admission, not a sufficient free-parameter classification. Parent-three rows remain arbitrary within that admitted class, and the result proves selected-mark locality rather than universal mark independence.
+
+**Accepted conditional finite theorem.** Every admitted law through \(N=4\), with empty start and the prescribed singleton row \((2/3,1/3)\), has an admitted equal whole-law average with its own global mark flip. The proof covers the entire declared class, including arbitrary admitted parent-three rows. It does not fix the historical later seed or infer closure at larger horizons.
+
+### 1. Statement and mixture reduction
+
+Retain strictly positive complete ideal support, immutable independently fair binary marks, equivariance, complete transported marked diamonds, selected-mark locality on proper ideals, and scalar-passive payload. Let \(F\) flip every mark in a complete history and \(L^F=F_*L\). Its structural kernel is
+\[
+ q^F(P,r,S)=q(P,1-r,S).
+\]
+Global flipping preserves every model obligation: it transports all old/newborn marking cases, preserves fair bits, and preserves agreement of marks on a selected ideal. It also preserves the fixed empty and singleton rows.
+
+For the equal whole-law mixture \(\bar L=(L+L^F)/2\), accepted Part J gives
+\[
+ \bar q(P,r,S)=\omega(P,r)q(P,r,S)
+ +(1-\omega(P,r))q(P,1-r,S),\qquad
+ \omega(P,r)=\frac{Z(P,r)}{Z(P,r)+Z(P,1-r)}, \tag{1}
+\]
+where \(Z\) is the probability of one specified natural prefix encoding. These are positive finite masses, including the fair-mark factors.
+
+The common endpoint encoding lift and prefix summation show that (1) realizes exactly \(\bar L\). Positivity, normalization, independently fair newborn bits, parent sufficiency, equivariance and every marked diamond through four births follow from the accepted mixture/prefix-potential result. Both components retain the prescribed parent-zero/one rows. Only proper-slot locality requires further proof.
+
+For markings \(r,r'\) agreeing on a proper ideal \(S\), component locality makes \(v=q(P,r,S)=q(P,r',S)\) and \(v^F=q(P,1-r,S)=q(P,1-r',S)\). The accepted slot criterion is
+\[
+ \bar q(P,r,S)-\bar q(P,r',S)
+ =(v-v^F)\,[\omega(P,r)-\omega(P,r')]. \tag{2}
+\]
+
+### 2. Necessary lower-layer form for every admitted law
+
+Write \(a=2/3\) for the singleton empty probability, with full probability \(1-a=1/3\). At a two-chain \(x<y\), proper-slot locality forces
+\[
+ q(\varnothing)=c,\qquad q(\{x\})=f_i,\qquad
+ q(\{x,y\})=h_i:=1-c-f_i,\qquad i=r_x. \tag{3}
+\]
+The empty ideal reads no marks. The root ideal reads only its root mark. Complete normalization therefore forces even the full entry to be independent of the upper mark.
+
+At a two-antichain \(x\parallel y\), locality and equivariance initially give empty probability \(d\) and singleton probabilities \(g(r_x),g(r_y)\), using the same function \(g\) for both transported actual ideals.
+
+Take the complete diamond from a singleton \(x\), marked \(i\), with precursors \(\varnothing\) and \(\{x\}\). Empty-first gives an antichain then its old-root singleton; full-first gives a chain then its empty ideal. Canceling the common fair factor \(1/4\) gives
+\[
+ a\,g(i)=(1-a)c,\qquad g(i)=c/2\quad(i=0,1). \tag{4}
+\]
+This holds for both newborn bits without restriction. Hence every two-antichain row is
+\[
+ (d,c/2,c/2,k),\qquad k=1-d-c. \tag{5}
+\]
+All displayed entries \(c,d,f_0,f_1,h_0,h_1,k\) are positive because they belong to the original admitted law.
+
+Equations (3)–(5) are **necessary forms derived from the model**, not a chosen parameter family. No historical values for \(c,d,f_i\), or any parent-three coefficient \(e\), are imposed. Nor is every positive parameter tuple asserted to extend: the starting law is already admitted through four births.
+
+### 3. Complete three-birth prefix-weight analysis
+
+Let \(w(P,r)\) be the structural product along one natural history producing \(P,r\). Complete marked diamonds and equivariance make it independent of the chosen natural encoding; the actual per-encoding mass is \(Z(P,r)=2^{-|P|}w(P,r)\). Normalized later transitions cannot change this prefix mass.
+
+For parent sizes zero, one and two, the structural weights are respectively \(1\), \(1\), and \(a\) for an antichain or \(1-a\) for a chain. All are mark-independent, so \(\omega=1/2\) there.
+
+Every three-element order is one of the following five shapes:
+
+| Parent | Structural weight for any marking | Possible mark dependence |
+|---|---|---|
+| Antichain | \(ad=2d/3\) | None |
+| Edge plus isolate | \((1-a)c=c/3\) | None |
+| Fork | \((1-a)f_i=f_i/3\) | Root mark \(i\) only |
+| Join | \(ak=2k/3\) | None |
+| Chain | \((1-a)h_i=h_i/3\) | Minimum mark \(i\) only |
+
+These weights follow directly from a legal construction of each shape: start with the appropriate two-chain or two-antichain and use its empty, root or full ideal. For the edge-plus-isolate alternative construction, \(ag(i)=(1-a)c\) is exactly (4). Every inherited marking and every role is covered.
+
+For completeness, the shape list is exhaustive by the number of comparable unordered pairs: zero gives an antichain, one an edge plus isolate, two a fork or join, and three a chain. With two pairs, a directed two-edge chain would force a third pair by transitivity. This is a finite structural argument, not a numerical search.
+
+All weights are per distinct encoding. No factorial, automorphism multiplier or extra bit factor is introduced. For the flip comparison the common factor \(2^{-3}\) cancels. Thus \(\omega=1/2\) on the three mark-independent shapes, while
+\[
+ \omega_{\rm fork}(P,r)=\frac{f_i}{f_i+f_{1-i}},\qquad
+ \omega_{\rm chain}(P,r)=\frac{h_i}{h_i+h_{1-i}}. \tag{6}
+\]
+Strict positivity makes every denominator legal. Leaf marks and upper-chain marks do not enter (6).
+
+### 4. Locality on every required slot
+
+Only parents of sizes zero through three generate transitions within \(N=4\).
+
+For every proper empty ideal, at any such parent, the original locality condition makes \(q(P,r,\varnothing)\) independent of all marks. Consequently \(v=v^F\), and (2) vanishes even if the posterior depends on marks. This uses no common empty probability across different unmarked shapes.
+
+For every proper ideal at parent size at most two, and at a three-antichain, edge-plus-isolate or join, the posterior is the constant \(1/2\). Equation (2) again vanishes for every pair of markings agreeing on the selected ideal.
+
+The only remaining parents are the three-fork and three-chain, with a nonempty proper ideal. Every such ideal contains the fork root or chain minimum, respectively. Markings agreeing on that ideal therefore have the same \(i\) in (6). Their posterior weights coincide, so (2) vanishes regardless of the admitted parent-three slot values or dependence on other selected marks.
+
+This exhausts all proper ideals and all markings. Full ideals remain exempt only from locality; their positive mass, complete normalization, fair bits and applicable diamonds were retained in §1. Thus the reconstructed mixture satisfies every declared finite-model obligation, proving the theorem. Since \(F^2\) is identity, \(F_*\bar L=\bar L\), so the resulting finite law is globally mark-name symmetric.
+
+The proof leaves the parent-three rows arbitrary within the admitted class. General selected-mark locality is proved; additional mark independence of every symmetrized row is not asserted.
+
+### 5. Controls and limits
+
+The printed Part B example is recovered by taking its admitted values \(c=1/5,d=1/4,f_0=1/6,f_1=1/3\), giving \(g=c/2=1/10\), \(k=11/20\), and its stated fork/chain posterior weights. Part B's complete positive local mixture remains the accepted special control.
+
+Part J's negative pair uses an independently halved parent-three scale in its second component. That component is not the first law's own mark flip. In particular, it gives different fork-empty component values \(e\) and \(e/2\); a genuine self-flip must give equal values on every proper empty slot. The arbitrary-pair nonconvexity result remains valid and does not contradict this self-orbit theorem.
+
+This result covers exactly the declared \(N=4\) class with the actual parent-zero/one prefix. No full historical parent-three seed, separately rescaled second component, larger horizon, or sufficiency of a free parameter family has been inserted. The proof's small-parent weight structure does not establish an all-size symmetrization prescription or a law-selection principle.
+
+No physical latent sector, calibrated readout, efficient procedure, empirical validation or DET physical derivation is supplied. Parts A–B provide the model and accepted controls; Part J supplies the accepted mixture-locality criterion. Preserve independent review, protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary/physical/execution gates.
+
+### 6. Self-orbit theorem premises and scope
+
+- **Claim:** for every admitted law through N=4 with exact empty start and singleton row (2/3,1/3), the equal whole-law average with its own global immutable-mark flip is admitted through N=4 and is globally mark-name symmetric.
+- **Model retained:** complete positive actual-ideal support; independently fair newborn bits; parent-state kernel; equivariance; complete transported marked diamonds; proper-slot selected-mark locality; arbitrary scalar-passive payload.
+- **Same-law requirement:** q^F(P,r,S)=q(P,1-r,S). Fix the law first, then flip every mark. No independent rescaling of the second component and no fresh arithmetic row averaging.
+- **Mixture reduction:** accepted Part J gives posterior-weighted qbar with omega=Z(r)/(Z(r)+Z(1-r)); automatic positivity, normalization, fairness, equivariance and finite diamonds. The remaining locality residual is (v-v^F)(omega(r)-omega(rprime)).
+- **Universal necessary lower-layer form:** locality gives chain row (c,f_i,1-c-f_i). Antichain proper singleton entries initially g(i); the singleton empty/full diamond forces (2/3)g(i)=(1/3)c, so g=c/2 and the full antichain row is (d,c/2,c/2,1-d-c). This is derived for every admitted law, not restricted to printed numerical seed values.
+- **No new admission classification:** the parameters are inherited from an already admitted law. No assertion that every positive tuple extends, and no historical parent-three coefficient is fixed.
+- **Prefix weights:** at sizes <=2, structural weights are mark-independent. At size3 the exhaustive five shapes have weights 2d/3, c/3, f_i/3, 2k/3, h_i/3 for antichain, edge-plus-isolate, fork, join and chain. Only fork root or chain minimum marks can affect these weights.
+- **Completeness:** the five three-vertex shapes follow from 0/1/2/3 comparable pairs and transitivity; all role markings and actual ideal occurrences are retained. Each table entry is per distinct natural encoding, not an orbit total; fair factors are counted once.
+- **Locality proof:** empty proper slots have equal component values under self-flip. Other slots at mark-independent-prefix shapes have constant posterior. Every nonempty ideal of a fork/chain contains the sole root/minimum whose mark controls its posterior. Thus no required slot can acquire unselected-mark dependence.
+- **Parent-three freedom:** arbitrary admitted rows at parent three are retained in the universal argument. Full slots are exempt only from locality, not from other obligations. General locality, not universal mark independence of the resulting rows, is proved.
+- **Controls:** accepted printed Part B is a special positive case. Part J's half-scale arbitrary pair is not a same-law flip and remains a separate valid nonconvexity counterexample.
+- **Limits:** No larger horizon, all-size theorem, physical latent sector, law selection, calibrated readout, efficiency or DET physical validation.
+- **Gates:** distinct review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation and physical/execution gates unchanged.

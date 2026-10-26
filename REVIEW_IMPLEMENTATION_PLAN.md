@@ -1,3 +1,11 @@
+# RI1502 — Same-law global-mark symmetrization preserves the four-birth class
+
+The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part K, now includes the independently reviewed and accepted QR-LD018 theorem. Every admitted law through four births, with empty start and singleton row (2/3,1/3), has an admitted equal whole-law average with its own global mark flip. The resulting finite law is globally mark-name symmetric. Arbitrary admitted parent-three rows remain within the theorem’s scope.
+
+Manual review checked the necessary lower-layer forms, all five three-vertex prefix shapes and every proper-ideal locality case. Empty ideals have equal self-flip component values; the remaining variable posteriors depend only on a root or minimum contained in every relevant nonempty ideal. Full-slot mass and all other model obligations remain intact. Source pins and retained bodies were checked separately; no scientific execution was performed.
+
+The derived parameter forms are necessary, not a claim that every positive tuple extends. General selected-mark locality does not imply universal mark independence of the resulting rows. Part J’s arbitrary-pair nonconvexity result remains a distinct valid control. No larger horizon, all-size prescription, physical readout or computational advantage is established. A five-birth closure question is prospective; existing validation, custody, physical and execution requirements remain.
+
 # RI1501 — Whole-law mixing can violate selected-mark locality
 
 The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part J, now includes the independently reviewed and accepted QR-LD017 result. At four births, two admitted finite laws have a whole-law midpoint whose unique reconstructed kernel fails selected-mark locality. The exact slot criterion separates unequal component probabilities from variation of their prefix likelihood ratio over unselected marks.
