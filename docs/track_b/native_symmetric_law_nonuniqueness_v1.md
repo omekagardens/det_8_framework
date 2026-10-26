@@ -878,3 +878,140 @@ Protected validation/custody, independent review, ABSTAIN, Status M, zero qualif
 - **Extra existence premise only for witnesses:** the pair's all-size existence retains the admitted maximal-deletion identity and extension sufficiency. The basic finite sufficiency/TV theorem uses diamonds, positivity, normalization, transport and the stated model, without that extension premise.
 - **Failure control:** the accepted finite \(q_0\)/global-mark-flipped \(q_1\) pair has identical unmarked endpoint laws but different marked three-fork probabilities \(1/144\) and \(1/72\) for all-zero marks. Selected height data is likewise insufficient in that example.
 - **Limits:** no infinite unlabeled endpoint result, size limit, physical observation or label access, efficient counting, computational or energy advantage, calibration, repeated trials, intervention, law selection or new quantum dynamics. Payload remains scalar-passive.
+
+## I. An exact finite endpoint-law admission criterion
+
+**Dependencies and review.** This part asks when exact finite endpoint masses generate a law in the admitted model of Part A, using the encoding lift proved in Part H. The theorem, its finite locality countermodel and its admitted positive control received distinct mathematical review and coordinator acceptance. Selected-mark locality permits the whole unmarked parent and marks on the chosen proper ideal; it is not a spatial or relativistic locality condition. A prescribed prefix is an additional explicit constraint, and no historical seed is silently substituted.
+
+**Accepted conditional finite theorem and countermodels.** For a strictly positive normalized mass on every marked endpoint class at a fixed finite horizon, its uniform encoding lift automatically supplies positive normalized parent-state transitions, equivariance and complete marked diamonds. Admission to the declared model is equivalent to the fair-bit and proper-slot locality equations below, plus separate equalities for any prescribed prefix. Locality is not automatic: a three-birth control satisfies the other requirements and violates it.
+
+### 1. Input and prefix potentials
+
+Fix \(N<\infty\), exact empty start, and the complete dictionary of natural histories, actual ideal occurrences and immutable binary marks. Let \(\mathcal A_N\) be marked order isomorphism classes, preserving mark symbols. Assume
+\(\pi(A)>0\) for every \(A\), and \(\sum_A\pi(A)=1\).
+
+Accepted Part H gives the encoding count
+\(m(A)=e(C)/|\operatorname{Aut}(C,r)|\) for \(A=[C,r]\). Define on every natural history \(h\) of length \(N\)
+\[
+ \mu(h)=\frac{\pi([h])}{m([h])}.
+\]
+Each naturally labeled final order/mark encoding determines its entire history. Distinct abstract extensions related by a mark-preserving automorphism are one encoding, not additional probability occurrences. Thus \(\mu\) is positive and normalized, with endpoint law exactly \(\pi\).
+
+For a natural prefix \(g\), put
+\[
+ Z(g)=\sum_{h:\,h|_{|g|}=g}\mu(h)
+     =\sum_{A\in\mathcal A_N}\frac{c_A(g)}{m(A)}\pi(A).
+ \tag{1}
+\]
+Here \(c_A(g)\) counts the distinct natural encodings of endpoint \(A\) that extend \(g\). Every prefix has a completion, so \(Z(g)>0\); \(Z(\varnothing)=1\). These are finite linear forms in \(\pi\) with fixed nonnegative rational coefficients. No scientific enumeration is required for this existence statement.
+
+### 2. What follows automatically
+
+If prefixes \(g,g'\) encode the same marked parent, their order/mark isomorphism is a permutation of the first \(n\) labels. Extend that permutation by the identity on future labels. It bijects their completions: internal old relations become the target natural encoding, all future labels exceed the old ones, and future relations and marks are transported. Each matched completion has the same marked endpoint class and hence the same \(\mu\). Therefore \(Z(g)=Z(g')\); write \(Z(P,r)\).
+
+For each actual ideal \(S\) and bit \(b\), write
+\[
+ Z_{S,b}(P,r)=Z(P+S,r+b),\quad
+ B_S(P,r)=Z_{S,0}(P,r)+Z_{S,1}(P,r),\quad
+ t_{S,b}(P,r)=\frac{Z_{S,b}(P,r)}{Z(P,r)}.
+ \tag{2}
+\]
+Here the child carries the actual newborn and its mark. Prefix partition gives
+\(\sum_{S,b}Z_{S,b}=Z(P,r)\), counting every ideal/bit event separately, including isomorphic children and full slots. Hence \(t>0\), its complete sum is one, and it depends only on the marked parent and actual event. Transport proves equivariance.
+
+For incomparable births ending by \(N\), both routes telescope:
+\[
+ t_{S,b}(C,r)t_{T,c}(C+S,r+b)
+ =\frac{Z(D,r_D)}{Z(C,r)}
+ =t_{T,c}(C,r)t_{S,b}(C+T,r+c).
+ \tag{3}
+\]
+The transported terminal marked order \(D\) is the same. This includes equal precursors, empty/full base ideals and every newborn-bit pair. Thus complete marked diamonds already hold for the joint transitions. Scalar branch maps \(t_{S,b}\operatorname{id}\) preserve the arbitrary passive payload upon complete summation.
+
+Neither fair bits nor proper-slot mark locality was assumed in this argument.
+
+### 3. Finite necessary-and-sufficient equations
+
+For every parent of size \(n<N\), impose:
+
+**F — fair bits, linear in \(\pi\):**
+\[
+ Z_{S,0}(P,r)=Z_{S,1}(P,r)\quad\text{for every actual ideal }S.
+ \tag{F}
+\]
+Then the structural probability is \(q(P,r,S)=B_S(P,r)/Z(P,r)\), and \(t_{S,b}=q(P,r,S)/2\). Fairness holds conditional on the complete prefix and chosen ideal, as required.
+
+**L — selected-mark locality, bilinear in \(\pi\):** for the same unmarked \(P\), every proper ideal \(S\subsetneq P\), and all \(r,r'\) with \(r|_S=r'|_S\),
+\[
+ B_S(P,r)Z(P,r')=B_S(P,r')Z(P,r).
+ \tag{L}
+\]
+All denominators are positive, so this is exactly equality of the two structural probabilities. Full slots are exempt from L, but remain in F, normalization and every applicable diamond. Under F, either single-bit child mass can replace \(B_S\) on both sides, canceling a factor two.
+
+**P — optional prescribed prefix, separate linear equations:** for each declared structural entry \(q^*(P,r,S)\) with parent size below \(N\), require
+\[
+ B_S(P,r)=q^*(P,r,S)Z(P,r).
+ \tag{P}
+\]
+These are extra conditions for that declared seed, not part of the unrestricted finite class. Entries outside the horizon are not determined by this criterion. No historical seed or baseline is silently chosen or dropped.
+
+**Theorem.** The uniform lift of \(\pi\) arises from the declared finite model through \(N\), respecting a prescribed prefix when present, if and only if F, L and the applicable P hold.
+
+**Necessity.** Any admitted law with endpoint mass \(\pi\) has the same uniform lift by Part H. Its prefix probabilities therefore equal (1), and positive conditioning fixes (2). Its fair bits, locality and prescribed entries give F, L and P.
+
+**Sufficiency.** Define \(q=B/Z\). Positivity, complete ideal normalization and equivariance follow from §2. F supplies the independently fair bit factor; L gives precisely the required proper-slot locality. Equation (3), with the two fair factors retained, proves the complete unnormalized marked diamonds on arbitrary payloads. P enforces exactly the specified prefix. Products of the joint transitions telescope to
+\[
+ \prod_{j=0}^{N-1}t_{S_j,b_j}(P_j,r_j)
+ =\frac{Z(h)}{Z(\varnothing)}
+ =\frac{\pi([h])}{m([h])}.
+\]
+Summing all \(m(A)\) distinct encodings recovers the exact supplied \(\pi(A)\). This proves existence and uniqueness of the finite kernel through parent \(N-1\), not merely normalization of a candidate table.
+
+For \(N=0\) the conditions are vacuous and the only mass is the empty endpoint. At \(N=1\), F requires the two singleton-mark masses to be equal. Strict positivity and normalization are input conditions; F/P are linear and L is a finite family of degree-at-most-two equalities. No convexity, linear-feasibility or efficient-solving claim is inferred.
+
+### 4. Failure and positive controls
+
+**Biased marks.** At \(N=1\), give the zero-marked singleton mass \(1/3\) and the one-marked singleton \(2/3\). Both encoding counts are one. The lift is positive and normalized, but its child masses violate F. Arbitrary positive endpoint masses are therefore not admitted.
+
+**Locality is independently needed in the general finite class.** At \(N=3\), construct an auxiliary structural kernel with fair newborn bits. Its empty-parent entry is one; both singleton entries are \(1/2\). Put \(c(0)=1/8,\ c(1)=1/4\). The two-element rows are:
+
+| Parent | Empty | Other proper ideals | Full |
+|---|---|---|---|
+| Chain \(x<y\) | \(c(r_x)\) | \(\{x\}:1/4\) | \(3/4-c(r_x)\) |
+| Antichain \(x\parallel y\) | \(1/4\) | \(\{x\}:c(r_x),\ \{y\}:c(r_y)\) | \(3/4-c(r_x)-c(r_y)\) |
+
+Every entry is positive; chain full slots are at least \(1/2\), antichain full slots at least \(1/4\). Rows normalize and are equivariant. No prescribed historical prefix is asserted for this control.
+
+All diamonds through three births can be checked symbolically. At the empty base the singleton-empty factors are equal. At a singleton base marked \(i\), both empty precursors give structural product \(1/8\); both full precursors give \(1/8\); mixed precursors give \(c(i)/2\) on either route. These formulas hold for all newborn bits; the common fair factor is \(1/4\). Thus every required marked diamond holds.
+
+Define its endpoint masses by
+\[
+ \pi_{\rm aux}(A)=m(A)\,2^{-3}\prod_{j=0}^{2}
+ q_{\rm aux}(P_j,r_j,S_j),
+\]
+using any encoding of \(A\). The diamonds make this independent of the encoding; complete row normalization gives total mass one and full support gives positivity. Its uniform lift is its history law, so F passes.
+
+But on a two-chain the proper empty-ideal probability is \(1/8\) or \(1/4\) according to the root mark. The markings agree on the empty selected ideal. L fails. This proves locality is not a consequence of the other finite requirements. The construction is a rejected model candidate, not an admitted law or an all-size extension.
+
+**Positive control.** Take the complete endpoint law at \(N=3\) of accepted \(q_*\) in Part B. Part H reconstructs its actual kernel; independently fair bits and its mark-independent rows satisfy F and L. If that same prefix is explicitly prescribed, P also holds. This does not assert agreement with a different prescribed seed.
+
+### 5. Scope
+
+This is an exact finite mathematical admission criterion. It supplies no all-size continuation, efficient algorithm, experimental admission, sampled-data confidence, calibration, physical label access, law selection or new quantum dynamics. The locality countermodel has only the stated three-birth horizon. No unbounded independence search was undertaken.
+
+Part A fixes the admitted model; Part H supplies the accepted finite endpoint-law sufficiency theorem. The older witness in Parts C–D uses \(\lambda=1\) and \(\lambda=2\), not \(\lambda=1/2\); no witness is altered here. Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary/physical/execution gates remain.
+
+### 6. Premises, admission tests and scope
+
+- **Input:** one fixed finite horizon N, exact empty start and the complete finite dictionary of natural histories, marked endpoint classes and actual ideal/bit events. Every endpoint class has strictly positive mass pi, with complete sum one.
+- **Encoding convention:** immutable binary marks, mark-preserving isomorphisms, and distinct natural encodings counted by e(C)/|Aut(C,r)|. No factorial, orbit collapse or duplicate fair-bit factor.
+- **Lift and automatic results:** mu(h)=pi([h])/m([h]); finite completion sums define positive prefix masses Z. A permutation of old labels, fixing future labels, bijects completions of isomorphic marked prefixes. Thus Z depends only on the marked parent. Child/parent ratios are positive normalized parent-state transitions, equivariant and satisfy complete marked diamonds by telescoping.
+- **F:** each actual ideal's two bit-extension masses are equal. These linear equations supply q/2 joint transitions and conditional independently fair newborn bits.
+- **L:** for a proper ideal S and markings agreeing on S, cross-multiply B_S/Z ratios, where B_S is the sum of the two child masses. These bilinear equations impose exactly selected-mark locality. Full slots are exempt from L only, not from support, normalization, fairness or applicable diamonds.
+- **P:** any explicitly prescribed prefix adds separate linear equations B_S=q*Z for its declared entries below N. No particular historical seed is silently incorporated or discarded; entries beyond the horizon need separate information.
+- **Iff proof:** admitted kernels must induce the uniform Part H lift, so their conditional probabilities force F/L/P. Conversely these equations supply every finite-model obligation, and telescoping yields exactly pi/m on histories and pi on endpoints. The kernel is unique through parent N-1 within this finite scope.
+- **Constraint types:** input positivity/normalization; linear F/P; degree-at-most-two locality equations. No convexity, linear feasibility, efficient solver or sampled-data admission is claimed.
+- **Negative control:** N=1 singleton-mark masses 1/3 and 2/3 are positive normalized but violate F.
+- **Locality independence:** a three-birth auxiliary fair-bit kernel has singleton row (1/2,1/2); chain row (c(root),1/4,3/4-c(root)); antichain row (1/4,c(first),c(second),3/4-c(first)-c(second)), with c(0)=1/8,c(1)=1/4. It is positive, normalized, equivariant and satisfies all finite marked diamonds; its induced endpoint law passes F but its chain-empty entry violates L. This rejected candidate is not claimed to match a prescribed historical prefix or extend beyond three births.
+- **Positive control:** accepted q* at N=3 gives a complete endpoint law satisfying F/L; P holds when that same prefix is declared.
+- **Gates:** distinct scientific review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation, physical and execution gates unchanged. No all-size, observation, efficiency, empirical admission, law-selection or new quantum-dynamics result.

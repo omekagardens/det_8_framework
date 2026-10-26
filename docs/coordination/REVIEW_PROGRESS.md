@@ -1,3 +1,11 @@
+# RI1500 — Exact admission tests for a finite marked endpoint law
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part I, now includes the independently reviewed and accepted QR-LD016 criterion. At a fixed finite horizon, strictly positive normalized masses on all marked endpoint classes lift uniformly to natural encodings. The resulting joint transitions automatically have full support, normalization, parent-state dependence, equivariance and complete marked diamonds. Admission to the declared finite model is equivalent to linear fair-bit equations F and degree-at-most-two locality equations L, with separate linear equations P for any explicitly prescribed prefix.
+
+Manual review checked the necessity and sufficiency argument, exact multiplicities, positive prefix ratios, finite edge cases and every required diamond of the three-birth control. That auxiliary control passes fairness but fails proper-slot mark locality; it is rejected and carries no prescribed historical-seed or all-size claim. The accepted q-star endpoint law supplies the positive control. Source pins and retained bodies were checked separately; no scientific execution was performed.
+
+The criterion takes an exact complete distribution and a fixed finite dictionary as inputs. It establishes no all-size continuation, efficient solver, empirical admission or physical observation. The next bounded question concerns mixtures of whole laws and whether selected-mark locality survives; it is prospective. Part B’s special symmetrization does not establish general mixture closure. Existing validation, custody, physical and execution requirements remain.
+
 # RI1499 — Complete finite marked endpoint laws retain the finite history law
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part H, now includes the independently reviewed and accepted QR-LD015 theorem. Within the declared admitted model, the complete marked endpoint distribution at a fixed finite horizon determines the natural-encoding history law and every earlier actual ideal/bit transition. The conditional rule is uniform over distinct encodings, counted by linear extensions divided by mark-preserving automorphisms. Complete endpoint and history total-variation distances are equal.
