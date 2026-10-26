@@ -1,3 +1,11 @@
+## RI1515 — fixed-law order-density dependence (2026-10-26 UTC)
+
+The independently reviewed and accepted [Part X](../track_b/native_symmetric_law_nonuniqueness_v1.md) gives one fixed positive subset-weight law under the unrestricted marked contract. Choosing each old subset with its declared cardinality weight and taking downward closure yields complete normalized ideal rows and marked commutation identities, with fair bits and scalar payloads retained.
+
+For this law, the comparable-pair fraction tends to zero in mean and in probability. The proof bounds selected-subset size, counts forward paths using independence across births, and separates early vertices before taking the two limits in their declared order. Almost-sure density zero is not established.
+
+Together with Part W’s almost-sure density-one result for every fixed interior-parameter member of Part T, this is a concrete law-dependence result. Neither construction is selected by the admission conditions. The separately prescribed seed, physical geometry/readout, optimal rates, novelty and computational advantage remain outside this claim. Historical theorem text and all custody, independent-review, protected-validation and execution boundaries are preserved.
+
 ## RI1514 — intrinsic order density in a fixed family (2026-10-26 UTC)
 
 The independently reviewed and accepted [Part W](../track_b/native_symmetric_law_nonuniqueness_v1.md) proves that the fraction of comparable pairs tends to one almost surely for every fixed interior parameter in Part T's admitted scalar marked family. An exact forward-edge coupling establishes the complete history law before independence is used. Explicit finite-size expectation and tail bounds accompany a square-subsequence proof with interpolation.

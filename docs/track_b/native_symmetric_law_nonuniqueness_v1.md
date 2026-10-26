@@ -3537,3 +3537,228 @@ No optimal rate, estimator/efficiency, arbitrary-law classification, continuum g
 The original proof record retains twelve complete source/control captures with exact native pins and capture-byte comparisons. Its assigned output directory was initially absent and was created explicitly; that observation and resolution are retained. No source-read failure occurred. The distinct review's recovered combined display overflow and metadata truncation remain recorded. Author-reported final verification at 14:01:47 UTC and supported chat completion at 14:02:19 UTC on 26 October 2026 remain distinct; the review's reported final completion was 14:11:59 UTC after its recorded full freeze readback and integrity check. These were within their respective hard deadlines. Original external final native sessions were not independently reopened. Historical display/parser/timing/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Hashes/readbacks establish artifact identity, not mathematical correctness or repaired historical custody.
 
 Subsequent results require their own distinct review, coordinator disposition and scoped publication. All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution gates remain.
+
+---
+
+## X. A fixed admitted law with vanishing order density
+
+**Acceptance and scope.** This part records an independently reviewed and coordinator-accepted fixed positive subset-weight law under Part A's unrestricted marked contract. Part T supplies the contrasting fixed-parameter family, and Part W proves density one almost surely for each member of that family. The present law instead has comparable-pair density tending to zero in mean and probability. It is not the separately prescribed seed, and almost-sure density zero is not asserted. Thus the admitted conditions alone do not force the Part W asymptotic behavior.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual mathematics only.
+
+**Result.** The fixed weights, unchanged throughout the law, define a strictly positive normalized all-ideal scalar-passive marked law. Its comparable-pair fraction R_N satisfies
+\[
+\mathbb E R_N\longrightarrow0,\qquad R_N\longrightarrow0
+\quad\text{in probability}.
+\]
+Thus the unrestricted admission conditions do not force the almost-sure density-one behavior accepted for each fixed-p family member. Almost-sure density zero is not proved here.
+
+### 1. Fixed law and exact transition formula
+
+Fix once and for all
+\[
+t_0=1,\qquad t_k=2^{-2^k}\quad(k\ge1),\qquad
+Z_n=\sum_{k=0}^n\binom nk t_k.
+\tag{1}
+\]
+For an n-vertex parent choose each actual subset A with probability t_|A|/Z_n, take its downward closure as the new vertex's strict past, and attach an independently fair immutable bit.
+
+For an actual ideal S, write s=|S| and m=|Max(S)|. The closure equals S exactly for subsets
+\[
+\operatorname{Max}(S)\subseteq A\subseteq S.
+\]
+There are binom(s-m,k-m) such subsets of cardinality k. Therefore
+\[
+G(s,m)=\sum_{k=m}^{s}\binom{s-m}{k-m}t_k,\qquad
+q(P,r,S)=\frac{G(s,m)}{Z_n}.
+\tag{2}
+\]
+This proves the proposed formula, rather than assuming its admission.
+
+Every t_k is positive, Z_n is finite and at least1, and every ideal has at least its maximal-generator subset. Thus every q is strictly positive. Closure events partition all actual subsets, so the complete ideal row sums to one. Empty and full ideals are included. The empty-parent row is G(0,0)/Z_0=1, and the empty ideal at any parent has probability1/Z_n.
+
+The formula ignores all marks, satisfying proper selected-mark locality and permitted full-slot dependence. Relabeling preserves n,s,m, proving equivariance. No ideal occurrences are merged into isomorphism classes in a row.
+
+### 2. Complete marked diamonds and all-size law
+
+Let C have n vertices and let S,T be any ideals of C, including empty, full-base and equal choices. In either incomparable-birth route the second old precursor excludes the other newborn. Its induced order, cardinality and maximal count are unchanged. Both structural products equal
+\[
+q(C,r,S)q(C+S,r+b,T)
+=\frac{G(|S|,|Max(S)|)\,G(|T|,|Max(T)|)}
+       {Z_nZ_{n+1}}
+=q(C,r,T)q(C+T,r+c,S).
+\tag{3}
+\]
+This holds for every inherited marking and both arbitrary newborn bits b,c. Full-base precursors remain eligible, including when they become proper in the intermediate parent.
+
+With branch map B_(S,b)(X)=q(P,r,S)X/2, each complete two-step route multiplies the same transported arbitrary complex positive-semidefinite payload by(3)/4. This verifies unnormalized marked maps, not merely normalized probabilities. Summing every one-step ideal/bit branch gives X.
+
+For an exact all-size construction, sample subsets A_j of[ j-1 ] independently across births with the prescribed cardinality-weight probabilities, and sample independent fair bits. The distributions depend only on j-1, not the previously formed order. Draw i→j iff i belongs to A_j and take transitive closure. Induction shows the new strict past is exactly the required downward closure. Conditional on every old canonical marked history, the next subset still has its specified distribution. Hence this construction realizes all rows(2), every marked finite-history law and its consistent infinite extension.
+
+Edges entering the same vertex are generally dependent. Independence is asserted only between the sampled subsets at distinct births. These auxiliary subsets are proof devices, not new committed observations or a physical mechanism.
+
+Manual row checks are:
+- Z_0=1.
+- Z_1=5/4, giving singleton empty/full row(4/5,1/5).
+- Z_2=25/16, giving two-antichain row(16,4,4,1)/25 and two-chain row(16,4,5)/25.
+
+All sums equal one and retain full slots. The singleton row differs from the model's separately prescribed seed(2/3,1/3). This example concerns the unrestricted admitted contract; no seed-match or preferred-law claim is made.
+
+### 3. Explicit selected-cardinality bound
+
+For n≥1 let K_n be the selected-subset cardinality, with
+\[
+w_{n,k}=\binom nk t_k,\quad
+\Pr(K_n=k)=w_{n,k}/Z_n,\quad \mu_n=\mathbb E K_n.
+\]
+For 1≤k<n,
+\[
+\frac{w_{n,k+1}}{w_{n,k}}
+=\frac{n-k}{k+1}\,2^{-2^k}.
+\tag{4}
+\]
+The k=0 ratio is not replaced by this formula because t_0 is separately defined.
+
+Define
+\[
+c_n=\max\{1,\lceil\log_2\log_2(2n)\rceil\},
+\qquad B_n=c_n+2.
+\tag{5}
+\]
+If k≥c_n, then 2^k≥log_2(2n), so(4) is at most1/2. When c_n≤n, it follows that w_(n,c_n+r)≤2^-r w_(n,c_n) whenever the index is allowed. Consequently
+\[
+\mu_n
+\le c_n+\sum_{r\ge1}r\,\Pr(K_n=c_n+r)
+\le c_n+\sum_{r\ge1}r2^{-r}
+=B_n.
+\tag{6}
+\]
+If c_n>n, the simpler bound mu_n≤n<c_n suffices. Thus(6) holds for every n≥1. B_n is nondecreasing and
+\[
+B_n\le3+\log_2\log_2(2n)=O(\log\log n).
+\tag{7}
+\]
+These are analysis bounds; neither the threshold nor n changes the fixed t_k.
+
+Conditional on K_n=k the subset is uniform among all k-subsets, since each has the same weight. Equivalently, exchangeability and sum of inclusion indicators=K_n give, for every old vertex,
+\[
+\Pr(i\in A_{n+1})=\mu_n/n.
+\tag{8}
+\]
+This is a single-edge marginal, not within-birth edge independence.
+
+### 4. Reachability among later vertices
+
+Fix delta in(0,1), then consider deterministic N≥2. Set
+\[
+\beta_N=\frac{B_N}{\delta N}.
+\]
+For i≥ceil(delta N) and j>i, consider a forward path
+\[
+i=v_0<v_1<\cdots<v_\ell=j.
+\]
+It requires one inclusion in each distinct target-birth subset A_(v_r). Independence across those births, together with(8), gives the exact path probability
+\[
+\prod_{r=1}^{\ell}
+\frac{\mu_{v_r-1}}{v_r-1}
+\le\beta_N^\ell,
+\tag{9}
+\]
+because v_r-1≥i≥delta N and mu_(v_r-1)≤B_N. No two required inclusions in this one path belong to the same birth.
+
+There are binom(j-i-1,ell-1) such paths of length ell. Comparability is equivalent to at least one forward path; reverse paths cannot occur. A union bound, requiring no independence between different paths, yields
+\[
+\Pr(i\prec j)
+\le\sum_{\ell=1}^{j-i}
+\binom{j-i-1}{\ell-1}\beta_N^\ell
+=\beta_N(1+\beta_N)^{j-i-1}
+\le\rho_N(\delta):=\frac{B_N}{\delta N}e^{B_N/\delta}.
+\tag{10}
+\]
+The bound is valid even when its right side exceeds one. For each fixed delta, (7) gives
+\[
+e^{B_N/\delta}
+\le e^{3/\delta}
+[\log_2(2N)]^{1/(\delta\ln2)}.
+\]
+A fixed power of log N times log log N divided by N tends to zero. Therefore rho_N(delta)→0 for every fixed delta>0.
+
+### 5. Density zero in mean and probability
+
+Let C_N count unordered comparable pairs and
+\[
+R_N=C_N/\binom N2,\qquad N\ge2.
+\]
+This is intrinsic to the unmarked order. Birth labels are used only to split the proof.
+
+Pairs whose earlier vertex i<ceil(delta N) number at most (ceil(delta N)-1)N≤delta N^2; bound their comparability probabilities by one. Every remaining pair obeys(10). Hence
+\[
+0\le\mathbb E R_N
+\le\min\left\{1,\frac{2\delta N}{N-1}+\rho_N(\delta)\right\}.
+\tag{11}
+\]
+First let N tend to infinity with delta fixed. Then limsup E R_N≤2delta. Since this holds for every delta in(0,1), letting delta decrease to zero proves E R_N→0.
+
+For every epsilon>0, Markov's inequality gives
+\[
+\Pr(R_N>\epsilon)
+\le\min\left\{1,
+\frac{2\delta N/(N-1)+\rho_N(\delta)}{\epsilon}\right\},
+\tag{12}
+\]
+and E R_N→0 proves R_N→0 in probability. The order of limits is fixed delta, then N→infinity, then delta→0; no silently changing law or weight sequence is used.
+
+### 6. Exact conclusion and limits
+
+This is one fixed all-size law, not Part W's triangular comparison using different p_N for different N. Admission was proved before its independent-birth representation was used.
+
+Part W gives R_N→1 almost surely for every fixed interior-p law. The present admitted example instead has E R_N→0 and R_N→0 in probability. If every admitted law had R_N→1 almost surely, bounded convergence applied to this law's0≤R_N≤1 would force E R_N→1, a contradiction. Thus density one depends on the selected law and is not forced by the unrestricted admission conditions.
+
+This argument does not prove R_N→0 almost surely. It also supplies no optimized rate, full asymptotic shape, width classification for this new law, physical dimension/readout/time, metric, gravity, quantum reconstruction, computational advantage or novelty claim. The conventional attribution in Part T retains its stated scope; no additional identification is asserted.
+
+The original authorizations and accepted-source dispositions retain their limits. The proof author's clipped authorization display was recovered in full, and the initially absent output directory was created; both observations remain recorded. Historical custody/failure limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived. Protected validation, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, Boundary and execution/publication gates remain. This mathematics has received distinct independent review and coordinator acceptance; it grants no execution or successor authority.
+
+### 7. Premises and manual obligations
+
+Status: mathematics accepted following distinct independent review and coordinator disposition.
+
+#### Sources and fixed law
+
+Part A supplies the unrestricted scalar-passive marked order contract. The original proof's supplied Part T family report and premises joined their actual acceptance record by exact bytes and hashes through intermediate locators; no original-path identity was asserted. Its supplied Part W density report, premises and review joined their actual acceptance record by original locator, size and hash. That theorem concerns fixed interior-p laws only. The original author checked both authorization sources and both control pins without opening nested originals or URLs. These are attributed source checks, not a claim that this public edition reopened historical sessions.
+
+This fixed law is accepted on its direct admission and density proofs, not by inheriting another family’s acceptance: t_0=1 and t_k=2^(-2^k) for k≥1, fixed once for the entire law. Each actual n-parent subset has probability t_|A|/Z_n, with Z_n=sum_k binom(n,k)t_k. Its downward closure is the strict past. Independently fair immutable bits and scalar payload actions are retained.
+
+The separately prescribed model seed is not imposed. The law's singleton row(4/5,1/5) differs from that seed. No parameter is fitted or changed with N.
+
+#### Admission obligations discharged before use
+
+1. Closure equals an ideal S iff Max(S) is contained in A and A is contained in S. Counting actual subsets by cardinality gives G(s,m)=sum_(k=m)^s binom(s-m,k-m)t_k and q=G/Z_n.
+2. All weights are positive and the normalizer is finite. Every ideal has a maximal-generator subset, and closure events partition all subsets. This gives strict support and complete normalization, including empty/full slots and the empty parent.
+3. Ignoring marks satisfies proper selected-mark locality. Cardinalities and maximal counts are invariant under transported relabeling.
+4. In every incomparable-birth diamond, each second old precursor retains its G numerator. Both routes give G(S)G(T)/(Z_n Z_(n+1)), including empty/full/equal choices, all inherited markings and both newborn bits.
+5. The fair bits multiply both transported complete unnormalized maps by1/4. One-step maps sum to the identity on any admitted complex positive-semidefinite payload.
+6. Independent subsets on deterministic carriers[j-1], with independent fair bits, realize these exact conditional rows at every canonical finite history. Transitive closure agrees with the sequential ideal construction, and consistent cylinders define one infinite law.
+7. Empty, singleton, two-chain and two-antichain rows are checked manually. No enumeration code is used.
+
+#### Sparse-density proof obligations
+
+For K_n=|A_(n+1)|, w_(n,k)=binom(n,k)t_k and mu_n=E K_n:
+
+- For k≥1, w_(n,k+1)/w_(n,k)=(n-k)/(k+1) times2^(-2^k). The k=0 ratio is treated separately, never silently reused.
+- With c_n=max(1,ceil(log2 log2(2n))) and B_n=c_n+2, the upper tail above c_n has successive weight ratio at most1/2. Its first excess moment is at most sum_(r≥1)r2^-r=2. If c_n>n the trivial bound suffices. Hence mu_n≤B_n for all n≥1, with monotone B_n≤3+log2 log2(2n).
+- Exchangeability, or uniformity conditional on cardinality, gives the exact marginal probability mu_n/n for selecting any particular old vertex.
+- Within-birth inclusions are not assumed independent. A particular forward path requires one inclusion at each of distinct target births, so its probability factors across independent subsets.
+- For fixed delta in(0,1), i≥ceil(delta N) and later j, all path-edge probabilities are at most beta_N=B_N/(delta N). Counting paths and using only a union bound gives reachability at most beta_N(1+beta_N)^(j-i-1)≤rho_N(delta)=B_N exp(B_N/delta)/(delta N).
+- For fixed delta, the explicit logarithmic bound makes rho_N(delta) tend to zero: its numerator is at most a fixed power of log N times O(log log N).
+- Pairs with an earlier label below ceil(delta N) number at most delta N^2. The rest satisfy the path bound. Thus E R_N≤min(1,2delta N/(N-1)+rho_N(delta)).
+- Take N→infinity for fixed delta, then delta→0, obtaining E R_N→0. Markov yields R_N→0 in probability.
+
+#### Scope and evidence
+
+R_N is the intrinsic unordered comparable-pair fraction at deterministic N≥2. Auxiliary subset edges and birth labels are proof devices, not added committed observables or a physical clock. The chosen weights define one law; proof thresholds depend on n but do not alter the law.
+
+Density zero in probability is not promoted to almost-sure density zero. The admitted example contradicts universal almost-sure density one because bounded convergence would otherwise force its expectation to tend to one. No optimal rate, shape/width classification, physical dimension, readout, metric, gravity, quantum result, runtime advantage or novelty is inferred.
+
+The original proof author freshly captured and fully read all twelve allowed source/control bodies. A combined display clipped one authorization and omitted the other; both retained complete bodies were displayed before proof drafting. The recorded exact native pins and capture-byte checks passed. Initial output-directory absence and its explicit creation remain recorded. Historical display/parser/custody limits and the Part P author's recorded 65-second NONCOMPLIANCE remain unwaived.
+
+Coordinator owns distinct review, disposition, publication and successors. All protected-validation/custody, independent-review, ABSTAIN, StatusM, zeroqualification, RET-only pause, Boundary and execution gates remain.
