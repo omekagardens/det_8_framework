@@ -1268,3 +1268,194 @@ No physical latent sector, calibrated readout, efficient procedure, empirical va
 - **Controls:** accepted printed Part B is a special positive case. Part J's half-scale arbitrary pair is not a same-law flip and remains a separate valid nonconvexity counterexample.
 - **Limits:** No larger horizon, all-size theorem, physical latent sector, law selection, calibrated readout, efficiency or DET physical validation.
 - **Gates:** distinct review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation and physical/execution gates unchanged.
+
+## L. Five births obstruct equal self-orbit symmetrization
+
+**Dependencies and review.** This counterexample received distinct mathematical review and coordinator acceptance. Its finite admission uses the accepted maximal-deletion identity and extension-sufficiency premise of Parts A and D; a necessity-only parameterization would not suffice. The construction retains the printed seed only through parent size two, modifies parent-three rows and defines the complete parent-four layer before taking the law’s own global mark flip. The first-failure-at-five-births conclusion also depends on Part K’s closure theorem for the stated four-birth class.
+
+**Accepted result: conditional explicit counterexample.** In the admitted model, equal whole-law averaging with a law's own global mark flip need not preserve selected-mark locality at N=5. The construction below specifies every row through parent size four. It uses the accepted maximal-deletion compatibility theorem, not an unverified coefficient vector. Together with accepted Part K, five births is the first failure horizon in the stated class with the empty row and singleton row (2/3,1/3) fixed.
+
+### 1. Exact finite component
+
+All marks are immutable and independently fair at birth. For each actual ideal S of marked parent (P,r), the complete branch is q(P,r,S) times the identity payload map, divided by two. A proper slot may read the whole unmarked parent and marks only in S.
+
+Retain the accepted printed rows through parent size two:
+
+- Empty parent: its sole ideal has probability 1.
+- Singleton: empty/full probabilities 2/3,1/3.
+- Two-chain, minimum mark i: empty/root/full probabilities c,f_i,h_i.
+- Two-antichain: empty/two actual singleton/full probabilities d,g,g,k.
+
+Here
+\[
+c=1/5,\quad d=1/4,\quad g=1/10,\quad k=11/20,
+\quad f_0=1/6,\ f_1=1/3,\quad h_0=19/30,\ h_1=7/15.
+\]
+Every lower entry lies in [1/10,1].
+
+For a proper ideal define the accepted potential, using the already specified smaller rows of this very component:
+\[
+u(P,r,S)=\prod_{\varnothing\ne A\subseteq K}
+q(P\setminus A,r|_{P\setminus A},S)^{(-1)^{|A|+1}},
+\qquad K=\operatorname{Max}(P)\setminus S.
+\]
+Smaller full occurrences use their actual full complements.
+
+Put
+\[
+\alpha=1/30000,\qquad \epsilon=1/300000000,\qquad
+\beta=\epsilon^7/32.
+\]
+At every size-three parent define
+\[
+q(P,r,S)=\alpha\,t(P,r,S)u(P,r,S)\quad(S\subsetneq P),
+\]
+where t=1 except when P is the three-chain x<y<z and S={x,y}; there t=1+r_y. Thus the exceptional multiplier is 1 or 2 and depends only on selected marks. Define every full entry by the complete normalization complement.
+
+At every size-four parent define
+\[
+q(P,r,S)=\beta u(P,r,S)\quad(S\subsetneq P),\qquad
+q(P,r,P)=1-\sum_{S\subsetneq P}q(P,r,S).
+\]
+This is a complete finite definition, over all orders, markings and actual ideals. No table search or coefficient optimization is required. The constants are conservative existence witnesses, with no optimality claim.
+
+### 2. Complete admission
+
+**Support and full mass.** A proper ideal omits some maximal vertex, so K is nonempty. All factors are positive. At size three, at most four positive-exponent and three negative-exponent factors occur. The lower bound 1/10 therefore gives
+\[
+10^{-4}\le u\le10^3.
+\]
+There are at most seven proper actual ideals. Consequently every size-three proper entry is at least epsilon, and their complete sum is at most
+\[
+7(2\alpha10^3)=7/15.
+\]
+Every size-three full entry is at least 8/15. Thus all rows through size three have entries in [epsilon,1].
+
+At size four, at most seven negative-exponent factors occur, so u<=epsilon^{-7}. At most fifteen proper ideals give total proper mass at most 15/32. Every full complement is at least 17/32. All proper entries are positive, every actual ideal is included, and every complete row sums to one.
+
+**Locality and equivariance.** Every smaller factor reads only marks in S: if S is proper this follows from lower locality; if S is full in a deletion parent, that parent is exactly S. The exceptional multiplier reads y in S and uses intrinsic chain positions. Hence proper locality holds at size three and then size four. Deletion subsets, chain positions and actual ideals transport under relabeling, so all rows are equivariant. Full complements retain the model's permitted full-mark dependence.
+
+**Diamonds through four births.** First consider the size-three proper rows alpha*u without the exceptional multiplier, with full complements. The accepted potential identity and common scaling prove every new diamond from a size-two base. Their full complements are positive by the same bound.
+
+Now apply t only to the initial-pair slot of a three-chain. If this slot occurs as a second precursor in a diamond, the intermediate parent is x<y<z and the first newborn must be its unique maximum z. The base is exactly x<y; both precursors must be the full base {x,y}. Thus the other route also uses the initial-pair slot of a three-chain with the same inherited mark r_y. Both routes acquire exactly the same multiplier 1+r_y, for every inherited marking and both newborn bits. No other diamond has a changed second slot. Changed size-three full entries cannot be second precursors of these incomparable births. Earlier diamonds are unchanged.
+
+This covers equal precursors, empty/full base ideals and every old/newborn marking; it is not a claim based only on normalized endpoint probabilities.
+
+**Diamonds through five births.** The modified prefix is now admitted through four births. The accepted potential theorem applies to this prefix. In every new diamond from a size-three base its identity is
+\[
+q(C,r,S)u(C+S,r+b,T)
+=q(C,r,T)u(C+T,r+c,S).
+\]
+Multiplying both sides by the common beta proves the size-four transition diamonds. Both second precursors are proper, including equal/full base precursors. The support and complement bounds above meet the extension hypotheses.
+
+Fair splitting gives the same factor 1/4 on both routes, with identical transported identity maps on arbitrary positive-semidefinite complex payloads. Complete one-step maps sum to identity. No payload restriction or normalized-state substitution occurs.
+
+Thus q is an admitted N=5 law, conditional only on the explicitly accepted potential theorem.
+
+### 3. Exact failure for this law and its own flip
+
+Fix this q completely, and only then set q^F(P,r,S)=q(P,1-r,S). Flipping transports all admission conditions, including fair bits and the unchanged zero/one-parent prefix.
+
+Take P to be the four-chain x<y<z<w and select the proper ideal S={x}. Write i=r_x, j=r_y. For the three-chain prefix, deletion of its unique maximum gives
+\[
+q_3(\varnothing)=\alpha c,\quad q_3(\{x\})=\alpha f_i,\quad
+q_3(\{x,y\})=\alpha(1+j)h_i,
+\]
+so its full probability is
+\[
+H_{ij}=1-\alpha(c+f_i+(1+j)h_i)
+      =1-\alpha-\alpha jh_i.
+\]
+The four-chain's per-encoding structural prefix weight is
+\[
+w(i,j)=h_iH_{ij}/3.
+\]
+Its actual marked mass is 2^{-4}w(i,j). This total order has a unique natural order encoding; no factorial or duplicate orbit weight appears.
+
+Let A=1-alpha and B_i=A-alpha*h_i. Choose markings
+r=(0,0,0,0) and r'=(0,1,0,0).
+They agree on S. Their equal-mixture posterior weights are
+\[
+\omega_{00}=\frac{h_0A}{h_0A+h_1B_1},\qquad
+\omega_{01}=\frac{h_0B_0}{h_0B_0+h_1A}.
+\]
+All quantities are positive. Their exact difference is
+\[
+\omega_{00}-\omega_{01}
+=\frac{h_0h_1(A^2-B_0B_1)}
+{(h_0A+h_1B_1)(h_0B_0+h_1A)}>0,
+\]
+because
+\[
+A^2-B_0B_1
+=\alpha A(h_0+h_1)-\alpha^2h_0h_1>0.
+\]
+For example, A>1/2, h_0+h_1=11/10, h_0h_1<1 and alpha<1/2 give a strictly positive bracket.
+
+Deleting the four-chain maximum in the root slot gives
+\[
+q(P,r,S)=q(P,r',S)=\beta\alpha f_0,\quad
+q^F(P,r,S)=q^F(P,r',S)=\beta\alpha f_1.
+\]
+The uniquely reconstructed kernel of the equal whole-law mixture is
+\[
+\bar q(P,r,S)=\beta\alpha\left(\frac13-\frac{\omega_{00}}6\right),
+\qquad
+\bar q(P,r',S)=\beta\alpha\left(\frac13-\frac{\omega_{01}}6\right).
+\]
+Their difference is exactly
+\[
+-\frac{\beta\alpha}{6}
+\frac{h_0h_1(A^2-B_0B_1)}
+{(h_0A+h_1B_1)(h_0B_0+h_1A)}<0.
+\]
+Thus this proper slot reads the unselected mark r_y after averaging. Selected-mark locality fails. Both component values and both posterior weights are exact, with explicitly defined positive rational constants.
+
+The accepted whole-law reconstruction result preserves the other mixture conditions and makes this kernel unique. An alternative admitted kernel cannot realize the same complete mixture while repairing the failed slot.
+
+### 4. Boundary and evidence
+
+Part K applies to this component's four-birth restriction despite its changed parent-three rows; all self-orbit averages through N=4 remain admitted in the declared class. The failure occurs at the next transition. Part J's earlier arbitrary-pair nonconvexity remains distinct: here the second component is exactly the first law's own flip, with no independent rescaling.
+
+This is a finite conditional counterexample, not an all-size result, scientific execution, law-selection principle or physical prediction. It rejects universal self-orbit closure at N=5, not the existence of particular symmetric laws.
+
+Part A supplies the admitted potential/extension premise; Parts A, B, D, H, I and J supply the seed, construction conventions and mixture criterion; Part K establishes accepted N4 closure. The potential identity and extension-sufficiency premise remain explicit dependencies.
+
+### 5. Premises and proof obligations
+
+#### Admitted premises
+
+1. The finite marked-order model in Part A: every actual ideal has positive mass; complete rows normalize; newborn bits are independently fair; proper slots read only selected marks; full slots may read all old marks; equivariance and complete transported marked diamonds are required; payloads are arbitrary complex positive-semidefinite objects acted on by scalar identity branches.
+2. The printed empty/singleton/two-parent seed is accepted. Only its rows through parent size two are retained. Historical parent-three or parent-four coefficients are NOT imposed.
+3. The maximal-deletion potential theorem is accepted, including its sufficiency statement: for an admitted smaller prefix its potential satisfies every inherited marked ratio identity, and a sufficiently small common positive scale with positive full complements supplies compatible next-layer rows. Merely knowing that solutions must have a component form would not suffice. This theorem is not re-proved here.
+4. Accepted Parts H/I/J give the common lift, prefix-conditioned mixture kernel, automatic preservation of all finite mixture conditions except locality, and reconstruction uniqueness. The exact locality difference is (v-vF)(omega(r)-omega(rprime)).
+5. Accepted Part K is the full N4-class closure result with fixed parent0/1 prefix.
+
+#### New construction, not an assumed coefficient witness
+
+- Define alpha=1/30000, epsilon=1/300000000 and beta=epsilon^7/32 exactly.
+- Compute the mathematical size-three potential from the retained seed. On every proper slot multiply by alpha. Additionally multiply just the three-chain initial-pair slot by 1+r_y, where y is its second vertex. Every full entry is the complete complement.
+- Compute the mathematical size-four potential from these modified smaller rows, including actual smaller full complements. Multiply every proper slot by beta and use the full complement.
+- These formulas specify all allowed finite rows. No numerical potential evaluation, enumeration, optimization or unlisted coordinate is assumed.
+
+#### Admission discharged manually
+
+- Lower entries belong to [1/10,1]. At size three at most four numerator and three denominator factors imply 10^-4 <= u <= 10^3. At most seven proper occurrences and multiplier <=2 imply total <=7/15; full >=8/15. Every proper entry >=epsilon.
+- All smaller entries then belong to [epsilon,1]. At size four at most seven denominator factors imply u<=epsilon^-7. At most fifteen proper occurrences give total <=15/32; full >=17/32.
+- A proper ideal omits a maximal vertex. All deletion factors are defined and positive. Full factors read only selected marks because their remaining parent equals that ideal.
+- Intrinsic chain positions and deletion sets are equivariant. The exceptional multiplier reads only a selected old mark.
+- The common-alpha size-three reference obeys the admitted potential identity. A changed initial-pair second slot forces the base to be a two-chain with both precursors equal to the full base. The two routes get the same inherited multiplier. All other diamonds are unchanged. Recomputed size-three full entries cannot be second precursors at this horizon.
+- The modified prefix therefore qualifies for the accepted size-four potential identity. Common beta preserves every new diamond, with all old/new marks and empty/full/equal precursor cases.
+- Independent fair bits and the common factor 1/4 yield complete unnormalized identity-map diamonds on all payloads, and normalized complete rows sum to the identity map.
+
+#### Failure discharged manually
+
+For the four-chain x<y<z<w, selected ideal {x}, the component prefix weight is h_i(1-alpha-alpha*j*h_i)/3. The q/qF posterior therefore changes between marks0000 and0100, although the selected mark is fixed. Both component root slots equal beta*alpha*f_i; the flipped value uses f_(1-i). Since f0 != f1 and the posterior difference is strictly positive, the exact mixed root-slot difference is strictly negative as displayed in Section 3 above.
+
+All factors are per natural encoding, with the common fair factor2^-4. The chain has unique natural order encoding. The global flip changes all four bits, but the formulas depend only on the first two. The second law has no independent alteration.
+
+#### Scope and stopping
+
+The conditional N5 counterexample and the accepted universal N4 result together establish the first failure horizon in this declared class. No classification of later horizons, all-size symmetrization, optimal constants, efficient algorithm, native physical selector, calibrated observation, geometry or DET physical validation follows.
+
+Scientific/custody/independent-review/ABSTAIN/Status M/zero-qualification/RET-only/Boundary/execution gates remain.
