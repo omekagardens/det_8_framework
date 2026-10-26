@@ -1,3 +1,12 @@
+A known stopping rule can change which histories reach an endpoint without destroying its information about the growth parameter. Part V proves this within the admitted constant-parameter marked family, under a declared finite cap and a seed and rule independent of the unknown parameter.
+
+The retained endpoint is sufficient when compatible histories receive their actual stopping weights. Those weights include earlier stop decisions and declared randomization; they need not be uniform or integer counts. A three-birth example checks the complete distribution across stopping lengths and shows unequal conditional history weights.
+
+The observation channel matters. In a two-birth counterexample, replacing every censored endpoint with one common symbol erases all parameter information, even though the censor probability itself is independent of the parameter. A protocol that never acquired the endpoint cannot treat it as available evidence.
+
+The result reconstructs the stopped-record law in distribution, not the history that occurred or its unobserved future. It makes no unbounded-stopping, physical-readout, efficient-algorithm or unique-law claim. Parts A–U remain byte for byte unchanged.
+
+Read the complete note: docs/track_b/native_symmetric_law_nonuniqueness_v1.md
 At a fixed birth count, how much information about the growth parameter survives when birth order is forgotten? Part U gives an exact answer within the admitted constant-parameter marked family: the terminal marked or unmarked order is sufficient for that parameter, and its cover and incomparable-pair counts already suffice.
 
 The result keeps the actual probabilities intact. Endpoint masses include the number of compatible canonical histories, with automorphisms accounted for. A three-vertex example shows why dropping that multiplicity breaks normalization; another shows why the cover count alone loses information. Coarse history encodings can have unequal conditional weights even when canonical histories are uniformly distributed within an endpoint fiber.
