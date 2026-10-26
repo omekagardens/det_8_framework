@@ -1,3 +1,12 @@
+# RI1508 — An admitted continuation with an eventual chain tail
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part Q, now proves that every complete admitted finite marked-kernel prefix can be preserved while extending the law so that only finitely many later births choose proper ideals, almost surely. The construction uses Part P’s finite sufficiency theorem and an explicitly chosen summable schedule.
+
+After the last exception, each newborn lies above the entire existing order. Height divided by cardinality tends to one, width becomes a finite random constant, and comparable-pair density tends to one. Earlier incomparable pairs persist: the resulting order need not be total or have width one. The exact tail bound requires no independence, and no finite observation certifies the last exception.
+
+This establishes an available continuation, without classifying all continuations or selecting a preferred law. The statistics supply no physical dimension, metric, gravity, clock or quantum dynamics.
+
+The inherited Part P author’s **65-second NONCOMPLIANT** finding remains unwaived. Available records support timely completion of the current continuation proof; its independent reviewer did not inspect the author’s raw final verification receipt. Distinct review and coordinator acceptance preserve those evidence limits and the prior historical text.
 # RI1507 — Finite maximal-deletion identity and sufficient extension
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part P, now contains the accepted standalone finite proof of the maximal-deletion identity and positive common-scale extension. Lower complete marked diamonds derive structural endpoint weights; the signed deletion product then gives the new identity without assuming the new-layer diamond. A sufficiently small common scale supplies positive normalized rows and complete transported scalar-map diamonds.

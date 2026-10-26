@@ -2169,3 +2169,205 @@ The ordinary structural weights w and auxiliary H are definitions from already s
 Distinct independent review examined the layer indexing, concrete marked terminal transport, exponent partition, all boundary cases, and the scope of the N5 application. This is sufficiency only; it is not a classification of arbitrary component-dependent scales. No source hash authenticates a theorem by itself.
 
 No historical novelty or exhaustive absence-of-proof claim is made. Part N remains outside the scientific scope of this proof.
+
+## Q. An admitted continuation with an eventual chain tail
+
+**Acceptance and scope.** This is an existence result above a complete admitted finite kernel prefix, using Part P's finite sufficiency theorem; no classification of all component solutions is assumed. The available records support timely completion of this continuation proof; its independent reviewer did not inspect the author's raw final verification receipt. That timing limitation is separate from the inherited Part P author's recorded 65-second noncompliance, which remains preserved below.
+
+Status: mathematics accepted following distinct independent review and coordinator disposition. Manual proof only.
+
+**Accepted result.** Every complete admitted finite marked prefix in the declared scalar-passive model admits a positive common-scale continuation in which only finitely many subsequent births use proper ideals, almost surely. Thereafter each newborn is above every previous vertex. Height/cardinality tends to one, width becomes a finite random constant, and comparable-pair density tends to one. The current model therefore does not exclude this particular asymptotic order structure.
+
+### 1. Model, accepted dependency and horizon
+
+A state is a finite order P with immutable binary marks r and an arbitrary complex positive-semidefinite payload. Every actual ideal S is eligible. Structural probabilities q(P,r,S) are positive and normalize over all ideal occurrences. Proper slots read only marks in S; full slots may read all old marks. Equivariance and complete transported marked diamonds hold. A newborn bit is independently fair, and its branch map is q/2 times the identity.
+
+Fix an integer h≥0. Preserve all supplied admitted rows on parents of size less than h, equivalently the complete history law through h births. This means a complete finite prefix of the kernel, not just one observed path. If h=0, first supply the forced empty-parent row q(empty,empty)=1. Set m=max(h,1). We choose only rows at parent sizes n≥m. Any already prescribed singleton row is preserved when h≥2.
+
+The mathematical dependency is Part P's accepted finite maximal-deletion identity and common-scale sufficiency theorem. It establishes that, from any admitted smaller prefix, the maximal-deletion potential is positive, equivariant and selected-mark local, satisfies every inherited marked ratio identity, and admits any common layer scale with positive full complements. Its author's recorded 65-second procedural breach remains NONCOMPLIANT; the later timely review and coordinator disposition permit mathematical reuse without waiving that breach.
+
+Parts A and D retain their historical conditional wording. We neither rewrite those records nor assume their full classification premise. Only accepted finite identity and common-scale sufficiency are needed here.
+
+### 2. Declare the continuation
+
+Suppose all rows below n are fixed, with n≥m. For every proper ideal S of every n-vertex marked parent define
+
+\[
+M(P,S)=\operatorname{Max}(P)\setminus S,\qquad
+u_n(P,r,S)=
+\prod_{\varnothing\ne A\subseteq M(P,S)}
+q(P\setminus A,r|_{P\setminus A},S)^{(-1)^{|A|+1}}.
+\]
+
+All factors use this same recursively constructed law, including its actual smaller full complements. Put
+
+\[
+U_n(P,r)=\sum_{\substack{S\subsetneq P\\S\text{ ideal}}}u_n(P,r,S),
+\qquad K_n=\max_{|P|=n,\ r}U_n(P,r).
+\]
+
+The sum counts all actual ideals separately. The maximum covers the entire marked layer represented on a fixed n-element label set, including parents unlikely under the chosen prefix. Part P gives \(0<K_n<\infty\). This is mathematical finiteness, not an enumeration or complexity claim.
+
+Choose explicitly
+
+\[
+\varepsilon_n=2^{-(n+2)},\qquad
+a_n=\frac{\varepsilon_n}{1+K_n},
+\]
+\[
+q(P,r,S)=a_nu_n(P,r,S)\quad(S\subsetneq P),\qquad
+q(P,r,P)=1-a_nU_n(P,r).
+\tag{1}
+\]
+
+Because n≥1, \(0<\varepsilon_n<1\), and
+
+\[
+0<a_nU_n(P,r)\le
+\varepsilon_n\frac{K_n}{1+K_n}<\varepsilon_n<1.
+\tag{2}
+\]
+
+Thus every proper slot is positive and every full complement exceeds \(1-\varepsilon_n\). Complete rows normalize. The single constant a_n across the whole layer preserves the accepted potential identity. Full complements cannot be second precursors of new incomparable-birth diamonds, since such a precursor excludes the first newborn. All old/newborn markings, empty/full/equal base precursors and the common fair factor 1/4 remain included. Locality, equivariance and complete scalar-map admission follow from Part P.
+
+Induction defines an admitted row at every finite parent size. No bound on the growth of K_n, uniform positive coefficient floor, mark independence of the structural law, extra gluing axiom or physical clock is assumed. The chosen epsilon sequence is an explicit mathematical selection, not a derived DET preference.
+
+### 3. The infinite classical history law exists
+
+Give vertices their birth labels. At each finite stage there are finitely many legal actual ideal/bit choices. For a legal marked history of k births define its cylinder weight by
+
+\[
+p(\gamma_k)=2^{-k}\prod_{j=0}^{k-1}q(P_j,r_j,S_j).
+\tag{3}
+\]
+
+Each weight is positive. Summing the weights of all one-step extensions gives the parent-cylinder weight, since the structural row sums to one and both fair bits are retained. Induction gives normalized finite-history distributions and consistency under every truncation.
+
+The standard probability extension theorem on this finitely branching discrete history tree therefore supplies a unique measure on the sigma-algebra generated by these cylinders. Its hypotheses here are precisely the finite normalized distributions and verified truncation consistency. Each transition still has a finite parent; no kernel at an infinite parent is requested. This is a classical probability construction, not an added physical axiom or a measure on an unlabelled infinite-order quotient.
+
+Let \(\mathcal F_n\) contain the entire history through n births. Under this measure the conditional next-branch probabilities are exactly q(P_n,r_n,S)/2, by the cylinder ratios. Different births need not be independent. In particular, old marks may influence later structural choices. The payload remains scalar-passive at every finite horizon; no infinite-dimensional payload construction or division by a payload trace is used.
+
+### 4. Finitely many proper births, without independence
+
+For n≥m let E_n denote the event that the birth from parent size n chooses a proper ideal. Summing over all proper ideals and both bits, equation (2) gives the uniform conditional bound
+
+\[
+\Pr(E_n\mid\mathcal F_n)
+=a_nU_n(P_n,r_n)<\varepsilon_n.
+\tag{4}
+\]
+
+For any fixed N≥m, the tower property gives
+\(\Pr(E_n\mid\mathcal F_N)\le\varepsilon_n\) for every n≥N. Apply the conditional union bound first to finitely many events, then pass to their increasing union:
+
+\[
+\Pr\!\left(\bigcup_{n\ge N}E_n\mid\mathcal F_N\right)
+\le\sum_{n=N}^{\infty}2^{-(n+2)}
+=2^{-(N+1)}.
+\tag{5}
+\]
+
+Taking expectations gives the same unconditional bound. The events \(\bigcup_{n\ge N}E_n\) decrease as N increases, and their intersection is the event of infinitely many proper births. Continuity of probability from above and (5) give probability zero for that intersection. No independence or independent-event version of Borel–Cantelli is needed.
+
+Define the random tail-start cardinality T by T=m if no E_n occurs for n≥m; otherwise
+
+\[
+T=1+\max\{n\ge m:E_n\text{ occurs}\},
+\]
+
+with T=infinity on the null event of infinitely many occurrences. Then T is finite almost surely. For every deterministic N≥m,
+
+\[
+\{T>N\}=\bigcup_{n\ge N}E_n,\qquad
+\Pr(T>N\mid\mathcal F_N)\le2^{-(N+1)}.
+\tag{6}
+\]
+
+This is a bound on the last exception, not a deterministic cutoff. T is generally not a stopping time: knowing that an exception was the last requires future information. We use T only in pathwise statements and invoke no stopping-time theorem.
+
+Indeed every finite state of size N≥m has a positive proper-ideal sum. Thus \(\Pr(E_N\mid\mathcal F_N)>0\), and \(\Pr(T>N)>0\) for each such N. No finite observation certifies that exceptions are finished. Positive support of every finite legal history is compatible with probability zero for infinitely many exceptions.
+
+### 5. Exact intrinsic order statistics
+
+For a finite order P with n vertices define:
+
+- H(P): maximum number of vertices in a chain, with H(empty)=0.
+- W(P): maximum number of vertices in an antichain, with W(empty)=0.
+- I(P): number of unordered pairs of distinct incomparable vertices.
+- For n≥2, \(D(P)=1-I(P)/\binom n2\): the fraction of unordered distinct-vertex pairs that are comparable. No density is assigned at n=0 or 1.
+
+A full-ideal newborn lies above every old vertex. It increases height by exactly one: a longest old chain can be extended, and removing the newborn from any chain leaves an old chain. For a nonempty parent it leaves width unchanged, since an antichain containing the newborn has only that vertex. It creates no incomparable pair and changes no relation among old vertices.
+
+On every path with finite T, we have T≥m≥1, and all births from parent sizes n≥T are full. Therefore, for all n≥T,
+
+\[
+H(P_n)=H(P_T)+n-T,\qquad
+W(P_n)=W(P_T),\qquad I(P_n)=I(P_T).
+\tag{7}
+\]
+
+The tail is a chain above the entire finite prefix P_T. Existing incomparable pairs inside P_T persist; the final order need not be a total order, and its eventual width need not equal one.
+
+Equation (7) gives, almost surely,
+
+\[
+\frac{H(P_n)}n
+=1-\frac{T-H(P_T)}n\longrightarrow1,
+\qquad W(P_n)\text{ is eventually the finite constant }W(P_T),
+\]
+\[
+D(P_n)
+=1-\frac{I(P_T)}{\binom n2}\longrightarrow1
+\quad(n\ge\max(T,2)).
+\tag{8}
+\]
+
+The constants in these exact formulas are path-dependent finite quantities. For each fixed N≥m, equation (5) also says that with probability at least \(1-2^{-(N+1)}\), every subsequent birth is full and the corresponding formulas hold from P_N onward. The empty-prefix case is already covered by the forced first birth and m≥1.
+
+### 6. What this establishes, and what it does not
+
+The result answers an existence question for every admitted finite prefix. The declared model allows a continuation with an almost-sure full-ideal chain tail. Accordingly its existing admission conditions alone do not exclude that behavior or force another asymptotic order structure.
+
+Preserving a finite prefix does not assert that every continuation has these statistics. No analysis of all other scales, the earlier half-scale prescription, or a general asymptotic classification is supplied. The chosen summable schedule is not uniquely selected, optimized or justified physically.
+
+Height, width and comparability density are intrinsic order statistics. Their limits establish no physical dimension, Lorentzian manifold, metric, gravity, empirical correspondence or informative quantum dynamics. Birth index is bookkeeping, not a physical clock. No novelty claim is made.
+
+Protected validation/custody, independent review, ABSTAIN, Status M, zero qualification, RET-only pause, execution/publication gates and Boundary separation remain.
+
+### 7. Premises and manual obligations
+
+Status: mathematics accepted following distinct independent review and coordinator disposition.
+
+#### Inputs actually used
+
+1. Section 1 states the scalar-passive marked-order model. The complete admitted finite kernel prefix is assumed, including every actual ideal, normalized positive support, selected-mark proper locality, equivariance, transported marked diamonds and independent fair newborn bits.
+2. Part P's finite identity and common-scale sufficient-extension theorem is mathematically accepted after distinct review. Necessity/classification is not required. The former author's 65-second cutoff breach remains NONCOMPLIANT.
+3. Parts A, B.4 and D establish historical definitions, finite-selection scope and the prior cylinder-law construction; their historical conditional status is preserved.
+4. Ordinary classical probability extension for consistent finite discrete cylinder laws, the conditional tower property, the union bound and continuity of probability are standard mathematical tools. They are not new physical or DET selection axioms. No external reference or hidden source was opened.
+
+#### Explicit new choices
+
+- Horizon h means all rows with parent size less than h are fixed. The empty row is forced if absent; new choices begin at m=max(h,1).
+- Every later layer uses its actual maximal-deletion potential from this same recursively defined law.
+- K_n is the whole marked-layer maximum of the sum over all actual proper ideal occurrences.
+- Epsilon_n=2^(-(n+2)) and a_n=epsilon_n/(1+K_n) are declared choices, not derived preferred constants.
+- Birth labels are auxiliary coordinates for the classical history space. Order statistics do not depend on renaming them.
+
+#### Manual proof obligations discharged
+
+- Part P makes each potential defined, positive, equivariant and selected-mark local; K_n is positive and finite at each n≥1.
+- Proper probability sum is epsilon_n U_n/(1+K_n), bounded strictly below epsilon_n. Positive normalized full complements and all marked-map diamonds follow. No infinite coefficient limit or quantitative K_n rate is needed.
+- Complete fair-bit cylinder weights are positive, normalized and consistent under truncation. These verify the hypotheses for a countable infinite history measure.
+- Conditional proper-birth bounds hold given the complete past, without independence of different births or independence between old marks and later geometry.
+- Tower, finite union bounds and monotone passage give the exact tail estimate sum_(n≥N)epsilon_n=2^(-(N+1)). Continuity from above gives finitely many proper births almost surely.
+- T is defined after the last proper birth, with a no-exception case. It is not treated as a stopping time. No deterministic last exception follows; positive proper mass at every finite state excludes finite certainty.
+- A full birth adds one to height, preserves nonempty-parent width and preserves the number of incomparable pairs. Since T≥1, exact post-T formulas prove all three asserted statistics.
+- Empty/singleton parents and undefined pair densities below size2 are treated explicitly. Old incomparable pairs are never erased, so eventual width need not be1.
+
+#### Remains outside the result
+
+No assertion covers every admissible continuation, classifies all asymptotics, or evaluates the earlier half-scale law. There is no uniform coefficient floor, computational guarantee, empirical evidence, preferred law, physical dimension, metric, spacetime or gravity claim. Fair scalar payload branches are preserved without deriving quantum dynamics.
+
+Distinct independent review examined the horizon convention, whole-layer maximum, complete ideal/bit counting, probability extension hypotheses, conditional tail estimate and its indexing, the non-stopping-time treatment, and the exact pathwise height/width/pair formulas.
+
+All preserved custody, protected-validation, ABSTAIN, Status M, zero-qualification, RET-only pause, execution/publication and Boundary gates remain.
