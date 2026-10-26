@@ -1993,3 +1993,179 @@ W values follow by substituting those four candidate root-zero masses into c0*p1
 #### Missing suppliers and limits
 
 Physical use still lacks bit-to-record mapping; order/role/relative-bit access; calibrated reference error and independence/stability assumptions; compatible probability estimation/error control. Exact algebra supplies none of these.
+
+## P. Finite maximal-deletion identity and sufficient extension
+
+**Dependency and scope.** This proof starts from an admitted smaller prefix in the declared positive scalar-passive binary-marked-order model. It supplies the finite identity and sufficient common-scale extension used in Part L at parent sizes three and four, conditional on each incoming prefix being admitted. Part L's seed, exceptional-slot, complement, mixture, reconstruction and four-birth premises retain their separate status. Earlier Parts A–O remain unchanged.
+
+Status: mathematics accepted following timely distinct independent review and coordinator adjudication. Author procedure: **NONCOMPLIANT**; substantive drafting exceeded its cutoff by **65 seconds**. Mathematical reuse does not retroactively extend or waive that budget. Manual symbolic reasoning only. This proves the finite identity and the common-scale sufficiency needed by Part L; it does not prove the full ratio-component classification.
+
+### 1. Premises and source boundary
+
+Fix a nonnegative parent size n. Rows on every marked parent of size less than n are given in the scalar-passive model stated here: all actual ideals have positive probability, complete rows normalize, proper slots read only selected marks, full slots may read all inherited marks, probabilities are equivariant, and every available complete transported marked diamond holds. Newborn bits are independently fair and branch maps are q/2 times the identity on arbitrary complex positive-semidefinite payloads. “Available” means both transition rows lie in the given prefix.
+
+This note supplies a standalone finite argument, without claiming historical novelty or that the theorem was previously unproved. Part L explicitly needs sufficiency, not merely a necessary parameterization.
+
+### 2. Derive the smaller endpoint weights
+
+For a concrete marked order Q with at most n vertices, define w(Q,r) by multiplying structural probabilities q along any linear extension of Q, starting with w(empty)=1. Do not include the fair-bit factors in w. Each birth uses its actual strict past, an eligible ideal; all rows used have parent size less than n.
+
+This definition is independent of the chosen linear extension. Two linear extensions are connected by adjacent swaps of incomparable vertices: take the first vertex of the target extension, move it left past the vertices preceding it in the other extension, and repeat on the remaining induced order. Those crossed vertices are incomparable with it, since the target first vertex is minimal. The same argument applies inductively after the common prefix.
+
+For one such adjacent swap, the existing base C has size at most n-2. The two strict pasts S,T are ideals of C; the vertices swapped are not in each other's past. The assumed lower-prefix diamond gives
+
+q(C,r,S)q(C+S,r+b,T) = q(C,r,T)q(C+T,r+c,S).
+
+The inherited marks and the two arbitrary newborn bits travel with their vertices. Complete scalar-map equality yields this equality after cancelling the common factor 1/4. After the pair, both orders and markings are identical under the natural transport, so equivariance gives identical suffix factors. Thus the whole products agree.
+
+Consequently w is positive, well-defined and equivariant. In particular, whenever R has fewer than n vertices and Q=R+x has strict past S for x,
+
+\[
+q(R,r,S)=\frac{w(Q,r+b)}{w(R,r)}
+\tag{1}
+\]
+
+for either bit b. Choose a linear extension placing maximal x last to obtain (1). This is a derived finite path-independence statement, not an added history-independence premise. The probability of one marked natural encoding is \(2^{-|Q|}w(Q,r)\); no endpoint multiplicity, automorphism factor or factorial is introduced.
+
+### 3. A symmetric deletion product
+
+Let P have size n≥1 and let S be a proper ideal. Put M=Max(P)\S. This set is nonempty: an omitted vertex has a maximal successor, which must also be omitted because S is downward closed. Removing any nonempty subset A of M leaves S as an ideal in a smaller parent, so every factor in
+
+\[
+u(P,r,S)=
+\prod_{\varnothing\ne A\subseteq M}
+q(P\setminus A,r|_{P\setminus A},S)^{(-1)^{|A|+1}}
+\tag{2}
+\]
+
+exists and is positive. Smaller full slots are used exactly as given.
+
+Append y with past S and an arbitrary bit and call the resulting marked order D. Its maximal set is precisely M∪{y}. A previous maximum in S lies below y, and an omitted previous maximum remains maximal. Thus D has at least two maxima.
+
+Define an auxiliary symmetric product only from already defined endpoint weights:
+
+\[
+H(D)=
+\prod_{\varnothing\ne B\subseteq\operatorname{Max}(D)}
+w(D\setminus B)^{(-1)^{|B|+1}}.
+\tag{3}
+\]
+
+All markings in this formula are induced restrictions. Every argument has at most n vertices; the empty endpoint has weight one. No weight, transition or law at the new terminal size n+1 has been assumed.
+
+For each nonempty A⊆M, equation (1) gives
+
+\[
+q(P\setminus A,S)
+=\frac{w(D\setminus A)}
+       {w(D\setminus(A\cup\{y\}))}.
+\tag{4}
+\]
+
+The birth of y is legal after these deletions and retains precisely past S. Substitute (4) into (2). Multiplying by w(P)=w(D\{y}) proves
+
+\[
+w(P)u(P,S)=H(D).
+\tag{5}
+\]
+
+Here is the complete exponent accounting, including arbitrarily many omitted maxima. The nonempty subsets B of M∪{y} partition into {y}, nonempty A⊆M, and A∪{y} with nonempty A⊆M. The first contributes exponent +1 from w(P). The second contributes \((-1)^{|A|+1}\) from the numerator. The third contributes its negative, \((-1)^{|A|}=(-1)^{|B|+1}\), from the denominator. These are exactly all factors of (3), once each. There is no additional cycle or gluing assumption.
+
+### 4. The required identity
+
+Let C have size n-1, with arbitrary inherited marks, and let S,T be any two ideals of C. Append incomparable x,y with pasts S,T and arbitrary bits b,c. Write P_x=C+x, P_y=C+y and let D be their common marked terminal order.
+
+Each second precursor is proper because it excludes the other newborn. The terminal D has at least two maxima. Equations (1) and (5), using the same concrete marked D, give
+
+\[
+\begin{aligned}
+q(C,r,S)u(P_x,r+b,T)
+&=\frac{w(P_x)}{w(C)}\frac{H(D)}{w(P_x)}\\
+&=\frac{H(D)}{w(C)}\\
+&=q(C,r,T)u(P_y,r+c,S).
+\end{aligned}
+\tag{6}
+\]
+
+All w values and their path independence used only rows below n and diamonds with base size at most n-2. Equation (6) therefore does not assume the new diamond it proves.
+
+Nothing in the subset partition or this argument requires distinct, nonempty or proper base precursors. It includes S=T, either empty precursor, either full-base precursor, and S=T=C. In the latter case the two newborns remain incomparable above the base. Full smaller-parent factors and all their induced marks remain in (4). Both arbitrary newborn bits and every inherited marking were retained throughout.
+
+### 5. Sufficient common-scale extension
+
+The potential u is finite and positive. Each factor reads only marks in S: lower proper-slot locality gives this when S is proper in P\A; if S is full there, the remaining parent equals S. Hence u has proper-slot selected-mark locality. Equivariance follows from transporting maxima, deletion subsets, ideals and marks together.
+
+There are finitely many orders on a fixed n-element label set, finitely many binary markings and finitely many actual ideals. Define the whole-layer quantities
+
+\[
+U(P,r)=\sum_{S\subsetneq P,\ S\ \mathrm{ideal}}u(P,r,S),
+\qquad K_n=\max_{P,r}U(P,r).
+\]
+
+For n≥1, \(0<K_n<\infty\). Every actual ideal occurrence enters the sum; this is not a sum over symmetry classes. Choose any \(0<a_n<1/K_n\), and set
+
+\[
+q_n(P,r,S)=a_nu(P,r,S)\quad(S\subsetneq P),\qquad
+q_n(P,r,P)=1-a_nU(P,r).
+\tag{7}
+\]
+
+For example \(a_n=1/[2(1+K_n)]\) makes every full complement greater than 1/2. All entries are positive, complete rows normalize, and locality and equivariance hold. Full complements may depend on every old mark, as permitted. No row-independence assumption is needed.
+
+Every new incomparable-birth diamond has base size n-1. Both second precursors exclude the first newborn, so neither is the full intermediate parent. Thus each side of (6) receives exactly the same factor a_n. New full complements do not enter these diamonds; later extension steps will use them as actual smaller-parent inputs. Earlier diamonds are unchanged.
+
+The two fair branches contribute the common factor 1/4 and the same transported identity map on every allowed complex payload. Complete one-step maps sum to identity because each structural row sums to one and the two newborn probabilities sum to one. This establishes the required complete unnormalized marked-map diamonds.
+
+### 6. Boundary layers and the N5 dependency
+
+At n=0 the empty parent has only its full ideal, with q=1. There are no proper slots and no extension diamond; no nonempty-maximal-set assertion is made.
+
+At n=1, the only proper singleton ideal is empty and its potential is q(empty,empty)=1. The only base is empty, with S=T=empty. Both routes have structural product a_1 for every pair of bits. Any common \(0<a_1<1\) is allowed. In particular a_1=2/3 retains the prescribed singleton row (2/3,1/3); the illustrative half-scale choice is not mandatory.
+
+Part L first uses a common-alpha potential at parent size three, then changes only the three-chain initial-pair slot by 1+r_y and separately checks its diamonds. It next applies a common-beta potential at parent size four. The proof here supplies the identity and sufficient-extension premise at both uses, provided each incoming prefix satisfies the stated model. Part L's separately established seed, exceptional-slot check, and explicit positive-complement bounds remain necessary. Its conservative alpha and beta need only satisfy those bounds, not equal the illustrative half-scale.
+
+No earlier acceptance is rewritten. Following distinct review and coordinator acceptance, this proof replaces the opaque identity/sufficiency dependency with a self-contained derivation in the declared model. It does not re-review the entire N5 counterexample or discharge its other reconstruction and N4 premises.
+
+### 7. Exact scope
+
+The yield is a finite theorem: every admitted smaller prefix has the stated maximal-deletion identity and a positive common-scale extension by (7). No additional local consistency axiom was required.
+
+Not established: necessity or classification of all component solutions; unique DET law selection; a uniform scale or quantitative all-size bound; asymptotic geometry; informative quantum evolution; physical calibration or empirical correspondence. The scalar-passive model itself remains an admitted model, not a derivation of quantum mechanics.
+
+Protected validation, independent review, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary separation remain unchanged.
+
+### 8. Premises and proof audit
+
+Status: mathematics accepted with the author-procedure qualification stated above. The self-contained proof is given in Sections 1–7.
+
+#### Assumed, not newly derived
+
+- The complete finite marked-order model and smaller-prefix admission stated in Section 1: all actual ideals eligible with positive normalized rows; immutable binary marks; proper-slot selected-mark locality; permitted full-mark dependence of full slots; equivariance; complete transported diamonds for all available lower rows; independent fair newborn bits; scalar identity branches on arbitrary complex positive-semidefinite payloads.
+- Each finite order can be built by any linear extension using its strict-past ideals. This follows directly from the declared birth rule and complete support.
+- For the N5 application, the accepted lower seed and Part L's separate exceptional-slot and complement arguments remain premises. Its mixture/reconstruction and N4 results are not re-proved.
+- Model admission does not establish physical DET necessity, an empirical instrument, or informative quantum dynamics.
+
+#### Discharged manually, without scientific code
+
+1. Adjacent incomparable swaps connect linear extensions by moving the target first minimal element left, then induction.
+2. Each swap uses a lower diamond based on at most n-2 vertices, with all endpoint marks carried on their vertices; suffix factors agree by equivariance. Structural endpoint weights w through size n are therefore derived and positive.
+3. A smaller transition is the ratio of its derived endpoint weights; per-encoding fair factors are separate.
+4. A proper ideal omits a maximum. Deletion subsets outside it preserve its ideal status; smaller full slots keep their actual marks.
+5. Adding a vertex with that past makes terminal maxima exactly the omitted maxima plus the newborn.
+6. The complete partition of nonempty maximal-deletion subsets, with explicit numerator/denominator signs, yields w(P)u(P,S)=H(D).
+7. The same symmetric H(D) on both routes gives the required new diamond for arbitrary inherited/newborn marks, empty/full/equal precursor cases and multiple omitted maxima.
+8. Positivity, locality and equivariance of u follow factorwise. The maximum is finite over the entire finite marked layer and complete actual-ideal sums.
+9. A sufficiently small common scale gives positive full complements. Those full slots cannot be second precursors of the new incomparable-birth diamonds. Fair factors and transported scalar identity maps yield complete map equality.
+10. Empty and singleton layers are handled separately; the singleton seed 2/3 is compatible without requiring the illustrative half-scale.
+
+#### Not assumed
+
+No ratio-potential theorem, next-layer history independence, strengthened Markov axiom, row independence, unmarked law, new local/gluing condition, coefficient witness, numerical enumeration, mesh, metric, physical clock, geometry, additional quantum axiom or optimized scale is used as a hidden premise.
+
+The ordinary structural weights w and auxiliary H are definitions from already supplied lower rows. H is not a stipulated new endpoint law. Its factors never require an endpoint weight beyond size n.
+
+#### Reviewed scope and limits
+
+Distinct independent review examined the layer indexing, concrete marked terminal transport, exponent partition, all boundary cases, and the scope of the N5 application. This is sufficiency only; it is not a classification of arbitrary component-dependent scales. No source hash authenticates a theorem by itself.
+
+No historical novelty or exhaustive absence-of-proof claim is made. Part N remains outside the scientific scope of this proof.
