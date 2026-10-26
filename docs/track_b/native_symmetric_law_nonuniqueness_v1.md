@@ -1015,3 +1015,136 @@ Part A fixes the admitted model; Part H supplies the accepted finite endpoint-la
 - **Locality independence:** a three-birth auxiliary fair-bit kernel has singleton row (1/2,1/2); chain row (c(root),1/4,3/4-c(root)); antichain row (1/4,c(first),c(second),3/4-c(first)-c(second)), with c(0)=1/8,c(1)=1/4. It is positive, normalized, equivariant and satisfies all finite marked diamonds; its induced endpoint law passes F but its chain-empty entry violates L. This rejected candidate is not claimed to match a prescribed historical prefix or extend beyond three births.
 - **Positive control:** accepted q* at N=3 gives a complete endpoint law satisfying F/L; P holds when that same prefix is declared.
 - **Gates:** distinct scientific review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation, physical and execution gates unchanged. No all-size, observation, efficiency, empirical admission, law-selection or new quantum-dynamics result.
+
+## J. Whole-law mixing does not generally preserve locality
+
+**Dependencies and review.** This part uses the admitted finite model and printed laws in Parts A–B, the common encoding lift in Part H and the finite admission criterion in Part I. Its exact mixture-locality criterion, altered component and four-birth nonconvexity witness received distinct mathematical review and coordinator acceptance. Mixing entire laws is distinguished from fresh row averaging. The counterexample retains precisely the complete parent-zero and parent-one prefix shared by its components; it does not impose the entire historical parent-three seed.
+
+**Accepted conditional finite counterexample and exact slot criterion.** At four births, two laws satisfying the declared finite model can have a whole-law midpoint whose uniquely reconstructed kernel violates selected-mark locality. The half-scale component passes all required finite checks. This establishes nonconvexity of the admitted finite endpoint/history-law set at this horizon, while retaining the accepted equal-scale symmetrization as a positive control.
+
+### 1. Fixed whole-law mixture
+
+Use the empty start, complete positive actual-ideal support, immutable independently fair marks, equivariance, complete marked diamonds and passive scalar payload of the admitted model. Proper-slot locality allows the whole unmarked parent and only the marks on the selected ideal. It is not a claim about spatial or relativistic locality.
+
+Let two admitted finite laws \(A,B\) have complete endpoint masses \(\pi_A,\pi_B\) at the same \(N\), history laws \(\mu_A,\mu_B\), and per-natural-prefix masses \(Z_A(P,r),Z_B(P,r)>0\). For a fixed \(0\le a\le1\), define
+\[
+ \pi_a=a\pi_A+(1-a)\pi_B,\qquad
+ \mu_a=a\mu_A+(1-a)\mu_B.
+\]
+Part H's common encoding conditional \(K_N\) gives
+\(\pi_aK_N=\mu_a\). Prefix summation therefore gives
+\(Z_a=aZ_A+(1-a)Z_B\). Each component's child mass is
+\(Z_j(P,r)q_j(P,r,S)/2\), so positive conditioning yields
+\[
+ q_a(P,r,S)=\omega_a(P,r)q_A(P,r,S)
+       +(1-\omega_a(P,r))q_B(P,r,S),\qquad
+ \omega_a=\frac{aZ_A}{aZ_A+(1-a)Z_B}. \tag{1}
+\]
+The newborn bit is still independently fair.
+
+This is fixed mixing of entire laws. The effective weight after a prefix is generally not \(a\); multiplying freshly averaged rows defines a different law. The word posterior here denotes the ratio in (1), without an assumed physical hidden component or calibrated inference procedure.
+
+Positive support, normalization and equivariance persist. By accepted Part I, the prefix-potential construction gives every complete marked diamond through \(N\): both joint routes equal \(Z_a(D)/Z_a(C)\). Thus the possible obstruction is locality, not the already known diamond failure of fresh row averaging. If both components have the same separately prescribed entries, (1) preserves those entries too.
+
+### 2. Exact locality criterion on one slot
+
+Fix an unmarked parent \(P\), a proper actual ideal \(S\), and markings \(r,r'\) agreeing on \(S\). Component locality gives common values
+\[
+ v_A=q_A(P,r,S)=q_A(P,r',S),\quad
+ v_B=q_B(P,r,S)=q_B(P,r',S).
+\]
+Equation (1) gives the exact difference
+\[
+ q_a(P,r,S)-q_a(P,r',S)
+ =(v_A-v_B)\,[\omega_a(P,r)-\omega_a(P,r')]. \tag{2}
+\]
+For \(0<a<1\), equality of the two posterior weights is equivalent to
+\[
+ Z_A(P,r)Z_B(P,r')=Z_A(P,r')Z_B(P,r). \tag{3}
+\]
+Thus locality on this slot holds precisely when (2) vanishes for every such marking pair. On each fixed selected-mark fiber, either the component slot values coincide, or their prefix likelihood ratio must be constant over the unselected marks.
+
+Equivalently, let \(B_a(P,r,S)=Z_a(P,r)q_a(P,r,S)\), the sum of the two bit-child masses. The Part I locality residual is
+\[
+ \begin{aligned}
+ &B_a(P,r,S)Z_a(P,r')-B_a(P,r',S)Z_a(P,r)\\
+ &\quad=a(1-a)(v_A-v_B)
+ [Z_A(P,r)Z_B(P,r')-Z_A(P,r')Z_B(P,r)].
+ \end{aligned} \tag{4}
+\]
+This factorization proves the criterion; it does not infer nonconvexity merely from quadratic equations. At \(a=0,1\), admission is inherited. Full ideals are exempt from this locality test, while retaining their mass and other obligations.
+
+### 3. Admission of the second component
+
+Let \(q_0\) be the printed finite prefix in Parts A–B, and
+\(q_1(P,r,S)=q_0(P,1-r,S)\). Both are accepted through four births. For parents of size below three, retain \(q_1\) exactly. At size three define
+\[
+ \widetilde q_1(P,r,S)=\tfrac12q_1(P,r,S)\quad(S\subsetneq P),
+ \qquad
+ \widetilde q_1(P,r,P)=1-\tfrac12\sum_{S\subsetneq P}q_1(P,r,S).
+ \tag{5}
+\]
+This reduces the common proper-slot scale \(e=1/44\) to \(e/2\), with every full slot recomputed, not rescaled.
+
+**Support and normalization.** Every proper occurrence remains positive. Writing the original full probability as \(q_1(P,r,P)>0\), the new full probability is
+\(\tfrac12+\tfrac12q_1(P,r,P)>1/2\). Every complete row sums to one. All actual ideal occurrences remain in the sum.
+
+**Locality, transport and payload.** The same constant multiplies every proper slot, preserving its selected-mark dependence and equivariance. Full complements may read all old marks as the model permits. Newborn bits remain fair; complete branch maps \(\widetilde q_1(P,r,S)\operatorname{id}/2\) sum to identity on every admitted payload.
+
+**All diamonds within \(N=4\).** Diamonds ending by three births use only unchanged rows. A diamond ending at four births has a size-two base. Each second precursor omits the other newborn and is therefore proper in its intermediate size-three parent. Both routes' original structural products acquire exactly one factor \(1/2\); the first factors are unchanged. Original marked diamond equality persists, including empty/full base ideals, equal precursors, every inherited marking and all four newborn-bit choices. The two fair factors remain \(1/4\), with identical terminal transport. A size-three full slot cannot be a second precursor of these incomparable diamonds. No diamond beyond this horizon is asserted.
+
+Thus \(\widetilde q_1\) satisfies every stated finite-model obligation through four births. This is a new finite component; it does not preserve the original prescribed parent-three prefix.
+
+### 4. Exact four-birth failure of closure
+
+Take components \(A=q_0\), \(B=\widetilde q_1\), with \(a=1/2\). Consider a three-fork, root mark \(i\), and fixed zero marks on both leaves. The printed values are
+\[
+ f_0=1/6,\qquad f_1=1/3,\qquad e=1/44.
+\]
+Its per-encoding structural prefix weights are
+\[
+ w_A(i)=f_i/3,\qquad w_B(i)=f_{1-i}/3.
+\]
+The half-scale alteration affects parent-three transitions only, so it cannot change these three-birth prefix weights. Actual prefix masses are \(Z_j=2^{-3}w_j\). Their common fair factor cancels in (1); no automorphism multiplier is added. If endpoint-class prefix masses were used instead, their common encoding multiplicity would also cancel.
+
+Consequently
+\[
+ \omega_{1/2}(0)=1/3,\qquad \omega_{1/2}(1)=2/3.
+\]
+For the proper empty ideal, the component probabilities are \(e\) and \(e/2\), independently of all marks. Therefore
+\[
+ q_{1/2}(P,r,\varnothing)=\frac e2(1+\omega_{1/2}(i)),
+\]
+\[
+ q_{1/2}(i=0,\varnothing)=\frac{2e}{3}=\frac1{66},\qquad
+ q_{1/2}(i=1,\varnothing)=\frac{5e}{6}=\frac5{264}. \tag{6}
+\]
+Their difference is \(e/6=1/264\). These are structural probabilities; each bit branch retains its factor \(1/2\). The two markings agree on the empty selected ideal, yet the probabilities differ. Selected-mark locality fails.
+
+Both component endpoint distributions at \(N=4\) are positive and admitted by the preceding checks. Their midpoint has the unique uniform lift and unique positive prefix-conditioned kernel. Hence no alternative admitted kernel can realize that same midpoint while repairing (6): Part H uniqueness and Part I's necessity of locality exclude it. This proves nonconvexity of the admitted complete endpoint-law set at \(N=4\), and of the corresponding history-law set.
+
+The largest shared complete prescribed prefix of these components is parent sizes zero and one: the empty row and singleton row \((2/3,1/3)\). At parent two, the chain's root-slot values \(f_i\) and \(f_{1-i}\) already differ. Thus the counterexample also holds with that actually shared prefix fixed, but makes no claim for the full historical seed fixed through parent three or every special subfamily.
+
+### 5. Positive control and scope
+
+With the original equal-scale pair \(q_0,q_1\), Part B proves that their equal whole-law mixture \(q_*\) satisfies locality on every row through parent three. In the fork-empty slot specifically, both component values are \(e\), so (2) vanishes despite the same root-dependent posterior weights. Part B's complete mark-independent rows and positive full complements supply the full positive control. This special cancellation is consistent with the new failure when one component has scale \(e/2\).
+
+The accepted fresh-row-average diamond failure is unchanged and is not counted as this result. Finite reconstruction uniqueness concerns which kernel a supplied law determines; it does not say the admitted-law class is closed under uncertainty expressed by whole-law mixtures.
+
+All results remain within the declared finite model and \(N=4\) counterexample. No physical latent sector, hidden memory, Bayesian calibration, law-selection principle, infinite extension, efficient method, empirical conclusion or new quantum dynamics follows. Parts A–B supply the model, printed pair and positive control; Parts H–I supply the accepted reconstruction and admission results. Protected validation/custody, distinct review, ABSTAIN, Status M, zero qualification, RET-only pause and Boundary/physical/execution gates remain.
+
+### 6. Mixture locality, component admission and scope
+
+- **Model:** fixed finite horizon, empty start, complete positive actual-ideal support, immutable fair bits, parent-state kernels, equivariance, complete transported marked diamonds and scalar-passive payload. Proper-slot locality concerns selected old marks, not spatial or relativistic locality.
+- **Whole-law convention:** one fixed weight a mixes complete endpoint/history laws. Part H's common encoding lift gives the same mixture of history and prefix masses. Fresh row averaging is a different construction.
+- **Exact kernel:** q_a=omega q_A+(1-omega)q_B with omega=a Z_A/[a Z_A+(1-a)Z_B]. Newborn bits remain fair. Positivity, normalization, parent sufficiency, equivariance and finite diamonds follow through the Part I prefix-potential construction.
+- **Locality criterion:** for fixed P, proper S and two markings agreeing on S, the mixed-slot difference is (v_A-v_B)(omega(r)-omega(rprime)). For interior a, posterior equality is exactly Z_A(r)Z_B(rprime)=Z_A(rprime)Z_B(r). The bilinear locality residual factors by a(1-a)(v_A-v_B) times that cross-product difference. Full slots are exempt only from locality.
+- **Prescribed prefix:** any structural entries shared by both components are retained. The displayed counterexample shares complete parent layers zero and one only, not the original full parent-three seed.
+- **New component:** retain the accepted mark-flipped q1 below parent size three; halve every actual proper slot at parent three and replace each full slot by its complete complement. Proper entries stay positive and new full entries equal (1+old full)/2 >1/2. Scaling preserves proper mark locality and equivariance; fair-bit splitting and passive payload maps remain.
+- **Finite diamond proof:** terminal sizes at most three are unchanged. At terminal size four, both second precursors are proper and each route acquires one factor 1/2. This covers all inherited/newborn marks, equal precursors and empty/full base ideals. No beyond-four-birth claim.
+- **Negative control:** mix q0 and the verified altered q1 at equal whole-law weights. Three-fork structural prefix weights f_i/3 and f_(1-i)/3 are unchanged by the later alteration; f0=1/6,f1=1/3. Posterior weights are 1/3 and 2/3. Empty-slot values e and e/2 give mixed probabilities 1/66 and 5/264, gap 1/264, although the selected empty ideal has identical mark restriction.
+- **Closure conclusion:** both N4 endpoint laws are admitted; their midpoint fails locality. Unique finite reconstruction prevents an alternative local kernel for that same midpoint. This is an explicit nonconvexity witness for the general finite law class, also with its actual shared parent-zero/one prefix fixed; not an inference from quadratic notation or a claim about every special subfamily.
+- **Positive control:** accepted equal-scale q0/q1 symmetrization remains admitted through N4. Equal fork-empty component values make posterior variation cancel, and Part B's complete row calculation verifies all proper slots.
+- **Multiplicity:** natural-history probabilities already include fair factors. The common factor 2^-3 cancels in the displayed posterior; isomorphism-class multiplicity would multiply both component weights equally. No new factorial, support restriction or duplicate orbit weight.
+- **Limits:** No latent physical sector, hidden memory, Bayesian calibration, law selection, all-size extension, efficiency, empirical result or new quantum dynamics.
+- **Gates:** distinct review and coordinator disposition; protected validation/custody, ABSTAIN, Status M, zero qualification, RET-only pause, speculative Boundary separation and physical/execution gates unchanged.
