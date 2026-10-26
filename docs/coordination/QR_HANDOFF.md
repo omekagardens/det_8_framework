@@ -1,3 +1,12 @@
+# RI1504 — Four marked endpoint masses expose the locality failure
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part M, now gives the independently reviewed and accepted endpoint witness for Part L’s fixed five-birth counterexample. Four unconditional marked endpoint-class probabilities, at horizons four and five, recover two root-slot probabilities. Their exact signed cross-product is negative, while selected-mark locality requires zero.
+
+The counting uses one natural encoding of each four-chain parent and four encodings of each child, with trivial automorphism groups. Complete transported diamonds equate the child weights without assuming the locality being tested. Independent manual review checked this conversion, the four mass formulas, their exact sign and the complete mark-forgetting argument.
+
+The midpoint and its admitted component have identical entire unmarked natural-history laws through five births, including all smaller prefixes and multi-time projections. This marked witness therefore cannot be recovered from that unmarked law alone.
+
+Component admission retains the conditional extension premise. The conversion separately requires positive, consistent finite laws with the stated common-lift conditions. Exact compatible output laws and immutable role marks remain mathematical inputs; no physical instrument, empirical-frequency guarantee, global minimality or efficiency result is established. The boundary between relative-mark information and an absolute mark reference is a prospective question.
 # RI1503 — Conditional five-birth obstruction to same-law symmetrization
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part L, now includes the independently reviewed and accepted QR-LD019 counterexample. It specifies a complete admitted law through five births whose equal whole-law average with its own global mark flip violates selected-mark locality. Admission depends on the accepted maximal-deletion identity and extension-sufficiency premise. Together with Part K’s four-birth theorem, this gives the first failure horizon in the stated class with the empty and singleton rows fixed.
