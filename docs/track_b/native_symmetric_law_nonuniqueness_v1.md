@@ -1642,3 +1642,184 @@ The two deterministic mathematical channels each report one of the two specified
 For the entire finite history law, global markflip F preserves the underlying unmarked history U: U composed with F equals U. Therefore the midpoint, q and qF have exactly equal U-pushforwards. This covers every unmarked endpoint/event and every unmarked multi-time/history statistic through five births, including all smaller prefix horizons. It does not assume mark/order independence or a Markov kernel after erasure.
 
 The admitted component and the locality-violating midpoint share this complete unmarked law. Their difference cannot be certified from that projection alone. No all-size or physical-observation claim follows.
+
+## N. Relative marks and an absolute root reference
+
+**Dependencies and review.** This finite channel criterion and witness recovery received distinct mathematical review and coordinator acceptance. Parts L/M fix the component, its own flip, their midpoint and the endpoint witness. The pushforward and relative-bit arguments are finite channel algebra; application to the admitted component retains its conditional extension premise. Reconstruction under separately stipulated midpoint symmetry is distinct from identifying the actual generating law.
+
+**Accepted result.** Any globally flip-invariant deterministic channel gives identical output laws for the fixed component and its midpoint with its own flip, even when it retains complete relative marks and order history. Non-invariance is necessary for discrimination but not sufficient: the fair first bit is a concrete counterexample. On the two intrinsic shapes underlying the four Part M events, relative marks plus the existing absolute root bit recover those events and their four probabilities exactly.
+
+This is a finite mathematical information result through five births, with no new law, horizon or physical instrument.
+
+### 1. Exact channel criterion
+
+Let mu be the accepted component's complete finite natural-history law, F flip every immutable binary mark, and
+\[
+\mu^F=F_*\mu,\qquad \bar\mu=(\mu+\mu^F)/2.
+\]
+For a declared deterministic channel C define
+\[
+\nu=C_*\mu,\qquad \nu^F=C_*\mu^F=(C\circ F)_*\mu.
+\]
+The midpoint output law is
+\[
+C_*\bar\mu=(\nu+\nu^F)/2.
+\]
+Consequently the exact output distributions distinguish mu from its midpoint if and only if
+\[
+\boxed{C_*\mu\ne C_*F_*\mu.} \tag{1}
+\]
+Equivalently, some output event B satisfies
+\(\mu(C^{-1}B)\ne\mu(F^{-1}C^{-1}B)\).
+On the finite image of C,
+\[
+\operatorname{TV}(C_*\mu,C_*\bar\mu)
+=\tfrac12\operatorname{TV}(\nu,\nu^F).
+\]
+This follows by subtracting the two output probability vectors and taking their absolute sums. “Distinguish” here means unequal exact laws; no sampling or single-observation success claim is included.
+
+If C composed with F equals C pointwise, then nu^F=nu, so the component, flip and midpoint have identical outputs. Pointwise non-invariance is therefore necessary for a distinguishing channel, but it does not ensure the distributional inequality (1).
+
+### 2. Complete relative marks remain invariant
+
+For vertices u,v, define the relative bit
+\[
+d_{uv}=r_u\mathbin{\oplus}r_v.
+\]
+Global flipping changes neither d_uv nor any order relation or precursor choice. Thus a channel retaining the entire unmarked natural history and every pairwise relative bit satisfies C composed F=C. The same holds for an endpoint channel retaining its unmarked order and the complete pairwise-bit relation up to transported isomorphism.
+
+This includes much more than erasing all marks. Nevertheless (1) proves exact equality of these relative-information output laws for mu and its midpoint. Any further deterministic coarsening is also unable to distinguish them.
+
+On a fixed nonempty vertex set, complete pairwise relative bits determine a binary marking up to a common flip: choose a vertex x; each r_v equals r_x XOR d_xv. This is a proof of the two possible orientations, not permission to choose an arbitrary observable root on general orders. At the endpoint-class level, automorphisms can sometimes identify the two orientations. No general two-element-orbit or one-bit requirement is asserted for arbitrary orders.
+
+### 3. Non-invariant negative control
+
+Take C_first(h) to be the first newborn bit in the complete natural history. It is also the bit of the singleton endpoint at horizon one. It is not claimed to be recoverable as a distinguished first vertex of every later endpoint.
+
+Pointwise,
+\[
+C_{\rm first}(Fh)=1-C_{\rm first}(h)\ne C_{\rm first}(h).
+\]
+Yet the forced empty-parent row has probability one and the first mark is independently fair. Summing every subsequent normalized continuation preserves its marginal:
+\[
+\Pr_\mu(C_{\rm first}=0)=\Pr_\mu(C_{\rm first}=1)=1/2.
+\]
+The flip and midpoint have exactly this same marginal. Hence this non-invariant channel fails (1). Future order growth may correlate with this bit; no independence from later geometry or conditional fairness after shape selection is used.
+
+### 4. An equivariant reference construction on the witness shapes
+
+Part M uses P_j, the four-chain x<y<z<w with marks (0,j,0,0), and Q_j, that chain plus v above x alone, marked zero, for j=0,1. Marks and names refer to intrinsic roles.
+
+On the four-chain the unique minimum is x. On Q, x is again the unique minimum; its maximal short leaf v has one strict predecessor while its maximal long-chain endpoint w has three. The intervening y,z are then fixed. Both shapes have trivial unmarked and marked automorphism groups. In particular x is a canonical role, and no leaf exchange or auxiliary embedding is hidden in the definition.
+
+For every marking on either of these two shapes, define
+\[
+a=r_x,\qquad \delta_v=r_v\oplus r_x,\qquad
+C_{\rm ref}([P,r])=([P],\delta,a).
+\]
+Here delta is an assignment to the transported intrinsic roles, with delta_x=0. The corresponding relative channel drops a. At horizon four use this construction on the chain shape; at horizon five use it on the Q shape. On other shapes report their unmarked shape with a “reference not specified” tag. No root is selected there.
+
+An order isomorphism takes the unique root to the unique root and transports delta with its vertices; a is unchanged by relabeling. Thus the construction is well-defined on endpoint isomorphism classes. It is equivariant before quotienting and involves no birth-label oracle.
+
+On the specified shapes the inverse is exact:
+\[
+r_v=a\oplus\delta_v.
+\]
+The data therefore recover every original marked class on those shapes. Under global mark flip, delta stays fixed and a changes to 1-a. “Absolute” here means relative to the declared mathematical names 0 and 1; the existing root bit is read, not a new birth or physical reference added.
+
+For P_j the required output has chain shape, a=0 and role vector delta=(0,j,0,0). For Q_j it has Q shape, a=0 and delta=(0,j,0,0,0), in roles (x,y,z,w,v). Their output probabilities are precisely
+\[
+p_j=\pi_4(P_j),\qquad c_j=\pi_5(Q_j).
+\]
+All other events keep their mass; there is no postselection or extra multiplicity. The accepted natural-encoding counts remain one for P and four for Q. Hence the original Part M equality and midpoint failure are recovered unchanged:
+\[
+W=c_0p_1-c_1p_0,\qquad
+W_{\rm admitted}=0,\quad W_{\rm midpoint}<0.
+\]
+This recovers that specific witness; it is not a full admission test or a globally minimal locality readout.
+
+For a known two-element flip orbit on these shapes, delta identifies the orbit and a separates its two members. Any exact deterministic recovery of orientation on that orbit needs at least two distinguishable tag values; the binary root tag suffices. This is only an outcome-capacity statement for that known orbit, not a Shannon-entropy lower bound, global test minimality or universal physical-reference claim.
+
+### 5. Discrimination and witness recovery are different
+
+The referenced channels actually distinguish this particular component from its midpoint. For example, with the accepted constants
+\[
+\alpha=1/30000,\quad A=1-\alpha,\quad
+h_0=19/30,\quad h_1=7/15,\quad B_1=A-\alpha h_1,
+\]
+the recovered P_0 event has
+\[
+\mu_4(P_0)=h_0A/48,\qquad
+\bar\mu_4(P_0)=(h_0A+h_1B_1)/96.
+\]
+Their difference is
+\[
+\frac{(h_0-h_1)A+\alpha h_1^2}{96}>0.
+\]
+Thus a referenced horizon-four event already separates these exact laws. The Part M locality witness is a different task: it combines the four specified masses at compatible horizons four and five. No minimal discrimination horizon is claimed. The first-bit control does not contradict this result: the referenced output retains correlations with shape and relative marks that a lone unconditional bit discards.
+
+There is a further qualification. The known midpoint is flip invariant because F is an involution. Let R_j and T_j be relative-channel probabilities of the two-element orbits {P_j,FP_j} and {Q_j,FQ_j}. Their members are distinct because their unique root has opposite named marks. If midpoint symmetry is stipulated, then
+\[
+\bar\mu_4(P_j)=R_j/2,\quad
+\bar\mu_5(Q_j)=T_j/2,\quad
+W_{\bar\mu}=(T_0R_1-T_1R_0)/4.
+\]
+So relative data plus that additional known-law symmetry can reconstruct the midpoint witness without measuring an orientation tag.
+
+But the admitted component produces exactly the same invariant relative data, and need not split either orbit equally. Applying the halving rule to it would infer the midpoint's masses rather than its actual masses. Thus this model-dependent reconstruction does not discriminate the generating law or certify its actual locality from invariant readout alone. The absolute-reference construction instead recovers the named masses directly, without assuming equal orientation weights.
+
+### 6. Missing physical premises and scope
+
+To turn these mathematical channels into a physical readout would require an explicit association between immutable model bits and physical records; access to the stated order relations and intrinsic roles; a stable, calibrated meaning for absolute 0/1 and relative comparisons; and a justified way to obtain compatible endpoint probabilities with controlled readout and sampling errors. None is supplied here. A reference that co-flips and reports only differences remains invariant and does not evade the proposition.
+
+The accepted Part L component retains its maximal-deletion extension premise; Part M's endpoint conversion retains its finite consistency, support, fair-bit and transported-diamond premises. No growth law, support, payload action or horizon changes. No detector, physical reference, clock, native forward map or empirical validation is derived.
+
+Parts L/M give the accepted component and endpoint witness, within the finite common-lift and mixture framework of Parts H/I/J. The generic channel statements and the component's conditional admission retain their distinct premises.
+
+### 7. Premises and readout-information obligations
+
+#### Fixed inputs
+
+- One fixed accepted finite component mu through five births, its own immutable global binary-mark flip F, and midpoint(mu+F_*mu)/2. No independent second component or new law.
+- The model has fair newborn bits and normalized complete continuations. The first-bit control uses these facts, without assuming independence from later order.
+- Part M gives the accepted four-mass locality witness.
+- Parts L/M retain the conditional finite construction and endpoint witness, within the finite common-lift framework of Part H. The maximal-deletion extension theorem remains an admitted premise for the component, not re-proved here.
+- The channel statements are elementary finite pushforward statements. No physical mark/reference/calibration or sampling channel is assumed.
+
+#### General proposition and negative control
+
+For deterministic C, put nu=C_*mu and nuF=(C composed F)_*mu. The midpoint outputs(nu+nuF)/2. Therefore unequal component/midpoint output laws occur exactly when nu differs from nuF. Their total-variation distance is one-half TV(nu,nuF). This concerns exact laws, not guaranteed single-trial discrimination.
+
+If C composed F=C, equality follows pointwise. Complete relative bits r_u XOR r_v, together with any unmarked endpoint/order/history information, satisfy this condition. Complete relative bits on a fixed nonempty vertex set leave one common binary orientation; endpoint automorphisms may identify orientations on general shapes.
+
+The first newborn bit is pointwise non-invariant, but both its values have probability1/2 under mu, its flip and midpoint. The empty-parent row is forced and later normalized branches sum to1. This is a full-history channel or the singleton endpoint channel, not a claim of an identifiable first vertex in every later endpoint. No conditional fairness after selecting geometry is asserted.
+
+#### Intrinsic reference construction
+
+Only the two unmarked shapes underlying the four Part M events are used:
+P is chain x<y<z<w; Q is P plus v with strictpast{x}. Both have unique minimum x. In Q, the two maxima have respectively1 and3 strict predecessors, fixing v,w; y,z follow from the long chain. Thus both shapes have trivial order and marked automorphisms.
+
+For all markings on those shapes retain(unmarkedshape,delta,a), where a=r_x and delta_v=r_v XOR r_x. Outside them retain only unmarkedshape with an unspecified-reference tag. No arbitrary root choice is made on other orders.
+
+Transport takes root to root and relative assignments with vertices, establishing equivariance and well-definedness on endpoint classes. The inverse r_v=a XOR delta_v recovers every named mark. Under F, delta is unchanged and a flips.
+
+The P_j output is(a0,delta(0,j,0,0)); the Q_j output is(a0,delta(0,j,0,0,0)) in intrinsic roles. Their unconditional probabilities give exactly p_j,c_j. No added branch, factorial, orbit splitting, postselection or altered support occurs. Accepted encoding multiplicities1/4 and W=c0*p1-c1*p0 remain unchanged.
+
+For a known two-element flip orbit in these rigid rooted shapes, delta identifies the orbit and a binary tag distinguishes its two members. Two tag outcomes are necessary only for exact orientation recovery on that orbit. No global locality-test minimality, entropy lower bound or universal physical-reference claim follows.
+
+#### Two distinct information tasks
+
+The referenced channel distinguishes this particular component from midpoint already via P0:
+mu4(P0)-midpoint4(P0)
+=[(h0-h1)A+alpha*h1^2]/96>0,
+with alpha=1/30000,A=1-alpha,h0=19/30,h1=7/15. Its shape/relative-bit correlations are retained; the fair-bit-only control discards them. No earliest discrimination horizon is claimed.
+
+Recovering the Part M locality witness uses four masses at compatible horizons4/5. Direct reference data recover those actual named masses for either law.
+
+If the candidate is independently stipulated to be the flip-invariant midpoint, invariant relative orbit probabilities R_j,T_j can instead be halved to recover its p_j,c_j and W=(T0*R1-T1*R0)/4. Each orbit has two distinct classes because its unique root changes named mark. This symmetry-based inference is conditional on knowing the law's orientation balance. The admitted component has the same relative data but need not split its orbits equally; the rule would reconstruct the midpoint, not its actual masses. Thus relative data alone do not discriminate component/midpoint or certify the actual generating law's locality.
+
+#### Missing physical premises and limits
+
+Physical realization would need: a mapping of model bits to distinguishable physical records; access to order and intrinsic roles; a stable calibrated absolute alphabet and relative comparisons; and compatible probability estimation with controlled errors. No such implementation, reference stability or data protocol is established. A co-flipped reference that only yields differences remains invariant.
+
+All results concern finite mathematical channels through five births. No physical instrument, native forward map, detector, clock, empirical validation, efficiency or new growth law.
