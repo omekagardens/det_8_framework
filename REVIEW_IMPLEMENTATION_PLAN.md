@@ -1,3 +1,11 @@
+## 2026-10-26 — RET development resumption
+
+Allan has [resumed RET SDK development](docs/coordination/RET_RESUMPTION_2026-10-26.md). This supersedes historical RET-only pause wording below; calibration, G2, protected evaluation, hardware, custody, independent review and the shared usage guard remain separate requirements. One bounded development task will follow reconciliation of the existing backlog and source; no new schedule or chat is created.
+
+## 2026-10-26 — five dispositions and independent follow-through
+
+[Current track status](docs/coordination/TRACK_MOMENTUM.md) records accepted QR-LD032, M-F016, E-Q004 and NE-Q012 conditional results, and the accepted no-candidate conclusion for CE-Q003. [QR-LD032's full proof](docs/track_b/finite_prefix_nonidentification.md) shows exact agreement through any chosen finite marked-history horizon with different long-run density. New native-law, thermal-information, generator-nuisance and primary-methods questions remain unreviewed. The measurement gain follow-up was stopped as duplicate after recovering its older acceptance. Specific experimental/calibration/cost holds remain; no scientific execution, physical validation or blanket track pause follows.
+
 ## 2026-10-26 — independent questions while validation waits
 
 Allan directed all tracks to continue through justified independent ideas while specific validation remains pending. [Current gaps and assignments](docs/coordination/TRACK_MOMENTUM.md) separate experimental holds from paper questions: M-F016 joint robustness, E-Q004 excitation/observability, NE-Q012 relative generator signs, CE-Q003 new workload screening and a bounded philosophical round. These are unreviewed investigations; QR-LD032 still awaits coordinator adjudication. Earlier accepted Energy matrices exist, so a narrowed source-packet omission is not a programme-wide model gap. All scientific, review, custody, usage and execution gates remain.

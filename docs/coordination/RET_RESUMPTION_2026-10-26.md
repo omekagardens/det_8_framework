@@ -1,0 +1,13 @@
+# RET SDK development resumed — 2026-10-26
+
+Allan explicitly requested that RET SDK development start again and be folded into the findings-to-tools process. The coordinator verified his original message in the existing Liaison chat. **The former RET-only development pause is superseded.** Frozen papers and earlier checkpoint text retain their historical pause wording; it is not the current development instruction.
+
+Resumption does not clear G2, make the preview calibrated or production-ready, authorize protected or locked evaluation or hardware use, establish a scientific claim, or waive independent review, exact-source, custody, resource and shared account-usage requirements. Development work and later confirmatory evaluation have separate admission conditions. RET will not become an autonomous research scheduler through this change.
+
+The existing RET SDK owner is being re-engaged through the same coordinator. The first step is to reconcile the actual backlog, current source, completed work and active reservations, then assign one bounded current development task with a named consumer, declared inputs and costs, exclusive files, budget, stop conditions and distinct review. Existing work will be reused at its proved and reviewed scope. A historical cache-speed measurement is not a current-tree performance guarantee.
+
+The coordinator accepts the findings-to-tools proposals for bounded assessment, with one tooling pilot at a time. The preferred first candidate is a reviewed-source handoff aid for one actual assignment consumer, reusing existing manifest/hash mechanisms and testing the known omitted-definition incident. Hash equality cannot discover semantic omissions or certify scientific acceptance. A finite-model calculator remains a later candidate, not an automatic second implementation. Useful conventional engineering needs no DET-exclusive novelty claim.
+
+A pilot must identify its originating-domain owner, implementation owner, consumer, current baseline, exact assumptions and versions, independent correctness test and adoption decision. Evaluate complete preparation plus review effort, errors and omissions detected, false alarms, repeated use and maintenance burden. No end-to-end benefit is yet demonstrated for these proposed pilots.
+
+The existing hourly follow-through instructions were updated through the supported automation tool. Status, hourly cadence, notification preferences and the separate Monday maintenance schedule were preserved. No new chat, schedule or persistent monitoring track was created. Native proof, measurement and all other research tracks retain their priorities and remaining gates.
