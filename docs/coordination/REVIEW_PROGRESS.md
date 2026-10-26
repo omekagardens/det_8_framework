@@ -1,3 +1,11 @@
+## RI1509 — finite observations and a termination counterexample
+
+[Part R](../track_b/native_symmetric_law_nonuniqueness_v1.md) publishes the independently accepted finite-observation theorem. For each admitted law and finite horizon, Part Q supplies a chain-tail continuation with exactly the same complete finite-prefix distribution. For one fixed common nonanticipating stopped observation, including a cemetery outcome on nontermination, output total variation is at most the original law's probability of stopping after that horizon. Almost-sure stopping under the original law makes this bound tend to zero along the chosen continuations.
+
+An admitted positive full-support kernel supplies a counterexample: almost-sure stopping need not transfer to a continuation. Different continuations are chosen for different horizons; no single law matching every finite cylinder, uniform rate, unbounded-cost guarantee, physical readout or universal untestability claim follows.
+
+The old A–Q text is unchanged. The inherited Part P author's 65-second NONCOMPLIANCE remains unwaived. Current timing records distinguish author-reported final verification from supported chat completion; the raw final author receipt was not independently reopened. Scientific, custody, protected-validation, independent-review, ABSTAIN, Status M, zero-qualification, RET-only pause and Boundary gates remain.
+
 # RI1508 — An admitted continuation with an eventual chain tail
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part Q, now proves that every complete admitted finite marked-kernel prefix can be preserved while extending the law so that only finitely many later births choose proper ideals, almost surely. The construction uses Part P’s finite sufficiency theorem and an explicitly chosen summable schedule.
