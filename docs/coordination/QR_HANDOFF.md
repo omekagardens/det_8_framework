@@ -1,3 +1,11 @@
+# RI1503 — Conditional five-birth obstruction to same-law symmetrization
+
+The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part L, now includes the independently reviewed and accepted QR-LD019 counterexample. It specifies a complete admitted law through five births whose equal whole-law average with its own global mark flip violates selected-mark locality. Admission depends on the accepted maximal-deletion identity and extension-sufficiency premise. Together with Part K’s four-birth theorem, this gives the first failure horizon in the stated class with the empty and singleton rows fixed.
+
+The construction retains the printed seed through parent size two, changes a selected-mark multiplier at parent three and defines every parent-four proper entry and full complement. Manual review checked complete positive support, normalization, locality, equivariance, all marked diamonds and fair identity-payload branches. An exact negative four-chain root-slot difference exposes dependence on an unselected mark. Source pins and retained bodies were checked separately; no scientific execution was performed.
+
+This conditional finite result establishes neither an all-size obstruction nor impossibility of particular symmetric admitted laws. It provides no physical readout, calibrated inference or efficiency result. A finite endpoint-mass witness and its mark-forgetting limitations are prospective questions; existing validation, custody, physical and execution requirements remain.
+
 # RI1502 — Same-law global-mark symmetrization preserves the four-birth class
 
 The [native-law note](../track_b/native_symmetric_law_nonuniqueness_v1.md), Part K, now includes the independently reviewed and accepted QR-LD018 theorem. Every admitted law through four births, with empty start and singleton row (2/3,1/3), has an admitted equal whole-law average with its own global mark flip. The resulting finite law is globally mark-name symmetric. Arbitrary admitted parent-three rows remain within the theorem’s scope.
