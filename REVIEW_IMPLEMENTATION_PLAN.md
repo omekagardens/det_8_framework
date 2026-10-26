@@ -1,3 +1,12 @@
+# RI1505 — Relative marks and an absolute root reference
+
+The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part N, now states the independently reviewed and accepted channel criterion for distinguishing the fixed component from its midpoint. Complete relative marks, even alongside the entire unmarked history, leave their exact output laws equal. Breaking flip invariance is necessary but insufficient: the first newborn bit changes under flipping yet has the same fair marginal under both laws.
+
+On the two intrinsic witness shapes, the existing root bit plus relative role marks recover the named endpoint events and their four probabilities. Two tag outcomes suffice and are necessary for exact orientation recovery on a known two-member orbit; this is a narrow capacity statement.
+
+A crucial qualification remains: relative orbit masses can be halved if midpoint symmetry is independently stipulated. The admitted component supplies identical relative data without equal orientation weights. That calculation reconstructs the stipulated midpoint, rather than identifying the actual generator or certifying its locality.
+
+Independent review checked the criterion, fair-bit control, root reconstruction, positive distinguishing event and halving qualification. Component admission retains its conditional extension premise. Physical record mapping, calibrated reference access and controlled probability estimation remain missing. A declared noisy-reference channel’s inversion and ambiguity are prospective mathematical questions; no physical calibration or efficiency result is established.
 # RI1504 — Four marked endpoint masses expose the locality failure
 
 The [native-law note](docs/track_b/native_symmetric_law_nonuniqueness_v1.md), Part M, now gives the independently reviewed and accepted endpoint witness for Part L’s fixed five-birth counterexample. Four unconditional marked endpoint-class probabilities, at horizons four and five, recover two root-slot probabilities. Their exact signed cross-product is negative, while selected-mark locality requires zero.
