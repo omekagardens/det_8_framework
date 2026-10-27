@@ -1,3 +1,9 @@
+## 27 October 2026 — prepared observation and comparison limits
+
+The [finite incidence-register theorem](docs/observables/finite_incidence_register.md#7-exact-classical-realization-of-the-prepared-observation) now includes a reviewed classical realization: classical counters reproduce the fixed prepared history/output probabilities under the same supplied access assumptions. This establishes no physical observer or arbitrary quantum-channel equivalence. Review also rejects the displayed energy-pilot saving because a competent fixed baseline is cheaper under the shared assumptions. Thermal accounting and SDK source review advance at their stated conditional scopes; calibration, physical readiness and execution gates remain. See the [current scoped progress](docs/coordination/REVIEW_PROGRESS.md).
+
+---
+
 ## 27 October 2026 — conditional finite observation result
 
 The [complete incidence-register theorem](docs/observables/finite_incidence_register.md) proves that an explicitly added memory architecture can distinguish two selected four-birth causal structures while preserving the admitted growth probabilities. This is conditional mathematics, with supplied addressing, preparation and readout; it establishes no physical observer, quantum necessity or efficiency benefit. The [current coordination record](docs/coordination/TRACK_MOMENTUM.md) separates accepted results, independent next questions and remaining calibration, reset, supplier and release gaps. No new empirical result or SDK distribution is published here.
