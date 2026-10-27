@@ -1,3 +1,17 @@
+## 27 October 2026 — classical realization and accepted follow-through
+
+The [finite incidence-register statement](../observables/finite_incidence_register.md#7-exact-classical-realization-of-the-prepared-observation) now includes an independently accepted classical realization. Under the same supplied memory, addressing, preparation and readout assumptions, classical counters reproduce every prepared history-and-output probability of the fixed four-birth construction. Quantum coherence is unnecessary for that observation. Arbitrary-input quantum channel equivalence, physical realization and a native observation map remain outside the result. The earlier protocol qualifications are retained.
+
+Finite thermal request accounting is independently accepted with failure-inclusive costs and qualification denominators. Cost per qualified completion and cost conditional on a successful request are different quantities. The terminal-readout protocol is admitted only for a separate analysis of its public temperature component; exact restoration, physical audit soundness and purpose-dependent memory completion remain separate. The original reset timing qualification is unchanged.
+
+Independent review rejects the energy pilot's displayed saving against a competent fixed baseline: the shared iid premises permit a fixed design costing 10m, below the proposed pilot's 17m. Restricted-certificate algebra survives, but the efficiency claim does not. This is no universal impossibility for pilots. A new protocol asks what finite audit records can establish about the covariance assumptions needed for later records; it is an unreviewed assignment.
+
+The SDK's actual imported quantile dependency has narrow conditional source acceptance after distinct review and a fresh recovery of its interrupted handoff. The original missing completion remains recorded; numerical accuracy, broader cache-input contracts, remaining SDK dependencies and public release are not thereby qualified. A separate aggregate-size repair candidate is assigned for the existing constructor/wire mismatch, without changing codec limits. These private SDK sources are not added to the public distribution by this update.
+
+The next native register-sufficiency protocol, thermal component analysis and SDK patch candidate remain unreviewed until disposition. Measurement retains its accepted conditional sensitivity design and specific missing joint/full-band calibration, timing, boundary and numerical budgets; no replay or calibrated result is added. The computing candidate remains closed without a distinct advantage. Independent questions may proceed from accepted inputs while dependent claims remain held. Historical results, custody failures and all execution gates below remain intact.
+
+---
+
 ## 27 October 2026 — finite register result and scoped remaining gaps
 
 The [finite incidence-register theorem](../observables/finite_incidence_register.md) is independently accepted. With an explicitly supplied growing register and persistent access to actual precursor vertices, the fixed four-birth construction preserves structural probabilities and complete marked diamonds. Its uniform counter readout distinguishes the selected fork-plus-isolate and two-chain endpoints conditionally. Memory, addressing, preparation and readout are added premises; this is neither a derived physical observer nor an efficiency result. The complete public statement includes the structural rows, map proof, natural-history counts and resource limits.

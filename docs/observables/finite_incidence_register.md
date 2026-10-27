@@ -168,4 +168,38 @@ A direct realization of the declared effect statistics uses four local counter-e
 
 Generating q/ideals, supplying and routing S's handles, physical storage, control, preparation and calibrated measurement have no derived implementation or cost here. Persistent fault-free memory, chosen carrier/basis, identity transport and the trace rule remain additional premises. No efficiency, energy, timing, noise or physical-readiness conclusion follows.
 
-LD005's missing incidence is now supplied to a changed family: repeated updates can address the same actual ancestor. Its intrinsic-class-only conclusion and the original passive observation theorem remain valid. The accepted q and fair marks are preserved, while growing memory and non-passive payload transport are added explicitly. No QM reconstruction, native physical observer, gravity, geometry, G2 or hardware authorization follows. The earlier mass/clock protocol-order failures and historical custody qualifications remain recorded; this result does not reconstruct those earlier processes. A later classical-realization question requires its own protocol and review.
+LD005's missing incidence is now supplied to a changed family: repeated updates can address the same actual ancestor. Its intrinsic-class-only conclusion and the original passive observation theorem remain valid. The accepted q and fair marks are preserved, while growing memory and non-passive payload transport are added explicitly. No QM reconstruction, native physical observer, gravity, geometry, G2 or hardware authorization follows. The earlier mass/clock protocol-order failures and historical custody qualifications remain recorded; this result does not reconstruct those earlier processes. The separately admitted classical comparison is resolved in Section 7 below, with its own retained process qualifications.
+
+## 7. Exact classical realization of the prepared observation
+
+A separate protocol, analysis and independent review now establish the classical comparison at the fixed four-birth scope. This result concerns the prescribed empty preparation and final counter-equals-2 readout, with trivial reference. It does not replace the earlier arbitrary-input map and reference identities.
+
+Give the classical comparator the same structural law, ideal occurrences, fair marks, persistent actual vertex handles and zero initialization. Its state is one five-valued cell for each vertex. A birth over S increments each old cell addressed by S modulo five and appends a zero cell. Write this deterministic update as T_(S,x). For a naturally encoded prefix h_t, define
+\[
+w_t=\prod_{j=1}^t q(A_{j-1},r_{j-1},S_j)/2,
+\qquad z_t=T_{S_t,x_t}\cdots T_{S_1,x_1}z_0.
+\]
+The branch's unnormalized classical distribution and quantum prepared state are
+\[
+\mu_{h_t}=w_t\delta_{z_t},\qquad
+\rho_{h_t}=w_t|z_t\rangle\langle z_t|.
+\]
+Both formulas follow by induction: the classical branch applies its deterministic update with factor q/2, while the prescribed isometry sends every counter-basis vector |z> to |T_(S,x)z>. The induction introduces no coherence between different histories. Those histories are classical instrument records; forgetting one means summing probabilities or unnormalized blocks, not adding state vectors.
+
+Let f(z) be one exactly when a counter equals two. The fixed diagonal effects obey
+\(\langle z|E_y|z\rangle=\mathbf1_{\{y=f(z)\}}\). Thus for every admitted complete marked natural history h and either output y,
+\[
+\boxed{p_C(h,y)=w_4\mathbf1_{\{y=f(z_4)\}}=p_Q(h,y).}
+\]
+The two outputs partition every history's mass. At each parent, summing the classical kernel over its unique updated cell configuration, both bits and all ideal occurrences gives \(\sum_Sq=1\). Hence both complete joint laws are normalized. Mark dependence of q causes no discrepancy because the factors are identical in both constructions.
+
+Relabeling transports cell values and ideal membership together, so
+\(T_{\phi S,\phi x}(\phi_*z)=(\phi+x)_*T_{S,x}(z)\), and f ignores names. Together with q equivariance this proves transport compatibility. Distinct natural encodings still contribute their individual masses. Summing the equal joint probabilities over any fixed grouping, including the unselected output marginal, preserves equality without evaluating that marginal or identifying a different kernel.
+
+The seven encodings and weights in Section 5 therefore apply unchanged. Both constructions give the conditional P/Q outputs 1 and 0, and joint masses 1/3168 and 1/3520. This reuses the accepted endpoints; it supplies no operational postselection or new endpoint classifier.
+
+The comparator uses four five-valued cells, four handles, four allocations/initializations and at most six addressed increments, with two increments for either selected endpoint. The stipulated direct readout uses four equality tests and three OR operations. Its 625 formal configurations are not a claim that every configuration is reachable, nor the same information-capacity statement as quantum dimension 625. Preparation, routing, structural sampling, reset and physical costs remain outside this abstract count.
+
+Quantum coherence is consequently unnecessary for these fixed prepared observation probabilities under the supplied access contract. This says nothing about arbitrary quantum inputs, off-diagonal operators, entangled references, other observables, interleaved instruments, or complete channel equivalence. Persistent actual-incidence access and memory remain supplied capabilities; their native derivation, necessity, minimality and physical realization are not established.
+
+The separate comparison protocol retained a late-readback qualification, uncertified last drafting time and an initial metadata draft-byte comparison failure. It was independently admitted with those qualifications before this analysis. Current review does not reconstruct historical custody or waive those incidents. No scientific runtime, efficiency, calibration, physical-observer or hardware claim follows.
