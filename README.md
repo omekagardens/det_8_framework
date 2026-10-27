@@ -1,3 +1,9 @@
+## 27 October 2026 — conditional finite observation result
+
+The [complete incidence-register theorem](docs/observables/finite_incidence_register.md) proves that an explicitly added memory architecture can distinguish two selected four-birth causal structures while preserving the admitted growth probabilities. This is conditional mathematics, with supplied addressing, preparation and readout; it establishes no physical observer, quantum necessity or efficiency benefit. The [current coordination record](docs/coordination/TRACK_MOMENTUM.md) separates accepted results, independent next questions and remaining calibration, reset, supplier and release gaps. No new empirical result or SDK distribution is published here.
+
+---
+
 ## Reviewed update: relative clock rates and calibration scope
 
 The [device-exchange theorem](docs/observables/device_exchange_clock_ratio.md) gives a complete conditional identification proof, a matching-record counterexample when path invariance is relaxed, and a bounded-error outer interval. It establishes neither physical clock calibration nor native gravity. The [calibration record](docs/coordination/GWOSC_CALIBRATION_APPLICABILITY.md) now identifies the prospective O1 archive and candidate entries; full-record selection and timing/conversion premises remain unresolved. Independent thermal, allocation and local SDK work can proceed within their own reviewed scopes. This is a documentation checkpoint, not an SDK release or new empirical DET validation.

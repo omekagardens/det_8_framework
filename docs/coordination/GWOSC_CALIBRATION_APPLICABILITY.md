@@ -1,3 +1,9 @@
+## Processing-description correction — 27 October 2026
+
+The prior summary incorrectly listed whitening. The frozen recipe explicitly excludes whitening, tapering and detrending; its 17 filter stages are distinct from the later event-plus-16-comparison energy windows. This correction changes no recipe, coefficients, data or accepted result. A conditional sensitivity design is now accepted at paper scope, reusing the existing norm bound with explicit response, timing, boundary/release and numerical-error interfaces. Full-record calibration applicability, actual bound values and execution remain separate open premises.
+
+---
+
 ## Prospective O1 archive inventory — 26 October 2026
 
 A separately authorized, bounded transfer from the [official version-3 catalogue](https://dcc.ligo.org/T2100313/public) acquired the [O1 uncertainty archive](https://dcc.ligo.org/public/0177/T2100313/003/LIGO_O1_cal_uncertainty.tgz). Independent coordinator review accepted its prospective identity and header inventory: 3,784 unique entries, including 2,022 H1 result files. No numeric member was interpreted. Raw custody evidence and the archive remain local; this does not reconstruct historical strain identity.
@@ -22,6 +28,6 @@ The [LIGO uncertainty catalogue](https://dcc.ligo.org/T2100313/public) lists an 
 
 One possible route is a manifest identifying the applicable H1 C02 uncertainty member, its exact version, time coverage, selection/interpolation rule and response convention. That is a proposed input specification, not a file found or accepted in this review. A separately justified event-specific product or conservative observation bound could be another route; neither alternative has been adopted. A nearest-hour choice, run-wide maximum or pointwise one-sigma curve is not an admitted substitute without the appropriate justification.
 
-The [recorded processing interface](../experiments/gwosc_nominal_processing_v1/PROCESSING.md) includes finite filtering, whitening and window operations. GWOSC documents zero-phase decimation from 16384 to 4096 Hz and historical duration-dependent processing differences. These facts do not supply an end-to-end deterministic error bound. A nominal passband alone does not make the finite calculation an ideal frequency projection. Response, timing, conversion and selection assumptions must reach the actual statistic through the declared processing interface.
+The [recorded processing interface](../experiments/gwosc_nominal_processing_v1/PROCESSING.md) includes finite filtering, padding and crop operations; the recipe explicitly excludes whitening. The later energy comparison uses a separate fixed family of 17 windows. GWOSC documents zero-phase decimation from 16384 to 4096 Hz and historical duration-dependent processing differences. These facts do not supply an end-to-end deterministic error bound. A nominal passband alone does not make the finite calculation an ideal frequency projection. Response, timing, conversion and selection assumptions must reach the actual statistic through the declared processing interface.
 
 The next measurement step is to specify and review the smallest applicable observation input and its transfer rule. No archive member, new strain array, supplier calibration or numerical propagation was acquired or executed for this documentary result. Historical custody failures remain intact. This is independent measurement work; it neither supplies a DET-native forward map nor validates DET's physical theory.
