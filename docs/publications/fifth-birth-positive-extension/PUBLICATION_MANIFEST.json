@@ -1,0 +1,49 @@
+{
+  "scope": "Reviewed exact positive fifth-birth extension of fixedlambda2 prefix, with unchanged supplied register/readout and exact finite consistency proof.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1247250,
+      "sha256": "a005c2f9575d827970d2adf378997d82a4fd42fbd578a46ea00b981266e112ea"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1495409,
+      "sha256": "3781b555d518aefc43a1be737b2328d6177513455b5490fd29963ba4c71c6eea"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 868790,
+      "sha256": "af0e70b41890c6c56c7f66481d42024baa251395dc832540df845e2ca59a997a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 62400,
+      "sha256": "9f737d0b5b30b3e36624e3158a55c3bbbdc19a2808f1459738a29f0bbb48d14d"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 59327,
+      "sha256": "8140b0870f38dad9fbd290cb049f6e4446127baaf0cb14c68d3621a2ef7eddf4"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 58634,
+      "sha256": "dccb44ad0ccd2e0f6fe983f20b61a1cc4b5245e35c9b8fb820b60ec70f012859"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 84596,
+      "sha256": "4b067ff640f8a9c7d59b6747057c063cc5072a570cb1437e66715683e26514ca"
+    },
+    {
+      "path": "docs/observables/finite_law_dependence.md",
+      "bytes": 15490,
+      "sha256": "2d1953cf86fdc92331429aeb29c452620511ca53cb6ef507754ea2804a12935d"
+    }
+  ],
+  "withheld": [
+    "Private original author/blind sources, adoption/source correspondence and raw custody/runtime/process records."
+  ],
+  "limits": "Conditional finite existence, not fullfamilyextension/all-size law/physicalselection. No fifthbirth marginal, efficiency or execution acceptance. Historical manifests retain priorcheckpoint scope."
+}

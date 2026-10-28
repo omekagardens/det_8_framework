@@ -9,7 +9,7 @@ With the unchanged supplied pair register and its fixed empty preparation, the c
 \boxed{p_\lambda(Y=0)=71\lambda/2640,\qquad
 p_\lambda(Y=1)=1-71\lambda/2640.}
 \]
-Distinct admitted parameters give different probabilities for the same representation-invariant event. This establishes optional finite law dependence under the declared common interpretation. It does not select a physical law or extend the family beyond four births. The family theorem and output calculation received separate blind reconstructions and coordinator reconciliation.
+Distinct admitted parameters give different probabilities for the same representation-invariant event. This establishes optional finite law dependence under the declared common interpretation. It does not select a physical law. The whole family is proved through four births; the fixed \(\lambda=2\) member also has the separately reviewed positive fifth-birth extension constructed below. The family theorem and output calculation received separate blind reconstructions and coordinator reconciliation.
 
 ## Domain, unchanged rows and the prescription
 
@@ -137,3 +137,44 @@ Order-and-mark transport preserves precursor size, pair incidence, effects and p
 The family proof's premises file was saved after preliminary reasoning, although its exact protocol had already been separately frozen and admitted. A distinct blind reconstruction independently established the bounded theorem. Acceptance does not certify a premises-first process or repair historical custody; earlier interruption and recovery qualifications remain.
 
 Structural supply, physical memory, routing, reset, calibration and their costs remain additional premises. No all-size extension, native physical observer, quantum advantage, efficiency, geometry or gravity follows. Scientific, review, protected-validation, custody, resource, execution and publication gates remain.
+
+## Accepted positive extension through birth five at \(\lambda=2\)
+
+The fixed \(\lambda=2\) member above admits an exact, strictly positive fifth-birth extension. Every earlier row, ideal occurrence, fair newborn bit and supplied register/readout rule remains unchanged. This is an existence result for this particular prefix.
+
+For a marked order \((A,r)\) with \(n\le4\), choose any compatible natural birth order, use each newborn's entire strict past, and define
+\[
+W_n(A,r)=\prod_{j=1}^n q^{(2)}(A_{j-1},r_{j-1},S_j),
+\qquad W_0=1.
+\]
+This is one structural history product: it excludes fair-bit halves, endpoint sums and automorphism factors. That marked history has probability \(W_n/2^n\).
+
+Any two natural orders connect by adjacent swaps of incomparable vertices. The admitted marked diamonds preserve each swapped two-factor product; actual-identity transport preserves the remaining suffix. Thus \(W_n\) is well defined and marked-equivariant. In particular,
+\[
+W_4(C+x_S,r+b)=W_3(C,r)q^{(2)}(C,r,S).
+\]
+
+Let \(N(A)\) count the actual proper ideals of a four-vertex parent, and set \(\varepsilon=1/49500\). Define every new structural slot by
+\[
+Q(A,r,S)=\varepsilon/W_4(A,r)\quad(S\subsetneq A),
+\qquad Q(A,r,A)=1-N(A)\varepsilon/W_4(A,r).
+\]
+Both newborn bits receive \(Q/2\). Equal proper coefficients retain their distinct ideal occurrences.
+
+The successive prefix factors have lower bounds \(1,1/3,1/10,1/55\). For the last bound, the \(\lambda=2\) proper minima are \(1/55\) for the antichain, \(5/132\) for the edge plus isolate, and \(1/22\) for forks, joins and chains. Their full coefficients are respectively \(3/5,21/44,31/55,43/55,9/11,19/22\), including both fork root marks. Hence
+\[
+1/1650\le W_4(A,r)\le1,
+\qquad N(A)\le15.
+\]
+It follows that every proper slot lies between \(1/49500\) and \(1/30\), while the full complement is at least \(1/2\). Complete rows normalize exactly and retain strict full support. Marked transport preserves \(W_4\) and bijects the actual ideals, so it preserves \(N\) and the complete row.
+
+For any three-vertex base \(C\), ideals \(S,T\) and newborn bits \(b,c\), the second precursor \(T\) excludes \(x\) and remains proper in \(C+x_S\), even if \(T=C\). Therefore
+\[
+q^{(2)}(C,r,S)Q(C+x_S,r+b,T)
+=\varepsilon/W_3(C,r),
+\]
+and the reverse path gives the same value. Fair-bit factors divide both sides by four. This covers all markings and empty, full-in-base, equal, overlapping or disjoint precursors. Full new slots occur in complete rows and transported suffixes, although not as these incomparable second steps. Adjacent swaps through five births use only the old diamonds and these new ones.
+
+The unchanged update still defines an isometry \(J\); \(\sqrt{Q/2}J\) gives completely positive branches and complete-row trace preservation, also with arbitrary finite references. Commuting old increments and identical zero newborn coordinates preserve the full map diamonds and transported suffixes. From empty preparation, vertex and pair counters have maxima four and three, below the modulus five. The same pair-nonzero event and prepared classical/quantum joint-law equality therefore hold. This is not arbitrary-input classical channel simulation.
+
+A distinct blind reconstruction used the smaller constant \((1/55)^4/30\). It establishes another valid extension, not identical rows; coordinator reconciliation separately checked the stronger bounds used here. Neither construction establishes uniqueness. No fifth-birth marginal, all-size extension, physical selection, native observer or advantage follows. The earlier process/custody qualifications and all scientific, review, calibration and execution gates remain.

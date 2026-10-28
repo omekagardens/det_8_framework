@@ -1,3 +1,7 @@
+## Current accepted native extension
+
+An accepted [positive fifth-birth extension](../observables/finite_law_dependence.md) now preserves the fixed \(\lambda=2\) prefix, all marked diamonds and the supplied prepared classical/quantum readout compatibility. No fifth-birth marginal, all-size law or physical selection is established. Broader extension remains a prospective question.
+
 ## Current reviewed results and closed claims
 
 The accepted [finite law family](../observables/finite_law_dependence.md) retains the fixed-event probability \(p_\lambda(Y=0)=71\lambda/2640\) for \(0<\lambda<88/23\). Different members have different probabilities for the same representation-invariant event. This establishes finite optional law dependence, without an all-size extension or physical parameter selection.
