@@ -1,3 +1,11 @@
+## Reviewed population separation — 2026-10-28
+
+An independently reviewed sufficient population margin is now accepted for the fixed \(\epsilon=1/2,\kappa=1/4\) twelve-label model. Opposite relative-sign classes, with independently chosen centers, have maximum-word total-variation distance at least \(3/320\). Their complete population-error neighborhoods are disjoint when \(2\eta<3/320\). Correct singleton reporting still requires true-class containment; zero or two compatible classes require ABSTAIN. The result establishes neither sharpness nor an efficient membership algorithm, samples, confidence, empirical calibration or physical advantage.
+
+See the [complete model and proof](../../docs/observables/finite_relative_sign_separation.md). Earlier checkpoint summaries below retain their historical scope.
+
+---
+
 ## Current accepted native extension
 
 An accepted [positive fifth-birth extension](../observables/finite_law_dependence.md) now preserves the fixed \(\lambda=2\) prefix, all marked diamonds and the supplied prepared classical/quantum readout compatibility. No fifth-birth marginal, all-size law or physical selection is established. Broader extension remains a prospective question.

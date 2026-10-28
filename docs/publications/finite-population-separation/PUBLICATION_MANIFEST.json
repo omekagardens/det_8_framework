@@ -1,0 +1,49 @@
+{
+  "scope": "Independently reviewed sufficient3/320 separation in the fixed twelve-label population family, with full shortproof and conditional error-neighborhood interface.",
+  "files": [
+    {
+      "path": "docs/observables/finite_relative_sign_separation.md",
+      "bytes": 5671,
+      "sha256": "76588d4d0468332d9764a933119a6035d746870da19071fd05c713ada1b32bc2"
+    },
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1248067,
+      "sha256": "48da8d0faf17adb803089ad8b254a1fd8d5632cc9aec83ae1d14eef4b99ed52a"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1496232,
+      "sha256": "038b060d1a463d93aac8cf77314f1ce0319ca7755d2e2d34eb3f2acf1de93cd7"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 869613,
+      "sha256": "803eedefc5f755d9fedae22574e4a9d56a8330f5d3dff9d4bedfeafa285d96e5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 63217,
+      "sha256": "4092466acbea3cc2d22b65fe29b0a7e00d74e29c1f038505f9c37f045f91c13f"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 60144,
+      "sha256": "7e4f2a9b0f8dd9659907f25daca9aeebef65594848dd2cccb52a85ca4bbaeee5"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 59451,
+      "sha256": "bbaa9bf67fdae2b586cb86d89280a438040214132ce05f298ab6ff9ea9252e62"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 85413,
+      "sha256": "0dd5b36571c5a8a2b0bb45aa67d23d136f4b9e639302de12c9dc5b3383b7d343"
+    }
+  ],
+  "withheld": [
+    "Private source/review/adoption correspondence, raw custody/runtime/process records and active unreviewed proposals."
+  ],
+  "limits": "Sufficient deterministic population result; no sharpness, algorithmic efficiency, finite-sample/calibration or physical claim. Earlier publication manifests retain their checkpoint scope."
+}
