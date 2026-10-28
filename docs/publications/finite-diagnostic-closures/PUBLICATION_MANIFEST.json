@@ -1,0 +1,44 @@
+{
+  "scope": "Latest independently accepted conditional diagnostic identities, thermal zone-accounting reconciliation and exact noiseless drift-identifiability threshold; existing finite-law theorem and qualified private SDK fixture status.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1246864,
+      "sha256": "2a9e2d805ef6dbe1d90d24c1e7f9893b645492e903dc85b6e0337f09eb586f27"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1495025,
+      "sha256": "d9a1f717a1c1ec28349e4ff0d3dde18542947aaa766d904d34d5f1dd1079625a"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 868406,
+      "sha256": "498859880b89748d535b0bc174b33cb5feecfd56aed505ba1c6ec798c0870108"
+    },
+    {
+      "path": "README.md",
+      "bytes": 62014,
+      "sha256": "10156012a5bd8968913bb11f7d5b2c481431e59b66dd28ccc57e6683767ac3c7"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 58941,
+      "sha256": "7600f2a8f883e549d106ec7664bc1b85b6defc813fd968e3386495b09a8fbc8e"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 58248,
+      "sha256": "5cf4d03dad785327efc911cda48892ace801e327749bf65d52d868c5782834d6"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 84210,
+      "sha256": "5203e18f3ad1c50fa15cce71aa62b449e9915dde95954d4bde9fb834b00390de"
+    }
+  ],
+  "withheld": [
+    "Private original source/adoption joins, raw custody/runtime/process records, active protocols and unreleased SDK source."
+  ],
+  "limits": "Public reviewed summary; exact technical dependencies retained privately. No actual numerical certificate, physical calibration, full source-to-reset ranking, SDK release or new execution approval. Prior manifests retain their historical checkpoint scope."
+}

@@ -1,3 +1,19 @@
+## Current reviewed results and closed claims
+
+The accepted [finite law family](docs/observables/finite_law_dependence.md) retains the fixed-event probability \(p_\lambda(Y=0)=71\lambda/2640\) for \(0<\lambda<88/23\). Different members have different probabilities for the same representation-invariant event. This establishes finite optional law dependence, without an all-size extension or physical parameter selection.
+
+Measurement work now supplies conditional exact signed local-response and full-operator error identities, including history and interface discrepancies. The cancellation example gives no distinction against competent exact symbolic or affine reasoning, so that advantage candidate is closed. No actual witness-bound error certificate, useful precision or efficiency result has been established.
+
+For the two accepted synthetic thermal-control witnesses, the modeled delivered-heat differences equal unequal terminal zone-storage differences: 9.12 J and −8.55 J. This reconciles the heater component with stored heat; it supplies no restoration price, recoverable-work credit or full source-to-reset cost ranking.
+
+Within the stipulated exact noiseless twelve-label family, with magnitude tolerance \(0\le\epsilon<1\) and drift allowance \(\kappa\ge0\), opposite relative signs overlap exactly when \(1/2\le\epsilon<1\) and \(\kappa\ge1-\epsilon\). This means an ambiguous tuple exists, not that every tuple is ambiguous. It establishes no finite-record coverage, empirical parameter certification or physical bridge.
+
+The scoped RET implementation passed 31 functional cases, with the baseline's ten cases also passing. Functional acceptance retains an extra patch-process deviation and does not certify full process-contract compliance. Real-bank integration, G2 and release remain held.
+
+Future protocols and proposed proofs are not accepted results. Independent review, calibration, protected validation, custody, resource and execution gates remain unchanged.
+
+Earlier entries below retain their historical scope.
+
 ## Current accepted law and implementation results
 
 The accepted [finite law family and readout theorem](docs/observables/finite_law_dependence.md) admits exactly \(0<\lambda<88/23\) for the declared four-birth prescription. Its unchanged pair readout has unselected zero probability \(71\lambda/2640\). Different members therefore differ on the same representation-invariant event, rather than merely on coordinate names. This is a conditional finite-law result, with matched prepared classical and quantum probabilities; it supplies no physical parameter selection or all-size extension.
