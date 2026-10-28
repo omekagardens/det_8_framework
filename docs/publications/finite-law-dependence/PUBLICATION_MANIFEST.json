@@ -1,0 +1,49 @@
+{
+  "scope": "Reviewed finite law family and invariant readout dependence; current scoped scientific and private implementation summaries.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1244820,
+      "sha256": "0d3742e6336fa7e302126ae9b41c85f1b13f02eacfeb5fb7f5a5e503f918e31b"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1492983,
+      "sha256": "d7b5ecfc504b479a420eea2736488273889b6be02c3eeae9a910b5017f3555d7"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 866364,
+      "sha256": "a27d9e463090de94f40f9da4ec857d4105dff0d8271cc1984c9f3ee83b500046"
+    },
+    {
+      "path": "README.md",
+      "bytes": 59970,
+      "sha256": "7acf07b7b2418346a8e046f6b76bbe709a79cf3c107e2f4f0a9265f209be67b5"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 56897,
+      "sha256": "2525ff80b302629d1b91a1f3f00979d2e9c9c7c08f9218d51fc474020d67a1c9"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 56204,
+      "sha256": "0ea33bae7c3938e74ce58a0b1fa7847bfd0553d288efdc67a1b2a66e68a79bcf"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 82166,
+      "sha256": "d274d8a7d2d2b6113d7cd434d6120677b73bf2153bb7939a15634d3c546b0127"
+    },
+    {
+      "path": "docs/observables/finite_law_dependence.md",
+      "bytes": 11681,
+      "sha256": "fde178e657bfbf53c68d16cad6e47d7809c03ab675f28060b40c63cbbb63fb53"
+    }
+  ],
+  "withheld": [
+    "Private originals and correspondence, independent review/custody/runtime records, process-deviation detail and launch transcripts, active protocols and unreleased SDK source."
+  ],
+  "limits": "Conditional finite theorem, not all-size or physical law selection. Private fixture result retains a process-contract deviation and is not whole-SDK qualification. Public derivative is not an executable custody package. Earlier manifests cover historical checkpoints."
+}

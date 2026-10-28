@@ -1,3 +1,18 @@
+## Current accepted law and implementation results
+
+The accepted [finite law family and readout theorem](docs/observables/finite_law_dependence.md) admits exactly \(0<\lambda<88/23\) for the declared four-birth prescription. Its unchanged pair readout has unselected zero probability \(71\lambda/2640\). Different members therefore differ on the same representation-invariant event, rather than merely on coordinate names. This is a conditional finite-law result, with matched prepared classical and quantum probabilities; it supplies no physical parameter selection or all-size extension.
+
+The measurement lane has accepted a conditional obstruction to useful widths in the prescribed direct interval calculation: a positive incoming grid width can force a large certificate lower bound. The actual seed, precision and resource limits remain unverified. This is neither an actual-error result nor an impossibility theorem for every method.
+
+The thermal-control comparison now has two legal matched command-prefix witnesses with opposite heater-bill differences, refuting both universal weak orderings for that component. Terminal storage differs; full-cycle costs, expectations, physical readiness and any DET benefit remain unestablished.
+
+The energy lane has accepted coverage with a supplied bound on initial distance from stationarity, combining transient bias and fluctuation bounds for the stationary target. Failed deterministic margins still require ABSTAIN. The result supplies no empirical certification of that distance, preparation or calibration.
+
+RET SDK development has applied a reviewed borrowed-reader connection for one predictive case. Ten baseline fixtures and all 31 candidate fixtures passed without skips. Functional adoption retains a disclosed extra application-subprocess deviation; full process-contract compliance, real-bank custody, G2, calibration and release are not established. The unreleased SDK source remains outside this public derivative.
+
+Independent review, G2, calibration, protected validation, custody, resource and execution gates remain unchanged.
+The entries below are preserved as historical records.
+
 ## Current accepted results
 
 Current accepted results include the [unselected four-birth pair-readout calculation](docs/observables/finite_pair_incidence_register.md): under the fixed finite law and supplied preparation/readout, the exact probabilities are \(71/2640\) for zero and \(2569/2640\) for one. An independent complement reconstruction agrees. This is a conditional model calculation, with equal prepared classical and quantum output laws, not a physical prediction or an efficiency result.
