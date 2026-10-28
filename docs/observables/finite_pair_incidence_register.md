@@ -106,3 +106,94 @@ A birth with n old vertices and m ideal members charges one new handle, 1+n allo
 These matched abstract charges establish no measured time, memory advantage, energy saving or optimality. Supplying q, ideals and the roster, physical routing/storage, synchronization, calibration, reset and fault control remain uncosted, not free.
 
 No minimality, universal order reconstruction, quantum necessity, native quantum mechanics, physical observer, geometry or gravity follows. Calibration, protected validation, custody, independent review, resource and execution gates remain. Historical interruption, incomplete original wrap and earlier process qualifications are retained in the private evidence; the later recovery and review do not reconstruct that history. This public derivative supplies the mathematical statement, not an executable or custody-replay package.
+
+## Accepted unselected four-birth output probability
+
+A subsequent calculation, independently reconstructed and reconciled by the coordinator, establishes
+\[
+\boxed{\Pr(Y=0)=\frac{71}{2640},\qquad
+\Pr(Y=1)=\frac{2569}{2640}.}
+\]
+This section supersedes the earlier statement that no unselected output probability is asserted, solely for the fixed law, four births, empty preparation and supplied pair readout above. All ideal occurrences and both newborn marks are retained. The original conditional theorem and its implementation limitations remain unchanged.
+
+Here \(Y=1\) precisely when some birth's full strict past contains at least two vertices: that birth increments a pair counter, and no counter wraps at this horizon. Those predecessors need not be incomparable. No endpoint selection or renormalization is used.
+
+### Fixed rows and complete prefix ledger
+
+For convenience, restate the coefficients of the [fixed incidence law](finite_incidence_register.md):
+\[
+a=2/3,\ c=1/5,\ d=1/4,\ g=1/10,\ k=11/20,\ e=1/44,
+\]
+\[
+f_0=1/6,\ f_1=1/3,\ h_0=19/30,\ h_1=7/15;
+\qquad f_i+h_i=4/5.
+\]
+The empty row is one; singleton empty/full weights are \(a,1-a\). Two-chain empty/root/full weights are \(c,f_i,h_i\), with root mark \(i\); two-antichain empty/singleton/singleton/full weights are \(d,g,g,k\). Every birth bit has probability \(1/2\), so each natural marked history has weight \(\prod(q/2)\).
+
+Let A, D, F, J and C denote the three-vertex antichain, edge plus isolate, fork, join and chain. These ledger letters do not rename the four-vertex endpoint contrast above. Birth positions label the ideals below; the first ideal is empty. Every displayed encoding admits all eight ordered three-bit strings.
+
+| Parent | Second and third ideals | Weight per bit string per encoding | Total mass |
+| --- | --- | --- | --- |
+| A | empty, empty | \(ad/8=1/48\) | \(1/6\) |
+| D | empty, {1}; empty, {2}; {1}, empty | \(ag/8=(1-a)c/8=1/120\), each | \(1/5\) |
+| F, root mark \(i\) | {1}, {1} | \(f_i/24\) | \(1/12\) |
+| J | empty, {1,2} | \(ak/8=11/240\) | \(11/30\) |
+| C, root mark \(i\) | {1}, {1,2} | \(h_i/24\) | \(11/60\) |
+
+This exhausts the empty, singleton and full alternatives in the two-parent rows. At depth two, each ordered bit pair has antichain mass \(1/6\) and chain mass \(1/12\), totaling \(2/3\) and \(1/3\).
+
+For D, each fixed root/leaf/isolate marking has three natural encodings of mass \(1/120\), hence mass \(1/40\). Four such assignments per root mark give \(1/10\) each. For F, root-mark masses are \(f_i/6\), namely \(1/36,1/18\); for C they are \(h_i/6\), namely \(19/180,7/90\). Incoming mark dependence is retained.
+
+The five parent masses sum to one. A, D and F are untriggered, totaling \(9/20\); J and C are already triggered, totaling \(11/20\). Complete mass is one at every depth through three.
+
+### Complete fourth rows and marked multiplicities
+
+In D write \(u<v\) with isolate \(w\); in F, root \(u\) has leaves \(v,w\); in J, minima \(u,v\) lie below \(w\).
+
+| Parent | Every proper ideal and its weight | Full ideal weight |
+| --- | --- | --- |
+| A | empty: \(1/44\); each of three singletons: \(1/110\); each of three pairs: \(1/20\) | \(4/5\) |
+| D, root mark \(i\) | empty, {w}: \(1/44\) each; {u}: \(5f_i/44\); {u,v}: \(5h_i/44\); {u,w}: \(1/8\) | \(65/88\) |
+| F, root mark \(i\) | empty, {u}: \(1/44\) each; {u,v}, {u,w}: \(h_i/(44f_i)\) each | \(43/55\) for 0; \(49/55\) for 1 |
+| J | empty, {u}, {v}, {u,v}: \(1/44\) each | \(10/11\) |
+| C | empty, root, initial pair: \(1/44\) each | \(41/44\) |
+
+The fork pair slots are \(19/220,7/220\) for root marks 0,1. Proper-slot sums are respectively \(1/5,23/88,12/55\) or \(6/55,1/11,3/44\). Thus every entry is positive and every complete row sums to one. At this terminal step the unused newborn bit sums as \(q/2+q/2=q\).
+
+These are actual ideal occurrences, not an unmarked quotient. For an A parent with mark counts \(n_0,n_1\), singleton orbit sizes are \(n_0,n_1\), while pair orbit sizes are \(\binom{n_0}{2},n_0n_1,\binom{n_1}{2}\): each total is three. Exchangeable fork leaves or join minima form one size-two orbit when their marks agree, and two size-one orbits otherwise; their corresponding slot weights agree. D and C have distinct roles. Incoming mass already includes all natural-history multiplicities, so no extra automorphism, labeling or linear-extension factor is applied.
+
+### Terminal probabilities and independent complement
+
+For untriggered parents, summing exactly the empty and singleton ideals gives
+\[
+R_A=1/20,\quad R_{D,0}=17/264,\quad
+R_{D,1}=22/264=1/12,\quad R_F=1/22.
+\]
+Thus D contributes \((1/10)(17/264)+(1/10)(22/264)=13/880\) to zero, and F contributes \((1/36+1/18)/22=1/264\). No mark-dependent ratio is averaged separately from its incoming weight.
+
+| Parent | Incoming mass | Contribution to \(Y=0\) | Contribution to \(Y=1\) |
+| --- | --- | --- | --- |
+| A | \(1/6\) | \(1/120\) | \(19/120\) |
+| D | \(1/5\) | \(13/880\) | \(163/880\) |
+| F | \(1/12\) | \(1/264\) | \(7/88\) |
+| J | \(11/30\) | 0 | \(11/30\) |
+| C | \(11/60\) | 0 | \(11/60\) |
+
+Each row conserves its incoming mass. The two column sums are
+\[
+p_0=(22+39+10)/2640=71/2640,
+\]
+\[
+p_1=(418+489+210+968+484)/2640=2569/2640.
+\]
+They are nonnegative and sum to one, completing depth-four normalization.
+
+A distinct reviewer independently reconstructed the complement without accessing the author ledger. Removing every transition with an ideal of size at least two, without renormalizing, retains only the A, D and F routes. With \(\overline R_D=(17/264+22/264)/2=13/176\), the surviving-path expression is
+\[
+C_4=adR_A+[2ag+(1-a)c]\overline R_D
++\frac{1-a}{2}\sum_{i=0}^1 f_iR_F
+=\frac1{120}+\frac{13}{880}+\frac1{264}=\frac{71}{2640}.
+\]
+The independent reconstruction also retained the triggered third-birth mass \(11/20\) and the new fourth-birth contributions, recovering \(2569/2640\). Coordinator reconciliation found agreement with the full ledger, including marked multiplicities and complete-row conservation.
+
+These fractions transfer to the prescribed classical and quantum preparations by the joint-law equality already proved above. They identify neither a physical observation probability nor a growth law, and establish no quantum advantage, efficiency, geometry or gravity result. Supplying the structural law, ideal handles, routing, memory, reset and calibrated readout remains an additional requirement; all review, custody, calibration, resource and execution gates remain.

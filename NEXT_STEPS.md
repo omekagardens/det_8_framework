@@ -1,3 +1,17 @@
+## Current accepted results
+
+Current accepted results include the [unselected four-birth pair-readout calculation](docs/observables/finite_pair_incidence_register.md): under the fixed finite law and supplied preparation/readout, the exact probabilities are \(71/2640\) for zero and \(2569/2640\) for one. An independent complement reconstruction agrees. This is a conditional model calculation, with equal prepared classical and quantum output laws, not a physical prediction or an efficiency result.
+
+The measurement lane has accepted a conditional paper proof that a successful exact rational interval evaluation encloses the prescribed exact operator, including its pass histories, extension and crop. It supplies neither a computed numerical error bound nor an implementation, useful interval width, calibration or execution permission. Width feasibility is now a bounded paper question; no useful-width or resource result has been accepted.
+
+The thermal-control comparison has accepted that a policy using current readings retains the frozen synthetic plant's sampled entry, retention and dwell guarantee. This removes a recursive zone observer from that sufficient construction; it establishes neither general irrelevance of history nor lower total source-to-reset cost or physical readiness.
+
+The energy lane has accepted a covariance bound supplied by a finite homogeneous hidden-Markov model with deterministic readout, exact stationary initialization and a known uniform contraction bound. This conditional structural result does not certify physical preparation, stationarity, calibration or a work store.
+
+The law-dependence follow-up is a bounded finite-family audit; no new family or probability dependence has been accepted. RET SDK development has resumed; historical pause records remain historical. G2, calibration, protected validation, independent review, custody, resource and execution gates remain in force across the programme.
+
+The earlier entries below are preserved as historical records.
+
 ## Current programme status
 
 All research tracks, including RET SDK development, have resumed under explicit human authorization. The shared usage stop remains at 3% remaining. Scientific, independent-review, custody, calibration, protected-validation, resource and execution gates remain unchanged. Earlier pause statements below are historical and do not supersede this status.
