@@ -1,0 +1,49 @@
+{
+  "scope": "Reviewed finite endpoint chain-event law separation for the declared pair of scalar extensions; current conditional mass/gravity calculation priority.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 65340,
+      "sha256": "4023f4760b8c8f9f10878408f95a92aa87b5ec2ec83dc1bc0731e999b40a13d5"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 62267,
+      "sha256": "969abf83d02ac812125dcc0499eecc501d41ed7bb581bdeb663860f0f836b99f"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 61574,
+      "sha256": "55e15155e2202f187a9264a377f2f041e7c55c220a7806e9c0235225220bb605"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 87536,
+      "sha256": "b4041501e67d7a18b2ffaef7c42c4ab1432f2beddc7231b96fa943a6227d1451"
+    },
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1250190,
+      "sha256": "e71ec55cc06367e6946b093a0c1231243ae9a2b70c3a0fcf401f768ec5361fd8"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1498351,
+      "sha256": "097001e0d0406008c22b21c195f5738e17335d43eb8ee208093ac4b77b6438c4"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 871732,
+      "sha256": "e3bde284cac9bb47f47862f5f001208d842d62290280d324ab6c65a54d6952b3"
+    },
+    {
+      "path": "docs/observables/finite_scalar_extension.md",
+      "bytes": 10482,
+      "sha256": "ba51f18d70a425942f76f90cf4904df721fafc1268f9b32f61cb8e04fad9dfc8"
+    }
+  ],
+  "withheld": [
+    "Private source/review/adoption correspondence and raw custody/runtime/process records. Unreviewed source-response results, private SDK preparations and philosophical submissions."
+  ],
+  "limits": "Finite optional-law distinction only, no physical discriminator, preferred law, mass/gravity result, infinite object or efficiency claim. Current mass/gravity protocol admits a conditional calculation only. Previous manifests retain checkpoint scope."
+}

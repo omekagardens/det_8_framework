@@ -72,10 +72,53 @@ For \(n=1\), \(W_0=W_1=m_1=B_1=1\): the singleton empty/full slots are \(\theta,
 
 Finite products, an attained minimum, rational \(\theta\), and nonzero division preserve rationality when \(K=\mathbb Q\). For \(K=\mathbb R\), the exact finite minimum is a mathematical definition, not an assumed effective comparison oracle. This completes the scalar lemma.
 
+## Corollary: a fixed chain event distinguishes two extensions
+
+Fix any \(n\ge1\), \(K\in\{\mathbb R,\mathbb Q\}\), and prefix in \(\mathcal F_n(K)\). Compare the construction above at
+\[
+\theta_0=\frac13,\qquad \theta_1=\frac23,
+\]
+using the identical prefix, horizon \(n+1\), and fair newborn marks.
+
+Fix names by birth position. A history is the complete sequence of actual precursor ideals and bits; its weight is the product of the applicable scalars and one factor \(1/2\) per bit. Let \(P_i\) be this finite history law pushed forward to marked endpoint isomorphism classes. Define \(E_{n+1}\) to contain every endpoint whose underlying order is a total chain, including all markings. This event uses no selected parent, vertex, mark or conditioning.
+
+For the chain \(C_n:1<\cdots<n\), put
+\[
+W_r=W_n(C_n,r),\qquad
+A_n=2^{-n}\sum_{r\in\{0,1\}^n}W_r.
+\]
+Then
+\[
+P_i(E_{n+1})=A_n-\frac{n\theta_i m_n}{2^n-1},
+\qquad
+\boxed{P_0(E_{n+1})-P_1(E_{n+1})
+=\frac{n m_n}{3(2^n-1)}>0.}
+\]
+
+**Proof.** Growth leaves the old induced order unchanged. A terminal chain therefore requires a chain parent and a newborn above every old vertex, hence a full-ideal birth. Conversely that birth over a chain produces a chain. Repeating backward shows that precisely the all-full-ideal histories contribute. Other histories remain in the normalized sample space and are excluded only by this event criterion.
+
+For each rank-ordered binary string \(r\), exactly one prefix history produces \((C_n,r)\). A chain has one rank order and trivial order automorphism group, even with repeated marks. Thus each complete rank-ordered bit string supplies one qualifying birth-position history; there is no factorial or extra linear-extension multiplicity. Renaming vertices gives encodings, not additional outcomes.
+
+The chain has exactly \(n\) actual proper ideals, its initial segments of lengths \(0,\ldots,n-1\). With \(\varepsilon_i=\theta_i m_n/(2^n-1)\), its full complement is \(1-n\varepsilon_i/W_r\). For each final bit \(b\), the qualifying history has weight
+\[
+2^{-(n+1)}W_r\left(1-\frac{n\varepsilon_i}{W_r}\right).
+\]
+Summing both final bits and all prefix strings gives
+\[
+P_i(E_{n+1})
+=2^{-n}\sum_r(W_r-n\varepsilon_i)
+=A_n-n\varepsilon_i.
+\]
+The cancellation is separate for each positive \(W_r\). All marks are counted, without assuming their prefix weights equal. In particular \(A_n\) is the unconditional prefix chain probability. The same prefix gives common \(A_n,m_n\), so subtracting at the fixed pair proves the positive gap.
+
+When \(n=1\), \(W_1=m_1=B_1=A_1=1\). All four two-bit chain histories are included, giving probabilities \(2/3\) and \(1/3\), and gap \(1/3\). For rational inputs the finite products, attained minimum and sums remain rational; the same formulas hold for exact real inputs without an effective comparison oracle.
+
+Comparability is preserved by marked order isomorphisms, so \(E_{n+1}\) is coordinate invariant. Unequal mass on this event distinguishes these two finite endpoint laws and cannot be erased by an event-preserving renaming. This is not a physical discriminator or a preferred-law selection.
+
 ## Meaning and limits
 
 The choice of \(\theta\) is optional extension data; labels and natural orders are coordinate conventions. No canonical, optimal or physically preferred choice is selected. The premises used above are sufficient; their use is not a necessity theorem for weakened families.
 
-The result concerns one additional scalar layer over this declared family, not all DET laws. It supplies no infinite compatible object or measure, payload or quantum-channel extension, quantum reconstruction or limit, arbitrary-horizon modulo-five readout extension, output marginal, computational advantage or physical law selection. It includes no executed enumeration, algorithmic cost claim or operational permission.
+The lemma concerns one additional scalar layer over this declared family, not all DET laws. The corollary distinguishes only the two stated finite endpoint laws on the specified event; it neither classifies all extensions nor supplies a uniform family-wide separation. Neither result supplies an infinite compatible object or measure, payload or quantum-channel extension, quantum reconstruction or limit, arbitrary-horizon modulo-five readout extension, a payload/readout output marginal, computational advantage, a physical discriminator or physical law selection. No mass or gravity conclusion follows. Neither result includes executed enumeration, an algorithmic cost claim or operational permission.
 
 Earlier interruption/recovery and premises-save qualifications remain historical qualifications; this accepted proof does not repair them. Scientific, independent-review, protected-validation, custody, calibration, resource, execution and publication gates remain in force.

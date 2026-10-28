@@ -1,3 +1,11 @@
+## Current result and priority — 2026-10-28
+
+The accepted finite scalar-extension construction now has an independently reviewed endpoint-law corollary. For every admitted finite prefix of size n, the choices theta=1/3 and theta=2/3 assign different probabilities to the same all-markings chain event at birth n+1. The exact gap is n m_n/[3(2^n-1)] > 0, where m_n is the positive minimum individual structural history product defined in the proof. This establishes a finite law difference beyond a coordinate renaming, without selecting a physical law, supplying a physical discriminator or proving a uniform gap across prefixes.
+
+The next focused QR question concerns mass and gravity: one explicitly supplied matter/source model, operational inertia and source-dependent motion and clock observations. Its prospective protocol has passed separate review for a bounded conditional calculation; no response prediction, native derivation, physical interpretation or execution is accepted yet. Further growth-law work requires a specific need in that candidate and a decision changed by its answer. Scientific, independent-review, custody, calibration, protected-validation, resource and execution gates remain.
+
+See the [self-contained lemma and event corollary](docs/observables/finite_scalar_extension.md). Earlier entries below describe their historical checkpoints.
+
 ## Current accepted result — finite scalar extension
 
 The independently reviewed scalar extension lemma is accepted: every finite positive, normalized, parent-only, marked-equivariant full-ideal prefix satisfying all incomparable-birth diamonds extends by one strictly positive layer over the same real or rational field. The construction retains every actual ideal and positive full complement. It establishes no infinite object, physical law selection, readout marginal or computational advantage. Historical process qualifications and all scientific, review, custody, calibration and execution gates remain.
