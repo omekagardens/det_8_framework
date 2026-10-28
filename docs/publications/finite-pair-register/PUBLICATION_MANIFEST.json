@@ -1,0 +1,49 @@
+{
+  "scope": "Reviewed finite pair-incidence theorem and current status reconciliation; conditional mathematics only.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1240652,
+      "sha256": "4a02e4b2f99010fe9d97c1a2291ee67172e23f2f3d195a2c9378ece8f210cf33"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1488819,
+      "sha256": "9d2816ff57feaceb6afe2a58afc711c85a4cb3e76b28531a5cbc8421daa4fa8f"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 862200,
+      "sha256": "bc2d8fb0743885b5046c7a6eb72ec185d02d069d352d174004834b20d1045ae8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 55802,
+      "sha256": "9b7027cbb72a2da1fcd625e8b3e9b6fb693f5aaddc6957e5893f766f7de108a2"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 52729,
+      "sha256": "fa0af8a61a5583c43904d8b10545fe27cbe0ee7f9ce3491748c337e4f6340d0c"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 52036,
+      "sha256": "9d8db8fd2ef5624ba87e7575a1068521a21035662c440661fccf41fc0f2f0b52"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 77998,
+      "sha256": "779e896a2825d2c887b20cc721abc706b49eb2667b2e74e61d4d6a8c7e404cad"
+    },
+    {
+      "path": "docs/observables/finite_pair_incidence_register.md",
+      "bytes": 9550,
+      "sha256": "02934f6d5e3fa43b041f47800907dec70fa01d4a723e4a356048fbe3ad36f27c"
+    }
+  ],
+  "withheld": [
+    "Original private evidence, source correspondence, review manifests, runtime and custody records."
+  ],
+  "limits": "No executable or independently replayable custody package. No physical, calibration, efficiency, G2 or execution acceptance. Historical source and process qualifications remain in private records."
+}

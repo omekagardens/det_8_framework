@@ -1,3 +1,14 @@
+## Current programme status
+
+All research tracks, including RET SDK development, have resumed under explicit human authorization. The shared usage stop remains at 3% remaining. Scientific, independent-review, custody, calibration, protected-validation, resource and execution gates remain unchanged. Earlier pause statements below are historical and do not supersede this status.
+
+The [finite pair-incidence register theorem](docs/observables/finite_pair_incidence_register.md) is independently reviewed and accepted for the fixed four-birth law and supplied memory/access/readout. Its conditional endpoint distinction has an exact ordinary classical realization. No quantum advantage, physical observer, efficient implementation or unconditional output probability is established.
+
+Measurement work has admitted a bounded paper question: whether outward interval arithmetic can enclose the accepted exact processing operator and support the missing numerical discrepancy bounds for the unchanged seventeen-window contrast. No new containment theorem, numerical bound, implementation or execution is accepted by that admission. Actual decoding/identity, useful enclosure width, complete costs, calibration and a native physical forward map remain separate premises.
+
+Next steps retain distinct authors and reviewers: specify the unselected finite readout calculation before analysis, and review the measurement paper proof before any implementation or numerical application. Acceptance of one finite result does not complete the broader programme or authorize another track's assumptions.
+
+
 ## 27 October 2026 — prepared observation and comparison limits
 
 The [finite incidence-register theorem](docs/observables/finite_incidence_register.md#7-exact-classical-realization-of-the-prepared-observation) now includes a reviewed classical realization: classical counters reproduce the fixed prepared history/output probabilities under the same supplied access assumptions. This establishes no physical observer or arbitrary quantum-channel equivalence. Review also rejects the displayed energy-pilot saving because a competent fixed baseline is cheaper under the shared assumptions. Thermal accounting and SDK source review advance at their stated conditional scopes; calibration, physical readiness and execution gates remain. See the [current scoped progress](docs/coordination/REVIEW_PROGRESS.md).

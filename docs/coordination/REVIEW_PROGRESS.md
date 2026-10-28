@@ -1,3 +1,14 @@
+## Current programme status
+
+All research tracks, including RET SDK development, have resumed under explicit human authorization. The shared usage stop remains at 3% remaining. Scientific, independent-review, custody, calibration, protected-validation, resource and execution gates remain unchanged. Earlier pause statements below are historical and do not supersede this status.
+
+The [finite pair-incidence register theorem](../observables/finite_pair_incidence_register.md) is independently reviewed and accepted for the fixed four-birth law and supplied memory/access/readout. Its conditional endpoint distinction has an exact ordinary classical realization. No quantum advantage, physical observer, efficient implementation or unconditional output probability is established.
+
+Measurement work has admitted a bounded paper question: whether outward interval arithmetic can enclose the accepted exact processing operator and support the missing numerical discrepancy bounds for the unchanged seventeen-window contrast. No new containment theorem, numerical bound, implementation or execution is accepted by that admission. Actual decoding/identity, useful enclosure width, complete costs, calibration and a native physical forward map remain separate premises.
+
+Next steps retain distinct authors and reviewers: specify the unselected finite readout calculation before analysis, and review the measurement paper proof before any implementation or numerical application. Acceptance of one finite result does not complete the broader programme or authorize another track's assumptions.
+
+
 ## 27 October 2026 — classical realization and accepted follow-through
 
 The [finite incidence-register statement](../observables/finite_incidence_register.md#7-exact-classical-realization-of-the-prepared-observation) now includes an independently accepted classical realization. Under the same supplied memory, addressing, preparation and readout assumptions, classical counters reproduce every prepared history-and-output probability of the fixed four-birth construction. Quantum coherence is unnecessary for that observation. Arbitrary-input quantum channel equivalence, physical realization and a native observation map remain outside the result. The earlier protocol qualifications are retained.
