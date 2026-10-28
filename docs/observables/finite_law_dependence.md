@@ -1,3 +1,7 @@
+## Further accepted finite extension result
+
+The [positive scalar extension lemma](finite_scalar_extension.md) supplies one further layer for every finite prefix in its explicitly declared family. It does not select a physical law or establish a readout marginal. The results below retain their original assumptions and scope.
+
 # A finite law family with an invariant readout distinction
 
 **Accepted conditional theorem.** The common-scale prescription below has strictly positive full support, normalized rows, marked equivariance and every marked scalar diamond through four births exactly for

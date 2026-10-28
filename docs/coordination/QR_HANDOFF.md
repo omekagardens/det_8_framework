@@ -1,3 +1,9 @@
+## Current accepted result — finite scalar extension
+
+The independently reviewed scalar extension lemma is accepted: every finite positive, normalized, parent-only, marked-equivariant full-ideal prefix satisfying all incomparable-birth diamonds extends by one strictly positive layer over the same real or rational field. The construction retains every actual ideal and positive full complement. It establishes no infinite object, physical law selection, readout marginal or computational advantage. Historical process qualifications and all scientific, review, custody, calibration and execution gates remain.
+
+See the [standalone lemma and proof](../observables/finite_scalar_extension.md). Earlier entries below retain their historical scope.
+
 ## Reviewed population separation — 2026-10-28
 
 An independently reviewed sufficient population margin is now accepted for the fixed \(\epsilon=1/2,\kappa=1/4\) twelve-label model. Opposite relative-sign classes, with independently chosen centers, have maximum-word total-variation distance at least \(3/320\). Their complete population-error neighborhoods are disjoint when \(2\eta<3/320\). Correct singleton reporting still requires true-class containment; zero or two compatible classes require ABSTAIN. The result establishes neither sharpness nor an efficient membership algorithm, samples, confidence, empirical calibration or physical advantage.

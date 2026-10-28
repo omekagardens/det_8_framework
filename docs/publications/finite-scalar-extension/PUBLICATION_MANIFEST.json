@@ -1,0 +1,54 @@
+{
+  "scope": "Independently reviewed one-layer positive scalar extension for every finite prefix in the explicitly declared real or rational marked full-ideal family.",
+  "files": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1248818,
+      "sha256": "9ae0a125737f8258e5fe9133575bcac2df62cbfba4b21f26592ece850e897f22"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1496981,
+      "sha256": "8983e4884afb92e049f035d038621154cbfb7d77883eab5935590430be16c0c8"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 870362,
+      "sha256": "6390a7226a9943757ed6935623bb26eb7d8ce274c1623392a4295aef5c2f7e11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 63968,
+      "sha256": "791fa1151b32eaa1b543160f2b9a4c89af3581f268b703a2587fab28bd31efd9"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 60895,
+      "sha256": "1bc1990778f2b405688a1357d5bf3deae67c90fa06783376d2eb0c1dbad30d71"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 60202,
+      "sha256": "10b5df294fbd22d1236338612c87b4cd179858f33e3529defdcd0c9c1f1f71cd"
+    },
+    {
+      "path": "MODEL_CARD.md",
+      "bytes": 86164,
+      "sha256": "8369a7366c13de627475bd0a37f492690a43f16ff1e72ef2d3ddb78ba2030dc1"
+    },
+    {
+      "path": "docs/observables/finite_scalar_extension.md",
+      "bytes": 7066,
+      "sha256": "bbe7beb21d7b6e61de57e3ddb14acfaad47f20031f3c4a32403acc867b8cda78"
+    },
+    {
+      "path": "docs/observables/finite_law_dependence.md",
+      "bytes": 15818,
+      "sha256": "ae204ab12ca8f4c41b7443653d39c97b288d4d25bd4c7ac454e66eb471ec411e"
+    }
+  ],
+  "withheld": [
+    "Private source/review/adoption correspondence, raw custody/runtime/process records and active unreviewed proposals."
+  ],
+  "limits": "Conditional finite scalar lemma only; no infinite object, quantum extension, physical law selection, readout marginal, computational advantage or execution permission. Earlier publication manifests retain their checkpoint scope."
+}
