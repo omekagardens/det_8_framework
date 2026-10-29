@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "scope": "Fixed four-birth native-history embedding with supplied prefix observation and complete failure accounting; no controllable source or physical implementation claim.",
+  "payloads": [
+    {
+      "path": "docs/observables/native_heralded_preparation.md",
+      "bytes": 8770,
+      "sha256": "1cc1da7e6d86855642a6e820133b449f813dd3bd866ac0a98ccb841e13e5b680"
+    }
+  ],
+  "mathematical_dependencies": [
+    {
+      "path": "docs/observables/native_source_readout_response.md",
+      "bytes": 10254,
+      "sha256": "3f6faac5f9e107dbdac4fb9fcf20c2224129c86e1834b4b6f47efb21c98cb5ca"
+    },
+    {
+      "path": "docs/observables/finite_incidence_register.md",
+      "bytes": 17141,
+      "sha256": "bcc6a1fddc3d667d21a67f0d1f8376797285dede9815118c5d3212a5c3aac159"
+    },
+    {
+      "path": "docs/observables/counter_only_joint_readout.md",
+      "bytes": 9646,
+      "sha256": "fcfb63b370c1505280e9eabfb38196210ef4098fbdaf0d4add94e7e132afbeca"
+    },
+    {
+      "path": "docs/track_b/native_mark_law_geometry_v1.md",
+      "bytes": 12760,
+      "sha256": "0c3cc5a4e1b9ea6dc8d2d2579522c81b4a55f3c7e5040aef11f28ef9d38d4422"
+    }
+  ],
+  "preservation": "Existing accepted dependencies and prospective native-mapping plan remain unchanged."
+}
