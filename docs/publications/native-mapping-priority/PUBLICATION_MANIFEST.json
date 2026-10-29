@@ -1,22 +1,27 @@
 {
   "schemaVersion": 1,
-  "scope": "Current research status and direction using already published finite native bridge results; no new theorem, physical map, calibration or execution authorization.",
+  "scope": "Current native mapping status plus independently reviewed complete optional classical active-residual construction through four births. No physical map, calibration, execution authorization, novelty or efficiency claim.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 6762,
-      "sha256": "63b913cb9f88497c9a5b9ba001ca7876167be78ac4c709e10119587c2cf421b4"
+      "bytes": 7372,
+      "sha256": "59d6492a5cfbbe9a0cdd33676ade3fb7ffc6735f03f7cf87489688f0e92146ab"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
       "bytes": 25520,
       "sha256": "8b2c804ceed11aae7452cc51268b3afae7052703745a991d3ce27e5b45438758"
+    },
+    {
+      "path": "docs/track_b/native_active_residual_v1.md",
+      "bytes": 11387,
+      "sha256": "cd6f99fcb2e2d7f52c6fe3a7f42d769ac36931ecaab7ff942e790acbfaf5f48a"
     }
   ],
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "7df9f21b0a5ed4fe94c52b67d8b0d00bf79c9c1d",
+  "basePublicCommit": "b30430b70f5eb40a24cbb0891338edf52e1327cf",
   "dependencies": [
     {
       "path": "docs/observables/native_source_readout_response.md",
