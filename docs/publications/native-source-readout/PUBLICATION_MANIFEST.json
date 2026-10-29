@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "Independently reviewed fixed finite prepared-source joint probability law; no physical correspondence or execution claim.",
+  "payloads": [
+    {
+      "path": "docs/observables/native_source_readout_response.md",
+      "bytes": 10254,
+      "sha256": "3f6faac5f9e107dbdac4fb9fcf20c2224129c86e1834b4b6f47efb21c98cb5ca"
+    }
+  ],
+  "mathematical_dependencies": [
+    {
+      "path": "docs/track_b/native_mark_law_geometry_v1.md",
+      "bytes": 12760,
+      "sha256": "0c3cc5a4e1b9ea6dc8d2d2579522c81b4a55f3c7e5040aef11f28ef9d38d4422"
+    },
+    {
+      "path": "docs/observables/finite_incidence_register.md",
+      "bytes": 17141,
+      "sha256": "bcc6a1fddc3d667d21a67f0d1f8376797285dede9815118c5d3212a5c3aac159"
+    }
+  ],
+  "preservation": "Existing accepted source documents are unchanged. Native mapping research plan remains the original prospective definition."
+}
