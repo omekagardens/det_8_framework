@@ -1,3 +1,9 @@
+## 28 October 2026 — explicit native mapping priority
+
+The [native mass/gravity mapping plan](NATIVE_MASS_MAPPING.md) makes the connection to native DET state, dynamics and observation an explicit research task. Its first bounded question uses the unchanged admitted finite law and a specified incidence readout to compare matched source-record preparations. Protocol, calculation and independent review remain separate; no new mapping result is asserted here. Energy, canonical variables, physical clocks and reciprocal source dynamics are not supplied by renaming existing descriptors. Conditional comparison and measurement work continue alongside this priority.
+
+---
+
 # Native geometry, gravity and measurement programme
 
 23 September 2026 — RI-31. Planning scope: **simulations and existing public

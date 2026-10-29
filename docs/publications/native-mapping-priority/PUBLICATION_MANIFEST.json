@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "scope": "Research direction and prospective finite source/readout question only. No new theorem, analysis result, native physical map or execution authorization.",
+  "payloads": [
+    {
+      "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
+      "bytes": 4904,
+      "sha256": "0989c1d101a0f34a4935f7eb3d4ddd470e9cb80256c134b52a5aa96c4df9917f"
+    },
+    {
+      "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
+      "bytes": 25520,
+      "sha256": "8b2c804ceed11aae7452cc51268b3afae7052703745a991d3ce27e5b45438758"
+    }
+  ],
+  "withheld": [
+    "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
+  ],
+  "basePublicCommit": "bb5e9b241b091890d477a47e0076af0955d8bc2e"
+}
