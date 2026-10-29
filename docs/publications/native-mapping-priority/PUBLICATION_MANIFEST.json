@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "scope": "Current native mapping status and independently reviewed finite active-residual and complete-trial source-response theorems. Conditional common-channel population result only; no physical map, calibration capability, finite-sample guarantee, unique mechanism, execution authorization, novelty or efficiency claim.",
+  "scope": "Current independently reviewed native mapping, finite active-residual and complete-trial pure/mixed-source population theorems. Mixed-source uniform separation uses the entire declared source rectangle and shared detector box. No physical map, supplied calibration capability, finite-sample guarantee, unique mechanism, execution authorization, novelty or efficiency claim.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 7979,
-      "sha256": "ef4e0f9f44a4b3cddbd2f8d489211543f657efff50c020e0de7950ac139a3079"
+      "bytes": 8271,
+      "sha256": "28db6517d022a4b76f761c6392fb4c5d8509fc88d0573d3381c27168cc3f7f75"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
@@ -19,14 +19,14 @@
     },
     {
       "path": "docs/observables/native_complete_trial_readout.md",
-      "bytes": 10244,
-      "sha256": "cc26554ed0164af6f1eaf46daf27ed5013b2401801ccc5b722ff1fe3e7c8eea5"
+      "bytes": 15785,
+      "sha256": "e16aa2a0076ed5d2df2102dbaf123038d34ec2dda9d588cdbf652bc67fcc8e19"
     }
   ],
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "ee1bb17245f03a29fee1ab7e5d804a41e8ccb7e7",
+  "basePublicCommit": "69400ebab07794d7c80f148557ea75092752adc9",
   "dependencies": [
     {
       "path": "docs/observables/native_source_readout_response.md",

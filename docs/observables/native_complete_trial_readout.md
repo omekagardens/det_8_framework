@@ -100,3 +100,36 @@ Calibration must independently justify the intervals, common-channel stability, 
 A competent conventional baseline receives the same source-label access at analysis, complete records, calibration/provenance, preprocessing and detector blinding. Account for every source-to-reset cost: preparation, record formation, failures, completion monitoring, acquisition, relation recovery, calibration, storage, processing and analysis. No efficiency or application-validation result follows.
 
 This conditional construction supplies no energy, action, physical time, phase, acceleration, GWOSC, quantum or gravity correspondence. No unique physical mechanism, approximate-preparation guarantee, experiment or execution permission follows. Option B, Status M and all scientific, independent-review, calibration, custody and execution gates remain. The [native mapping programme](../coordination/NATIVE_MASS_MAPPING.md) retains physical source and readout correspondence as open work.
+
+## Uncertain mixed-source extension
+
+**This independently reviewed conditional extension permits uncertain mixed sources under independently supplied interval certificates. The pure-source result above is its limiting case.**
+
+Keep the same fixed law, four births, complete history/mark accounting, antichain event and entire shared detector box C. Replace exact pure inputs only for this extension by rho(x)=(x,1-x)^T, with x_i in nonempty closed intervals I_i=[l_i,u_i] inside [0,1]. Retain the whole source rectangle I_0 x I_1 and Omega=I_0 x I_1 x C. No purity, ordering or separation is assumed. The actual pair is fixed but unknown within the compared operating condition; product uncertainty supplies neither a prior over coefficients nor statistical independence or a repetition model. No favourable correlated subset may replace this rectangle.
+
+Write b=8185/2230272 and beta=263/1115136. The result uses linearity of the complete unnormalized history maps and total-mass effect to obtain the affine binary law
+p_x=(1-b-beta x,b+beta x), in outcome order (Z=0,Z=1).
+This is the convex combination of the two accepted pure-source laws and retains their positivity and normalization throughout 0<=x<=1. No law-consistency proof is repeated.
+
+For one shared xi=(f,n,e) in C, put k=1-f-n and z_i=f+k(b+beta x_i). The exact full paired image is
+R_mix={ (mu_0(x_0,xi),mu_1(x_1,xi)) : (x_0,x_1,xi) in Omega },
+mu_i(x_i,xi)=((1-e)(1-z_i),(1-e)z_i,e).
+These equations parameterize both complete three-outcome vectors with one common detector. The image is nonempty and compact because Omega is nonempty and compact and this map is continuous. Each vector is normalized and nonnegative. Separate detector fits for the two settings would change the question; erasures remain in every denominator.
+
+Define the attained interval gap
+g=max(0,l_0-u_1,l_1-u_0).
+The complete-outcome distance and exact infimum are
+||mu_1-mu_0||_1=2 beta(1-e)(1-f-n)|x_0-x_1|,
+Gamma_mix=inf_(Omega) ||mu_1-mu_0||_1
+         =(263/557568) g(1-e_+)(1-f_+-n_+).
+For either strict source ordering, the nearest interval endpoints attain g; for overlap or touching, a common intersection point attains zero. The permitted upper detector corner and that source pair are jointly available in the full product Omega, attaining the displayed infimum. This is set minimization, not a statistical independence assumption.
+
+Under the unchanged informative detector promise, the criterion is Gamma_mix>0 exactly when the closed source intervals are strictly separated. Overlap or touching gives zero uniform guarantee because an equal-source pair is permitted; it does not say every actual pair in those intervals has zero contrast. Both orderings and singleton intervals are included. The pure limit I_0={1}, I_1={0} has g=1 and recovers the accepted pure-source criterion. Widening source intervals or detector uncertainty cannot improve the guaranteed minimum within this class. A zero result for the conservative rectangle does not rule out a different, independently justified stronger certificate; no replacement family is introduced here.
+
+Equal actual coefficients, identical detector columns and total erasure retain the earlier zero-contrast controls. The accepted passive and forward-only references give the same nu(xi) for every normalized mixed source, so their paired images remain {(nu(xi),nu(xi)):xi in C}. A positive source-setting contrast still does not exclude conventional or larger static-seed realizations or identify a unique physical mechanism.
+
+The intervals are independently supplied premises, not certificates manufactured by the formula. They must enclose **all** coefficient possibilities compatible with independently applicable evidence, including effect identification/calibration uncertainty, systematic errors, reset/transfer, stability and coverage of the claimed assigned-trial population. Finding one compatible source description inside the rectangle is insufficient; inconsistent evidence is not a certificate. Both sources need one justified carrier/effect convention, unchanged-law correspondence and the shared detector/factorization/erasure contract. A physical correspondence to the coordinate effect E_0=(1,0) is an external requirement, not an apparatus or extra probe supplied here. Intended labels, desired terminal contrast and model-internal inversion cannot certify their own source or detector premises.
+
+No intervals, calibration observations or physical suppliers are furnished by this extension. Missing, inconsistent or inapplicable source/effect evidence leaves source certification unresolved and requires abstention from physical application. Valid but uncertain native preparations are distinct from failure to establish any native preparation: no state, history or Z may be invented for an unverified failed preparation. All assigned attempts, failures and erasures remain in the ledger and full denominator; common-erasure coverage requires independent justification, otherwise physical application is inapplicable. Missing relations do not prove an antichain, and failure flags remain audit metadata.
+
+All earlier physical, calibration, cost, same-information baseline, finite-sample, unique-mechanism and execution limitations remain. No source/effect/order transducer, repetition/drift law, efficiency benefit or energy, time, GWOSC, quantum or gravity correspondence is supplied. This is a conditional extension of the existing observation question, not another physical result or authorization to execute it.
