@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "scope": "Current independently reviewed native mapping, finite active-residual and complete-trial pure/mixed-source population theorems. Mixed-source uniform separation uses the entire declared source rectangle and shared detector box. No physical map, supplied calibration capability, finite-sample guarantee, unique mechanism, execution authorization, novelty or efficiency claim.",
+  "scope": "Independently reviewed finite native mapping, active residual and complete-trial source-response results, plus the exact first-birth obstruction to one fixed additive-balance ansatz. No physical energy definition or universal conservation impossibility, supplied calibration, finite-sample guarantee, execution authorization, novelty or efficiency claim.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 8271,
-      "sha256": "28db6517d022a4b76f761c6392fb4c5d8509fc88d0573d3381c27168cc3f7f75"
+      "bytes": 8728,
+      "sha256": "2e9048c5b4061b4f7d347e2132fa02ef4cee9b0adc86e163608e5db2b80e9325"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
@@ -21,12 +21,17 @@
       "path": "docs/observables/native_complete_trial_readout.md",
       "bytes": 15785,
       "sha256": "e16aa2a0076ed5d2df2102dbaf123038d34ec2dda9d588cdbf652bc67fcc8e19"
+    },
+    {
+      "path": "docs/track_b/native_additive_balance_obstruction.md",
+      "bytes": 4432,
+      "sha256": "b54e4efe47e4199e012bd5281f33495d7f91442c4ce3419c92931c23e4823928"
     }
   ],
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "69400ebab07794d7c80f148557ea75092752adc9",
+  "basePublicCommit": "cc2f0e4123e68c150ec4eac29176782d80eca96d",
   "dependencies": [
     {
       "path": "docs/observables/native_source_readout_response.md",
