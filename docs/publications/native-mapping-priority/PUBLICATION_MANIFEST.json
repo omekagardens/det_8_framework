@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "scope": "Independently reviewed finite native mapping, active residual, complete-trial source response, fixed additive-balance obstruction and local record-compensation classification for a declared supplied two-state instrument family. No global native law or shared-prefix potential, physical energy/readout, universal conservation impossibility, supplied calibration, finite-sample guarantee, execution authorization, novelty, efficiency or stability claim.",
+  "scope": "Independently reviewed finite native mapping, active residual, complete-trial source response, fixed additive-balance obstruction, local record-compensation classification and the conditional homogeneous two-state native-family admissibility/compensation theorem through four births. Homogeneous factorization is optional; no universal native-law restriction, global shared-prefix potential, physical energy/readout, universal conservation impossibility, supplied calibration, finite-sample guarantee, execution authorization, novelty, efficiency or stability claim.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 9217,
-      "sha256": "3a3d9cf89173dbf320ca02556d668e11ad46e9699490408d9b58a35050b418c0"
+      "bytes": 9774,
+      "sha256": "9e8853dd43a79d9e9217f23f9e38788fd73834850a7cee7429ab6cdd95889786"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
@@ -31,12 +31,17 @@
       "path": "docs/track_b/local_record_compensation.md",
       "bytes": 5413,
       "sha256": "435ee80a6682562ec02380cac1030899fa91066bb1b68dd5a0b1f832a03dbbdd"
+    },
+    {
+      "path": "docs/track_b/homogeneous_native_compensation.md",
+      "bytes": 7605,
+      "sha256": "c70e25deaf69f227a29fa4a6904ea5bcea5f7c923b76751ba157be800029c224"
     }
   ],
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "d479f12ecc63eea3183d06e878e45df69eabc925",
+  "basePublicCommit": "c4e2f9b54dbdbfc473675c92766882be874a49ca",
   "dependencies": [
     {
       "path": "docs/observables/native_source_readout_response.md",
