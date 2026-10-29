@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "scope": "Current native mapping status plus independently reviewed complete optional classical active-residual construction through four births. No physical map, calibration, execution authorization, novelty or efficiency claim.",
+  "scope": "Current native mapping status and independently reviewed finite active-residual and complete-trial source-response theorems. Conditional common-channel population result only; no physical map, calibration capability, finite-sample guarantee, unique mechanism, execution authorization, novelty or efficiency claim.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 7372,
-      "sha256": "59d6492a5cfbbe9a0cdd33676ade3fb7ffc6735f03f7cf87489688f0e92146ab"
+      "bytes": 7979,
+      "sha256": "ef4e0f9f44a4b3cddbd2f8d489211543f657efff50c020e0de7950ac139a3079"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
@@ -16,12 +16,17 @@
       "path": "docs/track_b/native_active_residual_v1.md",
       "bytes": 11387,
       "sha256": "cd6f99fcb2e2d7f52c6fe3a7f42d769ac36931ecaab7ff942e790acbfaf5f48a"
+    },
+    {
+      "path": "docs/observables/native_complete_trial_readout.md",
+      "bytes": 10244,
+      "sha256": "cc26554ed0164af6f1eaf46daf27ed5013b2401801ccc5b722ff1fe3e7c8eea5"
     }
   ],
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "b30430b70f5eb40a24cbb0891338edf52e1327cf",
+  "basePublicCommit": "ee1bb17245f03a29fee1ab7e5d804a41e8ccb7e7",
   "dependencies": [
     {
       "path": "docs/observables/native_source_readout_response.md",
