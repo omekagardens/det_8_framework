@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "scope": "Research direction and prospective finite source/readout question only. No new theorem, analysis result, native physical map or execution authorization.",
+  "scope": "Current research status and direction using already published finite native bridge results; no new theorem, physical map, calibration or execution authorization.",
   "payloads": [
     {
       "path": "docs/coordination/NATIVE_MASS_MAPPING.md",
-      "bytes": 4904,
-      "sha256": "0989c1d101a0f34a4935f7eb3d4ddd470e9cb80256c134b52a5aa96c4df9917f"
+      "bytes": 6762,
+      "sha256": "63b913cb9f88497c9a5b9ba001ca7876167be78ac4c709e10119587c2cf421b4"
     },
     {
       "path": "docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md",
@@ -16,5 +16,42 @@
   "withheld": [
     "Private source assessment, input identities, task controls, coordinator dispositions, worker and account metadata, and raw custody records."
   ],
-  "basePublicCommit": "bb5e9b241b091890d477a47e0076af0955d8bc2e"
+  "basePublicCommit": "7df9f21b0a5ed4fe94c52b67d8b0d00bf79c9c1d",
+  "dependencies": [
+    {
+      "path": "docs/observables/native_source_readout_response.md",
+      "bytes": 10254,
+      "sha256": "3f6faac5f9e107dbdac4fb9fcf20c2224129c86e1834b4b6f47efb21c98cb5ca"
+    },
+    {
+      "path": "docs/observables/counter_only_joint_readout.md",
+      "bytes": 9646,
+      "sha256": "fcfb63b370c1505280e9eabfb38196210ef4098fbdaf0d4add94e7e132afbeca"
+    },
+    {
+      "path": "docs/observables/native_heralded_preparation.md",
+      "bytes": 8770,
+      "sha256": "1cc1da7e6d86855642a6e820133b449f813dd3bd866ac0a98ccb841e13e5b680"
+    },
+    {
+      "path": "docs/track_b/RECORD_PROCESS_CONTRACT.md",
+      "bytes": 9082,
+      "sha256": "9b90a53685e44740161c31164d2a46080e95d92767a67338893434ac83d36b32"
+    },
+    {
+      "path": "docs/track_b/native_mark_law_geometry_v1.md",
+      "bytes": 12760,
+      "sha256": "0c3cc5a4e1b9ea6dc8d2d2579522c81b4a55f3c7e5040aef11f28ef9d38d4422"
+    },
+    {
+      "path": "docs/track_b/native_precursor_payloads_v1.md",
+      "bytes": 15996,
+      "sha256": "e9dbefbab14949115d4e3821a8e570b4b9f1092efc860752bdebf1a3e99b8c5e"
+    },
+    {
+      "path": "docs/observables/finite_incidence_register.md",
+      "bytes": 17141,
+      "sha256": "bcc6a1fddc3d667d21a67f0d1f8376797285dede9815118c5d3212a5c3aac159"
+    }
+  ]
 }

@@ -1,38 +1,37 @@
 # Native DET mapping for the mass and gravity programme
 
-28 October 2026. Research direction, not a new theorem or physical claim.
+29 October 2026. Research status and direction, not a new theorem or physical claim.
 
-The next task connects exact native model ingredients to the ongoing mass/gravity comparison. A successful map must specify its source state, transition and observations, then prove the claimed relationship. Shared terminology or a fitted conversion does not establish that relationship. Finite conditional work may proceed without first completing all quantum or continuum reconstruction.
+The programme asks which relationships remain reliable in an observed regime, how DET can account for them, and where that account ceases to work. A native map must specify its source state, transition and observations, then prove the claimed relationship. Shared terminology or a fitted conversion does not establish a correspondence with physical energy, motion or clocks.
+
+Three finite bridge questions below are complete at their published scopes. Their results guide the next physical and mathematical questions; they do not require repeated continuation counts. Conditional mass/gravity models and their observation interfaces may proceed alongside native work without first completing all quantum, continuum or law-genesis reconstruction. Shared-energy coupling can be investigated as an explicit physical postulate while its derivation remains an independent question.
+
+## Established finite connections
+
+| Published result | What it establishes | Boundary that remains |
+| --- | --- | --- |
+| [Native source and readout response](../observables/native_source_readout_response.md) | Under the unchanged admitted law, two allowed source-mark preparations with the same initial unmarked two-chain produce different terminal chain and counter-event responses after two more births. The complete joint laws retain all continuations and marks. | A source record is not thereby physical energy; the order diagnostic is not acceleration and the counter event is not elapsed clock phase. |
+| [Counter-only joint readout](../observables/counter_only_joint_readout.md) | A specified richer counter record recovers the terminal chain event at the proved horizon. The original source-blind one-bit counter event cannot reproduce the same complete joint law for both source preparations through one common stochastic decoder. | This obstruction concerns that information contract. Richer records or retained source information change the question; it is not a universal impossibility of observation. |
+| [Native heralded preparation](../observables/native_heralded_preparation.md) | One fixed four-birth trial prepares the required source-prefix branches with explicit success and failure accounting. The retained herald identifies the source branch; no failure mass, retry or early stopping is hidden. | Retaining the source label changes the information contract. Mathematical heralding does not supply a physical preparation apparatus, its energy cost or its readout transfer. |
+
+These results supply a finite source-record-to-structure-and-readout connection under declared laws and access assumptions. They do not establish reciprocal matter/geometry dynamics, a physical forward map or experimental confirmation. Their exact domains, probability laws, multiplicities, information restrictions and proofs are given in the linked packages.
 
 ## Existing ingredients and unresolved mappings
 
 | Component | What the present sources supply | What remains to be established |
 | --- | --- | --- |
 | State | The [record-process contract](../track_b/RECORD_PROCESS_CONTRACT.md) distinguishes committed order and records from residual activity. | Matter identification and an effective position, momentum, phase and action state. |
-| Structural response | The [admitted finite marked law](../track_b/native_mark_law_geometry_v1.md) has a two-chain row that depends on the root mark. | A relation between the source record and physical source excitation or energy. |
-| Residual information | [Precursor-sensitive payloads](../track_b/native_precursor_payloads_v1.md) transmit some record information into a supplied carrier while preserving scalar history probabilities. | Justified reciprocal dynamics through which live residual activity changes future structure. |
-| Readout | The [incidence-register theorem](../observables/finite_incidence_register.md) and its classical realization provide a fixed counter readout under explicit access and memory assumptions. | Native availability and physical realization of preparation, addressing, retention and observation. |
-| Mass, time and gravity | The current comparison treats canonical variables, time, scales and common-energy coupling as supplied structures. | A derivation or explicitly proposed correspondence, with controlled errors, linking those structures to the native model. |
+| Structural response | The [admitted finite marked law](../track_b/native_mark_law_geometry_v1.md) and published source-response calculation give a finite dependence on the prepared root mark. | A justified relation between that source record and physical excitation or energy. |
+| Residual information | [Precursor-sensitive payloads](../track_b/native_precursor_payloads_v1.md) transmit record information into a supplied carrier while preserving scalar history probabilities. | Justified reciprocal dynamics through which live residual activity changes future structure. An optional candidate law remains an additional choice until its premises are justified. |
+| Readout and preparation | The [incidence-register theorem](../observables/finite_incidence_register.md), counter-only result and heralded preparation give finite constructions under explicit memory and access assumptions. | Native availability and physical realization of preparation, addressing, retention, heralding and observation, with their costs and errors. |
+| Mass, time and gravity | Conditional comparisons may use explicitly supplied canonical variables, time, scales and coupling postulates. | A derivation or proposed correspondence, with controlled errors and an observation domain, linking those structures to the native model. |
 
-These are scoped findings from named sources. They do not assert an exhaustive absence across the entire DET programme. A coordinate-free candidate remains an additional law choice until its dependence on DET principles is justified. Ontological interpretation, conditional mathematics and calibrated physical claims remain separate.
+This is a scoped inventory from named sources, not a claim of exhaustive absence across DET. An omitted definition in a narrow packet should first be sought in the accepted source record. Ontological interpretation, conditional mathematics, optional model choices and calibrated physical claims remain separate.
 
-## First finite bridge question
+## Next finite decisions
 
-Keep the admitted structural law unchanged through four total births, with all actual ideals and fair subsequent marks. Start from a two-chain with root mark zero or one and upper mark zero. These are different allowed initial states with the same unmarked order; no committed record is overwritten. Use the same classical incidence counters, initialized consistently with that prefix to one at the root and zero at the upper vertex.
+Protect substantive mass/gravity, observation/measurement and useful application work. A focused conditional comparison can ask whether different explicit source-coupling postulates produce distinguishable complete observation regions under the same preparations, readouts and error assumptions. It must preserve source recoil and other retained interactions, declare a control and a decision criterion before calculating, and report an unresolved or negative outcome when the evidence does not decide the question. Different ideal values alone do not establish calibrated discrimination.
 
-After exactly two further births, retain the complete joint law of two fixed quantities:
+A native candidate should close a named correspondence gap: identify which prepared record or residual state represents the proposed source quantity, how the admitted dynamics produces the relevant response, and which retained record makes it observable. State the extra assumptions and a smallest finite proof or counterexample question. Do not identify variables with energy, acceleration or phase afterwards merely to fit a desired sign, or treat every bounded gap as a demand to reconstruct all law selection first. Exploratory questions about open becoming remain available without automatically displacing these finite decisions.
 
-- D: whether the terminal unmarked order is a total chain.
-- Y: whether at least one descendant counter equals two, using the already specified readout.
-
-D is a mathematical order diagnostic; physical access to the complete order is not assumed. Y uses an optional, explicitly supplied readout architecture. Every continuation and subsequent mark remains in the calculation, with natural-encoding multiplicities retained. This comparison changes the prepared source record, not the law, horizon or readout.
-
-The prospective criterion asks whether both marginal responses are nonzero and whether the two events are distinct on the supported continuation domain. A separately frozen protocol, independent review and admission precede arithmetic. The result must be two exact joint laws or a precise failed criterion; the task must not retune the observations after seeing the answer.
-
-A positive result would supply a finite source-record-to-order-and-readout connection. It would not identify the source bit with energy, D with acceleration, or Y with elapsed clock phase. Those correspondences cannot be chosen afterwards merely to fit the desired signs. Nor would it demonstrate reciprocal matter/geometry dynamics or distinguish a physical theory.
-
-## Follow-through
-
-Use this bounded result to decide which correspondence is supported and which additional premise needs a concrete candidate. Preserve the separate conditional readout/error work and the ongoing measurement and application lanes. Do not substitute another generic growth-law reduction for a named mass/gravity dependency.
-
-Every claimed later map must retain sufficient state and observation information, distinguish free parameters from derived or calibrated scales, and state its approximation domain and error. Native energy/inertia, duration, source coupling and physical observation remain separate obligations. No hardware, protected evaluation, scientific execution, calibration or publication gate is relaxed by this plan.
+Every later map must retain sufficient state and observation information, distinguish free parameters from derived or calibrated scales, and state its approximation domain and errors. A successful application or finite diagnostic does not validate the physical theory. Actual preparation, measurement transfer, source-to-reset costs, model discrepancy and physical calibration remain separate obligations. Independent review, custody, protected evaluation, resource, execution and publication gates remain unchanged.
