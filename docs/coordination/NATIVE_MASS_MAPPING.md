@@ -18,6 +18,8 @@ Five finite bridge questions below are complete at their stated scopes. These re
 
 A separate [fixed additive-balance obstruction](../track_b/native_additive_balance_obstruction.md) closes one proposed source-quantity interpretation of the active model. Its first birth cannot balance a fixed nonconstant linear residual quantity with a potential of the committed record over all admitted initial inputs. This precise limitation leaves the five connections above intact and does not rule out broader energy or coupled conservation models.
 
+An independently reviewed [local record-compensation classification](../track_b/local_record_compensation.md) gives the exact criterion for supplied finite two-state instruments on the full input interval. Compensation of a fixed nonconstant residual row is possible exactly when some outcome probability depends on the input or the total residual map is identity. This leaves the existing obstruction intact and supplies neither a global native law nor a physical energy or readout map.
+
 These results supply a finite source-record-to-structure-and-readout connection under declared laws and access assumptions. They do not establish reciprocal matter/geometry dynamics, a physical forward map or experimental confirmation. Their exact domains, probability laws, multiplicities, information restrictions and proofs are given in the linked packages.
 
 ## Existing ingredients and unresolved mappings
