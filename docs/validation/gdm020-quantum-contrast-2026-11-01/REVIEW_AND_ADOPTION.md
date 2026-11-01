@@ -1,0 +1,13 @@
+# Conditional quantum contrast and certified evaluation method
+
+This package contains one formal comparison under supplied conventional quantum assumptions. It does not establish a DET prediction, a physical atom model, a detector response or a gravity measurement.
+
+[MODEL.md](MODEL.md) fixes the Weyl convention, full Coulomb Hilbert space, finite initial packet, Gaussian center, reference radius, clock, controls and readout. [CALCULATION.md](CALCULATION.md) derives the common leading denominator and an exact nineteen-term expression for the normalized B-minus-A response coefficient. The two dimensionless amplitudes remain unevaluated. Equality of harmonic form does not establish equality with the classical contrast, and a contrast alone does not identify the individual response laws.
+
+[ARITHMETIC.md](ARITHMETIC.md) gives an independently reviewed exact rational enclosure recipe for those two constants and their discrepancy. Its positive matrix-element radicals cancel to a rational expression. Its computational width bound and finite operation/per-integer caps are conditional on the specified arithmetic organization. They are neither actual numerical results nor wall-time, total-memory or physical-error guarantees. A separate implementation, execution admission and distinct arithmetic reconstruction are still required.
+
+GDM020's distinct manual review completed on November1,2026 at17:21:33 UTC with PASS at the finite-expression scope; coordinator adoption followed at17:23:19 UTC. GDM021's distinct method review completed at18:03:30 UTC with PASS and no required repairs; coordinator method adoption followed at18:05:43 UTC. The three technical bodies here are exact copies of those adopted versions, with the GDM020 result exposed as CALCULATION.md. Internal model/result labels identify the same sources.
+
+P0 preparation and repeatability, complete P1 correspondence, P2 physical matched controls, P3 calibrated readout, omitted-response completeness and finite-epsilon errors remain open. No physical event probability, individual marginal law, native mechanism or empirical acceptance transfers from this package. GDM022 is the separately assigned one-off source implementation; it is not part of this adopted package.
+
+The identity inventory in SOURCE_MANIFEST.json identifies the exact reviewed bodies and disposition records. Hashes prove identity only; the scientific scope is the explicit model, derivation, review and adoption above. Original frozen internal chronology is retained as provenance. No private journal, third-party paper or unreviewed implementation is included.

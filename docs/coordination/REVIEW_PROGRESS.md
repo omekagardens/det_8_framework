@@ -1,3 +1,9 @@
+## November 1 — conditional quantum contrast and enclosure method
+
+GDM020 is accepted as an exact nineteen-term formal response contrast under its supplied Weyl model. GDM021's fixed rational enclosure method is accepted after distinct review. The two amplitude constants remain unevaluated; individual response laws, physical correspondence and all preparation/control/readout/error premises remain open. The exact technical bodies and adoption scope are in `docs/validation/gdm020-quantum-contrast-2026-11-01/`.
+
+GDM022 is the separately assigned one-off arithmetic source implementation, with distinct source review and later independent endpoint reconstruction. Existing public-source, capacity, review and publication gates and schedules remain unchanged.
+
 ## November 1 — conditional preparation and transport decisions
 
 GDM019 is accepted only for its literal preparation mismatch and conditional shared-setting block construction. Response correspondence and physical records remain open. GDM020 has acknowledged and started one necessary response comparison under explicitly declared conventional quantum assumptions, with separate review after freeze; no physical event probability is accepted.

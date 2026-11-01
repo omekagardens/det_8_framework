@@ -1,0 +1,72 @@
+{
+  "scope": "Exact conditional formal calculation and paper-level arithmetic method; no numerical/physical/implementation acceptance",
+  "sources": [
+    {
+      "label": "GDM020 model",
+      "bytes": 4889,
+      "sha256": "4d09277105a3a5fa43cb21884a91a632392021d8ba230a35483fe0ff7fc25066"
+    },
+    {
+      "label": "GDM020 calculation",
+      "bytes": 10176,
+      "sha256": "f27eee8d41b0ebced1a3683924e542377a3956e2b6d965d6e3bbdba45b1222ad"
+    },
+    {
+      "label": "GDM020 distinct review",
+      "bytes": 13242,
+      "sha256": "98341b4a6d4607d481f2ed84899332e3f10a3fcd99a0865ed419e8e631e24c02"
+    },
+    {
+      "label": "GDM020 review freeze",
+      "bytes": 2755,
+      "sha256": "fddb79e8d4322ce217549536b04f989716205bd79d8dd3c749b3f92877f5371f"
+    },
+    {
+      "label": "GDM020 coordinator adoption",
+      "bytes": 2473,
+      "sha256": "daa4d2486d2bfeb5e5a62c79e0f94dd541523586ea0969e5af63628ae0e81a47"
+    },
+    {
+      "label": "GDM021 arithmetic",
+      "bytes": 16172,
+      "sha256": "0721ef3682bab838ed11c8c119fc4825261fab18c07b57111f26a08688d2c87c"
+    },
+    {
+      "label": "GDM021 distinct review",
+      "bytes": 13769,
+      "sha256": "916865ea14e5e3d0e55878420e50993a6606661e7edfae8fb7ba661f17112cad"
+    },
+    {
+      "label": "GDM021 review freeze",
+      "bytes": 2954,
+      "sha256": "eaba352aace9c6789312fef4313eb997ef4791b522f6de0b6f4cf3f1f9f08e11"
+    },
+    {
+      "label": "GDM021 coordinator adoption",
+      "bytes": 1753,
+      "sha256": "e696bd2b4bbd4d0c0210ae562e6f36bb5d776afd3dbee696d72ed6bb88b4c528"
+    }
+  ],
+  "public_payloads": [
+    {
+      "bytes": 4889,
+      "sha256": "4d09277105a3a5fa43cb21884a91a632392021d8ba230a35483fe0ff7fc25066",
+      "path": "MODEL.md"
+    },
+    {
+      "bytes": 10176,
+      "sha256": "f27eee8d41b0ebced1a3683924e542377a3956e2b6d965d6e3bbdba45b1222ad",
+      "path": "CALCULATION.md"
+    },
+    {
+      "bytes": 16172,
+      "sha256": "0721ef3682bab838ed11c8c119fc4825261fab18c07b57111f26a08688d2c87c",
+      "path": "ARITHMETIC.md"
+    },
+    {
+      "bytes": 2612,
+      "sha256": "c112c7d824928ff9f22c2c28534dda9c48aa5da85b53b43b64e0bca7b7c2c390",
+      "path": "REVIEW_AND_ADOPTION.md"
+    }
+  ]
+}
