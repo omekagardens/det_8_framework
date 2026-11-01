@@ -66,12 +66,17 @@ def test_history_distinction(
     n_b: int,
     n_bins: int | None = None,
 ) -> dict:
-    """Does history change the future kernel?  H0: K_a = K_b.
+    """Two-sample pooled likelihood-ratio diagnostic for H0: K_a = K_b.
 
-    G-test against the pooled kernel. Returns whether H0 is rejected at the
-    default 5% level (chi-square critical value via the Wilson–Hilferty
-    approximation is avoided — the G value is compared to a documented
-    threshold, and the honest verdict is reported as "distinct" only for large G).
+    Both rows contribute against the sample-size-weighted common law. A
+    multinomial sampling interpretation requires empirical frequency vectors
+    from independent count rows with their positive integer totals. Known
+    generated kernels with nominal counts, as in run_t1, are diagnostic inputs
+    rather than sampled observations. Input-domain behavior is not audited here.
+
+    The existing cutoff calculation and legacy critical_value_0.05 key are
+    retained as a reference comparison, not a calibrated finite-sample test or
+    p-value. Non-exceedance does not establish equality or predictive sufficiency.
     """
     n = len(K_a)
     n_total = n_a + n_b
@@ -79,9 +84,11 @@ def test_history_distinction(
 
     obs = [n_a * K_a[i] for i in range(n)]
     exp = [n_a * pooled[i] for i in range(n)]
-    g = _g_statistic(obs, exp)
+    obs_b = [n_b * K_b[i] for i in range(n)]
+    exp_b = [n_b * pooled[i] for i in range(n)]
+    g = _g_statistic(obs, exp) + _g_statistic(obs_b, exp_b)
 
-    # Degrees of freedom = (#outcomes − 1). χ²_{0.95}(df) for the tested df.
+    # Legacy degrees-of-freedom/reference-cutoff calculation, not calibration.
     df = (n_bins or n) - 1
     crit = {1: 3.841, 2: 5.991, 3: 7.815, 4: 9.488, 5: 11.070}.get(
         df, 1.0 + 2.0 * math.sqrt(df / 2.0) * 1.96
@@ -93,9 +100,11 @@ def test_history_distinction(
         "critical_value_0.05": crit,
         "distinct": distinct,
         "interpretation": (
-            f"G = {g:.1f} vs χ²₀.₀₅({df}) = {crit:.1f} → histories "
-            f"{'ARE' if distinct else 'are NOT'} predictively distinct "
-            f"(κ > 0 {'supported' if distinct else 'unsupported'})."
+            f"Two-sample G = {g:.3f}; reference cutoff (df={df}) = {crit:.3f}: "
+            f"{'exceeded' if distinct else 'not exceeded'}. "
+            "Diagnostic comparison only; finite-sample calibration is not established. "
+            "Non-exceedance does not establish equality or predictive sufficiency. "
+            "Generated kernels with nominal counts are not sampled observations."
         ),
     }
 

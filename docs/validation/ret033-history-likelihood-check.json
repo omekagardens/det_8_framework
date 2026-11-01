@@ -1,0 +1,37 @@
+{
+  "id": "RET033_FIXED_HISTORY_LIKELIHOOD_CHECK",
+  "checked_at_utc": "2026-11-01T21:06:02Z",
+  "source_sha256": "485c0fa5a1bcb0d60a1f5337ce276b8f76df6bd5167fac1782ffdc70a392c775",
+  "executed_test_sha256": "f6f708ec855121aab1669d68ca2488801b6672749126064c6a583af05bab1844",
+  "published_test_sha256": "99518659c987b25350d1de9b5fd1b3630d5b546cf67766314da18d5c2c6ce026",
+  "test_difference": "Only the first docstring sentence drops prospective/not-yet-run wording. Remaining bytes are identical.",
+  "executed_layout": "Frozen candidate adjacent to frozen test; repository fallback layout was not executed.",
+  "attempts": 1,
+  "unittest_methods_passed": 2,
+  "target_helper_calls": 4,
+  "primary_expected": "32*log(16/11)+8*log(4/9)+100*log(100/99)",
+  "primary_absolute_tolerance": 1e-12,
+  "controls": "Complete group/vector/sample-size swap; equal-law exact zero in both orders.",
+  "exit_code": 0,
+  "timeout": false,
+  "capture_truncated": false,
+  "stdout_bytes": 0,
+  "stderr_bytes": 100,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "a6707d4eff38012da33ddc34bc6dc076a3b17151cfc9aef223c8790cbe64c3da",
+  "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n",
+  "external_controller_interval_seconds": 0.106653708,
+  "completed_child_peak_rss_bytes_darwin": 19660800,
+  "resource_limits": "One-off retrospective child RSS and controller interval, not hard memory enforcement, whole-job accounting, a performance comparison or M38 qualification. The unittest rounded duration is not the complete interval.",
+  "nonclaims": [
+    "No complete run_t1 or installed-layout execution",
+    "No finite-sample calibration, p-value, power or equality/sufficiency conclusion",
+    "No general or malformed-input API validation",
+    "No empirical or native physical validation"
+  ],
+  "evidence_sha256": {
+    "controller_review": "15349d7c787e21c8f7b4932cc84dbc743f2b1fdf5c866576a349312deaa7ccfd",
+    "internal_receipt": "060974306e2948c9c00f8e873994c8a5f97669a9f89796209b3fabcd3c832b5f",
+    "external_observation": "562194a7c5d0417be5b92e0189117ea27cb1eefebc97010099d4654d5c1e29d7"
+  }
+}
