@@ -1,0 +1,33 @@
+{
+  "id": "NTR001_PUBLIC_EDITION",
+  "payloads": [
+    {
+      "file": "ADOPTION.md",
+      "bytes": 1569,
+      "sha256": "91bee96e2855f18857d21a40ea5872629c67484fca678e849b5cc3063dff78b4"
+    },
+    {
+      "file": "CALCULATION.md",
+      "bytes": 8924,
+      "sha256": "3b591ffef9ee17799bb7c50659cfc373b505d55ec3d88f1431dcd5e53f7d8123"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 1786,
+      "sha256": "b3617aa488c31bd5d8683763a160c062a00fc170f6e47f6d38806e53204f22a1"
+    }
+  ],
+  "accepted_dependencies": [
+    {
+      "path": "docs/observables/native_complete_trial_readout.md",
+      "bytes": 15785,
+      "sha256": "e16aa2a0076ed5d2df2102dbaf123038d34ec2dda9d588cdbf652bc67fcc8e19"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/P4_FIXED_BUDGET_TESTING_LIMIT.md",
+      "bytes": 25032,
+      "sha256": "027bcf8f1fc5a25e9f23c0fd9f6ebdcb5c1867c0d378820f78174302449b35c8"
+    }
+  ],
+  "derivative": "Author report unchanged mathematically; accepted status, public relative dependency links and adopted closing replaced. Review/adoption summaries exact scoped derivatives. Separate edition review required before commit."
+}
