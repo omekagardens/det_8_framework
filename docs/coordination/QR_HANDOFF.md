@@ -1,3 +1,15 @@
+## November 1 — candidate construction assigned for measurement and gravity
+
+The coordinator corrected an overly restrictive next-work decision: missing adoption or execution evidence does not require a completed external solution before a bounded candidate can be constructed. Earlier accepted results and execution holds remain intact; they do not establish platform incapability or exhaustion of physical-readout options.
+
+RET030 has acknowledged and started one dedicated-job launcher/source and prospective harmless qualification contract for the accepted M38 design on the identified local host. RET owns implementation, Comp-Sci owns distinct review of the frozen candidate, and root owns operator/admission decisions. The candidate must account for all charged job components, completed peak units/coverage, deadline/cleanup/output/ownership and precise source binding. The original 256 MiB, 60-second and other accepted cutoffs remain. Source preparation is not permission to qualify or run the scientific calculation; RET029 is not repeated.
+
+RET briefly resumed an older task after compaction. The coordinator restored its exact current scope and original deadline; RET acknowledged the correction and reported no off-scope file writes. Its final packet must disclose the deviation, and independent review remains required. The initial start record does not imply uninterrupted work within scope.
+
+GDM018 has acknowledged and started one preparation/control/readout feasibility decision for GDM017 using accessible full primary material. QR must map or mismatch the proposed arrangement against the stated model and individual matched-response requirement, then recommend keep, revise or retire at proposal scope. A distinct coordinator reviewer checks the exact packet. Unresolved calibration, omitted-response and resolution premises remain explicit; a fully validated experiment is not an intake prerequisite for design work.
+
+Root will follow both completed packets through independent review, disposition and the next justified construction/admission decision. Existing public-only empirical, scientific, custody, privacy and capacity guards remain; reset estimates alone do not block work. State, Energy, native observation and the other supporting scopes retain their existing decisions without an activity quota. Schedules, models, notification preferences and Monday maintenance are unchanged. Prior entries below are historical snapshots.
+
 ## November 1 — phase response distributions independently reviewed
 
 GDM016 and GDM017 are accepted as conditional mathematics for the same two declared truncated Hamiltonians. Uniform classical phase cancels the signed mean, but the individual matched response coefficients have distinct affine arcsine laws. One normalized coefficient event has probabilities 0 and 2/3. Raw Q and R responses remain distinct; their normalized coefficients agree only at the retained order. The readable package is `docs/validation/gdm017-phase-response-laws-2026-11-01/`, including the phase-preparation dependency, exact laws, review and adoption.
