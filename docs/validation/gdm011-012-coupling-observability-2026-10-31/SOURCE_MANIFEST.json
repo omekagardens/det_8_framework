@@ -1,0 +1,98 @@
+{
+  "id": "GDM011-GDM012-coupling-observability-public-edition",
+  "scientificStatus": "ACCEPTED_SCOPED_CONDITIONAL_MATHEMATICS",
+  "publicationStatus": "APPROVED_PUBLIC_EDITION",
+  "sources": [
+    {
+      "label": "GDM011-author-report",
+      "bytes": 9516,
+      "sha256": "1ca62a10515461515c9ef563395aae6b349c729cfd97a99b1127ec44c510779c"
+    },
+    {
+      "label": "GDM011-author-freeze",
+      "bytes": 5978,
+      "sha256": "b93699d36b33997823b379fd6003bd29ef6d725e5fb279fba2de1b15d45ef7ec"
+    },
+    {
+      "label": "GDM011-distinct-review",
+      "bytes": 14135,
+      "sha256": "1d967a26c240cdf0ed69772f64c2dcb71fb0251d08a4782cc4617314ee491351"
+    },
+    {
+      "label": "GDM011-coordinator-disposition",
+      "bytes": 3066,
+      "sha256": "f6900b10d5c182cc3f3cf787a7f4a1e35bf474ae20a4f6c3db2adc5e3271d9b7"
+    },
+    {
+      "label": "GDM012-author-report",
+      "bytes": 9757,
+      "sha256": "ae734a00ce56137d09f5032c80382fb981ebe44763637850954660114ea00270"
+    },
+    {
+      "label": "GDM012-author-freeze",
+      "bytes": 5964,
+      "sha256": "74b95cffa6bf14ee0cda9254f200d47b54ce6e75eaddcffd4bd2c123634929d0"
+    },
+    {
+      "label": "GDM012-distinct-review",
+      "bytes": 17025,
+      "sha256": "597e6784eefc2919e13f4e55046ce90d7dc07cb7a2cf01088d71a41dba4c3211"
+    },
+    {
+      "label": "GDM012-coordinator-disposition",
+      "bytes": 3516,
+      "sha256": "f2d2f2eb85ea912b5c06ad6f90fed431db42fba188266194d7fe7d2a5fcb2b6a"
+    }
+  ],
+  "sourceIdentityBoundary": "Labels and digests identify the exact historical source artifacts. Private source contents and locations are not published here. Hash identity is not a correctness proof or a reconstruction of historical procedural completion.",
+  "publicFiles": [
+    {
+      "file": "THEOREM.md",
+      "bytes": 19266,
+      "sha256": "bd9917dc7ad35bebdfb9b16a1e6f07cb638829be4b7693bdfd618692084cc7a3"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 5070,
+      "sha256": "af1153843a9d0fe794b00980f61075e8e6869755644507d9bf045bf9ad69ff4a"
+    },
+    {
+      "file": "ADOPTION.md",
+      "bytes": 3153,
+      "sha256": "11c8ca22ff26037180dbc083daed2d6f4b96db3eff4ae76f89148393709bbc3c"
+    }
+  ],
+  "publicArtifacts": [
+    "THEOREM.md",
+    "REVIEW.md",
+    "ADOPTION.md",
+    "SOURCE_MANIFEST.json"
+  ],
+  "excludedPrivateFiles": [
+    "PREMISES.md",
+    "FREEZE.json"
+  ],
+  "manifestHashPolicy": "This manifest excludes its own digest; publicFiles contains the three public Markdown bodies.",
+  "editorialCorrespondence": "THEOREM.md Part I retains GDM011 sections1-6 with the accepted two-preparation scope correction. Part II retains GDM012 sections1-6. REVIEW.md records explicit source correspondence, actual distinct reviews and historical limits. ADOPTION.md distinguishes accepted science from separately approved publication.",
+  "executionBoundary": "No new mathematics, scientific runtime, tests, experiment, physical-law adoption or successor is authorized by this edition.",
+  "publicationReview": {
+    "reviewer": "Distinct coordinator editorial-equivalence reviewer",
+    "label": "GDM011-012-publication-review",
+    "bytes": 20404,
+    "sha256": "5a34a184fee9136ab1e48ce5da35d9945dd41dc4cad73fb55832752ea11f83bb",
+    "actualCompletionUTC": "2026-11-01T05:42:34Z",
+    "coordinatorDisposition": {
+      "label": "GDM011-012-publication-disposition",
+      "bytes": 1439,
+      "sha256": "09d091b4bdbe1e9c3b90480df746009c478fe76ce1b2cb24f17248157d9ad3ac",
+      "decidedUTC": "2026-11-01T05:43:34.367194+00:00"
+    },
+    "remoteConfirmation": "Separate verified checkpoint receipt; not asserted here."
+  },
+  "historicalBoundaryCorroboration": {
+    "label": "GDM008-public-adoption",
+    "bytes": 1929,
+    "sha256": "90adfc1055b44c490b105a4661cdc25621c9e0b503337fcf14e37bde92452526",
+    "role": "Historical position-only mapping rejection boundary; no new proof dependency."
+  }
+}
