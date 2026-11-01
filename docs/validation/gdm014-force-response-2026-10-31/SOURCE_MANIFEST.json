@@ -1,0 +1,46 @@
+{
+  "package": "GDM014 formal force-response calculation",
+  "claim_category": "Conventional conditional formal calculation through c^-2; no physical or native DET validation",
+  "author_report": {
+    "bytes": 7808,
+    "sha256": "8b9d5be24ca8fce293f942d418ac138a5e6265384504c2e99d4004b2c7c4b634"
+  },
+  "independent_review_sha256": "7c0ec8ea64394f7767e3c8dfe550fb7c7af72e3149b5d408dbc2bf365336dff1",
+  "review_freeze_sha256": "1ef5134bdfe6eea3c142d71e594f4ab5f4fd61ed25e9dc7c926ef1bc6a7134b4",
+  "root_disposition_sha256": "5f8e01f2b1b611c304d906f3d9f3bd6a7d2a8183ca273d05485d4668672f5476",
+  "editorial_transform": "Only the opening status label is replaced in the author report; original remains frozen.",
+  "public_dependencies": [
+    {
+      "repository_path": "docs/validation/gdm013-physical-applicability-2026-10-31/APPLICABILITY.md",
+      "bytes": 9058,
+      "sha256": "f142448fe6957fc8e74b9a6831ed19bcb5d36a6fd5839e8d1a45a620576ffabc"
+    },
+    {
+      "repository_path": "docs/validation/gdm013-physical-applicability-2026-10-31/ADOPTION.md",
+      "bytes": 1461,
+      "sha256": "408d3c9ec0d9728292a7c5c190dc9fe98d7935b72163d3fffe231e0431eb0019"
+    }
+  ],
+  "primary_versions": [
+    "https://arxiv.org/html/1806.00234v3",
+    "https://arxiv.org/html/1908.06929v2"
+  ],
+  "files": [
+    {
+      "path": "ADOPTION.md",
+      "bytes": 1131,
+      "sha256": "97ac4c3e836793db1acaa2536362ac2bc464b909bcf63ae0f196acb2c4c74cff"
+    },
+    {
+      "path": "CALCULATION.md",
+      "bytes": 7828,
+      "sha256": "cef89a130ab12c42870f3cf5d2e7e63577beceeb77815c946092723e74604279"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1548,
+      "sha256": "589f0232476bec6549817ec9db3dd69225892348c309eb60161535f04f433e8e"
+    }
+  ],
+  "self_hash": "Excluded; repository commit identifies final manifest."
+}

@@ -1,3 +1,11 @@
+## October 31 — formal force-response calculation adopted
+
+The [GDM014 calculation](docs/validation/gdm014-force-response-2026-10-31/CALCULATION.md) is adopted after completed independent source and mathematical review. In the declared equal-mass conservative Coulomb model, equal unforced centers have different responses to the same stipulated force, through formal c^-2 order. The coordinate/control transformation and finite-time witness are explicit. Physical realization, full-model response error, a gravity numerator and native DET derivation remain separate premises.
+
+The coordinator selected GDM015 to test whether an explicit source gradient omission affects a matched gravity response. That follow-up is unaccepted and does not presume a complete physical model. Historical results and all scientific, review, custody and execution gates remain intact.
+
+---
+
 ## October 31 — physical applicability boundary and active response calculation
 
 GDM013 is adopted after independent source review: the exact supplied-law GDM011/GDM012 discriminator remains valid at its declared scope, while its present physical-gravity interpretation is unsupported by the specified sources. The [applicability package](docs/validation/gdm013-physical-applicability-2026-10-31/APPLICABILITY.md) states the required model, coordinate, control, readout and response-error correspondence without a universal no-go or programme-wide absence claim.
