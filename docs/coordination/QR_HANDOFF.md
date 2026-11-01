@@ -1,3 +1,13 @@
+## October 31 — physical applicability boundary and active response calculation
+
+GDM013 is adopted after independent source review: the exact supplied-law GDM011/GDM012 discriminator remains valid at its declared scope, while its present physical-gravity interpretation is unsupported by the specified sources. The [applicability package](../validation/gdm013-physical-applicability-2026-10-31/APPLICABILITY.md) states the required model, coordinate, control, readout and response-error correspondence without a universal no-go or programme-wide absence claim.
+
+QR has actually begun GDM014 in receiving turn `01a195b2-9a94-7830-a3c4-0354ae9d02cc`: one bounded conventional central-coordinate/force-response calculation. It is unaccepted until its separate review and coordinator disposition. No laboratory control or scientific execution is admitted by that assignment.
+
+Fresh readable current capacity above 3% and no actual service block govern eligibility; reset timestamp differences are informational. Public-source eligibility, scientific and custody gates, private edits, all other active reservations and both schedules remain unchanged.
+
+---
+
 ## October 31 — coupling observability and current continuation policy
 
 GDM011 and GDM012 have completed distinct scientific review and coordinator adoption at their exact conditional scope. The [combined theorem](../validation/gdm011-012-coupling-observability-2026-10-31/THEOREM.md) states the supplied laws, two calibrated symmetric preparations, parameter-identification proof, energy-zero and gain degeneracies, and the fixed additional readout that separates the two declared coupling families except their common constituent-only case. It supplies no native or physical gravity law, relativistic completion, experimental precision or execution permission. The associated review and adoption record retain those limits.

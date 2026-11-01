@@ -1,0 +1,54 @@
+{
+  "package": "GDM013 scoped physical-applicability finding",
+  "claim_category": "Conditional source applicability; no physical validation",
+  "author_report_sha256": "9f1fec9f11791151c41211be2e1f0ca537aac33445fb172eb374d609769e21b0",
+  "independent_review_sha256": "c6b770125b0cf701521a6239b166219214e15e501f372aec5cca32c2130ed1e5",
+  "review_freeze_sha256": "f771126f0a3d473bd22a6dd8da82da361b78c8cf1bf813da86c71da546e8b1bf",
+  "root_disposition_sha256": "a793a3e5969ae6911c8f8408068ab724e99ced0b93e6f2fb4cd6d28470042821",
+  "editorial_transform": "One status-label replacement only in the report; original author report remains frozen. REVIEW/ADOPTION describe completed review and actual next-work decision.",
+  "public_dependencies": [
+    {
+      "repository_path": "docs/validation/gdm011-012-coupling-observability-2026-10-31/THEOREM.md",
+      "bytes": 19266,
+      "sha256": "bd9917dc7ad35bebdfb9b16a1e6f07cb638829be4b7693bdfd618692084cc7a3"
+    },
+    {
+      "repository_path": "docs/validation/gdm011-012-coupling-observability-2026-10-31/ADOPTION.md",
+      "bytes": 3153,
+      "sha256": "11c8ca22ff26037180dbc083daed2d6f4b96db3eff4ae76f89148393709bbc3c"
+    },
+    {
+      "repository_path": "docs/validation/gdm008-boost-allocation-2026-10-31/THEOREM.md",
+      "bytes": 5543,
+      "sha256": "ebf05aa1e0d0c384155dad05aa5767198ad05b136800d0008d32126f05c4cbd2"
+    },
+    {
+      "repository_path": "docs/validation/gdm008-boost-allocation-2026-10-31/ADOPTION.md",
+      "bytes": 1929,
+      "sha256": "90adfc1055b44c490b105a4661cdc25621c9e0b503337fcf14e37bde92452526"
+    }
+  ],
+  "primary_versions": [
+    "https://arxiv.org/html/1806.00234v3",
+    "https://arxiv.org/html/1908.06929v2"
+  ],
+  "remote_custody": "Version-specific primary URLs only, not immutable byte hashes or full-paper audit.",
+  "files": [
+    {
+      "path": "ADOPTION.md",
+      "bytes": 1461,
+      "sha256": "408d3c9ec0d9728292a7c5c190dc9fe98d7935b72163d3fffe231e0431eb0019"
+    },
+    {
+      "path": "APPLICABILITY.md",
+      "bytes": 9058,
+      "sha256": "f142448fe6957fc8e74b9a6831ed19bcb5d36a6fd5839e8d1a45a620576ffabc"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1660,
+      "sha256": "e0028682cd37383e744083abad3b37efac4f86d4baa800aa24e93214eecf45af"
+    }
+  ],
+  "self_hash": "Manifest excludes itself; repository commit identifies final manifest."
+}
