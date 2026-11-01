@@ -1386,51 +1386,57 @@ def test_kernel_continuum():
     import math
     from det8.models.kernel_continuum import (
         make_nearest_neighbor_kernel, graph_laplacian_generator,
-        continuum_coefficients, spectral_gap, run_t5,
+        continuum_coefficients, spectral_gap, diffuse, run_t5,
     )
 
-    section("Local Kernel Continuum (T5)")
-
-    # Symmetric weak-update kernel ⇒ generator is a graph Laplacian.
+    section("Finite Kernel Transport and Local Moments (T5)")
     Q = make_nearest_neighbor_kernel(15, 1.0, 0.1, 0.0)
     gen = graph_laplacian_generator(Q, 0.1)
-    test("T5: symmetric kernel → Laplacian", gen["is_laplacian"])
-
-    # Drift breaks symmetry → not a Laplacian.
+    test("T5: symmetric generator is negative graph Laplacian", gen["is_laplacian"])
     Qd = make_nearest_neighbor_kernel(15, 1.0, 0.1, 0.3)
     gend = graph_laplacian_generator(Qd, 0.1)
-    test("T5: drift breaks Laplacian symmetry", not gend["is_laplacian"])
-
-    # Continuum coefficients from moments: D = w, v = 2·drift (signed).
+    test("T5: valid drifted generator is nonsymmetric", not gend["is_laplacian"])
     positions = [float(i - 7) for i in range(15)]
-    M = gen["M"]
-    coef = continuum_coefficients(M, positions)
-    test("T5: diffusion D = w", abs(coef["diffusion"] - 1.0) < 1e-12)
-    test("T5: pure-diffusion drift = 0", abs(coef["drift"]) < 1e-12)
-    Md = gend["M"]
-    coefd = continuum_coefficients(Md, positions)
-    test("T5: drift v = −2·drift (signed outgoing moment)",
-         abs(coefd["drift"] - (-0.6)) < 1e-12)
+    coef = continuum_coefficients(gen["M"], positions)
+    test("T5: interior half-second jump moment = w", abs(coef["diffusion"] - 1.0) < 1e-12)
+    test("T5: symmetric interior drift = 0", abs(coef["drift"]) < 1e-12)
+    coefd = continuum_coefficients(gend["M"], positions)
+    test("T5: positive-rightward outgoing drift = +0.6",
+         abs(coefd["drift"] - 0.6) < 1e-12)
 
-    # Jacobi spectral gap on a small path graph (exact check).
+    Q2 = make_nearest_neighbor_kernel(2, 1.0, 0.25, 0.25)
+    M2 = graph_laplacian_generator(Q2, 0.25)["M"]
+    p = diffuse([1.0, 0.0], M2, 0.25, 1)
+    test("T5: exact two-site outgoing endpoint law", p == [11 / 16, 5 / 16])
+    test("T5: complete law has mass one without renormalization", sum(p) == 1.0 and min(p) >= 0)
+    pi = [3 / 8, 5 / 8]
+    test("T5: biased stationary law retained", diffuse(pi, M2, 0.25, 1) == pi)
+
     Q5 = make_nearest_neighbor_kernel(5, 1.0, 0.1, 0.0)
     M5 = graph_laplacian_generator(Q5, 0.1)["M"]
-    test("T5: Jacobi gap (P5) = 2(1−cos(π/5))",
+    test("T5: symmetric P5 numerical generator gap",
          abs(spectral_gap(M5) - 2.0 * (1.0 - math.cos(math.pi / 5.0))) < 1e-9)
 
-    # End-to-end: diffusion mean/variance + spectral gap.
+    # These two fixed synthetic regressions are finite examples, not a
+    # universal finite-time equality or continuum-limit acceptance criterion.
     r = run_t5(n=61, w=1.0, eps=0.05, drift=0.0, n_steps=200)
-    test("T5: empirical variance matches continuum",
+    test("T5: symmetric finite example retains full probability mass",
+         abs(r["final_probability_mass"] - 1.0) < 1e-10 and r["final_nonnegative"])
+    test("T5: fixed symmetric variance near homogeneous reference",
          abs(r["empirical_variance"] - r["predicted_variance"]) < 0.01)
-    test("T5: empirical mean matches continuum",
+    test("T5: fixed symmetric mean near homogeneous reference",
          abs(r["empirical_mean"] - r["predicted_mean"]) < 0.01)
-    test("T5: measured spectral gap ≈ analytic",
-         abs(r["spectral_gap_measured"] - r["spectral_gap_analytic"]) < 0.001)
+    relaxation = r["relaxation_experiment"]
+    test("T5: relaxation experiment is separately symmetric",
+         relaxation["n"] == 21 and relaxation["drift"] == 0.0 and relaxation["separate_from_transport"])
+    test("T5: separate finite decay fit near discrete-mode rate",
+         abs(relaxation["finite_discrete_fit"] - relaxation["discrete_mode_rate_analytic"]) < 0.001)
 
-    # Drift-diffusion end-to-end.
     r2 = run_t5(n=61, w=1.0, eps=0.05, drift=0.3, n_steps=200)
-    test("T5: drift mean matches continuum",
-         abs(r2["empirical_mean"] - r2["predicted_mean"]) < 0.01)
+    test("T5: biased finite example retains full probability mass",
+         abs(r2["final_probability_mass"] - 1.0) < 1e-10 and r2["final_nonnegative"])
+    test("T5: fixed positive-drift mean near homogeneous reference",
+         r2["empirical_mean"] > 0 and abs(r2["empirical_mean"] - r2["predicted_mean"]) < 0.01)
 
 
 # ── Correlation Class (T6) Tests ───────────────────────────────────────────

@@ -1,118 +1,197 @@
+"""T5: finite supplied-kernel transport and local jump moments.
+
+Q[i][j] = P(next=j | current=i) has outgoing rows. M=(Q-I)/eps
+has zero row sums. Column probabilities evolve by Q.T p, not Q p.
+Symmetric M is the negative of a weighted graph Laplacian; detailed balance
+with a nonuniform stationary law does not itself imply matrix symmetry.
+
+Coordinates, rates and eps are supplied dimensionless model parameters.
+Local first/half-second jump moments do not prove a continuum PDE, physical
+diffusion scale, arbitrary finite-time variance law or native-growth limit.
+The public historical names and accurate result keys remain for compatibility.
 """
-DET v8.1 — Local Kernel Continuum Theorem (T5)
-
-A local, conservative (normalized), exchange-symmetric graph kernel with weak
-incremental updating forces the graph-Laplacian generator:
-
-    Q = I + ε M,   M_ij = σ_ij (i≠j),   M_ii = −Σ_j σ_ij,
-
-so the discrete update is
-
-    p_i^{(n+1)} − p_i^{(n)} = ε Σ_j σ_ij (p_j − p_i).
-
-In the continuum limit every coefficient arises from a MOMENT of the discrete
-jump distribution:
-
-    drift     v = Σ_j (x_j − x_i) σ_ij            (first moment)
-    diffusion D = (1/2) Σ_j (x_j − x_i)² σ_ij      (half second moment)
-
-giving the drift–diffusion equation ∂_t p = −v ∂_x p + D ∂²_x p, and the
-spectral gap λ₂ of the Laplacian controls exponential relaxation to uniformity.
-
-DERIVATION CERTIFICATE (honest provenance):
-
-  Q = I + εM (weak update)              AX-DET — the incremental-update ansatz.
-  normalization ⇒ zero row sums         TH-DET — Σ_j Q_ij = 1 ⇒ Σ_j M_ij = 0.
-  exchange symmetry ⇒ symmetric M       TH-DET — detailed balance ⇒ M_ij = M_ji.
-  ⇒ M = graph Laplacian                 TH-DET — locality + the two above.
-  moments → drift/diffusion coefficients MATH  — Taylor expansion of the master
-                                                  equation (Kramers–Moyal), credited.
-  ∂_t p = −v ∂_x p + D ∂²_x p           MATH  — the continuum limit (credited).
-
-  NOT derived here: the reversible wave-like (Schrödinger) limit — that requires
-  the pair-kernel 𝔇 and the complex structure (T2/T6), still open.
-
-Anti-smuggling: no standard-physics constants; the heat equation is NOT inserted
-as a starting point — it is the *limit* of the kernel update.
-"""
-
 from __future__ import annotations
 
 import math
+from numbers import Real
+
+_TOL = 1e-12  # Dimensionless probability/balance tolerance, never a rate floor.
 
 
-# ── Generator from a local, symmetric, conservative kernel ─────────────────
+def _scalar(value, name):
+    if isinstance(value, bool) or not isinstance(value, Real):
+        raise ValueError(f"{name} must be a finite real number")
+    try:
+        result = float(value)
+    except (OverflowError, ValueError) as error:
+        raise ValueError(f"{name} must be representable") from error
+    if not math.isfinite(result):
+        raise ValueError(f"{name} must be finite")
+    return result
+
+
+def _count(value, name, minimum=0):
+    if type(value) is not int or value < minimum:
+        raise ValueError(f"{name} must be an integer >= {minimum}")
+    return value
+
+
+def _vector(values, name, n=None):
+    if not isinstance(values, (list, tuple)) or not values:
+        raise ValueError(f"{name} must be a nonempty list or tuple")
+    if n is not None and len(values) != n:
+        raise ValueError(f"{name} dimension mismatch")
+    return [_scalar(v, name) for v in values]
+
+
+def _matrix(values, name):
+    if not isinstance(values, (list, tuple)) or not values:
+        raise ValueError(f"{name} must be a nonempty square matrix")
+    return [_vector(row, name, len(values)) for row in values]
+
+
+def _sum(values):
+    try:
+        result = math.fsum(values)
+    except (OverflowError, ValueError) as error:
+        raise ValueError("sum is not representable") from error
+    if not math.isfinite(result):
+        raise ValueError("sum is not finite")
+    return result
+
+
+def _kernel(values):
+    q = _matrix(values, "Q")
+    for row in q:
+        if any(v < 0.0 or v > 1.0 for v in row):
+            raise ValueError("Q entries must be probabilities")
+        if not math.isclose(_sum(row), 1.0, rel_tol=0.0, abs_tol=_TOL):
+            raise ValueError("Q outgoing rows must sum to one")
+    return q
+
+
+def _balanced(diagonal_magnitude, outgoing):
+    # Both arguments are finite/nonnegative after the generator sign checks.
+    # No dimensionful absolute tolerance: even a tiny sink/leak is not zero.
+    scale = max(diagonal_magnitude, outgoing)
+    if scale == 0.0:
+        return True
+    return abs(diagonal_magnitude / scale - outgoing / scale) <= _TOL
+
+
+def _is_symmetric(m):
+    # Exact equality of represented off-diagonal rates, including explicit zero.
+    # Never silently symmetrize or admit a one-way edge by absolute magnitude.
+    return all(m[i][j] == m[j][i] for i in range(len(m)) for j in range(i + 1, len(m)))
+
+
+def _generator(values, symmetric=False):
+    m = _matrix(values, "M")
+    for i, row in enumerate(m):
+        if row[i] > 0.0 or any(v < 0.0 for j, v in enumerate(row) if j != i):
+            raise ValueError("M requires nonnegative off-diagonals and nonpositive diagonal")
+        outgoing = _sum(v for j, v in enumerate(row) if j != i)
+        if not _balanced(-row[i], outgoing):
+            raise ValueError("M outgoing rows must sum to zero")
+    if symmetric and not _is_symmetric(m):
+        raise ValueError("spectral/relaxation helper requires exactly symmetric off-diagonal rates")
+    return m
+
+
+def _step_kernel(m, eps):
+    step = _scalar(eps, "eps")
+    if step < 0.0:
+        raise ValueError("eps must be nonnegative")
+    return _kernel([[step * v + (1.0 if i == j else 0.0)
+                     for j, v in enumerate(row)] for i, row in enumerate(m)])
+
+
+def _probability(values, n):
+    p = _vector(values, "p", n)
+    if any(v < 0.0 for v in p) or not math.isclose(_sum(p), 1.0, rel_tol=0.0, abs_tol=_TOL):
+        raise ValueError("p must have nonnegative entries and mass one")
+    return p
+
+
+def _advance(p, q):
+    # q[j][i] = eps*M[j][i] off diagonal: outgoing rows, column state.
+    # Combining the diagonal first avoids subtractive cancellation at zero.
+    return [_sum(q[j][i] * p[j] for j in range(len(p))) for i in range(len(p))]
+
+
+def _connected(m):
+    seen, pending = {0}, [0]
+    while pending:
+        i = pending.pop()
+        for j, value in enumerate(m[i]):
+            if j != i and value > 0.0 and j not in seen:
+                seen.add(j)
+                pending.append(j)
+    return len(seen) == len(m)
 
 
 def graph_laplacian_generator(Q: list[list[float]], eps: float) -> dict:
-    """Extract M = (Q − I)/ε and verify it is a graph Laplacian.
+    """Extract the outgoing-row generator from a valid row-stochastic Q.
 
-    Returns M and the three structural checks (row-stochastic ⇒ zero row sums;
-    exchange symmetry ⇒ symmetric; locality ⇒ nonnegative off-diagonal).
+    eps must be positive: eps=0 does not identify a generator. A valid biased
+    generator is not symmetric and has is_laplacian=False. Symmetry means exact
+    represented off-diagonal equality, also used by both helpers. Nonnegative entries
+    alone supply no geometric-locality or continuum certificate.
     """
-    n = len(Q)
-    M = [[(Q[i][j] - (1.0 if i == j else 0.0)) / eps for j in range(n)]
-         for i in range(n)]
-
-    zero_row_sums = all(abs(sum(M[i])) < 1e-9 for i in range(n))
-    symmetric = all(abs(M[i][j] - M[j][i]) < 1e-9 for i in range(n) for j in range(n))
-    nonneg_offdiag = all(M[i][j] >= -1e-12 for i in range(n) for j in range(n) if i != j)
-    neg_diag = all(M[i][i] <= 1e-12 for i in range(n))
-
-    return {
-        "M": M,
-        "zero_row_sums": zero_row_sums,
-        "symmetric": symmetric,
-        "nonneg_offdiag": nonneg_offdiag,
-        "neg_diag": neg_diag,
-        "is_laplacian": zero_row_sums and symmetric and nonneg_offdiag and neg_diag,
-    }
+    q = _kernel(Q)
+    step = _scalar(eps, "eps")
+    if step <= 0.0:
+        raise ValueError("generator extraction requires eps > 0")
+    m = _generator([[(v - (1.0 if i == j else 0.0)) / step
+                     for j, v in enumerate(row)] for i, row in enumerate(q)])
+    zero = all(_balanced(-row[i], _sum(v for j, v in enumerate(row) if j != i))
+               for i, row in enumerate(m))
+    symmetric = _is_symmetric(m)
+    return {"M": m, "zero_row_sums": zero, "symmetric": symmetric,
+            "nonneg_offdiag": True, "neg_diag": True,
+            "is_laplacian": zero and symmetric}
 
 
 def make_nearest_neighbor_kernel(n: int, w: float, eps: float,
                                  drift: float = 0.0) -> list[list[float]]:
-    """A weak-update kernel Q = I + εM on a 1D chain (open boundary).
+    """Reflecting finite path, outgoing right/left rates w+drift,w-drift.
 
-    M is the nearest-neighbor generator with symmetric weight w plus an
-    asymmetric advection term `drift`: M[i][i+1] = w + drift, M[i][i−1] = w − drift.
-    For drift = 0 the generator is the symmetric path-graph Laplacian; for
-    drift > 0 it is drift–diffusion (Laplacian + antisymmetric advection).
+    n>=1; finite w>=abs(drift), eps>=0; the actual step must be stochastic.
+    One state, zero rates and eps=0 give identity kernels. Positive drift
+    favours increasing coordinates. One-way rates are admitted, without the
+    positive-rate stationary theorem being extended to them.
     """
-    M = [[0.0] * n for _ in range(n)]
+    n = _count(n, "n", 1)
+    w, drift = _scalar(w, "w"), _scalar(drift, "drift")
+    if w < abs(drift):
+        raise ValueError("rates require w >= abs(drift)")
+    right, left = _scalar(w + drift, "right rate"), _scalar(w - drift, "left rate")
+    m = [[0.0] * n for _ in range(n)]
     for i in range(n):
-        row_sum = 0.0
         if i > 0:
-            M[i][i - 1] = w - drift
-            row_sum += M[i][i - 1]
-        if i < n - 1:
-            M[i][i + 1] = w + drift
-            row_sum += M[i][i + 1]
-        M[i][i] = -row_sum
-    Q = [[(M[i][j] * eps + (1.0 if i == j else 0.0)) for j in range(n)]
-         for i in range(n)]
-    return Q
-
-
-# ── Continuum coefficients from kernel moments ─────────────────────────────
+            m[i][i - 1] = left
+        if i + 1 < n:
+            m[i][i + 1] = right
+        m[i][i] = -_sum(m[i])
+    return _step_kernel(m, eps)
 
 
 def continuum_coefficients(M: list[list[float]], positions: list[float]) -> dict:
-    """drift v and diffusion D from the first and second moments of the
-    OUTGOING jump distribution, evaluated at a BULK (interior) reference site.
+    """Local outgoing first and half-second generator moments at site n//2.
 
-    The generator entry M[i][j] is the incoming rate j → i, so the outgoing
-    jump from i to j is M[j][i] (transpose). The boundary sites carry an
-    O(1/n) finite-size correction that the continuum limit ignores.
+    Historical name/key diffusion retained; no PDE or physical coefficient is
+    derived. At n=2 the reference is the right endpoint; at n=1 both moments
+    vanish. Endpoint contributions are retained, not an assumed O(1/n) error.
     """
-    n = len(M)
-    i = n // 2  # interior reference site.
-    v = sum((positions[j] - positions[i]) * M[j][i] for j in range(n) if j != i)
-    d = 0.5 * sum((positions[j] - positions[i]) ** 2 * M[j][i]
-                  for j in range(n) if j != i)
+    m = _generator(M)
+    x = _vector(positions, "positions", len(m))
+    i = len(m) // 2
+    v = _sum((x[j] - x[i]) * m[i][j] for j in range(len(m)) if j != i)
+    try:
+        d = 0.5 * _sum((x[j] - x[i]) ** 2 * m[i][j] for j in range(len(m)) if j != i)
+    except OverflowError as error:
+        raise ValueError("local second moment is not representable") from error
     return {"drift": v, "diffusion": d, "reference_site": i}
-
-
-# ── Spectral gap ───────────────────────────────────────────────────────────
 
 
 def _jacobi_eigh(A: list[list[float]], tol: float = 1e-12, max_iter: int = 500) -> list[float]:
@@ -142,145 +221,153 @@ def _jacobi_eigh(A: list[list[float]], tol: float = 1e-12, max_iter: int = 500) 
 
 
 def spectral_gap(M: list[list[float]]) -> float:
-    """Magnitude of the smallest nonzero eigenvalue of the Laplacian (−M).
+    """Numerical exactly symmetric-generator gap; zero for n=1/disconnected graph.
 
-    Controls the exponential relaxation rate to the uniform (stationary)
-    distribution.
+    This is a generator eigenvalue, not a finite-step fitted decay rate.
+    The existing finite Jacobi iteration is a numerical approximation.
     """
-    n = len(M)
-    L = [[-M[i][j] for j in range(n)] for i in range(n)]  # positive-semidefinite Laplacian.
-    evals = _jacobi_eigh(L)          # descending (λ_max, …, λ_min).
-    evals_asc = sorted(evals)        # ascending.
-    # smallest nonzero eigenvalue (skip near-zero).
-    for e in evals_asc:
-        if abs(e) > 1e-10:
-            return e
-    return 0.0
-
-
-# ── Discrete diffusion ──────────────────────────────────────────────────────
+    m = _generator(M, symmetric=True)
+    if not _connected(m) or len(m) == 1:
+        return 0.0
+    scale = max(abs(v) for row in m for v in row)
+    values = sorted(_jacobi_eigh([[-v / scale for v in row] for row in m]))
+    return _scalar(max(0.0, values[1]) * scale, "spectral gap")
 
 
 def diffuse(p0: list[float], M: list[list[float]], eps: float, n_steps: int) -> list[float]:
-    """Iterate p^{(n+1)} = p^{(n)} + ε M p^{(n)}."""
-    n = len(p0)
-    p = p0[:]
-    for _ in range(n_steps):
-        Mp = [sum(M[i][j] * p[j] for j in range(n)) for i in range(n)]
-        p = [p[i] + eps * Mp[i] for i in range(n)]
+    """Column p evolves by (I+eps*M).T, with outgoing-row M.
+
+    Accept valid nonempty generators, simplex p0, stochastic eps>=0 and
+    integer n_steps>=0. Degenerate/zero-step chains are valid. No normalization
+    or orientation detection is performed, including at zero iterations.
+    """
+    m = _generator(M)
+    q = _step_kernel(m, eps)
+    p = _probability(p0, len(m))
+    steps = _count(n_steps, "n_steps")
+    for _ in range(steps):
+        p = _advance(p, q)
     return p
 
 
 def _moments(p: list[float], positions: list[float]) -> dict:
-    """mean and variance of a distribution over positions."""
-    total = sum(p)
-    mean = sum(positions[i] * p[i] for i in range(len(p))) / total
-    var = sum((positions[i] - mean) ** 2 * p[i] for i in range(len(p))) / total
-    return {"mean": mean, "variance": var}
+    """Normalized moments of a finite nonnegative vector with positive mass.
+
+    run_t5 reports/checks full mass first; this normalization is not a repair.
+    """
+    p = _vector(p, "p")
+    x = _vector(positions, "positions", len(p))
+    total = _sum(p)
+    if any(v < 0.0 for v in p) or total <= 0.0:
+        raise ValueError("moments require nonnegative positive mass")
+    mean = _sum(xi * pi for xi, pi in zip(x, p)) / total
+    variance = _sum((xi - mean) ** 2 * pi for xi, pi in zip(x, p)) / total
+    return {"mean": mean, "variance": variance}
 
 
 def measure_relaxation_rate(M: list[list[float]], eps: float,
                             n_steps: int = 300) -> float:
-    """Numerical spectral gap λ₂: the late-time decay rate of the deviation
-    from the uniform stationary distribution.
+    """Finite discrete late-window fit, exactly symmetric off-diagonal input only.
 
-    ‖δ_n‖² decays as e^{−2λ₂ ε n}, dominated by the slowest (second) eigenmode,
-    so λ₂ = −slope/(2ε) from a late-time least-squares fit of log‖δ‖².
+    eps>0, n_steps>=3, stochastic step. A nonzero generator must be connected;
+    n=1 and the all-zero generator return 0 (no decay). Vanished late-window
+    deviations are refused rather than hidden by a log floor. For one mode
+    the discrete rate is -log(abs(1-eps*lambda))/eps when it decays; a mixture
+    fit/roundoff need not equal this or the generator gap.
     """
-    n = len(M)
+    m = _generator(M, symmetric=True)
+    step = _scalar(eps, "eps")
+    if step <= 0.0:
+        raise ValueError("relaxation rate requires eps > 0")
+    steps = _count(n_steps, "n_steps", 3)
+    q = _step_kernel(m, step)
+    n = len(m)
+    if n == 1 or all(v == 0.0 for row in m for v in row):
+        return 0.0
+    if not _connected(m):
+        raise ValueError("nonzero relaxation experiment requires a connected generator")
     uniform = [1.0 / n] * n
-    p = [0.0] * n
-    p[0] = 1.0  # maximally far from uniform.
+    p = [1.0] + [0.0] * (n - 1)
     norms = []
-    for _ in range(n_steps):
-        Mp = [sum(M[i][j] * p[j] for j in range(n)) for i in range(n)]
-        p = [p[i] + eps * Mp[i] for i in range(n)]
-        norms.append(sum((p[i] - uniform[i]) ** 2 for i in range(n)))
-
-    start = int(0.6 * n_steps)
-    xs = list(range(start, n_steps))
-    ys = [math.log(max(norms[s], 1e-300)) for s in xs]
-    N = len(xs)
-    sx = sum(xs); sy = sum(ys)
-    sxx = sum(x * x for x in xs); sxy = sum(x * y for x, y in zip(xs, ys))
-    den = N * sxx - sx * sx
-    slope = (N * sxy - sx * sy) / den if abs(den) > 1e-15 else 0.0
-    return -slope / (2.0 * eps)
-
-
-# ── Derivation certificate ──────────────────────────────────────────────────
+    for _ in range(steps):
+        p = _advance(p, q)
+        norms.append(_sum((p[i] - uniform[i]) ** 2 for i in range(n)))
+    start = int(0.6 * steps)
+    xs = list(range(start, steps))
+    if any(norms[i] <= 0.0 for i in xs):
+        raise ValueError("late deviation vanished; no finite logarithmic fit")
+    ys = [math.log(norms[i]) for i in xs]
+    xbar, ybar = _sum(xs) / len(xs), _sum(ys) / len(ys)
+    slope = _sum((x - xbar) * (y - ybar) for x, y in zip(xs, ys)) / _sum((x - xbar) ** 2 for x in xs)
+    return _scalar(-slope / (2.0 * step), "finite relaxation fit")
 
 
 def derivation_certificate() -> dict:
     return {
-        "theorem": "T5 — Local Kernel Continuum Theorem",
+        "theorem": "T5 — finite supplied-kernel transport and local moments",
         "deliverables": {
-            "Q = I + εM weak-update ansatz": "AX-DET — incremental-update assumption",
-            "normalization ⇒ zero row sums": "TH-DET",
-            "exchange symmetry ⇒ symmetric M": "TH-DET",
-            "⇒ M = graph Laplacian": "TH-DET — locality + the two above",
-            "moments → drift/diffusion coefficients": "MATH — Kramers–Moyal / master-equation Taylor expansion (credited)",
-            "∂_t p = −v ∂_x p + D ∂²_x p": "MATH — continuum limit (credited)",
+            "Q = I + eps*M": "supplied finite weak-update model",
+            "row normalization implies zero generator row sums": "finite algebra",
+            "column p evolves by Q transpose": "finite probability transport",
+            "symmetric valid M is a negative weighted graph Laplacian": "conditional finite classification",
+            "outgoing first and half-second moments": "local jump statistics, including endpoints",
         },
-        "not_derived_here": [
-            "the reversible wave-like (Schrödinger) limit — needs the pair-kernel 𝔇 + complex structure (T2/T6)",
-        ],
-        "status": "MATH/TH-DET implemented; the heat equation is a derived limit, not an input.",
+        "not_derived_here": ["generic continuum or heat-equation limit",
+                             "physical time/distance/diffusion scale or empirical validation",
+                             "native growth correspondence or reversible wave-like limit"],
+        "status": "Synthetic finite-model calculation; no general continuum or physical theorem.",
     }
-
-
-# ── End-to-end T5 ───────────────────────────────────────────────────────────
 
 
 def run_t5(n: int = 61, w: float = 1.0, eps: float = 0.05,
            drift: float = 0.0, n_steps: int = 200, seed: int = 42) -> dict:
-    """1D chain: verify (i) the generator is the Laplacian, (ii) the discrete
-    update matches the drift–diffusion continuum solution (mean/variance),
-    (iii) the spectral gap controls the relaxation rate."""
-    positions = [float(i - n // 2) for i in range(n)]  # Δx = 1.
+    """Synthetic finite transport plus a separately symmetric relaxation fit.
 
-    Q = make_nearest_neighbor_kernel(n, w, eps, drift)
-    gen = graph_laplacian_generator(Q, eps)
-    M = gen["M"]
-
-    coef = continuum_coefficients(M, positions)
-
-    # Delta initial condition at the center; iterate.
+    seed is retained but unused (no random sampling). eps>0 because extraction
+    and rate fitting need it; both transport and the separate21-site symmetric
+    step must be stochastic. Legacy empirical_* keys mean synthetic finite-law
+    moments, and predicted_* mean the homogeneous unbounded-increment reference
+    frozen at the reference site's moments, not exact bounded-chain predictions.
+    """
+    n, steps = _count(n, "n", 1), _count(n_steps, "n_steps")
+    w, eps, drift = _scalar(w, "w"), _scalar(eps, "eps"), _scalar(drift, "drift")
+    q = make_nearest_neighbor_kernel(n, w, eps, drift)
+    gen = graph_laplacian_generator(q, eps)
+    positions = [float(i - n // 2) for i in range(n)]
+    coef = continuum_coefficients(gen["M"], positions)
     p0 = [0.0] * n
     p0[n // 2] = 1.0
-    p_end = diffuse(p0, M, eps, n_steps)
-
-    # Continuum prediction: mean = v·t, variance = 2D·t, t = n_steps·eps.
-    t = n_steps * eps
-    pred_mean = coef["drift"] * t
-    pred_var = 2.0 * coef["diffusion"] * t
-    emp = _moments(p_end, positions)
-
-    # Spectral gap: on a small chain (n_small), where λ₂ is large enough to
-    # measure, cross-check the late-time relaxation rate against the analytic
-    # path-graph value.
+    p_end = diffuse(p0, gen["M"], eps, steps)
+    mass, minimum = _sum(p_end), min(p_end)
+    if minimum < 0.0 or not math.isclose(mass, 1.0, rel_tol=0.0, abs_tol=1e-9):
+        raise ArithmeticError("finite transport lost probability mass/nonnegativity")
+    # Complete law and mass are checked before any normalized summary.
+    finite = _moments(p_end, positions)
+    displacement = eps * coef["drift"]
+    reference_variance = 2.0 * eps * coef["diffusion"] - displacement ** 2
+    predicted_mean = _scalar(steps * displacement, "reference mean")
+    predicted_variance = _scalar(steps * reference_variance, "reference variance")
     n_small = 21
-    Qs = make_nearest_neighbor_kernel(n_small, w, eps, 0.0)
-    Ms = graph_laplacian_generator(Qs, eps)["M"]
-    gap_analytic = 2.0 * w * (1.0 - math.cos(math.pi / n_small))
-    gap_measured = measure_relaxation_rate(Ms, eps, n_steps=4000)
-
+    qs = make_nearest_neighbor_kernel(n_small, w, eps, 0.0)
+    ms = graph_laplacian_generator(qs, eps)["M"]
+    gap = 2.0 * w * (1.0 - math.cos(math.pi / n_small))
+    fitted = measure_relaxation_rate(ms, eps, n_steps=4000)
+    multiplier = abs(1.0 - eps * gap)
+    discrete_rate = -math.log(multiplier) / eps if 0.0 < multiplier < 1.0 else (0.0 if multiplier == 1.0 else None)
     return {
-        "n": n, "eps": eps, "n_steps": n_steps, "w": w, "drift": drift,
-        "is_laplacian": gen["is_laplacian"],
-        "continuum_coefficients": coef,
-        "empirical_mean": emp["mean"],
-        "predicted_mean": pred_mean,
-        "empirical_variance": emp["variance"],
-        "predicted_variance": pred_var,
-        "spectral_gap_analytic": gap_analytic,
-        "spectral_gap_measured": gap_measured,
+        "n": n, "eps": eps, "n_steps": steps, "w": w, "drift": drift,
+        "is_laplacian": gen["is_laplacian"], "continuum_coefficients": coef,
+        "final_probabilities": p_end, "final_probability_mass": mass,
+        "final_nonnegative": minimum >= 0.0, "minimum_probability": minimum,
+        "empirical_mean": finite["mean"], "empirical_variance": finite["variance"],
+        "predicted_mean": predicted_mean,
+        "predicted_variance": predicted_variance,
+        "comparison_model": "homogeneous unbounded increments frozen at reference; endpoint changes not modeled",
+        "quantity_labels": {"empirical": "synthetic finite-law moment", "predicted": "homogeneous finite-step reference"},
+        "spectral_gap_analytic": gap, "spectral_gap_measured": fitted,
+        "relaxation_experiment": {"n": n_small, "drift": 0.0, "eps": eps, "n_steps": 4000,
+                                  "generator_gap_analytic": gap, "discrete_mode_rate_analytic": discrete_rate,
+                                  "finite_discrete_fit": fitted, "separate_from_transport": True},
         "certificate": derivation_certificate(),
-        "interpretation": (
-            f"Generator is Laplacian: {gen['is_laplacian']}. "
-            f"Drift v={coef['drift']:.4f}, diffusion D={coef['diffusion']:.4f}. "
-            f"Empirical mean={emp['mean']:.3f} (pred {pred_mean:.3f}); "
-            f"empirical variance={emp['variance']:.3f} (pred {pred_var:.3f}). "
-            f"Spectral gap λ₂: analytic={gap_analytic:.5f}, measured={gap_measured:.5f}."
-        ),
+        "interpretation": "Synthetic finite supplied-kernel transport; local moments and homogeneous reference are not a continuum proof. Relaxation is a separate symmetric finite experiment.",
     }

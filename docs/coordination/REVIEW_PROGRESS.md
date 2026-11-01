@@ -1,3 +1,9 @@
+## November 1 — finite transport repair verified
+
+RET032-v2 is accepted after independent source review and two bounded software checks: eleven transport regression methods and all sixteen checks in the exact replacement T5 function passed. The outgoing-row convention, complete-law validation and tiny-rate symmetry/balance regressions are integrated. The repository-layout test has the same reviewed test bodies; that layout and the complete test driver were not executed. See `docs/validation/ret032-finite-transport-repair.md` and its machine-readable check record for the precise scope.
+
+GDM022 has produced its fixed conditional endpoint witness file. It remains pending independent exact arithmetic reconstruction; no numerical result or physical correspondence is accepted from the execution flag. Scientific, custody, review, public-source and usage gates remain unchanged. Earlier entries are historical snapshots.
+
 ## November 1 — conditional quantum contrast and enclosure method
 
 GDM020 is accepted as an exact nineteen-term formal response contrast under its supplied Weyl model. GDM021's fixed rational enclosure method is accepted after distinct review. The two amplitude constants remain unevaluated; individual response laws, physical correspondence and all preparation/control/readout/error premises remain open. The exact technical bodies and adoption scope are in `docs/validation/gdm020-quantum-contrast-2026-11-01/`.

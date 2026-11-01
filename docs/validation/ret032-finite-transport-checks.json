@@ -1,0 +1,83 @@
+{
+  "id": "RET032-v2-fixed-software-checks",
+  "date_utc": "2026-11-01",
+  "source_sha256": "0df53adaf94204232186ddb4baaada8485ad68f2d51dcf92c8125d2849f84fbc",
+  "executed_sibling_test_sha256": "84b6100ca5b81787c826d00480ad894920916ee8223dc3b3bf15b1642b0b2f57",
+  "repository_layout_test_sha256": "7ab9ac0a1888d51a242ca2f15026ad28383dbc6c8cb6c51087ca93f8cc324991",
+  "exact_T5_function_sha256": "8d624b6e1983fdf9003d81e3974b74363860ebe54843876e87a53684f80b54a4",
+  "component_unittest_stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.129s\n\nOK\n",
+  "T5_function_output": {
+    "checks": [
+      {
+        "label": "T5: symmetric generator is negative graph Laplacian",
+        "passed": true
+      },
+      {
+        "label": "T5: valid drifted generator is nonsymmetric",
+        "passed": true
+      },
+      {
+        "label": "T5: interior half-second jump moment = w",
+        "passed": true
+      },
+      {
+        "label": "T5: symmetric interior drift = 0",
+        "passed": true
+      },
+      {
+        "label": "T5: positive-rightward outgoing drift = +0.6",
+        "passed": true
+      },
+      {
+        "label": "T5: exact two-site outgoing endpoint law",
+        "passed": true
+      },
+      {
+        "label": "T5: complete law has mass one without renormalization",
+        "passed": true
+      },
+      {
+        "label": "T5: biased stationary law retained",
+        "passed": true
+      },
+      {
+        "label": "T5: symmetric P5 numerical generator gap",
+        "passed": true
+      },
+      {
+        "label": "T5: symmetric finite example retains full probability mass",
+        "passed": true
+      },
+      {
+        "label": "T5: fixed symmetric variance near homogeneous reference",
+        "passed": true
+      },
+      {
+        "label": "T5: fixed symmetric mean near homogeneous reference",
+        "passed": true
+      },
+      {
+        "label": "T5: relaxation experiment is separately symmetric",
+        "passed": true
+      },
+      {
+        "label": "T5: separate finite decay fit near discrete-mode rate",
+        "passed": true
+      },
+      {
+        "label": "T5: biased finite example retains full probability mass",
+        "passed": true
+      },
+      {
+        "label": "T5: fixed positive-drift mean near homogeneous reference",
+        "passed": true
+      }
+    ],
+    "isolated_exact_T5_function_pass": true,
+    "sections": [
+      "Finite Kernel Transport and Local Moments (T5)"
+    ]
+  },
+  "independent_review": "Comp-Sci reviewer distinct from RET author and coordinator; R32F1 repaired and scoped source accepted. Coordinator separately admitted and assessed exact runs.",
+  "execution_scope": "One isolated frozen sibling test and one exact function with strict local callbacks. No installed-layout or whole-driver execution. No physical, performance or M38 qualification."
+}
