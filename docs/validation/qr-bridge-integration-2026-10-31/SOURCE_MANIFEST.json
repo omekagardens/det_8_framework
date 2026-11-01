@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "reviewed_branch_head": "50be57d85aab1bf0396143694b4f9c32632010de",
+  "baseline_main": "2af9fdcaeb6b7830a6ce94f1288dabbbcf8f60a5",
+  "scope": "Three packages and file targets directly linked from their markdown; identity and link coverage, not semantic dependency closure or acceptance of every source. Coordinator status/disposition changes after the reviewed draft introduce no new scientific claims.",
+  "execution": "NOT_INDEPENDENTLY_EXECUTED",
+  "package_files": [
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/BRIDGE_THEOREM.md",
+      "bytes": 39007,
+      "sha256": "843f2a2cbe3fa45a2ea61c2e3170089f97c5c9c28beea695c7ce74ed939075f2",
+      "original_bytes": 38071,
+      "original_sha256": "1daa5c497e24598f1c02672562f00a6d90d26729fa78dc884a12d2292808022b",
+      "unchanged_from_reviewed_head": false
+    },
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/PROTOCOL.md",
+      "bytes": 10280,
+      "sha256": "45995746829d9a7cb91dfcf500a42dca537791e274d76d3ec634a04a1fe8ebee",
+      "original_bytes": 10280,
+      "original_sha256": "45995746829d9a7cb91dfcf500a42dca537791e274d76d3ec634a04a1fe8ebee",
+      "unchanged_from_reviewed_head": true
+    },
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/check.py",
+      "bytes": 39790,
+      "sha256": "7cce895f6ff26d52dcf0d069f4b6b5e020f1485d2fa04c4d198555fcf32e0f4a",
+      "original_bytes": 39790,
+      "original_sha256": "7cce895f6ff26d52dcf0d069f4b6b5e020f1485d2fa04c4d198555fcf32e0f4a",
+      "unchanged_from_reviewed_head": true
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/AUDIT_AMENDMENT.md",
+      "bytes": 8814,
+      "sha256": "ccd8686309986de95a86708753a551b9a7916b375db63cdd775ce53651c84def",
+      "original_bytes": null,
+      "original_sha256": null,
+      "unchanged_from_reviewed_head": false
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/PROTOCOL.md",
+      "bytes": 11774,
+      "sha256": "f66ebc53e5be10aeb5422c1d81005bde5a4b8c6500a2c77aba6d84b645f974c6",
+      "original_bytes": 11774,
+      "original_sha256": "f66ebc53e5be10aeb5422c1d81005bde5a4b8c6500a2c77aba6d84b645f974c6",
+      "unchanged_from_reviewed_head": true
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/RELATIONAL_IDENTITY_BRIDGE.md",
+      "bytes": 57240,
+      "sha256": "4d3b7bd9d29a36408224bab7a0e37d00d4e9ee08ec38b193d33bfc7ca9c7fd25",
+      "original_bytes": 52383,
+      "original_sha256": "88c3a7acdd1571c0c5f8ab6756d0f92e6b5a07244d2ba58346a4a2ef26cb90bc",
+      "unchanged_from_reviewed_head": false
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/check.py",
+      "bytes": 64273,
+      "sha256": "a591981cd1fb64c144a6358860b7e705bd035693c7b5183a82621dc5320d9f96",
+      "original_bytes": 64273,
+      "original_sha256": "a591981cd1fb64c144a6358860b7e705bd035693c7b5183a82621dc5320d9f96",
+      "unchanged_from_reviewed_head": true
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/AUDIT_AMENDMENT.md",
+      "bytes": 6173,
+      "sha256": "3438b471267925180c9ed2dc15d77a863f750908ae4a7782b959c3369d289201",
+      "original_bytes": null,
+      "original_sha256": null,
+      "unchanged_from_reviewed_head": false
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/PROTOCOL.md",
+      "bytes": 18202,
+      "sha256": "754d88d3af8f0c003e4a9c4a21a959e7fd8d203f6895b3004d94df822612d346",
+      "original_bytes": 18202,
+      "original_sha256": "754d88d3af8f0c003e4a9c4a21a959e7fd8d203f6895b3004d94df822612d346",
+      "unchanged_from_reviewed_head": true
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/TIER1_CLOSURE_THEOREMS.md",
+      "bytes": 72184,
+      "sha256": "69697362a5826758b4de502ca60a55ee8e8572c2718fbf1a679d68e46de71154",
+      "original_bytes": 67824,
+      "original_sha256": "54d3bcf208158d34de679812c3ebb8dd0551df06b2ceaf1d8cf3d15535c5d37d",
+      "unchanged_from_reviewed_head": false
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/check.py",
+      "bytes": 73584,
+      "sha256": "3b0b99420527fd7d26b4e5d9e7f780be1728d6a45176517c7366eea7e9d901c7",
+      "original_bytes": 73584,
+      "original_sha256": "3b0b99420527fd7d26b4e5d9e7f780be1728d6a45176517c7366eea7e9d901c7",
+      "unchanged_from_reviewed_head": true
+    }
+  ],
+  "direct_link_inputs": [
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 10796,
+      "sha256": "e166b8307511150778905015cadcf956b841bcdaee270b837a98f8bcb8f6c1e7"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 62267,
+      "sha256": "969abf83d02ac812125dcc0499eecc501d41ed7bb581bdeb663860f0f836b99f"
+    },
+    {
+      "path": "ONTOLOGY.md",
+      "bytes": 15740,
+      "sha256": "f7a3559267bac123a7e02598baba411907f368992b0c0429daef7c384075cb94"
+    },
+    {
+      "path": "det8/models/grade2_justification.py",
+      "bytes": 16479,
+      "sha256": "ba76691e82c07f284adc97ccc23229d22a96abd838e48ce2b3674cfbf476768f"
+    },
+    {
+      "path": "det8/models/why_complex.py",
+      "bytes": 13582,
+      "sha256": "3353967424554efafa08b2c01ab9a291d0efe899fb1b9f65e7c0c42d41a01708"
+    },
+    {
+      "path": "docs/coordination/FOUNDATIONAL_RESEARCH_SCOPE.md",
+      "bytes": 20428,
+      "sha256": "1a24e36cb82bcba5f0a6b9c7a4e83c0444c84002f00f7c77f58d86f595353a42"
+    },
+    {
+      "path": "docs/coordination/OPERATIONAL_PREMISE_LEDGER.md",
+      "bytes": 62097,
+      "sha256": "6bd8aedb1f617dc5a68ea5f55b1fd7d8b68ab649ef8a2f1473b26f1c7dffca9e"
+    },
+    {
+      "path": "docs/coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md",
+      "bytes": 20241,
+      "sha256": "bf712204df74665c8eede35f246227c2d12acbdc2a03e5284a5ddbfaf073c3a0"
+    },
+    {
+      "path": "docs/coordination/QR_COMPOSITION_PREMISE_PLAN.md",
+      "bytes": 23970,
+      "sha256": "389d1ff809a921f5af832ca197e6bca4e3810ef1d0c7943193c5b6b9c9d95971"
+    },
+    {
+      "path": "docs/coordination/QR_FINITE_COPY_WITNESS_PLAN.md",
+      "bytes": 20555,
+      "sha256": "62887089c6f661f543e066f23d2d141200c9d0b67f9cafa8dd06765072e12517"
+    },
+    {
+      "path": "docs/coordination/SCALAR_VALUE_ERROR_CONTRACT.md",
+      "bytes": 14876,
+      "sha256": "f82f3ab5124e232f95ed6c41a40828a8ca0330df2df998c58267c1f8ddd991df"
+    },
+    {
+      "path": "docs/observables/finite_incidence_register.md",
+      "bytes": 17141,
+      "sha256": "bcc6a1fddc3d667d21a67f0d1f8376797285dede9815118c5d3212a5c3aac159"
+    },
+    {
+      "path": "docs/observables/finite_pair_incidence_register.md",
+      "bytes": 16049,
+      "sha256": "d256954775cb7cd2999036aa155445831cd2c7e869dc1313e11e4c1300b0ccfd"
+    },
+    {
+      "path": "docs/research/PROOF_SYNTHESIS_AND_PREMISE_SELECTION.md",
+      "bytes": 17302,
+      "sha256": "2d24326ca579c6b3d940d796c213a5f3577a0348e93ad47b9075d37e6b0ed82a"
+    },
+    {
+      "path": "docs/track_b/QR_MAP_RECORD_SUFFICIENCY.md",
+      "bytes": 12857,
+      "sha256": "b38cdbc315f4a1c5a76c913ce48c09ba6e69818fac743906fee9916fbf049f2a"
+    },
+    {
+      "path": "docs/track_b/RECORD_PROCESS_CONTRACT.md",
+      "bytes": 9082,
+      "sha256": "9b90a53685e44740161c31164d2a46080e95d92767a67338893434ac83d36b32"
+    },
+    {
+      "path": "docs/track_b/fact_genesis_resurrection_bridge.md",
+      "bytes": 5458,
+      "sha256": "69c72f77db9e934300d1e7b0906372532723e78e595d1de48c546eb631162950"
+    },
+    {
+      "path": "docs/track_b/finite_homogeneous_compensation.md",
+      "bytes": 9351,
+      "sha256": "98b621c4f6d1c54ea55b40a8f95df5a5bf25500e23fe6f30bb1f099afc89d52a"
+    },
+    {
+      "path": "docs/track_b/homogeneous_native_compensation.md",
+      "bytes": 7605,
+      "sha256": "c70e25deaf69f227a29fa4a6904ea5bcea5f7c923b76751ba157be800029c224"
+    },
+    {
+      "path": "docs/track_b/native_active_residual_v1.md",
+      "bytes": 11387,
+      "sha256": "cd6f99fcb2e2d7f52c6fe3a7f42d769ac36931ecaab7ff942e790acbfaf5f48a"
+    },
+    {
+      "path": "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md",
+      "bytes": 72182,
+      "sha256": "357d8d17c166a562a02a0c9409caf102823d3400a173c18159e78c2c6d829fdd"
+    },
+    {
+      "path": "docs/validation/qr-bridge-integration-2026-10-31/ADOPTION.md",
+      "bytes": 9974,
+      "sha256": "db38c7d6d57c21bd4b9726255dc509ee7753b50ea2b819d29be74b34dd7a31e5"
+    },
+    {
+      "path": "docs/validation/t8-q-control-selected-qubit-2026-09-13/CONTROL_SELECTED_QUBIT.md",
+      "bytes": 16458,
+      "sha256": "b9ce11fc5c8e11a8aeefa57e7da76b528673a720c54e6e6858f02380742233a2"
+    },
+    {
+      "path": "docs/validation/t8-q-cut-closed-completion-2026-09-13/CUT_CLOSED_COMPLETION.md",
+      "bytes": 18139,
+      "sha256": "23392a688924b6518e8a823f062ba87b0089c85f711f0a468f7d582b4b2897f9"
+    },
+    {
+      "path": "docs/validation/t8-q-joint-recordability-2026-09-13/JOINT_RECORDABILITY.md",
+      "bytes": 17231,
+      "sha256": "34d7fb69bc72764de2d0ee239ee5af3f132ec37247d67e6674a41f98e0beb444"
+    },
+    {
+      "path": "docs/validation/t8-q-operation-domain-2026-09-13/OPERATION_DOMAIN.md",
+      "bytes": 16362,
+      "sha256": "dcd9f166118d744e38fc18adf77976f639555510dd067de8fbc43cfc70bb6959"
+    },
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/BRIDGE_THEOREM.md",
+      "bytes": 39007,
+      "sha256": "843f2a2cbe3fa45a2ea61c2e3170089f97c5c9c28beea695c7ce74ed939075f2"
+    },
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/PROTOCOL.md",
+      "bytes": 10280,
+      "sha256": "45995746829d9a7cb91dfcf500a42dca537791e274d76d3ec634a04a1fe8ebee"
+    },
+    {
+      "path": "docs/validation/t8-q-pair-kernel-bridge-2026-10-31/check.py",
+      "bytes": 39790,
+      "sha256": "7cce895f6ff26d52dcf0d069f4b6b5e020f1485d2fa04c4d198555fcf32e0f4a"
+    },
+    {
+      "path": "docs/validation/t8-q-principle-selection-research-2026-09-13/RESEARCH.md",
+      "bytes": 38352,
+      "sha256": "df06adb5261cbc5fa1d9a6684c8c150af7cf9d0a484c02136eceb60a5ca1a42d"
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/AUDIT_AMENDMENT.md",
+      "bytes": 8814,
+      "sha256": "ccd8686309986de95a86708753a551b9a7916b375db63cdd775ce53651c84def"
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/PROTOCOL.md",
+      "bytes": 11774,
+      "sha256": "f66ebc53e5be10aeb5422c1d81005bde5a4b8c6500a2c77aba6d84b645f974c6"
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/RELATIONAL_IDENTITY_BRIDGE.md",
+      "bytes": 57240,
+      "sha256": "4d3b7bd9d29a36408224bab7a0e37d00d4e9ee08ec38b193d33bfc7ca9c7fd25"
+    },
+    {
+      "path": "docs/validation/t8-q-relational-identity-completion-2026-10-31/check.py",
+      "bytes": 64273,
+      "sha256": "a591981cd1fb64c144a6358860b7e705bd035693c7b5183a82621dc5320d9f96"
+    },
+    {
+      "path": "docs/validation/t8-q-repeatable-record-instrument-2026-09-13/REPEATABLE_INSTRUMENT.md",
+      "bytes": 18896,
+      "sha256": "7870bfa7549cb134a6dea54cd1b98ef3451736067ad6ebe6a86498576a40a62c"
+    },
+    {
+      "path": "docs/validation/t8-q-strict-derivation-2026-09-12/DERIVATION.md",
+      "bytes": 15093,
+      "sha256": "e9d238df4b61ce29984e13cce3699a70b29416bacb14278616442daf194a2ff0"
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/AUDIT_AMENDMENT.md",
+      "bytes": 6173,
+      "sha256": "3438b471267925180c9ed2dc15d77a863f750908ae4a7782b959c3369d289201"
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/PROTOCOL.md",
+      "bytes": 18202,
+      "sha256": "754d88d3af8f0c003e4a9c4a21a959e7fd8d203f6895b3004d94df822612d346"
+    },
+    {
+      "path": "docs/validation/t8-q-tier1-foundational-closure-2026-10-31/check.py",
+      "bytes": 73584,
+      "sha256": "3b0b99420527fd7d26b4e5d9e7f780be1728d6a45176517c7366eea7e9d901c7"
+    }
+  ],
+  "coordination_and_review": [
+    {
+      "path": "REVIEW_IMPLEMENTATION_PLAN.md",
+      "bytes": 1251538,
+      "sha256": "f20fcde1dbde6e739c63c5f6793a650dba5b12ca168369fe1e11bb683bb4e7e8"
+    },
+    {
+      "path": "docs/coordination/REVIEW_PROGRESS.md",
+      "bytes": 1499697,
+      "sha256": "c614ff18659d0f3bfdbca06b5fc60dd67528957db3729472921e2d685652fdce"
+    },
+    {
+      "path": "docs/coordination/QR_HANDOFF.md",
+      "bytes": 873078,
+      "sha256": "c6a5d74cba797fb2511d79e92308fc07f08b788f49ca2da82803bd0f441c39ba"
+    },
+    {
+      "path": "docs/coordination/OPERATIONAL_PREMISE_LEDGER.md",
+      "bytes": 62097,
+      "sha256": "6bd8aedb1f617dc5a68ea5f55b1fd7d8b68ab649ef8a2f1473b26f1c7dffca9e"
+    },
+    {
+      "path": "docs/validation/qr-bridge-integration-2026-10-31/REVIEW.md",
+      "bytes": 13868,
+      "sha256": "84aa9e09de3ef88e2a27666bdfebbded116d216cc2f1302b1fdcb608e0404c83"
+    }
+  ],
+  "missing_file_targets": []
+}

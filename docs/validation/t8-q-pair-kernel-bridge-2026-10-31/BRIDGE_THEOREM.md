@@ -2,6 +2,16 @@
 
 31 October 2026. **CONDITIONAL_UPSTREAM_BRIDGE_THEOREMS; COUNTERMODELS_AND_PREMISE_BOUNDARIES_EXPLICIT.**
 
+**Integration audit notice (31 October 2026, Pacific/Honolulu):** the
+[current claim and verification ledger](../qr-bridge-integration-2026-10-31/ADOPTION.md)
+records the review disposition and subsequent conditional links. In particular,
+real-incidence naturality here means all real rectangular maps; the later
+coarse-cell result uses a specified encoded section and added controls.
+The checker source below has not been independently executed in this
+integration. Its listed commands and matching hash are not execution receipts.
+The original protocol and checker remain unchanged; the pre-audit note is
+preserved at Git revision `50be57d85aab1bf0396143694b4f9c32632010de`.
+
 Prospective protocol frozen prior to analysis in [`PROTOCOL.md`](PROTOCOL.md) (`bab724b`). This study leaves all existing accepted documents, executors, registries, and branches untouched. No global DET axiom, physical apparatus availability, complex-field derivation, native causal growth law \(q(P,r,S)\), geometry, or empirical claim is asserted.
 
 ---
@@ -36,7 +46,7 @@ For each finite carrier \(\Omega_n=\{0,\dots,n-1\}\) (\(n\ge 1\)), write \(D=R+i
 \boxed{D\odot_\alpha E = R\otimes S + \alpha\,(J\otimes K) + i\,(J\otimes S + R\otimes K).}
 \tag{1}
 \]
-*Conversely, for every \(\alpha\in\mathbb R\), \(\odot_\alpha\) satisfies unit, real-incidence naturality, swap covariance, universal associativity, complex whole-carrier marginals, and rectangular scalar independence \(\mu_{D\odot_\alpha E}(A\times C)=\mu_D(A)\mu_E(C)\).*
+*Conversely, for every \(\alpha\in\mathbb R\), \(\odot_\alpha\) satisfies unit, real-incidence naturality, swap covariance, universal associativity, mass-scaled complex whole-carrier marginals (reducing to the original factors on normalized inputs), and rectangular scalar independence \(\mu_{D\odot_\alpha E}(A\times C)=\mu_D(A)\mu_E(C)\).*
 
 **Proof.** By real bilinearity it suffices to evaluate \(\odot\) on \((R,0)\times(S,0)\), \((iJ,0)\times(S,0)\), \((R,0)\times(iK)\), and \((iJ,0)\times(iK)\).
 
@@ -68,7 +78,7 @@ For each finite carrier \(\Omega_n=\{0,\dots,n-1\}\) (\(n\ge 1\)), write \(D=R+i
    R\otimes S\otimes T + \alpha(J\otimes K\otimes T + J\otimes S\otimes L + R\otimes K\otimes L)
    + i\bigl(J\otimes S\otimes T + R\otimes K\otimes T + R\otimes S\otimes L + \alpha\,J\otimes K\otimes L\bigr),
    \]
-   reflecting the commutative associative real algebra \(\mathbb R[\tau]/(\tau^2-\alpha)\) (\(\alpha=-1\): complex numbers \(\mathbb C\); \(\alpha=0\): dual numbers, recovering [RI-22](../../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md); \(\alpha=+1\): split-complex numbers). Whole-carrier marginals hold because \(\mathbf 1^T K\mathbf 1=0\) kills \(\alpha(J\otimes K)\) as well as \(i(R\otimes K)\); rectangular scalar independence holds because \(\chi_A^T J\chi_A=\chi_C^T K\chi_C=0\). ∎
+   reflecting the commutative associative real algebra \(\mathbb R[\tau]/(\tau^2-\alpha)\) (\(\alpha=-1\): complex numbers \(\mathbb C\); \(\alpha=0\): dual numbers, recovering [RI-22](../../coordination/QR_COMPOSITION_INDEPENDENCE_PLAN.md); \(\alpha=+1\): split-complex numbers). Whole-carrier contraction of the second factor gives \(M(E)D\), and contraction of the first gives \(M(D)E\); these are \(D\) and \(E\), respectively, when both factors are normalized. These mass-scaled identities hold because \(\mathbf 1^T K\mathbf 1=0\) kills \(\alpha(J\otimes K)\) as well as \(i(R\otimes K)\); rectangular scalar independence holds because \(\chi_A^T J\chi_A=\chi_C^T K\chi_C=0\). ∎
 
 ### 2.2 Weak-positivity interval and selection of \(\alpha=-1\) by silent-control interchange
 

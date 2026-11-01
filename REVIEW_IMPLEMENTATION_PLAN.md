@@ -1,3 +1,26 @@
+## QR bridge integration — 31 October 2026
+
+The three `qr-pair-kernel-bridge` packages passed distinct correction review
+and coordinator adoption as scoped conditional mathematics.
+The [current claim, premise and verification ledger](docs/validation/qr-bridge-integration-2026-10-31/ADOPTION.md) records the
+conditional tensor/decoherence/positivity chain, Walsh-section readouts,
+context-dependent birth constructions, and the repaired Tier I claims.
+Original protocols and historical statements remain preserved. No complete
+physical quantum reconstruction, native mass/gravity result or instrument
+availability follows. Companion checker execution has not been independently
+reproduced; its separate admission and verification obligations remain open.
+
+Routine programme work is temporarily held through the audited merge and
+coordinator reconciliation. Afterwards, resume only relevant work under the
+revised ledger and existing gates. The sustaining-regime/mass question remains
+open: GDM007's interrupted author package is unaccepted, and this branch does
+not complete it. Do not repeat already resolved conditional subproblems under
+the same premises or create automatic transfer tasks for other tracks.
+Schedules, protected validation, custody and the shared usage guard remain.
+Earlier entries below retain their historical scope.
+
+---
+
 ## Current result and priority — 2026-10-28
 
 The accepted finite scalar-extension construction now has an independently reviewed endpoint-law corollary. For every admitted finite prefix of size n, the choices theta=1/3 and theta=2/3 assign different probabilities to the same all-markings chain event at birth n+1. The exact gap is n m_n/[3(2^n-1)] > 0, where m_n is the positive minimum individual structural history product defined in the proof. This establishes a finite law difference beyond a coordinate renaming, without selecting a physical law, supplying a physical discriminator or proving a uniform gap across prefixes.

@@ -1,3 +1,26 @@
+## QR bridge integration — 31 October 2026
+
+The three `qr-pair-kernel-bridge` packages passed distinct correction review
+and coordinator adoption as scoped conditional mathematics.
+The [current claim, premise and verification ledger](../validation/qr-bridge-integration-2026-10-31/ADOPTION.md) records the
+conditional tensor/decoherence/positivity chain, Walsh-section readouts,
+context-dependent birth constructions, and the repaired Tier I claims.
+Original protocols and historical statements remain preserved. No complete
+physical quantum reconstruction, native mass/gravity result or instrument
+availability follows. Companion checker execution has not been independently
+reproduced; its separate admission and verification obligations remain open.
+
+Routine programme work is temporarily held through the audited merge and
+coordinator reconciliation. Afterwards, resume only relevant work under the
+revised ledger and existing gates. The sustaining-regime/mass question remains
+open: GDM007's interrupted author package is unaccepted, and this branch does
+not complete it. Do not repeat already resolved conditional subproblems under
+the same premises or create automatic transfer tasks for other tracks.
+Schedules, protected validation, custody and the shared usage guard remain.
+Earlier entries below retain their historical scope.
+
+---
+
 # Operational premises, result boundaries and composition obligations
 
 13 September 2026. RI-13 coordinator consolidation of the accepted review
