@@ -1,0 +1,81 @@
+{
+  "package": "GDM016/GDM017 phase response laws",
+  "scientific_status": "Accepted exact formal scopes after completed distinct scientific review; no physical or execution qualification",
+  "files": [
+    {
+      "path": "ADOPTION.md",
+      "bytes": 2103,
+      "sha256": "83d92f2b36a635d09ce8e3ac19ebfa5d991e94ab8524e34d8eb3345489d08644"
+    },
+    {
+      "path": "CALCULATION.md",
+      "bytes": 8670,
+      "sha256": "8417daadfc372134eb2a7a23d9dab8cc2f282926d5bc3d8a730d2e5e9ed7c59c"
+    },
+    {
+      "path": "PREPARATION.md",
+      "bytes": 8822,
+      "sha256": "901ec6cecf17ef4c7a182f203ab997f5a3afa58b5ccf40e5d38c793a5b677d12"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 2335,
+      "sha256": "e24fb6a08e71a6d2aa77a1071df926ad0b948679f7c03316f321bdd73aa27583"
+    }
+  ],
+  "original_evidence": [
+    {
+      "path": "GDM016 original report",
+      "bytes": 8733,
+      "sha256": "44bf444f97fecd53ef562508977d0e16433d2b83f59ceaefe8e9737e3742892f"
+    },
+    {
+      "path": "GDM016 distinct review",
+      "bytes": 13556,
+      "sha256": "cee13d2e0acc6f14885f0c213d380b5a9413135820025ac6942837f5870e12ff"
+    },
+    {
+      "path": "GDM016 disposition",
+      "bytes": 4903,
+      "sha256": "578f8f81a3ce10e965ad76d32ca91115f1a88995ef5df647ca4ccbe63639354c"
+    },
+    {
+      "path": "GDM017 original report",
+      "bytes": 8520,
+      "sha256": "8040a79d6221827cdaede810aaf324470406d3160d28587ab8f3d54756401f07"
+    },
+    {
+      "path": "GDM017 distinct review",
+      "bytes": 16504,
+      "sha256": "f34e10379cf840bc23e5a9ca1e3585973672e7b55a13090974fe6c7b108788f4"
+    },
+    {
+      "path": "GDM017 disposition",
+      "bytes": 3591,
+      "sha256": "cb7dd098b662e7e36d4a8280a4deca1b55287647ba6fb9967a04ccaa97cd74ef"
+    }
+  ],
+  "public_dependencies": [
+    {
+      "path": "../gdm015-gradient-response-2026-10-31/CALCULATION.md",
+      "bytes": 7335,
+      "sha256": "f47544703306ce773bc68164a126e39c4dc7a461a9f0dfe19c78ae32cf7953c7"
+    },
+    {
+      "path": "../gdm015-gradient-response-2026-10-31/ADOPTION.md",
+      "bytes": 1412,
+      "sha256": "039233c7c1f01da6723da8116fb8b7e2111e4dc9b551b0307b0e3785373c1048"
+    },
+    {
+      "path": "../gdm014-force-response-2026-10-31/CALCULATION.md",
+      "bytes": 7828,
+      "sha256": "cef89a130ab12c42870f3cf5d2e7e63577beceeb77815c946092723e74604279"
+    },
+    {
+      "path": "../gdm013-physical-applicability-2026-10-31/APPLICABILITY.md",
+      "bytes": 9058,
+      "sha256": "f142448fe6957fc8e74b9a6831ed19bcb5d36a6fd5839e8d1a45a620576ffabc"
+    }
+  ],
+  "identity_note": "Hashes establish identity only; review scope and mathematical arguments establish the adopted claims. Original private controls are not included in this public edition."
+}
