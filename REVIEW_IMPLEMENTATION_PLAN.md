@@ -1,3 +1,13 @@
+## October 31 — gradient-response result and native finite-trial question
+
+GDM015-v2 is accepted after completed distinct source and mathematical review. In the two explicitly stipulated classical truncations, restoring the specified particle-gradient term changes the chosen gravity response and its force-normalized value through formal order c^-2. The calculation retains the common preparation, intervention and distinct coordinate readouts. It does not complete the electromagnetic-gradient model or establish a physical atom prediction, equivalence-principle violation or native DET correspondence. Version1 remains rejected for its premises-order deviation; prospective version2 preserves disclosed prior exposure. The self-contained calculation, review, adoption and source manifest are in `docs/validation/gdm015-gradient-response-2026-10-31/`.
+
+The fixed omission question is closed. After a finite accepted-source comparison and exact source check, the coordinator selected and dispatched NTR001: one conditional finite-trial observation decision for the already accepted native four-birth source laws, certified mixed-source intervals and shared complete three-outcome detector. It adds explicitly hypothetical iid repetition and retains every erasure in the raw-attempt denominator. Its purpose is a declared finite-cap error/power statement, not a new law or empirical campaign. The existing population theorem and generic fixed-budget information limit are retained; no new result is accepted before distinct review and coordinator disposition.
+
+The physical mass/gravity correspondence remains a specific owned dependency: an exact native source/composite, intervention and readout map with response-error treatment. The independent public-GWOSC lane retains its actual deployment-evidence dependency. RET remains resumed with actual runtime/caller/custody gates open; State/Energy supplier-dependent empirical routes remain halted under the public-source-only rule. Their accepted conditional theory is preserved. Scientific, execution, custody, independent-review and publication gates and all schedules remain unchanged.
+
+---
+
 ## October 31 — formal force-response calculation adopted
 
 The [GDM014 calculation](docs/validation/gdm014-force-response-2026-10-31/CALCULATION.md) is adopted after completed independent source and mathematical review. In the declared equal-mass conservative Coulomb model, equal unforced centers have different responses to the same stipulated force, through formal c^-2 order. The coordinate/control transformation and finite-time witness are explicit. Physical realization, full-model response error, a gravity numerator and native DET derivation remain separate premises.

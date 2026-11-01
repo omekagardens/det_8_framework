@@ -1,0 +1,62 @@
+{
+  "id": "GDM015_V2_PUBLIC_SOURCE_MANIFEST",
+  "claim": "Scoped formal truncation comparison; no physical/native adoption",
+  "public_files": [
+    {
+      "path": "CALCULATION.md",
+      "bytes": 7335,
+      "sha256": "f47544703306ce773bc68164a126e39c4dc7a461a9f0dfe19c78ae32cf7953c7"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1881,
+      "sha256": "aae41212d64ea51bad537985a7790a29555d71d54ccc9c25575438e65910384f"
+    },
+    {
+      "path": "ADOPTION.md",
+      "bytes": 1412,
+      "sha256": "039233c7c1f01da6723da8116fb8b7e2111e4dc9b551b0307b0e3785373c1048"
+    }
+  ],
+  "reviewed_source_records": [
+    {
+      "path": "GDM015-v2/REPORT.md",
+      "bytes": 6953,
+      "sha256": "0408d8203c9dd3a4493f7cb9292ad8f6eac018c414691023e345d560ebc499c9"
+    },
+    {
+      "path": "GDM015-v2/FREEZE.json",
+      "bytes": 6523,
+      "sha256": "c9e66bff400e107875700ab58384f1f77e66d7835daff3e17f31aff36603cb79"
+    },
+    {
+      "path": "review/GDM015-v2/REVIEW.json",
+      "bytes": 17991,
+      "sha256": "cfacffa698c2715229958d5f63695b5de8676ac8bfbea14f355cfba18be8a0d5"
+    },
+    {
+      "path": "review/GDM015-v2/FREEZE.json",
+      "bytes": 5757,
+      "sha256": "cc7a6d79339e2ee5abfa8f5c9d1115315c17b0f44f97276119f1c48f17a487b0"
+    },
+    {
+      "path": "GDM015_V2_DISPOSITION.json",
+      "bytes": 4659,
+      "sha256": "570bbbc0bdf211ecffd5bd90d500f477629980ab5334bb68cf4ea012ba1a686b"
+    },
+    {
+      "path": "GDM015_INCIDENT_DISPOSITION.json",
+      "bytes": 2769,
+      "sha256": "f3cd891204b79fd2293a168a8fed6b70d0135b5d1aea15f590d1521f85b8f23b"
+    }
+  ],
+  "dependencies": [
+    "../gdm014-force-response-2026-10-31/CALCULATION.md",
+    "../gdm013-physical-applicability-2026-10-31/APPLICABILITY.md"
+  ],
+  "primary_versions": [
+    "https://arxiv.org/html/1908.06929v2",
+    "https://arxiv.org/html/1806.00234v3"
+  ],
+  "limits": "Local source identities only; remote versions are URL/metadata coverage, not immutable byte custody. No checker execution."
+}
