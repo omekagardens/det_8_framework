@@ -1,0 +1,75 @@
+{
+  "id": "GDM010_PUBLIC_SOURCE_MANIFEST",
+  "scientificStatus": "ACCEPTED_SCOPED_CONDITIONAL_LAW_DEPENDENCE",
+  "publicationStatus": "APPROVED_PUBLIC_EDITION",
+  "scientificAdoptionUtc": "2026-11-01T04:10:28.026108Z",
+  "scientificReviewCompletionUtc": "2026-11-01T04:09:31Z",
+  "scope": "Identity and provenance for this self-contained public edition of the accepted law-dependence theorem. Hashes establish identity, not mathematical correctness or operational authority.",
+  "publicFiles": [
+    {
+      "path": "THEOREM.md",
+      "bytes": 7605,
+      "sha256": "e8afe5c544bccc121679330ff750dae9959b23d0bf86f2b282d9039703960ded"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 7422,
+      "sha256": "f3be8fb4f9882c004ff12d20fc6f678c4fa472062346f2fd90a3098e76921b6c"
+    },
+    {
+      "path": "ADOPTION.md",
+      "bytes": 2684,
+      "sha256": "80e9e29dd7a83a2c0fa02ca3c01107a186ffcb5c1c8a2eaf32682ab8d7ae0f33"
+    }
+  ],
+  "privateEvidence": [
+    {
+      "label": "GDM010/REPORT.md",
+      "bytes": 7488,
+      "sha256": "8a808e06dce2f9f76b4f0f4679917d46e2e8e3f3e29a6b8c43ada4084439220b"
+    },
+    {
+      "label": "GDM010/FREEZE.json",
+      "bytes": 7023,
+      "sha256": "10a319ff6e06ff1d27d6b09538448379f50efd02b54609049258f6ed71245913"
+    },
+    {
+      "label": "review/GDM010/REVIEW.json",
+      "bytes": 11722,
+      "sha256": "4164307e597efb47f2a2cf54053d3da6c533db10d4460ce2d3d61cced476ffe7"
+    },
+    {
+      "label": "GDM010_DISPOSITION.json",
+      "bytes": 2778,
+      "sha256": "5035f368b3160d42b4c3c681a08bdda14b4e28719da2e05dd62b5f7f2e8f38f3"
+    },
+    {
+      "label": "GDM009_DISPOSITION.json",
+      "bytes": 2763,
+      "sha256": "5029944b734ac89666b84f7ee0fa0496197e64973dc661926d4bbcb58b0abbbd"
+    }
+  ],
+  "custodyOnlyNotPublicFiles": [
+    "PREMISES.md",
+    "FREEZE.json"
+  ],
+  "editorialChanges": "Retain substantive proof; remove obsolete author pending-review and intake narrative; state canonical convention and finite support explicitly; attribute the actual completed review; distinguish scientific acceptance from pending publication. Root subsequently reconciled candidate publication-status text after actual distinct equivalence review; scientific proof unchanged.",
+  "publicationReview": {
+    "status": "COMPLETED_ROOT_EQUIVALENCE",
+    "owner": "Root coordinator, distinct from QR author/editor",
+    "record": {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/review/GDM010-publication/REVIEW.json",
+      "bytes": 1816,
+      "sha256": "bda5ecf60d968151d05f95c4da64688d12142c839c7df3671bb73ecf5cd250c9"
+    },
+    "remoteGitConfirmation": "Separate checkpoint receipt; no remote result asserted by preparation."
+  },
+  "scientificExecution": false,
+  "physicalValidation": false,
+  "historicalSourcesRewritten": false,
+  "editorialPredecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/GDM010-public-candidate/FREEZE.json",
+    "bytes": 6258,
+    "sha256": "c004efaf16fbfe2e552388b4b1f3fb78a8f4fc6b1c55bc9aea97dc6d0c937b01"
+  }
+}

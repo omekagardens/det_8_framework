@@ -1,0 +1,67 @@
+{
+  "id": "BOUNDED_RESTART_PUBLIC_RESULT_SOURCE_MANIFEST",
+  "scope": "Administrative disposition reconciliation only; private draft/incident bodies not included. GDM009 scientific dependencies are in its separate package manifest.",
+  "inputs": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/GDM009_DISPOSITION.json",
+      "bytes": 2763,
+      "sha256": "5029944b734ac89666b84f7ee0fa0496197e64973dc661926d4bbcb58b0abbbd"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/M36_DISPOSITION.json",
+      "bytes": 2578,
+      "sha256": "13a8f181701c90dae47c5ff1749773af467393a25109df7ea8611198179638ef"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/E026_DISPOSITION.json",
+      "bytes": 910,
+      "sha256": "dd795ef2ea8f9e39c9add0efc5b25de0d28702fe0cb4df67a561667afeb3c222"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/NE033_DISPOSITION.json",
+      "bytes": 954,
+      "sha256": "5a0588a02f694b97c65970e11e3ed93349e31cd0af805628ac4a9a48550db8c2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/RET023_DISPOSITION.json",
+      "bytes": 1669,
+      "sha256": "33a3a3773e53ff2664f2d0c457b5f31acc49895f85916f1d11ed6a3c990b1446"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/RET024_DISPOSITION.json",
+      "bytes": 1129,
+      "sha256": "836d99aa3c6358d253aa3325f5b44170829ec3252e9628be389ee01957159095"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/RET024_ACCEPTED_SOURCE_DELTA.json",
+      "bytes": 881,
+      "sha256": "3f7d112df38973672fe892f21f2eb1bf024d6bafb4396d1ae2961eb0336ca6b7"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/GDM010_CONTROL.json",
+      "bytes": 3498,
+      "sha256": "89970a87f89a1d906736555cc27215b11fec31b1b57ac1c846ba9f5f8b16cf5b"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/START_RECORD.json",
+      "bytes": 2072,
+      "sha256": "31012c5773b6427a286ba8f577a613321381607c5c5a2339681c6d1b2769e6a2"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/RET024/REPORT.md",
+      "bytes": 10722,
+      "sha256": "714119d43f943b8a43f180e3309e7dc5bdef09dfe97145579fe28a0e24322903"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/review/RET024/REVIEW.json",
+      "bytes": 2798,
+      "sha256": "62506e0cc8150eb0f8b3c483451283b1abaed614c05aa93af841757246c154b5"
+    }
+  ],
+  "publicNote": {
+    "path": "docs/coordination/BOUNDED_RESTART_RESULTS_2026-10-31.md",
+    "bytes": 4267,
+    "sha256": "fddc8eff9208349b00da69610f57a9e178f4b7938b6be8423145dcbf1b14f1c3"
+  },
+  "identityLimit": "Pins establish identity, not correctness, historical custody or scientific acceptance."
+}

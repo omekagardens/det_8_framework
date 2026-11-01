@@ -1,0 +1,84 @@
+{
+  "id": "GDM009_PUBLIC_SOURCE_MANIFEST",
+  "scientificStatus": "ACCEPT_CONDITIONAL_CONTINUOUS_FORCE_RESPONSE",
+  "sourcesActuallyRead": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/GDM009/REPORT.md",
+      "bytes": 8036,
+      "sha256": "bf226fc8db2dd2e28caee8f1c7f96d419c42adfbb4f30f7b7b78691ae9aec579"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/review/GDM009/REVIEW.json",
+      "bytes": 6561,
+      "sha256": "7594a912ceb8bc2cd2a1065fc69b8a383733d0233bdf38ab5a3072cc0ade6d6e"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/GDM009_DISPOSITION.json",
+      "bytes": 2763,
+      "sha256": "5029944b734ac89666b84f7ee0fa0496197e64973dc661926d4bbcb58b0abbbd"
+    },
+    {
+      "path": "/Users/allan/.codex/worktrees/ret-main-integration/det_8_framework-ret/docs/validation/gdm007-support-response-2026-10-31/ADOPTION.md",
+      "bytes": 3254,
+      "sha256": "cbfb1c8bd3c5a08a85de69b72c12163dc5a3596e64d6dbfa8ff9847e65bc13a2"
+    },
+    {
+      "path": "/Users/allan/.codex/worktrees/ret-main-integration/det_8_framework-ret/docs/validation/gdm008-boost-allocation-2026-10-31/ADOPTION.md",
+      "bytes": 1929,
+      "sha256": "90adfc1055b44c490b105a4661cdc25621c9e0b503337fcf14e37bde92452526"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/bounded-restart-20261101/GDM009/FREEZE.json",
+      "bytes": 8219,
+      "sha256": "243f66d93053029b84953bd4b4cce03e5ba684af05d50bf56490da0d93f8a9e0"
+    }
+  ],
+  "controlsActuallyRead": [
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/GDM009_PUBLICATION_CONTROL.json",
+      "bytes": 3084,
+      "sha256": "e54fe7639e6fed6454721a570a5328532d47e08791ded1d566f3ae38bdaa665f"
+    },
+    {
+      "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/COMMON.json",
+      "bytes": 2253,
+      "sha256": "51fd5c8e7beb6c48ee3fcd1643c56cffb43544d6a7216fd42a7079cab9ca7c82"
+    }
+  ],
+  "sourceVerification": "All eight exact source/control byte counts and SHA256 identities matched on intake. Full literal bodies were read. Nested descriptors in the author freeze were not followed or independently reverified. Exact paths here are internal source descriptors, not reader-facing narrative.",
+  "identityClosure": "The public package is THEOREM.md, REVIEW.md, ADOPTION.md and this SOURCE_MANIFEST.json. publicFiles contains the three Markdown bodies; this manifest is excluded from its own hash list. Private preparation and freeze descriptors identify historical evidence, not files in the public inventory.",
+  "transformation": "THEOREM.md preserves all five substantive report sections, including complete finite-h proof and local cross-check. The obsolete author-status lead, premise-readback narrative and final internal stop/authorization prose are replaced by current scoped acceptance and public claim limits. Definitions of chi, h, K_i and derivative notation are made explicit. REVIEW.md attributes actual recorded distinct manual review and coordinator checks. ADOPTION.md preserves scientific limits and the GDM007 original interrupted-finalization qualification. No new proof or publication review is claimed.",
+  "publicationReview": "The initial distinct review confirmed scientific equivalence and required assembly corrections. Final exact-delta verification and root publication/Git receipts are separate. No execution is authorized.",
+  "publicFiles": [
+    {
+      "path": "THEOREM.md",
+      "bytes": 8026,
+      "sha256": "b1027c1495f54a65069e53c4f6cea0698b4631f32a1e0011163f4fdffa7b7082"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 6376,
+      "sha256": "88954dc6490cd1f50ad708ae4312c5ac8e56d6b17185727bbe6c4fe31e140c66"
+    },
+    {
+      "path": "ADOPTION.md",
+      "bytes": 3896,
+      "sha256": "3b82e99b85e1401a22e1884d2eb0637f4753798ee0b038b36f2cd51df96280c2"
+    }
+  ],
+  "privatePreparation": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/GDM009-public-candidate/PREMISES.md",
+    "bytes": 3070,
+    "sha256": "b78df6ca2c71c1e16e56e67088a7a19d004c663641def609e385ac63f0a64092"
+  },
+  "editorialPredecessor": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/GDM009-public-candidate/FREEZE.json",
+    "bytes": 5925,
+    "sha256": "9f6659dfa19255f00acb1dc1b1c861072dee41742f0b7623f714affccf5dfd2d"
+  },
+  "publicationEquivalenceReview": {
+    "path": "/Volumes/AI_DATA/development/det-review-evidence/followthrough-0352-20261101/review/GDM009-publication/REVIEW.json",
+    "bytes": 19244,
+    "sha256": "f5a698ab3d3ad67b78a42dde74634be4feca280daeb083564b8190f87f1c9597"
+  }
+}
