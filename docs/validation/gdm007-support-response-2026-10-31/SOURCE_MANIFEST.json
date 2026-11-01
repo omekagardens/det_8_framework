@@ -1,0 +1,66 @@
+{
+  "id": "GDM007_PUBLIC_SOURCE_MANIFEST",
+  "scope": "Identity and provenance of the self-contained conditional proof; acceptance is stated in ADOPTION.md. Hashes do not establish semantic completeness.",
+  "publicFiles": [
+    {
+      "path": "THEOREM.md",
+      "bytes": 6934,
+      "sha256": "753df756b012e0f23bd86531272e8001b2587d972624724cd417ad76326e950e"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 5194,
+      "sha256": "f40bf82161c0a5ae66d021ec81ecce1f39fd0992285e31b54f5d4945f9537766"
+    },
+    {
+      "path": "ADOPTION.md",
+      "bytes": 3254,
+      "sha256": "cbfb1c8bd3c5a08a85de69b72c12163dc5a3596e64d6dbfa8ff9847e65bc13a2"
+    }
+  ],
+  "privateProvenance": [
+    {
+      "label": "author/REPORT.md",
+      "bytes": 8038,
+      "sha256": "c3426cf540a0478f4166f661e0642b001e8a3cea2864a2d775fc6687c9e2cefc"
+    },
+    {
+      "label": "ASSIGNMENT.md",
+      "bytes": 9882,
+      "sha256": "d19c5352a1c26159b789f17b707ea3d0bf8c26f62591f96ebb8be33873076744"
+    },
+    {
+      "label": "review/RESULT.json",
+      "bytes": 10905,
+      "sha256": "205b94df506a3ba268731d9f17f430e3d3e29723ed29928564367390122d6b50"
+    },
+    {
+      "label": "RESULT_DISPOSITION.json",
+      "bytes": 3321,
+      "sha256": "c808d2603c25555e7235c3abdf76ea8849ea8398f03b18d63c294ecdbe1a6d71"
+    },
+    {
+      "label": "recovery-20261031/REPORT.json",
+      "bytes": 8957,
+      "sha256": "9661a40d5b87b9a9c60e72135f387829526531a007de18b1df38bfb288ae432a"
+    },
+    {
+      "label": "RECOVERY_DISPOSITION.json",
+      "bytes": 2034,
+      "sha256": "1fba0ad6a391ed700370e8782062f60add0c14164ae016a65f9008be60f096f4"
+    },
+    {
+      "label": "review/PUBLICATION.json",
+      "bytes": 5142,
+      "sha256": "cb3f1d692aa6215bd829b482ed223bf544a31168d93abef9cb042be35be21ba9"
+    }
+  ],
+  "publicationCheck": {
+    "recommendation": "PASS_PUBLICATION_EQUIVALENCE_AT_PINNED_SCOPE",
+    "completedUtc": "2026-11-01 01:41:38 UTC",
+    "independentOfAuthorAndEditor": true,
+    "materialDefects": []
+  },
+  "scientificExecution": false,
+  "historicalFinalizationRepaired": false
+}

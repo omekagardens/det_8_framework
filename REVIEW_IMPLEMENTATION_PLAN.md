@@ -1,3 +1,13 @@
+## October 31 — GDM007 conditional support/response result accepted
+
+Distinct manual scientific review and a separate publication-equivalence check passed for [GDM007](docs/validation/gdm007-support-response-2026-10-31/ADOPTION.md). The self-contained theorem fixes the supplied two-body Hamiltonian, all four preparations, exact work, finite windows and sole response observable. With the restoring link, both signs remain within the declared separation bound; without it, both pass the readout window but fail the longer organization window. The linked finite response coefficient is strictly lower despite equal prepared total energies across the two supplied Hamiltonians.
+
+This is a prepared-pair response theorem, not physical inertial/rest mass or a comparison of two continuing composites over the longer interval. Native derivation, interaction-energy/boost correspondence, calibration and empirical validation remain missing. No calculator, experiment or scientific runtime was used. The original interrupted author finalization remains historical; later custody recovery and prospective independent review did not reconstruct its missing checks. The quantum bridge's 23 checker obligations and the separate measurement/RET execution gates remain open.
+
+The accepted result now supplies a precise next correspondence question: whether a declared allocation of interaction energy to particle positions can satisfy an explicit canonical boost algebra. That requires its own bounded design, source pins, independent review and disposition. It is not supplied by the support/response theorem. Earlier accepted results, source versions and dispositions remain at their original scope.
+
+---
+
 ## QR bridge integration — 31 October 2026
 
 The three `qr-pair-kernel-bridge` packages passed distinct correction review
