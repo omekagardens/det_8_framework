@@ -1,3 +1,13 @@
+## October 31 — GDM008 candidate decision and one measurement route closed
+
+Independent review accepted the [GDM008 allocation-family obstruction](../validation/gdm008-boost-allocation-2026-10-31/ADOPTION.md). Retain GDM007 at its conditional mechanical-response scope and reject the tested position-only interaction-energy mapping. This does not reject all interacting relativistic models or establish physical mass/gravity. Further correspondence repair is parked; no GDM009 or automatic theory successor is assigned. A later proposal must change a named candidate/observable decision and justify its finite endpoint alongside measurement.
+
+The concrete measurement action assessed the supported Node REPL execution-timeout caller for the unchanged M-F015 contract serving the fixed seventeen-window nominal H1 diagnostic. Author and distinct reviewer found no documented binding from timeout/reset to native completion/nonentry, continuing ownership and bounded cleanup after cancellation. The coordinator therefore [rejected this selected binding and parked that execution route](../validation/measurement-node-caller-2026-10-31/DECISION.md). This is an exact route decision, not platform impossibility or a missing-data finding; the calculation was not run or unblocked. Reopening requires an actual versioned provider binding supplying the missing native lifecycle evidence, not another generic audit or a successful ordinary call.
+
+The independent measurement option identified is a prospective rank-claim feasibility design for a specifically named future exceptionality readout. It is not automatically assigned because the current accepted objective is descriptive and excludes significance. It neither unblocks nor adds a gate to nominal arithmetic. No replay, acquisition exception, general supervisor framework, scientific runtime or RET operation was used. Integrated QR bridge results, their separate unexecuted companion checks, all custody/calibration/resource/execution gates and RET5858 remain unchanged.
+
+---
+
 ## October 31 — GDM007 conditional support/response result accepted
 
 Distinct manual scientific review and a separate publication-equivalence check passed for [GDM007](../validation/gdm007-support-response-2026-10-31/ADOPTION.md). The self-contained theorem fixes the supplied two-body Hamiltonian, all four preparations, exact work, finite windows and sole response observable. With the restoring link, both signs remain within the declared separation bound; without it, both pass the readout window but fail the longer organization window. The linked finite response coefficient is strictly lower despite equal prepared total energies across the two supplied Hamiltonians.

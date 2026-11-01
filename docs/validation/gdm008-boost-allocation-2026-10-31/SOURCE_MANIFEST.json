@@ -1,0 +1,59 @@
+{
+  "id": "GDM008_PUBLIC_SOURCE_MANIFEST",
+  "scope": "Exact identities; mathematical acceptance and candidate decision are in ADOPTION.md. Hashes do not prove semantic correctness.",
+  "publicFiles": [
+    {
+      "path": "THEOREM.md",
+      "bytes": 5543,
+      "sha256": "ebf05aa1e0d0c384155dad05aa5767198ad05b136800d0008d32126f05c4cbd2"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 3208,
+      "sha256": "5408b41ce0aa46e689abf1a7e7a0ff9d6db99c1bc4bb85195975923ab0f33593"
+    },
+    {
+      "path": "ADOPTION.md",
+      "bytes": 1929,
+      "sha256": "90adfc1055b44c490b105a4661cdc25621c9e0b503337fcf14e37bde92452526"
+    }
+  ],
+  "privateProvenance": [
+    {
+      "label": "ASSIGNMENT.md",
+      "bytes": 5461,
+      "sha256": "b283e1d2be2e7332bebc1e3b20cc241f6a7978854753cf0a82f67cf25aaff89d"
+    },
+    {
+      "label": "author/REPORT.md",
+      "bytes": 4884,
+      "sha256": "f46cd57ba9e8e601ec34f09cc679c8c5d003d4569456d9d86564f3fc489b97f3"
+    },
+    {
+      "label": "author/FREEZE.json",
+      "bytes": 5493,
+      "sha256": "ffb6c584859e0f46aaba6fa67b5490fce89e25bb4ccde9e486a6dce7e7d649e7"
+    },
+    {
+      "label": "review/RESULT.json",
+      "bytes": 7805,
+      "sha256": "6662ec3a42600adde0480726753f18ea74de32eba664db689ce375451af4353e"
+    },
+    {
+      "label": "RESULT_DISPOSITION.json",
+      "bytes": 2888,
+      "sha256": "9de8a5011f9d64edc04ec78e40114dd27ffc450a4320b004f77dcffe6e8fbb15"
+    },
+    {
+      "label": "review/PUBLICATION.json",
+      "bytes": 4494,
+      "sha256": "82abd33b0a74a71057ed5d0bb1d43861207befd86a08e97b0e3a37a8bfa576c1"
+    }
+  ],
+  "publicationReview": {
+    "status": "PASS_PUBLICATION_EQUIVALENCE_AT_PINNED_SCOPE",
+    "completionUtc": "2026-11-01 02:48:22 UTC",
+    "materialDefects": []
+  },
+  "scientificExecution": false
+}

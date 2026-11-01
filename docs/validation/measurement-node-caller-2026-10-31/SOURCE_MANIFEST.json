@@ -1,0 +1,41 @@
+{
+  "id": "M35_PUBLIC_SOURCE_MANIFEST",
+  "scope": "Identities and review receipts for the selected caller decision; no execution admission.",
+  "publicFiles": [
+    {
+      "path": "DECISION.md",
+      "bytes": 4491,
+      "sha256": "4d442879bc239d1e2fc0a42f576565665860bfcc7d80ce1bc8257f94ceb01aac"
+    }
+  ],
+  "privateProvenance": [
+    {
+      "label": "measurement/REPORT.json",
+      "bytes": 9458,
+      "sha256": "ce4d367e3e19e5d6346f80319f20b7952e8157af7942dbd55516cab1d8292705"
+    },
+    {
+      "label": "review/ROUTE.json",
+      "bytes": 6538,
+      "sha256": "cee745373abc2b54f0d03c88dc9370d4cdf3a8e7acd5eb95007e0564990bd6d5"
+    },
+    {
+      "label": "MEASUREMENT_DISPOSITION.json",
+      "bytes": 3483,
+      "sha256": "9e0215c7d03a4fbdc570c5e66edef2bf2134084853f3fa8a7a8ee89bf113668e"
+    },
+    {
+      "label": "review/PUBLICATION.json",
+      "bytes": 3515,
+      "sha256": "5e53ef007d513c1846fc7bd03a4bf130fba789ef35a45381825f64232929a4cc"
+    }
+  ],
+  "publicationReview": {
+    "status": "PASS_PUBLICATION_EQUIVALENCE_AT_PINNED_SCOPE",
+    "completionUtc": "2026-11-01 02:53:13 UTC",
+    "materialDefects": []
+  },
+  "scientificExecution": false,
+  "kernelCalls": 0,
+  "calculationUnblocked": false
+}
