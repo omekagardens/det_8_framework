@@ -1,0 +1,50 @@
+{
+  "package": "GDM022 fixed conditional enclosures",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 4993,
+      "sha256": "d8c62fde3aa05eaaf9cdaf4d95908a9866c536b30be10e497dbc0dd9dced6ec5"
+    },
+    {
+      "name": "witness.json",
+      "bytes": 1106044,
+      "sha256": "683f76a23c9e8f32c89a8c76d503718b698ab5c8f0cec46d9a645ccaaeb48658"
+    },
+    {
+      "name": "independent_checker_source.py",
+      "bytes": 19657,
+      "sha256": "75fe6ccb44b123398e54f576b41dee34078993bf14073e3c974db86623c0b5d3"
+    },
+    {
+      "name": "independent_result.json",
+      "bytes": 1336,
+      "sha256": "6367ca33611d649891e7f68e82618c03fd0874607c42f7901b636d5626c08a57"
+    }
+  ],
+  "exact_copy_sources": [
+    {
+      "public_name": "witness.json",
+      "source_sha256": "683f76a23c9e8f32c89a8c76d503718b698ab5c8f0cec46d9a645ccaaeb48658",
+      "bytes": 1106044
+    },
+    {
+      "public_name": "independent_checker_source.py",
+      "source_sha256": "75fe6ccb44b123398e54f576b41dee34078993bf14073e3c974db86623c0b5d3",
+      "bytes": 19657
+    },
+    {
+      "public_name": "independent_result.json",
+      "source_sha256": "6367ca33611d649891e7f68e82618c03fd0874607c42f7901b636d5626c08a57",
+      "bytes": 1336
+    }
+  ],
+  "accepted_dependencies": {
+    "MODEL.md": "4d09277105a3a5fa43cb21884a91a632392021d8ba230a35483fe0ff7fc25066",
+    "CALCULATION.md": "f27eee8d41b0ebced1a3683924e542377a3956e2b6d965d6e3bbdba45b1222ad",
+    "ARITHMETIC.md": "0721ef3682bab838ed11c8c119fc4825261fab18c07b57111f26a08688d2c87c"
+  },
+  "numerical_review_sha256": "064a6376884a3afd797e3b5d62bcc1b5da85250c762c1b3911dd519702a2dd14",
+  "root_numerical_disposition_sha256": "46bfe488c5db77037e13438646e0c3b375ba62d8829f4c3e0236c45747f0db70",
+  "identity_limit": "Hashes identify exact content; scientific acceptance is the scoped model, actual checks, completed review and root disposition described in README."
+}

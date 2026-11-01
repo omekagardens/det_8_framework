@@ -1,3 +1,5 @@
+Current numerical disposition (November 1, 2026): the [fixed GDM022 enclosures](../gdm022-certified-contrast-2026-11-01/README.md) are now adopted after independent reconstruction and review. Both amplitudes exclude 1, so exact same-orientation contrast agreement is excluded for the fixed formal candidate. The method-stage snapshot below retains its original unevaluated status as history; its three technical bodies remain unchanged.
+
 # Conditional quantum contrast and certified evaluation method
 
 This package contains one formal comparison under supplied conventional quantum assumptions. It does not establish a DET prediction, a physical atom model, a detector response or a gravity measurement.
