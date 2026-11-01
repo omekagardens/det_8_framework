@@ -1,0 +1,71 @@
+{
+  "scope": "Exact identities of retained author/review/disposition evidence; no hash establishes acceptance by itself.",
+  "sources": {
+    "GDM019_MAP": {
+      "bytes": 13127,
+      "sha256": "46a56f4103322550d4fe1cbd96fb27a4f9cd9e137b2f29aad5e5f6e889e460d4"
+    },
+    "GDM019_REVIEW": {
+      "bytes": 13383,
+      "sha256": "ae89c1f4cc64090e02bb48922f7076d7a46b1eaaa1c13a361fda05ee52115159"
+    },
+    "GDM019_ADOPTION": {
+      "bytes": 2398,
+      "sha256": "3f213ff0849d478f7de3691f6a44b95fde48c7f051620bfa42dc50078ba4d597"
+    },
+    "RET031_DESIGN": {
+      "bytes": 15770,
+      "sha256": "8eafdcaf6c23bc54ccfeb8ac02f829784253c275c751f6cef6eb16b6ce4ca599"
+    },
+    "RET031_REVIEW": {
+      "bytes": 11038,
+      "sha256": "733cc188e183c710a33e8f4353ecd53383918cf03b39f588a95ee32084e14f0b"
+    },
+    "RET031_ADOPTION": {
+      "bytes": 4276,
+      "sha256": "8c83e845bce266a9b13d7cd3dd15dcab4a3b32ec4810fb9e00da3fcbf6e11761"
+    },
+    "CL001_PROTOCOL": {
+      "bytes": 4948,
+      "sha256": "93ca6abac006e946d045932fde3e08bb46e01aa16b3ab017a83849e687a092e2"
+    },
+    "CL001_RESULT": {
+      "bytes": 8469,
+      "sha256": "58286e8a5b156fc89659c65fd8a29a590c2082e0fe3e4eb9de465b21724a3445"
+    },
+    "CL001_AUTHOR_MANIFEST": {
+      "bytes": 910,
+      "sha256": "75db09a5c50fe93de6833003583ed5ff638337d84fbaa143e697c6b1d9bd0071"
+    },
+    "CL001_REVIEW": {
+      "bytes": 7592,
+      "sha256": "27064e4882c1bc92e483166da742f7b12fe5acbac04f29abd20b60c8a1bbe0a4"
+    },
+    "CL001_REVIEW_MANIFEST": {
+      "bytes": 532,
+      "sha256": "721362d5aef042a26d3a14272ec50b8ae2c85e31640c214a983d62b2f5010413"
+    },
+    "CL001_OWNER_ADOPTION": {
+      "bytes": 3378,
+      "sha256": "532afbd6e3e59b8873123723cd08abfc3b67828db70a2a60121a34bc2bd0ce73"
+    },
+    "CL001_TRANSFER_REVIEW": {
+      "bytes": 10177,
+      "sha256": "46ade83d919d981da0fdcaf2e4833574fd937d651e4599be18b18b8ad413c985"
+    },
+    "CL001_ROOT_ADOPTION": {
+      "bytes": 2597,
+      "sha256": "dae1be72e298e60eb61a70f9a47a9ad1e0e017de08a73bc58d1b86a0127d84c9"
+    }
+  },
+  "public_payloads": {
+    "ASSESSMENT.md": {
+      "bytes": 6931,
+      "sha256": "36b12ee368e8c59f19fbbc38124163d58448993be62db734121e8de707371fc8"
+    },
+    "REVIEW_AND_ADOPTION.md": {
+      "bytes": 1696,
+      "sha256": "d490e57f6a986ec12263535fca5ecb684f0cbfb4a3f391f1bdf00276108d038f"
+    }
+  }
+}

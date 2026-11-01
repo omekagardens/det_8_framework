@@ -1,3 +1,13 @@
+## November 1 — conditional preparation and transport decisions
+
+GDM019 is accepted only for its literal preparation mismatch and conditional shared-setting block construction. Response correspondence and physical records remain open. GDM020 has acknowledged and started one necessary response comparison under explicitly declared conventional quantum assumptions, with separate review after freeze; no physical event probability is accepted.
+
+RET031's completed distinct review supports a precise current-interface refusal. Root declines that measurement mechanism without excluding new accounting costs or claiming host incapability. Reopening needs actual versioned executor/source integration, completed-lifetime evidence and an explicit accounting-boundary decision. Accounting, failure retention and sampling defects remain open; no repeated route audit or qualification is selected.
+
+CL001 is adopted as a conditional four-site terminal-law reference after Classical's independent review and a distinct recipient check. It also exposes a pinned T5 row/column convention defect. Classical independently owns CL002's correction recommendation; root owns subsequent shared implementation/adoption. This does not displace mass/gravity/measurement or authorize a new calculator. Exact results, limits and review provenance are in `docs/validation/conditional-preparation-transport-2026-11-01/`.
+
+Public-only empirical inputs, fresh capacity above the 3% stop, scientific/execution/custody gates and existing schedules/models/notifications remain. Earlier entries are historical snapshots.
+
 ## November 1 — reviewed readout decision and launcher repair work
 
 GDM018 is accepted as a specific proposal rejection: the selected positronium interferometer does not directly implement GDM017's fixed preparation, controls and individual normalized-response distribution. The formal coefficient result remains intact; neither positronium experiments generally nor future mappings are ruled out. GDM019 has acknowledged and started one explicit preparation-to-record mapping using the reviewed sources, with distinct review after its freeze. Completed external validation is not an entry requirement for this design question.
