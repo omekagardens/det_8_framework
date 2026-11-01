@@ -1,3 +1,13 @@
+## November 1 — reviewed readout decision and launcher repair work
+
+GDM018 is accepted as a specific proposal rejection: the selected positronium interferometer does not directly implement GDM017's fixed preparation, controls and individual normalized-response distribution. The formal coefficient result remains intact; neither positronium experiments generally nor future mappings are ruled out. GDM019 has acknowledged and started one explicit preparation-to-record mapping using the reviewed sources, with distinct review after its freeze. Completed external validation is not an entry requirement for this design question.
+
+RET030's distinct source review identified missing completed-launcher accounting, routine-error byte-retention defects and a cadence test that can miss a 75 ms gap. The candidate is not admitted for qualification. RET031 has acknowledged and started one completed-launcher accounting interface/source design, with applicable repairs and a precise integration decision. RET owns implementation, Comp-Sci reviews the frozen result and root owns operator/admission decisions. Existing M38 limits and separate scientific A/B, control and custody requirements remain.
+
+The original GDM018 review missed finalization within its budget; that history remains incomplete. A separate prospective completion confirmed its scoped recommendation and actually finished the required checks before adoption. Both authors' disclosed recovery-scope deviations also remain recorded. No review or publication retrospectively certifies flawless procedure.
+
+The accepted assessment is in `docs/validation/gdm018-readout-feasibility-2026-11-01/`. No new scientific run, qualification or physical claim is admitted. State, Energy and other supporting lanes retain their owned decisions and public-source constraints. Capacity depends on fresh readings above the 3% stop; reset estimates alone do not block work. Schedules, models, notification preferences and Monday maintenance are unchanged. Earlier entries below are historical snapshots.
+
 ## November 1 — candidate construction assigned for measurement and gravity
 
 The coordinator corrected an overly restrictive next-work decision: missing adoption or execution evidence does not require a completed external solution before a bounded candidate can be constructed. Earlier accepted results and execution holds remain intact; they do not establish platform incapability or exhaustion of physical-readout options.
