@@ -206,19 +206,23 @@ def held_out_transport(
     heldout_residual: list[float],
     tol: float = 0.10,
 ) -> dict:
-    """Infer the scalar history from training probes, predict a held-out probe.
+    """Check fitted subspace compatibility with a training-derived direction.
 
-    The training probes each give a residual vector over histories; their shared
-    rank-1 direction is the inferred κ mode. If that mode predicts the held-out
-    probe's residual to within `tol` (relative), the history coordinate
-    TRANSPORTS — the decisive test for a common history coordinate.
+    C is excluded from direction estimation. All supplied C residuals then fit
+    its scalar loading and are reused for scoring the fitted projection; they
+    are not withheld target responses for a separately calibrated forecast.
+    Residual construction/centering is supplied by the caller.
+
+    The legacy transports flag is the relative fitted-error comparison to tol.
+    Neither pass nor fail establishes calibrated forecasting, universal scalar
+    existence/nonexistence, or physical history.
     """
     P = len(train_residuals)
     H = len(train_residuals[0]) if P else 0
     if P == 0 or H == 0:
         raise ValueError("empty training residuals")
 
-    # Best rank-1 mode via the leading right singular vector (power iteration).
+    # Estimate a rank-1 direction from training rows only (power iteration).
     # Work with the P×H matrix R; find the dominant left singular vector u,
     # then the shared history direction v ∝ Rᵀ u.
     u = [1.0 / math.sqrt(P)] * P
@@ -234,14 +238,14 @@ def held_out_transport(
             break
         u = u_new
 
-    # Project the held-out residual onto the shared history direction v.
-    # The scalar history h_v ∈ {±} is inferred per-column; predict held-out as
-    # a scalar multiple of v.
+    # Fit the target C loading using every supplied C residual.
+    # The legacy predicted variable is this fitted projection, not a forecast
+    # frozen before seeing the C responses used below for scoring.
     proj_num = sum(heldout_residual[j] * v[j] for j in range(H))
     proj_den = sum(v[j] * v[j] for j in range(H))
     scalar = proj_num / proj_den if proj_den > 1e-15 else 0.0
     predicted = [scalar * v[j] for j in range(H)]
-    # Relative prediction error (fraction of held-out residual norm).
+    # Relative fitted residual error, scored on the same supplied C vector.
     true_norm = math.sqrt(sum(heldout_residual[j] ** 2 for j in range(H))) or 1e-15
     err_norm = math.sqrt(
         sum((heldout_residual[j] - predicted[j]) ** 2 for j in range(H))
@@ -255,9 +259,12 @@ def held_out_transport(
         "transports": transports,
         "inferred_scalar": scalar,
         "interpretation": (
-            f"Held-out probe predicted with relative error {rel_err:.2f} "
-            f"(tol {tol}). The κ coordinate {'TRANSPORTS' if transports else 'does NOT transport'} "
-            f"— {'a common history coordinate is supported.' if transports else 'each probe has its own history; no universal κ.'}"
+            f"Fitted subspace compatibility: relative residual {rel_err:.2f} "
+            f"(tol {tol}); legacy transports={transports}. "
+            "C is excluded from direction estimation, but all supplied C residuals "
+            "fit the loading and are reused for this score. Neither pass nor fail "
+            "establishes calibrated forecasting, universal scalar existence/nonexistence, "
+            "or physical history."
         ),
     }
 
