@@ -352,11 +352,17 @@ def run_t1(
     transportable: bool = True,
     seed: int = 42,
 ) -> dict:
-    """Run the full T1 pipeline on a synthetic matched-state dataset.
+    """Run synthetic T1 diagnostic fixtures, not a scalar-sufficiency proof.
 
-    Steps: (1) generate the dataset; (2) history-distinction test (H0: K_a=K_b);
-    (3) latent-rank test; (4) held-out transport test (infer κ from the first
-    two probes, predict the third).
+    Generate known kernels, compare the legacy two-sample reference flag using
+    nominal counts, and report a residual-rank label and fitted compatibility.
+    The first two probes estimate the direction; all supplied third-probe C
+    residuals fit its loading and are reused for scoring. No separate C target
+    calibration/evaluation split is supplied.
+
+    The reported conjunction combines fixture flags only. Neither pass nor fail
+    establishes calibrated forecasting, universal scalar existence/nonexistence
+    or physical history.
     """
     d = generate_history_dataset(
         n_histories=4, n_outcomes=3, n_probes=3, n_samples=2000,
@@ -376,8 +382,12 @@ def run_t1(
         "latent_rank": rank,
         "held_out_transport": transport,
         "interpretation": (
-            f"κ(fisher–rao) = {d['kappa']:.3f}. History distinct: {dist['distinct']}. "
-            f"Latent rank: {rank['verdict']}. Transport: {transport['transports']}. "
-            f"Scalar κ supported: {dist['distinct'] and rank['verdict'] == 'rank_1' and transport['transports']}."
+            f"Synthetic kernel distance κ(fisher–rao) = {d['kappa']:.3f}. Reference-cutoff flag: {dist['distinct']}. "
+            f"Residual-rank label: {rank['verdict']}. Fitted-compatibility flag: {transport['transports']}. "
+            f"Combined fixture flags: {dist['distinct'] and rank['verdict'] == 'rank_1' and transport['transports']}. "
+            "C is excluded from direction estimation, but its full supplied residual "
+            "vector fits the loading and is reused for scoring. These diagnostics "
+            "do not establish calibrated forecasting, universal scalar existence/"
+            "nonexistence or physical history."
         ),
     }

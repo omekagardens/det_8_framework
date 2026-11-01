@@ -1219,7 +1219,7 @@ def test_predictive_history():
         run_t1,
     )
 
-    section("Predictive-history sufficiency (T1)")
+    section("Synthetic T1 diagnostic fixtures")
 
     # Fisher–Rao metric (§2.2): identity → 0, disjoint → 1, symmetric.
     test("κ(K,K) = 0", abs(fisher_rao_distance([0.5, 0.5], [0.5, 0.5])) < 1e-12)
@@ -1229,35 +1229,35 @@ def test_predictive_history():
          abs(fisher_rao_distance([0.7, 0.3], [0.3, 0.7])
              - fisher_rao_distance([0.3, 0.7], [0.7, 0.3])) < 1e-12)
 
-    # History-distinction test H0: K_a = K_b.
+    # Reference-cutoff comparison on fixed synthetic kernels with nominal counts.
     d = test_history_distinction([0.7, 0.3], [0.3, 0.7], n_a=1000, n_b=1000)
-    test("history distinction: different kernels → distinct", d["distinct"])
+    test("history diagnostic: separated fixture exceeds reference", d["distinct"])
     s = test_history_distinction([0.5, 0.5], [0.5, 0.5], n_a=1000, n_b=1000)
-    test("history distinction: identical kernels → not distinct", not s["distinct"])
+    test("history diagnostic: equal fixture does not exceed reference", not s["distinct"])
 
-    # Rank test: transportable (rank-1) vs nontransportable (full rank).
+    # Residual-rank labels on constructed shared/separate-response fixtures.
     d1 = generate_history_dataset(n_histories=4, n_probes=3,
                                   transportable=True, seed=1)
     r1 = latent_rank_test(d1["probe_residuals"])
-    test("rank test: transportable → rank-1", r1["verdict"] == "rank_1")
+    test("rank label: shared-direction fixture → rank-1", r1["verdict"] == "rank_1")
     d0 = generate_history_dataset(n_histories=4, n_probes=3,
                                   transportable=False, seed=1)
     r0 = latent_rank_test(d0["probe_residuals"])
-    test("rank test: nontransportable → not rank-1", r0["verdict"] == "nontransportable")
+    test("rank label: separate-response fixture → nontransportable", r0["verdict"] == "nontransportable")
 
-    # Held-out transport (§7.1).
+    # Fitted compatibility: C loading fit and scoring reuse the full C vector.
     t1 = held_out_transport(d1["probe_residuals"][:2], d1["probe_residuals"][2])
-    test("transport: rank-1 data → transports", t1["transports"])
+    test("fitted compatibility: shared fixture passes reference", t1["transports"])
     t0 = held_out_transport(d0["probe_residuals"][:2], d0["probe_residuals"][2])
-    test("transport: nontransportable → no transport", not t0["transports"])
+    test("fitted compatibility: separate fixture fails reference", not t0["transports"])
 
-    # End-to-end T1.
+    # Fixed rank/compatibility conjunctions, not scalar-existence tests.
     end = run_t1(transportable=True, seed=42)
-    test("T1: scalar κ supported (transportable)",
+    test("T1 fixture: shared case meets rank/fit conjunction",
          end["latent_rank"]["verdict"] == "rank_1"
          and end["held_out_transport"]["transports"])
     end2 = run_t1(transportable=False, seed=42)
-    test("T1: scalar κ NOT supported (nontransportable)",
+    test("T1 fixture: separate case meets contrasting rank/fit flags",
          end2["latent_rank"]["verdict"] == "nontransportable"
          and not end2["held_out_transport"]["transports"])
 

@@ -1,3 +1,11 @@
+## Current follow-through checkpoint — 2026-11-01 22:19 UTC
+
+RET033 likelihood repair (`f7aee64b`) and RET034 fitted-compatibility wording (`8c768fb2`) are published and remote-verified. RET035's two caller excerpts passed completed distinct static review and are source-adopted; exact integration is awaiting a separate assembly review before publication. The change preserves numerical expressions and all eleven test assertions. The author compaction scope violation remains recorded; unrelated sheet work is excluded and earlier unverified procedure is not retrospectively certified.
+
+CL007 is accepted as the fixed supplied-chart, three-link-target observation reference. Existing inspected T7/RecordView callers need no correction. A future use must name its target and actual coordinate/complete-interval inputs; no automatic adapter or thinning extension was selected. GDM022 fixed scope is closed; native physical/readout premises, M38 authorized-executor/accounting dependency, and State/Energy public-source and named-consumer dependencies remain owned in the current queue. FT097 is closed as one Status-M reflection, without forwarding or publication; its journal was not inspected.
+
+Current detailed evidence, source inventory, reservations and next-work decisions: `/Volumes/AI_DATA/development/det-review-evidence/followthrough-2157-20261101/`. Programme authority and the existing hourly and Monday schedules remain unchanged.
+
 ## November 1, 22:02 UTC — published likelihood repair and fitted-compatibility clarification
 
 RET033's completed current review is adopted and its exact seven-file checkpoint is published and verified on remote main as `f7aee64b0483705c963dea42bb6629d22de44b81`. Both fixed regression methods passed in the admitted frozen layout; installed-layout/full-driver execution and statistical calibration remain unclaimed. The original incomplete review wrap remains historical, with the later complete review supplying current acceptance.
