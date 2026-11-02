@@ -181,3 +181,5 @@ The calculation supplies neither a native stress tensor nor an inertial-response
 σ was independent of τ throughout. No constitutive law, satisfaction of a material energy condition, manufacturing possibility, cavity stability or load/unload energy accounting has been proved. There is no second source, time evolution or inverse source reconstruction. The mathematical result is not a claim that a physical apparatus can measure the ideal coefficient without calibration.
 
 The reusable result is this complete source ledger. It does not by itself establish the inertial response of the same cavity.
+
+A separately reviewed [same-source boost calculation](closed_radiation_shell_inertia.md) now supplies the boost-defined inertia coefficient E_total/c² for this complete tensor. It states its additional Lorentz and simultaneous-slice premises and compares the rest active coefficient only at the shared approximation order. The static calculation above remains its own finite result.

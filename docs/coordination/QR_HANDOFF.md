@@ -1,3 +1,9 @@
+## Same-source active and inertial coefficients — 2 November 2026
+
+The independently reviewed [radiation-shell inertia note](../observables/closed_radiation_shell_inertia.md) uses the same complete conserved source as the published active-mass calculation. Direct transformation of its tensor and simultaneous-slice measure gives E′=γE_total and P′₁=γvE_total/c², including all supporting stresses. Thus its small-velocity boost-momentum coefficient is E_total/c² and matches the rest active monopole at the shared zeroth-order-source/leading-field approximation.
+
+The Lorentz/source/continuum assumptions and calibration remain supplied. No acceleration protocol, material stability, native mass/unit law, moving-source field or nonlinear equivalence claim is added. This completes one conditional comparison target for gravity/mass research. All software and Monday software maintenance remain paused. Earlier status entries below retain their historical scope; the new companion result closes the specific same-source inertia gap they recorded.
+
 ## Complete-source and record comparisons — 2 November 2026
 
 The [radiation-shell calculation](../observables/closed_radiation_shell_mass.md) retains the complete source energy and supporting stress. Distributional conservation fixes τ=uR/6; the integrated spatial stress vanishes and the supplied leading field has M_active=E_total/c². This is a static continuum baseline with supplied c and G, not a native derivation, material-realization result or calculation of this cavity's inertia.
