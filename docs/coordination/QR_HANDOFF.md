@@ -1,3 +1,11 @@
+## Current loop and carryover disposition — 2026-11-02 07:17 UTC
+
+The revised coordinator loop now consumes completed reviews and ready assignments before new selection. GDM024 is adopted as a conditional retained-order identifiability result: additional durations cannot separate the response coefficient from unknown affine differential reference drift. E029 is adopted as a conditional forecast-certificate interface; a useful finite enclosure constructor remains a research question, not an impossibility result. Neither establishes physical calibration or an implemented competent baseline.
+
+RET037 source-only F2 integration, GDM025 observable/question construction and E030 constructive enclosure feasibility are acknowledged active in their existing lane chats. A distinct coordinator worker is examining broader finite Energy questions. Each has an exclusive output, prospective deadline and separate review. Missing M38 executor/accounting evidence and the public-source E026/NE033 empirical halts do not prevent this independent work.
+
+The reviewed conditional clock reference and dated 06:36 checkpoint were committed as `d7bc4abde61efed3fe2a6fb326428b597bcede04` and verified on remote main. Exact current decisions, receiving turns, reservations and next actions are under `/Volumes/AI_DATA/development/det-review-evidence/followthrough-0707-20261102/`. Completed finite scopes do not close the programme; ready internal work is not an external dependency. Current capacity and service availability govern the shared 3% guard; reset estimates are informational. All scientific, execution, custody, privacy and publication requirements and existing schedules remain unchanged.
+
 ## Current follow-through checkpoint — 2026-11-02 06:36 UTC
 
 GDM023 is accepted after completed independent review and coordinator arithmetic checks. The standalone reference in `docs/observables/conditional_internal_clock_readout.md` defines the conditional two-level clock model and its formal c^-2 readout. Momentum variance contributes to individual channels and cancels from the matched field-minus-zero-field contrast at this order. This is conventional conditional mathematics, not a native mass law, gravity validation or a higher-order visibility prediction. GDM022's fixed exclusion remains unchanged.
