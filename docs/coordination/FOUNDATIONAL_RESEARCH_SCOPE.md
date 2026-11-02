@@ -1,3 +1,15 @@
+## 2 November 2026 — mathematics and public records
+
+Prioritize bounded mathematical derivation and tests against suitable public observations for gravity, mass, classical physics and resulting DET-native quantities and units. For each named question, establish what accessible records can distinguish and state the relevant assumptions and measurement/calibration limits. For empirical validation, test predictions against observations not used to choose or tune the model, accounting for dependence and shared calibration. Distinguish recorded measurements from products already inferred through other physical models. Useful mathematics may proceed under declared assumptions without a ready dataset.
+
+Mathematical representation or replay of present traces does not guarantee complete accessible history, unique recovery of mechanisms, feasible reconstruction, or empirical validation of DET’s ontology. Comprehensive virtualization remains a conjecture, not a required programme deliverable. Derive internal relationships, ratios and scales while distinguishing normalization choices from physical calibration.
+
+Use new physical experiments for specific information gaps, with a justified low cost, finite scope and outcomes that could change a named decision. If suitable evidence or an affordable discriminating test is unavailable, preserve that particular limitation and continue other useful work. This is a default research method, not an exhaustive prerequisite or another qualification layer. Prefer results whose sound physical connections can support several existing questions; faster progress is an aim, not an assumed finding.
+
+This guidance applies to future work without interrupting or changing active assignments, reviews, deadlines or reservations. Empirical inputs remain limited to suitable public datasets or publicly accessible sensor feeds. It grants no new hardware purchase, external outreach, private-source dependency or experiment execution beyond existing authority. All software work remains paused; State and Energy work must explicitly support the gravity, mass, classical-physics or resulting native-unit goals. Classical remains independent and Free Thinker retains its autonomy. Use existing tools; no virtualization platform or software restart is authorized. Automation prompts are unchanged. Historical directions below preserve provenance; their software-resumption language does not override the current pause.
+
+---
+
 ## 27 October 2026 — classical realization and accepted follow-through
 
 The [finite incidence-register statement](../observables/finite_incidence_register.md#7-exact-classical-realization-of-the-prepared-observation) now includes an independently accepted classical realization. Under the same supplied memory, addressing, preparation and readout assumptions, classical counters reproduce every prepared history-and-output probability of the fixed four-birth construction. Quantum coherence is unnecessary for that observation. Arbitrary-input quantum channel equivalence, physical realization and a native observation map remain outside the result. The earlier protocol qualifications are retained.

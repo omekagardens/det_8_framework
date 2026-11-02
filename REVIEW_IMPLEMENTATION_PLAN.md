@@ -1,3 +1,11 @@
+## Current physics priorities and research method — 2 November 2026
+
+Gravity, mass and classical physics are the primary research priorities, followed by derived DET-native quantities and units with normalization choices distinguished from empirical calibration. All software work, including development, software review, tooling, benchmarks and maintenance, is paused. State and Energy work may proceed only when it explicitly supports these physics goals. Classical retains its independent research loop; Free Thinker retains its philosophical autonomy and privacy. Older software-resumption entries below are historical.
+
+The current [foundational research scope](docs/coordination/FOUNDATIONAL_RESEARCH_SCOPE.md) prioritizes bounded mathematics and suitable public observations. Useful mathematics may proceed under declared assumptions without a ready dataset. Empirical validation uses observations not used to choose or tune the model, accounting for dependence and shared calibration; recorded measurements and model-inferred products remain distinct. Comprehensive virtualization is a conjecture, not a required deliverable. Low-cost finite experiments address named information gaps within existing authority. This method introduces no new qualification layer, execution permission or software restart, and leaves active assignments and their deadlines intact.
+
+The hourly research loop remains active and Monday software maintenance is paused. All scientific, capacity, source, custody and independent-review safeguards remain in force. This research-document update reports current direction; it adopts no pending scientific packet.
+
 ## Current follow-through checkpoint — 2026-11-02 18:32 UTC
 
 GDM028 is freshly adopted after its completed distinct review: the fixed native four-birth law cannot equal the complete interval-profile distribution of the specified four iid uniform interior points in a flat 1+1-dimensional interval, for any admitted source mixture. The zero-profile event separates the laws by at least 84217/2230272. The standalone proof is in `docs/observables/four_birth_flat_interval_comparison.md`. This closes that exact finite correspondence, without a universal geometry, continuum or physical-gravity exclusion.
