@@ -1,3 +1,11 @@
+## Complete-source and record comparisons — 2 November 2026
+
+The [radiation-shell calculation](../observables/closed_radiation_shell_mass.md) retains the complete source energy and supporting stress. Distributional conservation fixes τ=uR/6; the integrated spatial stress vanishes and the supplied leading field has M_active=E_total/c². This is a static continuum baseline with supplied c and G, not a native derivation, material-realization result or calculation of this cavity's inertia.
+
+The [molecular record counterexample](../observables/molecular_coincidence_record_obstruction.md) shows that one normalized preparation in the fixed two-branch quantum-walk sector has two positive-weight coincidence-record outcomes with nonzero components outside that sector. Both outcomes are retained. Binding alone therefore does not make this specified record nondestructive; no universal leakage, dissociation rate or mass interpretation follows.
+
+Both results have independent scientific and coordinator review. They are separate conditional comparisons and do not validate each other's premises or the physical theory. Gravity, mass and classical research remain the priorities. All software and Monday software maintenance remain paused; historical checkpoints below are preserved.
+
 ## Reviewed local mass relation — 2 November 2026
 
 The [standalone conditional mass theorem](../observables/conditional_boost_mass_relation.md) states the complete local canonical and boost assumptions. For a positive two-level rest-energy operator H0 and a Hermitian quadratic kinetic coefficient A, the stipulated boost commutator through the term linear in momentum holds exactly when A = c² H0⁻¹. Hence the kinetic coefficient mass equals H0/c² within that formal model. The proof retains matrix order, treats positive degeneracy, and separates reference-scale changes from a change of total rest energy.
