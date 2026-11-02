@@ -1,3 +1,11 @@
+## Current follow-through checkpoint — 2026-11-02 00:10 UTC
+
+CL008's optional classical incidence-register attachment is accepted after completed distinct peer and QR recipient reviews. It preserves the original active residual/structural branch marginals for arbitrary classical correlations. From certified empty preparation, four zero cells reproduce NM006's antichain event and its complete reported law under the unchanged shared detector and source premises. See `docs/observables/native_incidence_antichain_interface.md` for the construction and limits.
+
+This is a conditional observation reference, not a physical transducer, quantum completion or efficiency result. No existing consumer repair is established by this result. A prospective application must supply actual initialization/routing/storage, complete acquisition and independently justified source/detector/failure/cost evidence. The fixed attachment scope is closed; no automatic adapter or parameter extension follows. M38's authorized-executor/accounting dependency and the owned State/Energy public-source and named-consumer requirements remain unchanged.
+
+RET033/034/035 and the corrected publication-status checkpoint are complete. Exact current dispositions, source inventory and reopening decisions are under `/Volumes/AI_DATA/development/det-review-evidence/followthrough-2352-20261101/`. All scientific, custody, execution and capacity requirements, hourly coordination and Monday maintenance schedules remain unchanged.
+
 ## Current follow-through checkpoint — 2026-11-01 23:54 UTC
 
 RET035 is complete: its wording-only source and six-file publication assembly passed separate completed reviews, coordinator adoption followed, and commit `5753ce0cec226716b21f3108c443521745e1a999` was verified on remote main at 22:22 UTC. Together with RET033 (`f7aee64b`) and RET034 (`8c768fb2`), this closes the fixed likelihood repair and fitted-compatibility wording work. The earlier author procedure remains uncertified; later independent reviews establish only their declared source and assembly scopes. No installed-layout/full-driver execution, calibrated forecast or physical qualification follows.
