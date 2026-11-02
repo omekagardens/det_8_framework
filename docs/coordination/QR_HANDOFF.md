@@ -1,3 +1,9 @@
+## Reviewed local mass relation — 2 November 2026
+
+The [standalone conditional mass theorem](../observables/conditional_boost_mass_relation.md) states the complete local canonical and boost assumptions. For a positive two-level rest-energy operator H0 and a Hermitian quadratic kinetic coefficient A, the stipulated boost commutator through the term linear in momentum holds exactly when A = c² H0⁻¹. Hence the kinetic coefficient mass equals H0/c² within that formal model. The proof retains matrix order, treats positive degeneracy, and separates reference-scale changes from a change of total rest energy.
+
+This is an independently reviewed conventional comparison target for native mass research. It derives neither its carrier or boost law from DET nor a gravitational source law, absolute mass scale, physical calibration or global boost representation. No higher-order continuation is adopted. Gravity, mass and classical research remain the priorities; all software work and Monday software maintenance remain paused. Older checkpoints below preserve their historical status.
+
 ## Current physics priorities and research method — 2 November 2026
 
 Gravity, mass and classical physics are the primary research priorities, followed by derived DET-native quantities and units with normalization choices distinguished from empirical calibration. All software work, including development, software review, tooling, benchmarks and maintenance, is paused. State and Energy work may proceed only when it explicitly supports these physics goals. Classical retains its independent research loop; Free Thinker retains its philosophical autonomy and privacy. Older software-resumption entries below are historical.
