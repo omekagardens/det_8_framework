@@ -1,3 +1,7 @@
+## Reviewed finite branching response and scale — 2 November 2026, E29
+
+The [finite branching response and normalization note](../observables/finite_branching_response_and_scale.md) records accepted GDM037 and NE041: the exact chain/diamond comparison against the stated depth-attenuation family, and a parameter rescaling that preserves every stipulated complete source-response map. These are conditional model results; native dynamics, physical mass, calibration and units remain unestablished. Independent native source/conservation work continues. Software work stays paused.
+
 ## Same-source active and inertial coefficients — 2 November 2026
 
 The independently reviewed [radiation-shell inertia note](../observables/closed_radiation_shell_inertia.md) uses the same complete conserved source as the published active-mass calculation. Direct transformation of its tensor and simultaneous-slice measure gives E′=γE_total and P′₁=γvE_total/c², including all supporting stresses. Thus its small-velocity boost-momentum coefficient is E_total/c² and matches the rest active monopole at the shared zeroth-order-source/leading-field approximation.
