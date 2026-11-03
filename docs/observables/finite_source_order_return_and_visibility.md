@@ -1,6 +1,6 @@
 # Finite source, order, return and visibility
 
-Two distinct finite classical constructions establish different parts of a source–geometry comparison. GDM044 makes an unmarked order statistic depend on a conserved charge under a common prepared reference. GDM045 makes a later source-allocation update depend on a prepared parent order while preserving total charge. E042 determines exactly which observations expose that second difference. These results do not combine the two constructions into one autonomous feedback law, or establish physical mass, curvature or units.
+Three finite classical constructions establish different parts of a source–geometry comparison. GDM044 makes an unmarked order statistic depend on a conserved charge under a common prepared reference. GDM045 makes a later source-allocation update depend on a prepared parent order, and E042 determines which observations expose that difference. GDM047 supplies one common law supporting both response directions, with changed reference-memory dynamics and explicit preparation/access premises. These are conditional finite results; they do not establish an autonomous feedback cycle, physical mass, curvature or units.
 
 ## Conserved charge changes committed order: GDM044
 
@@ -115,13 +115,68 @@ Thus the full augmented laws differ if and only if d(ell10-ell01) is nonzero. Q-
 
 For delta10, ell=r is a supplied separating example. After conditioning only on the declared chain setting, y=1 has probabilities 25/32 and 3/4, with complements 7/32 and 1/4. With the setting weight retained, the chain/y=1 joint difference is 1/64. The complete cell law above establishes distinction without selecting a successful outcome.
 
+## One common law with retained reference information: GDM047
+
+GDM047 answers a compatibility question left open by the separate GDM044 and GDM045 constructions. It keeps GDM044's full eight-coordinate domain, first maps and effect rows while changing the explicitly permitted second-step reference output. It then gives a complete third-birth witness and a lawful source-return comparison. The old reset instrument remains the separate GDM044 model; its latent dynamics are not asserted unchanged.
+
+Put u=(1/2,1/2)^T and v=(1/2,-1/2)^T. With the f rows above, replace the second reference blocks by
+
+    C_s^q = u f_s^q + tau_s^q v(1,-1),
+    B_(s,b) = diag(C_s^0, M0 tensor C_s^1, C_s^2)/2.
+
+The fixed tau values, in order (E0,F0,E1,F1,E2,F2), are (4/9,1/9,1/3,1/6,4/9,1/9). They obey |tau_s^q|<min(f_s^q). Each block has the original column effects and row sums q_E=2/3 or q_F=1/3. The complete nonselective reference maps are T0=T2=M(0,5/9), T1=M0. They retain information rather than reset to uniform.
+
+For every joint input nu, including correlated and boundary states, each complete two-birth history has operator
+
+    W_h = diag(C_s^0, M0^2 tensor C_s^1, C_s^2)/4,
+    P_nu(s,b1,b2) = sum_(i,m) nu[i,m] f_s^(Q_i)[m]/4.
+
+Thus the entire eight-cell observed prefix, the common-reference chain probabilities and the separate independent-uniform-reference control are exactly those of GDM044. The joint outputs differ. For example, sector0 input reference delta0 gives E-reference (17/18,1/18), F-reference (11/18,7/18), and nonselective reference (7/9,2/9). Restoring delta0 for another trial remains a supplied resource.
+
+For every size-two parent C and actual ideal S, define
+
+    A_(C,S) = p_C(S) diag(R^0, H tensor R^1, R^2),
+    B_(C,S,b) = A_(C,S)/2,
+    R^q = M(x_q,t_q).
+
+Every actual ideal and both newborn bits are retained. The two antichain singletons are separate outcomes with the same row:
+
+| Parent / ideal | p | (x0,t0) | (x1,t1) | (x2,t2) |
+| --- | ---: | --- | --- | --- |
+| antichain / empty | 3/8 | (-7/24,1/8) | (0,1/8) | (7/24,1/8) |
+| antichain / each singleton | 1/8 | (7/8,1/16) | (0,1/8) | (-7/8,1/16) |
+| antichain / full | 3/8 | (-7/24,1/8) | (0,1/8) | (7/24,1/8) |
+| chain / empty | 1/4 | (-1/2,1/8) | (0,1/8) | (1/2,1/8) |
+| chain / root | 3/8 | (1/6,1/8) | (0,1/8) | (-1/6,1/8) |
+| chain / full | 3/8 | (1/6,1/8) | (0,1/8) | (-1/6,1/8) |
+
+In the witness H=M(0,3/4) at chain/full and H=M0 elsewhere. In the complete cut H=M0 everywhere; every other parameter, including the entire reference-memory prefix, is identical. Each map has 24 positive entries and 40 cross-charge zeros. Branch effects are p[1+sigma_m x_q]/2, where sigma_0=1 and sigma_1=-1. Weighted x values sum to zero at each parent, so complete normalization holds on the entire joint cone. Row sums give uniform branch anchors p/2. The same source/reservoir exchange ledger and assigned zero reference charge preserve Q pathwise, conditional on the same event, and unconditionally; none of these statements assigns physical energy to the reference.
+
+All full unnormalized marked diamonds through three births hold. In the nontrivial mixed singleton-base diamond, both scalar factors are (1/8)(2/3)/4=(1/4)(1/3)/4=1/48, and the common full matrix is
+
+    diag(M(1/3,1/24), M0^2 tensor M(0,1/16), M(-1/3,1/24))/48.
+
+Equal-ideal and empty-base pairs also agree; common allowed suffixes preserve their equality. Old full singleton ideals transport to the proper chain root. Chain/full cannot be the second event of such an incomparable pair because its past includes the preceding newborn. Coefficients depend on the current unmarked parent and actual ideal role, never old marks or external setting labels. Size three is terminal.
+
+The controlled return test supplies the same marked singleton and arbitrary joint nu to both settings. Each retained preparation bit has map I8/2, preserving the entire joint input; this is an external append preparation, not the native second birth. With lambda_s=1/2, the full augmented law is
+
+    P(s,k,S,b,j,n|nu) = (lambda_s/2)[B_(C_s,S,b)nu]_(j,n).
+
+All 224 cells, including every zero and complement, are retained and sum to one. The terminal joint-basis access is supplied, not a constructed native detector. For nu=delta10 tensor delta0, summing every native outcome and preparation bit gives witness source probabilities (0,51/64,13/64,0) at chain and (0,3/4,1/4,0) at antichain. Both have reference output (9/16,7/16). The allocation return is 3/64, with the opposite reservoir response and unchanged total Q.
+
+The complete cut obeys
+
+    L G_chain^cut = L G_antichain^cut = K L
+
+as four-by-eight operators on all joint inputs, including correlations and mixed charges. This removes source return for every input, although outer-sector reference outputs can still differ. Both families preserve the complete autonomous forward prefix after the third outcomes are forgotten. The two response directions therefore coexist in one declared finite law under two explicit experiment contracts. This does not close an autonomous feedback loop or derive an operational gravitational response. E042's observation theorem remains specific to GDM045; it has not been transferred to GDM047.
+
 ## What remains a premise
 
 The binary terminal effect is a mathematical channel, not a constructed native receipt, passive access to hidden j, or a calibrated detector. A committed allocation-sensitive readout needs its own outcome-resolved interaction and record-access design, native consistency checks and physical preparation/readout cost account. The [observer and preparation note](finite_observer_records_and_preparation.md) concerns a different declared receipt model; it cannot be silently appended here.
 
 The numerical laws, finite supports, factorization/reference conventions and external preparations are supplied assumptions. Conservation and the displayed response laws are derived conditional relations. Naming Q a mass, counting births as duration or supplying a scale multiplier does not derive physical units. No metric, acceleration, inertia, physical energy, action scale, calibration, empirical evidence, efficiency, autonomous feedback or whole-route qualification is claimed. A conventional comparator must receive the same information, setting labels and preparation/access resources.
 
-The two constructions leave a concrete joint-model question: can conserved-source influence on committed order and order-conditioned source return coexist under one exact preparation, law and observation contract? Their separate acceptance does not answer it. No additional model or extension is authorized by this note.
+The separate GDM044/GDM045 constructions left the coexistence question open. GDM047 now supplies one conditional common-law witness by changing the explicitly permitted reference output and declaring a joint preparation/access contract. A gravity or mass bridge still needs an operational target and justified additional premises. No further model, horizon extension or empirical execution is authorized by this note.
 
 ## Source custody
 
@@ -130,3 +185,5 @@ GDM044 report SHA256 47522873f2e397a6803f30fd45108b019c56bbe4f198eb8285541014deb
 GDM045 report SHA256 8d29be8ac7b57a9c161d0ced1ee2af7af89edf896efdcd03d6212f6e5318261e; coordinator disposition b7cb4f0736f9d8c036389b4850d9f87c8611853408b480817c31a2aa9fa7ff06.
 
 E042 report SHA256 754ab2a66236e5eef3dfe8b69c2d05141a2feab675704bc593c630ac41810860. Its original review missed its saved-readback cutoff; that procedural failure remains permanent. E33 separately adopted the unchanged theorem after a fresh distinct content review (SHA256 264362811f4cd791fbe5afabaf90101570082d119cac26bee70fa987b0926114); coordinator disposition SHA256 4204f54755ab80a4f8f4080f5d4f067ee684e65bb8616d974e989e1a4fad5321. This does not retroactively qualify the original failed review. Hashes establish source identity, not scientific truth.
+
+GDM047 report SHA256 f10b500a4972bf4800655828969175a848cb9ae95292e4b38a8d03b26573f66f; independent proof review SHA256 670caf84c867d804b713d5a6adf3debf3ba7f8e359faf688986cdc26c7bf3451; E34 coordinator disposition SHA256 77ad0e162a2745f2ed858300bee24fd8c2cbb2c99380c0ea0248ce0f9deddf6d. The E33 root dispatch clock bracket straddled its substantive cutoff, so its exact dispatch timing remains uncertified. The author and reviewer completed within their own prospective deadlines; E34 acceptance does not retroactively certify that root dispatch or any earlier failed procedure.
