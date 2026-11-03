@@ -1,3 +1,7 @@
+## 3 November 2026 — compensated-endpoint transition obstruction
+
+GDM064 rejects the exact supplied central two-body completion of the accepted compensated Q=1 endpoints. For every fixed positive m,a,T and every admitted C^2 autonomous central potential, initial rest gives zero relative angular momentum; positive separation fixes the oriented relative direction, contradicting the reversed labelled endpoint. Matching total mass, COM and endpoint energy are insufficient. The full three-dimensional proof and scope are in `docs/observables/compensated_source_transition_obstruction.md`. GDM051 static observations and the native law remain unchanged. This is neither a general isolated-rearrangement impossibility nor a native unit or gravity derivation. Earlier procedural qualifications remain permanent. Independent physics work continues; software remains paused.
+
 ## 3 November 2026 — conditional phase/action interface (GDM063)
 
 The exact three-birth native law admits a supplied canonical phase lift on the full cone of positive Borel-measure vectors. Every full kernel diamond and admissible suffix is preserved, and the branches commute with the declared simultaneous phase action. The fixed complete one-birth readout retains all settings, bits, endpoints, zeros and half-failure, with action contrast1/4 and transport contrast1/16.
