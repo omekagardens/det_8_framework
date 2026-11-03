@@ -1,3 +1,11 @@
+## 3 November 2026 — fixed native displacement attachment rejected
+
+The accepted [GDM057 counterexample](docs/observables/native_residual_displacement_obstruction.md) shows that shifting a supplied cyclic register by the post-update native residual breaks a required full unnormalized marked diamond. At the same transported three-vertex endpoint, one joint entry differs by -epsilon(3+4epsilon)/160, with epsilon=1/8448. The original native instrument remains accepted; this rejects only the fixed attachment, without an observation calculation, repair or general coupling-impossibility claim.
+
+Scientific content was adopted with the review's heading-only Part-B intake over-read permanently retained. No Part-B prose/equations or changed-law reasoning was used, and perfectly restricted intake is not certified. The new E39 research-document assembly awaits separate review and coordinator publication; no completed push, software restart or new execution authority is claimed. The complete captured history below is preserved byte for byte.
+
+---
+
 ## 3 November 2026 — accepted finite source and transport results
 
 The accepted [GDM053 source-channel test](docs/observables/source_channel_reversible_markov_obstruction.md) rules out four exact channels under a supplied complete eight-state, equal-degeneracy, reversible time-homogeneous Markov interpretation. It does not identify physical work or heat, or exclude every passive realization. The complete terminal and refined laws remain part of its scope.
