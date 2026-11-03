@@ -1,3 +1,9 @@
+## 3 November 2026 — conditional phase/action interface (GDM063)
+
+The exact three-birth native law admits a supplied canonical phase lift on the full cone of positive Borel-measure vectors. Every full kernel diamond and admissible suffix is preserved, and the branches commute with the declared simultaneous phase action. The fixed complete one-birth readout retains all settings, bits, endpoints, zeros and half-failure, with action contrast1/4 and transport contrast1/16.
+
+The transported and passive lifts are conjugate by one fixed source-dependent angle-coordinate change. The positive contrast holds the detector convention fixed; it is not a representation-independent new coupling. G generates the supplied action, while Q=G/J0 on the occupation tori. Canonical structure, J0, phase preparation and readout remain supplied; no physical time, energy, mass, gravity, unit or empirical claim follows. Full result and native-law dependency: docs/observables/native_phase_action_interface.md. Historical procedural qualifications remain unchanged. All software work remains paused.
+
 ## 3 November 2026 — accepted fixed-exchange obstruction
 
 [GDM061's exact counterexample](../observables/native_reciprocal_exchange_obstruction.md) rejects J=X(B tensor I2) with persistent source/response coordinates. A lawful singleton-parent E/F diamond ends at the same marked three-event order but differs at joint basis input/output(0,0) by −epsilon(3+4epsilon)/160, epsilon=1/8448. Both full scalar factors are1/60, including the fair newborn bits.
