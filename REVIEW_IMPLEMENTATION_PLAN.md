@@ -1,3 +1,9 @@
+## 3 November 2026 — GDM049 conditional clock/freefall correspondence
+
+The independently reviewed [localized-source clock and differential-freefall map](docs/observables/localized_source_clock_freefall.md) is accepted at its exact conditional scope. With one supplied weak-field source/localization model at R=3a,d=a/2, the complete native law yields DeltaC=-(37/3360)theta and DeltaT=-(391/33075)theta for theta=Gm*/a^3. The finite-baseline statistics differ. Operational frame conversions, normalized observation channels, matched versus merely bounded error regions and all controls are explicit. Physical source/support/metric-derivative/calibration/channel-matching premises remain unresolved; matched conventional GR has the same full observation law. No native gravity/mass/unit or empirical-discriminator claim follows. Subsequent physics questions require separate review; all software remains paused.
+
+---
+
 ## E34 accepted common-law result — 2026-11-03 UTC
 
 GDM047 is accepted after distinct proof review and full coordinator report/review reading. The fixed finite reference-memory law preserves GDM044's complete observed prefix, gives a supplied matched-parent allocation return of3/64, and has a complete lawful cut with equal source marginals on the whole joint cone. See [the research note](docs/observables/finite_source_order_return_and_visibility.md). The two experiment contracts do not establish a closed autonomous cycle, physical gravity/mass, native units or calibration. E33 root dispatch timing remains uncertified within its recorded clock bracket; earlier failures remain permanent. All software work stays paused. Exact scientific adoption and assembly custody are under /Volumes/AI_DATA/development/det-review-evidence/followthrough-0437-20261103/.
