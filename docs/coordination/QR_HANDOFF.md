@@ -1,3 +1,13 @@
+## 3 November 2026 — accepted finite source and transport results
+
+The accepted [GDM053 source-channel test](../observables/source_channel_reversible_markov_obstruction.md) rules out four exact channels under a supplied complete eight-state, equal-degeneracy, reversible time-homogeneous Markov interpretation. It does not identify physical work or heat, or exclude every passive realization. The complete terminal and refined laws remain part of its scope.
+
+The accepted [GDM055 fair-heading transport result](../observables/fair_heading_transport_records.md) compares two supplied finite kernels through four births, retaining all native histories, eleven position labels and failure. Its distances are 0, 1/8, 5/32 and 19/128. The attached transport does not feed back into the native law or establish physical matter, mass or gravity.
+
+These are scientific dispositions recorded in a new E38 documentation assembly for separate review. The E37 publication-author attempt remains closed incomplete without an artifact; this entry does not retrospectively qualify it. No completed push, software restart, new execution authority or automatic scientific successor is claimed. The captured historical text below is preserved byte for byte.
+
+---
+
 <!-- E36 research publication, 2026-11-03 UTC -->
 GDM051 fixed compensated-source endpoint result is accepted after a separate prospective independent scientific review. Both paired contrasts survive with the new exact coefficients; physical transition, full apparatus and calibration remain unresolved. See [the scoped note](../observables/compensated_source_endpoint_response.md). The first review remains procedurally incomplete; the new review does not cure it. GDM052 question admission is separate and does not depend on GDM051. All software work remains paused. This additive entry preserves the historical state below.
 
