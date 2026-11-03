@@ -1,3 +1,7 @@
+## 3 November 2026 — accepted GDM059 locality distinction
+
+[Conditional result](../observables/native_probe_operator_locality.md): four-birth CQ compatibility, complete eight-history/nine-setting/nine-outcome unconditional law including failures. Supplied CZ yields witness −1/48; product-gate control is separable, +1/36. Native precursor-input locality and birth consistency do not imply A|B operation locality. Hilbert/Born/gates/detector remain supplied; no local-classical-mediator entanglement, native quantum derivation, gravity/mass/units or empirical claim. All historical qualifications remain; no software restart, execution authority or automatic successor.
+
 ## 3 November 2026 — fixed native displacement attachment rejected
 
 The accepted [GDM057 counterexample](../observables/native_residual_displacement_obstruction.md) shows that shifting a supplied cyclic register by the post-update native residual breaks a required full unnormalized marked diamond. At the same transported three-vertex endpoint, one joint entry differs by -epsilon(3+4epsilon)/160, with epsilon=1/8448. The original native instrument remains accepted; this rejects only the fixed attachment, without an observation calculation, repair or general coupling-impossibility claim.
