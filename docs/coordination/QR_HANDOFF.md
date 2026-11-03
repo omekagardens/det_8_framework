@@ -1,3 +1,7 @@
+## Reviewed finite observer records — 3 November 2026
+
+The [observer and preparation note](../observables/finite_observer_records_and_preparation.md) documents the independently accepted GDM042/E040 finite model: complete committed records, unknown-preparation ambiguity and a fixed same-preparation reference condition. Physical mass, units, apparatus, calibration and efficiency remain unclaimed. No later candidate or software work is included.
+
 ## E30 reviewed finite conservation and record access
 
 The new research note `docs/observables/finite_conservation_and_record_access.md` presents adopted GDM040/NE042 finite mathematics: conservation, extra additivity and committed-record nonidentifiability remain distinct. No physical mass or native unit is established. Observer extensions require their own separate proof/review. All software work remains paused. This additive publication entry preserves prior coordination history.
