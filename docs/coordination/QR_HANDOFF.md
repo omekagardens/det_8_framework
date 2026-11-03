@@ -1,3 +1,9 @@
+## 3 November 2026 — accepted fixed-exchange obstruction
+
+[GDM061's exact counterexample](../observables/native_reciprocal_exchange_obstruction.md) rejects J=X(B tensor I2) with persistent source/response coordinates. A lawful singleton-parent E/F diamond ends at the same marked three-event order but differs at joint basis input/output(0,0) by −epsilon(3+4epsilon)/160, epsilon=1/8448. Both full scalar factors are1/60, including the fair newborn bits.
+
+The first failed joint identity stops this candidate before directional observations. Remaining admission checks are not credited as passed; the original native B remains accepted. This is no general reciprocity impossibility or physical mass/gravity/units/calibration claim. All historical qualifications, including the earlier GDM059 publication late persisted-readback, remain. Publication grants no software restart or new execution authority; further research selection belongs to the coordinator's separate queue.
+
 ## 3 November 2026 — accepted GDM059 locality distinction
 
 [Conditional result](../observables/native_probe_operator_locality.md): four-birth CQ compatibility, complete eight-history/nine-setting/nine-outcome unconditional law including failures. Supplied CZ yields witness −1/48; product-gate control is separable, +1/36. Native precursor-input locality and birth consistency do not imply A|B operation locality. Hilbert/Born/gates/detector remain supplied; no local-classical-mediator entanglement, native quantum derivation, gravity/mass/units or empirical claim. All historical qualifications remain; no software restart, execution authority or automatic successor.
