@@ -1,3 +1,9 @@
+## E30 reviewed finite conservation and record access
+
+The new research note `docs/observables/finite_conservation_and_record_access.md` presents adopted GDM040/NE042 finite mathematics: conservation, extra additivity and committed-record nonidentifiability remain distinct. No physical mass or native unit is established. Observer extensions require their own separate proof/review. All software work remains paused. This additive publication entry preserves prior coordination history.
+
+---
+
 ## Reviewed finite branching response and scale — 2 November 2026, E29
 
 The [finite branching response and normalization note](docs/observables/finite_branching_response_and_scale.md) records accepted GDM037 and NE041: the exact chain/diamond comparison against the stated depth-attenuation family, and a parameter rescaling that preserves every stipulated complete source-response map. These are conditional model results; native dynamics, physical mass, calibration and units remain unestablished. Independent native source/conservation work continues. Software work stays paused.
