@@ -1,3 +1,9 @@
+## Reviewed finite source, order and return results — 3 November 2026
+
+GDM044 supplies a finite conserved-charge response in committed unmarked order under an explicit common reference. The separate GDM045 law supplies a matched-parent allocation return of 1/32 with a lawful zero-return comparison. E042 establishes that the existing native birth records cannot distinguish those return laws; its supplied terminal-effect criterion identifies the missing allocation-sensitive access premise. These are conditional mathematical results, not a combined autonomous feedback model or physical gravity, mass or units.
+
+See [the source, order, return and visibility note](docs/observables/finite_source_order_return_and_visibility.md). E042's original review procedure remains incomplete; its unchanged content was adopted only after a separate fresh review. No software work resumes. Historical entries below remain unchanged.
+
 ## Reviewed finite observer records — 3 November 2026
 
 The [observer and preparation note](docs/observables/finite_observer_records_and_preparation.md) documents the independently accepted GDM042/E040 finite model: complete committed records, unknown-preparation ambiguity and a fixed same-preparation reference condition. Physical mass, units, apparatus, calibration and efficiency remain unclaimed. No later candidate or software work is included.
