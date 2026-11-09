@@ -1,3 +1,7 @@
+## 9 November 2026 — Signed lifting work tests passive and inertial mass
+
+In one realizable nine-setting record with equal inertias, each of two fields admits a proportional passive-to-inertial fit on its own. With common clock calibration, the second requires twice the slope of the first and the combined record excludes proportionality. Allowing a field-specific clock gain restores a proportional fit to all the same observations, including blank and return readings. See `docs/observables/signed_lift_work_and_passive_mass.md`.
+
 ## 9 November 2026 — Terminal counts and field placement
 
 On the 60 prepared four-carrier histories, an unordered multiset of terminal counts decides whether to activate the field. Counts attached to their actual carriers also select the source, grounded return and all six pair types. The signal and blank laws carry over under the same supplied actuation and readout. See `docs/observables/terminal_counts_and_field_placement.md`.
