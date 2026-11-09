@@ -1,3 +1,7 @@
+## 9 November 2026 — Finite terminal readings distinguish two field couplings
+
+Two terminal readings and an ideal steady reference distinguish strengths 3 and 5 on an explicitly certified subset of the prepared native field model. The result assumes a common timing ratio and homogeneous storage. Each candidate can fit its own gain and time scale. See `docs/observables/finite_terminal_relaxation.md`.
+
 ## 9 November 2026 — Signed lifting work tests passive and inertial mass
 
 In one realizable nine-setting record with equal inertias, each of two fields admits a proportional passive-to-inertial fit on its own. With common clock calibration, the second requires twice the slope of the first and the combined record excludes proportionality. Allowing a field-specific clock gain restores a proportional fit to all the same observations, including blank and return readings. See `docs/observables/signed_lift_work_and_passive_mass.md`.
