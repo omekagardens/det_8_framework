@@ -1,5 +1,7 @@
 # DET Free Thinker coordination
 
+On 9 November 2026 Allan set a shared reserve of 20% remaining for every track, including Free Thinker. Before research or writing, obtain a fresh supported capacity reading for the identified account. Stop at 20% or less in any applicable reported Codex window, on a service block, or if capacity or account/window identity cannot be established. Resume only when a fresh supported reading shows more than 20% in every applicable reported window and service is available. Reset timestamps are informational. Boundary questions remain speculative philosophical prompts. Frozen packets preserve their original guard wording.
+
 Allan added this creative track on October 23, 2026 (Pacific/Honolulu). It complements the five existing research lanes without replacing their priorities. Its initial authority is philosophical ideation and a separate journal under `det8/free_thinker/`, not implementation.
 
 ## Routing
@@ -19,7 +21,7 @@ There is no direct messaging, assignment, file-writing or delegated relay to tho
 
 ## Existing scheduled loop
 
-Use the existing `det-review-follow-through` hourly heartbeat in the coordinator chat. Preserve its status, cadence, notification preferences and full shared 10% stop/reset rules; do not add a Free Thinker schedule. Preserve the separate Monday main-branch maintenance schedule.
+Use the existing `det-review-follow-through` hourly heartbeat in the coordinator chat with its current cadence and notification preferences. Apply the shared 20% reserve above, and recheck capacity before substantial work. The separate Monday main-branch maintenance automation stays paused.
 
 After the usage preflight and current research-status reconciliation:
 

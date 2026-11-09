@@ -1,3 +1,11 @@
+## 9 November 2026 — probe mass response and the relativistic mass ledger
+
+GDM065 shows exactly which part of the probe response the fixed paired readings identify. With calibrated acceleration gain, the clock contrast determines source strength and the motion contrast determines probe response. With unknown common gain, unit response at unit gain and a response of 5/4 at gain 4/5 give identical complete ideal records. The proof gives a sharp test under bounded measurement errors and keeps the source strength strictly positive. Physical interpretation requires an independently justified force model and calibration. See `docs/observables/paired_probe_response_and_acceleration_gain.md`.
+
+CL063 supplies a conventional mass-accounting reference. Both bodies change rest mass in the specified radiation exchange. The complete system retains invariant mass 2M through emission, flight and absorption. See `docs/observables/two_body_radiation_mass_ledger.md`.
+
+The current research charter applies a 20% shared capacity reserve and treats ordinary theory and review durations as planning targets. The first-lobe observation window of the new sector-inertia question is a scientific assumption. Software remains paused.
+
 ## 3 November 2026 — compensated-endpoint transition obstruction
 
 GDM064 rejects the exact supplied central two-body completion of the accepted compensated Q=1 endpoints. For every fixed positive m,a,T and every admitted C^2 autonomous central potential, initial rest gives zero relative angular momentum; positive separation fixes the oriented relative direction, contradicting the reversed labelled endpoint. Matching total mass, COM and endpoint energy are insufficient. The full three-dimensional proof and scope are in `docs/observables/compensated_source_transition_obstruction.md`. GDM051 static observations and the native law remain unchanged. This is neither a general isolated-rearrangement impossibility nor a native unit or gravity derivation. Earlier procedural qualifications remain permanent. Independent physics work continues; software remains paused.
