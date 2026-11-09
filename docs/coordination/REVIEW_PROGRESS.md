@@ -1,3 +1,7 @@
+## 9 November 2026 — Joint test for passive and active gravitational mass
+
+On the registered equal-axis clock and signed-lift models, a finite set of inequalities tests whether all three carriers can share a passive-to-active coefficient ratio. In one realizable record the lift forces a ratio of two between two passive coefficients while all corresponding active-mass ratios are smaller. The force interpretation requires the supplied leading monopole and passive response laws. See `docs/observables/joint_active_and_passive_gravitational_mass.md`.
+
 ## 9 November 2026 — Finite terminal readings distinguish two field couplings
 
 Two terminal readings and an ideal steady reference distinguish strengths 3 and 5 on an explicitly certified subset of the prepared native field model. The result assumes a common timing ratio and homogeneous storage. Each candidate can fit its own gain and time scale. See `docs/observables/finite_terminal_relaxation.md`.
