@@ -1,3 +1,7 @@
+## 9 November 2026 — Terminal counts and field placement
+
+On the 60 prepared four-carrier histories, an unordered multiset of terminal counts decides whether to activate the field. Counts attached to their actual carriers also select the source, grounded return and all six pair types. The signal and blank laws carry over under the same supplied actuation and readout. See `docs/observables/terminal_counts_and_field_placement.md`.
+
 ## 9 November 2026 — sharp mass bounds from twelve exterior clocks
 
 Six calibrated outer-minus-inner clock differences give strict bounds on total active mass for centered, inversion-symmetric positive sources strictly inside a known ball. When the three axis means agree in each sector after gradient cancellation, the bounds are sharp for the entire raw record. Equal inertias and a doubled middle-sector clock signal can exclude proportionality even when the source shape is unknown. For unequal axis means, overlapping bounds alone leave proportionality unresolved. See `docs/observables/twelve_clock_active_mass_bounds.md`.
