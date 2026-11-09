@@ -1,3 +1,7 @@
+## 9 November 2026 — Timing tolerance for the oscillator mass measurement
+
+For an ideal calibrated harmonic oscillator sampled on the same trajectory at 0, T and αT, suppose the unknown constant α lies within ε of √2. On 0 < ωT ≤ 4π, every compatible exact population covariance record identifies one mass precisely when ε < √2 − 4/3 (0 ≤ ε ≤ 1/5). At equality two masses differing by a factor of four have the same complete record. The result assumes a known thermal energy and calibrated displacement and first sampling time. See `docs/observables/oscillator_mass_timing_tolerance.md`.
+
 ## 9 November 2026 — Spring mass calibration and verification of the clock carrier
 
 Two travel times and matched spring-work strokes determine the feasible inertial mass scale in displayed work units under a shared stiffness and work gain. With independently known redshift gain, one realizable record restricts the common passive-to-inertial ratio to [8/5, 2]. Allowing different stroke and lift gains admits equality on that same record. See `docs/observables/spring_mass_scale_in_displayed_work.md`.
