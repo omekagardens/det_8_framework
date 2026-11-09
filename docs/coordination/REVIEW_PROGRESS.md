@@ -1,3 +1,7 @@
+## 9 November 2026 — Local metric mass and the weight of binding energy
+
+In the specified Schwarzschild–de Sitter static patch, radial and tangential tides fix Λ and GM/r³. A compatible nonzero signed holding acceleration determines the central mass. At static balance two masses differing eightfold give the same observations. In a separate three-carrier effective model, independently calibrated energy contrasts isolate contributions to passive weight when the material response is matched. In one constructed record an unobserved change in the material storing the energy permits unit binding response on data that otherwise give 3/2. See `docs/observables/local_mass_from_tides_and_support.md` and `docs/observables/gravitational_binding_and_passive_response.md`.
+
 ## 9 November 2026 — Timing tolerance for the oscillator mass measurement
 
 For an ideal calibrated harmonic oscillator sampled on the same trajectory at 0, T and αT, suppose the unknown constant α lies within ε of √2. On 0 < ωT ≤ 4π, every compatible exact population covariance record identifies one mass precisely when ε < √2 − 4/3 (0 ≤ ε ≤ 1/5). At equality two masses differing by a factor of four have the same complete record. The result assumes a known thermal energy and calibrated displacement and first sampling time. See `docs/observables/oscillator_mass_timing_tolerance.md`.
