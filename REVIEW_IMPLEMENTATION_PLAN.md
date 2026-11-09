@@ -1,3 +1,9 @@
+## 9 November 2026 — Spring mass calibration and verification of the clock carrier
+
+Two travel times and matched spring-work strokes determine the feasible inertial mass scale in displayed work units under a shared stiffness and work gain. With independently known redshift gain, one realizable record restricts the common passive-to-inertial ratio to [8/5, 2]. Allowing different stroke and lift gains admits equality on that same record. See `docs/observables/spring_mass_scale_in_displayed_work.md`.
+
+A reference spring on the actual clock carrier identifies whether active mass is proportional to inertia in the registered coefficient model when each true sector has some successful diagnostic coverage. Labels may be unreliable and inertias may tie. Overall success without coverage can leave the verdict undetermined. See `docs/observables/same_carrier_mass_registration.md`.
+
 ## 9 November 2026 — Finite-separation forces and three position observations
 
 At fixed total masses in the centered point-source model, the signed sum of the two axial matter forces spans a sharp open interval as internal passive response varies. All prior clock, spring and uniform-lift readings can agree throughout that interval. See `docs/observables/finite_separation_axial_force_bounds.md`.
