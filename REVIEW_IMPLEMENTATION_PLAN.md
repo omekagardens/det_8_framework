@@ -1,3 +1,7 @@
+## 9 November 2026 — sharp mass bounds from twelve exterior clocks
+
+Six calibrated outer-minus-inner clock differences give strict bounds on total active mass for centered, inversion-symmetric positive sources strictly inside a known ball. When the three axis means agree in each sector after gradient cancellation, the bounds are sharp for the entire raw record. Equal inertias and a doubled middle-sector clock signal can exclude proportionality even when the source shape is unknown. For unequal axis means, overlapping bounds alone leave proportionality unresolved. See `docs/observables/twelve_clock_active_mass_bounds.md`.
+
 ## 9 November 2026 — exterior gravity records, internal binding and finite field coupling
 
 For each fixed finite set of exterior potential samples, centered positive sources can have different total masses and produce identical readings. Two continuous spherical averages recover the total in the calibrated Newtonian model. See `docs/observables/finite_exterior_clocks_and_total_mass.md`.
