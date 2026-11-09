@@ -1,3 +1,7 @@
+## 9 November 2026 — three-position acceleration reference
+
+Three independently metered positions and a simultaneous display reading give a sharp conditional interval for the acceleration gain in the paired probe test. This requires a bound on how fast reference acceleration can change and the same gain in the reference and science trials. Without a prescribed common bound, distinct gains can reproduce every recorded reference and science outcome. The result is a measurement design. The mathematical example and its physical metrology requirements are in `docs/observables/three_position_acceleration_gain.md`.
+
 ## 9 November 2026 — inertial mass ratios across three sectors
 
 Three signed spring-extension ratios determine two independent mass ratios for a supplied mechanical attachment to three conserved native charge sectors. This requires a common spring stiffness, a common sampling interval and sampling strictly within the first half-oscillation for each pair. Changing stiffness across settings allows additive and nonadditive masses to give identical complete records. The observation does not fix an absolute mass scale. The construction, error bounds and loading-work comparison are in `docs/observables/sector_inertial_mass_ratios.md`.
