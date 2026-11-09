@@ -1,3 +1,9 @@
+## 9 November 2026 — Finite-separation forces and three position observations
+
+At fixed total masses in the centered point-source model, the signed sum of the two axial matter forces spans a sharp open interval as internal passive response varies. All prior clock, spring and uniform-lift readings can agree throughout that interval. See `docs/observables/finite_separation_axial_force_bounds.md`.
+
+In GDM055, three noninvasive position reads on the same trial exclude an autonomous position-only Markov description even with birth-specific transition probabilities. A reader that stores its first public observation and changes a later transition reproduces the records, including failures. See `docs/observables/three_position_reads_and_timed_projection.md`.
+
 ## 9 November 2026 — Joint test for passive and active gravitational mass
 
 On the registered equal-axis clock and signed-lift models, a finite set of inequalities tests whether all three carriers can share a passive-to-active coefficient ratio. In one realizable record the lift forces a ratio of two between two passive coefficients while all corresponding active-mass ratios are smaller. The force interpretation requires the supplied leading monopole and passive response laws. See `docs/observables/joint_active_and_passive_gravitational_mass.md`.
