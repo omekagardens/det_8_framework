@@ -1,3 +1,7 @@
+## 9 November 2026 — inertial mass ratios across three sectors
+
+Three signed spring-extension ratios determine two independent mass ratios for a supplied mechanical attachment to three conserved native charge sectors. This requires a common spring stiffness, a common sampling interval and sampling strictly within the first half-oscillation for each pair. Changing stiffness across settings allows additive and nonadditive masses to give identical complete records. The observation does not fix an absolute mass scale. The construction, error bounds and loading-work comparison are in `docs/observables/sector_inertial_mass_ratios.md`.
+
 ## 9 November 2026 — probe mass response and the relativistic mass ledger
 
 GDM065 shows exactly which part of the probe response the fixed paired readings identify. With calibrated acceleration gain, the clock contrast determines source strength and the motion contrast determines probe response. With unknown common gain, unit response at unit gain and a response of 5/4 at gain 4/5 give identical complete ideal records. The proof gives a sharp test under bounded measurement errors and keeps the source strength strictly positive. Physical interpretation requires an independently justified force model and calibration. See `docs/observables/paired_probe_response_and_acceleration_gain.md`.
