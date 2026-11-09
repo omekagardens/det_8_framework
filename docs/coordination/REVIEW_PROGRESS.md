@@ -1,3 +1,7 @@
+## 9 November 2026 — shell proper mass from two crossings
+
+At fixed known exterior Schwarzschild mass, a continuum of material masses can produce the same two radius tags. The elapsed proper time on the collapsing shell identifies one mass for each duration in the open admissible interval. This conventional GR benchmark requires an independently calibrated comoving clock. See `docs/observables/shell_proper_mass_from_crossing_times.md`.
+
 ## 9 November 2026 — three-position acceleration reference
 
 Three independently metered positions and a simultaneous display reading give a sharp conditional interval for the acceleration gain in the paired probe test. This requires a bound on how fast reference acceleration can change and the same gain in the reference and science trials. Without a prescribed common bound, distinct gains can reproduce every recorded reference and science outcome. The result is a measurement design. The mathematical example and its physical metrology requirements are in `docs/observables/three_position_acceleration_gain.md`.
