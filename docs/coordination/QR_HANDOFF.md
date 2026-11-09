@@ -1,3 +1,11 @@
+## 9 November 2026 — exterior gravity records, internal binding and finite field coupling
+
+For each fixed finite set of exterior potential samples, centered positive sources can have different total masses and produce identical readings. Two continuous spherical averages recover the total in the calibrated Newtonian model. See `docs/observables/finite_exterior_clocks_and_total_mass.md`.
+
+In CL068, three specified spherical layers with the same exterior field and diametral moment admit a sharp interval of gravitational dispersal work. One matched field reading between the inner two layers determines the profile. See `docs/observables/three_layer_gravitational_binding.md`.
+
+In the four-birth native preparation, the known chain and diamond probabilities make a static field reading sensitive to which order relations carry coupling. A common gain distinguishes immediate relations alone from equal coupling on every comparable pair. The proof classifies the remaining ambiguities under the supplied graph law and controller. See `docs/observables/finite_native_order_field_coupling.md`.
+
 ## 9 November 2026 — active and inertial mass across three registered sectors
 
 Three spring readings and three pairs of clock readings determine whether the active and inertial mass profiles are proportional under the specified common mechanical and spherical source models. If the static preparation secretly exchanges sectors 0 and 2, proportional and nonproportional worlds can give the same complete records. The absolute mass scale and physical registration require independent evidence. See `docs/observables/registered_active_and_inertial_mass.md`.
