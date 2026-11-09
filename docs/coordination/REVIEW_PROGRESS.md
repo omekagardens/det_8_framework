@@ -1,3 +1,7 @@
+## 9 November 2026 — active and inertial mass across three registered sectors
+
+Three spring readings and three pairs of clock readings determine whether the active and inertial mass profiles are proportional under the specified common mechanical and spherical source models. If the static preparation secretly exchanges sectors 0 and 2, proportional and nonproportional worlds can give the same complete records. The absolute mass scale and physical registration require independent evidence. See `docs/observables/registered_active_and_inertial_mass.md`.
+
 ## 9 November 2026 — shell proper mass from two crossings
 
 At fixed known exterior Schwarzschild mass, a continuum of material masses can produce the same two radius tags. The elapsed proper time on the collapsing shell identifies one mass for each duration in the open admissible interval. This conventional GR benchmark requires an independently calibrated comoving clock. See `docs/observables/shell_proper_mass_from_crossing_times.md`.
