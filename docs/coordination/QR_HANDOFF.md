@@ -1,3 +1,11 @@
+## 10 November 2026 — Reversed tides, clock calibration of curvature and gravity in a rotating frame
+
+A tidal pulse and its time reverse give the same mean terminal energy at every frequency of an ideal undamped probe when the two input phases are averaged. In a two-step example, retaining the initial displacement label distinguishes the two orders. In a separate conformal diamond model, order comparability and the maximum calibrated clock time between the tips determine the centre curvature in inverse-length-squared units. In a steady annular flow seen by a rotating camera, four surface heights and two signed tracer advances determine local gravity precisely when the record is compatible and the two advances differ.
+
+- [Phase-balanced energy and the order of a tidal pulse](../observables/phase_balanced_energy_and_tidal_pulse_order.md)
+- [Tip-to-tip proper time and dimensional curvature](../observables/proper_time_and_curvature_of_a_diamond.md)
+- [Gravity and vorticity from an annular free surface](../observables/gravity_from_an_annular_free_surface.md)
+
 ## 9 November 2026 — Tidal histories and interval-action weighting
 
 Two prescribed tidal histories give a free pair identical final separation, velocity and integrated squared speed. A spring-bound pair distinguishes them with one signed velocity reading after one period, including the stated error. In the four-birth native model, exponential weighting by the dimensionless interval action gives different probabilities for the third birth at different stopping sizes for every nonzero coupling.
