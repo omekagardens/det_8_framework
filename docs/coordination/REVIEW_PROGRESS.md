@@ -1,3 +1,9 @@
+## 10 November 2026 — Locating the inertial and passive centres of one pendulum
+
+A comparison of angular speeds after two equal impulses separates the inertial response from the restoring torque. Together with three periods at registered bearings, it locates both centres and determines the effective gravity of that body. Inferring field strength requires its passive-to-inertial mass ratio.
+
+- [Testing whether a pendulum’s passive and inertial centres coincide](../observables/testing_inertial_and_passive_centres_of_a_pendulum.md)
+
 ## 10 November 2026 — Pendulum acceleration and constituent rest density
 
 Three exact pivot periods determine a pendulum’s geometry relative to its pivot spacing. A registered spacing, clock and release angle also give its effective acceleration. Inferring the field strength requires a known frame and passive coupling. Independently, a local stress measurement bounds the constituent rest density of a massive gas. An unknown nonnegative vacuum contribution allows the gas rest density to approach zero for every compatible total stress.
