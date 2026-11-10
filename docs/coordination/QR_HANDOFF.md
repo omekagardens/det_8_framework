@@ -1,3 +1,9 @@
+## 10 November 2026 — Spectral field covariance and unread native growth
+
+A supplied spectral vacuum assigned anew after each birth changes the old-field covariance even when the full native suffix is unread. Exact positive lower bounds hold for both prepared bits. The commutator remains fixed; the failure concerns this field-state attachment and its stated marginal requirement.
+
+- [Spectral covariance under native growth](../observables/spectral_covariance_under_native_growth.md)
+
 ## 10 November 2026 — Testing the dispersion premise of moving-phase mass inference
 
 Three distinct phase-and-speed settings separate two supplied exact Hamiltonians despite unknown shared speed gain and dwell ratio. Two settings can fit both, and unequal moving durations erase this distinction. The test adds no absolute mass or action scale.
