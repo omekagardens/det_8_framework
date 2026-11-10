@@ -1,3 +1,10 @@
+## 9 November 2026 — Reusable mass detectors and gravity-bound modes
+
+A reused detector preserves the fresh finite mass test when its next recorded history and true store level have the fresh conditional distribution after every reachable earlier log in each candidate mass world. In the reviewed example a blank detector can be inhibited by a first silence. Its chance of certifying one of several candidate masses falls from 33675/470596 to 25/686. Separately, spatial nodes and a beat in two gravity-bound modes can test equality of action and of free-fall acceleration across sectors, provided both sectors share the ruler and frequency gains and their inertial mass ratio is known.
+
+- [Reusing a detector in the finite mass test](../observables/reusing_a_detector_in_the_finite_mass_test.md)
+- [Gravity-bound modes, action and acceleration](../observables/gravity_bound_modes_action_and_acceleration.md)
+
 ## 9 November 2026 — Finite records for absolute mass, interval action and gravitational spectroscopy
 
 One verified store gain fixes three absolute sector masses under matched inertial and rest-energy calibration. A wholly silent log preserves every scale allowed by the seed. In the four-birth calculation the prepared source changes the mean dimensionless interval action, but two different orders with identical terminal counters have different actions. For three separately registered sectors, two spectral lines and a matched endpoint weighing test passive-to-inertial proportionality if sector-dependent support shifts have been removed.
