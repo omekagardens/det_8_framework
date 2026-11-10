@@ -1,3 +1,10 @@
+## 9 November 2026 — Visible casing motion and a finite-mass curvature probe
+
+Six equally spaced positions of one casing after a calibrated impact determine the total inertial mass of a freely vibrating one-mode target relative to the reference mass. The same first five positions can come from targets of two different masses. In a separate two-dimensional continuum model, one finite-mass field response between opposite corners distinguishes two equal-area geometries. The normalized-response gap exceeds 1.5361 × 10⁻⁶ at the specified mass setting.
+
+- [Six casing positions and total inertial mass](docs/observables/six_casing_positions_and_total_inertial_mass.md)
+- [Massive corner response and curvature](docs/observables/massive_corner_response_and_curvature.md)
+
 ## 9 November 2026 — Baryonic rest mass and point-source propagation
 
 In a cold two-phase star, chemical equilibrium lets a single outer baryon-density measurement fix the total baryonic rest mass. When exchange is frozen, two stars can share the complete geometry, pressure, energy density and outer calibration while one contains twice as many core baryons. In the finite-order scalar model, a point impulse gives opposite signs at the far ends of a diamond and a four-event chain. The proposed two-dimensional massless causal kernel assigns the same response to both.
