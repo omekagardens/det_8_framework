@@ -1,3 +1,7 @@
+## 9 November 2026 — What two lens images measure about central mass
+
+Two signed image positions and their calibrated delay determine the redshifted total compact mass in the supplied circular lens. A complete two-image census places a strict lower bound on the fraction in a central point for a uniform disk of known radius inside both rays. In the worked geometry, point fractions of 1/25 and 1/2 give the same images and delay. Physical mass also requires a lens redshift. See `docs/observables/two_lensed_images_and_central_mass.md`.
+
 ## 9 November 2026 — When a stored occupation count can carry rest energy
 
 Three carriers can increase a calibrated store by 117/2744 occupation counts on average only at the positive spacing w = (3M₁ − M₂ − 2M₀)c². At every other positive spacing the sharp maximum is zero. The mass ratios 1:2:4 rule out a positive gain, while 1:2:7/2 permit it at w = M₀c²/2. The result assumes exact conservation on every trial, additive rest energies, and an independently calibrated store. See `docs/observables/occupation_store_rest_energy.md`.
