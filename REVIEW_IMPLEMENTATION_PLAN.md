@@ -1,3 +1,9 @@
+## 10 November 2026 — Two shell masses from one centre-traversing photon
+
+On a strictly collapsing weak-self-gravity branch, one exterior photon redshift and two shell radii measured as a ratio locally determine the material and exterior masses in entry-radius units. The centre travel time connects the two crossing events.
+
+- [Two shell masses from one centre-traversing photon](docs/observables/two_shell_masses_from_one_photon.md)
+
 ## 10 November 2026 — Gravitational mass from radiation and source weights on finite orders
 
 Two separate spherical models identify material and exterior shell masses from opposite rays, and the fraction of gravitational mass radiated from paired fluence and clock readings. A four-event source comparison tests whether interval action governs the observed probabilities of rooted orders.
