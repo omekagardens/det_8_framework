@@ -1,3 +1,11 @@
+## 9 November 2026 — Rotor inertia, rotating optical rings and radiative mass-sector readout
+
+Two closed rotor cycles determine inertia ratios. A third with a calibrated added moment fixes the two moments, and a known length fixes each slider mass. Four guided-light return times on two registered Kerr rings distinguish signed source spin, receiver rotation and mass except when source and receivers are both nonrotating, in which case the mass remains free within the admitted domain. In the separately supplied reversible radiative model, one output mode can report at most half the one-occupation mixture; two modes can report it all while leaving the microscopic label invisible in the photon alone.
+
+- `docs/observables/rotor_angles_and_inertia_standard.md`
+- `docs/observables/rotating_optical_rings_mass_and_spin.md`
+- `docs/observables/radiative_readout_of_one_occupation.md`
+
 ## 9 November 2026 — Enclosed mass from fourteen radial readings
 
 Six axial and eight diagonal radial accelerations determine enclosed gravitating mass when an exterior shell’s angular density has spherical harmonic degree at most five. Permitting degree six gives two nonnegative source configurations with identical signed readings at every probe, despite different enclosed masses. The angular bound and dimensional calibrations must be established independently. See `docs/observables/enclosed_mass_from_spherical_accelerations.md`.
