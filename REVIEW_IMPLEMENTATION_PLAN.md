@@ -1,3 +1,11 @@
+## 10 November 2026 — Material mass, exterior mass response and a finite sampling bound
+
+In ideal flow two impulse directions separate material mass from fluid inertia. Two free recoils, combined with a calibrated radiation action, separately determine the registered exterior fixture response. For the native four-event record, uniform sampling without replacement requires a fixed parent size of at most 17; sharpness at 17 for causal orders remains open.
+
+- [Material mass from two immersed impulses](docs/observables/material_mass_from_two_immersed_impulses.md)
+- [Finite parent size from disjoint pairs](docs/observables/finite_parent_size_from_disjoint_pairs.md)
+- [Exterior fixture response from two free recoils](docs/observables/fixture_mass_response_from_two_free_recoils.md)
+
 ## 10 November 2026 — A four-event test of independent spacetime sampling
 
 In the native four-event record, the comparability indicators of two disjoint pairs have negative covariance at every source mixture. Four independent, identically distributed event draws in a fixed geometry and measure give zero covariance. If the draws are conditionally independent and identically distributed given a geometry and measure shared within each trial, the covariance is nonnegative.
