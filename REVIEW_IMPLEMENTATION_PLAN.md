@@ -1,3 +1,7 @@
+## 9 November 2026 — Central density from finite gravity readings
+
+Within the registered uniform-ball and cube-corner source family, six equal positive inward accelerations are compatible with an empty central region and with a continuous range of positive densities. The inward x component measured at the diagonal site at the same instant uniquely separates the two source amplitudes. The apparatus supplies length, acceleration calibration and Newtonian G. See `docs/observables/finite_baseline_and_central_density.md`.
+
 ## 9 November 2026 — Rest-mass ratios from photon recoil
 
 Opposite photon directions cancel an unknown common carrier velocity in each absorption or emission pair. The frequency meter’s zero still affects the mass ratio. For displayed readings (4, 12, 6, 7) the full range has an open lower endpoint at one and an attained upper endpoint. Calibrating the zero gives a single ratio. Absolute masses additionally require the photon energy per display unit. See `docs/observables/free_photon_recoil_and_mass_ratio.md`.
