@@ -1,3 +1,10 @@
+## 10 November 2026 — Time reversal in sampled positions and order in projected events
+
+A hidden direction changes which microscopic reversal laws a stationary position record can exclude. In a separate gravity calibration model, dropping angular coordinates preserves count homogeneity for a fixed transverse area while losing the event order used by the scalar.
+
+- [Negative lag covariance and microscopic time reversal](../observables/negative_position_covariance_and_time_reversal.md)
+- [Causal order and scalar length after radial projection](../observables/causal_order_after_radial_projection.md)
+
 ## 10 November 2026 — Areal radius from a reflected light pulse
 
 In the stated spherical model, the ratio of two population mean event counts identifies compactness. Their sum fixes the radius in units of the event-density length. Converting to scalar length units requires an independently registered density calibration.
