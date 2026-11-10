@@ -1,3 +1,9 @@
+## 10 November 2026 — Parent size with incomplete four-event records
+
+Assume four distinct vertices are sampled uniformly from each finite parent and every trial has a definite four-order. When full records can be missed selectively, a uniformly chosen pair from each missed order can preserve the parent-size test. In a feasible example with 98% complete records, the pair statistic excludes a population consisting entirely of parents with nine or more vertices. Counts of missed records alone are inconclusive.
+
+- [A parent-size test with incomplete four-event records](../observables/parent_size_with_incomplete_four_event_records.md)
+
 ## 10 November 2026 — Two timing gates and a marked waiting law
 
 For two fair native birth marks, the two-gate waiting record admits both a mark-conditioned exponential rate and an independent mixture clock. At unequal rates, recording early completions with two zero marks per trial started distinguishes these specified models. Equal rates give the same record. The result supplies no physical clock calibration or elapsed-time selection rule for four-event geometry.
