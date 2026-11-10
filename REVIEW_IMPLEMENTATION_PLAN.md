@@ -1,3 +1,7 @@
+## 9 November 2026 — Enclosed mass from fourteen radial readings
+
+Six axial and eight diagonal radial accelerations determine enclosed gravitating mass when an exterior shell’s angular density has spherical harmonic degree at most five. Permitting degree six gives two nonnegative source configurations with identical signed readings at every probe, despite different enclosed masses. The angular bound and dimensional calibrations must be established independently. See `docs/observables/enclosed_mass_from_spherical_accelerations.md`.
+
 ## 9 November 2026 — Central density from finite gravity readings
 
 Within the registered uniform-ball and cube-corner source family, six equal positive inward accelerations are compatible with an empty central region and with a continuous range of positive densities. The inward x component measured at the diagonal site at the same instant uniquely separates the two source amplitudes. The apparatus supplies length, acceleration calibration and Newtonian G. See `docs/observables/finite_baseline_and_central_density.md`.
