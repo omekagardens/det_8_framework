@@ -1,3 +1,10 @@
+## 10 November 2026 — Pendulum acceleration and constituent rest density
+
+Three exact pivot periods determine a pendulum’s geometry relative to its pivot spacing. A registered spacing, clock and release angle also give its effective acceleration. Inferring the field strength requires a known frame and passive coupling. Independently, a local stress measurement bounds the constituent rest density of a massive gas. An unknown nonnegative vacuum contribution allows the gas rest density to approach zero for every compatible total stress.
+
+- [Effective acceleration from three pivot periods](docs/observables/effective_acceleration_from_three_pivot_periods.md)
+- [Constituent rest density from local stress](docs/observables/constituent_rest_density_from_local_stress.md)
+
 ## 10 November 2026 — An inertial mass bound from two tagged sector transitions
 
 With registered sector mass ratios and both tagged radiation actions calibrated in gravitational units, a finite set of positive two-photon invariants gives an attained lower bound on the baseline mass. A certified population reaching the kinematic endpoint fixes the mass.
