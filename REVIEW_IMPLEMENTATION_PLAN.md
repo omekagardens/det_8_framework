@@ -1,3 +1,9 @@
+## 9 November 2026 — Finite position error in recoil weighing
+
+Six exact positions identify the total mass of the one-mode target after a calibrated impact. With any positive position-error allowance, two different masses can fit the same readings even when the incoming target energy is capped. The spring can be soft enough to hide most of the difference in centre-of-mass motion throughout the flight. An independent bound on the casing displacement about its translating equilibrium gives a sufficient discrimination threshold.
+
+- [Energy cap, casing displacement and mass resolution](docs/observables/finite_error_in_recoil_mass.md)
+
 ## 9 November 2026 — Visible casing motion and a finite-mass curvature probe
 
 Six equally spaced positions of one casing after a calibrated impact determine the total inertial mass of a freely vibrating one-mode target relative to the reference mass. The same first five positions can come from targets of two different masses. In a separate two-dimensional continuum model, one finite-mass field response between opposite corners distinguishes two equal-area geometries. The normalized-response gap exceeds 1.5361 × 10⁻⁶ at the specified mass setting.
