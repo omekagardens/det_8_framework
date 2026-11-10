@@ -1,3 +1,10 @@
+## 10 November 2026 — Locating curvature and sampling total mass
+
+Four nested count means recover centre curvature within a specified conformal family. In a separate mechanical model, two exact sampling intervals identify total mass, but every fixed finite schedule admits separated masses within any positive force tolerance when spring stiffness is unrestricted.
+
+- [Centre curvature from nested diamonds](docs/observables/centre_curvature_from_nested_diamonds.md)
+- [Total inertial mass with two sampling intervals](docs/observables/total_mass_with_two_sampling_intervals.md)
+
 ## 10 November 2026 — Total inertial mass from two accelerating terminals
 
 Nine signed force sums recover the total constituent mass while both ends accelerate together. The sampling condition excludes a force-visible mode that completes whole cycles between readings.
