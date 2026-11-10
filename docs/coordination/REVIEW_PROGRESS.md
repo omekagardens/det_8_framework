@@ -1,3 +1,10 @@
+## 10 November 2026 — Two ways to constrain inertia from gravitational and phase readings
+
+In a homogeneous, isotropically expanding Einstein model with a conserved collisionless massive gas and constant nonnegative vacuum energy, a calibrated first-epoch null Ricci contraction and a two-epoch change in scalar curvature bound the gas rest-energy density on both sides. In a separate native-sector model with a supplied relativistic dispersion relation and known spring mass ratios, three unwrapped moving-to-rest phase ratios at the same nonzero momentum test the internal energy offset and its agreement with the spring inertias.
+
+- [Rest density from null focusing and a trace change](../observables/rest_density_from_null_focusing_and_a_trace_change.md)
+- [A common-momentum phase test of spring inertia](../observables/moving_phase_test_of_spring_inertia.md)
+
 ## 10 November 2026 — Parent size with incomplete four-event records
 
 Assume four distinct vertices are sampled uniformly from each finite parent and every trial has a definite four-order. When full records can be missed selectively, a uniformly chosen pair from each missed order can preserve the parent-size test. In a feasible example with 98% complete records, the pair statistic excludes a population consisting entirely of parents with nine or more vertices. Counts of missed records alone are inconclusive.
