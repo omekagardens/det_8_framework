@@ -1,3 +1,9 @@
+## 10 November 2026 — Integrated curvature from four frequency ratios
+
+In the stated two-dimensional metric, four null-link frequency ratios give the signed integral of scalar curvature even when all four observer velocities are unknown. Only the product of the side-station gains relative to the tip gains needs calibration. When that product is free, a flat and a curved diamond can give exactly the same four readings.
+
+- [Four frequency ratios and integrated curvature](../observables/integrated_curvature_from_four_frequency_ratios.md)
+
 ## 10 November 2026 — Compact lens mass, rigid-flow gravity and stopped interval actions
 
 Two resolved images at different radii and their signed delay determine the redshifted compact mass in a constant external gravitational shear. Three rigid rotations of one annular fluid determine local gravity with an unknown camera spin and height-gauge offset. In the finite native growth model, a detector can reproduce the action distribution of a genuine earlier stop while failing to recover the earlier action on individual trials.
