@@ -1,3 +1,11 @@
+## 10 November 2026 — Compact lens mass, rigid-flow gravity and stopped interval actions
+
+Two resolved images at different radii and their signed delay determine the redshifted compact mass in a constant external gravitational shear. Three rigid rotations of one annular fluid determine local gravity with an unknown camera spin and height-gauge offset. In the finite native growth model, a detector can reproduce the action distribution of a genuine earlier stop while failing to recover the earlier action on individual trials.
+
+- [Compact lens mass from two timed images](../observables/two_image_masses_in_constant_shear.md)
+- [Gravity from three rigid rotations](../observables/gravity_from_three_rigid_rotations.md)
+- [Stopped and induced interval actions](../observables/stopped_and_induced_interval_actions.md)
+
 ## 10 November 2026 — Reversed tides, clock calibration of curvature and gravity in a rotating frame
 
 A tidal pulse and its time reverse give the same mean terminal energy at every frequency of an ideal undamped probe when the two input phases are averaged. In a two-step example, retaining the initial displacement label distinguishes the two orders. In a separate conformal diamond model, order comparability and the maximum calibrated clock time between the tips determine the centre curvature in inverse-length-squared units. In a steady annular flow seen by a rotating camera, four surface heights and two signed tracer advances determine local gravity precisely when the record is compatible and the two advances differ.
