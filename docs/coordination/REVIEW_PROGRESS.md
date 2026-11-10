@@ -1,3 +1,11 @@
+## 10 November 2026 — Cavity clocks, free-fall tides and marked path readings
+
+One light pulse in a supported accelerating cavity gives different force-to-acceleration ratios when each mirror uses its own clock and when both use base time. A radial free-fall tidal history in the prescribed spherical exterior admits different central masses; one registered spatial tidal gradient resolves them. On a marked four-event diamond, the two mixed-endpoint path readings must both equal the mean of the two equal-endpoint readings under the proposed shared link rule.
+
+- [Two clocks on a supported light cavity](../observables/two_clocks_on_a_supported_light_cavity.md)
+- [A falling observer, a tidal gradient and central mass](../observables/central_mass_from_falling_tides_and_a_gradient.md)
+- [Two-path transport on a marked diamond](../observables/two_path_transport_on_a_marked_diamond.md)
+
 ## 10 November 2026 — Integrated curvature from four frequency ratios
 
 In the stated two-dimensional metric, four null-link frequency ratios give the signed integral of scalar curvature even when all four observer velocities are unknown. Only the product of the side-station gains relative to the tip gains needs calibration. When that product is free, a flat and a curved diamond can give exactly the same four readings.
