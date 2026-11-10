@@ -1,3 +1,7 @@
+## 9 November 2026 — Order comparability and centre curvature
+
+On a four-event native order, the terminal descendant counts give the exact fraction of comparable pairs. In a separate model, a fixed detector profile can make a flat and a curved diamond yield identical records. Independent complementary detector settings for each event recover a population probability that identifies centre curvature times proper area within the stated metric family. See `docs/observables/order_comparability_and_curvature.md`.
+
 ## 9 November 2026 — Weighing stored vibration
 
 A calibrated crossing and two turning points distinguish three combinations of kinetic, elastic and support responses. Unequal positive intrinsic responses can reproduce the entire weighing trace of equal unit responses. An independently measured support coefficient or an independently established common elastic sensitivity resolves the ambiguity within the stated model. See `docs/observables/stored_vibration_and_passive_mass.md`.
