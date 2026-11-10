@@ -1,3 +1,9 @@
+## 9 November 2026 — Equal radial lengths and different matter energies
+
+Two regular static fluid spheres can have the same Schwarzschild exterior, surface area and exact centre-to-surface distance while containing different integrated local matter energies. Small redistributions of mass in two interior regions preserve the distance and change the proper-volume energy integral. Both density profiles decrease outward and both fluids satisfy isotropic hydrostatic equilibrium. The construction allows the material equation of state to differ.
+
+- [Fluid spheres with the same rod reading](docs/observables/equal_radial_length_and_unequal_fluid_energy.md)
+
 ## 9 November 2026 — Static matter energy, scalar response and action measurements
 
 A thin shell and a uniform fluid can have the same entire Schwarzschild exterior and different integrated local matter energies. One proper radial distance distinguishes these two static sources. On four-birth orders, eight scalar-response readings recover the mean interval action. An external reference gives the model length its units. In a separate comparison of occupation and spatial actions, two wrapped beat readings can exclude equality or leave it possible.
