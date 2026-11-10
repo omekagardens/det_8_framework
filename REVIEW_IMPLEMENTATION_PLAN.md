@@ -1,3 +1,7 @@
+## 9 November 2026 — Action per occupation from sector masses and phase readings
+
+The three registered sector masses and phase advances give a sharp feasible set for action per unit occupation in units of reference rest energy times one tick, under a supplied common convex Hamiltonian. One full record gives 1 < J₀/(M₀c²T) < 2. With only convexity removed, every positive value fits those same masses and observations. A physical action value still requires an independent time and energy calibration. See `docs/observables/action_per_occupation_from_sector_masses.md`.
+
 ## 9 November 2026 — Two-site radar and local active/passive mass
 
 In a specified Schwarzschild–de Sitter family whose endpoint clocks run at equal rates, two different positive masses give identical tides and the same positive inner-clock radar echo. A separately calibrated static proper length fixes the mass in this family. In a different two-carrier model, three aligned net gravitational-force nulls and one registered end-for-end reversal null establish a common ratio of passive to active mass at all four sites. Aligned nulls at every separation can miss a mismatch, and the four nulls leave the numerical ratio undetermined. See `docs/observables/two_site_tides_and_radar_mass.md` and `docs/observables/local_active_passive_mass_from_force_nulls.md`.
