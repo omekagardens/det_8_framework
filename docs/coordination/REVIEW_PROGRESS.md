@@ -1,3 +1,10 @@
+## 10 November 2026 — Retarded stress and impact continuation
+
+A bounded time-dependent stress produces an outgoing tidal contrast despite identical energy and momentum densities in the supplied retarded linear model. Separately, identical impact ratios leave a geometric coordinate undetermined that decides finite free-flight admissibility. These conditional results preserve their exact source, geometry, timing and calibration limits.
+
+- [Retarded tidal stress at fixed density](../observables/retarded_stress_at_fixed_density.md)
+- [Impact records and finite free-flight admissibility](../observables/impact_records_and_free_flight_admissibility.md)
+
 ## 10 November 2026 — Stress gravity and complete body-fluid balance
 
 Two compact sources share pointwise energy density and integrated inertia yet yield different exterior tidal curvature in the supplied linearized model. A separate ideal body-fluid construction develops intrinsic spin after a central impulse while conserving total generalized angular impulse through orbital compensation. Both retain conventional source, preparation and calibration assumptions.
