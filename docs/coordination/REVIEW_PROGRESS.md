@@ -1,3 +1,9 @@
+## 10 November 2026 — Stationary dynamics requires a changed field prefix
+
+The accepted two-event field covariance obstructs every finite positive oscillator realization in the specified stationary class. Releasing that covariance permits an exact two-mode realization at four supplied ticks. The construction establishes neither an all-branch dynamical model nor physical clock, action or mass scales.
+
+- [Stationary dynamics for four-chain fields](../observables/stationary_dynamics_for_four_chain_fields.md)
+
 ## 10 November 2026 — Impact inertia and a consistent finite field attachment
 
 Four signed impact ratios identify rigid-target inertia relative to a supplied projectile mass under one common restitution law. Separately, a three-pair Gaussian field construction preserves the old-field state through all registered native histories by retaining central fluctuations. Its dynamics and physical mass interpretation remain open.
