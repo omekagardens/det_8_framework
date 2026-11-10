@@ -1,3 +1,9 @@
+## 9 November 2026 — Required timing precision for PSR J1738+0333
+
+At the published parameters for PSR J1738+0333, the five-phase propagation contrast is about 37 ns. Guaranteed separation from zero in that contrast needs a pointwise error below 2.31 ns. The leading eccentricity correction is about −184 ns before subtraction, and its published fit assumes the propagation signal. The examined records leave the companion test conditional on independent calibration and phase-tagged timing data.
+
+- [Timing precision and calibration for the five-phase design](../observables/five_phase_timing_precision_for_psr_j1738.md)
+
 ## 9 November 2026 — One-bit observation of the mean interval action
 
 Three independently assigned omission settings make the population mean of the four-birth interval action identifiable from one induced-link bit per preparation. If one coin controls both omissions, two supported preparations give the same bit probabilities at every setting despite mean actions of 2 and −1. The design requires a calibrated pair and omission detector. Finite samples retain statistical uncertainty.
