@@ -1,3 +1,9 @@
+## 9 November 2026 — Masses from five pulse arrivals
+
+For an inclined circular binary, the even contrasts of five exact, phase-labelled residuals identify the inclination and companion mass under the supplied logarithmic propagation law. Both corrected odd slopes must agree. Determining the emitter mass also requires calibration of the stable first-harmonic lag. At zero inclination the record provides only the independently imposed mass domain.
+
+- [Binary masses from five pulse arrivals](../observables/five_pulse_arrivals_and_binary_masses.md)
+
 ## 9 November 2026 — Reusable mass detectors and gravity-bound modes
 
 A reused detector preserves the fresh finite mass test when its next recorded history and true store level have the fresh conditional distribution after every reachable earlier log in each candidate mass world. In the reviewed example a blank detector can be inhibited by a first silence. Its chance of certifying one of several candidate masses falls from 33675/470596 to 25/686. Separately, spatial nodes and a beat in two gravity-bound modes can test equality of action and of free-fall acceleration across sectors, provided both sectors share the ruler and frequency gains and their inertial mass ratio is known.
