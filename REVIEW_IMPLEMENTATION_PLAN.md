@@ -1,3 +1,10 @@
+## 10 November 2026 — Parent order size and a null-affine receiver
+
+For the specified native four-event population, uniform sampling of four distinct vertices from each finite parent requires more than 3.5% of trials to draw parents of size four through eight. In a separate continuum construction, an ideal scalar measurement at a receiver defined by two registered null-affine midpoints distinguishes a pair of time-oriented diamonds whose opposite-corner readings agree at every scalar mass.
+
+- [Parent order size from a four-event record](docs/observables/variable_parent_size_from_four_native_events.md)
+- [Null-affine midpoint receiver in two oriented diamonds](docs/observables/affine_midpoint_receiver_in_two_oriented_diamonds.md)
+
 ## 10 November 2026 — Rest mass from two curvature readings during expansion
 
 In the homogeneous, isotropically expanding Einstein model with a conserved collisionless massive gas and an unknown constant nonnegative vacuum energy, two calibrated Ricci scalars at a known expansion ratio give an attained lower bound on the rest mass per first-epoch proper volume. At the cold, vacuum-free boundary the density is fixed. In the interior, the same data permit arbitrarily large finite densities.
