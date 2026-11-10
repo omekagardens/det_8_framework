@@ -1,3 +1,7 @@
+## 9 November 2026 — When a stored occupation count can carry rest energy
+
+Three carriers can increase a calibrated store by 117/2744 occupation counts on average only at the positive spacing w = (3M₁ − M₂ − 2M₀)c². At every other positive spacing the sharp maximum is zero. The mass ratios 1:2:4 rule out a positive gain, while 1:2:7/2 permit it at w = M₀c²/2. The result assumes exact conservation on every trial, additive rest energies, and an independently calibrated store. See `docs/observables/occupation_store_rest_energy.md`.
+
 ## 9 November 2026 — Action per occupation from sector masses and phase readings
 
 The three registered sector masses and phase advances give a sharp feasible set for action per unit occupation in units of reference rest energy times one tick, under a supplied common convex Hamiltonian. One full record gives 1 < J₀/(M₀c²T) < 2. With only convexity removed, every positive value fits those same masses and observations. A physical action value still requires an independent time and energy calibration. See `docs/observables/action_per_occupation_from_sector_masses.md`.
