@@ -1,3 +1,7 @@
+## 9 November 2026 — Comparing lensing mass with orbital motion
+
+A tagged circular orbit, Doppler amplitude and two echo times give a closed interval of redshifted dynamical masses when inclination and response lag are unknown. In the worked record the orbital mass ranges from one half to four times the lensing mass, with both endpoints attained. The common redshift cancels in the ratio. An independent lag or inclination measurement decides equality under the supplied physical laws. See `docs/observables/orbital_and_lensing_mass_from_timed_records.md`.
+
 ## 9 November 2026 — Material response, lens sensitivity and a fresh occupation store
 
 Two matched Newtonian spheres receive the same kick and have zero material acceleration at release. One reaches $3R_0/5$ at $4/(5\Omega)$, while the other stays above that threshold. QR adopted this as a finite test of source-record sufficiency. In the worked lens geometry, a receiver reaching $63/169$ of the reference flux preserves the lower point-mass bound. Under full carrier-plus-store reversibility, a fresh store can gain $519/686$ counts on average at the stipulated $1:2:4$ masses and spacing $M_0c^2$. All three are conditional results. See `docs/observables/matched_self_gravitating_fluid_crossing.md`, `docs/observables/lensed_image_detection_threshold.md`, `docs/observables/joint_reversible_occupation_store.md`.
