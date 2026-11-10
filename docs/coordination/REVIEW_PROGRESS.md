@@ -1,3 +1,9 @@
+## 10 November 2026 — Total inertial mass from two accelerating terminals
+
+Nine signed force sums recover the total constituent mass while both ends accelerate together. The sampling condition excludes a force-visible mode that completes whole cycles between readings.
+
+- [Total mass from nine boundary forces](../observables/total_mass_from_nine_boundary_forces.md)
+
 ## 10 November 2026 — Signed boundary inertia and event density
 
 Seven forces isolate a signed boundary response in two positive-mass networks. For a causal diamond sampled by a Poisson process, changing one counter mask between exposures recovers the underlying mean event count.
