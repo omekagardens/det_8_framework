@@ -1,3 +1,11 @@
+## 9 November 2026 — Static matter energy, scalar response and action measurements
+
+A thin shell and a uniform fluid can have the same entire Schwarzschild exterior and different integrated local matter energies. One proper radial distance distinguishes these two static sources. On four-birth orders, eight scalar-response readings recover the mean interval action. An external reference gives the model length its units. In a separate comparison of occupation and spatial actions, two wrapped beat readings can exclude equality or leave it possible.
+
+- [Proper radial distance and local matter energy](../observables/static_radial_length_and_proper_matter_energy.md)
+- [Scalar-response length and mean interval action](../observables/scalar_response_length_and_interval_action.md)
+- [Comparing occupation action with spatial action](../observables/comparing_occupation_and_spatial_actions.md)
+
 ## 9 November 2026 — Eight-phase companion-mass design
 
 Eight equally spaced orbital phases cancel the leading eccentricity delay in the proposed timing observation. At the published parameters for PSR J1738+0333, two predicted propagation components survive at −31.25 ns and +6.52 ns. They distinguish companion mass and inclination locally under the specified model. Applying the design requires independently established phases, constraints on higher harmonics and a joint timing error bound.
