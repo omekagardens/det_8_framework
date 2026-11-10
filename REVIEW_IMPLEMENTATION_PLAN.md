@@ -1,3 +1,9 @@
+## 10 November 2026 — Spherical mass from one orbiting gyroscope
+
+In a smooth static spherical annulus, the signed direction of an initially outward spin after one circular geodesic, together with its areal radius and proper period, determines the Misner–Sharp mass on the orbit. The forward spin sign can distinguish two masses with the same radial projection.
+
+- [Spherical mass from one orbiting gyroscope](docs/observables/spherical_mass_from_one_orbiting_gyroscope.md)
+
 ## 10 November 2026 — Mass from crossing observers and curvature from exchanged receivers
 
 Two radial observers in free fall can recover a central mass by comparing tides and opposite light rays where they cross. In a separate four-ray curvature measurement, exchanging all devices between the tips and sides removes unknown portable gains when the integrated curvature is reproducible.
