@@ -1,3 +1,9 @@
+## 10 November 2026 — Inclined binary mass families
+
+Two tagged radial channels identify mass ratio and projected separation in the supplied circular Newtonian model. Component photometry usually fixes the remaining scale; face-on records retain a continuum, and an exact closed separation bound can enforce a special singleton. Calibration and shared inertial/gravitational masses remain supplied.
+
+- [Inclined binary mass families from two observed phases](docs/observables/inclined_binary_mass_families.md)
+
 ## 10 November 2026 — Stationary dynamics requires a changed field prefix
 
 The accepted two-event field covariance obstructs every finite positive oscillator realization in the specified stationary class. Releasing that covariance permits an exact two-mode realization at four supplied ticks. The construction establishes neither an all-branch dynamical model nor physical clock, action or mass scales.
