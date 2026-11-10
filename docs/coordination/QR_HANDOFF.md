@@ -1,3 +1,9 @@
+## 10 November 2026 — A driven scalar ruler in a spherical annulus
+
+At known compactness, the midpoint amplitude of a driven scalar determines its inverse length times the areal radius. Three registered settings test the mass-increment law. Converting the result to the finite scalar’s length units requires an independently calibrated increment ratio.
+
+- [A driven scalar ruler for a spherical gravity experiment](../observables/driven_scalar_ruler_in_a_spherical_annulus.md)
+
 ## 10 November 2026 — Time reversal in sampled positions and order in projected events
 
 A hidden direction changes which microscopic reversal laws a stationary position record can exclude. In a separate gravity calibration model, dropping angular coordinates preserves count homogeneity for a fixed transverse area while losing the event order used by the scalar.
