@@ -1,3 +1,9 @@
+## 10 November 2026 — Passive gravity of a solid and its fluid
+
+Two signed support loads at distinct registered fluid densities compare passive gravitational response per unit inertial mass. An unknown common uniform lab acceleration preserves the equality and ordering test.
+
+- [Passive gravity from two immersed support loads](../observables/passive_gravity_from_two_immersed_support_loads.md)
+
 ## 10 November 2026 — Material mass, exterior mass response and a finite sampling bound
 
 In ideal flow two impulse directions separate material mass from fluid inertia. Two free recoils, combined with a calibrated radiation action, separately determine the registered exterior fixture response. For the native four-event record, uniform sampling without replacement requires a fixed parent size of at most 17; sharpness at 17 for causal orders remains open.
