@@ -1,3 +1,11 @@
+## 9 November 2026 — Finite records for absolute mass, interval action and gravitational spectroscopy
+
+One verified store gain fixes three absolute sector masses under matched inertial and rest-energy calibration. A wholly silent log preserves every scale allowed by the seed. In the four-birth calculation the prepared source changes the mean dimensionless interval action, but two different orders with identical terminal counters have different actions. For three separately registered sectors, two spectral lines and a matched endpoint weighing test passive-to-inertial proportionality if sector-dependent support shifts have been removed.
+
+- [Absolute sector masses from a finite store log](docs/observables/finite_store_log_and_absolute_sector_masses.md)
+- [Prepared source and finite interval action](docs/observables/finite_interval_action_and_source_preparation.md)
+- [Gravitational spectroscopy and endpoint weighing](docs/observables/sector_spectroscopy_and_endpoint_weighing.md)
+
 ## 9 November 2026 — Site masses from weight and tidal torque
 
 For the seven-site body with equal coefficients within each opposed pair, rigid weight and tidal torque can exclude a common positive passive-to-inertial ratio. Every compatible ratio has a strictly positive unequal-ratio alternative in all rigid conservative affine fields. Doubling the radius of one labelled pair fixes its coefficient and hence the three others.
