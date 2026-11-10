@@ -1,3 +1,7 @@
+## 9 November 2026 — Weighing stored vibration
+
+A calibrated crossing and two turning points distinguish three combinations of kinetic, elastic and support responses. Unequal positive intrinsic responses can reproduce the entire weighing trace of equal unit responses. An independently measured support coefficient or an independently established common elastic sensitivity resolves the ambiguity within the stated model. See `docs/observables/stored_vibration_and_passive_mass.md`.
+
 ## 9 November 2026 — Differential free fall in a rotating field
 
 In the specified four-epoch model with an unknown constant vector offset, exact nonzero tracking aligned or anti-aligned with the rotating external field can arise from free precession at resonance or driven motion away from resonance. The two explanations can reproduce the same continuous trajectory. An independent measurement of the precession rate distinguishes them under the supplied calibration. See `docs/observables/rotating_field_and_differential_free_fall.md`.
