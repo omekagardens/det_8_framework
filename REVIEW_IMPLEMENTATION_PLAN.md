@@ -1,3 +1,9 @@
+## 10 November 2026 — A four-event test of independent spacetime sampling
+
+In the native four-event record, the comparability indicators of two disjoint pairs have negative covariance at every source mixture. Four independent, identically distributed event draws in a fixed geometry and measure give zero covariance. If the draws are conditionally independent and identically distributed given a geometry and measure shared within each trial, the covariance is nonnegative.
+
+- [Disjoint comparable pairs in four native events](docs/observables/disjoint_pairs_in_four_native_events.md)
+
 ## 10 November 2026 — Testing a common radiation action with two gravitating bursts
 
 Two complete burst records can test equality of the two radiation actions when relative population efficiencies are known. Separate unknown band efficiencies leave both answers possible.
