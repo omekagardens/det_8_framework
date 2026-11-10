@@ -1,3 +1,10 @@
+## 10 November 2026 — Rotating-cabin density and contact placement
+
+Within a calibrated affine Newtonian model, two perpendicular launches remove rotation from a local density inference. A separate finite scalar model distinguishes an internal contact using two relatively calibrated mass settings; releasing that ratio gives an exact off-site ambiguity.
+
+- [Local density in a rotating cabin](../observables/local_density_in_a_rotating_cabin.md)
+- [Contact placement in finite-mass propagation](../observables/contact_placement_in_finite_mass_propagation.md)
+
 ## 10 November 2026 — Two ways to constrain inertia from gravitational and phase readings
 
 In a homogeneous, isotropically expanding Einstein model with a conserved collisionless massive gas and constant nonnegative vacuum energy, a calibrated first-epoch null Ricci contraction and a two-epoch change in scalar curvature bound the gas rest-energy density on both sides. In a separate native-sector model with a supplied relativistic dispersion relation and known spring mass ratios, three unwrapped moving-to-rest phase ratios at the same nonzero momentum test the internal energy offset and its agreement with the spring inertias.
