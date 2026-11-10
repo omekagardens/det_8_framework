@@ -1,3 +1,7 @@
+## 9 November 2026 — Two-site radar and local active/passive mass
+
+In a specified Schwarzschild–de Sitter family whose endpoint clocks run at equal rates, two different positive masses give identical tides and the same positive inner-clock radar echo. A separately calibrated static proper length fixes the mass in this family. In a different two-carrier model, three aligned net gravitational-force nulls and one registered end-for-end reversal null establish a common ratio of passive to active mass at all four sites. Aligned nulls at every separation can miss a mismatch, and the four nulls leave the numerical ratio undetermined. See `docs/observables/two_site_tides_and_radar_mass.md` and `docs/observables/local_active_passive_mass_from_force_nulls.md`.
+
 ## 9 November 2026 — Local metric mass and the weight of binding energy
 
 In the specified Schwarzschild–de Sitter static patch, radial and tangential tides fix Λ and GM/r³. A compatible nonzero signed holding acceleration determines the central mass. At static balance two masses differing eightfold give the same observations. In a separate three-carrier effective model, independently calibrated energy contrasts isolate contributions to passive weight when the material response is matched. In one constructed record an unobserved change in the material storing the energy permits unit binding response on data that otherwise give 3/2. See `docs/observables/local_mass_from_tides_and_support.md` and `docs/observables/gravitational_binding_and_passive_response.md`.
