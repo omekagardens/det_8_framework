@@ -1,3 +1,9 @@
+## 9 November 2026 — Site masses from weight and tidal torque
+
+For the seven-site body with equal coefficients within each opposed pair, rigid weight and tidal torque can exclude a common positive passive-to-inertial ratio. Every compatible ratio has a strictly positive unequal-ratio alternative in all rigid conservative affine fields. Doubling the radius of one labelled pair fixes its coefficient and hence the three others.
+
+[Site masses from weight and tidal torque](docs/observables/site_passive_masses_from_tidal_torque.md).
+
 ## 9 November 2026 — Rotor inertia, rotating optical rings and radiative mass-sector readout
 
 Two closed rotor cycles determine inertia ratios. A third with a calibrated added moment fixes the two moments, and a known length fixes each slider mass. Four guided-light return times on two registered Kerr rings distinguish signed source spin, receiver rotation and mass except when source and receivers are both nonrotating, in which case the mass remains free within the admitted domain. In the separately supplied reversible radiative model, one output mode can report at most half the one-occupation mixture; two modes can report it all while leaving the microscopic label invisible in the photon alone.
