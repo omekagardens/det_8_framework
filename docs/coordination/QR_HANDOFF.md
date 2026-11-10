@@ -1,3 +1,9 @@
+## 10 November 2026 — An inertial mass bound from two tagged sector transitions
+
+With registered sector mass ratios and both tagged radiation actions calibrated in gravitational units, a finite set of positive two-photon invariants gives an attained lower bound on the baseline mass. A certified population reaching the kinematic endpoint fixes the mass.
+
+- [Sector mass from a coincident two-photon cascade](../observables/sector_mass_from_a_two_photon_cascade.md)
+
 ## 10 November 2026 — Local matter from tidal readings and a conditional radiation calibration
 
 In a smooth static spherical annulus, a signed circular orbit calibrates four local tidal readings and determines the local energy density and principal pressures under the Einstein equations with zero cosmological constant. Separately, five count moments from a pure source of photon pairs with fixed independent losses determine both arm efficiencies. Unpaired photons can preserve the full count law while changing the mass calibration.
