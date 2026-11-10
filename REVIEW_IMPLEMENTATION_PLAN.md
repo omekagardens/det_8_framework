@@ -1,3 +1,10 @@
+## 10 November 2026 — Mass from crossing observers and curvature from exchanged receivers
+
+Two radial observers in free fall can recover a central mass by comparing tides and opposite light rays where they cross. In a separate four-ray curvature measurement, exchanging all devices between the tips and sides removes unknown portable gains when the integrated curvature is reproducible.
+
+- [Central mass from two crossing clocks](docs/observables/central_mass_from_crossing_observers.md)
+- [Integrated curvature with exchanged receivers](docs/observables/integrated_curvature_with_exchanged_receivers.md)
+
 ## 10 November 2026 — What a stationary tether weighs
 
 In the stated accelerating laboratory the upper force divided by the upper acceleration gives the payload mass plus the tether’s own proper energy divided by $c^2$. A single contact gives a sharp upper bound on the payload. Subtracting an empty-tether reading requires accounting for the change in tether energy under load.
