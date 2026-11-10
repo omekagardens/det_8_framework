@@ -1,3 +1,9 @@
+## 10 November 2026 — Areal radius from a reflected light pulse
+
+In the stated spherical model, the ratio of two population mean event counts identifies compactness. Their sum fixes the radius in units of the event-density length. Converting to scalar length units requires an independently registered density calibration.
+
+- [Compactness and areal radius from a radially split light exposure](docs/observables/radially_split_reflected_light_counts.md)
+
 ## 10 November 2026 — Testing gravitating mass with four source settings
 
 In a stipulated spherical exterior, three redshift ratios determine the gain and affine mass response. The fourth tests the inferred relation. With the areal radius independently registered in scalar-length units, the adopted quadratic scalar law gives the gravitational coupling multiplied by the source-response factor.
