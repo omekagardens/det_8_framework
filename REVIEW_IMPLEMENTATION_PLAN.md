@@ -1,3 +1,10 @@
+## 10 November 2026 — Local scalar stress and finite energy-clock records
+
+One conditional scalar attachment matches the accepted four-tick field samples and their positive generator while supplying a conserved local stress tensor; its positive spatial mean obstructs static periodic gravity. A separate finite cycle record distinguishes two supplied lapse-temperature settings with complete path probabilities and a separately registered energy ledger. Neither result derives physical calibration or a complete apparatus.
+
+- [Local scalar source for the four-chain field](docs/observables/local_scalar_source_for_four_chain_field.md)
+- [Finite thermal-redshift cycle records](docs/observables/finite_thermal_redshift_cycle_records.md)
+
 ## 10 November 2026 — Retarded stress and impact continuation
 
 A bounded time-dependent stress produces an outgoing tidal contrast despite identical energy and momentum densities in the supplied retarded linear model. Separately, identical impact ratios leave a geometric coordinate undetermined that decides finite free-flight admissibility. These conditional results preserve their exact source, geometry, timing and calibration limits.
