@@ -1,3 +1,10 @@
+## 10 November 2026 — Stress gravity and complete body-fluid balance
+
+Two compact sources share pointwise energy density and integrated inertia yet yield different exterior tidal curvature in the supplied linearized model. A separate ideal body-fluid construction develops intrinsic spin after a central impulse while conserving total generalized angular impulse through orbital compensation. Both retain conventional source, preparation and calibration assumptions.
+
+- [Stress quadrupoles at equal energy and inertia](../observables/stress_quadrupole_at_equal_energy.md)
+- [Later spin and complete body-fluid angular balance](../observables/oblique_body_fluid_angular_balance.md)
+
 ## 10 November 2026 — Coherent inertia and rod mass calibration
 
 A finite-dwell phase test identifies noncommuting inertia under a supplied two-level motion model and matched kick/readout standards. Separately, two certified rod return periods distinguish distributed mass from stiffness while transferring a known tip-mass standard. Both results retain their preparation, calibration and native-interpretation limits.
