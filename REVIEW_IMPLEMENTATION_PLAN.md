@@ -1,3 +1,10 @@
+## 9 November 2026 — Tidal histories and interval-action weighting
+
+Two prescribed tidal histories give a free pair identical final separation, velocity and integrated squared speed. A spring-bound pair distinguishes them with one signed velocity reading after one period, including the stated error. In the four-birth native model, exponential weighting by the dimensionless interval action gives different probabilities for the third birth at different stopping sizes for every nonzero coupling.
+
+- [A spring distinguishes two tidal histories](docs/observables/signed_spring_response_to_tidal_histories.md)
+- [Interval action and the stopping horizon](docs/observables/interval_action_and_stopping_horizon.md)
+
 ## 9 November 2026 — Oriented branching and constituent free fall
 
 In two equal-area diamonds related by reversal of time orientation, every scalar mass setting gives the same normalized response between opposite corners. A signed count of three-event branches has opposite means in the two geometries. In a separate Newtonian model, four exact casing-displacement contrasts across matched field-on and field-off releases identify whether two spring-bound constituents have equal passive-to-inertial mass ratios. Unrestricted stiffness leaves no positive uniform position-error margin.
