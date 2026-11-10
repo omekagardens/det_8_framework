@@ -1,3 +1,7 @@
+## 9 November 2026 — Differential free fall in a rotating field
+
+In the specified four-epoch model with an unknown constant vector offset, exact nonzero tracking aligned or anti-aligned with the rotating external field can arise from free precession at resonance or driven motion away from resonance. The two explanations can reproduce the same continuous trajectory. An independent measurement of the precession rate distinguishes them under the supplied calibration. See `docs/observables/rotating_field_and_differential_free_fall.md`.
+
 ## 9 November 2026 — Boundary motion, differential free fall and sector mass gaps
 
 Three calibrated boundary displacements determine energy on the chain. On the diamond, opposite middle motion can hide any positive energy behind a zero boundary record. A squared middle-pair separation fixes the missing energy. In the specified constant-field binary model, including an eccentricity vector at $h/2$ decides equality of passive-to-inertial ratios despite a possible full turn between the original readings. A complete valid store-resonance catalogue with two or more distinct lines gives unordered adjacent rest-energy gaps $S$ and $2S-L$ from its two largest lines $L>S$. See `docs/observables/boundary_displacements_and_vibrational_energy.md`, `docs/observables/binary_free_fall_observation_cadence.md`, `docs/observables/sector_mass_gaps_from_store_resonances.md`.
