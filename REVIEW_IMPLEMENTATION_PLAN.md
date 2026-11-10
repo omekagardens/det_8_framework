@@ -1,3 +1,9 @@
+## 10 November 2026 — Testing a common radiation action with two gravitating bursts
+
+Two complete burst records can test equality of the two radiation actions when relative population efficiencies are known. Separate unknown band efficiencies leave both answers possible.
+
+- [Radiation action from two gravitating bursts](docs/observables/radiation_action_from_two_gravitating_bursts.md)
+
 ## 10 November 2026 — Two shell masses from one centre-traversing photon
 
 On a strictly collapsing weak-self-gravity branch, one exterior photon redshift and two shell radii measured as a ratio locally determine the material and exterior masses in entry-radius units. The centre travel time connects the two crossing events.
