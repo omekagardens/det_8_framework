@@ -1,3 +1,10 @@
+## 9 November 2026 — Baryonic rest mass and point-source propagation
+
+In a cold two-phase star, chemical equilibrium lets a single outer baryon-density measurement fix the total baryonic rest mass. When exchange is frozen, two stars can share the complete geometry, pressure, energy density and outer calibration while one contains twice as many core baryons. In the finite-order scalar model, a point impulse gives opposite signs at the far ends of a diamond and a four-event chain. The proposed two-dimensional massless causal kernel assigns the same response to both.
+
+- [Baryonic mass across a density jump](docs/observables/baryonic_mass_across_a_density_jump.md)
+- [Point-source propagation on four-vertex orders](docs/observables/point_source_propagation_on_finite_orders.md)
+
 ## 9 November 2026 — Scalar length with an unknown mass offset
 
 Eight scalar responses at calibrated squared-mass increments and three independently measured link rates fix the length and a common unknown offset on the supported four-vertex mixtures. When the mean interval action equals four, retaining only that mean allows different lengths to give the same scalar response at every positive setting.
