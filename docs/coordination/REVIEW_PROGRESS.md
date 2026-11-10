@@ -1,3 +1,9 @@
+## 10 November 2026 — Testing the dispersion premise of moving-phase mass inference
+
+Three distinct phase-and-speed settings separate two supplied exact Hamiltonians despite unknown shared speed gain and dwell ratio. Two settings can fit both, and unequal moving durations erase this distinction. The test adds no absolute mass or action scale.
+
+- [Dispersion from phase and velocity](../observables/dispersion_from_phase_and_velocity.md)
+
 ## 10 November 2026 — Rotating-cabin density and contact placement
 
 Within a calibrated affine Newtonian model, two perpendicular launches remove rotation from a local density inference. A separate finite scalar model distinguishes an internal contact using two relatively calibrated mass settings; releasing that ratio gives an exact off-site ambiguity.
