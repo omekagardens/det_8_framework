@@ -1,3 +1,9 @@
+## 9 November 2026 — Scalar length with an unknown mass offset
+
+Eight scalar responses at calibrated squared-mass increments and three independently measured link rates fix the length and a common unknown offset on the supported four-vertex mixtures. When the mean interval action equals four, retaining only that mean allows different lengths to give the same scalar response at every positive setting.
+
+- [Registering the scalar mass zero with three interval-probe rates](../observables/scalar_length_with_unknown_mass_offset.md)
+
 ## 9 November 2026 — Equal radial lengths and different matter energies
 
 Two regular static fluid spheres can have the same Schwarzschild exterior, surface area and exact centre-to-surface distance while containing different integrated local matter energies. Small redistributions of mass in two interior regions preserve the distance and change the proper-volume energy integral. Both density profiles decrease outward and both fluids satisfy isotropic hydrostatic equilibrium. The construction allows the material equation of state to differ.
