@@ -1,3 +1,12 @@
+## 10 November 2026 — Shell encounters, optical curvature, interval action and inertial mass
+
+An ideal shell encounter can be identified from a gravitational field step and its time. Separate studies recover curvature with a varying sampling density, determine which endpoint counts compose an interval action, and bound total mass from integrated force and two endpoint energy certificates.
+
+- [Shell encounter from field step and arrival time](docs/observables/shell_encounter_from_field_step_and_time.md)
+- [Curvature with spatially varying event density](docs/observables/optical_curvature_with_variable_event_density.md)
+- [Interval action at a shared event](docs/observables/interval_action_at_a_shared_event.md)
+- [Mass from impulse and bounded internal energy](docs/observables/inertial_mass_from_impulse_and_endpoint_energy.md)
+
 ## 10 November 2026 — Locating curvature and sampling total mass
 
 Four nested count means recover centre curvature within a specified conformal family. In a separate mechanical model, two exact sampling intervals identify total mass, but every fixed finite schedule admits separated masses within any positive force tolerance when spring stiffness is unrestricted.
