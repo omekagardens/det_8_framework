@@ -1,3 +1,9 @@
+## 10 November 2026 — Reading a shared event from a finite history
+
+Two histories with identical counter snapshots have different interval actions. One bit tied to the fourth birth resolves the ambiguity under the stated seven-birth readout assumptions.
+
+- [Recognizing a shared event from two snapshots](docs/observables/shared_event_from_two_counter_snapshots.md)
+
 ## 10 November 2026 — Fractional shell loss from uncalibrated clock and field gains
 
 Three passive gates and two pre-crossing field levels identify a dimensionless energy-loss fraction within the original shell observation window.
