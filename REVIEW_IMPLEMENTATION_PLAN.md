@@ -1,3 +1,10 @@
+## 10 November 2026 — Areal radius from polar tides and a test of scalar mass scaling
+
+Three polar tidal readings with a shared unknown gain and zero can replace an external areal ruler for the signed gyroscope measurement. In a separate finite-order model, three independently registered sector inertias and their scalar responses can test a quadratic mass term and identify its action scale relative to inertial mass, light speed and the model length.
+
+- [Areal radius and spherical mass from three polar tides](docs/observables/areal_radius_from_three_polar_tides.md)
+- [Testing a scalar mass term against three sector inertias](docs/observables/scalar_mass_term_from_three_sector_inertias.md)
+
 ## 10 November 2026 — Radial pressure at an orbit and scalar length with one hidden event
 
 With Einstein gravity and the local dominant energy condition, the signed gyroscope orbit fixes radial pressure and a sharp lower bound on energy density. In a separate finite-order model, three visible response channels at two calibrated settings recover the scalar length even when an interior event cannot be driven or read.
