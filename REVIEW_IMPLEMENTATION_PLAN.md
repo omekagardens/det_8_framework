@@ -1,3 +1,9 @@
+## 9 November 2026 — Eight-phase companion-mass design
+
+Eight equally spaced orbital phases cancel the leading eccentricity delay in the proposed timing observation. At the published parameters for PSR J1738+0333, two predicted propagation components survive at −31.25 ns and +6.52 ns. They distinguish companion mass and inclination locally under the specified model. Applying the design requires independently established phases, constraints on higher harmonics and a joint timing error bound.
+
+- [Companion mass and the eight-phase observation](docs/observables/eight_phase_companion_mass_design.md)
+
 ## 9 November 2026 — Required timing precision for PSR J1738+0333
 
 At the published parameters for PSR J1738+0333, the five-phase propagation contrast is about 37 ns. Guaranteed separation from zero in that contrast needs a pointwise error below 2.31 ns. The leading eccentricity correction is about −184 ns before subtraction, and its published fit assumes the propagation signal. The examined records leave the companion test conditional on independent calibration and phase-tagged timing data.
