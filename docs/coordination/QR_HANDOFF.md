@@ -1,3 +1,9 @@
+## 10 November 2026 — Fractional shell loss from uncalibrated clock and field gains
+
+Three passive gates and two pre-crossing field levels identify a dimensionless energy-loss fraction within the original shell observation window.
+
+- [Fractional shell-encounter loss from three gates](../observables/fractional_shell_loss_from_three_gates.md)
+
 ## 10 November 2026 — Shell encounters, optical curvature, interval action and inertial mass
 
 An ideal shell encounter can be identified from a gravitational field step and its time. Separate studies recover curvature with a varying sampling density, determine which endpoint counts compose an interval action, and bound total mass from integrated force and two endpoint energy certificates.
