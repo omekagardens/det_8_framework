@@ -1,3 +1,10 @@
+## 10 November 2026 — Impact inertia and a consistent finite field attachment
+
+Four signed impact ratios identify rigid-target inertia relative to a supplied projectile mass under one common restitution law. Separately, a three-pair Gaussian field construction preserves the old-field state through all registered native histories by retaining central fluctuations. Its dynamics and physical mass interpretation remain open.
+
+- [Rigid-target inertia from four impacts](docs/observables/rigid_target_inertia_from_four_impacts.md)
+- [Gaussian field transport on native histories](docs/observables/gaussian_field_transport_on_native_histories.md)
+
 ## 10 November 2026 — Spectral field covariance and unread native growth
 
 A supplied spectral vacuum assigned anew after each birth changes the old-field covariance even when the full native suffix is unread. Exact positive lower bounds hold for both prepared bits. The commutator remains fixed; the failure concerns this field-state attachment and its stated marginal requirement.
