@@ -1,3 +1,7 @@
+## 9 November 2026 — Rest-mass ratios from photon recoil
+
+Opposite photon directions cancel an unknown common carrier velocity in each absorption or emission pair. The frequency meter’s zero still affects the mass ratio. For displayed readings (4, 12, 6, 7) the full range has an open lower endpoint at one and an attained upper endpoint. Calibrating the zero gives a single ratio. Absolute masses additionally require the photon energy per display unit. See `docs/observables/free_photon_recoil_and_mass_ratio.md`.
+
 ## 9 November 2026 — Order comparability and centre curvature
 
 On a four-event native order, the terminal descendant counts give the exact fraction of comparable pairs. In a separate model, a fixed detector profile can make a flat and a curved diamond yield identical records. Independent complementary detector settings for each event recover a population probability that identifies centre curvature times proper area within the stated metric family. See `docs/observables/order_comparability_and_curvature.md`.
