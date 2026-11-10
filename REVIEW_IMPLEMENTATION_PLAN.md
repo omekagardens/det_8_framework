@@ -1,3 +1,9 @@
+## 9 November 2026 — One-bit observation of the mean interval action
+
+Three independently assigned omission settings make the population mean of the four-birth interval action identifiable from one induced-link bit per preparation. If one coin controls both omissions, two supported preparations give the same bit probabilities at every setting despite mean actions of 2 and −1. The design requires a calibrated pair and omission detector. Finite samples retain statistical uncertainty.
+
+- [Reading the mean interval action](docs/observables/one_bit_probe_for_mean_interval_action.md)
+
 ## 9 November 2026 — Masses from five pulse arrivals
 
 For an inclined circular binary, the even contrasts of five exact, phase-labelled residuals identify the inclination and companion mass under the supplied logarithmic propagation law. Both corrected odd slopes must agree. Determining the emitter mass also requires calibration of the stable first-harmonic lag. At zero inclination the record provides only the independently imposed mass domain.
