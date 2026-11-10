@@ -1,3 +1,9 @@
+## 10 November 2026 — Rest mass from two curvature readings during expansion
+
+In the homogeneous, isotropically expanding Einstein model with a conserved collisionless massive gas and an unknown constant nonnegative vacuum energy, two calibrated Ricci scalars at a known expansion ratio give an attained lower bound on the rest mass per first-epoch proper volume. At the cold, vacuum-free boundary the density is fixed. In the interior, the same data permit arbitrarily large finite densities.
+
+- [Rest density from two Ricci scalar readings](docs/observables/rest_density_from_two_expansion_epoch_curvatures.md)
+
 ## 10 November 2026 — Locating the inertial and passive centres of one pendulum
 
 A comparison of angular speeds after two equal impulses separates the inertial response from the restoring torque. Together with three periods at registered bearings, it locates both centres and determines the effective gravity of that body. Inferring field strength requires its passive-to-inertial mass ratio.
