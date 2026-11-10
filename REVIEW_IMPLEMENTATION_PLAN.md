@@ -1,3 +1,9 @@
+## 10 November 2026 — What a stationary tether weighs
+
+In the stated accelerating laboratory the upper force divided by the upper acceleration gives the payload mass plus the tether’s own proper energy divided by $c^2$. A single contact gives a sharp upper bound on the payload. Subtracting an empty-tether reading requires accounting for the change in tether energy under load.
+
+- [What a single upper load cell weighs](docs/observables/what_a_supported_tether_weighs.md)
+
 ## 10 November 2026 — Cavity clocks, free-fall tides and marked path readings
 
 One light pulse in a supported accelerating cavity gives different force-to-acceleration ratios when each mirror uses its own clock and when both use base time. A radial free-fall tidal history in the prescribed spherical exterior admits different central masses; one registered spatial tidal gradient resolves them. On a marked four-event diamond, the two mixed-endpoint path readings must both equal the mean of the two equal-endpoint readings under the proposed shared link rule.
