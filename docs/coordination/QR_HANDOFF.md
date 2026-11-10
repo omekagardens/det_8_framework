@@ -1,3 +1,10 @@
+## 10 November 2026 — Signed boundary inertia and event density
+
+Seven forces isolate a signed boundary response in two positive-mass networks. For a causal diamond sampled by a Poisson process, changing one counter mask between exposures recovers the underlying mean event count.
+
+- [Signed boundary inertance from seven forces](../observables/signed_boundary_inertance_from_seven_forces.md)
+- [Proper area per sampled event from two counters](../observables/event_density_from_two_incomplete_counters.md)
+
 ## 10 November 2026 — Areal radius from polar tides and a test of scalar mass scaling
 
 Three polar tidal readings with a shared unknown gain and zero can replace an external areal ruler for the signed gyroscope measurement. In a separate finite-order model, three independently registered sector inertias and their scalar responses can test a quadratic mass term and identify its action scale relative to inertial mass, light speed and the model length.
