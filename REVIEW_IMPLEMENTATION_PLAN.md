@@ -1,3 +1,7 @@
+## 9 November 2026 — Boundary motion, differential free fall and sector mass gaps
+
+Three calibrated boundary displacements determine energy on the chain. On the diamond, opposite middle motion can hide any positive energy behind a zero boundary record. A squared middle-pair separation fixes the missing energy. In the specified constant-field binary model, including an eccentricity vector at $h/2$ decides equality of passive-to-inertial ratios despite a possible full turn between the original readings. A complete valid store-resonance catalogue with two or more distinct lines gives unordered adjacent rest-energy gaps $S$ and $2S-L$ from its two largest lines $L>S$. See `docs/observables/boundary_displacements_and_vibrational_energy.md`, `docs/observables/binary_free_fall_observation_cadence.md`, `docs/observables/sector_mass_gaps_from_store_resonances.md`.
+
 ## 9 November 2026 — Comparing lensing mass with orbital motion
 
 A tagged circular orbit, Doppler amplitude and two echo times give a closed interval of redshifted dynamical masses when inclination and response lag are unknown. In the worked record the orbital mass ranges from one half to four times the lensing mass, with both endpoints attained. The common redshift cancels in the ratio. An independent lag or inclination measurement decides equality under the supplied physical laws. See `docs/observables/orbital_and_lensing_mass_from_timed_records.md`.
