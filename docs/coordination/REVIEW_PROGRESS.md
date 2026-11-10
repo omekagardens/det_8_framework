@@ -1,3 +1,9 @@
+## 10 November 2026 — Testing gravitating mass with four source settings
+
+In a stipulated spherical exterior, three redshift ratios determine the gain and affine mass response. The fourth tests the inferred relation. With the areal radius independently registered in scalar-length units, the adopted quadratic scalar law gives the gravitational coupling multiplied by the source-response factor.
+
+- [Exterior clock readings and the gravitational coupling in scalar units](../observables/exterior_clocks_and_scalar_gravity_coupling.md)
+
 ## 10 November 2026 — Reading a shared event from a finite history
 
 Two histories with identical counter snapshots have different interval actions. One bit tied to the fourth birth resolves the ambiguity under the stated seven-birth readout assumptions.
