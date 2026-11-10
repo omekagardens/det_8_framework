@@ -1,3 +1,11 @@
+## 10 November 2026 — Gravitational mass from radiation and source weights on finite orders
+
+Two separate spherical models identify material and exterior shell masses from opposite rays, and the fraction of gravitational mass radiated from paired fluence and clock readings. A four-event source comparison tests whether interval action governs the observed probabilities of rooted orders.
+
+- [Material and exterior shell masses from two rays](../observables/dust_shell_masses_from_opposite_rays.md)
+- [Radiated gravitational mass from two spheres](../observables/radiated_mass_from_two_spheres.md)
+- [Testing source weights on rooted geometries](../observables/source_weights_on_rooted_geometries.md)
+
 ## 10 November 2026 — A driven scalar ruler in a spherical annulus
 
 At known compactness, the midpoint amplitude of a driven scalar determines its inverse length times the areal radius. Three registered settings test the mass-increment law. Converting the result to the finite scalar’s length units requires an independently calibrated increment ratio.
