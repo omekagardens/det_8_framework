@@ -1,3 +1,10 @@
+## 10 November 2026 — Local matter from tidal readings and a conditional radiation calibration
+
+In a smooth static spherical annulus, a signed circular orbit calibrates four local tidal readings and determines the local energy density and principal pressures under the Einstein equations with zero cosmological constant. Separately, five count moments from a pure source of photon pairs with fixed independent losses determine both arm efficiencies. Unpaired photons can preserve the full count law while changing the mass calibration.
+
+- [Local density and pressures from orbital and tidal readings](docs/observables/local_density_and_pressure_from_orbit_and_tides.md)
+- [Paired counts for gravitational mass calibration](docs/observables/paired_counts_for_gravitational_mass_calibration.md)
+
 ## 10 November 2026 — Passive gravity of a solid and its fluid
 
 Two signed support loads at distinct registered fluid densities compare passive gravitational response per unit inertial mass. An unknown common uniform lab acceleration preserves the equality and ordering test.
