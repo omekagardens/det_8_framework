@@ -1,3 +1,10 @@
+## 9 November 2026 — Oriented branching and constituent free fall
+
+In two equal-area diamonds related by reversal of time orientation, every scalar mass setting gives the same normalized response between opposite corners. A signed count of three-event branches has opposite means in the two geometries. In a separate Newtonian model, four exact casing-displacement contrasts across matched field-on and field-off releases identify whether two spring-bound constituents have equal passive-to-inertial mass ratios. Unrestricted stiffness leaves no positive uniform position-error margin.
+
+- [Oriented triples and scalar propagation](docs/observables/oriented_triples_and_corner_propagation.md)
+- [Constituent free fall from casing motion](docs/observables/constituent_free_fall_from_casing_motion.md)
+
 ## 9 November 2026 — Finite position error in recoil weighing
 
 Six exact positions identify the total mass of the one-mode target after a calibrated impact. With any positive position-error allowance, two different masses can fit the same readings even when the incoming target energy is capped. The spring can be soft enough to hide most of the difference in centre-of-mass motion throughout the flight. An independent bound on the casing displacement about its translating equilibrium gives a sufficient discrimination threshold.
