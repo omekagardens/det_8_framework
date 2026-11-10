@@ -1,3 +1,10 @@
+## 10 November 2026 — Coherent inertia and rod mass calibration
+
+A finite-dwell phase test identifies noncommuting inertia under a supplied two-level motion model and matched kick/readout standards. Separately, two certified rod return periods distinguish distributed mass from stiffness while transferring a known tip-mass standard. Both results retain their preparation, calibration and native-interpretation limits.
+
+- [Coherent inertia from opposite-kick position means](../observables/coherent_inertia_from_opposite_kicks.md)
+- [Rod mass and stiffness from two fundamental return periods](../observables/rod_mass_from_two_return_periods.md)
+
 ## 10 November 2026 — Inclined binary mass families
 
 Two tagged radial channels identify mass ratio and projected separation in the supplied circular Newtonian model. Component photometry usually fixes the remaining scale; face-on records retain a continuum, and an exact closed separation bound can enforce a special singleton. Calibration and shared inertial/gravitational masses remain supplied.
