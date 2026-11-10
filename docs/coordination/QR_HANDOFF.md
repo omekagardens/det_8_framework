@@ -1,3 +1,9 @@
+## 10 November 2026 — Two timing gates and a marked waiting law
+
+For two fair native birth marks, the two-gate waiting record admits both a mark-conditioned exponential rate and an independent mixture clock. At unequal rates, recording early completions with two zero marks per trial started distinguishes these specified models. Equal rates give the same record. The result supplies no physical clock calibration or elapsed-time selection rule for four-event geometry.
+
+- [A terminal-mark test of a two-birth waiting law](../observables/two_elapsed_gates_and_a_marked_waiting_law.md)
+
 ## 10 November 2026 — Parent order size and a null-affine receiver
 
 For the specified native four-event population, uniform sampling of four distinct vertices from each finite parent requires more than 3.5% of trials to draw parents of size four through eight. In a separate continuum construction, an ideal scalar measurement at a receiver defined by two registered null-affine midpoints distinguishes a pair of time-oriented diamonds whose opposite-corner readings agree at every scalar mass.
