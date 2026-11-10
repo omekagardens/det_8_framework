@@ -1,3 +1,7 @@
+## 9 November 2026 — Material response, lens sensitivity and a fresh occupation store
+
+Two matched Newtonian spheres receive the same kick and have zero material acceleration at release. One reaches $3R_0/5$ at $4/(5\Omega)$, while the other stays above that threshold. QR adopted this as a finite test of source-record sufficiency. In the worked lens geometry, a receiver reaching $63/169$ of the reference flux preserves the lower point-mass bound. Under full carrier-plus-store reversibility, a fresh store can gain $519/686$ counts on average at the stipulated $1:2:4$ masses and spacing $M_0c^2$. All three are conditional results. See `docs/observables/matched_self_gravitating_fluid_crossing.md`, `docs/observables/lensed_image_detection_threshold.md`, `docs/observables/joint_reversible_occupation_store.md`.
+
 ## 9 November 2026 — What two lens images measure about central mass
 
 Two signed image positions and their calibrated delay determine the redshifted total compact mass in the supplied circular lens. A complete two-image census places a strict lower bound on the fraction in a central point for a uniform disk of known radius inside both rays. In the worked geometry, point fractions of 1/25 and 1/2 give the same images and delay. Physical mass also requires a lens redshift. See `docs/observables/two_lensed_images_and_central_mass.md`.
