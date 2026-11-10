@@ -1,3 +1,10 @@
+## 10 November 2026 — Radial pressure at an orbit and scalar length with one hidden event
+
+With Einstein gravity and the local dominant energy condition, the signed gyroscope orbit fixes radial pressure and a sharp lower bound on energy density. In a separate finite-order model, three visible response channels at two calibrated settings recover the scalar length even when an interior event cannot be driven or read.
+
+- [Radial pressure at the gyroscope orbit](../observables/radial_pressure_from_a_signed_gyroscope_orbit.md)
+- [Scalar length with one hidden interior event](../observables/scalar_length_with_one_hidden_event.md)
+
 ## 10 November 2026 — Spherical mass from one orbiting gyroscope
 
 In a smooth static spherical annulus, the signed direction of an initially outward spin after one circular geodesic, together with its areal radius and proper period, determines the Misner–Sharp mass on the orbit. The forward spin sign can distinguish two masses with the same radial projection.
