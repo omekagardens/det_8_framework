@@ -1,3 +1,10 @@
+## 12 November 2026 — Compact cavity collar source and all-branch spacelike wavefield
+
+Replacing the periodic three-torus by a centered cubic homogeneous-Neumann cavity completed with an explicit smooth Beltrami stress collar resolves the static Poisson obstruction on the four-chain row, yielding dominant-energy admissibility, equal whole-carrier inertial and active gravitational mass, and nonzero exterior stress-quadrupole tidal contrast in the supplied linearized model. Separately, proving a single-point obstruction on all fourteen non-chain four-birth orders and introducing a minimal-denominator adapted causal embedding on an anti-periodic $1+1$D cylinder attaches one positive-Hamiltonian twelve-mode wavefield with exact causal commutators, strictly positive-definite branch covariances, and unread old-field Weyl-algebra preservation across all sixty marked histories. Neither conditional construction derives native spacetime geometry, physical calibration, material wall mechanics, or non-chain $3+1$D gravitational sourcing.
+
+- [Compact cavity and conserved collar source for the four-chain field](docs/observables/compact_cavity_source_for_four_chain_field.md)
+- [Positive stationary wavefield dynamics across all four-birth branches](docs/observables/spacelike_branch_extension_for_four_birth_fields.md)
+
 ## 10 November 2026 — Local scalar stress and finite energy-clock records
 
 One conditional scalar attachment matches the accepted four-tick field samples and their positive generator while supplying a conserved local stress tensor; its positive spatial mean obstructs static periodic gravity. A separate finite cycle record distinguishes two supplied lapse-temperature settings with complete path probabilities and a separately registered energy ledger. Neither result derives physical calibration or a complete apparatus.
