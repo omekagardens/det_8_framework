@@ -1,6 +1,6 @@
 # Intrinsic Sorkin–Johnston stress-energy, discrete link observables, and causal-order backreaction across background-free horizons
 
-**Decision.** Formulating the background-free Sorkin–Johnston bosonic field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$) and strictly non-negative normal-ordered link stress observables $\mathcal{T}_{\rm link}(v, u)$ on finite posets eliminates any external continuum cavity box $[0, L]^3$, boundary stress collar, or background metric, coupling excitations into sequential causal-order growth $q(P, r, S)$ and discrete Benincasa–Dowker curvature ($S_{\rm BD}^{(2)}, S_{\rm BD}^{(4)}$) via two cleanly separated operational regimes—(i) a finite-horizon ($0 \le \lvert P\rvert \le 4$) additive/reset CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ on the two-level probe/single-mode sector $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ with exact $4\times 4$ Choi eigenvalues and an exact 25-poset conditional-mean joint conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert}\rho]$ with zero residue, and (ii) an all-horizon ($N \ge 1$) dissipation-free multiplicative coherent steering instrument (`PW2-A` Theorem 5) on $\mathcal{H}_{\rm hor} = \mathbb{C}^2$—while rigorously scoping variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open research problem; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
+**Decision.** Formulating the background-free Sorkin–Johnston bosonic field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$) and strictly non-negative normal-ordered link stress observables $\mathcal{T}_{\rm link}(v, u)$ on finite posets eliminates any external continuum cavity box $[0, L]^3$, boundary stress collar, or background metric, coupling excitations into sequential causal-order growth $q(P, r, S)$ and discrete Benincasa–Dowker curvature ($S_{\rm BD}^{(2)}, S_{\rm BD}^{(4)}$) via two cleanly separated operational regimes—(i) a finite-horizon ($0 \le \lvert P\rvert \le 4$) additive/reset CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ on the two-level probe/single-mode sector $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ with exact general $4\times 4$ Choi eigenvalues ($(1-\lambda_n)\mathbf{1}_2 + r_P(S)\Sigma_n \succeq 0$, specializing on traceless involutory observables $\operatorname{spec}(\Sigma_n) = \{-1, +1\}$ to $\lvert r_P(S)\rvert \le 1 - \lambda_n$ and multi-step diamond commutation) and an exact 25-poset conditional-mean joint conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert}\rho]$ with zero residue, and (ii) an all-horizon ($N \ge 1$) dissipation-free multiplicative coherent steering instrument (`PW2-A` Theorem 5) on $\mathcal{H}_{\rm hor} = \mathbb{C}^2$—while rigorously scoping variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open research problem; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
 
 ---
 
@@ -337,7 +337,7 @@ From `PW2-A` Theorem 1, sequential causal-order growth across all finite horizon
 Coupling quantum field observables to sequential causal-order growth operates in two mathematically distinct regimes: (1) a finite-horizon additive reset instrument acting on a two-level probe sector $\mathcal{H}_{\rm probe} = \mathbb{C}^2$, and (2) an all-horizon multiplicative coherent steering instrument operating on a fixed qubit carrier $\mathcal{H}_{\rm hor} = \mathbb{C}^2$ (`PW2-A` Theorem 5).
 
 #### 4.2.1 The Finite-Horizon Two-Level Additive Reset Instrument
-Let $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ be a two-level quantum probe sector (representing either a dedicated probe qubit or the effective subspace $\operatorname{span}\{\lvert 0\rangle_{\rm SJ}, \lvert 1_j\rangle\}$ spanned by the vacuum and a single dominant Sorkin–Johnston mode). Let $\Sigma_n$ be a normalized self-adjoint observable with $\lVert \Sigma_n\rVert_{\rm op} \le 1$ (such as the co-rotating Pauli observable of `PW2-B` or a normalized mode stress excitation).
+Let $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ be a two-level quantum probe sector (representing either a dedicated probe qubit or the effective subspace $\operatorname{span}\{\lvert 0\rangle_{\rm SJ}, \lvert 1_j\rangle\}$ spanned by the vacuum and a single dominant Sorkin–Johnston mode). Let $\Sigma_n = \sigma_+ \lvert\psi_+\rangle\langle\psi_+\rvert + \sigma_- \lvert\psi_-\rangle\langle\psi_-\rvert$ be any self-adjoint observable on $\mathbb{C}^2$ with real eigenvalues $\sigma_- \le \sigma_+$, spectral mean $\bar{\sigma} := \frac{\sigma_+ + \sigma_-}{2} = \frac{1}{2}\operatorname{Tr}[\Sigma_n]$, and spectral half-gap $\delta\sigma := \frac{\sigma_+ - \sigma_-}{2} \ge 0$ (specializing in the traceless normalized / Pauli case—such as the co-rotating Pauli observable of `PW2-B` or the centered vacuum/one-quantum contrast $\lvert 1_j\rangle\langle 1_j\rvert - \lvert 0\rangle\langle 0\rvert_{\rm SJ}$—to $\operatorname{spec}(\Sigma_n) = \{-1, +1\}$, i.e., $\bar{\sigma} = 0, \delta\sigma = 1$).
 
 1. **Steered Branch Transition Probabilities**:
    For incoming probe state $\rho \in \mathcal{S}(\mathbb{C}^2)$, the transition probability to adjoin precursor ideal $S \in \mathcal{I}(P)$ is:
@@ -349,24 +349,34 @@ Let $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ be a two-level quantum probe sector
    r_P(S) = \theta \Lambda_{\lvert P\rvert}^{-1} \left[ H(P+S) - H(P) \right], \qquad \sum_{S \in \mathcal{I}(P)} q(P, r, S) r_P(S) = 0.
    $$
 2. **CPTP Branch Superoperator**:
-   For retention schedule $(\lambda_n)_{n \ge 0} \subset (0, 1]$, unitary step $U$, and local qubit identity $\mathbf{1}_{\rm local} = \mathbf{1}_2$ ($\operatorname{Tr}[\mathbf{1}_{\rm local}] = 2$):
+   For retention schedule $(\lambda_n)_{n \ge 0} \subset [0, 1]$, unitary step $U$, and local qubit identity $\mathbf{1}_{\rm local} = \mathbf{1}_2$ ($\operatorname{Tr}[\mathbf{1}_{\rm local}] = 2$):
    $$
    \mathcal{B}_{S, b}^{P, r}(\rho) := \frac{1}{2} q(P, r, S) \left\{ \lambda_{\lvert P\rvert} U \rho U^\dagger + \frac{1}{2} \operatorname{Tr}\left[ \left( (1 - \lambda_{\lvert P\rvert})\mathbf{1} + r_P(S) \Sigma_n \right) \rho \right] \mathbf{1}_{\rm local} \right\}.
    $$
 
-**Theorem 4.1 (Complete Positivity and Choi Spectrum).**
-*Let $n = \lvert P\rvert$. For each branch $(S, b) \in \mathcal{I}(P) \times \{0, 1\}$, the Choi matrix $J(\mathcal{B}_{S, b}^{P, r}) := (\mathcal{B}_{S, b}^{P, r} \otimes \operatorname{id}_{\rm local})(\lvert\Omega\rangle\langle\Omega\rvert)$ associated with the unnormalized maximally entangled state $\lvert\Omega\rangle = \lvert 00\rangle + \lvert 11\rangle$ possesses exactly four eigenvalues:*
-$$
-e_{1, 2} = \frac{1}{4} q(P, r, S) \left( 1 - \lambda_n \mp r_P(S) \right),
-$$
-$$
-e_{3, 4} = \frac{1}{4} q(P, r, S) \left( 1 + \lambda_n \pm \sqrt{4\lambda_n^2 + r_P(S)^2} \right).
-$$
-*Consequently, the branch map $\mathcal{B}_{S, b}^{P, r}$ is Completely Positive (CP) on $\mathcal{S}(\mathbb{C}^2)$ if and only if:*
-$$
-\lvert r_P(S)\rvert \le 1 - \lambda_n.
-$$
-*Furthermore, the complete instrument sum $\sum_{S \in \mathcal{I}(P)} \sum_{b \in \{0, 1\}} \mathcal{B}_{S, b}^{P, r}$ is strictly Trace-Preserving (TP).*
+**Theorem 4.1 (Complete Positivity and Exact $4\times 4$ Choi Spectrum for General and Traceless Two-Level Observables).**
+*Let $n = \lvert P\rvert$, $\lambda_n \in [0, 1]$, and let $\Sigma_n$ be any self-adjoint operator on $\mathbb{C}^2$ with eigenvalues $\sigma_- \le \sigma_+$, mean $\bar{\sigma} = \frac{\sigma_+ + \sigma_-}{2}$, and half-gap $\delta\sigma = \frac{\sigma_+ - \sigma_-}{2}$. For each branch $(S, b) \in \mathcal{I}(P) \times \{0, 1\}$ with $q(P, r, S) > 0$:*
+1. *(General $4\times 4$ Choi Spectrum and Necessary-and-Sufficient CP Bound.)* *The Choi matrix $J(\mathcal{B}_{S, b}^{P, r}) := (\mathcal{B}_{S, b}^{P, r} \otimes \operatorname{id}_{\rm local})(\lvert\Omega\rangle\langle\Omega\rvert)$ associated with the unnormalized maximally entangled state $\lvert\Omega\rangle = \lvert 00\rangle + \lvert 11\rangle$ possesses the four exact eigenvalues:*
+   $$
+   e_1 = \frac{1}{4} q(P, r, S) \left( 1 - \lambda_n + r_P(S)\sigma_- \right), \qquad e_2 = \frac{1}{4} q(P, r, S) \left( 1 - \lambda_n + r_P(S)\sigma_+ \right),
+   $$
+   $$
+   e_{3, 4} = \frac{1}{4} q(P, r, S) \left( 1 + \lambda_n + r_P(S)\bar{\sigma} \pm \sqrt{4\lambda_n^2 + r_P(S)^2(\delta\sigma)^2} \right).
+   $$
+   *Consequently, $\mathcal{B}_{S, b}^{P, r}$ is Completely Positive (CP) on $\mathcal{S}(\mathbb{C}^2)$ if and only if the reset effect $(1 - \lambda_n)\mathbf{1}_2 + r_P(S)\Sigma_n \succeq 0$ is positive semidefinite, i.e.:*
+   $$
+   1 - \lambda_n + r_P(S)\sigma_- \ge 0 \qquad \text{and} \qquad 1 - \lambda_n + r_P(S)\sigma_+ \ge 0.
+   $$
+2. *(Traceless Involutory / Pauli Specialization vs. Uncentered Projector.)* *In the traceless normalized case $\operatorname{spec}(\Sigma_n) = \{-1, +1\}$ ($\bar{\sigma} = 0, \delta\sigma = 1$), the eigenvalues simplify to:*
+   $$
+   e_{1, 2} = \frac{1}{4} q(P, r, S) \left( 1 - \lambda_n \mp r_P(S) \right), \qquad e_{3, 4} = \frac{1}{4} q(P, r, S) \left( 1 + \lambda_n \pm \sqrt{4\lambda_n^2 + r_P(S)^2} \right),
+   $$
+   *and $\mathcal{B}_{S, b}^{P, r}$ is CP if and only if the symmetric bound holds:*
+   $$
+   \lvert r_P(S)\rvert \le 1 - \lambda_n.
+   $$
+   *(By contrast, for an uncentered projector $\Sigma_n = \lvert 1_j\rangle\langle 1_j\rvert$ with $\sigma_- = 0, \sigma_+ = 1$, $e_1 = \frac{1}{4}q(1-\lambda_n) \ge 0$ holds automatically and CP requires only the one-sided lower bound $r_P(S) \ge -(1 - \lambda_n)$, permitting $r_P(S) > 1 - \lambda_n$ on individual branches provided $\sum_S q(P,r,S)r_P(S) = 0$.)*
+3. *(Complete-Row Trace Preservation.)* *For every self-adjoint $\Sigma_n$, the complete instrument sum $\sum_{S \in \mathcal{I}(P)} \sum_{b \in \{0, 1\}} \mathcal{B}_{S, b}^{P, r}$ is strictly Trace-Preserving (TP).*
 
 *Proof.*
 Trace preservation:
@@ -374,60 +384,48 @@ Summing over $S \in \mathcal{I}(P)$ and $b \in \{0, 1\}$:
 $$
 \sum_{S, b} \operatorname{Tr}[\mathcal{B}_{S, b}^{P, r}(\rho)] = \sum_S q(P, r, S) \left[ \lambda_n \operatorname{Tr}[\rho] + \frac{1}{2} \left( (1 - \lambda_n)\operatorname{Tr}[\rho] + r_P(S)\operatorname{Tr}[\Sigma_n \rho] \right) \operatorname{Tr}[\mathbf{1}_{\rm local}] \right].
 $$
-Since $\operatorname{Tr}[\mathbf{1}_{\rm local}] = 2$ and $\operatorname{Tr}[\rho] = 1$, the bracket becomes:
-$$
-\lambda_n + (1 - \lambda_n) + r_P(S)\langle \Sigma_n \rangle = 1 + r_P(S)\langle \Sigma_n \rangle.
-$$
-Summing over $S$ with $\sum_{S \in \mathcal{I}(P)} q(P, r, S) = 1$ and $\sum_{S \in \mathcal{I}(P)} q(P, r, S) r_P(S) = 0$ yields:
-$$
-\sum_{S, b} \operatorname{Tr}[\mathcal{B}_{S, b}^{P, r}(\rho)] = 1 + 0 = 1.
-$$
+Since $\operatorname{Tr}[\mathbf{1}_{\rm local}] = 2$ and $\operatorname{Tr}[\rho] = 1$, the bracket becomes $\lambda_n + (1 - \lambda_n) + r_P(S)\langle \Sigma_n \rangle = 1 + r_P(S)\langle \Sigma_n \rangle$. Summing over $S$ with $\sum_{S \in \mathcal{I}(P)} q(P, r, S) = 1$ and $\sum_{S \in \mathcal{I}(P)} q(P, r, S) r_P(S) = 0$ yields $\sum_{S, b} \operatorname{Tr}[\mathcal{B}_{S, b}^{P, r}(\rho)] = 1$.
 
-Complete positivity and Choi spectrum:
-Let $\mathcal{M}_{\lambda_n}(\rho) = \lambda_n U \rho U^\dagger + \frac{1}{2} \operatorname{Tr}[((1-\lambda_n)\mathbf{1} + r_P(S)\Sigma_n)\rho]\mathbf{1}_{\rm local}$, so that $\mathcal{B}_{S, b}^{P, r} = \frac{1}{2} q(P, r, S) \mathcal{M}_{\lambda_n}$. In the orthonormal eigenbasis $\{|\psi_+\rangle, |\psi_-\rangle\}$ of $\Sigma_n$ with $\Sigma_n|\psi_\pm\rangle = \pm |\psi_\pm\rangle$, let $|u_\pm\rangle = U|\psi_\pm\rangle$ and $|\chi_\pm\rangle = \overline{|\psi_\pm\rangle}$. The maximally entangled state expands as $|\Omega\rangle = |u_+\rangle \otimes |\chi_+\rangle + |u_-\rangle \otimes |\chi_-\rangle$. In the orthonormal product basis:
+Complete positivity and general $4\times 4$ Choi spectrum:
+Let $\mathcal{M}_{\lambda_n}(\rho) = \lambda_n U \rho U^\dagger + \frac{1}{2} \operatorname{Tr}[((1-\lambda_n)\mathbf{1} + r_P(S)\Sigma_n)\rho]\mathbf{1}_{\rm local}$, so $\mathcal{B}_{S, b}^{P, r} = \frac{1}{2} q(P, r, S) \mathcal{M}_{\lambda_n}$. In the orthonormal eigenbasis $\{\lvert\psi_+\rangle, \lvert\psi_-\rangle\}$ of $\Sigma_n$ ($\Sigma_n\lvert\psi_\pm\rangle = \sigma_\pm\lvert\psi_\pm\rangle$), set $\lvert u_\pm\rangle := U\lvert\psi_\pm\rangle$ and $\lvert\chi_\pm\rangle := \overline{\lvert\psi_\pm\rangle}$. By unitary invariance of the canonical entangled vector, $\lvert\Omega\rangle = \lvert\psi_+\rangle\otimes\lvert\chi_+\rangle + \lvert\psi_-\rangle\otimes\lvert\chi_-\rangle$ satisfies $(U\otimes\operatorname{id})\lvert\Omega\rangle = \lvert u_+\rangle\otimes\lvert\chi_+\rangle + \lvert u_-\rangle\otimes\lvert\chi_-\rangle$. Moreover, $\operatorname{Tr}[((1-\lambda_n)\mathbf{1} + r_P(S)\Sigma_n)\lvert\psi_j\rangle\langle\psi_k\rvert] = \delta_{jk}(1 - \lambda_n + r_P(S)\sigma_j)$. In the orthonormal product basis:
 $$
-|f_1\rangle = |u_+\rangle \otimes |\chi_+\rangle, \quad
-|f_2\rangle = |u_-\rangle \otimes |\chi_-\rangle, \quad
-|f_3\rangle = |u_+\rangle \otimes |\chi_-\rangle, \quad
-|f_4\rangle = |u_-\rangle \otimes |\chi_+\rangle,
+\lvert f_1\rangle = \lvert u_+\rangle \otimes \lvert\chi_+\rangle, \quad
+\lvert f_2\rangle = \lvert u_-\rangle \otimes \lvert\chi_-\rangle, \quad
+\lvert f_3\rangle = \lvert u_+\rangle \otimes \lvert\chi_-\rangle, \quad
+\lvert f_4\rangle = \lvert u_-\rangle \otimes \lvert\chi_+\rangle,
 $$
-the unscaled Choi matrix $J(\mathcal{M}_{\lambda_n}) = (\mathcal{M}_{\lambda_n} \otimes \operatorname{id})(|\Omega\rangle\langle\Omega|)$ is block-diagonal with respect to the orthogonal decomposition $\mathbb{C}^4 = \operatorname{span}\{|f_3\rangle\} \oplus \operatorname{span}\{|f_4\rangle\} \oplus \operatorname{span}\{|f_1\rangle, |f_2\rangle\}$:
-- The decoupled 1D subspaces $\operatorname{span}\{|f_3\rangle\}$ and $\operatorname{span}\{|f_4\rangle\}$ yield two decoupled eigenvalues:
+let $x_\pm := 1 - \lambda_n + r_P(S)\sigma_\pm$. Then $J(\mathcal{M}_{\lambda_n}) = \lambda_n(\lvert f_1\rangle + \lvert f_2\rangle)(\langle f_1\rvert + \langle f_2\rvert) + \frac{1}{2}\mathbf{1}_2 \otimes (x_+\lvert\chi_+\rangle\langle\chi_+\rvert + x_-\lvert\chi_-\rangle\langle\chi_-\rvert)$ decomposes orthogonally on $\operatorname{span}\{\lvert f_3\rangle\} \oplus \operatorname{span}\{\lvert f_4\rangle\} \oplus \operatorname{span}\{\lvert f_1\rangle, \lvert f_2\rangle\}$:
+- On the 1D subspaces $\operatorname{span}\{\lvert f_3\rangle\}$ and $\operatorname{span}\{\lvert f_4\rangle\}$ (both orthogonal to $\lvert f_1\rangle + \lvert f_2\rangle$), $J(\mathcal{M}_{\lambda_n})$ has eigenvalues:
   $$
-  \nu_1 = \frac{1 - \lambda_n - r_P(S)}{2}, \qquad \nu_2 = \frac{1 - \lambda_n + r_P(S)}{2}.
+  \nu_1 = \frac{x_-}{2} = \frac{1 - \lambda_n + r_P(S)\sigma_-}{2}, \qquad \nu_2 = \frac{x_+}{2} = \frac{1 - \lambda_n + r_P(S)\sigma_+}{2}.
   $$
-- On the coupled 2D subspace $\operatorname{span}\{|f_1\rangle, |f_2\rangle\}$, the Choi operator acts as the $2 \times 2$ block:
+- On $\operatorname{span}\{\lvert f_1\rangle, \lvert f_2\rangle\}$, using $\lambda_n + \frac{x_\pm}{2} = \frac{1 + \lambda_n + r_P(S)\sigma_\pm}{2}$, $J(\mathcal{M}_{\lambda_n})$ acts as the $2 \times 2$ Hermitian block:
   $$
   B = \begin{pmatrix}
-  \frac{1 + \lambda_n + r_P(S)}{2} & \lambda_n \\
-  \lambda_n & \frac{1 + \lambda_n - r_P(S)}{2}
+  \frac{x_+}{2} + \lambda_n & \lambda_n \\
+  \lambda_n & \frac{x_-}{2} + \lambda_n
+  \end{pmatrix}
+  = \begin{pmatrix}
+  \frac{1 + \lambda_n + r_P(S)\sigma_+}{2} & \lambda_n \\
+  \lambda_n & \frac{1 + \lambda_n + r_P(S)\sigma_-}{2}
   \end{pmatrix}.
   $$
-  The trace and determinant of $B$ evaluate to:
+  Its trace, determinant, and discriminant are:
   $$
-  \operatorname{Tr}(B) = 1 + \lambda_n, \qquad \det(B) = \frac{(1+\lambda_n)^2 - r_P(S)^2}{4} - \lambda_n^2 = \frac{(1-\lambda_n)(1+3\lambda_n) - r_P(S)^2}{4}.
+  \operatorname{Tr}(B) = \frac{x_+ + x_-}{2} + 2\lambda_n = 1 + \lambda_n + r_P(S)\bar{\sigma},
+  \qquad
+  \det(B) = \frac{x_+ x_- + 2\lambda_n(x_+ + x_-)}{4},
   $$
-  The characteristic equation $\mu^2 - \operatorname{Tr}(B)\mu + \det(B) = 0$ has discriminant:
   $$
-  \mathcal{D} = [\operatorname{Tr}(B)]^2 - 4\det(B) = (1+\lambda_n)^2 - \left[ (1+\lambda_n)^2 - r_P(S)^2 - 4\lambda_n^2 \right] = 4\lambda_n^2 + r_P(S)^2.
+  \mathcal{D} = [\operatorname{Tr}(B)]^2 - 4\det(B) = \left(\frac{x_+ - x_-}{2}\right)^2 + 4\lambda_n^2 = 4\lambda_n^2 + r_P(S)^2(\delta\sigma)^2,
   $$
-  Hence, the remaining two eigenvalues of $J(\mathcal{M}_{\lambda_n})$ are:
-  $$
-  \nu_{3, 4} = \frac{1 + \lambda_n \pm \sqrt{4\lambda_n^2 + r_P(S)^2}}{2}.
-  $$
+  giving $\nu_{3, 4} = \frac{1}{2}\bigl(1 + \lambda_n + r_P(S)\bar{\sigma} \pm \sqrt{4\lambda_n^2 + r_P(S)^2(\delta\sigma)^2}\bigr)$. Multiplying by $\frac{1}{2}q(P, r, S)$ yields $e_1, e_2, e_3, e_4$.
 
-Multiplying by the overall branch prefactor $\frac{1}{2} q(P, r, S)$, we obtain the four exact Choi eigenvalues $e_j = \frac{1}{2} q(P, r, S) \nu_j$ asserted in the theorem statement.
+By Choi's theorem (Choi 1975), $\mathcal{B}_{S, b}^{P, r}$ (with $q(P, r, S) > 0$) is CP if and only if $\nu_1, \nu_2, \nu_3, \nu_4 \ge 0$:
+1. Necessity: $\nu_1, \nu_2 \ge 0 \implies x_- \ge 0$ and $x_+ \ge 0$.
+2. Sufficiency: Whenever $x_- \ge 0$, $x_+ \ge 0$, and $\lambda_n \ge 0$, the identities $\operatorname{Tr}(B) = \frac{x_+ + x_-}{2} + 2\lambda_n \ge 0$ and $4\det(B) = x_+ x_- + 2\lambda_n(x_+ + x_-) \ge 0$ guarantee $\nu_3, \nu_4 \ge 0$ automatically.
 
-By Choi's theorem (Choi 1975), $\mathcal{B}_{S, b}^{P, r}$ is completely positive if and only if all four eigenvalues are non-negative ($e_j \ge 0$):
-1. $e_{1, 2} \ge 0 \iff 1 - \lambda_n \mp r_P(S) \ge 0 \iff \lvert r_P(S)\rvert \le 1 - \lambda_n$.
-2. For $e_{3, 4}$, $e_4 > 0$ holds unconditionally for all $\lambda_n \in (0, 1]$. The lower branch $e_3 \ge 0$ is equivalent to:
-   $$
-   1 + \lambda_n \ge \sqrt{4\lambda_n^2 + r_P(S)^2} \iff r_P(S)^2 \le (1 - \lambda_n)(1 + 3\lambda_n).
-   $$
-   Since $(1 - \lambda_n)(1 + 3\lambda_n) - (1 - \lambda_n)^2 = 4\lambda_n(1 - \lambda_n) \ge 0$ for all $\lambda_n \in [0, 1]$, the condition $\lvert r_P(S)\rvert \le 1 - \lambda_n$ implies $r_P(S)^2 \le (1 - \lambda_n)^2 \le (1 - \lambda_n)(1 + 3\lambda_n)$, so $e_3 \ge 0$ is automatically satisfied.
-3. If $\lvert r_P(S)\rvert > 1 - \lambda_n$, then $\min(e_1, e_2) = \frac{1}{4}q(P,r,S)(1 - \lambda_n - \lvert r_P(S)\rvert) < 0$.
-
-Thus, $\lvert r_P(S)\rvert \le 1 - \lambda_n$ is the exact necessary and sufficient condition for complete positivity. $\blacksquare$
+Thus $x_- \ge 0 \land x_+ \ge 0$ is necessary and sufficient for CP in general, reducing at $\sigma_\pm = \pm 1$ to $1 - \lambda_n \mp r_P(S) \ge 0 \iff \lvert r_P(S)\rvert \le 1 - \lambda_n$. $\blacksquare$
 
 #### 4.2.2 The All-Horizon Multiplicative Coherent Steering Instrument (`PW2-A` Theorem 5)
 For all horizons $N = \lvert P\rvert \ge 1$, the system completely evades the additive damping collapse obstruction through the multiplicative coherent instrument established in `PW2-A` Theorem 5:
@@ -447,13 +445,16 @@ For all horizons $N = \lvert P\rvert \ge 1$, the system completely evades the ad
      where $\bar{q} = \frac{1}{2}(q^{(+)} + q^{(-)})$ and $\Delta q = q^{(+)} - q^{(-)}$.
    - **No Energy Dissipation**: The carrier state undergoes unitary relative phase rotations and bounded transverse decoherence; it does not require additive energy damping or geometric potential absorption.
 
-**Theorem 4.2 (Entangled Diamond Commutation).**
-*On every pair of incomparable births $(S, b)$ and $(T, c)$ on marked base $(C, r)$ with passive reference space $\mathcal{H}_{\rm ref}$:*
-$$
-\left( \mathcal{B}_{T, c}^{C+x_S, r+b_x} \circ \mathcal{B}_{S, b}^{C, r} \right) \otimes \operatorname{id}_{\rm ref} = \left( \mathcal{B}_{S, b}^{C+y_T, r+c_y} \circ \mathcal{B}_{T, c}^{C, r} \right) \otimes \operatorname{id}_{\rm ref}.
-$$
+**Theorem 4.2 (Entangled Diamond Commutation Across Both Regimes).**
+*Let $(C, r)$ be a marked base poset, $(S, b), (T, c) \in \mathcal{I}(C) \times \{0, 1\}$ two incomparable births, and $\mathcal{H}_{\rm ref}$ any passive reference space:*
+1. *(Finite-Horizon Additive Reset Regime, $0 \le \lvert C\rvert \le 2$.)* *When the stage observables $\Sigma_n$ are **traceless normalized** operators ($\operatorname{Tr}[\Sigma_n] = 0, \operatorname{spec}(\Sigma_n) = \{-1, +1\}$) co-rotating via $U_{n, K, b} = U_* e^{-i\varphi_{K, b}\Sigma_n / 2}$ ($U_* \Sigma_n U_*^\dagger = \Sigma_{n+1}$, with $\varphi_{\varnothing, b} = 0$ at $C = \varnothing$ when $\lambda_0 = 1$) and $r_P(S) = \theta\Lambda_{\lvert P\rvert}^{-1}[H(P+S) - H(P)]$ for a mark-independent harmonic potential $H$, the branch superoperators satisfy exact entangled diamond commutation:*
+   $$
+   \left( \mathcal{B}_{T, c}^{C+x_S, r+b_x} \circ \mathcal{B}_{S, b}^{C, r} \right) \otimes \operatorname{id}_{\rm ref} = \left( \mathcal{B}_{S, b}^{C+y_T, r+c_y} \circ \mathcal{B}_{T, c}^{C, r} \right) \otimes \operatorname{id}_{\rm ref}.
+   $$
+   *(Remark: Tracelessness $\operatorname{Tr}[\Sigma_n] = 0$ is essential for multi-step additive reset commutation because it enforces the maximally-mixed anchor $\mathcal{M}_{\lambda_k}(\mathbf{1}_2 / 2) = \mathbf{1}_2 / 2$; any uncentered two-level projector $\lvert 1_j\rangle\langle 1_j\rvert$ is therefore centered to $\Sigma_n = 2\lvert 1_j\rangle\langle 1_j\rvert - \mathbf{1}_2$ before multi-step coupling.)*
+2. *(All-Horizon Multiplicative Coherent Regime, all $\lvert C\rvert \ge 0$.)* *For $\mathcal{K}_{S, b}^{P, r}(\rho) := K_{S, b}^{P, r}\rho (K_{S, b}^{P, r})^\dagger$, exact entangled diamond commutation $(\mathcal{K}_{T, c}^{C+x_S, r+b_x} \circ \mathcal{K}_{S, b}^{C, r}) \otimes \operatorname{id}_{\rm ref} = (\mathcal{K}_{S, b}^{C+y_T, r+c_y} \circ \mathcal{K}_{T, c}^{C, r}) \otimes \operatorname{id}_{\rm ref}$ holds across all horizons $\lvert C\rvert \ge 0$.*
 
-*Proof.* Follows directly from ratio-diamond symmetry $q(C, r, S)u(C+x_S, r+b_x, T) = q(C, r, T)u(C+y_T, r+c_y, S)$ and the fact that local precursor phases depend strictly on the isomorphism class of the induced subposet, which is identical along both diamond paths. $\blacksquare$
+*Proof.* Part 1 follows from Theorem 4(3) of `PW2-B`: $\operatorname{Tr}[\Sigma_{n+1}] = 0$ gives $\mathcal{M}_{\lambda_{n+1}}(\mathbf{1}_2 / 2) = \mathbf{1}_2 / 2$, so the two-step drift telescopes additively to $\theta\Lambda_n^{-1}[H(C + x_S + y_T) - H(C)]\Sigma_n$, while $q(C, r, S)q(C+x_S, r+b_x, T) = q(C, r, T)q(C+y_T, r+c_y, S)$ and precursor-local phases $\varphi_{K(S, r|_S), b} + \varphi_{K(T, r|_T), c}$ are invariant under swapping $(S, b) \leftrightarrow (T, c)$. Part 2 holds because $K_{S, b}^{C, r}$ and $K_{T, c}^{C+x_S, r+b_x}$ are simultaneously diagonal in $\{\lvert +\rangle, \lvert -\rangle\}$ and $q^{(\pm)}$ satisfy scalar diamond commutation across all $\lvert C\rvert \ge 0$. $\blacksquare$
 
 ---
 
@@ -938,4 +939,4 @@ In strict compliance with foundational research governance:
 
 ## 9. Scientific review
 
-Sorkin–Johnston Stress Author derived background-free Sorkin–Johnston field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$), normal-ordered discrete link stress observables $\mathcal{T}_{\rm link}(v, u) = \frac{1}{2}:(\phi(u)-\phi(v))^2:_{W_{\rm SJ}}$ along covering relations $\operatorname{Link}(P) = \operatorname{supp}(A_1)$ summing to the discrete Hamiltonian $H_{\rm field}(P) = \frac{1}{2}\phi^T L_P \phi - \langle\text{vac}\rangle$ with unconditional coherent-state non-negativity, the finite-horizon ($0 \le \lvert P\rvert \le 4$) two-level CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ ($\lvert r_P\rvert \le 1 - \lambda_{\lvert P\rvert}$, with exact $4\times 4$ Choi eigenvalues) alongside all-horizon multiplicative coherent steering (`PW2-A` Theorem 5) steering sequential growth toward interval-focusing diamonds ($S_{\rm BD}^{(4)} = -16$), and the exact conditional-mean joint two-level probe-plus-geometry conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert} \rho]$ with 0 residue across all 25 posets ($0 \le \lvert P\rvert \le 4$) completely eliminating continuum cavity scaffolding, while rigorously formulating variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open problem. Independent Reviewer, Adversarial Challenger, and Independent Audit Team verified by hand and small-case checks ($N \le 6$) 100% of equations, nilpotency ($G_R^N = 0, \det D_\mu = 1$), microcausality, $C_4$ spectral roots ($\lambda^4 - 27\lambda^2 + 1 = 0$), Choi spectra, conservation linear systems, and canonical benchmark evaluations. Prospective protocol SHA-256 c4bf862d357c1e6489a912f84c03a35ca3ee0475d1bfcbe0cecfa3552c8db34a; accepted author report SHA-256 e0192b2902b9429ab0c8d0372300f59415fe72f7c80d7145410cf94d967fdb6a; independent scientific review SHA-256 85952b5766cdfa5980e70f328aa568838397d265019e2fa8dbd8dcc0052e174e; adversarial challenge report SHA-256 e585842188ce2160f3d9345ef407694a05e9939bb7912c46138f316cadb7994b.
+Sorkin–Johnston Stress Author derived background-free Sorkin–Johnston field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$), normal-ordered discrete link stress observables $\mathcal{T}_{\rm link}(v, u) = \frac{1}{2}:(\phi(u)-\phi(v))^2:_{W_{\rm SJ}}$ along covering relations $\operatorname{Link}(P) = \operatorname{supp}(A_1)$ summing to the discrete Hamiltonian $H_{\rm field}(P) = \frac{1}{2}\phi^T L_P \phi - \langle\text{vac}\rangle$ with unconditional coherent-state non-negativity, the finite-horizon ($0 \le \lvert P\rvert \le 4$) two-level CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ with exact general $4\times 4$ Choi eigenvalues ($(1-\lambda_n)\mathbf{1}_2 + r_P(S)\Sigma_n \succeq 0$, specializing on traceless involutory observables $\operatorname{spec}(\Sigma_n) = \{-1, +1\}$ to $\lvert r_P\rvert \le 1 - \lambda_{\lvert P\rvert}$ and multi-step diamond commutation) alongside all-horizon multiplicative coherent steering (`PW2-A` Theorem 5) steering sequential growth toward interval-focusing diamonds ($S_{\rm BD}^{(4)} = -16$), and the exact conditional-mean joint two-level probe-plus-geometry conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert} \rho]$ with 0 residue across all 25 posets ($0 \le \lvert P\rvert \le 4$) completely eliminating continuum cavity scaffolding, while rigorously formulating variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open problem. Independent Reviewer, Adversarial Challenger, and Independent Audit Team verified by hand and small-case checks ($N \le 6$) 100% of equations, nilpotency ($G_R^N = 0, \det D_\mu = 1$), microcausality, $C_4$ spectral roots ($\lambda^4 - 27\lambda^2 + 1 = 0$), general and Pauli Choi spectra, conservation linear systems, and canonical benchmark evaluations. Prospective protocol SHA-256 c4bf862d357c1e6489a912f84c03a35ca3ee0475d1bfcbe0cecfa3552c8db34a; accepted author report SHA-256 e0192b2902b9429ab0c8d0372300f59415fe72f7c80d7145410cf94d967fdb6a; independent scientific review SHA-256 85952b5766cdfa5980e70f328aa568838397d265019e2fa8dbd8dcc0052e174e; adversarial challenge report SHA-256 e585842188ce2160f3d9345ef407694a05e9939bb7912c46138f316cadb7994b.

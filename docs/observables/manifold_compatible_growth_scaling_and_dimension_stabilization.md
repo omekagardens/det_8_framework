@@ -1,6 +1,6 @@
 # Manifold-Compatible Growth Scaling, Asymptotic Poset Geometry, and Intrinsic Dimension Stabilization
 
-**Decision.** Formulating size-dependent, sparse-link, and quantum-steered sequential growth regimes beyond Stage 1's Dichotomy establishes four exact analytical growth/covariance obstructions (summable-schedule 1D chain freezing, fixed-$p$ percolation 1D dimension collapse $d(R_2) \to 1.0$, 3-layer Kleitman–Rothschild $\rho_2 = 0$ collapse, and discrete general covariance failure $\Pi_1/\Pi_2 = 1 \iff p_{n+1}=p_n$ for naive stage-dependent percolation) together with `NG-02` operational rejection screens, proves chain-tail non-freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) for non-summable maximal-deletion schedules $\sum a_n = \infty$ via $\Sigma_u(Q \oplus A_1) \equiv 1$, proves linear ensemble-mean quantum dimension steering ($\mathbb{E}_{\rho_*}[R_2] = 1/10$) alongside bimodal single-history branch bifurcation (non-concentration at the ensemble mean under static carrier states), and formulates decaying-coupling CSG transitivity breaking and closed-loop single-history $d(R_2) \to 4.0$ feedback attraction as explicit open conjectures with exact Lyapunov and covariance criteria, preserving Kolmogorov cylinder-set projectivity without external continuous spacetime embeddings; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime geometry, single-history 3+1D emergence, Born's rule, physical constants, or General Relativity.
+**Decision.** Formulating size-dependent, sparse-link, and quantum-steered sequential growth regimes beyond Stage 1's Dichotomy establishes four exact analytical growth/covariance obstructions (summable-schedule 1D chain freezing, fixed-$p$ percolation 1D dimension collapse $d(R_2) \to 1.0$, 3-layer Kleitman–Rothschild $\rho_2 = 0$ collapse, and discrete general covariance failure $\Pi_1/\Pi_2 = 1 \iff p_{n+1}=p_n$ for naive stage-dependent percolation) together with `NG-02` operational rejection screens, proves chain-tail non-freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) under $\sum a_n = \infty$ via $\Sigma_u(Q \oplus A_1) \equiv 1$ and unbounded height / bounded-layer KR rejection ($h(P_N) \to \infty$, $\rho_2(P_N) > 0$ eventually $\mathbb{P}_\infty$-a.s.) under $\sum (1 - a_n M_n) = \infty$ ($M_n := \max_{\lvert P\rvert=n, r}\Sigma_u(P, r)$), proves linear ensemble-mean quantum dimension steering ($\mathbb{E}_{\rho_*}[R_2] = 1/10$) alongside bimodal single-history branch bifurcation (non-concentration at the ensemble mean under static carrier states), and formulates decaying-coupling CSG transitivity breaking and closed-loop single-history $d(R_2) \to 4.0$ feedback attraction as explicit open conjectures with exact Lyapunov and covariance criteria, preserving Kolmogorov cylinder-set projectivity without external continuous spacetime embeddings; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime geometry, single-history 3+1D emergence, Born's rule, physical constants, or General Relativity.
 
 ---
 
@@ -544,49 +544,42 @@ Recall the maximal-deletion growth law from Stage 1 (`PW2-A`, Theorem 1):
 $$
 q(P, r, S) = a_n u(P, r, S) \quad (S \subsetneq P), \qquad q(P, r, P) = 1 - a_n \sum_{S \subsetneq P} u(P, r, S),
 $$
-where $0 < a_n < 1/M_n$ with $M_n = \max_{\lvert P\rvert=n, r} \sum_{S \subsetneq P} u(P, r, S) = \Sigma_u(A_n)$.
+where $0 < a_n < 1/M_n$ with the finite-parent maximum defined recursively at each cardinality $n \ge 4$ by:
+$$
+M_n := \max_{\lvert P\rvert = n, \, r \in \{0, 1\}^n} \Sigma_u(P, r), \qquad \Sigma_u(P, r) := \sum_{S \subsetneq P} u(P, r, S) \in (0, \infty).
+$$
+*(Scope Note on $M_n$ vs. $\Sigma_u(A_n)$)*: At parent size $n = 4$, Lemma 1(2) of `PW2-A` proves by exhaustive evaluation over all 16 classes of $\mathcal{U}_4$ that $M_4$ is attained uniquely on the four-antichain: $M_4 = \Sigma_u(A_4) = \frac{16}{5} + \frac{3}{110} + \frac{4}{3{,}993} + \frac{256}{1{,}185{,}921} = \frac{7{,}657{,}469}{2{,}371{,}842} < \frac{10}{3} < 4$. However, $M_n = \Sigma_u(A_n)$ does **not** hold automatically for all $n \ge 5$ and all admissible scale choices $(a_k)_{4 \le k < n}$! Explicitly, at $n = 5$, grouping the 31 proper subsets $S \subsetneq A_5$ by $\lvert S\rvert \in \{4, 3, 2, 1, 0\}$ gives:
+$$
+\Sigma_u(A_5) = 5(1 - a_4 M_4) + 8 a_4^2 + \frac{1}{242}a_4^3 + \frac{500}{47{,}832{,}147}a_4^4 + \frac{34{,}359{,}738{,}368}{372{,}173{,}693{,}419{,}261{,}107}a_4^5.
+$$
+While small scales such as $a_4 = \frac{1}{10}$ retain $M_5 = \Sigma_u(A_5) \approx 3.4658$, choosing the strictly admissible scale $a_4 = \frac{3}{10} < \frac{1}{M_4}$ ($M_4 > \frac{71}{22}$) yields $5(1 - \frac{3}{10}M_4) < \frac{7}{44} < 0.16$ and $8(\frac{3}{10})^2 = 0.72$, so $\Sigma_u(A_5)\big\rvert_{a_4 = 3/10} \approx 0.8774 < 1 = \Sigma_u(C_5) \le M_5$. This finite counterexample demonstrates both that $M_n$ must be defined directly as $\max_{\lvert P\rvert = n, r} \Sigma_u(P, r)$ and that $\Sigma_u(P, r)$ can fall strictly below $1$ on non-chain posets when $a_{n-1}$ approaches $1/M_{n-1}$.
 
 In Section 3.1, Theorem 3.1 established that any schedule satisfying $\sum_{n=4}^\infty a_n M_n < \infty$ freezes into an ordinal chain tail almost surely by the First Borel–Cantelli Lemma, because $\mathbb{P}(S_n \subsetneq P_n \mid \mathcal{F}_{n-1}) \le a_n M_n$.
-However, the naive condition $\sum_{n=4}^\infty a_n M_n = \infty$ is **insufficient** to evade chain freezing: along an ordinal chain continuation $P_n = Q \oplus A_1$, the maximal-deletion sum is not $M_n$, but collapses identically to $\Sigma_u(Q \oplus A_1) \equiv 1$. If $\sum a_n < \infty$ while $\sum a_n M_n = \infty$, the probability of remaining in an infinite ordinal chain tail is strictly positive ($\prod (1 - a_n) > 0$).
-Therefore, the necessary and sufficient condition to prevent 1D chain freezing is the divergence of the unweighted scale series: $\sum_{n=4}^\infty a_n = \infty$.
+However, the naive condition $\sum_{n=4}^\infty a_n M_n = \infty$ is **insufficient** to evade chain freezing: along an ordinal chain continuation $P_n = Q \oplus A_1$, the maximal-deletion sum is not $M_n$, but collapses identically to $\Sigma_u(Q \oplus A_1, r) \equiv 1$. If $\sum a_n < \infty$ while $\sum a_n M_n = \infty$, the probability of remaining in an infinite ordinal chain tail is strictly positive ($\prod (1 - a_n) > 0$).
+Therefore, the exact condition preventing 1D chain freezing is the divergence of the unweighted scale series: $\sum_{n=4}^\infty a_n = \infty$.
 
 **Theorem 5.1 (Identical Covariance for Arbitrary Sequences $a_n$).**  
 *For **any** sequence of positive scale parameters $(a_n)_{n \ge 4}$ with $0 < a_n < 1/M_n$, the maximal-deletion growth law satisfies:*
 1. *Strict complete-row normalization: $\sum_{S \subseteq P} q(P, r, S) = 1$ for all $(P, r)$.*
-2. *Exact scalar diamond commutation across all base posets $C$ of size $n-1$:*
+2. *Exact scalar diamond commutation across all base posets $C$ of size $n-1 \ge 3$ and all downward-closed ideals $S, T \subseteq C$:*
    $$
-   q(C, r, S)\,q(C + x_S, r + b_x, T) = q(C, r, T)\,q(C + y_T, r + c_y, S) \quad \forall S, T \subsetneq C.
+   q(C, r, S)\,q(C + x_S, r + b_x, T) = q(C, r, T)\,q(C + y_T, r + c_y, S) \quad \forall S, T \subseteq C.
    $$
 3. *Exact Kolmogorov cylinder-set projectivity extending uniquely to infinite marked histories.*
 
 *Proof.*  
-Let $C$ be a base poset of cardinality $\lvert C\rvert = n - 1$, and let $S, T \subsetneq C$ be two distinct proper ideals.
-When $x_S$ is adjoined to $C$, the resulting intermediate poset $C + x_S$ has cardinality:
+Let $C$ be a base poset of cardinality $\lvert C\rvert = n - 1 \ge 3$, and let $S, T \subseteq C$ be any two downward-closed ideals (including $S = C$ or $T = C$).
+When $x_S$ is adjoined to $C$, the intermediate poset $C + x_S$ has cardinality $\lvert C + x_S\rvert = n$; similarly $\lvert C + y_T\rvert = n$.
+Because the newborn element $x_S \notin T$ and $y_T \notin S$, both $T \subsetneq C + x_S$ and $S \subsetneq C + y_T$ are **proper ideals of an $n$-element parent** (even when $T = C$ or $S = C$).
+Therefore, along Path 1 and Path 2:
 $$
-\lvert C + x_S\rvert = (n - 1) + 1 = n.
-$$
-Similarly, when $y_T$ is adjoined to $C$, the intermediate poset $C + y_T$ has cardinality:
-$$
-\lvert C + y_T\rvert = (n - 1) + 1 = n.
-$$
-Because $x_S \notin T$ and $y_T \notin S$, the ideal $T \subsetneq C + x_S$ and the ideal $S \subsetneq C + y_T$ are both **proper ideals of an $n$-element parent**.
-Therefore, along Path 1:
-$$
-q(C + x_S, r + b_x, T) = a_n u(C + x_S, r + b_x, T).
-$$
-Along Path 2:
-$$
-q(C + y_T, r + c_y, S) = a_n u(C + y_T, r + c_y, S).
+q(C + x_S, r + b_x, T) = a_n u(C + x_S, r + b_x, T), \qquad q(C + y_T, r + c_y, S) = a_n u(C + y_T, r + c_y, S).
 $$
 In both path products, the scale factor at stage $n$ is identically $a_n$:
 $$
 \Pi_1 = q(C, r, S) \cdot a_n u(C + x_S, r + b_x, T), \qquad \Pi_2 = q(C, r, T) \cdot a_n u(C + y_T, r + c_y, S).
 $$
-By Theorem 1 of `PW2-A`, the structural potential $u$ satisfies the diamond relation identically:
-$$
-u(C, r, S)\,u(C + x_S, r + b_x, T) = u(C, r, T)\,u(C + y_T, r + c_y, S).
-$$
-The factor $a_n$ enters symmetrically on both sides and cancels identically. Therefore, diamond commutation holds identically for *arbitrary* sequence choices $(a_n)_{n \ge 4}$. $\blacksquare$
+By Theorem 1(2) of `PW2-A`, $q(C, r, S)\,u(C + x_S, r + b_x, T) = q(C, r, T)\,u(C + y_T, r + c_y, S)$ holds identically across all $S, T \subseteq C$. Multiplying both sides by $a_n$ establishes exact diamond commutation for *arbitrary* admissible sequences $(a_n)_{n \ge 4}$. $\blacksquare$
 
 **Lemma 5.1 (Unique-Top Combinatorial Identity).**  
 *For any finite base poset $Q$ of cardinality $\lvert Q\rvert = n - 1 \ge 0$ and any marking $r$, let $P = Q \oplus A_1$ be the ordinal chain extension with unique top element $x$ ($q \prec_P x$ for all $q \in Q$). Then:*
@@ -609,65 +602,40 @@ The factor $a_n$ enters symmetrically on both sides and cancels identically. The
 2. For any proper ideal $S \subsetneq P$, the missing maximal set is $M(P, S) = \operatorname{Max}(P) \setminus S = \{x\}$. The only non-empty subset is $A = \{x\}$ with $\lvert A\rvert = 1$. In the product definition of $u(P, r, S)$, the single term is $q(P \setminus \{x\}, r|_Q, S)^{(-1)^{1+1}} = q(Q, r|_Q, S)^1 = q(Q, r|_Q, S)$.
 3. Summing over all proper ideals $S \subsetneq P$ yields $\Sigma_u(P, r) = \sum_{S \in \mathcal{I}(Q)} q(Q, r|_Q, S)$. By complete-row probability normalization of the structural growth kernel on $Q$, this sum equals $1$ identically. $\blacksquare$
 
-**Theorem 5.2 (Evasion of 1D Freezing via Conditional Borel–Cantelli Lemma and Antichain Self-Throttling).**  
+**Theorem 5.2 (Evasion of 1D Chain Freezing and Bounded-Height Layered Collapse via Conditional Borel–Cantelli).**  
 *Let $(a_n)_{n \ge 4}$ be any sequence of scale parameters satisfying $0 < a_n < 1/M_n$ and the non-summability condition:*
 $$
 \sum_{n=4}^\infty a_n = \infty.
 $$
 *Then:*
-1. *The probability that infinitely many proper precursor ideals are chosen equals unity:*
+1. *(Infinite Proper-Ideal Activity.)* *The probability that infinitely many proper precursor ideals are chosen equals unity:*
    $$
    \mathbb{P}_\infty\left(\limsup_{n \to \infty} \{S_n \subsetneq P_n\}\right) = 1.
    $$
-2. *The causal set never freezes into an ordinal chain tail: for every $N_0 \ge 4$,*
+2. *(Zero Probability of 1D Chain-Tail Freezing.)* *For every stopping index $N_* \ge 4$, the chain-freezing event $F_{N_*} := \bigcap_{n=N_*}^\infty \{S_n = P_n\}$ occurs with probability zero:*
    $$
-   \mathbb{P}_\infty\left(\exists n \ge N_0 : S_n \subsetneq P_n\right) = 1,
+   \mathbb{P}_\infty\left(\bigcup_{N_*=4}^\infty \bigcap_{n=N_*}^\infty \{S_n = P_n\}\right) = 0, \qquad \mathbb{P}_\infty\left(\exists n \ge N_0 : S_n \subsetneq P_n\right) = 1 \quad (\forall N_0 \ge 4).
    $$
-   *and for every stopping index $N_* \ge 4$, the chain-freezing event $F_{N_*} := \bigcap_{n=N_*}^\infty \{S_n = P_n\}$ occurs with probability zero:*
+3. *(Unbounded Height and Evasion of Bounded-Layer KR Collapse Under Non-Summable Full-Ideal Margin.)* *If in addition $(a_n)_{n \ge 4}$ satisfies $\sum_{n=4}^\infty (1 - a_n M_n) = \infty$ (for instance, whenever $\limsup_{n \to \infty} a_n M_n < 1$, such as $0 < a_n \le \frac{1}{2 M_n}$), then full-ideal extensions $\{S_n = P_n\}$ also occur infinitely often $\mathbb{P}_\infty$-almost surely, forcing unbounded poset height and strictly positive 3-chain propagation:*
    $$
-   \mathbb{P}_\infty\left(\bigcup_{N_*=4}^\infty \bigcap_{n=N_*}^\infty \{S_n = P_n\}\right) = 0.
+   \lim_{N \to \infty} h(P_N) = \infty \quad \text{and} \quad \exists N_0(\omega) < \infty \text{ s.t. } \rho_2(P_N(\omega)) > 0 \;\; (\forall N \ge N_0(\omega)) \qquad \mathbb{P}_\infty\text{-a.s.},
    $$
-3. *Antichain Self-Throttling: On the antichain $A_n$, the row sum $\Sigma_u(A_n) = M_n$ attains the unique global maximum across all $n$-element posets (Lemma 1 of `PW2-A`). Consequently, when the order widens, $q(P, r, P) = 1 - a_n \Sigma_u(P, r)$ attains its global minimum $1 - a_n M_n$, dynamically penalizing extreme antichains and suppressing 3-layer Kleitman–Rothschild collapse.*
+   *so bounded-height 3-layer Kleitman–Rothschild collapse ($h(P_N) \le 3$, $\rho_2(P_N) = 0$) occurs with probability zero.*
 
 *Proof of Theorem 5.2.*  
-1. On the canonical filtered history space $(\Omega, \mathcal{F}, (\mathcal{F}_n)_{n \ge 0}, \mathbb{P}_\infty)$, let $E_n := \{S_n \subsetneq P_n\} \in \mathcal{F}_n$ be the event that a proper precursor ideal is chosen at step $n$. Conditioned on $\mathcal{F}_{n-1}$, the parent poset $P_n$ and marking $r_n$ are determined, giving:
+1. On the canonical filtered history space $(\Omega, \mathcal{F}, (\mathcal{F}_n)_{n \ge 0}, \mathbb{P}_\infty)$, let $E_n := \{S_n \subsetneq P_n\} \in \mathcal{F}_n$. Conditioned on $\mathcal{F}_{n-1}$, $(P_n, r_n)$ is determined and $\mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \sum_{S \subsetneq P_n} q(P_n, r_n, S) = a_n \Sigma_u(P_n, r_n)$.
+2. Fix an arbitrary integer $N_* \ge 4$ and consider $F_{N_*} := \bigcap_{n=N_*}^\infty \{S_n = P_n\} = \bigcap_{n=N_*}^\infty E_n^c$. On the event $F_{N_*}$, at step $n = N_*$ the full ideal $S_{N_*} = P_{N_*}$ is chosen, and for every subsequent step $n \ge N_* + 1$ we have $S_{n-1} = P_{n-1}$, so $P_n = P_{n-1} \oplus A_1$ possesses a unique maximal element. By Lemma 5.1, on $F_{N_*}$ we have $\Sigma_u(P_n, r_n) = \Sigma_u(P_{n-1} \oplus A_1, r_n) \equiv 1$ for every $n \ge N_* + 1$, and therefore:
    $$
-   \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \sum_{S \subsetneq P_n} q(P_n, r_n, S) = a_n \sum_{S \subsetneq P_n} u(P_n, r_n, S) = a_n \Sigma_u(P_n, r_n).
+   \sum_{n=N_*+1}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \sum_{n=N_*+1}^\infty a_n = \infty \quad \text{pointwise on } F_{N_*}.
    $$
-2. Fix an arbitrary integer $N_* \ge 4$ and consider the chain-freezing event $F_{N_*} := \bigcap_{n=N_*}^\infty \{S_n = P_n\} = \bigcap_{n=N_*}^\infty E_n^c$. On $F_{N_*}$, the newborn element at each step $n \ge N_*$ is adjoined above all existing elements ($S_{n-1} = P_{n-1}$), so $P_n = P_{n-1} \oplus A_1$ is an ordinal chain extension with a unique maximal element.
-   By Lemma 5.1, for every $n \ge N_*$ on $F_{N_*}$:
+   By Lévy's conditional Borel–Cantelli lemma (Lévy 1937; Williams 1991, §12.15), the symmetric difference between $\{\limsup_{n \to \infty} E_n\}$ and $\{\sum_{n=4}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \infty\}$ has $\mathbb{P}_\infty$-measure zero. Because $F_{N_*} \cap (\limsup_{n \to \infty} E_n) = \varnothing$ while $F_{N_*} \subseteq \{\sum_{n=4}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \infty\}$, it follows that:
    $$
-   \Sigma_u(P_n, r_n) = \Sigma_u(P_{n-1} \oplus A_1, r_n) \equiv 1.
+   F_{N_*} \subseteq \left\{\sum_{n=4}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \infty\right\} \setminus \left(\limsup_{n \to \infty} E_n\right) \implies \mathbb{P}_\infty(F_{N_*}) = 0.
    $$
-   Therefore, on the event $F_{N_*}$:
-   $$
-   \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = a_n \cdot 1 = a_n \quad \text{for all } n \ge N_*.
-   $$
-   Summing conditional probabilities on $F_{N_*}$:
-   $$
-   \sum_{n=N_*}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) = \sum_{n=N_*}^\infty a_n = \infty,
-   $$
-   which diverges by the non-summability hypothesis $\sum_{n=4}^\infty a_n = \infty$.
-   By Lévy's conditional Borel–Cantelli lemma (Lévy 1937, Williams 1991 §12.15), for any adapted sequence of events, $\{E_n \text{ i.o.}\} = \{\sum_{n=1}^\infty \mathbb{P}(E_n \mid \mathcal{F}_{n-1}) = \infty\}$ holds $\mathbb{P}_\infty$-almost surely.
-   Therefore:
-   $$
-   \mathbb{P}_\infty\left(\limsup_{n \to \infty} E_n \;\middle|\; F_{N_*}\right) = 1.
-   $$
-   However, by definition, $F_{N_*} \subseteq \bigcap_{n=N_*}^\infty E_n^c$, which asserts that $E_n$ occurs zero times for $n \ge N_*$. Since $\limsup E_n$ and $\bigcap_{n \ge N_*} E_n^c$ are disjoint, we must have:
-   $$
-   \mathbb{P}_\infty(F_{N_*}) = 0.
-   $$
-   By countable additivity over $N_* \ge 4$, $\mathbb{P}_\infty(\bigcup_{N_*=4}^\infty F_{N_*}) \le \sum_{N_*=4}^\infty \mathbb{P}_\infty(F_{N_*}) = 0$. Hence:
-   $$
-   \mathbb{P}_\infty\left(\exists n \ge N_0 : S_n \subsetneq P_n\right) = 1 - \mathbb{P}_\infty\left(\bigcap_{n=N_0}^\infty \{S_n = P_n\}\right) = 1 - 0 = 1,
-   $$
-   proving Part 2.
-3. Because the event that proper ideals are chosen only finitely often is identically the union of freezing tails $\bigcup_{N_*=4}^\infty F_{N_*}$, its complement has probability:
-   $$
-   \mathbb{P}_\infty\left(\limsup_{n \to \infty} \{S_n \subsetneq P_n\}\right) = 1 - \mathbb{P}_\infty\left(\bigcup_{N_*=4}^\infty F_{N_*}\right) = 1 - 0 = 1.
-   $$
-   (Alternatively, since $\Sigma_u(P) \ge 1$ for all finite posets $P$, we have $\mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) \ge a_n$ unconditionally everywhere on $\Omega$, so $\sum_{n=4}^\infty \mathbb{P}_\infty(E_n \mid \mathcal{F}_{n-1}) \ge \sum_{n=4}^\infty a_n = \infty$ everywhere on $\Omega$, establishing $\mathbb{P}_\infty(\limsup E_n) = 1$ directly). This proves Part 1.
-4. Part 3 follows directly from Lemma 1 of `PW2-A`: on $A_n$, every element is maximal ($\lvert\operatorname{Max}(A_n)\rvert = n$), giving $2^n - 1$ non-empty deletion subsets. Thus $\Sigma_u(A_n) = M_n$ attains the unique global maximum, and $q(A_n, r, A_n) = 1 - a_n M_n$ attains the unique global minimum, penalizing wide antichain extensions and suppressing 3-layer Kleitman–Rothschild collapse. $\blacksquare$
+   Countable subadditivity over $N_* \ge 4$ yields $\mathbb{P}_\infty(\bigcup_{N_*=4}^\infty F_{N_*}) \le \sum_{N_*=4}^\infty \mathbb{P}_\infty(F_{N_*}) = 0$, proving Part 2. Since $(\limsup_{n \to \infty} E_n)^c = \bigcup_{N_*=4}^\infty F_{N_*}$, we immediately obtain $\mathbb{P}_\infty(\limsup_{n \to \infty} E_n) = 1 - 0 = 1$, proving Part 1 (without assuming $\Sigma_u(P, r) \ge 1$ outside $F_{N_*}$).
+3. For Part 3, let $G_n := \{S_n = P_n\} = E_n^c \in \mathcal{F}_n$. By definition of $M_n = \max_{\lvert P\rvert = n, r} \Sigma_u(P, r)$, every history satisfies $\mathbb{P}_\infty(G_n \mid \mathcal{F}_{n-1}) = 1 - a_n \Sigma_u(P_n, r_n) \ge 1 - a_n M_n$ everywhere on $\Omega$. When $\sum_{n=4}^\infty (1 - a_n M_n) = \infty$, $\sum_{n=4}^\infty \mathbb{P}_\infty(G_n \mid \mathcal{F}_{n-1}) = \infty$ holds everywhere on $\Omega$, so Lévy's conditional Borel–Cantelli lemma gives $\mathbb{P}_\infty(\limsup_{n \to \infty} G_n) = 1$. Whenever $G_n$ occurs, $P_{n+1} = P_n \oplus A_1$ adjoins a global top element above all vertices of $P_n$, strictly increasing the longest-chain height by $h(P_{n+1}) = h(P_n) + 1$ (while $h(P_m)$ is non-decreasing across all steps). Infinitely many occurrences of $G_n$ therefore force $\lim_{N \to \infty} h(P_N) = \infty$ $\mathbb{P}_\infty$-a.s., and once $h(P_N) \ge 3$ (after at most four occurrences of $G_n$), $P_N$ contains at least one 4-element chain ($C_3(P_N) \ge 1$ and $C_2(P_N) \ge 4$), guaranteeing $\rho_2(P_N) = C_3(P_N)/C_2(P_N) > 0$ for all subsequent $N$. $\blacksquare$
+
+*(Scope Limitation of Regime A)*: While Theorem 5.2 rigorously eliminates both permanent 1D ordinal chain-tail freezing ($\sum a_n = \infty$) and bounded-height 3-layer Kleitman–Rothschild collapse ($\sum (1 - a_n M_n) = \infty$), each occurrence of $G_n = \{S_n = P_n\}$ creates a global post comparable to every earlier and later vertex. Unless the asymptotic frequency of global posts vanishes ($a_n \Sigma_u(P_n, r_n) \to 1$ along typical trajectories), positive post density can still drive $R_2(P_N) \to 1$ ($d(R_2) \to 1.0$) and reset antichain width; hence width divergence and $R_2(P_N) \in (\epsilon, 1 - \epsilon)$ are **not** automatic under Regime A alone.
 
 ### 5.2 Regime B: Covariant Decaying-Coupling Classical Sequential Growth (CSG)
 
@@ -884,10 +852,10 @@ This provides a remarkably sharp, computationally inexpensive rejection screen (
 In accordance with `docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md` (`NG-02`), any admissible manifold-like growth regime must pass three simultaneous screens:
 1. **Screen 1 (Width Divergence)**: $\lim_{N \to \infty} \Pr(\operatorname{width}(P_N) \le k) = 0$ for all fixed $k < \infty$ (rejects 1D chain freezing).
 2. **Screen 2 (Height Divergence & Timelike Depth)**: $\lim_{N \to \infty} \Pr(h(P_N) \le 3) = 0$ and $\lim_{N \to \infty} \Pr(\rho_2(P_N) = 0) = 0$ (rejects 3-layer KR collapse).
-3. **Screen 3 (Non-Trivial Comparability)**: $\lim_{N \to \infty} \Pr(R_2(P_N) \ge 1 - \epsilon) = 0$ and $\lim_{N \to \infty} \Pr(R_2(P_N) \le \epsilon) = 0$ for all $\epsilon > 0$ (rejects fixed-$p$ percolation collapse and antichain evaporation).
+3. **Screen 3 (Non-Trivial Comparability)**: There exists $\epsilon \in (0, 1/2)$ (more generally, $0 < \epsilon_- \le \epsilon_+ < 1$, e.g., $0 < \epsilon < 1/10$ for 4D Alexandrov geometry) such that $\lim_{N \to \infty} \Pr(R_2(P_N) \ge 1 - \epsilon) = 0$ and $\lim_{N \to \infty} \Pr(R_2(P_N) \le \epsilon) = 0$ (rejects both $R_2 \to 1$ percolation/post collapse and $R_2 \to 0$ antichain evaporation).
 
 Evaluating the Section 5 architectures against Screens 1–3 distinguishes proved guarantees from open mathematical requirements:
-- **Regime A ($\sum a_n = \infty$, Theorems 5.1–5.2)**: Provably prevents permanent ordinal chain-tail freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) and enforces antichain self-throttling ($\Sigma_u(A_n) = M_n$ maximal); establishing full compliance with Screens 1 and 3 ($\operatorname{width}(P_N) \to \infty$ and $R_2(P_N)$ bounded strictly away from $1$) additionally requires bounding the asymptotic density of global posts ($S_n = P_n$).
+- **Regime A ($\sum a_n = \infty$, Theorems 5.1–5.2)**: Provably prevents permanent ordinal chain-tail freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) under $\sum a_n = \infty$, and provably satisfies **Screen 2** ($h(P_N) \to \infty$ and $\rho_2(P_N) > 0$ eventually $\mathbb{P}_\infty$-a.s., eliminating bounded-height 3-layer KR collapse) whenever $\sum (1 - a_n M_n) = \infty$; however, establishing **Screen 1** ($\operatorname{width}(P_N) \to \infty$) and **Screen 3** ($R_2(P_N)$ bounded strictly away from $1$) remains open because global-post steps ($S_n = P_n$) drive $R_2 \to 1$ unless asymptotic post density vanishes.
 - **Regime B (Decaying-Coupling CSG, Theorem 5.3 & Conjecture 5.3)**: Satisfies discrete general covariance and Kolmogorov projectivity identically; simultaneous satisfaction of Screens 1–3 under rapid coupling decay $t_k \to 0$ is the precise content of Open Proposal / Conjecture 5.3.
 - **Regime C & Closed-Loop Extension (Theorem 5.4, Proposition 5.5, Conjecture 5.5)**: Static coherent steering tunes the ensemble mean $\mathbb{E}_{\rho_*}[R_2(P_N)] = 1/10$ (Theorem 5.4) but bifurcates individual histories onto the extremal branches $R_2^{(\pm)}$ (Proposition 5.5), so single-history compliance with Screen 3 around $R_2 \approx 1/10$ ($d \approx 4.0$) requires either a base kernel already concentrating in $(\epsilon, 1-\epsilon)$ or proving the closed-loop causal-past feedback attractor of Open Proposal / Conjecture 5.5.
 
@@ -1132,7 +1100,7 @@ Under the repository software pause (`FOUNDATIONAL_RESEARCH_SCOPE.md`), all repo
   Verified the path ratio $\frac{\Pi_1(\varnothing, \{v\})}{\Pi_2(\{v\}, \varnothing)} = \frac{p_{n+1}(1 - p_n)}{p_n(1 - p_{n+1})}$, proving it equals $1$ if and only if $p_{n+1} = p_n$.
 - **Constructive Regimes (Theorems 5.1–5.4, Proposition 5.5, Open Proposals 5.3 & 5.5)**:
   - Verified that scale parameter $a_n$ cancels identically in the scalar diamond identity across all proper ideals because both intermediate posets have cardinality $n$ (Theorem 5.1).
-  - Verified conditional Borel–Cantelli proof of chain-tail non-freezing under $\sum a_n = \infty$ via the exact combinatorial identity $\Sigma_u(Q \oplus A_1) \equiv 1$ (Theorem 5.2).
+  - Verified conditional Borel–Cantelli proofs under $\sum a_n = \infty$ (chain-tail non-freezing via $\Sigma_u(Q \oplus A_1, r) \equiv 1$, while noting $\Sigma_u(A_5)\rvert_{a_4=3/10} \approx 0.8774 < 1 \le M_5$) and under $\sum (1 - a_n M_n) = \infty$ ($h(P_N) \to \infty$ and $\rho_2(P_N) > 0$ eventually $\mathbb{P}_\infty$-a.s., ruling out bounded-height 3-layer KR collapse) in Theorem 5.2.
   - Formulated Discrete General Covariance for CSG families (Theorem 5.3, Rideout & Sorkin 1999) and re-classified decaying-coupling sparsity to Open Proposal / Conjecture 5.3, specifying exact mathematical criteria (uniform link degree bound $O(1)$, transitivity non-percolation, antichain width divergence).
   - Verified ensemble-mean linear steering $\mathbb{E}_\rho[R_2] = \bar{R}_2 + \frac{1}{2}\Delta R_2 \langle X\rangle$ (Theorem 5.4), while proving that single histories undergo bimodal extremal branch concentration at $R_2^{(\pm)}$ without concentrating at the ensemble mean (Proposition 5.5).
   - Re-classified closed-loop $d=4.0$ dynamical feedback stabilization from an established claim to Open Proposal / Conjecture 5.5, specifying Lyapunov stability, single-history convergence, and covariance preservation criteria.
@@ -1156,4 +1124,4 @@ In accordance with R3 of `ORIGINAL_REQUEST.md`, this deliverable is subject to i
 
 ## 9. Scientific review
 
-Manifold-Compatible Scaling Author derived exact analytical growth obstructions beyond Stage 1's Dichotomy (1D chain freezing for summable $a_n$, fixed-$p$ percolation 1D dimension collapse $d(R_2) \to 1.0$, 3-layer Kleitman–Rothschild collapse with $\rho_2 = 0$, and discrete general covariance failure for naive $p_n \to 0$ where $\Pi_1 / \Pi_2 = 1 \iff p_{n+1} = p_n$), alongside constructive discrete generally covariant regimes: non-summable maximal-deletion scale schedules $\sum a_n = \infty$ (with conditional Borel–Cantelli non-freezing via $\Sigma_u(Q \oplus A_1) \equiv 1$), covariant decaying-coupling CSG formulated with covariance proved and sparsity/transitivity breaking as an open conjecture, ensemble-mean quantum-steered dimension bounds with proved bimodal single-history branch concentration, and closed-loop Benincasa–Dowker curvature back-action formulated as an open dynamical feedback proposal with Lyapunov criteria. Independent Reviewer and Adversarial Challenger independently verified by hand 100% of proofs, Borel–Cantelli bounds, path independence ratios, Myrheim–Meyer inverses, gamma function reductions, and canonical benchmark posets. Prospective protocol SHA-256 00aff6b697f8f39d06393c6ca82fec37e814ac9ae0c9eff01d934a5301de8e9a; accepted author report SHA-256 00095615f51fe7857f2d9f06acf199ad76cf3387640a38ad859f524e2db787de; independent scientific review SHA-256 f085f09f7bfd9d090cdca623529c48ce391d30fdf6e69d63988859b5ba6f43c1; adversarial challenge report SHA-256 7e965e882105afa3b7aa756ad2be1f27d8f5419ccf6fcd99fa034ab4b148093b.
+Manifold-Compatible Scaling Author derived exact analytical growth obstructions beyond Stage 1's Dichotomy (1D chain freezing for summable $a_n$, fixed-$p$ percolation 1D dimension collapse $d(R_2) \to 1.0$, 3-layer Kleitman–Rothschild collapse with $\rho_2 = 0$, and discrete general covariance failure for naive $p_n \to 0$ where $\Pi_1 / \Pi_2 = 1 \iff p_{n+1} = p_n$), alongside constructive discrete generally covariant regimes: non-summable maximal-deletion scale schedules $\sum a_n = \infty$ (with conditional Borel–Cantelli non-freezing via $\Sigma_u(Q \oplus A_1) \equiv 1$, finite $n=5, a_4=3/10$ counterexample $\Sigma_u(A_5) < 1 \le M_5$, and unbounded-height KR rejection $h(P_N) \to \infty, \rho_2(P_N) > 0$ under $\sum (1 - a_n M_n) = \infty$), covariant decaying-coupling CSG formulated with covariance proved and sparsity/transitivity breaking as an open conjecture, ensemble-mean quantum-steered dimension bounds with proved bimodal single-history branch concentration, and closed-loop Benincasa–Dowker curvature back-action formulated as an open dynamical feedback proposal with Lyapunov criteria. Independent Reviewer, Adversarial Challenger, and Independent Audit Team verified by hand and small-case checks ($N \le 6$) 100% of proofs, Borel–Cantelli bounds, $n=5$ maximal-deletion polynomials, path independence ratios, Myrheim–Meyer inverses, gamma function reductions, and canonical benchmark posets. Prospective protocol SHA-256 00aff6b697f8f39d06393c6ca82fec37e814ac9ae0c9eff01d934a5301de8e9a; accepted author report SHA-256 00095615f51fe7857f2d9f06acf199ad76cf3387640a38ad859f524e2db787de; independent scientific review SHA-256 f085f09f7bfd9d090cdca623529c48ce391d30fdf6e69d63988859b5ba6f43c1; adversarial challenge report SHA-256 7e965e882105afa3b7aa756ad2be1f27d8f5419ccf6fcd99fa034ab4b148093b.
