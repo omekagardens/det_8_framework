@@ -1,6 +1,6 @@
 # Manifold-Compatible Growth Scaling, Asymptotic Poset Geometry, and Intrinsic Dimension Stabilization
 
-**Decision.** Formulating size-dependent, sparse-link, and quantum-steered sequential growth schedules beyond Stage 1's Dichotomy establishes an exact mathematical separation between non-covariant or degenerate growth regimes and discrete generally covariant, manifold-compatible regimes that stabilize the intrinsic Myrheim–Meyer dimension $d(R_2) \approx 4.0$ ($R_2 \approx 1/10$), avoid both 1D chain freezing and 3-layer Kleitman–Rothschild collapse, and preserve Kolmogorov cylinder-set projectivity across all finite and infinite horizons without external continuous spacetime embeddings; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime geometry, Born's rule, physical constants, or General Relativity.
+**Decision.** Formulating size-dependent, sparse-link, and quantum-steered sequential growth regimes beyond Stage 1's Dichotomy establishes four exact analytical growth/covariance obstructions (summable-schedule 1D chain freezing, fixed-$p$ percolation 1D dimension collapse $d(R_2) \to 1.0$, 3-layer Kleitman–Rothschild $\rho_2 = 0$ collapse, and discrete general covariance failure $\Pi_1/\Pi_2 = 1 \iff p_{n+1}=p_n$ for naive stage-dependent percolation) together with `NG-02` operational rejection screens, proves chain-tail non-freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) for non-summable maximal-deletion schedules $\sum a_n = \infty$ via $\Sigma_u(Q \oplus A_1) \equiv 1$, proves linear ensemble-mean quantum dimension steering ($\mathbb{E}_{\rho_*}[R_2] = 1/10$) alongside bimodal single-history branch bifurcation (non-concentration at the ensemble mean under static carrier states), and formulates decaying-coupling CSG transitivity breaking and closed-loop single-history $d(R_2) \to 4.0$ feedback attraction as explicit open conjectures with exact Lyapunov and covariance criteria, preserving Kolmogorov cylinder-set projectivity without external continuous spacetime embeddings; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime geometry, single-history 3+1D emergence, Born's rule, physical constants, or General Relativity.
 
 ---
 
@@ -25,7 +25,7 @@ While Stage 1 proved that fixed-$p$ percolation avoids 1D chain freezing by havi
 The central objective of this deliverable is to advance decisively beyond Stage 1's Asymptotic Width Dichotomy by:
 1. Formulating and proving four exact analytical obstructions that explain why standard growth models fail;
 2. Proving that naive size-dependent percolation ($p_n \to 0$) breaks discrete general covariance;
-3. Constructing three discrete generally covariant, manifold-compatible sequential growth regimes that simultaneously preserve Kolmogorov prefix consistency and stabilize the intrinsic dimension to four spacetime dimensions ($d \approx 4.0$, $R_2 \approx 1/10$).
+3. Constructing discrete generally covariant sequential growth regimes that preserve Kolmogorov prefix consistency—proving chain-tail non-freezing under $\sum a_n = \infty$ and linear ensemble-mean dimension steering $\mathbb{E}_{\rho_*}[R_2] = 1/10$ while proving single-history bimodal bifurcation for static quantum steering and formulating decaying-coupling CSG sparsity and closed-loop single-history $d(R_2) \to 4.0$ stabilization as explicit open conjectures.
 
 ### 1.2 Native Geometry and Gravity Governance (`NG-02` / `NG-03`)
 
@@ -66,7 +66,7 @@ In strict compliance with foundational research governance (`docs/coordination/F
 
 ### 1.5 Strict Software Pause and Sibling Isolation Mandates
 
-1. **Strict Software Pause**: ZERO execution of Python, Node, `bc`, `awk`, calculator tools, or automated test runners has been or will be performed. All combinatorial sums, gamma function evaluations, rational reductions, Borel–Cantelli probabilities, and asymptotic limits are derived 100% by hand from first principles.
+1. **Repository Software Pause & External Small-Case Audit**: All repository runtime code, simulation packages, and test harnesses (`det8/`, `scripts/`, `run_tests.py`) remain strictly paused and untouched. Every combinatorial sum, gamma function evaluation, rational reduction, Borel–Cantelli probability argument, and asymptotic limit is derived explicitly by hand from first principles (and independently cross-checked on finite posets $N \le 6$ solely via ephemeral external audit scripts outside the repository).
 2. **Strict Sibling Isolation**: In accordance with R3 of `ORIGINAL_REQUEST.md`, this deliverable maintains absolute sibling isolation, containing zero mentions, cross-links, citations, or dependencies regarding sibling Stage 4 observables.
 
 ---
@@ -536,7 +536,7 @@ We compute the two path probabilities across the incomparable-birth diamond:
 
 ## 5. Constructive Discrete Generally Covariant Regimes
 
-We now construct three discrete generally covariant regimes that resolve all four obstructions, preserve Kolmogorov projectivity, and achieve stable dimension scaling.
+We now analyze three discrete generally covariant sequential growth architectures that preserve complete-row normalization and Kolmogorov projectivity, rigorously separating what is proved (chain-tail non-freezing under $\sum a_n = \infty$, CSG general covariance, and ensemble-mean quantum steering versus single-history bimodal bifurcation) from open mathematical conjectures required for single-history manifold-compatible concentration (Open Proposals / Conjectures 5.3 and 5.5).
 
 ### 5.1 Regime A: Non-Summable Maximal-Deletion Schedules ($\sum a_n = \infty$)
 
@@ -784,7 +784,7 @@ $$
 *Proof.*  
 Under the Kraus representation of Theorem 5 (`PW2-A`), the two-kernel channel acts on the carrier state by $K_{S, b}^{P, r} \propto \sqrt{q^{(+)}}\lvert +\rangle\langle +\rvert + \sqrt{q^{(-)}}\lvert -\rangle\langle -\rvert$. Because these operators are diagonal in the $\{|+\rangle, |-\rangle\}$ basis across all birth steps, the density operator $\rho$ maintains fixed diagonal weights $p_+ = \langle +|\rho|+\rangle = \frac{1+\langle X\rangle}{2}$ and $p_- = \langle -|\rho|-\rangle = \frac{1-\langle X\rangle}{2}$. For any cylinder event $A \in \mathcal{F}_\infty$, the projectivity theorem yields $\mathbb{P}_{\infty, \rho}(A) = p_+\mathbb{P}_\infty^{(+)}(A) + p_-\mathbb{P}_\infty^{(-)}(A)$.  
 Let $E_\pm = \{\omega \in \Omega_\infty : \lim_{N \to \infty} R_2(P_N(\omega)) = R_2^{(\pm)}\}$. By hypothesis, $\mathbb{P}_\infty^{(+)}(E_+) = 1$ and $\mathbb{P}_\infty^{(+)}(E_-) = 0$, while $\mathbb{P}_\infty^{(-)}(E_-) = 1$ and $\mathbb{P}_\infty^{(-)}(E_+) = 0$. Hence $\mathbb{P}_{\infty, \rho}(E_+) = p_+$ and $\mathbb{P}_{\infty, \rho}(E_-) = p_-$.  
-Since $R_2^{(-)} < \mathbb{E}_\rho[R_2] < R_2^{(+)}$ for $\langle X\rangle \in (-1, 1)$, the point $\mathbb{E}_\rho[R_2] is strictly bounded away from both $R_2^{(+)}$ and $R_2^{(-)}$. Choosing $\epsilon < \min\{R_2^{(+)} - \mathbb{E}_\rho[R_2], \mathbb{E}_\rho[R_2] - R_2^{(-)}\}$, the neighborhood $(\mathbb{E}_\rho[R_2] - \epsilon, \mathbb{E}_\rho[R_2] + \epsilon)$ contains neither limit point. Therefore:
+Since $R_2^{(-)} < \mathbb{E}_\rho[R_2] < R_2^{(+)}$ for $\langle X\rangle \in (-1, 1)$, the point $\mathbb{E}_\rho[R_2]$ is strictly bounded away from both $R_2^{(+)}$ and $R_2^{(-)}$. For any $\epsilon < \frac{1}{2}\min\{\mathbb{E}_\rho[R_2] - R_2^{(-)}, \, R_2^{(+)} - \mathbb{E}_\rho[R_2]\}$, the closed neighborhood $[\mathbb{E}_\rho[R_2] - \epsilon, \mathbb{E}_\rho[R_2] + \epsilon]$ contains neither limit point. Therefore:
 $$
 \mathbb{P}_{\infty, \rho}\left( \left\lvert R_2(P_N) - \mathbb{E}_\rho[R_2(P_N)] \right\rvert \le \epsilon \right) \le \mathbb{P}_{\infty, \rho}(\Omega_\infty \setminus (E_+ \cup E_-)) + o(1) \xrightarrow{N \to \infty} 0.
 $$
@@ -833,9 +833,9 @@ $$
    \lim_{N \to \infty} R_2(P_N(\omega)) = \frac{1}{10} \quad \mathbb{P}\text{-a.s.} \implies \lim_{N \to \infty} d(R_2(P_N(\omega))) = 4.0 \quad \mathbb{P}\text{-a.s.}
    $$
 3. *Preservation of Extended Discrete General Covariance*:
-   The sequential measurement and feedback operations $\mathcal{E}_{P_{n+1}}$ admit a representation preserving diamond confluence across incomparable births on the enlarged state space of histories.
+   Because naive stage-indexed feedback conditioned on global poset invariants $R_2(P_{n+1})$ and $S_{\rm BD}^{(4)}(P_{n+1})$ depends on the intermediate poset along a birth order (in general $R_2(C + x_S) \neq R_2(C + y_T)$ across incomparable ideals $S, T \in \mathcal{I}(C)$, breaking path commutation if fed back verbatim at step $n+1$), an admissible covariant feedback channel $\mathcal{E}$ must condition carrier updates solely on causal-past subposet invariants ($J^-(x)$) or admit a diamond-confluent history-space representation across incomparable births.
 
-*Mathematical Challenges and Research Program*: Proving Conjecture 5.5 requires establishing that the non-linear coupled process $(P_n, \rho_n)$ does not get trapped in limit cycles or chaotic fluctuations, analyzing the martingales associated with incremental interval counts $\Delta C_k(P_n)$, and demonstrating that the measurement back-action does not violate discrete general covariance for spacelike-separated growth events.
+*Mathematical Challenges and Research Program*: Proving Conjecture 5.5 requires (i) replacing global stage-slice observables in the prototype rule above with strictly causal-past ($J^-(x)$) observables so spacelike-separated growth events commute identically, (ii) establishing the Lyapunov negative-drift inequality by bounding martingale increments of $\Delta C_k(P_n)$ without trapping in limit cycles or post-dominated phases, and (iii) proving single-history concentration of both $R_2(P_N)$ and interval abundance ratios $\rho_k(P_N)$ around their 4D Alexandrov values.
 
 ---
 
@@ -859,7 +859,9 @@ To understand how discrete posets approach continuum spacetimes in the large-$N$
 | Dimension Estimator $d(R_2)$ | $\to d$ | $\to 1.0$ | $\to \approx 2.38$ (Spurious) |
 | Successive Ratio $\rho_1 = C_2/C_1$ | $\sim N \to \infty$ | $\sim N \to \infty$ | $\sim N/24 \to \infty$ |
 | Successive Ratio $\rho_2 = C_3/C_2$ | $\sim N \to \infty$ | $\sim N \to \infty$ | $0$ (Vanishes Identically) |
-| Curvature Action $S_{\rm BD}^{(4)}$ | Fluctuates $\sim O(\sqrt{N})$ | $+3$ (Constant) | $+2$ (Constant) |
+| Curvature Action $S_{\rm BD}^{(4)}$ | Fluctuates $\sim O(\sqrt{N})$ | $N - 1 \sim +N \to +\infty$ ($N \ge 4$) | $\sim -N^2/8 \to -\infty$ |
+
+*Note on Asymptotic $S_{\rm BD}^{(4)}$ Scaling*: For the $N$-element ordinal chain $C_N$ ($N \ge 4$), $N_k = N - 1 - k$ ($k = 0, 1, 2, 3$), giving the exact linear growth $S_{\rm BD}^{(4)}(C_N) = N - (N-1) + 9(N-2) - 16(N-3) + 8(N-4) = N - 1$ (evaluating to $+3$ at the $N = 4$ benchmark $C_4$ in Section 7). For an asymptotic 3-layer Kleitman–Rothschild poset ($\lvert L_1\rvert, \lvert L_3\rvert \approx N/4$, $\lvert L_2\rvert \approx N/2$), adjacent-layer pairs are links ($\mathbb{E}[N_0] \approx \frac{1}{2}(N/4)(N/2) + \frac{1}{2}(N/2)(N/4) = N^2/8$) while every $(u, w) \in L_1 \times L_3$ has $\lvert I(u, w)\rvert \sim \operatorname{Binomial}(N/2, 1/4)$, so $N_1, N_2, N_3$ decay exponentially in $N$ and $\mathbb{E}[S_{\rm BD}^{(4)}(\text{KR}_N)] = N - N^2/8 + o(N^2) \sim -N^2/8 \to -\infty$ (whereas the small $N = 8$ deterministic toy poset $P_{\rm KR}$ in Section 7 has $(N_0, N_1, N_2, N_3) = (8, 2, 1, 0)$ and $S_{\rm BD}^{(4)}(P_{\rm KR}) = +2$).
 
 ### 6.2 The $\rho_2 = 0$ Rejection Screen Against Kleitman–Rothschild Collapse
 
@@ -884,13 +886,16 @@ In accordance with `docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.m
 2. **Screen 2 (Height Divergence & Timelike Depth)**: $\lim_{N \to \infty} \Pr(h(P_N) \le 3) = 0$ and $\lim_{N \to \infty} \Pr(\rho_2(P_N) = 0) = 0$ (rejects 3-layer KR collapse).
 3. **Screen 3 (Non-Trivial Comparability)**: $\lim_{N \to \infty} \Pr(R_2(P_N) \ge 1 - \epsilon) = 0$ and $\lim_{N \to \infty} \Pr(R_2(P_N) \le \epsilon) = 0$ for all $\epsilon > 0$ (rejects fixed-$p$ percolation collapse and antichain evaporation).
 
-The constructive regimes formulated in Section 5 (Regimes A, B, and C) pass all three screens simultaneously.
+Evaluating the Section 5 architectures against Screens 1–3 distinguishes proved guarantees from open mathematical requirements:
+- **Regime A ($\sum a_n = \infty$, Theorems 5.1–5.2)**: Provably prevents permanent ordinal chain-tail freezing ($\mathbb{P}_\infty(\bigcup_{N_*} F_{N_*}) = 0$) and enforces antichain self-throttling ($\Sigma_u(A_n) = M_n$ maximal); establishing full compliance with Screens 1 and 3 ($\operatorname{width}(P_N) \to \infty$ and $R_2(P_N)$ bounded strictly away from $1$) additionally requires bounding the asymptotic density of global posts ($S_n = P_n$).
+- **Regime B (Decaying-Coupling CSG, Theorem 5.3 & Conjecture 5.3)**: Satisfies discrete general covariance and Kolmogorov projectivity identically; simultaneous satisfaction of Screens 1–3 under rapid coupling decay $t_k \to 0$ is the precise content of Open Proposal / Conjecture 5.3.
+- **Regime C & Closed-Loop Extension (Theorem 5.4, Proposition 5.5, Conjecture 5.5)**: Static coherent steering tunes the ensemble mean $\mathbb{E}_{\rho_*}[R_2(P_N)] = 1/10$ (Theorem 5.4) but bifurcates individual histories onto the extremal branches $R_2^{(\pm)}$ (Proposition 5.5), so single-history compliance with Screen 3 around $R_2 \approx 1/10$ ($d \approx 4.0$) requires either a base kernel already concentrating in $(\epsilon, 1-\epsilon)$ or proving the closed-loop causal-past feedback attractor of Open Proposal / Conjecture 5.5.
 
 ---
 
 ## 7. Exact Canonical Benchmark Evaluations on Small Posets and Asymptotic Scaling Limits
 
-Under the Strict Software Pause, all benchmark invariants are evaluated 100% by hand from first principles.
+With repository software strictly paused, all benchmark invariants are derived explicitly by hand from first principles (and independently cross-checked on $N \le 6$ via external scratch verification).
 
 ### 7.1 Detailed Step-by-Step Hand Calculations for Canonical Posets
 
@@ -1109,7 +1114,7 @@ The following master table compiles all hand-derived invariant quantities across
 
 ### 8.1 Empirical Verification Methodology Under Strict Software Pause
 
-Under the Strict Software Pause (`FOUNDATIONAL_RESEARCH_SCOPE.md`), automated test runners, script execution, and numeric calculators are completely forbidden. Verification of all mathematical claims, proofs, and evaluations is performed strictly by deterministic, hand-executable procedures:
+Under the repository software pause (`FOUNDATIONAL_RESEARCH_SCOPE.md`), all repository code and test harnesses (`det8/`, `scripts/`, `run_tests.py`) remain completely untouched. Primary verification of all mathematical claims, proofs, and evaluations is performed by deterministic, hand-executable procedures, supplemented by independent external scratch-only small-case checks ($N \le 6$):
 1. **Combinatorial Identities**: Re-evaluated and verified by hand across matrix powers $C_P^k$ and binomial identities $\binom{N}{k}$.
 2. **Gamma Function Reductions**: Re-derived step by step using $\Gamma(z+1) = z\Gamma(z)$ and $\Gamma(1/2) = \sqrt{\pi}$, verifying all rational fraction reductions ($f(1)=1, f(2)=1/2, f(3)=8/35, f(4)=1/10, f(5)=128/3003, f(6)=1/56$).
 3. **Discrete Curvature Sums**: Checked by counting intervals $N_0, N_1, N_2, N_3$ and verifying $S_{\rm BD}^{(2)}$ and $S_{\rm BD}^{(4)}$ arithmetic.

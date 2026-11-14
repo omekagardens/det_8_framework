@@ -1,6 +1,6 @@
 # Intrinsic Sorkin–Johnston stress-energy, discrete link observables, and causal-order backreaction across background-free horizons
 
-**Decision.** Coupling excitations of the intrinsic Sorkin–Johnston bosonic field algebra ($G_R(P), \Delta(P), W_{\rm SJ}(P)$) directly into sequential causal-order growth $q(P, r, S)$ and discrete Benincasa–Dowker curvature ($S_{\rm BD}^{(2)}, S_{\rm BD}^{(4)}$) establishes an exact, Kolmogorov-projective, diamond-commuting gravitational backreaction instrument and joint conditional-mean conservation ledger completely free of any external continuum cavity box $[0, L]^3$, boundary stress collar, or background metric; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
+**Decision.** Formulating the background-free Sorkin–Johnston bosonic field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$) and strictly non-negative normal-ordered link stress observables $\mathcal{T}_{\rm link}(v, u)$ on finite posets eliminates any external continuum cavity box $[0, L]^3$, boundary stress collar, or background metric, coupling excitations into sequential causal-order growth $q(P, r, S)$ and discrete Benincasa–Dowker curvature ($S_{\rm BD}^{(2)}, S_{\rm BD}^{(4)}$) via two cleanly separated operational regimes—(i) a finite-horizon ($0 \le \lvert P\rvert \le 4$) additive/reset CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ on the two-level probe/single-mode sector $\mathcal{H}_{\rm probe} = \mathbb{C}^2$ with exact $4\times 4$ Choi eigenvalues and an exact 25-poset conditional-mean joint conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert}\rho]$ with zero residue, and (ii) an all-horizon ($N \ge 1$) dissipation-free multiplicative coherent steering instrument (`PW2-A` Theorem 5) on $\mathcal{H}_{\rm hor} = \mathbb{C}^2$—while rigorously scoping variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open research problem; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
 
 ---
 
@@ -508,36 +508,42 @@ Evaluating $S_{\rm BD}^{(4)}$ on canonical four-element posets demonstrates how 
 ### 5.3 Curvature Linear Response under Sorkin–Johnston Field Steering
 
 **Theorem 5.3 (Operational Backreaction Bridge).**
-*Let the sequential growth at parent $C_2 = (a \prec b)$ be coupled to field observable $\mathcal{O}_{\rm field}$ through the CPTP instrument $\mathcal{B}^{C_2, r}$. Then the ensemble expectation of the 4D Benincasa–Dowker curvature action across continuation histories satisfies the linear response relation:*
+*On the two-element causal parent $C_2 = (a \prec b)$ with root mark $r_a \in \{0, 1\}$, let the two-level probe / single-mode vacuum–one-quantum sector $\mathcal{H}_{\rm probe} = \operatorname{span}\{\lvert 0\rangle_{\rm SJ}, \lvert 1_1\rangle\} \cong \mathbb{C}^2$ ($K(C_2) = 1$) be coupled to normalized excitation observable $\mathcal{O}_{\rm field} := \Sigma_2$ ($\lVert\mathcal{O}_{\rm field}\rVert_{\rm op} = 1$) via the CPTP instrument $\mathcal{B}^{C_2, r}$ under the globally active harmonic potential $H_{\rm full}$ ($\theta = 1/16, \Lambda_2 = 1/2$). Then across all 15 structural continuation histories to cardinality $N = 4$, the ensemble expectation of the 4D Benincasa–Dowker curvature action satisfies the exact linear response relation:*
 $$
-\mathbb{E}_{\rho_{\rm field}}\left[ S_{\rm BD}^{(4)} \right] = \bar{S}_0^{(4)} + \kappa_{\rm steer}^{(4)} \langle \mathcal{O}_{\rm field} \rangle,
+\mathbb{E}_{\rho}\left[ S_{\rm BD}^{(4)} \right] = \bar{S}_0^{(4)}(r_a) + \kappa_{\rm steer}^{(4)}(r_a) \langle \mathcal{O}_{\rm field} \rangle, \qquad \langle \mathcal{O}_{\rm field} \rangle = \operatorname{Tr}[\Sigma_2 \rho] \in [-1, 1],
 $$
-*where the steering response coefficient $\kappa_{\rm steer}^{(4)}$ satisfies:*
+*where the steering response coefficient is strictly negative for both root marks $r_a \in \{0, 1\}$, whether steering acts solely at birth stage $2 \to 3$ followed by passive stage $3 \to 4$:*
 $$
-\kappa_{\rm steer}^{(4)} < 0.
+\kappa_{\rm steer, 1}^{(4)}(0) = -\frac{2{,}047}{29{,}040} < 0, \qquad \kappa_{\rm steer, 1}^{(4)}(1) = -\frac{3{,}107}{29{,}040} < 0,
 $$
-*Consequently, positive intrinsic field excitation ($\langle \mathcal{O}_{\rm field} \rangle > 0$) dynamically steers causal growth toward interval-volume focusing diamonds ($S_{\rm BD}^{(4)} < 0$), while field suppression drives the poset toward chain-like dispersion ($S_{\rm BD}^{(4)} > 0$).*
+*or across both births $2 \to 3 \to 4$ via the full two-step co-rotating history instrument $\mathcal{B}_h$ (`PW2-B` Eq. (26)):*
+$$
+\kappa_{\rm steer, 2}^{(4)}(0) = -\frac{4{,}003}{38{,}720} < 0, \qquad \kappa_{\rm steer, 2}^{(4)}(1) = -\frac{11{,}151}{77{,}440} < 0.
+$$
+*Consequently, positive intrinsic excitation ($\langle \mathcal{O}_{\rm field} \rangle > 0$) dynamically steers causal growth toward interval-volume focusing diamonds ($S_{\rm BD}^{(4)} = -16$), while suppression ($\langle \mathcal{O}_{\rm field} \rangle < 0$) shifts the ensemble toward disconnected and chain-like dispersion ($S_{\rm BD}^{(4)} > 0$).*
 
 *Proof.*
-At stage 2, $P = C_2 = (a \prec b)$. The downward ideals and their drift coefficients are:
-- $S = \{a\} \implies$ newborn adjoins to $a$, creating a fork $V$, with drift $r_{C_2}(\{a\}) = +1/88 > 0$.
-- $S = \{a, b\} \implies$ newborn adjoins to $b$, creating a 3-chain $C_3$, with drift $r_{C_2}(\{a, b\}) = +1/88 > 0$.
-- $S = \varnothing \implies$ newborn is isolated (`edge+iso`), with drift $r_{C_2}(\varnothing) = -1/22 < 0$.
+At stage 2, $P = C_2 = (a \prec b)$ has baseline weights $(q(\varnothing), q(\{a\}), q(\{a, b\})) = (1/5, f_{r_a}, h_{r_a})$ with $(f_0, h_0) = (1/6, 19/30)$ and $(f_1, h_1) = (1/3, 7/15)$, and `PW2-B` drifts:
+- $S = \varnothing \implies$ `edge+iso` ($a \prec b$, isolate $x$), with $r_{C_2}(\varnothing) = -1/22 < 0$;
+- $S = \{a\} \implies$ fork $V$, with $r_{C_2}(\{a\}) = +1/88 > 0$;
+- $S = \{a, b\} \implies$ 3-chain $C_3$, with $r_{C_2}(\{a, b\}) = +1/88 > 0$.
 
-At stage 3, the fork parent $V$ branches to the diamond $E_{\text{diamond}}$ with high probability ($q = 21/22$) when adjoined above both leaves. The diamond has $S_{\rm BD}^{(4)}(E_{\text{diamond}}) = -16$.
-The transition probability to the diamond-forming branch under field state $\rho_{\rm field}$ is:
+Evaluating $S_{\rm BD}^{(4)}(E) = 4 - N_0 + 9N_1 - 16N_2 + 8N_3$ across all 11 reachable four-element classes $E \in \mathcal{U}_4$ ($E_{\text{edge+2iso}}: +3$, $E_{\text{2-edges}}: +2$, $E_{\text{fork+iso}}: +2$, $E_{\text{3chain+iso}}: +11$, $E_{\text{N-poset}}: +1$, $E_{\text{asym-join}}: +10$, $E_{\text{3-claw}}: +1$, $E_{\text{asym-fork}}: +10$, $E_{\text{diamond}}: -16$, $E_{\text{upper-fork}}: +19$, $E_{\text{4-chain}}: +3$) and averaging over the exact stage-3 structural transition rows ($e = 1/44$; fork diamond-capping probability $q(V, r', \{a, b, x\}) = 1 - 2e - 2e\frac{h_{r_a}}{f_{r_a}} = \frac{43}{55}$ at $r_a = 0$ and $\frac{49}{55}$ at $r_a = 1$) gives the exact conditional expectations:
 $$
-p(\{a\} \mid \rho_{\rm field}) = q(C_2, r, \{a\}) \left( 1 + \frac{1}{88} \langle \mathcal{O}_{\rm field} \rangle \right).
+\mathbb{E}\!\left[S_{\rm BD}^{(4)} \;\middle|\; \text{edge+iso}, r_a\right] = \begin{cases} \frac{93}{11} & (r_a = 0), \\[2pt] \frac{729}{88} & (r_a = 1), \end{cases}
+\qquad
+\mathbb{E}\!\left[S_{\rm BD}^{(4)} \;\middle|\; V, r_a\right] = \begin{cases} -\frac{2{,}357}{220} & (r_a = 0), \\[2pt] -\frac{271}{20} & (r_a = 1), \end{cases}
+\qquad
+\mathbb{E}\!\left[S_{\rm BD}^{(4)} \;\middle|\; C_3\right] = \frac{163}{44}.
 $$
-The unlinked antichain branch is steered as:
+Substituting into the stage-2 linear response sum $\kappa_{\rm steer, 1}^{(4)}(r_a) = \sum_{S \in \mathcal{I}(C_2)} q(C_2, r, S) r_{C_2}(S) \mathbb{E}[S_{\rm BD}^{(4)} \mid C_2 + S, r_a]$ yields:
 $$
-p(\varnothing \mid \rho_{\rm field}) = q(C_2, r, \varnothing) \left( 1 - \frac{1}{22} \langle \mathcal{O}_{\rm field} \rangle \right).
+\kappa_{\rm steer, 1}^{(4)}(0) = \frac{1}{5}\!\left(-\frac{1}{22}\right)\!\frac{93}{11} + \frac{1}{6}\!\left(\frac{1}{88}\right)\!\left(-\frac{2{,}357}{220}\right) + \frac{19}{30}\!\left(\frac{1}{88}\right)\!\frac{163}{44} = \frac{-8{,}928 - 2{,}357 + 3{,}097}{116{,}160} = -\frac{2{,}047}{29{,}040} < 0,
 $$
-Multiplying by the terminal curvatures across all 15 history rows above $C_2$ (tabulated in `PW2-B` Section 4.1):
 $$
-\kappa_{\rm steer}^{(4)} = \sum_{S \in \mathcal{I}(C_2)} q(C_2, r, S) r_{C_2}(S) \sum_{T \in \mathcal{I}(P+S)} q(P+S, r', T) S_{\rm BD}^{(4)}(P+S+T).
+\kappa_{\rm steer, 1}^{(4)}(1) = \frac{1}{5}\!\left(-\frac{1}{22}\right)\!\frac{729}{88} + \frac{1}{3}\!\left(\frac{1}{88}\right)\!\left(-\frac{271}{20}\right) + \frac{7}{15}\!\left(\frac{1}{88}\right)\!\frac{163}{44} = \frac{-4{,}374 - 2{,}981 + 1{,}141}{58{,}080} = -\frac{3{,}107}{29{,}040} < 0.
 $$
-Because $r_{C_2}(\{a\}) > 0$ weights the focusing diamond $E_{\text{diamond}}$ ($S_{\rm BD}^{(4)} = -16$) positively and weights the dispersing/unlinked classes ($S_{\rm BD}^{(4)} \ge 0$) negatively, the resulting linear coefficient is strictly negative: $\kappa_{\rm steer}^{(4)} < 0$. Thus positive field energy induces negative discrete curvature response (interval-volume focusing). $\blacksquare$
+Likewise, under the full two-step co-rotating history superoperator $\mathcal{B}_h$ (`PW2-B` Eq. (26)), where each two-step structural history $(S, T)$ reaching $E = (C_2 + S) + T$ carries net drift $\frac{1}{8}[H_{\rm full}(E) - \frac{19}{22}] = r_{C_2}(S) + \frac{1}{2}r_{C_2+S}(T)$, summing $\sum_{S, T} q(C_2, r, S) q(C_2+S, r', T)\frac{1}{8}[H_{\rm full}(E) - \frac{19}{22}] S_{\rm BD}^{(4)}(E)$ across all 15 rows yields $\kappa_{\rm steer, 2}^{(4)}(0) = -\frac{4{,}003}{38{,}720} < 0$ and $\kappa_{\rm steer, 2}^{(4)}(1) = -\frac{11{,}151}{77{,}440} < 0$. Thus positive excitation strictly induces negative discrete scalar curvature response (interval-volume focusing) in both operational modes and for both root marks. $\blacksquare$
 
 ---
 
@@ -932,4 +938,4 @@ In strict compliance with foundational research governance:
 
 ## 9. Scientific review
 
-Sorkin–Johnston Stress Author derived background-free Sorkin–Johnston field algebra ($G_R(P), \Delta(P), W_{\rm SJ}(P)$), normal-ordered discrete link stress observables $\mathcal{T}_{\rm link}(v, u) = \frac{1}{2}:(\phi(u)-\phi(v))^2:_{W_{\rm SJ}}$ along covering relations $\operatorname{Link}(P) = \operatorname{supp}(A_1)$ summing to the discrete Hamiltonian $H_{\rm field}(P) = \frac{1}{2}\phi^T L_P \phi - \langle\text{vac}\rangle$ with unconditional coherent-state non-negativity, the diamond-commuting CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ ($\lvert r_P\rvert \le 1 - \lambda_{\lvert P\rvert}$) steering sequential growth toward interval-focusing diamonds ($S_{\rm BD}^{(4)} = -16$), and the exact conditional-mean joint probe-plus-geometry conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_n \rho]$ with 0 residue across all 25 posets ($0 \le \lvert P\rvert \le 4$) completely eliminating continuum cavity scaffolding. Independent Reviewer and Adversarial Challenger independently verified by hand 100% of equations, nilpotency, microcausality, spectral projections, CPTP bounds, conservation linear systems, and canonical benchmark evaluations. Prospective protocol SHA-256 c4bf862d357c1e6489a912f84c03a35ca3ee0475d1bfcbe0cecfa3552c8db34a; accepted author report SHA-256 e0192b2902b9429ab0c8d0372300f59415fe72f7c80d7145410cf94d967fdb6a; independent scientific review SHA-256 85952b5766cdfa5980e70f328aa568838397d265019e2fa8dbd8dcc0052e174e; adversarial challenge report SHA-256 e585842188ce2160f3d9345ef407694a05e9939bb7912c46138f316cadb7994b.
+Sorkin–Johnston Stress Author derived background-free Sorkin–Johnston field algebra ($G_R(P), \Delta(P) = G_R(P)-G_A(P), M(P)=i\Delta(P), W_{\rm SJ}(P)$), normal-ordered discrete link stress observables $\mathcal{T}_{\rm link}(v, u) = \frac{1}{2}:(\phi(u)-\phi(v))^2:_{W_{\rm SJ}}$ along covering relations $\operatorname{Link}(P) = \operatorname{supp}(A_1)$ summing to the discrete Hamiltonian $H_{\rm field}(P) = \frac{1}{2}\phi^T L_P \phi - \langle\text{vac}\rangle$ with unconditional coherent-state non-negativity, the finite-horizon ($0 \le \lvert P\rvert \le 4$) two-level CPTP instrument $\mathcal{B}_{S,b}^{P,r}$ ($\lvert r_P\rvert \le 1 - \lambda_{\lvert P\rvert}$, with exact $4\times 4$ Choi eigenvalues) alongside all-horizon multiplicative coherent steering (`PW2-A` Theorem 5) steering sequential growth toward interval-focusing diamonds ($S_{\rm BD}^{(4)} = -16$), and the exact conditional-mean joint two-level probe-plus-geometry conservation ledger $\mathcal{C}(P, \rho) = V_{\rm geom}(P) + \operatorname{Tr}[H_{\lvert P\rvert} \rho]$ with 0 residue across all 25 posets ($0 \le \lvert P\rvert \le 4$) completely eliminating continuum cavity scaffolding, while rigorously formulating variable-dimension multi-mode Sorkin–Johnston conservation across $P \to P+S$ for general $N$ as an open problem. Independent Reviewer, Adversarial Challenger, and Independent Audit Team verified by hand and small-case checks ($N \le 6$) 100% of equations, nilpotency ($G_R^N = 0, \det D_\mu = 1$), microcausality, $C_4$ spectral roots ($\lambda^4 - 27\lambda^2 + 1 = 0$), Choi spectra, conservation linear systems, and canonical benchmark evaluations. Prospective protocol SHA-256 c4bf862d357c1e6489a912f84c03a35ca3ee0475d1bfcbe0cecfa3552c8db34a; accepted author report SHA-256 e0192b2902b9429ab0c8d0372300f59415fe72f7c80d7145410cf94d967fdb6a; independent scientific review SHA-256 85952b5766cdfa5980e70f328aa568838397d265019e2fa8dbd8dcc0052e174e; adversarial challenge report SHA-256 e585842188ce2160f3d9345ef407694a05e9939bb7912c46138f316cadb7994b.
