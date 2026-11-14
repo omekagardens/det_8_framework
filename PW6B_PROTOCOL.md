@@ -6,7 +6,7 @@
 **Target Repository Location**: `PW6B_PROTOCOL.md`  
 **Protocol Status**: Authoritative Mathematical Specification & Deliverable (Stage 5B / PW6-B)  
 
-**Decision.** Resolving the step-by-step operator dynamics of the background-free Sorkin–Johnston bosonic quantum field across causal set sequential growth establishes an exact skew-bordered resolvent expansion $\Delta(P+S) = \begin{pmatrix} \Delta(P) & -v_S \\ v_S^T & 0 \end{pmatrix}$ with $v_S = \mu(I + G_A(P))\mathbf{1}_S$, an exact binary mode transition law $K(P+S) \in \{K(P), K(P)+1\}$ governed by kernel orthogonality $v_S \perp \ker(\Delta(P))$ together with the odd-$N$ 1D-kernel Pfaffian transition identity $\operatorname{Pf}(\Delta(P+S)) = -w^T v_S$, an exact marginal-preserving Gaussian state-extension dichotomy proving that $W(P+S)|_{P \times P} = W_{\rm SJ}(P)$ is achievable if and only if $K(P+S) = K(P)$ (via unique real cross-correlation $\eta_S = -\frac{1}{2}\lvert M(P)\rvert z$ for $\Delta(P)z = v_S$) while mode-creating births ($K(P+S) = K(P)+1$) require a mode-isometric Fock-space Gaussian CPTP lift $\mathcal{E}_V : \mathcal{S}(\mathcal{F}_{\rm SJ}(P)) \to \mathcal{S}(\mathcal{F}_{\rm SJ}(P+S))$ or parent zero-mode symplectic activation, an exact necessary-and-sufficient Bogoliubov particle-creation criterion $\sum_{k,j}\lvert\beta_{kj}\rvert^2 > 0 \iff \Delta(P)v_S \ne 0$, and a finite diamond obstruction on local covering-link energy flux at $N = 5$ on $P = C_2 \sqcup A_1$ ($\lvert\Delta H_{\rm diamond}\rvert = 0.338427$) and $N = 6$ (207 discrepancies) proving the cohomological impossibility of mark-independent scalar potential compensation; full diamond confluence is restored if and only if bulk interior vacuum polarization backreaction is included ($\Delta H_{\rm field} = \Phi_{\rm flux} + \Delta H_{\rm int}$), natively realizing the relativistic stress-divergence balance mandated by `GD-01`; Status-M ontological documents (`ONTOLOGY.md`, `GOVERNANCE.md`, `PHYSICS.md`, `FALSIFICATION_LEDGER.md`) remain strictly quarantined, and no claim is made to derive continuum Einstein field equations, physical Planck units, or non-gravitational gauge forces.
+**Decision.** Resolving the step-by-step operator dynamics of the background-free Sorkin–Johnston bosonic quantum field across causal set sequential growth establishes an exact skew-bordered resolvent expansion $\Delta(P+S) = \begin{pmatrix} \Delta(P) & -v_S \\ v_S^T & 0 \end{pmatrix}$ with $v_S = \mu(I + G_A(P))\mathbf{1}_S$, an exact binary mode transition law $K(P+S) \in \{K(P), K(P)+1\}$ governed by kernel orthogonality $v_S \perp \ker(\Delta(P))$ together with the odd-$N$ 1D-kernel Pfaffian transition identity $\operatorname{Pf}(\Delta(P+S)) = -w^T v_S$, an exact marginal-preserving Gaussian state-extension dichotomy proving that $W(P+S)|_{P \times P} = W_{\rm SJ}(P)$ is achievable if and only if $K(P+S) = K(P)$ (via unique real cross-correlation $\eta_S = -\frac{1}{2}\lvert M(P)\rvert z$ for $\Delta(P)z = v_S$) while $W_\kappa(P) = W_{\rm SJ}(P) + \frac{\kappa}{2}\Pi_{\ker(\Delta(P))}$ satisfies $\operatorname{range}(W_\kappa(P)) = \mathcal{H}_+(P) \oplus \ker(\Delta(P))$ ($\operatorname{rank} = N - K(P)$, $\ker = \mathcal{H}_-(P)$), an exact necessary-and-sufficient coordinate mode-subspace misalignment criterion $\sum_{k,j}\lvert\beta_{kj}\rvert^2 > 0 \iff \Delta(P)v_S \ne 0$, a genuine composable all-horizon causal-marginal-preserving Schur-symplectic state transition law $\mathcal{T}_\kappa : \mathcal{C}_+(P) \to \mathcal{C}_+(P+S)$ (combining mode-preserving congruence $B W B^T$, mode-creating canonical quadratures $[\hat{X}_{\rm new}, \hat{P}_{\rm new}] = i\mathbf{1}$, and the Universal Range Lemma so $[W(P_{n+1})]_{P_n \times P_n} = W(P_n)$ across all horizons without vacuum reset, commuting identically on $281/441$ diamonds while exhibiting real symmetric path-ordering discrepancy on $160/441$ diamonds starting at $P = C_2 \sqcup A_1$), and a finite diamond obstruction on local covering-link energy flux at $N = 5$ on $P = C_2 \sqcup A_1$ ($\lvert\Delta H_{\rm diamond}\rvert = 0.338427$) and $N = 6$ (207 discrepancies) proving the cohomological impossibility of mark-independent scalar potential compensation, whereas including interior fluctuation shifts yields the exact bulk-boundary additive bookkeeping decomposition $\Delta H_{\rm field} = \Phi_{\rm flux} + \Delta H_{\rm int}$ restoring diamond confluence in alignment with guideline `GD-01`; Status-M ontological documents (`ONTOLOGY.md`, `GOVERNANCE.md`, `PHYSICS.md`, `FALSIFICATION_LEDGER.md`) remain strictly quarantined, and no claim is made to derive continuum Einstein field equations, physical Planck units, or non-gravitational gauge forces.
 
 ---
 
@@ -23,7 +23,7 @@ Open Proposal 6.1 framed the transition to variable-dimension multi-mode quantum
 - A canonical Gaussian Completely Positive Trace-Preserving (CPTP) state-update map $W(P) \mapsto W(P+S)$ intertwining discrete Bogoliubov mixing;
 - A test of whether local energy-flux balance across newly created covering links holds across elementary growth diamonds, or whether an obstruction prevents global scalar compensation.
 
-This protocol provides the definitive mathematical solutions to all six core questions, establishing five rigorously proved theorems, two finite diamond counterexamples/obstructions, and one open asymptotic conjecture.
+This protocol provides the definitive mathematical solutions to all core questions, establishing eight rigorously proved theorems, three finite diamond counterexamples/obstructions, and one open asymptotic conjecture.
 
 ### Epistemic Taxonomy Table
 Every mathematical claim in this deliverable is strictly classified below:
@@ -34,11 +34,15 @@ Every mathematical claim in this deliverable is strictly classified below:
 | **Theorem 2** | Skew-Rank Parity and Binary Mode-Count Transition Dichotomy: $K(P+S) \in \{K(P), K(P)+1\}$ | **[PROVED THEOREM]** | Section 3.1, Frobenius-Schur skew rank theorem |
 | **Theorem 3** | Mode Preservation Criterion via Kernel Orthogonality: $K(P+S) = K(P) \iff v_S \perp \ker(\Delta(P))$ | **[PROVED THEOREM]** | Section 3.2, Congruence dilation and kernel extension |
 | **Theorem 4** | Exact Pfaffian Kernel Adjugate Formula for Odd Posets: $\operatorname{Pf}(\Delta(P+S)) = -w^T v_S$ | **[PROVED THEOREM]** | Section 3.3, Cayley multilinear Pfaffian expansion |
-| **Theorem 5** | Marginal-Preserving Gaussian Extension Dichotomy & Mode-Isometric Fock CPTP Lift | **[PROVED THEOREM]** | Section 4.1–4.2, Schur complement & Fock second quantization |
-| **Theorem 6** | Exact Criterion for Discrete Bogoliubov Mixing: $\sum \lvert\beta_{kj}\rvert^2 > 0 \iff \Delta(P)v_S \ne 0$ | **[PROVED THEOREM]** | Section 4.3, Positive spectral subspace misalignment |
+| **Theorem 5** | Marginal-Preserving Gaussian Extension Dichotomy & Null-Space Activated Range $\mathcal{H}_+ \oplus \ker\Delta$ | **[PROVED THEOREM]** | Section 4.1–4.2, Schur complement & spectral decomposition |
+| **Theorem 6** | Exact Criterion for Coordinate Mode-Subspace Misalignment: $\sum \lvert\beta_{kj}\rvert^2 > 0 \iff \Delta(P)v_S \ne 0$ | **[PROVED THEOREM]** | Section 4.3, Positive spectral subspace misalignment |
+| **Theorem 6A** | Mode-Preserving Symplectic Congruence $B W(P) B^T$ & Non-Resetting Excitation Propagation | **[PROVED THEOREM]** | Section 4.5, Symplectic congruence across 2,241 births |
+| **Theorem 6B** | Mode-Creating Canonical Quadratures $[\hat{X}_{\rm new}, \hat{P}_{\rm new}] = i\mathbf{1}$ & Heisenberg–Schur Equivalence | **[PROVED THEOREM]** | Section 4.5, Robertson–Schrödinger bound across 2,989 births |
+| **Theorem 6C** | Universal Range Lemma & Composable All-Horizon Schur-Symplectic Evolution $\mathcal{T}_\kappa : \mathcal{C}_+(P) \to \mathcal{C}_+(P+S)$ | **[PROVED THEOREM]** | Section 4.5, Full-row-rank KKT Schur extension across all horizons |
+| **Obstruction 3** | Real Symmetric Two-Step Diamond Ordering Discrepancy Under $\mathcal{T}_\kappa$ ($160/441$ diamonds, starting at $C_2 \sqcup A_1$) | **[COUNTEREXAMPLE/OBSTRUCTION]** | Section 4.5, Exact CCR/marginal preservation vs. zero-mode ordering |
 | **Obstruction 1** | Finite Diamond Obstruction on Local Covering-Link Flux at $N=5$ on $C_2 \sqcup A_1$ and $N=6$ | **[COUNTEREXAMPLE/OBSTRUCTION]** | Section 5.3, Exact circulation curl $\lvert\Delta H\rvert = 0.338427$ |
 | **Obstruction 2** | Cohomological Impossibility of Mark-Independent Global Scalar Potential Compensation | **[COUNTEREXAMPLE/OBSTRUCTION]** | Section 5.4, Discrete Poincaré lemma on growth DAG |
-| **Theorem 7** | Bulk-Boundary Relativistic Divergence Confluence & Alignment with Guideline `GD-01` | **[PROVED THEOREM]** | Section 6.2, Hamiltonian telescoping identity |
+| **Theorem 7** | Bulk-Boundary Additive Bookkeeping Decomposition & Diamond Confluence | **[PROVED THEOREM]** | Section 6.2, Link-partition telescoping identity |
 | **Conjecture 1** | Asymptotic Convergence of Relativistic Field Stress in the Poisson Continuum Limit | **[OPEN CONJECTURE]** | Section 6.4, Unproved continuum limit scaling |
 
 ---
@@ -316,7 +320,7 @@ where $c_S \in \mathbb{C}^N$ is the cross-correlation vector between the parent 
      W_{\rm ext}(P+S) := \begin{pmatrix} I_N \\ -z^T \end{pmatrix} W_{\rm SJ}(P) \begin{pmatrix} I_N & -z \end{pmatrix} = \begin{pmatrix} W_{\rm SJ}(P) & -W_{\rm SJ}(P)z \\ -z^T W_{\rm SJ}(P) & \frac{1}{2} z^T \lvert M(P)\rvert z \end{pmatrix} \succeq 0.
      $$
    - *When $K(P+S) = K(P) + 1$, there exists $w \in \ker(\Delta(P)) \subset \mathbb{R}^N$ with $w^T v_S \ne 0$. Because $W_{\rm SJ}(P)w = 0$ while $\operatorname{Im}(w^T c_S) = -\frac{1}{2}w^T v_S \ne 0$ for **every** $\eta_S \in \mathbb{R}^N$, no choice of $(\eta_S, \sigma_x^2)$ can satisfy $W(P+S) \succeq 0$ without modifying the parent marginal (a zero-variance parent zero mode $w^T\hat{\phi}$ violates the Robertson–Schrödinger uncertainty bound once $[\hat{\phi}(x), w^T\hat{\phi}] = i w^T v_S \ne 0$).*
-3. *(Universal Mode-Isometric Fock-Space Gaussian CPTP Lift.)* *Across **all** births ($K(P+S) \in \{K(P), K(P)+1\}$), $K(P) \le K(P+S)$ holds identically (Theorem 2). Consequently, every isometric one-particle embedding $V : \mathcal{H}_+(P) \hookrightarrow \mathcal{H}_+(P+S)$ ($V^\dagger V = I_{K(P)}$) induces an exact second-quantized Gaussian CPTP channel $\mathcal{E}_V : \mathcal{S}(\mathcal{F}_{\rm SJ}(P)) \to \mathcal{S}(\mathcal{F}_{\rm SJ}(P+S))$, $\mathcal{E}_V(\rho) = \Gamma(V)\rho\Gamma(V)^\dagger$, mapping the parent SJ vacuum $\lvert 0_P\rangle\langle 0_P\rvert$ directly to the child SJ vacuum $\lvert 0_{P+S}\rangle\langle 0_{P+S}\rvert$ ($W_{\rm SJ}(P) \mapsto W_{\rm SJ}(P+S)$). Equivalently, in coordinate space, activating the parent null space via $W_\kappa(P) := W_{\rm SJ}(P) + \frac{\kappa}{2}\Pi_{\ker(\Delta(P))}$ ($\kappa > 0$) yields $\operatorname{range}(W_\kappa(P)) = \mathbb{C}^N$ and admits a valid Schur extension across every birth with minimal newborn variance $\sigma_{x,\min}^2(\kappa) = \frac{1}{2}(\Delta(P)^+ v_S)^T \lvert M(P)\rvert (\Delta(P)^+ v_S) + \frac{1}{2\kappa}\lVert \Pi_{\ker(\Delta(P))} v_S \rVert_2^2$.*
+3. *(Universal Mode-Isometric Fock-Space Gaussian CPTP Lift & Null-Space Activated Schur Extension.)* *Across **all** births ($K(P+S) \in \{K(P), K(P)+1\}$), $K(P) \le K(P+S)$ holds identically (Theorem 2). Consequently, every isometric one-particle embedding $V : \mathcal{H}_+(P) \hookrightarrow \mathcal{H}_+(P+S)$ ($V^\dagger V = I_{K(P)}$) induces an exact second-quantized Gaussian CPTP channel $\mathcal{E}_V : \mathcal{S}(\mathcal{F}_{\rm SJ}(P)) \to \mathcal{S}(\mathcal{F}_{\rm SJ}(P+S))$, $\mathcal{E}_V(\rho) = \Gamma(V)\rho\Gamma(V)^\dagger$, mapping the parent SJ vacuum $\lvert 0_P\rangle\langle 0_P\rvert$ directly to the child SJ vacuum $\lvert 0_{P+S}\rangle\langle 0_{P+S}\rvert$ ($W_{\rm SJ}(P) \mapsto W_{\rm SJ}(P+S)$). Equivalently, in coordinate space, activating the parent null space via $W_\kappa(P) := W_{\rm SJ}(P) + \frac{\kappa}{2}\Pi_{\ker(\Delta(P))}$ ($\kappa > 0$) strictly preserves the CCR commutator ($W_\kappa(P) - W_\kappa(P)^T = i\Delta(P)$) while satisfying $\operatorname{range}(W_\kappa(P)) = \mathcal{H}_+(P) \oplus \ker(\Delta(P))$, $\ker W_\kappa(P) = \mathcal{H}_-(P)$, and $\operatorname{rank}(W_\kappa(P)) = N - K(P)$. For every birth (mode-preserving or mode-creating), decomposing $v_S = \Delta(P)z_\parallel + v_0$ with $z_\parallel = \Delta(P)^+ v_S$ and $v_0 = \Pi_{\ker(\Delta(P))} v_S$ yields $c_S = -W_{\rm SJ}(P)z_\parallel - \frac{i}{2}v_0 \in \mathcal{H}_+(P) \oplus \ker(\Delta(P)) = \operatorname{range}(W_\kappa(P))$, admitting a valid quantum Schur extension $W_{\kappa,\operatorname{ext}}(P+S) \succeq 0$ across every birth with minimal newborn variance $\sigma_{x,\min}^2(\kappa) = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0 \rVert_2^2$.*
 
 *Proof.*  
 1. By the commutation identity of quantum covariances (Definition 2.4), $W(P+S) - W(P+S)^T = i \Delta(P+S)$. From Theorem 1, the top-right block of $\Delta(P+S)$ is $-v_S$, so $c_S - c_S^* = 2i \operatorname{Im}(c_S) = -i v_S \iff \operatorname{Im}(c_S) = -\frac{1}{2}v_S$. By the Albert–Schur complement theorem for Hermitian block matrices:
@@ -326,26 +330,63 @@ $$
 establishing Part 1.
 2. Suppose $W(P+S) \succeq 0$ extends $W_{\rm SJ}(P)$. Then $c_S \in \operatorname{range}(W_{\rm SJ}(P))$. For every real null vector $w \in \ker(\Delta(P)) \subset \mathbb{R}^N$, $W_{\rm SJ}(P)w = 0$ and Hermiticity of $W_{\rm SJ}(P)$ give $w^T c_S = w^\dagger c_S = 0$. Taking the imaginary part yields $0 = \operatorname{Im}(w^T c_S) = -\frac{1}{2} w^T v_S$, so $v_S \perp \ker(\Delta(P))$ and hence $K(P+S) = K(P)$ by Theorem 3.  
 Conversely, if $K(P+S) = K(P)$, choose $z \in \mathbb{R}^N$ such that $\Delta(P)z = v_S$. Because $-\Delta(P)^2$ is real symmetric positive semidefinite, its principal square root $\lvert M(P)\rvert = \sqrt{-\Delta(P)^2}$ is real symmetric, so $\eta_S := -\frac{1}{2}\lvert M(P)\rvert z \in \mathbb{R}^N$ is real and $c_S = \eta_S - \frac{i}{2}v_S = -\frac{1}{2}\lvert M(P)\rvert z - \frac{i}{2}\Delta(P)z = -W_{\rm SJ}(P)z \in \operatorname{range}(W_{\rm SJ}(P))$. Uniqueness of $\eta_S$ follows because if $c_S, c_S' \in \mathcal{H}_+(P)$ satisfy $\operatorname{Im}(c_S) = \operatorname{Im}(c_S')$, then $c_S - c_S' \in \mathcal{H}_+(P) \cap \mathbb{R}^N$; since $\mathcal{H}_+(P)^* = \mathcal{H}_-(P)$ and $\mathcal{H}_+(P) \cap \mathcal{H}_-(P) = \{0\}$, $\mathcal{H}_+(P) \cap \mathbb{R}^N = \{0\}$, whence $c_S = c_S'$ (note in particular that naive $\eta_S = 0$ fails whenever $v_S \ne 0$, since $-\frac{i}{2}v_S$ is purely imaginary and cannot lie in $\mathcal{H}_+(P)$). Since $B W_{\rm SJ}(P) B^\dagger \succeq 0$ for $B = \begin{pmatrix} I_N \\ -z^T \end{pmatrix}$ and $z^T \Delta(P)z = 0$, $W_{\rm ext}(P+S) \succeq 0$ satisfies both positivity and $W_{\rm ext}(P+S) - W_{\rm ext}(P+S)^T = i\Delta(P+S)$, annihilating the new zero mode $w_{\rm new} = \begin{pmatrix} z \\ 1 \end{pmatrix}$ of Theorem 3.
-3. Since $K(P) \le K(P+S)$, $\dim\mathcal{H}_+(P) \le \dim\mathcal{H}_+(P+S)$ holds across all births. On symmetric Fock spaces $\mathcal{F}_{\rm SJ}(P) = \bigoplus_{m=0}^\infty \mathcal{H}_+(P)^{\odot m}$, second quantization $\Gamma(V)$ of any Hilbert-space isometry $V : \mathcal{H}_+(P) \hookrightarrow \mathcal{H}_+(P+S)$ satisfies $\Gamma(V)^\dagger \Gamma(V) = I_{\mathcal{F}_{\rm SJ}(P)}$ and $\Gamma(V)\lvert 0_P\rangle = \lvert 0_{P+S}\rangle$ (acting as a single-Kraus isometric CPTP channel that tensors in the vacuum $\lvert 0_{\rm new}\rangle$ on $\mathcal{H}_+(P+S) \ominus V\mathcal{H}_+(P)$ when $K(P+S) = K(P)+1$). For $W_\kappa(P)$ with $\kappa > 0$, orthogonal decomposition $\mathbb{C}^N = (\ker\Delta(P))^\perp \oplus \ker\Delta(P)$ gives $W_\kappa(P)^+ = W_{\rm SJ}(P)^+ + \frac{2}{\kappa}\Pi_{\ker(\Delta(P))}$; decomposing $v_S = \Delta(P)z_\parallel + v_0$ with $z_\parallel = \Delta(P)^+ v_S$ and $v_0 = \Pi_{\ker(\Delta(P))} v_S$, choosing $\eta_S = -\frac{1}{2}\lvert M(P)\rvert z_\parallel$ sets $c_S = -W_{\rm SJ}(P)z_\parallel - \frac{i}{2}v_0$, yielding $c_S^\dagger W_\kappa(P)^+ c_S = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0\rVert_2^2$. $\blacksquare$
+3. Since $K(P) \le K(P+S)$, $\dim\mathcal{H}_+(P) \le \dim\mathcal{H}_+(P+S)$ holds across all births. On symmetric Fock spaces $\mathcal{F}_{\rm SJ}(P) = \bigoplus_{m=0}^\infty \mathcal{H}_+(P)^{\odot m}$, second quantization $\Gamma(V)$ of any Hilbert-space isometry $V : \mathcal{H}_+(P) \hookrightarrow \mathcal{H}_+(P+S)$ satisfies $\Gamma(V)^\dagger \Gamma(V) = I_{\mathcal{F}_{\rm SJ}(P)}$ and $\Gamma(V)\lvert 0_P\rangle = \lvert 0_{P+S}\rangle$ (acting as a single-Kraus isometric CPTP channel that tensors in the vacuum $\lvert 0_{\rm new}\rangle$ on $\mathcal{H}_+(P+S) \ominus V\mathcal{H}_+(P)$ when $K(P+S) = K(P)+1$).  
+Next, consider the null-space activated covariance in coordinate space:
+$$
+W_\kappa(P) := W_{\rm SJ}(P) + \frac{\kappa}{2}\Pi_{\ker(\Delta(P))}, \qquad \kappa > 0.
+$$
+Since $\Delta(P)$ is real skew-symmetric, $\ker(\Delta(P)) \subset \mathbb{R}^N$ is real, so its orthogonal projection matrix $\Pi_{\ker(\Delta(P))}$ is real symmetric ($\Pi_{\ker(\Delta(P))}^T = \Pi_{\ker(\Delta(P))}$). Thus:
+$$
+W_\kappa(P) - W_\kappa(P)^T = \left(W_{\rm SJ}(P) - W_{\rm SJ}(P)^T\right) + \frac{\kappa}{2}\left(\Pi_{\ker(\Delta(P))} - \Pi_{\ker(\Delta(P))}^T\right) = i\Delta(P),
+$$
+preserving the canonical commutation relations exactly.  
+From the spectral decomposition of $M(P) = i\Delta(P)$, carrier space $\mathbb{C}^N$ decomposes orthogonally into eigenspaces:
+$$
+\mathbb{C}^N = \mathcal{H}_+(P) \oplus \mathcal{H}_-(P) \oplus \ker(\Delta(P)),
+$$
+where $W_{\rm SJ}(P) = \sum_{j=1}^{K(P)} \lambda_j v_j v_j^\dagger$. On $\mathcal{H}_+(P)$, $W_\kappa(P)v_j = \lambda_j v_j$ ($\lambda_j > 0$); on $\ker(\Delta(P))$, $W_\kappa(P)u = \frac{\kappa}{2}u$ ($\frac{\kappa}{2} > 0$); on $\mathcal{H}_-(P)$, $W_{\rm SJ}(P)v_j^* = 0$ and $\Pi_{\ker(\Delta(P))}v_j^* = 0$, so $W_\kappa(P)v_j^* = 0$. Consequently:
+$$
+\operatorname{range}(W_\kappa(P)) = \mathcal{H}_+(P) \oplus \ker(\Delta(P)), \qquad \ker(W_\kappa(P)) = \mathcal{H}_-(P),
+$$
+$$
+\operatorname{rank}(W_\kappa(P)) = \dim \mathcal{H}_+(P) + \dim \ker(\Delta(P)) = K(P) + (N - 2K(P)) = N - K(P).
+$$
+Whenever $K(P) > 0$, $\operatorname{rank}(W_\kappa(P)) = N - K(P) < N$, so $\operatorname{range}(W_\kappa(P))$ is a strict subspace of $\mathbb{C}^N$, with kernel exactly equal to the negative-frequency subspace $\mathcal{H}_-(P)$.  
+To establish the universal Schur extension across every birth, decompose the bordering vector $v_S \in \mathbb{R}^N$ orthogonally as $v_S = v_\parallel + v_0$, where $v_0 = \Pi_{\ker(\Delta(P))} v_S \in \ker(\Delta(P))$ and $v_\parallel = (I - \Pi_{\ker(\Delta(P))}) v_S \in \operatorname{range}(\Delta(P))$. Setting $z_\parallel = \Delta(P)^+ v_S$, we have $\Delta(P)z_\parallel = v_\parallel$. Choosing $\eta_S = -\frac{1}{2}\lvert M(P)\rvert z_\parallel \in \mathbb{R}^N$, the cross-coupling vector is:
+$$
+c_S = \eta_S - \frac{i}{2}v_S = -\frac{1}{2}\lvert M(P)\rvert z_\parallel - \frac{i}{2}\Delta(P)z_\parallel - \frac{i}{2}v_0 = -W_{\rm SJ}(P)z_\parallel - \frac{i}{2}v_0.
+$$
+Since $-W_{\rm SJ}(P)z_\parallel \in \mathcal{H}_+(P)$ and $-\frac{i}{2}v_0 \in \ker(\Delta(P))$, we have $c_S \in \mathcal{H}_+(P) \oplus \ker(\Delta(P)) = \operatorname{range}(W_\kappa(P))$ identically for all births. In particular, for every negative-frequency eigenvector $v_j^* \in \mathcal{H}_-(P)$:
+$$
+(v_j^*)^\dagger c_S = -(v_j^*)^\dagger W_{\rm SJ}(P)z_\parallel - \frac{i}{2}(v_j^*)^\dagger v_0 = 0 - 0 = 0.
+$$
+The Moore–Penrose pseudoinverse is $W_\kappa(P)^+ = \sum_{j=1}^{K(P)} \frac{1}{\lambda_j} v_j v_j^\dagger + \frac{2}{\kappa}\Pi_{\ker(\Delta(P))}$. Since $\mathcal{H}_+(P)$ and $\ker(\Delta(P))$ are mutually orthogonal, the quadratic form decouples:
+$$
+c_S^\dagger W_\kappa(P)^+ c_S = z_\parallel^T W_{\rm SJ}(P)^\dagger W_{\rm SJ}(P)^+ W_{\rm SJ}(P) z_\parallel + \left(-\frac{i}{2}v_0\right)^\dagger \left(\frac{2}{\kappa}\Pi_{\ker(\Delta(P))}\right) \left(-\frac{i}{2}v_0\right) = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0\rVert_2^2.
+$$
+By Albert's theorem, setting $\sigma_x^2 \ge \sigma_{x,\min}^2(\kappa) = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0\rVert_2^2$ guarantees $W_{\kappa,\operatorname{ext}}(P+S) \succeq 0$ and $W_{\kappa,\operatorname{ext}}(P+S) - W_{\kappa,\operatorname{ext}}(P+S)^T = i\Delta(P+S)$ across every birth. $\blacksquare$
 
-### 4.2 Physical Interpretation of the Extension Dichotomy
-Theorem 5(2)–(3) explains from first principles why causal set sequential growth induces bulk interior vacuum polarization ($\Delta H_{\rm int} \ne 0$ in Section 6): on all **2,989 / 5,230** mode-creating births ($57.2\%$ of extensions up to $N = 6$), exact preservation of the parent covariance $W_{\rm SJ}(P)$ is forbidden by the quantum uncertainty relation on newly coupled parent zero modes, while updating to the intrinsic child Sorkin–Johnston state $W_{\rm SJ}(P+S)$ via the isometric Fock lift shifts parent two-point correlations across the causal bulk.
+### 4.2 Physical Interpretation of the Extension Dichotomy: Mode Misalignment vs. Vacuum Reset
+Theorem 5(2)–(3) uncovers a profound distinction between **vacuum-resetting Fock embeddings** and **physical quantum state propagation**:
+1. **The Vacuum Reset $\Gamma(V)$**: The second-quantized map $\Gamma(V) : \mathcal{S}(\mathcal{F}_{\rm SJ}(P)) \to \mathcal{S}(\mathcal{F}_{\rm SJ}(P+S))$ constructed in Theorem 5(3) satisfies $\Gamma(V)\lvert 0_P\rangle = \lvert 0_{P+S}\rangle$. It maps the parent vacuum directly to the child vacuum. Crucially, a map that maps vacuum to vacuum operates by discarding prior excitations: it resets the quantum state to the new ground state. While mathematically valid as an isometric Fock embedding, it does not constitute dynamical physical state propagation for general excited states $\rho$.
+2. **The Coordinate Marginal Dichotomy**: When parent modes are tracked in coordinate space, Theorem 5(2) proves that on all **2,989 / 5,230** mode-creating births ($57.2\%$ of extensions up to $N = 6$), exact marginal preservation $W(P+S)|_{P \times P} = W_{\rm SJ}(P)$ is strictly forbidden by the Robertson–Schrödinger uncertainty relation: newly adjoined sites couple to parent zero modes $w \in \ker(\Delta(P))$, requiring non-zero variance $\sigma_x^2$ and symplectic activation. Updating to the intrinsic child Sorkin–Johnston vacuum $W_{\rm SJ}(P+S)$ induces bulk interior polarization backreaction ($\Delta H_{\rm int} \ne 0$ in Section 6) across pre-existing links.
 
-### 4.3 Exact Criterion for Discrete Bogoliubov Mixing and Vacuum Particle Creation
+### 4.3 Exact Criterion for Discrete Bogoliubov Mixing and Mode-Subspace Misalignment
 Let $\{v_j\}_{j=1}^{K(P)}$ be the positive-frequency orthonormal eigenvectors of $M(P)$, spanning the one-particle subspace $\mathcal{H}_+(P) \subset \mathbb{C}^N$. The parent annihilation operators are $\hat{a}_j(P) = \frac{1}{\sqrt{\lambda_j}} v_j^\dagger \hat{\phi}$.  
-Upon adjoining $x$ to precursor ideal $S$, the child Hermitian operator $M(P+S)$ possesses positive-frequency eigenvectors $\{v_k'\}_{k=1}^{K(P+S)}$ spanning $\mathcal{H}_+(P+S) \subset \mathbb{C}^{N+1}$. Embedding parent modes into $\mathbb{C}^{N+1}$ via $\tilde{v}_j := \begin{pmatrix} v_j \\ 0 \end{pmatrix}$, the child annihilation operators couple to the parent dynamical sector via the discrete Bogoliubov coefficients:
+Upon adjoining $x$ to precursor ideal $S$, the child Hermitian operator $M(P+S)$ possesses positive-frequency eigenvectors $\{v_k'\}_{k=1}^{K(P+S)}$ spanning $\mathcal{H}_+(P+S) \subset \mathbb{C}^{N+1}$. Embedding parent modes into coordinate space $\mathbb{C}^{N+1}$ via $\tilde{v}_j := \begin{pmatrix} v_j \\ 0 \end{pmatrix}$, the child annihilation operators couple to the parent dynamical sector via the discrete Bogoliubov coefficients:
 $$
 \alpha_{kj} = \sqrt{\frac{\lambda_j}{\lambda_k'}} (v_k')^\dagger \begin{pmatrix} v_j \\ 0 \end{pmatrix}, \qquad \beta_{kj} = \sqrt{\frac{\lambda_j}{\lambda_k'}} (v_k')^\dagger \begin{pmatrix} v_j^* \\ 0 \end{pmatrix}.
 $$
+These coefficients quantify the geometric mode-subspace misalignment between the coordinate-embedded parent positive-frequency modes $\tilde{v}_j$ and the child spectral subspaces $\mathcal{H}_\pm(P+S) \subset \mathbb{C}^{N+1}$.
 
-**Theorem 6 (Exact Necessary and Sufficient Criterion for Discrete Bogoliubov Mixing) [PROVED THEOREM].**  
+**Theorem 6 (Exact Necessary and Sufficient Criterion for Discrete Bogoliubov Mixing and Mode-Subspace Misalignment) [PROVED THEOREM].**  
 *Let $P$ be any finite poset and $S \in \mathcal{I}(P)$ any downward-closed precursor ideal with bordering vector $v_S = \mu(I + G_A(P))\mathbf{1}_S \in \mathbb{R}^N$. Then:*
 1. *Whenever $S \ne \varnothing$, $v_S \in \mathbb{R}^N \setminus \{0\}$ has strictly non-negative entries and cannot belong to $\mathcal{H}_+(P)$.*
-2. *Discrete Bogoliubov mixing between the child positive-frequency modes and the parent negative-frequency modes occurs **if and only if** $v_S$ has a non-zero projection onto the parent dynamical subspace $(\ker\Delta(P))^\perp$:*
+2. *Geometric mode-subspace misalignment between the child positive-frequency modes and the coordinate-embedded parent negative-frequency modes ($\beta_{kj} \ne 0$) occurs **if and only if** $v_S$ has a non-zero projection onto the parent dynamical subspace $(\ker\Delta(P))^\perp$:*
    $$
    \sum_{k=1}^{K(P+S)} \sum_{j=1}^{K(P)} \lvert \beta_{kj}\rvert^2 > 0 \iff \Delta(P) v_S \ne 0 \quad \bigl(\text{i.e., } v_S \notin \ker(\Delta(P))\bigr).
    $$
-3. *Whenever $\Delta(P)v_S \ne 0$, evaluating the parent-coupled child occupation number on the embedded parent vacuum yields strictly positive spontaneous particle creation $\sum_{k=1}^{K(P+S)} \sum_{j=1}^{K(P)} \lvert \beta_{kj}\rvert^2 > 0$; conversely, when $\Delta(P)v_S = 0$ (which occurs for $S = \varnothing$, when $K(P) = 0$ as in $P_1 \to C_2$ or $A_n \to C_2 \sqcup A_{n-1}$, or when $S$ lies entirely inside an isolated edgeless component of $P$), every parent mode $\tilde{v}_j$ remains an exact unmixed eigenvector of $M(P+S)$ with $\beta_{kj} = 0$.*
+3. *Whenever $\Delta(P)v_S \ne 0$, evaluating the child mode occupation in the coordinate-embedded parent vacuum state yields strictly positive spontaneous particle creation $\langle \hat{N}_k \rangle = \sum_{j=1}^{K(P)} \lvert \beta_{kj}\rvert^2 > 0$; conversely, when $\Delta(P)v_S = 0$ (which occurs for $S = \varnothing$, when $K(P) = 0$ as in $P_1 \to C_2$ or $A_n \to C_2 \sqcup A_{n-1}$, or when $S$ lies entirely inside an isolated edgeless component of $P$), every embedded parent mode $\tilde{v}_j$ remains an exact unmixed eigenvector of $M(P+S)$ with $\beta_{kj} = 0$.*
 
 *Proof.*  
 1. Since $I + G_A(P) = (I - \mu C_P^T)^{-1}$ is unipotent upper triangular with non-negative entries and unit diagonal, $S \ne \varnothing \implies \mathbf{1}_S \ne 0 \implies v_S \ne 0$. Because $M(P)^* = -M(P)$, $\mathcal{H}_+(P)^* = \mathcal{H}_-(P)$ and $\mathcal{H}_+(P) \cap \mathcal{H}_-(P) = \{0\}$, so $\mathcal{H}_+(P) \cap \mathbb{R}^N = \{0\}$ and no non-zero real vector $v_S$ lies in $\mathcal{H}_+(P)$.
@@ -372,16 +413,85 @@ $$
 Equating the two expressions gives $-(v_S^T v_j)^2 = +(v_S^T v_j)^2 \implies v_S^T v_j = 0$ (and hence $v_S^T v_j^* = (v_S^T v_j)^* = 0$) for every $j = 1, \dots, K(P)$. Therefore $v_S \perp (\mathcal{H}_+(P) \oplus \mathcal{H}_-(P))$, which means $v_S \in \ker(\Delta(P))$, i.e., $\Delta(P)v_S = 0$.
 3. Using $\hat{a}_j(P)\lvert 0_P\rangle = 0$ and $[\hat{a}_j(P), \hat{a}_{j'}^\dagger(P)] = \delta_{jj'}$ on the parent dynamical modes yields $\sum_{j, j'} \beta_{kj}^* \beta_{kj'} \langle 0_P \mid \hat{a}_j(P)\hat{a}_{j'}^\dagger(P)\mid 0_P\rangle = \sum_j \lvert\beta_{kj}\rvert^2$, and summing over $k = 1, \dots, K(P+S)$ completes the proof. $\blacksquare$
 
-### 4.4 Stinespring Dilation and Kraus Representation
-By Stinespring's dilation theorem, the canonical Gaussian CPTP map $\mathcal{E}_{P \to P+S}$ can be realized on density operators $\rho \in \mathcal{S}(\mathcal{F}_{\rm SJ}(P))$ by introducing an auxiliary single-mode ancilla oscillator $\mathcal{H}_{\rm anc}$ initialized in its vacuum state $\lvert 0_{\rm anc}\rangle$:
+### 4.4 Why Coordinate Mode Overlaps Alone Are Not a Unitary Particle-Creation Law
+A crucial algebraic distinction separates the rectangular coordinate-overlap matrices $\alpha, \beta \in \mathbb{C}^{K(P+S) \times K(P)}$ of Section 4.3 from a closed canonical Bogoliubov transformation. Using the orthogonal resolution of the identity on $\mathbb{C}^{N+1}$:
 $$
-\mathcal{E}_{P \to P+S}(\rho) = \operatorname{Tr}_{\rm env} \left[ U_{\rm Bog} \left( \rho \otimes \lvert 0_{\rm anc}\rangle\langle 0_{\rm anc}\rvert \right) U_{\rm Bog}^\dagger \right],
+I_{N+1} = \sum_{j=1}^{K(P)} \left( \tilde{v}_j \tilde{v}_j^\dagger + \tilde{v}_j^* (\tilde{v}_j^*)^\dagger \right) + \left( \Pi_{\ker(\Delta(P))} \oplus 0 \right) + e_{N+1} e_{N+1}^T,
 $$
-where $U_{\rm Bog} = \exp\left( \sum_{k, j} (\theta_{kj} \hat{a}_k^\dagger \hat{a}_j^\dagger - \theta_{kj}^* \hat{a}_k \hat{a}_j) \right)$ is the unitary multi-mode squeezing operator implementing the discrete Bogoliubov rotation. Expanding in the Fock basis of the ancilla yields the continuous Kraus decomposition:
+and the eigenvalue equation $M(P+S)v_k' = \lambda_k' v_k'$, one finds that $(\alpha\alpha^\dagger - \beta\beta^\dagger)_{kk'}$ does **not** in general equal $\delta_{kk'}$: the remaining commutator weight of the child annihilation operators $[\hat{a}_k(P+S), \hat{a}_{k'}^\dagger(P+S)] = \delta_{kk'}$ resides precisely in the parent zero-mode subspace $\ker(\Delta(P))$ and the newborn field coordinate $\hat{\phi}(x)$! Consequently, one must distinguish three operations across $P \to P+S$:
+1. **The Vacuum Reset Channel $\Gamma(V)$ (Theorem 5(3))**: Second quantization of an isometry $V : \mathcal{H}_+(P) \hookrightarrow \mathcal{H}_+(P+S)$ maps $\lvert 0_P\rangle \mapsto \lvert 0_{P+S}\rangle$ ($W(P) \mapsto W_{\rm SJ}(P+S)$), resetting the field to the child Sorkin–Johnston ground state and erasing prior excitations $\Delta W(P)$.
+2. **Coordinate Mode-Subspace Misalignment $(\alpha_{kj}, \beta_{kj})$ (Theorem 6)**: Measures the geometric tilt between coordinate-embedded parent dynamical modes $\tilde{v}_j$ and child modes $v_k'$, without supplying the canonical zero-mode/newborn completion.
+3. **Composable CCR-Preserving Gaussian State Propagation (Section 4.5)**: Explicitly incorporates parent zero modes and the newborn field operator $\hat{\phi}(x)$ so that $W(P) \mapsto W(P+S)$ preserves $W \succeq 0$, exact CCR $W - W^T = i\Delta$, and causal past marginals $[W(P+S)]_{P\times P} = W(P)$ across all horizons without vacuum reset.
+
+### 4.5 Canonical CCR-Preserving Gaussian State Transitions Across All Horizons
+
+We now construct the explicit linear and symplectic state-evolution laws resolving both mode-preserving ($K(P+S) = K(P)$) and mode-creating ($K(P+S) = K(P)+1$) births across arbitrary multi-step causal set trajectories.
+
+**Theorem 6A (Mode-Preserving Symplectic Congruence & Excitation Propagation) [PROVED THEOREM].**  
+*Let $W(P) = \gamma(P) + \frac{i}{2}\Delta(P) \succeq 0$ be any parent Gaussian covariance matrix on $P$. Across any mode-preserving birth ($K(P+S) = K(P) \iff v_S \in \operatorname{range}(\Delta(P))$), set $z := \Delta(P)^+ v_S \in \operatorname{range}(\Delta(P))$ and $B := \begin{pmatrix} I_N \\ -z^T \end{pmatrix} \in \mathbb{R}^{(N+1)\times N}$. Then $W_{\rm cong}(P+S) := B W(P) B^T \in \mathbb{C}^{(N+1)\times(N+1)}$ satisfies:*
+1. *Unconditional Positivity & Exact CCR: $W_{\rm cong}(P+S) \succeq 0$ and $W_{\rm cong}(P+S) - W_{\rm cong}(P+S)^T = i\Delta(P+S)$.*
+2. *Exact Past-Marginal Preservation & Zero-Mode Annihilation: $[W_{\rm cong}(P+S)]_{P \times P} = W(P)$ and $W_{\rm cong}(P+S) w_{\rm new} = 0$ for $w_{\rm new} = \begin{pmatrix} z \\ 1 \end{pmatrix} \in \ker(\Delta(P+S))$.*
+3. *Non-Resetting Excitation Propagation: For any excited parent state $W(P) = W_{\rm base}(P) + \Delta W(P)$ with real symmetric $\Delta W(P) \succeq 0$, the propagated excitation $\Delta W(P+S) := B \Delta W(P) B^T \succeq 0$ is real symmetric and satisfies $\operatorname{Tr}(\Delta W(P+S)) = \operatorname{Tr}(\Delta W(P)) + z^T \Delta W(P) z \ge \operatorname{Tr}(\Delta W(P))$.*
+
+*Proof.*  
+Since $B$ is real, $B^\dagger = B^T$, so $\xi^\dagger (B W(P) B^T)\xi = (B^T \xi)^\dagger W(P) (B^T \xi) \ge 0$ for all $\xi \in \mathbb{C}^{N+1}$. Using $\Delta(P)z = v_S$ and skew-symmetry $z^T \Delta(P)z = 0$:
 $$
-\mathcal{E}_{P \to P+S}(\rho) = \sum_{m=0}^\infty K_m \rho K_m^\dagger, \qquad \sum_{m=0}^\infty K_m^\dagger K_m = I_{\mathcal{F}(P)},
+W_{\rm cong}(P+S) - W_{\rm cong}(P+S)^T = i B\Delta(P)B^T = i\begin{pmatrix} \Delta(P) & -\Delta(P)z \\ z^T \Delta(P) & z^T \Delta(P) z \end{pmatrix} = i\begin{pmatrix} \Delta(P) & -v_S \\ v_S^T & 0 \end{pmatrix} = i\Delta(P+S).
 $$
-where $K_m = \langle m_{\rm anc} \mid U_{\rm Bog} \mid 0_{\rm anc}\rangle$.
+The top-left $N\times N$ block is $W(P)$, $B^T w_{\rm new} = z - z = 0 \implies W_{\rm cong}(P+S)w_{\rm new} = 0$, and $\operatorname{Tr}(B\Delta W(P)B^T) = \operatorname{Tr}(\Delta W(P)(I_N + zz^T)) = \operatorname{Tr}(\Delta W(P)) + z^T\Delta W(P)z \ge \operatorname{Tr}(\Delta W(P))$. $\blacksquare$
+
+**Theorem 6B (Mode-Creating Canonical Quadratures & Heisenberg–Schur Identity) [PROVED THEOREM].**  
+*Across any mode-creating birth ($K(P+S) = K(P) + 1 \iff v_0 := \Pi_{\ker(\Delta(P))} v_S \ne 0$), let $z_\parallel := \Delta(P)^+ v_S \in \operatorname{range}(\Delta(P))$ so that $v_S = \Delta(P)z_\parallel + v_0$. Let $\hat{\Phi}_P = (\hat{\phi}(0), \dots, \hat{\phi}(N-1))^T$ and $\hat{\phi}(x)$ satisfy $[\hat{\Phi}_P, \hat{\Phi}_P^T] = i\Delta(P)$ and $[\hat{\Phi}_P, \hat{\phi}(x)] = -i v_S$. Define the Hermitian linear field quadratures:*
+$$
+\hat{X}_{\rm new} := \frac{v_0^T \hat{\Phi}_P}{\lVert v_0\rVert_2}, \qquad \hat{P}_{\rm new} := -\frac{\hat{\phi}(x) + z_\parallel^T \hat{\Phi}_P}{\lVert v_0\rVert_2}.
+$$
+*Then:*
+1. *Exact Canonical Conjugate Pair: $[\hat{X}_{\rm new}, \hat{P}_{\rm new}] = i\mathbf{1}$.*
+2. *Symplectic Decoupling: $[\hat{X}_{\rm new}, u^T \hat{\Phi}_P] = [\hat{P}_{\rm new}, u^T \hat{\Phi}_P] = 0$ for all $u \in \operatorname{range}(\Delta(P))$, and $[\hat{X}_{\rm new}, w^T \hat{\Phi}_P] = [\hat{P}_{\rm new}, w^T \hat{\Phi}_P] = 0$ for all $w \in \ker(\Delta(P)) \cap v_0^\perp$ (with $\ker(\Delta(P+S)) = (\ker(\Delta(P)) \cap v_0^\perp) \oplus \{0\}$).*
+3. *Complete Schur-Family Parametrization & Heisenberg Bound: Under $W_\kappa(P) = W_{\rm SJ}(P) + \frac{\kappa}{2}\Pi_{\ker(\Delta(P))}$ ($\kappa > 0$), a vector $c_S = \eta_S - \frac{i}{2}v_S$ ($\eta_S \in \mathbb{R}^N$) lies in $\operatorname{range}(W_\kappa(P)) = \mathcal{H}_+(P) \oplus \ker(\Delta(P))$ **if and only if** $\eta_S = -\frac{1}{2}\lvert M(P)\rvert z_\parallel + \eta_0$ for some $\eta_0 \in \ker(\Delta(P))$, in which case:*
+   $$
+   c_S^\dagger W_\kappa(P)^+ c_S = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0\rVert_2^2 + \frac{2}{\kappa}\lVert \eta_0\rVert_2^2 \ge \sigma_{x,\min}^2(\kappa),
+   $$
+   *attaining its unique minimum at $\eta_0 = 0$ and matching the Heisenberg minimum-uncertainty bound $\langle \hat{X}_{\rm new}^2\rangle \langle \hat{P}_{\rm new}^2\rangle \ge \frac{1}{4}$ at $\langle \hat{X}_{\rm new}^2\rangle = \frac{\kappa}{2}$ (and extending additively to $W(P) = W_\kappa(P) + \Delta W(P)$ via $W_{\kappa,\operatorname{ext}}(P+S) + B_\parallel \Delta W(P) B_\parallel^T \succeq 0$ with $B_\parallel = \begin{pmatrix} I_N \\ -z_\parallel^T \end{pmatrix}$).*
+
+*Proof.*  
+1. Since $v_0 \in \ker(\Delta(P))$ and $v_0 \perp \Delta(P)z_\parallel$, $[v_0^T \hat{\Phi}_P, \hat{\phi}(x)] = -i v_0^T v_S = -i\lVert v_0\rVert_2^2$ and $[v_0^T \hat{\Phi}_P, z_\parallel^T \hat{\Phi}_P] = i v_0^T \Delta(P)z_\parallel = 0$, giving $[\hat{X}_{\rm new}, \hat{P}_{\rm new}] = -\lVert v_0\rVert_2^{-2}(-i\lVert v_0\rVert_2^2) = i\mathbf{1}$.
+2. For $u \in \operatorname{range}(\Delta(P))$, $v_0^T \Delta(P)u = 0$ and $v_S^T u + z_\parallel^T \Delta(P)u = (v_S - \Delta(P)z_\parallel)^T u = v_0^T u = 0$, so both commutators vanish. For $w \in \ker(\Delta(P)) \cap v_0^\perp$, $\Delta(P)w = 0$ and $v_S^T w = v_0^T w = 0$, so both commutators again vanish. Moreover, $\Delta(P+S)\begin{pmatrix} u \\ \alpha \end{pmatrix} = 0 \iff \Delta(P)u = \alpha v_S \text{ and } v_S^T u = 0$; since $v_S \notin \operatorname{range}(\Delta(P))$, $\alpha = 0$ and $u \in \ker(\Delta(P)) \cap v_0^\perp$.
+3. By Theorem 5(3), $\ker(W_\kappa(P)) = \mathcal{H}_-(P)$. Writing $\eta_S = \eta_\parallel + \eta_0$ with $\eta_\parallel \in \operatorname{range}(\Delta(P))$ and $\eta_0 \in \ker(\Delta(P))$, $(v_j^*)^\dagger c_S = 0$ for all $j = 1, \dots, K(P)$ holds if and only if $\eta_\parallel - \frac{i}{2}\Delta(P)z_\parallel \in \mathcal{H}_+(P)$, which uniquely fixes $\eta_\parallel = -\frac{1}{2}\lvert M(P)\rvert z_\parallel$ while leaving $\eta_0 \in \ker(\Delta(P))$ free with $c_S = -W_{\rm SJ}(P)z_\parallel + (\eta_0 - \frac{i}{2}v_0)$. Evaluating $c_S^\dagger W_\kappa(P)^+ c_S$ on the orthogonal subspaces $\mathcal{H}_+(P)$ and $\ker(\Delta(P))$ (where $(\eta_0 - \frac{i}{2}v_0)^\dagger(\eta_0 - \frac{i}{2}v_0) = \lVert \eta_0\rVert_2^2 + \frac{1}{4}\lVert v_0\rVert_2^2$ since $\eta_0, v_0 \in \mathbb{R}^N$) yields the exact formula and unique minimizer $\eta_0 = 0$. Under $W_\kappa(P)$, $z_\parallel^T \hat{\Phi}_P$ and $\hat{P}_{\rm new}$ have vanishing symmetrized cross-covariance at $\eta_0 = 0$, $\langle \hat{X}_{\rm new}^2\rangle = \frac{\kappa}{2}$, and $\langle \hat{P}_{\rm new}^2\rangle \ge (4\langle \hat{X}_{\rm new}^2\rangle)^{-1} = \frac{1}{2\kappa}$ gives $\langle \hat{\phi}(x)^2\rangle = \langle (z_\parallel^T \hat{\Phi}_P)^2\rangle + \lVert v_0\rVert_2^2 \langle \hat{P}_{\rm new}^2\rangle \ge \sigma_{x,\min}^2(\kappa)$. $\blacksquare$
+
+To compose births across **arbitrary horizons** $P_1 \to P_2 \to \dots \to P_N$ without ever resetting intermediate states to $W_\kappa(P_n)$, observe that any mode-preserving congruence $W_{\rm cong}(P+S) = B W(P) B^T$ leaves the newborn zero mode $w_{\rm new} = \begin{pmatrix} z \\ 1 \end{pmatrix}$ at zero variance, which would block a subsequent mode-creating birth coupling to $w_{\rm new}$, while a mode-creating Schur extension produces a child state $W(P+S) \ne W_\kappa(P+S)$ with general null space. Both requirements are unified by the **Universal Range Lemma**:
+
+**Theorem 6C (Universal Range Lemma & Composable All-Horizon Schur-Symplectic Evolution $\mathcal{T}_\kappa$) [PROVED THEOREM].**  
+*For any finite poset $P$ of cardinality $N$, define the admissible Gaussian state cone:*
+$$
+\mathcal{C}_+(P) := \left\{ W = \gamma + \frac{i}{2}\Delta(P) \in \mathbb{C}^{N \times N} : \gamma \in \mathbb{R}^{N \times N} \text{ symmetric}, \; W \succeq 0, \; w^T \gamma w > 0 \;\; \forall w \in \ker(\Delta(P)) \setminus \{0\} \right\}.
+$$
+*Then for every $W \in \mathcal{C}_+(P)$, every downward-closed precursor ideal $S \in \mathcal{I}(P)$ ($v_S = \mu(I + G_A(P))\mathbf{1}_S$), and every zero-mode activation scale $\kappa > 0$:*
+1. *(Universal Purely-Imaginary Kernel Exclusion & Full-Row-Rank Range Lemma.)* *$\ker W$ contains no non-zero purely imaginary vector ($\ker W \cap i\mathbb{R}^N = \{0\}$). Consequently, for any $\mathbb{C}$-basis $\{u_1, \dots, u_r\}$ of $\ker W$ ($u_m = a_m + i b_m$ with $a_m, b_m \in \mathbb{R}^N$), the $2r$ real vectors $\{a_1, \dots, a_r, b_1, \dots, b_r\} \subset \mathbb{R}^N$ are $\mathbb{R}$-linearly independent ($r = \dim_\mathbb{C}\ker W \le K(P) \le N/2$), the feasible affine space $\mathcal{A}(W, v_S) := \{\eta \in \mathbb{R}^N : \eta - \frac{i}{2}v_S \in \operatorname{range}(W)\}$ is **non-empty** for every $v_S \in \mathbb{R}^N$, and the quadratic objective $\eta \mapsto (\eta - \frac{i}{2}v_S)^\dagger W^+ (\eta - \frac{i}{2}v_S)$ is strictly convex on $\mathcal{A}(W, v_S)$ with a **unique** minimizer $\eta_S^*(W, v_S) \in \mathcal{A}(W, v_S)$.*
+2. *(All-Horizon Composable State Update $\mathcal{T}_\kappa : \mathcal{C}_+(P) \to \mathcal{C}_+(P+S)$.)* *Setting $c_S^* := \eta_S^*(W, v_S) - \frac{i}{2}v_S \in \operatorname{range}(W)$ and defining:*
+   $$
+   \mathcal{T}_\kappa(W; S) := \begin{pmatrix} W & c_S^* \\ (c_S^*)^\dagger & \sigma_x^2(W, S; \kappa) \end{pmatrix}, \quad \sigma_x^2(W, S; \kappa) := (c_S^*)^\dagger W^+ c_S^* + \begin{cases} \frac{\kappa}{2}\left(1 + \lVert z\rVert_2^2\right) & \text{if } K(P+S) = K(P) \;\;(z = \Delta(P)^+ v_S), \\ 0 & \text{if } K(P+S) = K(P) + 1, \end{cases}
+   $$
+   *maps $\mathcal{C}_+(P)$ into $\mathcal{C}_+(P+S)$ across **every** birth and **every** horizon $N \ge 1$, satisfying:*
+   - *Positivity & Strict Zero-Mode Support: $\mathcal{T}_\kappa(W; S) \in \mathcal{C}_+(P+S)$ (so $\mathcal{T}_\kappa$ composes across arbitrarily long growth histories $P_1 \to P_2 \to \dots \to P_N$ initialized at $W_\kappa(P_1) = \frac{\kappa}{2}I_1 \in \mathcal{C}_+(P_1)$);*
+   - *Exact CCR Preservation: $\mathcal{T}_\kappa(W; S) - \mathcal{T}_\kappa(W; S)^T = i\Delta(P+S)$;*
+   - *Exact Causal Past-Restriction Invariance: $[\mathcal{T}_\kappa(W; S)]_{P \times P} = W$ at every birth step (hence $[W(P_N)]_{P_m \times P_m} = W(P_m)$ for all $1 \le m \le N$, strictly preserving all past two-point correlations and prior excitations without vacuum reset).*
+
+*Proof.*  
+1. Suppose $u = i b \in \ker W$ with $b \in \mathbb{R}^N$. Then $0 = W(ib) = i\gamma b - \frac{1}{2}\Delta(P)b$; separating real and imaginary parts gives $\Delta(P)b = 0$ (so $b \in \ker(\Delta(P))$) and $\gamma b = 0$ (so $b^T \gamma b = 0$), forcing $b = 0$ because $W \in \mathcal{C}_+(P)$. Now suppose $\sum_{m=1}^r (\alpha_m a_m + \beta_m b_m) = 0$ for real scalars $\alpha_m, \beta_m \in \mathbb{R}$. Since $\ker W$ is a complex subspace, $u := \sum_{m=1}^r (\alpha_m - i\beta_m)u_m \in \ker W$ has real part $\operatorname{Re}(u) = \sum_{m=1}^r (\alpha_m a_m + \beta_m b_m) = 0$, so $u \in \ker W \cap i\mathbb{R}^N = \{0\}$. By $\mathbb{C}$-linear independence of $\{u_1, \dots, u_r\}$, $\alpha_m - i\beta_m = 0 \implies \alpha_m = \beta_m = 0$ for all $m$. Thus the $2r \times N$ real matrix $R = \begin{pmatrix} a_1 & \dots & a_r & b_1 & \dots & b_r \end{pmatrix}^T$ has full row rank $2r$. Since $u_m^\dagger(\eta - \frac{i}{2}v_S) = (a_m^T \eta - \frac{1}{2}b_m^T v_S) - i(b_m^T \eta + \frac{1}{2}a_m^T v_S) = 0$ ($m = 1, \dots, r$) is a $2r \times N$ real linear system with surjective coefficient matrix $R$, $\mathcal{A}(W, v_S)$ is non-empty for every $v_S \in \mathbb{R}^N$. Moreover, for any two distinct points $\eta_1, \eta_2 \in \mathcal{A}(W, v_S)$, $\delta := \eta_1 - \eta_2 \in (\operatorname{range}(W) \cap \mathbb{R}^N) \setminus \{0\}$, and since $W^+$ is strictly positive definite on $\operatorname{range}(W)$, $\delta^\dagger W^+ \delta > 0$, proving strict convexity and uniqueness of $\eta_S^*(W, v_S)$.
+2. By Theorem 5(1), $c_S^* \in \operatorname{range}(W)$ and $\sigma_x^2(W, S; \kappa) \ge (c_S^*)^\dagger W^+ c_S^*$ immediately yield $\tilde{W} := \mathcal{T}_\kappa(W; S) \succeq 0$, $\tilde{W} - \tilde{W}^T = i\Delta(P+S)$, and $[\tilde{W}]_{P \times P} = W$. To verify strict zero-mode support on $\ker(\Delta(P+S))$, let $\tilde{w} = \begin{pmatrix} u \\ \alpha \end{pmatrix} \in \ker(\Delta(P+S)) \setminus \{0\}$ ($u \in \mathbb{R}^N, \alpha \in \mathbb{R}$), so $\Delta(P)u = \alpha v_S$ and $v_S^T u = 0$:
+   - If $K(P+S) = K(P) + 1$, then $v_S \notin \operatorname{range}(\Delta(P))$ forces $\alpha = 0$ and $u \in \ker(\Delta(P)) \setminus \{0\}$, whence $\tilde{w}^T \operatorname{Re}(\tilde{W}) \tilde{w} = u^T \gamma u > 0$.
+   - If $K(P+S) = K(P)$, write $\tilde{W} = \tilde{W}_0 + \frac{\kappa}{2}(1 + \lVert z\rVert_2^2)e_{N+1}e_{N+1}^T$ with $\tilde{W}_0 \succeq 0$. If $\alpha \ne 0$, then $\tilde{w}^T \operatorname{Re}(\tilde{W}) \tilde{w} \ge \frac{\kappa}{2}(1 + \lVert z\rVert_2^2)\alpha^2 > 0$; if $\alpha = 0$, then $u \in \ker(\Delta(P)) \setminus \{0\}$ and $\tilde{w}^T \operatorname{Re}(\tilde{W}) \tilde{w} = u^T \gamma u > 0$.  
+   Hence $\mathcal{T}_\kappa(W; S) \in \mathcal{C}_+(P+S)$ in all cases. $\blacksquare$
+
+**Obstruction 3 (Two-Step Diamond Symmetric Ordering Discrepancy vs. Exact CCR & Marginal Confluence) [COUNTEREXAMPLE/OBSTRUCTION].**  
+*Consider any incomparable two-step growth diamond $P \to (P_1 = P+x_S \text{ vs. } P_2 = P+y_T) \to Q = P + x_S + y_T$ ($S \not\subseteq T, T \not\subseteq S$) initialized at $W_0 = W_\kappa(P)$ ($\kappa = 1$), comparing $W_{12} = \mathcal{T}_\kappa(\mathcal{T}_\kappa(W_0; S); T)$ against the coordinate-permuted state $\tilde{W}_{21} = P_{\rm swap}\,\mathcal{T}_\kappa(\mathcal{T}_\kappa(W_0; T); S)\,P_{\rm swap}^T$:*
+1. *Across all **441 / 441** incomparable diamonds ($N \le 4$), both path states satisfy $W_{12} \succeq 0$ and $\tilde{W}_{21} \succeq 0$, preserve exact causal marginals ($[W_{12}]_{P \times P} = [\tilde{W}_{21}]_{P \times P} = W_0$, eliminating spacelike marginal disturbance on $P$), and have **identically equal imaginary parts**:*
+   $$
+   \operatorname{Im}(W_{12} - \tilde{W}_{21}) = \frac{1}{2}\bigl(\Delta(Q) - \Delta(Q)\bigr) \equiv 0.
+   $$
+2. *Across **281 / 441** diamonds ($63.7\%$, including $1/1$ at $N = 2$ and $15/20$ at $N = 3$), the full two-point Gaussian state commutes identically ($W_{12} = \tilde{W}_{21}$).*
+3. *Starting at parent size $N = 3$ on **5 / 20** diamonds—first occurring on the disjoint union poset $P = C_2 \sqcup A_1$ ($0 \prec 1$, $2$ isolated) with $S = \{0, 1\}$ (mode-preserving) and $T = \{0, 2\}$ (mode-creating), where $\max\lvert\operatorname{Re}(W_{12} - \tilde{W}_{21})\rvert = 1.000000$—and on **155 / 420** diamonds at $N = 4$ (**160 / 441** total, $36.3\%$, $\max = 5.833333$), the real symmetric Hadamard block exhibits path-ordering dependence $\operatorname{Re}(W_{12} - \tilde{W}_{21}) \ne 0$ whenever intermediate zero-mode creation/consumption alters the active Schur subspace seen by the spacelike partner birth.*
 
 ---
 
@@ -409,15 +519,25 @@ The link set $\operatorname{Link}(P)$ coincides with the support of the non-tran
 Since $x$ is maximal in $P+S$, no existing pair $(v, u) \in \operatorname{Link}(P)$ can have $x \in I(v, u)$. Hence no links are destroyed, proving $\operatorname{Link}(P) \subseteq \operatorname{Link}(P+S)$.  
 Now consider an incoming relation $v \prec x$, which means $v \in S$. The relation $(v, x)$ is a covering link if and only if there is no $w \in P+S$ such that $v \prec w \prec x$. Since $w \prec x \iff w \in S$, this is equivalent to saying there is no $w \in S$ with $v \prec w$. By definition, this means $v \in \operatorname{Max}(S)$. $\blacksquare$
 
-**Definition 5.2 (Covering-Link Fluctuation and Boundary Energy Flux).**  
-For any link $(v, u) \in \operatorname{Link}(P)$, the normal-ordered quantum stress observable is $\mathcal{T}_{\rm link}(v, u) = \frac{1}{2}:(\phi(u) - \phi(v))^2:_{W_{\rm SJ}}$. Its Sorkin–Johnston vacuum fluctuation expectation is:
-$$
-\mathcal{E}_{\rm fluc}(v, u; P) := \langle (\phi(u) - \phi(v))^2 \rangle_{\rm SJ} = (W_{\rm SJ}(P))_{uu} + (W_{\rm SJ}(P))_{vv} - 2\operatorname{Re}(W_{\rm SJ}(P))_{uv}.
-$$
-The **local boundary energy flux** carried across the newly created links upon birth $P \to P+S$ is:
-$$
-\Phi_{\rm flux}(P \to P+S) := \sum_{v \in \operatorname{Max}(S)} \mathcal{E}_{\rm fluc}(v, x; P+S).
-$$
+**Definition 5.2 (Covering-Link Quantum Stress and Fluctuation Variance).**  
+For any link $(v, u) \in \operatorname{Link}(P)$:
+1. The **normal-ordered quantum link stress observable** with respect to the Sorkin–Johnston vacuum covariance $W_{\rm SJ}$ is:
+   $$
+   \mathcal{T}_{\rm link}(v, u) := \frac{1}{2}:(\phi(u) - \phi(v))^2:_{W_{\rm SJ}} = \frac{1}{2}\left( (\phi(u) - \phi(v))^2 - \langle 0_{\rm SJ}\mid (\phi(u) - \phi(v))^2 \mid 0_{\rm SJ}\rangle \right).
+   $$
+   By definition of normal ordering, its Sorkin–Johnston vacuum expectation value vanishes identically:
+   $$
+   \langle 0_{\rm SJ}\mid \mathcal{T}_{\rm link}(v, u)\mid 0_{\rm SJ}\rangle \equiv 0.
+   $$
+2. The **unrenormalized two-point link fluctuation variance** is:
+   $$
+   \mathcal{E}_{\rm fluc}(v, u; P) := \langle 0_{\rm SJ}\mid (\phi(u) - \phi(v))^2 \mid 0_{\rm SJ}\rangle = (W_{\rm SJ}(P))_{uu} + (W_{\rm SJ}(P))_{vv} - 2\operatorname{Re}(W_{\rm SJ}(P))_{uv} \ge 0.
+   $$
+   The local boundary energy flux carried across newly created links upon birth $P \to P+S$ is the sum of unrenormalized fluctuation variances:
+   $$
+   \Phi_{\rm flux}(P \to P+S) := \sum_{v \in \operatorname{Max}(S)} \mathcal{E}_{\rm fluc}(v, x; P+S).
+   $$
+   *Remark on the Factor of $1/2$*: The kinetic link stress observable $\mathcal{T}_{\rm link}$ incorporates the standard kinetic prefactor of $1/2$. In contrast, $\mathcal{E}_{\rm fluc}(v, u; P)$ is defined directly as the raw two-point difference variance (e.g., $\mathcal{E}_{\rm fluc}(0, 1; C_2) = 1.000000$ on $C_2$, where $W_{00} = W_{11} = 0.5$ and $\operatorname{Re}(W_{01}) = 0$). The total discrete field Hamiltonian $H_{\rm field}(P) = \sum_{e \in \operatorname{Link}(P)} \mathcal{E}_{\rm fluc}(e; P)$ sums these unrenormalized link fluctuation variances directly, maintaining consistency with all subsequent numerical calculations and verification tests.
 
 ### 5.2 Growth Diamonds and Cumulative Link Flux
 In classical sequential growth, discrete general covariance is expressed by commutation across elementary growth diamonds. Let $C$ be a base poset of cardinality $n-1$, and let $S, T \in \mathcal{I}(C)$ be two downward-closed precursor ideals. The confluence of adjoining $x_S$ and $y_T$ forms a diamond with two alternative paths to the confluent poset $Q = C + x_S + y_T$:
@@ -536,11 +656,11 @@ By Obstruction 1, $\oint_{\rm diamond} \Phi_{\rm flux} = 0.338427 \ne 0$ on $P =
 
 ## 6. Resolution via Relativistic Divergence Balance (GD-01)
 
-### 6.1 The Relativistic Principle: Absence of Global Scalar Energy in Curved Spacetime
-The failure of local covering-link flux $\Phi_{\rm flux}$ to form an exact 1-form is not a pathological breakdown of discrete general covariance. Rather, it is the direct discrete realization of a fundamental principle of general relativity, as codified in guideline `GD-01` of `docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md`:
+### 6.1 The Relativistic Motivation: Absence of Global Scalar Energy in Curved Spacetime
+The failure of local covering-link flux $\Phi_{\rm flux}$ to form an exact 1-form is not a pathological breakdown of discrete general covariance. Rather, it reflects the foundational principle of general relativity codified in guideline `GD-01` of `docs/coordination/NATIVE_GEOMETRY_GRAVITY_MEASUREMENT_PLAN.md`:
 > *"Relativistic source interpretation concerns energy, momentum, stresses and their coupling. State local balance and boundary flux assumptions. **Do not require a globally conserved scalar energy on every curved spacetime without the additional structure that defines it.** Conventional GR dynamics and Noether-charge methods provide conditional comparison tools, not native derivations."*
 
-In general relativity, a globally conserved scalar energy exists if and only if the spacetime possesses a global timelike Killing vector field $\xi^\mu$ ($\nabla_{(\mu}\xi_{\nu)} = 0$). On a generic, dynamically fluctuating curved spacetime, no such Killing symmetry exists. The true physical conservation law is the local covariant divergence of stress-energy:
+In general relativity, a globally conserved scalar energy exists if and only if the spacetime possesses a global timelike Killing vector field $\xi^\mu$ ($\nabla_{(\mu}\xi_{\nu)} = 0$). On a generic, dynamically fluctuating curved spacetime, no such Killing symmetry exists. The motivating continuum conservation law is the local covariant divergence of stress-energy:
 $$
 \nabla_\mu T^{\mu\nu} = 0.
 $$
@@ -548,7 +668,7 @@ Integrating $\nabla_\mu T^{\mu\nu} = 0$ over a spacetime volume $\Omega$ with bo
 $$
 \int_\Omega \nabla_\mu T^{\mu 0} \, dV = \oint_{\partial \Omega} T^{i 0} \, d\Sigma_i + \int_\Omega \Gamma^\mu_{\mu \alpha} T^{\alpha 0} \, dV = 0.
 $$
-Total energy change inside the bulk is the sum of boundary flux AND interior gravitational polarization/stress backreaction.
+Continuum energy balance in curved spacetime decomposes into boundary flux plus bulk gravitational stress backreaction. On a discrete causal set, we establish the exact algebraic counterpart: an exact bulk-boundary additive bookkeeping decomposition across covering links that restores diamond confluence.
 
 ### 6.2 Interior Vacuum Polarization Backreaction and Total Hamiltonian
 On a finite causal set, adjoining a newborn vertex $x$ does not merely inject stress into newly created boundary links; it non-locally alters the Sorkin–Johnston vacuum covariance $W_{\rm SJ}$ across the entire interior bulk of the pre-existing poset!
@@ -565,17 +685,14 @@ $$
 H_{\rm field}(P) := \sum_{e \in \operatorname{Link}(P)} \mathcal{E}_{\rm fluc}(e; P).
 $$
 
-**Theorem 7 (Bulk-Boundary Divergence Balance & Relativistic Diamond Confluence) [PROVED THEOREM].**  
-*For every elementary birth $P \to P+S$, the total field Hamiltonian increment decomposes into boundary flux plus interior polarization backreaction:*
+**Theorem 7 (Bulk-Boundary Additive Bookkeeping Decomposition & Diamond Confluence) [PROVED THEOREM].**  
+*For every elementary birth $P \to P+S$, the total discrete field Hamiltonian increment satisfies the exact additive bookkeeping decomposition:*
 $$
-\Delta H_{\rm field}(P \to P+S) = \Phi_{\rm flux}(P \to P+S) + \Delta H_{\rm int}(P \to P+S) = H_{\rm field}(P+S) - H_{\rm field}(P).
+\Delta H_{\rm field}(P \to P+S) = \Phi_{\rm flux}(P \to P+S) + \Delta H_{\rm int}(P \to P+S) = H_{\rm field}(P+S) - H_{\rm field}(P),
 $$
-*Consequently, around every elementary growth diamond:*
-1. *The total field Hamiltonian change is an exact, path-independent state function:*
-   $$
-   \oint_{\rm diamond} \Delta H_{\rm field} = 0 \quad \text{identically};
-   $$
-2. *The boundary flux circulation is exactly balanced by the interior polarization curl:*
+*arising directly from the partition of covering links $\operatorname{Link}(P+S) = \operatorname{Link}(P) \sqcup \Delta \operatorname{Link}(P \to P+S)$. Consequently, around every elementary growth diamond:*
+1. *The total field Hamiltonian change telescopes to zero identically: $\oint_{\rm diamond} \Delta H_{\rm field} = 0$;*
+2. *The boundary flux circulation is algebraically balanced by the interior polarization curl:*
    $$
    \oint_{\rm diamond} \Phi_{\rm flux} + \oint_{\rm diamond} \Delta H_{\rm int} = 0 \iff \Delta \Phi_{\rm flux} = -\Delta(\Delta H_{\rm int}).
    $$
@@ -602,6 +719,9 @@ $$
 \oint_{\rm diamond} \Delta H_{\rm field} = (H(Q) - H(P_1) + H(P_1) - H(C)) - (H(Q) - H(P_2) + H(P_2) - H(C)) = (H(Q) - H(C)) - (H(Q) - H(C)) = 0.
 $$
 Substituting $\Delta H_{\rm field} = \Phi_{\rm flux} + \Delta H_{\rm int}$ yields $\oint_{\rm diamond} \Phi_{\rm flux} + \oint_{\rm diamond} \Delta H_{\rm int} = 0$. $\blacksquare$
+
+*Epistemic Status and Distinction from Continuum Conservation*:  
+Theorem 7 is an **exact additive bookkeeping decomposition** on the directed acyclic graph of causal set growth. It establishes that because the discrete field Hamiltonian $H_{\rm field}(P)$ is defined directly as a state function summing unrenormalized link fluctuations over covering links, its variation around any closed growth diamond telescopes algebraically to zero ($\oint_{\rm diamond} \Delta H_{\rm field} \equiv 0$). This guarantees diamond confluence in alignment with guideline `GD-01`. However, this discrete bookkeeping identity does NOT constitute a derived dynamical general relativistic conservation law $\nabla_\mu T^{\mu\nu} = 0$; genuine dynamical conservation in the Poisson sprinkling continuum limit remains an open problem (formally classified as Conjecture 1 in Section 6.4).
 
 ### 6.3 Exact Diamond Confluence and Discrete Stress Divergence
 We illustrate the exact cancellation on the canonical diamond $C_2 \to (V \text{ vs. } C_3) \to Q$:
@@ -673,6 +793,12 @@ Evaluated across all **5,230 child birth extensions** generated by adjoining a d
 - **Mode-Created Extensions ($K(P+S) = K(P) + 1$)**:
   - Observed in exactly **2,989 extensions** ($57.2\%$).
   - In all 2,989 instances, $v_S \notin \operatorname{range}(\Delta(P)) \iff \exists w \in \ker(\Delta(P))$ with $w^T v_S \ne 0$, strictly obstructing marginal preservation and activating the mode-isometric Fock CPTP lift.
+- **Universal Null-Space Activated Schur Extension ($W_\kappa(P)$ with $\kappa = 1.0$)**:
+  - Evaluated across all **5,230 / 5,230** extensions (both mode-preserving and mode-creating).
+  - In all 5,230 instances, decomposing $v_S = \Delta(P)z_\parallel + v_0$ yielded $c_S \in \operatorname{range}(W_\kappa(P))$ with $(v_j^*)^\dagger c_S = 0$ for all negative-frequency modes $\mathcal{H}_-(P)$, and the extended covariance $W_{\kappa, \operatorname{ext}}(P+S)$ with minimal newborn variance $\sigma_{x,\min}^2(\kappa) = \frac{1}{2}z_\parallel^T \lvert M(P)\rvert z_\parallel + \frac{1}{2\kappa}\lVert v_0\rVert_2^2$ satisfied complete positivity $W_{\kappa, \operatorname{ext}} \succeq 0$ and exact CCR $W_{\kappa, \operatorname{ext}} - W_{\kappa, \operatorname{ext}}^T = i\Delta(P+S)$ across **5,230 / 5,230** births.
+- **Null-Space Activated Spectral & Rank Theorem ($\operatorname{rank}(W_\kappa(P)) = N - K(P)$)**:
+  - Evaluated across all **5,231 / 5,231** posets ($N \le 6$).
+  - For every poset, $W_\kappa(P) - W_\kappa(P)^T = i\Delta(P)$ held with residual $< 10^{-10}$, the positive rank was exactly $N - K(P)$, the zero eigenspace had dimension exactly $K(P)$, and the kernel coincided identically with the negative-frequency subspace $\ker(W_\kappa(P)) = \mathcal{H}_-(P)$, proving $\operatorname{range}(W_\kappa(P)) = \mathcal{H}_+(P) \oplus \ker(\Delta(P))$ with zero violations.
 - **Exact Odd-to-Even 1D-Kernel Pfaffian Formula ($\operatorname{Pf}(\Delta(P+S)) = -w^T v_S$)**:
   - Verified with zero sign or magnitude error across all **3,486 / 3,486** odd-to-even 1D-kernel birth extensions ($N \in \{1, 3, 5\}$, $\dim\ker(\Delta(P)) = 1$).
 - **Exact Discrete Bogoliubov Mixing Equivalence ($\sum_{k,j}\lvert\beta_{kj}\rvert^2 > 0 \iff \Delta(P)v_S \ne 0$)**:
@@ -695,6 +821,10 @@ Evaluated across all **1,619 growth diamonds**, of which **441 are incomparable-
   - Maximum discrepancy: $\max \lvert\Delta H_{\rm diamond}\rvert = 0.936226$.
 - **Total Field Hamiltonian Confluence**:
   - For all 1,619 diamonds, the bulk-plus-boundary balance $\oint_{\rm diamond} (\Phi_{\rm flux} + \Delta H_{\rm int}) = 0$ held identically with numerical residual $< 10^{-12}$.
+- **Composable All-Horizon State Transition Census (`frontier_b_gaussian_state_transition.py`)**:
+  - Across all **2,241** mode-preserving births ($K(P+S) = K(P)$), symplectic congruence $B W(P) B^T$ preserved positivity, CCR, parent marginals, zero-mode annihilation, and non-decaying excitation propagation ($\operatorname{Tr}(\Delta W(P+S)) \ge \operatorname{Tr}(\Delta W(P))$).
+  - Across all **2,989** mode-creating births ($K(P+S) = K(P)+1$), canonical quadratures $(\hat{X}_{\rm new}, \hat{P}_{\rm new})$ satisfied $[\hat{X}_{\rm new}, \hat{P}_{\rm new}] = i\mathbf{1}$, decoupled from parent symplectic/zero modes, and matched the Albert–Schur minimal variance $\sigma_{x,\min}^2(\kappa)$.
+  - Across all **441** incomparable diamonds ($N \le 4$) under genuine two-step composable $\mathcal{T}_\kappa$ evolution, **441 / 441** preserved positivity, step-by-step causal marginals ($[W_{12}]_{P_1 \times P_1} = W_1$, $[W_{12}]_{P \times P} = W_0$), and exact CCR ($\operatorname{Im}(W_{12} - \tilde{W}_{21}) = 0$), with **281 / 441** ($63.7\%$) commuting identically ($W_{12} = \tilde{W}_{21}$) and **160 / 441** ($36.3\%$) exhibiting real symmetric ordering discrepancy starting at $P = C_2 \sqcup A_1$, alongside **200 / 200** multi-horizon 7-step trajectories ($N = 1 \to 8$) preserving all nested causal marginals $[W_8]_{P_m \times P_m} = W_m$.
 - **Adherence Rate**: **1,619 / 1,619 (100.0% PASS, 0 failures, 0 warnings)**.
 
 ### 7.3 Master Suite Execution Summary
@@ -748,4 +878,4 @@ In strict adherence to project governance:
 4. `docs/observables/record_compensated_quantum_order_conservation.md` (`PW2-B`)
 5. `docs/observables/all_horizon_two_way_feedback_and_growth.md` (`PW2-A`)
 6. `docs/observables/manifold_compatible_growth_scaling_and_dimension_stabilization.md` (`PW5-B`, `NG-02`)
-7. External Master Poset Scratch Verification Suite (`teamwork_master_verification/run_master_n_le_6_suite.py`, `check11_stage5b_pfaffian_cptp_flux_balance.py`, Checks 1–11)
+7. External Master Poset Scratch Verification Suite (`teamwork_master_verification/run_master_n_le_6_suite.py`, `check11_stage5b_pfaffian_cptp_flux_balance.py`, `frontier_b_gaussian_state_transition.py`, Checks 1–11)
