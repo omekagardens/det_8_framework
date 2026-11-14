@@ -38,15 +38,15 @@ The total number of unordered distinct vertex pairs in $P$ is given by the binom
 $$
 \binom{N}{2} = \frac{N(N-1)}{2}.
 $$
-The total number of causally comparable pairs in $P$ is given by the bilinear sum:
+The total number of causally comparable pairs in $P$ (1-chains) is given by the bilinear sum:
 $$
-C_2(P) := \sum_{u < v} (C_P)_{vu} = \mathbf{1}^T C_P \mathbf{1} = \sum_{u=0}^{N-1}\sum_{v=0}^{N-1} (C_P)_{uv},
+C_1(P) := \sum_{u < v} (C_P)_{vu} = \mathbf{1}^T C_P \mathbf{1} = \sum_{u=0}^{N-1}\sum_{v=0}^{N-1} (C_P)_{uv},
 $$
 where $\mathbf{1} = (1, 1, \dots, 1)^T \in \mathbb{R}^N$ is the all-ones vector.
 
 The intrinsic Myrheim–Meyer comparable-pair fraction $R_2(P)$ is defined as the dimensionless ratio:
 $$
-R_2(P) := \frac{C_2(P)}{\binom{N}{2}} = \frac{2\,\mathbf{1}^T C_P \mathbf{1}}{N(N-1)}.
+R_2(P) := \frac{C_1(P)}{\binom{N}{2}} = \frac{2\,\mathbf{1}^T C_P \mathbf{1}}{N(N-1)}.
 $$
 The fraction $R_2(P)$ satisfies the following structural properties:
 1. **Background-Free Invariance:** $R_2(P)$ depends solely on the abstract poset relation $\prec$. It is strictly invariant under arbitrary vertex relabelings (order automorphisms) and makes zero reference to embedding coordinates, metrics, or background spaces.
@@ -55,11 +55,11 @@ The fraction $R_2(P)$ satisfies the following structural properties:
    0 \le R_2(P) \le 1.
    $$
 3. **Extremal Configurations:**
-   - **Antichain $A_N$ (Completely Spacelike):** If no two elements are comparable ($u \not\prec v$ for all $u, v$), then $C_P = 0$ and $C_2(A_N) = 0$, yielding:
+   - **Antichain $A_N$ (Completely Spacelike):** If no two elements are comparable ($u \not\prec v$ for all $u, v$), then $C_P = 0$ and $C_1(A_N) = 0$, yielding:
      $$
      R_2(A_N) = 0.
      $$
-   - **Linear Chain $C_N$ (Completely Timelike):** If $P$ is a total order ($x_0 \prec x_1 \prec \dots \prec x_{N-1}$), then every distinct pair is comparable, so $C_2(C_N) = \binom{N}{2}$, yielding:
+   - **Linear Chain $C_N$ (Completely Timelike):** If $P$ is a total order ($x_0 \prec x_1 \prec \dots \prec x_{N-1}$), then every distinct pair is comparable, so $C_1(C_N) = \binom{N}{2}$, yielding:
      $$
      R_2(C_N) = 1.
      $$
@@ -357,7 +357,7 @@ C_k(P) := \mathbf{1}^T C_P^k \mathbf{1} = \sum_{u=0}^{N-1}\sum_{v=0}^{N-1} (C_P^
 $$
 
 The sequence of chain abundances satisfies fundamental algebraic properties:
-1. **First-Order Match:** For $k = 1$, $C_1(P) = \mathbf{1}^T C_P \mathbf{1} = C_2(P)$ is the total number of comparable pairs in $P$.
+1. **First-Order Match:** For $k = 1$, $C_1(P) = \mathbf{1}^T C_P \mathbf{1} = \binom{N}{2} R_2(P)$ is the total number of comparable pairs (1-chains) in $P$.
 2. **Second-Order Chains (Triangles):** For $k = 2$, $C_2(P) = \mathbf{1}^T C_P^2 \mathbf{1}$ counts all 2-chains $x_0 \prec x_1 \prec x_2$. This directly measures the total volume of all non-empty open causal intervals:
    $$
    C_2(P) = \sum_{v \prec u} \lvert I(v, u) \rvert, \qquad \text{where } I(v, u) = \{w \in V : v \prec w \prec u\}.
@@ -423,7 +423,7 @@ N_k := \mathbf{1}^T A_{k+1} \mathbf{1} = \sum_{u=0}^{N-1}\sum_{v=0}^{N-1} (A_{k+
 $$
 By definition, the sum of all layer abundances recovers the total comparable-pair count:
 $$
-\sum_{k=0}^{N-2} N_k = \mathbf{1}^T C_P \mathbf{1} = C_1(P) = C_2(P).
+\sum_{k=0}^{N-2} N_k = \mathbf{1}^T C_P \mathbf{1} = C_1(P).
 $$
 
 ### 4.2 Normalized Discrete Benincasa–Dowker d'Alembertian Operators
@@ -525,7 +525,7 @@ $$
   $$
   C_k(A_N) = \mathbf{1}^T C_{A_N}^k \mathbf{1} = 0.
   $$
-- The comparable-pair count is $C_1(A_N) = C_2(A_N) = 0$.
+- The comparable-pair count is $C_1(A_N) = 0$.
 - The comparable-pair fraction is:
   $$
   R_2(A_N) = \frac{0}{\binom{N}{2}} = 0.
@@ -837,7 +837,7 @@ $$
 
 At birth stage $n = 3$, the fourth newborn event $y$ (birth 4) selects its precursor ideal $I_y \in \mathcal{I}(P_3)$ according to the fifth-birth transition kernel parameterized by coupling constant $a_4 = 1/10$. Across the 15 structural rows of four-element causal histories:
 1. **Diamond-Like Continuations:**
-   When newborn $x$ selects $I_x = \{a\}$ (forming a branching fork with $b$), newborn $y$ selecting precursor ideal $I_y = \{b\}$ produces two mutually incomparable intermediate elements $x \parallel y$ with a common past parent $a$. If the subsequent continuation attaches a common future cap, or if $y$ caps $\{a, b\}$, the resulting four-element subgraph is isomorphic to $E_{\text{diamond}}$, characterized by $S_{\rm BD}^{(4)} = -16$.
+   When newborn $x$ selects $I_x = \{a\}$ (forming the 3-element branching fork $P_3 = V = \{a, b, x\}$ where intermediate elements $b \parallel x$ share common past parent $a$), newborn $y$ selecting the maximal precursor ideal $I_y = \{a, b, x\}$ caps both branches ($b \prec y$ and $x \prec y$), producing the four-element causal diamond $E_{\text{diamond}} = \{a, b, x, y\}$, characterized by $S_{\rm BD}^{(4)} = -16$.
 2. **Chain-Like Continuations:**
    When newborn $x$ selects $I_x = \{a, b\}$ (forming a linear 3-chain $a \prec b \prec x$), newborn $y$ selecting precursor ideal $I_y = \{a, b, x\}$ extends the order to the 4-chain $C_4$, characterized by $S_{\rm BD}^{(4)} = +3$.
 3. **Spacelike Continuations:**

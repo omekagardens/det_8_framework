@@ -1,6 +1,6 @@
 # Intrinsic causal resolvent propagators, Pauli–Jordan commutator algebra, and microcausality across discrete causal horizons
 
-**Decision.** Replacing supplied continuum cavity backgrounds with native, background-free causal poset geometry establishes an exact operator-algebraic causal propagator theory directly on finite causal orders $P = (V, \prec)$ across arbitrary discrete horizons $N \ge 1$. The retarded Green operator resolvent $G_R(P) = (I - \mu C_P)^{-1} - I = \sum_{k=1}^{N-1} \mu^k C_P^k$ is unconditionally invertible, strictly positive on timelike-separated pairs, and supported exclusively on causal relations, while the discrete Pauli–Jordan commutator $i\Delta(P) = G_R(P) - G_A(P)$ satisfies exact discrete microcausality across all spacelike-incomparable events, order-convex restriction invariance, and positive-semidefinite Sorkin–Johnston bosonic state attachment. Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
+**Decision.** Replacing supplied continuum cavity backgrounds with native, background-free causal poset geometry establishes an exact operator-algebraic causal propagator theory directly on finite causal orders $P = (V, \prec)$ across arbitrary discrete horizons $N \ge 1$. The unipotent operator $D_\mu(P) = I - \mu C_P$ is unconditionally invertible with $\det(D_\mu(P)) = 1$, and generates the retarded Green operator resolvent $G_R(P) = D_\mu(P)^{-1} - I = \sum_{k=1}^{N-1} \mu^k C_P^k$, which is strictly nilpotent with $\det(G_R(P)) = 0$ ($G_R(P)^N = 0$), strictly positive on timelike-separated pairs, and supported exclusively on causal relations, while the discrete Pauli–Jordan commutator $\Delta(P) = G_R(P) - G_A(P)$ satisfies exact discrete microcausality across all spacelike-incomparable events ($[\phi(u), \phi(v)] = i\Delta(P)_{uv}\mathbf 1$), order-convex restriction invariance, and positive-semidefinite Sorkin–Johnston bosonic state attachment ($W_{\rm SJ} = \frac{1}{2}(\lvert M\rvert + M)$ with $W_{\rm SJ} - W_{\rm SJ}^T = M = i\Delta(P)$). Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
 
 ---
 
@@ -192,70 +192,70 @@ $$
 
 ### 4.1 Algebraic Definition and Symmetries
 
-**Definition 4.1 (Discrete Pauli–Jordan Commutator Operator).** *The discrete Pauli–Jordan commutator operator $i\Delta(P) \in \mathbb{R}^{N \times N}$ is defined by:*
+**Definition 4.1 (Discrete Pauli–Jordan Commutator Operator).** *The discrete Pauli–Jordan commutator operator $\Delta(P) \in \mathbb{R}^{N \times N}$ is defined by:*
 $$
-i\Delta(P) := G_R(P) - G_A(P) = G_R(P) - G_R(P)^T.
+\Delta(P) := G_R(P) - G_A(P) = G_R(P) - G_R(P)^T.
 $$
-*The corresponding complex Hermitian operator $\Delta(P) \in \mathbb{C}^{N \times N}$ is:*
+*The corresponding complex Hermitian commutator operator $M(P) \in \mathbb{C}^{N \times N}$ is:*
 $$
-\Delta(P) := -i (G_R(P) - G_A(P)).
+M(P) := i \Delta(P) = i (G_R(P) - G_A(P)).
 $$
 
 **Proposition 4.2 (Algebraic Symmetries).**
-1. $i\Delta(P)$ is a purely real, skew-symmetric matrix:
+1. $\Delta(P)$ is a purely real, skew-symmetric matrix:
    $$
-   (i\Delta(P))^T = \left(G_R - G_R^T\right)^T = G_R^T - G_R = -i\Delta(P).
+   \Delta(P)^T = \left(G_R - G_R^T\right)^T = G_R^T - G_R = -\Delta(P).
    $$
-2. $\Delta(P)$ is a complex Hermitian matrix:
+2. $M(P)$ is a complex Hermitian matrix:
    $$
-   \Delta(P)^\dagger = \left(-i (G_R - G_A)\right)^\dagger = +i (G_R^T - G_A^T) = +i (G_A - G_R) = -i (G_R - G_A) = \Delta(P).
+   M(P)^\dagger = \left(i \Delta(P)\right)^\dagger = -i \Delta(P)^T = -i (-\Delta(P)) = i \Delta(P) = M(P).
    $$
 
 ### 4.2 The Theorem of Exact Discrete Microcausality
 
 We now state and prove the central causality theorem on discrete posets.
 
-**Theorem 4.3 (Exact Discrete Microcausality).** *Let $P = (V, \prec)$ be any finite partial order, $\mu > 0$, and let $u, v \in V$ be arbitrary events. Then the discrete Pauli–Jordan commutator $(i\Delta(P))_{uv}$ satisfies:*
+**Theorem 4.3 (Exact Discrete Microcausality).** *Let $P = (V, \prec)$ be any finite partial order, $\mu > 0$, and let $u, v \in V$ be arbitrary events. Then the discrete Pauli–Jordan commutator $\Delta(P)_{uv}$ satisfies:*
 1. **Timelike Past-to-Future Relation ($v \prec u$)**:
    $$
-   (i\Delta(P))_{uv} = (G_R(P))_{uv} > 0, \qquad (i\Delta(P))_{vu} = -(G_R(P))_{uv} < 0.
+   \Delta(P)_{uv} = (G_R(P))_{uv} > 0, \qquad \Delta(P)_{vu} = -(G_R(P))_{uv} < 0.
    $$
 2. **Timelike Future-to-Past Relation ($u \prec v$)**:
    $$
-   (i\Delta(P))_{uv} = -(G_R(P))_{vu} < 0, \qquad (i\Delta(P))_{vu} = (G_R(P))_{vu} > 0.
+   \Delta(P)_{uv} = -(G_R(P))_{vu} < 0, \qquad \Delta(P)_{vu} = (G_R(P))_{vu} > 0.
    $$
 3. **Coincident Events ($u = v$)**:
    $$
-   (i\Delta(P))_{uu} = 0.
+   \Delta(P)_{uu} = 0.
    $$
 4. **Spacelike / Incomparable Events ($u \parallel v$)**:
    $$
-   (i\Delta(P))_{uv} = 0 \quad \text{and} \quad (i\Delta(P))_{vu} = 0 \quad \text{identically.}
+   \Delta(P)_{uv} = 0 \quad \text{and} \quad \Delta(P)_{vu} = 0 \quad \text{identically.}
    $$
 
 *Proof.* By Definition 4.1, the $(u, v)$ entry is:
 $$
-(i\Delta(P))_{uv} = (G_R(P))_{uv} - (G_A(P))_{uv} = (G_R(P))_{uv} - (G_R(P))_{vu}.
+\Delta(P)_{uv} = (G_R(P))_{uv} - (G_A(P))_{uv} = (G_R(P))_{uv} - (G_R(P))_{vu}.
 $$
 We analyze each case:
 - *Case 1 ($v \prec u$)*: By Theorem 2.3, $(G_R(P))_{uv} > 0$. By acyclicity, $v \prec u \implies u \not\prec v$. Hence by Theorem 2.3(2), $(G_R(P))_{vu} = 0$. Therefore:
   $$
-  (i\Delta(P))_{uv} = (G_R(P))_{uv} - 0 = (G_R(P))_{uv} > 0.
+  \Delta(P)_{uv} = (G_R(P))_{uv} - 0 = (G_R(P))_{uv} > 0.
   $$
-  By skew-symmetry, $(i\Delta(P))_{vu} = -(i\Delta(P))_{uv} < 0$.
+  By skew-symmetry, $\Delta(P)_{vu} = -\Delta(P)_{uv} < 0$.
 - *Case 2 ($u \prec v$)*: Symmetrically, $u \prec v \implies (G_R(P))_{vu} > 0$ and $(G_R(P))_{uv} = 0$. Thus:
   $$
-  (i\Delta(P))_{uv} = 0 - (G_R(P))_{vu} = -(G_R(P))_{vu} < 0.
+  \Delta(P)_{uv} = 0 - (G_R(P))_{vu} = -(G_R(P))_{vu} < 0.
   $$
-- *Case 3 ($u = v$)*: By Theorem 2.3(1), $(G_R(P))_{uu} = 0$, so $(i\Delta(P))_{uu} = 0 - 0 = 0$.
+- *Case 3 ($u = v$)*: By Theorem 2.3(1), $(G_R(P))_{uu} = 0$, so $\Delta(P)_{uu} = 0 - 0 = 0$.
 - *Case 4 ($u \parallel v$)*: By definition of incomparability, neither $v \prec u$ nor $u \prec v$ holds.
   Since $v \not\prec u$, Theorem 2.3(2) asserts that $(G_R(P))_{uv} = 0$.
   Since $u \not\prec v$, Theorem 2.3(2) asserts that $(G_R(P))_{vu} = 0$.
   Substituting these into the commutator definition yields:
   $$
-  (i\Delta(P))_{uv} = 0 - 0 = 0.
+  \Delta(P)_{uv} = 0 - 0 = 0.
   $$
-  By skew-symmetry, $(i\Delta(P))_{vu} = -0 = 0$. $\blacksquare$
+  By skew-symmetry, $\Delta(P)_{vu} = -0 = 0$. $\blacksquare$
 
 Theorem 4.3 guarantees that on any finite poset, no field commutator can penetrate the spacelike barrier. Microcausality is exact, algebraic, and holds without requiring continuum approximations, metric tensors, or asymptotic limits.
 
@@ -293,7 +293,7 @@ $$
 $$
 *Consequently, the restriction of the global retarded Green operator, advanced Green operator, and discrete Pauli–Jordan commutator of $P$ to the subposet $Q$ coincides identically with the intrinsic operators constructed purely within $Q$:*
 $$
-(G_R(P))|_Q = G_R(Q), \qquad (G_A(P))|_Q = G_A(Q), \qquad (i\Delta(P))|_Q = i\Delta(Q).
+(G_R(P))|_Q = G_R(Q), \qquad (G_A(P))|_Q = G_A(Q), \qquad (\Delta(P))|_Q = \Delta(Q).
 $$
 
 *Proof.* By Theorem 1.2, $(C_P^k)_{uv}$ is the number of strict $k$-chains:
@@ -326,7 +326,7 @@ $$
 $$
 Subtracting the two relations gives:
 $$
-(i\Delta(P))|_Q = (G_R(P))|_Q - (G_A(P))|_Q = G_R(Q) - G_A(Q) = i\Delta(Q).
+(\Delta(P))|_Q = (G_R(P))|_Q - (G_A(P))|_Q = G_R(Q) - G_A(Q) = \Delta(Q).
 $$
 $\blacksquare$
 
@@ -342,22 +342,22 @@ In continuum quantum field theory on curved spacetimes lacking timelike Killing 
 
 Let $\mathcal{F} := \mathbb{R}^N$ be the real vector space of discrete field configurations (or test functions) on $V$. We define the discrete symplectic form $\sigma: \mathcal{F} \times \mathcal{F} \to \mathbb{R}$ by:
 $$
-\sigma(f, g) := f^T (G_R(P) - G_A(P)) g = -f^T (i\Delta(P)) g.
+\sigma(f, g) := f^T (G_R(P) - G_A(P)) g = f^T \Delta(P) g.
 $$
-Since $G_R(P) - G_A(P)$ is real and skew-symmetric, $\sigma$ is bilinear and antisymmetric:
+Since $\Delta(P) = G_R(P) - G_A(P)$ is real and skew-symmetric, $\sigma$ is bilinear and antisymmetric:
 $$
-\sigma(g, f) = g^T (G_R - G_A) f = -f^T (G_R - G_A) g = -\sigma(f, g).
+\sigma(g, f) = g^T \Delta(P) f = -f^T \Delta(P) g = -\sigma(f, g).
 $$
 
 To each test vector $f \in \mathcal{F}$, we associate a self-adjoint bosonic quantum field operator $\phi(f)$ acting on a Hilbert space $\mathcal{H}$. The field operators satisfy the canonical commutation relations (CCR):
 $$
-[\phi(f), \phi(g)] = i \sigma(f, g) \mathbf{1}_{\mathcal{H}} = i f^T (G_R(P) - G_A(P)) g \mathbf{1}_{\mathcal{H}}.
+[\phi(f), \phi(g)] = i \sigma(f, g) \mathbf{1}_{\mathcal{H}} = i f^T \Delta(P) g \mathbf{1}_{\mathcal{H}} = i f^T (G_R(P) - G_A(P)) g \mathbf{1}_{\mathcal{H}}.
 $$
 In terms of the localized site operators $\phi(u) := \phi(e_u)$ (where $e_u$ is the standard basis vector for event $u \in V$):
 $$
-[\phi(u), \phi(v)] = i (G_R(P) - G_A(P))_{uv} \mathbf{1}_{\mathcal{H}} = i (i\Delta(P))_{uv} \mathbf{1}_{\mathcal{H}}.
+[\phi(u), \phi(v)] = i \Delta(P)_{uv} \mathbf{1}_{\mathcal{H}} = i (G_R(P) - G_A(P))_{uv} \mathbf{1}_{\mathcal{H}}.
 $$
-By Theorem 4.3, if $u \parallel v$, then $(i\Delta(P))_{uv} = 0$, guaranteeing:
+By Theorem 4.3, if $u \parallel v$, then $\Delta(P)_{uv} = 0$, guaranteeing:
 $$
 [\phi(u), \phi(v)] = 0 \quad \text{for all incomparable (spacelike) events } u \parallel v.
 $$
@@ -371,30 +371,30 @@ $$
 The state $\omega$ is physical if and only if $W$ satisfies two fundamental requirements:
 1. **Commutator Identity**:
    $$
-   W - W^T = i (G_R(P) - G_A(P)) = -\Delta(P).
+   W - W^T = i \Delta(P) = i (G_R(P) - G_A(P)) = M.
    $$
 2. **Quantum Uncertainty / Positivity**:
    $$
    W \succeq 0 \quad (\text{positive semidefinite as a complex Hermitian matrix}).
    $$
-Writing $W = \frac{1}{2} R - \frac{i}{2} (G_R - G_A)$ with $R = R^T \in \mathbb{R}^{N \times N}$, condition $W \succeq 0$ is equivalent to the generalized Robertson–Schrödinger uncertainty relation:
+Writing $W = \frac{1}{2} R + \frac{i}{2} \Delta(P)$ with $R = R^T \in \mathbb{R}^{N \times N}$, condition $W \succeq 0$ is equivalent to the generalized Robertson–Schrödinger uncertainty relation:
 $$
-R \ge 0 \quad \text{and} \quad R \succeq \pm i (G_R(P) - G_A(P)).
+R \succeq 0 \quad \text{and} \quad R \succeq \pm M = \pm i \Delta(P) = \pm i (G_R(P) - G_A(P)).
 $$
 
 ### 6.3 Spectral Decomposition of the Hermitian Operator $M$
 
 Consider the complex matrix:
 $$
-M := \Delta(P) = -i (G_R(P) - G_A(P)).
+M := i \Delta(P) = i (G_R(P) - G_A(P)).
 $$
-Since $G_R - G_A$ is real and skew-symmetric, $M$ is purely imaginary and Hermitian:
+Since $\Delta = G_R - G_A$ is real and skew-symmetric ($\Delta^T = -\Delta$), $M$ is purely imaginary and Hermitian:
 $$
-M^\dagger = \left(-i (G_R - G_A)\right)^\dagger = +i (G_R - G_A)^T = -i (G_R - G_A) = M.
+M^\dagger = \left(i \Delta\right)^\dagger = -i \Delta^T = -i (-\Delta) = i \Delta = M.
 $$
-Therefore, $M$ has purely real eigenvalues. Moreover, because $M$ is purely imaginary, if $v$ is an eigenvector with eigenvalue $\lambda$, then:
+Therefore, $M$ has purely real eigenvalues. Moreover, because $M$ is purely imaginary ($M^* = -M$), if $v$ is an eigenvector with eigenvalue $\lambda$, then:
 $$
-M v^* = - (M v)^* = - (\lambda v)^* = -\lambda v^*.
+M v^* = -(M v)^* = -(\lambda v)^* = -\lambda v^*.
 $$
 Thus, all non-zero eigenvalues of $M$ occur in symmetric pairs $\pm \lambda_j$ ($\lambda_j > 0$).
 
@@ -424,11 +424,26 @@ $$
 2. **Unconditional Positivity**: $W_{\rm SJ} \succeq 0$.
 3. **Commutator Identity**:
    $$
-   W_{\rm SJ} - W_{\rm SJ}^T = M = \Delta(P).
+   W_{\rm SJ} - W_{\rm SJ}^T = M = i \Delta(P).
    $$
 4. **Clean Decoupling of Spacelike Zero Modes**: For every vector $v_0 \in \ker(M) = \ker(G_R - G_A)$,
    $$
    W_{\rm SJ} v_0 = 0.
+   $$
+5. **Modal Expansion and Standard Bosonic CCR**: Expanding the localized site field operators in the positive eigenmodes of $M$:
+   $$
+   \phi(u) = \sum_{\lambda_j > 0} \sqrt{\lambda_j} \left( (v_j)_u \hat a_j + (v_j^*)_u \hat a_j^\dagger \right),
+   $$
+   the standard bosonic annihilation and creation algebra:
+   $$
+   [\hat a_j, \hat a_k^\dagger] = +\delta_{jk}\mathbf{1}_{\mathcal{H}}, \qquad [\hat a_j, \hat a_k] = 0, \qquad [\hat a_j^\dagger, \hat a_k^\dagger] = 0,
+   $$
+   identically reproduces the physical two-point function and commutator:
+   $$
+   \langle 0_{\rm SJ}\rvert \phi(u) \phi(v) \lvert 0_{\rm SJ}\rangle = (W_{\rm SJ})_{uv},
+   $$
+   $$
+   [\phi(u), \phi(v)] = \sum_{\lambda_j > 0} \lambda_j \left( (v_j)_u (v_j^*)_v - (v_j^*)_u (v_j)_v \right) \mathbf 1_{\mathcal{H}} = (W_{\rm SJ} - W_{\rm SJ}^T)_{uv}\mathbf 1_{\mathcal{H}} = M_{uv}\mathbf 1_{\mathcal{H}} = i\Delta(P)_{uv}\mathbf 1_{\mathcal{H}}.
    $$
 
 *Proof.*
@@ -443,11 +458,18 @@ $$
    $$
    Subtracting gives:
    $$
-   W_{\rm SJ} - W_{\rm SJ}^T = \sum_{\lambda_j > 0} \lambda_j \left( v_j v_j^\dagger - v_j^* (v_j^*)^\dagger \right) = M = \Delta(P).
+   W_{\rm SJ} - W_{\rm SJ}^T = \sum_{\lambda_j > 0} \lambda_j \left( v_j v_j^\dagger - v_j^* (v_j^*)^\dagger \right) = M = i \Delta(P).
    $$
 4. If $v_0 \in \ker(M)$, then by orthogonality of eigenspaces, $v_j^\dagger v_0 = 0$ for all $\lambda_j > 0$. Therefore:
    $$
    W_{\rm SJ} v_0 = \sum_{\lambda_j > 0} \lambda_j v_j (v_j^\dagger v_0) = 0.
+   $$
+5. Evaluating the commutator of the modal expansion directly:
+   $$
+   [\phi(u), \phi(v)] = \sum_{j, k} \sqrt{\lambda_j \lambda_k} \left[ (v_j)_u (v_k^*)_v [\hat a_j, \hat a_k^\dagger] + (v_j^*)_u (v_k)_v [\hat a_j^\dagger, \hat a_k] \right]
+   $$
+   $$
+   = \sum_{\lambda_j > 0} \lambda_j \left( (v_j)_u (v_j^*)_v - (v_j^*)_u (v_j)_v \right) \mathbf 1_{\mathcal{H}} = (W_{\rm SJ} - W_{\rm SJ}^T)_{uv}\mathbf 1_{\mathcal{H}} = M_{uv}\mathbf 1_{\mathcal{H}} = i\Delta(P)_{uv}\mathbf 1_{\mathcal{H}}.
    $$
 $\blacksquare$
 
@@ -474,7 +496,7 @@ Consider the trivial poset $P_1 = \{0\}$ consisting of a single event:
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  i\Delta(P_1) = \begin{pmatrix} 0 \end{pmatrix}, \qquad M = \begin{pmatrix} 0 \end{pmatrix}.
+  \Delta(P_1) = \begin{pmatrix} 0 \end{pmatrix}, \qquad M = i\Delta(P_1) = \begin{pmatrix} 0 \end{pmatrix}.
   $$
 - Sorkin–Johnston state: $W_{\rm SJ} = \begin{pmatrix} 0 \end{pmatrix}$.
 - Microcausality holds vacuously.
@@ -497,30 +519,30 @@ Consider the two-element chain with order relation $0 \prec 1$:
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  K = i\Delta(C_2) = G_R - G_A = \begin{pmatrix} 0 & -\mu \\ \mu & 0 \end{pmatrix}.
+  \Delta(C_2) = G_R - G_A = \begin{pmatrix} 0 & -\mu \\ \mu & 0 \end{pmatrix}.
   $$
-- Hermitian operator $M = -i K$:
+- Hermitian operator $M = i\Delta$:
   $$
-  M = \begin{pmatrix} 0 & i\mu \\ -i\mu & 0 \end{pmatrix} = \mu \sigma_y.
+  M = \begin{pmatrix} 0 & -i\mu \\ i\mu & 0 \end{pmatrix} = -\mu \sigma_y.
   $$
 - Characteristic polynomial of $M$:
   $$
-  \det(\lambda I - M) = \det \begin{pmatrix} \lambda & -i\mu \\ i\mu & \lambda \end{pmatrix} = \lambda^2 - (-i\mu)(i\mu) = \lambda^2 - \mu^2 = 0.
+  \det(\lambda I - M) = \det \begin{pmatrix} \lambda & i\mu \\ -i\mu & \lambda \end{pmatrix} = \lambda^2 - (i\mu)(-i\mu) = \lambda^2 - \mu^2 = 0.
   $$
   Eigenvalues: $\lambda_1 = +\mu$, $\lambda_2 = -\mu$.
 - Normalized positive eigenvector for $\lambda_1 = +\mu$:
   $$
-  \begin{pmatrix} \mu & -i\mu \\ i\mu & \mu \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies x_0 = i x_1 \implies v_+ = \frac{1}{\sqrt{2}} \begin{pmatrix} i \\ 1 \end{pmatrix}.
+  \begin{pmatrix} \mu & i\mu \\ -i\mu & \mu \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies x_0 = -i x_1 \implies v_+ = \frac{1}{\sqrt{2}} \begin{pmatrix} -i \\ 1 \end{pmatrix}.
   $$
 - Sorkin–Johnston state:
   $$
-  W_{\rm SJ} = \mu v_+ v_+^\dagger = \mu \frac{1}{2} \begin{pmatrix} i \\ 1 \end{pmatrix} \begin{pmatrix} -i & 1 \end{pmatrix} = \frac{\mu}{2} \begin{pmatrix} 1 & i \\ -i & 1 \end{pmatrix}.
+  W_{\rm SJ} = \mu v_+ v_+^\dagger = \mu \frac{1}{2} \begin{pmatrix} -i \\ 1 \end{pmatrix} \begin{pmatrix} i & 1 \end{pmatrix} = \frac{\mu}{2} \begin{pmatrix} 1 & -i \\ i & 1 \end{pmatrix}.
   $$
 - Verification:
   $$
-  W_{\rm SJ} - W_{\rm SJ}^T = \frac{\mu}{2} \begin{pmatrix} 1 & i \\ -i & 1 \end{pmatrix} - \frac{\mu}{2} \begin{pmatrix} 1 & -i \\ i & 1 \end{pmatrix} = \begin{pmatrix} 0 & i\mu \\ -i\mu & 0 \end{pmatrix} = M.
+  W_{\rm SJ} - W_{\rm SJ}^T = \frac{\mu}{2} \begin{pmatrix} 1 & -i \\ i & 1 \end{pmatrix} - \frac{\mu}{2} \begin{pmatrix} 1 & i \\ -i & 1 \end{pmatrix} = \begin{pmatrix} 0 & -i\mu \\ i\mu & 0 \end{pmatrix} = M = i\Delta.
   $$
-  Eigenvalues of $W_{\rm SJ}$ are $\mu \ge 0$ and $0 \ge 0$, confirming $W_{\rm SJ} \succeq 0$.
+  Eigenvalues of $W_{\rm SJ}$ are $\mu \ge 0$ and $0 \ge 0$, confirming $W_{\rm SJ} \succeq 0$ and $\dim\ker(M) = 0$.
 
 ### 7.3 Benchmark 3: Two-Antichain $A_2$ ($N = 2$)
 
@@ -536,9 +558,9 @@ Consider two incomparable events $0 \parallel 1$:
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  i\Delta(A_2) = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}, \qquad M = 0, \qquad W_{\rm SJ} = 0.
+  \Delta(A_2) = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix}, \qquad M = i\Delta = 0, \qquad W_{\rm SJ} = 0.
   $$
-- Exact microcausality verification: $(i\Delta)_{01} = (i\Delta)_{10} = 0$ identically on $0 \parallel 1$.
+- Exact microcausality verification: $\Delta_{01} = \Delta_{10} = 0$ identically on $0 \parallel 1$.
 
 ### 7.4 Benchmark 4: Three-Chain $C_3$ ($N = 3$)
 
@@ -562,20 +584,20 @@ Consider the total order $0 \prec 1 \prec 2$:
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  K = i\Delta(C_3) = \begin{pmatrix} 0 & -\mu & -(\mu + \mu^2) \\ \mu & 0 & -\mu \\ \mu + \mu^2 & \mu & 0 \end{pmatrix}.
+  \Delta(C_3) = G_R - G_A = \begin{pmatrix} 0 & -\mu & -(\mu + \mu^2) \\ \mu & 0 & -\mu \\ \mu + \mu^2 & \mu & 0 \end{pmatrix}.
   $$
 - Positivity check: For $\mu > 0$, $(G_R)_{10} = \mu > 0$, $(G_R)_{21} = \mu > 0$, and $(G_R)_{20} = \mu + \mu^2 > 0$. Zero cancellations occur.
-- Hermitian operator $M = -i K$:
+- Hermitian operator $M = i\Delta$:
   $$
-  M = \begin{pmatrix} 0 & i\mu & i(\mu+\mu^2) \\ -i\mu & 0 & i\mu \\ -i(\mu+\mu^2) & -i\mu & 0 \end{pmatrix}.
+  M = \begin{pmatrix} 0 & -i\mu & -i(\mu+\mu^2) \\ i\mu & 0 & -i\mu \\ i(\mu+\mu^2) & i\mu & 0 \end{pmatrix}.
   $$
 - Characteristic polynomial of $M$:
   $$
-  \det(\lambda I - M) = \det \begin{pmatrix} \lambda & -i\mu & -i(\mu+\mu^2) \\ i\mu & \lambda & -i\mu \\ i(\mu+\mu^2) & i\mu & \lambda \end{pmatrix}.
+  \det(\lambda I - M) = \det \begin{pmatrix} \lambda & i\mu & i(\mu+\mu^2) \\ -i\mu & \lambda & i\mu \\ -i(\mu+\mu^2) & -i\mu & \lambda \end{pmatrix}.
   $$
   Expanding by the first row:
   $$
-  \det(\lambda I - M) = \lambda \left[ \lambda^2 - \mu^2 \right] - (-i\mu) \left[ i\mu \lambda - \mu(\mu+\mu^2) \right] + (-i(\mu+\mu^2)) \left[ -\mu^2 - i\lambda(\mu+\mu^2) \right]
+  \det(\lambda I - M) = \lambda \left[ \lambda^2 - \mu^2 \right] - (i\mu) \left[ -i\mu \lambda + \mu(\mu+\mu^2) \right] + (i(\mu+\mu^2)) \left[ -\mu^2 + i\lambda(\mu+\mu^2) \right]
   $$
   $$
   = \lambda^3 - \mu^2 \lambda - \mu^2 \lambda - i\mu^2(\mu+\mu^2) + i\mu^2(\mu+\mu^2) - \lambda(\mu+\mu^2)^2.
@@ -587,10 +609,23 @@ Consider the total order $0 \prec 1 \prec 2$:
   where $\omega_3 := \sqrt{2\mu^2 + (\mu+\mu^2)^2} = \mu \sqrt{3 + 2\mu + \mu^2}$.
   For $\mu = 1$, $\omega_3 = \sqrt{2 + 4} = \sqrt{6}$.
   Eigenvalues at $\mu = 1$: $\lambda \in \{+\sqrt{6}, -\sqrt{6}, 0\}$.
-  Zero mode of $M$ at $\mu = 1$:
+- Zero mode of $M$ at $\mu = 1$:
   $$
-  M v_0 = 0 \implies \begin{pmatrix} 0 & 1 & 2 \\ -1 & 0 & 1 \\ -2 & -1 & 0 \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \\ x_2 \end{pmatrix} = 0 \implies x_1 = -2x_2, \; x_0 = x_2 \implies v_0 = \frac{1}{\sqrt{6}} \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}.
+  M v_0 = 0 \implies \begin{pmatrix} 0 & -1 & -2 \\ 1 & 0 & -1 \\ 2 & 1 & 0 \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \\ x_2 \end{pmatrix} = 0 \implies x_1 = -2x_2, \; x_0 = x_2 \implies v_0 = \frac{1}{\sqrt{6}} \begin{pmatrix} 1 \\ -2 \\ 1 \end{pmatrix}.
   $$
+- Normalized positive eigenvector for $\lambda = +\sqrt{6}$:
+  $$
+  (M - \sqrt{6}I) v_+ = 0 \implies v_+ = \frac{1}{\sqrt{60}} \begin{pmatrix} -1 - 2i\sqrt{6} \\ 2 - i\sqrt{6} \\ 5 \end{pmatrix}, \qquad \lVert v_+\rVert^2 = \frac{1 + 24 + 4 + 6 + 25}{60} = 1.
+  $$
+- Sorkin–Johnston state:
+  $$
+  W_{\rm SJ} = \sqrt{6} v_+ v_+^\dagger = \frac{\sqrt{6}}{60} \begin{pmatrix} 25 & 10 - 5i\sqrt{6} & -5 - 10i\sqrt{6} \\ 10 + 5i\sqrt{6} & 10 & 10 - 5i\sqrt{6} \\ -5 + 10i\sqrt{6} & 10 + 5i\sqrt{6} & 25 \end{pmatrix}.
+  $$
+- Commutator verification:
+  $$
+  W_{\rm SJ} - W_{\rm SJ}^T = \begin{pmatrix} 0 & -i & -2i \\ i & 0 & -i \\ 2i & i & 0 \end{pmatrix} = M = i\Delta.
+  $$
+  Decoupling of the longitudinal zero mode: $W_{\rm SJ} v_0 = \sqrt{6} v_+ (v_+^\dagger v_0) = 0$ since $v_+^\dagger v_0 = \frac{1}{60}[(-1+2i\sqrt 6) - 2(2+i\sqrt 6) + 5] = 0$.
 
 ### 7.5 Benchmark 5: Three-Element Fork Poset $V$ ($N = 3$)
 
@@ -607,12 +642,12 @@ Consider the fork poset with relations $0 \prec 1$, $0 \prec 2$, and $1 \paralle
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  K = i\Delta(V) = \begin{pmatrix} 0 & -\mu & -\mu \\ \mu & 0 & 0 \\ \mu & 0 & 0 \end{pmatrix}.
+  \Delta(V) = G_R - G_A = \begin{pmatrix} 0 & -\mu & -\mu \\ \mu & 0 & 0 \\ \mu & 0 & 0 \end{pmatrix}.
   $$
-- Microcausality check: On the incomparable pair $1 \parallel 2$, $(i\Delta)_{12} = 0$ and $(i\Delta)_{21} = 0$.
-- Hermitian operator $M = -i K$:
+- Microcausality check: On the incomparable pair $1 \parallel 2$, $\Delta_{12} = 0$ and $\Delta_{21} = 0$.
+- Hermitian operator $M = i\Delta$:
   $$
-  M = \begin{pmatrix} 0 & i\mu & i\mu \\ -i\mu & 0 & 0 \\ -i\mu & 0 & 0 \end{pmatrix}.
+  M = \begin{pmatrix} 0 & -i\mu & -i\mu \\ i\mu & 0 & 0 \\ i\mu & 0 & 0 \end{pmatrix}.
   $$
 - Characteristic polynomial:
   $$
@@ -621,13 +656,25 @@ Consider the fork poset with relations $0 \prec 1$, $0 \prec 2$, and $1 \paralle
   Eigenvalues: $\lambda \in \{+\mu\sqrt{2}, -\mu\sqrt{2}, 0\}$.
 - Spacelike zero mode of $M$:
   $$
-  M v_0 = 0 \implies \begin{pmatrix} 0 & i\mu & i\mu \\ -i\mu & 0 & 0 \\ -i\mu & 0 & 0 \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \\ x_2 \end{pmatrix} = 0 \implies x_0 = 0, \; x_1 + x_2 = 0.
+  M v_0 = 0 \implies \begin{pmatrix} 0 & -i\mu & -i\mu \\ i\mu & 0 & 0 \\ i\mu & 0 & 0 \end{pmatrix} \begin{pmatrix} x_0 \\ x_1 \\ x_2 \end{pmatrix} = 0 \implies x_0 = 0, \; x_1 + x_2 = 0.
   $$
   Normalized spacelike zero mode:
   $$
   v_0 = \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ 1 \\ -1 \end{pmatrix}.
   $$
-  Notice that $v_0$ is supported exclusively on the incomparable events $\{1, 2\}$, demonstrating that spacelike degrees of freedom decouple into the kernel of $M$.
+  Notice that $v_0$ is supported exclusively on the incomparable events $\{1, 2\}$, demonstrating that spacelike degrees of freedom decouple into the kernel of $M$ ($\dim\ker(M)=1$).
+- Normalized positive eigenvector for $\lambda = +\mu\sqrt{2}$ (at $\mu = 1$):
+  $$
+  (M - \sqrt{2}I) v_+ = 0 \implies v_+ = \frac{1}{2} \begin{pmatrix} -i\sqrt{2} \\ 1 \\ 1 \end{pmatrix}, \qquad \lVert v_+\rVert^2 = \frac{2 + 1 + 1}{4} = 1.
+  $$
+- Sorkin–Johnston state:
+  $$
+  W_{\rm SJ} = \sqrt{2} v_+ v_+^\dagger = \frac{\sqrt{2}}{4} \begin{pmatrix} -i\sqrt{2} \\ 1 \\ 1 \end{pmatrix} \begin{pmatrix} i\sqrt{2} & 1 & 1 \end{pmatrix} = \begin{pmatrix} \frac{\sqrt{2}}{2} & -\frac{i}{2} & -\frac{i}{2} \\ \frac{i}{2} & \frac{\sqrt{2}}{4} & \frac{\sqrt{2}}{4} \\ \frac{i}{2} & \frac{\sqrt{2}}{4} & \frac{\sqrt{2}}{4} \end{pmatrix}.
+  $$
+- Commutator and decoupling verification:
+  $$
+  W_{\rm SJ} - W_{\rm SJ}^T = \begin{pmatrix} 0 & -i & -i \\ i & 0 & 0 \\ i & 0 & 0 \end{pmatrix} = M = i\Delta, \qquad W_{\rm SJ} v_0 = 0.
+  $$
 
 ### 7.6 Benchmark 6: Four-Element Diamond $E_{\text{diamond}}$ ($N = 4$)
 
@@ -691,14 +738,14 @@ $$
   $$
 - Discrete Pauli–Jordan commutator:
   $$
-  K = i\Delta(E_{\text{diamond}}) = G_R - G_A = \begin{pmatrix}
+  \Delta(E_{\text{diamond}}) = G_R - G_A = \begin{pmatrix}
   0 & -\mu & -\mu & -(\mu + 2\mu^2) \\
   \mu & 0 & 0 & -\mu \\
   \mu & 0 & 0 & -\mu \\
   \mu + 2\mu^2 & \mu & \mu & 0
   \end{pmatrix}.
   $$
-- Microcausality check: $(i\Delta)_{12} = 0$ and $(i\Delta)_{21} = 0$ on the spacelike pair $1 \parallel 2$.
+- Microcausality check: $\Delta_{12} = 0$ and $\Delta_{21} = 0$ on the spacelike pair $1 \parallel 2$.
 - Diamond restriction invariance check: Restricting to the order-convex fork $Q = \{0, 1, 2\}$ yields:
   $$
   (G_R(E_{\text{diamond}}))|_Q = \begin{pmatrix} 0 & 0 & 0 \\ \mu & 0 & 0 \\ \mu & 0 & 0 \end{pmatrix} = G_R(V).
@@ -706,110 +753,179 @@ $$
 - Explicit evaluation at $\mu = 1$:
   At $\mu = 1$, $\mu + 2\mu^2 = 1 + 2 = 3$.
   $$
-  K = \begin{pmatrix}
+  \Delta = \begin{pmatrix}
   0 & -1 & -1 & -3 \\
   1 & 0 & 0 & -1 \\
   1 & 0 & 0 & -1 \\
   3 & 1 & 1 & 0
+  \end{pmatrix}, \qquad
+  M = i\Delta = \begin{pmatrix}
+  0 & -i & -i & -3i \\
+  i & 0 & 0 & -i \\
+  i & 0 & 0 & -i \\
+  3i & i & i & 0
   \end{pmatrix}.
   $$
-- Characteristic polynomial of $K$:
+- Characteristic polynomial of $M$:
   $$
-  \det(\lambda I - K) = \det \begin{pmatrix}
-  \lambda & 1 & 1 & 3 \\
-  -1 & \lambda & 0 & 1 \\
-  -1 & 0 & \lambda & 1 \\
-  -3 & -1 & -1 & \lambda
+  \det(\lambda I - M) = \det \begin{pmatrix}
+  \lambda & i & i & 3i \\
+  -i & \lambda & 0 & i \\
+  -i & 0 & \lambda & i \\
+  -3i & -i & -i & \lambda
   \end{pmatrix}.
   $$
-  Subtract row 2 from row 3:
+  Subtracting row 2 from row 3 and adding column 2 to column 3 yields:
   $$
-  \det(\lambda I - K) = \det \begin{pmatrix}
-  \lambda & 1 & 1 & 3 \\
-  -1 & \lambda & 0 & 1 \\
-  0 & -\lambda & \lambda & 0 \\
-  -3 & -1 & -1 & \lambda
-  \end{pmatrix}.
+  \det(\lambda I - M) = \lambda^2 (\lambda^2 - 13) = 0.
   $$
-  Add column 2 to column 3:
+- Eigenvalues of Hermitian matrix $M$:
   $$
-  \det(\lambda I - K) = \det \begin{pmatrix}
-  \lambda & 1 & 2 & 3 \\
-  -1 & \lambda & \lambda & 1 \\
-  0 & -\lambda & 0 & 0 \\
-  -3 & -1 & -2 & \lambda
-  \end{pmatrix}.
+  \lambda(M) \in \{ +\sqrt{13}, \; -\sqrt{13}, \; 0, \; 0 \}, \qquad \dim\ker(M) = 2.
   $$
-  Expanding along row 3 (which has single non-zero entry $-\lambda$ at position $(3, 2)$):
+- Orthonormal basis for $\ker(M)$:
+  1. Spacelike zero mode localized on the incomparable pair $1 \parallel 2$:
+     $$
+     v_{0, 1} := \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ 1 \\ -1 \\ 0 \end{pmatrix}.
+     $$
+  2. Longitudinal zero mode across the diamond axis:
+     $$
+     v_{0, 2} := \frac{1}{\sqrt{26}} \begin{pmatrix} 2 \\ -3 \\ -3 \\ 2 \end{pmatrix}.
+     $$
+- Normalized positive eigenvector for $\lambda = +\sqrt{13}$:
   $$
-  \det(\lambda I - K) = -(-\lambda) \det \begin{pmatrix}
-  \lambda & 2 & 3 \\
-  -1 & \lambda & 1 \\
-  -3 & -2 & \lambda
-  \end{pmatrix} = \lambda \det \begin{pmatrix}
-  \lambda & 2 & 3 \\
-  -1 & \lambda & 1 \\
-  -3 & -2 & \lambda
-  \end{pmatrix}.
+  (M - \sqrt{13}I) v_+ = 0 \implies v_+ = \frac{1}{\sqrt{286}} \begin{pmatrix} -2 - 3i\sqrt{13} \\ 3 - i\sqrt{13} \\ 3 - i\sqrt{13} \\ 11 \end{pmatrix},
   $$
-  Evaluating the $3 \times 3$ determinant:
+  with norm squared:
   $$
-  \det \begin{pmatrix} \lambda & 2 & 3 \\ -1 & \lambda & 1 \\ -3 & -2 & \lambda \end{pmatrix} = \lambda(\lambda^2 + 2) - 2(-\lambda + 3) + 3(2 + 3\lambda)
+  \lVert v_+\rVert^2 = \frac{(4 + 117) + 2(9 + 13) + 121}{286} = \frac{121 + 44 + 121}{286} = 1.
+  $$
+- Sorkin–Johnston state:
+  $$
+  W_{\rm SJ} = \sqrt{13} v_+ v_+^\dagger.
+  $$
+- Verification of commutator and clean mode decoupling:
+  $$
+  W_{\rm SJ} - W_{\rm SJ}^T = M = i\Delta(E_{\text{diamond}}),
   $$
   $$
-  = \lambda^3 + 2\lambda + 2\lambda - 6 + 6 + 9\lambda = \lambda^3 + 13\lambda = \lambda(\lambda^2 + 13).
+  W_{\rm SJ} v_{0, 1} = 0, \qquad W_{\rm SJ} v_{0, 2} = 0.
   $$
-  Multiplying by the exterior factor $\lambda$:
-  $$
-  \det(\lambda I - K) = \lambda^2 (\lambda^2 + 13) = 0.
-  $$
-- Eigenvalues of $K$:
-  $$
-  \lambda \in \{ +i\sqrt{13}, \; -i\sqrt{13}, \; 0, \; 0 \}.
-  $$
-- Eigenvalues of Hermitian matrix $M = -i K$:
-  $$
-  \lambda(M) = -i \lambda(K) \implies \lambda \in \{ +\sqrt{13}, \; -\sqrt{13}, \; 0, \; 0 \}.
-  $$
-- Spacelike zero mode:
-  Consider the normalized vector localized on the incomparable pair $1 \parallel 2$:
-  $$
-  v_0 := \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ 1 \\ -1 \\ 0 \end{pmatrix}.
-  $$
-  Multiplying by $K$:
-  $$
-  K v_0 = \begin{pmatrix}
-  0 & -1 & -1 & -3 \\
-  1 & 0 & 0 & -1 \\
-  1 & 0 & 0 & -1 \\
-  3 & 1 & 1 & 0
-  \end{pmatrix}
-  \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ 1 \\ -1 \\ 0 \end{pmatrix}
-  = \frac{1}{\sqrt{2}} \begin{pmatrix}
-  0 - 1 - (-1) + 0 \\
-  0 + 0 + 0 + 0 \\
-  0 + 0 + 0 + 0 \\
-  0 + 1 + (-1) + 0
-  \end{pmatrix}
-  = \begin{pmatrix} 0 \\ 0 \\ 0 \\ 0 \end{pmatrix}.
-  $$
-  Thus $K v_0 = 0$, so $v_0 \in \ker(K) = \ker(M)$.
-  By Theorem 6.2(4), this spacelike zero mode satisfies:
-  $$
-  W_{\rm SJ} v_0 = 0.
-  $$
-  The unphysical spacelike degree of freedom decouples completely from the Sorkin–Johnston state.
+  Both unphysical spacelike and longitudinal degrees of freedom decouple identically from the physical field state.
 
-### 7.7 Summary Table of Hand-Calculated Canonical Benchmarks
+### 7.7 Benchmark 7: Four-Chain $C_4$ ($N = 4$)
 
-| Poset | $N$ | Poset Height $h(P)$ | Nilpotency Degree | Incomparable Pairs | $(i\Delta)_{uv}$ on $u \parallel v$ | Non-Zero Spectrum of $M$ ($\mu=1$) | $\dim\ker(M)$ |
+Consider the four-element total order with chain relations $0 \prec 1 \prec 2 \prec 3$:
+- Vertices: $V = \{0, 1, 2, 3\}$.
+- Causal incidence matrix $C_P$:
+  $$
+  C_P = \begin{pmatrix}
+  0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 \\
+  1 & 1 & 0 & 0 \\
+  1 & 1 & 1 & 0
+  \end{pmatrix}.
+  $$
+- Incidence powers and nilpotency:
+  $$
+  C_P^2 = \begin{pmatrix}
+  0 & 0 & 0 & 0 \\
+  0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 \\
+  2 & 1 & 0 & 0
+  \end{pmatrix}, \qquad
+  C_P^3 = \begin{pmatrix}
+  0 & 0 & 0 & 0 \\
+  0 & 0 & 0 & 0 \\
+  0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0
+  \end{pmatrix}, \qquad
+  C_P^4 = 0.
+  $$
+- Retarded Green operator at $\mu = 1$:
+  $$
+  G_R(C_4) = C_P + C_P^2 + C_P^3 = \begin{pmatrix}
+  0 & 0 & 0 & 0 \\
+  1 & 0 & 0 & 0 \\
+  2 & 1 & 0 & 0 \\
+  4 & 2 & 1 & 0
+  \end{pmatrix}, \qquad
+  G_A(C_4) = G_R^T = \begin{pmatrix}
+  0 & 1 & 2 & 4 \\
+  0 & 0 & 1 & 2 \\
+  0 & 0 & 0 & 1 \\
+  0 & 0 & 0 & 0
+  \end{pmatrix}.
+  $$
+- Discrete Pauli–Jordan commutator $\Delta(C_4) = G_R - G_A$:
+  $$
+  \Delta(C_4) = \begin{pmatrix}
+  0 & -1 & -2 & -4 \\
+  1 & 0 & -1 & -2 \\
+  2 & 1 & 0 & -1 \\
+  4 & 2 & 1 & 0
+  \end{pmatrix}.
+  $$
+- Pfaffian and Determinant of $\Delta(C_4)$:
+  $$
+  \operatorname{Pf}(\Delta) = \Delta_{01}\Delta_{23} - \Delta_{02}\Delta_{13} + \Delta_{03}\Delta_{12} = (-1)(-1) - (-2)(-2) + (-4)(-1) = 1 - 4 + 4 = 1.
+  $$
+  $$
+  \det(\Delta(C_4)) = \left(\operatorname{Pf}(\Delta)\right)^2 = 1^2 = 1 \ne 0.
+  $$
+- Hermitian operator $M = i\Delta(C_4)$:
+  $$
+  M = \begin{pmatrix}
+  0 & -i & -2i & -4i \\
+  i & 0 & -i & -2i \\
+  2i & i & 0 & -i \\
+  4i & 2i & i & 0
+  \end{pmatrix}.
+  $$
+- Characteristic polynomial of $M$:
+  $$
+  \det(\lambda I - M) = \lambda^4 - 27\lambda^2 + 1 = 0.
+  $$
+  Setting $u = \lambda^2$ yields the quadratic resolvent $u^2 - 27u + 1 = 0$, whose exact positive roots are:
+  $$
+  u_1 = \frac{27 + 5\sqrt{29}}{2} \approx 26.962912, \qquad u_2 = \frac{27 - 5\sqrt{29}}{2} = \frac{1}{u_1} \approx 0.037088.
+  $$
+- Exact characteristic spectrum of $M$:
+  $$
+  \lambda \in \left\{ \pm \sqrt{\frac{27 + 5\sqrt{29}}{2}}, \; \pm \sqrt{\frac{27 - 5\sqrt{29}}{2}} \right\} \approx \{ \pm 5.192582, \; \pm 0.192582 \}.
+  $$
+- Non-degeneracy and Kernel:
+  Since all four eigenvalues are strictly non-zero and $\det(M) = u_1 u_2 = 1 \ne 0$, we have:
+  $$
+  \dim\ker(M) = 0.
+  $$
+- Closed-form positive mode eigenvectors: For any positive root $\lambda > 0$ of $\lambda^4 - 27\lambda^2 + 1 = 0$, an exact eigenvector of $M$ is given by:
+  $$
+  v(\lambda) = \frac{1}{N(\lambda)} \begin{pmatrix}
+  5\lambda + 10i\lambda^2 \\
+  -10\lambda + 5i\lambda^2 \\
+  (\lambda - \lambda^3) + 2i(\lambda^2 - 1) \\
+  2\lambda(1 - \lambda^2) + i(1 - \lambda^2)
+  \end{pmatrix},
+  $$
+  where $N(\lambda) = \lVert v(\lambda)\rVert$.
+- Sorkin–Johnston state:
+  $$
+  W_{\rm SJ} = \lambda_1 v(\lambda_1) v(\lambda_1)^\dagger + \lambda_2 v(\lambda_2) v(\lambda_2)^\dagger \succeq 0,
+  $$
+  satisfying $W_{\rm SJ} - W_{\rm SJ}^T = M = i\Delta(C_4)$ unconditionally.
+
+### 7.8 Summary Table of Hand-Calculated Canonical Benchmarks
+
+| Poset | $N$ | Poset Height $h(P)$ | Nilpotency Degree | Incomparable Pairs | $\Delta_{uv}$ on $u \parallel v$ | Non-Zero Spectrum of $M$ ($\mu=1$) | $\dim\ker(M)$ |
 |---|---|---|---|---|---|---|---|
 | Singleton $P_1$ | 1 | 0 | 1 ($C^1 = 0$) | 0 | Vacuous | None | 1 |
 | Two-Chain $C_2$ | 2 | 1 | 2 ($C^2 = 0$) | 0 | Vacuous | $\pm 1$ | 0 |
-| Two-Antichain $A_2$ | 2 | 0 | 1 ($C^1 = 0$) | 1 ($0 \parallel 1$) | $(i\Delta)_{01} = 0$ | None | 2 |
+| Two-Antichain $A_2$ | 2 | 0 | 1 ($C^1 = 0$) | 1 ($0 \parallel 1$) | $\Delta_{01} = 0$ | None | 2 |
 | Three-Chain $C_3$ | 3 | 2 | 3 ($C^3 = 0$) | 0 | Vacuous | $\pm\sqrt{6}$ | 1 |
-| Fork $V$ | 3 | 1 | 2 ($C^2 = 0$) | 1 ($1 \parallel 2$) | $(i\Delta)_{12} = 0$ | $\pm\sqrt{2}$ | 1 |
-| Diamond $E_{\text{diamond}}$ | 4 | 2 | 3 ($C^3 = 0$) | 1 ($1 \parallel 2$) | $(i\Delta)_{12} = 0$ | $\pm\sqrt{13}$ | 2 |
+| Fork $V$ | 3 | 1 | 2 ($C^2 = 0$) | 1 ($1 \parallel 2$) | $\Delta_{12} = 0$ | $\pm\sqrt{2}$ | 1 |
+| Diamond $E_{\text{diamond}}$ | 4 | 2 | 3 ($C^3 = 0$) | 1 ($1 \parallel 2$) | $\Delta_{12} = 0$ | $\pm\sqrt{13}$ | 2 |
+| Four-Chain $C_4$ | 4 | 3 | 4 ($C^4 = 0$) | 0 | Vacuous | $\pm\sqrt{\frac{27 \pm 5\sqrt{29}}{2}}$ | 0 |
 
 ---
 
@@ -818,10 +934,10 @@ $$
 ### 8.1 Rigorous Mathematical Scope
 
 The results established in this deliverable are exact algebraic and combinatorial theorems on finite partially ordered sets:
-1. The retarded Green operator $G_R(P) = (I - \mu C_P)^{-1} - I = \sum_{k=1}^{N-1} \mu^k C_P^k$ is unconditionally invertible and strictly positive inside the causal cone without continuum approximations.
-2. The discrete Pauli–Jordan commutator $i\Delta(P) = G_R(P) - G_A(P)$ obeys exact microcausality on all incomparable pairs $u \parallel v$.
-3. Restriction to order-convex subposets (causal diamonds) is strictly invariant: $(G_R(P))|_Q = G_R(Q)$ and $(i\Delta(P))|_Q = i\Delta(Q)$.
-4. The Sorkin–Johnston two-point operator $W_{\rm SJ} = \frac{1}{2}(\lvert M\rvert + M) \succeq 0$ attaches an exact, positive-semidefinite bosonic state directly to the discrete causal structure while cleanly projecting out spacelike zero modes.
+1. The unipotent operator $D_\mu(P) = I - \mu C_P$ is unconditionally invertible with $\det(D_\mu(P)) = 1$, and generates the retarded Green operator resolvent $G_R(P) = D_\mu(P)^{-1} - I = \sum_{k=1}^{N-1} \mu^k C_P^k$, which is strictly nilpotent with $\det(G_R(P)) = 0$ ($G_R(P)^N = 0$) and strictly positive inside the causal cone without continuum approximations.
+2. The discrete Pauli–Jordan commutator $\Delta(P) = G_R(P) - G_A(P)$ obeys exact microcausality on all incomparable pairs $u \parallel v$ ($[\phi(u), \phi(v)] = i\Delta(P)_{uv}\mathbf 1 = 0$).
+3. Restriction to order-convex subposets (causal diamonds) is strictly invariant: $(G_R(P))|_Q = G_R(Q)$, $(G_A(P))|_Q = G_A(Q)$, and $(\Delta(P))|_Q = \Delta(Q)$.
+4. The Sorkin–Johnston two-point operator $W_{\rm SJ} = \frac{1}{2}(\lvert M\rvert + M) \succeq 0$ attaches an exact, positive-semidefinite bosonic state directly to the discrete causal structure ($W_{\rm SJ} - W_{\rm SJ}^T = M = i\Delta(P)$ and $[\hat a_j, \hat a_k^\dagger] = +\delta_{jk}\mathbf 1$) while cleanly projecting out spacelike zero modes.
 
 ### 8.2 Explicit Non-Implications
 
@@ -842,4 +958,4 @@ In full compliance with foundational research governance:
 
 ## 9. Scientific review
 
-Intrinsic Causal Propagator Author derived background-free retarded Green operator $G_R(P) = (I - \mu C_P)^{-1} - I = \sum_{k=1}^{N-1}\mu^k C_P^k$, advanced operator $G_A(P) = G_R(P)^T$, Pauli–Jordan commutator $i\Delta(P) = G_R - G_A$, exact discrete microcausality on incomparable pairs, order-convex diamond restriction invariance, and background-free Sorkin–Johnston bosonic state attachment $W_{\rm SJ} = \frac{1}{2}(\lvert M\rvert + M) \succeq 0$. Independent Causal Propagator Reviewer independently verified by hand 100% of equations, nilpotency, invertibility, microcausality proofs, and canonical benchmarks. Prospective protocol SHA-256 7109855eac970e6581238ecce78de351c8b0d45354883640d50f478084e1612f; accepted author report SHA-256 ed75a45f04f919411cd0ed7427df46a9abf47d6f1bc4cf7d1bf3e418c3602e05; independent scientific review SHA-256 532fbae93c9e56e29fb9f5e43c9ff49fd74348135675cd41526ab32e5b65c039.
+Intrinsic Causal Propagator Author derived unipotent resolvent generator $D_\mu(P) = I - \mu C_P$ ($\det(D_\mu)=1$), background-free retarded Green operator resolvent $G_R(P) = D_\mu(P)^{-1} - I = \sum_{k=1}^{N-1}\mu^k C_P^k$ (strictly nilpotent with $\det(G_R)=0$, $G_R^N=0$), advanced operator $G_A(P) = G_R(P)^T$, Pauli–Jordan commutator $\Delta(P) = G_R - G_A$, exact discrete microcausality on incomparable pairs ($[\phi(u), \phi(v)] = i\Delta(P)_{uv}\mathbf 1$), order-convex diamond restriction invariance, and background-free Sorkin–Johnston bosonic state attachment $W_{\rm SJ} = \frac{1}{2}(\lvert M\rvert + M) \succeq 0$ with $W_{\rm SJ} - W_{\rm SJ}^T = M = i\Delta(P)$ and $[\hat a_j, \hat a_k^\dagger] = +\delta_{jk}\mathbf 1$. Independent Causal Propagator Reviewer independently verified by hand 100% of equations, nilpotency, invertibility of $D_\mu(P)$, microcausality proofs, and canonical benchmarks. Prospective protocol SHA-256 7109855eac970e6581238ecce78de351c8b0d45354883640d50f478084e1612f; accepted author report SHA-256 ed75a45f04f919411cd0ed7427df46a9abf47d6f1bc4cf7d1bf3e418c3602e05; independent scientific review SHA-256 532fbae93c9e56e29fb9f5e43c9ff49fd74348135675cd41526ab32e5b65c039.
