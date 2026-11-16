@@ -1,3 +1,9 @@
+## 16 November 2026 — A finite duration for sufficiently small coupling
+
+The supplied Einstein–four-scalar torus family has a nonempty sufficiently small coupling range with smooth constrained evolution through five reference units of coordinate time. The registered initially normal observer reaches four reference units of proper time inside that interval. The proof supplies an existential, unevaluated coupling threshold; physical clock calibration and exact agreement with the old probe samples remain open.
+
+- [Finite horizon for the small-coupling scalar torus](docs/observables/finite_horizon_for_small_coupling_scalar_torus.md)
+
 ## 16 November 2026 — Packet preparation and finite boundary response
 
 Two supplied mirror–packet preparations have the same retained initial energy, momentum, longitudinal stress and total invariant mass, yet different mirror velocities and separations at the registered later time. Omitted packet positions determine arrival timing. Full-state determinism and conservation remain intact; the result restricts prediction from the reduced record, with ideal material, preparation and native-calibration premises explicit.
