@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-11-16T10:59:17Z",
+  "gate": "Gate 10",
+  "status": "PASS",
+  "parameters": {
+    "c0": 0.2,
+    "q0": 0.2,
+    "c1": 0.9,
+    "q1": 0.6,
+    "kappa": 2.0,
+    "gamma": 0.0,
+    "omega0": 0.25,
+    "omega1": 0.85,
+    "u_src": 4,
+    "delta_star": 0.2,
+    "M_samples": 15,
+    "carrier_propagation": "unmodified_stage9_all_max_elements",
+    "kernel_sampler_alignment": "exact_intracone_focused_vandermonde_split"
+  },
+  "row_normalization_and_positivity": {
+    "status": "PASS",
+    "max_row_norm_error": 0.0,
+    "min_probability": 0.040071505939300645,
+    "terminal_cutoff_required": false
+  },
+  "cylinder_projectivity": {
+    "status": "PASS",
+    "max_projectivity_deviation": 0.0,
+    "projectivity_holds_all_horizons": true
+  },
+  "global_post_density": {
+    "status": "PASS",
+    "horizons": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "by_horizon": {
+      "256": {
+        "mean_post_count": 0.0,
+        "rho_post": 0.0,
+        "rho_post_vanishing": true
+      },
+      "512": {
+        "mean_post_count": 0.0,
+        "rho_post": 0.0,
+        "rho_post_vanishing": true
+      },
+      "1024": {
+        "mean_post_count": 0.0,
+        "rho_post": 0.0,
+        "rho_post_vanishing": true
+      },
+      "2048": {
+        "mean_post_count": 0.0,
+        "rho_post": 0.0,
+        "rho_post_vanishing": true
+      }
+    }
+  },
+  "downstream_near_source_contrast": {
+    "status": "PASS",
+    "delta_star": 0.2,
+    "min_delta_O": 0.7813234213518465,
+    "sample_size_M": 15,
+    "horizons": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "by_horizon": {
+      "256": {
+        "coupled_rho_link": 2.060790918960898,
+        "unperturbed_rho_link": 1.2794674976090514,
+        "delta_rho_link": 0.7813234213518465,
+        "exceeds_delta_star": true,
+        "coupled_r2": 0.3963857261685472,
+        "unperturbed_r2": 0.11238472002620456,
+        "delta_r2": 0.2840010061423427,
+        "coupled_h_max": 20.066666666666666,
+        "unperturbed_h_max": 12.333333333333334,
+        "delta_h_max": 7.7333333333333325
+      },
+      "512": {
+        "coupled_rho_link": 2.5342444729264555,
+        "unperturbed_rho_link": 1.5525251363845476,
+        "delta_rho_link": 0.9817193365419079,
+        "exceeds_delta_star": true,
+        "coupled_r2": 0.33421282285688453,
+        "unperturbed_r2": 0.07188480570776935,
+        "delta_r2": 0.2623280171491152,
+        "coupled_h_max": 29.066666666666666,
+        "unperturbed_h_max": 15.666666666666666,
+        "delta_h_max": 13.4
+      },
+      "1024": {
+        "coupled_rho_link": 2.9918905923780046,
+        "unperturbed_rho_link": 1.9121579032461509,
+        "delta_rho_link": 1.0797326891318537,
+        "exceeds_delta_star": true,
+        "coupled_r2": 0.3143575168193861,
+        "unperturbed_r2": 0.06340894014765507,
+        "delta_r2": 0.25094857667173104,
+        "coupled_h_max": 38.06666666666667,
+        "unperturbed_h_max": 20.333333333333332,
+        "delta_h_max": 17.733333333333338
+      },
+      "2048": {
+        "coupled_rho_link": 3.4362834850905615,
+        "unperturbed_rho_link": 2.3318247666887895,
+        "delta_rho_link": 1.104458718401772,
+        "exceeds_delta_star": true,
+        "coupled_r2": 0.31817635861489746,
+        "unperturbed_r2": 0.0689770190903096,
+        "delta_r2": 0.24919933952458787,
+        "coupled_h_max": 48.6,
+        "unperturbed_h_max": 26.2,
+        "delta_h_max": 22.400000000000002
+      }
+    }
+  },
+  "fault_injection_verification": {
+    "status": "PASS",
+    "kappa_zero_decoupling": {
+      "status": "PASS",
+      "kappa": 0.0,
+      "delta_rho_link": 0.0,
+      "pasts_identical": true
+    },
+    "vacuum_carrier_decoupling": {
+      "status": "PASS",
+      "carrier_state": "vacuum",
+      "delta_rho_link": 0.0,
+      "pasts_identical": true
+    },
+    "transition_engine_zero_coupling": {
+      "status": "PASS",
+      "kappa": 0.0,
+      "total_variation_distance": 0.0
+    },
+    "transition_engine_vacuum_carrier": {
+      "status": "PASS",
+      "carrier_state": "vacuum",
+      "total_variation_distance": 0.0
+    }
+  },
+  "timing_seconds": 14.544571876525879
+}

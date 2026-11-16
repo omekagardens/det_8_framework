@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "stage": "Stage 9: Localized Present-State Carrier and Order-Consistent Source Introduction",
+    "timestamp": "2026-11-16T10:59:03Z",
+    "total_wall_seconds": 4.588986158370972,
+    "gate9_passed": true,
+    "audit_methodology": {
+      "carrier_isomorphism": "genuine_extended_poset_evaluation",
+      "baseline_growth_growth_kernel": "unperturbed_rideout_sorkin_csg",
+      "source_birth_interleaving": "explicit_path2_construction",
+      "probability_redistribution": "cone_internal_partition_audit",
+      "post_excitation_taxonomy": "cone_closure_vs_stage_zcone_exhaustive_audit"
+    }
+  },
+  "gate9_summary": {
+    "status": "PASS",
+    "growth_growth_diamonds_passed": true,
+    "source_birth_interleaving_passed": true,
+    "cone_internal_redistribution_passed": true,
+    "post_excitation_taxonomy_passed": true,
+    "runtime_under_30s": true
+  },
+  "growth_growth_diamonds": {
+    "max_N": 5,
+    "total_posets": 407,
+    "total_diamonds_audited": 73786,
+    "violations": 0,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "max_carrier_discrepancy": 0.0,
+    "breakdown_by_N": {
+      "1": {
+        "posets": 1,
+        "diamonds": 4,
+        "violations": 0,
+        "max_discrepancy": 1.3877787807814457e-17,
+        "max_carrier_discrepancy": 0.0
+      },
+      "2": {
+        "posets": 2,
+        "diamonds": 25,
+        "violations": 0,
+        "max_discrepancy": 3.469446951953614e-18,
+        "max_carrier_discrepancy": 0.0
+      },
+      "3": {
+        "posets": 7,
+        "diamonds": 238,
+        "violations": 0,
+        "max_discrepancy": 1.734723475976807e-18,
+        "max_carrier_discrepancy": 0.0
+      },
+      "4": {
+        "posets": 40,
+        "diamonds": 3377,
+        "violations": 0,
+        "max_discrepancy": 6.938893903907228e-18,
+        "max_carrier_discrepancy": 0.0
+      },
+      "5": {
+        "posets": 357,
+        "diamonds": 70142,
+        "violations": 0,
+        "max_discrepancy": 6.938893903907228e-18,
+        "max_carrier_discrepancy": 0.0
+      }
+    },
+    "passed": true
+  },
+  "source_birth_interleaving_diamonds": {
+    "max_N": 5,
+    "formulation_A_newborn_diamonds": 73786,
+    "formulation_A_violations": 0,
+    "formulation_A_max_diff": 1.3877787807814457e-17,
+    "formulation_B_existing_diamonds": 12842,
+    "formulation_B_violations": 0,
+    "formulation_B_max_diff": 0.0,
+    "breakdown_by_N": {
+      "1": {
+        "posets": 1,
+        "form_A_diamonds": 4,
+        "form_A_violations": 0,
+        "form_A_max_diff": 1.3877787807814457e-17,
+        "form_B_diamonds": 1,
+        "form_B_violations": 0,
+        "form_B_max_diff": 0.0
+      },
+      "2": {
+        "posets": 2,
+        "form_A_diamonds": 25,
+        "form_A_violations": 0,
+        "form_A_max_diff": 3.469446951953614e-18,
+        "form_B_diamonds": 7,
+        "form_B_violations": 0,
+        "form_B_max_diff": 0.0
+      },
+      "3": {
+        "posets": 7,
+        "form_A_diamonds": 238,
+        "form_A_violations": 0,
+        "form_A_max_diff": 1.734723475976807e-18,
+        "form_B_diamonds": 60,
+        "form_B_violations": 0,
+        "form_B_max_diff": 0.0
+      },
+      "4": {
+        "posets": 40,
+        "form_A_diamonds": 3377,
+        "form_A_violations": 0,
+        "form_A_max_diff": 6.938893903907228e-18,
+        "form_B_diamonds": 714,
+        "form_B_violations": 0,
+        "form_B_max_diff": 0.0
+      },
+      "5": {
+        "posets": 357,
+        "form_A_diamonds": 70142,
+        "form_A_violations": 0,
+        "form_A_max_diff": 6.938893903907228e-18,
+        "form_B_diamonds": 12060,
+        "form_B_violations": 0,
+        "form_B_max_diff": 0.0
+      }
+    },
+    "passed": true
+  },
+  "cone_internal_redistribution": {
+    "max_N": 4,
+    "total_anchor_checks": 186,
+    "max_row_norm_error": 2.220446049250313e-16,
+    "max_spacelike_nondisturbance_error": 0.0,
+    "max_entry_probability_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  "post_excitation_diamond_taxonomy": {
+    "max_N": 4,
+    "total_post_excitation_quadruples": 14276,
+    "carrier_bundle_violations": 0,
+    "max_carrier_bundle_diff": 0.0,
+    "category_counts": {
+      "spacelike_spacelike": 3944,
+      "mixed_cone_spacelike": 6388,
+      "inner_cone_cone": 3944
+    },
+    "stage_normalized_zcone_violations": {
+      "spacelike_spacelike": 0,
+      "mixed_cone_spacelike": 6388,
+      "inner_cone_cone": 2746
+    },
+    "cone_closure_redistribution_violations": {
+      "spacelike_spacelike": 0,
+      "mixed_cone_spacelike": 0,
+      "inner_cone_cone": 1988
+    },
+    "max_cone_closure_mixed_diff": 2.7755575615628914e-17,
+    "max_cone_closure_row_norm_error": 2.220446049250313e-16,
+    "passed": true
+  }
+}

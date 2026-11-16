@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-11-16T10:59:25Z",
+  "gate": "Gate 11",
+  "status": "PASS",
+  "parameters": {
+    "c0": 0.2,
+    "q0": 0.2,
+    "c1": 0.9,
+    "q1": 0.6,
+    "kappa": 2.0,
+    "gamma": 0.12,
+    "u_src": 4,
+    "eta_periph_cap": 0.3,
+    "horizons": [
+      256,
+      512,
+      1024
+    ],
+    "M_samples": 10
+  },
+  "tier1_spacelike_non_disturbance": {
+    "status": "PASS",
+    "zero_shift_verified": true,
+    "horizons": [
+      256,
+      512
+    ],
+    "samples_per_horizon": 10,
+    "by_horizon": {
+      "256": {
+        "max_delta_L_max": 0,
+        "max_delta_rho_link": 0.0,
+        "max_carrier_p1_distant": 0.0,
+        "mean_near_source_contrast_L": 10.7,
+        "mean_near_source_contrast_rho": 0.5925720192876665,
+        "spacelike_non_disturbance_verified": true
+      },
+      "512": {
+        "max_delta_L_max": 0,
+        "max_delta_rho_link": 0.0,
+        "max_carrier_p1_distant": 0.0,
+        "mean_near_source_contrast_L": 14.8,
+        "mean_near_source_contrast_rho": 0.8364833223609555,
+        "spacelike_non_disturbance_verified": true
+      }
+    }
+  },
+  "tier2_relational_decay": {
+    "status": "PASS",
+    "horizon_N": 512,
+    "monotone_d_link_decay": true,
+    "monotone_eta_growth": true,
+    "uncoupled_arm_diff": 0.0,
+    "net_differential_contrast": 0.706547486526178,
+    "uncoupled_control": {
+      "status": "PASS",
+      "pass": true,
+      "arm_b_minus_arm_a": 0.0,
+      "arm_b_minus_arm_a_rho_link": 0.0,
+      "bitwise_identical": true,
+      "pasts_identical": true,
+      "adjacency_identical": true
+    },
+    "link_depth_attenuation": {
+      "status": "PASS",
+      "pass": true,
+      "d_bins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mean_excitation_p1": [
+        0.6542483660130719,
+        0.3948833292757625,
+        0.26634458746180384,
+        0.19716400928644193,
+        0.15556393711110475,
+        0.11553927025733315,
+        0.07905974815908852,
+        0.049206972097091024
+      ],
+      "is_monotonically_decreasing": true
+    },
+    "causal_overlap_growth": {
+      "status": "PASS",
+      "pass": true,
+      "observable": "delta_hasse_in_degree_coupled_minus_uncoupled",
+      "eta_bins": [
+        "[0.00, 0.01)",
+        "[0.01, 0.30)",
+        "[0.30, 0.60)",
+        "[0.60, 1.01)"
+      ],
+      "coupled_mean_k_hasse": [
+        1.9591549295774648,
+        2.575925925925926,
+        2.774144098109351,
+        2.796996996996997
+      ],
+      "uncoupled_mean_k_hasse": [
+        1.9591549295774648,
+        2.4320416425679583,
+        2.208563535911602,
+        1.9233870967741935
+      ],
+      "mean_delta_k_hasse": [
+        0.0,
+        0.14388428335796766,
+        0.565580562197749,
+        0.8736099002228035
+      ],
+      "mean_in_cone_fraction": [
+        0.0,
+        0.14388428335796766,
+        0.565580562197749,
+        0.8736099002228035
+      ],
+      "is_monotonically_increasing": true
+    },
+    "differential_comparison_arms": {
+      "status": "PASS",
+      "pass": true,
+      "near_core_overlap_delta_k_hasse": 0.6289366989974319,
+      "distant_periphery_delta_k_hasse": -0.07761078752874617,
+      "near_depth_mean_lambda_coup": 0.43727233209808575,
+      "far_depth_mean_lambda_coup": 0.18616712385650827,
+      "depth_lambda_contrast": 0.25110520824157745,
+      "arm_a_near_response": 0.6289366989974319,
+      "arm_b_distant_response": -0.07761078752874617,
+      "net_differential_contrast": 0.706547486526178
+    }
+  },
+  "tier3_two_worldline_clock_exchange": {
+    "status": "PASS",
+    "measured_contrast_verified": true,
+    "worldline_y_definition": "peripheral_low_overlap_eta_le_0.30",
+    "horizons": [
+      256,
+      512,
+      1024
+    ],
+    "samples_per_horizon": 10,
+    "by_horizon": {
+      "256": {
+        "mean_len_X": 16.3,
+        "mean_len_Y": 7.5,
+        "mean_ratio_coupled": 2.7392399267399266,
+        "mean_ratio_uncoupled": 1.4628968253968253,
+        "delta_ratio_contrast": 1.2763431013431012,
+        "strictly_exterior_ratio_coupled": 2.7803571428571425,
+        "strictly_exterior_ratio_uncoupled": 1.5470238095238096,
+        "strictly_exterior_delta_ratio": 1.233333333333333,
+        "ratio_distinct_from_unity": true,
+        "contrast_exceeds_threshold": true,
+        "mean_relays_x2y": 1.0,
+        "mean_abstentions_x2y": 15.3,
+        "mean_fail_rate_x2y": 0.9301587301587302,
+        "mean_relays_y2x": 2.1,
+        "mean_abstentions_y2x": 5.4,
+        "mean_fail_rate_y2x": 0.6948717948717948,
+        "bidirectional_relays_observed": true
+      },
+      "512": {
+        "mean_len_X": 24.6,
+        "mean_len_Y": 9.3,
+        "mean_ratio_coupled": 3.477686741363212,
+        "mean_ratio_uncoupled": 1.6311320774169071,
+        "delta_ratio_contrast": 1.8465546639463049,
+        "strictly_exterior_ratio_coupled": 3.5103968253968256,
+        "strictly_exterior_ratio_uncoupled": 1.8761111111111113,
+        "strictly_exterior_delta_ratio": 1.6342857142857143,
+        "ratio_distinct_from_unity": true,
+        "contrast_exceeds_threshold": true,
+        "mean_relays_x2y": 1.9,
+        "mean_abstentions_x2y": 22.7,
+        "mean_fail_rate_x2y": 0.9017094017094017,
+        "mean_relays_y2x": 7.1,
+        "mean_abstentions_y2x": 2.2,
+        "mean_fail_rate_y2x": 0.2693253968253968,
+        "bidirectional_relays_observed": true
+      },
+      "1024": {
+        "mean_len_X": 34.2,
+        "mean_len_Y": 10.4,
+        "mean_ratio_coupled": 4.535764790764791,
+        "mean_ratio_uncoupled": 2.0600706447573454,
+        "delta_ratio_contrast": 2.4756941460074455,
+        "strictly_exterior_ratio_coupled": 4.612454481792717,
+        "strictly_exterior_ratio_uncoupled": 2.5154061624649864,
+        "strictly_exterior_delta_ratio": 2.097048319327731,
+        "ratio_distinct_from_unity": true,
+        "contrast_exceeds_threshold": true,
+        "mean_relays_x2y": 4.0,
+        "mean_abstentions_x2y": 30.2,
+        "mean_fail_rate_x2y": 0.866286427493324,
+        "mean_relays_y2x": 9.4,
+        "mean_abstentions_y2x": 1.0,
+        "mean_fail_rate_y2x": 0.08761904761904762,
+        "bidirectional_relays_observed": true
+      }
+    }
+  },
+  "timing_seconds": 7.353319883346558
+}
