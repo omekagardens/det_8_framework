@@ -1,3 +1,9 @@
+## 16 November 2026 — Interaction energy beyond local action records
+
+Two explicitly classical internal configurations have identical bare-action histories yet different interaction energies. Under a supplied carrier mass shell, they have different zero-momentum kinetic masses and terminal velocities after the same impulse. One initial real correlation resolves this fixed pair when the parameters and base energy are registered. Equal impulse does not mean equal work, and no complete physical preparation or actuator energy account is supplied.
+
+- [Interaction energy beyond local action records](docs/observables/interaction_energy_beyond_local_action_records.md)
+
 ## 16 November 2026 — Expanding scalar initial data and closed-channel work
 
 A flat torus with the accepted positive scalar expectation source admits constant isotropic extrinsic curvature under the supplied Einstein coupling. The expanding branch fixes a conditional initial volume-rate relation; coupled future evolution and native calibration are not established. Separately, two active/passive force models share an aligned total-force-null record, but one has nonzero work around a complete labelled configuration loop. This excludes a configuration-only potential for that specified channel while leaving larger physical energy accounts open. The full four-setting force-null inverse is unchanged.
