@@ -1,0 +1,245 @@
+{
+  "id": "PIM001",
+  "status": "provisional finite operational baseline; Option B / Status M unchanged",
+  "domain": {
+    "preparations": [
+      {
+        "order": [
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "marks": [
+          0,
+          0
+        ],
+        "counters": [
+          1,
+          0
+        ]
+      },
+      {
+        "order": [
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "marks": [
+          1,
+          0
+        ],
+        "counters": [
+          1,
+          0
+        ]
+      }
+    ],
+    "conditional_initial_mass": "1",
+    "suffix_births": 2,
+    "structural_sequences_per_preparation": 15,
+    "marked_histories_per_preparation": 60,
+    "marks": "two independent fair binary suffix marks, all four pairs retained",
+    "eligibility": "all actual downward-closed labeled ideals; no quotient, automorphism division, reweighting or postselection",
+    "outside_scope": "other prefixes, n=0/1 generation, fifth birth and larger ensembles are not implemented"
+  },
+  "provenance_vocabulary": {
+    "supplied": "accepted input reused at its stated scope",
+    "chosen": "declared mathematical/interface choice inherited unchanged, not derived from ontology",
+    "derived": "exact consequence of the supplied finite inputs",
+    "calibrated": "empirically fitted; no component in this baseline has this label"
+  },
+  "components": [
+    {
+      "component": "native growth q",
+      "labels": [
+        "supplied"
+      ],
+      "sources": [
+        "../../../docs/observables/native_source_readout_response.md",
+        "../../../docs/observables/finite_incidence_register.md"
+      ],
+      "constants": {
+        "c": "1/5",
+        "e": "1/44",
+        "f_0": "1/6",
+        "f_1": "1/3",
+        "h_0": "19/30",
+        "h_1": "7/15",
+        "g": "1/10",
+        "k": "11/20"
+      },
+      "rule": "proper slots inherited; full ideal gets exact normalization complement; branch mark contributes 1/2",
+      "not_claimed": "uniqueness or derivation of q from DET ontology"
+    },
+    {
+      "component": "immutable marks and labeled order",
+      "labels": [
+        "supplied"
+      ],
+      "sources": [
+        "../../../docs/observables/native_source_readout_response.md"
+      ],
+      "rule": "append maximal newborn above exactly its actual ideal; retain old strict relation and binary marks"
+    },
+    {
+      "component": "prepared classical incidence register",
+      "labels": [
+        "supplied",
+        "chosen"
+      ],
+      "sources": [
+        "../../../docs/observables/finite_incidence_register.md"
+      ],
+      "rule": "persistent actual handles; each ancestor cell increments modulo five, newborn gets zero",
+      "scope": "fixed prepared basis distribution; no arbitrary-input quantum channel simulation",
+      "derived_in_this_domain": "counter equals strict descendant count; no wrap at four vertices"
+    },
+    {
+      "component": "Gaussian field attachment",
+      "labels": [
+        "supplied",
+        "chosen"
+      ],
+      "sources": [
+        "../../../docs/observables/gaussian_field_transport_on_native_histories.md"
+      ],
+      "resources": "three canonical pairs (Q0,P0,Qx,Px,Qy,Py), [Qj,Pk]=i delta_jk; common Schwartz domain on L2(R3)",
+      "state": "fixed centered Gaussian with symmetric quadrature covariance I6/2",
+      "rule": "phi_a/sqrt(beta)=Q0; phi_b/sqrt(beta)=-P0; phi_x/sqrt(beta)=Qx-c_xb Q0-c_xa P0; phi_y/sqrt(beta)=Qy-c_yb Q0-c_ya P0-rho Px",
+      "rho": "c_yx-c_yb*c_xa+c_ya*c_xb",
+      "retention": "instantaneous commutator-zero modes retain fluctuations; no kernel-as-zero quotient; chronological oscillator roles retained under endpoint row transport",
+      "resource_boundary": "three canonical modes, not finite-dimensional Hilbert space or physical energy/cost bound"
+    },
+    {
+      "component": "field and matrix scale",
+      "labels": [
+        "supplied",
+        "chosen"
+      ],
+      "sources": [
+        "../../../docs/observables/gaussian_field_transport_on_native_histories.md"
+      ],
+      "normalization": "beta>0 remains symbolic and factored out; coefficients L dimensionless, K=commutator/(i beta), V_over_beta=LL^T/2, W_over_beta=(LL^T+iK)/2",
+      "units": "no calibrated physical unit for beta, clock, action, mass, energy, stress or gravity"
+    },
+    {
+      "component": "D and Y readouts",
+      "labels": [
+        "supplied",
+        "chosen"
+      ],
+      "sources": [
+        "../../../docs/observables/native_source_readout_response.md"
+      ],
+      "D": "1 iff total chain; formal complete-order diagnostic",
+      "Y": "1 iff any terminal counter equals two",
+      "access": "chosen memory/ancestor/readout interfaces, no native physical observer or jointly available apparatus claimed"
+    },
+    {
+      "component": "cover-link quadratic mean",
+      "labels": [
+        "supplied",
+        "chosen",
+        "derived"
+      ],
+      "sources": [
+        "../../../docs/observables/native_field_state_across_a_causal_diamond.md"
+      ],
+      "rule": "sum over actual covers of expected (phi_v-phi_u)^2/(2 beta); mean is computed from V",
+      "derived": "same fixed formula executed on all complete domain histories; named swap mean 2 each",
+      "not_claimed": "equality of diagnostic full laws, other swaps, physical stress or energy"
+    },
+    {
+      "component": "exact law and field outputs",
+      "labels": [
+        "derived"
+      ],
+      "sources": [
+        "../../../docs/observables/native_source_readout_response.md",
+        "../../../docs/observables/finite_interval_action_and_source_preparation.md",
+        "../../../docs/observables/gaussian_field_transport_on_native_histories.md",
+        "../../../docs/observables/native_field_state_across_a_causal_diamond.md"
+      ],
+      "method": "deterministic complete enumeration and exact Fraction arithmetic; covariance represented without floating point or oscillator truncation"
+    }
+  ],
+  "calibration_and_testing": {
+    "empirical_calibration": false,
+    "fitted_constants": false,
+    "empirical_dataset": null,
+    "withheld_holdout": null,
+    "fixture_use": "published known-answer regression fixtures, visible before implementation; never withheld observations",
+    "interval_source_use": "15-row structural probability fixture; no interval-action module or physical action calibration added",
+    "future_requirement": "any empirical extension must separately declare borrowed/calibrated/conjectured quantities and prespecified withheld tests"
+  },
+  "known_failures": [
+    {
+      "property": "endpoint-only full field-state covariance for the fixed attachment",
+      "status": "DEMONSTRATED FAILURE",
+      "witness": "u past {a}, v past {a,b}, u incomparable v; chronological orders u,v and v,u",
+      "difference": "V_plus-V_minus=(beta/2)diag(0,0,-1,1)",
+      "bounded_witness": "e_u Weyl expectations exp(-beta/2) versus exp(-3 beta/4), beta>0",
+      "preserved_agreement": "same endpoint order, marks, counters and commutator; structural weights 19/1320 each at i0; cover-link mean 2 each",
+      "implementation": "direct inequality asserted, CLI reports FAIL; not repaired or relabeled unproved"
+    },
+    {
+      "property": "stagewise kernel-as-zero quotient with old-operator inclusion",
+      "status": "DEMONSTRATED OBSTRUCTION",
+      "witness": "Ix=empty, Iy={x}; K3 e_x=0 but K4 embedded(e_x) has y component 1; retained Vxx/beta=1/2"
+    },
+    {
+      "property": "fresh spectral covariance assignment preserves old marginals",
+      "status": "accepted prior failure retained as source limitation",
+      "implementation": "not reimplemented or independently re-proved in PIM001; current supplied attachment changes that premise"
+    }
+  ],
+  "unresolved_obligations": [
+    "derivation or uniqueness of supplied q and mark law from DET ontology",
+    "native justification and physical realization of incidence access, memory, preparation and measurement",
+    "derivation of canonical Gaussian resources, field map and beta",
+    "order-independent full field-state assignment; the current assignment explicitly fails",
+    "minimal sufficient schedule register and general diagnostic-law descent",
+    "larger-size or continuum construction",
+    "physical clock/action/mass/energy/stress source, dynamics, balance or conservation law and gravity/backreaction coupling",
+    "empirical calibration and withheld observational validation"
+  ],
+  "achievement_distinctions": {
+    "runs": "Only after actual command/test execution succeeds",
+    "reproduces": "Exact named fixtures checked across registered cases; regression reproduction is not fresh empirical evidence",
+    "derives_from_DET": "No new derivation of supplied growth law, Gaussian or scale from ontology is claimed; retain existing scoped mathematical derivations",
+    "agrees_with_observations": "NOT TESTED: no empirical dataset or holdout in this baseline"
+  },
+  "scheduler": "birth order is an implementation schedule, never a physical global present",
+  "independent_review": "ACCEPT_WITH_SCOPE after distinct DET Energy Research integrated-output review and coordinator disposition; no implementation correction. All eight test groups and every one of 120 serialized histories were independently checked. Author-side assistance is separate from this review.",
+  "pinned_sources": {
+    "native_source_readout_response.md": {
+      "path": "../../../docs/observables/native_source_readout_response.md",
+      "bytes": 10254,
+      "sha256": "3f6faac5f9e107dbdac4fb9fcf20c2224129c86e1834b4b6f47efb21c98cb5ca"
+    },
+    "finite_interval_action_and_source_preparation.md": {
+      "path": "../../../docs/observables/finite_interval_action_and_source_preparation.md",
+      "bytes": 7295,
+      "sha256": "830ba0656406d886ac60c975845e4d07bc12412a3264158d3fc04eab393c3e0f"
+    },
+    "gaussian_field_transport_on_native_histories.md": {
+      "path": "../../../docs/observables/gaussian_field_transport_on_native_histories.md",
+      "bytes": 10337,
+      "sha256": "759a87b9fd8c291d28c5d3f1e4ac651e177304e152152e2eaa1419f4595a0459"
+    },
+    "finite_incidence_register.md": {
+      "path": "../../../docs/observables/finite_incidence_register.md",
+      "bytes": 17141,
+      "sha256": "bcc6a1fddc3d667d21a67f0d1f8376797285dede9815118c5d3212a5c3aac159"
+    },
+    "native_field_state_across_a_causal_diamond.md": {
+      "path": "../../../docs/observables/native_field_state_across_a_causal_diamond.md",
+      "bytes": 14098,
+      "sha256": "994811c409d81f827d34622713f208656e60e55630f1a53c67354143808a9b1f"
+    }
+  },
+  "source_provenance": "The source entries identify complete public statements with their accepted mathematical scope and independent scientific-review provenance. The marked-diamond statement presents the accepted state-dependence counterexample and separately agreeing mean.",
+  "acceptance_scope": "Only the registered prepare-then-step domain, tested renamings and complete finite horizon. No qualification of arbitrary fabricated State/Field objects, a general-purpose validation API, other prefixes or larger horizons."
+}

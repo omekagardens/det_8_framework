@@ -4,8 +4,10 @@ The [Provisional Integrated Model track](PROVISIONAL_INTEGRATED_MODEL.md) now
 provides a bounded implementation path alongside this programme's proofs,
 comparisons and observation design. PIM001 combines the unchanged original
 four-birth law, optional incidence counters, supplied Gaussian attachment and
-fixed readouts across both registered preparations. It is assigned, not yet a
-completed integrated result. Only the minimal research implementation, checks
+fixed readouts across both registered preparations. The [runnable baseline](../../research/provisional_integrated_model/PIM001/README.md)
+is independently accepted: all eight test groups and a separate complete
+120-history check passed. This supports execution and known-answer reproduction,
+without a new ontology derivation or empirical validation. Only the minimal research implementation, checks
 and independent review for an assigned PIM milestone are excepted from the
 software pause; RET SDK and unrelated tooling or maintenance remain paused.
 

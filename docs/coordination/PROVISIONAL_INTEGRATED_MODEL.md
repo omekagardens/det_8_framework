@@ -1,7 +1,9 @@
 # Provisional Integrated Model
 
-**Status:** Authorized research track; first milestone PIM001 assigned, not yet
-claimed implemented, tested or independently accepted.
+**Status:** Active research track; first milestone PIM001 completed and
+independently accepted with scope on 16 November 2026. Eight test groups and a
+separate exact check of all 120 histories passed. The implementation reproduces
+registered results and the known covariance failure; observations remain untested.
 **Owner:** DET Provisional Integrated Model, chat
 `01a1e69d-1feb-7b82-b102-14ce901a91b1`.
 **Coordination and review:** The coordinator assigns finite milestones and owns
@@ -82,8 +84,12 @@ record, a result report and exact input/output manifest. Run the registered
 cases and report actual outcomes. Stop at the stable baseline and its distinct
 integrated-output review, or a precise unresolved premise or failure; checkpoint
 unfinished work rather than declaring completion. No replacement law or next
-model is automatic. The intended public artifact location is
-`research/provisional_integrated_model/PIM001`; it is not yet a published result.
+model is automatic. The [public baseline](../../research/provisional_integrated_model/PIM001/README.md)
+contains the runnable model, exact tests, assumptions and full result report.
+DET Energy Research independently verified execution and all 120 serialized
+histories against the accepted source tables and field formulas; repeated full
+outputs were byte-identical. This acceptance covers the registered prepare/step
+domain, not arbitrary fabricated state objects or a general-purpose API.
 
 **Evidence limits.** There is no empirical calibration, fitted constant or
 empirical holdout in PIM001. Constants and Gaussian normalization are inherited
