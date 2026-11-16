@@ -1,3 +1,9 @@
+## 16 November 2026 — Packet preparation and finite boundary response
+
+Two supplied mirror–packet preparations have the same retained initial energy, momentum, longitudinal stress and total invariant mass, yet different mirror velocities and separations at the registered later time. Omitted packet positions determine arrival timing. Full-state determinism and conservation remain intact; the result restricts prediction from the reduced record, with ideal material, preparation and native-calibration premises explicit.
+
+- [Packet preparation and boundary response](../observables/packet_preparation_and_boundary_response.md)
+
 ## 16 November 2026 — Initial tides and area-only optical inference
 
 The accepted expanding torus has generally anisotropic initial normal-observer tides despite uniform energy density and isotropic initial intrinsic and extrinsic geometry. Its expansion-normalized tidal invariant retains an exact isotropy locus and supplied observer/scale registration. Separately, two supplied geometries produce identical finite and continuous null-pencil area records while assigning the focusing differently to shear and Ricci curvature. One endpoint shape ratio distinguishes that fixed pair; calibrated affine preparation and known-shear estimator assumptions remain explicit.
