@@ -1,12 +1,15 @@
 {
   "metadata": {
     "title": "Track B Stages 9\u201311 Master Progression Verification & Benchmark Results",
-    "timestamp": "2026-11-16T10:59:25Z",
-    "total_wall_seconds": 59.03843975067139,
+    "timestamp": "2026-11-16T18:53:18Z",
+    "total_wall_seconds": 42.164275884628296,
     "overall_status": "PASS",
     "all_gates_passed": true,
-    "unit_tests_passed": 79,
-    "unit_tests_total": 79,
+    "benchmarks_passed": true,
+    "unit_test_status": "PASS",
+    "claim_scope": "Finite registered audits only. Row normalization and cylinder projectivity do not imply label-order covariance or asymptotic persistence; chain ratios and relay counts are not physical clock or energy measurements.",
+    "unit_tests_passed": 87,
+    "unit_tests_total": 87,
     "gates": {
       "Gate 9": "PASS",
       "Gate 10": "PASS",
@@ -18,27 +21,29 @@
     "gate9": "PASS",
     "gate10": "PASS",
     "gate11": "PASS",
-    "total_unit_tests": 79,
+    "total_unit_tests": 87,
     "all_unit_tests_passed": true
   },
   "unit_tests": {
-    "total_tests_run": 79,
-    "total_expected": 79,
+    "total_tests_run": 87,
+    "total_expected": 87,
     "failures_count": 0,
     "errors_count": 0,
     "passed": true,
-    "elapsed_seconds": 32.54853010177612,
+    "status": "PASS",
+    "skipped_count": 0,
+    "elapsed_seconds": 23.23379611968994,
     "breakdown": {
       "stage9": {
         "count": 25,
         "status": "PASS"
       },
       "stage10": {
-        "count": 29,
+        "count": 34,
         "status": "PASS"
       },
       "stage11": {
-        "count": 25,
+        "count": 28,
         "status": "PASS"
       }
     }
@@ -46,8 +51,8 @@
   "stage9_results": {
     "metadata": {
       "stage": "Stage 9: Localized Present-State Carrier and Order-Consistent Source Introduction",
-      "timestamp": "2026-11-16T10:59:03Z",
-      "total_wall_seconds": 4.588986158370972,
+      "timestamp": "2026-11-16T18:53:02Z",
+      "total_wall_seconds": 3.4263522624969482,
       "gate9_passed": true,
       "audit_methodology": {
         "carrier_isomorphism": "genuine_extended_poset_evaluation",
@@ -202,7 +207,7 @@
     }
   },
   "stage10_results": {
-    "timestamp": "2026-11-16T10:59:17Z",
+    "timestamp": "2026-11-16T18:53:13Z",
     "gate": "Gate 10",
     "status": "PASS",
     "parameters": {
@@ -218,18 +223,26 @@
       "delta_star": 0.2,
       "M_samples": 15,
       "carrier_propagation": "unmodified_stage9_all_max_elements",
-      "kernel_sampler_alignment": "exact_intracone_focused_vandermonde_split"
+      "kernel_sampler_alignment": "same_full_finite_seed_law_in_real_arithmetic; floating_point_evaluation",
+      "seed_size_cap": null
     },
     "row_normalization_and_positivity": {
       "status": "PASS",
       "max_row_norm_error": 0.0,
-      "min_probability": 0.040071505939300645,
+      "min_probability": 0.04007150593930063,
       "terminal_cutoff_required": false
     },
     "cylinder_projectivity": {
       "status": "PASS",
       "max_projectivity_deviation": 0.0,
-      "projectivity_holds_all_horizons": true
+      "prefix_invariance_on_audited_horizons": true,
+      "horizons_audited": [
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "mathematical_scope": "Normalized horizon-independent Markov rows define a projective labeled-history family, without label-order covariance."
     },
     "global_post_density": {
       "status": "PASS",
@@ -243,22 +256,22 @@
         "256": {
           "mean_post_count": 0.0,
           "rho_post": 0.0,
-          "rho_post_vanishing": true
+          "finite_density_below_0_01": true
         },
         "512": {
           "mean_post_count": 0.0,
           "rho_post": 0.0,
-          "rho_post_vanishing": true
+          "finite_density_below_0_01": true
         },
         "1024": {
           "mean_post_count": 0.0,
           "rho_post": 0.0,
-          "rho_post_vanishing": true
+          "finite_density_below_0_01": true
         },
         "2048": {
           "mean_post_count": 0.0,
           "rho_post": 0.0,
-          "rho_post_vanishing": true
+          "finite_density_below_0_01": true
         }
       }
     },
@@ -349,10 +362,18 @@
         "total_variation_distance": 0.0
       }
     },
-    "timing_seconds": 14.544571876525879
+    "incomparable_birth_counterexample": {
+      "same_final_decorated_state": true,
+      "unrelated_then_child_probability": 0.12152777777777782,
+      "child_then_unrelated_probability": 0.11837121212121215,
+      "absolute_gap": 0.003156565656565663,
+      "label_order_covariance": "FAIL"
+    },
+    "claim_scope": "Finite benchmark PASS does not establish label-order covariance, asymptotic persistence, or physical dynamics.",
+    "timing_seconds": 10.37230110168457
   },
   "stage11_results": {
-    "timestamp": "2026-11-16T10:59:25Z",
+    "timestamp": "2026-11-16T18:53:18Z",
     "gate": "Gate 11",
     "status": "PASS",
     "parameters": {
@@ -432,7 +453,7 @@
           0.3948833292757625,
           0.26634458746180384,
           0.19716400928644193,
-          0.15556393711110475,
+          0.15556393711110478,
           0.11553927025733315,
           0.07905974815908852,
           0.049206972097091024
@@ -558,6 +579,6 @@
         }
       }
     },
-    "timing_seconds": 7.353319883346558
+    "timing_seconds": 5.128288984298706
   }
 }

@@ -1,5 +1,7 @@
 # Research Protocol PW6-B: Step-by-Step Sorkin–Johnston Bogoliubov Lift, Exact Skew-Bordering Transition Laws, Finite Diamond Obstructions, and Relativistic Balance
 
+> **Integration status — design / unverified execution.** Prospective design with historical execution claims. Referenced external verification suites are absent from this repository; the claimed executions and proof reviews have not been independently reproduced in this integration. No protocol completion or theorem acceptance is conferred by importing this file. See [the integration status inventory](docs/coordination/SWARM_INTEGRATION_STATUS.md).
+
 **Document ID**: `PW6B_PROTOCOL.md`  
 **Stage**: Stage 5B / PW6-B  
 **Date**: 2026-11-14T19:45:00Z  

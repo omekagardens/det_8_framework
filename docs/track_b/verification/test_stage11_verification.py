@@ -23,6 +23,7 @@ import os
 import sys
 import time
 import unittest
+from unittest import mock
 
 import numpy as np
 
@@ -88,6 +89,31 @@ class TestTier1SpacelikeNonDisturbance(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.tables = get_shared_tables(512)
+
+    def test_chain_has_no_spacelike_anchor(self):
+        chain = np.tril(np.ones((4, 4), dtype=bool), k=-1)
+        with self.assertRaisesRegex(ValueError, "ABSTAIN: no spacelike"):
+            select_relational_anchors(chain, u_src=2)
+
+    def test_tier3_rejects_ancestor_as_far_anchor(self):
+        chain = np.tril(np.ones((4, 4), dtype=bool), k=-1)
+        trajectory = {"C": chain, "in_cone": np.array([False, True, True, True])}
+        with mock.patch(
+            "stage11_relational_comparison_experiment.simulate_persistent_trajectory",
+            return_value=trajectory,
+        ):
+            with self.assertRaisesRegex(ValueError, "ABSTAIN: no post-source spacelike"):
+                verify_tier3_two_worldline_clock_exchange(horizons=[4], M_samples=1, u_src=1)
+
+    def test_fixed_poset_does_not_fabricate_paired_evidence(self):
+        antichain = np.zeros((3, 3), dtype=bool)
+        result = verify_tier1_spacelike_non_disturbance(
+            poset=antichain, u_src=0, u_far=1)
+        self.assertTrue(result["is_spacelike"])
+        self.assertEqual(result["status"], "NOT_TESTED")
+        self.assertFalse(result["zero_shift_verified"])
+        self.assertIsNone(result["delta_L_max"])
+        self.assertIsNone(result["delta_rho_link"])
 
     def test_anchor_spacelike_separation(self):
         """Asserts u_far not in J^+[u_src] U J^-[u_src] (u_far || u_src)."""

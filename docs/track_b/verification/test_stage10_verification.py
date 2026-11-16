@@ -3,12 +3,12 @@ test_stage10_verification.py
 
 Stage 10 Verification Test Suite: Persistent All-Horizon Local Coupling (Gate 10).
 
-Executes a 5-tier test architecture containing 22 authentic unit, property, and scaling tests:
+Executes finite unit, property, sampling and regression checks:
   - Tier 1: Unit tests on persistent transition kernel, row normalization, positivity, and no-cutoff property.
   - Tier 2: Kolmogorov cylinder projectivity and prefix consistency.
-  - Tier 3: Vanishing global post density \rho_{post}(N) -> 0.
+  - Tier 3: Finite-horizon global post-density observations.
   - Tier 4: Fast forward Monte Carlo scaling and carrier invariants up to N = 2048.
-  - Tier 5: Persistent contrast lower bound liminf |\Delta\mathcal{O}_{near}(N)| >= \delta_* = 0.20 and Gate 10 assertion.
+  - Tier 5: Sampled contrast across the specified finite horizons and Gate 10 assertion.
 
 Runs via standard library unittest:
   python3 -m unittest docs/track_b/verification/test_stage10_verification.py -v
@@ -22,6 +22,7 @@ import os
 import sys
 import time
 import unittest
+from unittest.mock import patch
 
 import numpy as np
 
@@ -49,6 +50,8 @@ from stage10_persistent_coupling_experiment import (
     persistent_local_transition_probability,
     precompute_csg_tables,
     sample_conditional_csg_cone_seed,
+    sample_focused_csg_cone_seed,
+    verify_incomparable_birth_counterexample,
     simulate_persistent_trajectory,
     verify_cylinder_projectivity,
     verify_post_density_convergence,
@@ -101,7 +104,7 @@ class TestPersistentTransitionKernel(unittest.TestCase):
         )
 
     def test_branch_positivity_all_n(self) -> None:
-        """Asserts q(C, X, S) > 0 for all valid ideals on posets of arbitrary size and topologies."""
+        """Checks positive float probabilities on the listed finite poset fixtures."""
         # Test linear chains, antichains, and diamond structures
         topologies = [
             # Linear chain of size 4
@@ -233,6 +236,90 @@ class TestPersistentTransitionKernel(unittest.TestCase):
             self.assertGreater(p, 0.0)
 
 
+class TestSamplerSupportAndCovarianceBoundary(unittest.TestCase):
+    """Regression boundaries missed by the original five-vertex sampler screen."""
+
+    def test_same_decorated_state_has_unequal_birth_order_probabilities(self):
+        result = verify_incomparable_birth_counterexample()
+        self.assertTrue(result["same_final_decorated_state"])
+        self.assertAlmostEqual(result["unrelated_then_child_probability"], 0.12152777777777779, places=15)
+        self.assertAlmostEqual(result["child_then_unrelated_probability"], 0.11837121212121215, places=15)
+        self.assertGreater(result["absolute_gap"], 0.003)
+        self.assertEqual(result["label_order_covariance"], "FAIL")
+
+    def test_entire_poset_cone_still_allows_empty_seed(self):
+        # At n=1, q(empty)=1/(1+c0)=5/6 even for an excited source.
+        engine = PersistentLocalTransitionEngine()
+        source = engine.prop_model.excitate(engine.prop_model.rho_vac.copy())
+        state = LocalizedCarrierState(np.zeros((1, 1), dtype=bool), [source], 0)
+        self.assertAlmostEqual(engine.compute_probabilities(state, 0)[frozenset()], 5/6)
+        # First exterior RNG draws are .6369 and .0856: opposite sides of P_enter=1/6.
+        root = simulate_persistent_trajectory(2, u_src=0, seed=0)
+        child = simulate_persistent_trajectory(2, u_src=0, seed=3)
+        self.assertEqual(root["pasts"], [1, 2])
+        self.assertEqual(child["pasts"], [1, 3])
+        self.assertFalse(root["in_cone"][1])
+        self.assertTrue(child["in_cone"][1])
+
+    def test_more_than_32_maximal_parents_remain_in_default_support(self):
+        n = 33
+        adj = np.zeros((n, n), dtype=bool)
+        full = frozenset(range(n))
+        engine = PersistentLocalTransitionEngine(c0=1., q0=1., c1=1., q1=1.)
+        state = LocalizedCarrierState(adj, [engine.prop_model.rho_vac] * n)
+        # Evaluate this single specified ideal without enumerating 2**33 ideals.
+        with patch("stage10_persistent_coupling_experiment.get_ideals_adj", return_value=[full]):
+            analytic = engine.compute_probabilities(state)[full]
+        self.assertAlmostEqual(analytic / (2.**-33), 1., places=13)
+        lgam, cdfs, log_z = precompute_csg_tables(n, 1., 1.)
+        self.assertEqual(len(cdfs[n]), n + 1)
+        self.assertAlmostEqual((1. - cdfs[n][-2]) / analytic, 1., places=6)
+
+        class UpperTailDraw:
+            def random(self):
+                return 1. - 2.**-34
+            def choice(self, population, size, replace=False):
+                return np.arange(size, dtype=int)
+
+        rng = UpperTailDraw()
+        self.assertEqual(int(np.searchsorted(cdfs[n], rng.random())), n)
+        k_term = -lgam[:n+1]  # c=q=1
+        conditional = sample_conditional_csg_cone_seed(
+            rng, n, np.arange(n), np.array([], dtype=int), lgam, k_term)
+        focused = sample_focused_csg_cone_seed(
+            rng, np.arange(n), 0, lgam, np.zeros(n+1))
+        self.assertEqual(set(conditional), set(full))
+        self.assertEqual(set(focused), set(full))
+        self.assertEqual(len(max_elements_adj(adj, set(conditional))), 33)
+
+    def test_explicit_cap_defines_truncated_law_and_rejects_cache_mismatch(self):
+        engine = PersistentLocalTransitionEngine(c0=1., q0=1., k_cap=2)
+        adj = np.zeros((3, 3), dtype=bool)
+        state = LocalizedCarrierState(adj, [engine.prop_model.rho_vac] * 3)
+        probs = engine.compute_probabilities(state)
+        self.assertEqual(probs[frozenset(range(3))], 0.)
+        self.assertAlmostEqual(sum(probs.values()), 1.)
+        self.assertEqual(engine._get_t_seqs(4)[0][3:], [0., 0.])
+        tables = precompute_csg_tables(40, .2, .2, k_cap=32) + precompute_csg_tables(40, .9, .6, k_cap=32)
+        with self.assertRaisesRegex(ValueError, "incompatible seed support"):
+            simulate_persistent_trajectory(40, tables_cache=tables)
+        # The same capped cache is valid when the truncated model is explicit.
+        self.assertEqual(simulate_persistent_trajectory(40, k_cap=32, tables_cache=tables)["N"], 40)
+
+    def test_log_scaled_analytic_kernel_retains_weight_ratios(self):
+        # At n=40, raw c**40 overflows, while the normalized law is finite.
+        engine = PersistentLocalTransitionEngine(c0=1.e8, q0=1., c1=1., q1=1.)
+        n = 40
+        adj = np.zeros((n, n), dtype=bool)
+        full = frozenset(range(n))
+        state = LocalizedCarrierState(adj, [engine.prop_model.rho_vac] * n)
+        with self.assertRaises(OverflowError):
+            _ = 1.e8**n
+        with patch("stage10_persistent_coupling_experiment.get_ideals_adj", return_value=[full]):
+            probability = engine.compute_probabilities(state)[full]
+        self.assertAlmostEqual(probability, (1.e8 / (1.+1.e8))**n, places=12)
+
+
 # =============================================================================
 # TIER 2: KOLMOGOROV CYLINDER PROJECTIVITY TESTS
 # =============================================================================
@@ -284,17 +371,17 @@ class TestKolmogorovCylinderProjectivity(unittest.TestCase):
 # =============================================================================
 
 class TestPostDensityConvergence(unittest.TestCase):
-    """Tier 3: Vanishing global post density rho_post(N) -> 0."""
+    """Tier 3: Finite sampled post density; no asymptotic conclusion."""
 
     def test_post_density_vanishing_rate(self) -> None:
-        """Asserts rho_post(N) decays to zero across N in {256, 512, 1024, 2048}."""
+        """Checks finite sampled density below 0.01 at the specified horizons."""
         res = verify_post_density_convergence(horizons=[256, 512], M_samples=5)
         for N_str, data in res.items():
-            self.assertTrue(data["rho_post_vanishing"])
+            self.assertTrue(data["finite_density_below_0_01"])
             self.assertLess(data["rho_post"], 0.01)
 
     def test_post_count_boundedness(self) -> None:
-        """Asserts mean post count remains uniformly bounded (E[N_post] <= 2.0)."""
+        """Checks sampled mean post count <=2 at the two specified horizons."""
         res = verify_post_density_convergence(horizons=[256, 512], M_samples=5)
         for N_str, data in res.items():
             self.assertLessEqual(data["mean_post_count"], 2.0)
@@ -376,7 +463,7 @@ class TestForwardMonteCarloScaling(unittest.TestCase):
 # =============================================================================
 
 class TestDownstreamNearSourceContrast(unittest.TestCase):
-    """Tier 5: Persistent contrast lower bound liminf |Delta O_{near}(N)| >= delta_* > 0."""
+    """Tier 5: Finite sampled contrast; no liminf conclusion."""
 
     def test_persistent_contrast_lower_bound(self) -> None:
         """Asserts Delta O_{near}(N) >= delta_* = 0.20 across all horizons under calibrated M = 15."""
@@ -420,9 +507,10 @@ class TestDownstreamNearSourceContrast(unittest.TestCase):
             self.assertEqual(res["gate"], "Gate 10")
             self.assertEqual(res["status"], "PASS")
             self.assertTrue(res["row_normalization_and_positivity"]["terminal_cutoff_required"] is False)
-            self.assertTrue(res["cylinder_projectivity"]["projectivity_holds_all_horizons"])
+            self.assertTrue(res["cylinder_projectivity"]["prefix_invariance_on_audited_horizons"])
             self.assertTrue(res["downstream_near_source_contrast"]["min_delta_O"] >= 0.20)
             self.assertEqual(res["fault_injection_verification"]["status"], "PASS")
+            self.assertEqual(res["incomparable_birth_counterexample"]["label_order_covariance"], "FAIL")
 
             # Confirm JSON exists on disk and is well-formed
             self.assertTrue(os.path.exists(test_json_path))
@@ -456,7 +544,7 @@ class TestAdversarialSensitivityAndFaultInjection(unittest.TestCase):
       2. Vacuum source carrier: Delta O_near == 0.0 and bitwise identical pasts to uncoupled.
       3. Transition engine zero coupling: TVD(q_{kappa=0}, q_0) == 0.0.
       4. Transition engine vacuum carrier: TVD(q_{vac}, q_0) == 0.0.
-      5. Asymptotic contrast growth across N in {256, 512, 1024, 2048} with M = 15.
+      5. Finite sampled contrast across N in {256, 512, 1024, 2048} with M = 15.
       6. Exact analytical ideal transition engine vs forward Monte Carlo sampler equivalence.
       7. Unpaired unperturbed control zero-drift within statistical error.
     """
@@ -525,7 +613,7 @@ class TestAdversarialSensitivityAndFaultInjection(unittest.TestCase):
         tvd_vac = 0.5 * sum(abs(q_vac[I] - q_unp[I]) for I in ideals)
         self.assertAlmostEqual(tvd_vac, 0.0, places=14)
 
-    def test_asymptotic_contrast_growth_m15(self):
+    def test_finite_horizon_contrast_growth_m15(self):
         """Verifies that with M = 15, mean contrast exceeds 0.20 and grows monotonically across all horizons."""
         res = get_shared_contrast_sweep()
         sweep = res["sweep_by_horizon"]

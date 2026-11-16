@@ -1,5 +1,7 @@
 # Prospective Research Protocol PW5-A: Intrinsic Sorkin–Johnston Stress and Order Backreaction
 
+> **Integration status — design / unverified execution.** Unexecuted prospective design. Literal hash placeholders below are not review evidence. No protocol completion or theorem acceptance is conferred by importing this file. See [the integration status inventory](docs/coordination/SWARM_INTEGRATION_STATUS.md).
+
 **Document ID**: `PW5A_PROTOCOL.md`  
 **Author**: `teamwork_worker_m1`  
 **Date**: 2026-11-14T01:25:00Z  

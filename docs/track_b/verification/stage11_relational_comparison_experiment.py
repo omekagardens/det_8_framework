@@ -71,6 +71,9 @@ def select_relational_anchors(
     Selects paired relational anchors (u_near, u_far):
       - u_far in V \\ (J^+[u_src] U J^-[u_src]) maximizing past volume |J^-[v]| and height L_max(v).
       - u_near in J^+[u_src] \\ {u_src} maximizing past volume and height.
+    Ties use the supplied birth label; this selector is not relabeling invariant.
+    Without a spacelike far anchor, raise an explicit ABSTAIN instead of
+    substituting an ancestor or the source.
     """
     if isinstance(in_cone, (int, np.integer)):
         u_src = int(in_cone)
@@ -88,7 +91,7 @@ def select_relational_anchors(
         if v != u_src and not poset[u_src, v] and not poset[v, u_src]
     ]
     if not spacelike_candidates:
-        spacelike_candidates = [v for v in out_cone if v != u_src]
+        raise ValueError("ABSTAIN: no spacelike far anchor exists for this source")
 
     def score_vertex(v: int) -> Tuple[int, int, int]:
         preds = np.where(poset[v, :v])[0]
@@ -275,17 +278,18 @@ def verify_tier1_spacelike_non_disturbance(
         is_spacelike = bool(not C[u_far_sel, u_src] and not C[u_src, u_far_sel] and u_far_sel != u_src)
         obs_far = compute_past_cone_observables(C, u_far_sel)
         return {
-            "mode": "fixed_poset",
+            "mode": "fixed_poset_geometry_only",
+            "evidence_scope": "Single-poset geometry diagnostic; no coupled and uncoupled arms were compared.",
             "u_src": u_src,
             "u_far": u_far_sel,
             "is_spacelike": is_spacelike,
             "L_max": obs_far["L_max"],
             "rho_link": obs_far["rho_link"],
             "past_volume": obs_far["past_volume"],
-            "delta_L_max": 0,
-            "delta_rho_link": 0.0,
-            "status": "PASS" if is_spacelike else "FAIL",
-            "zero_shift_verified": is_spacelike,
+            "delta_L_max": None,
+            "delta_rho_link": None,
+            "status": "NOT_TESTED" if is_spacelike else "ABSTAIN",
+            "zero_shift_verified": False,
         }
 
     max_H = max(horizons)
@@ -671,7 +675,10 @@ def verify_tier3_two_worldline_clock_exchange(
 
                 out_nodes = np.where(~tr["in_cone"])[0]
                 far_cands = [v for v in out_nodes if v > u_src and not C[v, u_src] and not C[u_src, v]]
-                u_far = far_cands[0] if far_cands else int(out_nodes[0])
+                if not far_cands:
+                    raise ValueError("ABSTAIN: no post-source spacelike far anchor for Tier 3")
+                # Declared birth-label choice within the valid spacelike domain.
+                u_far = far_cands[0]
 
                 metrics = compute_poset_intrinsic_metrics(C, tr["in_cone"], u_src=u_src)
                 eta_ov = metrics["eta_ov"]

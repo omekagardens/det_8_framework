@@ -1,5 +1,7 @@
 # Prospective Research Protocol PW6-A: Single-History Geometry Without Breaking Covariance
 
+> **Integration status — design / unverified execution.** Prospective design with historical execution claims. Referenced external verification suites are absent from this repository; the claimed executions and proof reviews have not been independently reproduced in this integration. No protocol completion or theorem acceptance is conferred by importing this file. See [the integration status inventory](docs/coordination/SWARM_INTEGRATION_STATUS.md).
+
 **Document ID**: `PW6A_PROTOCOL.md`  
 **Stage**: Stage 5A / PW6-A  
 **Date**: 2026-11-14T19:35:00Z  

@@ -1,7 +1,7 @@
 """
 stage10_persistent_coupling_experiment.py
 
-Stage 10: Persistent O(1) All-Horizon Local Coupling Engine and Scaling Benchmark.
+Stage 10: Finite-support cone coupling law and finite-horizon benchmark.
 
 Eliminates the Stage 8 horizon-shrinking defect theta = O(t^{N_{\\rm act}}) by coupling
 localized present-state carriers X = (C, {\\mathcal{Z}_v}_{v \\in V(C)}) through an
@@ -10,9 +10,11 @@ propagation \\Phi_{\\rm prop} reading strictly from \\operatorname{Max}(S).
 
 Mathematical Alignment Guarantee:
   `PersistentLocalTransitionEngine.compute_probabilities` (exact closed-form ideal
-  probabilities) and `simulate_persistent_trajectory` (rejection-free O(k_cap) forward
+  probabilities) and `simulate_persistent_trajectory` (rejection-free full finite-support forward
   Monte Carlo sampler using exact Vandermonde conditional seed-size splitting) implement
-  the EXACT SAME Markov transition law on every finite poset:
+  the same real-valued Markov transition law on every finite poset when k_cap=None.
+  The implementation uses floating-point CDFs, not exact real arithmetic. An explicit
+  finite k_cap selects a different, consistently truncated law (t_k=0 above the cap):
     - Outside J^+[u_*]: q(C, X, T) = q_0(C, T) identically (strict spacelike non-disturbance).
     - Inside J^+[u_*]:  q(C, X, S) = (1 - \\bar{\\lambda}(F, X)) q_0(C, S)
                         + P_{\\rm enter}(C; u_*) \\frac{1}{|F|} \\sum_{v \\in S \\cap F} \\lambda(v) q_1^{(v)}(C, S),
@@ -22,7 +24,13 @@ Mathematical Alignment Guarantee:
       analytical kernel and the forward sampler collapse identically (TVD = 0.0) to
       unconditional Rideout-Sorkin CSG (c_0, q_0).
 
-Exports benchmark results to stage10_coupling_experiment_results.json asserting Gate 10 criteria.
+This Stage 10 kernel is NOT Stage 9's repaired mixed-diamond kernel. Row
+normalization and cylinder projectivity do not imply label-order covariance;
+verify_incomparable_birth_counterexample records a mixed-diamond failure. Carrier
+updates read covering parents, but cone selection/normalization reads the cone.
+Finite benchmark persistence is not an asymptotic persistence theorem.
+
+Exports finite benchmark results to stage10_coupling_experiment_results.json.
 """
 
 from __future__ import annotations
@@ -60,6 +68,26 @@ from stage9_localized_carrier_experiment import (
 # SECTION 1: EXACT PERSISTENT INTRA-CONE TRANSITION ENGINE
 # =============================================================================
 
+def _logsumexp(values: List[float]) -> float:
+    if not values:
+        return -math.inf
+    peak = max(values)
+    if peak == -math.inf:
+        return peak
+    return peak + math.log(math.fsum(math.exp(v - peak) for v in values))
+
+
+def _log_seed_weights(n: int, c: float, q: float, k_cap: Optional[int]) -> List[float]:
+    return [k * math.log(c) + k * (k - 1) / 2 * math.log(q)
+            if k_cap is None or k <= k_cap else -math.inf
+            for k in range(n + 1)]
+
+
+def _log_binomial_sum(n: int, offset: int, log_t: List[float]) -> float:
+    return _logsumexp([math.log(math.comb(n, j)) + log_t[offset + j]
+                       for j in range(n + 1)])
+
+
 class PersistentLocalTransitionEngine:
     """
     Persistent all-horizon local transition kernel without terminal cutoff $N_{\\rm act}$.
@@ -76,10 +104,11 @@ class PersistentLocalTransitionEngine:
         intra-cone focused probability that $J^-_C[B] = S$ for $v \\in B \\subseteq F$ weighted by $t_{1, \\lvert B\\rvert}$.
 
     Guarantees:
-      1. Branch positivity: $q(C, X, I) \\ge \\frac{1}{1 + \\kappa} q_0(C, I) > 0$ for all $I \\in \\mathcal{I}(C)$ and $n \\ge 0$.
+      1. For untruncated real-valued positive seed weights, branch positivity: $q(C, X, I) \\ge \\frac{1}{1 + \\kappa} q_0(C, I) > 0$ for all $I \\in \\mathcal{I}(C)$ and $n \\ge 0$.
       2. Exact row normalization: $\\sum_{I \\in \\mathcal{I}(C)} q(C, X, I) = 1.0$ identically without exponential $Z_{\\rm cone}$ sums.
       3. Exact collapse (TVD = 0.0) to baseline $q_0$ when $\\kappa = 0$ or all cone carriers are in $\\rho_{\\rm vac}$.
-      4. Zero dependence on global step counter $n$ or artificial horizon cutoff $N_{\\rm act}$.
+      4. No terminal horizon cutoff; the current finite poset and its cone still enter the law.
+      5. A finite explicit k_cap truncates both engines and can remove ideal support.
     """
 
     def __init__(
@@ -92,7 +121,7 @@ class PersistentLocalTransitionEngine:
         gamma: float = 0.0,
         omega0: float = 0.25,
         omega1: float = 0.85,
-        k_cap: int = 32,
+        k_cap: Optional[int] = None,
     ) -> None:
         self.c0 = c0
         self.q0 = q0
@@ -104,14 +133,21 @@ class PersistentLocalTransitionEngine:
         self.omega1 = omega1
         self.k_cap = k_cap
 
-        # Precompute Log-Quadratic subset coupling sequences (extended dynamically if needed)
-        self.t0_seq = [(c0 ** k) * (q0 ** (k * (k - 1) // 2)) for k in range(k_cap + 1)]
-        self.t1_seq = [(c1 ** k) * (q1 ** (k * (k - 1) // 2)) for k in range(k_cap + 1)]
+        if k_cap is not None and (not isinstance(k_cap, int) or k_cap < 1):
+            raise ValueError("k_cap must be None or a positive integer")
+        # Cache size is not a support cutoff. Explicit caps define truncated weights.
+        self._cache_size = 32 if k_cap is None else k_cap
+        self.t0_seq = [(c0 ** k) * (q0 ** (k * (k - 1) // 2)) for k in range(self._cache_size + 1)]
+        self.t1_seq = [(c1 ** k) * (q1 ** (k * (k - 1) // 2)) for k in range(self._cache_size + 1)]
         self.prop_model = CarrierPropagationModel(gamma=gamma, omega0=omega0, omega1=omega1)
 
     def _get_t_seqs(self, n: int) -> Tuple[List[float], List[float]]:
-        if n <= self.k_cap:
+        """Raw reference weights; analytic probabilities use log weights to avoid early underflow."""
+        if n <= self._cache_size:
             return self.t0_seq, self.t1_seq
+        if self.k_cap is not None:
+            padding = [0.0] * (n - self.k_cap)
+            return self.t0_seq + padding, self.t1_seq + padding
         t0 = [(self.c0 ** k) * (self.q0 ** (k * (k - 1) // 2)) for k in range(n + 1)]
         t1 = [(self.c1 ** k) * (self.q1 ** (k * (k - 1) // 2)) for k in range(n + 1)]
         return t0, t1
@@ -129,13 +165,20 @@ class PersistentLocalTransitionEngine:
         u_star: Optional[int] = None,
     ) -> Dict[frozenset[int], float]:
         """
-        Computes the exact transition probability distribution over all ideals of state.adj.
+        Evaluates the finite real-valued law over all ideals using log-scaled sums.
+        Returned floats can still round tiny probabilities to zero.
         """
         adj = state.adj
         n = adj.shape[0]
-        t0_seq, t1_seq = self._get_t_seqs(n)
+        log_t0 = _log_seed_weights(n, self.c0, self.q0, self.k_cap)
+        log_t1 = _log_seed_weights(n, self.c1, self.q1, self.k_cap)
+        log_z0 = _log_binomial_sum(n, 0, log_t0)
         ideals = get_ideals_adj(adj)
-        q0_map = {I: csg_ideal_prob_exact(adj, I, t0_seq) for I in ideals}
+        q0_map = {}
+        for I in ideals:
+            d = len(max_elements_adj(adj, I))
+            log_num = _log_binomial_sum(len(I) - d, d, log_t0)
+            q0_map[I] = math.exp(log_num - log_z0)
 
         if u_star is None or u_star < 0 or u_star >= n:
             return q0_map
@@ -160,40 +203,60 @@ class PersistentLocalTransitionEngine:
         }
         lam_bar = sum(lam_v.values()) / F_n
 
-        # Intra-cone anchored partition sum Z_{F_n}^{(1)}(1) = sum_{j=0}^{min(F_n-1, k_cap-1)} binom(F_n-1, j) t_{1, j+1}
-        j_lim = min(F_n - 1, len(t1_seq) - 2)
-        z1_cone_anch = sum(math.comb(F_n - 1, j) * t1_seq[j + 1] for j in range(j_lim + 1))
+        # Work in logs so raw t_k underflow does not discard a representable
+        # binomially weighted term. Returned probabilities still have float limits.
+        log_z1_cone_anch = _log_binomial_sum(F_n - 1, 1, log_t1)
 
         out_probs: Dict[frozenset[int], float] = {T: q0_map[T] for T in outside}
         for S in inside:
             max_elems = set(max_elements_adj(reach, S))
             s_focused = 0.0
-            if max_elems.issubset(cone_set) and z1_cone_anch > 0.0:
+            if max_elems.issubset(cone_set) and math.isfinite(log_z1_cone_anch):
                 d = len(max_elems)
                 s_cap_f = S & cone_set
                 p_F = len(s_cap_f) - d
-                num_max = sum(
-                    math.comb(p_F, j) * t1_seq[d + j]
-                    for j in range(p_F + 1)
-                    if d + j < len(t1_seq)
-                )
-                num_nonmax = (
-                    sum(
-                        math.comb(p_F - 1, j) * t1_seq[d + 1 + j]
-                        for j in range(p_F)
-                        if d + 1 + j < len(t1_seq)
-                    )
-                    if p_F >= 1
-                    else 0.0
-                )
+                q1_max = math.exp(_log_binomial_sum(p_F, d, log_t1) - log_z1_cone_anch)
+                q1_nonmax = (math.exp(_log_binomial_sum(p_F - 1, d + 1, log_t1)
+                                      - log_z1_cone_anch) if p_F >= 1 else 0.0)
                 for v in s_cap_f:
                     if lam_v[v] > 0.0:
-                        q1_v = (num_max if v in max_elems else num_nonmax) / z1_cone_anch
+                        q1_v = q1_max if v in max_elems else q1_nonmax
                         s_focused += lam_v[v] * q1_v
 
             out_probs[S] = (1.0 - lam_bar) * q0_map[S] + p_enter * (s_focused / F_n)
 
         return out_probs
+
+
+def verify_incomparable_birth_counterexample() -> Dict[str, Any]:
+    """Two birth orders give the same decorated poset but different path weights.
+
+    This is a negative covariance result, not a failing normalization test. Keep
+    the Stage 10 law unchanged: a new covariant candidate requires separate work.
+    """
+    engine = PersistentLocalTransitionEngine()
+    prop = engine.prop_model
+    source = prop.excitate(prop.rho_vac.copy())
+    initial = LocalizedCarrierState(np.zeros((1, 1), dtype=bool), [source], 0)
+
+    def path(first: Set[int], second: Set[int]):
+        q_first = engine.compute_probabilities(initial, 0)[frozenset(first)]
+        middle = initial.add_vertex(first, prop.phi_prop(initial.get_frontier_carrier(first)))
+        q_second = engine.compute_probabilities(middle, 0)[frozenset(second)]
+        final = middle.add_vertex(second, prop.phi_prop(middle.get_frontier_carrier(second)))
+        return q_first * q_second, final
+
+    forward, final_forward = path(set(), {0})
+    reverse, final_reverse = path({0}, set())
+    permutation = [0, 2, 1]
+    same = (np.array_equal(final_forward.adj, final_reverse.adj[np.ix_(permutation, permutation)])
+            and all(np.allclose(a, final_reverse.carriers[j], rtol=0, atol=1e-15)
+                    for a, j in zip(final_forward.carriers, permutation)))
+    return {"same_final_decorated_state": bool(same),
+            "unrelated_then_child_probability": forward,
+            "child_then_unrelated_probability": reverse,
+            "absolute_gap": abs(forward - reverse),
+            "label_order_covariance": "FAIL" if same and abs(forward-reverse) > 1e-14 else "UNRESOLVED"}
 
 
 def persistent_local_transition_probability(
@@ -202,8 +265,8 @@ def persistent_local_transition_probability(
     ideal: frozenset[int] | Set[int],
 ) -> float:
     """
-    Returns exact transition probability q(C, X, ideal) for a given precursor ideal.
-    Satisfies q > 0 and sum_S q = 1 for all n >= 0.
+    Returns a floating-point evaluation of q(C, X, ideal).
+    The untruncated real-valued law has positive normalized rows.
     """
     engine = PersistentLocalTransitionEngine()
     probs = engine.compute_probabilities(carrier_state, u_star=carrier_state.source_anchor)
@@ -218,13 +281,21 @@ def precompute_csg_tables(
     max_N: int,
     c: float,
     q: float,
-    k_cap: int = 32,
+    k_cap: Optional[int] = None,
 ) -> Tuple[np.ndarray, List[Optional[np.ndarray]], np.ndarray]:
     """
     Precomputes log-gamma, unconditional inverse-CDF tables, and partition sums log_z
-    for fast Rideout-Sorkin CSG sampling in O(max_N * k_cap) time.
+    for Rideout-Sorkin CSG sampling. With k_cap=None every size 0..n is
+    represented, using O(max_N**2) table work/storage. An explicit cap instead
+    defines t_k=0 for k>k_cap; it is an approximation to the untruncated law.
+    Floating-point exponentiation/CDF accumulation can lose extremely small tails.
     """
-    top = max(max_N, k_cap)
+    if k_cap is not None and (not isinstance(k_cap, int) or k_cap < 1):
+        raise ValueError("k_cap must be None or a positive integer")
+    if max_N < 0 or not (math.isfinite(c) and math.isfinite(q) and c > 0 and q > 0):
+        raise ValueError("max_N must be nonnegative and c, q finite and positive")
+    k_cap = max_N if k_cap is None else min(max_N, k_cap)
+    top = max_N
     lgam = np.array([math.lgamma(m + 1) for m in range(top + 1)], dtype=np.float64)
     ks = np.arange(k_cap + 1)
     log_c = math.log(c)
@@ -255,10 +326,10 @@ def sample_conditional_csg_cone_seed(
     ext_members: np.ndarray,
     lgam: np.ndarray,
     k_term0: np.ndarray,
-    k_cap: int = 32,
+    k_cap: Optional[int] = None,
 ) -> np.ndarray:
     """
-    Exact rejection-free O(k_cap) Vandermonde sampler for baseline CSG seed sets
+    Rejection-free Vandermonde sampler (up to floating-point rounding) for CSG seed sets
     conditioned on entering the future cone: B ~ P_{t_0}(B | B cap F != empty).
       1. Draws total seed size k in {1, ..., min(n, k_cap)} with exact weight
          [binom(n, k) - binom(n - F_n, k)] * t_{0, k}.
@@ -268,7 +339,9 @@ def sample_conditional_csg_cone_seed(
     """
     F_n = len(cone_members)
     n_ext = len(ext_members)
-    klim = min(n, k_cap)
+    klim = n if k_cap is None else min(n, k_cap)
+    if not F_n or len(k_term0) <= klim or len(lgam) <= n:
+        raise ValueError("nonempty cone and seed tables covering the requested support are required")
     ks = np.arange(1, klim + 1)
 
     lw_tot = lgam[n] - lgam[n - ks] + k_term0[ks]
@@ -277,7 +350,7 @@ def sample_conditional_csg_cone_seed(
     if np.any(valid_ext):
         ks_v = ks[valid_ext]
         lw_ext = lgam[n_ext] - lgam[n_ext - ks_v] + k_term0[ks_v]
-        w_k[valid_ext] *= np.maximum(0.0, 1.0 - np.exp(lw_ext - lw_tot[valid_ext]))
+        w_k[valid_ext] *= np.maximum(0.0, -np.expm1(lw_ext - lw_tot[valid_ext]))
 
     cdf_k = np.cumsum(w_k / np.sum(w_k))
     cdf_k[-1] = 1.0
@@ -306,6 +379,35 @@ def sample_conditional_csg_cone_seed(
     return b_cone
 
 
+def sample_focused_csg_cone_seed(
+    rng: np.random.Generator,
+    cone_members: np.ndarray,
+    idx_probe: int,
+    lgam: np.ndarray,
+    log_t: np.ndarray,
+    k_cap: Optional[int] = None,
+) -> np.ndarray:
+    """Sample an anchored cone seed with weights t_|B| and no implicit size cap."""
+    F_n = len(cone_members)
+    j_lim = F_n - 1 if k_cap is None else min(F_n - 1, k_cap - 1)
+    if j_lim < 0 or len(log_t) < j_lim + 2:
+        raise ValueError("nonempty cone and weights covering anchored support are required")
+    v_probe = int(cone_members[idx_probe])
+    if j_lim == 0:
+        return np.array([v_probe], dtype=int)
+    js = np.arange(j_lim + 1)
+    lw = lgam[F_n - 1] - lgam[(F_n - 1) - js] - lgam[js] + log_t[1 : j_lim + 2]
+    w = np.exp(lw - np.max(lw))
+    cdf = np.cumsum(w / np.sum(w))
+    cdf[-1] = 1.0
+    j = min(int(np.searchsorted(cdf, rng.random())), j_lim)
+    if j == 0:
+        return np.array([v_probe], dtype=int)
+    others_idx = rng.choice(F_n - 1, size=j, replace=False)
+    others_idx[others_idx >= idx_probe] += 1
+    return np.append(cone_members[others_idx], v_probe)
+
+
 def simulate_persistent_trajectory(
     N: int,
     u_src: int = 4,
@@ -319,10 +421,10 @@ def simulate_persistent_trajectory(
     q0: float = 0.20,
     c1: float = 0.90,
     q1: float = 0.60,
-    k_cap: int = 32,
+    k_cap: Optional[int] = None,
 ) -> Dict[str, Any]:
     """
-    Generates a causal set trajectory of length N from the exact Intra-Cone Focused Seed
+    Generates a causal set trajectory of length N from the Intra-Cone Focused Seed
     Markov Kernel using synchronized exterior/cone random streams (rng_ext, rng_cone):
       1. Pre-source epoch (n <= u_src): baseline CSG (c0, q0) drawn from rng_ext.
       2. Post-source epoch (n > u_src):
@@ -336,6 +438,11 @@ def simulate_persistent_trajectory(
            or exact conditional baseline CSG B ~ P_{t_0}(B | B cap F != empty) otherwise.
       3. Carrier propagation: applies unmodified Stage 9 CPTP channel Phi_prop across ALL
          incoming Hasse covering parents Max(S) (with zero hidden cone-membership filter).
+
+    k_cap=None uses every finite seed size. An explicit cap defines a truncated law
+    in BOTH this sampler and PersistentLocalTransitionEngine. Caches must have the
+    requested support and weight parameters. Computation is floating-point, and
+    finite benchmarks do not establish label-order covariance or asymptotic persistence.
     """
     if seed is None:
         master_ss = np.random.SeedSequence()
@@ -352,8 +459,19 @@ def simulate_persistent_trajectory(
     else:
         lgam0, cdf0, log_z0, lgam1, cdf1, log_z1 = tables_cache
 
-    ks_cap = np.arange(k_cap + 1)
-    k_term0 = ks_cap * math.log(c0) + 0.5 * ks_cap * (ks_cap - 1) * math.log(q0) - lgam0[: k_cap + 1]
+    seed_limit = N if k_cap is None else min(N, k_cap)
+    for cdfs, log_z, c, q in [(cdf0, log_z0, c0, q0), (cdf1, log_z1, c1, q1)]:
+        if len(cdfs) <= N or len(log_z) <= N:
+            raise ValueError("cached CSG tables do not cover the requested horizon")
+        if any(len(cdfs[n]) != min(n, seed_limit) + 1 for n in range(1, N + 1)):
+            raise ValueError("cached CSG tables have incompatible seed support")
+        for n in range(1, min(N, 2) + 1):
+            expected = math.log(sum(math.comb(n, k) * c**k * q**(k*(k-1)//2)
+                                    for k in range(min(n, seed_limit) + 1)))
+            if not math.isclose(float(log_z[n]), expected, rel_tol=1e-12, abs_tol=1e-12):
+                raise ValueError("cached CSG tables have incompatible seed weights")
+    ks_cap = np.arange(seed_limit + 1)
+    k_term0 = ks_cap * math.log(c0) + 0.5 * ks_cap * (ks_cap - 1) * math.log(q0) - lgam0[: seed_limit + 1]
     log_t1 = ks_cap * math.log(c1) + 0.5 * ks_cap * (ks_cap - 1) * math.log(q1)
 
     C = np.zeros((N, N), dtype=bool)
@@ -395,11 +513,10 @@ def simulate_persistent_trajectory(
 
         if F_n == 0:
             p_enter = 0.0
-        elif F_n == n:
-            p_enter = 1.0
         else:
+            # Even when F is the entire poset, the empty seed is outside the cone.
             log_p_out = log_z0[n_ext] - log_z0[n]
-            p_enter = max(0.0, min(1.0, 1.0 - math.exp(log_p_out)))
+            p_enter = max(0.0, min(1.0, -math.expm1(log_p_out)))
 
         enters = (rng_ext.random() < p_enter)
         mask = 0
@@ -426,24 +543,9 @@ def simulate_persistent_trajectory(
             )
 
             if lam_coup > 0.0 and rng_cone.random() < lam_coup:
-                # Intra-cone focused draw: v_probe in B subseteq F with |B \ {v_probe}| = j
-                j_lim = min(F_n - 1, k_cap - 1)
-                if j_lim == 0:
-                    b = np.array([v_probe], dtype=int)
-                else:
-                    js = np.arange(j_lim + 1)
-                    lw_a = lgam1[F_n - 1] - lgam1[(F_n - 1) - js] - lgam1[js] + log_t1[1 : j_lim + 2]
-                    lw_a -= np.max(lw_a)
-                    w_a = np.exp(lw_a)
-                    cdf_a = np.cumsum(w_a / np.sum(w_a))
-                    cdf_a[-1] = 1.0
-                    j = int(min(int(np.searchsorted(cdf_a, rng_cone.random())), j_lim))
-                    if j > 0:
-                        others_idx = rng_cone.choice(F_n - 1, size=j, replace=False)
-                        others_idx[others_idx >= idx_probe] += 1
-                        b = np.append(cone_members[others_idx], v_probe)
-                    else:
-                        b = np.array([v_probe], dtype=int)
+                b = sample_focused_csg_cone_seed(
+                    rng_cone, cone_members, idx_probe, lgam1, log_t1, k_cap=k_cap
+                )
             else:
                 b = sample_conditional_csg_cone_seed(
                     rng_cone, n, cone_members, ext_members, lgam0, k_term0, k_cap=k_cap
@@ -566,7 +668,7 @@ def verify_post_density_convergence(
     tables_cache: Optional[Tuple] = None,
 ) -> Dict[str, Any]:
     """
-    Computes global post density \\rho_{\\rm post}(N) across horizons, asserting \\rho_{\\rm post} \\to 0.
+    Computes global post density at the supplied finite horizons; no limit is proved.
     """
     results: Dict[str, Any] = {}
     max_N = max(horizons)
@@ -590,7 +692,7 @@ def verify_post_density_convergence(
         results[str(N)] = {
             "mean_post_count": mean_posts,
             "rho_post": rho_post,
-            "rho_post_vanishing": bool(rho_post < 0.01),
+            "finite_density_below_0_01": bool(rho_post < 0.01),
         }
 
     return results
@@ -603,7 +705,7 @@ def sweep_near_source_contrast(
     tables_cache: Optional[Tuple] = None,
 ) -> Dict[str, Any]:
     """
-    Sweeps downstream near-source contrast across horizons, asserting liminf |\\Delta\\mathcal{O}_{near}(N)| >= \\delta_*.
+    Measures sampled near-source contrast at the supplied finite horizons; no liminf is proved.
     """
     max_N = max(horizons)
     if tables_cache is None:
@@ -764,7 +866,7 @@ def run_stage10_verification(
     """
     t_start = time.time()
     print("=" * 80)
-    print("STAGE 10: PERSISTENT O(1) ALL-HORIZON LOCAL COUPLING BENCHMARK")
+    print("STAGE 10: FINITE-HORIZON CONE COUPLING BENCHMARK")
     print("=" * 80)
 
     print("\n>>> AUDITING ROW NORMALIZATION & CYLINDER PROJECTIVITY <<<")
@@ -774,12 +876,12 @@ def run_stage10_verification(
     print(f"  Prefix invariance verified:      {proj_res['prefix_invariance_verified']}")
     print(f"  Row normalization verified:      {proj_res['row_normalization_verified']}")
 
-    print("\n>>> AUDITING GLOBAL POST DENSITY CONVERGENCE <<<")
+    print("\n>>> MEASURING FINITE-HORIZON GLOBAL POST DENSITY <<<")
     max_H = max(horizons)
     tables = precompute_csg_tables(max_H, 0.20, 0.20) + precompute_csg_tables(max_H, 0.90, 0.60)
     post_res = verify_post_density_convergence(horizons=horizons, M_samples=M_samples, tables_cache=tables)
     for N_str, pdata in post_res.items():
-        print(f"  Horizon N={int(N_str):4d}: post_count={pdata['mean_post_count']:.2f}, rho_post={pdata['rho_post']:.6f} [Vanishing: {pdata['rho_post_vanishing']}]")
+        print(f"  Horizon N={int(N_str):4d}: post_count={pdata['mean_post_count']:.2f}, rho_post={pdata['rho_post']:.6f} [Density below 0.01: {pdata['finite_density_below_0_01']}]")
 
     print(f"\n>>> SWEEPING DOWNSTREAM NEAR-SOURCE CONTRAST (delta_* = 0.20, M={M_samples}) <<<")
     contrast_res = sweep_near_source_contrast(
@@ -805,7 +907,8 @@ def run_stage10_verification(
     gate10_pass = (
         proj_res["row_normalization_verified"]
         and proj_res["branch_positivity_verified"]
-        and all(d["rho_post_vanishing"] for d in post_res.values())
+        and proj_res["prefix_invariance_verified"]
+        and all(d["finite_density_below_0_01"] for d in post_res.values())
         and contrast_res["gate10_contrast_pass"]
         and (fault_res["status"] == "PASS")
     )
@@ -834,7 +937,8 @@ def run_stage10_verification(
             "delta_star": 0.20,
             "M_samples": M_samples,
             "carrier_propagation": "unmodified_stage9_all_max_elements",
-            "kernel_sampler_alignment": "exact_intracone_focused_vandermonde_split",
+            "kernel_sampler_alignment": "same_full_finite_seed_law_in_real_arithmetic; floating_point_evaluation",
+            "seed_size_cap": None,
         },
         "row_normalization_and_positivity": {
             "status": "PASS" if (proj_res["row_normalization_verified"] and proj_res["branch_positivity_verified"]) else "FAIL",
@@ -845,10 +949,12 @@ def run_stage10_verification(
         "cylinder_projectivity": {
             "status": "PASS" if proj_res["prefix_invariance_verified"] else "FAIL",
             "max_projectivity_deviation": proj_res["max_projectivity_deviation"],
-            "projectivity_holds_all_horizons": proj_res["prefix_invariance_verified"],
+            "prefix_invariance_on_audited_horizons": proj_res["prefix_invariance_verified"],
+            "horizons_audited": horizons,
+            "mathematical_scope": "Normalized horizon-independent Markov rows define a projective labeled-history family, without label-order covariance.",
         },
         "global_post_density": {
-            "status": "PASS" if all(d["rho_post_vanishing"] for d in post_res.values()) else "FAIL",
+            "status": "PASS" if all(d["finite_density_below_0_01"] for d in post_res.values()) else "FAIL",
             "horizons": horizons,
             "by_horizon": post_res,
         },
@@ -861,6 +967,8 @@ def run_stage10_verification(
             "by_horizon": contrast_res["sweep_by_horizon"],
         },
         "fault_injection_verification": fault_res,
+        "incomparable_birth_counterexample": verify_incomparable_birth_counterexample(),
+        "claim_scope": "Finite benchmark PASS does not establish label-order covariance, asymptotic persistence, or physical dynamics.",
         "timing_seconds": t_elapsed,
     }
 

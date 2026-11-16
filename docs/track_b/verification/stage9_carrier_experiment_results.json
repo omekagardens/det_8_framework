@@ -1,8 +1,8 @@
 {
   "metadata": {
     "stage": "Stage 9: Localized Present-State Carrier and Order-Consistent Source Introduction",
-    "timestamp": "2026-11-16T10:59:03Z",
-    "total_wall_seconds": 4.588986158370972,
+    "timestamp": "2026-11-16T18:53:02Z",
+    "total_wall_seconds": 3.4263522624969482,
     "gate9_passed": true,
     "audit_methodology": {
       "carrier_isomorphism": "genuine_extended_poset_evaluation",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T10:59:17Z",
+  "timestamp": "2026-11-16T18:53:13Z",
   "gate": "Gate 10",
   "status": "PASS",
   "parameters": {
@@ -15,18 +15,26 @@
     "delta_star": 0.2,
     "M_samples": 15,
     "carrier_propagation": "unmodified_stage9_all_max_elements",
-    "kernel_sampler_alignment": "exact_intracone_focused_vandermonde_split"
+    "kernel_sampler_alignment": "same_full_finite_seed_law_in_real_arithmetic; floating_point_evaluation",
+    "seed_size_cap": null
   },
   "row_normalization_and_positivity": {
     "status": "PASS",
     "max_row_norm_error": 0.0,
-    "min_probability": 0.040071505939300645,
+    "min_probability": 0.04007150593930063,
     "terminal_cutoff_required": false
   },
   "cylinder_projectivity": {
     "status": "PASS",
     "max_projectivity_deviation": 0.0,
-    "projectivity_holds_all_horizons": true
+    "prefix_invariance_on_audited_horizons": true,
+    "horizons_audited": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "mathematical_scope": "Normalized horizon-independent Markov rows define a projective labeled-history family, without label-order covariance."
   },
   "global_post_density": {
     "status": "PASS",
@@ -40,22 +48,22 @@
       "256": {
         "mean_post_count": 0.0,
         "rho_post": 0.0,
-        "rho_post_vanishing": true
+        "finite_density_below_0_01": true
       },
       "512": {
         "mean_post_count": 0.0,
         "rho_post": 0.0,
-        "rho_post_vanishing": true
+        "finite_density_below_0_01": true
       },
       "1024": {
         "mean_post_count": 0.0,
         "rho_post": 0.0,
-        "rho_post_vanishing": true
+        "finite_density_below_0_01": true
       },
       "2048": {
         "mean_post_count": 0.0,
         "rho_post": 0.0,
-        "rho_post_vanishing": true
+        "finite_density_below_0_01": true
       }
     }
   },
@@ -146,5 +154,13 @@
       "total_variation_distance": 0.0
     }
   },
-  "timing_seconds": 14.544571876525879
+  "incomparable_birth_counterexample": {
+    "same_final_decorated_state": true,
+    "unrelated_then_child_probability": 0.12152777777777782,
+    "child_then_unrelated_probability": 0.11837121212121215,
+    "absolute_gap": 0.003156565656565663,
+    "label_order_covariance": "FAIL"
+  },
+  "claim_scope": "Finite benchmark PASS does not establish label-order covariance, asymptotic persistence, or physical dynamics.",
+  "timing_seconds": 10.37230110168457
 }

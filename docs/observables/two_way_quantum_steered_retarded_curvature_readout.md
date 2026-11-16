@@ -1,5 +1,7 @@
 # Two-way quantum-steered retarded electric curvature readout and causal-order co-registration
 
+> **Integration status — research draft.** Imported from the swarm branch with its original provenance. The review narratives and identifiers below are historical author reports; their underlying review artifacts were not available for coordinator verification. They do not establish current scientific acceptance. Mathematical claims remain conditional draft arguments, not accepted dependencies or empirical results. See [the integration status inventory](../coordination/SWARM_INTEGRATION_STATUS.md).
+
 **Decision.** Extending two-way quantum-order steering and retarded cavity gravity to live suffix branches establishes a self-contained, gauge-invariant physical readout wherein initial qubit coherence modulates causal versus spacelike suffix-branch probabilities, generating differential retarded electric Riemann curvature contrasts at finite exterior radius co-registered with discrete causal-order invariants and final qubit observables; Status-M ontological documents (ONTOLOGY.md, GOVERNANCE.md, PHYSICS.md, FALSIFICATION_LEDGER.md) remain strictly quarantined, and no claim is made to derive continuum spacetime dimension, Born's rule, physical constants, or General Relativity.
 
 ---
