@@ -1,3 +1,34 @@
+## Owned AI, mathematics/computing and integrated-model research — 16 November 2026
+
+The [AI lane](docs/coordination/AI_RESEARCH_SCOPE.md) owns genuine AI questions,
+including bounded prototypes and evaluations. The
+[CompSci lane](docs/coordination/COMPUTER_SCIENCE_RESEARCH_SCOPE.md) owns general
+mathematics and computing; its remit extends beyond AI and KV selection.
+The [PIM lane](docs/coordination/PROVISIONAL_INTEGRATED_MODEL.md) selects useful
+finite integration tasks from the whole programme's accepted and provisional
+work, active reservations, gaps and counterexamples. Its accepted PIM001
+baseline is a starting point for justified integration, not a repeated toy loop.
+
+Each lane owns its current queue, selects and starts compatible finite successors
+during active turns, and keeps one active author package with distinct review.
+Pending review holds dependent adoption while independent work may continue.
+After a turn ends, the existing hourly coordinator heartbeat supplies actual
+resume dispatch to eligible idle owners and checks receiving activity; a prompt
+does not wake a chat. The coordinator refreshes programme context and preserves
+other lanes' reservations and independent loops.
+
+These are narrow research implementation and evaluation exceptions to the older
+blanket pause. Unrelated production, deployment, maintenance, general tooling
+and RET SDK work remain paused. The fresh supported established-account guard
+requires ordinary service and strictly more than 30% remaining in every
+applicable reported window. Report runs, reproduces, derives from DET and agrees
+with observations separately. Useful mathematics and negative results do not
+require an advantage claim. See the
+[current controls](docs/coordination/FOUNDATIONAL_RESEARCH_SCOPE.md#current-programme-controls--16-november-2026).
+Earlier entries retain their historical scope.
+
+---
+
 ## Provisional Integrated Model — first baseline accepted 16 November 2026
 
 The [PIM charter](docs/coordination/PROVISIONAL_INTEGRATED_MODEL.md) adds a
@@ -11,8 +42,9 @@ check of all 120 histories reproduce the accepted results and known field
 covariance failure. Runs and reproduces are supported; no new derivation from
 DET ontology or agreement with observations is claimed. No empirical calibration
 or holdout is used in this baseline.
-Minimal assigned PIM research implementation and review are authorized;
-unrelated software, RET SDK, maintenance and benchmarking remain paused.
+Minimal registered PIM research implementation and review are authorized;
+the AI and CompSci research exceptions above also apply. Unrelated software,
+RET SDK, maintenance and benchmarking remain paused.
 Earlier dated entries below retain their historical scope.
 
 ---

@@ -6,8 +6,9 @@ separate exact check of all 120 histories passed. The implementation reproduces
 registered results and the known covariance failure; observations remain untested.
 **Owner:** DET Provisional Integrated Model, chat
 `01a1e69d-1feb-7b82-b102-14ce901a91b1`.
-**Coordination and review:** The coordinator assigns finite milestones and owns
-shared integration/publication. DET Energy Research independently reviews the
+**Coordination and review:** The lane selects and starts finite milestones within
+this remit; the coordinator refreshes programme context, resolves reservations
+and owns shared integration/publication. DET Energy Research independently reviews the
 first integrated output. Classical and QR retain their independent programmes.
 
 ## Purpose and claim discipline
@@ -83,8 +84,8 @@ meaningful tests against the accepted results, a command/readme, an assumptions
 record, a result report and exact input/output manifest. Run the registered
 cases and report actual outcomes. Stop at the stable baseline and its distinct
 integrated-output review, or a precise unresolved premise or failure; checkpoint
-unfinished work rather than declaring completion. No replacement law or next
-model is automatic. The [public baseline](../../research/provisional_integrated_model/PIM001/README.md)
+unfinished work rather than declaring completion. Completion does not itself adopt a replacement law or validate a next model.
+The lane selects a separately bounded successor under the continuity rule below. The [public baseline](../../research/provisional_integrated_model/PIM001/README.md)
 contains the runnable model, exact tests, assumptions and full result report.
 DET Energy Research independently verified execution and all 120 serialized
 histories against the accepted source tables and field formulas; repeated full
@@ -102,7 +103,7 @@ bounded questions and honest evidence labels.
 ## Implementation boundary and continuity
 
 The exception permits only minimal research code, its execution, necessary
-checks and independent review for an explicitly assigned PIM physics milestone.
+checks and independent review for a PIM physics milestone registered under this remit.
 Use existing tools; no production package, RET SDK work, deployment, network
 service, GUI, general tooling, maintenance, unrelated benchmark, broad refactor
 or dependency installation is authorized. Preserve accepted sources and other
@@ -110,3 +111,44 @@ lanes' files. Follow the [current shared capacity and review controls](FOUNDATIO
 fresh supported expected-account readings, ordinary service and more than 30%
 remaining in every applicable reported window, with no workaround. Ordinary
 planning times are checkpoints, not scientific acceptance gates.
+
+
+## Whole-programme selection and owned continuation
+
+PIM owns a current queue and handoff. Before selecting a successor, use the
+coordinator's refreshed inventory of accepted results, provisional models,
+active reservations, unresolved gaps, counterexamples and the roadmap across
+the whole programme. Include relevant native growth/readout, matter/source,
+gravity, classical comparison and unit questions. Carry each input's exact
+version, premises and review status; an integrated model does not promote an
+unreviewed component to an accepted one.
+
+Compare a small set of genuinely different useful integration tasks. Choose
+one with a named consumer and a finite decision: a component interface, a
+source/dynamics/readout construction, a conditional model comparison or a
+precise obstruction. Build only the additional components necessary to close
+that decision. Do not loop through unchanged baseline cases or duplicate QR
+or Classical's active investigations. Pending work may be a later input while
+independent integration proceeds from accepted sources. Native-unit derivation
+remains an objective, not a prerequisite for every finite model.
+
+The owner selects and begins the next eligible question during its active turn
+without another human assignment. Before calculation or implementation, record
+the question, decision, supplied or conjectured bridges, exact inputs, outputs,
+file reservation, stopping condition and review owner in a new finite control.
+Keep one active author package. Freeze stable work for a distinct reviewer
+reserved by the coordinator; review-pending results remain unadopted dependencies.
+Compatible work on accepted inputs can proceed. Record a negative result or a
+specific missing premise as useful progress, with no forced novelty or endless
+extension of the same packet.
+
+After a turn ends, the existing hourly coordinator heartbeat provides actual
+resume dispatch to an eligible idle owner and checks receiving activity. It
+resumes interrupted work first and does not create a duplicate active author.
+The lane retains selection ownership; the coordinator refreshes cross-lane
+context and resolves collisions. A prompt cannot wake a chat by itself.
+Preserve the existing schedule's cadence, target, model and notifications.
+A real blocker names the missing premise, capacity or authorization, its owner
+and reopening condition. Completion of PIM001 or an unrelated pending review
+is not itself such a blocker. The capacity and implementation boundaries above
+remain in force.
