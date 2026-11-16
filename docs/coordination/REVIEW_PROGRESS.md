@@ -1,3 +1,10 @@
+## 16 November 2026 — Initial tides and area-only optical inference
+
+The accepted expanding torus has generally anisotropic initial normal-observer tides despite uniform energy density and isotropic initial intrinsic and extrinsic geometry. Its expansion-normalized tidal invariant retains an exact isotropy locus and supplied observer/scale registration. Separately, two supplied geometries produce identical finite and continuous null-pencil area records while assigning the focusing differently to shear and Ricci curvature. One endpoint shape ratio distinguishes that fixed pair; calibrated affine preparation and known-shear estimator assumptions remain explicit.
+
+- [Initial tidal response of the scalar torus](../observables/initial_tidal_response_of_scalar_torus.md)
+- [Area-only null-source collision](../observables/area_only_null_source_collision.md)
+
 ## 16 November 2026 — Local coupled development of the scalar source
 
 The fixed two-pair stress expectation reduces exactly to four real massless scalar fields, retaining the accepted torus energy, zero normal flux and full spatial stress. With supplied Einstein and scalar wave equations and standard smooth Cauchy theory, the initial data admit a local coupled development, unique as a geometric germ up to coordinate changes fixing those data. Constraint propagation is checked separately. No quantitative lifespan, preservation of the earlier four probe samples, native gravitational law or physical preparation is established.
