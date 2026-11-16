@@ -1,3 +1,10 @@
+## 16 November 2026 — Expanding scalar initial data and closed-channel work
+
+A flat torus with the accepted positive scalar expectation source admits constant isotropic extrinsic curvature under the supplied Einstein coupling. The expanding branch fixes a conditional initial volume-rate relation; coupled future evolution and native calibration are not established. Separately, two active/passive force models share an aligned total-force-null record, but one has nonzero work around a complete labelled configuration loop. This excludes a configuration-only potential for that specified channel while leaving larger physical energy accounts open. The full four-setting force-null inverse is unchanged.
+
+- [Expanding torus initial data for the scalar source](docs/observables/expanding_torus_initial_data_for_scalar_source.md)
+- [Closed work in active/passive mass channels](docs/observables/closed_work_in_active_passive_mass_channels.md)
+
 ## 16 November 2026 — Swarm integration and bounded Comp-Sci reactivation
 
 Current authority and claim status are recorded in [the swarm integration inventory](docs/coordination/SWARM_INTEGRATION_STATUS.md). Imported review claims are not blanket scientific acceptance. Stage 10 retains a same-state mixed-diamond counterexample; sampler support and finite-evidence boundaries are under independent review. Comp-Sci is active only for exploratory AI/SlateOS mathematics; other software remains paused. Prior physics decisions and handoffs remain preserved below.
