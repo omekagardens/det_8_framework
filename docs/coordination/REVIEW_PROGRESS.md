@@ -1,3 +1,9 @@
+## 16 November 2026 — Evolved tides and finite-region mass balance
+
+Two further conditional gravity results have completed distinct scientific review. [Evolved tides under small coupling](../observables/evolved_tides_under_small_coupling.md) derives the leading trace-free Jacobi matrix at one registered proper-time event of the fixed Einstein–four-scalar family. The instantaneous-stress comparator agrees in that limit, with equal Weyl and Ricci contributions; a cubic curvature remainder controls the limit. This is not a general or exact finite-coupling stress-to-tide law.
+
+[Mass balance in a finite expanding region](../observables/expanding_region_mass_balance.md) gives one supplied radiation-FLRW ball whose normalized geometric-current charge and Misner–Sharp energy halve over the specified interval. Its outward current flux and pressure-work term each equal that same energy decrease, while the comoving fluid-frame net energy flux vanishes. The selected current, region and side-flux accounting are essential. No isolated/global mass, harvested work, native calibration or empirical claim follows. The two spacetime families remain distinct.
+
 ## 16 November 2026 — Surface material and an evolved registered variance
 
 One supplied surface-fluid law matches the accepted static radiation-shell wall and passes the complete local planar material test on its fixed density range. Its compression, neutral vortical and normal modes retain distinct physical meanings; radiation-coupled shell stability remains open. Separately, the fixed scalar-torus family has a strictly negative first variation of the Gaussian field variance at one registered proper-time event, with a controlled quadratic remainder. This leading effect comes from initial expansion, while the first-order metric curvature vanishes. Both results retain their supplied laws, dimensional references and unresolved physical/native calibration.
