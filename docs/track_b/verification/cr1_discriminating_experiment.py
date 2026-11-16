@@ -1093,6 +1093,21 @@ def invert_myrheim_meyer(r2, d_max=16.0):
     return 0.5 * (lo + hi)
 
 
+def exact_d2_pair_volume_cdf(v):
+    """
+    Exact closed-form unordered comparable pair-volume CDF on the 2D Minkowski
+    Alexandrov diamond D_2 (null coordinates (xi, eta) in (0, 1)^2):
+        F_{D_2}(v) := P(Z_1 ~ Z_2, Vol(A(Z_1, Z_2)) / V <= v)
+                    = (2*v + v^2) * ln(1 / v) - 2*v + (5 / 2) * v^2   for 0 < v < 1,
+    with F_{D_2}(v) = 0.0 for v <= 0 and F_{D_2}(v) = 0.5 = f(2) for v >= 1.
+    """
+    if v <= 0.0:
+        return 0.0
+    if v >= 1.0:
+        return 0.5
+    return (2.0 * v + v * v) * math.log(1.0 / v) - 2.0 * v + 2.5 * v * v
+
+
 def _sample_logquad_incidence_fast(N, c_param, q_param, rng):
     """Exact IEEE-754 double-precision Rideout-Sorkin sampler for Log-Quadratic CSG."""
     pasts = [1 << 0]

@@ -15,6 +15,7 @@ Covers:
 
 import os
 import sys
+import math
 import unittest
 import numpy as np
 
@@ -26,6 +27,7 @@ from cr1_discriminating_experiment import (
     PosetMetrics,
     myrheim_meyer_f,
     invert_myrheim_meyer,
+    exact_d2_pair_volume_cdf,
     sample_minkowski_poisson,
     sample_csg_history,
     sample_bernoulli_percolation,
@@ -128,6 +130,74 @@ class TestGeometricControls(unittest.TestCase):
         self.assertTrue(0.16 <= np.mean(glob_r2s) <= 0.25)
         self.assertTrue(0.42 <= np.mean(int_r2s) <= 0.58)
         self.assertGreater(np.mean(int_r2s) - np.mean(glob_r2s), 0.20)
+
+    def test_d2_near_lightlike_pair_volume_cdf(self):
+        # Verifies exact D_2 unordered pair-volume CDF F_{D_2}(v) = (2v + v^2)ln(1/v) - 2v + (5/2)v^2
+        # against null-coordinate Monte Carlo on (xi, eta) in (0, 1)^2 and near-lightlike log enhancement.
+        self.assertEqual(exact_d2_pair_volume_cdf(0.0), 0.0)
+        self.assertEqual(exact_d2_pair_volume_cdf(-0.5), 0.0)
+        self.assertEqual(exact_d2_pair_volume_cdf(1.0), 0.5)
+        self.assertAlmostEqual(exact_d2_pair_volume_cdf(1.0), myrheim_meyer_f(2.0), places=14)
+
+        rng = np.random.default_rng(20261117)
+        m_pairs = 200_000
+        xi1 = rng.uniform(0.0, 1.0, m_pairs)
+        eta1 = rng.uniform(0.0, 1.0, m_pairs)
+        xi2 = rng.uniform(0.0, 1.0, m_pairs)
+        eta2 = rng.uniform(0.0, 1.0, m_pairs)
+        dxi = xi2 - xi1
+        deta = eta2 - eta1
+        comp = (dxi * deta) > 0.0
+        vol_norm = np.abs(dxi * deta)
+
+        for v in (0.01, 0.05, 0.20):
+            mc_cdf = float(np.mean(comp & (vol_norm <= v)))
+            exact_val = exact_d2_pair_volume_cdf(v)
+            self.assertLess(abs(mc_cdf - exact_val), 4e-3)
+
+        # Asymptotic near-lightlike shell enhancement: (F(1.5*v) - F(0.5*v)) / (v * ln(1/v)) -> 2.0 as v -> 0
+        ratios = [
+            (exact_d2_pair_volume_cdf(1.5 * v) - exact_d2_pair_volume_cdf(0.5 * v))
+            / (v * math.log(1.0 / v))
+            for v in (1e-6, 1e-18, 1e-120)
+        ]
+        self.assertLess(abs(2.0 - ratios[2]), abs(2.0 - ratios[1]))
+        self.assertLess(abs(2.0 - ratios[1]), abs(2.0 - ratios[0]))
+        self.assertAlmostEqual(ratios[2], 2.0, delta=0.02)
+
+    def test_d4_near_lightlike_shell_exponent(self):
+        # Exact rejection-free slice sampling on D_4 (slice radius R = 0.5 * u^{1/4}):
+        # verifies 100x volume reduction v_1 = 1e-3 -> v_2 = 1e-5 gives shell probability ratio
+        # p(v_1)/p(v_2) near 100^{2/d} = 100^{1/2} = 10 (in [5.0, 22.0]) rather than naive smooth 100.
+        rng = np.random.default_rng(20261118)
+        m_pairs = 400_000
+
+        def sample_d4_points(n):
+            r_slice = 0.5 * (rng.uniform(0.0, 1.0, n) ** 0.25)
+            t = np.where(rng.random(n) < 0.5, 1.0 - r_slice, r_slice)
+            rad = r_slice * (rng.uniform(0.0, 1.0, n) ** (1.0 / 3.0))
+            dirs = rng.normal(size=(n, 3))
+            dirs /= np.linalg.norm(dirs, axis=1, keepdims=True)
+            return t, dirs * rad[:, None]
+
+        t1, x1 = sample_d4_points(m_pairs)
+        t2, x2 = sample_d4_points(m_pairs)
+        w = (t2 - t1) ** 2 - np.sum((x2 - x1) ** 2, axis=1)
+        comp = w > 0.0
+        self.assertAlmostEqual(float(np.mean(comp)), myrheim_meyer_f(4.0), delta=5e-3)
+
+        v_norm = np.where(comp, w * w, -1.0)
+        v1, v2, v3 = 1e-3, 1e-5, 1e-7
+        p_v1 = float(np.mean(comp & (v_norm >= 0.5 * v1) & (v_norm <= 1.5 * v1)))
+        p_v2 = float(np.mean(comp & (v_norm >= 0.5 * v2) & (v_norm <= 1.5 * v2)))
+        p_v3 = float(np.mean(comp & (v_norm >= 0.5 * v3) & (v_norm <= 1.5 * v3)))
+
+        ratio_12 = p_v1 / p_v2
+        ratio_23 = p_v2 / p_v3
+        self.assertGreaterEqual(ratio_12, 5.0)
+        self.assertLessEqual(ratio_12, 22.0)
+        self.assertGreaterEqual(ratio_23, 7.5)
+        self.assertLessEqual(ratio_23, 13.0)
 
 
 class TestNegativeAndExactControls(unittest.TestCase):
