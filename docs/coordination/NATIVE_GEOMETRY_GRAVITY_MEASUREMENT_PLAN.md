@@ -1,3 +1,28 @@
+## 16 November 2026 — constructive finite integration
+
+The [Provisional Integrated Model track](PROVISIONAL_INTEGRATED_MODEL.md) now
+provides a bounded implementation path alongside this programme's proofs,
+comparisons and observation design. PIM001 combines the unchanged original
+four-birth law, optional incidence counters, supplied Gaussian attachment and
+fixed readouts across both registered preparations. It is assigned, not yet a
+completed integrated result. Only the minimal research implementation, checks
+and independent review for an assigned PIM milestone are excepted from the
+software pause; RET SDK and unrelated tooling or maintenance remain paused.
+
+The all-size, full-joint-covariance and continuum obligations below govern
+claims of those properties. They do not bar a finite conditional operational
+model with declared premises and limitations. Preserve failures: the accepted
+Gaussian attachment has a demonstrated schedule-dependent full field state on
+one marked diamond even though its fixed cover-link quadratic mean agrees.
+A sequential integrated model does not cure that failure or establish an
+order-independent native field law. Borrowed or calibrated components can
+support exploration when labeled; physical source response, native derivation
+and observational agreement retain their separate requirements. The
+[charter](PROVISIONAL_INTEGRATED_MODEL.md) fixes PIM001's finite scope and four
+achievement distinctions; it changes none of the accepted scientific laws.
+
+---
+
 ## 28 October 2026 — explicit native mapping priority
 
 The [native mass/gravity mapping plan](NATIVE_MASS_MAPPING.md) makes the connection to native DET state, dynamics and observation an explicit research task. Its first bounded question uses the unchanged admitted finite law and a specified incidence readout to compare matched source-record preparations. Protocol, calculation and independent review remain separate; no new mapping result is asserted here. Energy, canonical variables, physical clocks and reciprocal source dynamics are not supplied by renaming existing descriptors. Conditional comparison and measurement work continue alongside this priority.

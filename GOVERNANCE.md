@@ -1,7 +1,7 @@
 # DET v8.0 — Governance
 
-**Adversarial holdings, falsifier protocols, decision gates, claim-status discipline.**
-**Status:** Active. Inherited from P0.3, revised through P0.8.
+**Constructive research, adversarial holdings, falsifier protocols and claim-status discipline.**
+**Status:** Active. Inherited from P0.3 through P0.8; constructive integration remit clarified 16 November 2026.
 
 ---
 
@@ -9,18 +9,45 @@
 
 DET is governed by the principle that the physical calculus (Track A) and ontological grammar (Track B) must be strictly separated with different success criteria.
 
-DET is a **lens (instrument)** for generating falsifiable probes against target
-theories, not a candidate ToE. The falsifiable object is the instrument's
-*productivity* — whether its probes produce surviving novelties above the null
-rate — not the ontology, which is chosen, not evidenced. That productivity is
-registered in the [Novelty Ledger](NOVELTY_LEDGER.md).
+DET's physical research includes constructive models and their useful
+integration alongside falsifiable probes and criticism. It is not presently
+a validated physical theory or candidate ToE. The ontology is chosen, not
+established by a successful model run. The probe instrument's *productivity*
+— surviving novelties above the null rate — remains registered separately in
+the [Novelty Ledger](NOVELTY_LEDGER.md).
 
-**Track A success criterion:** Generate falsifiable probes against standard
-physics and log every outcome. A null probe costs the ontology nothing; it
-costs the instrument one logged miss (DG-WARRANT, §5). The generative warrant
-is sustained by surviving novelties, not asserted.
+**Track A success criteria:** Build explicit conditional models, connect their
+state, dynamics and readouts, reproduce declared results and assess usefulness
+for named physics questions; also generate falsifiable probes against standard
+physics and log every outcome. A finite construction, clarified interface or
+scoped failure can advance the research without a new physical prediction.
+Such progress does not count as surviving novelty. A null probe still costs
+the instrument one logged miss (DG-WARRANT, §5); its generative warrant must
+be earned by surviving novelties.
 
 **Track B success criterion:** Logical coherence, empirical compatibility, non-smuggling discipline, philosophical superiority to competing interpretations.
+
+The [Provisional Integrated Model track](docs/coordination/PROVISIONAL_INTEGRATED_MODEL.md)
+implements this constructive remit. A component may be conjectured, calibrated,
+borrowed or supplied, provided its provenance, domain, assumptions and known
+failures remain explicit. Integration does not change a component's evidence
+status or turn borrowed physics into a native derivation. Report four different
+achievements separately:
+
+| Achievement | Evidence and limit |
+| --- | --- |
+| Runs | The declared implementation actually executes on the stated cases. |
+| Reproduces | It matches specified accepted results or reference behavior; known-answer checks are not fresh empirical evidence. |
+| Derives from DET | The stated result follows from identified DET premises on its claimed domain, with chosen and imported premises disclosed. |
+| Agrees with observations | Qualified observations support the stated prediction with calibration, uncertainty, comparison and held-out evaluation appropriate to that claim. |
+
+All-size, covariance and continuum proofs gate claims of those properties;
+they are not universal prerequisites for finite exploration. An established
+covariance failure remains a failure, not merely an open proof obligation.
+Sequential operational modules may be integrated with their order dependence
+exposed, but cannot thereby become order-independent native laws. Option B,
+Status M, the ontology/physical-calculus separation and all stronger physical,
+empirical and derivation requirements remain in force.
 
 ---
 
@@ -110,8 +137,11 @@ Results require reintroducing agency → reject those physical sectors.
 A null probe costs the ontology nothing; it costs the lens one logged miss.
 After `downgrade_after` executed probes with **zero** surviving novelties, the
 generative warrant downgrades (`ACTIVE → DOWNGRADED`); a surviving novelty
-sustains it (`SUSTAINED`). This gate applies to the instrument as a whole, not
-to any single claim. The counter lives in the
+sustains it (`SUSTAINED`). This gate applies to the probe instrument's
+generative warrant as a whole, not to any single claim. It does not prohibit
+finite constructive integration or erase its separately reported usefulness;
+neither integration alone nor known-answer reproduction counts as a novelty.
+The counter lives in the
 [Novelty Ledger](NOVELTY_LEDGER.md) (`novelty_ledger.py::GenerativeWarrant`).
 
 ---
@@ -156,7 +186,11 @@ TEST_EXTENSIONS → CHARACTERIZE → CLOSE → CLOSED`, with `MODEL_FAILURE` and
 
 ## 8. RG2 — Residual Discovery and Numerical-PDE Boundary
 
-**Rule:** Model generation follows replicated predictive failure.
+**Rule within RG2 residual discovery:** New residual-driven model generation
+follows replicated predictive failure. This is not a programme-wide precondition
+for constructing provisional models or combining declared components. RG2's
+predictive-failure, locked-prediction and numerical-admission requirements still
+apply whenever an RG2 residual-discovery claim is made.
 
 RG2's known-answer exercises (Riemann, Collatz, Navier–Stokes) are **RET
 engine validation**: they test false-positive refusal on problems with known

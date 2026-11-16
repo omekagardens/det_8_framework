@@ -1,3 +1,20 @@
+## Provisional Integrated Model — assigned 16 November 2026
+
+The [PIM charter](docs/coordination/PROVISIONAL_INTEGRATED_MODEL.md) adds a
+constructive integration track alongside probes and critical tests. PIM001 is
+assigned to combine the original four-birth growth law, optional counters,
+supplied Gaussian field attachment and fixed readouts in one dimensionless
+runnable model: all 60 marked continuations for each of two supplied
+preparations. Its tests must reproduce accepted results and the known field
+covariance failure. Runs, reproduces, derives from DET and agrees with
+observations remain different achievements; none is claimed complete by this
+assignment. No empirical calibration or holdout is used in this baseline.
+Minimal assigned PIM research implementation and review are authorized;
+unrelated software, RET SDK, maintenance and benchmarking remain paused.
+Earlier dated entries below retain their historical scope.
+
+---
+
 ## Current result and priority — 2026-10-28
 
 The accepted finite scalar-extension construction now has an independently reviewed endpoint-law corollary. For every admitted finite prefix of size n, the choices theta=1/3 and theta=2/3 assign different probabilities to the same all-markings chain event at birth n+1. The exact gap is n m_n/[3(2^n-1)] > 0, where m_n is the positive minimum individual structural history product defined in the proof. This establishes a finite law difference beyond a coordinate renaming, without selecting a physical law, supplying a physical discriminator or proving a uniform gap across prefixes.
@@ -312,6 +329,7 @@ universal classifier or application execution is supplied.
 | Public theorem package | A reader can identify each established claim, exact law/support and remaining premise without reading chronological coordination logs. |
 | Law dependence | State what is forced, optional, construction-specific or proved over a declared family; close a bounded result before extending the coefficient audit. |
 | Portable replay — bounded result complete | Preserve the fixed public GWOSC result and independent residual check with their limits and failure history. Select any further measurement deliverable by a named uncertainty; no additional run or production qualification follows automatically. |
+| Provisional integrated model | Complete and independently review the assigned finite state/update/readout baseline across both preparations, reporting reproduced results, known failures and unresolved physical premises separately. |
 | Foundational physics | Supply an explicit native prediction and observation channel before claiming empirical evidence for the theory. |
 | Application value | Evaluate a fixed diagnostic or signal-processing benchmark against declared baselines, costs, failure rates and held-out data. |
 
