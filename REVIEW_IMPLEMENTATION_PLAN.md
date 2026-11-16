@@ -1,3 +1,9 @@
+## 16 November 2026 — Local coupled development of the scalar source
+
+The fixed two-pair stress expectation reduces exactly to four real massless scalar fields, retaining the accepted torus energy, zero normal flux and full spatial stress. With supplied Einstein and scalar wave equations and standard smooth Cauchy theory, the initial data admit a local coupled development, unique as a geometric germ up to coordinate changes fixing those data. Constraint propagation is checked separately. No quantitative lifespan, preservation of the earlier four probe samples, native gravitational law or physical preparation is established.
+
+- [Local Einstein–four-scalar development](docs/observables/local_einstein_four_scalar_development.md)
+
 ## 16 November 2026 — Interaction energy beyond local action records
 
 Two explicitly classical internal configurations have identical bare-action histories yet different interaction energies. Under a supplied carrier mass shell, they have different zero-momentum kinetic masses and terminal velocities after the same impulse. One initial real correlation resolves this fixed pair when the parameters and base energy are registered. Equal impulse does not mean equal work, and no complete physical preparation or actuator energy account is supplied.
