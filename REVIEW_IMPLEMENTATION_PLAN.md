@@ -1,3 +1,7 @@
+## 16 November 2026 — Finite electromagnetic angular accounting
+
+[Finite electromagnetic angular balance](docs/observables/finite_electromagnetic_angular_balance.md) derives one exact prescribed-current, clamped-receiver Maxwell ledger on a fixed observation ball and finite time interval. Initial field angular momentum is J, final zero, receiver impulse 2J, inner-source electromagnetic impulse zero and signed outward flux −J. The full boundary stress term closes the balance; the support routes the already counted receiver impulse. No slow-switch, point-dipole or infinite-time approximation is used. Negative signed angular flux is not an inward-signal statement. Supplied source, field-preparation and clamp conventions remain essential; no isolated apparatus, free-rotor spin, energy/work/heat/efficiency, native mass calibration or gravity claim follows. Distinct Classical proof and Energy recipient reviews are complete.
+
 ## 16 November 2026 — Evolved tides and finite-region mass balance
 
 Two further conditional gravity results have completed distinct scientific review. [Evolved tides under small coupling](docs/observables/evolved_tides_under_small_coupling.md) derives the leading trace-free Jacobi matrix at one registered proper-time event of the fixed Einstein–four-scalar family. The instantaneous-stress comparator agrees in that limit, with equal Weyl and Ricci contributions; a cubic curvature remainder controls the limit. This is not a general or exact finite-coupling stress-to-tide law.
