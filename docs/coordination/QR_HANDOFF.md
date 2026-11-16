@@ -1,3 +1,10 @@
+## 16 November 2026 — Surface material and an evolved registered variance
+
+One supplied surface-fluid law matches the accepted static radiation-shell wall and passes the complete local planar material test on its fixed density range. Its compression, neutral vortical and normal modes retain distinct physical meanings; radiation-coupled shell stability remains open. Separately, the fixed scalar-torus family has a strictly negative first variation of the Gaussian field variance at one registered proper-time event, with a controlled quadratic remainder. This leading effect comes from initial expansion, while the first-order metric curvature vanishes. Both results retain their supplied laws, dimensional references and unresolved physical/native calibration.
+
+- [Surface material for the static radiation shell](../observables/surface_material_for_static_radiation_shell.md)
+- [Registered variance under small coupling](../observables/registered_variance_under_small_coupling.md)
+
 ## 16 November 2026 — A finite duration for sufficiently small coupling
 
 The supplied Einstein–four-scalar torus family has a nonempty sufficiently small coupling range with smooth constrained evolution through five reference units of coordinate time. The registered initially normal observer reaches four reference units of proper time inside that interval. The proof supplies an existential, unevaluated coupling threshold; physical clock calibration and exact agreement with the old probe samples remain open.
