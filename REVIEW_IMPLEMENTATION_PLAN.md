@@ -1,3 +1,9 @@
+## 16 November HST / 17 November UTC — Exact isolated-source boundary
+
+The independently reviewed [isolated stationary scalar obstruction](docs/observables/isolated_stationary_scalar_source_obstruction.md) excludes the simultaneous exact fixed-oscillator, free whole-space, smooth H1 finite-energy realization. All-time dynamics force zero spatial profiles, which contradict the required nonzero local field sample and positive unshifted Hamiltonian. The periodic construction retains its scope. Finite-energy wave packets, approximation and confinement require different premises; this result supplies no physical mass, gravity or native-unit calibration.
+
+The coordinator accepted this finite obstruction after the distinct State review. Priority physics continues through a bounded next-question selection; the closed class does not exhaust the lane. Current owned coordination is recorded in /Volumes/AI_DATA/development/det-review-evidence/followthrough-0132-20261117/. Older entries below preserve their historical states and provenance.
+
 ## 17 November 2026 — Local gravitational preparation and unread field update
 
 [Local self-gravitating radiation/material equilibrium](docs/observables/local_self_gravitating_radiation_material_equilibrium.md)
