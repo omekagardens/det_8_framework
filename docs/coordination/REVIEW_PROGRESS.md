@@ -1,3 +1,11 @@
+## 17 November 2026 — Kerr local inverse and current research handoff
+
+CL115 is accepted after distinct Classical scientific review and independent recipient review as a conditional conventional three-record local correspondence target. Two direction-labelled guided-ring proper return times and signed outward radial acceleration locally identify the supplied Kerr mass, signed spin and observer rotation near the registered reference. The exact geometry, independently supplied radius and scales, support, clock, readout conventions and acquisition horizon remain premises. No global/noisy inverse, native calibration or apparatus validation follows.
+
+Current owned handoff: /Volumes/AI_DATA/development/det-review-evidence/followthrough-cl115-20261117/FIRSTNEXT.md. Its CURRENT_QUEUE.json, ACCEPTED_SOURCE_INVENTORY.json, RESERVATIONS.json and dispositions carry current assignments and exact acceptance scope. A COMPLETION_RECEIPT.json, when present, closes that bounded coordinator handoff only. Pending reviews and ready assignments remain internal unfinished work; source-stable completed packets are not restarted.
+
+Allan’s verified 17 November no-cap research direction remains operative, with actual service limits and scientific scope, evidence order, observation-validity and resource-bounded claims intact. This update changes no schedule, account or model and resumes no RET SDK or unrelated production/maintenance work. Older status text below is historical; consult the current handoff and its linked preceding completed inventory for accepted results and live reservations.
+
 ## 17 November 2026 — No-cap research continuation
 
 Allan’s verified instruction, “Please continue det research tracks with no cap limits please,” supersedes user-imposed percentage and usage-readability stop/reopen gates for current DET research, including older 30%, 25% and 20% clauses. Actual platform/service limits and scientific scope, evidence order, observation-validity and resource-bounded claims still apply. No reset credit, purchase, account/model change or platform workaround is authorized. Historical source packets retain their exact original wording.
