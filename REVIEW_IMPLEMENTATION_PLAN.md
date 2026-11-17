@@ -1,3 +1,21 @@
+## 17 November 2026 — Local gravitational preparation and unread field update
+
+[Local self-gravitating radiation/material equilibrium](docs/observables/local_self_gravitating_radiation_material_equilibrium.md)
+establishes a regular, locally unique static branch for sufficiently small
+nonnegative coupling under supplied Einstein, radiation, membrane, fixed-content
+and junction assumptions. The coupling threshold remains unspecified; proper-volume
+charge, exterior mass and infinity-normalized lapse remain distinct. No native
+source map, quantum-coherent preparation or inherited flat-space stability follows.
+
+[Unread pointer channel and continued field state](docs/observables/unread_pointer_channel_and_continued_native_field_state.md)
+gives a normalized CP/TP state update, exact first/raw-second moment maps and a
+fixed non-Gaussian witness. Both complete native preparations satisfy the lower
+bound $\langle K_0\rangle\geq661/440>3/2$ after readout; the later supplied
+oscillator cannot restore the vacuum. The full mixtures are proved non-vacuum
+only. Physical energy/time, native units and empirical detector claims remain
+unestablished. Completed scientific and recipient reviews are reused at their
+stated scopes; these articles add no executable or successor result.
+
 ## 17 November 2026 — Native mean balance, supplied oscillator closure and bounded pointer response
 
 Three independently accepted finite results now have public research statements.
