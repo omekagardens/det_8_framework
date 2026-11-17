@@ -1,3 +1,7 @@
+## 16 November 2026 — Complete pointer laws and finite acoustic inertia
+
+Two independently reviewed conditional results are ready in public form. [Complete pointer laws on native histories](docs/observables/complete_pointer_laws_on_native_histories.md) distinguishes two normalized readout distributions despite equal diagnostic means, retaining the original Gaussian, growth weights and known field-state covariance failure. [Finite acoustic inertia and energy ledger](docs/observables/finite_acoustic_inertia_and_energy_ledger.md) retains one supplied sphere/pulse model: both registered responses differ from the incompressible comparison, while the complete finite body, fluid, work and flux account closes. Neither result supplies native physical units, a calibrated detector, changed material mass or empirical validation. The completed scientific reviews are reused; publication checks assembly fidelity.
+
 ## 16 November 2026 — Native field registration and loaded-source energy
 
 The [native causal-diamond comparison](docs/observables/native_field_state_across_a_causal_diamond.md) has distinct scientific acceptance: under the unchanged original growth law and supplied three-pair Gaussian attachment, two birth orders reach the same marked endpoint and commutator but induce different field states. The preselected cover-link quadratic has mean $2$ in both. This is one state-registration counterexample and one agreeing scalar mean, not equality of the diagnostic outcome laws or a physical energy/source identification.
