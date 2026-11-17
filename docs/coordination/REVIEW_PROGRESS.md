@@ -1,3 +1,11 @@
+## 17 November 2026 — Finite Vaidya energy transfer and current handoff
+
+CL116 is accepted after distinct Classical scientific review and independent recipient scope review. For one supplied outgoing Vaidya pulse and supported sphere, the lapse-weighted accumulated local flux equals the geometric mass-energy decrease at every prefix. Raw local accumulation is larger at every positive prefix, and one constant rescaling cannot make the full histories agree. The metric, stress, pulse, observer, clock/cuts, area, scales and lapse weighting remain supplied. This establishes no energy creation, apparatus/heat balance, global source or native-unit/empirical result. Article: docs/observables/finite_vaidya_energy_transfer.md.
+
+Current owned handoff: /Volumes/AI_DATA/development/det-review-evidence/followthrough-cl116-20261117/FIRSTNEXT.md. Its exact dispositions, CURRENT_QUEUE.json, ACCEPTED_SOURCE_INVENTORY.json and RESERVATIONS.json carry accepted scope, active work and pending reviews. Prior TT and CL115 publications are complete. A completed coordinator packet does not close the programme; older status below remains historical provenance.
+
+Verified November 17 no-cap authority preserves actual service limits, scientific scope, evidence order and resource bounds. Schedules, account/model settings, protected sources and private journals are unchanged; RET SDK and unrelated production/maintenance remain paused.
+
 ## 17 November 2026 — Fixed passive TT response and current research handoff
 
 The fixed passive TT calculation is accepted after distinct State scientific review. Under its explicitly supplied Gaussian closure, the prescribed filtered projected response has strictly positive variance; the centered expectation-only comparator gives zero. Original source normalization, zero-data transients, fixed filter and native attachment probabilities are retained. This is no physical/self-consistent metric, measured tide, native mass/coupling or unit calibration. The reviewed article is docs/observables/passive_tt_stress_fluctuation_response.md.
