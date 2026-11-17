@@ -1,3 +1,24 @@
+## 17 November 2026 — Native mean balance, supplied oscillator closure and bounded pointer response
+
+Three independently accepted finite results now have public research statements.
+[Native cover mean ledger and operator reserve](../observables/native_cover_mean_ledger_and_operator_reserve.md)
+gives the sharp fixed-Gaussian mean reserve $2$ over all 120 histories and rejects
+only the specified same-space positive operator completion with finite scalar reserve.
+[Closed oscillator interface](../observables/closed_oscillator_interface_on_native_histories.md)
+adds the minimal zero, one and two linear observables at stages 2, 3 and 4 under
+one supplied generator and common dimensionless parameter; it preserves the known
+endpoint covariance failure.
+[Bounded pointer response](../observables/bounded_pointer_response_for_complete_native_preparations.md)
+retains both complete preparations and every real outcome, with an exact strictly
+positive rational enclosure for the fixed source-one-minus-source-zero expectation
+of $\sin(X/128)$.
+
+These are conditional mathematical results with distinct scientific reviews.
+Supplied canonical, Gaussian, oscillator and pointer resources remain explicit;
+no native physical units, clock, energy conservation, reservoir repair, empirical
+detector performance or covariance repair follows. The oscillator result is not
+a dependency of the mixture certificate. Later unaccepted results are not adopted.
+
 ## 16 November 2026 — Complete pointer laws and finite acoustic inertia
 
 Two independently reviewed conditional results are ready in public form. [Complete pointer laws on native histories](../observables/complete_pointer_laws_on_native_histories.md) distinguishes two normalized readout distributions despite equal diagnostic means, retaining the original Gaussian, growth weights and known field-state covariance failure. [Finite acoustic inertia and energy ledger](../observables/finite_acoustic_inertia_and_energy_ledger.md) retains one supplied sphere/pulse model: both registered responses differ from the incompressible comparison, while the complete finite body, fluid, work and flux account closes. Neither result supplies native physical units, a calibrated detector, changed material mass or empirical validation. The completed scientific reviews are reused; publication checks assembly fidelity.
