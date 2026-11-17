@@ -47,7 +47,7 @@ for publication.
 Keep an owned current queue and handoff with the active question, frozen packets
 awaiting review, ready candidates and concrete blockers. On finishing a packet,
 refresh the relevant evidence and reservations, select a compatible next finite
-question and begin when capacity permits. Avoid repeated unchanged cases and
+question and begin when service permits. Avoid repeated unchanged cases and
 endless extensions of one packet. A blocker names its owner and reopening
 condition; finishing a packet or waiting on an unrelated review is not one.
 
@@ -59,11 +59,14 @@ active author. Scheduling state must be verified through the supported app
 controls, with cadence, target, model and notifications preserved.
 
 The [current programme controls](FOUNDATIONAL_RESEARCH_SCOPE.md#current-programme-controls--16-november-2026)
-apply: a fresh supported reading on the established account, ordinary service
-and strictly more than 30% remaining in every applicable reported window before
-work and substantial batches. Missing windows are unavailable; uncertainty or a
-failed guard requires a minimal checkpoint and stop. No account, model, reset
-credit, purchase or schedule workaround is permitted.
+apply under Allan’s 17 November 2026 no-cap instruction: no user-imposed
+compute or percentage reserve stops research. Supported usage readings may
+inform service status; low remaining capacity or an unavailable or uncertain
+reading alone is not a stop condition. Respect actual platform/service limits;
+checkpoint minimally if an actual service block prevents work and resume when
+service permits. Scientific scope, observation-validity, held-out-order and
+resource-bounded-claim requirements remain binding. No account, model, reset
+credit, purchase, platform-limit or schedule workaround is permitted.
 
 Only minimal code, execution and meaningful checks needed by the registered
 research question are included. This does not resume unrelated production,

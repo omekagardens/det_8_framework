@@ -1,6 +1,6 @@
 # DET Free Thinker coordination
 
-On 9 November 2026 Allan set a shared reserve of 20% remaining for every track, including Free Thinker. Before research or writing, obtain a fresh supported capacity reading for the identified account. Stop at 20% or less in any applicable reported Codex window, on a service block, or if capacity or account/window identity cannot be established. Resume only when a fresh supported reading shows more than 20% in every applicable reported window and service is available. Reset timestamps are informational. Boundary questions remain speculative philosophical prompts. Frozen packets preserve their original guard wording.
+Allan’s 17 November 2026 no-cap instruction supersedes the shared 20% reserve set on 9 November, including its percentage and usage-readability stop/reopen gates. Research and writing have no user-imposed compute or percentage reserve stop. Supported `get_usage_limits` readings may inform service status; a low percentage, missing window, or unavailable or uncertain reading alone is not a stop condition. Respect actual platform/service limits. If an actual service block prevents work, checkpoint minimally, report the concrete blocker and resume when service permits. Explicit scientific scope, observation-validity, held-out-order and resource-bounded-claim requirements still bind. Do not infer a reset, buy capacity, consume reset credits, change accounts/models, bypass platform limits or change schedule settings as a workaround. Boundary questions remain speculative philosophical prompts. Frozen packets preserve their original guard wording as history, superseded for current work by this instruction.
 
 Allan added this creative track on October 23, 2026 (Pacific/Honolulu). It complements the five existing research lanes without replacing their priorities. Its initial authority is philosophical ideation and a separate journal under `det8/free_thinker/`, not implementation.
 
@@ -21,13 +21,13 @@ There is no direct messaging, assignment, file-writing or delegated relay to tho
 
 ## Existing scheduled loop
 
-Use the existing `det-review-follow-through` hourly heartbeat in the coordinator chat with its current cadence and notification preferences. Apply the shared 20% reserve above, and recheck capacity before substantial work. The separate Monday main-branch maintenance automation stays paused.
+Use the existing `det-review-follow-through` hourly heartbeat in the coordinator chat with its current cadence and notification preferences. Apply the service-availability rule above without a percentage or usage-readability stop gate. The separate Monday main-branch maintenance automation stays paused.
 
-After the usage preflight and current research-status reconciliation:
+After current research-status reconciliation, with the service-availability rule above:
 
 1. Check for an active Free Thinker assignment or completed submission. Avoid duplicate work.
 2. Disposition a completed submission: **stop this assigned idea**, **continue with input**, **continue without additional input**, or **forward for a named track's independent consideration**. Record exact submission path/version/hash, reasons, recipient if any, and next scope. None of these decisions controls the personal journal.
-3. If idle and capacity permits, prepare one compact brief of the four tracks' latest accepted results, unreviewed proposals and actual blockers. Pin exact input files and read-only chat IDs, distinguishing author claims from coordinator acceptance. Include current ontology sources; do not silently promote a working draft into canonical truth.
+3. If idle and service permits, prepare one compact brief of the four tracks' latest accepted results, unreviewed proposals and actual blockers. Pin exact input files and read-only chat IDs, distinguishing author claims from coordinator acceptance. Include current ontology sources; do not silently promote a working draft into canonical truth.
 4. Assign one bounded creative round, normally at most 20 minutes including wrap-up and at most three submitted ideas. Name owner, exact inputs, exclusive output, budget, stop conditions and review requirements. Novel angles on unchanged work are welcome; there is no minimum idea quota or requirement to fabricate progress.
 5. Collect the outbox submission and retain the next disposition boundary. Notify the user only for substantive selected ideas, material blockers or required decisions; ordinary monitoring and journal activity stay quiet.
 
@@ -35,7 +35,7 @@ After the usage preflight and current research-status reconciliation:
 
 Submitted ideas can be wild, philosophical or science fictional. Evaluate their internal fit with open becoming and whether they offer a useful question, not whether they already possess a proof. Each submitted idea identifies its source versions, target domain, speculative leap, assumptions, tensions and a smallest possible investigation if one exists. An imaginative concept may remain a journal idea without any experimental route.
 
-The human-authorized personal journal is self-directed. The coordinator does not censor, rewrite, require approval of, or routinely extract it. Free Thinker may voluntarily turn a journal passage into an outbox proposal. Stopping an assigned development or declining a handoff does not stop personal musing. Shared account guards, human stop instructions and filesystem boundaries still apply.
+The human-authorized personal journal is self-directed. The coordinator does not censor, rewrite, require approval of, or routinely extract it. Free Thinker may voluntarily turn a journal passage into an outbox proposal. Stopping an assigned development or declining a handoff does not stop personal musing. Actual platform/service limits, human stop instructions and filesystem boundaries still apply.
 
 ## Red Letter scope and grounded study
 

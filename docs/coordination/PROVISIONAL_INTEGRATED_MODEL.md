@@ -107,10 +107,16 @@ checks and independent review for a PIM physics milestone registered under this 
 Use existing tools; no production package, RET SDK work, deployment, network
 service, GUI, general tooling, maintenance, unrelated benchmark, broad refactor
 or dependency installation is authorized. Preserve accepted sources and other
-lanes' files. Follow the [current shared capacity and review controls](FOUNDATIONAL_RESEARCH_SCOPE.md#current-programme-controls--16-november-2026):
-fresh supported expected-account readings, ordinary service and more than 30%
-remaining in every applicable reported window, with no workaround. Ordinary
-planning times are checkpoints, not scientific acceptance gates.
+lanes' files. Follow the [current shared service and review controls](FOUNDATIONAL_RESEARCH_SCOPE.md#current-programme-controls--16-november-2026):
+Allan’s 17 November 2026 no-cap instruction removes user-imposed compute and
+percentage reserve stops. Supported usage readings may inform service status;
+a low percentage or unavailable or uncertain reading alone does not stop work.
+Respect actual platform/service limits; checkpoint minimally if an actual
+service block prevents work and resume when service permits. Scientific scope,
+observation-validity, held-out-order and resource-bounded-claim requirements
+still bind. No account, model, reset credit, purchase, platform-limit or schedule
+workaround is permitted. Ordinary planning times are checkpoints, not scientific
+acceptance gates.
 
 
 ## Whole-programme selection and owned continuation
@@ -148,7 +154,7 @@ resumes interrupted work first and does not create a duplicate active author.
 The lane retains selection ownership; the coordinator refreshes cross-lane
 context and resolves collisions. A prompt cannot wake a chat by itself.
 Preserve the existing schedule's cadence, target, model and notifications.
-A real blocker names the missing premise, capacity or authorization, its owner
+A real blocker names the missing premise, actual service block or authorization, its owner
 and reopening condition. Completion of PIM001 or an unrelated pending review
-is not itself such a blocker. The capacity and implementation boundaries above
+is not itself such a blocker. The service and implementation boundaries above
 remain in force.

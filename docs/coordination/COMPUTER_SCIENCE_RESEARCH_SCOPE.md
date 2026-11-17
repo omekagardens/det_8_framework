@@ -49,7 +49,7 @@ does not reopen their production backlog.
 Keep the owned current queue and handoff current: active work, frozen results,
 review status, candidate next questions and blockers with owners and reopening
 conditions. At completion, refresh relevant accepted inputs and reservations,
-select and begin the next useful compatible question when capacity permits.
+select and begin the next useful compatible question when service permits.
 Do not treat packet completion or an unrelated pending review as a lane-wide
 blocker, and do not generate repetitive extensions simply to remain busy.
 
@@ -62,11 +62,14 @@ delivery. A prompt by itself does not wake a chat. Preserve the existing
 schedule's cadence, target, model and notifications.
 
 Follow the [current programme controls](FOUNDATIONAL_RESEARCH_SCOPE.md#current-programme-controls--16-november-2026):
-fresh supported established-account capacity, ordinary service and strictly
-more than 30% remaining in each applicable reported window before work and
-substantial batches. Missing windows provide no capacity. Fail closed with a
-minimal checkpoint for a failed or unreadable guard; no account, model, reset
-credit, purchase or schedule workaround.
+Allan’s 17 November 2026 no-cap instruction removes user-imposed compute
+and percentage reserve stops. Supported usage readings may inform service
+status; a low percentage or unavailable or uncertain reading alone does not
+stop research. Respect actual platform/service limits; checkpoint minimally
+when an actual service block prevents work and resume when service permits.
+Scientific scope, observation-validity, held-out-order and resource-bounded-claim
+requirements still bind. No account, model, reset credit, purchase,
+platform-limit or schedule workaround is permitted.
 
 Minimal research code, finite execution and meaningful checks may support the
 registered question. Unrelated production, deployment, maintenance, general

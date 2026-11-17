@@ -1,3 +1,13 @@
+## 17 November 2026 — No-cap research continuation
+
+Allan’s verified instruction, “Please continue det research tracks with no cap limits please,” supersedes user-imposed percentage and usage-readability stop/reopen gates for current DET research, including older 30%, 25% and 20% clauses. Actual platform/service limits and scientific scope, evidence order, observation-validity and resource-bounded claims still apply. No reset credit, purchase, account/model change or platform workaround is authorized. Historical source packets retain their exact original wording.
+
+The two local research heartbeat prompts were updated through supported controls and read back; their enabled state, cadence, target, model and notifications were preserved. The separate Monday schedule and hosted schedules were not changed. Its actual current configuration is recorded in SCHEDULE_RECEIPT.json below; historical maintenance-state text is not a new instruction. RET SDK and unrelated production/maintenance work are not resumed by this research authority.
+
+AI009 is accepted within its exact synthetic conditional scope. PIM009 and the QR continuum-packet selections passed distinct review and received separate bounded author activations. CS aggregate-identifiability authorship resumed from its saved fixture. AI and Classical continue their owned bounded question selection. CL114’s donor admission is received; coordinator recipient disposition remains pending. No pending result is promoted to accepted science.
+
+Current owned handoff: /Volumes/AI_DATA/development/det-review-evidence/followthrough-nocap-20261117/FIRSTNEXT.md. Authority, schedule receipt, dispositions and exact reservations are alongside it. COMPLETION_RECEIPT.json establishes completion of this bounded coordinator run, not completion of the research programme. All older control/status text below is historical provenance and is superseded for current capacity policy by this paragraph.
+
 ## 16 November HST / 17 November UTC — Exact isolated-source boundary
 
 The independently reviewed [isolated stationary scalar obstruction](docs/observables/isolated_stationary_scalar_source_obstruction.md) excludes the simultaneous exact fixed-oscillator, free whole-space, smooth H1 finite-energy realization. All-time dynamics force zero spatial profiles, which contradict the required nonzero local field sample and positive unshifted Hamiltonian. The periodic construction retains its scope. Finite-energy wave packets, approximation and confinement require different premises; this result supplies no physical mass, gravity or native-unit calibration.
