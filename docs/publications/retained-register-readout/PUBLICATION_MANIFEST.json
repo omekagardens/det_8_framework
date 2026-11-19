@@ -1,0 +1,68 @@
+{
+  "publication": "retained-register-readout",
+  "format_version": 1,
+  "scope": "Metadata-obscured public derivatives of two accepted conditional mathematical results; no new scientific or empirical acceptance.",
+  "payloads": [
+    {
+      "path": "docs/observables/retained_continuum_register_channel.md",
+      "bytes": 15817,
+      "sha256": "1e3df11e118d851e119cebd591fd867d7f6750a02dc271858d87bd0eda4972bc"
+    },
+    {
+      "path": "docs/observables/repeated_retained_register_readout.md",
+      "bytes": 15089,
+      "sha256": "59001988f804a3a31d91e94359786dcbebefb9458216408a12f8f73dcad39f26"
+    },
+    {
+      "path": "README.md",
+      "bytes": 68958,
+      "sha256": "f38bb4eb6ee47a460ae8fb319337d3a10594b1029aa56ad5a08a5b0bbbd51738"
+    }
+  ],
+  "public_prerequisites": [
+    {
+      "path": "docs/observables/continuum_packet_covariance_and_spread.md",
+      "bytes": 16059,
+      "sha256": "3daecec412c92c1741656bd20bdcfd6ef1e53b329b7fb15e454b5e15c3b75b1f"
+    },
+    {
+      "path": "docs/coordination/REDACTED_PUBLICATION.md",
+      "bytes": 1553,
+      "sha256": "9a73966b0541d38f02b35d2ad8c565e1559f58c59206bb751a25c9c921b70b98"
+    }
+  ],
+  "dependency_closure": {
+    "continuum_packet_covariance_and_spread": "Exact packet normalization, supplied carrier/Hamiltonian/domains, phase convention and overlap factor.",
+    "retained_continuum_register_channel": "Qutrit reduction, strict overlap inequality and time-dependent CP maps; prerequisite for repeated readout.",
+    "repeated_retained_register_readout": "Actual global two-read law, CP comparator and fixed-protocol record table.",
+    "other_models": "Separate birth/field and clock models are contextual exclusions, not mathematical dependencies."
+  },
+  "scientific_review": {
+    "author_role": "Provisional Integrated Model research",
+    "distinct_reviewer_role": "Energy research",
+    "result_verdicts": [
+      "ACCEPT_WITH_SCOPE",
+      "ACCEPT_WITH_SCOPE"
+    ],
+    "substantive_mathematical_corrections": false,
+    "publication_fidelity_is_separate": true
+  },
+  "material_order_qualification": {
+    "result": "repeated retained-register readout",
+    "full_control_before_proof_requirement_met": false,
+    "fact": "Preliminary selected branch-amplitude/comparator algebra preceded registration.",
+    "limit": "No unqualified prospective registration or empirical prospective qualification; no retrospective repair."
+  },
+  "limits": [
+    "Supplied continuum, packet preparation, positive scales, factorization and time parameter.",
+    "Discarded vacuum at initialization; no arbitrary intervention continuation inferred from CP-divisibility.",
+    "Ideal global readout; measurement energy, apparatus and complete-cycle/reset costs unestablished.",
+    "No native clock/action/units, mass/stress/gravity or empirical claim."
+  ],
+  "withheld": [
+    "Private controls and original source/review custody manifests.",
+    "Private source-to-public correspondence map and administrative transcripts.",
+    "Account, filesystem, runtime and private timestamp metadata."
+  ],
+  "hash_scope": "Only public payloads and existing public prerequisites are hashed here. This manifest does not self-hash and is not an independently replayable private custody archive."
+}
