@@ -1,3 +1,7 @@
+## Reviewed continuum packet and local-source results
+
+The supplied cosine-annulus Fock model gives a controlled [four-time vacuum covariance approximation](docs/observables/continuum_packet_covariance_and_spread.md) at constant mean one-particle excitation energy as the profile spreads. Its separately specified one-particle state has a [smooth conserved local stress and finite initial energy radius](docs/observables/local_stress_and_energy_radius.md). The energy radius strictly exceeds the profile radius, with the same leading inverse-bandwidth divergence. Vacuum covariance and one-particle stress remain different preparations; metric, dynamics and scales are supplied, with no native mass/gravity or empirical claim.
+
 ## Reviewed physical-energy and norm comparator
 
 In one supplied charged-particle model, both magnetic controls conserve the same indefinite physical energy, while a positive conserved quadratic norm exists at b=3 and is impossible at b=0. The [complete finite comparison](docs/observables/physical_energy_and_conserved_quadratic_norm.md) keeps bounded finite-window motion distinct from a conserved norm certificate. The auxiliary norm is not physical work, a work store or a native unit.

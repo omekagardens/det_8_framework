@@ -1,0 +1,29 @@
+{
+  "publication": "Continuum packet covariance, local stress and energy radius",
+  "kind": "Metadata-obscured research derivative",
+  "scientific_status": "Distinctly reviewed conditional mathematics in the fixed supplied Fock/packet model; not empirical or native-geometry evidence",
+  "payloads": [
+    {
+      "path": "docs/observables/continuum_packet_covariance_and_spread.md",
+      "bytes": 16059,
+      "sha256": "3daecec412c92c1741656bd20bdcfd6ef1e53b329b7fb15e454b5e15c3b75b1f"
+    },
+    {
+      "path": "docs/observables/local_stress_and_energy_radius.md",
+      "bytes": 19199,
+      "sha256": "dc8b806585aefb1c02591b21addb4cd66146a5c9e8c87106e703964dea52ce55"
+    },
+    {
+      "path": "README.md",
+      "bytes": 67671,
+      "sha256": "6822ada24759692dc07a2f30f64fb0c884c1618b3e53c30adc02915c77c8ff9d"
+    }
+  ],
+  "withheld": [
+    "Private prospective and activation controls",
+    "Source custody and author/reviewer administrative manifests",
+    "Local runtime, account and filesystem metadata"
+  ],
+  "scope": "Two original cosine-annulus modes for four sampled vacuum covariances; only j=1 one-particle stress and initial fixed-frame energy radius. Supplies metric, dispersion, scales and subtraction. Includes accepted continuum prerequisite and preserves stationary-source exclusion.",
+  "policy": "../../coordination/REDACTED_PUBLICATION.md"
+}
