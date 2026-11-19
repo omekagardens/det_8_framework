@@ -1,0 +1,23 @@
+{
+  "kind": "Metadata-obscured reviewed research derivative",
+  "scope": "CL117/v1 common-law initial material-circulation comparator; no new scientific acceptance",
+  "payloads": [
+    {
+      "path": "docs/observables/initial_circulation_omitted_state.md",
+      "bytes": 9176,
+      "sha256": "e919ceff7ac886923d2682cceec0e06665ef9656ae2ee6a25f084bb9f84f9e3c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 65924,
+      "sha256": "9916ad4ffa6ea6df0388d69cabbd98429be30baf886f054e93ed5b8a71853761"
+    }
+  ],
+  "withheld": [
+    "Original prospective control and source custody records",
+    "Original author and scientific-review manifests and runtime identities",
+    "Recipient scope review and private correspondence map",
+    "Local assembly review and command records"
+  ],
+  "limits": "Supplied continuum law, EOS, state preparations, exact access, material flow, regularity and conventional units. Initial event only; no native map or empirical validation. Hashes identify public payloads, not scientific truth."
+}

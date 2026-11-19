@@ -1,3 +1,7 @@
+## Reviewed initial-circulation comparator
+
+Under one supplied compressible Euler law, two preparations share the initial density, velocity and oriented-loop circulation record but have different initial circulation rates because that record omits pressure and entropy. The [complete calculation and limits](docs/observables/initial_circulation_omitted_state.md) give rates `p0/(20 rho0)` and zero. This is an initial-event conventional comparator with supplied flow regularity, exact field access and units; it establishes no native gravity, later conservation or empirical result.
+
 ## Current result and priority — 2026-10-28
 
 The accepted finite scalar-extension construction now has an independently reviewed endpoint-law corollary. For every admitted finite prefix of size n, the choices theta=1/3 and theta=2/3 assign different probabilities to the same all-markings chain event at birth n+1. The exact gap is n m_n/[3(2^n-1)] > 0, where m_n is the positive minimum individual structural history product defined in the proof. This establishes a finite law difference beyond a coordinate renaming, without selecting a physical law, supplying a physical discriminator or proving a uniform gap across prefixes.
