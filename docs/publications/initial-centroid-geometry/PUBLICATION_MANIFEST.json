@@ -1,0 +1,23 @@
+{
+  "scientific_packet": "CL118/v1",
+  "status": "Reviewed conditional initial-event comparator",
+  "payloads": [
+    {
+      "path": "docs/observables/initial_centroid_geometry.md",
+      "bytes": 11562,
+      "sha256": "e8afa33c2390c77750df67f6f7e4766a33a5292a79804bf53cee70bb23eb3448"
+    },
+    {
+      "path": "README.md",
+      "bytes": 66452,
+      "sha256": "9120843ab386a7e931eacc4717104624ba9fcd563a5aaa20fd76e7406bb05449"
+    }
+  ],
+  "scope": "Two frozen independent point-probe geometries and sole uniform-field control; supplied external Newtonian dynamics, universal coupling, exact access, clock/frame and units. No native or empirical qualification.",
+  "withheld": [
+    "Original prospective controls and source custody",
+    "Original scientific and recipient review manifests and runtime identities",
+    "Private source correspondence and local publication assembly records"
+  ],
+  "identity_note": "Payload hashes establish file identity, not scientific validation; private originals are not represented as publicly replayable custody."
+}

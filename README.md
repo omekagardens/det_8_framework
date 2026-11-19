@@ -1,3 +1,7 @@
+## Reviewed initial-centroid comparator
+
+Two equal-mass probe pairs with the same initial centroid, velocity and extent have different initial centroid accelerations in one supplied inverse-square field because their relative-position directions differ. The [exact calculation and limits](docs/observables/initial_centroid_geometry.md) retain universal constituent coupling and give equality in the uniform-field control. This is a conventional initial-event result, not a coupling-violation test or native gravity derivation.
+
 ## Reviewed initial-circulation comparator
 
 Under one supplied compressible Euler law, two preparations share the initial density, velocity and oriented-loop circulation record but have different initial circulation rates because that record omits pressure and entropy. The [complete calculation and limits](docs/observables/initial_circulation_omitted_state.md) give rates `p0/(20 rho0)` and zero. This is an initial-event conventional comparator with supplied flow regularity, exact field access and units; it establishes no native gravity, later conservation or empirical result.
