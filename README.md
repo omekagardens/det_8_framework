@@ -1,3 +1,7 @@
+## Reviewed physical-energy and norm comparator
+
+In one supplied charged-particle model, both magnetic controls conserve the same indefinite physical energy, while a positive conserved quadratic norm exists at b=3 and is impossible at b=0. The [complete finite comparison](docs/observables/physical_energy_and_conserved_quadratic_norm.md) keeps bounded finite-window motion distinct from a conserved norm certificate. The auxiliary norm is not physical work, a work store or a native unit.
+
 ## Reviewed initial-centroid comparator
 
 Two equal-mass probe pairs with the same initial centroid, velocity and extent have different initial centroid accelerations in one supplied inverse-square field because their relative-position directions differ. The [exact calculation and limits](docs/observables/initial_centroid_geometry.md) retain universal constituent coupling and give equality in the uniform-field control. This is a conventional initial-event result, not a coupling-violation test or native gravity derivation.

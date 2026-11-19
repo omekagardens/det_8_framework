@@ -1,0 +1,24 @@
+{
+  "publication": "Physical energy and a conserved quadratic norm",
+  "kind": "Metadata-obscured research derivative",
+  "scientific_status": "Distinctly reviewed conditional mathematics in one supplied classical model; no empirical or native-unit claim",
+  "payloads": [
+    {
+      "path": "docs/observables/physical_energy_and_conserved_quadratic_norm.md",
+      "bytes": 11886,
+      "sha256": "3587e96606ce5639ef99da7f0bbd7bdff1fe55ab97729a0e4c0cdd5924417f5c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 66943,
+      "sha256": "762ed8ecc2324fac299ae3059de52d92db951cfdf6da8bb3f3b429a338045b5f"
+    }
+  ],
+  "withheld": [
+    "Private controls and exact source custody",
+    "Author and review administrative manifests",
+    "Local runtime, account and filesystem metadata"
+  ],
+  "scope": "Only b=3 and b=0, fixed finite observation window, initial unit ball and one registered trajectory in each control. Supplied fields/scales and test-particle approximation remain assumptions.",
+  "policy": "../../coordination/REDACTED_PUBLICATION.md"
+}
