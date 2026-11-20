@@ -1,0 +1,152 @@
+{
+  "publication": "Fixed full-Fock source-energy fluctuation",
+  "kind": "Metadata-obscured derivative of an independently accepted conditional mathematical result",
+  "scientific_status": "ACCEPT_WITH_SCOPE after original distinct scientific result review and coordinator disposition; not empirical or native-physics acceptance",
+  "payloads": [
+    {
+      "path": "docs/observables/fixed_full_fock_energy_fluctuation.md",
+      "bytes": 19588,
+      "sha256": "8810deda9b74701eb5580c07dec68307de8a91b2764683db10b46fd0b6b5194c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 71500,
+      "sha256": "08ca83d003bbe0c707bf3ce38de2512c68eacd4dc09232ef4d1fa16d762536a5"
+    }
+  ],
+  "payload_paths_are_repository_relative": true,
+  "source_artifact_identities": [
+    {
+      "source_id": "coordinator-disposition",
+      "bytes": 5979,
+      "sha256": "c1102f10729552b6b7efe43f9fd536a5bdacea40fd220a51c814c3306b7c2b43"
+    },
+    {
+      "source_id": "author-control",
+      "bytes": 21233,
+      "sha256": "6db452146f74750d73e438cb79a9291a14943f1983edbc872cb27df93f1b5a36"
+    },
+    {
+      "source_id": "author-report",
+      "bytes": 18276,
+      "sha256": "0cddd359136b6c7030a624255cdce1c6b0bf38b72c441bb030d1e0b3cf153a9a"
+    },
+    {
+      "source_id": "author-manifest",
+      "bytes": 13229,
+      "sha256": "8fd9847cf8b67a70760f0b5ea33b91935f6fb6f12b25319926ab840eecc0208d"
+    },
+    {
+      "source_id": "distinct-scientific-review",
+      "bytes": 16018,
+      "sha256": "c6ca7fc5cbc352cfcce6d07c4df12ea448a5463f84384c1488b932a2aeacf835"
+    },
+    {
+      "source_id": "review-manifest",
+      "bytes": 29626,
+      "sha256": "7c485adedf74682a2afe1419ad19095f34d05058cddd70618e0eddfe03b8713e"
+    },
+    {
+      "source_id": "upstream-local-stress-admission",
+      "bytes": 4692,
+      "sha256": "051f0bafb1258871527ef51528a1e8f15224e0560e54c89e9cc4eecd9e305318"
+    }
+  ],
+  "public_dependency_closure": [
+    {
+      "path": "docs/observables/local_stress_and_energy_radius.md",
+      "bytes": 19199,
+      "sha256": "dc8b806585aefb1c02591b21addb4cd66146a5c9e8c87106e703964dea52ce55",
+      "relation": "Direct public prerequisite"
+    },
+    {
+      "path": "docs/observables/continuum_packet_covariance_and_spread.md",
+      "bytes": 16059,
+      "sha256": "3daecec412c92c1741656bd20bdcfd6ef1e53b329b7fb15e454b5e15c3b75b1f",
+      "relation": "Direct public prerequisite"
+    },
+    {
+      "path": "docs/publications/continuum-packet-local-stress/PUBLICATION_MANIFEST.json",
+      "bytes": 1372,
+      "sha256": "9f3a0a858af96427e3aa25ff9d99fe540a4b095684c7376a9b31d254ed7b9980",
+      "relation": "Prerequisite publication identities"
+    },
+    {
+      "path": "docs/observables/local_scalar_source_for_four_chain_field.md",
+      "bytes": 17746,
+      "sha256": "9ba0b188035835f22257a7ad842ea6675aeb642a15282d3b09dbd491de325bfb",
+      "relation": "Existing public benchmark/exclusion context linked by continuum prerequisite"
+    },
+    {
+      "path": "docs/observables/isolated_stationary_scalar_source_obstruction.md",
+      "bytes": 9748,
+      "sha256": "6eecde1d1e46b8482b3c78e80d9048ed2ca9551cf39dfb511828fb83e858a778",
+      "relation": "Existing public benchmark/exclusion context linked by continuum prerequisite"
+    },
+    {
+      "path": "docs/coordination/REDACTED_PUBLICATION.md",
+      "bytes": 1553,
+      "sha256": "9a73966b0541d38f02b35d2ad8c565e1559f58c59206bb751a25c9c921b70b98",
+      "relation": "Publication metadata policy"
+    }
+  ],
+  "dependency_interpretation": "The existing continuum and local-stress manuscripts supply the complete Fock/CCR/state/field and energy-radius prerequisites. Benchmark/exclusion articles remain context reached through those prerequisites. The prior prerequisite manifest pins its historical README version, not the current README; its two scientific payloads are unchanged. No gravity/mass/apparatus or later response result is a premise.",
+  "accepted_result": {
+    "fixed_case": "Original j=1 cosine annulus, delta=pi/(16*tau), omega1=5*pi/(4*tau), original center; ell is exact accepted initial ENERGY radius, temporal width tau, normalized temporal and unnormalized spatial Gaussian.",
+    "action": "Common sharp frequency cutoff in both field factors. Full-Fock norm limit of action on the one-particle state; spectator h remains uncut. Number and three-particle pair sectors retained.",
+    "variance": "Ordinary connected second moment of already normal-ordered stress: ||Nh||^2-mu^2+(1/2)||P||HS^2+||P bar(h)||^2. No square normal ordering, vacuum-variance subtraction or one-particle projection.",
+    "comparison": "Exact convergent dimensionless integrals define the ratio; proved 0<R_star<4691/5184<1. This is an upper bound, not the evaluated ratio, sharpness or negligible-fluctuation claim."
+  },
+  "mandatory_scope_limits": [
+    "Only a state-action quadratic-moment diagnostic; no limiting self-adjoint observable, invariant limiting quadratic domain, D(E^2) or spectral measurement law.",
+    "Frame-specific noncompact past/future and spatial sampling, not a causal finite detector or preparation/resource model.",
+    "No general semiclassical/gravity adequacy, metric response, mass/unit derivation, empirical test or physical evidence.",
+    "Fock/field/metric/dispersion and c,tau,A_star,kappa/vacuum dictionary remain supplied. Scale cancellation does not derive native units.",
+    "Native conditional weights and unavailable attachments retained; no zero-energy/variance assignment, action-profile reweighting or adoption of later results."
+  ],
+  "registration_evidence": "Accepted at registered-artifact and documented-phase scope. Supported exposed registration output precedes displayed helper/result activity; norm-limit phase precedes stated comparison. Some chat previews were truncated. No certification of invisible reasoning, every helper internal chronology or every historical file state, and no unconditional empirical prospectivity claim.",
+  "science_fidelity": {
+    "display_blocks_preserved_verbatim": 42,
+    "numbered_equation_tags_preserved": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "three_scientific_spans_byte_identical": true,
+    "source_proof_reused_not_rerun": true
+  },
+  "readme_assembly": {
+    "method": "New prefix followed by complete byte-identical prior README",
+    "base_bytes": 70504,
+    "base_sha256": "3ea4f523a847f1b210646ddc624eb281077259dc9b61128dfb31bfa883b36335",
+    "prefix_bytes": 996,
+    "prefix_sha256": "9a400492a3b0dfe56e4c724727bfdec02883bd0cbd42aac4edc92da36c6f0662"
+  },
+  "withheld": [
+    "Private controls and complete author/reviewer administrative custody manifests",
+    "Absolute source paths and private correspondence/span map",
+    "Account, runtime, platform, timestamp and command-transcript metadata"
+  ],
+  "policy": "../../coordination/REDACTED_PUBLICATION.md",
+  "self_identity": "No self-hash; exact manifest identity is held in the private assembly and distinct fidelity review."
+}

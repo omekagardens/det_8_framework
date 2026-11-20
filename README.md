@@ -1,3 +1,9 @@
+## Reviewed full-Fock source-energy fluctuation
+
+For one fixed continuum packet and Gaussian sampling window, the [full-Fock energy-fluctuation result](docs/observables/fixed_full_fock_energy_fluctuation.md) constructs a finite-cutoff state action and proves its norm limit. The ordinary variance is finite and strictly positive, including vacuum and occupied-state pair contributions. Its relative variance is strictly below 4691/5184, hence below one; that fraction is a bound, not the evaluated ratio or a negligibility claim.
+
+This independently reviewed conditional result quantifies information omitted by replacing the sampled source with its mean. It supplies no general gravitational-validity criterion, metric response, limiting self-adjoint observable, detector, native-unit derivation or empirical evidence. [Exact publication and source identities](docs/publications/fixed-full-fock-fluctuation/PUBLICATION_MANIFEST.json) retain the fixed model and documented-order qualifications.
+
 ## Reviewed linearized gravity and distinct mass meanings
 
 The original supplied continuum packet admits [regular decaying first-order gravitational initial data](docs/observables/linearized_gravity_initial_data.md) satisfying both declared constraints at one slice. Its specified asymptotic mass coefficient is E/c². The gravitational coupling, mean-source identification and mass normalization are supplied; no nonlinear solution, finite-coupling error bound, evolution or measured gravitational effect follows.
