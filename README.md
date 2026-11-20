@@ -1,3 +1,11 @@
+## Reviewed linearized gravity and distinct mass meanings
+
+The original supplied continuum packet admits [regular decaying first-order gravitational initial data](docs/observables/linearized_gravity_initial_data.md) satisfying both declared constraints at one slice. Its specified asymptotic mass coefficient is E/c². The gravitational coupling, mean-source identification and mass normalization are supplied; no nonlinear solution, finite-coupling error bound, evolution or measured gravitational effect follows.
+
+A separate [spectral and mean-four-momentum mass comparison](docs/observables/spectral_and_mean_four_momentum_mass.md) gives a zero spectral mass law but positive mass formed from mean charges for that same supplied packet. The latter is not a spectral particle mass. Its accepted scope explicitly resolves an inherited label ambiguity in favor of the conditional mathematical comparison while excluding physical, native or empirical mass identification. Neither result derives native units or empirical agreement.
+
+Both results passed distinct scientific review and coordinator admission. Their registration evidence supports only the documented process record, not unconditional certification of all earlier reasoning. The preceding repeated-readout packet's full control-before-proof failure remains unchanged as earlier-packet provenance; it is not an established failure of these new packets. [Exact publication and source identities](docs/publications/gravity-and-mass/PUBLICATION_MANIFEST.json) preserve the distinctions.
+
 ## Reviewed retained-register dynamics and repeated readout
 
 The supplied continuum packets admit an [exact retained qutrit channel](docs/observables/retained_continuum_register_channel.md). Its one-time states have time-dependent completely positive propagation on the stated window, while the original two-tick witness excludes homogeneous composition on that register. Under the explicitly supplied global two-read Lüders instrument, the [complete repeated-readout law](docs/observables/repeated_retained_register_readout.md) differs strictly from applying that CP propagator after the first read. A protocol-specific conditional record table is available; the earlier one-time theorem remains valid.

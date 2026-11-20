@@ -1,0 +1,186 @@
+{
+  "publication": "One-slice linearized gravity and distinct spectral/mean mass meanings",
+  "kind": "Metadata-obscured derivatives of two independently accepted conditional mathematical results",
+  "scientific_status": "ACCEPT_WITH_SCOPE after distinct Energy scientific reviews and coordinator dispositions; not empirical or native-physics acceptance",
+  "payloads": [
+    {
+      "path": "docs/observables/linearized_gravity_initial_data.md",
+      "bytes": 16161,
+      "sha256": "7b2c9b8494d661920dcd6372f8b99674e974e2b1c34e70389ebcd4efbd974ed1"
+    },
+    {
+      "path": "docs/observables/spectral_and_mean_four_momentum_mass.md",
+      "bytes": 15260,
+      "sha256": "48dd8a8eaa4d35ed7a0bc4f2d90c8d6052dfb64e93a9b3992d1c129ad2c73d5d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 70504,
+      "sha256": "3ea4f523a847f1b210646ddc624eb281077259dc9b61128dfb31bfa883b36335"
+    }
+  ],
+  "payload_paths_are_repository_relative": true,
+  "source_artifact_identities": [
+    {
+      "source_id": "gravity-coordinator-disposition",
+      "bytes": 9285,
+      "sha256": "68751dd663a3ffb0b6ccb93a7c8b61f3afc1468eba9ec15431c16f70564d55dc"
+    },
+    {
+      "source_id": "mass-coordinator-disposition",
+      "bytes": 10388,
+      "sha256": "d748bf9372ea9a19033c0f20c98c9c3f7becbf39403331bdc01cf7c616b5514e"
+    },
+    {
+      "source_id": "gravity-author-control",
+      "bytes": 41741,
+      "sha256": "b70e77a5145ff45c9e27ea288b844ad9ce24880aa892e20dbf786248ba152d62"
+    },
+    {
+      "source_id": "gravity-author-report",
+      "bytes": 17024,
+      "sha256": "b1d76aea16957b9a726392a3d8907065d964e1a4c07c41b750fe66ee4133205f"
+    },
+    {
+      "source_id": "gravity-author-manifest",
+      "bytes": 929149,
+      "sha256": "13951554ba69a280c4d67a3c1fbe9258a33eea4f5e3ec053e8af4109c5785a85"
+    },
+    {
+      "source_id": "mass-author-control",
+      "bytes": 780322,
+      "sha256": "5e2aa73f76d1a2aa12d4c742dd6788da73e4b369cea1ef2f8bdf4363393eb06e"
+    },
+    {
+      "source_id": "mass-author-report",
+      "bytes": 14889,
+      "sha256": "788f6c676257f9c53e768e4ab8823d94474d7ba85520923fc872587943499540"
+    },
+    {
+      "source_id": "mass-author-manifest",
+      "bytes": 932461,
+      "sha256": "491da5c2909e003302ca592b4cb5635613118381381900816acd06e5267c036d"
+    },
+    {
+      "source_id": "gravity-distinct-scientific-review",
+      "bytes": 15931,
+      "sha256": "37e90dfbdf2483f799fea53a168ed9e0ff1faf1f8244c17fb8d98257f948ac2b"
+    },
+    {
+      "source_id": "gravity-review-manifest",
+      "bytes": 87099,
+      "sha256": "af6e3f665d0bb5a538e7e2913749ea0826499d30dc9bda5e7954c5b046076fbf"
+    },
+    {
+      "source_id": "mass-distinct-scientific-review",
+      "bytes": 17409,
+      "sha256": "e45be6a21fbda5d86ea6524d553d67d086665f3ac04a293d0c65538d281f19a1"
+    },
+    {
+      "source_id": "mass-review-manifest",
+      "bytes": 57437,
+      "sha256": "5c86aa3541617b95224f8826c2a32d76f4c0b0fe7238f8319e940be85cb6e36d"
+    }
+  ],
+  "direct_scientific_dependency_identities": [
+    {
+      "source_id": "local-stress-coordinator-disposition",
+      "bytes": 4692,
+      "sha256": "051f0bafb1258871527ef51528a1e8f15224e0560e54c89e9cc4eecd9e305318"
+    },
+    {
+      "source_id": "local-stress-author-report",
+      "bytes": 20828,
+      "sha256": "8e50262be479c03fcd046eab92a49ce87139e4bf61759e9d2a25bc69a6e564d0"
+    },
+    {
+      "source_id": "local-stress-author-manifest",
+      "bytes": 16412,
+      "sha256": "d591e6d149666eba39bc25d1ef2d7a1be68ef1c0953dcd37ad197be266a230ad"
+    },
+    {
+      "source_id": "local-stress-distinct-scientific-review",
+      "bytes": 11828,
+      "sha256": "03a32daadfd31a6fc439450371367a3ea1212c1b4b4dfc8c8adc346925fce5a1"
+    },
+    {
+      "source_id": "local-stress-review-manifest",
+      "bytes": 24507,
+      "sha256": "7c89bc218be00374fc6644d0840616589af52078597af081faec1132fb8c1f6e"
+    }
+  ],
+  "public_dependency_closure": [
+    {
+      "path": "docs/observables/local_stress_and_energy_radius.md",
+      "bytes": 19199,
+      "sha256": "dc8b806585aefb1c02591b21addb4cd66146a5c9e8c87106e703964dea52ce55",
+      "relation": "Direct public prerequisite"
+    },
+    {
+      "path": "docs/observables/continuum_packet_covariance_and_spread.md",
+      "bytes": 16059,
+      "sha256": "3daecec412c92c1741656bd20bdcfd6ef1e53b329b7fb15e454b5e15c3b75b1f",
+      "relation": "Direct public prerequisite"
+    },
+    {
+      "path": "docs/publications/continuum-packet-local-stress/PUBLICATION_MANIFEST.json",
+      "bytes": 1372,
+      "sha256": "9f3a0a858af96427e3aa25ff9d99fe540a4b095684c7376a9b31d254ed7b9980",
+      "relation": "Prerequisite publication identities"
+    },
+    {
+      "path": "docs/observables/local_scalar_source_for_four_chain_field.md",
+      "bytes": 17746,
+      "sha256": "9ba0b188035835f22257a7ad842ea6675aeb642a15282d3b09dbd491de325bfb",
+      "relation": "Existing public benchmark/exclusion context linked by continuum prerequisite"
+    },
+    {
+      "path": "docs/observables/isolated_stationary_scalar_source_obstruction.md",
+      "bytes": 9748,
+      "sha256": "6eecde1d1e46b8482b3c78e80d9048ed2ca9551cf39dfb511828fb83e858a778",
+      "relation": "Existing public benchmark/exclusion context linked by continuum prerequisite"
+    },
+    {
+      "path": "docs/observables/repeated_retained_register_readout.md",
+      "bytes": 15089,
+      "sha256": "59001988f804a3a31d91e94359786dcbebefb9458216408a12f8f73dcad39f26",
+      "relation": "Earlier-packet order-failure provenance only; not a proof premise"
+    },
+    {
+      "path": "docs/coordination/REDACTED_PUBLICATION.md",
+      "bytes": 1553,
+      "sha256": "9a73966b0541d38f02b35d2ad8c565e1559f58c59206bb751a25c9c921b70b98",
+      "relation": "Publication metadata policy"
+    }
+  ],
+  "dependency_interpretation": "The public local-stress article contains the accepted source proof and links the full continuum construction. Existing public benchmark/exclusion articles remain available. Their exact current public bytes are pinned here; private source identities identify originals, not publicly supplied custody files. The two new articles have the common source but the mass proof does not depend on gravity or G.",
+  "external_definition_source": {
+    "title": "Wolfgang Tichy, The initial value problem as it relates to numerical relativity",
+    "url": "https://arxiv.org/html/1610.03805v2",
+    "version": "arXiv:1610.03805v2,23Dec2016",
+    "read_scope": "Author and scientific reviewer targeted sections 2.3–2.5 and the opening of section 3, equations 22–37 for supplied constraint/projection conventions. No full-paper or PDF-custody claim; assembly reuses that checked definition source."
+  },
+  "scope": {
+    "gravity": "One original j=1 cosine-annulus state family and t=tau slice; supplied G, mean source and mass normalization. Smooth radial coefficient construction and first-order surface mass only; no nonlinear/finite-coupling/error/evolution/physical/native result.",
+    "mass": "One original state family and slice, two supplied mass definitions with domain/closure and stress-charge proof. Spectral mass law delta_0 differs from positive mass of mean four-momentum. No spectral particle-mass inference from E/c^2, physical/native identification or Lorentz action beyond a separate stated condition.",
+    "scope_label_adjudication": "The inherited phrase No spectral particle mass or source production-rate identification is ambiguous alone. Specific authority and exact operator contract authorize the conditional mathematical comparison. The exclusion of physical/native/empirically calibrated particle mass or source production rate remains; original control and all definitions/methods/resources stay unchanged."
+  },
+  "registration_and_prior_failure": {
+    "current_results": "Accepted only at documented process-record scope: saved controls precede later helper/report activity and authors locate selected work after control. Earlier source/candidate/definition screening is disclosed. Records do not certify every private reasoning step, blind first exposure or empirical prospectivity. No current material order failure established.",
+    "earlier_repeated_readout": "Full control-before-proof requirement NOT MET in the preceding repeated-readout packet. This is preserved earlier-packet provenance, not repaired and not misattributed to the new gravity or mass results."
+  },
+  "readme_assembly": {
+    "method": "New prefix followed by byte-identical full base",
+    "base_bytes": 68958,
+    "base_sha256": "f38bb4eb6ee47a460ae8fb319337d3a10594b1029aa56ad5a08a5b0bbbd51738",
+    "prefix_bytes": 1546,
+    "prefix_sha256": "53acb96188edfa83c30df1bf711aa65ff7be71fb703a325c4053ea35f6e4b589"
+  },
+  "withheld": [
+    "Private controls and complete author/reviewer administrative manifests",
+    "Absolute source paths and private correspondence map",
+    "Account, runtime, platform and command-transcript metadata"
+  ],
+  "policy": "../../coordination/REDACTED_PUBLICATION.md",
+  "self_identity": "No self-hash; exact manifest identity is held by the distinct assembly review."
+}
