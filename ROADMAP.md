@@ -335,6 +335,7 @@ universal classifier or application execution is supplied.
 | — | Dataset analysis | Clock, Eötvös, flyby, SPARC, cluster, BAO, and GPS analyses completed; gravity-related interpretations were subsequently retired under Option B. |
 | — | Remaining items | All 5 addressed. Mathematical review applied (M0 fix, claim-status revision). |
 | — | Continuum limit | Architecture implemented. Finite-model numerical evidence supports convergence pathways. Formal CT remains open. 14 continuum-limit modules. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
+| — | κ-Gravity Revival (`revival/kappa-gravity-pathways`) | Concurrent two-pathway evaluation under relaxed Gate 4 (`kappa_gravity_revival.py`): M1 neutral fixtures (`galaxy_observables.py`), M2 Pathway 1 `PARTIAL_LIMITATION` (`kappa_t1_contraction.py`), M3 Pathway 2 `REFUTED` (`pi_conformal_bridge.py`). |
 
 ---
 
@@ -374,7 +375,7 @@ successful conventional benchmark does not establish a native gravity law.
 
 | Track | Status |
 |---|---|
-| A — Physical Calculus | Finite/computed theorem-program results plus one active falsifiable prediction (κ-Π clock anomaly), gated on F9 and independent κ. See `FALSIFICATION_LEDGER.md`. |
+| A — Physical Calculus | Finite/computed theorem-program results plus one active Class-I clock prediction (κ-Π, gated on F9 + independent κ), alongside the concurrent `revival/kappa-gravity-pathways` evaluation (`kappa_gravity_revival.py`: Pathway 1 `PARTIAL_LIMITATION` under relaxed Gate 4 `FIT` accounting; Pathway 2 `REFUTED`). See `FALSIFICATION_LEDGER.md` and `GOVERNANCE.md`. |
 | B — Ontological Grammar | Governed synthesis and conditional native-growth research; metaphysical claims remain separated from mathematical and empirical evidence. |
 
 ### Classification

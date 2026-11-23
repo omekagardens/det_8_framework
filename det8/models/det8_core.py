@@ -28,6 +28,16 @@ M0 fix (mathematical review, Aug 2026):
   N is a monotone event counter. κ is mutable structural history.
   Previously conflated — κ was used for both, creating inconsistency
   when κ decreased (recovery would imply negative proper time).
+
+Revival track alignment (branch ``revival/kappa-gravity-pathways``):
+  ``LAMBDA_GAMMA``, ``NodeRecord.gamma``, and ``effective_gravity_source``
+  remain under partial quarantine (``legacy_gravity_quarantine.PARTIALLY_QUARANTINED``)
+  and are NOT promoted as active gravitational claims.  The active revival
+  runner ``det8.models.kappa_gravity_revival`` evaluates Pathway 1
+  (``det8.models.kappa_t1_contraction``, ``PARTIAL_LIMITATION``) and Pathway 2
+  (``det8.models.pi_conformal_bridge``, ``REFUTED``), reusing only the active
+  ``NodeRecord``, ``LAMBDA_P``, ``participation_aperture``, and
+  ``proper_time_increment`` primitives here.
 """
 
 from __future__ import annotations
@@ -267,7 +277,9 @@ def effective_gravity_source(
     """Compute the gravitational source contrast ρ = q - b.
 
     Modal annotation: P (proposed physical; inherited from DET 7 concept).
-    The mapping from ρ to metric curvature is unresolved.
+    Partially quarantined (legacy_gravity_quarantine.PARTIALLY_QUARANTINED);
+    unused by active revival modules (kappa_t1_contraction, pi_conformal_bridge,
+    kappa_gravity_revival).  The mapping from ρ to metric curvature is unresolved.
 
     Args:
         record: The node record.

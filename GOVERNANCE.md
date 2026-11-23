@@ -49,6 +49,20 @@ exposed, but cannot thereby become order-independent native laws. Option B,
 Status M, the ontology/physical-calculus separation and all stronger physical,
 empirical and derivation requirements remain in force.
 
+### Re-Entry Gate Policy for κ-Gravity Revival (`revival/kappa-gravity-pathways`)
+
+Under the constructive integration remit above and `docs/CONTINUUM_LIMIT_FRAMEWORK.md`, the κ-gravity revival (`det8/models/kappa_gravity_revival.py`) operates under explicit gate separation:
+
+- **Relaxed gates (exploratory only):**
+  - **Gate 4 (non-calibration prohibition):** Relaxed so calibrated/fitted closures (`Σ_crit = 0.008 × 10⁹ M_sun/kpc²`, `w_SFR`, `β = 0.93`, `G_eff = G / (1 - βκ)`, galactic `λ_P`) can be evaluated quantitatively when every equation/parameter is explicitly tagged (`TH-DET` / `P` / `CORR` / `FIT` / `EXTERNAL_ANCHOR`) and parameter degeneracies (`β = 0.97–0.98` vs. SPARC error) are documented.
+  - **T7 full-emergence prerequisite:** Lifted as an administrative blocking precondition for phenomenological exploration in new modules outside `FULLY_RETIRED`, without promoting any `FIT`/`CORR` closure to a DET-native theorem or Class-I claim.
+  - **Concurrent two-pathway evaluation:** Both Pathway 1 and Pathway 2 are evaluated concurrently until quantitative refutation.
+- **Kept strict (non-negotiable):**
+  - **Gates 1–3 (`docs/observable_anchoring.md`):** Level-2 empirical fixtures isolated in `det8/models/galaxy_observables.py` (`NEUTRAL_DATA_FIXTURE`); `CORR` and `EXTERNAL_ANCHOR` premises explicitly separated from `TH-DET`.
+  - **Gate 5 (quantitative checks):** Pathway 1 passes `4/4` core gates and flags `5/6` open limitations (`PARTIAL_LIMITATION`); Pathway 2 fails `C1_sign`, `C2_lensing`, `C3_sparc_btfr`, and `C4_clock_gap` (`REFUTED`).
+  - **Gate 6 (pre-registered falsifiers & `NOVELTY_LEDGER.md`):** Both pathways carry pre-registered quantitative falsifiers (`FALSIFICATION_LEDGER.md`) and `cost_if_null` entries (`NOVELTY_LEDGER.md`); `sparc_subset.json` guardrail (56 records, `#` comments, `M_gas == M_star`) and `PARTIAL_QUARANTINE` `λ_P · Δκ` product caveats remain strict.
+  - **AST Quarantine, `Status M` & Anti-Agency:** `len(FULLY_RETIRED) == 28` preserved unchanged; zero imports from `FULLY_RETIRED` in active `det8/models/*.py`; `Status M` non-promotion and §2 anti-agency holdings remain strictly enforced.
+
 ---
 
 ## 2. Adversarial Holdings (from P0.3)
@@ -94,7 +108,9 @@ Two-axis system: Layer (what kind of claim) × Validation (how well supported).
 | κ (structural history) | L0 descriptor / L1 latent-variable hypothesis | Fitted coordinate; **not a measured field** |
 | Non-singleton support | Proposed calculational | Implemented |
 | Born rule, CHSH, Lorentz | Correspondence (CORR) | Recovered after mapping to a standard role; **not derived from primitives** |
-| Gravity | Retired (Option B) | Standard GR; DET does not source or modify gravity |
+| Gravity (Legacy v1/v2) | Retired (`FULLY_RETIRED`, 28 modules) | Historical audit only; AST-isolated (`legacy_gravity_quarantine.py`); Option B baseline unchanged |
+| Gravity Revival — Pathway 1 (T1 contraction + reciprocal aperture) | Exploratory (`TH-DET` T1 + `FIT`/`CORR` closure) | **`PARTIAL_LIMITATION`** (`4/4` core checks pass; `r^(-1/2)` turnover, `41.19%` `KNOWN_GALAXIES`, no covariant lensing; unpromoted) |
+| Gravity Revival — Pathway 2 (Π-conformal clock-metric bridge) | Exploratory (`P` + `CORR`/`FIT` bridge) | **`REFUTED`** (`C1_sign`, `C2_lensing` `γ_PPN = -1.0`, `C3_sparc_btfr`, `C4_clock_gap`; `any_det_native_survivor = False`) |
 | Ontological openness, strong presence | Metaphysical | Empirically undiscriminated |
 | NPF-C (no hidden outcome register) | Construction invariant | Code-audited in toys |
 | NPF-M (no pre-existing future fact) | Metaphysical | Undetermined (F8-OPEN) |
@@ -116,7 +132,7 @@ DG-OPEN triggered: open becoming → M.
 ### Current gate (P0.8 → revised, Aug 2026)
 ```
 Novel, risky predictions survive? → One clock hypothesis (weakly identified), gated on F9 + independent κ.
-Only known dynamics + DET terminology? → Yes for Born/CHSH/Lorentz (correspondence, CORR); gravity retired; κ is a fitted coordinate, not yet a field.
+Only known dynamics + DET terminology? → Yes for Born/CHSH/Lorentz (correspondence, CORR); legacy gravity retired (`len(FULLY_RETIRED) == 28`); revival Pathway 1 is `PARTIAL_LIMITATION` (explicit `FIT` closure) and Pathway 2 is `REFUTED`; κ is a fitted coordinate, not yet a field.
 Physical results require agency? → No.
 → DET presently has a relational ontology, a record-kernel reconstruction program, and one
   weakly identified clock hypothesis. It is not yet a validated candidate physical theory with a

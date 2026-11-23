@@ -218,7 +218,7 @@ The [intrinsic Bernoulli order likelihood](docs/track_b/native_theorem_package_v
 
 **Physical observation boundary.** The [observation-channel result](docs/track_b/native_theorem_package_v1/OBSERVATION_IDENTIFIABILITY.md) proves underdetermination over declared non-feedback extensions of the admitted finite law. Shared gain/noise channels and order-preserving timestamp rescaling leave native marginals and scalar payload maps intact while changing external readout predictions. A physical correspondence still requires independently justified preparation, channel dynamics, units, comparison and falsification. The original strict source-identity failure remains a failure; later content matching does not restore historical custody.
 
-**Status:** DET8 separates a falsifiable record-kernel model layer from a **Status-M relational ontology**. Track A's κ-Π clock anomaly is an optional empirical probe gated on operational κ preparation and independent estimation; its outcome does not automatically confirm or refute Track B. DET adopts unchanged GR plus separately declared conventional source models as its gravitational baseline—these are modeling choices, not observations or DET derivations. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$, the assumptions behind complex structure, general Born-rule uniqueness, scheduler-independent probability, continuum reconstruction, and global κ-identifiability remain open. The ontology has no unique empirical discriminator and is evaluated separately for coherence and comparative usefulness.
+**Status:** DET8 separates a falsifiable record-kernel model layer from a **Status-M relational ontology**. Track A's κ-Π clock anomaly is an optional empirical probe gated on operational κ preparation and independent estimation; its outcome does not automatically confirm or refute Track B. Under Option B's core register, DET adopts unchanged GR plus separately declared conventional source models as its gravitational baseline—these are modeling choices, not observations or DET derivations. On branch `revival/kappa-gravity-pathways`, `det8/models/kappa_gravity_revival.py` conducts an exploratory κ-gravity evaluation under relaxed Gate 4 (`GOVERNANCE.md` §1) while keeping all 28 legacy modules in `FULLY_RETIRED`: **Pathway 1** (`kappa_t1_contraction.py`, T1 contraction + reciprocal aperture) holds **`PARTIAL_LIMITATION`**, and **Pathway 2** (`pi_conformal_bridge.py`, Π-conformal clock-metric bridge) is **`REFUTED`**. The implemented correlation-class work reaches almost-quantum $Q^1$, while the relation to full quantum $Q^∞$, the assumptions behind complex structure, general Born-rule uniqueness, scheduler-independent probability, continuum reconstruction, and global κ-identifiability remain open. The ontology has no unique empirical discriminator and is evaluated separately for coherence and comparative usefulness.
 
 **Lens yield at a glance.** DET's surface separates into four buckets:
 
@@ -324,7 +324,7 @@ observer-independent geometry. Track-B interpretations remain Status M.
 | Commit kernel | \(K: \Omega \rightarrow [0,1]\) — proper transition kernel | `markov_kernel.py` |
 | Participation aperture | \(\Pi = \sigma \eta (1+F)^{-1}(1+H)^{-1}\phi(v)(1+\lambda_P\kappa)^{-1}\) — proper-time rate | `det8_core.py` |
 | Structural history | κ ∈ [0,1] — **L0/L1 fitted coordinate, not a primitive field** (rank-one special case of a predictive-history coordinate) | `det8_core.py` |
-| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — **RETIRED (Option B, no κ-gravity)** | `det8_core.py` |
+| Gravitational charge | \(\gamma = \lambda_\gamma \kappa\) — **RETIRED (Option B, no κ-gravity)**; active revival parameters (`Σ_crit`, `w_SFR`, `β`) live in `kappa_t1_contraction.py` tagged `FIT` | `det8_core.py` |
 | Pair-kernel (candidate) | \(\mathfrak D: \mathcal A \times \mathcal A \to \mathbb C\) — pre-commit relational possibility structure; \(K_\mathcal P(i)=\mathfrak D(A_i,A_i)\) on recordable partitions | *proposed (T2)* |
 | Kernel roots | \(c_i\) with \(K(i) = |c_i|^2\) — **correspondence (CORR)**: Gram coordinates of \(\mathfrak D\), not primitives | `born_derivation.py` |
 | Bonds | σ_ij, C_ij, π_ij — spatial connectivity between nodes | `bonds.py` |
@@ -335,7 +335,7 @@ observer-independent geometry. Track-B interpretations remain Status M.
 
 These are **correspondence checks**, not derivations. They recover a target relation after its standard mathematical structure or an explicit mapping has been supplied. The step from DET records to that structure is not established by reproducing the target arithmetic.
 
-**Legacy boundary:** all gravity/Kepler rows below are **RETIRED** and executable only as historical regression fixtures. The Lorentz rows are synthetic known-answer checks: they supply Minkowski coordinates, interval, invariant speed, and boosts. See `legacy_gravity_quarantine.py` and `docs/CONTINUUM_LIMIT_FRAMEWORK.md`.
+**Legacy boundary:** all legacy gravity/Kepler rows below are **RETIRED** (`len(FULLY_RETIRED) == 28`) and executable only as historical regression fixtures. The Lorentz rows are synthetic known-answer checks: they supply Minkowski coordinates, interval, invariant speed, and boosts. See `legacy_gravity_quarantine.py` and `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. In the concurrent revival track (`kappa_gravity_revival.py`), **Pathway 1** (`kappa_t1_contraction.py`) evaluates `FIT`/`CORR` reciprocal-aperture rotation curves on `TH-DET` T1 contraction (`PARTIAL_LIMITATION`), while **Pathway 2** (`pi_conformal_bridge.py`, `CORR` conformal bridge `g_μν = Π² η_μν`) is **`REFUTED`**.
 
 | # | Target relation | Correspondence | Module |
 |---|---|---|---|
@@ -352,12 +352,16 @@ These are **correspondence checks**, not derivations. They recover a target rela
 | 13 | Velocity addition | **Synthetic CORR** — composition of supplied boosts | `lorentz_derivation.py` |
 | 14 | Pointer-record formation | Consensus of N weak commit events | `det_native_measurement.py` |
 | 15 | Amplitude structure (ℂ) | Continuous interference from kernel roots | `chsh_derivation.py` |
+| 16 | Revival Pathway 1 (T1 + reciprocal `G_eff`) | `TH-DET` T1 contraction + `CORR`/`FIT` (`PARTIAL_LIMITATION`) | `kappa_t1_contraction.py` |
+| 17 | Revival Pathway 2 (Π-conformal clock-metric) | `P` + `CORR` conformal bridge (`REFUTED`: `C1_sign`–`C4_clock_gap`) | `pi_conformal_bridge.py` |
 
 ---
 
 ## 4. Track A — Physical Predictions
 
-> **Scope decision (Round 6, Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The **sole** falsifiable prediction is the κ-Π clock anomaly (the λ_P channel). The gravity-decoupling prediction and the two-source law (α channel) are **RETIRED**. DET adopts unchanged GR plus separately declared conventional source models as its baseline; these are modeling choices, not observations or DET derivations.
+> **Scope decision (Round 6, Option B) & Revival Exploration:** DET's active physical baseline remains the κ-Π clock anomaly (the λ_P channel) with unchanged GR as the core Option B baseline. The legacy gravity-decoupling two-source law (α channel) remains **RETIRED**. On branch `revival/kappa-gravity-pathways` under relaxed Gate 4 and lifted administrative `T7` pre-blocking (with Gates 1–3, 5–6, `Status M`, and `len(FULLY_RETIRED) == 28` kept strict), `det8/models/kappa_gravity_revival.py` evaluates two revival candidates:
+> - **Pathway 1 (`kappa_t1_contraction.py` — T1 Contraction + Reciprocal Aperture):** **`PARTIAL_LIMITATION`** (`4/4` core gates pass; `5/6` limitation checks open).
+> - **Pathway 2 (`pi_conformal_bridge.py` — Π-Conformal Clock-Metric Bridge):** **`REFUTED`** (`C1_sign`, `C2_lensing`, `C3_sparc_btfr`, `C4_clock_gap`).
 
 | Prediction | Formula | Measurement | Sensitivity |
 |---|---|---|---|
@@ -504,6 +508,8 @@ Mathematical-evidence axis: D=Definition, I=Implemented, CI=Computed Instance, F
 | — | Complex amplitudes | Correspondence (CORR) | **I** — Architecture specified; U(1) emergence sketch | AT: Field-selection theorem (ℂ vs ℝ vs ℍ) |
 | — | κ dynamics | Phenomenological descriptor (L0/L1) | **I** — Reaction-diffusion toy | Rank test (scalar/vector) + held-out transport |
 | — | Clock prediction | Weakly identified (FIT/PR) | **PR** — Gated parameterized hypothesis | EV: common-mode universality + identifiable parameters |
+| — | Revival Pathway 1 (T1 + reciprocal `G_eff`) | — | **`PARTIAL_LIMITATION`** (`4/4` core gates; `FIT` closure on `TH-DET` T1) | Full radial SPARC profiles, covariant `γ_PPN = 1` action, native `Σ_crit`/`β`, rank `r > 1` separation |
+| — | Revival Pathway 2 (Π-conformal clock-metric) | — | **`REFUTED`** (`4/4` checks failed: `C1_sign`..`C4_clock_gap`) | Non-conformal `Ψ(σ_ij)` derivation, non-F6 sign, clock decoupling, `M_bar`-scaling potential |
 
 ---
 
@@ -547,7 +553,11 @@ det8/models/
 ├── kappa_discriminator.py              # κ vs defect density (F9)
 ├── det_units.py                        # SI ↔ DET units conversion
 ├── det_falsification.py                # Falsification ladder + data guardrail
-└── operational_kappa.py                # Precision-materials program (L0/L1/L2)
+├── operational_kappa.py                # Precision-materials program (L0/L1/L2)
+├── galaxy_observables.py               # Active revival Level-2/3 galaxy & SPARC fixtures
+├── kappa_t1_contraction.py             # Active revival Pathway 1 (PARTIAL_LIMITATION)
+├── pi_conformal_bridge.py              # Active revival Pathway 2 (REFUTED)
+└── kappa_gravity_revival.py            # Active unified revival runner & manifest
 ```
 
 ---
@@ -556,7 +566,7 @@ det8/models/
 
 > **Deprecated (Round 6, Option B):** the astrophysics rows below (galaxy rotation, clusters, solar-system κ-gravity, λ_P-from-clock "constraints" on gravity) belong to the **retired** gravity-modification program. DET no longer claims a gravitational anomaly and instead adopts unchanged GR with separately declared conventional source models as baselines. These rows are retained for historical audit only.
 
-> **⚠ Reproducibility & vacuity caveats (Round 3 red-team).** Several rows below are not reproducible from the committed tree or overstate what was established: (1) the SPARC "135 galaxies" fit uses 43 hardcoded galaxies with an empty data file; (2) all λ_P bounds are constraints on the *product* λ_P·Δκ with Δκ **assumed**, so λ_P is unconstrained until κ is independently measured; (3) "κ ∝ Z EXCLUDED" was a straw-man (no one proposed κ ∝ Z) — the legitimate statement is only that terrestrial materials have nearly equal κ; (4) "κ(r) from galaxy formation physics" is now **implemented** from Σ_*/Σ_SFR/age, but it gives the wrong radial direction (κ *decreases* with radius for the observed inside-out growth r_SFR > r_d) — the reset-by-SFR mechanism needs revision. See `PHYSICS.md` and `kappa_derivation.radial_gradient_check`.
+> **⚠ Reproducibility & vacuity caveats (Round 3 red-team; updated M1–M4):** Several legacy rows below are not reproducible from the committed tree or overstate what was established: (1) legacy `sparc_analysis.py` uses 43 hardcoded `SAMPLE_GALAXIES` while `det8/data/sparc_subset.json` is 5,055 bytes / 56 records with `#` comment lines, malformed outer JSON syntax, `56/56` `M_gas == M_star`, and `12/56` `V_flat == 0.0` (now audited safely by `galaxy_observables.py::load_sparc_subset_diagnostic()`, alongside up to `39.1×` and `11.54×` `M_star` discrepancies across `SAMPLE_GALAXIES`, `sparc_subset.json`, and `KNOWN_GALAXIES`); (2) all λ_P bounds are constraints on the *product* λ_P·Δκ with Δκ **assumed**, so λ_P is unconstrained until κ is independently measured; (3) "κ ∝ Z EXCLUDED" was a straw-man — terrestrial materials simply have nearly equal κ; (4) legacy `kappa_derivation.py` gives `0/8` increasing `κ(r)` (`r_SFR > r_d`). Active revival rows are appended at the bottom of the table.
 
 | Dataset | Module | Key result |
 |---|---|---|
@@ -573,6 +583,8 @@ det8/models/
 | **Track A refined sensitivity** | `remaining_items.py` | λ_P < 2×10⁻¹⁷ (Δκ=0.1); up to λ_P < 2×10⁻¹⁶ (Δκ=0.01). |
 | GPS satellite clocks (IGS) | `gps_analysis.py` | λ_P < 3.5×10⁻⁹ (Δκ≈10⁻⁶). Weaker than lab clocks. κ dominated by material history, not orbital environment. |
 | **Continuum limit (legacy CL1-CL11)** | `continuum_limit_*.py` | **QUARANTINED** — supplied-geometry simulations and retired Π/κ gravity claims; no continuum theorem or Einstein emergence. See `docs/CONTINUUM_LIMIT_FRAMEWORK.md`. |
+| **Revival Pathway 1 (T1 + reciprocal aperture)** | `kappa_t1_contraction.py` | **`PARTIAL_LIMITATION`**: `8/8` F6 monotonic; SPARC 43-galaxy `14.70%` (`1d`) / `14.83%` (`freeman_2d`), `30/43` <20%, `41/43` <50%; `14.2857×` ceiling (`β=0.93`); outer `[2r_max, 4r_max]` slope `-0.4928` (`r^(-1/2)`); exp 1 AU solar wind `8.025e-25` passes vs power-law `729×` fail; `FL-1` rank `r > 1` required. |
+| **Revival Pathway 2 (Π-conformal clock-metric)** | `pi_conformal_bridge.py` | **`REFUTED`**: `C1_sign` `8/8` repulsive under T1; `C2_lensing` `γ_PPN = -1.0` (`86,956.52×` Cassini, `100%` VLBI miss); `C3_sparc_btfr` `43.44×` dynamic range, `38/43` unbound literal, `36.30%` sign-flipped error; `C4_clock_gap` `5.0e10×` NIST / `57.14×` GPS / `0.01798 m/s²` lab; `any_det_native_survivor = False`. |
 
 ---
 
@@ -588,6 +600,9 @@ det8/models/
 | K | Structural stiffness | Free (system-dependent) |
 | D | κ-diffusion coefficient | Free (system-dependent) |
 | c | Maximum signal speed | Empirical |
+| Σ_crit | T1 contraction critical surface density (`0.008 × 10⁹ M_sun/kpc²`) | **FIT** (`kappa_t1_contraction.py`; `17.13×` below MOND `a_0/(2πG) = 0.13701`) |
+| w_SFR | SFR commit-reset weight (`0.0` SPARC; `0.5` F6) | **FIT** (`kappa_t1_contraction.py`) |
+| β | Reciprocal aperture susceptibility (`0.93 ∈ [0, 1)`) | **FIT** (`kappa_t1_contraction.py`; `(1-β)^(-1) = 14.2857×` ceiling) |
 
 ---
 
@@ -598,6 +613,10 @@ det8/models/
 **Proper time:** \(\Delta\tau_i = \Pi_i \Delta N_i\) with \(N\) the monotone event-count variable (\(N \neq \kappa\); M0 fix).
 
 **Gravity (Option B):** standard GR — DET does not source or modify gravity. (The retired two-source law \(G_{eff} = G(1+\alpha\chi)\) is historical; see `gravity_v2.py`.)
+
+**Revival Pathway 1 (`kappa_t1_contraction.py`, `PARTIAL_LIMITATION`):** \(\kappa(r) = \exp(-(\Sigma_*(r)+\Sigma_{gas}(r))/\Sigma_{crit} - w_{SFR}\Sigma_{SFR}(r))\), \(G_{eff}(r) = G/(1-\beta\kappa(r)) = G\sum_{m=0}^\infty (\beta\kappa)^m\) (`TH-DET` T1 contraction + `FIT`/`CORR` closure).
+
+**Revival Pathway 2 (`pi_conformal_bridge.py`, `REFUTED`):** \(a = -c^2 \nabla \ln \Pi\), \(\Phi_\kappa = c^2 \ln(1 + \lambda_P \kappa)\), \(g_{\mu\nu} = \Pi^2 \eta_{\mu\nu}\) (quantitatively **REFUTED** across `C1_sign`–`C4_clock_gap`).
 
 **Born rule:** \(K(i) = |c_i|^2\) where \(c_i' = \sum_j U_{ij} c_j\)
 
@@ -627,7 +646,7 @@ The test suite does **NOT** verify:
 - ❌ That DET makes correct empirical predictions.
 - ❌ That κ, Π, or λ_P exist in nature.
 
-**Historical coverage caveat:** the combined runner exercised the core primitives, theorem-program fixtures, clock/proxy work, applied-physics ingest, Exodus conservation and tomography, the general RET calculus, neutron-lifetime adapter, governed Riemann/Collatz searches, and bounded Navier–Stokes protocols. That curated fixture suite did not supply exhaustive module coverage, empirical confirmation, formal proof, or independent replication.
+**Historical coverage caveat:** the combined runner exercised the core primitives, theorem-program fixtures, clock/proxy work, applied-physics ingest, Exodus conservation and tomography, the general RET calculus, neutron-lifetime adapter, governed Riemann/Collatz searches, and bounded Navier–Stokes protocols. That curated fixture suite did not supply exhaustive module coverage, empirical confirmation, formal proof, or independent replication. On branch `revival/kappa-gravity-pathways`, `run_tests.py` additionally runs `test_kappa_gravity_revival()` (covering `galaxy_observables`, `kappa_t1_contraction`, `pi_conformal_bridge`, `kappa_gravity_revival`, and the 4 unit suites including `det8/tests/test_kappa_gravity_revival.py`).
 
 Test count is a software engineering metric, not a physics validation metric. Empirical validation requires the Track A experiments.
 

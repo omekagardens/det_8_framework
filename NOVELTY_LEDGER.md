@@ -49,6 +49,17 @@ under the lens framing, was aimed at the wrong object.
 **Executed probes: 1. Surviving novelties: 0. Generative warrant: `ACTIVE`
 (one logged miss, below the downgrade run).**
 
+*(Code parity note: `det8/models/novelty_ledger.py::seed_novelty_ledger()` tracks strictly the 5 baseline probes above — 1 executed lab probe `D_κ` -> `null`, 0 surviving novelties, `GenerativeWarrant.status == "ACTIVE"`.)*
+
+## Revival track probes (M2/M3, `revival/kappa-gravity-pathways`)
+
+Registered under Gate 6 alongside the baseline seed ledger without altering `seed_novelty_ledger()`'s 5-row lab warrant count:
+
+| Probe | Target | Status | cost-if-null |
+|---|---|---|---|
+| **Pathway 1 (`kappa_t1_contraction.py`):** T1 contraction `κ(r)` + reciprocal aperture `G_eff = G/(1-βκ)` | Standard GR + ΛCDM dark matter (SPARC rotation curves, Cassini, MICROSCOPE) | `gated` (`PARTIAL_LIMITATION`: `4/4` core gates pass; full SPARC radial profiles & covariant lensing unexecuted) | Phenomenological `FIT` closure (`Σ_crit`, `w_SFR`, `β`) falsified if full radial curves (`r^(-1/2)` turnover) or lensing fail; leaves `TH-DET` T1 contraction & Track B ontology intact |
+| **Pathway 2 (`pi_conformal_bridge.py`):** Π-conformal clock-metric bridge `Δτ = Π ΔN`, `a = -c² ∇ ln Π`, `g_μν = Π² η_μν` | Standard GR weak-field PPN lensing + SPARC BTFR + NIST/GPS optical clocks | `executed` → `null` (`REFUTED` across `C1_sign`, `C2_lensing`, `C3_sparc_btfr`, `C4_clock_gap`; `any_det_native_survivor = False`) | Conformal metric `g_μν = Π² η_μν` (`γ_PPN = -1.0`, `86,956.52×` Cassini) and unified galactic `λ_P` (`5.0e10×` NIST) eliminated; logged as theoretical/phenomenological null outside the 5-row lab `DG-WARRANT` seed |
+
 ## The first push is now executed
 
 **D_κ** (`det8/models/dkappa_decoherence.py`) is formalized and now pushed
@@ -78,7 +89,10 @@ so this bounds the product κ_DET·r, not κ_DET alone. The outcome is **null**:
 
 The static channel is closed. The clock and recovery channels are *dynamical*
 (κ in the time-evolution), invisible to the three-slit null, and remain the
-open frontier.
+open frontier. *(Revival rank note: per `kappa_t1_contraction.py::evaluate_screening_constraints`,
+a scalar gravitational channel cannot share a rank-1 scalar `κ` with lab `FL-1` —
+scalar conflation of `Δκ_dev = 0.002–0.5` with `G_eff` violates MICROSCOPE by
+`1.242e12×` / `5.794e14×` — so ambient `κ_env` and device `κ_dev` require rank `r > 1` separation.)*
 
 ## Operating rule
 

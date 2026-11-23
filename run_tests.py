@@ -5463,6 +5463,86 @@ def test_collatz_accelerated_endpoint():
              == accelerated._canonical_result_digest(persisted_result))
 
 
+def test_kappa_gravity_revival():
+    import contextlib
+    import io
+    import json
+    import unittest
+
+    from det8.models import galaxy_observables as go
+    from det8.models import kappa_gravity_revival as kgr
+    from det8.models import kappa_t1_contraction as kt1
+    from det8.models import pi_conformal_bridge as p2
+    from det8.tests import (
+        test_galaxy_observables,
+        test_kappa_gravity_revival as unit_kgr,
+        test_kappa_gravity_tier5,
+        test_kappa_t1_contraction,
+        test_pi_conformal_bridge,
+    )
+
+    section("κ-Gravity Revival Suite (M1–M4)")
+
+    sparc_diag = go.load_sparc_subset_diagnostic()
+    test("galaxy_observables fixtures and sparc_subset diagnostic",
+         len(go.KNOWN_GALAXIES) == 8
+         and len(go.SAMPLE_GALAXIES) == 43
+         and go.OBSERVABLE_PROVENANCE["det_claim_status"] == "NEUTRAL_DATA_FIXTURE"
+         and sparc_diag["parsed_ok"] is True
+         and sparc_diag["record_count"] == 56)
+
+    p1 = kt1.evaluate_pathway1_criteria()
+    p1_sub = p1["sub_evaluations"]
+    test("Pathway 1 PARTIAL_LIMITATION with F6 8/8, SPARC 14.70%, and exp 1 AU pass",
+         p1["status"] == "PARTIAL_LIMITATION"
+         and p1_sub["f6"]["n_increasing"] == 8
+         and abs(p1_sub["sparc"]["mean_error"] - 0.14697319868091122) < 1e-6
+         and p1_sub["screening"]["regimes"]["local_1au_solar_wind"]["exponential"]["passes_bound"] is True
+         and p1_sub["screening"]["regimes"]["local_1au_solar_wind"]["power_law"]["passes_bound"] is False)
+
+    p2_res = p2.evaluate_pathway2_criteria()
+    test("Pathway 2 REFUTED across all 4 criteria with gamma_PPN == -1.0",
+         p2_res["status"] == "REFUTED"
+         and p2_res["refuted_criteria"] == ["C1_sign", "C2_lensing", "C3_sparc_btfr", "C4_clock_gap"]
+         and p2_res["audits"]["conformal_ppn_lensing"]["gamma_ppn"] == -1.0
+         and p2_res["variants"]["any_det_native_survivor"] is False)
+
+    unified = kgr.run_all_pathway_evaluations(include_sub_evaluations=False)
+    gates = kgr.reentry_gate_audit()
+    manifest = kgr.combined_closure_manifest()
+    test("kappa_gravity_revival unified evaluation, gates, and 19-entry manifest",
+         unified["verification_invariants"]["consistent_with_expected_verdicts"] is True
+         and gates["relaxed_count"] >= 2
+         and gates["strict_count"] >= 5
+         and manifest["total_entries"] == 19
+         and manifest["native_count"] == 3
+         and manifest["non_native_count"] == 16)
+
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        rc = kgr.main(["--compact"])
+    cli_payload = json.loads(buf.getvalue())
+    test("kappa_gravity_revival CLI main(['--compact']) exits 0 with valid JSON",
+         rc == 0
+         and cli_payload["comparative_summary"]["pathway1"]["status"] == "PARTIAL_LIMITATION"
+         and cli_payload["comparative_summary"]["pathway2"]["status"] == "REFUTED")
+
+    loader = unittest.TestLoader()
+    for mod_name, mod in (
+        ("test_galaxy_observables", test_galaxy_observables),
+        ("test_kappa_t1_contraction", test_kappa_t1_contraction),
+        ("test_pi_conformal_bridge", test_pi_conformal_bridge),
+        ("test_kappa_gravity_revival", unit_kgr),
+        ("test_kappa_gravity_tier5", test_kappa_gravity_tier5),
+    ):
+        suite = loader.loadTestsFromModule(mod)
+        runner = unittest.TextTestRunner(stream=io.StringIO(), verbosity=1)
+        res = runner.run(suite)
+        test(f"unittest module {mod_name} passes ({res.testsRun} tests)",
+             res.wasSuccessful() and res.testsRun > 0,
+             f"failures={len(res.failures)}, errors={len(res.errors)}")
+
+
 # ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -5963,6 +6043,13 @@ def main():
     except Exception as e:
         ERROR += 1
         print(f"  ERROR in collatz_accelerated_endpoint: {e}")
+        traceback.print_exc()
+
+    try:
+        test_kappa_gravity_revival()
+    except Exception as e:
+        ERROR += 1
+        print(f"  ERROR in kappa_gravity_revival: {e}")
         traceback.print_exc()
 
     section("RESULTS")

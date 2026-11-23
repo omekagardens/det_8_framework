@@ -76,6 +76,14 @@ A quarantined gravity or continuum claim can return only as a new module that:
 
 Passing historical regression tests is not a re-entry criterion.
 
+### Revival Gate Disposition (Relaxed vs. Strict, `revival/kappa-gravity-pathways`)
+
+For the concurrent κ-gravity revival evaluated in `det8/models/kappa_gravity_revival.py`:
+
+- **Relaxed gates:** **Gate 4** (strict non-calibration prohibition) and the **T7 full-emergence prerequisite** are **relaxed** under `GOVERNANCE.md` / `docs/coordination/PROVISIONAL_INTEGRATED_MODEL.md` to permit explicitly tagged `FIT`/`CORR` closures (`Σ_crit`, `w_SFR`, `β`, `(1 - βκ)^(-1)`, galactic `λ_P`) in new modules outside `legacy_gravity_quarantine.FULLY_RETIRED`.
+- **Kept strict:** **Gates 1, 2, 3** (provenance, Level-2/3 separation, explicit borrowed assumptions in `docs/observable_anchoring.md`), **Gate 5** (quantitative EP/Cassini/MICROSCOPE/SPARC/covariance checks), **Gate 6** (pre-registered falsifiers in `FALSIFICATION_LEDGER.md` and `NOVELTY_LEDGER.md`), `Status M` non-promotion, anti-smuggling/anti-agency rules, and the AST quarantine (`len(FULLY_RETIRED) == 28`).
+- **Outcome under these gates:** **Pathway 1** (`det8/models/kappa_t1_contraction.py`) holds status **`PARTIAL_LIMITATION`** (`4/4` core gates pass; `5/6` limitations open including Keplerian `r^(-1/2)` turnover and missing covariant lensing). **Pathway 2** (`det8/models/pi_conformal_bridge.py`, conformal metric `g_μν = Π² η_μν`) is **`REFUTED`** (`γ_PPN = -1.0`, `86,956.52×` Cassini violation, `100%` VLBI miss; `order_count_geometry.py` `T7` confirms conformal invariance preserves light cones and supersedes `Ω = Π/c`).
+
 ## Current verification
 
 Run `python3 run_tests.py`. The integrated suite checks the executable

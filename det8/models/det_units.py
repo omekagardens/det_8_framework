@@ -16,7 +16,16 @@ ACTIVE conversion channels are:
 
 The gravity channel (α ↔ ΔG/G) and the coupling-implication / lab-fit analyses
 below are DEPRECATED (historical R6-A/R6-B audit of the retired gravity
-program) and retained only for reference.
+program, listed in legacy_gravity_quarantine.PARTIALLY_QUARANTINED) and
+retained only for reference.
+
+Revival track alignment (branch ``revival/kappa-gravity-pathways``):
+  Active revival evaluations in ``det8.models.kappa_gravity_revival`` anchor
+  ``G`` and ``c`` via ``det8.models.galaxy_observables`` (``G_SI = NEWTONIAN_G_SI``,
+  ``C_SI = 2.99792458e8``) and test Pathway 1's fitted reciprocal aperture
+  ``G_eff = G / (1 - β·κ)`` (``det8.models.kappa_t1_contraction``, ``PARTIAL_LIMITATION``)
+  and Pathway 2's conformal clock-metric bridge (``det8.models.pi_conformal_bridge``,
+  ``REFUTED``) rather than the retired linear ``ΔG/G = α·χ`` channel below.
 
 The clock anomaly is a RATIO (anchor-free); absolute proper time would need a
 "seconds per event" calibration that the ratio predictions do not require.
@@ -156,6 +165,9 @@ def coupling_implications(
 
     The tension: a large β_eff (to reach dwarf discrepancies) shrinks the
     allowed lab Δκ, and the [0,1] bound on κ caps the reachable enhancement.
+    (Contrast the revival Pathway 1 reciprocal closure in
+    ``det8.models.kappa_t1_contraction``, evaluated under ``FIT`` accounting in
+    ``det8.models.kappa_gravity_revival``.)
     """
     if kappa_earth <= 0.0:
         raise ValueError("kappa_earth must be > 0")

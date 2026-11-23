@@ -1,15 +1,15 @@
 # DET v8.0 — Track B: Gravity and the Record
 
 **Status:** Status-M interpretation note.
-**Empirical content:** No independent DET gravity prediction or discriminator.
-**Baseline:** Gravitational calculations remain those of unmodified GR with separately declared source models.
+**Empirical content:** No independent DET gravity prediction or discriminator (legacy κ-gravity remains retired; revival Pathway 1 is `PARTIAL_LIMITATION` under explicit `FIT`/`CORR` accounting and Pathway 2 is `REFUTED`).
+**Baseline:** Gravitational calculations in Track B remain those of unmodified GR with separately declared source models.
 **Date revised:** September 3, 2026.
 
 ## 1. Scope
 
 This note records a candidate interpretation of gravitational geometry. It does not answer experimentally what gravity *is*, derive the Einstein equations, identify a new gravitational source, or establish that spacetime is fundamentally discrete.
 
-The retired κ-gravity programs (archive/retired_kappa_gravity.md) attempted physical modifications or source models. Their failures and retirement support a governance decision: DET does not alter gravitational dynamics unless it first states a distinct observable consequence and a falsifier. They do not, by themselves, support the ontology proposed here.
+The retired κ-gravity programs (archive/retired_kappa_gravity.md) attempted physical modifications or source models. Their failures and retirement support a governance decision: DET does not alter gravitational dynamics unless it first states a distinct observable consequence and a falsifier. Under `revival/kappa-gravity-pathways` (`det8/models/kappa_gravity_revival.py`), Track A concurrently tests **Pathway 1** (`kappa_t1_contraction.py`: `TH-DET` T1 contraction + `FIT`/`CORR` closure -> `PARTIAL_LIMITATION`) and refutes **Pathway 2** (`pi_conformal_bridge.py`: `P`/`CORR`/`FIT` conformal metric `g_μν = Π² η_μν` -> `REFUTED` across `C1_sign`–`C4_clock_gap`). Neither result promotes Track B's Status M interpretation.
 
 The safe form of the proposal is:
 
@@ -174,7 +174,7 @@ Current conclusions are intentionally narrow:
 2. Metric-as-record and time-as-record-growth are interpretations, not observations or DET theorems.
 3. T7 checks borrowed estimators on synthetic data. Genuine emergence, physical event identification, continuum uniqueness, and dynamics remain open.
 4. No gravity observation currently favors this ontology over empirically equivalent alternatives.
-5. The retired \(\Pi/\kappa\) conformal factor and κ-gravity source models remain retired.
+5. The retired \(\Pi/\kappa\) conformal factor and κ-gravity source models remain retired; Variant (b) in `pi_conformal_bridge.py` (`explore_modified_variants()`) confirms `det8/models/bonds.py` only enforces `|J| <= σ_ij` and provides no DET-native derivation of anisotropic spatial metric `Ψ(σ_ij) = Π_t^(-1)` from `M_bar` (`any_det_native_survivor = False`), leaving `Status M` strictly unpromoted.
 
 Useful next work is governance and bridge work: specify how laboratory registrations would operationally define candidate events and precedence; expose detector-efficiency and localization assumptions; test estimator robustness against non-manifoldlike adversaries; and keep those results distinct from any ontological claim.
 

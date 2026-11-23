@@ -66,6 +66,9 @@ Every Level-3 object must say whether it is derived from DET premises, fitted to
 | Gram vectors / Hilbert representation | spectral representation of \(\mathfrak D\) | `MATH` if obtained by theorem; this does not make Hilbert space an observation |
 | NPA moment matrix, TLM/Masanes inequalities | correlation tests | Borrowed `MATH/CORR`, tied to derived correlation estimates |
 | Fisher–Rao \(\kappa\) | coordinate on a fitted family of history-conditioned kernels | `FIT/CORR` unless a stronger derivation is supplied |
+| `det8/models/galaxy_observables.py` (`KNOWN_GALAXIES` 8, `SAMPLE_GALAXIES` 43, `sparc_subset.json` 56 / 12 `V_flat=0.0`) | Level-2 derived galaxy fixtures & Freeman-Newtonian baselines | `EXTERNAL_ANCHOR` / `NEUTRAL_DATA_FIXTURE` (`39.1×` `SAMPLE` vs `sparc_subset` and `11.54×` `SAMPLE` vs `KNOWN` `M_star` discrepancies) |
+| Revival Pathway 1 (`kappa_t1_contraction.py`, `PARTIAL_LIMITATION`) | `TH-DET` T1 contraction `κ_n <= exp(-n/n_rec)` + reciprocal aperture | `TH-DET` (T1) vs `CORR` (Freeman `Σ`, `h=0.3 kpc`, Keplerian `v`) vs `FIT` (`Σ_crit=0.008`, `w_SFR`, `β=0.93`, `17.13×` below MOND `a_0/(2πG)=0.13701`) |
+| Revival Pathway 2 (`pi_conformal_bridge.py`, `REFUTED`) | `TH-DET` M0 (`ΔN != Δκ`) + `P` (`Π(κ)`) + conformal bridge | `TH-DET`/`P` vs `CORR` (`g_00=-Π²`, `g_μν=Π² η_μν`, `REFUTED`) vs `FIT` (galactic `λ_P`, `5.0e10×` NIST gap) |
 | \(g_{\mu\nu}\), curvature, \(J^-(e)\), ADM/Wheeler–DeWitt structures | gravitational representation | Borrowed from GR or quantum-gravity formalisms; not DET observations or DET derivations |
 | Causal-set sprinkling, order-volume map, Myrheim–Meyer estimator | synthetic reconstruction scaffold | Borrowed `MATH/CORR`; successful recovery on generated data is an internal estimator test |
 
@@ -107,10 +110,11 @@ This generalizes the F8-OPEN rule. A claim with no disclosed evidence chain and 
 
 ## 6. Model baselines are choices, not observations
 
-The retired \(\kappa\)-gravity program is the working precedent:
+The retired \(\kappa\)-gravity program and the `revival/kappa-gravity-pathways` evaluation are the working precedents:
 
-- **Retired:** \(\kappa\) as a new gravitational source or conformal field.
-- **Current baseline:** DET leaves gravitational predictions to unmodified GR and leaves source modeling to explicitly declared conventional matter/energy models.
+- **Retired:** legacy v1/v2 \(\kappa\)-gravity (`FULLY_RETIRED`, 28 modules) and Pathway 2's conformal bridge `g_μν = Π² η_μν` (`pi_conformal_bridge.py`: **`REFUTED`** across `C1_sign`–`C4_clock_gap`).
+- **Exploratory `FIT`/`CORR` baseline:** Pathway 1 (`kappa_t1_contraction.py`) holds status **`PARTIAL_LIMITATION`** under relaxed Gate 4 (`GOVERNANCE.md` §1) with every `FIT` closure explicitly distinguished from `TH-DET` T1 contraction.
+- **Core baseline:** DET's unpromoted Option B baseline leaves gravitational predictions to unmodified GR and leaves source modeling to explicitly declared conventional matter/energy models.
 
 “Standard GR” and “standard dark-matter model” are baseline modeling choices. They are not direct observations, and observational agreement with those models does not confirm DET's interpretation of the metric.
 

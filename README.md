@@ -337,8 +337,14 @@ dynamics.
 
 The native physical forward map—from DET's records and growth law to a selected
 observable—has not been established. The metric-as-record proposal remains
-Status M. **Unchanged general relativity remains the gravitational baseline
-(Option B); the retired gravity modification is not restored by these results.**
+Status M. **Under Option B's core baseline, unchanged general relativity remains
+standard; the 28 legacy gravity modules remain quarantined (`FULLY_RETIRED`),
+while exploratory κ-gravity revival evaluations run concurrently on branch
+`revival/kappa-gravity-pathways` (`det8/models/kappa_gravity_revival.py`) under
+relaxed Gate 4 and lifted administrative `T7` pre-blocking (with Gates 1–3, 5–6,
+`Status M`, and `len(FULLY_RETIRED) == 28` kept strict):**
+- **Pathway 1 (`det8/models/kappa_t1_contraction.py`, T1 contraction + reciprocal aperture):** **`PARTIAL_LIMITATION`** (`4/4` core gates pass: `8/8` F6 monotonic, `14.70%` SPARC `1d` / `14.83%` `freeman_2d`, `14.2857×` ceiling; `5/6` limitations open: `-0.4928` Keplerian `r^(-1/2)` outer turnover, no covariant lensing action).
+- **Pathway 2 (`det8/models/pi_conformal_bridge.py`, Π-conformal clock-metric bridge):** **`REFUTED`** (`C1_sign` `8/8` repulsive, `C2_lensing` `γ_PPN = -1.0` / `86,956.52×` Cassini, `C3_sparc_btfr` `38/43` unbound literal / `36.30%` error, `C4_clock_gap` `5.0e10×` NIST / `57.14×` GPS; `any_det_native_survivor = False`).
 The separate RET research lane remains paused.
 
 ## Where to start
@@ -380,7 +386,10 @@ point. Importable research modules are not automatically supported APIs.
 
 **Track A** concerns falsifiable physical claims. The documented κ-Π clock
 proposal remains gated on F9 and an independent κ measurement; its presence in
-the model inventory is not experimental validation. See [PHYSICS.md](PHYSICS.md)
+the model inventory is not experimental validation. The concurrent κ-gravity
+revival runner (`det8/models/kappa_gravity_revival.py`) evaluates Pathway 1
+(`PARTIAL_LIMITATION`) and Pathway 2 (`REFUTED`) under relaxed Gate 4 while
+keeping `FL-1` and `len(FULLY_RETIRED) == 28` strict. See [PHYSICS.md](PHYSICS.md)
 and the [falsification ledger](FALSIFICATION_LEDGER.md).
 
 **Track B** develops the ontological and mathematical programme. Its conditional
@@ -425,9 +434,11 @@ Create/select an appropriate Python environment before using those paths. See
 identity checks and the meaning of a successful finite witness. Its registry
 does not discover or execute every research directory.
 
-The historical broad runner is still available:
+The historical broad runner and κ-gravity revival verification commands are available:
 
 ```sh
+python3 -B -m det8.models.kappa_gravity_revival
+python3 -B -m unittest det8/tests/test_kappa_gravity_revival.py -v
 python3 run_tests.py
 ```
 

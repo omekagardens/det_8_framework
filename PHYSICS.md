@@ -1,7 +1,7 @@
 # DET v8.0 — Physics (Track A)
 
 **The physical calculus: falsifiable predictions, experimental designs, and correspondence checks.**
-**Status:** Candidate predictions pre-registered; awaiting experimental test.
+**Status:** Candidate predictions pre-registered; awaiting experimental test. Concurrent κ-gravity revival evaluation on branch `revival/kappa-gravity-pathways` (`det8/models/kappa_gravity_revival.py`) operates under relaxed Gate 4 (`PROVISIONAL_INTEGRATED_MODEL` constructive exploration): **Pathway 1** (`kappa_t1_contraction.py`) = **`PARTIAL_LIMITATION`**, **Pathway 2** (`pi_conformal_bridge.py`) = **`REFUTED`**.
 
 ---
 
@@ -23,7 +23,7 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **κ-energy carrier:** The free energy ψ = ψ₀ + ½K(κ−κ_eq)² is a phenomenological form. The microscopic carrier of κ-energy depends on the physical realization: if κ manifests as lattice defect density, the energy is elastic strain energy stored in dislocation fields (standard materials science). If κ represents structural history beyond standard defect density, the carrier must be identified in the relevant physical realization. At this stage, the energy ledger is a *constraint* that any physical realization of κ must satisfy, without specifying the carrier.
 
-**κ measurement candidate:** Structural proxy (`structural_proxy.py`) — a simulated mechanical protocol, not yet an independently calibrated κ measurement. Its use is gated on F9 and operational plateau anchors; there is no active gravity cross-check under Option B.
+**κ measurement candidate:** Structural proxy (`structural_proxy.py`) — a simulated mechanical protocol, not yet an independently calibrated κ measurement. Its use is gated on F9 and operational plateau anchors; under `revival/kappa-gravity-pathways` (`kappa_t1_contraction.py::evaluate_screening_constraints`), scalar conflation of lab `FL-1` (`Δκ_dev = 0.002–0.5`) with gravitational `G_eff` violates MICROSCOPE (`1.5e-15`) by `1.242e12×` / `5.794e14×`, requiring rank `r > 1` separation (`κ_env` screened in lab vs. isolated `κ_dev` in clocks/proxies; `docs/record_kernel_physics.md` §2.1 & §2.4).
 
 > **⚠ κ vs. defect density (Round 3 red-team, open).** The structural proxy currently models κ as "fraction of locked structural degrees of freedom" with standard materials-science proxies (dislocation density, residual stress, hardness, resistivity). No discriminator yet distinguishes "κ is a new field" from "κ = defect density". Until a discriminator is pre-registered (e.g., a τ_rec temporal signature decoupled from thermal annealing), the clock anomaly cannot claim novelty over standard materials science.
 
@@ -37,7 +37,9 @@ The structural history field κ replaces the original conflated `q` variable.
 
 > **Ontology first (Round 6, Team A rebuttal):** DET's primary content is the relational record-kernel ontology (Track B) — the clock anomaly is an **optional empirical probe** of one physical realization (κ as an independent field), not the point. A null probe result costs the ontology nothing.
 >
-> **Scope decision (Option B):** DET is a participation/measurement theory, not a gravity-modification theory. The κ-gravity decoupling prediction (§2.2 v1/v2) and the combined signature (§2.3) are **RETIRED**: gravity is standard GR, dark matter is standard, and DET no longer claims any gravitational anomaly. The retired gravity program is retained for historical audit (PHYSICS §8–§10, `gravity_v2.py`, `sparc_analysis.py`, `cluster_dynamics.py`, `post_newtonian.py`).
+> **Scope decision (Option B & Revival Track Distinction):** Option B's core claim register treats DET as a participation/measurement theory, keeping the 28 legacy gravity modules (`gravity_v2.py`, `sparc_analysis.py`, `cluster_dynamics.py`, `post_newtonian.py`, `kappa_derivation.py`, `det_gravity.py`) permanently retired in `legacy_gravity_quarantine.FULLY_RETIRED` (PHYSICS §8–§10). On branch `revival/kappa-gravity-pathways`, `det8/models/kappa_gravity_revival.py` evaluates two new exploratory pathways outside `FULLY_RETIRED` under relaxed Gate 4 (`GOVERNANCE.md` §1) with explicit `TH-DET`/`P`/`CORR`/`FIT`/`EXTERNAL_ANCHOR` accounting:
+> - **Pathway 1 (`kappa_t1_contraction.py` — T1 Kernel-Contraction + Reciprocal Aperture):** `κ(r) = exp(-(Σ_*+Σ_gas)/Σ_crit - w_SFR Σ_SFR)`, `G_eff(r) = G/(1 - βκ(r))` — status **`PARTIAL_LIMITATION`** (`4/4` core gates pass: `8/8` F6 monotonic, SPARC 43-galaxy `14.70%` `1d` / `14.83%` `freeman_2d` mean error with `30/43` within 20%, `14.2857×` `R6-B` ceiling at `β=0.93`, exponential `R6-A` `8.025e-25` at 1 AU solar wind; `5/6` limitations open: Keplerian `r^(-1/2)` outer turnover `-0.4928` / `-0.5000`, `41.19%` `KNOWN_GALAXIES` error from `11.54×` `M_star` discrepancy, power-law `729×` local 1 AU Cassini failure, unclosed covariant lensing/action).
+> - **Pathway 2 (`pi_conformal_bridge.py` — Π-Conformal Clock-Metric Bridge):** `Δτ = Π ΔN`, `a = -c² ∇ ln Π`, `Φ_κ = c² ln(1 + λ_P κ)`, `g_μν = Π² η_μν` — status **`REFUTED`** across all 4 criteria (`C1_sign`: `8/8` repulsive under T1; `C2_lensing`: `γ_PPN = -1.0`, `86,956.52×` Cassini violation / `100%` VLBI miss; `C3_sparc_btfr`: `43.44×` `v²/c²` dynamic range, `38/43` unbound literal, `36.30%` sign-flipped error; `C4_clock_gap`: `5.0e10×` NIST / `57.14×` GPS / `0.01798 m/s²` lab acceleration; `any_det_native_survivor = False`).
 
 ### 2.1 κ-Π Clock Anomaly
 
@@ -77,9 +79,9 @@ The structural history field κ replaces the original conflated `q` variable.
 
 **Damage protocol specification:** The κ=0.5 preparation must change κ while holding standard parameters constant to the required precision. Candidate protocol: neutron irradiation with active cryogenic cooling maintains T stability to <1mK. The neutron flux introduces lattice defects (primarily Frenkel pairs in Yb/Sr optical lattices) with negligible electromagnetic side-effects: no net charge injection (ΔE ≈ 0), no magnetic field generation (ΔB < 1nT), and no change in atomic density (Δn/n < 10⁻⁹). The dominant remaining confounder is BBR from any residual temperature increase, held to <10⁻¹⁸ by active cooling. For low-λ_P searches (10⁻¹⁶–10⁻¹⁷), the 12-day integration requires active systematic control of BBR drift to maintain SNR. Below λ_P=10⁻¹⁷, next-generation nuclear clocks (~10⁻¹⁹ precision) are needed.
 
-### 2.2–2.3 κ-Gravity Decoupling & Combined Signature — RETIRED
+### 2.2–2.3 Legacy κ-Gravity Decoupling & Combined Signature — RETIRED (Historical)
 
-> **RETIRED (Round 6, Option B).** Gravity is standard GR; dark matter is standard. The κ-gravity decoupling prediction (two-source law, α channel) and the combined "smoking gun" signature are withdrawn. Full historical audit in `archive/retired_kappa_gravity.md`.
+> **RETIRED (Round 6, Option B).** The legacy κ-gravity decoupling prediction (two-source law, α channel) and the combined "smoking gun" signature remain withdrawn (`archive/retired_kappa_gravity.md`). Current exploratory revival work (`kappa_t1_contraction.py` `PARTIAL_LIMITATION`; `pi_conformal_bridge.py` `REFUTED`) lives in new, quarantine-isolated modules documented in §2 above.
 
 ### 2.4 Falsification Ladder & Data Guardrail
 
@@ -93,7 +95,7 @@ The clock anomaly is tested in three ordered, DET-native steps (`det_falsificati
 
 **Data guardrail:** external datasets were built under other theories (GR, ΛCDM, materials science). Only their theory-independent **observed** quantity is admissible; the theory-dependent interpretation is quarantined. E.g., atomic-clock data contributes the frequency ratio (safe), not the GR redshift (quarantined); SPARC contributes v(r) (safe) but no DET gravity claim uses it under Option B.
 
-**Gravity emergence:** gravity is not a current DET claim, but "does κ source or modify gravity?" remains an **open frontier**, not a rejected hypothesis. The retired gravity modules are archived; the question can be revisited only if a DET-native mechanism is derived and survives the standard constraints (equivalence principle, Eötvös, rotation curves).
+**Gravity emergence:** under Option B's core register, gravity is not a promoted DET claim, and "does κ source or modify gravity?" remains an **OPEN frontier**. Under relaxed Gate 4 / lifted `T7` administrative pre-blocking (`docs/CONTINUUM_LIMIT_FRAMEWORK.md`, `GOVERNANCE.md` §1) with strict Gates 1–3, 5–6 and `FL-1` rank `r > 1` separation, `det8/models/kappa_gravity_revival.py` records **Pathway 1** (`PARTIAL_LIMITATION`, `FIT`/`CORR` closure on `TH-DET` T1 contraction) and **Pathway 2** (`REFUTED`). Full promotion still requires a DET-native derivation and covariant screening/lensing closure.
 
 **Lab-executable protocol:** the full, step-by-step experimental protocol (materials, procedure, decision thresholds, SI units, power) is in `docs/falsification_protocol.md`. The supporting analyses are `det_falsification.sweep_probes` (where each probe bites) and `kappa_discriminator.power_curve` (power vs sample count).
 
@@ -101,7 +103,7 @@ The clock anomaly is tested in three ordered, DET-native steps (`det_falsificati
 
 ## 3. Newtonian Correspondence — RETIRED (historical)
 
-> **Retired (Round 6, Option B).** The κ-only Newtonian correspondence (`a = −G_q·γ/r²`, Kepler recovered via `m → κ`) belongs to the retired κ-gravity program. Historical audit in `archive/retired_kappa_gravity.md`. Gravity is standard GR.
+> **Retired (Round 6, Option B).** The legacy κ-only Newtonian correspondence (`a = −G_q·γ/r²`, Kepler recovered via `m → κ`) remains retired in `archive/retired_kappa_gravity.md`. Current revival checks (`galaxy_observables.py`, `kappa_t1_contraction.py`, `pi_conformal_bridge.py`) evaluate Pathway 1 (`PARTIAL_LIMITATION`) and Pathway 2 (`REFUTED`) against Level-2/3 Freeman-Newtonian baselines without reinstating legacy `G_q` or `λ_γ`.
 
 ---
 
@@ -165,7 +167,7 @@ classical target; full QM remains conditional on additional operational premises
 | q-Gravity, Joint Kernel | 50–60% |
 | MAM-Q, Peres-Mermin, CHSH | 20–40% (QM correspondence; now superseded by derivations) |
 
-**Remaining borrowed:** Lorentzian causal structure (O7 — kinematic, T7), c (empirical), λ_P (free; G_q/λ_γ retired).
+**Remaining borrowed & Revival Native-vs-Fitted Accounting:** Lorentzian causal structure (O7 — kinematic, T7), c (empirical), λ_P (free; G_q/λ_γ retired). In the κ-gravity revival (`closure_manifest()`), **Pathway 1** combines `TH-DET` T1 contraction `κ_n <= exp(-N_int/N_rec)` with `CORR` Freeman surface-density/`h = 0.3 kpc`/Keplerian kinematics and `FIT` closures (`Σ_crit = 0.008`, `w_SFR`, `β = 0.93`, `(1 - βκ)^(-1) = Σ_{m=0}^∞ (βκ)^m` geometric series; `Σ_crit` lies `17.13×` below MOND `a_0/(2πG) = 0.13701`); **Pathway 2** combines `TH-DET` M0 monotonicity and `P` `Π(κ)` with `CORR` `g_00 = -Π²`/`g_μν = Π² η_μν` (`REFUTED`) and `FIT` galactic `λ_P`.
 
 ---
 
@@ -181,13 +183,13 @@ Continuum limit recovers standard \(i\hbar d\psi/dt = H\psi\) with H from record
 
 ## 8. Gravity — RETIRED (historical)
 
-> **Retired (Round 6, Option B).** The "O7 gravity" derivation (κ → Einstein tensor) and the post-Newtonian solar-system analysis belong to the retired κ-gravity program. Gravity is standard GR; dark matter is standard. Historical audit in `archive/retired_kappa_gravity.md`. (L1–L3 order-and-count reconstruction remains active as the kinematic program T7; only the L4 gravity step is retired.)
+> **Retired (Round 6, Option B).** The legacy "O7 gravity" derivation (κ → Einstein tensor) and retired `post_newtonian.py` solar-system analysis remain quarantined in `archive/retired_kappa_gravity.md`. (L1–L3 order-and-count reconstruction remains active as kinematic T7.) Under the revival track, Pathway 1 passes exponential 1 AU screening (`8.025e-25 < 2.3e-5`) but fails power-law 1 AU screening (`729×`) and lacks a covariant lensing action (`PARTIAL_LIMITATION`), while Pathway 2's conformal metric yields `γ_PPN = -1.0` (`86,956.52×` Cassini violation; `REFUTED`).
 
 ---
 
-## 9–12. Galaxy/Cluster/Dataset Analyses — RETIRED (historical)
+## 9–12. Galaxy/Cluster/Dataset Analyses — RETIRED (historical) & Revival Dataset Audit
 
-> **Retired (Round 6, Option B).** The SPARC rotation-curve, cluster-dynamics, r_SFR, Eötvös/flyby, and solar-system analyses all belong to the withdrawn κ-gravity program. They are **not** active physical results (several were not reproducible from the committed tree, and the `κ(r)` derivation failed its sign test). Historical audit in `archive/retired_kappa_gravity.md`. The only surviving datum is the atomic-clock bound λ_P·Δκ < σ (§14).
+> **Retired (Round 6, Option B) vs. Revival Datasets:** The legacy `sparc_analysis.py`, `cluster_dynamics.py`, `remaining_items.py`, and `kappa_derivation.py` modules remain retired (`archive/retired_kappa_gravity.md`). Neutral galaxy fixtures are now isolated in `det8/models/galaxy_observables.py` (`KNOWN_GALAXIES`: 8; `SAMPLE_GALAXIES`: 43; `sparc_subset.json`: 56 records with `#` comments, `56/56` `M_gas == M_star`, `12/56` `V_flat == 0.0`, and up to `39.1×` / `11.54×` `M_star` discrepancies). Pathway 1 achieves `14.70%` (`1d`) / `14.83%` (`freeman_2d`) mean error on `SAMPLE_GALAXIES` with `8/8` F6 monotonic (`PARTIAL_LIMITATION`, turning over to `r^(-1/2)` outer slope `-0.4928`), while Pathway 2 is `REFUTED` (`38/43` unbound literal, `36.30%` sign-flipped error). The atomic-clock bound remains a product bound λ_P·Δκ < σ (§14).
 
 ---
 
@@ -208,7 +210,7 @@ derivation is **open**; the items below are shape arguments, not proven — see
 
 > **⚠ Vacuous bound (Round 3 red-team).** The λ_P bounds quoted below are constraints on the *product* λ_P·Δκ, where Δκ between two clocks is **assumed, not measured**. λ_P is unconstrained by existing clock data until κ is independently measured. The model-independent statement is λ_P·Δκ < σ.
 
-GPS clock data bounds the product λ_P·Δκ (orbital clocks): λ_P·Δκ ≲ 3.5×10⁻⁹ (≈10⁹× weaker than lab clocks). **Finding:** this says nothing about a gravitational κ channel (retired, Option B) — it only confirms the clock bound is a product, not a λ_P bound. Lab experiments with controlled κ preparation are the right approach.
+GPS clock data bounds the product λ_P·Δκ (orbital clocks): λ_P·Δκ ≲ 3.5×10⁻⁹ (≈10⁹× weaker than lab clocks). **Finding:** this confirms the clock bound is a product, not a standalone λ_P bound, and in Pathway 2 (`pi_conformal_bridge.py::audit_clock_scale_gap`) galactic `λ_P = 2.0e-7` exceeds the conditional GPS bound (`3.5e-9` at `Δκ = 10⁻⁶`) by **`57.14×`** (`C4_clock_gap` refutation alongside `5.0e10×` NIST). Lab experiments with controlled κ preparation remain the right approach.
 
 Module: `gps_analysis.py`.
 
@@ -225,7 +227,7 @@ Module: `gps_analysis.py`.
 | L3 | Reconstructed metric g_N → g | Statistical convergence verified (CV 0.56→0.25). LGH proof open. |
 | L4 | κ-density → G_μν = 8πG_q·T^κ_μν | **RETIRED** (κ-gravity, Option B) — see `archive/retired_kappa_gravity.md` |
 
-DET's active contribution: the **counting measure** fixes the conformal factor (order alone cannot), a **kinematic** reconstruction (order + count → geometry) — the T7 program, implemented in `det8/models/order_count_geometry.py`. The Π conformal factor (Ω = Π/c) is **RETIRED**; count supersedes it. The L4 gravity step is retired — the discrete-action → Einstein–Hilbert route is now standard gravity, not a DET gravity claim.
+DET's active contribution: the **counting measure** fixes the conformal factor (order alone cannot), a **kinematic** reconstruction (order + count → geometry) — the T7 program, implemented in `det8/models/order_count_geometry.py`. The Π conformal factor (Ω = Π/c) is **RETIRED** (count supersedes it, and Pathway 2 `pi_conformal_bridge.py` quantitatively **refutes** `g_μν = Π² η_μν` with `γ_PPN = -1.0` and `86,956.52×` Cassini violation). The L4 gravity step is retired — the discrete-action → Einstein–Hilbert route is now standard gravity, not a DET gravity claim.
 
 Module: `continuum_limit_proof.py`, `continuum_limit_l234.py`.
 

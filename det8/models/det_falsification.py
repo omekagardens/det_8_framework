@@ -18,6 +18,15 @@ left open. "Does κ source or modify gravity?" is an OPEN research frontier,
 not a rejected hypothesis; the retired gravity modules are archived so the
 question can be revisited if a DET-native mechanism ever emerges.
 
+Revival track alignment (branch ``revival/kappa-gravity-pathways``): under
+relaxed re-entry gates permitting explicitly accounted ``FIT`` closures
+(see ``GOVERNANCE.md`` and ``FALSIFICATION_LEDGER.md``),
+``det8.models.kappa_gravity_revival`` evaluates Pathway 1
+(``det8.models.kappa_t1_contraction``: ``PARTIAL_LIMITATION``) and Pathway 2
+(``det8.models.pi_conformal_bridge``: ``REFUTED``).  Option B's active core
+``claim_register()`` and 3-step ``falsification_ladder()`` remain unchanged
+pending a DET-native derivation and covariant screening/lensing closure.
+
 Operational layer: SI conversion is via det_units (clock Δν/ν ↔ λ_P, proxy
 R/R₀ ↔ κ). The fractional quantities used here are dimensionless and
 anchor-free.
@@ -241,6 +250,12 @@ def gravity_emergence_note() -> dict:
             "post_newtonian.py, kappa_derivation.py, det_gravity.py, "
             "gravity_experiment.py — retained for audit, not active claims."
         ),
+        "revival_track": {
+            "runner": "det8.models.kappa_gravity_revival",
+            "pathway_1": "det8.models.kappa_t1_contraction (PARTIAL_LIMITATION; fitted G_eff closure under relaxed re-entry gates)",
+            "pathway_2": "det8.models.pi_conformal_bridge (REFUTED across sign, PPN/Cassini, BTFR, and clock-scale checks)",
+            "claim_promotion": "none — core Option B claim_register() remains unpromoted",
+        },
     }
 
 

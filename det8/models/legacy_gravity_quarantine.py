@@ -12,6 +12,16 @@ utilities are not silently promoted into evidence for the retired mechanism.
 Synthetic correspondence modules reproduce results after standard geometric
 structure has been inserted; they are checks of implementation, not DET
 derivations.
+
+Revival track boundary (branch ``revival/kappa-gravity-pathways``):
+The 28 modules in :data:`FULLY_RETIRED` remain permanently retired and must
+never be imported by active modules.  The active kappa-gravity revival modules
+(``det8.models.galaxy_observables``, ``det8.models.kappa_t1_contraction``,
+``det8.models.pi_conformal_bridge``, and ``det8.models.kappa_gravity_revival``)
+live outside :data:`FULLY_RETIRED`, carry zero imports from retired modules,
+and document Pathway 1 (``PARTIAL_LIMITATION``) and Pathway 2 (``REFUTED``)
+under explicit native-vs-fitted (``TH-DET``/``CORR``/``FIT``/``EXTERNAL_ANCHOR``)
+accounting.
 """
 
 from __future__ import annotations

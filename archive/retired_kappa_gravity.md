@@ -15,6 +15,8 @@ registers fully retired, partially quarantined, and synthetic-correspondence
 modules. Every fully retired source exposes a `QUARANTINE` record, and the
 integrated suite rejects imports from those modules into active models.
 
+> **Revival cross-reference (`revival/kappa-gravity-pathways`):** All 28 modules in `legacy_gravity_quarantine.FULLY_RETIRED` remain permanently retired with zero active imports permitted. Under relaxed Gate 4 and lifted administrative `T7` pre-blocking (`GOVERNANCE.md` §1, `docs/CONTINUUM_LIMIT_FRAMEWORK.md`), **new exploratory modules outside `FULLY_RETIRED`** evaluate two pathways via `det8/models/kappa_gravity_revival.py`: **Pathway 1** (`det8/models/kappa_t1_contraction.py`) reaches **`PARTIAL_LIMITATION`**, and **Pathway 2** (`det8/models/pi_conformal_bridge.py`) is **`REFUTED`**. Historical dataset fixtures are isolated in `det8/models/galaxy_observables.py`, which also audits `det8/data/sparc_subset.json` via `load_sparc_subset_diagnostic()`.
+
 ---
 
 ## 1. Two-source law (`gravity_v2.py`)
@@ -56,9 +58,15 @@ deflection, binary pulsar — all "passed" under the retired law. Retired.
 ## 6. Galaxy rotation curves (`sparc_analysis.py`, `kappa_derivation.py`)
 
 Flat rotation curves without dark matter via κ(r). **Not reproducible from the
-committed tree** (43 hardcoded galaxies, empty `sparc_subset.json`). The
-`κ(r)` derivation from Σ_*/SFR/age **fails the sign test** (inside-out growth
-gives κ decreasing with radius, opposite of what flat curves require). Retired.
+committed tree** (43 hardcoded `SAMPLE_GALAXIES` in `sparc_analysis.py`, while
+`det8/data/sparc_subset.json` is 5,055 bytes / 56 records containing `#` comment
+lines, malformed outer JSON syntax, `56/56` `M_gas == M_star`, and `12/56`
+`V_flat == 0.0`, now safely audited by `det8/models/galaxy_observables.py::load_sparc_subset_diagnostic()`).
+The legacy `κ(r)` derivation from Σ_*/SFR/age **fails the sign test** (inside-out
+growth gives κ decreasing with radius, `0/8` increasing on `KNOWN_GALAXIES`,
+opposite of what flat curves require). Retired. *(Note: active revival Pathway 1
+`kappa_t1_contraction.py` fixes F6 to `8/8` increasing via T1 contraction and achieves
+`14.70%` on `SAMPLE_GALAXIES`, status `PARTIAL_LIMITATION`, outside `FULLY_RETIRED`.)*
 
 ## 7. Galaxy cluster dynamics (`cluster_dynamics.py`)
 
@@ -86,6 +94,13 @@ product `λ_P·Δκ` (assumed Δκ), not on gravity.
 
 ---
 
-**Revisit condition:** a DET-native gravity mechanism, derived from `(≺, #, L, 𝔇)`
+**Revisit condition & Revival Disposition:** a DET-native gravity mechanism, derived from `(≺, #, L, 𝔇)`
 via the T7 order-and-count theorem, surviving EP/Eötvös/rotation-curve tests.
-Until then, gravity is standard GR and dark matter is standard.
+Under `GOVERNANCE.md` §1 and `docs/CONTINUUM_LIMIT_FRAMEWORK.md`, the administrative
+`T7` pre-blocking requirement and Gate 4 non-calibration rule were **relaxed** for
+new exploratory modules outside `FULLY_RETIRED` (`det8/models/kappa_gravity_revival.py`),
+while `len(FULLY_RETIRED) == 28` and Gates 1–3, 5–6 stayed strict: **Pathway 1**
+(`det8/models/kappa_t1_contraction.py`) holds status **`PARTIAL_LIMITATION`**, and
+**Pathway 2** (`det8/models/pi_conformal_bridge.py`) is **`REFUTED`**. Until a
+native derivation and covariant screening/lensing closure are achieved, Option B's
+core baseline remains standard GR and standard dark matter.

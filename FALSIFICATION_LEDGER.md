@@ -16,9 +16,20 @@
 
 | ID | Prediction | Falsifier | Status |
 |---|---|---|---|
-| **FL-1** | **κ-Π clock anomaly:** `Δν/ν = λ_P·κ/(1+λ_P·κ)` between two clocks with different κ | Null at 95% CL after all known corrections | **Pre-registered.** Gated on F9 (κ vs. defect density) + an independent κ proxy (bootstrap unsolved). Current data: full-year 2023 GNSS κ 0/12 (null, but a *product* bound λ_P·Δκ, not a clean test) |
+| **FL-1** | **κ-Π clock anomaly:** `Δν/ν = λ_P·κ/(1+λ_P·κ)` between two clocks with different κ | Null at 95% CL after all known corrections | **Pre-registered.** Gated on F9 (κ vs. defect density) + an independent κ proxy (bootstrap unsolved). Current data: full-year 2023 GNSS κ 0/12 (null, but a *product* bound λ_P·Δκ, not a clean test). **Revival M2/M3 constraints:** scalar conflation of lab `FL-1` (`Δκ_dev = 0.002–0.5`) with gravitational `G_eff` violates MICROSCOPE (`1.5e-15`) by `1.242e12×` / `5.794e14×` (requiring rank `r > 1` separation between `κ_env` and `κ_dev`), and galactic `λ_P = 2.0e-7` violates NIST (`4.0e-18`) by `5.0e10×` (`57.14×` GPS). |
 
 **Honest assessment:** FL-1 is the *only* Class-I lever, and it is empirically thin — one probe, at the top of the L0→L1→L2 ladder, gated behind unsolved materials-science prerequisites. This is DET's single greatest weakness.
+
+---
+
+## Revival Track Falsifiers (κ-Gravity Pathways, `revival/kappa-gravity-pathways`)
+
+Evaluated under relaxed Gate 4 (`GOVERNANCE.md` §1) via `det8/models/kappa_gravity_revival.py` without modifying the 28-module AST quarantine or Option B's core Class-I `claim_register()`.
+
+| ID | Prediction | Falsifier | Status |
+|---|---|---|---|
+| **FL-8** (`RG-P1`) | **Pathway 1 (`kappa_t1_contraction.py`: T1 Contraction + Reciprocal Aperture):** `κ(r) = exp(-(Σ_*+Σ_gas)/Σ_crit - w_SFR Σ_SFR)`, `G_eff(r) = G/(1 - βκ(r))` (`Σ_crit = 0.008`, `β = 0.93`) | Core falsifiers: (a) F6 `< 8/8` increasing on `KNOWN_GALAXIES`; (b) SPARC `mean_error > 0.25` or `< 50%` within 20%; (c) `max_enhancement <= 9.0×` (`β <= 8/9`); (d) exponential 1 AU solar-wind `ΔG/G >= 2.3e-5` or lab `>= 1.5e-15`. Full-viability falsifiers: outer `[2r_max, 4r_max]` slope `< -0.15`, `KNOWN_GALAXIES` error `> 0.25`, power-law 1 AU `>= 2.3e-5`, missing full radial SPARC profiles or covariant `γ_PPN = 1` action. | **`PARTIAL_LIMITATION`** (`4/4` core gates pass: `8/8` F6, `14.70%` SPARC `1d` / `30/43` within 20%, `14.2857×` ceiling, `8.025e-25` exp 1 AU; `5/6` limitation checks open: Keplerian `r^(-1/2)` outer slope `-0.4928`, `41.19%` `KNOWN_GALAXIES` via `11.54×` `M_star` diff, power-law `729×` 1 AU failure, no covariant lensing/action). |
+| **FL-9** (`RG-P2`) | **Pathway 2 (`pi_conformal_bridge.py`: Π-Conformal Clock-Metric Bridge):** `Δτ = Π ΔN`, `a = -c² ∇ ln Π`, `Φ_κ = c² ln(1 + λ_P κ)`, `g_μν = Π² η_μν` | Any failure of: `C1_sign` (repulsive `a_conformal > 0` under T1 `dκ/dr > 0`), `C2_lensing` (`|γ_PPN - 1| >= 2.3e-5` or VLBI miss `>= 1e-4`), `C3_sparc_btfr` (unbound literal `> 0` or sign-flipped mean error `>= 0.25`), `C4_clock_gap` (`nist_gap_ratio > 1` or `gps_gap_ratio > 1`). | **`REFUTED`** (`4/4` falsifiers triggered: `8/8` repulsive `C1_sign`; `γ_PPN = -1.0` `86,956.52×` Cassini / `100%` VLBI miss `C2_lensing`; `38/43` unbound literal & `36.30%` error `C3_sparc_btfr`; `5.0e10×` NIST / `57.14×` GPS `C4_clock_gap`; `any_det_native_survivor = False`). |
 
 ---
 

@@ -2,7 +2,12 @@
 
 **Status (September 4, 2026):** Application prototypes awaiting the G2→G3
 materials-monitoring phase. Core hardening precedes application validation.
-L1/L2 physical claims are deferred; the κ-gravity model remains retired. **Module:**
+L1/L2 physical claims are deferred; the 28 legacy κ-gravity modules remain retired
+(`legacy_gravity_quarantine.FULLY_RETIRED`), while the concurrent revival track on
+`revival/kappa-gravity-pathways` (`kappa_gravity_revival.py`) evaluates **Pathway 1**
+(`kappa_t1_contraction.py`: `TH-DET` T1 contraction + `FIT` astrophysical closures
+`Σ_crit = 0.008`, `β = 0.93`, `w_SFR` -> `PARTIAL_LIMITATION`) and refutes **Pathway 2**
+(`pi_conformal_bridge.py`: `5.0e10×` NIST `λ_P` clash -> `REFUTED`). **Module:**
 `det8/applied_physics/`. See the [application work plan](coordination/APPLICATION_WORK_PLAN.md).
 **Purpose:** Turn operational κ into a precision-materials engineering tool by running adversarial tests against industry-standard models on real-world datasets — with the ontology out of the line of fire.
 
@@ -24,7 +29,9 @@ the separately authorized bounded QR mass/gravity investigation.
 
 ## 1. Strategic Framing
 
-Track A is reframed as a **precision-measurement program for detecting and controlling history-dependent structural effects** in materials used by clocks, oscillators, and quantum devices. This keeps DET consistent with Option B (κ couples only to participation, not gravity) while giving it a realistic experimental home.
+Track A is reframed as a **precision-measurement program for detecting and controlling history-dependent structural effects** in materials used by clocks, oscillators, and quantum devices. This keeps DET consistent with Option B (κ couples only to participation in core claims) while giving it a realistic experimental home.
+
+> **Revival rank `r > 1` requirement (`kappa_t1_contraction.py::evaluate_screening_constraints`):** Under `revival/kappa-gravity-pathways`, `TH-DET` T1 contraction (`κ_n <= exp(-n/n_rec)`) is separated from Pathway 1's `FIT` closures (`Σ_crit = 0.008`, `β = 0.93`, `w_SFR`) and Pathway 2's `REFUTED` `λ_P` clash (`5.0e10×` NIST). Because scalar conflation of lab `FL-1` (`Δκ_dev = 0.002–0.5`) with gravitational `G_eff` violates MICROSCOPE (`1.5e-15`) by `1.242e12×` / `5.794e14×`, ambient astrophysical `κ_env` (screened in lab) and isolated device micro-history `κ_dev` (probed by L0/L1/L2 & `FL-1`) must occupy separate rank components (`docs/record_kernel_physics.md` §2.1 & §2.4).
 
 The core idea, in order:
 
