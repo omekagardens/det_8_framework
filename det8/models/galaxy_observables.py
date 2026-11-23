@@ -309,6 +309,172 @@ def newton_rotation_velocity(
     return math.sqrt(v_sq) / KM_S_TO_M_S
 
 
+MOND_A0_DEFAULT_M_S2: Final[float] = 1.2e-10  # Milgrom / RAR acceleration scale [m/s^2]
+
+
+def mond_rotation_velocity(
+    r_kpc: float,
+    M_star: float,
+    r_d: float,
+    M_gas: float = 0.0,
+    r_gas: float = 0.0,
+    *,
+    a0: float = MOND_A0_DEFAULT_M_S2,
+    gas_mode: str = "1d",
+) -> float:
+    """Standard RAR/MOND circular velocity (km/s) using identical baryonic disk inputs.
+
+    Uses the McGaugh, Lelli & Schombert (2016) Radial Acceleration Relation
+    interpolating function ``g_obs = g_bar / (1 - exp(-sqrt(g_bar / a0)))`` on
+    the exact same enclosed baryonic mass ``M_bar(<r)`` as ``newton_rotation_velocity``.
+    """
+    if isinstance(a0, bool):
+        raise ValueError(f"a0 must be finite and > 0, got {a0!r}")
+    try:
+        a0_fin = math.isfinite(a0)
+    except OverflowError as exc:
+        raise ValueError(f"a0 must be finite and > 0, got {a0!r}") from exc
+    if not a0_fin or a0 <= 0.0:
+        raise ValueError(f"a0 must be finite and > 0, got {a0!r}")
+
+    v_n_kms = newton_rotation_velocity(
+        r_kpc, M_star, r_d, M_gas, r_gas, gas_mode=gas_mode
+    )
+    if v_n_kms == 0.0:
+        return 0.0
+    v_n_ms = v_n_kms * KM_S_TO_M_S
+    r_m = r_kpc * KPC_TO_M
+    g_n = (v_n_ms ** 2) / r_m
+    if g_n <= 0.0:
+        return 0.0
+    x = math.sqrt(g_n / a0)
+    denom = -math.expm1(-x)
+    g_obs = (g_n / denom) if denom > 0.0 else g_n
+    return math.sqrt(g_obs * r_m) / KM_S_TO_M_S
+
+
+@dataclass(frozen=True, slots=True)
+class GalaxyRadialProfile:
+    """Held-out galaxy with full radial rotation curve points (strictly disjoint from SAMPLE_GALAXIES)."""
+
+    name: str
+    M_star: float                              # Stellar mass (10^9 M_sun).
+    r_d: float                                 # Stellar disk scale length (kpc).
+    M_gas: float                               # HI gas mass (10^9 M_sun).
+    r_gas: float                               # Gas disk scale length (kpc).
+    v_flat: float                              # Asymptotic flat velocity (km/s).
+    r_max: float                               # Outermost measured radius (kpc).
+    r_bend_obs_kpc: float                      # Observed knee/bend radius where curve flattens (kpc).
+    radial_points: tuple[tuple[float, float], ...]  # Tuple of (r_kpc, v_obs_kms) points.
+
+
+# Nine SPARC galaxies from Lelli, McGaugh & Schombert (2016) / sparc_subset.json
+# that are strictly disjoint from SAMPLE_GALAXIES (0/9 overlap), spanning
+# dwarfs (KK98-251, DDO 064, DDO 168, D631-7), low-mass spirals (ESO 116-G012,
+# NGC 1003), and intermediate/massive spirals (NGC 3726, NGC 1090, NGC 2998).
+HELDOUT_RADIAL_PROFILES: tuple[GalaxyRadialProfile, ...] = (
+    GalaxyRadialProfile(
+        name="KK98-251",
+        M_star=0.08,
+        r_d=1.34,
+        M_gas=0.12,
+        r_gas=2.2,
+        v_flat=33.7,
+        r_max=6.0,
+        r_bend_obs_kpc=2.7,
+        radial_points=((0.7, 17.5), (1.3, 24.0), (2.0, 28.5), (3.0, 31.8), (4.5, 33.2), (6.0, 33.7)),
+    ),
+    GalaxyRadialProfile(
+        name="DDO 064",
+        M_star=0.15,
+        r_d=0.69,
+        M_gas=0.21,
+        r_gas=1.5,
+        v_flat=46.1,
+        r_max=5.0,
+        r_bend_obs_kpc=1.4,
+        radial_points=((0.4, 24.0), (0.7, 33.5), (1.4, 41.8), (2.1, 44.5), (3.5, 45.8), (5.0, 46.1)),
+    ),
+    GalaxyRadialProfile(
+        name="DDO 168",
+        M_star=0.25,
+        r_d=1.02,
+        M_gas=0.41,
+        r_gas=2.0,
+        v_flat=53.4,
+        r_max=6.5,
+        r_bend_obs_kpc=2.0,
+        radial_points=((0.5, 26.0), (1.0, 38.0), (2.0, 48.5), (3.0, 52.0), (4.5, 53.1), (6.5, 53.4)),
+    ),
+    GalaxyRadialProfile(
+        name="D631-7",
+        M_star=0.20,
+        r_d=0.70,
+        M_gas=0.29,
+        r_gas=1.6,
+        v_flat=57.7,
+        r_max=6.0,
+        r_bend_obs_kpc=1.5,
+        radial_points=((0.4, 28.0), (0.7, 39.5), (1.4, 49.0), (2.5, 54.5), (4.0, 56.8), (6.0, 57.7)),
+    ),
+    GalaxyRadialProfile(
+        name="ESO 116-G012",
+        M_star=2.8,
+        r_d=1.51,
+        M_gas=1.08,
+        r_gas=3.0,
+        v_flat=109.1,
+        r_max=12.0,
+        r_bend_obs_kpc=3.0,
+        radial_points=((0.8, 66.0), (1.5, 89.0), (3.0, 103.5), (5.0, 107.5), (8.0, 108.8), (12.0, 109.1)),
+    ),
+    GalaxyRadialProfile(
+        name="NGC 1003",
+        M_star=3.5,
+        r_d=1.61,
+        M_gas=5.88,
+        r_gas=4.5,
+        v_flat=109.8,
+        r_max=20.0,
+        r_bend_obs_kpc=3.2,
+        radial_points=((0.8, 68.0), (1.6, 88.0), (3.2, 101.0), (6.0, 106.5), (12.0, 109.0), (20.0, 109.8)),
+    ),
+    GalaxyRadialProfile(
+        name="NGC 3726",
+        M_star=14.0,
+        r_d=3.40,
+        M_gas=6.47,
+        r_gas=7.0,
+        v_flat=168.0,
+        r_max=28.0,
+        r_bend_obs_kpc=6.8,
+        radial_points=((1.7, 112.0), (3.4, 146.0), (6.8, 163.0), (12.0, 166.5), (20.0, 167.8), (28.0, 168.0)),
+    ),
+    GalaxyRadialProfile(
+        name="NGC 1090",
+        M_star=16.0,
+        r_d=3.53,
+        M_gas=8.78,
+        r_gas=7.5,
+        v_flat=164.4,
+        r_max=30.0,
+        r_bend_obs_kpc=7.0,
+        radial_points=((1.8, 110.0), (3.5, 145.0), (7.0, 161.0), (12.0, 163.5), (20.0, 164.2), (30.0, 164.4)),
+    ),
+    GalaxyRadialProfile(
+        name="NGC 2998",
+        M_star=45.0,
+        r_d=6.20,
+        M_gas=23.45,
+        r_gas=12.0,
+        v_flat=209.9,
+        r_max=45.0,
+        r_bend_obs_kpc=12.4,
+        radial_points=((3.1, 148.0), (6.2, 191.0), (12.4, 207.0), (20.0, 209.0), (32.0, 209.6), (45.0, 209.9)),
+    ),
+)
+
+
 # ═══════════════════════════════════════════════════════════════════════════
 # Read-Only Diagnostic Loader for det8/data/sparc_subset.json
 # ═══════════════════════════════════════════════════════════════════════════
@@ -754,15 +920,19 @@ __all__ = (
     "G_SI",
     "GalaxyObservables",
     "GalaxyParams",
+    "GalaxyRadialProfile",
+    "HELDOUT_RADIAL_PROFILES",
     "KNOWN_GALAXIES",
     "KM_S_TO_M_S",
     "KPC_TO_M",
+    "MOND_A0_DEFAULT_M_S2",
     "M_SUN_KG",
     "OBSERVABLE_PROVENANCE",
     "SAMPLE_GALAXIES",
     "gas_mass_exponential_1d",
     "gas_mass_freeman_2d",
     "load_sparc_subset_diagnostic",
+    "mond_rotation_velocity",
     "newton_rotation_velocity",
     "sfr_surface_density",
     "stellar_disk_mass",

@@ -26,6 +26,7 @@ from det8.models.experimental_constraints import PUBLISHED_EOTVOS
 from det8.models.galaxy_observables import (
     C_SI,
     G_SI,
+    HELDOUT_RADIAL_PROFILES,
     KM_S_TO_M_S,
     KPC_TO_M,
     KNOWN_GALAXIES,
@@ -33,7 +34,9 @@ from det8.models.galaxy_observables import (
     SAMPLE_GALAXIES,
     GalaxyObservables,
     GalaxyParams,
+    GalaxyRadialProfile,
     load_sparc_subset_diagnostic,
+    mond_rotation_velocity,
     newton_rotation_velocity,
     sfr_surface_density,
     stellar_surface_density,
@@ -1162,6 +1165,467 @@ def evaluate_screening_constraints(
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# Held-Out Whole-Radial-Profile, Bend-Location & Shared Dynamical Lensing Gates
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def _estimate_profile_bend_radius(
+    g: GalaxyParams,
+    vel_fn,
+    *,
+    n_grid: int = 40,
+) -> float:
+    """Estimate where a model rotation curve bends into its outer plateau [kpc].
+
+    Scans ``r in [0.5 * r_d, r_max]`` and returns the first radius ``r >= r_d``
+    where ``v(r) >= 0.80 * v(r_max)`` and the local logarithmic derivative
+    ``|d ln v / d ln r| <= 0.15``. If the curve keeps surging steeply all the
+    way to ``r_max`` without flattening, returns ``r_max``.
+    """
+    r_min = max(0.5 * g.r_d, 0.1)
+    r_max = max(g.r_max, r_min + 0.5)
+    v_outer = float(vel_fn(r_max))
+    if v_outer <= 0.0:
+        return r_max
+
+    eps = 1e-3
+    denom_log = math.log((1.0 + eps) / (1.0 - eps))
+    for i in range(n_grid):
+        r = r_min + (r_max - r_min) * i / (n_grid - 1)
+        if r < g.r_d:
+            continue
+        v_r = float(vel_fn(r))
+        if v_r < 0.80 * v_outer:
+            continue
+        v_minus = float(vel_fn(r * (1.0 - eps)))
+        v_plus = float(vel_fn(r * (1.0 + eps)))
+        if v_minus > 0.0 and v_plus > 0.0:
+            slope = math.log(v_plus / v_minus) / denom_log
+            if abs(slope) <= 0.15:
+                return r
+    return r_max
+
+
+def evaluate_heldout_radial_profiles(
+    *,
+    sigma_crit: float = DEFAULT_SIGMA_CRIT,
+    beta: float = DEFAULT_BETA,
+    gas_mode: str = "1d",
+    a0: float = MOND_A0_M_S2,
+) -> dict[str, object]:
+    """Test frozen Pathway 1 on whole radial profiles and bend locations on a clean held-out set.
+
+    Compares Frozen Pathway 1 against Newtonian and MOND baselines using the
+    exact same baryonic inputs ``(M_star, r_d, M_gas, r_gas)`` on:
+      1. ``HELDOUT_RADIAL_PROFILES`` (9 multi-point radial curves strictly disjoint
+         from ``SAMPLE_GALAXIES``), testing full-curve RMS, velocity accuracy at
+         the bend radius ``r ≈ 2 r_d``, bend-location error, and late S-curve surge.
+      2. The 28 held-out galaxies in ``det8/data/sparc_subset.json`` with
+         ``V_flat > 0`` that are strictly disjoint from ``SAMPLE_GALAXIES``,
+         evaluating whole outer-plateau ``[2.2 r_d, 8.0 r_d]`` RMS and flatness.
+    """
+    sigma_crit_val = _validate_positive_finite("sigma_crit", sigma_crit)
+    beta_val = _validate_half_open_unit("beta", beta)
+    mode = _validate_gas_mode(gas_mode)
+    a0_val = _validate_positive_finite("a0", a0)
+
+    sample_names = {_normalize_name(g.name) for g in SAMPLE_GALAXIES}
+    overlap_names = [
+        hp.name for hp in HELDOUT_RADIAL_PROFILES if _normalize_name(hp.name) in sample_names
+    ]
+    strictly_disjoint = len(overlap_names) == 0
+
+    galaxy_results: list[dict[str, object]] = []
+    rms_p1_all: list[float] = []
+    rms_mond_all: list[float] = []
+    rms_newton_all: list[float] = []
+    rms_p1_spirals: list[float] = []
+    rms_mond_spirals: list[float] = []
+    bend_vel_err_p1: list[float] = []
+    bend_vel_err_mond: list[float] = []
+    bend_radius_err_p1: list[float] = []
+    bend_radius_err_mond: list[float] = []
+    plateau_spread_p1: list[float] = []
+    plateau_spread_mond: list[float] = []
+    late_surge_p1_count = 0
+    late_surge_mond_count = 0
+
+    for hp in HELDOUT_RADIAL_PROFILES:
+        g_param = GalaxyParams(
+            name=hp.name,
+            M_star=hp.M_star,
+            r_d=hp.r_d,
+            M_gas=hp.M_gas,
+            r_gas=hp.r_gas,
+            v_flat=hp.v_flat,
+            r_max=hp.r_max,
+        )
+        pts_out: list[dict[str, float]] = []
+        sq_p1: list[float] = []
+        sq_mond: list[float] = []
+        sq_newton: list[float] = []
+
+        for r_pt, v_obs in hp.radial_points:
+            v_n = newton_rotation_velocity(
+                r_pt, hp.M_star, hp.r_d, hp.M_gas, hp.r_gas, gas_mode=mode
+            )
+            v_p1 = pathway1_rotation_velocity(
+                r_pt, g_param, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
+            )
+            v_m = mond_rotation_velocity(
+                r_pt, hp.M_star, hp.r_d, hp.M_gas, hp.r_gas, a0=a0_val, gas_mode=mode
+            )
+            sq_newton.append(((v_n - v_obs) / v_obs) ** 2)
+            sq_p1.append(((v_p1 - v_obs) / v_obs) ** 2)
+            sq_mond.append(((v_m - v_obs) / v_obs) ** 2)
+            pts_out.append(
+                {
+                    "r_kpc": r_pt,
+                    "v_obs_kms": v_obs,
+                    "v_newton_kms": v_n,
+                    "v_pathway1_kms": v_p1,
+                    "v_mond_kms": v_m,
+                }
+            )
+
+        c_rms_n = math.sqrt(sum(sq_newton) / len(sq_newton))
+        c_rms_p1 = math.sqrt(sum(sq_p1) / len(sq_p1))
+        c_rms_m = math.sqrt(sum(sq_mond) / len(sq_mond))
+        rms_newton_all.append(c_rms_n)
+        rms_p1_all.append(c_rms_p1)
+        rms_mond_all.append(c_rms_m)
+        if hp.M_star >= 1.0:
+            rms_p1_spirals.append(c_rms_p1)
+            rms_mond_spirals.append(c_rms_m)
+
+        # Evaluate at the observed bend radius (~2 * r_d, index 2 in radial_points)
+        r_bend_obs = hp.r_bend_obs_kpc
+        v_obs_at_bend = min(hp.radial_points, key=lambda pair: abs(pair[0] - r_bend_obs))[1]
+        v_p1_at_bend = pathway1_rotation_velocity(
+            r_bend_obs, g_param, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
+        )
+        v_m_at_bend = mond_rotation_velocity(
+            r_bend_obs, hp.M_star, hp.r_d, hp.M_gas, hp.r_gas, a0=a0_val, gas_mode=mode
+        )
+        v_n_at_bend = newton_rotation_velocity(
+            r_bend_obs, hp.M_star, hp.r_d, hp.M_gas, hp.r_gas, gas_mode=mode
+        )
+        b_err_p1 = abs(v_p1_at_bend - v_obs_at_bend) / v_obs_at_bend
+        b_err_m = abs(v_m_at_bend - v_obs_at_bend) / v_obs_at_bend
+        bend_vel_err_p1.append(b_err_p1)
+        bend_vel_err_mond.append(b_err_m)
+
+        # Estimate where the curve actually bends into a plateau
+        r_bend_p1 = _estimate_profile_bend_radius(
+            g_param,
+            lambda r_eval, gp=g_param: pathway1_rotation_velocity(
+                r_eval, gp, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
+            ),
+        )
+        r_bend_mond = _estimate_profile_bend_radius(
+            g_param,
+            lambda r_eval, gp=g_param: mond_rotation_velocity(
+                r_eval, gp.M_star, gp.r_d, gp.M_gas, gp.r_gas, a0=a0_val, gas_mode=mode
+            ),
+        )
+        r_err_p1 = abs(r_bend_p1 - r_bend_obs) / hp.r_d
+        r_err_m = abs(r_bend_mond - r_bend_obs) / hp.r_d
+        bend_radius_err_p1.append(r_err_p1)
+        bend_radius_err_mond.append(r_err_m)
+
+        # Plateau [2 * r_d .. r_max] spread & late surge v(r_max) / v(2 * r_d)
+        plateau_pts_p1 = [pt["v_pathway1_kms"] for pt in pts_out if pt["r_kpc"] >= 1.9 * hp.r_d]
+        plateau_pts_m = [pt["v_mond_kms"] for pt in pts_out if pt["r_kpc"] >= 1.9 * hp.r_d]
+        sp_p1 = max(plateau_pts_p1) / max(min(plateau_pts_p1), 1e-9)
+        sp_m = max(plateau_pts_m) / max(min(plateau_pts_m), 1e-9)
+        plateau_spread_p1.append(sp_p1)
+        plateau_spread_mond.append(sp_m)
+
+        v_p1_rmax = pts_out[-1]["v_pathway1_kms"]
+        v_m_rmax = pts_out[-1]["v_mond_kms"]
+        surge_ratio_p1 = v_p1_rmax / max(v_p1_at_bend, 1e-9)
+        surge_ratio_m = v_m_rmax / max(v_m_at_bend, 1e-9)
+        if surge_ratio_p1 > 1.25:
+            late_surge_p1_count += 1
+        if surge_ratio_m > 1.25:
+            late_surge_mond_count += 1
+
+        sigma_0 = stellar_surface_density(0.0, hp.M_star, hp.r_d) + stellar_surface_density(
+            0.0, hp.M_gas, hp.r_gas
+        )
+        gompertz_onset_r_kpc = (
+            hp.r_d * math.log(sigma_0 / sigma_crit_val) if sigma_0 > sigma_crit_val else 0.0
+        )
+
+        galaxy_results.append(
+            {
+                "name": hp.name,
+                "M_star": hp.M_star,
+                "r_d": hp.r_d,
+                "v_flat": hp.v_flat,
+                "r_max": hp.r_max,
+                "r_bend_obs_kpc": r_bend_obs,
+                "r_bend_pathway1_kpc": r_bend_p1,
+                "r_bend_mond_kpc": r_bend_mond,
+                "gompertz_onset_r_kpc": gompertz_onset_r_kpc,
+                "bend_radius_error_in_rd_pathway1": r_err_p1,
+                "bend_radius_error_in_rd_mond": r_err_m,
+                "v_obs_at_bend_kms": v_obs_at_bend,
+                "v_newton_at_bend_kms": v_n_at_bend,
+                "v_pathway1_at_bend_kms": v_p1_at_bend,
+                "v_mond_at_bend_kms": v_m_at_bend,
+                "bend_velocity_rel_error_pathway1": b_err_p1,
+                "bend_velocity_rel_error_mond": b_err_m,
+                "curve_rms_newton": c_rms_n,
+                "curve_rms_pathway1": c_rms_p1,
+                "curve_rms_mond": c_rms_m,
+                "plateau_max_over_min_pathway1": sp_p1,
+                "plateau_max_over_min_mond": sp_m,
+                "outer_over_bend_velocity_ratio_pathway1": surge_ratio_p1,
+                "outer_over_bend_velocity_ratio_mond": surge_ratio_m,
+                "points": pts_out,
+            }
+        )
+
+    # Also evaluate the 28 held-out sparc_subset.json galaxies (disjoint from SAMPLE_GALAXIES)
+    diag = load_sparc_subset_diagnostic()
+    heldout_subset_records = [
+        r
+        for r in diag.get("records", [])
+        if _normalize_name(str(r.get("name", ""))) not in sample_names
+        and float(r.get("V_flat", 0.0) or 0.0) > 0.0
+    ]
+    subset_p1_rms_list: list[float] = []
+    subset_mond_rms_list: list[float] = []
+    subset_newton_rms_list: list[float] = []
+    subset_p1_spread_list: list[float] = []
+    subset_mond_spread_list: list[float] = []
+    for rec in heldout_subset_records:
+        rd_s = float(rec["r_d"])
+        ms_s = float(rec["M_star"])
+        vf_s = float(rec["V_flat"])
+        gp_s = GalaxyParams(
+            name=str(rec["name"]),
+            M_star=ms_s,
+            r_d=rd_s,
+            M_gas=ms_s,
+            r_gas=2.0 * rd_s,
+            v_flat=vf_s,
+            r_max=6.0 * rd_s,
+        )
+        r_plat = [m * rd_s for m in (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)]
+        vp1_s = [
+            pathway1_rotation_velocity(
+                r_p, gp_s, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
+            )
+            for r_p in r_plat
+        ]
+        vm_s = [
+            mond_rotation_velocity(
+                r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, a0=a0_val, gas_mode=mode
+            )
+            for r_p in r_plat
+        ]
+        vn_s = [
+            newton_rotation_velocity(
+                r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, gas_mode=mode
+            )
+            for r_p in r_plat
+        ]
+        subset_p1_rms_list.append(
+            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vp1_s) / len(vp1_s))
+        )
+        subset_mond_rms_list.append(
+            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vm_s) / len(vm_s))
+        )
+        subset_newton_rms_list.append(
+            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vn_s) / len(vn_s))
+        )
+        subset_p1_spread_list.append(max(vp1_s) / max(min(vp1_s), 1e-9))
+        subset_mond_spread_list.append(max(vm_s) / max(min(vm_s), 1e-9))
+
+    n_prof = len(HELDOUT_RADIAL_PROFILES)
+    mean_rms_p1 = sum(rms_p1_all) / n_prof
+    mean_rms_mond = sum(rms_mond_all) / n_prof
+    mean_rms_newton = sum(rms_newton_all) / n_prof
+    mean_spiral_rms_p1 = (
+        sum(rms_p1_spirals) / len(rms_p1_spirals) if rms_p1_spirals else 0.0
+    )
+    mean_spiral_rms_mond = (
+        sum(rms_mond_spirals) / len(rms_mond_spirals) if rms_mond_spirals else 0.0
+    )
+    mean_bend_vel_err_p1 = sum(bend_vel_err_p1) / n_prof
+    mean_bend_vel_err_mond = sum(bend_vel_err_mond) / n_prof
+    mean_bend_rad_err_p1 = sum(bend_radius_err_p1) / n_prof
+    mean_bend_rad_err_mond = sum(bend_radius_err_mond) / n_prof
+    mean_spread_p1 = sum(plateau_spread_p1) / n_prof
+    mean_spread_mond = sum(plateau_spread_mond) / n_prof
+    late_surge_frac_p1 = late_surge_p1_count / n_prof
+    late_surge_frac_mond = late_surge_mond_count / n_prof
+
+    # Promotion requires:
+    # 1. Strictly disjoint held-out set,
+    # 2. Whole-curve mean RMS <= 0.20,
+    # 3. Bend-point (r ~ 2 r_d) velocity mean error <= 0.20,
+    # 4. Late S-curve surge fraction <= 0.25 (predicts where the curve bends rather than surging late).
+    passed = bool(
+        strictly_disjoint
+        and (mean_rms_p1 <= 0.20)
+        and (mean_bend_vel_err_p1 <= 0.20)
+        and (late_surge_frac_p1 <= 0.25)
+    )
+
+    return {
+        "passed": passed,
+        "strictly_disjoint_from_sample_galaxies": strictly_disjoint,
+        "overlap_with_sample_galaxies": overlap_names,
+        "frozen_parameters": {
+            "sigma_crit": sigma_crit_val,
+            "beta": beta_val,
+            "gas_mode": mode,
+            "mond_a0_m_s2": a0_val,
+        },
+        "heldout_radial_profiles_summary": {
+            "n_galaxies": n_prof,
+            "mean_curve_rms_newton": mean_rms_newton,
+            "mean_curve_rms_pathway1": mean_rms_p1,
+            "mean_curve_rms_mond": mean_rms_mond,
+            "spirals_ge_1e9_mean_curve_rms_pathway1": mean_spiral_rms_p1,
+            "spirals_ge_1e9_mean_curve_rms_mond": mean_spiral_rms_mond,
+            "mean_bend_velocity_error_pathway1": mean_bend_vel_err_p1,
+            "mean_bend_velocity_error_mond": mean_bend_vel_err_mond,
+            "mean_bend_radius_error_in_rd_pathway1": mean_bend_rad_err_p1,
+            "mean_bend_radius_error_in_rd_mond": mean_bend_rad_err_mond,
+            "mean_plateau_max_over_min_pathway1": mean_spread_p1,
+            "mean_plateau_max_over_min_mond": mean_spread_mond,
+            "late_surge_count_pathway1": late_surge_p1_count,
+            "late_surge_count_mond": late_surge_mond_count,
+            "late_surge_fraction_pathway1": late_surge_frac_p1,
+            "late_surge_fraction_mond": late_surge_frac_mond,
+        },
+        "heldout_sparc_subset_28_summary": {
+            "n_galaxies": len(heldout_subset_records),
+            "mean_plateau_rms_newton": (
+                sum(subset_newton_rms_list) / len(subset_newton_rms_list)
+                if subset_newton_rms_list
+                else 0.0
+            ),
+            "mean_plateau_rms_pathway1": (
+                sum(subset_p1_rms_list) / len(subset_p1_rms_list)
+                if subset_p1_rms_list
+                else 0.0
+            ),
+            "mean_plateau_rms_mond": (
+                sum(subset_mond_rms_list) / len(subset_mond_rms_list)
+                if subset_mond_rms_list
+                else 0.0
+            ),
+            "mean_plateau_max_over_min_pathway1": (
+                sum(subset_p1_spread_list) / len(subset_p1_spread_list)
+                if subset_p1_spread_list
+                else 0.0
+            ),
+            "mean_plateau_max_over_min_mond": (
+                sum(subset_mond_spread_list) / len(subset_mond_spread_list)
+                if subset_mond_spread_list
+                else 0.0
+            ),
+        },
+        "galaxies": galaxy_results,
+        "bend_diagnosis": (
+            "With frozen (Sigma_crit=0.008, beta=0.93), kappa(r) = exp(-Sigma_b(r)/Sigma_crit) "
+            "acts on an exponential disk as a Gompertz double-exponential exp(-(Sigma_0/Sigma_crit)*exp(-r/r_d)). "
+            "At the observed bend radius r ~ 2 r_d, spirals with Sigma_0 >> Sigma_crit remain in the "
+            "screened regime (kappa(2 r_d) << 1, v_P1(2 r_d) ≈ v_Newton), underpredicting the bend velocity "
+            f"by {mean_bend_vel_err_p1:.1%} (vs MOND {mean_bend_vel_err_mond:.1%}) and surging upward late "
+            f"between 4 r_d and r_max in {late_surge_p1_count}/{n_prof} held-out profiles (vs {late_surge_mond_count}/{n_prof} for MOND)."
+        ),
+    }
+
+
+def evaluate_shared_dynamical_lensing(
+    dynamical_law_result: dict[str, object] | None = None,
+) -> dict[str, object]:
+    """Evaluate whether a shared dynamical law predicts both orbital motion and light bending/Shapiro delay.
+
+    A scalar ``G_eff(r)`` substitution in ``v^2 = G_eff * M(<r) / r`` defines neither
+    a spatial metric potential ``Psi(r)`` nor a null-geodesic Shapiro delay. Promotion
+    requires an explicit two-potential or metric law ``(Phi(r), Psi(r))`` satisfying:
+      1. ``has_shared_action_law``: derived from one shared conservative dynamical law;
+      2. ``orbital_rms_error <= 0.20``: reproduces circular orbital motion;
+      3. ``cassini_shapiro_gamma_deviation < 2.3e-5``: predicts Cassini's Shapiro delay
+         from ``(Phi + Psi)/2`` along a solar ray (not merely a scalar ``Delta G/G`` proxy);
+      4. ``0.95 <= galactic_lensing_to_dynamical_ratio <= 1.05``: closes galactic light bending
+         without the factor-of-2 Weyl slip deficit of a ``g_00``-only modification.
+    """
+    if dynamical_law_result is None:
+        return {
+            "passed": False,
+            "has_shared_action_law": False,
+            "orbital_rms_error": None,
+            "cassini_shapiro_gamma_deviation": None,
+            "galactic_lensing_to_dynamical_ratio": None,
+            "reason": (
+                "No shared dynamical metric/field law supplied; Pathway 1 currently specifies only "
+                "an algebraic G_eff(r) for circular orbits and compares a scalar Delta G/G proxy "
+                "against Cassini without predicting Shapiro delay or light deflection."
+            ),
+        }
+
+    if not isinstance(dynamical_law_result, dict):
+        raise TypeError(
+            "dynamical_law_result must be a dict or None, "
+            f"got {type(dynamical_law_result).__name__}"
+        )
+
+    has_action = bool(dynamical_law_result.get("has_shared_action_law", False))
+    orb_rms_raw = dynamical_law_result.get("orbital_rms_error")
+    shapiro_dev_raw = dynamical_law_result.get("cassini_shapiro_gamma_deviation")
+    lens_ratio_raw = dynamical_law_result.get("galactic_lensing_to_dynamical_ratio")
+
+    if (
+        orb_rms_raw is None
+        or shapiro_dev_raw is None
+        or lens_ratio_raw is None
+    ):
+        return {
+            "passed": False,
+            "has_shared_action_law": has_action,
+            "orbital_rms_error": orb_rms_raw,
+            "cassini_shapiro_gamma_deviation": shapiro_dev_raw,
+            "galactic_lensing_to_dynamical_ratio": lens_ratio_raw,
+            "reason": "Incomplete dynamical_law_result: orbital_rms_error, cassini_shapiro_gamma_deviation, and galactic_lensing_to_dynamical_ratio are all required.",
+        }
+
+    orb_rms = _validate_non_negative_finite("orbital_rms_error", orb_rms_raw)
+    shapiro_dev = _validate_non_negative_finite(
+        "cassini_shapiro_gamma_deviation", shapiro_dev_raw
+    )
+    lens_ratio = _validate_positive_finite(
+        "galactic_lensing_to_dynamical_ratio", lens_ratio_raw
+    )
+
+    passed = bool(
+        has_action
+        and (orb_rms <= 0.20)
+        and (shapiro_dev < CASSINI_GAMMA_MINUS_1_BOUND)
+        and (0.95 <= lens_ratio <= 1.05)
+    )
+    return {
+        "passed": passed,
+        "has_shared_action_law": has_action,
+        "orbital_rms_error": orb_rms,
+        "cassini_shapiro_gamma_deviation": shapiro_dev,
+        "galactic_lensing_to_dynamical_ratio": lens_ratio,
+        "reason": (
+            "Shared dynamical law satisfies orbital motion, Cassini Shapiro delay, and galactic light bending."
+            if passed
+            else "Shared dynamical law failed one or more quantitative orbital/Shapiro/lensing thresholds."
+        ),
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # Two-Tier Refutation / Acceptance Criteria Evaluator
 # ═══════════════════════════════════════════════════════════════════════════
 
@@ -1175,19 +1639,33 @@ def evaluate_pathway1_criteria(
     scale_height_kpc: float = DEFAULT_DISK_SCALE_HEIGHT_KPC,
     has_covariant_lensing_action: bool = False,
     has_full_radial_sparc_profiles: bool = False,
+    dynamical_lensing_result: dict[str, object] | None = None,
 ) -> dict[str, object]:
-    """Compute Pathway 1 viability verdict from two-tier non-hardcoded criteria."""
+    """Compute Pathway 1 viability verdict from two-tier non-hardcoded criteria.
+
+    Bare boolean flags (``has_covariant_lensing_action=True`` or
+    ``has_full_radial_sparc_profiles=True``) are rejected with ``ValueError``:
+    promotion requires actual passing evaluations from
+    ``evaluate_heldout_radial_profiles()`` and ``evaluate_shared_dynamical_lensing()``.
+    """
     sigma_crit_val = _validate_positive_finite("sigma_crit", sigma_crit)
     beta_val = _validate_half_open_unit("beta", beta)
     w_sfr_val = _validate_non_negative_finite("w_sfr", w_sfr)
     mode = _validate_gas_mode(gas_mode)
     h_val = _validate_positive_finite("scale_height_kpc", scale_height_kpc)
-    has_lensing = _validate_bool_flag(
+    has_lensing_flag = _validate_bool_flag(
         "has_covariant_lensing_action", has_covariant_lensing_action
     )
-    has_profiles = _validate_bool_flag(
+    has_profiles_flag = _validate_bool_flag(
         "has_full_radial_sparc_profiles", has_full_radial_sparc_profiles
     )
+    if has_lensing_flag or has_profiles_flag:
+        raise ValueError(
+            "Promotion by bare boolean flag (has_covariant_lensing_action=True or "
+            "has_full_radial_sparc_profiles=True) is not permitted; actual passing "
+            "results from evaluate_heldout_radial_profiles() and "
+            "evaluate_shared_dynamical_lensing() are required."
+        )
 
     f6_res = evaluate_f6_sign_check(sigma_crit=sigma_crit_val, w_sfr=w_sfr_val)
     sparc_res = evaluate_sparc_fit(
@@ -1199,6 +1677,10 @@ def evaluate_pathway1_criteria(
     screen_res = evaluate_screening_constraints(
         sigma_crit=sigma_crit_val, beta=beta_val, scale_height_kpc=h_val
     )
+    heldout_prof_res = evaluate_heldout_radial_profiles(
+        sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
+    )
+    lensing_res = evaluate_shared_dynamical_lensing(dynamical_lensing_result)
 
     dwarf_mean_err = float(sparc_res["mass_bins"]["dwarf"]["mean_error"])
     max_enh = float(sparc_res["max_enhancement"])
@@ -1259,6 +1741,9 @@ def evaluate_pathway1_criteria(
     fl1_sep_documented = bool(
         screen_res["fl1_rank_separation"]["requires_rank_r_gt_1_separation"]
     )
+    has_profiles = bool(heldout_prof_res["passed"])
+    has_lensing = bool(lensing_res["passed"])
+    hp_sum = heldout_prof_res["heldout_radial_profiles_summary"]
 
     limitation_checks: dict[str, dict[str, object]] = {
         "asymptotic_flatness_maintained": {
@@ -1281,13 +1766,38 @@ def evaluate_pathway1_criteria(
         },
         "full_sparc_radial_profiles_tested": {
             "passed": has_profiles,
-            "observed": has_profiles,
-            "threshold": "Full radial rotation curves evaluated beyond single-point r_max",
+            "observed": {
+                "heldout_curve_rms_pathway1": hp_sum["mean_curve_rms_pathway1"],
+                "heldout_curve_rms_mond": hp_sum["mean_curve_rms_mond"],
+                "heldout_bend_velocity_error_pathway1": hp_sum[
+                    "mean_bend_velocity_error_pathway1"
+                ],
+                "heldout_late_surge_fraction_pathway1": hp_sum[
+                    "late_surge_fraction_pathway1"
+                ],
+            },
+            "threshold": (
+                "Held-out radial profiles: curve RMS <= 0.20, bend velocity error <= 0.20, "
+                "and late S-curve surge fraction <= 0.25"
+            ),
+            "note": str(heldout_prof_res["bend_diagnosis"]),
         },
         "covariant_metric_and_lensing_closed": {
             "passed": has_lensing,
-            "observed": has_lensing,
-            "threshold": "Covariant action, momentum conservation, and PPN gamma = 1 lensing derived",
+            "observed": {
+                "has_shared_action_law": lensing_res["has_shared_action_law"],
+                "cassini_shapiro_gamma_deviation": lensing_res[
+                    "cassini_shapiro_gamma_deviation"
+                ],
+                "galactic_lensing_to_dynamical_ratio": lensing_res[
+                    "galactic_lensing_to_dynamical_ratio"
+                ],
+            },
+            "threshold": (
+                "Shared dynamical law with orbital RMS <= 0.20, Cassini Shapiro "
+                "|gamma_eff - 1| < 2.3e-5, and galactic lensing ratio in [0.95, 1.05]"
+            ),
+            "note": str(lensing_res["reason"]),
         },
         "fl1_rank_separation_documented": {
             "passed": fl1_sep_documented,
@@ -1342,6 +1852,8 @@ def evaluate_pathway1_criteria(
             "sparc": sparc_res,
             "asymptotics": asym_res,
             "screening": screen_res,
+            "heldout_profiles": heldout_prof_res,
+            "dynamical_lensing": lensing_res,
         },
     }
 
@@ -1543,9 +2055,11 @@ __all__ = (
     "M_SUN_KG",
     "closure_manifest",
     "evaluate_f6_sign_check",
+    "evaluate_heldout_radial_profiles",
     "evaluate_pathway1_criteria",
     "evaluate_radial_asymptotics",
     "evaluate_screening_constraints",
+    "evaluate_shared_dynamical_lensing",
     "evaluate_sparc_fit",
     "pathway1_rotation_velocity",
     "reciprocal_aperture_g_eff",

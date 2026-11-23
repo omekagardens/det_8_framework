@@ -381,8 +381,14 @@ class CriteriaAndClosureManifestTests(unittest.TestCase):
                 self.assertIn(expected_failure, res["failing_checks"])
 
     def test_evaluate_pathway1_criteria_viable_provisional_reachable(self) -> None:
+        # Bare boolean promotion flags are rejected: actual computed results are required.
+        with self.assertRaises(ValueError):
+            kt1.evaluate_pathway1_criteria(has_covariant_lensing_action=True)
+        with self.assertRaises(ValueError):
+            kt1.evaluate_pathway1_criteria(has_full_radial_sparc_profiles=True)
+
         # Prove status is computed (not hardcoded to PARTIAL_LIMITATION/REFUTED)
-        # when all core gates and limitation checks pass simultaneously.
+        # when all core gates and actual profile/lensing evaluators pass simultaneously.
         mock_asym = {
             "regime_summaries": {"outer_2_to_4_rmax": {"mean_slope": -0.05}},
         }
@@ -403,19 +409,60 @@ class CriteriaAndClosureManifestTests(unittest.TestCase):
         mock_regimes["local_1au_solar_wind"] = mock_local_1au
         mock_scr["regimes"] = mock_regimes
 
+        mock_heldout = dict(kt1.evaluate_heldout_radial_profiles())
+        mock_heldout["passed"] = True
+        passing_lensing = {
+            "has_shared_action_law": True,
+            "orbital_rms_error": 0.12,
+            "cassini_shapiro_gamma_deviation": 1.0e-6,
+            "galactic_lensing_to_dynamical_ratio": 1.0,
+        }
+
         with (
             mock.patch.object(kt1, "evaluate_radial_asymptotics", return_value=mock_asym),
             mock.patch.object(kt1, "evaluate_sparc_fit", return_value=mock_sparc),
             mock.patch.object(
                 kt1, "evaluate_screening_constraints", return_value=mock_scr
             ),
+            mock.patch.object(
+                kt1, "evaluate_heldout_radial_profiles", return_value=mock_heldout
+            ),
         ):
             res = kt1.evaluate_pathway1_criteria(
-                has_covariant_lensing_action=True,
-                has_full_radial_sparc_profiles=True,
+                dynamical_lensing_result=passing_lensing
             )
         self.assertEqual(res["status"], "VIABLE_PROVISIONAL")
         self.assertEqual(res["open_limitations"], [])
+
+    def test_heldout_radial_profiles_and_shared_dynamical_lensing_gates(self) -> None:
+        heldout = kt1.evaluate_heldout_radial_profiles()
+        self.assertTrue(heldout["strictly_disjoint_from_sample_galaxies"])
+        self.assertEqual(heldout["overlap_with_sample_galaxies"], [])
+        self.assertFalse(heldout["passed"])
+        hp_sum = heldout["heldout_radial_profiles_summary"]
+        self.assertEqual(hp_sum["n_galaxies"], 9)
+        # Frozen Pathway 1 fails bend velocity accuracy at r ~ 2 r_d on spirals vs MOND
+        self.assertGreater(
+            hp_sum["mean_bend_velocity_error_pathway1"],
+            hp_sum["mean_bend_velocity_error_mond"],
+        )
+        self.assertGreater(
+            hp_sum["spirals_ge_1e9_mean_curve_rms_pathway1"],
+            hp_sum["spirals_ge_1e9_mean_curve_rms_mond"],
+        )
+        self.assertEqual(heldout["heldout_sparc_subset_28_summary"]["n_galaxies"], 28)
+
+        lensing_default = kt1.evaluate_shared_dynamical_lensing()
+        self.assertFalse(lensing_default["passed"])
+        lensing_pass = kt1.evaluate_shared_dynamical_lensing(
+            {
+                "has_shared_action_law": True,
+                "orbital_rms_error": 0.14,
+                "cassini_shapiro_gamma_deviation": 1.0e-6,
+                "galactic_lensing_to_dynamical_ratio": 1.0,
+            }
+        )
+        self.assertTrue(lensing_pass["passed"])
 
     def test_closure_manifest_tags_and_native_derivations(self) -> None:
         manifest = kt1.closure_manifest()
