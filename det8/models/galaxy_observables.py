@@ -187,33 +187,50 @@ SAMPLE_GALAXIES: list[GalaxyParams] = [
 # ═══════════════════════════════════════════════════════════════════════════
 
 
-def _validate_non_negative_radius(r_kpc: float) -> None:
-    if not math.isfinite(r_kpc) or r_kpc < 0.0:
-        raise ValueError(f"r_kpc must be finite and >= 0, got {r_kpc!r}")
+def _validate_non_negative_finite(name: str, value: float) -> None:
+    if isinstance(value, bool) or not math.isfinite(value) or value < 0.0:
+        raise ValueError(f"{name} must be finite and >= 0, got {value!r}")
 
 
 def stellar_surface_density(r_kpc: float, M_star: float, r_d: float) -> float:
     """Exponential disk surface mass density Σ(r) = M · exp(-r/r_d) / (2π r_d^2) [10^9 M_sun/kpc^2]."""
-    _validate_non_negative_radius(r_kpc)
-    if r_d <= 0.0 or M_star <= 0.0:
+    _validate_non_negative_finite("r_kpc", r_kpc)
+    _validate_non_negative_finite("M_star", M_star)
+    _validate_non_negative_finite("r_d", r_d)
+    if r_d == 0.0 or M_star == 0.0:
         return 0.0
+    if r_d > 1e150 or r_d < 1e-150:
+        return (M_star / (2.0 * math.pi)) * math.exp(-r_kpc / r_d) / r_d / r_d
     return M_star * math.exp(-r_kpc / r_d) / (2.0 * math.pi * r_d**2)
 
 
 def sfr_surface_density(r_kpc: float, SFR: float, r_SFR: float) -> float:
     """Exponential SFR surface density Σ_SFR(r) = SFR · exp(-r/r_SFR) / (2π r_SFR^2) [M_sun/yr/kpc^2]."""
-    _validate_non_negative_radius(r_kpc)
-    if r_SFR <= 0.0 or SFR <= 0.0:
+    _validate_non_negative_finite("r_kpc", r_kpc)
+    _validate_non_negative_finite("SFR", SFR)
+    _validate_non_negative_finite("r_SFR", r_SFR)
+    if r_SFR == 0.0 or SFR == 0.0:
         return 0.0
+    if r_SFR > 1e150 or r_SFR < 1e-150:
+        return (SFR / (2.0 * math.pi)) * math.exp(-r_kpc / r_SFR) / r_SFR / r_SFR
     return SFR * math.exp(-r_kpc / r_SFR) / (2.0 * math.pi * r_SFR**2)
 
 
 def stellar_disk_mass(r_kpc: float, M_star: float, r_d: float) -> float:
-    """Freeman (1970) 2D exponential disk mass enclosed within r_kpc [10^9 M_sun]."""
-    _validate_non_negative_radius(r_kpc)
-    if r_d <= 0.0 or M_star <= 0.0 or r_kpc == 0.0:
+    """Freeman (1970) 2D exponential disk mass enclosed within r_kpc [10^9 M_sun].
+
+    Preserves the intentional ``x < 0.01 -> M_star * (0.5 * x**2)`` small-radius
+    branch from ``sparc_analysis.stellar_disk_mass`` for exact legacy parity
+    (which introduces a ~0.67% step at ``x = r_kpc / r_d = 0.01``).
+    """
+    _validate_non_negative_finite("r_kpc", r_kpc)
+    _validate_non_negative_finite("M_star", M_star)
+    _validate_non_negative_finite("r_d", r_d)
+    if r_d == 0.0 or M_star == 0.0 or r_kpc == 0.0:
         return 0.0
     x = r_kpc / r_d
+    if math.isinf(x) or x > 750.0:
+        return float(M_star)
     if x < 0.01:
         return M_star * (0.5 * x**2)
     return M_star * (1.0 - (1.0 + x) * math.exp(-x))
@@ -221,21 +238,27 @@ def stellar_disk_mass(r_kpc: float, M_star: float, r_d: float) -> float:
 
 def gas_mass_exponential_1d(r_kpc: float, M_gas: float, r_gas: float) -> float:
     """1D radial exponential gas mass M_gas · (1 - exp(-r/r_gas)) [10^9 M_sun]."""
-    _validate_non_negative_radius(r_kpc)
-    if r_gas <= 0.0 or M_gas <= 0.0 or r_kpc == 0.0:
+    _validate_non_negative_finite("r_kpc", r_kpc)
+    _validate_non_negative_finite("M_gas", M_gas)
+    _validate_non_negative_finite("r_gas", r_gas)
+    if r_gas == 0.0 or M_gas == 0.0 or r_kpc == 0.0:
         return 0.0
     return M_gas * (1.0 - math.exp(-r_kpc / r_gas))
 
 
 def gas_mass_freeman_2d(r_kpc: float, M_gas: float, r_gas: float) -> float:
     """Consistent 2D Freeman disk integral M_gas · (1 - (1 + r/r_gas) * exp(-r/r_gas)) [10^9 M_sun]."""
-    _validate_non_negative_radius(r_kpc)
-    if r_gas <= 0.0 or M_gas <= 0.0 or r_kpc == 0.0:
+    _validate_non_negative_finite("r_kpc", r_kpc)
+    _validate_non_negative_finite("M_gas", M_gas)
+    _validate_non_negative_finite("r_gas", r_gas)
+    if r_gas == 0.0 or M_gas == 0.0 or r_kpc == 0.0:
         return 0.0
     x = r_kpc / r_gas
-    if x < 0.01:
-        return M_gas * (0.5 * x**2)
-    return M_gas * (1.0 - (1.0 + x) * math.exp(-x))
+    if math.isinf(x) or x > 750.0:
+        return float(M_gas)
+    if x < 1e-4:
+        return M_gas * (0.5 * x**2 - x**3 / 3.0 + x**4 / 8.0)
+    return M_gas * (-math.expm1(-x) - x * math.exp(-x))
 
 
 def newton_rotation_velocity(
@@ -248,8 +271,12 @@ def newton_rotation_velocity(
     gas_mode: str = "1d",
 ) -> float:
     """Standard Newtonian circular velocity (km/s) from enclosed baryonic disk mass."""
-    if not math.isfinite(r_kpc) or r_kpc <= 0.0:
+    if isinstance(r_kpc, bool) or not math.isfinite(r_kpc) or r_kpc <= 0.0:
         raise ValueError(f"r_kpc must be finite and > 0, got {r_kpc!r}")
+    _validate_non_negative_finite("M_star", M_star)
+    _validate_non_negative_finite("r_d", r_d)
+    _validate_non_negative_finite("M_gas", M_gas)
+    _validate_non_negative_finite("r_gas", r_gas)
 
     if gas_mode == "1d":
         m_gas = gas_mass_exponential_1d(r_kpc, M_gas, r_gas)
@@ -262,7 +289,9 @@ def newton_rotation_velocity(
     m_bar_kg = m_bar * 1e9 * M_SUN_KG
     r_m = r_kpc * KPC_TO_M
     v_sq = G_SI * m_bar_kg / r_m
-    return math.sqrt(max(0.0, v_sq)) / KM_S_TO_M_S
+    if not math.isfinite(v_sq) or v_sq < 0.0:
+        raise ValueError(f"Non-finite or negative squared velocity v_sq={v_sq!r}")
+    return math.sqrt(v_sq) / KM_S_TO_M_S
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -272,6 +301,10 @@ def newton_rotation_velocity(
 
 def _normalize_galaxy_name(name: str) -> str:
     return re.sub(r"\s+", "", name).upper()
+
+
+def _is_finite_number(val: object) -> bool:
+    return isinstance(val, (int, float)) and not isinstance(val, bool) and math.isfinite(val)
 
 
 def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, object]:
@@ -289,8 +322,8 @@ def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, objec
             continue
         m_star_sub = rec.get("M_star")
         ratio = (
-            (g.M_star / m_star_sub)
-            if isinstance(m_star_sub, (int, float)) and m_star_sub > 0
+            (g.M_star / float(m_star_sub))
+            if _is_finite_number(m_star_sub) and float(m_star_sub) > 0.0
             else None
         )
         sample_overlaps.append(
@@ -318,8 +351,8 @@ def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, objec
             continue
         m_star_sub = rec.get("M_star")
         ratio = (
-            (g.M_star / m_star_sub)
-            if isinstance(m_star_sub, (int, float)) and m_star_sub > 0
+            (g.M_star / float(m_star_sub))
+            if _is_finite_number(m_star_sub) and float(m_star_sub) > 0.0
             else None
         )
         known_overlaps.append(
@@ -378,17 +411,17 @@ def _build_anomalies(records: list[dict[str, object]]) -> dict[str, object]:
         m_star = rec.get("M_star")
         m_gas = rec.get("M_gas")
         if (
-            isinstance(m_star, (int, float))
-            and isinstance(m_gas, (int, float))
+            _is_finite_number(m_star)
+            and _is_finite_number(m_gas)
             and m_gas == m_star
         ):
             m_gas_eq_m_star_names.append(name)
 
         v_flat = rec.get("V_flat", rec.get("v_flat"))
-        if isinstance(v_flat, (int, float)):
+        if _is_finite_number(v_flat):
             if v_flat == 0.0:
                 zero_v_flat_names.append(name)
-            elif v_flat > 0.0:
+            elif float(v_flat) > 0.0:
                 positive_v_flat_count += 1
 
         for field_name in expected_params_fields:
@@ -429,6 +462,37 @@ def _build_anomalies(records: list[dict[str, object]]) -> dict[str, object]:
     }
 
 
+def _diagnostic_error_result(
+    target_path: Path,
+    *,
+    exists: bool,
+    parse_mode: str,
+    error_message: str,
+    byte_size: int = 0,
+    line_count: int = 0,
+) -> dict[str, object]:
+    return {
+        "path": str(target_path),
+        "exists": exists,
+        "parsed_ok": False,
+        "byte_size": byte_size,
+        "line_count": line_count,
+        "raw_json_valid": False,
+        "raw_json_error": error_message,
+        "parse_mode": parse_mode,
+        "comment_lines": [],
+        "comment_headers": [],
+        "missing_outer_brackets": False,
+        "syntax_flaws": [],
+        "parse_errors": [{"line": 0, "raw": "", "error": error_message}],
+        "record_count": 0,
+        "records": [],
+        "anomalies": _build_anomalies([]),
+        "cross_comparison": _build_cross_comparison([]),
+        "provenance": dict(OBSERVABLE_PROVENANCE),
+    }
+
+
 def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
     """Safely parse and audit ``det8/data/sparc_subset.json`` without modifying it.
 
@@ -438,29 +502,43 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
     """
     target_path = DEFAULT_SPARC_SUBSET_PATH if path is None else Path(path)
 
-    if not target_path.exists():
-        return {
-            "path": str(target_path),
-            "exists": False,
-            "byte_size": 0,
-            "line_count": 0,
-            "raw_json_valid": False,
-            "raw_json_error": f"File not found: {target_path}",
-            "parse_mode": "missing_file",
-            "comment_lines": [],
-            "comment_headers": [],
-            "missing_outer_brackets": False,
-            "syntax_flaws": [],
-            "parse_errors": [{"line": 0, "raw": "", "error": f"File not found: {target_path}"}],
-            "record_count": 0,
-            "records": [],
-            "anomalies": _build_anomalies([]),
-            "cross_comparison": _build_cross_comparison([]),
-            "provenance": dict(OBSERVABLE_PROVENANCE),
-        }
+    exists = False
+    try:
+        exists = target_path.exists()
+        if not exists:
+            return _diagnostic_error_result(
+                target_path,
+                exists=False,
+                parse_mode="missing_file",
+                error_message=f"File not found: {target_path}",
+            )
+        if not target_path.is_file():
+            return _diagnostic_error_result(
+                target_path,
+                exists=True,
+                parse_mode="not_a_file",
+                error_message=f"Path is not a regular file: {target_path}",
+            )
+        raw_bytes = target_path.read_bytes()
+    except OSError as exc:
+        return _diagnostic_error_result(
+            target_path,
+            exists=exists,
+            parse_mode="io_error",
+            error_message=f"Failed to read file {target_path}: {exc}",
+        )
 
-    raw_bytes = target_path.read_bytes()
-    raw_text = raw_bytes.decode("utf-8")
+    try:
+        raw_text = raw_bytes.decode("utf-8")
+    except UnicodeDecodeError as exc:
+        return _diagnostic_error_result(
+            target_path,
+            exists=True,
+            parse_mode="decode_error",
+            error_message=f"UTF-8 decode error in {target_path}: {exc}",
+            byte_size=len(raw_bytes),
+        )
+
     lines = raw_text.splitlines()
 
     raw_json_valid = False
@@ -546,6 +624,15 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
     if raw_json_valid and isinstance(raw_parsed, list):
         parse_mode = "standard_json"
         records = list(raw_parsed)
+    elif not non_comment_entries:
+        parse_mode = "empty"
+        parse_errors.append(
+            {
+                "line": 0,
+                "raw": "",
+                "error": raw_json_error or "No JSON records found.",
+            }
+        )
     else:
         parse_mode = "comment_stripped_wrapped_array"
         wrapped_body = [text for _, text in non_comment_entries]
@@ -620,9 +707,12 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
                     }
                 )
 
+    parsed_ok = (len(parse_errors) == 0) and (raw_json_valid or len(records) > 0)
+
     return {
         "path": str(target_path),
         "exists": True,
+        "parsed_ok": parsed_ok,
         "byte_size": len(raw_bytes),
         "line_count": len(lines),
         "raw_json_valid": raw_json_valid,

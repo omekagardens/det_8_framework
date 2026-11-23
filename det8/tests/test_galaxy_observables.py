@@ -123,33 +123,73 @@ class GeometryAndVelocityHelperTests(unittest.TestCase):
         self.assertEqual(go.stellar_surface_density(1.0, 10.0, 0.0), 0.0)
         self.assertEqual(go.stellar_surface_density(1.0, 0.0, 2.0), 0.0)
         self.assertEqual(go.sfr_surface_density(1.0, 1.0, 0.0), 0.0)
-        self.assertEqual(go.sfr_surface_density(1.0, -1.0, 2.0), 0.0)
+        self.assertEqual(go.sfr_surface_density(1.0, 0.0, 2.0), 0.0)
 
-        for bad_r in (-0.1, float("nan"), float("inf")):
-            with self.subTest(bad_r=bad_r), self.assertRaises(ValueError):
-                go.stellar_surface_density(bad_r, 10.0, 2.0)
-            with self.subTest(bad_r=bad_r), self.assertRaises(ValueError):
-                go.sfr_surface_density(bad_r, 1.0, 2.0)
+        bad_vals = (-0.1, float("nan"), float("inf"), float("-inf"))
+        for bad in bad_vals:
+            with self.subTest(bad=bad):
+                with self.assertRaises(ValueError):
+                    go.stellar_surface_density(bad, 10.0, 2.0)
+                with self.assertRaises(ValueError):
+                    go.stellar_surface_density(1.0, bad, 2.0)
+                with self.assertRaises(ValueError):
+                    go.stellar_surface_density(1.0, 10.0, bad)
+                with self.assertRaises(ValueError):
+                    go.sfr_surface_density(bad, 1.0, 2.0)
+                with self.assertRaises(ValueError):
+                    go.sfr_surface_density(1.0, bad, 2.0)
+                with self.assertRaises(ValueError):
+                    go.sfr_surface_density(1.0, 1.0, bad)
 
-    def test_enclosed_disk_mass_branches_and_gas_modes(self) -> None:
+    def test_enclosed_disk_mass_branches_continuity_and_guards(self) -> None:
         self.assertEqual(go.stellar_disk_mass(0.0, 10.0, 2.0), 0.0)
         self.assertEqual(go.stellar_disk_mass(2.0, 10.0, 0.0), 0.0)
+        self.assertEqual(go.stellar_disk_mass(2.0, 0.0, 2.0), 0.0)
         self.assertEqual(go.gas_mass_exponential_1d(0.0, 5.0, 3.0), 0.0)
+        self.assertEqual(go.gas_mass_exponential_1d(2.0, 0.0, 3.0), 0.0)
+        self.assertEqual(go.gas_mass_exponential_1d(2.0, 5.0, 0.0), 0.0)
         self.assertEqual(go.gas_mass_freeman_2d(0.0, 5.0, 3.0), 0.0)
+        self.assertEqual(go.gas_mass_freeman_2d(2.0, 0.0, 3.0), 0.0)
+        self.assertEqual(go.gas_mass_freeman_2d(2.0, 5.0, 0.0), 0.0)
 
-        # Small-r quadratic branch x < 0.01
+        # Legacy small-r quadratic branch x < 0.01 in stellar_disk_mass
         self.assertAlmostEqual(
             go.stellar_disk_mass(0.01, 10.0, 2.0),
             10.0 * 0.5 * (0.005**2),
             places=15,
         )
+
+        # Smooth small-x Taylor branch (x < 1e-4) and continuity across x = 1e-4 and x = 0.01 in gas_mass_freeman_2d
+        m_gas, r_gas = 5.0, 2.0
+        x_small = 5e-5
         self.assertAlmostEqual(
-            go.gas_mass_freeman_2d(0.01, 5.0, 2.0),
-            5.0 * 0.5 * (0.005**2),
+            go.gas_mass_freeman_2d(x_small * r_gas, m_gas, r_gas),
+            m_gas * (0.5 * x_small**2 - x_small**3 / 3.0 + x_small**4 / 8.0),
             places=15,
         )
+        for boundary in (1e-4, 0.01):
+            g_left = go.gas_mass_freeman_2d(math.nextafter(boundary, 0.0) * r_gas, m_gas, r_gas)
+            g_at = go.gas_mass_freeman_2d(boundary * r_gas, m_gas, r_gas)
+            g_right = go.gas_mass_freeman_2d(math.nextafter(boundary, 1.0) * r_gas, m_gas, r_gas)
+            self.assertLess(abs(g_at - g_left), 1e-16)
+            self.assertLess(abs(g_right - g_at), 1e-16)
+            self.assertLess(abs(g_at - g_left) / g_at, 1e-11)
 
-        # Exact Freeman vs 1D gas mass relation for x >= 0.01:
+        # Verify gas_mass_freeman_2d matches Simpson integral of 2*pi*r*Sigma(r) at x = 0.005 (< 0.01)
+        r_upper = 0.01
+        n_steps = 2000
+        h = r_upper / n_steps
+        simpson_sum = 0.0
+        for i in range(n_steps + 1):
+            r_i = i * h
+            integrand = 2.0 * math.pi * r_i * go.stellar_surface_density(r_i, m_gas, r_gas)
+            coeff = 1.0 if (i == 0 or i == n_steps) else (4.0 if i % 2 == 1 else 2.0)
+            simpson_sum += coeff * integrand
+        simpson_integral = simpson_sum * h / 3.0
+        g_2d_small = go.gas_mass_freeman_2d(r_upper, m_gas, r_gas)
+        self.assertLess(abs(g_2d_small - simpson_integral) / simpson_integral, 1e-12)
+
+        # Exact Freeman vs 1D gas mass relation:
         # M_1d(r) - M_2d(r) = M_gas * x * exp(-x) > 0
         m_1d = go.gas_mass_exponential_1d(6.0, 5.0, 3.0)
         m_2d = go.gas_mass_freeman_2d(6.0, 5.0, 3.0)
@@ -159,12 +199,50 @@ class GeometryAndVelocityHelperTests(unittest.TestCase):
         # Large-r saturation
         self.assertAlmostEqual(go.stellar_disk_mass(100.0, 10.0, 1.0), 10.0, places=12)
 
-        with self.assertRaises(ValueError):
-            go.stellar_disk_mass(-1.0, 10.0, 2.0)
-        with self.assertRaises(ValueError):
-            go.gas_mass_exponential_1d(-1.0, 5.0, 2.0)
-        with self.assertRaises(ValueError):
-            go.gas_mass_freeman_2d(-1.0, 5.0, 2.0)
+        bad_vals = (-1.0, float("nan"), float("inf"), float("-inf"))
+        for bad in bad_vals:
+            with self.subTest(bad=bad):
+                with self.assertRaises(ValueError):
+                    go.stellar_disk_mass(bad, 10.0, 2.0)
+                with self.assertRaises(ValueError):
+                    go.stellar_disk_mass(1.0, bad, 2.0)
+                with self.assertRaises(ValueError):
+                    go.stellar_disk_mass(1.0, 10.0, bad)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_exponential_1d(bad, 5.0, 2.0)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_exponential_1d(1.0, bad, 2.0)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_exponential_1d(1.0, 5.0, bad)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_freeman_2d(bad, 5.0, 2.0)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_freeman_2d(1.0, bad, 2.0)
+                with self.assertRaises(ValueError):
+                    go.gas_mass_freeman_2d(1.0, 5.0, bad)
+
+    def test_extreme_finite_float_handling(self) -> None:
+        self.assertEqual(go.stellar_disk_mass(1e308, 10.0, 0.5), 10.0)
+        self.assertEqual(go.gas_mass_freeman_2d(1e308, 5.0, 0.5), 5.0)
+        self.assertEqual(go.gas_mass_exponential_1d(1e308, 5.0, 0.5), 5.0)
+
+        v_ext = go.newton_rotation_velocity(1e308, 10.0, 0.5, 5.0, 0.5, gas_mode="freeman_2d")
+        self.assertTrue(math.isfinite(v_ext))
+        self.assertGreaterEqual(v_ext, 0.0)
+
+        v_large = go.newton_rotation_velocity(1e10, 10.0, 0.5, 5.0, 0.5, gas_mode="freeman_2d")
+        self.assertTrue(math.isfinite(v_large))
+        self.assertGreater(v_large, 0.0)
+
+        s_huge = go.stellar_surface_density(1.0, 10.0, 1e155)
+        self.assertTrue(math.isfinite(s_huge))
+        self.assertGreaterEqual(s_huge, 0.0)
+        self.assertEqual(go.stellar_surface_density(1.0, 10.0, 1e200), 0.0)
+
+        sfr_huge = go.sfr_surface_density(1.0, 1.0, 1e155)
+        self.assertTrue(math.isfinite(sfr_huge))
+        self.assertGreaterEqual(sfr_huge, 0.0)
+        self.assertEqual(go.sfr_surface_density(1.0, 1.0, 1e200), 0.0)
 
     def test_newton_rotation_velocity_parity_and_guards(self) -> None:
         from det8.models import sparc_analysis
@@ -179,15 +257,43 @@ class GeometryAndVelocityHelperTests(unittest.TestCase):
                 )
                 self.assertAlmostEqual(v_new, v_old, delta=1e-12)
 
+                # Small-r (x < 0.01) parity check against sparc_analysis
+                r_small = 0.005 * g.r_d
+                v_small_new = go.newton_rotation_velocity(
+                    r_small, g.M_star, g.r_d, g.M_gas, g.r_gas, gas_mode="1d"
+                )
+                v_small_old = sparc_analysis.newton_rotation_velocity(
+                    r_small, g.M_star, g.r_d, g.M_gas, g.r_gas
+                )
+                self.assertAlmostEqual(v_small_new, v_small_old, delta=1e-12)
+
                 v_2d = go.newton_rotation_velocity(
                     g.r_max, g.M_star, g.r_d, g.M_gas, g.r_gas, gas_mode="freeman_2d"
                 )
                 self.assertGreater(v_2d, 0.0)
                 self.assertLessEqual(v_2d, v_new)
 
-        for bad_r in (0.0, -2.0, float("nan")):
+        # M_gas = 0.0 returns finite star-only velocity for both gas modes
+        v_no_gas_1d = go.newton_rotation_velocity(2.0, 10.0, 2.0, 0.0, 0.0, gas_mode="1d")
+        v_no_gas_2d = go.newton_rotation_velocity(2.0, 10.0, 2.0, 0.0, 0.0, gas_mode="freeman_2d")
+        self.assertGreater(v_no_gas_1d, 0.0)
+        self.assertEqual(v_no_gas_1d, v_no_gas_2d)
+        self.assertEqual(go.newton_rotation_velocity(2.0, 0.0, 2.0, 0.0, 0.0), 0.0)
+
+        for bad_r in (0.0, -2.0, float("nan"), float("inf"), float("-inf")):
             with self.subTest(bad_r=bad_r), self.assertRaises(ValueError):
                 go.newton_rotation_velocity(bad_r, 10.0, 2.0)
+
+        for bad in (-5.0, float("nan"), float("inf"), float("-inf")):
+            with self.subTest(bad_param=bad):
+                with self.assertRaises(ValueError):
+                    go.newton_rotation_velocity(1.0, bad, 2.0, 5.0, 3.0)
+                with self.assertRaises(ValueError):
+                    go.newton_rotation_velocity(1.0, 10.0, bad, 5.0, 3.0)
+                with self.assertRaises(ValueError):
+                    go.newton_rotation_velocity(1.0, 10.0, 2.0, bad, 3.0)
+                with self.assertRaises(ValueError):
+                    go.newton_rotation_velocity(1.0, 10.0, 2.0, 5.0, bad)
 
         with self.assertRaises(ValueError):
             go.newton_rotation_velocity(5.0, 10.0, 2.0, 1.0, 2.0, gas_mode="invalid")
@@ -198,6 +304,7 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
         report = go.load_sparc_subset_diagnostic()
 
         self.assertTrue(report["exists"])
+        self.assertTrue(report["parsed_ok"])
         self.assertEqual(report["byte_size"], 5055)
         self.assertEqual(report["line_count"], 62)
         self.assertFalse(report["raw_json_valid"])
@@ -242,6 +349,7 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
             valid_path.write_text(json.dumps(valid_payload), encoding="utf-8")
             valid_report = go.load_sparc_subset_diagnostic(valid_path)
             self.assertTrue(valid_report["exists"])
+            self.assertTrue(valid_report["parsed_ok"])
             self.assertTrue(valid_report["raw_json_valid"])
             self.assertIsNone(valid_report["raw_json_error"])
             self.assertEqual(valid_report["parse_mode"], "standard_json")
@@ -267,6 +375,7 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
             )
             malformed_report = go.load_sparc_subset_diagnostic(malformed_path)
             self.assertTrue(malformed_report["exists"])
+            self.assertFalse(malformed_report["parsed_ok"])
             self.assertFalse(malformed_report["raw_json_valid"])
             self.assertEqual(malformed_report["parse_mode"], "line_recovery")
             self.assertEqual(malformed_report["record_count"], 2)
@@ -275,10 +384,95 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
 
             missing_report = go.load_sparc_subset_diagnostic(tmp_root / "does_not_exist.json")
             self.assertFalse(missing_report["exists"])
+            self.assertFalse(missing_report["parsed_ok"])
             self.assertFalse(missing_report["raw_json_valid"])
             self.assertEqual(missing_report["parse_mode"], "missing_file")
             self.assertEqual(missing_report["record_count"], 0)
             self.assertEqual(len(missing_report["parse_errors"]), 1)
+
+    def test_diagnostic_edge_cases_dir_non_utf8_empty_comments_dict_and_bool_nan(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp_root = Path(tmpdir)
+
+            # Directory path must not raise IsADirectoryError
+            dir_report = go.load_sparc_subset_diagnostic(tmp_root)
+            self.assertTrue(dir_report["exists"])
+            self.assertFalse(dir_report["parsed_ok"])
+            self.assertEqual(dir_report["parse_mode"], "not_a_file")
+            self.assertEqual(dir_report["record_count"], 0)
+            self.assertEqual(dir_report["records"], [])
+            self.assertEqual(len(dir_report["parse_errors"]), 1)
+            self.assertIn("anomalies", dir_report)
+            self.assertIn("cross_comparison", dir_report)
+            self.assertIn("provenance", dir_report)
+
+            # Non-UTF-8 binary file must not raise UnicodeDecodeError
+            bad_bin = tmp_root / "bad.bin"
+            bad_bin.write_bytes(b"\xff\xfe\x00\x00invalid_utf8")
+            bin_report = go.load_sparc_subset_diagnostic(bad_bin)
+            self.assertTrue(bin_report["exists"])
+            self.assertFalse(bin_report["parsed_ok"])
+            self.assertEqual(bin_report["parse_mode"], "decode_error")
+            self.assertEqual(bin_report["record_count"], 0)
+            self.assertEqual(bin_report["records"], [])
+            self.assertEqual(len(bin_report["parse_errors"]), 1)
+
+            # Empty file and comments-only file
+            empty_path = tmp_root / "empty.json"
+            empty_path.write_text("", encoding="utf-8")
+            empty_report = go.load_sparc_subset_diagnostic(empty_path)
+            self.assertTrue(empty_report["exists"])
+            self.assertFalse(empty_report["parsed_ok"])
+            self.assertEqual(empty_report["parse_mode"], "empty")
+            self.assertEqual(empty_report["record_count"], 0)
+            self.assertEqual(len(empty_report["parse_errors"]), 1)
+
+            comments_path = tmp_root / "comments_only.json"
+            comments_path.write_text("# comment 1\n# comment 2\n", encoding="utf-8")
+            comments_report = go.load_sparc_subset_diagnostic(comments_path)
+            self.assertTrue(comments_report["exists"])
+            self.assertFalse(comments_report["parsed_ok"])
+            self.assertEqual(comments_report["parse_mode"], "empty")
+            self.assertEqual(comments_report["comment_lines"], [1, 2])
+            self.assertEqual(comments_report["record_count"], 0)
+            self.assertEqual(len(comments_report["parse_errors"]), 1)
+
+            # Single-dict JSON root recovers cleanly as 1 record
+            single_dict = tmp_root / "single_dict.json"
+            single_dict.write_text(
+                '{"name": "DDO 154", "M_star": 0.28, "r_d": 0.37, "M_gas": 0.25, "V_flat": 47.0}',
+                encoding="utf-8",
+            )
+            single_report = go.load_sparc_subset_diagnostic(single_dict)
+            self.assertTrue(single_report["exists"])
+            self.assertTrue(single_report["parsed_ok"])
+            self.assertFalse(single_report["raw_json_valid"])
+            self.assertTrue(single_report["missing_outer_brackets"])
+            self.assertEqual(single_report["parse_mode"], "comment_stripped_wrapped_array")
+            self.assertEqual(single_report["record_count"], 1)
+
+            # Bool, NaN, and Infinity values must not leak into numeric aggregations
+            bool_nan_path = tmp_root / "bool_nan_inf.json"
+            bool_nan_path.write_text(
+                json.dumps(
+                    [
+                        {"name": "DDO 154", "M_star": True, "M_gas": True, "V_flat": False},
+                        {"name": "NGC 2403", "M_star": float("nan"), "M_gas": float("nan"), "V_flat": float("nan")},
+                        {"name": "NGC 3198", "M_star": float("inf"), "M_gas": float("inf"), "V_flat": float("inf")},
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            bool_report = go.load_sparc_subset_diagnostic(bool_nan_path)
+            self.assertTrue(bool_report["parsed_ok"])
+            self.assertEqual(bool_report["record_count"], 3)
+            self.assertEqual(bool_report["anomalies"]["m_gas_equals_m_star_count"], 0)
+            self.assertEqual(bool_report["anomalies"]["zero_v_flat_count"], 0)
+            self.assertEqual(bool_report["anomalies"]["positive_v_flat_count"], 0)
+            for overlap in bool_report["cross_comparison"]["vs_sample_galaxies"]["overlaps"]:
+                self.assertIsNone(overlap["M_star_ratio"])
+            for overlap in bool_report["cross_comparison"]["vs_known_galaxies"]["overlaps"]:
+                self.assertIsNone(overlap["M_star_ratio"])
 
 
 if __name__ == "__main__":
