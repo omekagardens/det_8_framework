@@ -188,7 +188,13 @@ SAMPLE_GALAXIES: list[GalaxyParams] = [
 
 
 def _validate_non_negative_finite(name: str, value: float) -> None:
-    if isinstance(value, bool) or not math.isfinite(value) or value < 0.0:
+    if isinstance(value, bool):
+        raise ValueError(f"{name} must be finite and >= 0, got {value!r}")
+    try:
+        is_fin = math.isfinite(value)
+    except OverflowError as exc:
+        raise ValueError(f"{name} must be finite and >= 0, got {value!r}") from exc
+    if not is_fin or value < 0.0:
         raise ValueError(f"{name} must be finite and >= 0, got {value!r}")
 
 
@@ -243,7 +249,10 @@ def gas_mass_exponential_1d(r_kpc: float, M_gas: float, r_gas: float) -> float:
     _validate_non_negative_finite("r_gas", r_gas)
     if r_gas == 0.0 or M_gas == 0.0 or r_kpc == 0.0:
         return 0.0
-    return M_gas * (1.0 - math.exp(-r_kpc / r_gas))
+    x = r_kpc / r_gas
+    if x < 1e-4:
+        return -M_gas * math.expm1(-x)
+    return M_gas * (1.0 - math.exp(-x))
 
 
 def gas_mass_freeman_2d(r_kpc: float, M_gas: float, r_gas: float) -> float:
@@ -271,7 +280,13 @@ def newton_rotation_velocity(
     gas_mode: str = "1d",
 ) -> float:
     """Standard Newtonian circular velocity (km/s) from enclosed baryonic disk mass."""
-    if isinstance(r_kpc, bool) or not math.isfinite(r_kpc) or r_kpc <= 0.0:
+    if isinstance(r_kpc, bool):
+        raise ValueError(f"r_kpc must be finite and > 0, got {r_kpc!r}")
+    try:
+        r_fin = math.isfinite(r_kpc)
+    except OverflowError as exc:
+        raise ValueError(f"r_kpc must be finite and > 0, got {r_kpc!r}") from exc
+    if not r_fin or r_kpc <= 0.0:
         raise ValueError(f"r_kpc must be finite and > 0, got {r_kpc!r}")
     _validate_non_negative_finite("M_star", M_star)
     _validate_non_negative_finite("r_d", r_d)
@@ -304,7 +319,22 @@ def _normalize_galaxy_name(name: str) -> str:
 
 
 def _is_finite_number(val: object) -> bool:
-    return isinstance(val, (int, float)) and not isinstance(val, bool) and math.isfinite(val)
+    if isinstance(val, bool) or not isinstance(val, (int, float)):
+        return False
+    try:
+        return math.isfinite(val)
+    except OverflowError:
+        return False
+
+
+def _safe_positive_ratio(numerator: float, denominator: object) -> float | None:
+    if not _is_finite_number(denominator):
+        return None
+    denom = float(denominator)
+    if denom <= 0.0:
+        return None
+    ratio = numerator / denom
+    return ratio if math.isfinite(ratio) else None
 
 
 def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, object]:
@@ -321,11 +351,7 @@ def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, objec
         if rec is None:
             continue
         m_star_sub = rec.get("M_star")
-        ratio = (
-            (g.M_star / float(m_star_sub))
-            if _is_finite_number(m_star_sub) and float(m_star_sub) > 0.0
-            else None
-        )
+        ratio = _safe_positive_ratio(g.M_star, m_star_sub)
         sample_overlaps.append(
             {
                 "normalized_name": key,
@@ -350,11 +376,7 @@ def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, objec
         if rec is None:
             continue
         m_star_sub = rec.get("M_star")
-        ratio = (
-            (g.M_star / float(m_star_sub))
-            if _is_finite_number(m_star_sub) and float(m_star_sub) > 0.0
-            else None
-        )
+        ratio = _safe_positive_ratio(g.M_star, m_star_sub)
         known_overlaps.append(
             {
                 "normalized_name": key,
@@ -679,16 +701,7 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
 
                 try:
                     obj = json.loads(piece)
-                    if isinstance(obj, dict):
-                        records.append(obj)
-                    else:
-                        parse_errors.append(
-                            {
-                                "line": entry_line,
-                                "raw": stripped,
-                                "error": "Parsed JSON value is not an object.",
-                            }
-                        )
+                    records.append(obj)
                 except json.JSONDecodeError as line_exc:
                     parse_errors.append(
                         {
@@ -707,7 +720,11 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
                     }
                 )
 
-    parsed_ok = (len(parse_errors) == 0) and (raw_json_valid or len(records) > 0)
+    parsed_ok = (len(parse_errors) == 0) and (
+        raw_json_valid
+        or parse_mode == "comment_stripped_wrapped_array"
+        or len(records) > 0
+    )
 
     return {
         "path": str(target_path),
