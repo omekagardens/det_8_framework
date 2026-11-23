@@ -1,0 +1,663 @@
+"""Empirical galaxy observables, unit constants, and baseline disk geometry.
+
+This module provides neutral Level-2 empirical galaxy datasets (extracted
+without gravitational-theory assumptions) and Level-3 borrowed Freeman (1970)
+/ Newtonian baseline geometry helpers for DET8 evaluations.
+
+It makes zero DET gravitational claims, carries ``NEUTRAL_DATA_FIXTURE``
+status with zero ``DG-WARRANT`` impact, and imports no retired or quarantined
+gravity modules.
+"""
+
+from __future__ import annotations
+
+import json
+import math
+import re
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Final
+
+from det8.models.reference_constants import NEWTONIAN_G_SI
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Physical & Unit Conversion Constants (External Empirical / SI Anchors)
+# ═══════════════════════════════════════════════════════════════════════════
+
+G_SI: Final[float] = NEWTONIAN_G_SI       # 6.67430e-11 m^3 / (kg * s^2)
+C_SI: Final[float] = 2.99792458e8         # m / s (matches det_units.py / post_newtonian.py)
+M_SUN_KG: Final[float] = 1.989e30         # kg (solar mass)
+KPC_TO_M: Final[float] = 3.086e19         # m per kiloparsec
+KM_S_TO_M_S: Final[float] = 1000.0        # m/s per km/s
+
+DEFAULT_SPARC_SUBSET_PATH: Final[Path] = (
+    Path(__file__).resolve().parents[1] / "data" / "sparc_subset.json"
+)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Provenance & Observable-Anchoring Metadata
+# ═══════════════════════════════════════════════════════════════════════════
+
+OBSERVABLE_PROVENANCE: Final[dict[str, object]] = {
+    "epistemic_level": (
+        "Level-2 derived empirical quantity (datasets); "
+        "Level-3 borrowed conventional representation (Freeman 1970 / Newtonian baselines)"
+    ),
+    "origin_theory": (
+        "ΛCDM / observational astrophysics "
+        "(SPARC: Lelli, McGaugh & Schombert 2016, AJ, 152, 157)"
+    ),
+    "admissible_quantities": (
+        "v_flat",
+        "M_star",
+        "M_gas",
+        "r_d",
+        "r_gas",
+        "r_SFR",
+        "r_max",
+        "SFR",
+        "age",
+    ),
+    "quarantined_derived_quantities": (
+        "dark-matter halo profile (ΛCDM-dependent)",
+    ),
+    "guardrail_rule": (
+        "Use ONLY observed/empirical quantities under declared observational "
+        "reductions; do not claim Level-2 parameters as Level-1 raw records or "
+        "DET derivations, and do not import ΛCDM halo interpretations."
+    ),
+    "det_claim_status": "NEUTRAL_DATA_FIXTURE",
+    "dg_warrant_impact": "none — neutral data & geometry fixture; not a registered falsifiable probe",
+    "reference_constants_source": "det8.models.reference_constants.NEWTONIAN_G_SI",
+    "dataset_discrepancy_caveat": (
+        "KNOWN_GALAXIES (8) and det8/data/sparc_subset.json (56) agree within <=2% "
+        "in M_star on all 5 shared galaxies, whereas SAMPLE_GALAXIES (43) differs "
+        "in M_star by up to 39.1x vs sparc_subset.json (17 overlaps) and up to "
+        "11.5x vs KNOWN_GALAXIES (8 overlaps). All three fixtures are preserved "
+        "verbatim for parity and cross-audit without silent merging."
+    ),
+}
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Galaxy Observable Data Structures
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+@dataclass(frozen=True, slots=True)
+class GalaxyObservables:
+    """Observed galaxy properties including SFR and stellar-disk scales."""
+
+    name: str
+    M_star: float          # Total stellar mass (10^9 M_sun).
+    r_d: float             # Stellar disk scale length (kpc).
+    M_gas: float           # Total gas mass (10^9 M_sun).
+    r_gas: float           # Gas disk scale length (kpc).
+    SFR: float             # Total star formation rate (M_sun/yr).
+    r_SFR: float           # SFR scale length (kpc). Typically > r_d.
+    age: float = 10.0      # Galaxy age (Gyr).
+    V_flat: float = 0.0    # Observed flat velocity (km/s).
+
+
+@dataclass(frozen=True, slots=True)
+class GalaxyParams:
+    """Representative SPARC galaxy parameters (Lelli et al. 2016)."""
+
+    name: str
+    M_star: float     # Stellar mass (10^9 M_sun).
+    r_d: float        # Disk scale length (kpc).
+    M_gas: float      # HI gas mass (10^9 M_sun).
+    r_gas: float      # Gas scale length (kpc).
+    v_flat: float     # Observed flat rotation velocity (km/s).
+    r_max: float      # Maximum radius with data (kpc).
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Empirical Datasets (Verbatim Fixtures)
+# ═══════════════════════════════════════════════════════════════════════════
+
+KNOWN_GALAXIES: list[GalaxyObservables] = [
+    GalaxyObservables("NGC 2403", 3.2, 1.4, 2.5, 3.0, SFR=1.2, r_SFR=2.5, age=10.0, V_flat=131),
+    GalaxyObservables("NGC 3198", 10.9, 3.1, 5.0, 6.0, SFR=2.0, r_SFR=5.0, age=10.0, V_flat=150),
+    GalaxyObservables("NGC 2841", 9.8, 3.6, 8.5, 8.0, SFR=0.5, r_SFR=6.0, age=11.0, V_flat=285),
+    GalaxyObservables("NGC 7331", 11.1, 5.0, 9.0, 7.0, SFR=3.0, r_SFR=8.0, age=10.0, V_flat=239),
+    GalaxyObservables("NGC 5055", 11.7, 3.2, 8.0, 8.0, SFR=2.5, r_SFR=5.5, age=10.0, V_flat=179),
+    GalaxyObservables("DDO 154", 0.28, 0.37, 0.25, 1.0, SFR=0.005, r_SFR=1.0, age=12.0, V_flat=47),
+    GalaxyObservables("NGC 6503", 1.7, 2.2, 0.8, 2.5, SFR=0.4, r_SFR=3.5, age=10.0, V_flat=116),
+    GalaxyObservables("NGC 2903", 2.6, 2.3, 2.5, 3.0, SFR=1.5, r_SFR=4.0, age=10.0, V_flat=185),
+]
+
+
+SAMPLE_GALAXIES: list[GalaxyParams] = [
+    # Dwarf galaxies (M_star < 1e9 M_sun)
+    GalaxyParams("DDO 154", 0.05, 0.5, 0.25, 1.0, 48, 8),
+    GalaxyParams("DDO 170", 0.3, 1.1, 0.6, 2.0, 66, 15),
+    GalaxyParams("DDO 52", 0.5, 1.2, 0.8, 2.5, 70, 10),
+    GalaxyParams("DDO 161", 0.3, 0.8, 0.4, 1.5, 52, 10),
+    GalaxyParams("NGC 3741", 0.05, 0.3, 0.1, 0.6, 44, 8),
+    GalaxyParams("UGC 07577", 0.4, 1.0, 1.0, 2.5, 65, 12),
+    GalaxyParams("UGC 128", 1.0, 1.5, 3.0, 4.0, 132, 25),
+    GalaxyParams("IC 2574", 1.0, 2.0, 1.5, 5.0, 68, 12),
+    GalaxyParams("NGC 2366", 0.1, 1.5, 0.8, 3.0, 55, 10),
+    # Low-mass spirals (1-10e9 M_sun)
+    GalaxyParams("NGC 6503", 1.4, 1.2, 0.8, 2.5, 115, 22),
+    GalaxyParams("NGC 2403", 7.0, 1.8, 2.5, 3.0, 135, 20),
+    GalaxyParams("NGC 5585", 0.8, 1.3, 0.7, 3.0, 90, 12),
+    GalaxyParams("NGC 3198", 9.0, 3.0, 5.0, 6.0, 150, 30),
+    GalaxyParams("NGC 3109", 0.3, 1.2, 0.4, 2.0, 67, 12),
+    GalaxyParams("NGC 4214", 0.3, 0.9, 0.6, 2.0, 80, 8),
+    GalaxyParams("NGC 7793", 3.0, 1.5, 1.5, 3.0, 115, 15),
+    GalaxyParams("NGC 300", 1.5, 1.5, 1.0, 3.0, 90, 15),
+    GalaxyParams("NGC 247", 3.0, 3.0, 2.0, 5.0, 105, 20),
+    # Intermediate spirals (10-50e9 M_sun)
+    GalaxyParams("NGC 5055", 30.0, 3.5, 8.0, 8.0, 190, 40),
+    GalaxyParams("NGC 2841", 46.0, 4.0, 8.5, 8.0, 290, 50),
+    GalaxyParams("NGC 7331", 55.0, 3.5, 9.0, 7.0, 240, 35),
+    GalaxyParams("NGC 2903", 30.0, 2.5, 5.0, 6.0, 200, 30),
+    GalaxyParams("NGC 3521", 40.0, 3.0, 7.0, 6.0, 235, 35),
+    GalaxyParams("NGC 6946", 25.0, 3.0, 6.0, 8.0, 210, 25),
+    GalaxyParams("NGC 3621", 13.0, 2.5, 7.0, 5.0, 150, 20),
+    GalaxyParams("NGC 5033", 35.0, 5.0, 6.0, 9.0, 220, 40),
+    GalaxyParams("UGC 02953", 20.0, 3.5, 27.0, 8.0, 130, 30),
+    # Massive spirals (M_star > 50e9 M_sun)
+    GalaxyParams("NGC 3992", 50.0, 5.0, 3.0, 10.0, 270, 45),
+    GalaxyParams("NGC 5371", 60.0, 4.5, 10.0, 9.0, 270, 40),
+    GalaxyParams("NGC 5907", 80.0, 5.5, 12.0, 12.0, 240, 40),
+    GalaxyParams("NGC 4013", 70.0, 4.0, 5.0, 8.0, 190, 35),
+    GalaxyParams("NGC 0891", 70.0, 5.0, 10.0, 10.0, 230, 40),
+    GalaxyParams("NGC 7814", 90.0, 4.5, 3.0, 8.0, 230, 35),
+    GalaxyParams("NGC 2683", 55.0, 3.0, 3.0, 6.0, 195, 30),
+    GalaxyParams("NGC 3953", 60.0, 5.0, 4.0, 9.0, 220, 40),
+    # Gas-dominated galaxies
+    GalaxyParams("UGC 06917", 0.3, 1.0, 2.0, 3.0, 80, 15),
+    GalaxyParams("F563-V2", 0.2, 1.0, 0.5, 2.0, 55, 10),
+    GalaxyParams("F568-3", 0.8, 1.5, 2.0, 4.0, 105, 18),
+    GalaxyParams("F583-1", 1.5, 2.0, 3.0, 5.0, 87, 20),
+    GalaxyParams("UGC 05721", 2.0, 2.5, 8.0, 6.0, 135, 28),
+    GalaxyParams("NGC 0024", 3.0, 1.8, 2.5, 4.0, 110, 18),
+    GalaxyParams("NGC 4183", 4.0, 2.5, 3.0, 6.0, 115, 25),
+    GalaxyParams("NGC 4217", 5.0, 2.0, 1.5, 4.0, 180, 22),
+]
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Level-3 Geometry & Newtonian Baseline Helpers
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def _validate_non_negative_radius(r_kpc: float) -> None:
+    if not math.isfinite(r_kpc) or r_kpc < 0.0:
+        raise ValueError(f"r_kpc must be finite and >= 0, got {r_kpc!r}")
+
+
+def stellar_surface_density(r_kpc: float, M_star: float, r_d: float) -> float:
+    """Exponential disk surface mass density Σ(r) = M · exp(-r/r_d) / (2π r_d^2) [10^9 M_sun/kpc^2]."""
+    _validate_non_negative_radius(r_kpc)
+    if r_d <= 0.0 or M_star <= 0.0:
+        return 0.0
+    return M_star * math.exp(-r_kpc / r_d) / (2.0 * math.pi * r_d**2)
+
+
+def sfr_surface_density(r_kpc: float, SFR: float, r_SFR: float) -> float:
+    """Exponential SFR surface density Σ_SFR(r) = SFR · exp(-r/r_SFR) / (2π r_SFR^2) [M_sun/yr/kpc^2]."""
+    _validate_non_negative_radius(r_kpc)
+    if r_SFR <= 0.0 or SFR <= 0.0:
+        return 0.0
+    return SFR * math.exp(-r_kpc / r_SFR) / (2.0 * math.pi * r_SFR**2)
+
+
+def stellar_disk_mass(r_kpc: float, M_star: float, r_d: float) -> float:
+    """Freeman (1970) 2D exponential disk mass enclosed within r_kpc [10^9 M_sun]."""
+    _validate_non_negative_radius(r_kpc)
+    if r_d <= 0.0 or M_star <= 0.0 or r_kpc == 0.0:
+        return 0.0
+    x = r_kpc / r_d
+    if x < 0.01:
+        return M_star * (0.5 * x**2)
+    return M_star * (1.0 - (1.0 + x) * math.exp(-x))
+
+
+def gas_mass_exponential_1d(r_kpc: float, M_gas: float, r_gas: float) -> float:
+    """1D radial exponential gas mass M_gas · (1 - exp(-r/r_gas)) [10^9 M_sun]."""
+    _validate_non_negative_radius(r_kpc)
+    if r_gas <= 0.0 or M_gas <= 0.0 or r_kpc == 0.0:
+        return 0.0
+    return M_gas * (1.0 - math.exp(-r_kpc / r_gas))
+
+
+def gas_mass_freeman_2d(r_kpc: float, M_gas: float, r_gas: float) -> float:
+    """Consistent 2D Freeman disk integral M_gas · (1 - (1 + r/r_gas) * exp(-r/r_gas)) [10^9 M_sun]."""
+    _validate_non_negative_radius(r_kpc)
+    if r_gas <= 0.0 or M_gas <= 0.0 or r_kpc == 0.0:
+        return 0.0
+    x = r_kpc / r_gas
+    if x < 0.01:
+        return M_gas * (0.5 * x**2)
+    return M_gas * (1.0 - (1.0 + x) * math.exp(-x))
+
+
+def newton_rotation_velocity(
+    r_kpc: float,
+    M_star: float,
+    r_d: float,
+    M_gas: float = 0.0,
+    r_gas: float = 0.0,
+    *,
+    gas_mode: str = "1d",
+) -> float:
+    """Standard Newtonian circular velocity (km/s) from enclosed baryonic disk mass."""
+    if not math.isfinite(r_kpc) or r_kpc <= 0.0:
+        raise ValueError(f"r_kpc must be finite and > 0, got {r_kpc!r}")
+
+    if gas_mode == "1d":
+        m_gas = gas_mass_exponential_1d(r_kpc, M_gas, r_gas)
+    elif gas_mode == "freeman_2d":
+        m_gas = gas_mass_freeman_2d(r_kpc, M_gas, r_gas)
+    else:
+        raise ValueError(f"Invalid gas_mode {gas_mode!r}; expected '1d' or 'freeman_2d'")
+
+    m_bar = stellar_disk_mass(r_kpc, M_star, r_d) + m_gas
+    m_bar_kg = m_bar * 1e9 * M_SUN_KG
+    r_m = r_kpc * KPC_TO_M
+    v_sq = G_SI * m_bar_kg / r_m
+    return math.sqrt(max(0.0, v_sq)) / KM_S_TO_M_S
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Read-Only Diagnostic Loader for det8/data/sparc_subset.json
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+def _normalize_galaxy_name(name: str) -> str:
+    return re.sub(r"\s+", "", name).upper()
+
+
+def _build_cross_comparison(records: list[dict[str, object]]) -> dict[str, object]:
+    subset_by_norm: dict[str, dict[str, object]] = {}
+    for rec in records:
+        name = rec.get("name")
+        if isinstance(name, str) and name.strip():
+            subset_by_norm[_normalize_galaxy_name(name)] = rec
+
+    sample_overlaps: list[dict[str, object]] = []
+    for g in SAMPLE_GALAXIES:
+        key = _normalize_galaxy_name(g.name)
+        rec = subset_by_norm.get(key)
+        if rec is None:
+            continue
+        m_star_sub = rec.get("M_star")
+        ratio = (
+            (g.M_star / m_star_sub)
+            if isinstance(m_star_sub, (int, float)) and m_star_sub > 0
+            else None
+        )
+        sample_overlaps.append(
+            {
+                "normalized_name": key,
+                "name_subset": rec.get("name"),
+                "name_sample": g.name,
+                "M_star_subset": m_star_sub,
+                "M_star_sample": g.M_star,
+                "M_star_ratio": ratio,
+                "r_d_subset": rec.get("r_d"),
+                "r_d_sample": g.r_d,
+                "M_gas_subset": rec.get("M_gas"),
+                "M_gas_sample": g.M_gas,
+                "V_flat_subset": rec.get("V_flat"),
+                "v_flat_sample": g.v_flat,
+            }
+        )
+
+    known_overlaps: list[dict[str, object]] = []
+    for g in KNOWN_GALAXIES:
+        key = _normalize_galaxy_name(g.name)
+        rec = subset_by_norm.get(key)
+        if rec is None:
+            continue
+        m_star_sub = rec.get("M_star")
+        ratio = (
+            (g.M_star / m_star_sub)
+            if isinstance(m_star_sub, (int, float)) and m_star_sub > 0
+            else None
+        )
+        known_overlaps.append(
+            {
+                "normalized_name": key,
+                "name_subset": rec.get("name"),
+                "name_known": g.name,
+                "M_star_subset": m_star_sub,
+                "M_star_known": g.M_star,
+                "M_star_ratio": ratio,
+                "r_d_subset": rec.get("r_d"),
+                "r_d_known": g.r_d,
+                "M_gas_subset": rec.get("M_gas"),
+                "M_gas_known": g.M_gas,
+                "V_flat_subset": rec.get("V_flat"),
+                "V_flat_known": g.V_flat,
+            }
+        )
+
+    return {
+        "vs_sample_galaxies": {
+            "overlap_count": len(sample_overlaps),
+            "overlaps": sample_overlaps,
+        },
+        "vs_known_galaxies": {
+            "overlap_count": len(known_overlaps),
+            "overlaps": known_overlaps,
+        },
+    }
+
+
+def _build_anomalies(records: list[dict[str, object]]) -> dict[str, object]:
+    m_gas_eq_m_star_names: list[str] = []
+    zero_v_flat_names: list[str] = []
+    positive_v_flat_count = 0
+
+    expected_params_fields = ("name", "M_star", "r_d", "M_gas", "r_gas", "v_flat", "r_max")
+    expected_obs_fields = (
+        "name",
+        "M_star",
+        "r_d",
+        "M_gas",
+        "r_gas",
+        "SFR",
+        "r_SFR",
+        "age",
+        "V_flat",
+    )
+
+    missing_params_set: set[str] = set()
+    missing_obs_set: set[str] = set()
+    case_mismatched_set: set[str] = set()
+
+    for rec in records:
+        name = str(rec.get("name", "<unknown>"))
+        m_star = rec.get("M_star")
+        m_gas = rec.get("M_gas")
+        if (
+            isinstance(m_star, (int, float))
+            and isinstance(m_gas, (int, float))
+            and m_gas == m_star
+        ):
+            m_gas_eq_m_star_names.append(name)
+
+        v_flat = rec.get("V_flat", rec.get("v_flat"))
+        if isinstance(v_flat, (int, float)):
+            if v_flat == 0.0:
+                zero_v_flat_names.append(name)
+            elif v_flat > 0.0:
+                positive_v_flat_count += 1
+
+        for field_name in expected_params_fields:
+            if field_name == "v_flat":
+                if "v_flat" not in rec:
+                    if "V_flat" in rec:
+                        case_mismatched_set.add("V_flat (vs GalaxyParams.v_flat)")
+                    else:
+                        missing_params_set.add("v_flat")
+            elif field_name not in rec:
+                missing_params_set.add(field_name)
+
+        for field_name in expected_obs_fields:
+            if field_name == "V_flat":
+                if "V_flat" not in rec and "v_flat" not in rec:
+                    missing_obs_set.add("V_flat")
+            elif field_name not in rec:
+                missing_obs_set.add(field_name)
+
+    missing_params_fields = [f for f in expected_params_fields if f in missing_params_set]
+    missing_obs_fields = [f for f in expected_obs_fields if f in missing_obs_set]
+
+    if len(records) == 56:
+        count_note = "56 records on disk vs 135 claimed in commit 19ef3f1"
+    else:
+        count_note = f"{len(records)} records parsed (historically commit 19ef3f1 claimed 135)"
+
+    return {
+        "m_gas_equals_m_star_count": len(m_gas_eq_m_star_names),
+        "m_gas_equals_m_star_names": m_gas_eq_m_star_names,
+        "zero_v_flat_count": len(zero_v_flat_names),
+        "zero_v_flat_names": zero_v_flat_names,
+        "positive_v_flat_count": positive_v_flat_count,
+        "missing_galaxy_params_fields": missing_params_fields,
+        "missing_galaxy_observables_fields": missing_obs_fields,
+        "case_mismatched_fields": sorted(case_mismatched_set),
+        "count_discrepancy_note": count_note,
+    }
+
+
+def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
+    """Safely parse and audit ``det8/data/sparc_subset.json`` without modifying it.
+
+    Reports raw JSON validity, comment/syntax flaws, recovered records, data
+    anomalies (such as ``M_gas == M_star`` and ``V_flat == 0.0``), and
+    cross-dataset overlaps with ``SAMPLE_GALAXIES`` and ``KNOWN_GALAXIES``.
+    """
+    target_path = DEFAULT_SPARC_SUBSET_PATH if path is None else Path(path)
+
+    if not target_path.exists():
+        return {
+            "path": str(target_path),
+            "exists": False,
+            "byte_size": 0,
+            "line_count": 0,
+            "raw_json_valid": False,
+            "raw_json_error": f"File not found: {target_path}",
+            "parse_mode": "missing_file",
+            "comment_lines": [],
+            "comment_headers": [],
+            "missing_outer_brackets": False,
+            "syntax_flaws": [],
+            "parse_errors": [{"line": 0, "raw": "", "error": f"File not found: {target_path}"}],
+            "record_count": 0,
+            "records": [],
+            "anomalies": _build_anomalies([]),
+            "cross_comparison": _build_cross_comparison([]),
+            "provenance": dict(OBSERVABLE_PROVENANCE),
+        }
+
+    raw_bytes = target_path.read_bytes()
+    raw_text = raw_bytes.decode("utf-8")
+    lines = raw_text.splitlines()
+
+    raw_json_valid = False
+    raw_json_error: str | None = None
+    raw_parsed: object = None
+    try:
+        raw_parsed = json.loads(raw_text)
+        if isinstance(raw_parsed, list) and all(isinstance(item, dict) for item in raw_parsed):
+            raw_json_valid = True
+        else:
+            raw_json_error = "Top-level JSON value is not a list of objects."
+    except json.JSONDecodeError as exc:
+        raw_json_error = str(exc)
+
+    comment_lines: list[int] = []
+    comment_headers: list[str] = []
+    syntax_flaws: list[dict[str, object]] = []
+    non_comment_entries: list[tuple[int, str]] = []
+
+    for idx, line in enumerate(lines, start=1):
+        stripped = line.strip()
+        if stripped.startswith("#"):
+            comment_lines.append(idx)
+            comment_headers.append(line)
+            syntax_flaws.append(
+                {
+                    "line": idx,
+                    "kind": "comment_line",
+                    "detail": "Illegal JSON '#' comment line.",
+                }
+            )
+        elif stripped:
+            non_comment_entries.append((idx, stripped))
+
+    missing_outer_brackets = False
+    if non_comment_entries:
+        first_line_no, first_text = non_comment_entries[0]
+        last_line_no, last_text = non_comment_entries[-1]
+        if not first_text.startswith("[") or not last_text.endswith("]"):
+            missing_outer_brackets = True
+            syntax_flaws.append(
+                {
+                    "line": first_line_no,
+                    "kind": "missing_outer_brackets",
+                    "detail": (
+                        f"Missing outer JSON array '[' / ']' delimiters "
+                        f"(span lines {first_line_no}-{last_line_no})."
+                    ),
+                }
+            )
+
+    if not raw_json_valid:
+        for idx, stripped in non_comment_entries:
+            if stripped == "{":
+                syntax_flaws.append(
+                    {
+                        "line": idx,
+                        "kind": "split_opening_brace",
+                        "detail": "Lone opening '{' separated from object body on following line.",
+                    }
+                )
+            elif not stripped.startswith("{") and not stripped.startswith("[") and not stripped.startswith("]"):
+                syntax_flaws.append(
+                    {
+                        "line": idx,
+                        "kind": "missing_opening_brace",
+                        "detail": "Object body line lacks leading '{'.",
+                    }
+                )
+            if stripped.endswith(","):
+                syntax_flaws.append(
+                    {
+                        "line": idx,
+                        "kind": "trailing_comma",
+                        "detail": "Object line carries trailing comma outside a valid JSON array.",
+                    }
+                )
+
+    records: list[dict[str, object]] = []
+    parse_errors: list[dict[str, object]] = []
+    parse_mode: str
+
+    if raw_json_valid and isinstance(raw_parsed, list):
+        parse_mode = "standard_json"
+        records = list(raw_parsed)
+    else:
+        parse_mode = "comment_stripped_wrapped_array"
+        wrapped_body = [text for _, text in non_comment_entries]
+        if wrapped_body and wrapped_body[-1].endswith(","):
+            wrapped_body[-1] = wrapped_body[-1][:-1].rstrip()
+        if wrapped_body and not (wrapped_body[0].startswith("[") and wrapped_body[-1].endswith("]")):
+            candidate = "[\n" + "\n".join(wrapped_body) + "\n]"
+        else:
+            candidate = "\n".join(wrapped_body)
+
+        try:
+            wrapped_parsed = json.loads(candidate)
+            if isinstance(wrapped_parsed, list) and all(isinstance(item, dict) for item in wrapped_parsed):
+                records = list(wrapped_parsed)
+            else:
+                raise ValueError("Wrapped content did not produce a list of JSON objects.")
+        except (json.JSONDecodeError, ValueError):
+            parse_mode = "line_recovery"
+            buffered_brace_line: int | None = None
+            for idx, stripped in non_comment_entries:
+                if stripped in {"[", "]"}:
+                    continue
+                if stripped == "{":
+                    if buffered_brace_line is not None:
+                        parse_errors.append(
+                            {
+                                "line": buffered_brace_line,
+                                "raw": "{",
+                                "error": "Unmatched lone '{' before next '{'.",
+                            }
+                        )
+                    buffered_brace_line = idx
+                    continue
+
+                entry_line = buffered_brace_line if buffered_brace_line is not None else idx
+                piece = stripped[:-1].rstrip() if stripped.endswith(",") else stripped
+                if buffered_brace_line is not None:
+                    piece = "{\n" + piece
+                    buffered_brace_line = None
+                elif not piece.startswith("{"):
+                    piece = "{" + piece
+                if not piece.endswith("}"):
+                    piece = piece + "}"
+
+                try:
+                    obj = json.loads(piece)
+                    if isinstance(obj, dict):
+                        records.append(obj)
+                    else:
+                        parse_errors.append(
+                            {
+                                "line": entry_line,
+                                "raw": stripped,
+                                "error": "Parsed JSON value is not an object.",
+                            }
+                        )
+                except json.JSONDecodeError as line_exc:
+                    parse_errors.append(
+                        {
+                            "line": entry_line,
+                            "raw": stripped,
+                            "error": str(line_exc),
+                        }
+                    )
+
+            if buffered_brace_line is not None:
+                parse_errors.append(
+                    {
+                        "line": buffered_brace_line,
+                        "raw": "{",
+                        "error": "Dangling lone '{' at end of file.",
+                    }
+                )
+
+    return {
+        "path": str(target_path),
+        "exists": True,
+        "byte_size": len(raw_bytes),
+        "line_count": len(lines),
+        "raw_json_valid": raw_json_valid,
+        "raw_json_error": raw_json_error,
+        "parse_mode": parse_mode,
+        "comment_lines": comment_lines,
+        "comment_headers": comment_headers,
+        "missing_outer_brackets": missing_outer_brackets,
+        "syntax_flaws": syntax_flaws,
+        "parse_errors": parse_errors,
+        "record_count": len(records),
+        "records": records,
+        "anomalies": _build_anomalies(records),
+        "cross_comparison": _build_cross_comparison(records),
+        "provenance": dict(OBSERVABLE_PROVENANCE),
+    }
+
+
+__all__ = (
+    "C_SI",
+    "DEFAULT_SPARC_SUBSET_PATH",
+    "G_SI",
+    "GalaxyObservables",
+    "GalaxyParams",
+    "KNOWN_GALAXIES",
+    "KM_S_TO_M_S",
+    "KPC_TO_M",
+    "M_SUN_KG",
+    "OBSERVABLE_PROVENANCE",
+    "SAMPLE_GALAXIES",
+    "gas_mass_exponential_1d",
+    "gas_mass_freeman_2d",
+    "load_sparc_subset_diagnostic",
+    "newton_rotation_velocity",
+    "sfr_surface_density",
+    "stellar_disk_mass",
+    "stellar_surface_density",
+)
