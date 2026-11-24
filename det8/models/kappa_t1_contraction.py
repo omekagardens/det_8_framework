@@ -25,6 +25,7 @@ from typing import Final, Sequence
 from det8.models.experimental_constraints import PUBLISHED_EOTVOS
 from det8.models.galaxy_observables import (
     C_SI,
+    DEFAULT_SPARC_SUBSET_PATH,
     G_SI,
     HELDOUT_RADIAL_PROFILES,
     KM_S_TO_M_S,
@@ -35,6 +36,7 @@ from det8.models.galaxy_observables import (
     GalaxyObservables,
     GalaxyParams,
     GalaxyRadialProfile,
+    canonicalize_sparc_catalog_name,
     load_sparc_subset_diagnostic,
     mond_rotation_velocity,
     newton_rotation_velocity,
@@ -1230,10 +1232,50 @@ def evaluate_heldout_radial_profiles(
     a0_val = _validate_positive_finite("a0", a0)
 
     sample_names = {_normalize_name(g.name) for g in SAMPLE_GALAXIES}
+    sample_canonical_names = {canonicalize_sparc_catalog_name(g.name) for g in SAMPLE_GALAXIES}
     overlap_names = [
-        hp.name for hp in HELDOUT_RADIAL_PROFILES if _normalize_name(hp.name) in sample_names
+        hp.name
+        for hp in HELDOUT_RADIAL_PROFILES
+        if canonicalize_sparc_catalog_name(hp.name) in sample_canonical_names
     ]
     strictly_disjoint = len(overlap_names) == 0
+
+    diag = load_sparc_subset_diagnostic()
+    subset_records_by_name = {
+        str(r.get("name", "")): r for r in diag.get("records", [])
+    }
+    raw_lines: list[str] = []
+    if DEFAULT_SPARC_SUBSET_PATH.exists() and DEFAULT_SPARC_SUBSET_PATH.is_file():
+        raw_lines = DEFAULT_SPARC_SUBSET_PATH.read_text(encoding="utf-8").splitlines()
+
+    traceability_rows: list[dict[str, object]] = []
+    all_verbatim_matched = True
+    for hp in HELDOUT_RADIAL_PROFILES:
+        rec_match = subset_records_by_name.get(hp.name)
+        line_ok = (
+            1 <= hp.sparc_subset_line <= len(raw_lines)
+            and f'"{hp.name}"' in raw_lines[hp.sparc_subset_line - 1]
+        )
+        fields_ok = (
+            rec_match is not None
+            and float(rec_match["M_star"]) == hp.M_star
+            and float(rec_match["r_d"]) == hp.r_d
+            and float(rec_match["M_gas"]) == hp.M_gas
+            and float(rec_match["V_flat"]) == hp.v_flat
+            and all(abs(v_obs - hp.v_flat) == 0.0 for _, v_obs in hp.radial_points)
+        )
+        row_matched = bool(line_ok and fields_ok)
+        if not row_matched:
+            all_verbatim_matched = False
+        traceability_rows.append(
+            {
+                "name": hp.name,
+                "sparc_subset_line": hp.sparc_subset_line,
+                "line_verified": line_ok,
+                "fields_verbatim_matched": fields_ok,
+                "matched": row_matched,
+            }
+        )
 
     galaxy_results: list[dict[str, object]] = []
     rms_p1_all: list[float] = []
@@ -1360,8 +1402,11 @@ def evaluate_heldout_radial_profiles(
         galaxy_results.append(
             {
                 "name": hp.name,
+                "sparc_subset_line": hp.sparc_subset_line,
                 "M_star": hp.M_star,
                 "r_d": hp.r_d,
+                "M_gas": hp.M_gas,
+                "r_gas": hp.r_gas,
                 "v_flat": hp.v_flat,
                 "r_max": hp.r_max,
                 "r_bend_obs_kpc": r_bend_obs,
@@ -1387,62 +1432,120 @@ def evaluate_heldout_radial_profiles(
             }
         )
 
-    # Also evaluate the 28 held-out sparc_subset.json galaxies (disjoint from SAMPLE_GALAXIES)
-    diag = load_sparc_subset_diagnostic()
-    heldout_subset_records = [
+    def _evaluate_subset_records(
+        recs: Sequence[dict[str, object]],
+        *,
+        gas_factor: float = 1.0,
+        eval_gas_mode: str = mode,
+    ) -> dict[str, object]:
+        p1_rms_list: list[float] = []
+        m_rms_list: list[float] = []
+        n_rms_list: list[float] = []
+        p1_bend_list: list[float] = []
+        m_bend_list: list[float] = []
+        p1_spread_list: list[float] = []
+        m_spread_list: list[float] = []
+        p1_surge_cnt = 0
+        m_surge_cnt = 0
+        for rec in recs:
+            rd_s = float(rec["r_d"])
+            ms_s = float(rec["M_star"])
+            mg_s = float(rec["M_gas"]) * gas_factor
+            rg_s = (2.0 * rd_s) if mg_s > 0.0 else 0.0
+            vf_s = float(rec["V_flat"])
+            gp_s = GalaxyParams(
+                name=str(rec["name"]),
+                M_star=ms_s,
+                r_d=rd_s,
+                M_gas=mg_s,
+                r_gas=rg_s,
+                v_flat=vf_s,
+                r_max=8.0 * rd_s,
+            )
+            r_plat = [m * rd_s for m in (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)]
+            vp1_s = [
+                pathway1_rotation_velocity(
+                    r_p, gp_s, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=eval_gas_mode
+                )
+                for r_p in r_plat
+            ]
+            vm_s = [
+                mond_rotation_velocity(
+                    r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, a0=a0_val, gas_mode=eval_gas_mode
+                )
+                for r_p in r_plat
+            ]
+            vn_s = [
+                newton_rotation_velocity(
+                    r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, gas_mode=eval_gas_mode
+                )
+                for r_p in r_plat
+            ]
+            p1_rms_list.append(
+                math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vp1_s) / len(vp1_s))
+            )
+            m_rms_list.append(
+                math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vm_s) / len(vm_s))
+            )
+            n_rms_list.append(
+                math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vn_s) / len(vn_s))
+            )
+            p1_bend_list.append(abs(vp1_s[0] - vf_s) / vf_s)
+            m_bend_list.append(abs(vm_s[0] - vf_s) / vf_s)
+            p1_spread_list.append(max(vp1_s) / max(min(vp1_s), 1e-9))
+            m_spread_list.append(max(vm_s) / max(min(vm_s), 1e-9))
+            if vp1_s[-1] / max(vp1_s[0], 1e-9) > 1.25:
+                p1_surge_cnt += 1
+            if vm_s[-1] / max(vm_s[0], 1e-9) > 1.25:
+                m_surge_cnt += 1
+        cnt = len(recs)
+        return {
+            "n_galaxies": cnt,
+            "mean_plateau_rms_newton": (sum(n_rms_list) / cnt) if cnt else 0.0,
+            "mean_plateau_rms_pathway1": (sum(p1_rms_list) / cnt) if cnt else 0.0,
+            "mean_plateau_rms_mond": (sum(m_rms_list) / cnt) if cnt else 0.0,
+            "mean_bend_velocity_error_pathway1": (sum(p1_bend_list) / cnt) if cnt else 0.0,
+            "mean_bend_velocity_error_mond": (sum(m_bend_list) / cnt) if cnt else 0.0,
+            "mean_plateau_max_over_min_pathway1": (sum(p1_spread_list) / cnt) if cnt else 0.0,
+            "mean_plateau_max_over_min_mond": (sum(m_spread_list) / cnt) if cnt else 0.0,
+            "late_surge_count_pathway1": p1_surge_cnt,
+            "late_surge_count_mond": m_surge_cnt,
+        }
+
+    # Evaluate both the 26 canonically disjoint and 28 whitespace-disjoint sparc_subset.json rows
+    heldout_subset_26_records = [
+        r
+        for r in diag.get("records", [])
+        if canonicalize_sparc_catalog_name(str(r.get("name", ""))) not in sample_canonical_names
+        and float(r.get("V_flat", 0.0) or 0.0) > 0.0
+    ]
+    heldout_subset_28_records = [
         r
         for r in diag.get("records", [])
         if _normalize_name(str(r.get("name", ""))) not in sample_names
         and float(r.get("V_flat", 0.0) or 0.0) > 0.0
     ]
-    subset_p1_rms_list: list[float] = []
-    subset_mond_rms_list: list[float] = []
-    subset_newton_rms_list: list[float] = []
-    subset_p1_spread_list: list[float] = []
-    subset_mond_spread_list: list[float] = []
-    for rec in heldout_subset_records:
-        rd_s = float(rec["r_d"])
-        ms_s = float(rec["M_star"])
-        vf_s = float(rec["V_flat"])
-        gp_s = GalaxyParams(
-            name=str(rec["name"]),
-            M_star=ms_s,
-            r_d=rd_s,
-            M_gas=ms_s,
-            r_gas=2.0 * rd_s,
-            v_flat=vf_s,
-            r_max=6.0 * rd_s,
-        )
-        r_plat = [m * rd_s for m in (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)]
-        vp1_s = [
-            pathway1_rotation_velocity(
-                r_p, gp_s, sigma_crit=sigma_crit_val, beta=beta_val, gas_mode=mode
-            )
-            for r_p in r_plat
-        ]
-        vm_s = [
-            mond_rotation_velocity(
-                r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, a0=a0_val, gas_mode=mode
-            )
-            for r_p in r_plat
-        ]
-        vn_s = [
-            newton_rotation_velocity(
-                r_p, gp_s.M_star, gp_s.r_d, gp_s.M_gas, gp_s.r_gas, gas_mode=mode
-            )
-            for r_p in r_plat
-        ]
-        subset_p1_rms_list.append(
-            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vp1_s) / len(vp1_s))
-        )
-        subset_mond_rms_list.append(
-            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vm_s) / len(vm_s))
-        )
-        subset_newton_rms_list.append(
-            math.sqrt(sum(((v - vf_s) / vf_s) ** 2 for v in vn_s) / len(vn_s))
-        )
-        subset_p1_spread_list.append(max(vp1_s) / max(min(vp1_s), 1e-9))
-        subset_mond_spread_list.append(max(vm_s) / max(min(vm_s), 1e-9))
+    nine_traceable_records = [
+        {
+            "name": hp.name,
+            "M_star": hp.M_star,
+            "r_d": hp.r_d,
+            "M_gas": hp.M_gas,
+            "V_flat": hp.v_flat,
+        }
+        for hp in HELDOUT_RADIAL_PROFILES
+    ]
+    gas_convention_sensitivity = {
+        "recorded_m_gas_1d": _evaluate_subset_records(
+            nine_traceable_records, gas_factor=1.0, eval_gas_mode="1d"
+        ),
+        "recorded_m_gas_freeman_2d": _evaluate_subset_records(
+            nine_traceable_records, gas_factor=1.0, eval_gas_mode="freeman_2d"
+        ),
+        "stellar_only_m_gas_zero_1d": _evaluate_subset_records(
+            nine_traceable_records, gas_factor=0.0, eval_gas_mode="1d"
+        ),
+    }
 
     n_prof = len(HELDOUT_RADIAL_PROFILES)
     mean_rms_p1 = sum(rms_p1_all) / n_prof
@@ -1464,12 +1567,13 @@ def evaluate_heldout_radial_profiles(
     late_surge_frac_mond = late_surge_mond_count / n_prof
 
     # Promotion requires:
-    # 1. Strictly disjoint held-out set,
+    # 1. Strictly disjoint held-out set and verbatim traceability to sparc_subset.json,
     # 2. Whole-curve mean RMS <= 0.20,
-    # 3. Bend-point (r ~ 2 r_d) velocity mean error <= 0.20,
+    # 3. Bend-point (r ~ 2.2 r_d) velocity mean error <= 0.20,
     # 4. Late S-curve surge fraction <= 0.25 (predicts where the curve bends rather than surging late).
     passed = bool(
         strictly_disjoint
+        and all_verbatim_matched
         and (mean_rms_p1 <= 0.20)
         and (mean_bend_vel_err_p1 <= 0.20)
         and (late_surge_frac_p1 <= 0.25)
@@ -1479,6 +1583,12 @@ def evaluate_heldout_radial_profiles(
         "passed": passed,
         "strictly_disjoint_from_sample_galaxies": strictly_disjoint,
         "overlap_with_sample_galaxies": overlap_names,
+        "traceability_audit": {
+            "source_file": "det8/data/sparc_subset.json",
+            "source_commit": "19ef3f1",
+            "all_9_verbatim_matched": all_verbatim_matched,
+            "rows": traceability_rows,
+        },
         "frozen_parameters": {
             "sigma_crit": sigma_crit_val,
             "beta": beta_val,
@@ -1503,42 +1613,24 @@ def evaluate_heldout_radial_profiles(
             "late_surge_fraction_pathway1": late_surge_frac_p1,
             "late_surge_fraction_mond": late_surge_frac_mond,
         },
-        "heldout_sparc_subset_28_summary": {
-            "n_galaxies": len(heldout_subset_records),
-            "mean_plateau_rms_newton": (
-                sum(subset_newton_rms_list) / len(subset_newton_rms_list)
-                if subset_newton_rms_list
-                else 0.0
-            ),
-            "mean_plateau_rms_pathway1": (
-                sum(subset_p1_rms_list) / len(subset_p1_rms_list)
-                if subset_p1_rms_list
-                else 0.0
-            ),
-            "mean_plateau_rms_mond": (
-                sum(subset_mond_rms_list) / len(subset_mond_rms_list)
-                if subset_mond_rms_list
-                else 0.0
-            ),
-            "mean_plateau_max_over_min_pathway1": (
-                sum(subset_p1_spread_list) / len(subset_p1_spread_list)
-                if subset_p1_spread_list
-                else 0.0
-            ),
-            "mean_plateau_max_over_min_mond": (
-                sum(subset_mond_spread_list) / len(subset_mond_spread_list)
-                if subset_mond_spread_list
-                else 0.0
-            ),
-        },
+        "gas_convention_sensitivity": gas_convention_sensitivity,
+        "heldout_sparc_subset_26_summary": _evaluate_subset_records(
+            heldout_subset_26_records, gas_factor=1.0, eval_gas_mode=mode
+        ),
+        "heldout_sparc_subset_28_summary": _evaluate_subset_records(
+            heldout_subset_28_records, gas_factor=1.0, eval_gas_mode=mode
+        ),
         "galaxies": galaxy_results,
         "bend_diagnosis": (
-            "With frozen (Sigma_crit=0.008, beta=0.93), kappa(r) = exp(-Sigma_b(r)/Sigma_crit) "
-            "acts on an exponential disk as a Gompertz double-exponential exp(-(Sigma_0/Sigma_crit)*exp(-r/r_d)). "
-            "At the observed bend radius r ~ 2 r_d, spirals with Sigma_0 >> Sigma_crit remain in the "
-            "screened regime (kappa(2 r_d) << 1, v_P1(2 r_d) ≈ v_Newton), underpredicting the bend velocity "
-            f"by {mean_bend_vel_err_p1:.1%} (vs MOND {mean_bend_vel_err_mond:.1%}) and surging upward late "
-            f"between 4 r_d and r_max in {late_surge_p1_count}/{n_prof} held-out profiles (vs {late_surge_mond_count}/{n_prof} for MOND)."
+            "On the 9 verbatim traceable SPARC rows from det8/data/sparc_subset.json with frozen "
+            "(Sigma_crit=0.008, beta=0.93), kappa(r) = exp(-Sigma_b(r)/Sigma_crit) acts on an "
+            "exponential disk as a Gompertz double-exponential exp(-(Sigma_0/Sigma_crit)*exp(-r/r_d)). "
+            "At the Freeman turnover / flat-onset radius r = 2.2 r_d, 8 of 9 galaxies remain in the "
+            "screened regime (v_P1(2.2 r_d) ≈ v_Newton), underpredicting V_flat at the bend knee "
+            f"by {mean_bend_vel_err_p1:.1%} (vs MOND {mean_bend_vel_err_mond:.1%}), yielding whole-plateau "
+            f"RMS {mean_rms_p1:.1%} (vs MOND {mean_rms_mond:.1%}, Newtonian {mean_rms_newton:.1%}), "
+            f"and surging upward late between 2.2 r_d and 8.0 r_d in {late_surge_p1_count}/{n_prof} "
+            f"traceable SPARC rows (vs {late_surge_mond_count}/{n_prof} for MOND)."
         ),
     }
 

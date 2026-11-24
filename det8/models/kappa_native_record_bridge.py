@@ -217,6 +217,301 @@ def _two_chain_15_branch_law(root_mark: int) -> tuple[Fraction, ...]:
     return dist
 
 
+def evaluate_successive_birth_unconditional_readouts() -> dict[str, object]:
+    """Compare the same readout across successive births keeping both quenched and surviving branches.
+
+    Tracks the complete unconditional (branch-averaged) marginal distributions
+    at each birth ``n`` without conditioning on or post-selecting surviving
+    branches, so ``surviving_branch_mass + quenched_branch_mass == 1`` at every
+    birth ``n``:
+
+    1. ``antichain_Z_n_across_births_1_to_4``:
+       Same antichain readout ``Z_n = chi(P_n) in {0, 1}`` across births
+       ``n = 1, 2, 3, 4`` from empty parent ``n_0 = 0`` comparing active
+       residual ``delta_0`` (``s = +1``) vs. ``delta_1`` (``s = -1``).
+       - Passive surviving branch weight: ``p_surv(n) = a_0 / a_n = (1, 2/3, 1/6, 1/264)``.
+       - Passive quenched branch weight: ``p_quench(n) = 1 - a_0 / a_n = (0, 1/3, 5/6, 263/264)``.
+       - Unconditional branch-averaged contrast:
+         ``Delta P(Z_n = 1) = (1 / 4224) * p_quench(n) = (0, 1/12672, 5/25344, 263/1115136)``.
+       - Survives averaging across all branches because each quenched branch
+         freezes at ``H = 0`` with probability deficit ``-(s / 8448) * w_h``.
+
+    2. ``total_chain_D_n_residual_across_births_1_to_4``:
+       Same total-chain readout ``D_n = 1(P_n is a total n-chain)`` across
+       births ``n = 1, 2, 3, 4`` from singleton ``P_1 = {a}`` (``r_a = 0``),
+       comparing active residual ``delta_0`` (``s = +1``) vs. ``delta_1`` (``s = -1``).
+       - Even though active residual coupling is 100% quenched on the 2-chain
+         branch after birth 2 (``chi(P_2) = 0 => d = 0``), the birth-2 branch-weight
+         contrast ``Delta P(D_2 = 1) = -1/6336`` is locked into the chain subtree
+         weight and survives unconditional averaging at births 3 and 4, decaying
+         by the passive chain-survival factors ``19/30`` and ``41/44``:
+         ``Delta P(D_n = 1) = (0, -1/6336, -19/190080, -779/8363520)``.
+
+    3. ``total_chain_D_n_mark_across_births_2_to_4``:
+       Same total-chain readout ``D_n`` across births ``n = 2, 3, 4`` from the
+       matched two-chain ``a < b`` comparing committed root mark ``i = 1`` vs.
+       ``i = 0`` (``P_1 - P_0``), keeping all quenched non-chain branches
+       (``S_3 in {empty, {a}}`` at birth 3 and ``S_4 != {a,b,x}`` at birth 4)
+       and the surviving chain branch:
+       ``Delta P(D_n = 1) = (0, -1/6, -41/264)``.
+       Even though the conditional birth-4 transition kernel on the 3-chain has
+       zero mark sensitivity (``kappa_FR(n=3 | 3-chain) = 0``), the birth-3
+       history contrast survives unconditional averaging at birth 4 at ``41/44``
+       of its birth-3 value.
+
+    4. ``counter_two_Y_n_mark_across_births_2_to_4``:
+       Same counter readout ``Y_n = 1(exists v in P_n : counter_n(v) == 2)``
+       across births ``n = 2, 3, 4`` from the matched two-chain ``a < b``
+       comparing root mark ``i = 1`` vs. ``i = 0`` (``P_1 - P_0``), keeping all
+       branches:
+       - At ``n = 2``: counters are ``(1, 0) => P_i(Y_2 = 1) = 0 => Delta P(Y_2 = 1) = 0``.
+       - At ``n = 3``: both the fork branch ``S_3 = {a}`` (weight ``f_i``,
+         counters ``(2,0,0)``) and the 3-chain branch ``S_3 = {a,b}`` (weight
+         ``h_i``, counters ``(2,1,0)``) have ``Y_3 = 1``, while ``S_3 = empty``
+         (weight ``c = 1/5``, counters ``(1,0,0)``) has ``Y_3 = 0``. Summing
+         over all branches gives ``P_i(Y_3 = 1) = f_i + h_i = 1 - c = 4/5`` for
+         BOTH ``i = 0`` and ``i = 1``, so ``Delta P(Y_3 = 1) = 0`` (exact
+         branch-averaging cancellation at birth 3).
+       - At ``n = 4``: on the fork branch ``S_3 = {a}``, ``43/44`` of sub-branches
+         increment root ``a``'s counter from ``2 -> 3``, quenching ``Y`` from
+         ``1 -> 0`` (only ``S_4 = empty`` with weight ``f_i * e`` survives with
+         ``Y_4 = 1``), whereas on the 3-chain branch ``S_3 = {a,b}``, ``43/44``
+         of sub-branches preserve ``Y_4 = 1`` (because vertex ``b``'s counter
+         increments ``1 -> 2`` when ``a``'s increments ``2 -> 3``). This
+         asymmetric fork-quenching vs. chain-relay un-cancels the birth-3
+         branch polarization across all 15 branches:
+         ``Delta P(Y_4 = 1) = (f_1 - f_0)*e + (h_1 - h_0)*(1 - e) = -7/44``.
+    """
+    a = A_HARMONIC
+    theta = THETA_ACTIVE
+    c = C_SEED
+    e = E_SEED
+    f0, f1 = F_SEED_0, F_SEED_1
+    h0, h1 = H_SEED_0, H_SEED_1
+
+    # 1. Antichain readout Z_n = chi(P_n) across births n = 1, 2, 3, 4 (s = +1 vs s = -1)
+    z_steps: list[dict[str, object]] = []
+    for n in (1, 2, 3, 4):
+        p_surv_passive = a[0] / a[n]
+        p_quench_passive = Fraction(1, 1) - p_surv_passive
+        p_z1_pos = p_surv_passive * (Fraction(1, 1) + theta * (a[n] - a[0]))
+        p_z0_pos = p_quench_passive * (Fraction(1, 1) - theta * a[0])
+        p_z1_neg = p_surv_passive * (Fraction(1, 1) - theta * (a[n] - a[0]))
+        p_z0_neg = p_quench_passive * (Fraction(1, 1) + theta * a[0])
+        if p_z1_pos + p_z0_pos != Fraction(1, 1) or p_z1_neg + p_z0_neg != Fraction(1, 1):
+            raise RuntimeError(f"Unconditional Z_{n} branch probabilities failed normalization")
+        delta_z = p_z1_pos - p_z1_neg
+        k_fr_z = fisher_rao_distance_exact((p_z1_pos, p_z0_pos), (p_z1_neg, p_z0_neg))
+        z_steps.append(
+            {
+                "birth_n": n,
+                "passive_surviving_branch_mass_exact": str(p_surv_passive),
+                "passive_quenched_branch_mass_exact": str(p_quench_passive),
+                "p_surviving_s_pos_exact": str(p_z1_pos),
+                "p_quenched_s_pos_exact": str(p_z0_pos),
+                "p_surviving_s_neg_exact": str(p_z1_neg),
+                "p_quenched_s_neg_exact": str(p_z0_neg),
+                "total_branch_mass_s_pos": float(p_z1_pos + p_z0_pos),
+                "total_branch_mass_s_neg": float(p_z1_neg + p_z0_neg),
+                "unconditional_contrast_exact": str(delta_z),
+                "unconditional_contrast": float(delta_z),
+                "unconditional_kappa_fr": k_fr_z,
+            }
+        )
+
+    # 2. Total-chain readout D_n across births n = 1, 2, 3, 4 under active residual (s = +1 vs s = -1, i = 0)
+    d_res_passive_chain: dict[int, Fraction] = {
+        1: Fraction(1, 1),
+        2: Fraction(1, 3),
+        3: Fraction(1, 3) * h0,
+        4: Fraction(1, 3) * h0 * Fraction(41, 44),
+    }
+    d_residual_steps: list[dict[str, object]] = []
+    for n in (1, 2, 3, 4):
+        w_chain = d_res_passive_chain[n]
+        w_quench = Fraction(1, 1) - w_chain
+        if n == 1:
+            p_d1_pos = Fraction(1, 1)
+            p_d1_neg = Fraction(1, 1)
+        else:
+            p_d1_pos = w_chain * (Fraction(1, 1) - Fraction(2, 1) * theta * a[1])
+            p_d1_neg = w_chain * (Fraction(1, 1) + Fraction(2, 1) * theta * a[1])
+        p_d0_pos = Fraction(1, 1) - p_d1_pos
+        p_d0_neg = Fraction(1, 1) - p_d1_neg
+        delta_d = p_d1_pos - p_d1_neg
+        k_fr_d = fisher_rao_distance_exact((p_d1_pos, p_d0_pos), (p_d1_neg, p_d0_neg))
+        d_residual_steps.append(
+            {
+                "birth_n": n,
+                "passive_surviving_chain_mass_exact": str(w_chain),
+                "passive_quenched_nonchain_mass_exact": str(w_quench),
+                "p_surviving_s_pos_exact": str(p_d1_pos),
+                "p_quenched_s_pos_exact": str(p_d0_pos),
+                "p_surviving_s_neg_exact": str(p_d1_neg),
+                "p_quenched_s_neg_exact": str(p_d0_neg),
+                "unconditional_contrast_exact": str(delta_d),
+                "unconditional_contrast": float(delta_d),
+                "unconditional_kappa_fr": k_fr_d,
+            }
+        )
+
+    # 3. Total-chain readout D_n across births n = 2, 3, 4 from 2-chain a < b (root mark i = 1 vs i = 0)
+    d_mark_rows = (
+        (2, Fraction(1, 1), Fraction(1, 1)),
+        (3, h0, h1),
+        (4, h0 * Fraction(41, 44), h1 * Fraction(41, 44)),
+    )
+    d_mark_steps: list[dict[str, object]] = []
+    for n, p0_d1, p1_d1 in d_mark_rows:
+        p0_d0 = Fraction(1, 1) - p0_d1
+        p1_d0 = Fraction(1, 1) - p1_d1
+        delta_d_mark = p1_d1 - p0_d1
+        k_fr_dm = fisher_rao_distance_exact((p0_d1, p0_d0), (p1_d1, p1_d0))
+        d_mark_steps.append(
+            {
+                "birth_n": n,
+                "p_surviving_mark0_exact": str(p0_d1),
+                "p_quenched_mark0_exact": str(p0_d0),
+                "p_surviving_mark1_exact": str(p1_d1),
+                "p_quenched_mark1_exact": str(p1_d0),
+                "unconditional_contrast_P1_minus_P0_exact": str(delta_d_mark),
+                "unconditional_contrast_P1_minus_P0": float(delta_d_mark),
+                "unconditional_kappa_fr": k_fr_dm,
+            }
+        )
+
+    # 4. Counter=2 readout Y_n across births n = 2, 3, 4 from 2-chain a < b (root mark i = 1 vs i = 0)
+    y_mark_rows = (
+        # (n, p0_y1, p1_y1, fork_surv0, fork_quench0, chain_surv0, chain_quench0, edge_react0)
+        (
+            2,
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+        ),
+        (
+            3,
+            f0 + h0,
+            f1 + h1,
+            f0,
+            Fraction(0, 1),
+            h0,
+            Fraction(0, 1),
+            Fraction(0, 1),
+        ),
+        (
+            4,
+            c * (Fraction(1, 1) - 2 * e) + f0 * e + h0 * (Fraction(1, 1) - e),
+            c * (Fraction(1, 1) - 2 * e) + f1 * e + h1 * (Fraction(1, 1) - e),
+            f0 * e,
+            f0 * (Fraction(1, 1) - e),
+            h0 * (Fraction(1, 1) - e),
+            h0 * e,
+            c * (Fraction(1, 1) - 2 * e),
+        ),
+    )
+    y_mark_steps: list[dict[str, object]] = []
+    for (
+        n,
+        p0_y1,
+        p1_y1,
+        fork_surv0,
+        fork_quench0,
+        chain_surv0,
+        chain_quench0,
+        edge_react0,
+    ) in y_mark_rows:
+        p0_y0 = Fraction(1, 1) - p0_y1
+        p1_y0 = Fraction(1, 1) - p1_y1
+        delta_y_mark = p1_y1 - p0_y1
+        k_fr_ym = fisher_rao_distance_exact((p0_y1, p0_y0), (p1_y1, p1_y0))
+        y_mark_steps.append(
+            {
+                "birth_n": n,
+                "p_active_Y1_mark0_exact": str(p0_y1),
+                "p_inactive_Y0_mark0_exact": str(p0_y0),
+                "p_active_Y1_mark1_exact": str(p1_y1),
+                "p_inactive_Y0_mark1_exact": str(p1_y0),
+                "mark0_fork_surviving_Y1_exact": str(fork_surv0),
+                "mark0_fork_quenched_to_Y0_exact": str(fork_quench0),
+                "mark0_chain_surviving_Y1_exact": str(chain_surv0),
+                "mark0_chain_quenched_to_Y0_exact": str(chain_quench0),
+                "mark0_edge_reactivated_to_Y1_exact": str(edge_react0),
+                "unconditional_contrast_P1_minus_P0_exact": str(delta_y_mark),
+                "unconditional_contrast_P1_minus_P0": float(delta_y_mark),
+                "unconditional_kappa_fr": k_fr_ym,
+            }
+        )
+
+    return {
+        "all_branches_retained_at_every_birth": True,
+        "history_effect_survives_unconditional_averaging": True,
+        "antichain_Z_n_across_births_1_to_4": {
+            "readout_definition": "Z_n = chi(P_n) = 1 iff P_n has no causal links at birth n",
+            "contrasts_by_birth_exact": [s["unconditional_contrast_exact"] for s in z_steps],
+            "survives_at_n4": z_steps[-1]["unconditional_contrast_exact"] == "263/1115136",
+            "steps": z_steps,
+        },
+        "total_chain_D_n_residual_across_births_1_to_4": {
+            "readout_definition": "D_n = 1 iff P_n is a total chain of height n (s=+1 vs s=-1, i=0)",
+            "contrasts_by_birth_exact": [
+                s["unconditional_contrast_exact"] for s in d_residual_steps
+            ],
+            "step_survival_ratios_exact": ["19/30", "41/44"],
+            "survives_after_local_coupling_quenched": (
+                d_residual_steps[-1]["unconditional_contrast_exact"] == "-779/8363520"
+            ),
+            "steps": d_residual_steps,
+        },
+        "total_chain_D_n_mark_across_births_2_to_4": {
+            "readout_definition": "D_n = 1 iff P_n is a total chain of height n (root mark i=1 minus i=0)",
+            "contrasts_by_birth_exact": [
+                s["unconditional_contrast_P1_minus_P0_exact"] for s in d_mark_steps
+            ],
+            "n4_over_n3_retention_ratio_exact": "41/44",
+            "survives_at_n4": (
+                d_mark_steps[-1]["unconditional_contrast_P1_minus_P0_exact"] == "-41/264"
+            ),
+            "steps": d_mark_steps,
+        },
+        "counter_two_Y_n_mark_across_births_2_to_4": {
+            "readout_definition": "Y_n = 1 iff exists v in P_n with descendant counter_n(v) == 2 (i=1 minus i=0)",
+            "contrasts_by_birth_exact": [
+                s["unconditional_contrast_P1_minus_P0_exact"] for s in y_mark_steps
+            ],
+            "cancels_at_birth_3_under_branch_averaging": (
+                y_mark_steps[1]["unconditional_contrast_P1_minus_P0_exact"] == "0"
+            ),
+            "re_emerges_at_birth_4_via_asymmetric_fork_quenching": (
+                y_mark_steps[2]["unconditional_contrast_P1_minus_P0_exact"] == "-7/44"
+            ),
+            "steps": y_mark_steps,
+        },
+        "averaging_diagnosis": (
+            "Keeping the probability weights of both quenched and surviving branches across "
+            "successive births shows that the history effect DOES survive unconditional branch "
+            "averaging, via three distinct mechanisms: "
+            "(1) For Z_n = chi(P_n) under active residual s, quenched branches freeze at H=0 with "
+            "a negative polarization deficit -(s/8448)*w_h, so the unconditional contrast grows "
+            "as (1/4224)*p_quench(n) = (0, 1/12672, 5/25344, 263/1115136). "
+            "(2) For D_n (total chain), even after the local transition kernel quenches sensitivity "
+            "to zero (at n>=2 for residual s, or at n=4 for root mark i on the 3-chain), the earlier "
+            "branch-weight difference is locked into the surviving chain subtree and persists "
+            "unconditionally, attenuated only by passive chain-continuation factors (19/30 and 41/44, "
+            "giving Delta D_3 = -1/6 -> Delta D_4 = -41/264). "
+            "(3) For Y_n (counter == 2), unconditional averaging across the fork (f_i) and 3-chain "
+            "(h_i) branches EXACTLY CANCELS the mark effect at birth 3 (f_0+h_0 = f_1+h_1 = 4/5 => "
+            "Delta Y_3 = 0), but birth 4 quenches 43/44 of the fork branch (c_a: 2 -> 3) while "
+            "preserving 43/44 of the 3-chain branch (via c_b: 1 -> 2), un-canceling the contrast "
+            "to Delta Y_4 = -7/44 across all 15 branches."
+        ),
+    }
+
+
 def evaluate_four_birth_native_kappa() -> dict[str, object]:
     """Derive and test native kappa behavior directly on main's 4-birth active-residual model."""
     # 1. Pure residual updates K = M(0) at fixed singleton prefix C_0 (r_a = 0):
@@ -423,6 +718,7 @@ def evaluate_four_birth_native_kappa() -> dict[str, object]:
             "n3_fork_structural_kappa_fr": k_n3_fork,
             "n3_fork_readout_D_kappa_fr": 0.0,
         },
+        "successive_birth_unconditional_readouts": evaluate_successive_birth_unconditional_readouts(),
         "native_conclusion": (
             "1. Under repeated pure residual updates K = M(0) at a fixed committed prefix, "
             "kappa shrinks geometrically by t = 1/2 per step (while inactive controls give kappa = 0). "
@@ -741,6 +1037,7 @@ __all__ = (
     "evaluate_four_birth_native_kappa",
     "evaluate_qr05cr_two_region_flux_audit",
     "evaluate_qr05do_interaction_scale_quotient",
+    "evaluate_successive_birth_unconditional_readouts",
     "fisher_rao_distance_exact",
     "run_native_record_bridge_suite",
     "total_variation_exact",

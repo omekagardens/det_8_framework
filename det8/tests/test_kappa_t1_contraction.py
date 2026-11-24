@@ -438,10 +438,16 @@ class CriteriaAndClosureManifestTests(unittest.TestCase):
         heldout = kt1.evaluate_heldout_radial_profiles()
         self.assertTrue(heldout["strictly_disjoint_from_sample_galaxies"])
         self.assertEqual(heldout["overlap_with_sample_galaxies"], [])
+        self.assertTrue(heldout["traceability_audit"]["all_9_verbatim_matched"])
         self.assertFalse(heldout["passed"])
         hp_sum = heldout["heldout_radial_profiles_summary"]
         self.assertEqual(hp_sum["n_galaxies"], 9)
-        # Frozen Pathway 1 fails bend velocity accuracy at r ~ 2 r_d on spirals vs MOND
+        # On the 9 traceable SPARC rows with frozen (Sigma_crit=0.008, beta=0.93),
+        # Pathway 1 has higher curve RMS, higher bend error at 2.2 r_d, and 8/9 late surge vs 0/9 for MOND.
+        self.assertGreater(
+            hp_sum["mean_curve_rms_pathway1"],
+            hp_sum["mean_curve_rms_mond"],
+        )
         self.assertGreater(
             hp_sum["mean_bend_velocity_error_pathway1"],
             hp_sum["mean_bend_velocity_error_mond"],
@@ -450,7 +456,22 @@ class CriteriaAndClosureManifestTests(unittest.TestCase):
             hp_sum["spirals_ge_1e9_mean_curve_rms_pathway1"],
             hp_sum["spirals_ge_1e9_mean_curve_rms_mond"],
         )
+        self.assertEqual(hp_sum["late_surge_count_pathway1"], 8)
+        self.assertEqual(hp_sum["late_surge_count_mond"], 0)
+        self.assertEqual(heldout["heldout_sparc_subset_26_summary"]["n_galaxies"], 26)
         self.assertEqual(heldout["heldout_sparc_subset_28_summary"]["n_galaxies"], 28)
+        sens = heldout["gas_convention_sensitivity"]
+        for mode_key in (
+            "recorded_m_gas_1d",
+            "recorded_m_gas_freeman_2d",
+            "stellar_only_m_gas_zero_1d",
+        ):
+            self.assertGreater(
+                sens[mode_key]["mean_plateau_rms_pathway1"],
+                sens[mode_key]["mean_plateau_rms_mond"],
+            )
+            self.assertEqual(sens[mode_key]["late_surge_count_mond"], 0)
+            self.assertGreaterEqual(sens[mode_key]["late_surge_count_pathway1"], 8)
 
         lensing_default = kt1.evaluate_shared_dynamical_lensing()
         self.assertFalse(lensing_default["passed"])

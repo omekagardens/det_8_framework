@@ -42,6 +42,55 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertEqual(rank_test["two_chain_Y_over_D_ratio_exact"], "42/41")
         self.assertGreater(rank_test["gram_determinant_Z_vs_D"], 0.0)
 
+    def test_successive_birth_unconditional_readouts_retain_quenched_and_surviving_branches(
+        self,
+    ) -> None:
+        uncond = knrb.evaluate_successive_birth_unconditional_readouts()
+        self.assertTrue(uncond["all_branches_retained_at_every_birth"])
+        self.assertTrue(uncond["history_effect_survives_unconditional_averaging"])
+
+        z_traj = uncond["antichain_Z_n_across_births_1_to_4"]
+        self.assertEqual(
+            z_traj["contrasts_by_birth_exact"],
+            ["0", "1/12672", "5/25344", "263/1115136"],
+        )
+        self.assertTrue(z_traj["survives_at_n4"])
+        for step in z_traj["steps"]:
+            self.assertEqual(
+                Fraction(step["p_surviving_s_pos_exact"])
+                + Fraction(step["p_quenched_s_pos_exact"]),
+                Fraction(1, 1),
+            )
+            self.assertEqual(
+                Fraction(step["p_surviving_s_neg_exact"])
+                + Fraction(step["p_quenched_s_neg_exact"]),
+                Fraction(1, 1),
+            )
+
+        d_res_traj = uncond["total_chain_D_n_residual_across_births_1_to_4"]
+        self.assertEqual(
+            d_res_traj["contrasts_by_birth_exact"],
+            ["0", "-1/6336", "-19/190080", "-779/8363520"],
+        )
+        self.assertTrue(d_res_traj["survives_after_local_coupling_quenched"])
+
+        d_mark_traj = uncond["total_chain_D_n_mark_across_births_2_to_4"]
+        self.assertEqual(
+            d_mark_traj["contrasts_by_birth_exact"],
+            ["0", "-1/6", "-41/264"],
+        )
+        self.assertTrue(d_mark_traj["survives_at_n4"])
+
+        y_mark_traj = uncond["counter_two_Y_n_mark_across_births_2_to_4"]
+        self.assertEqual(
+            y_mark_traj["contrasts_by_birth_exact"],
+            ["0", "0", "-7/44"],
+        )
+        self.assertTrue(y_mark_traj["cancels_at_birth_3_under_branch_averaging"])
+        self.assertTrue(
+            y_mark_traj["re_emerges_at_birth_4_via_asymmetric_fork_quenching"]
+        )
+
     def test_qr05do_interaction_scale_quotient_anchor_blindness(self) -> None:
         do_res = knrb.evaluate_qr05do_interaction_scale_quotient()
         self.assertEqual(do_res["n_subsets"], 32)

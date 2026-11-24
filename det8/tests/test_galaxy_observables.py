@@ -337,6 +337,28 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
         self.assertEqual(cross["vs_known_galaxies"]["overlap_count"], 5)
         self.assertEqual(report["provenance"]["det_claim_status"], "NEUTRAL_DATA_FIXTURE")
 
+    def test_heldout_radial_profiles_traceable_verbatim_to_sparc_subset_json(self) -> None:
+        report = go.load_sparc_subset_diagnostic()
+        records_by_name = {str(r["name"]): r for r in report["records"]}
+        raw_lines = go.DEFAULT_SPARC_SUBSET_PATH.read_text(encoding="utf-8").splitlines()
+        sample_canon = {go.canonicalize_sparc_catalog_name(g.name) for g in go.SAMPLE_GALAXIES}
+
+        self.assertEqual(len(go.HELDOUT_RADIAL_PROFILES), 9)
+        for hp in go.HELDOUT_RADIAL_PROFILES:
+            with self.subTest(galaxy=hp.name):
+                self.assertNotIn(go.canonicalize_sparc_catalog_name(hp.name), sample_canon)
+                self.assertIn(hp.name, records_by_name)
+                rec = records_by_name[hp.name]
+                self.assertEqual(hp.M_star, float(rec["M_star"]))
+                self.assertEqual(hp.r_d, float(rec["r_d"]))
+                self.assertEqual(hp.M_gas, float(rec["M_gas"]))
+                self.assertEqual(hp.v_flat, float(rec["V_flat"]))
+                self.assertGreaterEqual(hp.sparc_subset_line, 1)
+                self.assertIn(f'"{hp.name}"', raw_lines[hp.sparc_subset_line - 1])
+                for (_, v_obs), m in zip(hp.radial_points, go.HELDOUT_PLATEAU_MULTIPLIERS):
+                    self.assertEqual(v_obs, hp.v_flat)
+                    self.assertGreater(m, 2.0)
+
     def test_synthetic_valid_malformed_and_missing_files(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             tmp_root = Path(tmpdir)

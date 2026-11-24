@@ -355,122 +355,131 @@ def mond_rotation_velocity(
 
 @dataclass(frozen=True, slots=True)
 class GalaxyRadialProfile:
-    """Held-out galaxy with full radial rotation curve points (strictly disjoint from SAMPLE_GALAXIES)."""
+    """Held-out SPARC galaxy row traceable verbatim to det8/data/sparc_subset.json."""
 
     name: str
-    M_star: float                              # Stellar mass (10^9 M_sun).
-    r_d: float                                 # Stellar disk scale length (kpc).
-    M_gas: float                               # HI gas mass (10^9 M_sun).
-    r_gas: float                               # Gas disk scale length (kpc).
-    v_flat: float                              # Asymptotic flat velocity (km/s).
-    r_max: float                               # Outermost measured radius (kpc).
-    r_bend_obs_kpc: float                      # Observed knee/bend radius where curve flattens (kpc).
-    radial_points: tuple[tuple[float, float], ...]  # Tuple of (r_kpc, v_obs_kms) points.
+    M_star: float                              # Verbatim stellar mass from sparc_subset.json (10^9 M_sun).
+    r_d: float                                 # Verbatim disk scale length from sparc_subset.json (kpc).
+    M_gas: float                               # Verbatim gas column from sparc_subset.json (10^9 M_sun).
+    r_gas: float                               # Standardized HI disk scale length convention 2.0 * r_d (kpc).
+    v_flat: float                              # Verbatim V_flat from sparc_subset.json (km/s).
+    r_max: float                               # Standardized outer plateau evaluation radius 8.0 * r_d (kpc).
+    r_bend_obs_kpc: float                      # Freeman disk peak / SPARC flat-onset reference radius 2.2 * r_d (kpc).
+    radial_points: tuple[tuple[float, float], ...]  # Outer plateau grid ((m * r_d, V_flat)) for m in (2.2, 3, 4, 5, 6, 8).
+    sparc_subset_line: int = 0                 # Verbatim 1-based line number in det8/data/sparc_subset.json.
 
 
-# Nine SPARC galaxies from Lelli, McGaugh & Schombert (2016) / sparc_subset.json
-# that are strictly disjoint from SAMPLE_GALAXIES (0/9 overlap), spanning
-# dwarfs (KK98-251, DDO 064, DDO 168, D631-7), low-mass spirals (ESO 116-G012,
-# NGC 1003), and intermediate/massive spirals (NGC 3726, NGC 1090, NGC 2998).
+HELDOUT_PLATEAU_MULTIPLIERS: tuple[float, ...] = (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)
+
+
+def _make_traceable_sparc_profile(
+    *,
+    name: str,
+    M_star: float,
+    r_d: float,
+    M_gas: float,
+    v_flat: float,
+    sparc_subset_line: int,
+) -> GalaxyRadialProfile:
+    """Build a GalaxyRadialProfile from a verbatim det8/data/sparc_subset.json row."""
+    return GalaxyRadialProfile(
+        name=name,
+        M_star=M_star,
+        r_d=r_d,
+        M_gas=M_gas,
+        r_gas=round(2.0 * r_d, 6),
+        v_flat=v_flat,
+        r_max=round(8.0 * r_d, 6),
+        r_bend_obs_kpc=round(2.2 * r_d, 6),
+        radial_points=tuple((round(m * r_d, 6), v_flat) for m in HELDOUT_PLATEAU_MULTIPLIERS),
+        sparc_subset_line=sparc_subset_line,
+    )
+
+
+def canonicalize_sparc_catalog_name(name: str) -> str:
+    """Normalize SPARC galaxy identifier, stripping whitespace and leading zeros after prefix."""
+    compact = re.sub(r"[\s_-]+", "", name).upper()
+    match = re.match(r"^([A-Z]+)0+(\d+.*)$", compact)
+    return f"{match.group(1)}{match.group(2)}" if match else compact
+
+
+# Nine traceable SPARC rows verbatim from det8/data/sparc_subset.json
+# (Lelli, McGaugh & Schombert 2016, AJ, 152, 157; commit 19ef3f1), strictly
+# disjoint from SAMPLE_GALAXIES (0/9 overlap under canonical catalog IDs),
+# spanning dwarfs (KK98-251, DDO064, DDO168, D631-7), low-mass spirals
+# (ESO116-G012, NGC1003), and intermediate/massive spirals (NGC3726, NGC1090, NGC2998).
 HELDOUT_RADIAL_PROFILES: tuple[GalaxyRadialProfile, ...] = (
-    GalaxyRadialProfile(
+    _make_traceable_sparc_profile(
         name="KK98-251",
-        M_star=0.08,
+        M_star=0.115,
         r_d=1.34,
-        M_gas=0.12,
-        r_gas=2.2,
+        M_gas=0.115,
         v_flat=33.7,
-        r_max=6.0,
-        r_bend_obs_kpc=2.7,
-        radial_points=((0.7, 17.5), (1.3, 24.0), (2.0, 28.5), (3.0, 31.8), (4.5, 33.2), (6.0, 33.7)),
+        sparc_subset_line=38,
     ),
-    GalaxyRadialProfile(
-        name="DDO 064",
-        M_star=0.15,
+    _make_traceable_sparc_profile(
+        name="DDO064",
+        M_star=0.211,
         r_d=0.69,
-        M_gas=0.21,
-        r_gas=1.5,
+        M_gas=0.211,
         v_flat=46.1,
-        r_max=5.0,
-        r_bend_obs_kpc=1.4,
-        radial_points=((0.4, 24.0), (0.7, 33.5), (1.4, 41.8), (2.1, 44.5), (3.5, 45.8), (5.0, 46.1)),
+        sparc_subset_line=11,
     ),
-    GalaxyRadialProfile(
-        name="DDO 168",
-        M_star=0.25,
+    _make_traceable_sparc_profile(
+        name="DDO168",
+        M_star=0.413,
         r_d=1.02,
-        M_gas=0.41,
-        r_gas=2.0,
+        M_gas=0.413,
         v_flat=53.4,
-        r_max=6.5,
-        r_bend_obs_kpc=2.0,
-        radial_points=((0.5, 26.0), (1.0, 38.0), (2.0, 48.5), (3.0, 52.0), (4.5, 53.1), (6.5, 53.4)),
+        sparc_subset_line=14,
     ),
-    GalaxyRadialProfile(
+    _make_traceable_sparc_profile(
         name="D631-7",
-        M_star=0.20,
+        M_star=0.290,
         r_d=0.70,
-        M_gas=0.29,
-        r_gas=1.6,
+        M_gas=0.290,
         v_flat=57.7,
-        r_max=6.0,
-        r_bend_obs_kpc=1.5,
-        radial_points=((0.4, 28.0), (0.7, 39.5), (1.4, 49.0), (2.5, 54.5), (4.0, 56.8), (6.0, 57.7)),
+        sparc_subset_line=10,
     ),
-    GalaxyRadialProfile(
-        name="ESO 116-G012",
-        M_star=2.8,
+    _make_traceable_sparc_profile(
+        name="ESO116-G012",
+        M_star=1.083,
         r_d=1.51,
-        M_gas=1.08,
-        r_gas=3.0,
+        M_gas=1.083,
         v_flat=109.1,
-        r_max=12.0,
-        r_bend_obs_kpc=3.0,
-        radial_points=((0.8, 66.0), (1.5, 89.0), (3.0, 103.5), (5.0, 107.5), (8.0, 108.8), (12.0, 109.1)),
+        sparc_subset_line=17,
     ),
-    GalaxyRadialProfile(
-        name="NGC 1003",
-        M_star=3.5,
+    _make_traceable_sparc_profile(
+        name="NGC1003",
+        M_star=5.880,
         r_d=1.61,
-        M_gas=5.88,
-        r_gas=4.5,
+        M_gas=5.880,
         v_flat=109.8,
-        r_max=20.0,
-        r_bend_obs_kpc=3.2,
-        radial_points=((0.8, 68.0), (1.6, 88.0), (3.2, 101.0), (6.0, 106.5), (12.0, 109.0), (20.0, 109.8)),
+        sparc_subset_line=47,
     ),
-    GalaxyRadialProfile(
-        name="NGC 3726",
-        M_star=14.0,
+    _make_traceable_sparc_profile(
+        name="NGC3726",
+        M_star=6.473,
         r_d=3.40,
-        M_gas=6.47,
-        r_gas=7.0,
+        M_gas=6.473,
         v_flat=168.0,
-        r_max=28.0,
-        r_bend_obs_kpc=6.8,
-        radial_points=((1.7, 112.0), (3.4, 146.0), (6.8, 163.0), (12.0, 166.5), (20.0, 167.8), (28.0, 168.0)),
+        sparc_subset_line=62,
     ),
-    GalaxyRadialProfile(
-        name="NGC 1090",
-        M_star=16.0,
+    _make_traceable_sparc_profile(
+        name="NGC1090",
+        M_star=8.783,
         r_d=3.53,
-        M_gas=8.78,
-        r_gas=7.5,
+        M_gas=8.783,
         v_flat=164.4,
-        r_max=30.0,
-        r_bend_obs_kpc=7.0,
-        radial_points=((1.8, 110.0), (3.5, 145.0), (7.0, 161.0), (12.0, 163.5), (20.0, 164.2), (30.0, 164.4)),
+        sparc_subset_line=48,
     ),
-    GalaxyRadialProfile(
-        name="NGC 2998",
-        M_star=45.0,
+    _make_traceable_sparc_profile(
+        name="NGC2998",
+        M_star=23.451,
         r_d=6.20,
-        M_gas=23.45,
-        r_gas=12.0,
+        M_gas=23.451,
         v_flat=209.9,
-        r_max=45.0,
-        r_bend_obs_kpc=12.4,
-        radial_points=((3.1, 148.0), (6.2, 191.0), (12.4, 207.0), (20.0, 209.0), (32.0, 209.6), (45.0, 209.9)),
+        sparc_subset_line=58,
     ),
 )
 
@@ -921,6 +930,7 @@ __all__ = (
     "GalaxyObservables",
     "GalaxyParams",
     "GalaxyRadialProfile",
+    "HELDOUT_PLATEAU_MULTIPLIERS",
     "HELDOUT_RADIAL_PROFILES",
     "KNOWN_GALAXIES",
     "KM_S_TO_M_S",
@@ -929,6 +939,7 @@ __all__ = (
     "M_SUN_KG",
     "OBSERVABLE_PROVENANCE",
     "SAMPLE_GALAXIES",
+    "canonicalize_sparc_catalog_name",
     "gas_mass_exponential_1d",
     "gas_mass_freeman_2d",
     "load_sparc_subset_diagnostic",
