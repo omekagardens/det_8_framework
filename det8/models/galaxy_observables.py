@@ -34,6 +34,11 @@ KM_S_TO_M_S: Final[float] = 1000.0        # m/s per km/s
 DEFAULT_SPARC_SUBSET_PATH: Final[Path] = (
     Path(__file__).resolve().parents[1] / "data" / "sparc_subset.json"
 )
+DEFAULT_SPARC_ROTMOD_PATH: Final[Path] = (
+    Path(__file__).resolve().parents[1] / "data" / "sparc_heldout_rotmod.json"
+)
+SPARC_UPSILON_DISK_DEFAULT: Final[float] = 0.5  # Fiducial 3.6 um disk M/L [M_sun/L_sun]
+SPARC_UPSILON_BUL_DEFAULT: Final[float] = 0.7   # Fiducial 3.6 um bulge M/L [M_sun/L_sun]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -354,8 +359,48 @@ def mond_rotation_velocity(
 
 
 @dataclass(frozen=True, slots=True)
+class SparcRotmodPoint:
+    """Single radial measurement row from a SPARC ``*_rotmod.dat`` table (Lelli et al. 2016)."""
+
+    Rad_kpc: float       # Galactocentric radius [kpc]
+    Vobs_kms: float      # Observed circular velocity [km/s]
+    errV_kms: float      # Velocity uncertainty [km/s]
+    Vgas_kms: float      # Gas contribution to circular velocity [km/s]
+    Vdisk_kms: float     # Stellar disk velocity contribution for M/L = 1 [km/s]
+    Vbul_kms: float      # Stellar bulge velocity contribution for M/L = 1 [km/s]
+    SBdisk_L_pc2: float  # Stellar disk 3.6 um surface brightness [L_sun/pc^2]
+    SBbul_L_pc2: float   # Stellar bulge 3.6 um surface brightness [L_sun/pc^2]
+
+
+def sparc_baryonic_newton_velocity(
+    v_gas_kms: float,
+    v_disk_kms: float,
+    v_bul_kms: float,
+    *,
+    upsilon_disk: float = SPARC_UPSILON_DISK_DEFAULT,
+    upsilon_bul: float = SPARC_UPSILON_BUL_DEFAULT,
+) -> float:
+    """Compute Newtonian baryonic circular speed V_bar [km/s] from SPARC rotmod components."""
+    v_bar_sq = (
+        v_gas_kms * abs(v_gas_kms)
+        + upsilon_disk * (v_disk_kms ** 2)
+        + upsilon_bul * (v_bul_kms ** 2)
+    )
+    return math.sqrt(max(0.0, v_bar_sq))
+
+
+def load_sparc_heldout_rotmod(path: Path | None = None) -> dict[str, dict[str, object]]:
+    """Load verbatim held-out SPARC ``*_rotmod.dat`` radial tables from disk."""
+    target = DEFAULT_SPARC_ROTMOD_PATH if path is None else Path(path)
+    if not target.exists() or not target.is_file():
+        return {}
+    raw = json.loads(target.read_text(encoding="utf-8"))
+    return raw if isinstance(raw, dict) else {}
+
+
+@dataclass(frozen=True, slots=True)
 class GalaxyRadialProfile:
-    """Held-out SPARC galaxy row traceable verbatim to det8/data/sparc_subset.json."""
+    """Held-out SPARC galaxy row traceable verbatim to sparc_subset.json and *_rotmod.dat."""
 
     name: str
     M_star: float                              # Verbatim stellar mass from sparc_subset.json (10^9 M_sun).
@@ -363,13 +408,17 @@ class GalaxyRadialProfile:
     M_gas: float                               # Verbatim gas column from sparc_subset.json (10^9 M_sun).
     r_gas: float                               # Standardized HI disk scale length convention 2.0 * r_d (kpc).
     v_flat: float                              # Verbatim V_flat from sparc_subset.json (km/s).
-    r_max: float                               # Standardized outer plateau evaluation radius 8.0 * r_d (kpc).
-    r_bend_obs_kpc: float                      # Freeman disk peak / SPARC flat-onset reference radius 2.2 * r_d (kpc).
-    radial_points: tuple[tuple[float, float], ...]  # Outer plateau grid ((m * r_d, V_flat)) for m in (2.2, 3, 4, 5, 6, 8).
+    r_max: float                               # Outermost measured SPARC Rad_kpc (or 8.0 * r_d fallback) (kpc).
+    r_bend_obs_kpc: float                      # Measured SPARC Rad_kpc closest to 2.2 * r_d (kpc).
+    radial_points: tuple[tuple[float, float], ...]  # Actual SPARC ((Rad_kpc, Vobs_kms)) points from *_rotmod.dat.
     sparc_subset_line: int = 0                 # Verbatim 1-based line number in det8/data/sparc_subset.json.
+    rotmod_points: tuple[SparcRotmodPoint, ...] = ()  # Complete 8-column SPARC *_rotmod.dat rows.
+    rotmod_sha256: str = ""                    # SHA-256 digest of the verbatim *_rotmod.dat file.
+    plateau_grid_points: tuple[tuple[float, float], ...] = ()  # Standardized ((m * r_d, V_flat)) grid.
 
 
 HELDOUT_PLATEAU_MULTIPLIERS: tuple[float, ...] = (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)
+_CACHED_ROTMOD_TABLES: Final[dict[str, dict[str, object]]] = load_sparc_heldout_rotmod()
 
 
 def _make_traceable_sparc_profile(
@@ -381,7 +430,37 @@ def _make_traceable_sparc_profile(
     v_flat: float,
     sparc_subset_line: int,
 ) -> GalaxyRadialProfile:
-    """Build a GalaxyRadialProfile from a verbatim det8/data/sparc_subset.json row."""
+    """Build a GalaxyRadialProfile from verbatim sparc_subset.json and *_rotmod.dat rows."""
+    plateau_grid = tuple((round(m * r_d, 6), v_flat) for m in HELDOUT_PLATEAU_MULTIPLIERS)
+    entry = _CACHED_ROTMOD_TABLES.get(name)
+    rot_pts: tuple[SparcRotmodPoint, ...] = ()
+    sha = ""
+    if isinstance(entry, dict):
+        sha = str(entry.get("sha256", ""))
+        raw_pts = entry.get("points", [])
+        if isinstance(raw_pts, list):
+            rot_pts = tuple(
+                SparcRotmodPoint(
+                    Rad_kpc=float(p["Rad_kpc"]),
+                    Vobs_kms=float(p["Vobs_kms"]),
+                    errV_kms=float(p["errV_kms"]),
+                    Vgas_kms=float(p["Vgas_kms"]),
+                    Vdisk_kms=float(p["Vdisk_kms"]),
+                    Vbul_kms=float(p["Vbul_kms"]),
+                    SBdisk_L_pc2=float(p["SBdisk_L_pc2"]),
+                    SBbul_L_pc2=float(p["SBbul_L_pc2"]),
+                )
+                for p in raw_pts
+            )
+    if rot_pts:
+        rad_pts = tuple((p.Rad_kpc, p.Vobs_kms) for p in rot_pts)
+        r_max_val = rot_pts[-1].Rad_kpc
+        r_bend_val = min(rot_pts, key=lambda p: abs(p.Rad_kpc - 2.2 * r_d)).Rad_kpc
+    else:
+        rad_pts = plateau_grid
+        r_max_val = round(8.0 * r_d, 6)
+        r_bend_val = round(2.2 * r_d, 6)
+
     return GalaxyRadialProfile(
         name=name,
         M_star=M_star,
@@ -389,10 +468,13 @@ def _make_traceable_sparc_profile(
         M_gas=M_gas,
         r_gas=round(2.0 * r_d, 6),
         v_flat=v_flat,
-        r_max=round(8.0 * r_d, 6),
-        r_bend_obs_kpc=round(2.2 * r_d, 6),
-        radial_points=tuple((round(m * r_d, 6), v_flat) for m in HELDOUT_PLATEAU_MULTIPLIERS),
+        r_max=r_max_val,
+        r_bend_obs_kpc=r_bend_val,
+        radial_points=rad_pts,
         sparc_subset_line=sparc_subset_line,
+        rotmod_points=rot_pts,
+        rotmod_sha256=sha,
+        plateau_grid_points=plateau_grid,
     )
 
 
@@ -925,6 +1007,7 @@ def load_sparc_subset_diagnostic(path: Path | None = None) -> dict[str, object]:
 
 __all__ = (
     "C_SI",
+    "DEFAULT_SPARC_ROTMOD_PATH",
     "DEFAULT_SPARC_SUBSET_PATH",
     "G_SI",
     "GalaxyObservables",
@@ -939,13 +1022,18 @@ __all__ = (
     "M_SUN_KG",
     "OBSERVABLE_PROVENANCE",
     "SAMPLE_GALAXIES",
+    "SPARC_UPSILON_BUL_DEFAULT",
+    "SPARC_UPSILON_DISK_DEFAULT",
+    "SparcRotmodPoint",
     "canonicalize_sparc_catalog_name",
     "gas_mass_exponential_1d",
     "gas_mass_freeman_2d",
+    "load_sparc_heldout_rotmod",
     "load_sparc_subset_diagnostic",
     "mond_rotation_velocity",
     "newton_rotation_velocity",
     "sfr_surface_density",
+    "sparc_baryonic_newton_velocity",
     "stellar_disk_mass",
     "stellar_surface_density",
 )

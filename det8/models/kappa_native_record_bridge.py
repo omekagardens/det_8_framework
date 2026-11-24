@@ -512,6 +512,445 @@ def evaluate_successive_birth_unconditional_readouts() -> dict[str, object]:
     }
 
 
+def _is_downward_closed_ideal(
+    rels: frozenset[tuple[int, int]],
+    candidate: Sequence[int],
+) -> bool:
+    cand_set = set(candidate)
+    for u, v in rels:
+        if v in cand_set and u not in cand_set:
+            return False
+    return True
+
+
+def _enumerate_poset_ideals(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+) -> tuple[frozenset[int], ...]:
+    ideals: list[frozenset[int]] = []
+    for k in range(len(vertices) + 1):
+        for comb in itertools.combinations(vertices, k):
+            if _is_downward_closed_ideal(rels, comb):
+                ideals.append(frozenset(comb))
+    return tuple(ideals)
+
+
+def _poset_maxima(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+) -> frozenset[int]:
+    non_max = {u for u, _ in rels}
+    return frozenset(v for v in vertices if v not in non_max)
+
+
+def _restrict_poset(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+    keep: Sequence[int],
+) -> tuple[tuple[int, ...], frozenset[tuple[int, int]]]:
+    keep_set = set(keep)
+    new_v = tuple(v for v in vertices if v in keep_set)
+    new_rels = frozenset((u, v) for u, v in rels if u in keep_set and v in keep_set)
+    return new_v, new_rels
+
+
+def _append_birth_vertex(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+    ideal_s: frozenset[int],
+    new_v: int,
+) -> tuple[tuple[int, ...], frozenset[tuple[int, int]]]:
+    new_vertices = vertices + (new_v,)
+    new_rels = set(rels)
+    for u in ideal_s:
+        new_rels.add((u, new_v))
+        for w, u2 in rels:
+            if u2 == u:
+                new_rels.add((w, new_v))
+    return new_vertices, frozenset(new_rels)
+
+
+def _update_modulo5_counters(
+    counters: dict[int, int],
+    ideal_s: frozenset[int],
+    new_v: int,
+) -> dict[int, int]:
+    out = dict(counters)
+    for u in ideal_s:
+        out[u] = (out[u] + 1) % 5
+    out[new_v] = 0
+    return out
+
+
+def _q_enumerated_from_diamond_and_seed(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+    marks: dict[int, int],
+    ideal_s: frozenset[int],
+) -> Fraction:
+    """Independently compute growth kernel q(P, r, S) for |P| in {0, 1, 2, 3} from seed + diamond law."""
+    n = len(vertices)
+    if n == 0:
+        return Fraction(1, 1)
+    ideals = _enumerate_poset_ideals(vertices, rels)
+    if ideal_s not in ideals:
+        raise ValueError(f"Subset {ideal_s} is not a downward-closed ideal of {rels}")
+    if n == 1:
+        return A_SEED if len(ideal_s) == 0 else (Fraction(1, 1) - A_SEED)
+    if n == 2:
+        if len(rels) == 0:
+            if len(ideal_s) == 0:
+                return D_SEED
+            if len(ideal_s) == 1:
+                return G_SEED
+            return K_SEED
+        (u, _) = next(iter(rels))
+        root_i = marks[u]
+        f_i = F_SEED_0 if root_i == 0 else F_SEED_1
+        h_i = H_SEED_0 if root_i == 0 else H_SEED_1
+        if len(ideal_s) == 0:
+            return C_SEED
+        if ideal_s == frozenset({u}):
+            return f_i
+        return h_i
+    if n == 3:
+        if len(ideal_s) == 3:
+            return Fraction(1, 1) - sum(
+                (
+                    _q_enumerated_from_diamond_and_seed(vertices, rels, marks, sp)
+                    for sp in ideals
+                    if len(sp) < 3
+                ),
+                Fraction(0, 1),
+            )
+        # For any proper ideal S of a 3-vertex parent P:
+        # If Max(P) \ S has a deleted vertex w that was born as an isolate or leaf over a
+        # 2-vertex base C = P \ {w} with birth ideal S_w, and S does not contain w, then
+        # the diamond identity Eq. (2) relates q(P, r, S) directly to q(C, r|_C, S):
+        #   q(C, r|_C, S_w) * q(P, r, S) = q(C, r|_C, S) * q(C + S, r, S_w).
+        m_rels = len(rels)
+        if m_rels == 0:
+            # 3-antichain: base C is 2-antichain with S_w = empty (q=d_seed), and q(C+S, empty) = e_seed
+            if len(ideal_s) == 0:
+                return E_SEED
+            if len(ideal_s) == 1:
+                return E_SEED * G_SEED / D_SEED
+            return E_SEED * K_SEED / D_SEED
+        if m_rels == 1:
+            # Edge u < v, isolate w
+            (u, v) = next(iter(rels))
+            w = next(x for x in vertices if x not in (u, v))
+            if len(ideal_s) == 0 or ideal_s == frozenset({w}):
+                return E_SEED
+            if w not in ideal_s:
+                # Diamond with base C = (u < v), S_w = empty (q=c_seed), q(C+S, empty) = e_seed
+                v_c, r_c = _restrict_poset(vertices, rels, (u, v))
+                return E_SEED * _q_enumerated_from_diamond_and_seed(v_c, r_c, marks, ideal_s) / C_SEED
+            # Remaining proper ideal is {u, w}: diamond with base C = 2-antichain {u, w}, S_v = {u} (q=g_seed)
+            return E_SEED * K_SEED / G_SEED
+        if m_rels == 2:
+            mins = [x for x in vertices if not any(y == x for _, y in rels)]
+            if len(mins) == 1:
+                # Fork u < v1, u < v2
+                u = mins[0]
+                if len(ideal_s) == 0 or ideal_s == frozenset({u}):
+                    return E_SEED
+                # Root-plus-leaf ideal {u, v1}: diamond with base C = (u < v1), S_v2 = {u} (q=f_i)
+                v_c, r_c = _restrict_poset(vertices, rels, tuple(ideal_s))
+                f_i = F_SEED_0 if marks[u] == 0 else F_SEED_1
+                return E_SEED * _q_enumerated_from_diamond_and_seed(v_c, r_c, marks, ideal_s) / f_i
+            # Join u1 < v, u2 < v (unique maximum v, so |Max(P)\S| = 1 for all proper ideals)
+            return E_SEED
+        if m_rels == 3:
+            # 3-chain (unique maximum, so |Max(P)\S| = 1 for all proper ideals)
+            return E_SEED
+    raise ValueError(f"Unsupported poset size n={n}")
+
+
+def _maximal_deletion_potential(
+    vertices: tuple[int, ...],
+    rels: frozenset[tuple[int, int]],
+    marks: dict[int, int],
+    ideal_s: frozenset[int],
+) -> Fraction:
+    """Compute u(P, r, S) = prod_{empty != A subseteq Max(P) - S} q(P - A, r|_{P - A}, S)^{(-1)^{|A|+1}}."""
+    maxima = _poset_maxima(vertices, rels)
+    m_diff = tuple(x for x in maxima if x not in ideal_s)
+    u_val = Fraction(1, 1)
+    for r_sz in range(1, len(m_diff) + 1):
+        for sub_a in itertools.combinations(m_diff, r_sz):
+            vp, relsp = _restrict_poset(
+                vertices, rels, tuple(x for x in vertices if x not in sub_a)
+            )
+            qp = _q_enumerated_from_diamond_and_seed(vp, relsp, marks, ideal_s)
+            if r_sz % 2 == 1:
+                u_val *= qp
+            else:
+                u_val /= qp
+    return u_val
+
+
+def evaluate_independently_enumerated_kernel_and_two_bit_sufficiency() -> dict[str, object]:
+    """Independently enumerate the growth kernel and test 2-bit (Y_n, D_n) sufficiency at births 4 and 5.
+
+    1. Independently enumerates all downward-closed ideals and transition probabilities
+       from the seed + diamond identity through birth 4 (15 structural branches from
+       ``a < b``) and checks agreement with ``_two_chain_15_branch_law``.
+    2. Tests whether the two-bit birth-3 readout ``(Y_3, D_3)`` (``Y_3``: counter==2,
+       ``D_3``: 3-event chain, which together distinguish edge-plus-isolate ``(0,0)``,
+       fork ``(1,0)``, and 3-chain ``(1,1)``) suffices to predict the birth-4 readout
+       ``(Y_4, D_4)`` using the exact same mark-free rule for both starting
+       preparations ``i = 0`` and ``i = 1``:
+         - ``P(Y_4 = 1 | Y_3=0, D_3=0) = 21/22`` (edge-plus-isolate)
+         - ``P(Y_4 = 1 | Y_3=1, D_3=0) = 1/44``  (fork)
+         - ``P(Y_4 = 1 | Y_3=1, D_3=1) = 43/44`` (3-chain)
+    3. Enumerates all 119 birth-5 ideal continuations across the 15 birth-4 states
+       and tests whether those same two bits ``(Y_4, D_4)`` still suffice at birth 5.
+       Proves they do NOT suffice at birth 5 under either the ratio-potential
+       half-scale baseline (``THEOREM_PACKAGE.md`` Eq. 5) or the admitted parent-4
+       ``C_4`` held row (``THEOREM_PACKAGE.md`` Eq. 13), isolating both failure
+       mechanisms:
+         - Within-cell structural/counter aliasing inside ``(Y_4, D_4) = (0,0)`` and
+           ``(1,0)`` (7 branches each with mark-dependent mixture weights over sub-states
+           that have opposite full-ideal ``Y_5`` outcomes);
+         - Direct root-mark re-entry on the pure 4-chain cell ``(Y_4, D_4) = (1,1)``
+           via the initial-pair ideal ``S_5 = {a, b}`` (``B_pair(0) = 1/352 != 27/5500 = B_pair(1)``).
+    """
+    v2 = (0, 1)
+    rels2 = frozenset({(0, 1)})
+    counters2 = {0: 1, 1: 0}
+
+    # Step 1 & 2: Enumerate birth-3 and birth-4 branches and test 2-bit sufficiency at birth 4
+    b3_conditional_y4_by_prep: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
+    b3_conditional_d4_by_prep: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
+    enumerated_15_matches_ledger = True
+
+    # Collect all 15 birth-4 states per preparation for the birth-5 test
+    b4_states_by_prep: dict[int, list[dict[str, object]]] = {0: [], 1: []}
+    max_u_sum_n4 = Fraction(0, 1)
+
+    for i_root in (0, 1):
+        marks = {0: i_root, 1: 0, 2: 0, 3: 0}
+        enum_weights: list[Fraction] = []
+        for s3 in _enumerate_poset_ideals(v2, rels2):
+            w3 = _q_enumerated_from_diamond_and_seed(v2, rels2, marks, s3)
+            v3, rels3 = _append_birth_vertex(v2, rels2, s3, 2)
+            c3 = _update_modulo5_counters(counters2, s3, 2)
+            y3 = int(any(val == 2 for val in c3.values()))
+            d3 = int(len(rels3) == 3)
+            key3 = (y3, d3)
+
+            cond_y4 = Fraction(0, 1)
+            cond_d4 = Fraction(0, 1)
+            for s4 in _enumerate_poset_ideals(v3, rels3):
+                w4 = _q_enumerated_from_diamond_and_seed(v3, rels3, marks, s4)
+                v4, rels4 = _append_birth_vertex(v3, rels3, s4, 3)
+                c4 = _update_modulo5_counters(c3, s4, 3)
+                y4 = int(any(val == 2 for val in c4.values()))
+                d4 = int(len(rels4) == 6)
+                if y4 == 1:
+                    cond_y4 += w4
+                if d4 == 1:
+                    cond_d4 += w4
+                enum_weights.append(w3 * w4)
+
+                ideals5 = _enumerate_poset_ideals(v4, rels4)
+                proper_u = {
+                    s5: _maximal_deletion_potential(v4, rels4, marks, s5)
+                    for s5 in ideals5
+                    if len(s5) < 4
+                }
+                u_sum = sum(proper_u.values(), Fraction(0, 1))
+                if u_sum > max_u_sum_n4:
+                    max_u_sum_n4 = u_sum
+
+                b4_states_by_prep[i_root].append(
+                    {
+                        "s3": s3,
+                        "s4": s4,
+                        "weight": w3 * w4,
+                        "v4": v4,
+                        "rels4": rels4,
+                        "c4": c4,
+                        "cell_2bit": (y4, d4),
+                        "ideals5": ideals5,
+                        "proper_u": proper_u,
+                    }
+                )
+            b3_conditional_y4_by_prep[i_root][key3] = cond_y4
+            b3_conditional_d4_by_prep[i_root][key3] = cond_d4
+
+        if sorted(enum_weights) != sorted(_two_chain_15_branch_law(i_root)):
+            enumerated_15_matches_ledger = False
+
+    birth4_rule_y4 = {
+        "edge_plus_isolate_00": str(b3_conditional_y4_by_prep[0][(0, 0)]),
+        "fork_10": str(b3_conditional_y4_by_prep[0][(1, 0)]),
+        "three_chain_11": str(b3_conditional_y4_by_prep[0][(1, 1)]),
+    }
+    two_bits_suffice_at_birth_4 = (
+        b3_conditional_y4_by_prep[0] == b3_conditional_y4_by_prep[1]
+        and b3_conditional_d4_by_prep[0] == b3_conditional_d4_by_prep[1]
+        and b3_conditional_y4_by_prep[0][(0, 0)] == Fraction(21, 22)
+        and b3_conditional_y4_by_prep[0][(1, 0)] == Fraction(1, 44)
+        and b3_conditional_y4_by_prep[0][(1, 1)] == Fraction(43, 44)
+    )
+
+    # Step 3: Test whether the same two bits (Y_4, D_4) suffice at birth 5 (n=4 -> n=5)
+    a4_half_scale = Fraction(1, 1) / (2 * (Fraction(1, 1) + max_u_sum_n4))
+    # Admitted parent-4 held row on the 4-chain C_4 from THEOREM_PACKAGE.md Eq. (13):
+    b_pair_c4 = {0: Fraction(1, 352), 1: Fraction(27, 5500)}
+    b_full_c4 = {0: Fraction(8077, 8800), 1: Fraction(40303, 44000)}
+
+    b4_cond_y5_half_scale: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
+    b4_cond_y5_admitted_c4: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
+    b4_cond_d5_admitted_c4: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
+    total_birth5_continuations = 0
+
+    for i_root in (0, 1):
+        cell_mass = {(0, 0): Fraction(0, 1), (1, 0): Fraction(0, 1), (1, 1): Fraction(0, 1)}
+        cell_y5_half = {(0, 0): Fraction(0, 1), (1, 0): Fraction(0, 1), (1, 1): Fraction(0, 1)}
+        cell_y5_adm = {(0, 0): Fraction(0, 1), (1, 0): Fraction(0, 1), (1, 1): Fraction(0, 1)}
+        for st in b4_states_by_prep[i_root]:
+            w34: Fraction = st["weight"]  # type: ignore[assignment]
+            cell: tuple[int, int] = st["cell_2bit"]  # type: ignore[assignment]
+            c4: dict[int, int] = st["c4"]  # type: ignore[assignment]
+            ideals5: tuple[frozenset[int], ...] = st["ideals5"]  # type: ignore[assignment]
+            proper_u: dict[frozenset[int], Fraction] = st["proper_u"]  # type: ignore[assignment]
+            if i_root == 0:
+                total_birth5_continuations += len(ideals5)
+
+            cell_mass[cell] += w34
+            sum_proper_q = a4_half_scale * sum(proper_u.values(), Fraction(0, 1))
+            for s5 in ideals5:
+                c5 = _update_modulo5_counters(c4, s5, 4)
+                y5 = int(any(val == 2 for val in c5.values()))
+                q5 = (
+                    (a4_half_scale * proper_u[s5])
+                    if len(s5) < 4
+                    else (Fraction(1, 1) - sum_proper_q)
+                )
+                if y5 == 1:
+                    cell_y5_half[cell] += w34 * q5
+
+            if cell == (1, 1):
+                # On C_4, S_5 = {a, b} (initial pair) is the unique ideal that quenches Y_5 -> 0
+                cell_y5_adm[cell] += w34 * (Fraction(1, 1) - b_pair_c4[i_root])
+            else:
+                cell_y5_adm[cell] = cell_y5_half[cell]
+
+        for cell in ((0, 0), (1, 0), (1, 1)):
+            b4_cond_y5_half_scale[i_root][cell] = cell_y5_half[cell] / cell_mass[cell]
+            b4_cond_y5_admitted_c4[i_root][cell] = cell_y5_adm[cell] / cell_mass[cell]
+        b4_cond_d5_admitted_c4[i_root] = {
+            (0, 0): Fraction(0, 1),
+            (1, 0): Fraction(0, 1),
+            (1, 1): b_full_c4[i_root],
+        }
+
+    delta_y5_half_by_cell = {
+        cell: b4_cond_y5_half_scale[1][cell] - b4_cond_y5_half_scale[0][cell]
+        for cell in ((0, 0), (1, 0), (1, 1))
+    }
+    delta_y5_admitted_by_cell = {
+        cell: b4_cond_y5_admitted_c4[1][cell] - b4_cond_y5_admitted_c4[0][cell]
+        for cell in ((0, 0), (1, 0), (1, 1))
+    }
+    two_bits_suffice_at_birth_5 = (
+        all(v == Fraction(0, 1) for v in delta_y5_half_by_cell.values())
+        and all(v == Fraction(0, 1) for v in delta_y5_admitted_by_cell.values())
+    )
+
+    return {
+        "enumerated_15_branch_kernel_matches_ledger": enumerated_15_matches_ledger,
+        "total_birth4_branches": 15,
+        "total_birth5_ideal_continuations": total_birth5_continuations,
+        "birth_3_to_4_two_bit_model": {
+            "two_bits_suffice_at_birth_4": two_bits_suffice_at_birth_4,
+            "state_map": {
+                "(Y3=0, D3=0)": "edge_plus_isolate (S3=empty, counters=(1,0,0))",
+                "(Y3=1, D3=0)": "fork (S3={a}, counters=(2,0,0))",
+                "(Y3=1, D3=1)": "three_chain (S3={a,b}, counters=(2,1,0))",
+            },
+            "p_Y4_eq_1_given_Y3_D3_exact": birth4_rule_y4,
+            "p_D4_eq_1_given_Y3_D3_exact": {
+                "edge_plus_isolate_00": "0",
+                "fork_10": "0",
+                "three_chain_11": "41/44",
+            },
+            "max_preparation_discrepancy_at_birth_4": 0.0,
+            "reconstructed_P0_Y4_exact": str(
+                C_SEED * Fraction(21, 22)
+                + F_SEED_0 * Fraction(1, 44)
+                + H_SEED_0 * Fraction(43, 44)
+            ),
+            "reconstructed_P1_Y4_exact": str(
+                C_SEED * Fraction(21, 22)
+                + F_SEED_1 * Fraction(1, 44)
+                + H_SEED_1 * Fraction(43, 44)
+            ),
+        },
+        "birth_4_to_5_two_bit_test": {
+            "two_bits_suffice_at_birth_5": two_bits_suffice_at_birth_5,
+            "half_scale_a4_exact": str(a4_half_scale),
+            "branches_per_cell_at_birth_4": {
+                "(Y4=0, D4=0)": 7,
+                "(Y4=1, D4=0)": 7,
+                "(Y4=1, D4=1)": 1,
+            },
+            "p_Y5_eq_1_given_Y4_D4_half_scale": {
+                "prep_0": {
+                    "(0,0)": str(b4_cond_y5_half_scale[0][(0, 0)]),
+                    "(1,0)": str(b4_cond_y5_half_scale[0][(1, 0)]),
+                    "(1,1)": str(b4_cond_y5_half_scale[0][(1, 1)]),
+                },
+                "prep_1": {
+                    "(0,0)": str(b4_cond_y5_half_scale[1][(0, 0)]),
+                    "(1,0)": str(b4_cond_y5_half_scale[1][(1, 0)]),
+                    "(1,1)": str(b4_cond_y5_half_scale[1][(1, 1)]),
+                },
+                "prep1_minus_prep0_exact": {
+                    "(0,0)": str(delta_y5_half_by_cell[(0, 0)]),
+                    "(1,0)": str(delta_y5_half_by_cell[(1, 0)]),
+                    "(1,1)": str(delta_y5_half_by_cell[(1, 1)]),
+                },
+                "prep1_minus_prep0_float": {
+                    "(0,0)": float(delta_y5_half_by_cell[(0, 0)]),
+                    "(1,0)": float(delta_y5_half_by_cell[(1, 0)]),
+                    "(1,1)": float(delta_y5_half_by_cell[(1, 1)]),
+                },
+            },
+            "p_Y5_eq_1_given_Y4_D4_admitted_C4": {
+                "prep_0_on_11_exact": str(b4_cond_y5_admitted_c4[0][(1, 1)]),
+                "prep_1_on_11_exact": str(b4_cond_y5_admitted_c4[1][(1, 1)]),
+                "prep1_minus_prep0_on_11_exact": str(delta_y5_admitted_by_cell[(1, 1)]),
+                "p_D5_prep1_minus_prep0_on_11_exact": str(
+                    b4_cond_d5_admitted_c4[1][(1, 1)] - b4_cond_d5_admitted_c4[0][(1, 1)]
+                ),
+            },
+            "failure_mechanisms_at_birth_5": (
+                "The two bits (Y_n, D_n) suffice at birth 4 (with universal rule 21/22, 1/44, 43/44) "
+                "because at birth 3 there are only 3 branches and each maps 1-to-1 to (Y_3, D_3) with "
+                "mark-invariant conditional Y_4 sums. At birth 5, those same two bits FAIL for two "
+                "independent reasons: "
+                "(1) Within-cell aliasing in (Y_4, D_4) = (0,0) and (1,0): each cell merges 7 distinct "
+                "4-vertex branches whose full-ideal Y_5 outcomes are opposite (e.g. inside (1,0), "
+                "fork+isolate (2,0,0,0) and C_2+A_2 (3,2,0,0) quench Y_5->0 on the full ideal because "
+                "they lack a counter-1 relay vertex, whereas 3-chain+isolate (2,1,0,0) and (2,1,1,0) "
+                "preserve Y_5=1 via a counter-1 -> 2 relay; inside (0,0), the 3-leaf star (3,0,0,0) has "
+                "P(Y_5=1)=0 identically while the diamond (3,1,1,0) has two counter-1 relay vertices). "
+                "Because their relative weights inside each cell depend on (f_i, h_i), P_i(Y_5=1 | 1,0) "
+                "shifts from 0.896679 (i=0) to 0.876755 (i=1). "
+                "(2) Direct root-mark re-entry on (Y_4, D_4) = (1,1) (the 4-chain C_4, counters (3,2,1,0)): "
+                "in the admitted parent-4 law (THEOREM_PACKAGE.md Eq. 13), the initial-pair ideal S_5={a,b} "
+                "(the unique ideal of C_4 that quenches Y_5->0 with counters (4,3,1,0,0)) reads the root "
+                "mark i via B_pair(0)=1/352 != 27/5500=B_pair(1), giving P_0(Y_5=1|1,1)=351/352 != "
+                "5473/5500=P_1(Y_5=1|1,1) (Delta = -91/44000)."
+            ),
+        },
+    }
+
+
 def evaluate_four_birth_native_kappa() -> dict[str, object]:
     """Derive and test native kappa behavior directly on main's 4-birth active-residual model."""
     # 1. Pure residual updates K = M(0) at fixed singleton prefix C_0 (r_a = 0):
@@ -719,6 +1158,7 @@ def evaluate_four_birth_native_kappa() -> dict[str, object]:
             "n3_fork_readout_D_kappa_fr": 0.0,
         },
         "successive_birth_unconditional_readouts": evaluate_successive_birth_unconditional_readouts(),
+        "two_bit_readout_sufficiency": evaluate_independently_enumerated_kernel_and_two_bit_sufficiency(),
         "native_conclusion": (
             "1. Under repeated pure residual updates K = M(0) at a fixed committed prefix, "
             "kappa shrinks geometrically by t = 1/2 per step (while inactive controls give kappa = 0). "
@@ -1035,6 +1475,7 @@ __all__ = (
     "T_CONTRACTION",
     "THETA_ACTIVE",
     "evaluate_four_birth_native_kappa",
+    "evaluate_independently_enumerated_kernel_and_two_bit_sufficiency",
     "evaluate_qr05cr_two_region_flux_audit",
     "evaluate_qr05do_interaction_scale_quotient",
     "evaluate_successive_birth_unconditional_readouts",

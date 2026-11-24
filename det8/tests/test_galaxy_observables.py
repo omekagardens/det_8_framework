@@ -355,7 +355,10 @@ class SparcSubsetDiagnosticTests(unittest.TestCase):
                 self.assertEqual(hp.v_flat, float(rec["V_flat"]))
                 self.assertGreaterEqual(hp.sparc_subset_line, 1)
                 self.assertIn(f'"{hp.name}"', raw_lines[hp.sparc_subset_line - 1])
-                for (_, v_obs), m in zip(hp.radial_points, go.HELDOUT_PLATEAU_MULTIPLIERS):
+                self.assertGreater(len(hp.rotmod_points), 5)
+                self.assertEqual(len(hp.rotmod_sha256), 64)
+                self.assertEqual(len(hp.radial_points), len(hp.rotmod_points))
+                for (_, v_obs), m in zip(hp.plateau_grid_points, go.HELDOUT_PLATEAU_MULTIPLIERS):
                     self.assertEqual(v_obs, hp.v_flat)
                     self.assertGreater(m, 2.0)
 

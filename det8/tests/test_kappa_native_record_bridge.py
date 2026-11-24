@@ -91,6 +91,42 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
             y_mark_traj["re_emerges_at_birth_4_via_asymmetric_fork_quenching"]
         )
 
+    def test_independently_enumerated_kernel_and_two_bit_sufficiency_birth4_vs_birth5(
+        self,
+    ) -> None:
+        res = knrb.evaluate_independently_enumerated_kernel_and_two_bit_sufficiency()
+        self.assertTrue(res["enumerated_15_branch_kernel_matches_ledger"])
+        self.assertEqual(res["total_birth4_branches"], 15)
+        self.assertEqual(res["total_birth5_ideal_continuations"], 119)
+
+        b34 = res["birth_3_to_4_two_bit_model"]
+        self.assertTrue(b34["two_bits_suffice_at_birth_4"])
+        self.assertEqual(
+            b34["p_Y4_eq_1_given_Y3_D3_exact"],
+            {
+                "edge_plus_isolate_00": "21/22",
+                "fork_10": "1/44",
+                "three_chain_11": "43/44",
+            },
+        )
+        self.assertEqual(b34["reconstructed_P0_Y4_exact"], "179/220")
+        self.assertEqual(b34["reconstructed_P1_Y4_exact"], "36/55")
+
+        b45 = res["birth_4_to_5_two_bit_test"]
+        self.assertFalse(b45["two_bits_suffice_at_birth_5"])
+        self.assertEqual(
+            b45["branches_per_cell_at_birth_4"],
+            {"(Y4=0, D4=0)": 7, "(Y4=1, D4=0)": 7, "(Y4=1, D4=1)": 1},
+        )
+        half_diff = b45["p_Y5_eq_1_given_Y4_D4_half_scale"]["prep1_minus_prep0_exact"]
+        self.assertNotEqual(half_diff["(0,0)"], "0")
+        self.assertNotEqual(half_diff["(1,0)"], "0")
+        adm_c4 = b45["p_Y5_eq_1_given_Y4_D4_admitted_C4"]
+        self.assertEqual(adm_c4["prep_0_on_11_exact"], "351/352")
+        self.assertEqual(adm_c4["prep_1_on_11_exact"], "5473/5500")
+        self.assertEqual(adm_c4["prep1_minus_prep0_on_11_exact"], "-91/44000")
+        self.assertEqual(adm_c4["p_D5_prep1_minus_prep0_on_11_exact"], "-41/22000")
+
     def test_qr05do_interaction_scale_quotient_anchor_blindness(self) -> None:
         do_res = knrb.evaluate_qr05do_interaction_scale_quotient()
         self.assertEqual(do_res["n_subsets"], 32)

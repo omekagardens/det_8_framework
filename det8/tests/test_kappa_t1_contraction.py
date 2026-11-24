@@ -473,6 +473,31 @@ class CriteriaAndClosureManifestTests(unittest.TestCase):
             self.assertEqual(sens[mode_key]["late_surge_count_mond"], 0)
             self.assertGreaterEqual(sens[mode_key]["late_surge_count_pathway1"], 8)
 
+        rot9 = heldout["actual_sparc_rotmod_9_summary"]
+        rot26 = heldout["actual_sparc_rotmod_26_summary"]
+        self.assertEqual(rot9["n_galaxies"], 9)
+        self.assertEqual(rot9["total_radial_points"], 155)
+        self.assertEqual(rot26["n_galaxies"], 26)
+        self.assertEqual(rot26["total_radial_points"], 472)
+        self.assertGreater(
+            rot9["mean_reduced_chi2_pathway1"],
+            rot9["mean_reduced_chi2_mond"],
+        )
+        self.assertGreater(
+            rot9["mean_bend_velocity_error_pathway1"],
+            rot9["mean_bend_velocity_error_mond"],
+        )
+        self.assertGreater(
+            rot9["spirals_ge_1e9_mean_curve_rms_pathway1"],
+            rot9["spirals_ge_1e9_mean_curve_rms_mond"],
+        )
+        self.assertEqual(rot9["late_surge_gt_1p5_count_pathway1"], 8)
+        self.assertEqual(rot9["late_surge_gt_1p5_count_mond"], 0)
+        self.assertGreater(
+            rot26["mean_reduced_chi2_pathway1"],
+            rot26["mean_reduced_chi2_mond"],
+        )
+
         lensing_default = kt1.evaluate_shared_dynamical_lensing()
         self.assertFalse(lensing_default["passed"])
         lensing_pass = kt1.evaluate_shared_dynamical_lensing(

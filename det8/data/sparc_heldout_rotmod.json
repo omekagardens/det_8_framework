@@ -1,0 +1,5034 @@
+{
+  "D631-7": {
+    "name": "D631-7",
+    "distance_mpc": 7.72,
+    "sha256": "36867afb8c497654ab4d8f5d411dbb36f7c21e9e71cbc80c930a0924ffac892e",
+    "n_points": 16,
+    "M_star_subset": 0.29,
+    "r_d_subset": 0.7,
+    "M_gas_subset": 0.29,
+    "V_flat_subset": 57.7,
+    "points": [
+      {
+        "Rad_kpc": 0.45,
+        "Vobs_kms": 8.41,
+        "errV_kms": 1.58,
+        "Vgas_kms": 8.4,
+        "Vdisk_kms": 9.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 26.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.9,
+        "Vobs_kms": 17.8,
+        "errV_kms": 2.22,
+        "Vgas_kms": 13.51,
+        "Vdisk_kms": 15.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 19.64,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.35,
+        "Vobs_kms": 26.0,
+        "errV_kms": 2.35,
+        "Vgas_kms": 16.7,
+        "Vdisk_kms": 20.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 12.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.8,
+        "Vobs_kms": 30.9,
+        "errV_kms": 2.22,
+        "Vgas_kms": 18.72,
+        "Vdisk_kms": 21.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.25,
+        "Vobs_kms": 34.7,
+        "errV_kms": 1.82,
+        "Vgas_kms": 19.9,
+        "Vdisk_kms": 19.92,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.69,
+        "Vobs_kms": 38.8,
+        "errV_kms": 1.81,
+        "Vgas_kms": 20.61,
+        "Vdisk_kms": 18.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.13,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.14,
+        "Vobs_kms": 42.5,
+        "errV_kms": 1.57,
+        "Vgas_kms": 20.73,
+        "Vdisk_kms": 17.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.54,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.59,
+        "Vobs_kms": 45.6,
+        "errV_kms": 1.59,
+        "Vgas_kms": 20.61,
+        "Vdisk_kms": 16.32,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.04,
+        "Vobs_kms": 48.8,
+        "errV_kms": 1.83,
+        "Vgas_kms": 20.38,
+        "Vdisk_kms": 15.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.18,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.49,
+        "Vobs_kms": 51.8,
+        "errV_kms": 1.91,
+        "Vgas_kms": 19.9,
+        "Vdisk_kms": 14.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.94,
+        "Vobs_kms": 54.8,
+        "errV_kms": 2.19,
+        "Vgas_kms": 19.43,
+        "Vdisk_kms": 13.72,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.39,
+        "Vobs_kms": 56.6,
+        "errV_kms": 2.73,
+        "Vgas_kms": 18.84,
+        "Vdisk_kms": 13.04,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.84,
+        "Vobs_kms": 58.4,
+        "errV_kms": 3.27,
+        "Vgas_kms": 18.25,
+        "Vdisk_kms": 12.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.29,
+        "Vobs_kms": 58.5,
+        "errV_kms": 3.95,
+        "Vgas_kms": 17.65,
+        "Vdisk_kms": 11.93,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.74,
+        "Vobs_kms": 57.7,
+        "errV_kms": 4.07,
+        "Vgas_kms": 17.06,
+        "Vdisk_kms": 11.48,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.19,
+        "Vobs_kms": 57.3,
+        "errV_kms": 3.94,
+        "Vgas_kms": 16.47,
+        "Vdisk_kms": 11.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "DDO064": {
+    "name": "DDO064",
+    "distance_mpc": 6.8,
+    "sha256": "ac67504248b884a19d0b1ded288b8551741ea0a1288eb6488cd5d56416d441f9",
+    "n_points": 14,
+    "M_star_subset": 0.211,
+    "r_d_subset": 0.69,
+    "M_gas_subset": 0.211,
+    "V_flat_subset": 46.1,
+    "points": [
+      {
+        "Rad_kpc": 0.1,
+        "Vobs_kms": 6.29,
+        "errV_kms": 4.62,
+        "Vgas_kms": -1.13,
+        "Vdisk_kms": 1.96,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 28.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.3,
+        "Vobs_kms": 13.9,
+        "errV_kms": 4.62,
+        "Vgas_kms": -2.45,
+        "Vdisk_kms": 6.31,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 27.26,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.49,
+        "Vobs_kms": 15.6,
+        "errV_kms": 4.62,
+        "Vgas_kms": -0.64,
+        "Vdisk_kms": 9.67,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 24.99,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.69,
+        "Vobs_kms": 18.4,
+        "errV_kms": 4.62,
+        "Vgas_kms": 2.49,
+        "Vdisk_kms": 13.92,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 20.86,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.89,
+        "Vobs_kms": 22.5,
+        "errV_kms": 4.62,
+        "Vgas_kms": 1.87,
+        "Vdisk_kms": 15.16,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.91,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.09,
+        "Vobs_kms": 26.5,
+        "errV_kms": 4.62,
+        "Vgas_kms": 4.97,
+        "Vdisk_kms": 16.41,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 11.73,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.29,
+        "Vobs_kms": 35.3,
+        "errV_kms": 4.62,
+        "Vgas_kms": 9.29,
+        "Vdisk_kms": 17.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.3,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.48,
+        "Vobs_kms": 40.5,
+        "errV_kms": 4.62,
+        "Vgas_kms": 13.62,
+        "Vdisk_kms": 18.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.96,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.68,
+        "Vobs_kms": 44.2,
+        "errV_kms": 4.89,
+        "Vgas_kms": 16.26,
+        "Vdisk_kms": 19.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.88,
+        "Vobs_kms": 46.3,
+        "errV_kms": 4.62,
+        "Vgas_kms": 18.16,
+        "Vdisk_kms": 19.54,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.97,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.08,
+        "Vobs_kms": 46.4,
+        "errV_kms": 4.62,
+        "Vgas_kms": 19.64,
+        "Vdisk_kms": 19.1,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.84,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.27,
+        "Vobs_kms": 46.3,
+        "errV_kms": 4.62,
+        "Vgas_kms": 20.17,
+        "Vdisk_kms": 18.77,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.16,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.37,
+        "Vobs_kms": 46.4,
+        "errV_kms": 6.73,
+        "Vgas_kms": 20.59,
+        "Vdisk_kms": 18.61,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.86,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.98,
+        "Vobs_kms": 46.9,
+        "errV_kms": 8.65,
+        "Vgas_kms": 22.17,
+        "Vdisk_kms": 17.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "DDO168": {
+    "name": "DDO168",
+    "distance_mpc": 4.25,
+    "sha256": "8ba73826c20063bd2e367ec0dc8ae590e863b97e2ce98b56739a1b5311154bc3",
+    "n_points": 10,
+    "M_star_subset": 0.413,
+    "r_d_subset": 1.02,
+    "M_gas_subset": 0.413,
+    "V_flat_subset": 53.4,
+    "points": [
+      {
+        "Rad_kpc": 0.41,
+        "Vobs_kms": 15.0,
+        "errV_kms": 4.1,
+        "Vgas_kms": 10.41,
+        "Vdisk_kms": 8.28,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 20.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.82,
+        "Vobs_kms": 23.4,
+        "errV_kms": 1.3,
+        "Vgas_kms": 18.08,
+        "Vdisk_kms": 12.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.24,
+        "Vobs_kms": 29.2,
+        "errV_kms": 1.5,
+        "Vgas_kms": 20.09,
+        "Vdisk_kms": 15.11,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.79,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.64,
+        "Vobs_kms": 36.2,
+        "errV_kms": 1.1,
+        "Vgas_kms": 20.2,
+        "Vdisk_kms": 15.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.9,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.06,
+        "Vobs_kms": 44.0,
+        "errV_kms": 1.1,
+        "Vgas_kms": 22.0,
+        "Vdisk_kms": 16.89,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.47,
+        "Vobs_kms": 52.1,
+        "errV_kms": 1.2,
+        "Vgas_kms": 22.63,
+        "Vdisk_kms": 17.03,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.89,
+        "Vobs_kms": 52.9,
+        "errV_kms": 1.7,
+        "Vgas_kms": 22.95,
+        "Vdisk_kms": 16.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.3,
+        "Vobs_kms": 54.8,
+        "errV_kms": 2.2,
+        "Vgas_kms": 22.74,
+        "Vdisk_kms": 17.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.56,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.71,
+        "Vobs_kms": 55.0,
+        "errV_kms": 2.5,
+        "Vgas_kms": 22.74,
+        "Vdisk_kms": 17.16,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.82,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.12,
+        "Vobs_kms": 52.0,
+        "errV_kms": 2.7,
+        "Vgas_kms": 22.74,
+        "Vdisk_kms": 16.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "ESO079-G014": {
+    "name": "ESO079-G014",
+    "distance_mpc": 28.7,
+    "sha256": "dedf17c4700d0ab05e0cc0a6b292000558104d3b8c98e4fca8405d40b05bfe79",
+    "n_points": 15,
+    "M_star_subset": 3.14,
+    "r_d_subset": 5.08,
+    "M_gas_subset": 3.14,
+    "V_flat_subset": 175.0,
+    "points": [
+      {
+        "Rad_kpc": 0.41,
+        "Vobs_kms": 33.2,
+        "errV_kms": 11.6,
+        "Vgas_kms": 2.21,
+        "Vdisk_kms": 28.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 455.28,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.98,
+        "Vobs_kms": 50.4,
+        "errV_kms": 11.8,
+        "Vgas_kms": 4.41,
+        "Vdisk_kms": 47.6,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 284.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.78,
+        "Vobs_kms": 53.9,
+        "errV_kms": 9.75,
+        "Vgas_kms": 6.75,
+        "Vdisk_kms": 62.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 213.32,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.69,
+        "Vobs_kms": 67.6,
+        "errV_kms": 5.1,
+        "Vgas_kms": 8.55,
+        "Vdisk_kms": 75.48,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 152.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.36,
+        "Vobs_kms": 81.7,
+        "errV_kms": 5.06,
+        "Vgas_kms": 9.18,
+        "Vdisk_kms": 82.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 142.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.39,
+        "Vobs_kms": 102.0,
+        "errV_kms": 5.35,
+        "Vgas_kms": 9.29,
+        "Vdisk_kms": 86.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 105.73,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.65,
+        "Vobs_kms": 116.0,
+        "errV_kms": 6.44,
+        "Vgas_kms": 9.5,
+        "Vdisk_kms": 92.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 92.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.34,
+        "Vobs_kms": 132.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 10.22,
+        "Vdisk_kms": 96.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 89.82,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.89,
+        "Vobs_kms": 137.0,
+        "errV_kms": 5.25,
+        "Vgas_kms": 11.87,
+        "Vdisk_kms": 100.53,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 87.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.34,
+        "Vobs_kms": 154.0,
+        "errV_kms": 4.2,
+        "Vgas_kms": 17.23,
+        "Vdisk_kms": 113.81,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 78.45,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.04,
+        "Vobs_kms": 163.0,
+        "errV_kms": 3.28,
+        "Vgas_kms": 24.23,
+        "Vdisk_kms": 128.72,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 58.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.65,
+        "Vobs_kms": 170.0,
+        "errV_kms": 2.41,
+        "Vgas_kms": 30.75,
+        "Vdisk_kms": 133.41,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 39.79,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.36,
+        "Vobs_kms": 175.0,
+        "errV_kms": 2.18,
+        "Vgas_kms": 36.2,
+        "Vdisk_kms": 132.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 23.18,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.06,
+        "Vobs_kms": 177.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 39.42,
+        "Vdisk_kms": 128.51,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 15.89,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.67,
+        "Vobs_kms": 178.0,
+        "errV_kms": 2.03,
+        "Vgas_kms": 40.49,
+        "Vdisk_kms": 124.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.92,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "ESO116-G012": {
+    "name": "ESO116-G012",
+    "distance_mpc": 13.0,
+    "sha256": "e1af44af84188345a2a55983c34ccb7458f1257e7f13b801b1c7a824317d3812",
+    "n_points": 15,
+    "M_star_subset": 1.083,
+    "r_d_subset": 1.51,
+    "M_gas_subset": 1.083,
+    "V_flat_subset": 109.1,
+    "points": [
+      {
+        "Rad_kpc": 0.25,
+        "Vobs_kms": 20.9,
+        "errV_kms": 3.4,
+        "Vgas_kms": -0.22,
+        "Vdisk_kms": 17.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 276.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.83,
+        "Vobs_kms": 40.0,
+        "errV_kms": 3.29,
+        "Vgas_kms": -1.8,
+        "Vdisk_kms": 34.96,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 168.99,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.38,
+        "Vobs_kms": 51.5,
+        "errV_kms": 2.96,
+        "Vgas_kms": -1.55,
+        "Vdisk_kms": 51.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 141.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.85,
+        "Vobs_kms": 67.9,
+        "errV_kms": 3.45,
+        "Vgas_kms": 5.01,
+        "Vdisk_kms": 61.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 81.24,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.68,
+        "Vobs_kms": 80.2,
+        "errV_kms": 2.93,
+        "Vgas_kms": 12.54,
+        "Vdisk_kms": 60.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 46.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.19,
+        "Vobs_kms": 83.3,
+        "errV_kms": 3.08,
+        "Vgas_kms": 16.68,
+        "Vdisk_kms": 63.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 41.4,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.68,
+        "Vobs_kms": 91.4,
+        "errV_kms": 2.83,
+        "Vgas_kms": 20.19,
+        "Vdisk_kms": 65.14,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 30.23,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.13,
+        "Vobs_kms": 102.0,
+        "errV_kms": 5.4,
+        "Vgas_kms": 22.31,
+        "Vdisk_kms": 66.32,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 24.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.23,
+        "Vobs_kms": 105.0,
+        "errV_kms": 4.21,
+        "Vgas_kms": 25.63,
+        "Vdisk_kms": 64.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.48,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.05,
+        "Vobs_kms": 109.0,
+        "errV_kms": 2.1,
+        "Vgas_kms": 27.28,
+        "Vdisk_kms": 60.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.57,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.81,
+        "Vobs_kms": 108.0,
+        "errV_kms": 2.1,
+        "Vgas_kms": 28.58,
+        "Vdisk_kms": 55.74,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.78,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.56,
+        "Vobs_kms": 109.0,
+        "errV_kms": 2.1,
+        "Vgas_kms": 30.7,
+        "Vdisk_kms": 53.61,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.04,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.32,
+        "Vobs_kms": 110.0,
+        "errV_kms": 2.1,
+        "Vgas_kms": 33.83,
+        "Vdisk_kms": 51.18,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.21,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.09,
+        "Vobs_kms": 111.0,
+        "errV_kms": 2.33,
+        "Vgas_kms": 35.49,
+        "Vdisk_kms": 49.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.86,
+        "Vobs_kms": 112.0,
+        "errV_kms": 4.74,
+        "Vgas_kms": 33.74,
+        "Vdisk_kms": 46.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "ESO563-G021": {
+    "name": "ESO563-G021",
+    "distance_mpc": 60.8,
+    "sha256": "dfb210f0795faa4fdc1c98d03fd2d241448a88b1f8e70867900bcb6fdaa4f329",
+    "n_points": 30,
+    "M_star_subset": 24.298,
+    "r_d_subset": 5.45,
+    "M_gas_subset": 24.298,
+    "V_flat_subset": 314.6,
+    "points": [
+      {
+        "Rad_kpc": 0.45,
+        "Vobs_kms": 18.9,
+        "errV_kms": 9.78,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 65.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2096.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.34,
+        "Vobs_kms": 58.3,
+        "errV_kms": 10.5,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 120.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 997.68,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.23,
+        "Vobs_kms": 74.1,
+        "errV_kms": 5.69,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 137.48,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 691.26,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.12,
+        "Vobs_kms": 119.0,
+        "errV_kms": 4.27,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 146.18,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 574.33,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.01,
+        "Vobs_kms": 141.0,
+        "errV_kms": 3.76,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 157.86,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 548.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.9,
+        "Vobs_kms": 195.0,
+        "errV_kms": 4.54,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 175.79,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 524.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.79,
+        "Vobs_kms": 227.0,
+        "errV_kms": 4.2,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 199.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 483.52,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.69,
+        "Vobs_kms": 246.0,
+        "errV_kms": 4.24,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 217.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 426.75,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.58,
+        "Vobs_kms": 268.0,
+        "errV_kms": 5.56,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 228.65,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 376.92,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.47,
+        "Vobs_kms": 283.0,
+        "errV_kms": 2.96,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 241.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 345.98,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.23,
+        "Vobs_kms": 291.0,
+        "errV_kms": 9.81,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 260.94,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 282.74,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.06,
+        "Vobs_kms": 310.0,
+        "errV_kms": 4.74,
+        "Vgas_kms": 0.04,
+        "Vdisk_kms": 275.04,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 199.54,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.44,
+        "Vobs_kms": 310.0,
+        "errV_kms": 20.4,
+        "Vgas_kms": 0.4,
+        "Vdisk_kms": 277.98,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 164.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.18,
+        "Vobs_kms": 310.0,
+        "errV_kms": 16.1,
+        "Vgas_kms": 3.11,
+        "Vdisk_kms": 282.25,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 131.46,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.83,
+        "Vobs_kms": 314.0,
+        "errV_kms": 13.5,
+        "Vgas_kms": 15.18,
+        "Vdisk_kms": 283.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 96.52,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 18.56,
+        "Vobs_kms": 317.0,
+        "errV_kms": 12.7,
+        "Vgas_kms": 22.91,
+        "Vdisk_kms": 276.47,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 70.44,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 20.3,
+        "Vobs_kms": 319.0,
+        "errV_kms": 10.4,
+        "Vgas_kms": 33.06,
+        "Vdisk_kms": 272.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 62.6,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 21.94,
+        "Vobs_kms": 318.0,
+        "errV_kms": 10.8,
+        "Vgas_kms": 33.62,
+        "Vdisk_kms": 273.0,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 50.58,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 23.68,
+        "Vobs_kms": 317.0,
+        "errV_kms": 9.3,
+        "Vgas_kms": 39.67,
+        "Vdisk_kms": 271.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 32.65,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.41,
+        "Vobs_kms": 317.0,
+        "errV_kms": 7.23,
+        "Vgas_kms": 44.98,
+        "Vdisk_kms": 261.62,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 19.67,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 27.06,
+        "Vobs_kms": 312.0,
+        "errV_kms": 8.39,
+        "Vgas_kms": 46.29,
+        "Vdisk_kms": 252.97,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.79,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 28.8,
+        "Vobs_kms": 312.0,
+        "errV_kms": 8.37,
+        "Vgas_kms": 43.21,
+        "Vdisk_kms": 243.84,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.98,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 30.53,
+        "Vobs_kms": 311.0,
+        "errV_kms": 11.5,
+        "Vgas_kms": 45.08,
+        "Vdisk_kms": 233.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.31,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 32.18,
+        "Vobs_kms": 310.0,
+        "errV_kms": 14.5,
+        "Vgas_kms": 52.43,
+        "Vdisk_kms": 224.75,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.73,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 33.91,
+        "Vobs_kms": 313.0,
+        "errV_kms": 15.9,
+        "Vgas_kms": 59.7,
+        "Vdisk_kms": 216.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.63,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 35.65,
+        "Vobs_kms": 320.0,
+        "errV_kms": 8.83,
+        "Vgas_kms": 61.56,
+        "Vdisk_kms": 208.83,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 37.3,
+        "Vobs_kms": 321.0,
+        "errV_kms": 7.88,
+        "Vgas_kms": 63.33,
+        "Vdisk_kms": 202.65,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 39.03,
+        "Vobs_kms": 320.0,
+        "errV_kms": 8.0,
+        "Vgas_kms": 62.96,
+        "Vdisk_kms": 196.77,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 40.76,
+        "Vobs_kms": 315.0,
+        "errV_kms": 9.82,
+        "Vgas_kms": 62.4,
+        "Vdisk_kms": 191.39,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 42.41,
+        "Vobs_kms": 312.0,
+        "errV_kms": 9.07,
+        "Vgas_kms": 62.21,
+        "Vdisk_kms": 186.89,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.59,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F561-1": {
+    "name": "F561-1",
+    "distance_mpc": 66.4,
+    "sha256": "3c561c8b9b657872a52c3c1e3194b282f349c150bc4c1110ef3f27c5aca2e976",
+    "n_points": 6,
+    "M_star_subset": 1.622,
+    "r_d_subset": 2.79,
+    "M_gas_subset": 1.622,
+    "V_flat_subset": 50.0,
+    "points": [
+      {
+        "Rad_kpc": 1.61,
+        "Vobs_kms": 23.4,
+        "errV_kms": 10.0,
+        "Vgas_kms": 5.21,
+        "Vdisk_kms": 28.61,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 43.88,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.23,
+        "Vobs_kms": 40.6,
+        "errV_kms": 5.0,
+        "Vgas_kms": 10.57,
+        "Vdisk_kms": 37.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 19.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.84,
+        "Vobs_kms": 45.5,
+        "errV_kms": 5.0,
+        "Vgas_kms": 15.71,
+        "Vdisk_kms": 39.1,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.19,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.45,
+        "Vobs_kms": 49.2,
+        "errV_kms": 5.0,
+        "Vgas_kms": 20.94,
+        "Vdisk_kms": 44.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 11.07,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.06,
+        "Vobs_kms": 50.4,
+        "errV_kms": 5.0,
+        "Vgas_kms": 25.97,
+        "Vdisk_kms": 48.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.66,
+        "Vobs_kms": 50.4,
+        "errV_kms": 5.0,
+        "Vgas_kms": 29.26,
+        "Vdisk_kms": 49.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.35,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F563-1": {
+    "name": "F563-1",
+    "distance_mpc": 48.9,
+    "sha256": "395c25eb1e767ab24ac7179324e8dd86f21817aa0e52c9813528b9c887639c61",
+    "n_points": 17,
+    "M_star_subset": 3.2,
+    "r_d_subset": 3.52,
+    "M_gas_subset": 3.2,
+    "V_flat_subset": 109.9,
+    "points": [
+      {
+        "Rad_kpc": 1.07,
+        "Vobs_kms": 22.1,
+        "errV_kms": 7.17,
+        "Vgas_kms": 1.98,
+        "Vdisk_kms": 18.3,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 33.42,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.78,
+        "Vobs_kms": 42.7,
+        "errV_kms": 10.66,
+        "Vgas_kms": 4.03,
+        "Vdisk_kms": 24.51,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 20.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.49,
+        "Vobs_kms": 60.6,
+        "errV_kms": 7.69,
+        "Vgas_kms": 6.25,
+        "Vdisk_kms": 27.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.31,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.97,
+        "Vobs_kms": 76.8,
+        "errV_kms": 11.1,
+        "Vgas_kms": 7.78,
+        "Vdisk_kms": 28.28,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.63,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.04,
+        "Vobs_kms": 81.6,
+        "errV_kms": 17.5,
+        "Vgas_kms": 8.01,
+        "Vdisk_kms": 28.2,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.31,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.19,
+        "Vobs_kms": 87.0,
+        "errV_kms": 8.93,
+        "Vgas_kms": 8.49,
+        "Vdisk_kms": 28.16,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.15,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.95,
+        "Vobs_kms": 90.0,
+        "errV_kms": 24.8,
+        "Vgas_kms": 17.83,
+        "Vdisk_kms": 29.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.35,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.58,
+        "Vobs_kms": 97.8,
+        "errV_kms": 9.4,
+        "Vgas_kms": 22.83,
+        "Vdisk_kms": 29.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.88,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.26,
+        "Vobs_kms": 93.7,
+        "errV_kms": 25.3,
+        "Vgas_kms": 24.91,
+        "Vdisk_kms": 28.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.68,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.89,
+        "Vobs_kms": 103.0,
+        "errV_kms": 23.8,
+        "Vgas_kms": 26.69,
+        "Vdisk_kms": 28.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.49,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.08,
+        "Vobs_kms": 97.4,
+        "errV_kms": 11.0,
+        "Vgas_kms": 27.31,
+        "Vdisk_kms": 28.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.84,
+        "Vobs_kms": 106.5,
+        "errV_kms": 9.48,
+        "Vgas_kms": 30.86,
+        "Vdisk_kms": 27.77,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 14.56,
+        "Vobs_kms": 112.0,
+        "errV_kms": 11.0,
+        "Vgas_kms": 30.44,
+        "Vdisk_kms": 25.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.43,
+        "Vobs_kms": 111.5,
+        "errV_kms": 9.4,
+        "Vgas_kms": 30.7,
+        "Vdisk_kms": 25.11,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.28,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.93,
+        "Vobs_kms": 111.0,
+        "errV_kms": 24.3,
+        "Vgas_kms": 33.36,
+        "Vdisk_kms": 23.48,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 19.02,
+        "Vobs_kms": 112.5,
+        "errV_kms": 7.75,
+        "Vgas_kms": 34.35,
+        "Vdisk_kms": 22.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 20.1,
+        "Vobs_kms": 106.0,
+        "errV_kms": 10.7,
+        "Vgas_kms": 35.34,
+        "Vdisk_kms": 22.07,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F568-V1": {
+    "name": "F568-V1",
+    "distance_mpc": 80.6,
+    "sha256": "21995c1c6de81835f509be286677775a00e50f6e5f1bdf4f2a35ab11650892f6",
+    "n_points": 15,
+    "M_star_subset": 2.491,
+    "r_d_subset": 2.85,
+    "M_gas_subset": 2.491,
+    "V_flat_subset": 112.3,
+    "points": [
+      {
+        "Rad_kpc": 0.39,
+        "Vobs_kms": 17.4,
+        "errV_kms": 30.4,
+        "Vgas_kms": -1.11,
+        "Vdisk_kms": 12.25,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 99.83,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.18,
+        "Vobs_kms": 46.3,
+        "errV_kms": 37.1,
+        "Vgas_kms": -2.76,
+        "Vdisk_kms": 28.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 60.79,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.95,
+        "Vobs_kms": 69.1,
+        "errV_kms": 13.1,
+        "Vgas_kms": -2.63,
+        "Vdisk_kms": 34.78,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 34.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.74,
+        "Vobs_kms": 85.2,
+        "errV_kms": 6.2,
+        "Vgas_kms": -0.03,
+        "Vdisk_kms": 37.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 27.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.53,
+        "Vobs_kms": 93.2,
+        "errV_kms": 6.2,
+        "Vgas_kms": 3.84,
+        "Vdisk_kms": 41.2,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 22.68,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.3,
+        "Vobs_kms": 100.0,
+        "errV_kms": 12.4,
+        "Vgas_kms": 7.34,
+        "Vdisk_kms": 44.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.78,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.09,
+        "Vobs_kms": 108.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 9.92,
+        "Vdisk_kms": 45.35,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 11.52,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.87,
+        "Vobs_kms": 112.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 12.15,
+        "Vdisk_kms": 44.94,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.4,
+        "Vobs_kms": 113.0,
+        "errV_kms": 24.9,
+        "Vgas_kms": 13.65,
+        "Vdisk_kms": 45.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.08,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.44,
+        "Vobs_kms": 113.0,
+        "errV_kms": 15.5,
+        "Vgas_kms": 17.06,
+        "Vdisk_kms": 45.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.21,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.21,
+        "Vobs_kms": 112.0,
+        "errV_kms": 13.1,
+        "Vgas_kms": 19.87,
+        "Vdisk_kms": 46.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.32,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.0,
+        "Vobs_kms": 111.0,
+        "errV_kms": 26.4,
+        "Vgas_kms": 22.99,
+        "Vdisk_kms": 44.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.72,
+        "Vobs_kms": 111.0,
+        "errV_kms": 19.4,
+        "Vgas_kms": 26.1,
+        "Vdisk_kms": 43.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.45,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.79,
+        "Vobs_kms": 113.0,
+        "errV_kms": 12.5,
+        "Vgas_kms": 34.23,
+        "Vdisk_kms": 40.77,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.63,
+        "Vobs_kms": 118.0,
+        "errV_kms": 14.6,
+        "Vgas_kms": 36.03,
+        "Vdisk_kms": 33.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F571-8": {
+    "name": "F571-8",
+    "distance_mpc": 53.3,
+    "sha256": "71d08a339e9c50eb70efac280949244190f5d0d84adc9fac99a0d49a8ef06a38",
+    "n_points": 13,
+    "M_star_subset": 1.782,
+    "r_d_subset": 3.56,
+    "M_gas_subset": 1.782,
+    "V_flat_subset": 139.7,
+    "points": [
+      {
+        "Rad_kpc": 0.22,
+        "Vobs_kms": 12.4,
+        "errV_kms": 7.0,
+        "Vgas_kms": 0.92,
+        "Vdisk_kms": 38.29,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1846.57,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.78,
+        "Vobs_kms": 37.5,
+        "errV_kms": 4.0,
+        "Vgas_kms": 2.67,
+        "Vdisk_kms": 85.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 705.48,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.33,
+        "Vobs_kms": 56.5,
+        "errV_kms": 4.0,
+        "Vgas_kms": 3.9,
+        "Vdisk_kms": 104.0,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 403.21,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.33,
+        "Vobs_kms": 69.1,
+        "errV_kms": 4.0,
+        "Vgas_kms": 5.34,
+        "Vdisk_kms": 114.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 121.25,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.44,
+        "Vobs_kms": 85.5,
+        "errV_kms": 7.5,
+        "Vgas_kms": 7.09,
+        "Vdisk_kms": 107.32,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 35.98,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.78,
+        "Vobs_kms": 87.1,
+        "errV_kms": 8.4,
+        "Vgas_kms": 7.29,
+        "Vdisk_kms": 103.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 25.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.77,
+        "Vobs_kms": 105.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 8.42,
+        "Vdisk_kms": 92.03,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.51,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.44,
+        "Vobs_kms": 112.0,
+        "errV_kms": 6.7,
+        "Vgas_kms": 8.94,
+        "Vdisk_kms": 86.43,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.64,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.11,
+        "Vobs_kms": 116.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 9.45,
+        "Vdisk_kms": 81.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.22,
+        "Vobs_kms": 124.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 10.47,
+        "Vdisk_kms": 76.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.4,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.33,
+        "Vobs_kms": 135.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 11.28,
+        "Vdisk_kms": 68.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.8,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.1,
+        "Vobs_kms": 140.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 11.8,
+        "Vdisk_kms": 64.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.77,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.55,
+        "Vobs_kms": 144.0,
+        "errV_kms": 5.0,
+        "Vgas_kms": 11.28,
+        "Vdisk_kms": 55.43,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F571-V1": {
+    "name": "F571-V1",
+    "distance_mpc": 80.1,
+    "sha256": "f27720859c86511869aa4fb30bcccd7254ef55749bd5966ace1989b657b15ec7",
+    "n_points": 7,
+    "M_star_subset": 1.217,
+    "r_d_subset": 2.47,
+    "M_gas_subset": 1.217,
+    "V_flat_subset": 83.6,
+    "points": [
+      {
+        "Rad_kpc": 1.95,
+        "Vobs_kms": 32.0,
+        "errV_kms": 10.0,
+        "Vgas_kms": 7.85,
+        "Vdisk_kms": 23.82,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 23.44,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.88,
+        "Vobs_kms": 57.6,
+        "errV_kms": 10.0,
+        "Vgas_kms": 15.1,
+        "Vdisk_kms": 35.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.77,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.83,
+        "Vobs_kms": 70.9,
+        "errV_kms": 7.0,
+        "Vgas_kms": 20.84,
+        "Vdisk_kms": 33.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.16,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.78,
+        "Vobs_kms": 77.0,
+        "errV_kms": 6.0,
+        "Vgas_kms": 25.68,
+        "Vdisk_kms": 32.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.72,
+        "Vobs_kms": 82.5,
+        "errV_kms": 6.0,
+        "Vgas_kms": 29.5,
+        "Vdisk_kms": 31.97,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.23,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.66,
+        "Vobs_kms": 84.3,
+        "errV_kms": 6.0,
+        "Vgas_kms": 30.81,
+        "Vdisk_kms": 29.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.46,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.59,
+        "Vobs_kms": 83.9,
+        "errV_kms": 6.0,
+        "Vgas_kms": 28.8,
+        "Vdisk_kms": 26.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F574-1": {
+    "name": "F574-1",
+    "distance_mpc": 96.8,
+    "sha256": "b97aa47c438695c6487ca261a81463b1adbd3a40302fe97ba0d3c4c90c465508",
+    "n_points": 14,
+    "M_star_subset": 3.524,
+    "r_d_subset": 4.46,
+    "M_gas_subset": 3.524,
+    "V_flat_subset": 97.8,
+    "points": [
+      {
+        "Rad_kpc": 0.47,
+        "Vobs_kms": 15.3,
+        "errV_kms": 4.4,
+        "Vgas_kms": 0.25,
+        "Vdisk_kms": 12.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 104.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.41,
+        "Vobs_kms": 41.0,
+        "errV_kms": 4.36,
+        "Vgas_kms": 0.88,
+        "Vdisk_kms": 32.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 69.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.35,
+        "Vobs_kms": 60.7,
+        "errV_kms": 4.4,
+        "Vgas_kms": 1.88,
+        "Vdisk_kms": 41.13,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 36.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.29,
+        "Vobs_kms": 74.9,
+        "errV_kms": 4.4,
+        "Vgas_kms": 3.41,
+        "Vdisk_kms": 42.43,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 24.85,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.22,
+        "Vobs_kms": 83.0,
+        "errV_kms": 6.28,
+        "Vgas_kms": 5.43,
+        "Vdisk_kms": 44.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 21.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.17,
+        "Vobs_kms": 86.8,
+        "errV_kms": 4.4,
+        "Vgas_kms": 7.8,
+        "Vdisk_kms": 46.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.11,
+        "Vobs_kms": 89.4,
+        "errV_kms": 4.4,
+        "Vgas_kms": 10.44,
+        "Vdisk_kms": 48.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.05,
+        "Vobs_kms": 92.5,
+        "errV_kms": 4.4,
+        "Vgas_kms": 13.15,
+        "Vdisk_kms": 49.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.54,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.99,
+        "Vobs_kms": 94.7,
+        "errV_kms": 4.4,
+        "Vgas_kms": 16.07,
+        "Vdisk_kms": 50.15,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.66,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.92,
+        "Vobs_kms": 96.3,
+        "errV_kms": 4.4,
+        "Vgas_kms": 18.98,
+        "Vdisk_kms": 49.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.85,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.87,
+        "Vobs_kms": 97.8,
+        "errV_kms": 4.4,
+        "Vgas_kms": 21.99,
+        "Vdisk_kms": 49.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.33,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.79,
+        "Vobs_kms": 98.8,
+        "errV_kms": 4.62,
+        "Vgas_kms": 25.0,
+        "Vdisk_kms": 50.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.8,
+        "Vobs_kms": 99.5,
+        "errV_kms": 4.4,
+        "Vgas_kms": 27.82,
+        "Vdisk_kms": 50.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.6,
+        "Vobs_kms": 99.7,
+        "errV_kms": 5.14,
+        "Vgas_kms": 30.02,
+        "Vdisk_kms": 50.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.23,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "F579-V1": {
+    "name": "F579-V1",
+    "distance_mpc": 89.5,
+    "sha256": "6e9fb1c04da7f945cb94394b6077b5cdac9d0394a5195c8e90f993114e2e2ef2",
+    "n_points": 14,
+    "M_star_subset": 2.245,
+    "r_d_subset": 3.37,
+    "M_gas_subset": 2.245,
+    "V_flat_subset": 112.1,
+    "points": [
+      {
+        "Rad_kpc": 0.42,
+        "Vobs_kms": 35.7,
+        "errV_kms": 9.1,
+        "Vgas_kms": -1.7,
+        "Vdisk_kms": 15.39,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 166.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.47,
+        "Vobs_kms": 83.3,
+        "errV_kms": 9.3,
+        "Vgas_kms": -4.3,
+        "Vdisk_kms": 40.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 105.56,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.11,
+        "Vobs_kms": 94.2,
+        "errV_kms": 10.4,
+        "Vgas_kms": -3.8,
+        "Vdisk_kms": 48.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 77.92,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.84,
+        "Vobs_kms": 97.6,
+        "errV_kms": 9.1,
+        "Vgas_kms": -0.8,
+        "Vdisk_kms": 53.6,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 57.77,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.9,
+        "Vobs_kms": 101.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 5.9,
+        "Vdisk_kms": 57.61,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 47.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.74,
+        "Vobs_kms": 105.0,
+        "errV_kms": 16.7,
+        "Vgas_kms": 10.47,
+        "Vdisk_kms": 63.1,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 41.35,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.69,
+        "Vobs_kms": 106.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 13.24,
+        "Vdisk_kms": 67.96,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 32.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.32,
+        "Vobs_kms": 108.0,
+        "errV_kms": 11.5,
+        "Vgas_kms": 14.88,
+        "Vdisk_kms": 69.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 27.41,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.37,
+        "Vobs_kms": 110.0,
+        "errV_kms": 23.0,
+        "Vgas_kms": 17.96,
+        "Vdisk_kms": 72.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 20.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.21,
+        "Vobs_kms": 112.0,
+        "errV_kms": 19.7,
+        "Vgas_kms": 20.83,
+        "Vdisk_kms": 72.55,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.56,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.16,
+        "Vobs_kms": 113.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 23.19,
+        "Vdisk_kms": 73.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.22,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.85,
+        "Vobs_kms": 114.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 26.37,
+        "Vdisk_kms": 73.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.53,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.21,
+        "Vobs_kms": 114.0,
+        "errV_kms": 9.1,
+        "Vgas_kms": 28.32,
+        "Vdisk_kms": 69.96,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.16,
+        "Vobs_kms": 114.0,
+        "errV_kms": 11.2,
+        "Vgas_kms": 33.04,
+        "Vdisk_kms": 63.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.75,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "IC4202": {
+    "name": "IC4202",
+    "distance_mpc": 100.4,
+    "sha256": "1b202036246f957a1d6b6fc1477d9c7b8a0f5f9583a16fe401a997c1cc8e6074",
+    "n_points": 32,
+    "M_star_subset": 12.326,
+    "r_d_subset": 4.78,
+    "M_gas_subset": 12.326,
+    "V_flat_subset": 242.6,
+    "points": [
+      {
+        "Rad_kpc": 0.77,
+        "Vobs_kms": 35.1,
+        "errV_kms": 3.96,
+        "Vgas_kms": 2.22,
+        "Vdisk_kms": 20.98,
+        "Vbul_kms": 133.76,
+        "SBdisk_L_pc2": 335.17,
+        "SBbul_L_pc2": 2678.7
+      },
+      {
+        "Rad_kpc": 1.59,
+        "Vobs_kms": 77.9,
+        "errV_kms": 3.95,
+        "Vgas_kms": 3.89,
+        "Vdisk_kms": 40.96,
+        "Vbul_kms": 176.62,
+        "SBdisk_L_pc2": 322.39,
+        "SBbul_L_pc2": 948.63
+      },
+      {
+        "Rad_kpc": 2.36,
+        "Vobs_kms": 115.0,
+        "errV_kms": 6.7,
+        "Vgas_kms": 4.02,
+        "Vdisk_kms": 58.24,
+        "Vbul_kms": 176.92,
+        "SBdisk_L_pc2": 310.83,
+        "SBbul_L_pc2": 463.05
+      },
+      {
+        "Rad_kpc": 3.13,
+        "Vobs_kms": 156.0,
+        "errV_kms": 3.16,
+        "Vgas_kms": 0.9,
+        "Vdisk_kms": 74.68,
+        "Vbul_kms": 172.53,
+        "SBdisk_L_pc2": 299.69,
+        "SBbul_L_pc2": 349.2
+      },
+      {
+        "Rad_kpc": 3.95,
+        "Vobs_kms": 192.0,
+        "errV_kms": 3.14,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 91.45,
+        "Vbul_kms": 173.49,
+        "SBdisk_L_pc2": 288.26,
+        "SBbul_L_pc2": 188.22
+      },
+      {
+        "Rad_kpc": 4.73,
+        "Vobs_kms": 204.0,
+        "errV_kms": 2.9,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 107.35,
+        "Vbul_kms": 174.08,
+        "SBdisk_L_pc2": 276.77,
+        "SBbul_L_pc2": 83.53
+      },
+      {
+        "Rad_kpc": 5.5,
+        "Vobs_kms": 209.0,
+        "errV_kms": 3.36,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 120.52,
+        "Vbul_kms": 167.74,
+        "SBdisk_L_pc2": 257.54,
+        "SBbul_L_pc2": 24.93
+      },
+      {
+        "Rad_kpc": 6.27,
+        "Vobs_kms": 220.0,
+        "errV_kms": 3.25,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 132.68,
+        "Vbul_kms": 159.21,
+        "SBdisk_L_pc2": 255.77,
+        "SBbul_L_pc2": 7.38
+      },
+      {
+        "Rad_kpc": 7.08,
+        "Vobs_kms": 231.0,
+        "errV_kms": 3.49,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 150.86,
+        "Vbul_kms": 150.44,
+        "SBdisk_L_pc2": 254.06,
+        "SBbul_L_pc2": 2.06
+      },
+      {
+        "Rad_kpc": 7.86,
+        "Vobs_kms": 235.0,
+        "errV_kms": 4.65,
+        "Vgas_kms": 0.24,
+        "Vdisk_kms": 170.8,
+        "Vbul_kms": 142.84,
+        "SBdisk_L_pc2": 239.48,
+        "SBbul_L_pc2": 0.6
+      },
+      {
+        "Rad_kpc": 8.66,
+        "Vobs_kms": 245.0,
+        "errV_kms": 6.0,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 187.59,
+        "Vbul_kms": 136.33,
+        "SBdisk_L_pc2": 211.03,
+        "SBbul_L_pc2": 0.17
+      },
+      {
+        "Rad_kpc": 9.45,
+        "Vobs_kms": 246.0,
+        "errV_kms": 5.57,
+        "Vgas_kms": 3.8,
+        "Vdisk_kms": 199.82,
+        "Vbul_kms": 130.53,
+        "SBdisk_L_pc2": 180.74,
+        "SBbul_L_pc2": 0.05
+      },
+      {
+        "Rad_kpc": 10.24,
+        "Vobs_kms": 239.0,
+        "errV_kms": 6.95,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 208.12,
+        "Vbul_kms": 125.41,
+        "SBdisk_L_pc2": 151.13,
+        "SBbul_L_pc2": 0.01
+      },
+      {
+        "Rad_kpc": 11.02,
+        "Vobs_kms": 240.0,
+        "errV_kms": 7.16,
+        "Vgas_kms": 3.35,
+        "Vdisk_kms": 212.98,
+        "Vbul_kms": 120.9,
+        "SBdisk_L_pc2": 124.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.79,
+        "Vobs_kms": 240.0,
+        "errV_kms": 4.85,
+        "Vgas_kms": 15.63,
+        "Vdisk_kms": 214.9,
+        "Vbul_kms": 116.92,
+        "SBdisk_L_pc2": 101.97,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.47,
+        "Vobs_kms": 246.0,
+        "errV_kms": 7.68,
+        "Vgas_kms": 22.51,
+        "Vdisk_kms": 214.77,
+        "Vbul_kms": 113.67,
+        "SBdisk_L_pc2": 85.47,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.34,
+        "Vobs_kms": 241.0,
+        "errV_kms": 6.21,
+        "Vgas_kms": 30.77,
+        "Vdisk_kms": 213.03,
+        "Vbul_kms": 109.94,
+        "SBdisk_L_pc2": 69.15,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 14.11,
+        "Vobs_kms": 250.0,
+        "errV_kms": 5.62,
+        "Vgas_kms": 37.16,
+        "Vdisk_kms": 210.67,
+        "Vbul_kms": 106.85,
+        "SBdisk_L_pc2": 58.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 14.59,
+        "Vobs_kms": 242.0,
+        "errV_kms": 5.1,
+        "Vgas_kms": 39.71,
+        "Vdisk_kms": 209.26,
+        "Vbul_kms": 105.08,
+        "SBdisk_L_pc2": 53.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 14.98,
+        "Vobs_kms": 244.0,
+        "errV_kms": 7.41,
+        "Vgas_kms": 41.88,
+        "Vdisk_kms": 208.03,
+        "Vbul_kms": 103.7,
+        "SBdisk_L_pc2": 48.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.75,
+        "Vobs_kms": 248.0,
+        "errV_kms": 5.08,
+        "Vgas_kms": 44.73,
+        "Vdisk_kms": 205.55,
+        "Vbul_kms": 101.13,
+        "SBdisk_L_pc2": 41.91,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.52,
+        "Vobs_kms": 249.0,
+        "errV_kms": 5.22,
+        "Vgas_kms": 46.3,
+        "Vdisk_kms": 203.07,
+        "Vbul_kms": 98.75,
+        "SBdisk_L_pc2": 35.71,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.1,
+        "Vobs_kms": 246.0,
+        "errV_kms": 6.35,
+        "Vgas_kms": 46.79,
+        "Vdisk_kms": 201.06,
+        "Vbul_kms": 97.06,
+        "SBdisk_L_pc2": 31.62,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.88,
+        "Vobs_kms": 241.0,
+        "errV_kms": 16.2,
+        "Vgas_kms": 46.99,
+        "Vdisk_kms": 198.19,
+        "Vbul_kms": 94.92,
+        "SBdisk_L_pc2": 26.82,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 18.65,
+        "Vobs_kms": 247.0,
+        "errV_kms": 14.6,
+        "Vgas_kms": 47.18,
+        "Vdisk_kms": 195.23,
+        "Vbul_kms": 92.94,
+        "SBdisk_L_pc2": 22.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 19.62,
+        "Vobs_kms": 234.0,
+        "errV_kms": 20.9,
+        "Vgas_kms": 47.77,
+        "Vdisk_kms": 191.47,
+        "Vbul_kms": 90.61,
+        "SBdisk_L_pc2": 18.65,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 20.78,
+        "Vobs_kms": 249.0,
+        "errV_kms": 10.0,
+        "Vgas_kms": 51.51,
+        "Vdisk_kms": 186.83,
+        "Vbul_kms": 88.05,
+        "SBdisk_L_pc2": 14.6,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.13,
+        "Vobs_kms": 236.0,
+        "errV_kms": 16.1,
+        "Vgas_kms": 57.31,
+        "Vdisk_kms": 181.4,
+        "Vbul_kms": 85.32,
+        "SBdisk_L_pc2": 10.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 23.0,
+        "Vobs_kms": 245.0,
+        "errV_kms": 22.1,
+        "Vgas_kms": 59.87,
+        "Vdisk_kms": 177.88,
+        "Vbul_kms": 83.69,
+        "SBdisk_L_pc2": 9.17,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 23.58,
+        "Vobs_kms": 243.0,
+        "errV_kms": 4.2,
+        "Vgas_kms": 61.24,
+        "Vdisk_kms": 175.64,
+        "Vbul_kms": 82.65,
+        "SBdisk_L_pc2": 8.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.03,
+        "Vobs_kms": 238.0,
+        "errV_kms": 7.76,
+        "Vgas_kms": 61.05,
+        "Vdisk_kms": 170.07,
+        "Vbul_kms": 80.22,
+        "SBdisk_L_pc2": 6.11,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.9,
+        "Vobs_kms": 247.0,
+        "errV_kms": 6.14,
+        "Vgas_kms": 60.16,
+        "Vdisk_kms": 166.98,
+        "Vbul_kms": 78.87,
+        "SBdisk_L_pc2": 5.18,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "KK98-251": {
+    "name": "KK98-251",
+    "distance_mpc": 6.8,
+    "sha256": "e3e0dc7b2bc7f0bc4cbee87fe43df27378140f10c51a006c7d3605d1a1604535",
+    "n_points": 15,
+    "M_star_subset": 0.115,
+    "r_d_subset": 1.34,
+    "M_gas_subset": 0.115,
+    "V_flat_subset": 33.7,
+    "points": [
+      {
+        "Rad_kpc": 0.25,
+        "Vobs_kms": 4.25,
+        "errV_kms": 2.0,
+        "Vgas_kms": 1.87,
+        "Vdisk_kms": 2.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.41,
+        "Vobs_kms": 6.84,
+        "errV_kms": 2.0,
+        "Vgas_kms": 3.32,
+        "Vdisk_kms": 3.93,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.57,
+        "Vobs_kms": 9.56,
+        "errV_kms": 2.0,
+        "Vgas_kms": 4.8,
+        "Vdisk_kms": 4.8,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.74,
+        "Vobs_kms": 12.3,
+        "errV_kms": 2.0,
+        "Vgas_kms": 6.44,
+        "Vdisk_kms": 6.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.78,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.9,
+        "Vobs_kms": 15.1,
+        "errV_kms": 2.0,
+        "Vgas_kms": 8.03,
+        "Vdisk_kms": 7.43,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.71,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.07,
+        "Vobs_kms": 17.5,
+        "errV_kms": 2.0,
+        "Vgas_kms": 9.79,
+        "Vdisk_kms": 8.56,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.63,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.24,
+        "Vobs_kms": 19.7,
+        "errV_kms": 2.0,
+        "Vgas_kms": 11.57,
+        "Vdisk_kms": 9.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.46,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.4,
+        "Vobs_kms": 21.8,
+        "errV_kms": 2.0,
+        "Vgas_kms": 13.11,
+        "Vdisk_kms": 10.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.57,
+        "Vobs_kms": 24.4,
+        "errV_kms": 2.0,
+        "Vgas_kms": 14.44,
+        "Vdisk_kms": 10.55,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.42,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.72,
+        "Vobs_kms": 27.3,
+        "errV_kms": 2.0,
+        "Vgas_kms": 15.54,
+        "Vdisk_kms": 10.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.89,
+        "Vobs_kms": 30.3,
+        "errV_kms": 2.0,
+        "Vgas_kms": 16.53,
+        "Vdisk_kms": 11.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.62,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.06,
+        "Vobs_kms": 32.6,
+        "errV_kms": 2.0,
+        "Vgas_kms": 17.3,
+        "Vdisk_kms": 11.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.28,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.46,
+        "Vobs_kms": 33.3,
+        "errV_kms": 2.0,
+        "Vgas_kms": 18.07,
+        "Vdisk_kms": 12.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.79,
+        "Vobs_kms": 34.6,
+        "errV_kms": 2.0,
+        "Vgas_kms": 18.07,
+        "Vdisk_kms": 12.94,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.13,
+        "Vobs_kms": 34.2,
+        "errV_kms": 2.0,
+        "Vgas_kms": 17.41,
+        "Vdisk_kms": 12.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC0055": {
+    "name": "NGC0055",
+    "distance_mpc": 2.11,
+    "sha256": "1fa933911f1df723b44718bbb4149b67afd934eaaded35bb51535ee1434128e3",
+    "n_points": 21,
+    "M_star_subset": 1.565,
+    "r_d_subset": 6.11,
+    "M_gas_subset": 1.565,
+    "V_flat_subset": 85.6,
+    "points": [
+      {
+        "Rad_kpc": 1.23,
+        "Vobs_kms": 28.7,
+        "errV_kms": 3.4,
+        "Vgas_kms": 13.65,
+        "Vdisk_kms": 27.5,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 58.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.84,
+        "Vobs_kms": 37.6,
+        "errV_kms": 2.6,
+        "Vgas_kms": 18.65,
+        "Vdisk_kms": 32.63,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 38.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.46,
+        "Vobs_kms": 43.1,
+        "errV_kms": 1.2,
+        "Vgas_kms": 21.85,
+        "Vdisk_kms": 36.38,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 29.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.07,
+        "Vobs_kms": 50.1,
+        "errV_kms": 2.8,
+        "Vgas_kms": 25.04,
+        "Vdisk_kms": 38.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 21.65,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.68,
+        "Vobs_kms": 58.1,
+        "errV_kms": 4.5,
+        "Vgas_kms": 28.73,
+        "Vdisk_kms": 39.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.32,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.3,
+        "Vobs_kms": 64.6,
+        "errV_kms": 4.1,
+        "Vgas_kms": 32.28,
+        "Vdisk_kms": 39.98,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.91,
+        "Vobs_kms": 68.5,
+        "errV_kms": 2.7,
+        "Vgas_kms": 34.59,
+        "Vdisk_kms": 39.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.93,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.52,
+        "Vobs_kms": 72.3,
+        "errV_kms": 0.8,
+        "Vgas_kms": 36.37,
+        "Vdisk_kms": 39.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.14,
+        "Vobs_kms": 74.2,
+        "errV_kms": 2.4,
+        "Vgas_kms": 37.73,
+        "Vdisk_kms": 39.71,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.35,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.75,
+        "Vobs_kms": 78.9,
+        "errV_kms": 2.6,
+        "Vgas_kms": 38.68,
+        "Vdisk_kms": 39.75,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.82,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.37,
+        "Vobs_kms": 82.4,
+        "errV_kms": 2.3,
+        "Vgas_kms": 39.3,
+        "Vdisk_kms": 40.35,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.39,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.98,
+        "Vobs_kms": 84.3,
+        "errV_kms": 4.8,
+        "Vgas_kms": 39.72,
+        "Vdisk_kms": 41.04,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.59,
+        "Vobs_kms": 85.4,
+        "errV_kms": 7.3,
+        "Vgas_kms": 40.39,
+        "Vdisk_kms": 41.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.21,
+        "Vobs_kms": 85.3,
+        "errV_kms": 4.6,
+        "Vgas_kms": 40.44,
+        "Vdisk_kms": 42.03,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.82,
+        "Vobs_kms": 86.8,
+        "errV_kms": 4.0,
+        "Vgas_kms": 39.94,
+        "Vdisk_kms": 42.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.85,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.43,
+        "Vobs_kms": 85.4,
+        "errV_kms": 5.7,
+        "Vgas_kms": 39.15,
+        "Vdisk_kms": 42.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.39,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.05,
+        "Vobs_kms": 85.4,
+        "errV_kms": 7.0,
+        "Vgas_kms": 37.71,
+        "Vdisk_kms": 43.32,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.97,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.66,
+        "Vobs_kms": 86.2,
+        "errV_kms": 4.1,
+        "Vgas_kms": 36.23,
+        "Vdisk_kms": 43.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.28,
+        "Vobs_kms": 86.1,
+        "errV_kms": 6.2,
+        "Vgas_kms": 35.41,
+        "Vdisk_kms": 44.71,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.25,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.89,
+        "Vobs_kms": 87.4,
+        "errV_kms": 2.5,
+        "Vgas_kms": 34.67,
+        "Vdisk_kms": 45.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.5,
+        "Vobs_kms": 86.5,
+        "errV_kms": 5.5,
+        "Vgas_kms": 33.61,
+        "Vdisk_kms": 48.0,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC0100": {
+    "name": "NGC0100",
+    "distance_mpc": 13.5,
+    "sha256": "d621820922da237a53ac6d10368da44b263ffa181db5737f38a3267f25dbbc69",
+    "n_points": 21,
+    "M_star_subset": 1.99,
+    "r_d_subset": 1.66,
+    "M_gas_subset": 1.99,
+    "V_flat_subset": 88.1,
+    "points": [
+      {
+        "Rad_kpc": 0.23,
+        "Vobs_kms": 6.81,
+        "errV_kms": 8.19,
+        "Vgas_kms": -0.86,
+        "Vdisk_kms": 9.67,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 142.64,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.69,
+        "Vobs_kms": 20.0,
+        "errV_kms": 4.09,
+        "Vgas_kms": -1.93,
+        "Vdisk_kms": 23.77,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 114.33,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.15,
+        "Vobs_kms": 33.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": -3.62,
+        "Vdisk_kms": 34.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 92.98,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.59,
+        "Vobs_kms": 42.7,
+        "errV_kms": 4.0,
+        "Vgas_kms": -4.31,
+        "Vdisk_kms": 41.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 70.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.05,
+        "Vobs_kms": 49.9,
+        "errV_kms": 4.0,
+        "Vgas_kms": -3.92,
+        "Vdisk_kms": 46.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 54.62,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.51,
+        "Vobs_kms": 55.5,
+        "errV_kms": 4.0,
+        "Vgas_kms": 3.21,
+        "Vdisk_kms": 50.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 43.18,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.97,
+        "Vobs_kms": 61.9,
+        "errV_kms": 4.0,
+        "Vgas_kms": 7.43,
+        "Vdisk_kms": 53.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 33.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.42,
+        "Vobs_kms": 67.9,
+        "errV_kms": 4.0,
+        "Vgas_kms": 10.05,
+        "Vdisk_kms": 55.1,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 25.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.88,
+        "Vobs_kms": 73.1,
+        "errV_kms": 4.0,
+        "Vgas_kms": 11.97,
+        "Vdisk_kms": 55.08,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.34,
+        "Vobs_kms": 76.1,
+        "errV_kms": 3.0,
+        "Vgas_kms": 13.61,
+        "Vdisk_kms": 54.16,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 13.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.79,
+        "Vobs_kms": 77.8,
+        "errV_kms": 5.34,
+        "Vgas_kms": 14.82,
+        "Vdisk_kms": 53.32,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 9.76,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.24,
+        "Vobs_kms": 79.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 15.7,
+        "Vdisk_kms": 52.48,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.4,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.7,
+        "Vobs_kms": 78.5,
+        "errV_kms": 5.6,
+        "Vgas_kms": 16.36,
+        "Vdisk_kms": 50.92,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.16,
+        "Vobs_kms": 79.8,
+        "errV_kms": 7.15,
+        "Vgas_kms": 16.58,
+        "Vdisk_kms": 49.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.16,
+        "Vobs_kms": 83.4,
+        "errV_kms": 5.12,
+        "Vgas_kms": 17.02,
+        "Vdisk_kms": 46.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.52,
+        "Vobs_kms": 84.6,
+        "errV_kms": 4.0,
+        "Vgas_kms": 17.46,
+        "Vdisk_kms": 45.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.98,
+        "Vobs_kms": 86.1,
+        "errV_kms": 5.53,
+        "Vgas_kms": 18.01,
+        "Vdisk_kms": 44.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.44,
+        "Vobs_kms": 87.5,
+        "errV_kms": 10.2,
+        "Vgas_kms": 18.77,
+        "Vdisk_kms": 43.11,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.27,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.9,
+        "Vobs_kms": 89.0,
+        "errV_kms": 7.77,
+        "Vgas_kms": 19.76,
+        "Vdisk_kms": 41.91,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.96,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.35,
+        "Vobs_kms": 90.4,
+        "errV_kms": 5.16,
+        "Vgas_kms": 20.86,
+        "Vdisk_kms": 40.72,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.84,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.62,
+        "Vobs_kms": 91.2,
+        "errV_kms": 13.7,
+        "Vgas_kms": 21.63,
+        "Vdisk_kms": 40.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.83,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC0289": {
+    "name": "NGC0289",
+    "distance_mpc": 20.8,
+    "sha256": "fbcb1accf49708893d7eab5bf35498ba019cc4313cad4a22cfaec5f492628009",
+    "n_points": 28,
+    "M_star_subset": 27.469,
+    "r_d_subset": 6.74,
+    "M_gas_subset": 27.469,
+    "V_flat_subset": 163.0,
+    "points": [
+      {
+        "Rad_kpc": 1.5,
+        "Vobs_kms": 164.0,
+        "errV_kms": 28.2,
+        "Vgas_kms": 3.86,
+        "Vdisk_kms": 179.05,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1392.39,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.52,
+        "Vobs_kms": 194.0,
+        "errV_kms": 32.0,
+        "Vgas_kms": 5.64,
+        "Vdisk_kms": 226.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 684.62,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.46,
+        "Vobs_kms": 175.0,
+        "errV_kms": 25.2,
+        "Vgas_kms": 6.85,
+        "Vdisk_kms": 215.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 390.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.32,
+        "Vobs_kms": 185.0,
+        "errV_kms": 31.5,
+        "Vgas_kms": 7.4,
+        "Vdisk_kms": 220.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 299.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.43,
+        "Vobs_kms": 175.0,
+        "errV_kms": 27.9,
+        "Vgas_kms": 6.0,
+        "Vdisk_kms": 221.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 148.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.38,
+        "Vobs_kms": 167.0,
+        "errV_kms": 27.2,
+        "Vgas_kms": 4.74,
+        "Vdisk_kms": 211.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 68.44,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.57,
+        "Vobs_kms": 176.0,
+        "errV_kms": 7.18,
+        "Vgas_kms": 7.37,
+        "Vdisk_kms": 198.06,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 40.47,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.6,
+        "Vobs_kms": 185.0,
+        "errV_kms": 4.29,
+        "Vgas_kms": 21.99,
+        "Vdisk_kms": 170.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.57,
+        "Vobs_kms": 183.0,
+        "errV_kms": 4.22,
+        "Vgas_kms": 32.44,
+        "Vdisk_kms": 151.82,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.42,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.64,
+        "Vobs_kms": 172.0,
+        "errV_kms": 4.33,
+        "Vgas_kms": 38.81,
+        "Vdisk_kms": 136.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 19.71,
+        "Vobs_kms": 161.0,
+        "errV_kms": 4.24,
+        "Vgas_kms": 42.5,
+        "Vdisk_kms": 127.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.68,
+        "Vobs_kms": 156.0,
+        "errV_kms": 5.08,
+        "Vgas_kms": 49.56,
+        "Vdisk_kms": 119.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.47,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.75,
+        "Vobs_kms": 159.0,
+        "errV_kms": 6.49,
+        "Vgas_kms": 54.94,
+        "Vdisk_kms": 111.5,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.76,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 28.72,
+        "Vobs_kms": 173.0,
+        "errV_kms": 6.97,
+        "Vgas_kms": 55.53,
+        "Vdisk_kms": 105.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.64,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 31.79,
+        "Vobs_kms": 177.0,
+        "errV_kms": 6.57,
+        "Vgas_kms": 60.71,
+        "Vdisk_kms": 100.59,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.4,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 34.77,
+        "Vobs_kms": 179.0,
+        "errV_kms": 4.47,
+        "Vgas_kms": 65.78,
+        "Vdisk_kms": 96.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.25,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 37.84,
+        "Vobs_kms": 181.0,
+        "errV_kms": 4.26,
+        "Vgas_kms": 67.48,
+        "Vdisk_kms": 92.02,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.16,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 40.81,
+        "Vobs_kms": 182.0,
+        "errV_kms": 4.26,
+        "Vgas_kms": 68.67,
+        "Vdisk_kms": 88.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 43.88,
+        "Vobs_kms": 182.0,
+        "errV_kms": 4.83,
+        "Vgas_kms": 68.27,
+        "Vdisk_kms": 85.15,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 46.85,
+        "Vobs_kms": 180.0,
+        "errV_kms": 5.5,
+        "Vgas_kms": 67.18,
+        "Vdisk_kms": 82.29,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.04,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 49.92,
+        "Vobs_kms": 177.0,
+        "errV_kms": 8.5,
+        "Vgas_kms": 65.98,
+        "Vdisk_kms": 79.64,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 52.99,
+        "Vobs_kms": 175.0,
+        "errV_kms": 11.0,
+        "Vgas_kms": 65.09,
+        "Vdisk_kms": 77.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 55.96,
+        "Vobs_kms": 172.0,
+        "errV_kms": 11.6,
+        "Vgas_kms": 64.29,
+        "Vdisk_kms": 75.06,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 59.03,
+        "Vobs_kms": 168.0,
+        "errV_kms": 12.6,
+        "Vgas_kms": 62.6,
+        "Vdisk_kms": 72.97,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 62.0,
+        "Vobs_kms": 158.0,
+        "errV_kms": 5.38,
+        "Vgas_kms": 59.81,
+        "Vdisk_kms": 71.15,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 65.07,
+        "Vobs_kms": 158.0,
+        "errV_kms": 6.5,
+        "Vgas_kms": 57.13,
+        "Vdisk_kms": 69.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 68.05,
+        "Vobs_kms": 166.0,
+        "errV_kms": 15.5,
+        "Vgas_kms": 55.14,
+        "Vdisk_kms": 67.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 71.12,
+        "Vobs_kms": 165.0,
+        "errV_kms": 8.75,
+        "Vgas_kms": 53.24,
+        "Vdisk_kms": 66.34,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC0801": {
+    "name": "NGC0801",
+    "distance_mpc": 80.7,
+    "sha256": "91ed95878fd9996bc77a7094f0bce173187a14e139132a352b774013f480e89a",
+    "n_points": 13,
+    "M_star_subset": 23.201,
+    "r_d_subset": 8.72,
+    "M_gas_subset": 23.201,
+    "V_flat_subset": 220.1,
+    "points": [
+      {
+        "Rad_kpc": 1.17,
+        "Vobs_kms": 123.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 2.58,
+        "Vdisk_kms": 183.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2905.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.56,
+        "Vobs_kms": 142.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 3.43,
+        "Vdisk_kms": 210.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2304.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.96,
+        "Vobs_kms": 205.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 4.28,
+        "Vdisk_kms": 232.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1870.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.73,
+        "Vobs_kms": 228.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 5.96,
+        "Vdisk_kms": 264.64,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1313.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.52,
+        "Vobs_kms": 238.0,
+        "errV_kms": 6.2,
+        "Vgas_kms": 7.61,
+        "Vdisk_kms": 281.54,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 825.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.59,
+        "Vobs_kms": 229.0,
+        "errV_kms": 4.2,
+        "Vgas_kms": 23.2,
+        "Vdisk_kms": 269.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 159.49,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.65,
+        "Vobs_kms": 225.0,
+        "errV_kms": 6.9,
+        "Vgas_kms": 37.46,
+        "Vdisk_kms": 243.6,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 48.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 24.61,
+        "Vobs_kms": 220.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 47.21,
+        "Vdisk_kms": 226.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 36.25,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 31.67,
+        "Vobs_kms": 222.0,
+        "errV_kms": 2.4,
+        "Vgas_kms": 59.26,
+        "Vdisk_kms": 219.45,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 15.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 38.74,
+        "Vobs_kms": 219.0,
+        "errV_kms": 4.1,
+        "Vgas_kms": 61.77,
+        "Vdisk_kms": 202.4,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 45.8,
+        "Vobs_kms": 214.0,
+        "errV_kms": 4.7,
+        "Vgas_kms": 58.45,
+        "Vdisk_kms": 183.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.13,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 52.86,
+        "Vobs_kms": 216.0,
+        "errV_kms": 2.6,
+        "Vgas_kms": 58.96,
+        "Vdisk_kms": 169.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.2,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 59.82,
+        "Vobs_kms": 216.0,
+        "errV_kms": 8.8,
+        "Vgas_kms": 66.89,
+        "Vdisk_kms": 158.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC1003": {
+    "name": "NGC1003",
+    "distance_mpc": 11.4,
+    "sha256": "cf23eb01e0528247abfb1a2c3d2a80203721c9b4f814865dd7682b65cea3e4dc",
+    "n_points": 36,
+    "M_star_subset": 5.88,
+    "r_d_subset": 1.61,
+    "M_gas_subset": 5.88,
+    "V_flat_subset": 109.8,
+    "points": [
+      {
+        "Rad_kpc": 1.25,
+        "Vobs_kms": 47.0,
+        "errV_kms": 7.6,
+        "Vgas_kms": 2.05,
+        "Vdisk_kms": 56.98,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 175.71,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.08,
+        "Vobs_kms": 59.5,
+        "errV_kms": 4.5,
+        "Vgas_kms": 6.07,
+        "Vdisk_kms": 64.63,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 107.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.9,
+        "Vobs_kms": 71.6,
+        "errV_kms": 3.7,
+        "Vgas_kms": 10.81,
+        "Vdisk_kms": 74.91,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 67.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.73,
+        "Vobs_kms": 77.6,
+        "errV_kms": 3.1,
+        "Vgas_kms": 14.74,
+        "Vdisk_kms": 77.71,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 47.27,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.56,
+        "Vobs_kms": 83.4,
+        "errV_kms": 3.6,
+        "Vgas_kms": 17.0,
+        "Vdisk_kms": 79.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 29.91,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.39,
+        "Vobs_kms": 89.7,
+        "errV_kms": 3.8,
+        "Vgas_kms": 19.26,
+        "Vdisk_kms": 79.39,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.66,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.22,
+        "Vobs_kms": 93.8,
+        "errV_kms": 2.4,
+        "Vgas_kms": 21.62,
+        "Vdisk_kms": 73.38,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 7.84,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.04,
+        "Vobs_kms": 99.0,
+        "errV_kms": 3.0,
+        "Vgas_kms": 23.59,
+        "Vdisk_kms": 69.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.24,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.87,
+        "Vobs_kms": 103.0,
+        "errV_kms": 2.5,
+        "Vgas_kms": 27.03,
+        "Vdisk_kms": 65.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.23,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.7,
+        "Vobs_kms": 100.0,
+        "errV_kms": 2.3,
+        "Vgas_kms": 28.5,
+        "Vdisk_kms": 62.8,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.54,
+        "Vobs_kms": 98.3,
+        "errV_kms": 2.0,
+        "Vgas_kms": 29.19,
+        "Vdisk_kms": 59.81,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.34,
+        "Vobs_kms": 98.4,
+        "errV_kms": 1.7,
+        "Vgas_kms": 29.29,
+        "Vdisk_kms": 56.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.21,
+        "Vobs_kms": 94.5,
+        "errV_kms": 1.8,
+        "Vgas_kms": 30.27,
+        "Vdisk_kms": 54.18,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.98,
+        "Vobs_kms": 94.9,
+        "errV_kms": 2.4,
+        "Vgas_kms": 31.35,
+        "Vdisk_kms": 52.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.22,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.85,
+        "Vobs_kms": 95.3,
+        "errV_kms": 1.6,
+        "Vgas_kms": 32.24,
+        "Vdisk_kms": 49.97,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.13,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.72,
+        "Vobs_kms": 96.9,
+        "errV_kms": 1.8,
+        "Vgas_kms": 32.83,
+        "Vdisk_kms": 48.07,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.08,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 14.49,
+        "Vobs_kms": 97.2,
+        "errV_kms": 1.3,
+        "Vgas_kms": 33.03,
+        "Vdisk_kms": 46.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.36,
+        "Vobs_kms": 100.0,
+        "errV_kms": 1.8,
+        "Vgas_kms": 33.12,
+        "Vdisk_kms": 45.03,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.13,
+        "Vobs_kms": 104.0,
+        "errV_kms": 2.7,
+        "Vgas_kms": 32.83,
+        "Vdisk_kms": 43.81,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.0,
+        "Vobs_kms": 104.0,
+        "errV_kms": 3.2,
+        "Vgas_kms": 33.52,
+        "Vdisk_kms": 42.53,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.78,
+        "Vobs_kms": 105.0,
+        "errV_kms": 3.4,
+        "Vgas_kms": 32.34,
+        "Vdisk_kms": 41.49,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 18.65,
+        "Vobs_kms": 109.0,
+        "errV_kms": 3.9,
+        "Vgas_kms": 31.65,
+        "Vdisk_kms": 40.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 19.52,
+        "Vobs_kms": 110.0,
+        "errV_kms": 3.8,
+        "Vgas_kms": 29.88,
+        "Vdisk_kms": 39.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 20.29,
+        "Vobs_kms": 107.0,
+        "errV_kms": 3.8,
+        "Vgas_kms": 29.39,
+        "Vdisk_kms": 38.61,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 21.16,
+        "Vobs_kms": 106.0,
+        "errV_kms": 3.8,
+        "Vgas_kms": 29.0,
+        "Vdisk_kms": 37.75,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 21.93,
+        "Vobs_kms": 106.0,
+        "errV_kms": 4.0,
+        "Vgas_kms": 27.91,
+        "Vdisk_kms": 37.04,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.8,
+        "Vobs_kms": 108.0,
+        "errV_kms": 3.4,
+        "Vgas_kms": 27.03,
+        "Vdisk_kms": 36.29,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 23.67,
+        "Vobs_kms": 109.0,
+        "errV_kms": 3.2,
+        "Vgas_kms": 25.65,
+        "Vdisk_kms": 35.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 24.44,
+        "Vobs_kms": 110.0,
+        "errV_kms": 3.3,
+        "Vgas_kms": 26.24,
+        "Vdisk_kms": 34.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.31,
+        "Vobs_kms": 110.0,
+        "errV_kms": 2.7,
+        "Vgas_kms": 25.85,
+        "Vdisk_kms": 34.35,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 26.08,
+        "Vobs_kms": 110.0,
+        "errV_kms": 2.4,
+        "Vgas_kms": 25.26,
+        "Vdisk_kms": 33.82,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 26.95,
+        "Vobs_kms": 113.0,
+        "errV_kms": 2.5,
+        "Vgas_kms": 26.83,
+        "Vdisk_kms": 33.25,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 27.73,
+        "Vobs_kms": 114.0,
+        "errV_kms": 2.2,
+        "Vgas_kms": 30.76,
+        "Vdisk_kms": 32.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 28.6,
+        "Vobs_kms": 112.0,
+        "errV_kms": 1.7,
+        "Vgas_kms": 31.75,
+        "Vdisk_kms": 32.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 29.47,
+        "Vobs_kms": 113.0,
+        "errV_kms": 1.8,
+        "Vgas_kms": 34.6,
+        "Vdisk_kms": 31.75,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 30.24,
+        "Vobs_kms": 115.0,
+        "errV_kms": 1.6,
+        "Vgas_kms": 37.45,
+        "Vdisk_kms": 31.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC1090": {
+    "name": "NGC1090",
+    "distance_mpc": 37.0,
+    "sha256": "c36735069b6423307437e91aded987492010d66971b690f62c2c9f5b3e1c9726",
+    "n_points": 24,
+    "M_star_subset": 8.783,
+    "r_d_subset": 3.53,
+    "M_gas_subset": 8.783,
+    "V_flat_subset": 164.4,
+    "points": [
+      {
+        "Rad_kpc": 0.35,
+        "Vobs_kms": 20.9,
+        "errV_kms": 9.81,
+        "Vgas_kms": -0.82,
+        "Vdisk_kms": 48.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1540.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.07,
+        "Vobs_kms": 61.7,
+        "errV_kms": 8.19,
+        "Vgas_kms": -2.5,
+        "Vdisk_kms": 98.26,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 772.11,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.6,
+        "Vobs_kms": 81.3,
+        "errV_kms": 4.32,
+        "Vgas_kms": -3.73,
+        "Vdisk_kms": 114.22,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 533.24,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.7,
+        "Vobs_kms": 124.0,
+        "errV_kms": 3.41,
+        "Vgas_kms": -7.4,
+        "Vdisk_kms": 144.04,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 300.12,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.09,
+        "Vobs_kms": 156.0,
+        "errV_kms": 7.02,
+        "Vgas_kms": -9.39,
+        "Vdisk_kms": 154.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 183.64,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.61,
+        "Vobs_kms": 166.0,
+        "errV_kms": 6.34,
+        "Vgas_kms": -10.89,
+        "Vdisk_kms": 166.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 152.68,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.17,
+        "Vobs_kms": 165.0,
+        "errV_kms": 12.1,
+        "Vgas_kms": -5.79,
+        "Vdisk_kms": 171.87,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 89.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.11,
+        "Vobs_kms": 174.0,
+        "errV_kms": 4.84,
+        "Vgas_kms": 9.64,
+        "Vdisk_kms": 169.05,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 67.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.37,
+        "Vobs_kms": 164.0,
+        "errV_kms": 5.86,
+        "Vgas_kms": 17.85,
+        "Vdisk_kms": 166.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 59.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 11.28,
+        "Vobs_kms": 176.0,
+        "errV_kms": 7.35,
+        "Vgas_kms": 22.68,
+        "Vdisk_kms": 167.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 48.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.62,
+        "Vobs_kms": 174.0,
+        "errV_kms": 3.28,
+        "Vgas_kms": 31.86,
+        "Vdisk_kms": 164.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 24.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 15.04,
+        "Vobs_kms": 168.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 35.59,
+        "Vdisk_kms": 159.31,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 14.96,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.37,
+        "Vobs_kms": 166.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 38.11,
+        "Vdisk_kms": 153.0,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.59,
+        "Vobs_kms": 167.0,
+        "errV_kms": 4.59,
+        "Vgas_kms": 40.13,
+        "Vdisk_kms": 146.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.36,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 18.8,
+        "Vobs_kms": 167.0,
+        "errV_kms": 5.3,
+        "Vgas_kms": 41.74,
+        "Vdisk_kms": 140.2,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 20.13,
+        "Vobs_kms": 165.0,
+        "errV_kms": 3.48,
+        "Vgas_kms": 42.85,
+        "Vdisk_kms": 134.43,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.74,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 21.35,
+        "Vobs_kms": 165.0,
+        "errV_kms": 3.12,
+        "Vgas_kms": 43.55,
+        "Vdisk_kms": 129.7,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.57,
+        "Vobs_kms": 165.0,
+        "errV_kms": 2.39,
+        "Vgas_kms": 44.16,
+        "Vdisk_kms": 125.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.61,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 23.89,
+        "Vobs_kms": 165.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 45.07,
+        "Vdisk_kms": 121.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.08,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 25.11,
+        "Vobs_kms": 163.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 46.68,
+        "Vdisk_kms": 118.15,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.76,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 26.33,
+        "Vobs_kms": 162.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 48.39,
+        "Vdisk_kms": 114.89,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.54,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 27.65,
+        "Vobs_kms": 162.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 50.01,
+        "Vdisk_kms": 111.67,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 28.87,
+        "Vobs_kms": 162.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 51.42,
+        "Vdisk_kms": 108.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.26,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 30.09,
+        "Vobs_kms": 160.0,
+        "errV_kms": 2.23,
+        "Vgas_kms": 52.53,
+        "Vdisk_kms": 106.1,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC1705": {
+    "name": "NGC1705",
+    "distance_mpc": 5.73,
+    "sha256": "408245ded5232956d4f1e8ec827c9acd238c86569e0195237220e26103524078",
+    "n_points": 14,
+    "M_star_subset": 0.139,
+    "r_d_subset": 0.39,
+    "M_gas_subset": 0.139,
+    "V_flat_subset": 71.9,
+    "points": [
+      {
+        "Rad_kpc": 0.22,
+        "Vobs_kms": 50.2,
+        "errV_kms": 7.5,
+        "Vgas_kms": 5.62,
+        "Vdisk_kms": 33.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 512.85,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.66,
+        "Vobs_kms": 62.2,
+        "errV_kms": 7.51,
+        "Vgas_kms": 13.36,
+        "Vdisk_kms": 44.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 84.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.11,
+        "Vobs_kms": 72.4,
+        "errV_kms": 5.35,
+        "Vgas_kms": 17.38,
+        "Vdisk_kms": 43.65,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 25.33,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.55,
+        "Vobs_kms": 73.2,
+        "errV_kms": 3.31,
+        "Vgas_kms": 17.38,
+        "Vdisk_kms": 39.37,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.23,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.0,
+        "Vobs_kms": 72.9,
+        "errV_kms": 3.21,
+        "Vgas_kms": 17.17,
+        "Vdisk_kms": 35.3,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 3.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.45,
+        "Vobs_kms": 72.6,
+        "errV_kms": 2.73,
+        "Vgas_kms": 16.22,
+        "Vdisk_kms": 31.81,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.83,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.89,
+        "Vobs_kms": 71.5,
+        "errV_kms": 3.41,
+        "Vgas_kms": 15.26,
+        "Vdisk_kms": 28.94,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.34,
+        "Vobs_kms": 71.1,
+        "errV_kms": 4.38,
+        "Vgas_kms": 14.31,
+        "Vdisk_kms": 26.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.78,
+        "Vobs_kms": 71.4,
+        "errV_kms": 4.6,
+        "Vgas_kms": 13.46,
+        "Vdisk_kms": 24.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.22,
+        "Vobs_kms": 71.5,
+        "errV_kms": 5.68,
+        "Vgas_kms": 13.36,
+        "Vdisk_kms": 23.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.66,
+        "Vobs_kms": 71.5,
+        "errV_kms": 6.2,
+        "Vgas_kms": 13.36,
+        "Vdisk_kms": 22.2,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.11,
+        "Vobs_kms": 71.3,
+        "errV_kms": 6.43,
+        "Vgas_kms": 13.46,
+        "Vdisk_kms": 21.14,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.56,
+        "Vobs_kms": 71.8,
+        "errV_kms": 9.68,
+        "Vgas_kms": 13.46,
+        "Vdisk_kms": 20.22,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.0,
+        "Vobs_kms": 71.5,
+        "errV_kms": 10.5,
+        "Vgas_kms": 14.31,
+        "Vdisk_kms": 19.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC2915": {
+    "name": "NGC2915",
+    "distance_mpc": 4.06,
+    "sha256": "1ea15c050aa4249a462d4d51c1def2b7c42c0fe90c9938a27c2b495ab40d8e75",
+    "n_points": 30,
+    "M_star_subset": 0.508,
+    "r_d_subset": 0.55,
+    "M_gas_subset": 0.508,
+    "V_flat_subset": 83.5,
+    "points": [
+      {
+        "Rad_kpc": 0.34,
+        "Vobs_kms": 13.5,
+        "errV_kms": 10.1,
+        "Vgas_kms": 4.08,
+        "Vdisk_kms": 44.78,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 329.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.67,
+        "Vobs_kms": 31.3,
+        "errV_kms": 12.5,
+        "Vgas_kms": 7.65,
+        "Vdisk_kms": 48.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 91.07,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.0,
+        "Vobs_kms": 35.3,
+        "errV_kms": 13.4,
+        "Vgas_kms": 10.36,
+        "Vdisk_kms": 46.82,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 36.28,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.34,
+        "Vobs_kms": 50.5,
+        "errV_kms": 9.38,
+        "Vgas_kms": 11.92,
+        "Vdisk_kms": 43.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 16.86,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.68,
+        "Vobs_kms": 61.0,
+        "errV_kms": 10.1,
+        "Vgas_kms": 12.33,
+        "Vdisk_kms": 40.74,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 8.72,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.01,
+        "Vobs_kms": 66.5,
+        "errV_kms": 11.9,
+        "Vgas_kms": 12.44,
+        "Vdisk_kms": 38.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 4.56,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.34,
+        "Vobs_kms": 74.4,
+        "errV_kms": 11.6,
+        "Vgas_kms": 12.54,
+        "Vdisk_kms": 35.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.91,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.67,
+        "Vobs_kms": 83.0,
+        "errV_kms": 9.17,
+        "Vgas_kms": 12.44,
+        "Vdisk_kms": 33.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.6,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.01,
+        "Vobs_kms": 86.4,
+        "errV_kms": 7.66,
+        "Vgas_kms": 12.13,
+        "Vdisk_kms": 31.74,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.88,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.35,
+        "Vobs_kms": 83.6,
+        "errV_kms": 8.18,
+        "Vgas_kms": 12.02,
+        "Vdisk_kms": 29.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.68,
+        "Vobs_kms": 79.8,
+        "errV_kms": 7.93,
+        "Vgas_kms": 12.54,
+        "Vdisk_kms": 28.46,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.24,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.02,
+        "Vobs_kms": 82.8,
+        "errV_kms": 6.95,
+        "Vgas_kms": 13.47,
+        "Vdisk_kms": 27.13,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.13,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.35,
+        "Vobs_kms": 83.5,
+        "errV_kms": 7.19,
+        "Vgas_kms": 14.61,
+        "Vdisk_kms": 25.93,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.07,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 4.68,
+        "Vobs_kms": 80.4,
+        "errV_kms": 7.85,
+        "Vgas_kms": 15.44,
+        "Vdisk_kms": 24.93,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.04,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.02,
+        "Vobs_kms": 80.3,
+        "errV_kms": 7.57,
+        "Vgas_kms": 15.86,
+        "Vdisk_kms": 24.0,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.02,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.35,
+        "Vobs_kms": 82.1,
+        "errV_kms": 7.92,
+        "Vgas_kms": 15.86,
+        "Vdisk_kms": 23.2,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.69,
+        "Vobs_kms": 82.4,
+        "errV_kms": 8.33,
+        "Vgas_kms": 15.65,
+        "Vdisk_kms": 22.42,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.01,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.03,
+        "Vobs_kms": 80.9,
+        "errV_kms": 7.88,
+        "Vgas_kms": 15.44,
+        "Vdisk_kms": 21.74,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.36,
+        "Vobs_kms": 79.0,
+        "errV_kms": 6.15,
+        "Vgas_kms": 15.65,
+        "Vdisk_kms": 21.15,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.69,
+        "Vobs_kms": 81.4,
+        "errV_kms": 6.11,
+        "Vgas_kms": 16.27,
+        "Vdisk_kms": 20.57,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.02,
+        "Vobs_kms": 79.7,
+        "errV_kms": 5.59,
+        "Vgas_kms": 17.1,
+        "Vdisk_kms": 20.07,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.36,
+        "Vobs_kms": 77.5,
+        "errV_kms": 6.33,
+        "Vgas_kms": 17.83,
+        "Vdisk_kms": 19.59,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.7,
+        "Vobs_kms": 79.9,
+        "errV_kms": 6.41,
+        "Vgas_kms": 17.93,
+        "Vdisk_kms": 19.12,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.03,
+        "Vobs_kms": 81.5,
+        "errV_kms": 7.86,
+        "Vgas_kms": 18.24,
+        "Vdisk_kms": 18.72,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.37,
+        "Vobs_kms": 82.2,
+        "errV_kms": 7.82,
+        "Vgas_kms": 18.65,
+        "Vdisk_kms": 18.33,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.7,
+        "Vobs_kms": 82.0,
+        "errV_kms": 7.09,
+        "Vgas_kms": 18.97,
+        "Vdisk_kms": 17.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.03,
+        "Vobs_kms": 84.7,
+        "errV_kms": 5.74,
+        "Vgas_kms": 19.38,
+        "Vdisk_kms": 17.62,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.37,
+        "Vobs_kms": 86.1,
+        "errV_kms": 5.54,
+        "Vgas_kms": 19.59,
+        "Vdisk_kms": 17.3,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 9.7,
+        "Vobs_kms": 85.3,
+        "errV_kms": 5.23,
+        "Vgas_kms": 19.9,
+        "Vdisk_kms": 16.98,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.04,
+        "Vobs_kms": 86.5,
+        "errV_kms": 6.45,
+        "Vgas_kms": 19.9,
+        "Vdisk_kms": 16.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC2976": {
+    "name": "NGC2976",
+    "distance_mpc": 3.58,
+    "sha256": "8b447e058d8e1597ee0c1df7c2ee1ab1c0217bc86820b6627162cf17b578a48a",
+    "n_points": 27,
+    "M_star_subset": 0.172,
+    "r_d_subset": 1.01,
+    "M_gas_subset": 0.172,
+    "V_flat_subset": 85.4,
+    "points": [
+      {
+        "Rad_kpc": 0.11,
+        "Vobs_kms": 6.8,
+        "errV_kms": 3.62,
+        "Vgas_kms": 1.06,
+        "Vdisk_kms": 11.98,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 401.24,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.17,
+        "Vobs_kms": 9.5,
+        "errV_kms": 4.31,
+        "Vgas_kms": 1.76,
+        "Vdisk_kms": 15.44,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 385.05,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.24,
+        "Vobs_kms": 14.0,
+        "errV_kms": 3.11,
+        "Vgas_kms": 2.47,
+        "Vdisk_kms": 19.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 353.55,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.31,
+        "Vobs_kms": 19.8,
+        "errV_kms": 5.5,
+        "Vgas_kms": 2.93,
+        "Vdisk_kms": 23.11,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 326.8,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.38,
+        "Vobs_kms": 26.1,
+        "errV_kms": 3.9,
+        "Vgas_kms": 3.29,
+        "Vdisk_kms": 26.27,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 306.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.45,
+        "Vobs_kms": 28.7,
+        "errV_kms": 3.5,
+        "Vgas_kms": 3.99,
+        "Vdisk_kms": 29.18,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 294.93,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.52,
+        "Vobs_kms": 28.7,
+        "errV_kms": 2.7,
+        "Vgas_kms": 4.46,
+        "Vdisk_kms": 32.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 286.81,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.59,
+        "Vobs_kms": 31.7,
+        "errV_kms": 2.5,
+        "Vgas_kms": 4.93,
+        "Vdisk_kms": 35.22,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 277.28,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.66,
+        "Vobs_kms": 35.5,
+        "errV_kms": 2.3,
+        "Vgas_kms": 5.88,
+        "Vdisk_kms": 38.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 266.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.73,
+        "Vobs_kms": 39.4,
+        "errV_kms": 2.1,
+        "Vgas_kms": 6.93,
+        "Vdisk_kms": 40.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 258.37,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.8,
+        "Vobs_kms": 42.9,
+        "errV_kms": 2.3,
+        "Vgas_kms": 7.52,
+        "Vdisk_kms": 43.36,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 250.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.87,
+        "Vobs_kms": 46.0,
+        "errV_kms": 2.6,
+        "Vgas_kms": 8.45,
+        "Vdisk_kms": 45.92,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 244.56,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.94,
+        "Vobs_kms": 49.1,
+        "errV_kms": 3.1,
+        "Vgas_kms": 9.28,
+        "Vdisk_kms": 48.76,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 245.53,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.01,
+        "Vobs_kms": 49.2,
+        "errV_kms": 3.2,
+        "Vgas_kms": 10.11,
+        "Vdisk_kms": 52.24,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 248.27,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.08,
+        "Vobs_kms": 51.4,
+        "errV_kms": 3.2,
+        "Vgas_kms": 11.31,
+        "Vdisk_kms": 55.81,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 237.88,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.14,
+        "Vobs_kms": 57.2,
+        "errV_kms": 3.1,
+        "Vgas_kms": 13.04,
+        "Vdisk_kms": 58.54,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 230.0,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.21,
+        "Vobs_kms": 63.8,
+        "errV_kms": 2.9,
+        "Vgas_kms": 15.48,
+        "Vdisk_kms": 61.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 228.85,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.29,
+        "Vobs_kms": 67.8,
+        "errV_kms": 2.8,
+        "Vgas_kms": 17.62,
+        "Vdisk_kms": 66.07,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 216.32,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.35,
+        "Vobs_kms": 69.8,
+        "errV_kms": 3.3,
+        "Vgas_kms": 19.66,
+        "Vdisk_kms": 68.88,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 203.26,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.42,
+        "Vobs_kms": 71.7,
+        "errV_kms": 3.9,
+        "Vgas_kms": 21.7,
+        "Vdisk_kms": 71.85,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 189.42,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.49,
+        "Vobs_kms": 74.1,
+        "errV_kms": 4.4,
+        "Vgas_kms": 23.73,
+        "Vdisk_kms": 74.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 174.06,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.56,
+        "Vobs_kms": 76.7,
+        "errV_kms": 4.8,
+        "Vgas_kms": 25.98,
+        "Vdisk_kms": 76.94,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 155.41,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.63,
+        "Vobs_kms": 79.9,
+        "errV_kms": 4.4,
+        "Vgas_kms": 27.71,
+        "Vdisk_kms": 78.73,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 134.59,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.74,
+        "Vobs_kms": 83.6,
+        "errV_kms": 3.35,
+        "Vgas_kms": 30.15,
+        "Vdisk_kms": 80.17,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 99.94,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.93,
+        "Vobs_kms": 83.9,
+        "errV_kms": 3.95,
+        "Vgas_kms": 29.44,
+        "Vdisk_kms": 78.52,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 58.42,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.1,
+        "Vobs_kms": 88.7,
+        "errV_kms": 4.44,
+        "Vgas_kms": 29.75,
+        "Vdisk_kms": 75.56,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 46.09,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.27,
+        "Vobs_kms": 85.3,
+        "errV_kms": 5.36,
+        "Vgas_kms": 29.85,
+        "Vdisk_kms": 73.66,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 41.53,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC2998": {
+    "name": "NGC2998",
+    "distance_mpc": 68.1,
+    "sha256": "9117f8894c13b881cb800ee1526f1d61089c683d797d98130c2865d0f55b4394",
+    "n_points": 13,
+    "M_star_subset": 23.451,
+    "r_d_subset": 6.2,
+    "M_gas_subset": 23.451,
+    "V_flat_subset": 209.9,
+    "points": [
+      {
+        "Rad_kpc": 0.33,
+        "Vobs_kms": 90.0,
+        "errV_kms": 20.0,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 44.56,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2070.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 0.99,
+        "Vobs_kms": 125.0,
+        "errV_kms": 15.0,
+        "Vgas_kms": 0.66,
+        "Vdisk_kms": 93.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1190.44,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 1.98,
+        "Vobs_kms": 148.0,
+        "errV_kms": 15.0,
+        "Vgas_kms": 2.66,
+        "Vdisk_kms": 132.13,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 888.44,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 2.64,
+        "Vobs_kms": 180.0,
+        "errV_kms": 17.0,
+        "Vgas_kms": 4.03,
+        "Vdisk_kms": 154.64,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 784.11,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 3.63,
+        "Vobs_kms": 201.0,
+        "errV_kms": 15.0,
+        "Vgas_kms": 6.22,
+        "Vdisk_kms": 196.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 702.55,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 7.59,
+        "Vobs_kms": 206.0,
+        "errV_kms": 10.0,
+        "Vgas_kms": 16.84,
+        "Vdisk_kms": 221.58,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 192.87,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.5,
+        "Vobs_kms": 214.0,
+        "errV_kms": 5.0,
+        "Vgas_kms": 32.06,
+        "Vdisk_kms": 213.19,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 56.1,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 17.48,
+        "Vobs_kms": 212.0,
+        "errV_kms": 5.0,
+        "Vgas_kms": 44.76,
+        "Vdisk_kms": 198.92,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 17.41,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.46,
+        "Vobs_kms": 213.0,
+        "errV_kms": 2.0,
+        "Vgas_kms": 52.43,
+        "Vdisk_kms": 175.78,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 10.54,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 27.44,
+        "Vobs_kms": 214.0,
+        "errV_kms": 2.0,
+        "Vgas_kms": 58.37,
+        "Vdisk_kms": 162.69,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 5.26,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 32.32,
+        "Vobs_kms": 213.0,
+        "errV_kms": 2.0,
+        "Vgas_kms": 63.92,
+        "Vdisk_kms": 151.18,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 2.5,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 37.3,
+        "Vobs_kms": 213.0,
+        "errV_kms": 3.0,
+        "Vgas_kms": 66.04,
+        "Vdisk_kms": 139.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.96,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 42.28,
+        "Vobs_kms": 203.0,
+        "errV_kms": 3.0,
+        "Vgas_kms": 64.42,
+        "Vdisk_kms": 130.09,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.33,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  },
+  "NGC3726": {
+    "name": "NGC3726",
+    "distance_mpc": 18.0,
+    "sha256": "d1a9e410fec42cde4994b022d23d021d021ec8d585ec67a5d5532f7e5f62e56d",
+    "n_points": 12,
+    "M_star_subset": 6.473,
+    "r_d_subset": 3.4,
+    "M_gas_subset": 6.473,
+    "V_flat_subset": 168.0,
+    "points": [
+      {
+        "Rad_kpc": 3.5,
+        "Vobs_kms": 102.0,
+        "errV_kms": 7.0,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 138.23,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 367.95,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 5.24,
+        "Vobs_kms": 125.0,
+        "errV_kms": 6.1,
+        "Vgas_kms": 0.0,
+        "Vdisk_kms": 163.99,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 200.43,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 6.98,
+        "Vobs_kms": 145.0,
+        "errV_kms": 4.9,
+        "Vgas_kms": 8.76,
+        "Vdisk_kms": 177.95,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 156.27,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 8.72,
+        "Vobs_kms": 164.0,
+        "errV_kms": 3.9,
+        "Vgas_kms": 23.82,
+        "Vdisk_kms": 182.72,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 66.34,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 10.47,
+        "Vobs_kms": 162.0,
+        "errV_kms": 4.8,
+        "Vgas_kms": 31.14,
+        "Vdisk_kms": 173.68,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 42.03,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 12.19,
+        "Vobs_kms": 160.0,
+        "errV_kms": 4.8,
+        "Vgas_kms": 37.29,
+        "Vdisk_kms": 166.41,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 26.8,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 13.94,
+        "Vobs_kms": 156.0,
+        "errV_kms": 4.8,
+        "Vgas_kms": 46.45,
+        "Vdisk_kms": 159.41,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 15.65,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 16.03,
+        "Vobs_kms": 146.0,
+        "errV_kms": 4.85,
+        "Vgas_kms": 53.13,
+        "Vdisk_kms": 148.01,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 6.69,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 22.3,
+        "Vobs_kms": 158.0,
+        "errV_kms": 4.9,
+        "Vgas_kms": 48.17,
+        "Vdisk_kms": 124.21,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 1.41,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 27.52,
+        "Vobs_kms": 168.0,
+        "errV_kms": 10.6,
+        "Vgas_kms": 42.67,
+        "Vdisk_kms": 109.5,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.29,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 30.08,
+        "Vobs_kms": 169.0,
+        "errV_kms": 10.6,
+        "Vgas_kms": 40.52,
+        "Vdisk_kms": 103.96,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.14,
+        "SBbul_L_pc2": 0.0
+      },
+      {
+        "Rad_kpc": 32.52,
+        "Vobs_kms": 167.0,
+        "errV_kms": 15.2,
+        "Vgas_kms": 39.01,
+        "Vdisk_kms": 99.53,
+        "Vbul_kms": 0.0,
+        "SBdisk_L_pc2": 0.0,
+        "SBbul_L_pc2": 0.0
+      }
+    ]
+  }
+}
