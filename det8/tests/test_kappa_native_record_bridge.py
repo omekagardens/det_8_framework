@@ -127,6 +127,35 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertEqual(adm_c4["prep1_minus_prep0_on_11_exact"], "-91/44000")
         self.assertEqual(adm_c4["p_D5_prep1_minus_prep0_on_11_exact"], "-41/22000")
 
+        min_rel = res["minimal_relational_information_at_birth_5"]
+        by_id = {item["scheme_id"]: item for item in min_rel["hierarchy"]}
+        self.assertEqual(by_id["current_2bit_Y4_D4"]["n_cells"], 3)
+        self.assertFalse(by_id["current_2bit_Y4_D4"]["all_cells_structurally_unaliased"])
+        # Adding 1-bit counter-1 relay R_4 cuts max preparation discrepancy by >12x
+        self.assertLess(
+            by_id["current_2bit_plus_1bit_relay_R4"]["max_preparation_discrepancy"],
+            by_id["current_2bit_Y4_D4"]["max_preparation_discrepancy"] / 12.0,
+        )
+        # Adding 2-bit relay state (N_{c=1}, is_min(c=1)) to ((Y_3,D_3),(Y_4,D_4)) resolves all 14/14 classes
+        self.assertEqual(
+            by_id["prior_plus_current_2bit_plus_2bit_relay_state"]["n_cells"], 14
+        )
+        self.assertTrue(
+            by_id["prior_plus_current_2bit_plus_2bit_relay_state"][
+                "all_cells_structurally_unaliased"
+            ]
+        )
+        # Adding 1-bit committed root mark r_a = i restores 100% preparation invariance
+        self.assertTrue(
+            by_id["full_unaliased_relay_plus_1bit_root_mark"]["all_cells_prep_invariant"]
+        )
+        self.assertEqual(
+            by_id["full_unaliased_relay_plus_1bit_root_mark"][
+                "max_preparation_discrepancy"
+            ],
+            0.0,
+        )
+
     def test_qr05do_interaction_scale_quotient_anchor_blindness(self) -> None:
         do_res = knrb.evaluate_qr05do_interaction_scale_quotient()
         self.assertEqual(do_res["n_subsets"], 32)

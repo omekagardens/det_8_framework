@@ -370,6 +370,7 @@ class SparcRotmodPoint:
     Vbul_kms: float      # Stellar bulge velocity contribution for M/L = 1 [km/s]
     SBdisk_L_pc2: float  # Stellar disk 3.6 um surface brightness [L_sun/pc^2]
     SBbul_L_pc2: float   # Stellar bulge 3.6 um surface brightness [L_sun/pc^2]
+    Sigma_gas_from_Vgas_1e9_Msun_kpc2: float = 0.0  # Gas surface density inferred from Vgas(r) [10^9 M_sun/kpc^2]
 
 
 def sparc_baryonic_newton_velocity(
@@ -400,21 +401,27 @@ def load_sparc_heldout_rotmod(path: Path | None = None) -> dict[str, dict[str, o
 
 @dataclass(frozen=True, slots=True)
 class GalaxyRadialProfile:
-    """Held-out SPARC galaxy row traceable verbatim to sparc_subset.json and *_rotmod.dat."""
+    """Held-out SPARC galaxy row traceable verbatim to sparc_subset.json, Table1.mrt, and *_rotmod.dat."""
 
     name: str
-    M_star: float                              # Verbatim stellar mass from sparc_subset.json (10^9 M_sun).
+    M_star: float                              # Verbatim stellar mass column from sparc_subset.json (10^9 M_sun).
     r_d: float                                 # Verbatim disk scale length from sparc_subset.json (kpc).
     M_gas: float                               # Verbatim gas column from sparc_subset.json (10^9 M_sun).
-    r_gas: float                               # Standardized HI disk scale length convention 2.0 * r_d (kpc).
+    r_gas: float                               # HI disk scale length calibrated from Table1 RHI (or 2.0 * r_d) (kpc).
     v_flat: float                              # Verbatim V_flat from sparc_subset.json (km/s).
     r_max: float                               # Outermost measured SPARC Rad_kpc (or 8.0 * r_d fallback) (kpc).
-    r_bend_obs_kpc: float                      # Measured SPARC Rad_kpc closest to 2.2 * r_d (kpc).
+    r_bend_obs_kpc: float                      # Empirically measured bend radius from observed rotation curve (kpc).
     radial_points: tuple[tuple[float, float], ...]  # Actual SPARC ((Rad_kpc, Vobs_kms)) points from *_rotmod.dat.
     sparc_subset_line: int = 0                 # Verbatim 1-based line number in det8/data/sparc_subset.json.
-    rotmod_points: tuple[SparcRotmodPoint, ...] = ()  # Complete 8-column SPARC *_rotmod.dat rows.
+    rotmod_points: tuple[SparcRotmodPoint, ...] = ()  # Complete SPARC *_rotmod.dat rows.
     rotmod_sha256: str = ""                    # SHA-256 digest of the verbatim *_rotmod.dat file.
     plateau_grid_points: tuple[tuple[float, float], ...] = ()  # Standardized ((m * r_d, V_flat)) grid.
+    M_star_true_table1: float = 0.0            # True SPARC Table1 stellar mass 0.5 * L[3.6] (10^9 M_sun).
+    MHI_table1: float = 0.0                    # True SPARC Table1 HI gas mass MHI (10^9 M_sun).
+    M_gas_true_table1: float = 0.0             # True SPARC Table1 total gas mass 1.33 * MHI (10^9 M_sun).
+    RHI_kpc: float = 0.0                       # True SPARC Table1 HI radius at 1 M_sun/pc^2 (kpc).
+    r_bend_measured_idx: int = 0               # Index in rotmod_points of empirically measured curve bend.
+    r_bend_measured_method: str = ""           # Empirical bend detection method on observed rotation curve.
 
 
 HELDOUT_PLATEAU_MULTIPLIERS: tuple[float, ...] = (2.2, 3.0, 4.0, 5.0, 6.0, 8.0)
@@ -430,13 +437,29 @@ def _make_traceable_sparc_profile(
     v_flat: float,
     sparc_subset_line: int,
 ) -> GalaxyRadialProfile:
-    """Build a GalaxyRadialProfile from verbatim sparc_subset.json and *_rotmod.dat rows."""
+    """Build a GalaxyRadialProfile from verbatim sparc_subset.json, Table1.mrt, and *_rotmod.dat rows."""
     plateau_grid = tuple((round(m * r_d, 6), v_flat) for m in HELDOUT_PLATEAU_MULTIPLIERS)
     entry = _CACHED_ROTMOD_TABLES.get(name)
     rot_pts: tuple[SparcRotmodPoint, ...] = ()
     sha = ""
+    ms_true = M_star
+    mhi_t1 = M_gas
+    mg_true = round(1.33 * M_gas, 6)
+    rhi_val = 0.0
+    rg_val = round(2.0 * r_d, 6)
+    b_idx = 0
+    b_method = "rule_2p2_rd"
+    r_bend_val = round(2.2 * r_d, 6)
+
     if isinstance(entry, dict):
         sha = str(entry.get("sha256", ""))
+        ms_true = float(entry.get("M_star_true_1e9Msun", M_star))
+        mhi_t1 = float(entry.get("MHI_1e9Msun", M_gas))
+        mg_true = float(entry.get("M_gas_true_1e9Msun", round(1.33 * M_gas, 6)))
+        rhi_val = float(entry.get("RHI_kpc", 0.0))
+        rg_val = float(entry.get("r_gas_from_RHI_kpc", round(2.0 * r_d, 6)))
+        b_idx = int(entry.get("r_bend_measured_idx", 0))
+        b_method = str(entry.get("r_bend_measured_method", "first_ge_0p85_vflat"))
         raw_pts = entry.get("points", [])
         if isinstance(raw_pts, list):
             rot_pts = tuple(
@@ -449,24 +472,30 @@ def _make_traceable_sparc_profile(
                     Vbul_kms=float(p["Vbul_kms"]),
                     SBdisk_L_pc2=float(p["SBdisk_L_pc2"]),
                     SBbul_L_pc2=float(p["SBbul_L_pc2"]),
+                    Sigma_gas_from_Vgas_1e9_Msun_kpc2=float(
+                        p.get("Sigma_gas_from_Vgas_1e9_Msun_kpc2", 0.0)
+                    ),
                 )
                 for p in raw_pts
             )
     if rot_pts:
         rad_pts = tuple((p.Rad_kpc, p.Vobs_kms) for p in rot_pts)
         r_max_val = rot_pts[-1].Rad_kpc
-        r_bend_val = min(rot_pts, key=lambda p: abs(p.Rad_kpc - 2.2 * r_d)).Rad_kpc
+        r_bend_val = float(
+            entry.get("r_bend_measured_kpc", rot_pts[min(b_idx, len(rot_pts) - 1)].Rad_kpc)
+            if isinstance(entry, dict)
+            else rot_pts[min(b_idx, len(rot_pts) - 1)].Rad_kpc
+        )
     else:
         rad_pts = plateau_grid
         r_max_val = round(8.0 * r_d, 6)
-        r_bend_val = round(2.2 * r_d, 6)
 
     return GalaxyRadialProfile(
         name=name,
         M_star=M_star,
         r_d=r_d,
         M_gas=M_gas,
-        r_gas=round(2.0 * r_d, 6),
+        r_gas=rg_val,
         v_flat=v_flat,
         r_max=r_max_val,
         r_bend_obs_kpc=r_bend_val,
@@ -475,6 +504,12 @@ def _make_traceable_sparc_profile(
         rotmod_points=rot_pts,
         rotmod_sha256=sha,
         plateau_grid_points=plateau_grid,
+        M_star_true_table1=ms_true,
+        MHI_table1=mhi_t1,
+        M_gas_true_table1=mg_true,
+        RHI_kpc=rhi_val,
+        r_bend_measured_idx=b_idx,
+        r_bend_measured_method=b_method,
     )
 
 

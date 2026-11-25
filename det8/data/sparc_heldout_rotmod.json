@@ -17,7 +17,8 @@
         "Vdisk_kms": 9.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 26.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02421136
       },
       {
         "Rad_kpc": 0.9,
@@ -27,7 +28,8 @@
         "Vdisk_kms": 15.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 19.64,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01574687
       },
       {
         "Rad_kpc": 1.35,
@@ -37,7 +39,8 @@
         "Vdisk_kms": 20.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 12.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01420596
       },
       {
         "Rad_kpc": 1.8,
@@ -47,7 +50,8 @@
         "Vdisk_kms": 21.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0117507
       },
       {
         "Rad_kpc": 2.25,
@@ -57,7 +61,8 @@
         "Vdisk_kms": 19.92,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00945679
       },
       {
         "Rad_kpc": 2.69,
@@ -67,7 +72,8 @@
         "Vdisk_kms": 18.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.13,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00708304
       },
       {
         "Rad_kpc": 3.14,
@@ -77,7 +83,8 @@
         "Vdisk_kms": 17.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.54,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00500497
       },
       {
         "Rad_kpc": 3.59,
@@ -87,7 +94,8 @@
         "Vdisk_kms": 16.32,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0037631
       },
       {
         "Rad_kpc": 4.04,
@@ -97,7 +105,8 @@
         "Vdisk_kms": 15.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.18,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00257593
       },
       {
         "Rad_kpc": 4.49,
@@ -107,7 +116,8 @@
         "Vdisk_kms": 14.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00171193
       },
       {
         "Rad_kpc": 4.94,
@@ -117,7 +127,8 @@
         "Vdisk_kms": 13.72,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00112401
       },
       {
         "Rad_kpc": 5.39,
@@ -127,7 +138,8 @@
         "Vdisk_kms": 13.04,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.000611
       },
       {
         "Rad_kpc": 5.84,
@@ -137,7 +149,8 @@
         "Vdisk_kms": 12.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00032605
       },
       {
         "Rad_kpc": 6.29,
@@ -147,7 +160,8 @@
         "Vdisk_kms": 11.93,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00010816
       },
       {
         "Rad_kpc": 6.74,
@@ -157,7 +171,8 @@
         "Vdisk_kms": 11.48,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 7.19,
@@ -167,9 +182,23 @@
         "Vdisk_kms": 11.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 102,
+    "L36_1e9Lsun": 0.196,
+    "M_star_true_1e9Msun": 0.098,
+    "MHI_1e9Msun": 0.29,
+    "M_gas_true_1e9Msun": 0.3857,
+    "RHI_kpc": 0.0,
+    "r_gas_from_RHI_kpc": 1.4,
+    "e_Vflat_kms": 2.7,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 9,
+    "r_bend_measured_kpc": 4.49,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "DDO064": {
     "name": "DDO064",
@@ -189,7 +218,8 @@
         "Vdisk_kms": 1.96,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 28.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 0.3,
@@ -199,7 +229,8 @@
         "Vdisk_kms": 6.31,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 27.26,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 0.49,
@@ -209,7 +240,8 @@
         "Vdisk_kms": 9.67,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 24.99,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00082825
       },
       {
         "Rad_kpc": 0.69,
@@ -219,7 +251,8 @@
         "Vdisk_kms": 13.92,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 20.86,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0004172
       },
       {
         "Rad_kpc": 0.89,
@@ -229,7 +262,8 @@
         "Vdisk_kms": 15.16,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.91,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00235351
       },
       {
         "Rad_kpc": 1.09,
@@ -239,7 +273,8 @@
         "Vdisk_kms": 16.41,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 11.73,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00918326
       },
       {
         "Rad_kpc": 1.29,
@@ -249,7 +284,8 @@
         "Vdisk_kms": 17.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.3,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01821006
       },
       {
         "Rad_kpc": 1.48,
@@ -259,7 +295,8 @@
         "Vdisk_kms": 18.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.96,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02133454
       },
       {
         "Rad_kpc": 1.68,
@@ -269,7 +306,8 @@
         "Vdisk_kms": 19.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01901919
       },
       {
         "Rad_kpc": 1.88,
@@ -279,7 +317,8 @@
         "Vdisk_kms": 19.54,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.97,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0176205
       },
       {
         "Rad_kpc": 2.08,
@@ -289,7 +328,8 @@
         "Vdisk_kms": 19.1,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.84,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01384245
       },
       {
         "Rad_kpc": 2.27,
@@ -299,7 +339,8 @@
         "Vdisk_kms": 18.77,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.16,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0113775
       },
       {
         "Rad_kpc": 2.37,
@@ -309,7 +350,8 @@
         "Vdisk_kms": 18.61,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.86,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01189933
       },
       {
         "Rad_kpc": 2.98,
@@ -319,9 +361,23 @@
         "Vdisk_kms": 17.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00936117
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 103,
+    "L36_1e9Lsun": 0.157,
+    "M_star_true_1e9Msun": 0.0785,
+    "MHI_1e9Msun": 0.211,
+    "M_gas_true_1e9Msun": 0.28063,
+    "RHI_kpc": 3.49,
+    "r_gas_from_RHI_kpc": 0.984323,
+    "e_Vflat_kms": 3.9,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 7,
+    "r_bend_measured_kpc": 1.48,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "DDO168": {
     "name": "DDO168",
@@ -341,7 +397,8 @@
         "Vdisk_kms": 8.28,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 20.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.04921648
       },
       {
         "Rad_kpc": 0.82,
@@ -351,7 +408,8 @@
         "Vdisk_kms": 12.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02479074
       },
       {
         "Rad_kpc": 1.24,
@@ -361,7 +419,8 @@
         "Vdisk_kms": 15.11,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.79,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01459603
       },
       {
         "Rad_kpc": 1.64,
@@ -371,7 +430,8 @@
         "Vdisk_kms": 15.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.9,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01366139
       },
       {
         "Rad_kpc": 2.06,
@@ -381,7 +441,8 @@
         "Vdisk_kms": 16.89,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01289108
       },
       {
         "Rad_kpc": 2.47,
@@ -391,7 +452,8 @@
         "Vdisk_kms": 17.03,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00947693
       },
       {
         "Rad_kpc": 2.89,
@@ -401,7 +463,8 @@
         "Vdisk_kms": 16.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00681014
       },
       {
         "Rad_kpc": 3.3,
@@ -411,7 +474,8 @@
         "Vdisk_kms": 17.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.56,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0054184
       },
       {
         "Rad_kpc": 3.71,
@@ -421,7 +485,8 @@
         "Vdisk_kms": 17.16,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.82,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00515683
       },
       {
         "Rad_kpc": 4.12,
@@ -431,9 +496,23 @@
         "Vdisk_kms": 16.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00464365
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 106,
+    "L36_1e9Lsun": 0.191,
+    "M_star_true_1e9Msun": 0.0955,
+    "MHI_1e9Msun": 0.413,
+    "M_gas_true_1e9Msun": 0.54929,
+    "RHI_kpc": 4.3,
+    "r_gas_from_RHI_kpc": 1.053651,
+    "e_Vflat_kms": 1.9,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 5,
+    "r_bend_measured_kpc": 2.47,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "ESO079-G014": {
     "name": "ESO079-G014",
@@ -453,7 +532,8 @@
         "Vdisk_kms": 28.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 455.28,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00270029
       },
       {
         "Rad_kpc": 0.98,
@@ -463,7 +543,8 @@
         "Vdisk_kms": 47.6,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 284.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00217971
       },
       {
         "Rad_kpc": 1.78,
@@ -473,7 +554,8 @@
         "Vdisk_kms": 62.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 213.32,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00215859
       },
       {
         "Rad_kpc": 2.69,
@@ -483,7 +565,8 @@
         "Vdisk_kms": 75.48,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 152.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00175887
       },
       {
         "Rad_kpc": 3.36,
@@ -493,7 +576,8 @@
         "Vdisk_kms": 82.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 142.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00118034
       },
       {
         "Rad_kpc": 4.39,
@@ -503,7 +587,8 @@
         "Vdisk_kms": 86.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 105.73,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00083452
       },
       {
         "Rad_kpc": 5.65,
@@ -513,7 +598,8 @@
         "Vdisk_kms": 92.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 92.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00095144
       },
       {
         "Rad_kpc": 6.34,
@@ -523,7 +609,8 @@
         "Vdisk_kms": 96.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 89.82,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0021689
       },
       {
         "Rad_kpc": 6.89,
@@ -533,7 +620,8 @@
         "Vdisk_kms": 100.53,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 87.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00486963
       },
       {
         "Rad_kpc": 8.34,
@@ -543,7 +631,8 @@
         "Vdisk_kms": 113.81,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 78.45,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00693401
       },
       {
         "Rad_kpc": 10.04,
@@ -553,7 +642,8 @@
         "Vdisk_kms": 128.72,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 58.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00950749
       },
       {
         "Rad_kpc": 11.65,
@@ -563,7 +653,8 @@
         "Vdisk_kms": 133.41,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 39.79,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01110858
       },
       {
         "Rad_kpc": 13.36,
@@ -573,7 +664,8 @@
         "Vdisk_kms": 132.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 23.18,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01005918
       },
       {
         "Rad_kpc": 15.06,
@@ -583,7 +675,8 @@
         "Vdisk_kms": 128.51,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 15.89,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00728991
       },
       {
         "Rad_kpc": 16.67,
@@ -593,9 +686,23 @@
         "Vdisk_kms": 124.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.92,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00541371
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 108,
+    "L36_1e9Lsun": 51.733,
+    "M_star_true_1e9Msun": 25.8665,
+    "MHI_1e9Msun": 3.14,
+    "M_gas_true_1e9Msun": 4.1762,
+    "RHI_kpc": 17.67,
+    "r_gas_from_RHI_kpc": 8.835,
+    "e_Vflat_kms": 3.5,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 9,
+    "r_bend_measured_kpc": 8.34,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "ESO116-G012": {
     "name": "ESO116-G012",
@@ -615,7 +722,8 @@
         "Vdisk_kms": 17.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 276.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 0.83,
@@ -625,7 +733,8 @@
         "Vdisk_kms": 34.96,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 168.99,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.38,
@@ -635,7 +744,8 @@
         "Vdisk_kms": 51.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 141.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00122052
       },
       {
         "Rad_kpc": 1.85,
@@ -645,7 +755,8 @@
         "Vdisk_kms": 61.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 81.24,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00648321
       },
       {
         "Rad_kpc": 2.68,
@@ -655,7 +766,8 @@
         "Vdisk_kms": 60.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 46.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00866524
       },
       {
         "Rad_kpc": 3.19,
@@ -665,7 +777,8 @@
         "Vdisk_kms": 63.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 41.4,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01251043
       },
       {
         "Rad_kpc": 3.68,
@@ -675,7 +788,8 @@
         "Vdisk_kms": 65.14,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 30.23,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0124936
       },
       {
         "Rad_kpc": 4.13,
@@ -685,7 +799,8 @@
         "Vdisk_kms": 66.32,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 24.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01118614
       },
       {
         "Rad_kpc": 5.23,
@@ -695,7 +810,8 @@
         "Vdisk_kms": 64.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.48,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00901493
       },
       {
         "Rad_kpc": 6.05,
@@ -705,7 +821,8 @@
         "Vdisk_kms": 60.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.57,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00823228
       },
       {
         "Rad_kpc": 6.81,
@@ -715,7 +832,8 @@
         "Vdisk_kms": 55.74,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.78,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00943671
       },
       {
         "Rad_kpc": 7.56,
@@ -725,7 +843,8 @@
         "Vdisk_kms": 53.61,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.04,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01283255
       },
       {
         "Rad_kpc": 8.32,
@@ -735,7 +854,8 @@
         "Vdisk_kms": 51.18,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.21,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01256742
       },
       {
         "Rad_kpc": 9.09,
@@ -745,7 +865,8 @@
         "Vdisk_kms": 49.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0044997
       },
       {
         "Rad_kpc": 9.86,
@@ -755,9 +876,23 @@
         "Vdisk_kms": 46.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 109,
+    "L36_1e9Lsun": 4.292,
+    "M_star_true_1e9Msun": 2.146,
+    "MHI_1e9Msun": 1.083,
+    "M_gas_true_1e9Msun": 1.44039,
+    "RHI_kpc": 9.58,
+    "r_gas_from_RHI_kpc": 4.223124,
+    "e_Vflat_kms": 3.1,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 7,
+    "r_bend_measured_kpc": 4.13,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "ESO563-G021": {
     "name": "ESO563-G021",
@@ -777,7 +912,8 @@
         "Vdisk_kms": 65.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2096.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.34,
@@ -787,7 +923,8 @@
         "Vdisk_kms": 120.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 997.68,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 2.23,
@@ -797,7 +934,8 @@
         "Vdisk_kms": 137.48,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 691.26,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 3.12,
@@ -807,7 +945,8 @@
         "Vdisk_kms": 146.18,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 574.33,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 4.01,
@@ -817,7 +956,8 @@
         "Vdisk_kms": 157.86,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 548.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 4.9,
@@ -827,7 +967,8 @@
         "Vdisk_kms": 175.79,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 524.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 5.79,
@@ -837,7 +978,8 @@
         "Vdisk_kms": 199.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 483.52,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 6.69,
@@ -847,7 +989,8 @@
         "Vdisk_kms": 217.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 426.75,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 7.58,
@@ -857,7 +1000,8 @@
         "Vdisk_kms": 228.65,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 376.92,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 8.47,
@@ -867,7 +1011,8 @@
         "Vdisk_kms": 241.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 345.98,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 10.23,
@@ -877,7 +1022,8 @@
         "Vdisk_kms": 260.94,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 282.74,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 2e-08
       },
       {
         "Rad_kpc": 12.06,
@@ -887,7 +1033,8 @@
         "Vdisk_kms": 275.04,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 199.54,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 2.06e-06
       },
       {
         "Rad_kpc": 13.44,
@@ -897,7 +1044,8 @@
         "Vdisk_kms": 277.98,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 164.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00012953
       },
       {
         "Rad_kpc": 15.18,
@@ -907,7 +1055,8 @@
         "Vdisk_kms": 282.25,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 131.46,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0027867
       },
       {
         "Rad_kpc": 16.83,
@@ -917,7 +1066,8 @@
         "Vdisk_kms": 283.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 96.52,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00624033
       },
       {
         "Rad_kpc": 18.56,
@@ -927,7 +1077,8 @@
         "Vdisk_kms": 276.47,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 70.44,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01051798
       },
       {
         "Rad_kpc": 20.3,
@@ -937,7 +1088,8 @@
         "Vdisk_kms": 272.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 62.6,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00811915
       },
       {
         "Rad_kpc": 21.94,
@@ -947,7 +1099,8 @@
         "Vdisk_kms": 273.0,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 50.58,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0075227
       },
       {
         "Rad_kpc": 23.68,
@@ -957,7 +1110,8 @@
         "Vdisk_kms": 271.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 32.65,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01198174
       },
       {
         "Rad_kpc": 25.41,
@@ -967,7 +1121,8 @@
         "Vdisk_kms": 261.62,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 19.67,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00892477
       },
       {
         "Rad_kpc": 27.06,
@@ -977,7 +1132,8 @@
         "Vdisk_kms": 252.97,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.79,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00095307
       },
       {
         "Rad_kpc": 28.8,
@@ -987,7 +1143,8 @@
         "Vdisk_kms": 243.84,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.98,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0015031
       },
       {
         "Rad_kpc": 30.53,
@@ -997,7 +1154,8 @@
         "Vdisk_kms": 233.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.31,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01243658
       },
       {
         "Rad_kpc": 32.18,
@@ -1007,7 +1165,8 @@
         "Vdisk_kms": 224.75,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.73,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02000604
       },
       {
         "Rad_kpc": 33.91,
@@ -1017,7 +1176,8 @@
         "Vdisk_kms": 216.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.63,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01466504
       },
       {
         "Rad_kpc": 35.65,
@@ -1027,7 +1187,8 @@
         "Vdisk_kms": 208.83,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00879851
       },
       {
         "Rad_kpc": 37.3,
@@ -1037,7 +1198,8 @@
         "Vdisk_kms": 202.65,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00575564
       },
       {
         "Rad_kpc": 39.03,
@@ -1047,7 +1209,8 @@
         "Vdisk_kms": 196.77,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00249612
       },
       {
         "Rad_kpc": 40.76,
@@ -1057,7 +1220,8 @@
         "Vdisk_kms": 191.39,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00252889
       },
       {
         "Rad_kpc": 42.41,
@@ -1067,9 +1231,23 @@
         "Vdisk_kms": 186.89,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00286597
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 111,
+    "L36_1e9Lsun": 311.177,
+    "M_star_true_1e9Msun": 155.5885,
+    "MHI_1e9Msun": 24.298,
+    "M_gas_true_1e9Msun": 32.31634,
+    "RHI_kpc": 55.71,
+    "r_gas_from_RHI_kpc": 27.855,
+    "e_Vflat_kms": 11.7,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 8,
+    "r_bend_measured_kpc": 7.58,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F561-1": {
     "name": "F561-1",
@@ -1089,7 +1267,8 @@
         "Vdisk_kms": 28.61,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 43.88,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0044991
       },
       {
         "Rad_kpc": 3.23,
@@ -1099,7 +1278,8 @@
         "Vdisk_kms": 37.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 19.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00408114
       },
       {
         "Rad_kpc": 4.84,
@@ -1109,7 +1289,8 @@
         "Vdisk_kms": 39.1,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.19,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0058574
       },
       {
         "Rad_kpc": 6.45,
@@ -1119,7 +1300,8 @@
         "Vdisk_kms": 44.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 11.07,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00755571
       },
       {
         "Rad_kpc": 8.06,
@@ -1129,7 +1311,8 @@
         "Vdisk_kms": 48.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00778229
       },
       {
         "Rad_kpc": 9.66,
@@ -1139,9 +1322,23 @@
         "Vdisk_kms": 49.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.35,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00678482
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 112,
+    "L36_1e9Lsun": 4.077,
+    "M_star_true_1e9Msun": 2.0385,
+    "MHI_1e9Msun": 1.622,
+    "M_gas_true_1e9Msun": 2.15726,
+    "RHI_kpc": 10.69,
+    "r_gas_from_RHI_kpc": 3.521072,
+    "e_Vflat_kms": 2.9,
+    "Q_flag": 3,
+    "r_bend_measured_idx": 2,
+    "r_bend_measured_kpc": 4.84,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F563-1": {
     "name": "F563-1",
@@ -1161,7 +1358,8 @@
         "Vdisk_kms": 18.3,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 33.42,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00120358
       },
       {
         "Rad_kpc": 1.78,
@@ -1171,7 +1369,8 @@
         "Vdisk_kms": 24.51,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 20.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00136232
       },
       {
         "Rad_kpc": 2.49,
@@ -1181,7 +1380,8 @@
         "Vdisk_kms": 27.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.31,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00188367
       },
       {
         "Rad_kpc": 2.97,
@@ -1191,7 +1391,8 @@
         "Vdisk_kms": 28.28,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.63,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00221468
       },
       {
         "Rad_kpc": 3.04,
@@ -1201,7 +1402,8 @@
         "Vdisk_kms": 28.2,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.31,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00277517
       },
       {
         "Rad_kpc": 3.19,
@@ -1211,7 +1413,8 @@
         "Vdisk_kms": 28.16,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.15,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00597528
       },
       {
         "Rad_kpc": 6.95,
@@ -1221,7 +1424,8 @@
         "Vdisk_kms": 29.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.35,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00418964
       },
       {
         "Rad_kpc": 8.58,
@@ -1231,7 +1435,8 @@
         "Vdisk_kms": 29.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.88,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0066015
       },
       {
         "Rad_kpc": 9.26,
@@ -1241,7 +1446,8 @@
         "Vdisk_kms": 28.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.68,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00784823
       },
       {
         "Rad_kpc": 9.89,
@@ -1251,7 +1457,8 @@
         "Vdisk_kms": 28.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.49,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00808461
       },
       {
         "Rad_kpc": 10.08,
@@ -1261,7 +1468,8 @@
         "Vdisk_kms": 28.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00796291
       },
       {
         "Rad_kpc": 11.84,
@@ -1271,7 +1479,8 @@
         "Vdisk_kms": 27.77,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00416631
       },
       {
         "Rad_kpc": 14.56,
@@ -1281,7 +1490,8 @@
         "Vdisk_kms": 25.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00231237
       },
       {
         "Rad_kpc": 15.43,
@@ -1291,7 +1501,8 @@
         "Vdisk_kms": 25.11,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.28,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00459841
       },
       {
         "Rad_kpc": 17.93,
@@ -1301,7 +1512,8 @@
         "Vdisk_kms": 23.48,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00454047
       },
       {
         "Rad_kpc": 19.02,
@@ -1311,7 +1523,8 @@
         "Vdisk_kms": 22.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00461568
       },
       {
         "Rad_kpc": 20.1,
@@ -1321,9 +1534,23 @@
         "Vdisk_kms": 22.07,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00453538
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 113,
+    "L36_1e9Lsun": 1.903,
+    "M_star_true_1e9Msun": 0.9515,
+    "MHI_1e9Msun": 3.2,
+    "M_gas_true_1e9Msun": 4.256,
+    "RHI_kpc": 23.47,
+    "r_gas_from_RHI_kpc": 11.735,
+    "e_Vflat_kms": 12.5,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 7,
+    "r_bend_measured_kpc": 8.58,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F568-V1": {
     "name": "F568-V1",
@@ -1343,7 +1570,8 @@
         "Vdisk_kms": 12.25,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 99.83,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.18,
@@ -1353,7 +1581,8 @@
         "Vdisk_kms": 28.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 60.79,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.95,
@@ -1363,7 +1592,8 @@
         "Vdisk_kms": 34.78,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 34.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 2.74,
@@ -1373,7 +1603,8 @@
         "Vdisk_kms": 37.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 27.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00044484
       },
       {
         "Rad_kpc": 3.53,
@@ -1383,7 +1614,8 @@
         "Vdisk_kms": 41.2,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 22.68,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00155646
       },
       {
         "Rad_kpc": 4.3,
@@ -1393,7 +1625,8 @@
         "Vdisk_kms": 44.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.78,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00247554
       },
       {
         "Rad_kpc": 5.09,
@@ -1403,7 +1636,8 @@
         "Vdisk_kms": 45.35,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 11.52,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00293933
       },
       {
         "Rad_kpc": 5.87,
@@ -1413,7 +1647,8 @@
         "Vdisk_kms": 44.94,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00332741
       },
       {
         "Rad_kpc": 6.4,
@@ -1423,7 +1658,8 @@
         "Vdisk_kms": 45.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.08,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00478239
       },
       {
         "Rad_kpc": 7.44,
@@ -1433,7 +1669,8 @@
         "Vdisk_kms": 45.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.21,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0056294
       },
       {
         "Rad_kpc": 8.21,
@@ -1443,7 +1680,8 @@
         "Vdisk_kms": 46.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.32,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00748615
       },
       {
         "Rad_kpc": 9.0,
@@ -1453,7 +1691,8 @@
         "Vdisk_kms": 44.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00920157
       },
       {
         "Rad_kpc": 9.72,
@@ -1463,7 +1702,8 @@
         "Vdisk_kms": 43.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.45,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01235687
       },
       {
         "Rad_kpc": 11.79,
@@ -1473,7 +1713,8 @@
         "Vdisk_kms": 40.77,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00645275
       },
       {
         "Rad_kpc": 17.63,
@@ -1483,9 +1724,23 @@
         "Vdisk_kms": 33.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00326008
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 120,
+    "L36_1e9Lsun": 3.825,
+    "M_star_true_1e9Msun": 1.9125,
+    "MHI_1e9Msun": 2.491,
+    "M_gas_true_1e9Msun": 3.31303,
+    "RHI_kpc": 14.38,
+    "r_gas_from_RHI_kpc": 5.964781,
+    "e_Vflat_kms": 15.8,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 5,
+    "r_bend_measured_kpc": 4.3,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F571-8": {
     "name": "F571-8",
@@ -1505,7 +1760,8 @@
         "Vdisk_kms": 38.29,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1846.57,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00161395
       },
       {
         "Rad_kpc": 0.78,
@@ -1515,7 +1771,8 @@
         "Vdisk_kms": 85.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 705.48,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00085649
       },
       {
         "Rad_kpc": 1.33,
@@ -1525,7 +1782,8 @@
         "Vdisk_kms": 104.0,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 403.21,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00109263
       },
       {
         "Rad_kpc": 2.33,
@@ -1535,7 +1793,8 @@
         "Vdisk_kms": 114.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 121.25,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0011491
       },
       {
         "Rad_kpc": 3.44,
@@ -1545,7 +1804,8 @@
         "Vdisk_kms": 107.32,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 35.98,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00099721
       },
       {
         "Rad_kpc": 3.78,
@@ -1555,7 +1815,8 @@
         "Vdisk_kms": 103.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 25.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00121614
       },
       {
         "Rad_kpc": 4.77,
@@ -1565,7 +1826,8 @@
         "Vdisk_kms": 92.03,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.51,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0010929
       },
       {
         "Rad_kpc": 5.44,
@@ -1575,7 +1837,8 @@
         "Vdisk_kms": 86.43,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.64,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00105296
       },
       {
         "Rad_kpc": 6.11,
@@ -1585,7 +1848,8 @@
         "Vdisk_kms": 81.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00121336
       },
       {
         "Rad_kpc": 7.22,
@@ -1595,7 +1859,8 @@
         "Vdisk_kms": 76.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.4,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00102088
       },
       {
         "Rad_kpc": 9.33,
@@ -1605,7 +1870,8 @@
         "Vdisk_kms": 68.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.8,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00077071
       },
       {
         "Rad_kpc": 11.1,
@@ -1615,7 +1881,8 @@
         "Vdisk_kms": 64.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.77,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0004241
       },
       {
         "Rad_kpc": 15.55,
@@ -1625,9 +1892,23 @@
         "Vdisk_kms": 55.43,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00023151
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 121,
+    "L36_1e9Lsun": 10.164,
+    "M_star_true_1e9Msun": 5.082,
+    "MHI_1e9Msun": 1.782,
+    "M_gas_true_1e9Msun": 2.37006,
+    "RHI_kpc": 24.55,
+    "r_gas_from_RHI_kpc": 12.275,
+    "e_Vflat_kms": 4.3,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 9,
+    "r_bend_measured_kpc": 7.22,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F571-V1": {
     "name": "F571-V1",
@@ -1647,7 +1928,8 @@
         "Vdisk_kms": 23.82,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 23.44,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0075157
       },
       {
         "Rad_kpc": 3.88,
@@ -1657,7 +1939,8 @@
         "Vdisk_kms": 35.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.77,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00592734
       },
       {
         "Rad_kpc": 5.83,
@@ -1667,7 +1950,8 @@
         "Vdisk_kms": 33.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.16,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00690901
       },
       {
         "Rad_kpc": 7.78,
@@ -1677,7 +1961,8 @@
         "Vdisk_kms": 32.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00724551
       },
       {
         "Rad_kpc": 9.72,
@@ -1687,7 +1972,8 @@
         "Vdisk_kms": 31.97,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.23,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00582501
       },
       {
         "Rad_kpc": 11.66,
@@ -1697,7 +1983,8 @@
         "Vdisk_kms": 29.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.46,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00230662
       },
       {
         "Rad_kpc": 13.59,
@@ -1707,9 +1994,23 @@
         "Vdisk_kms": 26.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00028743
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 122,
+    "L36_1e9Lsun": 1.849,
+    "M_star_true_1e9Msun": 0.9245,
+    "MHI_1e9Msun": 1.217,
+    "M_gas_true_1e9Msun": 1.61861,
+    "RHI_kpc": 10.1,
+    "r_gas_from_RHI_kpc": 4.297543,
+    "e_Vflat_kms": 3.5,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 3,
+    "r_bend_measured_kpc": 7.78,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F574-1": {
     "name": "F574-1",
@@ -1729,7 +2030,8 @@
         "Vdisk_kms": 12.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 104.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 8.898e-05
       },
       {
         "Rad_kpc": 1.41,
@@ -1739,7 +2041,8 @@
         "Vdisk_kms": 32.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 69.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00011552
       },
       {
         "Rad_kpc": 2.35,
@@ -1749,7 +2052,8 @@
         "Vdisk_kms": 41.13,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 36.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00031123
       },
       {
         "Rad_kpc": 3.29,
@@ -1759,7 +2063,8 @@
         "Vdisk_kms": 42.43,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 24.85,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00069831
       },
       {
         "Rad_kpc": 4.22,
@@ -1769,7 +2074,8 @@
         "Vdisk_kms": 44.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 21.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00128844
       },
       {
         "Rad_kpc": 5.17,
@@ -1779,7 +2085,8 @@
         "Vdisk_kms": 46.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00205041
       },
       {
         "Rad_kpc": 6.11,
@@ -1789,7 +2096,8 @@
         "Vdisk_kms": 48.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00291349
       },
       {
         "Rad_kpc": 7.05,
@@ -1799,7 +2107,8 @@
         "Vdisk_kms": 49.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.54,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00390083
       },
       {
         "Rad_kpc": 7.99,
@@ -1809,7 +2118,8 @@
         "Vdisk_kms": 50.15,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.66,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00493816
       },
       {
         "Rad_kpc": 8.92,
@@ -1819,7 +2129,8 @@
         "Vdisk_kms": 49.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.85,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0059775
       },
       {
         "Rad_kpc": 9.87,
@@ -1829,7 +2140,8 @@
         "Vdisk_kms": 49.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.33,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00707687
       },
       {
         "Rad_kpc": 10.79,
@@ -1839,7 +2151,8 @@
         "Vdisk_kms": 50.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00774593
       },
       {
         "Rad_kpc": 11.8,
@@ -1849,7 +2162,8 @@
         "Vdisk_kms": 50.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00798814
       },
       {
         "Rad_kpc": 12.6,
@@ -1859,9 +2173,23 @@
         "Vdisk_kms": 50.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.23,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00815745
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 123,
+    "L36_1e9Lsun": 6.537,
+    "M_star_true_1e9Msun": 3.2685,
+    "MHI_1e9Msun": 3.524,
+    "M_gas_true_1e9Msun": 4.68692,
+    "RHI_kpc": 16.19,
+    "r_gas_from_RHI_kpc": 5.645587,
+    "e_Vflat_kms": 4.1,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 5,
+    "r_bend_measured_kpc": 5.17,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "F579-V1": {
     "name": "F579-V1",
@@ -1881,7 +2209,8 @@
         "Vdisk_kms": 15.39,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 166.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.47,
@@ -1891,7 +2220,8 @@
         "Vdisk_kms": 40.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 105.56,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 2.11,
@@ -1901,7 +2231,8 @@
         "Vdisk_kms": 48.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 77.92,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 2.84,
@@ -1911,7 +2242,8 @@
         "Vdisk_kms": 53.6,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 57.77,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00098804
       },
       {
         "Rad_kpc": 3.9,
@@ -1921,7 +2253,8 @@
         "Vdisk_kms": 57.61,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 47.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00259435
       },
       {
         "Rad_kpc": 4.74,
@@ -1931,7 +2264,8 @@
         "Vdisk_kms": 63.1,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 41.35,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00375744
       },
       {
         "Rad_kpc": 5.69,
@@ -1941,7 +2275,8 @@
         "Vdisk_kms": 67.96,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 32.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00362042
       },
       {
         "Rad_kpc": 6.32,
@@ -1951,7 +2286,8 @@
         "Vdisk_kms": 69.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 27.41,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00480813
       },
       {
         "Rad_kpc": 7.37,
@@ -1961,7 +2297,8 @@
         "Vdisk_kms": 72.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 20.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00574487
       },
       {
         "Rad_kpc": 8.21,
@@ -1971,7 +2308,8 @@
         "Vdisk_kms": 72.55,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.56,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00641662
       },
       {
         "Rad_kpc": 9.16,
@@ -1981,7 +2319,8 @@
         "Vdisk_kms": 73.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.22,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00609318
       },
       {
         "Rad_kpc": 10.85,
@@ -1991,7 +2330,8 @@
         "Vdisk_kms": 73.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.53,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00544098
       },
       {
         "Rad_kpc": 12.21,
@@ -2001,7 +2341,8 @@
         "Vdisk_kms": 69.96,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00633052
       },
       {
         "Rad_kpc": 15.16,
@@ -2011,9 +2352,23 @@
         "Vdisk_kms": 63.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.75,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00558962
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 125,
+    "L36_1e9Lsun": 11.848,
+    "M_star_true_1e9Msun": 5.924,
+    "MHI_1e9Msun": 2.245,
+    "M_gas_true_1e9Msun": 2.98585,
+    "RHI_kpc": 20.96,
+    "r_gas_from_RHI_kpc": 10.48,
+    "e_Vflat_kms": 13.4,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 3,
+    "r_bend_measured_kpc": 2.84,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "IC4202": {
     "name": "IC4202",
@@ -2033,7 +2388,8 @@
         "Vdisk_kms": 20.98,
         "Vbul_kms": 133.76,
         "SBdisk_L_pc2": 335.17,
-        "SBbul_L_pc2": 2678.7
+        "SBbul_L_pc2": 2678.7,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00118747
       },
       {
         "Rad_kpc": 1.59,
@@ -2043,7 +2399,8 @@
         "Vdisk_kms": 40.96,
         "Vbul_kms": 176.62,
         "SBdisk_L_pc2": 322.39,
-        "SBbul_L_pc2": 948.63
+        "SBbul_L_pc2": 948.63,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00050261
       },
       {
         "Rad_kpc": 2.36,
@@ -2053,7 +2410,8 @@
         "Vdisk_kms": 58.24,
         "Vbul_kms": 176.92,
         "SBdisk_L_pc2": 310.83,
-        "SBbul_L_pc2": 463.05
+        "SBbul_L_pc2": 463.05,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 3.13,
@@ -2063,7 +2421,8 @@
         "Vdisk_kms": 74.68,
         "Vbul_kms": 172.53,
         "SBdisk_L_pc2": 299.69,
-        "SBbul_L_pc2": 349.2
+        "SBbul_L_pc2": 349.2,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 3.95,
@@ -2073,7 +2432,8 @@
         "Vdisk_kms": 91.45,
         "Vbul_kms": 173.49,
         "SBdisk_L_pc2": 288.26,
-        "SBbul_L_pc2": 188.22
+        "SBbul_L_pc2": 188.22,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 4.73,
@@ -2083,7 +2443,8 @@
         "Vdisk_kms": 107.35,
         "Vbul_kms": 174.08,
         "SBdisk_L_pc2": 276.77,
-        "SBbul_L_pc2": 83.53
+        "SBbul_L_pc2": 83.53,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 5.5,
@@ -2093,7 +2454,8 @@
         "Vdisk_kms": 120.52,
         "Vbul_kms": 167.74,
         "SBdisk_L_pc2": 257.54,
-        "SBbul_L_pc2": 24.93
+        "SBbul_L_pc2": 24.93,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 6.27,
@@ -2103,7 +2465,8 @@
         "Vdisk_kms": 132.68,
         "Vbul_kms": 159.21,
         "SBdisk_L_pc2": 255.77,
-        "SBbul_L_pc2": 7.38
+        "SBbul_L_pc2": 7.38,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 7.08,
@@ -2113,7 +2476,8 @@
         "Vdisk_kms": 150.86,
         "Vbul_kms": 150.44,
         "SBdisk_L_pc2": 254.06,
-        "SBbul_L_pc2": 2.06
+        "SBbul_L_pc2": 2.06,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 1.49e-06
       },
       {
         "Rad_kpc": 7.86,
@@ -2123,7 +2487,8 @@
         "Vdisk_kms": 170.8,
         "Vbul_kms": 142.84,
         "SBdisk_L_pc2": 239.48,
-        "SBbul_L_pc2": 0.6
+        "SBbul_L_pc2": 0.6,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 8.66,
@@ -2133,7 +2498,8 @@
         "Vdisk_kms": 187.59,
         "Vbul_kms": 136.33,
         "SBdisk_L_pc2": 211.03,
-        "SBbul_L_pc2": 0.17
+        "SBbul_L_pc2": 0.17,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00036544
       },
       {
         "Rad_kpc": 9.45,
@@ -2143,7 +2509,8 @@
         "Vdisk_kms": 199.82,
         "Vbul_kms": 130.53,
         "SBdisk_L_pc2": 180.74,
-        "SBbul_L_pc2": 0.05
+        "SBbul_L_pc2": 0.05,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 10.24,
@@ -2153,7 +2520,8 @@
         "Vdisk_kms": 208.12,
         "Vbul_kms": 125.41,
         "SBdisk_L_pc2": 151.13,
-        "SBbul_L_pc2": 0.01
+        "SBbul_L_pc2": 0.01,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 11.02,
@@ -2163,7 +2531,8 @@
         "Vdisk_kms": 212.98,
         "Vbul_kms": 120.9,
         "SBdisk_L_pc2": 124.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0062387
       },
       {
         "Rad_kpc": 11.79,
@@ -2173,7 +2542,8 @@
         "Vdisk_kms": 214.9,
         "Vbul_kms": 116.92,
         "SBdisk_L_pc2": 101.97,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01340684
       },
       {
         "Rad_kpc": 12.47,
@@ -2183,7 +2553,8 @@
         "Vdisk_kms": 214.77,
         "Vbul_kms": 113.67,
         "SBdisk_L_pc2": 85.47,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01866294
       },
       {
         "Rad_kpc": 13.34,
@@ -2193,7 +2564,8 @@
         "Vdisk_kms": 213.03,
         "Vbul_kms": 109.94,
         "SBdisk_L_pc2": 69.15,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02226445
       },
       {
         "Rad_kpc": 14.11,
@@ -2203,7 +2575,8 @@
         "Vdisk_kms": 210.67,
         "Vbul_kms": 106.85,
         "SBdisk_L_pc2": 58.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02176659
       },
       {
         "Rad_kpc": 14.59,
@@ -2213,7 +2586,8 @@
         "Vdisk_kms": 209.26,
         "Vbul_kms": 105.08,
         "SBdisk_L_pc2": 53.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01979092
       },
       {
         "Rad_kpc": 14.98,
@@ -2223,7 +2597,8 @@
         "Vdisk_kms": 208.03,
         "Vbul_kms": 103.7,
         "SBdisk_L_pc2": 48.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01810932
       },
       {
         "Rad_kpc": 15.75,
@@ -2233,7 +2608,8 @@
         "Vdisk_kms": 205.55,
         "Vbul_kms": 101.13,
         "SBdisk_L_pc2": 41.91,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01394158
       },
       {
         "Rad_kpc": 16.52,
@@ -2243,7 +2619,8 @@
         "Vdisk_kms": 203.07,
         "Vbul_kms": 98.75,
         "SBdisk_L_pc2": 35.71,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00982912
       },
       {
         "Rad_kpc": 17.1,
@@ -2253,7 +2630,8 @@
         "Vdisk_kms": 201.06,
         "Vbul_kms": 97.06,
         "SBdisk_L_pc2": 31.62,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00646913
       },
       {
         "Rad_kpc": 17.88,
@@ -2263,7 +2641,8 @@
         "Vdisk_kms": 198.19,
         "Vbul_kms": 94.92,
         "SBdisk_L_pc2": 26.82,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00544262
       },
       {
         "Rad_kpc": 18.65,
@@ -2273,7 +2652,8 @@
         "Vdisk_kms": 195.23,
         "Vbul_kms": 92.94,
         "SBdisk_L_pc2": 22.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00603369
       },
       {
         "Rad_kpc": 19.62,
@@ -2283,7 +2663,8 @@
         "Vdisk_kms": 191.47,
         "Vbul_kms": 90.61,
         "SBdisk_L_pc2": 18.65,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01205898
       },
       {
         "Rad_kpc": 20.78,
@@ -2293,7 +2674,8 @@
         "Vdisk_kms": 186.83,
         "Vbul_kms": 88.05,
         "SBdisk_L_pc2": 14.6,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01979937
       },
       {
         "Rad_kpc": 22.13,
@@ -2303,7 +2685,8 @@
         "Vdisk_kms": 181.4,
         "Vbul_kms": 85.32,
         "SBdisk_L_pc2": 10.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02056393
       },
       {
         "Rad_kpc": 23.0,
@@ -2313,7 +2696,8 @@
         "Vdisk_kms": 177.88,
         "Vbul_kms": 83.69,
         "SBdisk_L_pc2": 9.17,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01747092
       },
       {
         "Rad_kpc": 23.58,
@@ -2323,7 +2707,8 @@
         "Vdisk_kms": 175.64,
         "Vbul_kms": 82.65,
         "SBdisk_L_pc2": 8.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00838449
       },
       {
         "Rad_kpc": 25.03,
@@ -2333,7 +2718,8 @@
         "Vdisk_kms": 170.07,
         "Vbul_kms": 80.22,
         "SBdisk_L_pc2": 6.11,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00337995
       },
       {
         "Rad_kpc": 25.9,
@@ -2343,9 +2729,23 @@
         "Vdisk_kms": 166.98,
         "Vbul_kms": 78.87,
         "SBdisk_L_pc2": 5.18,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00073652
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 129,
+    "L36_1e9Lsun": 179.749,
+    "M_star_true_1e9Msun": 89.8745,
+    "MHI_1e9Msun": 12.326,
+    "M_gas_true_1e9Msun": 16.39358,
+    "RHI_kpc": 32.13,
+    "r_gas_from_RHI_kpc": 13.63985,
+    "e_Vflat_kms": 11.0,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 6,
+    "r_bend_measured_kpc": 5.5,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "KK98-251": {
     "name": "KK98-251",
@@ -2365,7 +2765,8 @@
         "Vdisk_kms": 2.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00337138
       },
       {
         "Rad_kpc": 0.41,
@@ -2375,7 +2776,8 @@
         "Vdisk_kms": 3.93,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00345686
       },
       {
         "Rad_kpc": 0.57,
@@ -2385,7 +2787,8 @@
         "Vdisk_kms": 4.8,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00514768
       },
       {
         "Rad_kpc": 0.74,
@@ -2395,7 +2798,8 @@
         "Vdisk_kms": 6.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.78,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00680262
       },
       {
         "Rad_kpc": 0.9,
@@ -2405,7 +2809,8 @@
         "Vdisk_kms": 7.43,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.71,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00895206
       },
       {
         "Rad_kpc": 1.07,
@@ -2415,7 +2820,8 @@
         "Vdisk_kms": 8.56,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.63,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01097929
       },
       {
         "Rad_kpc": 1.24,
@@ -2425,7 +2831,8 @@
         "Vdisk_kms": 9.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.46,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01248338
       },
       {
         "Rad_kpc": 1.4,
@@ -2435,7 +2842,8 @@
         "Vdisk_kms": 10.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0129231
       },
       {
         "Rad_kpc": 1.57,
@@ -2445,7 +2853,8 @@
         "Vdisk_kms": 10.55,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.42,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01286855
       },
       {
         "Rad_kpc": 1.72,
@@ -2455,7 +2864,8 @@
         "Vdisk_kms": 10.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0127085
       },
       {
         "Rad_kpc": 1.89,
@@ -2465,7 +2875,8 @@
         "Vdisk_kms": 11.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.62,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01158249
       },
       {
         "Rad_kpc": 2.06,
@@ -2475,7 +2886,8 @@
         "Vdisk_kms": 11.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.28,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00903758
       },
       {
         "Rad_kpc": 2.46,
@@ -2485,7 +2897,8 @@
         "Vdisk_kms": 12.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00606673
       },
       {
         "Rad_kpc": 2.79,
@@ -2495,7 +2908,8 @@
         "Vdisk_kms": 12.94,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00287933
       },
       {
         "Rad_kpc": 3.13,
@@ -2505,9 +2919,23 @@
         "Vdisk_kms": 12.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0013115
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 130,
+    "L36_1e9Lsun": 0.085,
+    "M_star_true_1e9Msun": 0.0425,
+    "MHI_1e9Msun": 0.115,
+    "M_gas_true_1e9Msun": 0.15295,
+    "RHI_kpc": 2.9,
+    "r_gas_from_RHI_kpc": 0.992288,
+    "e_Vflat_kms": 1.6,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 10,
+    "r_bend_measured_kpc": 1.89,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC0055": {
     "name": "NGC0055",
@@ -2527,7 +2955,8 @@
         "Vdisk_kms": 27.5,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 58.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02025763
       },
       {
         "Rad_kpc": 1.84,
@@ -2537,7 +2966,8 @@
         "Vdisk_kms": 32.63,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 38.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01545305
       },
       {
         "Rad_kpc": 2.46,
@@ -2547,7 +2977,8 @@
         "Vdisk_kms": 36.38,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 29.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01571105
       },
       {
         "Rad_kpc": 3.07,
@@ -2557,7 +2988,8 @@
         "Vdisk_kms": 38.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 21.65,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01840366
       },
       {
         "Rad_kpc": 3.68,
@@ -2567,7 +2999,8 @@
         "Vdisk_kms": 39.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.32,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0208897
       },
       {
         "Rad_kpc": 4.3,
@@ -2577,7 +3010,8 @@
         "Vdisk_kms": 39.98,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01984644
       },
       {
         "Rad_kpc": 4.91,
@@ -2587,7 +3021,8 @@
         "Vdisk_kms": 39.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.93,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01742441
       },
       {
         "Rad_kpc": 5.52,
@@ -2597,7 +3032,8 @@
         "Vdisk_kms": 39.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01561712
       },
       {
         "Rad_kpc": 6.14,
@@ -2607,7 +3043,8 @@
         "Vdisk_kms": 39.71,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.35,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01370347
       },
       {
         "Rad_kpc": 6.75,
@@ -2617,7 +3054,8 @@
         "Vdisk_kms": 39.75,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.82,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01177457
       },
       {
         "Rad_kpc": 7.37,
@@ -2627,7 +3065,8 @@
         "Vdisk_kms": 40.35,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.39,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01016626
       },
       {
         "Rad_kpc": 7.98,
@@ -2637,7 +3076,8 @@
         "Vdisk_kms": 41.04,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00999628
       },
       {
         "Rad_kpc": 8.59,
@@ -2647,7 +3087,8 @@
         "Vdisk_kms": 41.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00865652
       },
       {
         "Rad_kpc": 9.21,
@@ -2657,7 +3098,8 @@
         "Vdisk_kms": 42.03,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00539401
       },
       {
         "Rad_kpc": 9.82,
@@ -2667,7 +3109,8 @@
         "Vdisk_kms": 42.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.85,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00285448
       },
       {
         "Rad_kpc": 10.43,
@@ -2677,7 +3120,8 @@
         "Vdisk_kms": 42.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.39,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00014041
       },
       {
         "Rad_kpc": 11.05,
@@ -2687,7 +3131,8 @@
         "Vdisk_kms": 43.32,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.97,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 11.66,
@@ -2697,7 +3142,8 @@
         "Vdisk_kms": 43.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 12.28,
@@ -2707,7 +3153,8 @@
         "Vdisk_kms": 44.71,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.25,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00046253
       },
       {
         "Rad_kpc": 12.89,
@@ -2717,7 +3164,8 @@
         "Vdisk_kms": 45.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 13.5,
@@ -2727,9 +3175,23 @@
         "Vdisk_kms": 48.0,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 132,
+    "L36_1e9Lsun": 4.628,
+    "M_star_true_1e9Msun": 2.314,
+    "MHI_1e9Msun": 1.565,
+    "M_gas_true_1e9Msun": 2.08145,
+    "RHI_kpc": 10.24,
+    "r_gas_from_RHI_kpc": 3.223069,
+    "e_Vflat_kms": 5.0,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 8,
+    "r_bend_measured_kpc": 6.14,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC0100": {
     "name": "NGC0100",
@@ -2749,7 +3211,8 @@
         "Vdisk_kms": 9.67,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 142.64,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 0.69,
@@ -2759,7 +3222,8 @@
         "Vdisk_kms": 23.77,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 114.33,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.15,
@@ -2769,7 +3233,8 @@
         "Vdisk_kms": 34.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 92.98,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.59,
@@ -2779,7 +3244,8 @@
         "Vdisk_kms": 41.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 70.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 2.05,
@@ -2789,7 +3255,8 @@
         "Vdisk_kms": 46.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 54.62,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00050736
       },
       {
         "Rad_kpc": 2.51,
@@ -2799,7 +3266,8 @@
         "Vdisk_kms": 50.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 43.18,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00262693
       },
       {
         "Rad_kpc": 2.97,
@@ -2809,7 +3277,8 @@
         "Vdisk_kms": 53.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 33.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00437459
       },
       {
         "Rad_kpc": 3.42,
@@ -2819,7 +3288,8 @@
         "Vdisk_kms": 55.1,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 25.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00465975
       },
       {
         "Rad_kpc": 3.88,
@@ -2829,7 +3299,8 @@
         "Vdisk_kms": 55.08,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00475199
       },
       {
         "Rad_kpc": 4.34,
@@ -2839,7 +3310,8 @@
         "Vdisk_kms": 54.16,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 13.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00464753
       },
       {
         "Rad_kpc": 4.79,
@@ -2849,7 +3321,8 @@
         "Vdisk_kms": 53.32,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 9.76,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00418553
       },
       {
         "Rad_kpc": 5.24,
@@ -2859,7 +3332,8 @@
         "Vdisk_kms": 52.48,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.4,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00367435
       },
       {
         "Rad_kpc": 5.7,
@@ -2869,7 +3343,8 @@
         "Vdisk_kms": 50.92,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00283448
       },
       {
         "Rad_kpc": 6.16,
@@ -2879,7 +3354,8 @@
         "Vdisk_kms": 49.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00225645
       },
       {
         "Rad_kpc": 7.16,
@@ -2889,7 +3365,8 @@
         "Vdisk_kms": 46.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00227635
       },
       {
         "Rad_kpc": 7.52,
@@ -2899,7 +3376,8 @@
         "Vdisk_kms": 45.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00308564
       },
       {
         "Rad_kpc": 7.98,
@@ -2909,7 +3387,8 @@
         "Vdisk_kms": 44.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00343206
       },
       {
         "Rad_kpc": 8.44,
@@ -2919,7 +3398,8 @@
         "Vdisk_kms": 43.11,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.27,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00422485
       },
       {
         "Rad_kpc": 8.9,
@@ -2929,7 +3409,8 @@
         "Vdisk_kms": 41.91,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.96,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00500232
       },
       {
         "Rad_kpc": 9.35,
@@ -2939,7 +3420,8 @@
         "Vdisk_kms": 40.72,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.84,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00563711
       },
       {
         "Rad_kpc": 9.62,
@@ -2949,9 +3431,23 @@
         "Vdisk_kms": 40.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.83,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00615672
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 133,
+    "L36_1e9Lsun": 3.232,
+    "M_star_true_1e9Msun": 1.616,
+    "MHI_1e9Msun": 1.99,
+    "M_gas_true_1e9Msun": 2.6467,
+    "RHI_kpc": 16.36,
+    "r_gas_from_RHI_kpc": 8.18,
+    "e_Vflat_kms": 6.4,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 9,
+    "r_bend_measured_kpc": 4.34,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC0289": {
     "name": "NGC0289",
@@ -2971,7 +3467,8 @@
         "Vdisk_kms": 179.05,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1392.39,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00139795
       },
       {
         "Rad_kpc": 2.52,
@@ -2981,7 +3478,8 @@
         "Vdisk_kms": 226.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 684.62,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00104871
       },
       {
         "Rad_kpc": 3.46,
@@ -2991,7 +3489,8 @@
         "Vdisk_kms": 215.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 390.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00092912
       },
       {
         "Rad_kpc": 4.32,
@@ -3001,7 +3500,8 @@
         "Vdisk_kms": 220.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 299.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00014402
       },
       {
         "Rad_kpc": 5.43,
@@ -3011,7 +3511,8 @@
         "Vdisk_kms": 221.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 148.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 6.38,
@@ -3021,7 +3522,8 @@
         "Vdisk_kms": 211.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 68.44,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00058451
       },
       {
         "Rad_kpc": 7.57,
@@ -3031,7 +3533,8 @@
         "Vdisk_kms": 198.06,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 40.47,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00577039
       },
       {
         "Rad_kpc": 10.6,
@@ -3041,7 +3544,8 @@
         "Vdisk_kms": 170.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00806811
       },
       {
         "Rad_kpc": 13.57,
@@ -3051,7 +3555,8 @@
         "Vdisk_kms": 151.82,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.42,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00899982
       },
       {
         "Rad_kpc": 16.64,
@@ -3061,7 +3566,8 @@
         "Vdisk_kms": 136.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00772069
       },
       {
         "Rad_kpc": 19.71,
@@ -3071,7 +3577,8 @@
         "Vdisk_kms": 127.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00952322
       },
       {
         "Rad_kpc": 22.68,
@@ -3081,7 +3588,8 @@
         "Vdisk_kms": 119.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.47,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01137658
       },
       {
         "Rad_kpc": 25.75,
@@ -3091,7 +3599,8 @@
         "Vdisk_kms": 111.5,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.76,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00781536
       },
       {
         "Rad_kpc": 28.72,
@@ -3101,7 +3610,8 @@
         "Vdisk_kms": 105.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.64,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00841283
       },
       {
         "Rad_kpc": 31.79,
@@ -3111,7 +3621,8 @@
         "Vdisk_kms": 100.59,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.4,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0119055
       },
       {
         "Rad_kpc": 34.77,
@@ -3121,7 +3632,8 @@
         "Vdisk_kms": 96.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.25,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00969762
       },
       {
         "Rad_kpc": 37.84,
@@ -3131,7 +3643,8 @@
         "Vdisk_kms": 92.02,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.16,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00679762
       },
       {
         "Rad_kpc": 40.81,
@@ -3141,7 +3654,8 @@
         "Vdisk_kms": 88.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00483451
       },
       {
         "Rad_kpc": 43.88,
@@ -3151,7 +3665,8 @@
         "Vdisk_kms": 85.15,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00265215
       },
       {
         "Rad_kpc": 46.85,
@@ -3161,7 +3676,8 @@
         "Vdisk_kms": 82.29,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.04,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00167409
       },
       {
         "Rad_kpc": 49.92,
@@ -3171,7 +3687,8 @@
         "Vdisk_kms": 79.64,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00157667
       },
       {
         "Rad_kpc": 52.99,
@@ -3181,7 +3698,8 @@
         "Vdisk_kms": 77.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00161539
       },
       {
         "Rad_kpc": 55.96,
@@ -3191,7 +3709,8 @@
         "Vdisk_kms": 75.06,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00074666
       },
       {
         "Rad_kpc": 59.03,
@@ -3201,7 +3720,8 @@
         "Vdisk_kms": 72.97,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 62.0,
@@ -3211,7 +3731,8 @@
         "Vdisk_kms": 71.15,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 65.07,
@@ -3221,7 +3742,8 @@
         "Vdisk_kms": 69.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 68.05,
@@ -3231,7 +3753,8 @@
         "Vdisk_kms": 67.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 71.12,
@@ -3241,9 +3764,23 @@
         "Vdisk_kms": 66.34,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 135,
+    "L36_1e9Lsun": 72.065,
+    "M_star_true_1e9Msun": 36.0325,
+    "MHI_1e9Msun": 27.469,
+    "M_gas_true_1e9Msun": 36.53377,
+    "RHI_kpc": 49.51,
+    "r_gas_from_RHI_kpc": 24.755,
+    "e_Vflat_kms": 8.0,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 1,
+    "r_bend_measured_kpc": 2.52,
+    "r_bend_measured_method": "kneedle_chord_elbow"
   },
   "NGC0801": {
     "name": "NGC0801",
@@ -3263,7 +3800,8 @@
         "Vdisk_kms": 183.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2905.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00085665
       },
       {
         "Rad_kpc": 1.56,
@@ -3273,7 +3811,8 @@
         "Vdisk_kms": 210.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2304.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00084407
       },
       {
         "Rad_kpc": 1.96,
@@ -3283,7 +3822,8 @@
         "Vdisk_kms": 232.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1870.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00126844
       },
       {
         "Rad_kpc": 2.73,
@@ -3293,7 +3833,8 @@
         "Vdisk_kms": 264.64,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1313.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00145901
       },
       {
         "Rad_kpc": 3.52,
@@ -3303,7 +3844,8 @@
         "Vdisk_kms": 281.54,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 825.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00749256
       },
       {
         "Rad_kpc": 10.59,
@@ -3313,7 +3855,8 @@
         "Vdisk_kms": 269.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 159.49,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00607335
       },
       {
         "Rad_kpc": 17.65,
@@ -3323,7 +3866,8 @@
         "Vdisk_kms": 243.6,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 48.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00734869
       },
       {
         "Rad_kpc": 24.61,
@@ -3333,7 +3877,8 @@
         "Vdisk_kms": 226.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 36.25,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00926999
       },
       {
         "Rad_kpc": 31.67,
@@ -3343,7 +3888,8 @@
         "Vdisk_kms": 219.45,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 15.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00768594
       },
       {
         "Rad_kpc": 38.74,
@@ -3353,7 +3899,8 @@
         "Vdisk_kms": 202.4,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00305867
       },
       {
         "Rad_kpc": 45.8,
@@ -3363,7 +3910,8 @@
         "Vdisk_kms": 183.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.13,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00205629
       },
       {
         "Rad_kpc": 52.86,
@@ -3373,7 +3921,8 @@
         "Vdisk_kms": 169.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.2,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00555042
       },
       {
         "Rad_kpc": 59.82,
@@ -3383,9 +3932,23 @@
         "Vdisk_kms": 158.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00745512
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 137,
+    "L36_1e9Lsun": 312.57,
+    "M_star_true_1e9Msun": 156.285,
+    "MHI_1e9Msun": 23.201,
+    "M_gas_true_1e9Msun": 30.85733,
+    "RHI_kpc": 44.99,
+    "r_gas_from_RHI_kpc": 22.495,
+    "e_Vflat_kms": 6.2,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 2,
+    "r_bend_measured_kpc": 1.96,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC1003": {
     "name": "NGC1003",
@@ -3405,7 +3968,8 @@
         "Vdisk_kms": 56.98,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 175.71,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0025456
       },
       {
         "Rad_kpc": 2.08,
@@ -3415,7 +3979,8 @@
         "Vdisk_kms": 64.63,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 107.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00359661
       },
       {
         "Rad_kpc": 2.9,
@@ -3425,7 +3990,8 @@
         "Vdisk_kms": 74.91,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 67.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00567354
       },
       {
         "Rad_kpc": 3.73,
@@ -3435,7 +4001,8 @@
         "Vdisk_kms": 77.71,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 47.27,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00584955
       },
       {
         "Rad_kpc": 4.56,
@@ -3445,7 +4012,8 @@
         "Vdisk_kms": 79.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 29.91,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00581145
       },
       {
         "Rad_kpc": 5.39,
@@ -3455,7 +4023,8 @@
         "Vdisk_kms": 79.39,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.66,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0065728
       },
       {
         "Rad_kpc": 6.22,
@@ -3465,7 +4034,8 @@
         "Vdisk_kms": 73.38,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 7.84,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00691529
       },
       {
         "Rad_kpc": 7.04,
@@ -3475,7 +4045,8 @@
         "Vdisk_kms": 69.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.24,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0090539
       },
       {
         "Rad_kpc": 7.87,
@@ -3485,7 +4056,8 @@
         "Vdisk_kms": 65.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.23,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00891767
       },
       {
         "Rad_kpc": 8.7,
@@ -3495,7 +4067,8 @@
         "Vdisk_kms": 62.8,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00605712
       },
       {
         "Rad_kpc": 9.54,
@@ -3505,7 +4078,8 @@
         "Vdisk_kms": 59.81,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00426635
       },
       {
         "Rad_kpc": 10.34,
@@ -3515,7 +4089,8 @@
         "Vdisk_kms": 56.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00459114
       },
       {
         "Rad_kpc": 11.21,
@@ -3525,7 +4100,8 @@
         "Vdisk_kms": 54.18,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00584313
       },
       {
         "Rad_kpc": 11.98,
@@ -3535,7 +4111,8 @@
         "Vdisk_kms": 52.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.22,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00580957
       },
       {
         "Rad_kpc": 12.85,
@@ -3545,7 +4122,8 @@
         "Vdisk_kms": 49.97,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.13,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00498619
       },
       {
         "Rad_kpc": 13.72,
@@ -3555,7 +4133,8 @@
         "Vdisk_kms": 48.07,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.08,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00403146
       },
       {
         "Rad_kpc": 14.49,
@@ -3565,7 +4144,8 @@
         "Vdisk_kms": 46.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00320937
       },
       {
         "Rad_kpc": 15.36,
@@ -3575,7 +4155,8 @@
         "Vdisk_kms": 45.03,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0023158
       },
       {
         "Rad_kpc": 16.13,
@@ -3585,7 +4166,8 @@
         "Vdisk_kms": 43.81,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00314985
       },
       {
         "Rad_kpc": 17.0,
@@ -3595,7 +4177,8 @@
         "Vdisk_kms": 42.53,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00159679
       },
       {
         "Rad_kpc": 17.78,
@@ -3605,7 +4188,8 @@
         "Vdisk_kms": 41.49,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 18.65,
@@ -3615,7 +4199,8 @@
         "Vdisk_kms": 40.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 19.52,
@@ -3625,7 +4210,8 @@
         "Vdisk_kms": 39.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 20.29,
@@ -3635,7 +4221,8 @@
         "Vdisk_kms": 38.61,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00040897
       },
       {
         "Rad_kpc": 21.16,
@@ -3645,7 +4232,8 @@
         "Vdisk_kms": 37.75,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 21.93,
@@ -3655,7 +4243,8 @@
         "Vdisk_kms": 37.04,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 22.8,
@@ -3665,7 +4254,8 @@
         "Vdisk_kms": 36.29,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 23.67,
@@ -3675,7 +4265,8 @@
         "Vdisk_kms": 35.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00016174
       },
       {
         "Rad_kpc": 24.44,
@@ -3685,7 +4276,8 @@
         "Vdisk_kms": 34.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00123661
       },
       {
         "Rad_kpc": 25.31,
@@ -3695,7 +4287,8 @@
         "Vdisk_kms": 34.35,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 26.08,
@@ -3705,7 +4298,8 @@
         "Vdisk_kms": 33.82,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00215148
       },
       {
         "Rad_kpc": 26.95,
@@ -3715,7 +4309,8 @@
         "Vdisk_kms": 33.25,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00798463
       },
       {
         "Rad_kpc": 27.73,
@@ -3725,7 +4320,8 @@
         "Vdisk_kms": 32.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00762577
       },
       {
         "Rad_kpc": 28.6,
@@ -3735,7 +4331,8 @@
         "Vdisk_kms": 32.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.006723
       },
       {
         "Rad_kpc": 29.47,
@@ -3745,7 +4342,8 @@
         "Vdisk_kms": 31.75,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01039648
       },
       {
         "Rad_kpc": 30.24,
@@ -3755,9 +4353,23 @@
         "Vdisk_kms": 31.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0113312
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 139,
+    "L36_1e9Lsun": 6.82,
+    "M_star_true_1e9Msun": 3.41,
+    "MHI_1e9Msun": 5.88,
+    "M_gas_true_1e9Msun": 7.8204,
+    "RHI_kpc": 33.33,
+    "r_gas_from_RHI_kpc": 16.665,
+    "e_Vflat_kms": 4.2,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 6,
+    "r_bend_measured_kpc": 6.22,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC1090": {
     "name": "NGC1090",
@@ -3777,7 +4389,8 @@
         "Vdisk_kms": 48.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1540.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.07,
@@ -3787,7 +4400,8 @@
         "Vdisk_kms": 98.26,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 772.11,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 1.6,
@@ -3797,7 +4411,8 @@
         "Vdisk_kms": 114.22,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 533.24,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 3.7,
@@ -3807,7 +4422,8 @@
         "Vdisk_kms": 144.04,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 300.12,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 5.09,
@@ -3817,7 +4433,8 @@
         "Vdisk_kms": 154.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 183.64,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 6.61,
@@ -3827,7 +4444,8 @@
         "Vdisk_kms": 166.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 152.68,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 8.17,
@@ -3837,7 +4455,8 @@
         "Vdisk_kms": 171.87,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 89.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00153351
       },
       {
         "Rad_kpc": 9.11,
@@ -3847,7 +4466,8 @@
         "Vdisk_kms": 169.05,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 67.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00609944
       },
       {
         "Rad_kpc": 10.37,
@@ -3857,7 +4477,8 @@
         "Vdisk_kms": 166.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 59.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00814774
       },
       {
         "Rad_kpc": 11.28,
@@ -3867,7 +4488,8 @@
         "Vdisk_kms": 167.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 48.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01061793
       },
       {
         "Rad_kpc": 13.62,
@@ -3877,7 +4499,8 @@
         "Vdisk_kms": 164.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 24.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00957119
       },
       {
         "Rad_kpc": 15.04,
@@ -3887,7 +4510,8 @@
         "Vdisk_kms": 159.31,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 14.96,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00890077
       },
       {
         "Rad_kpc": 16.37,
@@ -3897,7 +4521,8 @@
         "Vdisk_kms": 153.0,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00822218
       },
       {
         "Rad_kpc": 17.59,
@@ -3907,7 +4532,8 @@
         "Vdisk_kms": 146.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.36,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00777158
       },
       {
         "Rad_kpc": 18.8,
@@ -3917,7 +4543,8 @@
         "Vdisk_kms": 140.2,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00668947
       },
       {
         "Rad_kpc": 20.13,
@@ -3927,7 +4554,8 @@
         "Vdisk_kms": 134.43,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.74,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00557767
       },
       {
         "Rad_kpc": 21.35,
@@ -3937,7 +4565,8 @@
         "Vdisk_kms": 129.7,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00500894
       },
       {
         "Rad_kpc": 22.57,
@@ -3947,7 +4576,8 @@
         "Vdisk_kms": 125.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.61,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00518583
       },
       {
         "Rad_kpc": 23.89,
@@ -3957,7 +4587,8 @@
         "Vdisk_kms": 121.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.08,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00652477
       },
       {
         "Rad_kpc": 25.11,
@@ -3967,7 +4598,8 @@
         "Vdisk_kms": 118.15,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.76,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00792646
       },
       {
         "Rad_kpc": 26.33,
@@ -3977,7 +4609,8 @@
         "Vdisk_kms": 114.89,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.54,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00798693
       },
       {
         "Rad_kpc": 27.65,
@@ -3987,7 +4620,8 @@
         "Vdisk_kms": 111.67,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00773272
       },
       {
         "Rad_kpc": 28.87,
@@ -3997,7 +4631,8 @@
         "Vdisk_kms": 108.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.26,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00728882
       },
       {
         "Rad_kpc": 30.09,
@@ -4007,9 +4642,23 @@
         "Vdisk_kms": 106.1,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00675016
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 140,
+    "L36_1e9Lsun": 72.045,
+    "M_star_true_1e9Msun": 36.0225,
+    "MHI_1e9Msun": 8.783,
+    "M_gas_true_1e9Msun": 11.68139,
+    "RHI_kpc": 30.49,
+    "r_gas_from_RHI_kpc": 15.245,
+    "e_Vflat_kms": 3.7,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 4,
+    "r_bend_measured_kpc": 5.09,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC1705": {
     "name": "NGC1705",
@@ -4029,7 +4678,8 @@
         "Vdisk_kms": 33.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 512.85,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.04236954
       },
       {
         "Rad_kpc": 0.66,
@@ -4039,7 +4689,8 @@
         "Vdisk_kms": 44.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 84.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02068089
       },
       {
         "Rad_kpc": 1.11,
@@ -4049,7 +4700,8 @@
         "Vdisk_kms": 43.65,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 25.33,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01312268
       },
       {
         "Rad_kpc": 1.55,
@@ -4059,7 +4711,8 @@
         "Vdisk_kms": 39.37,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.23,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00682095
       },
       {
         "Rad_kpc": 2.0,
@@ -4069,7 +4722,8 @@
         "Vdisk_kms": 35.3,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 3.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0036251
       },
       {
         "Rad_kpc": 2.45,
@@ -4079,7 +4733,8 @@
         "Vdisk_kms": 31.81,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.83,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00141458
       },
       {
         "Rad_kpc": 2.89,
@@ -4089,7 +4744,8 @@
         "Vdisk_kms": 28.94,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00056653
       },
       {
         "Rad_kpc": 3.34,
@@ -4099,7 +4755,8 @@
         "Vdisk_kms": 26.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00014738
       },
       {
         "Rad_kpc": 3.78,
@@ -4109,7 +4766,8 @@
         "Vdisk_kms": 24.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0007705
       },
       {
         "Rad_kpc": 4.22,
@@ -4119,7 +4777,8 @@
         "Vdisk_kms": 23.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00146386
       },
       {
         "Rad_kpc": 4.66,
@@ -4129,7 +4788,8 @@
         "Vdisk_kms": 22.2,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00153937
       },
       {
         "Rad_kpc": 5.11,
@@ -4139,7 +4799,8 @@
         "Vdisk_kms": 21.14,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00141228
       },
       {
         "Rad_kpc": 5.56,
@@ -4149,7 +4810,8 @@
         "Vdisk_kms": 20.22,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00226447
       },
       {
         "Rad_kpc": 6.0,
@@ -4159,9 +4821,23 @@
         "Vdisk_kms": 19.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00310196
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 141,
+    "L36_1e9Lsun": 0.533,
+    "M_star_true_1e9Msun": 0.2665,
+    "MHI_1e9Msun": 0.139,
+    "M_gas_true_1e9Msun": 0.18487,
+    "RHI_kpc": 2.36,
+    "r_gas_from_RHI_kpc": 0.549673,
+    "e_Vflat_kms": 4.3,
+    "Q_flag": 3,
+    "r_bend_measured_idx": 1,
+    "r_bend_measured_kpc": 0.66,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC2915": {
     "name": "NGC2915",
@@ -4181,7 +4857,8 @@
         "Vdisk_kms": 44.78,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 329.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01106316
       },
       {
         "Rad_kpc": 0.67,
@@ -4191,7 +4868,8 @@
         "Vdisk_kms": 48.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 91.07,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00850646
       },
       {
         "Rad_kpc": 1.0,
@@ -4201,7 +4879,8 @@
         "Vdisk_kms": 46.82,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 36.28,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00834856
       },
       {
         "Rad_kpc": 1.34,
@@ -4211,7 +4890,8 @@
         "Vdisk_kms": 43.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 16.86,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0060125
       },
       {
         "Rad_kpc": 1.68,
@@ -4221,7 +4901,8 @@
         "Vdisk_kms": 40.74,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 8.72,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00396598
       },
       {
         "Rad_kpc": 2.01,
@@ -4231,7 +4912,8 @@
         "Vdisk_kms": 38.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 4.56,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00313921
       },
       {
         "Rad_kpc": 2.34,
@@ -4241,7 +4923,8 @@
         "Vdisk_kms": 35.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.91,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00244681
       },
       {
         "Rad_kpc": 2.67,
@@ -4251,7 +4934,8 @@
         "Vdisk_kms": 33.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.6,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00154935
       },
       {
         "Rad_kpc": 3.01,
@@ -4261,7 +4945,8 @@
         "Vdisk_kms": 31.74,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.88,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00128009
       },
       {
         "Rad_kpc": 3.35,
@@ -4271,7 +4956,8 @@
         "Vdisk_kms": 29.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00223856
       },
       {
         "Rad_kpc": 3.68,
@@ -4281,7 +4967,8 @@
         "Vdisk_kms": 28.46,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.24,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00368212
       },
       {
         "Rad_kpc": 4.02,
@@ -4291,7 +4978,8 @@
         "Vdisk_kms": 27.13,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.13,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00480543
       },
       {
         "Rad_kpc": 4.35,
@@ -4301,7 +4989,8 @@
         "Vdisk_kms": 25.93,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.07,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00497801
       },
       {
         "Rad_kpc": 4.68,
@@ -4311,7 +5000,8 @@
         "Vdisk_kms": 24.93,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.04,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00394346
       },
       {
         "Rad_kpc": 5.02,
@@ -4321,7 +5011,8 @@
         "Vdisk_kms": 24.0,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.02,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00253063
       },
       {
         "Rad_kpc": 5.35,
@@ -4331,7 +5022,8 @@
         "Vdisk_kms": 23.2,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00135089
       },
       {
         "Rad_kpc": 5.69,
@@ -4341,7 +5033,8 @@
         "Vdisk_kms": 22.42,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.01,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00087758
       },
       {
         "Rad_kpc": 6.03,
@@ -4351,7 +5044,8 @@
         "Vdisk_kms": 21.74,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00150275
       },
       {
         "Rad_kpc": 6.36,
@@ -4361,7 +5055,8 @@
         "Vdisk_kms": 21.15,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00293874
       },
       {
         "Rad_kpc": 6.69,
@@ -4371,7 +5066,8 @@
         "Vdisk_kms": 20.57,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00414783
       },
       {
         "Rad_kpc": 7.02,
@@ -4381,7 +5077,8 @@
         "Vdisk_kms": 20.07,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00447491
       },
       {
         "Rad_kpc": 7.36,
@@ -4391,7 +5088,8 @@
         "Vdisk_kms": 19.59,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00312491
       },
       {
         "Rad_kpc": 7.7,
@@ -4401,7 +5099,8 @@
         "Vdisk_kms": 19.12,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00237916
       },
       {
         "Rad_kpc": 8.03,
@@ -4411,7 +5110,8 @@
         "Vdisk_kms": 18.72,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00299718
       },
       {
         "Rad_kpc": 8.37,
@@ -4421,7 +5121,8 @@
         "Vdisk_kms": 18.33,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00302973
       },
       {
         "Rad_kpc": 8.7,
@@ -4431,7 +5132,8 @@
         "Vdisk_kms": 17.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00309444
       },
       {
         "Rad_kpc": 9.03,
@@ -4441,7 +5143,8 @@
         "Vdisk_kms": 17.62,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0028443
       },
       {
         "Rad_kpc": 9.37,
@@ -4451,7 +5154,8 @@
         "Vdisk_kms": 17.3,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00265064
       },
       {
         "Rad_kpc": 9.7,
@@ -4461,7 +5165,8 @@
         "Vdisk_kms": 16.98,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00216347
       },
       {
         "Rad_kpc": 10.04,
@@ -4471,9 +5176,23 @@
         "Vdisk_kms": 16.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00145931
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 147,
+    "L36_1e9Lsun": 0.641,
+    "M_star_true_1e9Msun": 0.3205,
+    "MHI_1e9Msun": 0.508,
+    "M_gas_true_1e9Msun": 0.67564,
+    "RHI_kpc": 7.16,
+    "r_gas_from_RHI_kpc": 3.58,
+    "e_Vflat_kms": 6.3,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 6,
+    "r_bend_measured_kpc": 2.34,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC2976": {
     "name": "NGC2976",
@@ -4493,7 +5212,8 @@
         "Vdisk_kms": 11.98,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 401.24,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00225908
       },
       {
         "Rad_kpc": 0.17,
@@ -4503,7 +5223,8 @@
         "Vdisk_kms": 15.44,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 385.05,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00224434
       },
       {
         "Rad_kpc": 0.24,
@@ -4513,7 +5234,8 @@
         "Vdisk_kms": 19.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 353.55,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0023506
       },
       {
         "Rad_kpc": 0.31,
@@ -4523,7 +5245,8 @@
         "Vdisk_kms": 23.11,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 326.8,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00225818
       },
       {
         "Rad_kpc": 0.38,
@@ -4533,7 +5256,8 @@
         "Vdisk_kms": 26.27,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 306.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00313141
       },
       {
         "Rad_kpc": 0.45,
@@ -4543,7 +5267,8 @@
         "Vdisk_kms": 29.18,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 294.93,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00365895
       },
       {
         "Rad_kpc": 0.52,
@@ -4553,7 +5278,8 @@
         "Vdisk_kms": 32.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 286.81,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00364684
       },
       {
         "Rad_kpc": 0.59,
@@ -4563,7 +5289,8 @@
         "Vdisk_kms": 35.22,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 277.28,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00558795
       },
       {
         "Rad_kpc": 0.66,
@@ -4573,7 +5300,8 @@
         "Vdisk_kms": 38.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 266.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00829578
       },
       {
         "Rad_kpc": 0.73,
@@ -4583,7 +5311,8 @@
         "Vdisk_kms": 40.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 258.37,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00811678
       },
       {
         "Rad_kpc": 0.8,
@@ -4593,7 +5322,8 @@
         "Vdisk_kms": 43.36,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 250.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00893959
       },
       {
         "Rad_kpc": 0.87,
@@ -4603,7 +5333,8 @@
         "Vdisk_kms": 45.92,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 244.56,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01084751
       },
       {
         "Rad_kpc": 0.94,
@@ -4613,7 +5344,8 @@
         "Vdisk_kms": 48.76,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 245.53,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01155872
       },
       {
         "Rad_kpc": 1.01,
@@ -4623,7 +5355,8 @@
         "Vdisk_kms": 52.24,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 248.27,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01496607
       },
       {
         "Rad_kpc": 1.08,
@@ -4633,7 +5366,8 @@
         "Vdisk_kms": 55.81,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 237.88,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02387811
       },
       {
         "Rad_kpc": 1.14,
@@ -4643,7 +5377,8 @@
         "Vdisk_kms": 58.54,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 230.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.03789735
       },
       {
         "Rad_kpc": 1.21,
@@ -4653,7 +5388,8 @@
         "Vdisk_kms": 61.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 228.85,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.04212479
       },
       {
         "Rad_kpc": 1.29,
@@ -4663,7 +5399,8 @@
         "Vdisk_kms": 66.07,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 216.32,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.04749548
       },
       {
         "Rad_kpc": 1.35,
@@ -4673,7 +5410,8 @@
         "Vdisk_kms": 68.88,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 203.26,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.05653274
       },
       {
         "Rad_kpc": 1.42,
@@ -4683,7 +5421,8 @@
         "Vdisk_kms": 71.85,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 189.42,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.05904051
       },
       {
         "Rad_kpc": 1.49,
@@ -4693,7 +5432,8 @@
         "Vdisk_kms": 74.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 174.06,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.06815578
       },
       {
         "Rad_kpc": 1.56,
@@ -4703,7 +5443,8 @@
         "Vdisk_kms": 76.94,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 155.41,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0698871
       },
       {
         "Rad_kpc": 1.63,
@@ -4713,7 +5454,8 @@
         "Vdisk_kms": 78.73,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 134.59,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.06667681
       },
       {
         "Rad_kpc": 1.74,
@@ -4723,7 +5465,8 @@
         "Vdisk_kms": 80.17,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 99.94,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.02985134
       },
       {
         "Rad_kpc": 1.93,
@@ -4733,7 +5476,8 @@
         "Vdisk_kms": 78.52,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 58.42,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0147465
       },
       {
         "Rad_kpc": 2.1,
@@ -4743,7 +5487,8 @@
         "Vdisk_kms": 75.56,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 46.09,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01812911
       },
       {
         "Rad_kpc": 2.27,
@@ -4753,9 +5498,23 @@
         "Vdisk_kms": 73.66,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 41.53,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01572236
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 149,
+    "L36_1e9Lsun": 3.371,
+    "M_star_true_1e9Msun": 1.6855,
+    "MHI_1e9Msun": 0.172,
+    "M_gas_true_1e9Msun": 0.22876,
+    "RHI_kpc": 3.04,
+    "r_gas_from_RHI_kpc": 0.820383,
+    "e_Vflat_kms": 3.3,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 20,
+    "r_bend_measured_kpc": 1.49,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC2998": {
     "name": "NGC2998",
@@ -4775,7 +5534,8 @@
         "Vdisk_kms": 44.56,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2070.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 7.326e-05
       },
       {
         "Rad_kpc": 0.99,
@@ -4785,7 +5545,8 @@
         "Vdisk_kms": 93.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1190.44,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00031731
       },
       {
         "Rad_kpc": 1.98,
@@ -4795,7 +5556,8 @@
         "Vdisk_kms": 132.13,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 888.44,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00048067
       },
       {
         "Rad_kpc": 2.64,
@@ -4805,7 +5567,8 @@
         "Vdisk_kms": 154.64,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 784.11,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00107383
       },
       {
         "Rad_kpc": 3.63,
@@ -4815,7 +5578,8 @@
         "Vdisk_kms": 196.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 702.55,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00434361
       },
       {
         "Rad_kpc": 7.59,
@@ -4825,7 +5589,8 @@
         "Vdisk_kms": 221.58,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 192.87,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00698351
       },
       {
         "Rad_kpc": 12.5,
@@ -4835,7 +5600,8 @@
         "Vdisk_kms": 213.19,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 56.1,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00983655
       },
       {
         "Rad_kpc": 17.48,
@@ -4845,7 +5611,8 @@
         "Vdisk_kms": 198.92,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 17.41,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01039001
       },
       {
         "Rad_kpc": 22.46,
@@ -4855,7 +5622,8 @@
         "Vdisk_kms": 175.78,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 10.54,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00967016
       },
       {
         "Rad_kpc": 27.44,
@@ -4865,7 +5633,8 @@
         "Vdisk_kms": 162.69,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 5.26,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00961482
       },
       {
         "Rad_kpc": 32.32,
@@ -4875,7 +5644,8 @@
         "Vdisk_kms": 151.18,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 2.5,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00803242
       },
       {
         "Rad_kpc": 37.3,
@@ -4885,7 +5655,8 @@
         "Vdisk_kms": 139.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.96,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00432285
       },
       {
         "Rad_kpc": 42.28,
@@ -4895,9 +5666,23 @@
         "Vdisk_kms": 130.09,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.33,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00224627
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 150,
+    "L36_1e9Lsun": 150.902,
+    "M_star_true_1e9Msun": 75.451,
+    "MHI_1e9Msun": 23.451,
+    "M_gas_true_1e9Msun": 31.18983,
+    "RHI_kpc": 43.58,
+    "r_gas_from_RHI_kpc": 17.159932,
+    "e_Vflat_kms": 8.1,
+    "Q_flag": 1,
+    "r_bend_measured_idx": 3,
+    "r_bend_measured_kpc": 2.64,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   },
   "NGC3726": {
     "name": "NGC3726",
@@ -4917,7 +5702,8 @@
         "Vdisk_kms": 138.23,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 367.95,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 5.24,
@@ -4927,7 +5713,8 @@
         "Vdisk_kms": 163.99,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 200.43,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00108675
       },
       {
         "Rad_kpc": 6.98,
@@ -4937,7 +5724,8 @@
         "Vdisk_kms": 177.95,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 156.27,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.007536
       },
       {
         "Rad_kpc": 8.72,
@@ -4947,7 +5735,8 @@
         "Vdisk_kms": 182.72,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 66.34,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01169173
       },
       {
         "Rad_kpc": 10.47,
@@ -4957,7 +5746,8 @@
         "Vdisk_kms": 173.68,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 42.03,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01222339
       },
       {
         "Rad_kpc": 12.19,
@@ -4967,7 +5757,8 @@
         "Vdisk_kms": 166.41,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 26.8,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01742705
       },
       {
         "Rad_kpc": 13.94,
@@ -4977,7 +5768,8 @@
         "Vdisk_kms": 159.41,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 15.65,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.01955906
       },
       {
         "Rad_kpc": 16.03,
@@ -4987,7 +5779,8 @@
         "Vdisk_kms": 148.01,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 6.69,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00598178
       },
       {
         "Rad_kpc": 22.3,
@@ -4997,7 +5790,8 @@
         "Vdisk_kms": 124.21,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 1.41,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.00070133
       },
       {
         "Rad_kpc": 27.52,
@@ -5007,7 +5801,8 @@
         "Vdisk_kms": 109.5,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.29,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 30.08,
@@ -5017,7 +5812,8 @@
         "Vdisk_kms": 103.96,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.14,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 0.0
       },
       {
         "Rad_kpc": 32.52,
@@ -5027,8 +5823,22 @@
         "Vdisk_kms": 99.53,
         "Vbul_kms": 0.0,
         "SBdisk_L_pc2": 0.0,
-        "SBbul_L_pc2": 0.0
+        "SBbul_L_pc2": 0.0,
+        "Sigma_gas_from_Vgas_1e9_Msun_kpc2": 4.701e-05
       }
-    ]
+    ],
+    "table1_sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+    "table1_line": 154,
+    "L36_1e9Lsun": 70.234,
+    "M_star_true_1e9Msun": 35.117,
+    "MHI_1e9Msun": 6.473,
+    "M_gas_true_1e9Msun": 8.60909,
+    "RHI_kpc": 22.2,
+    "r_gas_from_RHI_kpc": 7.962876,
+    "e_Vflat_kms": 6.2,
+    "Q_flag": 2,
+    "r_bend_measured_idx": 2,
+    "r_bend_measured_kpc": 6.98,
+    "r_bend_measured_method": "first_ge_0p85_vflat"
   }
 }

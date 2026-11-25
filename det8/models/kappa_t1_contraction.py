@@ -1563,17 +1563,21 @@ def evaluate_heldout_radial_profiles(
     def _score_actual_rotmod_galaxy(
         g_entry: dict[str, object],
         *,
-        surface_density_mode: str = "sparc_sb_plus_exp_gas",
+        surface_density_mode: str = "sparc_sb_plus_table1_rhi_gas",
         upsilon_disk: float = SPARC_UPSILON_DISK_DEFAULT,
         upsilon_bul: float = SPARC_UPSILON_BUL_DEFAULT,
     ) -> dict[str, object]:
         pts_raw = g_entry.get("points", [])
         pts_list = pts_raw if isinstance(pts_raw, list) else []
-        ms = float(g_entry["M_star_subset"])
+        ms_subset = float(g_entry["M_star_subset"])
         rd = float(g_entry["r_d_subset"])
-        mg = float(g_entry["M_gas_subset"])
+        mg_subset = float(g_entry["M_gas_subset"])
         vf = float(g_entry["V_flat_subset"])
-        rg = 2.0 * rd
+        ms_true = float(g_entry.get("M_star_true_1e9Msun", ms_subset))
+        mhi_true = float(g_entry.get("MHI_1e9Msun", mg_subset))
+        mg_true = float(g_entry.get("M_gas_true_1e9Msun", 1.33 * mg_subset))
+        rg_rhi = float(g_entry.get("r_gas_from_RHI_kpc", 2.0 * rd))
+        rg_2rd = 2.0 * rd
 
         sq_rel_n: list[float] = []
         sq_rel_p1: list[float] = []
@@ -1595,6 +1599,7 @@ def evaluate_heldout_radial_profiles(
             v_bul = float(pt["Vbul_kms"])
             sb_disk = float(pt["SBdisk_L_pc2"])
             sb_bul = float(pt["SBbul_L_pc2"])
+            sigma_gas_vgas = float(pt.get("Sigma_gas_from_Vgas_1e9_Msun_kpc2", 0.0))
 
             v_n = sparc_baryonic_newton_velocity(
                 v_gas,
@@ -1613,13 +1618,22 @@ def evaluate_heldout_radial_profiles(
                 v_m = 0.0
 
             sigma_star_sb = (upsilon_disk * sb_disk + upsilon_bul * sb_bul) * 1.0e-3
-            sigma_gas_exp = stellar_surface_density(r_kpc, mg, rg)
-            if surface_density_mode == "sparc_sb_only":
+            if surface_density_mode == "sparc_sb_plus_table1_rhi_gas":
+                sigma_b = sigma_star_sb + stellar_surface_density(r_kpc, mg_true, rg_rhi)
+            elif surface_density_mode == "sparc_sb_plus_vgas_profile":
+                sigma_b = sigma_star_sb + sigma_gas_vgas
+            elif surface_density_mode == "table1_true_parametric_exp":
+                sigma_b = stellar_surface_density(r_kpc, ms_true, rd) + stellar_surface_density(
+                    r_kpc, mg_true, rg_rhi
+                )
+            elif surface_density_mode == "sparc_sb_only":
                 sigma_b = sigma_star_sb
             elif surface_density_mode == "sparc_sb_plus_exp_gas":
-                sigma_b = sigma_star_sb + sigma_gas_exp
+                sigma_b = sigma_star_sb + stellar_surface_density(r_kpc, mg_subset, rg_2rd)
             else:
-                sigma_b = stellar_surface_density(r_kpc, ms, rd) + sigma_gas_exp
+                sigma_b = stellar_surface_density(r_kpc, ms_subset, rd) + stellar_surface_density(
+                    r_kpc, mg_subset, rg_2rd
+                )
 
             ratio_sc = sigma_b / sigma_crit_val
             kappa_r = math.exp(-ratio_sc) if ratio_sc < 700.0 else 0.0
@@ -1654,8 +1668,11 @@ def evaluate_heldout_radial_profiles(
             )
 
         n_p = len(pt_rows)
-        idx_b = min(range(n_p), key=lambda i: abs(pt_rows[i]["Rad_kpc"] - 2.2 * rd))
-        b_row = pt_rows[idx_b]
+        idx_22rd = min(range(n_p), key=lambda i: abs(pt_rows[i]["Rad_kpc"] - 2.2 * rd))
+        idx_b_meas = int(g_entry.get("r_bend_measured_idx", idx_22rd))
+        idx_b_meas = max(0, min(n_p - 1, idx_b_meas))
+        b_row = pt_rows[idx_b_meas]
+        b22_row = pt_rows[idx_22rd]
         end_row = pt_rows[-1]
         b_err_p1 = abs(b_row["v_pathway1_kms"] - b_row["Vobs_kms"]) / b_row["Vobs_kms"]
         b_err_m = abs(b_row["v_mond_kms"] - b_row["Vobs_kms"]) / b_row["Vobs_kms"]
@@ -1664,14 +1681,25 @@ def evaluate_heldout_radial_profiles(
         surge_obs = end_row["Vobs_kms"] / max(b_row["Vobs_kms"], 1e-9)
         surge_p1 = end_row["v_pathway1_kms"] / max(b_row["v_pathway1_kms"], 1e-9)
         surge_m = end_row["v_mond_kms"] / max(b_row["v_mond_kms"], 1e-9)
+        surge_22_obs = end_row["Vobs_kms"] / max(b22_row["Vobs_kms"], 1e-9)
+        surge_22_p1 = end_row["v_pathway1_kms"] / max(b22_row["v_pathway1_kms"], 1e-9)
+        surge_22_m = end_row["v_mond_kms"] / max(b22_row["v_mond_kms"], 1e-9)
 
         return {
             "name": str(g_entry["name"]),
             "n_points": n_p,
-            "M_star": ms,
+            "M_star": ms_true,
+            "M_star_subset": ms_subset,
+            "MHI_table1": mhi_true,
+            "M_gas_true_table1": mg_true,
             "r_d": rd,
+            "r_gas_from_RHI_kpc": rg_rhi,
             "V_flat": vf,
             "r_bend_measured_kpc": b_row["Rad_kpc"],
+            "r_bend_measured_method": str(
+                g_entry.get("r_bend_measured_method", "first_ge_0p85_vflat")
+            ),
+            "r_bend_2p2rd_kpc": b22_row["Rad_kpc"],
             "r_outer_measured_kpc": end_row["Rad_kpc"],
             "v_obs_at_bend_kms": b_row["Vobs_kms"],
             "err_v_at_bend_kms": b_row["errV_kms"],
@@ -1690,6 +1718,9 @@ def evaluate_heldout_radial_profiles(
             "outer_over_bend_velocity_ratio_obs": surge_obs,
             "outer_over_bend_velocity_ratio_pathway1": surge_p1,
             "outer_over_bend_velocity_ratio_mond": surge_m,
+            "outer_over_2p2rd_velocity_ratio_obs": surge_22_obs,
+            "outer_over_2p2rd_velocity_ratio_pathway1": surge_22_p1,
+            "outer_over_2p2rd_velocity_ratio_mond": surge_22_m,
             "curve_rms_newton": math.sqrt(sum(sq_rel_n) / n_p),
             "curve_rms_pathway1": math.sqrt(sum(sq_rel_p1) / n_p),
             "curve_rms_mond": math.sqrt(sum(sq_rel_m) / n_p),
@@ -1705,7 +1736,7 @@ def evaluate_heldout_radial_profiles(
     def _summarize_rotmod_batch(
         names: Sequence[str],
         *,
-        surface_density_mode: str = "sparc_sb_plus_exp_gas",
+        surface_density_mode: str = "sparc_sb_plus_table1_rhi_gas",
     ) -> tuple[dict[str, object], list[dict[str, object]]]:
         scored = [
             _score_actual_rotmod_galaxy(
@@ -1754,16 +1785,25 @@ def evaluate_heldout_radial_profiles(
             "late_surge_gt_1p5_count_obs": sum(
                 1 for s in scored if float(s["outer_over_bend_velocity_ratio_obs"]) > 1.5
             ),
+            "late_surge_gt_1p5_at_2p2rd_count_pathway1": sum(
+                1 for s in scored if float(s["outer_over_2p2rd_velocity_ratio_pathway1"]) > 1.5
+            ),
+            "late_surge_gt_1p5_at_2p2rd_count_mond": sum(
+                1 for s in scored if float(s["outer_over_2p2rd_velocity_ratio_mond"]) > 1.5
+            ),
+            "late_surge_gt_1p5_at_2p2rd_count_obs": sum(
+                1 for s in scored if float(s["outer_over_2p2rd_velocity_ratio_obs"]) > 1.5
+            ),
         }
         return summary, scored
 
     nine_names = [hp.name for hp in HELDOUT_RADIAL_PROFILES]
     twenty_six_names = [str(r["name"]) for r in heldout_subset_26_records]
     rotmod_9_summary, rotmod_9_galaxies = _summarize_rotmod_batch(
-        nine_names, surface_density_mode="sparc_sb_plus_exp_gas"
+        nine_names, surface_density_mode="sparc_sb_plus_table1_rhi_gas"
     )
     rotmod_26_summary, _ = _summarize_rotmod_batch(
-        twenty_six_names, surface_density_mode="sparc_sb_plus_exp_gas"
+        twenty_six_names, surface_density_mode="sparc_sb_plus_table1_rhi_gas"
     )
     actual_sparc_surface_density_modes = {
         mode_sd: {
@@ -1774,7 +1814,14 @@ def evaluate_heldout_radial_profiles(
                 twenty_six_names, surface_density_mode=mode_sd
             )[0],
         }
-        for mode_sd in ("sparc_sb_plus_exp_gas", "sparc_sb_only", "parametric_exp")
+        for mode_sd in (
+            "sparc_sb_plus_table1_rhi_gas",
+            "sparc_sb_plus_vgas_profile",
+            "table1_true_parametric_exp",
+            "sparc_sb_only",
+            "sparc_sb_plus_exp_gas",
+            "parametric_exp",
+        )
     }
     n_prof = len(HELDOUT_RADIAL_PROFILES)
     mean_rms_p1 = sum(rms_p1_all) / n_prof
