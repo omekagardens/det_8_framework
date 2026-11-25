@@ -177,13 +177,36 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         row101 = no_standin["birth6_complete_row_sum_on_101_parents_K5_vs_Hsharp"]
         self.assertTrue(row101["c4_attachment_lands_in_101_with_full_on_both"])
         self.assertTrue(row101["sigma_i_and_beta_i_cancel_in_cell_101"])
+        self.assertTrue(row101["all_three_carriers_cancel_in_joint_D6_R6"])
         self.assertTrue(row101["cell_100_agrees_identically"])
         self.assertTrue(row101["joint_D6_R6_agrees_identically"])
         self.assertTrue(row101["full_Y6_D6_R6_differs_on_001_vs_101"])
+        self.assertTrue(
+            row101["cell_001_diff_strictly_positive_for_all_nonnegative_gamma_ij"]
+        )
+        self.assertTrue(
+            row101["ri41_certificate_direct_verification"]["sha256_verified"]
+        )
+        self.assertTrue(
+            row101["ri63_certificate_carrier_specialization"]["sha256_verified"]
+        )
 
-        # Verify dynamically summed Birth-6 cells for i=0 and i=1:
+        # Verify dynamically summed Birth-6 cells (both symbolic in (sigma_i, beta_i, gamma_{ij})
+        # and RI-63 certificate-verified) for i=0 and i=1:
         p0 = row101["by_prep"][0]
         p1 = row101["by_prep"][1]
+        self.assertEqual(
+            p0["Hsharp_summed_Y6_D6_R6_cells_symbolic"]["(0, 0, 1)"],
+            "(1)*(35/36)*g_ij*gamma_ij + (1255263/3520000)*theta",
+        )
+        self.assertEqual(
+            p0["cell_001_difference_Hsharp_minus_K5_symbolic"],
+            "(1)*(35/36)*g_ij*gamma_ij + (1887761/77440000)*theta",
+        )
+        self.assertEqual(
+            p1["cell_001_difference_Hsharp_minus_K5_symbolic"],
+            "(1)*(35/36)*g_ij*gamma_ij + (2579343/6050000)*theta",
+        )
         self.assertEqual(
             p0["K5_summed_Y6_D6_R6_cells"]["(1, 0, 0)"],
             {"const": "0", "theta_coeff": "8077/70400"},
@@ -209,12 +232,30 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
             {"const": "35/36", "theta_coeff": "1255263/3520000"},
         )
         self.assertEqual(
-            p0["cell_001_difference_Hsharp_minus_K5"],
-            {"const_diff_exact": "35/36", "theta_coeff_diff_exact": "1887761/77440000"},
+            p0["cell_001_difference_Hsharp_minus_K5"]["const_diff_exact"],
+            "35/36",
         )
         self.assertEqual(
-            p1["cell_001_difference_Hsharp_minus_K5"],
-            {"const_diff_exact": "35/36", "theta_coeff_diff_exact": "2579343/6050000"},
+            p0["cell_001_difference_Hsharp_minus_K5"]["theta_coeff_diff_exact"],
+            "1887761/77440000",
+        )
+        self.assertTrue(
+            p0["cell_001_difference_Hsharp_minus_K5"][
+                "strictly_positive_for_all_nonnegative_gamma_ij"
+            ]
+        )
+        self.assertEqual(
+            p1["cell_001_difference_Hsharp_minus_K5"]["const_diff_exact"],
+            "35/36",
+        )
+        self.assertEqual(
+            p1["cell_001_difference_Hsharp_minus_K5"]["theta_coeff_diff_exact"],
+            "2579343/6050000",
+        )
+        self.assertTrue(
+            p1["cell_001_difference_Hsharp_minus_K5"][
+                "strictly_positive_for_all_nonnegative_gamma_ij"
+            ]
         )
 
         # Test A: Root counter c_a resolution where (Y_6, D_6, R_6) differs
@@ -230,6 +271,17 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         test_b = row101["test_B_one_birth_deeper_at_birth7_for_agreed_readouts"]
         self.assertEqual(test_b["K6_100_counters"], (4, 3, 2, 0, 0, 0))
         self.assertEqual(test_b["H6_100_counters"], (0, 3, 2, 0, 0, 0))
+        self.assertTrue(
+            test_b["wrapped_root_on_H6_100_refires_R7_eq_1_on_all_nonempty_ideals"]
+        )
+        self.assertTrue(
+            test_b["cell_000_possible_on_K6_100_for_every_admitted_birth7_law"]
+        )
+        self.assertFalse(
+            test_b["cell_000_possible_on_H6_100_for_any_admitted_birth7_law"]
+        )
+        self.assertEqual(test_b["K6_100_legal_ideals_producing_000"], [[0, 1, 2]])
+        self.assertEqual(test_b["H6_100_legal_ideals_producing_000"], [])
         self.assertFalse(
             test_b["smaller_record_agrees_at_birth7_on_shared_100_children_Y7_D7_R7"]
         )
@@ -243,7 +295,10 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         b7_0 = test_b["by_prep"][0]
         self.assertTrue(b7_0["cell_000_reachable_on_K6_100"])
         self.assertFalse(b7_0["cell_000_reachable_on_H6_100"])
-        self.assertEqual(b7_0["D7eq0_R7eq0_theta3_ratio_K6_over_H6"], "75096511/3125")
+        self.assertEqual(
+            b7_0["unnormalized_u_potential_ratio_D7eq0_R7eq0_K6_over_H6"],
+            "75096511/3125",
+        )
 
         nc = no_standin["birth6_non_closures"]
         self.assertFalse(nc["is_universal_fixed_dimension_markov_state"])

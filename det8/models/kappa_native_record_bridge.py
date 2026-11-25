@@ -60,8 +60,11 @@ four-birth active-residual law and the QR validation suite to Pathway 1:
 from __future__ import annotations
 
 from fractions import Fraction
+import hashlib
 import itertools
+import json
 import math
+from pathlib import Path
 from typing import Final, Sequence
 
 
@@ -761,29 +764,46 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
            ``(D_6, R_6) = (0, 1)``, the entire joint ``(D_6, R_6)`` distribution agrees
            identically between ``K_5`` and ``H^#`` at Birth 6:
            ``P(D_6=0, R_6=0) = (b_i/8)*theta`` and ``P(D_6=0, R_6=1) = 1 - (b_i/8)*theta``.
-         * **Exact difference on the full ``(Y_6, D_6, R_6)`` distribution (Cell ``(0, 0, 1)`` vs. Cell ``(1, 0, 1)``):**
+         * **Exact difference on the full ``(Y_6, D_6, R_6)`` distribution (Cell ``(0, 0, 1)`` vs. Cell ``(1, 0, 1)``), carried symbolically and verified from the certificates:**
            Cell ``(0, 0, 1)`` sums ``S_6 = {0,1}`` and ``S_6 = {0,1,4}``. On ``K_5``, both
-           raise the Ferrers deletion defect from ``1 -> 2`` (restoration-only ``alpha_min = 0``),
-           giving ``P(0,0,1 | K_5, i) = (44*B_pair(i)*(203153/387200) + 4693/17600)*theta``.
+           raise the Ferrers deletion defect from ``1 -> 2`` (restoration-only ``alpha_min = 0``
+           in every primary or canonical optimum), giving
+           ``P(0,0,1 | K_5, i) = (44*B_pair(i)*q(K_4,{0,1}) + 4693/17600)*theta``.
            On ``H^#``, ``S_6 = {0,1,4}`` joins ``b = 1`` and ``z = 4`` into the 6-vertex
            Ferrers diagram Shape ``(4,2)`` (carrier of ``gamma_{ij}`` in ``THEOREM_PACKAGE.md``
-           §8 Eq. 32; in the admitted RI-63 canonical certificate ``G_i = g_{ij}*gamma_{ij} = 1``),
-           giving ``P(0,0,1 | H^#, i) = (35/36)*G_i + (44*B_pair(i)*q(Q,i,{0,1}) + g_{ij})*theta``.
+           §8 Eq. 32). Carrying the ``H^#`` carrier coefficients ``(sigma_i, beta_i, gamma_{ij})``
+           symbolically as ``q = w_1 + w_sigma*(35/36)*c_i*sigma_i + w_beta*(35/36)*p_i*beta_i + w_gamma*(35/36)*g_{ij}*gamma_{ij} + w_theta*theta``:
+             - ``w_sigma = 0`` and ``w_beta = 0`` in every summed ``(Y_6, D_6, R_6)`` cell,
+               and ``w_gamma = 0`` as well in every summed ``(D_6, R_6)`` cell;
+             - In Cell ``(0, 0, 1)``, ``Delta P(0,0,1) = P(0,0,1 | H^#, r) - P(0,0,1 | K_5, r) = (35/36)*g_{ij}*gamma_{ij} + Delta u_{(0,0,1)}(i)*theta``.
+             - Direct canonical-key lookup in the byte-pinned RI-41 certificate
+               (``docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json``,
+               SHA-256 ``3d966fb2...``) gives ``Delta u_{(0,0,1)}(0) = 1887761/77440000 > 0``
+               and ``Delta u_{(0,0,1)}(1) = 2579343/6050000 > 0``. Since ``g_{ij}*gamma_{ij} >= 0``
+               and ``theta > 0``, ``Delta P(0,0,1) > 0`` holds for **every** feasible carrier
+               allocation ``(sigma_i, beta_i, gamma_{ij}) >= 0`` in ``THEOREM_PACKAGE.md`` §8
+               Eq. (32), without assuming a specific ordered-root binding; specializing to the
+               byte-pinned RI-63 certificate (``CERTIFICATE.json``, SHA-256 ``f55625a6...``)
+               evaluates ``g_{ij}*gamma_{ij} = 1`` in both ``alpha`` and ``alternative_primary_alpha``.
          * **Follow-up Test A (Root counter ``c_a`` where ``(Y_6, D_6, R_6)`` differs):**
            Adding the root counter ``c_a in {3, 4}`` uniquely separates ``K_5`` (``c_a = 3``)
            from ``H^#`` (``c_a = 4``) and uniquely separates all 5 children of ``C_4`` at
            Birth 5, completely resolving the Birth-6 ``(Y_6, D_6, R_6)`` ambiguity.
-         * **Follow-up Test B (Keep smaller record where ``K_5`` and ``H^#`` agree at Birth 6, and test one birth deeper at Birth 7):**
-           Keeping ``(Y, D, R; i)`` on the shared ``(1, 0, 0)`` transition (children
-           ``K_6^(1,0,0) = H_5 u {z}`` with ``c_6 = (4,3,2,0,0,0)`` vs. ``H_6^(1,0,0) = (H_5, a<z)``
-           with ``c_6 = (0,3,2,0,0,0)``) or keeping ``(D, R; i)`` one birth deeper (Birth 7,
-           ``n = 6 -> 7``) fails at Birth 7: on ``H^#``'s nonempty Birth-6 children, the
-           wrapped root counter ``c_a = 0`` increments ``0 -> 1 (mod 5)`` at Birth 7 and
-           re-fires the counter-1 relay bit ``R_7 = 1``, emptying Cell ``(0, 0, 0)`` on
-           ``H_6^(1,0,0)`` (``u_{(0,0,0)} = 0`` vs. ``(11/82)*b_i^2*theta^3 > 0`` on ``K_6^(1,0,0)``),
-           collapsing ``u_{(D_7=0, R_7=0)}`` from ``(12015591/99123200)*theta^3`` (``i=0``)
-           down to ``(5/991232)*theta^3`` (a ``24,031x`` ratio), and preventing ``R_7 = 0``
-           on 7 of the 9 Birth-6 children of ``H^#``.
+         * **Follow-up Test B (Keep smaller record where ``K_5`` and ``H^#`` agree at Birth 6, and test one birth deeper at Birth 7 via exact possible-versus-impossible support):**
+           Following the shared Birth-6 readout ``(Y_6, D_6, R_6) = (1, 0, 0)`` from each parent
+           (``S_6 = C_3 = {0,1,2}``, producing ``K_6^(1,0,0) = H_5 u {z}`` with ``c_6 = (4,3,2,0,0,0)``
+           vs. ``H_6^(1,0,0) = (H_5, a<z)`` with ``c_6 = (0,3,2,0,0,0)``), on ``H_6^(1,0,0)``
+           the root counter wrapped to ``c_a = 0`` at Birth 6. At Birth 7 (``n = 6 -> 7``),
+           every nonempty attachment ``S_7 != empty`` on ``H_6^(1,0,0)`` includes the unique
+           root ``a = 0``, advances ``c_a : 0 -> 1 (mod 5)``, and lights up the relay ``R_7 = 1``
+           (while ``S_7 = empty`` gives ``(1, 0, 0)``), making ``(Y_7, D_7, R_7) = (0, 0, 0)``
+           **strictly impossible (``P = 0``)** under *any* admitted Birth-7 law. On ``K_6^(1,0,0)``,
+           the legal attachment ``S_7 = C_3 = {0,1,2}`` wraps ``c_a : 4 -> 0 (mod 5)`` and
+           produces ``c_7 = (0,4,3,0,0,0,0)``, making ``(Y_7, D_7, R_7) = (0, 0, 0)`` **strictly
+           possible (``P > 0``)** under *any* admitted Birth-7 law (and across all Birth-6
+           children, ``R_7 = 0`` is possible on ``10/10`` children of ``K_5`` vs. only ``2/9``
+           children of ``H^#``). Unnormalized deletion potentials ``u(P_6, i, S_7)`` are reported
+           separately as potentials, not complete Birth-7 probabilities.
        - **Non-closure 3 (Modulo-5 counter wrap breaks counter-only chain proxy ``D*_6`` at Birth 6):**
          At ``n = 6`` (birth 6), root ``a`` wraps ``4 + 1 = 0 (mod 5)`` on ``S_6 = C_5``,
          so the 6-chain ``C_6`` (modulo-5 counters ``(0,4,3,2,1,0)``, ``D_6 = 1``) has
@@ -855,13 +875,111 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             ),
         }
 
-    # Dynamically enumerate and sum the complete admitted Birth-6 rows for the two
-    # 5-vertex parents born from C_4 that share (Y_5, D_5, R_5; i) = (1, 0, 1; i):
-    #   - K_5 = C_4 u {z} (S_5 = empty, counters (3, 2, 1, 0, 0))
-    #   - H^# = (a<b<x<y, a<z) (S_5 = {a}, counters (4, 2, 1, 0, 0))
-    # Exact admitted parent-3 (C_3) and parent-4 (C_4, K_4 = C_3 u {z}, Q = (C_3, a<z))
-    # rows from RI-41 (docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json)
-    # and THEOREM_PACKAGE.md §4 Eq. (13), §7 Eq. (27), §8 line 708:
+    # Verify and load the byte-pinned RI-41 parent-4 and RI-63 parent-5 certificates directly
+    # from disk (hashes from THEOREM_PACKAGE.md §12 lines 832-835):
+    repo_root = Path(__file__).resolve().parents[2]
+    ri41_path = (
+        repo_root
+        / "docs"
+        / "track_b"
+        / "native_growth_height_normalization_v1"
+        / "CERTIFICATE.json"
+    )
+    ri63_path = (
+        repo_root
+        / "docs"
+        / "track_b"
+        / "native_growth_expected_defect_completion_v1"
+        / "CERTIFICATE.json"
+    )
+    raw_ri41 = ri41_path.read_bytes()
+    sha256_ri41 = hashlib.sha256(raw_ri41).hexdigest()
+    expected_sha256_ri41 = "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+    if sha256_ri41 != expected_sha256_ri41:
+        raise RuntimeError("RI-41 parent-4 certificate SHA-256 mismatch")
+    cert_ri41 = json.loads(raw_ri41)
+    roots_ri41 = {tuple(r): idx for idx, r in enumerate(cert_ri41["roots"])}
+    default_alpha_ri41 = Fraction(cert_ri41["default_alpha"])
+    overrides_ri41 = {int(k): Fraction(v) for k, v in cert_ri41["overrides"].items()}
+
+    raw_ri63 = ri63_path.read_bytes()
+    sha256_ri63 = hashlib.sha256(raw_ri63).hexdigest()
+    expected_sha256_ri63 = "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
+    if sha256_ri63 != expected_sha256_ri63:
+        raise RuntimeError("RI-63 parent-5 certificate SHA-256 mismatch")
+    cert_ri63 = json.loads(raw_ri63)
+    alpha_min_ri63 = {int(k): Fraction(v) for k, v in cert_ri63["alpha"].items()}
+    alpha_alt_ri63 = {
+        int(k): Fraction(v) for k, v in cert_ri63["alternative_primary_alpha"].items()
+    }
+
+    def _canonical_local_key_4(
+        rels4: frozenset[tuple[int, int]],
+        ideal_s: frozenset[int],
+        marks4: dict[int, int],
+    ) -> tuple[int, int, int]:
+        """Compute RI-41 canonical local key min_perm (E(P), mask(S), mask(r|S)) on 4 vertices."""
+        best_pair: tuple[int, int] | None = None
+        cands: list[tuple[int, ...]] = []
+        for perm in itertools.permutations(range(4)):
+            edge_mask = sum(1 << (4 * perm[u] + perm[v]) for u, v in rels4)
+            sel_mask = sum(1 << perm[v] for v in ideal_s)
+            pair = (edge_mask, sel_mask)
+            if best_pair is None or pair < best_pair:
+                best_pair = pair
+                cands = [perm]
+            elif pair == best_pair:
+                cands.append(perm)
+        assert best_pair is not None
+        rec_mask = min(
+            sum(1 << perm[v] for v in ideal_s if marks4.get(v, 0) == 1)
+            for perm in cands
+        )
+        return (best_pair[0], best_pair[1], rec_mask)
+
+    # Derive the complete parent-4 rows of K_4 = (0<1<2) u {4} and Q = (0<1<2, 0<4)
+    # directly from the byte-pinned RI-41 certificate + _maximal_deletion_potential
+    # (no hardcoded parent-4 probabilities):
+    v4_0123 = (0, 1, 2, 3)
+    rels_k4_0123 = frozenset({(0, 1), (0, 2), (1, 2)})
+    rels_q4_0123 = frozenset({(0, 1), (0, 2), (1, 2), (0, 3)})
+    v3_013 = (0, 1, 3)
+    rels_b3_k4 = frozenset({(0, 1)})
+    rels_b3_q4 = frozenset({(0, 1), (0, 3)})
+
+    def _lookup_ri41_alpha(
+        parent_name: str,
+        rels4: frozenset[tuple[int, int]],
+        ideal_s: frozenset[int],
+        i_r: int,
+        j_r: int = 0,
+    ) -> tuple[int, tuple[int, int, int], Fraction]:
+        marks = {
+            0: (i_r if (parent_name == "Q4" or 3 in ideal_s) else 0),
+            1: (j_r if 3 in ideal_s else 0),
+            2: 0,
+            3: 0,
+        }
+        key = _canonical_local_key_4(rels4, ideal_s, marks)
+        if key in roots_ri41:
+            idx = roots_ri41[key]
+            return idx, key, overrides_ri41.get(idx, default_alpha_ri41)
+        # 1-step base-3 diamond on P_4 \ {2} where vertex 2 was born over S_3 = {0, 1}:
+        rels_b3 = rels_b3_k4 if parent_name == "K4" else rels_b3_q4
+        _, rels4_alt = _append_birth_vertex(v3_013, rels_b3, ideal_s, 2)
+        key_alt = _canonical_local_key_4(
+            rels4_alt,
+            frozenset({0, 1}),
+            {
+                0: (i_r if (parent_name == "Q4" and 0 in ideal_s) else 0),
+                1: 0,
+                2: 0,
+                3: 0,
+            },
+        )
+        idx = roots_ri41[key_alt]
+        return idx, key_alt, overrides_ri41.get(idx, default_alpha_ri41)
+
     q_c3_row = {
         frozenset(): e_c3_prop,
         frozenset({0}): e_c3_prop,
@@ -878,46 +996,58 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
         }
         for i_r in (0, 1)
     }
-    # K_4 = (0<1<2) u {4} (record-constant across all 16 markings in RI-41):
-    q_k4_row = {
-        i_r: {
-            frozenset(): Fraction(5, 15488),
-            frozenset({0}): Fraction(5, 15488),
-            frozenset({0, 1}): Fraction(203153, 387200),
-            frozenset({0, 1, 2}): Fraction(41, 352),
-            frozenset({4}): Fraction(1, 352),
-            frozenset({0, 4}): Fraction(1, 64),
-            frozenset({0, 1, 4}): Fraction(4693, 17600),  # THEOREM_PACKAGE.md Eq. (27)
-            frozenset({0, 1, 2, 4}): Fraction(28301, 387200),
-        }
-        for i_r in (0, 1)
-    }
-    # Q = (0<1<2, 0<4) (hook (3,1), root-only across all 16 markings in RI-41):
-    q_q4_row = {
-        0: {
-            frozenset(): Fraction(5, 15488),
-            frozenset({0}): Fraction(93, 9680),
-            frozenset({0, 1}): Fraction(14931, 88000),
-            frozenset({0, 1, 2}): Fraction(41, 352),
-            frozenset({0, 4}): Fraction(19, 1760),
-            frozenset({0, 1, 4}): Fraction(1677, 5000),
-            frozenset({0, 1, 2, 4}): Fraction(3462793, 9680000),
-        },
-        1: {
-            frozenset(): Fraction(5, 15488),
-            frozenset({0}): Fraction(3, 15488),
-            frozenset({0, 1}): Fraction(3, 15488),
-            frozenset({0, 1, 2}): Fraction(41, 352),
-            frozenset({0, 4}): Fraction(7, 1760),
-            frozenset({0, 1, 4}): Fraction(8869, 11000),
-            frozenset({0, 1, 2, 4}): Fraction(1161, 16000),
-        },
-    }
-    for i_r in (0, 1):
-        if sum(q_k4_row[i_r].values(), Fraction(0, 1)) != Fraction(1, 1):
-            raise RuntimeError("K_4 row failed normalization")
-        if sum(q_q4_row[i_r].values(), Fraction(0, 1)) != Fraction(1, 1):
-            raise RuntimeError(f"Q_4 row failed normalization for i={i_r}")
+    q_k4_row: dict[int, dict[frozenset[int], Fraction]] = {0: {}, 1: {}}
+    q_q4_row: dict[int, dict[frozenset[int], Fraction]] = {0: {}, 1: {}}
+    ri41_verified_cell001_roots: dict[str, object] = {}
+
+    for parent_name, rels4, target_dict in (
+        ("K4", rels_k4_0123, q_k4_row),
+        ("Q4", rels_q4_0123, q_q4_row),
+    ):
+        for i_r in (0, 1):
+            row_map: dict[frozenset[int], Fraction] = {}
+            for s_0123 in _enumerate_poset_ideals(v4_0123, rels4):
+                if len(s_0123) == 4:
+                    continue
+                # Verify all mark combinations (i_r, j_r) for S={0,1,3} (which maps to S_6={0,1,4})
+                alphas_by_j: list[Fraction] = []
+                root_indices_by_j: list[int] = []
+                for j_r in ((0, 1) if 3 in s_0123 else (0,)):
+                    idx, _, alpha_val = _lookup_ri41_alpha(
+                        parent_name, rels4, s_0123, i_r, j_r
+                    )
+                    alphas_by_j.append(alpha_val)
+                    root_indices_by_j.append(idx)
+                if len(set(alphas_by_j)) != 1:
+                    raise RuntimeError(
+                        f"Mark j changed alpha on {parent_name} S={s_0123} for i={i_r}"
+                    )
+                u4_val = _maximal_deletion_potential(
+                    v4_0123, rels4, {0: i_r, 1: 0, 2: 0, 3: 0}, s_0123
+                )
+                q4_val = alphas_by_j[0] * u4_val
+                s_0124 = frozenset(4 if x == 3 else x for x in s_0123)
+                row_map[s_0124] = q4_val
+                if s_0123 in (frozenset({0, 1}), frozenset({0, 1, 3})):
+                    ri41_verified_cell001_roots[
+                        f"{parent_name}_i{i_r}_S{sorted(s_0124)}"
+                    ] = {
+                        "ri41_root_indices": root_indices_by_j,
+                        "alpha_from_certificate": str(alphas_by_j[0]),
+                        "u4_from_seed_deletion": str(u4_val),
+                        "q4_exact": str(q4_val),
+                    }
+            row_map[frozenset({0, 1, 2, 4})] = Fraction(1, 1) - sum(
+                row_map.values(), Fraction(0, 1)
+            )
+            target_dict[i_r] = row_map
+
+    # Cross-check THEOREM_PACKAGE.md Eq. (27) (q(K_4, {r,a,u}; i,j) = 4693/17600)
+    # and §8 line 708 (h_* = q_Q(rab) = 41/352):
+    if q_k4_row[0][frozenset({0, 1, 4})] != Fraction(4693, 17600):
+        raise RuntimeError("RI-41 derived K_4 {0,1,4} disagrees with THEOREM_PACKAGE.md Eq. (27)")
+    if q_q4_row[0][frozenset({0, 1, 2})] != Fraction(41, 352):
+        raise RuntimeError("RI-41 derived Q {0,1,2} disagrees with h_* = 41/352")
 
     v4_c4 = (0, 1, 2, 3)
     rels_c4 = frozenset({(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)})
@@ -971,35 +1101,100 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
                     u_val /= fac
         return u_val
 
-    # Admitted RI-63 canonical boundary load (35/36)*alpha_min*u on proper ideals of K_5 and H^#:
-    # On K_5, every proper ideal has alpha_min = 0.
-    # On H^#, THEOREM_PACKAGE.md §8 Eq. (32) has carriers S_6={0,1,2,3} (c_i*sigma_i),
-    # S_6={0,4} (p_i*beta_i), and S_6={0,1,4} (g_{ij}*gamma_{ij} = G_i). In the admitted
-    # RI-63 canonical certificate (CERTIFICATE.json), sigma_i = 0, beta_i = 0, and G_i = 1
-    # on S_6 = {0,1,4}.
-    def _q5_split_const_and_theta(
+    # Carry the H^# canonical carrier loads (THEOREM_PACKAGE.md §8 Eq. 32:
+    # c_i*sigma_i + p_i*beta_i + g_{ij}*gamma_{ij} <= 1) completely SYMBOLICALLY as a
+    # 5-tuple (w_1, w_sigma, w_beta, w_gamma, w_theta) representing:
+    #   q = w_1 + w_sigma*(35/36)*c_i*sigma_i + w_beta*(35/36)*p_i*beta_i
+    #       + w_gamma*(35/36)*g_{ij}*gamma_{ij} + w_theta*theta.
+    # On K_5 = C_4 u {z}, all ideals outside Cell (1,0,1) — namely S_6={0,1,2} in (1,0,0)
+    # and S_6 in {{0,1},{0,1,4}} in (0,0,1) — strictly raise the Ferrers deletion defect
+    # from 1 -> 2 (d_{K_5}(S_6) = +1), so their canonical boundary components vanish
+    # identically by the everywhere-neutral canonical support theorem (THEOREM_PACKAGE.md
+    # §7 lines 668-670 & §9 line 786).
+    Symbolic5Tuple = tuple[Fraction, Fraction, Fraction, Fraction, Fraction]
+
+    def _q5_symbolic_5tuple(
         parent_tag: str,
         rels5: frozenset[tuple[int, int]],
         i_r: int,
         ideal_s6: frozenset[int],
-    ) -> tuple[Fraction, Fraction]:
+    ) -> Symbolic5Tuple:
         full5 = frozenset({0, 1, 2, 3, 4})
+        z0 = Fraction(0, 1)
+        one = Fraction(1, 1)
         if ideal_s6 != full5:
             u_val = _u5_from_admitted_p4(parent_tag, rels5, i_r, ideal_s6)
-            const_part = (
-                Fraction(35, 36)
-                if (parent_tag == "Hsharp" and ideal_s6 == frozenset({0, 1, 4}))
-                else Fraction(0, 1)
-            )
-            return (const_part, u_val)
-        c_sum = Fraction(0, 1)
-        t_sum = Fraction(0, 1)
+            if parent_tag == "Hsharp":
+                if ideal_s6 == frozenset({0, 1, 2, 3}):
+                    return (z0, one, z0, z0, u_val)
+                if ideal_s6 == frozenset({0, 4}):
+                    return (z0, z0, one, z0, u_val)
+                if ideal_s6 == frozenset({0, 1, 4}):
+                    return (z0, z0, z0, one, u_val)
+            return (z0, z0, z0, z0, u_val)
+        acc = (z0, z0, z0, z0, z0)
         for sp in _enumerate_poset_ideals((0, 1, 2, 3, 4), rels5):
             if sp != full5:
-                cp, tp = _q5_split_const_and_theta(parent_tag, rels5, i_r, sp)
-                c_sum += cp
-                t_sum += tp
-        return (Fraction(1, 1) - c_sum, -t_sum)
+                term = _q5_symbolic_5tuple(parent_tag, rels5, i_r, sp)
+                acc = tuple(a + b for a, b in zip(acc, term))  # type: ignore[assignment]
+        return (one - acc[0], -acc[1], -acc[2], -acc[3], -acc[4])
+
+    def _format_symbolic_5tuple(w: Symbolic5Tuple) -> str:
+        parts: list[str] = []
+        if w[0] != 0:
+            parts.append(f"{w[0]}")
+        if w[1] != 0:
+            parts.append(f"({w[1]})*(35/36)*c_i*sigma_i")
+        if w[2] != 0:
+            parts.append(f"({w[2]})*(35/36)*p_i*beta_i")
+        if w[3] != 0:
+            parts.append(f"({w[3]})*(35/36)*g_ij*gamma_ij")
+        if w[4] != 0:
+            parts.append(f"({w[4]})*theta")
+        return " + ".join(parts) if parts else "0"
+
+    # Also verify the RI-63 certificate specialization (CERTIFICATE.json components
+    # 408..411 for sigma_i, beta_i and 412..415 for gamma_{ij}):
+    g_0j = q_q4_row[0][frozenset({0, 1, 4})]
+    g_1j = q_q4_row[1][frozenset({0, 1, 4})]
+    ri63_carrier_verification = {
+        "sha256_verified": sha256_ri63 == expected_sha256_ri63,
+        "sigma_components_408_409_canonical_and_alt": [
+            str(alpha_min_ri63.get(408, Fraction(0, 1))),
+            str(alpha_min_ri63.get(409, Fraction(0, 1))),
+            str(alpha_alt_ri63.get(408, Fraction(0, 1))),
+            str(alpha_alt_ri63.get(409, Fraction(0, 1))),
+        ],
+        "beta_components_410_411_canonical_and_alt": [
+            str(alpha_min_ri63.get(410, Fraction(0, 1))),
+            str(alpha_min_ri63.get(411, Fraction(0, 1))),
+            str(alpha_alt_ri63.get(410, Fraction(0, 1))),
+            str(alpha_alt_ri63.get(411, Fraction(0, 1))),
+        ],
+        "gamma_i0_components_412_414_times_g0j": [
+            str(alpha_min_ri63[412] * g_0j),
+            str(alpha_min_ri63[414] * g_0j),
+            str(alpha_alt_ri63[412] * g_0j),
+            str(alpha_alt_ri63[414] * g_0j),
+        ],
+        "gamma_i1_components_413_415_times_g1j": [
+            str(alpha_min_ri63[413] * g_1j),
+            str(alpha_min_ri63[415] * g_1j),
+            str(alpha_alt_ri63[413] * g_1j),
+            str(alpha_alt_ri63[415] * g_1j),
+        ],
+    }
+    if not (
+        all(x == "0" for x in ri63_carrier_verification["sigma_components_408_409_canonical_and_alt"])
+        and all(x == "0" for x in ri63_carrier_verification["beta_components_410_411_canonical_and_alt"])
+        and all(x == "1" for x in ri63_carrier_verification["gamma_i0_components_412_414_times_g0j"])
+        and all(x == "1" for x in ri63_carrier_verification["gamma_i1_components_413_415_times_g1j"])
+    ):
+        raise RuntimeError("RI-63 H^# carrier specialization check failed")
+
+    def _eval_ri63_from_symbolic(w: Symbolic5Tuple) -> tuple[Fraction, Fraction]:
+        """Evaluate symbolic 5-tuple at RI-63 certificate (sigma_i=0, beta_i=0, g_ij*gamma_ij=1)."""
+        return (w[0] + w[3] * Fraction(35, 36), w[4])
 
     ideals_k5 = _enumerate_poset_ideals(v5_k5, rels_k5)
     ideals_hs = _enumerate_poset_ideals(v5_hs, rels_hs)
@@ -1034,12 +1229,23 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
     cell_100_agrees_all_prep = True
     joint_d6_r6_agrees_all_prep = True
     full_ydr6_differs_all_prep = True
+    sigma_and_beta_cancel_symbolically_all_prep = True
+    all_carriers_cancel_in_dr_all_prep = True
+    cell_001_diff_positive_for_all_nonneg_gamma = True
+
+    zero5: Symbolic5Tuple = (
+        Fraction(0, 1),
+        Fraction(0, 1),
+        Fraction(0, 1),
+        Fraction(0, 1),
+        Fraction(0, 1),
+    )
 
     for i_root in (0, 1):
-        k5_ydr_cells: dict[tuple[int, int, int], tuple[Fraction, Fraction]] = {}
-        hs_ydr_cells: dict[tuple[int, int, int], tuple[Fraction, Fraction]] = {}
-        k5_dr_cells: dict[tuple[int, int], tuple[Fraction, Fraction]] = {}
-        hs_dr_cells: dict[tuple[int, int], tuple[Fraction, Fraction]] = {}
+        k5_ydr_sym: dict[tuple[int, int, int], Symbolic5Tuple] = {}
+        hs_ydr_sym: dict[tuple[int, int, int], Symbolic5Tuple] = {}
+        k5_dr_sym: dict[tuple[int, int], Symbolic5Tuple] = {}
+        hs_dr_sym: dict[tuple[int, int], Symbolic5Tuple] = {}
         k5_ideal_ledger: list[dict[str, object]] = []
         hs_ideal_ledger: list[dict[str, object]] = []
 
@@ -1048,16 +1254,18 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             v6, r6 = _append_birth_vertex(v5_k5, rels_k5, s6, 5)
             cell = _readout_ydr(v6, r6, c6)
             dr_cell = (cell[1], cell[2])
-            c_part, t_part = _q5_split_const_and_theta("K5", rels_k5, i_root, s6)
-            prev_c, prev_t = k5_ydr_cells.get(cell, (Fraction(0, 1), Fraction(0, 1)))
-            k5_ydr_cells[cell] = (prev_c + c_part, prev_t + t_part)
-            p_dr_c, p_dr_t = k5_dr_cells.get(dr_cell, (Fraction(0, 1), Fraction(0, 1)))
-            k5_dr_cells[dr_cell] = (p_dr_c + c_part, p_dr_t + t_part)
+            w5 = _q5_symbolic_5tuple("K5", rels_k5, i_root, s6)
+            prev_w = k5_ydr_sym.get(cell, zero5)
+            k5_ydr_sym[cell] = tuple(a + b for a, b in zip(prev_w, w5))  # type: ignore[assignment]
+            p_dr = k5_dr_sym.get(dr_cell, zero5)
+            k5_dr_sym[dr_cell] = tuple(a + b for a, b in zip(p_dr, w5))  # type: ignore[assignment]
+            c_part, t_part = _eval_ri63_from_symbolic(w5)
             k5_ideal_ledger.append(
                 {
                     "S6": sorted(s6),
                     "counters_c6": tuple(c6[k] for k in range(6)),
                     "cell_Y6_D6_R6": cell,
+                    "symbolic": _format_symbolic_5tuple(w5),
                     "const_term": str(c_part),
                     "theta_coeff": str(t_part),
                 }
@@ -1068,62 +1276,121 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             v6, r6 = _append_birth_vertex(v5_hs, rels_hs, s6, 5)
             cell = _readout_ydr(v6, r6, c6)
             dr_cell = (cell[1], cell[2])
-            c_part, t_part = _q5_split_const_and_theta("Hsharp", rels_hs, i_root, s6)
-            prev_c, prev_t = hs_ydr_cells.get(cell, (Fraction(0, 1), Fraction(0, 1)))
-            hs_ydr_cells[cell] = (prev_c + c_part, prev_t + t_part)
-            p_dr_c, p_dr_t = hs_dr_cells.get(dr_cell, (Fraction(0, 1), Fraction(0, 1)))
-            hs_dr_cells[dr_cell] = (p_dr_c + c_part, p_dr_t + t_part)
+            w5 = _q5_symbolic_5tuple("Hsharp", rels_hs, i_root, s6)
+            prev_w = hs_ydr_sym.get(cell, zero5)
+            hs_ydr_sym[cell] = tuple(a + b for a, b in zip(prev_w, w5))  # type: ignore[assignment]
+            p_dr = hs_dr_sym.get(dr_cell, zero5)
+            hs_dr_sym[dr_cell] = tuple(a + b for a, b in zip(p_dr, w5))  # type: ignore[assignment]
+            c_part, t_part = _eval_ri63_from_symbolic(w5)
             hs_ideal_ledger.append(
                 {
                     "S6": sorted(s6),
                     "counters_c6": tuple(c6[k] for k in range(6)),
                     "cell_Y6_D6_R6": cell,
+                    "symbolic": _format_symbolic_5tuple(w5),
                     "const_term": str(c_part),
                     "theta_coeff": str(t_part),
                 }
             )
 
-        # Verify total row normalization (sum of const = 1, sum of theta_coeff = 0):
-        if (
-            sum((v[0] for v in k5_ydr_cells.values()), Fraction(0, 1)) != Fraction(1, 1)
-            or sum((v[1] for v in k5_ydr_cells.values()), Fraction(0, 1)) != Fraction(0, 1)
-        ):
-            raise RuntimeError(f"K_5 summed row failed normalization for i={i_root}")
-        if (
-            sum((v[0] for v in hs_ydr_cells.values()), Fraction(0, 1)) != Fraction(1, 1)
-            or sum((v[1] for v in hs_ydr_cells.values()), Fraction(0, 1)) != Fraction(0, 1)
-        ):
-            raise RuntimeError(f"H^# summed row failed normalization for i={i_root}")
+        # Verify symbolic row normalization: sum of 5-tuples over all cells is (1, 0, 0, 0, 0)
+        norm5: Symbolic5Tuple = (
+            Fraction(1, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+            Fraction(0, 1),
+        )
+        k5_sum5 = zero5
+        for w_cell in k5_ydr_sym.values():
+            k5_sum5 = tuple(a + b for a, b in zip(k5_sum5, w_cell))  # type: ignore[assignment]
+        hs_sum5 = zero5
+        for w_cell in hs_ydr_sym.values():
+            hs_sum5 = tuple(a + b for a, b in zip(hs_sum5, w_cell))  # type: ignore[assignment]
+        if k5_sum5 != norm5 or hs_sum5 != norm5:
+            raise RuntimeError(f"Symbolic Birth-6 row failed normalization for i={i_root}")
 
-        c100_agrees = (k5_ydr_cells.get((1, 0, 0)) == hs_ydr_cells.get((1, 0, 0)))
-        dr_agrees = (k5_dr_cells == hs_dr_cells)
-        ydr_differs = (k5_ydr_cells != hs_ydr_cells)
+        # Verify symbolically that w_sigma == 0 and w_beta == 0 in every summed (Y6,D6,R6) cell:
+        sig_beta_zero = all(w[1] == 0 and w[2] == 0 for w in hs_ydr_sym.values())
+        # Verify symbolically that w_sigma == w_beta == w_gamma == 0 in every summed (D6,R6) cell:
+        dr_carriers_zero = all(
+            w[1] == 0 and w[2] == 0 and w[3] == 0 for w in hs_dr_sym.values()
+        )
+        sigma_and_beta_cancel_symbolically_all_prep = (
+            sigma_and_beta_cancel_symbolically_all_prep and sig_beta_zero
+        )
+        all_carriers_cancel_in_dr_all_prep = (
+            all_carriers_cancel_in_dr_all_prep and dr_carriers_zero
+        )
+
+        # Compare symbolic 5-tuples directly (valid for ALL (sigma_i, beta_i, gamma_{ij})):
+        c100_agrees = (k5_ydr_sym.get((1, 0, 0)) == hs_ydr_sym.get((1, 0, 0)))
+        dr_agrees = (k5_dr_sym == hs_dr_sym)
+        w_k5_001 = k5_ydr_sym[(0, 0, 1)]
+        w_hs_001 = hs_ydr_sym[(0, 0, 1)]
+        w_diff_001: Symbolic5Tuple = tuple(
+            b - a for a, b in zip(w_k5_001, w_hs_001)
+        )  # type: ignore[assignment]
+        # Since w_diff_001 = (0, 0, 0, +1, Delta u > 0), Delta P(0,0,1) > 0 for ALL g_ij*gamma_ij >= 0 and theta > 0!
+        diff_pos_all_gamma = (
+            w_diff_001[0] == 0
+            and w_diff_001[1] == 0
+            and w_diff_001[2] == 0
+            and w_diff_001[3] == Fraction(1, 1)
+            and w_diff_001[4] > 0
+        )
+        cell_001_diff_positive_for_all_nonneg_gamma = (
+            cell_001_diff_positive_for_all_nonneg_gamma and diff_pos_all_gamma
+        )
+        ydr_differs = (k5_ydr_sym != hs_ydr_sym) and diff_pos_all_gamma
+
         cell_100_agrees_all_prep = cell_100_agrees_all_prep and c100_agrees
         joint_d6_r6_agrees_all_prep = joint_d6_r6_agrees_all_prep and dr_agrees
         full_ydr6_differs_all_prep = full_ydr6_differs_all_prep and ydr_differs
 
-        k5_001_c, k5_001_t = k5_ydr_cells[(0, 0, 1)]
-        hs_001_c, hs_001_t = hs_ydr_cells[(0, 0, 1)]
+        k5_001_c, k5_001_t = _eval_ri63_from_symbolic(w_k5_001)
+        hs_001_c, hs_001_t = _eval_ri63_from_symbolic(w_hs_001)
 
         k5_vs_hsharp_by_prep[i_root] = {
+            "K5_summed_Y6_D6_R6_cells_symbolic": {
+                str(k): _format_symbolic_5tuple(v) for k, v in sorted(k5_ydr_sym.items())
+            },
+            "Hsharp_summed_Y6_D6_R6_cells_symbolic": {
+                str(k): _format_symbolic_5tuple(v) for k, v in sorted(hs_ydr_sym.items())
+            },
+            "cell_001_difference_Hsharp_minus_K5_symbolic": _format_symbolic_5tuple(
+                w_diff_001
+            ),
             "K5_summed_Y6_D6_R6_cells": {
-                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
-                for k, v in sorted(k5_ydr_cells.items())
+                str(k): {
+                    "const": str(_eval_ri63_from_symbolic(v)[0]),
+                    "theta_coeff": str(_eval_ri63_from_symbolic(v)[1]),
+                }
+                for k, v in sorted(k5_ydr_sym.items())
             },
             "Hsharp_summed_Y6_D6_R6_cells": {
-                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
-                for k, v in sorted(hs_ydr_cells.items())
+                str(k): {
+                    "const": str(_eval_ri63_from_symbolic(v)[0]),
+                    "theta_coeff": str(_eval_ri63_from_symbolic(v)[1]),
+                }
+                for k, v in sorted(hs_ydr_sym.items())
             },
             "shared_summed_D6_R6_cells": {
-                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
-                for k, v in sorted(k5_dr_cells.items())
+                str(k): {
+                    "const": str(_eval_ri63_from_symbolic(v)[0]),
+                    "theta_coeff": str(_eval_ri63_from_symbolic(v)[1]),
+                }
+                for k, v in sorted(k5_dr_sym.items())
             },
             "cell_100_exact_agreement": c100_agrees,
             "joint_D6_R6_exact_agreement": dr_agrees,
             "full_Y6_D6_R6_differs": ydr_differs,
             "cell_001_difference_Hsharp_minus_K5": {
+                "symbolic_carrier_term": "(35/36)*g_ij*gamma_ij",
+                "const_diff_ri63_evaluated": str(hs_001_c - k5_001_c),
                 "const_diff_exact": str(hs_001_c - k5_001_c),
                 "theta_coeff_diff_exact": str(hs_001_t - k5_001_t),
+                "strictly_positive_for_all_nonnegative_gamma_ij": diff_pos_all_gamma,
             },
             "K5_ideal_ledger": k5_ideal_ledger,
             "Hsharp_ideal_ledger": hs_ideal_ledger,
@@ -1151,6 +1418,31 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
     c6_k6_100 = _update_modulo5_counters(c5_k5, s6_c3, 5)
     v6_h6_100, rels_h6_100 = _append_birth_vertex(v5_hs, rels_hs, s6_c3, 5)
     c6_h6_100 = _update_modulo5_counters(c5_hs, s6_c3, 5)
+
+    # Primary Birth-7 test: exact law-independent possible-versus-impossible support on
+    # K_6^(1,0,0) = H_5 u {z} (c_6 = (4,3,2,0,0,0)) vs. H_6^(1,0,0) = (H_5, a<z) (c_6 = (0,3,2,0,0,0)).
+    # Under ANY admitted Birth-7 law (THEOREM_PACKAGE.md §1 line 75: every ideal has q > 0):
+    k6_100_ideals_by_cell7: dict[tuple[int, int, int], list[list[int]]] = {}
+    h6_100_ideals_by_cell7: dict[tuple[int, int, int], list[list[int]]] = {}
+    nonempty_h6_all_include_root_and_fire_r7 = True
+
+    for s7 in _enumerate_poset_ideals(v6_k6_100, rels_k6_100):
+        c7 = _update_modulo5_counters(c6_k6_100, s7, 6)
+        v7, r7 = _append_birth_vertex(v6_k6_100, rels_k6_100, s7, 6)
+        cell7 = _readout_ydr(v7, r7, c7)
+        k6_100_ideals_by_cell7.setdefault(cell7, []).append(sorted(s7))
+
+    for s7 in _enumerate_poset_ideals(v6_h6_100, rels_h6_100):
+        c7 = _update_modulo5_counters(c6_h6_100, s7, 6)
+        v7, r7 = _append_birth_vertex(v6_h6_100, rels_h6_100, s7, 6)
+        cell7 = _readout_ydr(v7, r7, c7)
+        h6_100_ideals_by_cell7.setdefault(cell7, []).append(sorted(s7))
+        if len(s7) > 0:
+            if not (0 in s7 and c7[0] == 1 and cell7[2] == 1):
+                nonempty_h6_all_include_root_and_fire_r7 = False
+
+    cell_000_possible_on_k6_100 = len(k6_100_ideals_by_cell7.get((0, 0, 0), [])) > 0
+    cell_000_possible_on_h6_100 = len(h6_100_ideals_by_cell7.get((0, 0, 0), [])) > 0
 
     # Admitted H_5 = C_3 + A_2 row (const, theta_coeff) for maximal deletions of K_6^(1,0,0) and H_6^(1,0,0):
     def _q5_h5_split(i_r: int, ideal_s: frozenset[int]) -> tuple[Fraction, Fraction]:
@@ -1180,7 +1472,7 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
         i_r: int,
         ideal_s7: frozenset[int],
     ) -> tuple[Fraction, Fraction, Fraction, Fraction]:
-        """Dynamically compute u(P_6, i, S_7) as an exact degree-3 polynomial (c0, c1, c2, c3) in theta."""
+        """Dynamically compute unnormalized deletion potential u(P_6, i, S_7) as a degree-3 polynomial in theta."""
         maxima6 = _poset_maxima((0, 1, 2, 3, 4, 5), rels6)
         m_diff6 = tuple(sorted(x for x in maxima6 if x not in ideal_s7))
         poly = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
@@ -1189,11 +1481,9 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
                 keep = frozenset(x for x in (0, 1, 2, 3, 4, 5) if x not in sub_a)
                 s_restricted = frozenset(x for x in ideal_s7 if x in keep)
                 if len(keep) == 3:
-                    # keep = {0, 1, 2} -> C_3
                     val = q_c3_row[s_restricted]
                     poly = [x * val if r_sz % 2 == 1 else x / val for x in poly]
                 elif len(keep) == 4:
-                    # keep is {0,1,2,3} (C_4), {0,1,2,5} (C_4 with 5->3), or {0,1,2,4} (K_4 / Q)
                     if keep == frozenset({0, 1, 2, 3}):
                         val = q_c4_row[i_r][s_restricted]
                     elif keep == frozenset({0, 1, 2, 5}):
@@ -1209,24 +1499,26 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
                         raise RuntimeError(f"Unexpected 4-vertex keep {keep}")
                     poly = [x * val if r_sz % 2 == 1 else x / val for x in poly]
                 elif len(keep) == 5:
-                    # r_sz == 1: keep is {0,1,2,3,5} (H_5), {0,1,2,3,4} (K_5 / H^#),
-                    # or {0,1,2,4,5} (K_5 / H^# with 5->3)
                     if keep == frozenset({0, 1, 2, 3, 5}):
                         c0_f, c1_f = _q5_h5_split(i_r, s_restricted)
                     elif keep == frozenset({0, 1, 2, 3, 4}):
-                        c0_f, c1_f = _q5_split_const_and_theta(
-                            parent_tag,
-                            rels_k5 if parent_tag == "K5" else rels_hs,
-                            i_r,
-                            s_restricted,
+                        c0_f, c1_f = _eval_ri63_from_symbolic(
+                            _q5_symbolic_5tuple(
+                                parent_tag,
+                                rels_k5 if parent_tag == "K5" else rels_hs,
+                                i_r,
+                                s_restricted,
+                            )
                         )
                     elif keep == frozenset({0, 1, 2, 4, 5}):
                         s_mapped = frozenset(3 if x == 5 else x for x in s_restricted)
-                        c0_f, c1_f = _q5_split_const_and_theta(
-                            parent_tag,
-                            rels_k5 if parent_tag == "K5" else rels_hs,
-                            i_r,
-                            s_mapped,
+                        c0_f, c1_f = _eval_ri63_from_symbolic(
+                            _q5_symbolic_5tuple(
+                                parent_tag,
+                                rels_k5 if parent_tag == "K5" else rels_hs,
+                                i_r,
+                                s_mapped,
+                            )
                         )
                     else:
                         raise RuntimeError(f"Unexpected 5-vertex keep {keep}")
@@ -1238,7 +1530,9 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
         return (poly[0], poly[1], poly[2], poly[3])
 
     birth7_on_shared_100_by_prep: dict[int, dict[str, object]] = {}
-    smaller_record_agrees_at_birth7_ydr = True
+    smaller_record_agrees_at_birth7_ydr = (
+        set(k6_100_ideals_by_cell7.keys()) == set(h6_100_ideals_by_cell7.keys())
+    )
     smaller_record_agrees_at_birth7_dr = True
 
     for i_root in (0, 1):
@@ -1288,23 +1582,23 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             smaller_record_agrees_at_birth7_dr = False
 
         birth7_on_shared_100_by_prep[i_root] = {
-            "K6_100_proper_u_poly_by_Y7_D7_R7": {
-                str(k): [str(c) for c in v] for k, v in sorted(k6_ydr7_polys.items())
-            },
-            "H6_100_proper_u_poly_by_Y7_D7_R7": {
-                str(k): [str(c) for c in v] for k, v in sorted(h6_ydr7_polys.items())
-            },
-            "K6_100_proper_u_poly_for_D7eq0_R7eq0": [
-                str(c) for c in k6_dr7_polys[(0, 0)]
-            ],
-            "H6_100_proper_u_poly_for_D7eq0_R7eq0": [
-                str(c) for c in h6_dr7_polys[(0, 0)]
-            ],
-            "D7eq0_R7eq0_theta3_ratio_K6_over_H6": str(
-                k6_dr7_polys[(0, 0)][3] / h6_dr7_polys[(0, 0)][3]
-            ),
             "cell_000_reachable_on_K6_100": (0, 0, 0) in k6_ydr7_polys,
             "cell_000_reachable_on_H6_100": (0, 0, 0) in h6_ydr7_polys,
+            "K6_100_unnormalized_proper_u_poly_by_Y7_D7_R7": {
+                str(k): [str(c) for c in v] for k, v in sorted(k6_ydr7_polys.items())
+            },
+            "H6_100_unnormalized_proper_u_poly_by_Y7_D7_R7": {
+                str(k): [str(c) for c in v] for k, v in sorted(h6_ydr7_polys.items())
+            },
+            "K6_100_unnormalized_proper_u_poly_for_D7eq0_R7eq0": [
+                str(c) for c in k6_dr7_polys[(0, 0)]
+            ],
+            "H6_100_unnormalized_proper_u_poly_for_D7eq0_R7eq0": [
+                str(c) for c in h6_dr7_polys[(0, 0)]
+            ],
+            "unnormalized_u_potential_ratio_D7eq0_R7eq0_K6_over_H6": str(
+                k6_dr7_polys[(0, 0)][3] / h6_dr7_polys[(0, 0)][3]
+            ),
         }
 
     # Also count across all Birth-6 children of K_5 vs. H^# how many children have
@@ -1373,10 +1667,22 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             ),
             "sigma_i_and_beta_i_cancel_in_cell_101": (
                 c4_attachment_lands_in_101_with_full_on_both
+                and sigma_and_beta_cancel_symbolically_all_prep
+            ),
+            "all_three_carriers_cancel_in_joint_D6_R6": (
+                all_carriers_cancel_in_dr_all_prep
             ),
             "cell_100_agrees_identically": cell_100_agrees_all_prep,
             "joint_D6_R6_agrees_identically": joint_d6_r6_agrees_all_prep,
             "full_Y6_D6_R6_differs_on_001_vs_101": full_ydr6_differs_all_prep,
+            "cell_001_diff_strictly_positive_for_all_nonnegative_gamma_ij": (
+                cell_001_diff_positive_for_all_nonneg_gamma
+            ),
+            "ri41_certificate_direct_verification": {
+                "sha256_verified": sha256_ri41 == expected_sha256_ri41,
+                "cell_001_parent4_roots": ri41_verified_cell001_roots,
+            },
+            "ri63_certificate_carrier_specialization": ri63_carrier_verification,
             "by_prep": k5_vs_hsharp_by_prep,
             "test_A_root_counter_resolution": {
                 "K5_root_counter_c_a": c5_k5[0],
@@ -1394,7 +1700,29 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             "test_B_one_birth_deeper_at_birth7_for_agreed_readouts": {
                 "K6_100_counters": tuple(c6_k6_100[k] for k in range(6)),
                 "H6_100_counters": tuple(c6_h6_100[k] for k in range(6)),
-                "wrapped_root_on_H6_100_refires_R7_eq_1_on_all_nonempty_ideals": True,
+                "wrapped_root_on_H6_100_refires_R7_eq_1_on_all_nonempty_ideals": (
+                    nonempty_h6_all_include_root_and_fire_r7
+                ),
+                "cell_000_possible_on_K6_100_for_every_admitted_birth7_law": (
+                    cell_000_possible_on_k6_100
+                ),
+                "cell_000_possible_on_H6_100_for_any_admitted_birth7_law": (
+                    cell_000_possible_on_h6_100
+                ),
+                "K6_100_legal_ideals_producing_000": k6_100_ideals_by_cell7.get(
+                    (0, 0, 0), []
+                ),
+                "H6_100_legal_ideals_producing_000": h6_100_ideals_by_cell7.get(
+                    (0, 0, 0), []
+                ),
+                "K6_100_legal_ideals_producing_D7eq0_R7eq0": (
+                    k6_100_ideals_by_cell7.get((0, 0, 0), [])
+                    + k6_100_ideals_by_cell7.get((1, 0, 0), [])
+                ),
+                "H6_100_legal_ideals_producing_D7eq0_R7eq0": (
+                    h6_100_ideals_by_cell7.get((0, 0, 0), [])
+                    + h6_100_ideals_by_cell7.get((1, 0, 0), [])
+                ),
                 "smaller_record_agrees_at_birth7_on_shared_100_children_Y7_D7_R7": (
                     smaller_record_agrees_at_birth7_ydr
                 ),
@@ -1425,31 +1753,33 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             "Without relying on the half-scale stand-in, dynamically summing the complete "
             "admitted Birth-6 rows for the two parents sharing (Y_5, D_5, R_5; i) = (1, 0, 1; i) "
             "— K_5 = C_4 u {z} (counters (3,2,1,0,0), root c_a=3) and H^# = (a<b<x<y, a<z) "
-            "(counters (4,2,1,0,0), root c_a=4) — confirms that the 4-chain attachment S_6 = C_4 "
-            "increments the old chain tip y from 0 -> 1 and lands in (Y_6, D_6, R_6) = (1, 0, 1) "
-            "on both parents alongside the full ideal S_6 = {0,1,2,3,4} and S_6 = {0,4}. "
-            "Consequently, both the hook-(5,1) canonical term c_i*sigma_i on S_6 = C_4 and the "
-            "hook-(4,1,1) term p_i*beta_i on S_6 = {0,4} cancel identically against the full-ideal "
-            "complement inside Cell (1, 0, 1), just as +/-mu_i cancels on C_5. Comparing the complete "
-            "summed Birth-6 distributions yields a sharp split by readout: "
-            "(1) Cell (1, 0, 0) comes solely from S_6 = C_3 = {0,1,2} on both parents and agrees "
+            "(counters (4,2,1,0,0), root c_a=4) — while carrying H^#'s canonical carrier "
+            "coefficients (sigma_i, beta_i, gamma_{ij}) from THEOREM_PACKAGE.md §8 Eq. (32) "
+            "symbolically and verifying all parent-4 potentials directly from the byte-pinned "
+            "RI-41 certificate confirms: "
+            "(1) On both parents, the 4-chain attachment S_6 = C_4 increments the old chain tip y "
+            "from 0 -> 1 and lands in (Y_6, D_6, R_6) = (1, 0, 1) alongside S_6 = {0,4} and the "
+            "full ideal S_6 = {0,1,2,3,4}, so both (35/36)*c_i*sigma_i and (35/36)*p_i*beta_i "
+            "cancel identically in Cell (1, 0, 1) for all (sigma_i, beta_i, gamma_{ij}). "
+            "(2) Cell (1, 0, 0) comes solely from S_6 = C_3 = {0,1,2} on both parents and agrees "
             "identically: P(Y_6=1, D_6=0, R_6=0 | K_5, i) = (b_i/8)*theta = P(Y_6=1, D_6=0, R_6=0 | H^#, i). "
-            "Because the remaining cells (0, 0, 1) and (1, 0, 1) share (D_6, R_6) = (0, 1), the entire "
-            "joint (D_6, R_6) readout distribution agrees identically at Birth 6 without needing the "
-            "root counter. "
-            "(2) The full 3-bit (Y_6, D_6, R_6) distribution differs between K_5 and H^# on Cell (0, 0, 1) "
-            "(S_6 in {{0,1}, {0,1,4}}) vs. Cell (1, 0, 1): on H^#, S_6 = {0,1,4} forms the 6-vertex "
-            "Ferrers shape (4,2) (carrier of gamma_{ij} in THEOREM_PACKAGE.md §8 Eq. 32, contributing "
-            "(35/36)*G_i = 35/36 in the admitted RI-63 certificate plus an O(theta) restoration difference). "
-            "Adding the root counter c_a in {3, 4} uniquely separates all 5 children of C_4 and resolves "
-            "this Birth-6 (Y_6, D_6, R_6) ambiguity. "
-            "(3) Keeping the smaller record without c_a for the readouts that agree at Birth 6 (the "
-            "(D_n, R_n) readout and the shared (1, 0, 0) continuation) and testing one birth deeper "
-            "(Birth 7, n = 6 -> 7) shows that the hidden root difference c_a = 3 vs. 4 resurfaces via "
-            "the modulo-5 wrap: on H^#'s nonempty Birth-6 children, c_a wraps 4 -> 0 (mod 5) at Birth 6 "
-            "and increments 0 -> 1 (mod 5) at Birth 7, re-firing the counter-1 relay bit R_7 = 1, "
-            "emptying Cell (0, 0, 0) on H_6^(1,0,0), reducing u_{(D_7=0, R_7=0)} by 24,031x (i=0), and "
-            "blocking R_7 = 0 on 7 of H^#'s 9 Birth-6 children."
+            "Dropping Y_6 to ask only about chain status and relay presence (D_6, R_6) also cancels "
+            "(35/36)*g_{ij}*gamma_{ij} between Cells (0,0,1) and (1,0,1), giving identical (D_6, R_6) "
+            "distributions for all carrier allocations (sigma_i, beta_i, gamma_{ij}). "
+            "(3) For the full 3-bit (Y_6, D_6, R_6) readout, Cell (0, 0, 1) differs symbolically by "
+            "Delta P(0,0,1) = (35/36)*g_{ij}*gamma_{ij} + Delta u_{(0,0,1)}(i)*theta, where RI-41 "
+            "direct root verification gives Delta u_{(0,0,1)}(0) = 1887761/77440000 > 0 and "
+            "Delta u_{(0,0,1)}(1) = 2579343/6050000 > 0; thus Delta P(0,0,1) > 0 for every feasible "
+            "g_{ij}*gamma_{ij} >= 0 and theta > 0 (and in the byte-pinned RI-63 certificate, "
+            "g_{ij}*gamma_{ij} = 1). Keeping the root counter c_a in {3, 4} separates K_5 from H^# "
+            "and all five children of C_4. "
+            "(4) Following the shared Birth-6 readout (1, 0, 0) one birth deeper to Birth 7 "
+            "(K_6^(1,0,0) = H_5 u {z} with c_6=(4,3,2,0,0,0) vs. H_6^(1,0,0) = (H_5, a<z) with "
+            "c_6=(0,3,2,0,0,0)) gives an exact law-independent possible-versus-impossible split: "
+            "on H_6^(1,0,0) the root counter wrapped to zero, so every nonempty attachment at Birth 7 "
+            "includes the root and lights up the relay R_7 = 1, making (Y_7, D_7, R_7) = (0, 0, 0) "
+            "impossible (P = 0); on K_6^(1,0,0) the legal attachment S_7 = C_3 = {0,1,2} wraps "
+            "c_a : 4 -> 0 (mod 5) and makes (0, 0, 0) possible (P > 0) under every admitted Birth-7 law."
         ),
     }
 
