@@ -690,6 +690,204 @@ def _maximal_deletion_potential(
     return u_val
 
 
+def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, object]:
+    """Test whether the compact relational record (Y_n, D_n, R_n; i) is a reusable Markov state at Births 5 & 6 without the half-scale stand-in.
+
+    Uses ONLY the exact admitted held-row and carrier equations from
+    ``docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md`` (§4 Eq. 13,
+    §7 Eq. 27, §8 Eq. 30) and ``P4_PREFIX_FAMILY_SEPARATOR.md`` (§1 lines 56-77),
+    with ZERO use of the half-scale continuation ``a_n = 1/(2(1+M_n))``:
+
+    1. **Birth 4 -> Birth 5 on the admitted 4-chain ``C_4``** (state ``(Y_4, D_4, R_4; i) = (1, 1, 1; i)``):
+       By ``P4_PREFIX_FAMILY_SEPARATOR.md`` §1 line 59, the complete 5-ideal
+       catalogue of ``C_4 = (a < b < x < y)`` (counters ``(3, 2, 1, 0)``) has
+       exact admitted probabilities:
+         - ``S_5 = empty``:   ``B_empty = 1/352``   -> ``C_4 u {z}``, counters ``(3,2,1,0,0)`` -> ``(Y_5,D_5,R_5) = (1,0,1)``
+         - ``S_5 = {a}``:     ``B_root  = 1/352``   -> ``H^# (hook 4,1)``, counters ``(4,2,1,0,0)`` -> ``(Y_5,D_5,R_5) = (1,0,1)``
+         - ``S_5 = {a,b}``:   ``B_pair(i)``         -> ``(a<b<x<y, a<b<z)``, counters ``(4,3,1,0,0)`` -> ``(Y_5,D_5,R_5) = (0,0,1)``
+         - ``S_5 = I = C_3``: ``b_i = B_I(i)``      -> ``H_5 = C_3 + A_2``, counters ``(4,3,2,0,0)`` -> ``(Y_5,D_5,R_5) = (1,0,0)``
+         - ``S_5 = C_4``:     ``c_i = q^0(C_4,C_4)``-> ``C_5 (5-chain)``, counters ``(4,3,2,1,0)`` -> ``(Y_5,D_5,R_5) = (1,1,1)``
+       Thus ``(Y_4, D_4, R_4; i) = (1, 1, 1; i)`` predicts the exact 4-cell
+       birth-5 distribution over ``(Y_5, D_5, R_5)`` without any stand-in, and
+       uniquely separates the two dominant children ``H_5`` (``(1,0,0)``, mass ``b_i``)
+       and ``C_5`` (``(1,1,1)``, mass ``c_i``), which together carry ``99.15%``
+       (``i=0``) / ``98.94%`` (``i=1``) of ``C_4``'s continuation mass.
+
+    2. **Birth 5 -> Birth 6 on the admitted 5-parents ``H_5 = C_3 + A_2`` and ``C_5`` (zero stand-in)**:
+       - **On ``H_5`` (compact state ``(Y_5, D_5, R_5; i) = (1, 0, 0; i)``, counters ``(4,3,2,0,0)``):**
+         The complete 7-ideal admitted row ``G_S = theta * B_S^2 / A_S``,
+         ``h_i = theta * c_i``, ``j_i = 1 - theta * Q_{2,i} - 2 * theta * c_i``
+         predicts the **entire 8-cell birth-6 distribution over ``(Y_6, D_6, R_6)``**
+         in closed form from ``(theta, B_pair(i), b_i)`` with **zero dependence
+         on the unresolved parameter ``mu_i``**:
+           * ``P(Y_6=1, D_6=0, R_6=0 | 1,0,0; i) = theta * (1/1408 + 44 * B_pair(i)^2)``
+           * ``P(Y_6=0, D_6=0, R_6=0 | 1,0,0; i) = (44/41) * theta * b_i^2``
+           * ``P(Y_6=0, D_6=0, R_6=1 | 1,0,0; i) = 1 - theta * Q_{2,i}``
+       - **On ``C_5`` (compact state ``(Y_5, D_5, R_5; i) = (1, 1, 1; i)``, counters ``(4,3,2,1,0)``):**
+         The complete 6-ideal admitted row ``D_S = theta * B_S + mu_i * 1_{S=root}``,
+         ``e'_i = theta * c_i``, ``ell_i = 1 - theta - mu_i`` predicts the **entire
+         4-cell joint ``(Y_6, R_6)`` distribution** with **zero dependence on ``mu_i``**
+         (because ``+mu_i`` on ``S_6 = {a}`` and ``-mu_i`` on ``S_6 = C_5`` both land
+         in ``(Y_6, R_6) = (1, 1)`` and cancel identically):
+           * ``P(Y_6=0, R_6=1 | 1,1,1; i) = theta * b_i``
+           * ``P(Y_6=1, R_6=0 | 1,1,1; i) = theta * c_i``
+           * ``P(Y_6=1, R_6=1 | 1,1,1; i) = 1 - theta * (b_i + c_i)``
+           * ``P(Y_6=0, R_6=0 | 1,1,1; i) = 0``
+
+    3. **Where the compact record ``(Y_n, D_n, R_n; i)`` FAILS to close as a universal Markov state at Birth 6:**
+       - **Non-closure 1 (``mu_i`` splits ``D_6`` inside ``(Y_6=1, R_6=1)`` on ``C_5``):**
+         Separating ``D_6 = 1`` (``P = 1 - theta - mu_i``) from ``D_6 = 0``
+         (``P = theta*(1/176 + B_pair(i)) + mu_i``) inside ``(Y_6=1, R_6=1)`` on
+         ``C_5`` requires ``mu_i = (35/12672)*(1 - R_i)/c_i`` (``THEOREM_PACKAGE.md``
+         Eq. 30), which couples to off-chain carrier loads ``R_i``.
+       - **Non-closure 2 (Higher-counter aliasing inside ``(Y_5, D_5, R_5; i) = (1, 0, 1; i)``):**
+         Among ``C_4``'s children at birth 5, ``(1, 0, 1; i)`` (mass ``1/176``)
+         merges ``S_5 = empty`` (``C_4 u {z}``, counters ``(3,2,1,0,0)``) and
+         ``S_5 = {a}`` (``H^#``, counters ``(4,2,1,0,0)``), which differ only in
+         whether root ``a`` has counter ``3`` or ``4``. At birth 6, their ``S_6 = C_4``
+         transition probabilities (producing ``(Y_6,D_6,R_6) = (1,0,0)``) differ by
+         an ``O(1)`` carrier term: ``q(C_4 u {z}, C_4) = theta * c_i`` (by empty-birth
+         diamond with ``C_4``) vs. ``q(H^#, C_4) = (35/36)*(1 - R_i) + theta * c_i``
+         (``THEOREM_PACKAGE.md`` Eq. 30).
+       - **Non-closure 3 (Modulo-5 counter wrap breaks counter-only chain proxy ``D*_6`` at Birth 6):**
+         At ``n = 6`` (birth 6), root ``a`` wraps ``4 + 1 = 0 (mod 5)`` on ``S_6 = C_5``,
+         so the 6-chain ``C_6`` (modulo-5 counters ``(0,4,3,2,1,0)``, ``D_6 = 1``) has
+         the exact same modulo-5 counter multiset ``{0,0,1,2,3,4}`` as the disconnected
+         non-chain ``C_5 u {w}`` (``S_6 = empty``, modulo-5 counters ``(4,3,2,1,0,0)``,
+         ``D_6 = 0``).
+    """
+    a_c3_full = Fraction(41, 44)
+    e_c3_prop = Fraction(1, 44)
+
+    b_empty = Fraction(1, 352)
+    b_root = Fraction(1, 352)
+    b_pair = {0: Fraction(1, 352), 1: Fraction(27, 5500)}
+    # Exact binding from P4_PREFIX_FAMILY_SEPARATOR.md §1 lines 40 & 59:
+    # b_i = q^0(C_4, I=C_3) (produces H_5 = C_3 + A_2), c_i = q^0(C_4, C_4) (produces C_5)
+    b_c4_i = {0: Fraction(8077, 8800), 1: Fraction(40303, 44000)}
+    c_c4_full = {0: Fraction(81, 1100), 1: Fraction(3231, 44000)}
+
+    c4_birth5_dist_by_prep: dict[int, dict[str, str]] = {}
+    h5_birth6_theta_coeffs_by_prep: dict[int, dict[str, str]] = {}
+    c5_birth6_yr_theta_coeffs_by_prep: dict[int, dict[str, str]] = {}
+    dominant_h5_c5_mass_fraction: dict[int, str] = {}
+
+    for i_root in (0, 1):
+        row_sum_c4 = b_empty + b_root + b_pair[i_root] + b_c4_i[i_root] + c_c4_full[i_root]
+        if row_sum_c4 != Fraction(1, 1):
+            raise RuntimeError(f"Admitted C_4 row failed normalization for i={i_root}")
+
+        c4_birth5_dist_by_prep[i_root] = {
+            "(Y5=0, D5=0, R5=1) [S5={a,b}]": str(b_pair[i_root]),
+            "(Y5=1, D5=0, R5=0) [S5=C3 -> H5=C3+A2]": str(b_c4_i[i_root]),
+            "(Y5=1, D5=0, R5=1) [S5 in {empty,{a}} -> C4u{z}, H^#]": str(b_empty + b_root),
+            "(Y5=1, D5=1, R5=1) [S5=C4 -> C5]": str(c_c4_full[i_root]),
+        }
+        dominant_h5_c5_mass_fraction[i_root] = str(b_c4_i[i_root] + c_c4_full[i_root])
+
+        # Birth 6 on H_5 = C_3 + A_2 (counters (4,3,2,0,0), state (Y_5,D_5,R_5) = (1,0,0)):
+        # G_S = theta * B_S^2 / A_S, h_i = theta * c_i, j_i = 1 - theta * Q_{2,i} - 2 * theta * c_i
+        g_surv_theta = (
+            (b_empty ** 2) / e_c3_prop
+            + (b_root ** 2) / e_c3_prop
+            + (b_pair[i_root] ** 2) / e_c3_prop
+        )
+        g_i_theta = (b_c4_i[i_root] ** 2) / a_c3_full
+        q2_i = g_surv_theta + g_i_theta
+        h5_birth6_theta_coeffs_by_prep[i_root] = {
+            "P(Y6=1, D6=0, R6=0) / theta": str(g_surv_theta),
+            "P(Y6=0, D6=0, R6=0) / theta": str(g_i_theta),
+            "P(Y6=0, D6=0, R6=1)": f"1 - ({q2_i})*theta",
+            "Q2_i_exact": str(q2_i),
+            "depends_on_unresolved_mu_i": "False",
+        }
+
+        # Birth 6 on C_5 (counters (4,3,2,1,0), state (Y_5,D_5,R_5) = (1,1,1)):
+        # Joint (Y_6, R_6) distribution is 100% independent of mu_i:
+        c5_birth6_yr_theta_coeffs_by_prep[i_root] = {
+            "P(Y6=0, R6=0)": "0",
+            "P(Y6=0, R6=1) / theta [S6=C3]": str(b_c4_i[i_root]),
+            "P(Y6=1, R6=0) / theta [S6=C4 -> C4+A2]": str(c_c4_full[i_root]),
+            "P(Y6=1, R6=1) [S6 in {empty,{a},{a,b},C5}]": (
+                f"1 - ({b_c4_i[i_root] + c_c4_full[i_root]})*theta"
+            ),
+            "P(Y6=1) marginal": f"1 - ({b_c4_i[i_root]})*theta",
+            "P(R6=1) marginal": f"1 - ({c_c4_full[i_root]})*theta",
+            "yr_joint_depends_on_unresolved_mu_i": "False",
+            "P(Y6=1, D6=1, R6=1) [S6=C5 -> C6]": f"1 - theta - mu_{i_root}",
+            "P(Y6=1, D6=0, R6=1) [S6 in {empty,{a},{a,b}}]": (
+                f"({b_empty + b_root + b_pair[i_root]})*theta + mu_{i_root}"
+            ),
+        }
+
+    # Verify modulo-5 counter-multiset collision at Birth 6 on C_5:
+    c5_counters = {0: 4, 1: 3, 2: 2, 3: 1, 4: 0}
+    c6_empty_counters = _update_modulo5_counters(c5_counters, frozenset(), 5)
+    c6_full_counters = _update_modulo5_counters(c5_counters, frozenset({0, 1, 2, 3, 4}), 5)
+    multiset_c6_empty = sorted(c6_empty_counters.values())
+    multiset_c6_full = sorted(c6_full_counters.values())
+    mod5_wrap_collision = (multiset_c6_empty == multiset_c6_full)
+
+    return {
+        "uses_half_scale_standin": False,
+        "admitted_sources": [
+            "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md (§4 Eq. 13, §7 Eq. 27, §8 Eq. 30)",
+            "docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md (§1 lines 56-77)",
+            "docs/observables/counter_only_joint_readout.md (§1 modulo-5 horizon boundary)",
+        ],
+        "birth5_on_admitted_C4": {
+            "compact_state_at_birth4": "(Y4=1, D4=1, R4=1; i)",
+            "predicts_full_birth5_Y5_D5_R5_distribution_exactly": True,
+            "dominant_H5_plus_C5_mass_fraction_by_prep": dominant_h5_c5_mass_fraction,
+            "distribution_by_prep": c4_birth5_dist_by_prep,
+            "aliased_subcell_at_birth5": {
+                "cell": "(Y5=1, D5=0, R5=1; i)",
+                "mass_exact": "1/176",
+                "merged_parents": [
+                    "S5=empty -> C4 u {z} (counters (3,2,1,0,0), root c_a=3)",
+                    "S5={a}   -> H^# hook (4,1) (counters (4,2,1,0,0), root c_a=4)",
+                ],
+            },
+        },
+        "birth6_on_admitted_H5_and_C5": {
+            "H5_state_100_predicts_full_Y6_D6_R6_without_mu": True,
+            "H5_birth6_distribution_by_prep": h5_birth6_theta_coeffs_by_prep,
+            "C5_state_111_predicts_full_Y6_R6_without_mu": True,
+            "C5_birth6_distribution_by_prep": c5_birth6_yr_theta_coeffs_by_prep,
+            "C5_D6_split_requires_canonical_carrier_mu_i": True,
+        },
+        "birth6_non_closures": {
+            "is_universal_fixed_dimension_markov_state": False,
+            "non_closure_1_mu_i_carrier_coupling_on_C5_D6": True,
+            "non_closure_2_counter3_vs_counter4_aliasing_C4uz_vs_Hsharp": True,
+            "non_closure_3_modulo5_counter_wrap_on_C6_vs_C5uw": mod5_wrap_collision,
+            "c6_full_chain_mod5_counters": tuple(c6_full_counters[k] for k in range(6)),
+            "c5_plus_isolate_mod5_counters": tuple(c6_empty_counters[k] for k in range(6)),
+            "shared_mod5_counter_multiset": multiset_c6_full,
+        },
+        "reusability_verdict": (
+            "Without relying on the half-scale stand-in, the compact relational record "
+            "(Y_n, D_n, R_n; i) (adding the counter-1 relay bit R_n and root mark i to (Y_n, D_n)) "
+            "partially transfers to the next admitted birth (n=5 -> 6) on the two dominant "
+            "children of C_4 (H_5 = C_3+A_2 at (1,0,0;i) and C_5 at (1,1,1;i), carrying 99.15% / "
+            "98.94% of C_4's mass): it predicts the ENTIRE 8-cell (Y_6, D_6, R_6) distribution on "
+            "H_5 and the ENTIRE 4-cell (Y_6, R_6) counter+relay distribution on C_5 with zero "
+            "dependence on the unresolved parameter mu_i. However, it is NOT a closed universal "
+            "state description across all continuations at birth 6 for three exact reasons: "
+            "(1) on C_5, splitting (Y_6=1, R_6=1) by the chain bit D_6 exposes +/-mu_i, which "
+            "couples to off-chain hook/staircase carrier loads R_i (THEOREM_PACKAGE.md Eq. 30); "
+            "(2) among C_4's children, (Y_5, D_5, R_5; i) = (1, 0, 1; i) aliases S_5=empty "
+            "(C_4 u {z}, root counter 3) with S_5={a} (H^#, root counter 4), whose birth-6 "
+            "S_6=C_4 probabilities differ between theta*c_i and (35/36)*(1-R_i)+theta*c_i; and "
+            "(3) at birth 6 (6 vertices), root a wraps 4+1 = 0 (mod 5), so the total 6-chain C_6 "
+            "(counters (0,4,3,2,1,0)) collides in modulo-5 counter multiset {0,0,1,2,3,4} with "
+            "the disconnected non-chain C_5 u {w} (counters (4,3,2,1,0,0)). Thus each new birth "
+            "layer pushes the required relational lookback one step deeper rather than closing at "
+            "a fixed 1-step relay summary."
+        ),
+    }
+
+
 def evaluate_independently_enumerated_kernel_and_two_bit_sufficiency() -> dict[str, object]:
     """Independently enumerate the growth kernel and test 2-bit (Y_n, D_n) sufficiency at births 4 and 5.
 
@@ -810,9 +1008,12 @@ def evaluate_independently_enumerated_kernel_and_two_bit_sufficiency() -> dict[s
 
     # Step 3: Test whether the same two bits (Y_4, D_4) suffice at birth 5 (n=4 -> n=5)
     a4_half_scale = Fraction(1, 1) / (2 * (Fraction(1, 1) + max_u_sum_n4))
-    # Admitted parent-4 held row on the 4-chain C_4 from THEOREM_PACKAGE.md Eq. (13):
+    # Admitted parent-4 held row on the 4-chain C_4 from THEOREM_PACKAGE.md Eq. (13)
+    # and P4_PREFIX_FAMILY_SEPARATOR.md §1 line 59:
+    # B_pair(i) = q^0(C_4, {a,b}), b_i = q^0(C_4, C_3), c_i = q^0(C_4, C_4) (full 4-chain slot)
     b_pair_c4 = {0: Fraction(1, 352), 1: Fraction(27, 5500)}
-    b_full_c4 = {0: Fraction(8077, 8800), 1: Fraction(40303, 44000)}
+    b_proper_c3_on_c4 = {0: Fraction(8077, 8800), 1: Fraction(40303, 44000)}
+    c_full_c4 = {0: Fraction(81, 1100), 1: Fraction(3231, 44000)}
 
     b4_cond_y5_half_scale: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
     b4_cond_y5_admitted_c4: dict[int, dict[tuple[int, int], Fraction]] = {0: {}, 1: {}}
@@ -863,7 +1064,7 @@ def evaluate_independently_enumerated_kernel_and_two_bit_sufficiency() -> dict[s
         b4_cond_d5_admitted_c4[i_root] = {
             (0, 0): Fraction(0, 1),
             (1, 0): Fraction(0, 1),
-            (1, 1): b_full_c4[i_root],
+            (1, 1): c_full_c4[i_root],
         }
 
     delta_y5_half_by_cell = {
@@ -1102,6 +1303,9 @@ def evaluate_independently_enumerated_kernel_and_two_bit_sufficiency() -> dict[s
                 "(and across all 14 structural classes)."
             ),
         },
+        "admitted_next_birth_reusability_without_standin": (
+            evaluate_admitted_next_birth_reusability_without_standin()
+        ),
     }
 
 
@@ -1628,6 +1832,7 @@ __all__ = (
     "A_HARMONIC",
     "T_CONTRACTION",
     "THETA_ACTIVE",
+    "evaluate_admitted_next_birth_reusability_without_standin",
     "evaluate_four_birth_native_kappa",
     "evaluate_independently_enumerated_kernel_and_two_bit_sufficiency",
     "evaluate_qr05cr_two_region_flux_audit",

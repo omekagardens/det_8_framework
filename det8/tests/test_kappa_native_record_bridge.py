@@ -125,7 +125,7 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertEqual(adm_c4["prep_0_on_11_exact"], "351/352")
         self.assertEqual(adm_c4["prep_1_on_11_exact"], "5473/5500")
         self.assertEqual(adm_c4["prep1_minus_prep0_on_11_exact"], "-91/44000")
-        self.assertEqual(adm_c4["p_D5_prep1_minus_prep0_on_11_exact"], "-41/22000")
+        self.assertEqual(adm_c4["p_D5_prep1_minus_prep0_on_11_exact"], "-9/44000")
 
         min_rel = res["minimal_relational_information_at_birth_5"]
         by_id = {item["scheme_id"]: item for item in min_rel["hierarchy"]}
@@ -155,6 +155,30 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
             ],
             0.0,
         )
+
+        no_standin = knrb.evaluate_admitted_next_birth_reusability_without_standin()
+        self.assertFalse(no_standin["uses_half_scale_standin"])
+        self.assertTrue(
+            no_standin["birth5_on_admitted_C4"][
+                "predicts_full_birth5_Y5_D5_R5_distribution_exactly"
+            ]
+        )
+        self.assertEqual(
+            no_standin["birth5_on_admitted_C4"][
+                "dominant_H5_plus_C5_mass_fraction_by_prep"
+            ][0],
+            "349/352",
+        )
+        b6 = no_standin["birth6_on_admitted_H5_and_C5"]
+        self.assertTrue(b6["H5_state_100_predicts_full_Y6_D6_R6_without_mu"])
+        self.assertTrue(b6["C5_state_111_predicts_full_Y6_R6_without_mu"])
+        self.assertTrue(b6["C5_D6_split_requires_canonical_carrier_mu_i"])
+        nc = no_standin["birth6_non_closures"]
+        self.assertFalse(nc["is_universal_fixed_dimension_markov_state"])
+        self.assertTrue(nc["non_closure_1_mu_i_carrier_coupling_on_C5_D6"])
+        self.assertTrue(nc["non_closure_2_counter3_vs_counter4_aliasing_C4uz_vs_Hsharp"])
+        self.assertTrue(nc["non_closure_3_modulo5_counter_wrap_on_C6_vs_C5uw"])
+        self.assertEqual(nc["shared_mod5_counter_multiset"], [0, 0, 1, 2, 3, 4])
 
     def test_qr05do_interaction_scale_quotient_anchor_blindness(self) -> None:
         do_res = knrb.evaluate_qr05do_interaction_scale_quotient()
