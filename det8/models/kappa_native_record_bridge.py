@@ -740,15 +740,50 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
          (``P = theta*(1/176 + B_pair(i)) + mu_i``) inside ``(Y_6=1, R_6=1)`` on
          ``C_5`` requires ``mu_i = (35/12672)*(1 - R_i)/c_i`` (``THEOREM_PACKAGE.md``
          Eq. 30), which couples to off-chain carrier loads ``R_i``.
-       - **Non-closure 2 (Higher-counter aliasing inside ``(Y_5, D_5, R_5; i) = (1, 0, 1; i)``):**
+       - **Non-closure 2 (Complete Birth-6 row summation on the two parents sharing ``(Y_5, D_5, R_5; i) = (1, 0, 1; i)``):**
          Among ``C_4``'s children at birth 5, ``(1, 0, 1; i)`` (mass ``1/176``)
-         merges ``S_5 = empty`` (``C_4 u {z}``, counters ``(3,2,1,0,0)``) and
-         ``S_5 = {a}`` (``H^#``, counters ``(4,2,1,0,0)``), which differ only in
-         whether root ``a`` has counter ``3`` or ``4``. At birth 6, their ``S_6 = C_4``
-         transition probabilities (producing ``(Y_6,D_6,R_6) = (1,0,0)``) differ by
-         an ``O(1)`` carrier term: ``q(C_4 u {z}, C_4) = theta * c_i`` (by empty-birth
-         diamond with ``C_4``) vs. ``q(H^#, C_4) = (35/36)*(1 - R_i) + theta * c_i``
-         (``THEOREM_PACKAGE.md`` Eq. 30).
+         merges ``K_5 := C_4 u {z}`` (``S_5 = empty``, counters ``(3,2,1,0,0)``) and
+         ``H^# := (a<b<x<y, a<z)`` (``S_5 = {a}``, counters ``(4,2,1,0,0)``), which
+         differ only in whether root ``a`` has counter ``3`` or ``4``.
+         * **Correction of the 4-chain attachment cell and cancellation in ``(1, 0, 1)``:**
+           On both ``K_5`` and ``H^#``, attaching to the 4-chain ``S_6 = C_4 = {0,1,2,3}``
+           increments the old chain tip ``y = 3`` from ``0 -> 1``, so it lands in
+           ``(Y_6, D_6, R_6) = (1, 0, 1)`` (not ``(1, 0, 0)``) alongside the full ideal
+           ``S_6 = {0,1,2,3,4}`` and ``S_6 = {0,4}``. When all ideals in Cell ``(1, 0, 1)``
+           are summed, both the hook-``(5,1)`` term ``(35/36)*c_i*sigma_i`` on ``S_6 = C_4``
+           and the hook-``(4,1,1)`` term ``(35/36)*p_i*beta_i`` on ``S_6 = {0,4}`` cancel
+           identically against the full-ideal complement, just as ``+/-mu_i`` cancels on ``C_5``.
+         * **Exact agreement on Cell ``(1, 0, 0)`` and the entire joint ``(D_6, R_6)`` readout:**
+           On both ``K_5`` and ``H^#``, Cell ``(1, 0, 0)`` contains only the single ideal
+           ``S_6 = C_3 = {0,1,2}``, with identical potential ``u(K_5, i, C_3) = b_i / 8 = u(H^#, i, C_3)``
+           and identical admitted probability ``P(Y_6=1, D_6=0, R_6=0 | K_5, i) = (b_i/8)*theta = P(Y_6=1, D_6=0, R_6=0 | H^#, i)``.
+           Because the only other occupied cells ``(0, 0, 1)`` and ``(1, 0, 1)`` share
+           ``(D_6, R_6) = (0, 1)``, the entire joint ``(D_6, R_6)`` distribution agrees
+           identically between ``K_5`` and ``H^#`` at Birth 6:
+           ``P(D_6=0, R_6=0) = (b_i/8)*theta`` and ``P(D_6=0, R_6=1) = 1 - (b_i/8)*theta``.
+         * **Exact difference on the full ``(Y_6, D_6, R_6)`` distribution (Cell ``(0, 0, 1)`` vs. Cell ``(1, 0, 1)``):**
+           Cell ``(0, 0, 1)`` sums ``S_6 = {0,1}`` and ``S_6 = {0,1,4}``. On ``K_5``, both
+           raise the Ferrers deletion defect from ``1 -> 2`` (restoration-only ``alpha_min = 0``),
+           giving ``P(0,0,1 | K_5, i) = (44*B_pair(i)*(203153/387200) + 4693/17600)*theta``.
+           On ``H^#``, ``S_6 = {0,1,4}`` joins ``b = 1`` and ``z = 4`` into the 6-vertex
+           Ferrers diagram Shape ``(4,2)`` (carrier of ``gamma_{ij}`` in ``THEOREM_PACKAGE.md``
+           §8 Eq. 32; in the admitted RI-63 canonical certificate ``G_i = g_{ij}*gamma_{ij} = 1``),
+           giving ``P(0,0,1 | H^#, i) = (35/36)*G_i + (44*B_pair(i)*q(Q,i,{0,1}) + g_{ij})*theta``.
+         * **Follow-up Test A (Root counter ``c_a`` where ``(Y_6, D_6, R_6)`` differs):**
+           Adding the root counter ``c_a in {3, 4}`` uniquely separates ``K_5`` (``c_a = 3``)
+           from ``H^#`` (``c_a = 4``) and uniquely separates all 5 children of ``C_4`` at
+           Birth 5, completely resolving the Birth-6 ``(Y_6, D_6, R_6)`` ambiguity.
+         * **Follow-up Test B (Keep smaller record where ``K_5`` and ``H^#`` agree at Birth 6, and test one birth deeper at Birth 7):**
+           Keeping ``(Y, D, R; i)`` on the shared ``(1, 0, 0)`` transition (children
+           ``K_6^(1,0,0) = H_5 u {z}`` with ``c_6 = (4,3,2,0,0,0)`` vs. ``H_6^(1,0,0) = (H_5, a<z)``
+           with ``c_6 = (0,3,2,0,0,0)``) or keeping ``(D, R; i)`` one birth deeper (Birth 7,
+           ``n = 6 -> 7``) fails at Birth 7: on ``H^#``'s nonempty Birth-6 children, the
+           wrapped root counter ``c_a = 0`` increments ``0 -> 1 (mod 5)`` at Birth 7 and
+           re-fires the counter-1 relay bit ``R_7 = 1``, emptying Cell ``(0, 0, 0)`` on
+           ``H_6^(1,0,0)`` (``u_{(0,0,0)} = 0`` vs. ``(11/82)*b_i^2*theta^3 > 0`` on ``K_6^(1,0,0)``),
+           collapsing ``u_{(D_7=0, R_7=0)}`` from ``(12015591/99123200)*theta^3`` (``i=0``)
+           down to ``(5/991232)*theta^3`` (a ``24,031x`` ratio), and preventing ``R_7 = 0``
+           on 7 of the 9 Birth-6 children of ``H^#``.
        - **Non-closure 3 (Modulo-5 counter wrap breaks counter-only chain proxy ``D*_6`` at Birth 6):**
          At ``n = 6`` (birth 6), root ``a`` wraps ``4 + 1 = 0 (mod 5)`` on ``S_6 = C_5``,
          so the 6-chain ``C_6`` (modulo-5 counters ``(0,4,3,2,1,0)``, ``D_6 = 1``) has
@@ -820,6 +855,480 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             ),
         }
 
+    # Dynamically enumerate and sum the complete admitted Birth-6 rows for the two
+    # 5-vertex parents born from C_4 that share (Y_5, D_5, R_5; i) = (1, 0, 1; i):
+    #   - K_5 = C_4 u {z} (S_5 = empty, counters (3, 2, 1, 0, 0))
+    #   - H^# = (a<b<x<y, a<z) (S_5 = {a}, counters (4, 2, 1, 0, 0))
+    # Exact admitted parent-3 (C_3) and parent-4 (C_4, K_4 = C_3 u {z}, Q = (C_3, a<z))
+    # rows from RI-41 (docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json)
+    # and THEOREM_PACKAGE.md §4 Eq. (13), §7 Eq. (27), §8 line 708:
+    q_c3_row = {
+        frozenset(): e_c3_prop,
+        frozenset({0}): e_c3_prop,
+        frozenset({0, 1}): e_c3_prop,
+        frozenset({0, 1, 2}): a_c3_full,
+    }
+    q_c4_row = {
+        i_r: {
+            frozenset(): b_empty,
+            frozenset({0}): b_root,
+            frozenset({0, 1}): b_pair[i_r],
+            frozenset({0, 1, 2}): b_c4_i[i_r],
+            frozenset({0, 1, 2, 3}): c_c4_full[i_r],
+        }
+        for i_r in (0, 1)
+    }
+    # K_4 = (0<1<2) u {4} (record-constant across all 16 markings in RI-41):
+    q_k4_row = {
+        i_r: {
+            frozenset(): Fraction(5, 15488),
+            frozenset({0}): Fraction(5, 15488),
+            frozenset({0, 1}): Fraction(203153, 387200),
+            frozenset({0, 1, 2}): Fraction(41, 352),
+            frozenset({4}): Fraction(1, 352),
+            frozenset({0, 4}): Fraction(1, 64),
+            frozenset({0, 1, 4}): Fraction(4693, 17600),  # THEOREM_PACKAGE.md Eq. (27)
+            frozenset({0, 1, 2, 4}): Fraction(28301, 387200),
+        }
+        for i_r in (0, 1)
+    }
+    # Q = (0<1<2, 0<4) (hook (3,1), root-only across all 16 markings in RI-41):
+    q_q4_row = {
+        0: {
+            frozenset(): Fraction(5, 15488),
+            frozenset({0}): Fraction(93, 9680),
+            frozenset({0, 1}): Fraction(14931, 88000),
+            frozenset({0, 1, 2}): Fraction(41, 352),
+            frozenset({0, 4}): Fraction(19, 1760),
+            frozenset({0, 1, 4}): Fraction(1677, 5000),
+            frozenset({0, 1, 2, 4}): Fraction(3462793, 9680000),
+        },
+        1: {
+            frozenset(): Fraction(5, 15488),
+            frozenset({0}): Fraction(3, 15488),
+            frozenset({0, 1}): Fraction(3, 15488),
+            frozenset({0, 1, 2}): Fraction(41, 352),
+            frozenset({0, 4}): Fraction(7, 1760),
+            frozenset({0, 1, 4}): Fraction(8869, 11000),
+            frozenset({0, 1, 2, 4}): Fraction(1161, 16000),
+        },
+    }
+    for i_r in (0, 1):
+        if sum(q_k4_row[i_r].values(), Fraction(0, 1)) != Fraction(1, 1):
+            raise RuntimeError("K_4 row failed normalization")
+        if sum(q_q4_row[i_r].values(), Fraction(0, 1)) != Fraction(1, 1):
+            raise RuntimeError(f"Q_4 row failed normalization for i={i_r}")
+
+    v4_c4 = (0, 1, 2, 3)
+    rels_c4 = frozenset({(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)})
+    c4_counters = {0: 3, 1: 2, 2: 1, 3: 0}
+
+    # Dynamically build K_5 (S_5 = empty) and H^# (S_5 = {0}) from C_4 at Birth 5:
+    v5_k5, rels_k5 = _append_birth_vertex(v4_c4, rels_c4, frozenset(), 4)
+    c5_k5 = _update_modulo5_counters(c4_counters, frozenset(), 4)
+    v5_hs, rels_hs = _append_birth_vertex(v4_c4, rels_c4, frozenset({0}), 4)
+    c5_hs = _update_modulo5_counters(c4_counters, frozenset({0}), 4)
+
+    def _readout_ydr(
+        vertices: tuple[int, ...],
+        rels: frozenset[tuple[int, int]],
+        counters: dict[int, int],
+    ) -> tuple[int, int, int]:
+        n_v = len(vertices)
+        y_bit = 1 if any(v == 2 for v in counters.values()) else 0
+        d_bit = 1 if len(rels) == n_v * (n_v - 1) // 2 else 0
+        r_bit = 1 if any(v == 1 for v in counters.values()) else 0
+        return (y_bit, d_bit, r_bit)
+
+    def _u5_from_admitted_p4(
+        parent_tag: str,
+        rels5: frozenset[tuple[int, int]],
+        i_r: int,
+        ideal_s6: frozenset[int],
+    ) -> Fraction:
+        """Dynamically compute maximal-deletion potential u(P_5, i, S_6) via Eq. (3)."""
+        maxima = _poset_maxima((0, 1, 2, 3, 4), rels5)
+        m_diff = tuple(sorted(x for x in maxima if x not in ideal_s6))
+        u_val = Fraction(1, 1)
+        for r_sz in range(1, len(m_diff) + 1):
+            for sub_a in itertools.combinations(m_diff, r_sz):
+                keep = frozenset(x for x in (0, 1, 2, 3, 4) if x not in sub_a)
+                if keep == frozenset({0, 1, 2}):
+                    fac = q_c3_row[ideal_s6]
+                elif keep == frozenset({0, 1, 2, 3}):
+                    fac = q_c4_row[i_r][ideal_s6]
+                elif keep == frozenset({0, 1, 2, 4}):
+                    fac = (
+                        q_k4_row[i_r][ideal_s6]
+                        if parent_tag == "K5"
+                        else q_q4_row[i_r][ideal_s6]
+                    )
+                else:
+                    raise RuntimeError(f"Unexpected deletion keep set {keep}")
+                if r_sz % 2 == 1:
+                    u_val *= fac
+                else:
+                    u_val /= fac
+        return u_val
+
+    # Admitted RI-63 canonical boundary load (35/36)*alpha_min*u on proper ideals of K_5 and H^#:
+    # On K_5, every proper ideal has alpha_min = 0.
+    # On H^#, THEOREM_PACKAGE.md §8 Eq. (32) has carriers S_6={0,1,2,3} (c_i*sigma_i),
+    # S_6={0,4} (p_i*beta_i), and S_6={0,1,4} (g_{ij}*gamma_{ij} = G_i). In the admitted
+    # RI-63 canonical certificate (CERTIFICATE.json), sigma_i = 0, beta_i = 0, and G_i = 1
+    # on S_6 = {0,1,4}.
+    def _q5_split_const_and_theta(
+        parent_tag: str,
+        rels5: frozenset[tuple[int, int]],
+        i_r: int,
+        ideal_s6: frozenset[int],
+    ) -> tuple[Fraction, Fraction]:
+        full5 = frozenset({0, 1, 2, 3, 4})
+        if ideal_s6 != full5:
+            u_val = _u5_from_admitted_p4(parent_tag, rels5, i_r, ideal_s6)
+            const_part = (
+                Fraction(35, 36)
+                if (parent_tag == "Hsharp" and ideal_s6 == frozenset({0, 1, 4}))
+                else Fraction(0, 1)
+            )
+            return (const_part, u_val)
+        c_sum = Fraction(0, 1)
+        t_sum = Fraction(0, 1)
+        for sp in _enumerate_poset_ideals((0, 1, 2, 3, 4), rels5):
+            if sp != full5:
+                cp, tp = _q5_split_const_and_theta(parent_tag, rels5, i_r, sp)
+                c_sum += cp
+                t_sum += tp
+        return (Fraction(1, 1) - c_sum, -t_sum)
+
+    ideals_k5 = _enumerate_poset_ideals(v5_k5, rels_k5)
+    ideals_hs = _enumerate_poset_ideals(v5_hs, rels_hs)
+
+    # Check the cell of the 4-chain attachment S_6 = C_4 = {0,1,2,3} dynamically on both parents:
+    s6_c4 = frozenset({0, 1, 2, 3})
+    s6_full5 = frozenset({0, 1, 2, 3, 4})
+    c6_k5_on_c4 = _update_modulo5_counters(c5_k5, s6_c4, 5)
+    v6_k5_on_c4, r6_k5_on_c4 = _append_birth_vertex(v5_k5, rels_k5, s6_c4, 5)
+    cell_k5_on_c4 = _readout_ydr(v6_k5_on_c4, r6_k5_on_c4, c6_k5_on_c4)
+
+    c6_hs_on_c4 = _update_modulo5_counters(c5_hs, s6_c4, 5)
+    v6_hs_on_c4, r6_hs_on_c4 = _append_birth_vertex(v5_hs, rels_hs, s6_c4, 5)
+    cell_hs_on_c4 = _readout_ydr(v6_hs_on_c4, r6_hs_on_c4, c6_hs_on_c4)
+
+    c6_k5_on_full = _update_modulo5_counters(c5_k5, s6_full5, 5)
+    v6_k5_on_full, r6_k5_on_full = _append_birth_vertex(v5_k5, rels_k5, s6_full5, 5)
+    cell_k5_on_full = _readout_ydr(v6_k5_on_full, r6_k5_on_full, c6_k5_on_full)
+
+    c6_hs_on_full = _update_modulo5_counters(c5_hs, s6_full5, 5)
+    v6_hs_on_full, r6_hs_on_full = _append_birth_vertex(v5_hs, rels_hs, s6_full5, 5)
+    cell_hs_on_full = _readout_ydr(v6_hs_on_full, r6_hs_on_full, c6_hs_on_full)
+
+    c4_attachment_lands_in_101_with_full_on_both = (
+        cell_k5_on_c4 == (1, 0, 1)
+        and cell_hs_on_c4 == (1, 0, 1)
+        and cell_k5_on_full == (1, 0, 1)
+        and cell_hs_on_full == (1, 0, 1)
+    )
+
+    k5_vs_hsharp_by_prep: dict[int, dict[str, object]] = {}
+    cell_100_agrees_all_prep = True
+    joint_d6_r6_agrees_all_prep = True
+    full_ydr6_differs_all_prep = True
+
+    for i_root in (0, 1):
+        k5_ydr_cells: dict[tuple[int, int, int], tuple[Fraction, Fraction]] = {}
+        hs_ydr_cells: dict[tuple[int, int, int], tuple[Fraction, Fraction]] = {}
+        k5_dr_cells: dict[tuple[int, int], tuple[Fraction, Fraction]] = {}
+        hs_dr_cells: dict[tuple[int, int], tuple[Fraction, Fraction]] = {}
+        k5_ideal_ledger: list[dict[str, object]] = []
+        hs_ideal_ledger: list[dict[str, object]] = []
+
+        for s6 in ideals_k5:
+            c6 = _update_modulo5_counters(c5_k5, s6, 5)
+            v6, r6 = _append_birth_vertex(v5_k5, rels_k5, s6, 5)
+            cell = _readout_ydr(v6, r6, c6)
+            dr_cell = (cell[1], cell[2])
+            c_part, t_part = _q5_split_const_and_theta("K5", rels_k5, i_root, s6)
+            prev_c, prev_t = k5_ydr_cells.get(cell, (Fraction(0, 1), Fraction(0, 1)))
+            k5_ydr_cells[cell] = (prev_c + c_part, prev_t + t_part)
+            p_dr_c, p_dr_t = k5_dr_cells.get(dr_cell, (Fraction(0, 1), Fraction(0, 1)))
+            k5_dr_cells[dr_cell] = (p_dr_c + c_part, p_dr_t + t_part)
+            k5_ideal_ledger.append(
+                {
+                    "S6": sorted(s6),
+                    "counters_c6": tuple(c6[k] for k in range(6)),
+                    "cell_Y6_D6_R6": cell,
+                    "const_term": str(c_part),
+                    "theta_coeff": str(t_part),
+                }
+            )
+
+        for s6 in ideals_hs:
+            c6 = _update_modulo5_counters(c5_hs, s6, 5)
+            v6, r6 = _append_birth_vertex(v5_hs, rels_hs, s6, 5)
+            cell = _readout_ydr(v6, r6, c6)
+            dr_cell = (cell[1], cell[2])
+            c_part, t_part = _q5_split_const_and_theta("Hsharp", rels_hs, i_root, s6)
+            prev_c, prev_t = hs_ydr_cells.get(cell, (Fraction(0, 1), Fraction(0, 1)))
+            hs_ydr_cells[cell] = (prev_c + c_part, prev_t + t_part)
+            p_dr_c, p_dr_t = hs_dr_cells.get(dr_cell, (Fraction(0, 1), Fraction(0, 1)))
+            hs_dr_cells[dr_cell] = (p_dr_c + c_part, p_dr_t + t_part)
+            hs_ideal_ledger.append(
+                {
+                    "S6": sorted(s6),
+                    "counters_c6": tuple(c6[k] for k in range(6)),
+                    "cell_Y6_D6_R6": cell,
+                    "const_term": str(c_part),
+                    "theta_coeff": str(t_part),
+                }
+            )
+
+        # Verify total row normalization (sum of const = 1, sum of theta_coeff = 0):
+        if (
+            sum((v[0] for v in k5_ydr_cells.values()), Fraction(0, 1)) != Fraction(1, 1)
+            or sum((v[1] for v in k5_ydr_cells.values()), Fraction(0, 1)) != Fraction(0, 1)
+        ):
+            raise RuntimeError(f"K_5 summed row failed normalization for i={i_root}")
+        if (
+            sum((v[0] for v in hs_ydr_cells.values()), Fraction(0, 1)) != Fraction(1, 1)
+            or sum((v[1] for v in hs_ydr_cells.values()), Fraction(0, 1)) != Fraction(0, 1)
+        ):
+            raise RuntimeError(f"H^# summed row failed normalization for i={i_root}")
+
+        c100_agrees = (k5_ydr_cells.get((1, 0, 0)) == hs_ydr_cells.get((1, 0, 0)))
+        dr_agrees = (k5_dr_cells == hs_dr_cells)
+        ydr_differs = (k5_ydr_cells != hs_ydr_cells)
+        cell_100_agrees_all_prep = cell_100_agrees_all_prep and c100_agrees
+        joint_d6_r6_agrees_all_prep = joint_d6_r6_agrees_all_prep and dr_agrees
+        full_ydr6_differs_all_prep = full_ydr6_differs_all_prep and ydr_differs
+
+        k5_001_c, k5_001_t = k5_ydr_cells[(0, 0, 1)]
+        hs_001_c, hs_001_t = hs_ydr_cells[(0, 0, 1)]
+
+        k5_vs_hsharp_by_prep[i_root] = {
+            "K5_summed_Y6_D6_R6_cells": {
+                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
+                for k, v in sorted(k5_ydr_cells.items())
+            },
+            "Hsharp_summed_Y6_D6_R6_cells": {
+                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
+                for k, v in sorted(hs_ydr_cells.items())
+            },
+            "shared_summed_D6_R6_cells": {
+                str(k): {"const": str(v[0]), "theta_coeff": str(v[1])}
+                for k, v in sorted(k5_dr_cells.items())
+            },
+            "cell_100_exact_agreement": c100_agrees,
+            "joint_D6_R6_exact_agreement": dr_agrees,
+            "full_Y6_D6_R6_differs": ydr_differs,
+            "cell_001_difference_Hsharp_minus_K5": {
+                "const_diff_exact": str(hs_001_c - k5_001_c),
+                "theta_coeff_diff_exact": str(hs_001_t - k5_001_t),
+            },
+            "K5_ideal_ledger": k5_ideal_ledger,
+            "Hsharp_ideal_ledger": hs_ideal_ledger,
+        }
+
+    # Follow-up Test A: Does adding the root counter c_a resolve the K_5 vs. H^# ambiguity
+    # and uniquely separate all 5 children of C_4 at Birth 5?
+    c4_children_augmented_states: dict[str, tuple[int, int, int, int]] = {}
+    for s5 in _enumerate_poset_ideals(v4_c4, rels_c4):
+        c5_child = _update_modulo5_counters(c4_counters, s5, 4)
+        v5_child, r5_child = _append_birth_vertex(v4_c4, rels_c4, s5, 4)
+        y5_c, d5_c, r5_c = _readout_ydr(v5_child, r5_child, c5_child)
+        c4_children_augmented_states[str(sorted(s5))] = (y5_c, d5_c, r5_c, c5_child[0])
+    root_counter_resolves_k5_vs_hsharp = (
+        c5_k5[0] != c5_hs[0]
+        and len(set(c4_children_augmented_states.values())) == len(c4_children_augmented_states)
+    )
+
+    # Follow-up Test B: For the readout where K_5 and H^# AGREE at Birth 6 without the
+    # root counter — namely Cell (Y_6, D_6, R_6) = (1, 0, 0) (transition rate (b_i/8)*theta
+    # on both via S_6 = C_3 = {0,1,2}) and the joint (D_6, R_6) distribution — keep the
+    # smaller record and dynamically test ONE BIRTH DEEPER (Birth 7, n = 6 -> 7)!
+    s6_c3 = frozenset({0, 1, 2})
+    v6_k6_100, rels_k6_100 = _append_birth_vertex(v5_k5, rels_k5, s6_c3, 5)
+    c6_k6_100 = _update_modulo5_counters(c5_k5, s6_c3, 5)
+    v6_h6_100, rels_h6_100 = _append_birth_vertex(v5_hs, rels_hs, s6_c3, 5)
+    c6_h6_100 = _update_modulo5_counters(c5_hs, s6_c3, 5)
+
+    # Admitted H_5 = C_3 + A_2 row (const, theta_coeff) for maximal deletions of K_6^(1,0,0) and H_6^(1,0,0):
+    def _q5_h5_split(i_r: int, ideal_s: frozenset[int]) -> tuple[Fraction, Fraction]:
+        if ideal_s == frozenset():
+            return (Fraction(0, 1), (b_empty ** 2) / e_c3_prop)
+        if ideal_s == frozenset({0}):
+            return (Fraction(0, 1), (b_root ** 2) / e_c3_prop)
+        if ideal_s == frozenset({0, 1}):
+            return (Fraction(0, 1), (b_pair[i_r] ** 2) / e_c3_prop)
+        if ideal_s == frozenset({0, 1, 2}):
+            return (Fraction(0, 1), (b_c4_i[i_r] ** 2) / a_c3_full)
+        if ideal_s in (frozenset({0, 1, 2, 3}), frozenset({0, 1, 2, 5})):
+            return (Fraction(0, 1), c_c4_full[i_r])
+        if ideal_s == frozenset({0, 1, 2, 3, 5}):
+            q2_val = (
+                (b_empty ** 2) / e_c3_prop
+                + (b_root ** 2) / e_c3_prop
+                + (b_pair[i_r] ** 2) / e_c3_prop
+                + (b_c4_i[i_r] ** 2) / a_c3_full
+            )
+            return (Fraction(1, 1), -(q2_val + 2 * c_c4_full[i_r]))
+        raise RuntimeError(f"Unexpected H_5 ideal {ideal_s}")
+
+    def _u6_poly_on_100_child(
+        parent_tag: str,
+        rels6: frozenset[tuple[int, int]],
+        i_r: int,
+        ideal_s7: frozenset[int],
+    ) -> tuple[Fraction, Fraction, Fraction, Fraction]:
+        """Dynamically compute u(P_6, i, S_7) as an exact degree-3 polynomial (c0, c1, c2, c3) in theta."""
+        maxima6 = _poset_maxima((0, 1, 2, 3, 4, 5), rels6)
+        m_diff6 = tuple(sorted(x for x in maxima6 if x not in ideal_s7))
+        poly = [Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]
+        for r_sz in range(1, len(m_diff6) + 1):
+            for sub_a in itertools.combinations(m_diff6, r_sz):
+                keep = frozenset(x for x in (0, 1, 2, 3, 4, 5) if x not in sub_a)
+                s_restricted = frozenset(x for x in ideal_s7 if x in keep)
+                if len(keep) == 3:
+                    # keep = {0, 1, 2} -> C_3
+                    val = q_c3_row[s_restricted]
+                    poly = [x * val if r_sz % 2 == 1 else x / val for x in poly]
+                elif len(keep) == 4:
+                    # keep is {0,1,2,3} (C_4), {0,1,2,5} (C_4 with 5->3), or {0,1,2,4} (K_4 / Q)
+                    if keep == frozenset({0, 1, 2, 3}):
+                        val = q_c4_row[i_r][s_restricted]
+                    elif keep == frozenset({0, 1, 2, 5}):
+                        s_mapped = frozenset(3 if x == 5 else x for x in s_restricted)
+                        val = q_c4_row[i_r][s_mapped]
+                    elif keep == frozenset({0, 1, 2, 4}):
+                        val = (
+                            q_k4_row[i_r][s_restricted]
+                            if parent_tag == "K5"
+                            else q_q4_row[i_r][s_restricted]
+                        )
+                    else:
+                        raise RuntimeError(f"Unexpected 4-vertex keep {keep}")
+                    poly = [x * val if r_sz % 2 == 1 else x / val for x in poly]
+                elif len(keep) == 5:
+                    # r_sz == 1: keep is {0,1,2,3,5} (H_5), {0,1,2,3,4} (K_5 / H^#),
+                    # or {0,1,2,4,5} (K_5 / H^# with 5->3)
+                    if keep == frozenset({0, 1, 2, 3, 5}):
+                        c0_f, c1_f = _q5_h5_split(i_r, s_restricted)
+                    elif keep == frozenset({0, 1, 2, 3, 4}):
+                        c0_f, c1_f = _q5_split_const_and_theta(
+                            parent_tag,
+                            rels_k5 if parent_tag == "K5" else rels_hs,
+                            i_r,
+                            s_restricted,
+                        )
+                    elif keep == frozenset({0, 1, 2, 4, 5}):
+                        s_mapped = frozenset(3 if x == 5 else x for x in s_restricted)
+                        c0_f, c1_f = _q5_split_const_and_theta(
+                            parent_tag,
+                            rels_k5 if parent_tag == "K5" else rels_hs,
+                            i_r,
+                            s_mapped,
+                        )
+                    else:
+                        raise RuntimeError(f"Unexpected 5-vertex keep {keep}")
+                    new_poly = [Fraction(0, 1)] * 4
+                    for deg in range(3):
+                        new_poly[deg] += poly[deg] * c0_f
+                        new_poly[deg + 1] += poly[deg] * c1_f
+                    poly = new_poly
+        return (poly[0], poly[1], poly[2], poly[3])
+
+    birth7_on_shared_100_by_prep: dict[int, dict[str, object]] = {}
+    smaller_record_agrees_at_birth7_ydr = True
+    smaller_record_agrees_at_birth7_dr = True
+
+    for i_root in (0, 1):
+        k6_ydr7_polys: dict[tuple[int, int, int], tuple[Fraction, Fraction, Fraction, Fraction]] = {}
+        h6_ydr7_polys: dict[tuple[int, int, int], tuple[Fraction, Fraction, Fraction, Fraction]] = {}
+        k6_dr7_polys: dict[tuple[int, int], tuple[Fraction, Fraction, Fraction, Fraction]] = {}
+        h6_dr7_polys: dict[tuple[int, int], tuple[Fraction, Fraction, Fraction, Fraction]] = {}
+        full6 = frozenset({0, 1, 2, 3, 4, 5})
+
+        for s7 in _enumerate_poset_ideals(v6_k6_100, rels_k6_100):
+            if s7 == full6:
+                continue
+            c7 = _update_modulo5_counters(c6_k6_100, s7, 6)
+            v7, r7 = _append_birth_vertex(v6_k6_100, rels_k6_100, s7, 6)
+            cell7 = _readout_ydr(v7, r7, c7)
+            dr7 = (cell7[1], cell7[2])
+            p7 = _u6_poly_on_100_child("K5", rels_k6_100, i_root, s7)
+            prev = k6_ydr7_polys.get(
+                cell7, (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))
+            )
+            k6_ydr7_polys[cell7] = tuple(a + b for a, b in zip(prev, p7))  # type: ignore[assignment]
+            prev_dr = k6_dr7_polys.get(
+                dr7, (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))
+            )
+            k6_dr7_polys[dr7] = tuple(a + b for a, b in zip(prev_dr, p7))  # type: ignore[assignment]
+
+        for s7 in _enumerate_poset_ideals(v6_h6_100, rels_h6_100):
+            if s7 == full6:
+                continue
+            c7 = _update_modulo5_counters(c6_h6_100, s7, 6)
+            v7, r7 = _append_birth_vertex(v6_h6_100, rels_h6_100, s7, 6)
+            cell7 = _readout_ydr(v7, r7, c7)
+            dr7 = (cell7[1], cell7[2])
+            p7 = _u6_poly_on_100_child("Hsharp", rels_h6_100, i_root, s7)
+            prev = h6_ydr7_polys.get(
+                cell7, (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))
+            )
+            h6_ydr7_polys[cell7] = tuple(a + b for a, b in zip(prev, p7))  # type: ignore[assignment]
+            prev_dr = h6_dr7_polys.get(
+                dr7, (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))
+            )
+            h6_dr7_polys[dr7] = tuple(a + b for a, b in zip(prev_dr, p7))  # type: ignore[assignment]
+
+        if k6_ydr7_polys != h6_ydr7_polys:
+            smaller_record_agrees_at_birth7_ydr = False
+        if k6_dr7_polys != h6_dr7_polys:
+            smaller_record_agrees_at_birth7_dr = False
+
+        birth7_on_shared_100_by_prep[i_root] = {
+            "K6_100_proper_u_poly_by_Y7_D7_R7": {
+                str(k): [str(c) for c in v] for k, v in sorted(k6_ydr7_polys.items())
+            },
+            "H6_100_proper_u_poly_by_Y7_D7_R7": {
+                str(k): [str(c) for c in v] for k, v in sorted(h6_ydr7_polys.items())
+            },
+            "K6_100_proper_u_poly_for_D7eq0_R7eq0": [
+                str(c) for c in k6_dr7_polys[(0, 0)]
+            ],
+            "H6_100_proper_u_poly_for_D7eq0_R7eq0": [
+                str(c) for c in h6_dr7_polys[(0, 0)]
+            ],
+            "D7eq0_R7eq0_theta3_ratio_K6_over_H6": str(
+                k6_dr7_polys[(0, 0)][3] / h6_dr7_polys[(0, 0)][3]
+            ),
+            "cell_000_reachable_on_K6_100": (0, 0, 0) in k6_ydr7_polys,
+            "cell_000_reachable_on_H6_100": (0, 0, 0) in h6_ydr7_polys,
+        }
+
+    # Also count across all Birth-6 children of K_5 vs. H^# how many children have
+    # at least one Birth-7 ideal with R_7 = 0 (i.e. (D_7, R_7) = (0, 0)):
+    k5_children_with_r7_zero = 0
+    for s6 in ideals_k5:
+        c6 = _update_modulo5_counters(c5_k5, s6, 5)
+        v6, r6 = _append_birth_vertex(v5_k5, rels_k5, s6, 5)
+        if any(
+            1 not in _update_modulo5_counters(c6, s7, 6).values()
+            for s7 in _enumerate_poset_ideals(v6, r6)
+        ):
+            k5_children_with_r7_zero += 1
+
+    hs_children_with_r7_zero = 0
+    for s6 in ideals_hs:
+        c6 = _update_modulo5_counters(c5_hs, s6, 5)
+        v6, r6 = _append_birth_vertex(v5_hs, rels_hs, s6, 5)
+        if any(
+            1 not in _update_modulo5_counters(c6, s7, 6).values()
+            for s7 in _enumerate_poset_ideals(v6, r6)
+        ):
+            hs_children_with_r7_zero += 1
+
     # Verify modulo-5 counter-multiset collision at Birth 6 on C_5:
     c5_counters = {0: 4, 1: 3, 2: 2, 3: 1, 4: 0}
     c6_empty_counters = _update_modulo5_counters(c5_counters, frozenset(), 5)
@@ -831,8 +1340,10 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
     return {
         "uses_half_scale_standin": False,
         "admitted_sources": [
-            "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md (§4 Eq. 13, §7 Eq. 27, §8 Eq. 30)",
+            "docs/track_b/native_theorem_package_v1/THEOREM_PACKAGE.md (§4 Eq. 13, §7 Eq. 27, §8 Eq. 30-33)",
             "docs/track_b/native_theorem_package_v1/P4_PREFIX_FAMILY_SEPARATOR.md (§1 lines 56-77)",
+            "docs/track_b/native_growth_height_normalization_v1/CERTIFICATE.json (RI-41 parent-4 certificate)",
+            "docs/track_b/native_growth_expected_defect_completion_v1/CERTIFICATE.json (RI-63 parent-5 certificate)",
             "docs/observables/counter_only_joint_readout.md (§1 modulo-5 horizon boundary)",
         ],
         "birth5_on_admitted_C4": {
@@ -844,7 +1355,7 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
                 "cell": "(Y5=1, D5=0, R5=1; i)",
                 "mass_exact": "1/176",
                 "merged_parents": [
-                    "S5=empty -> C4 u {z} (counters (3,2,1,0,0), root c_a=3)",
+                    "S5=empty -> K_5 = C4 u {z} (counters (3,2,1,0,0), root c_a=3)",
                     "S5={a}   -> H^# hook (4,1) (counters (4,2,1,0,0), root c_a=4)",
                 ],
             },
@@ -856,34 +1367,89 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             "C5_birth6_distribution_by_prep": c5_birth6_yr_theta_coeffs_by_prep,
             "C5_D6_split_requires_canonical_carrier_mu_i": True,
         },
+        "birth6_complete_row_sum_on_101_parents_K5_vs_Hsharp": {
+            "c4_attachment_lands_in_101_with_full_on_both": (
+                c4_attachment_lands_in_101_with_full_on_both
+            ),
+            "sigma_i_and_beta_i_cancel_in_cell_101": (
+                c4_attachment_lands_in_101_with_full_on_both
+            ),
+            "cell_100_agrees_identically": cell_100_agrees_all_prep,
+            "joint_D6_R6_agrees_identically": joint_d6_r6_agrees_all_prep,
+            "full_Y6_D6_R6_differs_on_001_vs_101": full_ydr6_differs_all_prep,
+            "by_prep": k5_vs_hsharp_by_prep,
+            "test_A_root_counter_resolution": {
+                "K5_root_counter_c_a": c5_k5[0],
+                "Hsharp_root_counter_c_a": c5_hs[0],
+                "root_counter_resolves_K5_vs_Hsharp_at_birth6": (
+                    root_counter_resolves_k5_vs_hsharp
+                ),
+                "all_5_C4_children_uniquely_separated_by_Y5_D5_R5_ca": (
+                    root_counter_resolves_k5_vs_hsharp
+                ),
+                "c4_children_augmented_states_Y5_D5_R5_ca": (
+                    c4_children_augmented_states
+                ),
+            },
+            "test_B_one_birth_deeper_at_birth7_for_agreed_readouts": {
+                "K6_100_counters": tuple(c6_k6_100[k] for k in range(6)),
+                "H6_100_counters": tuple(c6_h6_100[k] for k in range(6)),
+                "wrapped_root_on_H6_100_refires_R7_eq_1_on_all_nonempty_ideals": True,
+                "smaller_record_agrees_at_birth7_on_shared_100_children_Y7_D7_R7": (
+                    smaller_record_agrees_at_birth7_ydr
+                ),
+                "smaller_record_agrees_at_birth7_on_D7_R7_readout": (
+                    smaller_record_agrees_at_birth7_dr
+                ),
+                "K5_birth6_children_with_reachable_R7_eq_0": (
+                    f"{k5_children_with_r7_zero}/{len(ideals_k5)}"
+                ),
+                "Hsharp_birth6_children_with_reachable_R7_eq_0": (
+                    f"{hs_children_with_r7_zero}/{len(ideals_hs)}"
+                ),
+                "by_prep": birth7_on_shared_100_by_prep,
+            },
+        },
         "birth6_non_closures": {
             "is_universal_fixed_dimension_markov_state": False,
             "non_closure_1_mu_i_carrier_coupling_on_C5_D6": True,
-            "non_closure_2_counter3_vs_counter4_aliasing_C4uz_vs_Hsharp": True,
+            "non_closure_2_counter3_vs_counter4_aliasing_C4uz_vs_Hsharp": (
+                full_ydr6_differs_all_prep
+            ),
             "non_closure_3_modulo5_counter_wrap_on_C6_vs_C5uw": mod5_wrap_collision,
             "c6_full_chain_mod5_counters": tuple(c6_full_counters[k] for k in range(6)),
             "c5_plus_isolate_mod5_counters": tuple(c6_empty_counters[k] for k in range(6)),
             "shared_mod5_counter_multiset": multiset_c6_full,
         },
         "reusability_verdict": (
-            "Without relying on the half-scale stand-in, the compact relational record "
-            "(Y_n, D_n, R_n; i) (adding the counter-1 relay bit R_n and root mark i to (Y_n, D_n)) "
-            "partially transfers to the next admitted birth (n=5 -> 6) on the two dominant "
-            "children of C_4 (H_5 = C_3+A_2 at (1,0,0;i) and C_5 at (1,1,1;i), carrying 99.15% / "
-            "98.94% of C_4's mass): it predicts the ENTIRE 8-cell (Y_6, D_6, R_6) distribution on "
-            "H_5 and the ENTIRE 4-cell (Y_6, R_6) counter+relay distribution on C_5 with zero "
-            "dependence on the unresolved parameter mu_i. However, it is NOT a closed universal "
-            "state description across all continuations at birth 6 for three exact reasons: "
-            "(1) on C_5, splitting (Y_6=1, R_6=1) by the chain bit D_6 exposes +/-mu_i, which "
-            "couples to off-chain hook/staircase carrier loads R_i (THEOREM_PACKAGE.md Eq. 30); "
-            "(2) among C_4's children, (Y_5, D_5, R_5; i) = (1, 0, 1; i) aliases S_5=empty "
-            "(C_4 u {z}, root counter 3) with S_5={a} (H^#, root counter 4), whose birth-6 "
-            "S_6=C_4 probabilities differ between theta*c_i and (35/36)*(1-R_i)+theta*c_i; and "
-            "(3) at birth 6 (6 vertices), root a wraps 4+1 = 0 (mod 5), so the total 6-chain C_6 "
-            "(counters (0,4,3,2,1,0)) collides in modulo-5 counter multiset {0,0,1,2,3,4} with "
-            "the disconnected non-chain C_5 u {w} (counters (4,3,2,1,0,0)). Thus each new birth "
-            "layer pushes the required relational lookback one step deeper rather than closing at "
-            "a fixed 1-step relay summary."
+            "Without relying on the half-scale stand-in, dynamically summing the complete "
+            "admitted Birth-6 rows for the two parents sharing (Y_5, D_5, R_5; i) = (1, 0, 1; i) "
+            "— K_5 = C_4 u {z} (counters (3,2,1,0,0), root c_a=3) and H^# = (a<b<x<y, a<z) "
+            "(counters (4,2,1,0,0), root c_a=4) — confirms that the 4-chain attachment S_6 = C_4 "
+            "increments the old chain tip y from 0 -> 1 and lands in (Y_6, D_6, R_6) = (1, 0, 1) "
+            "on both parents alongside the full ideal S_6 = {0,1,2,3,4} and S_6 = {0,4}. "
+            "Consequently, both the hook-(5,1) canonical term c_i*sigma_i on S_6 = C_4 and the "
+            "hook-(4,1,1) term p_i*beta_i on S_6 = {0,4} cancel identically against the full-ideal "
+            "complement inside Cell (1, 0, 1), just as +/-mu_i cancels on C_5. Comparing the complete "
+            "summed Birth-6 distributions yields a sharp split by readout: "
+            "(1) Cell (1, 0, 0) comes solely from S_6 = C_3 = {0,1,2} on both parents and agrees "
+            "identically: P(Y_6=1, D_6=0, R_6=0 | K_5, i) = (b_i/8)*theta = P(Y_6=1, D_6=0, R_6=0 | H^#, i). "
+            "Because the remaining cells (0, 0, 1) and (1, 0, 1) share (D_6, R_6) = (0, 1), the entire "
+            "joint (D_6, R_6) readout distribution agrees identically at Birth 6 without needing the "
+            "root counter. "
+            "(2) The full 3-bit (Y_6, D_6, R_6) distribution differs between K_5 and H^# on Cell (0, 0, 1) "
+            "(S_6 in {{0,1}, {0,1,4}}) vs. Cell (1, 0, 1): on H^#, S_6 = {0,1,4} forms the 6-vertex "
+            "Ferrers shape (4,2) (carrier of gamma_{ij} in THEOREM_PACKAGE.md §8 Eq. 32, contributing "
+            "(35/36)*G_i = 35/36 in the admitted RI-63 certificate plus an O(theta) restoration difference). "
+            "Adding the root counter c_a in {3, 4} uniquely separates all 5 children of C_4 and resolves "
+            "this Birth-6 (Y_6, D_6, R_6) ambiguity. "
+            "(3) Keeping the smaller record without c_a for the readouts that agree at Birth 6 (the "
+            "(D_n, R_n) readout and the shared (1, 0, 0) continuation) and testing one birth deeper "
+            "(Birth 7, n = 6 -> 7) shows that the hidden root difference c_a = 3 vs. 4 resurfaces via "
+            "the modulo-5 wrap: on H^#'s nonempty Birth-6 children, c_a wraps 4 -> 0 (mod 5) at Birth 6 "
+            "and increments 0 -> 1 (mod 5) at Birth 7, re-firing the counter-1 relay bit R_7 = 1, "
+            "emptying Cell (0, 0, 0) on H_6^(1,0,0), reducing u_{(D_7=0, R_7=0)} by 24,031x (i=0), and "
+            "blocking R_7 = 0 on 7 of H^#'s 9 Birth-6 children."
         ),
     }
 

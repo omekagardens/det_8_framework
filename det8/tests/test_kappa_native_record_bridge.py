@@ -173,6 +173,78 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertTrue(b6["H5_state_100_predicts_full_Y6_D6_R6_without_mu"])
         self.assertTrue(b6["C5_state_111_predicts_full_Y6_R6_without_mu"])
         self.assertTrue(b6["C5_D6_split_requires_canonical_carrier_mu_i"])
+
+        row101 = no_standin["birth6_complete_row_sum_on_101_parents_K5_vs_Hsharp"]
+        self.assertTrue(row101["c4_attachment_lands_in_101_with_full_on_both"])
+        self.assertTrue(row101["sigma_i_and_beta_i_cancel_in_cell_101"])
+        self.assertTrue(row101["cell_100_agrees_identically"])
+        self.assertTrue(row101["joint_D6_R6_agrees_identically"])
+        self.assertTrue(row101["full_Y6_D6_R6_differs_on_001_vs_101"])
+
+        # Verify dynamically summed Birth-6 cells for i=0 and i=1:
+        p0 = row101["by_prep"][0]
+        p1 = row101["by_prep"][1]
+        self.assertEqual(
+            p0["K5_summed_Y6_D6_R6_cells"]["(1, 0, 0)"],
+            {"const": "0", "theta_coeff": "8077/70400"},
+        )
+        self.assertEqual(
+            p0["Hsharp_summed_Y6_D6_R6_cells"]["(1, 0, 0)"],
+            {"const": "0", "theta_coeff": "8077/70400"},
+        )
+        self.assertEqual(
+            p1["K5_summed_Y6_D6_R6_cells"]["(1, 0, 0)"],
+            {"const": "0", "theta_coeff": "40303/352000"},
+        )
+        self.assertEqual(
+            p1["Hsharp_summed_Y6_D6_R6_cells"]["(1, 0, 0)"],
+            {"const": "0", "theta_coeff": "40303/352000"},
+        )
+        self.assertEqual(
+            p0["K5_summed_Y6_D6_R6_cells"]["(0, 0, 1)"],
+            {"const": "0", "theta_coeff": "1029121/3097600"},
+        )
+        self.assertEqual(
+            p0["Hsharp_summed_Y6_D6_R6_cells"]["(0, 0, 1)"],
+            {"const": "35/36", "theta_coeff": "1255263/3520000"},
+        )
+        self.assertEqual(
+            p0["cell_001_difference_Hsharp_minus_K5"],
+            {"const_diff_exact": "35/36", "theta_coeff_diff_exact": "1887761/77440000"},
+        )
+        self.assertEqual(
+            p1["cell_001_difference_Hsharp_minus_K5"],
+            {"const_diff_exact": "35/36", "theta_coeff_diff_exact": "2579343/6050000"},
+        )
+
+        # Test A: Root counter c_a resolution where (Y_6, D_6, R_6) differs
+        test_a = row101["test_A_root_counter_resolution"]
+        self.assertEqual(test_a["K5_root_counter_c_a"], 3)
+        self.assertEqual(test_a["Hsharp_root_counter_c_a"], 4)
+        self.assertTrue(test_a["root_counter_resolves_K5_vs_Hsharp_at_birth6"])
+        self.assertTrue(
+            test_a["all_5_C4_children_uniquely_separated_by_Y5_D5_R5_ca"]
+        )
+
+        # Test B: Keep smaller record where K_5 and H^# agree at Birth 6, and test one birth deeper (Birth 7)
+        test_b = row101["test_B_one_birth_deeper_at_birth7_for_agreed_readouts"]
+        self.assertEqual(test_b["K6_100_counters"], (4, 3, 2, 0, 0, 0))
+        self.assertEqual(test_b["H6_100_counters"], (0, 3, 2, 0, 0, 0))
+        self.assertFalse(
+            test_b["smaller_record_agrees_at_birth7_on_shared_100_children_Y7_D7_R7"]
+        )
+        self.assertFalse(
+            test_b["smaller_record_agrees_at_birth7_on_D7_R7_readout"]
+        )
+        self.assertEqual(test_b["K5_birth6_children_with_reachable_R7_eq_0"], "10/10")
+        self.assertEqual(
+            test_b["Hsharp_birth6_children_with_reachable_R7_eq_0"], "2/9"
+        )
+        b7_0 = test_b["by_prep"][0]
+        self.assertTrue(b7_0["cell_000_reachable_on_K6_100"])
+        self.assertFalse(b7_0["cell_000_reachable_on_H6_100"])
+        self.assertEqual(b7_0["D7eq0_R7eq0_theta3_ratio_K6_over_H6"], "75096511/3125")
+
         nc = no_standin["birth6_non_closures"]
         self.assertFalse(nc["is_universal_fixed_dimension_markov_state"])
         self.assertTrue(nc["non_closure_1_mu_i_carrier_coupling_on_C5_D6"])
