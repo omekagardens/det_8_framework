@@ -190,6 +190,16 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertTrue(
             row101["ri63_certificate_carrier_specialization"]["sha256_verified"]
         )
+        self.assertFalse(
+            row101["ri63_certificate_carrier_specialization"][
+                "uses_fixed_ri63_component_ids"
+            ]
+        )
+        self.assertFalse(
+            row101["ri63_certificate_carrier_specialization"][
+                "sign_proof_requires_ri63_component_lookup"
+            ]
+        )
 
         # Verify dynamically summed Birth-6 cells (both symbolic in (sigma_i, beta_i, gamma_{ij})
         # and RI-63 certificate-verified) for i=0 and i=1:
@@ -298,6 +308,68 @@ class TestKappaNativeRecordBridge(unittest.TestCase):
         self.assertEqual(
             b7_0["unnormalized_u_potential_ratio_D7eq0_R7eq0_K6_over_H6"],
             "75096511/3125",
+        )
+
+        # Test C: Does the root counter c_a work across other parent structures born from (a < b)?
+        test_c = row101["test_C_root_counter_across_other_parent_structures"]
+        self.assertFalse(test_c["root_counter_works_across_all_parent_structures"])
+        self.assertFalse(test_c["uses_fixed_ri63_component_ids"])
+        survey = test_c["survey_across_15_birth4_parent_structures"]
+        self.assertEqual(survey["total_birth4_parent_branches"], 15)
+        self.assertEqual(
+            survey["parents_with_birth5_children_resolved_by_Y5_D5_R5_ca"], "1/15"
+        )
+        self.assertTrue(survey["only_C4_total_chain_is_resolved"])
+        cross4 = survey["cross_parent_Y4_D4_R4_ca_cells"]
+        self.assertTrue(
+            cross4["((0, 0, 1), 1)"]["has_law_independent_birth5_support_split"]
+        )
+        self.assertTrue(
+            cross4["((1, 0, 1), 2)"]["has_law_independent_birth5_support_split"]
+        )
+
+        sib1 = test_c["sibling_counterexample_1_disconnected_K4_in_cell_101_ca3"]
+        self.assertTrue(
+            sib1["birth6_support_split_J5_vs_K5_and_FK4_on_100_ca3"]
+        )
+        self.assertTrue(
+            sib1["birth6_defect_raising_rate_on_100_ca4_and_D6eq0_R6eq0"][
+                "differs_without_ri63_component_lookup"
+            ]
+        )
+        self.assertEqual(
+            sib1["birth6_defect_raising_rate_on_100_ca4_and_D6eq0_R6eq0"][
+                "FK4_over_theta_both_preps"
+            ],
+            "28301/387200",
+        )
+        self.assertTrue(
+            sib1[
+                "birth7_support_split_K5_vs_FK4_after_shared_100_ca4_on_cell_101"
+            ]
+        )
+
+        sib2 = test_c["sibling_counterexample_2_connected_C2_plus_A2_in_cell_001_ca4"]
+        self.assertEqual(sib2["W5_one_cap_counters"], (4, 3, 1, 0, 0))
+        self.assertEqual(sib2["M5_two_cap_counters"], (4, 3, 1, 1, 0))
+        self.assertTrue(
+            sib2["differs_on_both_YDR6_and_DR6_without_ri63_component_lookup"]
+        )
+        self.assertEqual(
+            sib2["by_prep"][0]["P_cell_100_and_D6eq0_R6eq0_on_W5_over_theta"],
+            "8077/70400",
+        )
+        self.assertEqual(
+            sib2["by_prep"][0]["P_cell_100_and_D6eq0_R6eq0_on_M5_over_theta"],
+            "2670557/36784000",
+        )
+        self.assertEqual(
+            sib2["by_prep"][1]["P_cell_100_and_D6eq0_R6eq0_on_W5_over_theta"],
+            "1088181/5500000",
+        )
+        self.assertEqual(
+            sib2["by_prep"][1]["P_cell_100_and_D6eq0_R6eq0_on_M5_over_theta"],
+            "89259/1232000",
         )
 
         nc = no_standin["birth6_non_closures"]

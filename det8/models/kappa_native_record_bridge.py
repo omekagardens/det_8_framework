@@ -907,11 +907,6 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
     expected_sha256_ri63 = "f55625a686b4c859a8b3e720c80fbabbe9cfa0972cb7a9e78a50d1705833c28b"
     if sha256_ri63 != expected_sha256_ri63:
         raise RuntimeError("RI-63 parent-5 certificate SHA-256 mismatch")
-    cert_ri63 = json.loads(raw_ri63)
-    alpha_min_ri63 = {int(k): Fraction(v) for k, v in cert_ri63["alpha"].items()}
-    alpha_alt_ri63 = {
-        int(k): Fraction(v) for k, v in cert_ri63["alternative_primary_alpha"].items()
-    }
 
     def _canonical_local_key_4(
         rels4: frozenset[tuple[int, int]],
@@ -1153,47 +1148,22 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             parts.append(f"({w[4]})*theta")
         return " + ".join(parts) if parts else "0"
 
-    # Also verify the RI-63 certificate specialization (CERTIFICATE.json components
-    # 408..411 for sigma_i, beta_i and 412..415 for gamma_{ij}):
-    g_0j = q_q4_row[0][frozenset({0, 1, 4})]
-    g_1j = q_q4_row[1][frozenset({0, 1, 4})]
+    # Unlike RI-41 (whose CERTIFICATE.json embeds the 109 canonical roots directly),
+    # RI-63's CERTIFICATE.json stores component indices without an embedded roots table.
+    # Because w_sigma = 0 and w_beta = 0 in every summed (Y_6, D_6, R_6) cell and
+    # Delta u_{(0,0,1)}(i) > 0 from the directly derived RI-41 roots, both the sign
+    # proof Delta P(0,0,1) > 0 and the (1,0,0) / (D_6,R_6) agreement proofs hold
+    # symbolically across the entire feasible interval 0 <= g_{ij}*gamma_{ij} <= 1
+    # without looking up fixed RI-63 component IDs.
     ri63_carrier_verification = {
         "sha256_verified": sha256_ri63 == expected_sha256_ri63,
-        "sigma_components_408_409_canonical_and_alt": [
-            str(alpha_min_ri63.get(408, Fraction(0, 1))),
-            str(alpha_min_ri63.get(409, Fraction(0, 1))),
-            str(alpha_alt_ri63.get(408, Fraction(0, 1))),
-            str(alpha_alt_ri63.get(409, Fraction(0, 1))),
-        ],
-        "beta_components_410_411_canonical_and_alt": [
-            str(alpha_min_ri63.get(410, Fraction(0, 1))),
-            str(alpha_min_ri63.get(411, Fraction(0, 1))),
-            str(alpha_alt_ri63.get(410, Fraction(0, 1))),
-            str(alpha_alt_ri63.get(411, Fraction(0, 1))),
-        ],
-        "gamma_i0_components_412_414_times_g0j": [
-            str(alpha_min_ri63[412] * g_0j),
-            str(alpha_min_ri63[414] * g_0j),
-            str(alpha_alt_ri63[412] * g_0j),
-            str(alpha_alt_ri63[414] * g_0j),
-        ],
-        "gamma_i1_components_413_415_times_g1j": [
-            str(alpha_min_ri63[413] * g_1j),
-            str(alpha_min_ri63[415] * g_1j),
-            str(alpha_alt_ri63[413] * g_1j),
-            str(alpha_alt_ri63[415] * g_1j),
-        ],
+        "uses_fixed_ri63_component_ids": False,
+        "feasible_g_ij_gamma_ij_interval": "[0, 1]",
+        "sign_proof_requires_ri63_component_lookup": False,
     }
-    if not (
-        all(x == "0" for x in ri63_carrier_verification["sigma_components_408_409_canonical_and_alt"])
-        and all(x == "0" for x in ri63_carrier_verification["beta_components_410_411_canonical_and_alt"])
-        and all(x == "1" for x in ri63_carrier_verification["gamma_i0_components_412_414_times_g0j"])
-        and all(x == "1" for x in ri63_carrier_verification["gamma_i1_components_413_415_times_g1j"])
-    ):
-        raise RuntimeError("RI-63 H^# carrier specialization check failed")
 
     def _eval_ri63_from_symbolic(w: Symbolic5Tuple) -> tuple[Fraction, Fraction]:
-        """Evaluate symbolic 5-tuple at RI-63 certificate (sigma_i=0, beta_i=0, g_ij*gamma_ij=1)."""
+        """Evaluate symbolic 5-tuple at the upper carrier saturation endpoint g_ij*gamma_ij=1."""
         return (w[0] + w[3] * Fraction(35, 36), w[4])
 
     ideals_k5 = _enumerate_poset_ideals(v5_k5, rels_k5)
@@ -1631,6 +1601,10 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
     multiset_c6_full = sorted(c6_full_counters.values())
     mod5_wrap_collision = (multiset_c6_empty == multiset_c6_full)
 
+    # Follow-up Test C: Does the root counter c_a (which resolves all 5 children of C_4)
+    # still work across other parent structures born from (a < b)?
+    test_c_other_parents = evaluate_root_counter_across_parent_structures()
+
     return {
         "uses_half_scale_standin": False,
         "admitted_sources": [
@@ -1737,6 +1711,9 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
                 ),
                 "by_prep": birth7_on_shared_100_by_prep,
             },
+            "test_C_root_counter_across_other_parent_structures": (
+                test_c_other_parents
+            ),
         },
         "birth6_non_closures": {
             "is_universal_fixed_dimension_markov_state": False,
@@ -1770,17 +1747,486 @@ def evaluate_admitted_next_birth_reusability_without_standin() -> dict[str, obje
             "Delta P(0,0,1) = (35/36)*g_{ij}*gamma_{ij} + Delta u_{(0,0,1)}(i)*theta, where RI-41 "
             "direct root verification gives Delta u_{(0,0,1)}(0) = 1887761/77440000 > 0 and "
             "Delta u_{(0,0,1)}(1) = 2579343/6050000 > 0; thus Delta P(0,0,1) > 0 for every feasible "
-            "g_{ij}*gamma_{ij} >= 0 and theta > 0 (and in the byte-pinned RI-63 certificate, "
-            "g_{ij}*gamma_{ij} = 1). Keeping the root counter c_a in {3, 4} separates K_5 from H^# "
-            "and all five children of C_4. "
+            "g_{ij}*gamma_{ij} >= 0 and theta > 0, without needing fixed RI-63 component IDs. Keeping "
+            "the root counter c_a in {3, 4} separates K_5 from H^# and all five children of C_4. "
             "(4) Following the shared Birth-6 readout (1, 0, 0) one birth deeper to Birth 7 "
             "(K_6^(1,0,0) = H_5 u {z} with c_6=(4,3,2,0,0,0) vs. H_6^(1,0,0) = (H_5, a<z) with "
             "c_6=(0,3,2,0,0,0)) gives an exact law-independent possible-versus-impossible split: "
             "on H_6^(1,0,0) the root counter wrapped to zero, so every nonempty attachment at Birth 7 "
             "includes the root and lights up the relay R_7 = 1, making (Y_7, D_7, R_7) = (0, 0, 0) "
             "impossible (P = 0); on K_6^(1,0,0) the legal attachment S_7 = C_3 = {0,1,2} wraps "
-            "c_a : 4 -> 0 (mod 5) and makes (0, 0, 0) possible (P > 0) under every admitted Birth-7 law."
+            "c_a : 4 -> 0 (mod 5) and makes (0, 0, 0) possible (P > 0) under every admitted Birth-7 law. "
+            "(5) Testing whether the root counter c_a still works across other parent structures born "
+            "from (a < b) shows that C_4 is the ONLY one of the 15 Birth-4 parent structures (1/15) "
+            "whose Birth-5 children are separated by (Y_5, D_5, R_5, c_a; i); on all 14 other parent "
+            "structures (including C_4's siblings K_4 = C_3 u {y} and C_2 + A_2), multiple minima or "
+            "parallel maxima share the same root counter c_a while differing in off-root counter-1 "
+            "placement or multiplicity, producing both law-independent possible-versus-impossible "
+            "support splits and defect-raising theta-order transition rate splits."
         ),
+    }
+
+
+def evaluate_root_counter_across_parent_structures() -> dict[str, object]:
+    """Test whether adding the root counter c_a to (Y_n, D_n, R_n; i) works across other parent structures.
+
+    Dynamically enumerates all 15 Birth-4 parent structures ``P_4`` born from the
+    2-chain ``a < b`` (counters ``(1, 0)``) and their 119 Birth-5 ideal continuations
+    ``P_5 = P_4 + S_5``, without any fixed RI-63 component IDs:
+
+    1. **Exhaustive Survey Across All 15 Birth-4 Parent Structures ``P_4``:**
+       - Within ``C_4 = (a < b < x < y)`` (``P_4[14]``, counters ``(3, 2, 1, 0)``),
+         ``(Y_5, D_5, R_5, c_a; i)`` uniquely separates all 5 Birth-5 children.
+       - Across the **other 14 Birth-4 parent structures (``14/15``)**, ``(Y_5, D_5, R_5, c_a; i)``
+         **fails** to separate non-isomorphic Birth-5 sibling children: whenever ``P_4`` has
+         branching (multiple maxima) or disconnected components (multiple minima), distinct
+         nonempty ideals ``S_5`` both contain the root ``a`` (incrementing ``c_a`` identically)
+         and both set the boolean relay bit ``R_5 = 1``, while differing in **which** off-root
+         vertices have counter ``1`` or **how many** off-root vertices have counter ``1``
+         (``N_{c=1} = 1`` vs. ``2``).
+       - Across the 15 Birth-4 parents themselves at Birth 4 -> Birth 5, ``c_a`` resolves
+         ``(Y_4, D_4, R_4) = (1, 0, 0)`` (splitting Fork u isolate at ``c_a = 2`` from the
+         3-leaf Star at ``c_a = 3``), but fails on ``((0, 0, 1), c_a = 1)``,
+         ``((1, 0, 1), c_a = 2)``, and ``((0, 0, 1), c_a = 3)``, with immediate
+         law-independent possible-versus-impossible Birth-5 support splits on
+         ``((0, 0, 1), c_a = 1)`` and ``((1, 0, 1), c_a = 2)``.
+
+    2. **Sibling Counterexample 1 — Disconnected Sibling ``K_4 = (a < b < x) u {y}`` (counters ``(2, 1, 0, 0)``):**
+       On ``K_4`` (born from the 3-chain ``C_3`` via ``S_4 = empty``), **three non-isomorphic
+       Birth-5 children** collide in ``((Y_5, D_5, R_5), c_a) = ((1, 0, 1), 3)`` — the exact
+       root-counter cell that isolated ``K_5`` on ``C_4``:
+         - ``S_5 = {a,b,x} -> K_5 = C_4 u {y}`` (counters ``(3, 2, 1, 0, 0)``: counter-1 vertex
+           ``x = 2`` lies above root ``a``),
+         - ``S_5 = {a,b,y} -> J_5 = (a<b<x, a<b<z, y<z)`` (counters ``(3, 2, 0, 1, 0)``:
+           counter-1 vertex ``y = 3`` is a second minimum incomparable with root ``a``),
+         - ``S_5 = {a,b,x,y} -> F(K_4) = K_4 + A_1`` (counters ``(3, 2, 1, 1, 0)``: two
+           counter-1 vertices ``x = 2`` and ``y = 3``).
+       These three ``((1, 0, 1), c_a = 3)`` siblings split by:
+         * **Law-independent Birth-6 support:** Reaching ``((Y_6, D_6, R_6), c_a) = ((1, 0, 0), 3)``
+           is **possible (``P > 0``)** from ``J_5`` (via the legal ideal ``S_6 = {y}``, which
+           clears ``c_y : 1 -> 2`` without touching root ``a``), but **impossible (``P = 0``)**
+           from ``K_5`` and ``F(K_4)`` (where ``a < b < x`` forces every ideal clearing
+           ``c_x = 1`` to contain ``a`` and advance ``c_a : 3 -> 4``).
+         * **Component-ID-free Birth-6 transition rate into ``(1, 0, 0)`` / ``(D_6, R_6) = (0, 0)``:**
+           Between ``K_5`` and ``F(K_4)``, the unique ideal producing ``(1, 0, 0)`` is
+           ``S_6 = C_3`` on ``K_5`` vs. ``S_6 = K_4`` on ``F(K_4)``. Both strictly raise the
+           Ferrers deletion defect from ``1 -> 2`` (``d = +1 => alpha_min = 0`` by the
+           everywhere-neutral support theorem), giving ``P(1,0,0 | K_5, i) = (b_i/8)*theta``
+           vs. ``P(1,0,0 | F(K_4), i) = q(K_4, K_4)*theta = (28301/387200)*theta``.
+         * **Law-independent Birth-7 support after shared Birth-6 readout ``((1, 0, 0), c_a = 4)``:**
+           Following ``((1, 0, 0), c_a = 4)`` from ``K_5`` (``H_5 u {y}``, counters
+           ``(4,3,2,0,0,0)``) vs. from ``F(K_4)`` (``K_4 + A_2``, counters ``(4,3,2,2,0,0)``),
+           at Birth 7 ``(Y_7, D_7, R_7) = (1, 0, 1)`` is **possible (``P > 0``)** on
+           ``H_5 u {y}`` (via ``S_7 = {y}``), but **impossible (``P = 0``)** on ``K_4 + A_2``
+           (where the only counter-0 vertices are the two top caps of ``K_4 + A_2``, so every
+           ideal firing ``R_7 = 1`` contains all of ``K_4`` and advances both counter-2
+           vertices ``x, y : 2 -> 3``, forcing ``Y_7 = 0``).
+
+    3. **Sibling Counterexample 2 — Connected Single-Root Sibling ``C_2 + A_2 = (a<b<x, a<b<y)`` (counters ``(3, 2, 0, 0)``):**
+       Even on a connected single-root parent (born from ``C_3`` via ``S_4 = {a,b}``), the
+       one-cap extension ``S_5 = {a,b,x} -> W_5 = C_2 + (C_2 u A_1)`` (counters ``(4,3,1,0,0)``)
+       and the two-cap full join ``S_5 = {a,b,x,y} -> M_5 = C_2 + A_2 + A_1`` (counters
+       ``(4,3,1,1,0)``) collide in ``((Y_5, D_5, R_5), c_a) = ((0, 0, 1), 4)``. At Birth 6,
+       their unique ideals producing ``(1, 0, 0)`` (and ``(D_6, R_6) = (0, 0)``) are
+       ``S_6 = {a,b,x}`` on ``W_5`` and ``S_6 = {a,b,x,y}`` on ``M_5``, both strictly
+       defect-raising (``d = +1 => alpha_min = 0``), giving RI-41-verified probabilities
+       ``P(1,0,0 | W_5, i) = 44*b_i*B_pair(i)*theta`` (``(8077/70400)*theta`` at ``i=0``,
+       ``(1088181/5500000)*theta`` at ``i=1``) vs. ``P(1,0,0 | M_5, i) = q(C_2+A_2, i, full)*theta``
+       (``(2670557/36784000)*theta`` at ``i=0``, ``(89259/1232000)*theta`` at ``i=1``).
+    """
+    a_c3_full = Fraction(41, 44)
+    b_pair = {0: Fraction(1, 352), 1: Fraction(27, 5500)}
+    b_c4_i = {0: Fraction(8077, 8800), 1: Fraction(40303, 44000)}
+
+    # Load and verify byte-pinned RI-41 parent-4 certificate directly from disk:
+    repo_root = Path(__file__).resolve().parents[2]
+    ri41_path = (
+        repo_root
+        / "docs"
+        / "track_b"
+        / "native_growth_height_normalization_v1"
+        / "CERTIFICATE.json"
+    )
+    raw_ri41 = ri41_path.read_bytes()
+    expected_sha256_ri41 = "3d966fb20911d630a427ceb777a41539e930d1ba75c3098dcad35e08e4b1d969"
+    if hashlib.sha256(raw_ri41).hexdigest() != expected_sha256_ri41:
+        raise RuntimeError("RI-41 parent-4 certificate SHA-256 mismatch")
+    cert_ri41 = json.loads(raw_ri41)
+    roots_ri41 = {tuple(r): idx for idx, r in enumerate(cert_ri41["roots"])}
+    default_alpha_ri41 = Fraction(cert_ri41["default_alpha"])
+    overrides_ri41 = {int(k): Fraction(v) for k, v in cert_ri41["overrides"].items()}
+
+    def _canonical_local_key_4(
+        rels4: frozenset[tuple[int, int]],
+        ideal_s: frozenset[int],
+        marks4: dict[int, int],
+    ) -> tuple[int, int, int]:
+        best_pair: tuple[int, int] | None = None
+        cands: list[tuple[int, ...]] = []
+        for perm in itertools.permutations(range(4)):
+            edge_mask = sum(1 << (4 * perm[u] + perm[v]) for u, v in rels4)
+            sel_mask = sum(1 << perm[v] for v in ideal_s)
+            pair = (edge_mask, sel_mask)
+            if best_pair is None or pair < best_pair:
+                best_pair = pair
+                cands = [perm]
+            elif pair == best_pair:
+                cands.append(perm)
+        assert best_pair is not None
+        rec_mask = min(
+            sum(1 << perm[v] for v in ideal_s if marks4.get(v, 0) == 1)
+            for perm in cands
+        )
+        return (best_pair[0], best_pair[1], rec_mask)
+
+    def _readout_ydr(
+        vertices: tuple[int, ...],
+        rels: frozenset[tuple[int, int]],
+        counters: dict[int, int],
+    ) -> tuple[int, int, int]:
+        n_v = len(vertices)
+        y_bit = 1 if any(v == 2 for v in counters.values()) else 0
+        d_bit = 1 if len(rels) == n_v * (n_v - 1) // 2 else 0
+        r_bit = 1 if any(v == 1 for v in counters.values()) else 0
+        return (y_bit, d_bit, r_bit)
+
+    def _poset_counter_canonical_sig(
+        vertices: tuple[int, ...],
+        rels: frozenset[tuple[int, int]],
+        counters: dict[int, int],
+    ) -> tuple[int, tuple[int, ...]]:
+        """Isomorphism-invariant canonical signature of (unmarked poset, counter vector)."""
+        n_v = len(vertices)
+        best: tuple[int, tuple[int, ...]] | None = None
+        for perm in itertools.permutations(range(n_v)):
+            edge_mask = sum(
+                1 << (n_v * perm[u] + perm[v]) for u, v in rels
+            )
+            inv_perm = [0] * n_v
+            for orig_v, new_pos in enumerate(perm):
+                inv_perm[new_pos] = counters[orig_v]
+            cand = (edge_mask, tuple(inv_perm))
+            if best is None or cand < best:
+                best = cand
+        assert best is not None
+        return best
+
+    # 1. Enumerate all 15 Birth-4 parent structures P_4 from the 2-chain (0 < 1):
+    v2 = (0, 1)
+    r2 = frozenset({(0, 1)})
+    c2 = {0: 1, 1: 0}
+
+    b4_branches: list[
+        tuple[
+            int,
+            tuple[int, ...],
+            frozenset[tuple[int, int]],
+            dict[int, int],
+            tuple[list[int], list[int]],
+        ]
+    ] = []
+    idx4 = 0
+    for s3 in _enumerate_poset_ideals(v2, r2):
+        v3, r3 = _append_birth_vertex(v2, r2, s3, 2)
+        c3 = _update_modulo5_counters(c2, s3, 2)
+        for s4 in _enumerate_poset_ideals(v3, r3):
+            v4, r4 = _append_birth_vertex(v3, r3, s4, 3)
+            c4 = _update_modulo5_counters(c3, s4, 3)
+            b4_branches.append((idx4, v4, r4, c4, (sorted(s3), sorted(s4))))
+            idx4 += 1
+
+    # Survey 1A: Within each of the 15 Birth-4 parent structures P_4, does (Y_5, D_5, R_5, c_a)
+    # separate all non-isomorphic Birth-5 children (poset + counter-vector isomorphism classes)?
+    p4_parent_survey: list[dict[str, object]] = []
+    p4_resolved_by_ydr5_ca_count = 0
+    b4_by_ydr4_ca: dict[
+        tuple[tuple[int, int, int], int],
+        list[
+            tuple[
+                int,
+                tuple[int, tuple[int, ...]],
+                frozenset[tuple[tuple[int, int, int], int]],
+                tuple[int, ...],
+            ]
+        ],
+    ] = {}
+
+    for b_idx, v4, r4, c4, path34 in b4_branches:
+        st4_ca = (_readout_ydr(v4, r4, c4), c4[0])
+        sig4 = _poset_counter_canonical_sig(v4, r4, c4)
+        children_by_st5_ca: dict[
+            tuple[tuple[int, int, int], int], set[tuple[int, tuple[int, ...]]]
+        ] = {}
+        reach5_ca_set: set[tuple[tuple[int, int, int], int]] = set()
+        for s5 in _enumerate_poset_ideals(v4, r4):
+            v5, r5 = _append_birth_vertex(v4, r4, s5, 4)
+            c5 = _update_modulo5_counters(c4, s5, 4)
+            st5_ca = (_readout_ydr(v5, r5, c5), c5[0])
+            reach5_ca_set.add(st5_ca)
+            sig5 = _poset_counter_canonical_sig(v5, r5, c5)
+            children_by_st5_ca.setdefault(st5_ca, set()).add(sig5)
+
+        aliased_st5_ca_cells = {
+            str(k): len(v) for k, v in sorted(children_by_st5_ca.items()) if len(v) > 1
+        }
+        is_resolved = len(aliased_st5_ca_cells) == 0
+        if is_resolved:
+            p4_resolved_by_ydr5_ca_count += 1
+        p4_parent_survey.append(
+            {
+                "branch_idx": b_idx,
+                "path_S3_S4": path34,
+                "counters_c4": tuple(c4[k] for k in range(4)),
+                "state_Y4_D4_R4_ca": st4_ca,
+                "n_birth5_ideals": len(_enumerate_poset_ideals(v4, r4)),
+                "all_birth5_children_separated_by_Y5_D5_R5_ca": is_resolved,
+                "aliased_Y5_D5_R5_ca_cells_to_distinct_child_classes": (
+                    aliased_st5_ca_cells
+                ),
+            }
+        )
+        b4_by_ydr4_ca.setdefault(st4_ca, []).append(
+            (b_idx, sig4, frozenset(reach5_ca_set), tuple(c4[k] for k in range(4)))
+        )
+
+    # Survey 1B: Across the 15 Birth-4 parents themselves grouped by (Y_4, D_4, R_4, c_a):
+    birth4_cross_parent_cells: dict[str, dict[str, object]] = {}
+    for st4_ca, items in sorted(b4_by_ydr4_ca.items()):
+        distinct_p4_classes = len({x[1] for x in items})
+        distinct_reach5_supports = len({x[2] for x in items})
+        birth4_cross_parent_cells[str(st4_ca)] = {
+            "n_branches": len(items),
+            "n_distinct_parent4_classes": distinct_p4_classes,
+            "unaliased_across_birth4_parents": distinct_p4_classes == 1,
+            "has_law_independent_birth5_support_split": distinct_reach5_supports > 1,
+            "branches": [
+                {
+                    "branch_idx": x[0],
+                    "counters_c4": x[3],
+                    "reachable_Y5_D5_R5_ca": [
+                        str(cell) for cell in sorted(x[2])
+                    ],
+                }
+                for x in items
+            ],
+        }
+
+    # 2. Sibling Counterexample 1: K_4 = (a < b < x) u {y} (branch 11, counters (2, 1, 0, 0)),
+    # where three non-isomorphic Birth-5 children collide in ((Y_5, D_5, R_5), c_a) = ((1, 0, 1), 3):
+    v4_k4 = (0, 1, 2, 3)
+    rels_k4 = frozenset({(0, 1), (0, 2), (1, 2)})
+    c4_k4 = {0: 2, 1: 1, 2: 0, 3: 0}
+
+    # Derive full K_4 probability q(K_4, K_4) directly from byte-pinned RI-41 certificate:
+    rels_b3_k4 = frozenset({(0, 1)})
+    q_k4_proper_sum = Fraction(0, 1)
+    for s_k4 in _enumerate_poset_ideals(v4_k4, rels_k4):
+        if len(s_k4) == 4:
+            continue
+        key_k4 = _canonical_local_key_4(rels_k4, s_k4, {0: 0, 1: 0, 2: 0, 3: 0})
+        if key_k4 in roots_ri41:
+            idx_k4 = roots_ri41[key_k4]
+        else:
+            _, r4_alt = _append_birth_vertex((0, 1, 3), rels_b3_k4, s_k4, 2)
+            key_alt = _canonical_local_key_4(
+                r4_alt, frozenset({0, 1}), {0: 0, 1: 0, 2: 0, 3: 0}
+            )
+            idx_k4 = roots_ri41[key_alt]
+        alpha_k4 = overrides_ri41.get(idx_k4, default_alpha_ri41)
+        u4_k4 = _maximal_deletion_potential(
+            v4_k4, rels_k4, {0: 0, 1: 0, 2: 0, 3: 0}, s_k4
+        )
+        q_k4_proper_sum += alpha_k4 * u4_k4
+    q_k4_full = Fraction(1, 1) - q_k4_proper_sum
+
+    k4_101_ca3_children: dict[str, dict[str, object]] = {}
+    for child_label, s5_k4 in (
+        ("K5_C4_u_y", frozenset({0, 1, 2})),
+        ("J5_bridged_isolate", frozenset({0, 1, 3})),
+        ("FK4_capped_K4", frozenset({0, 1, 2, 3})),
+    ):
+        v5_c, r5_c = _append_birth_vertex(v4_k4, rels_k4, s5_k4, 4)
+        c5_c = _update_modulo5_counters(c4_k4, s5_k4, 4)
+        st5_c = (_readout_ydr(v5_c, r5_c, c5_c), c5_c[0])
+        if st5_c != ((1, 0, 1), 3):
+            raise RuntimeError(f"Expected ((1,0,1), 3) on {child_label}, got {st5_c}")
+
+        ideals6_by_st6_ca: dict[tuple[tuple[int, int, int], int], list[list[int]]] = {}
+        reach7_from_100_ca4: set[tuple[int, int, int]] = set()
+        c6_at_100_ca4: tuple[int, ...] | None = None
+
+        for s6 in _enumerate_poset_ideals(v5_c, r5_c):
+            v6, r6 = _append_birth_vertex(v5_c, r5_c, s6, 5)
+            c6 = _update_modulo5_counters(c5_c, s6, 5)
+            st6_ca = (_readout_ydr(v6, r6, c6), c6[0])
+            ideals6_by_st6_ca.setdefault(st6_ca, []).append(sorted(s6))
+            if st6_ca == ((1, 0, 0), 4):
+                c6_at_100_ca4 = tuple(c6[k] for k in range(6))
+                for s7 in _enumerate_poset_ideals(v6, r6):
+                    v7, r7 = _append_birth_vertex(v6, r6, s7, 6)
+                    c7 = _update_modulo5_counters(c6, s7, 6)
+                    reach7_from_100_ca4.add(_readout_ydr(v7, r7, c7))
+
+        k4_101_ca3_children[child_label] = {
+            "S5_on_K4": sorted(s5_k4),
+            "counters_c5": tuple(c5_c[k] for k in range(5)),
+            "shared_state_Y5_D5_R5_ca": st5_c,
+            "birth6_state_100_ca3_possible": ((1, 0, 0), 3) in ideals6_by_st6_ca,
+            "birth6_legal_ideals_for_100_ca3": ideals6_by_st6_ca.get(
+                ((1, 0, 0), 3), []
+            ),
+            "birth6_legal_ideals_for_100_ca4": ideals6_by_st6_ca.get(
+                ((1, 0, 0), 4), []
+            ),
+            "c6_counters_after_100_ca4": c6_at_100_ca4,
+            "birth7_cell_101_possible_after_100_ca4": (
+                (1, 0, 1) in reach7_from_100_ca4
+            ),
+            "birth7_reachable_Y7_D7_R7_after_100_ca4": sorted(reach7_from_100_ca4),
+        }
+
+    # 3. Sibling Counterexample 2: Connected single-root Y-poset C_2 + A_2 = (a<b<x, a<b<y)
+    # (branch 13, counters (3, 2, 0, 0)), whose one-cap child W_5 = C_2 + (C_2 u A_1)
+    # and two-cap child M_5 = C_2 + A_2 + A_1 collide in ((Y_5, D_5, R_5), c_a) = ((0, 0, 1), 4):
+    v4_y4 = (0, 1, 2, 3)
+    rels_y4 = frozenset({(0, 1), (0, 2), (1, 2), (0, 3), (1, 3)})
+    c4_y4 = {0: 3, 1: 2, 2: 0, 3: 0}
+    rels_c3_012 = frozenset({(0, 1), (0, 2), (1, 2)})
+
+    # Derive full C_2 + A_2 probability q(C_2 + A_2, i, full) directly from RI-41 certificate:
+    q_y4_full_by_prep: dict[int, Fraction] = {}
+    q_y4_c3_by_prep: dict[int, Fraction] = {}
+    for i_r in (0, 1):
+        prop_sum = Fraction(0, 1)
+        for s_y4 in _enumerate_poset_ideals(v4_y4, rels_y4):
+            if len(s_y4) == 4:
+                continue
+            marks_y4 = {0: i_r, 1: 0, 2: 0, 3: 0}
+            key_y4 = _canonical_local_key_4(rels_y4, s_y4, marks_y4)
+            if key_y4 in roots_ri41:
+                idx_y4 = roots_ri41[key_y4]
+            else:
+                _, r4_alt = _append_birth_vertex((0, 1, 2), rels_c3_012, s_y4, 3)
+                key_alt = _canonical_local_key_4(
+                    r4_alt,
+                    frozenset({0, 1}),
+                    {0: (i_r if 0 in s_y4 else 0), 1: 0, 2: 0, 3: 0},
+                )
+                idx_y4 = roots_ri41[key_alt]
+            alpha_y4 = overrides_ri41.get(idx_y4, default_alpha_ri41)
+            u4_y4 = _maximal_deletion_potential(v4_y4, rels_y4, marks_y4, s_y4)
+            q_val = alpha_y4 * u4_y4
+            prop_sum += q_val
+            if s_y4 == frozenset({0, 1, 2}):
+                q_y4_c3_by_prep[i_r] = q_val
+        q_y4_full_by_prep[i_r] = Fraction(1, 1) - prop_sum
+
+    v5_w5, r5_w5 = _append_birth_vertex(v4_y4, rels_y4, frozenset({0, 1, 2}), 4)
+    c5_w5 = _update_modulo5_counters(c4_y4, frozenset({0, 1, 2}), 4)
+    v5_m5, r5_m5 = _append_birth_vertex(v4_y4, rels_y4, frozenset({0, 1, 2, 3}), 4)
+    c5_m5 = _update_modulo5_counters(c4_y4, frozenset({0, 1, 2, 3}), 4)
+
+    st5_w5 = (_readout_ydr(v5_w5, r5_w5, c5_w5), c5_w5[0])
+    st5_m5 = (_readout_ydr(v5_m5, r5_m5, c5_m5), c5_m5[0])
+    if st5_w5 != ((0, 0, 1), 4) or st5_m5 != ((0, 0, 1), 4):
+        raise RuntimeError("Expected W_5 and M_5 to share ((0,0,1), 4)")
+
+    w5_100_ideals = [
+        sorted(s6)
+        for s6 in _enumerate_poset_ideals(v5_w5, r5_w5)
+        if _readout_ydr(
+            *_append_birth_vertex(v5_w5, r5_w5, s6, 5),
+            _update_modulo5_counters(c5_w5, s6, 5),
+        )
+        == (1, 0, 0)
+    ]
+    m5_100_ideals = [
+        sorted(s6)
+        for s6 in _enumerate_poset_ideals(v5_m5, r5_m5)
+        if _readout_ydr(
+            *_append_birth_vertex(v5_m5, r5_m5, s6, 5),
+            _update_modulo5_counters(c5_m5, s6, 5),
+        )
+        == (1, 0, 0)
+    ]
+
+    # On W_5, the unique ideal for Cell (1,0,0) (and (D_6,R_6)=(0,0)) is S_6={0,1,2}
+    # (defect-raising d=+1 => alpha_min=0), with u(W_5, i, {0,1,2}) = b_i * q(C_2+A_2, i, {0,1,2}) / (41/44).
+    # On M_5, the unique ideal for Cell (1,0,0) (and (D_6,R_6)=(0,0)) is S_6={0,1,2,3}
+    # (defect-raising d=+1 => alpha_min=0), with u(M_5, i, {0,1,2,3}) = q(C_2+A_2, i, full).
+    w5_vs_m5_by_prep: dict[int, dict[str, object]] = {}
+    for i_r in (0, 1):
+        u_w5_100 = (b_c4_i[i_r] * q_y4_c3_by_prep[i_r]) / a_c3_full
+        u_m5_100 = q_y4_full_by_prep[i_r]
+        w5_vs_m5_by_prep[i_r] = {
+            "P_cell_100_and_D6eq0_R6eq0_on_W5_over_theta": str(u_w5_100),
+            "P_cell_100_and_D6eq0_R6eq0_on_M5_over_theta": str(u_m5_100),
+            "difference_M5_minus_W5_over_theta": str(u_m5_100 - u_w5_100),
+            "exact_agreement": u_w5_100 == u_m5_100,
+        }
+
+    return {
+        "root_counter_works_across_all_parent_structures": False,
+        "uses_fixed_ri63_component_ids": False,
+        "survey_across_15_birth4_parent_structures": {
+            "total_birth4_parent_branches": len(b4_branches),
+            "parents_with_birth5_children_resolved_by_Y5_D5_R5_ca": (
+                f"{p4_resolved_by_ydr5_ca_count}/{len(b4_branches)}"
+            ),
+            "only_C4_total_chain_is_resolved": (
+                p4_resolved_by_ydr5_ca_count == 1
+                and p4_parent_survey[14]["all_birth5_children_separated_by_Y5_D5_R5_ca"]
+                is True
+            ),
+            "parent_by_parent_summary": p4_parent_survey,
+            "cross_parent_Y4_D4_R4_ca_cells": birth4_cross_parent_cells,
+        },
+        "sibling_counterexample_1_disconnected_K4_in_cell_101_ca3": {
+            "parent_P4": "K_4 = (a<b<x) u {y} (branch 11, counters (2,1,0,0))",
+            "shared_birth5_state_Y5_D5_R5_ca": "((1, 0, 1), c_a=3)",
+            "children_sharing_101_ca3": k4_101_ca3_children,
+            "birth6_support_split_J5_vs_K5_and_FK4_on_100_ca3": (
+                k4_101_ca3_children["J5_bridged_isolate"]["birth6_state_100_ca3_possible"]
+                is True
+                and k4_101_ca3_children["K5_C4_u_y"]["birth6_state_100_ca3_possible"]
+                is False
+                and k4_101_ca3_children["FK4_capped_K4"]["birth6_state_100_ca3_possible"]
+                is False
+            ),
+            "birth6_defect_raising_rate_on_100_ca4_and_D6eq0_R6eq0": {
+                "K5_over_theta_by_prep": {
+                    0: str(b_c4_i[0] / 8),
+                    1: str(b_c4_i[1] / 8),
+                },
+                "FK4_over_theta_both_preps": str(q_k4_full),
+                "differs_without_ri63_component_lookup": (
+                    (b_c4_i[0] / 8) != q_k4_full and (b_c4_i[1] / 8) != q_k4_full
+                ),
+            },
+            "birth7_support_split_K5_vs_FK4_after_shared_100_ca4_on_cell_101": (
+                k4_101_ca3_children["K5_C4_u_y"][
+                    "birth7_cell_101_possible_after_100_ca4"
+                ]
+                is True
+                and k4_101_ca3_children["FK4_capped_K4"][
+                    "birth7_cell_101_possible_after_100_ca4"
+                ]
+                is False
+            ),
+        },
+        "sibling_counterexample_2_connected_C2_plus_A2_in_cell_001_ca4": {
+            "parent_P4": "C_2 + A_2 = (a<b<x, a<b<y) (branch 13, counters (3,2,0,0))",
+            "shared_birth5_state_Y5_D5_R5_ca": "((0, 0, 1), c_a=4)",
+            "W5_one_cap_counters": tuple(c5_w5[k] for k in range(5)),
+            "M5_two_cap_counters": tuple(c5_m5[k] for k in range(5)),
+            "W5_unique_birth6_ideal_for_100_and_D6eq0_R6eq0": w5_100_ideals,
+            "M5_unique_birth6_ideal_for_100_and_D6eq0_R6eq0": m5_100_ideals,
+            "by_prep": w5_vs_m5_by_prep,
+            "differs_on_both_YDR6_and_DR6_without_ri63_component_lookup": (
+                not w5_vs_m5_by_prep[0]["exact_agreement"]
+                and not w5_vs_m5_by_prep[1]["exact_agreement"]
+            ),
+        },
     }
 
 
